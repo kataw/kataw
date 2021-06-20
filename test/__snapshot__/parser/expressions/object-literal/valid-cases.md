@@ -106,9 +106,9 @@ x = {y: {z: 1}}?.y?.z;
                                 "end": 9
                             },
                             {
-                                "kind": 257,
+                                "kind": 351,
                                 "asyncKeyword": null,
-                                "generatorToken": null,
+                                "asteriskToken": null,
                                 "getKeyword": {
                                     "kind": 16498,
                                     "flags": 96,
@@ -209,9 +209,9 @@ x = {y: {z: 1}}?.y?.z;
                                 "end": 37
                             },
                             {
-                                "kind": 257,
+                                "kind": 351,
                                 "asyncKeyword": null,
-                                "generatorToken": null,
+                                "asteriskToken": null,
                                 "getKeyword": null,
                                 "setKeyword": {
                                     "kind": 16499,
@@ -321,9 +321,9 @@ x = {y: {z: 1}}?.y?.z;
                                 "end": 68
                             },
                             {
-                                "kind": 257,
+                                "kind": 351,
                                 "asyncKeyword": null,
-                                "generatorToken": null,
+                                "asteriskToken": null,
                                 "getKeyword": {
                                     "kind": 16498,
                                     "flags": 96,
@@ -424,9 +424,9 @@ x = {y: {z: 1}}?.y?.z;
                                 "end": 99
                             },
                             {
-                                "kind": 257,
+                                "kind": 351,
                                 "asyncKeyword": null,
-                                "generatorToken": null,
+                                "asteriskToken": null,
                                 "getKeyword": null,
                                 "setKeyword": {
                                     "kind": 16499,
@@ -536,9 +536,9 @@ x = {y: {z: 1}}?.y?.z;
                                 "end": 127
                             },
                             {
-                                "kind": 257,
+                                "kind": 351,
                                 "asyncKeyword": null,
-                                "generatorToken": null,
+                                "asteriskToken": null,
                                 "getKeyword": {
                                     "kind": 16498,
                                     "flags": 96,
@@ -639,9 +639,9 @@ x = {y: {z: 1}}?.y?.z;
                                 "end": 150
                             },
                             {
-                                "kind": 257,
+                                "kind": 351,
                                 "asyncKeyword": null,
-                                "generatorToken": null,
+                                "asteriskToken": null,
                                 "getKeyword": null,
                                 "setKeyword": {
                                     "kind": 16499,
@@ -728,9 +728,9 @@ x = {y: {z: 1}}?.y?.z;
                         "kind": 218,
                         "properties": [
                             {
-                                "kind": 257,
+                                "kind": 351,
                                 "asyncKeyword": null,
-                                "generatorToken": null,
+                                "asteriskToken": null,
                                 "getKeyword": {
                                     "kind": 16498,
                                     "flags": 96,
@@ -781,9 +781,9 @@ x = {y: {z: 1}}?.y?.z;
                                 "end": 182
                             },
                             {
-                                "kind": 257,
+                                "kind": 351,
                                 "asyncKeyword": null,
-                                "generatorToken": null,
+                                "asteriskToken": null,
                                 "getKeyword": {
                                     "kind": 16498,
                                     "flags": 96,
@@ -861,9 +861,9 @@ x = {y: {z: 1}}?.y?.z;
                         "kind": 218,
                         "properties": [
                             {
-                                "kind": 257,
+                                "kind": 351,
                                 "asyncKeyword": null,
-                                "generatorToken": null,
+                                "asteriskToken": null,
                                 "getKeyword": null,
                                 "setKeyword": {
                                     "kind": 16499,
@@ -923,9 +923,9 @@ x = {y: {z: 1}}?.y?.z;
                                 "end": 216
                             },
                             {
-                                "kind": 257,
+                                "kind": 351,
                                 "asyncKeyword": null,
-                                "generatorToken": null,
+                                "asteriskToken": null,
                                 "getKeyword": null,
                                 "setKeyword": {
                                     "kind": 16499,
@@ -1340,9 +1340,9 @@ x = {y: {z: 1}}?.y?.z;
                                         "kind": 218,
                                         "properties": [
                                             {
-                                                "kind": 257,
+                                                "kind": 351,
                                                 "asyncKeyword": null,
-                                                "generatorToken": null,
+                                                "asteriskToken": null,
                                                 "getKeyword": null,
                                                 "setKeyword": null,
                                                 "method": {
@@ -1877,9 +1877,9 @@ x = {y: {z: 1}}?.y?.z;
                                 "end": 413
                             },
                             {
-                                "kind": 257,
+                                "kind": 351,
                                 "asyncKeyword": null,
-                                "generatorToken": null,
+                                "asteriskToken": null,
                                 "getKeyword": {
                                     "kind": 16498,
                                     "flags": 96,
@@ -1980,9 +1980,9 @@ x = {y: {z: 1}}?.y?.z;
                                 "end": 443
                             },
                             {
-                                "kind": 257,
+                                "kind": 351,
                                 "asyncKeyword": null,
-                                "generatorToken": null,
+                                "asteriskToken": null,
                                 "getKeyword": null,
                                 "setKeyword": {
                                     "kind": 16499,
@@ -2069,9 +2069,9 @@ x = {y: {z: 1}}?.y?.z;
                         "kind": 218,
                         "properties": [
                             {
-                                "kind": 257,
+                                "kind": 351,
                                 "asyncKeyword": null,
-                                "generatorToken": null,
+                                "asteriskToken": null,
                                 "getKeyword": null,
                                 "setKeyword": null,
                                 "method": {
@@ -2244,14 +2244,14 @@ x = {y: {z: 1}}?.y?.z;
                         "kind": 218,
                         "properties": [
                             {
-                                "kind": 257,
+                                "kind": 351,
                                 "asyncKeyword": {
                                     "kind": 82031,
                                     "flags": 352,
                                     "start": 513,
                                     "end": 519
                                 },
-                                "generatorToken": null,
+                                "asteriskToken": null,
                                 "getKeyword": null,
                                 "setKeyword": null,
                                 "method": {
@@ -2374,14 +2374,14 @@ x = {y: {z: 1}}?.y?.z;
                         "kind": 218,
                         "properties": [
                             {
-                                "kind": 257,
+                                "kind": 351,
                                 "asyncKeyword": {
                                     "kind": 82031,
                                     "flags": 352,
                                     "start": 554,
                                     "end": 560
                                 },
-                                "generatorToken": null,
+                                "asteriskToken": null,
                                 "getKeyword": null,
                                 "setKeyword": null,
                                 "method": {
@@ -2518,9 +2518,9 @@ x = {y: {z: 1}}?.y?.z;
                         "kind": 218,
                         "properties": [
                             {
-                                "kind": 257,
+                                "kind": 351,
                                 "asyncKeyword": null,
-                                "generatorToken": {
+                                "asteriskToken": {
                                     "kind": 67143222,
                                     "flags": 64,
                                     "start": 608,
@@ -2612,9 +2612,9 @@ x = {y: {z: 1}}?.y?.z;
                         "kind": 218,
                         "properties": [
                             {
-                                "kind": 257,
+                                "kind": 351,
                                 "asyncKeyword": null,
-                                "generatorToken": null,
+                                "asteriskToken": null,
                                 "getKeyword": {
                                     "kind": 16498,
                                     "flags": 96,
@@ -2729,9 +2729,9 @@ x = {y: {z: 1}}?.y?.z;
                                 "end": 679
                             },
                             {
-                                "kind": 257,
+                                "kind": 351,
                                 "asyncKeyword": null,
-                                "generatorToken": null,
+                                "asteriskToken": null,
                                 "getKeyword": null,
                                 "setKeyword": {
                                     "kind": 16499,
@@ -2841,9 +2841,9 @@ x = {y: {z: 1}}?.y?.z;
                                 "end": 707
                             },
                             {
-                                "kind": 257,
+                                "kind": 351,
                                 "asyncKeyword": null,
-                                "generatorToken": null,
+                                "asteriskToken": null,
                                 "getKeyword": null,
                                 "setKeyword": {
                                     "kind": 16499,
@@ -2953,9 +2953,9 @@ x = {y: {z: 1}}?.y?.z;
                                 "end": 735
                             },
                             {
-                                "kind": 257,
+                                "kind": 351,
                                 "asyncKeyword": null,
-                                "generatorToken": null,
+                                "asteriskToken": null,
                                 "getKeyword": {
                                     "kind": 16498,
                                     "flags": 96,
@@ -3056,9 +3056,9 @@ x = {y: {z: 1}}?.y?.z;
                                 "end": 764
                             },
                             {
-                                "kind": 257,
+                                "kind": 351,
                                 "asyncKeyword": null,
-                                "generatorToken": null,
+                                "asteriskToken": null,
                                 "getKeyword": null,
                                 "setKeyword": {
                                     "kind": 16499,

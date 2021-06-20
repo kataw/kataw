@@ -36,9 +36,9 @@ wrap({*async(){}});
                                 "kind": 218,
                                 "properties": [
                                     {
-                                        "kind": 257,
+                                        "kind": 351,
                                         "asyncKeyword": null,
-                                        "generatorToken": {
+                                        "asteriskToken": {
                                             "kind": 67143222,
                                             "flags": 64,
                                             "start": 6,
@@ -126,7 +126,7 @@ wrap({*async(){}});
 
 ```javascript
 
-wrap({ async {} });
+wrap({ * async {} });
 ```
 
 ### Diagnostics

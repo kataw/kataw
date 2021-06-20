@@ -183,14 +183,14 @@ var await; var f = (async function() { async function g(){let o = {async *f(foo 
                                                                                     "kind": 218,
                                                                                     "properties": [
                                                                                         {
-                                                                                            "kind": 257,
+                                                                                            "kind": 351,
                                                                                             "asyncKeyword": {
                                                                                                 "kind": 82031,
                                                                                                 "flags": 352,
                                                                                                 "start": 67,
                                                                                                 "end": 72
                                                                                             },
-                                                                                            "generatorToken": {
+                                                                                            "asteriskToken": {
                                                                                                 "kind": 67143222,
                                                                                                 "flags": 64,
                                                                                                 "start": 72,

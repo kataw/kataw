@@ -125,9 +125,9 @@ function * gen() { function not_gen() { var o = { *gf() { switch (1) { case yiel
                                                                 "kind": 218,
                                                                 "properties": [
                                                                     {
-                                                                        "kind": 257,
+                                                                        "kind": 351,
                                                                         "asyncKeyword": null,
-                                                                        "generatorToken": {
+                                                                        "asteriskToken": {
                                                                             "kind": 67143222,
                                                                             "flags": 64,
                                                                             "start": 49,
@@ -321,7 +321,7 @@ function * gen() { function not_gen() { var o = { *gf() { switch (1) { case yiel
 
 function * gen() {
   function not_gen() {
-    var o = { gf {
+    var o = { * gf {
         switch(1) {
           case  yield:
             break;

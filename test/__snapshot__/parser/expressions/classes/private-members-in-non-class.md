@@ -470,9 +470,9 @@ class C { test() {get #a() { }}}
                         "kind": 218,
                         "properties": [
                             {
-                                "kind": 257,
+                                "kind": 351,
                                 "asyncKeyword": null,
-                                "generatorToken": null,
+                                "asteriskToken": null,
                                 "getKeyword": null,
                                 "setKeyword": {
                                     "kind": 16499,
@@ -573,9 +573,9 @@ class C { test() {get #a() { }}}
                         "kind": 218,
                         "properties": [
                             {
-                                "kind": 257,
+                                "kind": 351,
                                 "asyncKeyword": null,
-                                "generatorToken": {
+                                "asteriskToken": {
                                     "kind": 67143222,
                                     "flags": 64,
                                     "start": 162,
@@ -655,14 +655,14 @@ class C { test() {get #a() { }}}
                             "kind": 218,
                             "properties": [
                                 {
-                                    "kind": 257,
+                                    "kind": 351,
                                     "asyncKeyword": {
                                         "kind": 82031,
                                         "flags": 352,
                                         "start": 178,
                                         "end": 183
                                     },
-                                    "generatorToken": null,
+                                    "asteriskToken": null,
                                     "getKeyword": null,
                                     "setKeyword": null,
                                     "method": {
@@ -761,14 +761,14 @@ class C { test() {get #a() { }}}
                             "kind": 218,
                             "properties": [
                                 {
-                                    "kind": 257,
+                                    "kind": 351,
                                     "asyncKeyword": {
                                         "kind": 82031,
                                         "flags": 352,
                                         "start": 204,
                                         "end": 209
                                     },
-                                    "generatorToken": {
+                                    "asteriskToken": {
                                         "kind": 67143222,
                                         "flags": 64,
                                         "start": 209,

@@ -36,14 +36,14 @@ x({async foo(){}, bar(){}});
                                 "kind": 218,
                                 "properties": [
                                     {
-                                        "kind": 257,
+                                        "kind": 351,
                                         "asyncKeyword": {
                                             "kind": 82031,
                                             "flags": 352,
                                             "start": 3,
                                             "end": 8
                                         },
-                                        "generatorToken": null,
+                                        "asteriskToken": null,
                                         "getKeyword": null,
                                         "setKeyword": null,
                                         "method": {
@@ -89,9 +89,9 @@ x({async foo(){}, bar(){}});
                                         "end": 16
                                     },
                                     {
-                                        "kind": 257,
+                                        "kind": 351,
                                         "asyncKeyword": null,
-                                        "generatorToken": null,
+                                        "asteriskToken": null,
                                         "getKeyword": null,
                                         "setKeyword": null,
                                         "method": {

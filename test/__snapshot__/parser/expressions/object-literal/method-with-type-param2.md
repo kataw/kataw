@@ -47,9 +47,9 @@ a={*id<T>(x: T): T {}}
                         "kind": 218,
                         "properties": [
                             {
-                                "kind": 257,
+                                "kind": 351,
                                 "asyncKeyword": null,
-                                "generatorToken": {
+                                "asteriskToken": {
                                     "kind": 67143222,
                                     "flags": 64,
                                     "start": 3,
@@ -224,7 +224,7 @@ a={*id<T>(x: T): T {}}
 
 ```javascript
 
-a = { id {} };
+a = { * id {} };
 ```
 
 ### Diagnostics

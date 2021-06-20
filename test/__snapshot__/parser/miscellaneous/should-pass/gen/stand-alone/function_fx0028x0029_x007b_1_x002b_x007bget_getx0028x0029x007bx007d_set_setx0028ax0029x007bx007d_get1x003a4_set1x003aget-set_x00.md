@@ -81,9 +81,9 @@ function f() { 1 + {get get(){}, set set(a){}, get1:4, set1:get-set, } }
                                         "kind": 218,
                                         "properties": [
                                             {
-                                                "kind": 257,
+                                                "kind": 351,
                                                 "asyncKeyword": null,
-                                                "generatorToken": null,
+                                                "asteriskToken": null,
                                                 "getKeyword": {
                                                     "kind": 16498,
                                                     "flags": 96,
@@ -134,9 +134,9 @@ function f() { 1 + {get get(){}, set set(a){}, get1:4, set1:get-set, } }
                                                 "end": 31
                                             },
                                             {
-                                                "kind": 257,
+                                                "kind": 351,
                                                 "asyncKeyword": null,
-                                                "generatorToken": null,
+                                                "asteriskToken": null,
                                                 "getKeyword": null,
                                                 "setKeyword": {
                                                     "kind": 16499,

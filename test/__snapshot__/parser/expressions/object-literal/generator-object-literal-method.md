@@ -44,9 +44,9 @@ var x = { *test () { yield *v } };
                                 "kind": 218,
                                 "properties": [
                                     {
-                                        "kind": 257,
+                                        "kind": 351,
                                         "asyncKeyword": null,
-                                        "generatorToken": {
+                                        "asteriskToken": {
                                             "kind": 67143222,
                                             "flags": 64,
                                             "start": 9,
@@ -167,7 +167,7 @@ var x = { *test () { yield *v } };
 
 ```javascript
 
-var x = { test {
+var x = { * test {
     yield * v;
   } };
 ```

@@ -70,14 +70,14 @@ async function foo(a = {async bar() { await b }}) {};
                                 "kind": 218,
                                 "properties": [
                                     {
-                                        "kind": 257,
+                                        "kind": 351,
                                         "asyncKeyword": {
                                             "kind": 82031,
                                             "flags": 352,
                                             "start": 24,
                                             "end": 29
                                         },
-                                        "generatorToken": null,
+                                        "asteriskToken": null,
                                         "getKeyword": null,
                                         "setKeyword": null,
                                         "method": {

@@ -80,9 +80,9 @@
                         "kind": 218,
                         "properties": [
                             {
-                                "kind": 257,
+                                "kind": 351,
                                 "asyncKeyword": null,
-                                "generatorToken": null,
+                                "asteriskToken": null,
                                 "getKeyword": {
                                     "kind": 16498,
                                     "flags": 96,
@@ -160,9 +160,9 @@
                         "kind": 218,
                         "properties": [
                             {
-                                "kind": 257,
+                                "kind": 351,
                                 "asyncKeyword": null,
-                                "generatorToken": null,
+                                "asteriskToken": null,
                                 "getKeyword": null,
                                 "setKeyword": {
                                     "kind": 16499,
@@ -249,9 +249,9 @@
                         "kind": 218,
                         "properties": [
                             {
-                                "kind": 257,
+                                "kind": 351,
                                 "asyncKeyword": null,
-                                "generatorToken": {
+                                "asteriskToken": {
                                     "kind": 67143222,
                                     "flags": 64,
                                     "start": 75,
@@ -329,14 +329,14 @@
                         "kind": 218,
                         "properties": [
                             {
-                                "kind": 257,
+                                "kind": 351,
                                 "asyncKeyword": {
                                     "kind": 82031,
                                     "flags": 352,
                                     "start": 98,
                                     "end": 104
                                 },
-                                "generatorToken": null,
+                                "asteriskToken": null,
                                 "getKeyword": null,
                                 "setKeyword": null,
                                 "method": {
@@ -409,14 +409,14 @@
                         "kind": 218,
                         "properties": [
                             {
-                                "kind": 257,
+                                "kind": 351,
                                 "asyncKeyword": {
                                     "kind": 82031,
                                     "flags": 352,
                                     "start": 126,
                                     "end": 132
                                 },
-                                "generatorToken": {
+                                "asteriskToken": {
                                     "kind": 67143222,
                                     "flags": 64,
                                     "start": 132,
@@ -501,9 +501,9 @@
 ({ prototype: 1 });
 ({ get prototype {} });
 ({ set prototype {} });
-({ prototype {} });
+({ * prototype {} });
 ({ async prototype {} });
-({ async prototype {} });
+({ * async prototype {} });
 ```
 
 ### Diagnostics

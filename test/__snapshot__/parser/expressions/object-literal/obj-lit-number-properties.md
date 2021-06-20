@@ -197,9 +197,9 @@ x({.9(){}, 0x84(){}, 0b1(){}, 0o27(){}, 1e234(){}});
                                 "kind": 218,
                                 "properties": [
                                     {
-                                        "kind": 257,
+                                        "kind": 351,
                                         "asyncKeyword": null,
-                                        "generatorToken": null,
+                                        "asteriskToken": null,
                                         "getKeyword": null,
                                         "setKeyword": null,
                                         "method": {
@@ -245,9 +245,9 @@ x({.9(){}, 0x84(){}, 0b1(){}, 0o27(){}, 1e234(){}});
                                         "end": 53
                                     },
                                     {
-                                        "kind": 257,
+                                        "kind": 351,
                                         "asyncKeyword": null,
-                                        "generatorToken": null,
+                                        "asteriskToken": null,
                                         "getKeyword": null,
                                         "setKeyword": null,
                                         "method": {
@@ -293,9 +293,9 @@ x({.9(){}, 0x84(){}, 0b1(){}, 0o27(){}, 1e234(){}});
                                         "end": 63
                                     },
                                     {
-                                        "kind": 257,
+                                        "kind": 351,
                                         "asyncKeyword": null,
-                                        "generatorToken": null,
+                                        "asteriskToken": null,
                                         "getKeyword": null,
                                         "setKeyword": null,
                                         "method": {
@@ -341,9 +341,9 @@ x({.9(){}, 0x84(){}, 0b1(){}, 0o27(){}, 1e234(){}});
                                         "end": 72
                                     },
                                     {
-                                        "kind": 257,
+                                        "kind": 351,
                                         "asyncKeyword": null,
-                                        "generatorToken": null,
+                                        "asteriskToken": null,
                                         "getKeyword": null,
                                         "setKeyword": null,
                                         "method": {
@@ -389,9 +389,9 @@ x({.9(){}, 0x84(){}, 0b1(){}, 0o27(){}, 1e234(){}});
                                         "end": 82
                                     },
                                     {
-                                        "kind": 257,
+                                        "kind": 351,
                                         "asyncKeyword": null,
-                                        "generatorToken": null,
+                                        "asteriskToken": null,
                                         "getKeyword": null,
                                         "setKeyword": null,
                                         "method": {

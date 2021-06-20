@@ -41,9 +41,9 @@ x = {
                         "kind": 218,
                         "properties": [
                             {
-                                "kind": 257,
+                                "kind": 351,
                                 "asyncKeyword": null,
-                                "generatorToken": {
+                                "asteriskToken": {
                                     "kind": 67143222,
                                     "flags": 65,
                                     "start": 5,
@@ -125,7 +125,7 @@ x = {
 
 ```javascript
 
-x = { "\"\"" {} };
+x = { * "\"\"" {} };
 ```
 
 ### Diagnostics

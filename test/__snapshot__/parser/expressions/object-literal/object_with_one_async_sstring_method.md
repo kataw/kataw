@@ -36,14 +36,14 @@ wrap({async 'foo'(){}});
                                 "kind": 218,
                                 "properties": [
                                     {
-                                        "kind": 257,
+                                        "kind": 351,
                                         "asyncKeyword": {
                                             "kind": 82031,
                                             "flags": 352,
                                             "start": 6,
                                             "end": 11
                                         },
-                                        "generatorToken": null,
+                                        "asteriskToken": null,
                                         "getKeyword": null,
                                         "setKeyword": null,
                                         "method": {

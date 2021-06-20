@@ -61,9 +61,9 @@
                                 "kind": 218,
                                 "properties": [
                                     {
-                                        "kind": 257,
+                                        "kind": 351,
                                         "asyncKeyword": null,
-                                        "generatorToken": {
+                                        "asteriskToken": {
                                             "kind": 67143222,
                                             "flags": 64,
                                             "start": 23,
@@ -227,7 +227,7 @@
 
 ```javascript
 
-var o = { gf {
+var o = { * gf {
     switch(1) {
       case  yield:
         break;

@@ -53,9 +53,9 @@
                                 "end": 18
                             },
                             {
-                                "kind": 257,
+                                "kind": 351,
                                 "asyncKeyword": null,
-                                "generatorToken": null,
+                                "asteriskToken": null,
                                 "getKeyword": {
                                     "kind": 16498,
                                     "flags": 96,
@@ -154,9 +154,9 @@
                                 "end": 60
                             },
                             {
-                                "kind": 257,
+                                "kind": 351,
                                 "asyncKeyword": null,
-                                "generatorToken": null,
+                                "asteriskToken": null,
                                 "getKeyword": null,
                                 "setKeyword": null,
                                 "method": {
@@ -250,9 +250,9 @@
                                 "end": 99
                             },
                             {
-                                "kind": 257,
+                                "kind": 351,
                                 "asyncKeyword": null,
-                                "generatorToken": null,
+                                "asteriskToken": null,
                                 "getKeyword": null,
                                 "setKeyword": {
                                     "kind": 16499,
@@ -360,9 +360,9 @@
                                 "end": 144
                             },
                             {
-                                "kind": 257,
+                                "kind": 351,
                                 "asyncKeyword": null,
-                                "generatorToken": null,
+                                "asteriskToken": null,
                                 "getKeyword": {
                                     "kind": 16498,
                                     "flags": 96,
@@ -413,9 +413,9 @@
                                 "end": 163
                             },
                             {
-                                "kind": 257,
+                                "kind": 351,
                                 "asyncKeyword": null,
-                                "generatorToken": null,
+                                "asteriskToken": null,
                                 "getKeyword": null,
                                 "setKeyword": {
                                     "kind": 16499,
@@ -523,9 +523,9 @@
                                 "end": 208
                             },
                             {
-                                "kind": 257,
+                                "kind": 351,
                                 "asyncKeyword": null,
-                                "generatorToken": null,
+                                "asteriskToken": null,
                                 "getKeyword": null,
                                 "setKeyword": null,
                                 "method": {
@@ -619,9 +619,9 @@
                                 "end": 249
                             },
                             {
-                                "kind": 257,
+                                "kind": 351,
                                 "asyncKeyword": null,
-                                "generatorToken": null,
+                                "asteriskToken": null,
                                 "getKeyword": null,
                                 "setKeyword": {
                                     "kind": 16499,

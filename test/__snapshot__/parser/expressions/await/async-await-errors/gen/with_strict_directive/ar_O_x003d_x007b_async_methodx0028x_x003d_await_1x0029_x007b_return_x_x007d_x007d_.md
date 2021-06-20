@@ -70,14 +70,14 @@
                         "kind": 218,
                         "properties": [
                             {
-                                "kind": 257,
+                                "kind": 351,
                                 "asyncKeyword": {
                                     "kind": 82031,
                                     "flags": 352,
                                     "start": 22,
                                     "end": 28
                                 },
-                                "generatorToken": null,
+                                "asteriskToken": null,
                                 "getKeyword": null,
                                 "setKeyword": null,
                                 "method": {

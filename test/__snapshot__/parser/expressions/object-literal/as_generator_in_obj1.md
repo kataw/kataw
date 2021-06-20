@@ -38,9 +38,9 @@
                         "kind": 218,
                         "properties": [
                             {
-                                "kind": 257,
+                                "kind": 351,
                                 "asyncKeyword": null,
-                                "generatorToken": {
+                                "asteriskToken": {
                                     "kind": 67143222,
                                     "flags": 64,
                                     "start": 2,
@@ -118,9 +118,9 @@
                         "kind": 218,
                         "properties": [
                             {
-                                "kind": 257,
+                                "kind": 351,
                                 "asyncKeyword": null,
-                                "generatorToken": {
+                                "asteriskToken": {
                                     "kind": 67143222,
                                     "flags": 64,
                                     "start": 18,
@@ -198,9 +198,9 @@
                         "kind": 218,
                         "properties": [
                             {
-                                "kind": 257,
+                                "kind": 351,
                                 "asyncKeyword": null,
-                                "generatorToken": {
+                                "asteriskToken": {
                                     "kind": 67143222,
                                     "flags": 64,
                                     "start": 34,
@@ -278,9 +278,9 @@
                         "kind": 218,
                         "properties": [
                             {
-                                "kind": 257,
+                                "kind": 351,
                                 "asyncKeyword": null,
-                                "generatorToken": {
+                                "asteriskToken": {
                                     "kind": 67143222,
                                     "flags": 64,
                                     "start": 54,
@@ -358,9 +358,9 @@
                         "kind": 218,
                         "properties": [
                             {
-                                "kind": 257,
+                                "kind": 351,
                                 "asyncKeyword": null,
-                                "generatorToken": {
+                                "asteriskToken": {
                                     "kind": 67143222,
                                     "flags": 64,
                                     "start": 75,
@@ -438,9 +438,9 @@
                         "kind": 218,
                         "properties": [
                             {
-                                "kind": 257,
+                                "kind": 351,
                                 "asyncKeyword": null,
-                                "generatorToken": {
+                                "asteriskToken": {
                                     "kind": 67143222,
                                     "flags": 64,
                                     "start": 93,
@@ -518,9 +518,9 @@
                         "kind": 218,
                         "properties": [
                             {
-                                "kind": 257,
+                                "kind": 351,
                                 "asyncKeyword": null,
-                                "generatorToken": {
+                                "asteriskToken": {
                                     "kind": 67143222,
                                     "flags": 64,
                                     "start": 114,
@@ -602,13 +602,13 @@
 
 ```javascript
 
-({ set {} });
-({ get {} });
-({ private {} });
-({ readonly {} });
-({ async {} });
-({ function {} });
-({ declare {} });
+({ * set {} });
+({ * get {} });
+({ * private {} });
+({ * readonly {} });
+({ * async {} });
+({ * function {} });
+({ * declare {} });
 ```
 
 ### Diagnostics

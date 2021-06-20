@@ -48,9 +48,9 @@
                                 "end": 18
                             },
                             {
-                                "kind": 257,
+                                "kind": 351,
                                 "asyncKeyword": null,
-                                "generatorToken": null,
+                                "asteriskToken": null,
                                 "getKeyword": {
                                     "kind": 16498,
                                     "flags": 96,
@@ -101,9 +101,9 @@
                                 "end": 37
                             },
                             {
-                                "kind": 257,
+                                "kind": 351,
                                 "asyncKeyword": null,
-                                "generatorToken": null,
+                                "asteriskToken": null,
                                 "getKeyword": null,
                                 "setKeyword": {
                                     "kind": 16499,

@@ -29,14 +29,14 @@
                         "kind": 218,
                         "properties": [
                             {
-                                "kind": 257,
+                                "kind": 351,
                                 "asyncKeyword": {
                                     "kind": 82031,
                                     "flags": 352,
                                     "start": 2,
                                     "end": 8
                                 },
-                                "generatorToken": {
+                                "asteriskToken": {
                                     "kind": 67143222,
                                     "flags": 64,
                                     "start": 8,
@@ -234,14 +234,14 @@
                         "kind": 218,
                         "properties": [
                             {
-                                "kind": 257,
+                                "kind": 351,
                                 "asyncKeyword": {
                                     "kind": 82031,
                                     "flags": 352,
                                     "start": 68,
                                     "end": 74
                                 },
-                                "generatorToken": {
+                                "asteriskToken": {
                                     "kind": 67143222,
                                     "flags": 64,
                                     "start": 74,
@@ -451,14 +451,14 @@
                         "kind": 218,
                         "properties": [
                             {
-                                "kind": 257,
+                                "kind": 351,
                                 "asyncKeyword": {
                                     "kind": 82031,
                                     "flags": 352,
                                     "start": 127,
                                     "end": 133
                                 },
-                                "generatorToken": {
+                                "asteriskToken": {
                                     "kind": 67143222,
                                     "flags": 64,
                                     "start": 133,
@@ -620,14 +620,14 @@
                         "kind": 218,
                         "properties": [
                             {
-                                "kind": 257,
+                                "kind": 351,
                                 "asyncKeyword": {
                                     "kind": 82031,
                                     "flags": 352,
                                     "start": 178,
                                     "end": 184
                                 },
-                                "generatorToken": {
+                                "asteriskToken": {
                                     "kind": 67143222,
                                     "flags": 64,
                                     "start": 184,
@@ -746,14 +746,14 @@
                         "kind": 218,
                         "properties": [
                             {
-                                "kind": 257,
+                                "kind": 351,
                                 "asyncKeyword": {
                                     "kind": 82031,
                                     "flags": 352,
                                     "start": 212,
                                     "end": 218
                                 },
-                                "generatorToken": {
+                                "asteriskToken": {
                                     "kind": 67143222,
                                     "flags": 64,
                                     "start": 218,
@@ -867,11 +867,11 @@
 
 ```javascript
 
-({ async method {} });
-({ async method {} });
-({ async method {} });
-({ async method {} });
-({ async method {} });
+({ * async method {} });
+({ * async method {} });
+({ * async method {} });
+({ * async method {} });
+({ * async method {} });
 ```
 
 ### Diagnostics

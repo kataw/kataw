@@ -257,9 +257,9 @@
                         "kind": 218,
                         "properties": [
                             {
-                                "kind": 257,
+                                "kind": 351,
                                 "asyncKeyword": null,
-                                "generatorToken": null,
+                                "asteriskToken": null,
                                 "getKeyword": null,
                                 "setKeyword": null,
                                 "method": {
@@ -332,14 +332,14 @@
                         "kind": 218,
                         "properties": [
                             {
-                                "kind": 257,
+                                "kind": 351,
                                 "asyncKeyword": {
                                     "kind": 82031,
                                     "flags": 352,
                                     "start": 99,
                                     "end": 104
                                 },
-                                "generatorToken": null,
+                                "asteriskToken": null,
                                 "getKeyword": null,
                                 "setKeyword": null,
                                 "method": {
@@ -428,9 +428,9 @@
                                 "end": 124
                             },
                             {
-                                "kind": 257,
+                                "kind": 351,
                                 "asyncKeyword": null,
-                                "generatorToken": null,
+                                "asteriskToken": null,
                                 "getKeyword": null,
                                 "setKeyword": null,
                                 "method": {
@@ -503,14 +503,14 @@
                         "kind": 218,
                         "properties": [
                             {
-                                "kind": 257,
+                                "kind": 351,
                                 "asyncKeyword": {
                                     "kind": 82031,
                                     "flags": 352,
                                     "start": 139,
                                     "end": 144
                                 },
-                                "generatorToken": null,
+                                "asteriskToken": null,
                                 "getKeyword": null,
                                 "setKeyword": null,
                                 "method": {
@@ -583,14 +583,14 @@
                         "kind": 218,
                         "properties": [
                             {
-                                "kind": 257,
+                                "kind": 351,
                                 "asyncKeyword": {
                                     "kind": 82031,
                                     "flags": 352,
                                     "start": 162,
                                     "end": 167
                                 },
-                                "generatorToken": null,
+                                "asteriskToken": null,
                                 "getKeyword": null,
                                 "setKeyword": null,
                                 "method": {
@@ -669,14 +669,14 @@
                         "kind": 218,
                         "properties": [
                             {
-                                "kind": 257,
+                                "kind": 351,
                                 "asyncKeyword": {
                                     "kind": 82031,
                                     "flags": 352,
                                     "start": 183,
                                     "end": 188
                                 },
-                                "generatorToken": null,
+                                "asteriskToken": null,
                                 "getKeyword": null,
                                 "setKeyword": null,
                                 "method": {

@@ -57,9 +57,9 @@ var f = {
                                 "kind": 218,
                                 "properties": [
                                     {
-                                        "kind": 257,
+                                        "kind": 351,
                                         "asyncKeyword": null,
-                                        "generatorToken": null,
+                                        "asteriskToken": null,
                                         "getKeyword": {
                                             "kind": 16498,
                                             "flags": 97,
@@ -137,9 +137,9 @@ var f = {
                                         "end": 41
                                     },
                                     {
-                                        "kind": 257,
+                                        "kind": 351,
                                         "asyncKeyword": null,
-                                        "generatorToken": null,
+                                        "asteriskToken": null,
                                         "getKeyword": null,
                                         "setKeyword": {
                                             "kind": 16499,
@@ -228,9 +228,9 @@ var f = {
                                         "end": 68
                                     },
                                     {
-                                        "kind": 257,
+                                        "kind": 351,
                                         "asyncKeyword": null,
-                                        "generatorToken": null,
+                                        "asteriskToken": null,
                                         "getKeyword": null,
                                         "setKeyword": {
                                             "kind": 16499,
@@ -313,9 +313,9 @@ var f = {
                                         "end": 106
                                     },
                                     {
-                                        "kind": 257,
+                                        "kind": 351,
                                         "asyncKeyword": null,
-                                        "generatorToken": null,
+                                        "asteriskToken": null,
                                         "getKeyword": {
                                             "kind": 16498,
                                             "flags": 97,

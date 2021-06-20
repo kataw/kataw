@@ -47,9 +47,9 @@ x({get 0o4567(){}});
                                 "kind": 218,
                                 "properties": [
                                     {
-                                        "kind": 257,
+                                        "kind": 351,
                                         "asyncKeyword": null,
-                                        "generatorToken": {
+                                        "asteriskToken": {
                                             "kind": 67143222,
                                             "flags": 64,
                                             "start": 3,
@@ -100,9 +100,9 @@ x({get 0o4567(){}});
                                         "end": 12
                                     },
                                     {
-                                        "kind": 257,
+                                        "kind": 351,
                                         "asyncKeyword": null,
-                                        "generatorToken": {
+                                        "asteriskToken": {
                                             "kind": 67143222,
                                             "flags": 64,
                                             "start": 13,
@@ -197,9 +197,9 @@ x({get 0o4567(){}});
                                 "kind": 218,
                                 "properties": [
                                     {
-                                        "kind": 257,
+                                        "kind": 351,
                                         "asyncKeyword": null,
-                                        "generatorToken": null,
+                                        "asteriskToken": null,
                                         "getKeyword": null,
                                         "setKeyword": null,
                                         "method": {
@@ -251,9 +251,9 @@ x({get 0o4567(){}});
                                         "end": 37
                                     },
                                     {
-                                        "kind": 257,
+                                        "kind": 351,
                                         "asyncKeyword": null,
-                                        "generatorToken": null,
+                                        "asteriskToken": null,
                                         "getKeyword": {
                                             "kind": 16498,
                                             "flags": 96,
@@ -354,9 +354,9 @@ x({get 0o4567(){}});
                                 "kind": 218,
                                 "properties": [
                                     {
-                                        "kind": 257,
+                                        "kind": 351,
                                         "asyncKeyword": null,
-                                        "generatorToken": null,
+                                        "asteriskToken": null,
                                         "getKeyword": {
                                             "kind": 16498,
                                             "flags": 96,
@@ -457,9 +457,9 @@ x({get 0o4567(){}});
                                 "kind": 218,
                                 "properties": [
                                     {
-                                        "kind": 257,
+                                        "kind": 351,
                                         "asyncKeyword": null,
-                                        "generatorToken": null,
+                                        "asteriskToken": null,
                                         "getKeyword": {
                                             "kind": 16498,
                                             "flags": 96,
@@ -516,9 +516,9 @@ x({get 0o4567(){}});
                                         "end": 92
                                     },
                                     {
-                                        "kind": 257,
+                                        "kind": 351,
                                         "asyncKeyword": null,
-                                        "generatorToken": null,
+                                        "asteriskToken": null,
                                         "getKeyword": {
                                             "kind": 16498,
                                             "flags": 96,
@@ -619,9 +619,9 @@ x({get 0o4567(){}});
                                 "kind": 218,
                                 "properties": [
                                     {
-                                        "kind": 257,
+                                        "kind": 351,
                                         "asyncKeyword": null,
-                                        "generatorToken": null,
+                                        "asteriskToken": null,
                                         "getKeyword": {
                                             "kind": 16498,
                                             "flags": 96,
@@ -716,9 +716,9 @@ x({get 0o4567(){}});
                                 "kind": 218,
                                 "properties": [
                                     {
-                                        "kind": 257,
+                                        "kind": 351,
                                         "asyncKeyword": null,
-                                        "generatorToken": null,
+                                        "asteriskToken": null,
                                         "getKeyword": {
                                             "kind": 16498,
                                             "flags": 96,
@@ -769,9 +769,9 @@ x({get 0o4567(){}});
                                         "end": 143
                                     },
                                     {
-                                        "kind": 257,
+                                        "kind": 351,
                                         "asyncKeyword": null,
-                                        "generatorToken": null,
+                                        "asteriskToken": null,
                                         "getKeyword": {
                                             "kind": 16498,
                                             "flags": 96,
@@ -866,9 +866,9 @@ x({get 0o4567(){}});
                                 "kind": 218,
                                 "properties": [
                                     {
-                                        "kind": 257,
+                                        "kind": 351,
                                         "asyncKeyword": null,
-                                        "generatorToken": null,
+                                        "asteriskToken": null,
                                         "getKeyword": {
                                             "kind": 16498,
                                             "flags": 96,
@@ -963,9 +963,9 @@ x({get 0o4567(){}});
                                 "kind": 218,
                                 "properties": [
                                     {
-                                        "kind": 257,
+                                        "kind": 351,
                                         "asyncKeyword": null,
-                                        "generatorToken": null,
+                                        "asteriskToken": null,
                                         "getKeyword": {
                                             "kind": 16498,
                                             "flags": 96,
@@ -1060,9 +1060,9 @@ x({get 0o4567(){}});
                                 "kind": 218,
                                 "properties": [
                                     {
-                                        "kind": 257,
+                                        "kind": 351,
                                         "asyncKeyword": null,
-                                        "generatorToken": null,
+                                        "asteriskToken": null,
                                         "getKeyword": {
                                             "kind": 16498,
                                             "flags": 96,
@@ -1157,9 +1157,9 @@ x({get 0o4567(){}});
                                 "kind": 218,
                                 "properties": [
                                     {
-                                        "kind": 257,
+                                        "kind": 351,
                                         "asyncKeyword": null,
-                                        "generatorToken": null,
+                                        "asteriskToken": null,
                                         "getKeyword": {
                                             "kind": 16498,
                                             "flags": 96,
@@ -1254,9 +1254,9 @@ x({get 0o4567(){}});
                                 "kind": 218,
                                 "properties": [
                                     {
-                                        "kind": 257,
+                                        "kind": 351,
                                         "asyncKeyword": null,
-                                        "generatorToken": null,
+                                        "asteriskToken": null,
                                         "getKeyword": {
                                             "kind": 16498,
                                             "flags": 96,
@@ -1344,7 +1344,7 @@ x({get 0o4567(){}});
 
 ```javascript
 
-x({ foo {}, bar {} });
+x({ * foo {}, * bar {} });
 x({ [foo] {}, get [bar] {} });
 x({ get [foo] {} });
 x({ get [foo] {}, get [bar] {} });

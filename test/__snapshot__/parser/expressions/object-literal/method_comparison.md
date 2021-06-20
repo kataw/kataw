@@ -33,9 +33,9 @@
                             "kind": 218,
                             "properties": [
                                 {
-                                    "kind": 257,
+                                    "kind": 351,
                                     "asyncKeyword": null,
-                                    "generatorToken": null,
+                                    "asteriskToken": null,
                                     "getKeyword": null,
                                     "setKeyword": null,
                                     "method": {

@@ -99,14 +99,14 @@
                                                 "kind": 218,
                                                 "properties": [
                                                     {
-                                                        "kind": 257,
+                                                        "kind": 351,
                                                         "asyncKeyword": {
                                                             "kind": 82031,
                                                             "flags": 352,
                                                             "start": 42,
                                                             "end": 47
                                                         },
-                                                        "generatorToken": {
+                                                        "asteriskToken": {
                                                             "kind": 67143222,
                                                             "flags": 64,
                                                             "start": 47,

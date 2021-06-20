@@ -33,14 +33,14 @@
                         "kind": 218,
                         "properties": [
                             {
-                                "kind": 257,
+                                "kind": 351,
                                 "asyncKeyword": {
                                     "kind": 82031,
                                     "flags": 352,
                                     "start": 2,
                                     "end": 8
                                 },
-                                "generatorToken": {
+                                "asteriskToken": {
                                     "kind": 67143222,
                                     "flags": 64,
                                     "start": 8,
@@ -162,7 +162,7 @@
 
 ```javascript
 
-({ async gen {
+({ * async gen {
     await 10;
     return ;
   } });

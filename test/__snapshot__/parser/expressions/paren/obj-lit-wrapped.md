@@ -3590,9 +3590,9 @@
                         "kind": 218,
                         "properties": [
                             {
-                                "kind": 257,
+                                "kind": 351,
                                 "asyncKeyword": null,
-                                "generatorToken": {
+                                "asteriskToken": {
                                     "kind": 67143222,
                                     "flags": 64,
                                     "start": 802,
@@ -3712,7 +3712,7 @@
 ({}.x);
 ([].x);
 ([x].foo) = x;
-({ 15 {} });
+({ * 15 {} });
 ```
 
 ### Diagnostics

@@ -52,14 +52,14 @@ var O = { *async method() {} };
                                 "kind": 218,
                                 "properties": [
                                     {
-                                        "kind": 257,
+                                        "kind": 351,
                                         "asyncKeyword": {
                                             "kind": 82031,
                                             "flags": 480,
                                             "start": 9,
                                             "end": 16
                                         },
-                                        "generatorToken": null,
+                                        "asteriskToken": null,
                                         "getKeyword": null,
                                         "setKeyword": null,
                                         "method": {

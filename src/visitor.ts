@@ -3,6 +3,7 @@ import { SyntaxKind, SyntaxNode, NodeFlags } from './ast/syntax-node';
 import { createRootNode, RootNode } from './ast/rootNode';
 import { StatementNode } from './ast/statements';
 import { createAssignmentExpression, AssignmentExpression } from './ast/expressions/assignment-expr';
+import { createForBinding, ForBinding } from './ast/statements/for-binding';
 import { createExpressionStatement, ExpressionStatement } from './ast/statements/expression-stmt';
 import { createArrayLiteral, ArrayLiteral } from './ast/expressions/array-literal';
 import { createBinaryExpression, BinaryExpression } from './ast/expressions/binary-expr';
@@ -43,6 +44,7 @@ import { createFunctionStatementList, FunctionStatementList } from './ast/expres
 import { createFunctionBody, FunctionBody } from './ast/expressions/function-body';
 import { createImportCall, ImportCall } from './ast/expressions/import-call';
 import { createMethodDefinition, MethodDefinition } from './ast/expressions/method-definition';
+import { createPropertyMethod, PropertyMethod } from './ast/expressions/property-method';
 import { createNewExpression, NewExpression } from './ast/expressions/new-expr';
 import { createObjectBindingPattern, ObjectBindingPattern } from './ast/expressions/object-binding-pattern';
 import { createObjectLiteral, ObjectLiteral } from './ast/expressions/object-literal';
@@ -336,6 +338,22 @@ export function visitEachChild(
             (<VariableDeclarationList>node).end
           )
         : node;
+    case SyntaxKind.PropertyMethod:
+      return (<PropertyMethod>node).asteriskToken !== visitNode((<PropertyMethod>node).asteriskToken, visitor) ||
+        (<PropertyMethod>node).asyncKeyword !== visitNode((<PropertyMethod>node).asyncKeyword, visitor) ||
+        (<PropertyMethod>node).getKeyword !== visitNode((<PropertyMethod>node).getKeyword, visitor) ||
+        (<PropertyMethod>node).setKeyword !== visitNode((<PropertyMethod>node).setKeyword, visitor) ||
+        (<PropertyMethod>node).method !== visitNode((<PropertyMethod>node).method, visitor)
+        ? createPropertyMethod(
+            (<PropertyMethod>node).asteriskToken,
+            (<PropertyMethod>node).asyncKeyword,
+            (<PropertyMethod>node).getKeyword,
+            (<PropertyMethod>node).setKeyword,
+            (<PropertyMethod>node).method,
+            (<PropertyMethod>node).start,
+            (<PropertyMethod>node).end
+          )
+        : node;
     case SyntaxKind.LexicalDeclaration:
       return (<LexicalDeclaration>node).lexicalKeyword !==
         visitNode((<LexicalDeclaration>node).lexicalKeyword, visitor) ||
@@ -423,6 +441,16 @@ export function visitEachChild(
             (<AwaitExpression>node).expression,
             (<AwaitExpression>node).start,
             (<AwaitExpression>node).end
+          )
+        : node;
+        case SyntaxKind.ForBinding:
+      return (<ForBinding>node).varKeyword !== visitNode((<ForBinding>node).varKeyword, visitor) ||
+        (<ForBinding>node).declarationList !== visitNode((<ForBinding>node).declarationList, visitor)
+        ? createForBinding(
+            (<ForBinding>node).varKeyword,
+            (<ForBinding>node).declarationList,
+            (<ForBinding>node).start,
+            (<ForBinding>node).end
           )
         : node;
     case SyntaxKind.BindingElement:

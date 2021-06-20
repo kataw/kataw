@@ -6,7 +6,7 @@ import { MethodDefinition } from './method-definition';
  * Property method
  */
 export interface PropertyMethod extends SyntaxNode {
-  readonly generatorToken: SyntaxToken<TokenSyntaxKind> | null;
+  readonly asteriskToken: SyntaxToken<TokenSyntaxKind> | null;
   readonly asyncKeyword: SyntaxToken<TokenSyntaxKind> | null;
   readonly getKeyword: SyntaxToken<TokenSyntaxKind> | null;
   readonly setKeyword: SyntaxToken<TokenSyntaxKind> | null;
@@ -14,7 +14,7 @@ export interface PropertyMethod extends SyntaxNode {
 }
 
 export function createPropertyMethod(
-  generatorToken: SyntaxToken<TokenSyntaxKind> | null,
+  asteriskToken: SyntaxToken<TokenSyntaxKind> | null,
   asyncKeyword: SyntaxToken<TokenSyntaxKind> | null,
   getKeyword: SyntaxToken<TokenSyntaxKind> | null,
   setKeyword: SyntaxToken<TokenSyntaxKind> | null,
@@ -25,7 +25,7 @@ export function createPropertyMethod(
   return {
     kind: SyntaxKind.PropertyMethod,
     asyncKeyword,
-    generatorToken,
+    asteriskToken,
     getKeyword,
     setKeyword,
     method,

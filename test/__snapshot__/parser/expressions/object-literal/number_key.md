@@ -25,14 +25,14 @@
                         "kind": 218,
                         "properties": [
                             {
-                                "kind": 257,
+                                "kind": 351,
                                 "asyncKeyword": {
                                     "kind": 82031,
                                     "flags": 352,
                                     "start": 2,
                                     "end": 10
                                 },
-                                "generatorToken": {
+                                "asteriskToken": {
                                     "kind": 67143222,
                                     "flags": 64,
                                     "start": 10,
@@ -114,7 +114,7 @@
 
 ```javascript
 
-({ async 500 {} });
+({ * async 500 {} });
 ```
 
 ### Diagnostics
