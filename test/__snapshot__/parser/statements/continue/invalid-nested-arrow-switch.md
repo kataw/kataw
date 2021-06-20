@@ -70,6 +70,12 @@
                                                 "start": 24,
                                                 "end": 26
                                             },
+                                            "colonToken": {
+                                                "kind": 21,
+                                                "flags": 64,
+                                                "start": 26,
+                                                "end": 27
+                                            },
                                             "statements": [
                                                 {
                                                     "kind": 172,

@@ -139,6 +139,12 @@
                                                                             "start": 49,
                                                                             "end": 55
                                                                         },
+                                                                        "colonToken": {
+                                                                            "kind": 21,
+                                                                            "flags": 64,
+                                                                            "start": 55,
+                                                                            "end": 56
+                                                                        },
                                                                         "statements": [
                                                                             {
                                                                                 "kind": 150,

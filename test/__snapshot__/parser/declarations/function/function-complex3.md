@@ -241,6 +241,12 @@ function b1<A: 'a', B: A>(b: B): void {
                                             "start": 55,
                                             "end": 59
                                         },
+                                        "colonToken": {
+                                            "kind": 21,
+                                            "flags": 64,
+                                            "start": 59,
+                                            "end": 60
+                                        },
                                         "statements": [
                                             {
                                                 "kind": 150,
@@ -276,6 +282,12 @@ function b1<A: 'a', B: A>(b: B): void {
                                             "start": 82,
                                             "end": 86
                                         },
+                                        "colonToken": {
+                                            "kind": 21,
+                                            "flags": 64,
+                                            "start": 86,
+                                            "end": 87
+                                        },
                                         "statements": [
                                             {
                                                 "kind": 150,
@@ -310,6 +322,12 @@ function b1<A: 'a', B: A>(b: B): void {
                                             "flags": 4194400,
                                             "start": 109,
                                             "end": 113
+                                        },
+                                        "colonToken": {
+                                            "kind": 21,
+                                            "flags": 64,
+                                            "start": 113,
+                                            "end": 114
                                         },
                                         "statements": [
                                             {

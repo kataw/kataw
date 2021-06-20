@@ -46,6 +46,12 @@ switch (true) { case true: const x = 1; }
                             "start": 20,
                             "end": 25
                         },
+                        "colonToken": {
+                            "kind": 21,
+                            "flags": 64,
+                            "start": 25,
+                            "end": 26
+                        },
                         "statements": [
                             {
                                 "kind": 162,

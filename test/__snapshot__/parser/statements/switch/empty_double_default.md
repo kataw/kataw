@@ -42,6 +42,12 @@ switch(x) { default: default: }
                             "start": 11,
                             "end": 19
                         },
+                        "colonToken": {
+                            "kind": 21,
+                            "flags": 64,
+                            "start": 19,
+                            "end": 20
+                        },
                         "statements": [],
                         "flags": 16,
                         "start": 11,
@@ -54,6 +60,12 @@ switch(x) { default: default: }
                             "flags": 80,
                             "start": 20,
                             "end": 28
+                        },
+                        "colonToken": {
+                            "kind": 21,
+                            "flags": 64,
+                            "start": 28,
+                            "end": 29
                         },
                         "statements": [],
                         "flags": 16,

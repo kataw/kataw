@@ -58,6 +58,12 @@ switch(x) /* comment */ { case y: foo }
                             "start": 30,
                             "end": 32
                         },
+                        "colonToken": {
+                            "kind": 21,
+                            "flags": 64,
+                            "start": 32,
+                            "end": 33
+                        },
                         "statements": [
                             {
                                 "kind": 120,

@@ -68,15 +68,6 @@ class do {}
                 "start": 5,
                 "end": 8
             },
-            "expression": {
-                "kind": 16637,
-                "text": "",
-                "rawText": "",
-                "flags": 64,
-                "start": 11,
-                "end": 11
-            },
-            "whileKeyword": null,
             "statement": {
                 "kind": 124,
                 "block": {
@@ -88,6 +79,15 @@ class do {}
                 },
                 "flags": 16,
                 "start": 8,
+                "end": 11
+            },
+            "whileKeyword": null,
+            "expression": {
+                "kind": 16637,
+                "text": "",
+                "rawText": "",
+                "flags": 64,
+                "start": 11,
                 "end": 11
             },
             "flags": 80,

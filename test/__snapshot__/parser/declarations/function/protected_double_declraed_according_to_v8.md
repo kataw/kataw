@@ -94,6 +94,12 @@ const protected = x, function arguments(){}
                                                 "start": 46,
                                                 "end": 60
                                             },
+                                            "colonToken": {
+                                                "kind": 21,
+                                                "flags": 64,
+                                                "start": 60,
+                                                "end": 61
+                                            },
                                             "statements": [],
                                             "flags": 16,
                                             "start": 46,

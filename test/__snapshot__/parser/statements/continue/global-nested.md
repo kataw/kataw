@@ -23,18 +23,6 @@ do     if (x) continue   ; while(true);
                 "start": 0,
                 "end": 2
             },
-            "expression": {
-                "kind": 24752947,
-                "flags": 96,
-                "start": 33,
-                "end": 37
-            },
-            "whileKeyword": {
-                "kind": 37757028,
-                "flags": 64,
-                "start": 26,
-                "end": 32
-            },
             "statement": {
                 "kind": 164,
                 "ifKeyword": {
@@ -69,6 +57,18 @@ do     if (x) continue   ; while(true);
                 "flags": 80,
                 "start": 2,
                 "end": 26
+            },
+            "whileKeyword": {
+                "kind": 37757028,
+                "flags": 64,
+                "start": 26,
+                "end": 32
+            },
+            "expression": {
+                "kind": 24752947,
+                "flags": 96,
+                "start": 33,
+                "end": 37
             },
             "flags": 80,
             "start": 0,

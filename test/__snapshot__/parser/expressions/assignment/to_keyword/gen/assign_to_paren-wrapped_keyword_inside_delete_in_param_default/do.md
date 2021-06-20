@@ -106,15 +106,6 @@ async (x = delete ((do) = f)) => {}
                 "start": 20,
                 "end": 22
             },
-            "expression": {
-                "kind": 16637,
-                "text": "",
-                "rawText": "",
-                "flags": 64,
-                "start": 22,
-                "end": 22
-            },
-            "whileKeyword": null,
             "statement": {
                 "kind": 120,
                 "expression": {
@@ -126,6 +117,15 @@ async (x = delete ((do) = f)) => {}
                     "end": 22
                 },
                 "flags": 16,
+                "start": 22,
+                "end": 22
+            },
+            "whileKeyword": null,
+            "expression": {
+                "kind": 16637,
+                "text": "",
+                "rawText": "",
+                "flags": 64,
                 "start": 22,
                 "end": 22
             },

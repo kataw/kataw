@@ -1594,40 +1594,6 @@ function foo8_c(x) {
                                 "start": 620,
                                 "end": 627
                             },
-                            "expression": {
-                                "kind": 198,
-                                "left": {
-                                    "kind": 201392130,
-                                    "text": 1,
-                                    "rawText": "1",
-                                    "flags": 96,
-                                    "start": 754,
-                                    "end": 755
-                                },
-                                "operatorToken": {
-                                    "kind": 34620,
-                                    "flags": 96,
-                                    "start": 755,
-                                    "end": 759
-                                },
-                                "right": {
-                                    "kind": 201392130,
-                                    "text": 1,
-                                    "rawText": "1",
-                                    "flags": 96,
-                                    "start": 759,
-                                    "end": 761
-                                },
-                                "flags": 32,
-                                "start": 754,
-                                "end": 761
-                            },
-                            "whileKeyword": {
-                                "kind": 37757028,
-                                "flags": 64,
-                                "start": 746,
-                                "end": 752
-                            },
                             "statement": {
                                 "kind": 124,
                                 "block": {
@@ -1882,6 +1848,40 @@ function foo8_c(x) {
                                 "flags": 16,
                                 "start": 627,
                                 "end": 746
+                            },
+                            "whileKeyword": {
+                                "kind": 37757028,
+                                "flags": 64,
+                                "start": 746,
+                                "end": 752
+                            },
+                            "expression": {
+                                "kind": 198,
+                                "left": {
+                                    "kind": 201392130,
+                                    "text": 1,
+                                    "rawText": "1",
+                                    "flags": 96,
+                                    "start": 754,
+                                    "end": 755
+                                },
+                                "operatorToken": {
+                                    "kind": 34620,
+                                    "flags": 96,
+                                    "start": 755,
+                                    "end": 759
+                                },
+                                "right": {
+                                    "kind": 201392130,
+                                    "text": 1,
+                                    "rawText": "1",
+                                    "flags": 96,
+                                    "start": 759,
+                                    "end": 761
+                                },
+                                "flags": 32,
+                                "start": 754,
+                                "end": 761
                             },
                             "flags": 81,
                             "start": 620,
@@ -3200,40 +3200,6 @@ function foo8_c(x) {
                                 "start": 1307,
                                 "end": 1314
                             },
-                            "expression": {
-                                "kind": 198,
-                                "left": {
-                                    "kind": 201392130,
-                                    "text": 1,
-                                    "rawText": "1",
-                                    "flags": 96,
-                                    "start": 1452,
-                                    "end": 1453
-                                },
-                                "operatorToken": {
-                                    "kind": 34620,
-                                    "flags": 96,
-                                    "start": 1453,
-                                    "end": 1457
-                                },
-                                "right": {
-                                    "kind": 201392130,
-                                    "text": 1,
-                                    "rawText": "1",
-                                    "flags": 96,
-                                    "start": 1457,
-                                    "end": 1459
-                                },
-                                "flags": 32,
-                                "start": 1452,
-                                "end": 1459
-                            },
-                            "whileKeyword": {
-                                "kind": 37757028,
-                                "flags": 64,
-                                "start": 1444,
-                                "end": 1450
-                            },
                             "statement": {
                                 "kind": 124,
                                 "block": {
@@ -3544,6 +3510,40 @@ function foo8_c(x) {
                                 "flags": 16,
                                 "start": 1314,
                                 "end": 1444
+                            },
+                            "whileKeyword": {
+                                "kind": 37757028,
+                                "flags": 64,
+                                "start": 1444,
+                                "end": 1450
+                            },
+                            "expression": {
+                                "kind": 198,
+                                "left": {
+                                    "kind": 201392130,
+                                    "text": 1,
+                                    "rawText": "1",
+                                    "flags": 96,
+                                    "start": 1452,
+                                    "end": 1453
+                                },
+                                "operatorToken": {
+                                    "kind": 34620,
+                                    "flags": 96,
+                                    "start": 1453,
+                                    "end": 1457
+                                },
+                                "right": {
+                                    "kind": 201392130,
+                                    "text": 1,
+                                    "rawText": "1",
+                                    "flags": 96,
+                                    "start": 1457,
+                                    "end": 1459
+                                },
+                                "flags": 32,
+                                "start": 1452,
+                                "end": 1459
                             },
                             "flags": 81,
                             "start": 1307,
@@ -5393,40 +5393,6 @@ function foo8_c(x) {
                                 "start": 2305,
                                 "end": 2312
                             },
-                            "expression": {
-                                "kind": 198,
-                                "left": {
-                                    "kind": 201392130,
-                                    "text": 1,
-                                    "rawText": "1",
-                                    "flags": 96,
-                                    "start": 2447,
-                                    "end": 2448
-                                },
-                                "operatorToken": {
-                                    "kind": 34620,
-                                    "flags": 96,
-                                    "start": 2448,
-                                    "end": 2452
-                                },
-                                "right": {
-                                    "kind": 201392130,
-                                    "text": 1,
-                                    "rawText": "1",
-                                    "flags": 96,
-                                    "start": 2452,
-                                    "end": 2454
-                                },
-                                "flags": 32,
-                                "start": 2447,
-                                "end": 2454
-                            },
-                            "whileKeyword": {
-                                "kind": 37757028,
-                                "flags": 64,
-                                "start": 2439,
-                                "end": 2445
-                            },
                             "statement": {
                                 "kind": 124,
                                 "block": {
@@ -5688,6 +5654,40 @@ function foo8_c(x) {
                                 "flags": 16,
                                 "start": 2312,
                                 "end": 2439
+                            },
+                            "whileKeyword": {
+                                "kind": 37757028,
+                                "flags": 64,
+                                "start": 2439,
+                                "end": 2445
+                            },
+                            "expression": {
+                                "kind": 198,
+                                "left": {
+                                    "kind": 201392130,
+                                    "text": 1,
+                                    "rawText": "1",
+                                    "flags": 96,
+                                    "start": 2447,
+                                    "end": 2448
+                                },
+                                "operatorToken": {
+                                    "kind": 34620,
+                                    "flags": 96,
+                                    "start": 2448,
+                                    "end": 2452
+                                },
+                                "right": {
+                                    "kind": 201392130,
+                                    "text": 1,
+                                    "rawText": "1",
+                                    "flags": 96,
+                                    "start": 2452,
+                                    "end": 2454
+                                },
+                                "flags": 32,
+                                "start": 2447,
+                                "end": 2454
                             },
                             "flags": 81,
                             "start": 2305,
@@ -6982,40 +6982,6 @@ function foo8_c(x) {
                                 "start": 3022,
                                 "end": 3029
                             },
-                            "expression": {
-                                "kind": 198,
-                                "left": {
-                                    "kind": 201392130,
-                                    "text": 1,
-                                    "rawText": "1",
-                                    "flags": 96,
-                                    "start": 3179,
-                                    "end": 3180
-                                },
-                                "operatorToken": {
-                                    "kind": 34620,
-                                    "flags": 96,
-                                    "start": 3180,
-                                    "end": 3184
-                                },
-                                "right": {
-                                    "kind": 201392130,
-                                    "text": 1,
-                                    "rawText": "1",
-                                    "flags": 96,
-                                    "start": 3184,
-                                    "end": 3186
-                                },
-                                "flags": 32,
-                                "start": 3179,
-                                "end": 3186
-                            },
-                            "whileKeyword": {
-                                "kind": 37757028,
-                                "flags": 64,
-                                "start": 3171,
-                                "end": 3177
-                            },
                             "statement": {
                                 "kind": 124,
                                 "block": {
@@ -7340,6 +7306,40 @@ function foo8_c(x) {
                                 "flags": 16,
                                 "start": 3029,
                                 "end": 3171
+                            },
+                            "whileKeyword": {
+                                "kind": 37757028,
+                                "flags": 64,
+                                "start": 3171,
+                                "end": 3177
+                            },
+                            "expression": {
+                                "kind": 198,
+                                "left": {
+                                    "kind": 201392130,
+                                    "text": 1,
+                                    "rawText": "1",
+                                    "flags": 96,
+                                    "start": 3179,
+                                    "end": 3180
+                                },
+                                "operatorToken": {
+                                    "kind": 34620,
+                                    "flags": 96,
+                                    "start": 3180,
+                                    "end": 3184
+                                },
+                                "right": {
+                                    "kind": 201392130,
+                                    "text": 1,
+                                    "rawText": "1",
+                                    "flags": 96,
+                                    "start": 3184,
+                                    "end": 3186
+                                },
+                                "flags": 32,
+                                "start": 3179,
+                                "end": 3186
                             },
                             "flags": 81,
                             "start": 3022,

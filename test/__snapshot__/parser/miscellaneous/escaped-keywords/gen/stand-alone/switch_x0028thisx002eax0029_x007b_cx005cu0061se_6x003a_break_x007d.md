@@ -70,6 +70,12 @@ switch (this.a) { c\u0061se 6: break; }
                             "start": 27,
                             "end": 29
                         },
+                        "colonToken": {
+                            "kind": 21,
+                            "flags": 64,
+                            "start": 29,
+                            "end": 30
+                        },
                         "statements": [
                             {
                                 "kind": 150,

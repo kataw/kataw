@@ -189,6 +189,12 @@ function * gen() { function not_gen() { function* gf() { switch (1) { case yield
                                                                             "start": 74,
                                                                             "end": 87
                                                                         },
+                                                                        "colonToken": {
+                                                                            "kind": 21,
+                                                                            "flags": 64,
+                                                                            "start": 87,
+                                                                            "end": 88
+                                                                        },
                                                                         "statements": [
                                                                             {
                                                                                 "kind": 150,

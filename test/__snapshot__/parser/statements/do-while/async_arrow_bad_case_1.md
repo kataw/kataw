@@ -24,15 +24,6 @@ do async
                 "start": 0,
                 "end": 2
             },
-            "expression": {
-                "kind": 16637,
-                "text": "",
-                "rawText": "",
-                "flags": 64,
-                "start": 17,
-                "end": 17
-            },
-            "whileKeyword": null,
             "statement": {
                 "kind": 271,
                 "arrowToken": {
@@ -60,6 +51,15 @@ do async
                 },
                 "flags": 288,
                 "start": 2,
+                "end": 17
+            },
+            "whileKeyword": null,
+            "expression": {
+                "kind": 16637,
+                "text": "",
+                "rawText": "",
+                "flags": 64,
+                "start": 17,
                 "end": 17
             },
             "flags": 80,

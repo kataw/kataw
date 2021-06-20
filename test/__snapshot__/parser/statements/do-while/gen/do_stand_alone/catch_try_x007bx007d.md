@@ -31,15 +31,6 @@ do catch try {}
                 "start": 0,
                 "end": 2
             },
-            "expression": {
-                "kind": 16637,
-                "text": "",
-                "rawText": "",
-                "flags": 64,
-                "start": 8,
-                "end": 8
-            },
-            "whileKeyword": null,
             "statement": {
                 "kind": 159,
                 "tryKeyword": null,
@@ -86,6 +77,15 @@ do catch try {}
                 "finallyBlock": null,
                 "flags": 16,
                 "start": 2,
+                "end": 8
+            },
+            "whileKeyword": null,
+            "expression": {
+                "kind": 16637,
+                "text": "",
+                "rawText": "",
+                "flags": 64,
+                "start": 8,
                 "end": 8
             },
             "flags": 80,

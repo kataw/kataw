@@ -172,6 +172,12 @@ function not_gen() { var gfe = function* rgfe() { switch (1) { case yield* 'foo'
                                                                             "start": 67,
                                                                             "end": 80
                                                                         },
+                                                                        "colonToken": {
+                                                                            "kind": 21,
+                                                                            "flags": 64,
+                                                                            "start": 80,
+                                                                            "end": 81
+                                                                        },
                                                                         "statements": [
                                                                             {
                                                                                 "kind": 150,

@@ -72,6 +72,7 @@ interface CaseClause <: Statements {
   kind: NodeKind.CaseClause;
   clauseKeyword: SyntaxToken<TokenSyntaxKind>;
   expression: Expression;
+  colonToken: SyntaxToken<TokenSyntaxKind>;
   statements: [ Statement ];
 }
 ```
@@ -82,6 +83,7 @@ interface CaseClause <: Statements {
 interface DefaultClause <: Statements {
   kind: NodeKind.DefaultClause;
   defaultKeyword: SyntaxToken<TokenSyntaxKind>;
+  colonToken: SyntaxToken<TokenSyntaxKind>;
   statements: [ Statement ];
 }
 ```

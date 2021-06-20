@@ -31,13 +31,6 @@ do while try this and !foo
                 "start": 0,
                 "end": 2
             },
-            "expression": {
-                "kind": 4276321,
-                "flags": 96,
-                "start": 12,
-                "end": 17
-            },
-            "whileKeyword": null,
             "statement": {
                 "kind": 154,
                 "whileKeyword": {
@@ -97,6 +90,13 @@ do while try this and !foo
                 "flags": 80,
                 "start": 2,
                 "end": 12
+            },
+            "whileKeyword": null,
+            "expression": {
+                "kind": 4276321,
+                "flags": 96,
+                "start": 12,
+                "end": 17
             },
             "flags": 80,
             "start": 0,

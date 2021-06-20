@@ -138,6 +138,12 @@ var gfe = function* rgfe() { switch (1) { case yield* 'foo': break; } }
                                                             "start": 46,
                                                             "end": 59
                                                         },
+                                                        "colonToken": {
+                                                            "kind": 21,
+                                                            "flags": 64,
+                                                            "start": 59,
+                                                            "end": 60
+                                                        },
                                                         "statements": [
                                                             {
                                                                 "kind": 150,

@@ -60,15 +60,6 @@
                 "start": 15,
                 "end": 17
             },
-            "expression": {
-                "kind": 16637,
-                "text": "",
-                "rawText": "",
-                "flags": 64,
-                "start": 21,
-                "end": 21
-            },
-            "whileKeyword": null,
             "statement": {
                 "kind": 120,
                 "expression": {
@@ -101,6 +92,15 @@
                 },
                 "flags": 16,
                 "start": 17,
+                "end": 21
+            },
+            "whileKeyword": null,
+            "expression": {
+                "kind": 16637,
+                "text": "",
+                "rawText": "",
+                "flags": 64,
+                "start": 21,
                 "end": 21
             },
             "flags": 80,

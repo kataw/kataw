@@ -50,6 +50,12 @@ switch (0) { case 1: function f() {} default: const f = 0 }
                             "start": 17,
                             "end": 19
                         },
+                        "colonToken": {
+                            "kind": 21,
+                            "flags": 64,
+                            "start": 19,
+                            "end": 20
+                        },
                         "statements": [
                             {
                                 "kind": 176,
@@ -110,6 +116,12 @@ switch (0) { case 1: function f() {} default: const f = 0 }
                             "flags": 80,
                             "start": 36,
                             "end": 44
+                        },
+                        "colonToken": {
+                            "kind": 21,
+                            "flags": 64,
+                            "start": 44,
+                            "end": 45
                         },
                         "statements": [
                             {

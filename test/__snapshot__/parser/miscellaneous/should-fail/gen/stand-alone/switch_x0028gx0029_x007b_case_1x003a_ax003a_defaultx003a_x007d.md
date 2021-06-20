@@ -58,6 +58,12 @@ switch (g) { case 1: a: default: }
                             "start": 17,
                             "end": 19
                         },
+                        "colonToken": {
+                            "kind": 21,
+                            "flags": 64,
+                            "start": 19,
+                            "end": 20
+                        },
                         "statements": [
                             {
                                 "kind": 163,
@@ -105,6 +111,12 @@ switch (g) { case 1: a: default: }
                             "flags": 80,
                             "start": 23,
                             "end": 31
+                        },
+                        "colonToken": {
+                            "kind": 21,
+                            "flags": 64,
+                            "start": 31,
+                            "end": 32
                         },
                         "statements": [],
                         "flags": 16,

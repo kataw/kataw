@@ -58,6 +58,12 @@ foo: switch (x) { default: break foo; }
                                 "start": 17,
                                 "end": 25
                             },
+                            "colonToken": {
+                                "kind": 21,
+                                "flags": 64,
+                                "start": 25,
+                                "end": 26
+                            },
                             "statements": [
                                 {
                                     "kind": 150,

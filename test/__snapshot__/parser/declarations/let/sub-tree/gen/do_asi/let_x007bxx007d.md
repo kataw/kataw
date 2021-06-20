@@ -32,6 +32,21 @@ while (a);
                 "start": 0,
                 "end": 2
             },
+            "statement": {
+                "kind": 120,
+                "expression": {
+                    "kind": 134299649,
+                    "text": "let",
+                    "rawText": "let",
+                    "flags": 96,
+                    "start": 2,
+                    "end": 6
+                },
+                "flags": 16,
+                "start": 2,
+                "end": 6
+            },
+            "whileKeyword": null,
             "expression": {
                 "kind": 220,
                 "propertyList": {
@@ -54,21 +69,6 @@ while (a);
                 "flags": 48,
                 "start": 6,
                 "end": 10
-            },
-            "whileKeyword": null,
-            "statement": {
-                "kind": 120,
-                "expression": {
-                    "kind": 134299649,
-                    "text": "let",
-                    "rawText": "let",
-                    "flags": 96,
-                    "start": 2,
-                    "end": 6
-                },
-                "flags": 16,
-                "start": 2,
-                "end": 6
             },
             "flags": 80,
             "start": 0,

@@ -43,18 +43,6 @@
                                     "start": 7,
                                     "end": 10
                                 },
-                                "expression": {
-                                    "kind": 24752947,
-                                    "flags": 96,
-                                    "start": 39,
-                                    "end": 43
-                                },
-                                "whileKeyword": {
-                                    "kind": 37757028,
-                                    "flags": 64,
-                                    "start": 32,
-                                    "end": 38
-                                },
                                 "statement": {
                                     "kind": 172,
                                     "continueKeyword": {
@@ -74,6 +62,18 @@
                                     "flags": 16,
                                     "start": 10,
                                     "end": 32
+                                },
+                                "whileKeyword": {
+                                    "kind": 37757028,
+                                    "flags": 64,
+                                    "start": 32,
+                                    "end": 38
+                                },
+                                "expression": {
+                                    "kind": 24752947,
+                                    "flags": 96,
+                                    "start": 39,
+                                    "end": 43
                                 },
                                 "flags": 80,
                                 "start": 7,

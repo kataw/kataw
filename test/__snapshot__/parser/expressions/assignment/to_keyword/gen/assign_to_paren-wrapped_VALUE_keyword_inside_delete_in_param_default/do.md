@@ -133,15 +133,6 @@ function *f(x = delete ((do) = f)) {}
                 "start": 25,
                 "end": 27
             },
-            "expression": {
-                "kind": 16637,
-                "text": "",
-                "rawText": "",
-                "flags": 64,
-                "start": 27,
-                "end": 27
-            },
-            "whileKeyword": null,
             "statement": {
                 "kind": 120,
                 "expression": {
@@ -153,6 +144,15 @@ function *f(x = delete ((do) = f)) {}
                     "end": 27
                 },
                 "flags": 16,
+                "start": 27,
+                "end": 27
+            },
+            "whileKeyword": null,
+            "expression": {
+                "kind": 16637,
+                "text": "",
+                "rawText": "",
+                "flags": 64,
                 "start": 27,
                 "end": 27
             },

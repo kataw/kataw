@@ -23,20 +23,6 @@ do if(8)function s(){}while(y)
                 "start": 0,
                 "end": 2
             },
-            "expression": {
-                "kind": 134299649,
-                "text": "y",
-                "rawText": "y",
-                "flags": 96,
-                "start": 28,
-                "end": 29
-            },
-            "whileKeyword": {
-                "kind": 37757028,
-                "flags": 64,
-                "start": 22,
-                "end": 27
-            },
             "statement": {
                 "kind": 164,
                 "ifKeyword": {
@@ -105,6 +91,20 @@ do if(8)function s(){}while(y)
                 "flags": 80,
                 "start": 2,
                 "end": 22
+            },
+            "whileKeyword": {
+                "kind": 37757028,
+                "flags": 64,
+                "start": 22,
+                "end": 27
+            },
+            "expression": {
+                "kind": 134299649,
+                "text": "y",
+                "rawText": "y",
+                "flags": 96,
+                "start": 28,
+                "end": 29
             },
             "flags": 80,
             "start": 0,

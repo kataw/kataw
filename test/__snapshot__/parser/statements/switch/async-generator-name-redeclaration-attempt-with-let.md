@@ -50,6 +50,12 @@ switch (0) { case 1: async function* f() {} default: let f }
                             "start": 17,
                             "end": 19
                         },
+                        "colonToken": {
+                            "kind": 21,
+                            "flags": 64,
+                            "start": 19,
+                            "end": 20
+                        },
                         "statements": [
                             {
                                 "kind": 176,
@@ -120,6 +126,12 @@ switch (0) { case 1: async function* f() {} default: let f }
                             "flags": 80,
                             "start": 43,
                             "end": 51
+                        },
+                        "colonToken": {
+                            "kind": 21,
+                            "flags": 64,
+                            "start": 51,
+                            "end": 52
                         },
                         "statements": [
                             {

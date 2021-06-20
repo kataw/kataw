@@ -56,6 +56,12 @@ switch (this.a) { c\u0061se 6: break; }
                             "start": 17,
                             "end": 30
                         },
+                        "colonToken": {
+                            "kind": 21,
+                            "flags": 64,
+                            "start": 30,
+                            "end": 31
+                        },
                         "statements": [
                             {
                                 "kind": 150,
@@ -130,6 +136,12 @@ switch (this.a) { c\u0061se 6: break; }
                             "flags": 96,
                             "start": 69,
                             "end": 71
+                        },
+                        "colonToken": {
+                            "kind": 21,
+                            "flags": 64,
+                            "start": 71,
+                            "end": 72
                         },
                         "statements": [
                             {

@@ -55,6 +55,12 @@ switch (0) {
                             "start": 19,
                             "end": 21
                         },
+                        "colonToken": {
+                            "kind": 21,
+                            "flags": 64,
+                            "start": 21,
+                            "end": 22
+                        },
                         "statements": [
                             {
                                 "kind": 176,
@@ -115,6 +121,12 @@ switch (0) {
                             "flags": 81,
                             "start": 42,
                             "end": 52
+                        },
+                        "colonToken": {
+                            "kind": 21,
+                            "flags": 64,
+                            "start": 52,
+                            "end": 53
                         },
                         "statements": [
                             {

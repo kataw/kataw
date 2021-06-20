@@ -53,6 +53,12 @@ switch (x) {
                             "start": 12,
                             "end": 22
                         },
+                        "colonToken": {
+                            "kind": 21,
+                            "flags": 64,
+                            "start": 22,
+                            "end": 23
+                        },
                         "statements": [
                             {
                                 "kind": 176,

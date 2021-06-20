@@ -42,6 +42,12 @@ switch (A) {default: D; case B: C; }
                             "start": 12,
                             "end": 19
                         },
+                        "colonToken": {
+                            "kind": 21,
+                            "flags": 64,
+                            "start": 19,
+                            "end": 20
+                        },
                         "statements": [
                             {
                                 "kind": 120,
@@ -77,6 +83,12 @@ switch (A) {default: D; case B: C; }
                             "flags": 96,
                             "start": 28,
                             "end": 30
+                        },
+                        "colonToken": {
+                            "kind": 21,
+                            "flags": 64,
+                            "start": 30,
+                            "end": 31
                         },
                         "statements": [
                             {

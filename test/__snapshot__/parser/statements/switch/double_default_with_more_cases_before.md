@@ -50,6 +50,12 @@ switch(x) { case y: break; case z: break; default: default: }
                             "start": 16,
                             "end": 18
                         },
+                        "colonToken": {
+                            "kind": 21,
+                            "flags": 64,
+                            "start": 18,
+                            "end": 19
+                        },
                         "statements": [
                             {
                                 "kind": 150,
@@ -85,6 +91,12 @@ switch(x) { case y: break; case z: break; default: default: }
                             "start": 31,
                             "end": 33
                         },
+                        "colonToken": {
+                            "kind": 21,
+                            "flags": 64,
+                            "start": 33,
+                            "end": 34
+                        },
                         "statements": [
                             {
                                 "kind": 150,
@@ -112,6 +124,12 @@ switch(x) { case y: break; case z: break; default: default: }
                             "start": 41,
                             "end": 49
                         },
+                        "colonToken": {
+                            "kind": 21,
+                            "flags": 64,
+                            "start": 49,
+                            "end": 50
+                        },
                         "statements": [],
                         "flags": 16,
                         "start": 41,
@@ -124,6 +142,12 @@ switch(x) { case y: break; case z: break; default: default: }
                             "flags": 80,
                             "start": 50,
                             "end": 58
+                        },
+                        "colonToken": {
+                            "kind": 21,
+                            "flags": 64,
+                            "start": 58,
+                            "end": 59
                         },
                         "statements": [],
                         "flags": 16,

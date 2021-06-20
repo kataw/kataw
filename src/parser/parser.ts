@@ -528,11 +528,11 @@ function parseCaseBlock(
     const statements = [];
     if (caseOrDefaultToken.kind === SyntaxKind.CaseKeyword) {
       const expression = parseExpressionCoverGrammar(parser, context);
-      consume(parser, context | Context.AllowRegExp, SyntaxKind.Colon);
+      const colonToken = consumeToken(parser, context | Context.AllowRegExp, SyntaxKind.Colon);
       while (parser.token & 0b00010100100000010110000000000000) {
         statements.push(parseStatementListItem(parser, context, scope, labels, ownLabels));
       }
-      clauses.push(createCaseClause(caseOrDefaultToken, expression, statements, pos, parser.curPos));
+      clauses.push(createCaseClause(caseOrDefaultToken, expression, colonToken, statements, pos, parser.curPos));
     } else {
       if (hasDefaultCase) {
         parser.onError(
@@ -544,11 +544,11 @@ function parseCaseBlock(
         );
       }
       hasDefaultCase = true;
-      consume(parser, context | Context.AllowRegExp, SyntaxKind.Colon);
+      const colonToken = consumeToken(parser, context | Context.AllowRegExp, SyntaxKind.Colon);
       while (parser.token & 0b00010100100000010110000000000000) {
         statements.push(parseStatementListItem(parser, context, scope, labels, ownLabels));
       }
-      clauses.push(createDefaultClause(caseOrDefaultToken, statements, pos, parser.curPos));
+      clauses.push(createDefaultClause(caseOrDefaultToken, colonToken, statements, pos, parser.curPos));
     }
   }
   consume(

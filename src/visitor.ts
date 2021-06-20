@@ -794,6 +794,7 @@ export function visitEachChild(
         ? createCaseClause(
             (<CaseClause>node).caseKeyword,
             (<CaseClause>node).expression,
+            (<CaseClause>node).colonToken,
             (<CaseClause>node).statements,
             (<CaseClause>node).start,
             (<CaseClause>node).end
@@ -804,6 +805,7 @@ export function visitEachChild(
         (<DefaultClause>node).statements !== visitNodes((<DefaultClause>node).statements, visitor)
         ? createDefaultClause(
             (<DefaultClause>node).defaultKeyword,
+            (<CaseClause>node).colonToken,
             (<DefaultClause>node).statements,
             (<DefaultClause>node).start,
             (<DefaultClause>node).end

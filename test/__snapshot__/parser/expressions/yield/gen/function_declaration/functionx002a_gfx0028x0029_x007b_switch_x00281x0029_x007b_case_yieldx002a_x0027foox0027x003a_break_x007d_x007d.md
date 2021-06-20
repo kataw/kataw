@@ -150,6 +150,12 @@ function not_gen() { function* gf() { switch (1) { case yield* 'foo': break; } }
                                                             "start": 55,
                                                             "end": 68
                                                         },
+                                                        "colonToken": {
+                                                            "kind": 21,
+                                                            "flags": 64,
+                                                            "start": 68,
+                                                            "end": 69
+                                                        },
                                                         "statements": [
                                                             {
                                                                 "kind": 150,

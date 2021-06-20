@@ -164,6 +164,12 @@ function not_gen() { var o = { *gf() { switch (1) { case yield: break; } } } }}
                                                                                             "start": 56,
                                                                                             "end": 62
                                                                                         },
+                                                                                        "colonToken": {
+                                                                                            "kind": 21,
+                                                                                            "flags": 64,
+                                                                                            "start": 62,
+                                                                                            "end": 63
+                                                                                        },
                                                                                         "statements": [
                                                                                             {
                                                                                                 "kind": 150,

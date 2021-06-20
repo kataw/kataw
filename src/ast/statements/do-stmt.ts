@@ -8,9 +8,9 @@ import { ExpressionNode } from '../expressions';
  */
 export interface DoWhileStatement extends SyntaxNode {
   readonly doKeyword: SyntaxToken<TokenSyntaxKind>;
-  readonly expression: ExpressionNode;
-  readonly whileKeyword: SyntaxToken<TokenSyntaxKind>;
   readonly statement: StatementNode;
+  readonly whileKeyword: SyntaxToken<TokenSyntaxKind>;
+  readonly expression: ExpressionNode;
 }
 
 export function createDoWhileStatement(
@@ -25,9 +25,9 @@ export function createDoWhileStatement(
   return {
     kind: SyntaxKind.DoWhileStatement,
     doKeyword,
-    expression,
-    whileKeyword,
     statement,
+    whileKeyword,
+    expression,
     flags,
     start,
     end

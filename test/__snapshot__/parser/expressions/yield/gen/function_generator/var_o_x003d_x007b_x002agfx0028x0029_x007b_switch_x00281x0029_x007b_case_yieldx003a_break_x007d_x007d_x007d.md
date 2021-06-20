@@ -203,6 +203,12 @@ function * gen() { function not_gen() { var o = { *gf() { switch (1) { case yiel
                                                                                                             "start": 75,
                                                                                                             "end": 81
                                                                                                         },
+                                                                                                        "colonToken": {
+                                                                                                            "kind": 21,
+                                                                                                            "flags": 64,
+                                                                                                            "start": 81,
+                                                                                                            "end": 82
+                                                                                                        },
                                                                                                         "statements": [
                                                                                                             {
                                                                                                                 "kind": 150,

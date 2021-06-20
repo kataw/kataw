@@ -31,15 +31,6 @@ do[ /)finally
                 "start": 0,
                 "end": 2
             },
-            "expression": {
-                "kind": 16637,
-                "text": "",
-                "rawText": "",
-                "flags": 64,
-                "start": 13,
-                "end": 13
-            },
-            "whileKeyword": null,
             "statement": {
                 "kind": 120,
                 "expression": {
@@ -66,6 +57,15 @@ do[ /)finally
                 },
                 "flags": 16,
                 "start": 2,
+                "end": 13
+            },
+            "whileKeyword": null,
+            "expression": {
+                "kind": 16637,
+                "text": "",
+                "rawText": "",
+                "flags": 64,
+                "start": 13,
                 "end": 13
             },
             "flags": 80,

@@ -31,15 +31,6 @@ do( try { !xxx while
                 "start": 0,
                 "end": 2
             },
-            "expression": {
-                "kind": 16637,
-                "text": "",
-                "rawText": "",
-                "flags": 64,
-                "start": 3,
-                "end": 3
-            },
-            "whileKeyword": null,
             "statement": {
                 "kind": 120,
                 "expression": {
@@ -58,6 +49,15 @@ do( try { !xxx while
                 },
                 "flags": 16,
                 "start": 2,
+                "end": 3
+            },
+            "whileKeyword": null,
+            "expression": {
+                "kind": 16637,
+                "text": "",
+                "rawText": "",
+                "flags": 64,
+                "start": 3,
                 "end": 3
             },
             "flags": 80,

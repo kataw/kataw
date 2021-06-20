@@ -31,20 +31,6 @@ do a > b instanceof c while (x);
                 "start": 0,
                 "end": 2
             },
-            "expression": {
-                "kind": 134299649,
-                "text": "x",
-                "rawText": "x",
-                "flags": 96,
-                "start": 29,
-                "end": 30
-            },
-            "whileKeyword": {
-                "kind": 37757028,
-                "flags": 64,
-                "start": 21,
-                "end": 27
-            },
             "statement": {
                 "kind": 120,
                 "expression": {
@@ -98,6 +84,20 @@ do a > b instanceof c while (x);
                 "flags": 16,
                 "start": 2,
                 "end": 21
+            },
+            "whileKeyword": {
+                "kind": 37757028,
+                "flags": 64,
+                "start": 21,
+                "end": 27
+            },
+            "expression": {
+                "kind": 134299649,
+                "text": "x",
+                "rawText": "x",
+                "flags": 96,
+                "start": 29,
+                "end": 30
             },
             "flags": 80,
             "start": 0,

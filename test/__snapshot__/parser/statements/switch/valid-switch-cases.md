@@ -104,6 +104,12 @@ switch (answer) { case 0: let a; };
                             "start": 17,
                             "end": 21
                         },
+                        "colonToken": {
+                            "kind": 21,
+                            "flags": 64,
+                            "start": 21,
+                            "end": 22
+                        },
                         "statements": [
                             {
                                 "kind": 160,
@@ -131,6 +137,12 @@ switch (answer) { case 0: let a; };
                                                 "flags": 80,
                                                 "start": 35,
                                                 "end": 43
+                                            },
+                                            "colonToken": {
+                                                "kind": 21,
+                                                "flags": 64,
+                                                "start": 43,
+                                                "end": 44
                                             },
                                             "statements": [
                                                 {
@@ -173,6 +185,12 @@ switch (answer) { case 0: let a; };
                             "flags": 80,
                             "start": 49,
                             "end": 57
+                        },
+                        "colonToken": {
+                            "kind": 21,
+                            "flags": 64,
+                            "start": 57,
+                            "end": 58
                         },
                         "statements": [
                             {
@@ -258,6 +276,12 @@ switch (answer) { case 0: let a; };
                             "start": 84,
                             "end": 86
                         },
+                        "colonToken": {
+                            "kind": 21,
+                            "flags": 64,
+                            "start": 86,
+                            "end": 87
+                        },
                         "statements": [
                             {
                                 "kind": 120,
@@ -339,6 +363,12 @@ switch (answer) { case 0: let a; };
                             "flags": 96,
                             "start": 110,
                             "end": 112
+                        },
+                        "colonToken": {
+                            "kind": 21,
+                            "flags": 64,
+                            "start": 112,
+                            "end": 113
                         },
                         "statements": [
                             {
@@ -443,6 +473,12 @@ switch (answer) { case 0: let a; };
                             "flags": 96,
                             "start": 141,
                             "end": 143
+                        },
+                        "colonToken": {
+                            "kind": 21,
+                            "flags": 64,
+                            "start": 143,
+                            "end": 144
                         },
                         "statements": [
                             {
@@ -549,6 +585,12 @@ switch (answer) { case 0: let a; };
                             "start": 173,
                             "end": 176
                         },
+                        "colonToken": {
+                            "kind": 21,
+                            "flags": 64,
+                            "start": 176,
+                            "end": 177
+                        },
                         "statements": [
                             {
                                 "kind": 120,
@@ -603,6 +645,12 @@ switch (answer) { case 0: let a; };
                             "flags": 80,
                             "start": 189,
                             "end": 197
+                        },
+                        "colonToken": {
+                            "kind": 21,
+                            "flags": 64,
+                            "start": 197,
+                            "end": 198
                         },
                         "statements": [
                             {
@@ -672,6 +720,12 @@ switch (answer) { case 0: let a; };
                             "flags": 96,
                             "start": 230,
                             "end": 233
+                        },
+                        "colonToken": {
+                            "kind": 21,
+                            "flags": 64,
+                            "start": 233,
+                            "end": 234
                         },
                         "statements": [
                             {
@@ -784,6 +838,12 @@ switch (answer) { case 0: let a; };
                             "flags": 96,
                             "start": 273,
                             "end": 275
+                        },
+                        "colonToken": {
+                            "kind": 21,
+                            "flags": 64,
+                            "start": 275,
+                            "end": 276
                         },
                         "statements": [
                             {
@@ -912,6 +972,12 @@ switch (answer) { case 0: let a; };
                             "start": 312,
                             "end": 314
                         },
+                        "colonToken": {
+                            "kind": 21,
+                            "flags": 64,
+                            "start": 314,
+                            "end": 315
+                        },
                         "statements": [
                             {
                                 "kind": 120,
@@ -981,6 +1047,12 @@ switch (answer) { case 0: let a; };
                             "flags": 96,
                             "start": 337,
                             "end": 339
+                        },
+                        "colonToken": {
+                            "kind": 21,
+                            "flags": 64,
+                            "start": 339,
+                            "end": 340
                         },
                         "statements": [
                             {
@@ -1074,6 +1146,12 @@ switch (answer) { case 0: let a; };
                             "flags": 96,
                             "start": 367,
                             "end": 369
+                        },
+                        "colonToken": {
+                            "kind": 21,
+                            "flags": 64,
+                            "start": 369,
+                            "end": 370
                         },
                         "statements": [
                             {
@@ -1199,6 +1277,12 @@ switch (answer) { case 0: let a; };
                             "start": 403,
                             "end": 405
                         },
+                        "colonToken": {
+                            "kind": 21,
+                            "flags": 64,
+                            "start": 405,
+                            "end": 406
+                        },
                         "statements": [
                             {
                                 "kind": 120,
@@ -1309,6 +1393,12 @@ switch (answer) { case 0: let a; };
                             "start": 437,
                             "end": 439
                         },
+                        "colonToken": {
+                            "kind": 21,
+                            "flags": 64,
+                            "start": 439,
+                            "end": 440
+                        },
                         "statements": [
                             {
                                 "kind": 120,
@@ -1378,6 +1468,12 @@ switch (answer) { case 0: let a; };
                             "flags": 96,
                             "start": 465,
                             "end": 469
+                        },
+                        "colonToken": {
+                            "kind": 21,
+                            "flags": 64,
+                            "start": 469,
+                            "end": 470
                         },
                         "statements": [
                             {
@@ -1487,6 +1583,12 @@ switch (answer) { case 0: let a; };
                             "start": 507,
                             "end": 509
                         },
+                        "colonToken": {
+                            "kind": 21,
+                            "flags": 64,
+                            "start": 509,
+                            "end": 510
+                        },
                         "statements": [
                             {
                                 "kind": 120,
@@ -1562,6 +1664,12 @@ switch (answer) { case 0: let a; };
                             "flags": 96,
                             "start": 536,
                             "end": 538
+                        },
+                        "colonToken": {
+                            "kind": 21,
+                            "flags": 64,
+                            "start": 538,
+                            "end": 539
                         },
                         "statements": [
                             {
@@ -1654,6 +1762,12 @@ switch (answer) { case 0: let a; };
                             "flags": 96,
                             "start": 570,
                             "end": 572
+                        },
+                        "colonToken": {
+                            "kind": 21,
+                            "flags": 64,
+                            "start": 572,
+                            "end": 573
                         },
                         "statements": [
                             {
@@ -1777,6 +1891,12 @@ switch (answer) { case 0: let a; };
                             "start": 625,
                             "end": 627
                         },
+                        "colonToken": {
+                            "kind": 21,
+                            "flags": 64,
+                            "start": 627,
+                            "end": 628
+                        },
                         "statements": [
                             {
                                 "kind": 120,
@@ -1860,6 +1980,12 @@ switch (answer) { case 0: let a; };
                             "flags": 96,
                             "start": 715,
                             "end": 717
+                        },
+                        "colonToken": {
+                            "kind": 21,
+                            "flags": 64,
+                            "start": 717,
+                            "end": 718
                         },
                         "statements": [
                             {
@@ -1951,6 +2077,12 @@ switch (answer) { case 0: let a; };
                             "start": 744,
                             "end": 746
                         },
+                        "colonToken": {
+                            "kind": 21,
+                            "flags": 64,
+                            "start": 746,
+                            "end": 747
+                        },
                         "statements": [
                             {
                                 "kind": 120,
@@ -2021,6 +2153,12 @@ switch (answer) { case 0: let a; };
                             "start": 772,
                             "end": 774
                         },
+                        "colonToken": {
+                            "kind": 21,
+                            "flags": 64,
+                            "start": 774,
+                            "end": 775
+                        },
                         "statements": [
                             {
                                 "kind": 120,
@@ -2089,6 +2227,12 @@ switch (answer) { case 0: let a; };
                             "flags": 96,
                             "start": 799,
                             "end": 801
+                        },
+                        "colonToken": {
+                            "kind": 21,
+                            "flags": 64,
+                            "start": 801,
+                            "end": 802
                         },
                         "statements": [
                             {
@@ -2173,6 +2317,12 @@ switch (answer) { case 0: let a; };
                             "flags": 96,
                             "start": 826,
                             "end": 828
+                        },
+                        "colonToken": {
+                            "kind": 21,
+                            "flags": 64,
+                            "start": 828,
+                            "end": 829
                         },
                         "statements": [
                             {
@@ -2290,6 +2440,12 @@ switch (answer) { case 0: let a; };
                             "flags": 96,
                             "start": 860,
                             "end": 862
+                        },
+                        "colonToken": {
+                            "kind": 21,
+                            "flags": 64,
+                            "start": 862,
+                            "end": 863
                         },
                         "statements": [
                             {
@@ -2420,6 +2576,12 @@ switch (answer) { case 0: let a; };
                             "flags": 96,
                             "start": 903,
                             "end": 905
+                        },
+                        "colonToken": {
+                            "kind": 21,
+                            "flags": 64,
+                            "start": 905,
+                            "end": 906
                         },
                         "statements": [
                             {
@@ -2576,6 +2738,12 @@ switch (answer) { case 0: let a; };
                             "start": 952,
                             "end": 954
                         },
+                        "colonToken": {
+                            "kind": 21,
+                            "flags": 64,
+                            "start": 954,
+                            "end": 955
+                        },
                         "statements": [
                             {
                                 "kind": 176,
@@ -2641,6 +2809,12 @@ switch (answer) { case 0: let a; };
                             "flags": 80,
                             "start": 977,
                             "end": 985
+                        },
+                        "colonToken": {
+                            "kind": 21,
+                            "flags": 64,
+                            "start": 985,
+                            "end": 986
                         },
                         "statements": [
                             {
@@ -2749,6 +2923,12 @@ switch (answer) { case 0: let a; };
                             "flags": 96,
                             "start": 1028,
                             "end": 1030
+                        },
+                        "colonToken": {
+                            "kind": 21,
+                            "flags": 64,
+                            "start": 1030,
+                            "end": 1031
                         },
                         "statements": [
                             {
@@ -2915,6 +3095,12 @@ switch (answer) { case 0: let a; };
                             "start": 1074,
                             "end": 1076
                         },
+                        "colonToken": {
+                            "kind": 21,
+                            "flags": 64,
+                            "start": 1076,
+                            "end": 1077
+                        },
                         "statements": [
                             {
                                 "kind": 120,
@@ -3041,6 +3227,12 @@ switch (answer) { case 0: let a; };
                             "flags": 96,
                             "start": 1108,
                             "end": 1110
+                        },
+                        "colonToken": {
+                            "kind": 21,
+                            "flags": 64,
+                            "start": 1110,
+                            "end": 1111
                         },
                         "statements": [
                             {
@@ -3202,6 +3394,12 @@ switch (answer) { case 0: let a; };
                             "start": 1147,
                             "end": 1149
                         },
+                        "colonToken": {
+                            "kind": 21,
+                            "flags": 64,
+                            "start": 1149,
+                            "end": 1150
+                        },
                         "statements": [
                             {
                                 "kind": 120,
@@ -3271,6 +3469,12 @@ switch (answer) { case 0: let a; };
                             "flags": 96,
                             "start": 1176,
                             "end": 1178
+                        },
+                        "colonToken": {
+                            "kind": 21,
+                            "flags": 64,
+                            "start": 1178,
+                            "end": 1179
                         },
                         "statements": [
                             {
@@ -3421,6 +3625,12 @@ switch (answer) { case 0: let a; };
                             "flags": 96,
                             "start": 1230,
                             "end": 1232
+                        },
+                        "colonToken": {
+                            "kind": 21,
+                            "flags": 64,
+                            "start": 1232,
+                            "end": 1233
                         },
                         "statements": [
                             {
@@ -3592,6 +3802,12 @@ switch (answer) { case 0: let a; };
                             "start": 1298,
                             "end": 1300
                         },
+                        "colonToken": {
+                            "kind": 21,
+                            "flags": 64,
+                            "start": 1300,
+                            "end": 1301
+                        },
                         "statements": [
                             {
                                 "kind": 155,
@@ -3642,6 +3858,12 @@ switch (answer) { case 0: let a; };
                             "flags": 80,
                             "start": 1308,
                             "end": 1316
+                        },
+                        "colonToken": {
+                            "kind": 21,
+                            "flags": 64,
+                            "start": 1316,
+                            "end": 1317
                         },
                         "statements": [
                             {
@@ -3730,6 +3952,12 @@ switch (answer) { case 0: let a; };
                             "start": 1344,
                             "end": 1346
                         },
+                        "colonToken": {
+                            "kind": 21,
+                            "flags": 64,
+                            "start": 1346,
+                            "end": 1347
+                        },
                         "statements": [
                             {
                                 "kind": 155,
@@ -3780,6 +4008,12 @@ switch (answer) { case 0: let a; };
                             "flags": 80,
                             "start": 1354,
                             "end": 1362
+                        },
+                        "colonToken": {
+                            "kind": 21,
+                            "flags": 64,
+                            "start": 1362,
+                            "end": 1363
                         },
                         "statements": [
                             {
@@ -3873,6 +4107,12 @@ switch (answer) { case 0: let a; };
                             "flags": 96,
                             "start": 1391,
                             "end": 1393
+                        },
+                        "colonToken": {
+                            "kind": 21,
+                            "flags": 64,
+                            "start": 1393,
+                            "end": 1394
                         },
                         "statements": [
                             {
@@ -3981,6 +4221,12 @@ switch (answer) { case 0: let a; };
                             "flags": 96,
                             "start": 1433,
                             "end": 1435
+                        },
+                        "colonToken": {
+                            "kind": 21,
+                            "flags": 64,
+                            "start": 1435,
+                            "end": 1436
                         },
                         "statements": [
                             {
@@ -4104,6 +4350,12 @@ switch (answer) { case 0: let a; };
                             "start": 1489,
                             "end": 1491
                         },
+                        "colonToken": {
+                            "kind": 21,
+                            "flags": 64,
+                            "start": 1491,
+                            "end": 1492
+                        },
                         "statements": [],
                         "flags": 16,
                         "start": 1484,
@@ -4116,6 +4368,12 @@ switch (answer) { case 0: let a; };
                             "flags": 80,
                             "start": 1492,
                             "end": 1500
+                        },
+                        "colonToken": {
+                            "kind": 21,
+                            "flags": 64,
+                            "start": 1500,
+                            "end": 1501
                         },
                         "statements": [
                             {
@@ -4264,6 +4522,12 @@ switch (answer) { case 0: let a; };
                             "start": 1566,
                             "end": 1568
                         },
+                        "colonToken": {
+                            "kind": 21,
+                            "flags": 64,
+                            "start": 1568,
+                            "end": 1569
+                        },
                         "statements": [],
                         "flags": 16,
                         "start": 1561,
@@ -4276,6 +4540,12 @@ switch (answer) { case 0: let a; };
                             "flags": 80,
                             "start": 1569,
                             "end": 1577
+                        },
+                        "colonToken": {
+                            "kind": 21,
+                            "flags": 64,
+                            "start": 1577,
+                            "end": 1578
                         },
                         "statements": [
                             {
@@ -4437,6 +4707,12 @@ switch (answer) { case 0: let a; };
                             "start": 1639,
                             "end": 1641
                         },
+                        "colonToken": {
+                            "kind": 21,
+                            "flags": 64,
+                            "start": 1641,
+                            "end": 1642
+                        },
                         "statements": [],
                         "flags": 16,
                         "start": 1634,
@@ -4449,6 +4725,12 @@ switch (answer) { case 0: let a; };
                             "flags": 80,
                             "start": 1642,
                             "end": 1650
+                        },
+                        "colonToken": {
+                            "kind": 21,
+                            "flags": 64,
+                            "start": 1650,
+                            "end": 1651
                         },
                         "statements": [
                             {
@@ -4610,6 +4892,12 @@ switch (answer) { case 0: let a; };
                             "start": 1711,
                             "end": 1713
                         },
+                        "colonToken": {
+                            "kind": 21,
+                            "flags": 64,
+                            "start": 1713,
+                            "end": 1714
+                        },
                         "statements": [],
                         "flags": 16,
                         "start": 1706,
@@ -4622,6 +4910,12 @@ switch (answer) { case 0: let a; };
                             "flags": 80,
                             "start": 1714,
                             "end": 1722
+                        },
+                        "colonToken": {
+                            "kind": 21,
+                            "flags": 64,
+                            "start": 1722,
+                            "end": 1723
                         },
                         "statements": [
                             {
@@ -4750,6 +5044,12 @@ switch (answer) { case 0: let a; };
                             "start": 1776,
                             "end": 1778
                         },
+                        "colonToken": {
+                            "kind": 21,
+                            "flags": 64,
+                            "start": 1778,
+                            "end": 1779
+                        },
                         "statements": [],
                         "flags": 16,
                         "start": 1771,
@@ -4762,6 +5062,12 @@ switch (answer) { case 0: let a; };
                             "flags": 80,
                             "start": 1779,
                             "end": 1787
+                        },
+                        "colonToken": {
+                            "kind": 21,
+                            "flags": 64,
+                            "start": 1787,
+                            "end": 1788
                         },
                         "statements": [
                             {
@@ -4917,6 +5223,12 @@ switch (answer) { case 0: let a; };
                             "start": 1848,
                             "end": 1850
                         },
+                        "colonToken": {
+                            "kind": 21,
+                            "flags": 64,
+                            "start": 1850,
+                            "end": 1851
+                        },
                         "statements": [],
                         "flags": 16,
                         "start": 1843,
@@ -4929,6 +5241,12 @@ switch (answer) { case 0: let a; };
                             "flags": 80,
                             "start": 1851,
                             "end": 1859
+                        },
+                        "colonToken": {
+                            "kind": 21,
+                            "flags": 64,
+                            "start": 1859,
+                            "end": 1860
                         },
                         "statements": [
                             {
@@ -5023,6 +5341,12 @@ switch (answer) { case 0: let a; };
                             "start": 1889,
                             "end": 1891
                         },
+                        "colonToken": {
+                            "kind": 21,
+                            "flags": 64,
+                            "start": 1891,
+                            "end": 1892
+                        },
                         "statements": [],
                         "flags": 16,
                         "start": 1885,
@@ -5077,6 +5401,12 @@ switch (answer) { case 0: let a; };
                             "flags": 96,
                             "start": 1912,
                             "end": 1914
+                        },
+                        "colonToken": {
+                            "kind": 21,
+                            "flags": 64,
+                            "start": 1914,
+                            "end": 1915
                         },
                         "statements": [
                             {
@@ -5191,6 +5521,12 @@ switch (answer) { case 0: let a; };
                             "flags": 96,
                             "start": 1953,
                             "end": 1955
+                        },
+                        "colonToken": {
+                            "kind": 21,
+                            "flags": 64,
+                            "start": 1955,
+                            "end": 1956
                         },
                         "statements": [
                             {

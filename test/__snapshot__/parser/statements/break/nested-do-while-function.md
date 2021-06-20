@@ -57,18 +57,6 @@ function f(){ do        break y   ; while(true);}
                                 "start": 13,
                                 "end": 16
                             },
-                            "expression": {
-                                "kind": 24752947,
-                                "flags": 96,
-                                "start": 42,
-                                "end": 46
-                            },
-                            "whileKeyword": {
-                                "kind": 37757028,
-                                "flags": 64,
-                                "start": 35,
-                                "end": 41
-                            },
                             "statement": {
                                 "kind": 150,
                                 "breakKeyword": {
@@ -88,6 +76,18 @@ function f(){ do        break y   ; while(true);}
                                 "flags": 16,
                                 "start": 16,
                                 "end": 35
+                            },
+                            "whileKeyword": {
+                                "kind": 37757028,
+                                "flags": 64,
+                                "start": 35,
+                                "end": 41
+                            },
+                            "expression": {
+                                "kind": 24752947,
+                                "flags": 96,
+                                "start": 42,
+                                "end": 46
                             },
                             "flags": 80,
                             "start": 13,

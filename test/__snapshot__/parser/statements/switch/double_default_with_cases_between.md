@@ -42,6 +42,12 @@ switch(x) { default: break; case y: break; case z: break; default: break; }
                             "start": 11,
                             "end": 19
                         },
+                        "colonToken": {
+                            "kind": 21,
+                            "flags": 64,
+                            "start": 19,
+                            "end": 20
+                        },
                         "statements": [
                             {
                                 "kind": 150,
@@ -76,6 +82,12 @@ switch(x) { default: break; case y: break; case z: break; default: break; }
                             "flags": 96,
                             "start": 32,
                             "end": 34
+                        },
+                        "colonToken": {
+                            "kind": 21,
+                            "flags": 64,
+                            "start": 34,
+                            "end": 35
                         },
                         "statements": [
                             {
@@ -112,6 +124,12 @@ switch(x) { default: break; case y: break; case z: break; default: break; }
                             "start": 47,
                             "end": 49
                         },
+                        "colonToken": {
+                            "kind": 21,
+                            "flags": 64,
+                            "start": 49,
+                            "end": 50
+                        },
                         "statements": [
                             {
                                 "kind": 150,
@@ -138,6 +156,12 @@ switch(x) { default: break; case y: break; case z: break; default: break; }
                             "flags": 80,
                             "start": 57,
                             "end": 65
+                        },
+                        "colonToken": {
+                            "kind": 21,
+                            "flags": 64,
+                            "start": 65,
+                            "end": 66
                         },
                         "statements": [
                             {

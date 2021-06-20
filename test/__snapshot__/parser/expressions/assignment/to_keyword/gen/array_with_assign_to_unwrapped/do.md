@@ -73,15 +73,6 @@ async x => do = 1
                 "start": 10,
                 "end": 13
             },
-            "expression": {
-                "kind": 16637,
-                "text": "",
-                "rawText": "",
-                "flags": 64,
-                "start": 17,
-                "end": 17
-            },
-            "whileKeyword": null,
             "statement": {
                 "kind": 120,
                 "expression": {
@@ -114,6 +105,15 @@ async x => do = 1
                 },
                 "flags": 16,
                 "start": 13,
+                "end": 17
+            },
+            "whileKeyword": null,
+            "expression": {
+                "kind": 16637,
+                "text": "",
+                "rawText": "",
+                "flags": 64,
+                "start": 17,
                 "end": 17
             },
             "flags": 80,

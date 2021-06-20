@@ -31,20 +31,6 @@ do a + b / c while (x);
                 "start": 0,
                 "end": 2
             },
-            "expression": {
-                "kind": 134299649,
-                "text": "x",
-                "rawText": "x",
-                "flags": 96,
-                "start": 20,
-                "end": 21
-            },
-            "whileKeyword": {
-                "kind": 37757028,
-                "flags": 64,
-                "start": 12,
-                "end": 18
-            },
             "statement": {
                 "kind": 120,
                 "expression": {
@@ -98,6 +84,20 @@ do a + b / c while (x);
                 "flags": 16,
                 "start": 2,
                 "end": 12
+            },
+            "whileKeyword": {
+                "kind": 37757028,
+                "flags": 64,
+                "start": 12,
+                "end": 18
+            },
+            "expression": {
+                "kind": 134299649,
+                "text": "x",
+                "rawText": "x",
+                "flags": 96,
+                "start": 20,
+                "end": 21
             },
             "flags": 80,
             "start": 0,

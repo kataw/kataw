@@ -31,15 +31,6 @@ do do do catch try { while while while
                 "start": 0,
                 "end": 2
             },
-            "expression": {
-                "kind": 16637,
-                "text": "",
-                "rawText": "",
-                "flags": 64,
-                "start": 14,
-                "end": 14
-            },
-            "whileKeyword": null,
             "statement": {
                 "kind": 169,
                 "doKeyword": {
@@ -48,15 +39,6 @@ do do do catch try { while while while
                     "start": 2,
                     "end": 5
                 },
-                "expression": {
-                    "kind": 16637,
-                    "text": "",
-                    "rawText": "",
-                    "flags": 64,
-                    "start": 14,
-                    "end": 14
-                },
-                "whileKeyword": null,
                 "statement": {
                     "kind": 169,
                     "doKeyword": {
@@ -65,15 +47,6 @@ do do do catch try { while while while
                         "start": 5,
                         "end": 8
                     },
-                    "expression": {
-                        "kind": 16637,
-                        "text": "",
-                        "rawText": "",
-                        "flags": 64,
-                        "start": 14,
-                        "end": 14
-                    },
-                    "whileKeyword": null,
                     "statement": {
                         "kind": 159,
                         "tryKeyword": null,
@@ -122,12 +95,39 @@ do do do catch try { while while while
                         "start": 8,
                         "end": 14
                     },
+                    "whileKeyword": null,
+                    "expression": {
+                        "kind": 16637,
+                        "text": "",
+                        "rawText": "",
+                        "flags": 64,
+                        "start": 14,
+                        "end": 14
+                    },
                     "flags": 80,
                     "start": 5,
                     "end": 14
                 },
+                "whileKeyword": null,
+                "expression": {
+                    "kind": 16637,
+                    "text": "",
+                    "rawText": "",
+                    "flags": 64,
+                    "start": 14,
+                    "end": 14
+                },
                 "flags": 80,
                 "start": 2,
+                "end": 14
+            },
+            "whileKeyword": null,
+            "expression": {
+                "kind": 16637,
+                "text": "",
+                "rawText": "",
+                "flags": 64,
+                "start": 14,
                 "end": 14
             },
             "flags": 80,

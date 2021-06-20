@@ -63,6 +63,12 @@
                                         "start": 19,
                                         "end": 21
                                     },
+                                    "colonToken": {
+                                        "kind": 21,
+                                        "flags": 64,
+                                        "start": 21,
+                                        "end": 22
+                                    },
                                     "statements": [
                                         {
                                             "kind": 163,
@@ -110,6 +116,12 @@
                                         "flags": 80,
                                         "start": 25,
                                         "end": 33
+                                    },
+                                    "colonToken": {
+                                        "kind": 21,
+                                        "flags": 64,
+                                        "start": 33,
+                                        "end": 34
                                     },
                                     "statements": [],
                                     "flags": 16,

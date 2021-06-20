@@ -8,10 +8,12 @@ import { StatementNode } from '.';
 
 export interface DefaultClause extends SyntaxNode {
   readonly defaultKeyword: SyntaxToken<TokenSyntaxKind>;
+  readonly colonToken: SyntaxToken<TokenSyntaxKind>;
   readonly statements: readonly StatementNode[];
 }
 export function createDefaultClause(
   defaultKeyword: SyntaxToken<TokenSyntaxKind>,
+  colonToken: SyntaxToken<TokenSyntaxKind>,
   statements: readonly StatementNode[],
   start: number,
   end: number
@@ -19,6 +21,7 @@ export function createDefaultClause(
   return {
     kind: SyntaxKind.DefaultClause,
     defaultKeyword,
+    colonToken,
     statements,
     flags: NodeFlags.IsStatement,
     start,

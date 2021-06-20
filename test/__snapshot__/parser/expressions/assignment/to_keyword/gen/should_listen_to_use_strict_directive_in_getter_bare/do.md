@@ -105,15 +105,6 @@ foo = {
                                                         "start": 36,
                                                         "end": 43
                                                     },
-                                                    "expression": {
-                                                        "kind": 16637,
-                                                        "text": "",
-                                                        "rawText": "",
-                                                        "flags": 64,
-                                                        "start": 47,
-                                                        "end": 47
-                                                    },
-                                                    "whileKeyword": null,
                                                     "statement": {
                                                         "kind": 120,
                                                         "expression": {
@@ -146,6 +137,15 @@ foo = {
                                                         },
                                                         "flags": 16,
                                                         "start": 43,
+                                                        "end": 47
+                                                    },
+                                                    "whileKeyword": null,
+                                                    "expression": {
+                                                        "kind": 16637,
+                                                        "text": "",
+                                                        "rawText": "",
+                                                        "flags": 64,
+                                                        "start": 47,
                                                         "end": 47
                                                     },
                                                     "flags": 81,

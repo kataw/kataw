@@ -31,20 +31,6 @@ do {} while (x) { while try this and !foo
                 "start": 0,
                 "end": 2
             },
-            "expression": {
-                "kind": 134299649,
-                "text": "x",
-                "rawText": "x",
-                "flags": 96,
-                "start": 13,
-                "end": 14
-            },
-            "whileKeyword": {
-                "kind": 37757028,
-                "flags": 64,
-                "start": 5,
-                "end": 11
-            },
             "statement": {
                 "kind": 124,
                 "block": {
@@ -57,6 +43,20 @@ do {} while (x) { while try this and !foo
                 "flags": 16,
                 "start": 2,
                 "end": 5
+            },
+            "whileKeyword": {
+                "kind": 37757028,
+                "flags": 64,
+                "start": 5,
+                "end": 11
+            },
+            "expression": {
+                "kind": 134299649,
+                "text": "x",
+                "rawText": "x",
+                "flags": 96,
+                "start": 13,
+                "end": 14
             },
             "flags": 80,
             "start": 0,

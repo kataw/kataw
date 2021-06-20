@@ -34,20 +34,6 @@ while (a);
                 "start": 0,
                 "end": 2
             },
-            "expression": {
-                "kind": 134299649,
-                "text": "a",
-                "rawText": "a",
-                "flags": 96,
-                "start": 21,
-                "end": 22
-            },
-            "whileKeyword": {
-                "kind": 37757028,
-                "flags": 65,
-                "start": 13,
-                "end": 19
-            },
             "statement": {
                 "kind": 120,
                 "expression": {
@@ -95,6 +81,20 @@ while (a);
                 "flags": 16,
                 "start": 2,
                 "end": 13
+            },
+            "whileKeyword": {
+                "kind": 37757028,
+                "flags": 65,
+                "start": 13,
+                "end": 19
+            },
+            "expression": {
+                "kind": 134299649,
+                "text": "a",
+                "rawText": "a",
+                "flags": 96,
+                "start": 21,
+                "end": 22
             },
             "flags": 80,
             "start": 0,

@@ -112,6 +112,12 @@ switch (l) { case a = b ? c : d : }
                             "start": 17,
                             "end": 31
                         },
+                        "colonToken": {
+                            "kind": 21,
+                            "flags": 64,
+                            "start": 31,
+                            "end": 33
+                        },
                         "statements": [],
                         "flags": 16,
                         "start": 12,

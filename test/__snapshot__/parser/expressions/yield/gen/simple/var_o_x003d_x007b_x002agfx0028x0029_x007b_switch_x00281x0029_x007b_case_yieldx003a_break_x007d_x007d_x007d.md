@@ -130,6 +130,12 @@ var o = { *gf() { switch (1) { case yield: break; } } }
                                                                             "start": 35,
                                                                             "end": 41
                                                                         },
+                                                                        "colonToken": {
+                                                                            "kind": 21,
+                                                                            "flags": 64,
+                                                                            "start": 41,
+                                                                            "end": 42
+                                                                        },
                                                                         "statements": [
                                                                             {
                                                                                 "kind": 150,

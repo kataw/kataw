@@ -211,6 +211,12 @@ function * gen() { function not_gen() { var gfe = function* rgfe() { switch (1) 
                                                                                             "start": 86,
                                                                                             "end": 99
                                                                                         },
+                                                                                        "colonToken": {
+                                                                                            "kind": 21,
+                                                                                            "flags": 64,
+                                                                                            "start": 99,
+                                                                                            "end": 100
+                                                                                        },
                                                                                         "statements": [
                                                                                             {
                                                                                                 "kind": 150,

@@ -31,20 +31,6 @@ do do do class x {} while while while
                 "start": 0,
                 "end": 2
             },
-            "expression": {
-                "kind": 16637,
-                "text": "",
-                "rawText": "",
-                "flags": 64,
-                "start": 37,
-                "end": 37
-            },
-            "whileKeyword": {
-                "kind": 37757028,
-                "flags": 64,
-                "start": 31,
-                "end": 37
-            },
             "statement": {
                 "kind": 169,
                 "doKeyword": {
@@ -53,20 +39,6 @@ do do do class x {} while while while
                     "start": 2,
                     "end": 5
                 },
-                "expression": {
-                    "kind": 16637,
-                    "text": "",
-                    "rawText": "",
-                    "flags": 64,
-                    "start": 31,
-                    "end": 31
-                },
-                "whileKeyword": {
-                    "kind": 37757028,
-                    "flags": 64,
-                    "start": 25,
-                    "end": 31
-                },
                 "statement": {
                     "kind": 169,
                     "doKeyword": {
@@ -74,20 +46,6 @@ do do do class x {} while while while
                         "flags": 80,
                         "start": 5,
                         "end": 8
-                    },
-                    "expression": {
-                        "kind": 16637,
-                        "text": "",
-                        "rawText": "",
-                        "flags": 64,
-                        "start": 25,
-                        "end": 25
-                    },
-                    "whileKeyword": {
-                        "kind": 37757028,
-                        "flags": 64,
-                        "start": 19,
-                        "end": 25
                     },
                     "statement": {
                         "kind": 178,
@@ -126,13 +84,55 @@ do do do class x {} while while while
                         "start": 8,
                         "end": 19
                     },
+                    "whileKeyword": {
+                        "kind": 37757028,
+                        "flags": 64,
+                        "start": 19,
+                        "end": 25
+                    },
+                    "expression": {
+                        "kind": 16637,
+                        "text": "",
+                        "rawText": "",
+                        "flags": 64,
+                        "start": 25,
+                        "end": 25
+                    },
                     "flags": 80,
                     "start": 5,
                     "end": 25
                 },
+                "whileKeyword": {
+                    "kind": 37757028,
+                    "flags": 64,
+                    "start": 25,
+                    "end": 31
+                },
+                "expression": {
+                    "kind": 16637,
+                    "text": "",
+                    "rawText": "",
+                    "flags": 64,
+                    "start": 31,
+                    "end": 31
+                },
                 "flags": 80,
                 "start": 2,
                 "end": 31
+            },
+            "whileKeyword": {
+                "kind": 37757028,
+                "flags": 64,
+                "start": 31,
+                "end": 37
+            },
+            "expression": {
+                "kind": 16637,
+                "text": "",
+                "rawText": "",
+                "flags": 64,
+                "start": 37,
+                "end": 37
             },
             "flags": 80,
             "start": 0,

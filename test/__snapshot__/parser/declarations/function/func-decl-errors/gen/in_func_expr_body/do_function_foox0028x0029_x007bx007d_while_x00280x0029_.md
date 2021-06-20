@@ -63,20 +63,6 @@
                                             "start": 13,
                                             "end": 15
                                         },
-                                        "expression": {
-                                            "kind": 201392130,
-                                            "text": 0,
-                                            "rawText": "0",
-                                            "flags": 96,
-                                            "start": 41,
-                                            "end": 42
-                                        },
-                                        "whileKeyword": {
-                                            "kind": 37757028,
-                                            "flags": 64,
-                                            "start": 33,
-                                            "end": 39
-                                        },
                                         "statement": {
                                             "kind": 176,
                                             "declareKeyword": null,
@@ -123,6 +109,20 @@
                                             "flags": 16,
                                             "start": 15,
                                             "end": 33
+                                        },
+                                        "whileKeyword": {
+                                            "kind": 37757028,
+                                            "flags": 64,
+                                            "start": 33,
+                                            "end": 39
+                                        },
+                                        "expression": {
+                                            "kind": 201392130,
+                                            "text": 0,
+                                            "rawText": "0",
+                                            "flags": 96,
+                                            "start": 41,
+                                            "end": 42
                                         },
                                         "flags": 80,
                                         "start": 13,

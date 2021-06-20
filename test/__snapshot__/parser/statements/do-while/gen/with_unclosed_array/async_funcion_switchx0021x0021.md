@@ -31,15 +31,6 @@ do[ async funcion switch!!
                 "start": 0,
                 "end": 2
             },
-            "expression": {
-                "kind": 16637,
-                "text": "",
-                "rawText": "",
-                "flags": 64,
-                "start": 17,
-                "end": 17
-            },
-            "whileKeyword": null,
             "statement": {
                 "kind": 120,
                 "expression": {
@@ -90,6 +81,15 @@ do[ async funcion switch!!
                 },
                 "flags": 16,
                 "start": 2,
+                "end": 17
+            },
+            "whileKeyword": null,
+            "expression": {
+                "kind": 16637,
+                "text": "",
+                "rawText": "",
+                "flags": 64,
+                "start": 17,
                 "end": 17
             },
             "flags": 80,

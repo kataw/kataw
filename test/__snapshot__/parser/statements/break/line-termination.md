@@ -159,20 +159,6 @@ FOR2 : for(var i=1;i<2;i++){
                                         "start": 39,
                                         "end": 42
                                     },
-                                    "expression": {
-                                        "kind": 201392130,
-                                        "text": 0,
-                                        "rawText": "0",
-                                        "flags": 96,
-                                        "start": 71,
-                                        "end": 72
-                                    },
-                                    "whileKeyword": {
-                                        "kind": 37757028,
-                                        "flags": 64,
-                                        "start": 64,
-                                        "end": 70
-                                    },
                                     "statement": {
                                         "kind": 124,
                                         "block": {
@@ -213,6 +199,20 @@ FOR2 : for(var i=1;i<2;i++){
                                         "flags": 16,
                                         "start": 42,
                                         "end": 64
+                                    },
+                                    "whileKeyword": {
+                                        "kind": 37757028,
+                                        "flags": 64,
+                                        "start": 64,
+                                        "end": 70
+                                    },
+                                    "expression": {
+                                        "kind": 201392130,
+                                        "text": 0,
+                                        "rawText": "0",
+                                        "flags": 96,
+                                        "start": 71,
+                                        "end": 72
                                     },
                                     "flags": 80,
                                     "start": 39,
@@ -371,20 +371,6 @@ FOR2 : for(var i=1;i<2;i++){
                                         "start": 117,
                                         "end": 120
                                     },
-                                    "expression": {
-                                        "kind": 201392130,
-                                        "text": 0,
-                                        "rawText": "0",
-                                        "flags": 96,
-                                        "start": 148,
-                                        "end": 149
-                                    },
-                                    "whileKeyword": {
-                                        "kind": 37757028,
-                                        "flags": 64,
-                                        "start": 141,
-                                        "end": 147
-                                    },
                                     "statement": {
                                         "kind": 124,
                                         "block": {
@@ -412,6 +398,20 @@ FOR2 : for(var i=1;i<2;i++){
                                         "flags": 16,
                                         "start": 120,
                                         "end": 141
+                                    },
+                                    "whileKeyword": {
+                                        "kind": 37757028,
+                                        "flags": 64,
+                                        "start": 141,
+                                        "end": 147
+                                    },
+                                    "expression": {
+                                        "kind": 201392130,
+                                        "text": 0,
+                                        "rawText": "0",
+                                        "flags": 96,
+                                        "start": 148,
+                                        "end": 149
                                     },
                                     "flags": 80,
                                     "start": 117,

@@ -116,6 +116,12 @@ function* gf() { switch (1) { case yield* 'foo': break; } }
                                             "start": 34,
                                             "end": 47
                                         },
+                                        "colonToken": {
+                                            "kind": 21,
+                                            "flags": 64,
+                                            "start": 47,
+                                            "end": 48
+                                        },
                                         "statements": [
                                             {
                                                 "kind": 150,

@@ -115,15 +115,6 @@ function *f(x = (do) = f) {}
                 "start": 17,
                 "end": 19
             },
-            "expression": {
-                "kind": 16637,
-                "text": "",
-                "rawText": "",
-                "flags": 64,
-                "start": 19,
-                "end": 19
-            },
-            "whileKeyword": null,
             "statement": {
                 "kind": 120,
                 "expression": {
@@ -135,6 +126,15 @@ function *f(x = (do) = f) {}
                     "end": 19
                 },
                 "flags": 16,
+                "start": 19,
+                "end": 19
+            },
+            "whileKeyword": null,
+            "expression": {
+                "kind": 16637,
+                "text": "",
+                "rawText": "",
+                "flags": 64,
                 "start": 19,
                 "end": 19
             },

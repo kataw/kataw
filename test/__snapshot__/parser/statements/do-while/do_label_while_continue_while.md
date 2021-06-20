@@ -23,20 +23,6 @@ do wow: while (x) continue wow; while (x)
                 "start": 0,
                 "end": 2
             },
-            "expression": {
-                "kind": 134299649,
-                "text": "x",
-                "rawText": "x",
-                "flags": 96,
-                "start": 39,
-                "end": 40
-            },
-            "whileKeyword": {
-                "kind": 37757028,
-                "flags": 64,
-                "start": 31,
-                "end": 37
-            },
             "statement": {
                 "kind": 163,
                 "label": {
@@ -96,6 +82,20 @@ do wow: while (x) continue wow; while (x)
                 "flags": 16,
                 "start": 2,
                 "end": 31
+            },
+            "whileKeyword": {
+                "kind": 37757028,
+                "flags": 64,
+                "start": 31,
+                "end": 37
+            },
+            "expression": {
+                "kind": 134299649,
+                "text": "x",
+                "rawText": "x",
+                "flags": 96,
+                "start": 39,
+                "end": 40
             },
             "flags": 80,
             "start": 0,

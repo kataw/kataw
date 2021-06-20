@@ -24,6 +24,21 @@ do async
                 "start": 0,
                 "end": 2
             },
+            "statement": {
+                "kind": 120,
+                "expression": {
+                    "kind": 134299649,
+                    "text": "async",
+                    "rawText": "async",
+                    "flags": 96,
+                    "start": 2,
+                    "end": 8
+                },
+                "flags": 16,
+                "start": 2,
+                "end": 8
+            },
+            "whileKeyword": null,
             "expression": {
                 "kind": 131,
                 "expression": {
@@ -45,21 +60,6 @@ do async
                 "flags": 268435488,
                 "start": 8,
                 "end": 13
-            },
-            "whileKeyword": null,
-            "statement": {
-                "kind": 120,
-                "expression": {
-                    "kind": 134299649,
-                    "text": "async",
-                    "rawText": "async",
-                    "flags": 96,
-                    "start": 2,
-                    "end": 8
-                },
-                "flags": 16,
-                "start": 2,
-                "end": 8
             },
             "flags": 80,
             "start": 0,

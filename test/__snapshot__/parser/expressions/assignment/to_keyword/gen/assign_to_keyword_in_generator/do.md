@@ -72,15 +72,6 @@ function *f(){
                                 "start": 14,
                                 "end": 19
                             },
-                            "expression": {
-                                "kind": 16637,
-                                "text": "",
-                                "rawText": "",
-                                "flags": 64,
-                                "start": 24,
-                                "end": 24
-                            },
-                            "whileKeyword": null,
                             "statement": {
                                 "kind": 120,
                                 "expression": {
@@ -113,6 +104,15 @@ function *f(){
                                 },
                                 "flags": 16,
                                 "start": 19,
+                                "end": 24
+                            },
+                            "whileKeyword": null,
+                            "expression": {
+                                "kind": 16637,
+                                "text": "",
+                                "rawText": "",
+                                "flags": 64,
+                                "start": 24,
                                 "end": 24
                             },
                             "flags": 81,

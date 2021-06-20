@@ -31,15 +31,6 @@ do[ false
                 "start": 0,
                 "end": 2
             },
-            "expression": {
-                "kind": 16637,
-                "text": "",
-                "rawText": "",
-                "flags": 64,
-                "start": 9,
-                "end": 9
-            },
-            "whileKeyword": null,
             "statement": {
                 "kind": 120,
                 "expression": {
@@ -65,6 +56,15 @@ do[ false
                 },
                 "flags": 16,
                 "start": 2,
+                "end": 9
+            },
+            "whileKeyword": null,
+            "expression": {
+                "kind": 16637,
+                "text": "",
+                "rawText": "",
+                "flags": 64,
+                "start": 9,
                 "end": 9
             },
             "flags": 80,

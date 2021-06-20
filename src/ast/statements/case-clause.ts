@@ -9,6 +9,7 @@ import { ExpressionNode } from '../expressions';
 
 export interface CaseClause extends SyntaxNode {
   readonly caseKeyword: SyntaxToken<TokenSyntaxKind>;
+  readonly colonToken: SyntaxToken<TokenSyntaxKind>;
   readonly expression: ExpressionNode;
   readonly statements: readonly StatementNode[];
 }
@@ -16,6 +17,7 @@ export interface CaseClause extends SyntaxNode {
 export function createCaseClause(
   caseKeyword: SyntaxToken<TokenSyntaxKind>,
   expression: ExpressionNode,
+  colonToken: SyntaxToken<TokenSyntaxKind>,
   statements: readonly StatementNode[],
   start: number,
   end: number
@@ -24,6 +26,7 @@ export function createCaseClause(
     kind: SyntaxKind.CaseClause,
     caseKeyword,
     expression,
+    colonToken,
     statements,
     flags: NodeFlags.IsStatement,
     start,

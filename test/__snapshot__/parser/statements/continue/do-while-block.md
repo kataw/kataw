@@ -57,18 +57,6 @@ function f(){ do        { continue }     while(true);}
                                 "start": 13,
                                 "end": 16
                             },
-                            "expression": {
-                                "kind": 24752947,
-                                "flags": 96,
-                                "start": 47,
-                                "end": 51
-                            },
-                            "whileKeyword": {
-                                "kind": 37757028,
-                                "flags": 64,
-                                "start": 36,
-                                "end": 46
-                            },
                             "statement": {
                                 "kind": 124,
                                 "block": {
@@ -95,6 +83,18 @@ function f(){ do        { continue }     while(true);}
                                 "flags": 16,
                                 "start": 16,
                                 "end": 36
+                            },
+                            "whileKeyword": {
+                                "kind": 37757028,
+                                "flags": 64,
+                                "start": 36,
+                                "end": 46
+                            },
+                            "expression": {
+                                "kind": 24752947,
+                                "flags": 96,
+                                "start": 47,
+                                "end": 51
                             },
                             "flags": 80,
                             "start": 13,

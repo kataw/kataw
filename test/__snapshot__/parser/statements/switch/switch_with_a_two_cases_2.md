@@ -50,6 +50,12 @@ switch (A) {case B: C; break; case D: E; break;}
                             "start": 16,
                             "end": 18
                         },
+                        "colonToken": {
+                            "kind": 21,
+                            "flags": 64,
+                            "start": 18,
+                            "end": 19
+                        },
                         "statements": [
                             {
                                 "kind": 120,
@@ -98,6 +104,12 @@ switch (A) {case B: C; break; case D: E; break;}
                             "flags": 96,
                             "start": 34,
                             "end": 36
+                        },
+                        "colonToken": {
+                            "kind": 21,
+                            "flags": 64,
+                            "start": 36,
+                            "end": 37
                         },
                         "statements": [
                             {

@@ -31,15 +31,6 @@ do while [catch] /false//a
                 "start": 0,
                 "end": 2
             },
-            "expression": {
-                "kind": 16637,
-                "text": "",
-                "rawText": "",
-                "flags": 64,
-                "start": 15,
-                "end": 15
-            },
-            "whileKeyword": null,
             "statement": {
                 "kind": 154,
                 "whileKeyword": {
@@ -112,6 +103,15 @@ do while [catch] /false//a
                 },
                 "flags": 80,
                 "start": 2,
+                "end": 15
+            },
+            "whileKeyword": null,
+            "expression": {
+                "kind": 16637,
+                "text": "",
+                "rawText": "",
+                "flags": 64,
+                "start": 15,
                 "end": 15
             },
             "flags": 80,

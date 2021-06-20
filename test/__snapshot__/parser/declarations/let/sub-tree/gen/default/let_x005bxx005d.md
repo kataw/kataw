@@ -50,6 +50,12 @@ switch (a) { default: let [x] }
                             "start": 12,
                             "end": 20
                         },
+                        "colonToken": {
+                            "kind": 21,
+                            "flags": 64,
+                            "start": 20,
+                            "end": 21
+                        },
                         "statements": [
                             {
                                 "kind": 162,

@@ -31,20 +31,6 @@ do do do function while while while while
                 "start": 0,
                 "end": 2
             },
-            "expression": {
-                "kind": 16637,
-                "text": "",
-                "rawText": "",
-                "flags": 64,
-                "start": 35,
-                "end": 35
-            },
-            "whileKeyword": {
-                "kind": 37757028,
-                "flags": 64,
-                "start": 29,
-                "end": 35
-            },
             "statement": {
                 "kind": 169,
                 "doKeyword": {
@@ -53,20 +39,6 @@ do do do function while while while while
                     "start": 2,
                     "end": 5
                 },
-                "expression": {
-                    "kind": 16637,
-                    "text": "",
-                    "rawText": "",
-                    "flags": 64,
-                    "start": 29,
-                    "end": 29
-                },
-                "whileKeyword": {
-                    "kind": 37757028,
-                    "flags": 64,
-                    "start": 23,
-                    "end": 29
-                },
                 "statement": {
                     "kind": 169,
                     "doKeyword": {
@@ -74,20 +46,6 @@ do do do function while while while while
                         "flags": 80,
                         "start": 5,
                         "end": 8
-                    },
-                    "expression": {
-                        "kind": 16637,
-                        "text": "",
-                        "rawText": "",
-                        "flags": 64,
-                        "start": 23,
-                        "end": 23
-                    },
-                    "whileKeyword": {
-                        "kind": 37757028,
-                        "flags": 64,
-                        "start": 17,
-                        "end": 23
                     },
                     "statement": {
                         "kind": 176,
@@ -129,13 +87,55 @@ do do do function while while while while
                         "start": 8,
                         "end": 17
                     },
+                    "whileKeyword": {
+                        "kind": 37757028,
+                        "flags": 64,
+                        "start": 17,
+                        "end": 23
+                    },
+                    "expression": {
+                        "kind": 16637,
+                        "text": "",
+                        "rawText": "",
+                        "flags": 64,
+                        "start": 23,
+                        "end": 23
+                    },
                     "flags": 80,
                     "start": 5,
                     "end": 23
                 },
+                "whileKeyword": {
+                    "kind": 37757028,
+                    "flags": 64,
+                    "start": 23,
+                    "end": 29
+                },
+                "expression": {
+                    "kind": 16637,
+                    "text": "",
+                    "rawText": "",
+                    "flags": 64,
+                    "start": 29,
+                    "end": 29
+                },
                 "flags": 80,
                 "start": 2,
                 "end": 29
+            },
+            "whileKeyword": {
+                "kind": 37757028,
+                "flags": 64,
+                "start": 29,
+                "end": 35
+            },
+            "expression": {
+                "kind": 16637,
+                "text": "",
+                "rawText": "",
+                "flags": 64,
+                "start": 35,
+                "end": 35
             },
             "flags": 80,
             "start": 0,

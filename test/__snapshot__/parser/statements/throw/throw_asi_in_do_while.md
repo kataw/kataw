@@ -59,20 +59,6 @@ function f() {
                                 "start": 14,
                                 "end": 19
                             },
-                            "expression": {
-                                "kind": 134299649,
-                                "text": "x",
-                                "rawText": "x",
-                                "flags": 96,
-                                "start": 37,
-                                "end": 38
-                            },
-                            "whileKeyword": {
-                                "kind": 37757028,
-                                "flags": 64,
-                                "start": 30,
-                                "end": 36
-                            },
                             "statement": {
                                 "kind": 158,
                                 "throwKeyword": {
@@ -92,6 +78,20 @@ function f() {
                                 "flags": 80,
                                 "start": 19,
                                 "end": 30
+                            },
+                            "whileKeyword": {
+                                "kind": 37757028,
+                                "flags": 64,
+                                "start": 30,
+                                "end": 36
+                            },
+                            "expression": {
+                                "kind": 134299649,
+                                "text": "x",
+                                "rawText": "x",
+                                "flags": 96,
+                                "start": 37,
+                                "end": 38
                             },
                             "flags": 81,
                             "start": 14,

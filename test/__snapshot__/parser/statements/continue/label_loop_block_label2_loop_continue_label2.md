@@ -39,20 +39,6 @@ foo: do { bar: do continue bar;while(z) } while(z)
                     "start": 4,
                     "end": 7
                 },
-                "expression": {
-                    "kind": 134299649,
-                    "text": "z",
-                    "rawText": "z",
-                    "flags": 96,
-                    "start": 48,
-                    "end": 49
-                },
-                "whileKeyword": {
-                    "kind": 37757028,
-                    "flags": 64,
-                    "start": 41,
-                    "end": 47
-                },
                 "statement": {
                     "kind": 124,
                     "block": {
@@ -82,20 +68,6 @@ foo: do { bar: do continue bar;while(z) } while(z)
                                         "start": 14,
                                         "end": 17
                                     },
-                                    "expression": {
-                                        "kind": 134299649,
-                                        "text": "z",
-                                        "rawText": "z",
-                                        "flags": 96,
-                                        "start": 37,
-                                        "end": 38
-                                    },
-                                    "whileKeyword": {
-                                        "kind": 37757028,
-                                        "flags": 64,
-                                        "start": 31,
-                                        "end": 36
-                                    },
                                     "statement": {
                                         "kind": 172,
                                         "continueKeyword": {
@@ -116,6 +88,20 @@ foo: do { bar: do continue bar;while(z) } while(z)
                                         "start": 17,
                                         "end": 31
                                     },
+                                    "whileKeyword": {
+                                        "kind": 37757028,
+                                        "flags": 64,
+                                        "start": 31,
+                                        "end": 36
+                                    },
+                                    "expression": {
+                                        "kind": 134299649,
+                                        "text": "z",
+                                        "rawText": "z",
+                                        "flags": 96,
+                                        "start": 37,
+                                        "end": 38
+                                    },
                                     "flags": 80,
                                     "start": 14,
                                     "end": 39
@@ -132,6 +118,20 @@ foo: do { bar: do continue bar;while(z) } while(z)
                     "flags": 16,
                     "start": 7,
                     "end": 41
+                },
+                "whileKeyword": {
+                    "kind": 37757028,
+                    "flags": 64,
+                    "start": 41,
+                    "end": 47
+                },
+                "expression": {
+                    "kind": 134299649,
+                    "text": "z",
+                    "rawText": "z",
+                    "flags": 96,
+                    "start": 48,
+                    "end": 49
                 },
                 "flags": 80,
                 "start": 4,

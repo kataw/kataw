@@ -31,18 +31,6 @@ do if (a) with (b) continue; else debugger; while (false)
                 "start": 0,
                 "end": 2
             },
-            "expression": {
-                "kind": 205586437,
-                "flags": 96,
-                "start": 51,
-                "end": 56
-            },
-            "whileKeyword": {
-                "kind": 37757028,
-                "flags": 64,
-                "start": 43,
-                "end": 49
-            },
             "statement": {
                 "kind": 164,
                 "ifKeyword": {
@@ -113,6 +101,18 @@ do if (a) with (b) continue; else debugger; while (false)
                 "flags": 80,
                 "start": 2,
                 "end": 43
+            },
+            "whileKeyword": {
+                "kind": 37757028,
+                "flags": 64,
+                "start": 43,
+                "end": 49
+            },
+            "expression": {
+                "kind": 205586437,
+                "flags": 96,
+                "start": 51,
+                "end": 56
             },
             "flags": 80,
             "start": 0,

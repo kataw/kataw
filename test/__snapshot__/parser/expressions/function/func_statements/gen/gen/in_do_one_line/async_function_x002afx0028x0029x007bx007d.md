@@ -31,20 +31,6 @@ do async function *f(){} while (x);
                 "start": 0,
                 "end": 2
             },
-            "expression": {
-                "kind": 134299649,
-                "text": "x",
-                "rawText": "x",
-                "flags": 96,
-                "start": 32,
-                "end": 33
-            },
-            "whileKeyword": {
-                "kind": 37757028,
-                "flags": 64,
-                "start": 24,
-                "end": 30
-            },
             "statement": {
                 "kind": 176,
                 "declareKeyword": null,
@@ -101,6 +87,20 @@ do async function *f(){} while (x);
                 "flags": 400,
                 "start": 2,
                 "end": 24
+            },
+            "whileKeyword": {
+                "kind": 37757028,
+                "flags": 64,
+                "start": 24,
+                "end": 30
+            },
+            "expression": {
+                "kind": 134299649,
+                "text": "x",
+                "rawText": "x",
+                "flags": 96,
+                "start": 32,
+                "end": 33
             },
             "flags": 80,
             "start": 0,

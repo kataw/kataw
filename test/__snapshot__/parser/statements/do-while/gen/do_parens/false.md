@@ -31,20 +31,6 @@ do( false while
                 "start": 0,
                 "end": 2
             },
-            "expression": {
-                "kind": 16637,
-                "text": "",
-                "rawText": "",
-                "flags": 64,
-                "start": 15,
-                "end": 15
-            },
-            "whileKeyword": {
-                "kind": 37757028,
-                "flags": 64,
-                "start": 9,
-                "end": 15
-            },
             "statement": {
                 "kind": 120,
                 "expression": {
@@ -62,6 +48,20 @@ do( false while
                 "flags": 16,
                 "start": 2,
                 "end": 9
+            },
+            "whileKeyword": {
+                "kind": 37757028,
+                "flags": 64,
+                "start": 9,
+                "end": 15
+            },
+            "expression": {
+                "kind": 16637,
+                "text": "",
+                "rawText": "",
+                "flags": 64,
+                "start": 15,
+                "end": 15
             },
             "flags": 80,
             "start": 0,

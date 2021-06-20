@@ -31,46 +31,6 @@ do( =! class function try while with foo! while
                 "start": 0,
                 "end": 2
             },
-            "expression": {
-                "kind": 177,
-                "asyncKeyword": null,
-                "functionKeyword": {
-                    "kind": 37822554,
-                    "flags": 64,
-                    "start": 12,
-                    "end": 21
-                },
-                "asteriskToken": null,
-                "name": null,
-                "typeParameters": null,
-                "formalParameterList": {
-                    "kind": 214,
-                    "formalParameters": [],
-                    "trailingComma": false,
-                    "flags": 32,
-                    "start": 21,
-                    "end": 21
-                },
-                "contents": {
-                    "kind": 216,
-                    "functionStatementList": {
-                        "kind": 217,
-                        "directives": [],
-                        "statements": [],
-                        "flags": 32,
-                        "start": 21,
-                        "end": 21
-                    },
-                    "flags": 32,
-                    "start": 21,
-                    "end": 21
-                },
-                "returnType": null,
-                "flags": 32,
-                "start": 12,
-                "end": 21
-            },
-            "whileKeyword": null,
             "statement": {
                 "kind": 120,
                 "expression": {
@@ -143,6 +103,46 @@ do( =! class function try while with foo! while
                 "flags": 16,
                 "start": 2,
                 "end": 12
+            },
+            "whileKeyword": null,
+            "expression": {
+                "kind": 177,
+                "asyncKeyword": null,
+                "functionKeyword": {
+                    "kind": 37822554,
+                    "flags": 64,
+                    "start": 12,
+                    "end": 21
+                },
+                "asteriskToken": null,
+                "name": null,
+                "typeParameters": null,
+                "formalParameterList": {
+                    "kind": 214,
+                    "formalParameters": [],
+                    "trailingComma": false,
+                    "flags": 32,
+                    "start": 21,
+                    "end": 21
+                },
+                "contents": {
+                    "kind": 216,
+                    "functionStatementList": {
+                        "kind": 217,
+                        "directives": [],
+                        "statements": [],
+                        "flags": 32,
+                        "start": 21,
+                        "end": 21
+                    },
+                    "flags": 32,
+                    "start": 21,
+                    "end": 21
+                },
+                "returnType": null,
+                "flags": 32,
+                "start": 12,
+                "end": 21
             },
             "flags": 80,
             "start": 0,

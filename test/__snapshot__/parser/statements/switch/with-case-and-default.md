@@ -50,6 +50,12 @@ switch (x) { case y: break; default: return; }
                             "start": 17,
                             "end": 19
                         },
+                        "colonToken": {
+                            "kind": 21,
+                            "flags": 64,
+                            "start": 19,
+                            "end": 20
+                        },
                         "statements": [
                             {
                                 "kind": 150,
@@ -76,6 +82,12 @@ switch (x) { case y: break; default: return; }
                             "flags": 80,
                             "start": 27,
                             "end": 35
+                        },
+                        "colonToken": {
+                            "kind": 21,
+                            "flags": 64,
+                            "start": 35,
+                            "end": 36
                         },
                         "statements": [
                             {

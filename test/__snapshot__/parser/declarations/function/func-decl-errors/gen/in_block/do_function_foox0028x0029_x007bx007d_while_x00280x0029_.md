@@ -36,20 +36,6 @@
                             "start": 1,
                             "end": 3
                         },
-                        "expression": {
-                            "kind": 201392130,
-                            "text": 0,
-                            "rawText": "0",
-                            "flags": 96,
-                            "start": 29,
-                            "end": 30
-                        },
-                        "whileKeyword": {
-                            "kind": 37757028,
-                            "flags": 64,
-                            "start": 21,
-                            "end": 27
-                        },
                         "statement": {
                             "kind": 176,
                             "declareKeyword": null,
@@ -96,6 +82,20 @@
                             "flags": 16,
                             "start": 3,
                             "end": 21
+                        },
+                        "whileKeyword": {
+                            "kind": 37757028,
+                            "flags": 64,
+                            "start": 21,
+                            "end": 27
+                        },
+                        "expression": {
+                            "kind": 201392130,
+                            "text": 0,
+                            "rawText": "0",
+                            "flags": 96,
+                            "start": 29,
+                            "end": 30
                         },
                         "flags": 80,
                         "start": 1,

@@ -39,20 +39,6 @@ foo: do break foo; while(foo);
                     "start": 4,
                     "end": 7
                 },
-                "expression": {
-                    "kind": 134299649,
-                    "text": "foo",
-                    "rawText": "foo",
-                    "flags": 96,
-                    "start": 25,
-                    "end": 28
-                },
-                "whileKeyword": {
-                    "kind": 37757028,
-                    "flags": 64,
-                    "start": 18,
-                    "end": 24
-                },
                 "statement": {
                     "kind": 150,
                     "breakKeyword": {
@@ -72,6 +58,20 @@ foo: do break foo; while(foo);
                     "flags": 16,
                     "start": 7,
                     "end": 18
+                },
+                "whileKeyword": {
+                    "kind": 37757028,
+                    "flags": 64,
+                    "start": 18,
+                    "end": 24
+                },
+                "expression": {
+                    "kind": 134299649,
+                    "text": "foo",
+                    "rawText": "foo",
+                    "flags": 96,
+                    "start": 25,
+                    "end": 28
                 },
                 "flags": 80,
                 "start": 4,

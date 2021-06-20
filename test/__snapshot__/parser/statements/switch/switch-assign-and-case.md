@@ -85,6 +85,12 @@ switch([x = y]) { case y: foo }
                             "start": 22,
                             "end": 24
                         },
+                        "colonToken": {
+                            "kind": 21,
+                            "flags": 64,
+                            "start": 24,
+                            "end": 25
+                        },
                         "statements": [
                             {
                                 "kind": 120,

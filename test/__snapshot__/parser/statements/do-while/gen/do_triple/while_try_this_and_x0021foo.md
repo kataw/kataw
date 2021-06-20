@@ -31,27 +31,6 @@ do do do while try this and !foo while while while
                 "start": 0,
                 "end": 2
             },
-            "expression": {
-                "kind": 126,
-                "operandToken": {
-                    "kind": 65584,
-                    "flags": 96,
-                    "start": 27,
-                    "end": 29
-                },
-                "operand": {
-                    "kind": 134299649,
-                    "text": "foo",
-                    "rawText": "foo",
-                    "flags": 96,
-                    "start": 29,
-                    "end": 32
-                },
-                "flags": 32,
-                "start": 27,
-                "end": 32
-            },
-            "whileKeyword": null,
             "statement": {
                 "kind": 169,
                 "doKeyword": {
@@ -60,15 +39,6 @@ do do do while try this and !foo while while while
                     "start": 2,
                     "end": 5
                 },
-                "expression": {
-                    "kind": 134299649,
-                    "text": "and",
-                    "rawText": "and",
-                    "flags": 96,
-                    "start": 23,
-                    "end": 27
-                },
-                "whileKeyword": null,
                 "statement": {
                     "kind": 169,
                     "doKeyword": {
@@ -77,13 +47,6 @@ do do do while try this and !foo while while while
                         "start": 5,
                         "end": 8
                     },
-                    "expression": {
-                        "kind": 4276321,
-                        "flags": 96,
-                        "start": 18,
-                        "end": 23
-                    },
-                    "whileKeyword": null,
                     "statement": {
                         "kind": 154,
                         "whileKeyword": {
@@ -144,13 +107,50 @@ do do do while try this and !foo while while while
                         "start": 8,
                         "end": 18
                     },
+                    "whileKeyword": null,
+                    "expression": {
+                        "kind": 4276321,
+                        "flags": 96,
+                        "start": 18,
+                        "end": 23
+                    },
                     "flags": 80,
                     "start": 5,
                     "end": 23
                 },
+                "whileKeyword": null,
+                "expression": {
+                    "kind": 134299649,
+                    "text": "and",
+                    "rawText": "and",
+                    "flags": 96,
+                    "start": 23,
+                    "end": 27
+                },
                 "flags": 80,
                 "start": 2,
                 "end": 27
+            },
+            "whileKeyword": null,
+            "expression": {
+                "kind": 126,
+                "operandToken": {
+                    "kind": 65584,
+                    "flags": 96,
+                    "start": 27,
+                    "end": 29
+                },
+                "operand": {
+                    "kind": 134299649,
+                    "text": "foo",
+                    "rawText": "foo",
+                    "flags": 96,
+                    "start": 29,
+                    "end": 32
+                },
+                "flags": 32,
+                "start": 27,
+                "end": 32
             },
             "flags": 80,
             "start": 0,

@@ -31,20 +31,6 @@ do function f(){} while (x);
                 "start": 0,
                 "end": 2
             },
-            "expression": {
-                "kind": 134299649,
-                "text": "x",
-                "rawText": "x",
-                "flags": 96,
-                "start": 25,
-                "end": 26
-            },
-            "whileKeyword": {
-                "kind": 37757028,
-                "flags": 64,
-                "start": 17,
-                "end": 23
-            },
             "statement": {
                 "kind": 176,
                 "declareKeyword": null,
@@ -91,6 +77,20 @@ do function f(){} while (x);
                 "flags": 16,
                 "start": 2,
                 "end": 17
+            },
+            "whileKeyword": {
+                "kind": 37757028,
+                "flags": 64,
+                "start": 17,
+                "end": 23
+            },
+            "expression": {
+                "kind": 134299649,
+                "text": "x",
+                "rawText": "x",
+                "flags": 96,
+                "start": 25,
+                "end": 26
             },
             "flags": 80,
             "start": 0,

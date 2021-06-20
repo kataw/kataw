@@ -109,6 +109,12 @@ function getSecurity(level) {
                                             "start": 61,
                                             "end": 63
                                         },
+                                        "colonToken": {
+                                            "kind": 21,
+                                            "flags": 64,
+                                            "start": 63,
+                                            "end": 64
+                                        },
                                         "statements": [],
                                         "flags": 16,
                                         "start": 48,
@@ -130,6 +136,12 @@ function getSecurity(level) {
                                             "start": 85,
                                             "end": 87
                                         },
+                                        "colonToken": {
+                                            "kind": 21,
+                                            "flags": 64,
+                                            "start": 87,
+                                            "end": 88
+                                        },
                                         "statements": [],
                                         "flags": 16,
                                         "start": 64,
@@ -150,6 +162,12 @@ function getSecurity(level) {
                                             "flags": 96,
                                             "start": 108,
                                             "end": 110
+                                        },
+                                        "colonToken": {
+                                            "kind": 21,
+                                            "flags": 64,
+                                            "start": 110,
+                                            "end": 111
                                         },
                                         "statements": [
                                             {
@@ -193,6 +211,12 @@ function getSecurity(level) {
                                             "start": 188,
                                             "end": 190
                                         },
+                                        "colonToken": {
+                                            "kind": 21,
+                                            "flags": 64,
+                                            "start": 190,
+                                            "end": 191
+                                        },
                                         "statements": [],
                                         "flags": 16,
                                         "start": 175,
@@ -213,6 +237,12 @@ function getSecurity(level) {
                                             "flags": 96,
                                             "start": 213,
                                             "end": 215
+                                        },
+                                        "colonToken": {
+                                            "kind": 21,
+                                            "flags": 64,
+                                            "start": 215,
+                                            "end": 216
                                         },
                                         "statements": [
                                             {
@@ -256,6 +286,12 @@ function getSecurity(level) {
                                             "start": 265,
                                             "end": 267
                                         },
+                                        "colonToken": {
+                                            "kind": 21,
+                                            "flags": 64,
+                                            "start": 267,
+                                            "end": 268
+                                        },
                                         "statements": [],
                                         "flags": 16,
                                         "start": 252,
@@ -268,6 +304,12 @@ function getSecurity(level) {
                                             "flags": 81,
                                             "start": 268,
                                             "end": 292
+                                        },
+                                        "colonToken": {
+                                            "kind": 21,
+                                            "flags": 64,
+                                            "start": 292,
+                                            "end": 293
                                         },
                                         "statements": [
                                             {

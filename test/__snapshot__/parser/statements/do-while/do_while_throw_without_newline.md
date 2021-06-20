@@ -25,26 +25,6 @@ do throw function (v, h) {
                 "start": 0,
                 "end": 2
             },
-            "expression": {
-                "kind": 121,
-                "expression": {
-                    "kind": 201392131,
-                    "text": "",
-                    "rawText": "\"\"",
-                    "flags": 96,
-                    "start": 52,
-                    "end": 54
-                },
-                "flags": 32,
-                "start": 51,
-                "end": 55
-            },
-            "whileKeyword": {
-                "kind": 37757028,
-                "flags": 64,
-                "start": 43,
-                "end": 49
-            },
             "statement": {
                 "kind": 158,
                 "throwKeyword": {
@@ -121,6 +101,26 @@ do throw function (v, h) {
                 "flags": 80,
                 "start": 2,
                 "end": 43
+            },
+            "whileKeyword": {
+                "kind": 37757028,
+                "flags": 64,
+                "start": 43,
+                "end": 49
+            },
+            "expression": {
+                "kind": 121,
+                "expression": {
+                    "kind": 201392131,
+                    "text": "",
+                    "rawText": "\"\"",
+                    "flags": 96,
+                    "start": 52,
+                    "end": 54
+                },
+                "flags": 32,
+                "start": 51,
+                "end": 55
             },
             "flags": 80,
             "start": 0,

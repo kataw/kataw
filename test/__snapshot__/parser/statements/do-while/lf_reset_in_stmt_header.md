@@ -25,20 +25,6 @@ while(y)
                 "start": 0,
                 "end": 2
             },
-            "expression": {
-                "kind": 134299649,
-                "text": "y",
-                "rawText": "y",
-                "flags": 96,
-                "start": 22,
-                "end": 23
-            },
-            "whileKeyword": {
-                "kind": 37757028,
-                "flags": 65,
-                "start": 15,
-                "end": 21
-            },
             "statement": {
                 "kind": 164,
                 "ifKeyword": {
@@ -95,6 +81,20 @@ while(y)
                 "flags": 81,
                 "start": 2,
                 "end": 15
+            },
+            "whileKeyword": {
+                "kind": 37757028,
+                "flags": 65,
+                "start": 15,
+                "end": 21
+            },
+            "expression": {
+                "kind": 134299649,
+                "text": "y",
+                "rawText": "y",
+                "flags": 96,
+                "start": 22,
+                "end": 23
             },
             "flags": 80,
             "start": 0,

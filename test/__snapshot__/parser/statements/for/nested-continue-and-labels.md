@@ -351,6 +351,12 @@ function relativeComplement() {
                                                                                     "start": 212,
                                                                                     "end": 215
                                                                                 },
+                                                                                "colonToken": {
+                                                                                    "kind": 21,
+                                                                                    "flags": 64,
+                                                                                    "start": 215,
+                                                                                    "end": 216
+                                                                                },
                                                                                 "statements": [
                                                                                     {
                                                                                         "kind": 150,
@@ -393,6 +399,12 @@ function relativeComplement() {
                                                                                     "start": 241,
                                                                                     "end": 243
                                                                                 },
+                                                                                "colonToken": {
+                                                                                    "kind": 21,
+                                                                                    "flags": 64,
+                                                                                    "start": 243,
+                                                                                    "end": 244
+                                                                                },
                                                                                 "statements": [
                                                                                     {
                                                                                         "kind": 172,
@@ -434,6 +446,12 @@ function relativeComplement() {
                                                                                     "flags": 96,
                                                                                     "start": 272,
                                                                                     "end": 274
+                                                                                },
+                                                                                "colonToken": {
+                                                                                    "kind": 21,
+                                                                                    "flags": 64,
+                                                                                    "start": 274,
+                                                                                    "end": 275
                                                                                 },
                                                                                 "statements": [
                                                                                     {

@@ -23,13 +23,11 @@ do;while(j)try{}finally{}
                 "start": 0,
                 "end": 2
             },
-            "expression": {
-                "kind": 134299649,
-                "text": "j",
-                "rawText": "j",
-                "flags": 96,
-                "start": 9,
-                "end": 10
+            "statement": {
+                "kind": 168,
+                "flags": 16,
+                "start": 2,
+                "end": 3
             },
             "whileKeyword": {
                 "kind": 37757028,
@@ -37,11 +35,13 @@ do;while(j)try{}finally{}
                 "start": 3,
                 "end": 8
             },
-            "statement": {
-                "kind": 168,
-                "flags": 16,
-                "start": 2,
-                "end": 3
+            "expression": {
+                "kind": 134299649,
+                "text": "j",
+                "rawText": "j",
+                "flags": 96,
+                "start": 9,
+                "end": 10
             },
             "flags": 80,
             "start": 0,

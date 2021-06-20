@@ -50,6 +50,12 @@ switch(0) { default: function f(){ break; } }
                             "start": 11,
                             "end": 19
                         },
+                        "colonToken": {
+                            "kind": 21,
+                            "flags": 64,
+                            "start": 19,
+                            "end": 20
+                        },
                         "statements": [
                             {
                                 "kind": 176,
