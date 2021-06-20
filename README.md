@@ -190,6 +190,10 @@ You can use `kataw.shouldIgnoreNextNode(node);` to verify if the node should be 
 
 ## Transformation
 
+`Kataw` can act the same way as`Babel` and be a tool that helps you write code in the latest version of Javascript. This can be done with
+developing transformers to handle situations where your supported environments don't support certain features natively.
+In the same way as with `Babel` the compiler transform those features down to a supported version.
+
 You can use `kataw.visitEachChild` to traverse the entire CST tree. `kataw.visitNode`can be used to traverse a single node, and
 `kataw.visitNodes` to visit an array of CST nodes.
 
