@@ -51,7 +51,7 @@ foo: while (
                     "rawText": "x",
                     "flags": 96,
                     "start": 12,
-                    "end": 13
+                    "end": 16
                 },
                 "statement": {
                     "kind": 124,
@@ -63,45 +63,45 @@ foo: while (
                                 "breakKeyword": {
                                     "kind": 37757005,
                                     "flags": 81,
-                                    "start": 16,
-                                    "end": 24
+                                    "start": 35,
+                                    "end": 43
                                 },
                                 "label": {
                                     "kind": 134299649,
                                     "text": "foo",
                                     "rawText": "foo",
                                     "flags": 96,
-                                    "start": 24,
-                                    "end": 44
+                                    "start": 43,
+                                    "end": 63
                                 },
                                 "flags": 16,
-                                "start": 16,
-                                "end": 45
+                                "start": 35,
+                                "end": 64
                             }
                         ],
                         "flags": 17,
-                        "start": 16,
-                        "end": 45
+                        "start": 35,
+                        "end": 64
                     },
                     "flags": 16,
-                    "start": 14,
-                    "end": 47
+                    "start": 33,
+                    "end": 66
                 },
                 "flags": 80,
                 "start": 4,
-                "end": 47
+                "end": 66
             },
             "flags": 16,
             "start": 0,
-            "end": 47
+            "end": 66
         }
     ],
     "isModule": false,
-    "source": "foo: while (x) {\n  break /* comment 1 */ foo;\n}\n",
+    "source": "foo: while (\n  x\n  // comment 1\n) {\n  break /* comment 2 */ foo;\n}\n",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,
-    "end": 48
+    "end": 67
 }
 ```
 
@@ -109,7 +109,9 @@ foo: while (
 
 ```javascript
 
- foo: while (x) { break/* comment 1 */ foo; }
+ foo: while (x
+ // comment 1
+) { break/* comment 2 */ foo; } 
 ```
 
 ### Diagnostics
