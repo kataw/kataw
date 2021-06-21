@@ -52,7 +52,6 @@ class x {set await(x){}}
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": null,
@@ -62,6 +61,7 @@ class x {set await(x){}}
                                 "start": 9,
                                 "end": 12
                             },
+                            "asteriskToken": null,
                             "method": {
                                 "kind": 209,
                                 "name": {

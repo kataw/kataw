@@ -63,7 +63,6 @@ class A {async foo(){}}
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": {
                                 "kind": 82031,
@@ -73,6 +72,7 @@ class A {async foo(){}}
                             },
                             "setKeyword": null,
                             "getKeyword": null,
+                            "asteriskToken": null,
                             "method": {
                                 "kind": 209,
                                 "name": {

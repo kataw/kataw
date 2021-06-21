@@ -52,7 +52,6 @@ class Foo {set fooProp(value:number){}}
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": null,
@@ -62,6 +61,7 @@ class Foo {set fooProp(value:number){}}
                                 "start": 11,
                                 "end": 14
                             },
+                            "asteriskToken": null,
                             "method": {
                                 "kind": 209,
                                 "name": {

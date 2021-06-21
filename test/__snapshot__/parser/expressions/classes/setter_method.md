@@ -50,7 +50,6 @@ class A {set 9(x){}}
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": null,
@@ -60,6 +59,7 @@ class A {set 9(x){}}
                                 "start": 9,
                                 "end": 12
                             },
+                            "asteriskToken": null,
                             "method": {
                                 "kind": 209,
                                 "name": {

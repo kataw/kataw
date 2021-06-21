@@ -80,7 +80,6 @@ class Foo {
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": null,
                             "staticKeyword": {
                                 "kind": 8388716,
                                 "flags": 64,
@@ -95,6 +94,7 @@ class Foo {
                                 "end": 34
                             },
                             "getKeyword": null,
+                            "asteriskToken": null,
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -141,7 +141,6 @@ class Foo {
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": null,
                             "staticKeyword": {
                                 "kind": 8388716,
                                 "flags": 64,
@@ -156,6 +155,7 @@ class Foo {
                                 "start": 50,
                                 "end": 54
                             },
+                            "asteriskToken": null,
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -211,7 +211,6 @@ class Foo {
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": null,
                             "staticKeyword": {
                                 "kind": 8388716,
                                 "flags": 64,
@@ -221,6 +220,7 @@ class Foo {
                             "asyncKeyword": null,
                             "setKeyword": null,
                             "getKeyword": null,
+                            "asteriskToken": null,
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -267,11 +267,11 @@ class Foo {
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": null,
                             "getKeyword": null,
+                            "asteriskToken": null,
                             "method": {
                                 "kind": 209,
                                 "name": {

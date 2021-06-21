@@ -50,11 +50,11 @@ class x { "prot\u{6f}type"(){} }
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": null,
                             "getKeyword": null,
+                            "asteriskToken": null,
                             "method": {
                                 "kind": 209,
                                 "name": {

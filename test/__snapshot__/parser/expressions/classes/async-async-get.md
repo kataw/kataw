@@ -45,7 +45,6 @@ class x {    async async get f(x){}    }
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": {
                                 "kind": 82031,
@@ -55,6 +54,7 @@ class x {    async async get f(x){}    }
                             },
                             "setKeyword": null,
                             "getKeyword": null,
+                            "asteriskToken": null,
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -101,7 +101,6 @@ class x {    async async get f(x){}    }
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": {
@@ -111,6 +110,7 @@ class x {    async async get f(x){}    }
                                 "end": 28
                             },
                             "getKeyword": null,
+                            "asteriskToken": null,
                             "method": {
                                 "kind": 209,
                                 "name": {

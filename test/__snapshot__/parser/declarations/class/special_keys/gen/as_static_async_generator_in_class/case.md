@@ -52,12 +52,6 @@ class x {static async * case(){}}
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": {
-                                "kind": 67143222,
-                                "flags": 64,
-                                "start": 21,
-                                "end": 23
-                            },
                             "staticKeyword": {
                                 "kind": 8388716,
                                 "flags": 64,
@@ -72,6 +66,12 @@ class x {static async * case(){}}
                             },
                             "setKeyword": null,
                             "getKeyword": null,
+                            "asteriskToken": {
+                                "kind": 67143222,
+                                "flags": 64,
+                                "start": 21,
+                                "end": 23
+                            },
                             "method": {
                                 "kind": 209,
                                 "name": {

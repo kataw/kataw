@@ -69,7 +69,6 @@ class x { static async *prototype(){} }
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": null,
                             "staticKeyword": {
                                 "kind": 8388716,
                                 "flags": 64,
@@ -84,6 +83,7 @@ class x { static async *prototype(){} }
                                 "end": 20
                             },
                             "getKeyword": null,
+                            "asteriskToken": null,
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -168,7 +168,6 @@ class x { static async *prototype(){} }
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": null,
                             "staticKeyword": {
                                 "kind": 8388716,
                                 "flags": 64,
@@ -178,6 +177,7 @@ class x { static async *prototype(){} }
                             "asyncKeyword": null,
                             "setKeyword": null,
                             "getKeyword": null,
+                            "asteriskToken": null,
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -262,7 +262,6 @@ class x { static async *prototype(){} }
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": null,
                             "staticKeyword": {
                                 "kind": 8388716,
                                 "flags": 64,
@@ -277,6 +276,7 @@ class x { static async *prototype(){} }
                                 "end": 99
                             },
                             "getKeyword": null,
+                            "asteriskToken": null,
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -361,12 +361,6 @@ class x { static async *prototype(){} }
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": {
-                                "kind": 67143222,
-                                "flags": 64,
-                                "start": 139,
-                                "end": 141
-                            },
                             "staticKeyword": {
                                 "kind": 8388716,
                                 "flags": 64,
@@ -381,6 +375,12 @@ class x { static async *prototype(){} }
                             },
                             "setKeyword": null,
                             "getKeyword": null,
+                            "asteriskToken": {
+                                "kind": 67143222,
+                                "flags": 64,
+                                "start": 139,
+                                "end": 141
+                            },
                             "method": {
                                 "kind": 209,
                                 "name": {

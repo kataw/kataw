@@ -68,12 +68,6 @@
                                     "kind": 278,
                                     "declareToken": null,
                                     "decorators": null,
-                                    "asteriskToken": {
-                                        "kind": 67143222,
-                                        "flags": 64,
-                                        "start": 27,
-                                        "end": 29
-                                    },
                                     "staticKeyword": {
                                         "kind": 8388716,
                                         "flags": 64,
@@ -83,6 +77,12 @@
                                     "asyncKeyword": null,
                                     "setKeyword": null,
                                     "getKeyword": null,
+                                    "asteriskToken": {
+                                        "kind": 67143222,
+                                        "flags": 64,
+                                        "start": 27,
+                                        "end": 29
+                                    },
                                     "method": {
                                         "kind": 209,
                                         "name": {

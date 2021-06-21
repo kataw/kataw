@@ -44,12 +44,6 @@ class x { async *prototype(){} }
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": {
-                                "kind": 67143222,
-                                "flags": 64,
-                                "start": 15,
-                                "end": 17
-                            },
                             "staticKeyword": null,
                             "asyncKeyword": {
                                 "kind": 82031,
@@ -59,6 +53,12 @@ class x { async *prototype(){} }
                             },
                             "setKeyword": null,
                             "getKeyword": null,
+                            "asteriskToken": {
+                                "kind": 67143222,
+                                "flags": 64,
+                                "start": 15,
+                                "end": 17
+                            },
                             "method": {
                                 "kind": 209,
                                 "name": {

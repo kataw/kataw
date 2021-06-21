@@ -57,7 +57,6 @@
                                         "kind": 278,
                                         "declareToken": null,
                                         "decorators": null,
-                                        "asteriskToken": null,
                                         "staticKeyword": {
                                             "kind": 8388716,
                                             "flags": 64,
@@ -72,6 +71,7 @@
                                             "start": 18,
                                             "end": 22
                                         },
+                                        "asteriskToken": null,
                                         "method": {
                                             "kind": 209,
                                             "name": {

@@ -55,7 +55,6 @@ class Bar {
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": {
@@ -65,6 +64,7 @@ class Bar {
                                 "end": 17
                             },
                             "getKeyword": null,
+                            "asteriskToken": null,
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -138,7 +138,6 @@ class Bar {
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": null,
@@ -148,6 +147,7 @@ class Bar {
                                 "start": 43,
                                 "end": 49
                             },
+                            "asteriskToken": null,
                             "method": {
                                 "kind": 209,
                                 "name": {

@@ -91,16 +91,16 @@ function* gf() { class C { *yield() { } } }
                                             "kind": 278,
                                             "declareToken": null,
                                             "decorators": null,
+                                            "staticKeyword": null,
+                                            "asyncKeyword": null,
+                                            "setKeyword": null,
+                                            "getKeyword": null,
                                             "asteriskToken": {
                                                 "kind": 67143222,
                                                 "flags": 64,
                                                 "start": 26,
                                                 "end": 28
                                             },
-                                            "staticKeyword": null,
-                                            "asyncKeyword": null,
-                                            "setKeyword": null,
-                                            "getKeyword": null,
                                             "method": {
                                                 "kind": 209,
                                                 "name": {

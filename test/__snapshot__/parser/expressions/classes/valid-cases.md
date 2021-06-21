@@ -187,11 +187,11 @@ x = class {y = 1; 'z' = 2}
                                     "kind": 278,
                                     "declareToken": null,
                                     "decorators": null,
-                                    "asteriskToken": null,
                                     "staticKeyword": null,
                                     "asyncKeyword": null,
                                     "setKeyword": null,
                                     "getKeyword": null,
+                                    "asteriskToken": null,
                                     "method": {
                                         "kind": 209,
                                         "name": {
@@ -244,11 +244,11 @@ x = class {y = 1; 'z' = 2}
                                     "kind": 278,
                                     "declareToken": null,
                                     "decorators": null,
-                                    "asteriskToken": null,
                                     "staticKeyword": null,
                                     "asyncKeyword": null,
                                     "setKeyword": null,
                                     "getKeyword": null,
+                                    "asteriskToken": null,
                                     "method": {
                                         "kind": 209,
                                         "name": {
@@ -351,7 +351,6 @@ x = class {y = 1; 'z' = 2}
                                     "kind": 278,
                                     "declareToken": null,
                                     "decorators": null,
-                                    "asteriskToken": null,
                                     "staticKeyword": null,
                                     "asyncKeyword": null,
                                     "setKeyword": {
@@ -361,6 +360,7 @@ x = class {y = 1; 'z' = 2}
                                         "end": 72
                                     },
                                     "getKeyword": null,
+                                    "asteriskToken": null,
                                     "method": {
                                         "kind": 209,
                                         "name": {
@@ -413,7 +413,6 @@ x = class {y = 1; 'z' = 2}
                                     "kind": 278,
                                     "declareToken": null,
                                     "decorators": null,
-                                    "asteriskToken": null,
                                     "staticKeyword": null,
                                     "asyncKeyword": null,
                                     "setKeyword": null,
@@ -423,6 +422,7 @@ x = class {y = 1; 'z' = 2}
                                         "start": 80,
                                         "end": 84
                                     },
+                                    "asteriskToken": null,
                                     "method": {
                                         "kind": 209,
                                         "name": {
@@ -534,7 +534,6 @@ x = class {y = 1; 'z' = 2}
                                     "kind": 278,
                                     "declareToken": null,
                                     "decorators": null,
-                                    "asteriskToken": null,
                                     "staticKeyword": null,
                                     "asyncKeyword": null,
                                     "setKeyword": {
@@ -544,6 +543,7 @@ x = class {y = 1; 'z' = 2}
                                         "end": 111
                                     },
                                     "getKeyword": null,
+                                    "asteriskToken": null,
                                     "method": {
                                         "kind": 209,
                                         "name": {
@@ -596,7 +596,6 @@ x = class {y = 1; 'z' = 2}
                                     "kind": 278,
                                     "declareToken": null,
                                     "decorators": null,
-                                    "asteriskToken": null,
                                     "staticKeyword": null,
                                     "asyncKeyword": null,
                                     "setKeyword": null,
@@ -606,6 +605,7 @@ x = class {y = 1; 'z' = 2}
                                         "start": 119,
                                         "end": 123
                                     },
+                                    "asteriskToken": null,
                                     "method": {
                                         "kind": 209,
                                         "name": {

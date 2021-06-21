@@ -145,12 +145,6 @@ var await; var f = (async function() { class x {async *f(foo = [{m: t(await bar)
                                                                 "kind": 278,
                                                                 "declareToken": null,
                                                                 "decorators": null,
-                                                                "asteriskToken": {
-                                                                    "kind": 67143222,
-                                                                    "flags": 64,
-                                                                    "start": 53,
-                                                                    "end": 55
-                                                                },
                                                                 "staticKeyword": null,
                                                                 "asyncKeyword": {
                                                                     "kind": 82031,
@@ -160,6 +154,12 @@ var await; var f = (async function() { class x {async *f(foo = [{m: t(await bar)
                                                                 },
                                                                 "setKeyword": null,
                                                                 "getKeyword": null,
+                                                                "asteriskToken": {
+                                                                    "kind": 67143222,
+                                                                    "flags": 64,
+                                                                    "start": 53,
+                                                                    "end": 55
+                                                                },
                                                                 "method": {
                                                                     "kind": 209,
                                                                     "name": {

@@ -160,7 +160,6 @@ function* g() {
                                             "kind": 278,
                                             "declareToken": null,
                                             "decorators": null,
-                                            "asteriskToken": null,
                                             "staticKeyword": null,
                                             "asyncKeyword": null,
                                             "setKeyword": {
@@ -170,6 +169,7 @@ function* g() {
                                                 "end": 59
                                             },
                                             "getKeyword": null,
+                                            "asteriskToken": null,
                                             "method": {
                                                 "kind": 209,
                                                 "name": {
@@ -250,7 +250,6 @@ function* g() {
                                             "kind": 278,
                                             "declareToken": null,
                                             "decorators": null,
-                                            "asteriskToken": null,
                                             "staticKeyword": null,
                                             "asyncKeyword": null,
                                             "setKeyword": null,
@@ -260,6 +259,7 @@ function* g() {
                                                 "start": 93,
                                                 "end": 101
                                             },
+                                            "asteriskToken": null,
                                             "method": {
                                                 "kind": 209,
                                                 "name": {

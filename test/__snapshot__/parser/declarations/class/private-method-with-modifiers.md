@@ -51,16 +51,16 @@ class Foo {
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
+                            "staticKeyword": null,
+                            "asyncKeyword": null,
+                            "setKeyword": null,
+                            "getKeyword": null,
                             "asteriskToken": {
                                 "kind": 67143222,
                                 "flags": 65,
                                 "start": 11,
                                 "end": 14
                             },
-                            "staticKeyword": null,
-                            "asyncKeyword": null,
-                            "setKeyword": null,
-                            "getKeyword": null,
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -107,7 +107,6 @@ class Foo {
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": {
                                 "kind": 82031,
@@ -117,6 +116,7 @@ class Foo {
                             },
                             "setKeyword": null,
                             "getKeyword": null,
+                            "asteriskToken": null,
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -163,12 +163,6 @@ class Foo {
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": {
-                                "kind": 67143222,
-                                "flags": 64,
-                                "start": 43,
-                                "end": 45
-                            },
                             "staticKeyword": null,
                             "asyncKeyword": {
                                 "kind": 82031,
@@ -178,6 +172,12 @@ class Foo {
                             },
                             "setKeyword": null,
                             "getKeyword": null,
+                            "asteriskToken": {
+                                "kind": 67143222,
+                                "flags": 64,
+                                "start": 43,
+                                "end": 45
+                            },
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -224,12 +224,6 @@ class Foo {
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": {
-                                "kind": 67143222,
-                                "flags": 64,
-                                "start": 61,
-                                "end": 63
-                            },
                             "staticKeyword": {
                                 "kind": 8388716,
                                 "flags": 64,
@@ -239,6 +233,12 @@ class Foo {
                             "asyncKeyword": null,
                             "setKeyword": null,
                             "getKeyword": null,
+                            "asteriskToken": {
+                                "kind": 67143222,
+                                "flags": 64,
+                                "start": 61,
+                                "end": 63
+                            },
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -285,7 +285,6 @@ class Foo {
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": null,
                             "staticKeyword": {
                                 "kind": 8388716,
                                 "flags": 64,
@@ -300,6 +299,7 @@ class Foo {
                             },
                             "setKeyword": null,
                             "getKeyword": null,
+                            "asteriskToken": null,
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -346,12 +346,6 @@ class Foo {
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": {
-                                "kind": 67143222,
-                                "flags": 64,
-                                "start": 108,
-                                "end": 110
-                            },
                             "staticKeyword": {
                                 "kind": 8388716,
                                 "flags": 64,
@@ -366,6 +360,12 @@ class Foo {
                             },
                             "setKeyword": null,
                             "getKeyword": null,
+                            "asteriskToken": {
+                                "kind": 67143222,
+                                "flags": 64,
+                                "start": 108,
+                                "end": 110
+                            },
                             "method": {
                                 "kind": 209,
                                 "name": {

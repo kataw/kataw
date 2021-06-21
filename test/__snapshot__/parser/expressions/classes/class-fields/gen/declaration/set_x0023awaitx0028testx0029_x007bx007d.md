@@ -52,7 +52,6 @@ class C { set #await(test) {} }
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": null,
@@ -62,6 +61,7 @@ class C { set #await(test) {} }
                                 "start": 9,
                                 "end": 13
                             },
+                            "asteriskToken": null,
                             "method": {
                                 "kind": 209,
                                 "name": {

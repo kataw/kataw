@@ -72,12 +72,6 @@ class C extends Base { static *async(){} }
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": {
-                                "kind": 67143222,
-                                "flags": 64,
-                                "start": 29,
-                                "end": 31
-                            },
                             "staticKeyword": {
                                 "kind": 8388716,
                                 "flags": 64,
@@ -87,6 +81,12 @@ class C extends Base { static *async(){} }
                             "asyncKeyword": null,
                             "setKeyword": null,
                             "getKeyword": null,
+                            "asteriskToken": {
+                                "kind": 67143222,
+                                "flags": 64,
+                                "start": 29,
+                                "end": 31
+                            },
                             "method": {
                                 "kind": 209,
                                 "name": {

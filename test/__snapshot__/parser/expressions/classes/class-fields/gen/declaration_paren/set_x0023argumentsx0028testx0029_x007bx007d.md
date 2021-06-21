@@ -68,7 +68,6 @@
                                     "kind": 278,
                                     "declareToken": null,
                                     "decorators": null,
-                                    "asteriskToken": null,
                                     "staticKeyword": null,
                                     "asyncKeyword": null,
                                     "setKeyword": null,
@@ -78,6 +77,7 @@
                                         "start": 21,
                                         "end": 25
                                     },
+                                    "asteriskToken": null,
                                     "method": {
                                         "kind": 209,
                                         "name": {

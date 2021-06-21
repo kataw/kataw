@@ -244,7 +244,7 @@ interface ClassHeritage <: ExpressionNode {
 interface ClassTail <: ExpressionNode {
   kind: NodeKind.ClassTail;
   classHeritage: ExpressionNode | null;
-  body: [ClassElements]
+  body: [ClassElement]
 }
 ```
 
@@ -255,11 +255,11 @@ interface ClassElement <: ExpressionNode {
   kind: NodeKind.ClassElement;
   declareToken: SyntaxToken<TokenSyntaxKind> | null;
   decorators: DecoratorList | null;
-  asteriskToken: SyntaxToken<TokenSyntaxKind> | null;
   staticKeyword: SyntaxToken<TokenSyntaxKind> | null;
   asyncKeyword: SyntaxToken<TokenSyntaxKind> | null;
   setKeyword: SyntaxToken<TokenSyntaxKind> | null;
   getKeyword: SyntaxToken<TokenSyntaxKind> | null;
+  asteriskToken: SyntaxToken<TokenSyntaxKind> | null;
   method: MethodDefinition;
 }
 ```

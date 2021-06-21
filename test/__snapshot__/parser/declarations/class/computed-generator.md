@@ -47,16 +47,16 @@ class Foo {
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
+                            "staticKeyword": null,
+                            "asyncKeyword": null,
+                            "setKeyword": null,
+                            "getKeyword": null,
                             "asteriskToken": {
                                 "kind": 67143222,
                                 "flags": 65,
                                 "start": 11,
                                 "end": 14
                             },
-                            "staticKeyword": null,
-                            "asyncKeyword": null,
-                            "setKeyword": null,
-                            "getKeyword": null,
                             "method": {
                                 "kind": 209,
                                 "name": {

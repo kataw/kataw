@@ -51,7 +51,6 @@ class A {get foo(){}}
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": {
@@ -61,6 +60,7 @@ class A {get foo(){}}
                                 "end": 12
                             },
                             "getKeyword": null,
+                            "asteriskToken": null,
                             "method": {
                                 "kind": 209,
                                 "name": {

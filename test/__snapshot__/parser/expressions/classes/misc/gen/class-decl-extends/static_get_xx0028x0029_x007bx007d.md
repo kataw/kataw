@@ -72,7 +72,6 @@ class C extends Base { static get x() {} }
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": null,
                             "staticKeyword": {
                                 "kind": 8388716,
                                 "flags": 64,
@@ -87,6 +86,7 @@ class C extends Base { static get x() {} }
                                 "end": 33
                             },
                             "getKeyword": null,
+                            "asteriskToken": null,
                             "method": {
                                 "kind": 209,
                                 "name": {

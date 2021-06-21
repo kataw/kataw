@@ -141,7 +141,6 @@ var await; var f = (async function() { (class { async method(await) {} }) });
                                                                         "kind": 278,
                                                                         "declareToken": null,
                                                                         "decorators": null,
-                                                                        "asteriskToken": null,
                                                                         "staticKeyword": null,
                                                                         "asyncKeyword": {
                                                                             "kind": 82031,
@@ -151,6 +150,7 @@ var await; var f = (async function() { (class { async method(await) {} }) });
                                                                         },
                                                                         "setKeyword": null,
                                                                         "getKeyword": null,
+                                                                        "asteriskToken": null,
                                                                         "method": {
                                                                             "kind": 209,
                                                                             "name": {

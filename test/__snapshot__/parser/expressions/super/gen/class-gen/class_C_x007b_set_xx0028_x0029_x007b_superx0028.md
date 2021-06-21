@@ -52,16 +52,16 @@ class C { *method() { class C { set x(_) { super( } }
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
+                            "staticKeyword": null,
+                            "asyncKeyword": null,
+                            "setKeyword": null,
+                            "getKeyword": null,
                             "asteriskToken": {
                                 "kind": 67143222,
                                 "flags": 64,
                                 "start": 9,
                                 "end": 11
                             },
-                            "staticKeyword": null,
-                            "asyncKeyword": null,
-                            "setKeyword": null,
-                            "getKeyword": null,
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -117,7 +117,6 @@ class C { *method() { class C { set x(_) { super( } }
                                                                 "kind": 278,
                                                                 "declareToken": null,
                                                                 "decorators": null,
-                                                                "asteriskToken": null,
                                                                 "staticKeyword": null,
                                                                 "asyncKeyword": null,
                                                                 "setKeyword": null,
@@ -127,6 +126,7 @@ class C { *method() { class C { set x(_) { super( } }
                                                                     "start": 31,
                                                                     "end": 35
                                                                 },
+                                                                "asteriskToken": null,
                                                                 "method": {
                                                                     "kind": 209,
                                                                     "name": {

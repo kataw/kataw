@@ -52,7 +52,6 @@ class F { static get foo() {} static get foo() {} }
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": null,
                             "staticKeyword": {
                                 "kind": 8388716,
                                 "flags": 64,
@@ -67,6 +66,7 @@ class F { static get foo() {} static get foo() {} }
                                 "end": 20
                             },
                             "getKeyword": null,
+                            "asteriskToken": null,
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -113,7 +113,6 @@ class F { static get foo() {} static get foo() {} }
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": null,
                             "staticKeyword": {
                                 "kind": 8388716,
                                 "flags": 64,
@@ -128,6 +127,7 @@ class F { static get foo() {} static get foo() {} }
                                 "end": 40
                             },
                             "getKeyword": null,
+                            "asteriskToken": null,
                             "method": {
                                 "kind": 209,
                                 "name": {

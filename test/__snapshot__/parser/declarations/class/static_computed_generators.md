@@ -63,12 +63,6 @@ class x { static *[expr](){} }
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": {
-                                "kind": 67143222,
-                                "flags": 64,
-                                "start": 16,
-                                "end": 18
-                            },
                             "staticKeyword": {
                                 "kind": 8388716,
                                 "flags": 64,
@@ -78,6 +72,12 @@ class x { static *[expr](){} }
                             "asyncKeyword": null,
                             "setKeyword": null,
                             "getKeyword": null,
+                            "asteriskToken": {
+                                "kind": 67143222,
+                                "flags": 64,
+                                "start": 16,
+                                "end": 18
+                            },
                             "method": {
                                 "kind": 209,
                                 "name": {

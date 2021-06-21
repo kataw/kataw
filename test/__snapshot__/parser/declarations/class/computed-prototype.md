@@ -128,11 +128,11 @@ class Twelve { static async ['prototype']() {} }
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": null,
                             "getKeyword": null,
+                            "asteriskToken": null,
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -223,16 +223,16 @@ class Twelve { static async ['prototype']() {} }
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
+                            "staticKeyword": null,
+                            "asyncKeyword": null,
+                            "setKeyword": null,
+                            "getKeyword": null,
                             "asteriskToken": {
                                 "kind": 67143222,
                                 "flags": 64,
                                 "start": 78,
                                 "end": 80
                             },
-                            "staticKeyword": null,
-                            "asyncKeyword": null,
-                            "setKeyword": null,
-                            "getKeyword": null,
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -323,7 +323,6 @@ class Twelve { static async ['prototype']() {} }
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": {
@@ -333,6 +332,7 @@ class Twelve { static async ['prototype']() {} }
                                 "end": 117
                             },
                             "getKeyword": null,
+                            "asteriskToken": null,
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -423,7 +423,6 @@ class Twelve { static async ['prototype']() {} }
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": null,
@@ -433,6 +432,7 @@ class Twelve { static async ['prototype']() {} }
                                 "start": 151,
                                 "end": 155
                             },
+                            "asteriskToken": null,
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -532,7 +532,6 @@ class Twelve { static async ['prototype']() {} }
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": {
                                 "kind": 82031,
@@ -542,6 +541,7 @@ class Twelve { static async ['prototype']() {} }
                             },
                             "setKeyword": null,
                             "getKeyword": null,
+                            "asteriskToken": null,
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -709,7 +709,6 @@ class Twelve { static async ['prototype']() {} }
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": null,
                             "staticKeyword": {
                                 "kind": 8388716,
                                 "flags": 64,
@@ -719,6 +718,7 @@ class Twelve { static async ['prototype']() {} }
                             "asyncKeyword": null,
                             "setKeyword": null,
                             "getKeyword": null,
+                            "asteriskToken": null,
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -809,12 +809,6 @@ class Twelve { static async ['prototype']() {} }
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": {
-                                "kind": 67143222,
-                                "flags": 64,
-                                "start": 320,
-                                "end": 322
-                            },
                             "staticKeyword": {
                                 "kind": 8388716,
                                 "flags": 64,
@@ -824,6 +818,12 @@ class Twelve { static async ['prototype']() {} }
                             "asyncKeyword": null,
                             "setKeyword": null,
                             "getKeyword": null,
+                            "asteriskToken": {
+                                "kind": 67143222,
+                                "flags": 64,
+                                "start": 320,
+                                "end": 322
+                            },
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -914,7 +914,6 @@ class Twelve { static async ['prototype']() {} }
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": null,
                             "staticKeyword": {
                                 "kind": 8388716,
                                 "flags": 64,
@@ -929,6 +928,7 @@ class Twelve { static async ['prototype']() {} }
                                 "end": 365
                             },
                             "getKeyword": null,
+                            "asteriskToken": null,
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -1019,7 +1019,6 @@ class Twelve { static async ['prototype']() {} }
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": null,
                             "staticKeyword": {
                                 "kind": 8388716,
                                 "flags": 64,
@@ -1034,6 +1033,7 @@ class Twelve { static async ['prototype']() {} }
                                 "start": 408,
                                 "end": 412
                             },
+                            "asteriskToken": null,
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -1133,7 +1133,6 @@ class Twelve { static async ['prototype']() {} }
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": null,
                             "staticKeyword": {
                                 "kind": 8388716,
                                 "flags": 64,
@@ -1148,6 +1147,7 @@ class Twelve { static async ['prototype']() {} }
                             },
                             "setKeyword": null,
                             "getKeyword": null,
+                            "asteriskToken": null,
                             "method": {
                                 "kind": 209,
                                 "name": {

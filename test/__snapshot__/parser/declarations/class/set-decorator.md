@@ -81,7 +81,6 @@ class A {
                                 "start": 9,
                                 "end": 16
                             },
-                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": null,
@@ -91,6 +90,7 @@ class A {
                                 "start": 9,
                                 "end": 20
                             },
+                            "asteriskToken": null,
                             "method": {
                                 "kind": 209,
                                 "name": {

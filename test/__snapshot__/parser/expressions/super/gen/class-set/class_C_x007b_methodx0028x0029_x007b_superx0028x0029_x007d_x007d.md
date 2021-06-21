@@ -52,7 +52,6 @@ class C { set x(_) { class C { method() { super(); } } } }
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": null,
@@ -62,6 +61,7 @@ class C { set x(_) { class C { method() { super(); } } } }
                                 "start": 9,
                                 "end": 13
                             },
+                            "asteriskToken": null,
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -126,11 +126,11 @@ class C { set x(_) { class C { method() { super(); } } } }
                                                                 "kind": 278,
                                                                 "declareToken": null,
                                                                 "decorators": null,
-                                                                "asteriskToken": null,
                                                                 "staticKeyword": null,
                                                                 "asyncKeyword": null,
                                                                 "setKeyword": null,
                                                                 "getKeyword": null,
+                                                                "asteriskToken": null,
                                                                 "method": {
                                                                     "kind": 209,
                                                                     "name": {

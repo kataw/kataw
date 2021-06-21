@@ -57,7 +57,6 @@
                                     "kind": 278,
                                     "declareToken": null,
                                     "decorators": null,
-                                    "asteriskToken": null,
                                     "staticKeyword": null,
                                     "asyncKeyword": null,
                                     "setKeyword": {
@@ -67,6 +66,7 @@
                                         "end": 12
                                     },
                                     "getKeyword": null,
+                                    "asteriskToken": null,
                                     "method": {
                                         "kind": 209,
                                         "name": {
@@ -155,7 +155,6 @@
                                     "kind": 278,
                                     "declareToken": null,
                                     "decorators": null,
-                                    "asteriskToken": null,
                                     "staticKeyword": null,
                                     "asyncKeyword": null,
                                     "setKeyword": null,
@@ -165,6 +164,7 @@
                                         "start": 42,
                                         "end": 46
                                     },
+                                    "asteriskToken": null,
                                     "method": {
                                         "kind": 209,
                                         "name": {
@@ -262,16 +262,16 @@
                                     "kind": 278,
                                     "declareToken": null,
                                     "decorators": null,
+                                    "staticKeyword": null,
+                                    "asyncKeyword": null,
+                                    "setKeyword": null,
+                                    "getKeyword": null,
                                     "asteriskToken": {
                                         "kind": 67143222,
                                         "flags": 64,
                                         "start": 76,
                                         "end": 78
                                     },
-                                    "staticKeyword": null,
-                                    "asyncKeyword": null,
-                                    "setKeyword": null,
-                                    "getKeyword": null,
                                     "method": {
                                         "kind": 209,
                                         "name": {
@@ -360,11 +360,11 @@
                                     "kind": 278,
                                     "declareToken": null,
                                     "decorators": null,
-                                    "asteriskToken": null,
                                     "staticKeyword": null,
                                     "asyncKeyword": null,
                                     "setKeyword": null,
                                     "getKeyword": null,
+                                    "asteriskToken": null,
                                     "method": {
                                         "kind": 209,
                                         "name": {
@@ -453,7 +453,6 @@
                                     "kind": 278,
                                     "declareToken": null,
                                     "decorators": null,
-                                    "asteriskToken": null,
                                     "staticKeyword": {
                                         "kind": 8388716,
                                         "flags": 64,
@@ -468,6 +467,7 @@
                                         "end": 147
                                     },
                                     "getKeyword": null,
+                                    "asteriskToken": null,
                                     "method": {
                                         "kind": 209,
                                         "name": {
@@ -556,7 +556,6 @@
                                     "kind": 278,
                                     "declareToken": null,
                                     "decorators": null,
-                                    "asteriskToken": null,
                                     "staticKeyword": {
                                         "kind": 8388716,
                                         "flags": 64,
@@ -571,6 +570,7 @@
                                         "start": 183,
                                         "end": 187
                                     },
+                                    "asteriskToken": null,
                                     "method": {
                                         "kind": 209,
                                         "name": {
