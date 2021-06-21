@@ -1163,12 +1163,7 @@ try {} catch({ x: "str" }) {}
             "kind": 120,
             "expression": {
                 "kind": 271,
-                "arrowToken": {
-                    "kind": 10,
-                    "flags": 64,
-                    "start": 309,
-                    "end": 312
-                },
+                "asyncKeyword": null,
                 "typeParameters": null,
                 "parameters": [
                     {
@@ -1180,8 +1175,13 @@ try {} catch({ x: "str" }) {}
                         "end": 308
                     }
                 ],
-                "asyncKeyword": null,
                 "returnType": null,
+                "arrowToken": {
+                    "kind": 10,
+                    "flags": 64,
+                    "start": 309,
+                    "end": 312
+                },
                 "contents": {
                     "kind": 134299649,
                     "text": "z",
@@ -2567,11 +2567,11 @@ try {} catch({ x: "str" }) {}
                         "kind": 120,
                         "expression": {
                             "kind": 271,
-                            "arrowToken": null,
+                            "asyncKeyword": null,
                             "typeParameters": null,
                             "parameters": [],
-                            "asyncKeyword": null,
                             "returnType": null,
+                            "arrowToken": null,
                             "contents": {
                                 "kind": 216,
                                 "functionStatementList": {
@@ -2710,12 +2710,7 @@ try {} catch({ x: "str" }) {}
             "kind": 120,
             "expression": {
                 "kind": 271,
-                "arrowToken": {
-                    "kind": 10,
-                    "flags": 64,
-                    "start": 770,
-                    "end": 773
-                },
+                "asyncKeyword": null,
                 "typeParameters": null,
                 "parameters": [
                     {
@@ -2727,8 +2722,13 @@ try {} catch({ x: "str" }) {}
                         "end": 769
                     }
                 ],
-                "asyncKeyword": null,
                 "returnType": null,
+                "arrowToken": {
+                    "kind": 10,
+                    "flags": 64,
+                    "start": 770,
+                    "end": 773
+                },
                 "contents": {
                     "kind": 134299649,
                     "text": "z",

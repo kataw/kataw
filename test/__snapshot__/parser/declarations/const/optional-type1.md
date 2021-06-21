@@ -47,12 +47,7 @@ const f = (x?, y?:Object = {}) => {}
                         "type": null,
                         "initializer": {
                             "kind": 271,
-                            "arrowToken": {
-                                "kind": 10,
-                                "flags": 64,
-                                "start": 30,
-                                "end": 33
-                            },
+                            "asyncKeyword": null,
                             "typeParameters": null,
                             "parameters": [
                                 {
@@ -137,8 +132,13 @@ const f = (x?, y?:Object = {}) => {}
                                     "end": 29
                                 }
                             ],
-                            "asyncKeyword": null,
                             "returnType": null,
+                            "arrowToken": {
+                                "kind": 10,
+                                "flags": 64,
+                                "start": 30,
+                                "end": 33
+                            },
                             "contents": {
                                 "kind": 216,
                                 "functionStatementList": {

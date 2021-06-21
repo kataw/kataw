@@ -37,7 +37,12 @@ for await (const a of b);
             },
             "initializer": {
                 "kind": 162,
-                "lexicalKeyword": null,
+                "lexicalKeyword": {
+                    "kind": 37757004,
+                    "flags": 64,
+                    "start": 11,
+                    "end": 16
+                },
                 "binding": {
                     "kind": 151,
                     "bindingList": [
@@ -104,7 +109,7 @@ for await (const a of b);
 
 ```javascript
 
-for await (a; of b);
+for await (const a; of b);
 ```
 
 ### Diagnostics

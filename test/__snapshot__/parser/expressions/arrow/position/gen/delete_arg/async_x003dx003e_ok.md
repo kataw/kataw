@@ -35,11 +35,11 @@ delete async => ok
                 },
                 "operand": {
                     "kind": 271,
-                    "arrowToken": {
-                        "kind": 10,
+                    "asyncKeyword": {
+                        "kind": 82031,
                         "flags": 64,
-                        "start": 12,
-                        "end": 15
+                        "start": 6,
+                        "end": 12
                     },
                     "typeParameters": null,
                     "parameters": {
@@ -50,13 +50,13 @@ delete async => ok
                         "start": 6,
                         "end": 12
                     },
-                    "asyncKeyword": {
-                        "kind": 82031,
-                        "flags": 64,
-                        "start": 6,
-                        "end": 12
-                    },
                     "returnType": null,
+                    "arrowToken": {
+                        "kind": 10,
+                        "flags": 64,
+                        "start": 12,
+                        "end": 15
+                    },
                     "contents": {
                         "kind": 134299649,
                         "text": "ok",

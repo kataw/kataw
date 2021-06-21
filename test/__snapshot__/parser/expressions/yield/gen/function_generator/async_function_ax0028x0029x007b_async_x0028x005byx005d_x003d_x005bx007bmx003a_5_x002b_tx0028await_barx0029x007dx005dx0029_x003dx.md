@@ -137,11 +137,11 @@ function * gen() { function not_gen() { async function a(){     async ([y] = [{m
                                                     "statements": [
                                                         {
                                                             "kind": 271,
-                                                            "arrowToken": {
-                                                                "kind": 10,
+                                                            "asyncKeyword": {
+                                                                "kind": 82031,
                                                                 "flags": 64,
-                                                                "start": 101,
-                                                                "end": 104
+                                                                "start": 59,
+                                                                "end": 69
                                                             },
                                                             "typeParameters": null,
                                                             "parameters": [
@@ -286,13 +286,13 @@ function * gen() { function not_gen() { async function a(){     async ([y] = [{m
                                                                     "end": 100
                                                                 }
                                                             ],
-                                                            "asyncKeyword": {
-                                                                "kind": 82031,
-                                                                "flags": 64,
-                                                                "start": 59,
-                                                                "end": 69
-                                                            },
                                                             "returnType": null,
+                                                            "arrowToken": {
+                                                                "kind": 10,
+                                                                "flags": 64,
+                                                                "start": 101,
+                                                                "end": 104
+                                                            },
                                                             "contents": {
                                                                 "kind": 216,
                                                                 "functionStatementList": {

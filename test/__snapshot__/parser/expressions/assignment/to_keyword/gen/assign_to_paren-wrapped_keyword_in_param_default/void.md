@@ -25,11 +25,11 @@ async (x = (void) = f) => {}
     "statements": [
         {
             "kind": 271,
-            "arrowToken": {
-                "kind": 10,
+            "asyncKeyword": {
+                "kind": 82031,
                 "flags": 64,
-                "start": 22,
-                "end": 25
+                "start": 0,
+                "end": 5
             },
             "typeParameters": null,
             "parameters": [
@@ -97,13 +97,13 @@ async (x = (void) = f) => {}
                     "end": 21
                 }
             ],
-            "asyncKeyword": {
-                "kind": 82031,
-                "flags": 64,
-                "start": 0,
-                "end": 5
-            },
             "returnType": null,
+            "arrowToken": {
+                "kind": 10,
+                "flags": 64,
+                "start": 22,
+                "end": 25
+            },
             "contents": {
                 "kind": 216,
                 "functionStatementList": {

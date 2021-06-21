@@ -2638,12 +2638,7 @@ switch (answer) { case 0: let a; };
                                     },
                                     "alternate": {
                                         "kind": 271,
-                                        "arrowToken": {
-                                            "kind": 10,
-                                            "flags": 64,
-                                            "start": 926,
-                                            "end": 929
-                                        },
+                                        "asyncKeyword": null,
                                         "typeParameters": null,
                                         "parameters": [
                                             {
@@ -2655,8 +2650,13 @@ switch (answer) { case 0: let a; };
                                                 "end": 925
                                             }
                                         ],
-                                        "asyncKeyword": null,
                                         "returnType": null,
+                                        "arrowToken": {
+                                            "kind": 10,
+                                            "flags": 64,
+                                            "start": 926,
+                                            "end": 929
+                                        },
                                         "contents": {
                                             "kind": 216,
                                             "functionStatementList": {
@@ -2965,12 +2965,7 @@ switch (answer) { case 0: let a; };
                                     },
                                     "alternate": {
                                         "kind": 271,
-                                        "arrowToken": {
-                                            "kind": 10,
-                                            "flags": 64,
-                                            "start": 1045,
-                                            "end": 1048
-                                        },
+                                        "asyncKeyword": null,
                                         "typeParameters": null,
                                         "parameters": [
                                             {
@@ -2982,8 +2977,13 @@ switch (answer) { case 0: let a; };
                                                 "end": 1044
                                             }
                                         ],
-                                        "asyncKeyword": null,
                                         "returnType": null,
+                                        "arrowToken": {
+                                            "kind": 10,
+                                            "flags": 64,
+                                            "start": 1045,
+                                            "end": 1048
+                                        },
                                         "contents": {
                                             "kind": 216,
                                             "functionStatementList": {

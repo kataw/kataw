@@ -17,11 +17,11 @@ async (await) => x
     "statements": [
         {
             "kind": 271,
-            "arrowToken": {
-                "kind": 10,
+            "asyncKeyword": {
+                "kind": 82031,
                 "flags": 64,
-                "start": 13,
-                "end": 16
+                "start": 0,
+                "end": 5
             },
             "typeParameters": null,
             "parameters": [
@@ -34,13 +34,13 @@ async (await) => x
                     "end": 12
                 }
             ],
-            "asyncKeyword": {
-                "kind": 82031,
-                "flags": 64,
-                "start": 0,
-                "end": 5
-            },
             "returnType": null,
+            "arrowToken": {
+                "kind": 10,
+                "flags": 64,
+                "start": 13,
+                "end": 16
+            },
             "contents": {
                 "kind": 134299649,
                 "text": "x",

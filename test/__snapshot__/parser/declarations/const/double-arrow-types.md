@@ -159,12 +159,7 @@ const fn2: ( Object, ?Object, ) => void = ( o1, o2, ) => o1;
                         },
                         "initializer": {
                             "kind": 271,
-                            "arrowToken": {
-                                "kind": 10,
-                                "flags": 64,
-                                "start": 50,
-                                "end": 53
-                            },
+                            "asyncKeyword": null,
                             "typeParameters": null,
                             "parameters": [
                                 {
@@ -184,8 +179,13 @@ const fn2: ( Object, ?Object, ) => void = ( o1, o2, ) => o1;
                                     "end": 48
                                 }
                             ],
-                            "asyncKeyword": null,
                             "returnType": null,
+                            "arrowToken": {
+                                "kind": 10,
+                                "flags": 64,
+                                "start": 50,
+                                "end": 53
+                            },
                             "contents": {
                                 "kind": 134299649,
                                 "text": "o1",
@@ -346,12 +346,7 @@ const fn2: ( Object, ?Object, ) => void = ( o1, o2, ) => o1;
                         },
                         "initializer": {
                             "kind": 271,
-                            "arrowToken": {
-                                "kind": 10,
-                                "flags": 64,
-                                "start": 111,
-                                "end": 114
-                            },
+                            "asyncKeyword": null,
                             "typeParameters": null,
                             "parameters": [
                                 {
@@ -371,8 +366,13 @@ const fn2: ( Object, ?Object, ) => void = ( o1, o2, ) => o1;
                                     "end": 108
                                 }
                             ],
-                            "asyncKeyword": null,
                             "returnType": null,
+                            "arrowToken": {
+                                "kind": 10,
+                                "flags": 64,
+                                "start": 111,
+                                "end": 114
+                            },
                             "contents": {
                                 "kind": 134299649,
                                 "text": "o1",

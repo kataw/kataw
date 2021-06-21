@@ -33,7 +33,12 @@ for (const a,b,c;;);
             },
             "initializer": {
                 "kind": 162,
-                "lexicalKeyword": null,
+                "lexicalKeyword": {
+                    "kind": 37757004,
+                    "flags": 64,
+                    "start": 5,
+                    "end": 10
+                },
                 "binding": {
                     "kind": 151,
                     "bindingList": [
@@ -120,7 +125,7 @@ for (const a,b,c;;);
 
 ```javascript
 
-for (a, b, c;; ; );
+for (const a, b, c;; ; );
 ```
 
 ### Diagnostics

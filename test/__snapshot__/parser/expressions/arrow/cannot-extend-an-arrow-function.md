@@ -61,12 +61,7 @@ class Foo extends async x => {} {}
                     },
                     "expression": {
                         "kind": 271,
-                        "arrowToken": {
-                            "kind": 10,
-                            "flags": 64,
-                            "start": 19,
-                            "end": 22
-                        },
+                        "asyncKeyword": null,
                         "typeParameters": null,
                         "parameters": {
                             "kind": 134299649,
@@ -76,8 +71,13 @@ class Foo extends async x => {} {}
                             "start": 17,
                             "end": 19
                         },
-                        "asyncKeyword": null,
                         "returnType": null,
+                        "arrowToken": {
+                            "kind": 10,
+                            "flags": 64,
+                            "start": 19,
+                            "end": 22
+                        },
                         "contents": {
                             "kind": 216,
                             "functionStatementList": {
@@ -147,16 +147,16 @@ class Foo extends async x => {} {}
                     },
                     "expression": {
                         "kind": 271,
+                        "asyncKeyword": null,
+                        "typeParameters": null,
+                        "parameters": [],
+                        "returnType": null,
                         "arrowToken": {
                             "kind": 10,
                             "flags": 64,
                             "start": 50,
                             "end": 53
                         },
-                        "typeParameters": null,
-                        "parameters": [],
-                        "asyncKeyword": null,
-                        "returnType": null,
                         "contents": {
                             "kind": 216,
                             "functionStatementList": {
@@ -226,11 +226,11 @@ class Foo extends async x => {} {}
                     },
                     "expression": {
                         "kind": 271,
-                        "arrowToken": {
-                            "kind": 10,
+                        "asyncKeyword": {
+                            "kind": 82031,
                             "flags": 64,
-                            "start": 86,
-                            "end": 89
+                            "start": 78,
+                            "end": 84
                         },
                         "typeParameters": null,
                         "parameters": {
@@ -241,13 +241,13 @@ class Foo extends async x => {} {}
                             "start": 84,
                             "end": 86
                         },
-                        "asyncKeyword": {
-                            "kind": 82031,
-                            "flags": 64,
-                            "start": 78,
-                            "end": 84
-                        },
                         "returnType": null,
+                        "arrowToken": {
+                            "kind": 10,
+                            "flags": 64,
+                            "start": 86,
+                            "end": 89
+                        },
                         "contents": {
                             "kind": 216,
                             "functionStatementList": {
@@ -321,12 +321,7 @@ class Foo extends async x => {} {}
                                             },
                                             "expression": {
                                                 "kind": 271,
-                                                "arrowToken": {
-                                                    "kind": 10,
-                                                    "flags": 64,
-                                                    "start": 113,
-                                                    "end": 116
-                                                },
+                                                "asyncKeyword": null,
                                                 "typeParameters": null,
                                                 "parameters": {
                                                     "kind": 134299649,
@@ -336,8 +331,13 @@ class Foo extends async x => {} {}
                                                     "start": 111,
                                                     "end": 113
                                                 },
-                                                "asyncKeyword": null,
                                                 "returnType": null,
+                                                "arrowToken": {
+                                                    "kind": 10,
+                                                    "flags": 64,
+                                                    "start": 113,
+                                                    "end": 116
+                                                },
                                                 "contents": {
                                                     "kind": 216,
                                                     "functionStatementList": {
@@ -406,12 +406,7 @@ class Foo extends async x => {} {}
                                                 },
                                                 "expression": {
                                                     "kind": 271,
-                                                    "arrowToken": {
-                                                        "kind": 10,
-                                                        "flags": 64,
-                                                        "start": 143,
-                                                        "end": 146
-                                                    },
+                                                    "asyncKeyword": null,
                                                     "typeParameters": null,
                                                     "parameters": [
                                                         {
@@ -423,8 +418,13 @@ class Foo extends async x => {} {}
                                                             "end": 142
                                                         }
                                                     ],
-                                                    "asyncKeyword": null,
                                                     "returnType": null,
+                                                    "arrowToken": {
+                                                        "kind": 10,
+                                                        "flags": 64,
+                                                        "start": 143,
+                                                        "end": 146
+                                                    },
                                                     "contents": {
                                                         "kind": 216,
                                                         "functionStatementList": {
@@ -499,11 +499,11 @@ class Foo extends async x => {} {}
                                             },
                                             "expression": {
                                                 "kind": 271,
-                                                "arrowToken": {
-                                                    "kind": 10,
+                                                "asyncKeyword": {
+                                                    "kind": 82031,
                                                     "flags": 64,
-                                                    "start": 177,
-                                                    "end": 180
+                                                    "start": 169,
+                                                    "end": 175
                                                 },
                                                 "typeParameters": null,
                                                 "parameters": {
@@ -514,13 +514,13 @@ class Foo extends async x => {} {}
                                                     "start": 175,
                                                     "end": 177
                                                 },
-                                                "asyncKeyword": {
-                                                    "kind": 82031,
-                                                    "flags": 64,
-                                                    "start": 169,
-                                                    "end": 175
-                                                },
                                                 "returnType": null,
+                                                "arrowToken": {
+                                                    "kind": 10,
+                                                    "flags": 64,
+                                                    "start": 177,
+                                                    "end": 180
+                                                },
                                                 "contents": {
                                                     "kind": 216,
                                                     "functionStatementList": {
@@ -595,21 +595,21 @@ class Foo extends async x => {} {}
                                         },
                                         "expression": {
                                             "kind": 271,
-                                            "arrowToken": {
-                                                "kind": 10,
-                                                "flags": 64,
-                                                "start": 212,
-                                                "end": 215
-                                            },
-                                            "typeParameters": null,
-                                            "parameters": [],
                                             "asyncKeyword": {
                                                 "kind": 82031,
                                                 "flags": 64,
                                                 "start": 203,
                                                 "end": 209
                                             },
+                                            "typeParameters": null,
+                                            "parameters": [],
                                             "returnType": null,
+                                            "arrowToken": {
+                                                "kind": 10,
+                                                "flags": 64,
+                                                "start": 212,
+                                                "end": 215
+                                            },
                                             "contents": {
                                                 "kind": 216,
                                                 "functionStatementList": {
@@ -684,11 +684,11 @@ class Foo extends async x => {} {}
                                     },
                                     "expression": {
                                         "kind": 271,
-                                        "arrowToken": {
-                                            "kind": 10,
+                                        "asyncKeyword": {
+                                            "kind": 82031,
                                             "flags": 64,
-                                            "start": 248,
-                                            "end": 251
+                                            "start": 238,
+                                            "end": 244
                                         },
                                         "typeParameters": null,
                                         "parameters": [
@@ -701,13 +701,13 @@ class Foo extends async x => {} {}
                                                 "end": 247
                                             }
                                         ],
-                                        "asyncKeyword": {
-                                            "kind": 82031,
-                                            "flags": 64,
-                                            "start": 238,
-                                            "end": 244
-                                        },
                                         "returnType": null,
+                                        "arrowToken": {
+                                            "kind": 10,
+                                            "flags": 64,
+                                            "start": 248,
+                                            "end": 251
+                                        },
                                         "contents": {
                                             "kind": 216,
                                             "functionStatementList": {

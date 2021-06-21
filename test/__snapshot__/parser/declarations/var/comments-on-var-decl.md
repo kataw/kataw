@@ -475,12 +475,7 @@ n4 = z2;
                         "type": null,
                         "initializer": {
                             "kind": 271,
-                            "arrowToken": {
-                                "kind": 10,
-                                "flags": 64,
-                                "start": 972,
-                                "end": 975
-                            },
+                            "asyncKeyword": null,
                             "typeParameters": null,
                             "parameters": [
                                 {
@@ -546,8 +541,13 @@ n4 = z2;
                                     "end": 971
                                 }
                             ],
-                            "asyncKeyword": null,
                             "returnType": null,
+                            "arrowToken": {
+                                "kind": 10,
+                                "flags": 64,
+                                "start": 972,
+                                "end": 975
+                            },
                             "contents": {
                                 "kind": 198,
                                 "left": {

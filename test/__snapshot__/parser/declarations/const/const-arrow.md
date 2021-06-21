@@ -47,12 +47,7 @@ const foo = (foo?: bar) => {};
                         "type": null,
                         "initializer": {
                             "kind": 271,
-                            "arrowToken": {
-                                "kind": 10,
-                                "flags": 64,
-                                "start": 23,
-                                "end": 26
-                            },
+                            "asyncKeyword": null,
                             "typeParameters": null,
                             "parameters": [
                                 {
@@ -101,8 +96,13 @@ const foo = (foo?: bar) => {};
                                     "end": 22
                                 }
                             ],
-                            "asyncKeyword": null,
                             "returnType": null,
+                            "arrowToken": {
+                                "kind": 10,
+                                "flags": 64,
+                                "start": 23,
+                                "end": 26
+                            },
                             "contents": {
                                 "kind": 216,
                                 "functionStatementList": {

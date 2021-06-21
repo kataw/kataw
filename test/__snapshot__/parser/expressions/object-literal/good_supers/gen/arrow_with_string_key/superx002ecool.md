@@ -111,12 +111,7 @@ class x extends y {
                                                 "kind": 120,
                                                 "expression": {
                                                     "kind": 271,
-                                                    "arrowToken": {
-                                                        "kind": 10,
-                                                        "flags": 64,
-                                                        "start": 63,
-                                                        "end": 66
-                                                    },
+                                                    "asyncKeyword": null,
                                                     "typeParameters": null,
                                                     "parameters": [
                                                         {
@@ -176,8 +171,13 @@ class x extends y {
                                                             "end": 62
                                                         }
                                                     ],
-                                                    "asyncKeyword": null,
                                                     "returnType": null,
+                                                    "arrowToken": {
+                                                        "kind": 10,
+                                                        "flags": 64,
+                                                        "start": 63,
+                                                        "end": 66
+                                                    },
                                                     "contents": {
                                                         "kind": 134299649,
                                                         "text": "x",

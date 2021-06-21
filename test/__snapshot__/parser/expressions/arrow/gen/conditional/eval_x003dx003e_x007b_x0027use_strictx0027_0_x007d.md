@@ -30,12 +30,7 @@ eval => { 'use strict'; 0 } , bar;
                 "expressions": [
                     {
                         "kind": 271,
-                        "arrowToken": {
-                            "kind": 10,
-                            "flags": 64,
-                            "start": 4,
-                            "end": 7
-                        },
+                        "asyncKeyword": null,
                         "typeParameters": null,
                         "parameters": {
                             "kind": 134299649,
@@ -45,8 +40,13 @@ eval => { 'use strict'; 0 } , bar;
                             "start": 0,
                             "end": 4
                         },
-                        "asyncKeyword": null,
                         "returnType": null,
+                        "arrowToken": {
+                            "kind": 10,
+                            "flags": 64,
+                            "start": 4,
+                            "end": 7
+                        },
                         "contents": {
                             "kind": 216,
                             "functionStatementList": {

@@ -123,7 +123,12 @@ async function f() { 'use strict'; let a; for await (const {[Symbol.iterator]: a
                             },
                             "initializer": {
                                 "kind": 162,
-                                "lexicalKeyword": null,
+                                "lexicalKeyword": {
+                                    "kind": 37757004,
+                                    "flags": 64,
+                                    "start": 53,
+                                    "end": 58
+                                },
                                 "binding": {
                                     "kind": 151,
                                     "bindingList": [
@@ -269,7 +274,7 @@ async function f() { 'use strict'; let a; for await (const {[Symbol.iterator]: a
 
 async function f() {
   let a;
-  for await ({
+  for await (const {
     [Symbol.iterator]: a = 1
   }; of []);
 }

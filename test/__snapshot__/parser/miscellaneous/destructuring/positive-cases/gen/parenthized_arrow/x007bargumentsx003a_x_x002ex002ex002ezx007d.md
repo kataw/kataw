@@ -48,12 +48,7 @@ var f = ({arguments: x, ...z}) => {};
                         "type": null,
                         "initializer": {
                             "kind": 271,
-                            "arrowToken": {
-                                "kind": 10,
-                                "flags": 64,
-                                "start": 30,
-                                "end": 33
-                            },
+                            "asyncKeyword": null,
                             "typeParameters": null,
                             "parameters": [
                                 {
@@ -118,8 +113,13 @@ var f = ({arguments: x, ...z}) => {};
                                     "end": 29
                                 }
                             ],
-                            "asyncKeyword": null,
                             "returnType": null,
+                            "arrowToken": {
+                                "kind": 10,
+                                "flags": 64,
+                                "start": 30,
+                                "end": 33
+                            },
                             "contents": {
                                 "kind": 216,
                                 "functionStatementList": {

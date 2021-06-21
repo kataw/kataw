@@ -47,11 +47,11 @@ const a = async (foo: string = "") => {}
                         "type": null,
                         "initializer": {
                             "kind": 271,
-                            "arrowToken": {
-                                "kind": 10,
+                            "asyncKeyword": {
+                                "kind": 82031,
                                 "flags": 64,
-                                "start": 34,
-                                "end": 37
+                                "start": 9,
+                                "end": 15
                             },
                             "typeParameters": null,
                             "parameters": [
@@ -94,13 +94,13 @@ const a = async (foo: string = "") => {}
                                     "end": 33
                                 }
                             ],
-                            "asyncKeyword": {
-                                "kind": 82031,
-                                "flags": 64,
-                                "start": 9,
-                                "end": 15
-                            },
                             "returnType": null,
+                            "arrowToken": {
+                                "kind": 10,
+                                "flags": 64,
+                                "start": 34,
+                                "end": 37
+                            },
                             "contents": {
                                 "kind": 216,
                                 "functionStatementList": {

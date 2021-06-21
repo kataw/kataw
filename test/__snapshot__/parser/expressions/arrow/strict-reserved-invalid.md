@@ -175,12 +175,7 @@ new package => x
                     },
                     "right": {
                         "kind": 271,
-                        "arrowToken": {
-                            "kind": 10,
-                            "flags": 64,
-                            "start": 42,
-                            "end": 45
-                        },
+                        "asyncKeyword": null,
                         "typeParameters": null,
                         "parameters": {
                             "kind": 134299649,
@@ -190,8 +185,13 @@ new package => x
                             "start": 35,
                             "end": 42
                         },
-                        "asyncKeyword": null,
                         "returnType": null,
+                        "arrowToken": {
+                            "kind": 10,
+                            "flags": 64,
+                            "start": 42,
+                            "end": 45
+                        },
                         "contents": {
                             "kind": 126,
                             "operandToken": {
@@ -210,12 +210,7 @@ new package => x
                                 },
                                 "expression": {
                                     "kind": 271,
-                                    "arrowToken": {
-                                        "kind": 10,
-                                        "flags": 64,
-                                        "start": 60,
-                                        "end": 63
-                                    },
+                                    "asyncKeyword": null,
                                     "typeParameters": null,
                                     "parameters": {
                                         "kind": 134299649,
@@ -225,8 +220,13 @@ new package => x
                                         "start": 52,
                                         "end": 60
                                     },
-                                    "asyncKeyword": null,
                                     "returnType": null,
+                                    "arrowToken": {
+                                        "kind": 10,
+                                        "flags": 64,
+                                        "start": 60,
+                                        "end": 63
+                                    },
                                     "contents": {
                                         "kind": 198,
                                         "left": {
@@ -245,12 +245,7 @@ new package => x
                                         },
                                         "right": {
                                             "kind": 271,
-                                            "arrowToken": {
-                                                "kind": 10,
-                                                "flags": 64,
-                                                "start": 75,
-                                                "end": 78
-                                            },
+                                            "asyncKeyword": null,
                                             "typeParameters": null,
                                             "parameters": {
                                                 "kind": 134299649,
@@ -260,8 +255,13 @@ new package => x
                                                 "start": 68,
                                                 "end": 75
                                             },
-                                            "asyncKeyword": null,
                                             "returnType": null,
+                                            "arrowToken": {
+                                                "kind": 10,
+                                                "flags": 64,
+                                                "start": 75,
+                                                "end": 78
+                                            },
                                             "contents": {
                                                 "kind": 134299649,
                                                 "text": "x",
@@ -319,12 +319,7 @@ new package => x
                 },
                 "operand": {
                     "kind": 271,
-                    "arrowToken": {
-                        "kind": 10,
-                        "flags": 64,
-                        "start": 90,
-                        "end": 93
-                    },
+                    "asyncKeyword": null,
                     "typeParameters": null,
                     "parameters": {
                         "kind": 134299649,
@@ -334,8 +329,13 @@ new package => x
                         "start": 83,
                         "end": 90
                     },
-                    "asyncKeyword": null,
                     "returnType": null,
+                    "arrowToken": {
+                        "kind": 10,
+                        "flags": 64,
+                        "start": 90,
+                        "end": 93
+                    },
                     "contents": {
                         "kind": 134299649,
                         "text": "x",

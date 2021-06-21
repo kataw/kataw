@@ -41,12 +41,7 @@ f = ([[,] = g()]) => {};
                 },
                 "right": {
                     "kind": 271,
-                    "arrowToken": {
-                        "kind": 10,
-                        "flags": 64,
-                        "start": 17,
-                        "end": 20
-                    },
+                    "asyncKeyword": null,
                     "typeParameters": null,
                     "parameters": [
                         {
@@ -117,8 +112,13 @@ f = ([[,] = g()]) => {};
                             "end": 16
                         }
                     ],
-                    "asyncKeyword": null,
                     "returnType": null,
+                    "arrowToken": {
+                        "kind": 10,
+                        "flags": 64,
+                        "start": 17,
+                        "end": 20
+                    },
                     "contents": {
                         "kind": 216,
                         "functionStatementList": {

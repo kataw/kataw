@@ -293,11 +293,11 @@ const { async = true } = x;
                         "type": null,
                         "initializer": {
                             "kind": 271,
-                            "arrowToken": {
-                                "kind": 10,
+                            "asyncKeyword": {
+                                "kind": 82031,
                                 "flags": 64,
-                                "start": 114,
-                                "end": 117
+                                "start": 91,
+                                "end": 97
                             },
                             "typeParameters": null,
                             "parameters": [
@@ -340,13 +340,13 @@ const { async = true } = x;
                                     "end": 113
                                 }
                             ],
-                            "asyncKeyword": {
-                                "kind": 82031,
-                                "flags": 64,
-                                "start": 91,
-                                "end": 97
-                            },
                             "returnType": null,
+                            "arrowToken": {
+                                "kind": 10,
+                                "flags": 64,
+                                "start": 114,
+                                "end": 117
+                            },
                             "contents": {
                                 "kind": 216,
                                 "functionStatementList": {
@@ -429,11 +429,11 @@ const { async = true } = x;
                         "type": null,
                         "initializer": {
                             "kind": 271,
-                            "arrowToken": {
-                                "kind": 10,
+                            "asyncKeyword": {
+                                "kind": 82031,
                                 "flags": 64,
-                                "start": 170,
-                                "end": 173
+                                "start": 146,
+                                "end": 152
                             },
                             "typeParameters": null,
                             "parameters": [
@@ -478,13 +478,13 @@ const { async = true } = x;
                                     "end": 169
                                 }
                             ],
-                            "asyncKeyword": {
-                                "kind": 82031,
-                                "flags": 64,
-                                "start": 146,
-                                "end": 152
-                            },
                             "returnType": null,
+                            "arrowToken": {
+                                "kind": 10,
+                                "flags": 64,
+                                "start": 170,
+                                "end": 173
+                            },
                             "contents": {
                                 "kind": 216,
                                 "functionStatementList": {

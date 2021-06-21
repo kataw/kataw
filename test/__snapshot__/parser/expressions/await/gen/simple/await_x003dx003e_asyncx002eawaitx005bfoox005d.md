@@ -27,12 +27,7 @@ await => async.await[foo]
             "kind": 120,
             "expression": {
                 "kind": 271,
-                "arrowToken": {
-                    "kind": 10,
-                    "flags": 64,
-                    "start": 5,
-                    "end": 8
-                },
+                "asyncKeyword": null,
                 "typeParameters": null,
                 "parameters": {
                     "kind": 134299649,
@@ -42,8 +37,13 @@ await => async.await[foo]
                     "start": 0,
                     "end": 5
                 },
-                "asyncKeyword": null,
                 "returnType": null,
+                "arrowToken": {
+                    "kind": 10,
+                    "flags": 64,
+                    "start": 5,
+                    "end": 8
+                },
                 "contents": {
                     "kind": 536871042,
                     "member": {

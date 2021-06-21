@@ -48,12 +48,7 @@ var f = (x): (x: number) => 123 => 123;
                         "type": null,
                         "initializer": {
                             "kind": 271,
-                            "arrowToken": {
-                                "kind": 10,
-                                "flags": 64,
-                                "start": 31,
-                                "end": 34
-                            },
+                            "asyncKeyword": null,
                             "typeParameters": null,
                             "parameters": [
                                 {
@@ -65,7 +60,6 @@ var f = (x): (x: number) => 123 => 123;
                                     "end": 10
                                 }
                             ],
-                            "asyncKeyword": null,
                             "returnType": {
                                 "kind": 139,
                                 "bitwiseOrToken": null,
@@ -140,6 +134,12 @@ var f = (x): (x: number) => 123 => 123;
                                 "flags": 2097152,
                                 "start": 12,
                                 "end": 31
+                            },
+                            "arrowToken": {
+                                "kind": 10,
+                                "flags": 64,
+                                "start": 31,
+                                "end": 34
                             },
                             "contents": {
                                 "kind": 201392130,

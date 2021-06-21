@@ -123,11 +123,11 @@ var x, y, z; for (x in [async x => z] = {});
                         "elements": [
                             {
                                 "kind": 271,
-                                "arrowToken": {
-                                    "kind": 10,
+                                "asyncKeyword": {
+                                    "kind": 82031,
                                     "flags": 64,
-                                    "start": 31,
-                                    "end": 34
+                                    "start": 24,
+                                    "end": 29
                                 },
                                 "typeParameters": null,
                                 "parameters": {
@@ -138,13 +138,13 @@ var x, y, z; for (x in [async x => z] = {});
                                     "start": 29,
                                     "end": 31
                                 },
-                                "asyncKeyword": {
-                                    "kind": 82031,
-                                    "flags": 64,
-                                    "start": 24,
-                                    "end": 29
-                                },
                                 "returnType": null,
+                                "arrowToken": {
+                                    "kind": 10,
+                                    "flags": 64,
+                                    "start": 31,
+                                    "end": 34
+                                },
                                 "contents": {
                                     "kind": 134299649,
                                     "text": "z",

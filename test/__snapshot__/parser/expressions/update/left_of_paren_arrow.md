@@ -27,12 +27,7 @@
                 },
                 "operand": {
                     "kind": 271,
-                    "arrowToken": {
-                        "kind": 10,
-                        "flags": 64,
-                        "start": 5,
-                        "end": 8
-                    },
+                    "asyncKeyword": null,
                     "typeParameters": null,
                     "parameters": [
                         {
@@ -44,8 +39,13 @@
                             "end": 4
                         }
                     ],
-                    "asyncKeyword": null,
                     "returnType": null,
+                    "arrowToken": {
+                        "kind": 10,
+                        "flags": 64,
+                        "start": 5,
+                        "end": 8
+                    },
                     "contents": {
                         "kind": 134299649,
                         "text": "b",

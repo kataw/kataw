@@ -38,12 +38,7 @@ bar, (interface) => { 'use strict'; 0 };
                     },
                     {
                         "kind": 271,
-                        "arrowToken": {
-                            "kind": 10,
-                            "flags": 64,
-                            "start": 16,
-                            "end": 19
-                        },
+                        "asyncKeyword": null,
                         "typeParameters": null,
                         "parameters": [
                             {
@@ -55,8 +50,13 @@ bar, (interface) => { 'use strict'; 0 };
                                 "end": 15
                             }
                         ],
-                        "asyncKeyword": null,
                         "returnType": null,
+                        "arrowToken": {
+                            "kind": 10,
+                            "flags": 64,
+                            "start": 16,
+                            "end": 19
+                        },
                         "contents": {
                             "kind": 216,
                             "functionStatementList": {

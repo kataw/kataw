@@ -74,7 +74,12 @@
                                             },
                                             "initializer": {
                                                 "kind": 162,
-                                                "lexicalKeyword": null,
+                                                "lexicalKeyword": {
+                                                    "kind": 37757004,
+                                                    "flags": 64,
+                                                    "start": 23,
+                                                    "end": 28
+                                                },
                                                 "binding": {
                                                     "kind": 151,
                                                     "bindingList": [
@@ -228,7 +233,12 @@
                             },
                             "initializer": {
                                 "kind": 162,
-                                "lexicalKeyword": null,
+                                "lexicalKeyword": {
+                                    "kind": 37757004,
+                                    "flags": 64,
+                                    "start": 73,
+                                    "end": 78
+                                },
                                 "binding": {
                                     "kind": 151,
                                     "bindingList": [

@@ -40,11 +40,11 @@ foo(async async => ok)
                     "elements": [
                         {
                             "kind": 271,
-                            "arrowToken": {
-                                "kind": 10,
+                            "asyncKeyword": {
+                                "kind": 82031,
                                 "flags": 64,
-                                "start": 15,
-                                "end": 18
+                                "start": 4,
+                                "end": 9
                             },
                             "typeParameters": null,
                             "parameters": {
@@ -55,13 +55,13 @@ foo(async async => ok)
                                 "start": 9,
                                 "end": 15
                             },
-                            "asyncKeyword": {
-                                "kind": 82031,
-                                "flags": 64,
-                                "start": 4,
-                                "end": 9
-                            },
                             "returnType": null,
+                            "arrowToken": {
+                                "kind": 10,
+                                "flags": 64,
+                                "start": 15,
+                                "end": 18
+                            },
                             "contents": {
                                 "kind": 134299649,
                                 "text": "ok",

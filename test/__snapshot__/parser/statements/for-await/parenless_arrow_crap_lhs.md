@@ -74,12 +74,7 @@ async function f(){
                                 "kind": 129,
                                 "member": {
                                     "kind": 271,
-                                    "arrowToken": {
-                                        "kind": 10,
-                                        "flags": 64,
-                                        "start": 34,
-                                        "end": 36
-                                    },
+                                    "asyncKeyword": null,
                                     "typeParameters": null,
                                     "parameters": {
                                         "kind": 134299649,
@@ -89,8 +84,13 @@ async function f(){
                                         "start": 33,
                                         "end": 34
                                     },
-                                    "asyncKeyword": null,
                                     "returnType": null,
+                                    "arrowToken": {
+                                        "kind": 10,
+                                        "flags": 64,
+                                        "start": 34,
+                                        "end": 36
+                                    },
                                     "contents": {
                                         "kind": 216,
                                         "functionStatementList": {

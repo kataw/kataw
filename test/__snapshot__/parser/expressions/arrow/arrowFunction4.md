@@ -50,12 +50,7 @@ var v = (a, b) => {
                         "type": null,
                         "initializer": {
                             "kind": 271,
-                            "arrowToken": {
-                                "kind": 10,
-                                "flags": 64,
-                                "start": 14,
-                                "end": 17
-                            },
+                            "asyncKeyword": null,
                             "typeParameters": null,
                             "parameters": [
                                 {
@@ -75,8 +70,13 @@ var v = (a, b) => {
                                     "end": 13
                                 }
                             ],
-                            "asyncKeyword": null,
                             "returnType": null,
+                            "arrowToken": {
+                                "kind": 10,
+                                "flags": 64,
+                                "start": 14,
+                                "end": 17
+                            },
                             "contents": {
                                 "kind": 216,
                                 "functionStatementList": {

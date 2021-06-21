@@ -17,11 +17,11 @@ async ([...x.y]) => z
     "statements": [
         {
             "kind": 271,
-            "arrowToken": {
-                "kind": 10,
+            "asyncKeyword": {
+                "kind": 82031,
                 "flags": 64,
-                "start": 16,
-                "end": 19
+                "start": 0,
+                "end": 5
             },
             "typeParameters": null,
             "parameters": [
@@ -78,13 +78,13 @@ async ([...x.y]) => z
                     "end": 15
                 }
             ],
-            "asyncKeyword": {
-                "kind": 82031,
-                "flags": 64,
-                "start": 0,
-                "end": 5
-            },
             "returnType": null,
+            "arrowToken": {
+                "kind": 10,
+                "flags": 64,
+                "start": 16,
+                "end": 19
+            },
             "contents": {
                 "kind": 134299649,
                 "text": "z",

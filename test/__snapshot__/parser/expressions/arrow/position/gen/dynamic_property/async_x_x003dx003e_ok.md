@@ -27,11 +27,11 @@ async x => ok[foo]
             "kind": 120,
             "expression": {
                 "kind": 271,
-                "arrowToken": {
-                    "kind": 10,
+                "asyncKeyword": {
+                    "kind": 82031,
                     "flags": 64,
-                    "start": 7,
-                    "end": 10
+                    "start": 0,
+                    "end": 5
                 },
                 "typeParameters": null,
                 "parameters": {
@@ -42,13 +42,13 @@ async x => ok[foo]
                     "start": 5,
                     "end": 7
                 },
-                "asyncKeyword": {
-                    "kind": 82031,
-                    "flags": 64,
-                    "start": 0,
-                    "end": 5
-                },
                 "returnType": null,
+                "arrowToken": {
+                    "kind": 10,
+                    "flags": 64,
+                    "start": 7,
+                    "end": 10
+                },
                 "contents": {
                     "kind": 536871042,
                     "member": {

@@ -463,16 +463,16 @@ function foo8_c(x) {
                                                 "kind": 121,
                                                 "expression": {
                                                     "kind": 271,
+                                                    "asyncKeyword": null,
+                                                    "typeParameters": null,
+                                                    "parameters": [],
+                                                    "returnType": null,
                                                     "arrowToken": {
                                                         "kind": 10,
                                                         "flags": 64,
                                                         "start": 127,
                                                         "end": 130
                                                     },
-                                                    "typeParameters": null,
-                                                    "parameters": [],
-                                                    "asyncKeyword": null,
-                                                    "returnType": null,
                                                     "contents": {
                                                         "kind": 198,
                                                         "left": {
@@ -807,16 +807,16 @@ function foo8_c(x) {
                                                 "kind": 121,
                                                 "expression": {
                                                     "kind": 271,
+                                                    "asyncKeyword": null,
+                                                    "typeParameters": null,
+                                                    "parameters": [],
+                                                    "returnType": null,
                                                     "arrowToken": {
                                                         "kind": 10,
                                                         "flags": 64,
                                                         "start": 277,
                                                         "end": 280
                                                     },
-                                                    "typeParameters": null,
-                                                    "parameters": [],
-                                                    "asyncKeyword": null,
-                                                    "returnType": null,
                                                     "contents": {
                                                         "kind": 198,
                                                         "left": {
@@ -1186,16 +1186,16 @@ function foo8_c(x) {
                                                 "kind": 121,
                                                 "expression": {
                                                     "kind": 271,
+                                                    "asyncKeyword": null,
+                                                    "typeParameters": null,
+                                                    "parameters": [],
+                                                    "returnType": null,
                                                     "arrowToken": {
                                                         "kind": 10,
                                                         "flags": 64,
                                                         "start": 435,
                                                         "end": 438
                                                     },
-                                                    "typeParameters": null,
-                                                    "parameters": [],
-                                                    "asyncKeyword": null,
-                                                    "returnType": null,
                                                     "contents": {
                                                         "kind": 198,
                                                         "left": {
@@ -1502,16 +1502,16 @@ function foo8_c(x) {
                                                 "kind": 121,
                                                 "expression": {
                                                     "kind": 271,
+                                                    "asyncKeyword": null,
+                                                    "typeParameters": null,
+                                                    "parameters": [],
+                                                    "returnType": null,
                                                     "arrowToken": {
                                                         "kind": 10,
                                                         "flags": 64,
                                                         "start": 581,
                                                         "end": 584
                                                     },
-                                                    "typeParameters": null,
-                                                    "parameters": [],
-                                                    "asyncKeyword": null,
-                                                    "returnType": null,
                                                     "contents": {
                                                         "kind": 198,
                                                         "left": {
@@ -1826,16 +1826,16 @@ function foo8_c(x) {
                                                 "kind": 121,
                                                 "expression": {
                                                     "kind": 271,
+                                                    "asyncKeyword": null,
+                                                    "typeParameters": null,
+                                                    "parameters": [],
+                                                    "returnType": null,
                                                     "arrowToken": {
                                                         "kind": 10,
                                                         "flags": 64,
                                                         "start": 729,
                                                         "end": 732
                                                     },
-                                                    "typeParameters": null,
-                                                    "parameters": [],
-                                                    "asyncKeyword": null,
-                                                    "returnType": null,
                                                     "contents": {
                                                         "kind": 198,
                                                         "left": {
@@ -2282,16 +2282,16 @@ function foo8_c(x) {
                                                 "kind": 121,
                                                 "expression": {
                                                     "kind": 271,
+                                                    "asyncKeyword": null,
+                                                    "typeParameters": null,
+                                                    "parameters": [],
+                                                    "returnType": null,
                                                     "arrowToken": {
                                                         "kind": 10,
                                                         "flags": 64,
                                                         "start": 922,
                                                         "end": 925
                                                     },
-                                                    "typeParameters": null,
-                                                    "parameters": [],
-                                                    "asyncKeyword": null,
-                                                    "returnType": null,
                                                     "contents": {
                                                         "kind": 198,
                                                         "left": {
@@ -2704,16 +2704,16 @@ function foo8_c(x) {
                                                 "kind": 121,
                                                 "expression": {
                                                     "kind": 271,
+                                                    "asyncKeyword": null,
+                                                    "typeParameters": null,
+                                                    "parameters": [],
+                                                    "returnType": null,
                                                     "arrowToken": {
                                                         "kind": 10,
                                                         "flags": 64,
                                                         "start": 1091,
                                                         "end": 1094
                                                     },
-                                                    "typeParameters": null,
-                                                    "parameters": [],
-                                                    "asyncKeyword": null,
-                                                    "returnType": null,
                                                     "contents": {
                                                         "kind": 198,
                                                         "left": {
@@ -3112,16 +3112,16 @@ function foo8_c(x) {
                                                 "kind": 121,
                                                 "expression": {
                                                     "kind": 271,
+                                                    "asyncKeyword": null,
+                                                    "typeParameters": null,
+                                                    "parameters": [],
+                                                    "returnType": null,
                                                     "arrowToken": {
                                                         "kind": 10,
                                                         "flags": 64,
                                                         "start": 1264,
                                                         "end": 1267
                                                     },
-                                                    "typeParameters": null,
-                                                    "parameters": [],
-                                                    "asyncKeyword": null,
-                                                    "returnType": null,
                                                     "contents": {
                                                         "kind": 198,
                                                         "left": {
@@ -3492,16 +3492,16 @@ function foo8_c(x) {
                                                 "kind": 121,
                                                 "expression": {
                                                     "kind": 271,
+                                                    "asyncKeyword": null,
+                                                    "typeParameters": null,
+                                                    "parameters": [],
+                                                    "returnType": null,
                                                     "arrowToken": {
                                                         "kind": 10,
                                                         "flags": 64,
                                                         "start": 1423,
                                                         "end": 1426
                                                     },
-                                                    "typeParameters": null,
-                                                    "parameters": [],
-                                                    "asyncKeyword": null,
-                                                    "returnType": null,
                                                     "contents": {
                                                         "kind": 198,
                                                         "left": {
@@ -3988,16 +3988,16 @@ function foo8_c(x) {
                                                 "kind": 121,
                                                 "expression": {
                                                     "kind": 271,
+                                                    "asyncKeyword": null,
+                                                    "typeParameters": null,
+                                                    "parameters": [],
+                                                    "returnType": null,
                                                     "arrowToken": {
                                                         "kind": 10,
                                                         "flags": 64,
                                                         "start": 1625,
                                                         "end": 1628
                                                     },
-                                                    "typeParameters": null,
-                                                    "parameters": [],
-                                                    "asyncKeyword": null,
-                                                    "returnType": null,
                                                     "contents": {
                                                         "kind": 198,
                                                         "left": {
@@ -4139,7 +4139,12 @@ function foo8_c(x) {
                             "awaitKeyword": null,
                             "initializer": {
                                 "kind": 162,
-                                "lexicalKeyword": null,
+                                "lexicalKeyword": {
+                                    "kind": 37757004,
+                                    "flags": 64,
+                                    "start": 1695,
+                                    "end": 1700
+                                },
                                 "binding": {
                                     "kind": 151,
                                     "bindingList": [
@@ -4348,16 +4353,16 @@ function foo8_c(x) {
                                                 "kind": 121,
                                                 "expression": {
                                                     "kind": 271,
+                                                    "asyncKeyword": null,
+                                                    "typeParameters": null,
+                                                    "parameters": [],
+                                                    "returnType": null,
                                                     "arrowToken": {
                                                         "kind": 10,
                                                         "flags": 64,
                                                         "start": 1798,
                                                         "end": 1801
                                                     },
-                                                    "typeParameters": null,
-                                                    "parameters": [],
-                                                    "asyncKeyword": null,
-                                                    "returnType": null,
                                                     "contents": {
                                                         "kind": 198,
                                                         "left": {
@@ -4478,7 +4483,12 @@ function foo8_c(x) {
                             },
                             "initializer": {
                                 "kind": 162,
-                                "lexicalKeyword": null,
+                                "lexicalKeyword": {
+                                    "kind": 37757004,
+                                    "flags": 64,
+                                    "start": 1851,
+                                    "end": 1856
+                                },
                                 "binding": {
                                     "kind": 151,
                                     "bindingList": [
@@ -4687,16 +4697,16 @@ function foo8_c(x) {
                                                 "kind": 121,
                                                 "expression": {
                                                     "kind": 271,
+                                                    "asyncKeyword": null,
+                                                    "typeParameters": null,
+                                                    "parameters": [],
+                                                    "returnType": null,
                                                     "arrowToken": {
                                                         "kind": 10,
                                                         "flags": 64,
                                                         "start": 1954,
                                                         "end": 1957
                                                     },
-                                                    "typeParameters": null,
-                                                    "parameters": [],
-                                                    "asyncKeyword": null,
-                                                    "returnType": null,
                                                     "contents": {
                                                         "kind": 198,
                                                         "left": {
@@ -4817,7 +4827,12 @@ function foo8_c(x) {
                             },
                             "initializer": {
                                 "kind": 162,
-                                "lexicalKeyword": null,
+                                "lexicalKeyword": {
+                                    "kind": 37757004,
+                                    "flags": 64,
+                                    "start": 2005,
+                                    "end": 2010
+                                },
                                 "binding": {
                                     "kind": 151,
                                     "bindingList": [
@@ -5042,16 +5057,16 @@ function foo8_c(x) {
                                                 "kind": 121,
                                                 "expression": {
                                                     "kind": 271,
+                                                    "asyncKeyword": null,
+                                                    "typeParameters": null,
+                                                    "parameters": [],
+                                                    "returnType": null,
                                                     "arrowToken": {
                                                         "kind": 10,
                                                         "flags": 64,
                                                         "start": 2114,
                                                         "end": 2117
                                                     },
-                                                    "typeParameters": null,
-                                                    "parameters": [],
-                                                    "asyncKeyword": null,
-                                                    "returnType": null,
                                                     "contents": {
                                                         "kind": 198,
                                                         "left": {
@@ -5358,16 +5373,16 @@ function foo8_c(x) {
                                                 "kind": 121,
                                                 "expression": {
                                                     "kind": 271,
+                                                    "asyncKeyword": null,
+                                                    "typeParameters": null,
+                                                    "parameters": [],
+                                                    "returnType": null,
                                                     "arrowToken": {
                                                         "kind": 10,
                                                         "flags": 64,
                                                         "start": 2264,
                                                         "end": 2267
                                                     },
-                                                    "typeParameters": null,
-                                                    "parameters": [],
-                                                    "asyncKeyword": null,
-                                                    "returnType": null,
                                                     "contents": {
                                                         "kind": 198,
                                                         "left": {
@@ -5689,16 +5704,16 @@ function foo8_c(x) {
                                                 "kind": 121,
                                                 "expression": {
                                                     "kind": 271,
+                                                    "asyncKeyword": null,
+                                                    "typeParameters": null,
+                                                    "parameters": [],
+                                                    "returnType": null,
                                                     "arrowToken": {
                                                         "kind": 10,
                                                         "flags": 64,
                                                         "start": 2422,
                                                         "end": 2425
                                                     },
-                                                    "typeParameters": null,
-                                                    "parameters": [],
-                                                    "asyncKeyword": null,
-                                                    "returnType": null,
                                                     "contents": {
                                                         "kind": 198,
                                                         "left": {
@@ -5853,7 +5868,12 @@ function foo8_c(x) {
                             },
                             "initializer": {
                                 "kind": 162,
-                                "lexicalKeyword": null,
+                                "lexicalKeyword": {
+                                    "kind": 37757004,
+                                    "flags": 64,
+                                    "start": 2489,
+                                    "end": 2494
+                                },
                                 "binding": {
                                     "kind": 151,
                                     "bindingList": [
@@ -6121,16 +6141,16 @@ function foo8_c(x) {
                                                 "kind": 121,
                                                 "expression": {
                                                     "kind": 271,
+                                                    "asyncKeyword": null,
+                                                    "typeParameters": null,
+                                                    "parameters": [],
+                                                    "returnType": null,
                                                     "arrowToken": {
                                                         "kind": 10,
                                                         "flags": 64,
                                                         "start": 2619,
                                                         "end": 2622
                                                     },
-                                                    "typeParameters": null,
-                                                    "parameters": [],
-                                                    "asyncKeyword": null,
-                                                    "returnType": null,
                                                     "contents": {
                                                         "kind": 198,
                                                         "left": {
@@ -6251,7 +6271,12 @@ function foo8_c(x) {
                             },
                             "initializer": {
                                 "kind": 162,
-                                "lexicalKeyword": null,
+                                "lexicalKeyword": {
+                                    "kind": 37757004,
+                                    "flags": 64,
+                                    "start": 2670,
+                                    "end": 2675
+                                },
                                 "binding": {
                                     "kind": 151,
                                     "bindingList": [
@@ -6519,16 +6544,16 @@ function foo8_c(x) {
                                                 "kind": 121,
                                                 "expression": {
                                                     "kind": 271,
+                                                    "asyncKeyword": null,
+                                                    "typeParameters": null,
+                                                    "parameters": [],
+                                                    "returnType": null,
                                                     "arrowToken": {
                                                         "kind": 10,
                                                         "flags": 64,
                                                         "start": 2790,
                                                         "end": 2793
                                                     },
-                                                    "typeParameters": null,
-                                                    "parameters": [],
-                                                    "asyncKeyword": null,
-                                                    "returnType": null,
                                                     "contents": {
                                                         "kind": 198,
                                                         "left": {
@@ -6941,16 +6966,16 @@ function foo8_c(x) {
                                                 "kind": 121,
                                                 "expression": {
                                                     "kind": 271,
+                                                    "asyncKeyword": null,
+                                                    "typeParameters": null,
+                                                    "parameters": [],
+                                                    "returnType": null,
                                                     "arrowToken": {
                                                         "kind": 10,
                                                         "flags": 64,
                                                         "start": 2977,
                                                         "end": 2980
                                                     },
-                                                    "typeParameters": null,
-                                                    "parameters": [],
-                                                    "asyncKeyword": null,
-                                                    "returnType": null,
                                                     "contents": {
                                                         "kind": 198,
                                                         "left": {
@@ -7335,16 +7360,16 @@ function foo8_c(x) {
                                                 "kind": 121,
                                                 "expression": {
                                                     "kind": 271,
+                                                    "asyncKeyword": null,
+                                                    "typeParameters": null,
+                                                    "parameters": [],
+                                                    "returnType": null,
                                                     "arrowToken": {
                                                         "kind": 10,
                                                         "flags": 64,
                                                         "start": 3150,
                                                         "end": 3153
                                                     },
-                                                    "typeParameters": null,
-                                                    "parameters": [],
-                                                    "asyncKeyword": null,
-                                                    "returnType": null,
                                                     "contents": {
                                                         "kind": 198,
                                                         "left": {
@@ -7519,7 +7544,12 @@ function foo8_c(x) {
                             },
                             "initializer": {
                                 "kind": 162,
-                                "lexicalKeyword": null,
+                                "lexicalKeyword": {
+                                    "kind": 37757004,
+                                    "flags": 64,
+                                    "start": 3222,
+                                    "end": 3227
+                                },
                                 "binding": {
                                     "kind": 151,
                                     "bindingList": [
@@ -7807,16 +7837,16 @@ function foo8_c(x) {
                                                 "kind": 121,
                                                 "expression": {
                                                     "kind": 271,
+                                                    "asyncKeyword": null,
+                                                    "typeParameters": null,
+                                                    "parameters": [],
+                                                    "returnType": null,
                                                     "arrowToken": {
                                                         "kind": 10,
                                                         "flags": 64,
                                                         "start": 3356,
                                                         "end": 3359
                                                     },
-                                                    "typeParameters": null,
-                                                    "parameters": [],
-                                                    "asyncKeyword": null,
-                                                    "returnType": null,
                                                     "contents": {
                                                         "kind": 198,
                                                         "left": {
@@ -7964,7 +7994,7 @@ function foo8() {
 }
 ///=======const
 function foo0_c() {
-  for (x; of [])
+  for (const x; of [])
     {
       const a = arguments.length;
       (function () {
@@ -7974,11 +8004,11 @@ function foo0_c() {
     }
 }
 function foo0_1_c() {
-  for (x; in [])
+  for (const x; in [])
     {}
 }
 function foo1_c() {
-  for (x = 0;; ; x  < 1)
+  for (const x = 0;; ; x  < 1)
     {}
 }
 function foo2_c() {
@@ -7989,11 +8019,11 @@ function foo3_c() {
   while (1 === 1);
 }
 function foo4_c() {
-  for (y = 0;; ; y  < 1)
+  for (const y = 0;; ; y  < 1)
     {}
 }
 function foo5_c() {
-  for (x = 0, y = 1;; ; x  < 1)
+  for (const x = 0, y = 1;; ; x  < 1)
     {}
 }
 function foo6_c() {
@@ -8004,7 +8034,7 @@ function foo7_c() {
   while (1 === 1);
 }
 function foo8_c() {
-  for (y = 0;; ; y  < 1)
+  for (const y = 0;; ; y  < 1)
     {}
 }
 ```

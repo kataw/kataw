@@ -17,11 +17,11 @@ async ([[[[[[[[[[[[[[[[[[[[{a:b[0]}]]]]]]]]]]]]]]]]]]]])=>0;
     "statements": [
         {
             "kind": 271,
-            "arrowToken": {
-                "kind": 10,
+            "asyncKeyword": {
+                "kind": 82031,
                 "flags": 64,
-                "start": 56,
-                "end": 58
+                "start": 0,
+                "end": 5
             },
             "typeParameters": null,
             "parameters": [
@@ -378,13 +378,13 @@ async ([[[[[[[[[[[[[[[[[[[[{a:b[0]}]]]]]]]]]]]]]]]]]]]])=>0;
                     "end": 55
                 }
             ],
-            "asyncKeyword": {
-                "kind": 82031,
-                "flags": 64,
-                "start": 0,
-                "end": 5
-            },
             "returnType": null,
+            "arrowToken": {
+                "kind": 10,
+                "flags": 64,
+                "start": 56,
+                "end": 58
+            },
             "contents": {
                 "kind": 201392130,
                 "text": 0,

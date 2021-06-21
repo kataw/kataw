@@ -54,11 +54,11 @@ class A extends async async => {} {}
                     },
                     "expression": {
                         "kind": 271,
-                        "arrowToken": {
-                            "kind": 10,
+                        "asyncKeyword": {
+                            "kind": 82031,
                             "flags": 64,
-                            "start": 27,
-                            "end": 30
+                            "start": 15,
+                            "end": 21
                         },
                         "typeParameters": null,
                         "parameters": {
@@ -69,13 +69,13 @@ class A extends async async => {} {}
                             "start": 21,
                             "end": 27
                         },
-                        "asyncKeyword": {
-                            "kind": 82031,
-                            "flags": 64,
-                            "start": 15,
-                            "end": 21
-                        },
                         "returnType": null,
+                        "arrowToken": {
+                            "kind": 10,
+                            "flags": 64,
+                            "start": 27,
+                            "end": 30
+                        },
                         "contents": {
                             "kind": 216,
                             "functionStatementList": {

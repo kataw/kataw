@@ -1586,12 +1586,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
                                                 },
                                                 "expression": {
                                                     "kind": 271,
-                                                    "arrowToken": {
-                                                        "kind": 10,
-                                                        "flags": 64,
-                                                        "start": 450,
-                                                        "end": 453
-                                                    },
+                                                    "asyncKeyword": null,
                                                     "typeParameters": null,
                                                     "parameters": [
                                                         {
@@ -1638,8 +1633,13 @@ class x { dsda(){ return (a=super.foo) => a; }}
                                                             "end": 449
                                                         }
                                                     ],
-                                                    "asyncKeyword": null,
                                                     "returnType": null,
+                                                    "arrowToken": {
+                                                        "kind": 10,
+                                                        "flags": 64,
+                                                        "start": 450,
+                                                        "end": 453
+                                                    },
                                                     "contents": {
                                                         "kind": 134299649,
                                                         "text": "a",
@@ -1776,16 +1776,16 @@ class x { dsda(){ return (a=super.foo) => a; }}
                                                 },
                                                 "expression": {
                                                     "kind": 271,
+                                                    "asyncKeyword": null,
+                                                    "typeParameters": null,
+                                                    "parameters": [],
+                                                    "returnType": null,
                                                     "arrowToken": {
                                                         "kind": 10,
                                                         "flags": 64,
                                                         "start": 505,
                                                         "end": 508
                                                     },
-                                                    "typeParameters": null,
-                                                    "parameters": [],
-                                                    "asyncKeyword": null,
-                                                    "returnType": null,
                                                     "contents": {
                                                         "kind": 536871042,
                                                         "member": {
@@ -1920,16 +1920,16 @@ class x { dsda(){ return (a=super.foo) => a; }}
                                                 },
                                                 "expression": {
                                                     "kind": 271,
+                                                    "asyncKeyword": null,
+                                                    "typeParameters": null,
+                                                    "parameters": [],
+                                                    "returnType": null,
                                                     "arrowToken": {
                                                         "kind": 10,
                                                         "flags": 64,
                                                         "start": 550,
                                                         "end": 553
                                                     },
-                                                    "typeParameters": null,
-                                                    "parameters": [],
-                                                    "asyncKeyword": null,
-                                                    "returnType": null,
                                                     "contents": {
                                                         "kind": 129,
                                                         "member": {
@@ -2064,12 +2064,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
                                                 },
                                                 "expression": {
                                                     "kind": 271,
-                                                    "arrowToken": {
-                                                        "kind": 10,
-                                                        "flags": 64,
-                                                        "start": 607,
-                                                        "end": 610
-                                                    },
+                                                    "asyncKeyword": null,
                                                     "typeParameters": null,
                                                     "parameters": [
                                                         {
@@ -2116,8 +2111,13 @@ class x { dsda(){ return (a=super.foo) => a; }}
                                                             "end": 606
                                                         }
                                                     ],
-                                                    "asyncKeyword": null,
                                                     "returnType": null,
+                                                    "arrowToken": {
+                                                        "kind": 10,
+                                                        "flags": 64,
+                                                        "start": 607,
+                                                        "end": 610
+                                                    },
                                                     "contents": {
                                                         "kind": 134299649,
                                                         "text": "a",

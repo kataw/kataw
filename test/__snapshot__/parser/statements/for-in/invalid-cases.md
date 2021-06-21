@@ -1727,7 +1727,12 @@ for ({}.bar = x in obj);
             },
             "initializer": {
                 "kind": 162,
-                "lexicalKeyword": null,
+                "lexicalKeyword": {
+                    "kind": 37757004,
+                    "flags": 64,
+                    "start": 461,
+                    "end": 466
+                },
                 "binding": {
                     "kind": 151,
                     "bindingList": [
@@ -2101,7 +2106,12 @@ for ({}.bar = x in obj);
             },
             "initializer": {
                 "kind": 162,
-                "lexicalKeyword": null,
+                "lexicalKeyword": {
+                    "kind": 37757004,
+                    "flags": 64,
+                    "start": 570,
+                    "end": 575
+                },
                 "binding": {
                     "kind": 151,
                     "bindingList": [
@@ -2209,7 +2219,12 @@ for ({}.bar = x in obj);
             },
             "initializer": {
                 "kind": 162,
-                "lexicalKeyword": null,
+                "lexicalKeyword": {
+                    "kind": 37757004,
+                    "flags": 64,
+                    "start": 600,
+                    "end": 605
+                },
                 "binding": {
                     "kind": 151,
                     "bindingList": [
@@ -2477,7 +2492,12 @@ for ({}.bar = x in obj);
             },
             "initializer": {
                 "kind": 162,
-                "lexicalKeyword": null,
+                "lexicalKeyword": {
+                    "kind": 37757004,
+                    "flags": 64,
+                    "start": 680,
+                    "end": 685
+                },
                 "binding": {
                     "kind": 151,
                     "bindingList": [],
@@ -2844,7 +2864,12 @@ for ({}.bar = x in obj);
             },
             "initializer": {
                 "kind": 162,
-                "lexicalKeyword": null,
+                "lexicalKeyword": {
+                    "kind": 37757004,
+                    "flags": 64,
+                    "start": 768,
+                    "end": 773
+                },
                 "binding": {
                     "kind": 151,
                     "bindingList": [
@@ -4847,7 +4872,12 @@ for ({}.bar = x in obj);
             "awaitKeyword": null,
             "initializer": {
                 "kind": 162,
-                "lexicalKeyword": null,
+                "lexicalKeyword": {
+                    "kind": 37757004,
+                    "flags": 64,
+                    "start": 1298,
+                    "end": 1303
+                },
                 "binding": {
                     "kind": 151,
                     "bindingList": [
@@ -4971,7 +5001,12 @@ for ({}.bar = x in obj);
             },
             "initializer": {
                 "kind": 162,
-                "lexicalKeyword": null,
+                "lexicalKeyword": {
+                    "kind": 37757004,
+                    "flags": 64,
+                    "start": 1333,
+                    "end": 1338
+                },
                 "binding": {
                     "kind": 151,
                     "bindingList": [
@@ -5052,7 +5087,12 @@ for ({}.bar = x in obj);
             },
             "initializer": {
                 "kind": 162,
-                "lexicalKeyword": null,
+                "lexicalKeyword": {
+                    "kind": 37757004,
+                    "flags": 64,
+                    "start": 1360,
+                    "end": 1365
+                },
                 "binding": {
                     "kind": 151,
                     "bindingList": [
@@ -5160,7 +5200,12 @@ for ({}.bar = x in obj);
             },
             "initializer": {
                 "kind": 162,
-                "lexicalKeyword": null,
+                "lexicalKeyword": {
+                    "kind": 37757004,
+                    "flags": 64,
+                    "start": 1392,
+                    "end": 1397
+                },
                 "binding": {
                     "kind": 151,
                     "bindingList": [
@@ -5285,7 +5330,12 @@ for ({}.bar = x in obj);
             "awaitKeyword": null,
             "initializer": {
                 "kind": 162,
-                "lexicalKeyword": null,
+                "lexicalKeyword": {
+                    "kind": 37757004,
+                    "flags": 64,
+                    "start": 1427,
+                    "end": 1432
+                },
                 "binding": {
                     "kind": 151,
                     "bindingList": [
@@ -5394,7 +5444,12 @@ for ({}.bar = x in obj);
             "awaitKeyword": null,
             "initializer": {
                 "kind": 162,
-                "lexicalKeyword": null,
+                "lexicalKeyword": {
+                    "kind": 37757004,
+                    "flags": 64,
+                    "start": 1459,
+                    "end": 1464
+                },
                 "binding": {
                     "kind": 151,
                     "bindingList": [
@@ -5518,7 +5573,12 @@ for ({}.bar = x in obj);
             },
             "initializer": {
                 "kind": 162,
-                "lexicalKeyword": null,
+                "lexicalKeyword": {
+                    "kind": 37757004,
+                    "flags": 64,
+                    "start": 1494,
+                    "end": 1499
+                },
                 "binding": {
                     "kind": 151,
                     "bindingList": [
@@ -5624,7 +5684,12 @@ for ({}.bar = x in obj);
             },
             "initializer": {
                 "kind": 162,
-                "lexicalKeyword": null,
+                "lexicalKeyword": {
+                    "kind": 37757004,
+                    "flags": 64,
+                    "start": 1528,
+                    "end": 1533
+                },
                 "binding": {
                     "kind": 151,
                     "bindingList": [
@@ -5717,7 +5782,12 @@ for ({}.bar = x in obj);
             "awaitKeyword": null,
             "initializer": {
                 "kind": 162,
-                "lexicalKeyword": null,
+                "lexicalKeyword": {
+                    "kind": 37757004,
+                    "flags": 64,
+                    "start": 1553,
+                    "end": 1558
+                },
                 "binding": {
                     "kind": 151,
                     "bindingList": [
@@ -5824,7 +5894,12 @@ for ({}.bar = x in obj);
             "awaitKeyword": null,
             "initializer": {
                 "kind": 162,
-                "lexicalKeyword": null,
+                "lexicalKeyword": {
+                    "kind": 37757004,
+                    "flags": 64,
+                    "start": 1587,
+                    "end": 1592
+                },
                 "binding": {
                     "kind": 151,
                     "bindingList": [
@@ -6783,7 +6858,12 @@ for ({}.bar = x in obj);
             },
             "initializer": {
                 "kind": 162,
-                "lexicalKeyword": null,
+                "lexicalKeyword": {
+                    "kind": 37757004,
+                    "flags": 64,
+                    "start": 1835,
+                    "end": 1840
+                },
                 "binding": {
                     "kind": 151,
                     "bindingList": [

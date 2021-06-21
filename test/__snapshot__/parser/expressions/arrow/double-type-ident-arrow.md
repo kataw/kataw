@@ -22,12 +22,7 @@ type =>  x, type =>  x;
                 "expressions": [
                     {
                         "kind": 271,
-                        "arrowToken": {
-                            "kind": 10,
-                            "flags": 64,
-                            "start": 4,
-                            "end": 7
-                        },
+                        "asyncKeyword": null,
                         "typeParameters": null,
                         "parameters": {
                             "kind": 134299649,
@@ -37,8 +32,13 @@ type =>  x, type =>  x;
                             "start": 0,
                             "end": 4
                         },
-                        "asyncKeyword": null,
                         "returnType": null,
+                        "arrowToken": {
+                            "kind": 10,
+                            "flags": 64,
+                            "start": 4,
+                            "end": 7
+                        },
                         "contents": {
                             "kind": 134299649,
                             "text": "x",
@@ -53,12 +53,7 @@ type =>  x, type =>  x;
                     },
                     {
                         "kind": 271,
-                        "arrowToken": {
-                            "kind": 10,
-                            "flags": 64,
-                            "start": 16,
-                            "end": 19
-                        },
+                        "asyncKeyword": null,
                         "typeParameters": null,
                         "parameters": {
                             "kind": 134299649,
@@ -68,8 +63,13 @@ type =>  x, type =>  x;
                             "start": 11,
                             "end": 16
                         },
-                        "asyncKeyword": null,
                         "returnType": null,
+                        "arrowToken": {
+                            "kind": 10,
+                            "flags": 64,
+                            "start": 16,
+                            "end": 19
+                        },
                         "contents": {
                             "kind": 134299649,
                             "text": "x",

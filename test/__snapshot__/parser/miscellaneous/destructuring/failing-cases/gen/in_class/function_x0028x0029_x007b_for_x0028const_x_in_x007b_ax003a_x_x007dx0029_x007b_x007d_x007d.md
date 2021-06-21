@@ -93,7 +93,12 @@ class x { function () { for (const x in { a: x }) { } } }
                                                 },
                                                 "initializer": {
                                                     "kind": 162,
-                                                    "lexicalKeyword": null,
+                                                    "lexicalKeyword": {
+                                                        "kind": 37757004,
+                                                        "flags": 64,
+                                                        "start": 29,
+                                                        "end": 34
+                                                    },
                                                     "binding": {
                                                         "kind": 151,
                                                         "bindingList": [
@@ -229,7 +234,7 @@ class x { function () { for (const x in { a: x }) { } } }
 
 class x {
   function() {
-    for (x; in { a: x })
+    for (const x; in { a: x })
       {}
   }
 }

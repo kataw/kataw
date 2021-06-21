@@ -37,11 +37,11 @@ delete (async => {})
                     "kind": 121,
                     "expression": {
                         "kind": 271,
-                        "arrowToken": {
-                            "kind": 10,
+                        "asyncKeyword": {
+                            "kind": 82031,
                             "flags": 64,
-                            "start": 13,
-                            "end": 16
+                            "start": 8,
+                            "end": 13
                         },
                         "typeParameters": null,
                         "parameters": {
@@ -52,13 +52,13 @@ delete (async => {})
                             "start": 8,
                             "end": 13
                         },
-                        "asyncKeyword": {
-                            "kind": 82031,
-                            "flags": 64,
-                            "start": 8,
-                            "end": 13
-                        },
                         "returnType": null,
+                        "arrowToken": {
+                            "kind": 10,
+                            "flags": 64,
+                            "start": 13,
+                            "end": 16
+                        },
                         "contents": {
                             "kind": 216,
                             "functionStatementList": {

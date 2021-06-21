@@ -102,7 +102,7 @@ function foo<T><T>() {}
             "kind": 120,
             "expression": {
                 "kind": 271,
-                "arrowToken": null,
+                "asyncKeyword": null,
                 "typeParameters": {
                     "kind": 307,
                     "declarations": {
@@ -135,8 +135,8 @@ function foo<T><T>() {}
                     "end": 18
                 },
                 "parameters": [],
-                "asyncKeyword": null,
                 "returnType": null,
+                "arrowToken": null,
                 "contents": {
                     "kind": 216,
                     "functionStatementList": {

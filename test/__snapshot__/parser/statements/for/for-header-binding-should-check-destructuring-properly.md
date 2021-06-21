@@ -25,7 +25,12 @@ for (const [x, x] in {}) {}
             },
             "initializer": {
                 "kind": 162,
-                "lexicalKeyword": null,
+                "lexicalKeyword": {
+                    "kind": 37757004,
+                    "flags": 64,
+                    "start": 5,
+                    "end": 10
+                },
                 "binding": {
                     "kind": 151,
                     "bindingList": [

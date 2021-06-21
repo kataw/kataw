@@ -73,11 +73,11 @@
                     "statements": [
                         {
                             "kind": 271,
-                            "arrowToken": {
-                                "kind": 10,
+                            "asyncKeyword": {
+                                "kind": 82031,
                                 "flags": 64,
-                                "start": 75,
-                                "end": 78
+                                "start": 33,
+                                "end": 43
                             },
                             "typeParameters": null,
                             "parameters": [
@@ -222,13 +222,13 @@
                                     "end": 74
                                 }
                             ],
-                            "asyncKeyword": {
-                                "kind": 82031,
-                                "flags": 64,
-                                "start": 33,
-                                "end": 43
-                            },
                             "returnType": null,
+                            "arrowToken": {
+                                "kind": 10,
+                                "flags": 64,
+                                "start": 75,
+                                "end": 78
+                            },
                             "contents": {
                                 "kind": 216,
                                 "functionStatementList": {

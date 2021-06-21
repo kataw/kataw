@@ -27,12 +27,7 @@ await => async.await[async / ((async) => foo.bar)]
             "kind": 120,
             "expression": {
                 "kind": 271,
-                "arrowToken": {
-                    "kind": 10,
-                    "flags": 64,
-                    "start": 5,
-                    "end": 8
-                },
+                "asyncKeyword": null,
                 "typeParameters": null,
                 "parameters": {
                     "kind": 134299649,
@@ -42,8 +37,13 @@ await => async.await[async / ((async) => foo.bar)]
                     "start": 0,
                     "end": 5
                 },
-                "asyncKeyword": null,
                 "returnType": null,
+                "arrowToken": {
+                    "kind": 10,
+                    "flags": 64,
+                    "start": 5,
+                    "end": 8
+                },
                 "contents": {
                     "kind": 536871042,
                     "member": {
@@ -88,12 +88,7 @@ await => async.await[async / ((async) => foo.bar)]
                             "kind": 121,
                             "expression": {
                                 "kind": 271,
-                                "arrowToken": {
-                                    "kind": 10,
-                                    "flags": 64,
-                                    "start": 37,
-                                    "end": 40
-                                },
+                                "asyncKeyword": null,
                                 "typeParameters": null,
                                 "parameters": [
                                     {
@@ -105,8 +100,13 @@ await => async.await[async / ((async) => foo.bar)]
                                         "end": 36
                                     }
                                 ],
-                                "asyncKeyword": null,
                                 "returnType": null,
+                                "arrowToken": {
+                                    "kind": 10,
+                                    "flags": 64,
+                                    "start": 37,
+                                    "end": 40
+                                },
                                 "contents": {
                                     "kind": 129,
                                     "member": {

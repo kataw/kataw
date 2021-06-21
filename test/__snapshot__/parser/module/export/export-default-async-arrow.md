@@ -41,11 +41,11 @@ export default async (x) => (y, z);
                 "kind": 120,
                 "expression": {
                     "kind": 271,
-                    "arrowToken": {
-                        "kind": 10,
+                    "asyncKeyword": {
+                        "kind": 82031,
                         "flags": 64,
-                        "start": 22,
-                        "end": 25
+                        "start": 14,
+                        "end": 20
                     },
                     "typeParameters": null,
                     "parameters": {
@@ -56,13 +56,13 @@ export default async (x) => (y, z);
                         "start": 20,
                         "end": 22
                     },
-                    "asyncKeyword": {
-                        "kind": 82031,
-                        "flags": 64,
-                        "start": 14,
-                        "end": 20
-                    },
                     "returnType": null,
+                    "arrowToken": {
+                        "kind": 10,
+                        "flags": 64,
+                        "start": 22,
+                        "end": 25
+                    },
                     "contents": {
                         "kind": 121,
                         "expression": {
@@ -121,11 +121,11 @@ export default async (x) => (y, z);
             },
             "declaration": {
                 "kind": 271,
-                "arrowToken": {
-                    "kind": 10,
+                "asyncKeyword": {
+                    "kind": 82031,
                     "flags": 64,
-                    "start": 58,
-                    "end": 61
+                    "start": 48,
+                    "end": 54
                 },
                 "typeParameters": null,
                 "parameters": [
@@ -138,13 +138,13 @@ export default async (x) => (y, z);
                         "end": 57
                     }
                 ],
-                "asyncKeyword": {
-                    "kind": 82031,
-                    "flags": 64,
-                    "start": 48,
-                    "end": 54
-                },
                 "returnType": null,
+                "arrowToken": {
+                    "kind": 10,
+                    "flags": 64,
+                    "start": 58,
+                    "end": 61
+                },
                 "contents": {
                     "kind": 121,
                     "expression": {

@@ -57,11 +57,11 @@
                             },
                             "expression": {
                                 "kind": 271,
-                                "arrowToken": {
-                                    "kind": 10,
+                                "asyncKeyword": {
+                                    "kind": 82031,
                                     "flags": 64,
-                                    "start": 24,
-                                    "end": 27
+                                    "start": 16,
+                                    "end": 22
                                 },
                                 "typeParameters": null,
                                 "parameters": {
@@ -72,13 +72,13 @@
                                     "start": 22,
                                     "end": 24
                                 },
-                                "asyncKeyword": {
-                                    "kind": 82031,
-                                    "flags": 64,
-                                    "start": 16,
-                                    "end": 22
-                                },
                                 "returnType": null,
+                                "arrowToken": {
+                                    "kind": 10,
+                                    "flags": 64,
+                                    "start": 24,
+                                    "end": 27
+                                },
                                 "contents": {
                                     "kind": 134299649,
                                     "text": "b",

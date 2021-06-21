@@ -105,16 +105,16 @@ class x extends y { fo(){ return () => super[bar]; }}
                                                 },
                                                 "expression": {
                                                     "kind": 271,
+                                                    "asyncKeyword": null,
+                                                    "typeParameters": null,
+                                                    "parameters": [],
+                                                    "returnType": null,
                                                     "arrowToken": {
                                                         "kind": 10,
                                                         "flags": 64,
                                                         "start": 35,
                                                         "end": 38
                                                     },
-                                                    "typeParameters": null,
-                                                    "parameters": [],
-                                                    "asyncKeyword": null,
-                                                    "returnType": null,
                                                     "contents": {
                                                         "kind": 536871042,
                                                         "member": {

@@ -27,12 +27,7 @@ delete (foo)=>bar
                 },
                 "operand": {
                     "kind": 271,
-                    "arrowToken": {
-                        "kind": 10,
-                        "flags": 64,
-                        "start": 12,
-                        "end": 14
-                    },
+                    "asyncKeyword": null,
                     "typeParameters": null,
                     "parameters": [
                         {
@@ -44,8 +39,13 @@ delete (foo)=>bar
                             "end": 11
                         }
                     ],
-                    "asyncKeyword": null,
                     "returnType": null,
+                    "arrowToken": {
+                        "kind": 10,
+                        "flags": 64,
+                        "start": 12,
+                        "end": 14
+                    },
                     "contents": {
                         "kind": 134299649,
                         "text": "bar",

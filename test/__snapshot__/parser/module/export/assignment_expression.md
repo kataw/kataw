@@ -37,16 +37,16 @@ export default () => x
             },
             "declaration": {
                 "kind": 271,
+                "asyncKeyword": null,
+                "typeParameters": null,
+                "parameters": [],
+                "returnType": null,
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
                     "start": 17,
                     "end": 20
                 },
-                "typeParameters": null,
-                "parameters": [],
-                "asyncKeyword": null,
-                "returnType": null,
                 "contents": {
                     "kind": 134299649,
                     "text": "x",

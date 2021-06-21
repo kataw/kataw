@@ -761,12 +761,7 @@ var {get} = obj;
                         "type": null,
                         "initializer": {
                             "kind": 271,
-                            "arrowToken": {
-                                "kind": 10,
-                                "flags": 64,
-                                "start": 217,
-                                "end": 220
-                            },
+                            "asyncKeyword": null,
                             "typeParameters": null,
                             "parameters": [
                                 {
@@ -912,8 +907,13 @@ var {get} = obj;
                                     "end": 216
                                 }
                             ],
-                            "asyncKeyword": null,
                             "returnType": null,
+                            "arrowToken": {
+                                "kind": 10,
+                                "flags": 64,
+                                "start": 217,
+                                "end": 220
+                            },
                             "contents": {
                                 "kind": 216,
                                 "functionStatementList": {
@@ -970,12 +970,7 @@ var {get} = obj;
                         "type": null,
                         "initializer": {
                             "kind": 271,
-                            "arrowToken": {
-                                "kind": 10,
-                                "flags": 64,
-                                "start": 254,
-                                "end": 257
-                            },
+                            "asyncKeyword": null,
                             "typeParameters": null,
                             "parameters": [
                                 {
@@ -1063,8 +1058,13 @@ var {get} = obj;
                                     "end": 253
                                 }
                             ],
-                            "asyncKeyword": null,
                             "returnType": null,
+                            "arrowToken": {
+                                "kind": 10,
+                                "flags": 64,
+                                "start": 254,
+                                "end": 257
+                            },
                             "contents": {
                                 "kind": 216,
                                 "functionStatementList": {

@@ -35,12 +35,7 @@ f = ([xCls2 = class { static name() {} }]) => {}
                 },
                 "right": {
                     "kind": 271,
-                    "arrowToken": {
-                        "kind": 10,
-                        "flags": 64,
-                        "start": 42,
-                        "end": 45
-                    },
+                    "asyncKeyword": null,
                     "typeParameters": null,
                     "parameters": [
                         {
@@ -162,8 +157,13 @@ f = ([xCls2 = class { static name() {} }]) => {}
                             "end": 41
                         }
                     ],
-                    "asyncKeyword": null,
                     "returnType": null,
+                    "arrowToken": {
+                        "kind": 10,
+                        "flags": 64,
+                        "start": 42,
+                        "end": 45
+                    },
                     "contents": {
                         "kind": 216,
                         "functionStatementList": {

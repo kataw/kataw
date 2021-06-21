@@ -2517,16 +2517,16 @@ function f({x:arg = (arg = 2)}) {}
                                     "elements": [
                                         {
                                             "kind": 271,
+                                            "asyncKeyword": null,
+                                            "typeParameters": null,
+                                            "parameters": [],
+                                            "returnType": null,
                                             "arrowToken": {
                                                 "kind": 10,
                                                 "flags": 64,
                                                 "start": 680,
                                                 "end": 683
                                             },
-                                            "typeParameters": null,
-                                            "parameters": [],
-                                            "asyncKeyword": null,
-                                            "returnType": null,
                                             "contents": {
                                                 "kind": 125,
                                                 "left": {
@@ -2721,16 +2721,16 @@ function f({x:arg = (arg = 2)}) {}
                                     "elements": [
                                         {
                                             "kind": 271,
+                                            "asyncKeyword": null,
+                                            "typeParameters": null,
+                                            "parameters": [],
+                                            "returnType": null,
                                             "arrowToken": {
                                                 "kind": 10,
                                                 "flags": 64,
                                                 "start": 733,
                                                 "end": 736
                                             },
-                                            "typeParameters": null,
-                                            "parameters": [],
-                                            "asyncKeyword": null,
-                                            "returnType": null,
                                             "contents": {
                                                 "kind": 131,
                                                 "expression": {
@@ -3626,16 +3626,16 @@ function f({x:arg = (arg = 2)}) {}
                                     "elements": [
                                         {
                                             "kind": 271,
+                                            "asyncKeyword": null,
+                                            "typeParameters": null,
+                                            "parameters": [],
+                                            "returnType": null,
                                             "arrowToken": {
                                                 "kind": 10,
                                                 "flags": 64,
                                                 "start": 1011,
                                                 "end": 1014
                                             },
-                                            "typeParameters": null,
-                                            "parameters": [],
-                                            "asyncKeyword": null,
-                                            "returnType": null,
                                             "contents": {
                                                 "kind": 125,
                                                 "left": {

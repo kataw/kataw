@@ -53,21 +53,21 @@ export let foo = async () => this
                             "type": null,
                             "initializer": {
                                 "kind": 271,
-                                "arrowToken": {
-                                    "kind": 10,
-                                    "flags": 64,
-                                    "start": 25,
-                                    "end": 28
-                                },
-                                "typeParameters": null,
-                                "parameters": [],
                                 "asyncKeyword": {
                                     "kind": 82031,
                                     "flags": 64,
                                     "start": 16,
                                     "end": 22
                                 },
+                                "typeParameters": null,
+                                "parameters": [],
                                 "returnType": null,
+                                "arrowToken": {
+                                    "kind": 10,
+                                    "flags": 64,
+                                    "start": 25,
+                                    "end": 28
+                                },
                                 "contents": {
                                     "kind": 4276321,
                                     "flags": 96,

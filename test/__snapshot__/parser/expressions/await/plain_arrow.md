@@ -58,12 +58,7 @@ async function a(){     (foo = [{m: 5 + t(await bar)}]) => {}     }
                             "kind": 120,
                             "expression": {
                                 "kind": 271,
-                                "arrowToken": {
-                                    "kind": 10,
-                                    "flags": 64,
-                                    "start": 55,
-                                    "end": 58
-                                },
+                                "asyncKeyword": null,
                                 "typeParameters": null,
                                 "parameters": [
                                     {
@@ -192,8 +187,13 @@ async function a(){     (foo = [{m: 5 + t(await bar)}]) => {}     }
                                         "end": 54
                                     }
                                 ],
-                                "asyncKeyword": null,
                                 "returnType": null,
+                                "arrowToken": {
+                                    "kind": 10,
+                                    "flags": 64,
+                                    "start": 55,
+                                    "end": 58
+                                },
                                 "contents": {
                                     "kind": 216,
                                     "functionStatementList": {

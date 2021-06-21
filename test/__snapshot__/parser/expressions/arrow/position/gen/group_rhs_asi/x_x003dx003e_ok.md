@@ -46,12 +46,7 @@ x *
                     "kind": 121,
                     "expression": {
                         "kind": 271,
-                        "arrowToken": {
-                            "kind": 10,
-                            "flags": 64,
-                            "start": 6,
-                            "end": 9
-                        },
+                        "asyncKeyword": null,
                         "typeParameters": null,
                         "parameters": {
                             "kind": 134299649,
@@ -61,8 +56,13 @@ x *
                             "start": 5,
                             "end": 6
                         },
-                        "asyncKeyword": null,
                         "returnType": null,
+                        "arrowToken": {
+                            "kind": 10,
+                            "flags": 64,
+                            "start": 6,
+                            "end": 9
+                        },
                         "contents": {
                             "kind": 134299649,
                             "text": "ok",

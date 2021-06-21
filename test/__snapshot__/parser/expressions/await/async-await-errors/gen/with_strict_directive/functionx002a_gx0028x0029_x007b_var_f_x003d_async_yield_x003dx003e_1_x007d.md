@@ -96,11 +96,11 @@
                                         "type": null,
                                         "initializer": {
                                             "kind": 271,
-                                            "arrowToken": {
-                                                "kind": 10,
+                                            "asyncKeyword": {
+                                                "kind": 82031,
                                                 "flags": 64,
-                                                "start": 49,
-                                                "end": 52
+                                                "start": 37,
+                                                "end": 43
                                             },
                                             "typeParameters": null,
                                             "parameters": {
@@ -111,13 +111,13 @@
                                                 "start": 43,
                                                 "end": 49
                                             },
-                                            "asyncKeyword": {
-                                                "kind": 82031,
-                                                "flags": 64,
-                                                "start": 37,
-                                                "end": 43
-                                            },
                                             "returnType": null,
+                                            "arrowToken": {
+                                                "kind": 10,
+                                                "flags": 64,
+                                                "start": 49,
+                                                "end": 52
+                                            },
                                             "contents": {
                                                 "kind": 201392130,
                                                 "text": 1,

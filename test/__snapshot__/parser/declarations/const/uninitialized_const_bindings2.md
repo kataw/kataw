@@ -32,7 +32,12 @@ for (const x of xs) {}
             "awaitKeyword": null,
             "initializer": {
                 "kind": 162,
-                "lexicalKeyword": null,
+                "lexicalKeyword": {
+                    "kind": 37757004,
+                    "flags": 64,
+                    "start": 5,
+                    "end": 10
+                },
                 "binding": {
                     "kind": 151,
                     "bindingList": [
@@ -106,7 +111,7 @@ for (const x of xs) {}
 
 ```javascript
 
-for (x; of xs)
+for (const x; of xs)
   {
   }
 ```

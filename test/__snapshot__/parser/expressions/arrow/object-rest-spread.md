@@ -42,12 +42,7 @@ var foo = ( { title, ...other } ) => {
                         "type": null,
                         "initializer": {
                             "kind": 271,
-                            "arrowToken": {
-                                "kind": 10,
-                                "flags": 64,
-                                "start": 33,
-                                "end": 36
-                            },
+                            "asyncKeyword": null,
                             "typeParameters": null,
                             "parameters": [
                                 {
@@ -97,8 +92,13 @@ var foo = ( { title, ...other } ) => {
                                     "end": 31
                                 }
                             ],
-                            "asyncKeyword": null,
                             "returnType": null,
+                            "arrowToken": {
+                                "kind": 10,
+                                "flags": 64,
+                                "start": 33,
+                                "end": 36
+                            },
                             "contents": {
                                 "kind": 216,
                                 "functionStatementList": {

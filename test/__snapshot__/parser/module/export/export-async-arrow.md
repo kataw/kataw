@@ -33,21 +33,21 @@ export async x => x;
             },
             "declaration": {
                 "kind": 271,
-                "arrowToken": {
-                    "kind": 10,
-                    "flags": 64,
-                    "start": 15,
-                    "end": 18
-                },
-                "typeParameters": null,
-                "parameters": [],
                 "asyncKeyword": {
                     "kind": 82031,
                     "flags": 64,
                     "start": 6,
                     "end": 12
                 },
+                "typeParameters": null,
+                "parameters": [],
                 "returnType": null,
+                "arrowToken": {
+                    "kind": 10,
+                    "flags": 64,
+                    "start": 15,
+                    "end": 18
+                },
                 "contents": {
                     "kind": 134299649,
                     "text": "x",
@@ -86,11 +86,11 @@ export async x => x;
                 "kind": 120,
                 "expression": {
                     "kind": 271,
-                    "arrowToken": {
-                        "kind": 10,
+                    "asyncKeyword": {
+                        "kind": 82031,
                         "flags": 64,
-                        "start": 37,
-                        "end": 40
+                        "start": 29,
+                        "end": 35
                     },
                     "typeParameters": null,
                     "parameters": {
@@ -101,13 +101,13 @@ export async x => x;
                         "start": 35,
                         "end": 37
                     },
-                    "asyncKeyword": {
-                        "kind": 82031,
-                        "flags": 64,
-                        "start": 29,
-                        "end": 35
-                    },
                     "returnType": null,
+                    "arrowToken": {
+                        "kind": 10,
+                        "flags": 64,
+                        "start": 37,
+                        "end": 40
+                    },
                     "contents": {
                         "kind": 134299649,
                         "text": "x",

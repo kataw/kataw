@@ -59,12 +59,7 @@ bar ? baz : ( (interface) => { 'use strict'; 0 } );
                     "kind": 121,
                     "expression": {
                         "kind": 271,
-                        "arrowToken": {
-                            "kind": 10,
-                            "flags": 64,
-                            "start": 25,
-                            "end": 28
-                        },
+                        "asyncKeyword": null,
                         "typeParameters": null,
                         "parameters": [
                             {
@@ -76,8 +71,13 @@ bar ? baz : ( (interface) => { 'use strict'; 0 } );
                                 "end": 24
                             }
                         ],
-                        "asyncKeyword": null,
                         "returnType": null,
+                        "arrowToken": {
+                            "kind": 10,
+                            "flags": 64,
+                            "start": 25,
+                            "end": 28
+                        },
                         "contents": {
                             "kind": 216,
                             "functionStatementList": {

@@ -49,11 +49,11 @@ let foo = (async bar => bar);
                             "kind": 121,
                             "expression": {
                                 "kind": 271,
-                                "arrowToken": {
-                                    "kind": 10,
+                                "asyncKeyword": {
+                                    "kind": 82031,
                                     "flags": 64,
-                                    "start": 20,
-                                    "end": 23
+                                    "start": 11,
+                                    "end": 16
                                 },
                                 "typeParameters": null,
                                 "parameters": {
@@ -64,13 +64,13 @@ let foo = (async bar => bar);
                                     "start": 16,
                                     "end": 20
                                 },
-                                "asyncKeyword": {
-                                    "kind": 82031,
-                                    "flags": 64,
-                                    "start": 11,
-                                    "end": 16
-                                },
                                 "returnType": null,
+                                "arrowToken": {
+                                    "kind": 10,
+                                    "flags": 64,
+                                    "start": 20,
+                                    "end": 23
+                                },
                                 "contents": {
                                     "kind": 134299649,
                                     "text": "bar",

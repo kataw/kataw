@@ -44,11 +44,11 @@ a ? b : (): string => {}
                 },
                 "consequent": {
                     "kind": 271,
-                    "arrowToken": null,
+                    "asyncKeyword": null,
                     "typeParameters": null,
                     "parameters": [],
-                    "asyncKeyword": null,
                     "returnType": null,
+                    "arrowToken": null,
                     "contents": {
                         "kind": 16637,
                         "text": "",
@@ -69,12 +69,7 @@ a ? b : (): string => {}
                 },
                 "alternate": {
                     "kind": 271,
-                    "arrowToken": {
-                        "kind": 10,
-                        "flags": 64,
-                        "start": 15,
-                        "end": 18
-                    },
+                    "asyncKeyword": null,
                     "typeParameters": null,
                     "parameters": {
                         "kind": 134299649,
@@ -84,8 +79,13 @@ a ? b : (): string => {}
                         "start": 8,
                         "end": 15
                     },
-                    "asyncKeyword": null,
                     "returnType": null,
+                    "arrowToken": {
+                        "kind": 10,
+                        "flags": 64,
+                        "start": 15,
+                        "end": 18
+                    },
                     "contents": {
                         "kind": 216,
                         "functionStatementList": {
@@ -174,12 +174,7 @@ a ? b : (): string => {}
                 },
                 "alternate": {
                     "kind": 271,
-                    "arrowToken": {
-                        "kind": 10,
-                        "flags": 64,
-                        "start": 50,
-                        "end": 53
-                    },
+                    "asyncKeyword": null,
                     "typeParameters": null,
                     "parameters": {
                         "kind": 134299649,
@@ -189,8 +184,13 @@ a ? b : (): string => {}
                         "start": 43,
                         "end": 50
                     },
-                    "asyncKeyword": null,
                     "returnType": null,
+                    "arrowToken": {
+                        "kind": 10,
+                        "flags": 64,
+                        "start": 50,
+                        "end": 53
+                    },
                     "contents": {
                         "kind": 216,
                         "functionStatementList": {
@@ -251,11 +251,11 @@ a ? b : (): string => {}
                 },
                 "consequent": {
                     "kind": 271,
-                    "arrowToken": null,
+                    "asyncKeyword": null,
                     "typeParameters": null,
                     "parameters": [],
-                    "asyncKeyword": null,
                     "returnType": null,
+                    "arrowToken": null,
                     "contents": {
                         "kind": 16637,
                         "text": "",
@@ -276,12 +276,7 @@ a ? b : (): string => {}
                 },
                 "alternate": {
                     "kind": 271,
-                    "arrowToken": {
-                        "kind": 10,
-                        "flags": 64,
-                        "start": 79,
-                        "end": 82
-                    },
+                    "asyncKeyword": null,
                     "typeParameters": null,
                     "parameters": {
                         "kind": 134299649,
@@ -291,8 +286,13 @@ a ? b : (): string => {}
                         "start": 72,
                         "end": 79
                     },
-                    "asyncKeyword": null,
                     "returnType": null,
+                    "arrowToken": {
+                        "kind": 10,
+                        "flags": 64,
+                        "start": 79,
+                        "end": 82
+                    },
                     "contents": {
                         "kind": 216,
                         "functionStatementList": {
@@ -323,11 +323,11 @@ a ? b : (): string => {}
             "kind": 120,
             "expression": {
                 "kind": 271,
-                "arrowToken": null,
+                "asyncKeyword": null,
                 "typeParameters": null,
                 "parameters": [],
-                "asyncKeyword": null,
                 "returnType": null,
+                "arrowToken": null,
                 "contents": {
                     "kind": 16637,
                     "text": "",
@@ -348,12 +348,7 @@ a ? b : (): string => {}
             "kind": 120,
             "expression": {
                 "kind": 271,
-                "arrowToken": {
-                    "kind": 10,
-                    "flags": 64,
-                    "start": 100,
-                    "end": 103
-                },
+                "asyncKeyword": null,
                 "typeParameters": null,
                 "parameters": {
                     "kind": 134299649,
@@ -363,8 +358,13 @@ a ? b : (): string => {}
                     "start": 93,
                     "end": 100
                 },
-                "asyncKeyword": null,
                 "returnType": null,
+                "arrowToken": {
+                    "kind": 10,
+                    "flags": 64,
+                    "start": 100,
+                    "end": 103
+                },
                 "contents": {
                     "kind": 216,
                     "functionStatementList": {
@@ -391,11 +391,11 @@ a ? b : (): string => {}
             "kind": 120,
             "expression": {
                 "kind": 271,
-                "arrowToken": null,
+                "asyncKeyword": null,
                 "typeParameters": null,
                 "parameters": [],
-                "asyncKeyword": null,
                 "returnType": null,
+                "arrowToken": null,
                 "contents": {
                     "kind": 16637,
                     "text": "",
@@ -416,12 +416,7 @@ a ? b : (): string => {}
             "kind": 120,
             "expression": {
                 "kind": 271,
-                "arrowToken": {
-                    "kind": 10,
-                    "flags": 64,
-                    "start": 119,
-                    "end": 122
-                },
+                "asyncKeyword": null,
                 "typeParameters": null,
                 "parameters": {
                     "kind": 134299649,
@@ -431,8 +426,13 @@ a ? b : (): string => {}
                     "start": 112,
                     "end": 119
                 },
-                "asyncKeyword": null,
                 "returnType": null,
+                "arrowToken": {
+                    "kind": 10,
+                    "flags": 64,
+                    "start": 119,
+                    "end": 122
+                },
                 "contents": {
                     "kind": 216,
                     "functionStatementList": {
@@ -489,11 +489,11 @@ a ? b : (): string => {}
                 },
                 "alternate": {
                     "kind": 271,
-                    "arrowToken": null,
+                    "asyncKeyword": null,
                     "typeParameters": null,
                     "parameters": [],
-                    "asyncKeyword": null,
                     "returnType": null,
+                    "arrowToken": null,
                     "contents": {
                         "kind": 16637,
                         "text": "",
@@ -518,12 +518,7 @@ a ? b : (): string => {}
             "kind": 120,
             "expression": {
                 "kind": 271,
-                "arrowToken": {
-                    "kind": 10,
-                    "flags": 64,
-                    "start": 146,
-                    "end": 149
-                },
+                "asyncKeyword": null,
                 "typeParameters": null,
                 "parameters": {
                     "kind": 134299649,
@@ -533,8 +528,13 @@ a ? b : (): string => {}
                     "start": 139,
                     "end": 146
                 },
-                "asyncKeyword": null,
                 "returnType": null,
+                "arrowToken": {
+                    "kind": 10,
+                    "flags": 64,
+                    "start": 146,
+                    "end": 149
+                },
                 "contents": {
                     "kind": 216,
                     "functionStatementList": {

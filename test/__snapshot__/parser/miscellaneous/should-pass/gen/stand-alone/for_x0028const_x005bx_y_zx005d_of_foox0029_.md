@@ -34,7 +34,12 @@ for (const [x,y,z] of foo);
             "awaitKeyword": null,
             "initializer": {
                 "kind": 162,
-                "lexicalKeyword": null,
+                "lexicalKeyword": {
+                    "kind": 37757004,
+                    "flags": 64,
+                    "start": 5,
+                    "end": 10
+                },
                 "binding": {
                     "kind": 151,
                     "bindingList": [
@@ -132,7 +137,7 @@ for (const [x,y,z] of foo);
 
 ```javascript
 
-for ([x, y, z]; of foo);
+for (const [x, y, z]; of foo);
 ```
 
 ### Diagnostics

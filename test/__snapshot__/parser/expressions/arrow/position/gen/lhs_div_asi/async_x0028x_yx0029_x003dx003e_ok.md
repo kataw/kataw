@@ -26,11 +26,11 @@ async (x, y) => ok
     "statements": [
         {
             "kind": 271,
-            "arrowToken": {
-                "kind": 10,
+            "asyncKeyword": {
+                "kind": 82031,
                 "flags": 64,
-                "start": 12,
-                "end": 15
+                "start": 0,
+                "end": 5
             },
             "typeParameters": null,
             "parameters": [
@@ -51,13 +51,13 @@ async (x, y) => ok
                     "end": 11
                 }
             ],
-            "asyncKeyword": {
-                "kind": 82031,
-                "flags": 64,
-                "start": 0,
-                "end": 5
-            },
             "returnType": null,
+            "arrowToken": {
+                "kind": 10,
+                "flags": 64,
+                "start": 12,
+                "end": 15
+            },
             "contents": {
                 "kind": 198,
                 "left": {

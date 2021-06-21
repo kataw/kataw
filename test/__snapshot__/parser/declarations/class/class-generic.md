@@ -101,15 +101,9 @@ class A<TYPE> {
                             "type": null,
                             "initializer": {
                                 "kind": 271,
-                                "arrowToken": {
-                                    "kind": 10,
-                                    "flags": 64,
-                                    "start": 41,
-                                    "end": 44
-                                },
+                                "asyncKeyword": null,
                                 "typeParameters": null,
                                 "parameters": [],
-                                "asyncKeyword": null,
                                 "returnType": {
                                     "kind": 139,
                                     "bitwiseOrToken": null,
@@ -169,6 +163,12 @@ class A<TYPE> {
                                     "flags": 2097152,
                                     "start": 27,
                                     "end": 41
+                                },
+                                "arrowToken": {
+                                    "kind": 10,
+                                    "flags": 64,
+                                    "start": 41,
+                                    "end": 44
                                 },
                                 "contents": {
                                     "kind": 216,

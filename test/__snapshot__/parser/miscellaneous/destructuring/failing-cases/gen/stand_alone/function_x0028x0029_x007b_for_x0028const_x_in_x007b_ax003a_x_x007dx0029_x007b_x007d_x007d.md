@@ -60,7 +60,12 @@ function () { for (const x in { a: x }) { } }
                             },
                             "initializer": {
                                 "kind": 162,
-                                "lexicalKeyword": null,
+                                "lexicalKeyword": {
+                                    "kind": 37757004,
+                                    "flags": 64,
+                                    "start": 19,
+                                    "end": 24
+                                },
                                 "binding": {
                                     "kind": 151,
                                     "bindingList": [

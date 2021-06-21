@@ -162,12 +162,7 @@ const fn: ( Object, Object Object ) => void = ( o1, o2, ) => o1;
                         },
                         "initializer": {
                             "kind": 271,
-                            "arrowToken": {
-                                "kind": 10,
-                                "flags": 64,
-                                "start": 57,
-                                "end": 60
-                            },
+                            "asyncKeyword": null,
                             "typeParameters": null,
                             "parameters": [
                                 {
@@ -187,8 +182,13 @@ const fn: ( Object, Object Object ) => void = ( o1, o2, ) => o1;
                                     "end": 54
                                 }
                             ],
-                            "asyncKeyword": null,
                             "returnType": null,
+                            "arrowToken": {
+                                "kind": 10,
+                                "flags": 64,
+                                "start": 57,
+                                "end": 60
+                            },
                             "contents": {
                                 "kind": 134299649,
                                 "text": "o1",

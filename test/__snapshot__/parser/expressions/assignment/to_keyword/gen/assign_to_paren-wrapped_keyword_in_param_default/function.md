@@ -25,11 +25,11 @@ async (x = (function) = f) => {}
     "statements": [
         {
             "kind": 271,
-            "arrowToken": {
-                "kind": 10,
+            "asyncKeyword": {
+                "kind": 82031,
                 "flags": 64,
-                "start": 26,
-                "end": 29
+                "start": 0,
+                "end": 5
             },
             "typeParameters": null,
             "parameters": [
@@ -116,13 +116,13 @@ async (x = (function) = f) => {}
                     "end": 25
                 }
             ],
-            "asyncKeyword": {
-                "kind": 82031,
-                "flags": 64,
-                "start": 0,
-                "end": 5
-            },
             "returnType": null,
+            "arrowToken": {
+                "kind": 10,
+                "flags": 64,
+                "start": 26,
+                "end": 29
+            },
             "contents": {
                 "kind": 216,
                 "functionStatementList": {

@@ -80,12 +80,7 @@ a ? async (b) : c => d;
                 },
                 "alternate": {
                     "kind": 271,
-                    "arrowToken": {
-                        "kind": 10,
-                        "flags": 64,
-                        "start": 17,
-                        "end": 20
-                    },
+                    "asyncKeyword": null,
                     "typeParameters": null,
                     "parameters": {
                         "kind": 134299649,
@@ -95,8 +90,13 @@ a ? async (b) : c => d;
                         "start": 15,
                         "end": 17
                     },
-                    "asyncKeyword": null,
                     "returnType": null,
+                    "arrowToken": {
+                        "kind": 10,
+                        "flags": 64,
+                        "start": 17,
+                        "end": 20
+                    },
                     "contents": {
                         "kind": 134299649,
                         "text": "d",

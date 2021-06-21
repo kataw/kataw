@@ -27,12 +27,7 @@ it => { var [,,...rest] = it; return rest; }
             "kind": 120,
             "expression": {
                 "kind": 271,
-                "arrowToken": {
-                    "kind": 10,
-                    "flags": 64,
-                    "start": 2,
-                    "end": 5
-                },
+                "asyncKeyword": null,
                 "typeParameters": null,
                 "parameters": {
                     "kind": 134299649,
@@ -42,8 +37,13 @@ it => { var [,,...rest] = it; return rest; }
                     "start": 0,
                     "end": 2
                 },
-                "asyncKeyword": null,
                 "returnType": null,
+                "arrowToken": {
+                    "kind": 10,
+                    "flags": 64,
+                    "start": 2,
+                    "end": 5
+                },
                 "contents": {
                     "kind": 216,
                     "functionStatementList": {

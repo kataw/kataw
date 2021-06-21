@@ -25,11 +25,11 @@ async (x = delete ((this) = f)) => {}
     "statements": [
         {
             "kind": 271,
-            "arrowToken": {
-                "kind": 10,
+            "asyncKeyword": {
+                "kind": 82031,
                 "flags": 64,
-                "start": 31,
-                "end": 34
+                "start": 0,
+                "end": 5
             },
             "typeParameters": null,
             "parameters": [
@@ -101,13 +101,13 @@ async (x = delete ((this) = f)) => {}
                     "end": 30
                 }
             ],
-            "asyncKeyword": {
-                "kind": 82031,
-                "flags": 64,
-                "start": 0,
-                "end": 5
-            },
             "returnType": null,
+            "arrowToken": {
+                "kind": 10,
+                "flags": 64,
+                "start": 31,
+                "end": 34
+            },
             "contents": {
                 "kind": 216,
                 "functionStatementList": {

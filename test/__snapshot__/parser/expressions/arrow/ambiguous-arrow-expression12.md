@@ -84,12 +84,7 @@ var a = b ? (c) : d => e;
                             },
                             "alternate": {
                                 "kind": 271,
-                                "arrowToken": {
-                                    "kind": 10,
-                                    "flags": 64,
-                                    "start": 19,
-                                    "end": 22
-                                },
+                                "asyncKeyword": null,
                                 "typeParameters": null,
                                 "parameters": {
                                     "kind": 134299649,
@@ -99,8 +94,13 @@ var a = b ? (c) : d => e;
                                     "start": 17,
                                     "end": 19
                                 },
-                                "asyncKeyword": null,
                                 "returnType": null,
+                                "arrowToken": {
+                                    "kind": 10,
+                                    "flags": 64,
+                                    "start": 19,
+                                    "end": 22
+                                },
                                 "contents": {
                                     "kind": 134299649,
                                     "text": "e",

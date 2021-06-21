@@ -70,7 +70,12 @@ async function f() { for await (const x of y) {} }
                             },
                             "initializer": {
                                 "kind": 162,
-                                "lexicalKeyword": null,
+                                "lexicalKeyword": {
+                                    "kind": 37757004,
+                                    "flags": 64,
+                                    "start": 32,
+                                    "end": 37
+                                },
                                 "binding": {
                                     "kind": 151,
                                     "bindingList": [
@@ -159,7 +164,7 @@ async function f() { for await (const x of y) {} }
 ```javascript
 
 async function f() {
-  for await (x; of y)
+  for await (const x; of y)
     {
     }
 }

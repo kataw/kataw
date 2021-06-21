@@ -97,12 +97,7 @@ async function f(){    async function f(){   (a= {[await foo](){}, "x"(){}} ) =>
                                             "kind": 120,
                                             "expression": {
                                                 "kind": 271,
-                                                "arrowToken": {
-                                                    "kind": 10,
-                                                    "flags": 64,
-                                                    "start": 77,
-                                                    "end": 80
-                                                },
+                                                "asyncKeyword": null,
                                                 "typeParameters": null,
                                                 "parameters": [
                                                     {
@@ -252,8 +247,13 @@ async function f(){    async function f(){   (a= {[await foo](){}, "x"(){}} ) =>
                                                         "end": 75
                                                     }
                                                 ],
-                                                "asyncKeyword": null,
                                                 "returnType": null,
+                                                "arrowToken": {
+                                                    "kind": 10,
+                                                    "flags": 64,
+                                                    "start": 77,
+                                                    "end": 80
+                                                },
                                                 "contents": {
                                                     "kind": 134299649,
                                                     "text": "a",

@@ -54,11 +54,11 @@ class A extends async (x, y) => ok {}
                     },
                     "expression": {
                         "kind": 271,
-                        "arrowToken": {
-                            "kind": 10,
+                        "asyncKeyword": {
+                            "kind": 82031,
                             "flags": 64,
-                            "start": 28,
-                            "end": 31
+                            "start": 15,
+                            "end": 21
                         },
                         "typeParameters": null,
                         "parameters": [
@@ -79,13 +79,13 @@ class A extends async (x, y) => ok {}
                                 "end": 27
                             }
                         ],
-                        "asyncKeyword": {
-                            "kind": 82031,
-                            "flags": 64,
-                            "start": 15,
-                            "end": 21
-                        },
                         "returnType": null,
+                        "arrowToken": {
+                            "kind": 10,
+                            "flags": 64,
+                            "start": 28,
+                            "end": 31
+                        },
                         "contents": {
                             "kind": 134299649,
                             "text": "ok",

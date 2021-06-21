@@ -27,11 +27,11 @@ async x => {} async x => {}
             "kind": 120,
             "expression": {
                 "kind": 271,
-                "arrowToken": {
-                    "kind": 10,
+                "asyncKeyword": {
+                    "kind": 82031,
                     "flags": 64,
-                    "start": 7,
-                    "end": 10
+                    "start": 0,
+                    "end": 5
                 },
                 "typeParameters": null,
                 "parameters": {
@@ -42,13 +42,13 @@ async x => {} async x => {}
                     "start": 5,
                     "end": 7
                 },
-                "asyncKeyword": {
-                    "kind": 82031,
-                    "flags": 64,
-                    "start": 0,
-                    "end": 5
-                },
                 "returnType": null,
+                "arrowToken": {
+                    "kind": 10,
+                    "flags": 64,
+                    "start": 7,
+                    "end": 10
+                },
                 "contents": {
                     "kind": 216,
                     "functionStatementList": {
@@ -75,11 +75,11 @@ async x => {} async x => {}
             "kind": 120,
             "expression": {
                 "kind": 271,
-                "arrowToken": {
-                    "kind": 10,
+                "asyncKeyword": {
+                    "kind": 82031,
                     "flags": 64,
-                    "start": 21,
-                    "end": 24
+                    "start": 13,
+                    "end": 19
                 },
                 "typeParameters": null,
                 "parameters": {
@@ -90,13 +90,13 @@ async x => {} async x => {}
                     "start": 19,
                     "end": 21
                 },
-                "asyncKeyword": {
-                    "kind": 82031,
-                    "flags": 64,
-                    "start": 13,
-                    "end": 19
-                },
                 "returnType": null,
+                "arrowToken": {
+                    "kind": 10,
+                    "flags": 64,
+                    "start": 21,
+                    "end": 24
+                },
                 "contents": {
                     "kind": 216,
                     "functionStatementList": {

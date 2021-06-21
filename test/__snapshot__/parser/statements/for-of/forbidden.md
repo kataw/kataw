@@ -62,21 +62,21 @@ async () => {
         },
         {
             "kind": 271,
-            "arrowToken": {
-                "kind": 10,
-                "flags": 64,
-                "start": 27,
-                "end": 30
-            },
-            "typeParameters": null,
-            "parameters": [],
             "asyncKeyword": {
                 "kind": 82031,
                 "flags": 64,
                 "start": 17,
                 "end": 24
             },
+            "typeParameters": null,
+            "parameters": [],
             "returnType": null,
+            "arrowToken": {
+                "kind": 10,
+                "flags": 64,
+                "start": 27,
+                "end": 30
+            },
             "contents": {
                 "kind": 216,
                 "functionStatementList": {

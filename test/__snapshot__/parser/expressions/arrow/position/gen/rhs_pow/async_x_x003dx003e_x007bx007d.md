@@ -43,11 +43,11 @@ x ** async x => {}
                 },
                 "right": {
                     "kind": 271,
-                    "arrowToken": {
-                        "kind": 10,
+                    "asyncKeyword": {
+                        "kind": 82031,
                         "flags": 64,
-                        "start": 12,
-                        "end": 15
+                        "start": 4,
+                        "end": 10
                     },
                     "typeParameters": null,
                     "parameters": {
@@ -58,13 +58,13 @@ x ** async x => {}
                         "start": 10,
                         "end": 12
                     },
-                    "asyncKeyword": {
-                        "kind": 82031,
-                        "flags": 64,
-                        "start": 4,
-                        "end": 10
-                    },
                     "returnType": null,
+                    "arrowToken": {
+                        "kind": 10,
+                        "flags": 64,
+                        "start": 12,
+                        "end": 15
+                    },
                     "contents": {
                         "kind": 216,
                         "functionStatementList": {

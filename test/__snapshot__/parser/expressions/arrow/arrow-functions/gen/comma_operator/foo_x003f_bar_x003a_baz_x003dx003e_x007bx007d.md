@@ -68,12 +68,7 @@ bar, foo ? bar : baz => {}
                         },
                         "alternate": {
                             "kind": 271,
-                            "arrowToken": {
-                                "kind": 10,
-                                "flags": 64,
-                                "start": 20,
-                                "end": 23
-                            },
+                            "asyncKeyword": null,
                             "typeParameters": null,
                             "parameters": {
                                 "kind": 134299649,
@@ -83,8 +78,13 @@ bar, foo ? bar : baz => {}
                                 "start": 16,
                                 "end": 20
                             },
-                            "asyncKeyword": null,
                             "returnType": null,
+                            "arrowToken": {
+                                "kind": 10,
+                                "flags": 64,
+                                "start": 20,
+                                "end": 23
+                            },
                             "contents": {
                                 "kind": 216,
                                 "functionStatementList": {

@@ -43,12 +43,7 @@ x = eval => { 'use strict'; 0 } ;
                 },
                 "right": {
                     "kind": 271,
-                    "arrowToken": {
-                        "kind": 10,
-                        "flags": 64,
-                        "start": 8,
-                        "end": 11
-                    },
+                    "asyncKeyword": null,
                     "typeParameters": null,
                     "parameters": {
                         "kind": 134299649,
@@ -58,8 +53,13 @@ x = eval => { 'use strict'; 0 } ;
                         "start": 3,
                         "end": 8
                     },
-                    "asyncKeyword": null,
                     "returnType": null,
+                    "arrowToken": {
+                        "kind": 10,
+                        "flags": 64,
+                        "start": 8,
+                        "end": 11
+                    },
                     "contents": {
                         "kind": 216,
                         "functionStatementList": {

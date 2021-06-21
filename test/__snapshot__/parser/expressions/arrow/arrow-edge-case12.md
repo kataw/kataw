@@ -59,22 +59,12 @@ a ? b ? (c => d) : e => f : g;
                     },
                     "consequent": {
                         "kind": 271,
-                        "arrowToken": {
-                            "kind": 10,
-                            "flags": 64,
-                            "start": 20,
-                            "end": 23
-                        },
+                        "asyncKeyword": null,
                         "typeParameters": null,
                         "parameters": [
                             {
                                 "kind": 271,
-                                "arrowToken": {
-                                    "kind": 10,
-                                    "flags": 64,
-                                    "start": 10,
-                                    "end": 13
-                                },
+                                "asyncKeyword": null,
                                 "typeParameters": null,
                                 "parameters": {
                                     "kind": 134299649,
@@ -84,8 +74,13 @@ a ? b ? (c => d) : e => f : g;
                                     "start": 9,
                                     "end": 10
                                 },
-                                "asyncKeyword": null,
                                 "returnType": null,
+                                "arrowToken": {
+                                    "kind": 10,
+                                    "flags": 64,
+                                    "start": 10,
+                                    "end": 13
+                                },
                                 "contents": {
                                     "kind": 134299649,
                                     "text": "d",
@@ -99,7 +94,6 @@ a ? b ? (c => d) : e => f : g;
                                 "end": 15
                             }
                         ],
-                        "asyncKeyword": null,
                         "returnType": {
                             "kind": 139,
                             "bitwiseOrToken": null,
@@ -122,6 +116,12 @@ a ? b ? (c => d) : e => f : g;
                             "flags": 2097152,
                             "start": 18,
                             "end": 20
+                        },
+                        "arrowToken": {
+                            "kind": 10,
+                            "flags": 64,
+                            "start": 20,
+                            "end": 23
                         },
                         "contents": {
                             "kind": 134299649,

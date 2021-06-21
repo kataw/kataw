@@ -45,16 +45,16 @@
                                     },
                                     "right": {
                                         "kind": 271,
+                                        "asyncKeyword": null,
+                                        "typeParameters": null,
+                                        "parameters": [],
+                                        "returnType": null,
                                         "arrowToken": {
                                             "kind": 10,
                                             "flags": 64,
                                             "start": 7,
                                             "end": 9
                                         },
-                                        "typeParameters": null,
-                                        "parameters": [],
-                                        "asyncKeyword": null,
-                                        "returnType": null,
                                         "contents": {
                                             "kind": 138477575,
                                             "flags": 96,

@@ -36,12 +36,7 @@ f(((a) => a + b)(1, 4), 5);
                                 "kind": 121,
                                 "expression": {
                                     "kind": 271,
-                                    "arrowToken": {
-                                        "kind": 10,
-                                        "flags": 64,
-                                        "start": 6,
-                                        "end": 9
-                                    },
+                                    "asyncKeyword": null,
                                     "typeParameters": null,
                                     "parameters": [
                                         {
@@ -53,8 +48,13 @@ f(((a) => a + b)(1, 4), 5);
                                             "end": 5
                                         }
                                     ],
-                                    "asyncKeyword": null,
                                     "returnType": null,
+                                    "arrowToken": {
+                                        "kind": 10,
+                                        "flags": 64,
+                                        "start": 6,
+                                        "end": 9
+                                    },
                                     "contents": {
                                         "kind": 198,
                                         "left": {

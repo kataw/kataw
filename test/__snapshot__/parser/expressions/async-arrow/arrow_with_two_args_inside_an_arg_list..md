@@ -34,11 +34,11 @@ f((async (a, b) => a + b));
                             "kind": 121,
                             "expression": {
                                 "kind": 271,
-                                "arrowToken": {
-                                    "kind": 10,
+                                "asyncKeyword": {
+                                    "kind": 82031,
                                     "flags": 64,
-                                    "start": 15,
-                                    "end": 18
+                                    "start": 3,
+                                    "end": 8
                                 },
                                 "typeParameters": null,
                                 "parameters": [
@@ -59,13 +59,13 @@ f((async (a, b) => a + b));
                                         "end": 14
                                     }
                                 ],
-                                "asyncKeyword": {
-                                    "kind": 82031,
-                                    "flags": 64,
-                                    "start": 3,
-                                    "end": 8
-                                },
                                 "returnType": null,
+                                "arrowToken": {
+                                    "kind": 10,
+                                    "flags": 64,
+                                    "start": 15,
+                                    "end": 18
+                                },
                                 "contents": {
                                     "kind": 198,
                                     "left": {

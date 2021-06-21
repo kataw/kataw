@@ -47,12 +47,7 @@ const identity = <T>(t: T): T => t;
                         "type": null,
                         "initializer": {
                             "kind": 271,
-                            "arrowToken": {
-                                "kind": 10,
-                                "flags": 64,
-                                "start": 29,
-                                "end": 32
-                            },
+                            "asyncKeyword": null,
                             "typeParameters": {
                                 "kind": 307,
                                 "declarations": {
@@ -126,7 +121,6 @@ const identity = <T>(t: T): T => t;
                                     "end": 25
                                 }
                             ],
-                            "asyncKeyword": null,
                             "returnType": {
                                 "kind": 139,
                                 "bitwiseOrToken": null,
@@ -149,6 +143,12 @@ const identity = <T>(t: T): T => t;
                                 "flags": 2097152,
                                 "start": 27,
                                 "end": 29
+                            },
+                            "arrowToken": {
+                                "kind": 10,
+                                "flags": 64,
+                                "start": 29,
+                                "end": 32
                             },
                             "contents": {
                                 "kind": 134299649,

@@ -25,20 +25,14 @@ async (): void => {}
     "statements": [
         {
             "kind": 271,
-            "arrowToken": {
-                "kind": 10,
-                "flags": 64,
-                "start": 14,
-                "end": 17
-            },
-            "typeParameters": null,
-            "parameters": [],
             "asyncKeyword": {
                 "kind": 82031,
                 "flags": 64,
                 "start": 0,
                 "end": 5
             },
+            "typeParameters": null,
+            "parameters": [],
             "returnType": {
                 "kind": 139,
                 "bitwiseOrToken": null,
@@ -52,6 +46,12 @@ async (): void => {}
                 "flags": 2097152,
                 "start": 9,
                 "end": 14
+            },
+            "arrowToken": {
+                "kind": 10,
+                "flags": 64,
+                "start": 14,
+                "end": 17
             },
             "contents": {
                 "kind": 216,

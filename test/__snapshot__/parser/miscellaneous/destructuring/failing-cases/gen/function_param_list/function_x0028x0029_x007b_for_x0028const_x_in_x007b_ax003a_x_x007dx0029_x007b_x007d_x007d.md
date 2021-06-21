@@ -107,7 +107,12 @@ function x(function () { for (const x in { a: x }) { } }) {}
                             },
                             "initializer": {
                                 "kind": 162,
-                                "lexicalKeyword": null,
+                                "lexicalKeyword": {
+                                    "kind": 37757004,
+                                    "flags": 64,
+                                    "start": 30,
+                                    "end": 35
+                                },
                                 "binding": {
                                     "kind": 151,
                                     "bindingList": [

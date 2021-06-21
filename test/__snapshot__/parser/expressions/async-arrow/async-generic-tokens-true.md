@@ -27,11 +27,11 @@ async <T>(a: T): T => a;
             "kind": 120,
             "expression": {
                 "kind": 271,
-                "arrowToken": {
-                    "kind": 10,
+                "asyncKeyword": {
+                    "kind": 82031,
                     "flags": 64,
-                    "start": 18,
-                    "end": 21
+                    "start": 0,
+                    "end": 5
                 },
                 "typeParameters": {
                     "kind": 307,
@@ -106,12 +106,6 @@ async <T>(a: T): T => a;
                         "end": 14
                     }
                 ],
-                "asyncKeyword": {
-                    "kind": 82031,
-                    "flags": 64,
-                    "start": 0,
-                    "end": 5
-                },
                 "returnType": {
                     "kind": 139,
                     "bitwiseOrToken": null,
@@ -134,6 +128,12 @@ async <T>(a: T): T => a;
                     "flags": 2097152,
                     "start": 16,
                     "end": 18
+                },
+                "arrowToken": {
+                    "kind": 10,
+                    "flags": 64,
+                    "start": 18,
+                    "end": 21
                 },
                 "contents": {
                     "kind": 134299649,

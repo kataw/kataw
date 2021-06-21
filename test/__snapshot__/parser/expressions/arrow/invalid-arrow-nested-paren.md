@@ -22,12 +22,7 @@
             "kind": 120,
             "expression": {
                 "kind": 271,
-                "arrowToken": {
-                    "kind": 10,
-                    "flags": 64,
-                    "start": 13,
-                    "end": 16
-                },
+                "asyncKeyword": null,
                 "typeParameters": null,
                 "parameters": [
                     {
@@ -88,8 +83,13 @@
                         "end": 12
                     }
                 ],
-                "asyncKeyword": null,
                 "returnType": null,
+                "arrowToken": {
+                    "kind": 10,
+                    "flags": 64,
+                    "start": 13,
+                    "end": 16
+                },
                 "contents": {
                     "kind": 134299649,
                     "text": "x",
@@ -110,12 +110,7 @@
             "kind": 120,
             "expression": {
                 "kind": 271,
-                "arrowToken": {
-                    "kind": 10,
-                    "flags": 64,
-                    "start": 37,
-                    "end": 40
-                },
+                "asyncKeyword": null,
                 "typeParameters": null,
                 "parameters": [
                     {
@@ -177,8 +172,13 @@
                         "end": 36
                     }
                 ],
-                "asyncKeyword": null,
                 "returnType": null,
+                "arrowToken": {
+                    "kind": 10,
+                    "flags": 64,
+                    "start": 37,
+                    "end": 40
+                },
                 "contents": {
                     "kind": 134299649,
                     "text": "baz",

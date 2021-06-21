@@ -557,7 +557,12 @@ for ({a: b.c}-- of d) e;
             },
             "initializer": {
                 "kind": 162,
-                "lexicalKeyword": null,
+                "lexicalKeyword": {
+                    "kind": 37757004,
+                    "flags": 64,
+                    "start": 116,
+                    "end": 121
+                },
                 "binding": {
                     "kind": 151,
                     "bindingList": [
@@ -866,7 +871,12 @@ for ({a: b.c}-- of d) e;
             "awaitKeyword": null,
             "initializer": {
                 "kind": 162,
-                "lexicalKeyword": null,
+                "lexicalKeyword": {
+                    "kind": 37757004,
+                    "flags": 64,
+                    "start": 200,
+                    "end": 205
+                },
                 "binding": {
                     "kind": 151,
                     "bindingList": [
@@ -1613,7 +1623,12 @@ for ({a: b.c}-- of d) e;
             "awaitKeyword": null,
             "initializer": {
                 "kind": 162,
-                "lexicalKeyword": null,
+                "lexicalKeyword": {
+                    "kind": 37757004,
+                    "flags": 64,
+                    "start": 403,
+                    "end": 408
+                },
                 "binding": {
                     "kind": 151,
                     "bindingList": [
@@ -4882,7 +4897,12 @@ for ({a: b.c}-- of d) e;
             "awaitKeyword": null,
             "initializer": {
                 "kind": 162,
-                "lexicalKeyword": null,
+                "lexicalKeyword": {
+                    "kind": 37757004,
+                    "flags": 64,
+                    "start": 1278,
+                    "end": 1283
+                },
                 "binding": {
                     "kind": 151,
                     "bindingList": [
@@ -4981,7 +5001,12 @@ for ({a: b.c}-- of d) e;
             "awaitKeyword": null,
             "initializer": {
                 "kind": 162,
-                "lexicalKeyword": null,
+                "lexicalKeyword": {
+                    "kind": 37757004,
+                    "flags": 64,
+                    "start": 1306,
+                    "end": 1311
+                },
                 "binding": {
                     "kind": 151,
                     "bindingList": [
@@ -5105,7 +5130,12 @@ for ({a: b.c}-- of d) e;
             "awaitKeyword": null,
             "initializer": {
                 "kind": 162,
-                "lexicalKeyword": null,
+                "lexicalKeyword": {
+                    "kind": 37757004,
+                    "flags": 64,
+                    "start": 1341,
+                    "end": 1346
+                },
                 "binding": {
                     "kind": 151,
                     "bindingList": [
@@ -5211,7 +5241,12 @@ for ({a: b.c}-- of d) e;
             "awaitKeyword": null,
             "initializer": {
                 "kind": 162,
-                "lexicalKeyword": null,
+                "lexicalKeyword": {
+                    "kind": 37757004,
+                    "flags": 64,
+                    "start": 1373,
+                    "end": 1378
+                },
                 "binding": {
                     "kind": 151,
                     "bindingList": [

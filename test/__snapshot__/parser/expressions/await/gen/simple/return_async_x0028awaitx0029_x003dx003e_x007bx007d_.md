@@ -33,11 +33,11 @@ return async (await) => {};
             },
             "expression": {
                 "kind": 271,
-                "arrowToken": {
-                    "kind": 10,
+                "asyncKeyword": {
+                    "kind": 82031,
                     "flags": 64,
-                    "start": 20,
-                    "end": 23
+                    "start": 6,
+                    "end": 12
                 },
                 "typeParameters": null,
                 "parameters": [
@@ -50,13 +50,13 @@ return async (await) => {};
                         "end": 19
                     }
                 ],
-                "asyncKeyword": {
-                    "kind": 82031,
-                    "flags": 64,
-                    "start": 6,
-                    "end": 12
-                },
                 "returnType": null,
+                "arrowToken": {
+                    "kind": 10,
+                    "flags": 64,
+                    "start": 20,
+                    "end": 23
+                },
                 "contents": {
                     "kind": 216,
                     "functionStatementList": {

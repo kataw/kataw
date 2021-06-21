@@ -40,12 +40,7 @@ var v = a => <any><any>{}
                         "type": null,
                         "initializer": {
                             "kind": 271,
-                            "arrowToken": {
-                                "kind": 10,
-                                "flags": 64,
-                                "start": 9,
-                                "end": 12
-                            },
+                            "asyncKeyword": null,
                             "typeParameters": null,
                             "parameters": {
                                 "kind": 134299649,
@@ -55,8 +50,13 @@ var v = a => <any><any>{}
                                 "start": 7,
                                 "end": 9
                             },
-                            "asyncKeyword": null,
                             "returnType": null,
+                            "arrowToken": {
+                                "kind": 10,
+                                "flags": 64,
+                                "start": 9,
+                                "end": 12
+                            },
                             "contents": {
                                 "kind": 198,
                                 "left": {

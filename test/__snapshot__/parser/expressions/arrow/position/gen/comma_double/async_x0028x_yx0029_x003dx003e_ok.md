@@ -25,11 +25,11 @@ async (x, y) => ok, async (x, y) => ok
     "statements": [
         {
             "kind": 271,
-            "arrowToken": {
-                "kind": 10,
+            "asyncKeyword": {
+                "kind": 82031,
                 "flags": 64,
-                "start": 12,
-                "end": 15
+                "start": 0,
+                "end": 5
             },
             "typeParameters": null,
             "parameters": [
@@ -50,13 +50,13 @@ async (x, y) => ok, async (x, y) => ok
                     "end": 11
                 }
             ],
-            "asyncKeyword": {
-                "kind": 82031,
-                "flags": 64,
-                "start": 0,
-                "end": 5
-            },
             "returnType": null,
+            "arrowToken": {
+                "kind": 10,
+                "flags": 64,
+                "start": 12,
+                "end": 15
+            },
             "contents": {
                 "kind": 134299649,
                 "text": "ok",
@@ -71,11 +71,11 @@ async (x, y) => ok, async (x, y) => ok
         },
         {
             "kind": 271,
-            "arrowToken": {
-                "kind": 10,
+            "asyncKeyword": {
+                "kind": 82031,
                 "flags": 64,
-                "start": 32,
-                "end": 35
+                "start": 19,
+                "end": 25
             },
             "typeParameters": null,
             "parameters": [
@@ -96,13 +96,13 @@ async (x, y) => ok, async (x, y) => ok
                     "end": 31
                 }
             ],
-            "asyncKeyword": {
-                "kind": 82031,
-                "flags": 64,
-                "start": 19,
-                "end": 25
-            },
             "returnType": null,
+            "arrowToken": {
+                "kind": 10,
+                "flags": 64,
+                "start": 32,
+                "end": 35
+            },
             "contents": {
                 "kind": 134299649,
                 "text": "ok",

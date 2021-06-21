@@ -418,12 +418,7 @@ x = {async __proto__(){}, *__proto__(){}};
             "kind": 120,
             "expression": {
                 "kind": 271,
-                "arrowToken": {
-                    "kind": 10,
-                    "flags": 64,
-                    "start": 146,
-                    "end": 149
-                },
+                "asyncKeyword": null,
                 "typeParameters": null,
                 "parameters": [
                     {
@@ -488,8 +483,13 @@ x = {async __proto__(){}, *__proto__(){}};
                         "end": 145
                     }
                 ],
-                "asyncKeyword": null,
                 "returnType": null,
+                "arrowToken": {
+                    "kind": 10,
+                    "flags": 64,
+                    "start": 146,
+                    "end": 149
+                },
                 "contents": {
                     "kind": 216,
                     "functionStatementList": {

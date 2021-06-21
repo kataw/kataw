@@ -365,7 +365,7 @@ type T = <
                         "kind": 120,
                         "expression": {
                             "kind": 271,
-                            "arrowToken": null,
+                            "asyncKeyword": null,
                             "typeParameters": {
                                 "kind": 307,
                                 "declarations": {
@@ -390,7 +390,6 @@ type T = <
                                     "end": 172
                                 }
                             ],
-                            "asyncKeyword": null,
                             "returnType": {
                                 "kind": 139,
                                 "bitwiseOrToken": null,
@@ -405,6 +404,7 @@ type T = <
                                 "start": 174,
                                 "end": 178
                             },
+                            "arrowToken": null,
                             "contents": {
                                 "kind": 16637,
                                 "text": "",
@@ -828,7 +828,7 @@ type T = <
                         "kind": 120,
                         "expression": {
                             "kind": 271,
-                            "arrowToken": null,
+                            "asyncKeyword": null,
                             "typeParameters": {
                                 "kind": 307,
                                 "declarations": {
@@ -870,7 +870,6 @@ type T = <
                                     "end": 411
                                 }
                             ],
-                            "asyncKeyword": null,
                             "returnType": {
                                 "kind": 139,
                                 "bitwiseOrToken": null,
@@ -885,6 +884,7 @@ type T = <
                                 "start": 413,
                                 "end": 417
                             },
+                            "arrowToken": null,
                             "contents": {
                                 "kind": 16637,
                                 "text": "",

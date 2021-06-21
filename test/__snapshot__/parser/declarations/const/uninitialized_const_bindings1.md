@@ -31,7 +31,12 @@ for (const x in xs) {}
             },
             "initializer": {
                 "kind": 162,
-                "lexicalKeyword": null,
+                "lexicalKeyword": {
+                    "kind": 37757004,
+                    "flags": 64,
+                    "start": 5,
+                    "end": 10
+                },
                 "binding": {
                     "kind": 151,
                     "bindingList": [
@@ -105,7 +110,7 @@ for (const x in xs) {}
 
 ```javascript
 
-for (x; in xs)
+for (const x; in xs)
   {}
 ```
 

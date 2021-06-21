@@ -126,12 +126,7 @@ var a: { (x: number): string } = (x) => x.toString()
                         },
                         "initializer": {
                             "kind": 271,
-                            "arrowToken": {
-                                "kind": 10,
-                                "flags": 64,
-                                "start": 36,
-                                "end": 39
-                            },
+                            "asyncKeyword": null,
                             "typeParameters": null,
                             "parameters": [
                                 {
@@ -143,8 +138,13 @@ var a: { (x: number): string } = (x) => x.toString()
                                     "end": 35
                                 }
                             ],
-                            "asyncKeyword": null,
                             "returnType": null,
+                            "arrowToken": {
+                                "kind": 10,
+                                "flags": 64,
+                                "start": 36,
+                                "end": 39
+                            },
                             "contents": {
                                 "kind": 131,
                                 "expression": {

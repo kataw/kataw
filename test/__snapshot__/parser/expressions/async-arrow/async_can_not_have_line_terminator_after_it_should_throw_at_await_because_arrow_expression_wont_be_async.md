@@ -63,12 +63,7 @@ g => await g
             "kind": 120,
             "expression": {
                 "kind": 271,
-                "arrowToken": {
-                    "kind": 10,
-                    "flags": 64,
-                    "start": 15,
-                    "end": 18
-                },
+                "asyncKeyword": null,
                 "typeParameters": null,
                 "parameters": {
                     "kind": 134299649,
@@ -78,8 +73,13 @@ g => await g
                     "start": 13,
                     "end": 15
                 },
-                "asyncKeyword": null,
                 "returnType": null,
+                "arrowToken": {
+                    "kind": 10,
+                    "flags": 64,
+                    "start": 15,
+                    "end": 18
+                },
                 "contents": {
                     "kind": 134299649,
                     "text": "await",

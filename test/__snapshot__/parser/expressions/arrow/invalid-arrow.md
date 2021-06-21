@@ -71,12 +71,7 @@ x = (a)?c:d=>{}=>{}
                     },
                     "alternate": {
                         "kind": 271,
-                        "arrowToken": {
-                            "kind": 10,
-                            "flags": 64,
-                            "start": 11,
-                            "end": 13
-                        },
+                        "asyncKeyword": null,
                         "typeParameters": null,
                         "parameters": {
                             "kind": 134299649,
@@ -86,8 +81,13 @@ x = (a)?c:d=>{}=>{}
                             "start": 10,
                             "end": 11
                         },
-                        "asyncKeyword": null,
                         "returnType": null,
+                        "arrowToken": {
+                            "kind": 10,
+                            "flags": 64,
+                            "start": 11,
+                            "end": 13
+                        },
                         "contents": {
                             "kind": 216,
                             "functionStatementList": {

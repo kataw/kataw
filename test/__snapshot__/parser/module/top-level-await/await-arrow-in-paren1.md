@@ -37,21 +37,21 @@ await (async () => {})()
                         "kind": 121,
                         "expression": {
                             "kind": 271,
-                            "arrowToken": {
-                                "kind": 10,
-                                "flags": 64,
-                                "start": 15,
-                                "end": 18
-                            },
-                            "typeParameters": null,
-                            "parameters": [],
                             "asyncKeyword": {
                                 "kind": 82031,
                                 "flags": 64,
                                 "start": 7,
                                 "end": 12
                             },
+                            "typeParameters": null,
+                            "parameters": [],
                             "returnType": null,
+                            "arrowToken": {
+                                "kind": 10,
+                                "flags": 64,
+                                "start": 15,
+                                "end": 18
+                            },
                             "contents": {
                                 "kind": 216,
                                 "functionStatementList": {

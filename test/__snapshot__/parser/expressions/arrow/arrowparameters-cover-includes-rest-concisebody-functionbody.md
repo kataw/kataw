@@ -40,12 +40,7 @@ var af = (x, ...y) => { return [x, y.length]; };
                         "type": null,
                         "initializer": {
                             "kind": 271,
-                            "arrowToken": {
-                                "kind": 10,
-                                "flags": 64,
-                                "start": 18,
-                                "end": 21
-                            },
+                            "asyncKeyword": null,
                             "typeParameters": null,
                             "parameters": [
                                 {
@@ -80,8 +75,13 @@ var af = (x, ...y) => { return [x, y.length]; };
                                     "end": 17
                                 }
                             ],
-                            "asyncKeyword": null,
                             "returnType": null,
+                            "arrowToken": {
+                                "kind": 10,
+                                "flags": 64,
+                                "start": 18,
+                                "end": 21
+                            },
                             "contents": {
                                 "kind": 216,
                                 "functionStatementList": {

@@ -34,12 +34,7 @@ foo(y,(y) => ok);
                     "elements": [
                         {
                             "kind": 271,
-                            "arrowToken": {
-                                "kind": 10,
-                                "flags": 64,
-                                "start": 10,
-                                "end": 13
-                            },
+                            "asyncKeyword": null,
                             "typeParameters": null,
                             "parameters": [
                                 {
@@ -59,8 +54,13 @@ foo(y,(y) => ok);
                                     "end": 9
                                 }
                             ],
-                            "asyncKeyword": null,
                             "returnType": null,
+                            "arrowToken": {
+                                "kind": 10,
+                                "flags": 64,
+                                "start": 10,
+                                "end": 13
+                            },
                             "contents": {
                                 "kind": 216,
                                 "functionStatementList": {
@@ -118,12 +118,7 @@ foo(y,(y) => ok);
                         },
                         {
                             "kind": 271,
-                            "arrowToken": {
-                                "kind": 10,
-                                "flags": 64,
-                                "start": 28,
-                                "end": 31
-                            },
+                            "asyncKeyword": null,
                             "typeParameters": null,
                             "parameters": [
                                 {
@@ -135,8 +130,13 @@ foo(y,(y) => ok);
                                     "end": 27
                                 }
                             ],
-                            "asyncKeyword": null,
                             "returnType": null,
+                            "arrowToken": {
+                                "kind": 10,
+                                "flags": 64,
+                                "start": 28,
+                                "end": 31
+                            },
                             "contents": {
                                 "kind": 216,
                                 "functionStatementList": {
@@ -194,12 +194,7 @@ foo(y,(y) => ok);
                         },
                         {
                             "kind": 271,
-                            "arrowToken": {
-                                "kind": 10,
-                                "flags": 64,
-                                "start": 46,
-                                "end": 49
-                            },
+                            "asyncKeyword": null,
                             "typeParameters": null,
                             "parameters": [
                                 {
@@ -211,8 +206,13 @@ foo(y,(y) => ok);
                                     "end": 45
                                 }
                             ],
-                            "asyncKeyword": null,
                             "returnType": null,
+                            "arrowToken": {
+                                "kind": 10,
+                                "flags": 64,
+                                "start": 46,
+                                "end": 49
+                            },
                             "contents": {
                                 "kind": 134299649,
                                 "text": "ok",

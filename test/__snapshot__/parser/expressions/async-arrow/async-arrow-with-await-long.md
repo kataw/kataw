@@ -46,11 +46,11 @@ var x = async (a, b, c, d, e, f, g) => await a + await b + c + d + e + f + g;
                         "type": null,
                         "initializer": {
                             "kind": 271,
-                            "arrowToken": {
-                                "kind": 10,
+                            "asyncKeyword": {
+                                "kind": 82031,
                                 "flags": 64,
-                                "start": 35,
-                                "end": 38
+                                "start": 7,
+                                "end": 13
                             },
                             "typeParameters": null,
                             "parameters": [
@@ -111,13 +111,13 @@ var x = async (a, b, c, d, e, f, g) => await a + await b + c + d + e + f + g;
                                     "end": 34
                                 }
                             ],
-                            "asyncKeyword": {
-                                "kind": 82031,
-                                "flags": 64,
-                                "start": 7,
-                                "end": 13
-                            },
                             "returnType": null,
+                            "arrowToken": {
+                                "kind": 10,
+                                "flags": 64,
+                                "start": 35,
+                                "end": 38
+                            },
                             "contents": {
                                 "kind": 198,
                                 "left": {

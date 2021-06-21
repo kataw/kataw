@@ -61,12 +61,7 @@ function f(a = x => ok) {}
                         "type": null,
                         "right": {
                             "kind": 271,
-                            "arrowToken": {
-                                "kind": 10,
-                                "flags": 64,
-                                "start": 16,
-                                "end": 19
-                            },
+                            "asyncKeyword": null,
                             "typeParameters": null,
                             "parameters": {
                                 "kind": 134299649,
@@ -76,8 +71,13 @@ function f(a = x => ok) {}
                                 "start": 14,
                                 "end": 16
                             },
-                            "asyncKeyword": null,
                             "returnType": null,
+                            "arrowToken": {
+                                "kind": 10,
+                                "flags": 64,
+                                "start": 16,
+                                "end": 19
+                            },
                             "contents": {
                                 "kind": 134299649,
                                 "text": "ok",

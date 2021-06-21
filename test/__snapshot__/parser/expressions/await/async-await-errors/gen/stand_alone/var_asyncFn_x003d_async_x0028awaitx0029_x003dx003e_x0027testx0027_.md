@@ -48,11 +48,11 @@ var asyncFn = async (await) => 'test';
                         "type": null,
                         "initializer": {
                             "kind": 271,
-                            "arrowToken": {
-                                "kind": 10,
+                            "asyncKeyword": {
+                                "kind": 82031,
                                 "flags": 64,
-                                "start": 27,
-                                "end": 30
+                                "start": 13,
+                                "end": 19
                             },
                             "typeParameters": null,
                             "parameters": [
@@ -65,13 +65,13 @@ var asyncFn = async (await) => 'test';
                                     "end": 26
                                 }
                             ],
-                            "asyncKeyword": {
-                                "kind": 82031,
-                                "flags": 64,
-                                "start": 13,
-                                "end": 19
-                            },
                             "returnType": null,
+                            "arrowToken": {
+                                "kind": 10,
+                                "flags": 64,
+                                "start": 27,
+                                "end": 30
+                            },
                             "contents": {
                                 "kind": 201392131,
                                 "text": "test",

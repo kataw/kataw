@@ -3462,12 +3462,7 @@
             "kind": 120,
             "expression": {
                 "kind": 271,
-                "arrowToken": {
-                    "kind": 10,
-                    "flags": 64,
-                    "start": 614,
-                    "end": 617
-                },
+                "asyncKeyword": null,
                 "typeParameters": null,
                 "parameters": [
                     {
@@ -3524,8 +3519,13 @@
                         "end": 613
                     }
                 ],
-                "asyncKeyword": null,
                 "returnType": null,
+                "arrowToken": {
+                    "kind": 10,
+                    "flags": 64,
+                    "start": 614,
+                    "end": 617
+                },
                 "contents": {
                     "kind": 134299649,
                     "text": "x",
@@ -3601,12 +3601,7 @@
             "kind": 120,
             "expression": {
                 "kind": 271,
-                "arrowToken": {
-                    "kind": 10,
-                    "flags": 64,
-                    "start": 650,
-                    "end": 653
-                },
+                "asyncKeyword": null,
                 "typeParameters": null,
                 "parameters": [
                     {
@@ -3696,8 +3691,13 @@
                         "end": 649
                     }
                 ],
-                "asyncKeyword": null,
                 "returnType": null,
+                "arrowToken": {
+                    "kind": 10,
+                    "flags": 64,
+                    "start": 650,
+                    "end": 653
+                },
                 "contents": {
                     "kind": 134299649,
                     "text": "z",
@@ -3718,12 +3718,7 @@
             "kind": 120,
             "expression": {
                 "kind": 271,
-                "arrowToken": {
-                    "kind": 10,
-                    "flags": 64,
-                    "start": 671,
-                    "end": 674
-                },
+                "asyncKeyword": null,
                 "typeParameters": null,
                 "parameters": [
                     {
@@ -3793,8 +3788,13 @@
                         "end": 670
                     }
                 ],
-                "asyncKeyword": null,
                 "returnType": null,
+                "arrowToken": {
+                    "kind": 10,
+                    "flags": 64,
+                    "start": 671,
+                    "end": 674
+                },
                 "contents": {
                     "kind": 134299649,
                     "text": "z",

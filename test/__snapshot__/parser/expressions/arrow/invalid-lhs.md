@@ -166,12 +166,7 @@ x = (a,b)+c=>{};
                 },
                 "alternate": {
                     "kind": 271,
-                    "arrowToken": {
-                        "kind": 10,
-                        "flags": 64,
-                        "start": 40,
-                        "end": 42
-                    },
+                    "asyncKeyword": null,
                     "typeParameters": null,
                     "parameters": {
                         "kind": 134299649,
@@ -181,8 +176,13 @@ x = (a,b)+c=>{};
                         "start": 39,
                         "end": 40
                     },
-                    "asyncKeyword": null,
                     "returnType": null,
+                    "arrowToken": {
+                        "kind": 10,
+                        "flags": 64,
+                        "start": 40,
+                        "end": 42
+                    },
                     "contents": {
                         "kind": 216,
                         "functionStatementList": {
@@ -747,12 +747,7 @@ x = (a,b)+c=>{};
                 },
                 "alternate": {
                     "kind": 271,
-                    "arrowToken": {
-                        "kind": 10,
-                        "flags": 64,
-                        "start": 215,
-                        "end": 217
-                    },
+                    "asyncKeyword": null,
                     "typeParameters": null,
                     "parameters": {
                         "kind": 134299649,
@@ -762,8 +757,13 @@ x = (a,b)+c=>{};
                         "start": 214,
                         "end": 215
                     },
-                    "asyncKeyword": null,
                     "returnType": null,
+                    "arrowToken": {
+                        "kind": 10,
+                        "flags": 64,
+                        "start": 215,
+                        "end": 217
+                    },
                     "contents": {
                         "kind": 216,
                         "functionStatementList": {
@@ -995,12 +995,7 @@ x = (a,b)+c=>{};
                     },
                     "right": {
                         "kind": 271,
-                        "arrowToken": {
-                            "kind": 10,
-                            "flags": 64,
-                            "start": 265,
-                            "end": 267
-                        },
+                        "asyncKeyword": null,
                         "typeParameters": null,
                         "parameters": {
                             "kind": 134299649,
@@ -1010,8 +1005,13 @@ x = (a,b)+c=>{};
                             "start": 264,
                             "end": 265
                         },
-                        "asyncKeyword": null,
                         "returnType": null,
+                        "arrowToken": {
+                            "kind": 10,
+                            "flags": 64,
+                            "start": 265,
+                            "end": 267
+                        },
                         "contents": {
                             "kind": 216,
                             "functionStatementList": {

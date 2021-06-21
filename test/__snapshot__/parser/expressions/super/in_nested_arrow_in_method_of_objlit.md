@@ -80,16 +80,16 @@ x={ foo(){ return () => function() { super.foo; } }}
                                                     },
                                                     "expression": {
                                                         "kind": 271,
+                                                        "asyncKeyword": null,
+                                                        "typeParameters": null,
+                                                        "parameters": [],
+                                                        "returnType": null,
                                                         "arrowToken": {
                                                             "kind": 10,
                                                             "flags": 64,
                                                             "start": 20,
                                                             "end": 23
                                                         },
-                                                        "typeParameters": null,
-                                                        "parameters": [],
-                                                        "asyncKeyword": null,
-                                                        "returnType": null,
                                                         "contents": {
                                                             "kind": 177,
                                                             "asyncKeyword": null,

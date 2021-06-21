@@ -17,11 +17,11 @@ async (x, ...a)=>0;
     "statements": [
         {
             "kind": 271,
-            "arrowToken": {
-                "kind": 10,
+            "asyncKeyword": {
+                "kind": 82031,
                 "flags": 64,
-                "start": 15,
-                "end": 17
+                "start": 0,
+                "end": 5
             },
             "typeParameters": null,
             "parameters": [
@@ -49,13 +49,13 @@ async (x, ...a)=>0;
                     "end": 14
                 }
             ],
-            "asyncKeyword": {
-                "kind": 82031,
-                "flags": 64,
-                "start": 0,
-                "end": 5
-            },
             "returnType": null,
+            "arrowToken": {
+                "kind": 10,
+                "flags": 64,
+                "start": 15,
+                "end": 17
+            },
             "contents": {
                 "kind": 201392130,
                 "text": 0,

@@ -66,12 +66,7 @@ async function foo(a = (eval) => { "use strict"; funeval("x"); }) {}
                         "type": null,
                         "right": {
                             "kind": 271,
-                            "arrowToken": {
-                                "kind": 10,
-                                "flags": 64,
-                                "start": 29,
-                                "end": 32
-                            },
+                            "asyncKeyword": null,
                             "typeParameters": null,
                             "parameters": [
                                 {
@@ -83,8 +78,13 @@ async function foo(a = (eval) => { "use strict"; funeval("x"); }) {}
                                     "end": 28
                                 }
                             ],
-                            "asyncKeyword": null,
                             "returnType": null,
+                            "arrowToken": {
+                                "kind": 10,
+                                "flags": 64,
+                                "start": 29,
+                                "end": 32
+                            },
                             "contents": {
                                 "kind": 216,
                                 "functionStatementList": {

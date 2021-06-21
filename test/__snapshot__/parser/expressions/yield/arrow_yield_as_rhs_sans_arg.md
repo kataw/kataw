@@ -56,11 +56,11 @@ function *g() { async (x = x + yield) => x; }
                     "statements": [
                         {
                             "kind": 271,
-                            "arrowToken": {
-                                "kind": 10,
+                            "asyncKeyword": {
+                                "kind": 82031,
                                 "flags": 64,
-                                "start": 37,
-                                "end": 40
+                                "start": 15,
+                                "end": 21
                             },
                             "typeParameters": null,
                             "parameters": [
@@ -117,13 +117,13 @@ function *g() { async (x = x + yield) => x; }
                                     "end": 36
                                 }
                             ],
-                            "asyncKeyword": {
-                                "kind": 82031,
-                                "flags": 64,
-                                "start": 15,
-                                "end": 21
-                            },
                             "returnType": null,
+                            "arrowToken": {
+                                "kind": 10,
+                                "flags": 64,
+                                "start": 37,
+                                "end": 40
+                            },
                             "contents": {
                                 "kind": 134299649,
                                 "text": "x",

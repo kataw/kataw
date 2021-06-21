@@ -39,7 +39,12 @@ for await (const item of arr) {
             },
             "initializer": {
                 "kind": 162,
-                "lexicalKeyword": null,
+                "lexicalKeyword": {
+                    "kind": 37757004,
+                    "flags": 64,
+                    "start": 11,
+                    "end": 16
+                },
                 "binding": {
                     "kind": 151,
                     "bindingList": [
@@ -128,7 +133,7 @@ for await (const item of arr) {
 
 ```javascript
 
-for await (item; of arr)
+for await (const item; of arr)
   {
     item;
   }

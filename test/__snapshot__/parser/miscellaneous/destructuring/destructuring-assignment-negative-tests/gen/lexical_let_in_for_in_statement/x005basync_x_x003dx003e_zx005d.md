@@ -131,11 +131,11 @@
                         "elements": [
                             {
                                 "kind": 271,
-                                "arrowToken": {
-                                    "kind": 10,
+                                "asyncKeyword": {
+                                    "kind": 82031,
                                     "flags": 64,
-                                    "start": 45,
-                                    "end": 48
+                                    "start": 38,
+                                    "end": 43
                                 },
                                 "typeParameters": null,
                                 "parameters": {
@@ -146,13 +146,13 @@
                                     "start": 43,
                                     "end": 45
                                 },
-                                "asyncKeyword": {
-                                    "kind": 82031,
-                                    "flags": 64,
-                                    "start": 38,
-                                    "end": 43
-                                },
                                 "returnType": null,
+                                "arrowToken": {
+                                    "kind": 10,
+                                    "flags": 64,
+                                    "start": 45,
+                                    "end": 48
+                                },
                                 "contents": {
                                     "kind": 134299649,
                                     "text": "z",

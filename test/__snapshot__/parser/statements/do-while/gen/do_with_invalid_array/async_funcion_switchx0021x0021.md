@@ -122,7 +122,12 @@ do while [catch] async funcion switch!!
             "kind": 120,
             "expression": {
                 "kind": 271,
-                "arrowToken": null,
+                "asyncKeyword": {
+                    "kind": 82031,
+                    "flags": 64,
+                    "start": 16,
+                    "end": 22
+                },
                 "typeParameters": null,
                 "parameters": {
                     "kind": 134299649,
@@ -132,13 +137,8 @@ do while [catch] async funcion switch!!
                     "start": 22,
                     "end": 30
                 },
-                "asyncKeyword": {
-                    "kind": 82031,
-                    "flags": 64,
-                    "start": 16,
-                    "end": 22
-                },
                 "returnType": null,
+                "arrowToken": null,
                 "contents": {
                     "kind": 16637,
                     "text": "",

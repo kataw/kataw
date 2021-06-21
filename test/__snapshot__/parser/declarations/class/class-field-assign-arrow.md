@@ -77,16 +77,16 @@ class C { aaa=()=>0 }
                             "type": null,
                             "initializer": {
                                 "kind": 271,
+                                "asyncKeyword": null,
+                                "typeParameters": null,
+                                "parameters": [],
+                                "returnType": null,
                                 "arrowToken": {
                                     "kind": 10,
                                     "flags": 64,
                                     "start": 16,
                                     "end": 18
                                 },
-                                "typeParameters": null,
-                                "parameters": [],
-                                "asyncKeyword": null,
-                                "returnType": null,
                                 "contents": {
                                     "kind": 201392130,
                                     "text": 0,

@@ -20,16 +20,16 @@
             "kind": 120,
             "expression": {
                 "kind": 271,
+                "asyncKeyword": null,
+                "typeParameters": null,
+                "parameters": [],
+                "returnType": null,
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
                     "start": 2,
                     "end": 4
                 },
-                "typeParameters": null,
-                "parameters": [],
-                "asyncKeyword": null,
-                "returnType": null,
                 "contents": {
                     "kind": 216,
                     "functionStatementList": {

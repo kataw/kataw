@@ -104,12 +104,7 @@ var a = b ? (c + e) : d => c+e;
                             },
                             "alternate": {
                                 "kind": 271,
-                                "arrowToken": {
-                                    "kind": 10,
-                                    "flags": 64,
-                                    "start": 23,
-                                    "end": 26
-                                },
+                                "asyncKeyword": null,
                                 "typeParameters": null,
                                 "parameters": {
                                     "kind": 134299649,
@@ -119,8 +114,13 @@ var a = b ? (c + e) : d => c+e;
                                     "start": 21,
                                     "end": 23
                                 },
-                                "asyncKeyword": null,
                                 "returnType": null,
+                                "arrowToken": {
+                                    "kind": 10,
+                                    "flags": 64,
+                                    "start": 23,
+                                    "end": 26
+                                },
                                 "contents": {
                                     "kind": 198,
                                     "left": {

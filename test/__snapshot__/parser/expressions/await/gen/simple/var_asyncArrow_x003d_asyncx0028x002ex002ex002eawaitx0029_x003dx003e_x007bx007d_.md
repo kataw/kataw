@@ -48,11 +48,11 @@ var asyncArrow = async(...await) => {};
                         "type": null,
                         "initializer": {
                             "kind": 271,
-                            "arrowToken": {
-                                "kind": 10,
+                            "asyncKeyword": {
+                                "kind": 82031,
                                 "flags": 64,
-                                "start": 32,
-                                "end": 35
+                                "start": 16,
+                                "end": 22
                             },
                             "typeParameters": null,
                             "parameters": [
@@ -72,13 +72,13 @@ var asyncArrow = async(...await) => {};
                                     "end": 31
                                 }
                             ],
-                            "asyncKeyword": {
-                                "kind": 82031,
-                                "flags": 64,
-                                "start": 16,
-                                "end": 22
-                            },
                             "returnType": null,
+                            "arrowToken": {
+                                "kind": 10,
+                                "flags": 64,
+                                "start": 32,
+                                "end": 35
+                            },
                             "contents": {
                                 "kind": 216,
                                 "functionStatementList": {

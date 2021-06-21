@@ -27,11 +27,11 @@ async async => ok async async => ok
             "kind": 120,
             "expression": {
                 "kind": 271,
-                "arrowToken": {
-                    "kind": 10,
+                "asyncKeyword": {
+                    "kind": 82031,
                     "flags": 64,
-                    "start": 11,
-                    "end": 14
+                    "start": 0,
+                    "end": 5
                 },
                 "typeParameters": null,
                 "parameters": {
@@ -42,13 +42,13 @@ async async => ok async async => ok
                     "start": 5,
                     "end": 11
                 },
-                "asyncKeyword": {
-                    "kind": 82031,
-                    "flags": 64,
-                    "start": 0,
-                    "end": 5
-                },
                 "returnType": null,
+                "arrowToken": {
+                    "kind": 10,
+                    "flags": 64,
+                    "start": 11,
+                    "end": 14
+                },
                 "contents": {
                     "kind": 134299649,
                     "text": "ok",
@@ -69,11 +69,11 @@ async async => ok async async => ok
             "kind": 120,
             "expression": {
                 "kind": 271,
-                "arrowToken": {
-                    "kind": 10,
+                "asyncKeyword": {
+                    "kind": 82031,
                     "flags": 64,
-                    "start": 29,
-                    "end": 32
+                    "start": 17,
+                    "end": 23
                 },
                 "typeParameters": null,
                 "parameters": {
@@ -84,13 +84,13 @@ async async => ok async async => ok
                     "start": 23,
                     "end": 29
                 },
-                "asyncKeyword": {
-                    "kind": 82031,
-                    "flags": 64,
-                    "start": 17,
-                    "end": 23
-                },
                 "returnType": null,
+                "arrowToken": {
+                    "kind": 10,
+                    "flags": 64,
+                    "start": 29,
+                    "end": 32
+                },
                 "contents": {
                     "kind": 134299649,
                     "text": "ok",

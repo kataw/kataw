@@ -56,12 +56,7 @@ a ? async (b => c) : d => e;
                         "elements": [
                             {
                                 "kind": 271,
-                                "arrowToken": {
-                                    "kind": 10,
-                                    "flags": 64,
-                                    "start": 12,
-                                    "end": 15
-                                },
+                                "asyncKeyword": null,
                                 "typeParameters": null,
                                 "parameters": {
                                     "kind": 134299649,
@@ -71,8 +66,13 @@ a ? async (b => c) : d => e;
                                     "start": 11,
                                     "end": 12
                                 },
-                                "asyncKeyword": null,
                                 "returnType": null,
+                                "arrowToken": {
+                                    "kind": 10,
+                                    "flags": 64,
+                                    "start": 12,
+                                    "end": 15
+                                },
                                 "contents": {
                                     "kind": 134299649,
                                     "text": "c",
@@ -103,12 +103,7 @@ a ? async (b => c) : d => e;
                 },
                 "alternate": {
                     "kind": 271,
-                    "arrowToken": {
-                        "kind": 10,
-                        "flags": 64,
-                        "start": 22,
-                        "end": 25
-                    },
+                    "asyncKeyword": null,
                     "typeParameters": null,
                     "parameters": {
                         "kind": 134299649,
@@ -118,8 +113,13 @@ a ? async (b => c) : d => e;
                         "start": 20,
                         "end": 22
                     },
-                    "asyncKeyword": null,
                     "returnType": null,
+                    "arrowToken": {
+                        "kind": 10,
+                        "flags": 64,
+                        "start": 22,
+                        "end": 25
+                    },
                     "contents": {
                         "kind": 134299649,
                         "text": "e",

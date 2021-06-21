@@ -26,21 +26,21 @@ do async
             },
             "statement": {
                 "kind": 271,
-                "arrowToken": {
-                    "kind": 10,
-                    "flags": 64,
-                    "start": 12,
-                    "end": 15
-                },
-                "typeParameters": null,
-                "parameters": [],
                 "asyncKeyword": {
                     "kind": 82031,
                     "flags": 64,
                     "start": 2,
                     "end": 8
                 },
+                "typeParameters": null,
+                "parameters": [],
                 "returnType": null,
+                "arrowToken": {
+                    "kind": 10,
+                    "flags": 64,
+                    "start": 12,
+                    "end": 15
+                },
                 "contents": {
                     "kind": 134299649,
                     "text": "x",

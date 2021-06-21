@@ -66,16 +66,16 @@ async function foo(a = () => { "use strict"; return eval =>("x"); }) {}
                         "type": null,
                         "right": {
                             "kind": 271,
+                            "asyncKeyword": null,
+                            "typeParameters": null,
+                            "parameters": [],
+                            "returnType": null,
                             "arrowToken": {
                                 "kind": 10,
                                 "flags": 64,
                                 "start": 25,
                                 "end": 28
                             },
-                            "typeParameters": null,
-                            "parameters": [],
-                            "asyncKeyword": null,
-                            "returnType": null,
                             "contents": {
                                 "kind": 216,
                                 "functionStatementList": {
@@ -101,12 +101,7 @@ async function foo(a = () => { "use strict"; return eval =>("x"); }) {}
                                             },
                                             "expression": {
                                                 "kind": 271,
-                                                "arrowToken": {
-                                                    "kind": 10,
-                                                    "flags": 64,
-                                                    "start": 56,
-                                                    "end": 59
-                                                },
+                                                "asyncKeyword": null,
                                                 "typeParameters": null,
                                                 "parameters": {
                                                     "kind": 134299649,
@@ -116,8 +111,13 @@ async function foo(a = () => { "use strict"; return eval =>("x"); }) {}
                                                     "start": 51,
                                                     "end": 56
                                                 },
-                                                "asyncKeyword": null,
                                                 "returnType": null,
+                                                "arrowToken": {
+                                                    "kind": 10,
+                                                    "flags": 64,
+                                                    "start": 56,
+                                                    "end": 59
+                                                },
                                                 "contents": {
                                                     "kind": 121,
                                                     "expression": {

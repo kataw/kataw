@@ -96,16 +96,16 @@ let x: (y) => void = () => {}
                         },
                         "initializer": {
                             "kind": 271,
+                            "asyncKeyword": null,
+                            "typeParameters": null,
+                            "parameters": [],
+                            "returnType": null,
                             "arrowToken": {
                                 "kind": 10,
                                 "flags": 64,
                                 "start": 23,
                                 "end": 26
                             },
-                            "typeParameters": null,
-                            "parameters": [],
-                            "asyncKeyword": null,
-                            "returnType": null,
                             "contents": {
                                 "kind": 216,
                                 "functionStatementList": {

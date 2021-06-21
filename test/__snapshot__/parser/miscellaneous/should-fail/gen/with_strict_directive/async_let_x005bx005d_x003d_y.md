@@ -36,7 +36,12 @@
             "kind": 120,
             "expression": {
                 "kind": 271,
-                "arrowToken": null,
+                "asyncKeyword": {
+                    "kind": 82031,
+                    "flags": 64,
+                    "start": 13,
+                    "end": 19
+                },
                 "typeParameters": null,
                 "parameters": {
                     "kind": 134299649,
@@ -46,13 +51,8 @@
                     "start": 19,
                     "end": 23
                 },
-                "asyncKeyword": {
-                    "kind": 82031,
-                    "flags": 64,
-                    "start": 13,
-                    "end": 19
-                },
                 "returnType": null,
+                "arrowToken": null,
                 "contents": {
                     "kind": 125,
                     "left": {

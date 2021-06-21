@@ -21,12 +21,7 @@ async l\u0065t => 42;
             "kind": 120,
             "expression": {
                 "kind": 271,
-                "arrowToken": {
-                    "kind": 10,
-                    "flags": 64,
-                    "start": 8,
-                    "end": 11
-                },
+                "asyncKeyword": null,
                 "typeParameters": null,
                 "parameters": {
                     "kind": 134299649,
@@ -36,8 +31,13 @@ async l\u0065t => 42;
                     "start": 0,
                     "end": 8
                 },
-                "asyncKeyword": null,
                 "returnType": null,
+                "arrowToken": {
+                    "kind": 10,
+                    "flags": 64,
+                    "start": 8,
+                    "end": 11
+                },
                 "contents": {
                     "kind": 201392130,
                     "text": 42,
@@ -58,11 +58,11 @@ async l\u0065t => 42;
             "kind": 120,
             "expression": {
                 "kind": 271,
-                "arrowToken": {
-                    "kind": 10,
-                    "flags": 64,
-                    "start": 31,
-                    "end": 34
+                "asyncKeyword": {
+                    "kind": 82031,
+                    "flags": 65,
+                    "start": 15,
+                    "end": 22
                 },
                 "typeParameters": null,
                 "parameters": {
@@ -73,13 +73,13 @@ async l\u0065t => 42;
                     "start": 22,
                     "end": 31
                 },
-                "asyncKeyword": {
-                    "kind": 82031,
-                    "flags": 65,
-                    "start": 15,
-                    "end": 22
-                },
                 "returnType": null,
+                "arrowToken": {
+                    "kind": 10,
+                    "flags": 64,
+                    "start": 31,
+                    "end": 34
+                },
                 "contents": {
                     "kind": 201392130,
                     "text": 42,

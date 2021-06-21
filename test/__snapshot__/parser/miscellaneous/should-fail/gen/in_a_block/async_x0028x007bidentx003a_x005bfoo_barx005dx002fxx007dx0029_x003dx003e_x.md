@@ -30,11 +30,11 @@
                 "statements": [
                     {
                         "kind": 271,
-                        "arrowToken": {
-                            "kind": 10,
+                        "asyncKeyword": {
+                            "kind": 82031,
                             "flags": 64,
-                            "start": 31,
-                            "end": 34
+                            "start": 1,
+                            "end": 7
                         },
                         "typeParameters": null,
                         "parameters": [
@@ -120,13 +120,13 @@
                                 "end": 30
                             }
                         ],
-                        "asyncKeyword": {
-                            "kind": 82031,
-                            "flags": 64,
-                            "start": 1,
-                            "end": 7
-                        },
                         "returnType": null,
+                        "arrowToken": {
+                            "kind": 10,
+                            "flags": 64,
+                            "start": 31,
+                            "end": 34
+                        },
                         "contents": {
                             "kind": 134299649,
                             "text": "x",

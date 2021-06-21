@@ -44,11 +44,11 @@ x
                 },
                 "right": {
                     "kind": 271,
-                    "arrowToken": {
-                        "kind": 10,
+                    "asyncKeyword": {
+                        "kind": 82031,
                         "flags": 64,
-                        "start": 17,
-                        "end": 20
+                        "start": 4,
+                        "end": 10
                     },
                     "typeParameters": null,
                     "parameters": [
@@ -69,13 +69,13 @@ x
                             "end": 16
                         }
                     ],
-                    "asyncKeyword": {
-                        "kind": 82031,
-                        "flags": 64,
-                        "start": 4,
-                        "end": 10
-                    },
                     "returnType": null,
+                    "arrowToken": {
+                        "kind": 10,
+                        "flags": 64,
+                        "start": 17,
+                        "end": 20
+                    },
                     "contents": {
                         "kind": 134299649,
                         "text": "ok",

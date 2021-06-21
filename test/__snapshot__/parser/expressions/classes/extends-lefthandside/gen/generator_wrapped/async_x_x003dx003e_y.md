@@ -127,12 +127,7 @@ x => y {}
                             "kind": 120,
                             "expression": {
                                 "kind": 271,
-                                "arrowToken": {
-                                    "kind": 10,
-                                    "flags": 64,
-                                    "start": 40,
-                                    "end": 43
-                                },
+                                "asyncKeyword": null,
                                 "typeParameters": null,
                                 "parameters": {
                                     "kind": 134299649,
@@ -142,8 +137,13 @@ x => y {}
                                     "start": 38,
                                     "end": 40
                                 },
-                                "asyncKeyword": null,
                                 "returnType": null,
+                                "arrowToken": {
+                                    "kind": 10,
+                                    "flags": 64,
+                                    "start": 40,
+                                    "end": 43
+                                },
                                 "contents": {
                                     "kind": 134299649,
                                     "text": "y",

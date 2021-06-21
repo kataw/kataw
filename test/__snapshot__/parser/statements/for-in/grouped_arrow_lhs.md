@@ -46,12 +46,7 @@ for (((x)=>{}) in y);
                 "kind": 121,
                 "expression": {
                     "kind": 271,
-                    "arrowToken": {
-                        "kind": 10,
-                        "flags": 64,
-                        "start": 9,
-                        "end": 11
-                    },
+                    "asyncKeyword": null,
                     "typeParameters": null,
                     "parameters": [
                         {
@@ -63,8 +58,13 @@ for (((x)=>{}) in y);
                             "end": 8
                         }
                     ],
-                    "asyncKeyword": null,
                     "returnType": null,
+                    "arrowToken": {
+                        "kind": 10,
+                        "flags": 64,
+                        "start": 9,
+                        "end": 11
+                    },
                     "contents": {
                         "kind": 216,
                         "functionStatementList": {

@@ -35,12 +35,7 @@ delete x => ok
                 },
                 "operand": {
                     "kind": 271,
-                    "arrowToken": {
-                        "kind": 10,
-                        "flags": 64,
-                        "start": 8,
-                        "end": 11
-                    },
+                    "asyncKeyword": null,
                     "typeParameters": null,
                     "parameters": {
                         "kind": 134299649,
@@ -50,8 +45,13 @@ delete x => ok
                         "start": 6,
                         "end": 8
                     },
-                    "asyncKeyword": null,
                     "returnType": null,
+                    "arrowToken": {
+                        "kind": 10,
+                        "flags": 64,
+                        "start": 8,
+                        "end": 11
+                    },
                     "contents": {
                         "kind": 134299649,
                         "text": "ok",

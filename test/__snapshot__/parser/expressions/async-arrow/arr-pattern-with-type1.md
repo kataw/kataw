@@ -31,11 +31,11 @@ async ([{x}: string]) =>  {};
     "statements": [
         {
             "kind": 271,
-            "arrowToken": {
-                "kind": 10,
+            "asyncKeyword": {
+                "kind": 82031,
                 "flags": 64,
-                "start": 19,
-                "end": 22
+                "start": 0,
+                "end": 5
             },
             "typeParameters": null,
             "parameters": [
@@ -86,13 +86,13 @@ async ([{x}: string]) =>  {};
                     "end": 18
                 }
             ],
-            "asyncKeyword": {
-                "kind": 82031,
-                "flags": 64,
-                "start": 0,
-                "end": 5
-            },
             "returnType": null,
+            "arrowToken": {
+                "kind": 10,
+                "flags": 64,
+                "start": 19,
+                "end": 22
+            },
             "contents": {
                 "kind": 216,
                 "functionStatementList": {
@@ -119,11 +119,11 @@ async ([{x}: string]) =>  {};
         },
         {
             "kind": 271,
-            "arrowToken": {
-                "kind": 10,
+            "asyncKeyword": {
+                "kind": 82031,
                 "flags": 64,
-                "start": 50,
-                "end": 53
+                "start": 27,
+                "end": 34
             },
             "typeParameters": null,
             "parameters": [
@@ -189,13 +189,13 @@ async ([{x}: string]) =>  {};
                     "end": 49
                 }
             ],
-            "asyncKeyword": {
-                "kind": 82031,
-                "flags": 64,
-                "start": 27,
-                "end": 34
-            },
             "returnType": null,
+            "arrowToken": {
+                "kind": 10,
+                "flags": 64,
+                "start": 50,
+                "end": 53
+            },
             "contents": {
                 "kind": 216,
                 "functionStatementList": {
@@ -222,11 +222,11 @@ async ([{x}: string]) =>  {};
         },
         {
             "kind": 271,
-            "arrowToken": {
-                "kind": 10,
+            "asyncKeyword": {
+                "kind": 82031,
                 "flags": 64,
-                "start": 89,
-                "end": 92
+                "start": 58,
+                "end": 65
             },
             "typeParameters": null,
             "parameters": [
@@ -315,13 +315,13 @@ async ([{x}: string]) =>  {};
                     "end": 88
                 }
             ],
-            "asyncKeyword": {
-                "kind": 82031,
-                "flags": 64,
-                "start": 58,
-                "end": 65
-            },
             "returnType": null,
+            "arrowToken": {
+                "kind": 10,
+                "flags": 64,
+                "start": 89,
+                "end": 92
+            },
             "contents": {
                 "kind": 216,
                 "functionStatementList": {
@@ -348,11 +348,11 @@ async ([{x}: string]) =>  {};
         },
         {
             "kind": 271,
-            "arrowToken": {
-                "kind": 10,
+            "asyncKeyword": {
+                "kind": 82031,
                 "flags": 64,
-                "start": 120,
-                "end": 123
+                "start": 97,
+                "end": 104
             },
             "typeParameters": null,
             "parameters": [
@@ -418,13 +418,13 @@ async ([{x}: string]) =>  {};
                     "end": 119
                 }
             ],
-            "asyncKeyword": {
-                "kind": 82031,
-                "flags": 64,
-                "start": 97,
-                "end": 104
-            },
             "returnType": null,
+            "arrowToken": {
+                "kind": 10,
+                "flags": 64,
+                "start": 120,
+                "end": 123
+            },
             "contents": {
                 "kind": 216,
                 "functionStatementList": {

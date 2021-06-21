@@ -27,7 +27,12 @@ async f = async function*({a, b, ...{c, ...rest}} = {a: 1, b: 2, c: 3, d: 4, e: 
             "kind": 120,
             "expression": {
                 "kind": 271,
-                "arrowToken": null,
+                "asyncKeyword": {
+                    "kind": 82031,
+                    "flags": 64,
+                    "start": 0,
+                    "end": 5
+                },
                 "typeParameters": null,
                 "parameters": {
                     "kind": 134299649,
@@ -37,13 +42,8 @@ async f = async function*({a, b, ...{c, ...rest}} = {a: 1, b: 2, c: 3, d: 4, e: 
                     "start": 5,
                     "end": 7
                 },
-                "asyncKeyword": {
-                    "kind": 82031,
-                    "flags": 64,
-                    "start": 0,
-                    "end": 5
-                },
                 "returnType": null,
+                "arrowToken": null,
                 "contents": {
                     "kind": 125,
                     "left": {

@@ -27,12 +27,7 @@ declare => x, declare(y);
             "kind": 120,
             "expression": {
                 "kind": 271,
-                "arrowToken": {
-                    "kind": 10,
-                    "flags": 64,
-                    "start": 7,
-                    "end": 10
-                },
+                "asyncKeyword": null,
                 "typeParameters": null,
                 "parameters": {
                     "kind": 134299649,
@@ -42,8 +37,13 @@ declare => x, declare(y);
                     "start": 0,
                     "end": 7
                 },
-                "asyncKeyword": null,
                 "returnType": null,
+                "arrowToken": {
+                    "kind": 10,
+                    "flags": 64,
+                    "start": 7,
+                    "end": 10
+                },
                 "contents": {
                     "kind": 134299649,
                     "text": "x",
@@ -67,12 +67,7 @@ declare => x, declare(y);
                 "expressions": [
                     {
                         "kind": 271,
-                        "arrowToken": {
-                            "kind": 10,
-                            "flags": 64,
-                            "start": 22,
-                            "end": 25
-                        },
+                        "asyncKeyword": null,
                         "typeParameters": null,
                         "parameters": {
                             "kind": 134299649,
@@ -82,8 +77,13 @@ declare => x, declare(y);
                             "start": 13,
                             "end": 22
                         },
-                        "asyncKeyword": null,
                         "returnType": null,
+                        "arrowToken": {
+                            "kind": 10,
+                            "flags": 64,
+                            "start": 22,
+                            "end": 25
+                        },
                         "contents": {
                             "kind": 134299649,
                             "text": "x",
@@ -98,12 +98,7 @@ declare => x, declare(y);
                     },
                     {
                         "kind": 271,
-                        "arrowToken": {
-                            "kind": 10,
-                            "flags": 64,
-                            "start": 36,
-                            "end": 39
-                        },
+                        "asyncKeyword": null,
                         "typeParameters": null,
                         "parameters": {
                             "kind": 134299649,
@@ -113,8 +108,13 @@ declare => x, declare(y);
                             "start": 28,
                             "end": 36
                         },
-                        "asyncKeyword": null,
                         "returnType": null,
+                        "arrowToken": {
+                            "kind": 10,
+                            "flags": 64,
+                            "start": 36,
+                            "end": 39
+                        },
                         "contents": {
                             "kind": 134299649,
                             "text": "x",
@@ -140,12 +140,7 @@ declare => x, declare(y);
             "kind": 120,
             "expression": {
                 "kind": 271,
-                "arrowToken": {
-                    "kind": 10,
-                    "flags": 64,
-                    "start": 50,
-                    "end": 53
-                },
+                "asyncKeyword": null,
                 "typeParameters": null,
                 "parameters": {
                     "kind": 134299649,
@@ -155,8 +150,13 @@ declare => x, declare(y);
                     "start": 42,
                     "end": 50
                 },
-                "asyncKeyword": null,
                 "returnType": null,
+                "arrowToken": {
+                    "kind": 10,
+                    "flags": 64,
+                    "start": 50,
+                    "end": 53
+                },
                 "contents": {
                     "kind": 134299649,
                     "text": "x",
@@ -180,12 +180,7 @@ declare => x, declare(y);
                 "expressions": [
                     {
                         "kind": 271,
-                        "arrowToken": {
-                            "kind": 10,
-                            "flags": 64,
-                            "start": 64,
-                            "end": 67
-                        },
+                        "asyncKeyword": null,
                         "typeParameters": null,
                         "parameters": {
                             "kind": 134299649,
@@ -195,8 +190,13 @@ declare => x, declare(y);
                             "start": 56,
                             "end": 64
                         },
-                        "asyncKeyword": null,
                         "returnType": null,
+                        "arrowToken": {
+                            "kind": 10,
+                            "flags": 64,
+                            "start": 64,
+                            "end": 67
+                        },
                         "contents": {
                             "kind": 134299649,
                             "text": "x",
@@ -211,12 +211,7 @@ declare => x, declare(y);
                     },
                     {
                         "kind": 271,
-                        "arrowToken": {
-                            "kind": 10,
-                            "flags": 64,
-                            "start": 77,
-                            "end": 80
-                        },
+                        "asyncKeyword": null,
                         "typeParameters": null,
                         "parameters": {
                             "kind": 134299649,
@@ -226,8 +221,13 @@ declare => x, declare(y);
                             "start": 70,
                             "end": 77
                         },
-                        "asyncKeyword": null,
                         "returnType": null,
+                        "arrowToken": {
+                            "kind": 10,
+                            "flags": 64,
+                            "start": 77,
+                            "end": 80
+                        },
                         "contents": {
                             "kind": 134299649,
                             "text": "x",
@@ -256,12 +256,7 @@ declare => x, declare(y);
                 "expressions": [
                     {
                         "kind": 271,
-                        "arrowToken": {
-                            "kind": 10,
-                            "flags": 64,
-                            "start": 92,
-                            "end": 95
-                        },
+                        "asyncKeyword": null,
                         "typeParameters": null,
                         "parameters": {
                             "kind": 134299649,
@@ -271,8 +266,13 @@ declare => x, declare(y);
                             "start": 83,
                             "end": 92
                         },
-                        "asyncKeyword": null,
                         "returnType": null,
+                        "arrowToken": {
+                            "kind": 10,
+                            "flags": 64,
+                            "start": 92,
+                            "end": 95
+                        },
                         "contents": {
                             "kind": 134299649,
                             "text": "x",

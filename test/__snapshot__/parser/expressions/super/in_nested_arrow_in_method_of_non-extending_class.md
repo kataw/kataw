@@ -105,28 +105,28 @@ class x extends y { foo(){ return () => () => super.foo; }}
                                                 },
                                                 "expression": {
                                                     "kind": 271,
+                                                    "asyncKeyword": null,
+                                                    "typeParameters": null,
+                                                    "parameters": [],
+                                                    "returnType": null,
                                                     "arrowToken": {
                                                         "kind": 10,
                                                         "flags": 64,
                                                         "start": 36,
                                                         "end": 39
                                                     },
-                                                    "typeParameters": null,
-                                                    "parameters": [],
-                                                    "asyncKeyword": null,
-                                                    "returnType": null,
                                                     "contents": {
                                                         "kind": 271,
+                                                        "asyncKeyword": null,
+                                                        "typeParameters": null,
+                                                        "parameters": [],
+                                                        "returnType": null,
                                                         "arrowToken": {
                                                             "kind": 10,
                                                             "flags": 64,
                                                             "start": 42,
                                                             "end": 45
                                                         },
-                                                        "typeParameters": null,
-                                                        "parameters": [],
-                                                        "asyncKeyword": null,
-                                                        "returnType": null,
                                                         "contents": {
                                                             "kind": 129,
                                                             "member": {

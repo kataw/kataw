@@ -19,12 +19,7 @@
             "kind": 120,
             "expression": {
                 "kind": 271,
-                "arrowToken": {
-                    "kind": 10,
-                    "flags": 64,
-                    "start": 50,
-                    "end": 52
-                },
+                "asyncKeyword": null,
                 "typeParameters": null,
                 "parameters": [
                     {
@@ -380,8 +375,13 @@
                         "end": 49
                     }
                 ],
-                "asyncKeyword": null,
                 "returnType": null,
+                "arrowToken": {
+                    "kind": 10,
+                    "flags": 64,
+                    "start": 50,
+                    "end": 52
+                },
                 "contents": {
                     "kind": 201392130,
                     "text": 0,

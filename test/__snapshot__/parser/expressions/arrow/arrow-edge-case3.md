@@ -63,12 +63,7 @@ a ? (b) : (c) : d => e;
                 },
                 "alternate": {
                     "kind": 271,
-                    "arrowToken": {
-                        "kind": 10,
-                        "flags": 64,
-                        "start": 17,
-                        "end": 20
-                    },
+                    "asyncKeyword": null,
                     "typeParameters": null,
                     "parameters": [
                         {
@@ -80,7 +75,6 @@ a ? (b) : (c) : d => e;
                             "end": 12
                         }
                     ],
-                    "asyncKeyword": null,
                     "returnType": {
                         "kind": 139,
                         "bitwiseOrToken": null,
@@ -103,6 +97,12 @@ a ? (b) : (c) : d => e;
                         "flags": 2097152,
                         "start": 15,
                         "end": 17
+                    },
+                    "arrowToken": {
+                        "kind": 10,
+                        "flags": 64,
+                        "start": 17,
+                        "end": 20
                     },
                     "contents": {
                         "kind": 134299649,

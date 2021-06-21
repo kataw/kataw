@@ -43,12 +43,7 @@ fn = ({text = "default", ...props}) => text + props.children
                 },
                 "right": {
                     "kind": 271,
-                    "arrowToken": {
-                        "kind": 10,
-                        "flags": 64,
-                        "start": 35,
-                        "end": 38
-                    },
+                    "asyncKeyword": null,
                     "typeParameters": null,
                     "parameters": [
                         {
@@ -115,8 +110,13 @@ fn = ({text = "default", ...props}) => text + props.children
                             "end": 34
                         }
                     ],
-                    "asyncKeyword": null,
                     "returnType": null,
+                    "arrowToken": {
+                        "kind": 10,
+                        "flags": 64,
+                        "start": 35,
+                        "end": 38
+                    },
                     "contents": {
                         "kind": 198,
                         "left": {

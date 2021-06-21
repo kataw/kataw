@@ -34,7 +34,12 @@ for (const x of [ 1, 2, 3 ]) { a[i++] = function () { return x; }; }
             "awaitKeyword": null,
             "initializer": {
                 "kind": 162,
-                "lexicalKeyword": null,
+                "lexicalKeyword": {
+                    "kind": 37757004,
+                    "flags": 64,
+                    "start": 5,
+                    "end": 10
+                },
                 "binding": {
                     "kind": 151,
                     "bindingList": [
@@ -252,7 +257,7 @@ for (const x of [ 1, 2, 3 ]) { a[i++] = function () { return x; }; }
 
 ```javascript
 
-for (x; of [1, 2, 3])
+for (const x; of [1, 2, 3])
   {
      = function () {
       return  x;

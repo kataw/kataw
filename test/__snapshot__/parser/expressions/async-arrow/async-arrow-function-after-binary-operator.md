@@ -35,21 +35,21 @@
                 },
                 "right": {
                     "kind": 271,
-                    "arrowToken": {
-                        "kind": 10,
-                        "flags": 64,
-                        "start": 11,
-                        "end": 14
-                    },
-                    "typeParameters": null,
-                    "parameters": [],
                     "asyncKeyword": {
                         "kind": 82031,
                         "flags": 64,
                         "start": 3,
                         "end": 9
                     },
+                    "typeParameters": null,
+                    "parameters": [],
                     "returnType": null,
+                    "arrowToken": {
+                        "kind": 10,
+                        "flags": 64,
+                        "start": 11,
+                        "end": 14
+                    },
                     "contents": {
                         "kind": 201392130,
                         "text": 2,

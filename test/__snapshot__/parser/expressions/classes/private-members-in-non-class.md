@@ -118,16 +118,16 @@ class C { test() {get #a() { }}}
                                 },
                                 "right": {
                                     "kind": 271,
+                                    "asyncKeyword": null,
+                                    "typeParameters": null,
+                                    "parameters": [],
+                                    "returnType": null,
                                     "arrowToken": {
                                         "kind": 10,
                                         "flags": 64,
                                         "start": 30,
                                         "end": 33
                                     },
-                                    "typeParameters": null,
-                                    "parameters": [],
-                                    "asyncKeyword": null,
-                                    "returnType": null,
                                     "contents": {
                                         "kind": 216,
                                         "functionStatementList": {
@@ -227,16 +227,16 @@ class C { test() {get #a() { }}}
             "kind": 120,
             "expression": {
                 "kind": 271,
+                "asyncKeyword": null,
+                "typeParameters": null,
+                "parameters": [],
+                "returnType": null,
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
                     "start": 59,
                     "end": 62
                 },
-                "typeParameters": null,
-                "parameters": [],
-                "asyncKeyword": null,
-                "returnType": null,
                 "contents": {
                     "kind": 216,
                     "functionStatementList": {

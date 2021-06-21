@@ -41,16 +41,16 @@ var af = ()
                         "type": null,
                         "initializer": {
                             "kind": 271,
+                            "asyncKeyword": null,
+                            "typeParameters": null,
+                            "parameters": [],
+                            "returnType": null,
                             "arrowToken": {
                                 "kind": 10,
                                 "flags": 65,
                                 "start": 11,
                                 "end": 14
                             },
-                            "typeParameters": null,
-                            "parameters": [],
-                            "asyncKeyword": null,
-                            "returnType": null,
                             "contents": {
                                 "kind": 216,
                                 "functionStatementList": {

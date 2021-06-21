@@ -63,12 +63,7 @@ a ? <T>(b) : c => (d) : e => f;
                 },
                 "alternate": {
                     "kind": 271,
-                    "arrowToken": {
-                        "kind": 10,
-                        "flags": 64,
-                        "start": 14,
-                        "end": 17
-                    },
+                    "asyncKeyword": null,
                     "typeParameters": null,
                     "parameters": {
                         "kind": 134299649,
@@ -78,16 +73,16 @@ a ? <T>(b) : c => (d) : e => f;
                         "start": 12,
                         "end": 14
                     },
-                    "asyncKeyword": null,
                     "returnType": null,
+                    "arrowToken": {
+                        "kind": 10,
+                        "flags": 64,
+                        "start": 14,
+                        "end": 17
+                    },
                     "contents": {
                         "kind": 271,
-                        "arrowToken": {
-                            "kind": 10,
-                            "flags": 64,
-                            "start": 25,
-                            "end": 28
-                        },
+                        "asyncKeyword": null,
                         "typeParameters": null,
                         "parameters": [
                             {
@@ -99,7 +94,6 @@ a ? <T>(b) : c => (d) : e => f;
                                 "end": 20
                             }
                         ],
-                        "asyncKeyword": null,
                         "returnType": {
                             "kind": 139,
                             "bitwiseOrToken": null,
@@ -122,6 +116,12 @@ a ? <T>(b) : c => (d) : e => f;
                             "flags": 2097152,
                             "start": 23,
                             "end": 25
+                        },
+                        "arrowToken": {
+                            "kind": 10,
+                            "flags": 64,
+                            "start": 25,
+                            "end": 28
                         },
                         "contents": {
                             "kind": 134299649,

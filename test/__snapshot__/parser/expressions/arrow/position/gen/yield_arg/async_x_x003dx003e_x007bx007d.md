@@ -78,11 +78,11 @@ function *f() {
                                 "asteriskToken": null,
                                 "expression": {
                                     "kind": 271,
-                                    "arrowToken": {
-                                        "kind": 10,
+                                    "asyncKeyword": {
+                                        "kind": 82031,
                                         "flags": 64,
-                                        "start": 31,
-                                        "end": 34
+                                        "start": 23,
+                                        "end": 29
                                     },
                                     "typeParameters": null,
                                     "parameters": {
@@ -93,13 +93,13 @@ function *f() {
                                         "start": 29,
                                         "end": 31
                                     },
-                                    "asyncKeyword": {
-                                        "kind": 82031,
-                                        "flags": 64,
-                                        "start": 23,
-                                        "end": 29
-                                    },
                                     "returnType": null,
+                                    "arrowToken": {
+                                        "kind": 10,
+                                        "flags": 64,
+                                        "start": 31,
+                                        "end": 34
+                                    },
                                     "contents": {
                                         "kind": 216,
                                         "functionStatementList": {

@@ -126,12 +126,7 @@ var b: { (x: number): number } = (x) => "hi"
                         },
                         "initializer": {
                             "kind": 271,
-                            "arrowToken": {
-                                "kind": 10,
-                                "flags": 64,
-                                "start": 36,
-                                "end": 39
-                            },
+                            "asyncKeyword": null,
                             "typeParameters": null,
                             "parameters": [
                                 {
@@ -143,8 +138,13 @@ var b: { (x: number): number } = (x) => "hi"
                                     "end": 35
                                 }
                             ],
-                            "asyncKeyword": null,
                             "returnType": null,
+                            "arrowToken": {
+                                "kind": 10,
+                                "flags": 64,
+                                "start": 36,
+                                "end": 39
+                            },
                             "contents": {
                                 "kind": 201392131,
                                 "text": "hi",

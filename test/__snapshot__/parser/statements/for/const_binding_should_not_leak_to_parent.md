@@ -33,7 +33,12 @@ for (const { x, } = { x: 23 }; a < 1; ) {}; for (const { x, } = { x: 23 }; a < 1
             },
             "initializer": {
                 "kind": 162,
-                "lexicalKeyword": null,
+                "lexicalKeyword": {
+                    "kind": 37757004,
+                    "flags": 64,
+                    "start": 5,
+                    "end": 10
+                },
                 "binding": {
                     "kind": 151,
                     "bindingList": [
@@ -176,7 +181,12 @@ for (const { x, } = { x: 23 }; a < 1; ) {}; for (const { x, } = { x: 23 }; a < 1
             },
             "initializer": {
                 "kind": 162,
-                "lexicalKeyword": null,
+                "lexicalKeyword": {
+                    "kind": 37757004,
+                    "flags": 64,
+                    "start": 49,
+                    "end": 54
+                },
                 "binding": {
                     "kind": 151,
                     "bindingList": [
@@ -323,11 +333,11 @@ for (const { x, } = { x: 23 }; a < 1; ) {}; for (const { x, } = { x: 23 }; a < 1
 
 ```javascript
 
-for ({
+for (const {
     x
   } = { x: 23 };; ; a  < 1)
   {}
-for ({
+for (const {
     x
   } = { x: 23 };; ; a  < 1)
   {}

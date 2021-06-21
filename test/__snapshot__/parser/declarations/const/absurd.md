@@ -45,12 +45,7 @@ const absurd = <T>(x: empty): T => {};
                         "type": null,
                         "initializer": {
                             "kind": 271,
-                            "arrowToken": {
-                                "kind": 10,
-                                "flags": 64,
-                                "start": 31,
-                                "end": 34
-                            },
+                            "asyncKeyword": null,
                             "typeParameters": {
                                 "kind": 307,
                                 "declarations": {
@@ -124,7 +119,6 @@ const absurd = <T>(x: empty): T => {};
                                     "end": 27
                                 }
                             ],
-                            "asyncKeyword": null,
                             "returnType": {
                                 "kind": 139,
                                 "bitwiseOrToken": null,
@@ -147,6 +141,12 @@ const absurd = <T>(x: empty): T => {};
                                 "flags": 2097152,
                                 "start": 29,
                                 "end": 31
+                            },
+                            "arrowToken": {
+                                "kind": 10,
+                                "flags": 64,
+                                "start": 31,
+                                "end": 34
                             },
                             "contents": {
                                 "kind": 216,

@@ -35,7 +35,12 @@ do async funcion switch!!
                 "kind": 120,
                 "expression": {
                     "kind": 271,
-                    "arrowToken": null,
+                    "asyncKeyword": {
+                        "kind": 82031,
+                        "flags": 64,
+                        "start": 2,
+                        "end": 8
+                    },
                     "typeParameters": null,
                     "parameters": {
                         "kind": 134299649,
@@ -45,13 +50,8 @@ do async funcion switch!!
                         "start": 8,
                         "end": 16
                     },
-                    "asyncKeyword": {
-                        "kind": 82031,
-                        "flags": 64,
-                        "start": 2,
-                        "end": 8
-                    },
                     "returnType": null,
+                    "arrowToken": null,
                     "contents": {
                         "kind": 16637,
                         "text": "",

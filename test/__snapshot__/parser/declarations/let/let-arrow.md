@@ -51,12 +51,7 @@ hello();
                         "type": null,
                         "initializer": {
                             "kind": 271,
-                            "arrowToken": {
-                                "kind": 10,
-                                "flags": 64,
-                                "start": 49,
-                                "end": 52
-                            },
+                            "asyncKeyword": null,
                             "typeParameters": null,
                             "parameters": [
                                 {
@@ -98,7 +93,6 @@ hello();
                                     "end": 39
                                 }
                             ],
-                            "asyncKeyword": null,
                             "returnType": {
                                 "kind": 139,
                                 "bitwiseOrToken": null,
@@ -112,6 +106,12 @@ hello();
                                 "flags": 2097152,
                                 "start": 42,
                                 "end": 49
+                            },
+                            "arrowToken": {
+                                "kind": 10,
+                                "flags": 64,
+                                "start": 49,
+                                "end": 52
                             },
                             "contents": {
                                 "kind": 216,

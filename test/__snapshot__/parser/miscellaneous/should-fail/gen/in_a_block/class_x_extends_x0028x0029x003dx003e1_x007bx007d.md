@@ -59,16 +59,16 @@
                                 },
                                 "expression": {
                                     "kind": 271,
+                                    "asyncKeyword": null,
+                                    "typeParameters": null,
+                                    "parameters": [],
+                                    "returnType": null,
                                     "arrowToken": {
                                         "kind": 10,
                                         "flags": 64,
                                         "start": 20,
                                         "end": 22
                                     },
-                                    "typeParameters": null,
-                                    "parameters": [],
-                                    "asyncKeyword": null,
-                                    "returnType": null,
                                     "contents": {
                                         "kind": 201392130,
                                         "text": 1,

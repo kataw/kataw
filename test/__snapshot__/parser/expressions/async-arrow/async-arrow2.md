@@ -28,11 +28,11 @@ async <T>() => {}
             "kind": 120,
             "expression": {
                 "kind": 271,
-                "arrowToken": {
-                    "kind": 10,
+                "asyncKeyword": {
+                    "kind": 82031,
                     "flags": 64,
-                    "start": 11,
-                    "end": 14
+                    "start": 0,
+                    "end": 5
                 },
                 "typeParameters": {
                     "kind": 307,
@@ -66,13 +66,13 @@ async <T>() => {}
                     "end": 9
                 },
                 "parameters": [],
-                "asyncKeyword": {
-                    "kind": 82031,
-                    "flags": 64,
-                    "start": 0,
-                    "end": 5
-                },
                 "returnType": null,
+                "arrowToken": {
+                    "kind": 10,
+                    "flags": 64,
+                    "start": 11,
+                    "end": 14
+                },
                 "contents": {
                     "kind": 216,
                     "functionStatementList": {

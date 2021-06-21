@@ -126,7 +126,12 @@ const f = async function * (source, block, opts) {
                                             },
                                             "initializer": {
                                                 "kind": 162,
-                                                "lexicalKeyword": null,
+                                                "lexicalKeyword": {
+                                                    "kind": 37757004,
+                                                    "flags": 64,
+                                                    "start": 68,
+                                                    "end": 73
+                                                },
                                                 "binding": {
                                                     "kind": 151,
                                                     "bindingList": [
@@ -627,7 +632,7 @@ const f = async function * (source, block, opts) {
 ```javascript
 
 const f = async function * () {
-  for await (entry; of source) {
+  for await (const entry; of source) {
       yield async function () {
         const cid = await persist(entry.content.serialize(), block, opts);
         return  {

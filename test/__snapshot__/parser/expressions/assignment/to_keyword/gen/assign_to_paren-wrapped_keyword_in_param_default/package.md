@@ -25,11 +25,11 @@ async (x = (package) = f) => {}
     "statements": [
         {
             "kind": 271,
-            "arrowToken": {
-                "kind": 10,
+            "asyncKeyword": {
+                "kind": 82031,
                 "flags": 64,
-                "start": 25,
-                "end": 28
+                "start": 0,
+                "end": 5
             },
             "typeParameters": null,
             "parameters": [
@@ -85,13 +85,13 @@ async (x = (package) = f) => {}
                     "end": 24
                 }
             ],
-            "asyncKeyword": {
-                "kind": 82031,
-                "flags": 64,
-                "start": 0,
-                "end": 5
-            },
             "returnType": null,
+            "arrowToken": {
+                "kind": 10,
+                "flags": 64,
+                "start": 25,
+                "end": 28
+            },
             "contents": {
                 "kind": 216,
                 "functionStatementList": {

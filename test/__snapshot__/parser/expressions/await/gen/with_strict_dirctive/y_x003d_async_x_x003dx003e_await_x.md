@@ -52,11 +52,11 @@
                 },
                 "right": {
                     "kind": 271,
-                    "arrowToken": {
-                        "kind": 10,
+                    "asyncKeyword": {
+                        "kind": 82031,
                         "flags": 64,
-                        "start": 25,
-                        "end": 28
+                        "start": 17,
+                        "end": 23
                     },
                     "typeParameters": null,
                     "parameters": {
@@ -67,13 +67,13 @@
                         "start": 23,
                         "end": 25
                     },
-                    "asyncKeyword": {
-                        "kind": 82031,
-                        "flags": 64,
-                        "start": 17,
-                        "end": 23
-                    },
                     "returnType": null,
+                    "arrowToken": {
+                        "kind": 10,
+                        "flags": 64,
+                        "start": 25,
+                        "end": 28
+                    },
                     "contents": {
                         "kind": 208,
                         "awaitKeyword": {

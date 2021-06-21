@@ -38,11 +38,11 @@ a, async (x, y) => ok
                     },
                     {
                         "kind": 271,
-                        "arrowToken": {
-                            "kind": 10,
+                        "asyncKeyword": {
+                            "kind": 82031,
                             "flags": 64,
-                            "start": 15,
-                            "end": 18
+                            "start": 2,
+                            "end": 8
                         },
                         "typeParameters": null,
                         "parameters": [
@@ -63,13 +63,13 @@ a, async (x, y) => ok
                                 "end": 14
                             }
                         ],
-                        "asyncKeyword": {
-                            "kind": 82031,
-                            "flags": 64,
-                            "start": 2,
-                            "end": 8
-                        },
                         "returnType": null,
+                        "arrowToken": {
+                            "kind": 10,
+                            "flags": 64,
+                            "start": 15,
+                            "end": 18
+                        },
                         "contents": {
                             "kind": 134299649,
                             "text": "ok",

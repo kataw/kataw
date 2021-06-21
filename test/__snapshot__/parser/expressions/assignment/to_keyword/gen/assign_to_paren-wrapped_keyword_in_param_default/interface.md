@@ -25,11 +25,11 @@ async (x = (interface) = f) => {}
     "statements": [
         {
             "kind": 271,
-            "arrowToken": {
-                "kind": 10,
+            "asyncKeyword": {
+                "kind": 82031,
                 "flags": 64,
-                "start": 27,
-                "end": 30
+                "start": 0,
+                "end": 5
             },
             "typeParameters": null,
             "parameters": [
@@ -85,13 +85,13 @@ async (x = (interface) = f) => {}
                     "end": 26
                 }
             ],
-            "asyncKeyword": {
-                "kind": 82031,
-                "flags": 64,
-                "start": 0,
-                "end": 5
-            },
             "returnType": null,
+            "arrowToken": {
+                "kind": 10,
+                "flags": 64,
+                "start": 27,
+                "end": 30
+            },
             "contents": {
                 "kind": 216,
                 "functionStatementList": {

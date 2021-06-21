@@ -26,11 +26,11 @@ async (f)
     "statements": [
         {
             "kind": 271,
-            "arrowToken": {
-                "kind": 10,
+            "asyncKeyword": {
+                "kind": 82031,
                 "flags": 64,
-                "start": 13,
-                "end": 16
+                "start": 0,
+                "end": 5
             },
             "typeParameters": null,
             "parameters": [
@@ -43,12 +43,6 @@ async (f)
                     "end": 8
                 }
             ],
-            "asyncKeyword": {
-                "kind": 82031,
-                "flags": 64,
-                "start": 0,
-                "end": 5
-            },
             "returnType": {
                 "kind": 139,
                 "bitwiseOrToken": null,
@@ -71,6 +65,12 @@ async (f)
                 "flags": 2097152,
                 "start": 11,
                 "end": 13
+            },
+            "arrowToken": {
+                "kind": 10,
+                "flags": 64,
+                "start": 13,
+                "end": 16
             },
             "contents": {
                 "kind": 216,

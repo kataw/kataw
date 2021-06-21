@@ -32,11 +32,11 @@ f(async => x)
                     "elements": [
                         {
                             "kind": 271,
-                            "arrowToken": {
-                                "kind": 10,
+                            "asyncKeyword": {
+                                "kind": 82031,
                                 "flags": 64,
-                                "start": 7,
-                                "end": 10
+                                "start": 2,
+                                "end": 7
                             },
                             "typeParameters": null,
                             "parameters": {
@@ -47,13 +47,13 @@ f(async => x)
                                 "start": 2,
                                 "end": 7
                             },
-                            "asyncKeyword": {
-                                "kind": 82031,
-                                "flags": 64,
-                                "start": 2,
-                                "end": 7
-                            },
                             "returnType": null,
+                            "arrowToken": {
+                                "kind": 10,
+                                "flags": 64,
+                                "start": 7,
+                                "end": 10
+                            },
                             "contents": {
                                 "kind": 134299649,
                                 "text": "x",

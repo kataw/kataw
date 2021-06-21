@@ -29,11 +29,11 @@ async <T = U>(x) => y;
             "kind": 120,
             "expression": {
                 "kind": 271,
-                "arrowToken": {
-                    "kind": 10,
+                "asyncKeyword": {
+                    "kind": 82031,
                     "flags": 64,
-                    "start": 16,
-                    "end": 19
+                    "start": 0,
+                    "end": 5
                 },
                 "typeParameters": {
                     "kind": 307,
@@ -98,13 +98,13 @@ async <T = U>(x) => y;
                         "end": 15
                     }
                 ],
-                "asyncKeyword": {
-                    "kind": 82031,
-                    "flags": 64,
-                    "start": 0,
-                    "end": 5
-                },
                 "returnType": null,
+                "arrowToken": {
+                    "kind": 10,
+                    "flags": 64,
+                    "start": 16,
+                    "end": 19
+                },
                 "contents": {
                     "kind": 134299649,
                     "text": "y",
@@ -127,11 +127,11 @@ async <T = U>(x) => y;
                 "kind": 121,
                 "expression": {
                     "kind": 271,
-                    "arrowToken": {
-                        "kind": 10,
+                    "asyncKeyword": {
+                        "kind": 82031,
                         "flags": 64,
-                        "start": 41,
-                        "end": 44
+                        "start": 25,
+                        "end": 30
                     },
                     "typeParameters": {
                         "kind": 307,
@@ -196,13 +196,13 @@ async <T = U>(x) => y;
                             "end": 40
                         }
                     ],
-                    "asyncKeyword": {
-                        "kind": 82031,
-                        "flags": 64,
-                        "start": 25,
-                        "end": 30
-                    },
                     "returnType": null,
+                    "arrowToken": {
+                        "kind": 10,
+                        "flags": 64,
+                        "start": 41,
+                        "end": 44
+                    },
                     "contents": {
                         "kind": 134299649,
                         "text": "y",

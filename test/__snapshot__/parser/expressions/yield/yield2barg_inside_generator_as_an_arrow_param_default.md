@@ -58,12 +58,7 @@ function *f(){ ({x} = yield x) => {} }
                             "kind": 120,
                             "expression": {
                                 "kind": 271,
-                                "arrowToken": {
-                                    "kind": 10,
-                                    "flags": 64,
-                                    "start": 30,
-                                    "end": 33
-                                },
+                                "asyncKeyword": null,
                                 "typeParameters": null,
                                 "parameters": [
                                     {
@@ -121,8 +116,13 @@ function *f(){ ({x} = yield x) => {} }
                                         "end": 29
                                     }
                                 ],
-                                "asyncKeyword": null,
                                 "returnType": null,
+                                "arrowToken": {
+                                    "kind": 10,
+                                    "flags": 64,
+                                    "start": 30,
+                                    "end": 33
+                                },
                                 "contents": {
                                     "kind": 216,
                                     "functionStatementList": {

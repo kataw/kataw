@@ -56,11 +56,11 @@ function *f(){  async (await) => x  }
                     "statements": [
                         {
                             "kind": 271,
-                            "arrowToken": {
-                                "kind": 10,
+                            "asyncKeyword": {
+                                "kind": 82031,
                                 "flags": 64,
-                                "start": 29,
-                                "end": 32
+                                "start": 14,
+                                "end": 21
                             },
                             "typeParameters": null,
                             "parameters": [
@@ -73,13 +73,13 @@ function *f(){  async (await) => x  }
                                     "end": 28
                                 }
                             ],
-                            "asyncKeyword": {
-                                "kind": 82031,
-                                "flags": 64,
-                                "start": 14,
-                                "end": 21
-                            },
                             "returnType": null,
+                            "arrowToken": {
+                                "kind": 10,
+                                "flags": 64,
+                                "start": 29,
+                                "end": 32
+                            },
                             "contents": {
                                 "kind": 134299649,
                                 "text": "x",

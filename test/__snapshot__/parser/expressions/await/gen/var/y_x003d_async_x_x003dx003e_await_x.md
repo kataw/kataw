@@ -136,11 +136,11 @@ var await; var f = (async function() { y = async x => await x });
                                                     },
                                                     "right": {
                                                         "kind": 271,
-                                                        "arrowToken": {
-                                                            "kind": 10,
+                                                        "asyncKeyword": {
+                                                            "kind": 82031,
                                                             "flags": 64,
-                                                            "start": 50,
-                                                            "end": 53
+                                                            "start": 42,
+                                                            "end": 48
                                                         },
                                                         "typeParameters": null,
                                                         "parameters": {
@@ -151,13 +151,13 @@ var await; var f = (async function() { y = async x => await x });
                                                             "start": 48,
                                                             "end": 50
                                                         },
-                                                        "asyncKeyword": {
-                                                            "kind": 82031,
-                                                            "flags": 64,
-                                                            "start": 42,
-                                                            "end": 48
-                                                        },
                                                         "returnType": null,
+                                                        "arrowToken": {
+                                                            "kind": 10,
+                                                            "flags": 64,
+                                                            "start": 50,
+                                                            "end": 53
+                                                        },
                                                         "contents": {
                                                             "kind": 208,
                                                             "awaitKeyword": {

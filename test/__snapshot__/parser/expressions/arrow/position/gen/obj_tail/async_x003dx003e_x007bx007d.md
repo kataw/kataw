@@ -61,11 +61,11 @@ x = {arrow: async => {}}.y
                                     },
                                     "right": {
                                         "kind": 271,
-                                        "arrowToken": {
-                                            "kind": 10,
+                                        "asyncKeyword": {
+                                            "kind": 82031,
                                             "flags": 64,
-                                            "start": 17,
-                                            "end": 20
+                                            "start": 11,
+                                            "end": 17
                                         },
                                         "typeParameters": null,
                                         "parameters": {
@@ -76,13 +76,13 @@ x = {arrow: async => {}}.y
                                             "start": 11,
                                             "end": 17
                                         },
-                                        "asyncKeyword": {
-                                            "kind": 82031,
-                                            "flags": 64,
-                                            "start": 11,
-                                            "end": 17
-                                        },
                                         "returnType": null,
+                                        "arrowToken": {
+                                            "kind": 10,
+                                            "flags": 64,
+                                            "start": 17,
+                                            "end": 20
+                                        },
                                         "contents": {
                                             "kind": 216,
                                             "functionStatementList": {

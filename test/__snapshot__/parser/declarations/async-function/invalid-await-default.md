@@ -60,12 +60,7 @@ async function wrap() {
                             "kind": 120,
                             "expression": {
                                 "kind": 271,
-                                "arrowToken": {
-                                    "kind": 10,
-                                    "flags": 64,
-                                    "start": 39,
-                                    "end": 42
-                                },
+                                "asyncKeyword": null,
                                 "typeParameters": null,
                                 "parameters": [
                                     {
@@ -106,8 +101,13 @@ async function wrap() {
                                         "end": 38
                                     }
                                 ],
-                                "asyncKeyword": null,
                                 "returnType": null,
+                                "arrowToken": {
+                                    "kind": 10,
+                                    "flags": 64,
+                                    "start": 39,
+                                    "end": 42
+                                },
                                 "contents": {
                                     "kind": 134299649,
                                     "text": "a",

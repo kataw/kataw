@@ -30,21 +30,21 @@
                 "statements": [
                     {
                         "kind": 271,
-                        "arrowToken": {
-                            "kind": 10,
-                            "flags": 64,
-                            "start": 10,
-                            "end": 13
-                        },
-                        "typeParameters": null,
-                        "parameters": [],
                         "asyncKeyword": {
                             "kind": 82031,
                             "flags": 64,
                             "start": 1,
                             "end": 7
                         },
+                        "typeParameters": null,
+                        "parameters": [],
                         "returnType": null,
+                        "arrowToken": {
+                            "kind": 10,
+                            "flags": 64,
+                            "start": 10,
+                            "end": 13
+                        },
                         "contents": {
                             "kind": 208,
                             "awaitKeyword": {

@@ -47,11 +47,11 @@ const fn = async (a?: any): Promise<void> => {};
                         "type": null,
                         "initializer": {
                             "kind": 271,
-                            "arrowToken": {
-                                "kind": 10,
+                            "asyncKeyword": {
+                                "kind": 82031,
                                 "flags": 64,
-                                "start": 41,
-                                "end": 44
+                                "start": 10,
+                                "end": 16
                             },
                             "typeParameters": null,
                             "parameters": [
@@ -92,12 +92,6 @@ const fn = async (a?: any): Promise<void> => {};
                                     "end": 25
                                 }
                             ],
-                            "asyncKeyword": {
-                                "kind": 82031,
-                                "flags": 64,
-                                "start": 10,
-                                "end": 16
-                            },
                             "returnType": {
                                 "kind": 139,
                                 "bitwiseOrToken": null,
@@ -148,6 +142,12 @@ const fn = async (a?: any): Promise<void> => {};
                                 "flags": 2097152,
                                 "start": 27,
                                 "end": 41
+                            },
+                            "arrowToken": {
+                                "kind": 10,
+                                "flags": 64,
+                                "start": 41,
+                                "end": 44
                             },
                             "contents": {
                                 "kind": 216,

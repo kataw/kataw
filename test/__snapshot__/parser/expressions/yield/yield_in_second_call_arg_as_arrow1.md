@@ -58,12 +58,7 @@ function *g() { (x = x + foo(a, yield y)) => x; }
                             "kind": 120,
                             "expression": {
                                 "kind": 271,
-                                "arrowToken": {
-                                    "kind": 10,
-                                    "flags": 64,
-                                    "start": 41,
-                                    "end": 44
-                                },
+                                "asyncKeyword": null,
                                 "typeParameters": null,
                                 "parameters": [
                                     {
@@ -157,8 +152,13 @@ function *g() { (x = x + foo(a, yield y)) => x; }
                                         "end": 40
                                     }
                                 ],
-                                "asyncKeyword": null,
                                 "returnType": null,
+                                "arrowToken": {
+                                    "kind": 10,
+                                    "flags": 64,
+                                    "start": 41,
+                                    "end": 44
+                                },
                                 "contents": {
                                     "kind": 134299649,
                                     "text": "x",

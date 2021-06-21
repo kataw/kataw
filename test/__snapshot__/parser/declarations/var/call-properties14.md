@@ -95,12 +95,7 @@ var d: { (): string } = (x) => "hi"
                         },
                         "initializer": {
                             "kind": 271,
-                            "arrowToken": {
-                                "kind": 10,
-                                "flags": 64,
-                                "start": 27,
-                                "end": 30
-                            },
+                            "asyncKeyword": null,
                             "typeParameters": null,
                             "parameters": [
                                 {
@@ -112,8 +107,13 @@ var d: { (): string } = (x) => "hi"
                                     "end": 26
                                 }
                             ],
-                            "asyncKeyword": null,
                             "returnType": null,
+                            "arrowToken": {
+                                "kind": 10,
+                                "flags": 64,
+                                "start": 27,
+                                "end": 30
+                            },
                             "contents": {
                                 "kind": 201392131,
                                 "text": "hi",

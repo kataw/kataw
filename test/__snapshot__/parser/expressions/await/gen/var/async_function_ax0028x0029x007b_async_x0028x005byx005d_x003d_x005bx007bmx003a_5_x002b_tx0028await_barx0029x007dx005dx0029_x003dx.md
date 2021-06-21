@@ -157,11 +157,11 @@ var await; var f = (async function() { async function a(){     async ([y] = [{m:
                                                         "statements": [
                                                             {
                                                                 "kind": 271,
-                                                                "arrowToken": {
-                                                                    "kind": 10,
+                                                                "asyncKeyword": {
+                                                                    "kind": 82031,
                                                                     "flags": 64,
-                                                                    "start": 100,
-                                                                    "end": 103
+                                                                    "start": 58,
+                                                                    "end": 68
                                                                 },
                                                                 "typeParameters": null,
                                                                 "parameters": [
@@ -306,13 +306,13 @@ var await; var f = (async function() { async function a(){     async ([y] = [{m:
                                                                         "end": 99
                                                                     }
                                                                 ],
-                                                                "asyncKeyword": {
-                                                                    "kind": 82031,
-                                                                    "flags": 64,
-                                                                    "start": 58,
-                                                                    "end": 68
-                                                                },
                                                                 "returnType": null,
+                                                                "arrowToken": {
+                                                                    "kind": 10,
+                                                                    "flags": 64,
+                                                                    "start": 100,
+                                                                    "end": 103
+                                                                },
                                                                 "contents": {
                                                                     "kind": 216,
                                                                     "functionStatementList": {

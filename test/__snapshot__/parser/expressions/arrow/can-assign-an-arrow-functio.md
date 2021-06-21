@@ -43,12 +43,7 @@ y = async (x) => {}
                 },
                 "right": {
                     "kind": 271,
-                    "arrowToken": {
-                        "kind": 10,
-                        "flags": 64,
-                        "start": 5,
-                        "end": 8
-                    },
+                    "asyncKeyword": null,
                     "typeParameters": null,
                     "parameters": {
                         "kind": 134299649,
@@ -58,8 +53,13 @@ y = async (x) => {}
                         "start": 3,
                         "end": 5
                     },
-                    "asyncKeyword": null,
                     "returnType": null,
+                    "arrowToken": {
+                        "kind": 10,
+                        "flags": 64,
+                        "start": 5,
+                        "end": 8
+                    },
                     "contents": {
                         "kind": 216,
                         "functionStatementList": {
@@ -106,16 +106,16 @@ y = async (x) => {}
                 },
                 "right": {
                     "kind": 271,
+                    "asyncKeyword": null,
+                    "typeParameters": null,
+                    "parameters": [],
+                    "returnType": null,
                     "arrowToken": {
                         "kind": 10,
                         "flags": 64,
                         "start": 19,
                         "end": 22
                     },
-                    "typeParameters": null,
-                    "parameters": [],
-                    "asyncKeyword": null,
-                    "returnType": null,
                     "contents": {
                         "kind": 216,
                         "functionStatementList": {
@@ -162,12 +162,7 @@ y = async (x) => {}
                 },
                 "right": {
                     "kind": 271,
-                    "arrowToken": {
-                        "kind": 10,
-                        "flags": 64,
-                        "start": 34,
-                        "end": 37
-                    },
+                    "asyncKeyword": null,
                     "typeParameters": null,
                     "parameters": [
                         {
@@ -179,8 +174,13 @@ y = async (x) => {}
                             "end": 33
                         }
                     ],
-                    "asyncKeyword": null,
                     "returnType": null,
+                    "arrowToken": {
+                        "kind": 10,
+                        "flags": 64,
+                        "start": 34,
+                        "end": 37
+                    },
                     "contents": {
                         "kind": 216,
                         "functionStatementList": {
@@ -227,21 +227,21 @@ y = async (x) => {}
                 },
                 "right": {
                     "kind": 271,
-                    "arrowToken": {
-                        "kind": 10,
-                        "flags": 64,
-                        "start": 54,
-                        "end": 57
-                    },
-                    "typeParameters": null,
-                    "parameters": [],
                     "asyncKeyword": {
                         "kind": 82031,
                         "flags": 64,
                         "start": 45,
                         "end": 51
                     },
+                    "typeParameters": null,
+                    "parameters": [],
                     "returnType": null,
+                    "arrowToken": {
+                        "kind": 10,
+                        "flags": 64,
+                        "start": 54,
+                        "end": 57
+                    },
                     "contents": {
                         "kind": 216,
                         "functionStatementList": {
@@ -288,11 +288,11 @@ y = async (x) => {}
                 },
                 "right": {
                     "kind": 271,
-                    "arrowToken": {
-                        "kind": 10,
+                    "asyncKeyword": {
+                        "kind": 82031,
                         "flags": 64,
-                        "start": 75,
-                        "end": 78
+                        "start": 65,
+                        "end": 71
                     },
                     "typeParameters": null,
                     "parameters": [
@@ -305,13 +305,13 @@ y = async (x) => {}
                             "end": 74
                         }
                     ],
-                    "asyncKeyword": {
-                        "kind": 82031,
-                        "flags": 64,
-                        "start": 65,
-                        "end": 71
-                    },
                     "returnType": null,
+                    "arrowToken": {
+                        "kind": 10,
+                        "flags": 64,
+                        "start": 75,
+                        "end": 78
+                    },
                     "contents": {
                         "kind": 216,
                         "functionStatementList": {

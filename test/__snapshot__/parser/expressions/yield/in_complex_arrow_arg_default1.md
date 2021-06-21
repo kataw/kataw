@@ -58,12 +58,7 @@ function *g() { (x = u + yield z) => {}; }
                             "kind": 120,
                             "expression": {
                                 "kind": 271,
-                                "arrowToken": {
-                                    "kind": 10,
-                                    "flags": 64,
-                                    "start": 33,
-                                    "end": 36
-                                },
+                                "asyncKeyword": null,
                                 "typeParameters": null,
                                 "parameters": [
                                     {
@@ -126,8 +121,13 @@ function *g() { (x = u + yield z) => {}; }
                                         "end": 32
                                     }
                                 ],
-                                "asyncKeyword": null,
                                 "returnType": null,
+                                "arrowToken": {
+                                    "kind": 10,
+                                    "flags": 64,
+                                    "start": 33,
+                                    "end": 36
+                                },
                                 "contents": {
                                     "kind": 216,
                                     "functionStatementList": {

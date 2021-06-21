@@ -1118,16 +1118,16 @@ x = {y: {z: 1}}?.y?.z;
                                 },
                                 "argument": {
                                     "kind": 271,
+                                    "asyncKeyword": null,
+                                    "typeParameters": null,
+                                    "parameters": [],
+                                    "returnType": null,
                                     "arrowToken": {
                                         "kind": 10,
                                         "flags": 64,
                                         "start": 271,
                                         "end": 273
                                     },
-                                    "typeParameters": null,
-                                    "parameters": [],
-                                    "asyncKeyword": null,
-                                    "returnType": null,
                                     "contents": {
                                         "kind": 216,
                                         "functionStatementList": {
@@ -1221,16 +1221,16 @@ x = {y: {z: 1}}?.y?.z;
                                         "kind": 121,
                                         "expression": {
                                             "kind": 271,
+                                            "asyncKeyword": null,
+                                            "typeParameters": null,
+                                            "parameters": [],
+                                            "returnType": null,
                                             "arrowToken": {
                                                 "kind": 10,
                                                 "flags": 64,
                                                 "start": 296,
                                                 "end": 298
                                             },
-                                            "typeParameters": null,
-                                            "parameters": [],
-                                            "asyncKeyword": null,
-                                            "returnType": null,
                                             "contents": {
                                                 "kind": 216,
                                                 "functionStatementList": {

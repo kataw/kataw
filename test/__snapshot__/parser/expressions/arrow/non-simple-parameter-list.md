@@ -25,12 +25,7 @@
             "kind": 120,
             "expression": {
                 "kind": 271,
-                "arrowToken": {
-                    "kind": 10,
-                    "flags": 64,
-                    "start": 9,
-                    "end": 12
-                },
+                "asyncKeyword": null,
                 "typeParameters": null,
                 "parameters": [
                     {
@@ -59,8 +54,13 @@
                         "end": 7
                     }
                 ],
-                "asyncKeyword": null,
                 "returnType": null,
+                "arrowToken": {
+                    "kind": 10,
+                    "flags": 64,
+                    "start": 9,
+                    "end": 12
+                },
                 "contents": {
                     "kind": 216,
                     "functionStatementList": {
@@ -96,12 +96,7 @@
             "kind": 120,
             "expression": {
                 "kind": 271,
-                "arrowToken": {
-                    "kind": 10,
-                    "flags": 64,
-                    "start": 43,
-                    "end": 46
-                },
+                "asyncKeyword": null,
                 "typeParameters": null,
                 "parameters": [
                     {
@@ -128,8 +123,13 @@
                         "end": 40
                     }
                 ],
-                "asyncKeyword": null,
                 "returnType": null,
+                "arrowToken": {
+                    "kind": 10,
+                    "flags": 64,
+                    "start": 43,
+                    "end": 46
+                },
                 "contents": {
                     "kind": 216,
                     "functionStatementList": {

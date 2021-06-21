@@ -76,11 +76,11 @@ async function f() {
                                 },
                                 "expression": {
                                     "kind": 271,
-                                    "arrowToken": {
-                                        "kind": 10,
+                                    "asyncKeyword": {
+                                        "kind": 82031,
                                         "flags": 64,
-                                        "start": 36,
-                                        "end": 39
+                                        "start": 28,
+                                        "end": 34
                                     },
                                     "typeParameters": null,
                                     "parameters": {
@@ -91,13 +91,13 @@ async function f() {
                                         "start": 34,
                                         "end": 36
                                     },
-                                    "asyncKeyword": {
-                                        "kind": 82031,
-                                        "flags": 64,
-                                        "start": 28,
-                                        "end": 34
-                                    },
                                     "returnType": null,
+                                    "arrowToken": {
+                                        "kind": 10,
+                                        "flags": 64,
+                                        "start": 36,
+                                        "end": 39
+                                    },
                                     "contents": {
                                         "kind": 216,
                                         "functionStatementList": {

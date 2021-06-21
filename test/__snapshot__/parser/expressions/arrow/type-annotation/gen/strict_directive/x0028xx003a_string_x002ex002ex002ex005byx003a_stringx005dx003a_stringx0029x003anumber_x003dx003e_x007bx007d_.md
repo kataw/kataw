@@ -142,12 +142,7 @@
             "kind": 120,
             "expression": {
                 "kind": 271,
-                "arrowToken": {
-                    "kind": 10,
-                    "flags": 64,
-                    "start": 56,
-                    "end": 59
-                },
+                "asyncKeyword": null,
                 "typeParameters": null,
                 "parameters": {
                     "kind": 134299649,
@@ -157,8 +152,13 @@
                     "start": 50,
                     "end": 56
                 },
-                "asyncKeyword": null,
                 "returnType": null,
+                "arrowToken": {
+                    "kind": 10,
+                    "flags": 64,
+                    "start": 56,
+                    "end": 59
+                },
                 "contents": {
                     "kind": 216,
                     "functionStatementList": {

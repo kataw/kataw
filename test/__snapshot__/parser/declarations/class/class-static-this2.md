@@ -71,16 +71,16 @@ class Foo { static x = () => this }
                             "type": null,
                             "initializer": {
                                 "kind": 271,
+                                "asyncKeyword": null,
+                                "typeParameters": null,
+                                "parameters": [],
+                                "returnType": null,
                                 "arrowToken": {
                                     "kind": 10,
                                     "flags": 64,
                                     "start": 25,
                                     "end": 28
                                 },
-                                "typeParameters": null,
-                                "parameters": [],
-                                "asyncKeyword": null,
-                                "returnType": null,
                                 "contents": {
                                     "kind": 4276321,
                                     "flags": 96,

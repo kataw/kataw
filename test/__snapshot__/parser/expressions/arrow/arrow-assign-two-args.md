@@ -35,12 +35,7 @@ x = (a,b) =>{}
                 },
                 "right": {
                     "kind": 271,
-                    "arrowToken": {
-                        "kind": 10,
-                        "flags": 64,
-                        "start": 9,
-                        "end": 12
-                    },
+                    "asyncKeyword": null,
                     "typeParameters": null,
                     "parameters": [
                         {
@@ -60,8 +55,13 @@ x = (a,b) =>{}
                             "end": 8
                         }
                     ],
-                    "asyncKeyword": null,
                     "returnType": null,
+                    "arrowToken": {
+                        "kind": 10,
+                        "flags": 64,
+                        "start": 9,
+                        "end": 12
+                    },
                     "contents": {
                         "kind": 216,
                         "functionStatementList": {

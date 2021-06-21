@@ -40,11 +40,11 @@ let f = async
                         "type": null,
                         "initializer": {
                             "kind": 271,
-                            "arrowToken": {
-                                "kind": 10,
+                            "asyncKeyword": {
+                                "kind": 82031,
                                 "flags": 64,
-                                "start": 17,
-                                "end": 20
+                                "start": 7,
+                                "end": 13
                             },
                             "typeParameters": null,
                             "parameters": [
@@ -57,13 +57,13 @@ let f = async
                                     "end": 16
                                 }
                             ],
-                            "asyncKeyword": {
-                                "kind": 82031,
-                                "flags": 64,
-                                "start": 7,
-                                "end": 13
-                            },
                             "returnType": null,
+                            "arrowToken": {
+                                "kind": 10,
+                                "flags": 64,
+                                "start": 17,
+                                "end": 20
+                            },
                             "contents": {
                                 "kind": 134299649,
                                 "text": "g",

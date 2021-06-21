@@ -140,11 +140,11 @@ var x, y, z; for (x of x = [async x => z] = z = {});
                             "elements": [
                                 {
                                     "kind": 271,
-                                    "arrowToken": {
-                                        "kind": 10,
+                                    "asyncKeyword": {
+                                        "kind": 82031,
                                         "flags": 64,
-                                        "start": 35,
-                                        "end": 38
+                                        "start": 28,
+                                        "end": 33
                                     },
                                     "typeParameters": null,
                                     "parameters": {
@@ -155,13 +155,13 @@ var x, y, z; for (x of x = [async x => z] = z = {});
                                         "start": 33,
                                         "end": 35
                                     },
-                                    "asyncKeyword": {
-                                        "kind": 82031,
-                                        "flags": 64,
-                                        "start": 28,
-                                        "end": 33
-                                    },
                                     "returnType": null,
+                                    "arrowToken": {
+                                        "kind": 10,
+                                        "flags": 64,
+                                        "start": 35,
+                                        "end": 38
+                                    },
                                     "contents": {
                                         "kind": 134299649,
                                         "text": "z",

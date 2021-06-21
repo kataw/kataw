@@ -62,12 +62,7 @@ a = b => { let b; };
             "kind": 120,
             "expression": {
                 "kind": 271,
-                "arrowToken": {
-                    "kind": 10,
-                    "flags": 64,
-                    "start": 10,
-                    "end": 12
-                },
+                "asyncKeyword": null,
                 "typeParameters": null,
                 "parameters": [
                     {
@@ -117,8 +112,13 @@ a = b => { let b; };
                         "end": 9
                     }
                 ],
-                "asyncKeyword": null,
                 "returnType": null,
+                "arrowToken": {
+                    "kind": 10,
+                    "flags": 64,
+                    "start": 10,
+                    "end": 12
+                },
                 "contents": {
                     "kind": 201392130,
                     "text": 0,
@@ -139,12 +139,7 @@ a = b => { let b; };
             "kind": 120,
             "expression": {
                 "kind": 271,
-                "arrowToken": {
-                    "kind": 10,
-                    "flags": 64,
-                    "start": 20,
-                    "end": 23
-                },
+                "asyncKeyword": null,
                 "typeParameters": null,
                 "parameters": [
                     {
@@ -156,8 +151,13 @@ a = b => { let b; };
                         "end": 19
                     }
                 ],
-                "asyncKeyword": null,
                 "returnType": null,
+                "arrowToken": {
+                    "kind": 10,
+                    "flags": 64,
+                    "start": 20,
+                    "end": 23
+                },
                 "contents": {
                     "kind": 216,
                     "functionStatementList": {
@@ -221,12 +221,7 @@ a = b => { let b; };
             "kind": 120,
             "expression": {
                 "kind": 271,
-                "arrowToken": {
-                    "kind": 10,
-                    "flags": 64,
-                    "start": 38,
-                    "end": 41
-                },
+                "asyncKeyword": null,
                 "typeParameters": null,
                 "parameters": [
                     {
@@ -238,8 +233,13 @@ a = b => { let b; };
                         "end": 37
                     }
                 ],
-                "asyncKeyword": null,
                 "returnType": null,
+                "arrowToken": {
+                    "kind": 10,
+                    "flags": 64,
+                    "start": 38,
+                    "end": 41
+                },
                 "contents": {
                     "kind": 216,
                     "functionStatementList": {
@@ -310,12 +310,7 @@ a = b => { let b; };
             "kind": 120,
             "expression": {
                 "kind": 271,
-                "arrowToken": {
-                    "kind": 10,
-                    "flags": 64,
-                    "start": 68,
-                    "end": 71
-                },
+                "asyncKeyword": null,
                 "typeParameters": null,
                 "parameters": [
                     {
@@ -343,8 +338,13 @@ a = b => { let b; };
                         "end": 67
                     }
                 ],
-                "asyncKeyword": null,
                 "returnType": null,
+                "arrowToken": {
+                    "kind": 10,
+                    "flags": 64,
+                    "start": 68,
+                    "end": 71
+                },
                 "contents": {
                     "kind": 216,
                     "functionStatementList": {
@@ -371,12 +371,7 @@ a = b => { let b; };
             "kind": 120,
             "expression": {
                 "kind": 271,
-                "arrowToken": {
-                    "kind": 10,
-                    "flags": 64,
-                    "start": 78,
-                    "end": 81
-                },
+                "asyncKeyword": null,
                 "typeParameters": null,
                 "parameters": {
                     "kind": 134299649,
@@ -386,8 +381,13 @@ a = b => { let b; };
                     "start": 75,
                     "end": 78
                 },
-                "asyncKeyword": null,
                 "returnType": null,
+                "arrowToken": {
+                    "kind": 10,
+                    "flags": 64,
+                    "start": 78,
+                    "end": 81
+                },
                 "contents": {
                     "kind": 16637,
                     "text": "",
@@ -459,12 +459,7 @@ a = b => { let b; };
             "kind": 120,
             "expression": {
                 "kind": 271,
-                "arrowToken": {
-                    "kind": 10,
-                    "flags": 64,
-                    "start": 99,
-                    "end": 102
-                },
+                "asyncKeyword": null,
                 "typeParameters": null,
                 "parameters": {
                     "kind": 134299649,
@@ -474,8 +469,13 @@ a = b => { let b; };
                     "start": 92,
                     "end": 99
                 },
-                "asyncKeyword": null,
                 "returnType": null,
+                "arrowToken": {
+                    "kind": 10,
+                    "flags": 64,
+                    "start": 99,
+                    "end": 102
+                },
                 "contents": {
                     "kind": 134299649,
                     "text": "let",
@@ -510,12 +510,7 @@ a = b => { let b; };
             "kind": 120,
             "expression": {
                 "kind": 271,
-                "arrowToken": {
-                    "kind": 10,
-                    "flags": 64,
-                    "start": 116,
-                    "end": 119
-                },
+                "asyncKeyword": null,
                 "typeParameters": null,
                 "parameters": {
                     "kind": 134299649,
@@ -525,8 +520,13 @@ a = b => { let b; };
                     "start": 113,
                     "end": 116
                 },
-                "asyncKeyword": null,
                 "returnType": null,
+                "arrowToken": {
+                    "kind": 10,
+                    "flags": 64,
+                    "start": 116,
+                    "end": 119
+                },
                 "contents": {
                     "kind": 216,
                     "functionStatementList": {
@@ -590,11 +590,11 @@ a = b => { let b; };
             "kind": 120,
             "expression": {
                 "kind": 271,
-                "arrowToken": {
-                    "kind": 10,
-                    "flags": 64,
-                    "start": 140,
-                    "end": 143
+                "asyncKeyword": {
+                    "kind": 82031,
+                    "flags": 65,
+                    "start": 131,
+                    "end": 138
                 },
                 "typeParameters": null,
                 "parameters": {
@@ -605,13 +605,13 @@ a = b => { let b; };
                     "start": 138,
                     "end": 140
                 },
-                "asyncKeyword": {
-                    "kind": 82031,
-                    "flags": 65,
-                    "start": 131,
-                    "end": 138
-                },
                 "returnType": null,
+                "arrowToken": {
+                    "kind": 10,
+                    "flags": 64,
+                    "start": 140,
+                    "end": 143
+                },
                 "contents": {
                     "kind": 216,
                     "functionStatementList": {
@@ -675,12 +675,7 @@ a = b => { let b; };
             "kind": 120,
             "expression": {
                 "kind": 271,
-                "arrowToken": {
-                    "kind": 10,
-                    "flags": 64,
-                    "start": 158,
-                    "end": 161
-                },
+                "asyncKeyword": null,
                 "typeParameters": null,
                 "parameters": {
                     "kind": 134299649,
@@ -690,8 +685,13 @@ a = b => { let b; };
                     "start": 155,
                     "end": 158
                 },
-                "asyncKeyword": null,
                 "returnType": null,
+                "arrowToken": {
+                    "kind": 10,
+                    "flags": 64,
+                    "start": 158,
+                    "end": 161
+                },
                 "contents": {
                     "kind": 216,
                     "functionStatementList": {
@@ -777,12 +777,7 @@ a = b => { let b; };
             "kind": 120,
             "expression": {
                 "kind": 271,
-                "arrowToken": {
-                    "kind": 10,
-                    "flags": 64,
-                    "start": 181,
-                    "end": 184
-                },
+                "asyncKeyword": null,
                 "typeParameters": null,
                 "parameters": {
                     "kind": 134299649,
@@ -792,8 +787,13 @@ a = b => { let b; };
                     "start": 178,
                     "end": 181
                 },
-                "asyncKeyword": null,
                 "returnType": null,
+                "arrowToken": {
+                    "kind": 10,
+                    "flags": 64,
+                    "start": 181,
+                    "end": 184
+                },
                 "contents": {
                     "kind": 216,
                     "functionStatementList": {
@@ -879,12 +879,7 @@ a = b => { let b; };
             "kind": 120,
             "expression": {
                 "kind": 271,
-                "arrowToken": {
-                    "kind": 10,
-                    "flags": 64,
-                    "start": 203,
-                    "end": 206
-                },
+                "asyncKeyword": null,
                 "typeParameters": null,
                 "parameters": {
                     "kind": 134299649,
@@ -894,8 +889,13 @@ a = b => { let b; };
                     "start": 200,
                     "end": 203
                 },
-                "asyncKeyword": null,
                 "returnType": null,
+                "arrowToken": {
+                    "kind": 10,
+                    "flags": 64,
+                    "start": 203,
+                    "end": 206
+                },
                 "contents": {
                     "kind": 216,
                     "functionStatementList": {
@@ -981,12 +981,7 @@ a = b => { let b; };
             "kind": 120,
             "expression": {
                 "kind": 271,
-                "arrowToken": {
-                    "kind": 10,
-                    "flags": 64,
-                    "start": 233,
-                    "end": 236
-                },
+                "asyncKeyword": null,
                 "typeParameters": null,
                 "parameters": [
                     {
@@ -1021,8 +1016,13 @@ a = b => { let b; };
                         "end": 232
                     }
                 ],
-                "asyncKeyword": null,
                 "returnType": null,
+                "arrowToken": {
+                    "kind": 10,
+                    "flags": 64,
+                    "start": 233,
+                    "end": 236
+                },
                 "contents": {
                     "kind": 216,
                     "functionStatementList": {
@@ -1049,12 +1049,7 @@ a = b => { let b; };
             "kind": 120,
             "expression": {
                 "kind": 271,
-                "arrowToken": {
-                    "kind": 10,
-                    "flags": 64,
-                    "start": 256,
-                    "end": 259
-                },
+                "asyncKeyword": null,
                 "typeParameters": null,
                 "parameters": [
                     {
@@ -1104,8 +1099,13 @@ a = b => { let b; };
                         "end": 255
                     }
                 ],
-                "asyncKeyword": null,
                 "returnType": null,
+                "arrowToken": {
+                    "kind": 10,
+                    "flags": 64,
+                    "start": 256,
+                    "end": 259
+                },
                 "contents": {
                     "kind": 216,
                     "functionStatementList": {
@@ -1132,12 +1132,7 @@ a = b => { let b; };
             "kind": 120,
             "expression": {
                 "kind": 271,
-                "arrowToken": {
-                    "kind": 10,
-                    "flags": 64,
-                    "start": 273,
-                    "end": 276
-                },
+                "asyncKeyword": null,
                 "typeParameters": null,
                 "parameters": [
                     {
@@ -1172,8 +1167,13 @@ a = b => { let b; };
                         "end": 272
                     }
                 ],
-                "asyncKeyword": null,
                 "returnType": null,
+                "arrowToken": {
+                    "kind": 10,
+                    "flags": 64,
+                    "start": 273,
+                    "end": 276
+                },
                 "contents": {
                     "kind": 216,
                     "functionStatementList": {
@@ -1200,12 +1200,7 @@ a = b => { let b; };
             "kind": 120,
             "expression": {
                 "kind": 271,
-                "arrowToken": {
-                    "kind": 10,
-                    "flags": 64,
-                    "start": 293,
-                    "end": 296
-                },
+                "asyncKeyword": null,
                 "typeParameters": null,
                 "parameters": [
                     {
@@ -1248,8 +1243,13 @@ a = b => { let b; };
                         "end": 292
                     }
                 ],
-                "asyncKeyword": null,
                 "returnType": null,
+                "arrowToken": {
+                    "kind": 10,
+                    "flags": 64,
+                    "start": 293,
+                    "end": 296
+                },
                 "contents": {
                     "kind": 216,
                     "functionStatementList": {
@@ -1276,12 +1276,7 @@ a = b => { let b; };
             "kind": 120,
             "expression": {
                 "kind": 271,
-                "arrowToken": {
-                    "kind": 10,
-                    "flags": 64,
-                    "start": 313,
-                    "end": 316
-                },
+                "asyncKeyword": null,
                 "typeParameters": null,
                 "parameters": [
                     {
@@ -1324,8 +1319,13 @@ a = b => { let b; };
                         "end": 312
                     }
                 ],
-                "asyncKeyword": null,
                 "returnType": null,
+                "arrowToken": {
+                    "kind": 10,
+                    "flags": 64,
+                    "start": 313,
+                    "end": 316
+                },
                 "contents": {
                     "kind": 216,
                     "functionStatementList": {
@@ -1352,12 +1352,7 @@ a = b => { let b; };
             "kind": 120,
             "expression": {
                 "kind": 271,
-                "arrowToken": {
-                    "kind": 10,
-                    "flags": 64,
-                    "start": 336,
-                    "end": 339
-                },
+                "asyncKeyword": null,
                 "typeParameters": null,
                 "parameters": [
                     {
@@ -1408,8 +1403,13 @@ a = b => { let b; };
                         "end": 335
                     }
                 ],
-                "asyncKeyword": null,
                 "returnType": null,
+                "arrowToken": {
+                    "kind": 10,
+                    "flags": 64,
+                    "start": 336,
+                    "end": 339
+                },
                 "contents": {
                     "kind": 216,
                     "functionStatementList": {
@@ -1436,12 +1436,7 @@ a = b => { let b; };
             "kind": 120,
             "expression": {
                 "kind": 271,
-                "arrowToken": {
-                    "kind": 10,
-                    "flags": 64,
-                    "start": 356,
-                    "end": 359
-                },
+                "asyncKeyword": null,
                 "typeParameters": null,
                 "parameters": [
                     {
@@ -1491,8 +1486,13 @@ a = b => { let b; };
                         "end": 355
                     }
                 ],
-                "asyncKeyword": null,
                 "returnType": null,
+                "arrowToken": {
+                    "kind": 10,
+                    "flags": 64,
+                    "start": 356,
+                    "end": 359
+                },
                 "contents": {
                     "kind": 201392130,
                     "text": 1,
@@ -1513,12 +1513,7 @@ a = b => { let b; };
             "kind": 120,
             "expression": {
                 "kind": 271,
-                "arrowToken": {
-                    "kind": 10,
-                    "flags": 64,
-                    "start": 373,
-                    "end": 376
-                },
+                "asyncKeyword": null,
                 "typeParameters": null,
                 "parameters": [
                     {
@@ -1561,8 +1556,13 @@ a = b => { let b; };
                         "end": 372
                     }
                 ],
-                "asyncKeyword": null,
                 "returnType": null,
+                "arrowToken": {
+                    "kind": 10,
+                    "flags": 64,
+                    "start": 373,
+                    "end": 376
+                },
                 "contents": {
                     "kind": 216,
                     "functionStatementList": {
@@ -1649,12 +1649,7 @@ a = b => { let b; };
                 },
                 "right": {
                     "kind": 271,
-                    "arrowToken": {
-                        "kind": 10,
-                        "flags": 64,
-                        "start": 401,
-                        "end": 404
-                    },
+                    "asyncKeyword": null,
                     "typeParameters": null,
                     "parameters": {
                         "kind": 134299649,
@@ -1664,8 +1659,13 @@ a = b => { let b; };
                         "start": 399,
                         "end": 401
                     },
-                    "asyncKeyword": null,
                     "returnType": null,
+                    "arrowToken": {
+                        "kind": 10,
+                        "flags": 64,
+                        "start": 401,
+                        "end": 404
+                    },
                     "contents": {
                         "kind": 216,
                         "functionStatementList": {
@@ -1733,12 +1733,7 @@ a = b => { let b; };
             "kind": 120,
             "expression": {
                 "kind": 271,
-                "arrowToken": {
-                    "kind": 10,
-                    "flags": 64,
-                    "start": 432,
-                    "end": 435
-                },
+                "asyncKeyword": null,
                 "typeParameters": null,
                 "parameters": [
                     {
@@ -1803,8 +1798,13 @@ a = b => { let b; };
                         "end": 431
                     }
                 ],
-                "asyncKeyword": null,
                 "returnType": null,
+                "arrowToken": {
+                    "kind": 10,
+                    "flags": 64,
+                    "start": 432,
+                    "end": 435
+                },
                 "contents": {
                     "kind": 201392130,
                     "text": 1,
@@ -1825,12 +1825,7 @@ a = b => { let b; };
             "kind": 120,
             "expression": {
                 "kind": 271,
-                "arrowToken": {
-                    "kind": 10,
-                    "flags": 64,
-                    "start": 460,
-                    "end": 463
-                },
+                "asyncKeyword": null,
                 "typeParameters": null,
                 "parameters": [
                     {
@@ -1915,8 +1910,13 @@ a = b => { let b; };
                         "end": 459
                     }
                 ],
-                "asyncKeyword": null,
                 "returnType": null,
+                "arrowToken": {
+                    "kind": 10,
+                    "flags": 64,
+                    "start": 460,
+                    "end": 463
+                },
                 "contents": {
                     "kind": 216,
                     "functionStatementList": {

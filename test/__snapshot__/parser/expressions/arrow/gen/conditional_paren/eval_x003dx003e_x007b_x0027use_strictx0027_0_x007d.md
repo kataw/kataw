@@ -59,12 +59,7 @@ bar ? baz : ( eval => { 'use strict'; 0 } );
                     "kind": 121,
                     "expression": {
                         "kind": 271,
-                        "arrowToken": {
-                            "kind": 10,
-                            "flags": 64,
-                            "start": 18,
-                            "end": 21
-                        },
+                        "asyncKeyword": null,
                         "typeParameters": null,
                         "parameters": {
                             "kind": 134299649,
@@ -74,8 +69,13 @@ bar ? baz : ( eval => { 'use strict'; 0 } );
                             "start": 13,
                             "end": 18
                         },
-                        "asyncKeyword": null,
                         "returnType": null,
+                        "arrowToken": {
+                            "kind": 10,
+                            "flags": 64,
+                            "start": 18,
+                            "end": 21
+                        },
                         "contents": {
                             "kind": 216,
                             "functionStatementList": {

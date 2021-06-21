@@ -42,11 +42,11 @@ foo(async x => {}).bar
                         "elements": [
                             {
                                 "kind": 271,
-                                "arrowToken": {
-                                    "kind": 10,
+                                "asyncKeyword": {
+                                    "kind": 82031,
                                     "flags": 64,
-                                    "start": 11,
-                                    "end": 14
+                                    "start": 4,
+                                    "end": 9
                                 },
                                 "typeParameters": null,
                                 "parameters": {
@@ -57,13 +57,13 @@ foo(async x => {}).bar
                                     "start": 9,
                                     "end": 11
                                 },
-                                "asyncKeyword": {
-                                    "kind": 82031,
-                                    "flags": 64,
-                                    "start": 4,
-                                    "end": 9
-                                },
                                 "returnType": null,
+                                "arrowToken": {
+                                    "kind": 10,
+                                    "flags": 64,
+                                    "start": 11,
+                                    "end": 14
+                                },
                                 "contents": {
                                     "kind": 216,
                                     "functionStatementList": {
