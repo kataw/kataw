@@ -443,7 +443,7 @@ export function visitEachChild(
             (<AwaitExpression>node).end
           )
         : node;
-        case SyntaxKind.ForBinding:
+    case SyntaxKind.ForBinding:
       return (<ForBinding>node).varKeyword !== visitNode((<ForBinding>node).varKeyword, visitor) ||
         (<ForBinding>node).declarationList !== visitNode((<ForBinding>node).declarationList, visitor)
         ? createForBinding(
@@ -471,7 +471,7 @@ export function visitEachChild(
           )
         : node;
     case SyntaxKind.BindingProperty:
-        return (<BindingProperty>node).key !== visitNode((<BindingProperty>node).key, visitor)
+      return (<BindingProperty>node).key !== visitNode((<BindingProperty>node).key, visitor) ||
         (<BindingProperty>node).value !== visitNode((<BindingProperty>node).value, visitor) ||
         (<BindingProperty>node).initializer !== visitNode((<BindingProperty>node).initializer, visitor)
         ? createBindingProperty(
@@ -1360,7 +1360,8 @@ export function visitEachChild(
     case SyntaxKind.MethodDefinition:
       return (<MethodDefinition>node).name !== visitNode((<MethodDefinition>node).name, visitor) ||
         (<MethodDefinition>node).typeParameters !== visitNode((<MethodDefinition>node).typeParameters, visitor) ||
-        (<MethodDefinition>node).formalParameterList !== visitNode((<MethodDefinition>node).formalParameterList, visitor) ||
+        (<MethodDefinition>node).formalParameterList !==
+          visitNode((<MethodDefinition>node).formalParameterList, visitor) ||
         (<MethodDefinition>node).returnType !== visitNode((<MethodDefinition>node).returnType, visitor) ||
         (<MethodDefinition>node).contents !== visitFunctionBody(transform, (<MethodDefinition>node).contents, visitor)
         ? createMethodDefinition(

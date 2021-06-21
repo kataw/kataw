@@ -29,11 +29,11 @@ export function createArrowFunction(
 ): ArrowFunction {
   return {
     kind: SyntaxKind.ArrowFunction,
-    arrowToken,
+    asyncKeyword,
     typeParameters,
     parameters,
-    asyncKeyword,
     returnType,
+    arrowToken,
     contents,
     flags,
     start,
