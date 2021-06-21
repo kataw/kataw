@@ -53,7 +53,7 @@ class A extends fooo[bar] {}
                         "end": 15
                     },
                     "expression": {
-                        "kind": 536871042,
+                        "kind": 130,
                         "member": {
                             "kind": 134299649,
                             "text": "fooo",
@@ -70,7 +70,7 @@ class A extends fooo[bar] {}
                             "start": 21,
                             "end": 24
                         },
-                        "flags": 32,
+                        "flags": 536870944,
                         "start": 15,
                         "end": 25
                     },

@@ -32,7 +32,7 @@ for (456[x] in c) d;
                 "end": 3
             },
             "initializer": {
-                "kind": 536871042,
+                "kind": 130,
                 "member": {
                     "kind": 201392130,
                     "text": 456,
@@ -49,7 +49,7 @@ for (456[x] in c) d;
                     "start": 9,
                     "end": 10
                 },
-                "flags": 32,
+                "flags": 536870944,
                 "start": 5,
                 "end": 11
             },
@@ -99,7 +99,7 @@ for (456[x] in c) d;
 
 ```javascript
 
-for ( in c)
+for (456[x] in c)
   d;
 ```
 

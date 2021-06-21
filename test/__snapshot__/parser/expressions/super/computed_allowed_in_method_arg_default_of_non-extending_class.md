@@ -77,7 +77,7 @@ class x { foo(x=super[foo]){ }}
                                             "optionalToken": null,
                                             "type": null,
                                             "right": {
-                                                "kind": 536871042,
+                                                "kind": 130,
                                                 "member": {
                                                     "kind": 225,
                                                     "superKeyword": {
@@ -98,7 +98,7 @@ class x { foo(x=super[foo]){ }}
                                                     "start": 22,
                                                     "end": 25
                                                 },
-                                                "flags": 32,
+                                                "flags": 536870944,
                                                 "start": 16,
                                                 "end": 26
                                             },

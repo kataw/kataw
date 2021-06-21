@@ -49,7 +49,7 @@ for ({[a]: ""[b] = c} of d) {}
                             "right": {
                                 "kind": 125,
                                 "left": {
-                                    "kind": 536871042,
+                                    "kind": 130,
                                     "member": {
                                         "kind": 201392131,
                                         "text": "",
@@ -66,7 +66,7 @@ for ({[a]: ""[b] = c} of d) {}
                                         "start": 14,
                                         "end": 15
                                     },
-                                    "flags": 32,
+                                    "flags": 536870944,
                                     "start": 10,
                                     "end": 16
                                 },
@@ -147,7 +147,7 @@ for ({[a]: ""[b] = c} of d) {}
 
 ```javascript
 
-for ({ [a]:  = c } of d)
+for ({ [a]: "\"\""[b] = c } of d)
   {
   }
 ```

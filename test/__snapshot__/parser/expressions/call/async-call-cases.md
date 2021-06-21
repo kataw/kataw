@@ -167,7 +167,7 @@ async(a, [q].z = y);
                 "kind": 256,
                 "elements": [
                     {
-                        "kind": 536871042,
+                        "kind": 130,
                         "member": {
                             "kind": 121,
                             "expression": {
@@ -190,7 +190,7 @@ async(a, [q].z = y);
                             "start": 38,
                             "end": 39
                         },
-                        "flags": 32,
+                        "flags": 536870944,
                         "start": 34,
                         "end": 40
                     }
@@ -226,7 +226,7 @@ async(a, [q].z = y);
                     {
                         "kind": 125,
                         "left": {
-                            "kind": 536871042,
+                            "kind": 130,
                             "member": {
                                 "kind": 121,
                                 "expression": {
@@ -249,7 +249,7 @@ async(a, [q].z = y);
                                 "start": 53,
                                 "end": 54
                             },
-                            "flags": 32,
+                            "flags": 536870944,
                             "start": 49,
                             "end": 55
                         },
@@ -670,7 +670,7 @@ async(a, [q].z = y);
                         "end": 163
                     },
                     {
-                        "kind": 536871042,
+                        "kind": 130,
                         "member": {
                             "kind": 121,
                             "expression": {
@@ -693,7 +693,7 @@ async(a, [q].z = y);
                             "start": 169,
                             "end": 170
                         },
-                        "flags": 32,
+                        "flags": 536870944,
                         "start": 164,
                         "end": 171
                     }
@@ -737,7 +737,7 @@ async(a, [q].z = y);
                     {
                         "kind": 125,
                         "left": {
-                            "kind": 536871042,
+                            "kind": 130,
                             "member": {
                                 "kind": 121,
                                 "expression": {
@@ -760,7 +760,7 @@ async(a, [q].z = y);
                                 "start": 187,
                                 "end": 188
                             },
-                            "flags": 32,
+                            "flags": 536870944,
                             "start": 182,
                             "end": 189
                         },
@@ -2370,15 +2370,15 @@ async(a, [q].z = y);
 
 async((x), y)
 async((x))
-async()
-async( = z)
+async((x)[y])
+async((x)[y] = z)
 async((x) ? b : c)
 async((x) = a ? b : c)
 async((x) ? b : c)
 async(q, (x), y)
 async(q, (x))
-async(q, )
-async(q,  = z)
+async(q, (x)[y])
+async(q, (x)[y] = z)
 async(q, (x) ? b : c)
 async(q, (x) = a ? b : c)
 async(q, (x) ? b : c)

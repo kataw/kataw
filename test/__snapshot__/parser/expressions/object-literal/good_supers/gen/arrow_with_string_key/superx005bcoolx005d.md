@@ -130,7 +130,7 @@ class x extends y {
                                                                             "end": 49
                                                                         },
                                                                         "value": {
-                                                                            "kind": 536871042,
+                                                                            "kind": 130,
                                                                             "member": {
                                                                                 "kind": 225,
                                                                                 "superKeyword": {
@@ -151,7 +151,7 @@ class x extends y {
                                                                                 "start": 57,
                                                                                 "end": 61
                                                                             },
-                                                                            "flags": 32,
+                                                                            "flags": 536870944,
                                                                             "start": 44,
                                                                             "end": 62
                                                                         },

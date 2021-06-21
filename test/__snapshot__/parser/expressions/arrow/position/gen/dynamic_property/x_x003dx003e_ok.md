@@ -45,7 +45,7 @@ x => ok[foo]
                     "end": 4
                 },
                 "contents": {
-                    "kind": 536871042,
+                    "kind": 130,
                     "member": {
                         "kind": 134299649,
                         "text": "ok",
@@ -62,7 +62,7 @@ x => ok[foo]
                         "start": 8,
                         "end": 11
                     },
-                    "flags": 32,
+                    "flags": 536870944,
                     "start": 4,
                     "end": 12
                 },
@@ -88,7 +88,7 @@ x => ok[foo]
 
 ```javascript
 
-x =>  ;
+x =>  ok[foo];
 ```
 
 ### Diagnostics

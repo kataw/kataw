@@ -54,7 +54,7 @@
                     "end": 22
                 },
                 "contents": {
-                    "kind": 536871042,
+                    "kind": 130,
                     "member": {
                         "kind": 129,
                         "member": {
@@ -150,7 +150,7 @@
                         "start": 35,
                         "end": 63
                     },
-                    "flags": 32,
+                    "flags": 536870944,
                     "start": 22,
                     "end": 64
                 },
@@ -176,7 +176,7 @@
 
 ```javascript
 
-await =>  ;
+await =>  async.await[async / ((async) =>  foo.bar)];
 ```
 
 ### Diagnostics

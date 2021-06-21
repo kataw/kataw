@@ -89,7 +89,7 @@ x = { foo(){ return {[super[foo]]: x}; }}
                                                                     "left": {
                                                                         "kind": 194,
                                                                         "expression": {
-                                                                            "kind": 536871042,
+                                                                            "kind": 130,
                                                                             "member": {
                                                                                 "kind": 225,
                                                                                 "superKeyword": {
@@ -110,7 +110,7 @@ x = { foo(){ return {[super[foo]]: x}; }}
                                                                                 "start": 28,
                                                                                 "end": 31
                                                                             },
-                                                                            "flags": 32,
+                                                                            "flags": 536870944,
                                                                             "start": 22,
                                                                             "end": 32
                                                                         },
@@ -194,7 +194,7 @@ x = { foo(){ return {[super[foo]]: x}; }}
 ```javascript
 
 x = { foo() {
-    return  { []: x };
+    return  { [super[foo]]: x };
   } };
 ```
 

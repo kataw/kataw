@@ -35,7 +35,7 @@
                                         "end": 5
                                     },
                                     "argument": {
-                                        "kind": 536871042,
+                                        "kind": 130,
                                         "member": {
                                             "kind": 220,
                                             "propertyList": {
@@ -82,7 +82,7 @@
                                             "start": 12,
                                             "end": 13
                                         },
-                                        "flags": 32,
+                                        "flags": 536870944,
                                         "start": 5,
                                         "end": 14
                                     },
@@ -146,7 +146,7 @@
 
 ```javascript
 
-({ ... } = {});
+({ ...{ b: 0 }[x] } = {});
 ```
 
 ### Diagnostics

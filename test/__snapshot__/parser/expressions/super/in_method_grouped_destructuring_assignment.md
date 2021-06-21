@@ -98,7 +98,7 @@ x = { foo(){ ([a = super[foo]] = c); }}
                                                                                 "end": 18
                                                                             },
                                                                             "right": {
-                                                                                "kind": 536871042,
+                                                                                "kind": 130,
                                                                                 "member": {
                                                                                     "kind": 225,
                                                                                     "superKeyword": {
@@ -119,7 +119,7 @@ x = { foo(){ ([a = super[foo]] = c); }}
                                                                                     "start": 25,
                                                                                     "end": 28
                                                                                 },
-                                                                                "flags": 32,
+                                                                                "flags": 536870944,
                                                                                 "start": 18,
                                                                                 "end": 29
                                                                             },
@@ -213,7 +213,7 @@ x = { foo(){ ([a = super[foo]] = c); }}
 ```javascript
 
 x = { foo() {
-    ([a = ] = c);
+    ([a = super[foo]] = c);
   } };
 ```
 

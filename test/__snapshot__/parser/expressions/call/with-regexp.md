@@ -27,7 +27,7 @@
         {
             "kind": 120,
             "expression": {
-                "kind": 536871042,
+                "kind": 130,
                 "member": {
                     "kind": 131,
                     "expression": {
@@ -66,7 +66,7 @@
                     "start": 17,
                     "end": 18
                 },
-                "flags": 32,
+                "flags": 536870944,
                 "start": 0,
                 "end": 19
             },
@@ -132,7 +132,7 @@
 
 ```javascript
 
-;
+x(/^(<[^>]+>)/)[1];
 x(y, /a/);
 ```
 

@@ -50,7 +50,7 @@ async x => ok[foo]
                     "end": 10
                 },
                 "contents": {
-                    "kind": 536871042,
+                    "kind": 130,
                     "member": {
                         "kind": 134299649,
                         "text": "ok",
@@ -67,7 +67,7 @@ async x => ok[foo]
                         "start": 14,
                         "end": 17
                     },
-                    "flags": 32,
+                    "flags": 536870944,
                     "start": 10,
                     "end": 18
                 },
@@ -93,7 +93,7 @@ async x => ok[foo]
 
 ```javascript
 
-async x =>  ;
+async x =>  ok[foo];
 ```
 
 ### Diagnostics

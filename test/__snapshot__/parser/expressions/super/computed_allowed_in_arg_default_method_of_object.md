@@ -72,7 +72,7 @@ x={ foo(a = super[foo]){ }}
                                                 "optionalToken": null,
                                                 "type": null,
                                                 "right": {
-                                                    "kind": 536871042,
+                                                    "kind": 130,
                                                     "member": {
                                                         "kind": 225,
                                                         "superKeyword": {
@@ -93,7 +93,7 @@ x={ foo(a = super[foo]){ }}
                                                         "start": 18,
                                                         "end": 21
                                                     },
-                                                    "flags": 32,
+                                                    "flags": 536870944,
                                                     "start": 11,
                                                     "end": 22
                                                 },

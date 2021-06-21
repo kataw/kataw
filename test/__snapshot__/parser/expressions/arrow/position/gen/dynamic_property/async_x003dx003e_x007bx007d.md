@@ -26,7 +26,7 @@ async => {}[foo]
         {
             "kind": 120,
             "expression": {
-                "kind": 536871042,
+                "kind": 130,
                 "member": {
                     "kind": 271,
                     "asyncKeyword": {
@@ -77,7 +77,7 @@ async => {}[foo]
                     "start": 12,
                     "end": 15
                 },
-                "flags": 32,
+                "flags": 536870944,
                 "start": 0,
                 "end": 16
             },

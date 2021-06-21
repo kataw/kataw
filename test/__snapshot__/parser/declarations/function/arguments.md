@@ -75,7 +75,7 @@ function f() {
                                         },
                                         "type": null,
                                         "initializer": {
-                                            "kind": 536871042,
+                                            "kind": 130,
                                             "member": {
                                                 "kind": 134299649,
                                                 "text": "arguments",
@@ -92,7 +92,7 @@ function f() {
                                                 "start": 35,
                                                 "end": 37
                                             },
-                                            "flags": 32,
+                                            "flags": 536870944,
                                             "start": 25,
                                             "end": 38
                                         },
@@ -138,7 +138,7 @@ function f() {
 ```javascript
 
 function f() {
-  var x = ;
+  var x = arguments[12];
 }
 ```
 

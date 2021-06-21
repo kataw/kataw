@@ -97,7 +97,7 @@ x={ dsda(){ return (a=super[bar]) => a; }}
                                                                 "optionalToken": null,
                                                                 "type": null,
                                                                 "right": {
-                                                                    "kind": 536871042,
+                                                                    "kind": 130,
                                                                     "member": {
                                                                         "kind": 225,
                                                                         "superKeyword": {
@@ -118,7 +118,7 @@ x={ dsda(){ return (a=super[bar]) => a; }}
                                                                         "start": 28,
                                                                         "end": 31
                                                                     },
-                                                                    "flags": 32,
+                                                                    "flags": 536870944,
                                                                     "start": 22,
                                                                     "end": 32
                                                                 },
@@ -200,7 +200,7 @@ x={ dsda(){ return (a=super[bar]) => a; }}
 ```javascript
 
 x = { dsda() {
-    return  (a = ) =>  a;
+    return  (a = super[bar]) =>  a;
   } };
 ```
 

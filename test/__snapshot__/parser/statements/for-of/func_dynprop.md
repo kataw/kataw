@@ -44,7 +44,7 @@ for (function(){ }[foo] of x);
             },
             "awaitKeyword": null,
             "initializer": {
-                "kind": 536871042,
+                "kind": 130,
                 "member": {
                     "kind": 177,
                     "asyncKeyword": null,
@@ -92,7 +92,7 @@ for (function(){ }[foo] of x);
                     "start": 19,
                     "end": 22
                 },
-                "flags": 32,
+                "flags": 536870944,
                 "start": 5,
                 "end": 23
             },
@@ -134,7 +134,7 @@ for (function(){ }[foo] of x);
 
 ```javascript
 
-for ( of x);
+for (function () {}[foo] of x);
 ```
 
 ### Diagnostics

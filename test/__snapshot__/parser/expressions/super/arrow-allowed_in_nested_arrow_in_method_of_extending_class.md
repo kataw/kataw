@@ -128,7 +128,7 @@ class x extends y { foo(){ return () => () => super[bar]; }}
                                                             "end": 45
                                                         },
                                                         "contents": {
-                                                            "kind": 536871042,
+                                                            "kind": 130,
                                                             "member": {
                                                                 "kind": 225,
                                                                 "superKeyword": {
@@ -149,7 +149,7 @@ class x extends y { foo(){ return () => () => super[bar]; }}
                                                                 "start": 52,
                                                                 "end": 55
                                                             },
-                                                            "flags": 32,
+                                                            "flags": 536870944,
                                                             "start": 45,
                                                             "end": 56
                                                         },
@@ -211,7 +211,7 @@ class x extends y { foo(){ return () => () => super[bar]; }}
 
 class x  {
   foo() {
-    return  () =>  () =>  ;
+    return  () =>  () =>  super[bar];
   }
 }
 ```

@@ -39,7 +39,7 @@ class C2 {
                             "end": 1
                         },
                         "expression": {
-                            "kind": 536871042,
+                            "kind": 130,
                             "member": {
                                 "kind": 134299649,
                                 "text": "a",
@@ -56,7 +56,7 @@ class C2 {
                                 "start": 3,
                                 "end": 4
                             },
-                            "flags": 32,
+                            "flags": 536870944,
                             "start": 1,
                             "end": 5
                         },
@@ -168,7 +168,7 @@ class C2 {
 
 ```javascript
 
-@
+@a[b]
 class C2 {
   method() {}
 }

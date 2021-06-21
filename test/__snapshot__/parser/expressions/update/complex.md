@@ -28,7 +28,7 @@ this.foo[foo].bar(this)(bar)[foo]()--
                 "operand": {
                     "kind": 131,
                     "expression": {
-                        "kind": 536871042,
+                        "kind": 130,
                         "member": {
                             "kind": 131,
                             "expression": {
@@ -36,7 +36,7 @@ this.foo[foo].bar(this)(bar)[foo]()--
                                 "expression": {
                                     "kind": 129,
                                     "member": {
-                                        "kind": 536871042,
+                                        "kind": 130,
                                         "member": {
                                             "kind": 129,
                                             "member": {
@@ -65,7 +65,7 @@ this.foo[foo].bar(this)(bar)[foo]()--
                                             "start": 9,
                                             "end": 12
                                         },
-                                        "flags": 32,
+                                        "flags": 536870944,
                                         "start": 0,
                                         "end": 13
                                     },
@@ -129,7 +129,7 @@ this.foo[foo].bar(this)(bar)[foo]()--
                             "start": 29,
                             "end": 32
                         },
-                        "flags": 32,
+                        "flags": 536870944,
                         "start": 0,
                         "end": 33
                     },

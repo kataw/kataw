@@ -26,7 +26,7 @@
             "expression": {
                 "kind": 198,
                 "left": {
-                    "kind": 536871042,
+                    "kind": 130,
                     "member": {
                         "kind": 201392130,
                         "text": 6,
@@ -72,7 +72,7 @@
                         "start": 2,
                         "end": 8
                     },
-                    "flags": 32,
+                    "flags": 536870944,
                     "start": 0,
                     "end": 9
                 },
@@ -112,7 +112,7 @@
 
 ```javascript
 
- in 3;
+6[(x =>  y)] in 3;
 ```
 
 ### Diagnostics

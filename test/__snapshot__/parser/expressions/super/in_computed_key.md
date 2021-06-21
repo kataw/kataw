@@ -44,7 +44,7 @@ x = {[super[foo]]: x};
                                 "left": {
                                     "kind": 194,
                                     "expression": {
-                                        "kind": 536871042,
+                                        "kind": 130,
                                         "member": {
                                             "kind": 225,
                                             "superKeyword": {
@@ -65,7 +65,7 @@ x = {[super[foo]]: x};
                                             "start": 12,
                                             "end": 15
                                         },
-                                        "flags": 32,
+                                        "flags": 536870944,
                                         "start": 6,
                                         "end": 16
                                     },

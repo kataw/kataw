@@ -111,7 +111,7 @@ async function a(){     async ([y] = delete ((foo[await x]))) => {};     }
                                                 "expression": {
                                                     "kind": 121,
                                                     "expression": {
-                                                        "kind": 536871042,
+                                                        "kind": 130,
                                                         "member": {
                                                             "kind": 134299649,
                                                             "text": "foo",
@@ -140,7 +140,7 @@ async function a(){     async ([y] = delete ((foo[await x]))) => {};     }
                                                             "start": 50,
                                                             "end": 57
                                                         },
-                                                        "flags": 32,
+                                                        "flags": 536870944,
                                                         "start": 45,
                                                         "end": 58
                                                     },

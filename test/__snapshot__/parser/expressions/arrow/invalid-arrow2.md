@@ -51,7 +51,7 @@
                 "typeParameters": null,
                 "parameters": [
                     {
-                        "kind": 536871042,
+                        "kind": 130,
                         "member": {
                             "kind": 134299649,
                             "text": "a",
@@ -68,7 +68,7 @@
                             "start": 3,
                             "end": 6
                         },
-                        "flags": 32,
+                        "flags": 536870944,
                         "start": 0,
                         "end": 7
                     },
@@ -126,7 +126,7 @@
                             "end": 22
                         },
                         {
-                            "kind": 536871042,
+                            "kind": 130,
                             "member": {
                                 "kind": 134299649,
                                 "text": "a",
@@ -143,7 +143,7 @@
                                 "start": 26,
                                 "end": 29
                             },
-                            "flags": 32,
+                            "flags": 536870944,
                             "start": 18,
                             "end": 30
                         }

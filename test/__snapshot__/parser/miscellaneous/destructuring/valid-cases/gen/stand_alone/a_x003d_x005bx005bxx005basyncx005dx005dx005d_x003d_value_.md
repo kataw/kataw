@@ -54,7 +54,7 @@ a = [[x[async]]] = value;
                                         "kind": 270,
                                         "elements": [
                                             {
-                                                "kind": 536871042,
+                                                "kind": 130,
                                                 "member": {
                                                     "kind": 134299649,
                                                     "text": "x",
@@ -71,7 +71,7 @@ a = [[x[async]]] = value;
                                                     "start": 8,
                                                     "end": 13
                                                 },
-                                                "flags": 32,
+                                                "flags": 536870944,
                                                 "start": 6,
                                                 "end": 14
                                             }
@@ -135,7 +135,7 @@ a = [[x[async]]] = value;
 
 ```javascript
 
-a = [[]] = value;
+a = [[x[async]]] = value;
 ```
 
 ### Diagnostics

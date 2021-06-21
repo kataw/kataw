@@ -31,7 +31,7 @@
                         "kind": 132,
                         "expressions": [
                             {
-                                "kind": 536871042,
+                                "kind": 130,
                                 "member": {
                                     "kind": 201392130,
                                     "text": 2,
@@ -64,7 +64,7 @@
                                     "start": 3,
                                     "end": 6
                                 },
-                                "flags": 32,
+                                "flags": 536870944,
                                 "start": 1,
                                 "end": 7
                             },
@@ -121,7 +121,7 @@
 
 ```javascript
 
-(, x) > x;
+(2[x, x], x) > x;
 ```
 
 ### Diagnostics

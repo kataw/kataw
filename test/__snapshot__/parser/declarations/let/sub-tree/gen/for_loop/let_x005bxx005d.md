@@ -37,7 +37,7 @@ for (;;) let [x]
             "statement": {
                 "kind": 120,
                 "expression": {
-                    "kind": 536871042,
+                    "kind": 130,
                     "member": {
                         "kind": 134299649,
                         "text": "let",
@@ -54,7 +54,7 @@ for (;;) let [x]
                         "start": 14,
                         "end": 15
                     },
-                    "flags": 32,
+                    "flags": 536870944,
                     "start": 8,
                     "end": 16
                 },

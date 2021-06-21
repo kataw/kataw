@@ -38,7 +38,7 @@ do let
                 "expression": {
                     "kind": 125,
                     "left": {
-                        "kind": 536871042,
+                        "kind": 130,
                         "member": {
                             "kind": 134299649,
                             "text": "let",
@@ -55,7 +55,7 @@ do let
                             "start": 8,
                             "end": 8
                         },
-                        "flags": 32,
+                        "flags": 536870944,
                         "start": 2,
                         "end": 9
                     },

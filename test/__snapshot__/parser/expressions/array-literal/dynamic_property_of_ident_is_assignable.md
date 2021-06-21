@@ -44,7 +44,7 @@
                         "kind": 270,
                         "elements": [
                             {
-                                "kind": 536871042,
+                                "kind": 130,
                                 "member": {
                                     "kind": 134299649,
                                     "text": "a",
@@ -75,7 +75,7 @@
                                     "start": 3,
                                     "end": 6
                                 },
-                                "flags": 32,
+                                "flags": 536870944,
                                 "start": 1,
                                 "end": 7
                             }
@@ -125,7 +125,7 @@
 
 ```javascript
 
-[] = z;
+[a[x.y]] = z;
 ```
 
 ### Diagnostics

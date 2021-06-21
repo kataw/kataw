@@ -42,7 +42,7 @@ while(true) let[a] = 0
                 "expression": {
                     "kind": 125,
                     "left": {
-                        "kind": 536871042,
+                        "kind": 130,
                         "member": {
                             "kind": 134299649,
                             "text": "let",
@@ -59,7 +59,7 @@ while(true) let[a] = 0
                             "start": 16,
                             "end": 17
                         },
-                        "flags": 32,
+                        "flags": 536870944,
                         "start": 11,
                         "end": 18
                     },

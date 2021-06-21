@@ -18,7 +18,7 @@ x[super.foo]
         {
             "kind": 120,
             "expression": {
-                "kind": 536871042,
+                "kind": 130,
                 "member": {
                     "kind": 134299649,
                     "text": "x",
@@ -53,7 +53,7 @@ x[super.foo]
                     "start": 2,
                     "end": 11
                 },
-                "flags": 32,
+                "flags": 536870944,
                 "start": 0,
                 "end": 12
             },

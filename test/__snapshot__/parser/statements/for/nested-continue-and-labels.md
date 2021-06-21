@@ -267,7 +267,7 @@ function relativeComplement() {
                                                                             "kind": 256,
                                                                             "elements": [
                                                                                 {
-                                                                                    "kind": 536871042,
+                                                                                    "kind": 130,
                                                                                     "member": {
                                                                                         "kind": 134299649,
                                                                                         "text": "arrayB",
@@ -284,12 +284,12 @@ function relativeComplement() {
                                                                                         "start": 171,
                                                                                         "end": 178
                                                                                     },
-                                                                                    "flags": 32,
+                                                                                    "flags": 536870944,
                                                                                     "start": 164,
                                                                                     "end": 179
                                                                                 },
                                                                                 {
-                                                                                    "kind": 536871042,
+                                                                                    "kind": 130,
                                                                                     "member": {
                                                                                         "kind": 134299649,
                                                                                         "text": "arrayA",
@@ -306,7 +306,7 @@ function relativeComplement() {
                                                                                         "start": 188,
                                                                                         "end": 195
                                                                                     },
-                                                                                    "flags": 32,
+                                                                                    "flags": 536870944,
                                                                                     "start": 180,
                                                                                     "end": 196
                                                                                 }
@@ -535,7 +535,7 @@ function relativeComplement() {
                                                         "kind": 256,
                                                         "elements": [
                                                             {
-                                                                "kind": 536871042,
+                                                                "kind": 130,
                                                                 "member": {
                                                                     "kind": 134299649,
                                                                     "text": "arrayB",
@@ -552,7 +552,7 @@ function relativeComplement() {
                                                                     "start": 327,
                                                                     "end": 334
                                                                 },
-                                                                "flags": 32,
+                                                                "flags": 536870944,
                                                                 "start": 320,
                                                                 "end": 335
                                                             }

@@ -176,7 +176,7 @@ class x extends y { constructor(){ return async function() { return async functi
                                                                                     {
                                                                                         "kind": 120,
                                                                                         "expression": {
-                                                                                            "kind": 536871042,
+                                                                                            "kind": 130,
                                                                                             "member": {
                                                                                                 "kind": 225,
                                                                                                 "superKeyword": {
@@ -197,7 +197,7 @@ class x extends y { constructor(){ return async function() { return async functi
                                                                                                 "start": 93,
                                                                                                 "end": 96
                                                                                             },
-                                                                                            "flags": 32,
+                                                                                            "flags": 536870944,
                                                                                             "start": 86,
                                                                                             "end": 97
                                                                                         },

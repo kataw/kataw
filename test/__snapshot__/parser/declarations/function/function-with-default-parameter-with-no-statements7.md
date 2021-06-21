@@ -55,7 +55,7 @@ function bar(a = v[1 + 1]) {
                         "optionalToken": null,
                         "type": null,
                         "right": {
-                            "kind": 536871042,
+                            "kind": 130,
                             "member": {
                                 "kind": 134299649,
                                 "text": "v",
@@ -92,7 +92,7 @@ function bar(a = v[1 + 1]) {
                                 "start": 19,
                                 "end": 24
                             },
-                            "flags": 32,
+                            "flags": 536870944,
                             "start": 16,
                             "end": 25
                         },
@@ -162,7 +162,7 @@ function bar(a = v[1 + 1]) {
                         "optionalToken": null,
                         "type": null,
                         "right": {
-                            "kind": 536871042,
+                            "kind": 130,
                             "member": {
                                 "kind": 134299649,
                                 "text": "v",
@@ -199,7 +199,7 @@ function bar(a = v[1 + 1]) {
                                 "start": 51,
                                 "end": 56
                             },
-                            "flags": 32,
+                            "flags": 536870944,
                             "start": 48,
                             "end": 57
                         },

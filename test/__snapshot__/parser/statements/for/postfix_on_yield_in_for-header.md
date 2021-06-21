@@ -51,7 +51,7 @@ for (yield[g]--;;);
                     "end": 15
                 },
                 "operand": {
-                    "kind": 536871042,
+                    "kind": 130,
                     "member": {
                         "kind": 134299649,
                         "text": "yield",
@@ -68,7 +68,7 @@ for (yield[g]--;;);
                         "start": 11,
                         "end": 12
                     },
-                    "flags": 32,
+                    "flags": 536870944,
                     "start": 5,
                     "end": 13
                 },
@@ -102,7 +102,7 @@ for (yield[g]--;;);
 
 ```javascript
 
-for (--; ; );
+for (yield[g]--; ; );
 ```
 
 ### Diagnostics

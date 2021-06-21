@@ -56,7 +56,7 @@
                                 "end": 16
                             },
                             "expression": {
-                                "kind": 536871042,
+                                "kind": 130,
                                 "member": {
                                     "kind": 134299649,
                                     "text": "fooo",
@@ -73,7 +73,7 @@
                                     "start": 22,
                                     "end": 25
                                 },
-                                "flags": 32,
+                                "flags": 536870944,
                                 "start": 16,
                                 "end": 26
                             },

@@ -1122,7 +1122,7 @@ function targetKey() {
                                         "end": 646
                                     },
                                     "right": {
-                                        "kind": 536871042,
+                                        "kind": 130,
                                         "member": {
                                             "kind": 131,
                                             "expression": {
@@ -1167,7 +1167,7 @@ function targetKey() {
                                             "start": 657,
                                             "end": 668
                                         },
-                                        "flags": 32,
+                                        "flags": 536870944,
                                         "start": 633,
                                         "end": 669
                                     },
@@ -1266,7 +1266,7 @@ function targetKey() {
       return  "\"q\"";
     } };
 }
-({ [sourceKey()]:  } = source());
+({ [sourceKey()]: target()[targetKey()] } = source());
 ```
 
 ### Diagnostics

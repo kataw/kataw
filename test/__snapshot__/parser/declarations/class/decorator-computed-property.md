@@ -68,7 +68,7 @@ class Foo {
                                             "end": 15
                                         },
                                         "expression": {
-                                            "kind": 536871042,
+                                            "kind": 130,
                                             "member": {
                                                 "kind": 134299649,
                                                 "text": "bar",
@@ -85,7 +85,7 @@ class Foo {
                                                 "start": 20,
                                                 "end": 24
                                             },
-                                            "flags": 32,
+                                            "flags": 536870944,
                                             "start": 15,
                                             "end": 25
                                         },
@@ -173,7 +173,7 @@ class Foo {
 ```javascript
 
 class Foo {
-  @
+  @bar[bizz]
   abc() {}
 }
 ```

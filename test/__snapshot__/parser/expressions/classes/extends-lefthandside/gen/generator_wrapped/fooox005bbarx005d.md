@@ -94,7 +94,7 @@ function *P(){
                                         "end": 32
                                     },
                                     "expression": {
-                                        "kind": 536871042,
+                                        "kind": 130,
                                         "member": {
                                             "kind": 134299649,
                                             "text": "fooo",
@@ -111,7 +111,7 @@ function *P(){
                                             "start": 38,
                                             "end": 41
                                         },
-                                        "flags": 32,
+                                        "flags": 536870944,
                                         "start": 32,
                                         "end": 42
                                     },

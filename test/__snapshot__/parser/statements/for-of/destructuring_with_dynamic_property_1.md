@@ -33,7 +33,7 @@ for ([a.b][foo] of c) d
             },
             "awaitKeyword": null,
             "initializer": {
-                "kind": 536871042,
+                "kind": 130,
                 "member": {
                     "kind": 119,
                     "elementList": {
@@ -79,7 +79,7 @@ for ([a.b][foo] of c) d
                     "start": 11,
                     "end": 14
                 },
-                "flags": 32,
+                "flags": 536870944,
                 "start": 0,
                 "end": 15
             },
@@ -129,7 +129,7 @@ for ([a.b][foo] of c) d
 
 ```javascript
 
-for ( of c)
+for ([a.b][foo] of c)
   d;
 ```
 

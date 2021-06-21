@@ -70,7 +70,7 @@
                                     "right": {
                                         "kind": 131,
                                         "expression": {
-                                            "kind": 536871042,
+                                            "kind": 130,
                                             "member": {
                                                 "kind": 134299649,
                                                 "text": "a",
@@ -87,7 +87,7 @@
                                                 "start": 20,
                                                 "end": 21
                                             },
-                                            "flags": 32,
+                                            "flags": 536870944,
                                             "start": 17,
                                             "end": 22
                                         },
@@ -212,7 +212,7 @@
                                     "right": {
                                         "kind": 131,
                                         "expression": {
-                                            "kind": 536871042,
+                                            "kind": 130,
                                             "member": {
                                                 "kind": 134299649,
                                                 "text": "a",
@@ -229,7 +229,7 @@
                                                 "start": 75,
                                                 "end": 76
                                             },
-                                            "flags": 32,
+                                            "flags": 536870944,
                                             "start": 72,
                                             "end": 77
                                         },
@@ -832,7 +832,7 @@
                                     "right": {
                                         "kind": 131,
                                         "expression": {
-                                            "kind": 536871042,
+                                            "kind": 130,
                                             "member": {
                                                 "kind": 134299649,
                                                 "text": "a",
@@ -849,7 +849,7 @@
                                                 "start": 522,
                                                 "end": 523
                                             },
-                                            "flags": 32,
+                                            "flags": 536870944,
                                             "start": 519,
                                             "end": 524
                                         },
@@ -1106,7 +1106,7 @@
                                         "right": {
                                             "kind": 131,
                                             "expression": {
-                                                "kind": 536871042,
+                                                "kind": 130,
                                                 "member": {
                                                     "kind": 134299649,
                                                     "text": "a",
@@ -1123,7 +1123,7 @@
                                                     "start": 589,
                                                     "end": 590
                                                 },
-                                                "flags": 32,
+                                                "flags": 536870944,
                                                 "start": 586,
                                                 "end": 591
                                             },
@@ -1391,7 +1391,7 @@
                                                 "right": {
                                                     "kind": 131,
                                                     "expression": {
-                                                        "kind": 536871042,
+                                                        "kind": 130,
                                                         "member": {
                                                             "kind": 134299649,
                                                             "text": "a",
@@ -1408,7 +1408,7 @@
                                                             "start": 658,
                                                             "end": 659
                                                         },
-                                                        "flags": 32,
+                                                        "flags": 536870944,
                                                         "start": 655,
                                                         "end": 660
                                                     },

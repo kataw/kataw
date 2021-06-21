@@ -112,7 +112,7 @@ var await; var f = (async function() { await => async.await[foo] });
         {
             "kind": 120,
             "expression": {
-                "kind": 536871042,
+                "kind": 130,
                 "member": {
                     "kind": 129,
                     "member": {
@@ -143,7 +143,7 @@ var await; var f = (async function() { await => async.await[foo] });
                     "start": 60,
                     "end": 63
                 },
-                "flags": 32,
+                "flags": 536870944,
                 "start": 47,
                 "end": 64
             },

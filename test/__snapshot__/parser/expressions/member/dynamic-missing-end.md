@@ -24,7 +24,7 @@ x[a
         {
             "kind": 120,
             "expression": {
-                "kind": 536871042,
+                "kind": 130,
                 "member": {
                     "kind": 134299649,
                     "text": "x",
@@ -41,7 +41,7 @@ x[a
                     "start": 2,
                     "end": 3
                 },
-                "flags": 32,
+                "flags": 536870944,
                 "start": 0,
                 "end": 3
             },
@@ -63,7 +63,7 @@ x[a
 
 ```javascript
 
-;
+x[a];
 ```
 
 ### Diagnostics

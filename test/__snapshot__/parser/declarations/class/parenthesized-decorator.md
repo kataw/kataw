@@ -151,7 +151,7 @@ class Foo {
                                                 "kind": 256,
                                                 "elements": [
                                                     {
-                                                        "kind": 536871042,
+                                                        "kind": 130,
                                                         "member": {
                                                             "kind": 134299649,
                                                             "text": "member",
@@ -168,7 +168,7 @@ class Foo {
                                                             "start": 36,
                                                             "end": 46
                                                         },
-                                                        "flags": 32,
+                                                        "flags": 536870944,
                                                         "start": 29,
                                                         "end": 47
                                                     }

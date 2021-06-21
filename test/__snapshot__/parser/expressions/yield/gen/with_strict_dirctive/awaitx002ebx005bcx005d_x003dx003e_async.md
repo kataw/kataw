@@ -35,7 +35,7 @@
         {
             "kind": 120,
             "expression": {
-                "kind": 536871042,
+                "kind": 130,
                 "member": {
                     "kind": 129,
                     "member": {
@@ -66,7 +66,7 @@
                     "start": 22,
                     "end": 23
                 },
-                "flags": 32,
+                "flags": 536870944,
                 "start": 13,
                 "end": 24
             },

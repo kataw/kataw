@@ -44,7 +44,7 @@ for ("foo"[x] of c) d;
             },
             "awaitKeyword": null,
             "initializer": {
-                "kind": 536871042,
+                "kind": 130,
                 "member": {
                     "kind": 201392131,
                     "text": "foo",
@@ -61,7 +61,7 @@ for ("foo"[x] of c) d;
                     "start": 11,
                     "end": 12
                 },
-                "flags": 32,
+                "flags": 536870944,
                 "start": 5,
                 "end": 13
             },
@@ -111,7 +111,7 @@ for ("foo"[x] of c) d;
 
 ```javascript
 
-for ( of c)
+for ("\"foo\""[x] of c)
   d;
 ```
 

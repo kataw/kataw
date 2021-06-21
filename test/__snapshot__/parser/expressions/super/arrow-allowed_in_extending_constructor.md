@@ -116,7 +116,7 @@ class x extends y { constructor(){ return () => super[bar]; }}
                                                         "end": 47
                                                     },
                                                     "contents": {
-                                                        "kind": 536871042,
+                                                        "kind": 130,
                                                         "member": {
                                                             "kind": 225,
                                                             "superKeyword": {
@@ -137,7 +137,7 @@ class x extends y { constructor(){ return () => super[bar]; }}
                                                             "start": 54,
                                                             "end": 57
                                                         },
-                                                        "flags": 32,
+                                                        "flags": 536870944,
                                                         "start": 47,
                                                         "end": 58
                                                     },
@@ -195,7 +195,7 @@ class x extends y { constructor(){ return () => super[bar]; }}
 
 class x  {
   constructor() {
-    return  () =>  ;
+    return  () =>  super[bar];
   }
 }
 ```

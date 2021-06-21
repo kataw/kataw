@@ -63,9 +63,9 @@ var a?: number[][]
         {
             "kind": 120,
             "expression": {
-                "kind": 536871042,
+                "kind": 130,
                 "member": {
-                    "kind": 536871042,
+                    "kind": 130,
                     "member": {
                         "kind": 134299649,
                         "text": "number",
@@ -82,7 +82,7 @@ var a?: number[][]
                         "start": 15,
                         "end": 15
                     },
-                    "flags": 32,
+                    "flags": 536870944,
                     "start": 7,
                     "end": 16
                 },
@@ -94,7 +94,7 @@ var a?: number[][]
                     "start": 17,
                     "end": 17
                 },
-                "flags": 32,
+                "flags": 536870944,
                 "start": 7,
                 "end": 18
             },

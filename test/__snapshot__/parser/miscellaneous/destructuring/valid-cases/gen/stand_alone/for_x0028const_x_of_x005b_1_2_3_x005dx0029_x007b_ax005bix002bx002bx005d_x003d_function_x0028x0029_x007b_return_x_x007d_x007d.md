@@ -123,7 +123,7 @@ for (const x of [ 1, 2, 3 ]) { a[i++] = function () { return x; }; }
                             "expression": {
                                 "kind": 125,
                                 "left": {
-                                    "kind": 536871042,
+                                    "kind": 130,
                                     "member": {
                                         "kind": 134299649,
                                         "text": "a",
@@ -152,7 +152,7 @@ for (const x of [ 1, 2, 3 ]) { a[i++] = function () { return x; }; }
                                         "start": 33,
                                         "end": 36
                                     },
-                                    "flags": 32,
+                                    "flags": 536870944,
                                     "start": 30,
                                     "end": 37
                                 },
@@ -259,7 +259,7 @@ for (const x of [ 1, 2, 3 ]) { a[i++] = function () { return x; }; }
 
 for (const x; of [1, 2, 3])
   {
-     = function () {
+    a[i++] = function () {
       return  x;
     };
   }

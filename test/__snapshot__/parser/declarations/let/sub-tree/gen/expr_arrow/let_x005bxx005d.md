@@ -38,7 +38,7 @@
                     "end": 5
                 },
                 "contents": {
-                    "kind": 536871042,
+                    "kind": 130,
                     "member": {
                         "kind": 134299649,
                         "text": "let",
@@ -55,7 +55,7 @@
                         "start": 11,
                         "end": 12
                     },
-                    "flags": 32,
+                    "flags": 536870944,
                     "start": 5,
                     "end": 13
                 },
@@ -81,7 +81,7 @@
 
 ```javascript
 
-() =>  ;
+() =>  let[x];
 ```
 
 ### Diagnostics

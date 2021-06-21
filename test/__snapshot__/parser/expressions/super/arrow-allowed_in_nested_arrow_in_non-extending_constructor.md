@@ -108,7 +108,7 @@ class x { constructor(){ return () => () => super[bar]; }}
                                                             "end": 43
                                                         },
                                                         "contents": {
-                                                            "kind": 536871042,
+                                                            "kind": 130,
                                                             "member": {
                                                                 "kind": 225,
                                                                 "superKeyword": {
@@ -129,7 +129,7 @@ class x { constructor(){ return () => () => super[bar]; }}
                                                                 "start": 50,
                                                                 "end": 53
                                                             },
-                                                            "flags": 32,
+                                                            "flags": 536870944,
                                                             "start": 43,
                                                             "end": 54
                                                         },
@@ -191,7 +191,7 @@ class x { constructor(){ return () => () => super[bar]; }}
 
 class x {
   constructor() {
-    return  () =>  () =>  ;
+    return  () =>  () =>  super[bar];
   }
 }
 ```

@@ -239,7 +239,7 @@ function doubleAndReturnAsArray(x: number, y: number, z: number): [number, numbe
                                     },
                                     "type": null,
                                     "initializer": {
-                                        "kind": 536871042,
+                                        "kind": 130,
                                         "member": {
                                             "kind": 134299649,
                                             "text": "arguments",
@@ -270,7 +270,7 @@ function doubleAndReturnAsArray(x: number, y: number, z: number): [number, numbe
                                             "start": 118,
                                             "end": 133
                                         },
-                                        "flags": 32,
+                                        "flags": 536870944,
                                         "start": 107,
                                         "end": 134
                                     },

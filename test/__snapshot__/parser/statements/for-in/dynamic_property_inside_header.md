@@ -43,7 +43,7 @@ for (x[a in b] in y);
                 "end": 3
             },
             "initializer": {
-                "kind": 536871042,
+                "kind": 130,
                 "member": {
                     "kind": 134299649,
                     "text": "x",
@@ -80,7 +80,7 @@ for (x[a in b] in y);
                     "start": 7,
                     "end": 13
                 },
-                "flags": 32,
+                "flags": 536870944,
                 "start": 5,
                 "end": 14
             },
@@ -122,7 +122,7 @@ for (x[a in b] in y);
 
 ```javascript
 
-for ( in y);
+for (x[a in b] in y);
 ```
 
 ### Diagnostics

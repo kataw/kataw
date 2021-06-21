@@ -31,7 +31,7 @@
                     {
                         "kind": 120,
                         "expression": {
-                            "kind": 536871042,
+                            "kind": 130,
                             "member": {
                                 "kind": 225,
                                 "superKeyword": {
@@ -85,7 +85,7 @@
                                 "start": 8,
                                 "end": 12
                             },
-                            "flags": 32,
+                            "flags": 536870944,
                             "start": 1,
                             "end": 13
                         },

@@ -41,7 +41,7 @@
                                 "end": 4
                             },
                             "argument": {
-                                "kind": 536871042,
+                                "kind": 130,
                                 "member": {
                                     "kind": 134299649,
                                     "text": "let",
@@ -58,7 +58,7 @@
                                     "start": 9,
                                     "end": 9
                                 },
-                                "flags": 32,
+                                "flags": 536870944,
                                 "start": 4,
                                 "end": 10
                             },

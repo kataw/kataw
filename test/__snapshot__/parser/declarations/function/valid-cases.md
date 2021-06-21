@@ -457,7 +457,7 @@ function f({x:arg = (arg = 2)}) {}
                             "expression": {
                                 "kind": 125,
                                 "left": {
-                                    "kind": 536871042,
+                                    "kind": 130,
                                     "member": {
                                         "kind": 134299649,
                                         "text": "arguments",
@@ -474,7 +474,7 @@ function f({x:arg = (arg = 2)}) {}
                                         "start": 122,
                                         "end": 123
                                     },
-                                    "flags": 32,
+                                    "flags": 536870944,
                                     "start": 111,
                                     "end": 124
                                 },
@@ -651,7 +651,7 @@ function f({x:arg = (arg = 2)}) {}
                             "expression": {
                                 "kind": 125,
                                 "left": {
-                                    "kind": 536871042,
+                                    "kind": 130,
                                     "member": {
                                         "kind": 134299649,
                                         "text": "arguments",
@@ -668,7 +668,7 @@ function f({x:arg = (arg = 2)}) {}
                                         "start": 178,
                                         "end": 179
                                     },
-                                    "flags": 32,
+                                    "flags": 536870944,
                                     "start": 167,
                                     "end": 180
                                 },
@@ -3099,7 +3099,7 @@ function f({x:arg = (arg = 2)}) {}
                             "expression": {
                                 "kind": 125,
                                 "left": {
-                                    "kind": 536871042,
+                                    "kind": 130,
                                     "member": {
                                         "kind": 134299649,
                                         "text": "arguments",
@@ -3116,7 +3116,7 @@ function f({x:arg = (arg = 2)}) {}
                                         "start": 855,
                                         "end": 856
                                     },
-                                    "flags": 32,
+                                    "flags": 536870944,
                                     "start": 844,
                                     "end": 857
                                 },
@@ -3639,7 +3639,7 @@ function f({x:arg = (arg = 2)}) {}
                                             "contents": {
                                                 "kind": 125,
                                                 "left": {
-                                                    "kind": 536871042,
+                                                    "kind": 130,
                                                     "member": {
                                                         "kind": 134299649,
                                                         "text": "arguments",
@@ -3656,7 +3656,7 @@ function f({x:arg = (arg = 2)}) {}
                                                         "start": 1025,
                                                         "end": 1026
                                                     },
-                                                    "flags": 32,
+                                                    "flags": 536870944,
                                                     "start": 1014,
                                                     "end": 1027
                                                 },
@@ -4055,12 +4055,12 @@ function f() {
 }
 function f() {
   g(arg);
-   = 42;
+  arguments[0] = 42;
   g(arg);
 }
 function f() {
   g(arg);
-   = 42;
+  arguments[0] = 42;
   g(arg);
 }
 function f() {
@@ -4125,7 +4125,7 @@ function f() {
 }
 function f() {
   g(arg);
-   = 42;
+  arguments[0] = 42;
   g(arg);
 }
 function f() {
@@ -4140,7 +4140,7 @@ function f() {
 }
 function f() {
   g(arg);
-  g(() =>   = 42);
+  g(() =>  arguments[0] = 42);
   g(arg);
 }
 function f() {}

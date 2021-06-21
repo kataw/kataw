@@ -100,7 +100,7 @@ new foo().bar++;
                     "end": 28
                 },
                 "operand": {
-                    "kind": 536871042,
+                    "kind": 130,
                     "member": {
                         "kind": 134299649,
                         "text": "foo",
@@ -117,7 +117,7 @@ new foo().bar++;
                         "start": 22,
                         "end": 25
                     },
-                    "flags": 32,
+                    "flags": 536870944,
                     "start": 17,
                     "end": 26
                 },
@@ -140,7 +140,7 @@ new foo().bar++;
                     "end": 42
                 },
                 "operand": {
-                    "kind": 536871042,
+                    "kind": 130,
                     "member": {
                         "kind": 131,
                         "expression": {
@@ -171,7 +171,7 @@ new foo().bar++;
                         "start": 36,
                         "end": 39
                     },
-                    "flags": 32,
+                    "flags": 536870944,
                     "start": 29,
                     "end": 40
                 },
@@ -286,7 +286,7 @@ new foo().bar++;
                     "end": 80
                 },
                 "operand": {
-                    "kind": 536871042,
+                    "kind": 130,
                     "member": {
                         "kind": 4276321,
                         "flags": 97,
@@ -301,7 +301,7 @@ new foo().bar++;
                         "start": 74,
                         "end": 77
                     },
-                    "flags": 32,
+                    "flags": 536870944,
                     "start": 68,
                     "end": 78
                 },
@@ -324,7 +324,7 @@ new foo().bar++;
                     "end": 98
                 },
                 "operand": {
-                    "kind": 536871042,
+                    "kind": 130,
                     "member": {
                         "kind": 210,
                         "newKeyword": {
@@ -361,7 +361,7 @@ new foo().bar++;
                         "start": 92,
                         "end": 95
                     },
-                    "flags": 32,
+                    "flags": 536870944,
                     "start": 81,
                     "end": 96
                 },
@@ -449,12 +449,12 @@ new foo().bar++;
 
 foo++;
 foo.bar++;
-++;
-++;
+foo[bar]++;
+foo()[bar]++;
 foo().bar++;
 this.foo++;
-++;
-++;
+this[foo]++;
+new  foo()[bar]++;
 new  foo().bar++;
 ```
 

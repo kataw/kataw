@@ -26,7 +26,7 @@ foo[ a instanceof b > c ]
         {
             "kind": 120,
             "expression": {
-                "kind": 536871042,
+                "kind": 130,
                 "member": {
                     "kind": 134299649,
                     "text": "foo",
@@ -83,7 +83,7 @@ foo[ a instanceof b > c ]
                     "start": 4,
                     "end": 23
                 },
-                "flags": 32,
+                "flags": 536870944,
                 "start": 0,
                 "end": 25
             },
@@ -105,7 +105,7 @@ foo[ a instanceof b > c ]
 
 ```javascript
 
-;
+foo[a inctanceof b > c];
 ```
 
 ### Diagnostics

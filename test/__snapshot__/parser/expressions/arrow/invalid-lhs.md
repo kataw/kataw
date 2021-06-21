@@ -247,7 +247,7 @@ x = (a,b)+c=>{};
                     "end": 53
                 },
                 "right": {
-                    "kind": 536871042,
+                    "kind": 130,
                     "member": {
                         "kind": 121,
                         "expression": {
@@ -285,7 +285,7 @@ x = (a,b)+c=>{};
                         "start": 61,
                         "end": 62
                     },
-                    "flags": 32,
+                    "flags": 536870944,
                     "start": 53,
                     "end": 63
                 },
@@ -828,7 +828,7 @@ x = (a,b)+c=>{};
                     "end": 228
                 },
                 "right": {
-                    "kind": 536871042,
+                    "kind": 130,
                     "member": {
                         "kind": 16637,
                         "text": "",
@@ -845,7 +845,7 @@ x = (a,b)+c=>{};
                         "start": 232,
                         "end": 233
                     },
-                    "flags": 32,
+                    "flags": 536870944,
                     "start": 228,
                     "end": 234
                 },
@@ -889,7 +889,7 @@ x = (a,b)+c=>{};
                     "end": 242
                 },
                 "right": {
-                    "kind": 536871042,
+                    "kind": 130,
                     "member": {
                         "kind": 16637,
                         "text": "",
@@ -906,7 +906,7 @@ x = (a,b)+c=>{};
                         "start": 246,
                         "end": 247
                     },
-                    "flags": 32,
+                    "flags": 536870944,
                     "start": 242,
                     "end": 248
                 },

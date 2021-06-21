@@ -274,7 +274,7 @@ for ({a: b.c}-- of d) e;
                 "end": 38
             },
             "condition": {
-                "kind": 536871042,
+                "kind": 130,
                 "member": {
                     "kind": 134299649,
                     "text": "of",
@@ -321,7 +321,7 @@ for ({a: b.c}-- of d) e;
                     "start": 47,
                     "end": 52
                 },
-                "flags": 32,
+                "flags": 536870944,
                 "start": 42,
                 "end": 53
             },
@@ -3134,7 +3134,7 @@ for ({a: b.c}-- of d) e;
         {
             "kind": 120,
             "expression": {
-                "kind": 536871042,
+                "kind": 130,
                 "member": {
                     "kind": 134299649,
                     "text": "of",
@@ -3157,7 +3157,7 @@ for ({a: b.c}-- of d) e;
                     "start": 812,
                     "end": 814
                 },
-                "flags": 32,
+                "flags": 536870944,
                 "start": 807,
                 "end": 815
             },

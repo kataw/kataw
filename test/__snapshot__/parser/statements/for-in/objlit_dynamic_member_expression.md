@@ -43,7 +43,7 @@ for ({}[b] in c) d;
                 "end": 3
             },
             "initializer": {
-                "kind": 536871042,
+                "kind": 130,
                 "member": {
                     "kind": 220,
                     "propertyList": {
@@ -66,7 +66,7 @@ for ({}[b] in c) d;
                     "start": 8,
                     "end": 9
                 },
-                "flags": 32,
+                "flags": 536870944,
                 "start": 0,
                 "end": 10
             },
@@ -116,7 +116,7 @@ for ({}[b] in c) d;
 
 ```javascript
 
-for ( in c)
+for ({}[b] in c)
   d;
 ```
 

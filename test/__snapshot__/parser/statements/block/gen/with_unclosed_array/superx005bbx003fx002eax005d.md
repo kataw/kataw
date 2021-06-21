@@ -36,7 +36,7 @@
                                 "kind": 270,
                                 "elements": [
                                     {
-                                        "kind": 536871042,
+                                        "kind": 130,
                                         "member": {
                                             "kind": 225,
                                             "superKeyword": {
@@ -90,7 +90,7 @@
                                             "start": 9,
                                             "end": 13
                                         },
-                                        "flags": 32,
+                                        "flags": 536870944,
                                         "start": 2,
                                         "end": 14
                                     }

@@ -25,7 +25,7 @@ for (function(){ }[x in y] of x);
             },
             "awaitKeyword": null,
             "initializer": {
-                "kind": 536871042,
+                "kind": 130,
                 "member": {
                     "kind": 177,
                     "asyncKeyword": null,
@@ -93,7 +93,7 @@ for (function(){ }[x in y] of x);
                     "start": 19,
                     "end": 25
                 },
-                "flags": 32,
+                "flags": 536870944,
                 "start": 5,
                 "end": 26
             },
@@ -135,7 +135,7 @@ for (function(){ }[x in y] of x);
 
 ```javascript
 
-for ( of x);
+for (function () {}[x in y] of x);
 ```
 
 ### Diagnostics

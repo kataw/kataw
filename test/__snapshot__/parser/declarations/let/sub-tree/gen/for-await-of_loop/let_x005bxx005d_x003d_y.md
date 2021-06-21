@@ -64,7 +64,7 @@ for await (a of b) let [x] = y
                 "expression": {
                     "kind": 125,
                     "left": {
-                        "kind": 536871042,
+                        "kind": 130,
                         "member": {
                             "kind": 134299649,
                             "text": "let",
@@ -81,7 +81,7 @@ for await (a of b) let [x] = y
                             "start": 24,
                             "end": 25
                         },
-                        "flags": 32,
+                        "flags": 536870944,
                         "start": 18,
                         "end": 26
                     },

@@ -45,7 +45,7 @@ await => async.await[foo]
                     "end": 8
                 },
                 "contents": {
-                    "kind": 536871042,
+                    "kind": 130,
                     "member": {
                         "kind": 129,
                         "member": {
@@ -76,7 +76,7 @@ await => async.await[foo]
                         "start": 21,
                         "end": 24
                     },
-                    "flags": 32,
+                    "flags": 536870944,
                     "start": 8,
                     "end": 25
                 },
@@ -102,7 +102,7 @@ await => async.await[foo]
 
 ```javascript
 
-await =>  ;
+await =>  async.await[foo];
 ```
 
 ### Diagnostics

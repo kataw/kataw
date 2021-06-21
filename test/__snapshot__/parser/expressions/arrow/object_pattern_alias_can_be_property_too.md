@@ -156,7 +156,7 @@
                                         "end": 27
                                     },
                                     "right": {
-                                        "kind": 536871042,
+                                        "kind": 130,
                                         "member": {
                                             "kind": 131,
                                             "expression": {
@@ -187,7 +187,7 @@
                                             "start": 40,
                                             "end": 41
                                         },
-                                        "flags": 32,
+                                        "flags": 536870944,
                                         "start": 25,
                                         "end": 42
                                     },
@@ -280,7 +280,7 @@
 
 ```javascript
 
-({ a, a: a, a: a = a, [a]: { a }, a: , a: this.a } = 0);
+({ a, a: a, a: a = a, [a]: { a }, a: some_call()[a], a: this.a } = 0);
 ```
 
 ### Diagnostics

@@ -184,7 +184,7 @@
                                         "end": 26
                                     },
                                     "right": {
-                                        "kind": 536871042,
+                                        "kind": 130,
                                         "member": {
                                             "kind": 131,
                                             "expression": {
@@ -215,7 +215,7 @@
                                             "start": 35,
                                             "end": 36
                                         },
-                                        "flags": 32,
+                                        "flags": 536870944,
                                         "start": 24,
                                         "end": 37
                                     },
@@ -2129,7 +2129,7 @@
                                         "end": 459
                                     },
                                     "argument": {
-                                        "kind": 536871042,
+                                        "kind": 130,
                                         "member": {
                                             "kind": 201392131,
                                             "text": "x",
@@ -2146,7 +2146,7 @@
                                             "start": 463,
                                             "end": 464
                                         },
-                                        "flags": 32,
+                                        "flags": 536870944,
                                         "start": 459,
                                         "end": 465
                                     },
@@ -2210,7 +2210,7 @@
                                         "end": 478
                                     },
                                     "argument": {
-                                        "kind": 536871042,
+                                        "kind": 130,
                                         "member": {
                                             "kind": 119,
                                             "elementList": {
@@ -2233,7 +2233,7 @@
                                             "start": 481,
                                             "end": 482
                                         },
-                                        "flags": 32,
+                                        "flags": 536870944,
                                         "start": 478,
                                         "end": 483
                                     },
@@ -2297,7 +2297,7 @@
                                         "end": 496
                                     },
                                     "argument": {
-                                        "kind": 536871042,
+                                        "kind": 130,
                                         "member": {
                                             "kind": 119,
                                             "elementList": {
@@ -2320,7 +2320,7 @@
                                             "start": 499,
                                             "end": 500
                                         },
-                                        "flags": 32,
+                                        "flags": 536870944,
                                         "start": 496,
                                         "end": 501
                                     },
@@ -2404,7 +2404,7 @@
                                         "end": 518
                                     },
                                     "argument": {
-                                        "kind": 536871042,
+                                        "kind": 130,
                                         "member": {
                                             "kind": 119,
                                             "elementList": {
@@ -2427,7 +2427,7 @@
                                             "start": 521,
                                             "end": 522
                                         },
-                                        "flags": 32,
+                                        "flags": 536870944,
                                         "start": 518,
                                         "end": 523
                                     },
@@ -2517,7 +2517,7 @@
                                         "end": 542
                                     },
                                     "argument": {
-                                        "kind": 536871042,
+                                        "kind": 130,
                                         "member": {
                                             "kind": 119,
                                             "elementList": {
@@ -2540,7 +2540,7 @@
                                             "start": 545,
                                             "end": 546
                                         },
-                                        "flags": 32,
+                                        "flags": 536870944,
                                         "start": 542,
                                         "end": 547
                                     },
@@ -2636,7 +2636,7 @@
                                         "end": 568
                                     },
                                     "argument": {
-                                        "kind": 536871042,
+                                        "kind": 130,
                                         "member": {
                                             "kind": 220,
                                             "propertyList": {
@@ -2659,7 +2659,7 @@
                                             "start": 571,
                                             "end": 572
                                         },
-                                        "flags": 32,
+                                        "flags": 536870944,
                                         "start": 568,
                                         "end": 573
                                     },
@@ -2723,7 +2723,7 @@
                                         "end": 586
                                     },
                                     "argument": {
-                                        "kind": 536871042,
+                                        "kind": 130,
                                         "member": {
                                             "kind": 220,
                                             "propertyList": {
@@ -2755,7 +2755,7 @@
                                                 "end": 592
                                             },
                                             "right": {
-                                                "kind": 536871042,
+                                                "kind": 130,
                                                 "member": {
                                                     "kind": 121,
                                                     "expression": {
@@ -2778,7 +2778,7 @@
                                                     "start": 597,
                                                     "end": 598
                                                 },
-                                                "flags": 32,
+                                                "flags": 536870944,
                                                 "start": 592,
                                                 "end": 599
                                             },
@@ -2786,7 +2786,7 @@
                                             "start": 589,
                                             "end": 599
                                         },
-                                        "flags": 32,
+                                        "flags": 536870944,
                                         "start": 586,
                                         "end": 600
                                     },
@@ -3360,7 +3360,7 @@
                                         "end": 743
                                     },
                                     "argument": {
-                                        "kind": 536871042,
+                                        "kind": 130,
                                         "member": {
                                             "kind": 220,
                                             "propertyList": {
@@ -3407,7 +3407,7 @@
                                             "start": 750,
                                             "end": 751
                                         },
-                                        "flags": 32,
+                                        "flags": 536870944,
                                         "start": 743,
                                         "end": 752
                                     },
@@ -3586,7 +3586,7 @@
                             "kind": 270,
                             "elements": [
                                 {
-                                    "kind": 536871042,
+                                    "kind": 130,
                                     "member": {
                                         "kind": 131,
                                         "expression": {
@@ -3631,7 +3631,7 @@
                                         "start": 794,
                                         "end": 805
                                     },
-                                    "flags": 32,
+                                    "flags": 536870944,
                                     "start": 785,
                                     "end": 806
                                 }
@@ -3919,7 +3919,7 @@
 ```javascript
 
 ({ x: y } = z = {});
-({ x:  } = z = {});
+({ x: foo()[y] } = z = {});
 ({ x: { foo: foo().y } });
 [...{ a }] = [{}];
 ({ x: z = 1, x1: y = 20 } = {});
@@ -3944,22 +3944,22 @@
 ({ x: x + y });
 ({ x: new  x() });
 ({ x: delete x.y });
-({ ... } = x);
-({ ... } = x);
-({ ... } = x = y);
-({ ... } = x = (y));
-({ ... } = (x) = (y));
-({ ... } = x);
-({ ... } = x);
+({ ..."\"x\""[x] } = x);
+({ ...[][x] } = x);
+({ ...[][x] } = x = y);
+({ ...[][x] } = x = (y));
+({ ...[][x] } = (x) = (y));
+({ ...{}[x] } = x);
+({ ...{}[x = (y)[z]] } = x);
 ({ async x() {} });
 ({ async x() {} });
 ({ async [foo]() {} });
 ({ get 500() {} });
 ({ set 500() {} });
 ({ set [foo]() {} });
-({ ... } = {});
+({ ...{ b: 0 }[x] } = {});
 ({ ...{ b: 0 }.x } = {});
-([] = x);
+([target()[targetKey()]] = x);
 ({ ...x.x, y });
 ({ ...x.x = y, y });
 ({ ...x = y, y });

@@ -35,7 +35,7 @@
                             {
                                 "kind": 125,
                                 "left": {
-                                    "kind": 536871042,
+                                    "kind": 130,
                                     "member": {
                                         "kind": 210,
                                         "newKeyword": {
@@ -72,7 +72,7 @@
                                         "start": 9,
                                         "end": 10
                                     },
-                                    "flags": 32,
+                                    "flags": 536870944,
                                     "start": 1,
                                     "end": 11
                                 },
@@ -140,7 +140,7 @@
 
 ```javascript
 
-[ = a] = z;
+[new  x()[y] = a] = z;
 ```
 
 ### Diagnostics
