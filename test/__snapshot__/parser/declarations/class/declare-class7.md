@@ -125,7 +125,7 @@ declare function foo<T>(): void;
 
 ```javascript
 
- declare function foo(): void, ; 
+ declare function <T>foo(): void, ; 
 ```
 
 ### Diagnostics

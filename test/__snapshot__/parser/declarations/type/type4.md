@@ -1803,37 +1803,37 @@ type T27 = ArgumentType<never>;  // any
 
 ```javascript
 
- // string
+ type T10 = ReturnType// string
 , // string
-// void
+type T11 = ReturnType// void
 , // void
-// {}
+type T12 = ReturnType// {}
 , // {}
-// { a: number, b: string }
+type T14 = ReturnType// { a: number, b: string }
 , // { a: number, b: string }
-// C
+type T15 = ReturnType// C
 , // C
-// any
+type T16 = ReturnType// any
 , // any
-// any
+type T17 = ReturnType// any
 , // any
-// Error
+type T18 = ReturnType// Error
 , // Error
-// any
+type T19 = ReturnType// any
 , // any
-// never
+type T20 = ArgumentType// never
 , // never
-// string
+type T21 = ArgumentType// string
 , // string
-// string | undefined
+type T22 = ArgumentType// string | undefined
 , // string | undefined
-// string
+type T23 = ArgumentType// string
 , // string
-// Error
+type T25 = ArgumentType// Error
 , // Error
-// any
+type T26 = ArgumentType// any
 , // any
-// any
+type T27 = ArgumentType// any
  
 ```
 

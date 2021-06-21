@@ -123,7 +123,7 @@ type a = (bj[c])
 
 ```javascript
 
-  
+ type a = () 
 ```
 
 ### Diagnostics

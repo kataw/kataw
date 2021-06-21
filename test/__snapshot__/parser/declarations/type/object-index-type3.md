@@ -143,7 +143,7 @@ type X = {[x & y]: string};
 
 ```javascript
 
-  
+ type X =  
 ```
 
 ### Diagnostics

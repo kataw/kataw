@@ -153,7 +153,7 @@ type a = (?x) => T;
 
 ```javascript
 
-  
+ type a =  
 ```
 
 ### Diagnostics

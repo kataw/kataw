@@ -109,7 +109,7 @@ type A = Obj['a'];
 
 ```javascript
 
-  
+ type A =  
 ```
 
 ### Diagnostics

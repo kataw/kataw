@@ -1136,14 +1136,14 @@ function w2<A: Array<number>>(x: A, f: (number, ...A) => void) {
 
 ```javascript
 
- function w(, ) {
+ function <A []>w(, ) {
 ;// nope
 ,
 ;// nope
 ,
 ;,
 ;// nope
-}, function w2(, ) {
+}, function <A Array>w2(, ) {
 ;,
 ;// nope
 ,

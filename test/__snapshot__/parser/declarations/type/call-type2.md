@@ -402,7 +402,7 @@ type X = $Call<(<T>(T) => T) & (<T>(T) => T), A | B>;
 
 ```javascript
 
-  
+ type X = $Call 
 ```
 
 ### Diagnostics

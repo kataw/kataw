@@ -411,9 +411,9 @@ return 42;
 },
 async function bar() {
 var a = await ;,
-var b  = a;// valid
+var b number = a;// valid
 ,
-var c  = a;// Error: number ~> string
+var c string = a;// Error: number ~> string
 }
 } 
 ```

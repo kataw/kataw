@@ -1045,13 +1045,13 @@ function d<X: [number, number]>(x: X): X {
 
 ```javascript
 
- function a(): X {
+ function <X $ReadOnlyArray>a(): X {
 return [...x];
-}, function b(): X {
+}, function <X $ReadOnlyArray>b(): X {
 return [...x, ...x];// nope, because X could be a tuple
-}, function c(): X {
+}, function <X $ReadOnlyArray>c(): X {
 return [42, ...x];// error
-}, function d(): X {
+}, function <X []>d(): X {
 return [...x, ...x];// error
 } 
 ```

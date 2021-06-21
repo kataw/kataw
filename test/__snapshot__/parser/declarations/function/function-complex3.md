@@ -825,7 +825,7 @@ function b1<A: 'a', B: A>(b: B): void {
 
 ```javascript
 
- function c() {
+ function <X T>c() {
 switch(x) {
     case 'p': break;,
     case 'q': break;,
@@ -833,10 +833,10 @@ switch(x) {
      // error
         break;
 },
-function a(): void {
+function <A a>a(): void {
 if (a === 'a') {  }
 }
-}, function b1(): void {
+}, function <A a, B A>b1(): void {
 if (b === 'b') {  }// error 'b' not compatible with 'a'
 } 
 ```

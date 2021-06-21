@@ -114,7 +114,7 @@ function foo<T>() {}
 
 ```javascript
 
- function foo() {
+ function <T>foo() {
 } 
 ```
 

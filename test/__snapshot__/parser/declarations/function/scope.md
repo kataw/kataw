@@ -1304,8 +1304,8 @@ function for_scope_var() {
 ```javascript
 
  function block_scope() {
-let a  = 0;,
-var b  = 0;,
+let a number = 0;,
+var b number = 0;,
 { let a = "";, var b = ""; }
 }, function default_param_1() {
 function f(// error: number ~> string
@@ -1323,10 +1323,10 @@ let b = 0;,
 return x;
 }
 }, function for_scope_let() {
-let a  = 0;,
+let a number = 0;,
 for(let a = ""/* ok: local to init */;;){  }
 }, function for_scope_var() {
-var a  = 0;,
+var a number = 0;,
 for(var a = ""/* error: string ~> number */;;){  }
 } 
 ```

@@ -218,7 +218,7 @@ type A = (Array<string>, ...Array<string>) => void
 
 ```javascript
 
-  
+ type A =  
 ```
 
 ### Diagnostics

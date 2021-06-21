@@ -124,7 +124,7 @@ type A = (string,) => void
 
 ```javascript
 
-  
+ type A =  
 ```
 
 ### Diagnostics

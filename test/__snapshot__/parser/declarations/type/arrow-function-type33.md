@@ -252,7 +252,7 @@ type a = (a[a & b][c | d][][][][]) => T;
 
 ```javascript
 
-  
+ type a =  
 ```
 
 ### Diagnostics

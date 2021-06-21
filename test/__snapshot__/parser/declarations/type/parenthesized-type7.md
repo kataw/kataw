@@ -108,7 +108,7 @@ type X = (x.y);
 
 ```javascript
 
-  
+ type X = () 
 ```
 
 ### Diagnostics

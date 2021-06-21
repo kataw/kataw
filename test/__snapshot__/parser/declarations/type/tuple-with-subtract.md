@@ -103,7 +103,7 @@ type x = [-1];
 
 ```javascript
 
-  
+ type x = [] 
 ```
 
 ### Diagnostics

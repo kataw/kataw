@@ -139,7 +139,7 @@ function bar<T: ?number>() {}
 
 ```javascript
 
- function bar() {
+ function <T >bar() {
 } 
 ```
 

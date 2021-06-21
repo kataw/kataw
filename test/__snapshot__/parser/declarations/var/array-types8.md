@@ -409,7 +409,7 @@ var a: typeof A[];
 
 ```javascript
 
- var a ;, var a ;, var a ;, var a ;, var a ; 
+ var a [];, var a ;, var a [];, var a ;, var a []; 
 ```
 
 ### Diagnostics

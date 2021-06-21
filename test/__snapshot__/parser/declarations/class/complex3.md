@@ -1545,13 +1545,13 @@ var stringArr:Array<string> = ['a','b'];
 
  class Tag {
     constructor() {
-    var a1  = [];,
-    var a2  = a1;
+    var a1 Array = [];,
+    var a2 Array = a1;
     }
-}, , class Tag_ {
+}, type Node = Tag_, string, class Tag_ {
     constructor() {
-    var a1  = [new Tag_];,
-    var a2  = a1;
+    var a1 Array = [new Tag_];,
+    var a2 Array = a1;
     }
 }, class C {
     x: , string,
@@ -1566,7 +1566,7 @@ var stringArr:Array<string> = ['a','b'];
     this.content=content;,
     return this.content;
     }
-}, var numberAndStringArr  = [1, 2];, var stringArr  = ['a', 'b']; 
+}, var numberAndStringArr Array = [1, 2];, var stringArr Array = ['a', 'b']; 
 ```
 
 ### Diagnostics

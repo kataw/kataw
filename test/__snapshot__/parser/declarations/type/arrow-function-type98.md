@@ -192,7 +192,7 @@ type a = ((x | (y)=> T)) => T;
 
 ```javascript
 
-  
+ type a =  
 ```
 
 ### Diagnostics

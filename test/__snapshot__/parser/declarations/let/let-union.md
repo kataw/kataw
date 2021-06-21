@@ -93,7 +93,7 @@
 
 ```javascript
 
- let x ; 
+ let x | string; 
 ```
 
 ### Diagnostics

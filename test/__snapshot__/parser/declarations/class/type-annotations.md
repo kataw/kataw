@@ -1247,7 +1247,7 @@ class Array { concat(items:number | string) {}; }
     get fooProp(): number {
     }
 }, class Foo8 {
-    "bar"() {
+    "bar"<T>() {
     }
 }, class Foo10 {
     static prop1: string,

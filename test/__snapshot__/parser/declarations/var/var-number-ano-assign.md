@@ -237,7 +237,7 @@ var a: { [a: number]: string; [b: number]: string; };
 
 ```javascript
 
- var numVal  = otherNumVal;, var a ; 
+ var numVal number = otherNumVal;, var a ; 
 ```
 
 ### Diagnostics

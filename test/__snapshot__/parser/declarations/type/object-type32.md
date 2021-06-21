@@ -135,7 +135,7 @@ type x = {get x (): string }
 
 ```javascript
 
-  
+ type x =  
 ```
 
 ### Diagnostics

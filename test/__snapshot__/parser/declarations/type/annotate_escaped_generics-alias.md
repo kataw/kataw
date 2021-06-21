@@ -255,7 +255,7 @@ type Tr = <Return>(() => Pr<Return>) => Return;
 
 ```javascript
 
-  
+ type Tr =  
 ```
 
 ### Diagnostics

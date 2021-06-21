@@ -138,7 +138,7 @@ type a = {x:y.z};
 
 ```javascript
 
-  
+ type a =  
 ```
 
 ### Diagnostics

@@ -426,7 +426,7 @@ type a = (((x | ((y & [((x) => T)]) => T) => T) => T) => T) => T;
 
 ```javascript
 
-  
+ type a =  
 ```
 
 ### Diagnostics

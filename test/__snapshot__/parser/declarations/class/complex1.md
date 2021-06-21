@@ -924,7 +924,7 @@ class D<T> {
 }, class D {
     x: T,
     ,
-    m(, ): S {
+    m<S>(, ): S {
     this.x=u;,
     return z;
     }

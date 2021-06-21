@@ -401,7 +401,7 @@ type q = { [[foo]]: X }
 
 ```javascript
 
- , , ,  
+ type x = , type y = , type z = , type q =  
 ```
 
 ### Diagnostics

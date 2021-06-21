@@ -118,7 +118,7 @@ type T<U> = U;
 
 ```javascript
 
-  
+ type T<U> = U 
 ```
 
 ### Diagnostics

@@ -366,7 +366,7 @@ type a = (bj[[c]] & d) => T;
 
 ```javascript
 
- ,  
+ type a = (), type a =  
 ```
 
 ### Diagnostics

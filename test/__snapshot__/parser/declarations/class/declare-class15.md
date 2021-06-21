@@ -92,7 +92,7 @@ declare var string: any;
 
 ```javascript
 
- var string ; 
+ var string any; 
 ```
 
 ### Diagnostics

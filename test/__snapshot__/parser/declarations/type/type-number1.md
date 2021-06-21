@@ -109,7 +109,7 @@ type foo<number> = string;
 
 ```javascript
 
-  
+ type foo<number> = string 
 ```
 
 ### Diagnostics

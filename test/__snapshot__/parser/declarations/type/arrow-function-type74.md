@@ -183,7 +183,7 @@ type a = ({x: (y)}) => T;
 
 ```javascript
 
-  
+ type a =  
 ```
 
 ### Diagnostics

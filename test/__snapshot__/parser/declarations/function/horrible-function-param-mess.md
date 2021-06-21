@@ -1474,7 +1474,7 @@ function processArgs<A1: {}, A2: {}>(
 
 ```javascript
 
- function processArgs():  {
+ function <A1 , A2 >processArgs():  {
 return (resolver: Resolver): Resolver =>(src: S, args: A1, appContext: C, info: I): Promise =>;
 } 
 ```

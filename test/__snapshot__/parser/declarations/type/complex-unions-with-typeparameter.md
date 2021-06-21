@@ -395,7 +395,7 @@ type ConstantExpr<T> = Expr<Constant> | LiteralExpr<T>;
 
 ```javascript
 
- ,  
+ type Expr<T> = FieldExpr, LiteralExpr, type ConstantExpr<T> = Expr, LiteralExpr 
 ```
 
 ### Diagnostics

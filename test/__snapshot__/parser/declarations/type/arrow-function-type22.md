@@ -212,7 +212,7 @@ type a = ({key():string}[x]) => T;
 
 ```javascript
 
-  
+ type a =  
 ```
 
 ### Diagnostics

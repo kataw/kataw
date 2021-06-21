@@ -145,7 +145,7 @@ type X = (|a) => T;
 
 ```javascript
 
-  
+ type X =  
 ```
 
 ### Diagnostics

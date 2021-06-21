@@ -195,7 +195,7 @@ type X = {[bj[c] & a | b]: string};
 
 ```javascript
 
-  
+ type X =  
 ```
 
 ### Diagnostics

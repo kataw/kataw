@@ -156,7 +156,7 @@ async function f() {
 ```javascript
 
  async function f() {
-const a  = 1;// not an error because parsing a type annotation exits the Await context
+const a await = 1;// not an error because parsing a type annotation exits the Await context
 } 
 ```
 

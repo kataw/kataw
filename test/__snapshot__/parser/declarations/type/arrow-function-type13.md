@@ -206,7 +206,7 @@ type a = (a[a & b][][][][][]) => T;
 
 ```javascript
 
-  
+ type a =  
 ```
 
 ### Diagnostics

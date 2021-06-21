@@ -2479,7 +2479,7 @@ function foo28(numVal?: number = 2) {}
 }, function foo14():  {
 }, function foo15():  {
 }, function foo16():  {
-}, function foo17() {
+}, function <T>foo17() {
 }, function foo21() {
 }, function foo22() {
 }, function foo23() {

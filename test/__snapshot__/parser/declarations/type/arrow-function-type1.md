@@ -162,7 +162,7 @@ type X = (x?: y) => T;
 
 ```javascript
 
-  
+ type X =  
 ```
 
 ### Diagnostics

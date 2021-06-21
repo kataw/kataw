@@ -1186,7 +1186,7 @@ type D32 = {p?: number};
 
 ```javascript
 
- , , , , , , , , , ,  
+ type D = , type E = , type C2 = , type D2 = , type C9 = , type D9 = , type C11 = , type D11 = , type D15 = , type D31 = , type D32 =  
 ```
 
 ### Diagnostics

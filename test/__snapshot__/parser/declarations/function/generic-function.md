@@ -396,7 +396,7 @@ function from<T>(arg: any): Query<T> {
 
 ```javascript
 
- declare function from(): Query, ;, function from(): Query {
+ declare function <T>from(): Query, ;, function <T>from(): Query {
 return undefined;
 } 
 ```

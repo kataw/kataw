@@ -458,7 +458,7 @@ function remove<A, B>(a: A): [$Rest<A, {p: B}>, B] {
 
 ```javascript
 
- function remove(): [] {
+ function <A, B>remove(): [] {
 const {
     p,
     ...o

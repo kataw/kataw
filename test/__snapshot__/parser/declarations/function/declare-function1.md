@@ -236,7 +236,7 @@ declare function aw<T>(p: Pr<T> | T): T;
 
 ```javascript
 
- declare function aw(): T, ; 
+ declare function <T>aw(): T, ; 
 ```
 
 ### Diagnostics

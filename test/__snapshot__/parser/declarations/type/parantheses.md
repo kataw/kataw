@@ -949,7 +949,7 @@ type C = (<T>(T) => $Foo<T>)[];
 
 ```javascript
 
- , ,  
+ type A = (), (), type B = (), (), type C = [] 
 ```
 
 ### Diagnostics

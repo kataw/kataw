@@ -173,7 +173,7 @@ type T2 = number;
 
 ```javascript
 
- declare class C1 {}, ,  
+ declare class C1 {}, declare type T1 = number, type T2 = number 
 ```
 
 ### Diagnostics

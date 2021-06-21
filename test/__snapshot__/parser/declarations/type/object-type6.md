@@ -138,7 +138,7 @@ type a = {"string":y.z};
 
 ```javascript
 
-  
+ type a =  
 ```
 
 ### Diagnostics

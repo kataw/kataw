@@ -87,7 +87,7 @@ var foo: true
 
 ```javascript
 
- var foo ; 
+ var foo true; 
 ```
 
 ### Diagnostics

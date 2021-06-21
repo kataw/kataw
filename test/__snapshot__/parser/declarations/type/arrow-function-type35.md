@@ -408,7 +408,7 @@ type a = (a[a & b[a|b|c|d|e]][c | d][(x) => T][][][]) => T;
 
 ```javascript
 
-  
+ type a =  
 ```
 
 ### Diagnostics

@@ -317,7 +317,7 @@ type a = (a[a & b][c | d][{a():string}][][][]) => T;
 
 ```javascript
 
-  
+ type a =  
 ```
 
 ### Diagnostics

@@ -157,7 +157,7 @@
 
 ```javascript
 
-"use strict"  
+"use strict" type X =  
 ```
 
 ### Diagnostics

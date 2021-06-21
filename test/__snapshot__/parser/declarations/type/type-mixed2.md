@@ -343,7 +343,7 @@ type X<S, A, C, I, R> = (S, A, C, I) => Promise<R>
 
 ```javascript
 
-  
+ type X<S, A, C, I, R> =  
 ```
 
 ### Diagnostics

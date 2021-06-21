@@ -182,7 +182,7 @@ function a<string>(x: string): string {
 
 ```javascript
 
- function a(): string {
+ function <string>a(): string {
 return x;
 } 
 ```

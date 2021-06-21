@@ -224,7 +224,7 @@ class Foo7<T> {
 ```javascript
 
  class Foo7 {
-    bar(): number {
+    bar<U>(): number {
     return 42;
     }
 } 

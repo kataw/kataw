@@ -117,7 +117,7 @@ type A = B & (C)
 
 ```javascript
 
-  
+ type A = B, (C) 
 ```
 
 ### Diagnostics

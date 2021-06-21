@@ -797,7 +797,7 @@ type B = Foo<
 
 ```javascript
 
- , , , ,  
+ type A3<T  string> = T, type A4<S, T  string> = T, type A5<S number, T  string> = T, type A = Foo, type B = Foo 
 ```
 
 ### Diagnostics

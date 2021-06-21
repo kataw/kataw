@@ -2444,13 +2444,13 @@ class Array { concat(items:number | string) {}; }
 
 ```javascript
 
- var a ;, var a ;, var a ;, var x  = Y;, var x  = fn;, var foo = bar ? (foo): number => {
+ var a [];, var a Map;, var a Map;, var x  = Y;, var x  = fn;, var foo = bar ? (foo): number => {
 } : baz;, var a ;, var foo = bar ? (foo) : number;, var foo = ((bar): number =>bar);, var foo = ((): number =>bar);, var foo = (bar): number =>bar;, var foo = (): number =>bar;, var foo = (foo: bar, bar: foo) => {
-};, var foo = (): number =>bar;, var a ;, var [x]  = ["hello"];, var {
+};, var foo = (): number =>bar;, var a ;, var [x] Array = ["hello"];, var {
     x
 }  = { x : "hello" };, var {
     x
-}  = { x : "hello" };, var a ;, var x  = Y;, var a ;, class Array {
+}  = { x : "hello" };, var a ;, var x , number = Y;, var a ;, class Array {
     concat() {
     },
 } 

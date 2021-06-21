@@ -752,7 +752,7 @@ type overloads2 = {
 
 ```javascript
 
- , , ,  
+ type union = | , , type overloads = => (), (), type union2 = , type overloads2 =  
 ```
 
 ### Diagnostics

@@ -195,7 +195,7 @@ type X = {[(x) =>x]: string, (): string};
 
 ```javascript
 
-  
+ type X =  
 ```
 
 ### Diagnostics

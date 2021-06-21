@@ -120,7 +120,7 @@ type a = {[x]:string};
 
 ```javascript
 
-  
+ type a =  
 ```
 
 ### Diagnostics

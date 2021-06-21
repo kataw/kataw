@@ -124,7 +124,7 @@ type X = (x) => T;
 
 ```javascript
 
-  
+ type X =  
 ```
 
 ### Diagnostics

@@ -223,7 +223,7 @@ type a = (b[([x])=> c]) => c;
 
 ```javascript
 
-  
+ type a =  
 ```
 
 ### Diagnostics

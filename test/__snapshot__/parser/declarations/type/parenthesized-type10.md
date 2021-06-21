@@ -165,7 +165,7 @@ type X = (?x.y<z>);
 
 ```javascript
 
-  
+ type X = () 
 ```
 
 ### Diagnostics

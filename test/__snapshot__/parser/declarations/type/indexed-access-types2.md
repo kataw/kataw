@@ -159,7 +159,7 @@ type C = Obj['bar'][foo]['boz'];
 
 ```javascript
 
-  
+ type C =  
 ```
 
 ### Diagnostics

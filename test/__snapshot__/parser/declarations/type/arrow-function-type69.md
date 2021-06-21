@@ -927,7 +927,7 @@ type a = (((symbol[{[x]:string}][(((symbol[{[x]:string}][][][] | ((y & [((x) => 
 
 ```javascript
 
-  
+ type a =  
 ```
 
 ### Diagnostics

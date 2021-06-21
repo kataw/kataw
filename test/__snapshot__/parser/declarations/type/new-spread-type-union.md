@@ -317,7 +317,7 @@ type UnsealedInUnion = Union1 | Union2 | typeof y;
 
 ```javascript
 
- ,  
+ type O1 = , type UnsealedInUnion = Union1, Union2,  
 ```
 
 ### Diagnostics

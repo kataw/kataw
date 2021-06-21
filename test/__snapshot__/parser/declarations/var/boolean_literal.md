@@ -85,7 +85,7 @@ var a: false
 
 ```javascript
 
- var a ; 
+ var a false; 
 ```
 
 ### Diagnostics

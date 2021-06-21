@@ -1797,7 +1797,7 @@ var g  = (x) => {
 x * 2;
 };// param type (date < number)
 , // param type (date < number)
-var y  = (x) =>"hi";, var z  = (x) =>"hi"; 
+var y  = (x) =>"hi";, var z Object = (x) =>"hi"; 
 ```
 
 ### Diagnostics

@@ -313,7 +313,7 @@ type a = ((((() => T) => T) => T) => T) => T;
 
 ```javascript
 
-  
+ type a =  
 ```
 
 ### Diagnostics

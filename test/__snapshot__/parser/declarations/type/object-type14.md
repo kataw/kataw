@@ -160,7 +160,7 @@ type a = {x: {x:y}};
 
 ```javascript
 
-  
+ type a =  
 ```
 
 ### Diagnostics

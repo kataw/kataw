@@ -279,9 +279,9 @@ const {q}: string = y;
 
 ```javascript
 
- const [y]  = y;, const [z: symbol]  = y;, const {
+ const [y] string = y;, const [z: symbol] string = y;, const {
     q
-}  = y; 
+} string = y; 
 ```
 
 ### Diagnostics

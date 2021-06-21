@@ -178,7 +178,7 @@ type a = ((1) => T) => T
 
 ```javascript
 
-  
+ type a =  
 ```
 
 ### Diagnostics

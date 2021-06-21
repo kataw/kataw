@@ -189,7 +189,7 @@ type a = ({} | {[x]:string}) => T;
 
 ```javascript
 
-  
+ type a =  
 ```
 
 ### Diagnostics

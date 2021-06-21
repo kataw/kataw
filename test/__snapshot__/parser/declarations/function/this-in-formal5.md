@@ -553,7 +553,7 @@ function five<T>(this: T) {}
 }, function two(, a) {
 }, function three(, ) {
 }, function four(, a, b, ) {
-}, function five() {
+}, function <T>five() {
 } 
 ```
 

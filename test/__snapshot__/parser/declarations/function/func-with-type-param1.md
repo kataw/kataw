@@ -130,7 +130,7 @@ function foo<T,S>() {}
 
 ```javascript
 
- function foo() {
+ function <T, S>foo() {
 } 
 ```
 

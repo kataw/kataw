@@ -1047,7 +1047,7 @@ type ten = {
 
 ```javascript
 
- , , , ,  
+ type six = , type seven = , type eight = , type nine = , type ten =  
 ```
 
 ### Diagnostics
