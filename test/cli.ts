@@ -13,7 +13,7 @@ const APIs = ['parser', 'printer'];
 
 runCli();
 
-export async function runCli() {
+async function runCli() {
   const opts = getCliOptions();
   const bar = new ProgressBar('Testing snapshots [:bar] :percent, :elapseds elapsed, eta :etas,', {
     clear: false,
@@ -26,7 +26,7 @@ export async function runCli() {
   let cnt = 0;
 
   for (let i = 0; i < opts.files.length; i++) {
-    const tob = await file2Tob(opts.files[i]);
+    const tob = await file2Tob(opts.files[i], opts.check);
     if (tob.mismatchItems.length) {
       cnt++;
       // only log when not auto-gen mode
@@ -49,10 +49,12 @@ export function getCliOptions(): any {
 
   const gen = process.argv.includes('-g') || process.argv.includes('-G');
   const update = process.argv.includes('-u') ? process.argv[process.argv.indexOf('-u') + 1] : false;
+  const check = process.argv.includes('-c');
 
   const opts = {
     gen,
     updateItems: update === 'all' ? APIs : update === false ? [] : [update],
+    check,
     conservative: process.argv.includes('-G'), // skip existing
     // defaults to all tests(if not specified)
     files: loadSnaps(
@@ -89,6 +91,7 @@ function showHelp() {
       -g            Regenerate computed test case blocks (process all autogen.md files)
       -G            Same as -g except it skips existing files
       -u            Auto-update tests with the results (tests silently updated inline, use source control to diff)
+      -c            Check the printed output
   `);
   process.exit(0);
 }
