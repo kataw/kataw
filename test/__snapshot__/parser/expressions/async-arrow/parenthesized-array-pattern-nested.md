@@ -162,7 +162,7 @@ async ([ [(a)] = [] ] = []) => {};
 ```javascript
 
  ( = []) => {
-}, ; 
+} ; 
 ```
 
 ### Diagnostics

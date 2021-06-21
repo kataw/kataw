@@ -106,7 +106,7 @@ do;while(j)try{}finally{}
 
 ```javascript
 
- do ; while (j), try {  }
+ do ; while (j) try {  }
 finally {  } 
 ```
 

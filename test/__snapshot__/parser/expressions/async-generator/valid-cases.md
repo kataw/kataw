@@ -3308,67 +3308,67 @@ for (;;) {}});
 
 ```javascript
 
- ;, (function* gen() {
+ ; (function* gen() {
 yield* 2;
-});, (function* gen() {
+}); (function* gen() {
 yield yield 1;
-});, (function* gen() {
+}); (function* gen() {
 yield* yield* 1;
-});, (function* gen() {
+}); (function* gen() {
 yield 3 + (yield 4);
-});, (function* gen() {
+}); (function* gen() {
 yield* 3 + (yield* 4);
-});, (function* gen() {
-yield* 1;,
+}); (function* gen() {
+yield* 1;
 return;
-});, (function* gen() {
-yield 1;,
+}); (function* gen() {
+yield 1;
 return 37;
-});, (function* gen() {
-yield* 1;,
+}); (function* gen() {
+yield* 1;
 return 37;
-});, (function* gen() {
-yield 1;,
-return 37;,
+}); (function* gen() {
+yield 1;
+return 37;
 yield 'dead';
-});, (function* gen() {
-yield* 1;,
-return 37;,
+}); (function* gen() {
+yield* 1;
+return 37;
 yield* 'dead';
-});, (function* gen() {
+}); (function* gen() {
 yield;
-});, (function* gen() {
+}); (function* gen() {
 yield;
-});, (function* gen() {
+}); (function* gen() {
 yield;
-});, (function* gen() {
+}); (function* gen() {
 (yield);
-});, (function* gen() {
+}); (function* gen() {
 [yield];
-});, (function* gen() {
+}); (function* gen() {
 { yield; }
-});, (function* gen() {
+}); (function* gen() {
 yield, yield;
-});, (function* gen() {
-yield;,
+}); (function* gen() {
 yield;
-});, (function* gen() {
+yield;
+}); (function* gen() {
 (yield) ? yield : yield;
-});, (function* gen() {
+}); (function* gen() {
 (yield) ? yield : yield;
-});, (function* gen() {
-yield;,
+}); (function* gen() {
+yield;
 for(;;){  }
-});, (function* gen() {
+}); (function* gen() {
 x=class  {
 };
-});, (function* gen() {
+}); (function* gen() {
 x=class  {
 };
-});, (function* gen() {
+}); (function* gen() {
 x=class  {
 };
-});, (function* gen() {
+}); (function* gen() {
 x=class  {
 };
 }); 

@@ -83,7 +83,7 @@
 
 ```javascript
 
- { length: 3000; }/*{ StatementListItem }*/, /*{ StatementListItem }*/; 
+ { length: 3000; }/*{ StatementListItem }*/ /*{ StatementListItem }*/; 
 ```
 
 ### Diagnostics

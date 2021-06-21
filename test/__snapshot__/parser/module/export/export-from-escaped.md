@@ -134,7 +134,7 @@ fro\u006D
 
 ```javascript
 
- let x;, , fro\u006D; 
+ let x;  fro\u006D; 
 ```
 
 ### Diagnostics

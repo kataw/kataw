@@ -132,7 +132,7 @@ class A {*async() { }};
  class A {
     *async() {
     }
-}, ; 
+} ; 
 ```
 
 ### Diagnostics

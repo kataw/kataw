@@ -106,7 +106,7 @@ class C<T> {
                                 "bitwiseAndToken": null,
                                 "type": {
                                     "kind": 144,
-                                    "name": {
+                                    "typeName": {
                                         "kind": 134299649,
                                         "text": "Array",
                                         "rawText": "Array",
@@ -147,7 +147,7 @@ class C<T> {
                                                                     "bitwiseAndToken": null,
                                                                     "type": {
                                                                         "kind": 144,
-                                                                        "name": {
+                                                                        "typeName": {
                                                                             "kind": 134299649,
                                                                             "text": "T",
                                                                             "rawText": "T",
@@ -248,7 +248,7 @@ class C<T> {
                                                 "bitwiseAndToken": null,
                                                 "type": {
                                                     "kind": 144,
-                                                    "name": {
+                                                    "typeName": {
                                                         "kind": 134299649,
                                                         "text": "T",
                                                         "rawText": "T",
@@ -333,7 +333,7 @@ class C<T> {
                                                                                 "bitwiseAndToken": null,
                                                                                 "type": {
                                                                                     "kind": 144,
-                                                                                    "name": {
+                                                                                    "typeName": {
                                                                                         "kind": 134299649,
                                                                                         "text": "T",
                                                                                         "rawText": "T",
@@ -508,10 +508,9 @@ class C<T> {
 ```javascript
 
  class C {
-    arr: Array,
-    ,
+    arr: Array<>
     foo() {
-    var entry  = { value };,
+    var entry (valueT) = { value };
     ;
     }
 } 

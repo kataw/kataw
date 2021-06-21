@@ -200,7 +200,7 @@ switch (0) { case 1: async function* f() {} default: let f }
 
  switch(0) {
     case 1: async function* f() {
-        },
+        }
     default: let f;
 } 
 ```

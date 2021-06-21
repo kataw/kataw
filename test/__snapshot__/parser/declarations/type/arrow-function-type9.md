@@ -70,7 +70,7 @@ type X = (x | y & z, q: string) => T;
                                     "types": [
                                         {
                                             "kind": 144,
-                                            "name": {
+                                            "typeName": {
                                                 "kind": 134299649,
                                                 "text": "x",
                                                 "rawText": "x",
@@ -88,7 +88,7 @@ type X = (x | y & z, q: string) => T;
                                             "types": [
                                                 {
                                                     "kind": 144,
-                                                    "name": {
+                                                    "typeName": {
                                                         "kind": 134299649,
                                                         "text": "y",
                                                         "rawText": "y",
@@ -103,7 +103,7 @@ type X = (x | y & z, q: string) => T;
                                                 },
                                                 {
                                                     "kind": 144,
-                                                    "name": {
+                                                    "typeName": {
                                                         "kind": 134299649,
                                                         "text": "z",
                                                         "rawText": "z",
@@ -174,7 +174,7 @@ type X = (x | y & z, q: string) => T;
                         "bitwiseAndToken": null,
                         "type": {
                             "kind": 144,
-                            "name": {
+                            "typeName": {
                                 "kind": 134299649,
                                 "text": "T",
                                 "rawText": "T",
@@ -218,7 +218,7 @@ type X = (x | y & z, q: string) => T;
 
 ```javascript
 
- type X =  
+ type X =  : T  
 ```
 
 ### Diagnostics

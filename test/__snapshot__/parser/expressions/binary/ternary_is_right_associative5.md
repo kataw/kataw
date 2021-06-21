@@ -159,7 +159,7 @@ typeof x;
 
 ```javascript
 
- a ? b : c ? d : e * x;, ; 
+ a ? b : c ? d : e * x; ; 
 ```
 
 ### Diagnostics

@@ -104,7 +104,7 @@ class D extends C<O> {
                                 "bitwiseAndToken": null,
                                 "type": {
                                     "kind": 144,
-                                    "name": {
+                                    "typeName": {
                                         "kind": 134299649,
                                         "text": "X",
                                         "rawText": "X",
@@ -193,7 +193,7 @@ class D extends C<O> {
                                     "bitwiseAndToken": null,
                                     "type": {
                                         "kind": 144,
-                                        "name": {
+                                        "typeName": {
                                             "kind": 134299649,
                                             "text": "O",
                                             "rawText": "O",
@@ -333,8 +333,8 @@ class D extends C<O> {
 ```javascript
 
  class C {
-    x: X,
-}, class D {
+    x: X
+} class D {
     bar() {
     this.x;
     }

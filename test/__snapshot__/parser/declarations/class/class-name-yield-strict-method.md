@@ -348,7 +348,7 @@ class C {
     yield() {
     }
 }
-}, "use strict";, function* f() {
+} "use strict"; function* f() {
 class C {
     yield() {
     }

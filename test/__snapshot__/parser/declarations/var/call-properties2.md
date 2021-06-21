@@ -549,9 +549,9 @@ var c: { (): string; (x: number): string } =
 ```javascript
 
 // It should be fine when a function satisfies them all
- var b  = function (): string {
+ var b ((): string(xnumber): string) = function (): string {
 return "hi";
-};, var c  = function (): string {
+}; var c ((): string(xnumber): string) = function (): string {
 return "hi";
 }; 
 ```

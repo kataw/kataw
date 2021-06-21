@@ -67,7 +67,7 @@ type X = {[(x)]: string};
                                     "kind": 290,
                                     "type": {
                                         "kind": 144,
-                                        "name": {
+                                        "typeName": {
                                             "kind": 134299649,
                                             "text": "x",
                                             "rawText": "x",
@@ -134,7 +134,7 @@ type X = {[(x)]: string};
 
 ```javascript
 
- type X =  
+ type X = ([(x)]: string) 
 ```
 
 ### Diagnostics

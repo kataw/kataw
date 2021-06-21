@@ -205,7 +205,7 @@ for (let [a]=x;;);
 
 ```javascript
 
- for(let [a] = x;;);, for(let [a] = x;;); 
+ for(let [a] = x;;); for(let [a] = x;;); 
 ```
 
 ### Diagnostics

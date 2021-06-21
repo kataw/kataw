@@ -133,7 +133,7 @@ function bar() { }
 ```javascript
 
  function foo() {
-}, function bar() {
+} function bar() {
 } 
 ```
 

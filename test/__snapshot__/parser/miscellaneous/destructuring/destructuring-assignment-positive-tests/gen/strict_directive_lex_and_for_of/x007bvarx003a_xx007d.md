@@ -251,7 +251,7 @@
 
 ```javascript
 
-'use strict' let x, y, z;, for(x of x={ var : x }=z={  }) ; 
+'use strict' let x, y, z; for(x of x={ var : x }=z={  }) ; 
 ```
 
 ### Diagnostics

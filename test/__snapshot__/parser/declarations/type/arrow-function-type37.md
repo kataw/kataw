@@ -73,7 +73,7 @@ type a = (a[a & b[a|b|c|d|e]][c | d][(x) => T][-1][{...x}][]) => T;
                                             "kind": 311,
                                             "objectType": {
                                                 "kind": 144,
-                                                "name": {
+                                                "typeName": {
                                                     "kind": 134299649,
                                                     "text": "a",
                                                     "rawText": "a",
@@ -95,7 +95,7 @@ type a = (a[a & b[a|b|c|d|e]][c | d][(x) => T][-1][{...x}][]) => T;
                                                     "types": [
                                                         {
                                                             "kind": 144,
-                                                            "name": {
+                                                            "typeName": {
                                                                 "kind": 134299649,
                                                                 "text": "a",
                                                                 "rawText": "a",
@@ -112,7 +112,7 @@ type a = (a[a & b[a|b|c|d|e]][c | d][(x) => T][-1][{...x}][]) => T;
                                                             "kind": 311,
                                                             "objectType": {
                                                                 "kind": 144,
-                                                                "name": {
+                                                                "typeName": {
                                                                     "kind": 134299649,
                                                                     "text": "b",
                                                                     "rawText": "b",
@@ -134,7 +134,7 @@ type a = (a[a & b[a|b|c|d|e]][c | d][(x) => T][-1][{...x}][]) => T;
                                                                     "types": [
                                                                         {
                                                                             "kind": 144,
-                                                                            "name": {
+                                                                            "typeName": {
                                                                                 "kind": 134299649,
                                                                                 "text": "a",
                                                                                 "rawText": "a",
@@ -149,7 +149,7 @@ type a = (a[a & b[a|b|c|d|e]][c | d][(x) => T][-1][{...x}][]) => T;
                                                                         },
                                                                         {
                                                                             "kind": 144,
-                                                                            "name": {
+                                                                            "typeName": {
                                                                                 "kind": 134299649,
                                                                                 "text": "b",
                                                                                 "rawText": "b",
@@ -164,7 +164,7 @@ type a = (a[a & b[a|b|c|d|e]][c | d][(x) => T][-1][{...x}][]) => T;
                                                                         },
                                                                         {
                                                                             "kind": 144,
-                                                                            "name": {
+                                                                            "typeName": {
                                                                                 "kind": 134299649,
                                                                                 "text": "c",
                                                                                 "rawText": "c",
@@ -179,7 +179,7 @@ type a = (a[a & b[a|b|c|d|e]][c | d][(x) => T][-1][{...x}][]) => T;
                                                                         },
                                                                         {
                                                                             "kind": 144,
-                                                                            "name": {
+                                                                            "typeName": {
                                                                                 "kind": 134299649,
                                                                                 "text": "d",
                                                                                 "rawText": "d",
@@ -194,7 +194,7 @@ type a = (a[a & b[a|b|c|d|e]][c | d][(x) => T][-1][{...x}][]) => T;
                                                                         },
                                                                         {
                                                                             "kind": 144,
-                                                                            "name": {
+                                                                            "typeName": {
                                                                                 "kind": 134299649,
                                                                                 "text": "e",
                                                                                 "rawText": "e",
@@ -242,7 +242,7 @@ type a = (a[a & b[a|b|c|d|e]][c | d][(x) => T][-1][{...x}][]) => T;
                                                 "types": [
                                                     {
                                                         "kind": 144,
-                                                        "name": {
+                                                        "typeName": {
                                                             "kind": 134299649,
                                                             "text": "c",
                                                             "rawText": "c",
@@ -257,7 +257,7 @@ type a = (a[a & b[a|b|c|d|e]][c | d][(x) => T][-1][{...x}][]) => T;
                                                     },
                                                     {
                                                         "kind": 144,
-                                                        "name": {
+                                                        "typeName": {
                                                             "kind": 134299649,
                                                             "text": "d",
                                                             "rawText": "d",
@@ -297,7 +297,7 @@ type a = (a[a & b[a|b|c|d|e]][c | d][(x) => T][-1][{...x}][]) => T;
                                             },
                                             "arrowToken": {
                                                 "kind": 144,
-                                                "name": {
+                                                "typeName": {
                                                     "kind": 134299649,
                                                     "text": "x",
                                                     "rawText": "x",
@@ -316,7 +316,7 @@ type a = (a[a & b[a|b|c|d|e]][c | d][(x) => T][-1][{...x}][]) => T;
                                                 "bitwiseAndToken": null,
                                                 "type": {
                                                     "kind": 144,
-                                                    "name": {
+                                                    "typeName": {
                                                         "kind": 134299649,
                                                         "text": "T",
                                                         "rawText": "T",
@@ -381,6 +381,7 @@ type a = (a[a & b[a|b|c|d|e]][c | d][(x) => T][-1][{...x}][]) => T;
                                         {
                                             "kind": 247,
                                             "protoKeyword": null,
+                                            "staticToken": null,
                                             "ellipsisToken": {
                                                 "kind": 524302,
                                                 "flags": 64,
@@ -393,7 +394,7 @@ type a = (a[a & b[a|b|c|d|e]][c | d][(x) => T][-1][{...x}][]) => T;
                                                 "bitwiseAndToken": null,
                                                 "type": {
                                                     "kind": 144,
-                                                    "name": {
+                                                    "typeName": {
                                                         "kind": 134299649,
                                                         "text": "x",
                                                         "rawText": "x",
@@ -410,7 +411,6 @@ type a = (a[a & b[a|b|c|d|e]][c | d][(x) => T][-1][{...x}][]) => T;
                                                 "start": 55,
                                                 "end": 56
                                             },
-                                            "staticToken": null,
                                             "flags": 2097152,
                                             "start": 52,
                                             "end": 56
@@ -439,7 +439,7 @@ type a = (a[a & b[a|b|c|d|e]][c | d][(x) => T][-1][{...x}][]) => T;
                         "bitwiseAndToken": null,
                         "type": {
                             "kind": 144,
-                            "name": {
+                            "typeName": {
                                 "kind": 134299649,
                                 "text": "T",
                                 "rawText": "T",
@@ -483,7 +483,7 @@ type a = (a[a & b[a|b|c|d|e]][c | d][(x) => T][-1][{...x}][]) => T;
 
 ```javascript
 
- type a =  
+ type a =  : T  
 ```
 
 ### Diagnostics

@@ -130,7 +130,7 @@ var f = (): string | (number) => 123;
 
 ```javascript
 
- var f = (): string, (number) =>123; 
+ var f = (): string | (number) =>123; 
 ```
 
 ### Diagnostics

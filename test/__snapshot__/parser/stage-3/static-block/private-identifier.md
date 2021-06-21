@@ -276,8 +276,7 @@ class C {
 ```javascript
 
  class C {
-    static #_,
-    ,
+    static #_
     constructor() {
     class D {
     }

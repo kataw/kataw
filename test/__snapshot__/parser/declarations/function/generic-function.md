@@ -129,7 +129,7 @@ function from<T>(arg: any): Query<T> {
                 "bitwiseAndToken": null,
                 "type": {
                     "kind": 144,
-                    "name": {
+                    "typeName": {
                         "kind": 134299649,
                         "text": "Query",
                         "rawText": "Query",
@@ -148,7 +148,7 @@ function from<T>(arg: any): Query<T> {
                                     "bitwiseAndToken": null,
                                     "type": {
                                         "kind": 144,
-                                        "name": {
+                                        "typeName": {
                                             "kind": 134299649,
                                             "text": "T",
                                             "rawText": "T",
@@ -324,7 +324,7 @@ function from<T>(arg: any): Query<T> {
                 "bitwiseAndToken": null,
                 "type": {
                     "kind": 144,
-                    "name": {
+                    "typeName": {
                         "kind": 134299649,
                         "text": "Query",
                         "rawText": "Query",
@@ -343,7 +343,7 @@ function from<T>(arg: any): Query<T> {
                                     "bitwiseAndToken": null,
                                     "type": {
                                         "kind": 144,
-                                        "name": {
+                                        "typeName": {
                                             "kind": 134299649,
                                             "text": "T",
                                             "rawText": "T",
@@ -396,7 +396,7 @@ function from<T>(arg: any): Query<T> {
 
 ```javascript
 
- declare function <T>from(): Query, ;, function <T>from(): Query {
+ declare function <T>from(): Query<> ; function <T>from(): Query<> {
 return undefined;
 } 
 ```

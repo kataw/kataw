@@ -353,7 +353,7 @@ declare class D extends C { }
 
 ```javascript
 
- declare class C {}, declare class D {} 
+ declare class C {(static xnumberstatic foo(xnumber): voidconstructor(xstring): void)} declare class D {()} 
 ```
 
 ### Diagnostics

@@ -988,11 +988,11 @@ new async function() { await 0 }.x
 
   - async function () {
 await 0;
-};, 1 - async function foo() {
+}; 1 - async function foo() {
 await 0;
-};, 1 - ;, new async function () {
+}; 1 - ; new async function () {
 await 0;
-};, new async function () {
+}; new async function () {
 await 0;
 }.x; 
 ```

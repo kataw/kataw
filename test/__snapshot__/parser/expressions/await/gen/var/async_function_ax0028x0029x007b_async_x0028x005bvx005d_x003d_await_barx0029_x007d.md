@@ -298,9 +298,8 @@ var await; var f = (async function() { async function a(){     async ([v] = awai
 
 ```javascript
 
- var await;, var f = (async function () {
+ var await; var f = (async function () {
 async function a() {
-,
 ;
 }
 }); 

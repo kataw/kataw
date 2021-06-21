@@ -115,7 +115,7 @@ type a = {x: number, };
 
 ```javascript
 
- type a =  
+ type a = (xnumber) 
 ```
 
 ### Diagnostics

@@ -106,7 +106,7 @@ function f(){   return
 ```javascript
 
  function f() {
-return;,
+return;
 foo;
 } 
 ```

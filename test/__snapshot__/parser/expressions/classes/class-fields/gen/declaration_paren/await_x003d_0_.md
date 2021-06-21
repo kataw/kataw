@@ -134,7 +134,7 @@
 ```javascript
 
  (class  {
-    await = 0,
+    await = 0
 }); 
 ```
 

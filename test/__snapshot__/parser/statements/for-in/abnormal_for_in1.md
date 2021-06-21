@@ -723,11 +723,11 @@ function baz(x: boolean) {
 ```javascript
 
  function foo() {
-var obj = { a : 1, b : 2 };,
-for (var prop in obj) { if (x) { continue; }, return; }
-}, function bar() {
+var obj = { a : 1, b : 2 };
+for (var prop in obj) { if (x) { continue; } return; }
+} function bar() {
 for (var prop in {  }) { return; }
-}, function baz() {
+} function baz() {
 for (var prop in {  }) { continue; }
 } 
 ```

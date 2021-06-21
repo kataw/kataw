@@ -61,7 +61,7 @@ type x = { [y]: z[q] | null };
                             "name": null,
                             "key": {
                                 "kind": 144,
-                                "name": {
+                                "typeName": {
                                     "kind": 134299649,
                                     "text": "y",
                                     "rawText": "y",
@@ -85,7 +85,7 @@ type x = { [y]: z[q] | null };
                                             "kind": 311,
                                             "objectType": {
                                                 "kind": 144,
-                                                "name": {
+                                                "typeName": {
                                                     "kind": 134299649,
                                                     "text": "z",
                                                     "rawText": "z",
@@ -104,7 +104,7 @@ type x = { [y]: z[q] | null };
                                                 "bitwiseAndToken": null,
                                                 "type": {
                                                     "kind": 144,
-                                                    "name": {
+                                                    "typeName": {
                                                         "kind": 134299649,
                                                         "text": "q",
                                                         "rawText": "q",
@@ -172,7 +172,7 @@ type x = { [y]: z[q] | null };
 
 ```javascript
 
- type x =  
+ type x = ([y]: z[q] | null) 
 ```
 
 ### Diagnostics

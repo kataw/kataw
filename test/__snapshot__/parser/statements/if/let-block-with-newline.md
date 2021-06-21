@@ -78,7 +78,7 @@ if (false) let // ASI
 ```javascript
 
  if (false) let;// ASI
-, // ASI
+ // ASI
 {  } 
 ```
 

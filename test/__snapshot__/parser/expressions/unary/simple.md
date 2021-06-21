@@ -110,7 +110,7 @@ typeof x;
 
 ```javascript
 
- ;, ;, ; 
+ ; ; ; 
 ```
 
 ### Diagnostics

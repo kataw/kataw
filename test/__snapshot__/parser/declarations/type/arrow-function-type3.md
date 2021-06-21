@@ -61,7 +61,7 @@ type X = (x) => T;
                     },
                     "arrowToken": {
                         "kind": 144,
-                        "name": {
+                        "typeName": {
                             "kind": 134299649,
                             "text": "x",
                             "rawText": "x",
@@ -80,7 +80,7 @@ type X = (x) => T;
                         "bitwiseAndToken": null,
                         "type": {
                             "kind": 144,
-                            "name": {
+                            "typeName": {
                                 "kind": 134299649,
                                 "text": "T",
                                 "rawText": "T",
@@ -124,7 +124,7 @@ type X = (x) => T;
 
 ```javascript
 
- type X =  
+ type X =  : T  
 ```
 
 ### Diagnostics

@@ -1319,41 +1319,41 @@
     a = class  {
         #a = 1
     }
-});, (class  {
+}); (class  {
     a = class  {
         #a = () => {
         }
     }
-});, (class  {
+}); (class  {
     a = class  {
         #a
     }
-});, (class  {
+}); (class  {
     a = class  {
         #a() {
         }
     }
-});, (class  {
+}); (class  {
     a = class  {
         get #a() {
         }
     }
-});, (class  {
+}); (class  {
     a = class  {
         set #a(foo) {
         }
     }
-});, (class  {
+}); (class  {
     a = class  {
         *#a() {
         }
     }
-});, (class  {
+}); (class  {
     a = class  {
         async #a() {
         }
     }
-});, (class  {
+}); (class  {
     a = class  {
         async *#a() {
         }

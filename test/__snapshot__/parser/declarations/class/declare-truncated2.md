@@ -76,7 +76,7 @@ declare class C {
                                 "bitwiseAndToken": null,
                                 "type": {
                                     "kind": 144,
-                                    "name": {
+                                    "typeName": {
                                         "kind": 16637,
                                         "text": "",
                                         "rawText": "",

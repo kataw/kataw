@@ -214,7 +214,7 @@
 
 ```javascript
 
- [a, b, ...rest]={  };, [a, , ...rest]={  }; 
+ [a, b, ...rest]={  }; [a, , ...rest]={  }; 
 ```
 
 ### Diagnostics

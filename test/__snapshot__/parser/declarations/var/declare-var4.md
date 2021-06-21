@@ -66,7 +66,7 @@ declare var x2: X;
                                 },
                                 "type": {
                                     "kind": 144,
-                                    "name": {
+                                    "typeName": {
                                         "kind": 134299649,
                                         "text": "X",
                                         "rawText": "X",
@@ -190,7 +190,7 @@ declare var x2: X;
                             "bitwiseAndToken": null,
                             "type": {
                                 "kind": 144,
-                                "name": {
+                                "typeName": {
                                     "kind": 134299649,
                                     "text": "X",
                                     "rawText": "X",

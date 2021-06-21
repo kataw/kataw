@@ -82,7 +82,7 @@ type a = (?c & a | b) => T;
                                                     },
                                                     "type": {
                                                         "kind": 144,
-                                                        "name": {
+                                                        "typeName": {
                                                             "kind": 134299649,
                                                             "text": "c",
                                                             "rawText": "c",
@@ -101,7 +101,7 @@ type a = (?c & a | b) => T;
                                                 },
                                                 {
                                                     "kind": 144,
-                                                    "name": {
+                                                    "typeName": {
                                                         "kind": 134299649,
                                                         "text": "a",
                                                         "rawText": "a",
@@ -121,7 +121,7 @@ type a = (?c & a | b) => T;
                                         },
                                         {
                                             "kind": 144,
-                                            "name": {
+                                            "typeName": {
                                                 "kind": 134299649,
                                                 "text": "b",
                                                 "rawText": "b",
@@ -155,7 +155,7 @@ type a = (?c & a | b) => T;
                         "bitwiseAndToken": null,
                         "type": {
                             "kind": 144,
-                            "name": {
+                            "typeName": {
                                 "kind": 134299649,
                                 "text": "T",
                                 "rawText": "T",
@@ -199,7 +199,7 @@ type a = (?c & a | b) => T;
 
 ```javascript
 
- type a =  
+ type a =  : T  
 ```
 
 ### Diagnostics

@@ -2981,92 +2981,92 @@
  class One {
     foo() {
     }
-}, class Two {
+} class Two {
     *foo() {
     }
-}, class Three {
+} class Three {
     get foo() {
     }
-}, class Four {
+} class Four {
     set foo(x) {
     }
-}, class Five {
+} class Five {
     static foo() {
     }
-}, class Six {
+} class Six {
     static *foo() {
     }
-}, class Seven {
+} class Seven {
     static get foo() {
     }
-}, class Eigth {
+} class Eigth {
     static set foo(x) {
     }
-}, class Nine {
+} class Nine {
     async foo() {
     }
-}, class Ten {
+} class Ten {
     static async foo() {
     }
-}, class Eleven {
+} class Eleven {
     static async *foo() {
     }
-}, class Twelwe {
+} class Twelwe {
     if() {
     }
-}, class Thirteen {
+} class Thirteen {
     *if() {
     }
-}, class Fourtin {
+} class Fourtin {
     get if() {
     }
-}, class Fiveteen {
+} class Fiveteen {
     set if(x) {
     }
-}, class Sixteen {
+} class Sixteen {
     static if() {
     }
-}, class Seventeen {
+} class Seventeen {
     static *if() {
     }
-}, class Eigtheen {
+} class Eigtheen {
     static async *if() {
     }
-}, class Nineteen {
+} class Nineteen {
     a() {
-    },
+    }
     b() {
     }
-}, class Twenty {
+} class Twenty {
     a() {
-    },
+    }
     get b() {
     }
-}, class Twentyone {
+} class Twentyone {
     a() {
-    },
+    }
     set b(x) {
     }
-}, class Twentytwo {
+} class Twentytwo {
     a() {
-    },
+    }
     static b() {
     }
-}, class TwentyThree {
+} class TwentyThree {
     a() {
-    },
+    }
     static async *b() {
     }
-}, class TwentyFour {
-}, class TwentySix {
+} class TwentyFour {
+} class TwentySix {
     arguments = 1
-}, class TwentySeven {
+} class TwentySeven {
     static get 'constructor'() {
     }
-}, class TwentyEigth {
+} class TwentyEigth {
     *() {
     }
-}, class TwentyNine {
+} class TwentyNine {
     async 'prototype'() {
     }
 } 

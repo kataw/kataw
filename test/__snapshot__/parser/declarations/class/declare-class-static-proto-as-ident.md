@@ -136,7 +136,7 @@ declare class B {
 
 ```javascript
 
- declare class B {} 
+ declare class B {(static proto(): string)} 
 ```
 
 ### Diagnostics

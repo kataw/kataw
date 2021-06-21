@@ -637,18 +637,18 @@
  (function f() {
 (yield => {
 });
-});, (function f() {
+}); (function f() {
 ((yield, ...a) => {
 });
-});, (function f() {
+}); (function f() {
 (([yield]) => {
 });
-});, (function f() {
+}); (function f() {
 (({
         yield
     }) => {
 });
-});, (function f() {
+}); (function f() {
 ((yield) => {
 });
 }); 

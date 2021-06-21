@@ -133,7 +133,7 @@ const someObj: { id: number } = {};
 
 ```javascript
 
- const someObj  = {  }; 
+ const someObj (idnumber) = {  }; 
 ```
 
 ### Diagnostics

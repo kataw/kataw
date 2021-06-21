@@ -201,8 +201,7 @@ class Foo {
 ```javascript
 
  class Foo {
-    static bar = 42,
-    ,
+    static bar = 42
 } 
 ```
 

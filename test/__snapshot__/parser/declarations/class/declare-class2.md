@@ -189,7 +189,7 @@ declare class X {
 
 ```javascript
 
- declare class X {} 
+ declare class X {(anumberstatic bnumbercnumber)} 
 ```
 
 ### Diagnostics

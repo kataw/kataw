@@ -103,7 +103,7 @@ true;
 
 ```javascript
 
- var x;, x=true; 
+ var x; x=true; 
 ```
 
 ### Diagnostics

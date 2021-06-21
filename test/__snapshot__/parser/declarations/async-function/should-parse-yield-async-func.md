@@ -633,7 +633,7 @@ const f = async function * (source, block, opts) {
 
  const f = async function* (source, block, opts) {
 for await(const entry of source) { yield async function () {
-const cid = await ;,
+const cid = await ;
 return { cid, path : entry.path, unixfs : , node : entry.content };
 }; }
 }; 

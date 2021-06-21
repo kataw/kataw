@@ -124,7 +124,7 @@
 
 ```javascript
 
- { let x; }, var x; 
+ { let x; } var x; 
 ```
 
 ### Diagnostics

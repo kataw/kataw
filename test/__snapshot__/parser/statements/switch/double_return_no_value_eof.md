@@ -105,7 +105,7 @@ return   }
 ```javascript
 
  function f() {
-return;,
+return;
 return;
 } 
 ```

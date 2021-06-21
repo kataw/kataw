@@ -167,7 +167,7 @@ class C {
 ```javascript
 
  class C {
-    set,
+    set
     *aaa() {
     }
 } 

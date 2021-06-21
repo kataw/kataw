@@ -923,20 +923,20 @@ const { async = true } = x;
 ```javascript
 
  const a = function () {
-};, const b = function () {
-};, const c = ({
+}; const b = function () {
+}; const c = ({
         async : bar
     }) => {
 await baz;
-};, const d = ({
+}; const d = ({
         async = bar
     }) => {
 await baz;
-};, const e = async function () {
+}; const e = async function () {
 await baz;
-};, const f = async function () {
+}; const f = async function () {
 await baz;
-};, const {
+}; const {
     async = true
 } = x; 
 ```

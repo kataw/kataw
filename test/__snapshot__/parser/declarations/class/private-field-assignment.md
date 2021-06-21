@@ -1107,29 +1107,29 @@ class Foo {
 ```javascript
 
  class Foo {
-    #x,
+    #x
     unary() {
-    this.#x++;,
-    this.#x--;,
-    ++this.#x;,
+    this.#x++;
+    this.#x--;
+    ++this.#x;
     --this.#x;
-    },
+    }
     binary() {
-    this.#x=1;,
-    this.#x+=1;,
-    this.#x-=1;,
-    this.#x*=1;,
-    this.#x/=1;,
-    this.#x%=1;,
-    this.#x**=1;,
-    this.#x<<=1;,
-    this.#x>>=1;,
-    this.#x>>>=1;,
-    this.#x&=1;,
-    this.#x|=1;,
-    this.#x^=1;,
-    this.#x&&=1;,
-    this.#x||=1;,
+    this.#x=1;
+    this.#x+=1;
+    this.#x-=1;
+    this.#x*=1;
+    this.#x/=1;
+    this.#x%=1;
+    this.#x**=1;
+    this.#x<<=1;
+    this.#x>>=1;
+    this.#x>>>=1;
+    this.#x&=1;
+    this.#x|=1;
+    this.#x^=1;
+    this.#x&&=1;
+    this.#x||=1;
     this.#x=>1;
     }
 } 

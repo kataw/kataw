@@ -178,7 +178,7 @@ let x = (y: any): () => {} => { };
 
 ```javascript
 
- let x = (y: any):  => {
+ let x = (y: any):  : ()  => {
 }; 
 ```
 

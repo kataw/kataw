@@ -142,7 +142,7 @@ let g = /* before */function /* a */ ( /* b */ x /* c */ , /* d */ y /* e */ ) /
 ```javascript
 
  let g =/* before */ function/* a */ (/* b */x/* c */, /* d */y/* e */) {/* g */
-;/* h */,
+;/* h */
 ;/* i */
 }/* after */; 
 ```

@@ -117,7 +117,7 @@ declare class A { static () : number }
 
 ```javascript
 
- declare class A {} 
+ declare class A {(static (): number)} 
 ```
 
 ### Diagnostics

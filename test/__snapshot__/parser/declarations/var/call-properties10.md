@@ -157,7 +157,7 @@ var g: { (x: string): void } = function(x: mixed) { }
                                             "bitwiseAndToken": null,
                                             "type": {
                                                 "kind": 144,
-                                                "name": {
+                                                "typeName": {
                                                     "kind": 134299649,
                                                     "text": "mixed",
                                                     "rawText": "mixed",
@@ -231,7 +231,7 @@ var g: { (x: string): void } = function(x: mixed) { }
 
 ```javascript
 
- var g  = function () {
+ var g ((xstring): void) = function () {
 }; 
 ```
 

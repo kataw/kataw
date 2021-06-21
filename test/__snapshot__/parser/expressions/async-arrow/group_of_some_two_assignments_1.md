@@ -115,7 +115,7 @@ async (a = 1, b = 2) => x;
 
 ```javascript
 
- (a = 1, b = 2) =>x, ; 
+ (a = 1, b = 2) =>x ; 
 ```
 
 ### Diagnostics

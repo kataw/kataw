@@ -179,7 +179,7 @@ s.map(// do something
 ```javascript
 
 //commment here
- var s [];, ; 
+ var s []; ; 
 ```
 
 ### Diagnostics

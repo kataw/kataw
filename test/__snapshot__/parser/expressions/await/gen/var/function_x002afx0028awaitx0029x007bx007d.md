@@ -222,7 +222,7 @@ var await; var f = (async function() { function *f(await){} });
 
 ```javascript
 
- var await;, var f = (async function () {
+ var await; var f = (async function () {
 function* f(await) {
 }
 }); 

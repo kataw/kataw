@@ -405,12 +405,11 @@ class C {
 ```javascript
 
  class C {
-    #brand,
-    ,
+    #brand
     #method() {
-    },
+    }
     get #getter() {
-    },
+    }
     static isC(obj) {
     return #brand in obj && #method in obj && #getter in obj;
     }

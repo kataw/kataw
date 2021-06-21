@@ -170,7 +170,7 @@ f(await 1);
 
  async function f(x) {
 return x;
-}, ; 
+} ; 
 ```
 
 ### Diagnostics

@@ -6403,194 +6403,189 @@
 ```javascript
 
  (class  {
-});, (class  {
-    ,
-});, (class  {
+}); (class  {
+}); (class  {
     m() {
     }
-});, (class  {
-    m() {
-    },
-});, (class  {
-    ,
+}); (class  {
     m() {
     }
-});, (class  {
+}); (class  {
     m() {
-    },
-    ,
+    }
+}); (class  {
+    m() {
+    }
     n(x) {
     }
-});, (class  {
+}); (class  {
     get x() {
     }
-});, (class  {
+}); (class  {
     set x(v) {
     }
-});, (class  {
+}); (class  {
     get() {
     }
-});, (class  {
+}); (class  {
     set() {
     }
-});, (class  {
+}); (class  {
     *g() {
     }
-});, (class  {
-    *g() {
-    },
-});, (class  {
-    ,
+}); (class  {
     *g() {
     }
-});, (class  {
+}); (class  {
     *g() {
-    },
-    ,
+    }
+}); (class  {
+    *g() {
+    }
     *h(x) {
     }
-});, (class  {
+}); (class  {
     async *x() {
     }
-});, (class  {
+}); (class  {
     static() {
     }
-});, (class  {
+}); (class  {
     get static() {
     }
-});, (class  {
+}); (class  {
     set static(v) {
     }
-});, (class  {
+}); (class  {
     static m() {
     }
-});, (class  {
+}); (class  {
     static get x() {
     }
-});, (class  {
+}); (class  {
     static set x(v) {
     }
-});, (class  {
+}); (class  {
     static get() {
     }
-});, (class  {
+}); (class  {
     static set() {
     }
-});, (class  {
+}); (class  {
     static static() {
     }
-});, (class  {
+}); (class  {
     static get static() {
     }
-});, (class  {
+}); (class  {
     static set static(v) {
     }
-});, (class  {
+}); (class  {
     *static() {
     }
-});, (class  {
+}); (class  {
     static *static() {
     }
-});, (class  {
+}); (class  {
     *get() {
     }
-});, (class  {
+}); (class  {
     *set() {
     }
-});, (class  {
+}); (class  {
     static *g() {
     }
-});, (class  {
+}); (class  {
     async() {
     }
-});, (class  {
+}); (class  {
     *async() {
     }
-});, (class  {
+}); (class  {
     static async() {
     }
-});, (class  {
+}); (class  {
     static *async() {
     }
-});, (class  {
+}); (class  {
     static async *x() {
     }
-});, (class  {
+}); (class  {
     static async x() {
     }
-});, (class  {
+}); (class  {
     static async() {
     }
-});, (class  {
+}); (class  {
     static *async() {
     }
-});, (class  {
+}); (class  {
     async x() {
     }
-});, (class  {
+}); (class  {
     async 0() {
     }
-});, (class  {
+}); (class  {
     async get() {
     }
-});, (class  {
+}); (class  {
     async set() {
     }
-});, (class  {
+}); (class  {
     async static() {
     }
-});, (class  {
+}); (class  {
     async async() {
     }
-});, (class  {
+}); (class  {
     async() {
     }
-});, (class  {
+}); (class  {
     *async() {
     }
-});, (class  {
+}); (class  {
     get 42.5() {
     }
-});, (class  {
+}); (class  {
     set static(v) {
     }
-});, (class  {
+}); (class  {
     static this() {
     }
-});, (class  {
+}); (class  {
     static get class() {
     }
-});, (class  {
+}); (class  {
     static set 42.5(v) {
     }
-});, (class  {
+}); (class  {
     *const() {
     }
-});, (class  {
+}); (class  {
     static *"str"() {
     }
-});, (class C {
+}); (class C {
     true() {
     }
-});, (class C {
+}); (class C {
     get false() {
     }
-});, (class C {
+}); (class C {
     set function(v) {
     }
-});, (class C {
+}); (class C {
     static if() {
     }
-});, (class C {
+}); (class C {
     static get let() {
     }
-});, (class C {
+}); (class C {
     static set get(v) {
     }
-});, (class C {
+}); (class C {
     *set() {
     }
-});, (class C {
+}); (class C {
     static *static() {
     }
 }); 

@@ -1398,7 +1398,7 @@
 
 ```javascript
 
- [{  : bar4 }]=[{ bar : "bar" }];, [{  : bar5 }]=[{ bar : "bar" }];, [{  : bar4 }]=[{ bar : "bar" }];, [{  : bar4 }]=[{ bar : "bar" }];, [{  : bar5 }]=[{ bar : "bar" }];, [{  : bar4 }]=[{ bar : "bar" }];, [{  : bar4 }]=[{ bar : "bar" }];, [...x]=it;, [[x]]=[null];, [x]=[];, [...x]=[];, [...x[yield]]=[]; 
+ [{  : bar4 }]=[{ bar : "bar" }]; [{  : bar5 }]=[{ bar : "bar" }]; [{  : bar4 }]=[{ bar : "bar" }]; [{  : bar4 }]=[{ bar : "bar" }]; [{  : bar5 }]=[{ bar : "bar" }]; [{  : bar4 }]=[{ bar : "bar" }]; [{  : bar4 }]=[{ bar : "bar" }]; [...x]=it; [[x]]=[null]; [x]=[]; [...x]=[]; [...x[yield]]=[]; 
 ```
 
 ### Diagnostics

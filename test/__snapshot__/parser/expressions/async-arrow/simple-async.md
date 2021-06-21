@@ -88,7 +88,7 @@ async (x, ...a)=>0;
 
 ```javascript
 
- (x, ...) =>0, ; 
+ (x, ...) =>0 ; 
 ```
 
 ### Diagnostics

@@ -325,10 +325,10 @@ class Foo {
 ```javascript
 
  class Foo {
-    #x,
+    #x
     foo() {
-    ;,
-    ;,
+    ;
+    ;
     ;
     }
 } 

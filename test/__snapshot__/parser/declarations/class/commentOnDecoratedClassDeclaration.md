@@ -281,7 +281,7 @@ class AnotherRomote {
  * Leading trivia
  */
  class Remote {
-}, class AnotherRomote {
+} class AnotherRomote {
     constructor() {
     }
 } 

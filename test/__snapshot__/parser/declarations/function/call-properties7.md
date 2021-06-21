@@ -184,7 +184,7 @@ function e(x: {}): () => string {
 
 ```javascript
 
- function e():  {
+ function e():  : string  {
 return x;
 } 
 ```

@@ -222,9 +222,9 @@ class A {set(){} get(){} async(){}}
 
  class A {
     set() {
-    },
+    }
     get() {
-    },
+    }
     async() {
     }
 } 

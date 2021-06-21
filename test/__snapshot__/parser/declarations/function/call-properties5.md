@@ -288,7 +288,7 @@ var c: { (): string; (x: number): string } =
 
 ```javascript
 
- var c  = function (): string {
+ var c ((): string(xnumber): string) = function (): string {
 return "hi";
 }; 
 ```

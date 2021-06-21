@@ -238,7 +238,7 @@ async function f() { 'use strict'; let a; for await ({[Symbol.iterator]: a} of [
 ```javascript
 
  async function f() {
-let a;,
+let a;
 for await({  : a } of []) ;
 } 
 ```

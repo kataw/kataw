@@ -208,7 +208,7 @@
 
 ```javascript
 
- ({  });, (x, {  }); 
+ ({  }); (x, {  }); 
 ```
 
 ### Diagnostics

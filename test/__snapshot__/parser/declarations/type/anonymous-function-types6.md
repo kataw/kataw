@@ -154,7 +154,7 @@ type A = (x: string, number) => void
 
 ```javascript
 
- type A =  
+ type A =  : void  
 ```
 
 ### Diagnostics

@@ -218,11 +218,10 @@ class Example {
 ```javascript
 
  class Example {
-    #priv,
-    ,
+    #priv
     method = () => {
     return this.#priv;
-    },
+    }
 } 
 ```
 

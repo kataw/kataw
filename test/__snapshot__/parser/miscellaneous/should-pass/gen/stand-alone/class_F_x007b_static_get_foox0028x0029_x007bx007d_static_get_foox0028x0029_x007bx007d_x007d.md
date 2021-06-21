@@ -199,7 +199,7 @@ class F { static get foo() {} static get foo() {} }
 
  class F {
     static get foo() {
-    },
+    }
     static get foo() {
     }
 } 

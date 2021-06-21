@@ -87,7 +87,7 @@ type C = (<T>(T) => $Foo<T>)[];
                                             },
                                             "arrowToken": {
                                                 "kind": 144,
-                                                "name": {
+                                                "typeName": {
                                                     "kind": 134299649,
                                                     "text": "T",
                                                     "rawText": "T",
@@ -106,7 +106,7 @@ type C = (<T>(T) => $Foo<T>)[];
                                                 "bitwiseAndToken": null,
                                                 "type": {
                                                     "kind": 144,
-                                                    "name": {
+                                                    "typeName": {
                                                         "kind": 134299649,
                                                         "text": "$Foo",
                                                         "rawText": "$Foo",
@@ -125,7 +125,7 @@ type C = (<T>(T) => $Foo<T>)[];
                                                                     "bitwiseAndToken": null,
                                                                     "type": {
                                                                         "kind": 144,
-                                                                        "name": {
+                                                                        "typeName": {
                                                                             "kind": 134299649,
                                                                             "text": "T",
                                                                             "rawText": "T",
@@ -243,7 +243,7 @@ type C = (<T>(T) => $Foo<T>)[];
                                             },
                                             "arrowToken": {
                                                 "kind": 144,
-                                                "name": {
+                                                "typeName": {
                                                     "kind": 134299649,
                                                     "text": "T",
                                                     "rawText": "T",
@@ -262,7 +262,7 @@ type C = (<T>(T) => $Foo<T>)[];
                                                 "bitwiseAndToken": null,
                                                 "type": {
                                                     "kind": 144,
-                                                    "name": {
+                                                    "typeName": {
                                                         "kind": 134299649,
                                                         "text": "$Foo",
                                                         "rawText": "$Foo",
@@ -281,7 +281,7 @@ type C = (<T>(T) => $Foo<T>)[];
                                                                     "bitwiseAndToken": null,
                                                                     "type": {
                                                                         "kind": 144,
-                                                                        "name": {
+                                                                        "typeName": {
                                                                             "kind": 134299649,
                                                                             "text": "T",
                                                                             "rawText": "T",
@@ -443,7 +443,7 @@ type C = (<T>(T) => $Foo<T>)[];
                                             },
                                             "arrowToken": {
                                                 "kind": 144,
-                                                "name": {
+                                                "typeName": {
                                                     "kind": 134299649,
                                                     "text": "T",
                                                     "rawText": "T",
@@ -462,7 +462,7 @@ type C = (<T>(T) => $Foo<T>)[];
                                                 "bitwiseAndToken": null,
                                                 "type": {
                                                     "kind": 144,
-                                                    "name": {
+                                                    "typeName": {
                                                         "kind": 134299649,
                                                         "text": "$Foo",
                                                         "rawText": "$Foo",
@@ -481,7 +481,7 @@ type C = (<T>(T) => $Foo<T>)[];
                                                                     "bitwiseAndToken": null,
                                                                     "type": {
                                                                         "kind": 144,
-                                                                        "name": {
+                                                                        "typeName": {
                                                                             "kind": 134299649,
                                                                             "text": "T",
                                                                             "rawText": "T",
@@ -599,7 +599,7 @@ type C = (<T>(T) => $Foo<T>)[];
                                             },
                                             "arrowToken": {
                                                 "kind": 144,
-                                                "name": {
+                                                "typeName": {
                                                     "kind": 134299649,
                                                     "text": "T",
                                                     "rawText": "T",
@@ -618,7 +618,7 @@ type C = (<T>(T) => $Foo<T>)[];
                                                 "bitwiseAndToken": null,
                                                 "type": {
                                                     "kind": 144,
-                                                    "name": {
+                                                    "typeName": {
                                                         "kind": 134299649,
                                                         "text": "$Foo",
                                                         "rawText": "$Foo",
@@ -637,7 +637,7 @@ type C = (<T>(T) => $Foo<T>)[];
                                                                     "bitwiseAndToken": null,
                                                                     "type": {
                                                                         "kind": 144,
-                                                                        "name": {
+                                                                        "typeName": {
                                                                             "kind": 134299649,
                                                                             "text": "T",
                                                                             "rawText": "T",
@@ -798,7 +798,7 @@ type C = (<T>(T) => $Foo<T>)[];
                                         },
                                         "arrowToken": {
                                             "kind": 144,
-                                            "name": {
+                                            "typeName": {
                                                 "kind": 134299649,
                                                 "text": "T",
                                                 "rawText": "T",
@@ -817,7 +817,7 @@ type C = (<T>(T) => $Foo<T>)[];
                                             "bitwiseAndToken": null,
                                             "type": {
                                                 "kind": 144,
-                                                "name": {
+                                                "typeName": {
                                                     "kind": 134299649,
                                                     "text": "$Foo",
                                                     "rawText": "$Foo",
@@ -836,7 +836,7 @@ type C = (<T>(T) => $Foo<T>)[];
                                                                 "bitwiseAndToken": null,
                                                                 "type": {
                                                                     "kind": 144,
-                                                                    "name": {
+                                                                    "typeName": {
                                                                         "kind": 134299649,
                                                                         "text": "T",
                                                                         "rawText": "T",
@@ -949,7 +949,7 @@ type C = (<T>(T) => $Foo<T>)[];
 
 ```javascript
 
- type A = (), (), type B = (), (), type C = [] 
+ type A =  type B = ( :  : $Foo<>  ) | ( :  : $Foo<>  ) type C = [] 
 ```
 
 ### Diagnostics

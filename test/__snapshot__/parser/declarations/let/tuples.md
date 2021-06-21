@@ -783,14 +783,12 @@ let tests = [
 
  let tests = [function () {
     t[1];// error, out of bounds
-    ,
     t[];// error, out of bounds
     }, function () {
     t[0.5];// error: index out of bounds
-    ,
     t[0.0000000000000000000001];// error: index ("1e-22") out of bounds
     }, function () {
-    const x = 0.5;,
+    const x = 0.5;
     t[x];// error, not an integer
     }, function () {
     function a(): string {

@@ -248,7 +248,7 @@ var x, y, z; m(['b']) ? lhs : {var: x} = {}
 
 ```javascript
 
- var x, y, z;,  ? lhs : { var : x }={  }; 
+ var x, y, z;  ? lhs : { var : x }={  }; 
 ```
 
 ### Diagnostics

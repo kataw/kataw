@@ -96,7 +96,7 @@
 
 ```javascript
 
-"use strict" let x;, strubg; 
+"use strict" let x; strubg; 
 ```
 
 ### Diagnostics

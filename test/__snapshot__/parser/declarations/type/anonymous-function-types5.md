@@ -67,7 +67,7 @@ type A = (Array<string>,) => void
                                 "ellipsisToken": null,
                                 "name": {
                                     "kind": 144,
-                                    "name": {
+                                    "typeName": {
                                         "kind": 134299649,
                                         "text": "Array",
                                         "rawText": "Array",
@@ -161,7 +161,7 @@ type A = (Array<string>,) => void
 
 ```javascript
 
- type A =  
+ type A =  : void  
 ```
 
 ### Diagnostics

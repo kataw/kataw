@@ -88,7 +88,7 @@ while (x) {}
 
  do/* comment */ {  } 
  /* comment 1 */
-while (x), {  } 
+while (x) {  } 
 ```
 
 ### Diagnostics

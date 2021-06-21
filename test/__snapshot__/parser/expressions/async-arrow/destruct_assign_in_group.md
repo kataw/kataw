@@ -101,7 +101,7 @@ async ({x} = y);
 
 ```javascript
 
- , ; 
+  ; 
 ```
 
 ### Diagnostics

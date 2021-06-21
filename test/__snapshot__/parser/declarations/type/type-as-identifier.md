@@ -109,7 +109,7 @@ type = x;
 
 ```javascript
 
- type;, type=x;, (type); 
+ type; type=x; (type); 
 ```
 
 ### Diagnostics

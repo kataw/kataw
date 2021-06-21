@@ -692,13 +692,13 @@ for await (let binding of [await function() {}]) {
 
 ```javascript
 
- var binding;, for await(binding of [await function () {
+ var binding; for await(binding of [await function () {
     }]) { await function () {
-};, break; }, for await(var binding of [await function () {
+}; break; } for await(var binding of [await function () {
     }]) { await function () {
-};, break; }, for await(let binding of [await function () {
+}; break; } for await(let binding of [await function () {
     }]) { await function () {
-};, break; } 
+}; break; } 
 ```
 
 ### Diagnostics

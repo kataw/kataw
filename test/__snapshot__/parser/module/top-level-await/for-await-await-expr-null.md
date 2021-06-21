@@ -494,7 +494,7 @@ for await (let binding of [await null]) {
 
 ```javascript
 
- var binding;, for await(binding of [await null]) { await null;, break; }, for await(var binding of [await null]) { await null;, break; }, for await(let binding of [await null]) { await null;, break; } 
+ var binding; for await(binding of [await null]) { await null; break; } for await(var binding of [await null]) { await null; break; } for await(let binding of [await null]) { await null; break; } 
 ```
 
 ### Diagnostics

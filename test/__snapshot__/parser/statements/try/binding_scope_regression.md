@@ -205,7 +205,7 @@
 
 ```javascript
 
- { let AAAAAAAAAAAAAAAAAAAA;, try { AAAAAAAAAAAAAAAAAAAA=false; }
+ { let AAAAAAAAAAAAAAAAAAAA; try { AAAAAAAAAAAAAAAAAAAA=false; }
 catch { AAAAAAAAAAAAAAAAAAAA=false; } } 
 ```
 

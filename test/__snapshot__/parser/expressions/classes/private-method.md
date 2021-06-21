@@ -10448,344 +10448,320 @@ class x { #foo() {}}
  class x {
     #foo() {
     }
-}, (class  {
+} (class  {
     #a() {
     }
-});, (class  {
+}); (class  {
     get #a() {
     }
-});, (class  {
+}); (class  {
     set #a(foo) {
     }
-});, (class  {
+}); (class  {
     *#a() {
     }
-});, (class  {
+}); (class  {
     async #a() {
     }
-});, (class  {
+}); (class  {
     async *#a() {
     }
-});, (class  {
+}); (class  {
     #a() {
-    },
+    }
     #b() {
     }
-});, (class  {
+}); (class  {
     get #a() {
-    },
+    }
     set #a(foo) {
     }
-});, (class  {
+}); (class  {
     get #a() {
-    },
+    }
     get #b() {
-    },
+    }
     set #a(foo) {
     }
-});, (class  {
+}); (class  {
     get #a() {
-    },
+    }
     get #b() {
-    },
+    }
     set #a(foo) {
-    },
+    }
     set #b(foo) {
     }
-});, (class  {
+}); (class  {
     set #a(foo) {
-    },
+    }
     set #b(foo) {
     }
-});, (class  {
+}); (class  {
     get #a() {
-    },
+    }
     get #b() {
     }
-});, (class  {
+}); (class  {
     #a() {
-    },
+    }
     static a() {
     }
-});, (class  {
+}); (class  {
     #a() {
-    },
+    }
     a() {
     }
-});, (class  {
+}); (class  {
     #a() {
-    },
+    }
     a() {
-    },
+    }
     static a() {
     }
-});, (class  {
+}); (class  {
     get #a() {
-    },
+    }
     get a() {
-    },
+    }
     static get a() {
     }
-});, (class  {
+}); (class  {
     set #a(foo) {
-    },
+    }
     set a(foo) {
-    },
+    }
     static set a(foo) {
     }
-});, (class  {
+}); (class  {
     #a() {
-    },
+    }
     get #b() {
     }
-});, (class  {
+}); (class  {
     #a() {
-    },
+    }
     async #b() {
     }
-});, (class  {
+}); (class  {
     #a() {
-    },
+    }
     async *#b() {
     }
-});, (class  {
+}); (class  {
     #get() {
     }
-});, (class  {
+}); (class  {
     #set() {
     }
-});, (class  {
+}); (class  {
     #yield() {
     }
-});, (class  {
+}); (class  {
     #await() {
     }
-});, (class  {
+}); (class  {
     #async() {
     }
-});, (class  {
+}); (class  {
     #static() {
     }
-});, (class  {
+}); (class  {
     #arguments() {
     }
-});, (class  {
+}); (class  {
     get #yield() {
     }
-});, (class  {
+}); (class  {
     get #await() {
     }
-});, (class  {
+}); (class  {
     get #async() {
     }
-});, (class  {
+}); (class  {
     get #get() {
     }
-});, (class  {
+}); (class  {
     get #static() {
     }
-});, (class  {
+}); (class  {
     get #arguments() {
     }
-});, (class  {
+}); (class  {
     set #yield(test) {
     }
-});, (class  {
+}); (class  {
     set #async(test) {
     }
-});, (class  {
+}); (class  {
     set #await(test) {
     }
-});, (class  {
+}); (class  {
     set #set(test) {
     }
-});, (class  {
+}); (class  {
     set #static(test) {
     }
-});, (class  {
+}); (class  {
     set #arguments(test) {
     }
-});, (class  {
+}); (class  {
     async #yield() {
     }
-});, (class  {
+}); (class  {
     async #async() {
     }
-});, (class  {
+}); (class  {
     async #await() {
     }
-});, (class  {
+}); (class  {
     async #get() {
     }
-});, (class  {
+}); (class  {
     async #set() {
     }
-});, (class  {
+}); (class  {
     async #static() {
     }
-});, (class  {
+}); (class  {
     async #arguments() {
     }
-});, (class  {
+}); (class  {
     *#async() {
     }
-});, (class  {
+}); (class  {
     *#await() {
     }
-});, (class  {
+}); (class  {
     *#yield() {
     }
-});, (class  {
+}); (class  {
     *#get() {
     }
-});, (class  {
+}); (class  {
     *#set() {
     }
-});, (class  {
+}); (class  {
     *#static() {
     }
-});, (class  {
+}); (class  {
     *#arguments() {
     }
-});, (class  {
+}); (class  {
     async *#yield() {
     }
-});, (class  {
+}); (class  {
     async *#async() {
     }
-});, (class  {
+}); (class  {
     async *#await() {
     }
-});, (class  {
+}); (class  {
     async *#get() {
     }
-});, (class  {
+}); (class  {
     async *#set() {
     }
-});, (class  {
+}); (class  {
     async *#static() {
     }
-});, (class  {
+}); (class  {
     async *#arguments() {
     }
-});, (class  {
-    #b,
-    ,
+}); (class  {
+    #b
     #a() {
     }
-});, (class  {
-    #b,
-    ,
+}); (class  {
+    #b
     get #a() {
     }
-});, (class  {
-    #b,
-    ,
+}); (class  {
+    #b
     set #a(foo) {
     }
-});, (class  {
-    #b,
-    ,
+}); (class  {
+    #b
     *#a() {
     }
-});, (class  {
-    #b,
-    ,
+}); (class  {
+    #b
     async #a() {
     }
-});, (class  {
-    #b,
-    ,
+}); (class  {
+    #b
     async *#a() {
     }
-});, (class  {
-    #b = 1,
-    ,
+}); (class  {
+    #b = 1
     #a() {
     }
-});, (class  {
-    #b = 1,
-    ,
+}); (class  {
+    #b = 1
     get #a() {
     }
-});, (class  {
-    #b = 1,
-    ,
+}); (class  {
+    #b = 1
     set #a(foo) {
     }
-});, (class  {
-    #b = 1,
-    ,
+}); (class  {
+    #b = 1
     *#a() {
     }
-});, (class  {
-    #b = 1,
-    ,
+}); (class  {
+    #b = 1
     async #a() {
     }
-});, (class  {
-    #b = 1,
-    ,
+}); (class  {
+    #b = 1
     async *#a() {
     }
-});, (class  {
-    a,
-    ,
+}); (class  {
+    a
     #a() {
     }
-});, (class  {
-    a,
-    ,
+}); (class  {
+    a
     get #a() {
     }
-});, (class  {
-    a,
-    ,
+}); (class  {
+    a
     set #a(foo) {
     }
-});, (class  {
-    a,
-    ,
+}); (class  {
+    a
     *#a() {
     }
-});, (class  {
-    a,
-    ,
+}); (class  {
+    a
     async #a() {
     }
-});, (class  {
-    a,
-    ,
+}); (class  {
+    a
     async *#a() {
     }
-});, (class  {
-    a = 1,
-    ,
+}); (class  {
+    a = 1
     #a() {
     }
-});, (class  {
-    a = 1,
-    ,
+}); (class  {
+    a = 1
     get #a() {
     }
-});, (class  {
-    a = 1,
-    ,
+}); (class  {
+    a = 1
     set #a(foo) {
     }
-});, (class  {
-    a = 1,
-    ,
+}); (class  {
+    a = 1
     *#a() {
     }
-});, (class  {
-    a = 1,
-    ,
+}); (class  {
+    a = 1
     async #a() {
     }
-});, (class  {
-    a = 1,
-    ,
+}); (class  {
+    a = 1
     async *#a() {
     }
 }); 

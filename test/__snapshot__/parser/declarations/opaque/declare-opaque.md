@@ -140,7 +140,7 @@ declare var a: A;
                             "bitwiseAndToken": null,
                             "type": {
                                 "kind": 144,
-                                "name": {
+                                "typeName": {
                                     "kind": 134299649,
                                     "text": "A",
                                     "rawText": "A",
@@ -185,7 +185,7 @@ declare var a: A;
 
 ```javascript
 
- , ;, , ;, var a A; 
+ declare opaque type A =  ; declare opaque type B =  ; var a A; 
 ```
 
 ### Diagnostics

@@ -229,7 +229,7 @@ type overloads2 = {
                             "kind": 290,
                             "type": {
                                 "kind": 144,
-                                "name": {
+                                "typeName": {
                                     "kind": 288,
                                     "arrowTypeParameterList": {
                                         "kind": 10,
@@ -308,7 +308,7 @@ type overloads2 = {
                             "kind": 290,
                             "type": {
                                 "kind": 144,
-                                "name": {
+                                "typeName": {
                                     "kind": 288,
                                     "arrowTypeParameterList": {
                                         "kind": 10,
@@ -752,7 +752,7 @@ type overloads2 = {
 
 ```javascript
 
- type union = | , , type overloads = => (), (), type union2 = , type overloads2 =  
+ type union = | (typeA) | (typeB) type overloads = =>  type union2 = (x| (typeA) | (typeB)) type overloads2 = (x=> ) 
 ```
 
 ### Diagnostics

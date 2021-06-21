@@ -413,7 +413,7 @@
 
 ```javascript
 
- (x?: number): any =>x;, ;, (q, x?: number): any =>x;, ; 
+ (x?: number): any =>x; ; (q, x?: number): any =>x; ; 
 ```
 
 ### Diagnostics

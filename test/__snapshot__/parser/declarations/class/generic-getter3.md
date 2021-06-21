@@ -104,7 +104,7 @@ class C<T> {
                                 "bitwiseAndToken": null,
                                 "type": {
                                     "kind": 144,
-                                    "name": {
+                                    "typeName": {
                                         "kind": 134299649,
                                         "text": "T",
                                         "rawText": "T",
@@ -171,7 +171,7 @@ class C<T> {
                                     "bitwiseAndToken": null,
                                     "type": {
                                         "kind": 144,
-                                        "name": {
+                                        "typeName": {
                                             "kind": 134299649,
                                             "text": "T",
                                             "rawText": "T",
@@ -271,8 +271,7 @@ class C<T> {
 ```javascript
 
  class C {
-    data: T,
-    ,
+    data: T
     get x(): T {
     return this.data;
     }

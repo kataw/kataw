@@ -378,22 +378,18 @@ function getSecurity(level) {
 switch(level) {
     case 0:
     // Zero
-    ,
     case 1:
     // one
-    ,
     case 2:// two
      // two
-        return "Hi";,
+        return "Hi";
     case 3:
     // three
-    ,
     case 4:// four
      // four
-        return "hello";,
+        return "hello";
     case 5:
     // five
-    ,
     default:// default
      // default
         return "world";

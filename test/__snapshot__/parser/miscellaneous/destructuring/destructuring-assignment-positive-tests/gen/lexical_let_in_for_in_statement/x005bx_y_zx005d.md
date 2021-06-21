@@ -211,7 +211,7 @@
 
 ```javascript
 
-'use strict' let x, y, z;, for (x in [x, y, z]={  }) ; 
+'use strict' let x, y, z; for (x in [x, y, z]={  }) ; 
 ```
 
 ### Diagnostics

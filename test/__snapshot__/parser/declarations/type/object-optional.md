@@ -68,6 +68,7 @@ type T = { [[foo]]?: X }
                         {
                             "kind": 248,
                             "protoKeyword": null,
+                            "staticToken": null,
                             "name": {
                                 "kind": 134299649,
                                 "text": "foo",
@@ -76,13 +77,19 @@ type T = { [[foo]]?: X }
                                 "start": 13,
                                 "end": 16
                             },
-                            "value": {
+                            "optionalToken": {
+                                "kind": 134217750,
+                                "flags": 64,
+                                "start": 18,
+                                "end": 19
+                            },
+                            "type": {
                                 "kind": 139,
                                 "bitwiseOrToken": null,
                                 "bitwiseAndToken": null,
                                 "type": {
                                     "kind": 144,
-                                    "name": {
+                                    "typeName": {
                                         "kind": 134299649,
                                         "text": "X",
                                         "rawText": "X",
@@ -99,13 +106,6 @@ type T = { [[foo]]?: X }
                                 "start": 20,
                                 "end": 22
                             },
-                            "optionalToken": {
-                                "kind": 134217750,
-                                "flags": 64,
-                                "start": 18,
-                                "end": 19
-                            },
-                            "staticToken": null,
                             "flags": 2097152,
                             "start": 10,
                             "end": 22
@@ -138,7 +138,7 @@ type T = { [[foo]]?: X }
 
 ```javascript
 
- type T =  
+ type T = ([[foo]]? : X) 
 ```
 
 ### Diagnostics

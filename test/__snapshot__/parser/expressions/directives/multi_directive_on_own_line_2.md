@@ -109,7 +109,7 @@ function f(){
 ```javascript
 
  function f() {
-'foo';,
+'foo';
 'bar';
 } 
 ```

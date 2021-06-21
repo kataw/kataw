@@ -261,7 +261,7 @@ export class C extends fn(await []) {};
  function fn() {
 return function () {
 };
-}, , ; 
+}  ; 
 ```
 
 ### Diagnostics

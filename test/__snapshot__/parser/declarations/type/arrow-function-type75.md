@@ -101,7 +101,7 @@ type a = ({set y(y): string}) => T;
                                                             "optionalToken": null,
                                                             "types": {
                                                                 "kind": 144,
-                                                                "name": {
+                                                                "typeName": {
                                                                     "kind": 134299649,
                                                                     "text": "y",
                                                                     "rawText": "y",
@@ -169,7 +169,7 @@ type a = ({set y(y): string}) => T;
                         "bitwiseAndToken": null,
                         "type": {
                             "kind": 144,
-                            "name": {
+                            "typeName": {
                                 "kind": 134299649,
                                 "text": "T",
                                 "rawText": "T",
@@ -213,7 +213,7 @@ type a = ({set y(y): string}) => T;
 
 ```javascript
 
- type a =  
+ type a =  : T  
 ```
 
 ### Diagnostics

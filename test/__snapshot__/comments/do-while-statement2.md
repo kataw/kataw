@@ -81,7 +81,7 @@ do {} while (x)/* comment 1 */ {} /* comment 2 */
 
 ```javascript
 
- do {  } while (x)/* comment 1 */, /* comment 1 */{  }/* comment 2 */ 
+ do {  } while (x)/* comment 1 */ /* comment 1 */{  }/* comment 2 */ 
 ```
 
 ### Diagnostics

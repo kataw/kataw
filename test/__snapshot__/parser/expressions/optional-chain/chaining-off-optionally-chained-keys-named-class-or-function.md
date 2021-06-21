@@ -328,7 +328,7 @@ foo?.function?.bar
 
 ```javascript
 
- ;, ;, ;, ; 
+ ; ; ; ; 
 ```
 
 ### Diagnostics

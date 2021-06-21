@@ -916,7 +916,7 @@ export const [destructuredArrNumber2] = [1]
 
 ```javascript
 
- const specifierNumber4 = 1;, const specifierNumber5 = 2;, const groupedSpecifierNumber3 = 1;, const groupedSpecifierNumber4 = 2;, , , , , ;, , ;, , ,  
+ const specifierNumber4 = 1; const specifierNumber5 = 2; const groupedSpecifierNumber3 = 1; const groupedSpecifierNumber4 = 2;     ;  ;    
 ```
 
 ### Diagnostics

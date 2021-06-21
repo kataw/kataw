@@ -58,7 +58,7 @@ let x: (this) => void = () => {}
                                 },
                                 "arrowToken": {
                                     "kind": 144,
-                                    "name": {
+                                    "typeName": {
                                         "kind": 134299649,
                                         "text": "this",
                                         "rawText": "this",
@@ -151,7 +151,7 @@ let x: (this) => void = () => {}
 
 ```javascript
 
- let x  = () => {
+ let x  : void  = () => {
 }; 
 ```
 

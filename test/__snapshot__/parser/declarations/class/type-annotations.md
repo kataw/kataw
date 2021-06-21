@@ -191,7 +191,7 @@ class Array { concat(items:number | string) {}; }
                                     "bitwiseAndToken": null,
                                     "type": {
                                         "kind": 144,
-                                        "name": {
+                                        "typeName": {
                                             "kind": 134299649,
                                             "text": "T",
                                             "rawText": "T",
@@ -1235,31 +1235,29 @@ class Array { concat(items:number | string) {}; }
 ```javascript
 
  class Foo4 {
-}, class Foo5 {
-}, class Foo6 {
-}, class Foo1 {
+} class Foo5 {
+} class Foo6 {
+} class Foo1 {
     set fooProp() {
     }
-}, class Foo2 {
+} class Foo2 {
     set fooProp(): void {
     }
-}, class Foo3 {
+} class Foo3 {
     get fooProp(): number {
     }
-}, class Foo8 {
+} class Foo8 {
     "bar"<T>() {
     }
-}, class Foo10 {
-    static prop1: string,
-    ,
-    prop2: number,
-}, class Foo11 {
-    #prop1: string,
-    ,
-    prop2: number,
-}, class Array {
+} class Foo10 {
+    static prop1: string
+    prop2: number
+} class Foo11 {
+    #prop1: string
+    prop2: number
+} class Array {
     concat() {
-    },
+    }
 } 
 ```
 

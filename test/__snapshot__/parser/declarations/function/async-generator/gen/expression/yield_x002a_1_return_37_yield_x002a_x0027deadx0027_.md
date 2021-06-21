@@ -210,8 +210,8 @@
 ```javascript
 
  ({ async * gen() {
-    yield* 1;,
-    return 37;,
+    yield* 1;
+    return 37;
     yield* 'dead';
     } }); 
 ```

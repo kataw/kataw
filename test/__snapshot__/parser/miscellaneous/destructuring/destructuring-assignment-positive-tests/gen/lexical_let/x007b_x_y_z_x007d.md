@@ -191,7 +191,7 @@
 
 ```javascript
 
-'use strict' let x, y, z;, ({ x, y, z }={  }); 
+'use strict' let x, y, z; ({ x, y, z }={  }); 
 ```
 
 ### Diagnostics

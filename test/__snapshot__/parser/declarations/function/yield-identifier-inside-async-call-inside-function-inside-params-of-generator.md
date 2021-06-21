@@ -177,7 +177,7 @@ function* g( x = function() { async(yield) }) {};
 ```javascript
 
  function* g() {
-}, ; 
+} ; 
 ```
 
 ### Diagnostics

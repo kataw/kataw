@@ -161,7 +161,7 @@ function* wrap() {
 
  function* wrap() {
 (a = yield b) =>a
-}, ; 
+} ; 
 ```
 
 ### Diagnostics

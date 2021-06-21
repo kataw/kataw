@@ -132,7 +132,7 @@ class A {async foo() { }};
  class A {
     async foo() {
     }
-}, ; 
+} ; 
 ```
 
 ### Diagnostics

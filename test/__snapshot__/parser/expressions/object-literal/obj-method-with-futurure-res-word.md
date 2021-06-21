@@ -204,7 +204,7 @@
 ```javascript
 
  ({ * method(public) {
-    } });, ({ method(protected) {
+    } }); ({ method(protected) {
     } }); 
 ```
 

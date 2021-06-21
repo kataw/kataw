@@ -183,7 +183,7 @@ class I<X> {
                                                 "bitwiseAndToken": null,
                                                 "type": {
                                                     "kind": 144,
-                                                    "name": {
+                                                    "typeName": {
                                                         "kind": 134299649,
                                                         "text": "X",
                                                         "rawText": "X",
@@ -296,7 +296,7 @@ class I<X> {
                                                 "bitwiseAndToken": null,
                                                 "type": {
                                                     "kind": 144,
-                                                    "name": {
+                                                    "typeName": {
                                                         "kind": 134299649,
                                                         "text": "X",
                                                         "rawText": "X",
@@ -468,15 +468,13 @@ class I<X> {
 ```javascript
 
  class I {
-    #i,
-    ,
-    _f,
-    ,
+    #i
+    _f
     _h() {
     return x;
-    },
+    }
     g() {
-    this.#i=x;,
+    this.#i=x;
     this._f=x;
     }
 } 

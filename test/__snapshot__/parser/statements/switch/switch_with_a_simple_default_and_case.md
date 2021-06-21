@@ -134,7 +134,7 @@ switch (A) {default: D; case B: C; }
 ```javascript
 
  switch(A) {
-    default: D;,
+    default: D;
     case B: C;
 } 
 ```

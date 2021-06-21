@@ -184,7 +184,6 @@
 ```javascript
 
 'use strict' async function a() {
-,
 ;
 } 
 ```

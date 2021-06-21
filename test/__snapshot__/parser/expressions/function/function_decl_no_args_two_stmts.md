@@ -106,7 +106,7 @@ function f(){foo;bar}
 ```javascript
 
  function f() {
-foo;,
+foo;
 bar;
 } 
 ```

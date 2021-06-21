@@ -313,7 +313,7 @@ opaque type VeryOpaque: AliasAlias = ObjectAlias;
                 "bitwiseAndToken": null,
                 "type": {
                     "kind": 144,
-                    "name": {
+                    "typeName": {
                         "kind": 134299649,
                         "text": "ObjectAlias",
                         "rawText": "ObjectAlias",
@@ -336,7 +336,7 @@ opaque type VeryOpaque: AliasAlias = ObjectAlias;
                 "bitwiseAndToken": null,
                 "type": {
                     "kind": 144,
-                    "name": {
+                    "typeName": {
                         "kind": 134299649,
                         "text": "ObjectAlias",
                         "rawText": "ObjectAlias",
@@ -393,7 +393,7 @@ opaque type VeryOpaque: AliasAlias = ObjectAlias;
                 "bitwiseAndToken": null,
                 "type": {
                     "kind": 144,
-                    "name": {
+                    "typeName": {
                         "kind": 134299649,
                         "text": "AliasAlias",
                         "rawText": "AliasAlias",
@@ -416,7 +416,7 @@ opaque type VeryOpaque: AliasAlias = ObjectAlias;
                 "bitwiseAndToken": null,
                 "type": {
                     "kind": 144,
-                    "name": {
+                    "typeName": {
                         "kind": 134299649,
                         "text": "ObjectAlias",
                         "rawText": "ObjectAlias",
@@ -457,7 +457,7 @@ opaque type VeryOpaque: AliasAlias = ObjectAlias;
 
 ```javascript
 
- , ;, , ;, , ;, , ;, , ; 
+ opaque type StringAlias = string ; opaque type ObjectAlias = (propertystringmethod(): number) ; opaque type UnionAlias =  |  |  ; opaque type AliasAlias ObjectAlias = ObjectAlias ; opaque type VeryOpaque AliasAlias = ObjectAlias ; 
 ```
 
 ### Diagnostics

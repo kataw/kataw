@@ -173,7 +173,7 @@ function g() {  function f(){} function f(){} }
 
  function g() {
 function f() {
-},
+}
 function f() {
 }
 } 

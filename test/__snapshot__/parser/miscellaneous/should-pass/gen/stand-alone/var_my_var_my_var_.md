@@ -88,7 +88,7 @@ var my_var; my_var;
 
 ```javascript
 
- var my_var;, my_var; 
+ var my_var; my_var; 
 ```
 
 ### Diagnostics

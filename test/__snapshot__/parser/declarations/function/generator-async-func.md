@@ -164,7 +164,7 @@ function* wrap() {
 ```javascript
 
  function* wrap() {
-}, ; 
+} ; 
 ```
 
 ### Diagnostics

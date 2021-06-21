@@ -59,7 +59,7 @@ type C = Obj['bar'][foo]['boz'];
                             "kind": 311,
                             "objectType": {
                                 "kind": 144,
-                                "name": {
+                                "typeName": {
                                     "kind": 134299649,
                                     "text": "Obj",
                                     "rawText": "Obj",
@@ -97,7 +97,7 @@ type C = Obj['bar'][foo]['boz'];
                             "bitwiseAndToken": null,
                             "type": {
                                 "kind": 144,
-                                "name": {
+                                "typeName": {
                                     "kind": 134299649,
                                     "text": "foo",
                                     "rawText": "foo",
@@ -159,7 +159,7 @@ type C = Obj['bar'][foo]['boz'];
 
 ```javascript
 
- type C =  
+ type C = Obj[bar][foo][boz] 
 ```
 
 ### Diagnostics

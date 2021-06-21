@@ -277,7 +277,7 @@ function e(x: { (): string; (x: number): string }): () => number {
 
 ```javascript
 
- function e():  {
+ function e():  : number  {
 return x;
 } 
 ```

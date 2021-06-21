@@ -115,7 +115,7 @@ type a = (([-1]| q & (x)) => T) => T
                                                         "types": [
                                                             {
                                                                 "kind": 144,
-                                                                "name": {
+                                                                "typeName": {
                                                                     "kind": 134299649,
                                                                     "text": "q",
                                                                     "rawText": "q",
@@ -132,7 +132,7 @@ type a = (([-1]| q & (x)) => T) => T
                                                                 "kind": 290,
                                                                 "type": {
                                                                     "kind": 144,
-                                                                    "name": {
+                                                                    "typeName": {
                                                                         "kind": 134299649,
                                                                         "text": "x",
                                                                         "rawText": "x",
@@ -175,7 +175,7 @@ type a = (([-1]| q & (x)) => T) => T
                                     "bitwiseAndToken": null,
                                     "type": {
                                         "kind": 144,
-                                        "name": {
+                                        "typeName": {
                                             "kind": 134299649,
                                             "text": "T",
                                             "rawText": "T",
@@ -209,7 +209,7 @@ type a = (([-1]| q & (x)) => T) => T
                         "bitwiseAndToken": null,
                         "type": {
                             "kind": 144,
-                            "name": {
+                            "typeName": {
                                 "kind": 134299649,
                                 "text": "T",
                                 "rawText": "T",
@@ -253,7 +253,7 @@ type a = (([-1]| q & (x)) => T) => T
 
 ```javascript
 
- type a =  
+ type a =  : T  
 ```
 
 ### Diagnostics

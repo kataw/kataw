@@ -119,7 +119,7 @@ export default function *f(){} foo
 
 ```javascript
 
- , foo; 
+  foo; 
 ```
 
 ### Diagnostics

@@ -81,7 +81,7 @@ type a = ((q, x?:string )=> T) => T;
                                                     "ellipsisToken": null,
                                                     "name": {
                                                         "kind": 144,
-                                                        "name": {
+                                                        "typeName": {
                                                             "kind": 134299649,
                                                             "text": "q",
                                                             "rawText": "q",
@@ -153,7 +153,7 @@ type a = ((q, x?:string )=> T) => T;
                                     "bitwiseAndToken": null,
                                     "type": {
                                         "kind": 144,
-                                        "name": {
+                                        "typeName": {
                                             "kind": 134299649,
                                             "text": "T",
                                             "rawText": "T",
@@ -187,7 +187,7 @@ type a = ((q, x?:string )=> T) => T;
                         "bitwiseAndToken": null,
                         "type": {
                             "kind": 144,
-                            "name": {
+                            "typeName": {
                                 "kind": 134299649,
                                 "text": "T",
                                 "rawText": "T",
@@ -231,7 +231,7 @@ type a = ((q, x?:string )=> T) => T;
 
 ```javascript
 
- type a =  
+ type a =  : T  
 ```
 
 ### Diagnostics

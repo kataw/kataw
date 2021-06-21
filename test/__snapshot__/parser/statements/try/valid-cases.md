@@ -783,15 +783,15 @@ try { var e } catch (e) {}
 
  try {  }
 catch (e){ if (0) ; else function e() {
-} }, try {  }
+} } try {  }
 catch (e){ if (1) function e() {
-} }, try {  }
+} } try {  }
 catch (e){ if (1) function e() {
-} }, try {  }
+} } try {  }
 catch (e){ { function e() {
-} } }, try {  }
+} } } try {  }
 catch (e){ { function e() {
-} } }, try { var e; }
+} } } try { var e; }
 catch (e){  } 
 ```
 

@@ -188,7 +188,7 @@ async ([a]:string)=>c;
 
 ```javascript
 
- (a: string) =>c, ;, ([a]: string) =>c, ; 
+ (a: string) =>c ; ([a]: string) =>c ; 
 ```
 
 ### Diagnostics

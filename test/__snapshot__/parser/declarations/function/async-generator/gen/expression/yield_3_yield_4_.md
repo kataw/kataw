@@ -180,7 +180,7 @@
 ```javascript
 
  ({ async * gen() {
-    yield 3;,
+    yield 3;
     yield 4;
     } }); 
 ```

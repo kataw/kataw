@@ -361,11 +361,11 @@ var await; var f = (async function() { async function f() {
 
 ```javascript
 
- var await;, var f = (async function () {
+ var await; var f = (async function () {
 async function f() {
 let {
      : a
-} = { a : 1 };,
+} = { a : 1 };
 return a;
 }
 }); 

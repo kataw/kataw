@@ -847,25 +847,25 @@
 
  (class  {
     set #b(val) {
-    },
+    }
     fn() {
     return this.#b;
     }
-});, (class  {
+}); (class  {
     get #b() {
-    },
+    }
     fn() {
     this.#b++;
     }
-});, (class  {
+}); (class  {
     get #b() {
-    },
+    }
     fn(obj) {
     ({ y : this.#b }=obj);
     }
-});, (class  {
+}); (class  {
     #b() {
-    },
+    }
     fn() {
     this.#b++;
     }

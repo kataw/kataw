@@ -139,7 +139,7 @@ default /* comment 5 */ : /* comment 6 */ foo;
 ```javascript
 
  switch/* comment 1 */(x)/* comment 2 */ {
-    case/* comment 3 */ y:/* comment 4 */ /* comment 4 */foo;,
+    case/* comment 3 */ y:/* comment 4 */ /* comment 4 */foo;
     default/* comment 5 */:/* comment 6 */ /* comment 6 */foo;
 }/* comment 7 */ 
 ```

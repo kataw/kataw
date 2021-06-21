@@ -405,10 +405,10 @@ function g(x: () => any) {
 ```javascript
 
  function f() {
-;,
+;
 const y = ;
-}, function g() {
-;,
+} function g() {
+;
 const y = ;
 } 
 ```

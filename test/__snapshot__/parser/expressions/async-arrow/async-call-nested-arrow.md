@@ -115,7 +115,7 @@ async (a => a + 1);
 
 ```javascript
 
- , ; 
+  ; 
 ```
 
 ### Diagnostics

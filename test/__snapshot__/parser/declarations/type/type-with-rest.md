@@ -57,6 +57,7 @@ type C = { ...A&B };
                         {
                             "kind": 247,
                             "protoKeyword": null,
+                            "staticToken": null,
                             "ellipsisToken": {
                                 "kind": 524302,
                                 "flags": 64,
@@ -72,7 +73,7 @@ type C = { ...A&B };
                                     "types": [
                                         {
                                             "kind": 144,
-                                            "name": {
+                                            "typeName": {
                                                 "kind": 134299649,
                                                 "text": "A",
                                                 "rawText": "A",
@@ -87,7 +88,7 @@ type C = { ...A&B };
                                         },
                                         {
                                             "kind": 144,
-                                            "name": {
+                                            "typeName": {
                                                 "kind": 134299649,
                                                 "text": "B",
                                                 "rawText": "B",
@@ -109,7 +110,6 @@ type C = { ...A&B };
                                 "start": 14,
                                 "end": 17
                             },
-                            "staticToken": null,
                             "flags": 2097152,
                             "start": 10,
                             "end": 17
@@ -142,7 +142,7 @@ type C = { ...A&B };
 
 ```javascript
 
- type C =  
+ type C = (...) 
 ```
 
 ### Diagnostics

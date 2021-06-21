@@ -118,7 +118,7 @@ obj.a ||= b;
 
 ```javascript
 
- a||=b;, obj.a||=b; 
+ a||=b; obj.a||=b; 
 ```
 
 ### Diagnostics

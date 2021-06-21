@@ -109,7 +109,7 @@ export async function foo() { };
 
 ```javascript
 
- , ; 
+  ; 
 ```
 
 ### Diagnostics

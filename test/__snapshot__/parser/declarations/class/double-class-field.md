@@ -135,8 +135,7 @@ class C { aaa; bbb}
 ```javascript
 
  class C {
-    aaa,
-    ,
+    aaa
     bbb
 } 
 ```

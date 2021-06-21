@@ -51,7 +51,7 @@ var a : A.B
                             "bitwiseAndToken": null,
                             "type": {
                                 "kind": 144,
-                                "name": {
+                                "typeName": {
                                     "kind": 145,
                                     "qualification": {
                                         "kind": 134299649,
@@ -110,7 +110,7 @@ var a : A.B
 
 ```javascript
 
- var a ; 
+ var a A.B; 
 ```
 
 ### Diagnostics

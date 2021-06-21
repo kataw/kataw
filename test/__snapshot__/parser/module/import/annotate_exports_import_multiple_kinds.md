@@ -290,7 +290,7 @@ module.exports = [
 
 ```javascript
 
- , , module.exports=[, ]; 
+   module.exports=[, ]; 
 ```
 
 ### Diagnostics

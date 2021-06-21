@@ -90,7 +90,7 @@ async (a, b, c);
 
 ```javascript
 
- , ; 
+  ; 
 ```
 
 ### Diagnostics

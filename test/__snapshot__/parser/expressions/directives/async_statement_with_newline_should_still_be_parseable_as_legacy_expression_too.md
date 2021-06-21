@@ -67,7 +67,7 @@ async
 
 ```javascript
 
- , ; 
+  ; 
 ```
 
 ### Diagnostics

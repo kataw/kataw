@@ -163,8 +163,8 @@ get
 ```javascript
 
  class C {
-    static,
-    get,
+    static
+    get
     #aaa() {
     }
 } 

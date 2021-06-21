@@ -183,7 +183,7 @@ function *g() { function f(x = x + yield) {}; }
 
  function* g() {
 function f() {
-},
+}
 ;
 } 
 ```

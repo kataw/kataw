@@ -120,7 +120,7 @@
 ```javascript
 
 "use strict" try {  }
-finally {  }, ; 
+finally {  } ; 
 ```
 
 ### Diagnostics

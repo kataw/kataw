@@ -183,8 +183,8 @@ async function * gen() {yield * 1; return 37; yield * 'dead';}
 ```javascript
 
  async function* gen() {
-yield* 1;,
-return 37;,
+yield* 1;
+return 37;
 yield* 'dead';
 } 
 ```

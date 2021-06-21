@@ -172,7 +172,7 @@ class C<T> {
                                 "bitwiseAndToken": null,
                                 "type": {
                                     "kind": 144,
-                                    "name": {
+                                    "typeName": {
                                         "kind": 134299649,
                                         "text": "A",
                                         "rawText": "A",
@@ -191,7 +191,7 @@ class C<T> {
                                                     "bitwiseAndToken": null,
                                                     "type": {
                                                         "kind": 144,
-                                                        "name": {
+                                                        "typeName": {
                                                             "kind": 134299649,
                                                             "text": "T",
                                                             "rawText": "T",
@@ -276,7 +276,7 @@ class C<T> {
                                     "bitwiseAndToken": null,
                                     "type": {
                                         "kind": 144,
-                                        "name": {
+                                        "typeName": {
                                             "kind": 134299649,
                                             "text": "A",
                                             "rawText": "A",
@@ -295,7 +295,7 @@ class C<T> {
                                                         "bitwiseAndToken": null,
                                                         "type": {
                                                             "kind": 144,
-                                                            "name": {
+                                                            "typeName": {
                                                                 "kind": 134299649,
                                                                 "text": "T",
                                                                 "rawText": "T",
@@ -413,10 +413,9 @@ class C<T> {
 ```javascript
 
  class A {
-}, class C {
-    data: A,
-    ,
-    get x(): A {
+} class C {
+    data: A<>
+    get x(): A<> {
     return this.data;
     }
 } 

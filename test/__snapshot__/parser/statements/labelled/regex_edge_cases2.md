@@ -55,7 +55,7 @@ debugger
 
 ```javascript
 
- debugger;, ; 
+ debugger; ; 
 ```
 
 ### Diagnostics

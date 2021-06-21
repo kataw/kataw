@@ -78,7 +78,7 @@ type X = {[|(x) =>x&symbol]: string,};
                                     },
                                     "arrowToken": {
                                         "kind": 144,
-                                        "name": {
+                                        "typeName": {
                                             "kind": 134299649,
                                             "text": "x",
                                             "rawText": "x",
@@ -100,7 +100,7 @@ type X = {[|(x) =>x&symbol]: string,};
                                             "types": [
                                                 {
                                                     "kind": 144,
-                                                    "name": {
+                                                    "typeName": {
                                                         "kind": 134299649,
                                                         "text": "x",
                                                         "rawText": "x",
@@ -183,7 +183,7 @@ type X = {[|(x) =>x&symbol]: string,};
 
 ```javascript
 
- type X =  
+ type X = ([|  :  ]: string) 
 ```
 
 ### Diagnostics

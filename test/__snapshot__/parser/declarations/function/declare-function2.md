@@ -303,7 +303,7 @@ declare function foo(): void
 
 ```javascript
 
- declare function <T>foo(): void, ;, declare function foo(, ): void, ;, declare function foo(): void 
+ declare function <T>foo(): void ; declare function foo(, ): void ; declare function foo(): void 
 ```
 
 ### Diagnostics

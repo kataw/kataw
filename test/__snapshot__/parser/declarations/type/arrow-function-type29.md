@@ -84,7 +84,7 @@ type a = ((q | y, x?:string | (x?:string)=> T)=> T) => T;
                                                         "types": [
                                                             {
                                                                 "kind": 144,
-                                                                "name": {
+                                                                "typeName": {
                                                                     "kind": 134299649,
                                                                     "text": "q",
                                                                     "rawText": "q",
@@ -99,7 +99,7 @@ type a = ((q | y, x?:string | (x?:string)=> T)=> T) => T;
                                                             },
                                                             {
                                                                 "kind": 144,
-                                                                "name": {
+                                                                "typeName": {
                                                                     "kind": 134299649,
                                                                     "text": "y",
                                                                     "rawText": "y",
@@ -211,7 +211,7 @@ type a = ((q | y, x?:string | (x?:string)=> T)=> T) => T;
                                                                         "bitwiseAndToken": null,
                                                                         "type": {
                                                                             "kind": 144,
-                                                                            "name": {
+                                                                            "typeName": {
                                                                                 "kind": 134299649,
                                                                                 "text": "T",
                                                                                 "rawText": "T",
@@ -264,7 +264,7 @@ type a = ((q | y, x?:string | (x?:string)=> T)=> T) => T;
                                     "bitwiseAndToken": null,
                                     "type": {
                                         "kind": 144,
-                                        "name": {
+                                        "typeName": {
                                             "kind": 134299649,
                                             "text": "T",
                                             "rawText": "T",
@@ -298,7 +298,7 @@ type a = ((q | y, x?:string | (x?:string)=> T)=> T) => T;
                         "bitwiseAndToken": null,
                         "type": {
                             "kind": 144,
-                            "name": {
+                            "typeName": {
                                 "kind": 134299649,
                                 "text": "T",
                                 "rawText": "T",
@@ -342,7 +342,7 @@ type a = ((q | y, x?:string | (x?:string)=> T)=> T) => T;
 
 ```javascript
 
- type a =  
+ type a =  : T  
 ```
 
 ### Diagnostics

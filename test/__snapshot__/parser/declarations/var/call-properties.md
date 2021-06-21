@@ -196,7 +196,7 @@ var a: { <T>(x: T): number; };
                                                         "bitwiseAndToken": null,
                                                         "type": {
                                                             "kind": 144,
-                                                            "name": {
+                                                            "typeName": {
                                                                 "kind": 134299649,
                                                                 "text": "T",
                                                                 "rawText": "T",
@@ -697,7 +697,7 @@ var a: { <T>(x: T): number; };
                                                         "bitwiseAndToken": null,
                                                         "type": {
                                                             "kind": 144,
-                                                            "name": {
+                                                            "typeName": {
                                                                 "kind": 134299649,
                                                                 "text": "T",
                                                                 "rawText": "T",
@@ -781,7 +781,7 @@ var a: { <T>(x: T): number; };
 
 ```javascript
 
- var a ;, var a ;, var a ;, var a ;, var a ;, var a ; 
+ var a ((): number); var a (<T> (xT): number); var a ((): number); var a ((): number); var a ((): numberystring(xstring): string); var a (<T> (xT): number); 
 ```
 
 ### Diagnostics

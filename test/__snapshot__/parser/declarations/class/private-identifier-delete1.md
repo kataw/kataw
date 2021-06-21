@@ -204,8 +204,7 @@ class Foo { #foo; foo() { delete this?.#foo } }
 ```javascript
 
  class Foo {
-    #foo,
-    ,
+    #foo
     foo() {
     ;
     }

@@ -69,7 +69,7 @@ type X = {[bj[c] & a | b]: string};
                                                 "kind": 311,
                                                 "objectType": {
                                                     "kind": 144,
-                                                    "name": {
+                                                    "typeName": {
                                                         "kind": 134299649,
                                                         "text": "bj",
                                                         "rawText": "bj",
@@ -88,7 +88,7 @@ type X = {[bj[c] & a | b]: string};
                                                     "bitwiseAndToken": null,
                                                     "type": {
                                                         "kind": 144,
-                                                        "name": {
+                                                        "typeName": {
                                                             "kind": 134299649,
                                                             "text": "c",
                                                             "rawText": "c",
@@ -111,7 +111,7 @@ type X = {[bj[c] & a | b]: string};
                                             },
                                             {
                                                 "kind": 144,
-                                                "name": {
+                                                "typeName": {
                                                     "kind": 134299649,
                                                     "text": "a",
                                                     "rawText": "a",
@@ -131,7 +131,7 @@ type X = {[bj[c] & a | b]: string};
                                     },
                                     {
                                         "kind": 144,
-                                        "name": {
+                                        "typeName": {
                                             "kind": 134299649,
                                             "text": "b",
                                             "rawText": "b",
@@ -195,7 +195,7 @@ type X = {[bj[c] & a | b]: string};
 
 ```javascript
 
- type X =  
+ type X = ([ | b]: string) 
 ```
 
 ### Diagnostics

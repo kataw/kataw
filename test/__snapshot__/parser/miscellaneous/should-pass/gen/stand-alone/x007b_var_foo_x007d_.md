@@ -94,7 +94,7 @@
 
 ```javascript
 
- { var foo; }, ; 
+ { var foo; } ; 
 ```
 
 ### Diagnostics

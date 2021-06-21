@@ -116,7 +116,7 @@ class C2<X, Y> {
                                     "bitwiseAndToken": null,
                                     "type": {
                                         "kind": 144,
-                                        "name": {
+                                        "typeName": {
                                             "kind": 134299649,
                                             "text": "X",
                                             "rawText": "X",
@@ -205,7 +205,7 @@ class C2<X, Y> {
                                                 "bitwiseAndToken": null,
                                                 "type": {
                                                     "kind": 144,
-                                                    "name": {
+                                                    "typeName": {
                                                         "kind": 134299649,
                                                         "text": "X",
                                                         "rawText": "X",
@@ -239,7 +239,7 @@ class C2<X, Y> {
                                     "bitwiseAndToken": null,
                                     "type": {
                                         "kind": 144,
-                                        "name": {
+                                        "typeName": {
                                             "kind": 134299649,
                                             "text": "X",
                                             "rawText": "X",
@@ -580,7 +580,7 @@ class C2<X, Y> {
                                                 "bitwiseAndToken": null,
                                                 "type": {
                                                     "kind": 144,
-                                                    "name": {
+                                                    "typeName": {
                                                         "kind": 134299649,
                                                         "text": "Y",
                                                         "rawText": "Y",
@@ -656,7 +656,7 @@ class C2<X, Y> {
                                     "bitwiseAndToken": null,
                                     "type": {
                                         "kind": 144,
-                                        "name": {
+                                        "typeName": {
                                             "kind": 134299649,
                                             "text": "D2",
                                             "rawText": "D2",
@@ -675,7 +675,7 @@ class C2<X, Y> {
                                                         "bitwiseAndToken": null,
                                                         "type": {
                                                             "kind": 144,
-                                                            "name": {
+                                                            "typeName": {
                                                                 "kind": 134299649,
                                                                 "text": "X",
                                                                 "rawText": "X",
@@ -698,7 +698,7 @@ class C2<X, Y> {
                                                         "bitwiseAndToken": null,
                                                         "type": {
                                                             "kind": 144,
-                                                            "name": {
+                                                            "typeName": {
                                                                 "kind": 134299649,
                                                                 "text": "Y",
                                                                 "rawText": "Y",
@@ -817,14 +817,13 @@ class C2<X, Y> {
 
  class E {
     set(): X {
-    this.x=x;,
-    if (x) { return ; },
+    this.x=x;
+    if (x) { return ; }
     return ;
     }
-}, class C2 {
-    x: ,
-    ,
-    foo(): D2 {
+} class C2 {
+    x: (pY)
+    foo(): D2<> {
     return this.x;
     }
 } 

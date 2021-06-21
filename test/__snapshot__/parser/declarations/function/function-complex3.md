@@ -82,7 +82,7 @@ function b1<A: 'a', B: A>(b: B): void {
                                 "bitwiseAndToken": null,
                                 "type": {
                                     "kind": 144,
-                                    "name": {
+                                    "typeName": {
                                         "kind": 134299649,
                                         "text": "T",
                                         "rawText": "T",
@@ -135,7 +135,7 @@ function b1<A: 'a', B: A>(b: B): void {
                             "bitwiseAndToken": null,
                             "type": {
                                 "kind": 144,
-                                "name": {
+                                "typeName": {
                                     "kind": 134299649,
                                     "text": "$Keys",
                                     "rawText": "$Keys",
@@ -154,7 +154,7 @@ function b1<A: 'a', B: A>(b: B): void {
                                                 "bitwiseAndToken": null,
                                                 "type": {
                                                     "kind": 144,
-                                                    "name": {
+                                                    "typeName": {
                                                         "kind": 134299649,
                                                         "text": "X",
                                                         "rawText": "X",
@@ -442,7 +442,7 @@ function b1<A: 'a', B: A>(b: B): void {
                                             "bitwiseAndToken": null,
                                             "type": {
                                                 "kind": 144,
-                                                "name": {
+                                                "typeName": {
                                                     "kind": 134299649,
                                                     "text": "A",
                                                     "rawText": "A",
@@ -642,7 +642,7 @@ function b1<A: 'a', B: A>(b: B): void {
                                 "bitwiseAndToken": null,
                                 "type": {
                                     "kind": 144,
-                                    "name": {
+                                    "typeName": {
                                         "kind": 134299649,
                                         "text": "A",
                                         "rawText": "A",
@@ -695,7 +695,7 @@ function b1<A: 'a', B: A>(b: B): void {
                             "bitwiseAndToken": null,
                             "type": {
                                 "kind": 144,
-                                "name": {
+                                "typeName": {
                                     "kind": 134299649,
                                     "text": "B",
                                     "rawText": "B",
@@ -827,16 +827,16 @@ function b1<A: 'a', B: A>(b: B): void {
 
  function <X T>c() {
 switch(x) {
-    case 'p': break;,
-    case 'q': break;,
+    case 'p': break;
+    case 'q': break;
     case 'r':// error
      // error
         break;
-},
+}
 function <A a>a(): void {
 if (a === 'a') {  }
 }
-}, function <A a, B A>b1(): void {
+} function <A a, B A>b1(): void {
 if (b === 'b') {  }// error 'b' not compatible with 'a'
 } 
 ```

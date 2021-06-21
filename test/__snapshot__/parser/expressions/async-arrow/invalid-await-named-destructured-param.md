@@ -113,7 +113,7 @@ async ({a: await}) => 1;
 
  ({
         a : await
-    }) =>1, ; 
+    }) =>1 ; 
 ```
 
 ### Diagnostics

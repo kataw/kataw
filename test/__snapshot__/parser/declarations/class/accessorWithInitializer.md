@@ -249,7 +249,7 @@ class C {
 
  class C {
     set X() {
-    },
+    }
     static set X() {
     }
 } 

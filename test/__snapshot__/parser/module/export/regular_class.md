@@ -102,7 +102,7 @@ export class x {} foo
 
 ```javascript
 
- , foo; 
+  foo; 
 ```
 
 ### Diagnostics

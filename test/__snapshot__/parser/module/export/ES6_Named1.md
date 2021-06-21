@@ -1008,7 +1008,7 @@ export const [destructuredArrNumber] = [1]
 
 ```javascript
 
- const specifierNumber1 = 1;, const specifierNumber2 = 2;, const specifierNumber3 = 3;, const groupedSpecifierNumber1 = 1;, const groupedSpecifierNumber2 = 2;, , , , , , ;, , ;, , ,  
+ const specifierNumber1 = 1; const specifierNumber2 = 2; const specifierNumber3 = 3; const groupedSpecifierNumber1 = 1; const groupedSpecifierNumber2 = 2;      ;  ;    
 ```
 
 ### Diagnostics

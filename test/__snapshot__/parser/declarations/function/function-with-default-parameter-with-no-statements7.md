@@ -247,7 +247,7 @@ function bar(a = v[1 + 1]) {
 ```javascript
 
  function foo() {
-}, function bar() {
+} function bar() {
 } 
 ```
 

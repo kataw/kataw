@@ -111,7 +111,7 @@ try {} finally a()
 ```javascript
 
  try {  }
-finally {  }, ; 
+finally {  } ; 
 ```
 
 ### Diagnostics

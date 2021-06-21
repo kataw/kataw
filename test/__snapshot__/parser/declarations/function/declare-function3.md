@@ -71,7 +71,7 @@ declare function foo<TArguments: $ReadOnlyArray<{foo: 'a'}>, TReturn>(
                                 "bitwiseAndToken": null,
                                 "type": {
                                     "kind": 144,
-                                    "name": {
+                                    "typeName": {
                                         "kind": 134299649,
                                         "text": "$ReadOnlyArray",
                                         "rawText": "$ReadOnlyArray",
@@ -236,7 +236,7 @@ declare function foo<TArguments: $ReadOnlyArray<{foo: 'a'}>, TReturn>(
                                                 "bitwiseAndToken": null,
                                                 "type": {
                                                     "kind": 144,
-                                                    "name": {
+                                                    "typeName": {
                                                         "kind": 134299649,
                                                         "text": "TArguments",
                                                         "rawText": "TArguments",
@@ -275,7 +275,7 @@ declare function foo<TArguments: $ReadOnlyArray<{foo: 'a'}>, TReturn>(
                                     "bitwiseAndToken": null,
                                     "type": {
                                         "kind": 144,
-                                        "name": {
+                                        "typeName": {
                                             "kind": 134299649,
                                             "text": "TReturn",
                                             "rawText": "TReturn",
@@ -345,7 +345,7 @@ declare function foo<TArguments: $ReadOnlyArray<{foo: 'a'}>, TReturn>(
                                     "bitwiseAndToken": null,
                                     "type": {
                                         "kind": 144,
-                                        "name": {
+                                        "typeName": {
                                             "kind": 134299649,
                                             "text": "TArguments",
                                             "rawText": "TArguments",
@@ -384,7 +384,7 @@ declare function foo<TArguments: $ReadOnlyArray<{foo: 'a'}>, TReturn>(
                         "bitwiseAndToken": null,
                         "type": {
                             "kind": 144,
-                            "name": {
+                            "typeName": {
                                 "kind": 134299649,
                                 "text": "TReturn",
                                 "rawText": "TReturn",
@@ -428,7 +428,7 @@ declare function foo<TArguments: $ReadOnlyArray<{foo: 'a'}>, TReturn>(
 
 ```javascript
 
- declare function <TArguments $ReadOnlyArray, TReturn>foo():  
+ declare function <TArguments $ReadOnlyArray<>, TReturn>foo():  : TReturn  
 ```
 
 ### Diagnostics

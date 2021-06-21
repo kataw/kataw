@@ -264,7 +264,7 @@ async function f() { let a; for await (const {[Symbol.iterator]: a = 1} of []) ;
 ```javascript
 
  async function f() {
-let a;,
+let a;
 for await(const {
      : a
 } of []) ;

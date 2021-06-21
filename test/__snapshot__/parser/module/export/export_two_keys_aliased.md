@@ -176,7 +176,7 @@ var x,y; export {x as a, y as b}
 
 ```javascript
 
- var x, y;,  
+ var x, y;  
 ```
 
 ### Diagnostics

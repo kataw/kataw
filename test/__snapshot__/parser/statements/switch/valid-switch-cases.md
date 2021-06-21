@@ -5602,150 +5602,144 @@ switch (answer) { case 0: let a; };
  switch(x) {
     case 194: switch(y) {
             default: 1;
-        },
+        }
     default: 2;
-}, ;, switch([]) {
+} ; switch([]) {
     case y: ;
-}, ;, switch(x) {
+} ; switch(x) {
     case y: { x=b; }
-}, ;, switch(x) {
+} ; switch(x) {
     case y: [a / b];
-}, ;, switch(x) {
+} ; switch(x) {
     case 42:
-        ;,
-        break;,
-    default: break;
-}, ;, switch(answer) {
-    case 42:
-        let t = 42;,
+        ;
         break;
-}, ;, switch(x) {
+    default: break;
+} ; switch(answer) {
+    case 42:
+        let t = 42;
+        break;
+} ; switch(x) {
     case y: [a / b, c, (d)];
-}, ;, switch(x) {
+} ; switch(x) {
     case y: a;
-}, ;, switch(x) {
+} ; switch(x) {
     case y: ;
-}, ;, switch(x) {
+} ; switch(x) {
     case y: foo=b;
-}, ;, switch(x / b[c]) {
+} ; switch(x / b[c]) {
     case y: foo;
-}, ;, switch(x / b[(c)]) {
+} ; switch(x / b[(c)]) {
     case y: foo;
-}, ;, switch(x) {
+} ; switch(x) {
     case foo: function* f() {
         }
-}, ;, switch(x) {
+} ; switch(x) {
     case y: (foo);
-}, ;, switch(x) {
+} ; switch(x) {
     case y: (foo, bar);
-}, ;, switch(x) {
+} ; switch(x) {
     case y: (foo)=(foo)/* comment */ - b;
-}, ;, switch(x) {
+} ; switch(x) {
     case y: foo;
 }// comment;
-, // comment;
+ // comment;
 switch(x / a) {
     case y: foo;
-}, ;, switch(a + b) {
+} ; switch(a + b) {
     case y: foo;
-}, ;, switch(x) {
+} ; switch(x) {
     case y: ;
-}, ;, switch(x) {
+} ; switch(x) {
     case y: { x; }
-}, ;, switch(x) {
+} ; switch(x) {
     case y: x={  };
-}, ;, switch(x) {
+} ; switch(x) {
     case y: foo / bar ? 1 : (x);
-}, ;, switch(x) {
+} ; switch(x) {
     case y: foo / bar ? 1 : (x) => {
         };
-}, ;, switch(0) {
+} ; switch(0) {
     case 1: async function f() {
-        },
+        }
     default: async function f() {
         }
-}, ;, switch(x) {
+} ; switch(x) {
     case y: foo ? 1 : (x) => {
         };
-}, ;, switch({ x : y }) {
+} ; switch({ x : y }) {
     case y: [...a];
-}, ;, switch({ x : y }) {
+} ; switch({ x : y }) {
     case y: [...a]=b;
-}, ;, switch(x / ) {
+} ; switch(x / ) {
     case y: foo;
-}, ;, switch(x) {
+} ; switch(x) {
     case c:
         function f() {
-        },
+        }
         function f() {
         }
-}, ;, switch(x) {
+} ; switch(x) {
     case c:
         async function* f() {
-        },
+        }
         async function* f() {
         }
-}, ;, switch(0) {
-    case 1: var f;,
+} ; switch(0) {
+    case 1: var f;
     default: var f;
-}, switch(0) {
-    case 1: var f;,
+} switch(0) {
+    case 1: var f;
     default: var f;
-}, ;, switch(x) {
+} ; switch(x) {
     case x: function* f() {
         }
-}, ;, switch(x) {
+} ; switch(x) {
     case x: function* f() {
         }
-}, ;, "use strict";, switch(x) {
+} ; "use strict"; switch(x) {
     case 1:
-    ,
     default: class C {
         }
-}, ;, switch(x) {
-}, ;, "use strict";, switch(x) {
+} ; switch(x) {
+} ; "use strict"; switch(x) {
     case 1:
-    ,
     default:
         function f() {
-        },
-        ;,
+        }
+        ;
         class C {
         }
-}, ;, "use strict";, switch(x) {
+} ; "use strict"; switch(x) {
     case 1:
-    ,
     default:
         class C {
-        },
-        ;,
+        }
+        ;
         function f() {
         }
-}, ;, "use strict";, switch(x) {
+} ; "use strict"; switch(x) {
     case 1:
-    ,
     default: class C {
         }
-}, ;, "use strict";, switch(x) {
+} ; "use strict"; switch(x) {
     case 1:
-    ,
     default:
         function f() {
-        },
+        }
         class C {
         }
-}, ;, "use strict";, switch(x) {
+} ; "use strict"; switch(x) {
     case 1:
-    ,
     default: class C {
         }
-}, ;, switch(a) {
+} ; switch(a) {
     case 1:
-}, ;, switch(a) {
+} ; switch(a) {
     case b: let [x] = y;
-}, ;, switch(answer) {
+} ; switch(answer) {
     case 0: let a;
-}, ; 
+} ; 
 ```
 
 ### Diagnostics

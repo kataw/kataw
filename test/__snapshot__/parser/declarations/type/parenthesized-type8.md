@@ -55,7 +55,7 @@ type X = (x.y<>);
                     "kind": 290,
                     "type": {
                         "kind": 144,
-                        "name": {
+                        "typeName": {
                             "kind": 145,
                             "qualification": {
                                 "kind": 134299649,
@@ -121,7 +121,7 @@ type X = (x.y<>);
 
 ```javascript
 
- type X = () 
+ type X = (x.y<>) 
 ```
 
 ### Diagnostics

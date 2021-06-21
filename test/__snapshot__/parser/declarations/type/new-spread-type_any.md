@@ -69,6 +69,7 @@ var o3: O3 = (0: mixed); // ok
                         {
                             "kind": 247,
                             "protoKeyword": null,
+                            "staticToken": null,
                             "ellipsisToken": {
                                 "kind": 524302,
                                 "flags": 64,
@@ -89,7 +90,6 @@ var o3: O3 = (0: mixed); // ok
                                 "start": 14,
                                 "end": 17
                             },
-                            "staticToken": null,
                             "flags": 2097152,
                             "start": 11,
                             "end": 17
@@ -136,7 +136,7 @@ var o3: O3 = (0: mixed); // ok
                             "bitwiseAndToken": null,
                             "type": {
                                 "kind": 144,
-                                "name": {
+                                "typeName": {
                                     "kind": 134299649,
                                     "text": "O1",
                                     "rawText": "O1",
@@ -222,7 +222,7 @@ var o3: O3 = (0: mixed); // ok
                         "bitwiseAndToken": null,
                         "type": {
                             "kind": 144,
-                            "name": {
+                            "typeName": {
                                 "kind": 134299649,
                                 "text": "empty",
                                 "rawText": "empty",
@@ -286,6 +286,7 @@ var o3: O3 = (0: mixed); // ok
                         {
                             "kind": 247,
                             "protoKeyword": null,
+                            "staticToken": null,
                             "ellipsisToken": {
                                 "kind": 524302,
                                 "flags": 64,
@@ -298,7 +299,7 @@ var o3: O3 = (0: mixed); // ok
                                 "bitwiseAndToken": null,
                                 "type": {
                                     "kind": 144,
-                                    "name": {
+                                    "typeName": {
                                         "kind": 134299649,
                                         "text": "Object",
                                         "rawText": "Object",
@@ -315,7 +316,6 @@ var o3: O3 = (0: mixed); // ok
                                 "start": 85,
                                 "end": 91
                             },
-                            "staticToken": null,
                             "flags": 2097152,
                             "start": 82,
                             "end": 91
@@ -362,7 +362,7 @@ var o3: O3 = (0: mixed); // ok
                             "bitwiseAndToken": null,
                             "type": {
                                 "kind": 144,
-                                "name": {
+                                "typeName": {
                                     "kind": 134299649,
                                     "text": "O2",
                                     "rawText": "O2",
@@ -448,7 +448,7 @@ var o3: O3 = (0: mixed); // ok
                         "bitwiseAndToken": null,
                         "type": {
                             "kind": 144,
-                            "name": {
+                            "typeName": {
                                 "kind": 134299649,
                                 "text": "empty",
                                 "rawText": "empty",
@@ -630,6 +630,7 @@ var o3: O3 = (0: mixed); // ok
                         {
                             "kind": 247,
                             "protoKeyword": null,
+                            "staticToken": null,
                             "ellipsisToken": {
                                 "kind": 524302,
                                 "flags": 64,
@@ -642,7 +643,7 @@ var o3: O3 = (0: mixed); // ok
                                 "bitwiseAndToken": null,
                                 "type": {
                                     "kind": 144,
-                                    "name": {
+                                    "typeName": {
                                         "kind": 134299649,
                                         "text": "Derived",
                                         "rawText": "Derived",
@@ -659,7 +660,6 @@ var o3: O3 = (0: mixed); // ok
                                 "start": 220,
                                 "end": 227
                             },
-                            "staticToken": null,
                             "flags": 2097152,
                             "start": 217,
                             "end": 227
@@ -706,7 +706,7 @@ var o3: O3 = (0: mixed); // ok
                             "bitwiseAndToken": null,
                             "type": {
                                 "kind": 144,
-                                "name": {
+                                "typeName": {
                                     "kind": 134299649,
                                     "text": "O3",
                                     "rawText": "O3",
@@ -792,7 +792,7 @@ var o3: O3 = (0: mixed); // ok
                         "bitwiseAndToken": null,
                         "type": {
                             "kind": 144,
-                            "name": {
+                            "typeName": {
                                 "kind": 134299649,
                                 "text": "empty",
                                 "rawText": "empty",

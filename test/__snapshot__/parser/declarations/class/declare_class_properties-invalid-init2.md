@@ -110,7 +110,7 @@ class C {
 ```javascript
 
  class C {
-    declarex,
+    declarex
 } 
 ```
 

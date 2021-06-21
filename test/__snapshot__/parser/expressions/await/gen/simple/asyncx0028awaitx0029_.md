@@ -74,7 +74,7 @@ async(await);
 
 ```javascript
 
- , ; 
+  ; 
 ```
 
 ### Diagnostics

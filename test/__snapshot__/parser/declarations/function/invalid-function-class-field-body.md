@@ -187,7 +187,7 @@ function* foo() {
 
  function* foo() {
 class C {
-    p = yield ,
+    p = yield 
 }
 } 
 ```

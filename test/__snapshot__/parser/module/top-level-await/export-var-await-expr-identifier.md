@@ -264,7 +264,7 @@ export var { x = await foo } = {};
 
 ```javascript
 
- var foo = 1;, ,  
+ var foo = 1;   
 ```
 
 ### Diagnostics

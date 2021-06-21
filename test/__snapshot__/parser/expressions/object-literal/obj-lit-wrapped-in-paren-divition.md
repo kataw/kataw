@@ -1740,11 +1740,11 @@
 
 ```javascript
 
- (x={ "a" : x=y }) / y.z;, (x={ "a" : (x)=y }) / y.z;, (x={ "a" : x=(y) }) / y.z;, (x={ "a" : (x=(y)) }) / y.z;, (x={  : { x }=y }) / y.z;, (x={  : x=y }) / y.z;, (x={  : (x)=y }) / y.z;, (x={  : x=(y) }) / y.z;, (x={  : (x=(y)) }) / y.z;, ({  });, ({ set foo(b) {
+ (x={ "a" : x=y }) / y.z; (x={ "a" : (x)=y }) / y.z; (x={ "a" : x=(y) }) / y.z; (x={ "a" : (x=(y)) }) / y.z; (x={  : { x }=y }) / y.z; (x={  : x=y }) / y.z; (x={  : (x)=y }) / y.z; (x={  : x=(y) }) / y.z; (x={  : (x=(y)) }) / y.z; ({  }); ({ set foo(b) {
     }, set bar(d) {
-    } });, ({ set foo(c) {
+    } }); ({ set foo(c) {
     }, bar() {
-    } });, ({ foo :  });, ({ foo : true / false }); 
+    } }); ({ foo :  }); ({ foo : true / false }); 
 ```
 
 ### Diagnostics

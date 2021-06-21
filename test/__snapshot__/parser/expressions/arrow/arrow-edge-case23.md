@@ -198,7 +198,7 @@
 ```javascript
 
  (a: number = 0) => {
-};, (x, a: number = 0) => {
+}; (x, a: number = 0) => {
 }; 
 ```
 

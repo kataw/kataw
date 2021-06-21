@@ -825,7 +825,7 @@ tag`${a}\\rb`;
 
 ```javascript
 
- ;, ;, ;, ;, ;, ;, ;, ;,  + ;,  + ;,  + ;,  + ;,  + 'string';, 'string' + ;, ;, ;, ;, ;, ; 
+ ; ; ; ; ; ; ; ;  + ;  + ;  + ;  + ;  + 'string'; 'string' + ; ; ; ; ; ; 
 ```
 
 ### Diagnostics

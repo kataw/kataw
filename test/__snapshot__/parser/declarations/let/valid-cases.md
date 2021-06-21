@@ -355,9 +355,9 @@ let {q=3} = {};
 
 ```javascript
 
- let x;, let y = 0;, let [z] = [1];, let {
+ let x; let y = 0; let [z] = [1]; let {
     foo
-} = { foo : 2 };, let {
+} = { foo : 2 }; let {
     q = 3
 } = {  }; 
 ```

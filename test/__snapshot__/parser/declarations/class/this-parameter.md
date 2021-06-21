@@ -412,7 +412,7 @@ class two {
                                                 "bitwiseAndToken": null,
                                                 "type": {
                                                     "kind": 144,
-                                                    "name": {
+                                                    "typeName": {
                                                         "kind": 134299649,
                                                         "text": "T",
                                                         "rawText": "T",
@@ -1004,7 +1004,7 @@ class two {
                                                 "bitwiseAndToken": null,
                                                 "type": {
                                                     "kind": 144,
-                                                    "name": {
+                                                    "typeName": {
                                                         "kind": 134299649,
                                                         "text": "T",
                                                         "rawText": "T",
@@ -1082,15 +1082,15 @@ class two {
 
 ```javascript
 
- declare class one {}, class two {
+ declare class one {(m1(thisstring): voidm2(thisstring, anumber): voidm3(thisstring, ... aany): voidm4(thisT): void)} class two {
     m1() {
-    },
+    }
     m2(, a) {
-    },
+    }
     m3(, ) {
-    },
+    }
     m4(, a, b, ) {
-    },
+    }
     m5<T>() {
     }
 } 

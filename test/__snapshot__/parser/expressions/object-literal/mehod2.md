@@ -678,10 +678,10 @@ x = { method(test) { } }
 ```javascript
 
  x={ method() {
-    } };, x={ get() {
-    } };, x={ set() {
-    } };, x=;, x=({ declare() {
-    } });, x={ method(test) {
+    } }; x={ get() {
+    } }; x={ set() {
+    } }; x=; x=({ declare() {
+    } }); x={ method(test) {
     } }; 
 ```
 

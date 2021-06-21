@@ -56,7 +56,7 @@ type X = x & {[x]:string}
                     "types": [
                         {
                             "kind": 144,
-                            "name": {
+                            "typeName": {
                                 "kind": 134299649,
                                 "text": "x",
                                 "rawText": "x",
@@ -79,7 +79,7 @@ type X = x & {[x]:string}
                                     "name": null,
                                     "key": {
                                         "kind": 144,
-                                        "name": {
+                                        "typeName": {
                                             "kind": 134299649,
                                             "text": "x",
                                             "rawText": "x",
@@ -143,7 +143,7 @@ type X = x & {[x]:string}
 
 ```javascript
 
- type X = x,  
+ type X =  
 ```
 
 ### Diagnostics

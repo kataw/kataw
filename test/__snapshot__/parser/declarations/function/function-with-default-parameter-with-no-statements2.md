@@ -207,7 +207,7 @@ function bar(a = console.log) {
 ```javascript
 
  function foo() {
-}, function bar() {
+} function bar() {
 } 
 ```
 

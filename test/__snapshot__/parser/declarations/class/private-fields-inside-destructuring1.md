@@ -671,21 +671,18 @@ class Test {
 ```javascript
 
  class Test {
-    #x = 2,
-    ,
-    #y = [],
-    ,
-    z = 2,
-    ,
+    #x = 2
+    #y = []
+    z = 2
     get x() {
     return this.#x;
-    },
+    }
     get y() {
     return this.#y;
-    },
+    }
     world() {
     return [1, [2, 3], 4];
-    },
+    }
     hello() {
     [this.#x, this.#y, this.z]=;
     }

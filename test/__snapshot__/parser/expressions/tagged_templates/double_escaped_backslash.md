@@ -86,7 +86,7 @@ tag`\\\ `;
 
 ```javascript
 
- ;, ; 
+ ; ; 
 ```
 
 ### Diagnostics

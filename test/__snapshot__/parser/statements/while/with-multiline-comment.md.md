@@ -152,9 +152,9 @@ there; }
 ```javascript
 
  while (true) { break;/* Multiline
-Comment */, /* Multiline
-Comment */there; }, while (true) { break;// Comment
-, // Comment
+Comment */ /* Multiline
+Comment */there; } while (true) { break;// Comment
+ // Comment
 there; } 
 ```
 

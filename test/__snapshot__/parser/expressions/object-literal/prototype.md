@@ -498,11 +498,11 @@
 
 ```javascript
 
- ({ prototype : 1 });, ({ get prototype() {
-    } });, ({ set prototype(x) {
-    } });, ({ * prototype() {
-    } });, ({ async prototype() {
-    } });, ({ async * prototype() {
+ ({ prototype : 1 }); ({ get prototype() {
+    } }); ({ set prototype(x) {
+    } }); ({ * prototype() {
+    } }); ({ async prototype() {
+    } }); ({ async * prototype() {
     } }); 
 ```
 

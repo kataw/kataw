@@ -218,8 +218,8 @@
 ```javascript
 
  ({ async * gen() {
-    await (yield 10);,
-    return 20;,
+    await (yield 10);
+    return 20;
     yield 'dead';
     } }); 
 ```

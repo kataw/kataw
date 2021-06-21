@@ -51,7 +51,7 @@ var a : A.B.C
                             "bitwiseAndToken": null,
                             "type": {
                                 "kind": 144,
-                                "name": {
+                                "typeName": {
                                     "kind": 145,
                                     "qualification": {
                                         "kind": 145,
@@ -124,7 +124,7 @@ var a : A.B.C
 
 ```javascript
 
- var a ; 
+ var a A.B.C; 
 ```
 
 ### Diagnostics

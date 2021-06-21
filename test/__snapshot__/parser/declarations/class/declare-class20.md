@@ -138,7 +138,7 @@ declare class B {
 
 ```javascript
 
- declare class B {} 
+ declare class B {(1(): ())} 
 ```
 
 ### Diagnostics

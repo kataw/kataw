@@ -753,12 +753,12 @@
 
 ```javascript
 
- ({ async });, ({ async : await });, ({ async : (await) ? yield : foo });, ({ async : true });, ({ async() {
-    } });, ({ async foo() {
-    } });, ({ x, y, z() {
-    } });, ({ async delete() {
-    } });, ({ async () {
-    } });, ({ async 100() {
+ ({ async }); ({ async : await }); ({ async : (await) ? yield : foo }); ({ async : true }); ({ async() {
+    } }); ({ async foo() {
+    } }); ({ x, y, z() {
+    } }); ({ async delete() {
+    } }); ({ async () {
+    } }); ({ async 100() {
     } }); 
 ```
 

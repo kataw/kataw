@@ -238,8 +238,8 @@ gen = function*() {};
 
 ```javascript
 
- var xGen, gen;, xGen=function* x() {
-};, gen=function* () {
+ var xGen, gen; xGen=function* x() {
+}; gen=function* () {
 }; 
 ```
 

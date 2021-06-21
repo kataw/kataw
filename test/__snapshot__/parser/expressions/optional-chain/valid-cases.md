@@ -203,7 +203,7 @@ x?.['y z']();
 
 ```javascript
 
- ;, ;, ; 
+ ; ; ; 
 ```
 
 ### Diagnostics

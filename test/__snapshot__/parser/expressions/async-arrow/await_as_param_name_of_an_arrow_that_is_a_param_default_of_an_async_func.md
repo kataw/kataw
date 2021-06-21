@@ -129,7 +129,7 @@ async(a = (await) => {}) => {};
 
  (a = (await) => {
     }) => {
-}, ; 
+} ; 
 ```
 
 ### Diagnostics

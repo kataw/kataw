@@ -132,7 +132,7 @@ class A {async await() { }};
  class A {
     async await() {
     }
-}, ; 
+} ; 
 ```
 
 ### Diagnostics

@@ -105,7 +105,7 @@
 
 ```javascript
 
- { "use strict";, (arguments=a); } 
+ { "use strict"; (arguments=a); } 
 ```
 
 ### Diagnostics

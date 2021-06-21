@@ -1502,7 +1502,7 @@ let tests = [
                                                         "bitwiseAndToken": null,
                                                         "type": {
                                                             "kind": 144,
-                                                            "name": {
+                                                            "typeName": {
                                                                 "kind": 134299649,
                                                                 "text": "Object",
                                                                 "rawText": "Object",
@@ -1542,7 +1542,7 @@ let tests = [
                                                         "bitwiseAndToken": null,
                                                         "type": {
                                                             "kind": 144,
-                                                            "name": {
+                                                            "typeName": {
                                                                 "kind": 134299649,
                                                                 "text": "mixed",
                                                                 "rawText": "mixed",
@@ -1708,44 +1708,34 @@ let tests = [
 ```javascript
 
  let tests = [function () {
-    ('foo' in {  });,
-    ('foo' in { foo : null });,
-    (0 in {  });,
+    ('foo' in {  });
+    ('foo' in { foo : null });
+    (0 in {  });
     (0 in { "0" : null });
     }, function () {
-    ('foo' in []);,
-    (0 in []);,
+    ('foo' in []);
+    (0 in []);
     ('length' in []);
     }, function () {
-    ('foo' in new String('bar'));,
+    ('foo' in new String('bar'));
     ('foo' in new Number(123));
     }, function () {
     ('foo' in 123);// error
-    ,
     ('foo' in 'bar');// error
-    ,
     ('foo' in );// error
-    ,
     ('foo' in null);// error
     }, function () {
     (null in {  });// error
-    ,
     ( in {  });// error
-    ,
     ({  } in {  });// error
-    ,
     ([] in {  });// error
-    ,
     (false in []);// error
     }, function () {
     if ('foo' in 123) {  }// error
-    ,
     if ( in {  }) {  }// error, !'foo' is a boolean
-    ,
     if () {  }
     }, function (, ) {
     ('foo' in x);// ok
-    ,
     ('foo' in y);// error
     }]; 
 ```

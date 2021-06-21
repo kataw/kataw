@@ -216,7 +216,7 @@ async function fn() {
 
  async function fn() {
 (x = ) => {
-},
+}
 ;
 } 
 ```

@@ -225,7 +225,7 @@ var d: { (): string } = function (x: number): string { return "hi"; };
 
 ```javascript
 
- var d  = function (): string {
+ var d ((): string) = function (): string {
 return "hi";
 }; 
 ```

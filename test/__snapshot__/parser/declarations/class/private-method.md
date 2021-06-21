@@ -1717,25 +1717,25 @@ class Foo {
 ```javascript
 
  class Foo {
-    #field,
+    #field
     #method() {
-    },
+    }
     baseline() {
-    .foo;,
-    ;,
-    ;,
+    .foo;
     ;
-    },
+    ;
+    ;
+    }
     privateField() {
-    .#field;,
-    ;,
-    ;,
+    .#field;
     ;
-    },
+    ;
+    ;
+    }
     privateMethod() {
-    .#method;,
-    ;,
-    ;,
+    .#method;
+    ;
+    ;
     ;
     }
 } 

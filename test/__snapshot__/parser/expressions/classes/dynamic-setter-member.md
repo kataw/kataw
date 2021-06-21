@@ -146,7 +146,7 @@ class A {* get [x](){}}
 ```javascript
 
  class A {
-    get,
+    get
     () {
     }
 } 

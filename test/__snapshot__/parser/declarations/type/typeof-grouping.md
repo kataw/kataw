@@ -61,7 +61,7 @@ type A /* comment 1 */ = /* comment 2 */  typeof /* comment 3 */  (B)
                         "kind": 290,
                         "type": {
                             "kind": 144,
-                            "name": {
+                            "typeName": {
                                 "kind": 134299649,
                                 "text": "B",
                                 "rawText": "B",
@@ -104,7 +104,7 @@ type A /* comment 1 */ = /* comment 2 */  typeof /* comment 3 */  (B)
 
 ```javascript
 
- type/* comment 1 */ A/* comment 1 */ =/* comment 2 */  
+ type/* comment 1 */ A/* comment 1 */ =/* comment 2 */ typeof/* comment 3 */ (B) 
 ```
 
 ### Diagnostics

@@ -358,12 +358,12 @@ try {} catch ([ x = await 42 ]) {}
 catch ({
     x = await 42
 }){  }// Initializer
-, // Initializer
+ // Initializer
 try {  }
 catch ({
     x : y
 }){  }// BindingElement Initializer
-, // BindingElement Initializer
+ // BindingElement Initializer
 try {  }
 catch ([x = await 42]){  } 
 ```

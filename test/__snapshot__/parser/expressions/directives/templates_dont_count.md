@@ -126,7 +126,7 @@ function f(){ `use strict`; with (x) y; }
 ```javascript
 
  function f() {
-;,
+;
 with (x) y;
 } 
 ```

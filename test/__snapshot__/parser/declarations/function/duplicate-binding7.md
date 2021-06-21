@@ -181,7 +181,7 @@ function f() { { var x } function* x() {} }
 ```javascript
 
  function f() {
-{ var x; },
+{ var x; }
 function* x() {
 }
 } 

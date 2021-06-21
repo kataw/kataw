@@ -576,7 +576,7 @@ Object.defineProperty(this, "x", {
 
 ```javascript
 
- var count = 0;, var global = this;, ;, ; 
+ var count = 0; var global = this; ; ; 
 ```
 
 ### Diagnostics

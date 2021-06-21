@@ -4524,22 +4524,22 @@ a = { y: x = 1 } = b;
 
 ```javascript
 
- ({ key : {  } });, ({ key : { a }=x });, ({ a : b }=obj);, ({ 1 : {  }.b ? c : d });, ({ a : { prop : 1 }.prop }={  });, ({ 1 :  });, ({  :  });, ({ a :  });, ({ async : (await) ? yield : foo });, ({ async 100() {
-    } });, ({ key : bar=x });, ({ typeof(x, y) {
-    } });, ({ x() {
-    }, x : 1 });, ({ * x() {
+ ({ key : {  } }); ({ key : { a }=x }); ({ a : b }=obj); ({ 1 : {  }.b ? c : d }); ({ a : { prop : 1 }.prop }={  }); ({ 1 :  }); ({  :  }); ({ a :  }); ({ async : (await) ? yield : foo }); ({ async 100() {
+    } }); ({ key : bar=x }); ({ typeof(x, y) {
+    } }); ({ x() {
+    }, x : 1 }); ({ * x() {
     }, get x() {
-    } });, ({ "x" : y + z });, ({
+    } }); ({ "x" : y + z }); ({
         "x" : [y]
-    }) =>x;, ({ "x" : { y : z } });, ;, ({ l : 50..foo }=x);, a={ "b" : c=d };, ({ x : let });, ({ x : let }=null);, s={ "foo" : this };, ;, ({ a = 42,  : c.d }=e);, ;, ({  });, x={ a : 1, , b : 1 };, ;, ;, ({  : y,  }=);, ({ topLeft : { x : x1, y : y1 }, bottomRight : { x : x2, y : y2 } }=rect);, ({ y });, ({ set (x) {
+    }) =>x; ({ "x" : { y : z } }); ; ({ l : 50..foo }=x); a={ "b" : c=d }; ({ x : let }); ({ x : let }=null); s={ "foo" : this }; ; ({ a = 42,  : c.d }=e); ; ({  }); x={ a : 1, , b : 1 }; ; ; ({  : y,  }=); ({ topLeft : { x : x1, y : y1 }, bottomRight : { x : x2, y : y2 } }=rect); ({ y }); ({ set (x) {
     ;
-    } });, x=;, ({ * set() {
-    } });, ({ * static() {
-    } });, ({ * async() {
-    } });, ({ get : 0 });, ({ if : 4 });, ({ * await() {
-    } });, x={ * "foo"() {
-    } };, x={ set get(a) {
-    } };, x={ foo :  };, x={ "x" : { a : y + x } };, a={ w, a : x }=b;, a={  }=b;, a={ y : x=1 }=b; 
+    } }); x=; ({ * set() {
+    } }); ({ * static() {
+    } }); ({ * async() {
+    } }); ({ get : 0 }); ({ if : 4 }); ({ * await() {
+    } }); x={ * "foo"() {
+    } }; x={ set get(a) {
+    } }; x={ foo :  }; x={ "x" : { a : y + x } }; a={ w, a : x }=b; a={  }=b; a={ y : x=1 }=b; 
 ```
 
 ### Diagnostics

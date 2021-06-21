@@ -106,7 +106,7 @@ declare class A<T> extends B<T> { x: number }
                                     "bitwiseAndToken": null,
                                     "type": {
                                         "kind": 144,
-                                        "name": {
+                                        "typeName": {
                                             "kind": 134299649,
                                             "text": "T",
                                             "rawText": "T",
@@ -201,7 +201,7 @@ declare class A<T> extends B<T> { x: number }
 
 ```javascript
 
- declare class A {} 
+ declare class A {(xnumber)} 
 ```
 
 ### Diagnostics

@@ -442,10 +442,10 @@ class B extends A {
  class A {
     constructor() {
     }
-}, class B {
+} class B {
     constructor() {
     ;
-    },
+    }
     someMethod() {
     }
 } 

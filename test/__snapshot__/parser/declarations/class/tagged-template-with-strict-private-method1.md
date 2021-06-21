@@ -382,12 +382,12 @@ new Foo();
  class Foo {
     #tag() {
     return this;
-    },
+    }
     constructor() {
-    const receiver = ;,
+    const receiver = ;
     ;
     }
-}, new Foo(); 
+} new Foo(); 
 ```
 
 ### Diagnostics

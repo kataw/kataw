@@ -384,7 +384,7 @@ const d: string | null = c?.c;
 
 ```javascript
 
- const a any, null = 1337;, const b string, null = ;, const c  = 1337;, const d string, null = ; 
+ const a any | null = 1337; const b string | null = ; const c ?any = 1337; const d string | null = ; 
 ```
 
 ### Diagnostics

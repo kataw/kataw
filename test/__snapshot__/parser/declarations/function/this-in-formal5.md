@@ -488,7 +488,7 @@ function five<T>(this: T) {}
                             "bitwiseAndToken": null,
                             "type": {
                                 "kind": 144,
-                                "name": {
+                                "typeName": {
                                     "kind": 134299649,
                                     "text": "T",
                                     "rawText": "T",
@@ -550,10 +550,10 @@ function five<T>(this: T) {}
 ```javascript
 
  function one() {
-}, function two(, a) {
-}, function three(, ) {
-}, function four(, a, b, ) {
-}, function <T>five() {
+} function two(, a) {
+} function three(, ) {
+} function four(, a, b, ) {
+} function <T>five() {
 } 
 ```
 

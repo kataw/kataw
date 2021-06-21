@@ -221,7 +221,7 @@ var f = (): (number) => 123;
 
 ```javascript
 
- var f = (x): | ,  =>1;, var f = (): (number) =>123; 
+ var f = (x): |  |  =>1; var f = (): (number) =>123; 
 ```
 
 ### Diagnostics

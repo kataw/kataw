@@ -167,7 +167,7 @@ async (x = async([(f) = []])) => {};
 ```javascript
 
  (x = ) => {
-}, ; 
+} ; 
 ```
 
 ### Diagnostics

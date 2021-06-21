@@ -108,7 +108,7 @@ class B<X> {
                                 "bitwiseAndToken": null,
                                 "type": {
                                     "kind": 144,
-                                    "name": {
+                                    "typeName": {
                                         "kind": 134299649,
                                         "text": "X",
                                         "rawText": "X",
@@ -356,10 +356,9 @@ class B<X> {
 ```javascript
 
  class B {
-    s: X,
-    ,
+    s: X
     f() {
-    if (this.s) { y=this.s; },
+    if (this.s) { y=this.s; }
     this.s=y;
     }
 } 

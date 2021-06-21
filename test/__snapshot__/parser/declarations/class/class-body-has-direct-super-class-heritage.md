@@ -214,7 +214,7 @@ class B extends A {
 ```javascript
 
  class A {
-}, class B {
+} class B {
     constructor() {
     ;
     }

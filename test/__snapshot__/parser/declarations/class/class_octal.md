@@ -121,7 +121,7 @@ class x extends y{}
 ```javascript
 
  class x {
-}, 09; 
+} 09; 
 ```
 
 ### Diagnostics

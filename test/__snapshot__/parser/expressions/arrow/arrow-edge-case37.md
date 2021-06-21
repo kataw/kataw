@@ -93,7 +93,7 @@ let x = (y: any): (a | b) => {};
                                         "types": [
                                             {
                                                 "kind": 144,
-                                                "name": {
+                                                "typeName": {
                                                     "kind": 134299649,
                                                     "text": "a",
                                                     "rawText": "a",
@@ -108,7 +108,7 @@ let x = (y: any): (a | b) => {};
                                             },
                                             {
                                                 "kind": 144,
-                                                "name": {
+                                                "typeName": {
                                                     "kind": 134299649,
                                                     "text": "b",
                                                     "rawText": "b",
@@ -185,7 +185,7 @@ let x = (y: any): (a | b) => {};
 
 ```javascript
 
- let x = (y: any): (a, b) => {
+ let x = (y: any): (a | b) => {
 }; 
 ```
 

@@ -115,7 +115,7 @@ opaque += 4;
 
 ```javascript
 
- var opaque = 0;, opaque+=4; 
+ var opaque = 0; opaque+=4; 
 ```
 
 ### Diagnostics

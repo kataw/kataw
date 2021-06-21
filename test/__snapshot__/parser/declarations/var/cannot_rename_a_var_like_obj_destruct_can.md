@@ -71,7 +71,7 @@ var [foo:bar] = obj;
                                             "bitwiseAndToken": null,
                                             "type": {
                                                 "kind": 144,
-                                                "name": {
+                                                "typeName": {
                                                     "kind": 134299649,
                                                     "text": "bar",
                                                     "rawText": "bar",

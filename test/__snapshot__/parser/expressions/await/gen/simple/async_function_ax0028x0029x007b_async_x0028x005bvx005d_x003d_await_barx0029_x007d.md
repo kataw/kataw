@@ -175,7 +175,6 @@ async function a(){     async ([v] = await bar);     }
 ```javascript
 
  async function a() {
-,
 ;
 } 
 ```

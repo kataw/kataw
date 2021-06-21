@@ -190,7 +190,7 @@
 
 ```javascript
 
-'use strict' let x, y, z;, ({ var : x }={  }); 
+'use strict' let x, y, z; ({ var : x }={  }); 
 ```
 
 ### Diagnostics

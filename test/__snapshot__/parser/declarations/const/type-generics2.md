@@ -98,7 +98,7 @@ const identity = <T>(t: T): T => t;
                                         "bitwiseAndToken": null,
                                         "type": {
                                             "kind": 144,
-                                            "name": {
+                                            "typeName": {
                                                 "kind": 134299649,
                                                 "text": "T",
                                                 "rawText": "T",
@@ -127,7 +127,7 @@ const identity = <T>(t: T): T => t;
                                 "bitwiseAndToken": null,
                                 "type": {
                                     "kind": 144,
-                                    "name": {
+                                    "typeName": {
                                         "kind": 134299649,
                                         "text": "T",
                                         "rawText": "T",

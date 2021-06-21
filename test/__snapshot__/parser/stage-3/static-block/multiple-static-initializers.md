@@ -500,13 +500,10 @@ class Foo {
 ```javascript
 
  class Foo {
-    static #bar = 21,
-    ,
-    static #_ = ,
-    ,
-    static qux = 21,
-    ,
-    static #_2 = ,
+    static #bar = 21
+    static #_ = 
+    static qux = 21
+    static #_2 = 
 } 
 ```
 

@@ -193,7 +193,7 @@ var y : {} = function (x: number): string { return "hi"; };
 
 ```javascript
 
- var y  = function (): string {
+ var y () = function (): string {
 return "hi";
 }; 
 ```

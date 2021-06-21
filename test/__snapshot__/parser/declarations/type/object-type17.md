@@ -113,7 +113,7 @@ type a = {():string};
 
 ```javascript
 
- type a =  
+ type a = ((): string) 
 ```
 
 ### Diagnostics

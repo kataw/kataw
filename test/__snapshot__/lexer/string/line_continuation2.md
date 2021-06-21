@@ -102,9 +102,9 @@ post"
 ```javascript
 
  "\
-";, "pre\
-";, "\
-post";, "pre\
+"; "pre\
+"; "\
+post"; "pre\
 post"; 
 ```
 

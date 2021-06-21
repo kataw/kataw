@@ -101,7 +101,7 @@ type a = ((...b?:string | d) => c);
                                                 },
                                                 {
                                                     "kind": 144,
-                                                    "name": {
+                                                    "typeName": {
                                                         "kind": 134299649,
                                                         "text": "d",
                                                         "rawText": "d",
@@ -139,7 +139,7 @@ type a = ((...b?:string | d) => c);
                             "bitwiseAndToken": null,
                             "type": {
                                 "kind": 144,
-                                "name": {
+                                "typeName": {
                                     "kind": 134299649,
                                     "text": "c",
                                     "rawText": "c",
@@ -187,7 +187,7 @@ type a = ((...b?:string | d) => c);
 
 ```javascript
 
- type a = () 
+ type a = ( : c ) 
 ```
 
 ### Diagnostics

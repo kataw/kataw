@@ -2013,35 +2013,35 @@ var {get} = obj;
 
 ```javascript
 
- var x;, var x = 5;, var x = 4;, var x = 5;, var {
+ var x; var x = 5; var x = 4; var x = 5; var {
     x
-} = { x : 4, b : (x=5) };, var x = { a : 4, b : (x=5) };, 'use strict';, var x = 0;, { let x = 6; }, var x;, try {  }
-catch (x){ x=5; }, var f = ({
+} = { x : 4, b : (x=5) }; var x = { a : 4, b : (x=5) }; 'use strict'; var x = 0; { let x = 6; } var x; try {  }
+catch (x){ x=5; } var f = ({
         x : arg=1
     }, {
         y : b=(arg=2)
     }) => {
-};, var f = ({
+}; var f = ({
         x : arg=(arg=2)
     }) => {
-};, var {
+}; var {
      : foo
-} = bar;, var {
+} = bar; var {
      : foo
-} = bar;, var {
+} = bar; var {
     y : y,
     'z' : z
-} = x;, var foo;, var foo = 0;, var [foo] = [1];, var {
+} = x; var foo; var foo = 0; var [foo] = [1]; var {
     foo
-} = { foo : 2 };, var {
+} = { foo : 2 }; var {
     foo = 3
-} = {  };, var {
+} = {  }; var {
     get = defaultValue
-} = obj;, var {
+} = obj; var {
     propName = defaultValue
-} = obj;, var {
+} = obj; var {
     propName : localVar
-} = obj;, var {
+} = obj; var {
     get
 } = obj; 
 ```

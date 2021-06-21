@@ -138,7 +138,7 @@ declare class x {
 
 ```javascript
 
- declare class x {} 
+ declare class x {(static "string"(): ())} 
 ```
 
 ### Diagnostics

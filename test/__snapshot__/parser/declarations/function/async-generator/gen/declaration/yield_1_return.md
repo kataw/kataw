@@ -138,7 +138,7 @@ async function * gen() {yield 1; return}
 ```javascript
 
  async function* gen() {
-yield 1;,
+yield 1;
 return;
 } 
 ```

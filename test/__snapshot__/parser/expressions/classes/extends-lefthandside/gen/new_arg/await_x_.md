@@ -80,7 +80,7 @@ x;
 
 ```javascript
 
- new await;, x; 
+ new await; x; 
 ```
 
 ### Diagnostics

@@ -330,7 +330,7 @@
 
 ```javascript
 
-'use strict' var x, y, z;,  ? { z : { __proto__ : x, __proto__ : y }=z }={  } : rhs; 
+'use strict' var x, y, z;  ? { z : { __proto__ : x, __proto__ : y }=z }={  } : rhs; 
 ```
 
 ### Diagnostics

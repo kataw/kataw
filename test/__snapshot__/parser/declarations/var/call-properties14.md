@@ -153,7 +153,7 @@ var d: { (): string } = (x) => "hi"
 
 ```javascript
 
- var d  = (x) =>"hi"; 
+ var d ((): string) = (x) =>"hi"; 
 ```
 
 ### Diagnostics

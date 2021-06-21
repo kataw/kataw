@@ -103,7 +103,7 @@ class C { await; }
 ```javascript
 
  class C {
-    await,
+    await
 } 
 ```
 

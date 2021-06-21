@@ -64,7 +64,7 @@ async ()=>x;
 
 ```javascript
 
- () =>x, ; 
+ () =>x ; 
 ```
 
 ### Diagnostics

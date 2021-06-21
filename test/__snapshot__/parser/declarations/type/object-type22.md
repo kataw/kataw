@@ -143,7 +143,7 @@ type a = {function((((-1) => [c|d]))):string};
                                                                     "types": [
                                                                         {
                                                                             "kind": 144,
-                                                                            "name": {
+                                                                            "typeName": {
                                                                                 "kind": 134299649,
                                                                                 "text": "c",
                                                                                 "rawText": "c",
@@ -158,7 +158,7 @@ type a = {function((((-1) => [c|d]))):string};
                                                                         },
                                                                         {
                                                                             "kind": 144,
-                                                                            "name": {
+                                                                            "typeName": {
                                                                                 "kind": 134299649,
                                                                                 "text": "d",
                                                                                 "rawText": "d",

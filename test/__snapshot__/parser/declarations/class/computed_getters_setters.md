@@ -258,7 +258,7 @@ class Bar {
  class Bar {
     get () {
     return 'foo';
-    },
+    }
     set () {
     }
 } 

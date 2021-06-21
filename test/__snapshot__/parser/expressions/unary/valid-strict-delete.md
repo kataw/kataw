@@ -577,7 +577,7 @@
 
 ```javascript
 
-"use strict" ;, "use strict";, ;, "use strict";, ;, "use strict";,  + 2;, "use strict";, ;, "use strict";, ;, "use strict";, ;, "use strict";, ;, "use strict";, ;, "use strict";, ; 
+"use strict" ; "use strict"; ; "use strict"; ; "use strict";  + 2; "use strict"; ; "use strict"; ; "use strict"; ; "use strict"; ; "use strict"; ; "use strict"; ; 
 ```
 
 ### Diagnostics

@@ -434,15 +434,15 @@ function* g() {
 
 ```javascript
 
- var yieldSet, C, iter;, function* g() {
+ var yieldSet, C, iter; function* g() {
 class C_ {
     get () {
     return 'get yield';
-    },
+    }
     set (param) {
     yieldSet=param;
     }
-},
+}
 C=C_;
 } 
 ```

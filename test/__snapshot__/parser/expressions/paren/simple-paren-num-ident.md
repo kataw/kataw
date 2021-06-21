@@ -125,7 +125,7 @@
 
 ```javascript
 
- (0, a);, (0, (0, a)); 
+ (0, a); (0, (0, a)); 
 ```
 
 ### Diagnostics

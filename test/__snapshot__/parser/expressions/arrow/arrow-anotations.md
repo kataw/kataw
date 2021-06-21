@@ -897,14 +897,14 @@
 ```javascript
 
  (x?: string) => {
-};, ([x]: string, a) => {
-};, ([x]: string, a) => {
-};, ([x]: string, a: number) => {
-};, ([x]?: string, a) => {
-};, ([x]?: string, a?) => {
-};, (...x: string) => {
-};, (...x?: string) => {
-};, (...?: string, a?) => {
+}; ([x]: string, a) => {
+}; ([x]: string, a) => {
+}; ([x]: string, a: number) => {
+}; ([x]?: string, a) => {
+}; ([x]?: string, a?) => {
+}; (...x: string) => {
+}; (...x?: string) => {
+}; (...?: string, a?) => {
 }; 
 ```
 

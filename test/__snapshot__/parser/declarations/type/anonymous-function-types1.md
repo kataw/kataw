@@ -135,7 +135,7 @@ declare function foo(x: number, string): void;
 
 ```javascript
 
- declare function foo(, string): void, ; 
+ declare function foo(, string): void ; 
 ```
 
 ### Diagnostics

@@ -135,7 +135,7 @@ type a = {get "string"():string};
 
 ```javascript
 
- type a =  
+ type a = ("string"(): string) 
 ```
 
 ### Diagnostics

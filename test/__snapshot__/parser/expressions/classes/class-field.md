@@ -4348,145 +4348,120 @@
 
 ```javascript
 
- ;, (class  {
-    a = 0,
-    ,
-    b
-});, (class  {
-    a = 0,
-    ,
-    b() {
-    }
-});, (class  {
-    a = 0,
-    ,
-    *b() {
-    }
-});, (class  {
-    a = 0,
-    ,
-    () {
-    }
-});, (class  {
-    a,
-});, (class  {
-    a,
-    ,
-    b,
-});, (class  {
-    a,
-    ,
-    b() {
-    }
-});, (class  {
-    a,
-    ,
-    *b() {
-    }
-});, (class  {
-    a,
-    ,
-    () {
-    }
-});, (class  {
-     = 0,
-});, (class  {
-     = 0,
-    ,
-    b
-});, (class  {
-     = 0,
-    ,
-    b() {
-    }
-});, (class  {
-     = 0,
-    ,
-    *b() {
-    }
-});, (class  {
-     = 0,
-    ,
-    () {
-    }
-});, (class  {
-    ,
-});, (class  {
-    ,
-    ,
-    b,
-});, (class  {
-    ,
-    ,
-    b() {
-    }
-});, (class  {
-    ,
-    ,
-    *b() {
-    }
-});, (class  {
-    ,
-    ,
-    () {
-    }
-});, (class  {
-    0 = 0,
-});, (class  {
-    0,
-});, (class  {
-    'a' = 0,
-});, (class  {
-    'a',
-});, (class  {
+ ; (class  {
     a = 0
-});, (class  {
-    a = 0,
     b
-});, (class  {
-    a = 0,
+}); (class  {
+    a = 0
     b() {
     }
-});, (class  {
-    a
-});, (class  {
-    a,
-    b
-});, (class  {
-    a,
-    b() {
-    }
-});, (class  {
-    a,
+}); (class  {
+    a = 0
     *b() {
     }
-});, (class  {
-    a,
+}); (class  {
+    a = 0
     () {
     }
-});, (class  {
-     = 0
-});, (class  {
-     = 0,
+}); (class  {
+    a
+}); (class  {
+    a
     b
-});, (class  {
-     = 0,
+}); (class  {
+    a
     b() {
     }
-});, (class  {
-});, (class  {
-    ,
-    b
-});, (class  {
-    ,
-    b() {
-    }
-});, (class  {
-    ,
+}); (class  {
+    a
     *b() {
     }
-});, (class  {
-    ,
+}); (class  {
+    a
+    () {
+    }
+}); (class  {
+     = 0
+}); (class  {
+     = 0
+    b
+}); (class  {
+     = 0
+    b() {
+    }
+}); (class  {
+     = 0
+    *b() {
+    }
+}); (class  {
+     = 0
+    () {
+    }
+}); (class  {
+}); (class  {
+    b
+}); (class  {
+    b() {
+    }
+}); (class  {
+    *b() {
+    }
+}); (class  {
+    () {
+    }
+}); (class  {
+    0 = 0
+}); (class  {
+    0
+}); (class  {
+    'a' = 0
+}); (class  {
+    'a'
+}); (class  {
+    a = 0
+}); (class  {
+    a = 0
+    b
+}); (class  {
+    a = 0
+    b() {
+    }
+}); (class  {
+    a
+}); (class  {
+    a
+    b
+}); (class  {
+    a
+    b() {
+    }
+}); (class  {
+    a
+    *b() {
+    }
+}); (class  {
+    a
+    () {
+    }
+}); (class  {
+     = 0
+}); (class  {
+     = 0
+    b
+}); (class  {
+     = 0
+    b() {
+    }
+}); (class  {
+}); (class  {
+    b
+}); (class  {
+    b() {
+    }
+}); (class  {
+    *b() {
+    }
+}); (class  {
     () {
     }
 }); 

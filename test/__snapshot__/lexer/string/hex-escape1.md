@@ -219,7 +219,7 @@
 
 ```javascript
 
- "\x00";, "\x12";, "\x34";, "\x56";, "\x78";, "\x9a";, "\xAb";, "\xBc";, "\xCd";, "\xDe";, "\xEf";, "\xF0"; 
+ "\x00"; "\x12"; "\x34"; "\x56"; "\x78"; "\x9a"; "\xAb"; "\xBc"; "\xCd"; "\xDe"; "\xEf"; "\xF0"; 
 ```
 
 ### Diagnostics

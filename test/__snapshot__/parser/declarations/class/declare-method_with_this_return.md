@@ -131,7 +131,7 @@ declare class Foo {
 
 ```javascript
 
- declare class Foo {} 
+ declare class Foo {(m(): this)} 
 ```
 
 ### Diagnostics

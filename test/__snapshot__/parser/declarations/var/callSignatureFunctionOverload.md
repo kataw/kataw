@@ -657,7 +657,7 @@ var foo2: {
 
 ```javascript
 
- var foo ;, var foo2 ; 
+ var foo ((namestring): string(nameorder): string(namecontent): string(namedone): string); var foo2 ((namestring): string(nameorder): string(nameorder): string(namedone): string); 
 ```
 
 ### Diagnostics

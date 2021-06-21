@@ -260,7 +260,7 @@ hello();
 
  let hello = (greeting: string = ' world'): string => {
 ;
-};, ; 
+}; ; 
 ```
 
 ### Diagnostics

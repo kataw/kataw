@@ -159,6 +159,7 @@ type T9 = { [param: string]: U };
                         {
                             "kind": 247,
                             "protoKeyword": null,
+                            "staticToken": null,
                             "ellipsisToken": {
                                 "kind": 524302,
                                 "flags": 64,
@@ -171,7 +172,7 @@ type T9 = { [param: string]: U };
                                 "bitwiseAndToken": null,
                                 "type": {
                                     "kind": 144,
-                                    "name": {
+                                    "typeName": {
                                         "kind": 134299649,
                                         "text": "U",
                                         "rawText": "U",
@@ -188,7 +189,6 @@ type T9 = { [param: string]: U };
                                 "start": 41,
                                 "end": 42
                             },
-                            "staticToken": null,
                             "flags": 2097152,
                             "start": 37,
                             "end": 42
@@ -241,6 +241,7 @@ type T9 = { [param: string]: U };
                         {
                             "kind": 247,
                             "protoKeyword": null,
+                            "staticToken": null,
                             "ellipsisToken": {
                                 "kind": 524302,
                                 "flags": 64,
@@ -253,7 +254,7 @@ type T9 = { [param: string]: U };
                                 "bitwiseAndToken": null,
                                 "type": {
                                     "kind": 144,
-                                    "name": {
+                                    "typeName": {
                                         "kind": 134299649,
                                         "text": "U",
                                         "rawText": "U",
@@ -270,7 +271,6 @@ type T9 = { [param: string]: U };
                                 "start": 62,
                                 "end": 63
                             },
-                            "staticToken": null,
                             "flags": 2097152,
                             "start": 58,
                             "end": 63
@@ -278,6 +278,7 @@ type T9 = { [param: string]: U };
                         {
                             "kind": 247,
                             "protoKeyword": null,
+                            "staticToken": null,
                             "ellipsisToken": {
                                 "kind": 524302,
                                 "flags": 64,
@@ -290,7 +291,7 @@ type T9 = { [param: string]: U };
                                 "bitwiseAndToken": null,
                                 "type": {
                                     "kind": 144,
-                                    "name": {
+                                    "typeName": {
                                         "kind": 134299649,
                                         "text": "V",
                                         "rawText": "V",
@@ -307,7 +308,6 @@ type T9 = { [param: string]: U };
                                 "start": 68,
                                 "end": 69
                             },
-                            "staticToken": null,
                             "flags": 2097152,
                             "start": 64,
                             "end": 69
@@ -378,7 +378,7 @@ type T9 = { [param: string]: U };
                                 "bitwiseAndToken": null,
                                 "type": {
                                     "kind": 144,
-                                    "name": {
+                                    "typeName": {
                                         "kind": 134299649,
                                         "text": "V",
                                         "rawText": "V",
@@ -402,6 +402,7 @@ type T9 = { [param: string]: U };
                         {
                             "kind": 247,
                             "protoKeyword": null,
+                            "staticToken": null,
                             "ellipsisToken": {
                                 "kind": 524302,
                                 "flags": 64,
@@ -414,7 +415,7 @@ type T9 = { [param: string]: U };
                                 "bitwiseAndToken": null,
                                 "type": {
                                     "kind": 144,
-                                    "name": {
+                                    "typeName": {
                                         "kind": 134299649,
                                         "text": "U",
                                         "rawText": "U",
@@ -431,7 +432,6 @@ type T9 = { [param: string]: U };
                                 "start": 94,
                                 "end": 95
                             },
-                            "staticToken": null,
                             "flags": 2097152,
                             "start": 90,
                             "end": 95
@@ -484,6 +484,7 @@ type T9 = { [param: string]: U };
                         {
                             "kind": 247,
                             "protoKeyword": null,
+                            "staticToken": null,
                             "ellipsisToken": {
                                 "kind": 524302,
                                 "flags": 64,
@@ -496,7 +497,7 @@ type T9 = { [param: string]: U };
                                 "bitwiseAndToken": null,
                                 "type": {
                                     "kind": 144,
-                                    "name": {
+                                    "typeName": {
                                         "kind": 134299649,
                                         "text": "U",
                                         "rawText": "U",
@@ -513,7 +514,6 @@ type T9 = { [param: string]: U };
                                 "start": 114,
                                 "end": 115
                             },
-                            "staticToken": null,
                             "flags": 2097152,
                             "start": 110,
                             "end": 115
@@ -539,7 +539,7 @@ type T9 = { [param: string]: U };
                                 "bitwiseAndToken": null,
                                 "type": {
                                     "kind": 144,
-                                    "name": {
+                                    "typeName": {
                                         "kind": 134299649,
                                         "text": "V",
                                         "rawText": "V",
@@ -608,6 +608,7 @@ type T9 = { [param: string]: U };
                         {
                             "kind": 247,
                             "protoKeyword": null,
+                            "staticToken": null,
                             "ellipsisToken": {
                                 "kind": 524302,
                                 "flags": 64,
@@ -653,7 +654,7 @@ type T9 = { [param: string]: U };
                                                         "bitwiseAndToken": null,
                                                         "type": {
                                                             "kind": 144,
-                                                            "name": {
+                                                            "typeName": {
                                                                 "kind": 134299649,
                                                                 "text": "V",
                                                                 "rawText": "V",
@@ -689,7 +690,6 @@ type T9 = { [param: string]: U };
                                 "start": 141,
                                 "end": 153
                             },
-                            "staticToken": null,
                             "flags": 2097152,
                             "start": 137,
                             "end": 153
@@ -956,7 +956,7 @@ type T9 = { [param: string]: U };
                                 "bitwiseAndToken": null,
                                 "type": {
                                     "kind": 144,
-                                    "name": {
+                                    "typeName": {
                                         "kind": 134299649,
                                         "text": "U",
                                         "rawText": "U",
@@ -1054,7 +1054,7 @@ type T9 = { [param: string]: U };
                                 "bitwiseAndToken": null,
                                 "type": {
                                     "kind": 144,
-                                    "name": {
+                                    "typeName": {
                                         "kind": 134299649,
                                         "text": "U",
                                         "rawText": "U",
@@ -1103,7 +1103,7 @@ type T9 = { [param: string]: U };
 
 ```javascript
 
- type U = , type V = , type T1 = , type T2 = , type T3 = , type T4 = , type T5 = , type T6 = , type T7 = , type T8 = , type T9 =  
+ type U = () type V = () type T1 = (...U) type T2 = (...U...V) type T3 = (pV...U) type T4 = (...UpV) type T5 = (...() | (pV)) type T6 = (foo(): number) type T7 = (foo : number ) type T8 = ([string]: U) type T9 = ([paramstring]: U) 
  //type T10 = { ... };
 //type T11 = { a: { b: { c: {...}, ... }, ... } }
 //type T12 = { foo: number, ... };

@@ -119,7 +119,7 @@ export default async function f(){} foo
 
 ```javascript
 
- , foo; 
+  foo; 
 ```
 
 ### Diagnostics

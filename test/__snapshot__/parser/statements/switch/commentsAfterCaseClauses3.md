@@ -376,15 +376,15 @@ function getSecurity(level) {
  function getSecurity(level) {
 switch(level) {
     case 0:
-    /*Zero*/,
+    /*Zero*/
     case 1:
-    /*One*/,
-    case 2:/*two*/ /*two*/return "Hi";,
+    /*One*/
+    case 2:/*two*/ /*two*/return "Hi";
     case 3:
-    /*three*/,
-    case 4:/*four*/ /*four*/return "hello";,
+    /*three*/
+    case 4:/*four*/ /*four*/return "hello";
     case 5:
-    /*five*/,
+    /*five*/
     default:/*six*/ /*six*/return "world";
 }
 } 

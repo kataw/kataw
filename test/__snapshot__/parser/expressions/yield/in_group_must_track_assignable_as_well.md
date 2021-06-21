@@ -185,7 +185,7 @@ function *g() { async (x = y = yield z) => {}; }
 
  function* g() {
 (x = y=yield z) => {
-},
+}
 ;
 } 
 ```

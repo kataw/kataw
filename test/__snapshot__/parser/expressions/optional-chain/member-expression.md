@@ -202,7 +202,7 @@ f2`hello world`?.a;
 
 ```javascript
 
- ;, ;, ; 
+ ; ; ; 
 ```
 
 ### Diagnostics

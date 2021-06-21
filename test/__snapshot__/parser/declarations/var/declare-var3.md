@@ -58,7 +58,7 @@ declare var tup: [{foo: string}, {bar: number}];
                             "bitwiseAndToken": null,
                             "type": {
                                 "kind": 144,
-                                "name": {
+                                "typeName": {
                                     "kind": 134299649,
                                     "text": "Array",
                                     "rawText": "Array",
@@ -186,7 +186,7 @@ declare var tup: [{foo: string}, {bar: number}];
                             "bitwiseAndToken": null,
                             "type": {
                                 "kind": 144,
-                                "name": {
+                                "typeName": {
                                     "kind": 134299649,
                                     "text": "$ReadOnlyArray",
                                     "rawText": "$ReadOnlyArray",
@@ -453,7 +453,7 @@ declare var tup: [{foo: string}, {bar: number}];
 
 ```javascript
 
- var arrOfObjs Array;, var roArrOfObjs $ReadOnlyArray;, var tup []; 
+ var arrOfObjs Array<>; var roArrOfObjs $ReadOnlyArray<>; var tup []; 
 ```
 
 ### Diagnostics

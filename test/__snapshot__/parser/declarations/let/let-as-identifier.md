@@ -1171,16 +1171,16 @@ L: let
 
 ```javascript
 
- var let;, var foo, let;, try {  }
-catch (let){  }, function let() {
-}, (function let() {
-});, function foo(let) {
-}, function foo(bar, let) {
-}, let=1;, var foo = let=1;, let * 2;, ++let;, let++;, (function f() {
+ var let; var foo, let; try {  }
+catch (let){  } function let() {
+} (function let() {
+}); function foo(let) {
+} function foo(bar, let) {
+} let=1; var foo = let=1; let * 2; ++let; let++; (function f() {
 let: 34;
-});, function let(let) {
+}); function let(let) {
 let: ;
-}, ;, ;, L: let;, x;, L: let;, { x; } 
+} ; ; L: let; x; L: let; { x; } 
 ```
 
 ### Diagnostics

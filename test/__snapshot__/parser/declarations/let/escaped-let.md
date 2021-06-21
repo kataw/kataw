@@ -60,7 +60,7 @@ a;
 ```javascript
 
  l\u0065t;// ASI
-, // ASI
+ // ASI
 a; 
 ```
 

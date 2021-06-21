@@ -164,7 +164,7 @@
 ```javascript
 
  (a): void => {
-};, (x, a): void => {
+}; (x, a): void => {
 }; 
 ```
 

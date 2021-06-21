@@ -637,10 +637,10 @@ function relativeComplement() {
 
  function relativeComplement() {
 outer: for(; offsetB++; offsetB  < arrayB.length){ inner: for(; offsetA++; offsetA  < arrayA.length){ switch() {
-    case : break inner;,
-    case 0: continue outer;,
+    case : break inner;
+    case 0: continue outer;
     case 1: continue inner;
-} }, ; },
+} } ; }
 return result;
 } 
 ```

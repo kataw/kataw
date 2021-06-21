@@ -603,12 +603,12 @@
 ```javascript
 
  ({ * set() {
-    } });, ({ * get() {
-    } });, ({ * private() {
-    } });, ({ * readonly() {
-    } });, ({ * async() {
-    } });, ({ * function() {
-    } });, ({ * declare() {
+    } }); ({ * get() {
+    } }); ({ * private() {
+    } }); ({ * readonly() {
+    } }); ({ * async() {
+    } }); ({ * function() {
+    } }); ({ * declare() {
     } }); 
 ```
 

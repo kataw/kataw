@@ -125,7 +125,7 @@ type A = { [string | boolean]: number };
 
 ```javascript
 
- type A =  
+ type A = ([string | boolean]: number) 
 ```
 
 ### Diagnostics

@@ -104,7 +104,7 @@ try {} catch (e) {}
 ```javascript
 
  try {  }
-catch (e){  }, ; 
+catch (e){  } ; 
 ```
 
 ### Diagnostics

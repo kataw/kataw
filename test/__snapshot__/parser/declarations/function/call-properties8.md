@@ -275,7 +275,7 @@ function b(x: { (z: number): string }): (z: number) => number {
 
 ```javascript
 
- function b():  {
+ function b():  : number  {
 return x;
 } 
 ```

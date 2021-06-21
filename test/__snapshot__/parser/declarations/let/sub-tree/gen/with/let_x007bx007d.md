@@ -86,7 +86,7 @@ with (a) let
 
 ```javascript
 
- with (a) let;, {  } 
+ with (a) let; {  } 
 ```
 
 ### Diagnostics

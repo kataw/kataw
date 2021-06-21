@@ -142,7 +142,7 @@ var stringArr:Array<string> = ['a','b'];
                                                                 "bitwiseAndToken": null,
                                                                 "type": {
                                                                     "kind": 144,
-                                                                    "name": {
+                                                                    "typeName": {
                                                                         "kind": 134299649,
                                                                         "text": "Array",
                                                                         "rawText": "Array",
@@ -164,7 +164,7 @@ var stringArr:Array<string> = ['a','b'];
                                                                                         "types": [
                                                                                             {
                                                                                                 "kind": 144,
-                                                                                                "name": {
+                                                                                                "typeName": {
                                                                                                     "kind": 134299649,
                                                                                                     "text": "Tag",
                                                                                                     "rawText": "Tag",
@@ -265,7 +265,7 @@ var stringArr:Array<string> = ['a','b'];
                                                                 "bitwiseAndToken": null,
                                                                 "type": {
                                                                     "kind": 144,
-                                                                    "name": {
+                                                                    "typeName": {
                                                                         "kind": 134299649,
                                                                         "text": "Array",
                                                                         "rawText": "Array",
@@ -287,7 +287,7 @@ var stringArr:Array<string> = ['a','b'];
                                                                                         "types": [
                                                                                             {
                                                                                                 "kind": 144,
-                                                                                                "name": {
+                                                                                                "typeName": {
                                                                                                     "kind": 134299649,
                                                                                                     "text": "Tag",
                                                                                                     "rawText": "Tag",
@@ -417,7 +417,7 @@ var stringArr:Array<string> = ['a','b'];
                     "types": [
                         {
                             "kind": 144,
-                            "name": {
+                            "typeName": {
                                 "kind": 134299649,
                                 "text": "Tag_",
                                 "rawText": "Tag_",
@@ -537,7 +537,7 @@ var stringArr:Array<string> = ['a','b'];
                                                                 "bitwiseAndToken": null,
                                                                 "type": {
                                                                     "kind": 144,
-                                                                    "name": {
+                                                                    "typeName": {
                                                                         "kind": 134299649,
                                                                         "text": "Array",
                                                                         "rawText": "Array",
@@ -556,7 +556,7 @@ var stringArr:Array<string> = ['a','b'];
                                                                                     "bitwiseAndToken": null,
                                                                                     "type": {
                                                                                         "kind": 144,
-                                                                                        "name": {
+                                                                                        "typeName": {
                                                                                             "kind": 134299649,
                                                                                             "text": "Node",
                                                                                             "rawText": "Node",
@@ -668,7 +668,7 @@ var stringArr:Array<string> = ['a','b'];
                                                                 "bitwiseAndToken": null,
                                                                 "type": {
                                                                     "kind": 144,
-                                                                    "name": {
+                                                                    "typeName": {
                                                                         "kind": 134299649,
                                                                         "text": "Array",
                                                                         "rawText": "Array",
@@ -687,7 +687,7 @@ var stringArr:Array<string> = ['a','b'];
                                                                                     "bitwiseAndToken": null,
                                                                                     "type": {
                                                                                         "kind": 144,
-                                                                                        "name": {
+                                                                                        "typeName": {
                                                                                             "kind": 134299649,
                                                                                             "text": "Node",
                                                                                             "rawText": "Node",
@@ -1028,7 +1028,7 @@ var stringArr:Array<string> = ['a','b'];
                                         },
                                         {
                                             "kind": 144,
-                                            "name": {
+                                            "typeName": {
                                                 "kind": 134299649,
                                                 "text": "C",
                                                 "rawText": "C",
@@ -1102,7 +1102,7 @@ var stringArr:Array<string> = ['a','b'];
                                                 "bitwiseAndToken": null,
                                                 "type": {
                                                     "kind": 144,
-                                                    "name": {
+                                                    "typeName": {
                                                         "kind": 134299649,
                                                         "text": "C",
                                                         "rawText": "C",
@@ -1145,7 +1145,7 @@ var stringArr:Array<string> = ['a','b'];
                                             },
                                             {
                                                 "kind": 144,
-                                                "name": {
+                                                "typeName": {
                                                     "kind": 134299649,
                                                     "text": "C",
                                                     "rawText": "C",
@@ -1309,7 +1309,7 @@ var stringArr:Array<string> = ['a','b'];
                             "bitwiseAndToken": null,
                             "type": {
                                 "kind": 144,
-                                "name": {
+                                "typeName": {
                                     "kind": 134299649,
                                     "text": "Array",
                                     "rawText": "Array",
@@ -1440,7 +1440,7 @@ var stringArr:Array<string> = ['a','b'];
                             "bitwiseAndToken": null,
                             "type": {
                                 "kind": 144,
-                                "name": {
+                                "typeName": {
                                     "kind": 134299649,
                                     "text": "Array",
                                     "rawText": "Array",
@@ -1545,28 +1545,26 @@ var stringArr:Array<string> = ['a','b'];
 
  class Tag {
     constructor() {
-    var a1 Array = [];,
-    var a2 Array = a1;
+    var a1 Array<> = [];
+    var a2 Array<> = a1;
     }
-}, type Node = Tag_, string, class Tag_ {
+} type Node = Tag_ | string class Tag_ {
     constructor() {
-    var a1 Array = [new Tag_];,
-    var a2 Array = a1;
+    var a1 Array<> = [new Tag_];
+    var a2 Array<> = a1;
     }
-}, class C {
-    x: , string,
-    ,
+} class C {
+    x: ?number | string
     constructor() {
     this.x=null;
     }
-}, class D {
-    content: string, C,
-    ,
-    copyContent(): string, C {
-    this.content=content;,
+} class D {
+    content: string | C
+    copyContent(): string | C {
+    this.content=content;
     return this.content;
     }
-}, var numberAndStringArr Array = [1, 2];, var stringArr Array = ['a', 'b']; 
+} var numberAndStringArr Array<> = [1, 2]; var stringArr Array<> = ['a', 'b']; 
 ```
 
 ### Diagnostics

@@ -228,8 +228,7 @@ class Foo {
 ```javascript
 
  class Foo {
-    #x,
-    ,
+    #x
     constructor() {
     ;
     }

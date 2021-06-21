@@ -148,7 +148,7 @@
 
 ```javascript
 
- ({ f : function () {
+ ({ f : function <T>() {
     } }); 
 ```
 

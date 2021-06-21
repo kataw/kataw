@@ -177,7 +177,7 @@ async (): string => {}
 ```javascript
 
  a ? (): string => {
-} : b;, (): string => {
+} : b; (): string => {
 } 
 ```
 

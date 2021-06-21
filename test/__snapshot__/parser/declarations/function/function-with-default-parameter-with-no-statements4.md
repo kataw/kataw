@@ -179,7 +179,7 @@ function bar(a = ``) {
 ```javascript
 
  function foo() {
-}, function bar() {
+} function bar() {
 } 
 ```
 

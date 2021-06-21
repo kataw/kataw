@@ -164,7 +164,7 @@ var $\u200C = 3;
 
 ```javascript
 
- var $ = 1;, var $\u200D = 2;, var $\u200C = 3; 
+ var $ = 1; var $\u200D = 2; var $\u200C = 3; 
 ```
 
 ### Diagnostics

@@ -447,7 +447,7 @@ new foo().bar++;
 
 ```javascript
 
- foo++;, foo.bar++;, foo[bar]++;, [bar]++;, .bar++;, this.foo++;, this[foo]++;, new foo()[bar]++;, new foo().bar++; 
+ foo++; foo.bar++; foo[bar]++; [bar]++; .bar++; this.foo++; this[foo]++; new foo()[bar]++; new foo().bar++; 
 ```
 
 ### Diagnostics

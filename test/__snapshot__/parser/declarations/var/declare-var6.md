@@ -61,7 +61,7 @@ declare var union: Foo | null | void;
                             "bitwiseAndToken": null,
                             "type": {
                                 "kind": 144,
-                                "name": {
+                                "typeName": {
                                     "kind": 134299649,
                                     "text": "Foo",
                                     "rawText": "Foo",
@@ -125,7 +125,7 @@ declare var union: Foo | null | void;
                             "bitwiseAndToken": null,
                             "type": {
                                 "kind": 144,
-                                "name": {
+                                "typeName": {
                                     "kind": 134299649,
                                     "text": "mixed",
                                     "rawText": "mixed",
@@ -244,7 +244,7 @@ declare var union: Foo | null | void;
                             "bitwiseAndToken": null,
                             "type": {
                                 "kind": 144,
-                                "name": {
+                                "typeName": {
                                     "kind": 134299649,
                                     "text": "empty",
                                     "rawText": "empty",
@@ -316,7 +316,7 @@ declare var union: Foo | null | void;
                                 },
                                 "type": {
                                     "kind": 144,
-                                    "name": {
+                                    "typeName": {
                                         "kind": 134299649,
                                         "text": "Foo",
                                         "rawText": "Foo",
@@ -387,7 +387,7 @@ declare var union: Foo | null | void;
                                 "types": [
                                     {
                                         "kind": 144,
-                                        "name": {
+                                        "typeName": {
                                             "kind": 134299649,
                                             "text": "Foo",
                                             "rawText": "Foo",
@@ -449,7 +449,7 @@ declare var union: Foo | null | void;
 
 ```javascript
 
- var x Foo;, var mixed mixed;, var any any;, var empty empty;, var maybe ;, var union Foo, null, void; 
+ var x Foo; var mixed mixed; var any any; var empty empty; var maybe ?Foo; var union Foo | null | void; 
 ```
 
 ### Diagnostics

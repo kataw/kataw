@@ -77,7 +77,7 @@ function x({ y }: z<[string |Q]>) {}
                             "bitwiseAndToken": null,
                             "type": {
                                 "kind": 144,
-                                "name": {
+                                "typeName": {
                                     "kind": 134299649,
                                     "text": "z",
                                     "rawText": "z",
@@ -112,7 +112,7 @@ function x({ y }: z<[string |Q]>) {}
                                                                     },
                                                                     {
                                                                         "kind": 144,
-                                                                        "name": {
+                                                                        "typeName": {
                                                                             "kind": 134299649,
                                                                             "text": "Q",
                                                                             "rawText": "Q",

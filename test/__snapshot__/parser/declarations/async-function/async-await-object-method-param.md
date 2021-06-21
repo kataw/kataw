@@ -209,7 +209,7 @@ async function foo(a = {async bar() { await b }}) {};
 ```javascript
 
  async function foo() {
-}, ; 
+} ; 
 ```
 
 ### Diagnostics

@@ -279,7 +279,7 @@ const {q}: string = y;
 
 ```javascript
 
- const [y] string = y;, const [z: symbol] string = y;, const {
+ const [y] string = y; const [z: symbol] string = y; const {
     q
 } string = y; 
 ```

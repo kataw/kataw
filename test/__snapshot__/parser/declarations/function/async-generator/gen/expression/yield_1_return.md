@@ -165,7 +165,7 @@
 ```javascript
 
  ({ async * gen() {
-    yield 1;,
+    yield 1;
     return;
     } }); 
 ```

@@ -87,7 +87,7 @@ let x; strubg
 
 ```javascript
 
- let x;, strubg; 
+ let x; strubg; 
 ```
 
 ### Diagnostics

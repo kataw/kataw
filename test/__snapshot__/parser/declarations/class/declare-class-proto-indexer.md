@@ -65,7 +65,7 @@ declare class C { proto [K]: V }
                             "name": null,
                             "key": {
                                 "kind": 144,
-                                "name": {
+                                "typeName": {
                                     "kind": 134299649,
                                     "text": "K",
                                     "rawText": "K",
@@ -84,7 +84,7 @@ declare class C { proto [K]: V }
                                 "bitwiseAndToken": null,
                                 "type": {
                                     "kind": 144,
-                                    "name": {
+                                    "typeName": {
                                         "kind": 134299649,
                                         "text": "V",
                                         "rawText": "V",
@@ -133,7 +133,7 @@ declare class C { proto [K]: V }
 
 ```javascript
 
- declare class C {} 
+ declare class C {([K]: V)} 
 ```
 
 ### Diagnostics

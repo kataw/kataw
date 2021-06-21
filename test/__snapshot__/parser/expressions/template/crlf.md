@@ -73,7 +73,7 @@ b
 
 ```javascript
 
- ;, b; 
+ ; b; 
 ```
 
 ### Diagnostics

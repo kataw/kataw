@@ -126,7 +126,7 @@ class x extends y{}(09)
 ```javascript
 
  class x {
-}, (09); 
+} (09); 
 ```
 
 ### Diagnostics

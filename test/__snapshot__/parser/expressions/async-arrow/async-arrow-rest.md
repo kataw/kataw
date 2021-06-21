@@ -95,7 +95,7 @@ async (...args: any) => {};
 ```javascript
 
  (...) => {
-}, ; 
+} ; 
 ```
 
 ### Diagnostics

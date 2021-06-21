@@ -52,7 +52,7 @@ opaque type Counter: Box<T> = Container<T>;
                 "bitwiseAndToken": null,
                 "type": {
                     "kind": 144,
-                    "name": {
+                    "typeName": {
                         "kind": 134299649,
                         "text": "Box",
                         "rawText": "Box",
@@ -71,7 +71,7 @@ opaque type Counter: Box<T> = Container<T>;
                                     "bitwiseAndToken": null,
                                     "type": {
                                         "kind": 144,
-                                        "name": {
+                                        "typeName": {
                                             "kind": 134299649,
                                             "text": "T",
                                             "rawText": "T",
@@ -112,7 +112,7 @@ opaque type Counter: Box<T> = Container<T>;
                 "bitwiseAndToken": null,
                 "type": {
                     "kind": 144,
-                    "name": {
+                    "typeName": {
                         "kind": 134299649,
                         "text": "Container",
                         "rawText": "Container",
@@ -131,7 +131,7 @@ opaque type Counter: Box<T> = Container<T>;
                                     "bitwiseAndToken": null,
                                     "type": {
                                         "kind": 144,
-                                        "name": {
+                                        "typeName": {
                                             "kind": 134299649,
                                             "text": "T",
                                             "rawText": "T",
@@ -190,7 +190,7 @@ opaque type Counter: Box<T> = Container<T>;
 
 ```javascript
 
- , ; 
+ opaque type Counter Box<> = Container<> ; 
 ```
 
 ### Diagnostics

@@ -173,8 +173,7 @@
 ```javascript
 
  class C {
-    #aaa,
-    ,
+    #aaa
     f() {
     this.#aaa;
     }

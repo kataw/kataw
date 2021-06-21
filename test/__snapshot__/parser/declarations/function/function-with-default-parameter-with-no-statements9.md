@@ -207,7 +207,7 @@ function bar(a = foo()) {
 ```javascript
 
  function foo() {
-}, function bar() {
+} function bar() {
 } 
 ```
 

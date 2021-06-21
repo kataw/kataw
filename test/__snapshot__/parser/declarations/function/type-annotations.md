@@ -861,7 +861,7 @@ function foo28(numVal?: number = 2) {}
                                                 "bitwiseAndToken": null,
                                                 "type": {
                                                     "kind": 144,
-                                                    "name": {
+                                                    "typeName": {
                                                         "kind": 134299649,
                                                         "text": "bool",
                                                         "rawText": "bool",
@@ -1009,7 +1009,7 @@ function foo28(numVal?: number = 2) {}
                                                 "bitwiseAndToken": null,
                                                 "type": {
                                                     "kind": 144,
-                                                    "name": {
+                                                    "typeName": {
                                                         "kind": 134299649,
                                                         "text": "bool",
                                                         "rawText": "bool",
@@ -1187,7 +1187,7 @@ function foo28(numVal?: number = 2) {}
                                                 "bitwiseAndToken": null,
                                                 "type": {
                                                     "kind": 144,
-                                                    "name": {
+                                                    "typeName": {
                                                         "kind": 134299649,
                                                         "text": "bool",
                                                         "rawText": "bool",
@@ -1231,7 +1231,7 @@ function foo28(numVal?: number = 2) {}
                                                 "bitwiseAndToken": null,
                                                 "type": {
                                                     "kind": 144,
-                                                    "name": {
+                                                    "typeName": {
                                                         "kind": 134299649,
                                                         "text": "Array",
                                                         "rawText": "Array",
@@ -1563,7 +1563,7 @@ function foo28(numVal?: number = 2) {}
                                     "bitwiseAndToken": null,
                                     "type": {
                                         "kind": 144,
-                                        "name": {
+                                        "typeName": {
                                             "kind": 134299649,
                                             "text": "bool",
                                             "rawText": "bool",
@@ -1697,7 +1697,7 @@ function foo28(numVal?: number = 2) {}
                                     "bitwiseAndToken": null,
                                     "type": {
                                         "kind": 144,
-                                        "name": {
+                                        "typeName": {
                                             "kind": 134299649,
                                             "text": "bool",
                                             "rawText": "bool",
@@ -2076,7 +2076,7 @@ function foo28(numVal?: number = 2) {}
                             "bitwiseAndToken": null,
                             "type": {
                                 "kind": 144,
-                                "name": {
+                                "typeName": {
                                     "kind": 134299649,
                                     "text": "Array",
                                     "rawText": "Array",
@@ -2197,7 +2197,7 @@ function foo28(numVal?: number = 2) {}
                             "bitwiseAndToken": null,
                             "type": {
                                 "kind": 144,
-                                "name": {
+                                "typeName": {
                                     "kind": 134299649,
                                     "text": "Array",
                                     "rawText": "Array",
@@ -2464,27 +2464,27 @@ function foo28(numVal?: number = 2) {}
 ```javascript
 
  function foo1() {
-}, function foo2() {
-}, function foo3(, ) {
-}, function foo4(, untypedVal) {
-}, function foo5(untypedVal, ) {
-}, function foo6() {
-}, function foo7() {
-}, function foo8() {
-}, function foo9() {
-}, function foo10() {
-}, function foo11() {
-}, function foo12(): number {
-}, function foo13():  {
-}, function foo14():  {
-}, function foo15():  {
-}, function foo16():  {
-}, function <T>foo17() {
-}, function foo21() {
-}, function foo22() {
-}, function foo23() {
-}, function foo27() {
-}, function foo28() {
+} function foo2() {
+} function foo3(, ) {
+} function foo4(, untypedVal) {
+} function foo5(untypedVal, ) {
+} function foo6() {
+} function foo7() {
+} function foo8() {
+} function foo9() {
+} function foo10() {
+} function foo11() {
+} function foo12(): number {
+} function foo13():  : void  {
+} function foo14():  : number  {
+} function foo15():  : number  {
+} function foo16(): () {
+} function <T>foo17() {
+} function foo21() {
+} function foo22() {
+} function foo23() {
+} function foo27() {
+} function foo28() {
 } 
 ```
 

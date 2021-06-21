@@ -579,7 +579,7 @@ function x8(a: false & false): false {
                             "bitwiseAndToken": null,
                             "type": {
                                 "kind": 144,
-                                "name": {
+                                "typeName": {
                                     "kind": 134299649,
                                     "text": "A",
                                     "rawText": "A",
@@ -747,7 +747,7 @@ function x8(a: false & false): false {
                             "bitwiseAndToken": null,
                             "type": {
                                 "kind": 144,
-                                "name": {
+                                "typeName": {
                                     "kind": 134299649,
                                     "text": "A",
                                     "rawText": "A",
@@ -1180,21 +1180,21 @@ function x8(a: false & false): false {
 
  function x0(): number {
 return ;// ok, + exists solely for coercion
-}, function x1(): number {
+} function x1(): number {
 return ;// error, we don't allow coercion here
-}, function x3() {
+} function x3() {
 return ;// error, we don't allow coercion here
-}, function x4(): boolean {
+} function x4(): boolean {
 return ;// ok, coercion is allowed
-}, function x5(): true {
+} function x5(): true {
 return ;// ok
-}, ;, function x6(): false {
+} ; function x6(): false {
 return ;// error, true ~> false
-}, ;, function x7(): true {
+} ; function x7(): true {
 return ;// ok
-}, ;, function x8(): false {
+} ; function x8(): false {
 return ;// error, true ~> false
-}, ; 
+} ; 
 ```
 
 ### Diagnostics

@@ -160,7 +160,7 @@ async function wrap() {
 
  async function wrap() {
 (a = await b) =>a;
-}, ; 
+} ; 
 ```
 
 ### Diagnostics

@@ -83,7 +83,7 @@ type Foo<T> = Bar<T>
                 "bitwiseAndToken": null,
                 "type": {
                     "kind": 144,
-                    "name": {
+                    "typeName": {
                         "kind": 134299649,
                         "text": "Bar",
                         "rawText": "Bar",
@@ -102,7 +102,7 @@ type Foo<T> = Bar<T>
                                     "bitwiseAndToken": null,
                                     "type": {
                                         "kind": 144,
-                                        "name": {
+                                        "typeName": {
                                             "kind": 134299649,
                                             "text": "T",
                                             "rawText": "T",
@@ -155,7 +155,7 @@ type Foo<T> = Bar<T>
 
 ```javascript
 
- type Foo<T> = Bar 
+ type Foo<T> = Bar<> 
 ```
 
 ### Diagnostics

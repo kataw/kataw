@@ -253,7 +253,7 @@ foo(y,(y) => ok);
 
 ```javascript
 
- ;, ;, ; 
+ ; ; ; 
 ```
 
 ### Diagnostics

@@ -56,7 +56,7 @@ declare var C: Class<string>;
                             "bitwiseAndToken": null,
                             "type": {
                                 "kind": 144,
-                                "name": {
+                                "typeName": {
                                     "kind": 134299649,
                                     "text": "Class",
                                     "rawText": "Class",
@@ -129,7 +129,7 @@ declare var C: Class<string>;
 
 ```javascript
 
- var C Class; 
+ var C Class<>; 
 ```
 
 ### Diagnostics

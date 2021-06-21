@@ -185,7 +185,7 @@ type MyObject = {
 
 ```javascript
 
- type MyObject =  
+ type MyObject = (foonumberbarbooleanbazstring) 
 ```
 
 ### Diagnostics

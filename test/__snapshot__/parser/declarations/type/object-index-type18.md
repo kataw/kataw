@@ -209,7 +209,7 @@ var obj: {
 
 ```javascript
 
- var obj  = { size : 0 }; 
+ var obj (sizenumber[idnumber]: string) = { size : 0 }; 
 ```
 
 ### Diagnostics

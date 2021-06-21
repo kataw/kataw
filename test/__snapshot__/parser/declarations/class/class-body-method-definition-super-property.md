@@ -279,7 +279,7 @@ class A {
  class A {
     constructor() {
     ;
-    },
+    }
     dontDoThis() {
     .makeBugs=1;
     }

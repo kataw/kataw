@@ -193,7 +193,7 @@ declare class B { () : number }
 
 ```javascript
 
- declare class A {}, declare class B {} 
+ declare class A {(static (): number)} declare class B {((): number)} 
 ```
 
 ### Diagnostics

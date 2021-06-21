@@ -267,10 +267,10 @@ await 0 }
 ```javascript
 
  function* foo() {
-if (0) let;,
+if (0) let;
 yield 0;
-}, async function foo() {
-if (0) let;,
+} async function foo() {
+if (0) let;
 await 0;
 } 
 ```

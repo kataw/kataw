@@ -415,7 +415,7 @@ var callCount = 0;
 
 ```javascript
 
- let o = { a : 2, b : 3 };, let executedGetter = false;, var callCount = 0;, (); 
+ let o = { a : 2, b : 3 }; let executedGetter = false; var callCount = 0; (); 
 ```
 
 ### Diagnostics

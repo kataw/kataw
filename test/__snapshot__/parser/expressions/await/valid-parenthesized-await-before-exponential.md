@@ -102,7 +102,7 @@ async () => (await 5) ** 6;
 
 ```javascript
 
- () =>(await 5) ** 6, ; 
+ () =>(await 5) ** 6 ; 
 ```
 
 ### Diagnostics

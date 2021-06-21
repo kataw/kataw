@@ -132,7 +132,7 @@ x = /a/y;
 
 ```javascript
 
- x=;, x=;, x=; 
+ x=; x=; x=; 
 ```
 
 ### Diagnostics

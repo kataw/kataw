@@ -135,7 +135,7 @@ type B = Foo<
                 "bitwiseAndToken": null,
                 "type": {
                     "kind": 144,
-                    "name": {
+                    "typeName": {
                         "kind": 134299649,
                         "text": "T",
                         "rawText": "T",
@@ -270,7 +270,7 @@ type B = Foo<
                 "bitwiseAndToken": null,
                 "type": {
                     "kind": 144,
-                    "name": {
+                    "typeName": {
                         "kind": 134299649,
                         "text": "T",
                         "rawText": "T",
@@ -418,7 +418,7 @@ type B = Foo<
                 "bitwiseAndToken": null,
                 "type": {
                     "kind": 144,
-                    "name": {
+                    "typeName": {
                         "kind": 134299649,
                         "text": "T",
                         "rawText": "T",
@@ -469,7 +469,7 @@ type B = Foo<
                 "bitwiseAndToken": null,
                 "type": {
                     "kind": 144,
-                    "name": {
+                    "typeName": {
                         "kind": 134299649,
                         "text": "Foo",
                         "rawText": "Foo",
@@ -641,7 +641,7 @@ type B = Foo<
                 "bitwiseAndToken": null,
                 "type": {
                     "kind": 144,
-                    "name": {
+                    "typeName": {
                         "kind": 134299649,
                         "text": "Foo",
                         "rawText": "Foo",
@@ -797,7 +797,7 @@ type B = Foo<
 
 ```javascript
 
- type A3<T  string> = T, type A4<S, T  string> = T, type A5<S number, T  string> = T, type A = Foo, type B = Foo 
+ type A3<T ?string string> = T type A4<S, T ?string string> = T type A5<S number, T ?string string> = T type A = Foo<> type B = Foo<> 
 ```
 
 ### Diagnostics

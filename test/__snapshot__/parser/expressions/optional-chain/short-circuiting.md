@@ -373,7 +373,7 @@ undefined?.b.c(++x).d; // long short-circuiting.
 ```javascript
 
  .d;// long short-circuiting.
-, // long short-circuiting.
+ // long short-circuiting.
 .d;// long short-circuiting.
  
 ```

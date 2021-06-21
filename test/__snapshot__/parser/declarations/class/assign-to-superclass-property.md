@@ -256,7 +256,7 @@ class B extends A {
 
  class B {
     constructor() {
-    ;,
+    ;
     this.initializer=this.initializer + 1;
     }
 } 

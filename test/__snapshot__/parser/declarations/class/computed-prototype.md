@@ -1225,36 +1225,36 @@ class Twelve { static async ['prototype']() {} }
 
  class One {
      = 0
-}, class Two {
+} class Two {
     () {
     }
-}, class Three {
+} class Three {
     *() {
     }
-}, class Four {
+} class Four {
     get () {
     }
-}, class Five {
+} class Five {
     set (x) {
     }
-}, class Six {
+} class Six {
     async () {
     }
-}, class Seven {
+} class Seven {
     static  = 0
-}, class Eigth {
+} class Eigth {
     static () {
     }
-}, class Nine {
+} class Nine {
     static *() {
     }
-}, class Ten {
+} class Ten {
     static get () {
     }
-}, class Eleven {
+} class Eleven {
     static set (x) {
     }
-}, class Twelve {
+} class Twelve {
     static async () {
     }
 } 

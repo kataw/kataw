@@ -98,7 +98,7 @@ async ({await}) => 1;
 
  ({
         await
-    }) =>1, ; 
+    }) =>1 ; 
 ```
 
 ### Diagnostics

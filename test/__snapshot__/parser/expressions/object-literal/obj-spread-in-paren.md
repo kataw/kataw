@@ -196,7 +196,7 @@
 
 ```javascript
 
- ({ a,  }=foo);, ({ a : b,  }=foo); 
+ ({ a,  }=foo); ({ a : b,  }=foo); 
 ```
 
 ### Diagnostics

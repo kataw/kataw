@@ -77,7 +77,7 @@ function d<X: [number, number]>(x: X): X {
                                 "bitwiseAndToken": null,
                                 "type": {
                                     "kind": 144,
-                                    "name": {
+                                    "typeName": {
                                         "kind": 134299649,
                                         "text": "$ReadOnlyArray",
                                         "rawText": "$ReadOnlyArray",
@@ -158,7 +158,7 @@ function d<X: [number, number]>(x: X): X {
                             "bitwiseAndToken": null,
                             "type": {
                                 "kind": 144,
-                                "name": {
+                                "typeName": {
                                     "kind": 134299649,
                                     "text": "X",
                                     "rawText": "X",
@@ -254,7 +254,7 @@ function d<X: [number, number]>(x: X): X {
                 "bitwiseAndToken": null,
                 "type": {
                     "kind": 144,
-                    "name": {
+                    "typeName": {
                         "kind": 134299649,
                         "text": "X",
                         "rawText": "X",
@@ -315,7 +315,7 @@ function d<X: [number, number]>(x: X): X {
                                 "bitwiseAndToken": null,
                                 "type": {
                                     "kind": 144,
-                                    "name": {
+                                    "typeName": {
                                         "kind": 134299649,
                                         "text": "$ReadOnlyArray",
                                         "rawText": "$ReadOnlyArray",
@@ -396,7 +396,7 @@ function d<X: [number, number]>(x: X): X {
                             "bitwiseAndToken": null,
                             "type": {
                                 "kind": 144,
-                                "name": {
+                                "typeName": {
                                     "kind": 134299649,
                                     "text": "X",
                                     "rawText": "X",
@@ -512,7 +512,7 @@ function d<X: [number, number]>(x: X): X {
                 "bitwiseAndToken": null,
                 "type": {
                     "kind": 144,
-                    "name": {
+                    "typeName": {
                         "kind": 134299649,
                         "text": "X",
                         "rawText": "X",
@@ -573,7 +573,7 @@ function d<X: [number, number]>(x: X): X {
                                 "bitwiseAndToken": null,
                                 "type": {
                                     "kind": 144,
-                                    "name": {
+                                    "typeName": {
                                         "kind": 134299649,
                                         "text": "$ReadOnlyArray",
                                         "rawText": "$ReadOnlyArray",
@@ -654,7 +654,7 @@ function d<X: [number, number]>(x: X): X {
                             "bitwiseAndToken": null,
                             "type": {
                                 "kind": 144,
-                                "name": {
+                                "typeName": {
                                     "kind": 134299649,
                                     "text": "X",
                                     "rawText": "X",
@@ -758,7 +758,7 @@ function d<X: [number, number]>(x: X): X {
                 "bitwiseAndToken": null,
                 "type": {
                     "kind": 144,
-                    "name": {
+                    "typeName": {
                         "kind": 134299649,
                         "text": "X",
                         "rawText": "X",
@@ -894,7 +894,7 @@ function d<X: [number, number]>(x: X): X {
                             "bitwiseAndToken": null,
                             "type": {
                                 "kind": 144,
-                                "name": {
+                                "typeName": {
                                     "kind": 134299649,
                                     "text": "X",
                                     "rawText": "X",
@@ -1010,7 +1010,7 @@ function d<X: [number, number]>(x: X): X {
                 "bitwiseAndToken": null,
                 "type": {
                     "kind": 144,
-                    "name": {
+                    "typeName": {
                         "kind": 134299649,
                         "text": "X",
                         "rawText": "X",
@@ -1045,13 +1045,13 @@ function d<X: [number, number]>(x: X): X {
 
 ```javascript
 
- function <X $ReadOnlyArray>a(): X {
+ function <X $ReadOnlyArray<>>a(): X {
 return [...x];
-}, function <X $ReadOnlyArray>b(): X {
+} function <X $ReadOnlyArray<>>b(): X {
 return [...x, ...x];// nope, because X could be a tuple
-}, function <X $ReadOnlyArray>c(): X {
+} function <X $ReadOnlyArray<>>c(): X {
 return [42, ...x];// error
-}, function <X []>d(): X {
+} function <X []>d(): X {
 return [...x, ...x];// error
 } 
 ```

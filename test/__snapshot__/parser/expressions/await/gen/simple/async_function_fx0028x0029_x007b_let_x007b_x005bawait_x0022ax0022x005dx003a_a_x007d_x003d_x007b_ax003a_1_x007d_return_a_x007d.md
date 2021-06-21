@@ -240,7 +240,7 @@ async function f() {
  async function f() {
 let {
      : a
-} = { a : 1 };,
+} = { a : 1 };
 return a;
 } 
 ```

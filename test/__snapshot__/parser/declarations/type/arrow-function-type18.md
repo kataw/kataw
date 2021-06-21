@@ -63,7 +63,7 @@ type a = (bj[c]) => T;
                         "kind": 311,
                         "objectType": {
                             "kind": 144,
-                            "name": {
+                            "typeName": {
                                 "kind": 134299649,
                                 "text": "bj",
                                 "rawText": "bj",
@@ -82,7 +82,7 @@ type a = (bj[c]) => T;
                             "bitwiseAndToken": null,
                             "type": {
                                 "kind": 144,
-                                "name": {
+                                "typeName": {
                                     "kind": 134299649,
                                     "text": "c",
                                     "rawText": "c",
@@ -109,7 +109,7 @@ type a = (bj[c]) => T;
                         "bitwiseAndToken": null,
                         "type": {
                             "kind": 144,
-                            "name": {
+                            "typeName": {
                                 "kind": 134299649,
                                 "text": "T",
                                 "rawText": "T",
@@ -153,7 +153,7 @@ type a = (bj[c]) => T;
 
 ```javascript
 
- type a =  
+ type a =  : T  
 ```
 
 ### Diagnostics

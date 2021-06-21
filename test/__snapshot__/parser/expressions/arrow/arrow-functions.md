@@ -932,14 +932,14 @@ const bar9 = <T>(x) => {};
 ```javascript
 
  const bar1 = (x: number): string => {
-};, const bar2 = (x?) => {
-};, const bar3 = (x?: string) => {
-};, const bar4 = (x, y?: string) => {
-};, const bar5 = (x, ...y?: string) => {
-};, const bar6 = x => {
-};, const bar7 = (x): string => {
-};, const bar8 = (x: number) => {
-};, const bar9 = (x) => {
+}; const bar2 = (x?) => {
+}; const bar3 = (x?: string) => {
+}; const bar4 = (x, y?: string) => {
+}; const bar5 = (x, ...y?: string) => {
+}; const bar6 = x => {
+}; const bar7 = (x): string => {
+}; const bar8 = (x: number) => {
+}; const bar9 = (x) => {
 }; 
 ```
 

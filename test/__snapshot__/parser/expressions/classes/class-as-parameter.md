@@ -417,9 +417,9 @@ class A {
 
 ```javascript
 
- var C;, function decorator(el) {
+ var C; function decorator(el) {
 return ;
-}, class A {
+} class A {
     foo() {
     }
 } 

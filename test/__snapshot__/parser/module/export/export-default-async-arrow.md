@@ -203,7 +203,7 @@ export default async (x) => (y, z);
 
 ```javascript
 
- , , ; 
+   ; 
 ```
 
 ### Diagnostics

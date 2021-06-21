@@ -128,7 +128,7 @@ x = {
 ```javascript
 
  x={ get() {
-    } };, ; 
+    } }; ; 
 ```
 
 ### Diagnostics

@@ -464,10 +464,10 @@ async ([{x}: string]) =>  {};
 ```javascript
 
  ([x: string]) => {
-}, ;, ([[x]: string]) => {
-}, ;, ([[]: string]) => {
-}, ;, ([{ x }: string]) => {
-}, ; 
+} ; ([[x]: string]) => {
+} ; ([[]: string]) => {
+} ; ([{ x }: string]) => {
+} ; 
 ```
 
 ### Diagnostics

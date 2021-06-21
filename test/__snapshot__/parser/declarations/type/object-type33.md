@@ -104,7 +104,7 @@ type X = (await:string) => T;
                         "bitwiseAndToken": null,
                         "type": {
                             "kind": 144,
-                            "name": {
+                            "typeName": {
                                 "kind": 134299649,
                                 "text": "T",
                                 "rawText": "T",
@@ -148,7 +148,7 @@ type X = (await:string) => T;
 
 ```javascript
 
- type X =  
+ type X =  : T  
 ```
 
 ### Diagnostics

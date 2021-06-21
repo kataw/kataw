@@ -135,7 +135,7 @@ class D<T> {
                                 "bitwiseAndToken": null,
                                 "type": {
                                     "kind": 144,
-                                    "name": {
+                                    "typeName": {
                                         "kind": 134299649,
                                         "text": "X",
                                         "rawText": "X",
@@ -204,7 +204,7 @@ class D<T> {
                                                 "bitwiseAndToken": null,
                                                 "type": {
                                                     "kind": 144,
-                                                    "name": {
+                                                    "typeName": {
                                                         "kind": 134299649,
                                                         "text": "X",
                                                         "rawText": "X",
@@ -336,7 +336,7 @@ class D<T> {
                                     "bitwiseAndToken": null,
                                     "type": {
                                         "kind": 144,
-                                        "name": {
+                                        "typeName": {
                                             "kind": 134299649,
                                             "text": "X",
                                             "rawText": "X",
@@ -442,7 +442,7 @@ class D<T> {
                                     "bitwiseAndToken": null,
                                     "type": {
                                         "kind": 144,
-                                        "name": {
+                                        "typeName": {
                                             "kind": 134299649,
                                             "text": "Y",
                                             "rawText": "Y",
@@ -603,7 +603,7 @@ class D<T> {
                                 "bitwiseAndToken": null,
                                 "type": {
                                     "kind": 144,
-                                    "name": {
+                                    "typeName": {
                                         "kind": 134299649,
                                         "text": "T",
                                         "rawText": "T",
@@ -702,7 +702,7 @@ class D<T> {
                                                 "bitwiseAndToken": null,
                                                 "type": {
                                                     "kind": 144,
-                                                    "name": {
+                                                    "typeName": {
                                                         "kind": 134299649,
                                                         "text": "S",
                                                         "rawText": "S",
@@ -742,7 +742,7 @@ class D<T> {
                                                 "bitwiseAndToken": null,
                                                 "type": {
                                                     "kind": 144,
-                                                    "name": {
+                                                    "typeName": {
                                                         "kind": 134299649,
                                                         "text": "T",
                                                         "rawText": "T",
@@ -776,7 +776,7 @@ class D<T> {
                                     "bitwiseAndToken": null,
                                     "type": {
                                         "kind": 144,
-                                        "name": {
+                                        "typeName": {
                                             "kind": 134299649,
                                             "text": "S",
                                             "rawText": "S",
@@ -910,22 +910,20 @@ class D<T> {
 ```javascript
 
  class C {
-    x: X,
-    ,
+    x: X
     constructor() {
     this.x=x;
-    },
+    }
     get(): X {
     return this.x;
-    },
+    }
     get_bad(): Y {
     return this.x;
     }
-}, class D {
-    x: T,
-    ,
+} class D {
+    x: T
     m<S>(, ): S {
-    this.x=u;,
+    this.x=u;
     return z;
     }
 } 

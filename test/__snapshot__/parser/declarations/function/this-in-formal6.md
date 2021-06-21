@@ -439,7 +439,7 @@ declare function four<T>(this: T): void;
                             "bitwiseAndToken": null,
                             "type": {
                                 "kind": 144,
-                                "name": {
+                                "typeName": {
                                     "kind": 134299649,
                                     "text": "T",
                                     "rawText": "T",
@@ -506,7 +506,7 @@ declare function four<T>(this: T): void;
 
 ```javascript
 
- declare function one(): void, ;, declare function two(, ): void, ;, declare function three(, ): void, ;, declare function <T>four(): void, ; 
+ declare function one(): void ; declare function two(, ): void ; declare function three(, ): void ; declare function <T>four(): void ; 
 ```
 
 ### Diagnostics

@@ -107,7 +107,7 @@ function f(){
 ```javascript
 
  function f() {
-return;,
+return;
 ;
 } 
 ```

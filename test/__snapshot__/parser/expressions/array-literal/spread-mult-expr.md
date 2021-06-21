@@ -888,7 +888,7 @@ var callCount = 0;
 
 ```javascript
 
- var source = [3, 4, 5];, var target;, var callCount = 0;, (); 
+ var source = [3, 4, 5]; var target; var callCount = 0; (); 
 ```
 
 ### Diagnostics

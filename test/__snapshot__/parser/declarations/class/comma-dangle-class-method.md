@@ -144,7 +144,7 @@ class A { foo(a, b,) {} };
  class A {
     foo(a, b) {
     }
-}, ; 
+} ; 
 ```
 
 ### Diagnostics

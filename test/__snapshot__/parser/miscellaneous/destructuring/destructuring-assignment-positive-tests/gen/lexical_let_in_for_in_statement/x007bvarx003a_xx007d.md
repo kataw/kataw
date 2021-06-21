@@ -210,7 +210,7 @@
 
 ```javascript
 
-'use strict' let x, y, z;, for (x in { var : x }={  }) ; 
+'use strict' let x, y, z; for (x in { var : x }={  }) ; 
 ```
 
 ### Diagnostics

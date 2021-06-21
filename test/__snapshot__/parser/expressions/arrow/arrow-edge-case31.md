@@ -175,7 +175,7 @@ let x: (this: any) => void = () => {}
 
 ```javascript
 
- let x  = () => {
+ let x  : void  = () => {
 }; 
 ```
 

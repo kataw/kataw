@@ -183,7 +183,7 @@ var x, y, z; ([x,y,z] = {});
 
 ```javascript
 
- var x, y, z;, ([x, y, z]={  }); 
+ var x, y, z; ([x, y, z]={  }); 
 ```
 
 ### Diagnostics

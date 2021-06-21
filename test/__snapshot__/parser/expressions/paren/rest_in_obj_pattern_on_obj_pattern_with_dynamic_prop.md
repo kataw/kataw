@@ -221,7 +221,7 @@
 
 ```javascript
 
- ({  }=y);, (x, {  }=z); 
+ ({  }=y); (x, {  }=z); 
 ```
 
 ### Diagnostics

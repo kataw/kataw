@@ -225,7 +225,7 @@ async <T, U,>(x) => y;
 
 ```javascript
 
- (x) =>y, ;, ((x) =>y); 
+ (x) =>y ; ((x) =>y); 
 ```
 
 ### Diagnostics

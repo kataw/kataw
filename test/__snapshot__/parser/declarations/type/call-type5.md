@@ -53,7 +53,7 @@ type F = $Call<Fn1, number, string>;
                 "bitwiseAndToken": null,
                 "type": {
                     "kind": 144,
-                    "name": {
+                    "typeName": {
                         "kind": 134299649,
                         "text": "$Call",
                         "rawText": "$Call",
@@ -72,7 +72,7 @@ type F = $Call<Fn1, number, string>;
                                     "bitwiseAndToken": null,
                                     "type": {
                                         "kind": 144,
-                                        "name": {
+                                        "typeName": {
                                             "kind": 134299649,
                                             "text": "Fn1",
                                             "rawText": "Fn1",
@@ -153,7 +153,7 @@ type F = $Call<Fn1, number, string>;
 
 ```javascript
 
- type F = $Call 
+ type F = $Call<> 
 ```
 
 ### Diagnostics

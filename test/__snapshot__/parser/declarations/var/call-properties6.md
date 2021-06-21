@@ -256,7 +256,7 @@ var c: { (x: string): string } = function (x: number): string { return "hi"; };
 
 ```javascript
 
- var c  = function (): string {
+ var c ((xstring): string) = function (): string {
 return "hi";
 }; 
 ```

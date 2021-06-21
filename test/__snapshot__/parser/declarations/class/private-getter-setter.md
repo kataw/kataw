@@ -2106,44 +2106,44 @@ class Foo {
  class Foo {
     get #foo() {
     return this.foo;
-    },
+    }
     set #bar(val) {
     this.bar=val;
-    },
+    }
     get #prop() {
     return this.prop;
-    },
+    }
     set #prop(val) {
     this.prop=val;
-    },
+    }
     foo(fn) {
-    .#foo;,
-    .#bar=1;,
-    .#prop;,
+    .#foo;
+    .#bar=1;
+    .#prop;
     .#prop=2;
-    },
+    }
     unary(fn) {
-    .#prop++;,
-    .#prop--;,
-    ++.#prop;,
+    .#prop++;
+    .#prop--;
+    ++.#prop;
     --.#prop;
-    },
+    }
     binary(fn) {
-    .#prop=1;,
-    .#prop+=1;,
-    .#prop-=1;,
-    .#prop*=1;,
-    .#prop/=1;,
-    .#prop%=1;,
-    .#prop**=1;,
-    .#prop<<=1;,
-    .#prop>>=1;,
-    .#prop>>>=1;,
-    .#prop&=1;,
-    .#prop|=1;,
-    .#prop^=1;,
-    .#prop&&=1;,
-    .#prop||=1;,
+    .#prop=1;
+    .#prop+=1;
+    .#prop-=1;
+    .#prop*=1;
+    .#prop/=1;
+    .#prop%=1;
+    .#prop**=1;
+    .#prop<<=1;
+    .#prop>>=1;
+    .#prop>>>=1;
+    .#prop&=1;
+    .#prop|=1;
+    .#prop^=1;
+    .#prop&&=1;
+    .#prop||=1;
     .#prop=>1;
     }
 } 

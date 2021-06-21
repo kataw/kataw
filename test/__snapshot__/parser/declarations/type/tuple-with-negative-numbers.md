@@ -231,7 +231,7 @@ type x = [-1n, 0n, 1n];
 
 ```javascript
 
- type x = [], type x = [] 
+ type x = [] type x = [] 
 ```
 
 ### Diagnostics

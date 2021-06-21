@@ -573,10 +573,10 @@ class A9<S = number, T: ?string = string> {}
 ```javascript
 
  class A6 {
-}, class A7 {
-}, class A8 {
-}, class A9 {
-}, (class A10 {
+} class A7 {
+} class A8 {
+} class A9 {
+} (class A10 {
 }); 
 ```
 

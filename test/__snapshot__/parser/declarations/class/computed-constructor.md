@@ -1225,36 +1225,36 @@
 
  class one {
      = 0
-}, class two {
+} class two {
     () {
     }
-}, class three {
+} class three {
     *() {
     }
-}, class four {
+} class four {
     get () {
     }
-}, class five {
+} class five {
     set (x) {
     }
-}, class six {
+} class six {
     async () {
     }
-}, class seven {
+} class seven {
     static  = 0
-}, class eigth {
+} class eigth {
     static () {
     }
-}, class nine {
+} class nine {
     static *() {
     }
-}, class ten {
+} class ten {
     static get () {
     }
-}, class eleven {
+} class eleven {
     static set (x) {
     }
-}, class twelve {
+} class twelve {
     static async () {
     }
 } 

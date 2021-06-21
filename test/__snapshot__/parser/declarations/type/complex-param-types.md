@@ -93,7 +93,7 @@ type o = { m(|int|bool): void }
                                                     "types": [
                                                         {
                                                             "kind": 144,
-                                                            "name": {
+                                                            "typeName": {
                                                                 "kind": 134299649,
                                                                 "text": "int",
                                                                 "rawText": "int",
@@ -108,7 +108,7 @@ type o = { m(|int|bool): void }
                                                         },
                                                         {
                                                             "kind": 144,
-                                                            "name": {
+                                                            "typeName": {
                                                                 "kind": 134299649,
                                                                 "text": "bool",
                                                                 "rawText": "bool",
@@ -191,7 +191,7 @@ type o = { m(|int|bool): void }
 
 ```javascript
 
- type o =  
+ type o = (m(| int | bool): void) 
 ```
 
 ### Diagnostics

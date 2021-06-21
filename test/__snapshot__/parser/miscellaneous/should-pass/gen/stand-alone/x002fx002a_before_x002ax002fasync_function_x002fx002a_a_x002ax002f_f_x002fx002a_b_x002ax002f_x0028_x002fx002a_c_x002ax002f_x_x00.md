@@ -120,7 +120,7 @@
 ```javascript
 
 /* before */ async function/* a */ f/* b */(/* c */x/* d */, /* e */y/* f */) {/* h */
-;/* i */,
+;/* i */
 ;/* j */
 }/* after */ 
 ```

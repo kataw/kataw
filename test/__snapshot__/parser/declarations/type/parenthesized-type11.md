@@ -69,7 +69,7 @@ type X = (?x.y<z>[]);
                                 "kind": 136,
                                 "type": {
                                     "kind": 144,
-                                    "name": {
+                                    "typeName": {
                                         "kind": 145,
                                         "qualification": {
                                             "kind": 134299649,
@@ -102,7 +102,7 @@ type X = (?x.y<z>[]);
                                                     "bitwiseAndToken": null,
                                                     "type": {
                                                         "kind": 144,
-                                                        "name": {
+                                                        "typeName": {
                                                             "kind": 134299649,
                                                             "text": "z",
                                                             "rawText": "z",
@@ -171,7 +171,7 @@ type X = (?x.y<z>[]);
 
 ```javascript
 
- type X = () 
+ type X = (?[]) 
 ```
 
 ### Diagnostics

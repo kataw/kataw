@@ -171,7 +171,7 @@ class x{ constructor(){} 9(){} }
 
  class x {
     constructor() {
-    },
+    }
     9() {
     }
 } 

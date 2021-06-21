@@ -132,7 +132,7 @@ async (a = (...await) => {});
 
 ```javascript
 
- , ; 
+  ; 
 ```
 
 ### Diagnostics

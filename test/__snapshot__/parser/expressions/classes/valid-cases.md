@@ -811,30 +811,25 @@ x = class {y = 1; 'z' = 2}
 ```javascript
 
  x=class  {
-    y = 1,
-    ,
+    y = 1
     'z' = 2
-};, x=class  {
+}; x=class  {
     y() {
-    },
-    ,
+    }
     'z'() {
     }
-};, x=class  {
+}; x=class  {
     get y() {
-    },
-    ,
+    }
     set 'z'(z) {
     }
-};, x=class  {
+}; x=class  {
     get y() {
-    },
-    ,
+    }
     set 'z'(z) {
     }
-};, x=class  {
-    y = 1,
-    ,
+}; x=class  {
+    y = 1
     'z' = 2
 }; 
 ```

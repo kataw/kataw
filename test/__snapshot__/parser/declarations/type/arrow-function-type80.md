@@ -93,7 +93,7 @@ type a = ({x:y} | { [[x]]:string}) => T;
                                                         "bitwiseAndToken": null,
                                                         "type": {
                                                             "kind": 144,
-                                                            "name": {
+                                                            "typeName": {
                                                                 "kind": 134299649,
                                                                 "text": "y",
                                                                 "rawText": "y",
@@ -126,6 +126,7 @@ type a = ({x:y} | { [[x]]:string}) => T;
                                                 {
                                                     "kind": 248,
                                                     "protoKeyword": null,
+                                                    "staticToken": null,
                                                     "name": {
                                                         "kind": 134299649,
                                                         "text": "x",
@@ -134,7 +135,8 @@ type a = ({x:y} | { [[x]]:string}) => T;
                                                         "start": 22,
                                                         "end": 23
                                                     },
-                                                    "value": {
+                                                    "optionalToken": null,
+                                                    "type": {
                                                         "kind": 139,
                                                         "bitwiseOrToken": null,
                                                         "bitwiseAndToken": null,
@@ -148,8 +150,6 @@ type a = ({x:y} | { [[x]]:string}) => T;
                                                         "start": 26,
                                                         "end": 32
                                                     },
-                                                    "optionalToken": null,
-                                                    "staticToken": null,
                                                     "flags": 2097152,
                                                     "start": 19,
                                                     "end": 32
@@ -181,7 +181,7 @@ type a = ({x:y} | { [[x]]:string}) => T;
                         "bitwiseAndToken": null,
                         "type": {
                             "kind": 144,
-                            "name": {
+                            "typeName": {
                                 "kind": 134299649,
                                 "text": "T",
                                 "rawText": "T",
@@ -225,7 +225,7 @@ type a = ({x:y} | { [[x]]:string}) => T;
 
 ```javascript
 
- type a =  
+ type a =  : T  
 ```
 
 ### Diagnostics

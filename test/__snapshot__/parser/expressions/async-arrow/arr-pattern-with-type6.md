@@ -180,7 +180,7 @@ async ([{x}: string], y, z: string) =>  {};
 ```javascript
 
  ([{ x }: string], y, z: string) => {
-}, ; 
+} ; 
 ```
 
 ### Diagnostics

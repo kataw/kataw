@@ -148,7 +148,6 @@ class A {
 ```javascript
 
  class A {
-    ,
     a() {
     }
 } 

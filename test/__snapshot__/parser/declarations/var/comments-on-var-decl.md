@@ -907,10 +907,10 @@ n4 = z2;
 
 /** Variable comments*/
  var myVariable = 10;// This trailing Comment1
-, // This trailing Comment1
-var anotherVariable = 30;, var aVar = "";, var anotherAnotherVariable = 70;/* these are multiple trailing comments */ /* multiple trailing comments */, /* these are multiple trailing comments */ /* multiple trailing comments */var x = 70;/* multiline trailing comment
-this is multiline trailing comment */, /* multiline trailing comment
-this is multiline trailing comment */x=myVariable;, var n = 30;, var y =/** value comment */ 20;, var yy = 20;, var z =/** lambda comment */ (/** lambda comment */x: number, /** lambda comment */y: number) =>x + y;, var z2 ;, var x2 = z2;, var n4 ;, n4=z2; 
+ // This trailing Comment1
+var anotherVariable = 30; var aVar = ""; var anotherAnotherVariable = 70;/* these are multiple trailing comments */ /* multiple trailing comments */ /* these are multiple trailing comments */ /* multiple trailing comments */var x = 70;/* multiline trailing comment
+this is multiline trailing comment */ /* multiline trailing comment
+this is multiline trailing comment */x=myVariable; var n = 30; var y =/** value comment */ 20; var yy = 20; var z =/** lambda comment */ (/** lambda comment */x: number, /** lambda comment */y: number) =>x + y; var z2  : string ; var x2 = z2; var n4  : string ; n4=z2; 
 ```
 
 ### Diagnostics

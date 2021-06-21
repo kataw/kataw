@@ -171,7 +171,7 @@
 
 ```javascript
 
- "prefix \'";, "prefix\"";, "prefix\\";, "prefix\b";, "prefix\f";, "prefix\n";, "prefix\r";, "prefix\t";, "prefix\v"; 
+ "prefix \'"; "prefix\""; "prefix\\"; "prefix\b"; "prefix\f"; "prefix\n"; "prefix\r"; "prefix\t"; "prefix\v"; 
 ```
 
 ### Diagnostics

@@ -246,7 +246,7 @@ function d(x: { (z: number): string }): () => string {
 
 ```javascript
 
- function d():  {
+ function d():  : string  {
 return x;
 } 
 ```

@@ -1374,14 +1374,14 @@ this.#f,
 ```javascript
 
  class Foo {
-    #a,
-    #b,
-    #c,
-    #d,
-    #e,
-    #f,
+    #a
+    #b
+    #c
+    #d
+    #e
+    #f
     foo() {
-    [{ x : this.#a }, [[, this.#b, ]], { y : this.#c=3 }, { x : this.x, y : this.y,  }, [, , ...this.#e], [{ x : [{ y : [this.#f] }] }]]=[{ x : 1 }, [[1, 2, 3]], {  }, { x : 2, y : 3, z : 4, w : 5 }, [4, 5, 6, 7, 8], [{ x : [{ y : [9] }] }]];,
+    [{ x : this.#a }, [[, this.#b, ]], { y : this.#c=3 }, { x : this.x, y : this.y,  }, [, , ...this.#e], [{ x : [{ y : [this.#f] }] }]]=[{ x : 1 }, [[1, 2, 3]], {  }, { x : 2, y : 3, z : 4, w : 5 }, [4, 5, 6, 7, 8], [{ x : [{ y : [9] }] }]];
     return ;
     }
 } 

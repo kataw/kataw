@@ -59,7 +59,7 @@ xyz*/"bar";
 ```javascript
 
  "foo";/*abc
-xyz*/, /*abc
+xyz*/ /*abc
 xyz*/"bar"; 
 ```
 

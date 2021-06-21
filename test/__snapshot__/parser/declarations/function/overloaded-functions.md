@@ -253,7 +253,7 @@ declare function three(value :mixed) :boolean;
                             "bitwiseAndToken": null,
                             "type": {
                                 "kind": 144,
-                                "name": {
+                                "typeName": {
                                     "kind": 134299649,
                                     "text": "mixed",
                                     "rawText": "mixed",
@@ -320,7 +320,7 @@ declare function three(value :mixed) :boolean;
 
 ```javascript
 
- declare function one(): false, ;, declare function two(): false, ;, declare function three(): boolean, ; 
+ declare function one(): false ; declare function two(): false ; declare function three(): boolean ; 
 ```
 
 ### Diagnostics

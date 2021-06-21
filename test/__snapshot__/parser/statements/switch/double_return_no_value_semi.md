@@ -110,9 +110,9 @@ function f(){   return;return    };
 ```javascript
 
  function f() {
-return;,
 return;
-}, ; 
+return;
+} ; 
 ```
 
 ### Diagnostics

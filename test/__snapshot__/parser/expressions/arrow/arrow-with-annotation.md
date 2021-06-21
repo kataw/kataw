@@ -331,7 +331,7 @@
 
 ```javascript
 
- (a: string) =>x;, (x, y: string) =>z;, ([a]: string) =>x;, ({ a }: string) =>x; 
+ (a: string) =>x; (x, y: string) =>z; ([a]: string) =>x; ({ a }: string) =>x; 
 ```
 
 ### Diagnostics

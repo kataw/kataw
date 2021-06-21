@@ -498,7 +498,7 @@ wrap({0o4432(){}});
 
 ```javascript
 
- ;, ;, ;, ;, ; 
+ ; ; ; ; ; 
 ```
 
 ### Diagnostics

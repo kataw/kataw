@@ -487,7 +487,7 @@ var y: Array<string> = ['3', ...x];
                             "bitwiseAndToken": null,
                             "type": {
                                 "kind": 144,
-                                "name": {
+                                "typeName": {
                                     "kind": 134299649,
                                     "text": "Array",
                                     "rawText": "Array",
@@ -604,7 +604,7 @@ var y: Array<string> = ['3', ...x];
                             "bitwiseAndToken": null,
                             "type": {
                                 "kind": 144,
-                                "name": {
+                                "typeName": {
                                     "kind": 134299649,
                                     "text": "Array",
                                     "rawText": "Array",
@@ -719,7 +719,7 @@ var y: Array<string> = ['3', ...x];
 
 ```javascript
 
- var A = [1, 2, 3];, var B = [...A];, var C = [1, 2, 3];, ;, ;, var x  = ['1', '2'];, var y  = ['3', ...x]; 
+ var A = [1, 2, 3]; var B = [...A]; var C = [1, 2, 3]; ; ; var x Array<> = ['1', '2']; var y Array<> = ['3', ...x]; 
 ```
 
 ### Diagnostics

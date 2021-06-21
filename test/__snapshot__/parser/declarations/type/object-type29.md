@@ -148,7 +148,7 @@ type a = {x: number,y: string};
 
 ```javascript
 
- type a =  
+ type a = (xnumberystring) 
 ```
 
 ### Diagnostics

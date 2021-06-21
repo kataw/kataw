@@ -256,11 +256,11 @@ class C {
 ```javascript
 
  class C {
-    get,
+    get
     x() {
     return 1;
-    },
-    set,
+    }
+    set
     x(v) {
     }
 } 

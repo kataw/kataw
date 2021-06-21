@@ -59,7 +59,7 @@ type D = (Obj['bar'])['baz'];
                             "kind": 311,
                             "objectType": {
                                 "kind": 144,
-                                "name": {
+                                "typeName": {
                                     "kind": 134299649,
                                     "text": "Obj",
                                     "rawText": "Obj",
@@ -136,7 +136,7 @@ type D = (Obj['bar'])['baz'];
 
 ```javascript
 
- type D =  
+ type D = (Obj[bar])[baz] 
 ```
 
 ### Diagnostics

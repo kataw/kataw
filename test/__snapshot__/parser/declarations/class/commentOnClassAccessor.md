@@ -243,7 +243,7 @@ class C {
  class C {
     get bar(): number {
     return 1;
-    },
+    }
     set bar(v) {
     }
 } 

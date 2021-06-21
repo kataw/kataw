@@ -83,7 +83,7 @@
 
 ```javascript
 
-'use strict' , ; 
+'use strict'  ; 
 ```
 
 ### Diagnostics

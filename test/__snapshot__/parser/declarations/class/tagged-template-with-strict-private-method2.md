@@ -563,16 +563,15 @@ new Foo();
  class Foo {
     #tag() {
     return this;
-    },
-    #tag2 = this.#tag,
-    ,
+    }
+    #tag2 = this.#tag
     constructor() {
-    const receiver = ;,
-    ;,
-    const receiver2 = ;,
+    const receiver = ;
+    ;
+    const receiver2 = ;
     ;
     }
-}, new Foo(); 
+} new Foo(); 
 ```
 
 ### Diagnostics

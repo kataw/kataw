@@ -164,7 +164,7 @@ async ([x: string = y, z: number]) =>  {};
 ```javascript
 
  ([z: number, x: string = y]) => {
-}, ; 
+} ; 
 ```
 
 ### Diagnostics

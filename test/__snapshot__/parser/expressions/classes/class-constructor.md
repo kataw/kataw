@@ -592,16 +592,16 @@
  (class C {
     constructor() {
     }
-});, (class C {
+}); (class C {
     static constructor() {
     }
-});, (class C {
+}); (class C {
     static get constructor() {
     }
-});, (class C {
+}); (class C {
     static set constructor(_) {
     }
-});, (class C {
+}); (class C {
     static *constructor() {
     }
 }); 

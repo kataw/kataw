@@ -1239,29 +1239,29 @@ function targetKey() {
 
 ```javascript
 
- var log = [];, function source() {
-;,
+ var log = []; function source() {
+;
 return { get p() {
     ;
     } };
-}, function target() {
-;,
+} function target() {
+;
 return { set q(v) {
     ;
     } };
-}, function sourceKey() {
-;,
+} function sourceKey() {
+;
 return { toString : function () {
-    ;,
+    ;
     return "p";
     } };
-}, function targetKey() {
-;,
+} function targetKey() {
+;
 return { toString : function () {
-    ;,
+    ;
     return "q";
     } };
-}, ({  : [] }=); 
+} ({  : [] }=); 
 ```
 
 ### Diagnostics

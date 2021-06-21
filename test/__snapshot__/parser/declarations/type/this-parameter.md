@@ -475,7 +475,7 @@ type ten = {
                                             "bitwiseAndToken": null,
                                             "type": {
                                                 "kind": 144,
-                                                "name": {
+                                                "typeName": {
                                                     "kind": 134299649,
                                                     "text": "T",
                                                     "rawText": "T",
@@ -939,7 +939,7 @@ type ten = {
                                                 "bitwiseAndToken": null,
                                                 "type": {
                                                     "kind": 144,
-                                                    "name": {
+                                                    "typeName": {
                                                         "kind": 134299649,
                                                         "text": "T",
                                                         "rawText": "T",
@@ -1047,7 +1047,7 @@ type ten = {
 
 ```javascript
 
- type six = , type seven = , type eight = , type nine = , type ten =  
+ type six =  : void  type seven =  : void  type eight =  : void  type nine =  :  : void   type ten = (m1(thisstring): voidm2(thisstring, anumber): voidm3(thisstring, ... aany): voidm4(thisT): void) 
 ```
 
 ### Diagnostics

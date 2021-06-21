@@ -392,13 +392,12 @@ new C;
  class C {
     static set #p(v) {
     C.#q=v;
-    },
-    static #q,
-    ,
+    }
+    static #q
     constructor() {
     ([C.#p]=[0]);
     }
-}, new C; 
+} new C; 
 ```
 
 ### Diagnostics

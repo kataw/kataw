@@ -111,7 +111,7 @@ type a = (1,2, x) => T;
                                 "optionalToken": null,
                                 "types": {
                                     "kind": 144,
-                                    "name": {
+                                    "typeName": {
                                         "kind": 134299649,
                                         "text": "x",
                                         "rawText": "x",
@@ -146,7 +146,7 @@ type a = (1,2, x) => T;
                         "bitwiseAndToken": null,
                         "type": {
                             "kind": 144,
-                            "name": {
+                            "typeName": {
                                 "kind": 134299649,
                                 "text": "T",
                                 "rawText": "T",
@@ -190,7 +190,7 @@ type a = (1,2, x) => T;
 
 ```javascript
 
- type a =  
+ type a =  : T  
 ```
 
 ### Diagnostics

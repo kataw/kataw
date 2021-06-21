@@ -149,7 +149,7 @@ function *infer_stmt() {
                 "bitwiseAndToken": null,
                 "type": {
                     "kind": 144,
-                    "name": {
+                    "typeName": {
                         "kind": 134299649,
                         "text": "Generator",
                         "rawText": "Generator",
@@ -300,7 +300,7 @@ function *infer_stmt() {
                 "bitwiseAndToken": null,
                 "type": {
                     "kind": 144,
-                    "name": {
+                    "typeName": {
                         "kind": 134299649,
                         "text": "Generator",
                         "rawText": "Generator",
@@ -451,7 +451,7 @@ function *infer_stmt() {
                 "bitwiseAndToken": null,
                 "type": {
                     "kind": 144,
-                    "name": {
+                    "typeName": {
                         "kind": 134299649,
                         "text": "Generator",
                         "rawText": "Generator",
@@ -686,15 +686,15 @@ function *infer_stmt() {
 
 ```javascript
 
- function* stmt_yield(): Generator {
-yield 0;,
+ function* stmt_yield(): Generator<> {
+yield 0;
 yield "";
-}, function* stmt_return_ok(): Generator {
+} function* stmt_return_ok(): Generator<> {
 return 0;
-}, function* stmt_return_err(): Generator {
+} function* stmt_return_err(): Generator<> {
 return "";
-}, function* infer_stmt() {
-var x boolean = yield 0;,
+} function* infer_stmt() {
+var x boolean = yield 0;
 return "";
 } 
 ```

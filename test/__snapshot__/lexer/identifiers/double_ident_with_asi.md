@@ -64,7 +64,7 @@ bar
 
 ```javascript
 
- foo;, bar; 
+ foo; bar; 
 ```
 
 ### Diagnostics

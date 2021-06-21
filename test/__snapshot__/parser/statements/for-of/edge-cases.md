@@ -199,8 +199,8 @@ for ((async) of x);
 
 ```javascript
 
- for(async.x of y) ;, for(of => {
-};;);, for((async) of x) ; 
+ for(async.x of y) ; for(of => {
+};;); for((async) of x) ; 
 ```
 
 ### Diagnostics

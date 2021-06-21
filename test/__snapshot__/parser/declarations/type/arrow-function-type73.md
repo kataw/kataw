@@ -193,7 +193,7 @@ type a = (((symbol[{():string}][][][] | ((y & [((x) => T)]) => T) => T) => T) =>
                                                                                     "types": [
                                                                                         {
                                                                                             "kind": 144,
-                                                                                            "name": {
+                                                                                            "typeName": {
                                                                                                 "kind": 134299649,
                                                                                                 "text": "y",
                                                                                                 "rawText": "y",
@@ -228,7 +228,7 @@ type a = (((symbol[{():string}][][][] | ((y & [((x) => T)]) => T) => T) => T) =>
                                                                                                                 "parameters": [
                                                                                                                     {
                                                                                                                         "kind": 144,
-                                                                                                                        "name": {
+                                                                                                                        "typeName": {
                                                                                                                             "kind": 134299649,
                                                                                                                             "text": "x",
                                                                                                                             "rawText": "x",
@@ -253,7 +253,7 @@ type a = (((symbol[{():string}][][][] | ((y & [((x) => T)]) => T) => T) => T) =>
                                                                                                                 "bitwiseAndToken": null,
                                                                                                                 "type": {
                                                                                                                     "kind": 144,
-                                                                                                                    "name": {
+                                                                                                                    "typeName": {
                                                                                                                         "kind": 134299649,
                                                                                                                         "text": "T",
                                                                                                                         "rawText": "T",
@@ -306,7 +306,7 @@ type a = (((symbol[{():string}][][][] | ((y & [((x) => T)]) => T) => T) => T) =>
                                                                             "bitwiseAndToken": null,
                                                                             "type": {
                                                                                 "kind": 144,
-                                                                                "name": {
+                                                                                "typeName": {
                                                                                     "kind": 134299649,
                                                                                     "text": "T",
                                                                                     "rawText": "T",
@@ -340,7 +340,7 @@ type a = (((symbol[{():string}][][][] | ((y & [((x) => T)]) => T) => T) => T) =>
                                                                 "bitwiseAndToken": null,
                                                                 "type": {
                                                                     "kind": 144,
-                                                                    "name": {
+                                                                    "typeName": {
                                                                         "kind": 134299649,
                                                                         "text": "T",
                                                                         "rawText": "T",
@@ -373,7 +373,7 @@ type a = (((symbol[{():string}][][][] | ((y & [((x) => T)]) => T) => T) => T) =>
                                                     "bitwiseAndToken": null,
                                                     "type": {
                                                         "kind": 144,
-                                                        "name": {
+                                                        "typeName": {
                                                             "kind": 134299649,
                                                             "text": "T",
                                                             "rawText": "T",
@@ -411,7 +411,7 @@ type a = (((symbol[{():string}][][][] | ((y & [((x) => T)]) => T) => T) => T) =>
                                     "bitwiseAndToken": null,
                                     "type": {
                                         "kind": 144,
-                                        "name": {
+                                        "typeName": {
                                             "kind": 134299649,
                                             "text": "T",
                                             "rawText": "T",
@@ -445,7 +445,7 @@ type a = (((symbol[{():string}][][][] | ((y & [((x) => T)]) => T) => T) => T) =>
                         "bitwiseAndToken": null,
                         "type": {
                             "kind": 144,
-                            "name": {
+                            "typeName": {
                                 "kind": 134299649,
                                 "text": "T",
                                 "rawText": "T",
@@ -489,7 +489,7 @@ type a = (((symbol[{():string}][][][] | ((y & [((x) => T)]) => T) => T) => T) =>
 
 ```javascript
 
- type a =  
+ type a =  : T  
 ```
 
 ### Diagnostics

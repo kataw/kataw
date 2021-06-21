@@ -98,7 +98,7 @@ const fn = async (a?: any): Promise<void> => {};
                                 "bitwiseAndToken": null,
                                 "type": {
                                     "kind": 144,
-                                    "name": {
+                                    "typeName": {
                                         "kind": 134299649,
                                         "text": "Promise",
                                         "rawText": "Promise",
@@ -194,7 +194,7 @@ const fn = async (a?: any): Promise<void> => {};
 
 ```javascript
 
- const fn = (a?: any): Promise => {
+ const fn = (a?: any): Promise<> => {
 }; 
 ```
 

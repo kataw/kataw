@@ -90,7 +90,7 @@ typeof class{}
 
 ```javascript
 
- ;, ; 
+ ; ; 
 ```
 
 ### Diagnostics

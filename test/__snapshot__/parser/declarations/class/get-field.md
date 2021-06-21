@@ -160,7 +160,7 @@ get(){} }
 ```javascript
 
  class C {
-    async,
+    async
     get() {
     }
 } 

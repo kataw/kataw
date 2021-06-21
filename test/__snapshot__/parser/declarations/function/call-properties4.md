@@ -293,7 +293,7 @@ var b: { (): string; (x: number): string } =
 
 ```javascript
 
- var b  = function (): string {
+ var b ((): string(xnumber): string) = function (): string {
 return "hi";
 }; 
 ```

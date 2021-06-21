@@ -263,7 +263,7 @@ type Animal =
 
 ```javascript
 
- type Animal = | , , ,  
+ type Animal = | (typeinsect) | (typefish) | (typechinese) | (typebird) 
 ```
 
 ### Diagnostics

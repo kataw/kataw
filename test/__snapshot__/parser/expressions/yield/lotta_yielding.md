@@ -458,7 +458,7 @@ var gen = async function *g() {
 ```javascript
 
  var gen = async function* g() {
-callCount+=1;,
+callCount+=1;
 yield { , ,  };
 }; 
 ```

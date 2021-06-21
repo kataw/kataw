@@ -258,7 +258,7 @@
 
 ```javascript
 
-'use strict' var x, y, z;,  ? [x, y, z]={  } : rhs; 
+'use strict' var x, y, z;  ? [x, y, z]={  } : rhs; 
 ```
 
 ### Diagnostics

@@ -249,7 +249,7 @@ var x, y, z; m(['b']) ? lhs : { x, y, z } = {}
 
 ```javascript
 
- var x, y, z;,  ? lhs : { x, y, z }={  }; 
+ var x, y, z;  ? lhs : { x, y, z }={  }; 
 ```
 
 ### Diagnostics

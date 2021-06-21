@@ -69,7 +69,7 @@ function x(y: | z): | /* comment */ () => number {}
                             "bitwiseAndToken": null,
                             "type": {
                                 "kind": 144,
-                                "name": {
+                                "typeName": {
                                     "kind": 134299649,
                                     "text": "z",
                                     "rawText": "z",
@@ -177,7 +177,7 @@ function x(y: | z): | /* comment */ () => number {}
 
 ```javascript
 
- function x(): |/* comment */  {
+ function x(): |/* comment */  : number  {
 } 
 ```
 

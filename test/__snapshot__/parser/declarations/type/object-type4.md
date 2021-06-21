@@ -75,7 +75,7 @@ type a = {x:y.z};
                                 "bitwiseAndToken": null,
                                 "type": {
                                     "kind": 144,
-                                    "name": {
+                                    "typeName": {
                                         "kind": 145,
                                         "qualification": {
                                             "kind": 134299649,
@@ -138,7 +138,7 @@ type a = {x:y.z};
 
 ```javascript
 
- type a =  
+ type a = (xy.z) 
 ```
 
 ### Diagnostics

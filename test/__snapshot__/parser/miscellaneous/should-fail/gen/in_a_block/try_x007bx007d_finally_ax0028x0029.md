@@ -125,7 +125,7 @@
 ```javascript
 
  { try {  }
-finally {  }, ; } 
+finally {  } ; } 
 ```
 
 ### Diagnostics

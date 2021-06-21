@@ -117,7 +117,7 @@ function F<T>() {
                                             "bitwiseAndToken": null,
                                             "type": {
                                                 "kind": 144,
-                                                "name": {
+                                                "typeName": {
                                                     "kind": 134299649,
                                                     "text": "T",
                                                     "rawText": "T",
@@ -251,8 +251,8 @@ function F<T>() {
 
 ```javascript
 
- function F() {
-var expr ;,
+ function <T>F() {
+var expr T;
 for (var a in expr) {  }
 } 
 ```

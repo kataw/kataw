@@ -102,7 +102,7 @@ type UnionAlias = 1 | 2 | 3;
 
 ```javascript
 
- type UnionAlias = , ,  
+ type UnionAlias =  |  |  
 ```
 
 ### Diagnostics

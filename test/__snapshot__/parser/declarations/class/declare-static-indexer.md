@@ -130,7 +130,7 @@ declare class A { static [ indexer: number]: string }
 
 ```javascript
 
- declare class A {} 
+ declare class A {(static [indexernumber]: string)} 
 ```
 
 ### Diagnostics

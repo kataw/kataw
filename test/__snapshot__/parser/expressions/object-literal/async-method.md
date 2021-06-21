@@ -866,10 +866,10 @@
 ```javascript
 
  ({ async * method() {
-    } });, ({ async * method() {
-    } });, ({ async * method() {
-    } });, ({ async * method() {
-    } });, ({ async * method() {
+    } }); ({ async * method() {
+    } }); ({ async * method() {
+    } }); ({ async * method() {
+    } }); ({ async * method() {
     } }); 
 ```
 

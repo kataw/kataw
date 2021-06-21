@@ -96,7 +96,7 @@ async function foo() {};
 ```javascript
 
  async function foo() {
-}, ; 
+} ; 
 ```
 
 ### Diagnostics

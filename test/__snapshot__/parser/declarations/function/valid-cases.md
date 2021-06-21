@@ -4047,83 +4047,83 @@ function f({x:arg = (arg = 2)}) {}
  function f(arg) {
 function h() {
 ;
-},
-;,
+}
 ;
-}, function f() {
 ;
-}, function f(arg, arguments) {
-;,
-arguments[0]=42;,
+} function f() {
 ;
-}, function f() {
-;,
-arguments[0]=42;,
+} function f(arg, arguments) {
 ;
-}, function f(arg) {
-;,
-arg=42;,
+arguments[0]=42;
 ;
-}, function f(arg) {
-;,
-;,
+} function f() {
 ;
-}, function f(arg) {
-;,
-var arg = 42;,
+arguments[0]=42;
 ;
-}, function f(arg, ) {
-;,
-arg=42;,
+} function f(arg) {
 ;
-}, function f(arg, ) {
-;,
-arg=42;,
+arg=42;
 ;
-}, function f() {
-;,
-arg=42;,
+} function f(arg) {
 ;
-}, function f(arg) {
-;,
-arg=42;,
 ;
-}, function f(arg, ) {
 ;
-}, function f(arg) {
-;,
-;,
+} function f(arg) {
 ;
-}, function f(arg) {
-;,
-;,
+var arg = 42;
 ;
-}, function f(arg) {
-;,
-;,
+} function f(arg, ) {
 ;
-}, function f() {
-;,
-;,
+arg=42;
 ;
-}, function f(arg) {
-;,
-arguments[0]=42;,
+} function f(arg, ) {
 ;
-}, function f(arg) {
-;,
-;,
+arg=42;
 ;
-}, function f(arg) {
-;,
-;,
+} function f() {
 ;
-}, function f(arg) {
-;,
-;,
+arg=42;
 ;
-}, function f(, ) {
-}, function f() {
+} function f(arg) {
+;
+arg=42;
+;
+} function f(arg, ) {
+;
+} function f(arg) {
+;
+;
+;
+} function f(arg) {
+;
+;
+;
+} function f(arg) {
+;
+;
+;
+} function f() {
+;
+;
+;
+} function f(arg) {
+;
+arguments[0]=42;
+;
+} function f(arg) {
+;
+;
+;
+} function f(arg) {
+;
+;
+;
+} function f(arg) {
+;
+;
+;
+} function f(, ) {
+} function f() {
 } 
 ```
 

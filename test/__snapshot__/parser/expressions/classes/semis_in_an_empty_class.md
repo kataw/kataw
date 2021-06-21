@@ -92,9 +92,6 @@ class A {; ;; ;}
 ```javascript
 
  class A {
-    ,
-    ,
-    ,
 } 
 ```
 

@@ -241,7 +241,7 @@ await / 0 /u
 
 ```javascript
 
- await 0;, await ;, await ;, await (0);, await [0];, await ; 
+ await 0; await ; await ; await (0); await [0]; await ; 
 ```
 
 ### Diagnostics

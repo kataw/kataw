@@ -1763,27 +1763,27 @@ var p10 = ([{ value, done }]) => { };
 
 ```javascript
 
- var a = (p: string) =>p.length;, var a = (p: string) => {
+ var a = (p: string) =>p.length; var a = (p: string) => {
 return p.length;
-};, var b = j => {
+}; var b = j => {
 return 0;
-};, var b = (j) => {
+}; var b = (j) => {
 return 0;
-};, var c ;, var d = n =>c=n;, var d = (n) =>c=n;, var d ;, var p1 = ([a]) => {
-};, var p2 = ([...a]) => {
-};, var p3 = ([a, ]) => {
-};, var p4 = ([...a, ]) => {
-};, var p5 = ([a = 1]) => {
-};, var p6 = ({
+}; var c number; var d = n =>c=n; var d = (n) =>c=n; var d  : any ; var p1 = ([a]) => {
+}; var p2 = ([...a]) => {
+}; var p3 = ([a, ]) => {
+}; var p4 = ([...a, ]) => {
+}; var p5 = ([a = 1]) => {
+}; var p6 = ({
         a
     }) => {
-};, var p7 = ({
+}; var p7 = ({
         a : { b }
     }) => {
-};, var p8 = ({
+}; var p8 = ({
         a = 1
     }) => {
-};, var p10 = ([{
+}; var p10 = ([{
         value,
         done
     }]) => {

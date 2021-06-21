@@ -153,7 +153,7 @@ async ([(a.b) = [] ] = []);
 
 ```javascript
 
- , ; 
+  ; 
 ```
 
 ### Diagnostics

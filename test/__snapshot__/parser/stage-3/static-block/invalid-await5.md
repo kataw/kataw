@@ -169,7 +169,7 @@ class C {
 
 ```javascript
 
- let await;, class C {
+ let await; class C {
 } 
 ```
 

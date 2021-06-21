@@ -522,9 +522,9 @@ function e(x: { (): string; (x: number): string }): () => number {
 ```javascript
 
 // Only one call property needs to match the function
- function d():  {
+ function d():  : string  {
 return x;
-}, function e():  {
+} function e():  : number  {
 return x;
 } 
 ```

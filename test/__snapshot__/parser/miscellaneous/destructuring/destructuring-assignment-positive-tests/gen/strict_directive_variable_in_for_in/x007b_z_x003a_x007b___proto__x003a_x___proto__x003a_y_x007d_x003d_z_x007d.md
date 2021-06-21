@@ -264,7 +264,7 @@
 
 ```javascript
 
-'use strict' var x, y, z;, for ({ z : { __proto__ : x, __proto__ : y }=z } in {  }) ; 
+'use strict' var x, y, z; for ({ z : { __proto__ : x, __proto__ : y }=z } in {  }) ; 
 ```
 
 ### Diagnostics

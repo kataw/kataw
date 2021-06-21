@@ -287,7 +287,7 @@ declare class C {
 
 ```javascript
 
- declare class C {} 
+ declare class C {(static xnumberstatic foo(xnumber): voidconstructor(xstring): void)} 
 ```
 
 ### Diagnostics

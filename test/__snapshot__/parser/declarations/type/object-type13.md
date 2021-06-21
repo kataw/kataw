@@ -87,7 +87,7 @@ type a = {[{x:y}]:string};
                                                 "bitwiseAndToken": null,
                                                 "type": {
                                                     "kind": 144,
-                                                    "name": {
+                                                    "typeName": {
                                                         "kind": 134299649,
                                                         "text": "y",
                                                         "rawText": "y",
@@ -164,7 +164,7 @@ type a = {[{x:y}]:string};
 
 ```javascript
 
- type a =  
+ type a = ([(xy)]: string) 
 ```
 
 ### Diagnostics

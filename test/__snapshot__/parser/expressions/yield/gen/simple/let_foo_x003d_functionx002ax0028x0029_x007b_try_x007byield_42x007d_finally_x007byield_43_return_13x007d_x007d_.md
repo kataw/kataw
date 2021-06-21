@@ -242,7 +242,7 @@ let foo = function*() { try {yield 42} finally {yield 43; return 13} };
 
  let foo = function* () {
 try { yield 42; }
-finally { yield 43;, return 13; }
+finally { yield 43; return 13; }
 }; 
 ```
 

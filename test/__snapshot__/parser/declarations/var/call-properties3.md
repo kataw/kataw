@@ -226,7 +226,7 @@ var z : Object = (x) => "hi"
                                             "bitwiseAndToken": null,
                                             "type": {
                                                 "kind": 144,
-                                                "name": {
+                                                "typeName": {
                                                     "kind": 134299649,
                                                     "text": "Function",
                                                     "rawText": "Function",
@@ -1330,7 +1330,7 @@ var z : Object = (x) => "hi"
                                             "bitwiseAndToken": null,
                                             "type": {
                                                 "kind": 144,
-                                                "name": {
+                                                "typeName": {
                                                     "kind": 134299649,
                                                     "text": "mixed",
                                                     "rawText": "mixed",
@@ -1452,7 +1452,7 @@ var z : Object = (x) => "hi"
                                                         "bitwiseAndToken": null,
                                                         "type": {
                                                             "kind": 144,
-                                                            "name": {
+                                                            "typeName": {
                                                                 "kind": 134299649,
                                                                 "text": "Date",
                                                                 "rawText": "Date",
@@ -1707,7 +1707,7 @@ var z : Object = (x) => "hi"
                             "bitwiseAndToken": null,
                             "type": {
                                 "kind": 144,
-                                "name": {
+                                "typeName": {
                                     "kind": 134299649,
                                     "text": "Object",
                                     "rawText": "Object",
@@ -1785,19 +1785,19 @@ var z : Object = (x) => "hi"
 ```javascript
 
 // Expecting properties that don't exist should be an error
- var a  = function () {
-};, var b  = function () {
-};, var f = function () {
-};, f.myProp=123;, var c  = f;, var a  = (x) =>;, var b  = (x) =>"hi";, var c  = (x) =>;, var d  = (x) =>"hi";, var e  = () => {
+ var a (somePropnumber) = function () {
+}; var b (applyFunction) = function () {
+}; var f = function () {
+}; f.myProp=123; var c (myPropnumber) = f; var a ((xnumber): string) = (x) =>; var b ((xnumber): number) = (x) =>"hi"; var c ((xstring): string) = (x) =>; var d ((): string) = (x) =>"hi"; var e ((xany): void) = () => {
 };// arity
-, // arity
-var f  = () =>"hi";// return type
-, // return type
-var g  = (x) => {
+ // arity
+var f ((): mixed) = () =>"hi";// return type
+ // return type
+var g ((xDate): void) = (x) => {
 x * 2;
 };// param type (date < number)
-, // param type (date < number)
-var y  = (x) =>"hi";, var z Object = (x) =>"hi"; 
+ // param type (date < number)
+var y () = (x) =>"hi"; var z Object = (x) =>"hi"; 
 ```
 
 ### Diagnostics

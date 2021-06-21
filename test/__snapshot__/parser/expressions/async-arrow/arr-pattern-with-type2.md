@@ -157,7 +157,7 @@
 ```javascript
 
  ([y: number, x: string]) => {
-}, ; 
+} ; 
 ```
 
 ### Diagnostics

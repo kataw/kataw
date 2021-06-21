@@ -87,7 +87,7 @@ class x{}
 ```javascript
 
  class x {
-}, ; 
+} ; 
 ```
 
 ### Diagnostics

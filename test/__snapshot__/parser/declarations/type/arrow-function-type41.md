@@ -91,7 +91,7 @@ type a = (...x: string & foo | (...x: string & foo | bar) => T) => T;
                                                     },
                                                     {
                                                         "kind": 144,
-                                                        "name": {
+                                                        "typeName": {
                                                             "kind": 134299649,
                                                             "text": "foo",
                                                             "rawText": "foo",
@@ -149,7 +149,7 @@ type a = (...x: string & foo | (...x: string & foo | bar) => T) => T;
                                                                                 },
                                                                                 {
                                                                                     "kind": 144,
-                                                                                    "name": {
+                                                                                    "typeName": {
                                                                                         "kind": 134299649,
                                                                                         "text": "foo",
                                                                                         "rawText": "foo",
@@ -169,7 +169,7 @@ type a = (...x: string & foo | (...x: string & foo | bar) => T) => T;
                                                                         },
                                                                         {
                                                                             "kind": 144,
-                                                                            "name": {
+                                                                            "typeName": {
                                                                                 "kind": 134299649,
                                                                                 "text": "bar",
                                                                                 "rawText": "bar",
@@ -213,7 +213,7 @@ type a = (...x: string & foo | (...x: string & foo | bar) => T) => T;
                                                     "bitwiseAndToken": null,
                                                     "type": {
                                                         "kind": 144,
-                                                        "name": {
+                                                        "typeName": {
                                                             "kind": 134299649,
                                                             "text": "T",
                                                             "rawText": "T",
@@ -266,7 +266,7 @@ type a = (...x: string & foo | (...x: string & foo | bar) => T) => T;
                         "bitwiseAndToken": null,
                         "type": {
                             "kind": 144,
-                            "name": {
+                            "typeName": {
                                 "kind": 134299649,
                                 "text": "T",
                                 "rawText": "T",
@@ -310,7 +310,7 @@ type a = (...x: string & foo | (...x: string & foo | bar) => T) => T;
 
 ```javascript
 
- type a =  
+ type a =  : T  
 ```
 
 ### Diagnostics

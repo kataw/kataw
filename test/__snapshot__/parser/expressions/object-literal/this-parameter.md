@@ -519,7 +519,7 @@ let one = {
                                                             "bitwiseAndToken": null,
                                                             "type": {
                                                                 "kind": 144,
-                                                                "name": {
+                                                                "typeName": {
                                                                     "kind": 134299649,
                                                                     "text": "T",
                                                                     "rawText": "T",
@@ -611,7 +611,7 @@ let one = {
     }, m2(, a) {
     }, m3(, ) {
     }, m4(, a, b, ) {
-    }, m5() {
+    }, m5<T>() {
     } }; 
 ```
 

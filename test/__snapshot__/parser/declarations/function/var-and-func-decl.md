@@ -169,7 +169,7 @@ function f(){ var x = y; function x(){} }
 ```javascript
 
  function f() {
-var x = y;,
+var x = y;
 function x() {
 }
 } 
