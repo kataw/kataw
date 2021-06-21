@@ -78,7 +78,7 @@ class x {static set super(x){}}
                                     "end": 25
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [
                                         {
@@ -146,7 +146,7 @@ class x {static set super(x){}}
 ```javascript
 
 class x {
-  static set static super {}
+  static set static super() {}
 }
 ```
 

@@ -68,7 +68,7 @@ class x {switch(){}}
                                     "end": 15
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -127,7 +127,7 @@ class x {switch(){}}
 ```javascript
 
 class x {
-  switch {}
+  switch() {}
 }
 ```
 

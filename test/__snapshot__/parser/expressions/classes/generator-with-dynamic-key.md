@@ -71,7 +71,7 @@ class x { *[y](){}}
                                     "end": 14
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -130,7 +130,7 @@ class x { *[y](){}}
 ```javascript
 
 class x {
-  [y] {}
+  [y]() {}
 }
 ```
 

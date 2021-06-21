@@ -95,7 +95,7 @@ var C = class { async *gen() {
                                                     "end": 26
                                                 },
                                                 "typeParameters": null,
-                                                "formalParameters": {
+                                                "formalParameterList": {
                                                     "kind": 214,
                                                     "formalParameters": [],
                                                     "trailingComma": false,

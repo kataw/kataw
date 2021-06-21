@@ -61,7 +61,6 @@ function f(argument1, { __proto__: x, __proto__: y}) {}
                             "properties": [
                                 {
                                     "kind": 329,
-                                    "ellipsisToken": null,
                                     "key": {
                                         "kind": 134299649,
                                         "text": "__proto__",
@@ -85,7 +84,6 @@ function f(argument1, { __proto__: x, __proto__: y}) {}
                                 },
                                 {
                                     "kind": 329,
-                                    "ellipsisToken": null,
                                     "key": {
                                         "kind": 134299649,
                                         "text": "__proto__",

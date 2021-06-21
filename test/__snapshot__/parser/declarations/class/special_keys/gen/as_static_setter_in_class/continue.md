@@ -78,7 +78,7 @@ class x {static set continue(x){}}
                                     "end": 28
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [
                                         {
@@ -146,7 +146,7 @@ class x {static set continue(x){}}
 ```javascript
 
 class x {
-  static set static continue {}
+  static set static continue() {}
 }
 ```
 

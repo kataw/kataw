@@ -24,57 +24,69 @@ for (let foo = bar, zoo = boo in x);
                 "end": 3
             },
             "initializer": {
-                "kind": 151,
-                "bindingList": [
-                    {
-                        "kind": 190,
-                        "binding": {
-                            "kind": 134299649,
-                            "text": "foo",
-                            "rawText": "foo",
-                            "flags": 96,
+                "kind": 162,
+                "lexicalKeyword": {
+                    "kind": 41951307,
+                    "flags": 64,
+                    "start": 0,
+                    "end": 8
+                },
+                "binding": {
+                    "kind": 151,
+                    "bindingList": [
+                        {
+                            "kind": 190,
+                            "binding": {
+                                "kind": 134299649,
+                                "text": "foo",
+                                "rawText": "foo",
+                                "flags": 96,
+                                "start": 8,
+                                "end": 12
+                            },
+                            "type": null,
+                            "initializer": {
+                                "kind": 134299649,
+                                "text": "bar",
+                                "rawText": "bar",
+                                "flags": 96,
+                                "start": 14,
+                                "end": 18
+                            },
+                            "flags": 16,
                             "start": 8,
-                            "end": 12
-                        },
-                        "type": null,
-                        "initializer": {
-                            "kind": 134299649,
-                            "text": "bar",
-                            "rawText": "bar",
-                            "flags": 96,
-                            "start": 14,
                             "end": 18
                         },
-                        "flags": 16,
-                        "start": 8,
-                        "end": 18
-                    },
-                    {
-                        "kind": 190,
-                        "binding": {
-                            "kind": 134299649,
-                            "text": "zoo",
-                            "rawText": "zoo",
-                            "flags": 96,
+                        {
+                            "kind": 190,
+                            "binding": {
+                                "kind": 134299649,
+                                "text": "zoo",
+                                "rawText": "zoo",
+                                "flags": 96,
+                                "start": 19,
+                                "end": 23
+                            },
+                            "type": null,
+                            "initializer": {
+                                "kind": 134299649,
+                                "text": "boo",
+                                "rawText": "boo",
+                                "flags": 96,
+                                "start": 25,
+                                "end": 29
+                            },
+                            "flags": 16,
                             "start": 19,
-                            "end": 23
-                        },
-                        "type": null,
-                        "initializer": {
-                            "kind": 134299649,
-                            "text": "boo",
-                            "rawText": "boo",
-                            "flags": 96,
-                            "start": 25,
                             "end": 29
-                        },
-                        "flags": 16,
-                        "start": 19,
-                        "end": 29
-                    }
-                ],
-                "flags": 16,
-                "start": 8,
+                        }
+                    ],
+                    "flags": 16,
+                    "start": 8,
+                    "end": 29
+                },
+                "flags": 33554448,
+                "start": 0,
                 "end": 29
             },
             "inKeyword": {

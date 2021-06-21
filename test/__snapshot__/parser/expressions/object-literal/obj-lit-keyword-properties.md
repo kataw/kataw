@@ -45,7 +45,7 @@
                                         "end": 7
                                     },
                                     "typeParameters": null,
-                                    "formalParameters": {
+                                    "formalParameterList": {
                                         "kind": 214,
                                         "formalParameters": [
                                             {
@@ -137,7 +137,7 @@
                                         "end": 29
                                     },
                                     "typeParameters": null,
-                                    "formalParameters": {
+                                    "formalParameterList": {
                                         "kind": 214,
                                         "formalParameters": [
                                             {
@@ -229,7 +229,7 @@
                                         "end": 51
                                     },
                                     "typeParameters": null,
-                                    "formalParameters": {
+                                    "formalParameterList": {
                                         "kind": 214,
                                         "formalParameters": [
                                             {
@@ -321,7 +321,7 @@
                                         "end": 70
                                     },
                                     "typeParameters": null,
-                                    "formalParameters": {
+                                    "formalParameterList": {
                                         "kind": 214,
                                         "formalParameters": [
                                             {
@@ -413,7 +413,7 @@
                                         "end": 91
                                     },
                                     "typeParameters": null,
-                                    "formalParameters": {
+                                    "formalParameterList": {
                                         "kind": 214,
                                         "formalParameters": [
                                             {
@@ -493,11 +493,11 @@
 
 ```javascript
 
-({ throw {} });
-({ package {} });
-({ package {} });
-({ this {} });
-({ switch {} });
+({ throw() {} });
+({ package() {} });
+({ package() {} });
+({ this() {} });
+({ switch() {} });
 ```
 
 ### Diagnostics

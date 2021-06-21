@@ -78,7 +78,7 @@ class x {static set debugger(x){}}
                                     "end": 28
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [
                                         {
@@ -146,7 +146,7 @@ class x {static set debugger(x){}}
 ```javascript
 
 class x {
-  static set static debugger {}
+  static set static debugger() {}
 }
 ```
 

@@ -78,7 +78,7 @@ class x {static async void(){}}
                                     "end": 26
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -137,7 +137,7 @@ class x {static async void(){}}
 ```javascript
 
 class x {
-  async static static void {}
+  async static static void() {}
 }
 ```
 

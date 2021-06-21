@@ -60,7 +60,7 @@ class A {set(){} get(){} async(){}}
                                     "end": 12
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -111,7 +111,7 @@ class A {set(){} get(){} async(){}}
                                     "end": 20
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -162,7 +162,7 @@ class A {set(){} get(){} async(){}}
                                     "end": 30
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -221,9 +221,9 @@ class A {set(){} get(){} async(){}}
 ```javascript
 
 class A {
-  set {}
-  get {}
-  async {}
+  set() {}
+  get() {}
+  async() {}
 }
 ```
 

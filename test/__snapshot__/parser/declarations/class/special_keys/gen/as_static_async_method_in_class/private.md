@@ -78,7 +78,7 @@ class x {static async private(){}}
                                     "end": 29
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -137,7 +137,7 @@ class x {static async private(){}}
 ```javascript
 
 class x {
-  async static static private {}
+  async static static private() {}
 }
 ```
 

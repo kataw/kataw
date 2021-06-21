@@ -32,79 +32,86 @@ for (const { x, } = { x: 23 }; a < 1; ) {}; for (const { x, } = { x: 23 }; a < 1
                 "end": 3
             },
             "initializer": {
-                "kind": 151,
-                "bindingList": [
-                    {
-                        "kind": 190,
-                        "binding": {
-                            "kind": 212,
-                            "propertyList": {
-                                "kind": 213,
-                                "properties": [
-                                    {
-                                        "kind": 134299649,
-                                        "text": "x",
-                                        "rawText": "x",
-                                        "flags": 96,
-                                        "start": 12,
-                                        "end": 14
-                                    }
-                                ],
-                                "trailingComma": true,
-                                "flags": 32,
-                                "start": 12,
-                                "end": 15
-                            },
-                            "flags": 32,
-                            "start": 10,
-                            "end": 17
-                        },
-                        "type": null,
-                        "initializer": {
-                            "kind": 220,
-                            "propertyList": {
-                                "kind": 218,
-                                "properties": [
-                                    {
-                                        "kind": 219,
-                                        "asteriskToken": null,
-                                        "left": {
+                "kind": 162,
+                "lexicalKeyword": null,
+                "binding": {
+                    "kind": 151,
+                    "bindingList": [
+                        {
+                            "kind": 190,
+                            "binding": {
+                                "kind": 212,
+                                "propertyList": {
+                                    "kind": 213,
+                                    "properties": [
+                                        {
                                             "kind": 134299649,
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,
-                                            "start": 21,
-                                            "end": 23
-                                        },
-                                        "right": {
-                                            "kind": 201392130,
-                                            "text": 23,
-                                            "rawText": "23",
-                                            "flags": 96,
-                                            "start": 24,
-                                            "end": 27
-                                        },
-                                        "flags": 32,
-                                        "start": 21,
-                                        "end": 27
-                                    }
-                                ],
-                                "trailingComma": false,
-                                "flags": 16,
-                                "start": 21,
-                                "end": 27
+                                            "start": 12,
+                                            "end": 14
+                                        }
+                                    ],
+                                    "trailingComma": true,
+                                    "flags": 32,
+                                    "start": 12,
+                                    "end": 15
+                                },
+                                "flags": 32,
+                                "start": 10,
+                                "end": 17
                             },
-                            "flags": 48,
-                            "start": 19,
+                            "type": null,
+                            "initializer": {
+                                "kind": 220,
+                                "propertyList": {
+                                    "kind": 218,
+                                    "properties": [
+                                        {
+                                            "kind": 219,
+                                            "asteriskToken": null,
+                                            "left": {
+                                                "kind": 134299649,
+                                                "text": "x",
+                                                "rawText": "x",
+                                                "flags": 96,
+                                                "start": 21,
+                                                "end": 23
+                                            },
+                                            "right": {
+                                                "kind": 201392130,
+                                                "text": 23,
+                                                "rawText": "23",
+                                                "flags": 96,
+                                                "start": 24,
+                                                "end": 27
+                                            },
+                                            "flags": 32,
+                                            "start": 21,
+                                            "end": 27
+                                        }
+                                    ],
+                                    "trailingComma": false,
+                                    "flags": 16,
+                                    "start": 21,
+                                    "end": 27
+                                },
+                                "flags": 48,
+                                "start": 19,
+                                "end": 29
+                            },
+                            "flags": 16,
+                            "start": 10,
                             "end": 29
-                        },
-                        "flags": 16,
-                        "start": 10,
-                        "end": 29
-                    }
-                ],
-                "flags": 16777232,
-                "start": 10,
+                        }
+                    ],
+                    "flags": 16777232,
+                    "start": 10,
+                    "end": 29
+                },
+                "flags": 33554448,
+                "start": 0,
                 "end": 29
             },
             "condition": null,
@@ -168,79 +175,86 @@ for (const { x, } = { x: 23 }; a < 1; ) {}; for (const { x, } = { x: 23 }; a < 1
                 "end": 47
             },
             "initializer": {
-                "kind": 151,
-                "bindingList": [
-                    {
-                        "kind": 190,
-                        "binding": {
-                            "kind": 212,
-                            "propertyList": {
-                                "kind": 213,
-                                "properties": [
-                                    {
-                                        "kind": 134299649,
-                                        "text": "x",
-                                        "rawText": "x",
-                                        "flags": 96,
-                                        "start": 56,
-                                        "end": 58
-                                    }
-                                ],
-                                "trailingComma": true,
-                                "flags": 32,
-                                "start": 56,
-                                "end": 59
-                            },
-                            "flags": 32,
-                            "start": 54,
-                            "end": 61
-                        },
-                        "type": null,
-                        "initializer": {
-                            "kind": 220,
-                            "propertyList": {
-                                "kind": 218,
-                                "properties": [
-                                    {
-                                        "kind": 219,
-                                        "asteriskToken": null,
-                                        "left": {
+                "kind": 162,
+                "lexicalKeyword": null,
+                "binding": {
+                    "kind": 151,
+                    "bindingList": [
+                        {
+                            "kind": 190,
+                            "binding": {
+                                "kind": 212,
+                                "propertyList": {
+                                    "kind": 213,
+                                    "properties": [
+                                        {
                                             "kind": 134299649,
                                             "text": "x",
                                             "rawText": "x",
                                             "flags": 96,
-                                            "start": 65,
-                                            "end": 67
-                                        },
-                                        "right": {
-                                            "kind": 201392130,
-                                            "text": 23,
-                                            "rawText": "23",
-                                            "flags": 96,
-                                            "start": 68,
-                                            "end": 71
-                                        },
-                                        "flags": 32,
-                                        "start": 65,
-                                        "end": 71
-                                    }
-                                ],
-                                "trailingComma": false,
-                                "flags": 16,
-                                "start": 65,
-                                "end": 71
+                                            "start": 56,
+                                            "end": 58
+                                        }
+                                    ],
+                                    "trailingComma": true,
+                                    "flags": 32,
+                                    "start": 56,
+                                    "end": 59
+                                },
+                                "flags": 32,
+                                "start": 54,
+                                "end": 61
                             },
-                            "flags": 48,
-                            "start": 63,
+                            "type": null,
+                            "initializer": {
+                                "kind": 220,
+                                "propertyList": {
+                                    "kind": 218,
+                                    "properties": [
+                                        {
+                                            "kind": 219,
+                                            "asteriskToken": null,
+                                            "left": {
+                                                "kind": 134299649,
+                                                "text": "x",
+                                                "rawText": "x",
+                                                "flags": 96,
+                                                "start": 65,
+                                                "end": 67
+                                            },
+                                            "right": {
+                                                "kind": 201392130,
+                                                "text": 23,
+                                                "rawText": "23",
+                                                "flags": 96,
+                                                "start": 68,
+                                                "end": 71
+                                            },
+                                            "flags": 32,
+                                            "start": 65,
+                                            "end": 71
+                                        }
+                                    ],
+                                    "trailingComma": false,
+                                    "flags": 16,
+                                    "start": 65,
+                                    "end": 71
+                                },
+                                "flags": 48,
+                                "start": 63,
+                                "end": 73
+                            },
+                            "flags": 16,
+                            "start": 54,
                             "end": 73
-                        },
-                        "flags": 16,
-                        "start": 54,
-                        "end": 73
-                    }
-                ],
-                "flags": 16777232,
-                "start": 54,
+                        }
+                    ],
+                    "flags": 16777232,
+                    "start": 54,
+                    "end": 73
+                },
+                "flags": 33554448,
+                "start": 43,
                 "end": 73
             },
             "condition": null,
@@ -309,9 +323,13 @@ for (const { x, } = { x: 23 }; a < 1; ) {}; for (const { x, } = { x: 23 }; a < 1
 
 ```javascript
 
-for (const; ; a  < 1)
+for ({
+    x
+  } = { x: 23 };; ; a  < 1)
   {}
-for (const; ; a  < 1)
+for ({
+    x
+  } = { x: 23 };; ; a  < 1)
   {}
 
 ```

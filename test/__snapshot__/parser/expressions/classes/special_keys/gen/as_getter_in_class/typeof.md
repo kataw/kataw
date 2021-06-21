@@ -73,7 +73,7 @@ class x {get typeof(){}}
                                     "end": 19
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -132,7 +132,7 @@ class x {get typeof(){}}
 ```javascript
 
 class x {
-  get typeof {}
+  get typeof() {}
 }
 ```
 

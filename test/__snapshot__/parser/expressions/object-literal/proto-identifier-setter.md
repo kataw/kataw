@@ -67,7 +67,7 @@
                                         "end": 33
                                     },
                                     "typeParameters": null,
-                                    "formalParameters": {
+                                    "formalParameterList": {
                                         "kind": 214,
                                         "formalParameters": [
                                             {
@@ -139,7 +139,7 @@
 
 ```javascript
 
-({ __proto__: null, set __proto__ {} });
+({ __proto__: null, set __proto__() {} });
 ```
 
 ### Diagnostics

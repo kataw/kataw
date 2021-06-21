@@ -58,7 +58,7 @@ x = {async __proto__(){}, *__proto__(){}};
                                         "end": 14
                                     },
                                     "typeParameters": null,
-                                    "formalParameters": {
+                                    "formalParameterList": {
                                         "kind": 214,
                                         "formalParameters": [],
                                         "trailingComma": false,
@@ -170,7 +170,7 @@ x = {async __proto__(){}, *__proto__(){}};
                                         "end": 49
                                     },
                                     "typeParameters": null,
-                                    "formalParameters": {
+                                    "formalParameterList": {
                                         "kind": 214,
                                         "formalParameters": [],
                                         "trailingComma": false,
@@ -218,7 +218,7 @@ x = {async __proto__(){}, *__proto__(){}};
                                         "end": 64
                                     },
                                     "typeParameters": null,
-                                    "formalParameters": {
+                                    "formalParameterList": {
                                         "kind": 214,
                                         "formalParameters": [],
                                         "trailingComma": false,
@@ -312,7 +312,7 @@ x = {async __proto__(){}, *__proto__(){}};
                                         "end": 91
                                     },
                                     "typeParameters": null,
-                                    "formalParameters": {
+                                    "formalParameterList": {
                                         "kind": 214,
                                         "formalParameters": [],
                                         "trailingComma": false,
@@ -365,7 +365,7 @@ x = {async __proto__(){}, *__proto__(){}};
                                         "end": 107
                                     },
                                     "typeParameters": null,
-                                    "formalParameters": {
+                                    "formalParameterList": {
                                         "kind": 214,
                                         "formalParameters": [],
                                         "trailingComma": false,
@@ -433,7 +433,6 @@ x = {async __proto__(){}, *__proto__(){}};
                             "properties": [
                                 {
                                     "kind": 329,
-                                    "ellipsisToken": null,
                                     "key": {
                                         "kind": 134299649,
                                         "text": "__proto__",
@@ -457,7 +456,6 @@ x = {async __proto__(){}, *__proto__(){}};
                                 },
                                 {
                                     "kind": 329,
-                                    "ellipsisToken": null,
                                     "key": {
                                         "kind": 134299649,
                                         "text": "__proto__",

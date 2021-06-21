@@ -135,7 +135,7 @@ class w { static #\u0063onstructor }
                                     "end": 48
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -293,7 +293,7 @@ class w { static #\u0063onstructor }
                                     "end": 119
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,

@@ -162,7 +162,7 @@ class I<X> {
                                     "end": 29
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [
                                         {
@@ -275,7 +275,7 @@ class I<X> {
                                     "end": 59
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [
                                         {
@@ -472,10 +472,10 @@ class I {
 
   _f;
 
-  _h {
+  _h() {
     return  x;
   }
-  g {
+  g() {
     this.#i = x;
     this._f = x;
   }

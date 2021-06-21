@@ -158,7 +158,7 @@ async function f(){    async function f(){   (a= {[await foo](){}, "x"(){}} ) =>
                                                                                 "end": 61
                                                                             },
                                                                             "typeParameters": null,
-                                                                            "formalParameters": {
+                                                                            "formalParameterList": {
                                                                                 "kind": 214,
                                                                                 "formalParameters": [],
                                                                                 "trailingComma": false,
@@ -206,7 +206,7 @@ async function f(){    async function f(){   (a= {[await foo](){}, "x"(){}} ) =>
                                                                                 "end": 70
                                                                             },
                                                                             "typeParameters": null,
-                                                                            "formalParameters": {
+                                                                            "formalParameterList": {
                                                                                 "kind": 214,
                                                                                 "formalParameters": [],
                                                                                 "trailingComma": false,
@@ -314,7 +314,7 @@ async function f(){    async function f(){   (a= {[await foo](){}, "x"(){}} ) =>
 
 async function f() {
   async function f() {
-    (a = { [await foo] {}, "\"x\"" {} }) =>  a;
+    (a = { [await foo]() {}, "\"x\""() {} }) =>  a;
   }
 }
 ```

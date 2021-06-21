@@ -46,7 +46,7 @@
                                         "end": 11
                                     },
                                     "typeParameters": null,
-                                    "formalParameters": {
+                                    "formalParameterList": {
                                         "kind": 214,
                                         "formalParameters": [
                                             {
@@ -145,7 +145,7 @@
 
 ```javascript
 
-({ async foo {
+({ async foo() {
     await a;
   } });
 ```

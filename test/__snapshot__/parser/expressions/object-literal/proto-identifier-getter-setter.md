@@ -69,7 +69,7 @@
                                         "end": 33
                                     },
                                     "typeParameters": null,
-                                    "formalParameters": {
+                                    "formalParameterList": {
                                         "kind": 214,
                                         "formalParameters": [],
                                         "trailingComma": false,
@@ -122,7 +122,7 @@
                                         "end": 52
                                     },
                                     "typeParameters": null,
-                                    "formalParameters": {
+                                    "formalParameterList": {
                                         "kind": 214,
                                         "formalParameters": [
                                             {
@@ -267,7 +267,7 @@
 
 ```javascript
 
-({ __proto__: null, get __proto__ {}, set __proto__ {} });
+({ __proto__: null, get __proto__() {}, set __proto__() {} });
 ({ 1: "\"__proto__\"", 1: "\"__proto__\"" });
 ```
 

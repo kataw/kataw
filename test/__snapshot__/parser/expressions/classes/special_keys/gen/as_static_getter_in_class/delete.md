@@ -78,7 +78,7 @@ class x {static get delete(){}}
                                     "end": 26
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -137,7 +137,7 @@ class x {static get delete(){}}
 ```javascript
 
 class x {
-  static get static delete {}
+  static get static delete() {}
 }
 ```
 

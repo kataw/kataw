@@ -59,7 +59,7 @@
                                         "end": 7
                                     },
                                     "typeParameters": null,
-                                    "formalParameters": {
+                                    "formalParameterList": {
                                         "kind": 214,
                                         "formalParameters": [],
                                         "trailingComma": false,
@@ -139,7 +139,7 @@
                                         "end": 23
                                     },
                                     "typeParameters": null,
-                                    "formalParameters": {
+                                    "formalParameterList": {
                                         "kind": 214,
                                         "formalParameters": [],
                                         "trailingComma": false,
@@ -219,7 +219,7 @@
                                         "end": 43
                                     },
                                     "typeParameters": null,
-                                    "formalParameters": {
+                                    "formalParameterList": {
                                         "kind": 214,
                                         "formalParameters": [],
                                         "trailingComma": false,
@@ -299,7 +299,7 @@
                                         "end": 64
                                     },
                                     "typeParameters": null,
-                                    "formalParameters": {
+                                    "formalParameterList": {
                                         "kind": 214,
                                         "formalParameters": [],
                                         "trailingComma": false,
@@ -379,7 +379,7 @@
                                         "end": 82
                                     },
                                     "typeParameters": null,
-                                    "formalParameters": {
+                                    "formalParameterList": {
                                         "kind": 214,
                                         "formalParameters": [],
                                         "trailingComma": false,
@@ -459,7 +459,7 @@
                                         "end": 103
                                     },
                                     "typeParameters": null,
-                                    "formalParameters": {
+                                    "formalParameterList": {
                                         "kind": 214,
                                         "formalParameters": [],
                                         "trailingComma": false,
@@ -539,7 +539,7 @@
                                         "end": 123
                                     },
                                     "typeParameters": null,
-                                    "formalParameters": {
+                                    "formalParameterList": {
                                         "kind": 214,
                                         "formalParameters": [],
                                         "trailingComma": false,
@@ -602,13 +602,13 @@
 
 ```javascript
 
-({ * set {} });
-({ * get {} });
-({ * private {} });
-({ * readonly {} });
-({ * async {} });
-({ * function {} });
-({ * declare {} });
+({ * set() {} });
+({ * get() {} });
+({ * private() {} });
+({ * readonly() {} });
+({ * async() {} });
+({ * function() {} });
+({ * declare() {} });
 ```
 
 ### Diagnostics

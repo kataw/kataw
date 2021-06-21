@@ -150,7 +150,7 @@ class Twelve { static async ['prototype']() {} }
                                     "end": 57
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -250,7 +250,7 @@ class Twelve { static async ['prototype']() {} }
                                     "end": 93
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -350,7 +350,7 @@ class Twelve { static async ['prototype']() {} }
                                     "end": 131
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -450,7 +450,7 @@ class Twelve { static async ['prototype']() {} }
                                     "end": 169
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [
                                         {
@@ -559,7 +559,7 @@ class Twelve { static async ['prototype']() {} }
                                     "end": 209
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -736,7 +736,7 @@ class Twelve { static async ['prototype']() {} }
                                     "end": 293
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -841,7 +841,7 @@ class Twelve { static async ['prototype']() {} }
                                     "end": 335
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -946,7 +946,7 @@ class Twelve { static async ['prototype']() {} }
                                     "end": 379
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -1051,7 +1051,7 @@ class Twelve { static async ['prototype']() {} }
                                     "end": 426
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [
                                         {
@@ -1165,7 +1165,7 @@ class Twelve { static async ['prototype']() {} }
                                     "end": 476
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -1227,37 +1227,37 @@ class One {
   ["'prototype'"] = 0;
 }
 class Two {
-  ["'prototype'"] {}
+  ["'prototype'"]() {}
 }
 class Three {
-  ["'prototype'"] {}
+  ["'prototype'"]() {}
 }
 class Four {
-  get ["'prototype'"] {}
+  get ["'prototype'"]() {}
 }
 class Five {
-  set ["'prototype'"] {}
+  set ["'prototype'"]() {}
 }
 class Six {
-  async ["'prototype'"] {}
+  async ["'prototype'"]() {}
 }
 class Seven {
   static ["'prototype'"] = 0;
 }
 class Eigth {
-  static static ["'prototype'"] {}
+  static static ["'prototype'"]() {}
 }
 class Nine {
-  static static ["'prototype'"] {}
+  static static ["'prototype'"]() {}
 }
 class Ten {
-  static get static ["'prototype'"] {}
+  static get static ["'prototype'"]() {}
 }
 class Eleven {
-  static set static ["'prototype'"] {}
+  static set static ["'prototype'"]() {}
 }
 class Twelve {
-  async static static ["'prototype'"] {}
+  async static static ["'prototype'"]() {}
 }
 ```
 

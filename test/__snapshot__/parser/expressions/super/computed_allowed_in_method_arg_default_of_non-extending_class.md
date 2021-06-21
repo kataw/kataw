@@ -60,7 +60,7 @@ class x { foo(x=super[foo]){ }}
                                     "end": 13
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [
                                         {
@@ -163,7 +163,7 @@ class x { foo(x=super[foo]){ }}
 ```javascript
 
 class x {
-  foo {}
+  foo() {}
 }
 ```
 

@@ -82,7 +82,7 @@
                                                 "end": 27
                                             },
                                             "typeParameters": null,
-                                            "formalParameters": {
+                                            "formalParameterList": {
                                                 "kind": 214,
                                                 "formalParameters": [],
                                                 "trailingComma": false,
@@ -227,7 +227,7 @@
 
 ```javascript
 
-var o = { * gf {
+var o = { * gf() {
     switch(1) {
       case  yield:
         break;

@@ -203,7 +203,7 @@ result = [ xCls = class x {}, cls = class {}, xCls2 = class { static name() {} }
                                                                 "end": 73
                                                             },
                                                             "typeParameters": null,
-                                                            "formalParameters": {
+                                                            "formalParameterList": {
                                                                 "kind": 214,
                                                                 "formalParameters": [],
                                                                 "trailingComma": false,

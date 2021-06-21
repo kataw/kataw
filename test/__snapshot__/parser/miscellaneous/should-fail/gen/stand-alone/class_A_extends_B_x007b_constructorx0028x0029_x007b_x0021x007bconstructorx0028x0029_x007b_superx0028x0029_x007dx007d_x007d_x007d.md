@@ -88,7 +88,7 @@ class A extends B { constructor() { !{constructor() { super(); }}; } }
                                     "end": 31
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -135,7 +135,7 @@ class A extends B { constructor() { !{constructor() { super(); }}; } }
                                                                             "end": 49
                                                                         },
                                                                         "typeParameters": null,
-                                                                        "formalParameters": {
+                                                                        "formalParameterList": {
                                                                             "kind": 214,
                                                                             "formalParameters": [],
                                                                             "trailingComma": false,

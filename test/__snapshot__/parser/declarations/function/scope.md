@@ -1039,34 +1039,46 @@ function for_scope_var() {
                                 "end": 628
                             },
                             "initializer": {
-                                "kind": 151,
-                                "bindingList": [
-                                    {
-                                        "kind": 190,
-                                        "binding": {
-                                            "kind": 134299649,
-                                            "text": "a",
-                                            "rawText": "a",
-                                            "flags": 96,
+                                "kind": 162,
+                                "lexicalKeyword": {
+                                    "kind": 41951307,
+                                    "flags": 64,
+                                    "start": 622,
+                                    "end": 633
+                                },
+                                "binding": {
+                                    "kind": 151,
+                                    "bindingList": [
+                                        {
+                                            "kind": 190,
+                                            "binding": {
+                                                "kind": 134299649,
+                                                "text": "a",
+                                                "rawText": "a",
+                                                "flags": 96,
+                                                "start": 633,
+                                                "end": 635
+                                            },
+                                            "type": null,
+                                            "initializer": {
+                                                "kind": 201392131,
+                                                "text": "",
+                                                "rawText": "\"\"",
+                                                "flags": 96,
+                                                "start": 637,
+                                                "end": 640
+                                            },
+                                            "flags": 16,
                                             "start": 633,
-                                            "end": 635
-                                        },
-                                        "type": null,
-                                        "initializer": {
-                                            "kind": 201392131,
-                                            "text": "",
-                                            "rawText": "\"\"",
-                                            "flags": 96,
-                                            "start": 637,
                                             "end": 640
-                                        },
-                                        "flags": 16,
-                                        "start": 633,
-                                        "end": 640
-                                    }
-                                ],
-                                "flags": 16,
-                                "start": 633,
+                                        }
+                                    ],
+                                    "flags": 16,
+                                    "start": 633,
+                                    "end": 640
+                                },
+                                "flags": 33554448,
+                                "start": 622,
                                 "end": 640
                             },
                             "condition": null,
@@ -1202,35 +1214,47 @@ function for_scope_var() {
                                 "end": 727
                             },
                             "initializer": {
-                                "kind": 156,
-                                "declarations": [
-                                    {
-                                        "kind": 157,
-                                        "binding": {
-                                            "kind": 134299649,
-                                            "text": "a",
-                                            "rawText": "a",
-                                            "flags": 96,
+                                "kind": 341,
+                                "varKeyword": {
+                                    "kind": 37757002,
+                                    "flags": 64,
+                                    "start": 729,
+                                    "end": 732
+                                },
+                                "declarationList": {
+                                    "kind": 156,
+                                    "declarations": [
+                                        {
+                                            "kind": 157,
+                                            "binding": {
+                                                "kind": 134299649,
+                                                "text": "a",
+                                                "rawText": "a",
+                                                "flags": 96,
+                                                "start": 732,
+                                                "end": 734
+                                            },
+                                            "type": null,
+                                            "initializer": {
+                                                "kind": 201392131,
+                                                "text": "",
+                                                "rawText": "\"\"",
+                                                "flags": 96,
+                                                "start": 736,
+                                                "end": 739
+                                            },
+                                            "flags": 16,
                                             "start": 732,
-                                            "end": 734
-                                        },
-                                        "type": null,
-                                        "initializer": {
-                                            "kind": 201392131,
-                                            "text": "",
-                                            "rawText": "\"\"",
-                                            "flags": 96,
-                                            "start": 736,
                                             "end": 739
-                                        },
-                                        "flags": 16,
-                                        "start": 732,
-                                        "end": 739
-                                    }
-                                ],
+                                        }
+                                    ],
+                                    "flags": 16,
+                                    "start": 732,
+                                    "end": 739
+                                },
                                 "flags": 16,
-                                "start": 732,
-                                "end": 739
+                                "start": 721,
+                                "end": 770
                             },
                             "condition": null,
                             "incrementor": null,
@@ -1308,12 +1332,12 @@ function default_param_2() {
 }
 function for_scope_let() {
   let a: number = 0;
-  for (let; ; )
+  for (let a = "\"\""; /* ok: local to init */; ; )
     {}
 }
 function for_scope_var() {
   var a: number = 0;
-  for ( /* error: string ~> number */; ; )
+  for (; ; )
     {}
 }
 ```

@@ -1459,7 +1459,6 @@ a = b => { let b; };
                             "properties": [
                                 {
                                     "kind": 329,
-                                    "ellipsisToken": null,
                                     "key": {
                                         "kind": 134299649,
                                         "text": "y",
@@ -1749,7 +1748,6 @@ a = b => { let b; };
                             "properties": [
                                 {
                                     "kind": 329,
-                                    "ellipsisToken": null,
                                     "key": {
                                         "kind": 134299649,
                                         "text": "y",
@@ -1842,7 +1840,6 @@ a = b => { let b; };
                             "properties": [
                                 {
                                     "kind": 329,
-                                    "ellipsisToken": null,
                                     "key": {
                                         "kind": 201392131,
                                         "text": "x",
@@ -1866,7 +1863,6 @@ a = b => { let b; };
                                 },
                                 {
                                     "kind": 329,
-                                    "ellipsisToken": null,
                                     "key": {
                                         "kind": 134299649,
                                         "text": "x",

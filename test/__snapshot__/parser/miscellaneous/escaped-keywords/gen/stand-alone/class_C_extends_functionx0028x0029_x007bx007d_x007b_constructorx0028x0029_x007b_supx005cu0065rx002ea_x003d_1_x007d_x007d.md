@@ -119,7 +119,7 @@ class C extends function() {} { constructor() { sup\u0065r.a = 1 } }
                                     "end": 43
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,

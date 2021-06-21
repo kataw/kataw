@@ -68,7 +68,7 @@ x({get 0o4567(){}});
                                                 "end": 8
                                             },
                                             "typeParameters": null,
-                                            "formalParameters": {
+                                            "formalParameterList": {
                                                 "kind": 214,
                                                 "formalParameters": [],
                                                 "trailingComma": false,
@@ -121,7 +121,7 @@ x({get 0o4567(){}});
                                                 "end": 17
                                             },
                                             "typeParameters": null,
-                                            "formalParameters": {
+                                            "formalParameterList": {
                                                 "kind": 214,
                                                 "formalParameters": [],
                                                 "trailingComma": false,
@@ -219,7 +219,7 @@ x({get 0o4567(){}});
                                                 "end": 33
                                             },
                                             "typeParameters": null,
-                                            "formalParameters": {
+                                            "formalParameterList": {
                                                 "kind": 214,
                                                 "formalParameters": [],
                                                 "trailingComma": false,
@@ -278,7 +278,7 @@ x({get 0o4567(){}});
                                                 "end": 48
                                             },
                                             "typeParameters": null,
-                                            "formalParameters": {
+                                            "formalParameterList": {
                                                 "kind": 214,
                                                 "formalParameters": [],
                                                 "trailingComma": false,
@@ -381,7 +381,7 @@ x({get 0o4567(){}});
                                                 "end": 68
                                             },
                                             "typeParameters": null,
-                                            "formalParameters": {
+                                            "formalParameterList": {
                                                 "kind": 214,
                                                 "formalParameters": [],
                                                 "trailingComma": false,
@@ -484,7 +484,7 @@ x({get 0o4567(){}});
                                                 "end": 88
                                             },
                                             "typeParameters": null,
-                                            "formalParameters": {
+                                            "formalParameterList": {
                                                 "kind": 214,
                                                 "formalParameters": [],
                                                 "trailingComma": false,
@@ -543,7 +543,7 @@ x({get 0o4567(){}});
                                                 "end": 103
                                             },
                                             "typeParameters": null,
-                                            "formalParameters": {
+                                            "formalParameterList": {
                                                 "kind": 214,
                                                 "formalParameters": [],
                                                 "trailingComma": false,
@@ -640,7 +640,7 @@ x({get 0o4567(){}});
                                                 "end": 121
                                             },
                                             "typeParameters": null,
-                                            "formalParameters": {
+                                            "formalParameterList": {
                                                 "kind": 214,
                                                 "formalParameters": [],
                                                 "trailingComma": false,
@@ -737,7 +737,7 @@ x({get 0o4567(){}});
                                                 "end": 139
                                             },
                                             "typeParameters": null,
-                                            "formalParameters": {
+                                            "formalParameterList": {
                                                 "kind": 214,
                                                 "formalParameters": [],
                                                 "trailingComma": false,
@@ -790,7 +790,7 @@ x({get 0o4567(){}});
                                                 "end": 152
                                             },
                                             "typeParameters": null,
-                                            "formalParameters": {
+                                            "formalParameterList": {
                                                 "kind": 214,
                                                 "formalParameters": [],
                                                 "trailingComma": false,
@@ -887,7 +887,7 @@ x({get 0o4567(){}});
                                                 "end": 172
                                             },
                                             "typeParameters": null,
-                                            "formalParameters": {
+                                            "formalParameterList": {
                                                 "kind": 214,
                                                 "formalParameters": [],
                                                 "trailingComma": false,
@@ -984,7 +984,7 @@ x({get 0o4567(){}});
                                                 "end": 188
                                             },
                                             "typeParameters": null,
-                                            "formalParameters": {
+                                            "formalParameterList": {
                                                 "kind": 214,
                                                 "formalParameters": [],
                                                 "trailingComma": false,
@@ -1081,7 +1081,7 @@ x({get 0o4567(){}});
                                                 "end": 211
                                             },
                                             "typeParameters": null,
-                                            "formalParameters": {
+                                            "formalParameterList": {
                                                 "kind": 214,
                                                 "formalParameters": [],
                                                 "trailingComma": false,
@@ -1178,7 +1178,7 @@ x({get 0o4567(){}});
                                                 "end": 231
                                             },
                                             "typeParameters": null,
-                                            "formalParameters": {
+                                            "formalParameterList": {
                                                 "kind": 214,
                                                 "formalParameters": [],
                                                 "trailingComma": false,
@@ -1275,7 +1275,7 @@ x({get 0o4567(){}});
                                                 "end": 252
                                             },
                                             "typeParameters": null,
-                                            "formalParameters": {
+                                            "formalParameterList": {
                                                 "kind": 214,
                                                 "formalParameters": [],
                                                 "trailingComma": false,
@@ -1344,17 +1344,17 @@ x({get 0o4567(){}});
 
 ```javascript
 
-x({ * foo {}, * bar {} });
-x({ [foo] {}, get [bar] {} });
-x({ get [foo] {} });
-x({ get [foo] {}, get [bar] {} });
-x({ get foo {} });
-x({ get foo {}, get bar {} });
-x({ get "\"foo\"" {} });
-x({ get 1 {} });
-x({ get 0x234241 {} });
-x({ get 0b001 {} });
-x({ get 0o4567 {} });
+x({ * foo() {}, * bar() {} });
+x({ [foo]() {}, get [bar]() {} });
+x({ get [foo]() {} });
+x({ get [foo]() {}, get [bar]() {} });
+x({ get foo() {} });
+x({ get foo() {}, get bar() {} });
+x({ get "\"foo\""() {} });
+x({ get 1() {} });
+x({ get 0x234241() {} });
+x({ get 0b001() {} });
+x({ get 0o4567() {} });
 ```
 
 ### Diagnostics

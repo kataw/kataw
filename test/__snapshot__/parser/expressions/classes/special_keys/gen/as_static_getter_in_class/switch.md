@@ -78,7 +78,7 @@ class x {static get switch(){}}
                                     "end": 26
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -137,7 +137,7 @@ class x {static get switch(){}}
 ```javascript
 
 class x {
-  static get static switch {}
+  static get static switch() {}
 }
 ```
 

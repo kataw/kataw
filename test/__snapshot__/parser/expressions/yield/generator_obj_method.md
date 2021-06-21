@@ -64,7 +64,7 @@ let o = {*f(await){}}
                                                 "end": 11
                                             },
                                             "typeParameters": null,
-                                            "formalParameters": {
+                                            "formalParameterList": {
                                                 "kind": 214,
                                                 "formalParameters": [
                                                     {
@@ -141,7 +141,7 @@ let o = {*f(await){}}
 
 ```javascript
 
-let o = { * f {} };
+let o = { * f() {} };
 ```
 
 ### Diagnostics

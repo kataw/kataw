@@ -78,7 +78,7 @@ class x {static get let(){}}
                                     "end": 23
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -137,7 +137,7 @@ class x {static get let(){}}
 ```javascript
 
 class x {
-  static get static let {}
+  static get static let() {}
 }
 ```
 

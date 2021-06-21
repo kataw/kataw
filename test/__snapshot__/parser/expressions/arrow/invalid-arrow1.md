@@ -84,7 +84,6 @@ y = (x => {}(0));
                             "properties": [
                                 {
                                     "kind": 329,
-                                    "ellipsisToken": null,
                                     "key": {
                                         "kind": 134299649,
                                         "text": "a",
@@ -176,7 +175,6 @@ y = (x => {}(0));
                                             "properties": [
                                                 {
                                                     "kind": 329,
-                                                    "ellipsisToken": null,
                                                     "key": {
                                                         "kind": 134299649,
                                                         "text": "x",
@@ -289,7 +287,6 @@ y = (x => {}(0));
                                         "properties": [
                                             {
                                                 "kind": 329,
-                                                "ellipsisToken": null,
                                                 "key": {
                                                     "kind": 134299649,
                                                     "text": "x",
@@ -391,7 +388,6 @@ y = (x => {}(0));
                                             "properties": [
                                                 {
                                                     "kind": 329,
-                                                    "ellipsisToken": null,
                                                     "key": {
                                                         "kind": 134299649,
                                                         "text": "x",
@@ -507,7 +503,6 @@ y = (x => {}(0));
                                             "properties": [
                                                 {
                                                     "kind": 329,
-                                                    "ellipsisToken": null,
                                                     "key": {
                                                         "kind": 201392131,
                                                         "text": "foo",
@@ -618,7 +613,6 @@ y = (x => {}(0));
                                 "properties": [
                                     {
                                         "kind": 329,
-                                        "ellipsisToken": null,
                                         "key": {
                                             "kind": 201392131,
                                             "text": "foo",
@@ -721,7 +715,6 @@ y = (x => {}(0));
                                         "properties": [
                                             {
                                                 "kind": 329,
-                                                "ellipsisToken": null,
                                                 "key": {
                                                     "kind": 201392131,
                                                     "text": "foo",
@@ -823,7 +816,6 @@ y = (x => {}(0));
                                             "properties": [
                                                 {
                                                     "kind": 329,
-                                                    "ellipsisToken": null,
                                                     "key": {
                                                         "kind": 201392131,
                                                         "text": "foo",

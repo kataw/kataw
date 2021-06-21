@@ -3777,7 +3777,6 @@ function f({x:arg = (arg = 2)}) {}
                             "properties": [
                                 {
                                     "kind": 329,
-                                    "ellipsisToken": null,
                                     "key": {
                                         "kind": 134299649,
                                         "text": "x",
@@ -3823,7 +3822,6 @@ function f({x:arg = (arg = 2)}) {}
                             "properties": [
                                 {
                                     "kind": 329,
-                                    "ellipsisToken": null,
                                     "key": {
                                         "kind": 134299649,
                                         "text": "y",
@@ -3943,7 +3941,6 @@ function f({x:arg = (arg = 2)}) {}
                             "properties": [
                                 {
                                     "kind": 329,
-                                    "ellipsisToken": null,
                                     "key": {
                                         "kind": 134299649,
                                         "text": "x",

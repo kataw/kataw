@@ -82,7 +82,7 @@ var C = class { async method() {
                                                     "end": 28
                                                 },
                                                 "typeParameters": null,
-                                                "formalParameters": {
+                                                "formalParameterList": {
                                                     "kind": 214,
                                                     "formalParameters": [],
                                                     "trailingComma": false,

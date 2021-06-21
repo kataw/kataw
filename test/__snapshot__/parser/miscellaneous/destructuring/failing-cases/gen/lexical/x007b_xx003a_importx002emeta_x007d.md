@@ -43,7 +43,6 @@ let { x: import.meta }
                                 "properties": [
                                     {
                                         "kind": 329,
-                                        "ellipsisToken": null,
                                         "key": {
                                             "kind": 134299649,
                                             "text": "x",
@@ -67,7 +66,6 @@ let { x: import.meta }
                                     },
                                     {
                                         "kind": 329,
-                                        "ellipsisToken": null,
                                         "key": {
                                             "kind": 134299649,
                                             "text": "import",

@@ -57,7 +57,7 @@ x({async get(){}});
                                                 "end": 12
                                             },
                                             "typeParameters": null,
-                                            "formalParameters": {
+                                            "formalParameterList": {
                                                 "kind": 214,
                                                 "formalParameters": [],
                                                 "trailingComma": false,
@@ -126,7 +126,7 @@ x({async get(){}});
 
 ```javascript
 
-x({ async get {} });
+x({ async get() {} });
 ```
 
 ### Diagnostics

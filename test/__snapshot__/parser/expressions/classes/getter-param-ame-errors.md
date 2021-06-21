@@ -87,7 +87,7 @@ class C { get name(private) {} }
                                     "end": 19
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [
                                         {
@@ -190,7 +190,7 @@ class C { get name(private) {} }
                                     "end": 55
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [
                                         {
@@ -293,7 +293,7 @@ class C { get name(private) {} }
                                     "end": 88
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [
                                         {
@@ -410,7 +410,7 @@ class C { get name(private) {} }
                                     "end": 136
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [
                                         {
@@ -527,7 +527,7 @@ class C { get name(private) {} }
                                     "end": 187
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [
                                         {
@@ -644,7 +644,7 @@ class C { get name(private) {} }
                                     "end": 233
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -782,7 +782,7 @@ class C { get name(private) {} }
                                             "end": 276
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [
                                                 {
@@ -903,7 +903,7 @@ class C { get name(private) {} }
                                             "end": 324
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [
                                                 {

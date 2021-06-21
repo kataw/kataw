@@ -247,7 +247,7 @@ class D extends C<O> {
                                     "end": 51
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -337,7 +337,7 @@ class C {
 
 }
 class D  {
-  bar {
+  bar() {
     this.x;
   }
 }

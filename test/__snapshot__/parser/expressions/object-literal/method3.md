@@ -55,7 +55,7 @@ x = { method(test) { } }
                                         "end": 12
                                     },
                                     "typeParameters": null,
-                                    "formalParameters": {
+                                    "formalParameterList": {
                                         "kind": 214,
                                         "formalParameters": [
                                             {
@@ -127,7 +127,7 @@ x = { method(test) { } }
 
 ```javascript
 
-x = { method {} };
+x = { method() {} };
 ```
 
 ### Diagnostics

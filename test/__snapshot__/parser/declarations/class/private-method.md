@@ -107,7 +107,7 @@ class Foo {
                                     "end": 28
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -158,7 +158,7 @@ class Foo {
                                     "end": 43
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -591,7 +591,7 @@ class Foo {
                                     "end": 132
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -1150,7 +1150,7 @@ class Foo {
                                     "end": 264
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -1718,20 +1718,20 @@ class Foo {
 
 class Foo {
   #field;
-  #method {}
-  baseline {
+  #method() {}
+  baseline() {
     a().foo;
     b().foo(x);
     c()?.(x);
     ?.(x);
   }
-  privateField {
+  privateField() {
     a().#field;
     b().#field(x);
     c()?.(x);
     (x).bar();
   }
-  privateMethod {
+  privateMethod() {
     a().#method;
     b().#method(x);
     c()?.(x);

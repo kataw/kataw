@@ -73,7 +73,7 @@ class x {get delete(){}}
                                     "end": 19
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -132,7 +132,7 @@ class x {get delete(){}}
 ```javascript
 
 class x {
-  get delete {}
+  get delete() {}
 }
 ```
 

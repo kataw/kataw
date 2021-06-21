@@ -78,7 +78,7 @@ class x {static * interface(){}}
                                     "end": 27
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -137,7 +137,7 @@ class x {static * interface(){}}
 ```javascript
 
 class x {
-  static static interface {}
+  static static interface() {}
 }
 ```
 

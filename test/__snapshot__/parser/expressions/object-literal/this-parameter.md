@@ -78,7 +78,7 @@ let one = {
                                                 "end": 16
                                             },
                                             "typeParameters": null,
-                                            "formalParameters": {
+                                            "formalParameterList": {
                                                 "kind": 214,
                                                 "formalParameters": [
                                                     {
@@ -158,7 +158,7 @@ let one = {
                                                 "end": 40
                                             },
                                             "typeParameters": null,
-                                            "formalParameters": {
+                                            "formalParameterList": {
                                                 "kind": 214,
                                                 "formalParameters": [
                                                     {
@@ -246,7 +246,7 @@ let one = {
                                                 "end": 67
                                             },
                                             "typeParameters": null,
-                                            "formalParameters": {
+                                            "formalParameterList": {
                                                 "kind": 214,
                                                 "formalParameters": [
                                                     {
@@ -349,7 +349,7 @@ let one = {
                                                 "end": 97
                                             },
                                             "typeParameters": null,
-                                            "formalParameters": {
+                                            "formalParameterList": {
                                                 "kind": 214,
                                                 "formalParameters": [
                                                     {
@@ -498,7 +498,7 @@ let one = {
                                                 "start": 133,
                                                 "end": 136
                                             },
-                                            "formalParameters": {
+                                            "formalParameterList": {
                                                 "kind": 214,
                                                 "formalParameters": [
                                                     {
@@ -607,7 +607,7 @@ let one = {
 
 ```javascript
 
-let one = { m1 {}, m2 {}, m3 {}, m4 {}, m5 {} };
+let one = { m1() {}, m2() {}, m3() {}, m4() {}, m5() {} };
 ```
 
 ### Diagnostics

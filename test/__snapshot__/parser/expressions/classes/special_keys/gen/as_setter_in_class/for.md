@@ -73,7 +73,7 @@ class x {set for(x){}}
                                     "end": 16
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [
                                         {
@@ -141,7 +141,7 @@ class x {set for(x){}}
 ```javascript
 
 class x {
-  set for {}
+  set for() {}
 }
 ```
 

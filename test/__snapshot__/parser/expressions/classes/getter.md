@@ -72,7 +72,7 @@ class x { get prototype(){} }
                                     "end": 23
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -131,7 +131,7 @@ class x { get prototype(){} }
 ```javascript
 
 class x {
-  get prototype {}
+  get prototype() {}
 }
 ```
 

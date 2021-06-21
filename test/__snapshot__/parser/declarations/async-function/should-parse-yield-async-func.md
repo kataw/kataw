@@ -125,27 +125,34 @@ const f = async function * (source, block, opts) {
                                                 "end": 66
                                             },
                                             "initializer": {
-                                                "kind": 151,
-                                                "bindingList": [
-                                                    {
-                                                        "kind": 190,
-                                                        "binding": {
-                                                            "kind": 134299649,
-                                                            "text": "entry",
-                                                            "rawText": "entry",
-                                                            "flags": 96,
+                                                "kind": 162,
+                                                "lexicalKeyword": null,
+                                                "binding": {
+                                                    "kind": 151,
+                                                    "bindingList": [
+                                                        {
+                                                            "kind": 190,
+                                                            "binding": {
+                                                                "kind": 134299649,
+                                                                "text": "entry",
+                                                                "rawText": "entry",
+                                                                "flags": 96,
+                                                                "start": 73,
+                                                                "end": 79
+                                                            },
+                                                            "type": null,
+                                                            "initializer": null,
+                                                            "flags": 16,
                                                             "start": 73,
                                                             "end": 79
-                                                        },
-                                                        "type": null,
-                                                        "initializer": null,
-                                                        "flags": 16,
-                                                        "start": 73,
-                                                        "end": 79
-                                                    }
-                                                ],
-                                                "flags": 16777232,
-                                                "start": 73,
+                                                        }
+                                                    ],
+                                                    "flags": 16777232,
+                                                    "start": 73,
+                                                    "end": 79
+                                                },
+                                                "flags": 33554448,
+                                                "start": 50,
                                                 "end": 79
                                             },
                                             "ofKeyword": {
@@ -620,7 +627,7 @@ const f = async function * (source, block, opts) {
 ```javascript
 
 const f = async function * () {
-  for await (const of source) {
+  for await (entry; of source) {
       yield async function () {
         const cid = await persist(entry.content.serialize(), block, opts);
         return  {

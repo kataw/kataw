@@ -60,7 +60,7 @@ class c {foo(x=eval=y){ "use strict"; }}
                                     "end": 12
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [
                                         {

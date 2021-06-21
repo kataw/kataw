@@ -623,7 +623,7 @@ try {} catch(e) { for(var e of 0); };
                                             "end": 1071
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -723,7 +723,7 @@ try {} catch(e) { for(var e of 0); };
                                             "end": 1090
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [
                                                 {
@@ -827,7 +827,7 @@ try {} catch(e) { for(var e of 0); };
                                             "end": 1106
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [
                                                 {
@@ -2480,7 +2480,7 @@ try {} catch(e) { for(var e of 0); };
                                         "end": 3167
                                     },
                                     "typeParameters": null,
-                                    "formalParameters": {
+                                    "formalParameterList": {
                                         "kind": 214,
                                         "formalParameters": [],
                                         "trailingComma": false,
@@ -2588,7 +2588,7 @@ try {} catch(e) { for(var e of 0); };
                                         "end": 3190
                                     },
                                     "typeParameters": null,
-                                    "formalParameters": {
+                                    "formalParameterList": {
                                         "kind": 214,
                                         "formalParameters": [],
                                         "trailingComma": false,
@@ -2797,7 +2797,7 @@ try {} catch(e) { for(var e of 0); };
                                     "end": 3258
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -2844,7 +2844,7 @@ try {} catch(e) { for(var e of 0); };
                                                                             "end": 3276
                                                                         },
                                                                         "typeParameters": null,
-                                                                        "formalParameters": {
+                                                                        "formalParameterList": {
                                                                             "kind": 214,
                                                                             "formalParameters": [],
                                                                             "trailingComma": false,
@@ -3021,7 +3021,7 @@ try {} catch(e) { for(var e of 0); };
                                     "end": 3329
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -3073,7 +3073,7 @@ try {} catch(e) { for(var e of 0); };
                                                                             "end": 3348
                                                                         },
                                                                         "typeParameters": null,
-                                                                        "formalParameters": {
+                                                                        "formalParameterList": {
                                                                             "kind": 214,
                                                                             "formalParameters": [],
                                                                             "trailingComma": false,
@@ -3250,7 +3250,7 @@ try {} catch(e) { for(var e of 0); };
                                     "end": 3401
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -3302,7 +3302,7 @@ try {} catch(e) { for(var e of 0); };
                                                                             "end": 3423
                                                                         },
                                                                         "typeParameters": null,
-                                                                        "formalParameters": {
+                                                                        "formalParameterList": {
                                                                             "kind": 214,
                                                                             "formalParameters": [],
                                                                             "trailingComma": false,
@@ -3479,7 +3479,7 @@ try {} catch(e) { for(var e of 0); };
                                     "end": 3476
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -3531,7 +3531,7 @@ try {} catch(e) { for(var e of 0); };
                                                                             "end": 3498
                                                                         },
                                                                         "typeParameters": null,
-                                                                        "formalParameters": {
+                                                                        "formalParameterList": {
                                                                             "kind": 214,
                                                                             "formalParameters": [
                                                                                 {
@@ -5052,7 +5052,6 @@ try {} catch(e) { for(var e of 0); };
                                             "properties": [
                                                 {
                                                     "kind": 329,
-                                                    "ellipsisToken": null,
                                                     "key": {
                                                         "kind": 194,
                                                         "expression": {
@@ -5733,28 +5732,40 @@ try {} catch(e) { for(var e of 0); };
                                 },
                                 "awaitKeyword": null,
                                 "initializer": {
-                                    "kind": 156,
-                                    "declarations": [
-                                        {
-                                            "kind": 157,
-                                            "binding": {
-                                                "kind": 134299649,
-                                                "text": "e",
-                                                "rawText": "e",
-                                                "flags": 96,
+                                    "kind": 341,
+                                    "varKeyword": {
+                                        "kind": 37757002,
+                                        "flags": 64,
+                                        "start": 5604,
+                                        "end": 5607
+                                    },
+                                    "declarationList": {
+                                        "kind": 156,
+                                        "declarations": [
+                                            {
+                                                "kind": 157,
+                                                "binding": {
+                                                    "kind": 134299649,
+                                                    "text": "e",
+                                                    "rawText": "e",
+                                                    "flags": 96,
+                                                    "start": 5607,
+                                                    "end": 5609
+                                                },
+                                                "type": null,
+                                                "initializer": null,
+                                                "flags": 16,
                                                 "start": 5607,
                                                 "end": 5609
-                                            },
-                                            "type": null,
-                                            "initializer": null,
-                                            "flags": 16,
-                                            "start": 5607,
-                                            "end": 5609
-                                        }
-                                    ],
+                                            }
+                                        ],
+                                        "flags": 16,
+                                        "start": 5607,
+                                        "end": 5609
+                                    },
                                     "flags": 16,
-                                    "start": 5607,
-                                    "end": 5609
+                                    "start": 5599,
+                                    "end": 5612
                                 },
                                 "ofKeyword": {
                                     "kind": 16793717,

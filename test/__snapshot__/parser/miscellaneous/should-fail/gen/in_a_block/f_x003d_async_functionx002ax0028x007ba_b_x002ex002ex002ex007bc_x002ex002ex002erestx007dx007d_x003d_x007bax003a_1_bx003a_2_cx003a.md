@@ -96,13 +96,30 @@
                                                             "end": 27
                                                         },
                                                         {
-                                                            "kind": 329,
+                                                            "kind": 281,
                                                             "ellipsisToken": {
                                                                 "kind": 524302,
                                                                 "flags": 64,
                                                                 "start": 28,
                                                                 "end": 32
                                                             },
+                                                            "left": {
+                                                                "kind": 16637,
+                                                                "text": "",
+                                                                "rawText": "",
+                                                                "flags": 64,
+                                                                "start": 32,
+                                                                "end": 32
+                                                            },
+                                                            "optionalToken": null,
+                                                            "type": null,
+                                                            "right": null,
+                                                            "flags": 0,
+                                                            "start": 28,
+                                                            "end": 32
+                                                        },
+                                                        {
+                                                            "kind": 329,
                                                             "key": {
                                                                 "kind": 16637,
                                                                 "text": "",
@@ -159,7 +176,7 @@
                                                             },
                                                             "initializer": null,
                                                             "flags": 32,
-                                                            "start": 28,
+                                                            "start": 32,
                                                             "end": 44
                                                         }
                                                     ],
@@ -370,6 +387,7 @@
 
 ```javascript
 ✖ Identifier expected - start: 32, end: 33
+✖ ',' expected - start: 32, end: 33
 
 ```
 

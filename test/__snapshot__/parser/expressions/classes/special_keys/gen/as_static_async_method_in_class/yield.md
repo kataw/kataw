@@ -78,7 +78,7 @@ class x {static async yield(){}}
                                     "end": 27
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -137,7 +137,7 @@ class x {static async yield(){}}
 ```javascript
 
 class x {
-  async static static yield {}
+  async static static yield() {}
 }
 ```
 

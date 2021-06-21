@@ -73,7 +73,7 @@
                                             "end": 15
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -133,7 +133,7 @@
                                                                                 "end": 31
                                                                             },
                                                                             "typeParameters": null,
-                                                                            "formalParameters": {
+                                                                            "formalParameterList": {
                                                                                 "kind": 214,
                                                                                 "formalParameters": [],
                                                                                 "trailingComma": false,
@@ -261,7 +261,7 @@
                                             "end": 60
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -326,7 +326,7 @@
                                                                                 "end": 80
                                                                             },
                                                                             "typeParameters": null,
-                                                                            "formalParameters": {
+                                                                            "formalParameterList": {
                                                                                 "kind": 214,
                                                                                 "formalParameters": [],
                                                                                 "trailingComma": false,
@@ -454,7 +454,7 @@
                                             "end": 109
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [
                                                 {
@@ -519,7 +519,7 @@
                                             "end": 124
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -584,7 +584,7 @@
                                                                                 "end": 145
                                                                             },
                                                                             "typeParameters": null,
-                                                                            "formalParameters": {
+                                                                            "formalParameterList": {
                                                                                 "kind": 214,
                                                                                 "formalParameters": [],
                                                                                 "trailingComma": false,
@@ -640,7 +640,7 @@
                                                                                 "end": 157
                                                                             },
                                                                             "typeParameters": null,
-                                                                            "formalParameters": {
+                                                                            "formalParameterList": {
                                                                                 "kind": 214,
                                                                                 "formalParameters": [
                                                                                     {
@@ -772,7 +772,7 @@
                                             "end": 185
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -837,7 +837,7 @@
                                                                                 "end": 206
                                                                             },
                                                                             "typeParameters": null,
-                                                                            "formalParameters": {
+                                                                            "formalParameterList": {
                                                                                 "kind": 214,
                                                                                 "formalParameters": [
                                                                                     {
@@ -943,32 +943,32 @@
 ```javascript
 
 (class  {
-    get #a {
+    get #a() {
       class C {
-        #a {}
+        #a() {}
       }
     }
   });
 (class  {
-    get #a {
+    get #a() {
       class C {
-        get #a {}
+        get #a() {}
       }
     }
   });
 (class  {
-    set #a {}
-    get #a {
+    set #a() {}
+    get #a() {
       class C {
-        get #a {}
-        set #a {}
+        get #a() {}
+        set #a() {}
       }
     }
   });
 (class  {
-    #a {
+    #a() {
       class C {
-        set #a {}
+        set #a() {}
       }
     }
   });

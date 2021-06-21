@@ -67,7 +67,6 @@
                                 },
                                 {
                                     "kind": 329,
-                                    "ellipsisToken": null,
                                     "key": {
                                         "kind": 134299649,
                                         "text": "a",
@@ -91,7 +90,6 @@
                                 },
                                 {
                                     "kind": 329,
-                                    "ellipsisToken": null,
                                     "key": {
                                         "kind": 194,
                                         "expression": {

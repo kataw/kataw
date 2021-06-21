@@ -78,7 +78,7 @@ class x {static set eval(x){}}
                                     "end": 24
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [
                                         {
@@ -146,7 +146,7 @@ class x {static set eval(x){}}
 ```javascript
 
 class x {
-  static set static eval {}
+  static set static eval() {}
 }
 ```
 

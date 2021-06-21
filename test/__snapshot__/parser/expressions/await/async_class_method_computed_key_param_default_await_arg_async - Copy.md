@@ -136,7 +136,7 @@ async function f(){
                                                                     "end": 48
                                                                 },
                                                                 "typeParameters": null,
-                                                                "formalParameters": {
+                                                                "formalParameterList": {
                                                                     "kind": 214,
                                                                     "formalParameters": [
                                                                         {
@@ -231,7 +231,7 @@ async function f(){
                                                                     "end": 66
                                                                 },
                                                                 "typeParameters": null,
-                                                                "formalParameters": {
+                                                                "formalParameterList": {
                                                                     "kind": 214,
                                                                     "formalParameters": [],
                                                                     "trailingComma": false,

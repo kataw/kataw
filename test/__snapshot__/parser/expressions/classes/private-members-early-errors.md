@@ -75,7 +75,7 @@ class C { foo() { this.#a = 1; }}
                                                 "end": 15
                                             },
                                             "typeParameters": null,
-                                            "formalParameters": {
+                                            "formalParameterList": {
                                                 "kind": 214,
                                                 "formalParameters": [
                                                     {
@@ -224,7 +224,7 @@ class C { foo() { this.#a = 1; }}
                                                     "end": 58
                                                 },
                                                 "typeParameters": null,
-                                                "formalParameters": {
+                                                "formalParameterList": {
                                                     "kind": 214,
                                                     "formalParameters": [],
                                                     "trailingComma": false,
@@ -380,7 +380,7 @@ class C { foo() { this.#a = 1; }}
                                     "end": 109
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -502,7 +502,7 @@ class C { foo() { this.#a = 1; }}
                                     "end": 147
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,

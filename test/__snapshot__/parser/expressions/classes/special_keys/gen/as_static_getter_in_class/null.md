@@ -78,7 +78,7 @@ class x {static get null(){}}
                                     "end": 24
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -137,7 +137,7 @@ class x {static get null(){}}
 ```javascript
 
 class x {
-  static get static null {}
+  static get static null() {}
 }
 ```
 

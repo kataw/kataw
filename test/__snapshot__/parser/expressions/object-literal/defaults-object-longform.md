@@ -36,7 +36,6 @@ var { x: x = 10 } = x;
                                 "properties": [
                                     {
                                         "kind": 329,
-                                        "ellipsisToken": null,
                                         "key": {
                                             "kind": 134299649,
                                             "text": "x",

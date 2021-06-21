@@ -125,7 +125,7 @@ function *f(){  class x{*[yield](a){}}  }
                                                     "end": 32
                                                 },
                                                 "typeParameters": null,
-                                                "formalParameters": {
+                                                "formalParameterList": {
                                                     "kind": 214,
                                                     "formalParameters": [
                                                         {
@@ -208,7 +208,7 @@ function *f(){  class x{*[yield](a){}}  }
 
 function * f() {
   class x {
-    [ yield] {}
+    [ yield]() {}
   }
 }
 ```

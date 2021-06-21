@@ -227,7 +227,7 @@ class C<T> {
                                     "end": 45
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [
                                         {
@@ -510,7 +510,7 @@ class C<T> {
 class C {
   arr;
 
-  foo {
+  foo() {
     var entry:  = { value };
     this.arr.push(entry);
   }

@@ -67,7 +67,7 @@ x = { method(test) { } }
                                         "end": 12
                                     },
                                     "typeParameters": null,
-                                    "formalParameters": {
+                                    "formalParameterList": {
                                         "kind": 214,
                                         "formalParameters": [],
                                         "trailingComma": false,
@@ -156,7 +156,7 @@ x = { method(test) { } }
                                         "end": 31
                                     },
                                     "typeParameters": null,
-                                    "formalParameters": {
+                                    "formalParameterList": {
                                         "kind": 214,
                                         "formalParameters": [],
                                         "trailingComma": false,
@@ -245,7 +245,7 @@ x = { method(test) { } }
                                         "end": 50
                                     },
                                     "typeParameters": null,
-                                    "formalParameters": {
+                                    "formalParameterList": {
                                         "kind": 214,
                                         "formalParameters": [],
                                         "trailingComma": false,
@@ -336,7 +336,7 @@ x = { method(test) { } }
                                             "end": 72
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [
                                                 {
@@ -411,7 +411,7 @@ x = { method(test) { } }
                                                     "end": 97
                                                 },
                                                 "typeParameters": null,
-                                                "formalParameters": {
+                                                "formalParameterList": {
                                                     "kind": 214,
                                                     "formalParameters": [],
                                                     "trailingComma": false,
@@ -512,7 +512,7 @@ x = { method(test) { } }
                                             "end": 120
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -605,7 +605,7 @@ x = { method(test) { } }
                                         "end": 141
                                     },
                                     "typeParameters": null,
-                                    "formalParameters": {
+                                    "formalParameterList": {
                                         "kind": 214,
                                         "formalParameters": [
                                             {
@@ -677,12 +677,12 @@ x = { method(test) { } }
 
 ```javascript
 
-x = { method {} };
-x = { get {} };
-x = { set {} };
-x = { method {} }({ function {} });
-x = ({ declare {} });
-x = { method {} };
+x = { method() {} };
+x = { get() {} };
+x = { set() {} };
+x = { method() {} }({ function() {} });
+x = ({ declare() {} });
+x = { method() {} };
 ```
 
 ### Diagnostics

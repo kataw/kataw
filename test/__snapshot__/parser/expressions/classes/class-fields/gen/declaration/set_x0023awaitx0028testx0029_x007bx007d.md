@@ -73,7 +73,7 @@ class C { set #await(test) {} }
                                     "end": 20
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [
                                         {
@@ -141,7 +141,7 @@ class C { set #await(test) {} }
 ```javascript
 
 class C {
-  set #await {}
+  set #await() {}
 }
 ```
 

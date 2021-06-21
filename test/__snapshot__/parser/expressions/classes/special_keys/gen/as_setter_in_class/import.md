@@ -73,7 +73,7 @@ class x {set import(x){}}
                                     "end": 19
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [
                                         {
@@ -141,7 +141,7 @@ class x {set import(x){}}
 ```javascript
 
 class x {
-  set import {}
+  set import() {}
 }
 ```
 

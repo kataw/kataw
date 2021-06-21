@@ -68,7 +68,7 @@ class o {f([b, a], ...b) {}}
                                     "end": 10
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [
                                         {
@@ -364,7 +364,7 @@ class o {f([b, a], ...b) {}}
                                     "end": 77
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [
                                         {
@@ -500,7 +500,7 @@ class o {f([b, a], ...b) {}}
                                     "end": 104
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [
                                         {
@@ -644,7 +644,7 @@ class o {f([b, a], ...b) {}}
                                     "end": 133
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [
                                         {

@@ -117,7 +117,7 @@ async function foo() {
                                                     "end": 49
                                                 },
                                                 "typeParameters": null,
-                                                "formalParameters": {
+                                                "formalParameterList": {
                                                     "kind": 214,
                                                     "formalParameters": [],
                                                     "trailingComma": false,
@@ -240,7 +240,7 @@ async function foo() {
 
 async function foo() {
   class C {
-    static static foo {}
+    static static foo() {}
 
   }
 }

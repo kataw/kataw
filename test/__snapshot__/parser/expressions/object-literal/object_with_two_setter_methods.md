@@ -63,7 +63,7 @@ x({set [foo](b){}, set [bar](d){}});
                                                 "end": 12
                                             },
                                             "typeParameters": null,
-                                            "formalParameters": {
+                                            "formalParameterList": {
                                                 "kind": 214,
                                                 "formalParameters": [
                                                     {
@@ -131,7 +131,7 @@ x({set [foo](b){}, set [bar](d){}});
                                                 "end": 28
                                             },
                                             "typeParameters": null,
-                                            "formalParameters": {
+                                            "formalParameterList": {
                                                 "kind": 214,
                                                 "formalParameters": [
                                                     {
@@ -209,7 +209,7 @@ x({set [foo](b){}, set [bar](d){}});
 
 ```javascript
 
-x({ set [foo] {}, set [bar] {} });
+x({ set [foo]() {}, set [bar]() {} });
 ```
 
 ### Diagnostics

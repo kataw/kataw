@@ -70,7 +70,7 @@ class C { static get #aaa(){} }
                                     "end": 25
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -129,7 +129,7 @@ class C { static get #aaa(){} }
 ```javascript
 
 class C {
-  static get static #aaa {}
+  static get static #aaa() {}
 }
 ```
 

@@ -78,7 +78,7 @@ class x {static * while(){}}
                                     "end": 23
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -137,7 +137,7 @@ class x {static * while(){}}
 ```javascript
 
 class x {
-  static static while {}
+  static static while() {}
 }
 ```
 

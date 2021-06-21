@@ -80,7 +80,7 @@ class x extends y { f(){} }
                                     "end": 21
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -139,7 +139,7 @@ class x extends y { f(){} }
 ```javascript
 
 class x  {
-  f {}
+  f() {}
 }
 ```
 

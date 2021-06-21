@@ -80,7 +80,7 @@ class x extends y {constructor(){    ({"foo": super}) => x    }}
                                     "end": 30
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -114,7 +114,6 @@ class x extends y {constructor(){    ({"foo": super}) => x    }}
                                                                 "properties": [
                                                                     {
                                                                         "kind": 329,
-                                                                        "ellipsisToken": null,
                                                                         "key": {
                                                                             "kind": 201392131,
                                                                             "text": "foo",

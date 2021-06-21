@@ -73,7 +73,7 @@ class x {* catch(){}}
                                     "end": 16
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -132,7 +132,7 @@ class x {* catch(){}}
 ```javascript
 
 class x {
-  catch {}
+  catch() {}
 }
 ```
 

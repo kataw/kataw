@@ -82,41 +82,53 @@ for (var a: number in expr) {
                 "end": 18
             },
             "initializer": {
-                "kind": 156,
-                "declarations": [
-                    {
-                        "kind": 157,
-                        "binding": {
-                            "kind": 134299649,
-                            "text": "a",
-                            "rawText": "a",
-                            "flags": 96,
-                            "start": 23,
-                            "end": 25
-                        },
-                        "type": {
-                            "kind": 139,
-                            "bitwiseOrToken": null,
-                            "bitwiseAndToken": null,
+                "kind": 341,
+                "varKeyword": {
+                    "kind": 37757002,
+                    "flags": 64,
+                    "start": 20,
+                    "end": 23
+                },
+                "declarationList": {
+                    "kind": 156,
+                    "declarations": [
+                        {
+                            "kind": 157,
+                            "binding": {
+                                "kind": 134299649,
+                                "text": "a",
+                                "rawText": "a",
+                                "flags": 96,
+                                "start": 23,
+                                "end": 25
+                            },
                             "type": {
-                                "kind": 134234345,
-                                "flags": 2097216,
+                                "kind": 139,
+                                "bitwiseOrToken": null,
+                                "bitwiseAndToken": null,
+                                "type": {
+                                    "kind": 134234345,
+                                    "flags": 2097216,
+                                    "start": 26,
+                                    "end": 33
+                                },
+                                "flags": 2097152,
                                 "start": 26,
                                 "end": 33
                             },
-                            "flags": 2097152,
-                            "start": 26,
+                            "initializer": null,
+                            "flags": 16,
+                            "start": 23,
                             "end": 33
-                        },
-                        "initializer": null,
-                        "flags": 16,
-                        "start": 23,
-                        "end": 33
-                    }
-                ],
+                        }
+                    ],
+                    "flags": 16,
+                    "start": 23,
+                    "end": 33
+                },
                 "flags": 16,
-                "start": 23,
-                "end": 33
+                "start": 14,
+                "end": 36
             },
             "inKeyword": {
                 "kind": 21006388,

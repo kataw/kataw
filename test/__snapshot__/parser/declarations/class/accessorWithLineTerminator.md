@@ -95,7 +95,7 @@ class C {
                                     "end": 23
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -188,7 +188,7 @@ class C {
                                     "end": 53
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [
                                         {
@@ -257,11 +257,11 @@ class C {
 
 class C {
   get;
-  x {
+  x() {
     return  1;
   }
   set;
-  x {}
+  x() {}
 }
 ```
 

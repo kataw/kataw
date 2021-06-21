@@ -65,7 +65,7 @@ class A {*async() { }};
                                     "end": 15
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -130,7 +130,7 @@ class A {*async() { }};
 ```javascript
 
 class A {
-  async {}
+  async() {}
 }
 
 ```

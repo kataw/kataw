@@ -46,7 +46,7 @@
                                         "end": 10
                                     },
                                     "typeParameters": null,
-                                    "formalParameters": {
+                                    "formalParameterList": {
                                         "kind": 214,
                                         "formalParameters": [],
                                         "trailingComma": false,
@@ -136,7 +136,7 @@
 
 ```javascript
 
-({ async a {
+({ async a() {
     await 0;
   } });
 ```

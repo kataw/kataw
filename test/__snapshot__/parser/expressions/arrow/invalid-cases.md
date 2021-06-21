@@ -843,7 +843,6 @@ a++ => {};
                             "properties": [
                                 {
                                     "kind": 329,
-                                    "ellipsisToken": null,
                                     "key": {
                                         "kind": 194,
                                         "expression": {
@@ -879,7 +878,6 @@ a++ => {};
                                 },
                                 {
                                     "kind": 329,
-                                    "ellipsisToken": null,
                                     "key": {
                                         "kind": 134299649,
                                         "text": "q",
@@ -1112,7 +1110,6 @@ a++ => {};
                             "properties": [
                                 {
                                     "kind": 329,
-                                    "ellipsisToken": null,
                                     "key": {
                                         "kind": 134299649,
                                         "text": "r",
@@ -1887,7 +1884,6 @@ a++ => {};
                             "properties": [
                                 {
                                     "kind": 329,
-                                    "ellipsisToken": null,
                                     "key": {
                                         "kind": 134299649,
                                         "text": "a",
@@ -2069,7 +2065,6 @@ a++ => {};
                                 },
                                 {
                                     "kind": 329,
-                                    "ellipsisToken": null,
                                     "key": {
                                         "kind": 134299649,
                                         "text": "ts",
@@ -2252,7 +2247,6 @@ a++ => {};
                             "properties": [
                                 {
                                     "kind": 329,
-                                    "ellipsisToken": null,
                                     "key": {
                                         "kind": 194,
                                         "expression": {
@@ -2374,7 +2368,6 @@ a++ => {};
                                 },
                                 {
                                     "kind": 329,
-                                    "ellipsisToken": null,
                                     "key": {
                                         "kind": 134299649,
                                         "text": "a",
@@ -2534,7 +2527,6 @@ a++ => {};
                                 },
                                 {
                                     "kind": 329,
-                                    "ellipsisToken": null,
                                     "key": {
                                         "kind": 134299649,
                                         "text": "t",
@@ -3215,7 +3207,6 @@ a++ => {};
                             "properties": [
                                 {
                                     "kind": 329,
-                                    "ellipsisToken": null,
                                     "key": {
                                         "kind": 194,
                                         "expression": {
@@ -3543,7 +3534,6 @@ a++ => {};
                             "properties": [
                                 {
                                     "kind": 329,
-                                    "ellipsisToken": null,
                                     "key": {
                                         "kind": 134299649,
                                         "text": "z0",
@@ -3977,7 +3967,6 @@ a++ => {};
                                 },
                                 {
                                     "kind": 329,
-                                    "ellipsisToken": null,
                                     "key": {
                                         "kind": 194,
                                         "expression": {
@@ -4359,7 +4348,6 @@ a++ => {};
                                 },
                                 {
                                     "kind": 329,
-                                    "ellipsisToken": null,
                                     "key": {
                                         "kind": 194,
                                         "expression": {
@@ -4708,7 +4696,6 @@ a++ => {};
                                 },
                                 {
                                     "kind": 329,
-                                    "ellipsisToken": null,
                                     "key": {
                                         "kind": 194,
                                         "expression": {
@@ -4976,7 +4963,6 @@ a++ => {};
                                 },
                                 {
                                     "kind": 329,
-                                    "ellipsisToken": null,
                                     "key": {
                                         "kind": 134299649,
                                         "text": "ts",
@@ -5443,7 +5429,6 @@ a++ => {};
                             "properties": [
                                 {
                                     "kind": 329,
-                                    "ellipsisToken": null,
                                     "key": {
                                         "kind": 194,
                                         "expression": {
@@ -5573,7 +5558,6 @@ a++ => {};
                                 },
                                 {
                                     "kind": 329,
-                                    "ellipsisToken": null,
                                     "key": {
                                         "kind": 134299649,
                                         "text": "t",
@@ -5624,7 +5608,6 @@ a++ => {};
                                 },
                                 {
                                     "kind": 329,
-                                    "ellipsisToken": null,
                                     "key": {
                                         "kind": 194,
                                         "expression": {
@@ -6507,7 +6490,6 @@ a++ => {};
                             "properties": [
                                 {
                                     "kind": 329,
-                                    "ellipsisToken": null,
                                     "key": {
                                         "kind": 194,
                                         "expression": {
@@ -6536,7 +6518,6 @@ a++ => {};
                                 },
                                 {
                                     "kind": 329,
-                                    "ellipsisToken": null,
                                     "key": {
                                         "kind": 194,
                                         "expression": {
@@ -6687,7 +6668,6 @@ a++ => {};
                             "properties": [
                                 {
                                     "kind": 329,
-                                    "ellipsisToken": null,
                                     "key": {
                                         "kind": 134299649,
                                         "text": "a0",
@@ -6776,7 +6756,6 @@ a++ => {};
                                 },
                                 {
                                     "kind": 329,
-                                    "ellipsisToken": null,
                                     "key": {
                                         "kind": 134299649,
                                         "text": "a2",
@@ -7053,7 +7032,6 @@ a++ => {};
                             "properties": [
                                 {
                                     "kind": 329,
-                                    "ellipsisToken": null,
                                     "key": {
                                         "kind": 134299649,
                                         "text": "z",
@@ -7085,7 +7063,6 @@ a++ => {};
                                 },
                                 {
                                     "kind": 329,
-                                    "ellipsisToken": null,
                                     "key": {
                                         "kind": 134299649,
                                         "text": "q",
@@ -7151,7 +7128,6 @@ a++ => {};
                             "properties": [
                                 {
                                     "kind": 329,
-                                    "ellipsisToken": null,
                                     "key": {
                                         "kind": 134299649,
                                         "text": "r",
@@ -7175,7 +7151,6 @@ a++ => {};
                                 },
                                 {
                                     "kind": 329,
-                                    "ellipsisToken": null,
                                     "key": {
                                         "kind": 134299649,
                                         "text": "ts",

@@ -68,7 +68,7 @@ class x { function () { for (const x in { a: x }) { } } }
                                     "end": 18
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -92,27 +92,34 @@ class x { function () { for (const x in { a: x }) { } } }
                                                     "end": 27
                                                 },
                                                 "initializer": {
-                                                    "kind": 151,
-                                                    "bindingList": [
-                                                        {
-                                                            "kind": 190,
-                                                            "binding": {
-                                                                "kind": 134299649,
-                                                                "text": "x",
-                                                                "rawText": "x",
-                                                                "flags": 96,
+                                                    "kind": 162,
+                                                    "lexicalKeyword": null,
+                                                    "binding": {
+                                                        "kind": 151,
+                                                        "bindingList": [
+                                                            {
+                                                                "kind": 190,
+                                                                "binding": {
+                                                                    "kind": 134299649,
+                                                                    "text": "x",
+                                                                    "rawText": "x",
+                                                                    "flags": 96,
+                                                                    "start": 34,
+                                                                    "end": 36
+                                                                },
+                                                                "type": null,
+                                                                "initializer": null,
+                                                                "flags": 16,
                                                                 "start": 34,
                                                                 "end": 36
-                                                            },
-                                                            "type": null,
-                                                            "initializer": null,
-                                                            "flags": 16,
-                                                            "start": 34,
-                                                            "end": 36
-                                                        }
-                                                    ],
-                                                    "flags": 16777232,
-                                                    "start": 34,
+                                                            }
+                                                        ],
+                                                        "flags": 16777232,
+                                                        "start": 34,
+                                                        "end": 36
+                                                    },
+                                                    "flags": 33554448,
+                                                    "start": 23,
                                                     "end": 36
                                                 },
                                                 "inKeyword": {
@@ -221,8 +228,8 @@ class x { function () { for (const x in { a: x }) { } } }
 ```javascript
 
 class x {
-  function {
-    for (const in { a: x })
+  function() {
+    for (x; in { a: x })
       {}
   }
 }

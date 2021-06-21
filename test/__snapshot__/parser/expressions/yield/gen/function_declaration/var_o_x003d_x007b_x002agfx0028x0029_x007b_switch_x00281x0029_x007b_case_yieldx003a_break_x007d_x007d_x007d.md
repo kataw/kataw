@@ -107,7 +107,7 @@ function not_gen() { var o = { *gf() { switch (1) { case yield: break; } } } }}
                                                                 "end": 34
                                                             },
                                                             "typeParameters": null,
-                                                            "formalParameters": {
+                                                            "formalParameterList": {
                                                                 "kind": 214,
                                                                 "formalParameters": [],
                                                                 "trailingComma": false,

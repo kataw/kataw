@@ -73,7 +73,7 @@ class x {set extends(x){}}
                                     "end": 20
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [
                                         {
@@ -141,7 +141,7 @@ class x {set extends(x){}}
 ```javascript
 
 class x {
-  set extends {}
+  set extends() {}
 }
 ```
 

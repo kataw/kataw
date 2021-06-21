@@ -99,7 +99,7 @@ var stringArr:Array<string> = ['a','b'];
                                     "end": 27
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -494,7 +494,7 @@ var stringArr:Array<string> = ['a','b'];
                                     "end": 176
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -884,7 +884,7 @@ var stringArr:Array<string> = ['a','b'];
                                     "end": 314
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -1081,7 +1081,7 @@ var stringArr:Array<string> = ['a','b'];
                                     "end": 399
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [
                                         {
@@ -1544,14 +1544,14 @@ var stringArr:Array<string> = ['a','b'];
 ```javascript
 
 class Tag {
-  constructor {
+  constructor() {
     var a1:  = [];
     var a2:  = a1;
   }
 }
 
 class Tag_ {
-  constructor {
+  constructor() {
     var a1:  = [new  Tag_()];
     var a2:  = a1;
   }
@@ -1559,14 +1559,14 @@ class Tag_ {
 class C {
   x;
 
-  constructor {
+  constructor() {
     this.x = null;
   }
 }
 class D {
   content;
 
-  copyContent {
+  copyContent() {
     this.content = content;
     return  this.content;
   }

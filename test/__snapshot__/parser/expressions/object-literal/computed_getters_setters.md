@@ -84,7 +84,7 @@ var f = {
                                                 "end": 21
                                             },
                                             "typeParameters": null,
-                                            "formalParameters": {
+                                            "formalParameterList": {
                                                 "kind": 214,
                                                 "formalParameters": [],
                                                 "trailingComma": false,
@@ -164,7 +164,7 @@ var f = {
                                                 "end": 54
                                             },
                                             "typeParameters": null,
-                                            "formalParameters": {
+                                            "formalParameterList": {
                                                 "kind": 214,
                                                 "formalParameters": [
                                                     {
@@ -249,7 +249,7 @@ var f = {
                                                 "end": 91
                                             },
                                             "typeParameters": null,
-                                            "formalParameters": {
+                                            "formalParameterList": {
                                                 "kind": 214,
                                                 "formalParameters": [
                                                     {
@@ -334,7 +334,7 @@ var f = {
                                                 "end": 129
                                             },
                                             "typeParameters": null,
-                                            "formalParameters": {
+                                            "formalParameterList": {
                                                 "kind": 214,
                                                 "formalParameters": [],
                                                 "trailingComma": false,
@@ -436,9 +436,9 @@ var f = {
 
 ```javascript
 
-var f = { get ["'d'"] {
+var f = { get ["'d'"]() {
     return  "'foo'";
-  }, set ["'d'"] {}, set "\"stringLiteral\"" {}, get "\"stringLiteral\"" {
+  }, set ["'d'"]() {}, set "\"stringLiteral\""() {}, get "\"stringLiteral\""() {
     return  4;
   } };
 ```

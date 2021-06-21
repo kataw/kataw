@@ -68,7 +68,7 @@ class C { constructor() { class C { constructor() { super(); } } } }
                                     "end": 21
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -128,7 +128,7 @@ class C { constructor() { class C { constructor() { super(); } } } }
                                                                         "end": 47
                                                                     },
                                                                     "typeParameters": null,
-                                                                    "formalParameters": {
+                                                                    "formalParameterList": {
                                                                         "kind": 214,
                                                                         "formalParameters": [],
                                                                         "trailingComma": false,

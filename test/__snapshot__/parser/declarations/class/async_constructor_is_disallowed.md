@@ -73,7 +73,7 @@ class X {    async constructor() {}   }
                                     "end": 30
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,

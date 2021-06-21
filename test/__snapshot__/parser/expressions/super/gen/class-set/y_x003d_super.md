@@ -73,7 +73,7 @@ class C { set x(_) { y = super } }
                                     "end": 15
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [
                                         {

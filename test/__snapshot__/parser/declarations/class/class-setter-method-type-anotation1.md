@@ -73,7 +73,7 @@ class Foo {set fooProp(value:number):void{}}
                                     "end": 22
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [
                                         {
@@ -177,7 +177,7 @@ class Foo {set fooProp(value:number):void{}}
 ```javascript
 
 class Foo {
-  set fooProp {}
+  set fooProp() {}
 }
 ```
 

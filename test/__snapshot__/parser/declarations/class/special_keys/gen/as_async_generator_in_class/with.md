@@ -78,7 +78,7 @@ class x {async * with(){}}
                                     "end": 21
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -137,7 +137,7 @@ class x {async * with(){}}
 ```javascript
 
 class x {
-  async with {}
+  async with() {}
 }
 ```
 

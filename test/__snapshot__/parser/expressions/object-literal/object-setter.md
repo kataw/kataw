@@ -55,7 +55,7 @@
                                         "end": 11
                                     },
                                     "typeParameters": null,
-                                    "formalParameters": {
+                                    "formalParameterList": {
                                         "kind": 214,
                                         "formalParameters": [
                                             {
@@ -150,7 +150,7 @@
                                         "end": 30
                                     },
                                     "typeParameters": null,
-                                    "formalParameters": {
+                                    "formalParameterList": {
                                         "kind": 214,
                                         "formalParameters": [
                                             {
@@ -245,7 +245,7 @@
                                         "end": 49
                                     },
                                     "typeParameters": null,
-                                    "formalParameters": {
+                                    "formalParameterList": {
                                         "kind": 214,
                                         "formalParameters": [
                                             {
@@ -404,7 +404,7 @@
                                         "end": 86
                                     },
                                     "typeParameters": null,
-                                    "formalParameters": {
+                                    "formalParameterList": {
                                         "kind": 214,
                                         "formalParameters": [
                                             {
@@ -540,12 +540,12 @@
 
 ```javascript
 
-({ set ["\"a\""] {} });
-({ set [0] {} });
-({ set [0] {
+({ set ["\"a\""]() {} });
+({ set [0]() {} });
+({ set [0]() {
     super.m("\"b\"", v);
   } });
-({ set [0] {
+({ set [0]() {
     super.m("\"1\"", v);
   } });
 ```

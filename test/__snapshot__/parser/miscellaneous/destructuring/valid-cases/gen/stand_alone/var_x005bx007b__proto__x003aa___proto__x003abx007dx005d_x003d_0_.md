@@ -49,7 +49,6 @@ var [{__proto__:a, __proto__:b}] = 0;
                                             "properties": [
                                                 {
                                                     "kind": 329,
-                                                    "ellipsisToken": null,
                                                     "key": {
                                                         "kind": 134299649,
                                                         "text": "__proto__",
@@ -73,7 +72,6 @@ var [{__proto__:a, __proto__:b}] = 0;
                                                 },
                                                 {
                                                     "kind": 329,
-                                                    "ellipsisToken": null,
                                                     "key": {
                                                         "kind": 134299649,
                                                         "text": "__proto__",

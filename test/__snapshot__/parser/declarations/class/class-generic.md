@@ -312,7 +312,7 @@ class A<TYPE> {
                                     "end": 100
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -528,7 +528,7 @@ class A {
       return  new  Promise()  < TYPE > (console.log);
     };
 
-  anf {
+  anf() {
     return  new  Promise()  < TYPE > (console.log);
   }
 }

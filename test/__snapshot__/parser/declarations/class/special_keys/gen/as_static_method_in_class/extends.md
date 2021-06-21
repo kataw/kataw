@@ -73,7 +73,7 @@ class x {static extends(){}}
                                     "end": 23
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -132,7 +132,7 @@ class x {static extends(){}}
 ```javascript
 
 class x {
-  static static extends {}
+  static static extends() {}
 }
 ```
 

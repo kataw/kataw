@@ -121,7 +121,7 @@
                                                     "end": 47
                                                 },
                                                 "typeParameters": null,
-                                                "formalParameters": {
+                                                "formalParameterList": {
                                                     "kind": 214,
                                                     "formalParameters": [],
                                                     "trailingComma": false,
@@ -195,7 +195,7 @@
 
 function * gf() {
   class C {
-    yield {}
+    yield() {}
   }
 }
 ```

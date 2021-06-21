@@ -73,7 +73,7 @@ class x {async f(foo = await bar){}}
                                     "end": 16
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [
                                         {

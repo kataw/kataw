@@ -26,27 +26,39 @@ for (var x;;) { { let x; } }
                 "end": 3
             },
             "initializer": {
-                "kind": 151,
-                "bindingList": [
-                    {
-                        "kind": 190,
-                        "binding": {
-                            "kind": 134299649,
-                            "text": "x",
-                            "rawText": "x",
-                            "flags": 96,
+                "kind": 162,
+                "lexicalKeyword": {
+                    "kind": 41951307,
+                    "flags": 64,
+                    "start": 0,
+                    "end": 8
+                },
+                "binding": {
+                    "kind": 151,
+                    "bindingList": [
+                        {
+                            "kind": 190,
+                            "binding": {
+                                "kind": 134299649,
+                                "text": "x",
+                                "rawText": "x",
+                                "flags": 96,
+                                "start": 8,
+                                "end": 10
+                            },
+                            "type": null,
+                            "initializer": null,
+                            "flags": 16,
                             "start": 8,
                             "end": 10
-                        },
-                        "type": null,
-                        "initializer": null,
-                        "flags": 16,
-                        "start": 8,
-                        "end": 10
-                    }
-                ],
-                "flags": 16,
-                "start": 8,
+                        }
+                    ],
+                    "flags": 16,
+                    "start": 8,
+                    "end": 10
+                },
+                "flags": 33554448,
+                "start": 0,
                 "end": 10
             },
             "condition": null,
@@ -129,28 +141,40 @@ for (var x;;) { { let x; } }
                 "end": 33
             },
             "initializer": {
-                "kind": 156,
-                "declarations": [
-                    {
-                        "kind": 157,
-                        "binding": {
-                            "kind": 134299649,
-                            "text": "x",
-                            "rawText": "x",
-                            "flags": 96,
+                "kind": 341,
+                "varKeyword": {
+                    "kind": 37757002,
+                    "flags": 64,
+                    "start": 35,
+                    "end": 38
+                },
+                "declarationList": {
+                    "kind": 156,
+                    "declarations": [
+                        {
+                            "kind": 157,
+                            "binding": {
+                                "kind": 134299649,
+                                "text": "x",
+                                "rawText": "x",
+                                "flags": 96,
+                                "start": 38,
+                                "end": 40
+                            },
+                            "type": null,
+                            "initializer": null,
+                            "flags": 16,
                             "start": 38,
                             "end": 40
-                        },
-                        "type": null,
-                        "initializer": null,
-                        "flags": 16,
-                        "start": 38,
-                        "end": 40
-                    }
-                ],
+                        }
+                    ],
+                    "flags": 16,
+                    "start": 38,
+                    "end": 40
+                },
                 "flags": 16,
-                "start": 38,
-                "end": 40
+                "start": 28,
+                "end": 41
             },
             "condition": null,
             "incrementor": null,

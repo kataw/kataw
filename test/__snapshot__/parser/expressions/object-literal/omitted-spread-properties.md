@@ -130,7 +130,6 @@ const example = (obj) => {
                                                                 "properties": [
                                                                     {
                                                                         "kind": 329,
-                                                                        "ellipsisToken": null,
                                                                         "key": {
                                                                             "kind": 194,
                                                                             "expression": {

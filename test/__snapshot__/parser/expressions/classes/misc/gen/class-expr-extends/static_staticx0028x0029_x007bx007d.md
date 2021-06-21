@@ -89,7 +89,7 @@
                                             "end": 34
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -156,7 +156,7 @@
 ```javascript
 
 (class   {
-    static static static {}
+    static static static() {}
   });
 ```
 

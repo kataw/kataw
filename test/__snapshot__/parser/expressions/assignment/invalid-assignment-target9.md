@@ -382,7 +382,7 @@ x?.[y] = 0;
                                             "end": 64
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,

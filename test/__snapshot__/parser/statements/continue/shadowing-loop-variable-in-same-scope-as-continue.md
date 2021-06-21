@@ -76,34 +76,46 @@ for (let x = 0; x < 10;) {
                 "end": 18
             },
             "initializer": {
-                "kind": 151,
-                "bindingList": [
-                    {
-                        "kind": 190,
-                        "binding": {
-                            "kind": 134299649,
-                            "text": "x",
-                            "rawText": "x",
-                            "flags": 96,
+                "kind": 162,
+                "lexicalKeyword": {
+                    "kind": 41951307,
+                    "flags": 64,
+                    "start": 14,
+                    "end": 23
+                },
+                "binding": {
+                    "kind": 151,
+                    "bindingList": [
+                        {
+                            "kind": 190,
+                            "binding": {
+                                "kind": 134299649,
+                                "text": "x",
+                                "rawText": "x",
+                                "flags": 96,
+                                "start": 23,
+                                "end": 25
+                            },
+                            "type": null,
+                            "initializer": {
+                                "kind": 201392130,
+                                "text": 0,
+                                "rawText": "0",
+                                "flags": 96,
+                                "start": 27,
+                                "end": 29
+                            },
+                            "flags": 16,
                             "start": 23,
-                            "end": 25
-                        },
-                        "type": null,
-                        "initializer": {
-                            "kind": 201392130,
-                            "text": 0,
-                            "rawText": "0",
-                            "flags": 96,
-                            "start": 27,
                             "end": 29
-                        },
-                        "flags": 16,
-                        "start": 23,
-                        "end": 29
-                    }
-                ],
-                "flags": 16,
-                "start": 23,
+                        }
+                    ],
+                    "flags": 16,
+                    "start": 23,
+                    "end": 29
+                },
+                "flags": 33554448,
+                "start": 14,
                 "end": 29
             },
             "condition": null,
@@ -290,7 +302,7 @@ for (let x = 0; x < 10;) {
 ```javascript
 
 var count = 0;
-for (let; ; x  < 10)
+for (let x = 0;; ; x  < 10)
   {}
 ```
 

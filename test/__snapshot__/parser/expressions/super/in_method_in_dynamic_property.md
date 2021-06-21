@@ -55,7 +55,7 @@ x = { foo(){ return x[super.foo]; }}
                                         "end": 9
                                     },
                                     "typeParameters": null,
-                                    "formalParameters": {
+                                    "formalParameterList": {
                                         "kind": 214,
                                         "formalParameters": [],
                                         "trailingComma": false,
@@ -171,7 +171,7 @@ x = { foo(){ return x[super.foo]; }}
 
 ```javascript
 
-x = { foo {
+x = { foo() {
     return  ;
   } };
 ```

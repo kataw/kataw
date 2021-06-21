@@ -2861,7 +2861,7 @@
                                         "end": 619
                                     },
                                     "typeParameters": null,
-                                    "formalParameters": {
+                                    "formalParameterList": {
                                         "kind": 214,
                                         "formalParameters": [],
                                         "trailingComma": false,
@@ -2941,7 +2941,7 @@
                                         "end": 639
                                     },
                                     "typeParameters": null,
-                                    "formalParameters": {
+                                    "formalParameterList": {
                                         "kind": 214,
                                         "formalParameters": [],
                                         "trailingComma": false,
@@ -3027,7 +3027,7 @@
                                         "end": 663
                                     },
                                     "typeParameters": null,
-                                    "formalParameters": {
+                                    "formalParameterList": {
                                         "kind": 214,
                                         "formalParameters": [],
                                         "trailingComma": false,
@@ -3107,7 +3107,7 @@
                                         "end": 683
                                     },
                                     "typeParameters": null,
-                                    "formalParameters": {
+                                    "formalParameterList": {
                                         "kind": 214,
                                         "formalParameters": [],
                                         "trailingComma": false,
@@ -3187,7 +3187,7 @@
                                         "end": 703
                                     },
                                     "typeParameters": null,
-                                    "formalParameters": {
+                                    "formalParameterList": {
                                         "kind": 214,
                                         "formalParameters": [
                                             {
@@ -3282,7 +3282,7 @@
                                         "end": 726
                                     },
                                     "typeParameters": null,
-                                    "formalParameters": {
+                                    "formalParameterList": {
                                         "kind": 214,
                                         "formalParameters": [
                                             {
@@ -3951,12 +3951,12 @@
 ({ ... } = (x) = (y));
 ({ ... } = x);
 ({ ... } = x);
-({ async x {} });
-({ async x {} });
-({ async [foo] {} });
-({ get 500 {} });
-({ set 500 {} });
-({ set [foo] {} });
+({ async x() {} });
+({ async x() {} });
+({ async [foo]() {} });
+({ get 500() {} });
+({ set 500() {} });
+({ set [foo]() {} });
 ({ ... } = {});
 ({ ...{ b: 0 }.x } = {});
 ([] = x);

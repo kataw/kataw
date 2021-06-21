@@ -70,7 +70,7 @@ class C { async*#aaa(){} }
                                     "end": 20
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -129,7 +129,7 @@ class C { async*#aaa(){} }
 ```javascript
 
 class C {
-  async #aaa {}
+  async #aaa() {}
 }
 ```
 

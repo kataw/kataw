@@ -73,7 +73,7 @@ class x {* in(){}}
                                     "end": 13
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -132,7 +132,7 @@ class x {* in(){}}
 ```javascript
 
 class x {
-  in {}
+  in() {}
 }
 ```
 

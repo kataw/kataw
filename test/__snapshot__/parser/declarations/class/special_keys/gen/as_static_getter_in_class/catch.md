@@ -78,7 +78,7 @@ class x {static get catch(){}}
                                     "end": 25
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -137,7 +137,7 @@ class x {static get catch(){}}
 ```javascript
 
 class x {
-  static get static catch {}
+  static get static catch() {}
 }
 ```
 

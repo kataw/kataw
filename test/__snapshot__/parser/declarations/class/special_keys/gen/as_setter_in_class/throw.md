@@ -73,7 +73,7 @@ class x {set throw(x){}}
                                     "end": 18
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [
                                         {
@@ -141,7 +141,7 @@ class x {set throw(x){}}
 ```javascript
 
 class x {
-  set throw {}
+  set throw() {}
 }
 ```
 

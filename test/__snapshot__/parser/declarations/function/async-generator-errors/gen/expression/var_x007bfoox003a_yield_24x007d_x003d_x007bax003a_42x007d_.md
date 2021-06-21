@@ -59,7 +59,7 @@
                                         "end": 14
                                     },
                                     "typeParameters": null,
-                                    "formalParameters": {
+                                    "formalParameterList": {
                                         "kind": 214,
                                         "formalParameters": [],
                                         "trailingComma": false,
@@ -95,7 +95,6 @@
                                                                         "properties": [
                                                                             {
                                                                                 "kind": 329,
-                                                                                "ellipsisToken": null,
                                                                                 "key": {
                                                                                     "kind": 134299649,
                                                                                     "text": "foo",
@@ -119,7 +118,6 @@
                                                                             },
                                                                             {
                                                                                 "kind": 329,
-                                                                                "ellipsisToken": null,
                                                                                 "key": {
                                                                                     "kind": 201392130,
                                                                                     "text": 24,

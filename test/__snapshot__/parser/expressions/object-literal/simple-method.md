@@ -58,7 +58,7 @@ x = { method(test: string) { } };
                                         "end": 12
                                     },
                                     "typeParameters": null,
-                                    "formalParameters": {
+                                    "formalParameterList": {
                                         "kind": 214,
                                         "formalParameters": [
                                             {
@@ -156,7 +156,7 @@ x = { method(test: string) { } };
                                         "end": 39
                                     },
                                     "typeParameters": null,
-                                    "formalParameters": {
+                                    "formalParameterList": {
                                         "kind": 214,
                                         "formalParameters": [
                                             {

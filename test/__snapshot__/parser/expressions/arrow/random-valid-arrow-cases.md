@@ -2520,7 +2520,6 @@ foo((x, y) => {});
                                 },
                                 {
                                     "kind": 329,
-                                    "ellipsisToken": null,
                                     "key": {
                                         "kind": 134299649,
                                         "text": "a",
@@ -2544,7 +2543,6 @@ foo((x, y) => {});
                                 },
                                 {
                                     "kind": 329,
-                                    "ellipsisToken": null,
                                     "key": {
                                         "kind": 194,
                                         "expression": {

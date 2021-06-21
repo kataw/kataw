@@ -78,7 +78,7 @@ class x {static set if(x){}}
                                     "end": 22
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [
                                         {
@@ -146,7 +146,7 @@ class x {static set if(x){}}
 ```javascript
 
 class x {
-  static set static if {}
+  static set static if() {}
 }
 ```
 

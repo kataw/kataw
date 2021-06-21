@@ -3611,7 +3611,7 @@
                                         "end": 805
                                     },
                                     "typeParameters": null,
-                                    "formalParameters": {
+                                    "formalParameterList": {
                                         "kind": 214,
                                         "formalParameters": [],
                                         "trailingComma": false,
@@ -3712,7 +3712,7 @@
 ({}.x);
 ([].x);
 ([x].foo) = x;
-({ * 15 {} });
+({ * 15() {} });
 ```
 
 ### Diagnostics

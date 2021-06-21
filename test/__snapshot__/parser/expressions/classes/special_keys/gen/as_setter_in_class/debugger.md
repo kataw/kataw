@@ -73,7 +73,7 @@ class x {set debugger(x){}}
                                     "end": 21
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [
                                         {
@@ -141,7 +141,7 @@ class x {set debugger(x){}}
 ```javascript
 
 class x {
-  set debugger {}
+  set debugger() {}
 }
 ```
 

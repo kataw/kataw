@@ -73,7 +73,7 @@ class Foo {get fooProp():number{}}
                                     "end": 22
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -145,7 +145,7 @@ class Foo {get fooProp():number{}}
 ```javascript
 
 class Foo {
-  get fooProp {}
+  get fooProp() {}
 }
 ```
 

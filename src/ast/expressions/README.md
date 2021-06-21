@@ -473,7 +473,8 @@ interface MemberAccessExpression <: ExpressionNode {
 
 ```js
 interface MethodDefinition <: ExpressionNode {
-  formalParameters: FormalParameterList | null;
+  kind: NodeKind.MethodDefinition;
+  formalParameterList: FormalParameterList | null;
   name: MethodName;
   contents: FunctionBody | null;
   typeParameters: TypeParameter | null;
@@ -776,7 +777,7 @@ interface PropertyMethod <: ExpressionNode {
 }
 ```
 
-### PropertyMethod
+### DecoratorList
 
 ```js
 interface DecoratorList <: ExpressionNode {

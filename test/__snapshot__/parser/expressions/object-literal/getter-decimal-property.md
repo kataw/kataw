@@ -46,7 +46,7 @@
                                         "end": 22
                                     },
                                     "typeParameters": null,
-                                    "formalParameters": {
+                                    "formalParameterList": {
                                         "kind": 214,
                                         "formalParameters": [],
                                         "trailingComma": false,
@@ -109,7 +109,7 @@
 
 ```javascript
 
-({ get 5.2322341234123 {} });
+({ get 5.2322341234123() {} });
 ```
 
 ### Diagnostics

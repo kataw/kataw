@@ -55,7 +55,7 @@ o = {f(x) { let x }}
                                         "end": 6
                                     },
                                     "typeParameters": null,
-                                    "formalParameters": {
+                                    "formalParameterList": {
                                         "kind": 214,
                                         "formalParameters": [
                                             {

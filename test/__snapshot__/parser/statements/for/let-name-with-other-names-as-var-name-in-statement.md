@@ -25,75 +25,87 @@ for (let a, b, x, d;;) { var foo; var bar; { var doo, x, ee; } }
                 "end": 3
             },
             "initializer": {
-                "kind": 151,
-                "bindingList": [
-                    {
-                        "kind": 190,
-                        "binding": {
-                            "kind": 134299649,
-                            "text": "a",
-                            "rawText": "a",
-                            "flags": 96,
+                "kind": 162,
+                "lexicalKeyword": {
+                    "kind": 41951307,
+                    "flags": 64,
+                    "start": 0,
+                    "end": 8
+                },
+                "binding": {
+                    "kind": 151,
+                    "bindingList": [
+                        {
+                            "kind": 190,
+                            "binding": {
+                                "kind": 134299649,
+                                "text": "a",
+                                "rawText": "a",
+                                "flags": 96,
+                                "start": 8,
+                                "end": 10
+                            },
+                            "type": null,
+                            "initializer": null,
+                            "flags": 16,
                             "start": 8,
                             "end": 10
                         },
-                        "type": null,
-                        "initializer": null,
-                        "flags": 16,
-                        "start": 8,
-                        "end": 10
-                    },
-                    {
-                        "kind": 190,
-                        "binding": {
-                            "kind": 134299649,
-                            "text": "b",
-                            "rawText": "b",
-                            "flags": 96,
+                        {
+                            "kind": 190,
+                            "binding": {
+                                "kind": 134299649,
+                                "text": "b",
+                                "rawText": "b",
+                                "flags": 96,
+                                "start": 11,
+                                "end": 13
+                            },
+                            "type": null,
+                            "initializer": null,
+                            "flags": 16,
                             "start": 11,
                             "end": 13
                         },
-                        "type": null,
-                        "initializer": null,
-                        "flags": 16,
-                        "start": 11,
-                        "end": 13
-                    },
-                    {
-                        "kind": 190,
-                        "binding": {
-                            "kind": 134299649,
-                            "text": "x",
-                            "rawText": "x",
-                            "flags": 96,
+                        {
+                            "kind": 190,
+                            "binding": {
+                                "kind": 134299649,
+                                "text": "x",
+                                "rawText": "x",
+                                "flags": 96,
+                                "start": 14,
+                                "end": 16
+                            },
+                            "type": null,
+                            "initializer": null,
+                            "flags": 16,
                             "start": 14,
                             "end": 16
                         },
-                        "type": null,
-                        "initializer": null,
-                        "flags": 16,
-                        "start": 14,
-                        "end": 16
-                    },
-                    {
-                        "kind": 190,
-                        "binding": {
-                            "kind": 134299649,
-                            "text": "d",
-                            "rawText": "d",
-                            "flags": 96,
+                        {
+                            "kind": 190,
+                            "binding": {
+                                "kind": 134299649,
+                                "text": "d",
+                                "rawText": "d",
+                                "flags": 96,
+                                "start": 17,
+                                "end": 19
+                            },
+                            "type": null,
+                            "initializer": null,
+                            "flags": 16,
                             "start": 17,
                             "end": 19
-                        },
-                        "type": null,
-                        "initializer": null,
-                        "flags": 16,
-                        "start": 17,
-                        "end": 19
-                    }
-                ],
-                "flags": 16,
-                "start": 8,
+                        }
+                    ],
+                    "flags": 16,
+                    "start": 8,
+                    "end": 19
+                },
+                "flags": 33554448,
+                "start": 0,
                 "end": 19
             },
             "condition": null,

@@ -85,7 +85,7 @@ function *f(){  ({*g(x=yield){}})  }
                                                         "end": 20
                                                     },
                                                     "typeParameters": null,
-                                                    "formalParameters": {
+                                                    "formalParameterList": {
                                                         "kind": 214,
                                                         "formalParameters": [
                                                             {

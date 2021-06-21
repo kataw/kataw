@@ -78,7 +78,7 @@ class x {static get if(){}}
                                     "end": 22
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -137,7 +137,7 @@ class x {static get if(){}}
 ```javascript
 
 class x {
-  static get static if {}
+  static get static if() {}
 }
 ```
 

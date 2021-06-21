@@ -109,7 +109,7 @@ async function g(){class x {async *f(foo = [h, {m: t(await bar)}]){}}    }
                                                     "end": 36
                                                 },
                                                 "typeParameters": null,
-                                                "formalParameters": {
+                                                "formalParameterList": {
                                                     "kind": 214,
                                                     "formalParameters": [
                                                         {

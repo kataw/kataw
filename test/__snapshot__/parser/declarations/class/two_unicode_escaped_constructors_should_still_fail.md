@@ -79,7 +79,7 @@ class x { constructor(){}; \u0063onstructor(){}; }
                                     "end": 21
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -136,7 +136,7 @@ class x { constructor(){}; \u0063onstructor(){}; }
                                     "end": 43
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,

@@ -136,7 +136,7 @@ function not_gen() { function f() { class C { yield() { } } } }}
                                                                     "end": 51
                                                                 },
                                                                 "typeParameters": null,
-                                                                "formalParameters": {
+                                                                "formalParameterList": {
                                                                     "kind": 214,
                                                                     "formalParameters": [],
                                                                     "trailingComma": false,

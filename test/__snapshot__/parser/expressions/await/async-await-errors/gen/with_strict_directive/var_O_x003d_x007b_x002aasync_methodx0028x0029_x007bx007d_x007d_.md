@@ -82,7 +82,7 @@
                                                 "end": 37
                                             },
                                             "typeParameters": null,
-                                            "formalParameters": {
+                                            "formalParameterList": {
                                                 "kind": 214,
                                                 "formalParameters": [],
                                                 "trailingComma": false,
@@ -150,7 +150,7 @@
 
 ```javascript
 
-var O = { async method {} };
+var O = { async method() {} };
 ```
 
 ### Diagnostics

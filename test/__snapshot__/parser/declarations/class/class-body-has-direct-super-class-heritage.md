@@ -122,7 +122,7 @@ class B extends A {
                                     "end": 44
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -215,7 +215,7 @@ class B extends A {
 
 class A {}
 class B  {
-  constructor {
+  constructor() {
     super();
   }
 }

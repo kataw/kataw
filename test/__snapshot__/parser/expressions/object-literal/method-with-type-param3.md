@@ -93,7 +93,7 @@ a={123<T>(x: T): T {}}
                                         "start": 6,
                                         "end": 9
                                     },
-                                    "formalParameters": {
+                                    "formalParameterList": {
                                         "kind": 214,
                                         "formalParameters": [
                                             {
@@ -219,7 +219,7 @@ a={123<T>(x: T): T {}}
 
 ```javascript
 
-a = { 123 {} };
+a = { 123() {} };
 ```
 
 ### Diagnostics

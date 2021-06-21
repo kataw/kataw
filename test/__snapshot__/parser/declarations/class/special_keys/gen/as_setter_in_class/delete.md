@@ -73,7 +73,7 @@ class x {set delete(x){}}
                                     "end": 19
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [
                                         {
@@ -141,7 +141,7 @@ class x {set delete(x){}}
 ```javascript
 
 class x {
-  set delete {}
+  set delete() {}
 }
 ```
 

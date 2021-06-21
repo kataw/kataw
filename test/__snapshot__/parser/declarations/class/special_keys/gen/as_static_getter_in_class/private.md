@@ -78,7 +78,7 @@ class x {static get private(){}}
                                     "end": 27
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -137,7 +137,7 @@ class x {static get private(){}}
 ```javascript
 
 class x {
-  static get static private {}
+  static get static private() {}
 }
 ```
 

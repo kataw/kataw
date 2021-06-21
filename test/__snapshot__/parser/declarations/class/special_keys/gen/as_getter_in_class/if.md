@@ -73,7 +73,7 @@ class x {get if(){}}
                                     "end": 15
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -132,7 +132,7 @@ class x {get if(){}}
 ```javascript
 
 class x {
-  get if {}
+  get if() {}
 }
 ```
 

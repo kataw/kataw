@@ -52,7 +52,7 @@ wrap({set(){}});
                                                 "end": 9
                                             },
                                             "typeParameters": null,
-                                            "formalParameters": {
+                                            "formalParameterList": {
                                                 "kind": 214,
                                                 "formalParameters": [],
                                                 "trailingComma": false,
@@ -121,7 +121,7 @@ wrap({set(){}});
 
 ```javascript
 
-wrap({ set {} });
+wrap({ set() {} });
 ```
 
 ### Diagnostics

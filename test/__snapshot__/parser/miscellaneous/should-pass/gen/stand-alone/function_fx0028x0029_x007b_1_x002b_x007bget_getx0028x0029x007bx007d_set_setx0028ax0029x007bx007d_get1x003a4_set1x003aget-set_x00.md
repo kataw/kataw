@@ -102,7 +102,7 @@ function f() { 1 + {get get(){}, set set(a){}, get1:4, set1:get-set, } }
                                                         "end": 27
                                                     },
                                                     "typeParameters": null,
-                                                    "formalParameters": {
+                                                    "formalParameterList": {
                                                         "kind": 214,
                                                         "formalParameters": [],
                                                         "trailingComma": false,
@@ -155,7 +155,7 @@ function f() { 1 + {get get(){}, set set(a){}, get1:4, set1:get-set, } }
                                                         "end": 40
                                                     },
                                                     "typeParameters": null,
-                                                    "formalParameters": {
+                                                    "formalParameterList": {
                                                         "kind": 214,
                                                         "formalParameters": [
                                                             {
@@ -308,7 +308,7 @@ function f() { 1 + {get get(){}, set set(a){}, get1:4, set1:get-set, } }
 ```javascript
 
 function f() {
-  1 + { get get {}, set set {}, get1: 4, set1: get - set };
+  1 + { get get() {}, set set() {}, get1: 4, set1: get - set };
 }
 ```
 

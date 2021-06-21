@@ -80,7 +80,7 @@ class x extends y { fo(){ return () => super[bar]; }}
                                     "end": 22
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -194,7 +194,7 @@ class x extends y { fo(){ return () => super[bar]; }}
 ```javascript
 
 class x  {
-  fo {
+  fo() {
     return  () =>  ;
   }
 }

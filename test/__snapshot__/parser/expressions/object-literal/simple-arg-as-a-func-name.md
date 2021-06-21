@@ -55,7 +55,7 @@ o = {f(x) { function x() {} }}
                                         "end": 6
                                     },
                                     "typeParameters": null,
-                                    "formalParameters": {
+                                    "formalParameterList": {
                                         "kind": 214,
                                         "formalParameters": [
                                             {
@@ -175,7 +175,7 @@ o = {f(x) { function x() {} }}
 
 ```javascript
 
-o = { f {
+o = { f() {
     function x() {}
   } };
 ```

@@ -136,7 +136,7 @@ class C {}; class C2 extends C { async constructor() {} }
                                     "end": 50
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,

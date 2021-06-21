@@ -146,7 +146,7 @@ function not_gen() { function* gf() { class C { *yield() { } } } }}
                                                                     "end": 54
                                                                 },
                                                                 "typeParameters": null,
-                                                                "formalParameters": {
+                                                                "formalParameterList": {
                                                                     "kind": 214,
                                                                     "formalParameters": [],
                                                                     "trailingComma": false,

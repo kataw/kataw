@@ -73,7 +73,7 @@ class x {static finally(){}}
                                     "end": 23
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -132,7 +132,7 @@ class x {static finally(){}}
 ```javascript
 
 class x {
-  static static finally {}
+  static static finally() {}
 }
 ```
 

@@ -73,7 +73,7 @@ class x {set package(x){}}
                                     "end": 20
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [
                                         {
@@ -141,7 +141,7 @@ class x {set package(x){}}
 ```javascript
 
 class x {
-  set package {}
+  set package() {}
 }
 ```
 

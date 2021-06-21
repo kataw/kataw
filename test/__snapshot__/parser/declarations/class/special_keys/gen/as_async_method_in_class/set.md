@@ -73,7 +73,7 @@ class x {async set(){}}
                                     "end": 18
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -132,7 +132,7 @@ class x {async set(){}}
 ```javascript
 
 class x {
-  async set {}
+  async set() {}
 }
 ```
 

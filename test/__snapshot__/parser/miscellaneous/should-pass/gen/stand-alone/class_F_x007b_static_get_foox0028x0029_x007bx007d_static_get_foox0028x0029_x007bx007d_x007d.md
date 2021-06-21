@@ -78,7 +78,7 @@ class F { static get foo() {} static get foo() {} }
                                     "end": 24
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -139,7 +139,7 @@ class F { static get foo() {} static get foo() {} }
                                     "end": 44
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -198,8 +198,8 @@ class F { static get foo() {} static get foo() {} }
 ```javascript
 
 class F {
-  static get static foo {}
-  static get static foo {}
+  static get static foo() {}
+  static get static foo() {}
 }
 ```
 

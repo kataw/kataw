@@ -92,7 +92,7 @@ class Foo {
                                     "end": 31
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -173,7 +173,7 @@ class Foo {
 
 @decorator
 class Foo {
-  method {
+  method() {
     return  method;
   }
 }

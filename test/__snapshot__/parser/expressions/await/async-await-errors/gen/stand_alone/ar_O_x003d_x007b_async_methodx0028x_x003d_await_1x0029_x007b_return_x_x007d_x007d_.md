@@ -82,7 +82,7 @@ ar O = { async method(x = await 1) { return x; } };
                                         "end": 21
                                     },
                                     "typeParameters": null,
-                                    "formalParameters": {
+                                    "formalParameterList": {
                                         "kind": 214,
                                         "formalParameters": [
                                             {

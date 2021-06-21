@@ -87,7 +87,7 @@ class C { #aaa; f() { this.#aaa } }
                                     "end": 17
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -175,7 +175,7 @@ class C { #aaa; f() { this.#aaa } }
 class C {
   #aaa;
 
-  f {
+  f() {
     this.#aaa;
   }
 }

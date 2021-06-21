@@ -73,7 +73,7 @@ class x {set interface(x){}}
                                     "end": 22
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [
                                         {
@@ -141,7 +141,7 @@ class x {set interface(x){}}
 ```javascript
 
 class x {
-  set interface {}
+  set interface() {}
 }
 ```
 

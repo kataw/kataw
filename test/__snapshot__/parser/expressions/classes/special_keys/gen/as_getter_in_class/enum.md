@@ -73,7 +73,7 @@ class x {get enum(){}}
                                     "end": 17
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -132,7 +132,7 @@ class x {get enum(){}}
 ```javascript
 
 class x {
-  get enum {}
+  get enum() {}
 }
 ```
 

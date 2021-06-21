@@ -87,7 +87,7 @@ class C { get; #aaa(){} }
                                     "end": 19
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -148,7 +148,7 @@ class C { get; #aaa(){} }
 class C {
   get;
 
-  #aaa {}
+  #aaa() {}
 }
 ```
 

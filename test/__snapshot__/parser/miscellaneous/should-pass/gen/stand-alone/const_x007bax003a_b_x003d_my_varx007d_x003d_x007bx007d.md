@@ -43,7 +43,6 @@ const {a: b = my_var} = {}
                                 "properties": [
                                     {
                                         "kind": 329,
-                                        "ellipsisToken": null,
                                         "key": {
                                             "kind": 134299649,
                                             "text": "a",

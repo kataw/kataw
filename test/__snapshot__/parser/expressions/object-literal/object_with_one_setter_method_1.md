@@ -57,7 +57,7 @@ wrap({set foo(a){}});
                                                 "end": 13
                                             },
                                             "typeParameters": null,
-                                            "formalParameters": {
+                                            "formalParameterList": {
                                                 "kind": 214,
                                                 "formalParameters": [
                                                     {
@@ -135,7 +135,7 @@ wrap({set foo(a){}});
 
 ```javascript
 
-wrap({ set foo {} });
+wrap({ set foo() {} });
 ```
 
 ### Diagnostics

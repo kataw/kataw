@@ -551,7 +551,7 @@ class two {
                                     "end": 163
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [
                                         {
@@ -634,7 +634,7 @@ class two {
                                     "end": 186
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [
                                         {
@@ -725,7 +725,7 @@ class two {
                                     "end": 212
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [
                                         {
@@ -831,7 +831,7 @@ class two {
                                     "end": 241
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [
                                         {
@@ -983,7 +983,7 @@ class two {
                                     "start": 276,
                                     "end": 279
                                 },
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [
                                         {
@@ -1084,11 +1084,11 @@ class two {
 
 declare class one TODO!
 class two {
-  m1 {}
-  m2 {}
-  m3 {}
-  m4 {}
-  m5 {}
+  m1() {}
+  m2() {}
+  m3() {}
+  m4() {}
+  m5() {}
 }
 ```
 

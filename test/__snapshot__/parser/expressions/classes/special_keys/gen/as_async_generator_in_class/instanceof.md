@@ -78,7 +78,7 @@ class x {async * instanceof(){}}
                                     "end": 27
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -137,7 +137,7 @@ class x {async * instanceof(){}}
 ```javascript
 
 class x {
-  async instanceof {}
+  async instanceof() {}
 }
 ```
 

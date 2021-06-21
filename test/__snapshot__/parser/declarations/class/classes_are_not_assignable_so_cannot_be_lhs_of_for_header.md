@@ -81,7 +81,7 @@ for (class x { [a](){} } in c);
                                         "end": 18
                                     },
                                     "typeParameters": null,
-                                    "formalParameters": {
+                                    "formalParameterList": {
                                         "kind": 214,
                                         "formalParameters": [],
                                         "trailingComma": false,

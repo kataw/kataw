@@ -2334,7 +2334,7 @@ class Array { concat(items:number | string) {}; }
                                     "end": 754
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [
                                         {
@@ -2470,7 +2470,7 @@ var a: ;
 var x:  = Y;
 var a: ;
 class Array {
-  concat {}
+  concat() {}
 
 }
 ```

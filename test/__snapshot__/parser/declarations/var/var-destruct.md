@@ -36,7 +36,6 @@ var {[a]: [b]} = c
                                 "properties": [
                                     {
                                         "kind": 329,
-                                        "ellipsisToken": null,
                                         "key": {
                                             "kind": 194,
                                             "expression": {

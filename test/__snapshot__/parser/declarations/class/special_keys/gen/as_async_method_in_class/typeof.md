@@ -73,7 +73,7 @@ class x {async typeof(){}}
                                     "end": 21
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -132,7 +132,7 @@ class x {async typeof(){}}
 ```javascript
 
 class x {
-  async typeof {}
+  async typeof() {}
 }
 ```
 

@@ -68,7 +68,7 @@ class x {instanceof(){}}
                                     "end": 19
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -127,7 +127,7 @@ class x {instanceof(){}}
 ```javascript
 
 class x {
-  instanceof {}
+  instanceof() {}
 }
 ```
 

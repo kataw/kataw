@@ -87,7 +87,7 @@ class C { #aaa; f(obj) { obj?.#aaa } }
                                     "end": 17
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [
                                         {
@@ -205,7 +205,7 @@ class C { #aaa; f(obj) { obj?.#aaa } }
 class C {
   #aaa;
 
-  f {
+  f() {
     obj?.;
   }
 }

@@ -105,7 +105,6 @@ var { ["key"]: val3, ...spread } = { key: "val" };
                                 "properties": [
                                     {
                                         "kind": 329,
-                                        "ellipsisToken": null,
                                         "key": {
                                             "kind": 194,
                                             "expression": {
@@ -216,7 +215,6 @@ var { ["key"]: val3, ...spread } = { key: "val" };
                                 "properties": [
                                     {
                                         "kind": 329,
-                                        "ellipsisToken": null,
                                         "key": {
                                             "kind": 194,
                                             "expression": {

@@ -194,7 +194,7 @@ function* g() {
                                                     "end": 67
                                                 },
                                                 "typeParameters": null,
-                                                "formalParameters": {
+                                                "formalParameterList": {
                                                     "kind": 214,
                                                     "formalParameters": [],
                                                     "trailingComma": false,
@@ -284,7 +284,7 @@ function* g() {
                                                     "end": 109
                                                 },
                                                 "typeParameters": null,
-                                                "formalParameters": {
+                                                "formalParameterList": {
                                                     "kind": 214,
                                                     "formalParameters": [
                                                         {
@@ -437,10 +437,10 @@ function* g() {
 var yieldSet, C, iter;
 function * g() {
   class C_ {
-    get [ yield] {
+    get [ yield]() {
       return  "'get yield'";
     }
-    set [ yield] {
+    set [ yield]() {
       yieldSet = param;
     }
   }

@@ -47,7 +47,7 @@
                                         "end": 9
                                     },
                                     "typeParameters": null,
-                                    "formalParameters": {
+                                    "formalParameterList": {
                                         "kind": 214,
                                         "formalParameters": [
                                             {
@@ -131,7 +131,7 @@
                                         "end": 31
                                     },
                                     "typeParameters": null,
-                                    "formalParameters": {
+                                    "formalParameterList": {
                                         "kind": 214,
                                         "formalParameters": [
                                             {
@@ -203,8 +203,8 @@
 
 ```javascript
 
-({ * method {} });
-({ method {} });
+({ * method() {} });
+({ method() {} });
 ```
 
 ### Diagnostics

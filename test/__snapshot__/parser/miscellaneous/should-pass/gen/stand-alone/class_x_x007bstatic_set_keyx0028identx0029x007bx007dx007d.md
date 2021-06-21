@@ -78,7 +78,7 @@ class x {static set key(ident){}}
                                     "end": 23
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [
                                         {
@@ -146,7 +146,7 @@ class x {static set key(ident){}}
 ```javascript
 
 class x {
-  static set static key {}
+  static set static key() {}
 }
 ```
 

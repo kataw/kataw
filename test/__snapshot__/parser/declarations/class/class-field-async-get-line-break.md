@@ -82,7 +82,7 @@ get(){} }
                                     "end": 19
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -142,7 +142,7 @@ get(){} }
 
 class C {
   async;
-  get {}
+  get() {}
 }
 ```
 

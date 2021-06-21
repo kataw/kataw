@@ -283,7 +283,7 @@ class c9 {
                                     "end": 166
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -480,7 +480,7 @@ class c9 {
                                     "end": 349
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -913,7 +913,7 @@ class c9 {
                                     "end": 722
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -1155,7 +1155,7 @@ class c9 {
                                     "end": 927
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -1397,7 +1397,7 @@ class c9 {
                                     "end": 1143
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -1594,7 +1594,7 @@ class c9 {
                                     "end": 1261
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -1660,7 +1660,7 @@ var i2_c = c2;
 class c3 {
   /** Constructor comment*/
   /** Constructor comment*/
-  constructor {} // trailing comment of constructor
+  constructor() {} // trailing comment of constructor
 
 } /* trailing comment 2 */
 var i3 = new  c3();
@@ -1669,7 +1669,7 @@ var i3_c = c3;
 class c4 {
   /** Constructor comment*/
   /** Constructor comment*/
-  constructor {} /* trailing comment of constructor 2*/
+  constructor() {} /* trailing comment of constructor 2*/
 }
 var i4 = new  c4();
 var i4_c = c4;
@@ -1687,7 +1687,7 @@ class c6 {
 
   /// constructor comment
   /// constructor comment
-  constructor {}
+  constructor() {}
 }
 var i6 = new  c6();
 var i6_c = c6;
@@ -1697,7 +1697,7 @@ class c7 {
 
   // constructor comment
   // constructor comment
-  constructor {}
+  constructor() {}
 }
 var i7 = new  c7();
 var i7_c = c7;
@@ -1710,12 +1710,12 @@ class c8 {
     */
   /** constructor comment
     */
-  constructor {}
+  constructor() {}
 }
 var i8 = new  c8();
 var i8_c = c8;
 class c9 {
-  constructor {}
+  constructor() {}
 }
 ```
 

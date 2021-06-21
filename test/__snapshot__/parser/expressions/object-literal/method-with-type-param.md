@@ -93,7 +93,7 @@ a={id<T>(x: T): T {}}
                                         "start": 5,
                                         "end": 8
                                     },
-                                    "formalParameters": {
+                                    "formalParameterList": {
                                         "kind": 214,
                                         "formalParameters": [
                                             {
@@ -219,7 +219,7 @@ a={id<T>(x: T): T {}}
 
 ```javascript
 
-a = { id {} };
+a = { id() {} };
 ```
 
 ### Diagnostics

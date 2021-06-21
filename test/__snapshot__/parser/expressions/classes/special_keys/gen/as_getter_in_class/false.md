@@ -73,7 +73,7 @@ class x {get false(){}}
                                     "end": 18
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -132,7 +132,7 @@ class x {get false(){}}
 ```javascript
 
 class x {
-  get false {}
+  get false() {}
 }
 ```
 

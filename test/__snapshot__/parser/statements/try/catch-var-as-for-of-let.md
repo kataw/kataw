@@ -73,27 +73,39 @@ try {} catch (e) { for (let e of y) {} }
                                 },
                                 "awaitKeyword": null,
                                 "initializer": {
-                                    "kind": 151,
-                                    "bindingList": [
-                                        {
-                                            "kind": 190,
-                                            "binding": {
-                                                "kind": 134299649,
-                                                "text": "e",
-                                                "rawText": "e",
-                                                "flags": 96,
+                                    "kind": 162,
+                                    "lexicalKeyword": {
+                                        "kind": 41951307,
+                                        "flags": 64,
+                                        "start": 18,
+                                        "end": 27
+                                    },
+                                    "binding": {
+                                        "kind": 151,
+                                        "bindingList": [
+                                            {
+                                                "kind": 190,
+                                                "binding": {
+                                                    "kind": 134299649,
+                                                    "text": "e",
+                                                    "rawText": "e",
+                                                    "flags": 96,
+                                                    "start": 27,
+                                                    "end": 29
+                                                },
+                                                "type": null,
+                                                "initializer": null,
+                                                "flags": 16,
                                                 "start": 27,
                                                 "end": 29
-                                            },
-                                            "type": null,
-                                            "initializer": null,
-                                            "flags": 16,
-                                            "start": 27,
-                                            "end": 29
-                                        }
-                                    ],
-                                    "flags": 16,
-                                    "start": 27,
+                                            }
+                                        ],
+                                        "flags": 16,
+                                        "start": 27,
+                                        "end": 29
+                                    },
+                                    "flags": 33554448,
+                                    "start": 18,
                                     "end": 29
                                 },
                                 "ofKeyword": {
@@ -162,7 +174,7 @@ try {} catch (e) { for (let e of y) {} }
 
 try {
 } catch (e) {
-  for (let of y)
+  for (let e; of y)
     {
     }
 }

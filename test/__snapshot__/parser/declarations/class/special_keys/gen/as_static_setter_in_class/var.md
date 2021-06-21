@@ -78,7 +78,7 @@ class x {static set var(x){}}
                                     "end": 23
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [
                                         {
@@ -146,7 +146,7 @@ class x {static set var(x){}}
 ```javascript
 
 class x {
-  static set static var {}
+  static set static var() {}
 }
 ```
 

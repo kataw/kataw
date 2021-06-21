@@ -78,7 +78,7 @@ class x {static * eval(){}}
                                     "end": 22
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -137,7 +137,7 @@ class x {static * eval(){}}
 ```javascript
 
 class x {
-  static static eval {}
+  static static eval() {}
 }
 ```
 

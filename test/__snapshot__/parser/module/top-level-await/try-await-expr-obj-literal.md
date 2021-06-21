@@ -72,7 +72,7 @@ try {
                                                         "end": 24
                                                     },
                                                     "typeParameters": null,
-                                                    "formalParameters": {
+                                                    "formalParameterList": {
                                                         "kind": 214,
                                                         "formalParameters": [],
                                                         "trailingComma": false,
@@ -183,7 +183,7 @@ try {
                                                             "end": 64
                                                         },
                                                         "typeParameters": null,
-                                                        "formalParameters": {
+                                                        "formalParameterList": {
                                                             "kind": 214,
                                                             "formalParameters": [],
                                                             "trailingComma": false,
@@ -288,7 +288,7 @@ try {
                                                         "end": 103
                                                     },
                                                     "typeParameters": null,
-                                                    "formalParameters": {
+                                                    "formalParameterList": {
                                                         "kind": 214,
                                                         "formalParameters": [],
                                                         "trailingComma": false,
@@ -365,11 +365,11 @@ try {
 ```javascript
 
 try {
-  await { function {} };
+  await { function() {} };
 } catch (e) {
-  await { function {} };
+  await { function() {} };
 } try{
-  await { function {} };
+  await { function() {} };
 }
 ```
 

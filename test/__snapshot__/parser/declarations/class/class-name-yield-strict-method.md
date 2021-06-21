@@ -115,7 +115,7 @@ function *f() {
                                                     "end": 50
                                                 },
                                                 "typeParameters": null,
-                                                "formalParameters": {
+                                                "formalParameterList": {
                                                     "kind": 214,
                                                     "formalParameters": [],
                                                     "trailingComma": false,
@@ -271,7 +271,7 @@ function *f() {
                                                     "end": 114
                                                 },
                                                 "typeParameters": null,
-                                                "formalParameters": {
+                                                "formalParameterList": {
                                                     "kind": 214,
                                                     "formalParameters": [],
                                                     "trailingComma": false,
@@ -345,13 +345,13 @@ function *f() {
 
 function f() {
   class C {
-    yield {}
+    yield() {}
   }
 }
 "\"use strict\"";
 function * f() {
   class C {
-    yield {}
+    yield() {}
   }
 }
 ```

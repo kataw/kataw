@@ -93,7 +93,7 @@ class C extends Base { set #arguments(test) {} }
                                     "end": 37
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [
                                         {
@@ -161,7 +161,7 @@ class C extends Base { set #arguments(test) {} }
 ```javascript
 
 class C  {
-  set #arguments {}
+  set #arguments() {}
 }
 ```
 

@@ -78,7 +78,7 @@ class x {static set interface(x){}}
                                     "end": 29
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [
                                         {
@@ -146,7 +146,7 @@ class x {static set interface(x){}}
 ```javascript
 
 class x {
-  static set static interface {}
+  static set static interface() {}
 }
 ```
 

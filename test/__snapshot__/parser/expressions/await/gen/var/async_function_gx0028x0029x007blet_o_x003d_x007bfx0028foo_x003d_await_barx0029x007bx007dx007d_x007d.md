@@ -199,7 +199,7 @@ var await; var f = (async function() { async function g(){let o = {f(foo = await
                                                                                                     "end": 68
                                                                                                 },
                                                                                                 "typeParameters": null,
-                                                                                                "formalParameters": {
+                                                                                                "formalParameterList": {
                                                                                                     "kind": 214,
                                                                                                     "formalParameters": [
                                                                                                         {

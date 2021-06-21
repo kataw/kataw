@@ -44,7 +44,7 @@
                                         "end": 6
                                     },
                                     "typeParameters": null,
-                                    "formalParameters": {
+                                    "formalParameterList": {
                                         "kind": 214,
                                         "formalParameters": [
                                             {
@@ -143,7 +143,7 @@
                                         "end": 27
                                     },
                                     "typeParameters": null,
-                                    "formalParameters": {
+                                    "formalParameterList": {
                                         "kind": 214,
                                         "formalParameters": [
                                             {
@@ -250,7 +250,7 @@
                                         "end": 51
                                     },
                                     "typeParameters": null,
-                                    "formalParameters": {
+                                    "formalParameterList": {
                                         "kind": 214,
                                         "formalParameters": [
                                             {
@@ -372,7 +372,7 @@
                                         "end": 77
                                     },
                                     "typeParameters": null,
-                                    "formalParameters": {
+                                    "formalParameterList": {
                                         "kind": 214,
                                         "formalParameters": [
                                             {
@@ -382,7 +382,6 @@
                                                     "properties": [
                                                         {
                                                             "kind": 329,
-                                                            "ellipsisToken": null,
                                                             "key": {
                                                                 "kind": 134299649,
                                                                 "text": "a",
@@ -498,10 +497,10 @@
 
 ```javascript
 
-({ set {} });
-({ set {} });
-({ set {} });
-({ set {} });
+({ set() {} });
+({ set() {} });
+({ set() {} });
+({ set() {} });
 ```
 
 ### Diagnostics

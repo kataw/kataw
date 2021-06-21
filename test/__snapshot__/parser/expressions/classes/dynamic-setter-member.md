@@ -87,7 +87,7 @@ class A {* get [x](){}}
                                     "end": 18
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -147,7 +147,7 @@ class A {* get [x](){}}
 
 class A {
   get;
-  [x] {}
+  [x]() {}
 }
 ```
 

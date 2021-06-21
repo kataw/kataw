@@ -73,7 +73,7 @@ class C { set x(_) { class C { method() { super(); } } } }
                                     "end": 15
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [
                                         {
@@ -142,7 +142,7 @@ class C { set x(_) { class C { method() { super(); } } } }
                                                                         "end": 37
                                                                     },
                                                                     "typeParameters": null,
-                                                                    "formalParameters": {
+                                                                    "formalParameterList": {
                                                                         "kind": 214,
                                                                         "formalParameters": [],
                                                                         "trailingComma": false,

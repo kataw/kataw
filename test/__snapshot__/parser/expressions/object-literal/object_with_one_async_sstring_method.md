@@ -57,7 +57,7 @@ wrap({async 'foo'(){}});
                                                 "end": 17
                                             },
                                             "typeParameters": null,
-                                            "formalParameters": {
+                                            "formalParameterList": {
                                                 "kind": 214,
                                                 "formalParameters": [],
                                                 "trailingComma": false,
@@ -126,7 +126,7 @@ wrap({async 'foo'(){}});
 
 ```javascript
 
-wrap({ async "'foo'" {} });
+wrap({ async "'foo'"() {} });
 ```
 
 ### Diagnostics

@@ -78,7 +78,7 @@ class x {static get do(){}}
                                     "end": 22
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -137,7 +137,7 @@ class x {static get do(){}}
 ```javascript
 
 class x {
-  static get static do {}
+  static get static do() {}
 }
 ```
 

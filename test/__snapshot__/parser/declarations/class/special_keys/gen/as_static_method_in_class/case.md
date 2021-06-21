@@ -73,7 +73,7 @@ class x {static case(){}}
                                     "end": 20
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -132,7 +132,7 @@ class x {static case(){}}
 ```javascript
 
 class x {
-  static static case {}
+  static static case() {}
 }
 ```
 

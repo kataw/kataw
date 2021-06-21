@@ -88,7 +88,7 @@ class Foo {
                                     "end": 20
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -326,7 +326,7 @@ class Foo {
 
 class Foo {
   #x;
-  foo {
+  foo() {
     this?.;
     this?.;
     this.#x?.;

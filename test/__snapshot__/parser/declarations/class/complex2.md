@@ -184,7 +184,7 @@ class C2<X, Y> {
                                     "end": 39
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [
                                         {
@@ -642,7 +642,7 @@ class C2<X, Y> {
                                     "end": 180
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -816,7 +816,7 @@ class C2<X, Y> {
 ```javascript
 
 class E  {
-  set {
+  set() {
     this.x = x;
     if (x) {
         return  this.get_bad();
@@ -827,7 +827,7 @@ class E  {
 class C2 {
   x;
 
-  foo {
+  foo() {
     return  this.x;
   }
 }

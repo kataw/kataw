@@ -67,7 +67,7 @@ class x { \u0063onstructor(){} }
                                     "end": 26
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -126,7 +126,7 @@ class x { \u0063onstructor(){} }
 ```javascript
 
 class x {
-  constructor {}
+  constructor() {}
 }
 ```
 

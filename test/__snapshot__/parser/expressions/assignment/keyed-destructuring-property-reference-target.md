@@ -224,7 +224,7 @@ function targetKey() {
                                                     "end": 86
                                                 },
                                                 "typeParameters": null,
-                                                "formalParameters": {
+                                                "formalParameterList": {
                                                     "kind": 214,
                                                     "formalParameters": [],
                                                     "trailingComma": false,
@@ -455,7 +455,7 @@ function targetKey() {
                                                     "end": 209
                                                 },
                                                 "typeParameters": null,
-                                                "formalParameters": {
+                                                "formalParameterList": {
                                                     "kind": 214,
                                                     "formalParameters": [
                                                         {
@@ -1242,13 +1242,13 @@ function targetKey() {
 var log = [];
 function source() {
   log.push("\"source\"");
-  return  { get p {
+  return  { get p() {
       log.push("\"get\"");
     } };
 }
 function target() {
   log.push("\"target\"");
-  return  { set q {
+  return  { set q() {
       log.push("\"set\"");
     } };
 }

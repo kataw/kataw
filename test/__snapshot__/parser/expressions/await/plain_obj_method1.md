@@ -59,7 +59,7 @@ let o = {await(){}}
                                                 "end": 14
                                             },
                                             "typeParameters": null,
-                                            "formalParameters": {
+                                            "formalParameterList": {
                                                 "kind": 214,
                                                 "formalParameters": [],
                                                 "trailingComma": false,
@@ -127,7 +127,7 @@ let o = {await(){}}
 
 ```javascript
 
-let o = { await {} };
+let o = { await() {} };
 ```
 
 ### Diagnostics

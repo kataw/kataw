@@ -86,7 +86,7 @@ var A = class B {
                                                     "end": 26
                                                 },
                                                 "typeParameters": null,
-                                                "formalParameters": {
+                                                "formalParameterList": {
                                                     "kind": 214,
                                                     "formalParameters": [],
                                                     "trailingComma": false,
@@ -142,7 +142,7 @@ var A = class B {
                                                     "end": 47
                                                 },
                                                 "typeParameters": null,
-                                                "formalParameters": {
+                                                "formalParameterList": {
                                                     "kind": 214,
                                                     "formalParameters": [],
                                                     "trailingComma": false,
@@ -220,8 +220,8 @@ var A = class B {
 ```javascript
 
 var A = class B {
-  method {}
-  static static method {}
+  method() {}
+  static static method() {}
 
 };
 ```

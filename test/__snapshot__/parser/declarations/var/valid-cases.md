@@ -776,7 +776,6 @@ var {get} = obj;
                                         "properties": [
                                             {
                                                 "kind": 329,
-                                                "ellipsisToken": null,
                                                 "key": {
                                                     "kind": 134299649,
                                                     "text": "x",
@@ -835,7 +834,6 @@ var {get} = obj;
                                         "properties": [
                                             {
                                                 "kind": 329,
-                                                "ellipsisToken": null,
                                                 "key": {
                                                     "kind": 134299649,
                                                     "text": "y",
@@ -987,7 +985,6 @@ var {get} = obj;
                                         "properties": [
                                             {
                                                 "kind": 329,
-                                                "ellipsisToken": null,
                                                 "key": {
                                                     "kind": 134299649,
                                                     "text": "x",
@@ -1598,7 +1595,6 @@ var {get} = obj;
                                 "properties": [
                                     {
                                         "kind": 329,
-                                        "ellipsisToken": null,
                                         "key": {
                                             "kind": 134299649,
                                             "text": "propName",

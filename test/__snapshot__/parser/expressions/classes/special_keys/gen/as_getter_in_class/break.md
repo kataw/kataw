@@ -73,7 +73,7 @@ class x {get break(){}}
                                     "end": 18
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -132,7 +132,7 @@ class x {get break(){}}
 ```javascript
 
 class x {
-  get break {}
+  get break() {}
 }
 ```
 

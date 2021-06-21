@@ -73,7 +73,7 @@ var O = { async method(a, a) {} }
                                                 "end": 22
                                             },
                                             "typeParameters": null,
-                                            "formalParameters": {
+                                            "formalParameterList": {
                                                 "kind": 214,
                                                 "formalParameters": [
                                                     {

@@ -131,7 +131,7 @@ class Foo7<T> {
                                     "start": 21,
                                     "end": 24
                                 },
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -224,7 +224,7 @@ class Foo7<T> {
 ```javascript
 
 class Foo7 {
-  bar {
+  bar() {
     return  42;
   }
 }

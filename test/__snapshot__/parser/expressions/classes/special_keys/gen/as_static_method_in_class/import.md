@@ -73,7 +73,7 @@ class x {static import(){}}
                                     "end": 22
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -132,7 +132,7 @@ class x {static import(){}}
 ```javascript
 
 class x {
-  static static import {}
+  static static import() {}
 }
 ```
 

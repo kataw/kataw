@@ -89,7 +89,7 @@ class A {* get "foo"(){}}
                                     "end": 20
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -149,7 +149,7 @@ class A {* get "foo"(){}}
 
 class A {
   get;
-  "\"foo\"" {}
+  "\"foo\""() {}
 }
 ```
 

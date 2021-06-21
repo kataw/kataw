@@ -90,7 +90,7 @@
                                                     "end": 24
                                                 },
                                                 "typeParameters": null,
-                                                "formalParameters": {
+                                                "formalParameterList": {
                                                     "kind": 214,
                                                     "formalParameters": [],
                                                     "trailingComma": false,
@@ -147,7 +147,7 @@
                                                     "end": 33
                                                 },
                                                 "typeParameters": null,
-                                                "formalParameters": {
+                                                "formalParameterList": {
                                                     "kind": 214,
                                                     "formalParameters": [],
                                                     "trailingComma": false,
@@ -235,9 +235,9 @@
 ```javascript
 
 (fail = class A {
-  [await] {}
+  [await]() {}
 
-  "\"x\"" {}
+  "\"x\""() {}
 }) =>  {};
 ```
 

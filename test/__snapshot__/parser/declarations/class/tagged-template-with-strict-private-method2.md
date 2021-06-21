@@ -75,7 +75,7 @@ new Foo();
                                     "end": 18
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -191,7 +191,7 @@ new Foo();
                                     "end": 80
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -561,12 +561,12 @@ new Foo();
 ```javascript
 
 class Foo {
-  #tag {
+  #tag() {
     return  this;
   }
   #tag2 = this.#tag;
 
-  constructor {
+  constructor() {
     const receiver = this.#tag`tagged template`;
     console.assert(receiver === this);
     const receiver2 = this.#tag2`tagged template`;

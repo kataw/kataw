@@ -73,7 +73,7 @@ class x {* let(){}}
                                     "end": 14
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -132,7 +132,7 @@ class x {* let(){}}
 ```javascript
 
 class x {
-  let {}
+  let() {}
 }
 ```
 

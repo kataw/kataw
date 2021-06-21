@@ -73,7 +73,7 @@ class x {* else(){}}
                                     "end": 15
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -132,7 +132,7 @@ class x {* else(){}}
 ```javascript
 
 class x {
-  else {}
+  else() {}
 }
 ```
 

@@ -78,7 +78,7 @@ class x {static get break(){}}
                                     "end": 25
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -137,7 +137,7 @@ class x {static get break(){}}
 ```javascript
 
 class x {
-  static get static break {}
+  static get static break() {}
 }
 ```
 

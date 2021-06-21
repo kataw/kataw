@@ -158,7 +158,7 @@ class x { #foo() {}}
                                     "end": 14
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -243,7 +243,7 @@ class x { #foo() {}}
                                             "end": 32
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -341,7 +341,7 @@ class x { #foo() {}}
                                             "end": 56
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -439,7 +439,7 @@ class x { #foo() {}}
                                             "end": 80
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [
                                                 {
@@ -546,7 +546,7 @@ class x { #foo() {}}
                                             "end": 104
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -644,7 +644,7 @@ class x { #foo() {}}
                                             "end": 130
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -747,7 +747,7 @@ class x { #foo() {}}
                                             "end": 157
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -840,7 +840,7 @@ class x { #foo() {}}
                                             "end": 178
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -891,7 +891,7 @@ class x { #foo() {}}
                                             "end": 187
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -989,7 +989,7 @@ class x { #foo() {}}
                                             "end": 210
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -1045,7 +1045,7 @@ class x { #foo() {}}
                                             "end": 223
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [
                                                 {
@@ -1152,7 +1152,7 @@ class x { #foo() {}}
                                             "end": 249
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -1208,7 +1208,7 @@ class x { #foo() {}}
                                             "end": 262
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -1264,7 +1264,7 @@ class x { #foo() {}}
                                             "end": 274
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [
                                                 {
@@ -1371,7 +1371,7 @@ class x { #foo() {}}
                                             "end": 300
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -1427,7 +1427,7 @@ class x { #foo() {}}
                                             "end": 313
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -1483,7 +1483,7 @@ class x { #foo() {}}
                                             "end": 325
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [
                                                 {
@@ -1548,7 +1548,7 @@ class x { #foo() {}}
                                             "end": 340
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [
                                                 {
@@ -1655,7 +1655,7 @@ class x { #foo() {}}
                                             "end": 366
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [
                                                 {
@@ -1720,7 +1720,7 @@ class x { #foo() {}}
                                             "end": 382
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [
                                                 {
@@ -1827,7 +1827,7 @@ class x { #foo() {}}
                                             "end": 408
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -1883,7 +1883,7 @@ class x { #foo() {}}
                                             "end": 421
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -1976,7 +1976,7 @@ class x { #foo() {}}
                                             "end": 441
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -2032,7 +2032,7 @@ class x { #foo() {}}
                                             "end": 456
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -2125,7 +2125,7 @@ class x { #foo() {}}
                                             "end": 475
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -2176,7 +2176,7 @@ class x { #foo() {}}
                                             "end": 483
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -2269,7 +2269,7 @@ class x { #foo() {}}
                                             "end": 502
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -2320,7 +2320,7 @@ class x { #foo() {}}
                                             "end": 510
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -2376,7 +2376,7 @@ class x { #foo() {}}
                                             "end": 524
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -2474,7 +2474,7 @@ class x { #foo() {}}
                                             "end": 547
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -2530,7 +2530,7 @@ class x { #foo() {}}
                                             "end": 559
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -2591,7 +2591,7 @@ class x { #foo() {}}
                                             "end": 577
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -2689,7 +2689,7 @@ class x { #foo() {}}
                                             "end": 600
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [
                                                 {
@@ -2754,7 +2754,7 @@ class x { #foo() {}}
                                             "end": 615
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [
                                                 {
@@ -2824,7 +2824,7 @@ class x { #foo() {}}
                                             "end": 636
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [
                                                 {
@@ -2926,7 +2926,7 @@ class x { #foo() {}}
                                             "end": 659
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -2982,7 +2982,7 @@ class x { #foo() {}}
                                             "end": 672
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -3075,7 +3075,7 @@ class x { #foo() {}}
                                             "end": 691
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -3131,7 +3131,7 @@ class x { #foo() {}}
                                             "end": 706
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -3224,7 +3224,7 @@ class x { #foo() {}}
                                             "end": 725
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -3285,7 +3285,7 @@ class x { #foo() {}}
                                             "end": 741
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -3378,7 +3378,7 @@ class x { #foo() {}}
                                             "end": 763
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -3471,7 +3471,7 @@ class x { #foo() {}}
                                             "end": 785
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -3564,7 +3564,7 @@ class x { #foo() {}}
                                             "end": 809
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -3657,7 +3657,7 @@ class x { #foo() {}}
                                             "end": 833
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -3750,7 +3750,7 @@ class x { #foo() {}}
                                             "end": 857
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -3843,7 +3843,7 @@ class x { #foo() {}}
                                             "end": 882
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -3936,7 +3936,7 @@ class x { #foo() {}}
                                             "end": 910
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -4034,7 +4034,7 @@ class x { #foo() {}}
                                             "end": 938
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -4132,7 +4132,7 @@ class x { #foo() {}}
                                             "end": 966
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -4230,7 +4230,7 @@ class x { #foo() {}}
                                             "end": 994
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -4328,7 +4328,7 @@ class x { #foo() {}}
                                             "end": 1020
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -4426,7 +4426,7 @@ class x { #foo() {}}
                                             "end": 1049
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -4524,7 +4524,7 @@ class x { #foo() {}}
                                             "end": 1081
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -4622,7 +4622,7 @@ class x { #foo() {}}
                                             "end": 1109
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [
                                                 {
@@ -4729,7 +4729,7 @@ class x { #foo() {}}
                                             "end": 1141
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [
                                                 {
@@ -4836,7 +4836,7 @@ class x { #foo() {}}
                                             "end": 1173
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [
                                                 {
@@ -4943,7 +4943,7 @@ class x { #foo() {}}
                                             "end": 1203
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [
                                                 {
@@ -5050,7 +5050,7 @@ class x { #foo() {}}
                                             "end": 1236
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [
                                                 {
@@ -5157,7 +5157,7 @@ class x { #foo() {}}
                                             "end": 1272
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [
                                                 {
@@ -5264,7 +5264,7 @@ class x { #foo() {}}
                                             "end": 1306
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -5362,7 +5362,7 @@ class x { #foo() {}}
                                             "end": 1336
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -5460,7 +5460,7 @@ class x { #foo() {}}
                                             "end": 1366
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -5558,7 +5558,7 @@ class x { #foo() {}}
                                             "end": 1394
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -5656,7 +5656,7 @@ class x { #foo() {}}
                                             "end": 1422
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -5754,7 +5754,7 @@ class x { #foo() {}}
                                             "end": 1453
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -5852,7 +5852,7 @@ class x { #foo() {}}
                                             "end": 1487
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -5950,7 +5950,7 @@ class x { #foo() {}}
                                             "end": 1512
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -6048,7 +6048,7 @@ class x { #foo() {}}
                                             "end": 1537
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -6146,7 +6146,7 @@ class x { #foo() {}}
                                             "end": 1562
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -6244,7 +6244,7 @@ class x { #foo() {}}
                                             "end": 1585
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -6342,7 +6342,7 @@ class x { #foo() {}}
                                             "end": 1608
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -6440,7 +6440,7 @@ class x { #foo() {}}
                                             "end": 1634
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -6538,7 +6538,7 @@ class x { #foo() {}}
                                             "end": 1663
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -6641,7 +6641,7 @@ class x { #foo() {}}
                                             "end": 1694
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -6744,7 +6744,7 @@ class x { #foo() {}}
                                             "end": 1725
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -6847,7 +6847,7 @@ class x { #foo() {}}
                                             "end": 1756
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -6950,7 +6950,7 @@ class x { #foo() {}}
                                             "end": 1785
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -7053,7 +7053,7 @@ class x { #foo() {}}
                                             "end": 1814
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -7156,7 +7156,7 @@ class x { #foo() {}}
                                             "end": 1846
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -7259,7 +7259,7 @@ class x { #foo() {}}
                                             "end": 1881
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -7379,7 +7379,7 @@ class x { #foo() {}}
                                             "end": 1905
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -7504,7 +7504,7 @@ class x { #foo() {}}
                                             "end": 1933
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -7629,7 +7629,7 @@ class x { #foo() {}}
                                             "end": 1961
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [
                                                 {
@@ -7763,7 +7763,7 @@ class x { #foo() {}}
                                             "end": 1989
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -7888,7 +7888,7 @@ class x { #foo() {}}
                                             "end": 2019
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -8018,7 +8018,7 @@ class x { #foo() {}}
                                             "end": 2050
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -8145,7 +8145,7 @@ class x { #foo() {}}
                                             "end": 2078
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -8277,7 +8277,7 @@ class x { #foo() {}}
                                             "end": 2110
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -8409,7 +8409,7 @@ class x { #foo() {}}
                                             "end": 2142
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [
                                                 {
@@ -8550,7 +8550,7 @@ class x { #foo() {}}
                                             "end": 2174
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -8682,7 +8682,7 @@ class x { #foo() {}}
                                             "end": 2208
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -8819,7 +8819,7 @@ class x { #foo() {}}
                                             "end": 2243
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -8939,7 +8939,7 @@ class x { #foo() {}}
                                             "end": 2266
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -9064,7 +9064,7 @@ class x { #foo() {}}
                                             "end": 2293
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -9189,7 +9189,7 @@ class x { #foo() {}}
                                             "end": 2320
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [
                                                 {
@@ -9323,7 +9323,7 @@ class x { #foo() {}}
                                             "end": 2347
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -9448,7 +9448,7 @@ class x { #foo() {}}
                                             "end": 2376
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -9578,7 +9578,7 @@ class x { #foo() {}}
                                             "end": 2406
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -9705,7 +9705,7 @@ class x { #foo() {}}
                                             "end": 2433
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -9837,7 +9837,7 @@ class x { #foo() {}}
                                             "end": 2464
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -9969,7 +9969,7 @@ class x { #foo() {}}
                                             "end": 2495
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [
                                                 {
@@ -10110,7 +10110,7 @@ class x { #foo() {}}
                                             "end": 2526
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -10242,7 +10242,7 @@ class x { #foo() {}}
                                             "end": 2559
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -10379,7 +10379,7 @@ class x { #foo() {}}
                                             "end": 2593
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -10446,327 +10446,327 @@ class x { #foo() {}}
 ```javascript
 
 class x {
-  #foo {}
+  #foo() {}
 }
 (class  {
-    #a {}
+    #a() {}
   });
 (class  {
-    get #a {}
+    get #a() {}
   });
 (class  {
-    set #a {}
+    set #a() {}
   });
 (class  {
-    #a {}
+    #a() {}
   });
 (class  {
-    async #a {}
+    async #a() {}
   });
 (class  {
-    async #a {}
+    async #a() {}
   });
 (class  {
-    #a {}
-    #b {}
+    #a() {}
+    #b() {}
   });
 (class  {
-    get #a {}
-    set #a {}
+    get #a() {}
+    set #a() {}
   });
 (class  {
-    get #a {}
-    get #b {}
-    set #a {}
+    get #a() {}
+    get #b() {}
+    set #a() {}
   });
 (class  {
-    get #a {}
-    get #b {}
-    set #a {}
-    set #b {}
+    get #a() {}
+    get #b() {}
+    set #a() {}
+    set #b() {}
   });
 (class  {
-    set #a {}
-    set #b {}
+    set #a() {}
+    set #b() {}
   });
 (class  {
-    get #a {}
-    get #b {}
+    get #a() {}
+    get #b() {}
   });
 (class  {
-    #a {}
-    static static a {}
+    #a() {}
+    static static a() {}
   });
 (class  {
-    #a {}
-    a {}
+    #a() {}
+    a() {}
   });
 (class  {
-    #a {}
-    a {}
-    static static a {}
+    #a() {}
+    a() {}
+    static static a() {}
   });
 (class  {
-    get #a {}
-    get a {}
-    static get static a {}
+    get #a() {}
+    get a() {}
+    static get static a() {}
   });
 (class  {
-    set #a {}
-    set a {}
-    static set static a {}
+    set #a() {}
+    set a() {}
+    static set static a() {}
   });
 (class  {
-    #a {}
-    get #b {}
+    #a() {}
+    get #b() {}
   });
 (class  {
-    #a {}
-    async #b {}
+    #a() {}
+    async #b() {}
   });
 (class  {
-    #a {}
-    async #b {}
+    #a() {}
+    async #b() {}
   });
 (class  {
-    #get {}
+    #get() {}
   });
 (class  {
-    #set {}
+    #set() {}
   });
 (class  {
-    #yield {}
+    #yield() {}
   });
 (class  {
-    #await {}
+    #await() {}
   });
 (class  {
-    #async {}
+    #async() {}
   });
 (class  {
-    #static {}
+    #static() {}
   });
 (class  {
-    #arguments {}
+    #arguments() {}
   });
 (class  {
-    get #yield {}
+    get #yield() {}
   });
 (class  {
-    get #await {}
+    get #await() {}
   });
 (class  {
-    get #async {}
+    get #async() {}
   });
 (class  {
-    get #get {}
+    get #get() {}
   });
 (class  {
-    get #static {}
+    get #static() {}
   });
 (class  {
-    get #arguments {}
+    get #arguments() {}
   });
 (class  {
-    set #yield {}
+    set #yield() {}
   });
 (class  {
-    set #async {}
+    set #async() {}
   });
 (class  {
-    set #await {}
+    set #await() {}
   });
 (class  {
-    set #set {}
+    set #set() {}
   });
 (class  {
-    set #static {}
+    set #static() {}
   });
 (class  {
-    set #arguments {}
+    set #arguments() {}
   });
 (class  {
-    async #yield {}
+    async #yield() {}
   });
 (class  {
-    async #async {}
+    async #async() {}
   });
 (class  {
-    async #await {}
+    async #await() {}
   });
 (class  {
-    async #get {}
+    async #get() {}
   });
 (class  {
-    async #set {}
+    async #set() {}
   });
 (class  {
-    async #static {}
+    async #static() {}
   });
 (class  {
-    async #arguments {}
+    async #arguments() {}
   });
 (class  {
-    #async {}
+    #async() {}
   });
 (class  {
-    #await {}
+    #await() {}
   });
 (class  {
-    #yield {}
+    #yield() {}
   });
 (class  {
-    #get {}
+    #get() {}
   });
 (class  {
-    #set {}
+    #set() {}
   });
 (class  {
-    #static {}
+    #static() {}
   });
 (class  {
-    #arguments {}
+    #arguments() {}
   });
 (class  {
-    async #yield {}
+    async #yield() {}
   });
 (class  {
-    async #async {}
+    async #async() {}
   });
 (class  {
-    async #await {}
+    async #await() {}
   });
 (class  {
-    async #get {}
+    async #get() {}
   });
 (class  {
-    async #set {}
+    async #set() {}
   });
 (class  {
-    async #static {}
+    async #static() {}
   });
 (class  {
-    async #arguments {}
-  });
-(class  {
-    #b;
-
-    #a {}
+    async #arguments() {}
   });
 (class  {
     #b;
 
-    get #a {}
+    #a() {}
   });
 (class  {
     #b;
 
-    set #a {}
+    get #a() {}
   });
 (class  {
     #b;
 
-    #a {}
+    set #a() {}
   });
 (class  {
     #b;
 
-    async #a {}
+    #a() {}
   });
 (class  {
     #b;
 
-    async #a {}
+    async #a() {}
+  });
+(class  {
+    #b;
+
+    async #a() {}
   });
 (class  {
     #b = 1;
 
-    #a {}
+    #a() {}
   });
 (class  {
     #b = 1;
 
-    get #a {}
+    get #a() {}
   });
 (class  {
     #b = 1;
 
-    set #a {}
+    set #a() {}
   });
 (class  {
     #b = 1;
 
-    #a {}
+    #a() {}
   });
 (class  {
     #b = 1;
 
-    async #a {}
+    async #a() {}
   });
 (class  {
     #b = 1;
 
-    async #a {}
+    async #a() {}
   });
 (class  {
     a;
 
-    #a {}
+    #a() {}
   });
 (class  {
     a;
 
-    get #a {}
+    get #a() {}
   });
 (class  {
     a;
 
-    set #a {}
+    set #a() {}
   });
 (class  {
     a;
 
-    #a {}
+    #a() {}
   });
 (class  {
     a;
 
-    async #a {}
+    async #a() {}
   });
 (class  {
     a;
 
-    async #a {}
+    async #a() {}
   });
 (class  {
     a = 1;
 
-    #a {}
+    #a() {}
   });
 (class  {
     a = 1;
 
-    get #a {}
+    get #a() {}
   });
 (class  {
     a = 1;
 
-    set #a {}
+    set #a() {}
   });
 (class  {
     a = 1;
 
-    #a {}
+    #a() {}
   });
 (class  {
     a = 1;
 
-    async #a {}
+    async #a() {}
   });
 (class  {
     a = 1;
 
-    async #a {}
+    async #a() {}
   });
 ```
 

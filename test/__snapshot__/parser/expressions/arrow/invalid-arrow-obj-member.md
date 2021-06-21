@@ -37,7 +37,6 @@
                                 "properties": [
                                     {
                                         "kind": 329,
-                                        "ellipsisToken": null,
                                         "key": {
                                             "kind": 201392130,
                                             "text": 333,

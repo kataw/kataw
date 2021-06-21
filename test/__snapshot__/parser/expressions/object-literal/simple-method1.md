@@ -58,7 +58,7 @@ x = {
                                         "end": 16
                                     },
                                     "typeParameters": null,
-                                    "formalParameters": {
+                                    "formalParameterList": {
                                         "kind": 214,
                                         "formalParameters": [],
                                         "trailingComma": false,
@@ -121,7 +121,7 @@ x = {
 
 ```javascript
 
-x = { method {} };
+x = { method() {} };
 ```
 
 ### Diagnostics

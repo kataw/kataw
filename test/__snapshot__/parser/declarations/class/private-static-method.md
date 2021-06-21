@@ -72,7 +72,7 @@ class A {
                                     "end": 26
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -123,7 +123,7 @@ class A {
                                     "end": 38
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -315,8 +315,8 @@ class A {
 ```javascript
 
 class A {
-  static static #method {}
-  run {
+  static static #method() {}
+  run() {
     A.#method = 2;
     ([A.#method] = [2]);
   }

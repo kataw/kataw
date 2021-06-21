@@ -84,7 +84,7 @@ class Foo extends Base {
                                     "end": 35
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -210,7 +210,7 @@ class Foo extends Base {
 ```javascript
 
 class Foo  {
-  method {
+  method() {
     super.method?.();
   }
 }

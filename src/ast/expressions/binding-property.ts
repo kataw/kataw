@@ -26,14 +26,12 @@ export type PropertyKey =
   | PrivateIdentifier;
 
 export interface BindingProperty extends SyntaxNode {
-  readonly ellipsisToken: SyntaxToken<TokenSyntaxKind> | null;
   readonly key: PropertyKey;
   readonly value: ArrayBindingPattern | ObjectBindingPattern | BindingElement;
   readonly initializer: ExpressionNode | null;
 }
 
 export function createBindingProperty(
-  ellipsisToken: SyntaxToken<TokenSyntaxKind> | null,
   key: PropertyKey,
   value: ArrayBindingPattern | ObjectBindingPattern | BindingElement,
   initializer: ExpressionNode | null,
@@ -42,7 +40,6 @@ export function createBindingProperty(
 ): BindingProperty {
   return {
     kind: SyntaxKind.BindingProperty,
-    ellipsisToken,
     key,
     value,
     initializer,

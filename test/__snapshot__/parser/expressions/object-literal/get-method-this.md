@@ -68,7 +68,7 @@ x = {get this(this):number{}};
                                         "end": 13
                                     },
                                     "typeParameters": null,
-                                    "formalParameters": {
+                                    "formalParameterList": {
                                         "kind": 214,
                                         "formalParameters": [
                                             {

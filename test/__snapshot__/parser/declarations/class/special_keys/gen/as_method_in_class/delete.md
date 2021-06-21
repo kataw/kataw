@@ -68,7 +68,7 @@ class x {delete(){}}
                                     "end": 15
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -127,7 +127,7 @@ class x {delete(){}}
 ```javascript
 
 class x {
-  delete {}
+  delete() {}
 }
 ```
 

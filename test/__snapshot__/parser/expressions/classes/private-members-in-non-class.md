@@ -346,7 +346,7 @@ class C { test() {get #a() { }}}
                                     "end": 90
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -491,7 +491,7 @@ class C { test() {get #a() { }}}
                                         "end": 132
                                     },
                                     "typeParameters": null,
-                                    "formalParameters": {
+                                    "formalParameterList": {
                                         "kind": 214,
                                         "formalParameters": [
                                             {
@@ -594,7 +594,7 @@ class C { test() {get #a() { }}}
                                         "end": 165
                                     },
                                     "typeParameters": null,
-                                    "formalParameters": {
+                                    "formalParameterList": {
                                         "kind": 214,
                                         "formalParameters": [],
                                         "trailingComma": false,
@@ -676,7 +676,7 @@ class C { test() {get #a() { }}}
                                             "end": 186
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -787,7 +787,7 @@ class C { test() {get #a() { }}}
                                             "end": 213
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,

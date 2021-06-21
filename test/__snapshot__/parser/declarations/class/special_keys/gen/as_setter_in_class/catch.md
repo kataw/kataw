@@ -73,7 +73,7 @@ class x {set catch(x){}}
                                     "end": 18
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [
                                         {
@@ -141,7 +141,7 @@ class x {set catch(x){}}
 ```javascript
 
 class x {
-  set catch {}
+  set catch() {}
 }
 ```
 

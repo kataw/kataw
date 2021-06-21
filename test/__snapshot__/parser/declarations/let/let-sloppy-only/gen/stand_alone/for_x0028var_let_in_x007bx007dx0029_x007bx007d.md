@@ -32,28 +32,40 @@ for (var let in {}) {}
                 "end": 3
             },
             "initializer": {
-                "kind": 156,
-                "declarations": [
-                    {
-                        "kind": 157,
-                        "binding": {
-                            "kind": 134299649,
-                            "text": "let",
-                            "rawText": "let",
-                            "flags": 96,
+                "kind": 341,
+                "varKeyword": {
+                    "kind": 37757002,
+                    "flags": 64,
+                    "start": 5,
+                    "end": 8
+                },
+                "declarationList": {
+                    "kind": 156,
+                    "declarations": [
+                        {
+                            "kind": 157,
+                            "binding": {
+                                "kind": 134299649,
+                                "text": "let",
+                                "rawText": "let",
+                                "flags": 96,
+                                "start": 8,
+                                "end": 12
+                            },
+                            "type": null,
+                            "initializer": null,
+                            "flags": 16,
                             "start": 8,
                             "end": 12
-                        },
-                        "type": null,
-                        "initializer": null,
-                        "flags": 16,
-                        "start": 8,
-                        "end": 12
-                    }
-                ],
+                        }
+                    ],
+                    "flags": 16,
+                    "start": 8,
+                    "end": 12
+                },
                 "flags": 16,
-                "start": 8,
-                "end": 12
+                "start": 0,
+                "end": 15
             },
             "inKeyword": {
                 "kind": 21006388,

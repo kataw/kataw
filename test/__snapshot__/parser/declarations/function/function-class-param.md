@@ -98,7 +98,7 @@ function* foo(a = class {*bar() { yield b }}) {}
                                                     "end": 29
                                                 },
                                                 "typeParameters": null,
-                                                "formalParameters": {
+                                                "formalParameterList": {
                                                     "kind": 214,
                                                     "formalParameters": [],
                                                     "trailingComma": false,

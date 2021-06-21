@@ -73,7 +73,7 @@ class x {async enum(){}}
                                     "end": 19
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -132,7 +132,7 @@ class x {async enum(){}}
 ```javascript
 
 class x {
-  async enum {}
+  async enum() {}
 }
 ```
 

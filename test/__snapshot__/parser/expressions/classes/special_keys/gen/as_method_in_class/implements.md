@@ -68,7 +68,7 @@ class x {implements(){}}
                                     "end": 19
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -127,7 +127,7 @@ class x {implements(){}}
 ```javascript
 
 class x {
-  implements {}
+  implements() {}
 }
 ```
 

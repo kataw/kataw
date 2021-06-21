@@ -78,7 +78,7 @@ class x {static get export(){}}
                                     "end": 26
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -137,7 +137,7 @@ class x {static get export(){}}
 ```javascript
 
 class x {
-  static get static export {}
+  static get static export() {}
 }
 ```
 

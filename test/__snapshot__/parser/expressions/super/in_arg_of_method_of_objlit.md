@@ -55,7 +55,7 @@ x={ dsda(){ return async function(a=super.foo){} }}
                                         "end": 8
                                     },
                                     "typeParameters": null,
-                                    "formalParameters": {
+                                    "formalParameterList": {
                                         "kind": 214,
                                         "formalParameters": [],
                                         "trailingComma": false,

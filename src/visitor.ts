@@ -471,12 +471,10 @@ export function visitEachChild(
           )
         : node;
     case SyntaxKind.BindingProperty:
-      return (<BindingProperty>node).ellipsisToken !== visitNode((<BindingProperty>node).ellipsisToken, visitor) ||
         (<BindingProperty>node).key !== visitNode((<BindingProperty>node).key, visitor) ||
         (<BindingProperty>node).value !== visitNode((<BindingProperty>node).value, visitor) ||
         (<BindingProperty>node).initializer !== visitNode((<BindingProperty>node).initializer, visitor)
         ? createBindingProperty(
-            (<BindingProperty>node).ellipsisToken,
             (<BindingProperty>node).key,
             (<BindingProperty>node).value,
             (<BindingProperty>node).initializer,
@@ -1362,13 +1360,13 @@ export function visitEachChild(
     case SyntaxKind.MethodDefinition:
       return (<MethodDefinition>node).name !== visitNode((<MethodDefinition>node).name, visitor) ||
         (<MethodDefinition>node).typeParameters !== visitNode((<MethodDefinition>node).typeParameters, visitor) ||
-        (<MethodDefinition>node).formalParameters !== visitNode((<MethodDefinition>node).formalParameters, visitor) ||
+        (<MethodDefinition>node).formalParameterList !== visitNode((<MethodDefinition>node).formalParameterList, visitor) ||
         (<MethodDefinition>node).returnType !== visitNode((<MethodDefinition>node).returnType, visitor) ||
         (<MethodDefinition>node).contents !== visitFunctionBody(transform, (<MethodDefinition>node).contents, visitor)
         ? createMethodDefinition(
             (<MethodDefinition>node).name,
             (<MethodDefinition>node).typeParameters,
-            (<MethodDefinition>node).formalParameters,
+            (<MethodDefinition>node).formalParameterList,
             (<MethodDefinition>node).returnType,
             (<MethodDefinition>node).contents,
             (<MethodDefinition>node).flags,

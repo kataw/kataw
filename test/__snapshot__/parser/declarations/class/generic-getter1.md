@@ -157,7 +157,7 @@ class C<T> {
                                     "end": 35
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -273,7 +273,7 @@ class C<T> {
 class C {
   data;
 
-  get x {
+  get x() {
     return  this.data;
   }
 }

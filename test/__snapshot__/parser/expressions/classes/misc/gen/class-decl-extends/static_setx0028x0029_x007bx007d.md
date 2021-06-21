@@ -93,7 +93,7 @@ class C extends Base { static set() {} }
                                     "end": 33
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -152,7 +152,7 @@ class C extends Base { static set() {} }
 ```javascript
 
 class C  {
-  static static set {}
+  static static set() {}
 }
 ```
 

@@ -69,7 +69,7 @@
                                             "end": 23
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [
                                                 {
@@ -145,7 +145,7 @@
 ```javascript
 
 (class  {
-    set #arguments {}
+    set #arguments() {}
   });
 ```
 

@@ -68,7 +68,7 @@ var obj = { async() {} };
                                                 "end": 17
                                             },
                                             "typeParameters": null,
-                                            "formalParameters": {
+                                            "formalParameterList": {
                                                 "kind": 214,
                                                 "formalParameters": [],
                                                 "trailingComma": false,
@@ -136,7 +136,7 @@ var obj = { async() {} };
 
 ```javascript
 
-var obj = { async {} };
+var obj = { async() {} };
 ```
 
 ### Diagnostics

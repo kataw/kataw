@@ -83,7 +83,7 @@ class C {
                                     "end": 44
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -173,7 +173,7 @@ class C {
                                     "end": 103
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [
                                         {
@@ -244,13 +244,13 @@ class C {
   /**
    * Getter.
    */
-  get bar {
+  get bar() {
     return  1;
   }
   /**
    * Setter.
    */
-  set bar {}
+  set bar() {}
 }
 ```
 

@@ -24,7 +24,7 @@ export type MethodName =
 
 export interface MethodDefinition extends SyntaxNode {
   readonly typeParameters: TypeParameterDeclaration | null;
-  readonly formalParameters: FormalParameterList;
+  readonly formalParameterList: FormalParameterList;
   readonly name: MethodName;
   readonly contents: FunctionBody;
   readonly returnType: TypeNode | null;
@@ -33,7 +33,7 @@ export interface MethodDefinition extends SyntaxNode {
 export function createMethodDefinition(
   name: MethodName,
   typeParameters: TypeParameterDeclaration | null,
-  formalParameters: FormalParameterList,
+  formalParameterList: FormalParameterList,
   returnType: TypeNode | null,
   contents: FunctionBody,
   flags: NodeFlags,
@@ -44,7 +44,7 @@ export function createMethodDefinition(
     kind: SyntaxKind.MethodDefinition,
     name,
     typeParameters,
-    formalParameters,
+    formalParameterList,
     returnType,
     contents,
     flags,

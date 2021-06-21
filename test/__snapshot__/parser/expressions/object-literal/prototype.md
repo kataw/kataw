@@ -101,7 +101,7 @@
                                         "end": 36
                                     },
                                     "typeParameters": null,
-                                    "formalParameters": {
+                                    "formalParameterList": {
                                         "kind": 214,
                                         "formalParameters": [],
                                         "trailingComma": false,
@@ -181,7 +181,7 @@
                                         "end": 62
                                     },
                                     "typeParameters": null,
-                                    "formalParameters": {
+                                    "formalParameterList": {
                                         "kind": 214,
                                         "formalParameters": [
                                             {
@@ -270,7 +270,7 @@
                                         "end": 86
                                     },
                                     "typeParameters": null,
-                                    "formalParameters": {
+                                    "formalParameterList": {
                                         "kind": 214,
                                         "formalParameters": [],
                                         "trailingComma": false,
@@ -350,7 +350,7 @@
                                         "end": 114
                                     },
                                     "typeParameters": null,
-                                    "formalParameters": {
+                                    "formalParameterList": {
                                         "kind": 214,
                                         "formalParameters": [],
                                         "trailingComma": false,
@@ -435,7 +435,7 @@
                                         "end": 143
                                     },
                                     "typeParameters": null,
-                                    "formalParameters": {
+                                    "formalParameterList": {
                                         "kind": 214,
                                         "formalParameters": [],
                                         "trailingComma": false,
@@ -499,11 +499,11 @@
 ```javascript
 
 ({ prototype: 1 });
-({ get prototype {} });
-({ set prototype {} });
-({ * prototype {} });
-({ async prototype {} });
-({ * async prototype {} });
+({ get prototype() {} });
+({ set prototype() {} });
+({ * prototype() {} });
+({ async prototype() {} });
+({ * async prototype() {} });
 ```
 
 ### Diagnostics

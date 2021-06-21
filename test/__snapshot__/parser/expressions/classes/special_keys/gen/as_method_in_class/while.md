@@ -68,7 +68,7 @@ class x {while(){}}
                                     "end": 14
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -127,7 +127,7 @@ class x {while(){}}
 ```javascript
 
 class x {
-  while {}
+  while() {}
 }
 ```
 

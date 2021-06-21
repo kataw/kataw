@@ -107,7 +107,7 @@ async function f() {
                                                     "end": 34
                                                 },
                                                 "typeParameters": null,
-                                                "formalParameters": {
+                                                "formalParameterList": {
                                                     "kind": 214,
                                                     "formalParameters": [
                                                         {
@@ -207,7 +207,7 @@ async function f() {
 
 async function f() {
   class x {
-    [x] {}
+    [x]() {}
   }
 }
 ```

@@ -44,14 +44,14 @@ function test({...[]}) {}
                             "kind": 213,
                             "properties": [
                                 {
-                                    "kind": 329,
+                                    "kind": 281,
                                     "ellipsisToken": {
                                         "kind": 524302,
                                         "flags": 64,
                                         "start": 15,
                                         "end": 18
                                     },
-                                    "key": {
+                                    "left": {
                                         "kind": 194,
                                         "expression": {
                                             "kind": 16637,
@@ -65,16 +65,10 @@ function test({...[]}) {}
                                         "start": 18,
                                         "end": 20
                                     },
-                                    "value": {
-                                        "kind": 16637,
-                                        "text": "",
-                                        "rawText": "",
-                                        "flags": 64,
-                                        "start": 20,
-                                        "end": 20
-                                    },
-                                    "initializer": null,
-                                    "flags": 32,
+                                    "optionalToken": null,
+                                    "type": null,
+                                    "right": null,
+                                    "flags": 0,
                                     "start": 15,
                                     "end": 20
                                 }
@@ -133,7 +127,6 @@ function test({...[]}) {}
 
 ```javascript
 ✖ Identifier expected - start: 19, end: 20
-✖ Binding identifier expected - start: 20, end: 21
 
 ```
 

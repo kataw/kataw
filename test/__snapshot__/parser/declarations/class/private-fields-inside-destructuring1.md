@@ -185,7 +185,7 @@ class Test {
                                     "end": 54
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -274,7 +274,7 @@ class Test {
                                     "end": 85
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -358,7 +358,7 @@ class Test {
                                     "end": 116
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -484,7 +484,7 @@ class Test {
                                     "end": 160
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -677,16 +677,16 @@ class Test {
 
   z = 2;
 
-  get x {
+  get x() {
     return  this.#x;
   }
-  get y {
+  get y() {
     return  this.#y;
   }
-  world {
+  world() {
     return  [1, [2, 3], 4];
   }
-  hello {
+  hello() {
     [this.#x, this.#y, this.z] = this.world();
   }
 }

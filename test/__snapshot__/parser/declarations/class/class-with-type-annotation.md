@@ -79,7 +79,7 @@ class Foo { bar():this { return this; }}
                                     "end": 15
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -170,7 +170,7 @@ class Foo { bar():this { return this; }}
 ```javascript
 
 class Foo {
-  bar {
+  bar() {
     return  this;
   }
 }

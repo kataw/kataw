@@ -78,7 +78,7 @@ class x {async * debugger(){}}
                                     "end": 25
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -137,7 +137,7 @@ class x {async * debugger(){}}
 ```javascript
 
 class x {
-  async debugger {}
+  async debugger() {}
 }
 ```
 

@@ -94,7 +94,7 @@ class C {
                                                                                 "end": 40
                                                                             },
                                                                             "typeParameters": null,
-                                                                            "formalParameters": {
+                                                                            "formalParameterList": {
                                                                                 "kind": 214,
                                                                                 "formalParameters": [
                                                                                     {

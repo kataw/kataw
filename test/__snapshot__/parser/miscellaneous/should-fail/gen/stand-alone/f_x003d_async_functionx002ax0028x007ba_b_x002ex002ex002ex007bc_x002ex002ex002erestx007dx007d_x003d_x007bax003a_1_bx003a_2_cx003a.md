@@ -91,13 +91,30 @@ f = async function*({a, b, ...{c, ...rest}} = {a: 1, b: 2, c: 3, d: 4, e: 5}) {}
                                                 "end": 25
                                             },
                                             {
-                                                "kind": 329,
+                                                "kind": 281,
                                                 "ellipsisToken": {
                                                     "kind": 524302,
                                                     "flags": 64,
                                                     "start": 26,
                                                     "end": 30
                                                 },
+                                                "left": {
+                                                    "kind": 16637,
+                                                    "text": "",
+                                                    "rawText": "",
+                                                    "flags": 64,
+                                                    "start": 30,
+                                                    "end": 30
+                                                },
+                                                "optionalToken": null,
+                                                "type": null,
+                                                "right": null,
+                                                "flags": 0,
+                                                "start": 26,
+                                                "end": 30
+                                            },
+                                            {
+                                                "kind": 329,
                                                 "key": {
                                                     "kind": 16637,
                                                     "text": "",
@@ -154,7 +171,7 @@ f = async function*({a, b, ...{c, ...rest}} = {a: 1, b: 2, c: 3, d: 4, e: 5}) {}
                                                 },
                                                 "initializer": null,
                                                 "flags": 32,
-                                                "start": 26,
+                                                "start": 30,
                                                 "end": 42
                                             }
                                         ],
@@ -356,6 +373,7 @@ f = async function*({a, b, ...{c, ...rest}} = {a: 1, b: 2, c: 3, d: 4, e: 5}) {}
 
 ```javascript
 ✖ Identifier expected - start: 30, end: 31
+✖ ',' expected - start: 30, end: 31
 
 ```
 

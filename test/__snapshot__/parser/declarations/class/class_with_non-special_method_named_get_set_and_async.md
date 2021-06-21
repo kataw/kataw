@@ -79,7 +79,7 @@ class A {"set"(){} "get"(){} "async"(){}}
                                     "end": 14
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -130,7 +130,7 @@ class A {"set"(){} "get"(){} "async"(){}}
                                     "end": 24
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -181,7 +181,7 @@ class A {"set"(){} "get"(){} "async"(){}}
                                     "end": 36
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -240,9 +240,9 @@ class A {"set"(){} "get"(){} "async"(){}}
 ```javascript
 
 class A {
-  "\"set\"" {}
-  "\"get\"" {}
-  "\"async\"" {}
+  "\"set\""() {}
+  "\"get\""() {}
+  "\"async\""() {}
 }
 ```
 

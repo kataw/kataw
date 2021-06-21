@@ -83,7 +83,7 @@ class x {static async * typeof(){}}
                                     "end": 30
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -142,7 +142,7 @@ class x {static async * typeof(){}}
 ```javascript
 
 class x {
-  async static static typeof {}
+  async static static typeof() {}
 }
 ```
 

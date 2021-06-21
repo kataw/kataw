@@ -83,7 +83,7 @@ class x {static async * eval(){}}
                                     "end": 28
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -142,7 +142,7 @@ class x {static async * eval(){}}
 ```javascript
 
 class x {
-  async static static eval {}
+  async static static eval() {}
 }
 ```
 

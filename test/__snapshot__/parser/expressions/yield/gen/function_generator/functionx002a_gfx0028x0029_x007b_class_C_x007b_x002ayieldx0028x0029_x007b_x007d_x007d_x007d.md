@@ -185,7 +185,7 @@ function * gen() { function not_gen() { function* gf() { class C { *yield() { } 
                                                                                     "end": 73
                                                                                 },
                                                                                 "typeParameters": null,
-                                                                                "formalParameters": {
+                                                                                "formalParameterList": {
                                                                                     "kind": 214,
                                                                                     "formalParameters": [],
                                                                                     "trailingComma": false,
@@ -289,7 +289,7 @@ function * gen() {
   function not_gen() {
     function * gf() {
       class C {
-        yield {}
+        yield() {}
       }
     }
   }

@@ -73,7 +73,7 @@ class x {set instanceof(x){}}
                                     "end": 23
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [
                                         {
@@ -141,7 +141,7 @@ class x {set instanceof(x){}}
 ```javascript
 
 class x {
-  set instanceof {}
+  set instanceof() {}
 }
 ```
 

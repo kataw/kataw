@@ -121,7 +121,7 @@ class A {
                                     "end": 15
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -172,7 +172,7 @@ class A {
                                     "end": 30
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -223,7 +223,7 @@ class A {
                                     "end": 48
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -274,7 +274,7 @@ class A {
                                     "end": 65
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -325,7 +325,7 @@ class A {
                                     "end": 83
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -376,7 +376,7 @@ class A {
                                     "end": 100
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -427,7 +427,7 @@ class A {
                                     "end": 119
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -499,7 +499,7 @@ class A {
                                     "end": 144
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -571,7 +571,7 @@ class A {
                                     "end": 168
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -643,7 +643,7 @@ class A {
                                     "end": 195
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -715,7 +715,7 @@ class A {
                                     "end": 221
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -787,7 +787,7 @@ class A {
                                     "end": 243
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -859,7 +859,7 @@ class A {
                                     "end": 267
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -952,7 +952,7 @@ class A {
                                     "end": 301
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -1011,28 +1011,28 @@ class A {
 ```javascript
 
 class A {
-  get {}
-  set {}
-  static {}
-  async {}
-  "'get'" {}
-  "'set'" {}
-  "'async'" {}
+  get() {}
+  set() {}
+  static() {}
+  async() {}
+  "'get'"() {}
+  "'set'"() {}
+  "'async'"() {}
   static;
-  get {}
+  get() {}
   static;
-  set {}
+  set() {}
   static;
-  static {}
+  static() {}
   static;
-  async {}
+  async() {}
   static;
-  a {}
+  a() {}
   get;
-  async {}
+  async() {}
   static;
   get;
-  static {}
+  static() {}
 }
 ```
 

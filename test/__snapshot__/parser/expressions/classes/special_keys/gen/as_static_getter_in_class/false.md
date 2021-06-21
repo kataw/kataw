@@ -78,7 +78,7 @@ class x {static get false(){}}
                                     "end": 25
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -137,7 +137,7 @@ class x {static get false(){}}
 ```javascript
 
 class x {
-  static get static false {}
+  static get static false() {}
 }
 ```
 

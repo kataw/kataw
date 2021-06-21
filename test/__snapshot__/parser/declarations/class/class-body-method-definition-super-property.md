@@ -67,7 +67,7 @@ class A {
                                     "end": 23
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -165,7 +165,7 @@ class A {
                                     "end": 66
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -277,10 +277,10 @@ class A {
 ```javascript
 
 class A {
-  constructor {
+  constructor() {
     super.toString();
   }
-  dontDoThis {
+  dontDoThis() {
     super.makeBugs = 1;
   }
 }

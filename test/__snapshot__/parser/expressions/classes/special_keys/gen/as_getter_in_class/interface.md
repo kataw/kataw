@@ -73,7 +73,7 @@ class x {get interface(){}}
                                     "end": 22
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -132,7 +132,7 @@ class x {get interface(){}}
 ```javascript
 
 class x {
-  get interface {}
+  get interface() {}
 }
 ```
 

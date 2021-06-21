@@ -78,7 +78,7 @@ class x {static set implements(x){}}
                                     "end": 30
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [
                                         {
@@ -146,7 +146,7 @@ class x {static set implements(x){}}
 ```javascript
 
 class x {
-  static set static implements {}
+  static set static implements() {}
 }
 ```
 

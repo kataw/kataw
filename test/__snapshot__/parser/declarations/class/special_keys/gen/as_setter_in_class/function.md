@@ -73,7 +73,7 @@ class x {set function(x){}}
                                     "end": 21
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [
                                         {
@@ -141,7 +141,7 @@ class x {set function(x){}}
 ```javascript
 
 class x {
-  set function {}
+  set function() {}
 }
 ```
 

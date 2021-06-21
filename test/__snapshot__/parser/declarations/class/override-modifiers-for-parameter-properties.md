@@ -84,7 +84,7 @@ class D extends B {
                                     "end": 33
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [
                                         {
@@ -194,7 +194,7 @@ class D extends B {
 ```javascript
 
 class D  {
-  constructor {
+  constructor() {
     super(foo);
   }
 }

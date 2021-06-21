@@ -78,7 +78,7 @@ class x {static set yield(x){}}
                                     "end": 25
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [
                                         {
@@ -146,7 +146,7 @@ class x {static set yield(x){}}
 ```javascript
 
 class x {
-  static set static yield {}
+  static set static yield() {}
 }
 ```
 

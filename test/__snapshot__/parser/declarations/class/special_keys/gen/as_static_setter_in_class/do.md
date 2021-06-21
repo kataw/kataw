@@ -78,7 +78,7 @@ class x {static set do(x){}}
                                     "end": 22
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [
                                         {
@@ -146,7 +146,7 @@ class x {static set do(x){}}
 ```javascript
 
 class x {
-  static set static do {}
+  static set static do() {}
 }
 ```
 

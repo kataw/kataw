@@ -78,7 +78,7 @@ class x {static get typeof(){}}
                                     "end": 26
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -137,7 +137,7 @@ class x {static get typeof(){}}
 ```javascript
 
 class x {
-  static get static typeof {}
+  static get static typeof() {}
 }
 ```
 

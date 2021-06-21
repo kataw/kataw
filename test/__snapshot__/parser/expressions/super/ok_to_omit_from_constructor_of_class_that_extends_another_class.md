@@ -80,7 +80,7 @@ class x extends y { constructor() { } }
                                     "end": 31
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -139,7 +139,7 @@ class x extends y { constructor() { } }
 ```javascript
 
 class x  {
-  constructor {}
+  constructor() {}
 }
 ```
 

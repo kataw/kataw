@@ -183,7 +183,7 @@ class D<T> {
                                     "end": 37
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [
                                         {
@@ -322,7 +322,7 @@ class D<T> {
                                     "end": 71
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -428,7 +428,7 @@ class D<T> {
                                     "end": 111
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -681,7 +681,7 @@ class D<T> {
                                     "start": 169,
                                     "end": 172
                                 },
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [
                                         {
@@ -912,20 +912,20 @@ class D<T> {
 class C {
   x;
 
-  constructor {
+  constructor() {
     this.x = x;
   }
-  get {
+  get() {
     return  this.x;
   }
-  get_bad {
+  get_bad() {
     return  this.x;
   }
 }
 class D {
   x;
 
-  m {
+  m() {
     this.x = u;
     return  z;
   }

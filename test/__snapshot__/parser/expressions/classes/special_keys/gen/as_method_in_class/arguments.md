@@ -68,7 +68,7 @@ class x {arguments(){}}
                                     "end": 18
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -127,7 +127,7 @@ class x {arguments(){}}
 ```javascript
 
 class x {
-  arguments {}
+  arguments() {}
 }
 ```
 

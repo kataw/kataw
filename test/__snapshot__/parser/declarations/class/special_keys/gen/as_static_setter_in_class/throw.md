@@ -78,7 +78,7 @@ class x {static set throw(x){}}
                                     "end": 25
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [
                                         {
@@ -146,7 +146,7 @@ class x {static set throw(x){}}
 ```javascript
 
 class x {
-  static set static throw {}
+  static set static throw() {}
 }
 ```
 

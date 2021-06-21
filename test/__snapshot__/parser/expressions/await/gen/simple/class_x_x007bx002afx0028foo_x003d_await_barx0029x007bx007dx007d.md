@@ -73,7 +73,7 @@ class x {*f(foo = await bar){}}
                                     "end": 11
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [
                                         {

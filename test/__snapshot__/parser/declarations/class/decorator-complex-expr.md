@@ -171,7 +171,7 @@ class A {
                                     "end": 30
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -231,7 +231,7 @@ class A {
 
 class A {
   @a.b.c.d(e, f)
-  m {}
+  m() {}
 }
 ```
 

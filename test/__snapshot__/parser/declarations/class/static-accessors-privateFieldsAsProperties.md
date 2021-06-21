@@ -78,7 +78,7 @@ new C;
                                     "end": 25
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [
                                         {
@@ -219,7 +219,7 @@ new C;
                                     "end": 68
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -390,12 +390,12 @@ new C;
 ```javascript
 
 class C {
-  static set static #p {
+  static set static #p() {
     C.#q = v;
   }
   static #q;
 
-  constructor {
+  constructor() {
     ([C.#p] = [0]);
   }
 }

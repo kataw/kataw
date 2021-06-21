@@ -478,7 +478,7 @@
                                                                 "end": 121
                                                             },
                                                             "typeParameters": null,
-                                                            "formalParameters": {
+                                                            "formalParameterList": {
                                                                 "kind": 214,
                                                                 "formalParameters": [],
                                                                 "trailingComma": false,
@@ -626,7 +626,7 @@
                                                                 "end": 159
                                                             },
                                                             "typeParameters": null,
-                                                            "formalParameters": {
+                                                            "formalParameterList": {
                                                                 "kind": 214,
                                                                 "formalParameters": [],
                                                                 "trailingComma": false,
@@ -774,7 +774,7 @@
                                                                 "end": 197
                                                             },
                                                             "typeParameters": null,
-                                                            "formalParameters": {
+                                                            "formalParameterList": {
                                                                 "kind": 214,
                                                                 "formalParameters": [
                                                                     {
@@ -931,7 +931,7 @@
                                                                 "end": 235
                                                             },
                                                             "typeParameters": null,
-                                                            "formalParameters": {
+                                                            "formalParameterList": {
                                                                 "kind": 214,
                                                                 "formalParameters": [],
                                                                 "trailingComma": false,
@@ -1079,7 +1079,7 @@
                                                                 "end": 275
                                                             },
                                                             "typeParameters": null,
-                                                            "formalParameters": {
+                                                            "formalParameterList": {
                                                                 "kind": 214,
                                                                 "formalParameters": [],
                                                                 "trailingComma": false,
@@ -1232,7 +1232,7 @@
                                                                 "end": 316
                                                             },
                                                             "typeParameters": null,
-                                                            "formalParameters": {
+                                                            "formalParameterList": {
                                                                 "kind": 214,
                                                                 "formalParameters": [],
                                                                 "trailingComma": false,
@@ -1332,32 +1332,32 @@
   });
 (class  {
     a = class  {
-        #a {}
+        #a() {}
       };
   });
 (class  {
     a = class  {
-        get #a {}
+        get #a() {}
       };
   });
 (class  {
     a = class  {
-        set #a {}
+        set #a() {}
       };
   });
 (class  {
     a = class  {
-        #a {}
+        #a() {}
       };
   });
 (class  {
     a = class  {
-        async #a {}
+        async #a() {}
       };
   });
 (class  {
     a = class  {
-        async #a {}
+        async #a() {}
       };
   });
 ```

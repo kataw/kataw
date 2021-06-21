@@ -60,7 +60,7 @@ x= { *prototype(){} }
                                         "end": 15
                                     },
                                     "typeParameters": null,
-                                    "formalParameters": {
+                                    "formalParameterList": {
                                         "kind": 214,
                                         "formalParameters": [],
                                         "trailingComma": false,
@@ -123,7 +123,7 @@ x= { *prototype(){} }
 
 ```javascript
 
-x = { * prototype {} };
+x = { * prototype() {} };
 ```
 
 ### Diagnostics

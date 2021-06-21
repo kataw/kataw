@@ -92,7 +92,7 @@ class x extends y {
                                     "end": 33
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -126,7 +126,6 @@ class x extends y {
                                                                 "properties": [
                                                                     {
                                                                         "kind": 329,
-                                                                        "ellipsisToken": null,
                                                                         "key": {
                                                                             "kind": 201392131,
                                                                             "text": "foo",

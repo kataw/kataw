@@ -73,7 +73,7 @@ class x {static void(){}}
                                     "end": 20
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -132,7 +132,7 @@ class x {static void(){}}
 ```javascript
 
 class x {
-  static static void {}
+  static static void() {}
 }
 ```
 

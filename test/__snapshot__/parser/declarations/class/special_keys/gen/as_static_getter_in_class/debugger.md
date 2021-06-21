@@ -78,7 +78,7 @@ class x {static get debugger(){}}
                                     "end": 28
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -137,7 +137,7 @@ class x {static get debugger(){}}
 ```javascript
 
 class x {
-  static get static debugger {}
+  static get static debugger() {}
 }
 ```
 

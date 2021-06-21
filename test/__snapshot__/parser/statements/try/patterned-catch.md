@@ -80,7 +80,6 @@ try {} catch ([a,b, {c, d:e=0, [f]:g=0, h=i}]) {}
                                         },
                                         {
                                             "kind": 329,
-                                            "ellipsisToken": null,
                                             "key": {
                                                 "kind": 134299649,
                                                 "text": "d",
@@ -111,7 +110,6 @@ try {} catch ([a,b, {c, d:e=0, [f]:g=0, h=i}]) {}
                                         },
                                         {
                                             "kind": 329,
-                                            "ellipsisToken": null,
                                             "key": {
                                                 "kind": 194,
                                                 "expression": {

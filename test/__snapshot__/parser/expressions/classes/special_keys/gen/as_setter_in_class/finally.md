@@ -73,7 +73,7 @@ class x {set finally(x){}}
                                     "end": 20
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [
                                         {
@@ -141,7 +141,7 @@ class x {set finally(x){}}
 ```javascript
 
 class x {
-  set finally {}
+  set finally() {}
 }
 ```
 

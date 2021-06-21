@@ -78,7 +78,7 @@ class x {async * delete(){}}
                                     "end": 23
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -137,7 +137,7 @@ class x {async * delete(){}}
 ```javascript
 
 class x {
-  async delete {}
+  async delete() {}
 }
 ```
 

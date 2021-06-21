@@ -78,7 +78,7 @@ class x {static set typeof(x){}}
                                     "end": 26
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [
                                         {
@@ -146,7 +146,7 @@ class x {static set typeof(x){}}
 ```javascript
 
 class x {
-  static set static typeof {}
+  static set static typeof() {}
 }
 ```
 

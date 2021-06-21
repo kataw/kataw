@@ -78,7 +78,7 @@ class x {static * protected(){}}
                                     "end": 27
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -137,7 +137,7 @@ class x {static * protected(){}}
 ```javascript
 
 class x {
-  static static protected {}
+  static static protected() {}
 }
 ```
 

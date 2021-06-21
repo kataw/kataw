@@ -102,7 +102,7 @@ class C<T> {
                                     "end": 18
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -415,7 +415,7 @@ class C<T> {
 ```javascript
 
 class C {
-  foo {
+  foo() {
     TypeAssertIs  < T > (9);
     TypeAssertIs  < T | number > (9);
     TypeAssertIs  < { A: number, B: T } > (9);

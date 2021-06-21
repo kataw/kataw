@@ -57,7 +57,7 @@ x({async foo(){}, async bar(){}});
                                                 "end": 12
                                             },
                                             "typeParameters": null,
-                                            "formalParameters": {
+                                            "formalParameterList": {
                                                 "kind": 214,
                                                 "formalParameters": [],
                                                 "trailingComma": false,
@@ -110,7 +110,7 @@ x({async foo(){}, async bar(){}});
                                                 "end": 27
                                             },
                                             "typeParameters": null,
-                                            "formalParameters": {
+                                            "formalParameterList": {
                                                 "kind": 214,
                                                 "formalParameters": [],
                                                 "trailingComma": false,
@@ -179,7 +179,7 @@ x({async foo(){}, async bar(){}});
 
 ```javascript
 
-x({ async foo {}, async bar {} });
+x({ async foo() {}, async bar() {} });
 ```
 
 ### Diagnostics

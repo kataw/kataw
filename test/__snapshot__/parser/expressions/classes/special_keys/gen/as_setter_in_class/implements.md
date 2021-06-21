@@ -73,7 +73,7 @@ class x {set implements(x){}}
                                     "end": 23
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [
                                         {
@@ -141,7 +141,7 @@ class x {set implements(x){}}
 ```javascript
 
 class x {
-  set implements {}
+  set implements() {}
 }
 ```
 

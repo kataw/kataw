@@ -38,27 +38,34 @@ for await (const item of arr) {
                 "end": 9
             },
             "initializer": {
-                "kind": 151,
-                "bindingList": [
-                    {
-                        "kind": 190,
-                        "binding": {
-                            "kind": 134299649,
-                            "text": "item",
-                            "rawText": "item",
-                            "flags": 96,
+                "kind": 162,
+                "lexicalKeyword": null,
+                "binding": {
+                    "kind": 151,
+                    "bindingList": [
+                        {
+                            "kind": 190,
+                            "binding": {
+                                "kind": 134299649,
+                                "text": "item",
+                                "rawText": "item",
+                                "flags": 96,
+                                "start": 16,
+                                "end": 21
+                            },
+                            "type": null,
+                            "initializer": null,
+                            "flags": 16,
                             "start": 16,
                             "end": 21
-                        },
-                        "type": null,
-                        "initializer": null,
-                        "flags": 16,
-                        "start": 16,
-                        "end": 21
-                    }
-                ],
-                "flags": 16777232,
-                "start": 16,
+                        }
+                    ],
+                    "flags": 16777232,
+                    "start": 16,
+                    "end": 21
+                },
+                "flags": 33554448,
+                "start": 0,
                 "end": 21
             },
             "ofKeyword": {
@@ -121,7 +128,7 @@ for await (const item of arr) {
 
 ```javascript
 
-for await (const of arr)
+for await (item; of arr)
   {
     item;
   }

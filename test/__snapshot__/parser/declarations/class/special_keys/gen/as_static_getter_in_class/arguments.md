@@ -78,7 +78,7 @@ class x {static get arguments(){}}
                                     "end": 29
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -137,7 +137,7 @@ class x {static get arguments(){}}
 ```javascript
 
 class x {
-  static get static arguments {}
+  static get static arguments() {}
 }
 ```
 

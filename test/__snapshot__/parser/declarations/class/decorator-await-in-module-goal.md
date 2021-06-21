@@ -98,7 +98,7 @@ class C2 {
                                     "end": 27
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -158,7 +158,7 @@ class C2 {
 
 @await
 class C2 {
-  method {}
+  method() {}
 }
 ```
 

@@ -78,7 +78,7 @@ class x {async *f(foo = [{m: t(await bar)}]){}}
                                     "end": 17
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [
                                         {

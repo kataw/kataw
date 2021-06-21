@@ -36,7 +36,6 @@ var {x: y, z: { a: b } } = { x: "3", z: { a: "b" } };
                                 "properties": [
                                     {
                                         "kind": 329,
-                                        "ellipsisToken": null,
                                         "key": {
                                             "kind": 134299649,
                                             "text": "x",
@@ -60,7 +59,6 @@ var {x: y, z: { a: b } } = { x: "3", z: { a: "b" } };
                                     },
                                     {
                                         "kind": 329,
-                                        "ellipsisToken": null,
                                         "key": {
                                             "kind": 134299649,
                                             "text": "z",
@@ -76,7 +74,6 @@ var {x: y, z: { a: b } } = { x: "3", z: { a: "b" } };
                                                 "properties": [
                                                     {
                                                         "kind": 329,
-                                                        "ellipsisToken": null,
                                                         "key": {
                                                             "kind": 134299649,
                                                             "text": "a",

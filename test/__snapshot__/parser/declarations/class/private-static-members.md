@@ -106,7 +106,7 @@ class Foo {
                                     "end": 37
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -167,7 +167,7 @@ class Foo {
                                     "end": 57
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [
                                         {
@@ -232,7 +232,7 @@ class Foo {
                                     "end": 74
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -283,7 +283,7 @@ class Foo {
                                     "end": 84
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -482,10 +482,10 @@ class Foo {
 
 class Foo {
   static #x;
-  static get static #y {}
-  static set static #y {}
-  static static #z {}
-  foo {
+  static get static #y() {}
+  static set static #y() {}
+  static static #z() {}
+  foo() {
     Foo.#x += 1;
     Foo.#y += 1;
     Foo.#z();

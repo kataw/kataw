@@ -55,7 +55,7 @@ o = {f(f) { }}
                                         "end": 6
                                     },
                                     "typeParameters": null,
-                                    "formalParameters": {
+                                    "formalParameterList": {
                                         "kind": 214,
                                         "formalParameters": [
                                             {
@@ -127,7 +127,7 @@ o = {f(f) { }}
 
 ```javascript
 
-o = { f {} };
+o = { f() {} };
 ```
 
 ### Diagnostics

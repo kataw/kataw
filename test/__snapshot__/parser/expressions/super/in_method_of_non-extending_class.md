@@ -60,7 +60,7 @@ class x { fo(){ return function() { super.foo; } }}
                                     "end": 12
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,

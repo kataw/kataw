@@ -78,7 +78,7 @@ class x {async * in(){}}
                                     "end": 19
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -137,7 +137,7 @@ class x {async * in(){}}
 ```javascript
 
 class x {
-  async in {}
+  async in() {}
 }
 ```
 

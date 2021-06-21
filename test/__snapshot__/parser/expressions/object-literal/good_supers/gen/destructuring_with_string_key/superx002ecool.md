@@ -92,7 +92,7 @@ class x extends y {
                                     "end": 33
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -240,7 +240,7 @@ class x extends y {
 ```javascript
 
 class x  {
-  constructor {
+  constructor() {
     ({ "\"foo\"": super.cool } = x);
   }
 }

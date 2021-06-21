@@ -58,7 +58,7 @@ x = {
                                         "end": 13
                                     },
                                     "typeParameters": null,
-                                    "formalParameters": {
+                                    "formalParameterList": {
                                         "kind": 214,
                                         "formalParameters": [],
                                         "trailingComma": false,
@@ -127,7 +127,7 @@ x = {
 
 ```javascript
 
-x = { get {} };
+x = { get() {} };
 
 ```
 

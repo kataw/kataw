@@ -122,85 +122,91 @@ async function f() { 'use strict'; let a; for await (const {[Symbol.iterator]: a
                                 "end": 51
                             },
                             "initializer": {
-                                "kind": 151,
-                                "bindingList": [
-                                    {
-                                        "kind": 190,
-                                        "binding": {
-                                            "kind": 212,
-                                            "propertyList": {
-                                                "kind": 213,
-                                                "properties": [
-                                                    {
-                                                        "kind": 329,
-                                                        "ellipsisToken": null,
-                                                        "key": {
-                                                            "kind": 194,
-                                                            "expression": {
-                                                                "kind": 129,
-                                                                "member": {
-                                                                    "kind": 134299649,
-                                                                    "text": "Symbol",
-                                                                    "rawText": "Symbol",
-                                                                    "flags": 96,
-                                                                    "start": 61,
-                                                                    "end": 67
-                                                                },
+                                "kind": 162,
+                                "lexicalKeyword": null,
+                                "binding": {
+                                    "kind": 151,
+                                    "bindingList": [
+                                        {
+                                            "kind": 190,
+                                            "binding": {
+                                                "kind": 212,
+                                                "propertyList": {
+                                                    "kind": 213,
+                                                    "properties": [
+                                                        {
+                                                            "kind": 329,
+                                                            "key": {
+                                                                "kind": 194,
                                                                 "expression": {
-                                                                    "kind": 134299649,
-                                                                    "text": "iterator",
-                                                                    "rawText": "iterator",
-                                                                    "flags": 96,
-                                                                    "start": 68,
+                                                                    "kind": 129,
+                                                                    "member": {
+                                                                        "kind": 134299649,
+                                                                        "text": "Symbol",
+                                                                        "rawText": "Symbol",
+                                                                        "flags": 96,
+                                                                        "start": 61,
+                                                                        "end": 67
+                                                                    },
+                                                                    "expression": {
+                                                                        "kind": 134299649,
+                                                                        "text": "iterator",
+                                                                        "rawText": "iterator",
+                                                                        "flags": 96,
+                                                                        "start": 68,
+                                                                        "end": 76
+                                                                    },
+                                                                    "flags": 536870944,
+                                                                    "start": 61,
                                                                     "end": 76
                                                                 },
-                                                                "flags": 536870944,
-                                                                "start": 61,
-                                                                "end": 76
+                                                                "flags": 32,
+                                                                "start": 60,
+                                                                "end": 77
+                                                            },
+                                                            "value": {
+                                                                "kind": 134299649,
+                                                                "text": "a",
+                                                                "rawText": "a",
+                                                                "flags": 96,
+                                                                "start": 78,
+                                                                "end": 80
+                                                            },
+                                                            "initializer": {
+                                                                "kind": 201392130,
+                                                                "text": 1,
+                                                                "rawText": "1",
+                                                                "flags": 96,
+                                                                "start": 82,
+                                                                "end": 84
                                                             },
                                                             "flags": 32,
                                                             "start": 60,
-                                                            "end": 77
-                                                        },
-                                                        "value": {
-                                                            "kind": 134299649,
-                                                            "text": "a",
-                                                            "rawText": "a",
-                                                            "flags": 96,
-                                                            "start": 78,
-                                                            "end": 80
-                                                        },
-                                                        "initializer": {
-                                                            "kind": 201392130,
-                                                            "text": 1,
-                                                            "rawText": "1",
-                                                            "flags": 96,
-                                                            "start": 82,
                                                             "end": 84
-                                                        },
-                                                        "flags": 32,
-                                                        "start": 60,
-                                                        "end": 84
-                                                    }
-                                                ],
-                                                "trailingComma": false,
+                                                        }
+                                                    ],
+                                                    "trailingComma": false,
+                                                    "flags": 32,
+                                                    "start": 60,
+                                                    "end": 84
+                                                },
                                                 "flags": 32,
-                                                "start": 60,
-                                                "end": 84
+                                                "start": 58,
+                                                "end": 85
                                             },
-                                            "flags": 32,
+                                            "type": null,
+                                            "initializer": null,
+                                            "flags": 16,
                                             "start": 58,
                                             "end": 85
-                                        },
-                                        "type": null,
-                                        "initializer": null,
-                                        "flags": 16,
-                                        "start": 58,
-                                        "end": 85
-                                    }
-                                ],
-                                "flags": 16777232,
-                                "start": 58,
+                                        }
+                                    ],
+                                    "flags": 16777232,
+                                    "start": 58,
+                                    "end": 85
+                                },
+                                "flags": 33554448,
+                                "start": 41,
                                 "end": 85
                             },
                             "ofKeyword": {
@@ -263,7 +269,9 @@ async function f() { 'use strict'; let a; for await (const {[Symbol.iterator]: a
 
 async function f() {
   let a;
-  for await (const of []);
+  for await ({
+    [Symbol.iterator]: a = 1
+  }; of []);
 }
 ```
 

@@ -65,7 +65,7 @@ class C { static delete() {} }
                                     "end": 23
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -124,7 +124,7 @@ class C { static delete() {} }
 ```javascript
 
 class C {
-  static static delete {}
+  static static delete() {}
 }
 ```
 

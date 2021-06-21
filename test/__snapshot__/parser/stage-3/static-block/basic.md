@@ -76,7 +76,7 @@ class C {
                                     "end": 22
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -216,7 +216,7 @@ class C {
 ```javascript
 
 class C {
-  static static foo {}
+  static static foo() {}
 
 }
 ```

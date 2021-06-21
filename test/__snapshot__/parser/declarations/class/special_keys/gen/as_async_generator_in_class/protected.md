@@ -78,7 +78,7 @@ class x {async * protected(){}}
                                     "end": 26
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -137,7 +137,7 @@ class x {async * protected(){}}
 ```javascript
 
 class x {
-  async protected {}
+  async protected() {}
 }
 ```
 

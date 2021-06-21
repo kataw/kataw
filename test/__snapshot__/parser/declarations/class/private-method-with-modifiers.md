@@ -72,7 +72,7 @@ class Foo {
                                     "end": 16
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -128,7 +128,7 @@ class Foo {
                                     "end": 31
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -189,7 +189,7 @@ class Foo {
                                     "end": 48
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -250,7 +250,7 @@ class Foo {
                                     "end": 66
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -311,7 +311,7 @@ class Foo {
                                     "end": 89
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -377,7 +377,7 @@ class Foo {
                                     "end": 114
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -436,12 +436,12 @@ class Foo {
 ```javascript
 
 class Foo {
-  #g {}
-  async #a {}
-  async #ag {}
-  static static #sg {}
-  async static static #sa {}
-  async static static #sag {}
+  #g() {}
+  async #a() {}
+  async #ag() {}
+  static static #sg() {}
+  async static static #sa() {}
+  async static static #sag() {}
 }
 ```
 

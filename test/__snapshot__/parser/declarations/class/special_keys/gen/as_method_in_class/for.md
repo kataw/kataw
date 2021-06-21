@@ -68,7 +68,7 @@ class x {for(){}}
                                     "end": 12
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -127,7 +127,7 @@ class x {for(){}}
 ```javascript
 
 class x {
-  for {}
+  for() {}
 }
 ```
 

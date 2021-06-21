@@ -73,7 +73,7 @@ class x {get implements(){}}
                                     "end": 23
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -132,7 +132,7 @@ class x {get implements(){}}
 ```javascript
 
 class x {
-  get implements {}
+  get implements() {}
 }
 ```
 

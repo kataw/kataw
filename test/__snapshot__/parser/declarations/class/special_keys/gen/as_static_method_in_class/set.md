@@ -73,7 +73,7 @@ class x {static set(){}}
                                     "end": 19
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -132,7 +132,7 @@ class x {static set(){}}
 ```javascript
 
 class x {
-  static static set {}
+  static static set() {}
 }
 ```
 

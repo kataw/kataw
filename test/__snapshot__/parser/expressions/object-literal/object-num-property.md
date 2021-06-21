@@ -78,7 +78,7 @@
                                         "end": 13
                                     },
                                     "typeParameters": null,
-                                    "formalParameters": {
+                                    "formalParameterList": {
                                         "kind": 214,
                                         "formalParameters": [
                                             {
@@ -190,7 +190,7 @@
                                         "end": 36
                                     },
                                     "typeParameters": null,
-                                    "formalParameters": {
+                                    "formalParameterList": {
                                         "kind": 214,
                                         "formalParameters": [],
                                         "trailingComma": false,
@@ -293,7 +293,7 @@
                                         "end": 60
                                     },
                                     "typeParameters": null,
-                                    "formalParameters": {
+                                    "formalParameterList": {
                                         "kind": 214,
                                         "formalParameters": [
                                             {
@@ -528,7 +528,7 @@
                                         "end": 115
                                     },
                                     "typeParameters": null,
-                                    "formalParameters": {
+                                    "formalParameterList": {
                                         "kind": 214,
                                         "formalParameters": [],
                                         "trailingComma": false,
@@ -608,7 +608,7 @@
                                         "end": 133
                                     },
                                     "typeParameters": null,
-                                    "formalParameters": {
+                                    "formalParameterList": {
                                         "kind": 214,
                                         "formalParameters": [
                                             {
@@ -697,7 +697,7 @@
                                         "end": 150
                                     },
                                     "typeParameters": null,
-                                    "formalParameters": {
+                                    "formalParameterList": {
                                         "kind": 214,
                                         "formalParameters": [
                                             {
@@ -809,7 +809,7 @@
                                         "end": 177
                                     },
                                     "typeParameters": null,
-                                    "formalParameters": {
+                                    "formalParameterList": {
                                         "kind": 214,
                                         "formalParameters": [],
                                         "trailingComma": false,
@@ -912,7 +912,7 @@
                                         "end": 199
                                     },
                                     "typeParameters": null,
-                                    "formalParameters": {
+                                    "formalParameterList": {
                                         "kind": 214,
                                         "formalParameters": [],
                                         "trailingComma": false,
@@ -975,16 +975,16 @@
 
 ```javascript
 
-({ 1: 1, set 1 {} });
-({ 1: 1, get 1 {} });
-({ 1: 1, set "\"1\"" {} });
+({ 1: 1, set 1() {} });
+({ 1: 1, get 1() {} });
+({ 1: 1, set "\"1\""() {} });
 ({ foo: 1, bar: 2 });
 ({ 1: 1, 2: 2 });
-({ get foo {} });
-({ set foo {} });
-({ set 1 {} });
-({ foo: 1, get bar {} });
-({ 1: 1, get 2 {} });
+({ get foo() {} });
+({ set foo() {} });
+({ set 1() {} });
+({ foo: 1, get bar() {} });
+({ 1: 1, get 2() {} });
 ```
 
 ### Diagnostics

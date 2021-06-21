@@ -73,7 +73,7 @@ class x {set continue(x){}}
                                     "end": 21
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [
                                         {
@@ -141,7 +141,7 @@ class x {set continue(x){}}
 ```javascript
 
 class x {
-  set continue {}
+  set continue() {}
 }
 ```
 

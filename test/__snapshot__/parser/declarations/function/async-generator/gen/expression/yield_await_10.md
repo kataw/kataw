@@ -59,7 +59,7 @@
                                         "end": 14
                                     },
                                     "typeParameters": null,
-                                    "formalParameters": {
+                                    "formalParameterList": {
                                         "kind": 214,
                                         "formalParameters": [],
                                         "trailingComma": false,
@@ -163,7 +163,7 @@
 
 ```javascript
 
-({ * async gen {
+({ * async gen() {
     yield await 10;
   } });
 ```

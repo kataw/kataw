@@ -1341,7 +1341,7 @@
                                         "end": 299
                                     },
                                     "typeParameters": null,
-                                    "formalParameters": {
+                                    "formalParameterList": {
                                         "kind": 214,
                                         "formalParameters": [
                                             {
@@ -1403,7 +1403,7 @@
                                         "end": 313
                                     },
                                     "typeParameters": null,
-                                    "formalParameters": {
+                                    "formalParameterList": {
                                         "kind": 214,
                                         "formalParameters": [
                                             {
@@ -1492,7 +1492,7 @@
                                         "end": 333
                                     },
                                     "typeParameters": null,
-                                    "formalParameters": {
+                                    "formalParameterList": {
                                         "kind": 214,
                                         "formalParameters": [
                                             {
@@ -1549,7 +1549,7 @@
                                         "end": 343
                                     },
                                     "typeParameters": null,
-                                    "formalParameters": {
+                                    "formalParameterList": {
                                         "kind": 214,
                                         "formalParameters": [],
                                         "trailingComma": false,
@@ -1750,8 +1750,8 @@
 (x = { [a]: x = (y) }) / y.z;
 (x = { [a]: (x = (y)) }) / y.z;
 ({ ...1 in {} });
-({ set foo {}, set bar {} });
-({ set foo {}, bar {} });
+({ set foo() {}, set bar() {} });
+({ set foo() {}, bar() {} });
 ({ foo: typeof x });
 ({ foo: true / false });
 ```

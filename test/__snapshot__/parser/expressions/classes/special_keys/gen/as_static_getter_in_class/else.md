@@ -78,7 +78,7 @@ class x {static get else(){}}
                                     "end": 24
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -137,7 +137,7 @@ class x {static get else(){}}
 ```javascript
 
 class x {
-  static get static else {}
+  static get static else() {}
 }
 ```
 

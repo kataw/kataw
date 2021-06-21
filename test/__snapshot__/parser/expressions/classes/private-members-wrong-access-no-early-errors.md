@@ -74,7 +74,7 @@
                                             "end": 15
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [
                                                 {
@@ -134,7 +134,7 @@
                                             "end": 26
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -265,7 +265,7 @@
                                             "end": 69
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -316,7 +316,7 @@
                                             "end": 78
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -453,7 +453,7 @@
                                             "end": 116
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -504,7 +504,7 @@
                                             "end": 125
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [
                                                 {
@@ -689,7 +689,7 @@
                                             "end": 175
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -740,7 +740,7 @@
                                             "end": 184
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -846,26 +846,26 @@
 ```javascript
 
 (class  {
-    set #b {}
-    fn {
+    set #b() {}
+    fn() {
       return  this.#b;
     }
   });
 (class  {
-    get #b {}
-    fn {
+    get #b() {}
+    fn() {
       this.#b++;
     }
   });
 (class  {
-    get #b {}
-    fn {
+    get #b() {}
+    fn() {
       ({ y: this.#b } = obj);
     }
   });
 (class  {
-    #b {}
-    fn {
+    #b() {}
+    fn() {
       this.#b++;
     }
   });

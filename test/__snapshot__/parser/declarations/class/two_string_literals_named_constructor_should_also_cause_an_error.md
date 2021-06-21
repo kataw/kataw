@@ -79,7 +79,7 @@ class x { 'constructor'(){}; "constructor"(){}; }
                                     "end": 23
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -136,7 +136,7 @@ class x { 'constructor'(){}; "constructor"(){}; }
                                     "end": 42
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,

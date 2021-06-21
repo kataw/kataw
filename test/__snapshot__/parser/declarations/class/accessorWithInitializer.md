@@ -76,7 +76,7 @@ class C {
                                     "end": 19
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [
                                         {
@@ -163,7 +163,7 @@ class C {
                                     "end": 47
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [
                                         {
@@ -248,8 +248,8 @@ class C {
 ```javascript
 
 class C {
-  set X {}
-  static set static X {}
+  set X() {}
+  static set static X() {}
 }
 ```
 

@@ -106,7 +106,7 @@ async function g(){let o = {f(foo = await bar){}}    }
                                                                 "end": 29
                                                             },
                                                             "typeParameters": null,
-                                                            "formalParameters": {
+                                                            "formalParameterList": {
                                                                 "kind": 214,
                                                                 "formalParameters": [
                                                                     {

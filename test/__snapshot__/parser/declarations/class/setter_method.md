@@ -84,7 +84,7 @@ class A {set "foo"(x){}}
                                     "end": 18
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [
                                         {
@@ -152,7 +152,7 @@ class A {set "foo"(x){}}
 ```javascript
 
 class A {
-  set "\"foo\"" {}
+  set "\"foo\""() {}
 }
 ```
 

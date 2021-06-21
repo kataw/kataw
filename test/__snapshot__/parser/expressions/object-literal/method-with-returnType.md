@@ -68,7 +68,7 @@ a={get fooProp():number{}}
                                         "end": 14
                                     },
                                     "typeParameters": null,
-                                    "formalParameters": {
+                                    "formalParameterList": {
                                         "kind": 214,
                                         "formalParameters": [],
                                         "trailingComma": false,
@@ -144,7 +144,7 @@ a={get fooProp():number{}}
 
 ```javascript
 
-a = { get fooProp {} };
+a = { get fooProp() {} };
 ```
 
 ### Diagnostics

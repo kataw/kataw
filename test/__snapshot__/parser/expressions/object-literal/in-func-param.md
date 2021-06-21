@@ -44,13 +44,30 @@ function test({...{}}) {}
                             "kind": 213,
                             "properties": [
                                 {
-                                    "kind": 329,
+                                    "kind": 281,
                                     "ellipsisToken": {
                                         "kind": 524302,
                                         "flags": 64,
                                         "start": 15,
                                         "end": 18
                                     },
+                                    "left": {
+                                        "kind": 16637,
+                                        "text": "",
+                                        "rawText": "",
+                                        "flags": 64,
+                                        "start": 18,
+                                        "end": 18
+                                    },
+                                    "optionalToken": null,
+                                    "type": null,
+                                    "right": null,
+                                    "flags": 0,
+                                    "start": 15,
+                                    "end": 18
+                                },
+                                {
+                                    "kind": 329,
                                     "key": {
                                         "kind": 16637,
                                         "text": "",
@@ -75,7 +92,7 @@ function test({...{}}) {}
                                     },
                                     "initializer": null,
                                     "flags": 32,
-                                    "start": 15,
+                                    "start": 18,
                                     "end": 20
                                 }
                             ],
@@ -133,6 +150,7 @@ function test({...{}}) {}
 
 ```javascript
 ✖ Identifier expected - start: 18, end: 19
+✖ ',' expected - start: 18, end: 19
 
 ```
 

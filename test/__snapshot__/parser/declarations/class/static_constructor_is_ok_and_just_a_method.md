@@ -84,7 +84,7 @@ class x { static "constructor"(){} }
                                     "end": 30
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -143,7 +143,7 @@ class x { static "constructor"(){} }
 ```javascript
 
 class x {
-  static static "\"constructor\"" {}
+  static static "\"constructor\""() {}
 }
 ```
 

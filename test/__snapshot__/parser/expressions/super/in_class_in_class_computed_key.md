@@ -86,7 +86,7 @@ class A extends B {
                                     "end": 23
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -190,7 +190,7 @@ class A extends B {
                                                                         "end": 70
                                                                     },
                                                                     "typeParameters": null,
-                                                                    "formalParameters": {
+                                                                    "formalParameterList": {
                                                                         "kind": 214,
                                                                         "formalParameters": [],
                                                                         "trailingComma": false,
@@ -279,9 +279,9 @@ class A extends B {
 ```javascript
 
 class A  {
-  x {
+  x() {
     class C  {
-      [] {}
+      []() {}
     }
   }
 }

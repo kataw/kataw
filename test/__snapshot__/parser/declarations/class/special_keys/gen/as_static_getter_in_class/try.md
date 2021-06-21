@@ -78,7 +78,7 @@ class x {static get try(){}}
                                     "end": 23
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -137,7 +137,7 @@ class x {static get try(){}}
 ```javascript
 
 class x {
-  static get static try {}
+  static get static try() {}
 }
 ```
 

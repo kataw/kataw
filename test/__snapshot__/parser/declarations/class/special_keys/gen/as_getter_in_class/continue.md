@@ -73,7 +73,7 @@ class x {get continue(){}}
                                     "end": 21
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -132,7 +132,7 @@ class x {get continue(){}}
 ```javascript
 
 class x {
-  get continue {}
+  get continue() {}
 }
 ```
 

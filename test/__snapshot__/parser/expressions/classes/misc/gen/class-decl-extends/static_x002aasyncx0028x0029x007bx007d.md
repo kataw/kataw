@@ -98,7 +98,7 @@ class C extends Base { static *async(){} }
                                     "end": 36
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -157,7 +157,7 @@ class C extends Base { static *async(){} }
 ```javascript
 
 class C  {
-  static static async {}
+  static static async() {}
 }
 ```
 

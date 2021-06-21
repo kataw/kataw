@@ -70,7 +70,7 @@ class A {static get foo(){}}
                                     "end": 23
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -129,7 +129,7 @@ class A {static get foo(){}}
 ```javascript
 
 class A {
-  static get static foo {}
+  static get static foo() {}
 }
 ```
 

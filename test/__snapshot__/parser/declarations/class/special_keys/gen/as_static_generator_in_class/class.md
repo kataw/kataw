@@ -78,7 +78,7 @@ class x {static * class(){}}
                                     "end": 23
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -137,7 +137,7 @@ class x {static * class(){}}
 ```javascript
 
 class x {
-  static static class {}
+  static static class() {}
 }
 ```
 

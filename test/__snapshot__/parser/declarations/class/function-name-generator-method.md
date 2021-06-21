@@ -67,7 +67,7 @@ class A {
                                     "end": 18
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -126,7 +126,7 @@ class A {
 ```javascript
 
 class A {
-  yield {}
+  yield() {}
 }
 ```
 

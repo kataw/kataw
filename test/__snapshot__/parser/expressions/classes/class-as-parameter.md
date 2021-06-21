@@ -174,7 +174,7 @@ class A {
                                                                 "end": 74
                                                             },
                                                             "typeParameters": null,
-                                                            "formalParameters": {
+                                                            "formalParameterList": {
                                                                 "kind": 214,
                                                                 "formalParameters": [
                                                                     {
@@ -359,7 +359,7 @@ class A {
                                     "end": 145
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -419,13 +419,13 @@ class A {
 
 var C;
 function decorator() {
-  return  Object.assign(el, { finisher {
+  return  Object.assign(el, { finisher() {
         C = Class;
       } });
 }
 class A {
   @decorator
-  foo {}
+  foo() {}
 }
 ```
 

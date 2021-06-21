@@ -55,7 +55,7 @@ x = { method(test: string): number { } };
                                         "end": 12
                                     },
                                     "typeParameters": null,
-                                    "formalParameters": {
+                                    "formalParameterList": {
                                         "kind": 214,
                                         "formalParameters": [
                                             {

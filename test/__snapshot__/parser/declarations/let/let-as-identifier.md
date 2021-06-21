@@ -940,7 +940,7 @@ L: let
                                                 "end": 299
                                             },
                                             "typeParameters": null,
-                                            "formalParameters": {
+                                            "formalParameterList": {
                                                 "kind": 214,
                                                 "formalParameters": [],
                                                 "trailingComma": false,
@@ -1191,7 +1191,7 @@ let++;
 function let() {
   let: let(let + let(0));
 }
-({ let: 1 })({ get let {
+({ let: 1 })({ get let() {
     1;
   } });
 let(100);

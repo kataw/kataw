@@ -68,7 +68,7 @@ class Foo {
                                     "end": 31
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -127,7 +127,7 @@ class Foo {
 ```javascript
 
 class Foo {
-  static static bar {}
+  static static bar() {}
 }
 ```
 

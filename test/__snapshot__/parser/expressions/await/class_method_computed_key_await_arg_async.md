@@ -143,7 +143,7 @@ async function f(){
                                                                     "end": 48
                                                                 },
                                                                 "typeParameters": null,
-                                                                "formalParameters": {
+                                                                "formalParameterList": {
                                                                     "kind": 214,
                                                                     "formalParameters": [],
                                                                     "trailingComma": false,
@@ -200,7 +200,7 @@ async function f(){
                                                                     "end": 57
                                                                 },
                                                                 "typeParameters": null,
-                                                                "formalParameters": {
+                                                                "formalParameterList": {
                                                                     "kind": 214,
                                                                     "formalParameters": [],
                                                                     "trailingComma": false,
@@ -303,9 +303,9 @@ async function f(){
 
 async function f() {
   (fail = class A {
-    [await x] {}
+    [await x]() {}
 
-    "\"x\"" {}
+    "\"x\""() {}
   }) =>  {};
 }
 ```

@@ -78,7 +78,7 @@ class x {static set switch(x){}}
                                     "end": 26
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [
                                         {
@@ -146,7 +146,7 @@ class x {static set switch(x){}}
 ```javascript
 
 class x {
-  static set static switch {}
+  static set static switch() {}
 }
 ```
 

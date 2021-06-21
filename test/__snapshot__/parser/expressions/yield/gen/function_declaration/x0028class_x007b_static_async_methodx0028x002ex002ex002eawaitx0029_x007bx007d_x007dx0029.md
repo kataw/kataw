@@ -108,7 +108,7 @@ function not_gen() { (class { static async method(...await) {} }) }}
                                                             "end": 49
                                                         },
                                                         "typeParameters": null,
-                                                        "formalParameters": {
+                                                        "formalParameterList": {
                                                             "kind": 214,
                                                             "formalParameters": [
                                                                 {

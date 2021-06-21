@@ -397,7 +397,7 @@ class Array { concat(items:number | string) {}; }
                                     "end": 111
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [
                                         {
@@ -523,7 +523,7 @@ class Array { concat(items:number | string) {}; }
                                     "end": 158
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [
                                         {
@@ -662,7 +662,7 @@ class Array { concat(items:number | string) {}; }
                                     "end": 211
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -794,7 +794,7 @@ class Array { concat(items:number | string) {}; }
                                     "start": 247,
                                     "end": 250
                                 },
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -1124,7 +1124,7 @@ class Array { concat(items:number | string) {}; }
                                     "end": 386
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [
                                         {
@@ -1238,16 +1238,16 @@ class Foo4 {}
 class Foo5  {}
 class Foo6  {}
 class Foo1 {
-  set fooProp {}
+  set fooProp() {}
 }
 class Foo2 {
-  set fooProp {}
+  set fooProp() {}
 }
 class Foo3 {
-  get fooProp {}
+  get fooProp() {}
 }
 class Foo8 {
-  "\"bar\"" {}
+  "\"bar\""() {}
 }
 class Foo10 {
   static prop1;
@@ -1262,7 +1262,7 @@ class Foo11 {
 
 }
 class Array {
-  concat {}
+  concat() {}
 
 }
 ```

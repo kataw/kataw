@@ -61,7 +61,6 @@ var {x = 10, y: { z = 10}} = a;
                                     },
                                     {
                                         "kind": 329,
-                                        "ellipsisToken": null,
                                         "key": {
                                             "kind": 134299649,
                                             "text": "y",

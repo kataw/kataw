@@ -102,7 +102,7 @@ function f() { class C { yield() { } } }
                                                     "end": 30
                                                 },
                                                 "typeParameters": null,
-                                                "formalParameters": {
+                                                "formalParameterList": {
                                                     "kind": 214,
                                                     "formalParameters": [],
                                                     "trailingComma": false,
@@ -176,7 +176,7 @@ function f() { class C { yield() { } } }
 
 function f() {
   class C {
-    yield {}
+    yield() {}
   }
 }
 ```

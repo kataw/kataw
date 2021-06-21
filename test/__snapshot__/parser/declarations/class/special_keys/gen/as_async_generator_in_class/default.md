@@ -78,7 +78,7 @@ class x {async * default(){}}
                                     "end": 24
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -137,7 +137,7 @@ class x {async * default(){}}
 ```javascript
 
 class x {
-  async default {}
+  async default() {}
 }
 ```
 

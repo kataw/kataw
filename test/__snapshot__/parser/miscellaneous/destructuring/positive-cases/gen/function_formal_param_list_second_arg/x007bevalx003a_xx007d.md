@@ -61,7 +61,6 @@ function f(argument1, {eval: x}) {}
                             "properties": [
                                 {
                                     "kind": 329,
-                                    "ellipsisToken": null,
                                     "key": {
                                         "kind": 134299649,
                                         "text": "eval",

@@ -35,13 +35,30 @@ var { ...{ x = 5 } } = {x : 1};
                                 "kind": 213,
                                 "properties": [
                                     {
-                                        "kind": 329,
+                                        "kind": 281,
                                         "ellipsisToken": {
                                             "kind": 524302,
                                             "flags": 64,
                                             "start": 5,
                                             "end": 9
                                         },
+                                        "left": {
+                                            "kind": 16637,
+                                            "text": "",
+                                            "rawText": "",
+                                            "flags": 64,
+                                            "start": 9,
+                                            "end": 9
+                                        },
+                                        "optionalToken": null,
+                                        "type": null,
+                                        "right": null,
+                                        "flags": 0,
+                                        "start": 5,
+                                        "end": 9
+                                    },
+                                    {
+                                        "kind": 329,
                                         "key": {
                                             "kind": 16637,
                                             "text": "",
@@ -92,7 +109,7 @@ var { ...{ x = 5 } } = {x : 1};
                                         },
                                         "initializer": null,
                                         "flags": 32,
-                                        "start": 5,
+                                        "start": 9,
                                         "end": 18
                                     }
                                 ],
@@ -177,6 +194,7 @@ var { ...{ x = 5 } } = {x : 1};
 
 ```javascript
 ✖ Identifier expected - start: 9, end: 10
+✖ ',' expected - start: 9, end: 10
 
 ```
 

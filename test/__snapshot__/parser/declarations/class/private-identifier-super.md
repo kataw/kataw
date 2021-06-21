@@ -107,7 +107,7 @@ class Foo extends Bar { #foo; foo() { super.#foo } }
                                     "end": 33
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,

@@ -65,7 +65,7 @@ class A {get foo(){}}
                                     "end": 16
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -124,7 +124,7 @@ class A {get foo(){}}
 ```javascript
 
 class A {
-  get foo {}
+  get foo() {}
 }
 ```
 

@@ -332,7 +332,7 @@ var callCount = 0;
                                                                 "end": 116
                                                             },
                                                             "typeParameters": null,
-                                                            "formalParameters": {
+                                                            "formalParameterList": {
                                                                 "kind": 214,
                                                                 "formalParameters": [],
                                                                 "trailingComma": false,
@@ -418,7 +418,7 @@ var callCount = 0;
 let o = { a: 2, b: 3 };
 let executedGetter = false;
 var callCount = 0;
-(function () {}.apply(null, [{ ...o, get c {} }]));
+(function () {}.apply(null, [{ ...o, get c() {} }]));
 ```
 
 ### Diagnostics

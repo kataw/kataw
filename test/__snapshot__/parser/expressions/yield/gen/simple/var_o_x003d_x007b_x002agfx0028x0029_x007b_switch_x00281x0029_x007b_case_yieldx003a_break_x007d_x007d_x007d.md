@@ -73,7 +73,7 @@ var o = { *gf() { switch (1) { case yield: break; } } }
                                                 "end": 13
                                             },
                                             "typeParameters": null,
-                                            "formalParameters": {
+                                            "formalParameterList": {
                                                 "kind": 214,
                                                 "formalParameters": [],
                                                 "trailingComma": false,
@@ -218,7 +218,7 @@ var o = { *gf() { switch (1) { case yield: break; } } }
 
 ```javascript
 
-var o = { * gf {
+var o = { * gf() {
     switch(1) {
       case  yield:
         break;

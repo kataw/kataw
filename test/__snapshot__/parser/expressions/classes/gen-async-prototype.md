@@ -70,7 +70,7 @@ class x { async *prototype(){} }
                                     "end": 26
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -129,7 +129,7 @@ class x { async *prototype(){} }
 ```javascript
 
 class x {
-  async prototype {}
+  async prototype() {}
 }
 ```
 

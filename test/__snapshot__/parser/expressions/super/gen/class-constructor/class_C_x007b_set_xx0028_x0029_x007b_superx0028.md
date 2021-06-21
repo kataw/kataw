@@ -68,7 +68,7 @@ class C { constructor() { class C { set x(_) { super( } }
                                     "end": 21
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -133,7 +133,7 @@ class C { constructor() { class C { set x(_) { super( } }
                                                                         "end": 41
                                                                     },
                                                                     "typeParameters": null,
-                                                                    "formalParameters": {
+                                                                    "formalParameterList": {
                                                                         "kind": 214,
                                                                         "formalParameters": [
                                                                             {

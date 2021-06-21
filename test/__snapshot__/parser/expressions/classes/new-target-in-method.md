@@ -67,7 +67,7 @@ class A {a(x=new.target){}}
                                     "end": 10
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [
                                         {

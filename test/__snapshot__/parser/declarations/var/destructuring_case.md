@@ -55,7 +55,6 @@ var {[2]: y = 1} = {2:3}
                                 "properties": [
                                     {
                                         "kind": 329,
-                                        "ellipsisToken": null,
                                         "key": {
                                             "kind": 194,
                                             "expression": {

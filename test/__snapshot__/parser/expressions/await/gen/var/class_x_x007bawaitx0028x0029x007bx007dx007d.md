@@ -161,7 +161,7 @@ var await; var f = (async function() { class x {await(){}} });
                                                                         "end": 53
                                                                     },
                                                                     "typeParameters": null,
-                                                                    "formalParameters": {
+                                                                    "formalParameterList": {
                                                                         "kind": 214,
                                                                         "formalParameters": [],
                                                                         "trailingComma": false,
@@ -253,7 +253,7 @@ var await; var f = (async function() { class x {await(){}} });
 var await;
 var f = (async function () {
     class x {
-      await {}
+      await() {}
     }
   });
 ```

@@ -65,7 +65,7 @@ class C { static#aaa(){} }
                                     "end": 20
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -124,7 +124,7 @@ class C { static#aaa(){} }
 ```javascript
 
 class C {
-  static static #aaa {}
+  static static #aaa() {}
 }
 ```
 

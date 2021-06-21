@@ -55,7 +55,7 @@ x = { get() { } }
                                         "end": 9
                                     },
                                     "typeParameters": null,
-                                    "formalParameters": {
+                                    "formalParameterList": {
                                         "kind": 214,
                                         "formalParameters": [],
                                         "trailingComma": false,
@@ -118,7 +118,7 @@ x = { get() { } }
 
 ```javascript
 
-x = { get {} };
+x = { get() {} };
 ```
 
 ### Diagnostics

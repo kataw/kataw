@@ -78,7 +78,7 @@ class x {static get set(){}}
                                     "end": 23
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -137,7 +137,7 @@ class x {static get set(){}}
 ```javascript
 
 class x {
-  static get static set {}
+  static get static set() {}
 }
 ```
 

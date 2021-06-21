@@ -80,7 +80,7 @@ class x extends y { constructor(){ return () => () => super[bar]; }}
                                     "end": 31
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -210,7 +210,7 @@ class x extends y { constructor(){ return () => () => super[bar]; }}
 ```javascript
 
 class x  {
-  constructor {
+  constructor() {
     return  () =>  () =>  ;
   }
 }

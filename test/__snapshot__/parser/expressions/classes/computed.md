@@ -86,7 +86,7 @@ class A { [x=y](foo) {} }
                                     "end": 15
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [
                                         {
@@ -154,7 +154,7 @@ class A { [x=y](foo) {} }
 ```javascript
 
 class A {
-  [x = y] {}
+  [x = y]() {}
 }
 ```
 

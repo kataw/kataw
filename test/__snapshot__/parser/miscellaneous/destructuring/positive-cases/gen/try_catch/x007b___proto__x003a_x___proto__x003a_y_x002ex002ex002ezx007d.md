@@ -59,7 +59,6 @@ try {} catch({ __proto__: x, __proto__: y, ...z}) {}
                         "properties": [
                             {
                                 "kind": 329,
-                                "ellipsisToken": null,
                                 "key": {
                                     "kind": 134299649,
                                     "text": "__proto__",
@@ -83,7 +82,6 @@ try {} catch({ __proto__: x, __proto__: y, ...z}) {}
                             },
                             {
                                 "kind": 329,
-                                "ellipsisToken": null,
                                 "key": {
                                     "kind": 134299649,
                                     "text": "__proto__",

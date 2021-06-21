@@ -60,7 +60,7 @@ class x {f(await){}}
                                     "end": 10
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [
                                         {
@@ -128,7 +128,7 @@ class x {f(await){}}
 ```javascript
 
 class x {
-  f {}
+  f() {}
 }
 ```
 

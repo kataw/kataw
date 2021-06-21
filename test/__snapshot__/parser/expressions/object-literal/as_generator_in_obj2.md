@@ -53,7 +53,7 @@
                                         "end": 9
                                     },
                                     "typeParameters": null,
-                                    "formalParameters": {
+                                    "formalParameterList": {
                                         "kind": 214,
                                         "formalParameters": [],
                                         "trailingComma": false,
@@ -133,7 +133,7 @@
                                         "end": 31
                                     },
                                     "typeParameters": null,
-                                    "formalParameters": {
+                                    "formalParameterList": {
                                         "kind": 214,
                                         "formalParameters": [],
                                         "trailingComma": false,
@@ -213,7 +213,7 @@
                                         "end": 46
                                     },
                                     "typeParameters": null,
-                                    "formalParameters": {
+                                    "formalParameterList": {
                                         "kind": 214,
                                         "formalParameters": [],
                                         "trailingComma": false,
@@ -293,7 +293,7 @@
                                         "end": 61
                                     },
                                     "typeParameters": null,
-                                    "formalParameters": {
+                                    "formalParameterList": {
                                         "kind": 214,
                                         "formalParameters": [],
                                         "trailingComma": false,
@@ -356,10 +356,10 @@
 
 ```javascript
 
-({ * type {} });
-({ * interface {} });
-({ * in {} });
-({ * of {} });
+({ * type() {} });
+({ * interface() {} });
+({ * in() {} });
+({ * of() {} });
 ```
 
 ### Diagnostics

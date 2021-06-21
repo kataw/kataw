@@ -60,7 +60,7 @@ class x { constructor(){ return () => () => super[bar]; }}
                                     "end": 21
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -190,7 +190,7 @@ class x { constructor(){ return () => () => super[bar]; }}
 ```javascript
 
 class x {
-  constructor {
+  constructor() {
     return  () =>  () =>  ;
   }
 }

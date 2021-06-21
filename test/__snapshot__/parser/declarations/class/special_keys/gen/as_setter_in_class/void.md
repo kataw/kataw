@@ -73,7 +73,7 @@ class x {set void(x){}}
                                     "end": 17
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [
                                         {
@@ -141,7 +141,7 @@ class x {set void(x){}}
 ```javascript
 
 class x {
-  set void {}
+  set void() {}
 }
 ```
 

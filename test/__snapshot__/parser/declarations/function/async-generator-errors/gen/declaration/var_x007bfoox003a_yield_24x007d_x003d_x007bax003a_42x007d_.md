@@ -89,7 +89,6 @@ async function * gen() {var {foo: yield 24} = {a: 42};}
                                                 "properties": [
                                                     {
                                                         "kind": 329,
-                                                        "ellipsisToken": null,
                                                         "key": {
                                                             "kind": 134299649,
                                                             "text": "foo",
@@ -113,7 +112,6 @@ async function * gen() {var {foo: yield 24} = {a: 42};}
                                                     },
                                                     {
                                                         "kind": 329,
-                                                        "ellipsisToken": null,
                                                         "key": {
                                                             "kind": 201392130,
                                                             "text": 24,

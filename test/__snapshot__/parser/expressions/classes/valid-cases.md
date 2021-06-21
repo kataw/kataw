@@ -203,7 +203,7 @@ x = class {y = 1; 'z' = 2}
                                             "end": 40
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -260,7 +260,7 @@ x = class {y = 1; 'z' = 2}
                                             "end": 50
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -372,7 +372,7 @@ x = class {y = 1; 'z' = 2}
                                             "end": 74
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -434,7 +434,7 @@ x = class {y = 1; 'z' = 2}
                                             "end": 88
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [
                                                 {
@@ -555,7 +555,7 @@ x = class {y = 1; 'z' = 2}
                                             "end": 113
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -617,7 +617,7 @@ x = class {y = 1; 'z' = 2}
                                             "end": 127
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [
                                                 {
@@ -816,19 +816,19 @@ x = class  {
   "'z'" = 2;
 };
 x = class  {
-  y {}
+  y() {}
 
-  "'z'" {}
+  "'z'"() {}
 };
 x = class  {
-  get y {}
+  get y() {}
 
-  set "'z'" {}
+  set "'z'"() {}
 };
 x = class  {
-  get y {}
+  get y() {}
 
-  set "'z'" {}
+  set "'z'"() {}
 };
 x = class  {
   y = 1;

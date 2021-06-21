@@ -88,7 +88,7 @@ class C { static
                                     "end": 23
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -148,7 +148,7 @@ class C { static
 
 class C {
   static;
-  #aaa {}
+  #aaa() {}
 }
 ```
 
