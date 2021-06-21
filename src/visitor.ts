@@ -471,7 +471,7 @@ export function visitEachChild(
           )
         : node;
     case SyntaxKind.BindingProperty:
-        (<BindingProperty>node).key !== visitNode((<BindingProperty>node).key, visitor) ||
+        return (<BindingProperty>node).key !== visitNode((<BindingProperty>node).key, visitor)
         (<BindingProperty>node).value !== visitNode((<BindingProperty>node).value, visitor) ||
         (<BindingProperty>node).initializer !== visitNode((<BindingProperty>node).initializer, visitor)
         ? createBindingProperty(
