@@ -55,6 +55,7 @@ var e: { (x: any): void } = function() { } // arity
                                     {
                                         "kind": 196,
                                         "protoKeyword": null,
+                                        "staticToken": null,
                                         "typeParameter": null,
                                         "value": {
                                             "kind": 282,
@@ -95,7 +96,6 @@ var e: { (x: any): void } = function() { } // arity
                                             "start": 10,
                                             "end": 16
                                         },
-                                        "staticToken": null,
                                         "returnType": {
                                             "kind": 139,
                                             "bitwiseOrToken": null,

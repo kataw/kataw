@@ -63,7 +63,7 @@ type a = (a[-1]) => T;
                         "kind": 311,
                         "objectType": {
                             "kind": 144,
-                            "name": {
+                            "typeName": {
                                 "kind": 134299649,
                                 "text": "a",
                                 "rawText": "a",
@@ -107,7 +107,7 @@ type a = (a[-1]) => T;
                         "bitwiseAndToken": null,
                         "type": {
                             "kind": 144,
-                            "name": {
+                            "typeName": {
                                 "kind": 134299649,
                                 "text": "T",
                                 "rawText": "T",

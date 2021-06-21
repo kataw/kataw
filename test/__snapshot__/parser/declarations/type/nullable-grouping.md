@@ -73,7 +73,7 @@ type A = ?(?B)
                                 },
                                 "type": {
                                     "kind": 144,
-                                    "name": {
+                                    "typeName": {
                                         "kind": 134299649,
                                         "text": "B",
                                         "rawText": "B",

@@ -55,6 +55,7 @@ var d: { (): string } = (x) => "hi"
                                     {
                                         "kind": 196,
                                         "protoKeyword": null,
+                                        "staticToken": null,
                                         "typeParameter": null,
                                         "value": {
                                             "kind": 282,
@@ -64,7 +65,6 @@ var d: { (): string } = (x) => "hi"
                                             "start": 10,
                                             "end": 10
                                         },
-                                        "staticToken": null,
                                         "returnType": {
                                             "kind": 139,
                                             "bitwiseOrToken": null,

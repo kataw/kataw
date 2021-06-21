@@ -67,7 +67,7 @@ type a = ((x | (y & x))) => T;
                                 "types": [
                                     {
                                         "kind": 144,
-                                        "name": {
+                                        "typeName": {
                                             "kind": 134299649,
                                             "text": "x",
                                             "rawText": "x",
@@ -87,7 +87,7 @@ type a = ((x | (y & x))) => T;
                                             "types": [
                                                 {
                                                     "kind": 144,
-                                                    "name": {
+                                                    "typeName": {
                                                         "kind": 134299649,
                                                         "text": "y",
                                                         "rawText": "y",
@@ -102,7 +102,7 @@ type a = ((x | (y & x))) => T;
                                                 },
                                                 {
                                                     "kind": 144,
-                                                    "name": {
+                                                    "typeName": {
                                                         "kind": 134299649,
                                                         "text": "x",
                                                         "rawText": "x",
@@ -141,7 +141,7 @@ type a = ((x | (y & x))) => T;
                         "bitwiseAndToken": null,
                         "type": {
                             "kind": 144,
-                            "name": {
+                            "typeName": {
                                 "kind": 134299649,
                                 "text": "T",
                                 "rawText": "T",

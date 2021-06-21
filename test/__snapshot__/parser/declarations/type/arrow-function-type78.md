@@ -87,7 +87,7 @@ type a = ({} | {[x]:string}) => T;
                                                     "name": null,
                                                     "key": {
                                                         "kind": 144,
-                                                        "name": {
+                                                        "typeName": {
                                                             "kind": 134299649,
                                                             "text": "x",
                                                             "rawText": "x",
@@ -145,7 +145,7 @@ type a = ({} | {[x]:string}) => T;
                         "bitwiseAndToken": null,
                         "type": {
                             "kind": 144,
-                            "name": {
+                            "typeName": {
                                 "kind": 134299649,
                                 "text": "T",
                                 "rawText": "T",

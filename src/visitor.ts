@@ -443,7 +443,7 @@ export function visitEachChild(
             (<AwaitExpression>node).end
           )
         : node;
-    case SyntaxKind.ForBinding:
+        case SyntaxKind.ForBinding:
       return (<ForBinding>node).varKeyword !== visitNode((<ForBinding>node).varKeyword, visitor) ||
         (<ForBinding>node).declarationList !== visitNode((<ForBinding>node).declarationList, visitor)
         ? createForBinding(
@@ -471,7 +471,7 @@ export function visitEachChild(
           )
         : node;
     case SyntaxKind.BindingProperty:
-      return (<BindingProperty>node).key !== visitNode((<BindingProperty>node).key, visitor) ||
+            return (<BindingProperty>node).key !== visitNode((<BindingProperty>node).key, visitor) ||
         (<BindingProperty>node).value !== visitNode((<BindingProperty>node).value, visitor) ||
         (<BindingProperty>node).initializer !== visitNode((<BindingProperty>node).initializer, visitor)
         ? createBindingProperty(
@@ -1360,8 +1360,7 @@ export function visitEachChild(
     case SyntaxKind.MethodDefinition:
       return (<MethodDefinition>node).name !== visitNode((<MethodDefinition>node).name, visitor) ||
         (<MethodDefinition>node).typeParameters !== visitNode((<MethodDefinition>node).typeParameters, visitor) ||
-        (<MethodDefinition>node).formalParameterList !==
-          visitNode((<MethodDefinition>node).formalParameterList, visitor) ||
+        (<MethodDefinition>node).formalParameterList !== visitNode((<MethodDefinition>node).formalParameterList, visitor) ||
         (<MethodDefinition>node).returnType !== visitNode((<MethodDefinition>node).returnType, visitor) ||
         (<MethodDefinition>node).contents !== visitFunctionBody(transform, (<MethodDefinition>node).contents, visitor)
         ? createMethodDefinition(
@@ -1385,10 +1384,10 @@ export function visitEachChild(
           : node;
 
       case SyntaxKind.TypeReference:
-        return (<TypeReference>node).name !== visitNode((<TypeReference>node).name, visitor) ||
+        return (<TypeReference>node).typeName !== visitNode((<TypeReference>node).typeName, visitor) ||
           (<TypeReference>node).typeParameters !== visitNode((<TypeReference>node).typeParameters, visitor)
           ? createTypeReference(
-              (<TypeReference>node).name,
+              (<TypeReference>node).typeName,
               (<TypeReference>node).typeParameters,
               (<TypeReference>node).start,
               (<TypeReference>node).end
@@ -1609,13 +1608,13 @@ export function visitEachChild(
             visitNode((<ObjectTypeInternalSlot>node).optionalToken, visitor) ||
           (<ObjectTypeInternalSlot>node).staticToken !==
             visitNode((<ObjectTypeInternalSlot>node).staticToken, visitor) ||
-          (<ObjectTypeInternalSlot>node).value !== visitNode((<ObjectTypeInternalSlot>node).value, visitor)
+          (<ObjectTypeInternalSlot>node).type !== visitNode((<ObjectTypeInternalSlot>node).type, visitor)
           ? createObjectTypeInternalSlot(
               (<ObjectTypeInternalSlot>node).protoKeyword,
               (<ObjectTypeInternalSlot>node).name,
               (<ObjectTypeInternalSlot>node).optionalToken,
               (<ObjectTypeInternalSlot>node).staticToken,
-              (<ObjectTypeInternalSlot>node).value,
+              (<ObjectTypeInternalSlot>node).type,
               (<ObjectTypeInternalSlot>node).start,
               (<ObjectTypeInternalSlot>node).end
             )

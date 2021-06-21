@@ -56,6 +56,7 @@ var c: { (): string; (x: number): string } =
                                     {
                                         "kind": 196,
                                         "protoKeyword": null,
+                                        "staticToken": null,
                                         "typeParameter": null,
                                         "value": {
                                             "kind": 282,
@@ -65,7 +66,6 @@ var c: { (): string; (x: number): string } =
                                             "start": 10,
                                             "end": 10
                                         },
-                                        "staticToken": null,
                                         "returnType": {
                                             "kind": 139,
                                             "bitwiseOrToken": null,
@@ -87,6 +87,7 @@ var c: { (): string; (x: number): string } =
                                     {
                                         "kind": 196,
                                         "protoKeyword": null,
+                                        "staticToken": null,
                                         "typeParameter": null,
                                         "value": {
                                             "kind": 282,
@@ -127,7 +128,6 @@ var c: { (): string; (x: number): string } =
                                             "start": 22,
                                             "end": 31
                                         },
-                                        "staticToken": null,
                                         "returnType": {
                                             "kind": 139,
                                             "bitwiseOrToken": null,

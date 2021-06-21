@@ -114,7 +114,7 @@ function remove<A, B>(a: A): [$Rest<A, {p: B}>, B] {
                             "bitwiseAndToken": null,
                             "type": {
                                 "kind": 144,
-                                "name": {
+                                "typeName": {
                                     "kind": 134299649,
                                     "text": "A",
                                     "rawText": "A",
@@ -294,7 +294,7 @@ function remove<A, B>(a: A): [$Rest<A, {p: B}>, B] {
                             "bitwiseAndToken": null,
                             "type": {
                                 "kind": 144,
-                                "name": {
+                                "typeName": {
                                     "kind": 134299649,
                                     "text": "$Rest",
                                     "rawText": "$Rest",
@@ -313,7 +313,7 @@ function remove<A, B>(a: A): [$Rest<A, {p: B}>, B] {
                                                 "bitwiseAndToken": null,
                                                 "type": {
                                                     "kind": 144,
-                                                    "name": {
+                                                    "typeName": {
                                                         "kind": 134299649,
                                                         "text": "A",
                                                         "rawText": "A",
@@ -358,7 +358,7 @@ function remove<A, B>(a: A): [$Rest<A, {p: B}>, B] {
                                                                 "bitwiseAndToken": null,
                                                                 "type": {
                                                                     "kind": 144,
-                                                                    "name": {
+                                                                    "typeName": {
                                                                         "kind": 134299649,
                                                                         "text": "B",
                                                                         "rawText": "B",
@@ -413,7 +413,7 @@ function remove<A, B>(a: A): [$Rest<A, {p: B}>, B] {
                             "bitwiseAndToken": null,
                             "type": {
                                 "kind": 144,
-                                "name": {
+                                "typeName": {
                                     "kind": 134299649,
                                     "text": "B",
                                     "rawText": "B",

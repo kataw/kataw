@@ -78,7 +78,7 @@ type X = {[|(x) =>x&symbol[][x|y]]: string,};
                                     },
                                     "arrowToken": {
                                         "kind": 144,
-                                        "name": {
+                                        "typeName": {
                                             "kind": 134299649,
                                             "text": "x",
                                             "rawText": "x",
@@ -100,7 +100,7 @@ type X = {[|(x) =>x&symbol[][x|y]]: string,};
                                             "types": [
                                                 {
                                                     "kind": 144,
-                                                    "name": {
+                                                    "typeName": {
                                                         "kind": 134299649,
                                                         "text": "x",
                                                         "rawText": "x",
@@ -136,7 +136,7 @@ type X = {[|(x) =>x&symbol[][x|y]]: string,};
                                                             "types": [
                                                                 {
                                                                     "kind": 144,
-                                                                    "name": {
+                                                                    "typeName": {
                                                                         "kind": 134299649,
                                                                         "text": "x",
                                                                         "rawText": "x",
@@ -151,7 +151,7 @@ type X = {[|(x) =>x&symbol[][x|y]]: string,};
                                                                 },
                                                                 {
                                                                     "kind": 144,
-                                                                    "name": {
+                                                                    "typeName": {
                                                                         "kind": 134299649,
                                                                         "text": "y",
                                                                         "rawText": "y",

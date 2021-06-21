@@ -57,7 +57,7 @@ type a = (bj[c])
                         "kind": 311,
                         "objectType": {
                             "kind": 144,
-                            "name": {
+                            "typeName": {
                                 "kind": 134299649,
                                 "text": "bj",
                                 "rawText": "bj",
@@ -76,7 +76,7 @@ type a = (bj[c])
                             "bitwiseAndToken": null,
                             "type": {
                                 "kind": 144,
-                                "name": {
+                                "typeName": {
                                     "kind": 134299649,
                                     "text": "c",
                                     "rawText": "c",

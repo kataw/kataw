@@ -65,7 +65,7 @@ function bar(x: X): B { return x; }
                             "bitwiseAndToken": null,
                             "type": {
                                 "kind": 144,
-                                "name": {
+                                "typeName": {
                                     "kind": 134299649,
                                     "text": "X",
                                     "rawText": "X",
@@ -134,7 +134,7 @@ function bar(x: X): B { return x; }
                 "bitwiseAndToken": null,
                 "type": {
                     "kind": 144,
-                    "name": {
+                    "typeName": {
                         "kind": 134299649,
                         "text": "A",
                         "rawText": "A",
@@ -196,7 +196,7 @@ function bar(x: X): B { return x; }
                             "bitwiseAndToken": null,
                             "type": {
                                 "kind": 144,
-                                "name": {
+                                "typeName": {
                                     "kind": 134299649,
                                     "text": "X",
                                     "rawText": "X",
@@ -265,7 +265,7 @@ function bar(x: X): B { return x; }
                 "bitwiseAndToken": null,
                 "type": {
                     "kind": 144,
-                    "name": {
+                    "typeName": {
                         "kind": 134299649,
                         "text": "B",
                         "rawText": "B",

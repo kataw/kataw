@@ -149,7 +149,7 @@ class Array { concat(items:number | string) {}; }
                             "bitwiseAndToken": null,
                             "type": {
                                 "kind": 144,
-                                "name": {
+                                "typeName": {
                                     "kind": 134299649,
                                     "text": "Map",
                                     "rawText": "Map",
@@ -182,7 +182,7 @@ class Array { concat(items:number | string) {}; }
                                                 "bitwiseAndToken": null,
                                                 "type": {
                                                     "kind": 144,
-                                                    "name": {
+                                                    "typeName": {
                                                         "kind": 134299649,
                                                         "text": "Array",
                                                         "rawText": "Array",
@@ -287,7 +287,7 @@ class Array { concat(items:number | string) {}; }
                             "bitwiseAndToken": null,
                             "type": {
                                 "kind": 144,
-                                "name": {
+                                "typeName": {
                                     "kind": 134299649,
                                     "text": "Map",
                                     "rawText": "Map",
@@ -320,7 +320,7 @@ class Array { concat(items:number | string) {}; }
                                                 "bitwiseAndToken": null,
                                                 "type": {
                                                     "kind": 144,
-                                                    "name": {
+                                                    "typeName": {
                                                         "kind": 134299649,
                                                         "text": "Array",
                                                         "rawText": "Array",
@@ -433,7 +433,7 @@ class Array { concat(items:number | string) {}; }
                                 },
                                 "type": {
                                     "kind": 144,
-                                    "name": {
+                                    "typeName": {
                                         "kind": 134299649,
                                         "text": "Y",
                                         "rawText": "Y",
@@ -1279,7 +1279,7 @@ class Array { concat(items:number | string) {}; }
                                         "bitwiseAndToken": null,
                                         "type": {
                                             "kind": 144,
-                                            "name": {
+                                            "typeName": {
                                                 "kind": 134299649,
                                                 "text": "bar",
                                                 "rawText": "bar",
@@ -1319,7 +1319,7 @@ class Array { concat(items:number | string) {}; }
                                         "bitwiseAndToken": null,
                                         "type": {
                                             "kind": 144,
-                                            "name": {
+                                            "typeName": {
                                                 "kind": 134299649,
                                                 "text": "foo",
                                                 "rawText": "foo",
@@ -1620,7 +1620,7 @@ class Array { concat(items:number | string) {}; }
                             "bitwiseAndToken": null,
                             "type": {
                                 "kind": 144,
-                                "name": {
+                                "typeName": {
                                     "kind": 134299649,
                                     "text": "Array",
                                     "rawText": "Array",
@@ -2114,7 +2114,7 @@ class Array { concat(items:number | string) {}; }
                                         },
                                         "type": {
                                             "kind": 144,
-                                            "name": {
+                                            "typeName": {
                                                 "kind": 134299649,
                                                 "text": "Y",
                                                 "rawText": "Y",

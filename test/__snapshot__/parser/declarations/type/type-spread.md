@@ -174,6 +174,7 @@ type D32 = {p?: number};
                         {
                             "kind": 247,
                             "protoKeyword": null,
+                            "staticToken": null,
                             "ellipsisToken": {
                                 "kind": 524302,
                                 "flags": 64,
@@ -186,7 +187,7 @@ type D32 = {p?: number};
                                 "bitwiseAndToken": null,
                                 "type": {
                                     "kind": 144,
-                                    "name": {
+                                    "typeName": {
                                         "kind": 134299649,
                                         "text": "D",
                                         "rawText": "D",
@@ -203,7 +204,6 @@ type D32 = {p?: number};
                                 "start": 54,
                                 "end": 55
                             },
-                            "staticToken": null,
                             "flags": 2097152,
                             "start": 50,
                             "end": 55
@@ -256,6 +256,7 @@ type D32 = {p?: number};
                         {
                             "kind": 247,
                             "protoKeyword": null,
+                            "staticToken": null,
                             "ellipsisToken": {
                                 "kind": 524302,
                                 "flags": 64,
@@ -268,7 +269,7 @@ type D32 = {p?: number};
                                 "bitwiseAndToken": null,
                                 "type": {
                                     "kind": 144,
-                                    "name": {
+                                    "typeName": {
                                         "kind": 134299649,
                                         "text": "A2",
                                         "rawText": "A2",
@@ -285,7 +286,6 @@ type D32 = {p?: number};
                                 "start": 72,
                                 "end": 74
                             },
-                            "staticToken": null,
                             "flags": 2097152,
                             "start": 69,
                             "end": 74
@@ -293,6 +293,7 @@ type D32 = {p?: number};
                         {
                             "kind": 247,
                             "protoKeyword": null,
+                            "staticToken": null,
                             "ellipsisToken": {
                                 "kind": 524302,
                                 "flags": 64,
@@ -305,7 +306,7 @@ type D32 = {p?: number};
                                 "bitwiseAndToken": null,
                                 "type": {
                                     "kind": 144,
-                                    "name": {
+                                    "typeName": {
                                         "kind": 134299649,
                                         "text": "B2",
                                         "rawText": "B2",
@@ -322,7 +323,6 @@ type D32 = {p?: number};
                                 "start": 79,
                                 "end": 81
                             },
-                            "staticToken": null,
                             "flags": 2097152,
                             "start": 75,
                             "end": 81
@@ -453,6 +453,7 @@ type D32 = {p?: number};
                         {
                             "kind": 247,
                             "protoKeyword": null,
+                            "staticToken": null,
                             "ellipsisToken": {
                                 "kind": 524302,
                                 "flags": 64,
@@ -465,7 +466,7 @@ type D32 = {p?: number};
                                 "bitwiseAndToken": null,
                                 "type": {
                                     "kind": 144,
-                                    "name": {
+                                    "typeName": {
                                         "kind": 134299649,
                                         "text": "A9",
                                         "rawText": "A9",
@@ -482,7 +483,6 @@ type D32 = {p?: number};
                                 "start": 121,
                                 "end": 123
                             },
-                            "staticToken": null,
                             "flags": 2097152,
                             "start": 118,
                             "end": 123
@@ -490,6 +490,7 @@ type D32 = {p?: number};
                         {
                             "kind": 247,
                             "protoKeyword": null,
+                            "staticToken": null,
                             "ellipsisToken": {
                                 "kind": 524302,
                                 "flags": 64,
@@ -502,7 +503,7 @@ type D32 = {p?: number};
                                 "bitwiseAndToken": null,
                                 "type": {
                                     "kind": 144,
-                                    "name": {
+                                    "typeName": {
                                         "kind": 134299649,
                                         "text": "B9",
                                         "rawText": "B9",
@@ -519,7 +520,6 @@ type D32 = {p?: number};
                                 "start": 128,
                                 "end": 130
                             },
-                            "staticToken": null,
                             "flags": 2097152,
                             "start": 124,
                             "end": 130
@@ -669,6 +669,7 @@ type D32 = {p?: number};
                         {
                             "kind": 247,
                             "protoKeyword": null,
+                            "staticToken": null,
                             "ellipsisToken": {
                                 "kind": 524302,
                                 "flags": 64,
@@ -681,7 +682,7 @@ type D32 = {p?: number};
                                 "bitwiseAndToken": null,
                                 "type": {
                                     "kind": 144,
-                                    "name": {
+                                    "typeName": {
                                         "kind": 134299649,
                                         "text": "A11",
                                         "rawText": "A11",
@@ -698,7 +699,6 @@ type D32 = {p?: number};
                                 "start": 181,
                                 "end": 184
                             },
-                            "staticToken": null,
                             "flags": 2097152,
                             "start": 178,
                             "end": 184
@@ -706,6 +706,7 @@ type D32 = {p?: number};
                         {
                             "kind": 247,
                             "protoKeyword": null,
+                            "staticToken": null,
                             "ellipsisToken": {
                                 "kind": 524302,
                                 "flags": 64,
@@ -718,7 +719,7 @@ type D32 = {p?: number};
                                 "bitwiseAndToken": null,
                                 "type": {
                                     "kind": 144,
-                                    "name": {
+                                    "typeName": {
                                         "kind": 134299649,
                                         "text": "B11",
                                         "rawText": "B11",
@@ -735,7 +736,6 @@ type D32 = {p?: number};
                                 "start": 189,
                                 "end": 192
                             },
-                            "staticToken": null,
                             "flags": 2097152,
                             "start": 185,
                             "end": 192

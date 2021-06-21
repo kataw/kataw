@@ -24,9 +24,9 @@ export function createObjectTypeCallProperty(
   return {
     kind: SyntaxKind.ObjectTypeCallProperty,
     protoKeyword,
+    staticToken,
     typeParameter,
     value,
-    staticToken,
     returnType,
     flags: NodeFlags.IsTypeNode,
     start,

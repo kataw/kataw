@@ -1339,19 +1339,14 @@ function parseForStatement(
           flags: ScopeFlags.None
         };
 
-        initializer = createLexicalDeclaration(
-          createToken(SyntaxKind.LetKeyword, NodeFlags.NoChildren, pos, parser.curPos),
-          parseBindingList(
-            parser,
-            context | Context.DisallowInContext | Context.LexicalContext,
-            NodeFlags.IsStatement,
-            /* inForStatement */ true,
-            scope,
-            BindingType.Let
-          ),
-          pos,
-          parser.curPos
-        );
+        initializer = createLexicalDeclaration(createToken(SyntaxKind.LetKeyword, NodeFlags.NoChildren, pos, parser.curPos), parseBindingList(
+          parser,
+          context | Context.DisallowInContext | Context.LexicalContext,
+          NodeFlags.IsStatement,
+          /* inForStatement */ true,
+          scope,
+          BindingType.Let
+        ), pos, parser.curPos);
       }
       isVarOrLexical = true;
       parser.assignable = true;
@@ -1389,19 +1384,14 @@ function parseForStatement(
       scope,
       flags: ScopeFlags.None
     };
-    initializer = createLexicalDeclaration(
-      consumeToken(parser, context, SyntaxKind.ConstKeyword),
-      parseBindingList(
-        parser,
-        context | Context.DisallowInContext | Context.LexicalContext,
-        NodeFlags.Const,
-        /* inForStatement */ true,
-        scope,
-        BindingType.Const
-      ),
-      pos,
-      parser.curPos
-    );
+    initializer = createLexicalDeclaration(consumeToken(parser, context, SyntaxKind.ConstKeyword), parseBindingList(
+      parser,
+      context | Context.DisallowInContext | Context.LexicalContext,
+      NodeFlags.Const,
+      /* inForStatement */ true,
+      scope,
+      BindingType.Const
+    ), pos, parser.curPos);
     isVarOrLexical = true;
     parser.assignable = true;
   } else if (parser.token === SyntaxKind.VarKeyword) {
@@ -1410,18 +1400,13 @@ function parseForStatement(
       scope,
       flags: ScopeFlags.None
     };
-    initializer = createForBinding(
-      consumeOptToken(parser, context, SyntaxKind.VarKeyword),
-      parseVariableDeclarationList(
-        parser,
-        context | Context.DisallowInContext,
-        /* inForStatement */ true,
-        scope,
-        BindingType.Var
-      ),
-      pos,
-      parser.pos
-    );
+    initializer = createForBinding(consumeOptToken(parser, context, SyntaxKind.VarKeyword), parseVariableDeclarationList(
+      parser,
+      context | Context.DisallowInContext,
+      /* inForStatement */ true,
+      scope,
+      BindingType.Var
+    ), pos, parser.pos)
 
     parser.assignable = true;
     isVarOrLexical = true;
@@ -5567,7 +5552,7 @@ function parseBindingProperty(
   const ellipsisToken = consumeOptToken(parser, context | Context.AllowRegExp, SyntaxKind.Ellipsis);
   const tokenIsIdentifier = parser.token & Constants.Identifier;
   const key = parsePropertyName(parser, context);
-  if ((tokenIsIdentifier && parser.token !== SyntaxKind.Colon) || ellipsisToken) {
+  if (tokenIsIdentifier && parser.token !== SyntaxKind.Colon || ellipsisToken) {
     addVarOrBlock(parser, context, scope, (key as Identifier).text, type);
     if (ellipsisToken || parser.token === SyntaxKind.Assign) {
       return createBindingElement(

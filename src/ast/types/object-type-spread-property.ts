@@ -21,9 +21,9 @@ export function createObjectTypeSpreadProperty(
   return {
     kind: SyntaxKind.ObjectTypeSpreadProperty,
     protoKeyword,
+    staticToken,
     ellipsisToken,
     type,
-    staticToken,
     flags: NodeFlags.IsTypeNode,
     start,
     end

@@ -103,7 +103,7 @@ declare function aw<T>(p: Pr<T> | T): T;
                                 "types": [
                                     {
                                         "kind": 144,
-                                        "name": {
+                                        "typeName": {
                                             "kind": 134299649,
                                             "text": "Pr",
                                             "rawText": "Pr",
@@ -122,7 +122,7 @@ declare function aw<T>(p: Pr<T> | T): T;
                                                         "bitwiseAndToken": null,
                                                         "type": {
                                                             "kind": 144,
-                                                            "name": {
+                                                            "typeName": {
                                                                 "kind": 134299649,
                                                                 "text": "T",
                                                                 "rawText": "T",
@@ -155,7 +155,7 @@ declare function aw<T>(p: Pr<T> | T): T;
                                     },
                                     {
                                         "kind": 144,
-                                        "name": {
+                                        "typeName": {
                                             "kind": 134299649,
                                             "text": "T",
                                             "rawText": "T",
@@ -195,7 +195,7 @@ declare function aw<T>(p: Pr<T> | T): T;
                 "bitwiseAndToken": null,
                 "type": {
                     "kind": 144,
-                    "name": {
+                    "typeName": {
                         "kind": 134299649,
                         "text": "T",
                         "rawText": "T",

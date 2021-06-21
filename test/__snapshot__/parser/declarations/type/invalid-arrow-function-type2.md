@@ -73,7 +73,7 @@ type a = (a[a & b][c | d][(x) => T][][][]) => T;
                                             "kind": 311,
                                             "objectType": {
                                                 "kind": 144,
-                                                "name": {
+                                                "typeName": {
                                                     "kind": 134299649,
                                                     "text": "a",
                                                     "rawText": "a",
@@ -95,7 +95,7 @@ type a = (a[a & b][c | d][(x) => T][][][]) => T;
                                                     "types": [
                                                         {
                                                             "kind": 144,
-                                                            "name": {
+                                                            "typeName": {
                                                                 "kind": 134299649,
                                                                 "text": "a",
                                                                 "rawText": "a",
@@ -110,7 +110,7 @@ type a = (a[a & b][c | d][(x) => T][][][]) => T;
                                                         },
                                                         {
                                                             "kind": 144,
-                                                            "name": {
+                                                            "typeName": {
                                                                 "kind": 134299649,
                                                                 "text": "b",
                                                                 "rawText": "b",
@@ -145,7 +145,7 @@ type a = (a[a & b][c | d][(x) => T][][][]) => T;
                                                 "types": [
                                                     {
                                                         "kind": 144,
-                                                        "name": {
+                                                        "typeName": {
                                                             "kind": 134299649,
                                                             "text": "c",
                                                             "rawText": "c",
@@ -160,7 +160,7 @@ type a = (a[a & b][c | d][(x) => T][][][]) => T;
                                                     },
                                                     {
                                                         "kind": 144,
-                                                        "name": {
+                                                        "typeName": {
                                                             "kind": 134299649,
                                                             "text": "d",
                                                             "rawText": "d",
@@ -200,7 +200,7 @@ type a = (a[a & b][c | d][(x) => T][][][]) => T;
                                             },
                                             "arrowToken": {
                                                 "kind": 144,
-                                                "name": {
+                                                "typeName": {
                                                     "kind": 134299649,
                                                     "text": "x",
                                                     "rawText": "x",
@@ -219,7 +219,7 @@ type a = (a[a & b][c | d][(x) => T][][][]) => T;
                                                 "bitwiseAndToken": null,
                                                 "type": {
                                                     "kind": 144,
-                                                    "name": {
+                                                    "typeName": {
                                                         "kind": 134299649,
                                                         "text": "T",
                                                         "rawText": "T",
@@ -267,7 +267,7 @@ type a = (a[a & b][c | d][(x) => T][][][]) => T;
                         "bitwiseAndToken": null,
                         "type": {
                             "kind": 144,
-                            "name": {
+                            "typeName": {
                                 "kind": 134299649,
                                 "text": "T",
                                 "rawText": "T",

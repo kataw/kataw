@@ -60,6 +60,7 @@ var a: { <T>(x: T): number; };
                                     {
                                         "kind": 196,
                                         "protoKeyword": null,
+                                        "staticToken": null,
                                         "typeParameter": null,
                                         "value": {
                                             "kind": 282,
@@ -69,7 +70,6 @@ var a: { <T>(x: T): number; };
                                             "start": 11,
                                             "end": 11
                                         },
-                                        "staticToken": null,
                                         "returnType": {
                                             "kind": 139,
                                             "bitwiseOrToken": null,
@@ -144,6 +144,7 @@ var a: { <T>(x: T): number; };
                                     {
                                         "kind": 196,
                                         "protoKeyword": null,
+                                        "staticToken": null,
                                         "typeParameter": {
                                             "kind": 307,
                                             "declarations": {
@@ -196,7 +197,7 @@ var a: { <T>(x: T): number; };
                                                         "bitwiseAndToken": null,
                                                         "type": {
                                                             "kind": 144,
-                                                            "name": {
+                                                            "typeName": {
                                                                 "kind": 134299649,
                                                                 "text": "T",
                                                                 "rawText": "T",
@@ -223,7 +224,6 @@ var a: { <T>(x: T): number; };
                                             "start": 38,
                                             "end": 42
                                         },
-                                        "staticToken": null,
                                         "returnType": {
                                             "kind": 139,
                                             "bitwiseOrToken": null,
@@ -298,6 +298,7 @@ var a: { <T>(x: T): number; };
                                     {
                                         "kind": 196,
                                         "protoKeyword": null,
+                                        "staticToken": null,
                                         "typeParameter": null,
                                         "value": {
                                             "kind": 282,
@@ -307,7 +308,6 @@ var a: { <T>(x: T): number; };
                                             "start": 65,
                                             "end": 65
                                         },
-                                        "staticToken": null,
                                         "returnType": {
                                             "kind": 139,
                                             "bitwiseOrToken": null,
@@ -382,6 +382,7 @@ var a: { <T>(x: T): number; };
                                     {
                                         "kind": 196,
                                         "protoKeyword": null,
+                                        "staticToken": null,
                                         "typeParameter": null,
                                         "value": {
                                             "kind": 282,
@@ -391,7 +392,6 @@ var a: { <T>(x: T): number; };
                                             "start": 88,
                                             "end": 88
                                         },
-                                        "staticToken": null,
                                         "returnType": {
                                             "kind": 139,
                                             "bitwiseOrToken": null,
@@ -466,6 +466,7 @@ var a: { <T>(x: T): number; };
                                     {
                                         "kind": 196,
                                         "protoKeyword": null,
+                                        "staticToken": null,
                                         "typeParameter": null,
                                         "value": {
                                             "kind": 282,
@@ -475,7 +476,6 @@ var a: { <T>(x: T): number; };
                                             "start": 112,
                                             "end": 112
                                         },
-                                        "staticToken": null,
                                         "returnType": {
                                             "kind": 139,
                                             "bitwiseOrToken": null,
@@ -530,6 +530,7 @@ var a: { <T>(x: T): number; };
                                     {
                                         "kind": 196,
                                         "protoKeyword": null,
+                                        "staticToken": null,
                                         "typeParameter": null,
                                         "value": {
                                             "kind": 282,
@@ -570,7 +571,6 @@ var a: { <T>(x: T): number; };
                                             "start": 135,
                                             "end": 144
                                         },
-                                        "staticToken": null,
                                         "returnType": {
                                             "kind": 139,
                                             "bitwiseOrToken": null,
@@ -645,6 +645,7 @@ var a: { <T>(x: T): number; };
                                     {
                                         "kind": 196,
                                         "protoKeyword": null,
+                                        "staticToken": null,
                                         "typeParameter": {
                                             "kind": 307,
                                             "declarations": {
@@ -697,7 +698,7 @@ var a: { <T>(x: T): number; };
                                                         "bitwiseAndToken": null,
                                                         "type": {
                                                             "kind": 144,
-                                                            "name": {
+                                                            "typeName": {
                                                                 "kind": 134299649,
                                                                 "text": "T",
                                                                 "rawText": "T",
@@ -724,7 +725,6 @@ var a: { <T>(x: T): number; };
                                             "start": 170,
                                             "end": 174
                                         },
-                                        "staticToken": null,
                                         "returnType": {
                                             "kind": 139,
                                             "bitwiseOrToken": null,

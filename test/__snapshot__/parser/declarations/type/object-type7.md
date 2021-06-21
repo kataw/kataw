@@ -77,7 +77,7 @@ type a = {1:y.z[]};
                                     "kind": 136,
                                     "type": {
                                         "kind": 144,
-                                        "name": {
+                                        "typeName": {
                                             "kind": 145,
                                             "qualification": {
                                                 "kind": 134299649,

@@ -53,7 +53,7 @@ type D = $Call<Fn1>;
                 "bitwiseAndToken": null,
                 "type": {
                     "kind": 144,
-                    "name": {
+                    "typeName": {
                         "kind": 134299649,
                         "text": "$Call",
                         "rawText": "$Call",
@@ -72,7 +72,7 @@ type D = $Call<Fn1>;
                                     "bitwiseAndToken": null,
                                     "type": {
                                         "kind": 144,
-                                        "name": {
+                                        "typeName": {
                                             "kind": 134299649,
                                             "text": "Fn1",
                                             "rawText": "Fn1",

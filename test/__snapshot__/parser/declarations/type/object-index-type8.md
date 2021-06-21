@@ -73,7 +73,7 @@ type X = {[(x) =>x]: string,};
                                     },
                                     "arrowToken": {
                                         "kind": 144,
-                                        "name": {
+                                        "typeName": {
                                             "kind": 134299649,
                                             "text": "x",
                                             "rawText": "x",
@@ -92,7 +92,7 @@ type X = {[(x) =>x]: string,};
                                         "bitwiseAndToken": null,
                                         "type": {
                                             "kind": 144,
-                                            "name": {
+                                            "typeName": {
                                                 "kind": 134299649,
                                                 "text": "x",
                                                 "rawText": "x",

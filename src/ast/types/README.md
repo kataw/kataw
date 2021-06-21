@@ -151,14 +151,14 @@ interface ObjectTypeIndexer <: TypeNode {
 
 ```js
 interface ObjectTypeInternalSlot <: TypeNode {
-  kind: NodeKind.ObjectTypeInternalSlot;
-   kind: SyntaxKind.ObjectTypeInternalSlot;
+  kind: SyntaxKind.ObjectTypeInternalSlot;
   /* error recovery */
   protoKeyword: SyntaxToken<TokenSyntaxKind> | null;
-  name: Identifier | DummyIdentifier | StringLiteral | NumericLiteral;
-  value: TypeNode;
-  optionalToken: SyntaxToken<TokenSyntaxKind> | null;
   staticToken: SyntaxToken<TokenSyntaxKind> | null;
+  name: Identifier | DummyIdentifier | StringLiteral | NumericLiteral;
+  optionalToken: SyntaxToken<TokenSyntaxKind> | null;
+  type: TypeNode;
+
 }
 ```
 
@@ -341,7 +341,7 @@ interface TypeParameter <: TypeNode {
 ```js
 interface TypeReference <: TypeNode {
   kind: NodeKind.TypeReference;
-  name: Identifier | DummyIdentifier;
+  typeName: Identifier | DummyIdentifier;
   typeParameters: TypeParameterInstantiationList | null;
 }
 ```

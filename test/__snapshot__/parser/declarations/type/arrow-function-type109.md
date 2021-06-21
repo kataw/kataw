@@ -72,7 +72,7 @@ type a = (...b[([x])=> c] | d) => c;
                                             "kind": 311,
                                             "objectType": {
                                                 "kind": 144,
-                                                "name": {
+                                                "typeName": {
                                                     "kind": 134299649,
                                                     "text": "b",
                                                     "rawText": "b",
@@ -113,7 +113,7 @@ type a = (...b[([x])=> c] | d) => c;
                                                                             "bitwiseAndToken": null,
                                                                             "type": {
                                                                                 "kind": 144,
-                                                                                "name": {
+                                                                                "typeName": {
                                                                                     "kind": 134299649,
                                                                                     "text": "x",
                                                                                     "rawText": "x",
@@ -152,7 +152,7 @@ type a = (...b[([x])=> c] | d) => c;
                                                         "bitwiseAndToken": null,
                                                         "type": {
                                                             "kind": 144,
-                                                            "name": {
+                                                            "typeName": {
                                                                 "kind": 134299649,
                                                                 "text": "c",
                                                                 "rawText": "c",
@@ -184,7 +184,7 @@ type a = (...b[([x])=> c] | d) => c;
                                         },
                                         {
                                             "kind": 144,
-                                            "name": {
+                                            "typeName": {
                                                 "kind": 134299649,
                                                 "text": "d",
                                                 "rawText": "d",
@@ -224,7 +224,7 @@ type a = (...b[([x])=> c] | d) => c;
                         "bitwiseAndToken": null,
                         "type": {
                             "kind": 144,
-                            "name": {
+                            "typeName": {
                                 "kind": 134299649,
                                 "text": "c",
                                 "rawText": "c",

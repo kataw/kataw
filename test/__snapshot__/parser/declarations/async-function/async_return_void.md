@@ -101,7 +101,7 @@ async function foo3(): Promise<string> {
                 "bitwiseAndToken": null,
                 "type": {
                     "kind": 144,
-                    "name": {
+                    "typeName": {
                         "kind": 134299649,
                         "text": "Promise",
                         "rawText": "Promise",
@@ -224,7 +224,7 @@ async function foo3(): Promise<string> {
                 "bitwiseAndToken": null,
                 "type": {
                     "kind": 144,
-                    "name": {
+                    "typeName": {
                         "kind": 134299649,
                         "text": "Promise",
                         "rawText": "Promise",
@@ -408,7 +408,7 @@ async function foo3(): Promise<string> {
                 "bitwiseAndToken": null,
                 "type": {
                     "kind": 144,
-                    "name": {
+                    "typeName": {
                         "kind": 134299649,
                         "text": "Promise",
                         "rawText": "Promise",

@@ -57,6 +57,12 @@ declare class B { () : number }
                         {
                             "kind": 196,
                             "protoKeyword": null,
+                            "staticToken": {
+                                "kind": 8388716,
+                                "flags": 32,
+                                "start": 17,
+                                "end": 24
+                            },
                             "typeParameter": null,
                             "value": {
                                 "kind": 282,
@@ -65,12 +71,6 @@ declare class B { () : number }
                                 "flags": 2097152,
                                 "start": 26,
                                 "end": 26
-                            },
-                            "staticToken": {
-                                "kind": 8388716,
-                                "flags": 32,
-                                "start": 17,
-                                "end": 24
                             },
                             "returnType": {
                                 "kind": 139,
@@ -137,6 +137,7 @@ declare class B { () : number }
                         {
                             "kind": 196,
                             "protoKeyword": null,
+                            "staticToken": null,
                             "typeParameter": null,
                             "value": {
                                 "kind": 282,
@@ -146,7 +147,6 @@ declare class B { () : number }
                                 "start": 58,
                                 "end": 58
                             },
-                            "staticToken": null,
                             "returnType": {
                                 "kind": 139,
                                 "bitwiseOrToken": null,

@@ -60,6 +60,7 @@ type T4 = { foo: number, bar: string, ... };
                         {
                             "kind": 247,
                             "protoKeyword": null,
+                            "staticToken": null,
                             "ellipsisToken": {
                                 "kind": 524302,
                                 "flags": 64,
@@ -72,7 +73,7 @@ type T4 = { foo: number, bar: string, ... };
                                 "bitwiseAndToken": null,
                                 "type": {
                                     "kind": 144,
-                                    "name": {
+                                    "typeName": {
                                         "kind": 16637,
                                         "text": "",
                                         "rawText": "",
@@ -89,7 +90,6 @@ type T4 = { foo: number, bar: string, ... };
                                 "start": 15,
                                 "end": 15
                             },
-                            "staticToken": null,
                             "flags": 2097152,
                             "start": 11,
                             "end": 15
@@ -208,6 +208,7 @@ type T4 = { foo: number, bar: string, ... };
                                                                         {
                                                                             "kind": 247,
                                                                             "protoKeyword": null,
+                                                                            "staticToken": null,
                                                                             "ellipsisToken": {
                                                                                 "kind": 524302,
                                                                                 "flags": 64,
@@ -220,7 +221,7 @@ type T4 = { foo: number, bar: string, ... };
                                                                                 "bitwiseAndToken": null,
                                                                                 "type": {
                                                                                     "kind": 144,
-                                                                                    "name": {
+                                                                                    "typeName": {
                                                                                         "kind": 16637,
                                                                                         "text": "",
                                                                                         "rawText": "",
@@ -237,7 +238,6 @@ type T4 = { foo: number, bar: string, ... };
                                                                                 "start": 48,
                                                                                 "end": 48
                                                                             },
-                                                                            "staticToken": null,
                                                                             "flags": 2097152,
                                                                             "start": 45,
                                                                             "end": 48
@@ -259,6 +259,7 @@ type T4 = { foo: number, bar: string, ... };
                                                         {
                                                             "kind": 247,
                                                             "protoKeyword": null,
+                                                            "staticToken": null,
                                                             "ellipsisToken": {
                                                                 "kind": 524302,
                                                                 "flags": 64,
@@ -271,7 +272,7 @@ type T4 = { foo: number, bar: string, ... };
                                                                 "bitwiseAndToken": null,
                                                                 "type": {
                                                                     "kind": 144,
-                                                                    "name": {
+                                                                    "typeName": {
                                                                         "kind": 16637,
                                                                         "text": "",
                                                                         "rawText": "",
@@ -288,7 +289,6 @@ type T4 = { foo: number, bar: string, ... };
                                                                 "start": 54,
                                                                 "end": 54
                                                             },
-                                                            "staticToken": null,
                                                             "flags": 2097152,
                                                             "start": 50,
                                                             "end": 54
@@ -310,6 +310,7 @@ type T4 = { foo: number, bar: string, ... };
                                         {
                                             "kind": 247,
                                             "protoKeyword": null,
+                                            "staticToken": null,
                                             "ellipsisToken": {
                                                 "kind": 524302,
                                                 "flags": 64,
@@ -322,7 +323,7 @@ type T4 = { foo: number, bar: string, ... };
                                                 "bitwiseAndToken": null,
                                                 "type": {
                                                     "kind": 144,
-                                                    "name": {
+                                                    "typeName": {
                                                         "kind": 16637,
                                                         "text": "",
                                                         "rawText": "",
@@ -339,7 +340,6 @@ type T4 = { foo: number, bar: string, ... };
                                                 "start": 61,
                                                 "end": 61
                                             },
-                                            "staticToken": null,
                                             "flags": 2097152,
                                             "start": 57,
                                             "end": 61
@@ -439,6 +439,7 @@ type T4 = { foo: number, bar: string, ... };
                         {
                             "kind": 247,
                             "protoKeyword": null,
+                            "staticToken": null,
                             "ellipsisToken": {
                                 "kind": 524302,
                                 "flags": 64,
@@ -451,7 +452,7 @@ type T4 = { foo: number, bar: string, ... };
                                 "bitwiseAndToken": null,
                                 "type": {
                                     "kind": 144,
-                                    "name": {
+                                    "typeName": {
                                         "kind": 16637,
                                         "text": "",
                                         "rawText": "",
@@ -468,7 +469,6 @@ type T4 = { foo: number, bar: string, ... };
                                 "start": 94,
                                 "end": 94
                             },
-                            "staticToken": null,
                             "flags": 2097152,
                             "start": 90,
                             "end": 94
@@ -587,6 +587,7 @@ type T4 = { foo: number, bar: string, ... };
                         {
                             "kind": 247,
                             "protoKeyword": null,
+                            "staticToken": null,
                             "ellipsisToken": {
                                 "kind": 524302,
                                 "flags": 64,
@@ -599,7 +600,7 @@ type T4 = { foo: number, bar: string, ... };
                                 "bitwiseAndToken": null,
                                 "type": {
                                     "kind": 144,
-                                    "name": {
+                                    "typeName": {
                                         "kind": 16637,
                                         "text": "",
                                         "rawText": "",
@@ -616,7 +617,6 @@ type T4 = { foo: number, bar: string, ... };
                                 "start": 139,
                                 "end": 139
                             },
-                            "staticToken": null,
                             "flags": 2097152,
                             "start": 135,
                             "end": 139

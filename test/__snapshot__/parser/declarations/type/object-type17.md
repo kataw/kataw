@@ -57,6 +57,7 @@ type a = {():string};
                         {
                             "kind": 196,
                             "protoKeyword": null,
+                            "staticToken": null,
                             "typeParameter": null,
                             "value": {
                                 "kind": 282,
@@ -66,7 +67,6 @@ type a = {():string};
                                 "start": 11,
                                 "end": 11
                             },
-                            "staticToken": null,
                             "returnType": {
                                 "kind": 139,
                                 "bitwiseOrToken": null,

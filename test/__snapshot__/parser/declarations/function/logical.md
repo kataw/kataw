@@ -1773,7 +1773,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                             "bitwiseAndToken": null,
                             "type": {
                                 "kind": 144,
-                                "name": {
+                                "typeName": {
                                     "kind": 134299649,
                                     "text": "Object",
                                     "rawText": "Object",
@@ -2108,7 +2108,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                             "bitwiseAndToken": null,
                             "type": {
                                 "kind": 144,
-                                "name": {
+                                "typeName": {
                                     "kind": 134299649,
                                     "text": "Function",
                                     "rawText": "Function",
@@ -6800,7 +6800,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                 "bitwiseAndToken": null,
                 "type": {
                     "kind": 144,
-                    "name": {
+                    "typeName": {
                         "kind": 134299649,
                         "text": "Array",
                         "rawText": "Array",
@@ -7019,7 +7019,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                 "bitwiseAndToken": null,
                 "type": {
                     "kind": 144,
-                    "name": {
+                    "typeName": {
                         "kind": 134299649,
                         "text": "Array",
                         "rawText": "Array",
@@ -8858,7 +8858,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                 "bitwiseAndToken": null,
                 "type": {
                     "kind": 144,
-                    "name": {
+                    "typeName": {
                         "kind": 134299649,
                         "text": "Array",
                         "rawText": "Array",
@@ -9505,7 +9505,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                 "bitwiseAndToken": null,
                 "type": {
                     "kind": 144,
-                    "name": {
+                    "typeName": {
                         "kind": 134299649,
                         "text": "Array",
                         "rawText": "Array",

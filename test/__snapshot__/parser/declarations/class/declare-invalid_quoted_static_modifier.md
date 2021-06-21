@@ -74,7 +74,7 @@ declare class A { "static" foo(): number }
                                 "bitwiseAndToken": null,
                                 "type": {
                                     "kind": 144,
-                                    "name": {
+                                    "typeName": {
                                         "kind": 134299649,
                                         "text": "foo",
                                         "rawText": "foo",
@@ -98,6 +98,7 @@ declare class A { "static" foo(): number }
                         {
                             "kind": 196,
                             "protoKeyword": null,
+                            "staticToken": null,
                             "typeParameter": null,
                             "value": {
                                 "kind": 282,
@@ -107,7 +108,6 @@ declare class A { "static" foo(): number }
                                 "start": 31,
                                 "end": 31
                             },
-                            "staticToken": null,
                             "returnType": {
                                 "kind": 139,
                                 "bitwiseOrToken": null,

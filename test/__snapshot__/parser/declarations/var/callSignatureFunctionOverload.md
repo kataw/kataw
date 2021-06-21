@@ -67,6 +67,7 @@ var foo2: {
                                     {
                                         "kind": 196,
                                         "protoKeyword": null,
+                                        "staticToken": null,
                                         "typeParameter": null,
                                         "value": {
                                             "kind": 282,
@@ -107,7 +108,6 @@ var foo2: {
                                             "start": 16,
                                             "end": 28
                                         },
-                                        "staticToken": null,
                                         "returnType": {
                                             "kind": 139,
                                             "bitwiseOrToken": null,
@@ -129,6 +129,7 @@ var foo2: {
                                     {
                                         "kind": 196,
                                         "protoKeyword": null,
+                                        "staticToken": null,
                                         "typeParameter": null,
                                         "value": {
                                             "kind": 282,
@@ -170,7 +171,6 @@ var foo2: {
                                             "start": 44,
                                             "end": 57
                                         },
-                                        "staticToken": null,
                                         "returnType": {
                                             "kind": 139,
                                             "bitwiseOrToken": null,
@@ -192,6 +192,7 @@ var foo2: {
                                     {
                                         "kind": 196,
                                         "protoKeyword": null,
+                                        "staticToken": null,
                                         "typeParameter": null,
                                         "value": {
                                             "kind": 282,
@@ -233,7 +234,6 @@ var foo2: {
                                             "start": 73,
                                             "end": 88
                                         },
-                                        "staticToken": null,
                                         "returnType": {
                                             "kind": 139,
                                             "bitwiseOrToken": null,
@@ -255,6 +255,7 @@ var foo2: {
                                     {
                                         "kind": 196,
                                         "protoKeyword": null,
+                                        "staticToken": null,
                                         "typeParameter": null,
                                         "value": {
                                             "kind": 282,
@@ -296,7 +297,6 @@ var foo2: {
                                             "start": 104,
                                             "end": 116
                                         },
-                                        "staticToken": null,
                                         "returnType": {
                                             "kind": 139,
                                             "bitwiseOrToken": null,
@@ -371,6 +371,7 @@ var foo2: {
                                     {
                                         "kind": 196,
                                         "protoKeyword": null,
+                                        "staticToken": null,
                                         "typeParameter": null,
                                         "value": {
                                             "kind": 282,
@@ -411,7 +412,6 @@ var foo2: {
                                             "start": 147,
                                             "end": 159
                                         },
-                                        "staticToken": null,
                                         "returnType": {
                                             "kind": 139,
                                             "bitwiseOrToken": null,
@@ -433,6 +433,7 @@ var foo2: {
                                     {
                                         "kind": 196,
                                         "protoKeyword": null,
+                                        "staticToken": null,
                                         "typeParameter": null,
                                         "value": {
                                             "kind": 282,
@@ -474,7 +475,6 @@ var foo2: {
                                             "start": 175,
                                             "end": 188
                                         },
-                                        "staticToken": null,
                                         "returnType": {
                                             "kind": 139,
                                             "bitwiseOrToken": null,
@@ -496,6 +496,7 @@ var foo2: {
                                     {
                                         "kind": 196,
                                         "protoKeyword": null,
+                                        "staticToken": null,
                                         "typeParameter": null,
                                         "value": {
                                             "kind": 282,
@@ -537,7 +538,6 @@ var foo2: {
                                             "start": 204,
                                             "end": 217
                                         },
-                                        "staticToken": null,
                                         "returnType": {
                                             "kind": 139,
                                             "bitwiseOrToken": null,
@@ -559,6 +559,7 @@ var foo2: {
                                     {
                                         "kind": 196,
                                         "protoKeyword": null,
+                                        "staticToken": null,
                                         "typeParameter": null,
                                         "value": {
                                             "kind": 282,
@@ -600,7 +601,6 @@ var foo2: {
                                             "start": 233,
                                             "end": 245
                                         },
-                                        "staticToken": null,
                                         "returnType": {
                                             "kind": 139,
                                             "bitwiseOrToken": null,

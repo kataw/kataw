@@ -57,6 +57,7 @@ type A = {
                         {
                             "kind": 247,
                             "protoKeyword": null,
+                            "staticToken": null,
                             "ellipsisToken": {
                                 "kind": 524302,
                                 "flags": 65,
@@ -71,7 +72,7 @@ type A = {
                                     "kind": 290,
                                     "type": {
                                         "kind": 144,
-                                        "name": {
+                                        "typeName": {
                                             "kind": 134299649,
                                             "text": "B",
                                             "rawText": "B",
@@ -92,7 +93,6 @@ type A = {
                                 "start": 16,
                                 "end": 55
                             },
-                            "staticToken": null,
                             "flags": 2097152,
                             "start": 10,
                             "end": 55

@@ -58,7 +58,7 @@ type X = (x | y);
                         "types": [
                             {
                                 "kind": 144,
-                                "name": {
+                                "typeName": {
                                     "kind": 134299649,
                                     "text": "x",
                                     "rawText": "x",
@@ -73,7 +73,7 @@ type X = (x | y);
                             },
                             {
                                 "kind": 144,
-                                "name": {
+                                "typeName": {
                                     "kind": 134299649,
                                     "text": "y",
                                     "rawText": "y",

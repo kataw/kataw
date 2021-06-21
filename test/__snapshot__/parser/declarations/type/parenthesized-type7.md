@@ -55,7 +55,7 @@ type X = (x.y);
                     "kind": 290,
                     "type": {
                         "kind": 144,
-                        "name": {
+                        "typeName": {
                             "kind": 145,
                             "qualification": {
                                 "kind": 134299649,

@@ -226,7 +226,7 @@ var z : Object = (x) => "hi"
                                             "bitwiseAndToken": null,
                                             "type": {
                                                 "kind": 144,
-                                                "name": {
+                                                "typeName": {
                                                     "kind": 134299649,
                                                     "text": "Function",
                                                     "rawText": "Function",
@@ -557,6 +557,7 @@ var z : Object = (x) => "hi"
                                     {
                                         "kind": 196,
                                         "protoKeyword": null,
+                                        "staticToken": null,
                                         "typeParameter": null,
                                         "value": {
                                             "kind": 282,
@@ -597,7 +598,6 @@ var z : Object = (x) => "hi"
                                             "start": 355,
                                             "end": 364
                                         },
-                                        "staticToken": null,
                                         "returnType": {
                                             "kind": 139,
                                             "bitwiseOrToken": null,
@@ -732,6 +732,7 @@ var z : Object = (x) => "hi"
                                     {
                                         "kind": 196,
                                         "protoKeyword": null,
+                                        "staticToken": null,
                                         "typeParameter": null,
                                         "value": {
                                             "kind": 282,
@@ -772,7 +773,6 @@ var z : Object = (x) => "hi"
                                             "start": 466,
                                             "end": 475
                                         },
-                                        "staticToken": null,
                                         "returnType": {
                                             "kind": 139,
                                             "bitwiseOrToken": null,
@@ -879,6 +879,7 @@ var z : Object = (x) => "hi"
                                     {
                                         "kind": 196,
                                         "protoKeyword": null,
+                                        "staticToken": null,
                                         "typeParameter": null,
                                         "value": {
                                             "kind": 282,
@@ -919,7 +920,6 @@ var z : Object = (x) => "hi"
                                             "start": 548,
                                             "end": 557
                                         },
-                                        "staticToken": null,
                                         "returnType": {
                                             "kind": 139,
                                             "bitwiseOrToken": null,
@@ -1054,6 +1054,7 @@ var z : Object = (x) => "hi"
                                     {
                                         "kind": 196,
                                         "protoKeyword": null,
+                                        "staticToken": null,
                                         "typeParameter": null,
                                         "value": {
                                             "kind": 282,
@@ -1063,7 +1064,6 @@ var z : Object = (x) => "hi"
                                             "start": 632,
                                             "end": 632
                                         },
-                                        "staticToken": null,
                                         "returnType": {
                                             "kind": 139,
                                             "bitwiseOrToken": null,
@@ -1170,6 +1170,7 @@ var z : Object = (x) => "hi"
                                     {
                                         "kind": 196,
                                         "protoKeyword": null,
+                                        "staticToken": null,
                                         "typeParameter": null,
                                         "value": {
                                             "kind": 282,
@@ -1210,7 +1211,6 @@ var z : Object = (x) => "hi"
                                             "start": 707,
                                             "end": 713
                                         },
-                                        "staticToken": null,
                                         "returnType": {
                                             "kind": 139,
                                             "bitwiseOrToken": null,
@@ -1314,6 +1314,7 @@ var z : Object = (x) => "hi"
                                     {
                                         "kind": 196,
                                         "protoKeyword": null,
+                                        "staticToken": null,
                                         "typeParameter": null,
                                         "value": {
                                             "kind": 282,
@@ -1323,14 +1324,13 @@ var z : Object = (x) => "hi"
                                             "start": 754,
                                             "end": 754
                                         },
-                                        "staticToken": null,
                                         "returnType": {
                                             "kind": 139,
                                             "bitwiseOrToken": null,
                                             "bitwiseAndToken": null,
                                             "type": {
                                                 "kind": 144,
-                                                "name": {
+                                                "typeName": {
                                                     "kind": 134299649,
                                                     "text": "mixed",
                                                     "rawText": "mixed",
@@ -1430,6 +1430,7 @@ var z : Object = (x) => "hi"
                                     {
                                         "kind": 196,
                                         "protoKeyword": null,
+                                        "staticToken": null,
                                         "typeParameter": null,
                                         "value": {
                                             "kind": 282,
@@ -1452,7 +1453,7 @@ var z : Object = (x) => "hi"
                                                         "bitwiseAndToken": null,
                                                         "type": {
                                                             "kind": 144,
-                                                            "name": {
+                                                            "typeName": {
                                                                 "kind": 134299649,
                                                                 "text": "Date",
                                                                 "rawText": "Date",
@@ -1479,7 +1480,6 @@ var z : Object = (x) => "hi"
                                             "start": 803,
                                             "end": 810
                                         },
-                                        "staticToken": null,
                                         "returnType": {
                                             "kind": 139,
                                             "bitwiseOrToken": null,
@@ -1707,7 +1707,7 @@ var z : Object = (x) => "hi"
                             "bitwiseAndToken": null,
                             "type": {
                                 "kind": 144,
-                                "name": {
+                                "typeName": {
                                     "kind": 134299649,
                                     "text": "Object",
                                     "rawText": "Object",

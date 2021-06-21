@@ -70,6 +70,7 @@ function d(x: { (z: number): string }): () => string {
                                     {
                                         "kind": 196,
                                         "protoKeyword": null,
+                                        "staticToken": null,
                                         "typeParameter": null,
                                         "value": {
                                             "kind": 282,
@@ -110,7 +111,6 @@ function d(x: { (z: number): string }): () => string {
                                             "start": 17,
                                             "end": 26
                                         },
-                                        "staticToken": null,
                                         "returnType": {
                                             "kind": 139,
                                             "bitwiseOrToken": null,

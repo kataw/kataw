@@ -86,7 +86,7 @@ type LinkedList<Type> = Type & { next: LinkedList<Type> };
                     "types": [
                         {
                             "kind": 144,
-                            "name": {
+                            "typeName": {
                                 "kind": 134299649,
                                 "text": "Type",
                                 "rawText": "Type",
@@ -123,7 +123,7 @@ type LinkedList<Type> = Type & { next: LinkedList<Type> };
                                         "bitwiseAndToken": null,
                                         "type": {
                                             "kind": 144,
-                                            "name": {
+                                            "typeName": {
                                                 "kind": 134299649,
                                                 "text": "LinkedList",
                                                 "rawText": "LinkedList",
@@ -142,7 +142,7 @@ type LinkedList<Type> = Type & { next: LinkedList<Type> };
                                                             "bitwiseAndToken": null,
                                                             "type": {
                                                                 "kind": 144,
-                                                                "name": {
+                                                                "typeName": {
                                                                     "kind": 134299649,
                                                                     "text": "Type",
                                                                     "rawText": "Type",

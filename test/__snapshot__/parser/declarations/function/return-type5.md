@@ -70,7 +70,7 @@ function x(y: | /* comment 1 */ z):
                             "bitwiseAndToken": null,
                             "type": {
                                 "kind": 144,
-                                "name": {
+                                "typeName": {
                                     "kind": 134299649,
                                     "text": "z",
                                     "rawText": "z",

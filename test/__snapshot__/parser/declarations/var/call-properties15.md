@@ -55,6 +55,7 @@ var g: { (x: Date): void } = (x) => { x * 2 } // param type (date < number)
                                     {
                                         "kind": 196,
                                         "protoKeyword": null,
+                                        "staticToken": null,
                                         "typeParameter": null,
                                         "value": {
                                             "kind": 282,
@@ -77,7 +78,7 @@ var g: { (x: Date): void } = (x) => { x * 2 } // param type (date < number)
                                                         "bitwiseAndToken": null,
                                                         "type": {
                                                             "kind": 144,
-                                                            "name": {
+                                                            "typeName": {
                                                                 "kind": 134299649,
                                                                 "text": "Date",
                                                                 "rawText": "Date",
@@ -104,7 +105,6 @@ var g: { (x: Date): void } = (x) => { x * 2 } // param type (date < number)
                                             "start": 10,
                                             "end": 17
                                         },
-                                        "staticToken": null,
                                         "returnType": {
                                             "kind": 139,
                                             "bitwiseOrToken": null,

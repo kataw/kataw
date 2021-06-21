@@ -80,7 +80,7 @@ type A = (b: (B)) => C
                                         "kind": 290,
                                         "type": {
                                             "kind": 144,
-                                            "name": {
+                                            "typeName": {
                                                 "kind": 134299649,
                                                 "text": "B",
                                                 "rawText": "B",
@@ -117,7 +117,7 @@ type A = (b: (B)) => C
                         "bitwiseAndToken": null,
                         "type": {
                             "kind": 144,
-                            "name": {
+                            "typeName": {
                                 "kind": 134299649,
                                 "text": "C",
                                 "rawText": "C",

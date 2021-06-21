@@ -253,7 +253,7 @@ type T = { [string]: Class<null> }
                             "bitwiseAndToken": null,
                             "type": {
                                 "kind": 144,
-                                "name": {
+                                "typeName": {
                                     "kind": 134299649,
                                     "text": "Class",
                                     "rawText": "Class",
@@ -272,7 +272,7 @@ type T = { [string]: Class<null> }
                                                 "bitwiseAndToken": null,
                                                 "type": {
                                                     "kind": 144,
-                                                    "name": {
+                                                    "typeName": {
                                                         "kind": 134299649,
                                                         "text": "A",
                                                         "rawText": "A",
@@ -379,7 +379,7 @@ type T = { [string]: Class<null> }
                 "bitwiseAndToken": null,
                 "type": {
                     "kind": 144,
-                    "name": {
+                    "typeName": {
                         "kind": 134299649,
                         "text": "A",
                         "rawText": "A",
@@ -723,7 +723,7 @@ type T = { [string]: Class<null> }
                                 "bitwiseAndToken": null,
                                 "type": {
                                     "kind": 144,
-                                    "name": {
+                                    "typeName": {
                                         "kind": 134299649,
                                         "text": "Class",
                                         "rawText": "Class",

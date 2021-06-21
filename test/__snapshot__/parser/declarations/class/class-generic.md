@@ -110,7 +110,7 @@ class A<TYPE> {
                                     "bitwiseAndToken": null,
                                     "type": {
                                         "kind": 144,
-                                        "name": {
+                                        "typeName": {
                                             "kind": 134299649,
                                             "text": "Promise",
                                             "rawText": "Promise",
@@ -129,7 +129,7 @@ class A<TYPE> {
                                                         "bitwiseAndToken": null,
                                                         "type": {
                                                             "kind": 144,
-                                                            "name": {
+                                                            "typeName": {
                                                                 "kind": 134299649,
                                                                 "text": "TYPE",
                                                                 "rawText": "TYPE",
@@ -326,7 +326,7 @@ class A<TYPE> {
                                     "bitwiseAndToken": null,
                                     "type": {
                                         "kind": 144,
-                                        "name": {
+                                        "typeName": {
                                             "kind": 134299649,
                                             "text": "Promise",
                                             "rawText": "Promise",
@@ -345,7 +345,7 @@ class A<TYPE> {
                                                         "bitwiseAndToken": null,
                                                         "type": {
                                                             "kind": 144,
-                                                            "name": {
+                                                            "typeName": {
                                                                 "kind": 134299649,
                                                                 "text": "TYPE",
                                                                 "rawText": "TYPE",

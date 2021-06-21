@@ -76,6 +76,7 @@ function e(x: { (): string; (x: number): string }): () => number {
                                     {
                                         "kind": 196,
                                         "protoKeyword": null,
+                                        "staticToken": null,
                                         "typeParameter": null,
                                         "value": {
                                             "kind": 282,
@@ -85,7 +86,6 @@ function e(x: { (): string; (x: number): string }): () => number {
                                             "start": 71,
                                             "end": 71
                                         },
-                                        "staticToken": null,
                                         "returnType": {
                                             "kind": 139,
                                             "bitwiseOrToken": null,
@@ -107,6 +107,7 @@ function e(x: { (): string; (x: number): string }): () => number {
                                     {
                                         "kind": 196,
                                         "protoKeyword": null,
+                                        "staticToken": null,
                                         "typeParameter": null,
                                         "value": {
                                             "kind": 282,
@@ -147,7 +148,6 @@ function e(x: { (): string; (x: number): string }): () => number {
                                             "start": 83,
                                             "end": 92
                                         },
-                                        "staticToken": null,
                                         "returnType": {
                                             "kind": 139,
                                             "bitwiseOrToken": null,
@@ -314,6 +314,7 @@ function e(x: { (): string; (x: number): string }): () => number {
                                     {
                                         "kind": 196,
                                         "protoKeyword": null,
+                                        "staticToken": null,
                                         "typeParameter": null,
                                         "value": {
                                             "kind": 282,
@@ -323,7 +324,6 @@ function e(x: { (): string; (x: number): string }): () => number {
                                             "start": 185,
                                             "end": 185
                                         },
-                                        "staticToken": null,
                                         "returnType": {
                                             "kind": 139,
                                             "bitwiseOrToken": null,
@@ -345,6 +345,7 @@ function e(x: { (): string; (x: number): string }): () => number {
                                     {
                                         "kind": 196,
                                         "protoKeyword": null,
+                                        "staticToken": null,
                                         "typeParameter": null,
                                         "value": {
                                             "kind": 282,
@@ -385,7 +386,6 @@ function e(x: { (): string; (x: number): string }): () => number {
                                             "start": 197,
                                             "end": 206
                                         },
-                                        "staticToken": null,
                                         "returnType": {
                                             "kind": 139,
                                             "bitwiseOrToken": null,

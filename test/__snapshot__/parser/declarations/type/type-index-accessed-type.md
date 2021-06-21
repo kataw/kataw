@@ -65,7 +65,7 @@ type Age = typeof MyArray[number]["age"];
                             },
                             "type": {
                                 "kind": 144,
-                                "name": {
+                                "typeName": {
                                     "kind": 134299649,
                                     "text": "MyArray",
                                     "rawText": "MyArray",

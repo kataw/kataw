@@ -11,7 +11,7 @@ export interface ObjectTypeInternalSlot extends SyntaxNode {
   /* error recovery */
   readonly protoKeyword: SyntaxToken<TokenSyntaxKind> | null;
   readonly name: Identifier | DummyIdentifier | StringLiteral | NumericLiteral;
-  readonly value: TypeNode;
+  readonly type: TypeNode;
   readonly optionalToken: SyntaxToken<TokenSyntaxKind> | null;
   readonly staticToken: SyntaxToken<TokenSyntaxKind> | null;
 }
@@ -21,17 +21,17 @@ export function createObjectTypeInternalSlot(
   name: Identifier | DummyIdentifier | StringLiteral | NumericLiteral,
   optionalToken: SyntaxToken<TokenSyntaxKind> | null,
   staticToken: SyntaxToken<TokenSyntaxKind> | null,
-  value: TypeNode,
+  type: TypeNode,
   start: number,
   end: number
 ): ObjectTypeInternalSlot {
   return {
     kind: SyntaxKind.ObjectTypeInternalSlot,
     protoKeyword,
-    name,
-    value,
-    optionalToken,
     staticToken,
+    name,
+    optionalToken,
+    type,
     flags: NodeFlags.IsTypeNode,
     start,
     end

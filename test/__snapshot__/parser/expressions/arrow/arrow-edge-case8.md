@@ -61,7 +61,7 @@ a ? (b) : c => (d) : e => f : g;
                         "bitwiseAndToken": null,
                         "type": {
                             "kind": 144,
-                            "name": {
+                            "typeName": {
                                 "kind": 134299649,
                                 "text": "c",
                                 "rawText": "c",
@@ -104,7 +104,7 @@ a ? (b) : c => (d) : e => f : g;
                             "bitwiseAndToken": null,
                             "type": {
                                 "kind": 144,
-                                "name": {
+                                "typeName": {
                                     "kind": 134299649,
                                     "text": "e",
                                     "rawText": "e",

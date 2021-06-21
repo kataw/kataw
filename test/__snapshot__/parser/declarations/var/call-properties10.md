@@ -55,6 +55,7 @@ var g: { (x: string): void } = function(x: mixed) { }
                                     {
                                         "kind": 196,
                                         "protoKeyword": null,
+                                        "staticToken": null,
                                         "typeParameter": null,
                                         "value": {
                                             "kind": 282,
@@ -95,7 +96,6 @@ var g: { (x: string): void } = function(x: mixed) { }
                                             "start": 10,
                                             "end": 19
                                         },
-                                        "staticToken": null,
                                         "returnType": {
                                             "kind": 139,
                                             "bitwiseOrToken": null,
@@ -157,7 +157,7 @@ var g: { (x: string): void } = function(x: mixed) { }
                                             "bitwiseAndToken": null,
                                             "type": {
                                                 "kind": 144,
-                                                "name": {
+                                                "typeName": {
                                                     "kind": 134299649,
                                                     "text": "mixed",
                                                     "rawText": "mixed",

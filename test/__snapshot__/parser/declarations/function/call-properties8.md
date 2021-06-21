@@ -68,6 +68,7 @@ function b(x: { (z: number): string }): (z: number) => number {
                                     {
                                         "kind": 196,
                                         "protoKeyword": null,
+                                        "staticToken": null,
                                         "typeParameter": null,
                                         "value": {
                                             "kind": 282,
@@ -108,7 +109,6 @@ function b(x: { (z: number): string }): (z: number) => number {
                                             "start": 17,
                                             "end": 26
                                         },
-                                        "staticToken": null,
                                         "returnType": {
                                             "kind": 139,
                                             "bitwiseOrToken": null,

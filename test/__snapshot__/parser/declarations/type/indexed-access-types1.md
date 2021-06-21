@@ -55,7 +55,7 @@ type A = Obj['a'];
                     "kind": 311,
                     "objectType": {
                         "kind": 144,
-                        "name": {
+                        "typeName": {
                             "kind": 134299649,
                             "text": "Obj",
                             "rawText": "Obj",

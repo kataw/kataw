@@ -70,6 +70,7 @@ function a(f: { (): string; (x: number): string }): string {
                                     {
                                         "kind": 196,
                                         "protoKeyword": null,
+                                        "staticToken": null,
                                         "typeParameter": null,
                                         "value": {
                                             "kind": 282,
@@ -79,7 +80,6 @@ function a(f: { (): string; (x: number): string }): string {
                                             "start": 17,
                                             "end": 17
                                         },
-                                        "staticToken": null,
                                         "returnType": {
                                             "kind": 139,
                                             "bitwiseOrToken": null,
@@ -101,6 +101,7 @@ function a(f: { (): string; (x: number): string }): string {
                                     {
                                         "kind": 196,
                                         "protoKeyword": null,
+                                        "staticToken": null,
                                         "typeParameter": null,
                                         "value": {
                                             "kind": 282,
@@ -141,7 +142,6 @@ function a(f: { (): string; (x: number): string }): string {
                                             "start": 29,
                                             "end": 38
                                         },
-                                        "staticToken": null,
                                         "returnType": {
                                             "kind": 139,
                                             "bitwiseOrToken": null,

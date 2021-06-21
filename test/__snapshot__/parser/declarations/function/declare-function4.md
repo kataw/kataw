@@ -69,7 +69,7 @@ declare function bar(config: Config<{foo: 'a'}>) : void
                             "bitwiseAndToken": null,
                             "type": {
                                 "kind": 144,
-                                "name": {
+                                "typeName": {
                                     "kind": 134299649,
                                     "text": "Config",
                                     "rawText": "Config",

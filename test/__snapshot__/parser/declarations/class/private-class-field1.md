@@ -350,7 +350,7 @@ class Annotations {
                                                 "bitwiseAndToken": null,
                                                 "type": {
                                                     "kind": 144,
-                                                    "name": {
+                                                    "typeName": {
                                                         "kind": 134299649,
                                                         "text": "C",
                                                         "rawText": "C",
@@ -605,7 +605,7 @@ class Annotations {
                                                                                     "bitwiseAndToken": null,
                                                                                     "type": {
                                                                                         "kind": 144,
-                                                                                        "name": {
+                                                                                        "typeName": {
                                                                                             "kind": 134299649,
                                                                                             "text": "Outer",
                                                                                             "rawText": "Outer",

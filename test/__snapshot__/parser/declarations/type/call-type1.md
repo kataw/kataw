@@ -82,7 +82,7 @@ type Fn2 = <A, B>(A, B) => A | B;
                                         "ellipsisToken": null,
                                         "name": {
                                             "kind": 144,
-                                            "name": {
+                                            "typeName": {
                                                 "kind": 134299649,
                                                 "text": "A",
                                                 "rawText": "A",
@@ -108,7 +108,7 @@ type Fn2 = <A, B>(A, B) => A | B;
                                         "optionalToken": null,
                                         "types": {
                                             "kind": 144,
-                                            "name": {
+                                            "typeName": {
                                                 "kind": 134299649,
                                                 "text": "B",
                                                 "rawText": "B",
@@ -140,7 +140,7 @@ type Fn2 = <A, B>(A, B) => A | B;
                                     "types": [
                                         {
                                             "kind": 144,
-                                            "name": {
+                                            "typeName": {
                                                 "kind": 134299649,
                                                 "text": "A",
                                                 "rawText": "A",
@@ -155,7 +155,7 @@ type Fn2 = <A, B>(A, B) => A | B;
                                         },
                                         {
                                             "kind": 144,
-                                            "name": {
+                                            "typeName": {
                                                 "kind": 134299649,
                                                 "text": "B",
                                                 "rawText": "B",

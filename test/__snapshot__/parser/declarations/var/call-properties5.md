@@ -55,6 +55,7 @@ var b: { (x: number): number } = function (x: number): string { return "hi"; };
                                     {
                                         "kind": 196,
                                         "protoKeyword": null,
+                                        "staticToken": null,
                                         "typeParameter": null,
                                         "value": {
                                             "kind": 282,
@@ -95,7 +96,6 @@ var b: { (x: number): number } = function (x: number): string { return "hi"; };
                                             "start": 10,
                                             "end": 19
                                         },
-                                        "staticToken": null,
                                         "returnType": {
                                             "kind": 139,
                                             "bitwiseOrToken": null,

@@ -68,7 +68,7 @@ var {x5}: {x5: string; } = { x5: "hello" };
                                 },
                                 "type": {
                                     "kind": 144,
-                                    "name": {
+                                    "typeName": {
                                         "kind": 134299649,
                                         "text": "Array",
                                         "rawText": "Array",
@@ -213,7 +213,7 @@ var {x5}: {x5: string; } = { x5: "hello" };
                                                         "bitwiseAndToken": null,
                                                         "type": {
                                                             "kind": 144,
-                                                            "name": {
+                                                            "typeName": {
                                                                 "kind": 134299649,
                                                                 "text": "T",
                                                                 "rawText": "T",
@@ -246,7 +246,7 @@ var {x5}: {x5: string; } = { x5: "hello" };
                                             "bitwiseAndToken": null,
                                             "type": {
                                                 "kind": 144,
-                                                "name": {
+                                                "typeName": {
                                                     "kind": 134299649,
                                                     "text": "T",
                                                     "rawText": "T",
@@ -395,7 +395,7 @@ var {x5}: {x5: string; } = { x5: "hello" };
                                                         "bitwiseAndToken": null,
                                                         "type": {
                                                             "kind": 144,
-                                                            "name": {
+                                                            "typeName": {
                                                                 "kind": 134299649,
                                                                 "text": "T",
                                                                 "rawText": "T",
@@ -441,7 +441,7 @@ var {x5}: {x5: string; } = { x5: "hello" };
                                                             "kind": 136,
                                                             "type": {
                                                                 "kind": 144,
-                                                                "name": {
+                                                                "typeName": {
                                                                     "kind": 134299649,
                                                                     "text": "T",
                                                                     "rawText": "T",
@@ -478,7 +478,7 @@ var {x5}: {x5: string; } = { x5: "hello" };
                                             "bitwiseAndToken": null,
                                             "type": {
                                                 "kind": 144,
-                                                "name": {
+                                                "typeName": {
                                                     "kind": 134299649,
                                                     "text": "T",
                                                     "rawText": "T",
@@ -711,7 +711,7 @@ var {x5}: {x5: string; } = { x5: "hello" };
                                 "kind": 136,
                                 "type": {
                                     "kind": 144,
-                                    "name": {
+                                    "typeName": {
                                         "kind": 134299649,
                                         "text": "Promise",
                                         "rawText": "Promise",
@@ -730,7 +730,7 @@ var {x5}: {x5: string; } = { x5: "hello" };
                                                     "bitwiseAndToken": null,
                                                     "type": {
                                                         "kind": 144,
-                                                        "name": {
+                                                        "typeName": {
                                                             "kind": 134299649,
                                                             "text": "bool",
                                                             "rawText": "bool",
@@ -948,7 +948,7 @@ var {x5}: {x5: string; } = { x5: "hello" };
                                 },
                                 "type": {
                                     "kind": 144,
-                                    "name": {
+                                    "typeName": {
                                         "kind": 134299649,
                                         "text": "Y",
                                         "rawText": "Y",
@@ -1029,7 +1029,7 @@ var {x5}: {x5: string; } = { x5: "hello" };
                                         },
                                         "type": {
                                             "kind": 144,
-                                            "name": {
+                                            "typeName": {
                                                 "kind": 134299649,
                                                 "text": "Y",
                                                 "rawText": "Y",

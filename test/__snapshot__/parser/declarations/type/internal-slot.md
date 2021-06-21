@@ -61,6 +61,7 @@ type q = { [[foo]]: X }
                         {
                             "kind": 248,
                             "protoKeyword": null,
+                            "staticToken": null,
                             "name": {
                                 "kind": 134299649,
                                 "text": "foo",
@@ -69,13 +70,14 @@ type q = { [[foo]]: X }
                                 "start": 13,
                                 "end": 16
                             },
-                            "value": {
+                            "optionalToken": null,
+                            "type": {
                                 "kind": 139,
                                 "bitwiseOrToken": null,
                                 "bitwiseAndToken": null,
                                 "type": {
                                     "kind": 144,
-                                    "name": {
+                                    "typeName": {
                                         "kind": 134299649,
                                         "text": "X",
                                         "rawText": "X",
@@ -92,8 +94,6 @@ type q = { [[foo]]: X }
                                 "start": 19,
                                 "end": 21
                             },
-                            "optionalToken": null,
-                            "staticToken": null,
                             "flags": 2097152,
                             "start": 10,
                             "end": 21
@@ -146,6 +146,7 @@ type q = { [[foo]]: X }
                         {
                             "kind": 248,
                             "protoKeyword": null,
+                            "staticToken": null,
                             "name": {
                                 "kind": 134299649,
                                 "text": "foo",
@@ -154,7 +155,8 @@ type q = { [[foo]]: X }
                                 "start": 38,
                                 "end": 41
                             },
-                            "value": {
+                            "optionalToken": null,
+                            "type": {
                                 "kind": 148,
                                 "functionTypeParameterList": {
                                     "kind": 282,
@@ -170,7 +172,7 @@ type q = { [[foo]]: X }
                                     "bitwiseAndToken": null,
                                     "type": {
                                         "kind": 144,
-                                        "name": {
+                                        "typeName": {
                                             "kind": 134299649,
                                             "text": "X",
                                             "rawText": "X",
@@ -192,8 +194,6 @@ type q = { [[foo]]: X }
                                 "start": 35,
                                 "end": 48
                             },
-                            "optionalToken": null,
-                            "staticToken": null,
                             "flags": 2097152,
                             "start": 35,
                             "end": 48
@@ -246,6 +246,7 @@ type q = { [[foo]]: X }
                         {
                             "kind": 248,
                             "protoKeyword": null,
+                            "staticToken": null,
                             "name": {
                                 "kind": 134299649,
                                 "text": "foo",
@@ -254,13 +255,19 @@ type q = { [[foo]]: X }
                                 "start": 65,
                                 "end": 68
                             },
-                            "value": {
+                            "optionalToken": {
+                                "kind": 134217750,
+                                "flags": 64,
+                                "start": 70,
+                                "end": 71
+                            },
+                            "type": {
                                 "kind": 139,
                                 "bitwiseOrToken": null,
                                 "bitwiseAndToken": null,
                                 "type": {
                                     "kind": 144,
-                                    "name": {
+                                    "typeName": {
                                         "kind": 134299649,
                                         "text": "X",
                                         "rawText": "X",
@@ -277,13 +284,6 @@ type q = { [[foo]]: X }
                                 "start": 72,
                                 "end": 74
                             },
-                            "optionalToken": {
-                                "kind": 134217750,
-                                "flags": 64,
-                                "start": 70,
-                                "end": 71
-                            },
-                            "staticToken": null,
                             "flags": 2097152,
                             "start": 62,
                             "end": 74
@@ -336,6 +336,7 @@ type q = { [[foo]]: X }
                         {
                             "kind": 248,
                             "protoKeyword": null,
+                            "staticToken": null,
                             "name": {
                                 "kind": 134299649,
                                 "text": "foo",
@@ -344,13 +345,14 @@ type q = { [[foo]]: X }
                                 "start": 91,
                                 "end": 94
                             },
-                            "value": {
+                            "optionalToken": null,
+                            "type": {
                                 "kind": 139,
                                 "bitwiseOrToken": null,
                                 "bitwiseAndToken": null,
                                 "type": {
                                     "kind": 144,
-                                    "name": {
+                                    "typeName": {
                                         "kind": 134299649,
                                         "text": "X",
                                         "rawText": "X",
@@ -367,8 +369,6 @@ type q = { [[foo]]: X }
                                 "start": 97,
                                 "end": 99
                             },
-                            "optionalToken": null,
-                            "staticToken": null,
                             "flags": 2097152,
                             "start": 88,
                             "end": 99

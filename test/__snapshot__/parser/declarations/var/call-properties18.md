@@ -55,6 +55,7 @@ var a: { (x: number): string } = (x) => x.toString()
                                     {
                                         "kind": 196,
                                         "protoKeyword": null,
+                                        "staticToken": null,
                                         "typeParameter": null,
                                         "value": {
                                             "kind": 282,
@@ -95,7 +96,6 @@ var a: { (x: number): string } = (x) => x.toString()
                                             "start": 10,
                                             "end": 19
                                         },
-                                        "staticToken": null,
                                         "returnType": {
                                             "kind": 139,
                                             "bitwiseOrToken": null,

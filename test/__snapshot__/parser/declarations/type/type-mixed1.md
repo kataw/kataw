@@ -81,7 +81,7 @@ type x<y> = z<<q>(r) => s>
                 "bitwiseAndToken": null,
                 "type": {
                     "kind": 144,
-                    "name": {
+                    "typeName": {
                         "kind": 134299649,
                         "text": "z",
                         "rawText": "z",
@@ -123,7 +123,7 @@ type x<y> = z<<q>(r) => s>
                                                 },
                                                 "arrowToken": {
                                                     "kind": 144,
-                                                    "name": {
+                                                    "typeName": {
                                                         "kind": 134299649,
                                                         "text": "r",
                                                         "rawText": "r",
@@ -142,7 +142,7 @@ type x<y> = z<<q>(r) => s>
                                                     "bitwiseAndToken": null,
                                                     "type": {
                                                         "kind": 144,
-                                                        "name": {
+                                                        "typeName": {
                                                             "kind": 134299649,
                                                             "text": "s",
                                                             "rawText": "s",

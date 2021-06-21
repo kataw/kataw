@@ -150,7 +150,7 @@ function w2<A: Array<number>>(x: A, f: (number, ...A) => void) {
                             "bitwiseAndToken": null,
                             "type": {
                                 "kind": 144,
-                                "name": {
+                                "typeName": {
                                     "kind": 134299649,
                                     "text": "A",
                                     "rawText": "A",
@@ -226,7 +226,7 @@ function w2<A: Array<number>>(x: A, f: (number, ...A) => void) {
                                             "optionalToken": null,
                                             "types": {
                                                 "kind": 144,
-                                                "name": {
+                                                "typeName": {
                                                     "kind": 134299649,
                                                     "text": "A",
                                                     "rawText": "A",
@@ -579,7 +579,7 @@ function w2<A: Array<number>>(x: A, f: (number, ...A) => void) {
                                 "bitwiseAndToken": null,
                                 "type": {
                                     "kind": 144,
-                                    "name": {
+                                    "typeName": {
                                         "kind": 134299649,
                                         "text": "Array",
                                         "rawText": "Array",
@@ -660,7 +660,7 @@ function w2<A: Array<number>>(x: A, f: (number, ...A) => void) {
                             "bitwiseAndToken": null,
                             "type": {
                                 "kind": 144,
-                                "name": {
+                                "typeName": {
                                     "kind": 134299649,
                                     "text": "A",
                                     "rawText": "A",
@@ -736,7 +736,7 @@ function w2<A: Array<number>>(x: A, f: (number, ...A) => void) {
                                             "optionalToken": null,
                                             "types": {
                                                 "kind": 144,
-                                                "name": {
+                                                "typeName": {
                                                     "kind": 134299649,
                                                     "text": "A",
                                                     "rawText": "A",

@@ -56,6 +56,12 @@ declare class C { static [[foo]]: T }
                         {
                             "kind": 248,
                             "protoKeyword": null,
+                            "staticToken": {
+                                "kind": 8388716,
+                                "flags": 32,
+                                "start": 17,
+                                "end": 24
+                            },
                             "name": {
                                 "kind": 134299649,
                                 "text": "foo",
@@ -64,13 +70,14 @@ declare class C { static [[foo]]: T }
                                 "start": 27,
                                 "end": 30
                             },
-                            "value": {
+                            "optionalToken": null,
+                            "type": {
                                 "kind": 139,
                                 "bitwiseOrToken": null,
                                 "bitwiseAndToken": null,
                                 "type": {
                                     "kind": 144,
-                                    "name": {
+                                    "typeName": {
                                         "kind": 134299649,
                                         "text": "T",
                                         "rawText": "T",
@@ -86,13 +93,6 @@ declare class C { static [[foo]]: T }
                                 "flags": 2097152,
                                 "start": 33,
                                 "end": 35
-                            },
-                            "optionalToken": null,
-                            "staticToken": {
-                                "kind": 8388716,
-                                "flags": 32,
-                                "start": 17,
-                                "end": 24
                             },
                             "flags": 2097152,
                             "start": 17,

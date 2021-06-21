@@ -59,6 +59,7 @@ type UnsealedInUnion = Union1 | Union2 | typeof y;
                         {
                             "kind": 247,
                             "protoKeyword": null,
+                            "staticToken": null,
                             "ellipsisToken": {
                                 "kind": 524302,
                                 "flags": 64,
@@ -96,7 +97,7 @@ type UnsealedInUnion = Union1 | Union2 | typeof y;
                                                         "bitwiseAndToken": null,
                                                         "type": {
                                                             "kind": 144,
-                                                            "name": {
+                                                            "typeName": {
                                                                 "kind": 134299649,
                                                                 "text": "T",
                                                                 "rawText": "T",
@@ -147,7 +148,7 @@ type UnsealedInUnion = Union1 | Union2 | typeof y;
                                                         "bitwiseAndToken": null,
                                                         "type": {
                                                             "kind": 144,
-                                                            "name": {
+                                                            "typeName": {
                                                                 "kind": 134299649,
                                                                 "text": "U",
                                                                 "rawText": "U",
@@ -183,7 +184,6 @@ type UnsealedInUnion = Union1 | Union2 | typeof y;
                                 "start": 14,
                                 "end": 25
                             },
-                            "staticToken": null,
                             "flags": 2097152,
                             "start": 11,
                             "end": 25
@@ -235,7 +235,7 @@ type UnsealedInUnion = Union1 | Union2 | typeof y;
                     "types": [
                         {
                             "kind": 144,
-                            "name": {
+                            "typeName": {
                                 "kind": 134299649,
                                 "text": "Union1",
                                 "rawText": "Union1",
@@ -250,7 +250,7 @@ type UnsealedInUnion = Union1 | Union2 | typeof y;
                         },
                         {
                             "kind": 144,
-                            "name": {
+                            "typeName": {
                                 "kind": 134299649,
                                 "text": "Union2",
                                 "rawText": "Union2",
@@ -273,7 +273,7 @@ type UnsealedInUnion = Union1 | Union2 | typeof y;
                             },
                             "type": {
                                 "kind": 144,
-                                "name": {
+                                "typeName": {
                                     "kind": 134299649,
                                     "text": "y",
                                     "rawText": "y",

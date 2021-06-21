@@ -56,7 +56,7 @@ async <T: U>(x) => y;
                                     "bitwiseAndToken": null,
                                     "type": {
                                         "kind": 144,
-                                        "name": {
+                                        "typeName": {
                                             "kind": 134299649,
                                             "text": "U",
                                             "rawText": "U",
@@ -154,7 +154,7 @@ async <T: U>(x) => y;
                                         "bitwiseAndToken": null,
                                         "type": {
                                             "kind": 144,
-                                            "name": {
+                                            "typeName": {
                                                 "kind": 134299649,
                                                 "text": "U",
                                                 "rawText": "U",

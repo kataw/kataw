@@ -55,6 +55,7 @@ var a : { (): number }
                                     {
                                         "kind": 196,
                                         "protoKeyword": null,
+                                        "staticToken": null,
                                         "typeParameter": null,
                                         "value": {
                                             "kind": 282,
@@ -64,7 +65,6 @@ var a : { (): number }
                                             "start": 11,
                                             "end": 11
                                         },
-                                        "staticToken": null,
                                         "returnType": {
                                             "kind": 139,
                                             "bitwiseOrToken": null,

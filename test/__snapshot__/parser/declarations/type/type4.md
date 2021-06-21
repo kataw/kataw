@@ -75,7 +75,7 @@ type T27 = ArgumentType<never>;  // any
                 "bitwiseAndToken": null,
                 "type": {
                     "kind": 144,
-                    "name": {
+                    "typeName": {
                         "kind": 134299649,
                         "text": "ReturnType",
                         "rawText": "ReturnType",
@@ -183,7 +183,7 @@ type T27 = ArgumentType<never>;  // any
                 "bitwiseAndToken": null,
                 "type": {
                     "kind": 144,
-                    "name": {
+                    "typeName": {
                         "kind": 134299649,
                         "text": "ReturnType",
                         "rawText": "ReturnType",
@@ -322,7 +322,7 @@ type T27 = ArgumentType<never>;  // any
                 "bitwiseAndToken": null,
                 "type": {
                     "kind": 144,
-                    "name": {
+                    "typeName": {
                         "kind": 134299649,
                         "text": "ReturnType",
                         "rawText": "ReturnType",
@@ -382,7 +382,7 @@ type T27 = ArgumentType<never>;  // any
                                                             "bitwiseAndToken": null,
                                                             "type": {
                                                                 "kind": 144,
-                                                                "name": {
+                                                                "typeName": {
                                                                     "kind": 134299649,
                                                                     "text": "T",
                                                                     "rawText": "T",
@@ -507,7 +507,7 @@ type T27 = ArgumentType<never>;  // any
                 "bitwiseAndToken": null,
                 "type": {
                     "kind": 144,
-                    "name": {
+                    "typeName": {
                         "kind": 134299649,
                         "text": "ReturnType",
                         "rawText": "ReturnType",
@@ -534,7 +534,7 @@ type T27 = ArgumentType<never>;  // any
                                         },
                                         "type": {
                                             "kind": 144,
-                                            "name": {
+                                            "typeName": {
                                                 "kind": 134299649,
                                                 "text": "f1",
                                                 "rawText": "f1",
@@ -607,7 +607,7 @@ type T27 = ArgumentType<never>;  // any
                 "bitwiseAndToken": null,
                 "type": {
                     "kind": 144,
-                    "name": {
+                    "typeName": {
                         "kind": 134299649,
                         "text": "ReturnType",
                         "rawText": "ReturnType",
@@ -634,7 +634,7 @@ type T27 = ArgumentType<never>;  // any
                                         },
                                         "type": {
                                             "kind": 144,
-                                            "name": {
+                                            "typeName": {
                                                 "kind": 134299649,
                                                 "text": "C",
                                                 "rawText": "C",
@@ -707,7 +707,7 @@ type T27 = ArgumentType<never>;  // any
                 "bitwiseAndToken": null,
                 "type": {
                     "kind": 144,
-                    "name": {
+                    "typeName": {
                         "kind": 134299649,
                         "text": "ReturnType",
                         "rawText": "ReturnType",
@@ -786,7 +786,7 @@ type T27 = ArgumentType<never>;  // any
                 "bitwiseAndToken": null,
                 "type": {
                     "kind": 144,
-                    "name": {
+                    "typeName": {
                         "kind": 134299649,
                         "text": "ReturnType",
                         "rawText": "ReturnType",
@@ -865,7 +865,7 @@ type T27 = ArgumentType<never>;  // any
                 "bitwiseAndToken": null,
                 "type": {
                     "kind": 144,
-                    "name": {
+                    "typeName": {
                         "kind": 134299649,
                         "text": "ReturnType",
                         "rawText": "ReturnType",
@@ -944,7 +944,7 @@ type T27 = ArgumentType<never>;  // any
                 "bitwiseAndToken": null,
                 "type": {
                     "kind": 144,
-                    "name": {
+                    "typeName": {
                         "kind": 134299649,
                         "text": "ReturnType",
                         "rawText": "ReturnType",
@@ -963,7 +963,7 @@ type T27 = ArgumentType<never>;  // any
                                     "bitwiseAndToken": null,
                                     "type": {
                                         "kind": 144,
-                                        "name": {
+                                        "typeName": {
                                             "kind": 134299649,
                                             "text": "Function",
                                             "rawText": "Function",
@@ -1032,7 +1032,7 @@ type T27 = ArgumentType<never>;  // any
                 "bitwiseAndToken": null,
                 "type": {
                     "kind": 144,
-                    "name": {
+                    "typeName": {
                         "kind": 134299649,
                         "text": "ArgumentType",
                         "rawText": "ArgumentType",
@@ -1140,7 +1140,7 @@ type T27 = ArgumentType<never>;  // any
                 "bitwiseAndToken": null,
                 "type": {
                     "kind": 144,
-                    "name": {
+                    "typeName": {
                         "kind": 134299649,
                         "text": "ArgumentType",
                         "rawText": "ArgumentType",
@@ -1279,7 +1279,7 @@ type T27 = ArgumentType<never>;  // any
                 "bitwiseAndToken": null,
                 "type": {
                     "kind": 144,
-                    "name": {
+                    "typeName": {
                         "kind": 134299649,
                         "text": "ArgumentType",
                         "rawText": "ArgumentType",
@@ -1423,7 +1423,7 @@ type T27 = ArgumentType<never>;  // any
                 "bitwiseAndToken": null,
                 "type": {
                     "kind": 144,
-                    "name": {
+                    "typeName": {
                         "kind": 134299649,
                         "text": "ArgumentType",
                         "rawText": "ArgumentType",
@@ -1573,7 +1573,7 @@ type T27 = ArgumentType<never>;  // any
                 "bitwiseAndToken": null,
                 "type": {
                     "kind": 144,
-                    "name": {
+                    "typeName": {
                         "kind": 134299649,
                         "text": "ArgumentType",
                         "rawText": "ArgumentType",
@@ -1592,7 +1592,7 @@ type T27 = ArgumentType<never>;  // any
                                     "bitwiseAndToken": null,
                                     "type": {
                                         "kind": 144,
-                                        "name": {
+                                        "typeName": {
                                             "kind": 134299649,
                                             "text": "Function",
                                             "rawText": "Function",
@@ -1661,7 +1661,7 @@ type T27 = ArgumentType<never>;  // any
                 "bitwiseAndToken": null,
                 "type": {
                     "kind": 144,
-                    "name": {
+                    "typeName": {
                         "kind": 134299649,
                         "text": "ArgumentType",
                         "rawText": "ArgumentType",
@@ -1740,7 +1740,7 @@ type T27 = ArgumentType<never>;  // any
                 "bitwiseAndToken": null,
                 "type": {
                     "kind": 144,
-                    "name": {
+                    "typeName": {
                         "kind": 134299649,
                         "text": "ArgumentType",
                         "rawText": "ArgumentType",

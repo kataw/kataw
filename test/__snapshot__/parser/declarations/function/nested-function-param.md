@@ -82,7 +82,7 @@ function f<X, Y: X, Z: Y, W>(y: Y, z: X, w: W): X {
                                 "bitwiseAndToken": null,
                                 "type": {
                                     "kind": 144,
-                                    "name": {
+                                    "typeName": {
                                         "kind": 134299649,
                                         "text": "X",
                                         "rawText": "X",
@@ -120,7 +120,7 @@ function f<X, Y: X, Z: Y, W>(y: Y, z: X, w: W): X {
                                 "bitwiseAndToken": null,
                                 "type": {
                                     "kind": 144,
-                                    "name": {
+                                    "typeName": {
                                         "kind": 134299649,
                                         "text": "Y",
                                         "rawText": "Y",
@@ -189,7 +189,7 @@ function f<X, Y: X, Z: Y, W>(y: Y, z: X, w: W): X {
                             "bitwiseAndToken": null,
                             "type": {
                                 "kind": 144,
-                                "name": {
+                                "typeName": {
                                     "kind": 134299649,
                                     "text": "Y",
                                     "rawText": "Y",
@@ -229,7 +229,7 @@ function f<X, Y: X, Z: Y, W>(y: Y, z: X, w: W): X {
                             "bitwiseAndToken": null,
                             "type": {
                                 "kind": 144,
-                                "name": {
+                                "typeName": {
                                     "kind": 134299649,
                                     "text": "X",
                                     "rawText": "X",
@@ -269,7 +269,7 @@ function f<X, Y: X, Z: Y, W>(y: Y, z: X, w: W): X {
                             "bitwiseAndToken": null,
                             "type": {
                                 "kind": 144,
-                                "name": {
+                                "typeName": {
                                     "kind": 134299649,
                                     "text": "W",
                                     "rawText": "W",
@@ -462,7 +462,7 @@ function f<X, Y: X, Z: Y, W>(y: Y, z: X, w: W): X {
                 "bitwiseAndToken": null,
                 "type": {
                     "kind": 144,
-                    "name": {
+                    "typeName": {
                         "kind": 134299649,
                         "text": "X",
                         "rawText": "X",

@@ -118,7 +118,7 @@ type a = {[((({a():foo}) => [c|d]))]:string};
                                                                             "bitwiseAndToken": null,
                                                                             "type": {
                                                                                 "kind": 144,
-                                                                                "name": {
+                                                                                "typeName": {
                                                                                     "kind": 134299649,
                                                                                     "text": "foo",
                                                                                     "rawText": "foo",
@@ -176,7 +176,7 @@ type a = {[((({a():foo}) => [c|d]))]:string};
                                                                 "types": [
                                                                     {
                                                                         "kind": 144,
-                                                                        "name": {
+                                                                        "typeName": {
                                                                             "kind": 134299649,
                                                                             "text": "c",
                                                                             "rawText": "c",
@@ -191,7 +191,7 @@ type a = {[((({a():foo}) => [c|d]))]:string};
                                                                     },
                                                                     {
                                                                         "kind": 144,
-                                                                        "name": {
+                                                                        "typeName": {
                                                                             "kind": 134299649,
                                                                             "text": "d",
                                                                             "rawText": "d",

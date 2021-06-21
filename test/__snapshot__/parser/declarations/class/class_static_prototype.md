@@ -76,7 +76,7 @@ class A {
                                 "bitwiseAndToken": null,
                                 "type": {
                                     "kind": 144,
-                                    "name": {
+                                    "typeName": {
                                         "kind": 134299649,
                                         "text": "Object",
                                         "rawText": "Object",

@@ -55,6 +55,7 @@ var c: { (x: string): string } = (x) => x.toFixed()
                                     {
                                         "kind": 196,
                                         "protoKeyword": null,
+                                        "staticToken": null,
                                         "typeParameter": null,
                                         "value": {
                                             "kind": 282,
@@ -95,7 +96,6 @@ var c: { (x: string): string } = (x) => x.toFixed()
                                             "start": 10,
                                             "end": 19
                                         },
-                                        "staticToken": null,
                                         "returnType": {
                                             "kind": 139,
                                             "bitwiseOrToken": null,

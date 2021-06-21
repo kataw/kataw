@@ -57,6 +57,7 @@ type a = {((((-1) => [c|d]))):string};
                         {
                             "kind": 196,
                             "protoKeyword": null,
+                            "staticToken": null,
                             "typeParameter": null,
                             "value": {
                                 "kind": 282,
@@ -66,7 +67,6 @@ type a = {((((-1) => [c|d]))):string};
                                 "start": 11,
                                 "end": 11
                             },
-                            "staticToken": null,
                             "returnType": {
                                 "kind": 139,
                                 "bitwiseOrToken": null,
@@ -131,7 +131,7 @@ type a = {((((-1) => [c|d]))):string};
                                                                 "types": [
                                                                     {
                                                                         "kind": 144,
-                                                                        "name": {
+                                                                        "typeName": {
                                                                             "kind": 134299649,
                                                                             "text": "c",
                                                                             "rawText": "c",
@@ -146,7 +146,7 @@ type a = {((((-1) => [c|d]))):string};
                                                                     },
                                                                     {
                                                                         "kind": 144,
-                                                                        "name": {
+                                                                        "typeName": {
                                                                             "kind": 134299649,
                                                                             "text": "d",
                                                                             "rawText": "d",

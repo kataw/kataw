@@ -53,7 +53,7 @@ type X = $Call<(<T>(T) => T) & (<T>(T) => T), A | B>;
                 "bitwiseAndToken": null,
                 "type": {
                     "kind": 144,
-                    "name": {
+                    "typeName": {
                         "kind": 134299649,
                         "text": "$Call",
                         "rawText": "$Call",
@@ -104,7 +104,7 @@ type X = $Call<(<T>(T) => T) & (<T>(T) => T), A | B>;
                                                                 },
                                                                 "arrowToken": {
                                                                     "kind": 144,
-                                                                    "name": {
+                                                                    "typeName": {
                                                                         "kind": 134299649,
                                                                         "text": "T",
                                                                         "rawText": "T",
@@ -123,7 +123,7 @@ type X = $Call<(<T>(T) => T) & (<T>(T) => T), A | B>;
                                                                     "bitwiseAndToken": null,
                                                                     "type": {
                                                                         "kind": 144,
-                                                                        "name": {
+                                                                        "typeName": {
                                                                             "kind": 134299649,
                                                                             "text": "T",
                                                                             "rawText": "T",
@@ -223,7 +223,7 @@ type X = $Call<(<T>(T) => T) & (<T>(T) => T), A | B>;
                                                                 },
                                                                 "arrowToken": {
                                                                     "kind": 144,
-                                                                    "name": {
+                                                                    "typeName": {
                                                                         "kind": 134299649,
                                                                         "text": "T",
                                                                         "rawText": "T",
@@ -242,7 +242,7 @@ type X = $Call<(<T>(T) => T) & (<T>(T) => T), A | B>;
                                                                     "bitwiseAndToken": null,
                                                                     "type": {
                                                                         "kind": 144,
-                                                                        "name": {
+                                                                        "typeName": {
                                                                             "kind": 134299649,
                                                                             "text": "T",
                                                                             "rawText": "T",
@@ -329,7 +329,7 @@ type X = $Call<(<T>(T) => T) & (<T>(T) => T), A | B>;
                                         "types": [
                                             {
                                                 "kind": 144,
-                                                "name": {
+                                                "typeName": {
                                                     "kind": 134299649,
                                                     "text": "A",
                                                     "rawText": "A",
@@ -344,7 +344,7 @@ type X = $Call<(<T>(T) => T) & (<T>(T) => T), A | B>;
                                             },
                                             {
                                                 "kind": 144,
-                                                "name": {
+                                                "typeName": {
                                                     "kind": 134299649,
                                                     "text": "B",
                                                     "rawText": "B",
