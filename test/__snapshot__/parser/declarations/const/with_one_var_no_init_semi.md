@@ -106,7 +106,7 @@ const [foo] = arr;
 
 ```javascript
 
-const [foo] = arr;
+ const [foo] = arr; 
 ```
 
 ### Diagnostics

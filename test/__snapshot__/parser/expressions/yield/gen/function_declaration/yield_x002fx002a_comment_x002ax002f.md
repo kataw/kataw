@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/yield/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/yield/gen/function_declaration
+- Regenerated: 2021-06-12
+- From: d
+- Path: n
 > :: test: function declaration
 > :: case: yield /* comment */
 ## Options

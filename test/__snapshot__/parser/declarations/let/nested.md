@@ -35,7 +35,6 @@ let {a:{}} = 0
                                 "properties": [
                                     {
                                         "kind": 329,
-                                        "ellipsisToken": null,
                                         "key": {
                                             "kind": 134299649,
                                             "text": "a",
@@ -109,9 +108,9 @@ let {a:{}} = 0
 
 ```javascript
 
-let {
-  a: {}
-} = 0;
+ let {
+    a : 
+} = 0; 
 ```
 
 ### Diagnostics

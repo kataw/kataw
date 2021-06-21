@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/arrow/position/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/arrow/position/gen/await_arg
+- Regenerated: 2021-06-12
+- From: d
+- Path: g
 > :: test: await arg
 > :: case: async => ok
 ## Options
@@ -76,11 +76,11 @@ async function f() {
                                 },
                                 "expression": {
                                     "kind": 271,
-                                    "arrowToken": {
-                                        "kind": 10,
+                                    "asyncKeyword": {
+                                        "kind": 82031,
                                         "flags": 64,
-                                        "start": 34,
-                                        "end": 37
+                                        "start": 28,
+                                        "end": 34
                                     },
                                     "typeParameters": null,
                                     "parameters": {
@@ -91,13 +91,13 @@ async function f() {
                                         "start": 28,
                                         "end": 34
                                     },
-                                    "asyncKeyword": {
-                                        "kind": 82031,
-                                        "flags": 64,
-                                        "start": 28,
-                                        "end": 34
-                                    },
                                     "returnType": null,
+                                    "arrowToken": {
+                                        "kind": 10,
+                                        "flags": 64,
+                                        "start": 34,
+                                        "end": 37
+                                    },
                                     "contents": {
                                         "kind": 134299649,
                                         "text": "ok",
@@ -146,9 +146,9 @@ async function f() {
 
 ```javascript
 
-async function f() {
-  await async async =>  ok;
-}
+ async function f() {
+await async =>ok;
+} 
 ```
 
 ### Diagnostics

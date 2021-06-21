@@ -39,9 +39,9 @@ x={ foo(){ super.foo; }}
                         "kind": 218,
                         "properties": [
                             {
-                                "kind": 257,
+                                "kind": 351,
                                 "asyncKeyword": null,
-                                "generatorToken": null,
+                                "asteriskToken": null,
                                 "getKeyword": null,
                                 "setKeyword": null,
                                 "method": {
@@ -55,7 +55,7 @@ x={ foo(){ super.foo; }}
                                         "end": 7
                                     },
                                     "typeParameters": null,
-                                    "formalParameters": {
+                                    "formalParameterList": {
                                         "kind": 214,
                                         "formalParameters": [],
                                         "trailingComma": false,
@@ -151,9 +151,9 @@ x={ foo(){ super.foo; }}
 
 ```javascript
 
-x = { foo {
-    super.foo;
-  } };
+ x={ foo() {
+    .foo;
+    } }; 
 ```
 
 ### Diagnostics

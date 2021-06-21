@@ -165,7 +165,7 @@ x((y ?? z) ?? 1);
                         {
                             "kind": 198,
                             "left": {
-                                "kind": 536871042,
+                                "kind": 130,
                                 "member": {
                                     "kind": 134299649,
                                     "text": "y",
@@ -182,7 +182,7 @@ x((y ?? z) ?? 1);
                                     "start": 17,
                                     "end": 18
                                 },
-                                "flags": 32,
+                                "flags": 536870944,
                                 "start": 15,
                                 "end": 19
                             },
@@ -529,16 +529,16 @@ x((y ?? z) ?? 1);
                                 "kind": 121,
                                 "expression": {
                                     "kind": 271,
+                                    "asyncKeyword": null,
+                                    "typeParameters": null,
+                                    "parameters": [],
+                                    "returnType": null,
                                     "arrowToken": {
                                         "kind": 10,
                                         "flags": 64,
                                         "start": 93,
                                         "end": 96
                                     },
-                                    "typeParameters": null,
-                                    "parameters": [],
-                                    "asyncKeyword": null,
-                                    "returnType": null,
                                     "contents": {
                                         "kind": 216,
                                         "functionStatementList": {
@@ -3891,56 +3891,7 @@ x((y ?? z) ?? 1);
 
 ```javascript
 
-x(y.z ?? 1);
-x( ?? 1);
-x(0 ?? 1);
-x(0nn ?? 1);
-x("''" ?? 1);
-x(/./ ?? 1);
-x({} ?? 1);
-x((() =>  {}) ?? 1);
-x(class  {} ?? 1);
-x(function () {} ?? 1);
-x(null ?? 1);
-x(undefined ?? 1);
-x(void y ?? 1);
-x(-y ?? 1);
-x(+y ?? 1);
-x(!y ?? 1);
-x(~y ?? 1);
-x(--y ?? 1);
-x(++y ?? 1);
-x(y-- ?? 1);
-x(y++ ?? 1);
-x(delete y ?? 1);
-x(typeof y ?? 1);
-x((y, 0) ?? 1);
-x((y, !z) ?? 1);
-x((y, null) ?? 1);
-x((y, void z) ?? 1);
-x((y + z) ?? 1);
-x((y - z) ?? 1);
-x((y * z) ?? 1);
-x((y / z) ?? 1);
-x((y % z) ?? 1);
-x((y ** z) ?? 1);
-x((y << z) ?? 1);
-x((y >> z) ?? 1);
-x((y >>> z) ?? 1);
-x((y | z) ?? 1);
-x((y => z) ?? 1);
-x((y ^ z) ?? 1);
-x((y  < z) ?? 1);
-x((y > z) ?? 1);
-x((y <= z) ?? 1);
-x((y >= z) ?? 1);
-x((y == z) ?? 1);
-x((y != z) ?? 1);
-x((y === z) ?? 1);
-x((y !== z) ?? 1);
-x((y || z) ?? 1);
-x((y && z) ?? 1);
-x((y ?? z) ?? 1);
+ ;, ;, ;, ;, ;, ;, ;, ;, ;, ;, ;, ;, ;, ;, ;, ;, ;, ;, ;, ;, ;, ;, ;, ;, ;, ;, ;, ;, ;, ;, ;, ;, ;, ;, ;, ;, ;, ;, ;, ;, ;, ;, ;, ;, ;, ;, ;, ;, ;, ; 
 ```
 
 ### Diagnostics

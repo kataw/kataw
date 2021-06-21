@@ -214,7 +214,7 @@ type LinkedList<Type> = Type & { next: LinkedList<Type> };
 
 ```javascript
 
-
+  
 ```
 
 ### Diagnostics

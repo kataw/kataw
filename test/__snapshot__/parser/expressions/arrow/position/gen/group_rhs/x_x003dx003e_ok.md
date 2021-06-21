@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/arrow/position/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/arrow/position/gen/group_rhs
+- Regenerated: 2021-06-12
+- From: d
+- Path: s
 > :: test: group rhs
 > :: case: x => ok
 ## Options
@@ -45,12 +45,7 @@ x * (x => ok)
                     "kind": 121,
                     "expression": {
                         "kind": 271,
-                        "arrowToken": {
-                            "kind": 10,
-                            "flags": 64,
-                            "start": 6,
-                            "end": 9
-                        },
+                        "asyncKeyword": null,
                         "typeParameters": null,
                         "parameters": {
                             "kind": 134299649,
@@ -60,8 +55,13 @@ x * (x => ok)
                             "start": 5,
                             "end": 6
                         },
-                        "asyncKeyword": null,
                         "returnType": null,
+                        "arrowToken": {
+                            "kind": 10,
+                            "flags": 64,
+                            "start": 6,
+                            "end": 9
+                        },
                         "contents": {
                             "kind": 134299649,
                             "text": "ok",
@@ -100,7 +100,7 @@ x * (x => ok)
 
 ```javascript
 
-x * (x =>  ok);
+ x * (x =>ok); 
 ```
 
 ### Diagnostics

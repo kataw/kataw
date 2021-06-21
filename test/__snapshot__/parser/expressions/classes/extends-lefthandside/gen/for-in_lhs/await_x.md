@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/classes/extends-lefthandside/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/classes/extends-lefthandside/gen/for-in_lhs
+- Regenerated: 2021-06-12
+- From: d
+- Path: s
 > :: test: for-in lhs
 > :: case: await x
 ## Options
@@ -92,7 +92,7 @@ for (await x in x) ;
 
 ```javascript
 
-for (await; ; x in x);
+ for(await;; x in x); 
 ```
 
 ### Diagnostics

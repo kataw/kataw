@@ -63,7 +63,6 @@ class A {static set 10(x){}}
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": null,
                             "staticKeyword": {
                                 "kind": 8388716,
                                 "flags": 64,
@@ -78,6 +77,7 @@ class A {static set 10(x){}}
                                 "start": 15,
                                 "end": 19
                             },
+                            "asteriskToken": null,
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -89,7 +89,7 @@ class A {static set 10(x){}}
                                     "end": 22
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [
                                         {
@@ -156,9 +156,10 @@ class A {static set 10(x){}}
 
 ```javascript
 
-class A {
-  static set static 10 {}
-}
+ class A {
+    static set 10(x) {
+    }
+} 
 ```
 
 ### Diagnostics

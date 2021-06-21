@@ -44,12 +44,6 @@ class C { async*#aaa(){} }
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": {
-                                "kind": 67143222,
-                                "flags": 64,
-                                "start": 15,
-                                "end": 16
-                            },
                             "staticKeyword": null,
                             "asyncKeyword": {
                                 "kind": 82031,
@@ -59,6 +53,12 @@ class C { async*#aaa(){} }
                             },
                             "setKeyword": null,
                             "getKeyword": null,
+                            "asteriskToken": {
+                                "kind": 67143222,
+                                "flags": 64,
+                                "start": 15,
+                                "end": 16
+                            },
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -70,7 +70,7 @@ class C { async*#aaa(){} }
                                     "end": 20
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -128,9 +128,10 @@ class C { async*#aaa(){} }
 
 ```javascript
 
-class C {
-  async #aaa {}
-}
+ class C {
+    async *#aaa() {
+    }
+} 
 ```
 
 ### Diagnostics

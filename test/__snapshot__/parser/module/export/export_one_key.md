@@ -119,8 +119,7 @@ export {x}; var x;
 
 ```javascript
 
-export { x };
-var x;
+ , var x; 
 ```
 
 ### Diagnostics

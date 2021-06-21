@@ -44,11 +44,11 @@ class c {foo(eval){ "use strict"; }}
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": null,
                             "getKeyword": null,
+                            "asteriskToken": null,
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -60,7 +60,7 @@ class c {foo(eval){ "use strict"; }}
                                     "end": 12
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [
                                         {
@@ -136,9 +136,10 @@ class c {foo(eval){ "use strict"; }}
 
 ```javascript
 
-class c {
-  foo {}
-}
+ class c {
+    foo(eval) {
+    }
+} 
 ```
 
 ### Diagnostics

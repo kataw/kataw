@@ -1053,7 +1053,7 @@ if ({ x } &&= { x: 2 }) { foo(); };
                 "expression": {
                     "kind": 125,
                     "left": {
-                        "kind": 536871042,
+                        "kind": 130,
                         "member": {
                             "kind": 134299649,
                             "text": "let",
@@ -1070,7 +1070,7 @@ if ({ x } &&= { x: 2 }) { foo(); };
                             "start": 379,
                             "end": 380
                         },
-                        "flags": 32,
+                        "flags": 536870944,
                         "start": 369,
                         "end": 381
                     },

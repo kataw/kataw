@@ -156,7 +156,7 @@ type a = {function:y.z[][][]};
 
 ```javascript
 
-
+  
 ```
 
 ### Diagnostics

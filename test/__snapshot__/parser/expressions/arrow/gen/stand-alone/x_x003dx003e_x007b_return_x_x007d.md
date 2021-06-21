@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/arrow/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/arrow/gen/stand-alone
+- Regenerated: 2021-06-12
+- From: d
+- Path: e
 > :: test: stand-alone
 > :: case: x => { return x; }
 ## Options
@@ -27,12 +27,7 @@ x => { return x; } ;
             "kind": 120,
             "expression": {
                 "kind": 271,
-                "arrowToken": {
-                    "kind": 10,
-                    "flags": 64,
-                    "start": 1,
-                    "end": 4
-                },
+                "asyncKeyword": null,
                 "typeParameters": null,
                 "parameters": {
                     "kind": 134299649,
@@ -42,8 +37,13 @@ x => { return x; } ;
                     "start": 0,
                     "end": 1
                 },
-                "asyncKeyword": null,
                 "returnType": null,
+                "arrowToken": {
+                    "kind": 10,
+                    "flags": 64,
+                    "start": 1,
+                    "end": 4
+                },
                 "contents": {
                     "kind": 216,
                     "functionStatementList": {
@@ -101,9 +101,9 @@ x => { return x; } ;
 
 ```javascript
 
-x =>  {
-  return  x;
-};
+ x => {
+return x;
+}; 
 ```
 
 ### Diagnostics

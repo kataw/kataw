@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/await/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/await/gen/simple
+- Regenerated: 2021-06-12
+- From: d
+- Path: e
 > :: test: simple
 > :: case: async function f(){ await await foo; }
 ## Options
@@ -128,9 +128,9 @@ async function f(){ await await foo; }
 
 ```javascript
 
-async function f() {
-  await await foo;
-}
+ async function f() {
+await await foo;
+} 
 ```
 
 ### Diagnostics

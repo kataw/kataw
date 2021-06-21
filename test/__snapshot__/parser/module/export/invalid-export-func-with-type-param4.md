@@ -113,7 +113,7 @@ export default function <T><T>() {}
             "kind": 120,
             "expression": {
                 "kind": 271,
-                "arrowToken": null,
+                "asyncKeyword": null,
                 "typeParameters": {
                     "kind": 307,
                     "declarations": {
@@ -146,8 +146,8 @@ export default function <T><T>() {}
                     "end": 30
                 },
                 "parameters": [],
-                "asyncKeyword": null,
                 "returnType": null,
+                "arrowToken": null,
                 "contents": {
                     "kind": 216,
                     "functionStatementList": {

@@ -77,7 +77,7 @@ import((dummy, source))
 
 ```javascript
 
-import((dummy, source));
+ ; 
 ```
 
 ### Diagnostics

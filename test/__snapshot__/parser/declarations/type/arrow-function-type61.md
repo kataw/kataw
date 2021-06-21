@@ -168,7 +168,7 @@ type a = (?"string" | y) => T;
 
 ```javascript
 
-
+  
 ```
 
 ### Diagnostics

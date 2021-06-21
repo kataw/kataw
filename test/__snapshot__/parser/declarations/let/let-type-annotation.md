@@ -188,7 +188,7 @@ let x: () => {} | ({y: z});
 
 ```javascript
 
-let x: ;
+ let x ; 
 ```
 
 ### Diagnostics

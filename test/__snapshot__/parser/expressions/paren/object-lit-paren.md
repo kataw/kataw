@@ -184,7 +184,7 @@
                                         "end": 26
                                     },
                                     "right": {
-                                        "kind": 536871042,
+                                        "kind": 130,
                                         "member": {
                                             "kind": 131,
                                             "expression": {
@@ -215,7 +215,7 @@
                                             "start": 35,
                                             "end": 36
                                         },
-                                        "flags": 32,
+                                        "flags": 536870944,
                                         "start": 24,
                                         "end": 37
                                     },
@@ -2129,7 +2129,7 @@
                                         "end": 459
                                     },
                                     "argument": {
-                                        "kind": 536871042,
+                                        "kind": 130,
                                         "member": {
                                             "kind": 201392131,
                                             "text": "x",
@@ -2146,7 +2146,7 @@
                                             "start": 463,
                                             "end": 464
                                         },
-                                        "flags": 32,
+                                        "flags": 536870944,
                                         "start": 459,
                                         "end": 465
                                     },
@@ -2210,7 +2210,7 @@
                                         "end": 478
                                     },
                                     "argument": {
-                                        "kind": 536871042,
+                                        "kind": 130,
                                         "member": {
                                             "kind": 119,
                                             "elementList": {
@@ -2233,7 +2233,7 @@
                                             "start": 481,
                                             "end": 482
                                         },
-                                        "flags": 32,
+                                        "flags": 536870944,
                                         "start": 478,
                                         "end": 483
                                     },
@@ -2297,7 +2297,7 @@
                                         "end": 496
                                     },
                                     "argument": {
-                                        "kind": 536871042,
+                                        "kind": 130,
                                         "member": {
                                             "kind": 119,
                                             "elementList": {
@@ -2320,7 +2320,7 @@
                                             "start": 499,
                                             "end": 500
                                         },
-                                        "flags": 32,
+                                        "flags": 536870944,
                                         "start": 496,
                                         "end": 501
                                     },
@@ -2404,7 +2404,7 @@
                                         "end": 518
                                     },
                                     "argument": {
-                                        "kind": 536871042,
+                                        "kind": 130,
                                         "member": {
                                             "kind": 119,
                                             "elementList": {
@@ -2427,7 +2427,7 @@
                                             "start": 521,
                                             "end": 522
                                         },
-                                        "flags": 32,
+                                        "flags": 536870944,
                                         "start": 518,
                                         "end": 523
                                     },
@@ -2517,7 +2517,7 @@
                                         "end": 542
                                     },
                                     "argument": {
-                                        "kind": 536871042,
+                                        "kind": 130,
                                         "member": {
                                             "kind": 119,
                                             "elementList": {
@@ -2540,7 +2540,7 @@
                                             "start": 545,
                                             "end": 546
                                         },
-                                        "flags": 32,
+                                        "flags": 536870944,
                                         "start": 542,
                                         "end": 547
                                     },
@@ -2636,7 +2636,7 @@
                                         "end": 568
                                     },
                                     "argument": {
-                                        "kind": 536871042,
+                                        "kind": 130,
                                         "member": {
                                             "kind": 220,
                                             "propertyList": {
@@ -2659,7 +2659,7 @@
                                             "start": 571,
                                             "end": 572
                                         },
-                                        "flags": 32,
+                                        "flags": 536870944,
                                         "start": 568,
                                         "end": 573
                                     },
@@ -2723,7 +2723,7 @@
                                         "end": 586
                                     },
                                     "argument": {
-                                        "kind": 536871042,
+                                        "kind": 130,
                                         "member": {
                                             "kind": 220,
                                             "propertyList": {
@@ -2755,7 +2755,7 @@
                                                 "end": 592
                                             },
                                             "right": {
-                                                "kind": 536871042,
+                                                "kind": 130,
                                                 "member": {
                                                     "kind": 121,
                                                     "expression": {
@@ -2778,7 +2778,7 @@
                                                     "start": 597,
                                                     "end": 598
                                                 },
-                                                "flags": 32,
+                                                "flags": 536870944,
                                                 "start": 592,
                                                 "end": 599
                                             },
@@ -2786,7 +2786,7 @@
                                             "start": 589,
                                             "end": 599
                                         },
-                                        "flags": 32,
+                                        "flags": 536870944,
                                         "start": 586,
                                         "end": 600
                                     },
@@ -2840,14 +2840,14 @@
                         "kind": 218,
                         "properties": [
                             {
-                                "kind": 257,
+                                "kind": 351,
                                 "asyncKeyword": {
                                     "kind": 82031,
                                     "flags": 352,
                                     "start": 611,
                                     "end": 617
                                 },
-                                "generatorToken": null,
+                                "asteriskToken": null,
                                 "getKeyword": null,
                                 "setKeyword": null,
                                 "method": {
@@ -2861,7 +2861,7 @@
                                         "end": 619
                                     },
                                     "typeParameters": null,
-                                    "formalParameters": {
+                                    "formalParameterList": {
                                         "kind": 214,
                                         "formalParameters": [],
                                         "trailingComma": false,
@@ -2920,14 +2920,14 @@
                         "kind": 218,
                         "properties": [
                             {
-                                "kind": 257,
+                                "kind": 351,
                                 "asyncKeyword": {
                                     "kind": 82031,
                                     "flags": 352,
                                     "start": 631,
                                     "end": 637
                                 },
-                                "generatorToken": null,
+                                "asteriskToken": null,
                                 "getKeyword": null,
                                 "setKeyword": null,
                                 "method": {
@@ -2941,7 +2941,7 @@
                                         "end": 639
                                     },
                                     "typeParameters": null,
-                                    "formalParameters": {
+                                    "formalParameterList": {
                                         "kind": 214,
                                         "formalParameters": [],
                                         "trailingComma": false,
@@ -3000,14 +3000,14 @@
                         "kind": 218,
                         "properties": [
                             {
-                                "kind": 257,
+                                "kind": 351,
                                 "asyncKeyword": {
                                     "kind": 82031,
                                     "flags": 352,
                                     "start": 651,
                                     "end": 657
                                 },
-                                "generatorToken": null,
+                                "asteriskToken": null,
                                 "getKeyword": null,
                                 "setKeyword": null,
                                 "method": {
@@ -3027,7 +3027,7 @@
                                         "end": 663
                                     },
                                     "typeParameters": null,
-                                    "formalParameters": {
+                                    "formalParameterList": {
                                         "kind": 214,
                                         "formalParameters": [],
                                         "trailingComma": false,
@@ -3086,9 +3086,9 @@
                         "kind": 218,
                         "properties": [
                             {
-                                "kind": 257,
+                                "kind": 351,
                                 "asyncKeyword": null,
-                                "generatorToken": null,
+                                "asteriskToken": null,
                                 "getKeyword": {
                                     "kind": 16498,
                                     "flags": 96,
@@ -3107,7 +3107,7 @@
                                         "end": 683
                                     },
                                     "typeParameters": null,
-                                    "formalParameters": {
+                                    "formalParameterList": {
                                         "kind": 214,
                                         "formalParameters": [],
                                         "trailingComma": false,
@@ -3166,9 +3166,9 @@
                         "kind": 218,
                         "properties": [
                             {
-                                "kind": 257,
+                                "kind": 351,
                                 "asyncKeyword": null,
-                                "generatorToken": null,
+                                "asteriskToken": null,
                                 "getKeyword": null,
                                 "setKeyword": {
                                     "kind": 16499,
@@ -3187,7 +3187,7 @@
                                         "end": 703
                                     },
                                     "typeParameters": null,
-                                    "formalParameters": {
+                                    "formalParameterList": {
                                         "kind": 214,
                                         "formalParameters": [
                                             {
@@ -3255,9 +3255,9 @@
                         "kind": 218,
                         "properties": [
                             {
-                                "kind": 257,
+                                "kind": 351,
                                 "asyncKeyword": null,
-                                "generatorToken": null,
+                                "asteriskToken": null,
                                 "getKeyword": null,
                                 "setKeyword": {
                                     "kind": 16499,
@@ -3282,7 +3282,7 @@
                                         "end": 726
                                     },
                                     "typeParameters": null,
-                                    "formalParameters": {
+                                    "formalParameterList": {
                                         "kind": 214,
                                         "formalParameters": [
                                             {
@@ -3360,7 +3360,7 @@
                                         "end": 743
                                     },
                                     "argument": {
-                                        "kind": 536871042,
+                                        "kind": 130,
                                         "member": {
                                             "kind": 220,
                                             "propertyList": {
@@ -3407,7 +3407,7 @@
                                             "start": 750,
                                             "end": 751
                                         },
-                                        "flags": 32,
+                                        "flags": 536870944,
                                         "start": 743,
                                         "end": 752
                                     },
@@ -3586,7 +3586,7 @@
                             "kind": 270,
                             "elements": [
                                 {
-                                    "kind": 536871042,
+                                    "kind": 130,
                                     "member": {
                                         "kind": 131,
                                         "expression": {
@@ -3631,7 +3631,7 @@
                                         "start": 794,
                                         "end": 805
                                     },
-                                    "flags": 32,
+                                    "flags": 536870944,
                                     "start": 785,
                                     "end": 806
                                 }
@@ -3918,51 +3918,14 @@
 
 ```javascript
 
-({ x: y } = z = {});
-({ x:  } = z = {});
-({ x: { foo: foo().y } });
-[...{ a }] = [{}];
-({ x: z = 1, x1: y = 20 } = {});
-(q, { x = 10 } = {});
-({ x } = { x: 3 });
-({ x = 10 } = {});
-({ 1: x });
-({ 1: x } = 1);
-({ 1: x } = null);
-({ 1: x });
-({ 1: x } = 1);
-({ 1: x } = null);
-({ a: b } = null);
-({ [x]: 1 });
-({ a } = 1)();
-({ a: a } = 1)();
-({ x: { x: y }.length } = x);
-({ x: false });
-({ x: function () {} });
-({ x: typeof x });
-({ x: void x });
-({ x: x + y });
-({ x: new  x() });
-({ x: delete x.y });
-({ ... } = x);
-({ ... } = x);
-({ ... } = x = y);
-({ ... } = x = (y));
-({ ... } = (x) = (y));
-({ ... } = x);
-({ ... } = x);
-({ async x {} });
-({ async x {} });
-({ async [foo] {} });
-({ get 500 {} });
-({ set 500 {} });
-({ set [foo] {} });
-({ ... } = {});
-({ ...{ b: 0 }.x } = {});
-([] = x);
-({ ...x.x, y });
-({ ...x.x = y, y });
-({ ...x = y, y });
+ ({ x : y }=z={  });, ({ x : [y] }=z={  });, ({ x : { foo : .y } });, [...{ a }]=[{  }];, ({ x : z=1, x1 : y=20 }={  });, (q, { x = 10 }={  });, ({ x }={ x : 3 });, ({ x = 10 }={  });, ({ 1 : x });, ({ 1 : x }=1);, ({ 1 : x }=null);, ({ 1 : x });, ({ 1 : x }=1);, ({ 1 : x }=null);, ({ a : b }=null);, ({  : 1 });, ;, ;, ({ x : { x : y }.length }=x);, ({ x : false });, ({ x : function () {
+    } });, ({ x :  });, ({ x :  });, ({ x : x + y });, ({ x : new x });, ({ x :  });, ({  }=x);, ({  }=x);, ({  }=x=y);, ({  }=x=(y));, ({  }=(x)=(y));, ({  }=x);, ({  }=x);, ({ async x() {
+    } });, ({ async x() {
+    } });, ({ async () {
+    } });, ({ get 500() {
+    } });, ({ set 500(b) {
+    } });, ({ set (d) {
+    } });, ({  }={  });, ({  }={  });, ([[]]=x);, ({ , y });, ({ , y });, ({ , y }); 
 ```
 
 ### Diagnostics

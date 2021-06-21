@@ -286,7 +286,7 @@ type a = {[((({a():foo}) => [c|d]))]:string};
 
 ```javascript
 
-
+  
 ```
 
 ### Diagnostics

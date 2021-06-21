@@ -152,7 +152,7 @@ let x: Array<() => void>;
 
 ```javascript
 
-let x: ;
+ let x ; 
 ```
 
 ### Diagnostics

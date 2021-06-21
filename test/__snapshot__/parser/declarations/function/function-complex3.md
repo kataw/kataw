@@ -825,25 +825,20 @@ function b1<A: 'a', B: A>(b: B): void {
 
 ```javascript
 
-function  <X:  >c() {
-  switch(x) {
-    case "'p'":
-      break;
-    case "'q'":
-      break;
-    case "'r'":
-      break;
-  }
-  function  <A:  >a(): void {
-    if (a === "'a'") {
-      }
-  }
+ function c() {
+switch(x) {
+    case 'p': break;,
+    case 'q': break;,
+    case 'r':// error
+     // error
+        break;
+},
+function a(): void {
+if (a === 'a') {  }
 }
-function  <A: , B:  >b1(): void {
-  if (b === "'b'") {
-    } // error 'b' not compatible with 'a'
-
-}
+}, function b1(): void {
+if (b === 'b') {  }// error 'b' not compatible with 'a'
+} 
 ```
 
 ### Diagnostics

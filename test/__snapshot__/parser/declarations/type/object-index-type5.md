@@ -133,7 +133,7 @@ type x = { [|a]:string }
 
 ```javascript
 
-
+  
 ```
 
 ### Diagnostics

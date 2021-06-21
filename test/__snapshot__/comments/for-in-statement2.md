@@ -101,15 +101,10 @@
 
  for 
  /* comment 1 */
-(
- /* comment 2 */
-a 
+(a 
  /* comment 3 */
-in 
- /* comment 4 */
-b
- /* comment 5 */) 
- /* comment 6 */;/* comment 7 */ 
+in b
+ /* comment 5 */) ;/* comment 7 */ 
 ```
 
 ### Diagnostics

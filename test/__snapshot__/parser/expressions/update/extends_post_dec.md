@@ -98,7 +98,8 @@ class x extends a-- {}
 
 ```javascript
 
-class x  {}
+ class x {
+} 
 ```
 
 ### Diagnostics

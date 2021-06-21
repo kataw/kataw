@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/arrow/position/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/arrow/position/gen/obj
+- Regenerated: 2021-06-12
+- From: d
+- Path: j
 > :: test: obj
 > :: case: async x => ok
 ## Options
@@ -59,11 +59,11 @@ x = {arrow: async x => ok}
                                 },
                                 "right": {
                                     "kind": 271,
-                                    "arrowToken": {
-                                        "kind": 10,
+                                    "asyncKeyword": {
+                                        "kind": 82031,
                                         "flags": 64,
-                                        "start": 19,
-                                        "end": 22
+                                        "start": 11,
+                                        "end": 17
                                     },
                                     "typeParameters": null,
                                     "parameters": {
@@ -74,13 +74,13 @@ x = {arrow: async x => ok}
                                         "start": 17,
                                         "end": 19
                                     },
-                                    "asyncKeyword": {
-                                        "kind": 82031,
-                                        "flags": 64,
-                                        "start": 11,
-                                        "end": 17
-                                    },
                                     "returnType": null,
+                                    "arrowToken": {
+                                        "kind": 10,
+                                        "flags": 64,
+                                        "start": 19,
+                                        "end": 22
+                                    },
                                     "contents": {
                                         "kind": 134299649,
                                         "text": "ok",
@@ -129,7 +129,7 @@ x = {arrow: async x => ok}
 
 ```javascript
 
-x = { arrow: async x =>  ok };
+ x={ arrow : x =>ok }; 
 ```
 
 ### Diagnostics

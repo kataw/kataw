@@ -77,7 +77,7 @@
 
 ```javascript
 
-[...await];
+ [...await]; 
 ```
 
 ### Diagnostics

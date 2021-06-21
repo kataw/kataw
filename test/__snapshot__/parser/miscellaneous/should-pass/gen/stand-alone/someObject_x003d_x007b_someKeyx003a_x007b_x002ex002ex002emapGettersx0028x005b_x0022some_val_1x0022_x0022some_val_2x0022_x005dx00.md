@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/miscellaneous/should-pass/autogen.md
-- Path: kataw/test/__snapshot__/parser/miscellaneous/should-pass/gen/stand-alone
+- Regenerated: 2021-06-12
+- From: d
+- Path: e
 > :: test: stand-alone
 > :: case: someObject = { someKey: { ...mapGetters([ "some_val_1", "some_val_2" ]) } }
 ## Options
@@ -174,9 +174,7 @@ someObject = { someKey: { ...mapGetters([ "some_val_1", "some_val_2" ]) } }
 
 ```javascript
 
-someObject = {
-  someKey: { ...mapGetters(["\"some_val_1\"", "\"some_val_2\""]) }
-};
+ someObject={ someKey : {  } }; 
 ```
 
 ### Diagnostics

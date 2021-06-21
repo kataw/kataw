@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/arrow/position/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/arrow/position/gen/template_tail
+- Regenerated: 2021-06-12
+- From: d
+- Path: l
 > :: test: template tail
 > :: case: async async => ok
 ## Options
@@ -36,11 +36,11 @@
                             "text": "a ",
                             "expression": {
                                 "kind": 271,
-                                "arrowToken": {
-                                    "kind": 10,
+                                "asyncKeyword": {
+                                    "kind": 82031,
                                     "flags": 64,
-                                    "start": 16,
-                                    "end": 19
+                                    "start": 5,
+                                    "end": 10
                                 },
                                 "typeParameters": null,
                                 "parameters": {
@@ -51,13 +51,13 @@
                                     "start": 10,
                                     "end": 16
                                 },
-                                "asyncKeyword": {
-                                    "kind": 82031,
-                                    "flags": 64,
-                                    "start": 5,
-                                    "end": 10
-                                },
                                 "returnType": null,
+                                "arrowToken": {
+                                    "kind": 10,
+                                    "flags": 64,
+                                    "start": 16,
+                                    "end": 19
+                                },
                                 "contents": {
                                     "kind": 134299649,
                                     "text": "ok",
@@ -117,7 +117,7 @@
 
 ```javascript
 
-`a ${async async =>  ok} b`.length;
+ .length; 
 ```
 
 ### Diagnostics

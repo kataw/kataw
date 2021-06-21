@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/classes/special_keys/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/classes/special_keys/gen/as_static_generator_in_class
+- Regenerated: 2021-06-12
+- From: d
+- Path: s
 > :: test: as static generator in class
 > :: case: static
 ## Options
@@ -52,12 +52,6 @@ class x {static * static(){}}
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": {
-                                "kind": 67143222,
-                                "flags": 64,
-                                "start": 15,
-                                "end": 17
-                            },
                             "staticKeyword": {
                                 "kind": 8388716,
                                 "flags": 64,
@@ -67,6 +61,12 @@ class x {static * static(){}}
                             "asyncKeyword": null,
                             "setKeyword": null,
                             "getKeyword": null,
+                            "asteriskToken": {
+                                "kind": 67143222,
+                                "flags": 64,
+                                "start": 15,
+                                "end": 17
+                            },
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -78,7 +78,7 @@ class x {static * static(){}}
                                     "end": 24
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -136,9 +136,10 @@ class x {static * static(){}}
 
 ```javascript
 
-class x {
-  static static static {}
-}
+ class x {
+    static *static() {
+    }
+} 
 ```
 
 ### Diagnostics

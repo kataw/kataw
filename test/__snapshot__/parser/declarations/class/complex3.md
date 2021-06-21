@@ -83,11 +83,11 @@ var stringArr:Array<string> = ['a','b'];
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": null,
                             "getKeyword": null,
+                            "asteriskToken": null,
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -99,7 +99,7 @@ var stringArr:Array<string> = ['a','b'];
                                     "end": 27
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -478,11 +478,11 @@ var stringArr:Array<string> = ['a','b'];
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": null,
                             "getKeyword": null,
+                            "asteriskToken": null,
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -494,7 +494,7 @@ var stringArr:Array<string> = ['a','b'];
                                     "end": 176
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -868,11 +868,11 @@ var stringArr:Array<string> = ['a','b'];
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": null,
                             "getKeyword": null,
+                            "asteriskToken": null,
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -884,7 +884,7 @@ var stringArr:Array<string> = ['a','b'];
                                     "end": 314
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -1065,11 +1065,11 @@ var stringArr:Array<string> = ['a','b'];
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": null,
                             "getKeyword": null,
+                            "asteriskToken": null,
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -1081,7 +1081,7 @@ var stringArr:Array<string> = ['a','b'];
                                     "end": 399
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [
                                         {
@@ -1543,36 +1543,30 @@ var stringArr:Array<string> = ['a','b'];
 
 ```javascript
 
-class Tag {
-  constructor {
-    var a1:  = [];
-    var a2:  = a1;
-  }
-}
-
-class Tag_ {
-  constructor {
-    var a1:  = [new  Tag_()];
-    var a2:  = a1;
-  }
-}
-class C {
-  x;
-
-  constructor {
-    this.x = null;
-  }
-}
-class D {
-  content;
-
-  copyContent {
-    this.content = content;
-    return  this.content;
-  }
-}
-var numberAndStringArr:  = [1, 2];
-var stringArr:  = ["'a'", "'b'"];
+ class Tag {
+    constructor() {
+    var a1  = [];,
+    var a2  = a1;
+    }
+}, , class Tag_ {
+    constructor() {
+    var a1  = [new Tag_];,
+    var a2  = a1;
+    }
+}, class C {
+    x: , string,
+    ,
+    constructor() {
+    this.x=null;
+    }
+}, class D {
+    content: string, C,
+    ,
+    copyContent(): string, C {
+    this.content=content;,
+    return this.content;
+    }
+}, var numberAndStringArr  = [1, 2];, var stringArr  = ['a', 'b']; 
 ```
 
 ### Diagnostics

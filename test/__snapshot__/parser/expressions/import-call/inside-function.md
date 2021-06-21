@@ -150,9 +150,9 @@ function loadImport(file) {
 
 ```javascript
 
-function loadImport() {
-  return  ;
-}
+ function loadImport(file) {
+return ;
+} 
 ```
 
 ### Diagnostics

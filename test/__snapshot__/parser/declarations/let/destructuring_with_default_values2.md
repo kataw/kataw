@@ -41,7 +41,6 @@ let {x:y=z} = {}
                                 "properties": [
                                     {
                                         "kind": 329,
-                                        "ellipsisToken": null,
                                         "key": {
                                             "kind": 134299649,
                                             "text": "x",
@@ -122,9 +121,9 @@ let {x:y=z} = {}
 
 ```javascript
 
-let {
-  x: y = z
-} = {};
+ let {
+    x : y
+} = {  }; 
 ```
 
 ### Diagnostics

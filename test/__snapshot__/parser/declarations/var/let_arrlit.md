@@ -91,7 +91,7 @@ var []
 
 ```javascript
 
-var [];
+ var []; 
 ```
 
 ### Diagnostics

@@ -48,12 +48,7 @@ var f = (x): | 1 | 2 => 1;
                         "type": null,
                         "initializer": {
                             "kind": 271,
-                            "arrowToken": {
-                                "kind": 10,
-                                "flags": 64,
-                                "start": 20,
-                                "end": 23
-                            },
+                            "asyncKeyword": null,
                             "typeParameters": null,
                             "parameters": [
                                 {
@@ -65,7 +60,6 @@ var f = (x): | 1 | 2 => 1;
                                     "end": 10
                                 }
                             ],
-                            "asyncKeyword": null,
                             "returnType": {
                                 "kind": 139,
                                 "bitwiseOrToken": {
@@ -100,6 +94,12 @@ var f = (x): | 1 | 2 => 1;
                                 "flags": 2097152,
                                 "start": 12,
                                 "end": 20
+                            },
+                            "arrowToken": {
+                                "kind": 10,
+                                "flags": 64,
+                                "start": 20,
+                                "end": 23
                             },
                             "contents": {
                                 "kind": 201392130,
@@ -140,7 +140,7 @@ var f = (x): | 1 | 2 => 1;
 
 ```javascript
 
-var f = (x) =>  1;
+ var f = (x): | ,  =>1; 
 ```
 
 ### Diagnostics

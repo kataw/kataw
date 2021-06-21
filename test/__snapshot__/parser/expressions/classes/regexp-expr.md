@@ -90,8 +90,7 @@ typeof class{}
 
 ```javascript
 
-typeof class  {};
-/foo/;
+ ;, ; 
 ```
 
 ### Diagnostics

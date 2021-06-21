@@ -389,10 +389,7 @@ import {'' as x} from 'foo';
 
 ```javascript
 
-import { x }  ;
-import { x }  ;
-import { x }  ;
-import { x }  ;
+ , , ,  
 ```
 
 ### Diagnostics

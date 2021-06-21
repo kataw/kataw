@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/miscellaneous/destructuring/destructuring-assignment-positive-tests/autogen.md
-- Path: kataw/test/__snapshot__/parser/miscellaneous/destructuring/destructuring-assignment-positive-tests/gen/variable_conditional_expr
+- Regenerated: 2021-06-12
+- From: d
+- Path: r
 > :: test: variable conditional expr
 > :: case: [x,y,z]
 ## Options
@@ -249,8 +249,7 @@ var x, y, z; m(['b']) ? lhs : [x,y,z] = {}
 
 ```javascript
 
-var x, y, z;
-m(["'b'"]) ? lhs : [x, y, z] = {};
+ var x, y, z;,  ? lhs : [x, y, z]={  }; 
 ```
 
 ### Diagnostics

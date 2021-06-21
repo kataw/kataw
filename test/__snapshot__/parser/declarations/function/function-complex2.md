@@ -1045,21 +1045,15 @@ function d<X: [number, number]>(x: X): X {
 
 ```javascript
 
-function  <X:  >a():  {
-  return  [...x];
-}
-function  <X:  >b():  {
-  return  [...x, ...x]; // nope, because X could be a tuple
-
-}
-function  <X:  >c():  {
-  return  [42, ...x]; // error
-
-}
-function  <X:  [: number, : number ] >d():  {
-  return  [...x, ...x]; // error
-
-}
+ function a(): X {
+return [...x];
+}, function b(): X {
+return [...x, ...x];// nope, because X could be a tuple
+}, function c(): X {
+return [42, ...x];// error
+}, function d(): X {
+return [...x, ...x];// error
+} 
 ```
 
 ### Diagnostics

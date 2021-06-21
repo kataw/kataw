@@ -50,15 +50,9 @@ var foo = ((): number => bar);
                             "kind": 121,
                             "expression": {
                                 "kind": 271,
-                                "arrowToken": {
-                                    "kind": 10,
-                                    "flags": 64,
-                                    "start": 21,
-                                    "end": 24
-                                },
+                                "asyncKeyword": null,
                                 "typeParameters": null,
                                 "parameters": [],
-                                "asyncKeyword": null,
                                 "returnType": {
                                     "kind": 139,
                                     "bitwiseOrToken": null,
@@ -72,6 +66,12 @@ var foo = ((): number => bar);
                                     "flags": 2097152,
                                     "start": 14,
                                     "end": 21
+                                },
+                                "arrowToken": {
+                                    "kind": 10,
+                                    "flags": 64,
+                                    "start": 21,
+                                    "end": 24
                                 },
                                 "contents": {
                                     "kind": 134299649,
@@ -116,7 +116,7 @@ var foo = ((): number => bar);
 
 ```javascript
 
-var foo = (() =>  bar);
+ var foo = ((): number =>bar); 
 ```
 
 ### Diagnostics

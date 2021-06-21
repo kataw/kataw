@@ -124,9 +124,7 @@ await(x);
 
 ```javascript
 
-await;
-await = yield;
-await(x);
+ await;, await=yield;, ; 
 ```
 
 ### Diagnostics

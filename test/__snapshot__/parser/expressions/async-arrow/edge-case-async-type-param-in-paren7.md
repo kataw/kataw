@@ -29,11 +29,11 @@
                 "kind": 121,
                 "expression": {
                     "kind": 271,
-                    "arrowToken": {
-                        "kind": 10,
+                    "asyncKeyword": {
+                        "kind": 82031,
                         "flags": 64,
-                        "start": 16,
-                        "end": 19
+                        "start": 1,
+                        "end": 6
                     },
                     "typeParameters": {
                         "kind": 307,
@@ -92,13 +92,13 @@
                             "end": 15
                         }
                     ],
-                    "asyncKeyword": {
-                        "kind": 82031,
-                        "flags": 64,
-                        "start": 1,
-                        "end": 6
-                    },
                     "returnType": null,
+                    "arrowToken": {
+                        "kind": 10,
+                        "flags": 64,
+                        "start": 16,
+                        "end": 19
+                    },
                     "contents": {
                         "kind": 134299649,
                         "text": "y",
@@ -133,7 +133,7 @@
 
 ```javascript
 
-(async (x) =>  y);
+ ((x) =>y); 
 ```
 
 ### Diagnostics

@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/arrow/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/arrow/gen/conditional_paren
+- Regenerated: 2021-06-12
+- From: d
+- Path: n
 > :: test: conditional_paren
 > :: case: (interface) => { 'use strict'; 0 }
 ## Options
@@ -59,12 +59,7 @@ bar ? baz : ( (interface) => { 'use strict'; 0 } );
                     "kind": 121,
                     "expression": {
                         "kind": 271,
-                        "arrowToken": {
-                            "kind": 10,
-                            "flags": 64,
-                            "start": 25,
-                            "end": 28
-                        },
+                        "asyncKeyword": null,
                         "typeParameters": null,
                         "parameters": [
                             {
@@ -76,8 +71,13 @@ bar ? baz : ( (interface) => { 'use strict'; 0 } );
                                 "end": 24
                             }
                         ],
-                        "asyncKeyword": null,
                         "returnType": null,
+                        "arrowToken": {
+                            "kind": 10,
+                            "flags": 64,
+                            "start": 25,
+                            "end": 28
+                        },
                         "contents": {
                             "kind": 216,
                             "functionStatementList": {
@@ -146,9 +146,9 @@ bar ? baz : ( (interface) => { 'use strict'; 0 } );
 
 ```javascript
 
-bar ? baz : ((interface) =>  {
-        0;
-      });
+ bar ? baz : ((interface) => {
+0;
+}); 
 ```
 
 ### Diagnostics

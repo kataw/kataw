@@ -1233,7 +1233,7 @@ switch (answer) { case 0: let a; };
                     "end": 391
                 },
                 "right": {
-                    "kind": 536871042,
+                    "kind": 130,
                     "member": {
                         "kind": 134299649,
                         "text": "b",
@@ -1250,7 +1250,7 @@ switch (answer) { case 0: let a; };
                         "start": 393,
                         "end": 394
                     },
-                    "flags": 32,
+                    "flags": 536870944,
                     "start": 391,
                     "end": 395
                 },
@@ -1343,7 +1343,7 @@ switch (answer) { case 0: let a; };
                     "end": 423
                 },
                 "right": {
-                    "kind": 536871042,
+                    "kind": 130,
                     "member": {
                         "kind": 134299649,
                         "text": "b",
@@ -1366,7 +1366,7 @@ switch (answer) { case 0: let a; };
                         "start": 425,
                         "end": 428
                     },
-                    "flags": 32,
+                    "flags": 536870944,
                     "start": 423,
                     "end": 429
                 },
@@ -2638,12 +2638,7 @@ switch (answer) { case 0: let a; };
                                     },
                                     "alternate": {
                                         "kind": 271,
-                                        "arrowToken": {
-                                            "kind": 10,
-                                            "flags": 64,
-                                            "start": 926,
-                                            "end": 929
-                                        },
+                                        "asyncKeyword": null,
                                         "typeParameters": null,
                                         "parameters": [
                                             {
@@ -2655,8 +2650,13 @@ switch (answer) { case 0: let a; };
                                                 "end": 925
                                             }
                                         ],
-                                        "asyncKeyword": null,
                                         "returnType": null,
+                                        "arrowToken": {
+                                            "kind": 10,
+                                            "flags": 64,
+                                            "start": 926,
+                                            "end": 929
+                                        },
                                         "contents": {
                                             "kind": 216,
                                             "functionStatementList": {
@@ -2965,12 +2965,7 @@ switch (answer) { case 0: let a; };
                                     },
                                     "alternate": {
                                         "kind": 271,
-                                        "arrowToken": {
-                                            "kind": 10,
-                                            "flags": 64,
-                                            "start": 1045,
-                                            "end": 1048
-                                        },
+                                        "asyncKeyword": null,
                                         "typeParameters": null,
                                         "parameters": [
                                             {
@@ -2982,8 +2977,13 @@ switch (answer) { case 0: let a; };
                                                 "end": 1044
                                             }
                                         ],
-                                        "asyncKeyword": null,
                                         "returnType": null,
+                                        "arrowToken": {
+                                            "kind": 10,
+                                            "flags": 64,
+                                            "start": 1045,
+                                            "end": 1048
+                                        },
                                         "contents": {
                                             "kind": 216,
                                             "functionStatementList": {
@@ -5599,230 +5599,153 @@ switch (answer) { case 0: let a; };
 
 ```javascript
 
-switch(x) {
-  case 194:
-    switch(y) {
-      default
-        1;
-    }
-  default
-    2;
-}
-switch([/a/]) {
-  case y:
-    !x;
-}
-switch(x) {
-  case y:
-    {
-      x = b;
-    }
-}
-switch(x) {
-  case y:
-    [a / b];
-}
-switch(x) {
-  case 42:
-    y();
-    break;
-  default
-    break;
-}
-switch(answer) {
-  case 42:
-    let t = 42;
-    break;
-}
-switch(x) {
-  case y:
-    [a / b, c, (d)];
-}
-switch(x) {
-  case y:
-    a;
-}
-switch(x) {
-  case y:
-    x(foo);
-}
-switch(x) {
-  case y:
-    foo = b;
-}
-switch(x / ) {
-  case y:
-    foo;
-}
-switch(x / ) {
-  case y:
-    foo;
-}
-switch(x) {
-  case foo:
-    function * f() {}
-}
-switch(x) {
-  case y:
-    (foo);
-}
-switch(x) {
-  case y:
-    (foo, bar);
-}
-switch(x) {
-  case y:
-    (foo) = (foo) /* comment */ - b;
-}
-switch(x) {
-  case y:
-    foo;
-} // comment;
-
-// should be ignored - switch(x) { case y: foo };
+ switch(x) {
+    case 194: switch(y) {
+            default: 1;
+        },
+    default: 2;
+}, ;, switch([]) {
+    case y: ;
+}, ;, switch(x) {
+    case y: { x=b; }
+}, ;, switch(x) {
+    case y: [a / b];
+}, ;, switch(x) {
+    case 42:
+        ;,
+        break;,
+    default: break;
+}, ;, switch(answer) {
+    case 42:
+        let t = 42;,
+        break;
+}, ;, switch(x) {
+    case y: [a / b, c, (d)];
+}, ;, switch(x) {
+    case y: a;
+}, ;, switch(x) {
+    case y: ;
+}, ;, switch(x) {
+    case y: foo=b;
+}, ;, switch(x / b[c]) {
+    case y: foo;
+}, ;, switch(x / b[(c)]) {
+    case y: foo;
+}, ;, switch(x) {
+    case foo: function* f() {
+        }
+}, ;, switch(x) {
+    case y: (foo);
+}, ;, switch(x) {
+    case y: (foo, bar);
+}, ;, switch(x) {
+    case y: (foo)=(foo)/* comment */ - b;
+}, ;, switch(x) {
+    case y: foo;
+}// comment;
+, // comment;
 switch(x / a) {
-  case y:
-    foo;
-}
-switch(a + b) {
-  case y:
-    foo;
-}
-switch(x) {
-  case y:
-    /a/;
-}
-switch(x) {
-  case y:
-    {
-      x;
-    }
-}
-switch(x) {
-  case y:
-    x = { ...x };
-}
-switch(x) {
-  case y:
-    foo / bar ? 1 : (x);
-}
-switch(x) {
-  case y:
-    foo / bar ? 1 : (x) =>  {};
-}
-switch(0) {
-  case 1:
-    async function f() {}
-  default
-    async function f() {}
-}
-switch(x) {
-  case y:
-    foo ? 1 : (x) =>  {};
-}
-switch({ x: y }) {
-  case y:
-    [...a];
-}
-switch({ x: y }) {
-  case y:
-    [...a] = b;
-}
-switch(x / b(c)) {
-  case y:
-    foo;
-}
-switch(x) {
-  case c:
-    function f() {}
-    function f() {}
-}
-switch(x) {
-  case c:
-    async function * f() {}
-    async function * f() {}
-}
-switch(0) {
-  case 1:
-    var f;
-  default
-    var f;
-}
-switch(0) {
-  case 1:
-    var f;
-  default
-    var f;
-}
-switch(x) {
-  case x:
-    function * f() {}
-}
-switch(x) {
-  case x:
-    function * f() {}
-}
-"\"use strict\"";
-switch(x) {
-  case 1:
-
-  default
-    class C {}
-}
-switch(x) {
-}
-/foo/;
-"\"use strict\"";
-switch(x) {
-  case 1:
-
-  default
-    function f() {}
-    class C {}
-}
-"\"use strict\"";
-switch(x) {
-  case 1:
-
-  default
-    class C {}
-    function f() {}
-}
-"\"use strict\"";
-switch(x) {
-  case 1:
-
-  default
-    class C  {}
-}
-"\"use strict\"";
-switch(x) {
-  case 1:
-
-  default
-    function f() {}
-    class C {}
-}
-"\"use strict\"";
-switch(x) {
-  case 1:
-
-  default
-    class C {}
-}
-switch(a) {
-  case 1:
-
-}
-switch(a) {
-  case b:
-    let [x] = y;
-}
-switch(answer) {
-  case 0:
-    let a;
-}
-
+    case y: foo;
+}, ;, switch(a + b) {
+    case y: foo;
+}, ;, switch(x) {
+    case y: ;
+}, ;, switch(x) {
+    case y: { x; }
+}, ;, switch(x) {
+    case y: x={  };
+}, ;, switch(x) {
+    case y: foo / bar ? 1 : (x);
+}, ;, switch(x) {
+    case y: foo / bar ? 1 : (x) => {
+        };
+}, ;, switch(0) {
+    case 1: async function f() {
+        },
+    default: async function f() {
+        }
+}, ;, switch(x) {
+    case y: foo ? 1 : (x) => {
+        };
+}, ;, switch({ x : y }) {
+    case y: [...a];
+}, ;, switch({ x : y }) {
+    case y: [...a]=b;
+}, ;, switch(x / ) {
+    case y: foo;
+}, ;, switch(x) {
+    case c:
+        function f() {
+        },
+        function f() {
+        }
+}, ;, switch(x) {
+    case c:
+        async function* f() {
+        },
+        async function* f() {
+        }
+}, ;, switch(0) {
+    case 1: var f;,
+    default: var f;
+}, switch(0) {
+    case 1: var f;,
+    default: var f;
+}, ;, switch(x) {
+    case x: function* f() {
+        }
+}, ;, switch(x) {
+    case x: function* f() {
+        }
+}, ;, "use strict";, switch(x) {
+    case 1:
+    ,
+    default: class C {
+        }
+}, ;, switch(x) {
+}, ;, "use strict";, switch(x) {
+    case 1:
+    ,
+    default:
+        function f() {
+        },
+        ;,
+        class C {
+        }
+}, ;, "use strict";, switch(x) {
+    case 1:
+    ,
+    default:
+        class C {
+        },
+        ;,
+        function f() {
+        }
+}, ;, "use strict";, switch(x) {
+    case 1:
+    ,
+    default: class C {
+        }
+}, ;, "use strict";, switch(x) {
+    case 1:
+    ,
+    default:
+        function f() {
+        },
+        class C {
+        }
+}, ;, "use strict";, switch(x) {
+    case 1:
+    ,
+    default: class C {
+        }
+}, ;, switch(a) {
+    case 1:
+}, ;, switch(a) {
+    case b: let [x] = y;
+}, ;, switch(answer) {
+    case 0: let a;
+}, ; 
 ```
 
 ### Diagnostics

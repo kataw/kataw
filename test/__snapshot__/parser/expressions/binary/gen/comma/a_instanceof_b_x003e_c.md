@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/binary/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/binary/gen/comma
+- Regenerated: 2021-06-12
+- From: d
+- Path: a
 > :: test: comma
 > :: case: a instanceof b > c
 ## Options
@@ -107,7 +107,7 @@ x, a instanceof b > c
 
 ```javascript
 
-x, a inctanceof b > c;
+ x, a inctanceof b > c; 
 ```
 
 ### Diagnostics

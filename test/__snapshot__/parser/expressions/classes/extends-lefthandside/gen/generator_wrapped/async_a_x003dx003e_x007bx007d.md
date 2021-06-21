@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/classes/extends-lefthandside/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/classes/extends-lefthandside/gen/generator_wrapped
+- Regenerated: 2021-06-12
+- From: d
+- Path: d
 > :: test: generator wrapped
 > :: case: async a => {}
 ## Options
@@ -95,11 +95,11 @@ function *P(){
                                     },
                                     "expression": {
                                         "kind": 271,
-                                        "arrowToken": {
-                                            "kind": 10,
+                                        "asyncKeyword": {
+                                            "kind": 82031,
                                             "flags": 64,
-                                            "start": 40,
-                                            "end": 43
+                                            "start": 32,
+                                            "end": 38
                                         },
                                         "typeParameters": null,
                                         "parameters": {
@@ -110,13 +110,13 @@ function *P(){
                                             "start": 38,
                                             "end": 40
                                         },
-                                        "asyncKeyword": {
-                                            "kind": 82031,
-                                            "flags": 64,
-                                            "start": 32,
-                                            "end": 38
-                                        },
                                         "returnType": null,
+                                        "arrowToken": {
+                                            "kind": 10,
+                                            "flags": 64,
+                                            "start": 40,
+                                            "end": 43
+                                        },
                                         "contents": {
                                             "kind": 216,
                                             "functionStatementList": {

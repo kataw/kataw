@@ -196,8 +196,7 @@
 
 ```javascript
 
-({ a, ...obj } = foo);
-({ a: b, ...obj } = foo);
+ ({ a,  }=foo);, ({ a : b,  }=foo); 
 ```
 
 ### Diagnostics

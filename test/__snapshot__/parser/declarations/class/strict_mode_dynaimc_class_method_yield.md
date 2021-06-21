@@ -73,11 +73,11 @@ class x{[yield](a){}}
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": null,
                             "getKeyword": null,
+                            "asteriskToken": null,
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -95,7 +95,7 @@ class x{[yield](a){}}
                                     "end": 29
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [
                                         {
@@ -162,9 +162,10 @@ class x{[yield](a){}}
 
 ```javascript
 
-class x {
-  [yield] {}
-}
+"use strict" class x {
+    (a) {
+    }
+} 
 ```
 
 ### Diagnostics

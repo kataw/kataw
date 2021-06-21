@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/miscellaneous/destructuring/failing-cases/autogen.md
-- Path: kataw/test/__snapshot__/parser/miscellaneous/destructuring/failing-cases/gen/function_param_list
+- Regenerated: 2021-06-12
+- From: d
+- Path: t
 > :: test: function param list
 > :: case: function () { for (const x in { a: x }) { } }
 ## Options
@@ -106,27 +106,39 @@ function x(function () { for (const x in { a: x }) { } }) {}
                                 "end": 28
                             },
                             "initializer": {
-                                "kind": 151,
-                                "bindingList": [
-                                    {
-                                        "kind": 190,
-                                        "binding": {
-                                            "kind": 134299649,
-                                            "text": "x",
-                                            "rawText": "x",
-                                            "flags": 96,
+                                "kind": 162,
+                                "lexicalKeyword": {
+                                    "kind": 37757004,
+                                    "flags": 64,
+                                    "start": 30,
+                                    "end": 35
+                                },
+                                "binding": {
+                                    "kind": 151,
+                                    "bindingList": [
+                                        {
+                                            "kind": 190,
+                                            "binding": {
+                                                "kind": 134299649,
+                                                "text": "x",
+                                                "rawText": "x",
+                                                "flags": 96,
+                                                "start": 35,
+                                                "end": 37
+                                            },
+                                            "type": null,
+                                            "initializer": null,
+                                            "flags": 16,
                                             "start": 35,
                                             "end": 37
-                                        },
-                                        "type": null,
-                                        "initializer": null,
-                                        "flags": 16,
-                                        "start": 35,
-                                        "end": 37
-                                    }
-                                ],
-                                "flags": 16777232,
-                                "start": 35,
+                                        }
+                                    ],
+                                    "flags": 16777232,
+                                    "start": 35,
+                                    "end": 37
+                                },
+                                "flags": 33554448,
+                                "start": 24,
                                 "end": 37
                             },
                             "inKeyword": {

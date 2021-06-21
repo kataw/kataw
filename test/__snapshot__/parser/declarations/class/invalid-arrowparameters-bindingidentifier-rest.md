@@ -63,12 +63,7 @@ var af = ...x => x;
             "kind": 120,
             "expression": {
                 "kind": 271,
-                "arrowToken": {
-                    "kind": 10,
-                    "flags": 64,
-                    "start": 13,
-                    "end": 16
-                },
+                "asyncKeyword": null,
                 "typeParameters": null,
                 "parameters": {
                     "kind": 134299649,
@@ -78,8 +73,13 @@ var af = ...x => x;
                     "start": 12,
                     "end": 13
                 },
-                "asyncKeyword": null,
                 "returnType": null,
+                "arrowToken": {
+                    "kind": 10,
+                    "flags": 64,
+                    "start": 13,
+                    "end": 16
+                },
                 "contents": {
                     "kind": 134299649,
                     "text": "x",

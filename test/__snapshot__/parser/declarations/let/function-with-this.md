@@ -146,7 +146,7 @@ let f: (this: number) => void;
 
 ```javascript
 
-let f: ;
+ let f ; 
 ```
 
 ### Diagnostics

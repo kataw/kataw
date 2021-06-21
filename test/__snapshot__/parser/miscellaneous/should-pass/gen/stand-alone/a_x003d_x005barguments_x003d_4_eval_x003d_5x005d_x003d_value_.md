@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/miscellaneous/should-pass/autogen.md
-- Path: kataw/test/__snapshot__/parser/miscellaneous/should-pass/gen/stand-alone
+- Regenerated: 2021-06-12
+- From: d
+- Path: e
 > :: test: stand-alone
 > :: case: a = [arguments = 4, eval = 5] = value;
 ## Options
@@ -154,7 +154,7 @@ a = [arguments = 4, eval = 5] = value;
 
 ```javascript
 
-a = [arguments = 4, eval = 5] = value;
+ a=[arguments=4, eval=5]=value; 
 ```
 
 ### Diagnostics

@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/object-literal/good_supers/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/object-literal/good_supers/gen/arrow_with_string_key
+- Regenerated: 2021-06-12
+- From: d
+- Path: y
 > :: test: arrow with string key
 > :: case: super
 ## Options
@@ -76,11 +76,11 @@ class x extends y {
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": null,
                             "getKeyword": null,
+                            "asteriskToken": null,
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -92,7 +92,7 @@ class x extends y {
                                     "end": 33
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -111,12 +111,7 @@ class x extends y {
                                                 "kind": 120,
                                                 "expression": {
                                                     "kind": 271,
-                                                    "arrowToken": {
-                                                        "kind": 10,
-                                                        "flags": 64,
-                                                        "start": 58,
-                                                        "end": 61
-                                                    },
+                                                    "asyncKeyword": null,
                                                     "typeParameters": null,
                                                     "parameters": [
                                                         {
@@ -126,7 +121,6 @@ class x extends y {
                                                                 "properties": [
                                                                     {
                                                                         "kind": 329,
-                                                                        "ellipsisToken": null,
                                                                         "key": {
                                                                             "kind": 201392131,
                                                                             "text": "foo",
@@ -177,8 +171,13 @@ class x extends y {
                                                             "end": 57
                                                         }
                                                     ],
-                                                    "asyncKeyword": null,
                                                     "returnType": null,
+                                                    "arrowToken": {
+                                                        "kind": 10,
+                                                        "flags": 64,
+                                                        "start": 58,
+                                                        "end": 61
+                                                    },
                                                     "contents": {
                                                         "kind": 134299649,
                                                         "text": "x",

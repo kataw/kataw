@@ -43,9 +43,9 @@ let o = {f(await){}}
                                 "kind": 218,
                                 "properties": [
                                     {
-                                        "kind": 257,
+                                        "kind": 351,
                                         "asyncKeyword": null,
-                                        "generatorToken": null,
+                                        "asteriskToken": null,
                                         "getKeyword": null,
                                         "setKeyword": null,
                                         "method": {
@@ -59,7 +59,7 @@ let o = {f(await){}}
                                                 "end": 10
                                             },
                                             "typeParameters": null,
-                                            "formalParameters": {
+                                            "formalParameterList": {
                                                 "kind": 214,
                                                 "formalParameters": [
                                                     {
@@ -136,7 +136,8 @@ let o = {f(await){}}
 
 ```javascript
 
-let o = { f {} };
+ let o = { f(await) {
+    } }; 
 ```
 
 ### Diagnostics

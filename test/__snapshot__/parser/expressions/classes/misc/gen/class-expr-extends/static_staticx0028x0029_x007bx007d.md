@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/classes/misc/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/classes/misc/gen/class-expr-extends
+- Regenerated: 2021-06-12
+- From: d
+- Path: s
 > :: test: class-expr-extends
 > :: case: static static() {}
 ## Options
@@ -68,7 +68,6 @@
                                     "kind": 278,
                                     "declareToken": null,
                                     "decorators": null,
-                                    "asteriskToken": null,
                                     "staticKeyword": {
                                         "kind": 8388716,
                                         "flags": 64,
@@ -78,6 +77,7 @@
                                     "asyncKeyword": null,
                                     "setKeyword": null,
                                     "getKeyword": null,
+                                    "asteriskToken": null,
                                     "method": {
                                         "kind": 209,
                                         "name": {
@@ -89,7 +89,7 @@
                                             "end": 34
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -155,9 +155,10 @@
 
 ```javascript
 
-(class   {
-    static static static {}
-  });
+ (class  {
+    static static() {
+    }
+}); 
 ```
 
 ### Diagnostics

@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/arrow/position/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/arrow/position/gen/delete_paren_arg
+- Regenerated: 2021-06-12
+- From: d
+- Path: g
 > :: test: delete paren arg
 > :: case: async (x, y) => ok
 ## Options
@@ -37,11 +37,11 @@ delete (async (x, y) => ok)
                     "kind": 121,
                     "expression": {
                         "kind": 271,
-                        "arrowToken": {
-                            "kind": 10,
+                        "asyncKeyword": {
+                            "kind": 82031,
                             "flags": 64,
-                            "start": 20,
-                            "end": 23
+                            "start": 8,
+                            "end": 13
                         },
                         "typeParameters": null,
                         "parameters": [
@@ -62,13 +62,13 @@ delete (async (x, y) => ok)
                                 "end": 19
                             }
                         ],
-                        "asyncKeyword": {
-                            "kind": 82031,
-                            "flags": 64,
-                            "start": 8,
-                            "end": 13
-                        },
                         "returnType": null,
+                        "arrowToken": {
+                            "kind": 10,
+                            "flags": 64,
+                            "start": 20,
+                            "end": 23
+                        },
                         "contents": {
                             "kind": 134299649,
                             "text": "ok",
@@ -107,7 +107,7 @@ delete (async (x, y) => ok)
 
 ```javascript
 
-delete (async (x, y) =>  ok);
+ ; 
 ```
 
 ### Diagnostics

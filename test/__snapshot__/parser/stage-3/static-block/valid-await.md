@@ -66,16 +66,16 @@ class C {
                                                 "kind": 121,
                                                 "expression": {
                                                     "kind": 271,
+                                                    "asyncKeyword": null,
+                                                    "typeParameters": null,
+                                                    "parameters": [],
+                                                    "returnType": null,
                                                     "arrowToken": {
                                                         "kind": 10,
                                                         "flags": 64,
                                                         "start": 28,
                                                         "end": 31
                                                     },
-                                                    "typeParameters": null,
-                                                    "parameters": [],
-                                                    "asyncKeyword": null,
-                                                    "returnType": null,
                                                     "contents": {
                                                         "kind": 216,
                                                         "functionStatementList": {
@@ -180,9 +180,8 @@ class C {
 
 ```javascript
 
-class C {
-
-}
+ class C {
+} 
 ```
 
 ### Diagnostics

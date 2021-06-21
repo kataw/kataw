@@ -825,29 +825,7 @@ tag`${a}\\rb`;
 
 ```javascript
 
-`a
-b`;
-`ab`;
-`a
-b`;
-`a\nb`;
-`a\rb`;
-`a\r\nb`;
-`a b`;
-`a b`;
-`a${foo}b` + `template`;
-`a${foo}b` + `x${bar}y`;
-`a${i}${j}bb` + `xxx${bar}yyyy`;
-tag`template` + `template2`;
-`a${foo}b` + "'string'";
-"'string'" + `a${foo}b`;
-tag`${a}
-b`;
-tag`${a}b`;
-tag`${a}
-b`;
-tag`${a}\nb`;
-tag`${a}\rb`;
+ ;, ;, ;, ;, ;, ;, ;, ;,  + ;,  + ;,  + ;,  + ;,  + 'string';, 'string' + ;, ;, ;, ;, ;, ; 
 ```
 
 ### Diagnostics

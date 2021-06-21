@@ -221,16 +221,16 @@
                                                         "type": null,
                                                         "initializer": {
                                                             "kind": 271,
+                                                            "asyncKeyword": null,
+                                                            "typeParameters": null,
+                                                            "parameters": [],
+                                                            "returnType": null,
                                                             "arrowToken": {
                                                                 "kind": 10,
                                                                 "flags": 64,
                                                                 "start": 59,
                                                                 "end": 62
                                                             },
-                                                            "typeParameters": null,
-                                                            "parameters": [],
-                                                            "asyncKeyword": null,
-                                                            "returnType": null,
                                                             "contents": {
                                                                 "kind": 216,
                                                                 "functionStatementList": {
@@ -462,11 +462,11 @@
                                                         "kind": 278,
                                                         "declareToken": null,
                                                         "decorators": null,
-                                                        "asteriskToken": null,
                                                         "staticKeyword": null,
                                                         "asyncKeyword": null,
                                                         "setKeyword": null,
                                                         "getKeyword": null,
+                                                        "asteriskToken": null,
                                                         "method": {
                                                             "kind": 209,
                                                             "name": {
@@ -478,7 +478,7 @@
                                                                 "end": 121
                                                             },
                                                             "typeParameters": null,
-                                                            "formalParameters": {
+                                                            "formalParameterList": {
                                                                 "kind": 214,
                                                                 "formalParameters": [],
                                                                 "trailingComma": false,
@@ -605,7 +605,6 @@
                                                         "kind": 278,
                                                         "declareToken": null,
                                                         "decorators": null,
-                                                        "asteriskToken": null,
                                                         "staticKeyword": null,
                                                         "asyncKeyword": null,
                                                         "setKeyword": {
@@ -615,6 +614,7 @@
                                                             "end": 156
                                                         },
                                                         "getKeyword": null,
+                                                        "asteriskToken": null,
                                                         "method": {
                                                             "kind": 209,
                                                             "name": {
@@ -626,7 +626,7 @@
                                                                 "end": 159
                                                             },
                                                             "typeParameters": null,
-                                                            "formalParameters": {
+                                                            "formalParameterList": {
                                                                 "kind": 214,
                                                                 "formalParameters": [],
                                                                 "trailingComma": false,
@@ -753,7 +753,6 @@
                                                         "kind": 278,
                                                         "declareToken": null,
                                                         "decorators": null,
-                                                        "asteriskToken": null,
                                                         "staticKeyword": null,
                                                         "asyncKeyword": null,
                                                         "setKeyword": null,
@@ -763,6 +762,7 @@
                                                             "start": 190,
                                                             "end": 194
                                                         },
+                                                        "asteriskToken": null,
                                                         "method": {
                                                             "kind": 209,
                                                             "name": {
@@ -774,7 +774,7 @@
                                                                 "end": 197
                                                             },
                                                             "typeParameters": null,
-                                                            "formalParameters": {
+                                                            "formalParameterList": {
                                                                 "kind": 214,
                                                                 "formalParameters": [
                                                                     {
@@ -910,16 +910,16 @@
                                                         "kind": 278,
                                                         "declareToken": null,
                                                         "decorators": null,
+                                                        "staticKeyword": null,
+                                                        "asyncKeyword": null,
+                                                        "setKeyword": null,
+                                                        "getKeyword": null,
                                                         "asteriskToken": {
                                                             "kind": 67143222,
                                                             "flags": 64,
                                                             "start": 231,
                                                             "end": 233
                                                         },
-                                                        "staticKeyword": null,
-                                                        "asyncKeyword": null,
-                                                        "setKeyword": null,
-                                                        "getKeyword": null,
                                                         "method": {
                                                             "kind": 209,
                                                             "name": {
@@ -931,7 +931,7 @@
                                                                 "end": 235
                                                             },
                                                             "typeParameters": null,
-                                                            "formalParameters": {
+                                                            "formalParameterList": {
                                                                 "kind": 214,
                                                                 "formalParameters": [],
                                                                 "trailingComma": false,
@@ -1058,7 +1058,6 @@
                                                         "kind": 278,
                                                         "declareToken": null,
                                                         "decorators": null,
-                                                        "asteriskToken": null,
                                                         "staticKeyword": null,
                                                         "asyncKeyword": {
                                                             "kind": 82031,
@@ -1068,6 +1067,7 @@
                                                         },
                                                         "setKeyword": null,
                                                         "getKeyword": null,
+                                                        "asteriskToken": null,
                                                         "method": {
                                                             "kind": 209,
                                                             "name": {
@@ -1079,7 +1079,7 @@
                                                                 "end": 275
                                                             },
                                                             "typeParameters": null,
-                                                            "formalParameters": {
+                                                            "formalParameterList": {
                                                                 "kind": 214,
                                                                 "formalParameters": [],
                                                                 "trailingComma": false,
@@ -1206,12 +1206,6 @@
                                                         "kind": 278,
                                                         "declareToken": null,
                                                         "decorators": null,
-                                                        "asteriskToken": {
-                                                            "kind": 67143222,
-                                                            "flags": 64,
-                                                            "start": 312,
-                                                            "end": 314
-                                                        },
                                                         "staticKeyword": null,
                                                         "asyncKeyword": {
                                                             "kind": 82031,
@@ -1221,6 +1215,12 @@
                                                         },
                                                         "setKeyword": null,
                                                         "getKeyword": null,
+                                                        "asteriskToken": {
+                                                            "kind": 67143222,
+                                                            "flags": 64,
+                                                            "start": 312,
+                                                            "end": 314
+                                                        },
                                                         "method": {
                                                             "kind": 209,
                                                             "name": {
@@ -1232,7 +1232,7 @@
                                                                 "end": 316
                                                             },
                                                             "typeParameters": null,
-                                                            "formalParameters": {
+                                                            "formalParameterList": {
                                                                 "kind": 214,
                                                                 "formalParameters": [],
                                                                 "trailingComma": false,
@@ -1315,51 +1315,50 @@
 
 ```javascript
 
-(class  {
+ (class  {
     a = class  {
-        #a = 1;
-      };
-  });
-(class  {
+        #a = 1
+    }
+});, (class  {
     a = class  {
-        #a = () =>  {};
-      };
-  });
-(class  {
+        #a = () => {
+        }
+    }
+});, (class  {
     a = class  {
-        #a;
-      };
-  });
-(class  {
+        #a
+    }
+});, (class  {
     a = class  {
-        #a {}
-      };
-  });
-(class  {
+        #a() {
+        }
+    }
+});, (class  {
     a = class  {
-        get #a {}
-      };
-  });
-(class  {
+        get #a() {
+        }
+    }
+});, (class  {
     a = class  {
-        set #a {}
-      };
-  });
-(class  {
+        set #a(foo) {
+        }
+    }
+});, (class  {
     a = class  {
-        #a {}
-      };
-  });
-(class  {
+        *#a() {
+        }
+    }
+});, (class  {
     a = class  {
-        async #a {}
-      };
-  });
-(class  {
+        async #a() {
+        }
+    }
+});, (class  {
     a = class  {
-        async #a {}
-      };
-  });
+        async *#a() {
+        }
+    }
+}); 
 ```
 
 ### Diagnostics

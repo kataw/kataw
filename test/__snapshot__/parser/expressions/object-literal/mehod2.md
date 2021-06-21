@@ -51,9 +51,9 @@ x = { method(test) { } }
                         "kind": 218,
                         "properties": [
                             {
-                                "kind": 257,
+                                "kind": 351,
                                 "asyncKeyword": null,
-                                "generatorToken": null,
+                                "asteriskToken": null,
                                 "getKeyword": null,
                                 "setKeyword": null,
                                 "method": {
@@ -67,7 +67,7 @@ x = { method(test) { } }
                                         "end": 12
                                     },
                                     "typeParameters": null,
-                                    "formalParameters": {
+                                    "formalParameterList": {
                                         "kind": 214,
                                         "formalParameters": [],
                                         "trailingComma": false,
@@ -140,9 +140,9 @@ x = { method(test) { } }
                         "kind": 218,
                         "properties": [
                             {
-                                "kind": 257,
+                                "kind": 351,
                                 "asyncKeyword": null,
-                                "generatorToken": null,
+                                "asteriskToken": null,
                                 "getKeyword": null,
                                 "setKeyword": null,
                                 "method": {
@@ -156,7 +156,7 @@ x = { method(test) { } }
                                         "end": 31
                                     },
                                     "typeParameters": null,
-                                    "formalParameters": {
+                                    "formalParameterList": {
                                         "kind": 214,
                                         "formalParameters": [],
                                         "trailingComma": false,
@@ -229,9 +229,9 @@ x = { method(test) { } }
                         "kind": 218,
                         "properties": [
                             {
-                                "kind": 257,
+                                "kind": 351,
                                 "asyncKeyword": null,
-                                "generatorToken": null,
+                                "asteriskToken": null,
                                 "getKeyword": null,
                                 "setKeyword": null,
                                 "method": {
@@ -245,7 +245,7 @@ x = { method(test) { } }
                                         "end": 50
                                     },
                                     "typeParameters": null,
-                                    "formalParameters": {
+                                    "formalParameterList": {
                                         "kind": 214,
                                         "formalParameters": [],
                                         "trailingComma": false,
@@ -320,9 +320,9 @@ x = { method(test) { } }
                             "kind": 218,
                             "properties": [
                                 {
-                                    "kind": 257,
+                                    "kind": 351,
                                     "asyncKeyword": null,
-                                    "generatorToken": null,
+                                    "asteriskToken": null,
                                     "getKeyword": null,
                                     "setKeyword": null,
                                     "method": {
@@ -336,7 +336,7 @@ x = { method(test) { } }
                                             "end": 72
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [
                                                 {
@@ -395,9 +395,9 @@ x = { method(test) { } }
                                     "kind": 218,
                                     "properties": [
                                         {
-                                            "kind": 257,
+                                            "kind": 351,
                                             "asyncKeyword": null,
-                                            "generatorToken": null,
+                                            "asteriskToken": null,
                                             "getKeyword": null,
                                             "setKeyword": null,
                                             "method": {
@@ -411,7 +411,7 @@ x = { method(test) { } }
                                                     "end": 97
                                                 },
                                                 "typeParameters": null,
-                                                "formalParameters": {
+                                                "formalParameterList": {
                                                     "kind": 214,
                                                     "formalParameters": [],
                                                     "trailingComma": false,
@@ -496,9 +496,9 @@ x = { method(test) { } }
                             "kind": 218,
                             "properties": [
                                 {
-                                    "kind": 257,
+                                    "kind": 351,
                                     "asyncKeyword": null,
-                                    "generatorToken": null,
+                                    "asteriskToken": null,
                                     "getKeyword": null,
                                     "setKeyword": null,
                                     "method": {
@@ -512,7 +512,7 @@ x = { method(test) { } }
                                             "end": 120
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -589,9 +589,9 @@ x = { method(test) { } }
                         "kind": 218,
                         "properties": [
                             {
-                                "kind": 257,
+                                "kind": 351,
                                 "asyncKeyword": null,
-                                "generatorToken": null,
+                                "asteriskToken": null,
                                 "getKeyword": null,
                                 "setKeyword": null,
                                 "method": {
@@ -605,7 +605,7 @@ x = { method(test) { } }
                                         "end": 141
                                     },
                                     "typeParameters": null,
-                                    "formalParameters": {
+                                    "formalParameterList": {
                                         "kind": 214,
                                         "formalParameters": [
                                             {
@@ -677,12 +677,12 @@ x = { method(test) { } }
 
 ```javascript
 
-x = { method {} };
-x = { get {} };
-x = { set {} };
-x = { method {} }({ function {} });
-x = ({ declare {} });
-x = { method {} };
+ x={ method() {
+    } };, x={ get() {
+    } };, x={ set() {
+    } };, x=;, x=({ declare() {
+    } });, x={ method(test) {
+    } }; 
 ```
 
 ### Diagnostics

@@ -215,28 +215,40 @@ function baz(x: boolean) {
                                 "end": 59
                             },
                             "initializer": {
-                                "kind": 156,
-                                "declarations": [
-                                    {
-                                        "kind": 157,
-                                        "binding": {
-                                            "kind": 134299649,
-                                            "text": "prop",
-                                            "rawText": "prop",
-                                            "flags": 96,
+                                "kind": 341,
+                                "varKeyword": {
+                                    "kind": 37757002,
+                                    "flags": 64,
+                                    "start": 61,
+                                    "end": 64
+                                },
+                                "declarationList": {
+                                    "kind": 156,
+                                    "declarations": [
+                                        {
+                                            "kind": 157,
+                                            "binding": {
+                                                "kind": 134299649,
+                                                "text": "prop",
+                                                "rawText": "prop",
+                                                "flags": 96,
+                                                "start": 64,
+                                                "end": 69
+                                            },
+                                            "type": null,
+                                            "initializer": null,
+                                            "flags": 16,
                                             "start": 64,
                                             "end": 69
-                                        },
-                                        "type": null,
-                                        "initializer": null,
-                                        "flags": 16,
-                                        "start": 64,
-                                        "end": 69
-                                    }
-                                ],
+                                        }
+                                    ],
+                                    "flags": 16,
+                                    "start": 64,
+                                    "end": 69
+                                },
                                 "flags": 16,
-                                "start": 64,
-                                "end": 69
+                                "start": 53,
+                                "end": 72
                             },
                             "inKeyword": {
                                 "kind": 21006388,
@@ -421,28 +433,40 @@ function baz(x: boolean) {
                                 "end": 166
                             },
                             "initializer": {
-                                "kind": 156,
-                                "declarations": [
-                                    {
-                                        "kind": 157,
-                                        "binding": {
-                                            "kind": 134299649,
-                                            "text": "prop",
-                                            "rawText": "prop",
-                                            "flags": 96,
+                                "kind": 341,
+                                "varKeyword": {
+                                    "kind": 37757002,
+                                    "flags": 64,
+                                    "start": 168,
+                                    "end": 171
+                                },
+                                "declarationList": {
+                                    "kind": 156,
+                                    "declarations": [
+                                        {
+                                            "kind": 157,
+                                            "binding": {
+                                                "kind": 134299649,
+                                                "text": "prop",
+                                                "rawText": "prop",
+                                                "flags": 96,
+                                                "start": 171,
+                                                "end": 176
+                                            },
+                                            "type": null,
+                                            "initializer": null,
+                                            "flags": 16,
                                             "start": 171,
                                             "end": 176
-                                        },
-                                        "type": null,
-                                        "initializer": null,
-                                        "flags": 16,
-                                        "start": 171,
-                                        "end": 176
-                                    }
-                                ],
+                                        }
+                                    ],
+                                    "flags": 16,
+                                    "start": 171,
+                                    "end": 176
+                                },
                                 "flags": 16,
-                                "start": 171,
-                                "end": 176
+                                "start": 160,
+                                "end": 179
                             },
                             "inKeyword": {
                                 "kind": 21006388,
@@ -584,28 +608,40 @@ function baz(x: boolean) {
                                 "end": 237
                             },
                             "initializer": {
-                                "kind": 156,
-                                "declarations": [
-                                    {
-                                        "kind": 157,
-                                        "binding": {
-                                            "kind": 134299649,
-                                            "text": "prop",
-                                            "rawText": "prop",
-                                            "flags": 96,
+                                "kind": 341,
+                                "varKeyword": {
+                                    "kind": 37757002,
+                                    "flags": 64,
+                                    "start": 239,
+                                    "end": 242
+                                },
+                                "declarationList": {
+                                    "kind": 156,
+                                    "declarations": [
+                                        {
+                                            "kind": 157,
+                                            "binding": {
+                                                "kind": 134299649,
+                                                "text": "prop",
+                                                "rawText": "prop",
+                                                "flags": 96,
+                                                "start": 242,
+                                                "end": 247
+                                            },
+                                            "type": null,
+                                            "initializer": null,
+                                            "flags": 16,
                                             "start": 242,
                                             "end": 247
-                                        },
-                                        "type": null,
-                                        "initializer": null,
-                                        "flags": 16,
-                                        "start": 242,
-                                        "end": 247
-                                    }
-                                ],
+                                        }
+                                    ],
+                                    "flags": 16,
+                                    "start": 242,
+                                    "end": 247
+                                },
                                 "flags": 16,
-                                "start": 242,
-                                "end": 247
+                                "start": 231,
+                                "end": 250
                             },
                             "inKeyword": {
                                 "kind": 21006388,
@@ -686,19 +722,14 @@ function baz(x: boolean) {
 
 ```javascript
 
-function foo() {
-  var obj = { a: 1, b: 2 };
-  for ( in obj)
-    {}
-}
-function bar() {
-  for ( in {})
-    {}
-}
-function baz() {
-  for ( in {})
-    {}
-}
+ function foo() {
+var obj = { a : 1, b : 2 };,
+for (var prop in obj) { if (x) { continue; }, return; }
+}, function bar() {
+for (var prop in {  }) { return; }
+}, function baz() {
+for (var prop in {  }) { continue; }
+} 
 ```
 
 ### Diagnostics

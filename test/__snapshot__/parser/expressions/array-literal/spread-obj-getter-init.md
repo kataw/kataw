@@ -311,9 +311,9 @@ var callCount = 0;
                                                         "end": 109
                                                     },
                                                     {
-                                                        "kind": 257,
+                                                        "kind": 351,
                                                         "asyncKeyword": null,
-                                                        "generatorToken": null,
+                                                        "asteriskToken": null,
                                                         "getKeyword": {
                                                             "kind": 16498,
                                                             "flags": 96,
@@ -332,7 +332,7 @@ var callCount = 0;
                                                                 "end": 116
                                                             },
                                                             "typeParameters": null,
-                                                            "formalParameters": {
+                                                            "formalParameterList": {
                                                                 "kind": 214,
                                                                 "formalParameters": [],
                                                                 "trailingComma": false,
@@ -415,10 +415,7 @@ var callCount = 0;
 
 ```javascript
 
-let o = { a: 2, b: 3 };
-let executedGetter = false;
-var callCount = 0;
-(function () {}.apply(null, [{ ...o, get c {} }]));
+ let o = { a : 2, b : 3 };, let executedGetter = false;, var callCount = 0;, (); 
 ```
 
 ### Diagnostics

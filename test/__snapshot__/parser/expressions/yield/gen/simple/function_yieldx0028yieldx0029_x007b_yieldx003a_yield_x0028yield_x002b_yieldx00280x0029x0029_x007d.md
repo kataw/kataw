@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/yield/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/yield/gen/simple
+- Regenerated: 2021-06-12
+- From: d
+- Path: e
 > :: test: simple
 > :: case: function yield(yield) { yield: yield (yield + yield(0)); }
 ## Options
@@ -194,9 +194,9 @@ function yield(yield) { yield: yield (yield + yield(0)); }
 
 ```javascript
 
-function yield() {
-  yield: yield(yield + yield(0));
-}
+ function yield(yield) {
+yield: ;
+} 
 ```
 
 ### Diagnostics

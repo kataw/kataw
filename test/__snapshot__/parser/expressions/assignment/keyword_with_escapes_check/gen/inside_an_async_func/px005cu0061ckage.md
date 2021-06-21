@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/assignment/keyword_with_escapes_check/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/assignment/keyword_with_escapes_check/gen/inside_an_async_func
+- Regenerated: 2021-06-12
+- From: d
+- Path: c
 > :: test: inside an async func
 > :: case: p\u0061ckage
 ## Options
@@ -25,21 +25,21 @@ async () => {  p\u0061ckage = x  }
     "statements": [
         {
             "kind": 271,
-            "arrowToken": {
-                "kind": 10,
-                "flags": 64,
-                "start": 8,
-                "end": 11
-            },
-            "typeParameters": null,
-            "parameters": [],
             "asyncKeyword": {
                 "kind": 82031,
                 "flags": 64,
                 "start": 0,
                 "end": 5
             },
+            "typeParameters": null,
+            "parameters": [],
             "returnType": null,
+            "arrowToken": {
+                "kind": 10,
+                "flags": 64,
+                "start": 8,
+                "end": 11
+            },
             "contents": {
                 "kind": 216,
                 "functionStatementList": {
@@ -107,9 +107,9 @@ async () => {  p\u0061ckage = x  }
 
 ```javascript
 
-async () =>  {
-  package = x;
-}
+ () => {
+p\u0061ckage=x;
+} 
 ```
 
 ### Diagnostics

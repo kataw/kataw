@@ -47,15 +47,9 @@ let x = (): Array<(string) => number> => []
                         "type": null,
                         "initializer": {
                             "kind": 271,
-                            "arrowToken": {
-                                "kind": 10,
-                                "flags": 64,
-                                "start": 37,
-                                "end": 40
-                            },
+                            "asyncKeyword": null,
                             "typeParameters": null,
                             "parameters": [],
-                            "asyncKeyword": null,
                             "returnType": {
                                 "kind": 139,
                                 "bitwiseOrToken": null,
@@ -134,6 +128,12 @@ let x = (): Array<(string) => number> => []
                                 "start": 11,
                                 "end": 37
                             },
+                            "arrowToken": {
+                                "kind": 10,
+                                "flags": 64,
+                                "start": 37,
+                                "end": 40
+                            },
                             "contents": {
                                 "kind": 119,
                                 "elementList": {
@@ -179,7 +179,7 @@ let x = (): Array<(string) => number> => []
 
 ```javascript
 
-let x = () =>  [];
+ let x = (): Array =>[]; 
 ```
 
 ### Diagnostics

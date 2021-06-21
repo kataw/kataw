@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/await/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/await/gen/with_strict_dirctive
+- Regenerated: 2021-06-12
+- From: d
+- Path: e
 > :: test: with_strict_dirctive
 > :: case: var asyncArrow = async(...await) => {};
 ## Options
@@ -57,11 +57,11 @@
                         "type": null,
                         "initializer": {
                             "kind": 271,
-                            "arrowToken": {
-                                "kind": 10,
+                            "asyncKeyword": {
+                                "kind": 82031,
                                 "flags": 64,
-                                "start": 46,
-                                "end": 49
+                                "start": 30,
+                                "end": 36
                             },
                             "typeParameters": null,
                             "parameters": [
@@ -81,13 +81,13 @@
                                     "end": 45
                                 }
                             ],
-                            "asyncKeyword": {
-                                "kind": 82031,
-                                "flags": 64,
-                                "start": 30,
-                                "end": 36
-                            },
                             "returnType": null,
+                            "arrowToken": {
+                                "kind": 10,
+                                "flags": 64,
+                                "start": 46,
+                                "end": 49
+                            },
                             "contents": {
                                 "kind": 216,
                                 "functionStatementList": {
@@ -133,7 +133,8 @@
 
 ```javascript
 
-var asyncArrow = async (...) =>  {};
+'use strict' var asyncArrow = (...) => {
+}; 
 ```
 
 ### Diagnostics

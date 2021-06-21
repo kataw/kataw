@@ -353,8 +353,7 @@ declare class D extends C { }
 
 ```javascript
 
-declare class C TODO!
-declare class D  TODO!
+ declare class C {}, declare class D {} 
 ```
 
 ### Diagnostics

@@ -88,9 +88,9 @@ class C { #aaa }
 
 ```javascript
 
-class C {
-  #aaa;
-}
+ class C {
+    #aaa
+} 
 ```
 
 ### Diagnostics

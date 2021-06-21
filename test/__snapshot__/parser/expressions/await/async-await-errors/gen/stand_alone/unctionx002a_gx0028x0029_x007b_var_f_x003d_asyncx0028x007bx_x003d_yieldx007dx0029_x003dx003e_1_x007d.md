@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/await/async-await-errors/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/await/async-await-errors/gen/stand_alone
+- Regenerated: 2021-06-12
+- From: d
+- Path: e
 > :: test: stand alone
 > :: case: unction* g() { var f = async({x = yield}) => 1; }
 ## Options
@@ -101,11 +101,11 @@ unction* g() { var f = async({x = yield}) => 1; }
                                     "type": null,
                                     "initializer": {
                                         "kind": 271,
-                                        "arrowToken": {
-                                            "kind": 10,
+                                        "asyncKeyword": {
+                                            "kind": 82031,
                                             "flags": 64,
-                                            "start": 41,
-                                            "end": 44
+                                            "start": 22,
+                                            "end": 28
                                         },
                                         "typeParameters": null,
                                         "parameters": [
@@ -150,13 +150,13 @@ unction* g() { var f = async({x = yield}) => 1; }
                                                 "end": 40
                                             }
                                         ],
-                                        "asyncKeyword": {
-                                            "kind": 82031,
-                                            "flags": 64,
-                                            "start": 22,
-                                            "end": 28
-                                        },
                                         "returnType": null,
+                                        "arrowToken": {
+                                            "kind": 10,
+                                            "flags": 64,
+                                            "start": 41,
+                                            "end": 44
+                                        },
                                         "contents": {
                                             "kind": 201392130,
                                             "text": 1,

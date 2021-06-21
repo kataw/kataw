@@ -45,7 +45,7 @@ for ({}[y] ^= x;;) x;
             "initializer": {
                 "kind": 125,
                 "left": {
-                    "kind": 536871042,
+                    "kind": 130,
                     "member": {
                         "kind": 220,
                         "propertyList": {
@@ -68,7 +68,7 @@ for ({}[y] ^= x;;) x;
                         "start": 8,
                         "end": 9
                     },
-                    "flags": 32,
+                    "flags": 536870944,
                     "start": 0,
                     "end": 10
                 },
@@ -124,8 +124,7 @@ for ({}[y] ^= x;;) x;
 
 ```javascript
 
-for ( ^= x; ; )
-  x;
+ for({  }[y]^=x;;)x; 
 ```
 
 ### Diagnostics

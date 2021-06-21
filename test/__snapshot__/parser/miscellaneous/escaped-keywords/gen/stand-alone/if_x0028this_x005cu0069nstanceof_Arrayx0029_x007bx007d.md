@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/miscellaneous/escaped-keywords/autogen.md
-- Path: kataw/test/__snapshot__/parser/miscellaneous/escaped-keywords/gen/stand-alone
+- Regenerated: 2021-06-12
+- From: d
+- Path: e
 > :: test: stand-alone
 > :: case: if (this \u0069nstanceof Array) {}
 ## Options
@@ -90,8 +90,7 @@ if (this \u0069nstanceof Array) {}
 
 ```javascript
 
-if (this inctanceof Array) {
-  }
+ if (this inctanceof Array) {  } 
 ```
 
 ### Diagnostics

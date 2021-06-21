@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/yield/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/yield/gen/simple
+- Regenerated: 2021-06-12
+- From: d
+- Path: e
 > :: test: simple
 > :: case: async function a(){     async ([y] = [{m: 5 + t(await bar)}]) => {}     }
 ## Options
@@ -64,11 +64,11 @@ async function a(){     async ([y] = [{m: 5 + t(await bar)}]) => {}     }
                     "statements": [
                         {
                             "kind": 271,
-                            "arrowToken": {
-                                "kind": 10,
+                            "asyncKeyword": {
+                                "kind": 82031,
                                 "flags": 64,
-                                "start": 61,
-                                "end": 64
+                                "start": 19,
+                                "end": 29
                             },
                             "typeParameters": null,
                             "parameters": [
@@ -213,13 +213,13 @@ async function a(){     async ([y] = [{m: 5 + t(await bar)}]) => {}     }
                                     "end": 60
                                 }
                             ],
-                            "asyncKeyword": {
-                                "kind": 82031,
-                                "flags": 64,
-                                "start": 19,
-                                "end": 29
-                            },
                             "returnType": null,
+                            "arrowToken": {
+                                "kind": 10,
+                                "flags": 64,
+                                "start": 61,
+                                "end": 64
+                            },
                             "contents": {
                                 "kind": 216,
                                 "functionStatementList": {
@@ -266,9 +266,10 @@ async function a(){     async ([y] = [{m: 5 + t(await bar)}]) => {}     }
 
 ```javascript
 
-async function a() {
-  async ([y] = [{ m: 5 + t(await bar) }]) =>  {}
+ async function a() {
+( = [{ m : 5 +  }]) => {
 }
+} 
 ```
 
 ### Diagnostics

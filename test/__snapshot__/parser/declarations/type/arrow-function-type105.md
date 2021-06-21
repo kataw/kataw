@@ -187,7 +187,7 @@ type a = ((...b?:string | d) => c);
 
 ```javascript
 
-
+  
 ```
 
 ### Diagnostics

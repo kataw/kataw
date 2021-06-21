@@ -40,12 +40,7 @@ var af = (x = 1) => x;
                         "type": null,
                         "initializer": {
                             "kind": 271,
-                            "arrowToken": {
-                                "kind": 10,
-                                "flags": 64,
-                                "start": 16,
-                                "end": 19
-                            },
+                            "asyncKeyword": null,
                             "typeParameters": null,
                             "parameters": [
                                 {
@@ -74,8 +69,13 @@ var af = (x = 1) => x;
                                     "end": 15
                                 }
                             ],
-                            "asyncKeyword": null,
                             "returnType": null,
+                            "arrowToken": {
+                                "kind": 10,
+                                "flags": 64,
+                                "start": 16,
+                                "end": 19
+                            },
                             "contents": {
                                 "kind": 134299649,
                                 "text": "x",
@@ -115,7 +115,7 @@ var af = (x = 1) => x;
 
 ```javascript
 
-var af = (x = 1) =>  x;
+ var af = (x = 1) =>x; 
 ```
 
 ### Diagnostics

@@ -89,8 +89,7 @@ for (true.x in c) d;
 
 ```javascript
 
-for (true.x in c)
-  d;
+ for (true.x in c) d; 
 ```
 
 ### Diagnostics

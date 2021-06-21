@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/arrow/position/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/arrow/position/gen/lhs_div_div
+- Regenerated: 2021-06-12
+- From: d
+- Path: v
 > :: test: lhs div div
 > :: case: async x => ok
 ## Options
@@ -28,11 +28,11 @@ async x => ok
             "kind": 120,
             "expression": {
                 "kind": 271,
-                "arrowToken": {
-                    "kind": 10,
+                "asyncKeyword": {
+                    "kind": 82031,
                     "flags": 64,
-                    "start": 7,
-                    "end": 10
+                    "start": 0,
+                    "end": 5
                 },
                 "typeParameters": null,
                 "parameters": {
@@ -43,13 +43,13 @@ async x => ok
                     "start": 5,
                     "end": 7
                 },
-                "asyncKeyword": {
-                    "kind": 82031,
-                    "flags": 64,
-                    "start": 0,
-                    "end": 5
-                },
                 "returnType": null,
+                "arrowToken": {
+                    "kind": 10,
+                    "flags": 64,
+                    "start": 7,
+                    "end": 10
+                },
                 "contents": {
                     "kind": 198,
                     "left": {
@@ -120,7 +120,7 @@ async x => ok
 
 ```javascript
 
-async x =>  ok / x / g;
+ x =>ok / x / g; 
 ```
 
 ### Diagnostics

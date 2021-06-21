@@ -107,11 +107,7 @@
 
 ```javascript
 
-"\"\"";
-"\"some content\"";
-"\"var\"";
-"\"x / y\"";
-"\"raw lower unicode @{x200}\"";
+ "";, "some content";, "var";, "x / y";, "raw lower unicode @{x200}"; 
 ```
 
 ### Diagnostics

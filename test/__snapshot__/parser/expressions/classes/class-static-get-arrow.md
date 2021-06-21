@@ -42,7 +42,6 @@
                                         "kind": 278,
                                         "declareToken": null,
                                         "decorators": null,
-                                        "asteriskToken": null,
                                         "staticKeyword": {
                                             "kind": 8388716,
                                             "flags": 64,
@@ -57,22 +56,23 @@
                                             "end": 17
                                         },
                                         "getKeyword": null,
+                                        "asteriskToken": null,
                                         "method": {
                                             "kind": 209,
                                             "name": {
                                                 "kind": 194,
                                                 "expression": {
                                                     "kind": 271,
+                                                    "asyncKeyword": null,
+                                                    "typeParameters": null,
+                                                    "parameters": [],
+                                                    "returnType": null,
                                                     "arrowToken": {
                                                         "kind": 10,
                                                         "flags": 64,
                                                         "start": 20,
                                                         "end": 22
                                                     },
-                                                    "typeParameters": null,
-                                                    "parameters": [],
-                                                    "asyncKeyword": null,
-                                                    "returnType": null,
                                                     "contents": {
                                                         "kind": 138477575,
                                                         "flags": 96,
@@ -88,7 +88,7 @@
                                                 "end": 27
                                             },
                                             "typeParameters": null,
-                                            "formalParameters": {
+                                            "formalParameterList": {
                                                 "kind": 214,
                                                 "formalParameters": [],
                                                 "trailingComma": false,
@@ -166,9 +166,7 @@
 
 ```javascript
 
-(class  {
-    static get static [() =>  null] {}
-  }());
+ (); 
 ```
 
 ### Diagnostics

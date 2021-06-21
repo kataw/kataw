@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/miscellaneous/destructuring/destructuring-assignment-positive-tests/autogen.md
-- Path: kataw/test/__snapshot__/parser/miscellaneous/destructuring/destructuring-assignment-positive-tests/gen/lexical_let
+- Regenerated: 2021-06-12
+- From: d
+- Path: t
 > :: test: lexical let
 > :: case: { z : { __proto__: x, __proto__: y } = z }
 ## Options
@@ -263,8 +263,7 @@
 
 ```javascript
 
-let x, y, z;
-({ z: { __proto__: x, __proto__: y } = z } = {});
+'use strict' let x, y, z;, ({ z : { __proto__ : x, __proto__ : y }=z }={  }); 
 ```
 
 ### Diagnostics

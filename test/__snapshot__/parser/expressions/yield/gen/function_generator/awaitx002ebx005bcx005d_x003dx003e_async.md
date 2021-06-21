@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/yield/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/yield/gen/function_generator
+- Regenerated: 2021-06-12
+- From: d
+- Path: r
 > :: test: function generator
 > :: case: await.b[c] => async
 ## Options
@@ -99,7 +99,7 @@ function * gen() { function not_gen() { await.b[c] => async }}
                                         {
                                             "kind": 120,
                                             "expression": {
-                                                "kind": 536871042,
+                                                "kind": 130,
                                                 "member": {
                                                     "kind": 129,
                                                     "member": {
@@ -130,7 +130,7 @@ function * gen() { function not_gen() { await.b[c] => async }}
                                                     "start": 48,
                                                     "end": 49
                                                 },
-                                                "flags": 32,
+                                                "flags": 536870944,
                                                 "start": 39,
                                                 "end": 50
                                             },

@@ -161,7 +161,7 @@ type A = (b: (B)) => C
 
 ```javascript
 
-
+  
 ```
 
 ### Diagnostics

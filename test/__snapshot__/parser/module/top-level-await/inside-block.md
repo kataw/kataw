@@ -97,9 +97,7 @@ if (true) {
 
 ```javascript
 
-if (true) {
-    await 0;
-  }
+ if (true) { await 0; } 
 ```
 
 ### Diagnostics

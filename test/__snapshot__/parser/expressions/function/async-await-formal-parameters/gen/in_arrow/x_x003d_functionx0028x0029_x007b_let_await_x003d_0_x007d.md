@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/function/async-await-formal-parameters/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/function/async-await-formal-parameters/gen/in_arrow
+- Regenerated: 2021-06-12
+- From: d
+- Path: w
 > :: test: in arrow
 > :: case: x = function() { let await = 0; }
 ## Options
@@ -57,11 +57,11 @@
                         "type": null,
                         "initializer": {
                             "kind": 271,
-                            "arrowToken": {
-                                "kind": 10,
+                            "asyncKeyword": {
+                                "kind": 82031,
                                 "flags": 64,
-                                "start": 62,
-                                "end": 65
+                                "start": 21,
+                                "end": 27
                             },
                             "typeParameters": null,
                             "parameters": [
@@ -166,13 +166,13 @@
                                     "end": 61
                                 }
                             ],
-                            "asyncKeyword": {
-                                "kind": 82031,
-                                "flags": 64,
-                                "start": 21,
-                                "end": 27
-                            },
                             "returnType": null,
+                            "arrowToken": {
+                                "kind": 10,
+                                "flags": 64,
+                                "start": 62,
+                                "end": 65
+                            },
                             "contents": {
                                 "kind": 216,
                                 "functionStatementList": {
@@ -218,9 +218,10 @@
 
 ```javascript
 
-var f = async (x = function () {
-  let await = 0;
-}) =>  {};
+'use strict' var f = (x = function () {
+    let await = 0;
+    }) => {
+}; 
 ```
 
 ### Diagnostics

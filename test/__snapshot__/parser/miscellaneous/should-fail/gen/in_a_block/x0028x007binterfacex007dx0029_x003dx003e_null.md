@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/miscellaneous/should-fail/autogen.md
-- Path: kataw/test/__snapshot__/parser/miscellaneous/should-fail/gen/in_a_block
+- Regenerated: 2021-06-12
+- From: d
+- Path: k
 > :: test: in a block
 > :: case: ({interface}) => null
 ## Options
@@ -32,12 +32,7 @@
                         "kind": 120,
                         "expression": {
                             "kind": 271,
-                            "arrowToken": {
-                                "kind": 10,
-                                "flags": 64,
-                                "start": 15,
-                                "end": 18
-                            },
+                            "asyncKeyword": null,
                             "typeParameters": null,
                             "parameters": [
                                 {
@@ -64,8 +59,13 @@
                                     "end": 14
                                 }
                             ],
-                            "asyncKeyword": null,
                             "returnType": null,
+                            "arrowToken": {
+                                "kind": 10,
+                                "flags": 64,
+                                "start": 15,
+                                "end": 18
+                            },
                             "contents": {
                                 "kind": 138477575,
                                 "flags": 96,
@@ -103,11 +103,9 @@
 
 ```javascript
 
-{
-  ({
-    interface
-  }) =>  null;
-}
+ { ({
+        interface
+    }) =>null; } 
 ```
 
 ### Diagnostics

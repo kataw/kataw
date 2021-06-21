@@ -88,11 +88,11 @@ get
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": null,
                             "getKeyword": null,
+                            "asteriskToken": null,
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -104,7 +104,7 @@ get
                                     "end": 25
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -162,11 +162,12 @@ get
 
 ```javascript
 
-class C {
-  static;
-  get;
-  #aaa {}
-}
+ class C {
+    static,
+    get,
+    #aaa() {
+    }
+} 
 ```
 
 ### Diagnostics

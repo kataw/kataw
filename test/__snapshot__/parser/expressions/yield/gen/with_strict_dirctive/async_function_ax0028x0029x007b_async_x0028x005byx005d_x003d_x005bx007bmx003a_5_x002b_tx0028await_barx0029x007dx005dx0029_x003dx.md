@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/yield/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/yield/gen/with_strict_dirctive
+- Regenerated: 2021-06-12
+- From: d
+- Path: e
 > :: test: with_strict_dirctive
 > :: case: async function a(){     async ([y] = [{m: 5 + t(await bar)}]) => {}     }
 ## Options
@@ -73,11 +73,11 @@
                     "statements": [
                         {
                             "kind": 271,
-                            "arrowToken": {
-                                "kind": 10,
+                            "asyncKeyword": {
+                                "kind": 82031,
                                 "flags": 64,
-                                "start": 75,
-                                "end": 78
+                                "start": 33,
+                                "end": 43
                             },
                             "typeParameters": null,
                             "parameters": [
@@ -222,13 +222,13 @@
                                     "end": 74
                                 }
                             ],
-                            "asyncKeyword": {
-                                "kind": 82031,
-                                "flags": 64,
-                                "start": 33,
-                                "end": 43
-                            },
                             "returnType": null,
+                            "arrowToken": {
+                                "kind": 10,
+                                "flags": 64,
+                                "start": 75,
+                                "end": 78
+                            },
                             "contents": {
                                 "kind": 216,
                                 "functionStatementList": {
@@ -275,9 +275,10 @@
 
 ```javascript
 
-async function a() {
-  async ([y] = [{ m: 5 + t(await bar) }]) =>  {}
+'use strict' async function a() {
+( = [{ m : 5 +  }]) => {
 }
+} 
 ```
 
 ### Diagnostics

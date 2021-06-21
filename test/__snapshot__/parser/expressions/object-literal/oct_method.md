@@ -39,9 +39,9 @@ x = {0o730(){}}
                         "kind": 218,
                         "properties": [
                             {
-                                "kind": 257,
+                                "kind": 351,
                                 "asyncKeyword": null,
-                                "generatorToken": null,
+                                "asteriskToken": null,
                                 "getKeyword": null,
                                 "setKeyword": null,
                                 "method": {
@@ -55,7 +55,7 @@ x = {0o730(){}}
                                         "end": 10
                                     },
                                     "typeParameters": null,
-                                    "formalParameters": {
+                                    "formalParameterList": {
                                         "kind": 214,
                                         "formalParameters": [],
                                         "trailingComma": false,
@@ -118,7 +118,8 @@ x = {0o730(){}}
 
 ```javascript
 
-x = { 0o730 {} };
+ x={ 0o730() {
+    } }; 
 ```
 
 ### Diagnostics

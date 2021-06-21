@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/miscellaneous/escaped-keywords/autogen.md
-- Path: kataw/test/__snapshot__/parser/miscellaneous/escaped-keywords/gen/stand-alone
+- Regenerated: 2021-06-12
+- From: d
+- Path: e
 > :: test: stand-alone
 > :: case: class C extends function() {} { constructor() { sup\u0065r.a = 1 } }
 ## Options
@@ -103,11 +103,11 @@ class C extends function() {} { constructor() { sup\u0065r.a = 1 } }
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": null,
                             "getKeyword": null,
+                            "asteriskToken": null,
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -119,7 +119,7 @@ class C extends function() {} { constructor() { sup\u0065r.a = 1 } }
                                     "end": 43
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,

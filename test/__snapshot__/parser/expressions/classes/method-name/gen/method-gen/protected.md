@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/classes/method-name/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/classes/method-name/gen/method-gen
+- Regenerated: 2021-06-12
+- From: d
+- Path: n
 > :: test: method-gen
 > :: case: protected
 ## Options
@@ -33,9 +33,9 @@
                         "kind": 218,
                         "properties": [
                             {
-                                "kind": 257,
+                                "kind": 351,
                                 "asyncKeyword": null,
-                                "generatorToken": {
+                                "asteriskToken": {
                                     "kind": 67143222,
                                     "flags": 64,
                                     "start": 2,
@@ -54,7 +54,7 @@
                                         "end": 12
                                     },
                                     "typeParameters": null,
-                                    "formalParameters": {
+                                    "formalParameterList": {
                                         "kind": 214,
                                         "formalParameters": [
                                             {
@@ -134,7 +134,8 @@
 
 ```javascript
 
-({ protected {} });
+ ({ * protected(x, y) {
+    } }); 
 ```
 
 ### Diagnostics

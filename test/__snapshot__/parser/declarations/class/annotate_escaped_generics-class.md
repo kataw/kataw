@@ -140,11 +140,11 @@ class B<X> {
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": null,
                             "getKeyword": null,
+                            "asteriskToken": null,
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -156,7 +156,7 @@ class B<X> {
                                     "end": 24
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -355,16 +355,14 @@ class B<X> {
 
 ```javascript
 
-class B {
-  s;
-
-  f {
-    if (this.s) {
-        y = this.s;
-      }
-    this.s = y;
-  }
-}
+ class B {
+    s: X,
+    ,
+    f() {
+    if (this.s) { y=this.s; },
+    this.s=y;
+    }
+} 
 ```
 
 ### Diagnostics

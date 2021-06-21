@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/classes/extends-lefthandside/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/classes/extends-lefthandside/gen/for-in_lhs
+- Regenerated: 2021-06-12
+- From: d
+- Path: s
 > :: test: for-in lhs
 > :: case: async a => {}
 ## Options
@@ -33,11 +33,11 @@ for (async a => {} in x) ;
             },
             "initializer": {
                 "kind": 271,
-                "arrowToken": {
-                    "kind": 10,
+                "asyncKeyword": {
+                    "kind": 82031,
                     "flags": 64,
-                    "start": 12,
-                    "end": 15
+                    "start": 5,
+                    "end": 10
                 },
                 "typeParameters": null,
                 "parameters": {
@@ -48,13 +48,13 @@ for (async a => {} in x) ;
                     "start": 10,
                     "end": 12
                 },
-                "asyncKeyword": {
-                    "kind": 82031,
-                    "flags": 64,
-                    "start": 5,
-                    "end": 10
-                },
                 "returnType": null,
+                "arrowToken": {
+                    "kind": 10,
+                    "flags": 64,
+                    "start": 12,
+                    "end": 15
+                },
                 "contents": {
                     "kind": 216,
                     "functionStatementList": {

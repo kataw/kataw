@@ -220,8 +220,7 @@ declare class B {
 
 ```javascript
 
-declare class A TODO!
-declare class B TODO!
+ declare class A {}, declare class B {} 
 ```
 
 ### Diagnostics

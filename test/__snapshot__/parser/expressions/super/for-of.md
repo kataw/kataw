@@ -112,7 +112,7 @@ for (a?.b of c);
 
 ```javascript
 
-for (a?.; ; c);
+ for(;; c); 
 ```
 
 ### Diagnostics

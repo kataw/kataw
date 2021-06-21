@@ -37,7 +37,7 @@
                                         "end": 5
                                     },
                                     "argument": {
-                                        "kind": 536871042,
+                                        "kind": 130,
                                         "member": {
                                             "kind": 220,
                                             "propertyList": {
@@ -60,7 +60,7 @@
                                             "start": 8,
                                             "end": 9
                                         },
-                                        "flags": 32,
+                                        "flags": 536870944,
                                         "start": 5,
                                         "end": 10
                                     },
@@ -135,7 +135,7 @@
                                                 "end": 27
                                             },
                                             "argument": {
-                                                "kind": 536871042,
+                                                "kind": 130,
                                                 "member": {
                                                     "kind": 220,
                                                     "propertyList": {
@@ -158,7 +158,7 @@
                                                     "start": 30,
                                                     "end": 31
                                                 },
-                                                "flags": 32,
+                                                "flags": 536870944,
                                                 "start": 27,
                                                 "end": 32
                                             },
@@ -221,8 +221,7 @@
 
 ```javascript
 
-({ ... } = y);
-(x, { ... } = z);
+ ({  }=y);, (x, {  }=z); 
 ```
 
 ### Diagnostics

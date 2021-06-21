@@ -83,12 +83,6 @@ async function g(){class x {async *f(foo = [h, {m: t(await bar)}]){}}    }
                                             "kind": 278,
                                             "declareToken": null,
                                             "decorators": null,
-                                            "asteriskToken": {
-                                                "kind": 67143222,
-                                                "flags": 64,
-                                                "start": 33,
-                                                "end": 35
-                                            },
                                             "staticKeyword": null,
                                             "asyncKeyword": {
                                                 "kind": 82031,
@@ -98,6 +92,12 @@ async function g(){class x {async *f(foo = [h, {m: t(await bar)}]){}}    }
                                             },
                                             "setKeyword": null,
                                             "getKeyword": null,
+                                            "asteriskToken": {
+                                                "kind": 67143222,
+                                                "flags": 64,
+                                                "start": 33,
+                                                "end": 35
+                                            },
                                             "method": {
                                                 "kind": 209,
                                                 "name": {
@@ -109,7 +109,7 @@ async function g(){class x {async *f(foo = [h, {m: t(await bar)}]){}}    }
                                                     "end": 36
                                                 },
                                                 "typeParameters": null,
-                                                "formalParameters": {
+                                                "formalParameterList": {
                                                     "kind": 214,
                                                     "formalParameters": [
                                                         {

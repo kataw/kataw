@@ -102,7 +102,7 @@
 
 ```javascript
 
-({ ...yield } = obj);
+ ({  }=obj); 
 ```
 
 ### Diagnostics

@@ -44,16 +44,16 @@ class A {*yield() {}}
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
+                            "staticKeyword": null,
+                            "asyncKeyword": null,
+                            "setKeyword": null,
+                            "getKeyword": null,
                             "asteriskToken": {
                                 "kind": 67143222,
                                 "flags": 64,
                                 "start": 9,
                                 "end": 10
                             },
-                            "staticKeyword": null,
-                            "asyncKeyword": null,
-                            "setKeyword": null,
-                            "getKeyword": null,
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -65,7 +65,7 @@ class A {*yield() {}}
                                     "end": 15
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -123,9 +123,10 @@ class A {*yield() {}}
 
 ```javascript
 
-class A {
-  yield {}
-}
+ class A {
+    *yield() {
+    }
+} 
 ```
 
 ### Diagnostics

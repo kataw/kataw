@@ -1183,32 +1183,20 @@
 
 ```javascript
 
-(class name {});
-(class   {});
-(class name  {});
-(class   {});
-(class name  {});
-(class   {});
-(class name  {});
-(class   {});
-(class name  {});
-"'use strict'";
-{
-  class name  {}
-}
-"'use strict'";
-{
-  class name  {}
-}
-"'use strict'";
-{
-  class name  {}
-}
-"'use strict'";
-{
-  class name  {}
-}
-
+ (class name {
+});, (class  {
+});, (class name {
+});, (class  {
+});, (class name {
+});, (class  {
+});, (class name {
+});, (class  {
+});, (class name {
+});, 'use strict';, { class name {
+} }, ;, 'use strict';, { class name {
+} }, ;, 'use strict';, { class name {
+} }, ;, 'use strict';, { class name {
+} }, ; 
 ```
 
 ### Diagnostics

@@ -111,9 +111,9 @@ class A {
 
 ```javascript
 
-class A {
-  declare;
-}
+ class A {
+    declare: string
+} 
 ```
 
 ### Diagnostics

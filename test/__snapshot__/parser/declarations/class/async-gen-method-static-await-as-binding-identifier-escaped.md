@@ -61,12 +61,6 @@ var C = class { static async *gen() {
                                             "kind": 278,
                                             "declareToken": null,
                                             "decorators": null,
-                                            "asteriskToken": {
-                                                "kind": 67143222,
-                                                "flags": 64,
-                                                "start": 28,
-                                                "end": 30
-                                            },
                                             "staticKeyword": {
                                                 "kind": 8388716,
                                                 "flags": 64,
@@ -81,6 +75,12 @@ var C = class { static async *gen() {
                                             },
                                             "setKeyword": null,
                                             "getKeyword": null,
+                                            "asteriskToken": {
+                                                "kind": 67143222,
+                                                "flags": 64,
+                                                "start": 28,
+                                                "end": 30
+                                            },
                                             "method": {
                                                 "kind": 209,
                                                 "name": {
@@ -92,7 +92,7 @@ var C = class { static async *gen() {
                                                     "end": 33
                                                 },
                                                 "typeParameters": null,
-                                                "formalParameters": {
+                                                "formalParameterList": {
                                                     "kind": 214,
                                                     "formalParameters": [],
                                                     "trailingComma": false,

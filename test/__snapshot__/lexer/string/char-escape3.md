@@ -75,9 +75,7 @@
 
 ```javascript
 
-"\"P\"";
-"\"prefixQ\"";
-"\"Rsuffix\"";
+ "\P";, "prefix\Q";, "\Rsuffix"; 
 ```
 
 ### Diagnostics

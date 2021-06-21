@@ -27,12 +27,7 @@
             "kind": 120,
             "expression": {
                 "kind": 271,
-                "arrowToken": {
-                    "kind": 10,
-                    "flags": 64,
-                    "start": 14,
-                    "end": 16
-                },
+                "asyncKeyword": null,
                 "typeParameters": null,
                 "parameters": [
                     {
@@ -72,8 +67,13 @@
                         "end": 13
                     }
                 ],
-                "asyncKeyword": null,
                 "returnType": null,
+                "arrowToken": {
+                    "kind": 10,
+                    "flags": 64,
+                    "start": 14,
+                    "end": 16
+                },
                 "contents": {
                     "kind": 201392130,
                     "text": 0,
@@ -104,7 +104,7 @@
 
 ```javascript
 
-(...a) =>  0;
+ (...a: string) =>0; 
 ```
 
 ### Diagnostics

@@ -57,7 +57,7 @@ tag`some \" quote`;
 
 ```javascript
 
-tag`some " quote`;
+ ; 
 ```
 
 ### Diagnostics

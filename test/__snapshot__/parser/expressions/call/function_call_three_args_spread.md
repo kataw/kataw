@@ -94,7 +94,7 @@ foo(a, b, ...c)
 
 ```javascript
 
-foo(a, b, ...c);
+ ; 
 ```
 
 ### Diagnostics

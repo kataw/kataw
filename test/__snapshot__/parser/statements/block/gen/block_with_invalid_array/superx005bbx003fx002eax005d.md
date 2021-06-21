@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/statements/block/autogen.md
-- Path: kataw/test/__snapshot__/parser/statements/block/gen/block_with_invalid_array
+- Regenerated: 2021-06-12
+- From: d
+- Path: y
 > :: test: block with invalid array
 > :: case: super[b?.a]
 ## Options
@@ -108,7 +108,7 @@
         {
             "kind": 120,
             "expression": {
-                "kind": 536871042,
+                "kind": 130,
                 "member": {
                     "kind": 225,
                     "superKeyword": {
@@ -162,7 +162,7 @@
                     "start": 16,
                     "end": 20
                 },
-                "flags": 32,
+                "flags": 536870944,
                 "start": 9,
                 "end": 21
             },

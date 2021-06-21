@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/classes/good_supers/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/classes/good_supers/gen/destructuring_with_number_key
+- Regenerated: 2021-06-12
+- From: d
+- Path: y
 > :: test: destructuring with number key
 > :: case: super.cool
 ## Options
@@ -76,11 +76,11 @@ class x extends y {
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": null,
                             "getKeyword": null,
+                            "asteriskToken": null,
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -92,7 +92,7 @@ class x extends y {
                                     "end": 33
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -239,11 +239,11 @@ class x extends y {
 
 ```javascript
 
-class x  {
-  constructor {
-    ({ 123: super.cool } = x);
-  }
-}
+ class x {
+    constructor() {
+    ({ 123 : .cool }=x);
+    }
+} 
 ```
 
 ### Diagnostics

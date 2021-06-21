@@ -140,10 +140,11 @@ function f(){ "use strict"
 
 ```javascript
 
-function f() {
-  "\"use strict\"".foo;
-  eval = 1;
-}
+ function f() {
+"use strict"
+ /* suffix = */.foo;,
+eval=1;
+} 
 ```
 
 ### Diagnostics

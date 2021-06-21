@@ -84,7 +84,7 @@ declare type bool = any;
 
 ```javascript
 
-
+  
 ```
 
 ### Diagnostics

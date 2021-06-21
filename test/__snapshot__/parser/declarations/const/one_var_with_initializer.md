@@ -123,7 +123,7 @@ const [foo=a] = arr;
 
 ```javascript
 
-const [foo = a] = arr;
+ const [foo = a] = arr; 
 ```
 
 ### Diagnostics

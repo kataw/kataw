@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/declarations/function/func-decl-errors/autogen.md
-- Path: kataw/test/__snapshot__/parser/declarations/function/func-decl-errors/gen/in_block
+- Regenerated: 2021-06-12
+- From: d
+- Path: k
 > :: test: in block
 > :: case: for (var i = 0; i < 1; i++) label: function f() { };
 ## Options
@@ -37,35 +37,47 @@
                             "end": 4
                         },
                         "initializer": {
-                            "kind": 156,
-                            "declarations": [
-                                {
-                                    "kind": 157,
-                                    "binding": {
-                                        "kind": 134299649,
-                                        "text": "i",
-                                        "rawText": "i",
-                                        "flags": 96,
+                            "kind": 341,
+                            "varKeyword": {
+                                "kind": 37757002,
+                                "flags": 64,
+                                "start": 6,
+                                "end": 9
+                            },
+                            "declarationList": {
+                                "kind": 156,
+                                "declarations": [
+                                    {
+                                        "kind": 157,
+                                        "binding": {
+                                            "kind": 134299649,
+                                            "text": "i",
+                                            "rawText": "i",
+                                            "flags": 96,
+                                            "start": 9,
+                                            "end": 11
+                                        },
+                                        "type": null,
+                                        "initializer": {
+                                            "kind": 201392130,
+                                            "text": 0,
+                                            "rawText": "0",
+                                            "flags": 96,
+                                            "start": 13,
+                                            "end": 15
+                                        },
+                                        "flags": 16,
                                         "start": 9,
-                                        "end": 11
-                                    },
-                                    "type": null,
-                                    "initializer": {
-                                        "kind": 201392130,
-                                        "text": 0,
-                                        "rawText": "0",
-                                        "flags": 96,
-                                        "start": 13,
                                         "end": 15
-                                    },
-                                    "flags": 16,
-                                    "start": 9,
-                                    "end": 15
-                                }
-                            ],
+                                    }
+                                ],
+                                "flags": 16,
+                                "start": 9,
+                                "end": 15
+                            },
                             "flags": 16,
-                            "start": 9,
-                            "end": 15
+                            "start": 1,
+                            "end": 16
                         },
                         "condition": {
                             "kind": 127,

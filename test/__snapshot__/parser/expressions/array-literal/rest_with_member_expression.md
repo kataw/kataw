@@ -111,7 +111,7 @@
 
 ```javascript
 
-[...x.list] = a;
+ [...x.list]=a; 
 ```
 
 ### Diagnostics

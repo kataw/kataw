@@ -63,7 +63,7 @@ arguments: x;
 
 ```javascript
 
-arguments: x;
+ arguments: x; 
 ```
 
 ### Diagnostics

@@ -129,9 +129,9 @@ let {x} = a, y = obj;
 
 ```javascript
 
-let {
-  x
-} = a, y = obj;
+ let {
+    x
+} = a, y = obj; 
 ```
 
 ### Diagnostics

@@ -301,7 +301,7 @@
                     "end": 163
                 },
                 "operand": {
-                    "kind": 536871042,
+                    "kind": 130,
                     "member": {
                         "kind": 134299649,
                         "text": "foo",
@@ -318,7 +318,7 @@
                         "start": 168,
                         "end": 171
                     },
-                    "flags": 32,
+                    "flags": 536870944,
                     "start": 163,
                     "end": 172
                 },
@@ -577,25 +577,7 @@
 
 ```javascript
 
-delete this;
-"\"use strict\"";
-delete 1;
-"\"use strict\"";
-delete foo();
-"\"use strict\"";
-delete 1 + 2;
-"\"use strict\"";
-delete foo.bar;
-"\"use strict\"";
-delete ;
-"\"use strict\"";
-delete foo--;
-"\"use strict\"";
-delete --foo;
-"\"use strict\"";
-delete new  foo();
-"\"use strict\"";
-delete new  foo(bar);
+"use strict" ;, "use strict";, ;, "use strict";, ;, "use strict";,  + 2;, "use strict";, ;, "use strict";, ;, "use strict";, ;, "use strict";, ;, "use strict";, ;, "use strict";, ; 
 ```
 
 ### Diagnostics

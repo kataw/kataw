@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/await/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/await/gen/simple
+- Regenerated: 2021-06-12
+- From: d
+- Path: e
 > :: test: simple
 > :: case: await => async.await[async / ((async) => foo.bar)]
 ## Options
@@ -27,12 +27,7 @@ await => async.await[async / ((async) => foo.bar)]
             "kind": 120,
             "expression": {
                 "kind": 271,
-                "arrowToken": {
-                    "kind": 10,
-                    "flags": 64,
-                    "start": 5,
-                    "end": 8
-                },
+                "asyncKeyword": null,
                 "typeParameters": null,
                 "parameters": {
                     "kind": 134299649,
@@ -42,10 +37,15 @@ await => async.await[async / ((async) => foo.bar)]
                     "start": 0,
                     "end": 5
                 },
-                "asyncKeyword": null,
                 "returnType": null,
+                "arrowToken": {
+                    "kind": 10,
+                    "flags": 64,
+                    "start": 5,
+                    "end": 8
+                },
                 "contents": {
-                    "kind": 536871042,
+                    "kind": 130,
                     "member": {
                         "kind": 129,
                         "member": {
@@ -88,12 +88,7 @@ await => async.await[async / ((async) => foo.bar)]
                             "kind": 121,
                             "expression": {
                                 "kind": 271,
-                                "arrowToken": {
-                                    "kind": 10,
-                                    "flags": 64,
-                                    "start": 37,
-                                    "end": 40
-                                },
+                                "asyncKeyword": null,
                                 "typeParameters": null,
                                 "parameters": [
                                     {
@@ -105,8 +100,13 @@ await => async.await[async / ((async) => foo.bar)]
                                         "end": 36
                                     }
                                 ],
-                                "asyncKeyword": null,
                                 "returnType": null,
+                                "arrowToken": {
+                                    "kind": 10,
+                                    "flags": 64,
+                                    "start": 37,
+                                    "end": 40
+                                },
                                 "contents": {
                                     "kind": 129,
                                     "member": {
@@ -141,7 +141,7 @@ await => async.await[async / ((async) => foo.bar)]
                         "start": 21,
                         "end": 49
                     },
-                    "flags": 32,
+                    "flags": 536870944,
                     "start": 8,
                     "end": 50
                 },
@@ -167,7 +167,7 @@ await => async.await[async / ((async) => foo.bar)]
 
 ```javascript
 
-await =>  ;
+ await =>async.await[async / ((async) =>foo.bar)]; 
 ```
 
 ### Diagnostics

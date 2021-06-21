@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/arrow/position/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/arrow/position/gen/prefix_update
+- Regenerated: 2021-06-12
+- From: d
+- Path: e
 > :: test: prefix update
 > :: case: async (x, y) => ok
 ## Options
@@ -35,11 +35,11 @@
                 },
                 "operand": {
                     "kind": 271,
-                    "arrowToken": {
-                        "kind": 10,
+                    "asyncKeyword": {
+                        "kind": 82031,
                         "flags": 64,
-                        "start": 14,
-                        "end": 17
+                        "start": 2,
+                        "end": 7
                     },
                     "typeParameters": null,
                     "parameters": [
@@ -60,13 +60,13 @@
                             "end": 13
                         }
                     ],
-                    "asyncKeyword": {
-                        "kind": 82031,
-                        "flags": 64,
-                        "start": 2,
-                        "end": 7
-                    },
                     "returnType": null,
+                    "arrowToken": {
+                        "kind": 10,
+                        "flags": 64,
+                        "start": 14,
+                        "end": 17
+                    },
                     "contents": {
                         "kind": 134299649,
                         "text": "ok",

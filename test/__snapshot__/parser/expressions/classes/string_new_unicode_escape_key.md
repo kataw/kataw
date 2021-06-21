@@ -50,11 +50,11 @@ class x { "prot\u{6f}type"(){} }
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": null,
                             "getKeyword": null,
+                            "asteriskToken": null,
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -66,7 +66,7 @@ class x { "prot\u{6f}type"(){} }
                                     "end": 26
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -124,9 +124,10 @@ class x { "prot\u{6f}type"(){} }
 
 ```javascript
 
-class x {
-  "\"prot\u{6f}type\"" {}
-}
+ class x {
+    "prot\u{6f}type"() {
+    }
+} 
 ```
 
 ### Diagnostics

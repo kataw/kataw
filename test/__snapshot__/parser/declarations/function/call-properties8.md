@@ -275,9 +275,9 @@ function b(x: { (z: number): string }): (z: number) => number {
 
 ```javascript
 
-function b():  {
-  return  x;
-}
+ function b():  {
+return x;
+} 
 ```
 
 ### Diagnostics

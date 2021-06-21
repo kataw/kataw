@@ -92,7 +92,8 @@
 
 ```javascript
 
-(async function foo() {});
+ (async function foo() {
+}); 
 ```
 
 ### Diagnostics

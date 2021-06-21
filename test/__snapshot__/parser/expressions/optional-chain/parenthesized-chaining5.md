@@ -105,7 +105,7 @@
 
 ```javascript
 
-()(c);
+ ; 
 ```
 
 ### Diagnostics

@@ -83,8 +83,7 @@ a++;
 
 ```javascript
 
-++a;
-a++;
+ ++a;, a++; 
 ```
 
 ### Diagnostics

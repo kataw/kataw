@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/miscellaneous/error-recovery/autogen.md
-- Path: kataw/test/__snapshot__/parser/miscellaneous/error-recovery/gen/ax002f_case
+- Regenerated: 2021-06-12
+- From: d
+- Path: e
 > :: test: a/ case
 > :: case: class /*x*/ x {}
 ## Options
@@ -74,7 +74,8 @@ class /*x*/ x {}
 
 ```javascript
 
-class /*x*/ x {}
+ class/*x*/ x {
+} 
 ```
 
 ### Diagnostics

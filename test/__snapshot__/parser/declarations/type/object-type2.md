@@ -81,7 +81,7 @@ type a = {};
 
 ```javascript
 
-
+  
 ```
 
 ### Diagnostics

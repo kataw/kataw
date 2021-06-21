@@ -160,7 +160,7 @@ type a = (a[][][][][][]) => T;
 
 ```javascript
 
-
+  
 ```
 
 ### Diagnostics

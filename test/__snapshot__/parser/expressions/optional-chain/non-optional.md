@@ -126,8 +126,7 @@
 
 ```javascript
 
-(obj.aaa).bbb;
-(obj.aaa)();
+ (obj.aaa).bbb;, ; 
 ```
 
 ### Diagnostics

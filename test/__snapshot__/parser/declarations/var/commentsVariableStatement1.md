@@ -81,9 +81,9 @@ var v = 1;
 ### Printed
 
 ```javascript
-/** Comment */
 
-var v = 1;
+/** Comment */
+ var v = 1; 
 ```
 
 ### Diagnostics

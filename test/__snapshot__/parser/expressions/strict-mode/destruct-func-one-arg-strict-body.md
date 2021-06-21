@@ -126,7 +126,7 @@
 
 ```javascript
 
-+function f() {};
+ ; 
 ```
 
 ### Diagnostics

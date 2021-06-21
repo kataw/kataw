@@ -645,12 +645,7 @@ class Array { concat(items:number | string) {}; }
                             },
                             "consequent": {
                                 "kind": 271,
-                                "arrowToken": {
-                                    "kind": 10,
-                                    "flags": 64,
-                                    "start": 186,
-                                    "end": 189
-                                },
+                                "asyncKeyword": null,
                                 "typeParameters": null,
                                 "parameters": [
                                     {
@@ -662,7 +657,6 @@ class Array { concat(items:number | string) {}; }
                                         "end": 176
                                     }
                                 ],
-                                "asyncKeyword": null,
                                 "returnType": {
                                     "kind": 139,
                                     "bitwiseOrToken": null,
@@ -676,6 +670,12 @@ class Array { concat(items:number | string) {}; }
                                     "flags": 2097152,
                                     "start": 179,
                                     "end": 186
+                                },
+                                "arrowToken": {
+                                    "kind": 10,
+                                    "flags": 64,
+                                    "start": 186,
+                                    "end": 189
                                 },
                                 "contents": {
                                     "kind": 216,
@@ -923,12 +923,7 @@ class Array { concat(items:number | string) {}; }
                             "kind": 121,
                             "expression": {
                                 "kind": 271,
-                                "arrowToken": {
-                                    "kind": 10,
-                                    "flags": 64,
-                                    "start": 285,
-                                    "end": 288
-                                },
+                                "asyncKeyword": null,
                                 "typeParameters": null,
                                 "parameters": [
                                     {
@@ -940,7 +935,6 @@ class Array { concat(items:number | string) {}; }
                                         "end": 276
                                     }
                                 ],
-                                "asyncKeyword": null,
                                 "returnType": {
                                     "kind": 139,
                                     "bitwiseOrToken": null,
@@ -954,6 +948,12 @@ class Array { concat(items:number | string) {}; }
                                     "flags": 2097152,
                                     "start": 278,
                                     "end": 285
+                                },
+                                "arrowToken": {
+                                    "kind": 10,
+                                    "flags": 64,
+                                    "start": 285,
+                                    "end": 288
                                 },
                                 "contents": {
                                     "kind": 134299649,
@@ -1011,15 +1011,9 @@ class Array { concat(items:number | string) {}; }
                             "kind": 121,
                             "expression": {
                                 "kind": 271,
-                                "arrowToken": {
-                                    "kind": 10,
-                                    "flags": 64,
-                                    "start": 317,
-                                    "end": 320
-                                },
+                                "asyncKeyword": null,
                                 "typeParameters": null,
                                 "parameters": [],
-                                "asyncKeyword": null,
                                 "returnType": {
                                     "kind": 139,
                                     "bitwiseOrToken": null,
@@ -1033,6 +1027,12 @@ class Array { concat(items:number | string) {}; }
                                     "flags": 2097152,
                                     "start": 310,
                                     "end": 317
+                                },
+                                "arrowToken": {
+                                    "kind": 10,
+                                    "flags": 64,
+                                    "start": 317,
+                                    "end": 320
                                 },
                                 "contents": {
                                     "kind": 134299649,
@@ -1088,11 +1088,11 @@ class Array { concat(items:number | string) {}; }
                         "type": null,
                         "initializer": {
                             "kind": 271,
-                            "arrowToken": {
-                                "kind": 10,
+                            "asyncKeyword": {
+                                "kind": 82031,
                                 "flags": 64,
-                                "start": 357,
-                                "end": 360
+                                "start": 337,
+                                "end": 343
                             },
                             "typeParameters": null,
                             "parameters": [
@@ -1105,12 +1105,6 @@ class Array { concat(items:number | string) {}; }
                                     "end": 348
                                 }
                             ],
-                            "asyncKeyword": {
-                                "kind": 82031,
-                                "flags": 64,
-                                "start": 337,
-                                "end": 343
-                            },
                             "returnType": {
                                 "kind": 139,
                                 "bitwiseOrToken": null,
@@ -1124,6 +1118,12 @@ class Array { concat(items:number | string) {}; }
                                 "flags": 2097152,
                                 "start": 350,
                                 "end": 357
+                            },
+                            "arrowToken": {
+                                "kind": 10,
+                                "flags": 64,
+                                "start": 357,
+                                "end": 360
                             },
                             "contents": {
                                 "kind": 134299649,
@@ -1175,20 +1175,14 @@ class Array { concat(items:number | string) {}; }
                         "type": null,
                         "initializer": {
                             "kind": 271,
-                            "arrowToken": {
-                                "kind": 10,
-                                "flags": 64,
-                                "start": 393,
-                                "end": 396
-                            },
-                            "typeParameters": null,
-                            "parameters": [],
                             "asyncKeyword": {
                                 "kind": 82031,
                                 "flags": 64,
                                 "start": 376,
                                 "end": 382
                             },
+                            "typeParameters": null,
+                            "parameters": [],
                             "returnType": {
                                 "kind": 139,
                                 "bitwiseOrToken": null,
@@ -1202,6 +1196,12 @@ class Array { concat(items:number | string) {}; }
                                 "flags": 2097152,
                                 "start": 386,
                                 "end": 393
+                            },
+                            "arrowToken": {
+                                "kind": 10,
+                                "flags": 64,
+                                "start": 393,
+                                "end": 396
                             },
                             "contents": {
                                 "kind": 134299649,
@@ -1253,11 +1253,11 @@ class Array { concat(items:number | string) {}; }
                         "type": null,
                         "initializer": {
                             "kind": 271,
-                            "arrowToken": {
-                                "kind": 10,
+                            "asyncKeyword": {
+                                "kind": 82031,
                                 "flags": 64,
-                                "start": 439,
-                                "end": 442
+                                "start": 412,
+                                "end": 418
                             },
                             "typeParameters": null,
                             "parameters": [
@@ -1342,13 +1342,13 @@ class Array { concat(items:number | string) {}; }
                                     "end": 438
                                 }
                             ],
-                            "asyncKeyword": {
-                                "kind": 82031,
-                                "flags": 64,
-                                "start": 412,
-                                "end": 418
-                            },
                             "returnType": null,
+                            "arrowToken": {
+                                "kind": 10,
+                                "flags": 64,
+                                "start": 439,
+                                "end": 442
+                            },
                             "contents": {
                                 "kind": 216,
                                 "functionStatementList": {
@@ -1405,15 +1405,9 @@ class Array { concat(items:number | string) {}; }
                         "type": null,
                         "initializer": {
                             "kind": 271,
-                            "arrowToken": {
-                                "kind": 10,
-                                "flags": 64,
-                                "start": 467,
-                                "end": 470
-                            },
+                            "asyncKeyword": null,
                             "typeParameters": null,
                             "parameters": [],
-                            "asyncKeyword": null,
                             "returnType": {
                                 "kind": 139,
                                 "bitwiseOrToken": null,
@@ -1427,6 +1421,12 @@ class Array { concat(items:number | string) {}; }
                                 "flags": 2097152,
                                 "start": 460,
                                 "end": 467
+                            },
+                            "arrowToken": {
+                                "kind": 10,
+                                "flags": 64,
+                                "start": 467,
+                                "end": 470
                             },
                             "contents": {
                                 "kind": 134299649,
@@ -2318,11 +2318,11 @@ class Array { concat(items:number | string) {}; }
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": null,
                             "getKeyword": null,
+                            "asteriskToken": null,
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -2334,7 +2334,7 @@ class Array { concat(items:number | string) {}; }
                                     "end": 754
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [
                                         {
@@ -2444,35 +2444,16 @@ class Array { concat(items:number | string) {}; }
 
 ```javascript
 
-var a: [ number ];
-var a: ;
-var a: ;
-var x:  = Y;
-var x:  = fn;
-var foo = bar ? (foo) =>  {} : baz;
-var a: ;
-var foo = bar ? (foo) : number;
-var foo = ((bar) =>  bar);
-var foo = (() =>  bar);
-var foo = async (bar) =>  bar;
-var foo = async () =>  bar;
-var foo = async (foo, bar) =>  {};
-var foo = () =>  bar;
-var a: ;
-var [x]:  = ["\"hello\""];
-var {
-  x
-}:  = { x: "\"hello\"" };
-var {
-  x
-}:  = { x: "\"hello\"" };
-var a: ;
-var x:  = Y;
-var a: ;
-class Array {
-  concat {}
-
-}
+ var a ;, var a ;, var a ;, var x  = Y;, var x  = fn;, var foo = bar ? (foo): number => {
+} : baz;, var a ;, var foo = bar ? (foo) : number;, var foo = ((bar): number =>bar);, var foo = ((): number =>bar);, var foo = (bar): number =>bar;, var foo = (): number =>bar;, var foo = (foo: bar, bar: foo) => {
+};, var foo = (): number =>bar;, var a ;, var [x]  = ["hello"];, var {
+    x
+}  = { x : "hello" };, var {
+    x
+}  = { x : "hello" };, var a ;, var x  = Y;, var a ;, class Array {
+    concat() {
+    },
+} 
 ```
 
 ### Diagnostics

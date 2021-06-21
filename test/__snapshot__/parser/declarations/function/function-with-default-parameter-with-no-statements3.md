@@ -174,8 +174,9 @@ function bar(a = false) {
 
 ```javascript
 
-function foo() {}
-function bar() {}
+ function foo() {
+}, function bar() {
+} 
 ```
 
 ### Diagnostics

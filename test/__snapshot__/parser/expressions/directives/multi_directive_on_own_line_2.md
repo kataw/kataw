@@ -108,10 +108,10 @@ function f(){
 
 ```javascript
 
-function f() {
-  "'foo'";
-  "'bar'";
-}
+ function f() {
+'foo';,
+'bar';
+} 
 ```
 
 ### Diagnostics

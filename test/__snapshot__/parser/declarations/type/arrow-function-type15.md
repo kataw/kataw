@@ -228,7 +228,7 @@ type a = (?bj[c] & a | b) => T;
 
 ```javascript
 
-
+  
 ```
 
 ### Diagnostics

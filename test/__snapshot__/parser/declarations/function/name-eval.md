@@ -76,7 +76,8 @@ function eval() { }
 
 ```javascript
 
-function eval() {}
+ function eval() {
+} 
 ```
 
 ### Diagnostics

@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/arrow/position/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/arrow/position/gen/double
+- Regenerated: 2021-06-12
+- From: d
+- Path: e
 > :: test: double
 > :: case: async async => {}
 ## Options
@@ -27,11 +27,11 @@ async async => {} async async => {}
             "kind": 120,
             "expression": {
                 "kind": 271,
-                "arrowToken": {
-                    "kind": 10,
+                "asyncKeyword": {
+                    "kind": 82031,
                     "flags": 64,
-                    "start": 11,
-                    "end": 14
+                    "start": 0,
+                    "end": 5
                 },
                 "typeParameters": null,
                 "parameters": {
@@ -42,13 +42,13 @@ async async => {} async async => {}
                     "start": 5,
                     "end": 11
                 },
-                "asyncKeyword": {
-                    "kind": 82031,
-                    "flags": 64,
-                    "start": 0,
-                    "end": 5
-                },
                 "returnType": null,
+                "arrowToken": {
+                    "kind": 10,
+                    "flags": 64,
+                    "start": 11,
+                    "end": 14
+                },
                 "contents": {
                     "kind": 216,
                     "functionStatementList": {
@@ -75,11 +75,11 @@ async async => {} async async => {}
             "kind": 120,
             "expression": {
                 "kind": 271,
-                "arrowToken": {
-                    "kind": 10,
+                "asyncKeyword": {
+                    "kind": 82031,
                     "flags": 64,
-                    "start": 29,
-                    "end": 32
+                    "start": 17,
+                    "end": 23
                 },
                 "typeParameters": null,
                 "parameters": {
@@ -90,13 +90,13 @@ async async => {} async async => {}
                     "start": 23,
                     "end": 29
                 },
-                "asyncKeyword": {
-                    "kind": 82031,
-                    "flags": 64,
-                    "start": 17,
-                    "end": 23
-                },
                 "returnType": null,
+                "arrowToken": {
+                    "kind": 10,
+                    "flags": 64,
+                    "start": 29,
+                    "end": 32
+                },
                 "contents": {
                     "kind": 216,
                     "functionStatementList": {

@@ -76,7 +76,8 @@ function x () {}
 
 ```javascript
 
-function x() {}
+ function x() {
+} 
 ```
 
 ### Diagnostics

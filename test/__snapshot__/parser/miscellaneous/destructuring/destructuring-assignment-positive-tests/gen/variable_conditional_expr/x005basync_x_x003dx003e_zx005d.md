@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/miscellaneous/destructuring/destructuring-assignment-positive-tests/autogen.md
-- Path: kataw/test/__snapshot__/parser/miscellaneous/destructuring/destructuring-assignment-positive-tests/gen/variable_conditional_expr
+- Regenerated: 2021-06-12
+- From: d
+- Path: r
 > :: test: variable conditional expr
 > :: case: [async x => z]
 ## Options
@@ -171,11 +171,11 @@ var x, y, z; m(['b']) ? lhs : [async x => z] = {}
                             "elements": [
                                 {
                                     "kind": 271,
-                                    "arrowToken": {
-                                        "kind": 10,
+                                    "asyncKeyword": {
+                                        "kind": 82031,
                                         "flags": 64,
-                                        "start": 38,
-                                        "end": 41
+                                        "start": 31,
+                                        "end": 36
                                     },
                                     "typeParameters": null,
                                     "parameters": {
@@ -186,13 +186,13 @@ var x, y, z; m(['b']) ? lhs : [async x => z] = {}
                                         "start": 36,
                                         "end": 38
                                     },
-                                    "asyncKeyword": {
-                                        "kind": 82031,
-                                        "flags": 64,
-                                        "start": 31,
-                                        "end": 36
-                                    },
                                     "returnType": null,
+                                    "arrowToken": {
+                                        "kind": 10,
+                                        "flags": 64,
+                                        "start": 38,
+                                        "end": 41
+                                    },
                                     "contents": {
                                         "kind": 134299649,
                                         "text": "z",

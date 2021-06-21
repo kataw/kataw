@@ -109,10 +109,9 @@ class C {
 
 ```javascript
 
-class C {
-  declare x;
-
-}
+ class C {
+    declarex,
+} 
 ```
 
 ### Diagnostics

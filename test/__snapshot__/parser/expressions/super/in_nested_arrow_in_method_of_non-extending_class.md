@@ -64,11 +64,11 @@ class x extends y { foo(){ return () => () => super.foo; }}
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": null,
                             "getKeyword": null,
+                            "asteriskToken": null,
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -80,7 +80,7 @@ class x extends y { foo(){ return () => () => super.foo; }}
                                     "end": 23
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -105,28 +105,28 @@ class x extends y { foo(){ return () => () => super.foo; }}
                                                 },
                                                 "expression": {
                                                     "kind": 271,
+                                                    "asyncKeyword": null,
+                                                    "typeParameters": null,
+                                                    "parameters": [],
+                                                    "returnType": null,
                                                     "arrowToken": {
                                                         "kind": 10,
                                                         "flags": 64,
                                                         "start": 36,
                                                         "end": 39
                                                     },
-                                                    "typeParameters": null,
-                                                    "parameters": [],
-                                                    "asyncKeyword": null,
-                                                    "returnType": null,
                                                     "contents": {
                                                         "kind": 271,
+                                                        "asyncKeyword": null,
+                                                        "typeParameters": null,
+                                                        "parameters": [],
+                                                        "returnType": null,
                                                         "arrowToken": {
                                                             "kind": 10,
                                                             "flags": 64,
                                                             "start": 42,
                                                             "end": 45
                                                         },
-                                                        "typeParameters": null,
-                                                        "parameters": [],
-                                                        "asyncKeyword": null,
-                                                        "returnType": null,
                                                         "contents": {
                                                             "kind": 129,
                                                             "member": {
@@ -209,11 +209,11 @@ class x extends y { foo(){ return () => () => super.foo; }}
 
 ```javascript
 
-class x  {
-  foo {
-    return  () =>  () =>  super.foo;
-  }
-}
+ class x {
+    foo() {
+    return () =>() =>.foo;
+    }
+} 
 ```
 
 ### Diagnostics

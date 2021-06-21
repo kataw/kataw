@@ -119,8 +119,7 @@ export default function *f(){} foo
 
 ```javascript
 
-export default function * f() {};
-foo;
+ , foo; 
 ```
 
 ### Diagnostics

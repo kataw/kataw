@@ -134,10 +134,9 @@ switch([x = y]) { case y: foo }
 
 ```javascript
 
-switch([x = y]) {
-  case y:
-    foo;
-}
+ switch([x=y]) {
+    case y: foo;
+} 
 ```
 
 ### Diagnostics

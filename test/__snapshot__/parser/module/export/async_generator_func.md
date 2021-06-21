@@ -124,8 +124,7 @@ export default async function *f(){} foo
 
 ```javascript
 
-export default async function * f() {};
-foo;
+ , foo; 
 ```
 
 ### Diagnostics

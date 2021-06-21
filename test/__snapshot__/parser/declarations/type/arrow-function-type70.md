@@ -441,7 +441,7 @@ type a = (((symbol[][][][] | ((y & [((x) => T)]) => T) => T) => T) => T) => T;
 
 ```javascript
 
-
+  
 ```
 
 ### Diagnostics

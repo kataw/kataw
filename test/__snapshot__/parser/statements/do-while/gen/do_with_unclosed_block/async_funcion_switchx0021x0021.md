@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/statements/do-while/autogen.md
-- Path: kataw/test/__snapshot__/parser/statements/do-while/gen/do_with_unclosed_block
+- Regenerated: 2021-06-12
+- From: d
+- Path: k
 > :: test: do with unclosed block
 > :: case: async funcion switch!!
 ## Options
@@ -71,7 +71,12 @@ do {} while (x) { async funcion switch!!
                         "kind": 120,
                         "expression": {
                             "kind": 271,
-                            "arrowToken": null,
+                            "asyncKeyword": {
+                                "kind": 82031,
+                                "flags": 64,
+                                "start": 17,
+                                "end": 23
+                            },
                             "typeParameters": null,
                             "parameters": {
                                 "kind": 134299649,
@@ -81,13 +86,8 @@ do {} while (x) { async funcion switch!!
                                 "start": 23,
                                 "end": 31
                             },
-                            "asyncKeyword": {
-                                "kind": 82031,
-                                "flags": 64,
-                                "start": 17,
-                                "end": 23
-                            },
                             "returnType": null,
+                            "arrowToken": null,
                             "contents": {
                                 "kind": 16637,
                                 "text": "",

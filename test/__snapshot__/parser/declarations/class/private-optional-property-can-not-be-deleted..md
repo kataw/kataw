@@ -95,11 +95,11 @@ class Foo {
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": null,
                             "getKeyword": null,
+                            "asteriskToken": null,
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -111,7 +111,7 @@ class Foo {
                                     "end": 31
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -227,13 +227,13 @@ class Foo {
 
 ```javascript
 
-class Foo {
-  #x;
-
-  constructor {
-    delete ;
-  }
-}
+ class Foo {
+    #x,
+    ,
+    constructor() {
+    ;
+    }
+} 
 ```
 
 ### Diagnostics

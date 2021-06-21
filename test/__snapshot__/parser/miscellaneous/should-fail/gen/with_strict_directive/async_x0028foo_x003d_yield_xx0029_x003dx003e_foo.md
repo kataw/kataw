@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/miscellaneous/should-fail/autogen.md
-- Path: kataw/test/__snapshot__/parser/miscellaneous/should-fail/gen/with_strict_directive
+- Regenerated: 2021-06-12
+- From: d
+- Path: e
 > :: test: with strict directive
 > :: case: async (foo = yield x) => foo
 ## Options
@@ -34,11 +34,11 @@
     "statements": [
         {
             "kind": 271,
-            "arrowToken": {
-                "kind": 10,
+            "asyncKeyword": {
+                "kind": 82031,
                 "flags": 64,
-                "start": 35,
-                "end": 38
+                "start": 13,
+                "end": 19
             },
             "typeParameters": null,
             "parameters": [
@@ -76,13 +76,13 @@
                     "end": 34
                 }
             ],
-            "asyncKeyword": {
-                "kind": 82031,
-                "flags": 64,
-                "start": 13,
-                "end": 19
-            },
             "returnType": null,
+            "arrowToken": {
+                "kind": 10,
+                "flags": 64,
+                "start": 35,
+                "end": 38
+            },
             "contents": {
                 "kind": 134299649,
                 "text": "foo",
@@ -109,7 +109,7 @@
 
 ```javascript
 
-async (foo = yield, x) =>  foo
+"use strict" (foo = yield, x) =>foo 
 ```
 
 ### Diagnostics

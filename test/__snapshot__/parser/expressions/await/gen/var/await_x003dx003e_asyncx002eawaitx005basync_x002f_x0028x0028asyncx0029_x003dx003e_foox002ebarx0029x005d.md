@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/await/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/await/gen/var
+- Regenerated: 2021-06-12
+- From: d
+- Path: r
 > :: test: var
 > :: case: await => async.await[async / ((async) => foo.bar)]
 ## Options
@@ -112,7 +112,7 @@ var await; var f = (async function() { await => async.await[async / ((async) => 
         {
             "kind": 120,
             "expression": {
-                "kind": 536871042,
+                "kind": 130,
                 "member": {
                     "kind": 129,
                     "member": {
@@ -155,12 +155,7 @@ var await; var f = (async function() { await => async.await[async / ((async) => 
                         "kind": 121,
                         "expression": {
                             "kind": 271,
-                            "arrowToken": {
-                                "kind": 10,
-                                "flags": 64,
-                                "start": 76,
-                                "end": 79
-                            },
+                            "asyncKeyword": null,
                             "typeParameters": null,
                             "parameters": [
                                 {
@@ -172,8 +167,13 @@ var await; var f = (async function() { await => async.await[async / ((async) => 
                                     "end": 75
                                 }
                             ],
-                            "asyncKeyword": null,
                             "returnType": null,
+                            "arrowToken": {
+                                "kind": 10,
+                                "flags": 64,
+                                "start": 76,
+                                "end": 79
+                            },
                             "contents": {
                                 "kind": 129,
                                 "member": {
@@ -208,7 +208,7 @@ var await; var f = (async function() { await => async.await[async / ((async) => 
                     "start": 60,
                     "end": 88
                 },
-                "flags": 32,
+                "flags": 536870944,
                 "start": 47,
                 "end": 89
             },

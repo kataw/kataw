@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/miscellaneous/escaped-keywords/autogen.md
-- Path: kataw/test/__snapshot__/parser/miscellaneous/escaped-keywords/gen/strict_mode
+- Regenerated: 2021-06-12
+- From: d
+- Path: e
 > :: test: strict mode
 > :: case: var x = cl\u0061ss {}
 ## Options
@@ -102,7 +102,8 @@ var x = cl\u0061ss {}
 
 ```javascript
 
-var x = class  {};
+ var x = class  {
+}; 
 ```
 
 ### Diagnostics

@@ -46,12 +46,7 @@ var x = ({ foo }) => {}
                         "type": null,
                         "initializer": {
                             "kind": 271,
-                            "arrowToken": {
-                                "kind": 10,
-                                "flags": 64,
-                                "start": 17,
-                                "end": 20
-                            },
+                            "asyncKeyword": null,
                             "typeParameters": null,
                             "parameters": [
                                 {
@@ -78,8 +73,13 @@ var x = ({ foo }) => {}
                                     "end": 16
                                 }
                             ],
-                            "asyncKeyword": null,
                             "returnType": null,
+                            "arrowToken": {
+                                "kind": 10,
+                                "flags": 64,
+                                "start": 17,
+                                "end": 20
+                            },
                             "contents": {
                                 "kind": 216,
                                 "functionStatementList": {
@@ -125,9 +125,10 @@ var x = ({ foo }) => {}
 
 ```javascript
 
-var x = ({
-  foo
-}) =>  {};
+ var x = ({
+        foo
+    }) => {
+}; 
 ```
 
 ### Diagnostics

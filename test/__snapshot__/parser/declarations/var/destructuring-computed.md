@@ -105,7 +105,6 @@ var { ["key"]: val3, ...spread } = { key: "val" };
                                 "properties": [
                                     {
                                         "kind": 329,
-                                        "ellipsisToken": null,
                                         "key": {
                                             "kind": 194,
                                             "expression": {
@@ -216,7 +215,6 @@ var { ["key"]: val3, ...spread } = { key: "val" };
                                 "properties": [
                                     {
                                         "kind": 329,
-                                        "ellipsisToken": null,
                                         "key": {
                                             "kind": 194,
                                             "expression": {
@@ -343,14 +341,12 @@ var { ["key"]: val3, ...spread } = { key: "val" };
 
 ```javascript
 
-var key: string = "\"key\"";
-var {
-  [key]: val2
-} = { key: "\"val\"" };
-var {
-  ["\"key\""]: val3,
-  ...spread
-} = { key: "\"val\"" };
+ var key  = "key";, var {
+     : val2
+} = { key : "val" };, var {
+     : val3,
+    ...spread
+} = { key : "val" }; 
 ```
 
 ### Diagnostics

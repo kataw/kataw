@@ -76,7 +76,7 @@ a ?. b
 
 ```javascript
 
-a?.;
+ ; 
 ```
 
 ### Diagnostics

@@ -44,11 +44,11 @@ class x {foo(){ return }}
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": null,
                             "getKeyword": null,
+                            "asteriskToken": null,
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -60,7 +60,7 @@ class x {foo(){ return }}
                                     "end": 12
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -132,11 +132,11 @@ class x {foo(){ return }}
 
 ```javascript
 
-class x {
-  foo {
-    return ;
-  }
-}
+ class x {
+    foo() {
+    return;
+    }
+} 
 ```
 
 ### Diagnostics

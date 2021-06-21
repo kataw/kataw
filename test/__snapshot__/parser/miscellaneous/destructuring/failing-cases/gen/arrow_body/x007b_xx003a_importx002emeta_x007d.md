@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/miscellaneous/destructuring/failing-cases/autogen.md
-- Path: kataw/test/__snapshot__/parser/miscellaneous/destructuring/failing-cases/gen/arrow_body
+- Regenerated: 2021-06-12
+- From: d
+- Path: y
 > :: test: arrow body
 > :: case: { x: import.meta }
 ## Options
@@ -27,12 +27,7 @@
             "kind": 120,
             "expression": {
                 "kind": 271,
-                "arrowToken": {
-                    "kind": 10,
-                    "flags": 64,
-                    "start": 23,
-                    "end": 26
-                },
+                "asyncKeyword": null,
                 "typeParameters": null,
                 "parameters": [
                     {
@@ -50,7 +45,6 @@
                             "properties": [
                                 {
                                     "kind": 329,
-                                    "ellipsisToken": null,
                                     "key": {
                                         "kind": 134299649,
                                         "text": "x",
@@ -99,8 +93,13 @@
                         "end": 22
                     }
                 ],
-                "asyncKeyword": null,
                 "returnType": null,
+                "arrowToken": {
+                    "kind": 10,
+                    "flags": 64,
+                    "start": 23,
+                    "end": 26
+                },
                 "contents": {
                     "kind": 216,
                     "functionStatementList": {

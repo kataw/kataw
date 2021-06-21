@@ -67,12 +67,7 @@ c.m = n => n * 3;
                             "type": null,
                             "initializer": {
                                 "kind": 271,
-                                "arrowToken": {
-                                    "kind": 10,
-                                    "flags": 64,
-                                    "start": 84,
-                                    "end": 87
-                                },
+                                "asyncKeyword": null,
                                 "typeParameters": null,
                                 "parameters": {
                                     "kind": 134299649,
@@ -82,8 +77,13 @@ c.m = n => n * 3;
                                     "start": 82,
                                     "end": 84
                                 },
-                                "asyncKeyword": null,
                                 "returnType": null,
+                                "arrowToken": {
+                                    "kind": 10,
+                                    "flags": 64,
+                                    "start": 84,
+                                    "end": 87
+                                },
                                 "contents": {
                                     "kind": 198,
                                     "left": {
@@ -236,12 +236,7 @@ c.m = n => n * 3;
                 },
                 "right": {
                     "kind": 271,
-                    "arrowToken": {
-                        "kind": 10,
-                        "flags": 64,
-                        "start": 124,
-                        "end": 127
-                    },
+                    "asyncKeyword": null,
                     "typeParameters": null,
                     "parameters": {
                         "kind": 134299649,
@@ -251,8 +246,13 @@ c.m = n => n * 3;
                         "start": 122,
                         "end": 124
                     },
-                    "asyncKeyword": null,
                     "returnType": null,
+                    "arrowToken": {
+                        "kind": 10,
+                        "flags": 64,
+                        "start": 124,
+                        "end": 127
+                    },
                     "contents": {
                         "kind": 198,
                         "left": {
@@ -307,16 +307,9 @@ c.m = n => n * 3;
 
 ```javascript
 
-class C {
-  /**
-     * @param {number} n
-     * @return {number}
-     */
-  m = n =>  n * 2;
-
-}
-const c = new  C();
-c.m = n =>  n * 3;
+ class C {
+    m = n =>n * 2,
+}, const c = new C();, c.m=n =>n * 3; 
 ```
 
 ### Diagnostics

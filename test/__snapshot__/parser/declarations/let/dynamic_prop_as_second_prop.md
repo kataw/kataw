@@ -62,7 +62,6 @@ let {a, [x]: y} = a;
                                     },
                                     {
                                         "kind": 329,
-                                        "ellipsisToken": null,
                                         "key": {
                                             "kind": 194,
                                             "expression": {
@@ -136,10 +135,10 @@ let {a, [x]: y} = a;
 
 ```javascript
 
-let {
-  a,
-  [x]: y
-} = a;
+ let {
+    a,
+     : y
+} = a; 
 ```
 
 ### Diagnostics

@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/classes/extends-lefthandside/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/classes/extends-lefthandside/gen/declaration
+- Regenerated: 2021-06-12
+- From: d
+- Path: n
 > :: test: declaration
 > :: case: fooo`bar`
 ## Options
@@ -108,7 +108,8 @@ class A extends fooo`bar` {}
 
 ```javascript
 
-class A  {}
+ class A {
+} 
 ```
 
 ### Diagnostics

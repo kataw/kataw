@@ -167,11 +167,11 @@ class D<T> {
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": null,
                             "getKeyword": null,
+                            "asteriskToken": null,
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -183,7 +183,7 @@ class D<T> {
                                     "end": 37
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [
                                         {
@@ -306,11 +306,11 @@ class D<T> {
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": null,
                             "getKeyword": null,
+                            "asteriskToken": null,
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -322,7 +322,7 @@ class D<T> {
                                     "end": 71
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -412,11 +412,11 @@ class D<T> {
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": null,
                             "getKeyword": null,
+                            "asteriskToken": null,
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -428,7 +428,7 @@ class D<T> {
                                     "end": 111
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -635,11 +635,11 @@ class D<T> {
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": null,
                             "getKeyword": null,
+                            "asteriskToken": null,
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -681,7 +681,7 @@ class D<T> {
                                     "start": 169,
                                     "end": 172
                                 },
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [
                                         {
@@ -909,27 +909,26 @@ class D<T> {
 
 ```javascript
 
-class C {
-  x;
-
-  constructor {
-    this.x = x;
-  }
-  get {
-    return  this.x;
-  }
-  get_bad {
-    return  this.x;
-  }
-}
-class D {
-  x;
-
-  m {
-    this.x = u;
-    return  z;
-  }
-}
+ class C {
+    x: X,
+    ,
+    constructor() {
+    this.x=x;
+    },
+    get(): X {
+    return this.x;
+    },
+    get_bad(): Y {
+    return this.x;
+    }
+}, class D {
+    x: T,
+    ,
+    m(, ): S {
+    this.x=u;,
+    return z;
+    }
+} 
 ```
 
 ### Diagnostics

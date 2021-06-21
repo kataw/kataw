@@ -108,7 +108,7 @@
 
 ```javascript
 
-[.../x/g / y];
+ [... / y]; 
 ```
 
 ### Diagnostics

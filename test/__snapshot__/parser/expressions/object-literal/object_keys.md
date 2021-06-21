@@ -168,12 +168,7 @@ Object.keys(y).map(k => { return {[k]: k} });
                     "elements": [
                         {
                             "kind": 271,
-                            "arrowToken": {
-                                "kind": 10,
-                                "flags": 64,
-                                "start": 40,
-                                "end": 43
-                            },
+                            "asyncKeyword": null,
                             "typeParameters": null,
                             "parameters": {
                                 "kind": 134299649,
@@ -183,8 +178,13 @@ Object.keys(y).map(k => { return {[k]: k} });
                                 "start": 39,
                                 "end": 40
                             },
-                            "asyncKeyword": null,
                             "returnType": null,
+                            "arrowToken": {
+                                "kind": 10,
+                                "flags": 64,
+                                "start": 40,
+                                "end": 43
+                            },
                             "contents": {
                                 "kind": 216,
                                 "functionStatementList": {
@@ -438,12 +438,7 @@ Object.keys(y).map(k => { return {[k]: k} });
                     "elements": [
                         {
                             "kind": 271,
-                            "arrowToken": {
-                                "kind": 10,
-                                "flags": 64,
-                                "start": 115,
-                                "end": 118
-                            },
+                            "asyncKeyword": null,
                             "typeParameters": null,
                             "parameters": {
                                 "kind": 134299649,
@@ -453,8 +448,13 @@ Object.keys(y).map(k => { return {[k]: k} });
                                 "start": 114,
                                 "end": 115
                             },
-                            "asyncKeyword": null,
                             "returnType": null,
+                            "arrowToken": {
+                                "kind": 10,
+                                "flags": 64,
+                                "start": 115,
+                                "end": 118
+                            },
                             "contents": {
                                 "kind": 216,
                                 "functionStatementList": {
@@ -558,14 +558,7 @@ Object.keys(y).map(k => { return {[k]: k} });
 
 ```javascript
 
-const x = { foo: 3 };
-Object.keys(x).map(k =>  {
-  return  { [k]: k };
-});
-const y = { foo: 3, bar: 3 };
-Object.keys(y).map(k =>  {
-  return  { [k]: k };
-});
+ const x = { foo : 3 };, ;, const y = { foo : 3, bar : 3 };, ; 
 ```
 
 ### Diagnostics

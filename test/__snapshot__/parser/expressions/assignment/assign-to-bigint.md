@@ -177,10 +177,7 @@ a= 0b0101n;
 
 ```javascript
 
-a = 1nn;
-a = 0x80nn;
-a = 0o755nn;
-a = 0b0101nn;
+ a=1n;, a=0x80n;, a=0o755n;, a=0b0101n; 
 ```
 
 ### Diagnostics

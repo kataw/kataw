@@ -47,11 +47,11 @@ let y = typeof async x => await x
                             },
                             "operand": {
                                 "kind": 271,
-                                "arrowToken": {
-                                    "kind": 10,
+                                "asyncKeyword": {
+                                    "kind": 82031,
                                     "flags": 64,
-                                    "start": 22,
-                                    "end": 25
+                                    "start": 14,
+                                    "end": 20
                                 },
                                 "typeParameters": null,
                                 "parameters": {
@@ -62,13 +62,13 @@ let y = typeof async x => await x
                                     "start": 20,
                                     "end": 22
                                 },
-                                "asyncKeyword": {
-                                    "kind": 82031,
-                                    "flags": 64,
-                                    "start": 14,
-                                    "end": 20
-                                },
                                 "returnType": null,
+                                "arrowToken": {
+                                    "kind": 10,
+                                    "flags": 64,
+                                    "start": 22,
+                                    "end": 25
+                                },
                                 "contents": {
                                     "kind": 208,
                                     "awaitKeyword": {
@@ -124,7 +124,7 @@ let y = typeof async x => await x
 
 ```javascript
 
-let y = typeof async x =>  await x;
+ let y = ; 
 ```
 
 ### Diagnostics

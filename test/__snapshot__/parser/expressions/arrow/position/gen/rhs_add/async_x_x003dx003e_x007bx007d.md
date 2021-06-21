@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/arrow/position/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/arrow/position/gen/rhs_add
+- Regenerated: 2021-06-12
+- From: d
+- Path: d
 > :: test: rhs add
 > :: case: async x => {}
 ## Options
@@ -43,11 +43,11 @@ x + async x => {}
                 },
                 "right": {
                     "kind": 271,
-                    "arrowToken": {
-                        "kind": 10,
+                    "asyncKeyword": {
+                        "kind": 82031,
                         "flags": 64,
-                        "start": 11,
-                        "end": 14
+                        "start": 3,
+                        "end": 9
                     },
                     "typeParameters": null,
                     "parameters": {
@@ -58,13 +58,13 @@ x + async x => {}
                         "start": 9,
                         "end": 11
                     },
-                    "asyncKeyword": {
-                        "kind": 82031,
-                        "flags": 64,
-                        "start": 3,
-                        "end": 9
-                    },
                     "returnType": null,
+                    "arrowToken": {
+                        "kind": 10,
+                        "flags": 64,
+                        "start": 11,
+                        "end": 14
+                    },
                     "contents": {
                         "kind": 216,
                         "functionStatementList": {

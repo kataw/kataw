@@ -141,7 +141,7 @@ type Age = typeof MyArray[number]["age"];
 
 ```javascript
 
-
+  
 ```
 
 ### Diagnostics

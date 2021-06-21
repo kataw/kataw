@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/arrow/position/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/arrow/position/gen/call_tail
+- Regenerated: 2021-06-12
+- From: d
+- Path: l
 > :: test: call tail
 > :: case: async (x, y) => ok
 ## Options
@@ -42,11 +42,11 @@ foo(async (x, y) => ok).bar
                         "elements": [
                             {
                                 "kind": 271,
-                                "arrowToken": {
-                                    "kind": 10,
+                                "asyncKeyword": {
+                                    "kind": 82031,
                                     "flags": 64,
-                                    "start": 16,
-                                    "end": 19
+                                    "start": 4,
+                                    "end": 9
                                 },
                                 "typeParameters": null,
                                 "parameters": [
@@ -67,13 +67,13 @@ foo(async (x, y) => ok).bar
                                         "end": 15
                                     }
                                 ],
-                                "asyncKeyword": {
-                                    "kind": 82031,
-                                    "flags": 64,
-                                    "start": 4,
-                                    "end": 9
-                                },
                                 "returnType": null,
+                                "arrowToken": {
+                                    "kind": 10,
+                                    "flags": 64,
+                                    "start": 16,
+                                    "end": 19
+                                },
                                 "contents": {
                                     "kind": 134299649,
                                     "text": "ok",
@@ -126,7 +126,7 @@ foo(async (x, y) => ok).bar
 
 ```javascript
 
-foo(async (x, y) =>  ok).bar;
+ .bar; 
 ```
 
 ### Diagnostics

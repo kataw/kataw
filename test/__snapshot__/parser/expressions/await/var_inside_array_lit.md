@@ -98,9 +98,7 @@
 
 ```javascript
 
-{
-  (x = [await]);
-}
+ { (x=[await]); } 
 ```
 
 ### Diagnostics

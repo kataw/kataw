@@ -3308,98 +3308,70 @@ for (;;) {}});
 
 ```javascript
 
-(function * gen() {
-    yield 2;
-  })(function * gen() {
-  yield * 2;
-});
-(function * gen() {
-    yield * 2;
-  });
-(function * gen() {
-    yield yield 1;
-  });
-(function * gen() {
-    yield * yield * 1;
-  });
-(function * gen() {
-    yield 3 + (yield 4);
-  });
-(function * gen() {
-    yield * 3 + (yield * 4);
-  });
-(function * gen() {
-    yield * 1;
-    return ;
-  });
-(function * gen() {
-    yield 1;
-    return  37;
-  });
-(function * gen() {
-    yield * 1;
-    return  37;
-  });
-(function * gen() {
-    yield 1;
-    return  37;
-    yield "'dead'";
-  });
-(function * gen() {
-    yield * 1;
-    return  37;
-    yield * "'dead'";
-  });
-(function * gen() {
-     yield;
-  });
-(function * gen() {
-     yield;
-  });
-(function * gen() {
-     yield;
-  });
-(function * gen() {
-    ( yield);
-  });
-(function * gen() {
-    [ yield];
-  });
-(function * gen() {
-    {
-       yield;
-    }
-  });
-(function * gen() {
-     yield,  yield;
-  });
-(function * gen() {
-     yield;
-     yield;
-  });
-(function * gen() {
-    ( yield) ?  yield :  yield;
-  });
-(function * gen() {
-    ( yield) ?  yield :  yield;
-  });
-// If there is a newline before the next token, we don't look for RHS.
-(function * gen() {
-     yield;
-    for (;;) {}
-  });
-(function * gen() {
-    x = class   {};
-  });
-(function * gen() {
-    x = class   {};
-  });
-(function * gen() {
-    x = class   {};
-  });
-(function * gen() {
-    x = class   {};
-  });
+ ;, (function* gen() {
+yield* 2;
+});, (function* gen() {
+yield yield 1;
+});, (function* gen() {
+yield* yield* 1;
+});, (function* gen() {
+yield 3 + (yield 4);
+});, (function* gen() {
+yield* 3 + (yield* 4);
+});, (function* gen() {
+yield* 1;,
+return;
+});, (function* gen() {
+yield 1;,
+return 37;
+});, (function* gen() {
+yield* 1;,
+return 37;
+});, (function* gen() {
+yield 1;,
+return 37;,
+yield 'dead';
+});, (function* gen() {
+yield* 1;,
+return 37;,
+yield* 'dead';
+});, (function* gen() {
+yield;
+});, (function* gen() {
+yield;
+});, (function* gen() {
+yield;
+});, (function* gen() {
+(yield);
+});, (function* gen() {
+[yield];
+});, (function* gen() {
+{ yield; }
+});, (function* gen() {
+yield, yield;
+});, (function* gen() {
+yield;,
+yield;
+});, (function* gen() {
+(yield) ? yield : yield;
+});, (function* gen() {
+(yield) ? yield : yield;
+});, (function* gen() {
+yield;,
+for(;;){  }
+});, (function* gen() {
+x=class  {
+};
+});, (function* gen() {
+x=class  {
+};
+});, (function* gen() {
+x=class  {
+};
+});, (function* gen() {
+x=class  {
+};
+}); 
 ```
 
 ### Diagnostics

@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/declarations/let/binding-pattern/autogen.md
-- Path: kataw/test/__snapshot__/parser/declarations/let/binding-pattern/gen/key_that_is_computed
+- Regenerated: 2021-06-12
+- From: d
+- Path: d
 > :: test: key that is computed
 > :: case: let
 ## Options
@@ -43,7 +43,6 @@ let {[a]: c} = v
                                 "properties": [
                                     {
                                         "kind": 329,
-                                        "ellipsisToken": null,
                                         "key": {
                                             "kind": 194,
                                             "expression": {
@@ -117,9 +116,9 @@ let {[a]: c} = v
 
 ```javascript
 
-let {
-  [a]: c
-} = v;
+ let {
+     : c
+} = v; 
 ```
 
 ### Diagnostics

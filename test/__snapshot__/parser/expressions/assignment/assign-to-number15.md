@@ -69,7 +69,7 @@ x = 0o101_0n
 
 ```javascript
 
-x = 0o101_0nn;
+ x=0o101_0n; 
 ```
 
 ### Diagnostics

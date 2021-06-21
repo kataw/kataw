@@ -52,7 +52,6 @@ class Foo {set fooProp(value:number):void{}}
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": null,
@@ -62,6 +61,7 @@ class Foo {set fooProp(value:number):void{}}
                                 "start": 11,
                                 "end": 14
                             },
+                            "asteriskToken": null,
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -73,7 +73,7 @@ class Foo {set fooProp(value:number):void{}}
                                     "end": 22
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [
                                         {
@@ -176,9 +176,10 @@ class Foo {set fooProp(value:number):void{}}
 
 ```javascript
 
-class Foo {
-  set fooProp {}
-}
+ class Foo {
+    set fooProp(): void {
+    }
+} 
 ```
 
 ### Diagnostics

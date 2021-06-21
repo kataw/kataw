@@ -26,11 +26,11 @@
                         "text": "X",
                         "expression": {
                             "kind": 271,
-                            "arrowToken": {
-                                "kind": 10,
+                            "asyncKeyword": {
+                                "kind": 82031,
                                 "flags": 64,
-                                "start": 11,
-                                "end": 14
+                                "start": 4,
+                                "end": 9
                             },
                             "typeParameters": null,
                             "parameters": {
@@ -41,13 +41,13 @@
                                 "start": 9,
                                 "end": 11
                             },
-                            "asyncKeyword": {
-                                "kind": 82031,
-                                "flags": 64,
-                                "start": 4,
-                                "end": 9
-                            },
                             "returnType": null,
+                            "arrowToken": {
+                                "kind": 10,
+                                "flags": 64,
+                                "start": 11,
+                                "end": 14
+                            },
                             "contents": {
                                 "kind": 198,
                                 "left": {
@@ -121,7 +121,7 @@
 
 ```javascript
 
-`X${async a =>  b + {}}Y`;
+ ; 
 ```
 
 ### Diagnostics

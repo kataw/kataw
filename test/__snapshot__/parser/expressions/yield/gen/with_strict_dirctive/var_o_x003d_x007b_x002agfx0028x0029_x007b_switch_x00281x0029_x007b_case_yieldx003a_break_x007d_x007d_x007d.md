@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/yield/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/yield/gen/with_strict_dirctive
+- Regenerated: 2021-06-12
+- From: d
+- Path: e
 > :: test: with_strict_dirctive
 > :: case: var o = { *gf() { switch (1) { case yield: break; } } }
 ## Options
@@ -61,9 +61,9 @@
                                 "kind": 218,
                                 "properties": [
                                     {
-                                        "kind": 257,
+                                        "kind": 351,
                                         "asyncKeyword": null,
-                                        "generatorToken": {
+                                        "asteriskToken": {
                                             "kind": 67143222,
                                             "flags": 64,
                                             "start": 23,
@@ -82,7 +82,7 @@
                                                 "end": 27
                                             },
                                             "typeParameters": null,
-                                            "formalParameters": {
+                                            "formalParameterList": {
                                                 "kind": 214,
                                                 "formalParameters": [],
                                                 "trailingComma": false,
@@ -227,12 +227,11 @@
 
 ```javascript
 
-var o = { gf {
+'use strict' var o = { * gf() {
     switch(1) {
-      case  yield:
-        break;
+        case yield: break;
     }
-  } };
+    } }; 
 ```
 
 ### Diagnostics

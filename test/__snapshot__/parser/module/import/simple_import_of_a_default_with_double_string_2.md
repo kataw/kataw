@@ -91,7 +91,7 @@ import {} from "y"
 
 ```javascript
 
-import {}  ;
+  
 ```
 
 ### Diagnostics

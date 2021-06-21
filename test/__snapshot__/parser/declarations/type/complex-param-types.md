@@ -191,7 +191,7 @@ type o = { m(|int|bool): void }
 
 ```javascript
 
-
+  
 ```
 
 ### Diagnostics

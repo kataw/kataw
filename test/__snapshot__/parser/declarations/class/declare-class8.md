@@ -158,8 +158,7 @@ declare function foo(x: number, y: string): void;
 
 ```javascript
 
-function foo(): void;
-
+ declare function foo(, ): void, ; 
 ```
 
 ### Diagnostics

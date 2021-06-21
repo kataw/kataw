@@ -126,7 +126,7 @@ declare class C { static [[foo]]: T }
 
 ```javascript
 
-declare class C TODO!
+ declare class C {} 
 ```
 
 ### Diagnostics

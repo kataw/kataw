@@ -125,7 +125,7 @@ var foo = {
 
 ```javascript
 
-var foo = { [bar()]: "\"\"" };
+ var foo = {  : "" }; 
 ```
 
 ### Diagnostics

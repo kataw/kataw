@@ -103,7 +103,8 @@ function foo(x = 0) {
 
 ```javascript
 
-function foo() {}
+ function foo() {
+} 
 ```
 
 ### Diagnostics

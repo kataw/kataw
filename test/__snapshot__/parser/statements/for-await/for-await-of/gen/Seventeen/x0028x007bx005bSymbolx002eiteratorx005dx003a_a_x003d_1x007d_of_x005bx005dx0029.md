@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/statements/for-await/for-await-of/autogen.md
-- Path: kataw/test/__snapshot__/parser/statements/for-await/for-await-of/gen/Seventeen
+- Regenerated: 2021-06-12
+- From: d
+- Path: n
 > :: test: Seventeen
 > :: case: ({[Symbol.iterator]: a = 1} of [])
 ## Options
@@ -229,11 +229,9 @@ async function f() { 'use strict'; for await
 
 ```javascript
 
-async function f() {
-  for await ({ [Symbol.iterator]: a = 1 } of [])
-    {
-    }
-}
+ async function f() {
+for await({  : a=1 } of []) {  }
+} 
 ```
 
 ### Diagnostics

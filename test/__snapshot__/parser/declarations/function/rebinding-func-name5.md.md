@@ -39,9 +39,9 @@ x={f(){ let f }}
                         "kind": 218,
                         "properties": [
                             {
-                                "kind": 257,
+                                "kind": 351,
                                 "asyncKeyword": null,
-                                "generatorToken": null,
+                                "asteriskToken": null,
                                 "getKeyword": null,
                                 "setKeyword": null,
                                 "method": {
@@ -55,7 +55,7 @@ x={f(){ let f }}
                                         "end": 4
                                     },
                                     "typeParameters": null,
-                                    "formalParameters": {
+                                    "formalParameterList": {
                                         "kind": 214,
                                         "formalParameters": [],
                                         "trailingComma": false,
@@ -155,9 +155,9 @@ x={f(){ let f }}
 
 ```javascript
 
-x = { f {
+ x={ f() {
     let f;
-  } };
+    } }; 
 ```
 
 ### Diagnostics

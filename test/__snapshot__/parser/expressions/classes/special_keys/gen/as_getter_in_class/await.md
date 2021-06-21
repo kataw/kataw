@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/classes/special_keys/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/classes/special_keys/gen/as_getter_in_class
+- Regenerated: 2021-06-12
+- From: d
+- Path: s
 > :: test: as getter in class
 > :: case: await
 ## Options
@@ -52,7 +52,6 @@ class x {get await(){}}
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": {
@@ -62,6 +61,7 @@ class x {get await(){}}
                                 "end": 12
                             },
                             "getKeyword": null,
+                            "asteriskToken": null,
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -73,7 +73,7 @@ class x {get await(){}}
                                     "end": 18
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -131,9 +131,10 @@ class x {get await(){}}
 
 ```javascript
 
-class x {
-  get await {}
-}
+ class x {
+    get await() {
+    }
+} 
 ```
 
 ### Diagnostics

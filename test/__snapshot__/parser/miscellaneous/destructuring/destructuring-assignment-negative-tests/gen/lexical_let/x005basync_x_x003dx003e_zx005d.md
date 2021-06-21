@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/miscellaneous/destructuring/destructuring-assignment-negative-tests/autogen.md
-- Path: kataw/test/__snapshot__/parser/miscellaneous/destructuring/destructuring-assignment-negative-tests/gen/lexical_let
+- Regenerated: 2021-06-12
+- From: d
+- Path: t
 > :: test: lexical let
 > :: case: [async x => z]
 ## Options
@@ -113,11 +113,11 @@
                             "elements": [
                                 {
                                     "kind": 271,
-                                    "arrowToken": {
-                                        "kind": 10,
+                                    "asyncKeyword": {
+                                        "kind": 82031,
                                         "flags": 64,
-                                        "start": 36,
-                                        "end": 39
+                                        "start": 29,
+                                        "end": 34
                                     },
                                     "typeParameters": null,
                                     "parameters": {
@@ -128,13 +128,13 @@
                                         "start": 34,
                                         "end": 36
                                     },
-                                    "asyncKeyword": {
-                                        "kind": 82031,
-                                        "flags": 64,
-                                        "start": 29,
-                                        "end": 34
-                                    },
                                     "returnType": null,
+                                    "arrowToken": {
+                                        "kind": 10,
+                                        "flags": 64,
+                                        "start": 36,
+                                        "end": 39
+                                    },
                                     "contents": {
                                         "kind": 134299649,
                                         "text": "z",

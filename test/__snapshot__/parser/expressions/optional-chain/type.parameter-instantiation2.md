@@ -339,8 +339,7 @@ a?.a?.a?.a?.<number>(y);
 
 ```javascript
 
-?.(y);
-?.(y);
+ ;, ; 
 ```
 
 ### Diagnostics

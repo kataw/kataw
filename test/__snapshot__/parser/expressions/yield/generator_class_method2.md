@@ -83,16 +83,16 @@ async function g(){class x {*f(foo = [h, {m: t(await bar)}]){}}    }
                                             "kind": 278,
                                             "declareToken": null,
                                             "decorators": null,
+                                            "staticKeyword": null,
+                                            "asyncKeyword": null,
+                                            "setKeyword": null,
+                                            "getKeyword": null,
                                             "asteriskToken": {
                                                 "kind": 67143222,
                                                 "flags": 64,
                                                 "start": 28,
                                                 "end": 29
                                             },
-                                            "staticKeyword": null,
-                                            "asyncKeyword": null,
-                                            "setKeyword": null,
-                                            "getKeyword": null,
                                             "method": {
                                                 "kind": 209,
                                                 "name": {
@@ -104,7 +104,7 @@ async function g(){class x {*f(foo = [h, {m: t(await bar)}]){}}    }
                                                     "end": 30
                                                 },
                                                 "typeParameters": null,
-                                                "formalParameters": {
+                                                "formalParameterList": {
                                                     "kind": 214,
                                                     "formalParameters": [
                                                         {

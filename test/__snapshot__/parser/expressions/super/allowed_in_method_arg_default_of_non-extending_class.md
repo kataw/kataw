@@ -44,11 +44,11 @@ class x { foo(x=super.foo){ }}
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": null,
                             "getKeyword": null,
+                            "asteriskToken": null,
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -60,7 +60,7 @@ class x { foo(x=super.foo){ }}
                                     "end": 13
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [
                                         {
@@ -162,9 +162,10 @@ class x { foo(x=super.foo){ }}
 
 ```javascript
 
-class x {
-  foo {}
-}
+ class x {
+    foo() {
+    }
+} 
 ```
 
 ### Diagnostics

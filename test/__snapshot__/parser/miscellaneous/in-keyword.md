@@ -1707,60 +1707,47 @@ let tests = [
 
 ```javascript
 
-let tests = // objects on RHS
-[function () {
-    ("'foo'" in {});
-    ("'foo'" in { foo: null });
-    (0 in {});
-    (0 in { "\"0\"": null });
-  }, // arrays on RHS
-  function () {
-    ("'foo'" in []);
-    (0 in []);
-    ("'length'" in []);
-  }, // primitive classes on RHS
-  function () {
-    ("'foo'" in new  String("'bar'"));
-    ("'foo'" in new  Number(123));
-  }, // primitives on RHS
-  function () {
-    ("'foo'" in 123); // error
-
-    ("'foo'" in "'bar'"); // error
-
-    ("'foo'" in void 0); // error
-
-    ("'foo'" in null); // error
-
-  }, // bogus stuff on LHS
-  function () {
-    (null in {}); // error
-
-    (void 0 in {}); // error
-
-    ({} in {}); // error
-
-    ([] in {}); // error
-
-    (false in []); // error
-
-  }, // in predicates
-  function () {
-    if ("'foo'" in 123) {
-      } // error
-
-    if (!"'foo'" in {}) {
-      } // error, !'foo' is a boolean
-
-    if (!("'foo'" in {})) {
-      }
-  }, // annotations on RHS
-  function () {
-    ("'foo'" in x); // ok
-
-    ("'foo'" in y); // error
-
-  },];
+ let tests = [function () {
+    ('foo' in {  });,
+    ('foo' in { foo : null });,
+    (0 in {  });,
+    (0 in { "0" : null });
+    }, function () {
+    ('foo' in []);,
+    (0 in []);,
+    ('length' in []);
+    }, function () {
+    ('foo' in new String('bar'));,
+    ('foo' in new Number(123));
+    }, function () {
+    ('foo' in 123);// error
+    ,
+    ('foo' in 'bar');// error
+    ,
+    ('foo' in );// error
+    ,
+    ('foo' in null);// error
+    }, function () {
+    (null in {  });// error
+    ,
+    ( in {  });// error
+    ,
+    ({  } in {  });// error
+    ,
+    ([] in {  });// error
+    ,
+    (false in []);// error
+    }, function () {
+    if ('foo' in 123) {  }// error
+    ,
+    if ( in {  }) {  }// error, !'foo' is a boolean
+    ,
+    if () {  }
+    }, function (, ) {
+    ('foo' in x);// ok
+    ,
+    ('foo' in y);// error
+    }]; 
 ```
 
 ### Diagnostics

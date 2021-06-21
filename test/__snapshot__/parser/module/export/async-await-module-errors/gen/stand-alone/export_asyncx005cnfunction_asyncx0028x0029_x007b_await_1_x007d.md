@@ -1,13 +1,13 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/module/export/async-await-module-errors/autogen.md
-- Path: kataw/test/__snapshot__/parser/module/export/async-await-module-errors/gen/stand-alone
+- Regenerated: 2021-06-12
+- From: d
+- Path: e
 > :: test: stand-alone
 > :: case: export async\nfunction async() { await 1; }
 ## Options
 
 `````js
-{"module":true}
+{}
 `````
 ## Input
 
@@ -97,27 +97,29 @@ export async\nfunction async() { await 1; }
                     {
                         "kind": 120,
                         "expression": {
-                            "kind": 208,
-                            "awaitKeyword": {
-                                "kind": 82196,
-                                "flags": 64,
-                                "start": 32,
-                                "end": 38
-                            },
-                            "expression": {
-                                "kind": 201392130,
-                                "text": 1,
-                                "rawText": "1",
-                                "flags": 96,
-                                "start": 38,
-                                "end": 40
-                            },
-                            "flags": 32,
+                            "kind": 134299649,
+                            "text": "await",
+                            "rawText": "await",
+                            "flags": 96,
                             "start": 32,
-                            "end": 40
+                            "end": 38
                         },
                         "flags": 16,
                         "start": 32,
+                        "end": 38
+                    },
+                    {
+                        "kind": 120,
+                        "expression": {
+                            "kind": 201392130,
+                            "text": 1,
+                            "rawText": "1",
+                            "flags": 96,
+                            "start": 38,
+                            "end": 40
+                        },
+                        "flags": 16,
+                        "start": 38,
                         "end": 41
                     }
                 ],
@@ -130,7 +132,7 @@ export async\nfunction async() { await 1; }
             "end": 43
         }
     ],
-    "isModule": true,
+    "isModule": false,
     "source": "export async\\nfunction async() { await 1; }",
     "fileName": "__root__",
     "flags": 0,
@@ -148,11 +150,13 @@ export async\nfunction async() { await 1; }
 ### Diagnostics
 
 ```javascript
+✖ The `export` keyword can only be used with the module goal - start: 0, end: 6
 ✖ Invalid hexadecimal escape sequence - start: 6, end: 12
 ✖ Invalid hexadecimal escape sequence - start: 12, end: 12
 ✖ Declaration or statement expected - start: 6, end: 13
 ✖ Expected a `;` - start: 12, end: 13
 ✖ Expected a `;` - start: 22, end: 28
+✖ Expected a `;` - start: 38, end: 40
 
 ```
 

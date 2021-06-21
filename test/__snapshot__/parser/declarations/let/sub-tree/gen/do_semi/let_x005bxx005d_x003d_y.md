@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/declarations/let/sub-tree/autogen.md
-- Path: kataw/test/__snapshot__/parser/declarations/let/sub-tree/gen/do_semi
+- Regenerated: 2021-06-12
+- From: d
+- Path: i
 > :: test: do semi
 > :: case: let [x] = y
 ## Options
@@ -36,7 +36,7 @@ do let [x] = y; while (a);
                 "expression": {
                     "kind": 125,
                     "left": {
-                        "kind": 536871042,
+                        "kind": 130,
                         "member": {
                             "kind": 134299649,
                             "text": "let",
@@ -53,7 +53,7 @@ do let [x] = y; while (a);
                             "start": 8,
                             "end": 9
                         },
-                        "flags": 32,
+                        "flags": 536870944,
                         "start": 2,
                         "end": 10
                     },

@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/assignment/to_keyword/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/assignment/to_keyword/gen/assign_to_paren-wrapped_keyword_inside_delete_in_param_default
+- Regenerated: 2021-06-12
+- From: d
+- Path: t
 > :: test: assign to paren-wrapped keyword inside delete in param default
 > :: case: implements
 ## Options
@@ -25,11 +25,11 @@ async (x = delete ((implements) = f)) => {}
     "statements": [
         {
             "kind": 271,
-            "arrowToken": {
-                "kind": 10,
+            "asyncKeyword": {
+                "kind": 82031,
                 "flags": 64,
-                "start": 37,
-                "end": 40
+                "start": 0,
+                "end": 5
             },
             "typeParameters": null,
             "parameters": [
@@ -103,13 +103,13 @@ async (x = delete ((implements) = f)) => {}
                     "end": 36
                 }
             ],
-            "asyncKeyword": {
-                "kind": 82031,
-                "flags": 64,
-                "start": 0,
-                "end": 5
-            },
             "returnType": null,
+            "arrowToken": {
+                "kind": 10,
+                "flags": 64,
+                "start": 37,
+                "end": 40
+            },
             "contents": {
                 "kind": 216,
                 "functionStatementList": {
@@ -142,7 +142,8 @@ async (x = delete ((implements) = f)) => {}
 
 ```javascript
 
-async (x = delete ((implements) = f)) =>  {}
+ (x = ) => {
+} 
 ```
 
 ### Diagnostics

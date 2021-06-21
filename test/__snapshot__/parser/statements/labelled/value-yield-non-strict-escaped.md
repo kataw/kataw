@@ -69,7 +69,7 @@ yi\u0065ld: 1;
 
 ```javascript
 
-yield: 1;
+ yi\u0065ld: 1; 
 ```
 
 ### Diagnostics

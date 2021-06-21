@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/super/super-no-errors/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/super/super-no-errors/gen/class-method_body_assignment
+- Regenerated: 2021-06-12
+- From: d
+- Path: t
 > :: test: class-method body assignment
 > :: case: super = x
 ## Options
@@ -52,11 +52,11 @@ class C { m() { k = super = x; } }
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": null,
                             "getKeyword": null,
+                            "asteriskToken": null,
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -68,7 +68,7 @@ class C { m() { k = super = x; } }
                                     "end": 11
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,

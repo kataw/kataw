@@ -123,7 +123,7 @@ export default function <T>() {}
 
 ```javascript
 
-export default function  <T >() {};
+  
 ```
 
 ### Diagnostics

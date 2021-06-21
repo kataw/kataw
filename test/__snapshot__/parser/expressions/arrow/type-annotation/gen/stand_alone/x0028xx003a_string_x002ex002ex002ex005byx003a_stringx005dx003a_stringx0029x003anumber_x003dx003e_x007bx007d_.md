@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/arrow/type-annotation/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/arrow/type-annotation/gen/stand_alone
+- Regenerated: 2021-06-12
+- From: d
+- Path: e
 > :: test: stand alone
 > :: case: (x: string, ...[y: string]: string):number =>  {};
 ## Options
@@ -133,12 +133,7 @@
             "kind": 120,
             "expression": {
                 "kind": 271,
-                "arrowToken": {
-                    "kind": 10,
-                    "flags": 64,
-                    "start": 42,
-                    "end": 45
-                },
+                "asyncKeyword": null,
                 "typeParameters": null,
                 "parameters": {
                     "kind": 134299649,
@@ -148,8 +143,13 @@
                     "start": 36,
                     "end": 42
                 },
-                "asyncKeyword": null,
                 "returnType": null,
+                "arrowToken": {
+                    "kind": 10,
+                    "flags": 64,
+                    "start": 42,
+                    "end": 45
+                },
                 "contents": {
                     "kind": 216,
                     "functionStatementList": {

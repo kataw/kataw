@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/await/async-await-errors/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/await/async-await-errors/gen/stand_alone
+- Regenerated: 2021-06-12
+- From: d
+- Path: e
 > :: test: stand alone
 > :: case: ar O = { async method(x = await 1) { return x; } };
 ## Options
@@ -61,14 +61,14 @@ ar O = { async method(x = await 1) { return x; } };
                         "kind": 218,
                         "properties": [
                             {
-                                "kind": 257,
+                                "kind": 351,
                                 "asyncKeyword": {
                                     "kind": 82031,
                                     "flags": 352,
                                     "start": 8,
                                     "end": 14
                                 },
-                                "generatorToken": null,
+                                "asteriskToken": null,
                                 "getKeyword": null,
                                 "setKeyword": null,
                                 "method": {
@@ -82,7 +82,7 @@ ar O = { async method(x = await 1) { return x; } };
                                         "end": 21
                                     },
                                     "typeParameters": null,
-                                    "formalParameters": {
+                                    "formalParameterList": {
                                         "kind": 214,
                                         "formalParameters": [
                                             {

@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/binary/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/binary/gen/in_computed_key
+- Regenerated: 2021-06-12
+- From: d
+- Path: y
 > :: test: in computed key
 > :: case: a + b instanceof c
 ## Options
@@ -147,7 +147,7 @@ x = {[ a + b instanceof c ]: y}
 
 ```javascript
 
-x = { [a + b inctanceof c]: y };
+ x={  : y }; 
 ```
 
 ### Diagnostics

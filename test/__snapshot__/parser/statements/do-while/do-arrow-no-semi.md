@@ -28,12 +28,7 @@ while(y)
                 "kind": 120,
                 "expression": {
                     "kind": 271,
-                    "arrowToken": {
-                        "kind": 10,
-                        "flags": 64,
-                        "start": 4,
-                        "end": 6
-                    },
+                    "asyncKeyword": null,
                     "typeParameters": null,
                     "parameters": {
                         "kind": 134299649,
@@ -43,8 +38,13 @@ while(y)
                         "start": 2,
                         "end": 4
                     },
-                    "asyncKeyword": null,
                     "returnType": null,
+                    "arrowToken": {
+                        "kind": 10,
+                        "flags": 64,
+                        "start": 4,
+                        "end": 6
+                    },
                     "contents": {
                         "kind": 216,
                         "functionStatementList": {
@@ -99,8 +99,8 @@ while(y)
 
 ```javascript
 
-do x =>  {};
-while (y);
+ do x => {
+}; while (y) 
 ```
 
 ### Diagnostics

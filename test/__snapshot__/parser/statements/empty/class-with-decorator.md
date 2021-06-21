@@ -94,8 +94,8 @@ class x {}
 
 ```javascript
 
-@A
-class x {}
+ class x {
+} 
 ```
 
 ### Diagnostics

@@ -59,11 +59,11 @@ export default class { givesANum(): number { return 42; }};
                                 "kind": 278,
                                 "declareToken": null,
                                 "decorators": null,
-                                "asteriskToken": null,
                                 "staticKeyword": null,
                                 "asyncKeyword": null,
                                 "setKeyword": null,
                                 "getKeyword": null,
+                                "asteriskToken": null,
                                 "method": {
                                     "kind": 209,
                                     "name": {
@@ -75,7 +75,7 @@ export default class { givesANum(): number { return 42; }};
                                         "end": 32
                                     },
                                     "typeParameters": null,
-                                    "formalParameters": {
+                                    "formalParameterList": {
                                         "kind": 214,
                                         "formalParameters": [],
                                         "trailingComma": false,
@@ -177,12 +177,7 @@ export default class { givesANum(): number { return 42; }};
 
 ```javascript
 
-export default class  {
-  givesANum {
-    return  42;
-  }
-};
-
+ , ; 
 ```
 
 ### Diagnostics

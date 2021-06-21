@@ -46,11 +46,11 @@ class A {
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": null,
                             "getKeyword": null,
+                            "asteriskToken": null,
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -62,7 +62,7 @@ class A {
                                     "end": 23
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -120,9 +120,10 @@ class A {
 
 ```javascript
 
-class A {
-  constructor {}
-}
+ class A {
+    constructor() {
+    }
+} 
 ```
 
 ### Diagnostics

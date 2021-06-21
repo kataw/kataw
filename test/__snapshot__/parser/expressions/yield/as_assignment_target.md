@@ -83,9 +83,7 @@
 
 ```javascript
 
-{
-  yield = {};
-}
+ { yield={  }; } 
 ```
 
 ### Diagnostics

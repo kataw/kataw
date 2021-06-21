@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/import-call/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/import-call/gen/new-expr
+- Regenerated: 2021-06-12
+- From: d
+- Path: r
 > :: test: new-expr
 > :: case: x = import(x)
 ## Options
@@ -89,7 +89,7 @@ x = import(x)
 
 ```javascript
 
-x = ;
+ x=; 
 ```
 
 ### Diagnostics

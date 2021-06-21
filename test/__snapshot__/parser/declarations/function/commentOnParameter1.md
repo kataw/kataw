@@ -109,7 +109,11 @@ b
 
 ```javascript
 
-function commentedParameters() {}
+ function commentedParameters(a
+     /* End of parameter a */
+    /* Parameter b */
+    , b) {
+} 
 ```
 
 ### Diagnostics

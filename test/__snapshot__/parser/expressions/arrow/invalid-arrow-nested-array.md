@@ -19,12 +19,7 @@
             "kind": 120,
             "expression": {
                 "kind": 271,
-                "arrowToken": {
-                    "kind": 10,
-                    "flags": 64,
-                    "start": 50,
-                    "end": 52
-                },
+                "asyncKeyword": null,
                 "typeParameters": null,
                 "parameters": [
                     {
@@ -134,7 +129,6 @@
                                                                                                                                                                                                                                                                             "properties": [
                                                                                                                                                                                                                                                                                 {
                                                                                                                                                                                                                                                                                     "kind": 329,
-                                                                                                                                                                                                                                                                                    "ellipsisToken": null,
                                                                                                                                                                                                                                                                                     "key": {
                                                                                                                                                                                                                                                                                         "kind": 134299649,
                                                                                                                                                                                                                                                                                         "text": "a",
@@ -144,7 +138,7 @@
                                                                                                                                                                                                                                                                                         "end": 23
                                                                                                                                                                                                                                                                                     },
                                                                                                                                                                                                                                                                                     "value": {
-                                                                                                                                                                                                                                                                                        "kind": 536871042,
+                                                                                                                                                                                                                                                                                        "kind": 130,
                                                                                                                                                                                                                                                                                         "member": {
                                                                                                                                                                                                                                                                                             "kind": 134299649,
                                                                                                                                                                                                                                                                                             "text": "b",
@@ -161,7 +155,7 @@
                                                                                                                                                                                                                                                                                             "start": 26,
                                                                                                                                                                                                                                                                                             "end": 27
                                                                                                                                                                                                                                                                                         },
-                                                                                                                                                                                                                                                                                        "flags": 32,
+                                                                                                                                                                                                                                                                                        "flags": 536870944,
                                                                                                                                                                                                                                                                                         "start": 22,
                                                                                                                                                                                                                                                                                         "end": 28
                                                                                                                                                                                                                                                                                     },
@@ -381,8 +375,13 @@
                         "end": 49
                     }
                 ],
-                "asyncKeyword": null,
                 "returnType": null,
+                "arrowToken": {
+                    "kind": 10,
+                    "flags": 64,
+                    "start": 50,
+                    "end": 52
+                },
                 "contents": {
                     "kind": 201392130,
                     "text": 0,

@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/miscellaneous/should-fail/autogen.md
-- Path: kataw/test/__snapshot__/parser/miscellaneous/should-fail/gen/in_a_block
+- Regenerated: 2021-06-12
+- From: d
+- Path: k
 > :: test: in a block
 > :: case: class extends A{}
 ## Options
@@ -101,9 +101,8 @@
 
 ```javascript
 
-{
-  class   {}
-}
+ { class  {
+} } 
 ```
 
 ### Diagnostics

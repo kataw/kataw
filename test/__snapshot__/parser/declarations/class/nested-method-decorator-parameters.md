@@ -211,11 +211,11 @@ class Bar{
                         "kind": 120,
                         "expression": {
                             "kind": 271,
-                            "arrowToken": null,
+                            "asyncKeyword": null,
                             "typeParameters": null,
                             "parameters": [],
-                            "asyncKeyword": null,
                             "returnType": null,
+                            "arrowToken": null,
                             "contents": {
                                 "kind": 216,
                                 "functionStatementList": {

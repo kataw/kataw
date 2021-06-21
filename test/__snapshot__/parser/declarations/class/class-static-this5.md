@@ -172,9 +172,10 @@ x = class Foo { static x = class extends this {} }
 
 ```javascript
 
-x = class Foo {
-  static x = class   {};
-};
+ x=class Foo {
+    static x = class  {
+    }
+}; 
 ```
 
 ### Diagnostics

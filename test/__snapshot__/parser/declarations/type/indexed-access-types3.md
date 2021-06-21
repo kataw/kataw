@@ -136,7 +136,7 @@ type D = (Obj['bar'])['baz'];
 
 ```javascript
 
-
+  
 ```
 
 ### Diagnostics

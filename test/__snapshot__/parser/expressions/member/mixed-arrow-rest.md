@@ -18,7 +18,7 @@ a[{...()=>{}}.m()]
         {
             "kind": 120,
             "expression": {
-                "kind": 536871042,
+                "kind": 130,
                 "member": {
                     "kind": 134299649,
                     "text": "a",
@@ -46,16 +46,16 @@ a[{...()=>{}}.m()]
                                         },
                                         "argument": {
                                             "kind": 271,
+                                            "asyncKeyword": null,
+                                            "typeParameters": null,
+                                            "parameters": [],
+                                            "returnType": null,
                                             "arrowToken": {
                                                 "kind": 10,
                                                 "flags": 64,
                                                 "start": 8,
                                                 "end": 10
                                             },
-                                            "typeParameters": null,
-                                            "parameters": [],
-                                            "asyncKeyword": null,
-                                            "returnType": null,
                                             "contents": {
                                                 "kind": 216,
                                                 "functionStatementList": {
@@ -112,7 +112,7 @@ a[{...()=>{}}.m()]
                     "start": 2,
                     "end": 17
                 },
-                "flags": 32,
+                "flags": 536870944,
                 "start": 0,
                 "end": 18
             },
@@ -134,7 +134,7 @@ a[{...()=>{}}.m()]
 
 ```javascript
 
-;
+ a[]; 
 ```
 
 ### Diagnostics

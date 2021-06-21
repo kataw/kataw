@@ -17,11 +17,11 @@ async ([[[[[[[[[[[[[[[[[[[[{a:b[0]}]]]]]]]]]]]]]]]]]]]])=>0;
     "statements": [
         {
             "kind": 271,
-            "arrowToken": {
-                "kind": 10,
+            "asyncKeyword": {
+                "kind": 82031,
                 "flags": 64,
-                "start": 56,
-                "end": 58
+                "start": 0,
+                "end": 5
             },
             "typeParameters": null,
             "parameters": [
@@ -132,7 +132,6 @@ async ([[[[[[[[[[[[[[[[[[[[{a:b[0]}]]]]]]]]]]]]]]]]]]]])=>0;
                                                                                                                                                                                                                                                                         "properties": [
                                                                                                                                                                                                                                                                             {
                                                                                                                                                                                                                                                                                 "kind": 329,
-                                                                                                                                                                                                                                                                                "ellipsisToken": null,
                                                                                                                                                                                                                                                                                 "key": {
                                                                                                                                                                                                                                                                                     "kind": 134299649,
                                                                                                                                                                                                                                                                                     "text": "a",
@@ -142,7 +141,7 @@ async ([[[[[[[[[[[[[[[[[[[[{a:b[0]}]]]]]]]]]]]]]]]]]]]])=>0;
                                                                                                                                                                                                                                                                                     "end": 29
                                                                                                                                                                                                                                                                                 },
                                                                                                                                                                                                                                                                                 "value": {
-                                                                                                                                                                                                                                                                                    "kind": 536871042,
+                                                                                                                                                                                                                                                                                    "kind": 130,
                                                                                                                                                                                                                                                                                     "member": {
                                                                                                                                                                                                                                                                                         "kind": 134299649,
                                                                                                                                                                                                                                                                                         "text": "b",
@@ -159,7 +158,7 @@ async ([[[[[[[[[[[[[[[[[[[[{a:b[0]}]]]]]]]]]]]]]]]]]]]])=>0;
                                                                                                                                                                                                                                                                                         "start": 32,
                                                                                                                                                                                                                                                                                         "end": 33
                                                                                                                                                                                                                                                                                     },
-                                                                                                                                                                                                                                                                                    "flags": 32,
+                                                                                                                                                                                                                                                                                    "flags": 536870944,
                                                                                                                                                                                                                                                                                     "start": 28,
                                                                                                                                                                                                                                                                                     "end": 34
                                                                                                                                                                                                                                                                                 },
@@ -379,13 +378,13 @@ async ([[[[[[[[[[[[[[[[[[[[{a:b[0]}]]]]]]]]]]]]]]]]]]]])=>0;
                     "end": 55
                 }
             ],
-            "asyncKeyword": {
-                "kind": 82031,
-                "flags": 64,
-                "start": 0,
-                "end": 5
-            },
             "returnType": null,
+            "arrowToken": {
+                "kind": 10,
+                "flags": 64,
+                "start": 56,
+                "end": 58
+            },
             "contents": {
                 "kind": 201392130,
                 "text": 0,

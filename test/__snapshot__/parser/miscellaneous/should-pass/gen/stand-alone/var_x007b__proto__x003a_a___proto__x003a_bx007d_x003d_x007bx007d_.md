@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/miscellaneous/should-pass/autogen.md
-- Path: kataw/test/__snapshot__/parser/miscellaneous/should-pass/gen/stand-alone
+- Regenerated: 2021-06-12
+- From: d
+- Path: e
 > :: test: stand-alone
 > :: case: var {__proto__: a, __proto__: b} = {};
 ## Options
@@ -44,7 +44,6 @@ var {__proto__: a, __proto__: b} = {};
                                 "properties": [
                                     {
                                         "kind": 329,
-                                        "ellipsisToken": null,
                                         "key": {
                                             "kind": 134299649,
                                             "text": "__proto__",
@@ -68,7 +67,6 @@ var {__proto__: a, __proto__: b} = {};
                                     },
                                     {
                                         "kind": 329,
-                                        "ellipsisToken": null,
                                         "key": {
                                             "kind": 134299649,
                                             "text": "__proto__",
@@ -142,10 +140,10 @@ var {__proto__: a, __proto__: b} = {};
 
 ```javascript
 
-var {
-  __proto__: a,
-  __proto__: b
-} = {};
+ var {
+    __proto__ : a,
+    __proto__ : b
+} = {  }; 
 ```
 
 ### Diagnostics

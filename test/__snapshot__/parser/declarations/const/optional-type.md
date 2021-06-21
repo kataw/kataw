@@ -39,12 +39,7 @@ const f = (...x?) => {}
                         "type": null,
                         "initializer": {
                             "kind": 271,
-                            "arrowToken": {
-                                "kind": 10,
-                                "flags": 64,
-                                "start": 17,
-                                "end": 20
-                            },
+                            "asyncKeyword": null,
                             "typeParameters": null,
                             "parameters": [
                                 {
@@ -76,8 +71,13 @@ const f = (...x?) => {}
                                     "end": 16
                                 }
                             ],
-                            "asyncKeyword": null,
                             "returnType": null,
+                            "arrowToken": {
+                                "kind": 10,
+                                "flags": 64,
+                                "start": 17,
+                                "end": 20
+                            },
                             "contents": {
                                 "kind": 216,
                                 "functionStatementList": {
@@ -123,7 +123,8 @@ const f = (...x?) => {}
 
 ```javascript
 
-const f = (...x?) =>  {};
+ const f = (...x?) => {
+}; 
 ```
 
 ### Diagnostics

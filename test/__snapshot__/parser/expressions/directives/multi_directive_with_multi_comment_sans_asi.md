@@ -58,9 +58,9 @@ xyz*/"bar";
 
 ```javascript
 
-"\"foo\""; /*abc
-xyz*/
-"\"bar\"";
+ "foo";/*abc
+xyz*/, /*abc
+xyz*/"bar"; 
 ```
 
 ### Diagnostics

@@ -60,12 +60,7 @@ async function f(){
                             "kind": 120,
                             "expression": {
                                 "kind": 271,
-                                "arrowToken": {
-                                    "kind": 10,
-                                    "flags": 64,
-                                    "start": 72,
-                                    "end": 75
-                                },
+                                "asyncKeyword": null,
                                 "typeParameters": null,
                                 "parameters": [
                                     {
@@ -109,7 +104,6 @@ async function f(){
                                                             "kind": 278,
                                                             "declareToken": null,
                                                             "decorators": null,
-                                                            "asteriskToken": null,
                                                             "staticKeyword": null,
                                                             "asyncKeyword": {
                                                                 "kind": 82031,
@@ -119,6 +113,7 @@ async function f(){
                                                             },
                                                             "setKeyword": null,
                                                             "getKeyword": null,
+                                                            "asteriskToken": null,
                                                             "method": {
                                                                 "kind": 209,
                                                                 "name": {
@@ -136,7 +131,7 @@ async function f(){
                                                                     "end": 48
                                                                 },
                                                                 "typeParameters": null,
-                                                                "formalParameters": {
+                                                                "formalParameterList": {
                                                                     "kind": 214,
                                                                     "formalParameters": [
                                                                         {
@@ -215,11 +210,11 @@ async function f(){
                                                             "kind": 278,
                                                             "declareToken": null,
                                                             "decorators": null,
-                                                            "asteriskToken": null,
                                                             "staticKeyword": null,
                                                             "asyncKeyword": null,
                                                             "setKeyword": null,
                                                             "getKeyword": null,
+                                                            "asteriskToken": null,
                                                             "method": {
                                                                 "kind": 209,
                                                                 "name": {
@@ -231,7 +226,7 @@ async function f(){
                                                                     "end": 66
                                                                 },
                                                                 "typeParameters": null,
-                                                                "formalParameters": {
+                                                                "formalParameterList": {
                                                                     "kind": 214,
                                                                     "formalParameters": [],
                                                                     "trailingComma": false,
@@ -280,8 +275,13 @@ async function f(){
                                         "end": 71
                                     }
                                 ],
-                                "asyncKeyword": null,
                                 "returnType": null,
+                                "arrowToken": {
+                                    "kind": 10,
+                                    "flags": 64,
+                                    "start": 72,
+                                    "end": 75
+                                },
                                 "contents": {
                                     "kind": 216,
                                     "functionStatementList": {

@@ -34,7 +34,7 @@ for ([][y] <<= p;;) x;
             "initializer": {
                 "kind": 125,
                 "left": {
-                    "kind": 536871042,
+                    "kind": 130,
                     "member": {
                         "kind": 119,
                         "elementList": {
@@ -57,7 +57,7 @@ for ([][y] <<= p;;) x;
                         "start": 8,
                         "end": 9
                     },
-                    "flags": 32,
+                    "flags": 536870944,
                     "start": 0,
                     "end": 10
                 },
@@ -113,8 +113,7 @@ for ([][y] <<= p;;) x;
 
 ```javascript
 
-for ( <<= p; ; )
-  x;
+ for([][y]<<=p;;)x; 
 ```
 
 ### Diagnostics

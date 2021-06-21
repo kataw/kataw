@@ -93,7 +93,7 @@ while (await /1/) { break; }
 
 ```javascript
 
-while (await /1/) {}
+ while (await ) { break; } 
 ```
 
 ### Diagnostics

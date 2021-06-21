@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/classes/extends-lefthandside/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/classes/extends-lefthandside/gen/new_arg
+- Regenerated: 2021-06-12
+- From: d
+- Path: g
 > :: test: new arg
 > :: case: async a => b
 ## Options
@@ -35,11 +35,11 @@ new async a => b
                 },
                 "expression": {
                     "kind": 271,
-                    "arrowToken": {
-                        "kind": 10,
+                    "asyncKeyword": {
+                        "kind": 82031,
                         "flags": 64,
-                        "start": 11,
-                        "end": 14
+                        "start": 3,
+                        "end": 9
                     },
                     "typeParameters": null,
                     "parameters": {
@@ -50,13 +50,13 @@ new async a => b
                         "start": 9,
                         "end": 11
                     },
-                    "asyncKeyword": {
-                        "kind": 82031,
-                        "flags": 64,
-                        "start": 3,
-                        "end": 9
-                    },
                     "returnType": null,
+                    "arrowToken": {
+                        "kind": 10,
+                        "flags": 64,
+                        "start": 11,
+                        "end": 14
+                    },
                     "contents": {
                         "kind": 134299649,
                         "text": "b",
@@ -92,7 +92,7 @@ new async a => b
 
 ```javascript
 
-new  async a =>  b();
+ new a =>b; 
 ```
 
 ### Diagnostics

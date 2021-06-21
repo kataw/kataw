@@ -90,7 +90,7 @@ x = {...a,}
 
 ```javascript
 
-x = { ...a };
+ x={  }; 
 ```
 
 ### Diagnostics

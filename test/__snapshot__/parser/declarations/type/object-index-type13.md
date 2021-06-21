@@ -241,7 +241,7 @@ type X = {[|(x) =>x&symbol[][x|y]]: string,};
 
 ```javascript
 
-
+  
 ```
 
 ### Diagnostics

@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/declarations/class/special_keys/autogen.md
-- Path: kataw/test/__snapshot__/parser/declarations/class/special_keys/gen/as_static_getter_in_class
+- Regenerated: 2021-06-12
+- From: d
+- Path: s
 > :: test: as static getter in class
 > :: case: public
 ## Options
@@ -52,7 +52,6 @@ class x {static get public(){}}
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": null,
                             "staticKeyword": {
                                 "kind": 8388716,
                                 "flags": 64,
@@ -67,6 +66,7 @@ class x {static get public(){}}
                                 "end": 19
                             },
                             "getKeyword": null,
+                            "asteriskToken": null,
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -78,7 +78,7 @@ class x {static get public(){}}
                                     "end": 26
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -136,9 +136,10 @@ class x {static get public(){}}
 
 ```javascript
 
-class x {
-  static get static public {}
-}
+ class x {
+    static get public() {
+    }
+} 
 ```
 
 ### Diagnostics

@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/miscellaneous/destructuring/positive-cases/autogen.md
-- Path: kataw/test/__snapshot__/parser/miscellaneous/destructuring/positive-cases/gen/try_catch
+- Regenerated: 2021-06-12
+- From: d
+- Path: h
 > :: test: try catch
 > :: case: {arguments: x, ...z}
 ## Options
@@ -59,7 +59,6 @@ try {} catch({arguments: x, ...z}) {}
                         "properties": [
                             {
                                 "kind": 329,
-                                "ellipsisToken": null,
                                 "key": {
                                     "kind": 134299649,
                                     "text": "arguments",
@@ -151,12 +150,11 @@ try {} catch({arguments: x, ...z}) {}
 
 ```javascript
 
-try {
-} catch ({
-  arguments: x,
-  ...z
-}) {
-}
+ try {  }
+catch ({
+    arguments : x,
+    ...z
+}){  } 
 ```
 
 ### Diagnostics

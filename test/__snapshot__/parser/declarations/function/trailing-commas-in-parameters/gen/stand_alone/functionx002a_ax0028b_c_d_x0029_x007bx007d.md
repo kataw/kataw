@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/declarations/function/trailing-commas-in-parameters/autogen.md
-- Path: kataw/test/__snapshot__/parser/declarations/function/trailing-commas-in-parameters/gen/stand_alone
+- Regenerated: 2021-06-12
+- From: d
+- Path: e
 > :: test: stand alone
 > :: case: function* a(b,c,d,) {}
 ## Options
@@ -114,7 +114,8 @@ function* a(b,c,d,) {}
 
 ```javascript
 
-function * a() {}
+ function* a(b, c, d) {
+} 
 ```
 
 ### Diagnostics

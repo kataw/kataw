@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/declarations/function/async-generator-errors/autogen.md
-- Path: kataw/test/__snapshot__/parser/declarations/function/async-generator-errors/gen/declaration
+- Regenerated: 2021-06-12
+- From: d
+- Path: n
 > :: test: declaration
 > :: case: + yield
 ## Options
@@ -129,9 +129,9 @@ async function * gen() {+ yield}
 
 ```javascript
 
-async function * gen() {
-  + yield;
-}
+ async function* gen() {
+;
+} 
 ```
 
 ### Diagnostics

@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/arrow/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/arrow/gen/conditional
+- Regenerated: 2021-06-12
+- From: d
+- Path: l
 > :: test: conditional
 > :: case: eval => { 'use strict'; 0 }
 ## Options
@@ -30,12 +30,7 @@ eval => { 'use strict'; 0 } , bar;
                 "expressions": [
                     {
                         "kind": 271,
-                        "arrowToken": {
-                            "kind": 10,
-                            "flags": 64,
-                            "start": 4,
-                            "end": 7
-                        },
+                        "asyncKeyword": null,
                         "typeParameters": null,
                         "parameters": {
                             "kind": 134299649,
@@ -45,8 +40,13 @@ eval => { 'use strict'; 0 } , bar;
                             "start": 0,
                             "end": 4
                         },
-                        "asyncKeyword": null,
                         "returnType": null,
+                        "arrowToken": {
+                            "kind": 10,
+                            "flags": 64,
+                            "start": 4,
+                            "end": 7
+                        },
                         "contents": {
                             "kind": 216,
                             "functionStatementList": {
@@ -120,9 +120,9 @@ eval => { 'use strict'; 0 } , bar;
 
 ```javascript
 
-eval =>  {
-  0;
-}, bar;
+ eval => {
+0;
+}, bar; 
 ```
 
 ### Diagnostics

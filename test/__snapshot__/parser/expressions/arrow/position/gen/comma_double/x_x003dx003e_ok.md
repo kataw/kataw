@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/arrow/position/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/arrow/position/gen/comma_double
+- Regenerated: 2021-06-12
+- From: d
+- Path: e
 > :: test: comma double
 > :: case: x => ok
 ## Options
@@ -30,12 +30,7 @@ x => ok, x => ok
                 "expressions": [
                     {
                         "kind": 271,
-                        "arrowToken": {
-                            "kind": 10,
-                            "flags": 64,
-                            "start": 1,
-                            "end": 4
-                        },
+                        "asyncKeyword": null,
                         "typeParameters": null,
                         "parameters": {
                             "kind": 134299649,
@@ -45,8 +40,13 @@ x => ok, x => ok
                             "start": 0,
                             "end": 1
                         },
-                        "asyncKeyword": null,
                         "returnType": null,
+                        "arrowToken": {
+                            "kind": 10,
+                            "flags": 64,
+                            "start": 1,
+                            "end": 4
+                        },
                         "contents": {
                             "kind": 134299649,
                             "text": "ok",
@@ -61,12 +61,7 @@ x => ok, x => ok
                     },
                     {
                         "kind": 271,
-                        "arrowToken": {
-                            "kind": 10,
-                            "flags": 64,
-                            "start": 10,
-                            "end": 13
-                        },
+                        "asyncKeyword": null,
                         "typeParameters": null,
                         "parameters": {
                             "kind": 134299649,
@@ -76,8 +71,13 @@ x => ok, x => ok
                             "start": 8,
                             "end": 10
                         },
-                        "asyncKeyword": null,
                         "returnType": null,
+                        "arrowToken": {
+                            "kind": 10,
+                            "flags": 64,
+                            "start": 10,
+                            "end": 13
+                        },
                         "contents": {
                             "kind": 134299649,
                             "text": "ok",
@@ -113,7 +113,7 @@ x => ok, x => ok
 
 ```javascript
 
-x =>  ok, x =>  ok;
+ x =>ok, x =>ok; 
 ```
 
 ### Diagnostics

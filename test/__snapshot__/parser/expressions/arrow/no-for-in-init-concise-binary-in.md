@@ -25,16 +25,16 @@ for (() => x in y;;);
             },
             "initializer": {
                 "kind": 271,
+                "asyncKeyword": null,
+                "typeParameters": null,
+                "parameters": [],
+                "returnType": null,
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
                     "start": 7,
                     "end": 10
                 },
-                "typeParameters": null,
-                "parameters": [],
-                "asyncKeyword": null,
-                "returnType": null,
                 "contents": {
                     "kind": 198,
                     "left": {
@@ -93,7 +93,7 @@ for (() => x in y;;);
 
 ```javascript
 
-for (() =>  x in y; ; );
+ for(() =>x in y;;); 
 ```
 
 ### Diagnostics

@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/miscellaneous/should-pass/autogen.md
-- Path: kataw/test/__snapshot__/parser/miscellaneous/should-pass/gen/stand-alone
+- Regenerated: 2021-06-12
+- From: d
+- Path: e
 > :: test: stand-alone
 > :: case: fn = ({text = "default", ...props}) => text + props.children
 ## Options
@@ -43,12 +43,7 @@ fn = ({text = "default", ...props}) => text + props.children
                 },
                 "right": {
                     "kind": 271,
-                    "arrowToken": {
-                        "kind": 10,
-                        "flags": 64,
-                        "start": 35,
-                        "end": 38
-                    },
+                    "asyncKeyword": null,
                     "typeParameters": null,
                     "parameters": [
                         {
@@ -115,8 +110,13 @@ fn = ({text = "default", ...props}) => text + props.children
                             "end": 34
                         }
                     ],
-                    "asyncKeyword": null,
                     "returnType": null,
+                    "arrowToken": {
+                        "kind": 10,
+                        "flags": 64,
+                        "start": 35,
+                        "end": 38
+                    },
                     "contents": {
                         "kind": 198,
                         "left": {
@@ -185,10 +185,10 @@ fn = ({text = "default", ...props}) => text + props.children
 
 ```javascript
 
-fn = ({
-  text = "\"default\"",
-  ...props
-}) =>  text + props.children;
+ fn=({
+        text = "default",
+        ...props
+    }) =>text + props.children; 
 ```
 
 ### Diagnostics

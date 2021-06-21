@@ -159,9 +159,9 @@ function *g() { yield {...(x,y),}}
 
 ```javascript
 
-function * g() {
-  yield { ...(x, y) };
-}
+ function* g() {
+yield {  };
+} 
 ```
 
 ### Diagnostics

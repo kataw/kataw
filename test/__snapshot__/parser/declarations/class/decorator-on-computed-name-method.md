@@ -59,7 +59,7 @@ class A {
                                         "expression": {
                                             "kind": 131,
                                             "expression": {
-                                                "kind": 536871042,
+                                                "kind": 130,
                                                 "member": {
                                                     "kind": 134299649,
                                                     "text": "dec",
@@ -76,7 +76,7 @@ class A {
                                                     "start": 20,
                                                     "end": 26
                                                 },
-                                                "flags": 32,
+                                                "flags": 536870944,
                                                 "start": 13,
                                                 "end": 27
                                             },

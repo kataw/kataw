@@ -171,7 +171,7 @@ type X = (?x.y<z>[]);
 
 ```javascript
 
-
+  
 ```
 
 ### Diagnostics

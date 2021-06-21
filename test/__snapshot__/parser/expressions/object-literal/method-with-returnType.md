@@ -47,9 +47,9 @@ a={get fooProp():number{}}
                         "kind": 218,
                         "properties": [
                             {
-                                "kind": 257,
+                                "kind": 351,
                                 "asyncKeyword": null,
-                                "generatorToken": null,
+                                "asteriskToken": null,
                                 "getKeyword": {
                                     "kind": 16498,
                                     "flags": 96,
@@ -68,7 +68,7 @@ a={get fooProp():number{}}
                                         "end": 14
                                     },
                                     "typeParameters": null,
-                                    "formalParameters": {
+                                    "formalParameterList": {
                                         "kind": 214,
                                         "formalParameters": [],
                                         "trailingComma": false,
@@ -144,7 +144,8 @@ a={get fooProp():number{}}
 
 ```javascript
 
-a = { get fooProp {} };
+ a={ get fooProp(): number {
+    } }; 
 ```
 
 ### Diagnostics

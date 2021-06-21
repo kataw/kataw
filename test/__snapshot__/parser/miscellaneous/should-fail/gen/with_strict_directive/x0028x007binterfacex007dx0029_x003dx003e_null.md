@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/miscellaneous/should-fail/autogen.md
-- Path: kataw/test/__snapshot__/parser/miscellaneous/should-fail/gen/with_strict_directive
+- Regenerated: 2021-06-12
+- From: d
+- Path: e
 > :: test: with strict directive
 > :: case: ({interface}) => null
 ## Options
@@ -36,12 +36,7 @@
             "kind": 120,
             "expression": {
                 "kind": 271,
-                "arrowToken": {
-                    "kind": 10,
-                    "flags": 64,
-                    "start": 27,
-                    "end": 30
-                },
+                "asyncKeyword": null,
                 "typeParameters": null,
                 "parameters": [
                     {
@@ -68,8 +63,13 @@
                         "end": 26
                     }
                 ],
-                "asyncKeyword": null,
                 "returnType": null,
+                "arrowToken": {
+                    "kind": 10,
+                    "flags": 64,
+                    "start": 27,
+                    "end": 30
+                },
                 "contents": {
                     "kind": 138477575,
                     "flags": 96,
@@ -98,9 +98,9 @@
 
 ```javascript
 
-({
-  interface
-}) =>  null;
+"use strict" ({
+        interface
+    }) =>null; 
 ```
 
 ### Diagnostics

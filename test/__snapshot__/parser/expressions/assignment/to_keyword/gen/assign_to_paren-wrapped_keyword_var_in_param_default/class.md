@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/assignment/to_keyword/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/assignment/to_keyword/gen/assign_to_paren-wrapped_keyword_var_in_param_default
+- Regenerated: 2021-06-12
+- From: d
+- Path: t
 > :: test: assign to paren-wrapped keyword var in param default
 > :: case: class
 ## Options
@@ -27,12 +27,7 @@
             "kind": 120,
             "expression": {
                 "kind": 271,
-                "arrowToken": {
-                    "kind": 10,
-                    "flags": 64,
-                    "start": 17,
-                    "end": 20
-                },
+                "asyncKeyword": null,
                 "typeParameters": null,
                 "parameters": [
                     {
@@ -108,8 +103,13 @@
                         "end": 16
                     }
                 ],
-                "asyncKeyword": null,
                 "returnType": null,
+                "arrowToken": {
+                    "kind": 10,
+                    "flags": 64,
+                    "start": 17,
+                    "end": 20
+                },
                 "contents": {
                     "kind": 216,
                     "functionStatementList": {

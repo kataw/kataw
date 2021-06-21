@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/classes/class-fields/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/classes/class-fields/gen/expression_paren
+- Regenerated: 2021-06-12
+- From: d
+- Path: n
 > :: test: expression_paren
 > :: case: await = 0;
 ## Options
@@ -113,10 +113,9 @@
 
 ```javascript
 
-(class  {
-    await = 0;
-
-  });
+ (class  {
+    await = 0,
+}); 
 ```
 
 ### Diagnostics

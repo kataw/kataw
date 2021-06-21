@@ -1178,39 +1178,23 @@ function x8(a: false & false): false {
 
 ```javascript
 
-function x0(): number {
-  return  +y; // ok, + exists solely for coercion
-
-}
-function x1(): number {
-  return  -y; // error, we don't allow coercion here
-
-}
-function x3() {
-  return  ~y; // error, we don't allow coercion here
-
-}
-function x4(): boolean {
-  return  !y; // ok, coercion is allowed
-
-}
-function x5(): true {
-  return  !a; // ok
-
-}
-function x6(): false {
-  return  !a; // error, true ~> false
-
-}
-function x7(): true {
-  return  !a; // ok
-
-}
-function x8(): false {
-  return  !a; // error, true ~> false
-
-}
-
+ function x0(): number {
+return ;// ok, + exists solely for coercion
+}, function x1(): number {
+return ;// error, we don't allow coercion here
+}, function x3() {
+return ;// error, we don't allow coercion here
+}, function x4(): boolean {
+return ;// ok, coercion is allowed
+}, function x5(): true {
+return ;// ok
+}, ;, function x6(): false {
+return ;// error, true ~> false
+}, ;, function x7(): true {
+return ;// ok
+}, ;, function x8(): false {
+return ;// error, true ~> false
+}, ; 
 ```
 
 ### Diagnostics

@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/yield/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/yield/gen/function_generator
+- Regenerated: 2021-06-12
+- From: d
+- Path: r
 > :: test: function generator
 > :: case: yield * 1; return 37; yield * 'dead';
 ## Options
@@ -226,13 +226,13 @@ function * gen() { function not_gen() { yield * 1; return 37; yield * 'dead'; }}
 
 ```javascript
 
-function * gen() {
-  function not_gen() {
-    yield * 1;
-    return  37;
-    yield * "'dead'";
-  }
+ function* gen() {
+function not_gen() {
+yield * 1;,
+return 37;,
+yield * 'dead';
 }
+} 
 ```
 
 ### Diagnostics

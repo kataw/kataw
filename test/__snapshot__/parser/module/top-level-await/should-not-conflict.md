@@ -121,8 +121,7 @@ await x;
 
 ```javascript
 
-export const x = 1;
-await x;
+ , await x; 
 ```
 
 ### Diagnostics

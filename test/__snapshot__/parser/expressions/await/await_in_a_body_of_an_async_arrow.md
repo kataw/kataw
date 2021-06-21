@@ -39,11 +39,11 @@ let y = async x => { await x; }
                         "type": null,
                         "initializer": {
                             "kind": 271,
-                            "arrowToken": {
-                                "kind": 10,
+                            "asyncKeyword": {
+                                "kind": 82031,
                                 "flags": 64,
-                                "start": 15,
-                                "end": 18
+                                "start": 7,
+                                "end": 13
                             },
                             "typeParameters": null,
                             "parameters": {
@@ -54,13 +54,13 @@ let y = async x => { await x; }
                                 "start": 13,
                                 "end": 15
                             },
-                            "asyncKeyword": {
-                                "kind": 82031,
-                                "flags": 64,
-                                "start": 7,
-                                "end": 13
-                            },
                             "returnType": null,
+                            "arrowToken": {
+                                "kind": 10,
+                                "flags": 64,
+                                "start": 15,
+                                "end": 18
+                            },
                             "contents": {
                                 "kind": 216,
                                 "functionStatementList": {
@@ -133,9 +133,9 @@ let y = async x => { await x; }
 
 ```javascript
 
-let y = async x =>  {
-  await x;
-};
+ let y = x => {
+await x;
+}; 
 ```
 
 ### Diagnostics

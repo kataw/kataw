@@ -148,7 +148,7 @@ type X = (await:string) => T;
 
 ```javascript
 
-
+  
 ```
 
 ### Diagnostics

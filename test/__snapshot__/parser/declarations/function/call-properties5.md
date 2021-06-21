@@ -288,9 +288,9 @@ var c: { (): string; (x: number): string } =
 
 ```javascript
 
-var c:  = function (): string {
-  return  "\"hi\"";
-};
+ var c  = function (): string {
+return "hi";
+}; 
 ```
 
 ### Diagnostics

@@ -90,7 +90,7 @@ new a ? b : c
 
 ```javascript
 
-new  a() ? b : c;
+ new a ? b : c; 
 ```
 
 ### Diagnostics

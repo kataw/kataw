@@ -71,7 +71,7 @@ async function f(){
                                 "end": 31
                             },
                             "initializer": {
-                                "kind": 536871042,
+                                "kind": 130,
                                 "member": {
                                     "kind": 177,
                                     "asyncKeyword": null,
@@ -139,7 +139,7 @@ async function f(){
                                     "start": 47,
                                     "end": 53
                                 },
-                                "flags": 32,
+                                "flags": 536870944,
                                 "start": 33,
                                 "end": 54
                             },
@@ -195,9 +195,10 @@ async function f(){
 
 ```javascript
 
-async function f() {
-  for await ( of x);
-}
+ async function f() {
+for await(function () {
+}[x in y] of x) ;
+} 
 ```
 
 ### Diagnostics

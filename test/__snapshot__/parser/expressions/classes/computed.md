@@ -44,11 +44,11 @@ class A { [x=y](foo) {} }
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": null,
                             "getKeyword": null,
+                            "asteriskToken": null,
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -86,7 +86,7 @@ class A { [x=y](foo) {} }
                                     "end": 15
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [
                                         {
@@ -153,9 +153,10 @@ class A { [x=y](foo) {} }
 
 ```javascript
 
-class A {
-  [x = y] {}
-}
+ class A {
+    (foo) {
+    }
+} 
 ```
 
 ### Diagnostics

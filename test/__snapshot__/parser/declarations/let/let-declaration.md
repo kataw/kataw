@@ -118,8 +118,7 @@ let a, b = 42, c;b;
 
 ```javascript
 
-let a, b = 42, c;
-b;
+ let a, b = 42, c;, b; 
 ```
 
 ### Diagnostics

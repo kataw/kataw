@@ -142,9 +142,9 @@ function *f(){ return [...yield]; }
 
 ```javascript
 
-function * f() {
-  return  [... yield];
-}
+ function* f() {
+return [...yield];
+} 
 ```
 
 ### Diagnostics

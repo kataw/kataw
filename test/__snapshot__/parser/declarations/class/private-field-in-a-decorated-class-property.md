@@ -119,16 +119,16 @@ class Example {
                             "type": null,
                             "initializer": {
                                 "kind": 271,
+                                "asyncKeyword": null,
+                                "typeParameters": null,
+                                "parameters": [],
+                                "returnType": null,
                                 "arrowToken": {
                                     "kind": 10,
                                     "flags": 64,
                                     "start": 55,
                                     "end": 58
                                 },
-                                "typeParameters": null,
-                                "parameters": [],
-                                "asyncKeyword": null,
-                                "returnType": null,
                                 "contents": {
                                     "kind": 216,
                                     "functionStatementList": {
@@ -217,15 +217,13 @@ class Example {
 
 ```javascript
 
-class Example {
-  #priv;
-
-  @anydecorator
-  method = () =>  {
-      return  this.#priv;
-    };
-
-}
+ class Example {
+    #priv,
+    ,
+    method = () => {
+    return this.#priv;
+    },
+} 
 ```
 
 ### Diagnostics

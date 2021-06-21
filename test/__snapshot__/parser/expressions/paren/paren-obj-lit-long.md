@@ -408,11 +408,7 @@
 
 ```javascript
 
-({ ...(obj) } = foo),
-  ({ ...obj } = foo),
-  ({ ...obj.x } = foo),
-  ({ ...{}.x } = foo),
-  ({ ...[].x } = foo);
+ ({  }=foo), ({  }=foo), ({  }=foo), ({  }=foo), ({  }=foo); 
 ```
 
 ### Diagnostics

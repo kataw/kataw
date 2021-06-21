@@ -131,7 +131,7 @@ declare class Foo {
 
 ```javascript
 
-declare class Foo TODO!
+ declare class Foo {} 
 ```
 
 ### Diagnostics

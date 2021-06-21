@@ -84,7 +84,7 @@ for (async.x of y);
 
 ```javascript
 
-for (async.x of y);
+ for(async.x of y) ; 
 ```
 
 ### Diagnostics

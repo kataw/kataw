@@ -81,7 +81,6 @@ class A {
                                 "start": 9,
                                 "end": 16
                             },
-                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": null,
@@ -91,6 +90,7 @@ class A {
                                 "start": 9,
                                 "end": 20
                             },
+                            "asteriskToken": null,
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -102,7 +102,7 @@ class A {
                                     "end": 27
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [
                                         {
@@ -169,10 +169,10 @@ class A {
 
 ```javascript
 
-class A {
-  @foo
-  set setter {}
-}
+ class A {
+    set setter(_val) {
+    }
+} 
 ```
 
 ### Diagnostics

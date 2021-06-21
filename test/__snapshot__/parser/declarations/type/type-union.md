@@ -752,10 +752,7 @@ type overloads2 = {
 
 ```javascript
 
-
-
-
-
+ , , ,  
 ```
 
 ### Diagnostics

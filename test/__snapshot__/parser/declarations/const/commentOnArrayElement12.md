@@ -101,7 +101,7 @@ const array = [
 
 ```javascript
 
-const array = [, ,] /* comment */;
+ const array = [, ]; 
 ```
 
 ### Diagnostics

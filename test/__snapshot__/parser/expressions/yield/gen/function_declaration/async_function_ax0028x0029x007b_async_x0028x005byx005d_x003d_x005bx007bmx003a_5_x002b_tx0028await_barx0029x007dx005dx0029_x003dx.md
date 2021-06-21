@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/yield/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/yield/gen/function_declaration
+- Regenerated: 2021-06-12
+- From: d
+- Path: n
 > :: test: function declaration
 > :: case: async function a(){     async ([y] = [{m: 5 + t(await bar)}]) => {}     }
 ## Options
@@ -98,11 +98,11 @@ function not_gen() { async function a(){     async ([y] = [{m: 5 + t(await bar)}
                                     "statements": [
                                         {
                                             "kind": 271,
-                                            "arrowToken": {
-                                                "kind": 10,
+                                            "asyncKeyword": {
+                                                "kind": 82031,
                                                 "flags": 64,
-                                                "start": 82,
-                                                "end": 85
+                                                "start": 40,
+                                                "end": 50
                                             },
                                             "typeParameters": null,
                                             "parameters": [
@@ -247,13 +247,13 @@ function not_gen() { async function a(){     async ([y] = [{m: 5 + t(await bar)}
                                                     "end": 81
                                                 }
                                             ],
-                                            "asyncKeyword": {
-                                                "kind": 82031,
-                                                "flags": 64,
-                                                "start": 40,
-                                                "end": 50
-                                            },
                                             "returnType": null,
+                                            "arrowToken": {
+                                                "kind": 10,
+                                                "flags": 64,
+                                                "start": 82,
+                                                "end": 85
+                                            },
                                             "contents": {
                                                 "kind": 216,
                                                 "functionStatementList": {

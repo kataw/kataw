@@ -475,12 +475,7 @@ n4 = z2;
                         "type": null,
                         "initializer": {
                             "kind": 271,
-                            "arrowToken": {
-                                "kind": 10,
-                                "flags": 64,
-                                "start": 972,
-                                "end": 975
-                            },
+                            "asyncKeyword": null,
                             "typeParameters": null,
                             "parameters": [
                                 {
@@ -546,8 +541,13 @@ n4 = z2;
                                     "end": 971
                                 }
                             ],
-                            "asyncKeyword": null,
                             "returnType": null,
+                            "arrowToken": {
+                                "kind": 10,
+                                "flags": 64,
+                                "start": 972,
+                                "end": 975
+                            },
                             "contents": {
                                 "kind": 198,
                                 "left": {
@@ -904,38 +904,13 @@ n4 = z2;
 ### Printed
 
 ```javascript
+
 /** Variable comments*/
-
-var myVariable = 10; // This trailing Comment1
-
-/** This is another variable comment*/
-var anotherVariable = 30;
-// shouldn't appear
-var aVar = "\"\"";
-/** this is multiline comment
-  * All these variables are of number type */
-var anotherAnotherVariable = 70; /* these are multiple trailing comments */ /* multiple trailing comments */
-/** Triple slash multiline comment*/
-/** another line in the comment*/
-/** comment line 2*/
-var x = 70; /* multiline trailing comment
-this is multiline trailing comment */
-/** Triple slash comment on the assignment shouldnt be in .d.ts file*/
-x = myVariable;
-/** triple slash comment1*/
-/** jsdocstyle comment - only this comment should be in .d.ts file*/
-var n = 30;
-/** var deckaration with comment on type as well*/
-var y = 20;
-/// var deckaration with comment on type as well
-var yy = /// value comment
-20;
-/** comment2 */
-var z = (/** lambda comment */ x, /** lambda comment */ y) =>  x + y;
-var z2: ;
-var x2 = z2;
-var n4: ;
-n4 = z2;
+ var myVariable = 10;// This trailing Comment1
+, // This trailing Comment1
+var anotherVariable = 30;, var aVar = "";, var anotherAnotherVariable = 70;/* these are multiple trailing comments */ /* multiple trailing comments */, /* these are multiple trailing comments */ /* multiple trailing comments */var x = 70;/* multiline trailing comment
+this is multiline trailing comment */, /* multiline trailing comment
+this is multiline trailing comment */x=myVariable;, var n = 30;, var y =/** value comment */ 20;, var yy = 20;, var z =/** lambda comment */ (/** lambda comment */x: number, /** lambda comment */y: number) =>x + y;, var z2 ;, var x2 = z2;, var n4 ;, n4=z2; 
 ```
 
 ### Diagnostics

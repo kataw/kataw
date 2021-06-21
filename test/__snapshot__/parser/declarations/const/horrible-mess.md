@@ -49,12 +49,7 @@ const processArgs =
                         "type": null,
                         "initializer": {
                             "kind": 271,
-                            "arrowToken": {
-                                "kind": 10,
-                                "flags": 64,
-                                "start": 65,
-                                "end": 68
-                            },
+                            "asyncKeyword": null,
                             "typeParameters": {
                                 "kind": 307,
                                 "declarations": {
@@ -243,16 +238,16 @@ const processArgs =
                                     "end": 64
                                 }
                             ],
-                            "asyncKeyword": null,
                             "returnType": null,
+                            "arrowToken": {
+                                "kind": 10,
+                                "flags": 64,
+                                "start": 65,
+                                "end": 68
+                            },
                             "contents": {
                                 "kind": 271,
-                                "arrowToken": {
-                                    "kind": 10,
-                                    "flags": 64,
-                                    "start": 119,
-                                    "end": 122
-                                },
+                                "asyncKeyword": null,
                                 "typeParameters": {
                                     "kind": 307,
                                     "declarations": {
@@ -503,16 +498,16 @@ const processArgs =
                                         "end": 118
                                     }
                                 ],
-                                "asyncKeyword": null,
                                 "returnType": null,
+                                "arrowToken": {
+                                    "kind": 10,
+                                    "flags": 64,
+                                    "start": 119,
+                                    "end": 122
+                                },
                                 "contents": {
                                     "kind": 271,
-                                    "arrowToken": {
-                                        "kind": 10,
-                                        "flags": 64,
-                                        "start": 193,
-                                        "end": 196
-                                    },
+                                    "asyncKeyword": null,
                                     "typeParameters": null,
                                     "parameters": [
                                         {
@@ -676,7 +671,6 @@ const processArgs =
                                             "end": 166
                                         }
                                     ],
-                                    "asyncKeyword": null,
                                     "returnType": {
                                         "kind": 139,
                                         "bitwiseOrToken": null,
@@ -829,6 +823,12 @@ const processArgs =
                                         "start": 168,
                                         "end": 193
                                     },
+                                    "arrowToken": {
+                                        "kind": 10,
+                                        "flags": 64,
+                                        "start": 193,
+                                        "end": 196
+                                    },
                                     "contents": {
                                         "kind": 131,
                                         "expression": {
@@ -946,10 +946,7 @@ const processArgs =
 
 ```javascript
 
-const processArgs = (process) =>  (resolver) =>  (src,
-args,
-appContext,
-info) =>  resolver(src, process(args), appContext, info);
+ const processArgs = (process: ) =>(resolver: Resolver) =>(src: S, args: A1, appContext: C, info: I): Resolver =>; 
 ```
 
 ### Diagnostics

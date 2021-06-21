@@ -44,7 +44,6 @@ class C { static set #aaa(x){} }
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": null,
                             "staticKeyword": {
                                 "kind": 8388716,
                                 "flags": 64,
@@ -59,6 +58,7 @@ class C { static set #aaa(x){} }
                                 "start": 16,
                                 "end": 20
                             },
+                            "asteriskToken": null,
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -70,7 +70,7 @@ class C { static set #aaa(x){} }
                                     "end": 25
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [
                                         {
@@ -137,9 +137,10 @@ class C { static set #aaa(x){} }
 
 ```javascript
 
-class C {
-  static set static #aaa {}
-}
+ class C {
+    static set #aaa(x) {
+    }
+} 
 ```
 
 ### Diagnostics

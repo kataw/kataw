@@ -151,7 +151,7 @@ class Foo {
                                                 "kind": 256,
                                                 "elements": [
                                                     {
-                                                        "kind": 536871042,
+                                                        "kind": 130,
                                                         "member": {
                                                             "kind": 134299649,
                                                             "text": "member",
@@ -168,7 +168,7 @@ class Foo {
                                                             "start": 36,
                                                             "end": 46
                                                         },
-                                                        "flags": 32,
+                                                        "flags": 536870944,
                                                         "start": 29,
                                                         "end": 47
                                                     }
@@ -191,11 +191,11 @@ class Foo {
                                 "start": 24,
                                 "end": 48
                             },
-                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": null,
                             "getKeyword": null,
+                            "asteriskToken": null,
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -207,7 +207,7 @@ class Foo {
                                     "end": 55
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -312,11 +312,11 @@ class Foo {
                                 "start": 60,
                                 "end": 76
                             },
-                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": null,
                             "getKeyword": null,
+                            "asteriskToken": null,
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -328,7 +328,7 @@ class Foo {
                                     "end": 84
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,

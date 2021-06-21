@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/arrow/position/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/arrow/position/gen/rhs_pow
+- Regenerated: 2021-06-12
+- From: d
+- Path: w
 > :: test: rhs pow
 > :: case: async (x, y) => ok
 ## Options
@@ -43,11 +43,11 @@ x ** async (x, y) => ok
                 },
                 "right": {
                     "kind": 271,
-                    "arrowToken": {
-                        "kind": 10,
+                    "asyncKeyword": {
+                        "kind": 82031,
                         "flags": 64,
-                        "start": 17,
-                        "end": 20
+                        "start": 4,
+                        "end": 10
                     },
                     "typeParameters": null,
                     "parameters": [
@@ -68,13 +68,13 @@ x ** async (x, y) => ok
                             "end": 16
                         }
                     ],
-                    "asyncKeyword": {
-                        "kind": 82031,
-                        "flags": 64,
-                        "start": 4,
-                        "end": 10
-                    },
                     "returnType": null,
+                    "arrowToken": {
+                        "kind": 10,
+                        "flags": 64,
+                        "start": 17,
+                        "end": 20
+                    },
                     "contents": {
                         "kind": 134299649,
                         "text": "ok",

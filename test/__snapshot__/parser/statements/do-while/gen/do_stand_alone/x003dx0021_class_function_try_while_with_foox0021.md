@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/statements/do-while/autogen.md
-- Path: kataw/test/__snapshot__/parser/statements/do-while/gen/do_stand_alone
+- Regenerated: 2021-06-12
+- From: d
+- Path: e
 > :: test: do stand alone
 > :: case: =! class function try while with foo!
 ## Options

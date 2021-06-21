@@ -156,7 +156,7 @@ type a = ((x & y)) => T;
 
 ```javascript
 
-
+  
 ```
 
 ### Diagnostics

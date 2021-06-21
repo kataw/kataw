@@ -51,11 +51,11 @@ class A {
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": null,
                             "getKeyword": null,
+                            "asteriskToken": null,
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -67,7 +67,7 @@ class A {
                                     "end": 23
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -149,11 +149,11 @@ class A {
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": null,
                             "getKeyword": null,
+                            "asteriskToken": null,
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -165,7 +165,7 @@ class A {
                                     "end": 66
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -276,14 +276,14 @@ class A {
 
 ```javascript
 
-class A {
-  constructor {
-    super.toString();
-  }
-  dontDoThis {
-    super.makeBugs = 1;
-  }
-}
+ class A {
+    constructor() {
+    ;
+    },
+    dontDoThis() {
+    .makeBugs=1;
+    }
+} 
 ```
 
 ### Diagnostics

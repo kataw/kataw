@@ -115,8 +115,7 @@ do wow: while (x) continue wow; while (x)
 
 ```javascript
 
-do wow: while (x) continue wow;
-while (x);
+ do wow: while (x) continue wow; while (x) 
 ```
 
 ### Diagnostics

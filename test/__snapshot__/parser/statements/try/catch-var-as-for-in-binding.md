@@ -72,28 +72,40 @@ try {} catch (e) { for (var e;;) {} }
                                     "end": 22
                                 },
                                 "initializer": {
-                                    "kind": 156,
-                                    "declarations": [
-                                        {
-                                            "kind": 157,
-                                            "binding": {
-                                                "kind": 134299649,
-                                                "text": "e",
-                                                "rawText": "e",
-                                                "flags": 96,
+                                    "kind": 341,
+                                    "varKeyword": {
+                                        "kind": 37757002,
+                                        "flags": 64,
+                                        "start": 24,
+                                        "end": 27
+                                    },
+                                    "declarationList": {
+                                        "kind": 156,
+                                        "declarations": [
+                                            {
+                                                "kind": 157,
+                                                "binding": {
+                                                    "kind": 134299649,
+                                                    "text": "e",
+                                                    "rawText": "e",
+                                                    "flags": 96,
+                                                    "start": 27,
+                                                    "end": 29
+                                                },
+                                                "type": null,
+                                                "initializer": null,
+                                                "flags": 16,
                                                 "start": 27,
                                                 "end": 29
-                                            },
-                                            "type": null,
-                                            "initializer": null,
-                                            "flags": 16,
-                                            "start": 27,
-                                            "end": 29
-                                        }
-                                    ],
+                                            }
+                                        ],
+                                        "flags": 16,
+                                        "start": 27,
+                                        "end": 29
+                                    },
                                     "flags": 16,
-                                    "start": 27,
-                                    "end": 29
+                                    "start": 18,
+                                    "end": 30
                                 },
                                 "condition": null,
                                 "incrementor": null,

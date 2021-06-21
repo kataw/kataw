@@ -119,12 +119,7 @@ var a: (number: number) => number = (number) => { return 123; }
                         },
                         "initializer": {
                             "kind": 271,
-                            "arrowToken": {
-                                "kind": 10,
-                                "flags": 64,
-                                "start": 44,
-                                "end": 47
-                            },
+                            "asyncKeyword": null,
                             "typeParameters": null,
                             "parameters": [
                                 {
@@ -136,8 +131,13 @@ var a: (number: number) => number = (number) => { return 123; }
                                     "end": 43
                                 }
                             ],
-                            "asyncKeyword": null,
                             "returnType": null,
+                            "arrowToken": {
+                                "kind": 10,
+                                "flags": 64,
+                                "start": 44,
+                                "end": 47
+                            },
                             "contents": {
                                 "kind": 216,
                                 "functionStatementList": {
@@ -204,9 +204,9 @@ var a: (number: number) => number = (number) => { return 123; }
 
 ```javascript
 
-var a:  = (number) =>  {
-  return  123;
-};
+ var a  = (number) => {
+return 123;
+}; 
 ```
 
 ### Diagnostics

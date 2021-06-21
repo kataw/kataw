@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/classes/extends-lefthandside/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/classes/extends-lefthandside/gen/generator_wrapped
+- Regenerated: 2021-06-12
+- From: d
+- Path: d
 > :: test: generator wrapped
 > :: case: fooo[bar]
 ## Options
@@ -94,7 +94,7 @@ function *P(){
                                         "end": 32
                                     },
                                     "expression": {
-                                        "kind": 536871042,
+                                        "kind": 130,
                                         "member": {
                                             "kind": 134299649,
                                             "text": "fooo",
@@ -111,7 +111,7 @@ function *P(){
                                             "start": 38,
                                             "end": 41
                                         },
-                                        "flags": 32,
+                                        "flags": 536870944,
                                         "start": 32,
                                         "end": 42
                                     },
@@ -163,9 +163,10 @@ function *P(){
 
 ```javascript
 
-function * P() {
-  class D  {}
+ function* P() {
+class D {
 }
+} 
 ```
 
 ### Diagnostics

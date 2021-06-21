@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/arrow/position/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/arrow/position/gen/double
+- Regenerated: 2021-06-12
+- From: d
+- Path: e
 > :: test: double
 > :: case: x => ok
 ## Options
@@ -27,12 +27,7 @@ x => ok x => ok
             "kind": 120,
             "expression": {
                 "kind": 271,
-                "arrowToken": {
-                    "kind": 10,
-                    "flags": 64,
-                    "start": 1,
-                    "end": 4
-                },
+                "asyncKeyword": null,
                 "typeParameters": null,
                 "parameters": {
                     "kind": 134299649,
@@ -42,8 +37,13 @@ x => ok x => ok
                     "start": 0,
                     "end": 1
                 },
-                "asyncKeyword": null,
                 "returnType": null,
+                "arrowToken": {
+                    "kind": 10,
+                    "flags": 64,
+                    "start": 1,
+                    "end": 4
+                },
                 "contents": {
                     "kind": 134299649,
                     "text": "ok",
@@ -64,12 +64,7 @@ x => ok x => ok
             "kind": 120,
             "expression": {
                 "kind": 271,
-                "arrowToken": {
-                    "kind": 10,
-                    "flags": 64,
-                    "start": 9,
-                    "end": 12
-                },
+                "asyncKeyword": null,
                 "typeParameters": null,
                 "parameters": {
                     "kind": 134299649,
@@ -79,8 +74,13 @@ x => ok x => ok
                     "start": 7,
                     "end": 9
                 },
-                "asyncKeyword": null,
                 "returnType": null,
+                "arrowToken": {
+                    "kind": 10,
+                    "flags": 64,
+                    "start": 9,
+                    "end": 12
+                },
                 "contents": {
                     "kind": 134299649,
                     "text": "ok",

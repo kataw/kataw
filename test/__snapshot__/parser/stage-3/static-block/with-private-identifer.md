@@ -169,11 +169,10 @@ class C {
 
 ```javascript
 
-class C {
-  static #x = 1;
-
-
-}
+ class C {
+    static #x = 1,
+    ,
+} 
 ```
 
 ### Diagnostics

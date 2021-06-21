@@ -153,7 +153,7 @@ type F = $Call<Fn1, number, string>;
 
 ```javascript
 
-
+  
 ```
 
 ### Diagnostics

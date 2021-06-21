@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/array-literal/keywords_should_not_parse_as_regular_idents_in_awkward_places/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/array-literal/keywords_should_not_parse_as_regular_idents_in_awkward_places/gen/in_destructuring_assignment_as_shorthand
+- Regenerated: 2021-06-12
+- From: d
+- Path: d
 > :: test: in destructuring assignment as shorthand
 > :: case: this
 ## Options

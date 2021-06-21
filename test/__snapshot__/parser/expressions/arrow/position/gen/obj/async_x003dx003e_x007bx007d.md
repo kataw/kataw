@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/arrow/position/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/arrow/position/gen/obj
+- Regenerated: 2021-06-12
+- From: d
+- Path: j
 > :: test: obj
 > :: case: async => {}
 ## Options
@@ -59,11 +59,11 @@ x = {arrow: async => {}}
                                 },
                                 "right": {
                                     "kind": 271,
-                                    "arrowToken": {
-                                        "kind": 10,
+                                    "asyncKeyword": {
+                                        "kind": 82031,
                                         "flags": 64,
-                                        "start": 17,
-                                        "end": 20
+                                        "start": 11,
+                                        "end": 17
                                     },
                                     "typeParameters": null,
                                     "parameters": {
@@ -74,13 +74,13 @@ x = {arrow: async => {}}
                                         "start": 11,
                                         "end": 17
                                     },
-                                    "asyncKeyword": {
-                                        "kind": 82031,
-                                        "flags": 64,
-                                        "start": 11,
-                                        "end": 17
-                                    },
                                     "returnType": null,
+                                    "arrowToken": {
+                                        "kind": 10,
+                                        "flags": 64,
+                                        "start": 17,
+                                        "end": 20
+                                    },
                                     "contents": {
                                         "kind": 216,
                                         "functionStatementList": {
@@ -135,7 +135,8 @@ x = {arrow: async => {}}
 
 ```javascript
 
-x = { arrow: async async =>  {} };
+ x={ arrow : async => {
+    } }; 
 ```
 
 ### Diagnostics

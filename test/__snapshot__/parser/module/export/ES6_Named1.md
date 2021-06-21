@@ -611,11 +611,11 @@ export const [destructuredArrNumber] = [1]
                                 "kind": 278,
                                 "declareToken": null,
                                 "decorators": null,
-                                "asteriskToken": null,
                                 "staticKeyword": null,
                                 "asyncKeyword": null,
                                 "setKeyword": null,
                                 "getKeyword": null,
+                                "asteriskToken": null,
                                 "method": {
                                     "kind": 209,
                                     "name": {
@@ -627,7 +627,7 @@ export const [destructuredArrNumber] = [1]
                                         "end": 421
                                     },
                                     "typeParameters": null,
-                                    "formalParameters": {
+                                    "formalParameterList": {
                                         "kind": 214,
                                         "formalParameters": [],
                                         "trailingComma": false,
@@ -1008,28 +1008,7 @@ export const [destructuredArrNumber] = [1]
 
 ```javascript
 
-const specifierNumber1 = 1;
-const specifierNumber2 = 2;
-const specifierNumber3 = 3;
-const groupedSpecifierNumber1 = 1;
-const groupedSpecifierNumber2 = 2;
-export { specifierNumber1 };
-export { specifierNumber2 as specifierNumber2Renamed };
-export { specifierNumber3 };
-export { groupedSpecifierNumber1, groupedSpecifierNumber2 };
-export function givesANumber(): number {
-  return  42;
-}
-export class NumberGenerator {
-  givesANumber {
-    return  42;
-  }
-}
-export const varDeclNumber1 = 1, varDeclNumber2 = 2;
-export const {
-  destructuredObjNumber
-} = { destructuredObjNumber: 1 };
-export const [destructuredArrNumber] = [1];
+ const specifierNumber1 = 1;, const specifierNumber2 = 2;, const specifierNumber3 = 3;, const groupedSpecifierNumber1 = 1;, const groupedSpecifierNumber2 = 2;, , , , , , ;, , ;, , ,  
 ```
 
 ### Diagnostics

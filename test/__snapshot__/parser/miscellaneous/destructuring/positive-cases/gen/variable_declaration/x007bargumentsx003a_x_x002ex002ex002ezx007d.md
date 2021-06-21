@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/miscellaneous/destructuring/positive-cases/autogen.md
-- Path: kataw/test/__snapshot__/parser/miscellaneous/destructuring/positive-cases/gen/variable_declaration
+- Regenerated: 2021-06-12
+- From: d
+- Path: n
 > :: test: variable declaration
 > :: case: {arguments: x, ...z}
 ## Options
@@ -44,7 +44,6 @@ var {arguments: x, ...z} = {};
                                 "properties": [
                                     {
                                         "kind": 329,
-                                        "ellipsisToken": null,
                                         "key": {
                                             "kind": 134299649,
                                             "text": "arguments",
@@ -141,10 +140,10 @@ var {arguments: x, ...z} = {};
 
 ```javascript
 
-var {
-  arguments: x,
-  ...z
-} = {};
+ var {
+    arguments : x,
+    ...z
+} = {  }; 
 ```
 
 ### Diagnostics

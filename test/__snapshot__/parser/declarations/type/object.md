@@ -122,7 +122,7 @@ type T = { [[foo]]: X }
 
 ```javascript
 
-
+  
 ```
 
 ### Diagnostics

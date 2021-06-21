@@ -132,7 +132,7 @@ var o: { [string]: number } = {};
 
 ```javascript
 
-var o:  = {};
+ var o  = {  }; 
 ```
 
 ### Diagnostics

@@ -111,7 +111,7 @@
 
 ```javascript
 
-+function f() {};
+ ; 
 ```
 
 ### Diagnostics

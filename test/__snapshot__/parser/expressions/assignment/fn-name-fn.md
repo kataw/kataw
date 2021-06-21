@@ -222,9 +222,9 @@ fn = function() {};
 
 ```javascript
 
-var xFn, fn;
-xFn = function x() {};
-fn = function () {};
+ var xFn, fn;, xFn=function x() {
+};, fn=function () {
+}; 
 ```
 
 ### Diagnostics

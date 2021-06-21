@@ -1743,7 +1743,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                     "end": 370
                 },
                 "consequent": {
-                    "kind": 536871042,
+                    "kind": 130,
                     "member": {
                         "kind": 134299649,
                         "text": "b",
@@ -1760,7 +1760,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                         "start": 373,
                         "end": 374
                     },
-                    "flags": 32,
+                    "flags": 536870944,
                     "start": 370,
                     "end": 375
                 },
@@ -1771,7 +1771,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                     "end": 377
                 },
                 "alternate": {
-                    "kind": 536871042,
+                    "kind": 130,
                     "member": {
                         "kind": 134299649,
                         "text": "b",
@@ -1788,7 +1788,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                         "start": 380,
                         "end": 381
                     },
-                    "flags": 32,
+                    "flags": 536870944,
                     "start": 377,
                     "end": 382
                 },
@@ -2256,7 +2256,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                                     "end": 471
                                 },
                                 "right": {
-                                    "kind": 536871042,
+                                    "kind": 130,
                                     "member": {
                                         "kind": 134299649,
                                         "text": "e",
@@ -2273,7 +2273,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                                         "start": 474,
                                         "end": 475
                                     },
-                                    "flags": 32,
+                                    "flags": 536870944,
                                     "start": 471,
                                     "end": 476
                                 },
@@ -2341,7 +2341,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                                     "end": 487
                                 },
                                 "right": {
-                                    "kind": 536871042,
+                                    "kind": 130,
                                     "member": {
                                         "kind": 134299649,
                                         "text": "e",
@@ -2358,7 +2358,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                                         "start": 490,
                                         "end": 491
                                     },
-                                    "flags": 32,
+                                    "flags": 536870944,
                                     "start": 487,
                                     "end": 492
                                 },
@@ -2892,7 +2892,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                     "end": 587
                 },
                 "alternate": {
-                    "kind": 536871042,
+                    "kind": 130,
                     "member": {
                         "kind": 134299649,
                         "text": "b",
@@ -2909,7 +2909,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                         "start": 590,
                         "end": 591
                     },
-                    "flags": 32,
+                    "flags": 536870944,
                     "start": 587,
                     "end": 592
                 },
@@ -3071,7 +3071,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                                     "end": 626
                                 },
                                 "right": {
-                                    "kind": 536871042,
+                                    "kind": 130,
                                     "member": {
                                         "kind": 134299649,
                                         "text": "e",
@@ -3088,7 +3088,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                                         "start": 629,
                                         "end": 630
                                     },
-                                    "flags": 32,
+                                    "flags": 536870944,
                                     "start": 626,
                                     "end": 631
                                 },
@@ -3156,7 +3156,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                                     "end": 642
                                 },
                                 "right": {
-                                    "kind": 536871042,
+                                    "kind": 130,
                                     "member": {
                                         "kind": 134299649,
                                         "text": "e",
@@ -3173,7 +3173,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                                         "start": 645,
                                         "end": 646
                                     },
-                                    "flags": 32,
+                                    "flags": 536870944,
                                     "start": 642,
                                     "end": 647
                                 },
@@ -3213,42 +3213,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
 
 ```javascript
 
-a ? b : c ? b : d;
-a ? b ? c : d : d;
-a ? c : (b, c);
-a ? (b, c) : c;
-a ? c : (b, d);
-a ? (b, c) : d;
-a ? b || c : c;
-a ? b || c : d;
-a ? b && c : c;
-a ? c : b && c;
-a ? c : b && d;
-a ? c : b || c;
-a = b == null ? c : b;
-a = b != null ? b : c;
-a(b ? 0 : 0);
-a(b ? +0 : -0);
-a(b ? +0 : 0);
-a(b ? -0 : 0);
-a ? b : b;
-a ? -b : -b;
-a ? b.c : b.c;
-a ?  : ;
-a ?  : ;
-a ? b() : b();
-a ?  : ;
-a ?  : ;
-a ? b == c : b == c;
-a ? b.c(d + ) : b.c(d + );
-a ? -b : !b;
-a ? b() : b(c);
-a ? b(c) : b(d);
-a ?  : b.c;
-a ?  : b();
-a ?  : ;
-a ? b == c : b != c;
-a ? b.c(d + ) : b.c(d + );
+ a ? b : c ? b : d;, a ? b ? c : d : d;, a ? c : (b, c);, a ? (b, c) : c;, a ? c : (b, d);, a ? (b, c) : d;, a ? b || c : c;, a ? b || c : d;, a ? b && c : c;, a ? c : b && c;, a ? c : b && d;, a ? c : b || c;, a=b == null ? c : b;, a=b != null ? b : c;, ;, ;, ;, ;, a ? b : b;, a ?  : ;, a ? b.c : b.c;, a ?  : ;, a ? b[c] : b[c];, a ?  : ;, a ?  : ;, a ?  : ;, a ? b == c : b == c;, a ?  : ;, a ?  : ;, a ?  : ;, a ?  : ;, a ?  : b.c;, a ?  : ;, a ?  : b[c];, a ? b == c : b != c;, a ?  : ; 
 ```
 
 ### Diagnostics

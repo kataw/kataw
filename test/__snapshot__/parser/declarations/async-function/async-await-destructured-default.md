@@ -179,10 +179,9 @@ async function wrap() {
 
 ```javascript
 
-async function wrap() {
-  ({ a = await b } = obj);
-}
-
+ async function wrap() {
+({ a = await b }=obj);
+}, ; 
 ```
 
 ### Diagnostics

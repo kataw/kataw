@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/miscellaneous/destructuring/failing-cases/autogen.md
-- Path: kataw/test/__snapshot__/parser/miscellaneous/destructuring/failing-cases/gen/lexical
+- Regenerated: 2021-06-12
+- From: d
+- Path: l
 > :: test: lexical
 > :: case: { x: import.meta }
 ## Options
@@ -43,7 +43,6 @@ let { x: import.meta }
                                 "properties": [
                                     {
                                         "kind": 329,
-                                        "ellipsisToken": null,
                                         "key": {
                                             "kind": 134299649,
                                             "text": "x",
@@ -67,7 +66,6 @@ let { x: import.meta }
                                     },
                                     {
                                         "kind": 329,
-                                        "ellipsisToken": null,
                                         "key": {
                                             "kind": 134299649,
                                             "text": "import",

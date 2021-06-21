@@ -47,16 +47,16 @@ const functionReturningIdentityAsAField = () => ({ id: <T>(value: T): T => value
                         "type": null,
                         "initializer": {
                             "kind": 271,
+                            "asyncKeyword": null,
+                            "typeParameters": null,
+                            "parameters": [],
+                            "returnType": null,
                             "arrowToken": {
                                 "kind": 10,
                                 "flags": 64,
                                 "start": 44,
                                 "end": 47
                             },
-                            "typeParameters": null,
-                            "parameters": [],
-                            "asyncKeyword": null,
-                            "returnType": null,
                             "contents": {
                                 "kind": 121,
                                 "expression": {
@@ -77,12 +77,7 @@ const functionReturningIdentityAsAField = () => ({ id: <T>(value: T): T => value
                                                 },
                                                 "right": {
                                                     "kind": 271,
-                                                    "arrowToken": {
-                                                        "kind": 10,
-                                                        "flags": 64,
-                                                        "start": 71,
-                                                        "end": 74
-                                                    },
+                                                    "asyncKeyword": null,
                                                     "typeParameters": {
                                                         "kind": 307,
                                                         "declarations": {
@@ -156,7 +151,6 @@ const functionReturningIdentityAsAField = () => ({ id: <T>(value: T): T => value
                                                             "end": 67
                                                         }
                                                     ],
-                                                    "asyncKeyword": null,
                                                     "returnType": {
                                                         "kind": 139,
                                                         "bitwiseOrToken": null,
@@ -179,6 +173,12 @@ const functionReturningIdentityAsAField = () => ({ id: <T>(value: T): T => value
                                                         "flags": 2097152,
                                                         "start": 69,
                                                         "end": 71
+                                                    },
+                                                    "arrowToken": {
+                                                        "kind": 10,
+                                                        "flags": 64,
+                                                        "start": 71,
+                                                        "end": 74
                                                     },
                                                     "contents": {
                                                         "kind": 134299649,
@@ -241,7 +241,7 @@ const functionReturningIdentityAsAField = () => ({ id: <T>(value: T): T => value
 
 ```javascript
 
-const functionReturningIdentityAsAField = () =>  ({ id: (value) =>  value });
+ const functionReturningIdentityAsAField = () =>({ id : (value: T): T =>value }); 
 ```
 
 ### Diagnostics

@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/classes/special_keys/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/classes/special_keys/gen/as_static_async_generator_in_class
+- Regenerated: 2021-06-12
+- From: d
+- Path: s
 > :: test: as static async generator in class
 > :: case: throw
 ## Options
@@ -52,12 +52,6 @@ class x {static async * throw(){}}
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": {
-                                "kind": 67143222,
-                                "flags": 64,
-                                "start": 21,
-                                "end": 23
-                            },
                             "staticKeyword": {
                                 "kind": 8388716,
                                 "flags": 64,
@@ -72,6 +66,12 @@ class x {static async * throw(){}}
                             },
                             "setKeyword": null,
                             "getKeyword": null,
+                            "asteriskToken": {
+                                "kind": 67143222,
+                                "flags": 64,
+                                "start": 21,
+                                "end": 23
+                            },
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -83,7 +83,7 @@ class x {static async * throw(){}}
                                     "end": 29
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -141,9 +141,10 @@ class x {static async * throw(){}}
 
 ```javascript
 
-class x {
-  async static static throw {}
-}
+ class x {
+    static async *throw() {
+    }
+} 
 ```
 
 ### Diagnostics

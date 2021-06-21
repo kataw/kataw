@@ -52,7 +52,6 @@ new C;
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": null,
                             "staticKeyword": {
                                 "kind": 8388716,
                                 "flags": 64,
@@ -67,6 +66,7 @@ new C;
                                 "start": 18,
                                 "end": 22
                             },
+                            "asteriskToken": null,
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -78,7 +78,7 @@ new C;
                                     "end": 25
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [
                                         {
@@ -203,11 +203,11 @@ new C;
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": null,
                             "getKeyword": null,
+                            "asteriskToken": null,
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -219,7 +219,7 @@ new C;
                                     "end": 68
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -389,17 +389,16 @@ new C;
 
 ```javascript
 
-class C {
-  static set static #p {
-    C.#q = v;
-  }
-  static #q;
-
-  constructor {
-    ([C.#p] = [0]);
-  }
-}
-new  C();
+ class C {
+    static set #p(v) {
+    C.#q=v;
+    },
+    static #q,
+    ,
+    constructor() {
+    ([C.#p]=[0]);
+    }
+}, new C; 
 ```
 
 ### Diagnostics

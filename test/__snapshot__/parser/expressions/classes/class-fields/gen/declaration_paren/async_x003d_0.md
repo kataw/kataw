@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/classes/class-fields/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/classes/class-fields/gen/declaration_paren
+- Regenerated: 2021-06-12
+- From: d
+- Path: n
 > :: test: declaration_paren
 > :: case: async = 0
 ## Options
@@ -127,9 +127,9 @@
 
 ```javascript
 
-(class   {
-    async = 0;
-  });
+ (class  {
+    async = 0
+}); 
 ```
 
 ### Diagnostics

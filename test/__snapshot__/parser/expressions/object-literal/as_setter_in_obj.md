@@ -25,9 +25,9 @@
                         "kind": 218,
                         "properties": [
                             {
-                                "kind": 257,
+                                "kind": 351,
                                 "asyncKeyword": null,
-                                "generatorToken": null,
+                                "asteriskToken": null,
                                 "getKeyword": null,
                                 "setKeyword": {
                                     "kind": 16499,
@@ -46,7 +46,7 @@
                                         "end": 11
                                     },
                                     "typeParameters": null,
-                                    "formalParameters": {
+                                    "formalParameterList": {
                                         "kind": 214,
                                         "formalParameters": [
                                             {
@@ -118,7 +118,8 @@
 
 ```javascript
 
-({ set async {} });
+ ({ set async(x) {
+    } }); 
 ```
 
 ### Diagnostics

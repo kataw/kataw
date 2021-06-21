@@ -97,7 +97,7 @@ new (x().y)();
 
 ```javascript
 
-new  (x().y)();
+ new (.y)(); 
 ```
 
 ### Diagnostics

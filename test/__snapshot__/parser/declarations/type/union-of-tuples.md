@@ -125,7 +125,7 @@ type x = [number] | [string];
 
 ```javascript
 
-
+  
 ```
 
 ### Diagnostics

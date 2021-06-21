@@ -85,7 +85,8 @@ function c(eval){ }
 
 ```javascript
 
-function c() {}
+ function c(eval) {
+} 
 ```
 
 ### Diagnostics

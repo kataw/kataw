@@ -96,7 +96,7 @@ arr?.[i + 1]
 
 ```javascript
 
-arr?.[i + 1];
+ ; 
 ```
 
 ### Diagnostics

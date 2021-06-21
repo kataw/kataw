@@ -29,12 +29,7 @@
             "kind": 120,
             "expression": {
                 "kind": 271,
-                "arrowToken": {
-                    "kind": 10,
-                    "flags": 64,
-                    "start": 9,
-                    "end": 12
-                },
+                "asyncKeyword": null,
                 "typeParameters": null,
                 "parameters": [
                     {
@@ -46,7 +41,6 @@
                         "end": 2
                     }
                 ],
-                "asyncKeyword": null,
                 "returnType": {
                     "kind": 139,
                     "bitwiseOrToken": null,
@@ -60,6 +54,12 @@
                     "flags": 2097152,
                     "start": 4,
                     "end": 9
+                },
+                "arrowToken": {
+                    "kind": 10,
+                    "flags": 64,
+                    "start": 9,
+                    "end": 12
                 },
                 "contents": {
                     "kind": 216,
@@ -87,12 +87,7 @@
             "kind": 120,
             "expression": {
                 "kind": 271,
-                "arrowToken": {
-                    "kind": 10,
-                    "flags": 64,
-                    "start": 29,
-                    "end": 32
-                },
+                "asyncKeyword": null,
                 "typeParameters": null,
                 "parameters": [
                     {
@@ -112,7 +107,6 @@
                         "end": 22
                     }
                 ],
-                "asyncKeyword": null,
                 "returnType": {
                     "kind": 139,
                     "bitwiseOrToken": null,
@@ -126,6 +120,12 @@
                     "flags": 2097152,
                     "start": 24,
                     "end": 29
+                },
+                "arrowToken": {
+                    "kind": 10,
+                    "flags": 64,
+                    "start": 29,
+                    "end": 32
                 },
                 "contents": {
                     "kind": 216,
@@ -163,8 +163,9 @@
 
 ```javascript
 
-(a) =>  {};
-(x, a) =>  {};
+ (a): void => {
+};, (x, a): void => {
+}; 
 ```
 
 ### Diagnostics

@@ -115,7 +115,7 @@ type x = [...aladdin];
 
 ```javascript
 
-
+  
 ```
 
 ### Diagnostics

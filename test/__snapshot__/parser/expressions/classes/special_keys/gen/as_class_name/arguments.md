@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/classes/special_keys/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/classes/special_keys/gen/as_class_name
+- Regenerated: 2021-06-12
+- From: d
+- Path: e
 > :: test: as class name
 > :: case: arguments
 ## Options
@@ -74,7 +74,8 @@ class arguments {}
 
 ```javascript
 
-class arguments {}
+ class arguments {
+} 
 ```
 
 ### Diagnostics

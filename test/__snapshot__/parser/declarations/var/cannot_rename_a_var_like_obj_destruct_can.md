@@ -139,7 +139,7 @@ var [foo:bar] = obj;
 
 ```javascript
 
-var [foo] = obj;
+ var [foo: bar] = obj; 
 ```
 
 ### Diagnostics

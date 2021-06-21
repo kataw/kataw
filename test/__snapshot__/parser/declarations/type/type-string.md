@@ -122,8 +122,7 @@ type T1 = number;
 
 ```javascript
 
-
-
+ ,  
 ```
 
 ### Diagnostics

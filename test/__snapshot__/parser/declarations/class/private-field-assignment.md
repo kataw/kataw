@@ -91,11 +91,11 @@ class Foo {
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": null,
                             "getKeyword": null,
+                            "asteriskToken": null,
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -107,7 +107,7 @@ class Foo {
                                     "end": 22
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -295,11 +295,11 @@ class Foo {
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": null,
                             "getKeyword": null,
+                            "asteriskToken": null,
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -311,7 +311,7 @@ class Foo {
                                     "end": 85
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -1106,33 +1106,33 @@ class Foo {
 
 ```javascript
 
-class Foo {
-  #x;
-  unary {
-    this.#x++;
-    this.#x--;
-    ++this.#x;
+ class Foo {
+    #x,
+    unary() {
+    this.#x++;,
+    this.#x--;,
+    ++this.#x;,
     --this.#x;
-  }
-  binary {
-    this.#x = 1;
-    this.#x += 1;
-    this.#x -= 1;
-    this.#x *= 1;
-    this.#x /= 1;
-    this.#x %= 1;
-    this.#x **= 1;
-    this.#x <<= 1;
-    this.#x >>= 1;
-    this.#x >>>= 1;
-    this.#x &= 1;
-    this.#x |= 1;
-    this.#x ^= 1;
-    this.#x &&= 1;
-    this.#x ||= 1;
-    this.#x => 1;
-  }
-}
+    },
+    binary() {
+    this.#x=1;,
+    this.#x+=1;,
+    this.#x-=1;,
+    this.#x*=1;,
+    this.#x/=1;,
+    this.#x%=1;,
+    this.#x**=1;,
+    this.#x<<=1;,
+    this.#x>>=1;,
+    this.#x>>>=1;,
+    this.#x&=1;,
+    this.#x|=1;,
+    this.#x^=1;,
+    this.#x&&=1;,
+    this.#x||=1;,
+    this.#x=>1;
+    }
+} 
 ```
 
 ### Diagnostics

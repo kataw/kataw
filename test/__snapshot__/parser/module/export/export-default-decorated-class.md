@@ -118,8 +118,7 @@ export default
 
 ```javascript
 
-export default @bar
-class Foo {};
+  
 ```
 
 ### Diagnostics

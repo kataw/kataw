@@ -79,11 +79,11 @@ class C {
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": null,
                             "getKeyword": null,
+                            "asteriskToken": null,
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -95,7 +95,7 @@ class C {
                                     "end": 23
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -172,11 +172,11 @@ class C {
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": null,
                             "getKeyword": null,
+                            "asteriskToken": null,
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -188,7 +188,7 @@ class C {
                                     "end": 53
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [
                                         {
@@ -255,14 +255,15 @@ class C {
 
 ```javascript
 
-class C {
-  get;
-  x {
-    return  1;
-  }
-  set;
-  x {}
-}
+ class C {
+    get,
+    x() {
+    return 1;
+    },
+    set,
+    x(v) {
+    }
+} 
 ```
 
 ### Diagnostics

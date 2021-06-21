@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/declarations/let/sub-tree/autogen.md
-- Path: kataw/test/__snapshot__/parser/declarations/let/sub-tree/gen/if
+- Regenerated: 2021-06-12
+- From: d
+- Path: f
 > :: test: if
 > :: case: let
 >          {} = y

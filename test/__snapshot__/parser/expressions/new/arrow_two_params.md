@@ -27,12 +27,7 @@ new (a,b) => x
                 },
                 "expression": {
                     "kind": 271,
-                    "arrowToken": {
-                        "kind": 10,
-                        "flags": 64,
-                        "start": 9,
-                        "end": 12
-                    },
+                    "asyncKeyword": null,
                     "typeParameters": null,
                     "parameters": [
                         {
@@ -52,8 +47,13 @@ new (a,b) => x
                             "end": 8
                         }
                     ],
-                    "asyncKeyword": null,
                     "returnType": null,
+                    "arrowToken": {
+                        "kind": 10,
+                        "flags": 64,
+                        "start": 9,
+                        "end": 12
+                    },
                     "contents": {
                         "kind": 134299649,
                         "text": "x",
@@ -89,7 +89,7 @@ new (a,b) => x
 
 ```javascript
 
-new  (a, b) =>  x();
+ new (a, b) =>x; 
 ```
 
 ### Diagnostics

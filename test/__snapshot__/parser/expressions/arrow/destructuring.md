@@ -29,12 +29,7 @@
             "kind": 120,
             "expression": {
                 "kind": 271,
-                "arrowToken": {
-                    "kind": 10,
-                    "flags": 64,
-                    "start": 11,
-                    "end": 14
-                },
+                "asyncKeyword": null,
                 "typeParameters": null,
                 "parameters": [
                     {
@@ -78,8 +73,13 @@
                         "end": 10
                     }
                 ],
-                "asyncKeyword": null,
                 "returnType": null,
+                "arrowToken": {
+                    "kind": 10,
+                    "flags": 64,
+                    "start": 11,
+                    "end": 14
+                },
                 "contents": {
                     "kind": 201392130,
                     "text": 0,
@@ -100,12 +100,7 @@
             "kind": 120,
             "expression": {
                 "kind": 271,
-                "arrowToken": {
-                    "kind": 10,
-                    "flags": 64,
-                    "start": 33,
-                    "end": 36
-                },
+                "asyncKeyword": null,
                 "typeParameters": null,
                 "parameters": [
                     {
@@ -157,8 +152,13 @@
                         "end": 32
                     }
                 ],
-                "asyncKeyword": null,
                 "returnType": null,
+                "arrowToken": {
+                    "kind": 10,
+                    "flags": 64,
+                    "start": 33,
+                    "end": 36
+                },
                 "contents": {
                     "kind": 201392130,
                     "text": 0,
@@ -189,12 +189,11 @@
 
 ```javascript
 
-({
-  a = 0
-}) =>  0;
-(a, {
-  b = 0
-}) =>  0;
+ ({
+        a = 0
+    }) =>0;, (a, {
+        b = 0
+    }) =>0; 
 ```
 
 ### Diagnostics

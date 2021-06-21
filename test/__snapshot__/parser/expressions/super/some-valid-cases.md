@@ -152,11 +152,11 @@ class x { dsda(){ return (a=super.foo) => a; }}
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": null,
                             "getKeyword": null,
+                            "asteriskToken": null,
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -168,7 +168,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
                                     "end": 44
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -261,11 +261,11 @@ class x { dsda(){ return (a=super.foo) => a; }}
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": null,
                             "getKeyword": null,
+                            "asteriskToken": null,
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -277,7 +277,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
                                     "end": 83
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -383,11 +383,11 @@ class x { dsda(){ return (a=super.foo) => a; }}
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": null,
                             "getKeyword": null,
+                            "asteriskToken": null,
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -399,7 +399,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
                                     "end": 123
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -505,11 +505,11 @@ class x { dsda(){ return (a=super.foo) => a; }}
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": null,
                             "getKeyword": null,
+                            "asteriskToken": null,
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -521,7 +521,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
                                     "end": 155
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -627,11 +627,11 @@ class x { dsda(){ return (a=super.foo) => a; }}
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": null,
                             "getKeyword": null,
+                            "asteriskToken": null,
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -643,7 +643,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
                                     "end": 187
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [
                                         {
@@ -755,9 +755,9 @@ class x { dsda(){ return (a=super.foo) => a; }}
                         "kind": 218,
                         "properties": [
                             {
-                                "kind": 257,
+                                "kind": 351,
                                 "asyncKeyword": null,
-                                "generatorToken": null,
+                                "asteriskToken": null,
                                 "getKeyword": null,
                                 "setKeyword": null,
                                 "method": {
@@ -771,7 +771,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
                                         "end": 213
                                     },
                                     "typeParameters": null,
-                                    "formalParameters": {
+                                    "formalParameterList": {
                                         "kind": 214,
                                         "formalParameters": [
                                             {
@@ -893,11 +893,11 @@ class x { dsda(){ return (a=super.foo) => a; }}
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": null,
                             "getKeyword": null,
+                            "asteriskToken": null,
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -909,7 +909,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
                                     "end": 255
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -927,7 +927,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
                                             {
                                                 "kind": 120,
                                                 "expression": {
-                                                    "kind": 536871042,
+                                                    "kind": 130,
                                                     "member": {
                                                         "kind": 225,
                                                         "superKeyword": {
@@ -948,7 +948,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
                                                         "start": 265,
                                                         "end": 268
                                                     },
-                                                    "flags": 32,
+                                                    "flags": 536870944,
                                                     "start": 258,
                                                     "end": 269
                                                 },
@@ -1015,11 +1015,11 @@ class x { dsda(){ return (a=super.foo) => a; }}
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": null,
                             "getKeyword": null,
+                            "asteriskToken": null,
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -1031,7 +1031,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
                                     "end": 288
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -1049,7 +1049,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
                                             {
                                                 "kind": 120,
                                                 "expression": {
-                                                    "kind": 536871042,
+                                                    "kind": 130,
                                                     "member": {
                                                         "kind": 225,
                                                         "superKeyword": {
@@ -1070,7 +1070,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
                                                         "start": 298,
                                                         "end": 301
                                                     },
-                                                    "flags": 32,
+                                                    "flags": 536870944,
                                                     "start": 291,
                                                     "end": 302
                                                 },
@@ -1137,11 +1137,11 @@ class x { dsda(){ return (a=super.foo) => a; }}
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": null,
                             "getKeyword": null,
+                            "asteriskToken": null,
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -1153,7 +1153,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
                                     "end": 321
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [
                                         {
@@ -1170,7 +1170,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
                                             "optionalToken": null,
                                             "type": null,
                                             "right": {
-                                                "kind": 536871042,
+                                                "kind": 130,
                                                 "member": {
                                                     "kind": 225,
                                                     "superKeyword": {
@@ -1191,7 +1191,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
                                                     "start": 330,
                                                     "end": 333
                                                 },
-                                                "flags": 32,
+                                                "flags": 536870944,
                                                 "start": 324,
                                                 "end": 334
                                             },
@@ -1265,9 +1265,9 @@ class x { dsda(){ return (a=super.foo) => a; }}
                         "kind": 218,
                         "properties": [
                             {
-                                "kind": 257,
+                                "kind": 351,
                                 "asyncKeyword": null,
-                                "generatorToken": null,
+                                "asteriskToken": null,
                                 "getKeyword": null,
                                 "setKeyword": null,
                                 "method": {
@@ -1281,7 +1281,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
                                         "end": 348
                                     },
                                     "typeParameters": null,
-                                    "formalParameters": {
+                                    "formalParameterList": {
                                         "kind": 214,
                                         "formalParameters": [],
                                         "trailingComma": false,
@@ -1299,7 +1299,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
                                                 {
                                                     "kind": 120,
                                                     "expression": {
-                                                        "kind": 536871042,
+                                                        "kind": 130,
                                                         "member": {
                                                             "kind": 225,
                                                             "superKeyword": {
@@ -1320,7 +1320,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
                                                             "start": 358,
                                                             "end": 361
                                                         },
-                                                        "flags": 32,
+                                                        "flags": 536870944,
                                                         "start": 351,
                                                         "end": 362
                                                     },
@@ -1387,9 +1387,9 @@ class x { dsda(){ return (a=super.foo) => a; }}
                         "kind": 218,
                         "properties": [
                             {
-                                "kind": 257,
+                                "kind": 351,
                                 "asyncKeyword": null,
-                                "generatorToken": null,
+                                "asteriskToken": null,
                                 "getKeyword": null,
                                 "setKeyword": null,
                                 "method": {
@@ -1403,7 +1403,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
                                         "end": 375
                                     },
                                     "typeParameters": null,
-                                    "formalParameters": {
+                                    "formalParameterList": {
                                         "kind": 214,
                                         "formalParameters": [
                                             {
@@ -1420,7 +1420,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
                                                 "optionalToken": null,
                                                 "type": null,
                                                 "right": {
-                                                    "kind": 536871042,
+                                                    "kind": 130,
                                                     "member": {
                                                         "kind": 225,
                                                         "superKeyword": {
@@ -1441,7 +1441,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
                                                         "start": 386,
                                                         "end": 389
                                                     },
-                                                    "flags": 32,
+                                                    "flags": 536870944,
                                                     "start": 379,
                                                     "end": 390
                                                 },
@@ -1545,11 +1545,11 @@ class x { dsda(){ return (a=super.foo) => a; }}
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": null,
                             "getKeyword": null,
+                            "asteriskToken": null,
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -1561,7 +1561,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
                                     "end": 428
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -1586,12 +1586,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
                                                 },
                                                 "expression": {
                                                     "kind": 271,
-                                                    "arrowToken": {
-                                                        "kind": 10,
-                                                        "flags": 64,
-                                                        "start": 450,
-                                                        "end": 453
-                                                    },
+                                                    "asyncKeyword": null,
                                                     "typeParameters": null,
                                                     "parameters": [
                                                         {
@@ -1638,8 +1633,13 @@ class x { dsda(){ return (a=super.foo) => a; }}
                                                             "end": 449
                                                         }
                                                     ],
-                                                    "asyncKeyword": null,
                                                     "returnType": null,
+                                                    "arrowToken": {
+                                                        "kind": 10,
+                                                        "flags": 64,
+                                                        "start": 450,
+                                                        "end": 453
+                                                    },
                                                     "contents": {
                                                         "kind": 134299649,
                                                         "text": "a",
@@ -1735,11 +1735,11 @@ class x { dsda(){ return (a=super.foo) => a; }}
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": null,
                             "getKeyword": null,
+                            "asteriskToken": null,
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -1751,7 +1751,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
                                     "end": 492
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -1776,18 +1776,18 @@ class x { dsda(){ return (a=super.foo) => a; }}
                                                 },
                                                 "expression": {
                                                     "kind": 271,
+                                                    "asyncKeyword": null,
+                                                    "typeParameters": null,
+                                                    "parameters": [],
+                                                    "returnType": null,
                                                     "arrowToken": {
                                                         "kind": 10,
                                                         "flags": 64,
                                                         "start": 505,
                                                         "end": 508
                                                     },
-                                                    "typeParameters": null,
-                                                    "parameters": [],
-                                                    "asyncKeyword": null,
-                                                    "returnType": null,
                                                     "contents": {
-                                                        "kind": 536871042,
+                                                        "kind": 130,
                                                         "member": {
                                                             "kind": 225,
                                                             "superKeyword": {
@@ -1808,7 +1808,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
                                                             "start": 515,
                                                             "end": 518
                                                         },
-                                                        "flags": 32,
+                                                        "flags": 536870944,
                                                         "start": 508,
                                                         "end": 519
                                                     },
@@ -1879,11 +1879,11 @@ class x { dsda(){ return (a=super.foo) => a; }}
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": null,
                             "getKeyword": null,
+                            "asteriskToken": null,
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -1895,7 +1895,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
                                     "end": 537
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -1920,16 +1920,16 @@ class x { dsda(){ return (a=super.foo) => a; }}
                                                 },
                                                 "expression": {
                                                     "kind": 271,
+                                                    "asyncKeyword": null,
+                                                    "typeParameters": null,
+                                                    "parameters": [],
+                                                    "returnType": null,
                                                     "arrowToken": {
                                                         "kind": 10,
                                                         "flags": 64,
                                                         "start": 550,
                                                         "end": 553
                                                     },
-                                                    "typeParameters": null,
-                                                    "parameters": [],
-                                                    "asyncKeyword": null,
-                                                    "returnType": null,
                                                     "contents": {
                                                         "kind": 129,
                                                         "member": {
@@ -2023,11 +2023,11 @@ class x { dsda(){ return (a=super.foo) => a; }}
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": null,
                             "getKeyword": null,
+                            "asteriskToken": null,
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -2039,7 +2039,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
                                     "end": 583
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -2064,12 +2064,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
                                                 },
                                                 "expression": {
                                                     "kind": 271,
-                                                    "arrowToken": {
-                                                        "kind": 10,
-                                                        "flags": 64,
-                                                        "start": 607,
-                                                        "end": 610
-                                                    },
+                                                    "asyncKeyword": null,
                                                     "typeParameters": null,
                                                     "parameters": [
                                                         {
@@ -2116,8 +2111,13 @@ class x { dsda(){ return (a=super.foo) => a; }}
                                                             "end": 606
                                                         }
                                                     ],
-                                                    "asyncKeyword": null,
                                                     "returnType": null,
+                                                    "arrowToken": {
+                                                        "kind": 10,
+                                                        "flags": 64,
+                                                        "start": 607,
+                                                        "end": 610
+                                                    },
                                                     "contents": {
                                                         "kind": 134299649,
                                                         "text": "a",

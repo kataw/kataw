@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/miscellaneous/destructuring/valid-cases/autogen.md
-- Path: kataw/test/__snapshot__/parser/miscellaneous/destructuring/valid-cases/gen/stand_alone
+- Regenerated: 2021-06-12
+- From: d
+- Path: e
 > :: test: stand alone
 > :: case: for (var {name: n, family: {father: f}} of people) {}
 ## Options
@@ -33,114 +33,123 @@ for (var {name: n, family: {father: f}} of people) {}
             },
             "awaitKeyword": null,
             "initializer": {
-                "kind": 156,
-                "declarations": [
-                    {
-                        "kind": 157,
-                        "binding": {
-                            "kind": 212,
-                            "propertyList": {
-                                "kind": 213,
-                                "properties": [
-                                    {
-                                        "kind": 329,
-                                        "ellipsisToken": null,
-                                        "key": {
-                                            "kind": 134299649,
-                                            "text": "name",
-                                            "rawText": "name",
-                                            "flags": 96,
+                "kind": 341,
+                "varKeyword": {
+                    "kind": 37757002,
+                    "flags": 64,
+                    "start": 5,
+                    "end": 8
+                },
+                "declarationList": {
+                    "kind": 156,
+                    "declarations": [
+                        {
+                            "kind": 157,
+                            "binding": {
+                                "kind": 212,
+                                "propertyList": {
+                                    "kind": 213,
+                                    "properties": [
+                                        {
+                                            "kind": 329,
+                                            "key": {
+                                                "kind": 134299649,
+                                                "text": "name",
+                                                "rawText": "name",
+                                                "flags": 96,
+                                                "start": 10,
+                                                "end": 14
+                                            },
+                                            "value": {
+                                                "kind": 134299649,
+                                                "text": "n",
+                                                "rawText": "n",
+                                                "flags": 96,
+                                                "start": 15,
+                                                "end": 17
+                                            },
+                                            "initializer": null,
+                                            "flags": 32,
                                             "start": 10,
-                                            "end": 14
-                                        },
-                                        "value": {
-                                            "kind": 134299649,
-                                            "text": "n",
-                                            "rawText": "n",
-                                            "flags": 96,
-                                            "start": 15,
                                             "end": 17
                                         },
-                                        "initializer": null,
-                                        "flags": 32,
-                                        "start": 10,
-                                        "end": 17
-                                    },
-                                    {
-                                        "kind": 329,
-                                        "ellipsisToken": null,
-                                        "key": {
-                                            "kind": 134299649,
-                                            "text": "family",
-                                            "rawText": "family",
-                                            "flags": 96,
-                                            "start": 18,
-                                            "end": 25
-                                        },
-                                        "value": {
-                                            "kind": 212,
-                                            "propertyList": {
-                                                "kind": 213,
-                                                "properties": [
-                                                    {
-                                                        "kind": 329,
-                                                        "ellipsisToken": null,
-                                                        "key": {
-                                                            "kind": 134299649,
-                                                            "text": "father",
-                                                            "rawText": "father",
-                                                            "flags": 96,
-                                                            "start": 28,
-                                                            "end": 34
-                                                        },
-                                                        "value": {
-                                                            "kind": 134299649,
-                                                            "text": "f",
-                                                            "rawText": "f",
-                                                            "flags": 96,
-                                                            "start": 35,
-                                                            "end": 37
-                                                        },
-                                                        "initializer": null,
-                                                        "flags": 32,
-                                                        "start": 28,
-                                                        "end": 37
-                                                    }
-                                                ],
-                                                "trailingComma": false,
-                                                "flags": 32,
-                                                "start": 28,
-                                                "end": 37
+                                        {
+                                            "kind": 329,
+                                            "key": {
+                                                "kind": 134299649,
+                                                "text": "family",
+                                                "rawText": "family",
+                                                "flags": 96,
+                                                "start": 18,
+                                                "end": 25
                                             },
+                                            "value": {
+                                                "kind": 212,
+                                                "propertyList": {
+                                                    "kind": 213,
+                                                    "properties": [
+                                                        {
+                                                            "kind": 329,
+                                                            "key": {
+                                                                "kind": 134299649,
+                                                                "text": "father",
+                                                                "rawText": "father",
+                                                                "flags": 96,
+                                                                "start": 28,
+                                                                "end": 34
+                                                            },
+                                                            "value": {
+                                                                "kind": 134299649,
+                                                                "text": "f",
+                                                                "rawText": "f",
+                                                                "flags": 96,
+                                                                "start": 35,
+                                                                "end": 37
+                                                            },
+                                                            "initializer": null,
+                                                            "flags": 32,
+                                                            "start": 28,
+                                                            "end": 37
+                                                        }
+                                                    ],
+                                                    "trailingComma": false,
+                                                    "flags": 32,
+                                                    "start": 28,
+                                                    "end": 37
+                                                },
+                                                "flags": 32,
+                                                "start": 26,
+                                                "end": 38
+                                            },
+                                            "initializer": null,
                                             "flags": 32,
-                                            "start": 26,
+                                            "start": 18,
                                             "end": 38
-                                        },
-                                        "initializer": null,
-                                        "flags": 32,
-                                        "start": 18,
-                                        "end": 38
-                                    }
-                                ],
-                                "trailingComma": false,
+                                        }
+                                    ],
+                                    "trailingComma": false,
+                                    "flags": 32,
+                                    "start": 10,
+                                    "end": 38
+                                },
                                 "flags": 32,
-                                "start": 10,
-                                "end": 38
+                                "start": 8,
+                                "end": 39
                             },
-                            "flags": 32,
+                            "type": null,
+                            "initializer": null,
+                            "flags": 16,
                             "start": 8,
                             "end": 39
-                        },
-                        "type": null,
-                        "initializer": null,
-                        "flags": 16,
-                        "start": 8,
-                        "end": 39
-                    }
-                ],
+                        }
+                    ],
+                    "flags": 16,
+                    "start": 8,
+                    "end": 39
+                },
                 "flags": 16,
-                "start": 8,
-                "end": 39
+                "start": 0,
+                "end": 42
             },
             "ofKeyword": {
                 "kind": 16793717,
@@ -187,9 +196,10 @@ for (var {name: n, family: {father: f}} of people) {}
 
 ```javascript
 
-for ( of people)
-  {
-  }
+ for(var {
+    name : n,
+    family : 
+} of people) {  } 
 ```
 
 ### Diagnostics

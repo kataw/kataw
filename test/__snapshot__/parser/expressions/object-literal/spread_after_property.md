@@ -99,7 +99,7 @@
 
 ```javascript
 
-({ obj: x, ...a });
+ ({ obj : x,  }); 
 ```
 
 ### Diagnostics

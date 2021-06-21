@@ -405,18 +405,17 @@ function test1() {
 
 ```javascript
 
-function test1() {
-  async function foo() {
-    return  42;
-  }
-  async function bar() {
-    var a = await foo();
-    var b: number = a; // valid
-
-    var c: string = a; // Error: number ~> string
-
-  }
+ function test1() {
+async function foo() {
+return 42;
+},
+async function bar() {
+var a = await ;,
+var b  = a;// valid
+,
+var c  = a;// Error: number ~> string
 }
+} 
 ```
 
 ### Diagnostics

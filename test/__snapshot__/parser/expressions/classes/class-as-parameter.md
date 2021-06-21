@@ -158,9 +158,9 @@ class A {
                                                 "kind": 218,
                                                 "properties": [
                                                     {
-                                                        "kind": 257,
+                                                        "kind": 351,
                                                         "asyncKeyword": null,
-                                                        "generatorToken": null,
+                                                        "asteriskToken": null,
                                                         "getKeyword": null,
                                                         "setKeyword": null,
                                                         "method": {
@@ -174,7 +174,7 @@ class A {
                                                                 "end": 74
                                                             },
                                                             "typeParameters": null,
-                                                            "formalParameters": {
+                                                            "formalParameterList": {
                                                                 "kind": 214,
                                                                 "formalParameters": [
                                                                     {
@@ -343,11 +343,11 @@ class A {
                                 "start": 126,
                                 "end": 139
                             },
-                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": null,
                             "getKeyword": null,
+                            "asteriskToken": null,
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -359,7 +359,7 @@ class A {
                                     "end": 145
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -417,16 +417,12 @@ class A {
 
 ```javascript
 
-var C;
-function decorator() {
-  return  Object.assign(el, { finisher {
-        C = Class;
-      } });
-}
-class A {
-  @decorator
-  foo {}
-}
+ var C;, function decorator(el) {
+return ;
+}, class A {
+    foo() {
+    }
+} 
 ```
 
 ### Diagnostics

@@ -106,7 +106,7 @@ type Fn0 = () => number;
 
 ```javascript
 
-
+  
 ```
 
 ### Diagnostics

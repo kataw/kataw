@@ -19,12 +19,7 @@
             "kind": 120,
             "expression": {
                 "kind": 271,
-                "arrowToken": {
-                    "kind": 10,
-                    "flags": 64,
-                    "start": 10,
-                    "end": 13
-                },
+                "asyncKeyword": null,
                 "typeParameters": null,
                 "parameters": [
                     {
@@ -34,7 +29,6 @@
                             "properties": [
                                 {
                                     "kind": 329,
-                                    "ellipsisToken": null,
                                     "key": {
                                         "kind": 134299649,
                                         "text": "a",
@@ -44,7 +38,7 @@
                                         "end": 3
                                     },
                                     "value": {
-                                        "kind": 536871042,
+                                        "kind": 130,
                                         "member": {
                                             "kind": 134299649,
                                             "text": "b",
@@ -61,7 +55,7 @@
                                             "start": 6,
                                             "end": 7
                                         },
-                                        "flags": 32,
+                                        "flags": 536870944,
                                         "start": 2,
                                         "end": 8
                                     },
@@ -81,8 +75,13 @@
                         "end": 9
                     }
                 ],
-                "asyncKeyword": null,
                 "returnType": null,
+                "arrowToken": {
+                    "kind": 10,
+                    "flags": 64,
+                    "start": 10,
+                    "end": 13
+                },
                 "contents": {
                     "kind": 134299649,
                     "text": "x",

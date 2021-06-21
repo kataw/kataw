@@ -84,7 +84,7 @@
 
 ```javascript
 
-[(x)] = t;
+ [(x)]=t; 
 ```
 
 ### Diagnostics

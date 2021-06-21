@@ -110,7 +110,7 @@ foo(function f(){})
 
 ```javascript
 
-foo(function f() {});
+ ; 
 ```
 
 ### Diagnostics

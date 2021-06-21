@@ -59,11 +59,11 @@ class Base {
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": null,
                             "getKeyword": null,
+                            "asteriskToken": null,
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -75,7 +75,7 @@ class Base {
                                     "end": 26
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -164,16 +164,16 @@ class Base {
                                                                                 "kind": 121,
                                                                                 "expression": {
                                                                                     "kind": 271,
+                                                                                    "asyncKeyword": null,
+                                                                                    "typeParameters": null,
+                                                                                    "parameters": [],
+                                                                                    "returnType": null,
                                                                                     "arrowToken": {
                                                                                         "kind": 10,
                                                                                         "flags": 64,
                                                                                         "start": 75,
                                                                                         "end": 78
                                                                                     },
-                                                                                    "typeParameters": null,
-                                                                                    "parameters": [],
-                                                                                    "asyncKeyword": null,
-                                                                                    "returnType": null,
                                                                                     "contents": {
                                                                                         "kind": 216,
                                                                                         "functionStatementList": {
@@ -340,16 +340,13 @@ class Base {
 
 ```javascript
 
-class Base {
-  constructor {
-    this.Foo = class  {
-      static #_ = (() =>  {
-            this.foo = ;
-          })();
-
+ class Base {
+    constructor() {
+    this.Foo=class  {
+        static #_ = ,
     };
-  }
-}
+    }
+} 
 ```
 
 ### Diagnostics

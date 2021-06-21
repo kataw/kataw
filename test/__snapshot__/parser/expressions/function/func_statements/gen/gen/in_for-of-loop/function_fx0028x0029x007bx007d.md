@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/function/func_statements/gen/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/function/func_statements/gen/gen/in_for-of-loop
+- Regenerated: 2021-06-12
+- From: d
+- Path: p
 > :: test: in for-of-loop
 > :: case: function f(){}
 ## Options

@@ -109,7 +109,7 @@
 
 ```javascript
 
-[a, b] = [b, a];
+ [a, b]=[b, a]; 
 ```
 
 ### Diagnostics

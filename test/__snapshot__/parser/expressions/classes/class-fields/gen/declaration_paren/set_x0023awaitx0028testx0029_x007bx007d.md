@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/classes/class-fields/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/classes/class-fields/gen/declaration_paren
+- Regenerated: 2021-06-12
+- From: d
+- Path: n
 > :: test: declaration_paren
 > :: case: set #await(test) {}
 ## Options
@@ -68,7 +68,6 @@
                                     "kind": 278,
                                     "declareToken": null,
                                     "decorators": null,
-                                    "asteriskToken": null,
                                     "staticKeyword": null,
                                     "asyncKeyword": null,
                                     "setKeyword": null,
@@ -78,6 +77,7 @@
                                         "start": 21,
                                         "end": 25
                                     },
+                                    "asteriskToken": null,
                                     "method": {
                                         "kind": 209,
                                         "name": {
@@ -89,7 +89,7 @@
                                             "end": 32
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [
                                                 {
@@ -164,9 +164,10 @@
 
 ```javascript
 
-(class   {
-    set #await {}
-  });
+ (class  {
+    set #await(test) {
+    }
+}); 
 ```
 
 ### Diagnostics

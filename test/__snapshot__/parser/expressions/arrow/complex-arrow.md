@@ -19,12 +19,7 @@
             "kind": 120,
             "expression": {
                 "kind": 271,
-                "arrowToken": {
-                    "kind": 10,
-                    "flags": 64,
-                    "start": 21,
-                    "end": 23
-                },
+                "asyncKeyword": null,
                 "typeParameters": null,
                 "parameters": [
                     {
@@ -67,7 +62,6 @@
                                 },
                                 {
                                     "kind": 329,
-                                    "ellipsisToken": null,
                                     "key": {
                                         "kind": 134299649,
                                         "text": "a",
@@ -91,7 +85,6 @@
                                 },
                                 {
                                     "kind": 329,
-                                    "ellipsisToken": null,
                                     "key": {
                                         "kind": 194,
                                         "expression": {
@@ -145,8 +138,13 @@
                         "end": 20
                     }
                 ],
-                "asyncKeyword": null,
                 "returnType": null,
+                "arrowToken": {
+                    "kind": 10,
+                    "flags": 64,
+                    "start": 21,
+                    "end": 23
+                },
                 "contents": {
                     "kind": 201392130,
                     "text": 0,
@@ -177,12 +175,12 @@
 
 ```javascript
 
-({
-  a,
-  b = b,
-  a: c,
-  [a]: [d]
-}) =>  0;
+ ({
+        a,
+        b = b,
+        a : c,
+         : [d]
+    }) =>0; 
 ```
 
 ### Diagnostics

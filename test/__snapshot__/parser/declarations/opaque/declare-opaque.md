@@ -185,9 +185,7 @@ declare var a: A;
 
 ```javascript
 
-
-
-var a: ;
+ , ;, , ;, var a ; 
 ```
 
 ### Diagnostics

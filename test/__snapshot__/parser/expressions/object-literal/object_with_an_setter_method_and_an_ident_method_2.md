@@ -36,9 +36,9 @@ wrap({[foo](){}, set [bar](e){}});
                                 "kind": 218,
                                 "properties": [
                                     {
-                                        "kind": 257,
+                                        "kind": 351,
                                         "asyncKeyword": null,
-                                        "generatorToken": null,
+                                        "asteriskToken": null,
                                         "getKeyword": null,
                                         "setKeyword": null,
                                         "method": {
@@ -58,7 +58,7 @@ wrap({[foo](){}, set [bar](e){}});
                                                 "end": 11
                                             },
                                             "typeParameters": null,
-                                            "formalParameters": {
+                                            "formalParameterList": {
                                                 "kind": 214,
                                                 "formalParameters": [],
                                                 "trailingComma": false,
@@ -90,9 +90,9 @@ wrap({[foo](){}, set [bar](e){}});
                                         "end": 15
                                     },
                                     {
-                                        "kind": 257,
+                                        "kind": 351,
                                         "asyncKeyword": null,
-                                        "generatorToken": null,
+                                        "asteriskToken": null,
                                         "getKeyword": null,
                                         "setKeyword": {
                                             "kind": 16499,
@@ -117,7 +117,7 @@ wrap({[foo](){}, set [bar](e){}});
                                                 "end": 26
                                             },
                                             "typeParameters": null,
-                                            "formalParameters": {
+                                            "formalParameterList": {
                                                 "kind": 214,
                                                 "formalParameters": [
                                                     {
@@ -195,7 +195,7 @@ wrap({[foo](){}, set [bar](e){}});
 
 ```javascript
 
-wrap({ [foo] {}, set [bar] {} });
+ ; 
 ```
 
 ### Diagnostics

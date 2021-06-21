@@ -506,11 +506,7 @@ declare function four<T>(this: T): void;
 
 ```javascript
 
-function one(): void;
-function two(): void;
-function three(): void;
-function  <T >four(): void;
-
+ declare function one(): void, ;, declare function two(, ): void, ;, declare function three(, ): void, ;, declare function four(): void, ; 
 ```
 
 ### Diagnostics

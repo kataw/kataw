@@ -290,9 +290,7 @@ module.exports = [
 
 ```javascript
 
-import { foo1b }  ;
-import { foo2 }  ;
-module.exports = [foo1b(), foo2(),];
+ , , module.exports=[, ]; 
 ```
 
 ### Diagnostics

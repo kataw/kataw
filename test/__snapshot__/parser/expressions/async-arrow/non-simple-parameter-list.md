@@ -23,11 +23,11 @@ async ( { x}  ) => {
     "statements": [
         {
             "kind": 271,
-            "arrowToken": {
-                "kind": 10,
+            "asyncKeyword": {
+                "kind": 82031,
                 "flags": 64,
-                "start": 15,
-                "end": 18
+                "start": 0,
+                "end": 5
             },
             "typeParameters": null,
             "parameters": [
@@ -57,13 +57,13 @@ async ( { x}  ) => {
                     "end": 13
                 }
             ],
-            "asyncKeyword": {
-                "kind": 82031,
-                "flags": 64,
-                "start": 0,
-                "end": 5
-            },
             "returnType": null,
+            "arrowToken": {
+                "kind": 10,
+                "flags": 64,
+                "start": 15,
+                "end": 18
+            },
             "contents": {
                 "kind": 216,
                 "functionStatementList": {
@@ -93,11 +93,11 @@ async ( { x}  ) => {
         },
         {
             "kind": 271,
-            "arrowToken": {
-                "kind": 10,
+            "asyncKeyword": {
+                "kind": 82031,
                 "flags": 64,
-                "start": 55,
-                "end": 58
+                "start": 38,
+                "end": 45
             },
             "typeParameters": null,
             "parameters": [
@@ -125,13 +125,13 @@ async ( { x}  ) => {
                     "end": 52
                 }
             ],
-            "asyncKeyword": {
-                "kind": 82031,
-                "flags": 64,
-                "start": 38,
-                "end": 45
-            },
             "returnType": null,
+            "arrowToken": {
+                "kind": 10,
+                "flags": 64,
+                "start": 55,
+                "end": 58
+            },
             "contents": {
                 "kind": 216,
                 "functionStatementList": {

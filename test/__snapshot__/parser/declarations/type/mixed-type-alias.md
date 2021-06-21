@@ -185,7 +185,7 @@ type MyObject = {
 
 ```javascript
 
-
+  
 ```
 
 ### Diagnostics

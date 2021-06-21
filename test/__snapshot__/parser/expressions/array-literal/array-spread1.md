@@ -282,12 +282,7 @@ var y: Array<string> = ['3', ...x];
                     "elements": [
                         {
                             "kind": 271,
-                            "arrowToken": {
-                                "kind": 10,
-                                "flags": 64,
-                                "start": 63,
-                                "end": 66
-                            },
+                            "asyncKeyword": null,
                             "typeParameters": null,
                             "parameters": [
                                 {
@@ -307,8 +302,13 @@ var y: Array<string> = ['3', ...x];
                                     "end": 62
                                 }
                             ],
-                            "asyncKeyword": null,
                             "returnType": null,
+                            "arrowToken": {
+                                "kind": 10,
+                                "flags": 64,
+                                "start": 63,
+                                "end": 66
+                            },
                             "contents": {
                                 "kind": 198,
                                 "left": {
@@ -386,12 +386,7 @@ var y: Array<string> = ['3', ...x];
                     "elements": [
                         {
                             "kind": 271,
-                            "arrowToken": {
-                                "kind": 10,
-                                "flags": 64,
-                                "start": 88,
-                                "end": 91
-                            },
+                            "asyncKeyword": null,
                             "typeParameters": null,
                             "parameters": [
                                 {
@@ -411,8 +406,13 @@ var y: Array<string> = ['3', ...x];
                                     "end": 87
                                 }
                             ],
-                            "asyncKeyword": null,
                             "returnType": null,
+                            "arrowToken": {
+                                "kind": 10,
+                                "flags": 64,
+                                "start": 88,
+                                "end": 91
+                            },
                             "contents": {
                                 "kind": 198,
                                 "left": {
@@ -719,13 +719,7 @@ var y: Array<string> = ['3', ...x];
 
 ```javascript
 
-var A = [1, 2, 3];
-var B = [...A];
-var C = [1, 2, 3];
-B.sort((a, b) =>  a - b);
-C.sort((a, b) =>  a - b);
-var x:  = ["'1'", "'2'"];
-var y:  = ["'3'", ...x];
+ var A = [1, 2, 3];, var B = [...A];, var C = [1, 2, 3];, ;, ;, var x  = ['1', '2'];, var y  = ['3', ...x]; 
 ```
 
 ### Diagnostics

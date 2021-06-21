@@ -325,16 +325,16 @@ Object.defineProperty(this, "x", {
                                                     },
                                                     {
                                                         "kind": 271,
+                                                        "asyncKeyword": null,
+                                                        "typeParameters": null,
+                                                        "parameters": [],
+                                                        "returnType": null,
                                                         "arrowToken": {
                                                             "kind": 10,
                                                             "flags": 64,
                                                             "start": 172,
                                                             "end": 175
                                                         },
-                                                        "typeParameters": null,
-                                                        "parameters": [],
-                                                        "asyncKeyword": null,
-                                                        "returnType": null,
                                                         "contents": {
                                                             "kind": 216,
                                                             "functionStatementList": {
@@ -576,17 +576,7 @@ Object.defineProperty(this, "x", {
 
 ```javascript
 
-var count = 0;
-var global = this;
-Object.defineProperty(this, "\"x\"", { configurable: true, value: 1 });
-(function () {
-    assert.throws(ReferenceError, () =>  {
-        count++;
-        x = (delete global.x, 2);
-        count++;
-      });
-    count++;
-  })();
+ var count = 0;, var global = this;, ;, ; 
 ```
 
 ### Diagnostics

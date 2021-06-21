@@ -160,7 +160,6 @@ function* g() {
                                             "kind": 278,
                                             "declareToken": null,
                                             "decorators": null,
-                                            "asteriskToken": null,
                                             "staticKeyword": null,
                                             "asyncKeyword": null,
                                             "setKeyword": {
@@ -170,6 +169,7 @@ function* g() {
                                                 "end": 59
                                             },
                                             "getKeyword": null,
+                                            "asteriskToken": null,
                                             "method": {
                                                 "kind": 209,
                                                 "name": {
@@ -194,7 +194,7 @@ function* g() {
                                                     "end": 67
                                                 },
                                                 "typeParameters": null,
-                                                "formalParameters": {
+                                                "formalParameterList": {
                                                     "kind": 214,
                                                     "formalParameters": [],
                                                     "trailingComma": false,
@@ -250,7 +250,6 @@ function* g() {
                                             "kind": 278,
                                             "declareToken": null,
                                             "decorators": null,
-                                            "asteriskToken": null,
                                             "staticKeyword": null,
                                             "asyncKeyword": null,
                                             "setKeyword": null,
@@ -260,6 +259,7 @@ function* g() {
                                                 "start": 93,
                                                 "end": 101
                                             },
+                                            "asteriskToken": null,
                                             "method": {
                                                 "kind": 209,
                                                 "name": {
@@ -284,7 +284,7 @@ function* g() {
                                                     "end": 109
                                                 },
                                                 "typeParameters": null,
-                                                "formalParameters": {
+                                                "formalParameterList": {
                                                     "kind": 214,
                                                     "formalParameters": [
                                                         {
@@ -434,18 +434,17 @@ function* g() {
 
 ```javascript
 
-var yieldSet, C, iter;
-function * g() {
-  class C_ {
-    get [ yield] {
-      return  "'get yield'";
+ var yieldSet, C, iter;, function* g() {
+class C_ {
+    get () {
+    return 'get yield';
+    },
+    set (param) {
+    yieldSet=param;
     }
-    set [ yield] {
-      yieldSet = param;
-    }
-  }
-  C = C_;
-}
+},
+C=C_;
+} 
 ```
 
 ### Diagnostics

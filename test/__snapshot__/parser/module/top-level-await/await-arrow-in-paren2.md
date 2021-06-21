@@ -39,21 +39,21 @@ await (async () => {})(); // equivalent to: await((async () => {})())
                         "kind": 121,
                         "expression": {
                             "kind": 271,
-                            "arrowToken": {
-                                "kind": 10,
-                                "flags": 64,
-                                "start": 16,
-                                "end": 19
-                            },
-                            "typeParameters": null,
-                            "parameters": [],
                             "asyncKeyword": {
                                 "kind": 82031,
                                 "flags": 64,
                                 "start": 8,
                                 "end": 13
                             },
+                            "typeParameters": null,
+                            "parameters": [],
                             "returnType": null,
+                            "arrowToken": {
+                                "kind": 10,
+                                "flags": 64,
+                                "start": 16,
+                                "end": 19
+                            },
                             "contents": {
                                 "kind": 216,
                                 "functionStatementList": {
@@ -110,8 +110,8 @@ await (async () => {})(); // equivalent to: await((async () => {})())
 
 ```javascript
 
-await (async () =>  {})(); // equivalent to: await((async () => {})())
-
+ await ;// equivalent to: await((async () => {})())
+ 
 ```
 
 ### Diagnostics

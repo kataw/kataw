@@ -111,7 +111,7 @@ foo: while(z) if (x) continue foo
 
 ```javascript
 
-foo: while (z) if (x) continue foo;
+ foo: while (z) if (x) continue foo; 
 ```
 
 ### Diagnostics

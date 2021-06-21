@@ -949,9 +949,7 @@ type C = (<T>(T) => $Foo<T>)[];
 
 ```javascript
 
-
-
-
+ , ,  
 ```
 
 ### Diagnostics

@@ -29,14 +29,14 @@
                         "kind": 218,
                         "properties": [
                             {
-                                "kind": 257,
+                                "kind": 351,
                                 "asyncKeyword": {
                                     "kind": 82031,
                                     "flags": 352,
                                     "start": 2,
                                     "end": 8
                                 },
-                                "generatorToken": {
+                                "asteriskToken": {
                                     "kind": 67143222,
                                     "flags": 64,
                                     "start": 8,
@@ -55,7 +55,7 @@
                                         "end": 16
                                     },
                                     "typeParameters": null,
-                                    "formalParameters": {
+                                    "formalParameterList": {
                                         "kind": 214,
                                         "formalParameters": [
                                             {
@@ -89,7 +89,7 @@
                                                 "right": {
                                                     "kind": 125,
                                                     "left": {
-                                                        "kind": 536871042,
+                                                        "kind": 130,
                                                         "member": {
                                                             "kind": 134299649,
                                                             "text": "g",
@@ -120,7 +120,7 @@
                                                             "start": 25,
                                                             "end": 40
                                                         },
-                                                        "flags": 32,
+                                                        "flags": 536870944,
                                                         "start": 22,
                                                         "end": 41
                                                     },
@@ -234,14 +234,14 @@
                         "kind": 218,
                         "properties": [
                             {
-                                "kind": 257,
+                                "kind": 351,
                                 "asyncKeyword": {
                                     "kind": 82031,
                                     "flags": 352,
                                     "start": 68,
                                     "end": 74
                                 },
-                                "generatorToken": {
+                                "asteriskToken": {
                                     "kind": 67143222,
                                     "flags": 64,
                                     "start": 74,
@@ -260,7 +260,7 @@
                                         "end": 82
                                     },
                                     "typeParameters": null,
-                                    "formalParameters": {
+                                    "formalParameterList": {
                                         "kind": 214,
                                         "formalParameters": [
                                             {
@@ -273,7 +273,6 @@
                                                         "properties": [
                                                             {
                                                                 "kind": 329,
-                                                                "ellipsisToken": null,
                                                                 "key": {
                                                                     "kind": 134299649,
                                                                     "text": "w",
@@ -451,14 +450,14 @@
                         "kind": 218,
                         "properties": [
                             {
-                                "kind": 257,
+                                "kind": 351,
                                 "asyncKeyword": {
                                     "kind": 82031,
                                     "flags": 352,
                                     "start": 127,
                                     "end": 133
                                 },
-                                "generatorToken": {
+                                "asteriskToken": {
                                     "kind": 67143222,
                                     "flags": 64,
                                     "start": 133,
@@ -477,7 +476,7 @@
                                         "end": 141
                                     },
                                     "typeParameters": null,
-                                    "formalParameters": {
+                                    "formalParameterList": {
                                         "kind": 214,
                                         "formalParameters": [
                                             {
@@ -490,7 +489,6 @@
                                                         "properties": [
                                                             {
                                                                 "kind": 329,
-                                                                "ellipsisToken": null,
                                                                 "key": {
                                                                     "kind": 134299649,
                                                                     "text": "x",
@@ -620,14 +618,14 @@
                         "kind": 218,
                         "properties": [
                             {
-                                "kind": 257,
+                                "kind": 351,
                                 "asyncKeyword": {
                                     "kind": 82031,
                                     "flags": 352,
                                     "start": 178,
                                     "end": 184
                                 },
-                                "generatorToken": {
+                                "asteriskToken": {
                                     "kind": 67143222,
                                     "flags": 64,
                                     "start": 184,
@@ -646,7 +644,7 @@
                                         "end": 192
                                     },
                                     "typeParameters": null,
-                                    "formalParameters": {
+                                    "formalParameterList": {
                                         "kind": 214,
                                         "formalParameters": [
                                             {
@@ -746,14 +744,14 @@
                         "kind": 218,
                         "properties": [
                             {
-                                "kind": 257,
+                                "kind": 351,
                                 "asyncKeyword": {
                                     "kind": 82031,
                                     "flags": 352,
                                     "start": 212,
                                     "end": 218
                                 },
-                                "generatorToken": {
+                                "asteriskToken": {
                                     "kind": 67143222,
                                     "flags": 64,
                                     "start": 218,
@@ -772,7 +770,7 @@
                                         "end": 226
                                     },
                                     "typeParameters": null,
-                                    "formalParameters": {
+                                    "formalParameterList": {
                                         "kind": 214,
                                         "formalParameters": [
                                             {
@@ -867,11 +865,12 @@
 
 ```javascript
 
-({ async method {} });
-({ async method {} });
-({ async method {} });
-({ async method {} });
-({ async method {} });
+ ({ async * method() {
+    } });, ({ async * method() {
+    } });, ({ async * method() {
+    } });, ({ async * method() {
+    } });, ({ async * method() {
+    } }); 
 ```
 
 ### Diagnostics

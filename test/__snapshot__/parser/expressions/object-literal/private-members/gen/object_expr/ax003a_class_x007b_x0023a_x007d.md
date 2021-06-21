@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/object-literal/private-members/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/object-literal/private-members/gen/object_expr
+- Regenerated: 2021-06-12
+- From: d
+- Path: r
 > :: test: object_expr
 > :: case: a: class { #a }
 ## Options
@@ -130,9 +130,9 @@
 
 ```javascript
 
-({ a: class  {
-    #a;
-  } });
+ ({ a : class  {
+        #a
+    } }); 
 ```
 
 ### Diagnostics

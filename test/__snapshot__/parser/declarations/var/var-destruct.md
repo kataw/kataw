@@ -36,7 +36,6 @@ var {[a]: [b]} = c
                                 "properties": [
                                     {
                                         "kind": 329,
-                                        "ellipsisToken": null,
                                         "key": {
                                             "kind": 194,
                                             "expression": {
@@ -125,9 +124,9 @@ var {[a]: [b]} = c
 
 ```javascript
 
-var {
-  [a]: [b]
-} = c;
+ var {
+     : 
+} = c; 
 ```
 
 ### Diagnostics

@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/classes/extends-lefthandside/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/classes/extends-lefthandside/gen/expression
+- Regenerated: 2021-06-12
+- From: d
+- Path: n
 > :: test: expression
 > :: case: async function *f(){}
 ## Options
@@ -153,7 +153,8 @@
 
 ```javascript
 
-(class B  {});
+ (class B {
+}); 
 ```
 
 ### Diagnostics

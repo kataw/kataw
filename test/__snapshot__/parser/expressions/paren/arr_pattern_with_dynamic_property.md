@@ -35,7 +35,7 @@
                                         "end": 5
                                     },
                                     "argument": {
-                                        "kind": 536871042,
+                                        "kind": 130,
                                         "member": {
                                             "kind": 119,
                                             "elementList": {
@@ -67,7 +67,7 @@
                                             "start": 9,
                                             "end": 10
                                         },
-                                        "flags": 32,
+                                        "flags": 536870944,
                                         "start": 5,
                                         "end": 11
                                     },
@@ -131,7 +131,7 @@
 
 ```javascript
 
-({ ... } = {});
+ ({  }={  }); 
 ```
 
 ### Diagnostics

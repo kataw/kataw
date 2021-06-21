@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/miscellaneous/destructuring/positive-cases/autogen.md
-- Path: kataw/test/__snapshot__/parser/miscellaneous/destructuring/positive-cases/gen/variable_declaration
+- Regenerated: 2021-06-12
+- From: d
+- Path: n
 > :: test: variable declaration
 > :: case: { __proto__: x, __proto__: y}
 ## Options
@@ -44,7 +44,6 @@ var { __proto__: x, __proto__: y} = {};
                                 "properties": [
                                     {
                                         "kind": 329,
-                                        "ellipsisToken": null,
                                         "key": {
                                             "kind": 134299649,
                                             "text": "__proto__",
@@ -68,7 +67,6 @@ var { __proto__: x, __proto__: y} = {};
                                     },
                                     {
                                         "kind": 329,
-                                        "ellipsisToken": null,
                                         "key": {
                                             "kind": 134299649,
                                             "text": "__proto__",
@@ -142,10 +140,10 @@ var { __proto__: x, __proto__: y} = {};
 
 ```javascript
 
-var {
-  __proto__: x,
-  __proto__: y
-} = {};
+ var {
+    __proto__ : x,
+    __proto__ : y
+} = {  }; 
 ```
 
 ### Diagnostics

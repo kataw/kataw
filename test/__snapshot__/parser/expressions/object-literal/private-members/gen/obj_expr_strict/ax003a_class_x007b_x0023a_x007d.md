@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/object-literal/private-members/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/object-literal/private-members/gen/obj_expr_strict
+- Regenerated: 2021-06-12
+- From: d
+- Path: t
 > :: test: obj_expr_strict
 > :: case: a: class { #a }
 ## Options
@@ -139,9 +139,9 @@
 
 ```javascript
 
-({ a: class  {
-    #a;
-  } });
+'use strict' ({ a : class  {
+        #a
+    } }); 
 ```
 
 ### Diagnostics

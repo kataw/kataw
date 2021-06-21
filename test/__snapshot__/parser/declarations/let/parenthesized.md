@@ -95,7 +95,7 @@ type T = ({});
 
 ```javascript
 
-
+  
 ```
 
 ### Diagnostics

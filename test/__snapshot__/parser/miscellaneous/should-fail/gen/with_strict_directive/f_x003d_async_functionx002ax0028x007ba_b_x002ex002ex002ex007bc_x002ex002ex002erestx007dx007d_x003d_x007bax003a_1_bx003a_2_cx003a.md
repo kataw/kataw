@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/miscellaneous/should-fail/autogen.md
-- Path: kataw/test/__snapshot__/parser/miscellaneous/should-fail/gen/with_strict_directive
+- Regenerated: 2021-06-12
+- From: d
+- Path: e
 > :: test: with strict directive
 > :: case: f = async function*({a, b, ...{c, ...rest}} = {a: 1, b: 2, c: 3, d: 4, e: 5}) {}
 ## Options
@@ -100,13 +100,30 @@
                                                 "end": 39
                                             },
                                             {
-                                                "kind": 329,
+                                                "kind": 281,
                                                 "ellipsisToken": {
                                                     "kind": 524302,
                                                     "flags": 64,
                                                     "start": 40,
                                                     "end": 44
                                                 },
+                                                "left": {
+                                                    "kind": 16637,
+                                                    "text": "",
+                                                    "rawText": "",
+                                                    "flags": 64,
+                                                    "start": 44,
+                                                    "end": 44
+                                                },
+                                                "optionalToken": null,
+                                                "type": null,
+                                                "right": null,
+                                                "flags": 0,
+                                                "start": 40,
+                                                "end": 44
+                                            },
+                                            {
+                                                "kind": 329,
                                                 "key": {
                                                     "kind": 16637,
                                                     "text": "",
@@ -163,7 +180,7 @@
                                                 },
                                                 "initializer": null,
                                                 "flags": 32,
-                                                "start": 40,
+                                                "start": 44,
                                                 "end": 56
                                             }
                                         ],
@@ -365,6 +382,7 @@
 
 ```javascript
 ✖ Identifier expected - start: 44, end: 45
+✖ ',' expected - start: 44, end: 45
 
 ```
 

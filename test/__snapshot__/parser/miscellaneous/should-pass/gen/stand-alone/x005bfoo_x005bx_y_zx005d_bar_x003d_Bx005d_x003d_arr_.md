@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/miscellaneous/should-pass/autogen.md
-- Path: kataw/test/__snapshot__/parser/miscellaneous/should-pass/gen/stand-alone
+- Regenerated: 2021-06-12
+- From: d
+- Path: e
 > :: test: stand-alone
 > :: case: [foo, [x,y,z], bar = B] = arr;
 ## Options
@@ -153,7 +153,7 @@
 
 ```javascript
 
-[foo, [x, y, z], bar = B] = arr;
+ [foo, [x, y, z], bar=B]=arr; 
 ```
 
 ### Diagnostics

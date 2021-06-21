@@ -57,8 +57,7 @@ for (;;) break
 
 ```javascript
 
-for (;;)
-  break;
+ for(;;)break; 
 ```
 
 ### Diagnostics

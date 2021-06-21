@@ -138,16 +138,16 @@ FooBar.bar = 1;
                                     "type": null,
                                     "initializer": {
                                         "kind": 271,
+                                        "asyncKeyword": null,
+                                        "typeParameters": null,
+                                        "parameters": [],
+                                        "returnType": null,
                                         "arrowToken": {
                                             "kind": 10,
                                             "flags": 64,
                                             "start": 44,
                                             "end": 47
                                         },
-                                        "typeParameters": null,
-                                        "parameters": [],
-                                        "asyncKeyword": null,
-                                        "returnType": null,
                                         "contents": {
                                             "kind": 216,
                                             "functionStatementList": {
@@ -345,14 +345,10 @@ FooBar.bar = 1;
 
 ```javascript
 
-{
-  class Foo {}
-  Foo.bar = 1;
-  const Foo2 = () =>  {};
-  Foo2.bar = 1;
-  function FooBar() {}
-  FooBar.bar = 1;
-}
+ { class Foo {
+}, Foo.bar=1;, const Foo2 = () => {
+};, Foo2.bar=1;, function FooBar() {
+}, FooBar.bar=1; } 
 ```
 
 ### Diagnostics

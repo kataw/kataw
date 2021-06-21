@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/yield/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/yield/gen/function_declaration
+- Regenerated: 2021-06-12
+- From: d
+- Path: n
 > :: test: function declaration
 > :: case: function* gf() { class C { *yield() { } } }
 ## Options
@@ -125,16 +125,16 @@ function not_gen() { function* gf() { class C { *yield() { } } } }}
                                                             "kind": 278,
                                                             "declareToken": null,
                                                             "decorators": null,
+                                                            "staticKeyword": null,
+                                                            "asyncKeyword": null,
+                                                            "setKeyword": null,
+                                                            "getKeyword": null,
                                                             "asteriskToken": {
                                                                 "kind": 67143222,
                                                                 "flags": 64,
                                                                 "start": 47,
                                                                 "end": 49
                                                             },
-                                                            "staticKeyword": null,
-                                                            "asyncKeyword": null,
-                                                            "setKeyword": null,
-                                                            "getKeyword": null,
                                                             "method": {
                                                                 "kind": 209,
                                                                 "name": {
@@ -146,7 +146,7 @@ function not_gen() { function* gf() { class C { *yield() { } } } }}
                                                                     "end": 54
                                                                 },
                                                                 "typeParameters": null,
-                                                                "formalParameters": {
+                                                                "formalParameterList": {
                                                                     "kind": 214,
                                                                     "formalParameters": [],
                                                                     "trailingComma": false,

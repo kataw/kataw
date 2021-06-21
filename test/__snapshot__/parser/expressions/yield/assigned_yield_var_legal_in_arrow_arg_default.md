@@ -17,11 +17,11 @@ async (x = z = yield) => {}
     "statements": [
         {
             "kind": 271,
-            "arrowToken": {
-                "kind": 10,
+            "asyncKeyword": {
+                "kind": 82031,
                 "flags": 64,
-                "start": 21,
-                "end": 24
+                "start": 0,
+                "end": 5
             },
             "typeParameters": null,
             "parameters": [
@@ -71,13 +71,13 @@ async (x = z = yield) => {}
                     "end": 20
                 }
             ],
-            "asyncKeyword": {
-                "kind": 82031,
-                "flags": 64,
-                "start": 0,
-                "end": 5
-            },
             "returnType": null,
+            "arrowToken": {
+                "kind": 10,
+                "flags": 64,
+                "start": 21,
+                "end": 24
+            },
             "contents": {
                 "kind": 216,
                 "functionStatementList": {
@@ -110,7 +110,8 @@ async (x = z = yield) => {}
 
 ```javascript
 
-async (x = z = yield) =>  {}
+ (x = z=yield) => {
+} 
 ```
 
 ### Diagnostics

@@ -77,7 +77,7 @@ x = z();
 
 ```javascript
 
-x = z();
+ x=; 
 ```
 
 ### Diagnostics

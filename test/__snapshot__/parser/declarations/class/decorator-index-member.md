@@ -94,11 +94,11 @@ class C2 {
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": null,
                             "getKeyword": null,
+                            "asteriskToken": null,
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -110,7 +110,7 @@ class C2 {
                                     "end": 24
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -168,10 +168,10 @@ class C2 {
 
 ```javascript
 
-@a.b
-class C2 {
-  method {}
-}
+ class C2 {
+    method() {
+    }
+} 
 ```
 
 ### Diagnostics

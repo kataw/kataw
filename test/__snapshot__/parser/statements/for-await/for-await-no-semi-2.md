@@ -65,34 +65,46 @@ async function f() {
                                 "end": 26
                             },
                             "initializer": {
-                                "kind": 151,
-                                "bindingList": [
-                                    {
-                                        "kind": 190,
-                                        "binding": {
-                                            "kind": 134299649,
-                                            "text": "i",
-                                            "rawText": "i",
-                                            "flags": 96,
+                                "kind": 162,
+                                "lexicalKeyword": {
+                                    "kind": 41951307,
+                                    "flags": 64,
+                                    "start": 20,
+                                    "end": 37
+                                },
+                                "binding": {
+                                    "kind": 151,
+                                    "bindingList": [
+                                        {
+                                            "kind": 190,
+                                            "binding": {
+                                                "kind": 134299649,
+                                                "text": "i",
+                                                "rawText": "i",
+                                                "flags": 96,
+                                                "start": 37,
+                                                "end": 39
+                                            },
+                                            "type": null,
+                                            "initializer": {
+                                                "kind": 201392130,
+                                                "text": 0,
+                                                "rawText": "0",
+                                                "flags": 96,
+                                                "start": 41,
+                                                "end": 43
+                                            },
+                                            "flags": 16,
                                             "start": 37,
-                                            "end": 39
-                                        },
-                                        "type": null,
-                                        "initializer": {
-                                            "kind": 201392130,
-                                            "text": 0,
-                                            "rawText": "0",
-                                            "flags": 96,
-                                            "start": 41,
                                             "end": 43
-                                        },
-                                        "flags": 16,
-                                        "start": 37,
-                                        "end": 43
-                                    }
-                                ],
-                                "flags": 16,
-                                "start": 37,
+                                        }
+                                    ],
+                                    "flags": 16,
+                                    "start": 37,
+                                    "end": 43
+                                },
+                                "flags": 33554448,
+                                "start": 20,
                                 "end": 43
                             },
                             "condition": null,
@@ -140,9 +152,9 @@ async function f() {
 
 ```javascript
 
-async function f() {
-  for (let; ; false);
-}
+ async function f() {
+for(let i = 0;; false);
+} 
 ```
 
 ### Diagnostics

@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/miscellaneous/should-fail/autogen.md
-- Path: kataw/test/__snapshot__/parser/miscellaneous/should-fail/gen/in_a_block
+- Regenerated: 2021-06-12
+- From: d
+- Path: k
 > :: test: in a block
 > :: case: async let [] = y
 ## Options
@@ -32,7 +32,12 @@
                         "kind": 120,
                         "expression": {
                             "kind": 271,
-                            "arrowToken": null,
+                            "asyncKeyword": {
+                                "kind": 82031,
+                                "flags": 64,
+                                "start": 1,
+                                "end": 7
+                            },
                             "typeParameters": null,
                             "parameters": {
                                 "kind": 134299649,
@@ -42,13 +47,8 @@
                                 "start": 7,
                                 "end": 11
                             },
-                            "asyncKeyword": {
-                                "kind": 82031,
-                                "flags": 64,
-                                "start": 1,
-                                "end": 7
-                            },
                             "returnType": null,
+                            "arrowToken": null,
                             "contents": {
                                 "kind": 125,
                                 "left": {
@@ -114,9 +114,7 @@
 
 ```javascript
 
-{
-  async let  [] = y;
-}
+ { let []=y; } 
 ```
 
 ### Diagnostics

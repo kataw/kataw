@@ -142,7 +142,7 @@ for ([{x=y}]=x of x) ;
 
 ```javascript
 
-for ([{ x = y }] = x of x);
+ for([{ x = y }]=x of x) ; 
 ```
 
 ### Diagnostics

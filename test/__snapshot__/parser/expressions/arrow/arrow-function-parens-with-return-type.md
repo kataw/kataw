@@ -83,12 +83,7 @@ var foo = ((foo)): string => {};
             "kind": 120,
             "expression": {
                 "kind": 271,
-                "arrowToken": {
-                    "kind": 10,
-                    "flags": 64,
-                    "start": 25,
-                    "end": 28
-                },
+                "asyncKeyword": null,
                 "typeParameters": null,
                 "parameters": {
                     "kind": 134299649,
@@ -98,8 +93,13 @@ var foo = ((foo)): string => {};
                     "start": 18,
                     "end": 25
                 },
-                "asyncKeyword": null,
                 "returnType": null,
+                "arrowToken": {
+                    "kind": 10,
+                    "flags": 64,
+                    "start": 25,
+                    "end": 28
+                },
                 "contents": {
                     "kind": 216,
                     "functionStatementList": {

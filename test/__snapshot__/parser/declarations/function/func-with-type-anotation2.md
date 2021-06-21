@@ -156,7 +156,8 @@ function foo(numVal: any, otherVal: mixed){}
 
 ```javascript
 
-function foo() {}
+ function foo(, ) {
+} 
 ```
 
 ### Diagnostics

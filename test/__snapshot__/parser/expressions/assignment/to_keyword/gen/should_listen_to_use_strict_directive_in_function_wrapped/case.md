@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/assignment/to_keyword/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/assignment/to_keyword/gen/should_listen_to_use_strict_directive_in_function_wrapped
+- Regenerated: 2021-06-12
+- From: d
+- Path: d
 > :: test: should listen to use strict directive in function wrapped
 > :: case: case
 ## Options

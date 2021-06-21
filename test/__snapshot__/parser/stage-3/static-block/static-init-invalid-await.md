@@ -181,11 +181,10 @@ async function f() {
 
 ```javascript
 
-async function f() {
-  class C {
-
-  }
+ async function f() {
+class C {
 }
+} 
 ```
 
 ### Diagnostics

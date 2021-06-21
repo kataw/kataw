@@ -104,8 +104,7 @@ export default async function() { };
 
 ```javascript
 
-export default async function () {};
-
+ , ; 
 ```
 
 ### Diagnostics

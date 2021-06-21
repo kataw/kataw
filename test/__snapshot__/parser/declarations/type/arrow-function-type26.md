@@ -211,7 +211,7 @@ type a = ((x?:string)=> T) => T;
 
 ```javascript
 
-
+  
 ```
 
 ### Diagnostics

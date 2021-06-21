@@ -213,7 +213,7 @@ type a = ({set y(y): string}) => T;
 
 ```javascript
 
-
+  
 ```
 
 ### Diagnostics

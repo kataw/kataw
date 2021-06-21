@@ -234,7 +234,7 @@ type a = (a[a & b[a]][c]) => T;
 
 ```javascript
 
-
+  
 ```
 
 ### Diagnostics

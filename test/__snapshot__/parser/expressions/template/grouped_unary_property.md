@@ -75,7 +75,7 @@
 
 ```javascript
 
-(!t).y;
+ ().y; 
 ```
 
 ### Diagnostics

@@ -43,7 +43,7 @@ await
 
 ```javascript
 
-await;
+ await; 
 ```
 
 ### Diagnostics

@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/call/trailing_comma/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/call/trailing_comma/gen/one_arg
+- Regenerated: 2021-06-12
+- From: d
+- Path: g
 > :: test: one arg
 > :: case: undefined
 ## Options
@@ -74,7 +74,7 @@ foo(x,);
 
 ```javascript
 
-foo(x);
+ ; 
 ```
 
 ### Diagnostics

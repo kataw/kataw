@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/declarations/function/func-decl-errors/autogen.md
-- Path: kataw/test/__snapshot__/parser/declarations/function/func-decl-errors/gen/in_func_expr_body
+- Regenerated: 2021-06-12
+- From: d
+- Path: y
 > :: test: in func expr body
 > :: case: label: async function* f() { }
 ## Options

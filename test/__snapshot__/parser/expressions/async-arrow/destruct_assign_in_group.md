@@ -101,8 +101,7 @@ async ({x} = y);
 
 ```javascript
 
-async({ x } = y)
-
+ , ; 
 ```
 
 ### Diagnostics

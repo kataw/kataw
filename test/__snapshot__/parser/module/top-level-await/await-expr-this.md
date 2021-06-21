@@ -59,7 +59,7 @@ await this;
 
 ```javascript
 
-await this;
+ await this; 
 ```
 
 ### Diagnostics

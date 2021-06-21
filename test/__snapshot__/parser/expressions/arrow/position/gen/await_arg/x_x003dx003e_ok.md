@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/arrow/position/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/arrow/position/gen/await_arg
+- Regenerated: 2021-06-12
+- From: d
+- Path: g
 > :: test: await arg
 > :: case: x => ok
 ## Options
@@ -76,12 +76,7 @@ async function f() {
                                 },
                                 "expression": {
                                     "kind": 271,
-                                    "arrowToken": {
-                                        "kind": 10,
-                                        "flags": 64,
-                                        "start": 30,
-                                        "end": 33
-                                    },
+                                    "asyncKeyword": null,
                                     "typeParameters": null,
                                     "parameters": {
                                         "kind": 134299649,
@@ -91,8 +86,13 @@ async function f() {
                                         "start": 28,
                                         "end": 30
                                     },
-                                    "asyncKeyword": null,
                                     "returnType": null,
+                                    "arrowToken": {
+                                        "kind": 10,
+                                        "flags": 64,
+                                        "start": 30,
+                                        "end": 33
+                                    },
                                     "contents": {
                                         "kind": 134299649,
                                         "text": "ok",
@@ -141,9 +141,9 @@ async function f() {
 
 ```javascript
 
-async function f() {
-  await x =>  ok;
-}
+ async function f() {
+await x =>ok;
+} 
 ```
 
 ### Diagnostics

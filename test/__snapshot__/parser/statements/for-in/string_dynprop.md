@@ -43,7 +43,7 @@ for ("foo"[x] in c) d;
                 "end": 3
             },
             "initializer": {
-                "kind": 536871042,
+                "kind": 130,
                 "member": {
                     "kind": 201392131,
                     "text": "foo",
@@ -60,7 +60,7 @@ for ("foo"[x] in c) d;
                     "start": 11,
                     "end": 12
                 },
-                "flags": 32,
+                "flags": 536870944,
                 "start": 5,
                 "end": 13
             },
@@ -110,8 +110,7 @@ for ("foo"[x] in c) d;
 
 ```javascript
 
-for ( in c)
-  d;
+ for ("foo"[x] in c) d; 
 ```
 
 ### Diagnostics

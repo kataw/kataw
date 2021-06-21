@@ -62,7 +62,6 @@ const {a, [x]: y} = a;
                                     },
                                     {
                                         "kind": 329,
-                                        "ellipsisToken": null,
                                         "key": {
                                             "kind": 194,
                                             "expression": {
@@ -136,10 +135,10 @@ const {a, [x]: y} = a;
 
 ```javascript
 
-const {
-  a,
-  [x]: y
-} = a;
+ const {
+    a,
+     : y
+} = a; 
 ```
 
 ### Diagnostics

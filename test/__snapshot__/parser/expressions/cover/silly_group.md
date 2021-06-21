@@ -49,7 +49,7 @@
 
 ```javascript
 
-(x);
+ (x); 
 ```
 
 ### Diagnostics

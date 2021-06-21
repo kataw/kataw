@@ -157,7 +157,7 @@
 
 ```javascript
 
-
+"use strict"  
 ```
 
 ### Diagnostics

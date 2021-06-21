@@ -25,11 +25,11 @@ async ([x: string = y, z: number]) =>  {};
     "statements": [
         {
             "kind": 271,
-            "arrowToken": {
-                "kind": 10,
+            "asyncKeyword": {
+                "kind": 82031,
                 "flags": 64,
-                "start": 34,
-                "end": 37
+                "start": 0,
+                "end": 5
             },
             "typeParameters": null,
             "parameters": [
@@ -118,13 +118,13 @@ async ([x: string = y, z: number]) =>  {};
                     "end": 33
                 }
             ],
-            "asyncKeyword": {
-                "kind": 82031,
-                "flags": 64,
-                "start": 0,
-                "end": 5
-            },
             "returnType": null,
+            "arrowToken": {
+                "kind": 10,
+                "flags": 64,
+                "start": 34,
+                "end": 37
+            },
             "contents": {
                 "kind": 216,
                 "functionStatementList": {
@@ -163,8 +163,8 @@ async ([x: string = y, z: number]) =>  {};
 
 ```javascript
 
-async ([, ]) =>  {}
-
+ ([z: number, x: string = y]) => {
+}, ; 
 ```
 
 ### Diagnostics

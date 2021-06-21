@@ -24,10 +24,22 @@ for (const ...x in y){}
                 "end": 3
             },
             "initializer": {
-                "kind": 151,
-                "bindingList": [],
-                "flags": 16777232,
-                "start": 10,
+                "kind": 162,
+                "lexicalKeyword": {
+                    "kind": 37757004,
+                    "flags": 64,
+                    "start": 5,
+                    "end": 10
+                },
+                "binding": {
+                    "kind": 151,
+                    "bindingList": [],
+                    "flags": 16777232,
+                    "start": 10,
+                    "end": 10
+                },
+                "flags": 33554448,
+                "start": 0,
                 "end": 10
             },
             "condition": {

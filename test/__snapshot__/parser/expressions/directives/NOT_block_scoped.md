@@ -113,10 +113,7 @@ if (x) { "use strict"; with (x) y; }
 
 ```javascript
 
-if (x) {
-    "\"use strict\"";
-    with (x) y;
-  }
+ if (x) { "use strict";, with (x) y; } 
 ```
 
 ### Diagnostics

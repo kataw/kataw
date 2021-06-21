@@ -602,9 +602,9 @@ try {} catch(e) { for(var e of 0); };
                             "kind": 218,
                             "properties": [
                                 {
-                                    "kind": 257,
+                                    "kind": 351,
                                     "asyncKeyword": null,
-                                    "generatorToken": null,
+                                    "asteriskToken": null,
                                     "getKeyword": {
                                         "kind": 16498,
                                         "flags": 96,
@@ -623,7 +623,7 @@ try {} catch(e) { for(var e of 0); };
                                             "end": 1071
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -702,9 +702,9 @@ try {} catch(e) { for(var e of 0); };
                             "kind": 218,
                             "properties": [
                                 {
-                                    "kind": 257,
+                                    "kind": 351,
                                     "asyncKeyword": null,
-                                    "generatorToken": null,
+                                    "asteriskToken": null,
                                     "getKeyword": null,
                                     "setKeyword": {
                                         "kind": 16499,
@@ -723,7 +723,7 @@ try {} catch(e) { for(var e of 0); };
                                             "end": 1090
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [
                                                 {
@@ -811,9 +811,9 @@ try {} catch(e) { for(var e of 0); };
                             "kind": 218,
                             "properties": [
                                 {
-                                    "kind": 257,
+                                    "kind": 351,
                                     "asyncKeyword": null,
-                                    "generatorToken": null,
+                                    "asteriskToken": null,
                                     "getKeyword": null,
                                     "setKeyword": null,
                                     "method": {
@@ -827,7 +827,7 @@ try {} catch(e) { for(var e of 0); };
                                             "end": 1106
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [
                                                 {
@@ -2464,9 +2464,9 @@ try {} catch(e) { for(var e of 0); };
                         "kind": 218,
                         "properties": [
                             {
-                                "kind": 257,
+                                "kind": 351,
                                 "asyncKeyword": null,
-                                "generatorToken": null,
+                                "asteriskToken": null,
                                 "getKeyword": null,
                                 "setKeyword": null,
                                 "method": {
@@ -2480,7 +2480,7 @@ try {} catch(e) { for(var e of 0); };
                                         "end": 3167
                                     },
                                     "typeParameters": null,
-                                    "formalParameters": {
+                                    "formalParameterList": {
                                         "kind": 214,
                                         "formalParameters": [],
                                         "trailingComma": false,
@@ -2572,9 +2572,9 @@ try {} catch(e) { for(var e of 0); };
                         "kind": 218,
                         "properties": [
                             {
-                                "kind": 257,
+                                "kind": 351,
                                 "asyncKeyword": null,
-                                "generatorToken": null,
+                                "asteriskToken": null,
                                 "getKeyword": null,
                                 "setKeyword": null,
                                 "method": {
@@ -2588,7 +2588,7 @@ try {} catch(e) { for(var e of 0); };
                                         "end": 3190
                                     },
                                     "typeParameters": null,
-                                    "formalParameters": {
+                                    "formalParameterList": {
                                         "kind": 214,
                                         "formalParameters": [],
                                         "trailingComma": false,
@@ -2781,11 +2781,11 @@ try {} catch(e) { for(var e of 0); };
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": null,
                             "getKeyword": null,
+                            "asteriskToken": null,
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -2797,7 +2797,7 @@ try {} catch(e) { for(var e of 0); };
                                     "end": 3258
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -2828,9 +2828,9 @@ try {} catch(e) { for(var e of 0); };
                                                             "kind": 218,
                                                             "properties": [
                                                                 {
-                                                                    "kind": 257,
+                                                                    "kind": 351,
                                                                     "asyncKeyword": null,
-                                                                    "generatorToken": null,
+                                                                    "asteriskToken": null,
                                                                     "getKeyword": null,
                                                                     "setKeyword": null,
                                                                     "method": {
@@ -2844,7 +2844,7 @@ try {} catch(e) { for(var e of 0); };
                                                                             "end": 3276
                                                                         },
                                                                         "typeParameters": null,
-                                                                        "formalParameters": {
+                                                                        "formalParameterList": {
                                                                             "kind": 214,
                                                                             "formalParameters": [],
                                                                             "trailingComma": false,
@@ -3005,11 +3005,11 @@ try {} catch(e) { for(var e of 0); };
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": null,
                             "getKeyword": null,
+                            "asteriskToken": null,
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -3021,7 +3021,7 @@ try {} catch(e) { for(var e of 0); };
                                     "end": 3329
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -3052,9 +3052,9 @@ try {} catch(e) { for(var e of 0); };
                                                             "kind": 218,
                                                             "properties": [
                                                                 {
-                                                                    "kind": 257,
+                                                                    "kind": 351,
                                                                     "asyncKeyword": null,
-                                                                    "generatorToken": {
+                                                                    "asteriskToken": {
                                                                         "kind": 67143222,
                                                                         "flags": 64,
                                                                         "start": 3336,
@@ -3073,7 +3073,7 @@ try {} catch(e) { for(var e of 0); };
                                                                             "end": 3348
                                                                         },
                                                                         "typeParameters": null,
-                                                                        "formalParameters": {
+                                                                        "formalParameterList": {
                                                                             "kind": 214,
                                                                             "formalParameters": [],
                                                                             "trailingComma": false,
@@ -3234,11 +3234,11 @@ try {} catch(e) { for(var e of 0); };
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": null,
                             "getKeyword": null,
+                            "asteriskToken": null,
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -3250,7 +3250,7 @@ try {} catch(e) { for(var e of 0); };
                                     "end": 3401
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -3281,9 +3281,9 @@ try {} catch(e) { for(var e of 0); };
                                                             "kind": 218,
                                                             "properties": [
                                                                 {
-                                                                    "kind": 257,
+                                                                    "kind": 351,
                                                                     "asyncKeyword": null,
-                                                                    "generatorToken": null,
+                                                                    "asteriskToken": null,
                                                                     "getKeyword": {
                                                                         "kind": 16498,
                                                                         "flags": 96,
@@ -3302,7 +3302,7 @@ try {} catch(e) { for(var e of 0); };
                                                                             "end": 3423
                                                                         },
                                                                         "typeParameters": null,
-                                                                        "formalParameters": {
+                                                                        "formalParameterList": {
                                                                             "kind": 214,
                                                                             "formalParameters": [],
                                                                             "trailingComma": false,
@@ -3463,11 +3463,11 @@ try {} catch(e) { for(var e of 0); };
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": null,
                             "getKeyword": null,
+                            "asteriskToken": null,
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -3479,7 +3479,7 @@ try {} catch(e) { for(var e of 0); };
                                     "end": 3476
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -3510,9 +3510,9 @@ try {} catch(e) { for(var e of 0); };
                                                             "kind": 218,
                                                             "properties": [
                                                                 {
-                                                                    "kind": 257,
+                                                                    "kind": 351,
                                                                     "asyncKeyword": null,
-                                                                    "generatorToken": null,
+                                                                    "asteriskToken": null,
                                                                     "getKeyword": null,
                                                                     "setKeyword": {
                                                                         "kind": 16499,
@@ -3531,7 +3531,7 @@ try {} catch(e) { for(var e of 0); };
                                                                             "end": 3498
                                                                         },
                                                                         "typeParameters": null,
-                                                                        "formalParameters": {
+                                                                        "formalParameterList": {
                                                                             "kind": 214,
                                                                             "formalParameters": [
                                                                                 {
@@ -4487,12 +4487,7 @@ try {} catch(e) { for(var e of 0); };
                             "kind": 120,
                             "expression": {
                                 "kind": 271,
-                                "arrowToken": {
-                                    "kind": 10,
-                                    "flags": 64,
-                                    "start": 4722,
-                                    "end": 4725
-                                },
+                                "asyncKeyword": null,
                                 "typeParameters": null,
                                 "parameters": [
                                     {
@@ -4528,8 +4523,13 @@ try {} catch(e) { for(var e of 0); };
                                         "end": 4721
                                     }
                                 ],
-                                "asyncKeyword": null,
                                 "returnType": null,
+                                "arrowToken": {
+                                    "kind": 10,
+                                    "flags": 64,
+                                    "start": 4722,
+                                    "end": 4725
+                                },
                                 "contents": {
                                     "kind": 201392130,
                                     "text": 0,
@@ -4609,12 +4609,7 @@ try {} catch(e) { for(var e of 0); };
                             "kind": 120,
                             "expression": {
                                 "kind": 271,
-                                "arrowToken": {
-                                    "kind": 10,
-                                    "flags": 64,
-                                    "start": 4760,
-                                    "end": 4763
-                                },
+                                "asyncKeyword": null,
                                 "typeParameters": null,
                                 "parameters": [
                                     {
@@ -4657,8 +4652,13 @@ try {} catch(e) { for(var e of 0); };
                                         "end": 4759
                                     }
                                 ],
-                                "asyncKeyword": null,
                                 "returnType": null,
+                                "arrowToken": {
+                                    "kind": 10,
+                                    "flags": 64,
+                                    "start": 4760,
+                                    "end": 4763
+                                },
                                 "contents": {
                                     "kind": 201392130,
                                     "text": 0,
@@ -4738,12 +4738,7 @@ try {} catch(e) { for(var e of 0); };
                             "kind": 120,
                             "expression": {
                                 "kind": 271,
-                                "arrowToken": {
-                                    "kind": 10,
-                                    "flags": 64,
-                                    "start": 4799,
-                                    "end": 4802
-                                },
+                                "asyncKeyword": null,
                                 "typeParameters": null,
                                 "parameters": [
                                     {
@@ -4791,8 +4786,13 @@ try {} catch(e) { for(var e of 0); };
                                         "end": 4798
                                     }
                                 ],
-                                "asyncKeyword": null,
                                 "returnType": null,
+                                "arrowToken": {
+                                    "kind": 10,
+                                    "flags": 64,
+                                    "start": 4799,
+                                    "end": 4802
+                                },
                                 "contents": {
                                     "kind": 201392130,
                                     "text": 0,
@@ -4872,12 +4872,7 @@ try {} catch(e) { for(var e of 0); };
                             "kind": 120,
                             "expression": {
                                 "kind": 271,
-                                "arrowToken": {
-                                    "kind": 10,
-                                    "flags": 64,
-                                    "start": 4842,
-                                    "end": 4845
-                                },
+                                "asyncKeyword": null,
                                 "typeParameters": null,
                                 "parameters": [
                                     {
@@ -4956,8 +4951,13 @@ try {} catch(e) { for(var e of 0); };
                                         "end": 4841
                                     }
                                 ],
-                                "asyncKeyword": null,
                                 "returnType": null,
+                                "arrowToken": {
+                                    "kind": 10,
+                                    "flags": 64,
+                                    "start": 4842,
+                                    "end": 4845
+                                },
                                 "contents": {
                                     "kind": 201392130,
                                     "text": 0,
@@ -5037,12 +5037,7 @@ try {} catch(e) { for(var e of 0); };
                             "kind": 120,
                             "expression": {
                                 "kind": 271,
-                                "arrowToken": {
-                                    "kind": 10,
-                                    "flags": 64,
-                                    "start": 4881,
-                                    "end": 4884
-                                },
+                                "asyncKeyword": null,
                                 "typeParameters": null,
                                 "parameters": [
                                     {
@@ -5052,7 +5047,6 @@ try {} catch(e) { for(var e of 0); };
                                             "properties": [
                                                 {
                                                     "kind": 329,
-                                                    "ellipsisToken": null,
                                                     "key": {
                                                         "kind": 194,
                                                         "expression": {
@@ -5098,8 +5092,13 @@ try {} catch(e) { for(var e of 0); };
                                         "end": 4880
                                     }
                                 ],
-                                "asyncKeyword": null,
                                 "returnType": null,
+                                "arrowToken": {
+                                    "kind": 10,
+                                    "flags": 64,
+                                    "start": 4881,
+                                    "end": 4884
+                                },
                                 "contents": {
                                     "kind": 201392130,
                                     "text": 0,
@@ -5179,12 +5178,7 @@ try {} catch(e) { for(var e of 0); };
                             "kind": 120,
                             "expression": {
                                 "kind": 271,
-                                "arrowToken": {
-                                    "kind": 10,
-                                    "flags": 64,
-                                    "start": 4919,
-                                    "end": 4922
-                                },
+                                "asyncKeyword": null,
                                 "typeParameters": null,
                                 "parameters": [
                                     {
@@ -5235,8 +5229,13 @@ try {} catch(e) { for(var e of 0); };
                                         "end": 4918
                                     }
                                 ],
-                                "asyncKeyword": null,
                                 "returnType": null,
+                                "arrowToken": {
+                                    "kind": 10,
+                                    "flags": 64,
+                                    "start": 4919,
+                                    "end": 4922
+                                },
                                 "contents": {
                                     "kind": 201392130,
                                     "text": 0,
@@ -5316,12 +5315,7 @@ try {} catch(e) { for(var e of 0); };
                             "kind": 120,
                             "expression": {
                                 "kind": 271,
-                                "arrowToken": {
-                                    "kind": 10,
-                                    "flags": 64,
-                                    "start": 4957,
-                                    "end": 4960
-                                },
+                                "asyncKeyword": null,
                                 "typeParameters": null,
                                 "parameters": [
                                     {
@@ -5372,8 +5366,13 @@ try {} catch(e) { for(var e of 0); };
                                         "end": 4956
                                     }
                                 ],
-                                "asyncKeyword": null,
                                 "returnType": null,
+                                "arrowToken": {
+                                    "kind": 10,
+                                    "flags": 64,
+                                    "start": 4957,
+                                    "end": 4960
+                                },
                                 "contents": {
                                     "kind": 201392130,
                                     "text": 0,
@@ -5733,28 +5732,40 @@ try {} catch(e) { for(var e of 0); };
                                 },
                                 "awaitKeyword": null,
                                 "initializer": {
-                                    "kind": 156,
-                                    "declarations": [
-                                        {
-                                            "kind": 157,
-                                            "binding": {
-                                                "kind": 134299649,
-                                                "text": "e",
-                                                "rawText": "e",
-                                                "flags": 96,
+                                    "kind": 341,
+                                    "varKeyword": {
+                                        "kind": 37757002,
+                                        "flags": 64,
+                                        "start": 5604,
+                                        "end": 5607
+                                    },
+                                    "declarationList": {
+                                        "kind": 156,
+                                        "declarations": [
+                                            {
+                                                "kind": 157,
+                                                "binding": {
+                                                    "kind": 134299649,
+                                                    "text": "e",
+                                                    "rawText": "e",
+                                                    "flags": 96,
+                                                    "start": 5607,
+                                                    "end": 5609
+                                                },
+                                                "type": null,
+                                                "initializer": null,
+                                                "flags": 16,
                                                 "start": 5607,
                                                 "end": 5609
-                                            },
-                                            "type": null,
-                                            "initializer": null,
-                                            "flags": 16,
-                                            "start": 5607,
-                                            "end": 5609
-                                        }
-                                    ],
+                                            }
+                                        ],
+                                        "flags": 16,
+                                        "start": 5607,
+                                        "end": 5609
+                                    },
                                     "flags": 16,
-                                    "start": 5607,
-                                    "end": 5609
+                                    "start": 5599,
+                                    "end": 5612
                                 },
                                 "ofKeyword": {
                                     "kind": 16793717,

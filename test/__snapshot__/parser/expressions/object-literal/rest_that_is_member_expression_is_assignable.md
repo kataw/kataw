@@ -110,7 +110,7 @@
 
 ```javascript
 
-({ ...a.b } = c);
+ ({  }=c); 
 ```
 
 ### Diagnostics

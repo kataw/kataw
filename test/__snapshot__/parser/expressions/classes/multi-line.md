@@ -112,7 +112,8 @@ class C extends (
 
 ```javascript
 
-class C  {}
+ class C {
+} 
 ```
 
 ### Diagnostics

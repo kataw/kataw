@@ -160,7 +160,7 @@ var y = { prot\u0065cted: x } = { protected: 42 };
 
 ```javascript
 
-var y = { protected: x } = { protected: 42 };
+ var y = { prot\u0065cted : x }={ protected : 42 }; 
 ```
 
 ### Diagnostics

@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/arrow/position/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/arrow/position/gen/dot_property
+- Regenerated: 2021-06-12
+- From: d
+- Path: y
 > :: test: dot property
 > :: case: async => {}
 ## Options
@@ -29,11 +29,11 @@ async => {}.x
                 "kind": 129,
                 "member": {
                     "kind": 271,
-                    "arrowToken": {
-                        "kind": 10,
+                    "asyncKeyword": {
+                        "kind": 82031,
                         "flags": 64,
-                        "start": 5,
-                        "end": 8
+                        "start": 0,
+                        "end": 5
                     },
                     "typeParameters": null,
                     "parameters": {
@@ -44,13 +44,13 @@ async => {}.x
                         "start": 0,
                         "end": 5
                     },
-                    "asyncKeyword": {
-                        "kind": 82031,
-                        "flags": 64,
-                        "start": 0,
-                        "end": 5
-                    },
                     "returnType": null,
+                    "arrowToken": {
+                        "kind": 10,
+                        "flags": 64,
+                        "start": 5,
+                        "end": 8
+                    },
                     "contents": {
                         "kind": 216,
                         "functionStatementList": {

@@ -73,7 +73,6 @@ class A {
                                 "start": 9,
                                 "end": 16
                             },
-                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": {
@@ -83,6 +82,7 @@ class A {
                                 "end": 20
                             },
                             "getKeyword": null,
+                            "asteriskToken": null,
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -94,7 +94,7 @@ class A {
                                     "end": 27
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -152,10 +152,10 @@ class A {
 
 ```javascript
 
-class A {
-  @foo
-  get getter {}
-}
+ class A {
+    get getter() {
+    }
+} 
 ```
 
 ### Diagnostics

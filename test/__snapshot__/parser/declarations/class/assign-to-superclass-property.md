@@ -69,11 +69,11 @@ class B extends A {
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": null,
                             "getKeyword": null,
+                            "asteriskToken": null,
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -85,7 +85,7 @@ class B extends A {
                                     "end": 35
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -254,12 +254,12 @@ class B extends A {
 
 ```javascript
 
-class B  {
-  constructor {
-    super();
-    this.initializer = this.initializer + 1;
-  }
-}
+ class B {
+    constructor() {
+    ;,
+    this.initializer=this.initializer + 1;
+    }
+} 
 ```
 
 ### Diagnostics

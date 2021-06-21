@@ -72,11 +72,11 @@ for (class x { [a](){} }.x in c);
                                     "kind": 278,
                                     "declareToken": null,
                                     "decorators": null,
-                                    "asteriskToken": null,
                                     "staticKeyword": null,
                                     "asyncKeyword": null,
                                     "setKeyword": null,
                                     "getKeyword": null,
+                                    "asteriskToken": null,
                                     "method": {
                                         "kind": 209,
                                         "name": {
@@ -94,7 +94,7 @@ for (class x { [a](){} }.x in c);
                                             "end": 18
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -188,9 +188,10 @@ for (class x { [a](){} }.x in c);
 
 ```javascript
 
-for (class x {
-  [a] {}
-}.x in c);
+ for (class x {
+    () {
+    }
+}.x in c) ; 
 ```
 
 ### Diagnostics

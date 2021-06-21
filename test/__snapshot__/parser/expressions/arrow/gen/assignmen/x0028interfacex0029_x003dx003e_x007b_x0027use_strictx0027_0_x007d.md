@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/arrow/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/arrow/gen/assignmen
+- Regenerated: 2021-06-12
+- From: d
+- Path: n
 > :: test: assignmen
 > :: case: (interface) => { 'use strict'; 0 }
 ## Options
@@ -43,12 +43,7 @@ x = (interface) => { 'use strict'; 0 } ;
                 },
                 "right": {
                     "kind": 271,
-                    "arrowToken": {
-                        "kind": 10,
-                        "flags": 64,
-                        "start": 15,
-                        "end": 18
-                    },
+                    "asyncKeyword": null,
                     "typeParameters": null,
                     "parameters": [
                         {
@@ -60,8 +55,13 @@ x = (interface) => { 'use strict'; 0 } ;
                             "end": 14
                         }
                     ],
-                    "asyncKeyword": null,
                     "returnType": null,
+                    "arrowToken": {
+                        "kind": 10,
+                        "flags": 64,
+                        "start": 15,
+                        "end": 18
+                    },
                     "contents": {
                         "kind": 216,
                         "functionStatementList": {
@@ -126,9 +126,9 @@ x = (interface) => { 'use strict'; 0 } ;
 
 ```javascript
 
-x = (interface) =>  {
-  0;
-};
+ x=(interface) => {
+0;
+}; 
 ```
 
 ### Diagnostics

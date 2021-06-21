@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/miscellaneous/destructuring/destructuring-assignment-negative-tests/autogen.md
-- Path: kataw/test/__snapshot__/parser/miscellaneous/destructuring/destructuring-assignment-negative-tests/gen/lexical_let
+- Regenerated: 2021-06-12
+- From: d
+- Path: t
 > :: test: lexical let
 > :: case: { x: new.target = 1 }
 ## Options

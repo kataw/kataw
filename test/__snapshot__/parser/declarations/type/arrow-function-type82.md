@@ -253,7 +253,7 @@ type a = (([-1]| q & (x)) => T) => T
 
 ```javascript
 
-
+  
 ```
 
 ### Diagnostics

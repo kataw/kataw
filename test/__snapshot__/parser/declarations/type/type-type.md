@@ -155,7 +155,7 @@ type Foo<T> = Bar<T>
 
 ```javascript
 
-
+  
 ```
 
 ### Diagnostics

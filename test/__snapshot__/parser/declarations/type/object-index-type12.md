@@ -183,7 +183,7 @@ type X = {[|(x) =>x&symbol]: string,};
 
 ```javascript
 
-
+  
 ```
 
 ### Diagnostics

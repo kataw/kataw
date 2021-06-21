@@ -34,14 +34,14 @@ let {...(a,b)} = foo
                                 "kind": 213,
                                 "properties": [
                                     {
-                                        "kind": 329,
+                                        "kind": 281,
                                         "ellipsisToken": {
                                             "kind": 524302,
                                             "flags": 64,
                                             "start": 5,
                                             "end": 8
                                         },
-                                        "key": {
+                                        "left": {
                                             "kind": 16637,
                                             "text": "",
                                             "rawText": "",
@@ -49,16 +49,10 @@ let {...(a,b)} = foo
                                             "start": 8,
                                             "end": 8
                                         },
-                                        "value": {
-                                            "kind": 16637,
-                                            "text": "",
-                                            "rawText": "",
-                                            "flags": 64,
-                                            "start": 8,
-                                            "end": 8
-                                        },
-                                        "initializer": null,
-                                        "flags": 32,
+                                        "optionalToken": null,
+                                        "type": null,
+                                        "right": null,
+                                        "flags": 0,
                                         "start": 5,
                                         "end": 8
                                     }

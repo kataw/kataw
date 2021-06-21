@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/arrow/position/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/arrow/position/gen/dynamic_property
+- Regenerated: 2021-06-12
+- From: d
+- Path: y
 > :: test: dynamic property
 > :: case: async x => ok
 ## Options
@@ -27,11 +27,11 @@ async x => ok[foo]
             "kind": 120,
             "expression": {
                 "kind": 271,
-                "arrowToken": {
-                    "kind": 10,
+                "asyncKeyword": {
+                    "kind": 82031,
                     "flags": 64,
-                    "start": 7,
-                    "end": 10
+                    "start": 0,
+                    "end": 5
                 },
                 "typeParameters": null,
                 "parameters": {
@@ -42,15 +42,15 @@ async x => ok[foo]
                     "start": 5,
                     "end": 7
                 },
-                "asyncKeyword": {
-                    "kind": 82031,
-                    "flags": 64,
-                    "start": 0,
-                    "end": 5
-                },
                 "returnType": null,
+                "arrowToken": {
+                    "kind": 10,
+                    "flags": 64,
+                    "start": 7,
+                    "end": 10
+                },
                 "contents": {
-                    "kind": 536871042,
+                    "kind": 130,
                     "member": {
                         "kind": 134299649,
                         "text": "ok",
@@ -67,7 +67,7 @@ async x => ok[foo]
                         "start": 14,
                         "end": 17
                     },
-                    "flags": 32,
+                    "flags": 536870944,
                     "start": 10,
                     "end": 18
                 },
@@ -93,7 +93,7 @@ async x => ok[foo]
 
 ```javascript
 
-async x =>  ;
+ x =>ok[foo]; 
 ```
 
 ### Diagnostics

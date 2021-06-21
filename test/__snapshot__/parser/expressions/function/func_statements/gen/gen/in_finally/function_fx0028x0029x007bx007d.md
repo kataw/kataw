@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/function/func_statements/gen/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/function/func_statements/gen/gen/in_finally
+- Regenerated: 2021-06-12
+- From: d
+- Path: y
 > :: test: in finally
 > :: case: function f(){}
 ## Options
@@ -133,10 +133,9 @@ try {
 
 ```javascript
 
-try {
-} try{
-  function f() {}
-}
+ try {  }
+finally { function f() {
+} } 
 ```
 
 ### Diagnostics

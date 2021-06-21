@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/yield/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/yield/gen/function_generator
+- Regenerated: 2021-06-12
+- From: d
+- Path: r
 > :: test: function generator
 > :: case: async function f(){ await await foo; }
 ## Options
@@ -229,13 +229,13 @@ function * gen() { function not_gen() { async function f(){ await await foo; } }
 
 ```javascript
 
-function * gen() {
-  function not_gen() {
-    async function f() {
-      await await foo;
-    }
-  }
+ function* gen() {
+function not_gen() {
+async function f() {
+await await foo;
 }
+}
+} 
 ```
 
 ### Diagnostics

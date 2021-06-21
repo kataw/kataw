@@ -64,11 +64,11 @@ class x extends y { dsda(){ return (a=super[bar]) => a; }}
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": null,
                             "getKeyword": null,
+                            "asteriskToken": null,
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -80,7 +80,7 @@ class x extends y { dsda(){ return (a=super[bar]) => a; }}
                                     "end": 24
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -105,12 +105,7 @@ class x extends y { dsda(){ return (a=super[bar]) => a; }}
                                                 },
                                                 "expression": {
                                                     "kind": 271,
-                                                    "arrowToken": {
-                                                        "kind": 10,
-                                                        "flags": 64,
-                                                        "start": 49,
-                                                        "end": 52
-                                                    },
+                                                    "asyncKeyword": null,
                                                     "typeParameters": null,
                                                     "parameters": [
                                                         {
@@ -127,7 +122,7 @@ class x extends y { dsda(){ return (a=super[bar]) => a; }}
                                                             "optionalToken": null,
                                                             "type": null,
                                                             "right": {
-                                                                "kind": 536871042,
+                                                                "kind": 130,
                                                                 "member": {
                                                                     "kind": 225,
                                                                     "superKeyword": {
@@ -148,7 +143,7 @@ class x extends y { dsda(){ return (a=super[bar]) => a; }}
                                                                     "start": 44,
                                                                     "end": 47
                                                                 },
-                                                                "flags": 32,
+                                                                "flags": 536870944,
                                                                 "start": 38,
                                                                 "end": 48
                                                             },
@@ -157,8 +152,13 @@ class x extends y { dsda(){ return (a=super[bar]) => a; }}
                                                             "end": 48
                                                         }
                                                     ],
-                                                    "asyncKeyword": null,
                                                     "returnType": null,
+                                                    "arrowToken": {
+                                                        "kind": 10,
+                                                        "flags": 64,
+                                                        "start": 49,
+                                                        "end": 52
+                                                    },
                                                     "contents": {
                                                         "kind": 134299649,
                                                         "text": "a",
@@ -219,11 +219,11 @@ class x extends y { dsda(){ return (a=super[bar]) => a; }}
 
 ```javascript
 
-class x  {
-  dsda {
-    return  (a = ) =>  a;
-  }
-}
+ class x {
+    dsda() {
+    return (a = [bar]) =>a;
+    }
+} 
 ```
 
 ### Diagnostics

@@ -68,7 +68,6 @@ let {a,b=0,c:d,e:f=0,[g]:[h]}=0
                                     },
                                     {
                                         "kind": 329,
-                                        "ellipsisToken": null,
                                         "key": {
                                             "kind": 134299649,
                                             "text": "c",
@@ -92,7 +91,6 @@ let {a,b=0,c:d,e:f=0,[g]:[h]}=0
                                     },
                                     {
                                         "kind": 329,
-                                        "ellipsisToken": null,
                                         "key": {
                                             "kind": 134299649,
                                             "text": "e",
@@ -123,7 +121,6 @@ let {a,b=0,c:d,e:f=0,[g]:[h]}=0
                                     },
                                     {
                                         "kind": 329,
-                                        "ellipsisToken": null,
                                         "key": {
                                             "kind": 194,
                                             "expression": {
@@ -212,13 +209,13 @@ let {a,b=0,c:d,e:f=0,[g]:[h]}=0
 
 ```javascript
 
-let {
-  a,
-  b = 0,
-  c: d,
-  e: f = 0,
-  [g]: [h]
-} = 0;
+ let {
+    a,
+    b = 0,
+    c : d,
+    e : f,
+     : 
+} = 0; 
 ```
 
 ### Diagnostics

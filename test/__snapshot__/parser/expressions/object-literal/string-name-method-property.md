@@ -49,9 +49,9 @@ var x = {
                                 "kind": 218,
                                 "properties": [
                                     {
-                                        "kind": 257,
+                                        "kind": 351,
                                         "asyncKeyword": null,
-                                        "generatorToken": null,
+                                        "asteriskToken": null,
                                         "getKeyword": null,
                                         "setKeyword": null,
                                         "method": {
@@ -65,7 +65,7 @@ var x = {
                                                 "end": 19
                                             },
                                             "typeParameters": null,
-                                            "formalParameters": {
+                                            "formalParameterList": {
                                                 "kind": 214,
                                                 "formalParameters": [],
                                                 "trailingComma": false,
@@ -154,9 +154,9 @@ var x = {
 
 ```javascript
 
-var x = { "\"foo\"" {
-    return  bar;
-  } };
+ var x = { "foo"() {
+    return bar;
+    } }; 
 ```
 
 ### Diagnostics

@@ -135,7 +135,7 @@ async <{}>(x) >> y + z
 
 ```javascript
 
-async  < {} > (x) >> y + z;
+ async  < {  } > (x) >> y + z; 
 ```
 
 ### Diagnostics

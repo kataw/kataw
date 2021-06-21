@@ -168,11 +168,11 @@ class C2<X, Y> {
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": null,
                             "getKeyword": null,
+                            "asteriskToken": null,
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -184,7 +184,7 @@ class C2<X, Y> {
                                     "end": 39
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [
                                         {
@@ -626,11 +626,11 @@ class C2<X, Y> {
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": null,
                             "getKeyword": null,
+                            "asteriskToken": null,
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -642,7 +642,7 @@ class C2<X, Y> {
                                     "end": 180
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -815,22 +815,19 @@ class C2<X, Y> {
 
 ```javascript
 
-class E  {
-  set {
-    this.x = x;
-    if (x) {
-        return  this.get_bad();
-      }
-    return  this.get();
-  }
-}
-class C2 {
-  x;
-
-  foo {
-    return  this.x;
-  }
-}
+ class E {
+    set(): X {
+    this.x=x;,
+    if (x) { return ; },
+    return ;
+    }
+}, class C2 {
+    x: ,
+    ,
+    foo(): D2 {
+    return this.x;
+    }
+} 
 ```
 
 ### Diagnostics

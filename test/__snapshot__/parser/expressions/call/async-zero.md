@@ -80,7 +80,7 @@ async(0,...a)
 
 ```javascript
 
-async(0, ...a)
+  
 ```
 
 ### Diagnostics

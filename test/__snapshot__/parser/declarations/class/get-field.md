@@ -85,11 +85,11 @@ get(){} }
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": null,
                             "getKeyword": null,
+                            "asteriskToken": null,
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -101,7 +101,7 @@ get(){} }
                                     "end": 19
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -159,10 +159,11 @@ get(){} }
 
 ```javascript
 
-class C {
-  async;
-  get {}
-}
+ class C {
+    async,
+    get() {
+    }
+} 
 ```
 
 ### Diagnostics

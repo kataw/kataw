@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/import-call/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/import-call/gen/lexical
+- Regenerated: 2021-06-12
+- From: d
+- Path: l
 > :: test: lexical
 > :: case: import(y=x)
 ## Options
@@ -83,7 +83,7 @@ import(y=x)
 
 ```javascript
 
-import(y = x);
+ ; 
 ```
 
 ### Diagnostics

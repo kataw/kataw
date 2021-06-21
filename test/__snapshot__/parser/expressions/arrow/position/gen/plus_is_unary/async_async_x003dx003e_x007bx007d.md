@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/arrow/position/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/arrow/position/gen/plus_is_unary
+- Regenerated: 2021-06-12
+- From: d
+- Path: y
 > :: test: plus is unary
 > :: case: async async => {}
 ## Options
@@ -28,11 +28,11 @@ async async => {}
             "kind": 120,
             "expression": {
                 "kind": 271,
-                "arrowToken": {
-                    "kind": 10,
+                "asyncKeyword": {
+                    "kind": 82031,
                     "flags": 64,
-                    "start": 11,
-                    "end": 14
+                    "start": 0,
+                    "end": 5
                 },
                 "typeParameters": null,
                 "parameters": {
@@ -43,13 +43,13 @@ async async => {}
                     "start": 5,
                     "end": 11
                 },
-                "asyncKeyword": {
-                    "kind": 82031,
-                    "flags": 64,
-                    "start": 0,
-                    "end": 5
-                },
                 "returnType": null,
+                "arrowToken": {
+                    "kind": 10,
+                    "flags": 64,
+                    "start": 11,
+                    "end": 14
+                },
                 "contents": {
                     "kind": 216,
                     "functionStatementList": {
@@ -112,8 +112,8 @@ async async => {}
 
 ```javascript
 
-async async =>  {};
-+x;
+ async => {
+};, ; 
 ```
 
 ### Diagnostics

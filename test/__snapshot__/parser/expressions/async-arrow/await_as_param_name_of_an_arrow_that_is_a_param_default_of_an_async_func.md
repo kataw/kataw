@@ -17,11 +17,11 @@ async(a = (await) => {}) => {};
     "statements": [
         {
             "kind": 271,
-            "arrowToken": {
-                "kind": 10,
+            "asyncKeyword": {
+                "kind": 82031,
                 "flags": 64,
-                "start": 24,
-                "end": 27
+                "start": 0,
+                "end": 5
             },
             "typeParameters": null,
             "parameters": [
@@ -40,12 +40,7 @@ async(a = (await) => {}) => {};
                     "type": null,
                     "right": {
                         "kind": 271,
-                        "arrowToken": {
-                            "kind": 10,
-                            "flags": 64,
-                            "start": 17,
-                            "end": 20
-                        },
+                        "asyncKeyword": null,
                         "typeParameters": null,
                         "parameters": [
                             {
@@ -57,8 +52,13 @@ async(a = (await) => {}) => {};
                                 "end": 16
                             }
                         ],
-                        "asyncKeyword": null,
                         "returnType": null,
+                        "arrowToken": {
+                            "kind": 10,
+                            "flags": 64,
+                            "start": 17,
+                            "end": 20
+                        },
                         "contents": {
                             "kind": 216,
                             "functionStatementList": {
@@ -82,13 +82,13 @@ async(a = (await) => {}) => {};
                     "end": 23
                 }
             ],
-            "asyncKeyword": {
-                "kind": 82031,
-                "flags": 64,
-                "start": 0,
-                "end": 5
-            },
             "returnType": null,
+            "arrowToken": {
+                "kind": 10,
+                "flags": 64,
+                "start": 24,
+                "end": 27
+            },
             "contents": {
                 "kind": 216,
                 "functionStatementList": {
@@ -127,8 +127,9 @@ async(a = (await) => {}) => {};
 
 ```javascript
 
-async (a = (await) =>  {}) =>  {}
-
+ (a = (await) => {
+    }) => {
+}, ; 
 ```
 
 ### Diagnostics

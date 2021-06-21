@@ -139,9 +139,9 @@ function f2() { yield /=2 /d }
 
 ```javascript
 
-function f2() {
-  yield /= 2 / d;
-}
+ function f2() {
+yield/=2 / d;
+} 
 ```
 
 ### Diagnostics

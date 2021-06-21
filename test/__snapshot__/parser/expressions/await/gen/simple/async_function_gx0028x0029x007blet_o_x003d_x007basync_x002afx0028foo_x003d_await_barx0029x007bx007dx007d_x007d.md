@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/await/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/await/gen/simple
+- Regenerated: 2021-06-12
+- From: d
+- Path: e
 > :: test: simple
 > :: case: async function g(){let o = {async *f(foo = await bar){}}    }
 ## Options
@@ -90,14 +90,14 @@ async function g(){let o = {async *f(foo = await bar){}}    }
                                                 "kind": 218,
                                                 "properties": [
                                                     {
-                                                        "kind": 257,
+                                                        "kind": 351,
                                                         "asyncKeyword": {
                                                             "kind": 82031,
                                                             "flags": 352,
                                                             "start": 28,
                                                             "end": 33
                                                         },
-                                                        "generatorToken": {
+                                                        "asteriskToken": {
                                                             "kind": 67143222,
                                                             "flags": 64,
                                                             "start": 33,
@@ -116,7 +116,7 @@ async function g(){let o = {async *f(foo = await bar){}}    }
                                                                 "end": 36
                                                             },
                                                             "typeParameters": null,
-                                                            "formalParameters": {
+                                                            "formalParameterList": {
                                                                 "kind": 214,
                                                                 "formalParameters": [
                                                                     {

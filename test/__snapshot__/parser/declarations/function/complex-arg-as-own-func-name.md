@@ -100,7 +100,8 @@ function f([f]) { }
 
 ```javascript
 
-function f() {}
+ function f() {
+} 
 ```
 
 ### Diagnostics

@@ -63,22 +63,12 @@ a ? (b) : (c => d) => e : f;
                 },
                 "alternate": {
                     "kind": 271,
-                    "arrowToken": {
-                        "kind": 10,
-                        "flags": 64,
-                        "start": 18,
-                        "end": 21
-                    },
+                    "asyncKeyword": null,
                     "typeParameters": null,
                     "parameters": [
                         {
                             "kind": 271,
-                            "arrowToken": {
-                                "kind": 10,
-                                "flags": 64,
-                                "start": 12,
-                                "end": 15
-                            },
+                            "asyncKeyword": null,
                             "typeParameters": null,
                             "parameters": {
                                 "kind": 134299649,
@@ -88,8 +78,13 @@ a ? (b) : (c => d) => e : f;
                                 "start": 11,
                                 "end": 12
                             },
-                            "asyncKeyword": null,
                             "returnType": null,
+                            "arrowToken": {
+                                "kind": 10,
+                                "flags": 64,
+                                "start": 12,
+                                "end": 15
+                            },
                             "contents": {
                                 "kind": 134299649,
                                 "text": "d",
@@ -103,8 +98,13 @@ a ? (b) : (c => d) => e : f;
                             "end": 17
                         }
                     ],
-                    "asyncKeyword": null,
                     "returnType": null,
+                    "arrowToken": {
+                        "kind": 10,
+                        "flags": 64,
+                        "start": 18,
+                        "end": 21
+                    },
                     "contents": {
                         "kind": 134299649,
                         "text": "e",

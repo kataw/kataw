@@ -203,9 +203,9 @@ function targetKey() {
                                     "kind": 218,
                                     "properties": [
                                         {
-                                            "kind": 257,
+                                            "kind": 351,
                                             "asyncKeyword": null,
-                                            "generatorToken": null,
+                                            "asteriskToken": null,
                                             "getKeyword": {
                                                 "kind": 16498,
                                                 "flags": 97,
@@ -224,7 +224,7 @@ function targetKey() {
                                                     "end": 86
                                                 },
                                                 "typeParameters": null,
-                                                "formalParameters": {
+                                                "formalParameterList": {
                                                     "kind": 214,
                                                     "formalParameters": [],
                                                     "trailingComma": false,
@@ -434,9 +434,9 @@ function targetKey() {
                                     "kind": 218,
                                     "properties": [
                                         {
-                                            "kind": 257,
+                                            "kind": 351,
                                             "asyncKeyword": null,
-                                            "generatorToken": null,
+                                            "asteriskToken": null,
                                             "getKeyword": null,
                                             "setKeyword": {
                                                 "kind": 16499,
@@ -455,7 +455,7 @@ function targetKey() {
                                                     "end": 209
                                                 },
                                                 "typeParameters": null,
-                                                "formalParameters": {
+                                                "formalParameterList": {
                                                     "kind": 214,
                                                     "formalParameters": [
                                                         {
@@ -1122,7 +1122,7 @@ function targetKey() {
                                         "end": 646
                                     },
                                     "right": {
-                                        "kind": 536871042,
+                                        "kind": 130,
                                         "member": {
                                             "kind": 131,
                                             "expression": {
@@ -1167,7 +1167,7 @@ function targetKey() {
                                             "start": 657,
                                             "end": 668
                                         },
-                                        "flags": 32,
+                                        "flags": 536870944,
                                         "start": 633,
                                         "end": 669
                                     },
@@ -1239,34 +1239,29 @@ function targetKey() {
 
 ```javascript
 
-var log = [];
-function source() {
-  log.push("\"source\"");
-  return  { get p {
-      log.push("\"get\"");
+ var log = [];, function source() {
+;,
+return { get p() {
+    ;
     } };
-}
-function target() {
-  log.push("\"target\"");
-  return  { set q {
-      log.push("\"set\"");
+}, function target() {
+;,
+return { set q(v) {
+    ;
     } };
-}
-function sourceKey() {
-  log.push("\"source-key\"");
-  return  { toString: function () {
-      log.push("\"source-key-tostring\"");
-      return  "\"p\"";
+}, function sourceKey() {
+;,
+return { toString : function () {
+    ;,
+    return "p";
     } };
-}
-function targetKey() {
-  log.push("\"target-key\"");
-  return  { toString: function () {
-      log.push("\"target-key-tostring\"");
-      return  "\"q\"";
+}, function targetKey() {
+;,
+return { toString : function () {
+    ;,
+    return "q";
     } };
-}
-({ [sourceKey()]:  } = source());
+}, ({  : [] }=); 
 ```
 
 ### Diagnostics

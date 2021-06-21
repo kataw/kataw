@@ -17,11 +17,11 @@ async (x = async([(f) = []])) => {};
     "statements": [
         {
             "kind": 271,
-            "arrowToken": {
-                "kind": 10,
+            "asyncKeyword": {
+                "kind": 82031,
                 "flags": 64,
-                "start": 29,
-                "end": 32
+                "start": 0,
+                "end": 5
             },
             "typeParameters": null,
             "parameters": [
@@ -121,13 +121,13 @@ async (x = async([(f) = []])) => {};
                     "end": 28
                 }
             ],
-            "asyncKeyword": {
-                "kind": 82031,
-                "flags": 64,
-                "start": 0,
-                "end": 5
-            },
             "returnType": null,
+            "arrowToken": {
+                "kind": 10,
+                "flags": 64,
+                "start": 29,
+                "end": 32
+            },
             "contents": {
                 "kind": 216,
                 "functionStatementList": {
@@ -166,8 +166,8 @@ async (x = async([(f) = []])) => {};
 
 ```javascript
 
-async (x = async([(f) = []])) =>  {}
-
+ (x = ) => {
+}, ; 
 ```
 
 ### Diagnostics

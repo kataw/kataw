@@ -99,10 +99,7 @@
 
 ```javascript
 
-{
-  a();
-  bt();
-}
+ { ;, ; } 
 ```
 
 ### Diagnostics

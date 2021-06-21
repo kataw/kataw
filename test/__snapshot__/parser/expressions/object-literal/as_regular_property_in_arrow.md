@@ -19,12 +19,7 @@
             "kind": 120,
             "expression": {
                 "kind": 271,
-                "arrowToken": {
-                    "kind": 10,
-                    "flags": 64,
-                    "start": 12,
-                    "end": 15
-                },
+                "asyncKeyword": null,
                 "typeParameters": null,
                 "parameters": [
                     {
@@ -34,7 +29,6 @@
                             "properties": [
                                 {
                                     "kind": 329,
-                                    "ellipsisToken": null,
                                     "key": {
                                         "kind": 134299649,
                                         "text": "async",
@@ -67,8 +61,13 @@
                         "end": 11
                     }
                 ],
-                "asyncKeyword": null,
                 "returnType": null,
+                "arrowToken": {
+                    "kind": 10,
+                    "flags": 64,
+                    "start": 12,
+                    "end": 15
+                },
                 "contents": {
                     "kind": 134299649,
                     "text": "x",
@@ -99,9 +98,9 @@
 
 ```javascript
 
-({
-  async: x
-}) =>  x;
+ ({
+        async : x
+    }) =>x; 
 ```
 
 ### Diagnostics

@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/miscellaneous/should-fail/autogen.md
-- Path: kataw/test/__snapshot__/parser/miscellaneous/should-fail/gen/stand-alone
+- Regenerated: 2021-06-12
+- From: d
+- Path: e
 > :: test: stand-alone
 > :: case: x = [{__proto__: 1, __proto__: 2}]
 ## Options
@@ -139,7 +139,7 @@ x = [{__proto__: 1, __proto__: 2}]
 
 ```javascript
 
-x = [{ __proto__: 1, __proto__: 2 }];
+ x=[{ __proto__ : 1, __proto__ : 2 }]; 
 ```
 
 ### Diagnostics

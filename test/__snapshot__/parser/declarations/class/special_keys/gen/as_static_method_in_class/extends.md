@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/declarations/class/special_keys/autogen.md
-- Path: kataw/test/__snapshot__/parser/declarations/class/special_keys/gen/as_static_method_in_class
+- Regenerated: 2021-06-12
+- From: d
+- Path: s
 > :: test: as static method in class
 > :: case: extends
 ## Options
@@ -52,7 +52,6 @@ class x {static extends(){}}
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": null,
                             "staticKeyword": {
                                 "kind": 8388716,
                                 "flags": 64,
@@ -62,6 +61,7 @@ class x {static extends(){}}
                             "asyncKeyword": null,
                             "setKeyword": null,
                             "getKeyword": null,
+                            "asteriskToken": null,
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -73,7 +73,7 @@ class x {static extends(){}}
                                     "end": 23
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -131,9 +131,10 @@ class x {static extends(){}}
 
 ```javascript
 
-class x {
-  static static extends {}
-}
+ class x {
+    static extends() {
+    }
+} 
 ```
 
 ### Diagnostics

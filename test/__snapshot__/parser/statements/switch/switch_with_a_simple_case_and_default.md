@@ -133,12 +133,10 @@ switch (A) {case B: C; default: D;}
 
 ```javascript
 
-switch(A) {
-  case B:
-    C;
-  default
-    D;
-}
+ switch(A) {
+    case B: C;,
+    default: D;
+} 
 ```
 
 ### Diagnostics

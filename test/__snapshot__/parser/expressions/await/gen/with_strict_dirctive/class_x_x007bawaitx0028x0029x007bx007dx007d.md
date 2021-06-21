@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/await/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/await/gen/with_strict_dirctive
+- Regenerated: 2021-06-12
+- From: d
+- Path: e
 > :: test: with_strict_dirctive
 > :: case: class x {await(){}}
 ## Options
@@ -61,11 +61,11 @@
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": null,
                             "getKeyword": null,
+                            "asteriskToken": null,
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -77,7 +77,7 @@
                                     "end": 28
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -135,9 +135,10 @@
 
 ```javascript
 
-class x {
-  await {}
-}
+'use strict' class x {
+    await() {
+    }
+} 
 ```
 
 ### Diagnostics

@@ -113,7 +113,7 @@ x = {...[a, b]}
 
 ```javascript
 
-x = { ...[a, b] };
+ x={  }; 
 ```
 
 ### Diagnostics

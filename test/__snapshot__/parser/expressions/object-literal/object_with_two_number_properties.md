@@ -119,7 +119,7 @@ wrap({1:b, 0:d});
 
 ```javascript
 
-wrap({ 1: b, 0: d });
+ ; 
 ```
 
 ### Diagnostics

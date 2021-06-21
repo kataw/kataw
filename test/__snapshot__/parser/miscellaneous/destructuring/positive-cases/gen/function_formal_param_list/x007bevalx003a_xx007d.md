@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/miscellaneous/destructuring/positive-cases/autogen.md
-- Path: kataw/test/__snapshot__/parser/miscellaneous/destructuring/positive-cases/gen/function_formal_param_list
+- Regenerated: 2021-06-12
+- From: d
+- Path: t
 > :: test: function formal param list
 > :: case: {eval: x}
 ## Options
@@ -53,7 +53,6 @@ function f({eval: x}) {}
                             "properties": [
                                 {
                                     "kind": 329,
-                                    "ellipsisToken": null,
                                     "key": {
                                         "kind": 134299649,
                                         "text": "eval",
@@ -124,7 +123,8 @@ function f({eval: x}) {}
 
 ```javascript
 
-function f() {}
+ function f() {
+} 
 ```
 
 ### Diagnostics

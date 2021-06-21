@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/arrow/position/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/arrow/position/gen/lhs_mul
+- Regenerated: 2021-06-12
+- From: d
+- Path: l
 > :: test: lhs mul
 > :: case: x => ok
 ## Options
@@ -27,12 +27,7 @@ x => ok * x
             "kind": 120,
             "expression": {
                 "kind": 271,
-                "arrowToken": {
-                    "kind": 10,
-                    "flags": 64,
-                    "start": 1,
-                    "end": 4
-                },
+                "asyncKeyword": null,
                 "typeParameters": null,
                 "parameters": {
                     "kind": 134299649,
@@ -42,8 +37,13 @@ x => ok * x
                     "start": 0,
                     "end": 1
                 },
-                "asyncKeyword": null,
                 "returnType": null,
+                "arrowToken": {
+                    "kind": 10,
+                    "flags": 64,
+                    "start": 1,
+                    "end": 4
+                },
                 "contents": {
                     "kind": 198,
                     "left": {
@@ -94,7 +94,7 @@ x => ok * x
 
 ```javascript
 
-x =>  ok * x;
+ x =>ok * x; 
 ```
 
 ### Diagnostics

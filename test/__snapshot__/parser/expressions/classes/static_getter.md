@@ -44,7 +44,6 @@ class A {static get foo(){}}
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": null,
                             "staticKeyword": {
                                 "kind": 8388716,
                                 "flags": 64,
@@ -59,6 +58,7 @@ class A {static get foo(){}}
                                 "end": 19
                             },
                             "getKeyword": null,
+                            "asteriskToken": null,
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -70,7 +70,7 @@ class A {static get foo(){}}
                                     "end": 23
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -128,9 +128,10 @@ class A {static get foo(){}}
 
 ```javascript
 
-class A {
-  static get static foo {}
-}
+ class A {
+    static get foo() {
+    }
+} 
 ```
 
 ### Diagnostics

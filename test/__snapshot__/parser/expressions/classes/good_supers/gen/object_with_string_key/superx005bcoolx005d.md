@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/classes/good_supers/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/classes/good_supers/gen/object_with_string_key
+- Regenerated: 2021-06-12
+- From: d
+- Path: y
 > :: test: object with string key
 > :: case: super[cool]
 ## Options
@@ -76,11 +76,11 @@ class x extends y {
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": null,
                             "getKeyword": null,
+                            "asteriskToken": null,
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -92,7 +92,7 @@ class x extends y {
                                     "end": 33
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -128,7 +128,7 @@ class x extends y {
                                                                         "end": 49
                                                                     },
                                                                     "right": {
-                                                                        "kind": 536871042,
+                                                                        "kind": 130,
                                                                         "member": {
                                                                             "kind": 225,
                                                                             "superKeyword": {
@@ -149,7 +149,7 @@ class x extends y {
                                                                             "start": 57,
                                                                             "end": 61
                                                                         },
-                                                                        "flags": 32,
+                                                                        "flags": 536870944,
                                                                         "start": 44,
                                                                         "end": 62
                                                                     },
@@ -219,11 +219,11 @@ class x extends y {
 
 ```javascript
 
-class x  {
-  constructor {
-    ({ "\"foo\"":  });
-  }
-}
+ class x {
+    constructor() {
+    ({ "foo" : [cool] });
+    }
+} 
 ```
 
 ### Diagnostics

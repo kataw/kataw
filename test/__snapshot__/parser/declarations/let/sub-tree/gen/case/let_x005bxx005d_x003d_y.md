@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/declarations/let/sub-tree/autogen.md
-- Path: kataw/test/__snapshot__/parser/declarations/let/sub-tree/gen/case
+- Regenerated: 2021-06-12
+- From: d
+- Path: e
 > :: test: case
 > :: case: let [x] = y
 ## Options
@@ -151,10 +151,9 @@ switch (a) { case b: let [x] = y }
 
 ```javascript
 
-switch(a) {
-  case b:
-    let [x] = y;
-}
+ switch(a) {
+    case b: let [x] = y;
+} 
 ```
 
 ### Diagnostics

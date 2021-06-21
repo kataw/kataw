@@ -376,7 +376,6 @@ class Array { concat(items:number | string) {}; }
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": null,
@@ -386,6 +385,7 @@ class Array { concat(items:number | string) {}; }
                                 "start": 97,
                                 "end": 103
                             },
+                            "asteriskToken": null,
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -397,7 +397,7 @@ class Array { concat(items:number | string) {}; }
                                     "end": 111
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [
                                         {
@@ -502,7 +502,6 @@ class Array { concat(items:number | string) {}; }
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": null,
@@ -512,6 +511,7 @@ class Array { concat(items:number | string) {}; }
                                 "start": 144,
                                 "end": 150
                             },
+                            "asteriskToken": null,
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -523,7 +523,7 @@ class Array { concat(items:number | string) {}; }
                                     "end": 158
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [
                                         {
@@ -641,7 +641,6 @@ class Array { concat(items:number | string) {}; }
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": {
@@ -651,6 +650,7 @@ class Array { concat(items:number | string) {}; }
                                 "end": 203
                             },
                             "getKeyword": null,
+                            "asteriskToken": null,
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -662,7 +662,7 @@ class Array { concat(items:number | string) {}; }
                                     "end": 211
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -748,11 +748,11 @@ class Array { concat(items:number | string) {}; }
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": null,
                             "getKeyword": null,
+                            "asteriskToken": null,
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -794,7 +794,7 @@ class Array { concat(items:number | string) {}; }
                                     "start": 247,
                                     "end": 250
                                 },
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -1108,11 +1108,11 @@ class Array { concat(items:number | string) {}; }
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": null,
                             "getKeyword": null,
+                            "asteriskToken": null,
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -1124,7 +1124,7 @@ class Array { concat(items:number | string) {}; }
                                     "end": 386
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [
                                         {
@@ -1234,37 +1234,33 @@ class Array { concat(items:number | string) {}; }
 
 ```javascript
 
-class Foo4 {}
-class Foo5  {}
-class Foo6  {}
-class Foo1 {
-  set fooProp {}
-}
-class Foo2 {
-  set fooProp {}
-}
-class Foo3 {
-  get fooProp {}
-}
-class Foo8 {
-  "\"bar\"" {}
-}
-class Foo10 {
-  static prop1;
-
-  prop2;
-
-}
-class Foo11 {
-  #prop1;
-
-  prop2;
-
-}
-class Array {
-  concat {}
-
-}
+ class Foo4 {
+}, class Foo5 {
+}, class Foo6 {
+}, class Foo1 {
+    set fooProp() {
+    }
+}, class Foo2 {
+    set fooProp(): void {
+    }
+}, class Foo3 {
+    get fooProp(): number {
+    }
+}, class Foo8 {
+    "bar"() {
+    }
+}, class Foo10 {
+    static prop1: string,
+    ,
+    prop2: number,
+}, class Foo11 {
+    #prop1: string,
+    ,
+    prop2: number,
+}, class Array {
+    concat() {
+    },
+} 
 ```
 
 ### Diagnostics

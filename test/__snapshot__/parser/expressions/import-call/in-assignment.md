@@ -81,7 +81,7 @@ x = import(y);
 
 ```javascript
 
-x = ;
+ x=; 
 ```
 
 ### Diagnostics

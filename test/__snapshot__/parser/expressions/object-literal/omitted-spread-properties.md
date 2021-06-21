@@ -42,12 +42,7 @@ const example = (obj) => {
                         "type": null,
                         "initializer": {
                             "kind": 271,
-                            "arrowToken": {
-                                "kind": 10,
-                                "flags": 64,
-                                "start": 21,
-                                "end": 24
-                            },
+                            "asyncKeyword": null,
                             "typeParameters": null,
                             "parameters": [
                                 {
@@ -59,8 +54,13 @@ const example = (obj) => {
                                     "end": 20
                                 }
                             ],
-                            "asyncKeyword": null,
                             "returnType": null,
+                            "arrowToken": {
+                                "kind": 10,
+                                "flags": 64,
+                                "start": 21,
+                                "end": 24
+                            },
                             "contents": {
                                 "kind": 216,
                                 "functionStatementList": {
@@ -130,7 +130,6 @@ const example = (obj) => {
                                                                 "properties": [
                                                                     {
                                                                         "kind": 329,
-                                                                        "ellipsisToken": null,
                                                                         "key": {
                                                                             "kind": 194,
                                                                             "expression": {
@@ -277,13 +276,13 @@ const example = (obj) => {
 
 ```javascript
 
-const example = (obj) =>  {
-  const foo = "'foo'";
-  const {
-    [`prefix_${foo}`]: _,
+ const example = (obj) => {
+const foo = 'foo';,
+const {
+     : _,
     ...rest
-  } = obj;
-};
+} = obj;
+}; 
 ```
 
 ### Diagnostics

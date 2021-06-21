@@ -52,7 +52,6 @@ class C { set #aaa(x){} }
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": null,
@@ -62,6 +61,7 @@ class C { set #aaa(x){} }
                                 "start": 9,
                                 "end": 13
                             },
+                            "asteriskToken": null,
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -73,7 +73,7 @@ class C { set #aaa(x){} }
                                     "end": 18
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [
                                         {
@@ -140,9 +140,10 @@ class C { set #aaa(x){} }
 
 ```javascript
 
-class C {
-  set #aaa {}
-}
+ class C {
+    set #aaa(x) {
+    }
+} 
 ```
 
 ### Diagnostics

@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/binary/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/binary/gen/typeof_arg
+- Regenerated: 2021-06-12
+- From: d
+- Path: g
 > :: test: typeof arg
 > :: case: a > b instanceof c
 ## Options
@@ -103,7 +103,7 @@ typeof a > b instanceof c
 
 ```javascript
 
-typeof a > b inctanceof c;
+  > b inctanceof c; 
 ```
 
 ### Diagnostics

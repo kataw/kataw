@@ -84,7 +84,7 @@ declare type T = number;
 
 ```javascript
 
-
+  
 ```
 
 ### Diagnostics

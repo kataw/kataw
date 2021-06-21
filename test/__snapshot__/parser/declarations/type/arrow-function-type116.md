@@ -190,7 +190,7 @@ type a = (1,2, x) => T;
 
 ```javascript
 
-
+  
 ```
 
 ### Diagnostics

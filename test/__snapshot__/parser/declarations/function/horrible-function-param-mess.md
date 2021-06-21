@@ -264,12 +264,7 @@ function processArgs<A1: {}, A2: {}>(
                             },
                             "expression": {
                                 "kind": 271,
-                                "arrowToken": {
-                                    "kind": 10,
-                                    "flags": 64,
-                                    "start": 243,
-                                    "end": 246
-                                },
+                                "asyncKeyword": null,
                                 "typeParameters": {
                                     "kind": 307,
                                     "declarations": {
@@ -520,7 +515,6 @@ function processArgs<A1: {}, A2: {}>(
                                         "end": 213
                                     }
                                 ],
-                                "asyncKeyword": null,
                                 "returnType": {
                                     "kind": 139,
                                     "bitwiseOrToken": null,
@@ -673,14 +667,15 @@ function processArgs<A1: {}, A2: {}>(
                                     "start": 218,
                                     "end": 243
                                 },
+                                "arrowToken": {
+                                    "kind": 10,
+                                    "flags": 64,
+                                    "start": 243,
+                                    "end": 246
+                                },
                                 "contents": {
                                     "kind": 271,
-                                    "arrowToken": {
-                                        "kind": 10,
-                                        "flags": 64,
-                                        "start": 321,
-                                        "end": 324
-                                    },
+                                    "asyncKeyword": null,
                                     "typeParameters": null,
                                     "parameters": [
                                         {
@@ -844,7 +839,6 @@ function processArgs<A1: {}, A2: {}>(
                                             "end": 305
                                         }
                                     ],
-                                    "asyncKeyword": null,
                                     "returnType": {
                                         "kind": 139,
                                         "bitwiseOrToken": null,
@@ -904,6 +898,12 @@ function processArgs<A1: {}, A2: {}>(
                                         "flags": 2097152,
                                         "start": 310,
                                         "end": 321
+                                    },
+                                    "arrowToken": {
+                                        "kind": 10,
+                                        "flags": 64,
+                                        "start": 321,
+                                        "end": 324
                                     },
                                     "contents": {
                                         "kind": 131,
@@ -1474,10 +1474,9 @@ function processArgs<A1: {}, A2: {}>(
 
 ```javascript
 
-function  <A1: , A2:  >processArgs():  {
-  return  (resolver) =>  (src, args, appContext, info) =>
-    resolver(src, process(args), appContext, info);
-}
+ function processArgs():  {
+return (resolver: Resolver): Resolver =>(src: S, args: A1, appContext: C, info: I): Promise =>;
+} 
 ```
 
 ### Diagnostics

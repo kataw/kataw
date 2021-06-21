@@ -492,14 +492,14 @@ async function foo() {
 
 ```javascript
 
-class C {}
-var P:  = new  Promise(function () {
-  resolve(C);
-});
-async function foo() {
-  class Bar  {}
-  return  Bar;
-}
+ class C {
+}, ;, var P  = new Promise(function (resolve, reject) {
+;
+});, async function foo() {
+class Bar {
+},
+return Bar;
+} 
 ```
 
 ### Diagnostics

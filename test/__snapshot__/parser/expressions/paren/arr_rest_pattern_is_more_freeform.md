@@ -102,7 +102,7 @@
 
 ```javascript
 
-([...[]] = x);
+ ([...[]]=x); 
 ```
 
 ### Diagnostics

@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/yield/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/yield/gen/simple
+- Regenerated: 2021-06-12
+- From: d
+- Path: e
 > :: test: simple
 > :: case: var [yield] = [42];
 ## Options
@@ -111,7 +111,7 @@ var [yield] = [42];
 
 ```javascript
 
-var [yield] = [42];
+ var [yield] = [42]; 
 ```
 
 ### Diagnostics

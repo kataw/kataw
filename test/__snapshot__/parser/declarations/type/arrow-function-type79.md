@@ -232,7 +232,7 @@ type a = ({x:y} | { [x]:string}) => T;
 
 ```javascript
 
-
+  
 ```
 
 ### Diagnostics

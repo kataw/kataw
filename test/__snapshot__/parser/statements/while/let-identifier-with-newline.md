@@ -96,9 +96,9 @@ x = 1;
 
 ```javascript
 
-while (false) let; // ASI
-
-x = 1;
+ while (false) let;// ASI
+, // ASI
+x=1; 
 ```
 
 ### Diagnostics

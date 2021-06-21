@@ -7155,35 +7155,47 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                 "end": 5721
                             },
                             "initializer": {
-                                "kind": 156,
-                                "declarations": [
-                                    {
-                                        "kind": 157,
-                                        "binding": {
-                                            "kind": 134299649,
-                                            "text": "x",
-                                            "rawText": "x",
-                                            "flags": 96,
+                                "kind": 341,
+                                "varKeyword": {
+                                    "kind": 37757002,
+                                    "flags": 64,
+                                    "start": 5723,
+                                    "end": 5726
+                                },
+                                "declarationList": {
+                                    "kind": 156,
+                                    "declarations": [
+                                        {
+                                            "kind": 157,
+                                            "binding": {
+                                                "kind": 134299649,
+                                                "text": "x",
+                                                "rawText": "x",
+                                                "flags": 96,
+                                                "start": 5726,
+                                                "end": 5728
+                                            },
+                                            "type": null,
+                                            "initializer": {
+                                                "kind": 201392130,
+                                                "text": 0,
+                                                "rawText": "0",
+                                                "flags": 96,
+                                                "start": 5730,
+                                                "end": 5732
+                                            },
+                                            "flags": 16,
                                             "start": 5726,
-                                            "end": 5728
-                                        },
-                                        "type": null,
-                                        "initializer": {
-                                            "kind": 201392130,
-                                            "text": 0,
-                                            "rawText": "0",
-                                            "flags": 96,
-                                            "start": 5730,
                                             "end": 5732
-                                        },
-                                        "flags": 16,
-                                        "start": 5726,
-                                        "end": 5732
-                                    }
-                                ],
+                                        }
+                                    ],
+                                    "flags": 16,
+                                    "start": 5726,
+                                    "end": 5732
+                                },
                                 "flags": 16,
-                                "start": 5726,
-                                "end": 5732
+                                "start": 5713,
+                                "end": 5733
                             },
                             "condition": {
                                 "kind": 127,
@@ -7425,35 +7437,47 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                 "end": 5866
                             },
                             "initializer": {
-                                "kind": 156,
-                                "declarations": [
-                                    {
-                                        "kind": 157,
-                                        "binding": {
-                                            "kind": 134299649,
-                                            "text": "x",
-                                            "rawText": "x",
-                                            "flags": 96,
+                                "kind": 341,
+                                "varKeyword": {
+                                    "kind": 37757002,
+                                    "flags": 64,
+                                    "start": 5868,
+                                    "end": 5871
+                                },
+                                "declarationList": {
+                                    "kind": 156,
+                                    "declarations": [
+                                        {
+                                            "kind": 157,
+                                            "binding": {
+                                                "kind": 134299649,
+                                                "text": "x",
+                                                "rawText": "x",
+                                                "flags": 96,
+                                                "start": 5871,
+                                                "end": 5873
+                                            },
+                                            "type": null,
+                                            "initializer": {
+                                                "kind": 201392130,
+                                                "text": 0,
+                                                "rawText": "0",
+                                                "flags": 96,
+                                                "start": 5875,
+                                                "end": 5877
+                                            },
+                                            "flags": 16,
                                             "start": 5871,
-                                            "end": 5873
-                                        },
-                                        "type": null,
-                                        "initializer": {
-                                            "kind": 201392130,
-                                            "text": 0,
-                                            "rawText": "0",
-                                            "flags": 96,
-                                            "start": 5875,
                                             "end": 5877
-                                        },
-                                        "flags": 16,
-                                        "start": 5871,
-                                        "end": 5877
-                                    }
-                                ],
+                                        }
+                                    ],
+                                    "flags": 16,
+                                    "start": 5871,
+                                    "end": 5877
+                                },
                                 "flags": 16,
-                                "start": 5871,
-                                "end": 5877
+                                "start": 5858,
+                                "end": 5878
                             },
                             "condition": {
                                 "kind": 127,
@@ -7749,35 +7773,47 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                 "end": 6056
                             },
                             "initializer": {
-                                "kind": 156,
-                                "declarations": [
-                                    {
-                                        "kind": 157,
-                                        "binding": {
-                                            "kind": 134299649,
-                                            "text": "x",
-                                            "rawText": "x",
-                                            "flags": 96,
+                                "kind": 341,
+                                "varKeyword": {
+                                    "kind": 37757002,
+                                    "flags": 64,
+                                    "start": 6058,
+                                    "end": 6061
+                                },
+                                "declarationList": {
+                                    "kind": 156,
+                                    "declarations": [
+                                        {
+                                            "kind": 157,
+                                            "binding": {
+                                                "kind": 134299649,
+                                                "text": "x",
+                                                "rawText": "x",
+                                                "flags": 96,
+                                                "start": 6061,
+                                                "end": 6063
+                                            },
+                                            "type": null,
+                                            "initializer": {
+                                                "kind": 201392130,
+                                                "text": 0,
+                                                "rawText": "0",
+                                                "flags": 96,
+                                                "start": 6065,
+                                                "end": 6067
+                                            },
+                                            "flags": 16,
                                             "start": 6061,
-                                            "end": 6063
-                                        },
-                                        "type": null,
-                                        "initializer": {
-                                            "kind": 201392130,
-                                            "text": 0,
-                                            "rawText": "0",
-                                            "flags": 96,
-                                            "start": 6065,
                                             "end": 6067
-                                        },
-                                        "flags": 16,
-                                        "start": 6061,
-                                        "end": 6067
-                                    }
-                                ],
+                                        }
+                                    ],
+                                    "flags": 16,
+                                    "start": 6061,
+                                    "end": 6067
+                                },
                                 "flags": 16,
-                                "start": 6061,
-                                "end": 6067
+                                "start": 6048,
+                                "end": 6068
                             },
                             "condition": {
                                 "kind": 127,
@@ -8053,35 +8089,47 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                 "end": 6217
                             },
                             "initializer": {
-                                "kind": 156,
-                                "declarations": [
-                                    {
-                                        "kind": 157,
-                                        "binding": {
-                                            "kind": 134299649,
-                                            "text": "x",
-                                            "rawText": "x",
-                                            "flags": 96,
+                                "kind": 341,
+                                "varKeyword": {
+                                    "kind": 37757002,
+                                    "flags": 64,
+                                    "start": 6219,
+                                    "end": 6222
+                                },
+                                "declarationList": {
+                                    "kind": 156,
+                                    "declarations": [
+                                        {
+                                            "kind": 157,
+                                            "binding": {
+                                                "kind": 134299649,
+                                                "text": "x",
+                                                "rawText": "x",
+                                                "flags": 96,
+                                                "start": 6222,
+                                                "end": 6224
+                                            },
+                                            "type": null,
+                                            "initializer": {
+                                                "kind": 201392130,
+                                                "text": 0,
+                                                "rawText": "0",
+                                                "flags": 96,
+                                                "start": 6226,
+                                                "end": 6228
+                                            },
+                                            "flags": 16,
                                             "start": 6222,
-                                            "end": 6224
-                                        },
-                                        "type": null,
-                                        "initializer": {
-                                            "kind": 201392130,
-                                            "text": 0,
-                                            "rawText": "0",
-                                            "flags": 96,
-                                            "start": 6226,
                                             "end": 6228
-                                        },
-                                        "flags": 16,
-                                        "start": 6222,
-                                        "end": 6228
-                                    }
-                                ],
+                                        }
+                                    ],
+                                    "flags": 16,
+                                    "start": 6222,
+                                    "end": 6228
+                                },
                                 "flags": 16,
-                                "start": 6222,
-                                "end": 6228
+                                "start": 6209,
+                                "end": 6229
                             },
                             "condition": {
                                 "kind": 127,
@@ -12443,449 +12491,167 @@ function logical19b(x: { y: string, z: boolean }): boolean {
 ### Printed
 
 ```javascript
+
 /**
  * A falsy variable on the left side of &&
  */
-
-function logical1a(): number {
-  var x = false;
-  return  x && "'123'";
-}
-/**
- * A truthy variable on the left side of &&
- */
-function logical1b(): string {
-  var x = true;
-  return  x && "'123'";
-}
-/**
- * A literal on the left side of &&
- */
-function logical2a(): number {
-  return  false && "'123'";
-}
-/**
- * A literal on the left side of &&
- */
-function logical2b(): number {
-  return  0 && "'123'";
-}
-/**
- * A literal on the left side of &&
- */
-function logical2c(): string {
-  return  "\"\"" && 123;
-}
-/**
- * A literal on the left side of &&
- */
-function logical2d(): string {
-  return ;
-  true && "'123'";
-}
-/**
- * A literal on the left side of &&
- */
-function logical2e(): number {
-  return  "'foo'" && 123;
-}
-/**
- * A literal on the left side of &&
- */
-function logical2f(): string {
-  return  123 && "'foo'";
-}
-/**
- * A literal on the left side of &&
- */
-function logical2g(): string {
-  return  [1, 2, 3] && "'foo'";
-}
-/**
- * A literal on the left side of &&
- */
-function logical2h(): string {
-  return  x && "'foo'";
-}
-/**
- * A literal on the left side of &&
- */
-function logical2i(): string {
-  return  x && "'foo'";
-}
-/**
- * A literal on the left side of &&
- */
-function logical2j(): string {
-  return  x && "'foo'";
-}
-/**
- * A literal on the left side of &&
- */
-function logical2k(): string {
-  return  x && "'foo'";
-}
-/**
- * An expression on the left side of &&
- */
-function logical3a(): string {
-  var x:  = null;
-  return  x != null && x > 10;
-}
-/**
- * An expression on the left side of &&
- */
-function logical3b(): number {
-  var x:  = null;
-  return  x != null && x;
-}
-/**
- * An expression on the left side of &&
- */
-function logical3c():  {
-  var x:  = null;
-  return  x != undefined && x;
-}
-/**
- * Maybe truthy returns both types
- */
-function logical4(): string {
-  return  x && "'123'";
-}
-/**
- * A falsy variable on the left side of ||
- */
-function logical5a(): number {
-  var x = false;
-  return  x || 0;
-}
-/**
- * A maybe variable on the left side of ||
- */
-function logical5b(): number {
-  var x:  = null;
-  return  x || 0;
-}
-/**
- * A truthy variable on the left side of ||
- */
-function logical5c(): string {
-  var x = true;
-  return  x || 0;
-}
-/**
- * A literal on the left side of ||
- */
-function logical6a(): string {
-  return  false || "'123'";
-}
-/**
- * A literal on the left side of ||
- */
-function logical6b(): string {
-  return  0 || "'123'";
-}
-/**
- * A literal on the left side of ||
- */
-function logical6c(): number {
-  return  "\"\"" || 123;
-}
-/**
- * A literal on the left side of ||
- */
-function logical6d(): number {
-  return ;
-  true || "'123'";
-}
-/**
- * A literal on the left side of ||
- */
-function logical6e(): string {
-  return  "'foo'" || 123;
-}
-/**
- * A literal on the left side of ||
- */
-function logical6f(): number {
-  return  123 || "'foo'";
-}
-/**
- * A composite && and ||
- */
-function logical7a(): number {
-  var x:  = null;
-  return  x != null && x || 0;
-}
-/**
- * A composite && and || where the truthiness is unknown
- */
-function logical7b(): number {
-  return  x && y || 0;
-}
-/**
- * A composite && and ||
- */
-function logical7c(): number {
-  return  x && 1 || 0;
-}
-/**
- * A composite && and ||
- */
-function logical7d(): string {
-  return  x && "'foo'" || "'bar'";
-}
-/**
- * A composite && and ||
- */
-function logical7e(): string {
-  return  false && x || "'bar'";
-}
-/**
- * A composite || and &&
- *
- * `x || 0` always returns a number (never a boolean) and then short
- * circuits the && because 0 is falsy, so this should just return number.
- */
-function logical8a(): number {
-  var x = false;
-  return  (x || 0) && "'foo'";
-}
-/**
- * A composite || and &&
- *
- * `x || 1` always returns something truthy, so this returns a string
- */
-function logical8b(): string {
-  var x = false;
-  return  (x || 1) && "'foo'";
-}
-/**
- * A composite || and &&
- *
- * `x` is always truthy, so this returns a string
- */
-function logical8c(): string {
-  var x = true;
-  return  (x || 1) && "'foo'";
-}
-/**
- * A composite || and &&
- */
-function logical8d(): number {
-  var x = false;
-  return  x || (0 && "'foo'");
-}
-/**
- * A composite || and &&
- */
-function logical8e(): string {
-  var x = false;
-  return  x || (1 && "'foo'");
-}
-/**
- * A composite || and &&
- */
-function logical8f(): string {
-  var x = true;
-  return  x || (1 && "'foo'");
-}
-/**
- * A composite || and ||
- */
-function logical9a():  {
-  return  x || y || false;
-}
-/**
- * A composite || and ||
- */
-function logical9b():  {
-  return  false || x || y;
-}
-/**
- * A composite || and ||
- */
-function logical9c(): string {
-  return  "'a'" || x || y;
-}
-/**
- * A composite && and &&
- */
-function logical10a():  {
-  return  x && y && false;
-}
-/**
- * A composite && and &&
- */
-function logical10b():  {
-  return  false && x && y;
-}
-/**
- * A composite && and &&
- */
-function logical10c():  {
-  return  x && false && y;
-}
-/**
- * || in a loop
- */
-function logical11a(): number {
-  var y = 1;
-  for (; x++; x  < 5)
-    {}
-  return  y;
-}
-/**
- * || in a loop
- */
-function logical11b(): number {
-  for (; x++; x  < 5)
-    {}
-  return  y;
-}
-/**
- * && in a loop
- */
-function logical12a(): number {
-  var y = 1;
-  var z = true;
-  for (; x++; x  < 5)
-    {}
-  return  y;
-}
-/**
- * && in a loop
- */
-function logical12b(): number {
-  for (; x++; x  < 5)
-    {}
-  return  y;
-}
-/**
- * Complex &&
- */
-function logical13():  {
-  return  [
-    { x: x && "\"bar\"" },
-    { x: true && "\"bar\"" },
-    { x: true && false },
-    { x: false && false },
-    { x: 1 && "\"bar\"" },
-    { x: "\"foo\"" && "\"bar\"" },
-    { x: "\"foo\"" && "\"bar\"" },
-    { x: "\"foo\"" && "\"bar\"" },
-  ];
-}
-/**
- * Complex ||
- */
-function logical14():  {
-  return  [
-    { x: x || "\"bar\"" },
-    { x: false || "\"bar\"" },
-    { x: false || true },
-    { x: true || false },
-    { x: 0 || "\"bar\"" },
-    { x: "\"foo\"" || "\"bar\"" },
-    { x: "\"foo\"" || "\"bar\"" },
-    { x: "\"foo\"" || "\"bar\"" },
-  ];
-}
-/**
- * || in an addition
- */
-function logical15a(): number {
-  return  5 + (x || 7);
-}
-/**
- * || in an addition
- */
-function logical15b(): number {
-  return  (x || 7) + 5;
-}
-/**
- * && in an addition
- */
-function logical15c(): number {
-  return  5 + (x && 7);
-}
-/**
- * && in an addition
- */
-function logical15d(): number {
-  return  (x && 7) + 5;
-}
-/**
- * || in a comparison
- */
-function logical16a(): boolean {
-  return  5  < (x || 7);
-}
-/**
- * || in a comparison
- */
-function logical16b(): boolean {
-  return  (x || 7)  < 5;
-}
-/**
- * && in a comparison
- */
-function logical16c(): boolean {
-  return  5  < (x && 7);
-}
-/**
- * && in a comparison
- */
-function logical16d(): boolean {
-  return  (x && 7)  < 5;
-}
-/**
- * || in an equality
- */
-function logical17a(): boolean {
-  return  5 == (x || 7);
-}
-/**
- * || in an equality
- */
-function logical17b(): boolean {
-  return  (x || 7) == 5;
-}
-/**
- * && in an equality
- */
-function logical17c(): boolean {
-  return  5 == (x && 7);
-}
-/**
- * && in an equality
- */
-function logical17d(): boolean {
-  return  (x && 7) == 5;
-}
-/**
- * Expressions on each side that return truthy things
- */
-function logical18a(): number {
-  return  x - 1 || y - 1;
-}
-/**
- * Sentinel properties should not interfere
- */
-function logical18b(): number {
-  return  x.a - 1 || y.b - 1;
-}
-/**
- * Layer of indirection in the LHS (get prop)
- */
-function logical19a(): boolean {
-  return  (x.y && x.z); // error: x.y is a string
-
-}
-function logical19b(): boolean {
-  return  (x.y || x.z); // error: x.y is a string
-
-}
+ function logical1a(): number {// expected `: boolean`
+var x = false;,
+return x && '123';
+}, function logical1b(): string {
+var x = true;,
+return x && '123';
+}, function logical2a(): number {// expected `: boolean`
+return false && '123';
+}, function logical2b(): number {
+return 0 && '123';
+}, function logical2c(): string {
+return "" && 123;
+}, function logical2d(): string {
+return;,
+true && '123';
+}, function logical2e(): number {
+return 'foo' && 123;
+}, function logical2f(): string {
+return 123 && 'foo';
+}, function logical2g(): string {
+return [1, 2, 3] && 'foo';
+}, function logical2h(): string {
+return x && 'foo';
+}, function logical2i(): string {
+return x && 'foo';
+}, function logical2j(): string {
+return x && 'foo';
+}, function logical2k(): string {
+return x && 'foo';
+}, function logical3a(): string {// expected `: boolean`
+var x  = null;,
+return x != null && x > 10;
+}, function logical3b(): number {// expected `: boolean | number`
+var x  = null;,
+return x != null && x;
+}, function logical3c():  {// expected `: boolean | ?number`
+var x  = null;,
+return x != undefined && x;
+}, function logical4(): string {// expected `: boolean | string`
+return x && '123';
+}, function logical5a(): number {
+var x = false;,
+return x || 0;
+}, function logical5b(): number {
+var x  = null;,
+return x || 0;
+}, function logical5c(): string {// expected `: boolean`
+var x = true;,
+return x || 0;
+}, function logical6a(): string {
+return false || '123';
+}, function logical6b(): string {
+return 0 || '123';
+}, function logical6c(): number {
+return "" || 123;
+}, function logical6d(): number {// expected `: boolean`
+return;,
+true || '123';
+}, function logical6e(): string {
+return 'foo' || 123;
+}, function logical6f(): number {
+return 123 || 'foo';
+}, function logical7a(): number {
+var x  = null;,
+return x != null && x || 0;
+}, function logical7b(, ): number {
+return x && y || 0;
+}, function logical7c(): number {
+return x && 1 || 0;
+}, function logical7d(): string {
+return x && 'foo' || 'bar';
+}, function logical7e(): string {
+return false && x || 'bar';
+}, function logical8a(): number {
+var x = false;,
+return (x || 0) && 'foo';
+}, function logical8b(): string {
+var x = false;,
+return (x || 1) && 'foo';
+}, function logical8c(): string {
+var x = true;,
+return (x || 1) && 'foo';
+}, function logical8d(): number {
+var x = false;,
+return x || (0 && 'foo');
+}, function logical8e(): string {
+var x = false;,
+return x || (1 && 'foo');
+}, function logical8f(): string {// expected `: boolean`
+var x = true;,
+return x || (1 && 'foo');
+}, function logical9a(, ): number, string {// expected `: number | string | boolean`
+return x || y || false;
+}, function logical9b(, ): number, string {
+return false || x || y;
+}, function logical9c(, ): string {
+return 'a' || x || y;
+}, function logical10a(, ): number, string {// expected `: number | string | boolean`
+return x && y && false;
+}, function logical10b(, ): Array {// expected `: boolean`
+return false && x && y;
+}, function logical10c(, ): Array {// expected `number | boolean`
+return x && false && y;
+}, function logical11a(): number {
+var y = 1;,
+for(var x = 0; x++; x  < 5){ y=y || true; },
+return y;
+}, function logical11b(): number {
+for(var x = 0; x++; x  < 5){ y=y || true;// expected a number
+ },
+return y;
+}, function logical12a(): number {
+var y = 1;,
+var z = true;,
+for(var x = 0; x++; x  < 5){ y=z && y;, z=false; },
+return y;
+}, function logical12b(): number {
+for(var x = 0; x++; x  < 5){ y=y && true;// expected a number
+ },
+return y;
+}, function logical13(): Array {
+return [{ x : x && "bar" }, { x : true && "bar" }, { x : true && false }, { x : false && false }, { x : 1 && "bar" }, { x : "foo" && "bar" }, { x : "foo" && "bar" }, { x : "foo" && "bar" }];
+}, function logical14(): Array {
+return [{ x : x || "bar" }, { x : false || "bar" }, { x : false || true }, { x : true || false }, { x : 0 || "bar" }, { x : "foo" || "bar" }, { x : "foo" || "bar" }, { x : "foo" || "bar" }];
+}, function logical15a(): number {
+return 5 + (x || 7);
+}, function logical15b(): number {
+return (x || 7) + 5;
+}, function logical15c(): number {
+return 5 + (x && 7);
+}, function logical15d(): number {
+return (x && 7) + 5;
+}, function logical16a(): boolean {
+return 5  < (x || 7);
+}, function logical16b(): boolean {
+return (x || 7)  < 5;
+}, function logical16c(): boolean {
+return 5  < (x && 7);
+}, function logical16d(): boolean {
+return (x && 7)  < 5;
+}, function logical17a(): boolean {
+return 5 == (x || 7);
+}, function logical17b(): boolean {
+return (x || 7) == 5;
+}, function logical17c(): boolean {
+return 5 == (x && 7);
+}, function logical17d(): boolean {
+return (x && 7) == 5;
+}, function logical18a(, ): number {
+return x - 1 || y - 1;
+}, function logical18b(, ): number {
+return x.a - 1 || y.b - 1;
+}, function logical19a(): boolean {
+return (x.y && x.z);// error: x.y is a string
+}, function logical19b(): boolean {
+return (x.y || x.z);// error: x.y is a string
+} 
 ```
 
 ### Diagnostics

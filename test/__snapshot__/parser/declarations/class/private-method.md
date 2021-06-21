@@ -91,11 +91,11 @@ class Foo {
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": null,
                             "getKeyword": null,
+                            "asteriskToken": null,
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -107,7 +107,7 @@ class Foo {
                                     "end": 28
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -142,11 +142,11 @@ class Foo {
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": null,
                             "getKeyword": null,
+                            "asteriskToken": null,
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -158,7 +158,7 @@ class Foo {
                                     "end": 43
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -575,11 +575,11 @@ class Foo {
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": null,
                             "getKeyword": null,
+                            "asteriskToken": null,
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -591,7 +591,7 @@ class Foo {
                                     "end": 132
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -1134,11 +1134,11 @@ class Foo {
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": null,
                             "getKeyword": null,
+                            "asteriskToken": null,
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -1150,7 +1150,7 @@ class Foo {
                                     "end": 264
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -1716,28 +1716,29 @@ class Foo {
 
 ```javascript
 
-class Foo {
-  #field;
-  #method {}
-  baseline {
-    a().foo;
-    b().foo(x);
-    c()?.(x);
-    ?.(x);
-  }
-  privateField {
-    a().#field;
-    b().#field(x);
-    c()?.(x);
-    (x).bar();
-  }
-  privateMethod {
-    a().#method;
-    b().#method(x);
-    c()?.(x);
-    (x).bar();
-  }
-}
+ class Foo {
+    #field,
+    #method() {
+    },
+    baseline() {
+    .foo;,
+    ;,
+    ;,
+    ;
+    },
+    privateField() {
+    .#field;,
+    ;,
+    ;,
+    ;
+    },
+    privateMethod() {
+    .#method;,
+    ;,
+    ;,
+    ;
+    }
+} 
 ```
 
 ### Diagnostics

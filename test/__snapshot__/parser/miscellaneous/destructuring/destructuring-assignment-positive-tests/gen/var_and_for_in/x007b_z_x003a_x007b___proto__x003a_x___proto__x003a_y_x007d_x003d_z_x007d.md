@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/miscellaneous/destructuring/destructuring-assignment-positive-tests/autogen.md
-- Path: kataw/test/__snapshot__/parser/miscellaneous/destructuring/destructuring-assignment-positive-tests/gen/var_and_for_in
+- Regenerated: 2021-06-12
+- From: d
+- Path: n
 > :: test: var and for in
 > :: case: { z : { __proto__: x, __proto__: y } = z }
 ## Options
@@ -295,8 +295,7 @@ var x, y, z; for (x in { z : { __proto__: x, __proto__: y } = z } = z = {});
 
 ```javascript
 
-var x, y, z;
-for (x in { z: { __proto__: x, __proto__: y } = z } = z = {});
+ var x, y, z;, for (x in { z : { __proto__ : x, __proto__ : y }=z }=z={  }) ; 
 ```
 
 ### Diagnostics

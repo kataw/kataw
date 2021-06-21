@@ -71,7 +71,7 @@ typeof await this;
 
 ```javascript
 
-typeof await this;
+ ; 
 ```
 
 ### Diagnostics

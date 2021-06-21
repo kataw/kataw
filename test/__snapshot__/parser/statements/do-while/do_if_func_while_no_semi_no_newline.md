@@ -124,8 +124,8 @@ do if(8)function s(){}while(y)
 
 ```javascript
 
-do if (8) function s() {}
-while (y);
+ do if (8) function s() {
+} while (y) 
 ```
 
 ### Diagnostics

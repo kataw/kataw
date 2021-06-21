@@ -115,7 +115,7 @@ type E = Obj['bar'][];
 
 ```javascript
 
-
+  
 ```
 
 ### Diagnostics

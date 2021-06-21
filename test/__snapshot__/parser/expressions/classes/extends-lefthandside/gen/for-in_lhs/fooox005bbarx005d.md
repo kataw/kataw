@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/classes/extends-lefthandside/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/classes/extends-lefthandside/gen/for-in_lhs
+- Regenerated: 2021-06-12
+- From: d
+- Path: s
 > :: test: for-in lhs
 > :: case: fooo[bar]
 ## Options
@@ -32,7 +32,7 @@ for (fooo[bar] in x) ;
                 "end": 3
             },
             "initializer": {
-                "kind": 536871042,
+                "kind": 130,
                 "member": {
                     "kind": 134299649,
                     "text": "fooo",
@@ -49,7 +49,7 @@ for (fooo[bar] in x) ;
                     "start": 10,
                     "end": 13
                 },
-                "flags": 32,
+                "flags": 536870944,
                 "start": 5,
                 "end": 14
             },
@@ -91,7 +91,7 @@ for (fooo[bar] in x) ;
 
 ```javascript
 
-for ( in x);
+ for (fooo[bar] in x) ; 
 ```
 
 ### Diagnostics

@@ -180,8 +180,8 @@ function x(y: | z):
 
 ```javascript
 
-function x(): | /* comment */
- {}
+ function x(): |  {
+} 
 ```
 
 ### Diagnostics

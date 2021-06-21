@@ -71,11 +71,11 @@ class C { #aaa; f(obj) { obj.#aaa } }
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": null,
                             "getKeyword": null,
+                            "asteriskToken": null,
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -87,7 +87,7 @@ class C { #aaa; f(obj) { obj.#aaa } }
                                     "end": 17
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [
                                         {
@@ -183,13 +183,13 @@ class C { #aaa; f(obj) { obj.#aaa } }
 
 ```javascript
 
-class C {
-  #aaa;
-
-  f {
+ class C {
+    #aaa,
+    ,
+    f(obj) {
     obj.#aaa;
-  }
-}
+    }
+} 
 ```
 
 ### Diagnostics

@@ -47,7 +47,6 @@ class Foo {
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": null,
                             "staticKeyword": {
                                 "kind": 8388716,
                                 "flags": 64,
@@ -57,6 +56,7 @@ class Foo {
                             "asyncKeyword": null,
                             "setKeyword": null,
                             "getKeyword": null,
+                            "asteriskToken": null,
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -68,7 +68,7 @@ class Foo {
                                     "end": 31
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -126,9 +126,10 @@ class Foo {
 
 ```javascript
 
-class Foo {
-  static static bar {}
-}
+ class Foo {
+    static bar() {
+    }
+} 
 ```
 
 ### Diagnostics

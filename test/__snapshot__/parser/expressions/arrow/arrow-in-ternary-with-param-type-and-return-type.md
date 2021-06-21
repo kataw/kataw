@@ -45,12 +45,7 @@ test
                 },
                 "consequent": {
                     "kind": 271,
-                    "arrowToken": {
-                        "kind": 10,
-                        "flags": 64,
-                        "start": 18,
-                        "end": 21
-                    },
+                    "asyncKeyword": null,
                     "typeParameters": null,
                     "parameters": [
                         {
@@ -94,7 +89,6 @@ test
                             "end": 14
                         }
                     ],
-                    "asyncKeyword": null,
                     "returnType": {
                         "kind": 139,
                         "bitwiseOrToken": null,
@@ -117,6 +111,12 @@ test
                         "flags": 2097152,
                         "start": 16,
                         "end": 18
+                    },
+                    "arrowToken": {
+                        "kind": 10,
+                        "flags": 64,
+                        "start": 18,
+                        "end": 21
                     },
                     "contents": {
                         "kind": 134299649,
@@ -166,7 +166,7 @@ test
 
 ```javascript
 
-test ? (x) =>  y : z;
+ test ? (x: T): U =>y : z; 
 ```
 
 ### Diagnostics

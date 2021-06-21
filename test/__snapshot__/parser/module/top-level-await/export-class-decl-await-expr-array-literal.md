@@ -258,12 +258,10 @@ export class C extends fn(await []) {};
 
 ```javascript
 
-function fn() {
-  return  function () {};
-}
-// extends CallExpression with arguments
-export class C  {}
-
+ function fn() {
+return function () {
+};
+}, , ; 
 ```
 
 ### Diagnostics

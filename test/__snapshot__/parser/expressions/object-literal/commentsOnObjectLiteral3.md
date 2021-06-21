@@ -137,9 +137,9 @@ var v = {
                                         "end": 122
                                     },
                                     {
-                                        "kind": 257,
+                                        "kind": 351,
                                         "asyncKeyword": null,
-                                        "generatorToken": null,
+                                        "asteriskToken": null,
                                         "getKeyword": null,
                                         "setKeyword": null,
                                         "method": {
@@ -153,7 +153,7 @@ var v = {
                                                 "end": 162
                                             },
                                             "typeParameters": null,
-                                            "formalParameters": {
+                                            "formalParameterList": {
                                                 "kind": 214,
                                                 "formalParameters": [],
                                                 "trailingComma": false,
@@ -185,9 +185,9 @@ var v = {
                                         "end": 168
                                     },
                                     {
-                                        "kind": 257,
+                                        "kind": 351,
                                         "asyncKeyword": null,
-                                        "generatorToken": null,
+                                        "asteriskToken": null,
                                         "getKeyword": {
                                             "kind": 16498,
                                             "flags": 97,
@@ -206,7 +206,7 @@ var v = {
                                                 "end": 186
                                             },
                                             "typeParameters": null,
-                                            "formalParameters": {
+                                            "formalParameterList": {
                                                 "kind": 214,
                                                 "formalParameters": [],
                                                 "trailingComma": false,
@@ -271,9 +271,9 @@ var v = {
                                         "end": 213
                                     },
                                     {
-                                        "kind": 257,
+                                        "kind": 351,
                                         "asyncKeyword": null,
-                                        "generatorToken": null,
+                                        "asteriskToken": null,
                                         "getKeyword": null,
                                         "setKeyword": {
                                             "kind": 16499,
@@ -292,7 +292,7 @@ var v = {
                                                 "end": 246
                                             },
                                             "typeParameters": null,
-                                            "formalParameters": {
+                                            "formalParameterList": {
                                                 "kind": 214,
                                                 "formalParameters": [
                                                     {
@@ -416,18 +416,14 @@ var v = {
 
 ```javascript
 
-var v = { //property
-  prop: 1 /* multiple trailing comments */ /*trailing comments*/, //property
-  func: function () {}, //PropertyName + CallSignature
-  //PropertyName + CallSignature
-  func1 {}, //getter
-  get a {
-    return  this.prop;
-  } /*trailing 1*/, //setter
-  set a {
-    this.prop = value;
-  } // trailing 2
-   };
+ var v = { prop : 1/* multiple trailing comments */ /*trailing comments*/, func : function () {
+    }, func1() {
+    }, get a() {
+    return this.prop;
+    }/*trailing 1*/, set a(value) {
+    this.prop=value;
+    }// trailing 2
+ }; 
 ```
 
 ### Diagnostics

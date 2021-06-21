@@ -185,7 +185,7 @@
 
 ```javascript
 
-[a = [b] = c, { [d]: e }, f] = g;
+ [a=[b]=c, {  : e }, f]=g; 
 ```
 
 ### Diagnostics

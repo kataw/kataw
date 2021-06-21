@@ -165,12 +165,9 @@
 
 ```javascript
 
-function x() {
-  {
-    var f;
-    var f;
-  }
-}
+ function x() {
+{ var f;, var f; }
+} 
 ```
 
 ### Diagnostics

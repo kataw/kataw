@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/classes/extends-lefthandside/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/classes/extends-lefthandside/gen/async_wrapped
+- Regenerated: 2021-06-12
+- From: d
+- Path: d
 > :: test: async wrapped
 > :: case: fooo[bar]
 ## Options
@@ -94,7 +94,7 @@ async function p(){
                                         "end": 37
                                     },
                                     "expression": {
-                                        "kind": 536871042,
+                                        "kind": 130,
                                         "member": {
                                             "kind": 134299649,
                                             "text": "fooo",
@@ -111,7 +111,7 @@ async function p(){
                                             "start": 43,
                                             "end": 46
                                         },
-                                        "flags": 32,
+                                        "flags": 536870944,
                                         "start": 37,
                                         "end": 47
                                     },
@@ -163,9 +163,10 @@ async function p(){
 
 ```javascript
 
-async function p() {
-  class C  {}
+ async function p() {
+class C {
 }
+} 
 ```
 
 ### Diagnostics

@@ -43,7 +43,7 @@
 
 ```javascript
 
-"\"use\x20strict\"";
+ "use\x20strict"; 
 ```
 
 ### Diagnostics

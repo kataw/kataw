@@ -120,16 +120,16 @@ let x: (this: any) => void = () => {}
                         },
                         "initializer": {
                             "kind": 271,
+                            "asyncKeyword": null,
+                            "typeParameters": null,
+                            "parameters": [],
+                            "returnType": null,
                             "arrowToken": {
                                 "kind": 10,
                                 "flags": 64,
                                 "start": 31,
                                 "end": 34
                             },
-                            "typeParameters": null,
-                            "parameters": [],
-                            "asyncKeyword": null,
-                            "returnType": null,
                             "contents": {
                                 "kind": 216,
                                 "functionStatementList": {
@@ -175,7 +175,8 @@ let x: (this: any) => void = () => {}
 
 ```javascript
 
-let x:  = () =>  {};
+ let x  = () => {
+}; 
 ```
 
 ### Diagnostics

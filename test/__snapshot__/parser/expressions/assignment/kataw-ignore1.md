@@ -63,9 +63,9 @@ foo = bar;
 ### Printed
 
 ```javascript
-// kataw-ignore-block
 
-foo = bar;
+// kataw-ignore-block
+ foo=bar; 
 ```
 
 ### Diagnostics

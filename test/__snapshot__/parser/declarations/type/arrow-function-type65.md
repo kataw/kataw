@@ -358,7 +358,7 @@ type a = (((x | ((y & z) => T) => T) => T) => T) => T;
 
 ```javascript
 
-
+  
 ```
 
 ### Diagnostics

@@ -53,7 +53,7 @@ delete true
 
 ```javascript
 
-delete true;
+ ; 
 ```
 
 ### Diagnostics

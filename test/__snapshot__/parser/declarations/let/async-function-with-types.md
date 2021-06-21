@@ -51,11 +51,11 @@ const f = async <T, R, S>(
                         "type": null,
                         "initializer": {
                             "kind": 271,
-                            "arrowToken": {
-                                "kind": 10,
+                            "asyncKeyword": {
+                                "kind": 82031,
                                 "flags": 64,
-                                "start": 52,
-                                "end": 55
+                                "start": 9,
+                                "end": 15
                             },
                             "typeParameters": {
                                 "kind": 307,
@@ -242,13 +242,13 @@ const f = async <T, R, S>(
                                     "end": 49
                                 }
                             ],
-                            "asyncKeyword": {
-                                "kind": 82031,
-                                "flags": 64,
-                                "start": 9,
-                                "end": 15
-                            },
                             "returnType": null,
+                            "arrowToken": {
+                                "kind": 10,
+                                "flags": 64,
+                                "start": 52,
+                                "end": 55
+                            },
                             "contents": {
                                 "kind": 216,
                                 "functionStatementList": {
@@ -313,9 +313,9 @@ const f = async <T, R, S>(
 
 ```javascript
 
-const f = async (x, y, z) =>  {
-  return  null;
-};
+ const f = (x: T, y: R, z: S) => {
+return null;
+}; 
 ```
 
 ### Diagnostics

@@ -6,25 +6,6 @@
 [...[x].map(y, z)[x]] = a;
 `````
 
-## Options
-
-### Parser Options
-
-`````js
-{}
-`````
-
-### Printer Options
-
-`````js
-{
-  "tabWidth": 2,
-  "printWidth": 80,
-  "useTabs": false,
-  "bracketSpacing": true
-}
-`````
-
 ## Output
 
 ### CST
@@ -52,7 +33,7 @@
                                     "end": 4
                                 },
                                 "argument": {
-                                    "kind": 536871042,
+                                    "kind": 130,
                                     "member": {
                                         "kind": 131,
                                         "expression": {
@@ -129,7 +110,7 @@
                                         "start": 18,
                                         "end": 19
                                     },
-                                    "flags": 32,
+                                    "flags": 536870944,
                                     "start": 4,
                                     "end": 20
                                 },
@@ -183,7 +164,7 @@
 
 ```javascript
 
-[...] = a;
+ [...[x]]=a; 
 ```
 
 ### Diagnostics

@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/arrow/position/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/arrow/position/gen/yield_arg
+- Regenerated: 2021-06-12
+- From: d
+- Path: g
 > :: test: yield arg
 > :: case: x => ok
 ## Options
@@ -78,12 +78,7 @@ function *f() {
                                 "asteriskToken": null,
                                 "expression": {
                                     "kind": 271,
-                                    "arrowToken": {
-                                        "kind": 10,
-                                        "flags": 64,
-                                        "start": 25,
-                                        "end": 28
-                                    },
+                                    "asyncKeyword": null,
                                     "typeParameters": null,
                                     "parameters": {
                                         "kind": 134299649,
@@ -93,8 +88,13 @@ function *f() {
                                         "start": 23,
                                         "end": 25
                                     },
-                                    "asyncKeyword": null,
                                     "returnType": null,
+                                    "arrowToken": {
+                                        "kind": 10,
+                                        "flags": 64,
+                                        "start": 25,
+                                        "end": 28
+                                    },
                                     "contents": {
                                         "kind": 134299649,
                                         "text": "ok",
@@ -143,9 +143,9 @@ function *f() {
 
 ```javascript
 
-function * f() {
-  yield x =>  ok;
-}
+ function* f() {
+yield x =>ok;
+} 
 ```
 
 ### Diagnostics

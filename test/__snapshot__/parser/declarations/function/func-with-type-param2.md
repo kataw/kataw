@@ -148,7 +148,8 @@ a=function<T,S>() {}
 
 ```javascript
 
-a = function  <T, S >() {};
+ a=function () {
+}; 
 ```
 
 ### Diagnostics

@@ -39,16 +39,16 @@ let arrow = () => {};
                         "type": null,
                         "initializer": {
                             "kind": 271,
+                            "asyncKeyword": null,
+                            "typeParameters": null,
+                            "parameters": [],
+                            "returnType": null,
                             "arrowToken": {
                                 "kind": 10,
                                 "flags": 64,
                                 "start": 14,
                                 "end": 17
                             },
-                            "typeParameters": null,
-                            "parameters": [],
-                            "asyncKeyword": null,
-                            "returnType": null,
                             "contents": {
                                 "kind": 216,
                                 "functionStatementList": {
@@ -94,7 +94,8 @@ let arrow = () => {};
 
 ```javascript
 
-let arrow = () =>  {};
+ let arrow = () => {
+}; 
 ```
 
 ### Diagnostics

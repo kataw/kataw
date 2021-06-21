@@ -115,7 +115,7 @@ type a = {x: number, };
 
 ```javascript
 
-
+  
 ```
 
 ### Diagnostics

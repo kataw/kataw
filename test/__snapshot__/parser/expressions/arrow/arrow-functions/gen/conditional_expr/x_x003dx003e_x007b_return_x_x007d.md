@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/arrow/arrow-functions/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/arrow/arrow-functions/gen/conditional_expr
+- Regenerated: 2021-06-12
+- From: d
+- Path: r
 > :: test: conditional expr
 > :: case: x => { return x; }
 ## Options
@@ -45,12 +45,7 @@ bar ? (x => { return x; }) : baz;
                     "kind": 121,
                     "expression": {
                         "kind": 271,
-                        "arrowToken": {
-                            "kind": 10,
-                            "flags": 64,
-                            "start": 8,
-                            "end": 11
-                        },
+                        "asyncKeyword": null,
                         "typeParameters": null,
                         "parameters": {
                             "kind": 134299649,
@@ -60,8 +55,13 @@ bar ? (x => { return x; }) : baz;
                             "start": 7,
                             "end": 8
                         },
-                        "asyncKeyword": null,
                         "returnType": null,
+                        "arrowToken": {
+                            "kind": 10,
+                            "flags": 64,
+                            "start": 8,
+                            "end": 11
+                        },
                         "contents": {
                             "kind": 216,
                             "functionStatementList": {
@@ -141,9 +141,9 @@ bar ? (x => { return x; }) : baz;
 
 ```javascript
 
-bar ? (x =>  {
-        return  x;
-      }) : baz;
+ bar ? (x => {
+return x;
+}) : baz; 
 ```
 
 ### Diagnostics

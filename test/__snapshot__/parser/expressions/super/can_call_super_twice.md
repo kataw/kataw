@@ -64,11 +64,11 @@ class x extends y { constructor() { super.mom; super.mom; } }
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": null,
                             "getKeyword": null,
+                            "asteriskToken": null,
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -80,7 +80,7 @@ class x extends y { constructor() { super.mom; super.mom; } }
                                     "end": 31
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -203,12 +203,12 @@ class x extends y { constructor() { super.mom; super.mom; } }
 
 ```javascript
 
-class x  {
-  constructor {
-    super.mom;
-    super.mom;
-  }
-}
+ class x {
+    constructor() {
+    .mom;,
+    .mom;
+    }
+} 
 ```
 
 ### Diagnostics

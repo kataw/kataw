@@ -52,7 +52,7 @@ function x(){""[new.target]}
                         {
                             "kind": 120,
                             "expression": {
-                                "kind": 536871042,
+                                "kind": 130,
                                 "member": {
                                     "kind": 201392131,
                                     "text": "",
@@ -79,7 +79,7 @@ function x(){""[new.target]}
                                     "start": 16,
                                     "end": 26
                                 },
-                                "flags": 32,
+                                "flags": 536870944,
                                 "start": 13,
                                 "end": 27
                             },
@@ -115,9 +115,9 @@ function x(){""[new.target]}
 
 ```javascript
 
-function x() {
-  ;
-}
+ function x() {
+""[];
+} 
 ```
 
 ### Diagnostics

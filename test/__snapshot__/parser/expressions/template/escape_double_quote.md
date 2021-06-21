@@ -43,7 +43,7 @@
 
 ```javascript
 
-`some " quote`;
+ ; 
 ```
 
 ### Diagnostics

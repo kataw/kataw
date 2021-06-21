@@ -149,7 +149,7 @@ type X = (x & {[x]:string});
 
 ```javascript
 
-
+  
 ```
 
 ### Diagnostics

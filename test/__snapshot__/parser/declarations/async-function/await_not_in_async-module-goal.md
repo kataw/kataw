@@ -168,10 +168,9 @@ f(await 1);
 
 ```javascript
 
-async function f() {
-  return  x;
-}
-f(await 1);
+ async function f(x) {
+return x;
+}, ; 
 ```
 
 ### Diagnostics

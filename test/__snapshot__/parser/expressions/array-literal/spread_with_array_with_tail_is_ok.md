@@ -130,7 +130,7 @@
 
 ```javascript
 
-[...[x].map(y, z)];
+ [...]; 
 ```
 
 ### Diagnostics

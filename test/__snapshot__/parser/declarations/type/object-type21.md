@@ -130,7 +130,7 @@ type a = {function():string};
 
 ```javascript
 
-
+  
 ```
 
 ### Diagnostics

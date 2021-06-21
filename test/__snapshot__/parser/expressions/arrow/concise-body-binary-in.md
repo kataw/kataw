@@ -41,16 +41,16 @@ const t = () => ({
                         "type": null,
                         "initializer": {
                             "kind": 271,
+                            "asyncKeyword": null,
+                            "typeParameters": null,
+                            "parameters": [],
+                            "returnType": null,
                             "arrowToken": {
                                 "kind": 10,
                                 "flags": 64,
                                 "start": 12,
                                 "end": 15
                             },
-                            "typeParameters": null,
-                            "parameters": [],
-                            "asyncKeyword": null,
-                            "returnType": null,
                             "contents": {
                                 "kind": 121,
                                 "expression": {
@@ -71,12 +71,7 @@ const t = () => ({
                                                 },
                                                 "right": {
                                                     "kind": 271,
-                                                    "arrowToken": {
-                                                        "kind": 10,
-                                                        "flags": 64,
-                                                        "start": 27,
-                                                        "end": 30
-                                                    },
+                                                    "asyncKeyword": null,
                                                     "typeParameters": null,
                                                     "parameters": [
                                                         {
@@ -88,8 +83,13 @@ const t = () => ({
                                                             "end": 26
                                                         }
                                                     ],
-                                                    "asyncKeyword": null,
                                                     "returnType": null,
+                                                    "arrowToken": {
+                                                        "kind": 10,
+                                                        "flags": 64,
+                                                        "start": 27,
+                                                        "end": 30
+                                                    },
                                                     "contents": {
                                                         "kind": 198,
                                                         "left": {
@@ -171,7 +171,7 @@ const t = () => ({
 
 ```javascript
 
-const t = () =>  ({ v: (v) =>  v in z });
+ const t = () =>({ v : (v) =>v in z }); 
 ```
 
 ### Diagnostics

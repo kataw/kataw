@@ -25,64 +25,75 @@ for (let {[x]} of obj);
             },
             "awaitKeyword": null,
             "initializer": {
-                "kind": 151,
-                "bindingList": [
-                    {
-                        "kind": 190,
-                        "binding": {
-                            "kind": 212,
-                            "propertyList": {
-                                "kind": 213,
-                                "properties": [
-                                    {
-                                        "kind": 329,
-                                        "ellipsisToken": null,
-                                        "key": {
-                                            "kind": 194,
-                                            "expression": {
-                                                "kind": 134299649,
-                                                "text": "x",
-                                                "rawText": "x",
-                                                "flags": 96,
-                                                "start": 11,
-                                                "end": 12
+                "kind": 162,
+                "lexicalKeyword": {
+                    "kind": 41951307,
+                    "flags": 64,
+                    "start": 0,
+                    "end": 8
+                },
+                "binding": {
+                    "kind": 151,
+                    "bindingList": [
+                        {
+                            "kind": 190,
+                            "binding": {
+                                "kind": 212,
+                                "propertyList": {
+                                    "kind": 213,
+                                    "properties": [
+                                        {
+                                            "kind": 329,
+                                            "key": {
+                                                "kind": 194,
+                                                "expression": {
+                                                    "kind": 134299649,
+                                                    "text": "x",
+                                                    "rawText": "x",
+                                                    "flags": 96,
+                                                    "start": 11,
+                                                    "end": 12
+                                                },
+                                                "flags": 32,
+                                                "start": 10,
+                                                "end": 13
                                             },
+                                            "value": {
+                                                "kind": 16637,
+                                                "text": "",
+                                                "rawText": "",
+                                                "flags": 64,
+                                                "start": 13,
+                                                "end": 13
+                                            },
+                                            "initializer": null,
                                             "flags": 32,
                                             "start": 10,
                                             "end": 13
-                                        },
-                                        "value": {
-                                            "kind": 16637,
-                                            "text": "",
-                                            "rawText": "",
-                                            "flags": 64,
-                                            "start": 13,
-                                            "end": 13
-                                        },
-                                        "initializer": null,
-                                        "flags": 32,
-                                        "start": 10,
-                                        "end": 13
-                                    }
-                                ],
-                                "trailingComma": false,
+                                        }
+                                    ],
+                                    "trailingComma": false,
+                                    "flags": 32,
+                                    "start": 10,
+                                    "end": 13
+                                },
                                 "flags": 32,
-                                "start": 10,
-                                "end": 13
+                                "start": 8,
+                                "end": 14
                             },
-                            "flags": 32,
+                            "type": null,
+                            "initializer": null,
+                            "flags": 16,
                             "start": 8,
                             "end": 14
-                        },
-                        "type": null,
-                        "initializer": null,
-                        "flags": 16,
-                        "start": 8,
-                        "end": 14
-                    }
-                ],
-                "flags": 16,
-                "start": 8,
+                        }
+                    ],
+                    "flags": 16,
+                    "start": 8,
+                    "end": 14
+                },
+                "flags": 33554448,
+                "start": 0,
                 "end": 14
             },
             "ofKeyword": {

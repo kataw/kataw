@@ -63,7 +63,6 @@ class A {get set(){}}
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": {
@@ -73,6 +72,7 @@ class A {get set(){}}
                                 "end": 12
                             },
                             "getKeyword": null,
+                            "asteriskToken": null,
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -84,7 +84,7 @@ class A {get set(){}}
                                     "end": 16
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -142,9 +142,10 @@ class A {get set(){}}
 
 ```javascript
 
-class A {
-  get set {}
-}
+ class A {
+    get set() {
+    }
+} 
 ```
 
 ### Diagnostics

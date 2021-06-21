@@ -151,10 +151,9 @@ async function f(){
 
 ```javascript
 
-async function f() {
-  for await (/foo/g.x of c)
-    d;
-}
+ async function f() {
+for await(.x of c) d;
+} 
 ```
 
 ### Diagnostics

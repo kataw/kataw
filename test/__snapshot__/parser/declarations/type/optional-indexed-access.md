@@ -123,7 +123,7 @@ type x = a?.[b]
 
 ```javascript
 
-
+  
 ```
 
 ### Diagnostics

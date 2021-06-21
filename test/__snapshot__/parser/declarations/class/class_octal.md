@@ -120,8 +120,8 @@ class x extends y{}
 
 ```javascript
 
-class x  {}
-09;
+ class x {
+}, 09; 
 ```
 
 ### Diagnostics

@@ -163,16 +163,16 @@ class C { [super.bbb] = 0 };
                             "type": null,
                             "initializer": {
                                 "kind": 271,
+                                "asyncKeyword": null,
+                                "typeParameters": null,
+                                "parameters": [],
+                                "returnType": null,
                                 "arrowToken": {
                                     "kind": 10,
                                     "flags": 64,
                                     "start": 48,
                                     "end": 51
                                 },
-                                "typeParameters": null,
-                                "parameters": [],
-                                "asyncKeyword": null,
-                                "returnType": null,
                                 "contents": {
                                     "kind": 129,
                                     "member": {
@@ -269,28 +269,28 @@ class C { [super.bbb] = 0 };
                             "type": null,
                             "initializer": {
                                 "kind": 271,
+                                "asyncKeyword": null,
+                                "typeParameters": null,
+                                "parameters": [],
+                                "returnType": null,
                                 "arrowToken": {
                                     "kind": 10,
                                     "flags": 64,
                                     "start": 84,
                                     "end": 87
                                 },
-                                "typeParameters": null,
-                                "parameters": [],
-                                "asyncKeyword": null,
-                                "returnType": null,
                                 "contents": {
                                     "kind": 271,
+                                    "asyncKeyword": null,
+                                    "typeParameters": null,
+                                    "parameters": [],
+                                    "returnType": null,
                                     "arrowToken": {
                                         "kind": 10,
                                         "flags": 64,
                                         "start": 90,
                                         "end": 93
                                     },
-                                    "typeParameters": null,
-                                    "parameters": [],
-                                    "asyncKeyword": null,
-                                    "returnType": null,
                                     "contents": {
                                         "kind": 129,
                                         "member": {

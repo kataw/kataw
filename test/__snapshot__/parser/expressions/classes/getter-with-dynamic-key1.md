@@ -50,12 +50,6 @@ class x {static *[y](){}}
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": {
-                                "kind": 67143222,
-                                "flags": 64,
-                                "start": 15,
-                                "end": 17
-                            },
                             "staticKeyword": {
                                 "kind": 8388716,
                                 "flags": 64,
@@ -65,6 +59,12 @@ class x {static *[y](){}}
                             "asyncKeyword": null,
                             "setKeyword": null,
                             "getKeyword": null,
+                            "asteriskToken": {
+                                "kind": 67143222,
+                                "flags": 64,
+                                "start": 15,
+                                "end": 17
+                            },
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -82,7 +82,7 @@ class x {static *[y](){}}
                                     "end": 20
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -140,9 +140,10 @@ class x {static *[y](){}}
 
 ```javascript
 
-class x {
-  static static [y] {}
-}
+ class x {
+    static *() {
+    }
+} 
 ```
 
 ### Diagnostics

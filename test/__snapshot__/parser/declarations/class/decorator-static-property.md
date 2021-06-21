@@ -102,9 +102,9 @@ class A {
 
 ```javascript
 
-class A {
-  static name = 0;
-}
+ class A {
+    static name = 0
+} 
 ```
 
 ### Diagnostics

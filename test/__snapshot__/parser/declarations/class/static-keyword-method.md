@@ -44,7 +44,6 @@ class C { static delete() {} }
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": null,
                             "staticKeyword": {
                                 "kind": 8388716,
                                 "flags": 64,
@@ -54,6 +53,7 @@ class C { static delete() {} }
                             "asyncKeyword": null,
                             "setKeyword": null,
                             "getKeyword": null,
+                            "asteriskToken": null,
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -65,7 +65,7 @@ class C { static delete() {} }
                                     "end": 23
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -123,9 +123,10 @@ class C { static delete() {} }
 
 ```javascript
 
-class C {
-  static static delete {}
-}
+ class C {
+    static delete() {
+    }
+} 
 ```
 
 ### Diagnostics

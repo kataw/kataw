@@ -147,9 +147,9 @@ function* fn() {
 
 ```javascript
 
-function * fn() {
-  a ?  yield : 2;
-}
+ function* fn() {
+a ? yield : 2;
+} 
 ```
 
 ### Diagnostics

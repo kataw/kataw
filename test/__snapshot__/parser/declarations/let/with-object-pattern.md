@@ -102,9 +102,9 @@ let [{a}] = 0
 
 ```javascript
 
-let [{
+ let [{
     a
-  }] = 0;
+}] = 0; 
 ```
 
 ### Diagnostics

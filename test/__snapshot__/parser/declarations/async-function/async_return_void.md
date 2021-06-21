@@ -471,16 +471,15 @@ async function foo3(): Promise<string> {
 
 ```javascript
 
-async function foo1():  {
-  return ;
-}
-async function foo2():  {
-  return  undefined;
-}
-async function foo3():  {
-  function bar() {}
-  return  bar();
-}
+ async function foo1(): Promise {
+return;
+}, async function foo2(): Promise {
+return undefined;
+}, async function foo3(): Promise {
+function bar() {
+},
+return ;
+} 
 ```
 
 ### Diagnostics

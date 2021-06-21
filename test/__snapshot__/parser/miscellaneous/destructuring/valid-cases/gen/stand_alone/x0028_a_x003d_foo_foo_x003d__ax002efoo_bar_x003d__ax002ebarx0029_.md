@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/miscellaneous/destructuring/valid-cases/autogen.md
-- Path: kataw/test/__snapshot__/parser/miscellaneous/destructuring/valid-cases/gen/stand_alone
+- Regenerated: 2021-06-12
+- From: d
+- Path: e
 > :: test: stand alone
 > :: case: (_a = foo, foo = _a.foo, bar = _a.bar);
 ## Options
@@ -169,7 +169,7 @@
 
 ```javascript
 
-(_a = foo, foo = _a.foo, bar = _a.bar);
+ (_a=foo, foo=_a.foo, bar=_a.bar); 
 ```
 
 ### Diagnostics

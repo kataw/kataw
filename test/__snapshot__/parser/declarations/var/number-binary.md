@@ -88,7 +88,7 @@ var a: 0b1111011
 
 ```javascript
 
-var a: ;
+ var a ; 
 ```
 
 ### Diagnostics

@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/yield/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/yield/gen/with_strict_dirctive
+- Regenerated: 2021-06-12
+- From: d
+- Path: e
 > :: test: with_strict_dirctive
 > :: case: function* foo() { yield 2; if (true) { yield 3 }; yield 4 }
 ## Options
@@ -223,13 +223,12 @@
 
 ```javascript
 
-function * foo() {
-  yield 2;
-  if (true) {
-      yield 3;
-    }
-  yield 4;
-}
+'use strict' function* foo() {
+yield 2;,
+if (true) { yield 3; },
+;,
+yield 4;
+} 
 ```
 
 ### Diagnostics

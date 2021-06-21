@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/declarations/class/special_keys/autogen.md
-- Path: kataw/test/__snapshot__/parser/declarations/class/special_keys/gen/as_static_setter_in_class
+- Regenerated: 2021-06-12
+- From: d
+- Path: s
 > :: test: as static setter in class
 > :: case: finally
 ## Options
@@ -52,7 +52,6 @@ class x {static set finally(x){}}
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": null,
                             "staticKeyword": {
                                 "kind": 8388716,
                                 "flags": 64,
@@ -67,6 +66,7 @@ class x {static set finally(x){}}
                                 "start": 15,
                                 "end": 19
                             },
+                            "asteriskToken": null,
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -78,7 +78,7 @@ class x {static set finally(x){}}
                                     "end": 27
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [
                                         {
@@ -145,9 +145,10 @@ class x {static set finally(x){}}
 
 ```javascript
 
-class x {
-  static set static finally {}
-}
+ class x {
+    static set finally(x) {
+    }
+} 
 ```
 
 ### Diagnostics

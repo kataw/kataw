@@ -88,7 +88,7 @@ export class x {}
 
 ```javascript
 
-export class x {}
+  
 ```
 
 ### Diagnostics

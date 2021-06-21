@@ -44,7 +44,7 @@ for ({a: b.c}[x] of d) e
             },
             "awaitKeyword": null,
             "initializer": {
-                "kind": 536871042,
+                "kind": 130,
                 "member": {
                     "kind": 220,
                     "propertyList": {
@@ -105,7 +105,7 @@ for ({a: b.c}[x] of d) e
                     "start": 14,
                     "end": 15
                 },
-                "flags": 32,
+                "flags": 536870944,
                 "start": 0,
                 "end": 16
             },
@@ -155,8 +155,7 @@ for ({a: b.c}[x] of d) e
 
 ```javascript
 
-for ( of d)
-  e;
+ for({ a : b.c }[x] of d) e; 
 ```
 
 ### Diagnostics

@@ -68,7 +68,7 @@
 
 ```javascript
 
---/b/.c;
+ --.c; 
 ```
 
 ### Diagnostics

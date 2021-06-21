@@ -35,12 +35,7 @@ f = ([xCls = class X {}]) => {}
                 },
                 "right": {
                     "kind": 271,
-                    "arrowToken": {
-                        "kind": 10,
-                        "flags": 64,
-                        "start": 25,
-                        "end": 28
-                    },
+                    "asyncKeyword": null,
                     "typeParameters": null,
                     "parameters": [
                         {
@@ -112,8 +107,13 @@ f = ([xCls = class X {}]) => {}
                             "end": 24
                         }
                     ],
-                    "asyncKeyword": null,
                     "returnType": null,
+                    "arrowToken": {
+                        "kind": 10,
+                        "flags": 64,
+                        "start": 25,
+                        "end": 28
+                    },
                     "contents": {
                         "kind": 216,
                         "functionStatementList": {
@@ -154,7 +154,9 @@ f = ([xCls = class X {}]) => {}
 
 ```javascript
 
-f = ([]) =>  {};
+ f=([xCls = class X {
+    }]) => {
+}; 
 ```
 
 ### Diagnostics

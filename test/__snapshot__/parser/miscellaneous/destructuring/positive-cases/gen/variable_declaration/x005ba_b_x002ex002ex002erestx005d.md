@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/miscellaneous/destructuring/positive-cases/autogen.md
-- Path: kataw/test/__snapshot__/parser/miscellaneous/destructuring/positive-cases/gen/variable_declaration
+- Regenerated: 2021-06-12
+- From: d
+- Path: n
 > :: test: variable declaration
 > :: case: [a,b,...rest]
 ## Options
@@ -133,7 +133,7 @@ var [a,b,...rest] = {};
 
 ```javascript
 
-var [a, b, ...rest] = {};
+ var [a, b, ...rest] = {  }; 
 ```
 
 ### Diagnostics

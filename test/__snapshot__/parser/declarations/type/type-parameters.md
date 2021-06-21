@@ -631,11 +631,7 @@ type A5<S = number, T: ?string = string> = T;
 
 ```javascript
 
-
-
-
-
-
+ , , , ,  
 ```
 
 ### Diagnostics

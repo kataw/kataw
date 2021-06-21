@@ -93,7 +93,7 @@ export default function () {}
 
 ```javascript
 
-export default function () {};
+  
 ```
 
 ### Diagnostics

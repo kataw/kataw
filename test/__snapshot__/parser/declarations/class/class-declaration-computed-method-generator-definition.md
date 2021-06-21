@@ -47,16 +47,16 @@ class A {
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
+                            "staticKeyword": null,
+                            "asyncKeyword": null,
+                            "setKeyword": null,
+                            "getKeyword": null,
                             "asteriskToken": {
                                 "kind": 67143222,
                                 "flags": 65,
                                 "start": 9,
                                 "end": 13
                             },
-                            "staticKeyword": null,
-                            "asyncKeyword": null,
-                            "setKeyword": null,
-                            "getKeyword": null,
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -74,7 +74,7 @@ class A {
                                     "end": 16
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -132,9 +132,10 @@ class A {
 
 ```javascript
 
-class A {
-  [1] {}
-}
+ class A {
+    *() {
+    }
+} 
 ```
 
 ### Diagnostics

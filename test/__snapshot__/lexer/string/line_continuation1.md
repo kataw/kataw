@@ -159,18 +159,11 @@ post"
 
 ```javascript
 
-"\"\
-\"";
-"\"pre\
-\"";
-"\"\
-post\"";
-"\"pre\
-post\"";
-"\"@{xd}@\"";
-"\"pre@{xd}@\"";
-"\"@{xd}@post\"";
-"\"pre@{xd}@post\"";
+ "\
+";, "pre\
+";, "\
+post";, "pre\
+post";, "\@{xd}@";, "pre\@{xd}@";, "\@{xd}@post";, "pre\@{xd}@post"; 
 ```
 
 ### Diagnostics

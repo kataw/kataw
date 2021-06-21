@@ -549,11 +549,12 @@ function five<T>(this: T) {}
 
 ```javascript
 
-function one() {}
-function two() {}
-function three() {}
-function four() {}
-function  <T >five() {}
+ function one() {
+}, function two(, a) {
+}, function three(, ) {
+}, function four(, a, b, ) {
+}, function five() {
+} 
 ```
 
 ### Diagnostics

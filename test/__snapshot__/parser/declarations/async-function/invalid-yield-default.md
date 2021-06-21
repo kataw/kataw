@@ -58,11 +58,11 @@ function* wrap() {
                     "statements": [
                         {
                             "kind": 271,
-                            "arrowToken": {
-                                "kind": 10,
+                            "asyncKeyword": {
+                                "kind": 82031,
                                 "flags": 64,
-                                "start": 39,
-                                "end": 42
+                                "start": 18,
+                                "end": 26
                             },
                             "typeParameters": null,
                             "parameters": [
@@ -106,13 +106,13 @@ function* wrap() {
                                     "end": 38
                                 }
                             ],
-                            "asyncKeyword": {
-                                "kind": 82031,
-                                "flags": 64,
-                                "start": 18,
-                                "end": 26
-                            },
                             "returnType": null,
+                            "arrowToken": {
+                                "kind": 10,
+                                "flags": 64,
+                                "start": 39,
+                                "end": 42
+                            },
                             "contents": {
                                 "kind": 134299649,
                                 "text": "a",
@@ -159,10 +159,9 @@ function* wrap() {
 
 ```javascript
 
-function * wrap() {
-  async (a = yield b) =>  a
-}
-
+ function* wrap() {
+(a = yield b) =>a
+}, ; 
 ```
 
 ### Diagnostics

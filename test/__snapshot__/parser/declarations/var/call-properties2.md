@@ -547,15 +547,13 @@ var c: { (): string; (x: number): string } =
 ### Printed
 
 ```javascript
-// It should be fine when a function satisfies them all
 
-var b:  = function (): string {
-  return  "\"hi\"";
-};
-// ...but should notice when a function doesn't satisfy them all
-var c:  = function (): string {
-  return  "\"hi\"";
-};
+// It should be fine when a function satisfies them all
+ var b  = function (): string {
+return "hi";
+};, var c  = function (): string {
+return "hi";
+}; 
 ```
 
 ### Diagnostics

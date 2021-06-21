@@ -19,12 +19,7 @@
             "kind": 120,
             "expression": {
                 "kind": 271,
-                "arrowToken": {
-                    "kind": 10,
-                    "flags": 64,
-                    "start": 14,
-                    "end": 17
-                },
+                "asyncKeyword": null,
                 "typeParameters": null,
                 "parameters": [
                     {
@@ -33,9 +28,9 @@
                             "kind": 213,
                             "properties": [
                                 {
-                                    "kind": 257,
+                                    "kind": 351,
                                     "asyncKeyword": null,
-                                    "generatorToken": null,
+                                    "asteriskToken": null,
                                     "getKeyword": null,
                                     "setKeyword": null,
                                     "method": {
@@ -49,7 +44,7 @@
                                             "end": 8
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -91,8 +86,13 @@
                         "end": 13
                     }
                 ],
-                "asyncKeyword": null,
                 "returnType": null,
+                "arrowToken": {
+                    "kind": 10,
+                    "flags": 64,
+                    "start": 14,
+                    "end": 17
+                },
                 "contents": {
                     "kind": 134299649,
                     "text": "x",

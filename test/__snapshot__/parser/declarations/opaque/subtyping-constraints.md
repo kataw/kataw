@@ -203,8 +203,7 @@ opaque type Good: {x: string} = {x: string, y: number};
 
 ```javascript
 
-
-
+ , ; 
 ```
 
 ### Diagnostics

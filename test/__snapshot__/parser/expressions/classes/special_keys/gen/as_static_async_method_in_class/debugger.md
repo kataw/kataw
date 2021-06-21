@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/classes/special_keys/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/classes/special_keys/gen/as_static_async_method_in_class
+- Regenerated: 2021-06-12
+- From: d
+- Path: s
 > :: test: as static async method in class
 > :: case: debugger
 ## Options
@@ -52,7 +52,6 @@ class x {static async debugger(){}}
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": null,
                             "staticKeyword": {
                                 "kind": 8388716,
                                 "flags": 64,
@@ -67,6 +66,7 @@ class x {static async debugger(){}}
                             },
                             "setKeyword": null,
                             "getKeyword": null,
+                            "asteriskToken": null,
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -78,7 +78,7 @@ class x {static async debugger(){}}
                                     "end": 30
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -136,9 +136,10 @@ class x {static async debugger(){}}
 
 ```javascript
 
-class x {
-  async static static debugger {}
-}
+ class x {
+    static async debugger() {
+    }
+} 
 ```
 
 ### Diagnostics

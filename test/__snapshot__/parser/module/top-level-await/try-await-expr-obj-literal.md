@@ -56,9 +56,9 @@ try {
                                         "kind": 218,
                                         "properties": [
                                             {
-                                                "kind": 257,
+                                                "kind": 351,
                                                 "asyncKeyword": null,
-                                                "generatorToken": null,
+                                                "asteriskToken": null,
                                                 "getKeyword": null,
                                                 "setKeyword": null,
                                                 "method": {
@@ -72,7 +72,7 @@ try {
                                                         "end": 24
                                                     },
                                                     "typeParameters": null,
-                                                    "formalParameters": {
+                                                    "formalParameterList": {
                                                         "kind": 214,
                                                         "formalParameters": [],
                                                         "trailingComma": false,
@@ -167,9 +167,9 @@ try {
                                             "kind": 218,
                                             "properties": [
                                                 {
-                                                    "kind": 257,
+                                                    "kind": 351,
                                                     "asyncKeyword": null,
-                                                    "generatorToken": null,
+                                                    "asteriskToken": null,
                                                     "getKeyword": null,
                                                     "setKeyword": null,
                                                     "method": {
@@ -183,7 +183,7 @@ try {
                                                             "end": 64
                                                         },
                                                         "typeParameters": null,
-                                                        "formalParameters": {
+                                                        "formalParameterList": {
                                                             "kind": 214,
                                                             "formalParameters": [],
                                                             "trailingComma": false,
@@ -272,9 +272,9 @@ try {
                                         "kind": 218,
                                         "properties": [
                                             {
-                                                "kind": 257,
+                                                "kind": 351,
                                                 "asyncKeyword": null,
-                                                "generatorToken": null,
+                                                "asteriskToken": null,
                                                 "getKeyword": null,
                                                 "setKeyword": null,
                                                 "method": {
@@ -288,7 +288,7 @@ try {
                                                         "end": 103
                                                     },
                                                     "typeParameters": null,
-                                                    "formalParameters": {
+                                                    "formalParameterList": {
                                                         "kind": 214,
                                                         "formalParameters": [],
                                                         "trailingComma": false,
@@ -364,13 +364,12 @@ try {
 
 ```javascript
 
-try {
-  await { function {} };
-} catch (e) {
-  await { function {} };
-} try{
-  await { function {} };
-}
+ try { await { function() {
+    } }; }
+catch (e){ await { function() {
+    } }; }
+finally { await { function() {
+    } }; } 
 ```
 
 ### Diagnostics

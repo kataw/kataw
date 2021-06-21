@@ -69,27 +69,39 @@ async function f() { for await (let x of y) {} }
                                 "end": 30
                             },
                             "initializer": {
-                                "kind": 151,
-                                "bindingList": [
-                                    {
-                                        "kind": 190,
-                                        "binding": {
-                                            "kind": 134299649,
-                                            "text": "x",
-                                            "rawText": "x",
-                                            "flags": 96,
+                                "kind": 162,
+                                "lexicalKeyword": {
+                                    "kind": 41951307,
+                                    "flags": 64,
+                                    "start": 20,
+                                    "end": 35
+                                },
+                                "binding": {
+                                    "kind": 151,
+                                    "bindingList": [
+                                        {
+                                            "kind": 190,
+                                            "binding": {
+                                                "kind": 134299649,
+                                                "text": "x",
+                                                "rawText": "x",
+                                                "flags": 96,
+                                                "start": 35,
+                                                "end": 37
+                                            },
+                                            "type": null,
+                                            "initializer": null,
+                                            "flags": 16,
                                             "start": 35,
                                             "end": 37
-                                        },
-                                        "type": null,
-                                        "initializer": null,
-                                        "flags": 16,
-                                        "start": 35,
-                                        "end": 37
-                                    }
-                                ],
-                                "flags": 16,
-                                "start": 35,
+                                        }
+                                    ],
+                                    "flags": 16,
+                                    "start": 35,
+                                    "end": 37
+                                },
+                                "flags": 33554448,
+                                "start": 20,
                                 "end": 37
                             },
                             "ofKeyword": {
@@ -151,11 +163,9 @@ async function f() { for await (let x of y) {} }
 
 ```javascript
 
-async function f() {
-  for await (let of y)
-    {
-    }
-}
+ async function f() {
+for await(let x of y) {  }
+} 
 ```
 
 ### Diagnostics

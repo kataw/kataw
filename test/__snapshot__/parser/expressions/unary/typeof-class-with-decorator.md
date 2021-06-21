@@ -103,8 +103,7 @@ typeof @foo class {};
 
 ```javascript
 
-typeof @foo
-class  {};
+ ; 
 ```
 
 ### Diagnostics

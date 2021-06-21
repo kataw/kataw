@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/declarations/let/sub-tree/autogen.md
-- Path: kataw/test/__snapshot__/parser/declarations/let/sub-tree/gen/with
+- Regenerated: 2021-06-12
+- From: d
+- Path: h
 > :: test: with
 > :: case: let [x]
 ## Options
@@ -42,7 +42,7 @@ with (a) let [x]
             "statement": {
                 "kind": 120,
                 "expression": {
-                    "kind": 536871042,
+                    "kind": 130,
                     "member": {
                         "kind": 134299649,
                         "text": "let",
@@ -59,7 +59,7 @@ with (a) let [x]
                         "start": 14,
                         "end": 15
                     },
-                    "flags": 32,
+                    "flags": 536870944,
                     "start": 8,
                     "end": 16
                 },

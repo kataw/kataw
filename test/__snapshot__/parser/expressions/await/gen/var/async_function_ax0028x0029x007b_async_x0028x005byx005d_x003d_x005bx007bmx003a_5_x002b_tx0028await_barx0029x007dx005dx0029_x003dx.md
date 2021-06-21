@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/await/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/await/gen/var
+- Regenerated: 2021-06-12
+- From: d
+- Path: r
 > :: test: var
 > :: case: async function a(){     async ([y] = [{m: 5 + t(await bar)}]) => {}     }
 ## Options
@@ -157,11 +157,11 @@ var await; var f = (async function() { async function a(){     async ([y] = [{m:
                                                         "statements": [
                                                             {
                                                                 "kind": 271,
-                                                                "arrowToken": {
-                                                                    "kind": 10,
+                                                                "asyncKeyword": {
+                                                                    "kind": 82031,
                                                                     "flags": 64,
-                                                                    "start": 100,
-                                                                    "end": 103
+                                                                    "start": 58,
+                                                                    "end": 68
                                                                 },
                                                                 "typeParameters": null,
                                                                 "parameters": [
@@ -306,13 +306,13 @@ var await; var f = (async function() { async function a(){     async ([y] = [{m:
                                                                         "end": 99
                                                                     }
                                                                 ],
-                                                                "asyncKeyword": {
-                                                                    "kind": 82031,
-                                                                    "flags": 64,
-                                                                    "start": 58,
-                                                                    "end": 68
-                                                                },
                                                                 "returnType": null,
+                                                                "arrowToken": {
+                                                                    "kind": 10,
+                                                                    "flags": 64,
+                                                                    "start": 100,
+                                                                    "end": 103
+                                                                },
                                                                 "contents": {
                                                                     "kind": 216,
                                                                     "functionStatementList": {
@@ -390,12 +390,12 @@ var await; var f = (async function() { async function a(){     async ([y] = [{m:
 
 ```javascript
 
-var await;
-var f = (async function () {
-    async function a() {
-      async ([y] = [{ m: 5 + t(await bar) }]) =>  {}
-    }
-  });
+ var await;, var f = (async function () {
+async function a() {
+( = [{ m : 5 +  }]) => {
+}
+}
+}); 
 ```
 
 ### Diagnostics

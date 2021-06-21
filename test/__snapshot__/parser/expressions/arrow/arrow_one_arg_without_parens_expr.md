@@ -19,12 +19,7 @@ x=>x;
             "kind": 120,
             "expression": {
                 "kind": 271,
-                "arrowToken": {
-                    "kind": 10,
-                    "flags": 64,
-                    "start": 1,
-                    "end": 3
-                },
+                "asyncKeyword": null,
                 "typeParameters": null,
                 "parameters": {
                     "kind": 134299649,
@@ -34,8 +29,13 @@ x=>x;
                     "start": 0,
                     "end": 1
                 },
-                "asyncKeyword": null,
                 "returnType": null,
+                "arrowToken": {
+                    "kind": 10,
+                    "flags": 64,
+                    "start": 1,
+                    "end": 3
+                },
                 "contents": {
                     "kind": 134299649,
                     "text": "x",
@@ -66,7 +66,7 @@ x=>x;
 
 ```javascript
 
-x =>  x;
+ x =>x; 
 ```
 
 ### Diagnostics

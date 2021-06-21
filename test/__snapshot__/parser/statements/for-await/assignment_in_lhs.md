@@ -146,9 +146,9 @@ async function f(){
 
 ```javascript
 
-async function f() {
-  for (a = b; x; of);
-}
+ async function f() {
+for(a=b; x; of);
+} 
 ```
 
 ### Diagnostics

@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/miscellaneous/should-pass/autogen.md
-- Path: kataw/test/__snapshot__/parser/miscellaneous/should-pass/gen/stand-alone
+- Regenerated: 2021-06-12
+- From: d
+- Path: e
 > :: test: stand-alone
 > :: case: function f(enum) {}
 ## Options
@@ -93,7 +93,8 @@ function f(enum) {}
 
 ```javascript
 
-function f() {}
+ function f(enum) {
+} 
 ```
 
 ### Diagnostics

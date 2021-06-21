@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/await/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/await/gen/var
+- Regenerated: 2021-06-12
+- From: d
+- Path: r
 > :: test: var
 > :: case: async function f(){ await await foo; }
 ## Options
@@ -252,12 +252,11 @@ var await; var f = (async function() { async function f(){ await await foo; } })
 
 ```javascript
 
-var await;
-var f = (async function () {
-    async function f() {
-      await await foo;
-    }
-  });
+ var await;, var f = (async function () {
+async function f() {
+await await foo;
+}
+}); 
 ```
 
 ### Diagnostics

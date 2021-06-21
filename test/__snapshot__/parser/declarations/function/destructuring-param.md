@@ -152,8 +152,8 @@ function a([a, b, ...[ok]]) {};
 
 ```javascript
 
-function a() {}
-
+ function a() {
+}, ; 
 ```
 
 ### Diagnostics

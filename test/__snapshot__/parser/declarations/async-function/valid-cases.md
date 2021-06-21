@@ -986,31 +986,15 @@ new async function() { await 0 }.x
 
 ```javascript
 
--async function foo() {
-  await 0;
-} - async function () {
-    await 0;
-  };
-1 - async function foo() {
-    await 0;
-  };
-1 - async function () {
-    await 0;
-  }(async function foo() {
-    await 0;
-  })(async function () {
-    await 0;
-  })(x, async function foo() {
-      await 0;
-    })(x, async function () {
-      await 0;
-    });
-new  async function () {
-  await 0;
-}();
-new  async function () {
-  await 0;
-}().x;
+  - async function () {
+await 0;
+};, 1 - async function foo() {
+await 0;
+};, 1 - ;, new async function () {
+await 0;
+};, new async function () {
+await 0;
+}.x; 
 ```
 
 ### Diagnostics

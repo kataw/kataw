@@ -93,7 +93,7 @@ let x: -1n;
 
 ```javascript
 
-let x: ;
+ let x ; 
 ```
 
 ### Diagnostics

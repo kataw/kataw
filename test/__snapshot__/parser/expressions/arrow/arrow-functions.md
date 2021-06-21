@@ -55,12 +55,7 @@ const bar9 = <T>(x) => {};
                         "type": null,
                         "initializer": {
                             "kind": 271,
-                            "arrowToken": {
-                                "kind": 10,
-                                "flags": 64,
-                                "start": 32,
-                                "end": 35
-                            },
+                            "asyncKeyword": null,
                             "typeParameters": null,
                             "parameters": [
                                 {
@@ -95,7 +90,6 @@ const bar9 = <T>(x) => {};
                                     "end": 23
                                 }
                             ],
-                            "asyncKeyword": null,
                             "returnType": {
                                 "kind": 139,
                                 "bitwiseOrToken": null,
@@ -109,6 +103,12 @@ const bar9 = <T>(x) => {};
                                 "flags": 2097152,
                                 "start": 25,
                                 "end": 32
+                            },
+                            "arrowToken": {
+                                "kind": 10,
+                                "flags": 64,
+                                "start": 32,
+                                "end": 35
                             },
                             "contents": {
                                 "kind": 216,
@@ -165,12 +165,7 @@ const bar9 = <T>(x) => {};
                         "type": null,
                         "initializer": {
                             "kind": 271,
-                            "arrowToken": {
-                                "kind": 10,
-                                "flags": 64,
-                                "start": 57,
-                                "end": 60
-                            },
+                            "asyncKeyword": null,
                             "typeParameters": null,
                             "parameters": [
                                 {
@@ -197,8 +192,13 @@ const bar9 = <T>(x) => {};
                                     "end": 56
                                 }
                             ],
-                            "asyncKeyword": null,
                             "returnType": null,
+                            "arrowToken": {
+                                "kind": 10,
+                                "flags": 64,
+                                "start": 57,
+                                "end": 60
+                            },
                             "contents": {
                                 "kind": 216,
                                 "functionStatementList": {
@@ -254,12 +254,7 @@ const bar9 = <T>(x) => {};
                         "type": null,
                         "initializer": {
                             "kind": 271,
-                            "arrowToken": {
-                                "kind": 10,
-                                "flags": 64,
-                                "start": 90,
-                                "end": 93
-                            },
+                            "asyncKeyword": null,
                             "typeParameters": null,
                             "parameters": [
                                 {
@@ -299,8 +294,13 @@ const bar9 = <T>(x) => {};
                                     "end": 89
                                 }
                             ],
-                            "asyncKeyword": null,
                             "returnType": null,
+                            "arrowToken": {
+                                "kind": 10,
+                                "flags": 64,
+                                "start": 90,
+                                "end": 93
+                            },
                             "contents": {
                                 "kind": 216,
                                 "functionStatementList": {
@@ -356,12 +356,7 @@ const bar9 = <T>(x) => {};
                         "type": null,
                         "initializer": {
                             "kind": 271,
-                            "arrowToken": {
-                                "kind": 10,
-                                "flags": 64,
-                                "start": 126,
-                                "end": 129
-                            },
+                            "asyncKeyword": null,
                             "typeParameters": null,
                             "parameters": [
                                 {
@@ -409,8 +404,13 @@ const bar9 = <T>(x) => {};
                                     "end": 125
                                 }
                             ],
-                            "asyncKeyword": null,
                             "returnType": null,
+                            "arrowToken": {
+                                "kind": 10,
+                                "flags": 64,
+                                "start": 126,
+                                "end": 129
+                            },
                             "contents": {
                                 "kind": 216,
                                 "functionStatementList": {
@@ -466,12 +466,7 @@ const bar9 = <T>(x) => {};
                         "type": null,
                         "initializer": {
                             "kind": 271,
-                            "arrowToken": {
-                                "kind": 10,
-                                "flags": 64,
-                                "start": 165,
-                                "end": 168
-                            },
+                            "asyncKeyword": null,
                             "typeParameters": null,
                             "parameters": [
                                 {
@@ -524,8 +519,13 @@ const bar9 = <T>(x) => {};
                                     "end": 164
                                 }
                             ],
-                            "asyncKeyword": null,
                             "returnType": null,
+                            "arrowToken": {
+                                "kind": 10,
+                                "flags": 64,
+                                "start": 165,
+                                "end": 168
+                            },
                             "contents": {
                                 "kind": 216,
                                 "functionStatementList": {
@@ -581,12 +581,7 @@ const bar9 = <T>(x) => {};
                         "type": null,
                         "initializer": {
                             "kind": 271,
-                            "arrowToken": {
-                                "kind": 10,
-                                "flags": 64,
-                                "start": 187,
-                                "end": 190
-                            },
+                            "asyncKeyword": null,
                             "typeParameters": null,
                             "parameters": {
                                 "kind": 134299649,
@@ -596,8 +591,13 @@ const bar9 = <T>(x) => {};
                                 "start": 185,
                                 "end": 187
                             },
-                            "asyncKeyword": null,
                             "returnType": null,
+                            "arrowToken": {
+                                "kind": 10,
+                                "flags": 64,
+                                "start": 187,
+                                "end": 190
+                            },
                             "contents": {
                                 "kind": 216,
                                 "functionStatementList": {
@@ -653,12 +653,7 @@ const bar9 = <T>(x) => {};
                         "type": null,
                         "initializer": {
                             "kind": 271,
-                            "arrowToken": {
-                                "kind": 10,
-                                "flags": 64,
-                                "start": 219,
-                                "end": 222
-                            },
+                            "asyncKeyword": null,
                             "typeParameters": null,
                             "parameters": [
                                 {
@@ -670,7 +665,6 @@ const bar9 = <T>(x) => {};
                                     "end": 210
                                 }
                             ],
-                            "asyncKeyword": null,
                             "returnType": {
                                 "kind": 139,
                                 "bitwiseOrToken": null,
@@ -684,6 +678,12 @@ const bar9 = <T>(x) => {};
                                 "flags": 2097152,
                                 "start": 212,
                                 "end": 219
+                            },
+                            "arrowToken": {
+                                "kind": 10,
+                                "flags": 64,
+                                "start": 219,
+                                "end": 222
                             },
                             "contents": {
                                 "kind": 216,
@@ -740,12 +740,7 @@ const bar9 = <T>(x) => {};
                         "type": null,
                         "initializer": {
                             "kind": 271,
-                            "arrowToken": {
-                                "kind": 10,
-                                "flags": 64,
-                                "start": 251,
-                                "end": 254
-                            },
+                            "asyncKeyword": null,
                             "typeParameters": null,
                             "parameters": [
                                 {
@@ -780,8 +775,13 @@ const bar9 = <T>(x) => {};
                                     "end": 250
                                 }
                             ],
-                            "asyncKeyword": null,
                             "returnType": null,
+                            "arrowToken": {
+                                "kind": 10,
+                                "flags": 64,
+                                "start": 251,
+                                "end": 254
+                            },
                             "contents": {
                                 "kind": 216,
                                 "functionStatementList": {
@@ -837,12 +837,7 @@ const bar9 = <T>(x) => {};
                         "type": null,
                         "initializer": {
                             "kind": 271,
-                            "arrowToken": {
-                                "kind": 10,
-                                "flags": 64,
-                                "start": 278,
-                                "end": 281
-                            },
+                            "asyncKeyword": null,
                             "typeParameters": {
                                 "kind": 307,
                                 "declarations": {
@@ -884,8 +879,13 @@ const bar9 = <T>(x) => {};
                                     "end": 277
                                 }
                             ],
-                            "asyncKeyword": null,
                             "returnType": null,
+                            "arrowToken": {
+                                "kind": 10,
+                                "flags": 64,
+                                "start": 278,
+                                "end": 281
+                            },
                             "contents": {
                                 "kind": 216,
                                 "functionStatementList": {
@@ -931,15 +931,16 @@ const bar9 = <T>(x) => {};
 
 ```javascript
 
-const bar1 = (x) =>  {};
-const bar2 = (x?) =>  {};
-const bar3 = (x?) =>  {};
-const bar4 = (x, y?) =>  {};
-const bar5 = (x, ...y?) =>  {};
-const bar6 = x =>  {};
-const bar7 = (x) =>  {};
-const bar8 = (x) =>  {};
-const bar9 = (x) =>  {};
+ const bar1 = (x: number): string => {
+};, const bar2 = (x?) => {
+};, const bar3 = (x?: string) => {
+};, const bar4 = (x, y?: string) => {
+};, const bar5 = (x, ...y?: string) => {
+};, const bar6 = x => {
+};, const bar7 = (x): string => {
+};, const bar8 = (x: number) => {
+};, const bar9 = (x) => {
+}; 
 ```
 
 ### Diagnostics

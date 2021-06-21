@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/arrow/position/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/arrow/position/gen/extends_arg
+- Regenerated: 2021-06-12
+- From: d
+- Path: g
 > :: test: extends arg
 > :: case: async => ok
 ## Options
@@ -54,11 +54,11 @@ class A extends async => ok {}
                     },
                     "expression": {
                         "kind": 271,
-                        "arrowToken": {
-                            "kind": 10,
+                        "asyncKeyword": {
+                            "kind": 82031,
                             "flags": 64,
-                            "start": 21,
-                            "end": 24
+                            "start": 15,
+                            "end": 21
                         },
                         "typeParameters": null,
                         "parameters": {
@@ -69,13 +69,13 @@ class A extends async => ok {}
                             "start": 15,
                             "end": 21
                         },
-                        "asyncKeyword": {
-                            "kind": 82031,
-                            "flags": 64,
-                            "start": 15,
-                            "end": 21
-                        },
                         "returnType": null,
+                        "arrowToken": {
+                            "kind": 10,
+                            "flags": 64,
+                            "start": 21,
+                            "end": 24
+                        },
                         "contents": {
                             "kind": 134299649,
                             "text": "ok",
@@ -122,7 +122,8 @@ class A extends async => ok {}
 
 ```javascript
 
-class A  {}
+ class A {
+} 
 ```
 
 ### Diagnostics

@@ -90,7 +90,8 @@ async function f() { "use strict"; }
 
 ```javascript
 
-async function f() {}
+ async function f() {
+} 
 ```
 
 ### Diagnostics

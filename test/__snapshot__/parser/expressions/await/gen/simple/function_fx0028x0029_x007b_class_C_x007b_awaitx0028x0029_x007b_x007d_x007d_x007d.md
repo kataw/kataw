@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/await/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/await/gen/simple
+- Regenerated: 2021-06-12
+- From: d
+- Path: e
 > :: test: simple
 > :: case: function f() { class C { await() { } } }
 ## Options
@@ -86,11 +86,11 @@ function f() { class C { await() { } } }
                                             "kind": 278,
                                             "declareToken": null,
                                             "decorators": null,
-                                            "asteriskToken": null,
                                             "staticKeyword": null,
                                             "asyncKeyword": null,
                                             "setKeyword": null,
                                             "getKeyword": null,
+                                            "asteriskToken": null,
                                             "method": {
                                                 "kind": 209,
                                                 "name": {
@@ -102,7 +102,7 @@ function f() { class C { await() { } } }
                                                     "end": 30
                                                 },
                                                 "typeParameters": null,
-                                                "formalParameters": {
+                                                "formalParameterList": {
                                                     "kind": 214,
                                                     "formalParameters": [],
                                                     "trailingComma": false,
@@ -174,11 +174,12 @@ function f() { class C { await() { } } }
 
 ```javascript
 
-function f() {
-  class C {
-    await {}
-  }
+ function f() {
+class C {
+    await() {
+    }
 }
+} 
 ```
 
 ### Diagnostics

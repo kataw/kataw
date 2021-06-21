@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/miscellaneous/should-pass/autogen.md
-- Path: kataw/test/__snapshot__/parser/miscellaneous/should-pass/gen/stand-alone
+- Regenerated: 2021-06-12
+- From: d
+- Path: e
 > :: test: stand-alone
 > :: case: const {a: b = my_var} = {}
 ## Options
@@ -43,7 +43,6 @@ const {a: b = my_var} = {}
                                 "properties": [
                                     {
                                         "kind": 329,
-                                        "ellipsisToken": null,
                                         "key": {
                                             "kind": 134299649,
                                             "text": "a",
@@ -124,9 +123,9 @@ const {a: b = my_var} = {}
 
 ```javascript
 
-const {
-  a: b = my_var
-} = {};
+ const {
+    a : b
+} = {  }; 
 ```
 
 ### Diagnostics

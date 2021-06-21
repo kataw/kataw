@@ -164,7 +164,7 @@ type a = {[{x:y}]:string};
 
 ```javascript
 
-
+  
 ```
 
 ### Diagnostics

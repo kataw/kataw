@@ -61,7 +61,7 @@ await 0;
 
 ```javascript
 
-await 0;
+ await 0; 
 ```
 
 ### Diagnostics

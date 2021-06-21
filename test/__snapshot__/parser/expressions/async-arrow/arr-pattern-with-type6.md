@@ -25,11 +25,11 @@ async ([{x}: string], y, z: string) =>  {};
     "statements": [
         {
             "kind": 271,
-            "arrowToken": {
-                "kind": 10,
+            "asyncKeyword": {
+                "kind": 82031,
                 "flags": 64,
-                "start": 35,
-                "end": 38
+                "start": 0,
+                "end": 5
             },
             "typeParameters": null,
             "parameters": [
@@ -134,13 +134,13 @@ async ([{x}: string], y, z: string) =>  {};
                     "end": 34
                 }
             ],
-            "asyncKeyword": {
-                "kind": 82031,
-                "flags": 64,
-                "start": 0,
-                "end": 5
-            },
             "returnType": null,
+            "arrowToken": {
+                "kind": 10,
+                "flags": 64,
+                "start": 35,
+                "end": 38
+            },
             "contents": {
                 "kind": 216,
                 "functionStatementList": {
@@ -179,8 +179,8 @@ async ([{x}: string], y, z: string) =>  {};
 
 ```javascript
 
-async ([], y, z) =>  {}
-
+ ([{ x }: string], y, z: string) => {
+}, ; 
 ```
 
 ### Diagnostics

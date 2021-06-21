@@ -156,7 +156,7 @@ let x = a ? (b, c) : (d, e)
 
 ```javascript
 
-let x = a ? (b, c) : (d, e);
+ let x = a ? (b, c) : (d, e); 
 ```
 
 ### Diagnostics

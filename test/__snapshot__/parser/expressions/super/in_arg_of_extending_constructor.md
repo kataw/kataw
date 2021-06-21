@@ -64,11 +64,11 @@ class x extends y { constructor(){ return (a=super.foo) => a; }}
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": null,
                             "getKeyword": null,
+                            "asteriskToken": null,
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -80,7 +80,7 @@ class x extends y { constructor(){ return (a=super.foo) => a; }}
                                     "end": 31
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -105,12 +105,7 @@ class x extends y { constructor(){ return (a=super.foo) => a; }}
                                                 },
                                                 "expression": {
                                                     "kind": 271,
-                                                    "arrowToken": {
-                                                        "kind": 10,
-                                                        "flags": 64,
-                                                        "start": 55,
-                                                        "end": 58
-                                                    },
+                                                    "asyncKeyword": null,
                                                     "typeParameters": null,
                                                     "parameters": [
                                                         {
@@ -157,8 +152,13 @@ class x extends y { constructor(){ return (a=super.foo) => a; }}
                                                             "end": 54
                                                         }
                                                     ],
-                                                    "asyncKeyword": null,
                                                     "returnType": null,
+                                                    "arrowToken": {
+                                                        "kind": 10,
+                                                        "flags": 64,
+                                                        "start": 55,
+                                                        "end": 58
+                                                    },
                                                     "contents": {
                                                         "kind": 134299649,
                                                         "text": "a",
@@ -219,11 +219,11 @@ class x extends y { constructor(){ return (a=super.foo) => a; }}
 
 ```javascript
 
-class x  {
-  constructor {
-    return  (a = super.foo) =>  a;
-  }
-}
+ class x {
+    constructor() {
+    return (a = .foo) =>a;
+    }
+} 
 ```
 
 ### Diagnostics

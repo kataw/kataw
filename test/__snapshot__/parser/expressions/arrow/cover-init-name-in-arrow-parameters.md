@@ -22,12 +22,7 @@
             "kind": 120,
             "expression": {
                 "kind": 271,
-                "arrowToken": {
-                    "kind": 10,
-                    "flags": 64,
-                    "start": 27,
-                    "end": 30
-                },
+                "asyncKeyword": null,
                 "typeParameters": null,
                 "parameters": [
                     {
@@ -151,8 +146,13 @@
                         "end": 26
                     }
                 ],
-                "asyncKeyword": null,
                 "returnType": null,
+                "arrowToken": {
+                    "kind": 10,
+                    "flags": 64,
+                    "start": 27,
+                    "end": 30
+                },
                 "contents": {
                     "kind": 216,
                     "functionStatementList": {
@@ -179,12 +179,7 @@
             "kind": 120,
             "expression": {
                 "kind": 271,
-                "arrowToken": {
-                    "kind": 10,
-                    "flags": 64,
-                    "start": 67,
-                    "end": 70
-                },
+                "asyncKeyword": null,
                 "typeParameters": null,
                 "parameters": [
                     {
@@ -331,8 +326,13 @@
                         "end": 66
                     }
                 ],
-                "asyncKeyword": null,
                 "returnType": null,
+                "arrowToken": {
+                    "kind": 10,
+                    "flags": 64,
+                    "start": 67,
+                    "end": 70
+                },
                 "contents": {
                     "kind": 216,
                     "functionStatementList": {
@@ -359,12 +359,7 @@
             "kind": 120,
             "expression": {
                 "kind": 271,
-                "arrowToken": {
-                    "kind": 10,
-                    "flags": 64,
-                    "start": 112,
-                    "end": 115
-                },
+                "asyncKeyword": null,
                 "typeParameters": null,
                 "parameters": [
                     {
@@ -534,8 +529,13 @@
                         "end": 111
                     }
                 ],
-                "asyncKeyword": null,
                 "returnType": null,
+                "arrowToken": {
+                    "kind": 10,
+                    "flags": 64,
+                    "start": 112,
+                    "end": 115
+                },
                 "contents": {
                     "kind": 216,
                     "functionStatementList": {
@@ -562,12 +562,7 @@
             "kind": 120,
             "expression": {
                 "kind": 271,
-                "arrowToken": {
-                    "kind": 10,
-                    "flags": 64,
-                    "start": 162,
-                    "end": 165
-                },
+                "asyncKeyword": null,
                 "typeParameters": null,
                 "parameters": [
                     {
@@ -760,8 +755,13 @@
                         "end": 161
                     }
                 ],
-                "asyncKeyword": null,
                 "returnType": null,
+                "arrowToken": {
+                    "kind": 10,
+                    "flags": 64,
+                    "start": 162,
+                    "end": 165
+                },
                 "contents": {
                     "kind": 216,
                     "functionStatementList": {
@@ -798,34 +798,23 @@
 
 ```javascript
 
-({
-  a = 1
-}, {
-  b = 2
-}, {
-  c = 3
-}) =>  {};
-({
-  a = 1
-} = {}, {
-  b = 2
-}, {
-  c = 3
-}) =>  {};
-({
-  a = 1
-} = {}, {
-  b = 2
-} = {}, {
-  c = 3
-}) =>  {};
-({
-  a = 1
-} = {}, {
-  b = 2
-} = {}, {
-  c = 3
-} = {}) =>  {};
+ ({
+        a = 1
+    }, {
+        b = 2
+    }, {
+        c = 3
+    }) => {
+};, ( = {  }, {
+        b = 2
+    }, {
+        c = 3
+    }) => {
+};, ( = {  },  = {  }, {
+        c = 3
+    }) => {
+};, ( = {  },  = {  },  = {  }) => {
+}; 
 ```
 
 ### Diagnostics

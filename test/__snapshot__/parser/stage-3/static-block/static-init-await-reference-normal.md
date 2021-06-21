@@ -78,9 +78,9 @@ class C {
                                                                 "kind": 218,
                                                                 "properties": [
                                                                     {
-                                                                        "kind": 257,
+                                                                        "kind": 351,
                                                                         "asyncKeyword": null,
-                                                                        "generatorToken": null,
+                                                                        "asteriskToken": null,
                                                                         "getKeyword": null,
                                                                         "setKeyword": null,
                                                                         "method": {
@@ -94,7 +94,7 @@ class C {
                                                                                 "end": 40
                                                                             },
                                                                             "typeParameters": null,
-                                                                            "formalParameters": {
+                                                                            "formalParameterList": {
                                                                                 "kind": 214,
                                                                                 "formalParameters": [
                                                                                     {
@@ -288,9 +288,8 @@ class C {
 
 ```javascript
 
-class C {
-
-}
+ class C {
+} 
 ```
 
 ### Diagnostics

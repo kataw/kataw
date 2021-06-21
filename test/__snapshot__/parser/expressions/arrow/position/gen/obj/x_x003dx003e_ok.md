@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/arrow/position/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/arrow/position/gen/obj
+- Regenerated: 2021-06-12
+- From: d
+- Path: j
 > :: test: obj
 > :: case: x => ok
 ## Options
@@ -59,12 +59,7 @@ x = {arrow: x => ok}
                                 },
                                 "right": {
                                     "kind": 271,
-                                    "arrowToken": {
-                                        "kind": 10,
-                                        "flags": 64,
-                                        "start": 13,
-                                        "end": 16
-                                    },
+                                    "asyncKeyword": null,
                                     "typeParameters": null,
                                     "parameters": {
                                         "kind": 134299649,
@@ -74,8 +69,13 @@ x = {arrow: x => ok}
                                         "start": 11,
                                         "end": 13
                                     },
-                                    "asyncKeyword": null,
                                     "returnType": null,
+                                    "arrowToken": {
+                                        "kind": 10,
+                                        "flags": 64,
+                                        "start": 13,
+                                        "end": 16
+                                    },
                                     "contents": {
                                         "kind": 134299649,
                                         "text": "ok",
@@ -124,7 +124,7 @@ x = {arrow: x => ok}
 
 ```javascript
 
-x = { arrow: x =>  ok };
+ x={ arrow : x =>ok }; 
 ```
 
 ### Diagnostics

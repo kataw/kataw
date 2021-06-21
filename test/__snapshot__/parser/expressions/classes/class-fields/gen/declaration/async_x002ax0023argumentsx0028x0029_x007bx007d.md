@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/classes/class-fields/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/classes/class-fields/gen/declaration
+- Regenerated: 2021-06-12
+- From: d
+- Path: n
 > :: test: declaration
 > :: case: async *#arguments() {}
 ## Options
@@ -52,12 +52,6 @@ class C { async *#arguments() {} }
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": {
-                                "kind": 67143222,
-                                "flags": 64,
-                                "start": 15,
-                                "end": 17
-                            },
                             "staticKeyword": null,
                             "asyncKeyword": {
                                 "kind": 82031,
@@ -67,6 +61,12 @@ class C { async *#arguments() {} }
                             },
                             "setKeyword": null,
                             "getKeyword": null,
+                            "asteriskToken": {
+                                "kind": 67143222,
+                                "flags": 64,
+                                "start": 15,
+                                "end": 17
+                            },
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -78,7 +78,7 @@ class C { async *#arguments() {} }
                                     "end": 27
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -136,9 +136,10 @@ class C { async *#arguments() {} }
 
 ```javascript
 
-class C {
-  async #arguments {}
-}
+ class C {
+    async *#arguments() {
+    }
+} 
 ```
 
 ### Diagnostics

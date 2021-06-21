@@ -25,11 +25,11 @@ async ({a: await}) => 1;
     "statements": [
         {
             "kind": 271,
-            "arrowToken": {
-                "kind": 10,
+            "asyncKeyword": {
+                "kind": 82031,
                 "flags": 64,
-                "start": 18,
-                "end": 21
+                "start": 0,
+                "end": 5
             },
             "typeParameters": null,
             "parameters": [
@@ -40,7 +40,6 @@ async ({a: await}) => 1;
                         "properties": [
                             {
                                 "kind": 329,
-                                "ellipsisToken": null,
                                 "key": {
                                     "kind": 134299649,
                                     "text": "a",
@@ -73,13 +72,13 @@ async ({a: await}) => 1;
                     "end": 17
                 }
             ],
-            "asyncKeyword": {
-                "kind": 82031,
-                "flags": 64,
-                "start": 0,
-                "end": 5
-            },
             "returnType": null,
+            "arrowToken": {
+                "kind": 10,
+                "flags": 64,
+                "start": 18,
+                "end": 21
+            },
             "contents": {
                 "kind": 201392130,
                 "text": 1,
@@ -112,10 +111,9 @@ async ({a: await}) => 1;
 
 ```javascript
 
-async ({
-  a: await
-}) =>  1
-
+ ({
+        a : await
+    }) =>1, ; 
 ```
 
 ### Diagnostics

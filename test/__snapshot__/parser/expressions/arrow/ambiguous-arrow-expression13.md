@@ -84,12 +84,7 @@ var a = b ? (c): d => e;
                             },
                             "alternate": {
                                 "kind": 271,
-                                "arrowToken": {
-                                    "kind": 10,
-                                    "flags": 64,
-                                    "start": 18,
-                                    "end": 21
-                                },
+                                "asyncKeyword": null,
                                 "typeParameters": null,
                                 "parameters": {
                                     "kind": 134299649,
@@ -99,8 +94,13 @@ var a = b ? (c): d => e;
                                     "start": 16,
                                     "end": 18
                                 },
-                                "asyncKeyword": null,
                                 "returnType": null,
+                                "arrowToken": {
+                                    "kind": 10,
+                                    "flags": 64,
+                                    "start": 18,
+                                    "end": 21
+                                },
                                 "contents": {
                                     "kind": 134299649,
                                     "text": "e",
@@ -144,7 +144,7 @@ var a = b ? (c): d => e;
 
 ```javascript
 
-var a = b ? (c) : d =>  e;
+ var a = b ? (c) : d =>e; 
 ```
 
 ### Diagnostics

@@ -46,20 +46,14 @@ async (): string => {}
                 },
                 "consequent": {
                     "kind": 271,
-                    "arrowToken": {
-                        "kind": 10,
-                        "flags": 64,
-                        "start": 20,
-                        "end": 23
-                    },
-                    "typeParameters": null,
-                    "parameters": [],
                     "asyncKeyword": {
                         "kind": 82031,
                         "flags": 64,
                         "start": 3,
                         "end": 9
                     },
+                    "typeParameters": null,
+                    "parameters": [],
                     "returnType": {
                         "kind": 139,
                         "bitwiseOrToken": null,
@@ -73,6 +67,12 @@ async (): string => {}
                         "flags": 2097152,
                         "start": 13,
                         "end": 20
+                    },
+                    "arrowToken": {
+                        "kind": 10,
+                        "flags": 64,
+                        "start": 20,
+                        "end": 23
                     },
                     "contents": {
                         "kind": 216,
@@ -116,20 +116,14 @@ async (): string => {}
         },
         {
             "kind": 271,
-            "arrowToken": {
-                "kind": 10,
-                "flags": 64,
-                "start": 51,
-                "end": 54
-            },
-            "typeParameters": null,
-            "parameters": [],
             "asyncKeyword": {
                 "kind": 82031,
                 "flags": 64,
                 "start": 33,
                 "end": 40
             },
+            "typeParameters": null,
+            "parameters": [],
             "returnType": {
                 "kind": 139,
                 "bitwiseOrToken": null,
@@ -143,6 +137,12 @@ async (): string => {}
                 "flags": 2097152,
                 "start": 44,
                 "end": 51
+            },
+            "arrowToken": {
+                "kind": 10,
+                "flags": 64,
+                "start": 51,
+                "end": 54
             },
             "contents": {
                 "kind": 216,
@@ -176,8 +176,9 @@ async (): string => {}
 
 ```javascript
 
-a ? async () =>  {} : b;
-async () =>  {}
+ a ? (): string => {
+} : b;, (): string => {
+} 
 ```
 
 ### Diagnostics

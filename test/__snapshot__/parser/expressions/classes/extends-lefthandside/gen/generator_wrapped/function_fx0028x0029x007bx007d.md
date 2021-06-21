@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/classes/extends-lefthandside/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/classes/extends-lefthandside/gen/generator_wrapped
+- Regenerated: 2021-06-12
+- From: d
+- Path: d
 > :: test: generator wrapped
 > :: case: function f(){}
 ## Options
@@ -187,9 +187,10 @@ function *P(){
 
 ```javascript
 
-function * P() {
-  class D  {}
+ function* P() {
+class D {
 }
+} 
 ```
 
 ### Diagnostics

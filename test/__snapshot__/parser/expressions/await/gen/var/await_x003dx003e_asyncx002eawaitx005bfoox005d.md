@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/await/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/await/gen/var
+- Regenerated: 2021-06-12
+- From: d
+- Path: r
 > :: test: var
 > :: case: await => async.await[foo]
 ## Options
@@ -112,7 +112,7 @@ var await; var f = (async function() { await => async.await[foo] });
         {
             "kind": 120,
             "expression": {
-                "kind": 536871042,
+                "kind": 130,
                 "member": {
                     "kind": 129,
                     "member": {
@@ -143,7 +143,7 @@ var await; var f = (async function() { await => async.await[foo] });
                     "start": 60,
                     "end": 63
                 },
-                "flags": 32,
+                "flags": 536870944,
                 "start": 47,
                 "end": 64
             },

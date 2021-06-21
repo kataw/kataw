@@ -59,9 +59,7 @@
 
 ```javascript
 
-"\"foo\"";
-// stuff here
-"\"bar\"";
+ "foo";, "bar"; 
 ```
 
 ### Diagnostics

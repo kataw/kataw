@@ -39,9 +39,9 @@ x = { foo(){ return {[super[foo]]: x}; }}
                         "kind": 218,
                         "properties": [
                             {
-                                "kind": 257,
+                                "kind": 351,
                                 "asyncKeyword": null,
-                                "generatorToken": null,
+                                "asteriskToken": null,
                                 "getKeyword": null,
                                 "setKeyword": null,
                                 "method": {
@@ -55,7 +55,7 @@ x = { foo(){ return {[super[foo]]: x}; }}
                                         "end": 9
                                     },
                                     "typeParameters": null,
-                                    "formalParameters": {
+                                    "formalParameterList": {
                                         "kind": 214,
                                         "formalParameters": [],
                                         "trailingComma": false,
@@ -89,7 +89,7 @@ x = { foo(){ return {[super[foo]]: x}; }}
                                                                     "left": {
                                                                         "kind": 194,
                                                                         "expression": {
-                                                                            "kind": 536871042,
+                                                                            "kind": 130,
                                                                             "member": {
                                                                                 "kind": 225,
                                                                                 "superKeyword": {
@@ -110,7 +110,7 @@ x = { foo(){ return {[super[foo]]: x}; }}
                                                                                 "start": 28,
                                                                                 "end": 31
                                                                             },
-                                                                            "flags": 32,
+                                                                            "flags": 536870944,
                                                                             "start": 22,
                                                                             "end": 32
                                                                         },
@@ -193,9 +193,9 @@ x = { foo(){ return {[super[foo]]: x}; }}
 
 ```javascript
 
-x = { foo {
-    return  { []: x };
-  } };
+ x={ foo() {
+    return {  : x };
+    } }; 
 ```
 
 ### Diagnostics

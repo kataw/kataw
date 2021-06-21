@@ -300,12 +300,11 @@ function bar(x: X): B { return x; }
 
 ```javascript
 
-function foo():  {
-  return  x;
-}
-function bar():  {
-  return  x;
-}
+ function foo(): A {
+return x;
+}, function bar(): B {
+return x;
+} 
 ```
 
 ### Diagnostics

@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/yield/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/yield/gen/function_generator
+- Regenerated: 2021-06-12
+- From: d
+- Path: r
 > :: test: function generator
 > :: case: (function * () { x = class extends (a ? null : yield) { } });
 ## Options
@@ -315,13 +315,14 @@ function * gen() { function not_gen() { (function * () { x = class extends (a ? 
 
 ```javascript
 
-function * gen() {
-  function not_gen() {
-    (function * () {
-        x = class   {};
-      });
-  }
+ function* gen() {
+function not_gen() {
+(function* () {
+x=class  {
+};
+});
 }
+} 
 ```
 
 ### Diagnostics

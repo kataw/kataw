@@ -113,8 +113,8 @@ if (await function() {}) {}
 
 ```javascript
 
-if (await function () {}) {
-  }
+ if (await function () {
+}) {  } 
 ```
 
 ### Diagnostics

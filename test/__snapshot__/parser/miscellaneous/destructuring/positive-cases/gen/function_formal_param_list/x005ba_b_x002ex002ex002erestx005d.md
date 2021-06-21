@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/miscellaneous/destructuring/positive-cases/autogen.md
-- Path: kataw/test/__snapshot__/parser/miscellaneous/destructuring/positive-cases/gen/function_formal_param_list
+- Regenerated: 2021-06-12
+- From: d
+- Path: t
 > :: test: function formal param list
 > :: case: [a,b,...rest]
 ## Options
@@ -139,7 +139,8 @@ function f([a,b,...rest]) {}
 
 ```javascript
 
-function f() {}
+ function f() {
+} 
 ```
 
 ### Diagnostics

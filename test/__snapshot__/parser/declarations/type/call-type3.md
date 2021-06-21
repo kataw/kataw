@@ -178,7 +178,7 @@ type Fn1 = <T>(T) => T;
 
 ```javascript
 
-
+  
 ```
 
 ### Diagnostics

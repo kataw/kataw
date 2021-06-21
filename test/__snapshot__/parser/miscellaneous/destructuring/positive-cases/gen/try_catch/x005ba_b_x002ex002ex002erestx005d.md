@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/miscellaneous/destructuring/positive-cases/autogen.md
-- Path: kataw/test/__snapshot__/parser/miscellaneous/destructuring/positive-cases/gen/try_catch
+- Regenerated: 2021-06-12
+- From: d
+- Path: h
 > :: test: try catch
 > :: case: [a,b,...rest]
 ## Options
@@ -143,9 +143,8 @@ try {} catch([a,b,...rest]) {}
 
 ```javascript
 
-try {
-} catch ([a, b, ...rest]) {
-}
+ try {  }
+catch ([a, b, ...rest]){  } 
 ```
 
 ### Diagnostics

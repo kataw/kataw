@@ -142,7 +142,8 @@
 
 ```javascript
 
-[function () {}.length] = x;
+ [function () {
+    }.length]=x; 
 ```
 
 ### Diagnostics

@@ -34,12 +34,7 @@ while(y
                 },
                 "expression": {
                     "kind": 271,
-                    "arrowToken": {
-                        "kind": 10,
-                        "flags": 64,
-                        "start": 7,
-                        "end": 9
-                    },
+                    "asyncKeyword": null,
                     "typeParameters": null,
                     "parameters": {
                         "kind": 134299649,
@@ -49,8 +44,13 @@ while(y
                         "start": 6,
                         "end": 7
                     },
-                    "asyncKeyword": null,
                     "returnType": null,
+                    "arrowToken": {
+                        "kind": 10,
+                        "flags": 64,
+                        "start": 7,
+                        "end": 9
+                    },
                     "contents": {
                         "kind": 216,
                         "functionStatementList": {

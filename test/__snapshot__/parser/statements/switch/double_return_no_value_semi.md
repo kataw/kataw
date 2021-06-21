@@ -109,11 +109,10 @@ function f(){   return;return    };
 
 ```javascript
 
-function f() {
-  return ;
-  return ;
-}
-
+ function f() {
+return;,
+return;
+}, ; 
 ```
 
 ### Diagnostics

@@ -164,7 +164,6 @@ class Test {
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": {
@@ -174,6 +173,7 @@ class Test {
                                 "end": 52
                             },
                             "getKeyword": null,
+                            "asteriskToken": null,
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -185,7 +185,7 @@ class Test {
                                     "end": 54
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -253,7 +253,6 @@ class Test {
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": {
@@ -263,6 +262,7 @@ class Test {
                                 "end": 83
                             },
                             "getKeyword": null,
+                            "asteriskToken": null,
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -274,7 +274,7 @@ class Test {
                                     "end": 85
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -342,11 +342,11 @@ class Test {
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": null,
                             "getKeyword": null,
+                            "asteriskToken": null,
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -358,7 +358,7 @@ class Test {
                                     "end": 116
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -468,11 +468,11 @@ class Test {
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": null,
                             "getKeyword": null,
+                            "asteriskToken": null,
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -484,7 +484,7 @@ class Test {
                                     "end": 160
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -670,26 +670,26 @@ class Test {
 
 ```javascript
 
-class Test {
-  #x = 2;
-
-  #y = [];
-
-  z = 2;
-
-  get x {
-    return  this.#x;
-  }
-  get y {
-    return  this.#y;
-  }
-  world {
-    return  [1, [2, 3], 4];
-  }
-  hello {
-    [this.#x, this.#y, this.z] = this.world();
-  }
-}
+ class Test {
+    #x = 2,
+    ,
+    #y = [],
+    ,
+    z = 2,
+    ,
+    get x() {
+    return this.#x;
+    },
+    get y() {
+    return this.#y;
+    },
+    world() {
+    return [1, [2, 3], 4];
+    },
+    hello() {
+    [this.#x, this.#y, this.z]=;
+    }
+} 
 ```
 
 ### Diagnostics

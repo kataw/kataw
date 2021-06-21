@@ -103,10 +103,8 @@ try {} catch (e) {}
 
 ```javascript
 
-try {
-} catch (e) {
-}
-/foo/g;
+ try {  }
+catch (e){  }, ; 
 ```
 
 ### Diagnostics

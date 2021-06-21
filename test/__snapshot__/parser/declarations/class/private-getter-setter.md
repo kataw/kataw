@@ -79,7 +79,6 @@ class Foo {
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": {
@@ -89,6 +88,7 @@ class Foo {
                                 "end": 16
                             },
                             "getKeyword": null,
+                            "asteriskToken": null,
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -100,7 +100,7 @@ class Foo {
                                     "end": 21
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -168,7 +168,6 @@ class Foo {
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": null,
@@ -178,6 +177,7 @@ class Foo {
                                 "start": 43,
                                 "end": 48
                             },
+                            "asteriskToken": null,
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -189,7 +189,7 @@ class Foo {
                                     "end": 53
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [
                                         {
@@ -280,7 +280,6 @@ class Foo {
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": {
@@ -290,6 +289,7 @@ class Foo {
                                 "end": 82
                             },
                             "getKeyword": null,
+                            "asteriskToken": null,
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -301,7 +301,7 @@ class Foo {
                                     "end": 88
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -369,7 +369,6 @@ class Foo {
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": null,
@@ -379,6 +378,7 @@ class Foo {
                                 "start": 111,
                                 "end": 116
                             },
+                            "asteriskToken": null,
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -390,7 +390,7 @@ class Foo {
                                     "end": 122
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [
                                         {
@@ -481,11 +481,11 @@ class Foo {
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": null,
                             "getKeyword": null,
+                            "asteriskToken": null,
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -497,7 +497,7 @@ class Foo {
                                     "end": 152
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [
                                         {
@@ -750,11 +750,11 @@ class Foo {
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": null,
                             "getKeyword": null,
+                            "asteriskToken": null,
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -766,7 +766,7 @@ class Foo {
                                     "end": 226
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [
                                         {
@@ -1027,11 +1027,11 @@ class Foo {
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": null,
                             "getKeyword": null,
+                            "asteriskToken": null,
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -1043,7 +1043,7 @@ class Foo {
                                     "end": 307
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [
                                         {
@@ -2103,50 +2103,50 @@ class Foo {
 
 ```javascript
 
-class Foo {
-  get #foo {
-    return  this.foo;
-  }
-  set #bar {
-    this.bar = val;
-  }
-  get #prop {
-    return  this.prop;
-  }
-  set #prop {
-    this.prop = val;
-  }
-  foo {
-    fn().#foo;
-    fn().#bar = 1;
-    fn().#prop;
-    fn().#prop = 2;
-  }
-  unary {
-    fn().#prop++;
-    fn().#prop--;
-    ++fn().#prop;
-    --fn().#prop;
-  }
-  binary {
-    fn().#prop = 1;
-    fn().#prop += 1;
-    fn().#prop -= 1;
-    fn().#prop *= 1;
-    fn().#prop /= 1;
-    fn().#prop %= 1;
-    fn().#prop **= 1;
-    fn().#prop <<= 1;
-    fn().#prop >>= 1;
-    fn().#prop >>>= 1;
-    fn().#prop &= 1;
-    fn().#prop |= 1;
-    fn().#prop ^= 1;
-    fn().#prop &&= 1;
-    fn().#prop ||= 1;
-    fn().#prop => 1;
-  }
-}
+ class Foo {
+    get #foo() {
+    return this.foo;
+    },
+    set #bar(val) {
+    this.bar=val;
+    },
+    get #prop() {
+    return this.prop;
+    },
+    set #prop(val) {
+    this.prop=val;
+    },
+    foo(fn) {
+    .#foo;,
+    .#bar=1;,
+    .#prop;,
+    .#prop=2;
+    },
+    unary(fn) {
+    .#prop++;,
+    .#prop--;,
+    ++.#prop;,
+    --.#prop;
+    },
+    binary(fn) {
+    .#prop=1;,
+    .#prop+=1;,
+    .#prop-=1;,
+    .#prop*=1;,
+    .#prop/=1;,
+    .#prop%=1;,
+    .#prop**=1;,
+    .#prop<<=1;,
+    .#prop>>=1;,
+    .#prop>>>=1;,
+    .#prop&=1;,
+    .#prop|=1;,
+    .#prop^=1;,
+    .#prop&&=1;,
+    .#prop||=1;,
+    .#prop=>1;
+    }
+} 
 ```
 
 ### Diagnostics

@@ -19,12 +19,7 @@ x => { "use strict"; }
             "kind": 120,
             "expression": {
                 "kind": 271,
-                "arrowToken": {
-                    "kind": 10,
-                    "flags": 64,
-                    "start": 1,
-                    "end": 4
-                },
+                "asyncKeyword": null,
                 "typeParameters": null,
                 "parameters": {
                     "kind": 134299649,
@@ -34,8 +29,13 @@ x => { "use strict"; }
                     "start": 0,
                     "end": 1
                 },
-                "asyncKeyword": null,
                 "returnType": null,
+                "arrowToken": {
+                    "kind": 10,
+                    "flags": 64,
+                    "start": 1,
+                    "end": 4
+                },
                 "contents": {
                     "kind": 216,
                     "functionStatementList": {
@@ -81,7 +81,8 @@ x => { "use strict"; }
 
 ```javascript
 
-x =>  {};
+ x => {
+}; 
 ```
 
 ### Diagnostics

@@ -27,7 +27,7 @@
                             "kind": 270,
                             "elements": [
                                 {
-                                    "kind": 536871042,
+                                    "kind": 130,
                                     "member": {
                                         "kind": 131,
                                         "expression": {
@@ -101,7 +101,7 @@
                                         "start": 11,
                                         "end": 25
                                     },
-                                    "flags": 32,
+                                    "flags": 536870944,
                                     "start": 2,
                                     "end": 26
                                 }
@@ -155,7 +155,7 @@
 
 ```javascript
 
-([] = x);
+ ([[]]=x); 
 ```
 
 ### Diagnostics

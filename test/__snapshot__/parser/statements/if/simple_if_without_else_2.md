@@ -83,8 +83,7 @@ if (foo) bar; else doo;
 
 ```javascript
 
-if (foo) bar;
-else  doo;
+ if (foo) bar; else doo; 
 ```
 
 ### Diagnostics

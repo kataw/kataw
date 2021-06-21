@@ -63,7 +63,6 @@ class x {static get async(){}}
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": null,
                             "staticKeyword": {
                                 "kind": 8388716,
                                 "flags": 64,
@@ -78,6 +77,7 @@ class x {static get async(){}}
                                 "end": 19
                             },
                             "getKeyword": null,
+                            "asteriskToken": null,
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -89,7 +89,7 @@ class x {static get async(){}}
                                     "end": 25
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -147,9 +147,10 @@ class x {static get async(){}}
 
 ```javascript
 
-class x {
-  static get static async {}
-}
+ class x {
+    static get async() {
+    }
+} 
 ```
 
 ### Diagnostics

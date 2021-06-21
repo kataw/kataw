@@ -43,35 +43,47 @@ for (var a=1;;);
                 "end": 3
             },
             "initializer": {
-                "kind": 156,
-                "declarations": [
-                    {
-                        "kind": 157,
-                        "binding": {
-                            "kind": 134299649,
-                            "text": "a",
-                            "rawText": "a",
-                            "flags": 96,
+                "kind": 341,
+                "varKeyword": {
+                    "kind": 37757002,
+                    "flags": 64,
+                    "start": 5,
+                    "end": 8
+                },
+                "declarationList": {
+                    "kind": 156,
+                    "declarations": [
+                        {
+                            "kind": 157,
+                            "binding": {
+                                "kind": 134299649,
+                                "text": "a",
+                                "rawText": "a",
+                                "flags": 96,
+                                "start": 8,
+                                "end": 10
+                            },
+                            "type": null,
+                            "initializer": {
+                                "kind": 201392130,
+                                "text": 1,
+                                "rawText": "1",
+                                "flags": 96,
+                                "start": 11,
+                                "end": 12
+                            },
+                            "flags": 16,
                             "start": 8,
-                            "end": 10
-                        },
-                        "type": null,
-                        "initializer": {
-                            "kind": 201392130,
-                            "text": 1,
-                            "rawText": "1",
-                            "flags": 96,
-                            "start": 11,
                             "end": 12
-                        },
-                        "flags": 16,
-                        "start": 8,
-                        "end": 12
-                    }
-                ],
+                        }
+                    ],
+                    "flags": 16,
+                    "start": 8,
+                    "end": 12
+                },
                 "flags": 16,
-                "start": 8,
-                "end": 12
+                "start": 0,
+                "end": 13
             },
             "condition": null,
             "incrementor": null,
@@ -99,7 +111,7 @@ for (var a=1;;);
 
 ```javascript
 
-for (; ; );
+ for(var a = 1;;); 
 ```
 
 ### Diagnostics

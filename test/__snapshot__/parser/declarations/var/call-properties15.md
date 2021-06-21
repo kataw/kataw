@@ -135,12 +135,7 @@ var g: { (x: Date): void } = (x) => { x * 2 } // param type (date < number)
                         },
                         "initializer": {
                             "kind": 271,
-                            "arrowToken": {
-                                "kind": 10,
-                                "flags": 64,
-                                "start": 32,
-                                "end": 35
-                            },
+                            "asyncKeyword": null,
                             "typeParameters": null,
                             "parameters": [
                                 {
@@ -152,8 +147,13 @@ var g: { (x: Date): void } = (x) => { x * 2 } // param type (date < number)
                                     "end": 31
                                 }
                             ],
-                            "asyncKeyword": null,
                             "returnType": null,
+                            "arrowToken": {
+                                "kind": 10,
+                                "flags": 64,
+                                "start": 32,
+                                "end": 35
+                            },
                             "contents": {
                                 "kind": 216,
                                 "functionStatementList": {
@@ -234,9 +234,9 @@ var g: { (x: Date): void } = (x) => { x * 2 } // param type (date < number)
 
 ```javascript
 
-var g:  = (x) =>  {
-  x * 2;
-}; // param type (date < number)
+ var g  = (x) => {
+x * 2;
+};// param type (date < number) 
 ```
 
 ### Diagnostics

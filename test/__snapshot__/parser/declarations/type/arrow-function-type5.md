@@ -151,7 +151,7 @@ type X = (x.y<>) => T
 
 ```javascript
 
-
+  
 ```
 
 ### Diagnostics

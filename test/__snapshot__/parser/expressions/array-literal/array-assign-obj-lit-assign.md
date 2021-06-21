@@ -163,7 +163,7 @@
 
 ```javascript
 
-[x, { y = 1 }] = [0, {}];
+ [x, { y = 1 }]=[0, {  }]; 
 ```
 
 ### Diagnostics

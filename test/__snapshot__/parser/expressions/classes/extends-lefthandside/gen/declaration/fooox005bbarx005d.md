@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/classes/extends-lefthandside/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/classes/extends-lefthandside/gen/declaration
+- Regenerated: 2021-06-12
+- From: d
+- Path: n
 > :: test: declaration
 > :: case: fooo[bar]
 ## Options
@@ -53,7 +53,7 @@ class A extends fooo[bar] {}
                         "end": 15
                     },
                     "expression": {
-                        "kind": 536871042,
+                        "kind": 130,
                         "member": {
                             "kind": 134299649,
                             "text": "fooo",
@@ -70,7 +70,7 @@ class A extends fooo[bar] {}
                             "start": 21,
                             "end": 24
                         },
-                        "flags": 32,
+                        "flags": 536870944,
                         "start": 15,
                         "end": 25
                     },
@@ -108,7 +108,8 @@ class A extends fooo[bar] {}
 
 ```javascript
 
-class A  {}
+ class A {
+} 
 ```
 
 ### Diagnostics

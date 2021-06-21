@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/arrow/position/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/arrow/position/gen/arr_tail
+- Regenerated: 2021-06-12
+- From: d
+- Path: l
 > :: test: arr tail
 > :: case: async x => ok
 ## Options
@@ -34,11 +34,11 @@
                         "elements": [
                             {
                                 "kind": 271,
-                                "arrowToken": {
-                                    "kind": 10,
+                                "asyncKeyword": {
+                                    "kind": 82031,
                                     "flags": 64,
-                                    "start": 8,
-                                    "end": 11
+                                    "start": 1,
+                                    "end": 6
                                 },
                                 "typeParameters": null,
                                 "parameters": {
@@ -49,13 +49,13 @@
                                     "start": 6,
                                     "end": 8
                                 },
-                                "asyncKeyword": {
-                                    "kind": 82031,
-                                    "flags": 64,
-                                    "start": 1,
-                                    "end": 6
-                                },
                                 "returnType": null,
+                                "arrowToken": {
+                                    "kind": 10,
+                                    "flags": 64,
+                                    "start": 8,
+                                    "end": 11
+                                },
                                 "contents": {
                                     "kind": 134299649,
                                     "text": "ok",
@@ -108,7 +108,7 @@
 
 ```javascript
 
-[async x =>  ok].x;
+ [x =>ok].x; 
 ```
 
 ### Diagnostics

@@ -781,12 +781,7 @@ var a: { <T>(x: T): number; };
 
 ```javascript
 
-var a: ;
-var a: ;
-var a: ;
-var a: ;
-var a: ;
-var a: ;
+ var a ;, var a ;, var a ;, var a ;, var a ;, var a ; 
 ```
 
 ### Diagnostics

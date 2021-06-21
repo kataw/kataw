@@ -68,11 +68,11 @@ class Foo extends Base {
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": null,
                             "getKeyword": null,
+                            "asteriskToken": null,
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -84,7 +84,7 @@ class Foo extends Base {
                                     "end": 35
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -209,11 +209,11 @@ class Foo extends Base {
 
 ```javascript
 
-class Foo  {
-  method {
-    super.method?.();
-  }
-}
+ class Foo {
+    method() {
+    ;
+    }
+} 
 ```
 
 ### Diagnostics

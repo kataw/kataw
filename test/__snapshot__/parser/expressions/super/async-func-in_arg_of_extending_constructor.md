@@ -64,11 +64,11 @@ class x extends y { constructor(){ return async function(a=super[foo]) {}; }}
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": null,
                             "getKeyword": null,
+                            "asteriskToken": null,
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -80,7 +80,7 @@ class x extends y { constructor(){ return async function(a=super[foo]) {}; }}
                                     "end": 31
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -137,7 +137,7 @@ class x extends y { constructor(){ return async function(a=super[foo]) {}; }}
                                                                 "optionalToken": null,
                                                                 "type": null,
                                                                 "right": {
-                                                                    "kind": 536871042,
+                                                                    "kind": 130,
                                                                     "member": {
                                                                         "kind": 225,
                                                                         "superKeyword": {
@@ -158,7 +158,7 @@ class x extends y { constructor(){ return async function(a=super[foo]) {}; }}
                                                                         "start": 65,
                                                                         "end": 68
                                                                     },
-                                                                    "flags": 32,
+                                                                    "flags": 536870944,
                                                                     "start": 59,
                                                                     "end": 69
                                                                 },

@@ -36,9 +36,9 @@ foo({bar(){ new.target }})
                                 "kind": 218,
                                 "properties": [
                                     {
-                                        "kind": 257,
+                                        "kind": 351,
                                         "asyncKeyword": null,
-                                        "generatorToken": null,
+                                        "asteriskToken": null,
                                         "getKeyword": null,
                                         "setKeyword": null,
                                         "method": {
@@ -52,7 +52,7 @@ foo({bar(){ new.target }})
                                                 "end": 8
                                             },
                                             "typeParameters": null,
-                                            "formalParameters": {
+                                            "formalParameterList": {
                                                 "kind": 214,
                                                 "formalParameters": [],
                                                 "trailingComma": false,
@@ -146,9 +146,7 @@ foo({bar(){ new.target }})
 
 ```javascript
 
-foo({ bar {
-    new.target;
-  } });
+ ; 
 ```
 
 ### Diagnostics

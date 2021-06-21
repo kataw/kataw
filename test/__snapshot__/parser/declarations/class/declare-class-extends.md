@@ -201,7 +201,7 @@ declare class A<T> extends B<T> { x: number }
 
 ```javascript
 
-declare class A  TODO!
+ declare class A {} 
 ```
 
 ### Diagnostics

@@ -53,12 +53,7 @@ var ident = <T>(x: T): T => x;
                         "type": null,
                         "initializer": {
                             "kind": 271,
-                            "arrowToken": {
-                                "kind": 10,
-                                "flags": 64,
-                                "start": 40,
-                                "end": 43
-                            },
+                            "asyncKeyword": null,
                             "typeParameters": null,
                             "parameters": [
                                 {
@@ -124,7 +119,6 @@ var ident = <T>(x: T): T => x;
                                     "end": 31
                                 }
                             ],
-                            "asyncKeyword": null,
                             "returnType": {
                                 "kind": 139,
                                 "bitwiseOrToken": null,
@@ -138,6 +132,12 @@ var ident = <T>(x: T): T => x;
                                 "flags": 2097152,
                                 "start": 33,
                                 "end": 40
+                            },
+                            "arrowToken": {
+                                "kind": 10,
+                                "flags": 64,
+                                "start": 40,
+                                "end": 43
                             },
                             "contents": {
                                 "kind": 198,
@@ -209,12 +209,7 @@ var ident = <T>(x: T): T => x;
                         "type": null,
                         "initializer": {
                             "kind": 271,
-                            "arrowToken": {
-                                "kind": 10,
-                                "flags": 64,
-                                "start": 81,
-                                "end": 84
-                            },
+                            "asyncKeyword": null,
                             "typeParameters": null,
                             "parameters": [
                                 {
@@ -249,7 +244,6 @@ var ident = <T>(x: T): T => x;
                                     "end": 72
                                 }
                             ],
-                            "asyncKeyword": null,
                             "returnType": {
                                 "kind": 139,
                                 "bitwiseOrToken": null,
@@ -263,6 +257,12 @@ var ident = <T>(x: T): T => x;
                                 "flags": 2097152,
                                 "start": 74,
                                 "end": 81
+                            },
+                            "arrowToken": {
+                                "kind": 10,
+                                "flags": 64,
+                                "start": 81,
+                                "end": 84
                             },
                             "contents": {
                                 "kind": 134299649,
@@ -314,12 +314,7 @@ var ident = <T>(x: T): T => x;
                         "type": null,
                         "initializer": {
                             "kind": 271,
-                            "arrowToken": {
-                                "kind": 10,
-                                "flags": 64,
-                                "start": 113,
-                                "end": 116
-                            },
+                            "asyncKeyword": null,
                             "typeParameters": {
                                 "kind": 307,
                                 "declarations": {
@@ -393,7 +388,6 @@ var ident = <T>(x: T): T => x;
                                     "end": 109
                                 }
                             ],
-                            "asyncKeyword": null,
                             "returnType": {
                                 "kind": 139,
                                 "bitwiseOrToken": null,
@@ -416,6 +410,12 @@ var ident = <T>(x: T): T => x;
                                 "flags": 2097152,
                                 "start": 111,
                                 "end": 113
+                            },
+                            "arrowToken": {
+                                "kind": 10,
+                                "flags": 64,
+                                "start": 113,
+                                "end": 116
                             },
                             "contents": {
                                 "kind": 134299649,
@@ -456,9 +456,7 @@ var ident = <T>(x: T): T => x;
 
 ```javascript
 
-var add = (x, y) =>  x + y;
-var bad = (x) =>  x;
-var ident = (x) =>  x;
+ var add = (x: number, y: number): number =>x + y;, var bad = (x: number): string =>x;, var ident = (x: T): T =>x; 
 ```
 
 ### Diagnostics

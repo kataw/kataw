@@ -168,10 +168,11 @@ function f(){ var x = y; function x(){} }
 
 ```javascript
 
-function f() {
-  var x = y;
-  function x() {}
+ function f() {
+var x = y;,
+function x() {
 }
+} 
 ```
 
 ### Diagnostics

@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/miscellaneous/should-fail/autogen.md
-- Path: kataw/test/__snapshot__/parser/miscellaneous/should-fail/gen/in_a_block
+- Regenerated: 2021-06-12
+- From: d
+- Path: k
 > :: test: in a block
 > :: case: for (a,b of c) d;
 ## Options
@@ -117,10 +117,7 @@
 
 ```javascript
 
-{
-  for (a, b; c; of)
-    d;
-}
+ { for(a, b; c; of)d; } 
 ```
 
 ### Diagnostics

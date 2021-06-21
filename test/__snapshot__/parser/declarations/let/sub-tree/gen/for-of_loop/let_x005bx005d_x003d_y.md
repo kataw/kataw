@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/declarations/let/sub-tree/autogen.md
-- Path: kataw/test/__snapshot__/parser/declarations/let/sub-tree/gen/for-of_loop
+- Regenerated: 2021-06-12
+- From: d
+- Path: p
 > :: test: for-of loop
 > :: case: let
 >          [] = y
@@ -61,7 +61,7 @@ for (a of b) let
                 "expression": {
                     "kind": 125,
                     "left": {
-                        "kind": 536871042,
+                        "kind": 130,
                         "member": {
                             "kind": 134299649,
                             "text": "let",
@@ -78,7 +78,7 @@ for (a of b) let
                             "start": 18,
                             "end": 18
                         },
-                        "flags": 32,
+                        "flags": 536870944,
                         "start": 12,
                         "end": 19
                     },

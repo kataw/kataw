@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/arrow/position/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/arrow/position/gen/arg_default
+- Regenerated: 2021-06-12
+- From: d
+- Path: t
 > :: test: arg default
 > :: case: async (x, y) => ok
 ## Options
@@ -61,11 +61,11 @@ function f(a = async (x, y) => ok) {}
                         "type": null,
                         "right": {
                             "kind": 271,
-                            "arrowToken": {
-                                "kind": 10,
+                            "asyncKeyword": {
+                                "kind": 82031,
                                 "flags": 64,
-                                "start": 27,
-                                "end": 30
+                                "start": 14,
+                                "end": 20
                             },
                             "typeParameters": null,
                             "parameters": [
@@ -86,13 +86,13 @@ function f(a = async (x, y) => ok) {}
                                     "end": 26
                                 }
                             ],
-                            "asyncKeyword": {
-                                "kind": 82031,
-                                "flags": 64,
-                                "start": 14,
-                                "end": 20
-                            },
                             "returnType": null,
+                            "arrowToken": {
+                                "kind": 10,
+                                "flags": 64,
+                                "start": 27,
+                                "end": 30
+                            },
                             "contents": {
                                 "kind": 134299649,
                                 "text": "ok",
@@ -148,7 +148,8 @@ function f(a = async (x, y) => ok) {}
 
 ```javascript
 
-function f() {}
+ function f() {
+} 
 ```
 
 ### Diagnostics

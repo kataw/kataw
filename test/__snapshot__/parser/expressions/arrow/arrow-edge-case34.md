@@ -47,7 +47,7 @@ let x = (y: any): ([,[b]]) => {} => { };
                         "type": null,
                         "initializer": {
                             "kind": 271,
-                            "arrowToken": null,
+                            "asyncKeyword": null,
                             "typeParameters": null,
                             "parameters": [
                                 {
@@ -82,7 +82,6 @@ let x = (y: any): ([,[b]]) => {} => { };
                                     "end": 15
                                 }
                             ],
-                            "asyncKeyword": null,
                             "returnType": {
                                 "kind": 139,
                                 "bitwiseOrToken": null,
@@ -205,6 +204,7 @@ let x = (y: any): ([,[b]]) => {} => { };
                                 "start": 17,
                                 "end": 24
                             },
+                            "arrowToken": null,
                             "contents": {
                                 "kind": 16637,
                                 "text": "",

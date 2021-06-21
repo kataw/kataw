@@ -129,9 +129,9 @@ function f() {
 
 ```javascript
 
-function f() {
-  () = 1;
-}
+ function f() {
+()=1;
+} 
 ```
 
 ### Diagnostics

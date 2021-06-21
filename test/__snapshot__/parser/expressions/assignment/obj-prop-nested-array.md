@@ -179,7 +179,7 @@ result = { x: [y] } = { x: [321] };
 
 ```javascript
 
-result = { x: [y] } = { x: [321] };
+ result={ x : [y] }={ x : [321] }; 
 ```
 
 ### Diagnostics

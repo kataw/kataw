@@ -231,11 +231,11 @@ class D extends C<O> {
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": null,
                             "getKeyword": null,
+                            "asteriskToken": null,
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -247,7 +247,7 @@ class D extends C<O> {
                                     "end": 51
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -332,15 +332,13 @@ class D extends C<O> {
 
 ```javascript
 
-class C {
-  x;
-
-}
-class D  {
-  bar {
+ class C {
+    x: X,
+}, class D {
+    bar() {
     this.x;
-  }
-}
+    }
+} 
 ```
 
 ### Diagnostics

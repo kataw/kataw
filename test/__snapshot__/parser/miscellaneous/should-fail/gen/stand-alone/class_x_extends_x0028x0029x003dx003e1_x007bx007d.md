@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/miscellaneous/should-fail/autogen.md
-- Path: kataw/test/__snapshot__/parser/miscellaneous/should-fail/gen/stand-alone
+- Regenerated: 2021-06-12
+- From: d
+- Path: e
 > :: test: stand-alone
 > :: case: class x extends ()=>1 {}
 ## Options
@@ -54,16 +54,16 @@ class x extends ()=>1 {}
                     },
                     "expression": {
                         "kind": 271,
+                        "asyncKeyword": null,
+                        "typeParameters": null,
+                        "parameters": [],
+                        "returnType": null,
                         "arrowToken": {
                             "kind": 10,
                             "flags": 64,
                             "start": 18,
                             "end": 20
                         },
-                        "typeParameters": null,
-                        "parameters": [],
-                        "asyncKeyword": null,
-                        "returnType": null,
                         "contents": {
                             "kind": 201392130,
                             "text": 1,

@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/miscellaneous/should-fail/autogen.md
-- Path: kataw/test/__snapshot__/parser/miscellaneous/should-fail/gen/stand-alone
+- Regenerated: 2021-06-12
+- From: d
+- Path: e
 > :: test: stand-alone
 > :: case: try {} finally a()
 ## Options
@@ -110,10 +110,8 @@ try {} finally a()
 
 ```javascript
 
-try {
-} try{
-}
-a();
+ try {  }
+finally {  }, ; 
 ```
 
 ### Diagnostics

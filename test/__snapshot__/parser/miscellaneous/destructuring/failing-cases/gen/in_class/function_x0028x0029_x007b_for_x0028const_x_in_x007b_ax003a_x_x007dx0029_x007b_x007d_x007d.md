@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/miscellaneous/destructuring/failing-cases/autogen.md
-- Path: kataw/test/__snapshot__/parser/miscellaneous/destructuring/failing-cases/gen/in_class
+- Regenerated: 2021-06-12
+- From: d
+- Path: s
 > :: test: in class
 > :: case: function () { for (const x in { a: x }) { } }
 ## Options
@@ -52,11 +52,11 @@ class x { function () { for (const x in { a: x }) { } } }
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": null,
                             "getKeyword": null,
+                            "asteriskToken": null,
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -68,7 +68,7 @@ class x { function () { for (const x in { a: x }) { } } }
                                     "end": 18
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -92,27 +92,39 @@ class x { function () { for (const x in { a: x }) { } } }
                                                     "end": 27
                                                 },
                                                 "initializer": {
-                                                    "kind": 151,
-                                                    "bindingList": [
-                                                        {
-                                                            "kind": 190,
-                                                            "binding": {
-                                                                "kind": 134299649,
-                                                                "text": "x",
-                                                                "rawText": "x",
-                                                                "flags": 96,
+                                                    "kind": 162,
+                                                    "lexicalKeyword": {
+                                                        "kind": 37757004,
+                                                        "flags": 64,
+                                                        "start": 29,
+                                                        "end": 34
+                                                    },
+                                                    "binding": {
+                                                        "kind": 151,
+                                                        "bindingList": [
+                                                            {
+                                                                "kind": 190,
+                                                                "binding": {
+                                                                    "kind": 134299649,
+                                                                    "text": "x",
+                                                                    "rawText": "x",
+                                                                    "flags": 96,
+                                                                    "start": 34,
+                                                                    "end": 36
+                                                                },
+                                                                "type": null,
+                                                                "initializer": null,
+                                                                "flags": 16,
                                                                 "start": 34,
                                                                 "end": 36
-                                                            },
-                                                            "type": null,
-                                                            "initializer": null,
-                                                            "flags": 16,
-                                                            "start": 34,
-                                                            "end": 36
-                                                        }
-                                                    ],
-                                                    "flags": 16777232,
-                                                    "start": 34,
+                                                            }
+                                                        ],
+                                                        "flags": 16777232,
+                                                        "start": 34,
+                                                        "end": 36
+                                                    },
+                                                    "flags": 33554448,
+                                                    "start": 23,
                                                     "end": 36
                                                 },
                                                 "inKeyword": {
@@ -220,12 +232,11 @@ class x { function () { for (const x in { a: x }) { } } }
 
 ```javascript
 
-class x {
-  function {
-    for (const in { a: x })
-      {}
-  }
-}
+ class x {
+    function() {
+    for (const x in { a : x }) {  }
+    }
+} 
 ```
 
 ### Diagnostics

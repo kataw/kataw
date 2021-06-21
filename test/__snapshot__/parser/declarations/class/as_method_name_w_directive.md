@@ -44,11 +44,11 @@ class c {eval(){ "use strict"; }}
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": null,
                             "getKeyword": null,
+                            "asteriskToken": null,
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -60,7 +60,7 @@ class c {eval(){ "use strict"; }}
                                     "end": 13
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -127,9 +127,10 @@ class c {eval(){ "use strict"; }}
 
 ```javascript
 
-class c {
-  eval {}
-}
+ class c {
+    eval() {
+    }
+} 
 ```
 
 ### Diagnostics

@@ -134,7 +134,8 @@ var x = function({ foo }) {}
 
 ```javascript
 
-var x = function () {};
+ var x = function () {
+}; 
 ```
 
 ### Diagnostics

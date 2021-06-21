@@ -370,16 +370,12 @@ try {
 
 ```javascript
 
-try {
-  class C {
-
-    static x = subsequentField = true;
-
-
-  }
-} catch (error) {
-  caught = error;
-}
+ try { class C {
+    ,
+    static x = subsequentField=true,
+    ,
+} }
+catch (error){ caught=error; } 
 ```
 
 ### Diagnostics

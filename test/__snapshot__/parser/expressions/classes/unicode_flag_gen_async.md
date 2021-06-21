@@ -44,12 +44,6 @@ class x { async *prot\u006ftype(){} }
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": {
-                                "kind": 67143222,
-                                "flags": 64,
-                                "start": 15,
-                                "end": 17
-                            },
                             "staticKeyword": null,
                             "asyncKeyword": {
                                 "kind": 82031,
@@ -59,6 +53,12 @@ class x { async *prot\u006ftype(){} }
                             },
                             "setKeyword": null,
                             "getKeyword": null,
+                            "asteriskToken": {
+                                "kind": 67143222,
+                                "flags": 64,
+                                "start": 15,
+                                "end": 17
+                            },
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -70,7 +70,7 @@ class x { async *prot\u006ftype(){} }
                                     "end": 31
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -128,9 +128,10 @@ class x { async *prot\u006ftype(){} }
 
 ```javascript
 
-class x {
-  async prototype {}
-}
+ class x {
+    async *prot\u006ftype() {
+    }
+} 
 ```
 
 ### Diagnostics

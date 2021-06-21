@@ -36,9 +36,9 @@ x({foo(){}, async bar(){}});
                                 "kind": 218,
                                 "properties": [
                                     {
-                                        "kind": 257,
+                                        "kind": 351,
                                         "asyncKeyword": null,
-                                        "generatorToken": null,
+                                        "asteriskToken": null,
                                         "getKeyword": null,
                                         "setKeyword": null,
                                         "method": {
@@ -52,7 +52,7 @@ x({foo(){}, async bar(){}});
                                                 "end": 6
                                             },
                                             "typeParameters": null,
-                                            "formalParameters": {
+                                            "formalParameterList": {
                                                 "kind": 214,
                                                 "formalParameters": [],
                                                 "trailingComma": false,
@@ -84,14 +84,14 @@ x({foo(){}, async bar(){}});
                                         "end": 10
                                     },
                                     {
-                                        "kind": 257,
+                                        "kind": 351,
                                         "asyncKeyword": {
                                             "kind": 82031,
                                             "flags": 352,
                                             "start": 11,
                                             "end": 17
                                         },
-                                        "generatorToken": null,
+                                        "asteriskToken": null,
                                         "getKeyword": null,
                                         "setKeyword": null,
                                         "method": {
@@ -105,7 +105,7 @@ x({foo(){}, async bar(){}});
                                                 "end": 21
                                             },
                                             "typeParameters": null,
-                                            "formalParameters": {
+                                            "formalParameterList": {
                                                 "kind": 214,
                                                 "formalParameters": [],
                                                 "trailingComma": false,
@@ -174,7 +174,7 @@ x({foo(){}, async bar(){}});
 
 ```javascript
 
-x({ foo {}, async bar {} });
+ ; 
 ```
 
 ### Diagnostics

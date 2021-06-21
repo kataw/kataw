@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/declarations/let/sub-tree/autogen.md
-- Path: kataw/test/__snapshot__/parser/declarations/let/sub-tree/gen/for-in_loop
+- Regenerated: 2021-06-12
+- From: d
+- Path: p
 > :: test: for-in loop
 > :: case: let
 >          {}
@@ -100,10 +100,7 @@ for (a in b) let
 
 ```javascript
 
-for (a in b)
-  let;
-{
-}
+ for (a in b) let;, {  } 
 ```
 
 ### Diagnostics

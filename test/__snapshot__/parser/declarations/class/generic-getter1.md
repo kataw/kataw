@@ -136,7 +136,6 @@ class C<T> {
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": {
@@ -146,6 +145,7 @@ class C<T> {
                                 "end": 33
                             },
                             "getKeyword": null,
+                            "asteriskToken": null,
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -157,7 +157,7 @@ class C<T> {
                                     "end": 35
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -270,13 +270,13 @@ class C<T> {
 
 ```javascript
 
-class C {
-  data;
-
-  get x {
-    return  this.data;
-  }
-}
+ class C {
+    data: T,
+    ,
+    get x(): T {
+    return this.data;
+    }
+} 
 ```
 
 ### Diagnostics

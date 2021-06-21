@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/classes/extends-lefthandside/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/classes/extends-lefthandside/gen/new_arg
+- Regenerated: 2021-06-12
+- From: d
+- Path: g
 > :: test: new arg
 > :: case: async function *(){}
 ## Options
@@ -105,7 +105,8 @@ new async function *(){}
 
 ```javascript
 
-new  async function * () {}();
+ new async function* () {
+}; 
 ```
 
 ### Diagnostics

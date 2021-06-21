@@ -121,9 +121,9 @@ function *f() {  return void yield;  }
 
 ```javascript
 
-function * f() {
-  return  void  yield;
-}
+ function* f() {
+return ;
+} 
 ```
 
 ### Diagnostics

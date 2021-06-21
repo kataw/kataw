@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/super/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/super/gen/class-constructor
+- Regenerated: 2021-06-12
+- From: d
+- Path: r
 > :: test: class-constructor
 > :: case: new super();
 ## Options
@@ -52,11 +52,11 @@ class C { constructor() { new super(); } }
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": null,
                             "getKeyword": null,
+                            "asteriskToken": null,
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -68,7 +68,7 @@ class C { constructor() { new super(); } }
                                     "end": 21
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,

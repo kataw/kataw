@@ -98,7 +98,6 @@ switch (0) {
                                                             "kind": 278,
                                                             "declareToken": null,
                                                             "decorators": null,
-                                                            "asteriskToken": null,
                                                             "staticKeyword": {
                                                                 "kind": 8388716,
                                                                 "flags": 64,
@@ -108,6 +107,7 @@ switch (0) {
                                                             "asyncKeyword": null,
                                                             "setKeyword": null,
                                                             "getKeyword": null,
+                                                            "asteriskToken": null,
                                                             "method": {
                                                                 "kind": 209,
                                                                 "name": {
@@ -119,7 +119,7 @@ switch (0) {
                                                                     "end": 56
                                                                 },
                                                                 "typeParameters": null,
-                                                                "formalParameters": {
+                                                                "formalParameterList": {
                                                                     "kind": 214,
                                                                     "formalParameters": [],
                                                                     "trailingComma": false,

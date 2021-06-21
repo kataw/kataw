@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/arrow/position/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/arrow/position/gen/dynamic_property
+- Regenerated: 2021-06-12
+- From: d
+- Path: y
 > :: test: dynamic property
 > :: case: async async => ok
 ## Options
@@ -27,11 +27,11 @@ async async => ok[foo]
             "kind": 120,
             "expression": {
                 "kind": 271,
-                "arrowToken": {
-                    "kind": 10,
+                "asyncKeyword": {
+                    "kind": 82031,
                     "flags": 64,
-                    "start": 11,
-                    "end": 14
+                    "start": 0,
+                    "end": 5
                 },
                 "typeParameters": null,
                 "parameters": {
@@ -42,15 +42,15 @@ async async => ok[foo]
                     "start": 5,
                     "end": 11
                 },
-                "asyncKeyword": {
-                    "kind": 82031,
-                    "flags": 64,
-                    "start": 0,
-                    "end": 5
-                },
                 "returnType": null,
+                "arrowToken": {
+                    "kind": 10,
+                    "flags": 64,
+                    "start": 11,
+                    "end": 14
+                },
                 "contents": {
-                    "kind": 536871042,
+                    "kind": 130,
                     "member": {
                         "kind": 134299649,
                         "text": "ok",
@@ -67,7 +67,7 @@ async async => ok[foo]
                         "start": 18,
                         "end": 21
                     },
-                    "flags": 32,
+                    "flags": 536870944,
                     "start": 14,
                     "end": 22
                 },
@@ -93,7 +93,7 @@ async async => ok[foo]
 
 ```javascript
 
-async async =>  ;
+ async =>ok[foo]; 
 ```
 
 ### Diagnostics

@@ -55,7 +55,6 @@ var {x : y, z} = obj;
                                 "properties": [
                                     {
                                         "kind": 329,
-                                        "ellipsisToken": null,
                                         "key": {
                                             "kind": 134299649,
                                             "text": "x",
@@ -131,10 +130,10 @@ var {x : y, z} = obj;
 
 ```javascript
 
-var {
-  x: y,
-  z
-} = obj;
+ var {
+    x : y,
+    z
+} = obj; 
 ```
 
 ### Diagnostics

@@ -72,12 +72,7 @@ async function f(){
                             },
                             "initializer": {
                                 "kind": 271,
-                                "arrowToken": {
-                                    "kind": 10,
-                                    "flags": 64,
-                                    "start": 36,
-                                    "end": 38
-                                },
+                                "asyncKeyword": null,
                                 "typeParameters": null,
                                 "parameters": [
                                     {
@@ -89,8 +84,13 @@ async function f(){
                                         "end": 35
                                     }
                                 ],
-                                "asyncKeyword": null,
                                 "returnType": null,
+                                "arrowToken": {
+                                    "kind": 10,
+                                    "flags": 64,
+                                    "start": 36,
+                                    "end": 38
+                                },
                                 "contents": {
                                     "kind": 216,
                                     "functionStatementList": {

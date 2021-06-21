@@ -404,14 +404,13 @@ function g(x: () => any) {
 
 ```javascript
 
-function f() {
-  x();
-  const y = x();
-}
-function g() {
-  x();
-  const y = x();
-}
+ function f() {
+;,
+const y = ;
+}, function g() {
+;,
+const y = ;
+} 
 ```
 
 ### Diagnostics

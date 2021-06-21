@@ -239,7 +239,7 @@ function doubleAndReturnAsArray(x: number, y: number, z: number): [number, numbe
                                     },
                                     "type": null,
                                     "initializer": {
-                                        "kind": 536871042,
+                                        "kind": 130,
                                         "member": {
                                             "kind": 134299649,
                                             "text": "arguments",
@@ -270,7 +270,7 @@ function doubleAndReturnAsArray(x: number, y: number, z: number): [number, numbe
                                             "start": 118,
                                             "end": 133
                                         },
-                                        "flags": 32,
+                                        "flags": 536870944,
                                         "start": 107,
                                         "end": 134
                                     },
@@ -346,27 +346,39 @@ function doubleAndReturnAsArray(x: number, y: number, z: number): [number, numbe
                         },
                         "awaitKeyword": null,
                         "initializer": {
-                            "kind": 151,
-                            "bindingList": [
-                                {
-                                    "kind": 190,
-                                    "binding": {
-                                        "kind": 134299649,
-                                        "text": "arg",
-                                        "rawText": "arg",
-                                        "flags": 96,
+                            "kind": 162,
+                            "lexicalKeyword": {
+                                "kind": 41951307,
+                                "flags": 64,
+                                "start": 157,
+                                "end": 170
+                            },
+                            "binding": {
+                                "kind": 151,
+                                "bindingList": [
+                                    {
+                                        "kind": 190,
+                                        "binding": {
+                                            "kind": 134299649,
+                                            "text": "arg",
+                                            "rawText": "arg",
+                                            "flags": 96,
+                                            "start": 170,
+                                            "end": 174
+                                        },
+                                        "type": null,
+                                        "initializer": null,
+                                        "flags": 16,
                                         "start": 170,
                                         "end": 174
-                                    },
-                                    "type": null,
-                                    "initializer": null,
-                                    "flags": 16,
-                                    "start": 170,
-                                    "end": 174
-                                }
-                            ],
-                            "flags": 16,
-                            "start": 170,
+                                    }
+                                ],
+                                "flags": 16,
+                                "start": 170,
+                                "end": 174
+                            },
+                            "flags": 33554448,
+                            "start": 157,
                             "end": 174
                         },
                         "ofKeyword": {

@@ -32,21 +32,21 @@ foo(async () => foo)
                     "elements": [
                         {
                             "kind": 271,
-                            "arrowToken": {
-                                "kind": 10,
-                                "flags": 64,
-                                "start": 12,
-                                "end": 15
-                            },
-                            "typeParameters": null,
-                            "parameters": [],
                             "asyncKeyword": {
                                 "kind": 82031,
                                 "flags": 64,
                                 "start": 4,
                                 "end": 9
                             },
+                            "typeParameters": null,
+                            "parameters": [],
                             "returnType": null,
+                            "arrowToken": {
+                                "kind": 10,
+                                "flags": 64,
+                                "start": 12,
+                                "end": 15
+                            },
                             "contents": {
                                 "kind": 134299649,
                                 "text": "foo",
@@ -87,7 +87,7 @@ foo(async () => foo)
 
 ```javascript
 
-foo(async () =>  foo);
+ ; 
 ```
 
 ### Diagnostics

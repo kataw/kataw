@@ -374,34 +374,33 @@ function getSecurity(level) {
 
 ```javascript
 
-function getSecurity() {
-  switch(level) {
+ function getSecurity(level) {
+switch(level) {
     case 0:
-       // Zero
-
     // Zero
+    ,
     case 1:
-       // one
-
     // one
-    case 2:
-      // Leading comments
-      return  "\"Hi\"";
+    ,
+    case 2:// two
+     // two
+        return "Hi";,
     case 3:
-       // three
-
     // three
-    case 4:
-      return  "\"hello\"";
+    ,
+    case 4:// four
+     // four
+        return "hello";,
     case 5:
-       // five
-
     // five
-    default
-      return  "\"world\"";
-  } /*Comment 1*/ // Comment After 1
-
-}
+    ,
+    default:// default
+     // default
+        return "world";
+ // Comment After
+}/*Comment 1*/ // Comment After 1
+ // Comment After 2
+} 
 ```
 
 ### Diagnostics

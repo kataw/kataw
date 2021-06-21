@@ -134,7 +134,7 @@ type X = {[(x)]: string};
 
 ```javascript
 
-
+  
 ```
 
 ### Diagnostics

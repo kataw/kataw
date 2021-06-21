@@ -52,12 +52,7 @@
                         },
                         "alternate": {
                             "kind": 271,
-                            "arrowToken": {
-                                "kind": 10,
-                                "flags": 64,
-                                "start": 9,
-                                "end": 12
-                            },
+                            "asyncKeyword": null,
                             "typeParameters": null,
                             "parameters": {
                                 "kind": 134299649,
@@ -67,8 +62,13 @@
                                 "start": 7,
                                 "end": 9
                             },
-                            "asyncKeyword": null,
                             "returnType": null,
+                            "arrowToken": {
+                                "kind": 10,
+                                "flags": 64,
+                                "start": 9,
+                                "end": 12
+                            },
                             "contents": {
                                 "kind": 216,
                                 "functionStatementList": {
@@ -130,7 +130,8 @@
 
 ```javascript
 
-1 ? 0 : a =>  {}, 17, 42;
+ 1 ? 0 : a => {
+}, 17, 42; 
 ```
 
 ### Diagnostics

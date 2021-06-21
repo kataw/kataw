@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/declarations/let/sub-tree/autogen.md
-- Path: kataw/test/__snapshot__/parser/declarations/let/sub-tree/gen/while
+- Regenerated: 2021-06-12
+- From: d
+- Path: e
 > :: test: while
 > :: case: let [x]
 ## Options
@@ -42,7 +42,7 @@ while (a) let [x];
             "statement": {
                 "kind": 120,
                 "expression": {
-                    "kind": 536871042,
+                    "kind": 130,
                     "member": {
                         "kind": 134299649,
                         "text": "let",
@@ -59,7 +59,7 @@ while (a) let [x];
                         "start": 15,
                         "end": 16
                     },
-                    "flags": 32,
+                    "flags": 536870944,
                     "start": 9,
                     "end": 17
                 },

@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/statements/block/autogen.md
-- Path: kataw/test/__snapshot__/parser/statements/block/gen/with_unclosed_block
+- Regenerated: 2021-06-12
+- From: d
+- Path: k
 > :: test: with unclosed block
 > :: case: super[b?.a]
 ## Options
@@ -109,7 +109,7 @@
                                 {
                                     "kind": 120,
                                     "expression": {
-                                        "kind": 536871042,
+                                        "kind": 130,
                                         "member": {
                                             "kind": 225,
                                             "superKeyword": {
@@ -163,7 +163,7 @@
                                             "start": 24,
                                             "end": 28
                                         },
-                                        "flags": 32,
+                                        "flags": 536870944,
                                         "start": 17,
                                         "end": 29
                                     },

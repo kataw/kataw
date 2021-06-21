@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/declarations/let/sub-tree/autogen.md
-- Path: kataw/test/__snapshot__/parser/declarations/let/sub-tree/gen/do_no_smeix002fasi
+- Regenerated: 2021-06-12
+- From: d
+- Path: i
 > :: test: do no smei/asi
 > :: case: let [x]
 ## Options
@@ -34,7 +34,7 @@ do let [x] while (a);
             "statement": {
                 "kind": 120,
                 "expression": {
-                    "kind": 536871042,
+                    "kind": 130,
                     "member": {
                         "kind": 134299649,
                         "text": "let",
@@ -51,7 +51,7 @@ do let [x] while (a);
                         "start": 8,
                         "end": 9
                     },
-                    "flags": 32,
+                    "flags": 536870944,
                     "start": 2,
                     "end": 10
                 },

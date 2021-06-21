@@ -9,9 +9,8 @@
 ## Input
 
 `````js
-export async () => x;
-
-export async x => x;
+export async
+function foo() {}
 `````
 
 ## Output
@@ -32,33 +31,18 @@ export async x => x;
                 "end": 6
             },
             "declaration": {
-                "kind": 271,
-                "arrowToken": {
-                    "kind": 10,
-                    "flags": 64,
-                    "start": 15,
-                    "end": 18
-                },
-                "typeParameters": null,
-                "parameters": [],
-                "asyncKeyword": {
-                    "kind": 82031,
-                    "flags": 64,
+                "kind": 120,
+                "expression": {
+                    "kind": 134299649,
+                    "text": "async",
+                    "rawText": "async",
+                    "flags": 96,
                     "start": 6,
                     "end": 12
                 },
-                "returnType": null,
-                "contents": {
-                    "kind": 134299649,
-                    "text": "x",
-                    "rawText": "x",
-                    "flags": 96,
-                    "start": 18,
-                    "end": 20
-                },
-                "flags": 288,
+                "flags": 16,
                 "start": 6,
-                "end": 20
+                "end": 12
             },
             "namedExports": null,
             "exportFromClause": null,
@@ -66,79 +50,62 @@ export async x => x;
             "exportKind": 0,
             "flags": 80,
             "start": 0,
-            "end": 20
+            "end": 12
         },
         {
-            "kind": 168,
-            "flags": 16,
-            "start": 20,
-            "end": 21
-        },
-        {
-            "kind": 257,
-            "exportKeyword": {
-                "kind": 4202582,
-                "flags": 81,
+            "kind": 176,
+            "declareKeyword": null,
+            "asyncKeyword": null,
+            "functionKeyword": {
+                "kind": 37822554,
+                "flags": 65,
+                "start": 12,
+                "end": 21
+            },
+            "asteriskToken": null,
+            "name": {
+                "kind": 134299649,
+                "text": "foo",
+                "rawText": "foo",
+                "flags": 96,
                 "start": 21,
-                "end": 29
+                "end": 25
             },
-            "declaration": {
-                "kind": 120,
-                "expression": {
-                    "kind": 271,
-                    "arrowToken": {
-                        "kind": 10,
-                        "flags": 64,
-                        "start": 37,
-                        "end": 40
-                    },
-                    "typeParameters": null,
-                    "parameters": {
-                        "kind": 134299649,
-                        "text": "x",
-                        "rawText": "x",
-                        "flags": 96,
-                        "start": 35,
-                        "end": 37
-                    },
-                    "asyncKeyword": {
-                        "kind": 82031,
-                        "flags": 64,
-                        "start": 29,
-                        "end": 35
-                    },
-                    "returnType": null,
-                    "contents": {
-                        "kind": 134299649,
-                        "text": "x",
-                        "rawText": "x",
-                        "flags": 96,
-                        "start": 40,
-                        "end": 42
-                    },
-                    "flags": 288,
+            "typeParameters": null,
+            "formalParameterList": {
+                "kind": 214,
+                "formalParameters": [],
+                "trailingComma": false,
+                "flags": 32,
+                "start": 25,
+                "end": 27
+            },
+            "contents": {
+                "kind": 216,
+                "functionStatementList": {
+                    "kind": 217,
+                    "directives": [],
+                    "statements": [],
+                    "flags": 32,
                     "start": 29,
-                    "end": 42
+                    "end": 29
                 },
-                "flags": 16,
-                "start": 29,
-                "end": 43
+                "flags": 32,
+                "start": 27,
+                "end": 30
             },
-            "namedExports": null,
-            "exportFromClause": null,
-            "fromClause": null,
-            "exportKind": 0,
-            "flags": 81,
-            "start": 21,
-            "end": 43
+            "returnType": null,
+            "flags": 16,
+            "start": 12,
+            "end": 30
         }
     ],
     "isModule": true,
-    "source": "export async () => x;\n\nexport async x => x;",
+    "source": "export async\nfunction foo() {}",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,
-    "end": 43
+    "end": 30
 }
 ```
 
@@ -151,8 +118,7 @@ export async x => x;
 ### Diagnostics
 
 ```javascript
-✖ An async arrow without the 'default' modifier can not be exported - start: 6, end: 14
-✖ An async arrow without the 'default' modifier can not be exported - start: 35, end: 37
+✖ Declaration or statement expected - start: 6, end: 21
 
 ```
 

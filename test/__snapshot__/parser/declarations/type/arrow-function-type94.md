@@ -154,7 +154,7 @@ type a = ((1 |-1)) => T;
 
 ```javascript
 
-
+  
 ```
 
 ### Diagnostics

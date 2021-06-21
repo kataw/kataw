@@ -17,11 +17,11 @@ async ({ x = [ await ], y = { await } }) => {}
     "statements": [
         {
             "kind": 271,
-            "arrowToken": {
-                "kind": 10,
+            "asyncKeyword": {
+                "kind": 82031,
                 "flags": 64,
-                "start": 40,
-                "end": 43
+                "start": 0,
+                "end": 5
             },
             "typeParameters": null,
             "parameters": [
@@ -121,13 +121,13 @@ async ({ x = [ await ], y = { await } }) => {}
                     "end": 39
                 }
             ],
-            "asyncKeyword": {
-                "kind": 82031,
-                "flags": 64,
-                "start": 0,
-                "end": 5
-            },
             "returnType": null,
+            "arrowToken": {
+                "kind": 10,
+                "flags": 64,
+                "start": 40,
+                "end": 43
+            },
             "contents": {
                 "kind": 216,
                 "functionStatementList": {
@@ -160,10 +160,11 @@ async ({ x = [ await ], y = { await } }) => {}
 
 ```javascript
 
-async ({
-  x = [await],
-  y = { await }
-}) =>  {}
+ ({
+        x = [await],
+        y = { await }
+    }) => {
+} 
 ```
 
 ### Diagnostics

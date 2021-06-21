@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/await/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/await/gen/simple
+- Regenerated: 2021-06-12
+- From: d
+- Path: e
 > :: test: simple
 > :: case: await = 1
 ## Options
@@ -71,7 +71,7 @@ await = 1
 
 ```javascript
 
-await = 1;
+ await=1; 
 ```
 
 ### Diagnostics

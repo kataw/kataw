@@ -42,7 +42,7 @@
 
 ```javascript
 
-/a/;
+ ; 
 ```
 
 ### Diagnostics

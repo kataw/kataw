@@ -47,12 +47,7 @@ let x = (y: any): (() => {}) => { };
                         "type": null,
                         "initializer": {
                             "kind": 271,
-                            "arrowToken": {
-                                "kind": 10,
-                                "flags": 64,
-                                "start": 28,
-                                "end": 31
-                            },
+                            "asyncKeyword": null,
                             "typeParameters": null,
                             "parameters": [
                                 {
@@ -87,7 +82,6 @@ let x = (y: any): (() => {}) => { };
                                     "end": 15
                                 }
                             ],
-                            "asyncKeyword": null,
                             "returnType": {
                                 "kind": 139,
                                 "bitwiseOrToken": null,
@@ -141,6 +135,12 @@ let x = (y: any): (() => {}) => { };
                                 "start": 17,
                                 "end": 28
                             },
+                            "arrowToken": {
+                                "kind": 10,
+                                "flags": 64,
+                                "start": 28,
+                                "end": 31
+                            },
                             "contents": {
                                 "kind": 216,
                                 "functionStatementList": {
@@ -186,7 +186,8 @@ let x = (y: any): (() => {}) => { };
 
 ```javascript
 
-let x = (y) =>  {};
+ let x = (y: any): () => {
+}; 
 ```
 
 ### Diagnostics

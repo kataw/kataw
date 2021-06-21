@@ -126,7 +126,7 @@ type x = { [x:string]:string }
 
 ```javascript
 
-
+  
 ```
 
 ### Diagnostics

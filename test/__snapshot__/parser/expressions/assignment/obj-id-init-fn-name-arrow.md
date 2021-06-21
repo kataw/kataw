@@ -52,16 +52,16 @@ result = { arrow = () => {} } = {}
                                     },
                                     "right": {
                                         "kind": 271,
+                                        "asyncKeyword": null,
+                                        "typeParameters": null,
+                                        "parameters": [],
+                                        "returnType": null,
                                         "arrowToken": {
                                             "kind": 10,
                                             "flags": 64,
                                             "start": 21,
                                             "end": 24
                                         },
-                                        "typeParameters": null,
-                                        "parameters": [],
-                                        "asyncKeyword": null,
-                                        "returnType": null,
                                         "contents": {
                                             "kind": 216,
                                             "functionStatementList": {
@@ -140,7 +140,8 @@ result = { arrow = () => {} } = {}
 
 ```javascript
 
-result = { arrow = () =>  {} } = {};
+ result={ arrow = () => {
+    } }={  }; 
 ```
 
 ### Diagnostics

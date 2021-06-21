@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/miscellaneous/should-fail/autogen.md
-- Path: kataw/test/__snapshot__/parser/miscellaneous/should-fail/gen/stand-alone
+- Regenerated: 2021-06-12
+- From: d
+- Path: e
 > :: test: stand-alone
 > :: case: class A extends B { constructor() { !{constructor() { super(); }}; } }
 ## Options
@@ -72,11 +72,11 @@ class A extends B { constructor() { !{constructor() { super(); }}; } }
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": null,
                             "getKeyword": null,
+                            "asteriskToken": null,
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -88,7 +88,7 @@ class A extends B { constructor() { !{constructor() { super(); }}; } }
                                     "end": 31
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -119,9 +119,9 @@ class A extends B { constructor() { !{constructor() { super(); }}; } }
                                                             "kind": 218,
                                                             "properties": [
                                                                 {
-                                                                    "kind": 257,
+                                                                    "kind": 351,
                                                                     "asyncKeyword": null,
-                                                                    "generatorToken": null,
+                                                                    "asteriskToken": null,
                                                                     "getKeyword": null,
                                                                     "setKeyword": null,
                                                                     "method": {
@@ -135,7 +135,7 @@ class A extends B { constructor() { !{constructor() { super(); }}; } }
                                                                             "end": 49
                                                                         },
                                                                         "typeParameters": null,
-                                                                        "formalParameters": {
+                                                                        "formalParameterList": {
                                                                             "kind": 214,
                                                                             "formalParameters": [],
                                                                             "trailingComma": false,

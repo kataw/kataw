@@ -28,7 +28,7 @@
             "expression": {
                 "kind": 198,
                 "left": {
-                    "kind": 536871042,
+                    "kind": 130,
                     "member": {
                         "kind": 121,
                         "expression": {
@@ -51,7 +51,7 @@
                         "start": 6,
                         "end": 7
                     },
-                    "flags": 32,
+                    "flags": 536870944,
                     "start": 0,
                     "end": 8
                 },
@@ -91,7 +91,7 @@
 
 ```javascript
 
- in x;
+ (let)[x] in x; 
 ```
 
 ### Diagnostics

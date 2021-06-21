@@ -44,11 +44,11 @@ class x { "construct\u{6f}r"(){} }
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": null,
                             "getKeyword": null,
+                            "asteriskToken": null,
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -60,7 +60,7 @@ class x { "construct\u{6f}r"(){} }
                                     "end": 28
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -118,9 +118,10 @@ class x { "construct\u{6f}r"(){} }
 
 ```javascript
 
-class x {
-  "\"construct\u{6f}r\"" {}
-}
+ class x {
+    "construct\u{6f}r"() {
+    }
+} 
 ```
 
 ### Diagnostics

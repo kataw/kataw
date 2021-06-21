@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/await/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/await/gen/var
+- Regenerated: 2021-06-12
+- From: d
+- Path: r
 > :: test: var
 > :: case: async function g(){let o = {f(foo = await bar){}}    }
 ## Options
@@ -183,9 +183,9 @@ var await; var f = (async function() { async function g(){let o = {f(foo = await
                                                                                     "kind": 218,
                                                                                     "properties": [
                                                                                         {
-                                                                                            "kind": 257,
+                                                                                            "kind": 351,
                                                                                             "asyncKeyword": null,
-                                                                                            "generatorToken": null,
+                                                                                            "asteriskToken": null,
                                                                                             "getKeyword": null,
                                                                                             "setKeyword": null,
                                                                                             "method": {
@@ -199,7 +199,7 @@ var await; var f = (async function() { async function g(){let o = {f(foo = await
                                                                                                     "end": 68
                                                                                                 },
                                                                                                 "typeParameters": null,
-                                                                                                "formalParameters": {
+                                                                                                "formalParameterList": {
                                                                                                     "kind": 214,
                                                                                                     "formalParameters": [
                                                                                                         {

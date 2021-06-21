@@ -108,8 +108,8 @@ while(y)
 
 ```javascript
 
-do (function () {});
-while (y);
+ do (function () {
+}); while (y) 
 ```
 
 ### Diagnostics

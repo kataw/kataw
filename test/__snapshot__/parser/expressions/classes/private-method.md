@@ -142,11 +142,11 @@ class x { #foo() {}}
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": null,
                             "getKeyword": null,
+                            "asteriskToken": null,
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -158,7 +158,7 @@ class x { #foo() {}}
                                     "end": 14
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -227,11 +227,11 @@ class x { #foo() {}}
                                     "kind": 278,
                                     "declareToken": null,
                                     "decorators": null,
-                                    "asteriskToken": null,
                                     "staticKeyword": null,
                                     "asyncKeyword": null,
                                     "setKeyword": null,
                                     "getKeyword": null,
+                                    "asteriskToken": null,
                                     "method": {
                                         "kind": 209,
                                         "name": {
@@ -243,7 +243,7 @@ class x { #foo() {}}
                                             "end": 32
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -320,7 +320,6 @@ class x { #foo() {}}
                                     "kind": 278,
                                     "declareToken": null,
                                     "decorators": null,
-                                    "asteriskToken": null,
                                     "staticKeyword": null,
                                     "asyncKeyword": null,
                                     "setKeyword": {
@@ -330,6 +329,7 @@ class x { #foo() {}}
                                         "end": 53
                                     },
                                     "getKeyword": null,
+                                    "asteriskToken": null,
                                     "method": {
                                         "kind": 209,
                                         "name": {
@@ -341,7 +341,7 @@ class x { #foo() {}}
                                             "end": 56
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -418,7 +418,6 @@ class x { #foo() {}}
                                     "kind": 278,
                                     "declareToken": null,
                                     "decorators": null,
-                                    "asteriskToken": null,
                                     "staticKeyword": null,
                                     "asyncKeyword": null,
                                     "setKeyword": null,
@@ -428,6 +427,7 @@ class x { #foo() {}}
                                         "start": 74,
                                         "end": 77
                                     },
+                                    "asteriskToken": null,
                                     "method": {
                                         "kind": 209,
                                         "name": {
@@ -439,7 +439,7 @@ class x { #foo() {}}
                                             "end": 80
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [
                                                 {
@@ -525,16 +525,16 @@ class x { #foo() {}}
                                     "kind": 278,
                                     "declareToken": null,
                                     "decorators": null,
+                                    "staticKeyword": null,
+                                    "asyncKeyword": null,
+                                    "setKeyword": null,
+                                    "getKeyword": null,
                                     "asteriskToken": {
                                         "kind": 67143222,
                                         "flags": 64,
                                         "start": 101,
                                         "end": 102
                                     },
-                                    "staticKeyword": null,
-                                    "asyncKeyword": null,
-                                    "setKeyword": null,
-                                    "getKeyword": null,
                                     "method": {
                                         "kind": 209,
                                         "name": {
@@ -546,7 +546,7 @@ class x { #foo() {}}
                                             "end": 104
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -623,7 +623,6 @@ class x { #foo() {}}
                                     "kind": 278,
                                     "declareToken": null,
                                     "decorators": null,
-                                    "asteriskToken": null,
                                     "staticKeyword": null,
                                     "asyncKeyword": {
                                         "kind": 82031,
@@ -633,6 +632,7 @@ class x { #foo() {}}
                                     },
                                     "setKeyword": null,
                                     "getKeyword": null,
+                                    "asteriskToken": null,
                                     "method": {
                                         "kind": 209,
                                         "name": {
@@ -644,7 +644,7 @@ class x { #foo() {}}
                                             "end": 130
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -721,12 +721,6 @@ class x { #foo() {}}
                                     "kind": 278,
                                     "declareToken": null,
                                     "decorators": null,
-                                    "asteriskToken": {
-                                        "kind": 67143222,
-                                        "flags": 64,
-                                        "start": 153,
-                                        "end": 155
-                                    },
                                     "staticKeyword": null,
                                     "asyncKeyword": {
                                         "kind": 82031,
@@ -736,6 +730,12 @@ class x { #foo() {}}
                                     },
                                     "setKeyword": null,
                                     "getKeyword": null,
+                                    "asteriskToken": {
+                                        "kind": 67143222,
+                                        "flags": 64,
+                                        "start": 153,
+                                        "end": 155
+                                    },
                                     "method": {
                                         "kind": 209,
                                         "name": {
@@ -747,7 +747,7 @@ class x { #foo() {}}
                                             "end": 157
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -824,11 +824,11 @@ class x { #foo() {}}
                                     "kind": 278,
                                     "declareToken": null,
                                     "decorators": null,
-                                    "asteriskToken": null,
                                     "staticKeyword": null,
                                     "asyncKeyword": null,
                                     "setKeyword": null,
                                     "getKeyword": null,
+                                    "asteriskToken": null,
                                     "method": {
                                         "kind": 209,
                                         "name": {
@@ -840,7 +840,7 @@ class x { #foo() {}}
                                             "end": 178
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -875,11 +875,11 @@ class x { #foo() {}}
                                     "kind": 278,
                                     "declareToken": null,
                                     "decorators": null,
-                                    "asteriskToken": null,
                                     "staticKeyword": null,
                                     "asyncKeyword": null,
                                     "setKeyword": null,
                                     "getKeyword": null,
+                                    "asteriskToken": null,
                                     "method": {
                                         "kind": 209,
                                         "name": {
@@ -891,7 +891,7 @@ class x { #foo() {}}
                                             "end": 187
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -968,7 +968,6 @@ class x { #foo() {}}
                                     "kind": 278,
                                     "declareToken": null,
                                     "decorators": null,
-                                    "asteriskToken": null,
                                     "staticKeyword": null,
                                     "asyncKeyword": null,
                                     "setKeyword": {
@@ -978,6 +977,7 @@ class x { #foo() {}}
                                         "end": 207
                                     },
                                     "getKeyword": null,
+                                    "asteriskToken": null,
                                     "method": {
                                         "kind": 209,
                                         "name": {
@@ -989,7 +989,7 @@ class x { #foo() {}}
                                             "end": 210
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -1024,7 +1024,6 @@ class x { #foo() {}}
                                     "kind": 278,
                                     "declareToken": null,
                                     "decorators": null,
-                                    "asteriskToken": null,
                                     "staticKeyword": null,
                                     "asyncKeyword": null,
                                     "setKeyword": null,
@@ -1034,6 +1033,7 @@ class x { #foo() {}}
                                         "start": 216,
                                         "end": 220
                                     },
+                                    "asteriskToken": null,
                                     "method": {
                                         "kind": 209,
                                         "name": {
@@ -1045,7 +1045,7 @@ class x { #foo() {}}
                                             "end": 223
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [
                                                 {
@@ -1131,7 +1131,6 @@ class x { #foo() {}}
                                     "kind": 278,
                                     "declareToken": null,
                                     "decorators": null,
-                                    "asteriskToken": null,
                                     "staticKeyword": null,
                                     "asyncKeyword": null,
                                     "setKeyword": {
@@ -1141,6 +1140,7 @@ class x { #foo() {}}
                                         "end": 246
                                     },
                                     "getKeyword": null,
+                                    "asteriskToken": null,
                                     "method": {
                                         "kind": 209,
                                         "name": {
@@ -1152,7 +1152,7 @@ class x { #foo() {}}
                                             "end": 249
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -1187,7 +1187,6 @@ class x { #foo() {}}
                                     "kind": 278,
                                     "declareToken": null,
                                     "decorators": null,
-                                    "asteriskToken": null,
                                     "staticKeyword": null,
                                     "asyncKeyword": null,
                                     "setKeyword": {
@@ -1197,6 +1196,7 @@ class x { #foo() {}}
                                         "end": 259
                                     },
                                     "getKeyword": null,
+                                    "asteriskToken": null,
                                     "method": {
                                         "kind": 209,
                                         "name": {
@@ -1208,7 +1208,7 @@ class x { #foo() {}}
                                             "end": 262
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -1243,7 +1243,6 @@ class x { #foo() {}}
                                     "kind": 278,
                                     "declareToken": null,
                                     "decorators": null,
-                                    "asteriskToken": null,
                                     "staticKeyword": null,
                                     "asyncKeyword": null,
                                     "setKeyword": null,
@@ -1253,6 +1252,7 @@ class x { #foo() {}}
                                         "start": 267,
                                         "end": 271
                                     },
+                                    "asteriskToken": null,
                                     "method": {
                                         "kind": 209,
                                         "name": {
@@ -1264,7 +1264,7 @@ class x { #foo() {}}
                                             "end": 274
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [
                                                 {
@@ -1350,7 +1350,6 @@ class x { #foo() {}}
                                     "kind": 278,
                                     "declareToken": null,
                                     "decorators": null,
-                                    "asteriskToken": null,
                                     "staticKeyword": null,
                                     "asyncKeyword": null,
                                     "setKeyword": {
@@ -1360,6 +1359,7 @@ class x { #foo() {}}
                                         "end": 297
                                     },
                                     "getKeyword": null,
+                                    "asteriskToken": null,
                                     "method": {
                                         "kind": 209,
                                         "name": {
@@ -1371,7 +1371,7 @@ class x { #foo() {}}
                                             "end": 300
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -1406,7 +1406,6 @@ class x { #foo() {}}
                                     "kind": 278,
                                     "declareToken": null,
                                     "decorators": null,
-                                    "asteriskToken": null,
                                     "staticKeyword": null,
                                     "asyncKeyword": null,
                                     "setKeyword": {
@@ -1416,6 +1415,7 @@ class x { #foo() {}}
                                         "end": 310
                                     },
                                     "getKeyword": null,
+                                    "asteriskToken": null,
                                     "method": {
                                         "kind": 209,
                                         "name": {
@@ -1427,7 +1427,7 @@ class x { #foo() {}}
                                             "end": 313
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -1462,7 +1462,6 @@ class x { #foo() {}}
                                     "kind": 278,
                                     "declareToken": null,
                                     "decorators": null,
-                                    "asteriskToken": null,
                                     "staticKeyword": null,
                                     "asyncKeyword": null,
                                     "setKeyword": null,
@@ -1472,6 +1471,7 @@ class x { #foo() {}}
                                         "start": 318,
                                         "end": 322
                                     },
+                                    "asteriskToken": null,
                                     "method": {
                                         "kind": 209,
                                         "name": {
@@ -1483,7 +1483,7 @@ class x { #foo() {}}
                                             "end": 325
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [
                                                 {
@@ -1527,7 +1527,6 @@ class x { #foo() {}}
                                     "kind": 278,
                                     "declareToken": null,
                                     "decorators": null,
-                                    "asteriskToken": null,
                                     "staticKeyword": null,
                                     "asyncKeyword": null,
                                     "setKeyword": null,
@@ -1537,6 +1536,7 @@ class x { #foo() {}}
                                         "start": 333,
                                         "end": 337
                                     },
+                                    "asteriskToken": null,
                                     "method": {
                                         "kind": 209,
                                         "name": {
@@ -1548,7 +1548,7 @@ class x { #foo() {}}
                                             "end": 340
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [
                                                 {
@@ -1634,7 +1634,6 @@ class x { #foo() {}}
                                     "kind": 278,
                                     "declareToken": null,
                                     "decorators": null,
-                                    "asteriskToken": null,
                                     "staticKeyword": null,
                                     "asyncKeyword": null,
                                     "setKeyword": null,
@@ -1644,6 +1643,7 @@ class x { #foo() {}}
                                         "start": 360,
                                         "end": 363
                                     },
+                                    "asteriskToken": null,
                                     "method": {
                                         "kind": 209,
                                         "name": {
@@ -1655,7 +1655,7 @@ class x { #foo() {}}
                                             "end": 366
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [
                                                 {
@@ -1699,7 +1699,6 @@ class x { #foo() {}}
                                     "kind": 278,
                                     "declareToken": null,
                                     "decorators": null,
-                                    "asteriskToken": null,
                                     "staticKeyword": null,
                                     "asyncKeyword": null,
                                     "setKeyword": null,
@@ -1709,6 +1708,7 @@ class x { #foo() {}}
                                         "start": 375,
                                         "end": 379
                                     },
+                                    "asteriskToken": null,
                                     "method": {
                                         "kind": 209,
                                         "name": {
@@ -1720,7 +1720,7 @@ class x { #foo() {}}
                                             "end": 382
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [
                                                 {
@@ -1806,7 +1806,6 @@ class x { #foo() {}}
                                     "kind": 278,
                                     "declareToken": null,
                                     "decorators": null,
-                                    "asteriskToken": null,
                                     "staticKeyword": null,
                                     "asyncKeyword": null,
                                     "setKeyword": {
@@ -1816,6 +1815,7 @@ class x { #foo() {}}
                                         "end": 405
                                     },
                                     "getKeyword": null,
+                                    "asteriskToken": null,
                                     "method": {
                                         "kind": 209,
                                         "name": {
@@ -1827,7 +1827,7 @@ class x { #foo() {}}
                                             "end": 408
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -1862,7 +1862,6 @@ class x { #foo() {}}
                                     "kind": 278,
                                     "declareToken": null,
                                     "decorators": null,
-                                    "asteriskToken": null,
                                     "staticKeyword": null,
                                     "asyncKeyword": null,
                                     "setKeyword": {
@@ -1872,6 +1871,7 @@ class x { #foo() {}}
                                         "end": 418
                                     },
                                     "getKeyword": null,
+                                    "asteriskToken": null,
                                     "method": {
                                         "kind": 209,
                                         "name": {
@@ -1883,7 +1883,7 @@ class x { #foo() {}}
                                             "end": 421
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -1960,11 +1960,11 @@ class x { #foo() {}}
                                     "kind": 278,
                                     "declareToken": null,
                                     "decorators": null,
-                                    "asteriskToken": null,
                                     "staticKeyword": null,
                                     "asyncKeyword": null,
                                     "setKeyword": null,
                                     "getKeyword": null,
+                                    "asteriskToken": null,
                                     "method": {
                                         "kind": 209,
                                         "name": {
@@ -1976,7 +1976,7 @@ class x { #foo() {}}
                                             "end": 441
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -2011,7 +2011,6 @@ class x { #foo() {}}
                                     "kind": 278,
                                     "declareToken": null,
                                     "decorators": null,
-                                    "asteriskToken": null,
                                     "staticKeyword": {
                                         "kind": 8388716,
                                         "flags": 64,
@@ -2021,6 +2020,7 @@ class x { #foo() {}}
                                     "asyncKeyword": null,
                                     "setKeyword": null,
                                     "getKeyword": null,
+                                    "asteriskToken": null,
                                     "method": {
                                         "kind": 209,
                                         "name": {
@@ -2032,7 +2032,7 @@ class x { #foo() {}}
                                             "end": 456
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -2109,11 +2109,11 @@ class x { #foo() {}}
                                     "kind": 278,
                                     "declareToken": null,
                                     "decorators": null,
-                                    "asteriskToken": null,
                                     "staticKeyword": null,
                                     "asyncKeyword": null,
                                     "setKeyword": null,
                                     "getKeyword": null,
+                                    "asteriskToken": null,
                                     "method": {
                                         "kind": 209,
                                         "name": {
@@ -2125,7 +2125,7 @@ class x { #foo() {}}
                                             "end": 475
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -2160,11 +2160,11 @@ class x { #foo() {}}
                                     "kind": 278,
                                     "declareToken": null,
                                     "decorators": null,
-                                    "asteriskToken": null,
                                     "staticKeyword": null,
                                     "asyncKeyword": null,
                                     "setKeyword": null,
                                     "getKeyword": null,
+                                    "asteriskToken": null,
                                     "method": {
                                         "kind": 209,
                                         "name": {
@@ -2176,7 +2176,7 @@ class x { #foo() {}}
                                             "end": 483
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -2253,11 +2253,11 @@ class x { #foo() {}}
                                     "kind": 278,
                                     "declareToken": null,
                                     "decorators": null,
-                                    "asteriskToken": null,
                                     "staticKeyword": null,
                                     "asyncKeyword": null,
                                     "setKeyword": null,
                                     "getKeyword": null,
+                                    "asteriskToken": null,
                                     "method": {
                                         "kind": 209,
                                         "name": {
@@ -2269,7 +2269,7 @@ class x { #foo() {}}
                                             "end": 502
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -2304,11 +2304,11 @@ class x { #foo() {}}
                                     "kind": 278,
                                     "declareToken": null,
                                     "decorators": null,
-                                    "asteriskToken": null,
                                     "staticKeyword": null,
                                     "asyncKeyword": null,
                                     "setKeyword": null,
                                     "getKeyword": null,
+                                    "asteriskToken": null,
                                     "method": {
                                         "kind": 209,
                                         "name": {
@@ -2320,7 +2320,7 @@ class x { #foo() {}}
                                             "end": 510
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -2355,7 +2355,6 @@ class x { #foo() {}}
                                     "kind": 278,
                                     "declareToken": null,
                                     "decorators": null,
-                                    "asteriskToken": null,
                                     "staticKeyword": {
                                         "kind": 8388716,
                                         "flags": 64,
@@ -2365,6 +2364,7 @@ class x { #foo() {}}
                                     "asyncKeyword": null,
                                     "setKeyword": null,
                                     "getKeyword": null,
+                                    "asteriskToken": null,
                                     "method": {
                                         "kind": 209,
                                         "name": {
@@ -2376,7 +2376,7 @@ class x { #foo() {}}
                                             "end": 524
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -2453,7 +2453,6 @@ class x { #foo() {}}
                                     "kind": 278,
                                     "declareToken": null,
                                     "decorators": null,
-                                    "asteriskToken": null,
                                     "staticKeyword": null,
                                     "asyncKeyword": null,
                                     "setKeyword": {
@@ -2463,6 +2462,7 @@ class x { #foo() {}}
                                         "end": 544
                                     },
                                     "getKeyword": null,
+                                    "asteriskToken": null,
                                     "method": {
                                         "kind": 209,
                                         "name": {
@@ -2474,7 +2474,7 @@ class x { #foo() {}}
                                             "end": 547
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -2509,7 +2509,6 @@ class x { #foo() {}}
                                     "kind": 278,
                                     "declareToken": null,
                                     "decorators": null,
-                                    "asteriskToken": null,
                                     "staticKeyword": null,
                                     "asyncKeyword": null,
                                     "setKeyword": {
@@ -2519,6 +2518,7 @@ class x { #foo() {}}
                                         "end": 557
                                     },
                                     "getKeyword": null,
+                                    "asteriskToken": null,
                                     "method": {
                                         "kind": 209,
                                         "name": {
@@ -2530,7 +2530,7 @@ class x { #foo() {}}
                                             "end": 559
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -2565,7 +2565,6 @@ class x { #foo() {}}
                                     "kind": 278,
                                     "declareToken": null,
                                     "decorators": null,
-                                    "asteriskToken": null,
                                     "staticKeyword": {
                                         "kind": 8388716,
                                         "flags": 64,
@@ -2580,6 +2579,7 @@ class x { #foo() {}}
                                         "end": 575
                                     },
                                     "getKeyword": null,
+                                    "asteriskToken": null,
                                     "method": {
                                         "kind": 209,
                                         "name": {
@@ -2591,7 +2591,7 @@ class x { #foo() {}}
                                             "end": 577
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -2668,7 +2668,6 @@ class x { #foo() {}}
                                     "kind": 278,
                                     "declareToken": null,
                                     "decorators": null,
-                                    "asteriskToken": null,
                                     "staticKeyword": null,
                                     "asyncKeyword": null,
                                     "setKeyword": null,
@@ -2678,6 +2677,7 @@ class x { #foo() {}}
                                         "start": 594,
                                         "end": 597
                                     },
+                                    "asteriskToken": null,
                                     "method": {
                                         "kind": 209,
                                         "name": {
@@ -2689,7 +2689,7 @@ class x { #foo() {}}
                                             "end": 600
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [
                                                 {
@@ -2733,7 +2733,6 @@ class x { #foo() {}}
                                     "kind": 278,
                                     "declareToken": null,
                                     "decorators": null,
-                                    "asteriskToken": null,
                                     "staticKeyword": null,
                                     "asyncKeyword": null,
                                     "setKeyword": null,
@@ -2743,6 +2742,7 @@ class x { #foo() {}}
                                         "start": 609,
                                         "end": 613
                                     },
+                                    "asteriskToken": null,
                                     "method": {
                                         "kind": 209,
                                         "name": {
@@ -2754,7 +2754,7 @@ class x { #foo() {}}
                                             "end": 615
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [
                                                 {
@@ -2798,7 +2798,6 @@ class x { #foo() {}}
                                     "kind": 278,
                                     "declareToken": null,
                                     "decorators": null,
-                                    "asteriskToken": null,
                                     "staticKeyword": {
                                         "kind": 8388716,
                                         "flags": 64,
@@ -2813,6 +2812,7 @@ class x { #foo() {}}
                                         "start": 630,
                                         "end": 634
                                     },
+                                    "asteriskToken": null,
                                     "method": {
                                         "kind": 209,
                                         "name": {
@@ -2824,7 +2824,7 @@ class x { #foo() {}}
                                             "end": 636
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [
                                                 {
@@ -2910,11 +2910,11 @@ class x { #foo() {}}
                                     "kind": 278,
                                     "declareToken": null,
                                     "decorators": null,
-                                    "asteriskToken": null,
                                     "staticKeyword": null,
                                     "asyncKeyword": null,
                                     "setKeyword": null,
                                     "getKeyword": null,
+                                    "asteriskToken": null,
                                     "method": {
                                         "kind": 209,
                                         "name": {
@@ -2926,7 +2926,7 @@ class x { #foo() {}}
                                             "end": 659
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -2961,7 +2961,6 @@ class x { #foo() {}}
                                     "kind": 278,
                                     "declareToken": null,
                                     "decorators": null,
-                                    "asteriskToken": null,
                                     "staticKeyword": null,
                                     "asyncKeyword": null,
                                     "setKeyword": {
@@ -2971,6 +2970,7 @@ class x { #foo() {}}
                                         "end": 669
                                     },
                                     "getKeyword": null,
+                                    "asteriskToken": null,
                                     "method": {
                                         "kind": 209,
                                         "name": {
@@ -2982,7 +2982,7 @@ class x { #foo() {}}
                                             "end": 672
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -3059,11 +3059,11 @@ class x { #foo() {}}
                                     "kind": 278,
                                     "declareToken": null,
                                     "decorators": null,
-                                    "asteriskToken": null,
                                     "staticKeyword": null,
                                     "asyncKeyword": null,
                                     "setKeyword": null,
                                     "getKeyword": null,
+                                    "asteriskToken": null,
                                     "method": {
                                         "kind": 209,
                                         "name": {
@@ -3075,7 +3075,7 @@ class x { #foo() {}}
                                             "end": 691
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -3110,7 +3110,6 @@ class x { #foo() {}}
                                     "kind": 278,
                                     "declareToken": null,
                                     "decorators": null,
-                                    "asteriskToken": null,
                                     "staticKeyword": null,
                                     "asyncKeyword": {
                                         "kind": 82031,
@@ -3120,6 +3119,7 @@ class x { #foo() {}}
                                     },
                                     "setKeyword": null,
                                     "getKeyword": null,
+                                    "asteriskToken": null,
                                     "method": {
                                         "kind": 209,
                                         "name": {
@@ -3131,7 +3131,7 @@ class x { #foo() {}}
                                             "end": 706
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -3208,11 +3208,11 @@ class x { #foo() {}}
                                     "kind": 278,
                                     "declareToken": null,
                                     "decorators": null,
-                                    "asteriskToken": null,
                                     "staticKeyword": null,
                                     "asyncKeyword": null,
                                     "setKeyword": null,
                                     "getKeyword": null,
+                                    "asteriskToken": null,
                                     "method": {
                                         "kind": 209,
                                         "name": {
@@ -3224,7 +3224,7 @@ class x { #foo() {}}
                                             "end": 725
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -3259,12 +3259,6 @@ class x { #foo() {}}
                                     "kind": 278,
                                     "declareToken": null,
                                     "decorators": null,
-                                    "asteriskToken": {
-                                        "kind": 67143222,
-                                        "flags": 64,
-                                        "start": 737,
-                                        "end": 739
-                                    },
                                     "staticKeyword": null,
                                     "asyncKeyword": {
                                         "kind": 82031,
@@ -3274,6 +3268,12 @@ class x { #foo() {}}
                                     },
                                     "setKeyword": null,
                                     "getKeyword": null,
+                                    "asteriskToken": {
+                                        "kind": 67143222,
+                                        "flags": 64,
+                                        "start": 737,
+                                        "end": 739
+                                    },
                                     "method": {
                                         "kind": 209,
                                         "name": {
@@ -3285,7 +3285,7 @@ class x { #foo() {}}
                                             "end": 741
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -3362,11 +3362,11 @@ class x { #foo() {}}
                                     "kind": 278,
                                     "declareToken": null,
                                     "decorators": null,
-                                    "asteriskToken": null,
                                     "staticKeyword": null,
                                     "asyncKeyword": null,
                                     "setKeyword": null,
                                     "getKeyword": null,
+                                    "asteriskToken": null,
                                     "method": {
                                         "kind": 209,
                                         "name": {
@@ -3378,7 +3378,7 @@ class x { #foo() {}}
                                             "end": 763
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -3455,11 +3455,11 @@ class x { #foo() {}}
                                     "kind": 278,
                                     "declareToken": null,
                                     "decorators": null,
-                                    "asteriskToken": null,
                                     "staticKeyword": null,
                                     "asyncKeyword": null,
                                     "setKeyword": null,
                                     "getKeyword": null,
+                                    "asteriskToken": null,
                                     "method": {
                                         "kind": 209,
                                         "name": {
@@ -3471,7 +3471,7 @@ class x { #foo() {}}
                                             "end": 785
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -3548,11 +3548,11 @@ class x { #foo() {}}
                                     "kind": 278,
                                     "declareToken": null,
                                     "decorators": null,
-                                    "asteriskToken": null,
                                     "staticKeyword": null,
                                     "asyncKeyword": null,
                                     "setKeyword": null,
                                     "getKeyword": null,
+                                    "asteriskToken": null,
                                     "method": {
                                         "kind": 209,
                                         "name": {
@@ -3564,7 +3564,7 @@ class x { #foo() {}}
                                             "end": 809
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -3641,11 +3641,11 @@ class x { #foo() {}}
                                     "kind": 278,
                                     "declareToken": null,
                                     "decorators": null,
-                                    "asteriskToken": null,
                                     "staticKeyword": null,
                                     "asyncKeyword": null,
                                     "setKeyword": null,
                                     "getKeyword": null,
+                                    "asteriskToken": null,
                                     "method": {
                                         "kind": 209,
                                         "name": {
@@ -3657,7 +3657,7 @@ class x { #foo() {}}
                                             "end": 833
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -3734,11 +3734,11 @@ class x { #foo() {}}
                                     "kind": 278,
                                     "declareToken": null,
                                     "decorators": null,
-                                    "asteriskToken": null,
                                     "staticKeyword": null,
                                     "asyncKeyword": null,
                                     "setKeyword": null,
                                     "getKeyword": null,
+                                    "asteriskToken": null,
                                     "method": {
                                         "kind": 209,
                                         "name": {
@@ -3750,7 +3750,7 @@ class x { #foo() {}}
                                             "end": 857
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -3827,11 +3827,11 @@ class x { #foo() {}}
                                     "kind": 278,
                                     "declareToken": null,
                                     "decorators": null,
-                                    "asteriskToken": null,
                                     "staticKeyword": null,
                                     "asyncKeyword": null,
                                     "setKeyword": null,
                                     "getKeyword": null,
+                                    "asteriskToken": null,
                                     "method": {
                                         "kind": 209,
                                         "name": {
@@ -3843,7 +3843,7 @@ class x { #foo() {}}
                                             "end": 882
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -3920,11 +3920,11 @@ class x { #foo() {}}
                                     "kind": 278,
                                     "declareToken": null,
                                     "decorators": null,
-                                    "asteriskToken": null,
                                     "staticKeyword": null,
                                     "asyncKeyword": null,
                                     "setKeyword": null,
                                     "getKeyword": null,
+                                    "asteriskToken": null,
                                     "method": {
                                         "kind": 209,
                                         "name": {
@@ -3936,7 +3936,7 @@ class x { #foo() {}}
                                             "end": 910
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -4013,7 +4013,6 @@ class x { #foo() {}}
                                     "kind": 278,
                                     "declareToken": null,
                                     "decorators": null,
-                                    "asteriskToken": null,
                                     "staticKeyword": null,
                                     "asyncKeyword": null,
                                     "setKeyword": {
@@ -4023,6 +4022,7 @@ class x { #foo() {}}
                                         "end": 931
                                     },
                                     "getKeyword": null,
+                                    "asteriskToken": null,
                                     "method": {
                                         "kind": 209,
                                         "name": {
@@ -4034,7 +4034,7 @@ class x { #foo() {}}
                                             "end": 938
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -4111,7 +4111,6 @@ class x { #foo() {}}
                                     "kind": 278,
                                     "declareToken": null,
                                     "decorators": null,
-                                    "asteriskToken": null,
                                     "staticKeyword": null,
                                     "asyncKeyword": null,
                                     "setKeyword": {
@@ -4121,6 +4120,7 @@ class x { #foo() {}}
                                         "end": 959
                                     },
                                     "getKeyword": null,
+                                    "asteriskToken": null,
                                     "method": {
                                         "kind": 209,
                                         "name": {
@@ -4132,7 +4132,7 @@ class x { #foo() {}}
                                             "end": 966
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -4209,7 +4209,6 @@ class x { #foo() {}}
                                     "kind": 278,
                                     "declareToken": null,
                                     "decorators": null,
-                                    "asteriskToken": null,
                                     "staticKeyword": null,
                                     "asyncKeyword": null,
                                     "setKeyword": {
@@ -4219,6 +4218,7 @@ class x { #foo() {}}
                                         "end": 987
                                     },
                                     "getKeyword": null,
+                                    "asteriskToken": null,
                                     "method": {
                                         "kind": 209,
                                         "name": {
@@ -4230,7 +4230,7 @@ class x { #foo() {}}
                                             "end": 994
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -4307,7 +4307,6 @@ class x { #foo() {}}
                                     "kind": 278,
                                     "declareToken": null,
                                     "decorators": null,
-                                    "asteriskToken": null,
                                     "staticKeyword": null,
                                     "asyncKeyword": null,
                                     "setKeyword": {
@@ -4317,6 +4316,7 @@ class x { #foo() {}}
                                         "end": 1015
                                     },
                                     "getKeyword": null,
+                                    "asteriskToken": null,
                                     "method": {
                                         "kind": 209,
                                         "name": {
@@ -4328,7 +4328,7 @@ class x { #foo() {}}
                                             "end": 1020
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -4405,7 +4405,6 @@ class x { #foo() {}}
                                     "kind": 278,
                                     "declareToken": null,
                                     "decorators": null,
-                                    "asteriskToken": null,
                                     "staticKeyword": null,
                                     "asyncKeyword": null,
                                     "setKeyword": {
@@ -4415,6 +4414,7 @@ class x { #foo() {}}
                                         "end": 1041
                                     },
                                     "getKeyword": null,
+                                    "asteriskToken": null,
                                     "method": {
                                         "kind": 209,
                                         "name": {
@@ -4426,7 +4426,7 @@ class x { #foo() {}}
                                             "end": 1049
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -4503,7 +4503,6 @@ class x { #foo() {}}
                                     "kind": 278,
                                     "declareToken": null,
                                     "decorators": null,
-                                    "asteriskToken": null,
                                     "staticKeyword": null,
                                     "asyncKeyword": null,
                                     "setKeyword": {
@@ -4513,6 +4512,7 @@ class x { #foo() {}}
                                         "end": 1070
                                     },
                                     "getKeyword": null,
+                                    "asteriskToken": null,
                                     "method": {
                                         "kind": 209,
                                         "name": {
@@ -4524,7 +4524,7 @@ class x { #foo() {}}
                                             "end": 1081
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -4601,7 +4601,6 @@ class x { #foo() {}}
                                     "kind": 278,
                                     "declareToken": null,
                                     "decorators": null,
-                                    "asteriskToken": null,
                                     "staticKeyword": null,
                                     "asyncKeyword": null,
                                     "setKeyword": null,
@@ -4611,6 +4610,7 @@ class x { #foo() {}}
                                         "start": 1098,
                                         "end": 1102
                                     },
+                                    "asteriskToken": null,
                                     "method": {
                                         "kind": 209,
                                         "name": {
@@ -4622,7 +4622,7 @@ class x { #foo() {}}
                                             "end": 1109
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [
                                                 {
@@ -4708,7 +4708,6 @@ class x { #foo() {}}
                                     "kind": 278,
                                     "declareToken": null,
                                     "decorators": null,
-                                    "asteriskToken": null,
                                     "staticKeyword": null,
                                     "asyncKeyword": null,
                                     "setKeyword": null,
@@ -4718,6 +4717,7 @@ class x { #foo() {}}
                                         "start": 1130,
                                         "end": 1134
                                     },
+                                    "asteriskToken": null,
                                     "method": {
                                         "kind": 209,
                                         "name": {
@@ -4729,7 +4729,7 @@ class x { #foo() {}}
                                             "end": 1141
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [
                                                 {
@@ -4815,7 +4815,6 @@ class x { #foo() {}}
                                     "kind": 278,
                                     "declareToken": null,
                                     "decorators": null,
-                                    "asteriskToken": null,
                                     "staticKeyword": null,
                                     "asyncKeyword": null,
                                     "setKeyword": null,
@@ -4825,6 +4824,7 @@ class x { #foo() {}}
                                         "start": 1162,
                                         "end": 1166
                                     },
+                                    "asteriskToken": null,
                                     "method": {
                                         "kind": 209,
                                         "name": {
@@ -4836,7 +4836,7 @@ class x { #foo() {}}
                                             "end": 1173
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [
                                                 {
@@ -4922,7 +4922,6 @@ class x { #foo() {}}
                                     "kind": 278,
                                     "declareToken": null,
                                     "decorators": null,
-                                    "asteriskToken": null,
                                     "staticKeyword": null,
                                     "asyncKeyword": null,
                                     "setKeyword": null,
@@ -4932,6 +4931,7 @@ class x { #foo() {}}
                                         "start": 1194,
                                         "end": 1198
                                     },
+                                    "asteriskToken": null,
                                     "method": {
                                         "kind": 209,
                                         "name": {
@@ -4943,7 +4943,7 @@ class x { #foo() {}}
                                             "end": 1203
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [
                                                 {
@@ -5029,7 +5029,6 @@ class x { #foo() {}}
                                     "kind": 278,
                                     "declareToken": null,
                                     "decorators": null,
-                                    "asteriskToken": null,
                                     "staticKeyword": null,
                                     "asyncKeyword": null,
                                     "setKeyword": null,
@@ -5039,6 +5038,7 @@ class x { #foo() {}}
                                         "start": 1224,
                                         "end": 1228
                                     },
+                                    "asteriskToken": null,
                                     "method": {
                                         "kind": 209,
                                         "name": {
@@ -5050,7 +5050,7 @@ class x { #foo() {}}
                                             "end": 1236
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [
                                                 {
@@ -5136,7 +5136,6 @@ class x { #foo() {}}
                                     "kind": 278,
                                     "declareToken": null,
                                     "decorators": null,
-                                    "asteriskToken": null,
                                     "staticKeyword": null,
                                     "asyncKeyword": null,
                                     "setKeyword": null,
@@ -5146,6 +5145,7 @@ class x { #foo() {}}
                                         "start": 1257,
                                         "end": 1261
                                     },
+                                    "asteriskToken": null,
                                     "method": {
                                         "kind": 209,
                                         "name": {
@@ -5157,7 +5157,7 @@ class x { #foo() {}}
                                             "end": 1272
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [
                                                 {
@@ -5243,7 +5243,6 @@ class x { #foo() {}}
                                     "kind": 278,
                                     "declareToken": null,
                                     "decorators": null,
-                                    "asteriskToken": null,
                                     "staticKeyword": null,
                                     "asyncKeyword": {
                                         "kind": 82031,
@@ -5253,6 +5252,7 @@ class x { #foo() {}}
                                     },
                                     "setKeyword": null,
                                     "getKeyword": null,
+                                    "asteriskToken": null,
                                     "method": {
                                         "kind": 209,
                                         "name": {
@@ -5264,7 +5264,7 @@ class x { #foo() {}}
                                             "end": 1306
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -5341,7 +5341,6 @@ class x { #foo() {}}
                                     "kind": 278,
                                     "declareToken": null,
                                     "decorators": null,
-                                    "asteriskToken": null,
                                     "staticKeyword": null,
                                     "asyncKeyword": {
                                         "kind": 82031,
@@ -5351,6 +5350,7 @@ class x { #foo() {}}
                                     },
                                     "setKeyword": null,
                                     "getKeyword": null,
+                                    "asteriskToken": null,
                                     "method": {
                                         "kind": 209,
                                         "name": {
@@ -5362,7 +5362,7 @@ class x { #foo() {}}
                                             "end": 1336
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -5439,7 +5439,6 @@ class x { #foo() {}}
                                     "kind": 278,
                                     "declareToken": null,
                                     "decorators": null,
-                                    "asteriskToken": null,
                                     "staticKeyword": null,
                                     "asyncKeyword": {
                                         "kind": 82031,
@@ -5449,6 +5448,7 @@ class x { #foo() {}}
                                     },
                                     "setKeyword": null,
                                     "getKeyword": null,
+                                    "asteriskToken": null,
                                     "method": {
                                         "kind": 209,
                                         "name": {
@@ -5460,7 +5460,7 @@ class x { #foo() {}}
                                             "end": 1366
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -5537,7 +5537,6 @@ class x { #foo() {}}
                                     "kind": 278,
                                     "declareToken": null,
                                     "decorators": null,
-                                    "asteriskToken": null,
                                     "staticKeyword": null,
                                     "asyncKeyword": {
                                         "kind": 82031,
@@ -5547,6 +5546,7 @@ class x { #foo() {}}
                                     },
                                     "setKeyword": null,
                                     "getKeyword": null,
+                                    "asteriskToken": null,
                                     "method": {
                                         "kind": 209,
                                         "name": {
@@ -5558,7 +5558,7 @@ class x { #foo() {}}
                                             "end": 1394
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -5635,7 +5635,6 @@ class x { #foo() {}}
                                     "kind": 278,
                                     "declareToken": null,
                                     "decorators": null,
-                                    "asteriskToken": null,
                                     "staticKeyword": null,
                                     "asyncKeyword": {
                                         "kind": 82031,
@@ -5645,6 +5644,7 @@ class x { #foo() {}}
                                     },
                                     "setKeyword": null,
                                     "getKeyword": null,
+                                    "asteriskToken": null,
                                     "method": {
                                         "kind": 209,
                                         "name": {
@@ -5656,7 +5656,7 @@ class x { #foo() {}}
                                             "end": 1422
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -5733,7 +5733,6 @@ class x { #foo() {}}
                                     "kind": 278,
                                     "declareToken": null,
                                     "decorators": null,
-                                    "asteriskToken": null,
                                     "staticKeyword": null,
                                     "asyncKeyword": {
                                         "kind": 82031,
@@ -5743,6 +5742,7 @@ class x { #foo() {}}
                                     },
                                     "setKeyword": null,
                                     "getKeyword": null,
+                                    "asteriskToken": null,
                                     "method": {
                                         "kind": 209,
                                         "name": {
@@ -5754,7 +5754,7 @@ class x { #foo() {}}
                                             "end": 1453
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -5831,7 +5831,6 @@ class x { #foo() {}}
                                     "kind": 278,
                                     "declareToken": null,
                                     "decorators": null,
-                                    "asteriskToken": null,
                                     "staticKeyword": null,
                                     "asyncKeyword": {
                                         "kind": 82031,
@@ -5841,6 +5840,7 @@ class x { #foo() {}}
                                     },
                                     "setKeyword": null,
                                     "getKeyword": null,
+                                    "asteriskToken": null,
                                     "method": {
                                         "kind": 209,
                                         "name": {
@@ -5852,7 +5852,7 @@ class x { #foo() {}}
                                             "end": 1487
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -5929,16 +5929,16 @@ class x { #foo() {}}
                                     "kind": 278,
                                     "declareToken": null,
                                     "decorators": null,
+                                    "staticKeyword": null,
+                                    "asyncKeyword": null,
+                                    "setKeyword": null,
+                                    "getKeyword": null,
                                     "asteriskToken": {
                                         "kind": 67143222,
                                         "flags": 64,
                                         "start": 1504,
                                         "end": 1506
                                     },
-                                    "staticKeyword": null,
-                                    "asyncKeyword": null,
-                                    "setKeyword": null,
-                                    "getKeyword": null,
                                     "method": {
                                         "kind": 209,
                                         "name": {
@@ -5950,7 +5950,7 @@ class x { #foo() {}}
                                             "end": 1512
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -6027,16 +6027,16 @@ class x { #foo() {}}
                                     "kind": 278,
                                     "declareToken": null,
                                     "decorators": null,
+                                    "staticKeyword": null,
+                                    "asyncKeyword": null,
+                                    "setKeyword": null,
+                                    "getKeyword": null,
                                     "asteriskToken": {
                                         "kind": 67143222,
                                         "flags": 64,
                                         "start": 1529,
                                         "end": 1531
                                     },
-                                    "staticKeyword": null,
-                                    "asyncKeyword": null,
-                                    "setKeyword": null,
-                                    "getKeyword": null,
                                     "method": {
                                         "kind": 209,
                                         "name": {
@@ -6048,7 +6048,7 @@ class x { #foo() {}}
                                             "end": 1537
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -6125,16 +6125,16 @@ class x { #foo() {}}
                                     "kind": 278,
                                     "declareToken": null,
                                     "decorators": null,
+                                    "staticKeyword": null,
+                                    "asyncKeyword": null,
+                                    "setKeyword": null,
+                                    "getKeyword": null,
                                     "asteriskToken": {
                                         "kind": 67143222,
                                         "flags": 64,
                                         "start": 1554,
                                         "end": 1556
                                     },
-                                    "staticKeyword": null,
-                                    "asyncKeyword": null,
-                                    "setKeyword": null,
-                                    "getKeyword": null,
                                     "method": {
                                         "kind": 209,
                                         "name": {
@@ -6146,7 +6146,7 @@ class x { #foo() {}}
                                             "end": 1562
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -6223,16 +6223,16 @@ class x { #foo() {}}
                                     "kind": 278,
                                     "declareToken": null,
                                     "decorators": null,
+                                    "staticKeyword": null,
+                                    "asyncKeyword": null,
+                                    "setKeyword": null,
+                                    "getKeyword": null,
                                     "asteriskToken": {
                                         "kind": 67143222,
                                         "flags": 64,
                                         "start": 1579,
                                         "end": 1581
                                     },
-                                    "staticKeyword": null,
-                                    "asyncKeyword": null,
-                                    "setKeyword": null,
-                                    "getKeyword": null,
                                     "method": {
                                         "kind": 209,
                                         "name": {
@@ -6244,7 +6244,7 @@ class x { #foo() {}}
                                             "end": 1585
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -6321,16 +6321,16 @@ class x { #foo() {}}
                                     "kind": 278,
                                     "declareToken": null,
                                     "decorators": null,
+                                    "staticKeyword": null,
+                                    "asyncKeyword": null,
+                                    "setKeyword": null,
+                                    "getKeyword": null,
                                     "asteriskToken": {
                                         "kind": 67143222,
                                         "flags": 64,
                                         "start": 1602,
                                         "end": 1604
                                     },
-                                    "staticKeyword": null,
-                                    "asyncKeyword": null,
-                                    "setKeyword": null,
-                                    "getKeyword": null,
                                     "method": {
                                         "kind": 209,
                                         "name": {
@@ -6342,7 +6342,7 @@ class x { #foo() {}}
                                             "end": 1608
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -6419,16 +6419,16 @@ class x { #foo() {}}
                                     "kind": 278,
                                     "declareToken": null,
                                     "decorators": null,
+                                    "staticKeyword": null,
+                                    "asyncKeyword": null,
+                                    "setKeyword": null,
+                                    "getKeyword": null,
                                     "asteriskToken": {
                                         "kind": 67143222,
                                         "flags": 64,
                                         "start": 1625,
                                         "end": 1627
                                     },
-                                    "staticKeyword": null,
-                                    "asyncKeyword": null,
-                                    "setKeyword": null,
-                                    "getKeyword": null,
                                     "method": {
                                         "kind": 209,
                                         "name": {
@@ -6440,7 +6440,7 @@ class x { #foo() {}}
                                             "end": 1634
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -6517,16 +6517,16 @@ class x { #foo() {}}
                                     "kind": 278,
                                     "declareToken": null,
                                     "decorators": null,
+                                    "staticKeyword": null,
+                                    "asyncKeyword": null,
+                                    "setKeyword": null,
+                                    "getKeyword": null,
                                     "asteriskToken": {
                                         "kind": 67143222,
                                         "flags": 64,
                                         "start": 1651,
                                         "end": 1653
                                     },
-                                    "staticKeyword": null,
-                                    "asyncKeyword": null,
-                                    "setKeyword": null,
-                                    "getKeyword": null,
                                     "method": {
                                         "kind": 209,
                                         "name": {
@@ -6538,7 +6538,7 @@ class x { #foo() {}}
                                             "end": 1663
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -6615,12 +6615,6 @@ class x { #foo() {}}
                                     "kind": 278,
                                     "declareToken": null,
                                     "decorators": null,
-                                    "asteriskToken": {
-                                        "kind": 67143222,
-                                        "flags": 64,
-                                        "start": 1686,
-                                        "end": 1688
-                                    },
                                     "staticKeyword": null,
                                     "asyncKeyword": {
                                         "kind": 82031,
@@ -6630,6 +6624,12 @@ class x { #foo() {}}
                                     },
                                     "setKeyword": null,
                                     "getKeyword": null,
+                                    "asteriskToken": {
+                                        "kind": 67143222,
+                                        "flags": 64,
+                                        "start": 1686,
+                                        "end": 1688
+                                    },
                                     "method": {
                                         "kind": 209,
                                         "name": {
@@ -6641,7 +6641,7 @@ class x { #foo() {}}
                                             "end": 1694
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -6718,12 +6718,6 @@ class x { #foo() {}}
                                     "kind": 278,
                                     "declareToken": null,
                                     "decorators": null,
-                                    "asteriskToken": {
-                                        "kind": 67143222,
-                                        "flags": 64,
-                                        "start": 1717,
-                                        "end": 1719
-                                    },
                                     "staticKeyword": null,
                                     "asyncKeyword": {
                                         "kind": 82031,
@@ -6733,6 +6727,12 @@ class x { #foo() {}}
                                     },
                                     "setKeyword": null,
                                     "getKeyword": null,
+                                    "asteriskToken": {
+                                        "kind": 67143222,
+                                        "flags": 64,
+                                        "start": 1717,
+                                        "end": 1719
+                                    },
                                     "method": {
                                         "kind": 209,
                                         "name": {
@@ -6744,7 +6744,7 @@ class x { #foo() {}}
                                             "end": 1725
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -6821,12 +6821,6 @@ class x { #foo() {}}
                                     "kind": 278,
                                     "declareToken": null,
                                     "decorators": null,
-                                    "asteriskToken": {
-                                        "kind": 67143222,
-                                        "flags": 64,
-                                        "start": 1748,
-                                        "end": 1750
-                                    },
                                     "staticKeyword": null,
                                     "asyncKeyword": {
                                         "kind": 82031,
@@ -6836,6 +6830,12 @@ class x { #foo() {}}
                                     },
                                     "setKeyword": null,
                                     "getKeyword": null,
+                                    "asteriskToken": {
+                                        "kind": 67143222,
+                                        "flags": 64,
+                                        "start": 1748,
+                                        "end": 1750
+                                    },
                                     "method": {
                                         "kind": 209,
                                         "name": {
@@ -6847,7 +6847,7 @@ class x { #foo() {}}
                                             "end": 1756
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -6924,12 +6924,6 @@ class x { #foo() {}}
                                     "kind": 278,
                                     "declareToken": null,
                                     "decorators": null,
-                                    "asteriskToken": {
-                                        "kind": 67143222,
-                                        "flags": 64,
-                                        "start": 1779,
-                                        "end": 1781
-                                    },
                                     "staticKeyword": null,
                                     "asyncKeyword": {
                                         "kind": 82031,
@@ -6939,6 +6933,12 @@ class x { #foo() {}}
                                     },
                                     "setKeyword": null,
                                     "getKeyword": null,
+                                    "asteriskToken": {
+                                        "kind": 67143222,
+                                        "flags": 64,
+                                        "start": 1779,
+                                        "end": 1781
+                                    },
                                     "method": {
                                         "kind": 209,
                                         "name": {
@@ -6950,7 +6950,7 @@ class x { #foo() {}}
                                             "end": 1785
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -7027,12 +7027,6 @@ class x { #foo() {}}
                                     "kind": 278,
                                     "declareToken": null,
                                     "decorators": null,
-                                    "asteriskToken": {
-                                        "kind": 67143222,
-                                        "flags": 64,
-                                        "start": 1808,
-                                        "end": 1810
-                                    },
                                     "staticKeyword": null,
                                     "asyncKeyword": {
                                         "kind": 82031,
@@ -7042,6 +7036,12 @@ class x { #foo() {}}
                                     },
                                     "setKeyword": null,
                                     "getKeyword": null,
+                                    "asteriskToken": {
+                                        "kind": 67143222,
+                                        "flags": 64,
+                                        "start": 1808,
+                                        "end": 1810
+                                    },
                                     "method": {
                                         "kind": 209,
                                         "name": {
@@ -7053,7 +7053,7 @@ class x { #foo() {}}
                                             "end": 1814
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -7130,12 +7130,6 @@ class x { #foo() {}}
                                     "kind": 278,
                                     "declareToken": null,
                                     "decorators": null,
-                                    "asteriskToken": {
-                                        "kind": 67143222,
-                                        "flags": 64,
-                                        "start": 1837,
-                                        "end": 1839
-                                    },
                                     "staticKeyword": null,
                                     "asyncKeyword": {
                                         "kind": 82031,
@@ -7145,6 +7139,12 @@ class x { #foo() {}}
                                     },
                                     "setKeyword": null,
                                     "getKeyword": null,
+                                    "asteriskToken": {
+                                        "kind": 67143222,
+                                        "flags": 64,
+                                        "start": 1837,
+                                        "end": 1839
+                                    },
                                     "method": {
                                         "kind": 209,
                                         "name": {
@@ -7156,7 +7156,7 @@ class x { #foo() {}}
                                             "end": 1846
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -7233,12 +7233,6 @@ class x { #foo() {}}
                                     "kind": 278,
                                     "declareToken": null,
                                     "decorators": null,
-                                    "asteriskToken": {
-                                        "kind": 67143222,
-                                        "flags": 64,
-                                        "start": 1869,
-                                        "end": 1871
-                                    },
                                     "staticKeyword": null,
                                     "asyncKeyword": {
                                         "kind": 82031,
@@ -7248,6 +7242,12 @@ class x { #foo() {}}
                                     },
                                     "setKeyword": null,
                                     "getKeyword": null,
+                                    "asteriskToken": {
+                                        "kind": 67143222,
+                                        "flags": 64,
+                                        "start": 1869,
+                                        "end": 1871
+                                    },
                                     "method": {
                                         "kind": 209,
                                         "name": {
@@ -7259,7 +7259,7 @@ class x { #foo() {}}
                                             "end": 1881
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -7363,11 +7363,11 @@ class x { #foo() {}}
                                     "kind": 278,
                                     "declareToken": null,
                                     "decorators": null,
-                                    "asteriskToken": null,
                                     "staticKeyword": null,
                                     "asyncKeyword": null,
                                     "setKeyword": null,
                                     "getKeyword": null,
+                                    "asteriskToken": null,
                                     "method": {
                                         "kind": 209,
                                         "name": {
@@ -7379,7 +7379,7 @@ class x { #foo() {}}
                                             "end": 1905
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -7483,7 +7483,6 @@ class x { #foo() {}}
                                     "kind": 278,
                                     "declareToken": null,
                                     "decorators": null,
-                                    "asteriskToken": null,
                                     "staticKeyword": null,
                                     "asyncKeyword": null,
                                     "setKeyword": {
@@ -7493,6 +7492,7 @@ class x { #foo() {}}
                                         "end": 1930
                                     },
                                     "getKeyword": null,
+                                    "asteriskToken": null,
                                     "method": {
                                         "kind": 209,
                                         "name": {
@@ -7504,7 +7504,7 @@ class x { #foo() {}}
                                             "end": 1933
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -7608,7 +7608,6 @@ class x { #foo() {}}
                                     "kind": 278,
                                     "declareToken": null,
                                     "decorators": null,
-                                    "asteriskToken": null,
                                     "staticKeyword": null,
                                     "asyncKeyword": null,
                                     "setKeyword": null,
@@ -7618,6 +7617,7 @@ class x { #foo() {}}
                                         "start": 1955,
                                         "end": 1958
                                     },
+                                    "asteriskToken": null,
                                     "method": {
                                         "kind": 209,
                                         "name": {
@@ -7629,7 +7629,7 @@ class x { #foo() {}}
                                             "end": 1961
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [
                                                 {
@@ -7742,16 +7742,16 @@ class x { #foo() {}}
                                     "kind": 278,
                                     "declareToken": null,
                                     "decorators": null,
+                                    "staticKeyword": null,
+                                    "asyncKeyword": null,
+                                    "setKeyword": null,
+                                    "getKeyword": null,
                                     "asteriskToken": {
                                         "kind": 67143222,
                                         "flags": 64,
                                         "start": 1986,
                                         "end": 1987
                                     },
-                                    "staticKeyword": null,
-                                    "asyncKeyword": null,
-                                    "setKeyword": null,
-                                    "getKeyword": null,
                                     "method": {
                                         "kind": 209,
                                         "name": {
@@ -7763,7 +7763,7 @@ class x { #foo() {}}
                                             "end": 1989
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -7867,7 +7867,6 @@ class x { #foo() {}}
                                     "kind": 278,
                                     "declareToken": null,
                                     "decorators": null,
-                                    "asteriskToken": null,
                                     "staticKeyword": null,
                                     "asyncKeyword": {
                                         "kind": 82031,
@@ -7877,6 +7876,7 @@ class x { #foo() {}}
                                     },
                                     "setKeyword": null,
                                     "getKeyword": null,
+                                    "asteriskToken": null,
                                     "method": {
                                         "kind": 209,
                                         "name": {
@@ -7888,7 +7888,7 @@ class x { #foo() {}}
                                             "end": 2019
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -7992,12 +7992,6 @@ class x { #foo() {}}
                                     "kind": 278,
                                     "declareToken": null,
                                     "decorators": null,
-                                    "asteriskToken": {
-                                        "kind": 67143222,
-                                        "flags": 64,
-                                        "start": 2046,
-                                        "end": 2048
-                                    },
                                     "staticKeyword": null,
                                     "asyncKeyword": {
                                         "kind": 82031,
@@ -8007,6 +8001,12 @@ class x { #foo() {}}
                                     },
                                     "setKeyword": null,
                                     "getKeyword": null,
+                                    "asteriskToken": {
+                                        "kind": 67143222,
+                                        "flags": 64,
+                                        "start": 2046,
+                                        "end": 2048
+                                    },
                                     "method": {
                                         "kind": 209,
                                         "name": {
@@ -8018,7 +8018,7 @@ class x { #foo() {}}
                                             "end": 2050
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -8129,11 +8129,11 @@ class x { #foo() {}}
                                     "kind": 278,
                                     "declareToken": null,
                                     "decorators": null,
-                                    "asteriskToken": null,
                                     "staticKeyword": null,
                                     "asyncKeyword": null,
                                     "setKeyword": null,
                                     "getKeyword": null,
+                                    "asteriskToken": null,
                                     "method": {
                                         "kind": 209,
                                         "name": {
@@ -8145,7 +8145,7 @@ class x { #foo() {}}
                                             "end": 2078
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -8256,7 +8256,6 @@ class x { #foo() {}}
                                     "kind": 278,
                                     "declareToken": null,
                                     "decorators": null,
-                                    "asteriskToken": null,
                                     "staticKeyword": null,
                                     "asyncKeyword": null,
                                     "setKeyword": {
@@ -8266,6 +8265,7 @@ class x { #foo() {}}
                                         "end": 2107
                                     },
                                     "getKeyword": null,
+                                    "asteriskToken": null,
                                     "method": {
                                         "kind": 209,
                                         "name": {
@@ -8277,7 +8277,7 @@ class x { #foo() {}}
                                             "end": 2110
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -8388,7 +8388,6 @@ class x { #foo() {}}
                                     "kind": 278,
                                     "declareToken": null,
                                     "decorators": null,
-                                    "asteriskToken": null,
                                     "staticKeyword": null,
                                     "asyncKeyword": null,
                                     "setKeyword": null,
@@ -8398,6 +8397,7 @@ class x { #foo() {}}
                                         "start": 2136,
                                         "end": 2139
                                     },
+                                    "asteriskToken": null,
                                     "method": {
                                         "kind": 209,
                                         "name": {
@@ -8409,7 +8409,7 @@ class x { #foo() {}}
                                             "end": 2142
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [
                                                 {
@@ -8529,16 +8529,16 @@ class x { #foo() {}}
                                     "kind": 278,
                                     "declareToken": null,
                                     "decorators": null,
+                                    "staticKeyword": null,
+                                    "asyncKeyword": null,
+                                    "setKeyword": null,
+                                    "getKeyword": null,
                                     "asteriskToken": {
                                         "kind": 67143222,
                                         "flags": 64,
                                         "start": 2171,
                                         "end": 2172
                                     },
-                                    "staticKeyword": null,
-                                    "asyncKeyword": null,
-                                    "setKeyword": null,
-                                    "getKeyword": null,
                                     "method": {
                                         "kind": 209,
                                         "name": {
@@ -8550,7 +8550,7 @@ class x { #foo() {}}
                                             "end": 2174
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -8661,7 +8661,6 @@ class x { #foo() {}}
                                     "kind": 278,
                                     "declareToken": null,
                                     "decorators": null,
-                                    "asteriskToken": null,
                                     "staticKeyword": null,
                                     "asyncKeyword": {
                                         "kind": 82031,
@@ -8671,6 +8670,7 @@ class x { #foo() {}}
                                     },
                                     "setKeyword": null,
                                     "getKeyword": null,
+                                    "asteriskToken": null,
                                     "method": {
                                         "kind": 209,
                                         "name": {
@@ -8682,7 +8682,7 @@ class x { #foo() {}}
                                             "end": 2208
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -8793,12 +8793,6 @@ class x { #foo() {}}
                                     "kind": 278,
                                     "declareToken": null,
                                     "decorators": null,
-                                    "asteriskToken": {
-                                        "kind": 67143222,
-                                        "flags": 64,
-                                        "start": 2239,
-                                        "end": 2241
-                                    },
                                     "staticKeyword": null,
                                     "asyncKeyword": {
                                         "kind": 82031,
@@ -8808,6 +8802,12 @@ class x { #foo() {}}
                                     },
                                     "setKeyword": null,
                                     "getKeyword": null,
+                                    "asteriskToken": {
+                                        "kind": 67143222,
+                                        "flags": 64,
+                                        "start": 2239,
+                                        "end": 2241
+                                    },
                                     "method": {
                                         "kind": 209,
                                         "name": {
@@ -8819,7 +8819,7 @@ class x { #foo() {}}
                                             "end": 2243
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -8923,11 +8923,11 @@ class x { #foo() {}}
                                     "kind": 278,
                                     "declareToken": null,
                                     "decorators": null,
-                                    "asteriskToken": null,
                                     "staticKeyword": null,
                                     "asyncKeyword": null,
                                     "setKeyword": null,
                                     "getKeyword": null,
+                                    "asteriskToken": null,
                                     "method": {
                                         "kind": 209,
                                         "name": {
@@ -8939,7 +8939,7 @@ class x { #foo() {}}
                                             "end": 2266
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -9043,7 +9043,6 @@ class x { #foo() {}}
                                     "kind": 278,
                                     "declareToken": null,
                                     "decorators": null,
-                                    "asteriskToken": null,
                                     "staticKeyword": null,
                                     "asyncKeyword": null,
                                     "setKeyword": {
@@ -9053,6 +9052,7 @@ class x { #foo() {}}
                                         "end": 2290
                                     },
                                     "getKeyword": null,
+                                    "asteriskToken": null,
                                     "method": {
                                         "kind": 209,
                                         "name": {
@@ -9064,7 +9064,7 @@ class x { #foo() {}}
                                             "end": 2293
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -9168,7 +9168,6 @@ class x { #foo() {}}
                                     "kind": 278,
                                     "declareToken": null,
                                     "decorators": null,
-                                    "asteriskToken": null,
                                     "staticKeyword": null,
                                     "asyncKeyword": null,
                                     "setKeyword": null,
@@ -9178,6 +9177,7 @@ class x { #foo() {}}
                                         "start": 2314,
                                         "end": 2317
                                     },
+                                    "asteriskToken": null,
                                     "method": {
                                         "kind": 209,
                                         "name": {
@@ -9189,7 +9189,7 @@ class x { #foo() {}}
                                             "end": 2320
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [
                                                 {
@@ -9302,16 +9302,16 @@ class x { #foo() {}}
                                     "kind": 278,
                                     "declareToken": null,
                                     "decorators": null,
+                                    "staticKeyword": null,
+                                    "asyncKeyword": null,
+                                    "setKeyword": null,
+                                    "getKeyword": null,
                                     "asteriskToken": {
                                         "kind": 67143222,
                                         "flags": 64,
                                         "start": 2344,
                                         "end": 2345
                                     },
-                                    "staticKeyword": null,
-                                    "asyncKeyword": null,
-                                    "setKeyword": null,
-                                    "getKeyword": null,
                                     "method": {
                                         "kind": 209,
                                         "name": {
@@ -9323,7 +9323,7 @@ class x { #foo() {}}
                                             "end": 2347
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -9427,7 +9427,6 @@ class x { #foo() {}}
                                     "kind": 278,
                                     "declareToken": null,
                                     "decorators": null,
-                                    "asteriskToken": null,
                                     "staticKeyword": null,
                                     "asyncKeyword": {
                                         "kind": 82031,
@@ -9437,6 +9436,7 @@ class x { #foo() {}}
                                     },
                                     "setKeyword": null,
                                     "getKeyword": null,
+                                    "asteriskToken": null,
                                     "method": {
                                         "kind": 209,
                                         "name": {
@@ -9448,7 +9448,7 @@ class x { #foo() {}}
                                             "end": 2376
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -9552,12 +9552,6 @@ class x { #foo() {}}
                                     "kind": 278,
                                     "declareToken": null,
                                     "decorators": null,
-                                    "asteriskToken": {
-                                        "kind": 67143222,
-                                        "flags": 64,
-                                        "start": 2402,
-                                        "end": 2404
-                                    },
                                     "staticKeyword": null,
                                     "asyncKeyword": {
                                         "kind": 82031,
@@ -9567,6 +9561,12 @@ class x { #foo() {}}
                                     },
                                     "setKeyword": null,
                                     "getKeyword": null,
+                                    "asteriskToken": {
+                                        "kind": 67143222,
+                                        "flags": 64,
+                                        "start": 2402,
+                                        "end": 2404
+                                    },
                                     "method": {
                                         "kind": 209,
                                         "name": {
@@ -9578,7 +9578,7 @@ class x { #foo() {}}
                                             "end": 2406
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -9689,11 +9689,11 @@ class x { #foo() {}}
                                     "kind": 278,
                                     "declareToken": null,
                                     "decorators": null,
-                                    "asteriskToken": null,
                                     "staticKeyword": null,
                                     "asyncKeyword": null,
                                     "setKeyword": null,
                                     "getKeyword": null,
+                                    "asteriskToken": null,
                                     "method": {
                                         "kind": 209,
                                         "name": {
@@ -9705,7 +9705,7 @@ class x { #foo() {}}
                                             "end": 2433
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -9816,7 +9816,6 @@ class x { #foo() {}}
                                     "kind": 278,
                                     "declareToken": null,
                                     "decorators": null,
-                                    "asteriskToken": null,
                                     "staticKeyword": null,
                                     "asyncKeyword": null,
                                     "setKeyword": {
@@ -9826,6 +9825,7 @@ class x { #foo() {}}
                                         "end": 2461
                                     },
                                     "getKeyword": null,
+                                    "asteriskToken": null,
                                     "method": {
                                         "kind": 209,
                                         "name": {
@@ -9837,7 +9837,7 @@ class x { #foo() {}}
                                             "end": 2464
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -9948,7 +9948,6 @@ class x { #foo() {}}
                                     "kind": 278,
                                     "declareToken": null,
                                     "decorators": null,
-                                    "asteriskToken": null,
                                     "staticKeyword": null,
                                     "asyncKeyword": null,
                                     "setKeyword": null,
@@ -9958,6 +9957,7 @@ class x { #foo() {}}
                                         "start": 2489,
                                         "end": 2492
                                     },
+                                    "asteriskToken": null,
                                     "method": {
                                         "kind": 209,
                                         "name": {
@@ -9969,7 +9969,7 @@ class x { #foo() {}}
                                             "end": 2495
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [
                                                 {
@@ -10089,16 +10089,16 @@ class x { #foo() {}}
                                     "kind": 278,
                                     "declareToken": null,
                                     "decorators": null,
+                                    "staticKeyword": null,
+                                    "asyncKeyword": null,
+                                    "setKeyword": null,
+                                    "getKeyword": null,
                                     "asteriskToken": {
                                         "kind": 67143222,
                                         "flags": 64,
                                         "start": 2523,
                                         "end": 2524
                                     },
-                                    "staticKeyword": null,
-                                    "asyncKeyword": null,
-                                    "setKeyword": null,
-                                    "getKeyword": null,
                                     "method": {
                                         "kind": 209,
                                         "name": {
@@ -10110,7 +10110,7 @@ class x { #foo() {}}
                                             "end": 2526
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -10221,7 +10221,6 @@ class x { #foo() {}}
                                     "kind": 278,
                                     "declareToken": null,
                                     "decorators": null,
-                                    "asteriskToken": null,
                                     "staticKeyword": null,
                                     "asyncKeyword": {
                                         "kind": 82031,
@@ -10231,6 +10230,7 @@ class x { #foo() {}}
                                     },
                                     "setKeyword": null,
                                     "getKeyword": null,
+                                    "asteriskToken": null,
                                     "method": {
                                         "kind": 209,
                                         "name": {
@@ -10242,7 +10242,7 @@ class x { #foo() {}}
                                             "end": 2559
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -10353,12 +10353,6 @@ class x { #foo() {}}
                                     "kind": 278,
                                     "declareToken": null,
                                     "decorators": null,
-                                    "asteriskToken": {
-                                        "kind": 67143222,
-                                        "flags": 64,
-                                        "start": 2589,
-                                        "end": 2591
-                                    },
                                     "staticKeyword": null,
                                     "asyncKeyword": {
                                         "kind": 82031,
@@ -10368,6 +10362,12 @@ class x { #foo() {}}
                                     },
                                     "setKeyword": null,
                                     "getKeyword": null,
+                                    "asteriskToken": {
+                                        "kind": 67143222,
+                                        "flags": 64,
+                                        "start": 2589,
+                                        "end": 2591
+                                    },
                                     "method": {
                                         "kind": 209,
                                         "name": {
@@ -10379,7 +10379,7 @@ class x { #foo() {}}
                                             "end": 2593
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -10445,329 +10445,350 @@ class x { #foo() {}}
 
 ```javascript
 
-class x {
-  #foo {}
-}
-(class  {
-    #a {}
-  });
-(class  {
-    get #a {}
-  });
-(class  {
-    set #a {}
-  });
-(class  {
-    #a {}
-  });
-(class  {
-    async #a {}
-  });
-(class  {
-    async #a {}
-  });
-(class  {
-    #a {}
-    #b {}
-  });
-(class  {
-    get #a {}
-    set #a {}
-  });
-(class  {
-    get #a {}
-    get #b {}
-    set #a {}
-  });
-(class  {
-    get #a {}
-    get #b {}
-    set #a {}
-    set #b {}
-  });
-(class  {
-    set #a {}
-    set #b {}
-  });
-(class  {
-    get #a {}
-    get #b {}
-  });
-(class  {
-    #a {}
-    static static a {}
-  });
-(class  {
-    #a {}
-    a {}
-  });
-(class  {
-    #a {}
-    a {}
-    static static a {}
-  });
-(class  {
-    get #a {}
-    get a {}
-    static get static a {}
-  });
-(class  {
-    set #a {}
-    set a {}
-    static set static a {}
-  });
-(class  {
-    #a {}
-    get #b {}
-  });
-(class  {
-    #a {}
-    async #b {}
-  });
-(class  {
-    #a {}
-    async #b {}
-  });
-(class  {
-    #get {}
-  });
-(class  {
-    #set {}
-  });
-(class  {
-    #yield {}
-  });
-(class  {
-    #await {}
-  });
-(class  {
-    #async {}
-  });
-(class  {
-    #static {}
-  });
-(class  {
-    #arguments {}
-  });
-(class  {
-    get #yield {}
-  });
-(class  {
-    get #await {}
-  });
-(class  {
-    get #async {}
-  });
-(class  {
-    get #get {}
-  });
-(class  {
-    get #static {}
-  });
-(class  {
-    get #arguments {}
-  });
-(class  {
-    set #yield {}
-  });
-(class  {
-    set #async {}
-  });
-(class  {
-    set #await {}
-  });
-(class  {
-    set #set {}
-  });
-(class  {
-    set #static {}
-  });
-(class  {
-    set #arguments {}
-  });
-(class  {
-    async #yield {}
-  });
-(class  {
-    async #async {}
-  });
-(class  {
-    async #await {}
-  });
-(class  {
-    async #get {}
-  });
-(class  {
-    async #set {}
-  });
-(class  {
-    async #static {}
-  });
-(class  {
-    async #arguments {}
-  });
-(class  {
-    #async {}
-  });
-(class  {
-    #await {}
-  });
-(class  {
-    #yield {}
-  });
-(class  {
-    #get {}
-  });
-(class  {
-    #set {}
-  });
-(class  {
-    #static {}
-  });
-(class  {
-    #arguments {}
-  });
-(class  {
-    async #yield {}
-  });
-(class  {
-    async #async {}
-  });
-(class  {
-    async #await {}
-  });
-(class  {
-    async #get {}
-  });
-(class  {
-    async #set {}
-  });
-(class  {
-    async #static {}
-  });
-(class  {
-    async #arguments {}
-  });
-(class  {
-    #b;
-
-    #a {}
-  });
-(class  {
-    #b;
-
-    get #a {}
-  });
-(class  {
-    #b;
-
-    set #a {}
-  });
-(class  {
-    #b;
-
-    #a {}
-  });
-(class  {
-    #b;
-
-    async #a {}
-  });
-(class  {
-    #b;
-
-    async #a {}
-  });
-(class  {
-    #b = 1;
-
-    #a {}
-  });
-(class  {
-    #b = 1;
-
-    get #a {}
-  });
-(class  {
-    #b = 1;
-
-    set #a {}
-  });
-(class  {
-    #b = 1;
-
-    #a {}
-  });
-(class  {
-    #b = 1;
-
-    async #a {}
-  });
-(class  {
-    #b = 1;
-
-    async #a {}
-  });
-(class  {
-    a;
-
-    #a {}
-  });
-(class  {
-    a;
-
-    get #a {}
-  });
-(class  {
-    a;
-
-    set #a {}
-  });
-(class  {
-    a;
-
-    #a {}
-  });
-(class  {
-    a;
-
-    async #a {}
-  });
-(class  {
-    a;
-
-    async #a {}
-  });
-(class  {
-    a = 1;
-
-    #a {}
-  });
-(class  {
-    a = 1;
-
-    get #a {}
-  });
-(class  {
-    a = 1;
-
-    set #a {}
-  });
-(class  {
-    a = 1;
-
-    #a {}
-  });
-(class  {
-    a = 1;
-
-    async #a {}
-  });
-(class  {
-    a = 1;
-
-    async #a {}
-  });
+ class x {
+    #foo() {
+    }
+}, (class  {
+    #a() {
+    }
+});, (class  {
+    get #a() {
+    }
+});, (class  {
+    set #a(foo) {
+    }
+});, (class  {
+    *#a() {
+    }
+});, (class  {
+    async #a() {
+    }
+});, (class  {
+    async *#a() {
+    }
+});, (class  {
+    #a() {
+    },
+    #b() {
+    }
+});, (class  {
+    get #a() {
+    },
+    set #a(foo) {
+    }
+});, (class  {
+    get #a() {
+    },
+    get #b() {
+    },
+    set #a(foo) {
+    }
+});, (class  {
+    get #a() {
+    },
+    get #b() {
+    },
+    set #a(foo) {
+    },
+    set #b(foo) {
+    }
+});, (class  {
+    set #a(foo) {
+    },
+    set #b(foo) {
+    }
+});, (class  {
+    get #a() {
+    },
+    get #b() {
+    }
+});, (class  {
+    #a() {
+    },
+    static a() {
+    }
+});, (class  {
+    #a() {
+    },
+    a() {
+    }
+});, (class  {
+    #a() {
+    },
+    a() {
+    },
+    static a() {
+    }
+});, (class  {
+    get #a() {
+    },
+    get a() {
+    },
+    static get a() {
+    }
+});, (class  {
+    set #a(foo) {
+    },
+    set a(foo) {
+    },
+    static set a(foo) {
+    }
+});, (class  {
+    #a() {
+    },
+    get #b() {
+    }
+});, (class  {
+    #a() {
+    },
+    async #b() {
+    }
+});, (class  {
+    #a() {
+    },
+    async *#b() {
+    }
+});, (class  {
+    #get() {
+    }
+});, (class  {
+    #set() {
+    }
+});, (class  {
+    #yield() {
+    }
+});, (class  {
+    #await() {
+    }
+});, (class  {
+    #async() {
+    }
+});, (class  {
+    #static() {
+    }
+});, (class  {
+    #arguments() {
+    }
+});, (class  {
+    get #yield() {
+    }
+});, (class  {
+    get #await() {
+    }
+});, (class  {
+    get #async() {
+    }
+});, (class  {
+    get #get() {
+    }
+});, (class  {
+    get #static() {
+    }
+});, (class  {
+    get #arguments() {
+    }
+});, (class  {
+    set #yield(test) {
+    }
+});, (class  {
+    set #async(test) {
+    }
+});, (class  {
+    set #await(test) {
+    }
+});, (class  {
+    set #set(test) {
+    }
+});, (class  {
+    set #static(test) {
+    }
+});, (class  {
+    set #arguments(test) {
+    }
+});, (class  {
+    async #yield() {
+    }
+});, (class  {
+    async #async() {
+    }
+});, (class  {
+    async #await() {
+    }
+});, (class  {
+    async #get() {
+    }
+});, (class  {
+    async #set() {
+    }
+});, (class  {
+    async #static() {
+    }
+});, (class  {
+    async #arguments() {
+    }
+});, (class  {
+    *#async() {
+    }
+});, (class  {
+    *#await() {
+    }
+});, (class  {
+    *#yield() {
+    }
+});, (class  {
+    *#get() {
+    }
+});, (class  {
+    *#set() {
+    }
+});, (class  {
+    *#static() {
+    }
+});, (class  {
+    *#arguments() {
+    }
+});, (class  {
+    async *#yield() {
+    }
+});, (class  {
+    async *#async() {
+    }
+});, (class  {
+    async *#await() {
+    }
+});, (class  {
+    async *#get() {
+    }
+});, (class  {
+    async *#set() {
+    }
+});, (class  {
+    async *#static() {
+    }
+});, (class  {
+    async *#arguments() {
+    }
+});, (class  {
+    #b,
+    ,
+    #a() {
+    }
+});, (class  {
+    #b,
+    ,
+    get #a() {
+    }
+});, (class  {
+    #b,
+    ,
+    set #a(foo) {
+    }
+});, (class  {
+    #b,
+    ,
+    *#a() {
+    }
+});, (class  {
+    #b,
+    ,
+    async #a() {
+    }
+});, (class  {
+    #b,
+    ,
+    async *#a() {
+    }
+});, (class  {
+    #b = 1,
+    ,
+    #a() {
+    }
+});, (class  {
+    #b = 1,
+    ,
+    get #a() {
+    }
+});, (class  {
+    #b = 1,
+    ,
+    set #a(foo) {
+    }
+});, (class  {
+    #b = 1,
+    ,
+    *#a() {
+    }
+});, (class  {
+    #b = 1,
+    ,
+    async #a() {
+    }
+});, (class  {
+    #b = 1,
+    ,
+    async *#a() {
+    }
+});, (class  {
+    a,
+    ,
+    #a() {
+    }
+});, (class  {
+    a,
+    ,
+    get #a() {
+    }
+});, (class  {
+    a,
+    ,
+    set #a(foo) {
+    }
+});, (class  {
+    a,
+    ,
+    *#a() {
+    }
+});, (class  {
+    a,
+    ,
+    async #a() {
+    }
+});, (class  {
+    a,
+    ,
+    async *#a() {
+    }
+});, (class  {
+    a = 1,
+    ,
+    #a() {
+    }
+});, (class  {
+    a = 1,
+    ,
+    get #a() {
+    }
+});, (class  {
+    a = 1,
+    ,
+    set #a(foo) {
+    }
+});, (class  {
+    a = 1,
+    ,
+    *#a() {
+    }
+});, (class  {
+    a = 1,
+    ,
+    async #a() {
+    }
+});, (class  {
+    a = 1,
+    ,
+    async *#a() {
+    }
+}); 
 ```
 
 ### Diagnostics

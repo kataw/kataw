@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/miscellaneous/should-fail/autogen.md
-- Path: kataw/test/__snapshot__/parser/miscellaneous/should-fail/gen/in_a_block
+- Regenerated: 2021-06-12
+- From: d
+- Path: k
 > :: test: in a block
 > :: case: class A { static set prototype() {} }
 ## Options
@@ -57,7 +57,6 @@
                                         "kind": 278,
                                         "declareToken": null,
                                         "decorators": null,
-                                        "asteriskToken": null,
                                         "staticKeyword": {
                                             "kind": 8388716,
                                             "flags": 64,
@@ -72,6 +71,7 @@
                                             "start": 18,
                                             "end": 22
                                         },
+                                        "asteriskToken": null,
                                         "method": {
                                             "kind": 209,
                                             "name": {
@@ -83,7 +83,7 @@
                                                 "end": 32
                                             },
                                             "typeParameters": null,
-                                            "formalParameters": {
+                                            "formalParameterList": {
                                                 "kind": 214,
                                                 "formalParameters": [],
                                                 "trailingComma": false,

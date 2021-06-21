@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/miscellaneous/destructuring/positive-cases/autogen.md
-- Path: kataw/test/__snapshot__/parser/miscellaneous/destructuring/positive-cases/gen/parenthized_arrow_second_arg
+- Regenerated: 2021-06-12
+- From: d
+- Path: g
 > :: test: parenthized arrow second arg
 > :: case: [a,b,...rest]
 ## Options
@@ -48,12 +48,7 @@ var f = (argument1,[a,b,...rest]) => {};
                         "type": null,
                         "initializer": {
                             "kind": 271,
-                            "arrowToken": {
-                                "kind": 10,
-                                "flags": 64,
-                                "start": 33,
-                                "end": 36
-                            },
+                            "asyncKeyword": null,
                             "typeParameters": null,
                             "parameters": [
                                 {
@@ -119,8 +114,13 @@ var f = (argument1,[a,b,...rest]) => {};
                                     "end": 32
                                 }
                             ],
-                            "asyncKeyword": null,
                             "returnType": null,
+                            "arrowToken": {
+                                "kind": 10,
+                                "flags": 64,
+                                "start": 33,
+                                "end": 36
+                            },
                             "contents": {
                                 "kind": 216,
                                 "functionStatementList": {
@@ -166,7 +166,8 @@ var f = (argument1,[a,b,...rest]) => {};
 
 ```javascript
 
-var f = (argument1, [, b, a]) =>  {};
+ var f = (argument1, [...rest, b, a]) => {
+}; 
 ```
 
 ### Diagnostics

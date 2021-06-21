@@ -220,7 +220,7 @@ type a = ((q, x)=> T) => T;
 
 ```javascript
 
-
+  
 ```
 
 ### Diagnostics

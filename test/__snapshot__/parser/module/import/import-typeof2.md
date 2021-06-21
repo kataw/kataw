@@ -91,7 +91,7 @@ import typeof foo24 from "bar";
 
 ```javascript
 
-import foo24  ;
+  
 ```
 
 ### Diagnostics

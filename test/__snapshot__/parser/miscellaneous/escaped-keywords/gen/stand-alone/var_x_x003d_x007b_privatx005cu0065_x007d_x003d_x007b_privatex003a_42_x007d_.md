@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/miscellaneous/escaped-keywords/autogen.md
-- Path: kataw/test/__snapshot__/parser/miscellaneous/escaped-keywords/gen/stand-alone
+- Regenerated: 2021-06-12
+- From: d
+- Path: e
 > :: test: stand-alone
 > :: case: var x = { privat\u0065 } = { private: 42 };
 ## Options
@@ -146,7 +146,7 @@ var x = { privat\u0065 } = { private: 42 };
 
 ```javascript
 
-var x = { private } = { private: 42 };
+ var x = { privat\u0065 }={ private : 42 }; 
 ```
 
 ### Diagnostics

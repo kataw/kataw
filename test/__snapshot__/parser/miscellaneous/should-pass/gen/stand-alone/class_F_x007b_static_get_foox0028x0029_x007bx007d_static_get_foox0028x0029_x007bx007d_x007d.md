@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/miscellaneous/should-pass/autogen.md
-- Path: kataw/test/__snapshot__/parser/miscellaneous/should-pass/gen/stand-alone
+- Regenerated: 2021-06-12
+- From: d
+- Path: e
 > :: test: stand-alone
 > :: case: class F { static get foo() {} static get foo() {} }
 ## Options
@@ -52,7 +52,6 @@ class F { static get foo() {} static get foo() {} }
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": null,
                             "staticKeyword": {
                                 "kind": 8388716,
                                 "flags": 64,
@@ -67,6 +66,7 @@ class F { static get foo() {} static get foo() {} }
                                 "end": 20
                             },
                             "getKeyword": null,
+                            "asteriskToken": null,
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -78,7 +78,7 @@ class F { static get foo() {} static get foo() {} }
                                     "end": 24
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -113,7 +113,6 @@ class F { static get foo() {} static get foo() {} }
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": null,
                             "staticKeyword": {
                                 "kind": 8388716,
                                 "flags": 64,
@@ -128,6 +127,7 @@ class F { static get foo() {} static get foo() {} }
                                 "end": 40
                             },
                             "getKeyword": null,
+                            "asteriskToken": null,
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -139,7 +139,7 @@ class F { static get foo() {} static get foo() {} }
                                     "end": 44
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -197,10 +197,12 @@ class F { static get foo() {} static get foo() {} }
 
 ```javascript
 
-class F {
-  static get static foo {}
-  static get static foo {}
-}
+ class F {
+    static get foo() {
+    },
+    static get foo() {
+    }
+} 
 ```
 
 ### Diagnostics

@@ -44,11 +44,11 @@ class x { foo(x=super[foo]){ }}
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": null,
                             "getKeyword": null,
+                            "asteriskToken": null,
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -60,7 +60,7 @@ class x { foo(x=super[foo]){ }}
                                     "end": 13
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [
                                         {
@@ -77,7 +77,7 @@ class x { foo(x=super[foo]){ }}
                                             "optionalToken": null,
                                             "type": null,
                                             "right": {
-                                                "kind": 536871042,
+                                                "kind": 130,
                                                 "member": {
                                                     "kind": 225,
                                                     "superKeyword": {
@@ -98,7 +98,7 @@ class x { foo(x=super[foo]){ }}
                                                     "start": 22,
                                                     "end": 25
                                                 },
-                                                "flags": 32,
+                                                "flags": 536870944,
                                                 "start": 16,
                                                 "end": 26
                                             },
@@ -162,9 +162,10 @@ class x { foo(x=super[foo]){ }}
 
 ```javascript
 
-class x {
-  foo {}
-}
+ class x {
+    foo() {
+    }
+} 
 ```
 
 ### Diagnostics

@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/miscellaneous/destructuring/destructuring-assignment-positive-tests/autogen.md
-- Path: kataw/test/__snapshot__/parser/miscellaneous/destructuring/destructuring-assignment-positive-tests/gen/strict_directive_lex_and_for_in
+- Regenerated: 2021-06-12
+- From: d
+- Path: n
 > :: test: strict directive lex and for in
 > :: case: [async x => z]
 ## Options
@@ -147,11 +147,11 @@
                             "elements": [
                                 {
                                     "kind": 271,
-                                    "arrowToken": {
-                                        "kind": 10,
+                                    "asyncKeyword": {
+                                        "kind": 82031,
                                         "flags": 64,
-                                        "start": 49,
-                                        "end": 52
+                                        "start": 42,
+                                        "end": 47
                                     },
                                     "typeParameters": null,
                                     "parameters": {
@@ -162,13 +162,13 @@
                                         "start": 47,
                                         "end": 49
                                     },
-                                    "asyncKeyword": {
-                                        "kind": 82031,
-                                        "flags": 64,
-                                        "start": 42,
-                                        "end": 47
-                                    },
                                     "returnType": null,
+                                    "arrowToken": {
+                                        "kind": 10,
+                                        "flags": 64,
+                                        "start": 49,
+                                        "end": 52
+                                    },
                                     "contents": {
                                         "kind": 134299649,
                                         "text": "z",

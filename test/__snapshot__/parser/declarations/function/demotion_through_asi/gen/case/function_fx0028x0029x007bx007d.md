@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/declarations/function/demotion_through_asi/autogen.md
-- Path: kataw/test/__snapshot__/parser/declarations/function/demotion_through_asi/gen/case
+- Regenerated: 2021-06-12
+- From: d
+- Path: e
 > :: test: case
 > :: case: function f(){}
 ## Options
@@ -149,10 +149,11 @@ function f(){
 
 ```javascript
 
+ function f() {
+"use strict";,
 function f() {
-  "\"use strict\"";
-  function f() {}
 }
+} 
 ```
 
 ### Diagnostics

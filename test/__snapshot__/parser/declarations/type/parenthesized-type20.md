@@ -117,7 +117,7 @@ type a = ([-1])
 
 ```javascript
 
-
+  
 ```
 
 ### Diagnostics

@@ -109,7 +109,7 @@ type X = (([1]))
 
 ```javascript
 
-
+  
 ```
 
 ### Diagnostics

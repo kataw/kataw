@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/classes/extends-lefthandside/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/classes/extends-lefthandside/gen/new_arg
+- Regenerated: 2021-06-12
+- From: d
+- Path: g
 > :: test: new arg
 > :: case: oh,no
 ## Options
@@ -80,7 +80,7 @@ new oh,no
 
 ```javascript
 
-new  oh(), no;
+ new oh, no; 
 ```
 
 ### Diagnostics

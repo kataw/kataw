@@ -208,7 +208,7 @@ type a = [(&x,|a) => T];
 
 ```javascript
 
-
+  
 ```
 
 ### Diagnostics

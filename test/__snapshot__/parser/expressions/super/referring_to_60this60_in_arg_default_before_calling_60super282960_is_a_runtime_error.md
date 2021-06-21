@@ -64,11 +64,11 @@ class x extends y { constructor(x = this) { super[dad]; } }
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": null,
                             "getKeyword": null,
+                            "asteriskToken": null,
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -80,7 +80,7 @@ class x extends y { constructor(x = this) { super[dad]; } }
                                     "end": 31
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [
                                         {
@@ -122,7 +122,7 @@ class x extends y { constructor(x = this) { super[dad]; } }
                                             {
                                                 "kind": 120,
                                                 "expression": {
-                                                    "kind": 536871042,
+                                                    "kind": 130,
                                                     "member": {
                                                         "kind": 225,
                                                         "superKeyword": {
@@ -143,7 +143,7 @@ class x extends y { constructor(x = this) { super[dad]; } }
                                                         "start": 50,
                                                         "end": 53
                                                     },
-                                                    "flags": 32,
+                                                    "flags": 536870944,
                                                     "start": 43,
                                                     "end": 54
                                                 },
@@ -195,11 +195,11 @@ class x extends y { constructor(x = this) { super[dad]; } }
 
 ```javascript
 
-class x  {
-  constructor {
-    ;
-  }
-}
+ class x {
+    constructor() {
+    [dad];
+    }
+} 
 ```
 
 ### Diagnostics

@@ -122,7 +122,7 @@ import {bar as baz} from "foo";
 
 ```javascript
 
-import { bar asbaz }  ;
+  
 ```
 
 ### Diagnostics

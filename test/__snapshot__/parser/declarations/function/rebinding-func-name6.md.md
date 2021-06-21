@@ -137,10 +137,9 @@
 
 ```javascript
 
-{
-  function f() {}
-  function f() {}
-}
+ { function f() {
+}, function f() {
+} } 
 ```
 
 ### Diagnostics

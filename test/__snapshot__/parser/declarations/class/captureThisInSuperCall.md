@@ -59,11 +59,11 @@ class B extends A {
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": null,
                             "getKeyword": null,
+                            "asteriskToken": null,
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -75,7 +75,7 @@ class B extends A {
                                     "end": 25
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [
                                         {
@@ -200,11 +200,11 @@ class B extends A {
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": null,
                             "getKeyword": null,
+                            "asteriskToken": null,
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -216,7 +216,7 @@ class B extends A {
                                     "end": 74
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -268,16 +268,16 @@ class B extends A {
                                                                             },
                                                                             "right": {
                                                                                 "kind": 271,
+                                                                                "asyncKeyword": null,
+                                                                                "typeParameters": null,
+                                                                                "parameters": [],
+                                                                                "returnType": null,
                                                                                 "arrowToken": {
                                                                                     "kind": 10,
                                                                                     "flags": 64,
                                                                                     "start": 95,
                                                                                     "end": 98
                                                                                 },
-                                                                                "typeParameters": null,
-                                                                                "parameters": [],
-                                                                                "asyncKeyword": null,
-                                                                                "returnType": null,
                                                                                 "contents": {
                                                                                     "kind": 131,
                                                                                     "expression": {
@@ -365,11 +365,11 @@ class B extends A {
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": null,
                             "getKeyword": null,
+                            "asteriskToken": null,
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -381,7 +381,7 @@ class B extends A {
                                     "end": 136
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -439,15 +439,16 @@ class B extends A {
 
 ```javascript
 
-class A {
-  constructor {}
-}
-class B  {
-  constructor {
-    super({ test: () =>  this.someMethod() });
-  }
-  someMethod {}
-}
+ class A {
+    constructor() {
+    }
+}, class B {
+    constructor() {
+    ;
+    },
+    someMethod() {
+    }
+} 
 ```
 
 ### Diagnostics

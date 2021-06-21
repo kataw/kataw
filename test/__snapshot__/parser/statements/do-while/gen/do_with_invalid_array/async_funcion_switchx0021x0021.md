@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/statements/do-while/autogen.md
-- Path: kataw/test/__snapshot__/parser/statements/do-while/gen/do_with_invalid_array
+- Regenerated: 2021-06-12
+- From: d
+- Path: y
 > :: test: do with invalid array
 > :: case: async funcion switch!!
 ## Options
@@ -122,7 +122,12 @@ do while [catch] async funcion switch!!
             "kind": 120,
             "expression": {
                 "kind": 271,
-                "arrowToken": null,
+                "asyncKeyword": {
+                    "kind": 82031,
+                    "flags": 64,
+                    "start": 16,
+                    "end": 22
+                },
                 "typeParameters": null,
                 "parameters": {
                     "kind": 134299649,
@@ -132,13 +137,8 @@ do while [catch] async funcion switch!!
                     "start": 22,
                     "end": 30
                 },
-                "asyncKeyword": {
-                    "kind": 82031,
-                    "flags": 64,
-                    "start": 16,
-                    "end": 22
-                },
                 "returnType": null,
+                "arrowToken": null,
                 "contents": {
                     "kind": 16637,
                     "text": "",

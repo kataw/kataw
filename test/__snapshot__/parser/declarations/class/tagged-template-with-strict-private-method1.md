@@ -62,11 +62,11 @@ new Foo();
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": null,
                             "getKeyword": null,
+                            "asteriskToken": null,
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -78,7 +78,7 @@ new Foo();
                                     "end": 18
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -132,11 +132,11 @@ new Foo();
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": null,
                             "getKeyword": null,
+                            "asteriskToken": null,
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -148,7 +148,7 @@ new Foo();
                                     "end": 58
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -379,16 +379,15 @@ new Foo();
 
 ```javascript
 
-class Foo {
-  #tag {
-    return  this;
-  }
-  constructor {
-    const receiver = this.#tag`tagged template`;
-    console.assert(receiver === this);
-  }
-}
-new  Foo();
+ class Foo {
+    #tag() {
+    return this;
+    },
+    constructor() {
+    const receiver = ;,
+    ;
+    }
+}, new Foo(); 
 ```
 
 ### Diagnostics

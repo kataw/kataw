@@ -96,8 +96,8 @@ class Foo {
 
 ```javascript
 
-@abc
-class Foo {}
+ class Foo {
+} 
 ```
 
 ### Diagnostics

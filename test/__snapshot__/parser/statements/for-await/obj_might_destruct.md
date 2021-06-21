@@ -185,9 +185,9 @@ async function f(){
 
 ```javascript
 
-async function f() {
-  for await ({ x, ...x } = x of x);
-}
+ async function f() {
+for await({ x,  }=x of x) ;
+} 
 ```
 
 ### Diagnostics

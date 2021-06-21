@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/miscellaneous/should-fail/autogen.md
-- Path: kataw/test/__snapshot__/parser/miscellaneous/should-fail/gen/with_strict_directive
+- Regenerated: 2021-06-12
+- From: d
+- Path: e
 > :: test: with strict directive
 > :: case: x = [{__proto__: 1, __proto__: 2}]
 ## Options
@@ -148,7 +148,7 @@
 
 ```javascript
 
-x = [{ __proto__: 1, __proto__: 2 }];
+"use strict" x=[{ __proto__ : 1, __proto__ : 2 }]; 
 ```
 
 ### Diagnostics

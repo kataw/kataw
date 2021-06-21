@@ -126,12 +126,7 @@ var c: { (x: string): string } = (x) => x.toFixed()
                         },
                         "initializer": {
                             "kind": 271,
-                            "arrowToken": {
-                                "kind": 10,
-                                "flags": 64,
-                                "start": 36,
-                                "end": 39
-                            },
+                            "asyncKeyword": null,
                             "typeParameters": null,
                             "parameters": [
                                 {
@@ -143,8 +138,13 @@ var c: { (x: string): string } = (x) => x.toFixed()
                                     "end": 35
                                 }
                             ],
-                            "asyncKeyword": null,
                             "returnType": null,
+                            "arrowToken": {
+                                "kind": 10,
+                                "flags": 64,
+                                "start": 36,
+                                "end": 39
+                            },
                             "contents": {
                                 "kind": 131,
                                 "expression": {
@@ -212,7 +212,7 @@ var c: { (x: string): string } = (x) => x.toFixed()
 
 ```javascript
 
-var c:  = (x) =>  x.toFixed();
+ var c  = (x) =>; 
 ```
 
 ### Diagnostics

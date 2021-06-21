@@ -791,26 +791,7 @@ typeof a == 'b';
 
 ```javascript
 
-a + b;
-a - b;
-a * b;
-a / b;
-a % b;
-a ** b;
-a => b;
-a | b;
-a ^ b;
-a << b;
-a >> b;
-a >>> b;
-a === b;
-a !== b;
-a == b;
-a != b;
-a, b;
-a + "''" == b;
-typeof a == b + "''";
-typeof a == "'b'";
+ a + b;, a - b;, a * b;, a / b;, a % b;, a ** b;, a => b;, a | b;, a ^ b;, a << b;, a >> b;, a >>> b;, a === b;, a !== b;, a == b;, a != b;, a, b;, a + '' == b;,  == b + '';,  == 'b'; 
 ```
 
 ### Diagnostics

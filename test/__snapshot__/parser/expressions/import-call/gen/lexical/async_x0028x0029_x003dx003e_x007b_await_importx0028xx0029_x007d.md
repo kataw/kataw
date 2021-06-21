@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/import-call/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/import-call/gen/lexical
+- Regenerated: 2021-06-12
+- From: d
+- Path: l
 > :: test: lexical
 > :: case: async () => { await import(x) }
 ## Options
@@ -25,21 +25,21 @@ async () => { await import(x) }
     "statements": [
         {
             "kind": 271,
-            "arrowToken": {
-                "kind": 10,
-                "flags": 64,
-                "start": 8,
-                "end": 11
-            },
-            "typeParameters": null,
-            "parameters": [],
             "asyncKeyword": {
                 "kind": 82031,
                 "flags": 64,
                 "start": 0,
                 "end": 5
             },
+            "typeParameters": null,
+            "parameters": [],
             "returnType": null,
+            "arrowToken": {
+                "kind": 10,
+                "flags": 64,
+                "start": 8,
+                "end": 11
+            },
             "contents": {
                 "kind": 216,
                 "functionStatementList": {
@@ -117,9 +117,9 @@ async () => { await import(x) }
 
 ```javascript
 
-async () =>  {
-  await ;
-}
+ () => {
+await ;
+} 
 ```
 
 ### Diagnostics

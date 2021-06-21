@@ -62,7 +62,6 @@ class C {
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": {
@@ -72,6 +71,7 @@ class C {
                                 "end": 40
                             },
                             "getKeyword": null,
+                            "asteriskToken": null,
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -83,7 +83,7 @@ class C {
                                     "end": 44
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -152,7 +152,6 @@ class C {
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": null,
@@ -162,6 +161,7 @@ class C {
                                 "start": 67,
                                 "end": 99
                             },
+                            "asteriskToken": null,
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -173,7 +173,7 @@ class C {
                                     "end": 103
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [
                                         {
@@ -240,18 +240,13 @@ class C {
 
 ```javascript
 
-class C {
-  /**
-   * Getter.
-   */
-  get bar {
-    return  1;
-  }
-  /**
-   * Setter.
-   */
-  set bar {}
-}
+ class C {
+    get bar(): number {
+    return 1;
+    },
+    set bar(v) {
+    }
+} 
 ```
 
 ### Diagnostics

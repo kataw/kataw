@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/arrow/position/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/arrow/position/gen/comma_rhs
+- Regenerated: 2021-06-12
+- From: d
+- Path: s
 > :: test: comma rhs
 > :: case: async x => {}
 ## Options
@@ -38,11 +38,11 @@ a, async x => {}
                     },
                     {
                         "kind": 271,
-                        "arrowToken": {
-                            "kind": 10,
+                        "asyncKeyword": {
+                            "kind": 82031,
                             "flags": 64,
-                            "start": 10,
-                            "end": 13
+                            "start": 2,
+                            "end": 8
                         },
                         "typeParameters": null,
                         "parameters": {
@@ -53,13 +53,13 @@ a, async x => {}
                             "start": 8,
                             "end": 10
                         },
-                        "asyncKeyword": {
-                            "kind": 82031,
-                            "flags": 64,
-                            "start": 2,
-                            "end": 8
-                        },
                         "returnType": null,
+                        "arrowToken": {
+                            "kind": 10,
+                            "flags": 64,
+                            "start": 10,
+                            "end": 13
+                        },
                         "contents": {
                             "kind": 216,
                             "functionStatementList": {
@@ -101,7 +101,8 @@ a, async x => {}
 
 ```javascript
 
-a, async x =>  {};
+ a, x => {
+}; 
 ```
 
 ### Diagnostics

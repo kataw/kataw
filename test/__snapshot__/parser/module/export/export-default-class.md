@@ -83,7 +83,7 @@ export default class {}
 
 ```javascript
 
-export default class  {};
+  
 ```
 
 ### Diagnostics

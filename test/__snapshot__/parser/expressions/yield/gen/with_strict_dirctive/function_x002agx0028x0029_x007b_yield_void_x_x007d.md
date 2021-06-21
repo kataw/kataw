@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/yield/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/yield/gen/with_strict_dirctive
+- Regenerated: 2021-06-12
+- From: d
+- Path: e
 > :: test: with_strict_dirctive
 > :: case: function *g() { yield void x }
 ## Options
@@ -139,9 +139,9 @@
 
 ```javascript
 
-function * g() {
-  yield void x;
-}
+'use strict' function* g() {
+yield ;
+} 
 ```
 
 ### Diagnostics

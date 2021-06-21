@@ -144,7 +144,7 @@ type a = {1:y.z[]};
 
 ```javascript
 
-
+  
 ```
 
 ### Diagnostics

@@ -25,11 +25,11 @@ async (x?: number): any => x;
     "statements": [
         {
             "kind": 271,
-            "arrowToken": {
-                "kind": 10,
+            "asyncKeyword": {
+                "kind": 82031,
                 "flags": 64,
-                "start": 23,
-                "end": 26
+                "start": 0,
+                "end": 5
             },
             "typeParameters": null,
             "parameters": [
@@ -70,12 +70,6 @@ async (x?: number): any => x;
                     "end": 17
                 }
             ],
-            "asyncKeyword": {
-                "kind": 82031,
-                "flags": 64,
-                "start": 0,
-                "end": 5
-            },
             "returnType": {
                 "kind": 139,
                 "bitwiseOrToken": null,
@@ -89,6 +83,12 @@ async (x?: number): any => x;
                 "flags": 2097152,
                 "start": 19,
                 "end": 23
+            },
+            "arrowToken": {
+                "kind": 10,
+                "flags": 64,
+                "start": 23,
+                "end": 26
             },
             "contents": {
                 "kind": 134299649,
@@ -122,8 +122,7 @@ async (x?: number): any => x;
 
 ```javascript
 
-async (x?) =>  x
-
+ (x?: number): any =>x, ; 
 ```
 
 ### Diagnostics

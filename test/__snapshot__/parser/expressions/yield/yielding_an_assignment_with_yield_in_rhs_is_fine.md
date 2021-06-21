@@ -153,9 +153,9 @@ function* g(x) { yield x = yield 3; }
 
 ```javascript
 
-function * g() {
-  yield x = yield 3;
-}
+ function* g(x) {
+yield x=yield 3;
+} 
 ```
 
 ### Diagnostics

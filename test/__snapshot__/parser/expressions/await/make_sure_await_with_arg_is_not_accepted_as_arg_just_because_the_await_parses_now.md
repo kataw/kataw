@@ -58,12 +58,7 @@ async function f(){  (await fail) => x  }
                             "kind": 120,
                             "expression": {
                                 "kind": 271,
-                                "arrowToken": {
-                                    "kind": 10,
-                                    "flags": 64,
-                                    "start": 33,
-                                    "end": 36
-                                },
+                                "asyncKeyword": null,
                                 "typeParameters": null,
                                 "parameters": [
                                     {
@@ -87,8 +82,13 @@ async function f(){  (await fail) => x  }
                                         "end": 32
                                     }
                                 ],
-                                "asyncKeyword": null,
                                 "returnType": null,
+                                "arrowToken": {
+                                    "kind": 10,
+                                    "flags": 64,
+                                    "start": 33,
+                                    "end": 36
+                                },
                                 "contents": {
                                     "kind": 134299649,
                                     "text": "x",

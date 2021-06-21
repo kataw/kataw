@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/declarations/let/binding-pattern/autogen.md
-- Path: kataw/test/__snapshot__/parser/declarations/let/binding-pattern/gen/base_case_array
+- Regenerated: 2021-06-12
+- From: d
+- Path: y
 > :: test: base case array
 > :: case: var
 ## Options
@@ -96,7 +96,7 @@ var [x] = v
 
 ```javascript
 
-var [x] = v;
+ var [x] = v; 
 ```
 
 ### Diagnostics

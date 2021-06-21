@@ -135,7 +135,7 @@ type a = {get "string"():string};
 
 ```javascript
 
-
+  
 ```
 
 ### Diagnostics

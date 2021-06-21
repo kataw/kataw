@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/miscellaneous/error-recovery/autogen.md
-- Path: kataw/test/__snapshot__/parser/miscellaneous/error-recovery/gen/ax002f_case
+- Regenerated: 2021-06-12
+- From: d
+- Path: e
 > :: test: a/ case
 > :: case: async function f() { for await ({0: a = 1} = 1 of []) ; }
 ## Options
@@ -212,9 +212,9 @@ async function f() { for await ({0: a = 1} = 1 of []) ; }
 
 ```javascript
 
-async function f() {
-  for await ({ 0: a = 1 } = 1 of []);
-}
+ async function f() {
+for await({ 0 : a=1 }=1 of []) ;
+} 
 ```
 
 ### Diagnostics

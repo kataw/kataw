@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/assignment/to_keyword/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/assignment/to_keyword/gen/assign_to_paren_wrapped_keyword_in_a_generator
+- Regenerated: 2021-06-12
+- From: d
+- Path: r
 > :: test: assign to paren wrapped keyword in a generator
 > :: case: eval
 ## Options
@@ -132,9 +132,9 @@ function *f(){
 
 ```javascript
 
-function * f() {
-  (eval) = 1;
-}
+ function* f() {
+(eval)=1;
+} 
 ```
 
 ### Diagnostics

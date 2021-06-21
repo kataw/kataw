@@ -44,7 +44,6 @@ class C { static async#aaa(){} }
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": null,
                             "staticKeyword": {
                                 "kind": 8388716,
                                 "flags": 64,
@@ -59,6 +58,7 @@ class C { static async#aaa(){} }
                             },
                             "setKeyword": null,
                             "getKeyword": null,
+                            "asteriskToken": null,
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -70,7 +70,7 @@ class C { static async#aaa(){} }
                                     "end": 26
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -128,9 +128,10 @@ class C { static async#aaa(){} }
 
 ```javascript
 
-class C {
-  async static static #aaa {}
-}
+ class C {
+    static async #aaa() {
+    }
+} 
 ```
 
 ### Diagnostics

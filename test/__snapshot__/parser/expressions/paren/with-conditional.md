@@ -37,12 +37,7 @@
             "kind": 120,
             "expression": {
                 "kind": 271,
-                "arrowToken": {
-                    "kind": 10,
-                    "flags": 64,
-                    "start": 6,
-                    "end": 9
-                },
+                "asyncKeyword": null,
                 "typeParameters": null,
                 "parameters": [
                     {
@@ -84,8 +79,13 @@
                         "end": 5
                     }
                 ],
-                "asyncKeyword": null,
                 "returnType": null,
+                "arrowToken": {
+                    "kind": 10,
+                    "flags": 64,
+                    "start": 6,
+                    "end": 9
+                },
                 "contents": {
                     "kind": 216,
                     "functionStatementList": {
@@ -112,12 +112,7 @@
             "kind": 120,
             "expression": {
                 "kind": 271,
-                "arrowToken": {
-                    "kind": 10,
-                    "flags": 64,
-                    "start": 28,
-                    "end": 31
-                },
+                "asyncKeyword": null,
                 "typeParameters": null,
                 "parameters": [
                     {
@@ -172,8 +167,13 @@
                         "end": 27
                     }
                 ],
-                "asyncKeyword": null,
                 "returnType": null,
+                "arrowToken": {
+                    "kind": 10,
+                    "flags": 64,
+                    "start": 28,
+                    "end": 31
+                },
                 "contents": {
                     "kind": 216,
                     "functionStatementList": {
@@ -269,12 +269,7 @@
             "kind": 120,
             "expression": {
                 "kind": 271,
-                "arrowToken": {
-                    "kind": 10,
-                    "flags": 64,
-                    "start": 53,
-                    "end": 56
-                },
+                "asyncKeyword": null,
                 "typeParameters": null,
                 "parameters": [
                     {
@@ -316,8 +311,13 @@
                         "end": 52
                     }
                 ],
-                "asyncKeyword": null,
                 "returnType": null,
+                "arrowToken": {
+                    "kind": 10,
+                    "flags": 64,
+                    "start": 53,
+                    "end": 56
+                },
                 "contents": {
                     "kind": 216,
                     "functionStatementList": {
@@ -344,12 +344,7 @@
             "kind": 120,
             "expression": {
                 "kind": 271,
-                "arrowToken": {
-                    "kind": 10,
-                    "flags": 64,
-                    "start": 74,
-                    "end": 77
-                },
+                "asyncKeyword": null,
                 "typeParameters": null,
                 "parameters": [
                     {
@@ -404,8 +399,13 @@
                         "end": 73
                     }
                 ],
-                "asyncKeyword": null,
                 "returnType": null,
+                "arrowToken": {
+                    "kind": 10,
+                    "flags": 64,
+                    "start": 74,
+                    "end": 77
+                },
                 "contents": {
                     "kind": 216,
                     "functionStatementList": {
@@ -501,12 +501,7 @@
             "kind": 120,
             "expression": {
                 "kind": 271,
-                "arrowToken": {
-                    "kind": 10,
-                    "flags": 64,
-                    "start": 103,
-                    "end": 106
-                },
+                "asyncKeyword": null,
                 "typeParameters": null,
                 "parameters": [
                     {
@@ -556,8 +551,13 @@
                         "end": 102
                     }
                 ],
-                "asyncKeyword": null,
                 "returnType": null,
+                "arrowToken": {
+                    "kind": 10,
+                    "flags": 64,
+                    "start": 103,
+                    "end": 106
+                },
                 "contents": {
                     "kind": 216,
                     "functionStatementList": {
@@ -584,12 +584,7 @@
             "kind": 120,
             "expression": {
                 "kind": 271,
-                "arrowToken": {
-                    "kind": 10,
-                    "flags": 64,
-                    "start": 128,
-                    "end": 131
-                },
+                "asyncKeyword": null,
                 "typeParameters": null,
                 "parameters": [
                     {
@@ -652,8 +647,13 @@
                         "end": 127
                     }
                 ],
-                "asyncKeyword": null,
                 "returnType": null,
+                "arrowToken": {
+                    "kind": 10,
+                    "flags": 64,
+                    "start": 128,
+                    "end": 131
+                },
                 "contents": {
                     "kind": 216,
                     "functionStatementList": {
@@ -765,12 +765,7 @@
             "kind": 120,
             "expression": {
                 "kind": 271,
-                "arrowToken": {
-                    "kind": 10,
-                    "flags": 64,
-                    "start": 159,
-                    "end": 162
-                },
+                "asyncKeyword": null,
                 "typeParameters": null,
                 "parameters": [
                     {
@@ -820,8 +815,13 @@
                         "end": 158
                     }
                 ],
-                "asyncKeyword": null,
                 "returnType": null,
+                "arrowToken": {
+                    "kind": 10,
+                    "flags": 64,
+                    "start": 159,
+                    "end": 162
+                },
                 "contents": {
                     "kind": 216,
                     "functionStatementList": {
@@ -848,12 +848,7 @@
             "kind": 120,
             "expression": {
                 "kind": 271,
-                "arrowToken": {
-                    "kind": 10,
-                    "flags": 64,
-                    "start": 183,
-                    "end": 186
-                },
+                "asyncKeyword": null,
                 "typeParameters": null,
                 "parameters": [
                     {
@@ -916,8 +911,13 @@
                         "end": 182
                     }
                 ],
-                "asyncKeyword": null,
                 "returnType": null,
+                "arrowToken": {
+                    "kind": 10,
+                    "flags": 64,
+                    "start": 183,
+                    "end": 186
+                },
                 "contents": {
                     "kind": 216,
                     "functionStatementList": {
@@ -1039,18 +1039,15 @@
 
 ```javascript
 
-([b]?) =>  {};
-([b]?) =>  {};
-([b] ? b : c);
-({ b }?) =>  {};
-({ b }?) =>  {};
-({ b } ? b : c);
-(a, [b]?) =>  {};
-(a, [b]?) =>  {};
-(a, [b] ? b : c);
-(a, { b }?) =>  {};
-(a, { b }?) =>  {};
-(a, { b } ? b : c);
+ ([b]?) => {
+};, ([b]?: string) => {
+};, ([b] ? b : c);, ({ b }?) => {
+};, ({ b }?: string) => {
+};, ({ b } ? b : c);, (a, [b]?) => {
+};, (a, [b]?: string) => {
+};, (a, [b] ? b : c);, (a, { b }?) => {
+};, (a, { b }?: string) => {
+};, (a, { b } ? b : c); 
 ```
 
 ### Diagnostics

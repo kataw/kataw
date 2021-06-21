@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/function/func_statements/gen/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/function/func_statements/gen/gen/in_else
+- Regenerated: 2021-06-12
+- From: d
+- Path: e
 > :: test: in else
 > :: case: function f(){}
 ## Options
@@ -125,8 +125,8 @@ else function f(){}
 
 ```javascript
 
-if (x) x;
-else  function f() {}
+ if (x) x; else function f() {
+} 
 ```
 
 ### Diagnostics

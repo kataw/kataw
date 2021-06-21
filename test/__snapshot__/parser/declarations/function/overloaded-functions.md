@@ -320,10 +320,7 @@ declare function three(value :mixed) :boolean;
 
 ```javascript
 
-function one(): false;
-function two(): false;
-function three(): boolean;
-
+ declare function one(): false, ;, declare function two(): false, ;, declare function three(): boolean, ; 
 ```
 
 ### Diagnostics

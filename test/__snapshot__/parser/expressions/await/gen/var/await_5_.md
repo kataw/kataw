@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/await/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/await/gen/var
+- Regenerated: 2021-06-12
+- From: d
+- Path: r
 > :: test: var
 > :: case: await 5;
 ## Options
@@ -187,10 +187,9 @@ var await; var f = (async function() { await 5; });
 
 ```javascript
 
-var await;
-var f = (async function () {
-    await 5;
-  });
+ var await;, var f = (async function () {
+await 5;
+}); 
 ```
 
 ### Diagnostics

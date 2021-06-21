@@ -44,49 +44,61 @@ for (let [a]=x;;);
                 "end": 3
             },
             "initializer": {
-                "kind": 151,
-                "bindingList": [
-                    {
-                        "kind": 190,
-                        "binding": {
-                            "kind": 201,
-                            "elementList": {
-                                "kind": 324,
-                                "elements": [
-                                    {
-                                        "kind": 134299649,
-                                        "text": "a",
-                                        "rawText": "a",
-                                        "flags": 96,
-                                        "start": 10,
-                                        "end": 11
-                                    }
-                                ],
-                                "trailingComma": false,
-                                "flags": 0,
-                                "start": 10,
-                                "end": 11
+                "kind": 162,
+                "lexicalKeyword": {
+                    "kind": 41951307,
+                    "flags": 64,
+                    "start": 0,
+                    "end": 8
+                },
+                "binding": {
+                    "kind": 151,
+                    "bindingList": [
+                        {
+                            "kind": 190,
+                            "binding": {
+                                "kind": 201,
+                                "elementList": {
+                                    "kind": 324,
+                                    "elements": [
+                                        {
+                                            "kind": 134299649,
+                                            "text": "a",
+                                            "rawText": "a",
+                                            "flags": 96,
+                                            "start": 10,
+                                            "end": 11
+                                        }
+                                    ],
+                                    "trailingComma": false,
+                                    "flags": 0,
+                                    "start": 10,
+                                    "end": 11
+                                },
+                                "flags": 32,
+                                "start": 8,
+                                "end": 12
                             },
-                            "flags": 32,
+                            "type": null,
+                            "initializer": {
+                                "kind": 134299649,
+                                "text": "x",
+                                "rawText": "x",
+                                "flags": 96,
+                                "start": 13,
+                                "end": 14
+                            },
+                            "flags": 16,
                             "start": 8,
-                            "end": 12
-                        },
-                        "type": null,
-                        "initializer": {
-                            "kind": 134299649,
-                            "text": "x",
-                            "rawText": "x",
-                            "flags": 96,
-                            "start": 13,
                             "end": 14
-                        },
-                        "flags": 16,
-                        "start": 8,
-                        "end": 14
-                    }
-                ],
-                "flags": 16,
-                "start": 8,
+                        }
+                    ],
+                    "flags": 16,
+                    "start": 8,
+                    "end": 14
+                },
+                "flags": 33554448,
+                "start": 0,
                 "end": 14
             },
             "condition": null,
@@ -110,49 +122,61 @@ for (let [a]=x;;);
                 "end": 22
             },
             "initializer": {
-                "kind": 151,
-                "bindingList": [
-                    {
-                        "kind": 190,
-                        "binding": {
-                            "kind": 201,
-                            "elementList": {
-                                "kind": 324,
-                                "elements": [
-                                    {
-                                        "kind": 134299649,
-                                        "text": "a",
-                                        "rawText": "a",
-                                        "flags": 96,
-                                        "start": 29,
-                                        "end": 30
-                                    }
-                                ],
-                                "trailingComma": false,
-                                "flags": 0,
-                                "start": 29,
-                                "end": 30
+                "kind": 162,
+                "lexicalKeyword": {
+                    "kind": 41951307,
+                    "flags": 64,
+                    "start": 18,
+                    "end": 27
+                },
+                "binding": {
+                    "kind": 151,
+                    "bindingList": [
+                        {
+                            "kind": 190,
+                            "binding": {
+                                "kind": 201,
+                                "elementList": {
+                                    "kind": 324,
+                                    "elements": [
+                                        {
+                                            "kind": 134299649,
+                                            "text": "a",
+                                            "rawText": "a",
+                                            "flags": 96,
+                                            "start": 29,
+                                            "end": 30
+                                        }
+                                    ],
+                                    "trailingComma": false,
+                                    "flags": 0,
+                                    "start": 29,
+                                    "end": 30
+                                },
+                                "flags": 32,
+                                "start": 27,
+                                "end": 31
                             },
-                            "flags": 32,
+                            "type": null,
+                            "initializer": {
+                                "kind": 134299649,
+                                "text": "x",
+                                "rawText": "x",
+                                "flags": 96,
+                                "start": 32,
+                                "end": 33
+                            },
+                            "flags": 16,
                             "start": 27,
-                            "end": 31
-                        },
-                        "type": null,
-                        "initializer": {
-                            "kind": 134299649,
-                            "text": "x",
-                            "rawText": "x",
-                            "flags": 96,
-                            "start": 32,
                             "end": 33
-                        },
-                        "flags": 16,
-                        "start": 27,
-                        "end": 33
-                    }
-                ],
-                "flags": 16,
-                "start": 27,
+                        }
+                    ],
+                    "flags": 16,
+                    "start": 27,
+                    "end": 33
+                },
+                "flags": 33554448,
+                "start": 18,
                 "end": 33
             },
             "condition": null,
@@ -181,8 +205,7 @@ for (let [a]=x;;);
 
 ```javascript
 
-for (let; ; );
-for (let; ; );
+ for(let [a] = x;;);, for(let [a] = x;;); 
 ```
 
 ### Diagnostics

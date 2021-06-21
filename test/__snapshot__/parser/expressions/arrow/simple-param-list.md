@@ -29,12 +29,7 @@
                         "kind": 121,
                         "expression": {
                             "kind": 271,
-                            "arrowToken": {
-                                "kind": 10,
-                                "flags": 64,
-                                "start": 5,
-                                "end": 8
-                            },
+                            "asyncKeyword": null,
                             "typeParameters": null,
                             "parameters": [
                                 {
@@ -52,8 +47,13 @@
                                     "end": 4
                                 }
                             ],
-                            "asyncKeyword": null,
                             "returnType": null,
+                            "arrowToken": {
+                                "kind": 10,
+                                "flags": 64,
+                                "start": 5,
+                                "end": 8
+                            },
                             "contents": {
                                 "kind": 216,
                                 "functionStatementList": {
@@ -94,9 +94,9 @@
                                     "kind": 218,
                                     "properties": [
                                         {
-                                            "kind": 257,
+                                            "kind": 351,
                                             "asyncKeyword": null,
-                                            "generatorToken": null,
+                                            "asteriskToken": null,
                                             "getKeyword": null,
                                             "setKeyword": {
                                                 "kind": 16499,
@@ -115,7 +115,7 @@
                                                     "end": 34
                                                 },
                                                 "typeParameters": null,
-                                                "formalParameters": {
+                                                "formalParameterList": {
                                                     "kind": 214,
                                                     "formalParameters": [
                                                         {
@@ -199,9 +199,9 @@
                                 "kind": 218,
                                 "properties": [
                                     {
-                                        "kind": 257,
+                                        "kind": 351,
                                         "asyncKeyword": null,
-                                        "generatorToken": null,
+                                        "asteriskToken": null,
                                         "getKeyword": null,
                                         "setKeyword": null,
                                         "method": {
@@ -215,7 +215,7 @@
                                                 "end": 61
                                             },
                                             "typeParameters": null,
-                                            "formalParameters": {
+                                            "formalParameterList": {
                                                 "kind": 214,
                                                 "formalParameters": [
                                                     {

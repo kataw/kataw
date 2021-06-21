@@ -55,9 +55,7 @@
 
 ```javascript
 
-{
-  debugger;
-}
+ { debugger; } 
 ```
 
 ### Diagnostics

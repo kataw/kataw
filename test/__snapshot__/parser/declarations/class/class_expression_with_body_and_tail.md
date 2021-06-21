@@ -124,7 +124,7 @@
 
 ```javascript
 
-(class x {}.foo());
+ (); 
 ```
 
 ### Diagnostics

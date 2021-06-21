@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/super/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/super/gen/obj-expr-set
+- Regenerated: 2021-06-12
+- From: d
+- Path: t
 > :: test: obj-expr-set
 > :: case: class C { constructor() { super(); } }
 ## Options
@@ -33,9 +33,9 @@
                         "kind": 218,
                         "properties": [
                             {
-                                "kind": 257,
+                                "kind": 351,
                                 "asyncKeyword": null,
-                                "generatorToken": null,
+                                "asteriskToken": null,
                                 "getKeyword": null,
                                 "setKeyword": {
                                     "kind": 16499,
@@ -54,7 +54,7 @@
                                         "end": 8
                                     },
                                     "typeParameters": null,
-                                    "formalParameters": {
+                                    "formalParameterList": {
                                         "kind": 214,
                                         "formalParameters": [
                                             {
@@ -107,11 +107,11 @@
                                                                     "kind": 278,
                                                                     "declareToken": null,
                                                                     "decorators": null,
-                                                                    "asteriskToken": null,
                                                                     "staticKeyword": null,
                                                                     "asyncKeyword": null,
                                                                     "setKeyword": null,
                                                                     "getKeyword": null,
+                                                                    "asteriskToken": null,
                                                                     "method": {
                                                                         "kind": 209,
                                                                         "name": {
@@ -123,7 +123,7 @@
                                                                             "end": 35
                                                                         },
                                                                         "typeParameters": null,
-                                                                        "formalParameters": {
+                                                                        "formalParameterList": {
                                                                             "kind": 214,
                                                                             "formalParameters": [],
                                                                             "trailingComma": false,

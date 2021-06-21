@@ -124,10 +124,9 @@ class A {
 
 ```javascript
 
-class A {
-  @dec
-  #name = 0;
-}
+ class A {
+    #name = 0
+} 
 ```
 
 ### Diagnostics

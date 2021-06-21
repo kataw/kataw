@@ -85,11 +85,11 @@ class Foo7<T> {
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": null,
                             "getKeyword": null,
+                            "asteriskToken": null,
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -131,7 +131,7 @@ class Foo7<T> {
                                     "start": 21,
                                     "end": 24
                                 },
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -223,11 +223,11 @@ class Foo7<T> {
 
 ```javascript
 
-class Foo7 {
-  bar {
-    return  42;
-  }
-}
+ class Foo7 {
+    bar(): number {
+    return 42;
+    }
+} 
 ```
 
 ### Diagnostics

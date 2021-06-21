@@ -39,9 +39,9 @@ o = {f(f) { }}
                         "kind": 218,
                         "properties": [
                             {
-                                "kind": 257,
+                                "kind": 351,
                                 "asyncKeyword": null,
-                                "generatorToken": null,
+                                "asteriskToken": null,
                                 "getKeyword": null,
                                 "setKeyword": null,
                                 "method": {
@@ -55,7 +55,7 @@ o = {f(f) { }}
                                         "end": 6
                                     },
                                     "typeParameters": null,
-                                    "formalParameters": {
+                                    "formalParameterList": {
                                         "kind": 214,
                                         "formalParameters": [
                                             {
@@ -127,7 +127,8 @@ o = {f(f) { }}
 
 ```javascript
 
-o = { f {} };
+ o={ f(f) {
+    } }; 
 ```
 
 ### Diagnostics

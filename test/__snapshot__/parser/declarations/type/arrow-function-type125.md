@@ -183,7 +183,7 @@ type a = (|1,symbol['string']) => T;
 
 ```javascript
 
-
+  
 ```
 
 ### Diagnostics

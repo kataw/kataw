@@ -143,7 +143,7 @@ type A = (Array<string>) => void
 
 ```javascript
 
-
+  
 ```
 
 ### Diagnostics

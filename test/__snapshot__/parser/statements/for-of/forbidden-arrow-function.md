@@ -26,11 +26,11 @@ for (async of => {} of x);
             "awaitKeyword": null,
             "initializer": {
                 "kind": 271,
-                "arrowToken": {
-                    "kind": 10,
+                "asyncKeyword": {
+                    "kind": 82031,
                     "flags": 64,
-                    "start": 13,
-                    "end": 16
+                    "start": 5,
+                    "end": 10
                 },
                 "typeParameters": null,
                 "parameters": {
@@ -41,13 +41,13 @@ for (async of => {} of x);
                     "start": 10,
                     "end": 13
                 },
-                "asyncKeyword": {
-                    "kind": 82031,
-                    "flags": 64,
-                    "start": 5,
-                    "end": 10
-                },
                 "returnType": null,
+                "arrowToken": {
+                    "kind": 10,
+                    "flags": 64,
+                    "start": 13,
+                    "end": 16
+                },
                 "contents": {
                     "kind": 216,
                     "functionStatementList": {

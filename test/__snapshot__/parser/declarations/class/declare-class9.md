@@ -199,7 +199,7 @@ declare class IViewFactory { didAnimate(view:Object, prop:string) :void; }
 
 ```javascript
 
-declare class IViewFactory TODO!
+ declare class IViewFactory {} 
 ```
 
 ### Diagnostics

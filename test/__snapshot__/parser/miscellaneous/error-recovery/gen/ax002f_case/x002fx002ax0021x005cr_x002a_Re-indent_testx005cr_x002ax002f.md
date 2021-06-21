@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/miscellaneous/error-recovery/autogen.md
-- Path: kataw/test/__snapshot__/parser/miscellaneous/error-recovery/gen/ax002f_case
+- Regenerated: 2021-06-12
+- From: d
+- Path: e
 > :: test: a/ case
 > :: case:     /*!\r     * Re-indent test\r     */
 ## Options
@@ -35,8 +35,8 @@
 ### Printed
 
 ```javascript
-/*!\r     * Re-indent test\r     */
 
+/*!\r     * Re-indent test\r     */  
 ```
 
 ### Diagnostics

@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/miscellaneous/should-fail/autogen.md
-- Path: kataw/test/__snapshot__/parser/miscellaneous/should-fail/gen/with_strict_directive
+- Regenerated: 2021-06-12
+- From: d
+- Path: e
 > :: test: with strict directive
 > :: case: for (a+b of c) d;
 ## Options
@@ -116,8 +116,7 @@
 
 ```javascript
 
-for (a + b; c; of)
-  d;
+"use strict" for(a + b; c; of)d; 
 ```
 
 ### Diagnostics

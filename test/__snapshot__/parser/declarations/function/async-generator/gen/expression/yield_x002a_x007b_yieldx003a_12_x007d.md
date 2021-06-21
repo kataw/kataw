@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/declarations/function/async-generator/autogen.md
-- Path: kataw/test/__snapshot__/parser/declarations/function/async-generator/gen/expression
+- Regenerated: 2021-06-12
+- From: d
+- Path: n
 > :: test: expression
 > :: case: yield *
 >          { yield: 12 }
@@ -35,14 +35,14 @@
                         "kind": 218,
                         "properties": [
                             {
-                                "kind": 257,
+                                "kind": 351,
                                 "asyncKeyword": {
                                     "kind": 82031,
                                     "flags": 352,
                                     "start": 2,
                                     "end": 8
                                 },
-                                "generatorToken": {
+                                "asteriskToken": {
                                     "kind": 67143222,
                                     "flags": 64,
                                     "start": 8,
@@ -61,7 +61,7 @@
                                         "end": 14
                                     },
                                     "typeParameters": null,
-                                    "formalParameters": {
+                                    "formalParameterList": {
                                         "kind": 214,
                                         "formalParameters": [],
                                         "trailingComma": false,
@@ -188,9 +188,9 @@
 
 ```javascript
 
-({ async gen {
-    yield * { yield: 12 };
-  } });
+ ({ async * gen() {
+    yield* { yield : 12 };
+    } }); 
 ```
 
 ### Diagnostics

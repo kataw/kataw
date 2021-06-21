@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/classes/class-fields/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/classes/class-fields/gen/expression
+- Regenerated: 2021-06-12
+- From: d
+- Path: n
 > :: test: expression
 > :: case: async *#arguments() {}
 ## Options
@@ -72,12 +72,6 @@ class C extends Base { async *#arguments() {} }
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": {
-                                "kind": 67143222,
-                                "flags": 64,
-                                "start": 28,
-                                "end": 30
-                            },
                             "staticKeyword": null,
                             "asyncKeyword": {
                                 "kind": 82031,
@@ -87,6 +81,12 @@ class C extends Base { async *#arguments() {} }
                             },
                             "setKeyword": null,
                             "getKeyword": null,
+                            "asteriskToken": {
+                                "kind": 67143222,
+                                "flags": 64,
+                                "start": 28,
+                                "end": 30
+                            },
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -98,7 +98,7 @@ class C extends Base { async *#arguments() {} }
                                     "end": 40
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -156,9 +156,10 @@ class C extends Base { async *#arguments() {} }
 
 ```javascript
 
-class C  {
-  async #arguments {}
-}
+ class C {
+    async *#arguments() {
+    }
+} 
 ```
 
 ### Diagnostics

@@ -64,11 +64,11 @@ class x extends y { constructor(){ return () => () => super[bar]; }}
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": null,
                             "getKeyword": null,
+                            "asteriskToken": null,
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -80,7 +80,7 @@ class x extends y { constructor(){ return () => () => super[bar]; }}
                                     "end": 31
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -105,30 +105,30 @@ class x extends y { constructor(){ return () => () => super[bar]; }}
                                                 },
                                                 "expression": {
                                                     "kind": 271,
+                                                    "asyncKeyword": null,
+                                                    "typeParameters": null,
+                                                    "parameters": [],
+                                                    "returnType": null,
                                                     "arrowToken": {
                                                         "kind": 10,
                                                         "flags": 64,
                                                         "start": 44,
                                                         "end": 47
                                                     },
-                                                    "typeParameters": null,
-                                                    "parameters": [],
-                                                    "asyncKeyword": null,
-                                                    "returnType": null,
                                                     "contents": {
                                                         "kind": 271,
+                                                        "asyncKeyword": null,
+                                                        "typeParameters": null,
+                                                        "parameters": [],
+                                                        "returnType": null,
                                                         "arrowToken": {
                                                             "kind": 10,
                                                             "flags": 64,
                                                             "start": 50,
                                                             "end": 53
                                                         },
-                                                        "typeParameters": null,
-                                                        "parameters": [],
-                                                        "asyncKeyword": null,
-                                                        "returnType": null,
                                                         "contents": {
-                                                            "kind": 536871042,
+                                                            "kind": 130,
                                                             "member": {
                                                                 "kind": 225,
                                                                 "superKeyword": {
@@ -149,7 +149,7 @@ class x extends y { constructor(){ return () => () => super[bar]; }}
                                                                 "start": 60,
                                                                 "end": 63
                                                             },
-                                                            "flags": 32,
+                                                            "flags": 536870944,
                                                             "start": 53,
                                                             "end": 64
                                                         },
@@ -209,11 +209,11 @@ class x extends y { constructor(){ return () => () => super[bar]; }}
 
 ```javascript
 
-class x  {
-  constructor {
-    return  () =>  () =>  ;
-  }
-}
+ class x {
+    constructor() {
+    return () =>() =>[bar];
+    }
+} 
 ```
 
 ### Diagnostics

@@ -22,11 +22,11 @@ async x=>x, y
                 "expressions": [
                     {
                         "kind": 271,
-                        "arrowToken": {
-                            "kind": 10,
+                        "asyncKeyword": {
+                            "kind": 82031,
                             "flags": 64,
-                            "start": 7,
-                            "end": 9
+                            "start": 0,
+                            "end": 5
                         },
                         "typeParameters": null,
                         "parameters": {
@@ -37,13 +37,13 @@ async x=>x, y
                             "start": 5,
                             "end": 7
                         },
-                        "asyncKeyword": {
-                            "kind": 82031,
-                            "flags": 64,
-                            "start": 0,
-                            "end": 5
-                        },
                         "returnType": null,
+                        "arrowToken": {
+                            "kind": 10,
+                            "flags": 64,
+                            "start": 7,
+                            "end": 9
+                        },
                         "contents": {
                             "kind": 134299649,
                             "text": "x",
@@ -87,7 +87,7 @@ async x=>x, y
 
 ```javascript
 
-async x =>  x, y;
+ x =>x, y; 
 ```
 
 ### Diagnostics

@@ -132,9 +132,7 @@ x = /a/y;
 
 ```javascript
 
-x = /a/i;
-x = /a/u;
-x = /a/y;
+ x=;, x=;, x=; 
 ```
 
 ### Diagnostics

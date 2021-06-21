@@ -66,11 +66,11 @@ class A {async
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": null,
                             "getKeyword": null,
+                            "asteriskToken": null,
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -82,7 +82,7 @@ class A {async
                                     "end": 20
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -146,11 +146,11 @@ class A {async
 
 ```javascript
 
-class A {
-  async;
-  foo {}
-}
-
+ class A {
+    async,
+    foo() {
+    }
+}, ; 
 ```
 
 ### Diagnostics

@@ -91,9 +91,7 @@ for (x of 3) break
 
 ```javascript
 
-for (x of 3)
-  break;
-/x/;
+ for(x of 3) break;, ; 
 ```
 
 ### Diagnostics

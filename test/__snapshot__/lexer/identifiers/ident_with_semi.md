@@ -49,7 +49,7 @@ foo;
 
 ```javascript
 
-foo;
+ foo; 
 ```
 
 ### Diagnostics

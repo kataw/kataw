@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/arrow/arrow-functions/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/arrow/arrow-functions/gen/comma_operator
+- Regenerated: 2021-06-12
+- From: d
+- Path: r
 > :: test: comma operator
 > :: case: x => { return x; }
 ## Options
@@ -38,12 +38,7 @@ bar, x => { return x; }
                     },
                     {
                         "kind": 271,
-                        "arrowToken": {
-                            "kind": 10,
-                            "flags": 64,
-                            "start": 6,
-                            "end": 9
-                        },
+                        "asyncKeyword": null,
                         "typeParameters": null,
                         "parameters": {
                             "kind": 134299649,
@@ -53,8 +48,13 @@ bar, x => { return x; }
                             "start": 4,
                             "end": 6
                         },
-                        "asyncKeyword": null,
                         "returnType": null,
+                        "arrowToken": {
+                            "kind": 10,
+                            "flags": 64,
+                            "start": 6,
+                            "end": 9
+                        },
                         "contents": {
                             "kind": 216,
                             "functionStatementList": {
@@ -117,9 +117,9 @@ bar, x => { return x; }
 
 ```javascript
 
-bar, x =>  {
-    return  x;
-  };
+ bar, x => {
+return x;
+}; 
 ```
 
 ### Diagnostics

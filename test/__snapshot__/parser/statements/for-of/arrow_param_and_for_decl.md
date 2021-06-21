@@ -21,12 +21,7 @@ a => {
             "kind": 120,
             "expression": {
                 "kind": 271,
-                "arrowToken": {
-                    "kind": 10,
-                    "flags": 64,
-                    "start": 1,
-                    "end": 4
-                },
+                "asyncKeyword": null,
                 "typeParameters": null,
                 "parameters": {
                     "kind": 134299649,
@@ -36,8 +31,13 @@ a => {
                     "start": 0,
                     "end": 1
                 },
-                "asyncKeyword": null,
                 "returnType": null,
+                "arrowToken": {
+                    "kind": 10,
+                    "flags": 64,
+                    "start": 1,
+                    "end": 4
+                },
                 "contents": {
                     "kind": 216,
                     "functionStatementList": {
@@ -54,27 +54,39 @@ a => {
                                 },
                                 "awaitKeyword": null,
                                 "initializer": {
-                                    "kind": 151,
-                                    "bindingList": [
-                                        {
-                                            "kind": 190,
-                                            "binding": {
-                                                "kind": 134299649,
-                                                "text": "a",
-                                                "rawText": "a",
-                                                "flags": 96,
+                                    "kind": 162,
+                                    "lexicalKeyword": {
+                                        "kind": 41951307,
+                                        "flags": 64,
+                                        "start": 6,
+                                        "end": 17
+                                    },
+                                    "binding": {
+                                        "kind": 151,
+                                        "bindingList": [
+                                            {
+                                                "kind": 190,
+                                                "binding": {
+                                                    "kind": 134299649,
+                                                    "text": "a",
+                                                    "rawText": "a",
+                                                    "flags": 96,
+                                                    "start": 17,
+                                                    "end": 19
+                                                },
+                                                "type": null,
+                                                "initializer": null,
+                                                "flags": 16,
                                                 "start": 17,
                                                 "end": 19
-                                            },
-                                            "type": null,
-                                            "initializer": null,
-                                            "flags": 16,
-                                            "start": 17,
-                                            "end": 19
-                                        }
-                                    ],
-                                    "flags": 16,
-                                    "start": 17,
+                                            }
+                                        ],
+                                        "flags": 16,
+                                        "start": 17,
+                                        "end": 19
+                                    },
+                                    "flags": 33554448,
+                                    "start": 6,
                                     "end": 19
                                 },
                                 "ofKeyword": {
@@ -140,10 +152,9 @@ a => {
 
 ```javascript
 
-a =>  {
-  for (let of b)
-    c;
-};
+ a => {
+for(let a of b) c;
+}; 
 ```
 
 ### Diagnostics

@@ -457,7 +457,7 @@ function f({x:arg = (arg = 2)}) {}
                             "expression": {
                                 "kind": 125,
                                 "left": {
-                                    "kind": 536871042,
+                                    "kind": 130,
                                     "member": {
                                         "kind": 134299649,
                                         "text": "arguments",
@@ -474,7 +474,7 @@ function f({x:arg = (arg = 2)}) {}
                                         "start": 122,
                                         "end": 123
                                     },
-                                    "flags": 32,
+                                    "flags": 536870944,
                                     "start": 111,
                                     "end": 124
                                 },
@@ -651,7 +651,7 @@ function f({x:arg = (arg = 2)}) {}
                             "expression": {
                                 "kind": 125,
                                 "left": {
-                                    "kind": 536871042,
+                                    "kind": 130,
                                     "member": {
                                         "kind": 134299649,
                                         "text": "arguments",
@@ -668,7 +668,7 @@ function f({x:arg = (arg = 2)}) {}
                                         "start": 178,
                                         "end": 179
                                     },
-                                    "flags": 32,
+                                    "flags": 536870944,
                                     "start": 167,
                                     "end": 180
                                 },
@@ -2517,16 +2517,16 @@ function f({x:arg = (arg = 2)}) {}
                                     "elements": [
                                         {
                                             "kind": 271,
+                                            "asyncKeyword": null,
+                                            "typeParameters": null,
+                                            "parameters": [],
+                                            "returnType": null,
                                             "arrowToken": {
                                                 "kind": 10,
                                                 "flags": 64,
                                                 "start": 680,
                                                 "end": 683
                                             },
-                                            "typeParameters": null,
-                                            "parameters": [],
-                                            "asyncKeyword": null,
-                                            "returnType": null,
                                             "contents": {
                                                 "kind": 125,
                                                 "left": {
@@ -2721,16 +2721,16 @@ function f({x:arg = (arg = 2)}) {}
                                     "elements": [
                                         {
                                             "kind": 271,
+                                            "asyncKeyword": null,
+                                            "typeParameters": null,
+                                            "parameters": [],
+                                            "returnType": null,
                                             "arrowToken": {
                                                 "kind": 10,
                                                 "flags": 64,
                                                 "start": 733,
                                                 "end": 736
                                             },
-                                            "typeParameters": null,
-                                            "parameters": [],
-                                            "asyncKeyword": null,
-                                            "returnType": null,
                                             "contents": {
                                                 "kind": 131,
                                                 "expression": {
@@ -3099,7 +3099,7 @@ function f({x:arg = (arg = 2)}) {}
                             "expression": {
                                 "kind": 125,
                                 "left": {
-                                    "kind": 536871042,
+                                    "kind": 130,
                                     "member": {
                                         "kind": 134299649,
                                         "text": "arguments",
@@ -3116,7 +3116,7 @@ function f({x:arg = (arg = 2)}) {}
                                         "start": 855,
                                         "end": 856
                                     },
-                                    "flags": 32,
+                                    "flags": 536870944,
                                     "start": 844,
                                     "end": 857
                                 },
@@ -3626,20 +3626,20 @@ function f({x:arg = (arg = 2)}) {}
                                     "elements": [
                                         {
                                             "kind": 271,
+                                            "asyncKeyword": null,
+                                            "typeParameters": null,
+                                            "parameters": [],
+                                            "returnType": null,
                                             "arrowToken": {
                                                 "kind": 10,
                                                 "flags": 64,
                                                 "start": 1011,
                                                 "end": 1014
                                             },
-                                            "typeParameters": null,
-                                            "parameters": [],
-                                            "asyncKeyword": null,
-                                            "returnType": null,
                                             "contents": {
                                                 "kind": 125,
                                                 "left": {
-                                                    "kind": 536871042,
+                                                    "kind": 130,
                                                     "member": {
                                                         "kind": 134299649,
                                                         "text": "arguments",
@@ -3656,7 +3656,7 @@ function f({x:arg = (arg = 2)}) {}
                                                         "start": 1025,
                                                         "end": 1026
                                                     },
-                                                    "flags": 32,
+                                                    "flags": 536870944,
                                                     "start": 1014,
                                                     "end": 1027
                                                 },
@@ -3777,7 +3777,6 @@ function f({x:arg = (arg = 2)}) {}
                             "properties": [
                                 {
                                     "kind": 329,
-                                    "ellipsisToken": null,
                                     "key": {
                                         "kind": 134299649,
                                         "text": "x",
@@ -3823,7 +3822,6 @@ function f({x:arg = (arg = 2)}) {}
                             "properties": [
                                 {
                                     "kind": 329,
-                                    "ellipsisToken": null,
                                     "key": {
                                         "kind": 134299649,
                                         "text": "y",
@@ -3943,7 +3941,6 @@ function f({x:arg = (arg = 2)}) {}
                             "properties": [
                                 {
                                     "kind": 329,
-                                    "ellipsisToken": null,
                                     "key": {
                                         "kind": 134299649,
                                         "text": "x",
@@ -4047,107 +4044,87 @@ function f({x:arg = (arg = 2)}) {}
 
 ```javascript
 
-function f() {
-  function h() {
-    g(arg);
-  }
-  h();
-}
-function f() {
-  g(arg);
-}
-function f() {
-  g(arg);
-   = 42;
-  g(arg);
-}
-function f() {
-  g(arg);
-   = 42;
-  g(arg);
-}
-function f() {
-  g(arg);
-  arg = 42;
-  g(arg);
-}
-function f() {
-  g(arg);
-  eval("'arg = 42'");
-  g(arg);
-}
-function f() {
-  g(arg);
-  var arg = 42;
-  g(arg);
-}
-function f() {
-  g(arg);
-  arg = 42;
-  g(arg);
-}
-function f() {
-  g(arg);
-  arg = 42;
-  g(arg);
-}
-function f() {
-  g(arg);
-  arg = 42;
-  g(arg);
-}
-function f() {
-  g(arg);
-  arg = 42;
-  g(arg);
-}
-function f() {
-  g(arg);
-}
-function f() {
-  g(arg);
-  g(function () {
-    arg = 42;
-  });
-  g(arg);
-}
-function f() {
-  g(arg);
-  g(() =>  arg = 42);
-  g(arg);
-}
-function f() {
-  g(arg);
-  g(() =>  eval("'arg = 42'"));
-  g(arg);
-}
-function f() {
-  g(arg);
-  eval("'arg = 42'");
-  g(arg);
-}
-function f() {
-  g(arg);
-   = 42;
-  g(arg);
-}
-function f() {
-  g(arg);
-  h(arguments);
-  g(arg);
-}
-function f() {
-  g(arg);
-  eval("'arguments[0] = 42'");
-  g(arg);
-}
-function f() {
-  g(arg);
-  g(() =>   = 42);
-  g(arg);
-}
-function f() {}
-function f() {}
+ function f(arg) {
+function h() {
+;
+},
+;,
+;
+}, function f() {
+;
+}, function f(arg, arguments) {
+;,
+arguments[0]=42;,
+;
+}, function f() {
+;,
+arguments[0]=42;,
+;
+}, function f(arg) {
+;,
+arg=42;,
+;
+}, function f(arg) {
+;,
+;,
+;
+}, function f(arg) {
+;,
+var arg = 42;,
+;
+}, function f(arg, ) {
+;,
+arg=42;,
+;
+}, function f(arg, ) {
+;,
+arg=42;,
+;
+}, function f() {
+;,
+arg=42;,
+;
+}, function f(arg) {
+;,
+arg=42;,
+;
+}, function f(arg, ) {
+;
+}, function f(arg) {
+;,
+;,
+;
+}, function f(arg) {
+;,
+;,
+;
+}, function f(arg) {
+;,
+;,
+;
+}, function f() {
+;,
+;,
+;
+}, function f(arg) {
+;,
+arguments[0]=42;,
+;
+}, function f(arg) {
+;,
+;,
+;
+}, function f(arg) {
+;,
+;,
+;
+}, function f(arg) {
+;,
+;,
+;
+}, function f(, ) {
+}, function f() {
+} 
 ```
 
 ### Diagnostics

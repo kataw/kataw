@@ -177,9 +177,7 @@ export function bar() {
 
 ```javascript
 
-export function bar() {
-  return  A.B.C.foo();
-}
+  
 ```
 
 ### Diagnostics

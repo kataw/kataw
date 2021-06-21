@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/miscellaneous/destructuring/positive-cases/autogen.md
-- Path: kataw/test/__snapshot__/parser/miscellaneous/destructuring/positive-cases/gen/lexical_let_with_strict_directive
+- Regenerated: 2021-06-12
+- From: d
+- Path: e
 > :: test: lexical let with strict directive
 > :: case: [a,b,...rest]
 ## Options
@@ -141,7 +141,7 @@
 
 ```javascript
 
-let [a, b, ...rest] = {};
+'use strict' let [a, b, ...rest] = {  }; 
 ```
 
 ### Diagnostics

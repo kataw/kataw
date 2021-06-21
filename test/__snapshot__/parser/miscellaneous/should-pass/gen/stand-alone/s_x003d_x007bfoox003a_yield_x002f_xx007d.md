@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/miscellaneous/should-pass/autogen.md
-- Path: kataw/test/__snapshot__/parser/miscellaneous/should-pass/gen/stand-alone
+- Regenerated: 2021-06-12
+- From: d
+- Path: e
 > :: test: stand-alone
 > :: case: s = {foo: yield / x}
 ## Options
@@ -121,7 +121,7 @@ s = {foo: yield / x}
 
 ```javascript
 
-s = { foo: yield / x };
+ s={ foo : yield / x }; 
 ```
 
 ### Diagnostics

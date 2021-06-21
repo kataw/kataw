@@ -141,7 +141,8 @@ let x = function *f(foo = await){}
 
 ```javascript
 
-let x = function * f() {};
+ let x = function* f() {
+}; 
 ```
 
 ### Diagnostics

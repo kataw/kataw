@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/declarations/let/sub-tree/autogen.md
-- Path: kataw/test/__snapshot__/parser/declarations/let/sub-tree/gen/global
+- Regenerated: 2021-06-12
+- From: d
+- Path: l
 > :: test: global
 > :: case: let
 >          {} = y
@@ -88,7 +88,7 @@ let
 
 ```javascript
 
-let {} = y;
+ let {  } = y; 
 ```
 
 ### Diagnostics

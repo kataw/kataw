@@ -64,11 +64,11 @@ class x extends y { foo(){ return () => () => super[bar]; }}
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": null,
                             "getKeyword": null,
+                            "asteriskToken": null,
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -80,7 +80,7 @@ class x extends y { foo(){ return () => () => super[bar]; }}
                                     "end": 23
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -105,30 +105,30 @@ class x extends y { foo(){ return () => () => super[bar]; }}
                                                 },
                                                 "expression": {
                                                     "kind": 271,
+                                                    "asyncKeyword": null,
+                                                    "typeParameters": null,
+                                                    "parameters": [],
+                                                    "returnType": null,
                                                     "arrowToken": {
                                                         "kind": 10,
                                                         "flags": 64,
                                                         "start": 36,
                                                         "end": 39
                                                     },
-                                                    "typeParameters": null,
-                                                    "parameters": [],
-                                                    "asyncKeyword": null,
-                                                    "returnType": null,
                                                     "contents": {
                                                         "kind": 271,
+                                                        "asyncKeyword": null,
+                                                        "typeParameters": null,
+                                                        "parameters": [],
+                                                        "returnType": null,
                                                         "arrowToken": {
                                                             "kind": 10,
                                                             "flags": 64,
                                                             "start": 42,
                                                             "end": 45
                                                         },
-                                                        "typeParameters": null,
-                                                        "parameters": [],
-                                                        "asyncKeyword": null,
-                                                        "returnType": null,
                                                         "contents": {
-                                                            "kind": 536871042,
+                                                            "kind": 130,
                                                             "member": {
                                                                 "kind": 225,
                                                                 "superKeyword": {
@@ -149,7 +149,7 @@ class x extends y { foo(){ return () => () => super[bar]; }}
                                                                 "start": 52,
                                                                 "end": 55
                                                             },
-                                                            "flags": 32,
+                                                            "flags": 536870944,
                                                             "start": 45,
                                                             "end": 56
                                                         },
@@ -209,11 +209,11 @@ class x extends y { foo(){ return () => () => super[bar]; }}
 
 ```javascript
 
-class x  {
-  foo {
-    return  () =>  () =>  ;
-  }
-}
+ class x {
+    foo() {
+    return () =>() =>[bar];
+    }
+} 
 ```
 
 ### Diagnostics

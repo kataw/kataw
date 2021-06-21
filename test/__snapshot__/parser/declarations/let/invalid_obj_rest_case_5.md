@@ -34,13 +34,30 @@ let {...{a,b}} = foo
                                 "kind": 213,
                                 "properties": [
                                     {
-                                        "kind": 329,
+                                        "kind": 281,
                                         "ellipsisToken": {
                                             "kind": 524302,
                                             "flags": 64,
                                             "start": 5,
                                             "end": 8
                                         },
+                                        "left": {
+                                            "kind": 16637,
+                                            "text": "",
+                                            "rawText": "",
+                                            "flags": 64,
+                                            "start": 8,
+                                            "end": 8
+                                        },
+                                        "optionalToken": null,
+                                        "type": null,
+                                        "right": null,
+                                        "flags": 0,
+                                        "start": 5,
+                                        "end": 8
+                                    },
+                                    {
+                                        "kind": 329,
                                         "key": {
                                             "kind": 16637,
                                             "text": "",
@@ -82,7 +99,7 @@ let {...{a,b}} = foo
                                         },
                                         "initializer": null,
                                         "flags": 32,
-                                        "start": 5,
+                                        "start": 8,
                                         "end": 13
                                     }
                                 ],
@@ -137,6 +154,7 @@ let {...{a,b}} = foo
 
 ```javascript
 ✖ Identifier expected - start: 8, end: 9
+✖ ',' expected - start: 8, end: 9
 
 ```
 

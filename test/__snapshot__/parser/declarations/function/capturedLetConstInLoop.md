@@ -248,27 +248,39 @@ function foo8_c(x) {
                             },
                             "awaitKeyword": null,
                             "initializer": {
-                                "kind": 151,
-                                "bindingList": [
-                                    {
-                                        "kind": 190,
-                                        "binding": {
-                                            "kind": 134299649,
-                                            "text": "x",
-                                            "rawText": "x",
-                                            "flags": 96,
+                                "kind": 162,
+                                "lexicalKeyword": {
+                                    "kind": 41951307,
+                                    "flags": 64,
+                                    "start": 18,
+                                    "end": 31
+                                },
+                                "binding": {
+                                    "kind": 151,
+                                    "bindingList": [
+                                        {
+                                            "kind": 190,
+                                            "binding": {
+                                                "kind": 134299649,
+                                                "text": "x",
+                                                "rawText": "x",
+                                                "flags": 96,
+                                                "start": 31,
+                                                "end": 33
+                                            },
+                                            "type": null,
+                                            "initializer": null,
+                                            "flags": 16,
                                             "start": 31,
                                             "end": 33
-                                        },
-                                        "type": null,
-                                        "initializer": null,
-                                        "flags": 16,
-                                        "start": 31,
-                                        "end": 33
-                                    }
-                                ],
-                                "flags": 16,
-                                "start": 31,
+                                        }
+                                    ],
+                                    "flags": 16,
+                                    "start": 31,
+                                    "end": 33
+                                },
+                                "flags": 33554448,
+                                "start": 18,
                                 "end": 33
                             },
                             "ofKeyword": {
@@ -451,16 +463,16 @@ function foo8_c(x) {
                                                 "kind": 121,
                                                 "expression": {
                                                     "kind": 271,
+                                                    "asyncKeyword": null,
+                                                    "typeParameters": null,
+                                                    "parameters": [],
+                                                    "returnType": null,
                                                     "arrowToken": {
                                                         "kind": 10,
                                                         "flags": 64,
                                                         "start": 127,
                                                         "end": 130
                                                     },
-                                                    "typeParameters": null,
-                                                    "parameters": [],
-                                                    "asyncKeyword": null,
-                                                    "returnType": null,
                                                     "contents": {
                                                         "kind": 198,
                                                         "left": {
@@ -580,27 +592,39 @@ function foo8_c(x) {
                                 "end": 176
                             },
                             "initializer": {
-                                "kind": 151,
-                                "bindingList": [
-                                    {
-                                        "kind": 190,
-                                        "binding": {
-                                            "kind": 134299649,
-                                            "text": "x",
-                                            "rawText": "x",
-                                            "flags": 96,
+                                "kind": 162,
+                                "lexicalKeyword": {
+                                    "kind": 41951307,
+                                    "flags": 64,
+                                    "start": 168,
+                                    "end": 181
+                                },
+                                "binding": {
+                                    "kind": 151,
+                                    "bindingList": [
+                                        {
+                                            "kind": 190,
+                                            "binding": {
+                                                "kind": 134299649,
+                                                "text": "x",
+                                                "rawText": "x",
+                                                "flags": 96,
+                                                "start": 181,
+                                                "end": 183
+                                            },
+                                            "type": null,
+                                            "initializer": null,
+                                            "flags": 16,
                                             "start": 181,
                                             "end": 183
-                                        },
-                                        "type": null,
-                                        "initializer": null,
-                                        "flags": 16,
-                                        "start": 181,
-                                        "end": 183
-                                    }
-                                ],
-                                "flags": 16,
-                                "start": 181,
+                                        }
+                                    ],
+                                    "flags": 16,
+                                    "start": 181,
+                                    "end": 183
+                                },
+                                "flags": 33554448,
+                                "start": 168,
                                 "end": 183
                             },
                             "inKeyword": {
@@ -783,16 +807,16 @@ function foo8_c(x) {
                                                 "kind": 121,
                                                 "expression": {
                                                     "kind": 271,
+                                                    "asyncKeyword": null,
+                                                    "typeParameters": null,
+                                                    "parameters": [],
+                                                    "returnType": null,
                                                     "arrowToken": {
                                                         "kind": 10,
                                                         "flags": 64,
                                                         "start": 277,
                                                         "end": 280
                                                     },
-                                                    "typeParameters": null,
-                                                    "parameters": [],
-                                                    "asyncKeyword": null,
-                                                    "returnType": null,
                                                     "contents": {
                                                         "kind": 198,
                                                         "left": {
@@ -912,34 +936,46 @@ function foo8_c(x) {
                                 "end": 324
                             },
                             "initializer": {
-                                "kind": 151,
-                                "bindingList": [
-                                    {
-                                        "kind": 190,
-                                        "binding": {
-                                            "kind": 134299649,
-                                            "text": "x",
-                                            "rawText": "x",
-                                            "flags": 96,
+                                "kind": 162,
+                                "lexicalKeyword": {
+                                    "kind": 41951307,
+                                    "flags": 64,
+                                    "start": 316,
+                                    "end": 329
+                                },
+                                "binding": {
+                                    "kind": 151,
+                                    "bindingList": [
+                                        {
+                                            "kind": 190,
+                                            "binding": {
+                                                "kind": 134299649,
+                                                "text": "x",
+                                                "rawText": "x",
+                                                "flags": 96,
+                                                "start": 329,
+                                                "end": 331
+                                            },
+                                            "type": null,
+                                            "initializer": {
+                                                "kind": 201392130,
+                                                "text": 0,
+                                                "rawText": "0",
+                                                "flags": 96,
+                                                "start": 333,
+                                                "end": 335
+                                            },
+                                            "flags": 16,
                                             "start": 329,
-                                            "end": 331
-                                        },
-                                        "type": null,
-                                        "initializer": {
-                                            "kind": 201392130,
-                                            "text": 0,
-                                            "rawText": "0",
-                                            "flags": 96,
-                                            "start": 333,
                                             "end": 335
-                                        },
-                                        "flags": 16,
-                                        "start": 329,
-                                        "end": 335
-                                    }
-                                ],
-                                "flags": 16,
-                                "start": 329,
+                                        }
+                                    ],
+                                    "flags": 16,
+                                    "start": 329,
+                                    "end": 335
+                                },
+                                "flags": 33554448,
+                                "start": 316,
                                 "end": 335
                             },
                             "condition": {
@@ -1150,16 +1186,16 @@ function foo8_c(x) {
                                                 "kind": 121,
                                                 "expression": {
                                                     "kind": 271,
+                                                    "asyncKeyword": null,
+                                                    "typeParameters": null,
+                                                    "parameters": [],
+                                                    "returnType": null,
                                                     "arrowToken": {
                                                         "kind": 10,
                                                         "flags": 64,
                                                         "start": 435,
                                                         "end": 438
                                                     },
-                                                    "typeParameters": null,
-                                                    "parameters": [],
-                                                    "asyncKeyword": null,
-                                                    "returnType": null,
                                                     "contents": {
                                                         "kind": 198,
                                                         "left": {
@@ -1466,16 +1502,16 @@ function foo8_c(x) {
                                                 "kind": 121,
                                                 "expression": {
                                                     "kind": 271,
+                                                    "asyncKeyword": null,
+                                                    "typeParameters": null,
+                                                    "parameters": [],
+                                                    "returnType": null,
                                                     "arrowToken": {
                                                         "kind": 10,
                                                         "flags": 64,
                                                         "start": 581,
                                                         "end": 584
                                                     },
-                                                    "typeParameters": null,
-                                                    "parameters": [],
-                                                    "asyncKeyword": null,
-                                                    "returnType": null,
                                                     "contents": {
                                                         "kind": 198,
                                                         "left": {
@@ -1790,16 +1826,16 @@ function foo8_c(x) {
                                                 "kind": 121,
                                                 "expression": {
                                                     "kind": 271,
+                                                    "asyncKeyword": null,
+                                                    "typeParameters": null,
+                                                    "parameters": [],
+                                                    "returnType": null,
                                                     "arrowToken": {
                                                         "kind": 10,
                                                         "flags": 64,
                                                         "start": 729,
                                                         "end": 732
                                                     },
-                                                    "typeParameters": null,
-                                                    "parameters": [],
-                                                    "asyncKeyword": null,
-                                                    "returnType": null,
                                                     "contents": {
                                                         "kind": 198,
                                                         "left": {
@@ -1953,34 +1989,46 @@ function foo8_c(x) {
                                 "end": 792
                             },
                             "initializer": {
-                                "kind": 151,
-                                "bindingList": [
-                                    {
-                                        "kind": 190,
-                                        "binding": {
-                                            "kind": 134299649,
-                                            "text": "y",
-                                            "rawText": "y",
-                                            "flags": 96,
+                                "kind": 162,
+                                "lexicalKeyword": {
+                                    "kind": 41951307,
+                                    "flags": 64,
+                                    "start": 784,
+                                    "end": 797
+                                },
+                                "binding": {
+                                    "kind": 151,
+                                    "bindingList": [
+                                        {
+                                            "kind": 190,
+                                            "binding": {
+                                                "kind": 134299649,
+                                                "text": "y",
+                                                "rawText": "y",
+                                                "flags": 96,
+                                                "start": 797,
+                                                "end": 799
+                                            },
+                                            "type": null,
+                                            "initializer": {
+                                                "kind": 201392130,
+                                                "text": 0,
+                                                "rawText": "0",
+                                                "flags": 96,
+                                                "start": 801,
+                                                "end": 803
+                                            },
+                                            "flags": 16,
                                             "start": 797,
-                                            "end": 799
-                                        },
-                                        "type": null,
-                                        "initializer": {
-                                            "kind": 201392130,
-                                            "text": 0,
-                                            "rawText": "0",
-                                            "flags": 96,
-                                            "start": 801,
                                             "end": 803
-                                        },
-                                        "flags": 16,
-                                        "start": 797,
-                                        "end": 803
-                                    }
-                                ],
-                                "flags": 16,
-                                "start": 797,
+                                        }
+                                    ],
+                                    "flags": 16,
+                                    "start": 797,
+                                    "end": 803
+                                },
+                                "flags": 33554448,
+                                "start": 784,
                                 "end": 803
                             },
                             "condition": {
@@ -2234,16 +2282,16 @@ function foo8_c(x) {
                                                 "kind": 121,
                                                 "expression": {
                                                     "kind": 271,
+                                                    "asyncKeyword": null,
+                                                    "typeParameters": null,
+                                                    "parameters": [],
+                                                    "returnType": null,
                                                     "arrowToken": {
                                                         "kind": 10,
                                                         "flags": 64,
                                                         "start": 922,
                                                         "end": 925
                                                     },
-                                                    "typeParameters": null,
-                                                    "parameters": [],
-                                                    "asyncKeyword": null,
-                                                    "returnType": null,
                                                     "contents": {
                                                         "kind": 198,
                                                         "left": {
@@ -2363,57 +2411,69 @@ function foo8_c(x) {
                                 "end": 969
                             },
                             "initializer": {
-                                "kind": 151,
-                                "bindingList": [
-                                    {
-                                        "kind": 190,
-                                        "binding": {
-                                            "kind": 134299649,
-                                            "text": "x",
-                                            "rawText": "x",
-                                            "flags": 96,
+                                "kind": 162,
+                                "lexicalKeyword": {
+                                    "kind": 41951307,
+                                    "flags": 64,
+                                    "start": 961,
+                                    "end": 974
+                                },
+                                "binding": {
+                                    "kind": 151,
+                                    "bindingList": [
+                                        {
+                                            "kind": 190,
+                                            "binding": {
+                                                "kind": 134299649,
+                                                "text": "x",
+                                                "rawText": "x",
+                                                "flags": 96,
+                                                "start": 974,
+                                                "end": 976
+                                            },
+                                            "type": null,
+                                            "initializer": {
+                                                "kind": 201392130,
+                                                "text": 0,
+                                                "rawText": "0",
+                                                "flags": 96,
+                                                "start": 978,
+                                                "end": 980
+                                            },
+                                            "flags": 16,
                                             "start": 974,
-                                            "end": 976
-                                        },
-                                        "type": null,
-                                        "initializer": {
-                                            "kind": 201392130,
-                                            "text": 0,
-                                            "rawText": "0",
-                                            "flags": 96,
-                                            "start": 978,
                                             "end": 980
                                         },
-                                        "flags": 16,
-                                        "start": 974,
-                                        "end": 980
-                                    },
-                                    {
-                                        "kind": 190,
-                                        "binding": {
-                                            "kind": 134299649,
-                                            "text": "y",
-                                            "rawText": "y",
-                                            "flags": 96,
+                                        {
+                                            "kind": 190,
+                                            "binding": {
+                                                "kind": 134299649,
+                                                "text": "y",
+                                                "rawText": "y",
+                                                "flags": 96,
+                                                "start": 981,
+                                                "end": 983
+                                            },
+                                            "type": null,
+                                            "initializer": {
+                                                "kind": 201392130,
+                                                "text": 1,
+                                                "rawText": "1",
+                                                "flags": 96,
+                                                "start": 985,
+                                                "end": 987
+                                            },
+                                            "flags": 16,
                                             "start": 981,
-                                            "end": 983
-                                        },
-                                        "type": null,
-                                        "initializer": {
-                                            "kind": 201392130,
-                                            "text": 1,
-                                            "rawText": "1",
-                                            "flags": 96,
-                                            "start": 985,
                                             "end": 987
-                                        },
-                                        "flags": 16,
-                                        "start": 981,
-                                        "end": 987
-                                    }
-                                ],
-                                "flags": 16,
-                                "start": 974,
+                                        }
+                                    ],
+                                    "flags": 16,
+                                    "start": 974,
+                                    "end": 987
+                                },
+                                "flags": 33554448,
+                                "start": 961,
                                 "end": 987
                             },
                             "condition": {
@@ -2644,16 +2704,16 @@ function foo8_c(x) {
                                                 "kind": 121,
                                                 "expression": {
                                                     "kind": 271,
+                                                    "asyncKeyword": null,
+                                                    "typeParameters": null,
+                                                    "parameters": [],
+                                                    "returnType": null,
                                                     "arrowToken": {
                                                         "kind": 10,
                                                         "flags": 64,
                                                         "start": 1091,
                                                         "end": 1094
                                                     },
-                                                    "typeParameters": null,
-                                                    "parameters": [],
-                                                    "asyncKeyword": null,
-                                                    "returnType": null,
                                                     "contents": {
                                                         "kind": 198,
                                                         "left": {
@@ -3052,16 +3112,16 @@ function foo8_c(x) {
                                                 "kind": 121,
                                                 "expression": {
                                                     "kind": 271,
+                                                    "asyncKeyword": null,
+                                                    "typeParameters": null,
+                                                    "parameters": [],
+                                                    "returnType": null,
                                                     "arrowToken": {
                                                         "kind": 10,
                                                         "flags": 64,
                                                         "start": 1264,
                                                         "end": 1267
                                                     },
-                                                    "typeParameters": null,
-                                                    "parameters": [],
-                                                    "asyncKeyword": null,
-                                                    "returnType": null,
                                                     "contents": {
                                                         "kind": 198,
                                                         "left": {
@@ -3432,16 +3492,16 @@ function foo8_c(x) {
                                                 "kind": 121,
                                                 "expression": {
                                                     "kind": 271,
+                                                    "asyncKeyword": null,
+                                                    "typeParameters": null,
+                                                    "parameters": [],
+                                                    "returnType": null,
                                                     "arrowToken": {
                                                         "kind": 10,
                                                         "flags": 64,
                                                         "start": 1423,
                                                         "end": 1426
                                                     },
-                                                    "typeParameters": null,
-                                                    "parameters": [],
-                                                    "asyncKeyword": null,
-                                                    "returnType": null,
                                                     "contents": {
                                                         "kind": 198,
                                                         "left": {
@@ -3615,34 +3675,46 @@ function foo8_c(x) {
                                 "end": 1491
                             },
                             "initializer": {
-                                "kind": 151,
-                                "bindingList": [
-                                    {
-                                        "kind": 190,
-                                        "binding": {
-                                            "kind": 134299649,
-                                            "text": "y",
-                                            "rawText": "y",
-                                            "flags": 96,
+                                "kind": 162,
+                                "lexicalKeyword": {
+                                    "kind": 41951307,
+                                    "flags": 64,
+                                    "start": 1483,
+                                    "end": 1496
+                                },
+                                "binding": {
+                                    "kind": 151,
+                                    "bindingList": [
+                                        {
+                                            "kind": 190,
+                                            "binding": {
+                                                "kind": 134299649,
+                                                "text": "y",
+                                                "rawText": "y",
+                                                "flags": 96,
+                                                "start": 1496,
+                                                "end": 1498
+                                            },
+                                            "type": null,
+                                            "initializer": {
+                                                "kind": 201392130,
+                                                "text": 0,
+                                                "rawText": "0",
+                                                "flags": 96,
+                                                "start": 1500,
+                                                "end": 1502
+                                            },
+                                            "flags": 16,
                                             "start": 1496,
-                                            "end": 1498
-                                        },
-                                        "type": null,
-                                        "initializer": {
-                                            "kind": 201392130,
-                                            "text": 0,
-                                            "rawText": "0",
-                                            "flags": 96,
-                                            "start": 1500,
                                             "end": 1502
-                                        },
-                                        "flags": 16,
-                                        "start": 1496,
-                                        "end": 1502
-                                    }
-                                ],
-                                "flags": 16,
-                                "start": 1496,
+                                        }
+                                    ],
+                                    "flags": 16,
+                                    "start": 1496,
+                                    "end": 1502
+                                },
+                                "flags": 33554448,
+                                "start": 1483,
                                 "end": 1502
                             },
                             "condition": {
@@ -3916,16 +3988,16 @@ function foo8_c(x) {
                                                 "kind": 121,
                                                 "expression": {
                                                     "kind": 271,
+                                                    "asyncKeyword": null,
+                                                    "typeParameters": null,
+                                                    "parameters": [],
+                                                    "returnType": null,
                                                     "arrowToken": {
                                                         "kind": 10,
                                                         "flags": 64,
                                                         "start": 1625,
                                                         "end": 1628
                                                     },
-                                                    "typeParameters": null,
-                                                    "parameters": [],
-                                                    "asyncKeyword": null,
-                                                    "returnType": null,
                                                     "contents": {
                                                         "kind": 198,
                                                         "left": {
@@ -4066,27 +4138,39 @@ function foo8_c(x) {
                             },
                             "awaitKeyword": null,
                             "initializer": {
-                                "kind": 151,
-                                "bindingList": [
-                                    {
-                                        "kind": 190,
-                                        "binding": {
-                                            "kind": 134299649,
-                                            "text": "x",
-                                            "rawText": "x",
-                                            "flags": 96,
+                                "kind": 162,
+                                "lexicalKeyword": {
+                                    "kind": 37757004,
+                                    "flags": 64,
+                                    "start": 1695,
+                                    "end": 1700
+                                },
+                                "binding": {
+                                    "kind": 151,
+                                    "bindingList": [
+                                        {
+                                            "kind": 190,
+                                            "binding": {
+                                                "kind": 134299649,
+                                                "text": "x",
+                                                "rawText": "x",
+                                                "flags": 96,
+                                                "start": 1700,
+                                                "end": 1702
+                                            },
+                                            "type": null,
+                                            "initializer": null,
+                                            "flags": 16,
                                             "start": 1700,
                                             "end": 1702
-                                        },
-                                        "type": null,
-                                        "initializer": null,
-                                        "flags": 16,
-                                        "start": 1700,
-                                        "end": 1702
-                                    }
-                                ],
-                                "flags": 16777232,
-                                "start": 1700,
+                                        }
+                                    ],
+                                    "flags": 16777232,
+                                    "start": 1700,
+                                    "end": 1702
+                                },
+                                "flags": 33554448,
+                                "start": 1685,
                                 "end": 1702
                             },
                             "ofKeyword": {
@@ -4269,16 +4353,16 @@ function foo8_c(x) {
                                                 "kind": 121,
                                                 "expression": {
                                                     "kind": 271,
+                                                    "asyncKeyword": null,
+                                                    "typeParameters": null,
+                                                    "parameters": [],
+                                                    "returnType": null,
                                                     "arrowToken": {
                                                         "kind": 10,
                                                         "flags": 64,
                                                         "start": 1798,
                                                         "end": 1801
                                                     },
-                                                    "typeParameters": null,
-                                                    "parameters": [],
-                                                    "asyncKeyword": null,
-                                                    "returnType": null,
                                                     "contents": {
                                                         "kind": 198,
                                                         "left": {
@@ -4398,27 +4482,39 @@ function foo8_c(x) {
                                 "end": 1849
                             },
                             "initializer": {
-                                "kind": 151,
-                                "bindingList": [
-                                    {
-                                        "kind": 190,
-                                        "binding": {
-                                            "kind": 134299649,
-                                            "text": "x",
-                                            "rawText": "x",
-                                            "flags": 96,
+                                "kind": 162,
+                                "lexicalKeyword": {
+                                    "kind": 37757004,
+                                    "flags": 64,
+                                    "start": 1851,
+                                    "end": 1856
+                                },
+                                "binding": {
+                                    "kind": 151,
+                                    "bindingList": [
+                                        {
+                                            "kind": 190,
+                                            "binding": {
+                                                "kind": 134299649,
+                                                "text": "x",
+                                                "rawText": "x",
+                                                "flags": 96,
+                                                "start": 1856,
+                                                "end": 1858
+                                            },
+                                            "type": null,
+                                            "initializer": null,
+                                            "flags": 16,
                                             "start": 1856,
                                             "end": 1858
-                                        },
-                                        "type": null,
-                                        "initializer": null,
-                                        "flags": 16,
-                                        "start": 1856,
-                                        "end": 1858
-                                    }
-                                ],
-                                "flags": 16777232,
-                                "start": 1856,
+                                        }
+                                    ],
+                                    "flags": 16777232,
+                                    "start": 1856,
+                                    "end": 1858
+                                },
+                                "flags": 33554448,
+                                "start": 1841,
                                 "end": 1858
                             },
                             "inKeyword": {
@@ -4601,16 +4697,16 @@ function foo8_c(x) {
                                                 "kind": 121,
                                                 "expression": {
                                                     "kind": 271,
+                                                    "asyncKeyword": null,
+                                                    "typeParameters": null,
+                                                    "parameters": [],
+                                                    "returnType": null,
                                                     "arrowToken": {
                                                         "kind": 10,
                                                         "flags": 64,
                                                         "start": 1954,
                                                         "end": 1957
                                                     },
-                                                    "typeParameters": null,
-                                                    "parameters": [],
-                                                    "asyncKeyword": null,
-                                                    "returnType": null,
                                                     "contents": {
                                                         "kind": 198,
                                                         "left": {
@@ -4730,34 +4826,46 @@ function foo8_c(x) {
                                 "end": 2003
                             },
                             "initializer": {
-                                "kind": 151,
-                                "bindingList": [
-                                    {
-                                        "kind": 190,
-                                        "binding": {
-                                            "kind": 134299649,
-                                            "text": "x",
-                                            "rawText": "x",
-                                            "flags": 96,
+                                "kind": 162,
+                                "lexicalKeyword": {
+                                    "kind": 37757004,
+                                    "flags": 64,
+                                    "start": 2005,
+                                    "end": 2010
+                                },
+                                "binding": {
+                                    "kind": 151,
+                                    "bindingList": [
+                                        {
+                                            "kind": 190,
+                                            "binding": {
+                                                "kind": 134299649,
+                                                "text": "x",
+                                                "rawText": "x",
+                                                "flags": 96,
+                                                "start": 2010,
+                                                "end": 2012
+                                            },
+                                            "type": null,
+                                            "initializer": {
+                                                "kind": 201392130,
+                                                "text": 0,
+                                                "rawText": "0",
+                                                "flags": 96,
+                                                "start": 2014,
+                                                "end": 2016
+                                            },
+                                            "flags": 16,
                                             "start": 2010,
-                                            "end": 2012
-                                        },
-                                        "type": null,
-                                        "initializer": {
-                                            "kind": 201392130,
-                                            "text": 0,
-                                            "rawText": "0",
-                                            "flags": 96,
-                                            "start": 2014,
                                             "end": 2016
-                                        },
-                                        "flags": 16,
-                                        "start": 2010,
-                                        "end": 2016
-                                    }
-                                ],
-                                "flags": 16777232,
-                                "start": 2010,
+                                        }
+                                    ],
+                                    "flags": 16777232,
+                                    "start": 2010,
+                                    "end": 2016
+                                },
+                                "flags": 33554448,
+                                "start": 1995,
                                 "end": 2016
                             },
                             "condition": null,
@@ -4949,16 +5057,16 @@ function foo8_c(x) {
                                                 "kind": 121,
                                                 "expression": {
                                                     "kind": 271,
+                                                    "asyncKeyword": null,
+                                                    "typeParameters": null,
+                                                    "parameters": [],
+                                                    "returnType": null,
                                                     "arrowToken": {
                                                         "kind": 10,
                                                         "flags": 64,
                                                         "start": 2114,
                                                         "end": 2117
                                                     },
-                                                    "typeParameters": null,
-                                                    "parameters": [],
-                                                    "asyncKeyword": null,
-                                                    "returnType": null,
                                                     "contents": {
                                                         "kind": 198,
                                                         "left": {
@@ -5265,16 +5373,16 @@ function foo8_c(x) {
                                                 "kind": 121,
                                                 "expression": {
                                                     "kind": 271,
+                                                    "asyncKeyword": null,
+                                                    "typeParameters": null,
+                                                    "parameters": [],
+                                                    "returnType": null,
                                                     "arrowToken": {
                                                         "kind": 10,
                                                         "flags": 64,
                                                         "start": 2264,
                                                         "end": 2267
                                                     },
-                                                    "typeParameters": null,
-                                                    "parameters": [],
-                                                    "asyncKeyword": null,
-                                                    "returnType": null,
                                                     "contents": {
                                                         "kind": 198,
                                                         "left": {
@@ -5596,16 +5704,16 @@ function foo8_c(x) {
                                                 "kind": 121,
                                                 "expression": {
                                                     "kind": 271,
+                                                    "asyncKeyword": null,
+                                                    "typeParameters": null,
+                                                    "parameters": [],
+                                                    "returnType": null,
                                                     "arrowToken": {
                                                         "kind": 10,
                                                         "flags": 64,
                                                         "start": 2422,
                                                         "end": 2425
                                                     },
-                                                    "typeParameters": null,
-                                                    "parameters": [],
-                                                    "asyncKeyword": null,
-                                                    "returnType": null,
                                                     "contents": {
                                                         "kind": 198,
                                                         "left": {
@@ -5759,34 +5867,46 @@ function foo8_c(x) {
                                 "end": 2487
                             },
                             "initializer": {
-                                "kind": 151,
-                                "bindingList": [
-                                    {
-                                        "kind": 190,
-                                        "binding": {
-                                            "kind": 134299649,
-                                            "text": "y",
-                                            "rawText": "y",
-                                            "flags": 96,
+                                "kind": 162,
+                                "lexicalKeyword": {
+                                    "kind": 37757004,
+                                    "flags": 64,
+                                    "start": 2489,
+                                    "end": 2494
+                                },
+                                "binding": {
+                                    "kind": 151,
+                                    "bindingList": [
+                                        {
+                                            "kind": 190,
+                                            "binding": {
+                                                "kind": 134299649,
+                                                "text": "y",
+                                                "rawText": "y",
+                                                "flags": 96,
+                                                "start": 2494,
+                                                "end": 2496
+                                            },
+                                            "type": null,
+                                            "initializer": {
+                                                "kind": 201392130,
+                                                "text": 0,
+                                                "rawText": "0",
+                                                "flags": 96,
+                                                "start": 2498,
+                                                "end": 2500
+                                            },
+                                            "flags": 16,
                                             "start": 2494,
-                                            "end": 2496
-                                        },
-                                        "type": null,
-                                        "initializer": {
-                                            "kind": 201392130,
-                                            "text": 0,
-                                            "rawText": "0",
-                                            "flags": 96,
-                                            "start": 2498,
                                             "end": 2500
-                                        },
-                                        "flags": 16,
-                                        "start": 2494,
-                                        "end": 2500
-                                    }
-                                ],
-                                "flags": 16777232,
-                                "start": 2494,
+                                        }
+                                    ],
+                                    "flags": 16777232,
+                                    "start": 2494,
+                                    "end": 2500
+                                },
+                                "flags": 33554448,
+                                "start": 2479,
                                 "end": 2500
                             },
                             "condition": null,
@@ -6021,16 +6141,16 @@ function foo8_c(x) {
                                                 "kind": 121,
                                                 "expression": {
                                                     "kind": 271,
+                                                    "asyncKeyword": null,
+                                                    "typeParameters": null,
+                                                    "parameters": [],
+                                                    "returnType": null,
                                                     "arrowToken": {
                                                         "kind": 10,
                                                         "flags": 64,
                                                         "start": 2619,
                                                         "end": 2622
                                                     },
-                                                    "typeParameters": null,
-                                                    "parameters": [],
-                                                    "asyncKeyword": null,
-                                                    "returnType": null,
                                                     "contents": {
                                                         "kind": 198,
                                                         "left": {
@@ -6150,57 +6270,69 @@ function foo8_c(x) {
                                 "end": 2668
                             },
                             "initializer": {
-                                "kind": 151,
-                                "bindingList": [
-                                    {
-                                        "kind": 190,
-                                        "binding": {
-                                            "kind": 134299649,
-                                            "text": "x",
-                                            "rawText": "x",
-                                            "flags": 96,
+                                "kind": 162,
+                                "lexicalKeyword": {
+                                    "kind": 37757004,
+                                    "flags": 64,
+                                    "start": 2670,
+                                    "end": 2675
+                                },
+                                "binding": {
+                                    "kind": 151,
+                                    "bindingList": [
+                                        {
+                                            "kind": 190,
+                                            "binding": {
+                                                "kind": 134299649,
+                                                "text": "x",
+                                                "rawText": "x",
+                                                "flags": 96,
+                                                "start": 2675,
+                                                "end": 2677
+                                            },
+                                            "type": null,
+                                            "initializer": {
+                                                "kind": 201392130,
+                                                "text": 0,
+                                                "rawText": "0",
+                                                "flags": 96,
+                                                "start": 2679,
+                                                "end": 2681
+                                            },
+                                            "flags": 16,
                                             "start": 2675,
-                                            "end": 2677
-                                        },
-                                        "type": null,
-                                        "initializer": {
-                                            "kind": 201392130,
-                                            "text": 0,
-                                            "rawText": "0",
-                                            "flags": 96,
-                                            "start": 2679,
                                             "end": 2681
                                         },
-                                        "flags": 16,
-                                        "start": 2675,
-                                        "end": 2681
-                                    },
-                                    {
-                                        "kind": 190,
-                                        "binding": {
-                                            "kind": 134299649,
-                                            "text": "y",
-                                            "rawText": "y",
-                                            "flags": 96,
+                                        {
+                                            "kind": 190,
+                                            "binding": {
+                                                "kind": 134299649,
+                                                "text": "y",
+                                                "rawText": "y",
+                                                "flags": 96,
+                                                "start": 2682,
+                                                "end": 2684
+                                            },
+                                            "type": null,
+                                            "initializer": {
+                                                "kind": 201392130,
+                                                "text": 1,
+                                                "rawText": "1",
+                                                "flags": 96,
+                                                "start": 2686,
+                                                "end": 2688
+                                            },
+                                            "flags": 16,
                                             "start": 2682,
-                                            "end": 2684
-                                        },
-                                        "type": null,
-                                        "initializer": {
-                                            "kind": 201392130,
-                                            "text": 1,
-                                            "rawText": "1",
-                                            "flags": 96,
-                                            "start": 2686,
                                             "end": 2688
-                                        },
-                                        "flags": 16,
-                                        "start": 2682,
-                                        "end": 2688
-                                    }
-                                ],
-                                "flags": 16777232,
-                                "start": 2675,
+                                        }
+                                    ],
+                                    "flags": 16777232,
+                                    "start": 2675,
+                                    "end": 2688
+                                },
+                                "flags": 33554448,
+                                "start": 2660,
                                 "end": 2688
                             },
                             "condition": null,
@@ -6412,16 +6544,16 @@ function foo8_c(x) {
                                                 "kind": 121,
                                                 "expression": {
                                                     "kind": 271,
+                                                    "asyncKeyword": null,
+                                                    "typeParameters": null,
+                                                    "parameters": [],
+                                                    "returnType": null,
                                                     "arrowToken": {
                                                         "kind": 10,
                                                         "flags": 64,
                                                         "start": 2790,
                                                         "end": 2793
                                                     },
-                                                    "typeParameters": null,
-                                                    "parameters": [],
-                                                    "asyncKeyword": null,
-                                                    "returnType": null,
                                                     "contents": {
                                                         "kind": 198,
                                                         "left": {
@@ -6834,16 +6966,16 @@ function foo8_c(x) {
                                                 "kind": 121,
                                                 "expression": {
                                                     "kind": 271,
+                                                    "asyncKeyword": null,
+                                                    "typeParameters": null,
+                                                    "parameters": [],
+                                                    "returnType": null,
                                                     "arrowToken": {
                                                         "kind": 10,
                                                         "flags": 64,
                                                         "start": 2977,
                                                         "end": 2980
                                                     },
-                                                    "typeParameters": null,
-                                                    "parameters": [],
-                                                    "asyncKeyword": null,
-                                                    "returnType": null,
                                                     "contents": {
                                                         "kind": 198,
                                                         "left": {
@@ -7228,16 +7360,16 @@ function foo8_c(x) {
                                                 "kind": 121,
                                                 "expression": {
                                                     "kind": 271,
+                                                    "asyncKeyword": null,
+                                                    "typeParameters": null,
+                                                    "parameters": [],
+                                                    "returnType": null,
                                                     "arrowToken": {
                                                         "kind": 10,
                                                         "flags": 64,
                                                         "start": 3150,
                                                         "end": 3153
                                                     },
-                                                    "typeParameters": null,
-                                                    "parameters": [],
-                                                    "asyncKeyword": null,
-                                                    "returnType": null,
                                                     "contents": {
                                                         "kind": 198,
                                                         "left": {
@@ -7411,34 +7543,46 @@ function foo8_c(x) {
                                 "end": 3220
                             },
                             "initializer": {
-                                "kind": 151,
-                                "bindingList": [
-                                    {
-                                        "kind": 190,
-                                        "binding": {
-                                            "kind": 134299649,
-                                            "text": "y",
-                                            "rawText": "y",
-                                            "flags": 96,
+                                "kind": 162,
+                                "lexicalKeyword": {
+                                    "kind": 37757004,
+                                    "flags": 64,
+                                    "start": 3222,
+                                    "end": 3227
+                                },
+                                "binding": {
+                                    "kind": 151,
+                                    "bindingList": [
+                                        {
+                                            "kind": 190,
+                                            "binding": {
+                                                "kind": 134299649,
+                                                "text": "y",
+                                                "rawText": "y",
+                                                "flags": 96,
+                                                "start": 3227,
+                                                "end": 3229
+                                            },
+                                            "type": null,
+                                            "initializer": {
+                                                "kind": 201392130,
+                                                "text": 0,
+                                                "rawText": "0",
+                                                "flags": 96,
+                                                "start": 3231,
+                                                "end": 3233
+                                            },
+                                            "flags": 16,
                                             "start": 3227,
-                                            "end": 3229
-                                        },
-                                        "type": null,
-                                        "initializer": {
-                                            "kind": 201392130,
-                                            "text": 0,
-                                            "rawText": "0",
-                                            "flags": 96,
-                                            "start": 3231,
                                             "end": 3233
-                                        },
-                                        "flags": 16,
-                                        "start": 3227,
-                                        "end": 3233
-                                    }
-                                ],
-                                "flags": 16777232,
-                                "start": 3227,
+                                        }
+                                    ],
+                                    "flags": 16777232,
+                                    "start": 3227,
+                                    "end": 3233
+                                },
+                                "flags": 33554448,
+                                "start": 3212,
                                 "end": 3233
                             },
                             "condition": null,
@@ -7693,16 +7837,16 @@ function foo8_c(x) {
                                                 "kind": 121,
                                                 "expression": {
                                                     "kind": 271,
+                                                    "asyncKeyword": null,
+                                                    "typeParameters": null,
+                                                    "parameters": [],
+                                                    "returnType": null,
                                                     "arrowToken": {
                                                         "kind": 10,
                                                         "flags": 64,
                                                         "start": 3356,
                                                         "end": 3359
                                                     },
-                                                    "typeParameters": null,
-                                                    "parameters": [],
-                                                    "asyncKeyword": null,
-                                                    "returnType": null,
                                                     "contents": {
                                                         "kind": 198,
                                                         "left": {
@@ -7804,95 +7948,87 @@ function foo8_c(x) {
 
 ```javascript
 
-function foo0() {
-  for (let of [])
-    {
-      let a = arguments.length;
-      (function () {
-          return  x + a;
-        });
-      (() =>  x + a);
-    }
-}
-function foo0_1() {
-  for (let in [])
-    {}
-}
-function foo1() {
-  for (let; ++x; x  < 1)
-    {}
-}
-function foo2() {
-  while (1 === 1) {}
-}
-function foo3() {
-  do {}
-  while (1 === 1);
-}
-function foo4() {
-  for (let; ++y; y  < 1)
-    {}
-}
-function foo5() {
-  for (let; ++x; x  < 1)
-    {}
-}
-function foo6() {
-  while (1 === 1) {}
-}
-function foo7() {
-  do {}
-  while (1 === 1);
-}
-function foo8() {
-  for (let; ++y; y  < 1)
-    {}
-}
-///=======const
-function foo0_c() {
-  for (const of [])
-    {
-      const a = arguments.length;
-      (function () {
-          return  x + a;
-        });
-      (() =>  x + a);
-    }
-}
-function foo0_1_c() {
-  for (const in [])
-    {}
-}
-function foo1_c() {
-  for (const; ; x  < 1)
-    {}
-}
-function foo2_c() {
-  while (1 === 1) {}
-}
-function foo3_c() {
-  do {}
-  while (1 === 1);
-}
-function foo4_c() {
-  for (const; ; y  < 1)
-    {}
-}
-function foo5_c() {
-  for (const; ; x  < 1)
-    {}
-}
-function foo6_c() {
-  while (1 === 1) {}
-}
-function foo7_c() {
-  do {}
-  while (1 === 1);
-}
-function foo8_c() {
-  for (const; ; y  < 1)
-    {}
-}
+ function foo0(x) {
+for(let x of []) { let a = arguments.length;, (function () {
+return x + a;
+});, (() =>x + a); }
+}, function foo0_1(x) {
+for (let x in []) { let a = arguments.length;, (function () {
+return x + a;
+});, (() =>x + a); }
+}, function foo1(x) {
+for(let x = 0; ++x; x  < 1){ let a = arguments.length;, (function () {
+return x + a;
+});, (() =>x + a); }
+}, function foo2(x) {
+while (1 === 1) { let a = arguments.length;, (function () {
+return x + a;
+});, (() =>x + a); }
+}, function foo3(x) {
+do { let x;, let a = arguments.length;, (function () {
+return x + a;
+});, (() =>x + a); } while (1 === 1)
+}, function foo4(x) {
+for(let y = 0; ++y; y  < 1){ let a = arguments.length;, let x = 1;, (function () {
+return x + a;
+});, (() =>x + a); }
+}, function foo5(x) {
+for(let x = 0, y = 1; ++x; x  < 1){ let a = arguments.length;, (function () {
+return x + y + a;
+});, (() =>x + y + a); }
+}, function foo6(x) {
+while (1 === 1) { let x, y;, let a = arguments.length;, (function () {
+return x + y + a;
+});, (() =>x + y + a); }
+}, function foo7(x) {
+do { let x, y;, let a = arguments.length;, (function () {
+return x + y + a;
+});, (() =>x + y + a); } while (1 === 1)
+}, function foo8(x) {
+for(let y = 0; ++y; y  < 1){ let x = 1;, let a = arguments.length;, (function () {
+return x + y + a;
+});, (() =>x + y + a); }
+}, function foo0_c(x) {
+for(const x of []) { const a = arguments.length;, (function () {
+return x + a;
+});, (() =>x + a); }
+}, function foo0_1_c(x) {
+for (const x in []) { const a = arguments.length;, (function () {
+return x + a;
+});, (() =>x + a); }
+}, function foo1_c(x) {
+for(const x = 0;; x  < 1){ const a = arguments.length;, (function () {
+return x + a;
+});, (() =>x + a); }
+}, function foo2_c(x) {
+while (1 === 1) { const a = arguments.length;, (function () {
+return x + a;
+});, (() =>x + a); }
+}, function foo3_c(x) {
+do { const x = 1;, const a = arguments.length;, (function () {
+return x + a;
+});, (() =>x + a); } while (1 === 1)
+}, function foo4_c(x) {
+for(const y = 0;; y  < 1){ const a = arguments.length;, const x = 1;, (function () {
+return x + a;
+});, (() =>x + a); }
+}, function foo5_c(x) {
+for(const x = 0, y = 1;; x  < 1){ const a = arguments.length;, (function () {
+return x + y + a;
+});, (() =>x + y + a); }
+}, function foo6_c(x) {
+while (1 === 1) { const x = 1, y = 1;, const a = arguments.length;, (function () {
+return x + y + a;
+});, (() =>x + y + a); }
+}, function foo7_c(x) {
+do { const x = 1, y = 1;, const a = arguments.length;, (function () {
+return x + y + a;
+});, (() =>x + y + a); } while (1 === 1)
+}, function foo8_c(x) {
+for(const y = 0;; y  < 1){ const x = 1;, const a = arguments.length;, (function () {
+return x + y + a;
+});, (() =>x + y + a); }
+} 
 ```
 
 ### Diagnostics

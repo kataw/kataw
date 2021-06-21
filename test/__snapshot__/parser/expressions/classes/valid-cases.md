@@ -187,11 +187,11 @@ x = class {y = 1; 'z' = 2}
                                     "kind": 278,
                                     "declareToken": null,
                                     "decorators": null,
-                                    "asteriskToken": null,
                                     "staticKeyword": null,
                                     "asyncKeyword": null,
                                     "setKeyword": null,
                                     "getKeyword": null,
+                                    "asteriskToken": null,
                                     "method": {
                                         "kind": 209,
                                         "name": {
@@ -203,7 +203,7 @@ x = class {y = 1; 'z' = 2}
                                             "end": 40
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -244,11 +244,11 @@ x = class {y = 1; 'z' = 2}
                                     "kind": 278,
                                     "declareToken": null,
                                     "decorators": null,
-                                    "asteriskToken": null,
                                     "staticKeyword": null,
                                     "asyncKeyword": null,
                                     "setKeyword": null,
                                     "getKeyword": null,
+                                    "asteriskToken": null,
                                     "method": {
                                         "kind": 209,
                                         "name": {
@@ -260,7 +260,7 @@ x = class {y = 1; 'z' = 2}
                                             "end": 50
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -351,7 +351,6 @@ x = class {y = 1; 'z' = 2}
                                     "kind": 278,
                                     "declareToken": null,
                                     "decorators": null,
-                                    "asteriskToken": null,
                                     "staticKeyword": null,
                                     "asyncKeyword": null,
                                     "setKeyword": {
@@ -361,6 +360,7 @@ x = class {y = 1; 'z' = 2}
                                         "end": 72
                                     },
                                     "getKeyword": null,
+                                    "asteriskToken": null,
                                     "method": {
                                         "kind": 209,
                                         "name": {
@@ -372,7 +372,7 @@ x = class {y = 1; 'z' = 2}
                                             "end": 74
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -413,7 +413,6 @@ x = class {y = 1; 'z' = 2}
                                     "kind": 278,
                                     "declareToken": null,
                                     "decorators": null,
-                                    "asteriskToken": null,
                                     "staticKeyword": null,
                                     "asyncKeyword": null,
                                     "setKeyword": null,
@@ -423,6 +422,7 @@ x = class {y = 1; 'z' = 2}
                                         "start": 80,
                                         "end": 84
                                     },
+                                    "asteriskToken": null,
                                     "method": {
                                         "kind": 209,
                                         "name": {
@@ -434,7 +434,7 @@ x = class {y = 1; 'z' = 2}
                                             "end": 88
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [
                                                 {
@@ -534,7 +534,6 @@ x = class {y = 1; 'z' = 2}
                                     "kind": 278,
                                     "declareToken": null,
                                     "decorators": null,
-                                    "asteriskToken": null,
                                     "staticKeyword": null,
                                     "asyncKeyword": null,
                                     "setKeyword": {
@@ -544,6 +543,7 @@ x = class {y = 1; 'z' = 2}
                                         "end": 111
                                     },
                                     "getKeyword": null,
+                                    "asteriskToken": null,
                                     "method": {
                                         "kind": 209,
                                         "name": {
@@ -555,7 +555,7 @@ x = class {y = 1; 'z' = 2}
                                             "end": 113
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -596,7 +596,6 @@ x = class {y = 1; 'z' = 2}
                                     "kind": 278,
                                     "declareToken": null,
                                     "decorators": null,
-                                    "asteriskToken": null,
                                     "staticKeyword": null,
                                     "asyncKeyword": null,
                                     "setKeyword": null,
@@ -606,6 +605,7 @@ x = class {y = 1; 'z' = 2}
                                         "start": 119,
                                         "end": 123
                                     },
+                                    "asteriskToken": null,
                                     "method": {
                                         "kind": 209,
                                         "name": {
@@ -617,7 +617,7 @@ x = class {y = 1; 'z' = 2}
                                             "end": 127
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [
                                                 {
@@ -810,31 +810,33 @@ x = class {y = 1; 'z' = 2}
 
 ```javascript
 
-x = class  {
-  y = 1;
-
-  "'z'" = 2;
-};
-x = class  {
-  y {}
-
-  "'z'" {}
-};
-x = class  {
-  get y {}
-
-  set "'z'" {}
-};
-x = class  {
-  get y {}
-
-  set "'z'" {}
-};
-x = class  {
-  y = 1;
-
-  "'z'" = 2;
-};
+ x=class  {
+    y = 1,
+    ,
+    'z' = 2
+};, x=class  {
+    y() {
+    },
+    ,
+    'z'() {
+    }
+};, x=class  {
+    get y() {
+    },
+    ,
+    set 'z'(z) {
+    }
+};, x=class  {
+    get y() {
+    },
+    ,
+    set 'z'(z) {
+    }
+};, x=class  {
+    y = 1,
+    ,
+    'z' = 2
+}; 
 ```
 
 ### Diagnostics

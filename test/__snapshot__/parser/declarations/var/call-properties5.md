@@ -256,9 +256,9 @@ var b: { (x: number): number } = function (x: number): string { return "hi"; };
 
 ```javascript
 
-var b:  = function (): string {
-  return  "\"hi\"";
-};
+ var b  = function (): string {
+return "hi";
+}; 
 ```
 
 ### Diagnostics

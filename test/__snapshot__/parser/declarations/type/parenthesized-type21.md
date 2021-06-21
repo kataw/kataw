@@ -109,7 +109,7 @@ type a = (["string"]);
 
 ```javascript
 
-
+  
 ```
 
 ### Diagnostics

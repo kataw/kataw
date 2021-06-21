@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/miscellaneous/should-pass/autogen.md
-- Path: kataw/test/__snapshot__/parser/miscellaneous/should-pass/gen/stand-alone
+- Regenerated: 2021-06-12
+- From: d
+- Path: e
 > :: test: stand-alone
 > :: case: (function not_gen() {yield * 2;})
 ## Options
@@ -130,9 +130,9 @@
 
 ```javascript
 
-(function not_gen() {
-    yield * 2;
-  });
+ (function not_gen() {
+yield * 2;
+}); 
 ```
 
 ### Diagnostics

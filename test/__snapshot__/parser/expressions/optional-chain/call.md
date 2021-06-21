@@ -86,7 +86,7 @@ a?.(x)
 
 ```javascript
 
-a?.(x);
+ ; 
 ```
 
 ### Diagnostics

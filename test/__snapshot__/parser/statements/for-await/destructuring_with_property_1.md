@@ -129,8 +129,7 @@ for ([a.b].foo of c) d
 
 ```javascript
 
-for ([a.b].foo of c)
-  d;
+ for([a.b].foo of c) d; 
 ```
 
 ### Diagnostics

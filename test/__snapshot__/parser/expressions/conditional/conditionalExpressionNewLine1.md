@@ -115,7 +115,7 @@ var v = a ? b : c;
 
 ```javascript
 
-var v = a ? b : c;
+ var v = a ? b : c; 
 ```
 
 ### Diagnostics

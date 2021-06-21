@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/miscellaneous/error-recovery/autogen.md
-- Path: kataw/test/__snapshot__/parser/miscellaneous/error-recovery/gen/ax002f_case
+- Regenerated: 2021-06-12
+- From: d
+- Path: e
 > :: test: a/ case
 > :: case: async function foo(a = () => { "use strict"; return eval =>("x"); }) {}
 ## Options
@@ -66,16 +66,16 @@ async function foo(a = () => { "use strict"; return eval =>("x"); }) {}
                         "type": null,
                         "right": {
                             "kind": 271,
+                            "asyncKeyword": null,
+                            "typeParameters": null,
+                            "parameters": [],
+                            "returnType": null,
                             "arrowToken": {
                                 "kind": 10,
                                 "flags": 64,
                                 "start": 25,
                                 "end": 28
                             },
-                            "typeParameters": null,
-                            "parameters": [],
-                            "asyncKeyword": null,
-                            "returnType": null,
                             "contents": {
                                 "kind": 216,
                                 "functionStatementList": {
@@ -101,12 +101,7 @@ async function foo(a = () => { "use strict"; return eval =>("x"); }) {}
                                             },
                                             "expression": {
                                                 "kind": 271,
-                                                "arrowToken": {
-                                                    "kind": 10,
-                                                    "flags": 64,
-                                                    "start": 56,
-                                                    "end": 59
-                                                },
+                                                "asyncKeyword": null,
                                                 "typeParameters": null,
                                                 "parameters": {
                                                     "kind": 134299649,
@@ -116,8 +111,13 @@ async function foo(a = () => { "use strict"; return eval =>("x"); }) {}
                                                     "start": 51,
                                                     "end": 56
                                                 },
-                                                "asyncKeyword": null,
                                                 "returnType": null,
+                                                "arrowToken": {
+                                                    "kind": 10,
+                                                    "flags": 64,
+                                                    "start": 56,
+                                                    "end": 59
+                                                },
                                                 "contents": {
                                                     "kind": 121,
                                                     "expression": {
@@ -196,7 +196,8 @@ async function foo(a = () => { "use strict"; return eval =>("x"); }) {}
 
 ```javascript
 
-async function foo() {}
+ async function foo() {
+} 
 ```
 
 ### Diagnostics

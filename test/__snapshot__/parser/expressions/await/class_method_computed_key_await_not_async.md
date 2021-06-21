@@ -19,12 +19,7 @@
             "kind": 120,
             "expression": {
                 "kind": 271,
-                "arrowToken": {
-                    "kind": 10,
-                    "flags": 64,
-                    "start": 39,
-                    "end": 42
-                },
+                "asyncKeyword": null,
                 "typeParameters": null,
                 "parameters": [
                     {
@@ -68,11 +63,11 @@
                                             "kind": 278,
                                             "declareToken": null,
                                             "decorators": null,
-                                            "asteriskToken": null,
                                             "staticKeyword": null,
                                             "asyncKeyword": null,
                                             "setKeyword": null,
                                             "getKeyword": null,
+                                            "asteriskToken": null,
                                             "method": {
                                                 "kind": 209,
                                                 "name": {
@@ -90,7 +85,7 @@
                                                     "end": 24
                                                 },
                                                 "typeParameters": null,
-                                                "formalParameters": {
+                                                "formalParameterList": {
                                                     "kind": 214,
                                                     "formalParameters": [],
                                                     "trailingComma": false,
@@ -131,11 +126,11 @@
                                             "kind": 278,
                                             "declareToken": null,
                                             "decorators": null,
-                                            "asteriskToken": null,
                                             "staticKeyword": null,
                                             "asyncKeyword": null,
                                             "setKeyword": null,
                                             "getKeyword": null,
+                                            "asteriskToken": null,
                                             "method": {
                                                 "kind": 209,
                                                 "name": {
@@ -147,7 +142,7 @@
                                                     "end": 33
                                                 },
                                                 "typeParameters": null,
-                                                "formalParameters": {
+                                                "formalParameterList": {
                                                     "kind": 214,
                                                     "formalParameters": [],
                                                     "trailingComma": false,
@@ -196,8 +191,13 @@
                         "end": 38
                     }
                 ],
-                "asyncKeyword": null,
                 "returnType": null,
+                "arrowToken": {
+                    "kind": 10,
+                    "flags": 64,
+                    "start": 39,
+                    "end": 42
+                },
                 "contents": {
                     "kind": 216,
                     "functionStatementList": {
@@ -234,11 +234,14 @@
 
 ```javascript
 
-(fail = class A {
-  [await] {}
-
-  "\"x\"" {}
-}) =>  {};
+ (fail = class A {
+        () {
+        },
+        ,
+        "x"() {
+        }
+    }) => {
+}; 
 ```
 
 ### Diagnostics

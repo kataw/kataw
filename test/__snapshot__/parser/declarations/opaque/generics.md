@@ -381,8 +381,7 @@ opaque type MyObject<A, B, C>: { foo: A, bar: B } = {
 
 ```javascript
 
-
-
+ , ; 
 ```
 
 ### Diagnostics

@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/arrow/position/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/arrow/position/gen/arr
+- Regenerated: 2021-06-12
+- From: d
+- Path: r
 > :: test: arr
 > :: case: async async => {}
 ## Options
@@ -32,11 +32,11 @@
                     "elements": [
                         {
                             "kind": 271,
-                            "arrowToken": {
-                                "kind": 10,
+                            "asyncKeyword": {
+                                "kind": 82031,
                                 "flags": 64,
-                                "start": 12,
-                                "end": 15
+                                "start": 1,
+                                "end": 6
                             },
                             "typeParameters": null,
                             "parameters": {
@@ -47,13 +47,13 @@
                                 "start": 6,
                                 "end": 12
                             },
-                            "asyncKeyword": {
-                                "kind": 82031,
-                                "flags": 64,
-                                "start": 1,
-                                "end": 6
-                            },
                             "returnType": null,
+                            "arrowToken": {
+                                "kind": 10,
+                                "flags": 64,
+                                "start": 12,
+                                "end": 15
+                            },
                             "contents": {
                                 "kind": 216,
                                 "functionStatementList": {
@@ -100,7 +100,8 @@
 
 ```javascript
 
-[async async =>  {}];
+ [async => {
+    }]; 
 ```
 
 ### Diagnostics

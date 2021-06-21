@@ -203,11 +203,11 @@ class AnotherRomote {
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": null,
                             "getKeyword": null,
+                            "asteriskToken": null,
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -219,7 +219,7 @@ class AnotherRomote {
                                     "end": 148
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -276,19 +276,15 @@ class AnotherRomote {
 ### Printed
 
 ```javascript
+
 /**
  * Leading trivia
  */
-
-@decorator("\"hello\"")
-class Remote {}
-/**
- * Floating Comment
- */
-@decorator("\"hi\"")
-class AnotherRomote {
-  constructor {}
-}
+ class Remote {
+}, class AnotherRomote {
+    constructor() {
+    }
+} 
 ```
 
 ### Diagnostics

@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/arrow/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/arrow/gen/conditional_paren
+- Regenerated: 2021-06-12
+- From: d
+- Path: n
 > :: test: conditional_paren
 > :: case: x => { return x; }
 ## Options
@@ -59,12 +59,7 @@ bar ? baz : ( x => { return x; } );
                     "kind": 121,
                     "expression": {
                         "kind": 271,
-                        "arrowToken": {
-                            "kind": 10,
-                            "flags": 64,
-                            "start": 15,
-                            "end": 18
-                        },
+                        "asyncKeyword": null,
                         "typeParameters": null,
                         "parameters": {
                             "kind": 134299649,
@@ -74,8 +69,13 @@ bar ? baz : ( x => { return x; } );
                             "start": 13,
                             "end": 15
                         },
-                        "asyncKeyword": null,
                         "returnType": null,
+                        "arrowToken": {
+                            "kind": 10,
+                            "flags": 64,
+                            "start": 15,
+                            "end": 18
+                        },
                         "contents": {
                             "kind": 216,
                             "functionStatementList": {
@@ -141,9 +141,9 @@ bar ? baz : ( x => { return x; } );
 
 ```javascript
 
-bar ? baz : (x =>  {
-        return  x;
-      });
+ bar ? baz : (x => {
+return x;
+}); 
 ```
 
 ### Diagnostics

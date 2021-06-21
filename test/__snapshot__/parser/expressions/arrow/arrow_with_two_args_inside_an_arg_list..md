@@ -34,12 +34,7 @@ f(((a, b) => a + b));
                             "kind": 121,
                             "expression": {
                                 "kind": 271,
-                                "arrowToken": {
-                                    "kind": 10,
-                                    "flags": 64,
-                                    "start": 9,
-                                    "end": 12
-                                },
+                                "asyncKeyword": null,
                                 "typeParameters": null,
                                 "parameters": [
                                     {
@@ -59,8 +54,13 @@ f(((a, b) => a + b));
                                         "end": 8
                                     }
                                 ],
-                                "asyncKeyword": null,
                                 "returnType": null,
+                                "arrowToken": {
+                                    "kind": 10,
+                                    "flags": 64,
+                                    "start": 9,
+                                    "end": 12
+                                },
                                 "contents": {
                                     "kind": 198,
                                     "left": {
@@ -125,7 +125,7 @@ f(((a, b) => a + b));
 
 ```javascript
 
-f(((a, b) =>  a + b));
+ ; 
 ```
 
 ### Diagnostics

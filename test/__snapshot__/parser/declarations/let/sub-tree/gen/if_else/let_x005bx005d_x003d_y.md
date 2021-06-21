@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/declarations/let/sub-tree/autogen.md
-- Path: kataw/test/__snapshot__/parser/declarations/let/sub-tree/gen/if_else
+- Regenerated: 2021-06-12
+- From: d
+- Path: e
 > :: test: if else
 > :: case: let
 >          [] = y
@@ -67,7 +67,7 @@ else let
                 "expression": {
                     "kind": 125,
                     "left": {
-                        "kind": 536871042,
+                        "kind": 130,
                         "member": {
                             "kind": 134299649,
                             "text": "let",
@@ -84,7 +84,7 @@ else let
                             "start": 20,
                             "end": 20
                         },
-                        "flags": 32,
+                        "flags": 536870944,
                         "start": 14,
                         "end": 21
                     },

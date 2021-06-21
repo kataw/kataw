@@ -86,11 +86,11 @@ class C<T> {
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": null,
                             "getKeyword": null,
+                            "asteriskToken": null,
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -102,7 +102,7 @@ class C<T> {
                                     "end": 18
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -414,13 +414,13 @@ class C<T> {
 
 ```javascript
 
-class C {
-  foo {
-    TypeAssertIs  < T > (9);
-    TypeAssertIs  < T | number > (9);
-    TypeAssertIs  < { A: number, B: T } > (9);
-  }
-}
+ class C {
+    foo() {
+    TypeAssertIs  < T > (9);,
+    TypeAssertIs  < T | number > (9);,
+    TypeAssertIs  < { A : number, B : T } > (9);
+    }
+} 
 ```
 
 ### Diagnostics

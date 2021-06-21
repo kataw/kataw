@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/await/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/await/gen/simple
+- Regenerated: 2021-06-12
+- From: d
+- Path: e
 > :: test: simple
 > :: case: y = async x => await x
 ## Options
@@ -43,11 +43,11 @@ y = async x => await x
                 },
                 "right": {
                     "kind": 271,
-                    "arrowToken": {
-                        "kind": 10,
+                    "asyncKeyword": {
+                        "kind": 82031,
                         "flags": 64,
-                        "start": 11,
-                        "end": 14
+                        "start": 3,
+                        "end": 9
                     },
                     "typeParameters": null,
                     "parameters": {
@@ -58,13 +58,13 @@ y = async x => await x
                         "start": 9,
                         "end": 11
                     },
-                    "asyncKeyword": {
-                        "kind": 82031,
-                        "flags": 64,
-                        "start": 3,
-                        "end": 9
-                    },
                     "returnType": null,
+                    "arrowToken": {
+                        "kind": 10,
+                        "flags": 64,
+                        "start": 11,
+                        "end": 14
+                    },
                     "contents": {
                         "kind": 208,
                         "awaitKeyword": {
@@ -111,7 +111,7 @@ y = async x => await x
 
 ```javascript
 
-y = async x =>  await x;
+ y=x =>await x; 
 ```
 
 ### Diagnostics

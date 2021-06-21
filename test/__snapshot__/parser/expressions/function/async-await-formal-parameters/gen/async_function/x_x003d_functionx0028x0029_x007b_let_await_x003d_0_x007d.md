@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/function/async-await-formal-parameters/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/function/async-await-formal-parameters/gen/async_function
+- Regenerated: 2021-06-12
+- From: d
+- Path: n
 > :: test: async function
 > :: case: x = function() { let await = 0; }
 ## Options
@@ -225,7 +225,8 @@ var f = async function f(x = function() { let await = 0; }) {}
 
 ```javascript
 
-var f = async function f() {};
+ var f = async function f() {
+}; 
 ```
 
 ### Diagnostics

@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/await/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/await/gen/simple
+- Regenerated: 2021-06-12
+- From: d
+- Path: e
 > :: test: simple
 > :: case: await => async.await[foo]
 ## Options
@@ -27,12 +27,7 @@ await => async.await[foo]
             "kind": 120,
             "expression": {
                 "kind": 271,
-                "arrowToken": {
-                    "kind": 10,
-                    "flags": 64,
-                    "start": 5,
-                    "end": 8
-                },
+                "asyncKeyword": null,
                 "typeParameters": null,
                 "parameters": {
                     "kind": 134299649,
@@ -42,10 +37,15 @@ await => async.await[foo]
                     "start": 0,
                     "end": 5
                 },
-                "asyncKeyword": null,
                 "returnType": null,
+                "arrowToken": {
+                    "kind": 10,
+                    "flags": 64,
+                    "start": 5,
+                    "end": 8
+                },
                 "contents": {
-                    "kind": 536871042,
+                    "kind": 130,
                     "member": {
                         "kind": 129,
                         "member": {
@@ -76,7 +76,7 @@ await => async.await[foo]
                         "start": 21,
                         "end": 24
                     },
-                    "flags": 32,
+                    "flags": 536870944,
                     "start": 8,
                     "end": 25
                 },
@@ -102,7 +102,7 @@ await => async.await[foo]
 
 ```javascript
 
-await =>  ;
+ await =>async.await[foo]; 
 ```
 
 ### Diagnostics

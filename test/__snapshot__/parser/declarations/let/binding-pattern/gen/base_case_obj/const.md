@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/declarations/let/binding-pattern/autogen.md
-- Path: kataw/test/__snapshot__/parser/declarations/let/binding-pattern/gen/base_case_obj
+- Regenerated: 2021-06-12
+- From: d
+- Path: j
 > :: test: base case obj
 > :: case: const
 ## Options
@@ -95,9 +95,9 @@ const {x} = v
 
 ```javascript
 
-const {
-  x
-} = v;
+ const {
+    x
+} = v; 
 ```
 
 ### Diagnostics

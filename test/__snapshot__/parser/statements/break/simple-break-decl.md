@@ -103,7 +103,7 @@ loop: while (x) { break loop; }
 
 ```javascript
 
-loop: while (x) {}
+ loop: while (x) { break loop; } 
 ```
 
 ### Diagnostics

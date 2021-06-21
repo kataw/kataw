@@ -200,11 +200,10 @@ class Foo {
 
 ```javascript
 
-class Foo {
-  static bar = 42;
-
-
-}
+ class Foo {
+    static bar = 42,
+    ,
+} 
 ```
 
 ### Diagnostics

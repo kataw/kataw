@@ -44,11 +44,11 @@ class A {a(){}}
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": null,
                             "getKeyword": null,
+                            "asteriskToken": null,
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -60,7 +60,7 @@ class A {a(){}}
                                     "end": 10
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -118,9 +118,10 @@ class A {a(){}}
 
 ```javascript
 
-class A {
-  a {}
-}
+ class A {
+    a() {
+    }
+} 
 ```
 
 ### Diagnostics

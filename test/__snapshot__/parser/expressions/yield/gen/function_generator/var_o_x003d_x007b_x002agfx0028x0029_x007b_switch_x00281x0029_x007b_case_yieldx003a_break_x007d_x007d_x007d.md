@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/yield/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/yield/gen/function_generator
+- Regenerated: 2021-06-12
+- From: d
+- Path: r
 > :: test: function generator
 > :: case: var o = { *gf() { switch (1) { case yield: break; } } }
 ## Options
@@ -125,9 +125,9 @@ function * gen() { function not_gen() { var o = { *gf() { switch (1) { case yiel
                                                                 "kind": 218,
                                                                 "properties": [
                                                                     {
-                                                                        "kind": 257,
+                                                                        "kind": 351,
                                                                         "asyncKeyword": null,
-                                                                        "generatorToken": {
+                                                                        "asteriskToken": {
                                                                             "kind": 67143222,
                                                                             "flags": 64,
                                                                             "start": 49,
@@ -146,7 +146,7 @@ function * gen() { function not_gen() { var o = { *gf() { switch (1) { case yiel
                                                                                 "end": 53
                                                                             },
                                                                             "typeParameters": null,
-                                                                            "formalParameters": {
+                                                                            "formalParameterList": {
                                                                                 "kind": 214,
                                                                                 "formalParameters": [],
                                                                                 "trailingComma": false,
@@ -319,16 +319,15 @@ function * gen() { function not_gen() { var o = { *gf() { switch (1) { case yiel
 
 ```javascript
 
-function * gen() {
-  function not_gen() {
-    var o = { gf {
-        switch(1) {
-          case  yield:
-            break;
-        }
-      } };
-  }
+ function* gen() {
+function not_gen() {
+var o = { * gf() {
+    switch(1) {
+        case yield: break;
+    }
+    } };
 }
+} 
 ```
 
 ### Diagnostics

@@ -1321,7 +1321,7 @@
                                     "end": 342
                                 },
                                 "argument": {
-                                    "kind": 536871042,
+                                    "kind": 130,
                                     "member": {
                                         "kind": 134299649,
                                         "text": "x",
@@ -1338,7 +1338,7 @@
                                         "start": 344,
                                         "end": 349
                                     },
-                                    "flags": 32,
+                                    "flags": 536870944,
                                     "start": 342,
                                     "end": 350
                                 },
@@ -1398,18 +1398,7 @@
 
 ```javascript
 
-[{ [foo]: bar4 }] = [{ bar: "\"bar\"" }];
-[{ [foo2()]: bar5 }] = [{ bar: "\"bar\"" }];
-[{ [foo()]: bar4 }] = [{ bar: "\"bar\"" }];
-[{ [foo]: bar4 }] = [{ bar: "\"bar\"" }];
-[{ [foo2()]: bar5 }] = [{ bar: "\"bar\"" }];
-[{ [foo()]: bar4 }] = [{ bar: "\"bar\"" }];
-[{ [(1 + {})]: bar4 }] = [{ bar: "\"bar\"" }];
-[...x] = it;
-[[x]] = [null];
-[x] = [];
-[...x] = [];
-[...] = [];
+ [{  : bar4 }]=[{ bar : "bar" }];, [{  : bar5 }]=[{ bar : "bar" }];, [{  : bar4 }]=[{ bar : "bar" }];, [{  : bar4 }]=[{ bar : "bar" }];, [{  : bar5 }]=[{ bar : "bar" }];, [{  : bar4 }]=[{ bar : "bar" }];, [{  : bar4 }]=[{ bar : "bar" }];, [...x]=it;, [[x]]=[null];, [x]=[];, [...x]=[];, [...x[yield]]=[]; 
 ```
 
 ### Diagnostics

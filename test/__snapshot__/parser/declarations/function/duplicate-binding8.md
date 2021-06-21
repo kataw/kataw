@@ -175,12 +175,11 @@ function f() { function x() {} { var x } }
 
 ```javascript
 
-function f() {
-  function x() {}
-  {
-    var x;
-  }
-}
+ function f() {
+function x() {
+},
+{ var x; }
+} 
 ```
 
 ### Diagnostics

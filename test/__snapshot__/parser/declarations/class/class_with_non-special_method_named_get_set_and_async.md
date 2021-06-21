@@ -63,11 +63,11 @@ class A {"set"(){} "get"(){} "async"(){}}
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": null,
                             "getKeyword": null,
+                            "asteriskToken": null,
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -79,7 +79,7 @@ class A {"set"(){} "get"(){} "async"(){}}
                                     "end": 14
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -114,11 +114,11 @@ class A {"set"(){} "get"(){} "async"(){}}
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": null,
                             "getKeyword": null,
+                            "asteriskToken": null,
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -130,7 +130,7 @@ class A {"set"(){} "get"(){} "async"(){}}
                                     "end": 24
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -165,11 +165,11 @@ class A {"set"(){} "get"(){} "async"(){}}
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": null,
                             "getKeyword": null,
+                            "asteriskToken": null,
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -181,7 +181,7 @@ class A {"set"(){} "get"(){} "async"(){}}
                                     "end": 36
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -239,11 +239,14 @@ class A {"set"(){} "get"(){} "async"(){}}
 
 ```javascript
 
-class A {
-  "\"set\"" {}
-  "\"get\"" {}
-  "\"async\"" {}
-}
+ class A {
+    "set"() {
+    },
+    "get"() {
+    },
+    "async"() {
+    }
+} 
 ```
 
 ### Diagnostics

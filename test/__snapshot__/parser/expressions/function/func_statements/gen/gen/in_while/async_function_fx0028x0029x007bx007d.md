@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/function/func_statements/gen/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/function/func_statements/gen/gen/in_while
+- Regenerated: 2021-06-12
+- From: d
+- Path: e
 > :: test: in while
 > :: case: async function f(){}
 ## Options

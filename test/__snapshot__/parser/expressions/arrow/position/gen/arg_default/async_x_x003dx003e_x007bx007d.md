@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/arrow/position/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/arrow/position/gen/arg_default
+- Regenerated: 2021-06-12
+- From: d
+- Path: t
 > :: test: arg default
 > :: case: async x => {}
 ## Options
@@ -61,11 +61,11 @@ function f(a = async x => {}) {}
                         "type": null,
                         "right": {
                             "kind": 271,
-                            "arrowToken": {
-                                "kind": 10,
+                            "asyncKeyword": {
+                                "kind": 82031,
                                 "flags": 64,
-                                "start": 22,
-                                "end": 25
+                                "start": 14,
+                                "end": 20
                             },
                             "typeParameters": null,
                             "parameters": {
@@ -76,13 +76,13 @@ function f(a = async x => {}) {}
                                 "start": 20,
                                 "end": 22
                             },
-                            "asyncKeyword": {
-                                "kind": 82031,
-                                "flags": 64,
-                                "start": 14,
-                                "end": 20
-                            },
                             "returnType": null,
+                            "arrowToken": {
+                                "kind": 10,
+                                "flags": 64,
+                                "start": 22,
+                                "end": 25
+                            },
                             "contents": {
                                 "kind": 216,
                                 "functionStatementList": {
@@ -144,7 +144,8 @@ function f(a = async x => {}) {}
 
 ```javascript
 
-function f() {}
+ function f() {
+} 
 ```
 
 ### Diagnostics

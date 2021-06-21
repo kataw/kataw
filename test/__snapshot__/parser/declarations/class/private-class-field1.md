@@ -189,11 +189,11 @@ class Annotations {
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": null,
                             "getKeyword": null,
+                            "asteriskToken": null,
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -205,7 +205,7 @@ class Annotations {
                                     "end": 49
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -313,11 +313,11 @@ class Annotations {
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": null,
                             "getKeyword": null,
+                            "asteriskToken": null,
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -329,7 +329,7 @@ class Annotations {
                                     "end": 118
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [
                                         {
@@ -506,11 +506,11 @@ class Annotations {
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": null,
                             "getKeyword": null,
+                            "asteriskToken": null,
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -522,7 +522,7 @@ class Annotations {
                                     "end": 240
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -631,11 +631,11 @@ class Annotations {
                                                                                 "kind": 278,
                                                                                 "declareToken": null,
                                                                                 "decorators": null,
-                                                                                "asteriskToken": null,
                                                                                 "staticKeyword": null,
                                                                                 "asyncKeyword": null,
                                                                                 "setKeyword": null,
                                                                                 "getKeyword": null,
+                                                                                "asteriskToken": null,
                                                                                 "method": {
                                                                                     "kind": 209,
                                                                                     "name": {
@@ -647,7 +647,7 @@ class Annotations {
                                                                                         "end": 307
                                                                                     },
                                                                                     "typeParameters": null,
-                                                                                    "formalParameters": {
+                                                                                    "formalParameterList": {
                                                                                         "kind": 214,
                                                                                         "formalParameters": [],
                                                                                         "trailingComma": false,
@@ -1425,11 +1425,11 @@ class Annotations {
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": null,
                             "getKeyword": null,
+                            "asteriskToken": null,
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -1441,7 +1441,7 @@ class Annotations {
                                     "end": 884
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -1522,11 +1522,11 @@ class Annotations {
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": null,
                             "getKeyword": null,
+                            "asteriskToken": null,
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -1538,7 +1538,7 @@ class Annotations {
                                     "end": 928
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -1619,11 +1619,11 @@ class Annotations {
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": null,
                             "getKeyword": null,
+                            "asteriskToken": null,
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -1635,7 +1635,7 @@ class Annotations {
                                     "end": 999
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -1718,11 +1718,11 @@ class Annotations {
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": null,
                             "getKeyword": null,
+                            "asteriskToken": null,
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -1734,7 +1734,7 @@ class Annotations {
                                     "end": 1051
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -1817,11 +1817,11 @@ class Annotations {
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": null,
                             "getKeyword": null,
+                            "asteriskToken": null,
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -1833,7 +1833,7 @@ class Annotations {
                                     "end": 1130
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -1914,11 +1914,11 @@ class Annotations {
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": null,
                             "getKeyword": null,
+                            "asteriskToken": null,
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -1930,7 +1930,7 @@ class Annotations {
                                     "end": 1174
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -2011,11 +2011,11 @@ class Annotations {
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": null,
                             "getKeyword": null,
+                            "asteriskToken": null,
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -2027,7 +2027,7 @@ class Annotations {
                                     "end": 1255
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -2109,11 +2109,11 @@ class Annotations {
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": null,
                             "getKeyword": null,
+                            "asteriskToken": null,
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -2125,7 +2125,7 @@ class Annotations {
                                     "end": 1288
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -2208,11 +2208,11 @@ class Annotations {
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": null,
                             "getKeyword": null,
+                            "asteriskToken": null,
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -2224,7 +2224,7 @@ class Annotations {
                                     "end": 1340
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -2307,11 +2307,11 @@ class Annotations {
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": null,
                             "getKeyword": null,
+                            "asteriskToken": null,
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -2323,7 +2323,7 @@ class Annotations {
                                     "end": 1429
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -2430,95 +2430,85 @@ class Annotations {
 
 ```javascript
 
-class C {
-  #p;
-  #q;
-  constructor {
-    this.#p = 0; // in scope
-
-    this.#q; // in scope
-
-  }
-  test {
-    other.#q; // in lexical scope, object has the property.
-
-  }
-}
-class Outer {
-  #outer;
-  constructor {
+ class C {
+    #p: number,
+    #q: number,
+    constructor() {
+    this.#p=0;// in scope
+    ,
+    this.#q;// in scope
+    },
+    test() {
+    other.#q;// in lexical scope, object has the property.
+    }
+}, class Outer {
+    #outer: number,
+    constructor() {
     var Inner = class A {
-      #inner;
-      constructor {
-        this.#inner = new  Outer();
-        var x = new  Outer();
-        x.#outer = 0; // Both inner and outer should be visible here!
-
-        x.#inner = new  Outer(); // Error, #inner is not a private field of Outer
-
-      }
+        #inner: Outer,
+        constructor() {
+        this.#inner=new Outer();,
+        var x = new Outer();,
+        x.#outer=0;// Both inner and outer should be visible here!
+        ,
+        x.#inner=new Outer();// Error, #inner is not a private field of Outer
+        }
     };
-  }
-}
-class Annotations {
-  // Private class fields must either be annotated or have an initializer
-  #p;
-
-  #q = 0;
-
-  #r;
-
-  #s = 0;
-   // Error, number ~> string
-
-  #t = "\"yay!\"";
-
-  static #sp;
-
-  static #sq = 0;
-
-  static #sr;
-
-  static #ss = 0;
-   // Error, number ~> string
-
-  static #st = "\"yay!\"";
-
-  test1 {
-    return  this.#p;
-  }
-  test2 {
-    return  this.#t; // Error, string ~> number
-
-  }
-  test3 {
-    return  Annotations.#sp;
-  }
-  test4 {
-    return  Annotations.#st; // Error, string ~> number
-
-  }
-  test5 {
-    return  this.#r;
-  }
-  test6 {
-    return  this.#r; // Error, number ~> string
-
-  }
-  test5And6Helper {
-    this.#r = 3;
-  }
-  test7 {
-    return  Annotations.#sr;
-  }
-  test8 {
-    return  Annotations.#sr; // Error, number ~> string
-
-  }
-  test7And9Helper {
-    Annotations.#sr = 3;
-  }
-}
+    }
+}, class Annotations {
+    #p: number,
+    ,
+    #q = 0,
+    ,
+    #r,
+    ,
+    #s: string = 0,
+    // Error, number ~> string
+    ,
+    #t: string = "yay!",
+    ,
+    static #sp: number,
+    ,
+    static #sq = 0,
+    ,
+    static #sr,
+    ,
+    static #ss: string = 0,
+    // Error, number ~> string
+    ,
+    static #st: string = "yay!",
+    ,
+    test1(): number {
+    return this.#p;
+    },
+    test2(): number {
+    return this.#t;// Error, string ~> number
+    },
+    test3(): number {
+    return Annotations.#sp;
+    },
+    test4(): number {
+    return Annotations.#st;// Error, string ~> number
+    },
+    test5(): number {
+    return this.#r;
+    },
+    test6(): string {
+    return this.#r;// Error, number ~> string
+    },
+    test5And6Helper() {
+    this.#r=3;
+    },
+    test7(): number {
+    return Annotations.#sr;
+    },
+    test8(): string {
+    return Annotations.#sr;// Error, number ~> string
+    },
+    test7And9Helper() {
+    Annotations.#sr=3;
+    }
+} 
 ```
 
 ### Diagnostics

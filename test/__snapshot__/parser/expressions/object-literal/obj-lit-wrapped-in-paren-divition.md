@@ -1320,9 +1320,9 @@
                         "kind": 218,
                         "properties": [
                             {
-                                "kind": 257,
+                                "kind": 351,
                                 "asyncKeyword": null,
-                                "generatorToken": null,
+                                "asteriskToken": null,
                                 "getKeyword": null,
                                 "setKeyword": {
                                     "kind": 16499,
@@ -1341,7 +1341,7 @@
                                         "end": 299
                                     },
                                     "typeParameters": null,
-                                    "formalParameters": {
+                                    "formalParameterList": {
                                         "kind": 214,
                                         "formalParameters": [
                                             {
@@ -1382,9 +1382,9 @@
                                 "end": 304
                             },
                             {
-                                "kind": 257,
+                                "kind": 351,
                                 "asyncKeyword": null,
-                                "generatorToken": null,
+                                "asteriskToken": null,
                                 "getKeyword": null,
                                 "setKeyword": {
                                     "kind": 16499,
@@ -1403,7 +1403,7 @@
                                         "end": 313
                                     },
                                     "typeParameters": null,
-                                    "formalParameters": {
+                                    "formalParameterList": {
                                         "kind": 214,
                                         "formalParameters": [
                                             {
@@ -1471,9 +1471,9 @@
                         "kind": 218,
                         "properties": [
                             {
-                                "kind": 257,
+                                "kind": 351,
                                 "asyncKeyword": null,
-                                "generatorToken": null,
+                                "asteriskToken": null,
                                 "getKeyword": null,
                                 "setKeyword": {
                                     "kind": 16499,
@@ -1492,7 +1492,7 @@
                                         "end": 333
                                     },
                                     "typeParameters": null,
-                                    "formalParameters": {
+                                    "formalParameterList": {
                                         "kind": 214,
                                         "formalParameters": [
                                             {
@@ -1533,9 +1533,9 @@
                                 "end": 338
                             },
                             {
-                                "kind": 257,
+                                "kind": 351,
                                 "asyncKeyword": null,
-                                "generatorToken": null,
+                                "asteriskToken": null,
                                 "getKeyword": null,
                                 "setKeyword": null,
                                 "method": {
@@ -1549,7 +1549,7 @@
                                         "end": 343
                                     },
                                     "typeParameters": null,
-                                    "formalParameters": {
+                                    "formalParameterList": {
                                         "kind": 214,
                                         "formalParameters": [],
                                         "trailingComma": false,
@@ -1740,20 +1740,11 @@
 
 ```javascript
 
-(x = { "\"a\"": x = y }) / y.z;
-(x = { "\"a\"": (x) = y }) / y.z;
-(x = { "\"a\"": x = (y) }) / y.z;
-(x = { "\"a\"": (x = (y)) }) / y.z;
-(x = { [a]: { x } = y }) / y.z;
-(x = { [a]: x = y }) / y.z;
-(x = { [a]: (x) = y }) / y.z;
-(x = { [a]: x = (y) }) / y.z;
-(x = { [a]: (x = (y)) }) / y.z;
-({ ...1 in {} });
-({ set foo {}, set bar {} });
-({ set foo {}, bar {} });
-({ foo: typeof x });
-({ foo: true / false });
+ (x={ "a" : x=y }) / y.z;, (x={ "a" : (x)=y }) / y.z;, (x={ "a" : x=(y) }) / y.z;, (x={ "a" : (x=(y)) }) / y.z;, (x={  : { x }=y }) / y.z;, (x={  : x=y }) / y.z;, (x={  : (x)=y }) / y.z;, (x={  : x=(y) }) / y.z;, (x={  : (x=(y)) }) / y.z;, ({  });, ({ set foo(b) {
+    }, set bar(d) {
+    } });, ({ set foo(c) {
+    }, bar() {
+    } });, ({ foo :  });, ({ foo : true / false }); 
 ```
 
 ### Diagnostics

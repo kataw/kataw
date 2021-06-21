@@ -686,20 +686,17 @@ function *infer_stmt() {
 
 ```javascript
 
-function * stmt_yield():  {
-  yield 0;
-  yield "\"\"";
-}
-function * stmt_return_ok():  {
-  return  0;
-}
-function * stmt_return_err():  {
-  return  "\"\"";
-}
-function * infer_stmt() {
-  var x: boolean = yield 0;
-  return  "\"\"";
-}
+ function* stmt_yield(): Generator {
+yield 0;,
+yield "";
+}, function* stmt_return_ok(): Generator {
+return 0;
+}, function* stmt_return_err(): Generator {
+return "";
+}, function* infer_stmt() {
+var x  = yield 0;,
+return "";
+} 
 ```
 
 ### Diagnostics

@@ -174,11 +174,11 @@ x = class { static x = class { y = this } }
 
 ```javascript
 
-x = class  {
-  static x = class  {
-      y = this;
-    };
-};
+ x=class  {
+    static x = class  {
+        y = this
+    }
+}; 
 ```
 
 ### Diagnostics

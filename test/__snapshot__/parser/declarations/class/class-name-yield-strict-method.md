@@ -99,11 +99,11 @@ function *f() {
                                             "kind": 278,
                                             "declareToken": null,
                                             "decorators": null,
-                                            "asteriskToken": null,
                                             "staticKeyword": null,
                                             "asyncKeyword": null,
                                             "setKeyword": null,
                                             "getKeyword": null,
+                                            "asteriskToken": null,
                                             "method": {
                                                 "kind": 209,
                                                 "name": {
@@ -115,7 +115,7 @@ function *f() {
                                                     "end": 50
                                                 },
                                                 "typeParameters": null,
-                                                "formalParameters": {
+                                                "formalParameterList": {
                                                     "kind": 214,
                                                     "formalParameters": [],
                                                     "trailingComma": false,
@@ -255,11 +255,11 @@ function *f() {
                                             "kind": 278,
                                             "declareToken": null,
                                             "decorators": null,
-                                            "asteriskToken": null,
                                             "staticKeyword": null,
                                             "asyncKeyword": null,
                                             "setKeyword": null,
                                             "getKeyword": null,
+                                            "asteriskToken": null,
                                             "method": {
                                                 "kind": 209,
                                                 "name": {
@@ -271,7 +271,7 @@ function *f() {
                                                     "end": 114
                                                 },
                                                 "typeParameters": null,
-                                                "formalParameters": {
+                                                "formalParameterList": {
                                                     "kind": 214,
                                                     "formalParameters": [],
                                                     "trailingComma": false,
@@ -343,17 +343,17 @@ function *f() {
 
 ```javascript
 
-function f() {
-  class C {
-    yield {}
-  }
+"use strict" function f() {
+class C {
+    yield() {
+    }
 }
-"\"use strict\"";
-function * f() {
-  class C {
-    yield {}
-  }
+}, "use strict";, function* f() {
+class C {
+    yield() {
+    }
 }
+} 
 ```
 
 ### Diagnostics

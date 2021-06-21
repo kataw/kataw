@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/statements/do-while/autogen.md
-- Path: kataw/test/__snapshot__/parser/statements/do-while/gen/with_unclosed_array
+- Regenerated: 2021-06-12
+- From: d
+- Path: y
 > :: test: with unclosed array
 > :: case: async funcion switch!!
 ## Options
@@ -40,7 +40,12 @@ do[ async funcion switch!!
                         "elements": [
                             {
                                 "kind": 271,
-                                "arrowToken": null,
+                                "asyncKeyword": {
+                                    "kind": 82031,
+                                    "flags": 64,
+                                    "start": 3,
+                                    "end": 9
+                                },
                                 "typeParameters": null,
                                 "parameters": {
                                     "kind": 134299649,
@@ -50,13 +55,8 @@ do[ async funcion switch!!
                                     "start": 9,
                                     "end": 17
                                 },
-                                "asyncKeyword": {
-                                    "kind": 82031,
-                                    "flags": 64,
-                                    "start": 3,
-                                    "end": 9
-                                },
                                 "returnType": null,
+                                "arrowToken": null,
                                 "contents": {
                                     "kind": 16637,
                                     "text": "",

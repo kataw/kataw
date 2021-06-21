@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/declarations/class/special_keys/autogen.md
-- Path: kataw/test/__snapshot__/parser/declarations/class/special_keys/gen/as_regular_property_in_class
+- Regenerated: 2021-06-12
+- From: d
+- Path: s
 > :: test: as regular property in class
 > :: case: eval
 ## Options

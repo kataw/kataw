@@ -146,7 +146,7 @@ let tests = [
                                                     {
                                                         "kind": 120,
                                                         "expression": {
-                                                            "kind": 536871042,
+                                                            "kind": 130,
                                                             "member": {
                                                                 "kind": 134299649,
                                                                 "text": "t",
@@ -163,7 +163,7 @@ let tests = [
                                                                 "start": 46,
                                                                 "end": 47
                                                             },
-                                                            "flags": 32,
+                                                            "flags": 536870944,
                                                             "start": 39,
                                                             "end": 48
                                                         },
@@ -174,7 +174,7 @@ let tests = [
                                                     {
                                                         "kind": 120,
                                                         "expression": {
-                                                            "kind": 536871042,
+                                                            "kind": 130,
                                                             "member": {
                                                                 "kind": 134299649,
                                                                 "text": "t",
@@ -203,7 +203,7 @@ let tests = [
                                                                 "start": 80,
                                                                 "end": 82
                                                             },
-                                                            "flags": 32,
+                                                            "flags": 536870944,
                                                             "start": 49,
                                                             "end": 83
                                                         },
@@ -317,7 +317,7 @@ let tests = [
                                                     {
                                                         "kind": 120,
                                                         "expression": {
-                                                            "kind": 536871042,
+                                                            "kind": 130,
                                                             "member": {
                                                                 "kind": 134299649,
                                                                 "text": "t",
@@ -334,7 +334,7 @@ let tests = [
                                                                 "start": 190,
                                                                 "end": 193
                                                             },
-                                                            "flags": 32,
+                                                            "flags": 536870944,
                                                             "start": 183,
                                                             "end": 194
                                                         },
@@ -345,7 +345,7 @@ let tests = [
                                                     {
                                                         "kind": 120,
                                                         "expression": {
-                                                            "kind": 536871042,
+                                                            "kind": 130,
                                                             "member": {
                                                                 "kind": 134299649,
                                                                 "text": "t",
@@ -362,7 +362,7 @@ let tests = [
                                                                 "start": 232,
                                                                 "end": 256
                                                             },
-                                                            "flags": 32,
+                                                            "flags": 536870944,
                                                             "start": 195,
                                                             "end": 257
                                                         },
@@ -505,7 +505,7 @@ let tests = [
                                                     {
                                                         "kind": 120,
                                                         "expression": {
-                                                            "kind": 536871042,
+                                                            "kind": 130,
                                                             "member": {
                                                                 "kind": 134299649,
                                                                 "text": "t",
@@ -522,7 +522,7 @@ let tests = [
                                                                 "start": 379,
                                                                 "end": 380
                                                             },
-                                                            "flags": 32,
+                                                            "flags": 536870944,
                                                             "start": 372,
                                                             "end": 381
                                                         },
@@ -781,29 +781,22 @@ let tests = [
 
 ```javascript
 
-let tests = [function () {
-    ; // error, out of bounds
-
-    ; // error, out of bounds
-
-  }, // toString's to an invalid index
-  function () {
-    ; // error: index out of bounds
-
-    ; // error: index ("1e-22") out of bounds
-
-  }, // through a variable
-  function () {
-    const x = 0.5;
-    ; // error, not an integer
-
-  }, // Return length from a function with mismatched return type.
-  function () {
-    // error: tuple length 2 !~> string
+ let tests = [function () {
+    t[1];// error, out of bounds
+    ,
+    t[];// error, out of bounds
+    }, function () {
+    t[0.5];// error: index out of bounds
+    ,
+    t[0.0000000000000000000001];// error: index ("1e-22") out of bounds
+    }, function () {
+    const x = 0.5;,
+    t[x];// error, not an integer
+    }, function () {
     function a(): string {
-      return  x.length;
+    return x.length;
     }
-  },];
+    }]; 
 ```
 
 ### Diagnostics

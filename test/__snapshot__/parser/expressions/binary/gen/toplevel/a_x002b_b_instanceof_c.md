@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/binary/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/binary/gen/toplevel
+- Regenerated: 2021-06-12
+- From: d
+- Path: l
 > :: test: toplevel
 > :: case: a + b instanceof c
 ## Options
@@ -91,7 +91,7 @@ a + b instanceof c
 
 ```javascript
 
-a + b inctanceof c;
+ a + b inctanceof c; 
 ```
 
 ### Diagnostics

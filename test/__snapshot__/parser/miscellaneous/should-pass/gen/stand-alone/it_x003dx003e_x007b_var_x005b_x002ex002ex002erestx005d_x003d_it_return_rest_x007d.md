@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/miscellaneous/should-pass/autogen.md
-- Path: kataw/test/__snapshot__/parser/miscellaneous/should-pass/gen/stand-alone
+- Regenerated: 2021-06-12
+- From: d
+- Path: e
 > :: test: stand-alone
 > :: case: it => { var [,,...rest] = it; return rest; }
 ## Options
@@ -27,12 +27,7 @@ it => { var [,,...rest] = it; return rest; }
             "kind": 120,
             "expression": {
                 "kind": 271,
-                "arrowToken": {
-                    "kind": 10,
-                    "flags": 64,
-                    "start": 2,
-                    "end": 5
-                },
+                "asyncKeyword": null,
                 "typeParameters": null,
                 "parameters": {
                     "kind": 134299649,
@@ -42,8 +37,13 @@ it => { var [,,...rest] = it; return rest; }
                     "start": 0,
                     "end": 2
                 },
-                "asyncKeyword": null,
                 "returnType": null,
+                "arrowToken": {
+                    "kind": 10,
+                    "flags": 64,
+                    "start": 2,
+                    "end": 5
+                },
                 "contents": {
                     "kind": 216,
                     "functionStatementList": {
@@ -187,10 +187,10 @@ it => { var [,,...rest] = it; return rest; }
 
 ```javascript
 
-it =>  {
-  var [, , ...rest] = it;
-  return  rest;
-};
+ it => {
+var [, , ...rest] = it;,
+return rest;
+}; 
 ```
 
 ### Diagnostics

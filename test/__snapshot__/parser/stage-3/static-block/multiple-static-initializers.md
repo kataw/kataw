@@ -122,16 +122,16 @@ class Foo {
                                     "kind": 121,
                                     "expression": {
                                         "kind": 271,
+                                        "asyncKeyword": null,
+                                        "typeParameters": null,
+                                        "parameters": [],
+                                        "returnType": null,
                                         "arrowToken": {
                                             "kind": 10,
                                             "flags": 64,
                                             "start": 49,
                                             "end": 52
                                         },
-                                        "typeParameters": null,
-                                        "parameters": [],
-                                        "asyncKeyword": null,
-                                        "returnType": null,
                                         "contents": {
                                             "kind": 216,
                                             "functionStatementList": {
@@ -359,16 +359,16 @@ class Foo {
                                     "kind": 121,
                                     "expression": {
                                         "kind": 271,
+                                        "asyncKeyword": null,
+                                        "typeParameters": null,
+                                        "parameters": [],
+                                        "returnType": null,
                                         "arrowToken": {
                                             "kind": 10,
                                             "flags": 64,
                                             "start": 152,
                                             "end": 155
                                         },
-                                        "typeParameters": null,
-                                        "parameters": [],
-                                        "asyncKeyword": null,
-                                        "returnType": null,
                                         "contents": {
                                             "kind": 216,
                                             "functionStatementList": {
@@ -499,21 +499,15 @@ class Foo {
 
 ```javascript
 
-class Foo {
-  static #bar = 21;
-
-  static #_ = (() =>  {
-        this.foo = this.#bar;
-        this.qux1 = this.qux;
-      })();
-
-  static qux = 21;
-
-  static #_2 = (() =>  {
-        this.qux2 = this.qux;
-      })();
-
-}
+ class Foo {
+    static #bar = 21,
+    ,
+    static #_ = ,
+    ,
+    static qux = 21,
+    ,
+    static #_2 = ,
+} 
 ```
 
 ### Diagnostics

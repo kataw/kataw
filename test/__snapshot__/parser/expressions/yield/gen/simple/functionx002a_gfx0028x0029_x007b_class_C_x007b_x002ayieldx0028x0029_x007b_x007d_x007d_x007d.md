@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/yield/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/yield/gen/simple
+- Regenerated: 2021-06-12
+- From: d
+- Path: e
 > :: test: simple
 > :: case: function* gf() { class C { *yield() { } } }
 ## Options
@@ -91,16 +91,16 @@ function* gf() { class C { *yield() { } } }
                                             "kind": 278,
                                             "declareToken": null,
                                             "decorators": null,
+                                            "staticKeyword": null,
+                                            "asyncKeyword": null,
+                                            "setKeyword": null,
+                                            "getKeyword": null,
                                             "asteriskToken": {
                                                 "kind": 67143222,
                                                 "flags": 64,
                                                 "start": 26,
                                                 "end": 28
                                             },
-                                            "staticKeyword": null,
-                                            "asyncKeyword": null,
-                                            "setKeyword": null,
-                                            "getKeyword": null,
                                             "method": {
                                                 "kind": 209,
                                                 "name": {
@@ -112,7 +112,7 @@ function* gf() { class C { *yield() { } } }
                                                     "end": 33
                                                 },
                                                 "typeParameters": null,
-                                                "formalParameters": {
+                                                "formalParameterList": {
                                                     "kind": 214,
                                                     "formalParameters": [],
                                                     "trailingComma": false,
@@ -184,11 +184,12 @@ function* gf() { class C { *yield() { } } }
 
 ```javascript
 
-function * gf() {
-  class C {
-    yield {}
-  }
+ function* gf() {
+class C {
+    *yield() {
+    }
 }
+} 
 ```
 
 ### Diagnostics

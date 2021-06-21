@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/await/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/await/gen/with_strict_dirctive
+- Regenerated: 2021-06-12
+- From: d
+- Path: e
 > :: test: with_strict_dirctive
 > :: case: return async (await) => {};
 ## Options
@@ -42,11 +42,11 @@
             },
             "expression": {
                 "kind": 271,
-                "arrowToken": {
-                    "kind": 10,
+                "asyncKeyword": {
+                    "kind": 82031,
                     "flags": 64,
-                    "start": 34,
-                    "end": 37
+                    "start": 20,
+                    "end": 26
                 },
                 "typeParameters": null,
                 "parameters": [
@@ -59,13 +59,13 @@
                         "end": 33
                     }
                 ],
-                "asyncKeyword": {
-                    "kind": 82031,
-                    "flags": 64,
-                    "start": 20,
-                    "end": 26
-                },
                 "returnType": null,
+                "arrowToken": {
+                    "kind": 10,
+                    "flags": 64,
+                    "start": 34,
+                    "end": 37
+                },
                 "contents": {
                     "kind": 216,
                     "functionStatementList": {

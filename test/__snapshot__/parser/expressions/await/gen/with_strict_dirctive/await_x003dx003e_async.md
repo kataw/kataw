@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/await/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/await/gen/with_strict_dirctive
+- Regenerated: 2021-06-12
+- From: d
+- Path: e
 > :: test: with_strict_dirctive
 > :: case: await => async
 ## Options
@@ -36,12 +36,7 @@
             "kind": 120,
             "expression": {
                 "kind": 271,
-                "arrowToken": {
-                    "kind": 10,
-                    "flags": 64,
-                    "start": 19,
-                    "end": 22
-                },
+                "asyncKeyword": null,
                 "typeParameters": null,
                 "parameters": {
                     "kind": 134299649,
@@ -51,8 +46,13 @@
                     "start": 13,
                     "end": 19
                 },
-                "asyncKeyword": null,
                 "returnType": null,
+                "arrowToken": {
+                    "kind": 10,
+                    "flags": 64,
+                    "start": 19,
+                    "end": 22
+                },
                 "contents": {
                     "kind": 134299649,
                     "text": "async",
@@ -83,7 +83,7 @@
 
 ```javascript
 
-await =>  async;
+'use strict' await =>async; 
 ```
 
 ### Diagnostics

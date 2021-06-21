@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/declarations/class/special_keys/autogen.md
-- Path: kataw/test/__snapshot__/parser/declarations/class/special_keys/gen/as_async_method_in_class
+- Regenerated: 2021-06-12
+- From: d
+- Path: s
 > :: test: as async method in class
 > :: case: for
 ## Options
@@ -52,7 +52,6 @@ class x {async for(){}}
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": {
                                 "kind": 82031,
@@ -62,6 +61,7 @@ class x {async for(){}}
                             },
                             "setKeyword": null,
                             "getKeyword": null,
+                            "asteriskToken": null,
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -73,7 +73,7 @@ class x {async for(){}}
                                     "end": 18
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -131,9 +131,10 @@ class x {async for(){}}
 
 ```javascript
 
-class x {
-  async for {}
-}
+ class x {
+    async for() {
+    }
+} 
 ```
 
 ### Diagnostics

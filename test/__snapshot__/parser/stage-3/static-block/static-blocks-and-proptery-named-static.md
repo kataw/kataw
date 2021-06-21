@@ -127,11 +127,10 @@ class Foo {
 
 ```javascript
 
-class Foo {
-  static;
-
-
-}
+ class Foo {
+    static,
+    ,
+} 
 ```
 
 ### Diagnostics

@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/assignment/to_keyword/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/assignment/to_keyword/gen/should_listen_to_use_strict_directive_in_getter_wrapped
+- Regenerated: 2021-06-12
+- From: d
+- Path: d
 > :: test: should listen to use strict directive in getter wrapped
 > :: case: var
 ## Options
@@ -54,9 +54,9 @@ foo = {
                             "kind": 218,
                             "properties": [
                                 {
-                                    "kind": 257,
+                                    "kind": 351,
                                     "asyncKeyword": null,
-                                    "generatorToken": null,
+                                    "asteriskToken": null,
                                     "getKeyword": {
                                         "kind": 16498,
                                         "flags": 97,
@@ -75,7 +75,7 @@ foo = {
                                             "end": 15
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,

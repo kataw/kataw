@@ -85,7 +85,8 @@ function foo(arguments){}
 
 ```javascript
 
-function foo() {}
+ function foo(arguments) {
+} 
 ```
 
 ### Diagnostics

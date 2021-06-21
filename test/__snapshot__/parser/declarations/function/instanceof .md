@@ -185,9 +185,9 @@ function foo(value: AOrString) {
 
 ```javascript
 
-function foo() {
-  invariant(value inctanceof B);
-}
+ function foo() {
+;
+} 
 ```
 
 ### Diagnostics

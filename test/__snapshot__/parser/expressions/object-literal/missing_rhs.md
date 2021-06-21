@@ -36,14 +36,14 @@ wrap({async [foo""](){}});
                                 "kind": 218,
                                 "properties": [
                                     {
-                                        "kind": 257,
+                                        "kind": 351,
                                         "asyncKeyword": {
                                             "kind": 82031,
                                             "flags": 352,
                                             "start": 6,
                                             "end": 11
                                         },
-                                        "generatorToken": null,
+                                        "asteriskToken": null,
                                         "getKeyword": null,
                                         "setKeyword": null,
                                         "method": {
@@ -63,7 +63,7 @@ wrap({async [foo""](){}});
                                                 "end": 16
                                             },
                                             "typeParameters": null,
-                                            "formalParameters": {
+                                            "formalParameterList": {
                                                 "kind": 214,
                                                 "formalParameters": [],
                                                 "trailingComma": false,
@@ -130,11 +130,11 @@ wrap({async [foo""](){}});
             "kind": 120,
             "expression": {
                 "kind": 271,
-                "arrowToken": null,
+                "asyncKeyword": null,
                 "typeParameters": null,
                 "parameters": [],
-                "asyncKeyword": null,
                 "returnType": null,
+                "arrowToken": null,
                 "contents": {
                     "kind": 216,
                     "functionStatementList": {

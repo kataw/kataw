@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/function/async-await-formal-parameters/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/function/async-await-formal-parameters/gen/with_strict_directive
+- Regenerated: 2021-06-12
+- From: d
+- Path: e
 > :: test: with strict directive
 > :: case: x = function() { let await = 0; }
 ## Options
@@ -234,7 +234,8 @@
 
 ```javascript
 
-var f = async function f() {};
+'use strict' var f = async function f() {
+}; 
 ```
 
 ### Diagnostics

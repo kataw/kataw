@@ -58,12 +58,7 @@ function *g(){ (x = {[yield]: 1}) => z }
                             "kind": 120,
                             "expression": {
                                 "kind": 271,
-                                "arrowToken": {
-                                    "kind": 10,
-                                    "flags": 64,
-                                    "start": 33,
-                                    "end": 36
-                                },
+                                "asyncKeyword": null,
                                 "typeParameters": null,
                                 "parameters": [
                                     {
@@ -135,8 +130,13 @@ function *g(){ (x = {[yield]: 1}) => z }
                                         "end": 32
                                     }
                                 ],
-                                "asyncKeyword": null,
                                 "returnType": null,
+                                "arrowToken": {
+                                    "kind": 10,
+                                    "flags": 64,
+                                    "start": 33,
+                                    "end": 36
+                                },
                                 "contents": {
                                     "kind": 134299649,
                                     "text": "z",
@@ -181,9 +181,9 @@ function *g(){ (x = {[yield]: 1}) => z }
 
 ```javascript
 
-function * g() {
-  (x = { [ yield]: 1 }) =>  z;
-}
+ function* g() {
+(x = {  : 1 }) =>z;
+} 
 ```
 
 ### Diagnostics

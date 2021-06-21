@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/statements/block/autogen.md
-- Path: kataw/test/__snapshot__/parser/statements/block/gen/unclosed_parens
+- Regenerated: 2021-06-12
+- From: d
+- Path: s
 > :: test: unclosed parens
 > :: case: super[b?.a]
 ## Options
@@ -33,7 +33,7 @@
                         "expression": {
                             "kind": 121,
                             "expression": {
-                                "kind": 536871042,
+                                "kind": 130,
                                 "member": {
                                     "kind": 225,
                                     "superKeyword": {
@@ -87,7 +87,7 @@
                                     "start": 9,
                                     "end": 13
                                 },
-                                "flags": 32,
+                                "flags": 536870944,
                                 "start": 2,
                                 "end": 14
                             },

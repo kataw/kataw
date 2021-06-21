@@ -136,9 +136,7 @@ let [...{x}] = y
 
 ```javascript
 
-let [...{
-    x
-  }] = y;
+ let [...] = y; 
 ```
 
 ### Diagnostics

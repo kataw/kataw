@@ -205,14 +205,8 @@
 
 ```javascript
 
-{
-  let AAAAAAAAAAAAAAAAAAAA;
-  try {
-    AAAAAAAAAAAAAAAAAAAA = false;
-  } catch {
-    AAAAAAAAAAAAAAAAAAAA = false;
-  }
-}
+ { let AAAAAAAAAAAAAAAAAAAA;, try { AAAAAAAAAAAAAAAAAAAA=false; }
+catch { AAAAAAAAAAAAAAAAAAAA=false; } } 
 ```
 
 ### Diagnostics

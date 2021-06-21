@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/classes/extends-lefthandside/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/classes/extends-lefthandside/gen/declaration
+- Regenerated: 2021-06-12
+- From: d
+- Path: n
 > :: test: declaration
 > :: case: async function(){}
 ## Options
@@ -130,7 +130,8 @@ class A extends async function(){} {}
 
 ```javascript
 
-class A  {}
+ class A {
+} 
 ```
 
 ### Diagnostics

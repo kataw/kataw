@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/assignment/keyword_with_escapes_check/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/assignment/keyword_with_escapes_check/gen/inside_a_generator_func
+- Regenerated: 2021-06-12
+- From: d
+- Path: c
 > :: test: inside a generator func
 > :: case: st\u0061tic
 ## Options
@@ -126,9 +126,9 @@ function *f(){
 
 ```javascript
 
-function * f() {
-  static = x;
-}
+ function* f() {
+st\u0061tic=x;
+} 
 ```
 
 ### Diagnostics

@@ -49,12 +49,7 @@
                         "type": null,
                         "initializer": {
                             "kind": 271,
-                            "arrowToken": {
-                                "kind": 10,
-                                "flags": 64,
-                                "start": 27,
-                                "end": 30
-                            },
+                            "asyncKeyword": null,
                             "typeParameters": null,
                             "parameters": {
                                 "kind": 134299649,
@@ -64,8 +59,13 @@
                                 "start": 21,
                                 "end": 27
                             },
-                            "asyncKeyword": null,
                             "returnType": null,
+                            "arrowToken": {
+                                "kind": 10,
+                                "flags": 64,
+                                "start": 27,
+                                "end": 30
+                            },
                             "contents": {
                                 "kind": 201392130,
                                 "text": 1,
@@ -105,7 +105,7 @@
 
 ```javascript
 
-var x = yield =>  1;
+"use strict" var x = yield =>1; 
 ```
 
 ### Diagnostics

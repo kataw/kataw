@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/declarations/let/binding-pattern/autogen.md
-- Path: kataw/test/__snapshot__/parser/declarations/let/binding-pattern/gen/value_that_is_a_member_expression
+- Regenerated: 2021-06-12
+- From: d
+- Path: n
 > :: test: value that is a member expression
 > :: case: let
 ## Options
@@ -43,7 +43,6 @@ let {a: b.c} = v
                                 "properties": [
                                     {
                                         "kind": 329,
-                                        "ellipsisToken": null,
                                         "key": {
                                             "kind": 134299649,
                                             "text": "a",

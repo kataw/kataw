@@ -153,7 +153,7 @@ type a = (bj[c]) => T;
 
 ```javascript
 
-
+  
 ```
 
 ### Diagnostics

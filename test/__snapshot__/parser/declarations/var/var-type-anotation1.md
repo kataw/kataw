@@ -50,20 +50,14 @@ var foo = (async (): number => bar);
                             "kind": 121,
                             "expression": {
                                 "kind": 271,
-                                "arrowToken": {
-                                    "kind": 10,
-                                    "flags": 64,
-                                    "start": 27,
-                                    "end": 30
-                                },
-                                "typeParameters": null,
-                                "parameters": [],
                                 "asyncKeyword": {
                                     "kind": 82031,
                                     "flags": 64,
                                     "start": 11,
                                     "end": 16
                                 },
+                                "typeParameters": null,
+                                "parameters": [],
                                 "returnType": {
                                     "kind": 139,
                                     "bitwiseOrToken": null,
@@ -77,6 +71,12 @@ var foo = (async (): number => bar);
                                     "flags": 2097152,
                                     "start": 20,
                                     "end": 27
+                                },
+                                "arrowToken": {
+                                    "kind": 10,
+                                    "flags": 64,
+                                    "start": 27,
+                                    "end": 30
                                 },
                                 "contents": {
                                     "kind": 134299649,
@@ -121,7 +121,7 @@ var foo = (async (): number => bar);
 
 ```javascript
 
-var foo = (async () =>  bar);
+ var foo = ((): number =>bar); 
 ```
 
 ### Diagnostics

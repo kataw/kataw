@@ -64,11 +64,11 @@ class x extends y {constructor(){    ({"foo": super}) => x    }}
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": null,
                             "getKeyword": null,
+                            "asteriskToken": null,
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -80,7 +80,7 @@ class x extends y {constructor(){    ({"foo": super}) => x    }}
                                     "end": 30
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -99,12 +99,7 @@ class x extends y {constructor(){    ({"foo": super}) => x    }}
                                                 "kind": 120,
                                                 "expression": {
                                                     "kind": 271,
-                                                    "arrowToken": {
-                                                        "kind": 10,
-                                                        "flags": 64,
-                                                        "start": 53,
-                                                        "end": 56
-                                                    },
+                                                    "asyncKeyword": null,
                                                     "typeParameters": null,
                                                     "parameters": [
                                                         {
@@ -114,7 +109,6 @@ class x extends y {constructor(){    ({"foo": super}) => x    }}
                                                                 "properties": [
                                                                     {
                                                                         "kind": 329,
-                                                                        "ellipsisToken": null,
                                                                         "key": {
                                                                             "kind": 201392131,
                                                                             "text": "foo",
@@ -165,8 +159,13 @@ class x extends y {constructor(){    ({"foo": super}) => x    }}
                                                             "end": 52
                                                         }
                                                     ],
-                                                    "asyncKeyword": null,
                                                     "returnType": null,
+                                                    "arrowToken": {
+                                                        "kind": 10,
+                                                        "flags": 64,
+                                                        "start": 53,
+                                                        "end": 56
+                                                    },
                                                     "contents": {
                                                         "kind": 134299649,
                                                         "text": "x",

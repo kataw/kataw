@@ -43,12 +43,7 @@
                 },
                 "consequent": {
                     "kind": 271,
-                    "arrowToken": {
-                        "kind": 10,
-                        "flags": 64,
-                        "start": 5,
-                        "end": 8
-                    },
+                    "asyncKeyword": null,
                     "typeParameters": null,
                     "parameters": {
                         "kind": 134299649,
@@ -58,8 +53,13 @@
                         "start": 3,
                         "end": 5
                     },
-                    "asyncKeyword": null,
                     "returnType": null,
+                    "arrowToken": {
+                        "kind": 10,
+                        "flags": 64,
+                        "start": 5,
+                        "end": 8
+                    },
                     "contents": {
                         "kind": 201392130,
                         "text": 5,
@@ -82,12 +82,7 @@
                     "kind": 121,
                     "expression": {
                         "kind": 271,
-                        "arrowToken": {
-                            "kind": 10,
-                            "flags": 64,
-                            "start": 15,
-                            "end": 18
-                        },
+                        "asyncKeyword": null,
                         "typeParameters": null,
                         "parameters": {
                             "kind": 134299649,
@@ -97,8 +92,13 @@
                             "start": 14,
                             "end": 15
                         },
-                        "asyncKeyword": null,
                         "returnType": null,
+                        "arrowToken": {
+                            "kind": 10,
+                            "flags": 64,
+                            "start": 15,
+                            "end": 18
+                        },
                         "contents": {
                             "kind": 201392130,
                             "text": 5,
@@ -137,7 +137,7 @@
 
 ```javascript
 
-5 ? t =>  5 : (t =>  5);
+ 5 ? t =>5 : (t =>5); 
 ```
 
 ### Diagnostics

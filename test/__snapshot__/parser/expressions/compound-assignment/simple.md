@@ -57,7 +57,7 @@ z();
 
 ```javascript
 
-z();
+ ; 
 ```
 
 ### Diagnostics

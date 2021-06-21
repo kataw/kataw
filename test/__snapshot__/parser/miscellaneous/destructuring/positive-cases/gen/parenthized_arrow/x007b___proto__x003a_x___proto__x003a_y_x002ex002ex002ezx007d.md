@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/miscellaneous/destructuring/positive-cases/autogen.md
-- Path: kataw/test/__snapshot__/parser/miscellaneous/destructuring/positive-cases/gen/parenthized_arrow
+- Regenerated: 2021-06-12
+- From: d
+- Path: w
 > :: test: parenthized arrow
 > :: case: { __proto__: x, __proto__: y, ...z}
 ## Options
@@ -48,12 +48,7 @@ var f = ({ __proto__: x, __proto__: y, ...z}) => {};
                         "type": null,
                         "initializer": {
                             "kind": 271,
-                            "arrowToken": {
-                                "kind": 10,
-                                "flags": 64,
-                                "start": 45,
-                                "end": 48
-                            },
+                            "asyncKeyword": null,
                             "typeParameters": null,
                             "parameters": [
                                 {
@@ -63,7 +58,6 @@ var f = ({ __proto__: x, __proto__: y, ...z}) => {};
                                         "properties": [
                                             {
                                                 "kind": 329,
-                                                "ellipsisToken": null,
                                                 "key": {
                                                     "kind": 134299649,
                                                     "text": "__proto__",
@@ -87,7 +81,6 @@ var f = ({ __proto__: x, __proto__: y, ...z}) => {};
                                             },
                                             {
                                                 "kind": 329,
-                                                "ellipsisToken": null,
                                                 "key": {
                                                     "kind": 134299649,
                                                     "text": "__proto__",
@@ -143,8 +136,13 @@ var f = ({ __proto__: x, __proto__: y, ...z}) => {};
                                     "end": 44
                                 }
                             ],
-                            "asyncKeyword": null,
                             "returnType": null,
+                            "arrowToken": {
+                                "kind": 10,
+                                "flags": 64,
+                                "start": 45,
+                                "end": 48
+                            },
                             "contents": {
                                 "kind": 216,
                                 "functionStatementList": {

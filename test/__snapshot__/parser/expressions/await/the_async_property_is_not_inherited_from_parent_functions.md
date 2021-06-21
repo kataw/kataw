@@ -78,12 +78,7 @@ async function f(){ let y = x => await x; }
                                         "type": null,
                                         "initializer": {
                                             "kind": 271,
-                                            "arrowToken": {
-                                                "kind": 10,
-                                                "flags": 64,
-                                                "start": 29,
-                                                "end": 32
-                                            },
+                                            "asyncKeyword": null,
                                             "typeParameters": null,
                                             "parameters": {
                                                 "kind": 134299649,
@@ -93,8 +88,13 @@ async function f(){ let y = x => await x; }
                                                 "start": 27,
                                                 "end": 29
                                             },
-                                            "asyncKeyword": null,
                                             "returnType": null,
+                                            "arrowToken": {
+                                                "kind": 10,
+                                                "flags": 64,
+                                                "start": 29,
+                                                "end": 32
+                                            },
                                             "contents": {
                                                 "kind": 134299649,
                                                 "text": "await",

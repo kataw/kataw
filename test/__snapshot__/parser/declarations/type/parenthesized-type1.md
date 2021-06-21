@@ -117,7 +117,7 @@ type X = (x & y);
 
 ```javascript
 
-
+  
 ```
 
 ### Diagnostics

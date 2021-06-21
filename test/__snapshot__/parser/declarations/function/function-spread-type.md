@@ -121,7 +121,8 @@ function foo(...args: any) { }
 
 ```javascript
 
-function foo() {}
+ function foo() {
+} 
 ```
 
 ### Diagnostics

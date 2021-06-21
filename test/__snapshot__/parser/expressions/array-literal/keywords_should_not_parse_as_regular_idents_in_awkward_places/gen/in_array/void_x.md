@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/array-literal/keywords_should_not_parse_as_regular_idents_in_awkward_places/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/array-literal/keywords_should_not_parse_as_regular_idents_in_awkward_places/gen/in_array
+- Regenerated: 2021-06-12
+- From: d
+- Path: y
 > :: test: in array
 > :: case: void x
 ## Options
@@ -78,7 +78,7 @@
 
 ```javascript
 
-[void x];
+ []; 
 ```
 
 ### Diagnostics

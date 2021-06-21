@@ -130,7 +130,7 @@
 
 ```javascript
 
-[a, { [b]: d }, c] = obj;
+ [a, {  : d }, c]=obj; 
 ```
 
 ### Diagnostics

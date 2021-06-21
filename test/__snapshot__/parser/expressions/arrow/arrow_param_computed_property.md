@@ -25,12 +25,7 @@
                 "kind": 121,
                 "expression": {
                     "kind": 271,
-                    "arrowToken": {
-                        "kind": 10,
-                        "flags": 64,
-                        "start": 4,
-                        "end": 7
-                    },
+                    "asyncKeyword": null,
                     "typeParameters": null,
                     "parameters": [
                         {
@@ -42,8 +37,13 @@
                             "end": 3
                         }
                     ],
-                    "asyncKeyword": null,
                     "returnType": null,
+                    "arrowToken": {
+                        "kind": 10,
+                        "flags": 64,
+                        "start": 4,
+                        "end": 7
+                    },
                     "contents": {
                         "kind": 134299649,
                         "text": "x",
@@ -81,12 +81,7 @@
                         },
                         {
                             "kind": 271,
-                            "arrowToken": {
-                                "kind": 10,
-                                "flags": 64,
-                                "start": 20,
-                                "end": 23
-                            },
+                            "asyncKeyword": null,
                             "typeParameters": null,
                             "parameters": [
                                 {
@@ -98,8 +93,13 @@
                                     "end": 19
                                 }
                             ],
-                            "asyncKeyword": null,
                             "returnType": null,
+                            "arrowToken": {
+                                "kind": 10,
+                                "flags": 64,
+                                "start": 20,
+                                "end": 23
+                            },
                             "contents": {
                                 "kind": 134299649,
                                 "text": "x",
@@ -130,7 +130,7 @@
             "expression": {
                 "kind": 121,
                 "expression": {
-                    "kind": 536871042,
+                    "kind": 130,
                     "member": {
                         "kind": 134299649,
                         "text": "a",
@@ -147,7 +147,7 @@
                         "start": 32,
                         "end": 33
                     },
-                    "flags": 32,
+                    "flags": 536870944,
                     "start": 27,
                     "end": 34
                 },

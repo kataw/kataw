@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/miscellaneous/should-pass/autogen.md
-- Path: kataw/test/__snapshot__/parser/miscellaneous/should-pass/gen/stand-alone
+- Regenerated: 2021-06-12
+- From: d
+- Path: e
 > :: test: stand-alone
 > :: case: a = [[x[await]]] = value;
 ## Options
@@ -54,7 +54,7 @@ a = [[x[await]]] = value;
                                         "kind": 270,
                                         "elements": [
                                             {
-                                                "kind": 536871042,
+                                                "kind": 130,
                                                 "member": {
                                                     "kind": 134299649,
                                                     "text": "x",
@@ -71,7 +71,7 @@ a = [[x[await]]] = value;
                                                     "start": 8,
                                                     "end": 13
                                                 },
-                                                "flags": 32,
+                                                "flags": 536870944,
                                                 "start": 6,
                                                 "end": 14
                                             }
@@ -135,7 +135,7 @@ a = [[x[await]]] = value;
 
 ```javascript
 
-a = [[]] = value;
+ a=[[x[await]]]=value; 
 ```
 
 ### Diagnostics

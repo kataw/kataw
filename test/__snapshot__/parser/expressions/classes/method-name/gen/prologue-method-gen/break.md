@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/classes/method-name/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/classes/method-name/gen/prologue-method-gen
+- Regenerated: 2021-06-12
+- From: d
+- Path: n
 > :: test: prologue-method-gen
 > :: case: break
 ## Options
@@ -42,9 +42,9 @@
                         "kind": 218,
                         "properties": [
                             {
-                                "kind": 257,
+                                "kind": 351,
                                 "asyncKeyword": null,
-                                "generatorToken": {
+                                "asteriskToken": {
                                     "kind": 67143222,
                                     "flags": 64,
                                     "start": 16,
@@ -63,7 +63,7 @@
                                         "end": 22
                                     },
                                     "typeParameters": null,
-                                    "formalParameters": {
+                                    "formalParameterList": {
                                         "kind": 214,
                                         "formalParameters": [
                                             {
@@ -143,7 +143,8 @@
 
 ```javascript
 
-({ break {} });
+'use strict' ({ * break(x, y) {
+    } }); 
 ```
 
 ### Diagnostics

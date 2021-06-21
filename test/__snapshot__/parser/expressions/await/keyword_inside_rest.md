@@ -19,11 +19,11 @@ async r => result = [...{ x = await x }] = y;
             "kind": 120,
             "expression": {
                 "kind": 271,
-                "arrowToken": {
-                    "kind": 10,
+                "asyncKeyword": {
+                    "kind": 82031,
                     "flags": 64,
-                    "start": 7,
-                    "end": 10
+                    "start": 0,
+                    "end": 5
                 },
                 "typeParameters": null,
                 "parameters": {
@@ -34,13 +34,13 @@ async r => result = [...{ x = await x }] = y;
                     "start": 5,
                     "end": 7
                 },
-                "asyncKeyword": {
-                    "kind": 82031,
-                    "flags": 64,
-                    "start": 0,
-                    "end": 5
-                },
                 "returnType": null,
+                "arrowToken": {
+                    "kind": 10,
+                    "flags": 64,
+                    "start": 7,
+                    "end": 10
+                },
                 "contents": {
                     "kind": 125,
                     "left": {
@@ -179,7 +179,7 @@ async r => result = [...{ x = await x }] = y;
 
 ```javascript
 
-async r =>  result = [...{ x = await x }] = y;
+ r =>result=[...{ x = await x }]=y; 
 ```
 
 ### Diagnostics

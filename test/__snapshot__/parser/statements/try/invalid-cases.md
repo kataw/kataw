@@ -979,14 +979,14 @@ try {} catch({ x: "str" }) {}
                         "kind": 213,
                         "properties": [
                             {
-                                "kind": 329,
+                                "kind": 281,
                                 "ellipsisToken": {
                                     "kind": 524302,
                                     "flags": 64,
                                     "start": 263,
                                     "end": 267
                                 },
-                                "key": {
+                                "left": {
                                     "kind": 134299649,
                                     "text": "function",
                                     "rawText": "function",
@@ -994,16 +994,10 @@ try {} catch({ x: "str" }) {}
                                     "start": 267,
                                     "end": 275
                                 },
-                                "value": {
-                                    "kind": 16637,
-                                    "text": "",
-                                    "rawText": "",
-                                    "flags": 64,
-                                    "start": 275,
-                                    "end": 275
-                                },
-                                "initializer": null,
-                                "flags": 32,
+                                "optionalToken": null,
+                                "type": null,
+                                "right": null,
+                                "flags": 0,
                                 "start": 263,
                                 "end": 275
                             }
@@ -1111,7 +1105,6 @@ try {} catch({ x: "str" }) {}
                         "properties": [
                             {
                                 "kind": 329,
-                                "ellipsisToken": null,
                                 "key": {
                                     "kind": 134299649,
                                     "text": "x",
@@ -1170,12 +1163,7 @@ try {} catch({ x: "str" }) {}
             "kind": 120,
             "expression": {
                 "kind": 271,
-                "arrowToken": {
-                    "kind": 10,
-                    "flags": 64,
-                    "start": 309,
-                    "end": 312
-                },
+                "asyncKeyword": null,
                 "typeParameters": null,
                 "parameters": [
                     {
@@ -1187,8 +1175,13 @@ try {} catch({ x: "str" }) {}
                         "end": 308
                     }
                 ],
-                "asyncKeyword": null,
                 "returnType": null,
+                "arrowToken": {
+                    "kind": 10,
+                    "flags": 64,
+                    "start": 309,
+                    "end": 312
+                },
                 "contents": {
                     "kind": 134299649,
                     "text": "z",
@@ -1337,7 +1330,6 @@ try {} catch({ x: "str" }) {}
                         "properties": [
                             {
                                 "kind": 329,
-                                "ellipsisToken": null,
                                 "key": {
                                     "kind": 134299649,
                                     "text": "x",
@@ -1492,7 +1484,6 @@ try {} catch({ x: "str" }) {}
                         "properties": [
                             {
                                 "kind": 329,
-                                "ellipsisToken": null,
                                 "key": {
                                     "kind": 134299649,
                                     "text": "x",
@@ -2517,14 +2508,14 @@ try {} catch({ x: "str" }) {}
                                     "kind": 213,
                                     "properties": [
                                         {
-                                            "kind": 329,
+                                            "kind": 281,
                                             "ellipsisToken": {
                                                 "kind": 524302,
                                                 "flags": 64,
                                                 "start": 719,
                                                 "end": 723
                                             },
-                                            "key": {
+                                            "left": {
                                                 "kind": 134299649,
                                                 "text": "function",
                                                 "rawText": "function",
@@ -2532,16 +2523,10 @@ try {} catch({ x: "str" }) {}
                                                 "start": 723,
                                                 "end": 731
                                             },
-                                            "value": {
-                                                "kind": 16637,
-                                                "text": "",
-                                                "rawText": "",
-                                                "flags": 64,
-                                                "start": 731,
-                                                "end": 731
-                                            },
-                                            "initializer": null,
-                                            "flags": 32,
+                                            "optionalToken": null,
+                                            "type": null,
+                                            "right": null,
+                                            "flags": 0,
                                             "start": 719,
                                             "end": 731
                                         }
@@ -2582,11 +2567,11 @@ try {} catch({ x: "str" }) {}
                         "kind": 120,
                         "expression": {
                             "kind": 271,
-                            "arrowToken": null,
+                            "asyncKeyword": null,
                             "typeParameters": null,
                             "parameters": [],
-                            "asyncKeyword": null,
                             "returnType": null,
+                            "arrowToken": null,
                             "contents": {
                                 "kind": 216,
                                 "functionStatementList": {
@@ -2667,7 +2652,6 @@ try {} catch({ x: "str" }) {}
                         "properties": [
                             {
                                 "kind": 329,
-                                "ellipsisToken": null,
                                 "key": {
                                     "kind": 134299649,
                                     "text": "x",
@@ -2726,12 +2710,7 @@ try {} catch({ x: "str" }) {}
             "kind": 120,
             "expression": {
                 "kind": 271,
-                "arrowToken": {
-                    "kind": 10,
-                    "flags": 64,
-                    "start": 770,
-                    "end": 773
-                },
+                "asyncKeyword": null,
                 "typeParameters": null,
                 "parameters": [
                     {
@@ -2743,8 +2722,13 @@ try {} catch({ x: "str" }) {}
                         "end": 769
                     }
                 ],
-                "asyncKeyword": null,
                 "returnType": null,
+                "arrowToken": {
+                    "kind": 10,
+                    "flags": 64,
+                    "start": 770,
+                    "end": 773
+                },
                 "contents": {
                     "kind": 134299649,
                     "text": "z",
@@ -2920,7 +2904,6 @@ try {} catch({ x: "str" }) {}
                         "properties": [
                             {
                                 "kind": 329,
-                                "ellipsisToken": null,
                                 "key": {
                                     "kind": 134299649,
                                     "text": "x",
@@ -3080,7 +3063,6 @@ try {} catch({ x: "str" }) {}
                         "properties": [
                             {
                                 "kind": 329,
-                                "ellipsisToken": null,
                                 "key": {
                                     "kind": 134299649,
                                     "text": "x",
@@ -3235,7 +3217,6 @@ try {} catch({ x: "str" }) {}
                         "properties": [
                             {
                                 "kind": 329,
-                                "ellipsisToken": null,
                                 "key": {
                                     "kind": 134299649,
                                     "text": "x",
@@ -3373,7 +3354,6 @@ try {} catch({ x: "str" }) {}
                         "properties": [
                             {
                                 "kind": 329,
-                                "ellipsisToken": null,
                                 "key": {
                                     "kind": 134299649,
                                     "text": "x",
@@ -3397,7 +3377,6 @@ try {} catch({ x: "str" }) {}
                             },
                             {
                                 "kind": 329,
-                                "ellipsisToken": null,
                                 "key": {
                                     "kind": 201392131,
                                     "text": "str",
@@ -3478,8 +3457,8 @@ try {} catch({ x: "str" }) {}
 ✖ Cannot redeclare block-scoped variable - start: 171, end: 175
 ✖ Duplicate identifier - start: 199, end: 203
 ✖ A rest element cannot have an initializer - start: 242, end: 244
-✖ Binding identifier expected - start: 275, end: 276
 ✖ ',' expected - start: 275, end: 276
+✖ The parser expected to find a '}' to match the '{' token here - start: 275, end: 276
 ✖ Declaration or statement expected - start: 279, end: 281
 ✖ Declaration or statement expected - start: 281, end: 282
 ✖ Declaration or statement expected - start: 287, end: 289
@@ -3514,8 +3493,8 @@ try {} catch({ x: "str" }) {}
 ✖ Cannot redeclare block-scoped variable - start: 624, end: 628
 ✖ Duplicate identifier - start: 652, end: 656
 ✖ A rest element cannot have an initializer - start: 695, end: 697
-✖ Binding identifier expected - start: 731, end: 732
 ✖ ',' expected - start: 731, end: 732
+✖ The parser expected to find a '}' to match the '{' token here - start: 731, end: 732
 ✖ Declaration or statement expected - start: 738, end: 739
 ✖ ',' expected - start: 766, end: 768
 ✖ The parser expected to find a '}' to match the '{' token here - start: 767, end: 768

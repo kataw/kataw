@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/declarations/function/func-decl-errors/autogen.md
-- Path: kataw/test/__snapshot__/parser/declarations/function/func-decl-errors/gen/in_func_expr_body
+- Regenerated: 2021-06-12
+- From: d
+- Path: y
 > :: test: in func expr body
 > :: case: for (var x in {}) function foo() {}
 ## Options
@@ -64,28 +64,40 @@
                                             "end": 16
                                         },
                                         "initializer": {
-                                            "kind": 156,
-                                            "declarations": [
-                                                {
-                                                    "kind": 157,
-                                                    "binding": {
-                                                        "kind": 134299649,
-                                                        "text": "x",
-                                                        "rawText": "x",
-                                                        "flags": 96,
+                                            "kind": 341,
+                                            "varKeyword": {
+                                                "kind": 37757002,
+                                                "flags": 64,
+                                                "start": 18,
+                                                "end": 21
+                                            },
+                                            "declarationList": {
+                                                "kind": 156,
+                                                "declarations": [
+                                                    {
+                                                        "kind": 157,
+                                                        "binding": {
+                                                            "kind": 134299649,
+                                                            "text": "x",
+                                                            "rawText": "x",
+                                                            "flags": 96,
+                                                            "start": 21,
+                                                            "end": 23
+                                                        },
+                                                        "type": null,
+                                                        "initializer": null,
+                                                        "flags": 16,
                                                         "start": 21,
                                                         "end": 23
-                                                    },
-                                                    "type": null,
-                                                    "initializer": null,
-                                                    "flags": 16,
-                                                    "start": 21,
-                                                    "end": 23
-                                                }
-                                            ],
+                                                    }
+                                                ],
+                                                "flags": 16,
+                                                "start": 21,
+                                                "end": 23
+                                            },
                                             "flags": 16,
-                                            "start": 21,
-                                            "end": 23
+                                            "start": 13,
+                                            "end": 26
                                         },
                                         "inKeyword": {
                                             "kind": 21006388,

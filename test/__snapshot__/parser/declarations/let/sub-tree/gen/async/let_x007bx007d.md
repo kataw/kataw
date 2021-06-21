@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/declarations/let/sub-tree/autogen.md
-- Path: kataw/test/__snapshot__/parser/declarations/let/sub-tree/gen/async
+- Regenerated: 2021-06-12
+- From: d
+- Path: c
 > :: test: async
 > :: case: let
 >          {}
@@ -29,7 +29,12 @@ async let
             "kind": 120,
             "expression": {
                 "kind": 271,
-                "arrowToken": null,
+                "asyncKeyword": {
+                    "kind": 82031,
+                    "flags": 64,
+                    "start": 0,
+                    "end": 5
+                },
                 "typeParameters": null,
                 "parameters": {
                     "kind": 134299649,
@@ -39,13 +44,8 @@ async let
                     "start": 5,
                     "end": 9
                 },
-                "asyncKeyword": {
-                    "kind": 82031,
-                    "flags": 64,
-                    "start": 0,
-                    "end": 5
-                },
                 "returnType": null,
+                "arrowToken": null,
                 "contents": {
                     "kind": 216,
                     "functionStatementList": {

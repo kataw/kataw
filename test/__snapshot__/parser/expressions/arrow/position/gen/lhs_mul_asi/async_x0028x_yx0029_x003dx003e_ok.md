@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/arrow/position/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/arrow/position/gen/lhs_mul_asi
+- Regenerated: 2021-06-12
+- From: d
+- Path: i
 > :: test: lhs mul asi
 > :: case: async (x, y) => ok
 ## Options
@@ -26,11 +26,11 @@ async (x, y) => ok
     "statements": [
         {
             "kind": 271,
-            "arrowToken": {
-                "kind": 10,
+            "asyncKeyword": {
+                "kind": 82031,
                 "flags": 64,
-                "start": 12,
-                "end": 15
+                "start": 0,
+                "end": 5
             },
             "typeParameters": null,
             "parameters": [
@@ -51,13 +51,13 @@ async (x, y) => ok
                     "end": 11
                 }
             ],
-            "asyncKeyword": {
-                "kind": 82031,
-                "flags": 64,
-                "start": 0,
-                "end": 5
-            },
             "returnType": null,
+            "arrowToken": {
+                "kind": 10,
+                "flags": 64,
+                "start": 12,
+                "end": 15
+            },
             "contents": {
                 "kind": 198,
                 "left": {
@@ -104,7 +104,7 @@ async (x, y) => ok
 
 ```javascript
 
-async (x, y) =>  ok * x
+ (x, y) =>ok * x 
 ```
 
 ### Diagnostics

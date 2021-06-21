@@ -110,8 +110,7 @@ for (a.b in c) d;
 
 ```javascript
 
-for (a.b in c)
-  d;
+ for (a.b in c) d; 
 ```
 
 ### Diagnostics

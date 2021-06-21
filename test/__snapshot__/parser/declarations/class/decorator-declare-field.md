@@ -123,10 +123,9 @@ class x { @declare a }
 
 ```javascript
 
-class x {
-  @declare
-  a;
-}
+ class x {
+    a
+} 
 ```
 
 ### Diagnostics

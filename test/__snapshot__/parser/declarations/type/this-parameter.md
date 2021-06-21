@@ -1047,11 +1047,7 @@ type ten = {
 
 ```javascript
 
-
-
-
-
-
+ , , , ,  
 ```
 
 ### Diagnostics

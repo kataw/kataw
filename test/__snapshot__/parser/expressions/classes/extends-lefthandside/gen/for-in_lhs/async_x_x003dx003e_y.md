@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/classes/extends-lefthandside/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/classes/extends-lefthandside/gen/for-in_lhs
+- Regenerated: 2021-06-12
+- From: d
+- Path: s
 > :: test: for-in lhs
 > :: case: async
 >          x => y
@@ -44,12 +44,7 @@ x => y in x) ;
             "condition": null,
             "incrementor": {
                 "kind": 271,
-                "arrowToken": {
-                    "kind": 10,
-                    "flags": 64,
-                    "start": 12,
-                    "end": 15
-                },
+                "asyncKeyword": null,
                 "typeParameters": null,
                 "parameters": {
                     "kind": 134299649,
@@ -59,8 +54,13 @@ x => y in x) ;
                     "start": 10,
                     "end": 12
                 },
-                "asyncKeyword": null,
                 "returnType": null,
+                "arrowToken": {
+                    "kind": 10,
+                    "flags": 64,
+                    "start": 12,
+                    "end": 15
+                },
                 "contents": {
                     "kind": 198,
                     "left": {
@@ -117,7 +117,7 @@ x => y in x) ;
 
 ```javascript
 
-for (async; ; x =>  y in x);
+ for(async;; x =>y in x); 
 ```
 
 ### Diagnostics

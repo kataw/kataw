@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/classes/extends-lefthandside/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/classes/extends-lefthandside/gen/for-in_lhs
+- Regenerated: 2021-06-12
+- From: d
+- Path: s
 > :: test: for-in lhs
 > :: case: x in y
 ## Options
@@ -97,7 +97,7 @@ for (x in y in x) ;
 
 ```javascript
 
-for (x in y in x);
+ for (x in y in x) ; 
 ```
 
 ### Diagnostics

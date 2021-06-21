@@ -26,7 +26,7 @@ delete super[foo]
                     "end": 6
                 },
                 "operand": {
-                    "kind": 536871042,
+                    "kind": 130,
                     "member": {
                         "kind": 225,
                         "superKeyword": {
@@ -47,7 +47,7 @@ delete super[foo]
                         "start": 13,
                         "end": 16
                     },
-                    "flags": 32,
+                    "flags": 536870944,
                     "start": 6,
                     "end": 17
                 },

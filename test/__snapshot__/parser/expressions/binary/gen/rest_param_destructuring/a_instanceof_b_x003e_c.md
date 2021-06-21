@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/binary/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/binary/gen/rest_param_destructuring
+- Regenerated: 2021-06-12
+- From: d
+- Path: g
 > :: test: rest param destructuring
 > :: case: a instanceof b > c
 ## Options
@@ -27,12 +27,7 @@
             "kind": 120,
             "expression": {
                 "kind": 271,
-                "arrowToken": {
-                    "kind": 10,
-                    "flags": 64,
-                    "start": 28,
-                    "end": 31
-                },
+                "asyncKeyword": null,
                 "typeParameters": null,
                 "parameters": [
                     {
@@ -114,8 +109,13 @@
                         "end": 27
                     }
                 ],
-                "asyncKeyword": null,
                 "returnType": null,
+                "arrowToken": {
+                    "kind": 10,
+                    "flags": 64,
+                    "start": 28,
+                    "end": 31
+                },
                 "contents": {
                     "kind": 134299649,
                     "text": "x",

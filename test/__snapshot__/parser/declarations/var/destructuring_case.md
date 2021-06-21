@@ -55,7 +55,6 @@ var {[2]: y = 1} = {2:3}
                                 "properties": [
                                     {
                                         "kind": 329,
-                                        "ellipsisToken": null,
                                         "key": {
                                             "kind": 194,
                                             "expression": {
@@ -166,9 +165,9 @@ var {[2]: y = 1} = {2:3}
 
 ```javascript
 
-var {
-  [2]: y = 1
-} = { 2: 3 };
+ var {
+     : y
+} = { 2 : 3 }; 
 ```
 
 ### Diagnostics

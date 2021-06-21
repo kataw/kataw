@@ -135,7 +135,7 @@ type A = {
 
 ```javascript
 
-
+  
 ```
 
 ### Diagnostics

@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/arrow/position/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/arrow/position/gen/call_arg
+- Regenerated: 2021-06-12
+- From: d
+- Path: g
 > :: test: call arg
 > :: case: x => ok
 ## Options
@@ -40,12 +40,7 @@ foo(x => ok)
                     "elements": [
                         {
                             "kind": 271,
-                            "arrowToken": {
-                                "kind": 10,
-                                "flags": 64,
-                                "start": 5,
-                                "end": 8
-                            },
+                            "asyncKeyword": null,
                             "typeParameters": null,
                             "parameters": {
                                 "kind": 134299649,
@@ -55,8 +50,13 @@ foo(x => ok)
                                 "start": 4,
                                 "end": 5
                             },
-                            "asyncKeyword": null,
                             "returnType": null,
+                            "arrowToken": {
+                                "kind": 10,
+                                "flags": 64,
+                                "start": 5,
+                                "end": 8
+                            },
                             "contents": {
                                 "kind": 134299649,
                                 "text": "ok",
@@ -97,7 +97,7 @@ foo(x => ok)
 
 ```javascript
 
-foo(x =>  ok);
+ ; 
 ```
 
 ### Diagnostics

@@ -97,12 +97,7 @@ async function f(){    async function f(){   (a= {[await foo](){}, "x"(){}} ) =>
                                             "kind": 120,
                                             "expression": {
                                                 "kind": 271,
-                                                "arrowToken": {
-                                                    "kind": 10,
-                                                    "flags": 64,
-                                                    "start": 77,
-                                                    "end": 80
-                                                },
+                                                "asyncKeyword": null,
                                                 "typeParameters": null,
                                                 "parameters": [
                                                     {
@@ -124,9 +119,9 @@ async function f(){    async function f(){   (a= {[await foo](){}, "x"(){}} ) =>
                                                                 "kind": 218,
                                                                 "properties": [
                                                                     {
-                                                                        "kind": 257,
+                                                                        "kind": 351,
                                                                         "asyncKeyword": null,
-                                                                        "generatorToken": null,
+                                                                        "asteriskToken": null,
                                                                         "getKeyword": null,
                                                                         "setKeyword": null,
                                                                         "method": {
@@ -158,7 +153,7 @@ async function f(){    async function f(){   (a= {[await foo](){}, "x"(){}} ) =>
                                                                                 "end": 61
                                                                             },
                                                                             "typeParameters": null,
-                                                                            "formalParameters": {
+                                                                            "formalParameterList": {
                                                                                 "kind": 214,
                                                                                 "formalParameters": [],
                                                                                 "trailingComma": false,
@@ -190,9 +185,9 @@ async function f(){    async function f(){   (a= {[await foo](){}, "x"(){}} ) =>
                                                                         "end": 65
                                                                     },
                                                                     {
-                                                                        "kind": 257,
+                                                                        "kind": 351,
                                                                         "asyncKeyword": null,
-                                                                        "generatorToken": null,
+                                                                        "asteriskToken": null,
                                                                         "getKeyword": null,
                                                                         "setKeyword": null,
                                                                         "method": {
@@ -206,7 +201,7 @@ async function f(){    async function f(){   (a= {[await foo](){}, "x"(){}} ) =>
                                                                                 "end": 70
                                                                             },
                                                                             "typeParameters": null,
-                                                                            "formalParameters": {
+                                                                            "formalParameterList": {
                                                                                 "kind": 214,
                                                                                 "formalParameters": [],
                                                                                 "trailingComma": false,
@@ -252,8 +247,13 @@ async function f(){    async function f(){   (a= {[await foo](){}, "x"(){}} ) =>
                                                         "end": 75
                                                     }
                                                 ],
-                                                "asyncKeyword": null,
                                                 "returnType": null,
+                                                "arrowToken": {
+                                                    "kind": 10,
+                                                    "flags": 64,
+                                                    "start": 77,
+                                                    "end": 80
+                                                },
                                                 "contents": {
                                                     "kind": 134299649,
                                                     "text": "a",
@@ -312,11 +312,13 @@ async function f(){    async function f(){   (a= {[await foo](){}, "x"(){}} ) =>
 
 ```javascript
 
+ async function f() {
 async function f() {
-  async function f() {
-    (a = { [await foo] {}, "\"x\"" {} }) =>  a;
-  }
+(a = { () {
+        }, "x"() {
+        } }) =>a;
 }
+} 
 ```
 
 ### Diagnostics

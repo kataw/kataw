@@ -170,7 +170,7 @@ type a = (((x | x))) => T;
 
 ```javascript
 
-
+  
 ```
 
 ### Diagnostics

@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/await/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/await/gen/var
+- Regenerated: 2021-06-12
+- From: d
+- Path: r
 > :: test: var
 > :: case: var { f: await f } = {};
 ## Options
@@ -137,7 +137,6 @@ var await; var f = (async function() { var { f: await f } = {}; });
                                                                     "properties": [
                                                                         {
                                                                             "kind": 329,
-                                                                            "ellipsisToken": null,
                                                                             "key": {
                                                                                 "kind": 134299649,
                                                                                 "text": "f",

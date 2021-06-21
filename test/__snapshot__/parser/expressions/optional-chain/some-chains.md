@@ -1515,14 +1515,7 @@ z.z?.(a)?.b?.x?.x?.x.x.x;
 
 ```javascript
 
-.x.x.x.x;
-.x;
-.x;
-.x;
-(.x).x.x.x;
-.x;
-.x;
-.x;
+ .x.x.x.x;, .x;, .x;, .x;, (.x).x.x.x;, .x;, .x;, .x; 
 ```
 
 ### Diagnostics

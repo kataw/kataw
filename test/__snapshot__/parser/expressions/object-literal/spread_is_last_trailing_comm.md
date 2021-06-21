@@ -90,7 +90,7 @@
 
 ```javascript
 
-({ x, ...rest });
+ ({ x,  }); 
 ```
 
 ### Diagnostics

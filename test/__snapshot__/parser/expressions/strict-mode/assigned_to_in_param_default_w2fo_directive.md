@@ -19,12 +19,7 @@
             "kind": 120,
             "expression": {
                 "kind": 271,
-                "arrowToken": {
-                    "kind": 10,
-                    "flags": 64,
-                    "start": 16,
-                    "end": 19
-                },
+                "asyncKeyword": null,
                 "typeParameters": null,
                 "parameters": [
                     {
@@ -73,8 +68,13 @@
                         "end": 15
                     }
                 ],
-                "asyncKeyword": null,
                 "returnType": null,
+                "arrowToken": {
+                    "kind": 10,
+                    "flags": 64,
+                    "start": 16,
+                    "end": 19
+                },
                 "contents": {
                     "kind": 216,
                     "functionStatementList": {
@@ -111,7 +111,8 @@
 
 ```javascript
 
-(x = interface = 10) =>  {};
+ (x = interface=10) => {
+}; 
 ```
 
 ### Diagnostics

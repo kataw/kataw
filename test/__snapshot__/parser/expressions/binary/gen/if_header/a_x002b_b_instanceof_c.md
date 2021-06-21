@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/binary/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/binary/gen/if_header
+- Regenerated: 2021-06-12
+- From: d
+- Path: r
 > :: test: if header
 > :: case: a + b instanceof c
 ## Options
@@ -105,7 +105,7 @@ if ( a + b instanceof c ) ;
 
 ```javascript
 
-if (a + b inctanceof c);
+ if (a + b inctanceof c) ; 
 ```
 
 ### Diagnostics

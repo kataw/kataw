@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/super/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/super/gen/class-gen
+- Regenerated: 2021-06-12
+- From: d
+- Path: n
 > :: test: class-gen
 > :: case: class C { set x(_) { super(
 ## Options
@@ -52,16 +52,16 @@ class C { *method() { class C { set x(_) { super( } }
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
+                            "staticKeyword": null,
+                            "asyncKeyword": null,
+                            "setKeyword": null,
+                            "getKeyword": null,
                             "asteriskToken": {
                                 "kind": 67143222,
                                 "flags": 64,
                                 "start": 9,
                                 "end": 11
                             },
-                            "staticKeyword": null,
-                            "asyncKeyword": null,
-                            "setKeyword": null,
-                            "getKeyword": null,
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -73,7 +73,7 @@ class C { *method() { class C { set x(_) { super( } }
                                     "end": 17
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -117,7 +117,6 @@ class C { *method() { class C { set x(_) { super( } }
                                                                 "kind": 278,
                                                                 "declareToken": null,
                                                                 "decorators": null,
-                                                                "asteriskToken": null,
                                                                 "staticKeyword": null,
                                                                 "asyncKeyword": null,
                                                                 "setKeyword": null,
@@ -127,6 +126,7 @@ class C { *method() { class C { set x(_) { super( } }
                                                                     "start": 31,
                                                                     "end": 35
                                                                 },
+                                                                "asteriskToken": null,
                                                                 "method": {
                                                                     "kind": 209,
                                                                     "name": {
@@ -138,7 +138,7 @@ class C { *method() { class C { set x(_) { super( } }
                                                                         "end": 37
                                                                     },
                                                                     "typeParameters": null,
-                                                                    "formalParameters": {
+                                                                    "formalParameterList": {
                                                                         "kind": 214,
                                                                         "formalParameters": [
                                                                             {

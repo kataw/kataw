@@ -98,10 +98,9 @@ switch (x) { case y: break; }
 
 ```javascript
 
-switch(x) {
-  case y:
-    break;
-}
+ switch(x) {
+    case y: break;
+} 
 ```
 
 ### Diagnostics

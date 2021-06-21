@@ -133,7 +133,7 @@ type a = ("string") => T;
 
 ```javascript
 
-
+  
 ```
 
 ### Diagnostics

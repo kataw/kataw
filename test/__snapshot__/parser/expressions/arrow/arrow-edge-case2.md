@@ -43,12 +43,7 @@ a ? (b) : c => d : e;
                 },
                 "consequent": {
                     "kind": 271,
-                    "arrowToken": {
-                        "kind": 10,
-                        "flags": 64,
-                        "start": 11,
-                        "end": 14
-                    },
+                    "asyncKeyword": null,
                     "typeParameters": null,
                     "parameters": [
                         {
@@ -60,7 +55,6 @@ a ? (b) : c => d : e;
                             "end": 6
                         }
                     ],
-                    "asyncKeyword": null,
                     "returnType": {
                         "kind": 139,
                         "bitwiseOrToken": null,
@@ -83,6 +77,12 @@ a ? (b) : c => d : e;
                         "flags": 2097152,
                         "start": 9,
                         "end": 11
+                    },
+                    "arrowToken": {
+                        "kind": 10,
+                        "flags": 64,
+                        "start": 11,
+                        "end": 14
                     },
                     "contents": {
                         "kind": 134299649,
@@ -132,7 +132,7 @@ a ? (b) : c => d : e;
 
 ```javascript
 
-a ? (b) =>  d : e;
+ a ? (b): c =>d : e; 
 ```
 
 ### Diagnostics

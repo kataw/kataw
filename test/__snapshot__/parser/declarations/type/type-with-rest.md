@@ -142,7 +142,7 @@ type C = { ...A&B };
 
 ```javascript
 
-
+  
 ```
 
 ### Diagnostics

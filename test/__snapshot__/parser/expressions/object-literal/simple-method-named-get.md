@@ -42,9 +42,9 @@ x = {
                         "kind": 218,
                         "properties": [
                             {
-                                "kind": 257,
+                                "kind": 351,
                                 "asyncKeyword": null,
-                                "generatorToken": null,
+                                "asteriskToken": null,
                                 "getKeyword": null,
                                 "setKeyword": null,
                                 "method": {
@@ -58,7 +58,7 @@ x = {
                                         "end": 13
                                     },
                                     "typeParameters": null,
-                                    "formalParameters": {
+                                    "formalParameterList": {
                                         "kind": 214,
                                         "formalParameters": [],
                                         "trailingComma": false,
@@ -127,8 +127,8 @@ x = {
 
 ```javascript
 
-x = { get {} };
-
+ x={ get() {
+    } };, ; 
 ```
 
 ### Diagnostics

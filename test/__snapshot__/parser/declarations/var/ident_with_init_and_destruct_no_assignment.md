@@ -112,9 +112,9 @@ var x = y, {z};
 
 ```javascript
 
-var x = y, {
+ var x = y, {
     z
-  };
+}; 
 ```
 
 ### Diagnostics

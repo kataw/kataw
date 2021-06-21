@@ -26,7 +26,7 @@
             "expression": {
                 "kind": 198,
                 "left": {
-                    "kind": 536871042,
+                    "kind": 130,
                     "member": {
                         "kind": 201392130,
                         "text": 6,
@@ -39,12 +39,7 @@
                         "kind": 121,
                         "expression": {
                             "kind": 271,
-                            "arrowToken": {
-                                "kind": 10,
-                                "flags": 64,
-                                "start": 4,
-                                "end": 6
-                            },
+                            "asyncKeyword": null,
                             "typeParameters": null,
                             "parameters": {
                                 "kind": 134299649,
@@ -54,8 +49,13 @@
                                 "start": 3,
                                 "end": 4
                             },
-                            "asyncKeyword": null,
                             "returnType": null,
+                            "arrowToken": {
+                                "kind": 10,
+                                "flags": 64,
+                                "start": 4,
+                                "end": 6
+                            },
                             "contents": {
                                 "kind": 134299649,
                                 "text": "y",
@@ -72,7 +72,7 @@
                         "start": 2,
                         "end": 8
                     },
-                    "flags": 32,
+                    "flags": 536870944,
                     "start": 0,
                     "end": 9
                 },
@@ -112,7 +112,7 @@
 
 ```javascript
 
- in 3;
+ 6[(x =>y)] in 3; 
 ```
 
 ### Diagnostics

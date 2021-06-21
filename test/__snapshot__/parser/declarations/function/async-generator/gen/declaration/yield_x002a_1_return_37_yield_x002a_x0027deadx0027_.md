@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/declarations/function/async-generator/autogen.md
-- Path: kataw/test/__snapshot__/parser/declarations/function/async-generator/gen/declaration
+- Regenerated: 2021-06-12
+- From: d
+- Path: n
 > :: test: declaration
 > :: case: yield * 1; return 37; yield * 'dead';
 ## Options
@@ -182,11 +182,11 @@ async function * gen() {yield * 1; return 37; yield * 'dead';}
 
 ```javascript
 
-async function * gen() {
-  yield * 1;
-  return  37;
-  yield * "'dead'";
-}
+ async function* gen() {
+yield* 1;,
+return 37;,
+yield* 'dead';
+} 
 ```
 
 ### Diagnostics

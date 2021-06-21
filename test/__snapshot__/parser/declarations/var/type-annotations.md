@@ -1234,18 +1234,9 @@ var {x5}: {x5: string; } = { x5: "hello" };
 
 ```javascript
 
-var a21: ;
-var identity1: ;
-var identity2: ;
-var a17: [ number ];
-var a18: ;
-var a19: [  ];
-var x2:  = fn;
-var x3:  = Y;
-var x4:  = Y;
-var {
-  x5
-}:  = { x5: "\"hello\"" };
+ var a21 ;, var identity1 ;, var identity2 ;, var a17 ;, var a18 ;, var a19 ;, var x2  = fn;, var x3  = Y;, var x4  = Y;, var {
+    x5
+}  = { x5 : "hello" }; 
 ```
 
 ### Diagnostics

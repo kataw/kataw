@@ -520,15 +520,13 @@ function e(x: { (): string; (x: number): string }): () => number {
 ### Printed
 
 ```javascript
-// Only one call property needs to match the function
 
-function d():  {
-  return  x;
-}
-// ...but you need at least one
-function e():  {
-  return  x;
-}
+// Only one call property needs to match the function
+ function d():  {
+return x;
+}, function e():  {
+return x;
+} 
 ```
 
 ### Diagnostics

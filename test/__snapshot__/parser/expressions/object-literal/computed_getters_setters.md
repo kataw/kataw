@@ -57,9 +57,9 @@ var f = {
                                 "kind": 218,
                                 "properties": [
                                     {
-                                        "kind": 257,
+                                        "kind": 351,
                                         "asyncKeyword": null,
-                                        "generatorToken": null,
+                                        "asteriskToken": null,
                                         "getKeyword": {
                                             "kind": 16498,
                                             "flags": 97,
@@ -84,7 +84,7 @@ var f = {
                                                 "end": 21
                                             },
                                             "typeParameters": null,
-                                            "formalParameters": {
+                                            "formalParameterList": {
                                                 "kind": 214,
                                                 "formalParameters": [],
                                                 "trailingComma": false,
@@ -137,9 +137,9 @@ var f = {
                                         "end": 41
                                     },
                                     {
-                                        "kind": 257,
+                                        "kind": 351,
                                         "asyncKeyword": null,
-                                        "generatorToken": null,
+                                        "asteriskToken": null,
                                         "getKeyword": null,
                                         "setKeyword": {
                                             "kind": 16499,
@@ -164,7 +164,7 @@ var f = {
                                                 "end": 54
                                             },
                                             "typeParameters": null,
-                                            "formalParameters": {
+                                            "formalParameterList": {
                                                 "kind": 214,
                                                 "formalParameters": [
                                                     {
@@ -228,9 +228,9 @@ var f = {
                                         "end": 68
                                     },
                                     {
-                                        "kind": 257,
+                                        "kind": 351,
                                         "asyncKeyword": null,
-                                        "generatorToken": null,
+                                        "asteriskToken": null,
                                         "getKeyword": null,
                                         "setKeyword": {
                                             "kind": 16499,
@@ -249,7 +249,7 @@ var f = {
                                                 "end": 91
                                             },
                                             "typeParameters": null,
-                                            "formalParameters": {
+                                            "formalParameterList": {
                                                 "kind": 214,
                                                 "formalParameters": [
                                                     {
@@ -313,9 +313,9 @@ var f = {
                                         "end": 106
                                     },
                                     {
-                                        "kind": 257,
+                                        "kind": 351,
                                         "asyncKeyword": null,
-                                        "generatorToken": null,
+                                        "asteriskToken": null,
                                         "getKeyword": {
                                             "kind": 16498,
                                             "flags": 97,
@@ -334,7 +334,7 @@ var f = {
                                                 "end": 129
                                             },
                                             "typeParameters": null,
-                                            "formalParameters": {
+                                            "formalParameterList": {
                                                 "kind": 214,
                                                 "formalParameters": [],
                                                 "trailingComma": false,
@@ -436,11 +436,13 @@ var f = {
 
 ```javascript
 
-var f = { get ["'d'"] {
-    return  "'foo'";
-  }, set ["'d'"] {}, set "\"stringLiteral\"" {}, get "\"stringLiteral\"" {
-    return  4;
-  } };
+ var f = { get () {
+    return 'foo';
+    }, set () {
+    }, set "stringLiteral"() {
+    }, get "stringLiteral"(): number {
+    return 4;
+    } }; 
 ```
 
 ### Diagnostics

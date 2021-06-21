@@ -420,11 +420,11 @@ a});
                                     "kind": 278,
                                     "declareToken": null,
                                     "decorators": null,
-                                    "asteriskToken": null,
                                     "staticKeyword": null,
                                     "asyncKeyword": null,
                                     "setKeyword": null,
                                     "getKeyword": null,
+                                    "asteriskToken": null,
                                     "method": {
                                         "kind": 209,
                                         "name": {
@@ -436,7 +436,7 @@ a});
                                             "end": 115
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -559,16 +559,16 @@ a});
                                     "kind": 278,
                                     "declareToken": null,
                                     "decorators": null,
+                                    "staticKeyword": null,
+                                    "asyncKeyword": null,
+                                    "setKeyword": null,
+                                    "getKeyword": null,
                                     "asteriskToken": {
                                         "kind": 67143222,
                                         "flags": 64,
                                         "start": 147,
                                         "end": 149
                                     },
-                                    "staticKeyword": null,
-                                    "asyncKeyword": null,
-                                    "setKeyword": null,
-                                    "getKeyword": null,
                                     "method": {
                                         "kind": 209,
                                         "name": {
@@ -580,7 +580,7 @@ a});
                                             "end": 150
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -703,11 +703,11 @@ a});
                                     "kind": 278,
                                     "declareToken": null,
                                     "decorators": null,
-                                    "asteriskToken": null,
                                     "staticKeyword": null,
                                     "asyncKeyword": null,
                                     "setKeyword": null,
                                     "getKeyword": null,
+                                    "asteriskToken": null,
                                     "method": {
                                         "kind": 209,
                                         "name": {
@@ -725,7 +725,7 @@ a});
                                             "end": 188
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -1030,11 +1030,11 @@ a});
                                     "kind": 278,
                                     "declareToken": null,
                                     "decorators": null,
-                                    "asteriskToken": null,
                                     "staticKeyword": null,
                                     "asyncKeyword": null,
                                     "setKeyword": null,
                                     "getKeyword": null,
+                                    "asteriskToken": null,
                                     "method": {
                                         "kind": 209,
                                         "name": {
@@ -1046,7 +1046,7 @@ a});
                                             "end": 269
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -1162,16 +1162,16 @@ a});
                                     "kind": 278,
                                     "declareToken": null,
                                     "decorators": null,
+                                    "staticKeyword": null,
+                                    "asyncKeyword": null,
+                                    "setKeyword": null,
+                                    "getKeyword": null,
                                     "asteriskToken": {
                                         "kind": 67143222,
                                         "flags": 64,
                                         "start": 297,
                                         "end": 299
                                     },
-                                    "staticKeyword": null,
-                                    "asyncKeyword": null,
-                                    "setKeyword": null,
-                                    "getKeyword": null,
                                     "method": {
                                         "kind": 209,
                                         "name": {
@@ -1183,7 +1183,7 @@ a});
                                             "end": 300
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -1299,11 +1299,11 @@ a});
                                     "kind": 278,
                                     "declareToken": null,
                                     "decorators": null,
-                                    "asteriskToken": null,
                                     "staticKeyword": null,
                                     "asyncKeyword": null,
                                     "setKeyword": null,
                                     "getKeyword": null,
+                                    "asteriskToken": null,
                                     "method": {
                                         "kind": 209,
                                         "name": {
@@ -1321,7 +1321,7 @@ a});
                                             "end": 334
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -1659,11 +1659,11 @@ a});
                                     "kind": 278,
                                     "declareToken": null,
                                     "decorators": null,
-                                    "asteriskToken": null,
                                     "staticKeyword": null,
                                     "asyncKeyword": null,
                                     "setKeyword": null,
                                     "getKeyword": null,
+                                    "asteriskToken": null,
                                     "method": {
                                         "kind": 209,
                                         "name": {
@@ -1675,7 +1675,7 @@ a});
                                             "end": 438
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -1804,16 +1804,16 @@ a});
                                     "kind": 278,
                                     "declareToken": null,
                                     "decorators": null,
+                                    "staticKeyword": null,
+                                    "asyncKeyword": null,
+                                    "setKeyword": null,
+                                    "getKeyword": null,
                                     "asteriskToken": {
                                         "kind": 67143222,
                                         "flags": 64,
                                         "start": 474,
                                         "end": 476
                                     },
-                                    "staticKeyword": null,
-                                    "asyncKeyword": null,
-                                    "setKeyword": null,
-                                    "getKeyword": null,
                                     "method": {
                                         "kind": 209,
                                         "name": {
@@ -1825,7 +1825,7 @@ a});
                                             "end": 477
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -1954,11 +1954,11 @@ a});
                                     "kind": 278,
                                     "declareToken": null,
                                     "decorators": null,
-                                    "asteriskToken": null,
                                     "staticKeyword": null,
                                     "asyncKeyword": null,
                                     "setKeyword": null,
                                     "getKeyword": null,
+                                    "asteriskToken": null,
                                     "method": {
                                         "kind": 209,
                                         "name": {
@@ -1976,7 +1976,7 @@ a});
                                             "end": 519
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -2299,11 +2299,11 @@ a});
                                     "kind": 278,
                                     "declareToken": null,
                                     "decorators": null,
-                                    "asteriskToken": null,
                                     "staticKeyword": null,
                                     "asyncKeyword": null,
                                     "setKeyword": null,
                                     "getKeyword": null,
+                                    "asteriskToken": null,
                                     "method": {
                                         "kind": 209,
                                         "name": {
@@ -2315,7 +2315,7 @@ a});
                                             "end": 612
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -2437,16 +2437,16 @@ a});
                                     "kind": 278,
                                     "declareToken": null,
                                     "decorators": null,
+                                    "staticKeyword": null,
+                                    "asyncKeyword": null,
+                                    "setKeyword": null,
+                                    "getKeyword": null,
                                     "asteriskToken": {
                                         "kind": 67143222,
                                         "flags": 64,
                                         "start": 644,
                                         "end": 646
                                     },
-                                    "staticKeyword": null,
-                                    "asyncKeyword": null,
-                                    "setKeyword": null,
-                                    "getKeyword": null,
                                     "method": {
                                         "kind": 209,
                                         "name": {
@@ -2458,7 +2458,7 @@ a});
                                             "end": 647
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -2580,11 +2580,11 @@ a});
                                     "kind": 278,
                                     "declareToken": null,
                                     "decorators": null,
-                                    "asteriskToken": null,
                                     "staticKeyword": null,
                                     "asyncKeyword": null,
                                     "setKeyword": null,
                                     "getKeyword": null,
+                                    "asteriskToken": null,
                                     "method": {
                                         "kind": 209,
                                         "name": {
@@ -2602,7 +2602,7 @@ a});
                                             "end": 685
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -3606,11 +3606,11 @@ a});
                                     "kind": 278,
                                     "declareToken": null,
                                     "decorators": null,
-                                    "asteriskToken": null,
                                     "staticKeyword": null,
                                     "asyncKeyword": null,
                                     "setKeyword": null,
                                     "getKeyword": null,
+                                    "asteriskToken": null,
                                     "method": {
                                         "kind": 209,
                                         "name": {
@@ -3622,7 +3622,7 @@ a});
                                             "end": 1043
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -4381,11 +4381,11 @@ a});
                                     "kind": 278,
                                     "declareToken": null,
                                     "decorators": null,
-                                    "asteriskToken": null,
                                     "staticKeyword": null,
                                     "asyncKeyword": null,
                                     "setKeyword": null,
                                     "getKeyword": null,
+                                    "asteriskToken": null,
                                     "method": {
                                         "kind": 209,
                                         "name": {
@@ -4397,7 +4397,7 @@ a});
                                             "end": 1338
                                         },
                                         "typeParameters": null,
-                                        "formalParameters": {
+                                        "formalParameterList": {
                                             "kind": 214,
                                             "formalParameters": [],
                                             "trailingComma": false,
@@ -4620,186 +4620,146 @@ a});
 
 ```javascript
 
-class x {
-  static #foo = bar;
-}
+ class x {
+    static #foo = bar
+}, (class C {
+    static a = 0,
+});, (class C {
+    static a = 0,
+    ,
+    b
+});, (class C {
+    static a = 0,
+    ,
+    b() {
+    }
+});, (class C {
+    static a = 0,
+    ,
+    *b() {
+    }
+});, (class C {
+    static a = 0,
+    ,
+    () {
+    }
+});, (class C {
+    static a,
+});, (class C {
+    static a,
+    ,
+    b,
+});, (class C {
+    static a,
+    ,
+    b() {
+    }
+});, (class C {
+    static a,
+    ,
+    *b() {
+    }
+});, (class C {
+    static a,
+    ,
+    () {
+    }
+});, (class C {
+    static  = 0,
+});, (class C {
+    static  = 0,
+    ,
+    b
+});, (class C {
+    static  = 0,
+    ,
+    b() {
+    }
+});, (class C {
+    static  = 0,
+    ,
+    *b() {
+    }
+});, (class C {
+    static  = 0,
+    ,
+    () {
+    }
+});, (class C {
+    static ,
+});, (class C {
+    static ,
+    ,
+    b,
+});, (class C {
+    static ,
+    ,
+    b() {
+    }
+});, (class C {
+    static ,
+    ,
+    *b() {
+    }
+});, (class C {
+    static ,
+    ,
+    () {
+    }
+});, (class  {
+    static 0 = 0,
+});, (class  {
+    static 0,
+});, (class  {
+    static 'a' = 0,
+});, (class  {
+    static 'a',
+});, (class C {
+    static yield = 0
+});, (class C {
+    static yield,
+    a
+});, (class C {
+    static async,
+});, (class C {
+    static async = 0,
+});, (class C {
+    static async
+});, (class C {
+    static async = 0
+});, (class C {
+    static async,
+    a() {
+    }
+});// a field named async, and a method named a.
+, // a field named async, and a method named a.
 (class C {
-    static a = 0;
-
-  });
-(class C {
-    static a = 0;
-
-    b;
-  });
-(class C {
-    static a = 0;
-
-    b {}
-  });
-(class C {
-    static a = 0;
-
-    b {}
-  });
-(class C {
-    static a = 0;
-
-    ["'b'"] {}
-  });
-(class C {
-    static a;
-
-  });
-(class C {
-    static a;
-
-    b;
-
-  });
-(class C {
-    static a;
-
-    b {}
-  });
-(class C {
-    static a;
-
-    b {}
-  });
-(class C {
-    static a;
-
-    ["'b'"] {}
-  });
-(class C {
-    static ["'a'"] = 0;
-
-  });
-(class C {
-    static ["'a'"] = 0;
-
-    b;
-  });
-(class C {
-    static ["'a'"] = 0;
-
-    b {}
-  });
-(class C {
-    static ["'a'"] = 0;
-
-    b {}
-  });
-(class C {
-    static ["'a'"] = 0;
-
-    ["'b'"] {}
-  });
-(class C {
-    static ["'a'"];
-
-  });
-(class C {
-    static ["'a'"];
-
-    b;
-
-  });
-(class C {
-    static ["'a'"];
-
-    b {}
-  });
-(class C {
-    static ["'a'"];
-
-    b {}
-  });
-(class C {
-    static ["'a'"];
-
-    ["'b'"] {}
-  });
-(class   {
-    static 0 = 0;
-
-  });
-(class   {
-    static 0;
-
-  });
-(class   {
-    static "'a'" = 0;
-
-  });
-(class   {
-    static "'a'";
-
-  });
-(class C {
-    static yield = 0;
-  });
-(class C {
-    static yield;
-    a;
-  });
-(class C {
-    static async;
-
-  });
-(class C {
-    static async = 0;
-
-  });
-(class C {
-    static async;
-  });
-(class C {
-    static async = 0;
-  });
-(class C {
-    static async;
-    a {}
-  }); // a field named async, and a method named a.
-
-(class C {
-    static async;
-    a;
-  });
-(class C {
-    static await;
-
-  });
-(class C {
-    static await = 0;
-
-  });
-(class C {
-    static await;
-    a;
-  });
-(class C {
-    static c = [c] = c;
-  });
-(class  {
-    static a = 0;
-  });
-(class  {
-    static a = 0;
-    b;
-  });
-(class  {
-    static a = 0;
-    b {}
-  });
-(class  {
-    static a;
-  });
-(class  {
-    static a;
-    b;
-  });
+    static async,
+    a
+});, (class C {
+    static await,
+});, (class C {
+    static await = 0,
+});, (class C {
+    static await,
+    a
+});, (class C {
+    static c = [c]=c
+});, (class  {
+    static a = 0
+});, (class  {
+    static a = 0,
+    b
+});, (class  {
+    static a = 0,
+    b() {
+    }
+});, (class  {
+    static a
+});, (class  {
+    static a,
+    b
+}); 
 ```
 
 ### Diagnostics

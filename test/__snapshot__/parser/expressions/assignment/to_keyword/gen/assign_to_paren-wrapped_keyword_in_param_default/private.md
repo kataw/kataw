@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/assignment/to_keyword/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/assignment/to_keyword/gen/assign_to_paren-wrapped_keyword_in_param_default
+- Regenerated: 2021-06-12
+- From: d
+- Path: t
 > :: test: assign to paren-wrapped keyword in param default
 > :: case: private
 ## Options
@@ -25,11 +25,11 @@ async (x = (private) = f) => {}
     "statements": [
         {
             "kind": 271,
-            "arrowToken": {
-                "kind": 10,
+            "asyncKeyword": {
+                "kind": 82031,
                 "flags": 64,
-                "start": 25,
-                "end": 28
+                "start": 0,
+                "end": 5
             },
             "typeParameters": null,
             "parameters": [
@@ -85,13 +85,13 @@ async (x = (private) = f) => {}
                     "end": 24
                 }
             ],
-            "asyncKeyword": {
-                "kind": 82031,
-                "flags": 64,
-                "start": 0,
-                "end": 5
-            },
             "returnType": null,
+            "arrowToken": {
+                "kind": 10,
+                "flags": 64,
+                "start": 25,
+                "end": 28
+            },
             "contents": {
                 "kind": 216,
                 "functionStatementList": {
@@ -124,7 +124,8 @@ async (x = (private) = f) => {}
 
 ```javascript
 
-async (x = (private) = f) =>  {}
+ (x = (private)=f) => {
+} 
 ```
 
 ### Diagnostics

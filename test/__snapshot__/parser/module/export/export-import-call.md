@@ -107,8 +107,7 @@ import(y);
 
 ```javascript
 
-export default import(y);;
-import(y);
+ , ; 
 ```
 
 ### Diagnostics

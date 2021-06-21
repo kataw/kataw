@@ -44,7 +44,6 @@ class x {async await(){}}
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": {
                                 "kind": 82031,
@@ -54,6 +53,7 @@ class x {async await(){}}
                             },
                             "setKeyword": null,
                             "getKeyword": null,
+                            "asteriskToken": null,
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -65,7 +65,7 @@ class x {async await(){}}
                                     "end": 20
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -123,9 +123,10 @@ class x {async await(){}}
 
 ```javascript
 
-class x {
-  async await {}
-}
+ class x {
+    async await() {
+    }
+} 
 ```
 
 ### Diagnostics

@@ -163,7 +163,6 @@ try {} catch ([ x = await 42 ]) {}
                         "properties": [
                             {
                                 "kind": 329,
-                                "ellipsisToken": null,
                                 "key": {
                                     "kind": 134299649,
                                     "text": "x",
@@ -355,21 +354,18 @@ try {} catch ([ x = await 42 ]) {}
 
 ```javascript
 
-try {
-} catch ({
-  x = await 42
-}) {
-} // Initializer
-
-try {
-} catch ({
-  x: y = await 42
-}) {
-} // BindingElement Initializer
-
-try {
-} catch ([x = await 42]) {
-}
+ try {  }
+catch ({
+    x = await 42
+}){  }// Initializer
+, // Initializer
+try {  }
+catch ({
+    x : y
+}){  }// BindingElement Initializer
+, // BindingElement Initializer
+try {  }
+catch ([x = await 42]){  } 
 ```
 
 ### Diagnostics

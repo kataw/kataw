@@ -41,12 +41,7 @@ var af = yield => 1;
                         "type": null,
                         "initializer": {
                             "kind": 271,
-                            "arrowToken": {
-                                "kind": 10,
-                                "flags": 64,
-                                "start": 14,
-                                "end": 17
-                            },
+                            "asyncKeyword": null,
                             "typeParameters": null,
                             "parameters": {
                                 "kind": 134299649,
@@ -56,8 +51,13 @@ var af = yield => 1;
                                 "start": 8,
                                 "end": 14
                             },
-                            "asyncKeyword": null,
                             "returnType": null,
+                            "arrowToken": {
+                                "kind": 10,
+                                "flags": 64,
+                                "start": 14,
+                                "end": 17
+                            },
                             "contents": {
                                 "kind": 201392130,
                                 "text": 1,
@@ -97,7 +97,7 @@ var af = yield => 1;
 
 ```javascript
 
-var af = yield =>  1;
+ var af = yield =>1; 
 ```
 
 ### Diagnostics

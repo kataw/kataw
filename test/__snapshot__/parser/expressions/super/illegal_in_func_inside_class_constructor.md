@@ -44,11 +44,11 @@ class x { constructor(){ function f(){ super[bar]; } }}
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": null,
                             "getKeyword": null,
+                            "asteriskToken": null,
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -60,7 +60,7 @@ class x { constructor(){ function f(){ super[bar]; } }}
                                     "end": 21
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -112,7 +112,7 @@ class x { constructor(){ function f(){ super[bar]; } }}
                                                             {
                                                                 "kind": 120,
                                                                 "expression": {
-                                                                    "kind": 536871042,
+                                                                    "kind": 130,
                                                                     "member": {
                                                                         "kind": 225,
                                                                         "superKeyword": {
@@ -133,7 +133,7 @@ class x { constructor(){ function f(){ super[bar]; } }}
                                                                         "start": 45,
                                                                         "end": 48
                                                                     },
-                                                                    "flags": 32,
+                                                                    "flags": 536870944,
                                                                     "start": 38,
                                                                     "end": 49
                                                                 },

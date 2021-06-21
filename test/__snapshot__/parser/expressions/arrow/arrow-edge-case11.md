@@ -45,12 +45,7 @@ a ? (b => c) : d => e;
                     "kind": 121,
                     "expression": {
                         "kind": 271,
-                        "arrowToken": {
-                            "kind": 10,
-                            "flags": 64,
-                            "start": 6,
-                            "end": 9
-                        },
+                        "asyncKeyword": null,
                         "typeParameters": null,
                         "parameters": {
                             "kind": 134299649,
@@ -60,8 +55,13 @@ a ? (b => c) : d => e;
                             "start": 5,
                             "end": 6
                         },
-                        "asyncKeyword": null,
                         "returnType": null,
+                        "arrowToken": {
+                            "kind": 10,
+                            "flags": 64,
+                            "start": 6,
+                            "end": 9
+                        },
                         "contents": {
                             "kind": 134299649,
                             "text": "c",
@@ -86,12 +86,7 @@ a ? (b => c) : d => e;
                 },
                 "alternate": {
                     "kind": 271,
-                    "arrowToken": {
-                        "kind": 10,
-                        "flags": 64,
-                        "start": 16,
-                        "end": 19
-                    },
+                    "asyncKeyword": null,
                     "typeParameters": null,
                     "parameters": {
                         "kind": 134299649,
@@ -101,8 +96,13 @@ a ? (b => c) : d => e;
                         "start": 14,
                         "end": 16
                     },
-                    "asyncKeyword": null,
                     "returnType": null,
+                    "arrowToken": {
+                        "kind": 10,
+                        "flags": 64,
+                        "start": 16,
+                        "end": 19
+                    },
                     "contents": {
                         "kind": 134299649,
                         "text": "e",
@@ -137,7 +137,7 @@ a ? (b => c) : d => e;
 
 ```javascript
 
-a ? (b =>  c) : d =>  e;
+ a ? (b =>c) : d =>e; 
 ```
 
 ### Diagnostics

@@ -128,10 +128,9 @@ function f(){ do        { continue }     while(true);}
 
 ```javascript
 
-function f() {
-  do {}
-  while (true);
-}
+ function f() {
+do { continue; } while (true)
+} 
 ```
 
 ### Diagnostics

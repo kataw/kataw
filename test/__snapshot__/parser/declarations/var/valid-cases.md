@@ -23,6 +23,12 @@ var f = ({x:arg = 1}, {y:b=(arg=2)}) => {}
 
 var f = ({x:arg = (arg = 2)}) => {}
 
+var {[a]: foo} = bar;
+
+var {[(a, b)]: foo} = bar;
+
+var {y: y, 'z': z} = x;
+
 var foo;
 
 var foo = 0;
@@ -761,12 +767,7 @@ var {get} = obj;
                         "type": null,
                         "initializer": {
                             "kind": 271,
-                            "arrowToken": {
-                                "kind": 10,
-                                "flags": 64,
-                                "start": 217,
-                                "end": 220
-                            },
+                            "asyncKeyword": null,
                             "typeParameters": null,
                             "parameters": [
                                 {
@@ -776,7 +777,6 @@ var {get} = obj;
                                         "properties": [
                                             {
                                                 "kind": 329,
-                                                "ellipsisToken": null,
                                                 "key": {
                                                     "kind": 134299649,
                                                     "text": "x",
@@ -835,7 +835,6 @@ var {get} = obj;
                                         "properties": [
                                             {
                                                 "kind": 329,
-                                                "ellipsisToken": null,
                                                 "key": {
                                                     "kind": 134299649,
                                                     "text": "y",
@@ -914,8 +913,13 @@ var {get} = obj;
                                     "end": 216
                                 }
                             ],
-                            "asyncKeyword": null,
                             "returnType": null,
+                            "arrowToken": {
+                                "kind": 10,
+                                "flags": 64,
+                                "start": 217,
+                                "end": 220
+                            },
                             "contents": {
                                 "kind": 216,
                                 "functionStatementList": {
@@ -972,12 +976,7 @@ var {get} = obj;
                         "type": null,
                         "initializer": {
                             "kind": 271,
-                            "arrowToken": {
-                                "kind": 10,
-                                "flags": 64,
-                                "start": 254,
-                                "end": 257
-                            },
+                            "asyncKeyword": null,
                             "typeParameters": null,
                             "parameters": [
                                 {
@@ -987,7 +986,6 @@ var {get} = obj;
                                         "properties": [
                                             {
                                                 "kind": 329,
-                                                "ellipsisToken": null,
                                                 "key": {
                                                     "kind": 134299649,
                                                     "text": "x",
@@ -1066,8 +1064,13 @@ var {get} = obj;
                                     "end": 253
                                 }
                             ],
-                            "asyncKeyword": null,
                             "returnType": null,
+                            "arrowToken": {
+                                "kind": 10,
+                                "flags": 64,
+                                "start": 254,
+                                "end": 257
+                            },
                             "contents": {
                                 "kind": 216,
                                 "functionStatementList": {
@@ -1114,27 +1117,70 @@ var {get} = obj;
                     {
                         "kind": 157,
                         "binding": {
-                            "kind": 134299649,
-                            "text": "foo",
-                            "rawText": "foo",
-                            "flags": 96,
+                            "kind": 212,
+                            "propertyList": {
+                                "kind": 213,
+                                "properties": [
+                                    {
+                                        "kind": 329,
+                                        "key": {
+                                            "kind": 194,
+                                            "expression": {
+                                                "kind": 134299649,
+                                                "text": "a",
+                                                "rawText": "a",
+                                                "flags": 96,
+                                                "start": 268,
+                                                "end": 269
+                                            },
+                                            "flags": 32,
+                                            "start": 267,
+                                            "end": 270
+                                        },
+                                        "value": {
+                                            "kind": 134299649,
+                                            "text": "foo",
+                                            "rawText": "foo",
+                                            "flags": 96,
+                                            "start": 271,
+                                            "end": 275
+                                        },
+                                        "initializer": null,
+                                        "flags": 32,
+                                        "start": 267,
+                                        "end": 275
+                                    }
+                                ],
+                                "trailingComma": false,
+                                "flags": 32,
+                                "start": 267,
+                                "end": 275
+                            },
+                            "flags": 32,
                             "start": 265,
-                            "end": 269
+                            "end": 276
                         },
                         "type": null,
-                        "initializer": null,
+                        "initializer": {
+                            "kind": 134299649,
+                            "text": "bar",
+                            "rawText": "bar",
+                            "flags": 96,
+                            "start": 278,
+                            "end": 282
+                        },
                         "flags": 16,
                         "start": 265,
-                        "end": 269
+                        "end": 282
                     }
                 ],
                 "flags": 16,
                 "start": 265,
-                "end": 269
+                "end": 282
             },
             "flags": 16,
             "start": 260,
-            "end": 270
+            "end": 283
         },
         {
             "kind": 155,
@@ -1142,8 +1188,207 @@ var {get} = obj;
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 81,
-                "start": 270,
-                "end": 275
+                "start": 283,
+                "end": 288
+            },
+            "declarationList": {
+                "kind": 156,
+                "declarations": [
+                    {
+                        "kind": 157,
+                        "binding": {
+                            "kind": 212,
+                            "propertyList": {
+                                "kind": 213,
+                                "properties": [
+                                    {
+                                        "kind": 329,
+                                        "key": {
+                                            "kind": 194,
+                                            "expression": {
+                                                "kind": 121,
+                                                "expression": {
+                                                    "kind": 132,
+                                                    "expressions": [
+                                                        {
+                                                            "kind": 134299649,
+                                                            "text": "a",
+                                                            "rawText": "a",
+                                                            "flags": 96,
+                                                            "start": 292,
+                                                            "end": 293
+                                                        },
+                                                        {
+                                                            "kind": 134299649,
+                                                            "text": "b",
+                                                            "rawText": "b",
+                                                            "flags": 96,
+                                                            "start": 294,
+                                                            "end": 296
+                                                        }
+                                                    ],
+                                                    "flags": 32,
+                                                    "start": 291,
+                                                    "end": 297
+                                                },
+                                                "flags": 32,
+                                                "start": 291,
+                                                "end": 297
+                                            },
+                                            "flags": 32,
+                                            "start": 290,
+                                            "end": 298
+                                        },
+                                        "value": {
+                                            "kind": 134299649,
+                                            "text": "foo",
+                                            "rawText": "foo",
+                                            "flags": 96,
+                                            "start": 299,
+                                            "end": 303
+                                        },
+                                        "initializer": null,
+                                        "flags": 32,
+                                        "start": 290,
+                                        "end": 303
+                                    }
+                                ],
+                                "trailingComma": false,
+                                "flags": 32,
+                                "start": 290,
+                                "end": 303
+                            },
+                            "flags": 32,
+                            "start": 288,
+                            "end": 304
+                        },
+                        "type": null,
+                        "initializer": {
+                            "kind": 134299649,
+                            "text": "bar",
+                            "rawText": "bar",
+                            "flags": 96,
+                            "start": 306,
+                            "end": 310
+                        },
+                        "flags": 16,
+                        "start": 288,
+                        "end": 310
+                    }
+                ],
+                "flags": 16,
+                "start": 288,
+                "end": 310
+            },
+            "flags": 16,
+            "start": 283,
+            "end": 311
+        },
+        {
+            "kind": 155,
+            "declareKeyword": null,
+            "varKeyword": {
+                "kind": 37757002,
+                "flags": 81,
+                "start": 311,
+                "end": 316
+            },
+            "declarationList": {
+                "kind": 156,
+                "declarations": [
+                    {
+                        "kind": 157,
+                        "binding": {
+                            "kind": 212,
+                            "propertyList": {
+                                "kind": 213,
+                                "properties": [
+                                    {
+                                        "kind": 329,
+                                        "key": {
+                                            "kind": 134299649,
+                                            "text": "y",
+                                            "rawText": "y",
+                                            "flags": 96,
+                                            "start": 318,
+                                            "end": 319
+                                        },
+                                        "value": {
+                                            "kind": 134299649,
+                                            "text": "y",
+                                            "rawText": "y",
+                                            "flags": 96,
+                                            "start": 320,
+                                            "end": 322
+                                        },
+                                        "initializer": null,
+                                        "flags": 32,
+                                        "start": 318,
+                                        "end": 322
+                                    },
+                                    {
+                                        "kind": 329,
+                                        "key": {
+                                            "kind": 201392131,
+                                            "text": "z",
+                                            "rawText": "'z'",
+                                            "flags": 4194400,
+                                            "start": 323,
+                                            "end": 327
+                                        },
+                                        "value": {
+                                            "kind": 134299649,
+                                            "text": "z",
+                                            "rawText": "z",
+                                            "flags": 96,
+                                            "start": 328,
+                                            "end": 330
+                                        },
+                                        "initializer": null,
+                                        "flags": 32,
+                                        "start": 323,
+                                        "end": 330
+                                    }
+                                ],
+                                "trailingComma": false,
+                                "flags": 32,
+                                "start": 318,
+                                "end": 330
+                            },
+                            "flags": 32,
+                            "start": 316,
+                            "end": 331
+                        },
+                        "type": null,
+                        "initializer": {
+                            "kind": 134299649,
+                            "text": "x",
+                            "rawText": "x",
+                            "flags": 96,
+                            "start": 333,
+                            "end": 335
+                        },
+                        "flags": 16,
+                        "start": 316,
+                        "end": 335
+                    }
+                ],
+                "flags": 16,
+                "start": 316,
+                "end": 335
+            },
+            "flags": 16,
+            "start": 311,
+            "end": 336
+        },
+        {
+            "kind": 155,
+            "declareKeyword": null,
+            "varKeyword": {
+                "kind": 37757002,
+                "flags": 81,
+                "start": 336,
+                "end": 341
             },
             "declarationList": {
                 "kind": 156,
@@ -1155,30 +1400,23 @@ var {get} = obj;
                             "text": "foo",
                             "rawText": "foo",
                             "flags": 96,
-                            "start": 275,
-                            "end": 279
+                            "start": 341,
+                            "end": 345
                         },
                         "type": null,
-                        "initializer": {
-                            "kind": 201392130,
-                            "text": 0,
-                            "rawText": "0",
-                            "flags": 96,
-                            "start": 281,
-                            "end": 283
-                        },
+                        "initializer": null,
                         "flags": 16,
-                        "start": 275,
-                        "end": 283
+                        "start": 341,
+                        "end": 345
                     }
                 ],
                 "flags": 16,
-                "start": 275,
-                "end": 283
+                "start": 341,
+                "end": 345
             },
             "flags": 16,
-            "start": 270,
-            "end": 284
+            "start": 336,
+            "end": 346
         },
         {
             "kind": 155,
@@ -1186,8 +1424,52 @@ var {get} = obj;
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 81,
-                "start": 284,
-                "end": 289
+                "start": 346,
+                "end": 351
+            },
+            "declarationList": {
+                "kind": 156,
+                "declarations": [
+                    {
+                        "kind": 157,
+                        "binding": {
+                            "kind": 134299649,
+                            "text": "foo",
+                            "rawText": "foo",
+                            "flags": 96,
+                            "start": 351,
+                            "end": 355
+                        },
+                        "type": null,
+                        "initializer": {
+                            "kind": 201392130,
+                            "text": 0,
+                            "rawText": "0",
+                            "flags": 96,
+                            "start": 357,
+                            "end": 359
+                        },
+                        "flags": 16,
+                        "start": 351,
+                        "end": 359
+                    }
+                ],
+                "flags": 16,
+                "start": 351,
+                "end": 359
+            },
+            "flags": 16,
+            "start": 346,
+            "end": 360
+        },
+        {
+            "kind": 155,
+            "declareKeyword": null,
+            "varKeyword": {
+                "kind": 37757002,
+                "flags": 81,
+                "start": 360,
+                "end": 365
             },
             "declarationList": {
                 "kind": 156,
@@ -1204,18 +1486,18 @@ var {get} = obj;
                                         "text": "foo",
                                         "rawText": "foo",
                                         "flags": 96,
-                                        "start": 291,
-                                        "end": 294
+                                        "start": 367,
+                                        "end": 370
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 0,
-                                "start": 291,
-                                "end": 294
+                                "start": 367,
+                                "end": 370
                             },
                             "flags": 32,
-                            "start": 289,
-                            "end": 295
+                            "start": 365,
+                            "end": 371
                         },
                         "type": null,
                         "initializer": {
@@ -1228,31 +1510,31 @@ var {get} = obj;
                                         "text": 1,
                                         "rawText": "1",
                                         "flags": 96,
-                                        "start": 299,
-                                        "end": 300
+                                        "start": 375,
+                                        "end": 376
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
-                                "start": 299,
-                                "end": 300
+                                "start": 375,
+                                "end": 376
                             },
                             "flags": 32,
-                            "start": 297,
-                            "end": 301
+                            "start": 373,
+                            "end": 377
                         },
                         "flags": 16,
-                        "start": 289,
-                        "end": 301
+                        "start": 365,
+                        "end": 377
                     }
                 ],
                 "flags": 16,
-                "start": 289,
-                "end": 301
+                "start": 365,
+                "end": 377
             },
             "flags": 16,
-            "start": 284,
-            "end": 302
+            "start": 360,
+            "end": 378
         },
         {
             "kind": 155,
@@ -1260,8 +1542,8 @@ var {get} = obj;
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 81,
-                "start": 302,
-                "end": 307
+                "start": 378,
+                "end": 383
             },
             "declarationList": {
                 "kind": 156,
@@ -1278,18 +1560,18 @@ var {get} = obj;
                                         "text": "foo",
                                         "rawText": "foo",
                                         "flags": 96,
-                                        "start": 309,
-                                        "end": 312
+                                        "start": 385,
+                                        "end": 388
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
-                                "start": 309,
-                                "end": 312
+                                "start": 385,
+                                "end": 388
                             },
                             "flags": 32,
-                            "start": 307,
-                            "end": 313
+                            "start": 383,
+                            "end": 389
                         },
                         "type": null,
                         "initializer": {
@@ -1305,43 +1587,43 @@ var {get} = obj;
                                             "text": "foo",
                                             "rawText": "foo",
                                             "flags": 96,
-                                            "start": 317,
-                                            "end": 320
+                                            "start": 393,
+                                            "end": 396
                                         },
                                         "right": {
                                             "kind": 201392130,
                                             "text": 2,
                                             "rawText": "2",
                                             "flags": 96,
-                                            "start": 321,
-                                            "end": 323
+                                            "start": 397,
+                                            "end": 399
                                         },
                                         "flags": 32,
-                                        "start": 317,
-                                        "end": 323
+                                        "start": 393,
+                                        "end": 399
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 16,
-                                "start": 317,
-                                "end": 323
+                                "start": 393,
+                                "end": 399
                             },
                             "flags": 48,
-                            "start": 315,
-                            "end": 324
+                            "start": 391,
+                            "end": 400
                         },
                         "flags": 16,
-                        "start": 307,
-                        "end": 324
+                        "start": 383,
+                        "end": 400
                     }
                 ],
                 "flags": 16,
-                "start": 307,
-                "end": 324
+                "start": 383,
+                "end": 400
             },
             "flags": 16,
-            "start": 302,
-            "end": 325
+            "start": 378,
+            "end": 401
         },
         {
             "kind": 155,
@@ -1349,8 +1631,8 @@ var {get} = obj;
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 81,
-                "start": 325,
-                "end": 330
+                "start": 401,
+                "end": 406
             },
             "declarationList": {
                 "kind": 156,
@@ -1370,8 +1652,8 @@ var {get} = obj;
                                             "text": "foo",
                                             "rawText": "foo",
                                             "flags": 96,
-                                            "start": 332,
-                                            "end": 335
+                                            "start": 408,
+                                            "end": 411
                                         },
                                         "optionalToken": null,
                                         "type": null,
@@ -1380,22 +1662,22 @@ var {get} = obj;
                                             "text": 3,
                                             "rawText": "3",
                                             "flags": 96,
-                                            "start": 336,
-                                            "end": 337
+                                            "start": 412,
+                                            "end": 413
                                         },
                                         "flags": 0,
-                                        "start": 332,
-                                        "end": 337
+                                        "start": 408,
+                                        "end": 413
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
-                                "start": 332,
-                                "end": 337
+                                "start": 408,
+                                "end": 413
                             },
                             "flags": 32,
-                            "start": 330,
-                            "end": 338
+                            "start": 406,
+                            "end": 414
                         },
                         "type": null,
                         "initializer": {
@@ -1405,25 +1687,25 @@ var {get} = obj;
                                 "properties": [],
                                 "trailingComma": false,
                                 "flags": 16,
-                                "start": 342,
-                                "end": 342
+                                "start": 418,
+                                "end": 418
                             },
                             "flags": 48,
-                            "start": 340,
-                            "end": 343
+                            "start": 416,
+                            "end": 419
                         },
                         "flags": 16,
-                        "start": 330,
-                        "end": 343
+                        "start": 406,
+                        "end": 419
                     }
                 ],
                 "flags": 16,
-                "start": 330,
-                "end": 343
+                "start": 406,
+                "end": 419
             },
             "flags": 16,
-            "start": 325,
-            "end": 344
+            "start": 401,
+            "end": 420
         },
         {
             "kind": 155,
@@ -1431,8 +1713,8 @@ var {get} = obj;
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 81,
-                "start": 344,
-                "end": 349
+                "start": 420,
+                "end": 425
             },
             "declarationList": {
                 "kind": 156,
@@ -1452,8 +1734,8 @@ var {get} = obj;
                                             "text": "get",
                                             "rawText": "get",
                                             "flags": 96,
-                                            "start": 351,
-                                            "end": 354
+                                            "start": 427,
+                                            "end": 430
                                         },
                                         "optionalToken": null,
                                         "type": null,
@@ -1462,22 +1744,22 @@ var {get} = obj;
                                             "text": "defaultValue",
                                             "rawText": "defaultValue",
                                             "flags": 96,
-                                            "start": 356,
-                                            "end": 369
+                                            "start": 432,
+                                            "end": 445
                                         },
                                         "flags": 0,
-                                        "start": 351,
-                                        "end": 369
+                                        "start": 427,
+                                        "end": 445
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
-                                "start": 351,
-                                "end": 369
+                                "start": 427,
+                                "end": 445
                             },
                             "flags": 32,
-                            "start": 349,
-                            "end": 370
+                            "start": 425,
+                            "end": 446
                         },
                         "type": null,
                         "initializer": {
@@ -1485,21 +1767,21 @@ var {get} = obj;
                             "text": "obj",
                             "rawText": "obj",
                             "flags": 96,
-                            "start": 372,
-                            "end": 376
+                            "start": 448,
+                            "end": 452
                         },
                         "flags": 16,
-                        "start": 349,
-                        "end": 376
+                        "start": 425,
+                        "end": 452
                     }
                 ],
                 "flags": 16,
-                "start": 349,
-                "end": 376
+                "start": 425,
+                "end": 452
             },
             "flags": 16,
-            "start": 344,
-            "end": 377
+            "start": 420,
+            "end": 453
         },
         {
             "kind": 155,
@@ -1507,8 +1789,8 @@ var {get} = obj;
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 81,
-                "start": 377,
-                "end": 382
+                "start": 453,
+                "end": 458
             },
             "declarationList": {
                 "kind": 156,
@@ -1528,8 +1810,8 @@ var {get} = obj;
                                             "text": "propName",
                                             "rawText": "propName",
                                             "flags": 96,
-                                            "start": 384,
-                                            "end": 392
+                                            "start": 460,
+                                            "end": 468
                                         },
                                         "optionalToken": null,
                                         "type": null,
@@ -1538,22 +1820,22 @@ var {get} = obj;
                                             "text": "defaultValue",
                                             "rawText": "defaultValue",
                                             "flags": 96,
-                                            "start": 394,
-                                            "end": 407
+                                            "start": 470,
+                                            "end": 483
                                         },
                                         "flags": 0,
-                                        "start": 384,
-                                        "end": 407
+                                        "start": 460,
+                                        "end": 483
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
-                                "start": 384,
-                                "end": 407
+                                "start": 460,
+                                "end": 483
                             },
                             "flags": 32,
-                            "start": 382,
-                            "end": 408
+                            "start": 458,
+                            "end": 484
                         },
                         "type": null,
                         "initializer": {
@@ -1561,21 +1843,21 @@ var {get} = obj;
                             "text": "obj",
                             "rawText": "obj",
                             "flags": 96,
-                            "start": 410,
-                            "end": 414
+                            "start": 486,
+                            "end": 490
                         },
                         "flags": 16,
-                        "start": 382,
-                        "end": 414
+                        "start": 458,
+                        "end": 490
                     }
                 ],
                 "flags": 16,
-                "start": 382,
-                "end": 414
+                "start": 458,
+                "end": 490
             },
             "flags": 16,
-            "start": 377,
-            "end": 415
+            "start": 453,
+            "end": 491
         },
         {
             "kind": 155,
@@ -1583,8 +1865,8 @@ var {get} = obj;
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 81,
-                "start": 415,
-                "end": 420
+                "start": 491,
+                "end": 496
             },
             "declarationList": {
                 "kind": 156,
@@ -1598,44 +1880,43 @@ var {get} = obj;
                                 "properties": [
                                     {
                                         "kind": 329,
-                                        "ellipsisToken": null,
                                         "key": {
                                             "kind": 134299649,
                                             "text": "propName",
                                             "rawText": "propName",
                                             "flags": 96,
-                                            "start": 422,
-                                            "end": 430
+                                            "start": 498,
+                                            "end": 506
                                         },
                                         "value": {
                                             "kind": 134299649,
                                             "text": "localVar",
                                             "rawText": "localVar",
                                             "flags": 96,
-                                            "start": 431,
-                                            "end": 440
+                                            "start": 507,
+                                            "end": 516
                                         },
                                         "initializer": {
                                             "kind": 134299649,
                                             "text": "defaultValue",
                                             "rawText": "defaultValue",
                                             "flags": 96,
-                                            "start": 442,
-                                            "end": 455
+                                            "start": 518,
+                                            "end": 531
                                         },
                                         "flags": 32,
-                                        "start": 422,
-                                        "end": 455
+                                        "start": 498,
+                                        "end": 531
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
-                                "start": 422,
-                                "end": 455
+                                "start": 498,
+                                "end": 531
                             },
                             "flags": 32,
-                            "start": 420,
-                            "end": 456
+                            "start": 496,
+                            "end": 532
                         },
                         "type": null,
                         "initializer": {
@@ -1643,21 +1924,21 @@ var {get} = obj;
                             "text": "obj",
                             "rawText": "obj",
                             "flags": 96,
-                            "start": 458,
-                            "end": 462
+                            "start": 534,
+                            "end": 538
                         },
                         "flags": 16,
-                        "start": 420,
-                        "end": 462
+                        "start": 496,
+                        "end": 538
                     }
                 ],
                 "flags": 16,
-                "start": 420,
-                "end": 462
+                "start": 496,
+                "end": 538
             },
             "flags": 16,
-            "start": 415,
-            "end": 463
+            "start": 491,
+            "end": 539
         },
         {
             "kind": 155,
@@ -1665,8 +1946,8 @@ var {get} = obj;
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 81,
-                "start": 463,
-                "end": 468
+                "start": 539,
+                "end": 544
             },
             "declarationList": {
                 "kind": 156,
@@ -1683,18 +1964,18 @@ var {get} = obj;
                                         "text": "get",
                                         "rawText": "get",
                                         "flags": 96,
-                                        "start": 470,
-                                        "end": 473
+                                        "start": 546,
+                                        "end": 549
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
-                                "start": 470,
-                                "end": 473
+                                "start": 546,
+                                "end": 549
                             },
                             "flags": 32,
-                            "start": 468,
-                            "end": 474
+                            "start": 544,
+                            "end": 550
                         },
                         "type": null,
                         "initializer": {
@@ -1702,29 +1983,29 @@ var {get} = obj;
                             "text": "obj",
                             "rawText": "obj",
                             "flags": 96,
-                            "start": 476,
-                            "end": 480
+                            "start": 552,
+                            "end": 556
                         },
                         "flags": 16,
-                        "start": 468,
-                        "end": 480
+                        "start": 544,
+                        "end": 556
                     }
                 ],
                 "flags": 16,
-                "start": 468,
-                "end": 480
+                "start": 544,
+                "end": 556
             },
             "flags": 16,
-            "start": 463,
-            "end": 481
+            "start": 539,
+            "end": 557
         }
     ],
     "isModule": true,
-    "source": "var x;\n\nvar x = 5;\n\nvar x = 4;\n\nvar x = 5;\n\nvar {x} = {x: 4, b: (x = 5)};\n\nvar x = {a: 4, b: (x = 5)};\n\n'use strict'; var x = 0; { let x = 6; }\n\nvar x; try {} catch (x) { x = 5; }\n\nvar f = ({x:arg = 1}, {y:b=(arg=2)}) => {}\n\nvar f = ({x:arg = (arg = 2)}) => {}\n\nvar foo;\n\nvar foo = 0;\n\nvar [foo] = [1];\n\nvar {foo} = {foo: 2};\n\nvar {foo=3} = {};\n\nvar {get = defaultValue} = obj;\n\nvar {propName = defaultValue} = obj;\n\nvar {propName: localVar = defaultValue} = obj;\n\nvar {get} = obj;",
+    "source": "var x;\n\nvar x = 5;\n\nvar x = 4;\n\nvar x = 5;\n\nvar {x} = {x: 4, b: (x = 5)};\n\nvar x = {a: 4, b: (x = 5)};\n\n'use strict'; var x = 0; { let x = 6; }\n\nvar x; try {} catch (x) { x = 5; }\n\nvar f = ({x:arg = 1}, {y:b=(arg=2)}) => {}\n\nvar f = ({x:arg = (arg = 2)}) => {}\n\nvar {[a]: foo} = bar;\n\nvar {[(a, b)]: foo} = bar;\n\nvar {y: y, 'z': z} = x;\n\nvar foo;\n\nvar foo = 0;\n\nvar [foo] = [1];\n\nvar {foo} = {foo: 2};\n\nvar {foo=3} = {};\n\nvar {get = defaultValue} = obj;\n\nvar {propName = defaultValue} = obj;\n\nvar {propName: localVar = defaultValue} = obj;\n\nvar {get} = obj;",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,
-    "end": 481
+    "end": 557
 }
 ```
 
@@ -1732,53 +2013,37 @@ var {get} = obj;
 
 ```javascript
 
-var x;
-var x = 5;
-var x = 4;
-var x = 5;
-var {
-  x
-} = { x: 4, b: (x = 5) };
-var x = { a: 4, b: (x = 5) };
-"'use strict'";
-var x = 0;
-{
-  let x = 6;
-}
-var x;
-try {
-} catch (x) {
-  x = 5;
-}
-var f = ({
-  x: arg = 1
-}, {
-  y: b = (arg = 2)
-}) =>  {};
-var f = ({
-  x: arg = (arg = 2)
-}) =>  {};
-var foo;
-var foo = 0;
-var [foo] = [1];
-var {
-  foo
-} = { foo: 2 };
-var {
-  foo = 3
-} = {};
-var {
-  get = defaultValue
-} = obj;
-var {
-  propName = defaultValue
-} = obj;
-var {
-  propName: localVar = defaultValue
-} = obj;
-var {
-  get
-} = obj;
+ var x;, var x = 5;, var x = 4;, var x = 5;, var {
+    x
+} = { x : 4, b : (x=5) };, var x = { a : 4, b : (x=5) };, 'use strict';, var x = 0;, { let x = 6; }, var x;, try {  }
+catch (x){ x=5; }, var f = ({
+        x : arg=1
+    }, {
+        y : b=(arg=2)
+    }) => {
+};, var f = ({
+        x : arg=(arg=2)
+    }) => {
+};, var {
+     : foo
+} = bar;, var {
+     : foo
+} = bar;, var {
+    y : y,
+    'z' : z
+} = x;, var foo;, var foo = 0;, var [foo] = [1];, var {
+    foo
+} = { foo : 2 };, var {
+    foo = 3
+} = {  };, var {
+    get = defaultValue
+} = obj;, var {
+    propName = defaultValue
+} = obj;, var {
+    propName : localVar
+} = obj;, var {
+    get
+} = obj; 
 ```
 
 ### Diagnostics

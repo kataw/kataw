@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/unicode-escape/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/unicode-escape/gen/simple
+- Regenerated: 2021-06-12
+- From: d
+- Path: e
 > :: test: simple
 > :: case: var foob\\u{c481}r = 0;
 ## Options

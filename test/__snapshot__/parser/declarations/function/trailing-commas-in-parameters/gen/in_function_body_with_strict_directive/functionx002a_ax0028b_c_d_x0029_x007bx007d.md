@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/declarations/function/trailing-commas-in-parameters/autogen.md
-- Path: kataw/test/__snapshot__/parser/declarations/function/trailing-commas-in-parameters/gen/in_function_body_with_strict_directive
+- Regenerated: 2021-06-12
+- From: d
+- Path: e
 > :: test: in function body with strict directive
 > :: case: function* a(b,c,d,) {}
 ## Options
@@ -171,9 +171,10 @@ function foo() {'use strict'; function* a(b,c,d,) {} }
 
 ```javascript
 
-function foo() {
-  function * a() {}
+ function foo() {
+function* a(b, c, d) {
 }
+} 
 ```
 
 ### Diagnostics

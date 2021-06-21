@@ -46,9 +46,9 @@
                                 "end": 20
                             },
                             {
-                                "kind": 257,
+                                "kind": 351,
                                 "asyncKeyword": null,
-                                "generatorToken": null,
+                                "asteriskToken": null,
                                 "getKeyword": {
                                     "kind": 16498,
                                     "flags": 96,
@@ -67,7 +67,7 @@
                                         "end": 35
                                     },
                                     "typeParameters": null,
-                                    "formalParameters": {
+                                    "formalParameterList": {
                                         "kind": 214,
                                         "formalParameters": [],
                                         "trailingComma": false,
@@ -130,7 +130,8 @@
 
 ```javascript
 
-({ "\"__proto__\"": null, get __proto__ {} });
+ ({ "__proto__" : null, get __proto__() {
+    } }); 
 ```
 
 ### Diagnostics

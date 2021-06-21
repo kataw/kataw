@@ -27,12 +27,7 @@
             "kind": 120,
             "expression": {
                 "kind": 271,
-                "arrowToken": {
-                    "kind": 10,
-                    "flags": 64,
-                    "start": 13,
-                    "end": 16
-                },
+                "asyncKeyword": null,
                 "typeParameters": null,
                 "parameters": [
                     {
@@ -52,7 +47,6 @@
                         "end": 9
                     }
                 ],
-                "asyncKeyword": null,
                 "returnType": {
                     "kind": 139,
                     "bitwiseOrToken": null,
@@ -75,6 +69,12 @@
                     "flags": 2097152,
                     "start": 11,
                     "end": 13
+                },
+                "arrowToken": {
+                    "kind": 10,
+                    "flags": 64,
+                    "start": 13,
+                    "end": 16
                 },
                 "contents": {
                     "kind": 138477575,
@@ -104,7 +104,7 @@
 
 ```javascript
 
-(foo, bar) =>  null;
+ (foo, bar): z =>null; 
 ```
 
 ### Diagnostics

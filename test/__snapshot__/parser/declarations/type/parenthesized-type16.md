@@ -99,7 +99,7 @@ type Foo = (string | number)
 
 ```javascript
 
-
+  
 ```
 
 ### Diagnostics

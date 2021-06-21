@@ -44,11 +44,11 @@ class x {f(await){}}
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": null,
                             "getKeyword": null,
+                            "asteriskToken": null,
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -60,7 +60,7 @@ class x {f(await){}}
                                     "end": 10
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [
                                         {
@@ -127,9 +127,10 @@ class x {f(await){}}
 
 ```javascript
 
-class x {
-  f {}
-}
+ class x {
+    f(await) {
+    }
+} 
 ```
 
 ### Diagnostics

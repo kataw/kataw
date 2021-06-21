@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/miscellaneous/should-fail/autogen.md
-- Path: kataw/test/__snapshot__/parser/miscellaneous/should-fail/gen/stand-alone
+- Regenerated: 2021-06-12
+- From: d
+- Path: e
 > :: test: stand-alone
 > :: case: async f = async function*({a, b, ...{c, ...rest}} = {a: 1, b: 2, c: 3, d: 4, e: 5}) {}
 ## Options
@@ -27,7 +27,12 @@ async f = async function*({a, b, ...{c, ...rest}} = {a: 1, b: 2, c: 3, d: 4, e: 
             "kind": 120,
             "expression": {
                 "kind": 271,
-                "arrowToken": null,
+                "asyncKeyword": {
+                    "kind": 82031,
+                    "flags": 64,
+                    "start": 0,
+                    "end": 5
+                },
                 "typeParameters": null,
                 "parameters": {
                     "kind": 134299649,
@@ -37,13 +42,8 @@ async f = async function*({a, b, ...{c, ...rest}} = {a: 1, b: 2, c: 3, d: 4, e: 
                     "start": 5,
                     "end": 7
                 },
-                "asyncKeyword": {
-                    "kind": 82031,
-                    "flags": 64,
-                    "start": 0,
-                    "end": 5
-                },
                 "returnType": null,
+                "arrowToken": null,
                 "contents": {
                     "kind": 125,
                     "left": {
@@ -110,13 +110,30 @@ async f = async function*({a, b, ...{c, ...rest}} = {a: 1, b: 2, c: 3, d: 4, e: 
                                                     "end": 31
                                                 },
                                                 {
-                                                    "kind": 329,
+                                                    "kind": 281,
                                                     "ellipsisToken": {
                                                         "kind": 524302,
                                                         "flags": 64,
                                                         "start": 32,
                                                         "end": 36
                                                     },
+                                                    "left": {
+                                                        "kind": 16637,
+                                                        "text": "",
+                                                        "rawText": "",
+                                                        "flags": 64,
+                                                        "start": 36,
+                                                        "end": 36
+                                                    },
+                                                    "optionalToken": null,
+                                                    "type": null,
+                                                    "right": null,
+                                                    "flags": 0,
+                                                    "start": 32,
+                                                    "end": 36
+                                                },
+                                                {
+                                                    "kind": 329,
                                                     "key": {
                                                         "kind": 16637,
                                                         "text": "",
@@ -173,7 +190,7 @@ async f = async function*({a, b, ...{c, ...rest}} = {a: 1, b: 2, c: 3, d: 4, e: 
                                                     },
                                                     "initializer": null,
                                                     "flags": 32,
-                                                    "start": 32,
+                                                    "start": 36,
                                                     "end": 48
                                                 }
                                             ],
@@ -380,6 +397,7 @@ async f = async function*({a, b, ...{c, ...rest}} = {a: 1, b: 2, c: 3, d: 4, e: 
 ```javascript
 ✖ Identifier expected - start: 7, end: 9
 ✖ Identifier expected - start: 36, end: 37
+✖ ',' expected - start: 36, end: 37
 
 ```
 

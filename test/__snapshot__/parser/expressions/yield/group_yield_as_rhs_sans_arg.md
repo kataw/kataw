@@ -103,9 +103,7 @@
 
 ```javascript
 
-{
-  (x = x + yield);
-}
+ { (x=x + yield); } 
 ```
 
 ### Diagnostics

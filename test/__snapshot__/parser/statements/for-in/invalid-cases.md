@@ -1003,9 +1003,9 @@ for ({}.bar = x in obj);
                                 "kind": 218,
                                 "properties": [
                                     {
-                                        "kind": 257,
+                                        "kind": 351,
                                         "asyncKeyword": null,
-                                        "generatorToken": null,
+                                        "asteriskToken": null,
                                         "getKeyword": {
                                             "kind": 16498,
                                             "flags": 96,
@@ -1024,7 +1024,7 @@ for ({}.bar = x in obj);
                                                 "end": 266
                                             },
                                             "typeParameters": null,
-                                            "formalParameters": {
+                                            "formalParameterList": {
                                                 "kind": 214,
                                                 "formalParameters": [],
                                                 "trailingComma": false,
@@ -1404,34 +1404,46 @@ for ({}.bar = x in obj);
                 "end": 358
             },
             "initializer": {
-                "kind": 151,
-                "bindingList": [
-                    {
-                        "kind": 190,
-                        "binding": {
-                            "kind": 134299649,
-                            "text": "x",
-                            "rawText": "x",
-                            "flags": 96,
+                "kind": 162,
+                "lexicalKeyword": {
+                    "kind": 41951307,
+                    "flags": 64,
+                    "start": 353,
+                    "end": 362
+                },
+                "binding": {
+                    "kind": 151,
+                    "bindingList": [
+                        {
+                            "kind": 190,
+                            "binding": {
+                                "kind": 134299649,
+                                "text": "x",
+                                "rawText": "x",
+                                "flags": 96,
+                                "start": 362,
+                                "end": 364
+                            },
+                            "type": null,
+                            "initializer": {
+                                "kind": 201392130,
+                                "text": 1,
+                                "rawText": "1",
+                                "flags": 96,
+                                "start": 365,
+                                "end": 366
+                            },
+                            "flags": 16,
                             "start": 362,
-                            "end": 364
-                        },
-                        "type": null,
-                        "initializer": {
-                            "kind": 201392130,
-                            "text": 1,
-                            "rawText": "1",
-                            "flags": 96,
-                            "start": 365,
                             "end": 366
-                        },
-                        "flags": 16,
-                        "start": 362,
-                        "end": 366
-                    }
-                ],
-                "flags": 16,
-                "start": 362,
+                        }
+                    ],
+                    "flags": 16,
+                    "start": 362,
+                    "end": 366
+                },
+                "flags": 33554448,
+                "start": 353,
                 "end": 366
             },
             "inKeyword": {
@@ -1714,27 +1726,39 @@ for ({}.bar = x in obj);
                 "end": 460
             },
             "initializer": {
-                "kind": 151,
-                "bindingList": [
-                    {
-                        "kind": 190,
-                        "binding": {
-                            "kind": 134299649,
-                            "text": "a",
-                            "rawText": "a",
-                            "flags": 96,
+                "kind": 162,
+                "lexicalKeyword": {
+                    "kind": 37757004,
+                    "flags": 64,
+                    "start": 461,
+                    "end": 466
+                },
+                "binding": {
+                    "kind": 151,
+                    "bindingList": [
+                        {
+                            "kind": 190,
+                            "binding": {
+                                "kind": 134299649,
+                                "text": "a",
+                                "rawText": "a",
+                                "flags": 96,
+                                "start": 466,
+                                "end": 468
+                            },
+                            "type": null,
+                            "initializer": null,
+                            "flags": 16,
                             "start": 466,
                             "end": 468
-                        },
-                        "type": null,
-                        "initializer": null,
-                        "flags": 16,
-                        "start": 466,
-                        "end": 468
-                    }
-                ],
-                "flags": 16777232,
-                "start": 466,
+                        }
+                    ],
+                    "flags": 16777232,
+                    "start": 466,
+                    "end": 468
+                },
+                "flags": 33554448,
+                "start": 455,
                 "end": 468
             },
             "inKeyword": {
@@ -1831,27 +1855,39 @@ for ({}.bar = x in obj);
                 "end": 501
             },
             "initializer": {
-                "kind": 151,
-                "bindingList": [
-                    {
-                        "kind": 190,
-                        "binding": {
-                            "kind": 134299649,
-                            "text": "let",
-                            "rawText": "let",
-                            "flags": 96,
+                "kind": 162,
+                "lexicalKeyword": {
+                    "kind": 41951307,
+                    "flags": 64,
+                    "start": 496,
+                    "end": 505
+                },
+                "binding": {
+                    "kind": 151,
+                    "bindingList": [
+                        {
+                            "kind": 190,
+                            "binding": {
+                                "kind": 134299649,
+                                "text": "let",
+                                "rawText": "let",
+                                "flags": 96,
+                                "start": 505,
+                                "end": 509
+                            },
+                            "type": null,
+                            "initializer": null,
+                            "flags": 16,
                             "start": 505,
                             "end": 509
-                        },
-                        "type": null,
-                        "initializer": null,
-                        "flags": 16,
-                        "start": 505,
-                        "end": 509
-                    }
-                ],
-                "flags": 16,
-                "start": 505,
+                        }
+                    ],
+                    "flags": 16,
+                    "start": 505,
+                    "end": 509
+                },
+                "flags": 33554448,
+                "start": 496,
                 "end": 509
             },
             "inKeyword": {
@@ -1888,27 +1924,39 @@ for ({}.bar = x in obj);
             },
             "awaitKeyword": null,
             "initializer": {
-                "kind": 151,
-                "bindingList": [
-                    {
-                        "kind": 190,
-                        "binding": {
-                            "kind": 134299649,
-                            "text": "let",
-                            "rawText": "let",
-                            "flags": 96,
+                "kind": 162,
+                "lexicalKeyword": {
+                    "kind": 41951307,
+                    "flags": 64,
+                    "start": 516,
+                    "end": 525
+                },
+                "binding": {
+                    "kind": 151,
+                    "bindingList": [
+                        {
+                            "kind": 190,
+                            "binding": {
+                                "kind": 134299649,
+                                "text": "let",
+                                "rawText": "let",
+                                "flags": 96,
+                                "start": 525,
+                                "end": 529
+                            },
+                            "type": null,
+                            "initializer": null,
+                            "flags": 16,
                             "start": 525,
                             "end": 529
-                        },
-                        "type": null,
-                        "initializer": null,
-                        "flags": 16,
-                        "start": 525,
-                        "end": 529
-                    }
-                ],
-                "flags": 16,
-                "start": 525,
+                        }
+                    ],
+                    "flags": 16,
+                    "start": 525,
+                    "end": 529
+                },
+                "flags": 33554448,
+                "start": 516,
                 "end": 529
             },
             "ofKeyword": {
@@ -1944,27 +1992,39 @@ for ({}.bar = x in obj);
                 "end": 541
             },
             "initializer": {
-                "kind": 151,
-                "bindingList": [
-                    {
-                        "kind": 190,
-                        "binding": {
-                            "kind": 134299649,
-                            "text": "a",
-                            "rawText": "a",
-                            "flags": 96,
+                "kind": 162,
+                "lexicalKeyword": {
+                    "kind": 41951307,
+                    "flags": 64,
+                    "start": 536,
+                    "end": 545
+                },
+                "binding": {
+                    "kind": 151,
+                    "bindingList": [
+                        {
+                            "kind": 190,
+                            "binding": {
+                                "kind": 134299649,
+                                "text": "a",
+                                "rawText": "a",
+                                "flags": 96,
+                                "start": 545,
+                                "end": 547
+                            },
+                            "type": null,
+                            "initializer": null,
+                            "flags": 16,
                             "start": 545,
                             "end": 547
-                        },
-                        "type": null,
-                        "initializer": null,
-                        "flags": 16,
-                        "start": 545,
-                        "end": 547
-                    }
-                ],
-                "flags": 16,
-                "start": 545,
+                        }
+                    ],
+                    "flags": 16,
+                    "start": 545,
+                    "end": 547
+                },
+                "flags": 33554448,
+                "start": 536,
                 "end": 547
             },
             "inKeyword": {
@@ -2045,27 +2105,39 @@ for ({}.bar = x in obj);
                 "end": 569
             },
             "initializer": {
-                "kind": 151,
-                "bindingList": [
-                    {
-                        "kind": 190,
-                        "binding": {
-                            "kind": 134299649,
-                            "text": "a",
-                            "rawText": "a",
-                            "flags": 96,
+                "kind": 162,
+                "lexicalKeyword": {
+                    "kind": 37757004,
+                    "flags": 64,
+                    "start": 570,
+                    "end": 575
+                },
+                "binding": {
+                    "kind": 151,
+                    "bindingList": [
+                        {
+                            "kind": 190,
+                            "binding": {
+                                "kind": 134299649,
+                                "text": "a",
+                                "rawText": "a",
+                                "flags": 96,
+                                "start": 575,
+                                "end": 577
+                            },
+                            "type": null,
+                            "initializer": null,
+                            "flags": 16,
                             "start": 575,
                             "end": 577
-                        },
-                        "type": null,
-                        "initializer": null,
-                        "flags": 16,
-                        "start": 575,
-                        "end": 577
-                    }
-                ],
-                "flags": 16777232,
-                "start": 575,
+                        }
+                    ],
+                    "flags": 16777232,
+                    "start": 575,
+                    "end": 577
+                },
+                "flags": 33554448,
+                "start": 564,
                 "end": 577
             },
             "inKeyword": {
@@ -2146,50 +2218,62 @@ for ({}.bar = x in obj);
                 "end": 599
             },
             "initializer": {
-                "kind": 151,
-                "bindingList": [
-                    {
-                        "kind": 190,
-                        "binding": {
-                            "kind": 212,
-                            "propertyList": {
-                                "kind": 213,
-                                "properties": [
-                                    {
-                                        "kind": 134299649,
-                                        "text": "a",
-                                        "rawText": "a",
-                                        "flags": 96,
-                                        "start": 607,
-                                        "end": 608
-                                    },
-                                    {
-                                        "kind": 134299649,
-                                        "text": "a",
-                                        "rawText": "a",
-                                        "flags": 96,
-                                        "start": 609,
-                                        "end": 611
-                                    }
-                                ],
-                                "trailingComma": false,
+                "kind": 162,
+                "lexicalKeyword": {
+                    "kind": 37757004,
+                    "flags": 64,
+                    "start": 600,
+                    "end": 605
+                },
+                "binding": {
+                    "kind": 151,
+                    "bindingList": [
+                        {
+                            "kind": 190,
+                            "binding": {
+                                "kind": 212,
+                                "propertyList": {
+                                    "kind": 213,
+                                    "properties": [
+                                        {
+                                            "kind": 134299649,
+                                            "text": "a",
+                                            "rawText": "a",
+                                            "flags": 96,
+                                            "start": 607,
+                                            "end": 608
+                                        },
+                                        {
+                                            "kind": 134299649,
+                                            "text": "a",
+                                            "rawText": "a",
+                                            "flags": 96,
+                                            "start": 609,
+                                            "end": 611
+                                        }
+                                    ],
+                                    "trailingComma": false,
+                                    "flags": 32,
+                                    "start": 607,
+                                    "end": 611
+                                },
                                 "flags": 32,
-                                "start": 607,
-                                "end": 611
+                                "start": 605,
+                                "end": 612
                             },
-                            "flags": 32,
+                            "type": null,
+                            "initializer": null,
+                            "flags": 16,
                             "start": 605,
                             "end": 612
-                        },
-                        "type": null,
-                        "initializer": null,
-                        "flags": 16,
-                        "start": 605,
-                        "end": 612
-                    }
-                ],
-                "flags": 16777232,
-                "start": 605,
+                        }
+                    ],
+                    "flags": 16777232,
+                    "start": 605,
+                    "end": 612
+                },
+                "flags": 33554448,
+                "start": 594,
                 "end": 612
             },
             "inKeyword": {
@@ -2407,10 +2491,22 @@ for ({}.bar = x in obj);
                 "end": 678
             },
             "initializer": {
-                "kind": 151,
-                "bindingList": [],
-                "flags": 16777232,
-                "start": 685,
+                "kind": 162,
+                "lexicalKeyword": {
+                    "kind": 37757004,
+                    "flags": 64,
+                    "start": 680,
+                    "end": 685
+                },
+                "binding": {
+                    "kind": 151,
+                    "bindingList": [],
+                    "flags": 16777232,
+                    "start": 685,
+                    "end": 685
+                },
+                "flags": 33554448,
+                "start": 673,
                 "end": 685
             },
             "condition": {
@@ -2767,27 +2863,39 @@ for ({}.bar = x in obj);
                 "end": 766
             },
             "initializer": {
-                "kind": 151,
-                "bindingList": [
-                    {
-                        "kind": 190,
-                        "binding": {
-                            "kind": 134299649,
-                            "text": "x",
-                            "rawText": "x",
-                            "flags": 96,
+                "kind": 162,
+                "lexicalKeyword": {
+                    "kind": 37757004,
+                    "flags": 64,
+                    "start": 768,
+                    "end": 773
+                },
+                "binding": {
+                    "kind": 151,
+                    "bindingList": [
+                        {
+                            "kind": 190,
+                            "binding": {
+                                "kind": 134299649,
+                                "text": "x",
+                                "rawText": "x",
+                                "flags": 96,
+                                "start": 773,
+                                "end": 775
+                            },
+                            "type": null,
+                            "initializer": null,
+                            "flags": 16,
                             "start": 773,
                             "end": 775
-                        },
-                        "type": null,
-                        "initializer": null,
-                        "flags": 16,
-                        "start": 773,
-                        "end": 775
-                    }
-                ],
-                "flags": 16777232,
-                "start": 773,
+                        }
+                    ],
+                    "flags": 16777232,
+                    "start": 773,
+                    "end": 775
+                },
+                "flags": 33554448,
+                "start": 761,
                 "end": 775
             },
             "inKeyword": {
@@ -4109,9 +4217,9 @@ for ({}.bar = x in obj);
                                             "kind": 218,
                                             "properties": [
                                                 {
-                                                    "kind": 257,
+                                                    "kind": 351,
                                                     "asyncKeyword": null,
-                                                    "generatorToken": null,
+                                                    "asteriskToken": null,
                                                     "getKeyword": null,
                                                     "setKeyword": {
                                                         "kind": 16499,
@@ -4130,7 +4238,7 @@ for ({}.bar = x in obj);
                                                             "end": 1127
                                                         },
                                                         "typeParameters": null,
-                                                        "formalParameters": {
+                                                        "formalParameterList": {
                                                             "kind": 214,
                                                             "formalParameters": [
                                                                 {
@@ -4344,9 +4452,9 @@ for ({}.bar = x in obj);
                                         "kind": 218,
                                         "properties": [
                                             {
-                                                "kind": 257,
+                                                "kind": 351,
                                                 "asyncKeyword": null,
-                                                "generatorToken": null,
+                                                "asteriskToken": null,
                                                 "getKeyword": null,
                                                 "setKeyword": {
                                                     "kind": 16499,
@@ -4365,7 +4473,7 @@ for ({}.bar = x in obj);
                                                         "end": 1181
                                                     },
                                                     "typeParameters": null,
-                                                    "formalParameters": {
+                                                    "formalParameterList": {
                                                         "kind": 214,
                                                         "formalParameters": [
                                                             {
@@ -4763,50 +4871,62 @@ for ({}.bar = x in obj);
             },
             "awaitKeyword": null,
             "initializer": {
-                "kind": 151,
-                "bindingList": [
-                    {
-                        "kind": 190,
-                        "binding": {
-                            "kind": 134299649,
-                            "text": "x",
-                            "rawText": "x",
-                            "flags": 96,
+                "kind": 162,
+                "lexicalKeyword": {
+                    "kind": 37757004,
+                    "flags": 64,
+                    "start": 1298,
+                    "end": 1303
+                },
+                "binding": {
+                    "kind": 151,
+                    "bindingList": [
+                        {
+                            "kind": 190,
+                            "binding": {
+                                "kind": 134299649,
+                                "text": "x",
+                                "rawText": "x",
+                                "flags": 96,
+                                "start": 1303,
+                                "end": 1305
+                            },
+                            "type": null,
+                            "initializer": {
+                                "kind": 201392130,
+                                "text": 4,
+                                "rawText": "4",
+                                "flags": 96,
+                                "start": 1307,
+                                "end": 1309
+                            },
+                            "flags": 16,
                             "start": 1303,
-                            "end": 1305
-                        },
-                        "type": null,
-                        "initializer": {
-                            "kind": 201392130,
-                            "text": 4,
-                            "rawText": "4",
-                            "flags": 96,
-                            "start": 1307,
                             "end": 1309
                         },
-                        "flags": 16,
-                        "start": 1303,
-                        "end": 1309
-                    },
-                    {
-                        "kind": 190,
-                        "binding": {
-                            "kind": 134299649,
-                            "text": "y",
-                            "rawText": "y",
-                            "flags": 96,
+                        {
+                            "kind": 190,
+                            "binding": {
+                                "kind": 134299649,
+                                "text": "y",
+                                "rawText": "y",
+                                "flags": 96,
+                                "start": 1310,
+                                "end": 1312
+                            },
+                            "type": null,
+                            "initializer": null,
+                            "flags": 16,
                             "start": 1310,
                             "end": 1312
-                        },
-                        "type": null,
-                        "initializer": null,
-                        "flags": 16,
-                        "start": 1310,
-                        "end": 1312
-                    }
-                ],
-                "flags": 16777232,
-                "start": 1303,
+                        }
+                    ],
+                    "flags": 16777232,
+                    "start": 1303,
+                    "end": 1312
+                },
+                "flags": 33554448,
+                "start": 1293,
                 "end": 1312
             },
             "ofKeyword": {
@@ -4880,50 +5000,62 @@ for ({}.bar = x in obj);
                 "end": 1332
             },
             "initializer": {
-                "kind": 151,
-                "bindingList": [
-                    {
-                        "kind": 190,
-                        "binding": {
-                            "kind": 134299649,
-                            "text": "x",
-                            "rawText": "x",
-                            "flags": 96,
+                "kind": 162,
+                "lexicalKeyword": {
+                    "kind": 37757004,
+                    "flags": 64,
+                    "start": 1333,
+                    "end": 1338
+                },
+                "binding": {
+                    "kind": 151,
+                    "bindingList": [
+                        {
+                            "kind": 190,
+                            "binding": {
+                                "kind": 134299649,
+                                "text": "x",
+                                "rawText": "x",
+                                "flags": 96,
+                                "start": 1338,
+                                "end": 1340
+                            },
+                            "type": null,
+                            "initializer": null,
+                            "flags": 16,
                             "start": 1338,
                             "end": 1340
                         },
-                        "type": null,
-                        "initializer": null,
-                        "flags": 16,
-                        "start": 1338,
-                        "end": 1340
-                    },
-                    {
-                        "kind": 190,
-                        "binding": {
-                            "kind": 134299649,
-                            "text": "y",
-                            "rawText": "y",
-                            "flags": 96,
+                        {
+                            "kind": 190,
+                            "binding": {
+                                "kind": 134299649,
+                                "text": "y",
+                                "rawText": "y",
+                                "flags": 96,
+                                "start": 1341,
+                                "end": 1342
+                            },
+                            "type": null,
+                            "initializer": {
+                                "kind": 201392130,
+                                "text": 1,
+                                "rawText": "1",
+                                "flags": 96,
+                                "start": 1344,
+                                "end": 1346
+                            },
+                            "flags": 16,
                             "start": 1341,
-                            "end": 1342
-                        },
-                        "type": null,
-                        "initializer": {
-                            "kind": 201392130,
-                            "text": 1,
-                            "rawText": "1",
-                            "flags": 96,
-                            "start": 1344,
                             "end": 1346
-                        },
-                        "flags": 16,
-                        "start": 1341,
-                        "end": 1346
-                    }
-                ],
-                "flags": 16777232,
-                "start": 1338,
+                        }
+                    ],
+                    "flags": 16777232,
+                    "start": 1338,
+                    "end": 1346
+                },
+                "flags": 33554448,
+                "start": 1327,
                 "end": 1346
             },
             "condition": null,
@@ -4954,34 +5086,46 @@ for ({}.bar = x in obj);
                 "end": 1359
             },
             "initializer": {
-                "kind": 151,
-                "bindingList": [
-                    {
-                        "kind": 190,
-                        "binding": {
-                            "kind": 134299649,
-                            "text": "x",
-                            "rawText": "x",
-                            "flags": 96,
+                "kind": 162,
+                "lexicalKeyword": {
+                    "kind": 37757004,
+                    "flags": 64,
+                    "start": 1360,
+                    "end": 1365
+                },
+                "binding": {
+                    "kind": 151,
+                    "bindingList": [
+                        {
+                            "kind": 190,
+                            "binding": {
+                                "kind": 134299649,
+                                "text": "x",
+                                "rawText": "x",
+                                "flags": 96,
+                                "start": 1365,
+                                "end": 1367
+                            },
+                            "type": null,
+                            "initializer": {
+                                "kind": 201392130,
+                                "text": 4,
+                                "rawText": "4",
+                                "flags": 96,
+                                "start": 1369,
+                                "end": 1371
+                            },
+                            "flags": 16,
                             "start": 1365,
-                            "end": 1367
-                        },
-                        "type": null,
-                        "initializer": {
-                            "kind": 201392130,
-                            "text": 4,
-                            "rawText": "4",
-                            "flags": 96,
-                            "start": 1369,
                             "end": 1371
-                        },
-                        "flags": 16,
-                        "start": 1365,
-                        "end": 1371
-                    }
-                ],
-                "flags": 16777232,
-                "start": 1365,
+                        }
+                    ],
+                    "flags": 16777232,
+                    "start": 1365,
+                    "end": 1371
+                },
+                "flags": 33554448,
+                "start": 1354,
                 "end": 1371
             },
             "inKeyword": {
@@ -5055,50 +5199,62 @@ for ({}.bar = x in obj);
                 "end": 1391
             },
             "initializer": {
-                "kind": 151,
-                "bindingList": [
-                    {
-                        "kind": 190,
-                        "binding": {
-                            "kind": 134299649,
-                            "text": "x",
-                            "rawText": "x",
-                            "flags": 96,
+                "kind": 162,
+                "lexicalKeyword": {
+                    "kind": 37757004,
+                    "flags": 64,
+                    "start": 1392,
+                    "end": 1397
+                },
+                "binding": {
+                    "kind": 151,
+                    "bindingList": [
+                        {
+                            "kind": 190,
+                            "binding": {
+                                "kind": 134299649,
+                                "text": "x",
+                                "rawText": "x",
+                                "flags": 96,
+                                "start": 1397,
+                                "end": 1399
+                            },
+                            "type": null,
+                            "initializer": {
+                                "kind": 201392130,
+                                "text": 4,
+                                "rawText": "4",
+                                "flags": 96,
+                                "start": 1401,
+                                "end": 1403
+                            },
+                            "flags": 16,
                             "start": 1397,
-                            "end": 1399
-                        },
-                        "type": null,
-                        "initializer": {
-                            "kind": 201392130,
-                            "text": 4,
-                            "rawText": "4",
-                            "flags": 96,
-                            "start": 1401,
                             "end": 1403
                         },
-                        "flags": 16,
-                        "start": 1397,
-                        "end": 1403
-                    },
-                    {
-                        "kind": 190,
-                        "binding": {
-                            "kind": 134299649,
-                            "text": "y",
-                            "rawText": "y",
-                            "flags": 96,
+                        {
+                            "kind": 190,
+                            "binding": {
+                                "kind": 134299649,
+                                "text": "y",
+                                "rawText": "y",
+                                "flags": 96,
+                                "start": 1404,
+                                "end": 1406
+                            },
+                            "type": null,
+                            "initializer": null,
+                            "flags": 16,
                             "start": 1404,
                             "end": 1406
-                        },
-                        "type": null,
-                        "initializer": null,
-                        "flags": 16,
-                        "start": 1404,
-                        "end": 1406
-                    }
-                ],
-                "flags": 16777232,
-                "start": 1397,
+                        }
+                    ],
+                    "flags": 16777232,
+                    "start": 1397,
+                    "end": 1406
+                },
+                "flags": 33554448,
+                "start": 1386,
                 "end": 1406
             },
             "inKeyword": {
@@ -5173,34 +5329,46 @@ for ({}.bar = x in obj);
             },
             "awaitKeyword": null,
             "initializer": {
-                "kind": 151,
-                "bindingList": [
-                    {
-                        "kind": 190,
-                        "binding": {
-                            "kind": 134299649,
-                            "text": "x",
-                            "rawText": "x",
-                            "flags": 96,
+                "kind": 162,
+                "lexicalKeyword": {
+                    "kind": 37757004,
+                    "flags": 64,
+                    "start": 1427,
+                    "end": 1432
+                },
+                "binding": {
+                    "kind": 151,
+                    "bindingList": [
+                        {
+                            "kind": 190,
+                            "binding": {
+                                "kind": 134299649,
+                                "text": "x",
+                                "rawText": "x",
+                                "flags": 96,
+                                "start": 1432,
+                                "end": 1434
+                            },
+                            "type": null,
+                            "initializer": {
+                                "kind": 201392130,
+                                "text": 4,
+                                "rawText": "4",
+                                "flags": 96,
+                                "start": 1436,
+                                "end": 1438
+                            },
+                            "flags": 16,
                             "start": 1432,
-                            "end": 1434
-                        },
-                        "type": null,
-                        "initializer": {
-                            "kind": 201392130,
-                            "text": 4,
-                            "rawText": "4",
-                            "flags": 96,
-                            "start": 1436,
                             "end": 1438
-                        },
-                        "flags": 16,
-                        "start": 1432,
-                        "end": 1438
-                    }
-                ],
-                "flags": 16777232,
-                "start": 1432,
+                        }
+                    ],
+                    "flags": 16777232,
+                    "start": 1432,
+                    "end": 1438
+                },
+                "flags": 33554448,
+                "start": 1421,
                 "end": 1438
             },
             "ofKeyword": {
@@ -5275,50 +5443,62 @@ for ({}.bar = x in obj);
             },
             "awaitKeyword": null,
             "initializer": {
-                "kind": 151,
-                "bindingList": [
-                    {
-                        "kind": 190,
-                        "binding": {
-                            "kind": 134299649,
-                            "text": "x",
-                            "rawText": "x",
-                            "flags": 96,
+                "kind": 162,
+                "lexicalKeyword": {
+                    "kind": 37757004,
+                    "flags": 64,
+                    "start": 1459,
+                    "end": 1464
+                },
+                "binding": {
+                    "kind": 151,
+                    "bindingList": [
+                        {
+                            "kind": 190,
+                            "binding": {
+                                "kind": 134299649,
+                                "text": "x",
+                                "rawText": "x",
+                                "flags": 96,
+                                "start": 1464,
+                                "end": 1466
+                            },
+                            "type": null,
+                            "initializer": {
+                                "kind": 201392130,
+                                "text": 4,
+                                "rawText": "4",
+                                "flags": 96,
+                                "start": 1468,
+                                "end": 1470
+                            },
+                            "flags": 16,
                             "start": 1464,
-                            "end": 1466
-                        },
-                        "type": null,
-                        "initializer": {
-                            "kind": 201392130,
-                            "text": 4,
-                            "rawText": "4",
-                            "flags": 96,
-                            "start": 1468,
                             "end": 1470
                         },
-                        "flags": 16,
-                        "start": 1464,
-                        "end": 1470
-                    },
-                    {
-                        "kind": 190,
-                        "binding": {
-                            "kind": 134299649,
-                            "text": "y",
-                            "rawText": "y",
-                            "flags": 96,
+                        {
+                            "kind": 190,
+                            "binding": {
+                                "kind": 134299649,
+                                "text": "y",
+                                "rawText": "y",
+                                "flags": 96,
+                                "start": 1471,
+                                "end": 1473
+                            },
+                            "type": null,
+                            "initializer": null,
+                            "flags": 16,
                             "start": 1471,
                             "end": 1473
-                        },
-                        "type": null,
-                        "initializer": null,
-                        "flags": 16,
-                        "start": 1471,
-                        "end": 1473
-                    }
-                ],
-                "flags": 16777232,
-                "start": 1464,
+                        }
+                    ],
+                    "flags": 16777232,
+                    "start": 1464,
+                    "end": 1473
+                },
+                "flags": 33554448,
+                "start": 1453,
                 "end": 1473
             },
             "ofKeyword": {
@@ -5392,57 +5572,69 @@ for ({}.bar = x in obj);
                 "end": 1493
             },
             "initializer": {
-                "kind": 151,
-                "bindingList": [
-                    {
-                        "kind": 190,
-                        "binding": {
-                            "kind": 134299649,
-                            "text": "x",
-                            "rawText": "x",
-                            "flags": 96,
+                "kind": 162,
+                "lexicalKeyword": {
+                    "kind": 37757004,
+                    "flags": 64,
+                    "start": 1494,
+                    "end": 1499
+                },
+                "binding": {
+                    "kind": 151,
+                    "bindingList": [
+                        {
+                            "kind": 190,
+                            "binding": {
+                                "kind": 134299649,
+                                "text": "x",
+                                "rawText": "x",
+                                "flags": 96,
+                                "start": 1499,
+                                "end": 1501
+                            },
+                            "type": null,
+                            "initializer": {
+                                "kind": 201392130,
+                                "text": 1,
+                                "rawText": "1",
+                                "flags": 96,
+                                "start": 1503,
+                                "end": 1505
+                            },
+                            "flags": 16,
                             "start": 1499,
-                            "end": 1501
-                        },
-                        "type": null,
-                        "initializer": {
-                            "kind": 201392130,
-                            "text": 1,
-                            "rawText": "1",
-                            "flags": 96,
-                            "start": 1503,
                             "end": 1505
                         },
-                        "flags": 16,
-                        "start": 1499,
-                        "end": 1505
-                    },
-                    {
-                        "kind": 190,
-                        "binding": {
-                            "kind": 134299649,
-                            "text": "y",
-                            "rawText": "y",
-                            "flags": 96,
+                        {
+                            "kind": 190,
+                            "binding": {
+                                "kind": 134299649,
+                                "text": "y",
+                                "rawText": "y",
+                                "flags": 96,
+                                "start": 1506,
+                                "end": 1508
+                            },
+                            "type": null,
+                            "initializer": {
+                                "kind": 201392130,
+                                "text": 2,
+                                "rawText": "2",
+                                "flags": 96,
+                                "start": 1510,
+                                "end": 1512
+                            },
+                            "flags": 16,
                             "start": 1506,
-                            "end": 1508
-                        },
-                        "type": null,
-                        "initializer": {
-                            "kind": 201392130,
-                            "text": 2,
-                            "rawText": "2",
-                            "flags": 96,
-                            "start": 1510,
                             "end": 1512
-                        },
-                        "flags": 16,
-                        "start": 1506,
-                        "end": 1512
-                    }
-                ],
-                "flags": 16777232,
-                "start": 1499,
+                        }
+                    ],
+                    "flags": 16777232,
+                    "start": 1499,
+                    "end": 1512
+                },
+                "flags": 33554448,
+                "start": 1488,
                 "end": 1512
             },
             "inKeyword": {
@@ -5491,43 +5683,55 @@ for ({}.bar = x in obj);
                 "end": 1527
             },
             "initializer": {
-                "kind": 151,
-                "bindingList": [
-                    {
-                        "kind": 190,
-                        "binding": {
-                            "kind": 134299649,
-                            "text": "x",
-                            "rawText": "x",
-                            "flags": 96,
+                "kind": 162,
+                "lexicalKeyword": {
+                    "kind": 37757004,
+                    "flags": 64,
+                    "start": 1528,
+                    "end": 1533
+                },
+                "binding": {
+                    "kind": 151,
+                    "bindingList": [
+                        {
+                            "kind": 190,
+                            "binding": {
+                                "kind": 134299649,
+                                "text": "x",
+                                "rawText": "x",
+                                "flags": 96,
+                                "start": 1533,
+                                "end": 1535
+                            },
+                            "type": null,
+                            "initializer": null,
+                            "flags": 16,
                             "start": 1533,
                             "end": 1535
                         },
-                        "type": null,
-                        "initializer": null,
-                        "flags": 16,
-                        "start": 1533,
-                        "end": 1535
-                    },
-                    {
-                        "kind": 190,
-                        "binding": {
-                            "kind": 134299649,
-                            "text": "y",
-                            "rawText": "y",
-                            "flags": 96,
+                        {
+                            "kind": 190,
+                            "binding": {
+                                "kind": 134299649,
+                                "text": "y",
+                                "rawText": "y",
+                                "flags": 96,
+                                "start": 1536,
+                                "end": 1537
+                            },
+                            "type": null,
+                            "initializer": null,
+                            "flags": 16,
                             "start": 1536,
                             "end": 1537
-                        },
-                        "type": null,
-                        "initializer": null,
-                        "flags": 16,
-                        "start": 1536,
-                        "end": 1537
-                    }
-                ],
-                "flags": 16777232,
-                "start": 1533,
+                        }
+                    ],
+                    "flags": 16777232,
+                    "start": 1533,
+                    "end": 1537
+                },
+                "flags": 33554448,
+                "start": 1522,
                 "end": 1537
             },
             "inKeyword": {
@@ -5577,57 +5781,69 @@ for ({}.bar = x in obj);
             },
             "awaitKeyword": null,
             "initializer": {
-                "kind": 151,
-                "bindingList": [
-                    {
-                        "kind": 190,
-                        "binding": {
-                            "kind": 134299649,
-                            "text": "x",
-                            "rawText": "x",
-                            "flags": 96,
+                "kind": 162,
+                "lexicalKeyword": {
+                    "kind": 37757004,
+                    "flags": 64,
+                    "start": 1553,
+                    "end": 1558
+                },
+                "binding": {
+                    "kind": 151,
+                    "bindingList": [
+                        {
+                            "kind": 190,
+                            "binding": {
+                                "kind": 134299649,
+                                "text": "x",
+                                "rawText": "x",
+                                "flags": 96,
+                                "start": 1558,
+                                "end": 1560
+                            },
+                            "type": null,
+                            "initializer": {
+                                "kind": 201392130,
+                                "text": 1,
+                                "rawText": "1",
+                                "flags": 96,
+                                "start": 1562,
+                                "end": 1564
+                            },
+                            "flags": 16,
                             "start": 1558,
-                            "end": 1560
-                        },
-                        "type": null,
-                        "initializer": {
-                            "kind": 201392130,
-                            "text": 1,
-                            "rawText": "1",
-                            "flags": 96,
-                            "start": 1562,
                             "end": 1564
                         },
-                        "flags": 16,
-                        "start": 1558,
-                        "end": 1564
-                    },
-                    {
-                        "kind": 190,
-                        "binding": {
-                            "kind": 134299649,
-                            "text": "y",
-                            "rawText": "y",
-                            "flags": 96,
+                        {
+                            "kind": 190,
+                            "binding": {
+                                "kind": 134299649,
+                                "text": "y",
+                                "rawText": "y",
+                                "flags": 96,
+                                "start": 1565,
+                                "end": 1567
+                            },
+                            "type": null,
+                            "initializer": {
+                                "kind": 201392130,
+                                "text": 2,
+                                "rawText": "2",
+                                "flags": 96,
+                                "start": 1569,
+                                "end": 1571
+                            },
+                            "flags": 16,
                             "start": 1565,
-                            "end": 1567
-                        },
-                        "type": null,
-                        "initializer": {
-                            "kind": 201392130,
-                            "text": 2,
-                            "rawText": "2",
-                            "flags": 96,
-                            "start": 1569,
                             "end": 1571
-                        },
-                        "flags": 16,
-                        "start": 1565,
-                        "end": 1571
-                    }
-                ],
-                "flags": 16777232,
-                "start": 1558,
+                        }
+                    ],
+                    "flags": 16777232,
+                    "start": 1558,
+                    "end": 1571
+                },
+                "flags": 33554448,
+                "start": 1547,
                 "end": 1571
             },
             "ofKeyword": {
@@ -5677,43 +5893,55 @@ for ({}.bar = x in obj);
             },
             "awaitKeyword": null,
             "initializer": {
-                "kind": 151,
-                "bindingList": [
-                    {
-                        "kind": 190,
-                        "binding": {
-                            "kind": 134299649,
-                            "text": "x",
-                            "rawText": "x",
-                            "flags": 96,
+                "kind": 162,
+                "lexicalKeyword": {
+                    "kind": 37757004,
+                    "flags": 64,
+                    "start": 1587,
+                    "end": 1592
+                },
+                "binding": {
+                    "kind": 151,
+                    "bindingList": [
+                        {
+                            "kind": 190,
+                            "binding": {
+                                "kind": 134299649,
+                                "text": "x",
+                                "rawText": "x",
+                                "flags": 96,
+                                "start": 1592,
+                                "end": 1594
+                            },
+                            "type": null,
+                            "initializer": null,
+                            "flags": 16,
                             "start": 1592,
                             "end": 1594
                         },
-                        "type": null,
-                        "initializer": null,
-                        "flags": 16,
-                        "start": 1592,
-                        "end": 1594
-                    },
-                    {
-                        "kind": 190,
-                        "binding": {
-                            "kind": 134299649,
-                            "text": "y",
-                            "rawText": "y",
-                            "flags": 96,
+                        {
+                            "kind": 190,
+                            "binding": {
+                                "kind": 134299649,
+                                "text": "y",
+                                "rawText": "y",
+                                "flags": 96,
+                                "start": 1595,
+                                "end": 1596
+                            },
+                            "type": null,
+                            "initializer": null,
+                            "flags": 16,
                             "start": 1595,
                             "end": 1596
-                        },
-                        "type": null,
-                        "initializer": null,
-                        "flags": 16,
-                        "start": 1595,
-                        "end": 1596
-                    }
-                ],
-                "flags": 16777232,
-                "start": 1592,
+                        }
+                    ],
+                    "flags": 16777232,
+                    "start": 1592,
+                    "end": 1596
+                },
+                "flags": 33554448,
+                "start": 1581,
                 "end": 1596
             },
             "ofKeyword": {
@@ -6546,42 +6774,54 @@ for ({}.bar = x in obj);
                 "end": 1808
             },
             "initializer": {
-                "kind": 151,
-                "bindingList": [
-                    {
-                        "kind": 190,
-                        "binding": {
-                            "kind": 201,
-                            "elementList": {
-                                "kind": 324,
-                                "elements": [
-                                    {
-                                        "kind": 134299649,
-                                        "text": "let",
-                                        "rawText": "let",
-                                        "flags": 96,
-                                        "start": 1815,
-                                        "end": 1818
-                                    }
-                                ],
-                                "trailingComma": false,
-                                "flags": 0,
-                                "start": 1815,
-                                "end": 1818
+                "kind": 162,
+                "lexicalKeyword": {
+                    "kind": 41951307,
+                    "flags": 64,
+                    "start": 1803,
+                    "end": 1813
+                },
+                "binding": {
+                    "kind": 151,
+                    "bindingList": [
+                        {
+                            "kind": 190,
+                            "binding": {
+                                "kind": 201,
+                                "elementList": {
+                                    "kind": 324,
+                                    "elements": [
+                                        {
+                                            "kind": 134299649,
+                                            "text": "let",
+                                            "rawText": "let",
+                                            "flags": 96,
+                                            "start": 1815,
+                                            "end": 1818
+                                        }
+                                    ],
+                                    "trailingComma": false,
+                                    "flags": 0,
+                                    "start": 1815,
+                                    "end": 1818
+                                },
+                                "flags": 32,
+                                "start": 1813,
+                                "end": 1819
                             },
-                            "flags": 32,
+                            "type": null,
+                            "initializer": null,
+                            "flags": 16,
                             "start": 1813,
                             "end": 1819
-                        },
-                        "type": null,
-                        "initializer": null,
-                        "flags": 16,
-                        "start": 1813,
-                        "end": 1819
-                    }
-                ],
-                "flags": 16,
-                "start": 1813,
+                        }
+                    ],
+                    "flags": 16,
+                    "start": 1813,
+                    "end": 1819
+                },
+                "flags": 33554448,
+                "start": 1803,
                 "end": 1819
             },
             "inKeyword": {
@@ -6617,42 +6857,54 @@ for ({}.bar = x in obj);
                 "end": 1833
             },
             "initializer": {
-                "kind": 151,
-                "bindingList": [
-                    {
-                        "kind": 190,
-                        "binding": {
-                            "kind": 201,
-                            "elementList": {
-                                "kind": 324,
-                                "elements": [
-                                    {
-                                        "kind": 134299649,
-                                        "text": "let",
-                                        "rawText": "let",
-                                        "flags": 96,
-                                        "start": 1842,
-                                        "end": 1845
-                                    }
-                                ],
-                                "trailingComma": false,
-                                "flags": 0,
-                                "start": 1842,
-                                "end": 1845
+                "kind": 162,
+                "lexicalKeyword": {
+                    "kind": 37757004,
+                    "flags": 64,
+                    "start": 1835,
+                    "end": 1840
+                },
+                "binding": {
+                    "kind": 151,
+                    "bindingList": [
+                        {
+                            "kind": 190,
+                            "binding": {
+                                "kind": 201,
+                                "elementList": {
+                                    "kind": 324,
+                                    "elements": [
+                                        {
+                                            "kind": 134299649,
+                                            "text": "let",
+                                            "rawText": "let",
+                                            "flags": 96,
+                                            "start": 1842,
+                                            "end": 1845
+                                        }
+                                    ],
+                                    "trailingComma": false,
+                                    "flags": 0,
+                                    "start": 1842,
+                                    "end": 1845
+                                },
+                                "flags": 32,
+                                "start": 1840,
+                                "end": 1846
                             },
-                            "flags": 32,
+                            "type": null,
+                            "initializer": null,
+                            "flags": 16,
                             "start": 1840,
                             "end": 1846
-                        },
-                        "type": null,
-                        "initializer": null,
-                        "flags": 16,
-                        "start": 1840,
-                        "end": 1846
-                    }
-                ],
-                "flags": 16777232,
-                "start": 1840,
+                        }
+                    ],
+                    "flags": 16777232,
+                    "start": 1840,
+                    "end": 1846
+                },
+                "flags": 33554448,
+                "start": 1828,
                 "end": 1846
             },
             "inKeyword": {

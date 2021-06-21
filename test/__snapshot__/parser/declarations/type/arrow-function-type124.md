@@ -178,7 +178,7 @@ type a = (x,symbol['string']) => T;
 
 ```javascript
 
-
+  
 ```
 
 ### Diagnostics

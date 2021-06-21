@@ -127,7 +127,8 @@ function x(a, [x]) {}
 
 ```javascript
 
-function x() {}
+ function x(a, ) {
+} 
 ```
 
 ### Diagnostics

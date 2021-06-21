@@ -78,7 +78,7 @@ x = {eval}
 
 ```javascript
 
-x = { eval };
+ x={ eval }; 
 ```
 
 ### Diagnostics

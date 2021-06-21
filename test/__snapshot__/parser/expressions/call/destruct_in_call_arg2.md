@@ -120,7 +120,7 @@ y(y/=x,{}=x)
 
 ```javascript
 
-y(y /= x, {} = x);
+ ; 
 ```
 
 ### Diagnostics

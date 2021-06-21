@@ -106,11 +106,8 @@ do;while(j)try{}finally{}
 
 ```javascript
 
-do;
-while (j);
-try {
-} try{
-}
+ do ; while (j), try {  }
+finally {  } 
 ```
 
 ### Diagnostics

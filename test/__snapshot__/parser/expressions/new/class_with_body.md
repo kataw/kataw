@@ -77,7 +77,8 @@ new class{}
 
 ```javascript
 
-new  class  {}();
+ new class  {
+}; 
 ```
 
 ### Diagnostics

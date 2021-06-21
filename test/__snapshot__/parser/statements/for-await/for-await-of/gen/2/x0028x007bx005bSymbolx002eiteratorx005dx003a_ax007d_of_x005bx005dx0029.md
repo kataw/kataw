@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/statements/for-await/for-await-of/autogen.md
-- Path: kataw/test/__snapshot__/parser/statements/for-await/for-await-of/gen/2
+- Regenerated: 2021-06-12
+- From: d
+- Path: 2
 > :: test: 2
 > :: case: ({[Symbol.iterator]: a} of [])
 ## Options
@@ -199,11 +199,9 @@ async function f() { for await ({[Symbol.iterator]: a} of []) { } }
 
 ```javascript
 
-async function f() {
-  for await ({ [Symbol.iterator]: a } of [])
-    {
-    }
-}
+ async function f() {
+for await({  : a } of []) {  }
+} 
 ```
 
 ### Diagnostics

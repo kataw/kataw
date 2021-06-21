@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/declarations/function/demotion_through_asi/autogen.md
-- Path: kataw/test/__snapshot__/parser/declarations/function/demotion_through_asi/gen/case
+- Regenerated: 2021-06-12
+- From: d
+- Path: e
 > :: test: case
 > :: case: [foo]
 ## Options
@@ -63,7 +63,7 @@ function f(){
                         {
                             "kind": 120,
                             "expression": {
-                                "kind": 536871042,
+                                "kind": 130,
                                 "member": {
                                     "kind": 201392131,
                                     "text": "use strict",
@@ -80,7 +80,7 @@ function f(){
                                     "start": 32,
                                     "end": 35
                                 },
-                                "flags": 32,
+                                "flags": 536870944,
                                 "start": 13,
                                 "end": 36
                             },
@@ -116,9 +116,9 @@ function f(){
 
 ```javascript
 
-function f() {
-  ;
-}
+ function f() {
+"use strict"[foo];
+} 
 ```
 
 ### Diagnostics

@@ -120,9 +120,9 @@ function *f() {
 
 ```javascript
 
-function * f() {
-  (yield /x/);
-}
+ function* f() {
+(yield );
+} 
 ```
 
 ### Diagnostics

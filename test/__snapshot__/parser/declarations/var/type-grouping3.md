@@ -130,7 +130,7 @@ var a: number & (string | bool)
 
 ```javascript
 
-var a: ;
+ var a ; 
 ```
 
 ### Diagnostics

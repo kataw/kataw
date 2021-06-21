@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/declarations/let/sub-tree/autogen.md
-- Path: kataw/test/__snapshot__/parser/declarations/let/sub-tree/gen/if
+- Regenerated: 2021-06-12
+- From: d
+- Path: f
 > :: test: if
 > :: case: let
 >          []
@@ -44,7 +44,7 @@ if (a) let
             "consequent": {
                 "kind": 120,
                 "expression": {
-                    "kind": 536871042,
+                    "kind": 130,
                     "member": {
                         "kind": 134299649,
                         "text": "let",
@@ -61,7 +61,7 @@ if (a) let
                         "start": 12,
                         "end": 12
                     },
-                    "flags": 32,
+                    "flags": 536870944,
                     "start": 6,
                     "end": 13
                 },

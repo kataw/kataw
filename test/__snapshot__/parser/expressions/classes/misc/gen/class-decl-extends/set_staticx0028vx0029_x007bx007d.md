@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/classes/misc/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/classes/misc/gen/class-decl-extends
+- Regenerated: 2021-06-12
+- From: d
+- Path: s
 > :: test: class-decl-extends
 > :: case: set static(v) {}
 ## Options
@@ -72,7 +72,6 @@ class C extends Base { set static(v) {} }
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": null,
@@ -82,6 +81,7 @@ class C extends Base { set static(v) {} }
                                 "start": 22,
                                 "end": 26
                             },
+                            "asteriskToken": null,
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -93,7 +93,7 @@ class C extends Base { set static(v) {} }
                                     "end": 33
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [
                                         {
@@ -160,9 +160,10 @@ class C extends Base { set static(v) {} }
 
 ```javascript
 
-class C  {
-  set static {}
-}
+ class C {
+    set static(v) {
+    }
+} 
 ```
 
 ### Diagnostics

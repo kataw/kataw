@@ -243,7 +243,7 @@ type x<y> = z<<q>(r) => s>
 
 ```javascript
 
-
+  
 ```
 
 ### Diagnostics

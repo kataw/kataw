@@ -46,12 +46,7 @@ async (a = (...await) => {});
                         },
                         "right": {
                             "kind": 271,
-                            "arrowToken": {
-                                "kind": 10,
-                                "flags": 64,
-                                "start": 21,
-                                "end": 24
-                            },
+                            "asyncKeyword": null,
                             "typeParameters": null,
                             "parameters": [
                                 {
@@ -78,8 +73,13 @@ async (a = (...await) => {});
                                     "end": 20
                                 }
                             ],
-                            "asyncKeyword": null,
                             "returnType": null,
+                            "arrowToken": {
+                                "kind": 10,
+                                "flags": 64,
+                                "start": 21,
+                                "end": 24
+                            },
                             "contents": {
                                 "kind": 216,
                                 "functionStatementList": {
@@ -132,8 +132,7 @@ async (a = (...await) => {});
 
 ```javascript
 
-async(a = (...await) =>  {})
-
+ , ; 
 ```
 
 ### Diagnostics

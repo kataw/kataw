@@ -138,7 +138,7 @@ declare class x {
 
 ```javascript
 
-declare class x TODO!
+ declare class x {} 
 ```
 
 ### Diagnostics

@@ -31,12 +31,7 @@
             "kind": 120,
             "expression": {
                 "kind": 271,
-                "arrowToken": {
-                    "kind": 10,
-                    "flags": 64,
-                    "start": 17,
-                    "end": 20
-                },
+                "asyncKeyword": null,
                 "typeParameters": null,
                 "parameters": [
                     {
@@ -76,7 +71,6 @@
                         "end": 11
                     }
                 ],
-                "asyncKeyword": null,
                 "returnType": {
                     "kind": 139,
                     "bitwiseOrToken": null,
@@ -90,6 +84,12 @@
                     "flags": 2097152,
                     "start": 13,
                     "end": 17
+                },
+                "arrowToken": {
+                    "kind": 10,
+                    "flags": 64,
+                    "start": 17,
+                    "end": 20
                 },
                 "contents": {
                     "kind": 134299649,
@@ -115,12 +115,7 @@
                     "kind": 121,
                     "expression": {
                         "kind": 271,
-                        "arrowToken": {
-                            "kind": 10,
-                            "flags": 64,
-                            "start": 29,
-                            "end": 32
-                        },
+                        "asyncKeyword": null,
                         "typeParameters": null,
                         "parameters": [
                             {
@@ -147,8 +142,13 @@
                                 "end": 28
                             }
                         ],
-                        "asyncKeyword": null,
                         "returnType": null,
+                        "arrowToken": {
+                            "kind": 10,
+                            "flags": 64,
+                            "start": 29,
+                            "end": 32
+                        },
                         "contents": {
                             "kind": 198,
                             "left": {
@@ -205,12 +205,7 @@
             "kind": 120,
             "expression": {
                 "kind": 271,
-                "arrowToken": {
-                    "kind": 10,
-                    "flags": 64,
-                    "start": 64,
-                    "end": 67
-                },
+                "asyncKeyword": null,
                 "typeParameters": null,
                 "parameters": [
                     {
@@ -258,7 +253,6 @@
                         "end": 58
                     }
                 ],
-                "asyncKeyword": null,
                 "returnType": {
                     "kind": 139,
                     "bitwiseOrToken": null,
@@ -272,6 +266,12 @@
                     "flags": 2097152,
                     "start": 60,
                     "end": 64
+                },
+                "arrowToken": {
+                    "kind": 10,
+                    "flags": 64,
+                    "start": 64,
+                    "end": 67
                 },
                 "contents": {
                     "kind": 134299649,
@@ -308,12 +308,7 @@
                             },
                             {
                                 "kind": 271,
-                                "arrowToken": {
-                                    "kind": 10,
-                                    "flags": 64,
-                                    "start": 79,
-                                    "end": 82
-                                },
+                                "asyncKeyword": null,
                                 "typeParameters": null,
                                 "parameters": [
                                     {
@@ -340,8 +335,13 @@
                                         "end": 78
                                     }
                                 ],
-                                "asyncKeyword": null,
                                 "returnType": null,
+                                "arrowToken": {
+                                    "kind": 10,
+                                    "flags": 64,
+                                    "start": 79,
+                                    "end": 82
+                                },
                                 "contents": {
                                     "kind": 198,
                                     "left": {
@@ -413,10 +413,7 @@
 
 ```javascript
 
-(x?) =>  x;
-((k?) =>  k + 1)();
-(q, x?) =>  x;
-(q, (k?) =>  k + 1)();
+ (x?: number): any =>x;, ;, (q, x?: number): any =>x;, ; 
 ```
 
 ### Diagnostics

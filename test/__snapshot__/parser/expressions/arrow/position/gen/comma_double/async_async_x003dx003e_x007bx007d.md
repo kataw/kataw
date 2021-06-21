@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/arrow/position/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/arrow/position/gen/comma_double
+- Regenerated: 2021-06-12
+- From: d
+- Path: e
 > :: test: comma double
 > :: case: async async => {}
 ## Options
@@ -30,11 +30,11 @@ async async => {}, async async => {}
                 "expressions": [
                     {
                         "kind": 271,
-                        "arrowToken": {
-                            "kind": 10,
+                        "asyncKeyword": {
+                            "kind": 82031,
                             "flags": 64,
-                            "start": 11,
-                            "end": 14
+                            "start": 0,
+                            "end": 5
                         },
                         "typeParameters": null,
                         "parameters": {
@@ -45,13 +45,13 @@ async async => {}, async async => {}
                             "start": 5,
                             "end": 11
                         },
-                        "asyncKeyword": {
-                            "kind": 82031,
-                            "flags": 64,
-                            "start": 0,
-                            "end": 5
-                        },
                         "returnType": null,
+                        "arrowToken": {
+                            "kind": 10,
+                            "flags": 64,
+                            "start": 11,
+                            "end": 14
+                        },
                         "contents": {
                             "kind": 216,
                             "functionStatementList": {
@@ -72,11 +72,11 @@ async async => {}, async async => {}
                     },
                     {
                         "kind": 271,
-                        "arrowToken": {
-                            "kind": 10,
+                        "asyncKeyword": {
+                            "kind": 82031,
                             "flags": 64,
-                            "start": 30,
-                            "end": 33
+                            "start": 18,
+                            "end": 24
                         },
                         "typeParameters": null,
                         "parameters": {
@@ -87,13 +87,13 @@ async async => {}, async async => {}
                             "start": 24,
                             "end": 30
                         },
-                        "asyncKeyword": {
-                            "kind": 82031,
-                            "flags": 64,
-                            "start": 18,
-                            "end": 24
-                        },
                         "returnType": null,
+                        "arrowToken": {
+                            "kind": 10,
+                            "flags": 64,
+                            "start": 30,
+                            "end": 33
+                        },
                         "contents": {
                             "kind": 216,
                             "functionStatementList": {
@@ -135,7 +135,9 @@ async async => {}, async async => {}
 
 ```javascript
 
-async async =>  {}, async async =>  {};
+ async => {
+}, async => {
+}; 
 ```
 
 ### Diagnostics

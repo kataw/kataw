@@ -48,9 +48,9 @@
                                 "end": 18
                             },
                             {
-                                "kind": 257,
+                                "kind": 351,
                                 "asyncKeyword": null,
-                                "generatorToken": null,
+                                "asteriskToken": null,
                                 "getKeyword": {
                                     "kind": 16498,
                                     "flags": 96,
@@ -69,7 +69,7 @@
                                         "end": 33
                                     },
                                     "typeParameters": null,
-                                    "formalParameters": {
+                                    "formalParameterList": {
                                         "kind": 214,
                                         "formalParameters": [],
                                         "trailingComma": false,
@@ -101,9 +101,9 @@
                                 "end": 37
                             },
                             {
-                                "kind": 257,
+                                "kind": 351,
                                 "asyncKeyword": null,
-                                "generatorToken": null,
+                                "asteriskToken": null,
                                 "getKeyword": null,
                                 "setKeyword": {
                                     "kind": 16499,
@@ -122,7 +122,7 @@
                                         "end": 52
                                     },
                                     "typeParameters": null,
-                                    "formalParameters": {
+                                    "formalParameterList": {
                                         "kind": 214,
                                         "formalParameters": [
                                             {
@@ -267,8 +267,9 @@
 
 ```javascript
 
-({ __proto__: null, get __proto__ {}, set __proto__ {} });
-({ 1: "\"__proto__\"", 1: "\"__proto__\"" });
+ ({ __proto__ : null, get __proto__() {
+    }, set __proto__(x) {
+    } });, ({ 1 : "__proto__", 1 : "__proto__" }); 
 ```
 
 ### Diagnostics

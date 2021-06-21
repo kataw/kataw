@@ -117,8 +117,8 @@ class Foo {}
 
 ```javascript
 
-@foo("'bar'")
-class Foo {}
+ class Foo {
+} 
 ```
 
 ### Diagnostics

@@ -119,8 +119,7 @@ export { x }
 
 ```javascript
 
-let x;
-export { x };
+ let x;,  
 ```
 
 ### Diagnostics

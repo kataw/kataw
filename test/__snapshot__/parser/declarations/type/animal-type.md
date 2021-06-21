@@ -263,7 +263,7 @@ type Animal =
 
 ```javascript
 
-
+  
 ```
 
 ### Diagnostics

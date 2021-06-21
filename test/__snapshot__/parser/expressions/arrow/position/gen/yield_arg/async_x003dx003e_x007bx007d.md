@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/arrow/position/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/arrow/position/gen/yield_arg
+- Regenerated: 2021-06-12
+- From: d
+- Path: g
 > :: test: yield arg
 > :: case: async => {}
 ## Options
@@ -78,11 +78,11 @@ function *f() {
                                 "asteriskToken": null,
                                 "expression": {
                                     "kind": 271,
-                                    "arrowToken": {
-                                        "kind": 10,
+                                    "asyncKeyword": {
+                                        "kind": 82031,
                                         "flags": 64,
-                                        "start": 29,
-                                        "end": 32
+                                        "start": 23,
+                                        "end": 29
                                     },
                                     "typeParameters": null,
                                     "parameters": {
@@ -93,13 +93,13 @@ function *f() {
                                         "start": 23,
                                         "end": 29
                                     },
-                                    "asyncKeyword": {
-                                        "kind": 82031,
-                                        "flags": 64,
-                                        "start": 23,
-                                        "end": 29
-                                    },
                                     "returnType": null,
+                                    "arrowToken": {
+                                        "kind": 10,
+                                        "flags": 64,
+                                        "start": 29,
+                                        "end": 32
+                                    },
                                     "contents": {
                                         "kind": 216,
                                         "functionStatementList": {
@@ -154,9 +154,10 @@ function *f() {
 
 ```javascript
 
-function * f() {
-  yield async async =>  {};
-}
+ function* f() {
+yield async => {
+};
+} 
 ```
 
 ### Diagnostics

@@ -244,12 +244,11 @@ async function f(){
 
 ```javascript
 
-async function f() {
-  for await (yield of x);
-}
-async function f() {
-  for await (yield of x);
-}
+ async function f() {
+for await(yield of x) ;
+}, async function f() {
+for await(yield of x) ;
+} 
 ```
 
 ### Diagnostics

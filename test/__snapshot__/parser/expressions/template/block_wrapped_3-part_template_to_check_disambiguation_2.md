@@ -169,9 +169,7 @@
 
 ```javascript
 
-{
-  `foo ${a} and ${b} and ${`w ${d} x ${e} y ${f} z`} baz`;
-}
+ { ; } 
 ```
 
 ### Diagnostics

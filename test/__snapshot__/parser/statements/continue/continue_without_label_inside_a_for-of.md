@@ -77,8 +77,7 @@ for (x of y) continue
 
 ```javascript
 
-for (x of y)
-  continue;
+ for(x of y) continue; 
 ```
 
 ### Diagnostics

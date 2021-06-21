@@ -293,9 +293,9 @@ var b: { (): string; (x: number): string } =
 
 ```javascript
 
-var b:  = function (): string {
-  return  "\"hi\"";
-};
+ var b  = function (): string {
+return "hi";
+}; 
 ```
 
 ### Diagnostics

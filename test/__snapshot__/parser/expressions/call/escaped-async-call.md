@@ -63,7 +63,7 @@
 
 ```javascript
 
-(async());
+ (); 
 ```
 
 ### Diagnostics

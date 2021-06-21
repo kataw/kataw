@@ -50,12 +50,7 @@ var f = (): (number) => 123;
                         "type": null,
                         "initializer": {
                             "kind": 271,
-                            "arrowToken": {
-                                "kind": 10,
-                                "flags": 64,
-                                "start": 20,
-                                "end": 23
-                            },
+                            "asyncKeyword": null,
                             "typeParameters": null,
                             "parameters": [
                                 {
@@ -67,7 +62,6 @@ var f = (): (number) => 123;
                                     "end": 10
                                 }
                             ],
-                            "asyncKeyword": null,
                             "returnType": {
                                 "kind": 139,
                                 "bitwiseOrToken": {
@@ -102,6 +96,12 @@ var f = (): (number) => 123;
                                 "flags": 2097152,
                                 "start": 12,
                                 "end": 20
+                            },
+                            "arrowToken": {
+                                "kind": 10,
+                                "flags": 64,
+                                "start": 20,
+                                "end": 23
                             },
                             "contents": {
                                 "kind": 201392130,
@@ -153,15 +153,9 @@ var f = (): (number) => 123;
                         "type": null,
                         "initializer": {
                             "kind": 271,
-                            "arrowToken": {
-                                "kind": 10,
-                                "flags": 64,
-                                "start": 48,
-                                "end": 51
-                            },
+                            "asyncKeyword": null,
                             "typeParameters": null,
                             "parameters": [],
-                            "asyncKeyword": null,
                             "returnType": {
                                 "kind": 139,
                                 "bitwiseOrToken": null,
@@ -181,6 +175,12 @@ var f = (): (number) => 123;
                                 "flags": 2097152,
                                 "start": 39,
                                 "end": 48
+                            },
+                            "arrowToken": {
+                                "kind": 10,
+                                "flags": 64,
+                                "start": 48,
+                                "end": 51
                             },
                             "contents": {
                                 "kind": 201392130,
@@ -221,8 +221,7 @@ var f = (): (number) => 123;
 
 ```javascript
 
-var f = (x) =>  1;
-var f = () =>  123;
+ var f = (x): | ,  =>1;, var f = (): (number) =>123; 
 ```
 
 ### Diagnostics

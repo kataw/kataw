@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/miscellaneous/destructuring/positive-cases/autogen.md
-- Path: kataw/test/__snapshot__/parser/miscellaneous/destructuring/positive-cases/gen/parenthized_arrow
+- Regenerated: 2021-06-12
+- From: d
+- Path: w
 > :: test: parenthized arrow
 > :: case: [a,b,...rest]
 ## Options
@@ -48,12 +48,7 @@ var f = ([a,b,...rest]) => {};
                         "type": null,
                         "initializer": {
                             "kind": 271,
-                            "arrowToken": {
-                                "kind": 10,
-                                "flags": 64,
-                                "start": 23,
-                                "end": 26
-                            },
+                            "asyncKeyword": null,
                             "typeParameters": null,
                             "parameters": [
                                 {
@@ -111,8 +106,13 @@ var f = ([a,b,...rest]) => {};
                                     "end": 22
                                 }
                             ],
-                            "asyncKeyword": null,
                             "returnType": null,
+                            "arrowToken": {
+                                "kind": 10,
+                                "flags": 64,
+                                "start": 23,
+                                "end": 26
+                            },
                             "contents": {
                                 "kind": 216,
                                 "functionStatementList": {
@@ -158,7 +158,8 @@ var f = ([a,b,...rest]) => {};
 
 ```javascript
 
-var f = ([, b, a]) =>  {};
+ var f = ([...rest, b, a]) => {
+}; 
 ```
 
 ### Diagnostics

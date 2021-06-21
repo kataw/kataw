@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/function/func_statements/gen/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/function/func_statements/gen/gen/in_block
+- Regenerated: 2021-06-12
+- From: d
+- Path: k
 > :: test: in block
 > :: case: async function f(){}
 ## Options
@@ -105,9 +105,8 @@
 
 ```javascript
 
-{
-  async function f() {}
-}
+ { async function f() {
+} } 
 ```
 
 ### Diagnostics

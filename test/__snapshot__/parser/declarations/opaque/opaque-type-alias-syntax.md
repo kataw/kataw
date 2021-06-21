@@ -457,12 +457,7 @@ opaque type VeryOpaque: AliasAlias = ObjectAlias;
 
 ```javascript
 
-
-
-
-
-
-
+ , ;, , ;, , ;, , ;, , ; 
 ```
 
 ### Diagnostics

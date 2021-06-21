@@ -58,11 +58,11 @@ class WebControls {
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": null,
                             "getKeyword": null,
+                            "asteriskToken": null,
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -74,7 +74,7 @@ class WebControls {
                                     "end": 77
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -145,15 +145,10 @@ class WebControls {
 
 ```javascript
 
-class WebControls {
-  /**
-     * Render a control
-     */
-  /**
-     * Render a control
-     */
-  createControl {}
-}
+ class WebControls {
+    createControl(): any {
+    }
+} 
 ```
 
 ### Diagnostics

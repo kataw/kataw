@@ -50,7 +50,6 @@ class x {async foo(){}}
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": {
                                 "kind": 82031,
@@ -60,6 +59,7 @@ class x {async foo(){}}
                             },
                             "setKeyword": null,
                             "getKeyword": null,
+                            "asteriskToken": null,
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -71,7 +71,7 @@ class x {async foo(){}}
                                     "end": 18
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -129,9 +129,10 @@ class x {async foo(){}}
 
 ```javascript
 
-class x {
-  async foo {}
-}
+ class x {
+    async foo() {
+    }
+} 
 ```
 
 ### Diagnostics

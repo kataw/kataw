@@ -56,11 +56,11 @@ function *g(){ async (x = [yield]) => z }
                     "statements": [
                         {
                             "kind": 271,
-                            "arrowToken": {
-                                "kind": 10,
+                            "asyncKeyword": {
+                                "kind": 82031,
                                 "flags": 64,
-                                "start": 34,
-                                "end": 37
+                                "start": 14,
+                                "end": 20
                             },
                             "typeParameters": null,
                             "parameters": [
@@ -112,13 +112,13 @@ function *g(){ async (x = [yield]) => z }
                                     "end": 33
                                 }
                             ],
-                            "asyncKeyword": {
-                                "kind": 82031,
-                                "flags": 64,
-                                "start": 14,
-                                "end": 20
-                            },
                             "returnType": null,
+                            "arrowToken": {
+                                "kind": 10,
+                                "flags": 64,
+                                "start": 34,
+                                "end": 37
+                            },
                             "contents": {
                                 "kind": 134299649,
                                 "text": "z",
@@ -159,9 +159,9 @@ function *g(){ async (x = [yield]) => z }
 
 ```javascript
 
-function * g() {
-  async (x = [ yield]) =>  z
-}
+ function* g() {
+(x = [yield]) =>z
+} 
 ```
 
 ### Diagnostics

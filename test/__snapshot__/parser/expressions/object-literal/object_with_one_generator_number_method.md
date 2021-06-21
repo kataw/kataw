@@ -36,9 +36,9 @@ wrap({*123(){}});
                                 "kind": 218,
                                 "properties": [
                                     {
-                                        "kind": 257,
+                                        "kind": 351,
                                         "asyncKeyword": null,
-                                        "generatorToken": {
+                                        "asteriskToken": {
                                             "kind": 67143222,
                                             "flags": 64,
                                             "start": 6,
@@ -57,7 +57,7 @@ wrap({*123(){}});
                                                 "end": 10
                                             },
                                             "typeParameters": null,
-                                            "formalParameters": {
+                                            "formalParameterList": {
                                                 "kind": 214,
                                                 "formalParameters": [],
                                                 "trailingComma": false,
@@ -126,7 +126,7 @@ wrap({*123(){}});
 
 ```javascript
 
-wrap({ 123 {} });
+ ; 
 ```
 
 ### Diagnostics

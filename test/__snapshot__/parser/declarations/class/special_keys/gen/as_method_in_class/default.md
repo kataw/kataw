@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/declarations/class/special_keys/autogen.md
-- Path: kataw/test/__snapshot__/parser/declarations/class/special_keys/gen/as_method_in_class
+- Regenerated: 2021-06-12
+- From: d
+- Path: s
 > :: test: as method in class
 > :: case: default
 ## Options
@@ -52,11 +52,11 @@ class x {default(){}}
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": null,
                             "getKeyword": null,
+                            "asteriskToken": null,
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -68,7 +68,7 @@ class x {default(){}}
                                     "end": 16
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -126,9 +126,10 @@ class x {default(){}}
 
 ```javascript
 
-class x {
-  default {}
-}
+ class x {
+    default() {
+    }
+} 
 ```
 
 ### Diagnostics

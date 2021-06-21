@@ -396,10 +396,9 @@ function from<T>(arg: any): Query<T> {
 
 ```javascript
 
-function  <T >from(): ;
-function  <T >from():  {
-  return  undefined;
-}
+ declare function from(): Query, ;, function from(): Query {
+return undefined;
+} 
 ```
 
 ### Diagnostics

@@ -89,7 +89,7 @@
 
 ```javascript
 
-[.../x/ / yield];
+ [... / yield]; 
 ```
 
 ### Diagnostics

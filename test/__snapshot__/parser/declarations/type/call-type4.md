@@ -125,7 +125,7 @@ type D = $Call<Fn1>;
 
 ```javascript
 
-
+  
 ```
 
 ### Diagnostics

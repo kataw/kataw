@@ -347,8 +347,7 @@ type a = ((bj[c] | e) => T);
 
 ```javascript
 
-
-
+ ,  
 ```
 
 ### Diagnostics

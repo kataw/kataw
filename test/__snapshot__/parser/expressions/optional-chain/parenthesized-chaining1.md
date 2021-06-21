@@ -96,7 +96,7 @@
 
 ```javascript
 
-().bbb;
+ ().bbb; 
 ```
 
 ### Diagnostics

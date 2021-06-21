@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/classes/extends-lefthandside/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/classes/extends-lefthandside/gen/generator_wrapped
+- Regenerated: 2021-06-12
+- From: d
+- Path: d
 > :: test: generator wrapped
 > :: case: async
 >          x => y
@@ -127,12 +127,7 @@ x => y {}
                             "kind": 120,
                             "expression": {
                                 "kind": 271,
-                                "arrowToken": {
-                                    "kind": 10,
-                                    "flags": 64,
-                                    "start": 40,
-                                    "end": 43
-                                },
+                                "asyncKeyword": null,
                                 "typeParameters": null,
                                 "parameters": {
                                     "kind": 134299649,
@@ -142,8 +137,13 @@ x => y {}
                                     "start": 38,
                                     "end": 40
                                 },
-                                "asyncKeyword": null,
                                 "returnType": null,
+                                "arrowToken": {
+                                    "kind": 10,
+                                    "flags": 64,
+                                    "start": 40,
+                                    "end": 43
+                                },
                                 "contents": {
                                     "kind": 134299649,
                                     "text": "y",

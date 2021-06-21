@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/await/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/await/gen/simple
+- Regenerated: 2021-06-12
+- From: d
+- Path: e
 > :: test: simple
 > :: case: let x = function *f(foo = await){}
 ## Options
@@ -149,7 +149,8 @@ let x = function *f(foo = await){}
 
 ```javascript
 
-let x = function * f() {};
+ let x = function* f() {
+}; 
 ```
 
 ### Diagnostics

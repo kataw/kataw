@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/miscellaneous/destructuring/failing-cases/autogen.md
-- Path: kataw/test/__snapshot__/parser/miscellaneous/destructuring/failing-cases/gen/function_param_list
+- Regenerated: 2021-06-12
+- From: d
+- Path: t
 > :: test: function param list
 > :: case: { x: import.meta }
 ## Options
@@ -53,7 +53,6 @@ function x({ x: import.meta }) {}
                             "properties": [
                                 {
                                     "kind": 329,
-                                    "ellipsisToken": null,
                                     "key": {
                                         "kind": 134299649,
                                         "text": "x",
@@ -77,7 +76,6 @@ function x({ x: import.meta }) {}
                                 },
                                 {
                                     "kind": 329,
-                                    "ellipsisToken": null,
                                     "key": {
                                         "kind": 134299649,
                                         "text": "import",

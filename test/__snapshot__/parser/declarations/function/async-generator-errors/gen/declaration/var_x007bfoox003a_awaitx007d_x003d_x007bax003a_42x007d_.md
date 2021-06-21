@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/declarations/function/async-generator-errors/autogen.md
-- Path: kataw/test/__snapshot__/parser/declarations/function/async-generator-errors/gen/declaration
+- Regenerated: 2021-06-12
+- From: d
+- Path: n
 > :: test: declaration
 > :: case: var {foo: await} = {a: 42};
 ## Options
@@ -89,7 +89,6 @@ async function * gen() {var {foo: await} = {a: 42};}
                                                 "properties": [
                                                     {
                                                         "kind": 329,
-                                                        "ellipsisToken": null,
                                                         "key": {
                                                             "kind": 134299649,
                                                             "text": "foo",

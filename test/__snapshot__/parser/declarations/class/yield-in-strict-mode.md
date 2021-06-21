@@ -164,11 +164,11 @@ function* f() { class C { aaa = yield } }
 
 ```javascript
 
-function * f() {
-  class C {
-    aaa =  yield;
-  }
+ function* f() {
+class C {
+    aaa = yield
 }
+} 
 ```
 
 ### Diagnostics

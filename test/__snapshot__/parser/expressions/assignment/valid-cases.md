@@ -1263,21 +1263,7 @@ a = !!b;
 
 ```javascript
 
-a = !!(b + c);
-a = !!(b == c);
-a = !!(b != c);
-a = !!(b === c);
-a = !!(b !== c);
-a = !!(b  < c);
-a = !!(b > c);
-a = !!(b <= c);
-a = !!(b >= c);
-a = !!(b in c);
-a = !!(b && !c);
-a = !!(b, c);
-a = !!!b;
-a = !!void b;
-a = !!b;
+ a=;, a=;, a=;, a=;, a=;, a=;, a=;, a=;, a=;, a=;, a=;, a=;, a=;, a=;, a=; 
 ```
 
 ### Diagnostics

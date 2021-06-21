@@ -96,7 +96,7 @@ wrap({"a":b});
 
 ```javascript
 
-wrap({ "\"a\"": b });
+ ; 
 ```
 
 ### Diagnostics

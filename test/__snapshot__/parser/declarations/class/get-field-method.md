@@ -71,11 +71,11 @@ class C { get; #aaa(){} }
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": null,
                             "getKeyword": null,
+                            "asteriskToken": null,
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -87,7 +87,7 @@ class C { get; #aaa(){} }
                                     "end": 19
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -145,11 +145,12 @@ class C { get; #aaa(){} }
 
 ```javascript
 
-class C {
-  get;
-
-  #aaa {}
-}
+ class C {
+    get,
+    ,
+    #aaa() {
+    }
+} 
 ```
 
 ### Diagnostics

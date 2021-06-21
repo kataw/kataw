@@ -200,9 +200,9 @@ var z : Object = function (x: number): string { return "hi"; };
 
 ```javascript
 
-var z:  = function (): string {
-  return  "\"hi\"";
-};
+ var z  = function (): string {
+return "hi";
+}; 
 ```
 
 ### Diagnostics

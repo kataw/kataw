@@ -43,43 +43,55 @@ for (let of x) y
                 "end": 3
             },
             "initializer": {
-                "kind": 151,
-                "bindingList": [
-                    {
-                        "kind": 190,
-                        "binding": {
-                            "kind": 134299649,
-                            "text": "of",
-                            "rawText": "of",
-                            "flags": 96,
+                "kind": 162,
+                "lexicalKeyword": {
+                    "kind": 41951307,
+                    "flags": 64,
+                    "start": 0,
+                    "end": 8
+                },
+                "binding": {
+                    "kind": 151,
+                    "bindingList": [
+                        {
+                            "kind": 190,
+                            "binding": {
+                                "kind": 134299649,
+                                "text": "of",
+                                "rawText": "of",
+                                "flags": 96,
+                                "start": 8,
+                                "end": 11
+                            },
+                            "type": null,
+                            "initializer": null,
+                            "flags": 16,
                             "start": 8,
                             "end": 11
                         },
-                        "type": null,
-                        "initializer": null,
-                        "flags": 16,
-                        "start": 8,
-                        "end": 11
-                    },
-                    {
-                        "kind": 190,
-                        "binding": {
-                            "kind": 134299649,
-                            "text": "x",
-                            "rawText": "x",
-                            "flags": 96,
+                        {
+                            "kind": 190,
+                            "binding": {
+                                "kind": 134299649,
+                                "text": "x",
+                                "rawText": "x",
+                                "flags": 96,
+                                "start": 11,
+                                "end": 13
+                            },
+                            "type": null,
+                            "initializer": null,
+                            "flags": 16,
                             "start": 11,
                             "end": 13
-                        },
-                        "type": null,
-                        "initializer": null,
-                        "flags": 16,
-                        "start": 11,
-                        "end": 13
-                    }
-                ],
-                "flags": 16,
-                "start": 8,
+                        }
+                    ],
+                    "flags": 16,
+                    "start": 8,
+                    "end": 13
+                },
+                "flags": 33554448,
+                "start": 0,
                 "end": 13
             },
             "condition": null,

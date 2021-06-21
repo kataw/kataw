@@ -132,7 +132,8 @@ function f(b, a, b, a, [fine]) {}
 
 ```javascript
 
-function f() {}
+ function f(b, a, b, a, ) {
+} 
 ```
 
 ### Diagnostics

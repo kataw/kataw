@@ -127,8 +127,7 @@ export { \u0061bc }
 
 ```javascript
 
-var abc = 5;
-export { abc };
+ var abc = 5;,  
 ```
 
 ### Diagnostics

@@ -407,7 +407,7 @@ obj.a?.[true]
 
 ```javascript
 
-.a?.[true];
+ ; 
 ```
 
 ### Diagnostics

@@ -114,9 +114,9 @@ class C { aaa = bbb }
 
 ```javascript
 
-class C {
-  aaa = bbb;
-}
+ class C {
+    aaa = bbb
+} 
 ```
 
 ### Diagnostics

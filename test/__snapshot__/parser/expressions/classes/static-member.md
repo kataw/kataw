@@ -50,7 +50,6 @@ class A {static set [foo](x){}}
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": null,
                             "staticKeyword": {
                                 "kind": 8388716,
                                 "flags": 64,
@@ -65,6 +64,7 @@ class A {static set [foo](x){}}
                                 "start": 15,
                                 "end": 19
                             },
+                            "asteriskToken": null,
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -82,7 +82,7 @@ class A {static set [foo](x){}}
                                     "end": 25
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [
                                         {
@@ -149,9 +149,10 @@ class A {static set [foo](x){}}
 
 ```javascript
 
-class A {
-  static set static [foo] {}
-}
+ class A {
+    static set (x) {
+    }
+} 
 ```
 
 ### Diagnostics

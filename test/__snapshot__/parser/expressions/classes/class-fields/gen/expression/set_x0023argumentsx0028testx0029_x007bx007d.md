@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/classes/class-fields/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/classes/class-fields/gen/expression
+- Regenerated: 2021-06-12
+- From: d
+- Path: n
 > :: test: expression
 > :: case: set #arguments(test) {}
 ## Options
@@ -72,7 +72,6 @@ class C extends Base { set #arguments(test) {} }
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": null,
@@ -82,6 +81,7 @@ class C extends Base { set #arguments(test) {} }
                                 "start": 22,
                                 "end": 26
                             },
+                            "asteriskToken": null,
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -93,7 +93,7 @@ class C extends Base { set #arguments(test) {} }
                                     "end": 37
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [
                                         {
@@ -160,9 +160,10 @@ class C extends Base { set #arguments(test) {} }
 
 ```javascript
 
-class C  {
-  set #arguments {}
-}
+ class C {
+    set #arguments(test) {
+    }
+} 
 ```
 
 ### Diagnostics

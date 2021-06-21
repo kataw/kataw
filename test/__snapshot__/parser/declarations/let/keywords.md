@@ -704,19 +704,7 @@ let nx: mixed;
 
 ```javascript
 
-let a: any;
-let un: unknown;
-let b: boolean;
-let ne: never;
-let nul: null;
-let num: number;
-let o: ;
-let st: string;
-let sy: symbol;
-let u: undefined;
-let v: void;
-let n: ;
-let nx: ;
+ let a ;, let un ;, let b ;, let ne ;, let nul ;, let num ;, let o ;, let st ;, let sy ;, let u ;, let v ;, let n ;, let nx ; 
 ```
 
 ### Diagnostics

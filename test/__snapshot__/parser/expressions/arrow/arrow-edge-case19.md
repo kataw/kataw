@@ -43,11 +43,11 @@ a ? async (b) => (c => d) : e => f;
                 },
                 "consequent": {
                     "kind": 271,
-                    "arrowToken": {
-                        "kind": 10,
+                    "asyncKeyword": {
+                        "kind": 82031,
                         "flags": 64,
-                        "start": 13,
-                        "end": 16
+                        "start": 3,
+                        "end": 9
                     },
                     "typeParameters": null,
                     "parameters": [
@@ -60,31 +60,21 @@ a ? async (b) => (c => d) : e => f;
                             "end": 12
                         }
                     ],
-                    "asyncKeyword": {
-                        "kind": 82031,
-                        "flags": 64,
-                        "start": 3,
-                        "end": 9
-                    },
                     "returnType": null,
+                    "arrowToken": {
+                        "kind": 10,
+                        "flags": 64,
+                        "start": 13,
+                        "end": 16
+                    },
                     "contents": {
                         "kind": 271,
-                        "arrowToken": {
-                            "kind": 10,
-                            "flags": 64,
-                            "start": 29,
-                            "end": 32
-                        },
+                        "asyncKeyword": null,
                         "typeParameters": null,
                         "parameters": [
                             {
                                 "kind": 271,
-                                "arrowToken": {
-                                    "kind": 10,
-                                    "flags": 64,
-                                    "start": 19,
-                                    "end": 22
-                                },
+                                "asyncKeyword": null,
                                 "typeParameters": null,
                                 "parameters": {
                                     "kind": 134299649,
@@ -94,8 +84,13 @@ a ? async (b) => (c => d) : e => f;
                                     "start": 18,
                                     "end": 19
                                 },
-                                "asyncKeyword": null,
                                 "returnType": null,
+                                "arrowToken": {
+                                    "kind": 10,
+                                    "flags": 64,
+                                    "start": 19,
+                                    "end": 22
+                                },
                                 "contents": {
                                     "kind": 134299649,
                                     "text": "d",
@@ -109,7 +104,6 @@ a ? async (b) => (c => d) : e => f;
                                 "end": 24
                             }
                         ],
-                        "asyncKeyword": null,
                         "returnType": {
                             "kind": 139,
                             "bitwiseOrToken": null,
@@ -132,6 +126,12 @@ a ? async (b) => (c => d) : e => f;
                             "flags": 2097152,
                             "start": 27,
                             "end": 29
+                        },
+                        "arrowToken": {
+                            "kind": 10,
+                            "flags": 64,
+                            "start": 29,
+                            "end": 32
                         },
                         "contents": {
                             "kind": 134299649,

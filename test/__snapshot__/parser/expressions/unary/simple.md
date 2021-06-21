@@ -110,9 +110,7 @@ typeof x;
 
 ```javascript
 
-!a;
-+b;
-typeof x;
+ ;, ;, ; 
 ```
 
 ### Diagnostics

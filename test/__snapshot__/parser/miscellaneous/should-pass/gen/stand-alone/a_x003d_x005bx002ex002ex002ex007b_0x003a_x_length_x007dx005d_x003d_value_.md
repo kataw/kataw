@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/miscellaneous/should-pass/autogen.md
-- Path: kataw/test/__snapshot__/parser/miscellaneous/should-pass/gen/stand-alone
+- Regenerated: 2021-06-12
+- From: d
+- Path: e
 > :: test: stand-alone
 > :: case: a = [...{ 0: x, length }] = value;
 ## Options
@@ -156,7 +156,7 @@ a = [...{ 0: x, length }] = value;
 
 ```javascript
 
-a = [...{ 0: x, length }] = value;
+ a=[...{ 0 : x, length }]=value; 
 ```
 
 ### Diagnostics

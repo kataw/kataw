@@ -658,9 +658,8 @@ class C {
 
 ```javascript
 
-class C {
-
-}
+ class C {
+} 
 ```
 
 ### Diagnostics

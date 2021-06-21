@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/arrow/arrow-functions/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/arrow/arrow-functions/gen/stand_alone
+- Regenerated: 2021-06-12
+- From: d
+- Path: e
 > :: test: stand alone
 > :: case: foo ? bar : baz => {}
 ## Options
@@ -57,12 +57,7 @@ foo ? bar : baz => {}
                 },
                 "alternate": {
                     "kind": 271,
-                    "arrowToken": {
-                        "kind": 10,
-                        "flags": 64,
-                        "start": 15,
-                        "end": 18
-                    },
+                    "asyncKeyword": null,
                     "typeParameters": null,
                     "parameters": {
                         "kind": 134299649,
@@ -72,8 +67,13 @@ foo ? bar : baz => {}
                         "start": 11,
                         "end": 15
                     },
-                    "asyncKeyword": null,
                     "returnType": null,
+                    "arrowToken": {
+                        "kind": 10,
+                        "flags": 64,
+                        "start": 15,
+                        "end": 18
+                    },
                     "contents": {
                         "kind": 216,
                         "functionStatementList": {
@@ -114,7 +114,8 @@ foo ? bar : baz => {}
 
 ```javascript
 
-foo ? bar : baz =>  {};
+ foo ? bar : baz => {
+}; 
 ```
 
 ### Diagnostics

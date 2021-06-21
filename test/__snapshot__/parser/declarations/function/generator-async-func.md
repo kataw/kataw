@@ -163,10 +163,8 @@ function* wrap() {
 
 ```javascript
 
-function * wrap() {
-  async(a = yield b)
-}
-
+ function* wrap() {
+}, ; 
 ```
 
 ### Diagnostics

@@ -107,9 +107,9 @@
 
 ```javascript
 
-(function () {
-    "\"asterisk: \052\"";
-  });
+ (function () {
+"asterisk: \052";
+}); 
 ```
 
 ### Diagnostics

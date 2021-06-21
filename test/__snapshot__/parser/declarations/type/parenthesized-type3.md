@@ -85,7 +85,7 @@ type Foo = (string)
 
 ```javascript
 
-
+  
 ```
 
 ### Diagnostics

@@ -51,7 +51,6 @@ class x { get prototype(){} }
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": {
@@ -61,6 +60,7 @@ class x { get prototype(){} }
                                 "end": 13
                             },
                             "getKeyword": null,
+                            "asteriskToken": null,
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -72,7 +72,7 @@ class x { get prototype(){} }
                                     "end": 23
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -130,9 +130,10 @@ class x { get prototype(){} }
 
 ```javascript
 
-class x {
-  get prototype {}
-}
+ class x {
+    get prototype() {
+    }
+} 
 ```
 
 ### Diagnostics

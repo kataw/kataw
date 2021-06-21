@@ -65,7 +65,7 @@ let \u0275ResourceLoaderImpl_BaseFactory
 
 ```javascript
 
-let ɵResourceLoaderImpl_BaseFactory;
+ let \u0275ResourceLoaderImpl_BaseFactory; 
 ```
 
 ### Diagnostics

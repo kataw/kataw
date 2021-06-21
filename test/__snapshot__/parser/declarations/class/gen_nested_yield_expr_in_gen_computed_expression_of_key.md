@@ -91,16 +91,16 @@ function *f(){  class x{*[yield](a){}}  }
                                             "kind": 278,
                                             "declareToken": null,
                                             "decorators": null,
+                                            "staticKeyword": null,
+                                            "asyncKeyword": null,
+                                            "setKeyword": null,
+                                            "getKeyword": null,
                                             "asteriskToken": {
                                                 "kind": 67143222,
                                                 "flags": 64,
                                                 "start": 24,
                                                 "end": 25
                                             },
-                                            "staticKeyword": null,
-                                            "asyncKeyword": null,
-                                            "setKeyword": null,
-                                            "getKeyword": null,
                                             "method": {
                                                 "kind": 209,
                                                 "name": {
@@ -125,7 +125,7 @@ function *f(){  class x{*[yield](a){}}  }
                                                     "end": 32
                                                 },
                                                 "typeParameters": null,
-                                                "formalParameters": {
+                                                "formalParameterList": {
                                                     "kind": 214,
                                                     "formalParameters": [
                                                         {
@@ -206,11 +206,12 @@ function *f(){  class x{*[yield](a){}}  }
 
 ```javascript
 
-function * f() {
-  class x {
-    [ yield] {}
-  }
+ function* f() {
+class x {
+    *(a) {
+    }
 }
+} 
 ```
 
 ### Diagnostics

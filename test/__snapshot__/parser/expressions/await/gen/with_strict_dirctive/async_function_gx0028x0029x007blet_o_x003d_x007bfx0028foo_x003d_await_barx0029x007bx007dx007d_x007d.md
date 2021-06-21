@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/await/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/await/gen/with_strict_dirctive
+- Regenerated: 2021-06-12
+- From: d
+- Path: e
 > :: test: with_strict_dirctive
 > :: case: async function g(){let o = {f(foo = await bar){}}    }
 ## Options
@@ -99,9 +99,9 @@
                                                 "kind": 218,
                                                 "properties": [
                                                     {
-                                                        "kind": 257,
+                                                        "kind": 351,
                                                         "asyncKeyword": null,
-                                                        "generatorToken": null,
+                                                        "asteriskToken": null,
                                                         "getKeyword": null,
                                                         "setKeyword": null,
                                                         "method": {
@@ -115,7 +115,7 @@
                                                                 "end": 43
                                                             },
                                                             "typeParameters": null,
-                                                            "formalParameters": {
+                                                            "formalParameterList": {
                                                                 "kind": 214,
                                                                 "formalParameters": [
                                                                     {

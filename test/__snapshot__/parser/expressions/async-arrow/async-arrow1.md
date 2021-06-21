@@ -28,11 +28,11 @@ async <T>(fn: () => T) => fn;
             "kind": 120,
             "expression": {
                 "kind": 271,
-                "arrowToken": {
-                    "kind": 10,
+                "asyncKeyword": {
+                    "kind": 82031,
                     "flags": 64,
-                    "start": 22,
-                    "end": 25
+                    "start": 0,
+                    "end": 5
                 },
                 "typeParameters": {
                     "kind": 307,
@@ -136,13 +136,13 @@ async <T>(fn: () => T) => fn;
                         "end": 21
                     }
                 ],
-                "asyncKeyword": {
-                    "kind": 82031,
-                    "flags": 64,
-                    "start": 0,
-                    "end": 5
-                },
                 "returnType": null,
+                "arrowToken": {
+                    "kind": 10,
+                    "flags": 64,
+                    "start": 22,
+                    "end": 25
+                },
                 "contents": {
                     "kind": 134299649,
                     "text": "fn",
@@ -173,7 +173,7 @@ async <T>(fn: () => T) => fn;
 
 ```javascript
 
-async (fn) =>  fn;
+ (fn: ) =>fn; 
 ```
 
 ### Diagnostics

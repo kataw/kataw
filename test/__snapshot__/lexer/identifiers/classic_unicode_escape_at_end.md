@@ -49,7 +49,7 @@ xxx\u0065
 
 ```javascript
 
-xxxe;
+ xxx\u0065; 
 ```
 
 ### Diagnostics

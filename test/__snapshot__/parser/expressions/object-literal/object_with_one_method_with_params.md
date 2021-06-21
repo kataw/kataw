@@ -36,9 +36,9 @@ wrap({foo(a,b,c){}});
                                 "kind": 218,
                                 "properties": [
                                     {
-                                        "kind": 257,
+                                        "kind": 351,
                                         "asyncKeyword": null,
-                                        "generatorToken": null,
+                                        "asteriskToken": null,
                                         "getKeyword": null,
                                         "setKeyword": null,
                                         "method": {
@@ -52,7 +52,7 @@ wrap({foo(a,b,c){}});
                                                 "end": 9
                                             },
                                             "typeParameters": null,
-                                            "formalParameters": {
+                                            "formalParameterList": {
                                                 "kind": 214,
                                                 "formalParameters": [
                                                     {
@@ -146,7 +146,7 @@ wrap({foo(a,b,c){}});
 
 ```javascript
 
-wrap({ foo {} });
+ ; 
 ```
 
 ### Diagnostics

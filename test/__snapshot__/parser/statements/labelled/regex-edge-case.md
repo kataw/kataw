@@ -63,7 +63,7 @@ foo:
 
 ```javascript
 
-foo: /bar/;
+ foo: ; 
 ```
 
 ### Diagnostics

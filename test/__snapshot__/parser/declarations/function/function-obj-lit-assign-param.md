@@ -62,9 +62,9 @@ function* foo(a = {*bar() { yield b }}) {}
                                 "kind": 218,
                                 "properties": [
                                     {
-                                        "kind": 257,
+                                        "kind": 351,
                                         "asyncKeyword": null,
-                                        "generatorToken": {
+                                        "asteriskToken": {
                                             "kind": 67143222,
                                             "flags": 64,
                                             "start": 19,
@@ -83,7 +83,7 @@ function* foo(a = {*bar() { yield b }}) {}
                                                 "end": 23
                                             },
                                             "typeParameters": null,
-                                            "formalParameters": {
+                                            "formalParameterList": {
                                                 "kind": 214,
                                                 "formalParameters": [],
                                                 "trailingComma": false,
@@ -196,7 +196,8 @@ function* foo(a = {*bar() { yield b }}) {}
 
 ```javascript
 
-function * foo() {}
+ function* foo() {
+} 
 ```
 
 ### Diagnostics

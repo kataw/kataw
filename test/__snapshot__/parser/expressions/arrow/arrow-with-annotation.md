@@ -35,12 +35,7 @@
             "kind": 120,
             "expression": {
                 "kind": 271,
-                "arrowToken": {
-                    "kind": 10,
-                    "flags": 64,
-                    "start": 11,
-                    "end": 14
-                },
+                "asyncKeyword": null,
                 "typeParameters": null,
                 "parameters": [
                     {
@@ -75,8 +70,13 @@
                         "end": 10
                     }
                 ],
-                "asyncKeyword": null,
                 "returnType": null,
+                "arrowToken": {
+                    "kind": 10,
+                    "flags": 64,
+                    "start": 11,
+                    "end": 14
+                },
                 "contents": {
                     "kind": 134299649,
                     "text": "x",
@@ -97,12 +97,7 @@
             "kind": 120,
             "expression": {
                 "kind": 271,
-                "arrowToken": {
-                    "kind": 10,
-                    "flags": 64,
-                    "start": 33,
-                    "end": 36
-                },
+                "asyncKeyword": null,
                 "typeParameters": null,
                 "parameters": [
                     {
@@ -145,8 +140,13 @@
                         "end": 32
                     }
                 ],
-                "asyncKeyword": null,
                 "returnType": null,
+                "arrowToken": {
+                    "kind": 10,
+                    "flags": 64,
+                    "start": 33,
+                    "end": 36
+                },
                 "contents": {
                     "kind": 134299649,
                     "text": "z",
@@ -167,12 +167,7 @@
             "kind": 120,
             "expression": {
                 "kind": 271,
-                "arrowToken": {
-                    "kind": 10,
-                    "flags": 64,
-                    "start": 54,
-                    "end": 57
-                },
+                "asyncKeyword": null,
                 "typeParameters": null,
                 "parameters": [
                     {
@@ -222,8 +217,13 @@
                         "end": 53
                     }
                 ],
-                "asyncKeyword": null,
                 "returnType": null,
+                "arrowToken": {
+                    "kind": 10,
+                    "flags": 64,
+                    "start": 54,
+                    "end": 57
+                },
                 "contents": {
                     "kind": 134299649,
                     "text": "x",
@@ -244,12 +244,7 @@
             "kind": 120,
             "expression": {
                 "kind": 271,
-                "arrowToken": {
-                    "kind": 10,
-                    "flags": 64,
-                    "start": 75,
-                    "end": 78
-                },
+                "asyncKeyword": null,
                 "typeParameters": null,
                 "parameters": [
                     {
@@ -299,8 +294,13 @@
                         "end": 74
                     }
                 ],
-                "asyncKeyword": null,
                 "returnType": null,
+                "arrowToken": {
+                    "kind": 10,
+                    "flags": 64,
+                    "start": 75,
+                    "end": 78
+                },
                 "contents": {
                     "kind": 134299649,
                     "text": "x",
@@ -331,10 +331,7 @@
 
 ```javascript
 
-(a) =>  x;
-(x, y) =>  z;
-([a]) =>  x;
-({ a }) =>  x;
+ (a: string) =>x;, (x, y: string) =>z;, ([a]: string) =>x;, ({ a }: string) =>x; 
 ```
 
 ### Diagnostics

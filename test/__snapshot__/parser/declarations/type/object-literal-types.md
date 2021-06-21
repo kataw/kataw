@@ -1103,16 +1103,11 @@ type T9 = { [param: string]: U };
 
 ```javascript
 
-
-
-
-
-
-
-
-
-
-
+ , , , , , , , , , ,  
+ //type T10 = { ... };
+//type T11 = { a: { b: { c: {...}, ... }, ... } }
+//type T12 = { foo: number, ... };
+//type T13 = { foo: number, bar: string, ... };
 
 ```
 

@@ -55,8 +55,7 @@ debugger
 
 ```javascript
 
-debugger;
-/bar/g;
+ debugger;, ; 
 ```
 
 ### Diagnostics

@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/declarations/class/special_keys/autogen.md
-- Path: kataw/test/__snapshot__/parser/declarations/class/special_keys/gen/as_async_generator_in_class
+- Regenerated: 2021-06-12
+- From: d
+- Path: s
 > :: test: as async generator in class
 > :: case: export
 ## Options
@@ -52,12 +52,6 @@ class x {async * export(){}}
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": {
-                                "kind": 67143222,
-                                "flags": 64,
-                                "start": 14,
-                                "end": 16
-                            },
                             "staticKeyword": null,
                             "asyncKeyword": {
                                 "kind": 82031,
@@ -67,6 +61,12 @@ class x {async * export(){}}
                             },
                             "setKeyword": null,
                             "getKeyword": null,
+                            "asteriskToken": {
+                                "kind": 67143222,
+                                "flags": 64,
+                                "start": 14,
+                                "end": 16
+                            },
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -78,7 +78,7 @@ class x {async * export(){}}
                                     "end": 23
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -136,9 +136,10 @@ class x {async * export(){}}
 
 ```javascript
 
-class x {
-  async export {}
-}
+ class x {
+    async *export() {
+    }
+} 
 ```
 
 ### Diagnostics

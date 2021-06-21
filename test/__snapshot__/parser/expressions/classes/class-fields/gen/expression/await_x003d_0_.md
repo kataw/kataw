@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/classes/class-fields/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/classes/class-fields/gen/expression
+- Regenerated: 2021-06-12
+- From: d
+- Path: n
 > :: test: expression
 > :: case: await = 0;
 ## Options
@@ -129,10 +129,9 @@ class C extends Base { await = 0; }
 
 ```javascript
 
-class C  {
-  await = 0;
-
-}
+ class C {
+    await = 0,
+} 
 ```
 
 ### Diagnostics

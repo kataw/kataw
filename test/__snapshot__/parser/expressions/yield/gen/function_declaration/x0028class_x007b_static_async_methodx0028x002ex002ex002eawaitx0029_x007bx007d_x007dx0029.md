@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/yield/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/yield/gen/function_declaration
+- Regenerated: 2021-06-12
+- From: d
+- Path: n
 > :: test: function declaration
 > :: case: (class { static async method(...await) {} })
 ## Options
@@ -82,7 +82,6 @@ function not_gen() { (class { static async method(...await) {} }) }}
                                                     "kind": 278,
                                                     "declareToken": null,
                                                     "decorators": null,
-                                                    "asteriskToken": null,
                                                     "staticKeyword": {
                                                         "kind": 8388716,
                                                         "flags": 64,
@@ -97,6 +96,7 @@ function not_gen() { (class { static async method(...await) {} }) }}
                                                     },
                                                     "setKeyword": null,
                                                     "getKeyword": null,
+                                                    "asteriskToken": null,
                                                     "method": {
                                                         "kind": 209,
                                                         "name": {
@@ -108,7 +108,7 @@ function not_gen() { (class { static async method(...await) {} }) }}
                                                             "end": 49
                                                         },
                                                         "typeParameters": null,
-                                                        "formalParameters": {
+                                                        "formalParameterList": {
                                                             "kind": 214,
                                                             "formalParameters": [
                                                                 {

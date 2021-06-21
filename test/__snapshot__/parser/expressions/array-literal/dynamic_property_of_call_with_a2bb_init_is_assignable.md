@@ -46,7 +46,7 @@
                             {
                                 "kind": 125,
                                 "left": {
-                                    "kind": 536871042,
+                                    "kind": 130,
                                     "member": {
                                         "kind": 131,
                                         "expression": {
@@ -77,7 +77,7 @@
                                         "start": 5,
                                         "end": 6
                                     },
-                                    "flags": 32,
+                                    "flags": 536870944,
                                     "start": 1,
                                     "end": 7
                                 },
@@ -165,7 +165,7 @@
 
 ```javascript
 
-[ = a + b] = z;
+ [[y]=a + b]=z; 
 ```
 
 ### Diagnostics

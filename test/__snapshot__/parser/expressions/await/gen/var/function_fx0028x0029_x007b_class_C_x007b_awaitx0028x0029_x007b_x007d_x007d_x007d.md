@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/await/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/await/gen/var
+- Regenerated: 2021-06-12
+- From: d
+- Path: r
 > :: test: var
 > :: case: function f() { class C { await() { } } }
 ## Options
@@ -179,11 +179,11 @@ var await; var f = (async function() { function f() { class C { await() { } } } 
                                                                                 "kind": 278,
                                                                                 "declareToken": null,
                                                                                 "decorators": null,
-                                                                                "asteriskToken": null,
                                                                                 "staticKeyword": null,
                                                                                 "asyncKeyword": null,
                                                                                 "setKeyword": null,
                                                                                 "getKeyword": null,
+                                                                                "asteriskToken": null,
                                                                                 "method": {
                                                                                     "kind": 209,
                                                                                     "name": {
@@ -195,7 +195,7 @@ var await; var f = (async function() { function f() { class C { await() { } } } 
                                                                                         "end": 69
                                                                                     },
                                                                                     "typeParameters": null,
-                                                                                    "formalParameters": {
+                                                                                    "formalParameterList": {
                                                                                         "kind": 214,
                                                                                         "formalParameters": [],
                                                                                         "trailingComma": false,
@@ -298,14 +298,14 @@ var await; var f = (async function() { function f() { class C { await() { } } } 
 
 ```javascript
 
-var await;
-var f = (async function () {
-    function f() {
-      class C {
-        await {}
-      }
+ var await;, var f = (async function () {
+function f() {
+class C {
+    await() {
     }
-  });
+}
+}
+}); 
 ```
 
 ### Diagnostics

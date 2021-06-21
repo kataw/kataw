@@ -43,12 +43,7 @@ a ? (({b}) => {}) : c
                     "kind": 121,
                     "expression": {
                         "kind": 271,
-                        "arrowToken": {
-                            "kind": 10,
-                            "flags": 64,
-                            "start": 10,
-                            "end": 13
-                        },
+                        "asyncKeyword": null,
                         "typeParameters": null,
                         "parameters": [
                             {
@@ -75,8 +70,13 @@ a ? (({b}) => {}) : c
                                 "end": 9
                             }
                         ],
-                        "asyncKeyword": null,
                         "returnType": null,
+                        "arrowToken": {
+                            "kind": 10,
+                            "flags": 64,
+                            "start": 10,
+                            "end": 13
+                        },
                         "contents": {
                             "kind": 216,
                             "functionStatementList": {
@@ -135,9 +135,10 @@ a ? (({b}) => {}) : c
 
 ```javascript
 
-a ? (({
+ a ? (({
         b
-      }) =>  {}) : c;
+    }) => {
+}) : c; 
 ```
 
 ### Diagnostics

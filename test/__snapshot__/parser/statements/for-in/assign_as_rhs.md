@@ -108,7 +108,7 @@ for (a in b=c);
 
 ```javascript
 
-for (a in b = c);
+ for (a in b=c) ; 
 ```
 
 ### Diagnostics

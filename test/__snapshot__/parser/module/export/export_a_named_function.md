@@ -98,7 +98,7 @@ export function f(){}
 
 ```javascript
 
-export function f() {}
+  
 ```
 
 ### Diagnostics

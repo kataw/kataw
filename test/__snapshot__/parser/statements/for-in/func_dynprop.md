@@ -43,7 +43,7 @@ for (function(){ }[foo] in x);
                 "end": 3
             },
             "initializer": {
-                "kind": 536871042,
+                "kind": 130,
                 "member": {
                     "kind": 177,
                     "asyncKeyword": null,
@@ -91,7 +91,7 @@ for (function(){ }[foo] in x);
                     "start": 19,
                     "end": 22
                 },
-                "flags": 32,
+                "flags": 536870944,
                 "start": 5,
                 "end": 23
             },
@@ -133,7 +133,8 @@ for (function(){ }[foo] in x);
 
 ```javascript
 
-for ( in x);
+ for (function () {
+}[foo] in x) ; 
 ```
 
 ### Diagnostics

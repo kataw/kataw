@@ -78,8 +78,7 @@
 
 ```javascript
 
-1 + let;
-ɵResourceLoaderImpl_BaseFactory;
+ 1 + let;, \u0275ResourceLoaderImpl_BaseFactory; 
 ```
 
 ### Diagnostics

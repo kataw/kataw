@@ -225,9 +225,9 @@ var d: { (): string } = function (x: number): string { return "hi"; };
 
 ```javascript
 
-var d:  = function (): string {
-  return  "\"hi\"";
-};
+ var d  = function (): string {
+return "hi";
+}; 
 ```
 
 ### Diagnostics

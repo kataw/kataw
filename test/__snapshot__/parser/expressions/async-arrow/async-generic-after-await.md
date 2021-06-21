@@ -28,21 +28,21 @@ async () => {
     "statements": [
         {
             "kind": 271,
-            "arrowToken": {
-                "kind": 10,
-                "flags": 64,
-                "start": 8,
-                "end": 11
-            },
-            "typeParameters": null,
-            "parameters": [],
             "asyncKeyword": {
                 "kind": 82031,
                 "flags": 64,
                 "start": 0,
                 "end": 5
             },
+            "typeParameters": null,
+            "parameters": [],
             "returnType": null,
+            "arrowToken": {
+                "kind": 10,
+                "flags": 64,
+                "start": 8,
+                "end": 11
+            },
             "contents": {
                 "kind": 216,
                 "functionStatementList": {
@@ -77,11 +77,11 @@ async () => {
                             "kind": 120,
                             "expression": {
                                 "kind": 271,
-                                "arrowToken": {
-                                    "kind": 10,
+                                "asyncKeyword": {
+                                    "kind": 82031,
                                     "flags": 64,
-                                    "start": 41,
-                                    "end": 44
+                                    "start": 27,
+                                    "end": 35
                                 },
                                 "typeParameters": {
                                     "kind": 307,
@@ -115,13 +115,13 @@ async () => {
                                     "end": 39
                                 },
                                 "parameters": [],
-                                "asyncKeyword": {
-                                    "kind": 82031,
-                                    "flags": 64,
-                                    "start": 27,
-                                    "end": 35
-                                },
                                 "returnType": null,
+                                "arrowToken": {
+                                    "kind": 10,
+                                    "flags": 64,
+                                    "start": 41,
+                                    "end": 44
+                                },
                                 "contents": {
                                     "kind": 138477575,
                                     "flags": 96,
@@ -169,11 +169,10 @@ async () => {
 
 ```javascript
 
-async () =>  {
-  await null;
-  async () =>  null;
-}
-
+ () => {
+await null;,
+() =>null;
+}, ; 
 ```
 
 ### Diagnostics

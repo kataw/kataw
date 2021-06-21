@@ -46,11 +46,11 @@ var x = async (a, b) => await a + b;
                         "type": null,
                         "initializer": {
                             "kind": 271,
-                            "arrowToken": {
-                                "kind": 10,
+                            "asyncKeyword": {
+                                "kind": 82031,
                                 "flags": 64,
-                                "start": 20,
-                                "end": 23
+                                "start": 7,
+                                "end": 13
                             },
                             "typeParameters": null,
                             "parameters": [
@@ -71,13 +71,13 @@ var x = async (a, b) => await a + b;
                                     "end": 19
                                 }
                             ],
-                            "asyncKeyword": {
-                                "kind": 82031,
-                                "flags": 64,
-                                "start": 7,
-                                "end": 13
-                            },
                             "returnType": null,
+                            "arrowToken": {
+                                "kind": 10,
+                                "flags": 64,
+                                "start": 20,
+                                "end": 23
+                            },
                             "contents": {
                                 "kind": 198,
                                 "left": {
@@ -149,7 +149,7 @@ var x = async (a, b) => await a + b;
 
 ```javascript
 
-var x = async (a, b) =>  await a + b;
+ var x = (a, b) =>await a + b; 
 ```
 
 ### Diagnostics

@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/binary/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/binary/gen/group
+- Regenerated: 2021-06-12
+- From: d
+- Path: p
 > :: test: group
 > :: case: a / b + c
 ## Options
@@ -97,7 +97,7 @@
 
 ```javascript
 
-(a / b + c);
+ (a / b + c); 
 ```
 
 ### Diagnostics

@@ -92,9 +92,7 @@
 
 ```javascript
 
-{
-  let [] = y;
-}
+ { let [] = y; } 
 ```
 
 ### Diagnostics

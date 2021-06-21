@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/binary/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/binary/gen/dynamic_property
+- Regenerated: 2021-06-12
+- From: d
+- Path: y
 > :: test: dynamic property
 > :: case: a > b instanceof c
 ## Options
@@ -26,7 +26,7 @@ foo[ a > b instanceof c ]
         {
             "kind": 120,
             "expression": {
-                "kind": 536871042,
+                "kind": 130,
                 "member": {
                     "kind": 134299649,
                     "text": "foo",
@@ -83,7 +83,7 @@ foo[ a > b instanceof c ]
                     "start": 4,
                     "end": 23
                 },
-                "flags": 32,
+                "flags": 536870944,
                 "start": 0,
                 "end": 25
             },
@@ -105,7 +105,7 @@ foo[ a > b instanceof c ]
 
 ```javascript
 
-;
+ foo[a > b inctanceof c]; 
 ```
 
 ### Diagnostics

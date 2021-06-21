@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/arrow/position/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/arrow/position/gen/delete_arg
+- Regenerated: 2021-06-12
+- From: d
+- Path: g
 > :: test: delete arg
 > :: case: async (x, y) => ok
 ## Options
@@ -35,11 +35,11 @@ delete async (x, y) => ok
                 },
                 "operand": {
                     "kind": 271,
-                    "arrowToken": {
-                        "kind": 10,
+                    "asyncKeyword": {
+                        "kind": 82031,
                         "flags": 64,
-                        "start": 19,
-                        "end": 22
+                        "start": 6,
+                        "end": 12
                     },
                     "typeParameters": null,
                     "parameters": [
@@ -60,13 +60,13 @@ delete async (x, y) => ok
                             "end": 18
                         }
                     ],
-                    "asyncKeyword": {
-                        "kind": 82031,
-                        "flags": 64,
-                        "start": 6,
-                        "end": 12
-                    },
                     "returnType": null,
+                    "arrowToken": {
+                        "kind": 10,
+                        "flags": 64,
+                        "start": 19,
+                        "end": 22
+                    },
                     "contents": {
                         "kind": 134299649,
                         "text": "ok",
@@ -101,7 +101,7 @@ delete async (x, y) => ok
 
 ```javascript
 
-delete async (x, y) =>  ok;
+ ; 
 ```
 
 ### Diagnostics

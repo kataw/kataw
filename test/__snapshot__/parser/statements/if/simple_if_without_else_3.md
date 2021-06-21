@@ -119,9 +119,7 @@ if (foo) a; if (bar) b; else c;
 
 ```javascript
 
-if (foo) a;
-if (bar) b;
-else  c;
+ if (foo) a;, if (bar) b; else c; 
 ```
 
 ### Diagnostics

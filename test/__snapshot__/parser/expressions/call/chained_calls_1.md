@@ -89,7 +89,7 @@ foo(a)(b)
 
 ```javascript
 
-foo(a)(b);
+ ; 
 ```
 
 ### Diagnostics

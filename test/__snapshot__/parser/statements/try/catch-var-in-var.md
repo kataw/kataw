@@ -134,10 +134,8 @@ try {} catch (e) { var e = x; }
 
 ```javascript
 
-try {
-} catch (e) {
-  var e = x;
-}
+ try {  }
+catch (e){ var e = x; } 
 ```
 
 ### Diagnostics

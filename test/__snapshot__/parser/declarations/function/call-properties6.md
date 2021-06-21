@@ -246,9 +246,9 @@ function d(x: { (z: number): string }): () => string {
 
 ```javascript
 
-function d():  {
-  return  x;
-}
+ function d():  {
+return x;
+} 
 ```
 
 ### Diagnostics

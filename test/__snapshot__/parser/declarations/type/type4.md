@@ -1804,37 +1804,37 @@ type T27 = ArgumentType<never>;  // any
 ```javascript
 
  // string
-
- // void
-
- // {}
-
- // { a: number, b: string }
-
- // C
-
- // any
-
- // any
-
- // Error
-
- // any
-
- // never
-
- // string
-
- // string | undefined
-
- // string
-
- // Error
-
- // any
-
- // any
-
+, // string
+// void
+, // void
+// {}
+, // {}
+// { a: number, b: string }
+, // { a: number, b: string }
+// C
+, // C
+// any
+, // any
+// any
+, // any
+// Error
+, // Error
+// any
+, // any
+// never
+, // never
+// string
+, // string
+// string | undefined
+, // string | undefined
+// string
+, // string
+// Error
+, // Error
+// any
+, // any
+// any
+ 
 ```
 
 ### Diagnostics

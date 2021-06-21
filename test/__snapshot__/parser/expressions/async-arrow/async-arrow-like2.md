@@ -73,12 +73,7 @@
                         },
                         "right": {
                             "kind": 271,
-                            "arrowToken": {
-                                "kind": 10,
-                                "flags": 64,
-                                "start": 24,
-                                "end": 27
-                            },
+                            "asyncKeyword": null,
                             "typeParameters": null,
                             "parameters": [
                                 {
@@ -122,7 +117,6 @@
                                     "end": 20
                                 }
                             ],
-                            "asyncKeyword": null,
                             "returnType": {
                                 "kind": 139,
                                 "bitwiseOrToken": null,
@@ -145,6 +139,12 @@
                                 "flags": 2097152,
                                 "start": 22,
                                 "end": 24
+                            },
+                            "arrowToken": {
+                                "kind": 10,
+                                "flags": 64,
+                                "start": 24,
+                                "end": 27
                             },
                             "contents": {
                                 "kind": 134299649,

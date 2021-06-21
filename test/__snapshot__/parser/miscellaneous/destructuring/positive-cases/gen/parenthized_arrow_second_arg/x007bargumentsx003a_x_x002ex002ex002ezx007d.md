@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/miscellaneous/destructuring/positive-cases/autogen.md
-- Path: kataw/test/__snapshot__/parser/miscellaneous/destructuring/positive-cases/gen/parenthized_arrow_second_arg
+- Regenerated: 2021-06-12
+- From: d
+- Path: g
 > :: test: parenthized arrow second arg
 > :: case: {arguments: x, ...z}
 ## Options
@@ -48,12 +48,7 @@ var f = (argument1,{arguments: x, ...z}) => {};
                         "type": null,
                         "initializer": {
                             "kind": 271,
-                            "arrowToken": {
-                                "kind": 10,
-                                "flags": 64,
-                                "start": 40,
-                                "end": 43
-                            },
+                            "asyncKeyword": null,
                             "typeParameters": null,
                             "parameters": [
                                 {
@@ -71,7 +66,6 @@ var f = (argument1,{arguments: x, ...z}) => {};
                                         "properties": [
                                             {
                                                 "kind": 329,
-                                                "ellipsisToken": null,
                                                 "key": {
                                                     "kind": 134299649,
                                                     "text": "arguments",
@@ -127,8 +121,13 @@ var f = (argument1,{arguments: x, ...z}) => {};
                                     "end": 39
                                 }
                             ],
-                            "asyncKeyword": null,
                             "returnType": null,
+                            "arrowToken": {
+                                "kind": 10,
+                                "flags": 64,
+                                "start": 40,
+                                "end": 43
+                            },
                             "contents": {
                                 "kind": 216,
                                 "functionStatementList": {
@@ -174,10 +173,11 @@ var f = (argument1,{arguments: x, ...z}) => {};
 
 ```javascript
 
-var f = (argument1, {
-  arguments: x,
-  ...z
-}) =>  {};
+ var f = (argument1, {
+        arguments : x,
+        ...z
+    }) => {
+}; 
 ```
 
 ### Diagnostics

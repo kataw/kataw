@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/miscellaneous/should-pass/autogen.md
-- Path: kataw/test/__snapshot__/parser/miscellaneous/should-pass/gen/stand-alone
+- Regenerated: 2021-06-12
+- From: d
+- Path: e
 > :: test: stand-alone
 > :: case: function f() { 1 + {get get(){}, set set(a){}, get1:4, set1:get-set, } }
 ## Options
@@ -81,9 +81,9 @@ function f() { 1 + {get get(){}, set set(a){}, get1:4, set1:get-set, } }
                                         "kind": 218,
                                         "properties": [
                                             {
-                                                "kind": 257,
+                                                "kind": 351,
                                                 "asyncKeyword": null,
-                                                "generatorToken": null,
+                                                "asteriskToken": null,
                                                 "getKeyword": {
                                                     "kind": 16498,
                                                     "flags": 96,
@@ -102,7 +102,7 @@ function f() { 1 + {get get(){}, set set(a){}, get1:4, set1:get-set, } }
                                                         "end": 27
                                                     },
                                                     "typeParameters": null,
-                                                    "formalParameters": {
+                                                    "formalParameterList": {
                                                         "kind": 214,
                                                         "formalParameters": [],
                                                         "trailingComma": false,
@@ -134,9 +134,9 @@ function f() { 1 + {get get(){}, set set(a){}, get1:4, set1:get-set, } }
                                                 "end": 31
                                             },
                                             {
-                                                "kind": 257,
+                                                "kind": 351,
                                                 "asyncKeyword": null,
-                                                "generatorToken": null,
+                                                "asteriskToken": null,
                                                 "getKeyword": null,
                                                 "setKeyword": {
                                                     "kind": 16499,
@@ -155,7 +155,7 @@ function f() { 1 + {get get(){}, set set(a){}, get1:4, set1:get-set, } }
                                                         "end": 40
                                                     },
                                                     "typeParameters": null,
-                                                    "formalParameters": {
+                                                    "formalParameterList": {
                                                         "kind": 214,
                                                         "formalParameters": [
                                                             {
@@ -307,9 +307,11 @@ function f() { 1 + {get get(){}, set set(a){}, get1:4, set1:get-set, } }
 
 ```javascript
 
-function f() {
-  1 + { get get {}, set set {}, get1: 4, set1: get - set };
-}
+ function f() {
+1 + { get get() {
+    }, set set(a) {
+    }, get1 : 4, set1 : get - set };
+} 
 ```
 
 ### Diagnostics

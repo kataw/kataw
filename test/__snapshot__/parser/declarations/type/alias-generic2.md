@@ -274,7 +274,7 @@ type MyObject<A, B, C> = {
 
 ```javascript
 
-
+  
 ```
 
 ### Diagnostics

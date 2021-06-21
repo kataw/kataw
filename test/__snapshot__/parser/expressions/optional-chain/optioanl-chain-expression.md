@@ -105,7 +105,7 @@ a.b?.c()
 
 ```javascript
 
-a.b?.();
+ ; 
 ```
 
 ### Diagnostics

@@ -117,7 +117,7 @@ declare class A { static () : number }
 
 ```javascript
 
-declare class A TODO!
+ declare class A {} 
 ```
 
 ### Diagnostics

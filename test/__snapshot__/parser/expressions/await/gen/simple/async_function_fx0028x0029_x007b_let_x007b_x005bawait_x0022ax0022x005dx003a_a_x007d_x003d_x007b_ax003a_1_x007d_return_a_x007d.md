@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/await/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/await/gen/simple
+- Regenerated: 2021-06-12
+- From: d
+- Path: e
 > :: test: simple
 > :: case: async function f() {
 >            let { [await "a"]: a } = { a: 1 };
@@ -88,7 +88,6 @@ async function f() {
                                                 "properties": [
                                                     {
                                                         "kind": 329,
-                                                        "ellipsisToken": null,
                                                         "key": {
                                                             "kind": 194,
                                                             "expression": {
@@ -238,12 +237,12 @@ async function f() {
 
 ```javascript
 
-async function f() {
-  let {
-    [await "\"a\""]: a
-  } = { a: 1 };
-  return  a;
-}
+ async function f() {
+let {
+     : a
+} = { a : 1 };,
+return a;
+} 
 ```
 
 ### Diagnostics

@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/miscellaneous/should-fail/autogen.md
-- Path: kataw/test/__snapshot__/parser/miscellaneous/should-fail/gen/with_strict_directive
+- Regenerated: 2021-06-12
+- From: d
+- Path: e
 > :: test: with strict directive
 > :: case: async ({ident: [foo, bar]/x}) => x
 ## Options
@@ -34,11 +34,11 @@
     "statements": [
         {
             "kind": 271,
-            "arrowToken": {
-                "kind": 10,
+            "asyncKeyword": {
+                "kind": 82031,
                 "flags": 64,
-                "start": 43,
-                "end": 46
+                "start": 13,
+                "end": 19
             },
             "typeParameters": null,
             "parameters": [
@@ -49,7 +49,6 @@
                         "properties": [
                             {
                                 "kind": 329,
-                                "ellipsisToken": null,
                                 "key": {
                                     "kind": 134299649,
                                     "text": "ident",
@@ -125,13 +124,13 @@
                     "end": 42
                 }
             ],
-            "asyncKeyword": {
-                "kind": 82031,
-                "flags": 64,
-                "start": 13,
-                "end": 19
-            },
             "returnType": null,
+            "arrowToken": {
+                "kind": 10,
+                "flags": 64,
+                "start": 43,
+                "end": 46
+            },
             "contents": {
                 "kind": 134299649,
                 "text": "x",

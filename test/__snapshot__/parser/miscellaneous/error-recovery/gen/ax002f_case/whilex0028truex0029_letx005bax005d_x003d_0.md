@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/miscellaneous/error-recovery/autogen.md
-- Path: kataw/test/__snapshot__/parser/miscellaneous/error-recovery/gen/ax002f_case
+- Regenerated: 2021-06-12
+- From: d
+- Path: e
 > :: test: a/ case
 > :: case: while(true) let[a] = 0
 ## Options
@@ -42,7 +42,7 @@ while(true) let[a] = 0
                 "expression": {
                     "kind": 125,
                     "left": {
-                        "kind": 536871042,
+                        "kind": 130,
                         "member": {
                             "kind": 134299649,
                             "text": "let",
@@ -59,7 +59,7 @@ while(true) let[a] = 0
                             "start": 16,
                             "end": 17
                         },
-                        "flags": 32,
+                        "flags": 536870944,
                         "start": 11,
                         "end": 18
                     },

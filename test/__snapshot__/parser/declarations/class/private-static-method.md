@@ -51,7 +51,6 @@ class A {
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": null,
                             "staticKeyword": {
                                 "kind": 8388716,
                                 "flags": 64,
@@ -61,6 +60,7 @@ class A {
                             "asyncKeyword": null,
                             "setKeyword": null,
                             "getKeyword": null,
+                            "asteriskToken": null,
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -72,7 +72,7 @@ class A {
                                     "end": 26
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -107,11 +107,11 @@ class A {
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": null,
                             "getKeyword": null,
+                            "asteriskToken": null,
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -123,7 +123,7 @@ class A {
                                     "end": 38
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -314,13 +314,14 @@ class A {
 
 ```javascript
 
-class A {
-  static static #method {}
-  run {
-    A.#method = 2;
-    ([A.#method] = [2]);
-  }
-}
+ class A {
+    static #method() {
+    },
+    run() {
+    A.#method=2;,
+    ([A.#method]=[2]);
+    }
+} 
 ```
 
 ### Diagnostics

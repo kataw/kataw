@@ -35,12 +35,7 @@ f = ([xCls2 = class { static name() {} }]) => {}
                 },
                 "right": {
                     "kind": 271,
-                    "arrowToken": {
-                        "kind": 10,
-                        "flags": 64,
-                        "start": 42,
-                        "end": 45
-                    },
+                    "asyncKeyword": null,
                     "typeParameters": null,
                     "parameters": [
                         {
@@ -82,7 +77,6 @@ f = ([xCls2 = class { static name() {} }]) => {}
                                                             "kind": 278,
                                                             "declareToken": null,
                                                             "decorators": null,
-                                                            "asteriskToken": null,
                                                             "staticKeyword": {
                                                                 "kind": 8388716,
                                                                 "flags": 64,
@@ -92,6 +86,7 @@ f = ([xCls2 = class { static name() {} }]) => {}
                                                             "asyncKeyword": null,
                                                             "setKeyword": null,
                                                             "getKeyword": null,
+                                                            "asteriskToken": null,
                                                             "method": {
                                                                 "kind": 209,
                                                                 "name": {
@@ -103,7 +98,7 @@ f = ([xCls2 = class { static name() {} }]) => {}
                                                                     "end": 33
                                                                 },
                                                                 "typeParameters": null,
-                                                                "formalParameters": {
+                                                                "formalParameterList": {
                                                                     "kind": 214,
                                                                     "formalParameters": [],
                                                                     "trailingComma": false,
@@ -162,8 +157,13 @@ f = ([xCls2 = class { static name() {} }]) => {}
                             "end": 41
                         }
                     ],
-                    "asyncKeyword": null,
                     "returnType": null,
+                    "arrowToken": {
+                        "kind": 10,
+                        "flags": 64,
+                        "start": 42,
+                        "end": 45
+                    },
                     "contents": {
                         "kind": 216,
                         "functionStatementList": {

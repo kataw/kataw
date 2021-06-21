@@ -246,7 +246,7 @@ type a = (b[([x])=> c] | d) => c;
 
 ```javascript
 
-
+  
 ```
 
 ### Diagnostics

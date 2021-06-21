@@ -85,7 +85,8 @@ function c(public){ }
 
 ```javascript
 
-function c() {}
+ function c(public) {
+} 
 ```
 
 ### Diagnostics

@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/arrow/position/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/arrow/position/gen/extends_arg
+- Regenerated: 2021-06-12
+- From: d
+- Path: g
 > :: test: extends arg
 > :: case: async x => {}
 ## Options
@@ -54,11 +54,11 @@ class A extends async x => {} {}
                     },
                     "expression": {
                         "kind": 271,
-                        "arrowToken": {
-                            "kind": 10,
+                        "asyncKeyword": {
+                            "kind": 82031,
                             "flags": 64,
-                            "start": 23,
-                            "end": 26
+                            "start": 15,
+                            "end": 21
                         },
                         "typeParameters": null,
                         "parameters": {
@@ -69,13 +69,13 @@ class A extends async x => {} {}
                             "start": 21,
                             "end": 23
                         },
-                        "asyncKeyword": {
-                            "kind": 82031,
-                            "flags": 64,
-                            "start": 15,
-                            "end": 21
-                        },
                         "returnType": null,
+                        "arrowToken": {
+                            "kind": 10,
+                            "flags": 64,
+                            "start": 23,
+                            "end": 26
+                        },
                         "contents": {
                             "kind": 216,
                             "functionStatementList": {

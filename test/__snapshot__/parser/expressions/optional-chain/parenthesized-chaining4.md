@@ -96,7 +96,7 @@
 
 ```javascript
 
-().c;
+ ().c; 
 ```
 
 ### Diagnostics

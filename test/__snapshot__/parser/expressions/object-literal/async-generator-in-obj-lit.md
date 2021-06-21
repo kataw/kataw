@@ -55,9 +55,9 @@ const obj = {
                                         "end": 23
                                     },
                                     {
-                                        "kind": 257,
+                                        "kind": 351,
                                         "asyncKeyword": null,
-                                        "generatorToken": {
+                                        "asteriskToken": {
                                             "kind": 67143222,
                                             "flags": 65,
                                             "start": 24,
@@ -76,7 +76,7 @@ const obj = {
                                                 "end": 39
                                             },
                                             "typeParameters": null,
-                                            "formalParameters": {
+                                            "formalParameterList": {
                                                 "kind": 214,
                                                 "formalParameters": [],
                                                 "trailingComma": false,
@@ -144,7 +144,8 @@ const obj = {
 
 ```javascript
 
-const obj = { async, generator {} };
+ const obj = { async, * generator() {
+    } }; 
 ```
 
 ### Diagnostics

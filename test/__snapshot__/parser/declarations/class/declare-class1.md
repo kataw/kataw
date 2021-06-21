@@ -173,9 +173,7 @@ type T2 = number;
 
 ```javascript
 
-declare class C1 TODO!
-
-
+ declare class C1 {}, ,  
 ```
 
 ### Diagnostics

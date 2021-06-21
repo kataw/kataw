@@ -291,7 +291,7 @@
                                 "right": {
                                     "kind": 125,
                                     "left": {
-                                        "kind": 536871042,
+                                        "kind": 130,
                                         "member": {
                                             "kind": 134299649,
                                             "text": "a",
@@ -308,7 +308,7 @@
                                             "start": 73,
                                             "end": 74
                                         },
-                                        "flags": 32,
+                                        "flags": 536870944,
                                         "start": 66,
                                         "end": 75
                                     },
@@ -419,7 +419,7 @@
                                 "right": {
                                     "kind": 125,
                                     "left": {
-                                        "kind": 536871042,
+                                        "kind": 130,
                                         "member": {
                                             "kind": 131,
                                             "expression": {
@@ -450,7 +450,7 @@
                                             "start": 108,
                                             "end": 109
                                         },
-                                        "flags": 32,
+                                        "flags": 536870944,
                                         "start": 99,
                                         "end": 110
                                     },
@@ -490,7 +490,7 @@
                                 "right": {
                                     "kind": 125,
                                     "left": {
-                                        "kind": 536871042,
+                                        "kind": 130,
                                         "member": {
                                             "kind": 134299649,
                                             "text": "a",
@@ -521,7 +521,7 @@
                                             "start": 124,
                                             "end": 127
                                         },
-                                        "flags": 32,
+                                        "flags": 536870944,
                                         "start": 117,
                                         "end": 128
                                     },
@@ -561,7 +561,7 @@
                                 "right": {
                                     "kind": 125,
                                     "left": {
-                                        "kind": 536871042,
+                                        "kind": 130,
                                         "member": {
                                             "kind": 131,
                                             "expression": {
@@ -606,7 +606,7 @@
                                             "start": 144,
                                             "end": 147
                                         },
-                                        "flags": 32,
+                                        "flags": 536870944,
                                         "start": 135,
                                         "end": 148
                                     },
@@ -646,7 +646,7 @@
                                 "right": {
                                     "kind": 125,
                                     "left": {
-                                        "kind": 536871042,
+                                        "kind": 130,
                                         "member": {
                                             "kind": 134299649,
                                             "text": "a",
@@ -663,7 +663,7 @@
                                             "start": 162,
                                             "end": 163
                                         },
-                                        "flags": 32,
+                                        "flags": 536870944,
                                         "start": 155,
                                         "end": 164
                                     },
@@ -703,7 +703,7 @@
                                 "right": {
                                     "kind": 125,
                                     "left": {
-                                        "kind": 536871042,
+                                        "kind": 130,
                                         "member": {
                                             "kind": 134299649,
                                             "text": "a",
@@ -718,7 +718,7 @@
                                             "start": 179,
                                             "end": 184
                                         },
-                                        "flags": 32,
+                                        "flags": 536870944,
                                         "start": 171,
                                         "end": 185
                                     },
@@ -758,7 +758,7 @@
                                 "right": {
                                     "kind": 125,
                                     "left": {
-                                        "kind": 536871042,
+                                        "kind": 130,
                                         "member": {
                                             "kind": 134299649,
                                             "text": "a",
@@ -773,7 +773,7 @@
                                             "start": 200,
                                             "end": 204
                                         },
-                                        "flags": 32,
+                                        "flags": 536870944,
                                         "start": 192,
                                         "end": 205
                                     },
@@ -813,7 +813,7 @@
                                 "right": {
                                     "kind": 125,
                                     "left": {
-                                        "kind": 536871042,
+                                        "kind": 130,
                                         "member": {
                                             "kind": 134299649,
                                             "text": "a",
@@ -842,7 +842,7 @@
                                             "start": 220,
                                             "end": 226
                                         },
-                                        "flags": 32,
+                                        "flags": 536870944,
                                         "start": 212,
                                         "end": 227
                                     },
@@ -882,7 +882,7 @@
                                 "right": {
                                     "kind": 125,
                                     "left": {
-                                        "kind": 536871042,
+                                        "kind": 130,
                                         "member": {
                                             "kind": 134299649,
                                             "text": "a",
@@ -899,7 +899,7 @@
                                             "start": 242,
                                             "end": 246
                                         },
-                                        "flags": 32,
+                                        "flags": 536870944,
                                         "start": 234,
                                         "end": 247
                                     },
@@ -939,7 +939,7 @@
                                 "right": {
                                     "kind": 125,
                                     "left": {
-                                        "kind": 536871042,
+                                        "kind": 130,
                                         "member": {
                                             "kind": 134299649,
                                             "text": "a",
@@ -954,7 +954,7 @@
                                             "start": 262,
                                             "end": 266
                                         },
-                                        "flags": 32,
+                                        "flags": 536870944,
                                         "start": 254,
                                         "end": 267
                                     },
@@ -994,7 +994,7 @@
                                 "right": {
                                     "kind": 125,
                                     "left": {
-                                        "kind": 536871042,
+                                        "kind": 130,
                                         "member": {
                                             "kind": 134299649,
                                             "text": "a",
@@ -1010,7 +1010,7 @@
                                             "start": 282,
                                             "end": 285
                                         },
-                                        "flags": 32,
+                                        "flags": 536870944,
                                         "start": 274,
                                         "end": 286
                                     },
@@ -1050,7 +1050,7 @@
                                 "right": {
                                     "kind": 125,
                                     "left": {
-                                        "kind": 536871042,
+                                        "kind": 130,
                                         "member": {
                                             "kind": 134299649,
                                             "text": "a",
@@ -1073,7 +1073,7 @@
                                             "start": 301,
                                             "end": 303
                                         },
-                                        "flags": 32,
+                                        "flags": 536870944,
                                         "start": 293,
                                         "end": 304
                                     },
@@ -1113,7 +1113,7 @@
                                 "right": {
                                     "kind": 125,
                                     "left": {
-                                        "kind": 536871042,
+                                        "kind": 130,
                                         "member": {
                                             "kind": 134299649,
                                             "text": "a",
@@ -1136,7 +1136,7 @@
                                             "start": 319,
                                             "end": 321
                                         },
-                                        "flags": 32,
+                                        "flags": 536870944,
                                         "start": 311,
                                         "end": 322
                                     },
@@ -1176,7 +1176,7 @@
                                 "right": {
                                     "kind": 125,
                                     "left": {
-                                        "kind": 536871042,
+                                        "kind": 130,
                                         "member": {
                                             "kind": 134299649,
                                             "text": "a",
@@ -1187,16 +1187,16 @@
                                         },
                                         "expression": {
                                             "kind": 271,
+                                            "asyncKeyword": null,
+                                            "typeParameters": null,
+                                            "parameters": [],
+                                            "returnType": null,
                                             "arrowToken": {
                                                 "kind": 10,
                                                 "flags": 64,
                                                 "start": 339,
                                                 "end": 342
                                             },
-                                            "typeParameters": null,
-                                            "parameters": [],
-                                            "asyncKeyword": null,
-                                            "returnType": null,
                                             "contents": {
                                                 "kind": 216,
                                                 "functionStatementList": {
@@ -1215,7 +1215,7 @@
                                             "start": 337,
                                             "end": 345
                                         },
-                                        "flags": 32,
+                                        "flags": 536870944,
                                         "start": 329,
                                         "end": 346
                                     },
@@ -1255,7 +1255,7 @@
                                 "right": {
                                     "kind": 125,
                                     "left": {
-                                        "kind": 536871042,
+                                        "kind": 130,
                                         "member": {
                                             "kind": 134299649,
                                             "text": "a",
@@ -1303,7 +1303,7 @@
                                             "start": 361,
                                             "end": 374
                                         },
-                                        "flags": 32,
+                                        "flags": 536870944,
                                         "start": 353,
                                         "end": 375
                                     },
@@ -1361,28 +1361,9 @@
 
 ```javascript
 
-({
-  0: a ** b ** c,
-  1: (a ** b) ** c,
-  2: a **= b,
-  3: a.b **= c,
-  4:  **= c,
-  5: a().b **= c,
-  6:  **= c,
-  7:  **= c,
-  8:  **= c,
-  9:  **= b,
-  10:  **= b,
-  11:  **= b,
-  12:  **= b,
-  13:  **= b,
-  14:  **= b,
-  15:  **= b,
-  16:  **= b,
-  17:  **= b,
-  18:  **= b,
-  19:  **= b
-});
+ ({ 0 : a ** b ** c, 1 : (a ** b) ** c, 2 : a**=b, 3 : a.b**=c, 4 : a[b]**=c, 5 : .b**=c, 6 : [b]**=c, 7 : a[]**=c, 8 : []**=c, 9 : a[0]**=b, 10 : a[false]**=b, 11 : a[null]**=b, 12 : a[]**=b, 13 : a[123n]**=b, 14 : a[this]**=b, 15 : a[]**=b, 16 : a[{  }]**=b, 17 : a[[]]**=b, 18 : a[() => {
+    }]**=b, 19 : a[function () {
+    }]**=b }); 
 ```
 
 ### Diagnostics

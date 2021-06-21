@@ -55,7 +55,6 @@ var {x: x, y: y, z: { a: a = 10} } = b;
                                 "properties": [
                                     {
                                         "kind": 329,
-                                        "ellipsisToken": null,
                                         "key": {
                                             "kind": 134299649,
                                             "text": "x",
@@ -79,7 +78,6 @@ var {x: x, y: y, z: { a: a = 10} } = b;
                                     },
                                     {
                                         "kind": 329,
-                                        "ellipsisToken": null,
                                         "key": {
                                             "kind": 134299649,
                                             "text": "y",
@@ -103,7 +101,6 @@ var {x: x, y: y, z: { a: a = 10} } = b;
                                     },
                                     {
                                         "kind": 329,
-                                        "ellipsisToken": null,
                                         "key": {
                                             "kind": 134299649,
                                             "text": "z",
@@ -119,7 +116,6 @@ var {x: x, y: y, z: { a: a = 10} } = b;
                                                 "properties": [
                                                     {
                                                         "kind": 329,
-                                                        "ellipsisToken": null,
                                                         "key": {
                                                             "kind": 134299649,
                                                             "text": "a",
@@ -209,13 +205,7 @@ var {x: x, y: y, z: { a: a = 10} } = b;
 
 ```javascript
 
-var {
-  x: x,
-  y: y,
-  z: {
-    a: a = 10
-  }
-} = b;
+ var { x : x, y : y, z :  } = b; 
 ```
 
 ### Diagnostics

@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/binary/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/binary/gen/yield
+- Regenerated: 2021-06-12
+- From: d
+- Path: d
 > :: test: yield
 > :: case: a + b instanceof c
 ## Options
@@ -160,9 +160,9 @@ function *f() {
 
 ```javascript
 
-function * f() {
-  yield a + b inctanceof c;
-}
+ function* f() {
+yield a + b inctanceof c;
+} 
 ```
 
 ### Diagnostics

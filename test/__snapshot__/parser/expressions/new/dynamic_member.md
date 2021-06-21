@@ -26,7 +26,7 @@ new Foo["bar"]
                     "end": 3
                 },
                 "expression": {
-                    "kind": 536871042,
+                    "kind": 130,
                     "member": {
                         "kind": 134299649,
                         "text": "Foo",
@@ -43,7 +43,7 @@ new Foo["bar"]
                         "start": 8,
                         "end": 13
                     },
-                    "flags": 32,
+                    "flags": 536870944,
                     "start": 0,
                     "end": 14
                 },
@@ -70,7 +70,7 @@ new Foo["bar"]
 
 ```javascript
 
-new  ();
+ new Foo["bar"]; 
 ```
 
 ### Diagnostics

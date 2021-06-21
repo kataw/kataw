@@ -73,11 +73,11 @@ class w {  t[x](){}  }
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": null,
                             "getKeyword": null,
+                            "asteriskToken": null,
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -95,7 +95,7 @@ class w {  t[x](){}  }
                                     "end": 15
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -153,10 +153,11 @@ class w {  t[x](){}  }
 
 ```javascript
 
-class w {
-  t;
-  [x] {}
-}
+ class w {
+    t,
+    () {
+    }
+} 
 ```
 
 ### Diagnostics

@@ -162,10 +162,9 @@ async function f(){ foo: for await (x of y) continue foo; }
 
 ```javascript
 
-async function f() {
-  foo: for await (x of y)
-    continue foo;
-}
+ async function f() {
+foo: for await(x of y) continue foo;
+} 
 ```
 
 ### Diagnostics

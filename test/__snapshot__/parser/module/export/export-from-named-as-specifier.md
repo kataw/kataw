@@ -113,7 +113,7 @@ export {foo as bar} from "foo";
 
 ```javascript
 
-export { foo as bar } from ;
+  
 ```
 
 ### Diagnostics

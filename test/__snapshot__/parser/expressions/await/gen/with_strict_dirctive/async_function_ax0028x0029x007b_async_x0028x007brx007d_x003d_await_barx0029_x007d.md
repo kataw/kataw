@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/await/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/await/gen/with_strict_dirctive
+- Regenerated: 2021-06-12
+- From: d
+- Path: e
 > :: test: with_strict_dirctive
 > :: case: async function a(){     async ({r} = await bar);     }
 ## Options
@@ -183,10 +183,10 @@
 
 ```javascript
 
-async function a() {
-  async({ r } = await bar)
-
-}
+'use strict' async function a() {
+,
+;
+} 
 ```
 
 ### Diagnostics

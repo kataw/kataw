@@ -127,7 +127,8 @@
 
 ```javascript
 
-(function () {});
+ (function () {
+}); 
 ```
 
 ### Diagnostics

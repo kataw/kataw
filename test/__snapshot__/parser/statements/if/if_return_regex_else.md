@@ -131,10 +131,9 @@ function x(){
 
 ```javascript
 
-function x() {
-  if (x) return  / /;
-  else ;
-}
+ function x() {
+if (x) return ; else ;
+} 
 ```
 
 ### Diagnostics

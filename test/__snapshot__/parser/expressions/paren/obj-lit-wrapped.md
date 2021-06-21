@@ -3590,9 +3590,9 @@
                         "kind": 218,
                         "properties": [
                             {
-                                "kind": 257,
+                                "kind": 351,
                                 "asyncKeyword": null,
-                                "generatorToken": {
+                                "asteriskToken": {
                                     "kind": 67143222,
                                     "flags": 64,
                                     "start": 802,
@@ -3611,7 +3611,7 @@
                                         "end": 805
                                     },
                                     "typeParameters": null,
-                                    "formalParameters": {
+                                    "formalParameterList": {
                                         "kind": 214,
                                         "formalParameters": [],
                                         "trailingComma": false,
@@ -3674,45 +3674,8 @@
 
 ```javascript
 
-({ x = y } = {});
-({ x: [x] } = { x: null });
-({ x: { x } } = { x: null });
-({ x: { x } } = { x: undefined });
-({ x: { x } } = {});
-({ a: x } = {});
-({ x: [x] } = { x: undefined });
-({ [(a)(x = (y))]: {} });
-({ a = [b] } = 1 * (c = d));
-({ a = [b] } = 1 * (d = (e)));
-({ 1: [b.c = x] } = 1 / (d = (a) = a));
-({ 1: [b.c = x] } = 2 / (dd = (a) = 3));
-({ 1: [b.c = x] } = 2 ** (dd = (a) = 3));
-({ 1: [b.c = x] } = 1 * (d = (a) = a));
-({ a, a });
-({ a, a: 1 });
-({ a: 1, a });
-({ a: 1, a });
-({ a: b = x } = d);
-({ a: b = x } / d);
-({ a: b * x });
-(x, { a, a });
-(x, { a, a: 1 });
-(x, { a: 1, a });
-(x, { a: 1, a });
-(x, { a: b = x } = d);
-(x, { a: b = x } / d);
-(x, { a: b * x });
-({ test = 1 } = {});
-({ x = 0 } = 1);
-({ x = 0 } = 1);
-({ var: x } = 0);
-({ b, c, d, ...{ a } });
-(a) = b;
-({}.length);
-({}.x);
-([].x);
-([x].foo) = x;
-({ 15 {} });
+ ({ x = y }={  });, ({ x : [x] }={ x : null });, ({ x : { x } }={ x : null });, ({ x : { x } }={ x : undefined });, ({ x : { x } }={  });, ({ a : x }={  });, ({ x : [x] }={ x : undefined });, ({  : {  } });, ({ a = [b] }=1 * (c=d));, ({ a = [b] }=1 * (d=(e)));, ({ 1 : [b.c=x] }=1 / (d=((a))=a));, ({ 1 : [b.c=x] }=2 / (dd=((a))=3));, ({ 1 : [b.c=x] }=2 ** (dd=((a))=3));, ({ 1 : [b.c=x] }=1 * (d=((a))=a));, ({ a, a });, ({ a, a : 1 });, ({ a : 1, a });, ({ a : 1, a });, ({ a : b=x }=d);, ({ a : b=x } / d);, ({ a : b * x });, (x, { a, a });, (x, { a, a : 1 });, (x, { a : 1, a });, (x, { a : 1, a });, (x, { a : b=x }=d);, (x, { a : b=x } / d);, (x, { a : b * x });, ({ test = 1 }={  });, ({ x = 0 }=1);, ({ x = 0 }=1);, ({ var : x }=0);, ({ b, c, d,  });, ((a))=b;, ({  }.length);, ({  }.x);, ([].x);, ([x].foo)=x;, ({ * 15() {
+    } }); 
 ```
 
 ### Diagnostics

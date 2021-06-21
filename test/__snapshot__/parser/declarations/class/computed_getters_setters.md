@@ -55,7 +55,6 @@ class Bar {
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": {
@@ -65,6 +64,7 @@ class Bar {
                                 "end": 17
                             },
                             "getKeyword": null,
+                            "asteriskToken": null,
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -82,7 +82,7 @@ class Bar {
                                     "end": 23
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -138,7 +138,6 @@ class Bar {
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": null,
@@ -148,6 +147,7 @@ class Bar {
                                 "start": 43,
                                 "end": 49
                             },
+                            "asteriskToken": null,
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -165,7 +165,7 @@ class Bar {
                                     "end": 55
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [
                                         {
@@ -255,12 +255,13 @@ class Bar {
 
 ```javascript
 
-class Bar {
-  get ["'d'"] {
-    return  "'foo'";
-  }
-  set ["'d'"] {}
-}
+ class Bar {
+    get () {
+    return 'foo';
+    },
+    set () {
+    }
+} 
 ```
 
 ### Diagnostics

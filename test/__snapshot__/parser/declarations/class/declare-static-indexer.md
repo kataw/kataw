@@ -130,7 +130,7 @@ declare class A { static [ indexer: number]: string }
 
 ```javascript
 
-declare class A TODO!
+ declare class A {} 
 ```
 
 ### Diagnostics

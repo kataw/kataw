@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/miscellaneous/should-pass/autogen.md
-- Path: kataw/test/__snapshot__/parser/miscellaneous/should-pass/gen/stand-alone
+- Regenerated: 2021-06-12
+- From: d
+- Path: e
 > :: test: stand-alone
 > :: case: for ([a, my_var, b] in {}) { my_var; }
 ## Options
@@ -136,8 +136,7 @@ for ([a, my_var, b] in {}) { my_var; }
 
 ```javascript
 
-for ([a, my_var, b] in {})
-  {}
+ for ([a, my_var, b] in {  }) { my_var; } 
 ```
 
 ### Diagnostics

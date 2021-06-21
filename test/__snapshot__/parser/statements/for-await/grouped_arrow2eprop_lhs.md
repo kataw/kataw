@@ -76,12 +76,7 @@ async function f(){
                                     "kind": 121,
                                     "expression": {
                                         "kind": 271,
-                                        "arrowToken": {
-                                            "kind": 10,
-                                            "flags": 64,
-                                            "start": 37,
-                                            "end": 39
-                                        },
+                                        "asyncKeyword": null,
                                         "typeParameters": null,
                                         "parameters": [
                                             {
@@ -93,8 +88,13 @@ async function f(){
                                                 "end": 36
                                             }
                                         ],
-                                        "asyncKeyword": null,
                                         "returnType": null,
+                                        "arrowToken": {
+                                            "kind": 10,
+                                            "flags": 64,
+                                            "start": 37,
+                                            "end": 39
+                                        },
                                         "contents": {
                                             "kind": 216,
                                             "functionStatementList": {
@@ -181,9 +181,10 @@ async function f(){
 
 ```javascript
 
-async function f() {
-  for await (((x) =>  {}).x of y);
-}
+ async function f() {
+for await(((x) => {
+}).x of y) ;
+} 
 ```
 
 ### Diagnostics

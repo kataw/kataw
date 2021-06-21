@@ -63,11 +63,11 @@ class a { foo(){      class x extends super.foo {}    }}
                             "kind": 278,
                             "declareToken": null,
                             "decorators": null,
-                            "asteriskToken": null,
                             "staticKeyword": null,
                             "asyncKeyword": null,
                             "setKeyword": null,
                             "getKeyword": null,
+                            "asteriskToken": null,
                             "method": {
                                 "kind": 209,
                                 "name": {
@@ -79,7 +79,7 @@ class a { foo(){      class x extends super.foo {}    }}
                                     "end": 13
                                 },
                                 "typeParameters": null,
-                                "formalParameters": {
+                                "formalParameterList": {
                                     "kind": 214,
                                     "formalParameters": [],
                                     "trailingComma": false,
@@ -213,11 +213,12 @@ class a { foo(){      class x extends super.foo {}    }}
 
 ```javascript
 
-class a {
-  foo {
-    class x  {}
-  }
-}
+ class a {
+    foo() {
+    class x {
+    }
+    }
+} 
 ```
 
 ### Diagnostics

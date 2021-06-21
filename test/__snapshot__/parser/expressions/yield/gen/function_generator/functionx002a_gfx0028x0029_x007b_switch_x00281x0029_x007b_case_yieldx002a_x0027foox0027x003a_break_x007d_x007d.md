@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/expressions/yield/autogen.md
-- Path: kataw/test/__snapshot__/parser/expressions/yield/gen/function_generator
+- Regenerated: 2021-06-12
+- From: d
+- Path: r
 > :: test: function generator
 > :: case: function* gf() { switch (1) { case yield* 'foo': break; } }
 ## Options
@@ -279,16 +279,15 @@ function * gen() { function not_gen() { function* gf() { switch (1) { case yield
 
 ```javascript
 
-function * gen() {
-  function not_gen() {
-    function * gf() {
-      switch(1) {
-        case yield * "'foo'":
-          break;
-      }
-    }
-  }
+ function* gen() {
+function not_gen() {
+function* gf() {
+switch(1) {
+    case yield* 'foo': break;
 }
+}
+}
+} 
 ```
 
 ### Diagnostics

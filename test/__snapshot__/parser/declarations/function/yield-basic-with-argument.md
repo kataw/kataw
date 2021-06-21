@@ -114,9 +114,9 @@
 
 ```javascript
 
-(function * () {
-    yield v;
-  });
+ (function* () {
+yield v;
+}); 
 ```
 
 ### Diagnostics

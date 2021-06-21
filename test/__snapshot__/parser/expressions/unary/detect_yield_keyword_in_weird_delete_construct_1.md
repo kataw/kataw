@@ -67,7 +67,7 @@ function *f(){ delete ("x"[(yield)]) }
                                 "operand": {
                                     "kind": 121,
                                     "expression": {
-                                        "kind": 536871042,
+                                        "kind": 130,
                                         "member": {
                                             "kind": 201392131,
                                             "text": "x",
@@ -97,7 +97,7 @@ function *f(){ delete ("x"[(yield)]) }
                                             "start": 27,
                                             "end": 34
                                         },
-                                        "flags": 32,
+                                        "flags": 536870944,
                                         "start": 23,
                                         "end": 35
                                     },
@@ -141,9 +141,9 @@ function *f(){ delete ("x"[(yield)]) }
 
 ```javascript
 
-function * f() {
-  delete ();
-}
+ function* f() {
+;
+} 
 ```
 
 ### Diagnostics

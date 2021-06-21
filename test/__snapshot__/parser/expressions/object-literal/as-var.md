@@ -35,14 +35,14 @@ var {...[]} = {}
                                 "kind": 213,
                                 "properties": [
                                     {
-                                        "kind": 329,
+                                        "kind": 281,
                                         "ellipsisToken": {
                                             "kind": 524302,
                                             "flags": 64,
                                             "start": 5,
                                             "end": 8
                                         },
-                                        "key": {
+                                        "left": {
                                             "kind": 194,
                                             "expression": {
                                                 "kind": 16637,
@@ -56,16 +56,10 @@ var {...[]} = {}
                                             "start": 8,
                                             "end": 10
                                         },
-                                        "value": {
-                                            "kind": 16637,
-                                            "text": "",
-                                            "rawText": "",
-                                            "flags": 64,
-                                            "start": 10,
-                                            "end": 10
-                                        },
-                                        "initializer": null,
-                                        "flags": 32,
+                                        "optionalToken": null,
+                                        "type": null,
+                                        "right": null,
+                                        "flags": 0,
                                         "start": 5,
                                         "end": 10
                                     }
@@ -127,7 +121,6 @@ var {...[]} = {}
 
 ```javascript
 ✖ Identifier expected - start: 9, end: 10
-✖ Binding identifier expected - start: 10, end: 11
 
 ```
 

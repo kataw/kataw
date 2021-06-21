@@ -61,12 +61,7 @@ a ? (b = (c) => d) : e => f;
                         },
                         "right": {
                             "kind": 271,
-                            "arrowToken": {
-                                "kind": 10,
-                                "flags": 64,
-                                "start": 12,
-                                "end": 15
-                            },
+                            "asyncKeyword": null,
                             "typeParameters": null,
                             "parameters": [
                                 {
@@ -78,8 +73,13 @@ a ? (b = (c) => d) : e => f;
                                     "end": 11
                                 }
                             ],
-                            "asyncKeyword": null,
                             "returnType": null,
+                            "arrowToken": {
+                                "kind": 10,
+                                "flags": 64,
+                                "start": 12,
+                                "end": 15
+                            },
                             "contents": {
                                 "kind": 134299649,
                                 "text": "d",
@@ -108,12 +108,7 @@ a ? (b = (c) => d) : e => f;
                 },
                 "alternate": {
                     "kind": 271,
-                    "arrowToken": {
-                        "kind": 10,
-                        "flags": 64,
-                        "start": 22,
-                        "end": 25
-                    },
+                    "asyncKeyword": null,
                     "typeParameters": null,
                     "parameters": {
                         "kind": 134299649,
@@ -123,8 +118,13 @@ a ? (b = (c) => d) : e => f;
                         "start": 20,
                         "end": 22
                     },
-                    "asyncKeyword": null,
                     "returnType": null,
+                    "arrowToken": {
+                        "kind": 10,
+                        "flags": 64,
+                        "start": 22,
+                        "end": 25
+                    },
                     "contents": {
                         "kind": 134299649,
                         "text": "f",
@@ -159,7 +159,7 @@ a ? (b = (c) => d) : e => f;
 
 ```javascript
 
-a ? (b = (c) =>  d) : e =>  f;
+ a ? (b=(c) =>d) : e =>f; 
 ```
 
 ### Diagnostics

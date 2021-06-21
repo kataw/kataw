@@ -1,7 +1,7 @@
 # Auto-generated test cases ( Kataw )
-- Regenerated: 2021-06-14
-- From: kataw/test/__snapshot__/parser/miscellaneous/should-fail/autogen.md
-- Path: kataw/test/__snapshot__/parser/miscellaneous/should-fail/gen/with_strict_directive
+- Regenerated: 2021-06-12
+- From: d
+- Path: e
 > :: test: with strict directive
 > :: case: for (const x = 0 in y){}
 ## Options
@@ -41,34 +41,46 @@
                 "end": 17
             },
             "initializer": {
-                "kind": 151,
-                "bindingList": [
-                    {
-                        "kind": 190,
-                        "binding": {
-                            "kind": 134299649,
-                            "text": "x",
-                            "rawText": "x",
-                            "flags": 96,
+                "kind": 162,
+                "lexicalKeyword": {
+                    "kind": 37757004,
+                    "flags": 64,
+                    "start": 19,
+                    "end": 24
+                },
+                "binding": {
+                    "kind": 151,
+                    "bindingList": [
+                        {
+                            "kind": 190,
+                            "binding": {
+                                "kind": 134299649,
+                                "text": "x",
+                                "rawText": "x",
+                                "flags": 96,
+                                "start": 24,
+                                "end": 26
+                            },
+                            "type": null,
+                            "initializer": {
+                                "kind": 201392130,
+                                "text": 0,
+                                "rawText": "0",
+                                "flags": 96,
+                                "start": 28,
+                                "end": 30
+                            },
+                            "flags": 16,
                             "start": 24,
-                            "end": 26
-                        },
-                        "type": null,
-                        "initializer": {
-                            "kind": 201392130,
-                            "text": 0,
-                            "rawText": "0",
-                            "flags": 96,
-                            "start": 28,
                             "end": 30
-                        },
-                        "flags": 16,
-                        "start": 24,
-                        "end": 30
-                    }
-                ],
-                "flags": 16777232,
-                "start": 24,
+                        }
+                    ],
+                    "flags": 16777232,
+                    "start": 24,
+                    "end": 30
+                },
+                "flags": 33554448,
+                "start": 13,
                 "end": 30
             },
             "inKeyword": {

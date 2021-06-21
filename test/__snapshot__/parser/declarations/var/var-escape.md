@@ -73,7 +73,7 @@ var _\u{104A6} = 10;
 
 ```javascript
 
-var _A¦ = 10;
+ var _\u{104A6} = 10; 
 ```
 
 ### Diagnostics

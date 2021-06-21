@@ -96,7 +96,7 @@
 
 ```javascript
 
-(obj.aaa)?.;
+ ; 
 ```
 
 ### Diagnostics

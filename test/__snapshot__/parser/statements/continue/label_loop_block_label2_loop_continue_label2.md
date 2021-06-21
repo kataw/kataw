@@ -155,8 +155,7 @@ foo: do { bar: do continue bar;while(z) } while(z)
 
 ```javascript
 
-foo: do {}
-while (z);
+ foo: do { bar: do continue bar; while (z) } while (z) 
 ```
 
 ### Diagnostics

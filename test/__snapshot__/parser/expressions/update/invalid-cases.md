@@ -131,7 +131,7 @@ new new foo().bar++;
                 "operand": {
                     "kind": 131,
                     "expression": {
-                        "kind": 536871042,
+                        "kind": 130,
                         "member": {
                             "kind": 134299649,
                             "text": "foo",
@@ -148,7 +148,7 @@ new new foo().bar++;
                             "start": 27,
                             "end": 30
                         },
-                        "flags": 32,
+                        "flags": 536870944,
                         "start": 21,
                         "end": 31
                     },
@@ -239,7 +239,7 @@ new new foo().bar++;
                 "operand": {
                     "kind": 131,
                     "expression": {
-                        "kind": 536871042,
+                        "kind": 130,
                         "member": {
                             "kind": 131,
                             "expression": {
@@ -247,7 +247,7 @@ new new foo().bar++;
                                 "expression": {
                                     "kind": 129,
                                     "member": {
-                                        "kind": 536871042,
+                                        "kind": 130,
                                         "member": {
                                             "kind": 129,
                                             "member": {
@@ -276,7 +276,7 @@ new new foo().bar++;
                                             "start": 61,
                                             "end": 64
                                         },
-                                        "flags": 32,
+                                        "flags": 536870944,
                                         "start": 50,
                                         "end": 65
                                     },
@@ -340,7 +340,7 @@ new new foo().bar++;
                             "start": 81,
                             "end": 84
                         },
-                        "flags": 32,
+                        "flags": 536870944,
                         "start": 50,
                         "end": 85
                     },
