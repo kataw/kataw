@@ -165,7 +165,14 @@ class C { [super.bbb] = 0 };
                                 "kind": 271,
                                 "asyncKeyword": null,
                                 "typeParameters": null,
-                                "parameters": [],
+                                "arrowPatameterList": {
+                                    "kind": 342,
+                                    "parameters": [],
+                                    "trailingComma": false,
+                                    "flags": 0,
+                                    "start": 47,
+                                    "end": 47
+                                },
                                 "returnType": null,
                                 "arrowToken": {
                                     "kind": 10,
@@ -271,7 +278,14 @@ class C { [super.bbb] = 0 };
                                 "kind": 271,
                                 "asyncKeyword": null,
                                 "typeParameters": null,
-                                "parameters": [],
+                                "arrowPatameterList": {
+                                    "kind": 342,
+                                    "parameters": [],
+                                    "trailingComma": false,
+                                    "flags": 0,
+                                    "start": 83,
+                                    "end": 83
+                                },
                                 "returnType": null,
                                 "arrowToken": {
                                     "kind": 10,
@@ -283,7 +297,14 @@ class C { [super.bbb] = 0 };
                                     "kind": 271,
                                     "asyncKeyword": null,
                                     "typeParameters": null,
-                                    "parameters": [],
+                                    "arrowPatameterList": {
+                                        "kind": 342,
+                                        "parameters": [],
+                                        "trailingComma": false,
+                                        "flags": 0,
+                                        "start": 89,
+                                        "end": 89
+                                    },
                                     "returnType": null,
                                     "arrowToken": {
                                         "kind": 10,

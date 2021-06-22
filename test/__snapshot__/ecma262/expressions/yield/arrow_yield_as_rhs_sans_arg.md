@@ -63,7 +63,7 @@ function *g() { async (x = x + yield) => x; }
                                 "end": 21
                             },
                             "typeParameters": null,
-                            "parameters": [
+                            "arrowPatameterList": [
                                 {
                                     "kind": 281,
                                     "ellipsisToken": null,

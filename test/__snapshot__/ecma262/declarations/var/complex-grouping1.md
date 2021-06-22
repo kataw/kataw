@@ -121,16 +121,23 @@ var a: (number: number) => number = (number) => { return 123; }
                             "kind": 271,
                             "asyncKeyword": null,
                             "typeParameters": null,
-                            "parameters": [
-                                {
-                                    "kind": 134299649,
-                                    "text": "number",
-                                    "rawText": "number",
-                                    "flags": 96,
-                                    "start": 37,
-                                    "end": 43
-                                }
-                            ],
+                            "arrowPatameterList": {
+                                "kind": 342,
+                                "parameters": [
+                                    {
+                                        "kind": 134299649,
+                                        "text": "number",
+                                        "rawText": "number",
+                                        "flags": 96,
+                                        "start": 37,
+                                        "end": 43
+                                    }
+                                ],
+                                "trailingComma": false,
+                                "flags": 0,
+                                "start": 37,
+                                "end": 44
+                            },
                             "returnType": null,
                             "arrowToken": {
                                 "kind": 10,
@@ -204,7 +211,7 @@ var a: (number: number) => number = (number) => { return 123; }
 
 ```javascript
 
-var a:  = (number) =>  {
+var a:  = () =>  {
   return  123;
 };
 ```

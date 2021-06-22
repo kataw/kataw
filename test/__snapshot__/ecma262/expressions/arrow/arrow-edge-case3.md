@@ -65,16 +65,23 @@ a ? (b) : (c) : d => e;
                     "kind": 271,
                     "asyncKeyword": null,
                     "typeParameters": null,
-                    "parameters": [
-                        {
-                            "kind": 134299649,
-                            "text": "c",
-                            "rawText": "c",
-                            "flags": 96,
-                            "start": 11,
-                            "end": 12
-                        }
-                    ],
+                    "arrowPatameterList": {
+                        "kind": 342,
+                        "parameters": [
+                            {
+                                "kind": 134299649,
+                                "text": "c",
+                                "rawText": "c",
+                                "flags": 96,
+                                "start": 11,
+                                "end": 12
+                            }
+                        ],
+                        "trailingComma": false,
+                        "flags": 0,
+                        "start": 11,
+                        "end": 17
+                    },
                     "returnType": {
                         "kind": 139,
                         "bitwiseOrToken": null,
@@ -138,7 +145,7 @@ a ? (b) : (c) : d => e;
 
 ```javascript
 
-a ? (b) : (c) =>  e;
+a ? (b) : () =>  e;
 ```
 
 ### Diagnostics

@@ -27,16 +27,23 @@
                     "kind": 271,
                     "asyncKeyword": null,
                     "typeParameters": null,
-                    "parameters": [
-                        {
-                            "kind": 134299649,
-                            "text": "a",
-                            "rawText": "a",
-                            "flags": 96,
-                            "start": 2,
-                            "end": 3
-                        }
-                    ],
+                    "arrowPatameterList": {
+                        "kind": 342,
+                        "parameters": [
+                            {
+                                "kind": 134299649,
+                                "text": "a",
+                                "rawText": "a",
+                                "flags": 96,
+                                "start": 2,
+                                "end": 3
+                            }
+                        ],
+                        "trailingComma": false,
+                        "flags": 0,
+                        "start": 2,
+                        "end": 4
+                    },
                     "returnType": null,
                     "arrowToken": {
                         "kind": 10,
@@ -83,16 +90,23 @@
                             "kind": 271,
                             "asyncKeyword": null,
                             "typeParameters": null,
-                            "parameters": [
-                                {
-                                    "kind": 134299649,
-                                    "text": "a",
-                                    "rawText": "a",
-                                    "flags": 96,
-                                    "start": 18,
-                                    "end": 19
-                                }
-                            ],
+                            "arrowPatameterList": {
+                                "kind": 342,
+                                "parameters": [
+                                    {
+                                        "kind": 134299649,
+                                        "text": "a",
+                                        "rawText": "a",
+                                        "flags": 96,
+                                        "start": 18,
+                                        "end": 19
+                                    }
+                                ],
+                                "trailingComma": false,
+                                "flags": 0,
+                                "start": 18,
+                                "end": 20
+                            },
                             "returnType": null,
                             "arrowToken": {
                                 "kind": 10,

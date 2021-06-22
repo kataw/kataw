@@ -62,45 +62,52 @@ async function wrap() {
                                 "kind": 271,
                                 "asyncKeyword": null,
                                 "typeParameters": null,
-                                "parameters": [
-                                    {
-                                        "kind": 281,
-                                        "ellipsisToken": null,
-                                        "left": {
-                                            "kind": 134299649,
-                                            "text": "a",
-                                            "rawText": "a",
-                                            "flags": 96,
-                                            "start": 27,
-                                            "end": 28
-                                        },
-                                        "optionalToken": null,
-                                        "type": null,
-                                        "right": {
-                                            "kind": 208,
-                                            "awaitKeyword": {
-                                                "kind": 82196,
-                                                "flags": 64,
-                                                "start": 30,
-                                                "end": 36
-                                            },
-                                            "expression": {
+                                "arrowPatameterList": {
+                                    "kind": 342,
+                                    "parameters": [
+                                        {
+                                            "kind": 281,
+                                            "ellipsisToken": null,
+                                            "left": {
                                                 "kind": 134299649,
-                                                "text": "b",
-                                                "rawText": "b",
+                                                "text": "a",
+                                                "rawText": "a",
                                                 "flags": 96,
-                                                "start": 36,
+                                                "start": 27,
+                                                "end": 28
+                                            },
+                                            "optionalToken": null,
+                                            "type": null,
+                                            "right": {
+                                                "kind": 208,
+                                                "awaitKeyword": {
+                                                    "kind": 82196,
+                                                    "flags": 64,
+                                                    "start": 30,
+                                                    "end": 36
+                                                },
+                                                "expression": {
+                                                    "kind": 134299649,
+                                                    "text": "b",
+                                                    "rawText": "b",
+                                                    "flags": 96,
+                                                    "start": 36,
+                                                    "end": 38
+                                                },
+                                                "flags": 32,
+                                                "start": 30,
                                                 "end": 38
                                             },
                                             "flags": 32,
-                                            "start": 30,
+                                            "start": 23,
                                             "end": 38
-                                        },
-                                        "flags": 32,
-                                        "start": 23,
-                                        "end": 38
-                                    }
-                                ],
+                                        }
+                                    ],
+                                    "trailingComma": false,
+                                    "flags": 2,
+                                    "start": 27,
+                                    "end": 39
+                                },
                                 "returnType": null,
                                 "arrowToken": {
                                     "kind": 10,
@@ -159,7 +166,7 @@ async function wrap() {
 ```javascript
 
 async function wrap() {
-  (a = await b) =>  a;
+  () =>  a;
 }
 
 ```

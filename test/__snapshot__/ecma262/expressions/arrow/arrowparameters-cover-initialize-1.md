@@ -42,33 +42,40 @@ var af = (x = 1) => x;
                             "kind": 271,
                             "asyncKeyword": null,
                             "typeParameters": null,
-                            "parameters": [
-                                {
-                                    "kind": 281,
-                                    "ellipsisToken": null,
-                                    "left": {
-                                        "kind": 134299649,
-                                        "text": "x",
-                                        "rawText": "x",
-                                        "flags": 96,
-                                        "start": 10,
-                                        "end": 11
-                                    },
-                                    "optionalToken": null,
-                                    "type": null,
-                                    "right": {
-                                        "kind": 201392130,
-                                        "text": 1,
-                                        "rawText": "1",
-                                        "flags": 96,
-                                        "start": 13,
+                            "arrowPatameterList": {
+                                "kind": 342,
+                                "parameters": [
+                                    {
+                                        "kind": 281,
+                                        "ellipsisToken": null,
+                                        "left": {
+                                            "kind": 134299649,
+                                            "text": "x",
+                                            "rawText": "x",
+                                            "flags": 96,
+                                            "start": 10,
+                                            "end": 11
+                                        },
+                                        "optionalToken": null,
+                                        "type": null,
+                                        "right": {
+                                            "kind": 201392130,
+                                            "text": 1,
+                                            "rawText": "1",
+                                            "flags": 96,
+                                            "start": 13,
+                                            "end": 15
+                                        },
+                                        "flags": 32,
+                                        "start": 8,
                                         "end": 15
-                                    },
-                                    "flags": 32,
-                                    "start": 8,
-                                    "end": 15
-                                }
-                            ],
+                                    }
+                                ],
+                                "trailingComma": false,
+                                "flags": 2,
+                                "start": 10,
+                                "end": 16
+                            },
                             "returnType": null,
                             "arrowToken": {
                                 "kind": 10,
@@ -115,7 +122,7 @@ var af = (x = 1) => x;
 
 ```javascript
 
-var af = (x = 1) =>  x;
+var af = () =>  x;
 ```
 
 ### Diagnostics

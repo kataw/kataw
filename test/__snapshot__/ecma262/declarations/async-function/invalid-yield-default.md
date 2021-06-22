@@ -65,7 +65,7 @@ function* wrap() {
                                 "end": 26
                             },
                             "typeParameters": null,
-                            "parameters": [
+                            "arrowPatameterList": [
                                 {
                                     "kind": 281,
                                     "ellipsisToken": null,

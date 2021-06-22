@@ -34,7 +34,7 @@ async f = async function*({a, b, ...{c, ...rest}} = {a: 1, b: 2, c: 3, d: 4, e: 
                     "end": 5
                 },
                 "typeParameters": null,
-                "parameters": {
+                "arrowPatameterList": {
                     "kind": 134299649,
                     "text": "f",
                     "rawText": "f",

@@ -68,7 +68,7 @@ function f(a = async async => ok) {}
                                 "end": 20
                             },
                             "typeParameters": null,
-                            "parameters": {
+                            "arrowPatameterList": {
                                 "kind": 134299649,
                                 "text": "async",
                                 "rawText": "async",

@@ -50,77 +50,84 @@ var f = (argument1,{arguments: x, ...z}) => {};
                             "kind": 271,
                             "asyncKeyword": null,
                             "typeParameters": null,
-                            "parameters": [
-                                {
-                                    "kind": 134299649,
-                                    "text": "argument1",
-                                    "rawText": "argument1",
-                                    "flags": 96,
-                                    "start": 9,
-                                    "end": 18
-                                },
-                                {
-                                    "kind": 212,
-                                    "propertyList": {
-                                        "kind": 213,
-                                        "properties": [
-                                            {
-                                                "kind": 329,
-                                                "key": {
-                                                    "kind": 134299649,
-                                                    "text": "arguments",
-                                                    "rawText": "arguments",
-                                                    "flags": 96,
+                            "arrowPatameterList": {
+                                "kind": 342,
+                                "parameters": [
+                                    {
+                                        "kind": 134299649,
+                                        "text": "argument1",
+                                        "rawText": "argument1",
+                                        "flags": 96,
+                                        "start": 9,
+                                        "end": 18
+                                    },
+                                    {
+                                        "kind": 212,
+                                        "propertyList": {
+                                            "kind": 213,
+                                            "properties": [
+                                                {
+                                                    "kind": 329,
+                                                    "key": {
+                                                        "kind": 134299649,
+                                                        "text": "arguments",
+                                                        "rawText": "arguments",
+                                                        "flags": 96,
+                                                        "start": 20,
+                                                        "end": 29
+                                                    },
+                                                    "value": {
+                                                        "kind": 134299649,
+                                                        "text": "x",
+                                                        "rawText": "x",
+                                                        "flags": 96,
+                                                        "start": 30,
+                                                        "end": 32
+                                                    },
+                                                    "initializer": null,
+                                                    "flags": 32,
                                                     "start": 20,
-                                                    "end": 29
-                                                },
-                                                "value": {
-                                                    "kind": 134299649,
-                                                    "text": "x",
-                                                    "rawText": "x",
-                                                    "flags": 96,
-                                                    "start": 30,
                                                     "end": 32
                                                 },
-                                                "initializer": null,
-                                                "flags": 32,
-                                                "start": 20,
-                                                "end": 32
-                                            },
-                                            {
-                                                "kind": 281,
-                                                "ellipsisToken": {
-                                                    "kind": 524302,
-                                                    "flags": 64,
+                                                {
+                                                    "kind": 281,
+                                                    "ellipsisToken": {
+                                                        "kind": 524302,
+                                                        "flags": 64,
+                                                        "start": 33,
+                                                        "end": 37
+                                                    },
+                                                    "left": {
+                                                        "kind": 134299649,
+                                                        "text": "z",
+                                                        "rawText": "z",
+                                                        "flags": 96,
+                                                        "start": 37,
+                                                        "end": 38
+                                                    },
+                                                    "optionalToken": null,
+                                                    "type": null,
+                                                    "right": null,
+                                                    "flags": 32,
                                                     "start": 33,
-                                                    "end": 37
-                                                },
-                                                "left": {
-                                                    "kind": 134299649,
-                                                    "text": "z",
-                                                    "rawText": "z",
-                                                    "flags": 96,
-                                                    "start": 37,
                                                     "end": 38
-                                                },
-                                                "optionalToken": null,
-                                                "type": null,
-                                                "right": null,
-                                                "flags": 32,
-                                                "start": 33,
-                                                "end": 38
-                                            }
-                                        ],
-                                        "trailingComma": false,
-                                        "flags": 32,
-                                        "start": 20,
-                                        "end": 38
-                                    },
-                                    "flags": 48,
-                                    "start": 19,
-                                    "end": 39
-                                }
-                            ],
+                                                }
+                                            ],
+                                            "trailingComma": false,
+                                            "flags": 32,
+                                            "start": 20,
+                                            "end": 38
+                                        },
+                                        "flags": 48,
+                                        "start": 19,
+                                        "end": 39
+                                    }
+                                ],
+                                "trailingComma": false,
+                                "flags": 2,
+                                "start": 9,
+                                "end": 40
+                            },
                             "returnType": null,
                             "arrowToken": {
                                 "kind": 10,
@@ -173,10 +180,7 @@ var f = (argument1,{arguments: x, ...z}) => {};
 
 ```javascript
 
-var f = (argument1, {
-  arguments: x,
-  ...z
-}) =>  {};
+var f = () =>  {};
 ```
 
 ### Diagnostics

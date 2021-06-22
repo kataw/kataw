@@ -46,7 +46,14 @@ a ? b : (): string => {}
                     "kind": 271,
                     "asyncKeyword": null,
                     "typeParameters": null,
-                    "parameters": [],
+                    "arrowPatameterList": {
+                        "kind": 342,
+                        "parameters": [],
+                        "trailingComma": false,
+                        "flags": 0,
+                        "start": 6,
+                        "end": 6
+                    },
                     "returnType": null,
                     "arrowToken": null,
                     "contents": {
@@ -71,7 +78,7 @@ a ? b : (): string => {}
                     "kind": 271,
                     "asyncKeyword": null,
                     "typeParameters": null,
-                    "parameters": {
+                    "arrowPatameterList": {
                         "kind": 134299649,
                         "text": "string",
                         "rawText": "string",
@@ -176,7 +183,7 @@ a ? b : (): string => {}
                     "kind": 271,
                     "asyncKeyword": null,
                     "typeParameters": null,
-                    "parameters": {
+                    "arrowPatameterList": {
                         "kind": 134299649,
                         "text": "string",
                         "rawText": "string",
@@ -253,7 +260,14 @@ a ? b : (): string => {}
                     "kind": 271,
                     "asyncKeyword": null,
                     "typeParameters": null,
-                    "parameters": [],
+                    "arrowPatameterList": {
+                        "kind": 342,
+                        "parameters": [],
+                        "trailingComma": false,
+                        "flags": 0,
+                        "start": 70,
+                        "end": 70
+                    },
                     "returnType": null,
                     "arrowToken": null,
                     "contents": {
@@ -278,7 +292,7 @@ a ? b : (): string => {}
                     "kind": 271,
                     "asyncKeyword": null,
                     "typeParameters": null,
-                    "parameters": {
+                    "arrowPatameterList": {
                         "kind": 134299649,
                         "text": "string",
                         "rawText": "string",
@@ -325,7 +339,14 @@ a ? b : (): string => {}
                 "kind": 271,
                 "asyncKeyword": null,
                 "typeParameters": null,
-                "parameters": [],
+                "arrowPatameterList": {
+                    "kind": 342,
+                    "parameters": [],
+                    "trailingComma": false,
+                    "flags": 0,
+                    "start": 91,
+                    "end": 91
+                },
                 "returnType": null,
                 "arrowToken": null,
                 "contents": {
@@ -350,7 +371,7 @@ a ? b : (): string => {}
                 "kind": 271,
                 "asyncKeyword": null,
                 "typeParameters": null,
-                "parameters": {
+                "arrowPatameterList": {
                     "kind": 134299649,
                     "text": "string",
                     "rawText": "string",
@@ -393,7 +414,14 @@ a ? b : (): string => {}
                 "kind": 271,
                 "asyncKeyword": null,
                 "typeParameters": null,
-                "parameters": [],
+                "arrowPatameterList": {
+                    "kind": 342,
+                    "parameters": [],
+                    "trailingComma": false,
+                    "flags": 0,
+                    "start": 110,
+                    "end": 110
+                },
                 "returnType": null,
                 "arrowToken": null,
                 "contents": {
@@ -418,7 +446,7 @@ a ? b : (): string => {}
                 "kind": 271,
                 "asyncKeyword": null,
                 "typeParameters": null,
-                "parameters": {
+                "arrowPatameterList": {
                     "kind": 134299649,
                     "text": "string",
                     "rawText": "string",
@@ -491,7 +519,14 @@ a ? b : (): string => {}
                     "kind": 271,
                     "asyncKeyword": null,
                     "typeParameters": null,
-                    "parameters": [],
+                    "arrowPatameterList": {
+                        "kind": 342,
+                        "parameters": [],
+                        "trailingComma": false,
+                        "flags": 0,
+                        "start": 137,
+                        "end": 137
+                    },
                     "returnType": null,
                     "arrowToken": null,
                     "contents": {
@@ -520,7 +555,7 @@ a ? b : (): string => {}
                 "kind": 271,
                 "asyncKeyword": null,
                 "typeParameters": null,
-                "parameters": {
+                "arrowPatameterList": {
                     "kind": 134299649,
                     "text": "string",
                     "rawText": "string",

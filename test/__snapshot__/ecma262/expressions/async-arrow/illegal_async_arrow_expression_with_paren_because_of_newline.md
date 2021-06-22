@@ -40,7 +40,7 @@ f(async
                                 "end": 7
                             },
                             "typeParameters": null,
-                            "parameters": [],
+                            "arrowPatameterList": [],
                             "returnType": null,
                             "arrowToken": {
                                 "kind": 10,

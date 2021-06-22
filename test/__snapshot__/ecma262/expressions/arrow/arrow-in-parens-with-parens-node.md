@@ -80,16 +80,23 @@ var asserted1 = <any>((n) => { return n; });
                                     "kind": 271,
                                     "asyncKeyword": null,
                                     "typeParameters": null,
-                                    "parameters": [
-                                        {
-                                            "kind": 134299649,
-                                            "text": "n",
-                                            "rawText": "n",
-                                            "flags": 96,
-                                            "start": 23,
-                                            "end": 24
-                                        }
-                                    ],
+                                    "arrowPatameterList": {
+                                        "kind": 342,
+                                        "parameters": [
+                                            {
+                                                "kind": 134299649,
+                                                "text": "n",
+                                                "rawText": "n",
+                                                "flags": 96,
+                                                "start": 23,
+                                                "end": 24
+                                            }
+                                        ],
+                                        "trailingComma": false,
+                                        "flags": 0,
+                                        "start": 23,
+                                        "end": 25
+                                    },
                                     "returnType": null,
                                     "arrowToken": {
                                         "kind": 10,

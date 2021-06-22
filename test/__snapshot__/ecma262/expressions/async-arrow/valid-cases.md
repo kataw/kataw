@@ -51,24 +51,31 @@ async a => await 1;
                 "kind": 271,
                 "asyncKeyword": null,
                 "typeParameters": null,
-                "parameters": [
-                    {
-                        "kind": 134299649,
-                        "text": "async",
-                        "rawText": "async",
-                        "flags": 96,
-                        "start": 2,
-                        "end": 7
-                    },
-                    {
-                        "kind": 134299649,
-                        "text": "x",
-                        "rawText": "x",
-                        "flags": 96,
-                        "start": 8,
-                        "end": 10
-                    }
-                ],
+                "arrowPatameterList": {
+                    "kind": 342,
+                    "parameters": [
+                        {
+                            "kind": 134299649,
+                            "text": "async",
+                            "rawText": "async",
+                            "flags": 96,
+                            "start": 2,
+                            "end": 7
+                        },
+                        {
+                            "kind": 134299649,
+                            "text": "x",
+                            "rawText": "x",
+                            "flags": 96,
+                            "start": 8,
+                            "end": 10
+                        }
+                    ],
+                    "trailingComma": false,
+                    "flags": 0,
+                    "start": 2,
+                    "end": 11
+                },
                 "returnType": null,
                 "arrowToken": {
                     "kind": 10,
@@ -266,7 +273,7 @@ async a => await 1;
                 "end": 79
             },
             "typeParameters": null,
-            "parameters": [],
+            "arrowPatameterList": [],
             "returnType": null,
             "arrowToken": {
                 "kind": 10,
@@ -309,7 +316,7 @@ async a => await 1;
                     "end": 95
                 },
                 "typeParameters": null,
-                "parameters": {
+                "arrowPatameterList": {
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
@@ -355,7 +362,7 @@ async a => await 1;
                 "end": 110
             },
             "typeParameters": null,
-            "parameters": [
+            "arrowPatameterList": [
                 {
                     "kind": 134299649,
                     "text": "x",
@@ -405,7 +412,7 @@ async a => await 1;
                 "end": 127
             },
             "typeParameters": null,
-            "parameters": [
+            "arrowPatameterList": [
                 {
                     "kind": 281,
                     "ellipsisToken": {
@@ -464,7 +471,7 @@ async a => await 1;
                     "end": 147
                 },
                 "typeParameters": null,
-                "parameters": {
+                "arrowPatameterList": {
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
@@ -516,7 +523,7 @@ async a => await 1;
                 "end": 167
             },
             "typeParameters": null,
-            "parameters": [],
+            "arrowPatameterList": [],
             "returnType": null,
             "arrowToken": {
                 "kind": 10,
@@ -570,7 +577,7 @@ async a => await 1;
                                 "end": 190
                             },
                             "typeParameters": null,
-                            "parameters": {
+                            "arrowPatameterList": {
                                 "kind": 134299649,
                                 "text": "x",
                                 "rawText": "x",
@@ -631,7 +638,7 @@ async a => await 1;
                         "end": 209
                     },
                     "typeParameters": null,
-                    "parameters": {
+                    "arrowPatameterList": {
                         "kind": 134299649,
                         "text": "x",
                         "rawText": "x",
@@ -704,7 +711,7 @@ async a => await 1;
                                 "end": 230
                             },
                             "typeParameters": null,
-                            "parameters": [
+                            "arrowPatameterList": [
                                 {
                                     "kind": 134299649,
                                     "text": "x",
@@ -770,7 +777,7 @@ async a => await 1;
                                 "end": 251
                             },
                             "typeParameters": null,
-                            "parameters": [
+                            "arrowPatameterList": [
                                 {
                                     "kind": 134299649,
                                     "text": "x",
@@ -833,7 +840,7 @@ async a => await 1;
                         "end": 272
                     },
                     "typeParameters": null,
-                    "parameters": [
+                    "arrowPatameterList": [
                         {
                             "kind": 134299649,
                             "text": "x",
@@ -906,7 +913,7 @@ async a => await 1;
                             "end": 294
                         },
                         "typeParameters": null,
-                        "parameters": {
+                        "arrowPatameterList": {
                             "kind": 134299649,
                             "text": "x",
                             "rawText": "x",
@@ -961,7 +968,7 @@ async a => await 1;
                     "end": 311
                 },
                 "typeParameters": null,
-                "parameters": {
+                "arrowPatameterList": {
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
@@ -1023,7 +1030,7 @@ async a => await 1;
                 "end": 330
             },
             "typeParameters": null,
-            "parameters": [
+            "arrowPatameterList": [
                 {
                     "kind": 134299649,
                     "text": "x",
@@ -1089,7 +1096,7 @@ async a => await 1;
                 "end": 352
             },
             "typeParameters": null,
-            "parameters": [
+            "arrowPatameterList": [
                 {
                     "kind": 134299649,
                     "text": "x",
@@ -1159,7 +1166,7 @@ async a => await 1;
                         "end": 378
                     },
                     "typeParameters": null,
-                    "parameters": [
+                    "arrowPatameterList": [
                         {
                             "kind": 212,
                             "propertyList": {
@@ -1297,7 +1304,7 @@ async a => await 1;
                                 "end": 429
                             },
                             "typeParameters": null,
-                            "parameters": [
+                            "arrowPatameterList": [
                                 {
                                     "kind": 134299649,
                                     "text": "a",
@@ -1411,7 +1418,7 @@ async a => await 1;
                                 "end": 466
                             },
                             "typeParameters": null,
-                            "parameters": [
+                            "arrowPatameterList": [
                                 {
                                     "kind": 134299649,
                                     "text": "a",
@@ -1677,7 +1684,7 @@ async a => await 1;
                                 "end": 541
                             },
                             "typeParameters": null,
-                            "parameters": {
+                            "arrowPatameterList": {
                                 "kind": 134299649,
                                 "text": "b",
                                 "rawText": "b",
@@ -1741,7 +1748,7 @@ async a => await 1;
                     "end": 562
                 },
                 "typeParameters": null,
-                "parameters": {
+                "arrowPatameterList": {
                     "kind": 134299649,
                     "text": "a",
                     "rawText": "a",
@@ -1855,7 +1862,7 @@ async a => await 1;
                                 "end": 609
                             },
                             "typeParameters": null,
-                            "parameters": [],
+                            "arrowPatameterList": [],
                             "returnType": null,
                             "arrowToken": {
                                 "kind": 10,
@@ -1933,7 +1940,7 @@ async a => await 1;
                     "end": 634
                 },
                 "typeParameters": null,
-                "parameters": {
+                "arrowPatameterList": {
                     "kind": 134299649,
                     "text": "a",
                     "rawText": "a",

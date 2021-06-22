@@ -1363,61 +1363,68 @@ a = { y: x = 1 } = b;
                 "kind": 271,
                 "asyncKeyword": null,
                 "typeParameters": null,
-                "parameters": [
-                    {
-                        "kind": 212,
-                        "propertyList": {
-                            "kind": 213,
-                            "properties": [
-                                {
-                                    "kind": 329,
-                                    "key": {
-                                        "kind": 201392131,
-                                        "text": "x",
-                                        "rawText": "\"x\"",
-                                        "flags": 96,
-                                        "start": 296,
-                                        "end": 299
-                                    },
-                                    "value": {
-                                        "kind": 119,
-                                        "elementList": {
-                                            "kind": 270,
-                                            "elements": [
-                                                {
-                                                    "kind": 134299649,
-                                                    "text": "y",
-                                                    "rawText": "y",
-                                                    "flags": 96,
-                                                    "start": 302,
-                                                    "end": 303
-                                                }
-                                            ],
-                                            "trailingComma": false,
-                                            "flags": 32,
-                                            "start": 302,
-                                            "end": 303
+                "arrowPatameterList": {
+                    "kind": 342,
+                    "parameters": [
+                        {
+                            "kind": 212,
+                            "propertyList": {
+                                "kind": 213,
+                                "properties": [
+                                    {
+                                        "kind": 329,
+                                        "key": {
+                                            "kind": 201392131,
+                                            "text": "x",
+                                            "rawText": "\"x\"",
+                                            "flags": 96,
+                                            "start": 296,
+                                            "end": 299
                                         },
+                                        "value": {
+                                            "kind": 119,
+                                            "elementList": {
+                                                "kind": 270,
+                                                "elements": [
+                                                    {
+                                                        "kind": 134299649,
+                                                        "text": "y",
+                                                        "rawText": "y",
+                                                        "flags": 96,
+                                                        "start": 302,
+                                                        "end": 303
+                                                    }
+                                                ],
+                                                "trailingComma": false,
+                                                "flags": 32,
+                                                "start": 302,
+                                                "end": 303
+                                            },
+                                            "flags": 32,
+                                            "start": 300,
+                                            "end": 304
+                                        },
+                                        "initializer": null,
                                         "flags": 32,
-                                        "start": 300,
+                                        "start": 296,
                                         "end": 304
-                                    },
-                                    "initializer": null,
-                                    "flags": 32,
-                                    "start": 296,
-                                    "end": 304
-                                }
-                            ],
-                            "trailingComma": false,
-                            "flags": 32,
-                            "start": 296,
-                            "end": 304
-                        },
-                        "flags": 48,
-                        "start": 295,
-                        "end": 305
-                    }
-                ],
+                                    }
+                                ],
+                                "trailingComma": false,
+                                "flags": 32,
+                                "start": 296,
+                                "end": 304
+                            },
+                            "flags": 48,
+                            "start": 295,
+                            "end": 305
+                        }
+                    ],
+                    "trailingComma": false,
+                    "flags": 2,
+                    "start": 295,
+                    "end": 306
+                },
                 "returnType": null,
                 "arrowToken": {
                     "kind": 10,
@@ -4539,9 +4546,7 @@ a = { y: x = 1 } = b;
 ({ x() {}, x: 1 });
 ({ * x() {}, get x() {} });
 ({ "\"x\"": y + z });
-({
-  "\"x\"": [y]
-}) =>  x;
+() =>  x;
 ({ "\"x\"": { y: z } });
 x({ [a]: b, [15]: d } = obj);
 ({ l: 50.foo } = x);

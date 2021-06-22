@@ -61,7 +61,7 @@ bar ? baz : ( eval => { 'use strict'; 0 } );
                         "kind": 271,
                         "asyncKeyword": null,
                         "typeParameters": null,
-                        "parameters": {
+                        "arrowPatameterList": {
                             "kind": 134299649,
                             "text": "eval",
                             "rawText": "eval",

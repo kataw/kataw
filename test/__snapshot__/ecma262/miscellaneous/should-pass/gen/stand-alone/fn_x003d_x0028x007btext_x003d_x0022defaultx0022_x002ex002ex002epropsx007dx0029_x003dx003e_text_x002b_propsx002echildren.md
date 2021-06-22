@@ -45,71 +45,78 @@ fn = ({text = "default", ...props}) => text + props.children
                     "kind": 271,
                     "asyncKeyword": null,
                     "typeParameters": null,
-                    "parameters": [
-                        {
-                            "kind": 212,
-                            "propertyList": {
-                                "kind": 213,
-                                "properties": [
-                                    {
-                                        "kind": 281,
-                                        "ellipsisToken": null,
-                                        "left": {
-                                            "kind": 134299649,
-                                            "text": "text",
-                                            "rawText": "text",
-                                            "flags": 96,
+                    "arrowPatameterList": {
+                        "kind": 342,
+                        "parameters": [
+                            {
+                                "kind": 212,
+                                "propertyList": {
+                                    "kind": 213,
+                                    "properties": [
+                                        {
+                                            "kind": 281,
+                                            "ellipsisToken": null,
+                                            "left": {
+                                                "kind": 134299649,
+                                                "text": "text",
+                                                "rawText": "text",
+                                                "flags": 96,
+                                                "start": 7,
+                                                "end": 11
+                                            },
+                                            "optionalToken": null,
+                                            "type": null,
+                                            "right": {
+                                                "kind": 201392131,
+                                                "text": "default",
+                                                "rawText": "\"default\"",
+                                                "flags": 96,
+                                                "start": 13,
+                                                "end": 23
+                                            },
+                                            "flags": 32,
                                             "start": 7,
-                                            "end": 11
-                                        },
-                                        "optionalToken": null,
-                                        "type": null,
-                                        "right": {
-                                            "kind": 201392131,
-                                            "text": "default",
-                                            "rawText": "\"default\"",
-                                            "flags": 96,
-                                            "start": 13,
                                             "end": 23
                                         },
-                                        "flags": 32,
-                                        "start": 7,
-                                        "end": 23
-                                    },
-                                    {
-                                        "kind": 281,
-                                        "ellipsisToken": {
-                                            "kind": 524302,
-                                            "flags": 64,
+                                        {
+                                            "kind": 281,
+                                            "ellipsisToken": {
+                                                "kind": 524302,
+                                                "flags": 64,
+                                                "start": 24,
+                                                "end": 28
+                                            },
+                                            "left": {
+                                                "kind": 134299649,
+                                                "text": "props",
+                                                "rawText": "props",
+                                                "flags": 96,
+                                                "start": 28,
+                                                "end": 33
+                                            },
+                                            "optionalToken": null,
+                                            "type": null,
+                                            "right": null,
+                                            "flags": 32,
                                             "start": 24,
-                                            "end": 28
-                                        },
-                                        "left": {
-                                            "kind": 134299649,
-                                            "text": "props",
-                                            "rawText": "props",
-                                            "flags": 96,
-                                            "start": 28,
                                             "end": 33
-                                        },
-                                        "optionalToken": null,
-                                        "type": null,
-                                        "right": null,
-                                        "flags": 32,
-                                        "start": 24,
-                                        "end": 33
-                                    }
-                                ],
-                                "trailingComma": false,
-                                "flags": 32,
-                                "start": 7,
-                                "end": 33
-                            },
-                            "flags": 48,
-                            "start": 6,
-                            "end": 34
-                        }
-                    ],
+                                        }
+                                    ],
+                                    "trailingComma": false,
+                                    "flags": 32,
+                                    "start": 7,
+                                    "end": 33
+                                },
+                                "flags": 48,
+                                "start": 6,
+                                "end": 34
+                            }
+                        ],
+                        "trailingComma": false,
+                        "flags": 2,
+                        "start": 6,
+                        "end": 35
+                    },
                     "returnType": null,
                     "arrowToken": {
                         "kind": 10,
@@ -185,10 +192,7 @@ fn = ({text = "default", ...props}) => text + props.children
 
 ```javascript
 
-fn = ({
-  text = "\"default\"",
-  ...props
-}) =>  text + props.children;
+fn = () =>  text + props.children;
 ```
 
 ### Diagnostics

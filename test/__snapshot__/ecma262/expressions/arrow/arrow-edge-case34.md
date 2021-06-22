@@ -49,39 +49,46 @@ let x = (y: any): ([,[b]]) => {} => { };
                             "kind": 271,
                             "asyncKeyword": null,
                             "typeParameters": null,
-                            "parameters": [
-                                {
-                                    "kind": 281,
-                                    "ellipsisToken": null,
-                                    "left": {
-                                        "kind": 134299649,
-                                        "text": "y",
-                                        "rawText": "y",
-                                        "flags": 96,
-                                        "start": 9,
-                                        "end": 10
-                                    },
-                                    "optionalToken": null,
-                                    "type": {
-                                        "kind": 139,
-                                        "bitwiseOrToken": null,
-                                        "bitwiseAndToken": null,
+                            "arrowPatameterList": {
+                                "kind": 342,
+                                "parameters": [
+                                    {
+                                        "kind": 281,
+                                        "ellipsisToken": null,
+                                        "left": {
+                                            "kind": 134299649,
+                                            "text": "y",
+                                            "rawText": "y",
+                                            "flags": 96,
+                                            "start": 9,
+                                            "end": 10
+                                        },
+                                        "optionalToken": null,
                                         "type": {
-                                            "kind": 134234252,
-                                            "flags": 2097216,
+                                            "kind": 139,
+                                            "bitwiseOrToken": null,
+                                            "bitwiseAndToken": null,
+                                            "type": {
+                                                "kind": 134234252,
+                                                "flags": 2097216,
+                                                "start": 11,
+                                                "end": 15
+                                            },
+                                            "flags": 2097152,
                                             "start": 11,
                                             "end": 15
                                         },
-                                        "flags": 2097152,
-                                        "start": 11,
+                                        "right": null,
+                                        "flags": 32,
+                                        "start": 7,
                                         "end": 15
-                                    },
-                                    "right": null,
-                                    "flags": 32,
-                                    "start": 7,
-                                    "end": 15
-                                }
-                            ],
+                                    }
+                                ],
+                                "trailingComma": false,
+                                "flags": 0,
+                                "start": 9,
+                                "end": 24
+                            },
                             "returnType": {
                                 "kind": 139,
                                 "bitwiseOrToken": null,

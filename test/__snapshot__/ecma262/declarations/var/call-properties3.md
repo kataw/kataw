@@ -630,16 +630,23 @@ var z : Object = (x) => "hi"
                             "kind": 271,
                             "asyncKeyword": null,
                             "typeParameters": null,
-                            "parameters": [
-                                {
-                                    "kind": 134299649,
-                                    "text": "x",
-                                    "rawText": "x",
-                                    "flags": 96,
-                                    "start": 379,
-                                    "end": 380
-                                }
-                            ],
+                            "arrowPatameterList": {
+                                "kind": 342,
+                                "parameters": [
+                                    {
+                                        "kind": 134299649,
+                                        "text": "x",
+                                        "rawText": "x",
+                                        "flags": 96,
+                                        "start": 379,
+                                        "end": 380
+                                    }
+                                ],
+                                "trailingComma": false,
+                                "flags": 0,
+                                "start": 379,
+                                "end": 381
+                            },
                             "returnType": null,
                             "arrowToken": {
                                 "kind": 10,
@@ -805,16 +812,23 @@ var z : Object = (x) => "hi"
                             "kind": 271,
                             "asyncKeyword": null,
                             "typeParameters": null,
-                            "parameters": [
-                                {
-                                    "kind": 134299649,
-                                    "text": "x",
-                                    "rawText": "x",
-                                    "flags": 96,
-                                    "start": 490,
-                                    "end": 491
-                                }
-                            ],
+                            "arrowPatameterList": {
+                                "kind": 342,
+                                "parameters": [
+                                    {
+                                        "kind": 134299649,
+                                        "text": "x",
+                                        "rawText": "x",
+                                        "flags": 96,
+                                        "start": 490,
+                                        "end": 491
+                                    }
+                                ],
+                                "trailingComma": false,
+                                "flags": 0,
+                                "start": 490,
+                                "end": 492
+                            },
                             "returnType": null,
                             "arrowToken": {
                                 "kind": 10,
@@ -952,16 +966,23 @@ var z : Object = (x) => "hi"
                             "kind": 271,
                             "asyncKeyword": null,
                             "typeParameters": null,
-                            "parameters": [
-                                {
-                                    "kind": 134299649,
-                                    "text": "x",
-                                    "rawText": "x",
-                                    "flags": 96,
-                                    "start": 572,
-                                    "end": 573
-                                }
-                            ],
+                            "arrowPatameterList": {
+                                "kind": 342,
+                                "parameters": [
+                                    {
+                                        "kind": 134299649,
+                                        "text": "x",
+                                        "rawText": "x",
+                                        "flags": 96,
+                                        "start": 572,
+                                        "end": 573
+                                    }
+                                ],
+                                "trailingComma": false,
+                                "flags": 0,
+                                "start": 572,
+                                "end": 574
+                            },
                             "returnType": null,
                             "arrowToken": {
                                 "kind": 10,
@@ -1096,16 +1117,23 @@ var z : Object = (x) => "hi"
                             "kind": 271,
                             "asyncKeyword": null,
                             "typeParameters": null,
-                            "parameters": [
-                                {
-                                    "kind": 134299649,
-                                    "text": "x",
-                                    "rawText": "x",
-                                    "flags": 96,
-                                    "start": 647,
-                                    "end": 648
-                                }
-                            ],
+                            "arrowPatameterList": {
+                                "kind": 342,
+                                "parameters": [
+                                    {
+                                        "kind": 134299649,
+                                        "text": "x",
+                                        "rawText": "x",
+                                        "flags": 96,
+                                        "start": 647,
+                                        "end": 648
+                                    }
+                                ],
+                                "trailingComma": false,
+                                "flags": 0,
+                                "start": 647,
+                                "end": 649
+                            },
                             "returnType": null,
                             "arrowToken": {
                                 "kind": 10,
@@ -1243,7 +1271,14 @@ var z : Object = (x) => "hi"
                             "kind": 271,
                             "asyncKeyword": null,
                             "typeParameters": null,
-                            "parameters": [],
+                            "arrowPatameterList": {
+                                "kind": 342,
+                                "parameters": [],
+                                "trailingComma": false,
+                                "flags": 0,
+                                "start": 726,
+                                "end": 726
+                            },
                             "returnType": null,
                             "arrowToken": {
                                 "kind": 10,
@@ -1365,7 +1400,14 @@ var z : Object = (x) => "hi"
                             "kind": 271,
                             "asyncKeyword": null,
                             "typeParameters": null,
-                            "parameters": [],
+                            "arrowPatameterList": {
+                                "kind": 342,
+                                "parameters": [],
+                                "trailingComma": false,
+                                "flags": 0,
+                                "start": 768,
+                                "end": 768
+                            },
                             "returnType": null,
                             "arrowToken": {
                                 "kind": 10,
@@ -1512,16 +1554,23 @@ var z : Object = (x) => "hi"
                             "kind": 271,
                             "asyncKeyword": null,
                             "typeParameters": null,
-                            "parameters": [
-                                {
-                                    "kind": 134299649,
-                                    "text": "x",
-                                    "rawText": "x",
-                                    "flags": 96,
-                                    "start": 823,
-                                    "end": 824
-                                }
-                            ],
+                            "arrowPatameterList": {
+                                "kind": 342,
+                                "parameters": [
+                                    {
+                                        "kind": 134299649,
+                                        "text": "x",
+                                        "rawText": "x",
+                                        "flags": 96,
+                                        "start": 823,
+                                        "end": 824
+                                    }
+                                ],
+                                "trailingComma": false,
+                                "flags": 0,
+                                "start": 823,
+                                "end": 825
+                            },
                             "returnType": null,
                             "arrowToken": {
                                 "kind": 10,
@@ -1637,16 +1686,23 @@ var z : Object = (x) => "hi"
                             "kind": 271,
                             "asyncKeyword": null,
                             "typeParameters": null,
-                            "parameters": [
-                                {
-                                    "kind": 134299649,
-                                    "text": "x",
-                                    "rawText": "x",
-                                    "flags": 96,
-                                    "start": 915,
-                                    "end": 916
-                                }
-                            ],
+                            "arrowPatameterList": {
+                                "kind": 342,
+                                "parameters": [
+                                    {
+                                        "kind": 134299649,
+                                        "text": "x",
+                                        "rawText": "x",
+                                        "flags": 96,
+                                        "start": 915,
+                                        "end": 916
+                                    }
+                                ],
+                                "trailingComma": false,
+                                "flags": 0,
+                                "start": 915,
+                                "end": 917
+                            },
                             "returnType": null,
                             "arrowToken": {
                                 "kind": 10,
@@ -1728,16 +1784,23 @@ var z : Object = (x) => "hi"
                             "kind": 271,
                             "asyncKeyword": null,
                             "typeParameters": null,
-                            "parameters": [
-                                {
-                                    "kind": 134299649,
-                                    "text": "x",
-                                    "rawText": "x",
-                                    "flags": 96,
-                                    "start": 944,
-                                    "end": 945
-                                }
-                            ],
+                            "arrowPatameterList": {
+                                "kind": 342,
+                                "parameters": [
+                                    {
+                                        "kind": 134299649,
+                                        "text": "x",
+                                        "rawText": "x",
+                                        "flags": 96,
+                                        "start": 944,
+                                        "end": 945
+                                    }
+                                ],
+                                "trailingComma": false,
+                                "flags": 0,
+                                "start": 944,
+                                "end": 946
+                            },
                             "returnType": null,
                             "arrowToken": {
                                 "kind": 10,
@@ -1792,25 +1855,25 @@ var b:  = function () {};
 var f = function () {};
 f.myProp = 123;
 var c:  = f;
-var a:  = (x) =>  x.toString();
+var a:  = () =>  x.toString();
 // ...and it should notice when the return type is wrong
-var b:  = (x) =>  "\"hi\"";
+var b:  = () =>  "\"hi\"";
 // ...or if the param type is wrong
-var c:  = (x) =>  x.toFixed();
+var c:  = () =>  x.toFixed();
 // ...or if the arity is wrong
-var d:  = (x) =>  "\"hi\"";
+var d:  = () =>  "\"hi\"";
 // ...but subtyping rules still apply
 var e:  = () =>  {}; // arity
 
 var f:  = () =>  "\"hi\""; // return type
 
-var g:  = (x) =>  {
+var g:  = () =>  {
   x * 2;
 }; // param type (date < number)
 
 // A function can be an object
-var y:  = (x) =>  "\"hi\"";
-var z:  = (x) =>  "\"hi\"";
+var y:  = () =>  "\"hi\"";
+var z:  = () =>  "\"hi\"";
 ```
 
 ### Diagnostics

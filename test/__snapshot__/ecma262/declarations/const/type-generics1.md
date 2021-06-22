@@ -49,7 +49,14 @@ const functionReturningIdentityAsAField = () => ({ id: <T>(value: T): T => value
                             "kind": 271,
                             "asyncKeyword": null,
                             "typeParameters": null,
-                            "parameters": [],
+                            "arrowPatameterList": {
+                                "kind": 342,
+                                "parameters": [],
+                                "trailingComma": false,
+                                "flags": 0,
+                                "start": 43,
+                                "end": 43
+                            },
                             "returnType": null,
                             "arrowToken": {
                                 "kind": 10,
@@ -109,48 +116,55 @@ const functionReturningIdentityAsAField = () => ({ id: <T>(value: T): T => value
                                                         "start": 54,
                                                         "end": 58
                                                     },
-                                                    "parameters": [
-                                                        {
-                                                            "kind": 281,
-                                                            "ellipsisToken": null,
-                                                            "left": {
-                                                                "kind": 134299649,
-                                                                "text": "value",
-                                                                "rawText": "value",
-                                                                "flags": 96,
-                                                                "start": 59,
-                                                                "end": 64
-                                                            },
-                                                            "optionalToken": null,
-                                                            "type": {
-                                                                "kind": 139,
-                                                                "bitwiseOrToken": null,
-                                                                "bitwiseAndToken": null,
+                                                    "arrowPatameterList": {
+                                                        "kind": 342,
+                                                        "parameters": [
+                                                            {
+                                                                "kind": 281,
+                                                                "ellipsisToken": null,
+                                                                "left": {
+                                                                    "kind": 134299649,
+                                                                    "text": "value",
+                                                                    "rawText": "value",
+                                                                    "flags": 96,
+                                                                    "start": 59,
+                                                                    "end": 64
+                                                                },
+                                                                "optionalToken": null,
                                                                 "type": {
-                                                                    "kind": 144,
-                                                                    "typeName": {
-                                                                        "kind": 134299649,
-                                                                        "text": "T",
-                                                                        "rawText": "T",
-                                                                        "flags": 96,
+                                                                    "kind": 139,
+                                                                    "bitwiseOrToken": null,
+                                                                    "bitwiseAndToken": null,
+                                                                    "type": {
+                                                                        "kind": 144,
+                                                                        "typeName": {
+                                                                            "kind": 134299649,
+                                                                            "text": "T",
+                                                                            "rawText": "T",
+                                                                            "flags": 96,
+                                                                            "start": 65,
+                                                                            "end": 67
+                                                                        },
+                                                                        "typeParameters": null,
+                                                                        "flags": 2097152,
                                                                         "start": 65,
                                                                         "end": 67
                                                                     },
-                                                                    "typeParameters": null,
                                                                     "flags": 2097152,
                                                                     "start": 65,
                                                                     "end": 67
                                                                 },
-                                                                "flags": 2097152,
-                                                                "start": 65,
+                                                                "right": null,
+                                                                "flags": 32,
+                                                                "start": 54,
                                                                 "end": 67
-                                                            },
-                                                            "right": null,
-                                                            "flags": 32,
-                                                            "start": 54,
-                                                            "end": 67
-                                                        }
-                                                    ],
+                                                            }
+                                                        ],
+                                                        "trailingComma": false,
+                                                        "flags": 0,
+                                                        "start": 59,
+                                                        "end": 71
+                                                    },
                                                     "returnType": {
                                                         "kind": 139,
                                                         "bitwiseOrToken": null,
@@ -241,7 +255,7 @@ const functionReturningIdentityAsAField = () => ({ id: <T>(value: T): T => value
 
 ```javascript
 
-const functionReturningIdentityAsAField = () =>  ({ id: (value) =>  value });
+const functionReturningIdentityAsAField = () =>  ({ id: () =>  value });
 ```
 
 ### Diagnostics

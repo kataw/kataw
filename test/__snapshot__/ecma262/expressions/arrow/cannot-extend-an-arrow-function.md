@@ -63,7 +63,7 @@ class Foo extends async x => {} {}
                         "kind": 271,
                         "asyncKeyword": null,
                         "typeParameters": null,
-                        "parameters": {
+                        "arrowPatameterList": {
                             "kind": 134299649,
                             "text": "x",
                             "rawText": "x",
@@ -149,7 +149,14 @@ class Foo extends async x => {} {}
                         "kind": 271,
                         "asyncKeyword": null,
                         "typeParameters": null,
-                        "parameters": [],
+                        "arrowPatameterList": {
+                            "kind": 342,
+                            "parameters": [],
+                            "trailingComma": false,
+                            "flags": 0,
+                            "start": 49,
+                            "end": 49
+                        },
                         "returnType": null,
                         "arrowToken": {
                             "kind": 10,
@@ -233,7 +240,7 @@ class Foo extends async x => {} {}
                             "end": 84
                         },
                         "typeParameters": null,
-                        "parameters": {
+                        "arrowPatameterList": {
                             "kind": 134299649,
                             "text": "x",
                             "rawText": "x",
@@ -323,7 +330,7 @@ class Foo extends async x => {} {}
                                                 "kind": 271,
                                                 "asyncKeyword": null,
                                                 "typeParameters": null,
-                                                "parameters": {
+                                                "arrowPatameterList": {
                                                     "kind": 134299649,
                                                     "text": "x",
                                                     "rawText": "x",
@@ -408,16 +415,23 @@ class Foo extends async x => {} {}
                                                     "kind": 271,
                                                     "asyncKeyword": null,
                                                     "typeParameters": null,
-                                                    "parameters": [
-                                                        {
-                                                            "kind": 134299649,
-                                                            "text": "x",
-                                                            "rawText": "x",
-                                                            "flags": 96,
-                                                            "start": 141,
-                                                            "end": 142
-                                                        }
-                                                    ],
+                                                    "arrowPatameterList": {
+                                                        "kind": 342,
+                                                        "parameters": [
+                                                            {
+                                                                "kind": 134299649,
+                                                                "text": "x",
+                                                                "rawText": "x",
+                                                                "flags": 96,
+                                                                "start": 141,
+                                                                "end": 142
+                                                            }
+                                                        ],
+                                                        "trailingComma": false,
+                                                        "flags": 0,
+                                                        "start": 141,
+                                                        "end": 143
+                                                    },
                                                     "returnType": null,
                                                     "arrowToken": {
                                                         "kind": 10,
@@ -506,7 +520,7 @@ class Foo extends async x => {} {}
                                                     "end": 175
                                                 },
                                                 "typeParameters": null,
-                                                "parameters": {
+                                                "arrowPatameterList": {
                                                     "kind": 134299649,
                                                     "text": "x",
                                                     "rawText": "x",
@@ -602,7 +616,7 @@ class Foo extends async x => {} {}
                                                 "end": 209
                                             },
                                             "typeParameters": null,
-                                            "parameters": [],
+                                            "arrowPatameterList": [],
                                             "returnType": null,
                                             "arrowToken": {
                                                 "kind": 10,
@@ -691,7 +705,7 @@ class Foo extends async x => {} {}
                                             "end": 244
                                         },
                                         "typeParameters": null,
-                                        "parameters": [
+                                        "arrowPatameterList": [
                                             {
                                                 "kind": 134299649,
                                                 "text": "x",

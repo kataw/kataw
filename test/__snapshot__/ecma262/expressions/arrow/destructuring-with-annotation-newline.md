@@ -31,71 +31,78 @@
                 "kind": 271,
                 "asyncKeyword": null,
                 "typeParameters": null,
-                "parameters": [
-                    {
-                        "kind": 281,
-                        "ellipsisToken": null,
-                        "left": {
-                            "kind": 220,
-                            "propertyList": {
-                                "kind": 218,
-                                "properties": [
-                                    {
-                                        "kind": 134299649,
-                                        "text": "a",
-                                        "rawText": "a",
-                                        "flags": 96,
-                                        "start": 5,
-                                        "end": 7
-                                    },
-                                    {
-                                        "kind": 134299649,
-                                        "text": "b",
-                                        "rawText": "b",
-                                        "flags": 96,
-                                        "start": 8,
-                                        "end": 10
-                                    }
-                                ],
-                                "trailingComma": false,
-                                "flags": 16,
-                                "start": 5,
-                                "end": 10
+                "arrowPatameterList": {
+                    "kind": 342,
+                    "parameters": [
+                        {
+                            "kind": 281,
+                            "ellipsisToken": null,
+                            "left": {
+                                "kind": 220,
+                                "propertyList": {
+                                    "kind": 218,
+                                    "properties": [
+                                        {
+                                            "kind": 134299649,
+                                            "text": "a",
+                                            "rawText": "a",
+                                            "flags": 96,
+                                            "start": 5,
+                                            "end": 7
+                                        },
+                                        {
+                                            "kind": 134299649,
+                                            "text": "b",
+                                            "rawText": "b",
+                                            "flags": 96,
+                                            "start": 8,
+                                            "end": 10
+                                        }
+                                    ],
+                                    "trailingComma": false,
+                                    "flags": 16,
+                                    "start": 5,
+                                    "end": 10
+                                },
+                                "flags": 49,
+                                "start": 1,
+                                "end": 12
                             },
-                            "flags": 49,
-                            "start": 1,
-                            "end": 12
-                        },
-                        "optionalToken": null,
-                        "type": {
-                            "kind": 139,
-                            "bitwiseOrToken": null,
-                            "bitwiseAndToken": null,
+                            "optionalToken": null,
                             "type": {
-                                "kind": 144,
-                                "typeName": {
-                                    "kind": 134299649,
-                                    "text": "T",
-                                    "rawText": "T",
-                                    "flags": 96,
+                                "kind": 139,
+                                "bitwiseOrToken": null,
+                                "bitwiseAndToken": null,
+                                "type": {
+                                    "kind": 144,
+                                    "typeName": {
+                                        "kind": 134299649,
+                                        "text": "T",
+                                        "rawText": "T",
+                                        "flags": 96,
+                                        "start": 13,
+                                        "end": 15
+                                    },
+                                    "typeParameters": null,
+                                    "flags": 2097152,
                                     "start": 13,
                                     "end": 15
                                 },
-                                "typeParameters": null,
                                 "flags": 2097152,
                                 "start": 13,
                                 "end": 15
                             },
-                            "flags": 2097152,
-                            "start": 13,
+                            "right": null,
+                            "flags": 32,
+                            "start": 0,
                             "end": 15
-                        },
-                        "right": null,
-                        "flags": 32,
-                        "start": 0,
-                        "end": 15
-                    }
-                ],
+                        }
+                    ],
+                    "trailingComma": false,
+                    "flags": 2,
+                    "start": 1,
+                    "end": 21
+                },
                 "returnType": {
                     "kind": 139,
                     "bitwiseOrToken": null,
@@ -161,7 +168,7 @@
 
 ```javascript
 
-({ a, b }) =>  {};
+() =>  {};
 ```
 
 ### Diagnostics

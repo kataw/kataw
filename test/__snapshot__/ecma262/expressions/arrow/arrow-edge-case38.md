@@ -32,7 +32,7 @@ async (): void => {}
                 "end": 5
             },
             "typeParameters": null,
-            "parameters": [],
+            "arrowPatameterList": [],
             "returnType": {
                 "kind": 139,
                 "bitwiseOrToken": null,

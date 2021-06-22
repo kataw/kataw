@@ -2519,7 +2519,14 @@ function f({x:arg = (arg = 2)}) {}
                                             "kind": 271,
                                             "asyncKeyword": null,
                                             "typeParameters": null,
-                                            "parameters": [],
+                                            "arrowPatameterList": {
+                                                "kind": 342,
+                                                "parameters": [],
+                                                "trailingComma": false,
+                                                "flags": 0,
+                                                "start": 679,
+                                                "end": 679
+                                            },
                                             "returnType": null,
                                             "arrowToken": {
                                                 "kind": 10,
@@ -2723,7 +2730,14 @@ function f({x:arg = (arg = 2)}) {}
                                             "kind": 271,
                                             "asyncKeyword": null,
                                             "typeParameters": null,
-                                            "parameters": [],
+                                            "arrowPatameterList": {
+                                                "kind": 342,
+                                                "parameters": [],
+                                                "trailingComma": false,
+                                                "flags": 0,
+                                                "start": 732,
+                                                "end": 732
+                                            },
                                             "returnType": null,
                                             "arrowToken": {
                                                 "kind": 10,
@@ -3628,7 +3642,14 @@ function f({x:arg = (arg = 2)}) {}
                                             "kind": 271,
                                             "asyncKeyword": null,
                                             "typeParameters": null,
-                                            "parameters": [],
+                                            "arrowPatameterList": {
+                                                "kind": 342,
+                                                "parameters": [],
+                                                "trailingComma": false,
+                                                "flags": 0,
+                                                "start": 1010,
+                                                "end": 1010
+                                            },
                                             "returnType": null,
                                             "arrowToken": {
                                                 "kind": 10,

@@ -98,33 +98,40 @@ let f6 = /* comment */
                     "kind": 271,
                     "asyncKeyword": null,
                     "typeParameters": null,
-                    "parameters": [
-                        {
-                            "kind": 281,
-                            "ellipsisToken": null,
-                            "left": {
-                                "kind": 134299649,
-                                "text": "a",
-                                "rawText": "a",
-                                "flags": 96,
-                                "start": 7,
-                                "end": 11
-                            },
-                            "optionalToken": null,
-                            "type": null,
-                            "right": {
-                                "kind": 134299649,
-                                "text": "b",
-                                "rawText": "b",
-                                "flags": 96,
-                                "start": 13,
+                    "arrowPatameterList": {
+                        "kind": 342,
+                        "parameters": [
+                            {
+                                "kind": 281,
+                                "ellipsisToken": null,
+                                "left": {
+                                    "kind": 134299649,
+                                    "text": "a",
+                                    "rawText": "a",
+                                    "flags": 96,
+                                    "start": 7,
+                                    "end": 11
+                                },
+                                "optionalToken": null,
+                                "type": null,
+                                "right": {
+                                    "kind": 134299649,
+                                    "text": "b",
+                                    "rawText": "b",
+                                    "flags": 96,
+                                    "start": 13,
+                                    "end": 29
+                                },
+                                "flags": 32,
+                                "start": 5,
                                 "end": 29
-                            },
-                            "flags": 32,
-                            "start": 5,
-                            "end": 29
-                        }
-                    ],
+                            }
+                        ],
+                        "trailingComma": false,
+                        "flags": 2,
+                        "start": 7,
+                        "end": 31
+                    },
                     "returnType": null,
                     "arrowToken": {
                         "kind": 10,
@@ -180,33 +187,40 @@ let f6 = /* comment */
                     "kind": 271,
                     "asyncKeyword": null,
                     "typeParameters": null,
-                    "parameters": [
-                        {
-                            "kind": 281,
-                            "ellipsisToken": null,
-                            "left": {
-                                "kind": 134299649,
-                                "text": "a",
-                                "rawText": "a",
-                                "flags": 96,
-                                "start": 46,
-                                "end": 50
-                            },
-                            "optionalToken": null,
-                            "type": null,
-                            "right": {
-                                "kind": 134299649,
-                                "text": "b",
-                                "rawText": "b",
-                                "flags": 96,
-                                "start": 52,
+                    "arrowPatameterList": {
+                        "kind": 342,
+                        "parameters": [
+                            {
+                                "kind": 281,
+                                "ellipsisToken": null,
+                                "left": {
+                                    "kind": 134299649,
+                                    "text": "a",
+                                    "rawText": "a",
+                                    "flags": 96,
+                                    "start": 46,
+                                    "end": 50
+                                },
+                                "optionalToken": null,
+                                "type": null,
+                                "right": {
+                                    "kind": 134299649,
+                                    "text": "b",
+                                    "rawText": "b",
+                                    "flags": 96,
+                                    "start": 52,
+                                    "end": 66
+                                },
+                                "flags": 32,
+                                "start": 44,
                                 "end": 66
-                            },
-                            "flags": 32,
-                            "start": 44,
-                            "end": 66
-                        }
-                    ],
+                            }
+                        ],
+                        "trailingComma": false,
+                        "flags": 2,
+                        "start": 46,
+                        "end": 68
+                    },
                     "returnType": null,
                     "arrowToken": {
                         "kind": 10,
@@ -262,33 +276,40 @@ let f6 = /* comment */
                     "kind": 271,
                     "asyncKeyword": null,
                     "typeParameters": null,
-                    "parameters": [
-                        {
-                            "kind": 281,
-                            "ellipsisToken": null,
-                            "left": {
-                                "kind": 134299649,
-                                "text": "a",
-                                "rawText": "a",
-                                "flags": 96,
-                                "start": 83,
-                                "end": 87
-                            },
-                            "optionalToken": null,
-                            "type": null,
-                            "right": {
-                                "kind": 134299649,
-                                "text": "b",
-                                "rawText": "b",
-                                "flags": 96,
-                                "start": 89,
+                    "arrowPatameterList": {
+                        "kind": 342,
+                        "parameters": [
+                            {
+                                "kind": 281,
+                                "ellipsisToken": null,
+                                "left": {
+                                    "kind": 134299649,
+                                    "text": "a",
+                                    "rawText": "a",
+                                    "flags": 96,
+                                    "start": 83,
+                                    "end": 87
+                                },
+                                "optionalToken": null,
+                                "type": null,
+                                "right": {
+                                    "kind": 134299649,
+                                    "text": "b",
+                                    "rawText": "b",
+                                    "flags": 96,
+                                    "start": 89,
+                                    "end": 93
+                                },
+                                "flags": 32,
+                                "start": 81,
                                 "end": 93
-                            },
-                            "flags": 32,
-                            "start": 81,
-                            "end": 93
-                        }
-                    ],
+                            }
+                        ],
+                        "trailingComma": false,
+                        "flags": 2,
+                        "start": 83,
+                        "end": 105
+                    },
                     "returnType": null,
                     "arrowToken": {
                         "kind": 10,
@@ -344,7 +365,14 @@ let f6 = /* comment */
                     "kind": 271,
                     "asyncKeyword": null,
                     "typeParameters": null,
-                    "parameters": [],
+                    "arrowPatameterList": {
+                        "kind": 342,
+                        "parameters": [],
+                        "trailingComma": false,
+                        "flags": 0,
+                        "start": 133,
+                        "end": 133
+                    },
                     "returnType": null,
                     "arrowToken": {
                         "kind": 10,
@@ -400,7 +428,14 @@ let f6 = /* comment */
                     "kind": 271,
                     "asyncKeyword": null,
                     "typeParameters": null,
-                    "parameters": [],
+                    "arrowPatameterList": {
+                        "kind": 342,
+                        "parameters": [],
+                        "trailingComma": false,
+                        "flags": 0,
+                        "start": 165,
+                        "end": 165
+                    },
                     "returnType": null,
                     "arrowToken": {
                         "kind": 10,
@@ -456,7 +491,14 @@ let f6 = /* comment */
                     "kind": 271,
                     "asyncKeyword": null,
                     "typeParameters": null,
-                    "parameters": [],
+                    "arrowPatameterList": {
+                        "kind": 342,
+                        "parameters": [],
+                        "trailingComma": false,
+                        "flags": 0,
+                        "start": 211,
+                        "end": 211
+                    },
                     "returnType": null,
                     "arrowToken": {
                         "kind": 10,
@@ -516,33 +558,40 @@ let f6 = /* comment */
                             "kind": 271,
                             "asyncKeyword": null,
                             "typeParameters": null,
-                            "parameters": [
-                                {
-                                    "kind": 281,
-                                    "ellipsisToken": null,
-                                    "left": {
-                                        "kind": 134299649,
-                                        "text": "a",
-                                        "rawText": "a",
-                                        "flags": 96,
-                                        "start": 230,
-                                        "end": 234
-                                    },
-                                    "optionalToken": null,
-                                    "type": null,
-                                    "right": {
-                                        "kind": 134299649,
-                                        "text": "b",
-                                        "rawText": "b",
-                                        "flags": 96,
-                                        "start": 236,
+                            "arrowPatameterList": {
+                                "kind": 342,
+                                "parameters": [
+                                    {
+                                        "kind": 281,
+                                        "ellipsisToken": null,
+                                        "left": {
+                                            "kind": 134299649,
+                                            "text": "a",
+                                            "rawText": "a",
+                                            "flags": 96,
+                                            "start": 230,
+                                            "end": 234
+                                        },
+                                        "optionalToken": null,
+                                        "type": null,
+                                        "right": {
+                                            "kind": 134299649,
+                                            "text": "b",
+                                            "rawText": "b",
+                                            "flags": 96,
+                                            "start": 236,
+                                            "end": 252
+                                        },
+                                        "flags": 32,
+                                        "start": 228,
                                         "end": 252
-                                    },
-                                    "flags": 32,
-                                    "start": 228,
-                                    "end": 252
-                                }
-                            ],
+                                    }
+                                ],
+                                "trailingComma": false,
+                                "flags": 2,
+                                "start": 230,
+                                "end": 254
+                            },
                             "returnType": null,
                             "arrowToken": {
                                 "kind": 10,
@@ -607,33 +656,40 @@ let f6 = /* comment */
                             "kind": 271,
                             "asyncKeyword": null,
                             "typeParameters": null,
-                            "parameters": [
-                                {
-                                    "kind": 281,
-                                    "ellipsisToken": null,
-                                    "left": {
-                                        "kind": 134299649,
-                                        "text": "a",
-                                        "rawText": "a",
-                                        "flags": 96,
-                                        "start": 273,
-                                        "end": 277
-                                    },
-                                    "optionalToken": null,
-                                    "type": null,
-                                    "right": {
-                                        "kind": 134299649,
-                                        "text": "b",
-                                        "rawText": "b",
-                                        "flags": 96,
-                                        "start": 279,
+                            "arrowPatameterList": {
+                                "kind": 342,
+                                "parameters": [
+                                    {
+                                        "kind": 281,
+                                        "ellipsisToken": null,
+                                        "left": {
+                                            "kind": 134299649,
+                                            "text": "a",
+                                            "rawText": "a",
+                                            "flags": 96,
+                                            "start": 273,
+                                            "end": 277
+                                        },
+                                        "optionalToken": null,
+                                        "type": null,
+                                        "right": {
+                                            "kind": 134299649,
+                                            "text": "b",
+                                            "rawText": "b",
+                                            "flags": 96,
+                                            "start": 279,
+                                            "end": 293
+                                        },
+                                        "flags": 32,
+                                        "start": 271,
                                         "end": 293
-                                    },
-                                    "flags": 32,
-                                    "start": 271,
-                                    "end": 293
-                                }
-                            ],
+                                    }
+                                ],
+                                "trailingComma": false,
+                                "flags": 2,
+                                "start": 273,
+                                "end": 295
+                            },
                             "returnType": null,
                             "arrowToken": {
                                 "kind": 10,
@@ -698,33 +754,40 @@ let f6 = /* comment */
                             "kind": 271,
                             "asyncKeyword": null,
                             "typeParameters": null,
-                            "parameters": [
-                                {
-                                    "kind": 281,
-                                    "ellipsisToken": null,
-                                    "left": {
-                                        "kind": 134299649,
-                                        "text": "a",
-                                        "rawText": "a",
-                                        "flags": 96,
-                                        "start": 314,
-                                        "end": 318
-                                    },
-                                    "optionalToken": null,
-                                    "type": null,
-                                    "right": {
-                                        "kind": 134299649,
-                                        "text": "b",
-                                        "rawText": "b",
-                                        "flags": 96,
-                                        "start": 320,
+                            "arrowPatameterList": {
+                                "kind": 342,
+                                "parameters": [
+                                    {
+                                        "kind": 281,
+                                        "ellipsisToken": null,
+                                        "left": {
+                                            "kind": 134299649,
+                                            "text": "a",
+                                            "rawText": "a",
+                                            "flags": 96,
+                                            "start": 314,
+                                            "end": 318
+                                        },
+                                        "optionalToken": null,
+                                        "type": null,
+                                        "right": {
+                                            "kind": 134299649,
+                                            "text": "b",
+                                            "rawText": "b",
+                                            "flags": 96,
+                                            "start": 320,
+                                            "end": 324
+                                        },
+                                        "flags": 32,
+                                        "start": 312,
                                         "end": 324
-                                    },
-                                    "flags": 32,
-                                    "start": 312,
-                                    "end": 324
-                                }
-                            ],
+                                    }
+                                ],
+                                "trailingComma": false,
+                                "flags": 2,
+                                "start": 314,
+                                "end": 336
+                            },
                             "returnType": null,
                             "arrowToken": {
                                 "kind": 10,
@@ -789,7 +852,14 @@ let f6 = /* comment */
                             "kind": 271,
                             "asyncKeyword": null,
                             "typeParameters": null,
-                            "parameters": [],
+                            "arrowPatameterList": {
+                                "kind": 342,
+                                "parameters": [],
+                                "trailingComma": false,
+                                "flags": 0,
+                                "start": 368,
+                                "end": 368
+                            },
                             "returnType": null,
                             "arrowToken": {
                                 "kind": 10,
@@ -854,7 +924,14 @@ let f6 = /* comment */
                             "kind": 271,
                             "asyncKeyword": null,
                             "typeParameters": null,
-                            "parameters": [],
+                            "arrowPatameterList": {
+                                "kind": 342,
+                                "parameters": [],
+                                "trailingComma": false,
+                                "flags": 0,
+                                "start": 405,
+                                "end": 405
+                            },
                             "returnType": null,
                             "arrowToken": {
                                 "kind": 10,
@@ -919,7 +996,14 @@ let f6 = /* comment */
                             "kind": 271,
                             "asyncKeyword": null,
                             "typeParameters": null,
-                            "parameters": [],
+                            "arrowPatameterList": {
+                                "kind": 342,
+                                "parameters": [],
+                                "trailingComma": false,
+                                "flags": 0,
+                                "start": 455,
+                                "end": 455
+                            },
                             "returnType": null,
                             "arrowToken": {
                                 "kind": 10,
@@ -972,21 +1056,17 @@ let f6 = /* comment */
 
 ```javascript
 
-f1 = (a = //comment
-b) =>  {};
-f2 = (a = b) =>  {};
-f3 = (a = b //comment
-) =>  {};
+f1 = () =>  {};
+f2 = () =>  {};
+f3 = () =>  {};
 f4 = () =>  {};
 f5 = // Comment
 () =>  {};
 f6 = // Comment
 () =>  {};
-let f1 = (a = //comment
-b) =>  {};
-let f2 = (a = b) =>  {};
-let f3 = (a = b //comment
-) =>  {};
+let f1 = () =>  {};
+let f2 = () =>  {};
+let f3 = () =>  {};
 let f4 = () =>  {};
 let f5 = // Comment
 () =>  {};

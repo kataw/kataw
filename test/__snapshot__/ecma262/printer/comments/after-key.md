@@ -63,7 +63,14 @@ let b = {
                                             "kind": 271,
                                             "asyncKeyword": null,
                                             "typeParameters": null,
-                                            "parameters": [],
+                                            "arrowPatameterList": {
+                                                "kind": 342,
+                                                "parameters": [],
+                                                "trailingComma": false,
+                                                "flags": 0,
+                                                "start": 31,
+                                                "end": 31
+                                            },
                                             "returnType": null,
                                             "arrowToken": {
                                                 "kind": 10,
@@ -152,7 +159,14 @@ let b = {
                                             "kind": 271,
                                             "asyncKeyword": null,
                                             "typeParameters": null,
-                                            "parameters": [],
+                                            "arrowPatameterList": {
+                                                "kind": 342,
+                                                "parameters": [],
+                                                "trailingComma": false,
+                                                "flags": 0,
+                                                "start": 75,
+                                                "end": 75
+                                            },
                                             "returnType": null,
                                             "arrowToken": {
                                                 "kind": 10,

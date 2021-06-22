@@ -54,7 +54,7 @@ const a = async (foo: string = "") => {}
                                 "end": 15
                             },
                             "typeParameters": null,
-                            "parameters": [
+                            "arrowPatameterList": [
                                 {
                                     "kind": 281,
                                     "ellipsisToken": null,

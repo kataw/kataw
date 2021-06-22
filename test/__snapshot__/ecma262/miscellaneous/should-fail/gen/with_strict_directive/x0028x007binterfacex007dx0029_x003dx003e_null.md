@@ -38,31 +38,38 @@
                 "kind": 271,
                 "asyncKeyword": null,
                 "typeParameters": null,
-                "parameters": [
-                    {
-                        "kind": 212,
-                        "propertyList": {
-                            "kind": 213,
-                            "properties": [
-                                {
-                                    "kind": 134299649,
-                                    "text": "interface",
-                                    "rawText": "interface",
-                                    "flags": 96,
-                                    "start": 16,
-                                    "end": 25
-                                }
-                            ],
-                            "trailingComma": false,
-                            "flags": 32,
-                            "start": 16,
-                            "end": 25
-                        },
-                        "flags": 48,
-                        "start": 15,
-                        "end": 26
-                    }
-                ],
+                "arrowPatameterList": {
+                    "kind": 342,
+                    "parameters": [
+                        {
+                            "kind": 212,
+                            "propertyList": {
+                                "kind": 213,
+                                "properties": [
+                                    {
+                                        "kind": 134299649,
+                                        "text": "interface",
+                                        "rawText": "interface",
+                                        "flags": 96,
+                                        "start": 16,
+                                        "end": 25
+                                    }
+                                ],
+                                "trailingComma": false,
+                                "flags": 32,
+                                "start": 16,
+                                "end": 25
+                            },
+                            "flags": 48,
+                            "start": 15,
+                            "end": 26
+                        }
+                    ],
+                    "trailingComma": false,
+                    "flags": 2,
+                    "start": 15,
+                    "end": 27
+                },
                 "returnType": null,
                 "arrowToken": {
                     "kind": 10,
@@ -98,9 +105,7 @@
 
 ```javascript
 
-({
-  interface
-}) =>  null;
+() =>  null;
 ```
 
 ### Diagnostics

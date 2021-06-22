@@ -29,54 +29,61 @@
                 "kind": 271,
                 "asyncKeyword": null,
                 "typeParameters": null,
-                "parameters": [
-                    {
-                        "kind": 281,
-                        "ellipsisToken": null,
-                        "left": {
-                            "kind": 134299649,
-                            "text": "a",
-                            "rawText": "a",
-                            "flags": 96,
-                            "start": 1,
-                            "end": 2
-                        },
-                        "optionalToken": {
-                            "kind": 134217750,
-                            "flags": 64,
-                            "start": 2,
+                "arrowPatameterList": {
+                    "kind": 342,
+                    "parameters": [
+                        {
+                            "kind": 281,
+                            "ellipsisToken": null,
+                            "left": {
+                                "kind": 134299649,
+                                "text": "a",
+                                "rawText": "a",
+                                "flags": 96,
+                                "start": 1,
+                                "end": 2
+                            },
+                            "optionalToken": {
+                                "kind": 134217750,
+                                "flags": 64,
+                                "start": 2,
+                                "end": 3
+                            },
+                            "type": null,
+                            "right": null,
+                            "flags": 32,
+                            "start": 0,
                             "end": 3
                         },
-                        "type": null,
-                        "right": null,
-                        "flags": 32,
-                        "start": 0,
-                        "end": 3
-                    },
-                    {
-                        "kind": 281,
-                        "ellipsisToken": null,
-                        "left": {
-                            "kind": 134299649,
-                            "text": "b",
-                            "rawText": "b",
-                            "flags": 96,
-                            "start": 4,
-                            "end": 6
-                        },
-                        "optionalToken": {
-                            "kind": 134217750,
-                            "flags": 64,
-                            "start": 6,
+                        {
+                            "kind": 281,
+                            "ellipsisToken": null,
+                            "left": {
+                                "kind": 134299649,
+                                "text": "b",
+                                "rawText": "b",
+                                "flags": 96,
+                                "start": 4,
+                                "end": 6
+                            },
+                            "optionalToken": {
+                                "kind": 134217750,
+                                "flags": 64,
+                                "start": 6,
+                                "end": 7
+                            },
+                            "type": null,
+                            "right": null,
+                            "flags": 32,
+                            "start": 0,
                             "end": 7
-                        },
-                        "type": null,
-                        "right": null,
-                        "flags": 32,
-                        "start": 0,
-                        "end": 7
-                    }
-                ],
+                        }
+                    ],
+                    "trailingComma": false,
+                    "flags": 0,
+                    "start": 1,
+                    "end": 8
+                },
                 "returnType": null,
                 "arrowToken": {
                     "kind": 10,
@@ -114,7 +121,7 @@
 
 ```javascript
 
-(a?, b?) =>  0;
+() =>  0;
 ```
 
 ### Diagnostics

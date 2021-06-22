@@ -107,7 +107,14 @@ class x extends y { fo(){ return () => super[bar]; }}
                                                     "kind": 271,
                                                     "asyncKeyword": null,
                                                     "typeParameters": null,
-                                                    "parameters": [],
+                                                    "arrowPatameterList": {
+                                                        "kind": 342,
+                                                        "parameters": [],
+                                                        "trailingComma": false,
+                                                        "flags": 0,
+                                                        "start": 34,
+                                                        "end": 34
+                                                    },
                                                     "returnType": null,
                                                     "arrowToken": {
                                                         "kind": 10,

@@ -21,33 +21,40 @@
                 "kind": 271,
                 "asyncKeyword": null,
                 "typeParameters": null,
-                "parameters": [
-                    {
-                        "kind": 281,
-                        "ellipsisToken": null,
-                        "left": {
-                            "kind": 134299649,
-                            "text": "x",
-                            "rawText": "x",
-                            "flags": 96,
-                            "start": 1,
-                            "end": 2
-                        },
-                        "optionalToken": null,
-                        "type": null,
-                        "right": {
-                            "kind": 134299649,
-                            "text": "yield",
-                            "rawText": "yield",
-                            "flags": 96,
-                            "start": 4,
+                "arrowPatameterList": {
+                    "kind": 342,
+                    "parameters": [
+                        {
+                            "kind": 281,
+                            "ellipsisToken": null,
+                            "left": {
+                                "kind": 134299649,
+                                "text": "x",
+                                "rawText": "x",
+                                "flags": 96,
+                                "start": 1,
+                                "end": 2
+                            },
+                            "optionalToken": null,
+                            "type": null,
+                            "right": {
+                                "kind": 134299649,
+                                "text": "yield",
+                                "rawText": "yield",
+                                "flags": 96,
+                                "start": 4,
+                                "end": 10
+                            },
+                            "flags": 32,
+                            "start": 0,
                             "end": 10
-                        },
-                        "flags": 32,
-                        "start": 0,
-                        "end": 10
-                    }
-                ],
+                        }
+                    ],
+                    "trailingComma": false,
+                    "flags": 2,
+                    "start": 1,
+                    "end": 11
+                },
                 "returnType": null,
                 "arrowToken": {
                     "kind": 10,
@@ -91,7 +98,7 @@
 
 ```javascript
 
-(x = yield) =>  {};
+() =>  {};
 ```
 
 ### Diagnostics

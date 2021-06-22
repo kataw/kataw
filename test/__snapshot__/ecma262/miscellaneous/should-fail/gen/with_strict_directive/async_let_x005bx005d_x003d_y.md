@@ -43,7 +43,7 @@
                     "end": 19
                 },
                 "typeParameters": null,
-                "parameters": {
+                "arrowPatameterList": {
                     "kind": 134299649,
                     "text": "let",
                     "rawText": "let",

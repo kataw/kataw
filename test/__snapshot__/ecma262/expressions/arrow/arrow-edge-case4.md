@@ -63,16 +63,23 @@ a ? (b = (c) => d) : e => f;
                             "kind": 271,
                             "asyncKeyword": null,
                             "typeParameters": null,
-                            "parameters": [
-                                {
-                                    "kind": 134299649,
-                                    "text": "c",
-                                    "rawText": "c",
-                                    "flags": 96,
-                                    "start": 10,
-                                    "end": 11
-                                }
-                            ],
+                            "arrowPatameterList": {
+                                "kind": 342,
+                                "parameters": [
+                                    {
+                                        "kind": 134299649,
+                                        "text": "c",
+                                        "rawText": "c",
+                                        "flags": 96,
+                                        "start": 10,
+                                        "end": 11
+                                    }
+                                ],
+                                "trailingComma": false,
+                                "flags": 0,
+                                "start": 10,
+                                "end": 12
+                            },
                             "returnType": null,
                             "arrowToken": {
                                 "kind": 10,
@@ -110,7 +117,7 @@ a ? (b = (c) => d) : e => f;
                     "kind": 271,
                     "asyncKeyword": null,
                     "typeParameters": null,
-                    "parameters": {
+                    "arrowPatameterList": {
                         "kind": 134299649,
                         "text": "e",
                         "rawText": "e",
@@ -159,7 +166,7 @@ a ? (b = (c) => d) : e => f;
 
 ```javascript
 
-a ? (b = (c) =>  d) : e =>  f;
+a ? (b = () =>  d) : e =>  f;
 ```
 
 ### Diagnostics

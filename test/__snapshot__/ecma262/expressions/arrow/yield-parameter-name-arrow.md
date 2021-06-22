@@ -21,16 +21,23 @@
                 "kind": 271,
                 "asyncKeyword": null,
                 "typeParameters": null,
-                "parameters": [
-                    {
-                        "kind": 134299649,
-                        "text": "yield",
-                        "rawText": "yield",
-                        "flags": 96,
-                        "start": 1,
-                        "end": 6
-                    }
-                ],
+                "arrowPatameterList": {
+                    "kind": 342,
+                    "parameters": [
+                        {
+                            "kind": 134299649,
+                            "text": "yield",
+                            "rawText": "yield",
+                            "flags": 96,
+                            "start": 1,
+                            "end": 6
+                        }
+                    ],
+                    "trailingComma": false,
+                    "flags": 0,
+                    "start": 1,
+                    "end": 7
+                },
                 "returnType": null,
                 "arrowToken": {
                     "kind": 10,
@@ -74,7 +81,7 @@
 
 ```javascript
 
-(yield) =>  {};
+() =>  {};
 ```
 
 ### Diagnostics

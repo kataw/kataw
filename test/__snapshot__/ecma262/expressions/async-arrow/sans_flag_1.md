@@ -33,7 +33,7 @@ async _ => _
                     "end": 5
                 },
                 "typeParameters": null,
-                "parameters": {
+                "arrowPatameterList": {
                     "kind": 134299649,
                     "text": "_",
                     "rawText": "_",

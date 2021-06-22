@@ -56,7 +56,7 @@ let foo = (async bar => bar);
                                     "end": 16
                                 },
                                 "typeParameters": null,
-                                "parameters": {
+                                "arrowPatameterList": {
                                     "kind": 134299649,
                                     "text": "bar",
                                     "rawText": "bar",

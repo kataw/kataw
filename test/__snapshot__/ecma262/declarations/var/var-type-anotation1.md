@@ -57,7 +57,7 @@ var foo = (async (): number => bar);
                                     "end": 16
                                 },
                                 "typeParameters": null,
-                                "parameters": [],
+                                "arrowPatameterList": [],
                                 "returnType": {
                                     "kind": 139,
                                     "bitwiseOrToken": null,

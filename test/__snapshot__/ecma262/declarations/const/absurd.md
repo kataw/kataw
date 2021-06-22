@@ -77,48 +77,55 @@ const absurd = <T>(x: empty): T => {};
                                 "start": 14,
                                 "end": 18
                             },
-                            "parameters": [
-                                {
-                                    "kind": 281,
-                                    "ellipsisToken": null,
-                                    "left": {
-                                        "kind": 134299649,
-                                        "text": "x",
-                                        "rawText": "x",
-                                        "flags": 96,
-                                        "start": 19,
-                                        "end": 20
-                                    },
-                                    "optionalToken": null,
-                                    "type": {
-                                        "kind": 139,
-                                        "bitwiseOrToken": null,
-                                        "bitwiseAndToken": null,
+                            "arrowPatameterList": {
+                                "kind": 342,
+                                "parameters": [
+                                    {
+                                        "kind": 281,
+                                        "ellipsisToken": null,
+                                        "left": {
+                                            "kind": 134299649,
+                                            "text": "x",
+                                            "rawText": "x",
+                                            "flags": 96,
+                                            "start": 19,
+                                            "end": 20
+                                        },
+                                        "optionalToken": null,
                                         "type": {
-                                            "kind": 144,
-                                            "typeName": {
-                                                "kind": 134299649,
-                                                "text": "empty",
-                                                "rawText": "empty",
-                                                "flags": 96,
+                                            "kind": 139,
+                                            "bitwiseOrToken": null,
+                                            "bitwiseAndToken": null,
+                                            "type": {
+                                                "kind": 144,
+                                                "typeName": {
+                                                    "kind": 134299649,
+                                                    "text": "empty",
+                                                    "rawText": "empty",
+                                                    "flags": 96,
+                                                    "start": 21,
+                                                    "end": 27
+                                                },
+                                                "typeParameters": null,
+                                                "flags": 2097152,
                                                 "start": 21,
                                                 "end": 27
                                             },
-                                            "typeParameters": null,
                                             "flags": 2097152,
                                             "start": 21,
                                             "end": 27
                                         },
-                                        "flags": 2097152,
-                                        "start": 21,
+                                        "right": null,
+                                        "flags": 32,
+                                        "start": 14,
                                         "end": 27
-                                    },
-                                    "right": null,
-                                    "flags": 32,
-                                    "start": 14,
-                                    "end": 27
-                                }
-                            ],
+                                    }
+                                ],
+                                "trailingComma": false,
+                                "flags": 0,
+                                "start": 19,
+                                "end": 31
+                            },
                             "returnType": {
                                 "kind": 139,
                                 "bitwiseOrToken": null,
@@ -193,7 +200,7 @@ const absurd = <T>(x: empty): T => {};
 
 ```javascript
 
-const absurd = (x) =>  {};
+const absurd = () =>  {};
 ```
 
 ### Diagnostics

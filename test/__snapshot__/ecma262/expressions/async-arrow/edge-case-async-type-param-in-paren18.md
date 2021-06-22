@@ -80,7 +80,7 @@ async <T, U,>(x) => y;
                 "start": 0,
                 "end": 13
             },
-            "parameters": [
+            "arrowPatameterList": [
                 {
                     "kind": 134299649,
                     "text": "x",
@@ -174,7 +174,7 @@ async <T, U,>(x) => y;
                         "start": 25,
                         "end": 38
                     },
-                    "parameters": [
+                    "arrowPatameterList": [
                         {
                             "kind": 134299649,
                             "text": "x",

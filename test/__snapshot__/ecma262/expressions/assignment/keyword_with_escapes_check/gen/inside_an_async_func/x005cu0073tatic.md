@@ -32,7 +32,7 @@ async () => {  \u0073tatic = x  }
                 "end": 5
             },
             "typeParameters": null,
-            "parameters": [],
+            "arrowPatameterList": [],
             "returnType": null,
             "arrowToken": {
                 "kind": 10,

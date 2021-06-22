@@ -80,7 +80,7 @@
                                 "end": 43
                             },
                             "typeParameters": null,
-                            "parameters": [
+                            "arrowPatameterList": [
                                 {
                                     "kind": 281,
                                     "ellipsisToken": null,

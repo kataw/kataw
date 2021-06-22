@@ -647,16 +647,23 @@ class Array { concat(items:number | string) {}; }
                                 "kind": 271,
                                 "asyncKeyword": null,
                                 "typeParameters": null,
-                                "parameters": [
-                                    {
-                                        "kind": 134299649,
-                                        "text": "foo",
-                                        "rawText": "foo",
-                                        "flags": 96,
-                                        "start": 173,
-                                        "end": 176
-                                    }
-                                ],
+                                "arrowPatameterList": {
+                                    "kind": 342,
+                                    "parameters": [
+                                        {
+                                            "kind": 134299649,
+                                            "text": "foo",
+                                            "rawText": "foo",
+                                            "flags": 96,
+                                            "start": 173,
+                                            "end": 176
+                                        }
+                                    ],
+                                    "trailingComma": false,
+                                    "flags": 0,
+                                    "start": 173,
+                                    "end": 186
+                                },
                                 "returnType": {
                                     "kind": 139,
                                     "bitwiseOrToken": null,
@@ -925,16 +932,23 @@ class Array { concat(items:number | string) {}; }
                                 "kind": 271,
                                 "asyncKeyword": null,
                                 "typeParameters": null,
-                                "parameters": [
-                                    {
-                                        "kind": 134299649,
-                                        "text": "bar",
-                                        "rawText": "bar",
-                                        "flags": 96,
-                                        "start": 273,
-                                        "end": 276
-                                    }
-                                ],
+                                "arrowPatameterList": {
+                                    "kind": 342,
+                                    "parameters": [
+                                        {
+                                            "kind": 134299649,
+                                            "text": "bar",
+                                            "rawText": "bar",
+                                            "flags": 96,
+                                            "start": 273,
+                                            "end": 276
+                                        }
+                                    ],
+                                    "trailingComma": false,
+                                    "flags": 0,
+                                    "start": 273,
+                                    "end": 285
+                                },
                                 "returnType": {
                                     "kind": 139,
                                     "bitwiseOrToken": null,
@@ -1013,7 +1027,14 @@ class Array { concat(items:number | string) {}; }
                                 "kind": 271,
                                 "asyncKeyword": null,
                                 "typeParameters": null,
-                                "parameters": [],
+                                "arrowPatameterList": {
+                                    "kind": 342,
+                                    "parameters": [],
+                                    "trailingComma": false,
+                                    "flags": 0,
+                                    "start": 308,
+                                    "end": 308
+                                },
                                 "returnType": {
                                     "kind": 139,
                                     "bitwiseOrToken": null,
@@ -1095,7 +1116,7 @@ class Array { concat(items:number | string) {}; }
                                 "end": 343
                             },
                             "typeParameters": null,
-                            "parameters": [
+                            "arrowPatameterList": [
                                 {
                                     "kind": 134299649,
                                     "text": "bar",
@@ -1182,7 +1203,7 @@ class Array { concat(items:number | string) {}; }
                                 "end": 382
                             },
                             "typeParameters": null,
-                            "parameters": [],
+                            "arrowPatameterList": [],
                             "returnType": {
                                 "kind": 139,
                                 "bitwiseOrToken": null,
@@ -1260,7 +1281,7 @@ class Array { concat(items:number | string) {}; }
                                 "end": 418
                             },
                             "typeParameters": null,
-                            "parameters": [
+                            "arrowPatameterList": [
                                 {
                                     "kind": 281,
                                     "ellipsisToken": null,
@@ -1407,7 +1428,14 @@ class Array { concat(items:number | string) {}; }
                             "kind": 271,
                             "asyncKeyword": null,
                             "typeParameters": null,
-                            "parameters": [],
+                            "arrowPatameterList": {
+                                "kind": 342,
+                                "parameters": [],
+                                "trailingComma": false,
+                                "flags": 0,
+                                "start": 458,
+                                "end": 458
+                            },
                             "returnType": {
                                 "kind": 139,
                                 "bitwiseOrToken": null,
@@ -2449,10 +2477,10 @@ var a: ;
 var a: ;
 var x:  = Y;
 var x:  = fn;
-var foo = bar ? (foo) =>  {} : baz;
+var foo = bar ? () =>  {} : baz;
 var a: ;
 var foo = bar ? (foo) : number;
-var foo = ((bar) =>  bar);
+var foo = (() =>  bar);
 var foo = (() =>  bar);
 var foo = async (bar) =>  bar;
 var foo = async () =>  bar;

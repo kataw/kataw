@@ -29,51 +29,58 @@
                 "kind": 271,
                 "asyncKeyword": null,
                 "typeParameters": null,
-                "parameters": [
-                    {
-                        "kind": 201,
-                        "elementList": {
-                            "kind": 270,
-                            "elements": [
-                                {
-                                    "kind": 198,
-                                    "left": {
-                                        "kind": 134299649,
-                                        "text": "x",
-                                        "rawText": "x",
-                                        "flags": 96,
+                "arrowPatameterList": {
+                    "kind": 342,
+                    "parameters": [
+                        {
+                            "kind": 201,
+                            "elementList": {
+                                "kind": 270,
+                                "elements": [
+                                    {
+                                        "kind": 198,
+                                        "left": {
+                                            "kind": 134299649,
+                                            "text": "x",
+                                            "rawText": "x",
+                                            "flags": 96,
+                                            "start": 2,
+                                            "end": 4
+                                        },
+                                        "operatorToken": {
+                                            "kind": 99634,
+                                            "flags": 96,
+                                            "start": 4,
+                                            "end": 6
+                                        },
+                                        "right": {
+                                            "kind": 134299649,
+                                            "text": "y",
+                                            "rawText": "y",
+                                            "flags": 96,
+                                            "start": 6,
+                                            "end": 8
+                                        },
+                                        "flags": 32,
                                         "start": 2,
-                                        "end": 4
-                                    },
-                                    "operatorToken": {
-                                        "kind": 99634,
-                                        "flags": 96,
-                                        "start": 4,
-                                        "end": 6
-                                    },
-                                    "right": {
-                                        "kind": 134299649,
-                                        "text": "y",
-                                        "rawText": "y",
-                                        "flags": 96,
-                                        "start": 6,
                                         "end": 8
-                                    },
-                                    "flags": 32,
-                                    "start": 2,
-                                    "end": 8
-                                }
-                            ],
-                            "trailingComma": false,
+                                    }
+                                ],
+                                "trailingComma": false,
+                                "flags": 32,
+                                "start": 2,
+                                "end": 8
+                            },
                             "flags": 32,
-                            "start": 2,
-                            "end": 8
-                        },
-                        "flags": 32,
-                        "start": 1,
-                        "end": 10
-                    }
-                ],
+                            "start": 1,
+                            "end": 10
+                        }
+                    ],
+                    "trailingComma": false,
+                    "flags": 2,
+                    "start": 1,
+                    "end": 11
+                },
                 "returnType": null,
                 "arrowToken": {
                     "kind": 10,

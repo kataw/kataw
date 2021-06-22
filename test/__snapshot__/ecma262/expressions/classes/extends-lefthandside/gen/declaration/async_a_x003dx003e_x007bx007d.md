@@ -61,7 +61,7 @@ class A extends async a => {} {}
                             "end": 21
                         },
                         "typeParameters": null,
-                        "parameters": {
+                        "arrowPatameterList": {
                             "kind": 134299649,
                             "text": "a",
                             "rawText": "a",

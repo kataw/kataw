@@ -24,7 +24,7 @@ async ([[[[[[[[[[[[[[[[[[[[{a:b[0]}]]]]]]]]]]]]]]]]]]]])=>0;
                 "end": 5
             },
             "typeParameters": null,
-            "parameters": [
+            "arrowPatameterList": [
                 {
                     "kind": 201,
                     "elementList": {

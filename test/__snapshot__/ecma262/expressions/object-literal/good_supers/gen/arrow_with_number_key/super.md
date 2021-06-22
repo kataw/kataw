@@ -113,64 +113,71 @@ class x extends y {
                                                     "kind": 271,
                                                     "asyncKeyword": null,
                                                     "typeParameters": null,
-                                                    "parameters": [
-                                                        {
-                                                            "kind": 212,
-                                                            "propertyList": {
-                                                                "kind": 213,
-                                                                "properties": [
-                                                                    {
-                                                                        "kind": 329,
-                                                                        "key": {
-                                                                            "kind": 201392130,
-                                                                            "text": 123,
-                                                                            "rawText": "123",
-                                                                            "flags": 96,
-                                                                            "start": 44,
-                                                                            "end": 47
-                                                                        },
-                                                                        "value": {
-                                                                            "kind": 129,
-                                                                            "member": {
-                                                                                "kind": 225,
-                                                                                "superKeyword": {
-                                                                                    "kind": 4259935,
+                                                    "arrowPatameterList": {
+                                                        "kind": 342,
+                                                        "parameters": [
+                                                            {
+                                                                "kind": 212,
+                                                                "propertyList": {
+                                                                    "kind": 213,
+                                                                    "properties": [
+                                                                        {
+                                                                            "kind": 329,
+                                                                            "key": {
+                                                                                "kind": 201392130,
+                                                                                "text": 123,
+                                                                                "rawText": "123",
+                                                                                "flags": 96,
+                                                                                "start": 44,
+                                                                                "end": 47
+                                                                            },
+                                                                            "value": {
+                                                                                "kind": 129,
+                                                                                "member": {
+                                                                                    "kind": 225,
+                                                                                    "superKeyword": {
+                                                                                        "kind": 4259935,
+                                                                                        "flags": 96,
+                                                                                        "start": 48,
+                                                                                        "end": 54
+                                                                                    },
                                                                                     "flags": 96,
                                                                                     "start": 48,
                                                                                     "end": 54
                                                                                 },
-                                                                                "flags": 96,
+                                                                                "expression": {
+                                                                                    "kind": 16637,
+                                                                                    "text": "",
+                                                                                    "rawText": "",
+                                                                                    "flags": 64,
+                                                                                    "start": 54,
+                                                                                    "end": 54
+                                                                                },
+                                                                                "flags": 536870944,
                                                                                 "start": 48,
                                                                                 "end": 54
                                                                             },
-                                                                            "expression": {
-                                                                                "kind": 16637,
-                                                                                "text": "",
-                                                                                "rawText": "",
-                                                                                "flags": 64,
-                                                                                "start": 54,
-                                                                                "end": 54
-                                                                            },
-                                                                            "flags": 536870944,
-                                                                            "start": 48,
+                                                                            "initializer": null,
+                                                                            "flags": 32,
+                                                                            "start": 44,
                                                                             "end": 54
-                                                                        },
-                                                                        "initializer": null,
-                                                                        "flags": 32,
-                                                                        "start": 44,
-                                                                        "end": 54
-                                                                    }
-                                                                ],
-                                                                "trailingComma": false,
-                                                                "flags": 32,
-                                                                "start": 44,
-                                                                "end": 54
-                                                            },
-                                                            "flags": 48,
-                                                            "start": 43,
-                                                            "end": 55
-                                                        }
-                                                    ],
+                                                                        }
+                                                                    ],
+                                                                    "trailingComma": false,
+                                                                    "flags": 32,
+                                                                    "start": 44,
+                                                                    "end": 54
+                                                                },
+                                                                "flags": 48,
+                                                                "start": 43,
+                                                                "end": 55
+                                                            }
+                                                        ],
+                                                        "trailingComma": false,
+                                                        "flags": 2,
+                                                        "start": 43,
+                                                        "end": 56
+                                                    },
                                                     "returnType": null,
                                                     "arrowToken": {
                                                         "kind": 10,

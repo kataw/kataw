@@ -34,7 +34,7 @@ async x => in = 1
                     "end": 5
                 },
                 "typeParameters": null,
-                "parameters": {
+                "arrowPatameterList": {
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",

@@ -56,6 +56,7 @@ import { createSpreadProperty, SpreadProperty } from '../ast/expressions/spread-
 import { createCoverInitializedName, CoverInitializedName } from '../ast/expressions/cover-initialized-name';
 import { createMethodDefinition, MethodDefinition } from '../ast/expressions/method-definition';
 import { createArrowFunction, ArrowFunction } from '../ast/expressions/arrow-function';
+import { createArrowPatameterList, ArrowPatameterList } from '../ast/expressions/arrow-parameter-list';
 import { createSemicolonClassElement, SemicolonClassElement } from '../ast/expressions/semicolon-class-element';
 import { createRegularExpressionLiteral, RegularExpressionLiteral } from '../ast/expressions/regular-expr';
 import { ExpressionStatement, createExpressionStatement } from '../ast/statements/expression-stmt';
@@ -2421,7 +2422,6 @@ function parseArrowFunction(
     scope,
     (flags & NodeFlags.NoneSimpleParamList) < 1
   );
-
   parser.assignable = false;
   return createArrowFunction(
     arrowToken,
@@ -4490,7 +4490,7 @@ function parseCoverParenthesizedExpressionAndArrowParameterList(
   context = (context | 0b00000000100000000000000010000000) ^ 0b00000000100000000000000010000000;
 
   consume(parser, context | Context.AllowRegExp, SyntaxKind.LeftParen);
-
+  let innerParenPos = parser.curPos;
   // - `() => x`
   // - `(() => x)`
   // - `return () => x`
@@ -4530,13 +4530,14 @@ function parseCoverParenthesizedExpressionAndArrowParameterList(
             parser.pos
           );
         }
+
         return parseArrowFunction(
           parser,
           context,
           scope,
           /*typeParameters */ typeParameters,
           /* returnType */ isType ? parseType(parser, context | Context.ArrowOrigin) : null,
-          /* params */ [],
+          /* params */ createArrowPatameterList([], false, flags, innerParenPos, innerParenPos),
           /* asyncToken */ null,
           /* nodeFlags */ NodeFlags.ExpressionNode,
           curPos
@@ -4916,7 +4917,7 @@ function parseCoverParenthesizedExpressionAndArrowParameterList(
           scope,
           typeParameters,
           parseType(parser, context | Context.ArrowOrigin),
-          [expression],
+          createArrowPatameterList([expression], false, flags, innerParenPos, parser.curPos),
           null,
           /* nodeFlags */ flags,
           curPos
@@ -5288,7 +5289,7 @@ function parseCoverParenthesizedExpressionAndArrowParameterList(
         scope,
         typeParameters,
         parseType(parser, context),
-        arrowParams,
+        createArrowPatameterList(arrowParams, false, flags, innerParenPos, parser.curPos),
         null,
         flags,
         curPos

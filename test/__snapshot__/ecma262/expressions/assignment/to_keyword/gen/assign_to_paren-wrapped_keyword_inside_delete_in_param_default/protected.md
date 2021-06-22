@@ -32,7 +32,7 @@ async (x = delete ((protected) = f)) => {}
                 "end": 5
             },
             "typeParameters": null,
-            "parameters": [
+            "arrowPatameterList": [
                 {
                     "kind": 281,
                     "ellipsisToken": null,

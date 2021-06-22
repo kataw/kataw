@@ -1738,7 +1738,14 @@ let fourteen: A.B<X.Y<Z<T>>>=2;
                 "kind": 271,
                 "asyncKeyword": null,
                 "typeParameters": null,
-                "parameters": [],
+                "arrowPatameterList": {
+                    "kind": 342,
+                    "parameters": [],
+                    "trailingComma": false,
+                    "flags": 0,
+                    "start": 347,
+                    "end": 347
+                },
                 "returnType": {
                     "kind": 139,
                     "bitwiseOrToken": null,
@@ -1827,7 +1834,14 @@ let fourteen: A.B<X.Y<Z<T>>>=2;
                 "kind": 271,
                 "asyncKeyword": null,
                 "typeParameters": null,
-                "parameters": [],
+                "arrowPatameterList": {
+                    "kind": 342,
+                    "parameters": [],
+                    "trailingComma": false,
+                    "flags": 0,
+                    "start": 362,
+                    "end": 362
+                },
                 "returnType": {
                     "kind": 139,
                     "bitwiseOrToken": null,
@@ -1953,7 +1967,14 @@ let fourteen: A.B<X.Y<Z<T>>>=2;
                 "kind": 271,
                 "asyncKeyword": null,
                 "typeParameters": null,
-                "parameters": [],
+                "arrowPatameterList": {
+                    "kind": 342,
+                    "parameters": [],
+                    "trailingComma": false,
+                    "flags": 0,
+                    "start": 380,
+                    "end": 380
+                },
                 "returnType": {
                     "kind": 139,
                     "bitwiseOrToken": null,

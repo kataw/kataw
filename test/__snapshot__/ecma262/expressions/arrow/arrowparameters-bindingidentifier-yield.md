@@ -43,7 +43,7 @@ var af = yield => 1;
                             "kind": 271,
                             "asyncKeyword": null,
                             "typeParameters": null,
-                            "parameters": {
+                            "arrowPatameterList": {
                                 "kind": 134299649,
                                 "text": "yield",
                                 "rawText": "yield",

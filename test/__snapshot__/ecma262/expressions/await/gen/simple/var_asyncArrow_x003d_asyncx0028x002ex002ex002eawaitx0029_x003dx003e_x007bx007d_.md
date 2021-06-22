@@ -55,7 +55,7 @@ var asyncArrow = async(...await) => {};
                                 "end": 22
                             },
                             "typeParameters": null,
-                            "parameters": [
+                            "arrowPatameterList": [
                                 {
                                     "kind": 281,
                                     "ellipsisToken": {

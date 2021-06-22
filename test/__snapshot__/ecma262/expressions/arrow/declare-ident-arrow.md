@@ -29,7 +29,7 @@ declare => x, declare(y);
                 "kind": 271,
                 "asyncKeyword": null,
                 "typeParameters": null,
-                "parameters": {
+                "arrowPatameterList": {
                     "kind": 134299649,
                     "text": "declare",
                     "rawText": "declare",
@@ -69,7 +69,7 @@ declare => x, declare(y);
                         "kind": 271,
                         "asyncKeyword": null,
                         "typeParameters": null,
-                        "parameters": {
+                        "arrowPatameterList": {
                             "kind": 134299649,
                             "text": "declare",
                             "rawText": "declare",
@@ -100,7 +100,7 @@ declare => x, declare(y);
                         "kind": 271,
                         "asyncKeyword": null,
                         "typeParameters": null,
-                        "parameters": {
+                        "arrowPatameterList": {
                             "kind": 134299649,
                             "text": "declare",
                             "rawText": "declare",
@@ -142,7 +142,7 @@ declare => x, declare(y);
                 "kind": 271,
                 "asyncKeyword": null,
                 "typeParameters": null,
-                "parameters": {
+                "arrowPatameterList": {
                     "kind": 134299649,
                     "text": "opaque",
                     "rawText": "opaque",
@@ -182,7 +182,7 @@ declare => x, declare(y);
                         "kind": 271,
                         "asyncKeyword": null,
                         "typeParameters": null,
-                        "parameters": {
+                        "arrowPatameterList": {
                             "kind": 134299649,
                             "text": "opaque",
                             "rawText": "opaque",
@@ -213,7 +213,7 @@ declare => x, declare(y);
                         "kind": 271,
                         "asyncKeyword": null,
                         "typeParameters": null,
-                        "parameters": {
+                        "arrowPatameterList": {
                             "kind": 134299649,
                             "text": "opaque",
                             "rawText": "opaque",
@@ -258,7 +258,7 @@ declare => x, declare(y);
                         "kind": 271,
                         "asyncKeyword": null,
                         "typeParameters": null,
-                        "parameters": {
+                        "arrowPatameterList": {
                             "kind": 134299649,
                             "text": "declare",
                             "rawText": "declare",

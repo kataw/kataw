@@ -2640,16 +2640,23 @@ switch (answer) { case 0: let a; };
                                         "kind": 271,
                                         "asyncKeyword": null,
                                         "typeParameters": null,
-                                        "parameters": [
-                                            {
-                                                "kind": 134299649,
-                                                "text": "x",
-                                                "rawText": "x",
-                                                "flags": 96,
-                                                "start": 924,
-                                                "end": 925
-                                            }
-                                        ],
+                                        "arrowPatameterList": {
+                                            "kind": 342,
+                                            "parameters": [
+                                                {
+                                                    "kind": 134299649,
+                                                    "text": "x",
+                                                    "rawText": "x",
+                                                    "flags": 96,
+                                                    "start": 924,
+                                                    "end": 925
+                                                }
+                                            ],
+                                            "trailingComma": false,
+                                            "flags": 0,
+                                            "start": 924,
+                                            "end": 926
+                                        },
                                         "returnType": null,
                                         "arrowToken": {
                                             "kind": 10,
@@ -2967,16 +2974,23 @@ switch (answer) { case 0: let a; };
                                         "kind": 271,
                                         "asyncKeyword": null,
                                         "typeParameters": null,
-                                        "parameters": [
-                                            {
-                                                "kind": 134299649,
-                                                "text": "x",
-                                                "rawText": "x",
-                                                "flags": 96,
-                                                "start": 1043,
-                                                "end": 1044
-                                            }
-                                        ],
+                                        "arrowPatameterList": {
+                                            "kind": 342,
+                                            "parameters": [
+                                                {
+                                                    "kind": 134299649,
+                                                    "text": "x",
+                                                    "rawText": "x",
+                                                    "flags": 96,
+                                                    "start": 1043,
+                                                    "end": 1044
+                                                }
+                                            ],
+                                            "trailingComma": false,
+                                            "flags": 0,
+                                            "start": 1043,
+                                            "end": 1045
+                                        },
                                         "returnType": null,
                                         "arrowToken": {
                                             "kind": 10,
@@ -5708,7 +5722,7 @@ switch(x) {
 }
 switch(x) {
   case y:
-    foo / bar ? 1 : (x) =>  {};
+    foo / bar ? 1 : () =>  {};
 }
 switch(0) {
   case 1:
@@ -5718,7 +5732,7 @@ switch(0) {
 }
 switch(x) {
   case y:
-    foo ? 1 : (x) =>  {};
+    foo ? 1 : () =>  {};
 }
 switch({ x: y }) {
   case y:

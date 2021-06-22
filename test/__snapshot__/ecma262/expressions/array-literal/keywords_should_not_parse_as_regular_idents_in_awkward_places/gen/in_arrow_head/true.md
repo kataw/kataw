@@ -29,29 +29,36 @@
                 "kind": 271,
                 "asyncKeyword": null,
                 "typeParameters": null,
-                "parameters": [
-                    {
-                        "kind": 201,
-                        "elementList": {
-                            "kind": 270,
-                            "elements": [
-                                {
-                                    "kind": 24752947,
-                                    "flags": 96,
-                                    "start": 2,
-                                    "end": 7
-                                }
-                            ],
-                            "trailingComma": false,
+                "arrowPatameterList": {
+                    "kind": 342,
+                    "parameters": [
+                        {
+                            "kind": 201,
+                            "elementList": {
+                                "kind": 270,
+                                "elements": [
+                                    {
+                                        "kind": 24752947,
+                                        "flags": 96,
+                                        "start": 2,
+                                        "end": 7
+                                    }
+                                ],
+                                "trailingComma": false,
+                                "flags": 32,
+                                "start": 2,
+                                "end": 7
+                            },
                             "flags": 32,
-                            "start": 2,
-                            "end": 7
-                        },
-                        "flags": 32,
-                        "start": 1,
-                        "end": 9
-                    }
-                ],
+                            "start": 1,
+                            "end": 9
+                        }
+                    ],
+                    "trailingComma": false,
+                    "flags": 2,
+                    "start": 1,
+                    "end": 10
+                },
                 "returnType": null,
                 "arrowToken": {
                     "kind": 10,

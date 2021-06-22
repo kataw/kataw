@@ -48,31 +48,38 @@ var x = ({ foo }) => {}
                             "kind": 271,
                             "asyncKeyword": null,
                             "typeParameters": null,
-                            "parameters": [
-                                {
-                                    "kind": 212,
-                                    "propertyList": {
-                                        "kind": 213,
-                                        "properties": [
-                                            {
-                                                "kind": 134299649,
-                                                "text": "foo",
-                                                "rawText": "foo",
-                                                "flags": 96,
-                                                "start": 10,
-                                                "end": 14
-                                            }
-                                        ],
-                                        "trailingComma": false,
-                                        "flags": 32,
-                                        "start": 10,
-                                        "end": 14
-                                    },
-                                    "flags": 48,
-                                    "start": 9,
-                                    "end": 16
-                                }
-                            ],
+                            "arrowPatameterList": {
+                                "kind": 342,
+                                "parameters": [
+                                    {
+                                        "kind": 212,
+                                        "propertyList": {
+                                            "kind": 213,
+                                            "properties": [
+                                                {
+                                                    "kind": 134299649,
+                                                    "text": "foo",
+                                                    "rawText": "foo",
+                                                    "flags": 96,
+                                                    "start": 10,
+                                                    "end": 14
+                                                }
+                                            ],
+                                            "trailingComma": false,
+                                            "flags": 32,
+                                            "start": 10,
+                                            "end": 14
+                                        },
+                                        "flags": 48,
+                                        "start": 9,
+                                        "end": 16
+                                    }
+                                ],
+                                "trailingComma": false,
+                                "flags": 2,
+                                "start": 9,
+                                "end": 17
+                            },
                             "returnType": null,
                             "arrowToken": {
                                 "kind": 10,
@@ -125,9 +132,7 @@ var x = ({ foo }) => {}
 
 ```javascript
 
-var x = ({
-  foo
-}) =>  {};
+var x = () =>  {};
 ```
 
 ### Diagnostics

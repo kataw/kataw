@@ -78,7 +78,7 @@ do {} while (x) { async funcion switch!!
                                 "end": 23
                             },
                             "typeParameters": null,
-                            "parameters": {
+                            "arrowPatameterList": {
                                 "kind": 134299649,
                                 "text": "funcion",
                                 "rawText": "funcion",

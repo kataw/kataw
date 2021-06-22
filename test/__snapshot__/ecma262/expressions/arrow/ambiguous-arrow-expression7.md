@@ -65,7 +65,7 @@ a ? (b) : c => (d => e) : f => g;
                     "kind": 271,
                     "asyncKeyword": null,
                     "typeParameters": null,
-                    "parameters": {
+                    "arrowPatameterList": {
                         "kind": 134299649,
                         "text": "c",
                         "rawText": "c",
@@ -84,39 +84,46 @@ a ? (b) : c => (d => e) : f => g;
                         "kind": 271,
                         "asyncKeyword": null,
                         "typeParameters": null,
-                        "parameters": [
-                            {
-                                "kind": 271,
-                                "asyncKeyword": null,
-                                "typeParameters": null,
-                                "parameters": {
-                                    "kind": 134299649,
-                                    "text": "d",
-                                    "rawText": "d",
-                                    "flags": 96,
+                        "arrowPatameterList": {
+                            "kind": 342,
+                            "parameters": [
+                                {
+                                    "kind": 271,
+                                    "asyncKeyword": null,
+                                    "typeParameters": null,
+                                    "arrowPatameterList": {
+                                        "kind": 134299649,
+                                        "text": "d",
+                                        "rawText": "d",
+                                        "flags": 96,
+                                        "start": 16,
+                                        "end": 17
+                                    },
+                                    "returnType": null,
+                                    "arrowToken": {
+                                        "kind": 10,
+                                        "flags": 64,
+                                        "start": 17,
+                                        "end": 20
+                                    },
+                                    "contents": {
+                                        "kind": 134299649,
+                                        "text": "e",
+                                        "rawText": "e",
+                                        "flags": 96,
+                                        "start": 20,
+                                        "end": 22
+                                    },
+                                    "flags": 32,
                                     "start": 16,
-                                    "end": 17
-                                },
-                                "returnType": null,
-                                "arrowToken": {
-                                    "kind": 10,
-                                    "flags": 64,
-                                    "start": 17,
-                                    "end": 20
-                                },
-                                "contents": {
-                                    "kind": 134299649,
-                                    "text": "e",
-                                    "rawText": "e",
-                                    "flags": 96,
-                                    "start": 20,
                                     "end": 22
-                                },
-                                "flags": 32,
-                                "start": 16,
-                                "end": 22
-                            }
-                        ],
+                                }
+                            ],
+                            "trailingComma": false,
+                            "flags": 0,
+                            "start": 16,
+                            "end": 27
+                        },
                         "returnType": {
                             "kind": 139,
                             "bitwiseOrToken": null,

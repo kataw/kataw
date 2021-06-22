@@ -117,7 +117,7 @@
                                             "end": 42
                                         },
                                         "typeParameters": null,
-                                        "parameters": [
+                                        "arrowPatameterList": [
                                             {
                                                 "kind": 212,
                                                 "propertyList": {

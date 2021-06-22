@@ -24,7 +24,7 @@ async () => { aw\u{61}it: x }
                 "end": 5
             },
             "typeParameters": null,
-            "parameters": [],
+            "arrowPatameterList": [],
             "returnType": null,
             "arrowToken": {
                 "kind": 10,

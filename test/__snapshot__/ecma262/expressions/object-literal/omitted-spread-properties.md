@@ -44,16 +44,23 @@ const example = (obj) => {
                             "kind": 271,
                             "asyncKeyword": null,
                             "typeParameters": null,
-                            "parameters": [
-                                {
-                                    "kind": 134299649,
-                                    "text": "obj",
-                                    "rawText": "obj",
-                                    "flags": 96,
-                                    "start": 17,
-                                    "end": 20
-                                }
-                            ],
+                            "arrowPatameterList": {
+                                "kind": 342,
+                                "parameters": [
+                                    {
+                                        "kind": 134299649,
+                                        "text": "obj",
+                                        "rawText": "obj",
+                                        "flags": 96,
+                                        "start": 17,
+                                        "end": 20
+                                    }
+                                ],
+                                "trailingComma": false,
+                                "flags": 0,
+                                "start": 17,
+                                "end": 21
+                            },
                             "returnType": null,
                             "arrowToken": {
                                 "kind": 10,
@@ -276,7 +283,7 @@ const example = (obj) => {
 
 ```javascript
 
-const example = (obj) =>  {
+const example = () =>  {
   const foo = "'foo'";
   const {
     [`prefix_${foo}`]: _,

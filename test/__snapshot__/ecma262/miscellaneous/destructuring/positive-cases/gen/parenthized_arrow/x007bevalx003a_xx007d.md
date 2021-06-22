@@ -50,46 +50,53 @@ var f = ({eval: x}) => {};
                             "kind": 271,
                             "asyncKeyword": null,
                             "typeParameters": null,
-                            "parameters": [
-                                {
-                                    "kind": 212,
-                                    "propertyList": {
-                                        "kind": 213,
-                                        "properties": [
-                                            {
-                                                "kind": 329,
-                                                "key": {
-                                                    "kind": 134299649,
-                                                    "text": "eval",
-                                                    "rawText": "eval",
-                                                    "flags": 96,
+                            "arrowPatameterList": {
+                                "kind": 342,
+                                "parameters": [
+                                    {
+                                        "kind": 212,
+                                        "propertyList": {
+                                            "kind": 213,
+                                            "properties": [
+                                                {
+                                                    "kind": 329,
+                                                    "key": {
+                                                        "kind": 134299649,
+                                                        "text": "eval",
+                                                        "rawText": "eval",
+                                                        "flags": 96,
+                                                        "start": 10,
+                                                        "end": 14
+                                                    },
+                                                    "value": {
+                                                        "kind": 134299649,
+                                                        "text": "x",
+                                                        "rawText": "x",
+                                                        "flags": 96,
+                                                        "start": 15,
+                                                        "end": 17
+                                                    },
+                                                    "initializer": null,
+                                                    "flags": 32,
                                                     "start": 10,
-                                                    "end": 14
-                                                },
-                                                "value": {
-                                                    "kind": 134299649,
-                                                    "text": "x",
-                                                    "rawText": "x",
-                                                    "flags": 96,
-                                                    "start": 15,
                                                     "end": 17
-                                                },
-                                                "initializer": null,
-                                                "flags": 32,
-                                                "start": 10,
-                                                "end": 17
-                                            }
-                                        ],
-                                        "trailingComma": false,
-                                        "flags": 32,
-                                        "start": 10,
-                                        "end": 17
-                                    },
-                                    "flags": 48,
-                                    "start": 9,
-                                    "end": 18
-                                }
-                            ],
+                                                }
+                                            ],
+                                            "trailingComma": false,
+                                            "flags": 32,
+                                            "start": 10,
+                                            "end": 17
+                                        },
+                                        "flags": 48,
+                                        "start": 9,
+                                        "end": 18
+                                    }
+                                ],
+                                "trailingComma": false,
+                                "flags": 2,
+                                "start": 9,
+                                "end": 19
+                            },
                             "returnType": null,
                             "arrowToken": {
                                 "kind": 10,
@@ -142,9 +149,7 @@ var f = ({eval: x}) => {};
 
 ```javascript
 
-var f = ({
-  eval: x
-}) =>  {};
+var f = () =>  {};
 ```
 
 ### Diagnostics

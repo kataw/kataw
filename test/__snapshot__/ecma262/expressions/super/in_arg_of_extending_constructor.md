@@ -107,51 +107,58 @@ class x extends y { constructor(){ return (a=super.foo) => a; }}
                                                     "kind": 271,
                                                     "asyncKeyword": null,
                                                     "typeParameters": null,
-                                                    "parameters": [
-                                                        {
-                                                            "kind": 281,
-                                                            "ellipsisToken": null,
-                                                            "left": {
-                                                                "kind": 134299649,
-                                                                "text": "a",
-                                                                "rawText": "a",
-                                                                "flags": 96,
-                                                                "start": 43,
-                                                                "end": 44
-                                                            },
-                                                            "optionalToken": null,
-                                                            "type": null,
-                                                            "right": {
-                                                                "kind": 129,
-                                                                "member": {
-                                                                    "kind": 225,
-                                                                    "superKeyword": {
-                                                                        "kind": 4259935,
+                                                    "arrowPatameterList": {
+                                                        "kind": 342,
+                                                        "parameters": [
+                                                            {
+                                                                "kind": 281,
+                                                                "ellipsisToken": null,
+                                                                "left": {
+                                                                    "kind": 134299649,
+                                                                    "text": "a",
+                                                                    "rawText": "a",
+                                                                    "flags": 96,
+                                                                    "start": 43,
+                                                                    "end": 44
+                                                                },
+                                                                "optionalToken": null,
+                                                                "type": null,
+                                                                "right": {
+                                                                    "kind": 129,
+                                                                    "member": {
+                                                                        "kind": 225,
+                                                                        "superKeyword": {
+                                                                            "kind": 4259935,
+                                                                            "flags": 96,
+                                                                            "start": 45,
+                                                                            "end": 50
+                                                                        },
                                                                         "flags": 96,
                                                                         "start": 45,
                                                                         "end": 50
                                                                     },
-                                                                    "flags": 96,
+                                                                    "expression": {
+                                                                        "kind": 134299649,
+                                                                        "text": "foo",
+                                                                        "rawText": "foo",
+                                                                        "flags": 96,
+                                                                        "start": 51,
+                                                                        "end": 54
+                                                                    },
+                                                                    "flags": 536870944,
                                                                     "start": 45,
-                                                                    "end": 50
-                                                                },
-                                                                "expression": {
-                                                                    "kind": 134299649,
-                                                                    "text": "foo",
-                                                                    "rawText": "foo",
-                                                                    "flags": 96,
-                                                                    "start": 51,
                                                                     "end": 54
                                                                 },
-                                                                "flags": 536870944,
-                                                                "start": 45,
+                                                                "flags": 32,
+                                                                "start": 41,
                                                                 "end": 54
-                                                            },
-                                                            "flags": 32,
-                                                            "start": 41,
-                                                            "end": 54
-                                                        }
-                                                    ],
+                                                            }
+                                                        ],
+                                                        "trailingComma": false,
+                                                        "flags": 2,
+                                                        "start": 43,
+                                                        "end": 55
+                                                    },
                                                     "returnType": null,
                                                     "arrowToken": {
                                                         "kind": 10,
@@ -221,7 +228,7 @@ class x extends y { constructor(){ return (a=super.foo) => a; }}
 
 class x  {
   constructor() {
-    return  (a = super.foo) =>  a;
+    return  () =>  a;
   }
 }
 ```

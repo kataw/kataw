@@ -1120,7 +1120,14 @@ x = {y: {z: 1}}?.y?.z;
                                     "kind": 271,
                                     "asyncKeyword": null,
                                     "typeParameters": null,
-                                    "parameters": [],
+                                    "arrowPatameterList": {
+                                        "kind": 342,
+                                        "parameters": [],
+                                        "trailingComma": false,
+                                        "flags": 0,
+                                        "start": 270,
+                                        "end": 270
+                                    },
                                     "returnType": null,
                                     "arrowToken": {
                                         "kind": 10,
@@ -1223,7 +1230,14 @@ x = {y: {z: 1}}?.y?.z;
                                             "kind": 271,
                                             "asyncKeyword": null,
                                             "typeParameters": null,
-                                            "parameters": [],
+                                            "arrowPatameterList": {
+                                                "kind": 342,
+                                                "parameters": [],
+                                                "trailingComma": false,
+                                                "flags": 0,
+                                                "start": 295,
+                                                "end": 295
+                                            },
                                             "returnType": null,
                                             "arrowToken": {
                                                 "kind": 10,

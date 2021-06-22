@@ -63,7 +63,7 @@ async function a(){     async ([y] = [{m: 5 + t(await bar)}]) => {}     }
                                 "end": 29
                             },
                             "typeParameters": null,
-                            "parameters": [
+                            "arrowPatameterList": [
                                 {
                                     "kind": 281,
                                     "ellipsisToken": null,

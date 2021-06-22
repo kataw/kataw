@@ -38,16 +38,23 @@ f(((a) => a + b)(1, 4), 5);
                                     "kind": 271,
                                     "asyncKeyword": null,
                                     "typeParameters": null,
-                                    "parameters": [
-                                        {
-                                            "kind": 134299649,
-                                            "text": "a",
-                                            "rawText": "a",
-                                            "flags": 96,
-                                            "start": 4,
-                                            "end": 5
-                                        }
-                                    ],
+                                    "arrowPatameterList": {
+                                        "kind": 342,
+                                        "parameters": [
+                                            {
+                                                "kind": 134299649,
+                                                "text": "a",
+                                                "rawText": "a",
+                                                "flags": 96,
+                                                "start": 4,
+                                                "end": 5
+                                            }
+                                        ],
+                                        "trailingComma": false,
+                                        "flags": 0,
+                                        "start": 4,
+                                        "end": 6
+                                    },
                                     "returnType": null,
                                     "arrowToken": {
                                         "kind": 10,
@@ -156,7 +163,7 @@ f(((a) => a + b)(1, 4), 5);
 
 ```javascript
 
-f(((a) =>  a + b)(1, 4), 5);
+f((() =>  a + b)(1, 4), 5);
 ```
 
 ### Diagnostics

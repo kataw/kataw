@@ -170,7 +170,7 @@ Object.keys(y).map(k => { return {[k]: k} });
                             "kind": 271,
                             "asyncKeyword": null,
                             "typeParameters": null,
-                            "parameters": {
+                            "arrowPatameterList": {
                                 "kind": 134299649,
                                 "text": "k",
                                 "rawText": "k",
@@ -440,7 +440,7 @@ Object.keys(y).map(k => { return {[k]: k} });
                             "kind": 271,
                             "asyncKeyword": null,
                             "typeParameters": null,
-                            "parameters": {
+                            "arrowPatameterList": {
                                 "kind": 134299649,
                                 "text": "k",
                                 "rawText": "k",

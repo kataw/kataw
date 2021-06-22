@@ -164,7 +164,7 @@ var await; var f = (async function() { async function a(){     async ([y] = [{m:
                                                                     "end": 68
                                                                 },
                                                                 "typeParameters": null,
-                                                                "parameters": [
+                                                                "arrowPatameterList": [
                                                                     {
                                                                         "kind": 281,
                                                                         "ellipsisToken": null,

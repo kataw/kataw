@@ -48,31 +48,38 @@ async (a = (...await) => {});
                             "kind": 271,
                             "asyncKeyword": null,
                             "typeParameters": null,
-                            "parameters": [
-                                {
-                                    "kind": 281,
-                                    "ellipsisToken": {
-                                        "kind": 524302,
-                                        "flags": 64,
+                            "arrowPatameterList": {
+                                "kind": 342,
+                                "parameters": [
+                                    {
+                                        "kind": 281,
+                                        "ellipsisToken": {
+                                            "kind": 524302,
+                                            "flags": 64,
+                                            "start": 12,
+                                            "end": 15
+                                        },
+                                        "left": {
+                                            "kind": 134299649,
+                                            "text": "await",
+                                            "rawText": "await",
+                                            "flags": 96,
+                                            "start": 15,
+                                            "end": 20
+                                        },
+                                        "optionalToken": null,
+                                        "type": null,
+                                        "right": null,
+                                        "flags": 34,
                                         "start": 12,
-                                        "end": 15
-                                    },
-                                    "left": {
-                                        "kind": 134299649,
-                                        "text": "await",
-                                        "rawText": "await",
-                                        "flags": 96,
-                                        "start": 15,
                                         "end": 20
-                                    },
-                                    "optionalToken": null,
-                                    "type": null,
-                                    "right": null,
-                                    "flags": 34,
-                                    "start": 12,
-                                    "end": 20
-                                }
-                            ],
+                                    }
+                                ],
+                                "trailingComma": false,
+                                "flags": 0,
+                                "start": 12,
+                                "end": 21
+                            },
                             "returnType": null,
                             "arrowToken": {
                                 "kind": 10,
@@ -132,7 +139,7 @@ async (a = (...await) => {});
 
 ```javascript
 
-async(a = (...await) =>  {})
+async(a = () =>  {})
 
 ```
 

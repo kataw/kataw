@@ -50,92 +50,99 @@ var f = ({ __proto__: x, __proto__: y, ...z}) => {};
                             "kind": 271,
                             "asyncKeyword": null,
                             "typeParameters": null,
-                            "parameters": [
-                                {
-                                    "kind": 212,
-                                    "propertyList": {
-                                        "kind": 213,
-                                        "properties": [
-                                            {
-                                                "kind": 329,
-                                                "key": {
-                                                    "kind": 134299649,
-                                                    "text": "__proto__",
-                                                    "rawText": "__proto__",
-                                                    "flags": 96,
+                            "arrowPatameterList": {
+                                "kind": 342,
+                                "parameters": [
+                                    {
+                                        "kind": 212,
+                                        "propertyList": {
+                                            "kind": 213,
+                                            "properties": [
+                                                {
+                                                    "kind": 329,
+                                                    "key": {
+                                                        "kind": 134299649,
+                                                        "text": "__proto__",
+                                                        "rawText": "__proto__",
+                                                        "flags": 96,
+                                                        "start": 10,
+                                                        "end": 20
+                                                    },
+                                                    "value": {
+                                                        "kind": 134299649,
+                                                        "text": "x",
+                                                        "rawText": "x",
+                                                        "flags": 96,
+                                                        "start": 21,
+                                                        "end": 23
+                                                    },
+                                                    "initializer": null,
+                                                    "flags": 32,
                                                     "start": 10,
-                                                    "end": 20
-                                                },
-                                                "value": {
-                                                    "kind": 134299649,
-                                                    "text": "x",
-                                                    "rawText": "x",
-                                                    "flags": 96,
-                                                    "start": 21,
                                                     "end": 23
                                                 },
-                                                "initializer": null,
-                                                "flags": 32,
-                                                "start": 10,
-                                                "end": 23
-                                            },
-                                            {
-                                                "kind": 329,
-                                                "key": {
-                                                    "kind": 134299649,
-                                                    "text": "__proto__",
-                                                    "rawText": "__proto__",
-                                                    "flags": 96,
+                                                {
+                                                    "kind": 329,
+                                                    "key": {
+                                                        "kind": 134299649,
+                                                        "text": "__proto__",
+                                                        "rawText": "__proto__",
+                                                        "flags": 96,
+                                                        "start": 24,
+                                                        "end": 34
+                                                    },
+                                                    "value": {
+                                                        "kind": 134299649,
+                                                        "text": "y",
+                                                        "rawText": "y",
+                                                        "flags": 96,
+                                                        "start": 35,
+                                                        "end": 37
+                                                    },
+                                                    "initializer": null,
+                                                    "flags": 32,
                                                     "start": 24,
-                                                    "end": 34
-                                                },
-                                                "value": {
-                                                    "kind": 134299649,
-                                                    "text": "y",
-                                                    "rawText": "y",
-                                                    "flags": 96,
-                                                    "start": 35,
                                                     "end": 37
                                                 },
-                                                "initializer": null,
-                                                "flags": 32,
-                                                "start": 24,
-                                                "end": 37
-                                            },
-                                            {
-                                                "kind": 281,
-                                                "ellipsisToken": {
-                                                    "kind": 524302,
-                                                    "flags": 64,
+                                                {
+                                                    "kind": 281,
+                                                    "ellipsisToken": {
+                                                        "kind": 524302,
+                                                        "flags": 64,
+                                                        "start": 38,
+                                                        "end": 42
+                                                    },
+                                                    "left": {
+                                                        "kind": 134299649,
+                                                        "text": "z",
+                                                        "rawText": "z",
+                                                        "flags": 96,
+                                                        "start": 42,
+                                                        "end": 43
+                                                    },
+                                                    "optionalToken": null,
+                                                    "type": null,
+                                                    "right": null,
+                                                    "flags": 32,
                                                     "start": 38,
-                                                    "end": 42
-                                                },
-                                                "left": {
-                                                    "kind": 134299649,
-                                                    "text": "z",
-                                                    "rawText": "z",
-                                                    "flags": 96,
-                                                    "start": 42,
                                                     "end": 43
-                                                },
-                                                "optionalToken": null,
-                                                "type": null,
-                                                "right": null,
-                                                "flags": 32,
-                                                "start": 38,
-                                                "end": 43
-                                            }
-                                        ],
-                                        "trailingComma": false,
-                                        "flags": 32,
-                                        "start": 10,
-                                        "end": 43
-                                    },
-                                    "flags": 52,
-                                    "start": 9,
-                                    "end": 44
-                                }
-                            ],
+                                                }
+                                            ],
+                                            "trailingComma": false,
+                                            "flags": 32,
+                                            "start": 10,
+                                            "end": 43
+                                        },
+                                        "flags": 52,
+                                        "start": 9,
+                                        "end": 44
+                                    }
+                                ],
+                                "trailingComma": false,
+                                "flags": 2,
+                                "start": 9,
+                                "end": 45
+                            },
                             "returnType": null,
                             "arrowToken": {
                                 "kind": 10,

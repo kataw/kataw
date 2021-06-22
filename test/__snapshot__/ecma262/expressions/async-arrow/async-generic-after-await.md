@@ -35,7 +35,7 @@ async () => {
                 "end": 5
             },
             "typeParameters": null,
-            "parameters": [],
+            "arrowPatameterList": [],
             "returnType": null,
             "arrowToken": {
                 "kind": 10,
@@ -114,7 +114,7 @@ async () => {
                                     "start": 27,
                                     "end": 39
                                 },
-                                "parameters": [],
+                                "arrowPatameterList": [],
                                 "returnType": null,
                                 "arrowToken": {
                                     "kind": 10,

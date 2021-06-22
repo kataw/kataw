@@ -53,46 +53,53 @@ hello();
                             "kind": 271,
                             "asyncKeyword": null,
                             "typeParameters": null,
-                            "parameters": [
-                                {
-                                    "kind": 281,
-                                    "ellipsisToken": null,
-                                    "left": {
-                                        "kind": 134299649,
-                                        "text": "greeting",
-                                        "rawText": "greeting",
-                                        "flags": 96,
-                                        "start": 13,
-                                        "end": 21
-                                    },
-                                    "optionalToken": null,
-                                    "type": {
-                                        "kind": 139,
-                                        "bitwiseOrToken": null,
-                                        "bitwiseAndToken": null,
+                            "arrowPatameterList": {
+                                "kind": 342,
+                                "parameters": [
+                                    {
+                                        "kind": 281,
+                                        "ellipsisToken": null,
+                                        "left": {
+                                            "kind": 134299649,
+                                            "text": "greeting",
+                                            "rawText": "greeting",
+                                            "flags": 96,
+                                            "start": 13,
+                                            "end": 21
+                                        },
+                                        "optionalToken": null,
                                         "type": {
-                                            "kind": 134234347,
-                                            "flags": 2097216,
+                                            "kind": 139,
+                                            "bitwiseOrToken": null,
+                                            "bitwiseAndToken": null,
+                                            "type": {
+                                                "kind": 134234347,
+                                                "flags": 2097216,
+                                                "start": 22,
+                                                "end": 28
+                                            },
+                                            "flags": 2097152,
                                             "start": 22,
                                             "end": 28
                                         },
-                                        "flags": 2097152,
-                                        "start": 22,
-                                        "end": 28
-                                    },
-                                    "right": {
-                                        "kind": 201392131,
-                                        "text": " world",
-                                        "rawText": "' world'",
-                                        "flags": 4194400,
-                                        "start": 30,
+                                        "right": {
+                                            "kind": 201392131,
+                                            "text": " world",
+                                            "rawText": "' world'",
+                                            "flags": 4194400,
+                                            "start": 30,
+                                            "end": 39
+                                        },
+                                        "flags": 32,
+                                        "start": 11,
                                         "end": 39
-                                    },
-                                    "flags": 32,
-                                    "start": 11,
-                                    "end": 39
-                                }
-                            ],
+                                    }
+                                ],
+                                "trailingComma": false,
+                                "flags": 0,
+                                "start": 13,
+                                "end": 49
+                            },
                             "returnType": {
                                 "kind": 139,
                                 "bitwiseOrToken": null,
@@ -258,7 +265,7 @@ hello();
 
 ```javascript
 
-let hello = (greeting = "' world'") =>  {
+let hello = () =>  {
   console.log("'hello'" + greeting);
 };
 hello();

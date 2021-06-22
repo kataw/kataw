@@ -29,59 +29,66 @@
                 "kind": 271,
                 "asyncKeyword": null,
                 "typeParameters": null,
-                "parameters": [
-                    {
-                        "kind": 281,
-                        "ellipsisToken": null,
-                        "left": {
-                            "kind": 134299649,
-                            "text": "x",
-                            "rawText": "x",
-                            "flags": 96,
-                            "start": 1,
-                            "end": 2
-                        },
-                        "optionalToken": null,
-                        "type": null,
-                        "right": {
-                            "kind": 125,
+                "arrowPatameterList": {
+                    "kind": 342,
+                    "parameters": [
+                        {
+                            "kind": 281,
+                            "ellipsisToken": null,
                             "left": {
-                                "kind": 121,
-                                "expression": {
-                                    "kind": 134299649,
-                                    "text": "package",
-                                    "rawText": "package",
+                                "kind": 134299649,
+                                "text": "x",
+                                "rawText": "x",
+                                "flags": 96,
+                                "start": 1,
+                                "end": 2
+                            },
+                            "optionalToken": null,
+                            "type": null,
+                            "right": {
+                                "kind": 125,
+                                "left": {
+                                    "kind": 121,
+                                    "expression": {
+                                        "kind": 134299649,
+                                        "text": "package",
+                                        "rawText": "package",
+                                        "flags": 96,
+                                        "start": 6,
+                                        "end": 13
+                                    },
+                                    "flags": 32,
+                                    "start": 4,
+                                    "end": 14
+                                },
+                                "operatorToken": {
+                                    "kind": 4125,
                                     "flags": 96,
-                                    "start": 6,
-                                    "end": 13
+                                    "start": 14,
+                                    "end": 16
+                                },
+                                "right": {
+                                    "kind": 134299649,
+                                    "text": "f",
+                                    "rawText": "f",
+                                    "flags": 96,
+                                    "start": 16,
+                                    "end": 18
                                 },
                                 "flags": 32,
                                 "start": 4,
-                                "end": 14
-                            },
-                            "operatorToken": {
-                                "kind": 4125,
-                                "flags": 96,
-                                "start": 14,
-                                "end": 16
-                            },
-                            "right": {
-                                "kind": 134299649,
-                                "text": "f",
-                                "rawText": "f",
-                                "flags": 96,
-                                "start": 16,
                                 "end": 18
                             },
                             "flags": 32,
-                            "start": 4,
+                            "start": 0,
                             "end": 18
-                        },
-                        "flags": 32,
-                        "start": 0,
-                        "end": 18
-                    }
-                ],
+                        }
+                    ],
+                    "trailingComma": false,
+                    "flags": 2,
+                    "start": 1,
+                    "end": 19
+                },
                 "returnType": null,
                 "arrowToken": {
                     "kind": 10,
@@ -125,7 +132,7 @@
 
 ```javascript
 
-(x = (package) = f) =>  {};
+() =>  {};
 ```
 
 ### Diagnostics

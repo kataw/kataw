@@ -177,7 +177,7 @@ new package => x
                         "kind": 271,
                         "asyncKeyword": null,
                         "typeParameters": null,
-                        "parameters": {
+                        "arrowPatameterList": {
                             "kind": 134299649,
                             "text": "package",
                             "rawText": "package",
@@ -212,7 +212,7 @@ new package => x
                                     "kind": 271,
                                     "asyncKeyword": null,
                                     "typeParameters": null,
-                                    "parameters": {
+                                    "arrowPatameterList": {
                                         "kind": 134299649,
                                         "text": "package",
                                         "rawText": "package",
@@ -247,7 +247,7 @@ new package => x
                                             "kind": 271,
                                             "asyncKeyword": null,
                                             "typeParameters": null,
-                                            "parameters": {
+                                            "arrowPatameterList": {
                                                 "kind": 134299649,
                                                 "text": "package",
                                                 "rawText": "package",
@@ -321,7 +321,7 @@ new package => x
                     "kind": 271,
                     "asyncKeyword": null,
                     "typeParameters": null,
-                    "parameters": {
+                    "arrowPatameterList": {
                         "kind": 134299649,
                         "text": "package",
                         "rawText": "package",

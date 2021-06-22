@@ -157,16 +157,23 @@ var await; var f = (async function() { await => async.await[async / ((async) => 
                             "kind": 271,
                             "asyncKeyword": null,
                             "typeParameters": null,
-                            "parameters": [
-                                {
-                                    "kind": 134299649,
-                                    "text": "async",
-                                    "rawText": "async",
-                                    "flags": 96,
-                                    "start": 70,
-                                    "end": 75
-                                }
-                            ],
+                            "arrowPatameterList": {
+                                "kind": 342,
+                                "parameters": [
+                                    {
+                                        "kind": 134299649,
+                                        "text": "async",
+                                        "rawText": "async",
+                                        "flags": 96,
+                                        "start": 70,
+                                        "end": 75
+                                    }
+                                ],
+                                "trailingComma": false,
+                                "flags": 0,
+                                "start": 70,
+                                "end": 76
+                            },
                             "returnType": null,
                             "arrowToken": {
                                 "kind": 10,

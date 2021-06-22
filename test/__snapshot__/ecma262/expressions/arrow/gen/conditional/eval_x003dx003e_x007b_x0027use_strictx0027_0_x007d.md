@@ -32,7 +32,7 @@ eval => { 'use strict'; 0 } , bar;
                         "kind": 271,
                         "asyncKeyword": null,
                         "typeParameters": null,
-                        "parameters": {
+                        "arrowPatameterList": {
                             "kind": 134299649,
                             "text": "eval",
                             "rawText": "eval",

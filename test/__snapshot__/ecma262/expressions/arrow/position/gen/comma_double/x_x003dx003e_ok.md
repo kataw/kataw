@@ -32,7 +32,7 @@ x => ok, x => ok
                         "kind": 271,
                         "asyncKeyword": null,
                         "typeParameters": null,
-                        "parameters": {
+                        "arrowPatameterList": {
                             "kind": 134299649,
                             "text": "x",
                             "rawText": "x",
@@ -63,7 +63,7 @@ x => ok, x => ok
                         "kind": 271,
                         "asyncKeyword": null,
                         "typeParameters": null,
-                        "parameters": {
+                        "arrowPatameterList": {
                             "kind": 134299649,
                             "text": "x",
                             "rawText": "x",

@@ -213,7 +213,14 @@ class Bar{
                             "kind": 271,
                             "asyncKeyword": null,
                             "typeParameters": null,
-                            "parameters": [],
+                            "arrowPatameterList": {
+                                "kind": 342,
+                                "parameters": [],
+                                "trailingComma": false,
+                                "flags": 0,
+                                "start": 74,
+                                "end": 74
+                            },
                             "returnType": null,
                             "arrowToken": null,
                             "contents": {

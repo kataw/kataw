@@ -21,46 +21,53 @@
                 "kind": 271,
                 "asyncKeyword": null,
                 "typeParameters": null,
-                "parameters": [
-                    {
-                        "kind": 212,
-                        "propertyList": {
-                            "kind": 213,
-                            "properties": [
-                                {
-                                    "kind": 281,
-                                    "ellipsisToken": {
-                                        "kind": 524302,
-                                        "flags": 64,
+                "arrowPatameterList": {
+                    "kind": 342,
+                    "parameters": [
+                        {
+                            "kind": 212,
+                            "propertyList": {
+                                "kind": 213,
+                                "properties": [
+                                    {
+                                        "kind": 281,
+                                        "ellipsisToken": {
+                                            "kind": 524302,
+                                            "flags": 64,
+                                            "start": 2,
+                                            "end": 5
+                                        },
+                                        "left": {
+                                            "kind": 134299649,
+                                            "text": "a",
+                                            "rawText": "a",
+                                            "flags": 96,
+                                            "start": 5,
+                                            "end": 6
+                                        },
+                                        "optionalToken": null,
+                                        "type": null,
+                                        "right": null,
+                                        "flags": 32,
                                         "start": 2,
-                                        "end": 5
-                                    },
-                                    "left": {
-                                        "kind": 134299649,
-                                        "text": "a",
-                                        "rawText": "a",
-                                        "flags": 96,
-                                        "start": 5,
                                         "end": 6
-                                    },
-                                    "optionalToken": null,
-                                    "type": null,
-                                    "right": null,
-                                    "flags": 32,
-                                    "start": 2,
-                                    "end": 6
-                                }
-                            ],
-                            "trailingComma": false,
-                            "flags": 32,
-                            "start": 2,
-                            "end": 6
-                        },
-                        "flags": 48,
-                        "start": 1,
-                        "end": 7
-                    }
-                ],
+                                    }
+                                ],
+                                "trailingComma": false,
+                                "flags": 32,
+                                "start": 2,
+                                "end": 6
+                            },
+                            "flags": 48,
+                            "start": 1,
+                            "end": 7
+                        }
+                    ],
+                    "trailingComma": false,
+                    "flags": 2,
+                    "start": 1,
+                    "end": 8
+                },
                 "returnType": null,
                 "arrowToken": {
                     "kind": 10,
@@ -98,9 +105,7 @@
 
 ```javascript
 
-({
-  ...a
-}) =>  x;
+() =>  x;
 ```
 
 ### Diagnostics

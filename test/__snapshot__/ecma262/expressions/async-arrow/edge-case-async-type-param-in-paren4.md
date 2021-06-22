@@ -88,7 +88,7 @@
                         "start": 1,
                         "end": 14
                     },
-                    "parameters": [
+                    "arrowPatameterList": [
                         {
                             "kind": 134299649,
                             "text": "x",

@@ -44,54 +44,61 @@ var foo = ( { title, ...other } ) => {
                             "kind": 271,
                             "asyncKeyword": null,
                             "typeParameters": null,
-                            "parameters": [
-                                {
-                                    "kind": 212,
-                                    "propertyList": {
-                                        "kind": 213,
-                                        "properties": [
-                                            {
-                                                "kind": 134299649,
-                                                "text": "title",
-                                                "rawText": "title",
-                                                "flags": 96,
-                                                "start": 13,
-                                                "end": 19
-                                            },
-                                            {
-                                                "kind": 281,
-                                                "ellipsisToken": {
-                                                    "kind": 524302,
-                                                    "flags": 64,
-                                                    "start": 20,
-                                                    "end": 24
-                                                },
-                                                "left": {
+                            "arrowPatameterList": {
+                                "kind": 342,
+                                "parameters": [
+                                    {
+                                        "kind": 212,
+                                        "propertyList": {
+                                            "kind": 213,
+                                            "properties": [
+                                                {
                                                     "kind": 134299649,
-                                                    "text": "other",
-                                                    "rawText": "other",
+                                                    "text": "title",
+                                                    "rawText": "title",
                                                     "flags": 96,
-                                                    "start": 24,
-                                                    "end": 29
+                                                    "start": 13,
+                                                    "end": 19
                                                 },
-                                                "optionalToken": null,
-                                                "type": null,
-                                                "right": null,
-                                                "flags": 32,
-                                                "start": 20,
-                                                "end": 29
-                                            }
-                                        ],
-                                        "trailingComma": false,
-                                        "flags": 32,
-                                        "start": 13,
-                                        "end": 29
-                                    },
-                                    "flags": 48,
-                                    "start": 11,
-                                    "end": 31
-                                }
-                            ],
+                                                {
+                                                    "kind": 281,
+                                                    "ellipsisToken": {
+                                                        "kind": 524302,
+                                                        "flags": 64,
+                                                        "start": 20,
+                                                        "end": 24
+                                                    },
+                                                    "left": {
+                                                        "kind": 134299649,
+                                                        "text": "other",
+                                                        "rawText": "other",
+                                                        "flags": 96,
+                                                        "start": 24,
+                                                        "end": 29
+                                                    },
+                                                    "optionalToken": null,
+                                                    "type": null,
+                                                    "right": null,
+                                                    "flags": 32,
+                                                    "start": 20,
+                                                    "end": 29
+                                                }
+                                            ],
+                                            "trailingComma": false,
+                                            "flags": 32,
+                                            "start": 13,
+                                            "end": 29
+                                        },
+                                        "flags": 48,
+                                        "start": 11,
+                                        "end": 31
+                                    }
+                                ],
+                                "trailingComma": false,
+                                "flags": 2,
+                                "start": 11,
+                                "end": 33
+                            },
                             "returnType": null,
                             "arrowToken": {
                                 "kind": 10,
@@ -144,10 +151,7 @@ var foo = ( { title, ...other } ) => {
 
 ```javascript
 
-var foo = ({
-  title,
-  ...other
-}) =>  {};
+var foo = () =>  {};
 ```
 
 ### Diagnostics

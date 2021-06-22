@@ -66,7 +66,7 @@ x = {arrow: async async => {}}
                                         "end": 17
                                     },
                                     "typeParameters": null,
-                                    "parameters": {
+                                    "arrowPatameterList": {
                                         "kind": 134299649,
                                         "text": "async",
                                         "rawText": "async",

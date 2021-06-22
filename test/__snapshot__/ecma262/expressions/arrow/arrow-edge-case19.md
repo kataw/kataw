@@ -50,7 +50,7 @@ a ? async (b) => (c => d) : e => f;
                         "end": 9
                     },
                     "typeParameters": null,
-                    "parameters": [
+                    "arrowPatameterList": [
                         {
                             "kind": 134299649,
                             "text": "b",
@@ -71,39 +71,46 @@ a ? async (b) => (c => d) : e => f;
                         "kind": 271,
                         "asyncKeyword": null,
                         "typeParameters": null,
-                        "parameters": [
-                            {
-                                "kind": 271,
-                                "asyncKeyword": null,
-                                "typeParameters": null,
-                                "parameters": {
-                                    "kind": 134299649,
-                                    "text": "c",
-                                    "rawText": "c",
-                                    "flags": 96,
+                        "arrowPatameterList": {
+                            "kind": 342,
+                            "parameters": [
+                                {
+                                    "kind": 271,
+                                    "asyncKeyword": null,
+                                    "typeParameters": null,
+                                    "arrowPatameterList": {
+                                        "kind": 134299649,
+                                        "text": "c",
+                                        "rawText": "c",
+                                        "flags": 96,
+                                        "start": 18,
+                                        "end": 19
+                                    },
+                                    "returnType": null,
+                                    "arrowToken": {
+                                        "kind": 10,
+                                        "flags": 64,
+                                        "start": 19,
+                                        "end": 22
+                                    },
+                                    "contents": {
+                                        "kind": 134299649,
+                                        "text": "d",
+                                        "rawText": "d",
+                                        "flags": 96,
+                                        "start": 22,
+                                        "end": 24
+                                    },
+                                    "flags": 32,
                                     "start": 18,
-                                    "end": 19
-                                },
-                                "returnType": null,
-                                "arrowToken": {
-                                    "kind": 10,
-                                    "flags": 64,
-                                    "start": 19,
-                                    "end": 22
-                                },
-                                "contents": {
-                                    "kind": 134299649,
-                                    "text": "d",
-                                    "rawText": "d",
-                                    "flags": 96,
-                                    "start": 22,
                                     "end": 24
-                                },
-                                "flags": 32,
-                                "start": 18,
-                                "end": 24
-                            }
-                        ],
+                                }
+                            ],
+                            "trailingComma": false,
+                            "flags": 0,
+                            "start": 18,
+                            "end": 29
+                        },
                         "returnType": {
                             "kind": 139,
                             "bitwiseOrToken": null,

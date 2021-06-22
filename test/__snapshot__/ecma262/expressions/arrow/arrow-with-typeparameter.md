@@ -59,7 +59,14 @@
                     "start": 0,
                     "end": 3
                 },
-                "parameters": [],
+                "arrowPatameterList": {
+                    "kind": 342,
+                    "parameters": [],
+                    "trailingComma": false,
+                    "flags": 0,
+                    "start": 4,
+                    "end": 4
+                },
                 "returnType": {
                     "kind": 139,
                     "bitwiseOrToken": null,

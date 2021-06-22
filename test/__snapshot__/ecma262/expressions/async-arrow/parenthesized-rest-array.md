@@ -47,7 +47,7 @@ var foo = async ([...(foo)]) => {};
                                 "end": 15
                             },
                             "typeParameters": null,
-                            "parameters": [
+                            "arrowPatameterList": [
                                 {
                                     "kind": 201,
                                     "elementList": {

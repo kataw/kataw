@@ -51,7 +51,7 @@ x
                         "end": 10
                     },
                     "typeParameters": null,
-                    "parameters": [
+                    "arrowPatameterList": [
                         {
                             "kind": 134299649,
                             "text": "x",

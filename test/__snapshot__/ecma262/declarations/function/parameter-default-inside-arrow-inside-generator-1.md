@@ -62,40 +62,47 @@ function* fn() {
                                 "kind": 271,
                                 "asyncKeyword": null,
                                 "typeParameters": null,
-                                "parameters": [
-                                    {
-                                        "kind": 281,
-                                        "ellipsisToken": null,
-                                        "left": {
-                                            "kind": 134299649,
-                                            "text": "x",
-                                            "rawText": "x",
-                                            "flags": 96,
-                                            "start": 20,
-                                            "end": 21
-                                        },
-                                        "optionalToken": null,
-                                        "type": null,
-                                        "right": {
-                                            "kind": 229,
-                                            "yieldKeyword": {
-                                                "kind": 8454253,
-                                                "flags": 64,
+                                "arrowPatameterList": {
+                                    "kind": 342,
+                                    "parameters": [
+                                        {
+                                            "kind": 281,
+                                            "ellipsisToken": null,
+                                            "left": {
+                                                "kind": 134299649,
+                                                "text": "x",
+                                                "rawText": "x",
+                                                "flags": 96,
+                                                "start": 20,
+                                                "end": 21
+                                            },
+                                            "optionalToken": null,
+                                            "type": null,
+                                            "right": {
+                                                "kind": 229,
+                                                "yieldKeyword": {
+                                                    "kind": 8454253,
+                                                    "flags": 64,
+                                                    "start": 23,
+                                                    "end": 29
+                                                },
+                                                "delegate": false,
+                                                "asteriskToken": null,
+                                                "expression": null,
+                                                "flags": 32,
                                                 "start": 23,
                                                 "end": 29
                                             },
-                                            "delegate": false,
-                                            "asteriskToken": null,
-                                            "expression": null,
                                             "flags": 32,
-                                            "start": 23,
+                                            "start": 16,
                                             "end": 29
-                                        },
-                                        "flags": 32,
-                                        "start": 16,
-                                        "end": 29
-                                    }
-                                ],
+                                        }
+                                    ],
+                                    "trailingComma": false,
+                                    "flags": 2,
+                                    "start": 20,
+                                    "end": 30
+                                },
                                 "returnType": null,
                                 "arrowToken": {
                                     "kind": 10,
@@ -154,7 +161,7 @@ function* fn() {
 ```javascript
 
 function * fn() {
-  (x =  yield) =>  {};
+  () =>  {};
 }
 ```
 

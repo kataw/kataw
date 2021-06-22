@@ -85,7 +85,7 @@ var foo = ((foo)): string => {};
                 "kind": 271,
                 "asyncKeyword": null,
                 "typeParameters": null,
-                "parameters": {
+                "arrowPatameterList": {
                     "kind": 134299649,
                     "text": "string",
                     "rawText": "string",

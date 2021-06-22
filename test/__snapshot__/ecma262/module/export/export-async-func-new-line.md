@@ -40,7 +40,7 @@ export async x => x;
                     "end": 12
                 },
                 "typeParameters": null,
-                "parameters": [],
+                "arrowPatameterList": [],
                 "returnType": null,
                 "arrowToken": {
                     "kind": 10,
@@ -93,7 +93,7 @@ export async x => x;
                         "end": 35
                     },
                     "typeParameters": null,
-                    "parameters": {
+                    "arrowPatameterList": {
                         "kind": 134299649,
                         "text": "x",
                         "rawText": "x",

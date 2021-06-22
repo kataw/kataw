@@ -124,7 +124,14 @@ class Foo {
                                         "kind": 271,
                                         "asyncKeyword": null,
                                         "typeParameters": null,
-                                        "parameters": [],
+                                        "arrowPatameterList": {
+                                            "kind": 342,
+                                            "parameters": [],
+                                            "trailingComma": false,
+                                            "flags": 0,
+                                            "start": 48,
+                                            "end": 48
+                                        },
                                         "returnType": null,
                                         "arrowToken": {
                                             "kind": 10,
@@ -361,7 +368,14 @@ class Foo {
                                         "kind": 271,
                                         "asyncKeyword": null,
                                         "typeParameters": null,
-                                        "parameters": [],
+                                        "arrowPatameterList": {
+                                            "kind": 342,
+                                            "parameters": [],
+                                            "trailingComma": false,
+                                            "flags": 0,
+                                            "start": 151,
+                                            "end": 151
+                                        },
                                         "returnType": null,
                                         "arrowToken": {
                                             "kind": 10,

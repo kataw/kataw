@@ -26,7 +26,7 @@ async r => result = [...{ x = await x }] = y;
                     "end": 5
                 },
                 "typeParameters": null,
-                "parameters": {
+                "arrowPatameterList": {
                     "kind": 134299649,
                     "text": "r",
                     "rawText": "r",

@@ -1808,7 +1808,7 @@ function printMemberAccessExpression(node: any, printer: Printer): any {
 function printArrowFunction(node: any, printer: Printer): any {
   const parts: any = [
     printKeyword(node.asyncKeyword, printer, node.start, node, /* separator */ true),
-    group(printArrowParameters(node.parameters, printer)),
+    group(printArrowParameters(node.arrowPatameterList, printer)),
     printer.space,
     printKeyword(
       node.arrowToken,

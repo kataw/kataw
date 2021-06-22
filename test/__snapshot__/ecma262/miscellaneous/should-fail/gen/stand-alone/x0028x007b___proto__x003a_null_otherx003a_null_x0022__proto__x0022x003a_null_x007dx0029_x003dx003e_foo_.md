@@ -29,86 +29,93 @@
                 "kind": 271,
                 "asyncKeyword": null,
                 "typeParameters": null,
-                "parameters": [
-                    {
-                        "kind": 212,
-                        "propertyList": {
-                            "kind": 213,
-                            "properties": [
-                                {
-                                    "kind": 329,
-                                    "key": {
-                                        "kind": 134299649,
-                                        "text": "__proto__",
-                                        "rawText": "__proto__",
-                                        "flags": 96,
+                "arrowPatameterList": {
+                    "kind": 342,
+                    "parameters": [
+                        {
+                            "kind": 212,
+                            "propertyList": {
+                                "kind": 213,
+                                "properties": [
+                                    {
+                                        "kind": 329,
+                                        "key": {
+                                            "kind": 134299649,
+                                            "text": "__proto__",
+                                            "rawText": "__proto__",
+                                            "flags": 96,
+                                            "start": 2,
+                                            "end": 12
+                                        },
+                                        "value": {
+                                            "kind": 138477575,
+                                            "flags": 96,
+                                            "start": 13,
+                                            "end": 18
+                                        },
+                                        "initializer": null,
+                                        "flags": 32,
                                         "start": 2,
-                                        "end": 12
-                                    },
-                                    "value": {
-                                        "kind": 138477575,
-                                        "flags": 96,
-                                        "start": 13,
                                         "end": 18
                                     },
-                                    "initializer": null,
-                                    "flags": 32,
-                                    "start": 2,
-                                    "end": 18
-                                },
-                                {
-                                    "kind": 329,
-                                    "key": {
-                                        "kind": 134299649,
-                                        "text": "other",
-                                        "rawText": "other",
-                                        "flags": 96,
+                                    {
+                                        "kind": 329,
+                                        "key": {
+                                            "kind": 134299649,
+                                            "text": "other",
+                                            "rawText": "other",
+                                            "flags": 96,
+                                            "start": 19,
+                                            "end": 25
+                                        },
+                                        "value": {
+                                            "kind": 138477575,
+                                            "flags": 96,
+                                            "start": 26,
+                                            "end": 31
+                                        },
+                                        "initializer": null,
+                                        "flags": 32,
                                         "start": 19,
-                                        "end": 25
-                                    },
-                                    "value": {
-                                        "kind": 138477575,
-                                        "flags": 96,
-                                        "start": 26,
                                         "end": 31
                                     },
-                                    "initializer": null,
-                                    "flags": 32,
-                                    "start": 19,
-                                    "end": 31
-                                },
-                                {
-                                    "kind": 329,
-                                    "key": {
-                                        "kind": 201392131,
-                                        "text": "__proto__",
-                                        "rawText": "\"__proto__\"",
-                                        "flags": 96,
+                                    {
+                                        "kind": 329,
+                                        "key": {
+                                            "kind": 201392131,
+                                            "text": "__proto__",
+                                            "rawText": "\"__proto__\"",
+                                            "flags": 96,
+                                            "start": 32,
+                                            "end": 44
+                                        },
+                                        "value": {
+                                            "kind": 138477575,
+                                            "flags": 96,
+                                            "start": 45,
+                                            "end": 50
+                                        },
+                                        "initializer": null,
+                                        "flags": 32,
                                         "start": 32,
-                                        "end": 44
-                                    },
-                                    "value": {
-                                        "kind": 138477575,
-                                        "flags": 96,
-                                        "start": 45,
                                         "end": 50
-                                    },
-                                    "initializer": null,
-                                    "flags": 32,
-                                    "start": 32,
-                                    "end": 50
-                                }
-                            ],
-                            "trailingComma": false,
-                            "flags": 32,
-                            "start": 2,
-                            "end": 50
-                        },
-                        "flags": 52,
-                        "start": 1,
-                        "end": 52
-                    }
-                ],
+                                    }
+                                ],
+                                "trailingComma": false,
+                                "flags": 32,
+                                "start": 2,
+                                "end": 50
+                            },
+                            "flags": 52,
+                            "start": 1,
+                            "end": 52
+                        }
+                    ],
+                    "trailingComma": false,
+                    "flags": 2,
+                    "start": 1,
+                    "end": 53
+                },
                 "returnType": null,
                 "arrowToken": {
                     "kind": 10,

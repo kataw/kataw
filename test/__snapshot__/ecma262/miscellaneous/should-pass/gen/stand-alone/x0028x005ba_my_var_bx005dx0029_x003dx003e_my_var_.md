@@ -29,47 +29,54 @@
                 "kind": 271,
                 "asyncKeyword": null,
                 "typeParameters": null,
-                "parameters": [
-                    {
-                        "kind": 201,
-                        "elementList": {
-                            "kind": 270,
-                            "elements": [
-                                {
-                                    "kind": 134299649,
-                                    "text": "b",
-                                    "rawText": "b",
-                                    "flags": 96,
-                                    "start": 12,
-                                    "end": 14
-                                },
-                                {
-                                    "kind": 134299649,
-                                    "text": "my_var",
-                                    "rawText": "my_var",
-                                    "flags": 96,
-                                    "start": 4,
-                                    "end": 11
-                                },
-                                {
-                                    "kind": 134299649,
-                                    "text": "a",
-                                    "rawText": "a",
-                                    "flags": 96,
-                                    "start": 2,
-                                    "end": 3
-                                }
-                            ],
-                            "trailingComma": false,
+                "arrowPatameterList": {
+                    "kind": 342,
+                    "parameters": [
+                        {
+                            "kind": 201,
+                            "elementList": {
+                                "kind": 270,
+                                "elements": [
+                                    {
+                                        "kind": 134299649,
+                                        "text": "b",
+                                        "rawText": "b",
+                                        "flags": 96,
+                                        "start": 12,
+                                        "end": 14
+                                    },
+                                    {
+                                        "kind": 134299649,
+                                        "text": "my_var",
+                                        "rawText": "my_var",
+                                        "flags": 96,
+                                        "start": 4,
+                                        "end": 11
+                                    },
+                                    {
+                                        "kind": 134299649,
+                                        "text": "a",
+                                        "rawText": "a",
+                                        "flags": 96,
+                                        "start": 2,
+                                        "end": 3
+                                    }
+                                ],
+                                "trailingComma": false,
+                                "flags": 32,
+                                "start": 2,
+                                "end": 14
+                            },
                             "flags": 32,
-                            "start": 2,
-                            "end": 14
-                        },
-                        "flags": 32,
-                        "start": 1,
-                        "end": 15
-                    }
-                ],
+                            "start": 1,
+                            "end": 15
+                        }
+                    ],
+                    "trailingComma": false,
+                    "flags": 2,
+                    "start": 1,
+                    "end": 16
+                },
                 "returnType": null,
                 "arrowToken": {
                     "kind": 10,
@@ -107,7 +114,7 @@
 
 ```javascript
 
-([b, my_var, a]) =>  my_var;
+() =>  my_var;
 ```
 
 ### Diagnostics

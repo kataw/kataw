@@ -42,16 +42,23 @@ var a = (b) => c;
                             "kind": 271,
                             "asyncKeyword": null,
                             "typeParameters": null,
-                            "parameters": [
-                                {
-                                    "kind": 134299649,
-                                    "text": "b",
-                                    "rawText": "b",
-                                    "flags": 96,
-                                    "start": 9,
-                                    "end": 10
-                                }
-                            ],
+                            "arrowPatameterList": {
+                                "kind": 342,
+                                "parameters": [
+                                    {
+                                        "kind": 134299649,
+                                        "text": "b",
+                                        "rawText": "b",
+                                        "flags": 96,
+                                        "start": 9,
+                                        "end": 10
+                                    }
+                                ],
+                                "trailingComma": false,
+                                "flags": 0,
+                                "start": 9,
+                                "end": 11
+                            },
                             "returnType": null,
                             "arrowToken": {
                                 "kind": 10,
@@ -98,7 +105,7 @@ var a = (b) => c;
 
 ```javascript
 
-var a = (b) =>  c;
+var a = () =>  c;
 ```
 
 ### Diagnostics

@@ -52,24 +52,31 @@ var v = (a, b) => {
                             "kind": 271,
                             "asyncKeyword": null,
                             "typeParameters": null,
-                            "parameters": [
-                                {
-                                    "kind": 134299649,
-                                    "text": "a",
-                                    "rawText": "a",
-                                    "flags": 96,
-                                    "start": 9,
-                                    "end": 10
-                                },
-                                {
-                                    "kind": 134299649,
-                                    "text": "b",
-                                    "rawText": "b",
-                                    "flags": 96,
-                                    "start": 11,
-                                    "end": 13
-                                }
-                            ],
+                            "arrowPatameterList": {
+                                "kind": 342,
+                                "parameters": [
+                                    {
+                                        "kind": 134299649,
+                                        "text": "a",
+                                        "rawText": "a",
+                                        "flags": 96,
+                                        "start": 9,
+                                        "end": 10
+                                    },
+                                    {
+                                        "kind": 134299649,
+                                        "text": "b",
+                                        "rawText": "b",
+                                        "flags": 96,
+                                        "start": 11,
+                                        "end": 13
+                                    }
+                                ],
+                                "trailingComma": false,
+                                "flags": 0,
+                                "start": 9,
+                                "end": 14
+                            },
                             "returnType": null,
                             "arrowToken": {
                                 "kind": 10,
@@ -122,7 +129,7 @@ var v = (a, b) => {
 
 ```javascript
 
-var v = (a, b) =>  {};
+var v = () =>  {};
 ```
 
 ### Diagnostics

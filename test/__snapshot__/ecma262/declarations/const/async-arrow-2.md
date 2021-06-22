@@ -122,7 +122,7 @@ const f = async <T, R, S>(
                                 "start": 9,
                                 "end": 25
                             },
-                            "parameters": [
+                            "arrowPatameterList": [
                                 {
                                     "kind": 281,
                                     "ellipsisToken": null,

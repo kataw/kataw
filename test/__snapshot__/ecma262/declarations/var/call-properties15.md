@@ -137,16 +137,23 @@ var g: { (x: Date): void } = (x) => { x * 2 } // param type (date < number)
                             "kind": 271,
                             "asyncKeyword": null,
                             "typeParameters": null,
-                            "parameters": [
-                                {
-                                    "kind": 134299649,
-                                    "text": "x",
-                                    "rawText": "x",
-                                    "flags": 96,
-                                    "start": 30,
-                                    "end": 31
-                                }
-                            ],
+                            "arrowPatameterList": {
+                                "kind": 342,
+                                "parameters": [
+                                    {
+                                        "kind": 134299649,
+                                        "text": "x",
+                                        "rawText": "x",
+                                        "flags": 96,
+                                        "start": 30,
+                                        "end": 31
+                                    }
+                                ],
+                                "trailingComma": false,
+                                "flags": 0,
+                                "start": 30,
+                                "end": 32
+                            },
                             "returnType": null,
                             "arrowToken": {
                                 "kind": 10,
@@ -234,7 +241,7 @@ var g: { (x: Date): void } = (x) => { x * 2 } // param type (date < number)
 
 ```javascript
 
-var g:  = (x) =>  {
+var g:  = () =>  {
   x * 2;
 }; // param type (date < number)
 ```

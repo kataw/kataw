@@ -60,93 +60,100 @@ async function f(){    (fail = class A extends await foo {}) => fail    }
                                 "kind": 271,
                                 "asyncKeyword": null,
                                 "typeParameters": null,
-                                "parameters": [
-                                    {
-                                        "kind": 281,
-                                        "ellipsisToken": null,
-                                        "left": {
-                                            "kind": 134299649,
-                                            "text": "fail",
-                                            "rawText": "fail",
-                                            "flags": 96,
-                                            "start": 24,
-                                            "end": 28
-                                        },
-                                        "optionalToken": null,
-                                        "type": null,
-                                        "right": {
-                                            "kind": 189,
-                                            "decorators": null,
-                                            "classKeyword": {
-                                                "kind": 37822544,
-                                                "flags": 64,
-                                                "start": 30,
-                                                "end": 36
-                                            },
-                                            "name": {
+                                "arrowPatameterList": {
+                                    "kind": 342,
+                                    "parameters": [
+                                        {
+                                            "kind": 281,
+                                            "ellipsisToken": null,
+                                            "left": {
                                                 "kind": 134299649,
-                                                "text": "A",
-                                                "rawText": "A",
+                                                "text": "fail",
+                                                "rawText": "fail",
                                                 "flags": 96,
-                                                "start": 36,
-                                                "end": 38
+                                                "start": 24,
+                                                "end": 28
                                             },
-                                            "typeParameters": null,
-                                            "tail": {
-                                                "kind": 277,
-                                                "classHeritage": {
-                                                    "kind": 279,
-                                                    "extendsKeyword": {
-                                                        "kind": 4194391,
-                                                        "flags": 80,
-                                                        "start": 38,
-                                                        "end": 46
-                                                    },
-                                                    "expression": {
-                                                        "kind": 208,
-                                                        "awaitKeyword": {
-                                                            "kind": 82196,
-                                                            "flags": 64,
-                                                            "start": 46,
-                                                            "end": 52
+                                            "optionalToken": null,
+                                            "type": null,
+                                            "right": {
+                                                "kind": 189,
+                                                "decorators": null,
+                                                "classKeyword": {
+                                                    "kind": 37822544,
+                                                    "flags": 64,
+                                                    "start": 30,
+                                                    "end": 36
+                                                },
+                                                "name": {
+                                                    "kind": 134299649,
+                                                    "text": "A",
+                                                    "rawText": "A",
+                                                    "flags": 96,
+                                                    "start": 36,
+                                                    "end": 38
+                                                },
+                                                "typeParameters": null,
+                                                "tail": {
+                                                    "kind": 277,
+                                                    "classHeritage": {
+                                                        "kind": 279,
+                                                        "extendsKeyword": {
+                                                            "kind": 4194391,
+                                                            "flags": 80,
+                                                            "start": 38,
+                                                            "end": 46
                                                         },
                                                         "expression": {
-                                                            "kind": 134299649,
-                                                            "text": "foo",
-                                                            "rawText": "foo",
-                                                            "flags": 96,
-                                                            "start": 52,
+                                                            "kind": 208,
+                                                            "awaitKeyword": {
+                                                                "kind": 82196,
+                                                                "flags": 64,
+                                                                "start": 46,
+                                                                "end": 52
+                                                            },
+                                                            "expression": {
+                                                                "kind": 134299649,
+                                                                "text": "foo",
+                                                                "rawText": "foo",
+                                                                "flags": 96,
+                                                                "start": 52,
+                                                                "end": 56
+                                                            },
+                                                            "flags": 32,
+                                                            "start": 46,
                                                             "end": 56
                                                         },
-                                                        "flags": 32,
+                                                        "typeParameter": null,
+                                                        "flags": 16,
                                                         "start": 46,
                                                         "end": 56
                                                     },
-                                                    "typeParameter": null,
-                                                    "flags": 16,
-                                                    "start": 46,
-                                                    "end": 56
+                                                    "body": {
+                                                        "kind": 303,
+                                                        "elements": [],
+                                                        "flags": 32,
+                                                        "start": 58,
+                                                        "end": 58
+                                                    },
+                                                    "flags": 38,
+                                                    "start": 32,
+                                                    "end": 59
                                                 },
-                                                "body": {
-                                                    "kind": 303,
-                                                    "elements": [],
-                                                    "flags": 32,
-                                                    "start": 58,
-                                                    "end": 58
-                                                },
-                                                "flags": 38,
-                                                "start": 32,
+                                                "flags": 32,
+                                                "start": 30,
                                                 "end": 59
                                             },
                                             "flags": 32,
-                                            "start": 30,
+                                            "start": 19,
                                             "end": 59
-                                        },
-                                        "flags": 32,
-                                        "start": 19,
-                                        "end": 59
-                                    }
-                                ],
+                                        }
+                                    ],
+                                    "trailingComma": false,
+                                    "flags": 2,
+                                    "start": 24,
+                                    "end": 60
+                                },
                                 "returnType": null,
                                 "arrowToken": {
                                     "kind": 10,

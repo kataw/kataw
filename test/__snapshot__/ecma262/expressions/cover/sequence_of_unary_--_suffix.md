@@ -21,36 +21,43 @@
                 "kind": 271,
                 "asyncKeyword": null,
                 "typeParameters": null,
-                "parameters": [
-                    {
-                        "kind": 127,
-                        "operandToken": {
-                            "kind": 196636,
-                            "flags": 96,
-                            "start": 2,
+                "arrowPatameterList": {
+                    "kind": 342,
+                    "parameters": [
+                        {
+                            "kind": 127,
+                            "operandToken": {
+                                "kind": 196636,
+                                "flags": 96,
+                                "start": 2,
+                                "end": 4
+                            },
+                            "operand": {
+                                "kind": 134299649,
+                                "text": "x",
+                                "rawText": "x",
+                                "flags": 96,
+                                "start": 1,
+                                "end": 2
+                            },
+                            "flags": 32,
+                            "start": 0,
                             "end": 4
                         },
-                        "operand": {
+                        {
                             "kind": 134299649,
-                            "text": "x",
-                            "rawText": "x",
+                            "text": "y",
+                            "rawText": "y",
                             "flags": 96,
-                            "start": 1,
-                            "end": 2
-                        },
-                        "flags": 32,
-                        "start": 0,
-                        "end": 4
-                    },
-                    {
-                        "kind": 134299649,
-                        "text": "y",
-                        "rawText": "y",
-                        "flags": 96,
-                        "start": 5,
-                        "end": 7
-                    }
-                ],
+                            "start": 5,
+                            "end": 7
+                        }
+                    ],
+                    "trailingComma": false,
+                    "flags": 0,
+                    "start": 1,
+                    "end": 8
+                },
                 "returnType": null,
                 "arrowToken": {
                     "kind": 10,

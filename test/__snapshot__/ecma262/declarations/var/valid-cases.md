@@ -763,150 +763,157 @@ var {get} = obj;
                             "kind": 271,
                             "asyncKeyword": null,
                             "typeParameters": null,
-                            "parameters": [
-                                {
-                                    "kind": 212,
-                                    "propertyList": {
-                                        "kind": 213,
-                                        "properties": [
-                                            {
-                                                "kind": 329,
-                                                "key": {
-                                                    "kind": 134299649,
-                                                    "text": "x",
-                                                    "rawText": "x",
-                                                    "flags": 96,
-                                                    "start": 191,
-                                                    "end": 192
-                                                },
-                                                "value": {
-                                                    "kind": 125,
-                                                    "left": {
+                            "arrowPatameterList": {
+                                "kind": 342,
+                                "parameters": [
+                                    {
+                                        "kind": 212,
+                                        "propertyList": {
+                                            "kind": 213,
+                                            "properties": [
+                                                {
+                                                    "kind": 329,
+                                                    "key": {
                                                         "kind": 134299649,
-                                                        "text": "arg",
-                                                        "rawText": "arg",
+                                                        "text": "x",
+                                                        "rawText": "x",
                                                         "flags": 96,
-                                                        "start": 193,
-                                                        "end": 196
+                                                        "start": 191,
+                                                        "end": 192
                                                     },
-                                                    "operatorToken": {
-                                                        "kind": 4125,
-                                                        "flags": 96,
-                                                        "start": 196,
-                                                        "end": 198
-                                                    },
-                                                    "right": {
-                                                        "kind": 201392130,
-                                                        "text": 1,
-                                                        "rawText": "1",
-                                                        "flags": 96,
-                                                        "start": 198,
+                                                    "value": {
+                                                        "kind": 125,
+                                                        "left": {
+                                                            "kind": 134299649,
+                                                            "text": "arg",
+                                                            "rawText": "arg",
+                                                            "flags": 96,
+                                                            "start": 193,
+                                                            "end": 196
+                                                        },
+                                                        "operatorToken": {
+                                                            "kind": 4125,
+                                                            "flags": 96,
+                                                            "start": 196,
+                                                            "end": 198
+                                                        },
+                                                        "right": {
+                                                            "kind": 201392130,
+                                                            "text": 1,
+                                                            "rawText": "1",
+                                                            "flags": 96,
+                                                            "start": 198,
+                                                            "end": 200
+                                                        },
+                                                        "flags": 32,
+                                                        "start": 191,
                                                         "end": 200
                                                     },
+                                                    "initializer": null,
                                                     "flags": 32,
                                                     "start": 191,
                                                     "end": 200
-                                                },
-                                                "initializer": null,
-                                                "flags": 32,
-                                                "start": 191,
-                                                "end": 200
-                                            }
-                                        ],
-                                        "trailingComma": false,
-                                        "flags": 32,
-                                        "start": 191,
-                                        "end": 200
+                                                }
+                                            ],
+                                            "trailingComma": false,
+                                            "flags": 32,
+                                            "start": 191,
+                                            "end": 200
+                                        },
+                                        "flags": 48,
+                                        "start": 190,
+                                        "end": 201
                                     },
-                                    "flags": 48,
-                                    "start": 190,
-                                    "end": 201
-                                },
-                                {
-                                    "kind": 212,
-                                    "propertyList": {
-                                        "kind": 213,
-                                        "properties": [
-                                            {
-                                                "kind": 329,
-                                                "key": {
-                                                    "kind": 134299649,
-                                                    "text": "y",
-                                                    "rawText": "y",
-                                                    "flags": 96,
-                                                    "start": 204,
-                                                    "end": 205
-                                                },
-                                                "value": {
-                                                    "kind": 125,
-                                                    "left": {
+                                    {
+                                        "kind": 212,
+                                        "propertyList": {
+                                            "kind": 213,
+                                            "properties": [
+                                                {
+                                                    "kind": 329,
+                                                    "key": {
                                                         "kind": 134299649,
-                                                        "text": "b",
-                                                        "rawText": "b",
+                                                        "text": "y",
+                                                        "rawText": "y",
                                                         "flags": 96,
-                                                        "start": 206,
-                                                        "end": 207
+                                                        "start": 204,
+                                                        "end": 205
                                                     },
-                                                    "operatorToken": {
-                                                        "kind": 4125,
-                                                        "flags": 96,
-                                                        "start": 207,
-                                                        "end": 208
-                                                    },
-                                                    "right": {
-                                                        "kind": 121,
-                                                        "expression": {
-                                                            "kind": 125,
-                                                            "left": {
-                                                                "kind": 134299649,
-                                                                "text": "arg",
-                                                                "rawText": "arg",
-                                                                "flags": 96,
-                                                                "start": 209,
-                                                                "end": 212
-                                                            },
-                                                            "operatorToken": {
-                                                                "kind": 4125,
-                                                                "flags": 96,
-                                                                "start": 212,
-                                                                "end": 213
-                                                            },
-                                                            "right": {
-                                                                "kind": 201392130,
-                                                                "text": 2,
-                                                                "rawText": "2",
-                                                                "flags": 96,
-                                                                "start": 213,
+                                                    "value": {
+                                                        "kind": 125,
+                                                        "left": {
+                                                            "kind": 134299649,
+                                                            "text": "b",
+                                                            "rawText": "b",
+                                                            "flags": 96,
+                                                            "start": 206,
+                                                            "end": 207
+                                                        },
+                                                        "operatorToken": {
+                                                            "kind": 4125,
+                                                            "flags": 96,
+                                                            "start": 207,
+                                                            "end": 208
+                                                        },
+                                                        "right": {
+                                                            "kind": 121,
+                                                            "expression": {
+                                                                "kind": 125,
+                                                                "left": {
+                                                                    "kind": 134299649,
+                                                                    "text": "arg",
+                                                                    "rawText": "arg",
+                                                                    "flags": 96,
+                                                                    "start": 209,
+                                                                    "end": 212
+                                                                },
+                                                                "operatorToken": {
+                                                                    "kind": 4125,
+                                                                    "flags": 96,
+                                                                    "start": 212,
+                                                                    "end": 213
+                                                                },
+                                                                "right": {
+                                                                    "kind": 201392130,
+                                                                    "text": 2,
+                                                                    "rawText": "2",
+                                                                    "flags": 96,
+                                                                    "start": 213,
+                                                                    "end": 214
+                                                                },
+                                                                "flags": 32,
+                                                                "start": 208,
                                                                 "end": 214
                                                             },
                                                             "flags": 32,
                                                             "start": 208,
-                                                            "end": 214
+                                                            "end": 215
                                                         },
                                                         "flags": 32,
-                                                        "start": 208,
+                                                        "start": 204,
                                                         "end": 215
                                                     },
+                                                    "initializer": null,
                                                     "flags": 32,
                                                     "start": 204,
                                                     "end": 215
-                                                },
-                                                "initializer": null,
-                                                "flags": 32,
-                                                "start": 204,
-                                                "end": 215
-                                            }
-                                        ],
-                                        "trailingComma": false,
-                                        "flags": 32,
-                                        "start": 204,
-                                        "end": 215
-                                    },
-                                    "flags": 48,
-                                    "start": 202,
-                                    "end": 216
-                                }
-                            ],
+                                                }
+                                            ],
+                                            "trailingComma": false,
+                                            "flags": 32,
+                                            "start": 204,
+                                            "end": 215
+                                        },
+                                        "flags": 48,
+                                        "start": 202,
+                                        "end": 216
+                                    }
+                                ],
+                                "trailingComma": false,
+                                "flags": 2,
+                                "start": 190,
+                                "end": 217
+                            },
                             "returnType": null,
                             "arrowToken": {
                                 "kind": 10,
@@ -972,92 +979,99 @@ var {get} = obj;
                             "kind": 271,
                             "asyncKeyword": null,
                             "typeParameters": null,
-                            "parameters": [
-                                {
-                                    "kind": 212,
-                                    "propertyList": {
-                                        "kind": 213,
-                                        "properties": [
-                                            {
-                                                "kind": 329,
-                                                "key": {
-                                                    "kind": 134299649,
-                                                    "text": "x",
-                                                    "rawText": "x",
-                                                    "flags": 96,
-                                                    "start": 235,
-                                                    "end": 236
-                                                },
-                                                "value": {
-                                                    "kind": 125,
-                                                    "left": {
+                            "arrowPatameterList": {
+                                "kind": 342,
+                                "parameters": [
+                                    {
+                                        "kind": 212,
+                                        "propertyList": {
+                                            "kind": 213,
+                                            "properties": [
+                                                {
+                                                    "kind": 329,
+                                                    "key": {
                                                         "kind": 134299649,
-                                                        "text": "arg",
-                                                        "rawText": "arg",
+                                                        "text": "x",
+                                                        "rawText": "x",
                                                         "flags": 96,
-                                                        "start": 237,
-                                                        "end": 240
+                                                        "start": 235,
+                                                        "end": 236
                                                     },
-                                                    "operatorToken": {
-                                                        "kind": 4125,
-                                                        "flags": 96,
-                                                        "start": 240,
-                                                        "end": 242
-                                                    },
-                                                    "right": {
-                                                        "kind": 121,
-                                                        "expression": {
-                                                            "kind": 125,
-                                                            "left": {
-                                                                "kind": 134299649,
-                                                                "text": "arg",
-                                                                "rawText": "arg",
-                                                                "flags": 96,
-                                                                "start": 244,
-                                                                "end": 247
-                                                            },
-                                                            "operatorToken": {
-                                                                "kind": 4125,
-                                                                "flags": 96,
-                                                                "start": 247,
-                                                                "end": 249
-                                                            },
-                                                            "right": {
-                                                                "kind": 201392130,
-                                                                "text": 2,
-                                                                "rawText": "2",
-                                                                "flags": 96,
-                                                                "start": 249,
+                                                    "value": {
+                                                        "kind": 125,
+                                                        "left": {
+                                                            "kind": 134299649,
+                                                            "text": "arg",
+                                                            "rawText": "arg",
+                                                            "flags": 96,
+                                                            "start": 237,
+                                                            "end": 240
+                                                        },
+                                                        "operatorToken": {
+                                                            "kind": 4125,
+                                                            "flags": 96,
+                                                            "start": 240,
+                                                            "end": 242
+                                                        },
+                                                        "right": {
+                                                            "kind": 121,
+                                                            "expression": {
+                                                                "kind": 125,
+                                                                "left": {
+                                                                    "kind": 134299649,
+                                                                    "text": "arg",
+                                                                    "rawText": "arg",
+                                                                    "flags": 96,
+                                                                    "start": 244,
+                                                                    "end": 247
+                                                                },
+                                                                "operatorToken": {
+                                                                    "kind": 4125,
+                                                                    "flags": 96,
+                                                                    "start": 247,
+                                                                    "end": 249
+                                                                },
+                                                                "right": {
+                                                                    "kind": 201392130,
+                                                                    "text": 2,
+                                                                    "rawText": "2",
+                                                                    "flags": 96,
+                                                                    "start": 249,
+                                                                    "end": 251
+                                                                },
+                                                                "flags": 32,
+                                                                "start": 242,
                                                                 "end": 251
                                                             },
                                                             "flags": 32,
                                                             "start": 242,
-                                                            "end": 251
+                                                            "end": 252
                                                         },
                                                         "flags": 32,
-                                                        "start": 242,
+                                                        "start": 235,
                                                         "end": 252
                                                     },
+                                                    "initializer": null,
                                                     "flags": 32,
                                                     "start": 235,
                                                     "end": 252
-                                                },
-                                                "initializer": null,
-                                                "flags": 32,
-                                                "start": 235,
-                                                "end": 252
-                                            }
-                                        ],
-                                        "trailingComma": false,
-                                        "flags": 32,
-                                        "start": 235,
-                                        "end": 252
-                                    },
-                                    "flags": 48,
-                                    "start": 234,
-                                    "end": 253
-                                }
-                            ],
+                                                }
+                                            ],
+                                            "trailingComma": false,
+                                            "flags": 32,
+                                            "start": 235,
+                                            "end": 252
+                                        },
+                                        "flags": 48,
+                                        "start": 234,
+                                        "end": 253
+                                    }
+                                ],
+                                "trailingComma": false,
+                                "flags": 2,
+                                "start": 234,
+                                "end": 254
+                            },
                             "returnType": null,
                             "arrowToken": {
                                 "kind": 10,
@@ -1746,14 +1760,8 @@ try {
 } catch (x) {
   x = 5;
 }
-var f = ({
-  x: arg = 1
-}, {
-  y: b = (arg = 2)
-}) =>  {};
-var f = ({
-  x: arg = (arg = 2)
-}) =>  {};
+var f = () =>  {};
+var f = () =>  {};
 var foo;
 var foo = 0;
 var [foo] = [1];

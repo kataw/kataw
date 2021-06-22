@@ -143,7 +143,7 @@ var await; var f = (async function() { y = async x => await x });
                                                             "end": 48
                                                         },
                                                         "typeParameters": null,
-                                                        "parameters": {
+                                                        "arrowPatameterList": {
                                                             "kind": 134299649,
                                                             "text": "x",
                                                             "rawText": "x",

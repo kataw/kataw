@@ -32,7 +32,7 @@ async ({await}) => 1;
                 "end": 5
             },
             "typeParameters": null,
-            "parameters": [
+            "arrowPatameterList": [
                 {
                     "kind": 212,
                     "propertyList": {

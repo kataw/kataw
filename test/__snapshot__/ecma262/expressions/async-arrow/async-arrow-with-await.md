@@ -53,7 +53,7 @@ var x = async (a, b) => await a + b;
                                 "end": 13
                             },
                             "typeParameters": null,
-                            "parameters": [
+                            "arrowPatameterList": [
                                 {
                                     "kind": 134299649,
                                     "text": "a",

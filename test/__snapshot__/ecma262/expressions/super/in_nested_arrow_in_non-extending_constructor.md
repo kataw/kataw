@@ -87,7 +87,14 @@ class x { constructor(){ return () => () => super.foo; }}
                                                     "kind": 271,
                                                     "asyncKeyword": null,
                                                     "typeParameters": null,
-                                                    "parameters": [],
+                                                    "arrowPatameterList": {
+                                                        "kind": 342,
+                                                        "parameters": [],
+                                                        "trailingComma": false,
+                                                        "flags": 0,
+                                                        "start": 33,
+                                                        "end": 33
+                                                    },
                                                     "returnType": null,
                                                     "arrowToken": {
                                                         "kind": 10,
@@ -99,7 +106,14 @@ class x { constructor(){ return () => () => super.foo; }}
                                                         "kind": 271,
                                                         "asyncKeyword": null,
                                                         "typeParameters": null,
-                                                        "parameters": [],
+                                                        "arrowPatameterList": {
+                                                            "kind": 342,
+                                                            "parameters": [],
+                                                            "trailingComma": false,
+                                                            "flags": 0,
+                                                            "start": 39,
+                                                            "end": 39
+                                                        },
                                                         "returnType": null,
                                                         "arrowToken": {
                                                             "kind": 10,

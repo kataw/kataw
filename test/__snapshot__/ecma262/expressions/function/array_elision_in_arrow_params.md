@@ -43,75 +43,82 @@ f = ([[,] = g()]) => {};
                     "kind": 271,
                     "asyncKeyword": null,
                     "typeParameters": null,
-                    "parameters": [
-                        {
-                            "kind": 201,
-                            "elementList": {
-                                "kind": 270,
-                                "elements": [
-                                    {
-                                        "kind": 281,
-                                        "ellipsisToken": null,
-                                        "left": {
-                                            "kind": 201,
-                                            "elementList": {
-                                                "kind": 270,
-                                                "elements": [
-                                                    {
-                                                        "kind": 230,
-                                                        "flags": 96,
-                                                        "start": 7,
-                                                        "end": 7
-                                                    }
-                                                ],
-                                                "trailingComma": true,
+                    "arrowPatameterList": {
+                        "kind": 342,
+                        "parameters": [
+                            {
+                                "kind": 201,
+                                "elementList": {
+                                    "kind": 270,
+                                    "elements": [
+                                        {
+                                            "kind": 281,
+                                            "ellipsisToken": null,
+                                            "left": {
+                                                "kind": 201,
+                                                "elementList": {
+                                                    "kind": 270,
+                                                    "elements": [
+                                                        {
+                                                            "kind": 230,
+                                                            "flags": 96,
+                                                            "start": 7,
+                                                            "end": 7
+                                                        }
+                                                    ],
+                                                    "trailingComma": true,
+                                                    "flags": 32,
+                                                    "start": 7,
+                                                    "end": 8
+                                                },
                                                 "flags": 32,
-                                                "start": 7,
-                                                "end": 8
+                                                "start": 6,
+                                                "end": 9
+                                            },
+                                            "optionalToken": null,
+                                            "type": null,
+                                            "right": {
+                                                "kind": 131,
+                                                "expression": {
+                                                    "kind": 134299649,
+                                                    "text": "g",
+                                                    "rawText": "g",
+                                                    "flags": 96,
+                                                    "start": 11,
+                                                    "end": 13
+                                                },
+                                                "argumentList": {
+                                                    "kind": 256,
+                                                    "elements": [],
+                                                    "trailingComma": false,
+                                                    "flags": 32,
+                                                    "start": 14,
+                                                    "end": 14
+                                                },
+                                                "flags": 268435488,
+                                                "start": 11,
+                                                "end": 15
                                             },
                                             "flags": 32,
                                             "start": 6,
-                                            "end": 9
-                                        },
-                                        "optionalToken": null,
-                                        "type": null,
-                                        "right": {
-                                            "kind": 131,
-                                            "expression": {
-                                                "kind": 134299649,
-                                                "text": "g",
-                                                "rawText": "g",
-                                                "flags": 96,
-                                                "start": 11,
-                                                "end": 13
-                                            },
-                                            "argumentList": {
-                                                "kind": 256,
-                                                "elements": [],
-                                                "trailingComma": false,
-                                                "flags": 32,
-                                                "start": 14,
-                                                "end": 14
-                                            },
-                                            "flags": 268435488,
-                                            "start": 11,
                                             "end": 15
-                                        },
-                                        "flags": 32,
-                                        "start": 6,
-                                        "end": 15
-                                    }
-                                ],
-                                "trailingComma": false,
+                                        }
+                                    ],
+                                    "trailingComma": false,
+                                    "flags": 32,
+                                    "start": 6,
+                                    "end": 15
+                                },
                                 "flags": 32,
-                                "start": 6,
-                                "end": 15
-                            },
-                            "flags": 32,
-                            "start": 5,
-                            "end": 16
-                        }
-                    ],
+                                "start": 5,
+                                "end": 16
+                            }
+                        ],
+                        "trailingComma": false,
+                        "flags": 2,
+                        "start": 5,
+                        "end": 17
+                    },
                     "returnType": null,
                     "arrowToken": {
                         "kind": 10,
@@ -159,7 +166,7 @@ f = ([[,] = g()]) => {};
 
 ```javascript
 
-f = ([]) =>  {};
+f = () =>  {};
 ```
 
 ### Diagnostics

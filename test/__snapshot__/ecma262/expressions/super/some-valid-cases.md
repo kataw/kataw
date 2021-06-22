@@ -1588,51 +1588,58 @@ class x { dsda(){ return (a=super.foo) => a; }}
                                                     "kind": 271,
                                                     "asyncKeyword": null,
                                                     "typeParameters": null,
-                                                    "parameters": [
-                                                        {
-                                                            "kind": 281,
-                                                            "ellipsisToken": null,
-                                                            "left": {
-                                                                "kind": 134299649,
-                                                                "text": "a",
-                                                                "rawText": "a",
-                                                                "flags": 96,
-                                                                "start": 440,
-                                                                "end": 441
-                                                            },
-                                                            "optionalToken": null,
-                                                            "type": null,
-                                                            "right": {
-                                                                "kind": 131,
-                                                                "expression": {
-                                                                    "kind": 225,
-                                                                    "superKeyword": {
-                                                                        "kind": 4259935,
+                                                    "arrowPatameterList": {
+                                                        "kind": 342,
+                                                        "parameters": [
+                                                            {
+                                                                "kind": 281,
+                                                                "ellipsisToken": null,
+                                                                "left": {
+                                                                    "kind": 134299649,
+                                                                    "text": "a",
+                                                                    "rawText": "a",
+                                                                    "flags": 96,
+                                                                    "start": 440,
+                                                                    "end": 441
+                                                                },
+                                                                "optionalToken": null,
+                                                                "type": null,
+                                                                "right": {
+                                                                    "kind": 131,
+                                                                    "expression": {
+                                                                        "kind": 225,
+                                                                        "superKeyword": {
+                                                                            "kind": 4259935,
+                                                                            "flags": 96,
+                                                                            "start": 442,
+                                                                            "end": 447
+                                                                        },
                                                                         "flags": 96,
                                                                         "start": 442,
                                                                         "end": 447
                                                                     },
-                                                                    "flags": 96,
+                                                                    "argumentList": {
+                                                                        "kind": 256,
+                                                                        "elements": [],
+                                                                        "trailingComma": false,
+                                                                        "flags": 32,
+                                                                        "start": 448,
+                                                                        "end": 448
+                                                                    },
+                                                                    "flags": 268435488,
                                                                     "start": 442,
-                                                                    "end": 447
+                                                                    "end": 449
                                                                 },
-                                                                "argumentList": {
-                                                                    "kind": 256,
-                                                                    "elements": [],
-                                                                    "trailingComma": false,
-                                                                    "flags": 32,
-                                                                    "start": 448,
-                                                                    "end": 448
-                                                                },
-                                                                "flags": 268435488,
-                                                                "start": 442,
+                                                                "flags": 32,
+                                                                "start": 438,
                                                                 "end": 449
-                                                            },
-                                                            "flags": 32,
-                                                            "start": 438,
-                                                            "end": 449
-                                                        }
-                                                    ],
+                                                            }
+                                                        ],
+                                                        "trailingComma": false,
+                                                        "flags": 2,
+                                                        "start": 440,
+                                                        "end": 450
+                                                    },
                                                     "returnType": null,
                                                     "arrowToken": {
                                                         "kind": 10,
@@ -1778,7 +1785,14 @@ class x { dsda(){ return (a=super.foo) => a; }}
                                                     "kind": 271,
                                                     "asyncKeyword": null,
                                                     "typeParameters": null,
-                                                    "parameters": [],
+                                                    "arrowPatameterList": {
+                                                        "kind": 342,
+                                                        "parameters": [],
+                                                        "trailingComma": false,
+                                                        "flags": 0,
+                                                        "start": 504,
+                                                        "end": 504
+                                                    },
                                                     "returnType": null,
                                                     "arrowToken": {
                                                         "kind": 10,
@@ -1922,7 +1936,14 @@ class x { dsda(){ return (a=super.foo) => a; }}
                                                     "kind": 271,
                                                     "asyncKeyword": null,
                                                     "typeParameters": null,
-                                                    "parameters": [],
+                                                    "arrowPatameterList": {
+                                                        "kind": 342,
+                                                        "parameters": [],
+                                                        "trailingComma": false,
+                                                        "flags": 0,
+                                                        "start": 549,
+                                                        "end": 549
+                                                    },
                                                     "returnType": null,
                                                     "arrowToken": {
                                                         "kind": 10,
@@ -2066,51 +2087,58 @@ class x { dsda(){ return (a=super.foo) => a; }}
                                                     "kind": 271,
                                                     "asyncKeyword": null,
                                                     "typeParameters": null,
-                                                    "parameters": [
-                                                        {
-                                                            "kind": 281,
-                                                            "ellipsisToken": null,
-                                                            "left": {
-                                                                "kind": 134299649,
-                                                                "text": "a",
-                                                                "rawText": "a",
-                                                                "flags": 96,
-                                                                "start": 595,
-                                                                "end": 596
-                                                            },
-                                                            "optionalToken": null,
-                                                            "type": null,
-                                                            "right": {
-                                                                "kind": 129,
-                                                                "member": {
-                                                                    "kind": 225,
-                                                                    "superKeyword": {
-                                                                        "kind": 4259935,
+                                                    "arrowPatameterList": {
+                                                        "kind": 342,
+                                                        "parameters": [
+                                                            {
+                                                                "kind": 281,
+                                                                "ellipsisToken": null,
+                                                                "left": {
+                                                                    "kind": 134299649,
+                                                                    "text": "a",
+                                                                    "rawText": "a",
+                                                                    "flags": 96,
+                                                                    "start": 595,
+                                                                    "end": 596
+                                                                },
+                                                                "optionalToken": null,
+                                                                "type": null,
+                                                                "right": {
+                                                                    "kind": 129,
+                                                                    "member": {
+                                                                        "kind": 225,
+                                                                        "superKeyword": {
+                                                                            "kind": 4259935,
+                                                                            "flags": 96,
+                                                                            "start": 597,
+                                                                            "end": 602
+                                                                        },
                                                                         "flags": 96,
                                                                         "start": 597,
                                                                         "end": 602
                                                                     },
-                                                                    "flags": 96,
+                                                                    "expression": {
+                                                                        "kind": 134299649,
+                                                                        "text": "foo",
+                                                                        "rawText": "foo",
+                                                                        "flags": 96,
+                                                                        "start": 603,
+                                                                        "end": 606
+                                                                    },
+                                                                    "flags": 536870944,
                                                                     "start": 597,
-                                                                    "end": 602
-                                                                },
-                                                                "expression": {
-                                                                    "kind": 134299649,
-                                                                    "text": "foo",
-                                                                    "rawText": "foo",
-                                                                    "flags": 96,
-                                                                    "start": 603,
                                                                     "end": 606
                                                                 },
-                                                                "flags": 536870944,
-                                                                "start": 597,
+                                                                "flags": 32,
+                                                                "start": 593,
                                                                 "end": 606
-                                                            },
-                                                            "flags": 32,
-                                                            "start": 593,
-                                                            "end": 606
-                                                        }
-                                                    ],
+                                                            }
+                                                        ],
+                                                        "trailingComma": false,
+                                                        "flags": 2,
+                                                        "start": 595,
+                                                        "end": 607
+                                                    },
                                                     "returnType": null,
                                                     "arrowToken": {
                                                         "kind": 10,

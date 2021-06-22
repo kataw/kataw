@@ -45,58 +45,72 @@ a ? (b = (c) => d) : e => f : g;
                     "kind": 271,
                     "asyncKeyword": null,
                     "typeParameters": null,
-                    "parameters": [
-                        {
-                            "kind": 281,
-                            "ellipsisToken": null,
-                            "left": {
-                                "kind": 134299649,
-                                "text": "b",
-                                "rawText": "b",
-                                "flags": 96,
-                                "start": 5,
-                                "end": 6
-                            },
-                            "optionalToken": null,
-                            "type": null,
-                            "right": {
-                                "kind": 271,
-                                "asyncKeyword": null,
-                                "typeParameters": null,
-                                "parameters": [
-                                    {
-                                        "kind": 134299649,
-                                        "text": "c",
-                                        "rawText": "c",
-                                        "flags": 96,
-                                        "start": 10,
-                                        "end": 11
-                                    }
-                                ],
-                                "returnType": null,
-                                "arrowToken": {
-                                    "kind": 10,
-                                    "flags": 64,
-                                    "start": 12,
-                                    "end": 15
-                                },
-                                "contents": {
+                    "arrowPatameterList": {
+                        "kind": 342,
+                        "parameters": [
+                            {
+                                "kind": 281,
+                                "ellipsisToken": null,
+                                "left": {
                                     "kind": 134299649,
-                                    "text": "d",
-                                    "rawText": "d",
+                                    "text": "b",
+                                    "rawText": "b",
                                     "flags": 96,
-                                    "start": 15,
+                                    "start": 5,
+                                    "end": 6
+                                },
+                                "optionalToken": null,
+                                "type": null,
+                                "right": {
+                                    "kind": 271,
+                                    "asyncKeyword": null,
+                                    "typeParameters": null,
+                                    "arrowPatameterList": {
+                                        "kind": 342,
+                                        "parameters": [
+                                            {
+                                                "kind": 134299649,
+                                                "text": "c",
+                                                "rawText": "c",
+                                                "flags": 96,
+                                                "start": 10,
+                                                "end": 11
+                                            }
+                                        ],
+                                        "trailingComma": false,
+                                        "flags": 0,
+                                        "start": 10,
+                                        "end": 12
+                                    },
+                                    "returnType": null,
+                                    "arrowToken": {
+                                        "kind": 10,
+                                        "flags": 64,
+                                        "start": 12,
+                                        "end": 15
+                                    },
+                                    "contents": {
+                                        "kind": 134299649,
+                                        "text": "d",
+                                        "rawText": "d",
+                                        "flags": 96,
+                                        "start": 15,
+                                        "end": 17
+                                    },
+                                    "flags": 32,
+                                    "start": 8,
                                     "end": 17
                                 },
                                 "flags": 32,
-                                "start": 8,
+                                "start": 3,
                                 "end": 17
-                            },
-                            "flags": 32,
-                            "start": 3,
-                            "end": 17
-                        }
-                    ],
+                            }
+                        ],
+                        "trailingComma": false,
+                        "flags": 2,
+                        "start": 5,
+                        "end": 22
+                    },
                     "returnType": {
                         "kind": 139,
                         "bitwiseOrToken": null,
@@ -174,7 +188,7 @@ a ? (b = (c) => d) : e => f : g;
 
 ```javascript
 
-a ? (b = (c) =>  d) =>  f : g;
+a ? () =>  f : g;
 ```
 
 ### Diagnostics

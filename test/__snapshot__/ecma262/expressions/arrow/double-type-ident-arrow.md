@@ -24,7 +24,7 @@ type =>  x, type =>  x;
                         "kind": 271,
                         "asyncKeyword": null,
                         "typeParameters": null,
-                        "parameters": {
+                        "arrowPatameterList": {
                             "kind": 134299649,
                             "text": "type",
                             "rawText": "type",
@@ -55,7 +55,7 @@ type =>  x, type =>  x;
                         "kind": 271,
                         "asyncKeyword": null,
                         "typeParameters": null,
-                        "parameters": {
+                        "arrowPatameterList": {
                             "kind": 134299649,
                             "text": "type",
                             "rawText": "type",

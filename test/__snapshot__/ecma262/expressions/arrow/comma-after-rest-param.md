@@ -21,31 +21,38 @@
                 "kind": 271,
                 "asyncKeyword": null,
                 "typeParameters": null,
-                "parameters": [
-                    {
-                        "kind": 281,
-                        "ellipsisToken": {
-                            "kind": 524302,
-                            "flags": 64,
+                "arrowPatameterList": {
+                    "kind": 342,
+                    "parameters": [
+                        {
+                            "kind": 281,
+                            "ellipsisToken": {
+                                "kind": 524302,
+                                "flags": 64,
+                                "start": 1,
+                                "end": 4
+                            },
+                            "left": {
+                                "kind": 134299649,
+                                "text": "rest",
+                                "rawText": "rest",
+                                "flags": 96,
+                                "start": 4,
+                                "end": 8
+                            },
+                            "optionalToken": null,
+                            "type": null,
+                            "right": null,
+                            "flags": 34,
                             "start": 1,
-                            "end": 4
-                        },
-                        "left": {
-                            "kind": 134299649,
-                            "text": "rest",
-                            "rawText": "rest",
-                            "flags": 96,
-                            "start": 4,
                             "end": 8
-                        },
-                        "optionalToken": null,
-                        "type": null,
-                        "right": null,
-                        "flags": 34,
-                        "start": 1,
-                        "end": 8
-                    }
-                ],
+                        }
+                    ],
+                    "trailingComma": false,
+                    "flags": 0,
+                    "start": 1,
+                    "end": 10
+                },
                 "returnType": null,
                 "arrowToken": {
                     "kind": 10,

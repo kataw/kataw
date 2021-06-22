@@ -29,7 +29,7 @@ await => async.await[async / ((async) => foo.bar)]
                 "kind": 271,
                 "asyncKeyword": null,
                 "typeParameters": null,
-                "parameters": {
+                "arrowPatameterList": {
                     "kind": 134299649,
                     "text": "await",
                     "rawText": "await",
@@ -90,16 +90,23 @@ await => async.await[async / ((async) => foo.bar)]
                                 "kind": 271,
                                 "asyncKeyword": null,
                                 "typeParameters": null,
-                                "parameters": [
-                                    {
-                                        "kind": 134299649,
-                                        "text": "async",
-                                        "rawText": "async",
-                                        "flags": 96,
-                                        "start": 31,
-                                        "end": 36
-                                    }
-                                ],
+                                "arrowPatameterList": {
+                                    "kind": 342,
+                                    "parameters": [
+                                        {
+                                            "kind": 134299649,
+                                            "text": "async",
+                                            "rawText": "async",
+                                            "flags": 96,
+                                            "start": 31,
+                                            "end": 36
+                                        }
+                                    ],
+                                    "trailingComma": false,
+                                    "flags": 0,
+                                    "start": 31,
+                                    "end": 37
+                                },
                                 "returnType": null,
                                 "arrowToken": {
                                     "kind": 10,
@@ -167,7 +174,7 @@ await => async.await[async / ((async) => foo.bar)]
 
 ```javascript
 
-await =>  async.await[async / ((async) =>  foo.bar)];
+await =>  async.await[async / (() =>  foo.bar)];
 ```
 
 ### Diagnostics

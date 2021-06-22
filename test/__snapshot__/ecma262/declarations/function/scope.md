@@ -636,7 +636,14 @@ function for_scope_var() {
                                             "kind": 271,
                                             "asyncKeyword": null,
                                             "typeParameters": null,
-                                            "parameters": [],
+                                            "arrowPatameterList": {
+                                                "kind": 342,
+                                                "parameters": [],
+                                                "trailingComma": false,
+                                                "flags": 0,
+                                                "start": 398,
+                                                "end": 398
+                                            },
                                             "returnType": null,
                                             "arrowToken": {
                                                 "kind": 10,

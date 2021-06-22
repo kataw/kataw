@@ -60,55 +60,62 @@ function *f(){ ({x} = yield) => {} }
                                 "kind": 271,
                                 "asyncKeyword": null,
                                 "typeParameters": null,
-                                "parameters": [
-                                    {
-                                        "kind": 281,
-                                        "ellipsisToken": null,
-                                        "left": {
-                                            "kind": 212,
-                                            "propertyList": {
-                                                "kind": 213,
-                                                "properties": [
-                                                    {
-                                                        "kind": 134299649,
-                                                        "text": "x",
-                                                        "rawText": "x",
-                                                        "flags": 96,
-                                                        "start": 17,
-                                                        "end": 18
-                                                    }
-                                                ],
-                                                "trailingComma": false,
-                                                "flags": 32,
-                                                "start": 17,
-                                                "end": 18
+                                "arrowPatameterList": {
+                                    "kind": 342,
+                                    "parameters": [
+                                        {
+                                            "kind": 281,
+                                            "ellipsisToken": null,
+                                            "left": {
+                                                "kind": 212,
+                                                "propertyList": {
+                                                    "kind": 213,
+                                                    "properties": [
+                                                        {
+                                                            "kind": 134299649,
+                                                            "text": "x",
+                                                            "rawText": "x",
+                                                            "flags": 96,
+                                                            "start": 17,
+                                                            "end": 18
+                                                        }
+                                                    ],
+                                                    "trailingComma": false,
+                                                    "flags": 32,
+                                                    "start": 17,
+                                                    "end": 18
+                                                },
+                                                "flags": 48,
+                                                "start": 16,
+                                                "end": 19
                                             },
-                                            "flags": 48,
-                                            "start": 16,
-                                            "end": 19
-                                        },
-                                        "optionalToken": null,
-                                        "type": null,
-                                        "right": {
-                                            "kind": 229,
-                                            "yieldKeyword": {
-                                                "kind": 8454253,
-                                                "flags": 64,
+                                            "optionalToken": null,
+                                            "type": null,
+                                            "right": {
+                                                "kind": 229,
+                                                "yieldKeyword": {
+                                                    "kind": 8454253,
+                                                    "flags": 64,
+                                                    "start": 21,
+                                                    "end": 27
+                                                },
+                                                "delegate": false,
+                                                "asteriskToken": null,
+                                                "expression": null,
+                                                "flags": 32,
                                                 "start": 21,
                                                 "end": 27
                                             },
-                                            "delegate": false,
-                                            "asteriskToken": null,
-                                            "expression": null,
                                             "flags": 32,
-                                            "start": 21,
+                                            "start": 16,
                                             "end": 27
-                                        },
-                                        "flags": 32,
-                                        "start": 16,
-                                        "end": 27
-                                    }
-                                ],
+                                        }
+                                    ],
+                                    "trailingComma": false,
+                                    "flags": 2,
+                                    "start": 16,
+                                    "end": 28
+                                },
                                 "returnType": null,
                                 "arrowToken": {
                                     "kind": 10,
@@ -167,9 +174,7 @@ function *f(){ ({x} = yield) => {} }
 ```javascript
 
 function * f() {
-  ({
-    x
-  } =  yield) =>  {};
+  () =>  {};
 }
 ```
 

@@ -82,7 +82,7 @@ let f = a + b + async()=>d
                                     "end": 21
                                 },
                                 "typeParameters": null,
-                                "parameters": [],
+                                "arrowPatameterList": [],
                                 "returnType": null,
                                 "arrowToken": {
                                     "kind": 10,

@@ -112,9 +112,19 @@ interface ArrowFunction <: ExpressionNode {
   kind: NodeKind.ArrowFunction;
   arrowToken: SyntaxToken | null;
   typeParameters: TypeParameter | null;
-  parameters: Identifier | [FormalParameter];
+  arrowPatameterList: ArrowPatameterList;
   asyncToken: SyntaxToken | null;
   content: ExpressionNode | FunctionBody
+}
+```
+
+### ArrowPatameterList
+
+```js
+interface ArrowPatameterList <: ExpressionNode {
+  kind: NodeKind.ArrowFunction;
+  parameters: [Identifier | BindingElement];
+  trailingComma: boolean;
 }
 ```
 

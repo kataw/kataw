@@ -24,7 +24,7 @@ async(a = (await) => {}) => {};
                 "end": 5
             },
             "typeParameters": null,
-            "parameters": [
+            "arrowPatameterList": [
                 {
                     "kind": 281,
                     "ellipsisToken": null,
@@ -42,16 +42,23 @@ async(a = (await) => {}) => {};
                         "kind": 271,
                         "asyncKeyword": null,
                         "typeParameters": null,
-                        "parameters": [
-                            {
-                                "kind": 134299649,
-                                "text": "await",
-                                "rawText": "await",
-                                "flags": 96,
-                                "start": 11,
-                                "end": 16
-                            }
-                        ],
+                        "arrowPatameterList": {
+                            "kind": 342,
+                            "parameters": [
+                                {
+                                    "kind": 134299649,
+                                    "text": "await",
+                                    "rawText": "await",
+                                    "flags": 96,
+                                    "start": 11,
+                                    "end": 16
+                                }
+                            ],
+                            "trailingComma": false,
+                            "flags": 0,
+                            "start": 11,
+                            "end": 17
+                        },
                         "returnType": null,
                         "arrowToken": {
                             "kind": 10,
@@ -127,7 +134,7 @@ async(a = (await) => {}) => {};
 
 ```javascript
 
-async (a = (await) =>  {}) =>  {}
+async (a = () =>  {}) =>  {}
 
 ```
 

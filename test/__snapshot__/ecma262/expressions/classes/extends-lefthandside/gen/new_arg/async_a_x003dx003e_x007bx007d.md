@@ -42,7 +42,7 @@ new async a => {}
                         "end": 9
                     },
                     "typeParameters": null,
-                    "parameters": {
+                    "arrowPatameterList": {
                         "kind": 134299649,
                         "text": "a",
                         "rawText": "a",

@@ -40,16 +40,23 @@ bar, (interface) => { 'use strict'; 0 };
                         "kind": 271,
                         "asyncKeyword": null,
                         "typeParameters": null,
-                        "parameters": [
-                            {
-                                "kind": 134299649,
-                                "text": "interface",
-                                "rawText": "interface",
-                                "flags": 96,
-                                "start": 6,
-                                "end": 15
-                            }
-                        ],
+                        "arrowPatameterList": {
+                            "kind": 342,
+                            "parameters": [
+                                {
+                                    "kind": 134299649,
+                                    "text": "interface",
+                                    "rawText": "interface",
+                                    "flags": 96,
+                                    "start": 6,
+                                    "end": 15
+                                }
+                            ],
+                            "trailingComma": false,
+                            "flags": 0,
+                            "start": 6,
+                            "end": 16
+                        },
                         "returnType": null,
                         "arrowToken": {
                             "kind": 10,
@@ -122,7 +129,7 @@ bar, (interface) => { 'use strict'; 0 };
 
 ```javascript
 
-bar, (interface) =>  {
+bar, () =>  {
     0;
   };
 ```

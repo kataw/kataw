@@ -465,7 +465,14 @@ function foo8_c(x) {
                                                     "kind": 271,
                                                     "asyncKeyword": null,
                                                     "typeParameters": null,
-                                                    "parameters": [],
+                                                    "arrowPatameterList": {
+                                                        "kind": 342,
+                                                        "parameters": [],
+                                                        "trailingComma": false,
+                                                        "flags": 0,
+                                                        "start": 126,
+                                                        "end": 126
+                                                    },
                                                     "returnType": null,
                                                     "arrowToken": {
                                                         "kind": 10,
@@ -809,7 +816,14 @@ function foo8_c(x) {
                                                     "kind": 271,
                                                     "asyncKeyword": null,
                                                     "typeParameters": null,
-                                                    "parameters": [],
+                                                    "arrowPatameterList": {
+                                                        "kind": 342,
+                                                        "parameters": [],
+                                                        "trailingComma": false,
+                                                        "flags": 0,
+                                                        "start": 276,
+                                                        "end": 276
+                                                    },
                                                     "returnType": null,
                                                     "arrowToken": {
                                                         "kind": 10,
@@ -1188,7 +1202,14 @@ function foo8_c(x) {
                                                     "kind": 271,
                                                     "asyncKeyword": null,
                                                     "typeParameters": null,
-                                                    "parameters": [],
+                                                    "arrowPatameterList": {
+                                                        "kind": 342,
+                                                        "parameters": [],
+                                                        "trailingComma": false,
+                                                        "flags": 0,
+                                                        "start": 434,
+                                                        "end": 434
+                                                    },
                                                     "returnType": null,
                                                     "arrowToken": {
                                                         "kind": 10,
@@ -1504,7 +1525,14 @@ function foo8_c(x) {
                                                     "kind": 271,
                                                     "asyncKeyword": null,
                                                     "typeParameters": null,
-                                                    "parameters": [],
+                                                    "arrowPatameterList": {
+                                                        "kind": 342,
+                                                        "parameters": [],
+                                                        "trailingComma": false,
+                                                        "flags": 0,
+                                                        "start": 580,
+                                                        "end": 580
+                                                    },
                                                     "returnType": null,
                                                     "arrowToken": {
                                                         "kind": 10,
@@ -1828,7 +1856,14 @@ function foo8_c(x) {
                                                     "kind": 271,
                                                     "asyncKeyword": null,
                                                     "typeParameters": null,
-                                                    "parameters": [],
+                                                    "arrowPatameterList": {
+                                                        "kind": 342,
+                                                        "parameters": [],
+                                                        "trailingComma": false,
+                                                        "flags": 0,
+                                                        "start": 728,
+                                                        "end": 728
+                                                    },
                                                     "returnType": null,
                                                     "arrowToken": {
                                                         "kind": 10,
@@ -2284,7 +2319,14 @@ function foo8_c(x) {
                                                     "kind": 271,
                                                     "asyncKeyword": null,
                                                     "typeParameters": null,
-                                                    "parameters": [],
+                                                    "arrowPatameterList": {
+                                                        "kind": 342,
+                                                        "parameters": [],
+                                                        "trailingComma": false,
+                                                        "flags": 0,
+                                                        "start": 921,
+                                                        "end": 921
+                                                    },
                                                     "returnType": null,
                                                     "arrowToken": {
                                                         "kind": 10,
@@ -2706,7 +2748,14 @@ function foo8_c(x) {
                                                     "kind": 271,
                                                     "asyncKeyword": null,
                                                     "typeParameters": null,
-                                                    "parameters": [],
+                                                    "arrowPatameterList": {
+                                                        "kind": 342,
+                                                        "parameters": [],
+                                                        "trailingComma": false,
+                                                        "flags": 0,
+                                                        "start": 1090,
+                                                        "end": 1090
+                                                    },
                                                     "returnType": null,
                                                     "arrowToken": {
                                                         "kind": 10,
@@ -3114,7 +3163,14 @@ function foo8_c(x) {
                                                     "kind": 271,
                                                     "asyncKeyword": null,
                                                     "typeParameters": null,
-                                                    "parameters": [],
+                                                    "arrowPatameterList": {
+                                                        "kind": 342,
+                                                        "parameters": [],
+                                                        "trailingComma": false,
+                                                        "flags": 0,
+                                                        "start": 1263,
+                                                        "end": 1263
+                                                    },
                                                     "returnType": null,
                                                     "arrowToken": {
                                                         "kind": 10,
@@ -3494,7 +3550,14 @@ function foo8_c(x) {
                                                     "kind": 271,
                                                     "asyncKeyword": null,
                                                     "typeParameters": null,
-                                                    "parameters": [],
+                                                    "arrowPatameterList": {
+                                                        "kind": 342,
+                                                        "parameters": [],
+                                                        "trailingComma": false,
+                                                        "flags": 0,
+                                                        "start": 1422,
+                                                        "end": 1422
+                                                    },
                                                     "returnType": null,
                                                     "arrowToken": {
                                                         "kind": 10,
@@ -3990,7 +4053,14 @@ function foo8_c(x) {
                                                     "kind": 271,
                                                     "asyncKeyword": null,
                                                     "typeParameters": null,
-                                                    "parameters": [],
+                                                    "arrowPatameterList": {
+                                                        "kind": 342,
+                                                        "parameters": [],
+                                                        "trailingComma": false,
+                                                        "flags": 0,
+                                                        "start": 1624,
+                                                        "end": 1624
+                                                    },
                                                     "returnType": null,
                                                     "arrowToken": {
                                                         "kind": 10,
@@ -4355,7 +4425,14 @@ function foo8_c(x) {
                                                     "kind": 271,
                                                     "asyncKeyword": null,
                                                     "typeParameters": null,
-                                                    "parameters": [],
+                                                    "arrowPatameterList": {
+                                                        "kind": 342,
+                                                        "parameters": [],
+                                                        "trailingComma": false,
+                                                        "flags": 0,
+                                                        "start": 1797,
+                                                        "end": 1797
+                                                    },
                                                     "returnType": null,
                                                     "arrowToken": {
                                                         "kind": 10,
@@ -4699,7 +4776,14 @@ function foo8_c(x) {
                                                     "kind": 271,
                                                     "asyncKeyword": null,
                                                     "typeParameters": null,
-                                                    "parameters": [],
+                                                    "arrowPatameterList": {
+                                                        "kind": 342,
+                                                        "parameters": [],
+                                                        "trailingComma": false,
+                                                        "flags": 0,
+                                                        "start": 1953,
+                                                        "end": 1953
+                                                    },
                                                     "returnType": null,
                                                     "arrowToken": {
                                                         "kind": 10,
@@ -5059,7 +5143,14 @@ function foo8_c(x) {
                                                     "kind": 271,
                                                     "asyncKeyword": null,
                                                     "typeParameters": null,
-                                                    "parameters": [],
+                                                    "arrowPatameterList": {
+                                                        "kind": 342,
+                                                        "parameters": [],
+                                                        "trailingComma": false,
+                                                        "flags": 0,
+                                                        "start": 2113,
+                                                        "end": 2113
+                                                    },
                                                     "returnType": null,
                                                     "arrowToken": {
                                                         "kind": 10,
@@ -5375,7 +5466,14 @@ function foo8_c(x) {
                                                     "kind": 271,
                                                     "asyncKeyword": null,
                                                     "typeParameters": null,
-                                                    "parameters": [],
+                                                    "arrowPatameterList": {
+                                                        "kind": 342,
+                                                        "parameters": [],
+                                                        "trailingComma": false,
+                                                        "flags": 0,
+                                                        "start": 2263,
+                                                        "end": 2263
+                                                    },
                                                     "returnType": null,
                                                     "arrowToken": {
                                                         "kind": 10,
@@ -5706,7 +5804,14 @@ function foo8_c(x) {
                                                     "kind": 271,
                                                     "asyncKeyword": null,
                                                     "typeParameters": null,
-                                                    "parameters": [],
+                                                    "arrowPatameterList": {
+                                                        "kind": 342,
+                                                        "parameters": [],
+                                                        "trailingComma": false,
+                                                        "flags": 0,
+                                                        "start": 2421,
+                                                        "end": 2421
+                                                    },
                                                     "returnType": null,
                                                     "arrowToken": {
                                                         "kind": 10,
@@ -6143,7 +6248,14 @@ function foo8_c(x) {
                                                     "kind": 271,
                                                     "asyncKeyword": null,
                                                     "typeParameters": null,
-                                                    "parameters": [],
+                                                    "arrowPatameterList": {
+                                                        "kind": 342,
+                                                        "parameters": [],
+                                                        "trailingComma": false,
+                                                        "flags": 0,
+                                                        "start": 2618,
+                                                        "end": 2618
+                                                    },
                                                     "returnType": null,
                                                     "arrowToken": {
                                                         "kind": 10,
@@ -6546,7 +6658,14 @@ function foo8_c(x) {
                                                     "kind": 271,
                                                     "asyncKeyword": null,
                                                     "typeParameters": null,
-                                                    "parameters": [],
+                                                    "arrowPatameterList": {
+                                                        "kind": 342,
+                                                        "parameters": [],
+                                                        "trailingComma": false,
+                                                        "flags": 0,
+                                                        "start": 2789,
+                                                        "end": 2789
+                                                    },
                                                     "returnType": null,
                                                     "arrowToken": {
                                                         "kind": 10,
@@ -6968,7 +7087,14 @@ function foo8_c(x) {
                                                     "kind": 271,
                                                     "asyncKeyword": null,
                                                     "typeParameters": null,
-                                                    "parameters": [],
+                                                    "arrowPatameterList": {
+                                                        "kind": 342,
+                                                        "parameters": [],
+                                                        "trailingComma": false,
+                                                        "flags": 0,
+                                                        "start": 2976,
+                                                        "end": 2976
+                                                    },
                                                     "returnType": null,
                                                     "arrowToken": {
                                                         "kind": 10,
@@ -7362,7 +7488,14 @@ function foo8_c(x) {
                                                     "kind": 271,
                                                     "asyncKeyword": null,
                                                     "typeParameters": null,
-                                                    "parameters": [],
+                                                    "arrowPatameterList": {
+                                                        "kind": 342,
+                                                        "parameters": [],
+                                                        "trailingComma": false,
+                                                        "flags": 0,
+                                                        "start": 3149,
+                                                        "end": 3149
+                                                    },
                                                     "returnType": null,
                                                     "arrowToken": {
                                                         "kind": 10,
@@ -7839,7 +7972,14 @@ function foo8_c(x) {
                                                     "kind": 271,
                                                     "asyncKeyword": null,
                                                     "typeParameters": null,
-                                                    "parameters": [],
+                                                    "arrowPatameterList": {
+                                                        "kind": 342,
+                                                        "parameters": [],
+                                                        "trailingComma": false,
+                                                        "flags": 0,
+                                                        "start": 3355,
+                                                        "end": 3355
+                                                    },
                                                     "returnType": null,
                                                     "arrowToken": {
                                                         "kind": 10,

@@ -1165,16 +1165,23 @@ try {} catch({ x: "str" }) {}
                 "kind": 271,
                 "asyncKeyword": null,
                 "typeParameters": null,
-                "parameters": [
-                    {
-                        "kind": 134299649,
-                        "text": "y",
-                        "rawText": "y",
-                        "flags": 96,
-                        "start": 307,
-                        "end": 308
-                    }
-                ],
+                "arrowPatameterList": {
+                    "kind": 342,
+                    "parameters": [
+                        {
+                            "kind": 134299649,
+                            "text": "y",
+                            "rawText": "y",
+                            "flags": 96,
+                            "start": 307,
+                            "end": 308
+                        }
+                    ],
+                    "trailingComma": false,
+                    "flags": 0,
+                    "start": 307,
+                    "end": 309
+                },
                 "returnType": null,
                 "arrowToken": {
                     "kind": 10,
@@ -2569,7 +2576,14 @@ try {} catch({ x: "str" }) {}
                             "kind": 271,
                             "asyncKeyword": null,
                             "typeParameters": null,
-                            "parameters": [],
+                            "arrowPatameterList": {
+                                "kind": 342,
+                                "parameters": [],
+                                "trailingComma": false,
+                                "flags": 0,
+                                "start": 732,
+                                "end": 732
+                            },
                             "returnType": null,
                             "arrowToken": null,
                             "contents": {
@@ -2712,16 +2726,23 @@ try {} catch({ x: "str" }) {}
                 "kind": 271,
                 "asyncKeyword": null,
                 "typeParameters": null,
-                "parameters": [
-                    {
-                        "kind": 134299649,
-                        "text": "y",
-                        "rawText": "y",
-                        "flags": 96,
-                        "start": 768,
-                        "end": 769
-                    }
-                ],
+                "arrowPatameterList": {
+                    "kind": 342,
+                    "parameters": [
+                        {
+                            "kind": 134299649,
+                            "text": "y",
+                            "rawText": "y",
+                            "flags": 96,
+                            "start": 768,
+                            "end": 769
+                        }
+                    ],
+                    "trailingComma": false,
+                    "flags": 0,
+                    "start": 768,
+                    "end": 770
+                },
                 "returnType": null,
                 "arrowToken": {
                     "kind": 10,

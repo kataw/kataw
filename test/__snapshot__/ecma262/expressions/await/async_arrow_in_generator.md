@@ -63,7 +63,7 @@ function *f(){  async (await) => x  }
                                 "end": 21
                             },
                             "typeParameters": null,
-                            "parameters": [
+                            "arrowPatameterList": [
                                 {
                                     "kind": 134299649,
                                     "text": "await",

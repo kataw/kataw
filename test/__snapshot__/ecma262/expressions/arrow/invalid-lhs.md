@@ -168,7 +168,7 @@ x = (a,b)+c=>{};
                     "kind": 271,
                     "asyncKeyword": null,
                     "typeParameters": null,
-                    "parameters": {
+                    "arrowPatameterList": {
                         "kind": 134299649,
                         "text": "d",
                         "rawText": "d",
@@ -749,7 +749,7 @@ x = (a,b)+c=>{};
                     "kind": 271,
                     "asyncKeyword": null,
                     "typeParameters": null,
-                    "parameters": {
+                    "arrowPatameterList": {
                         "kind": 134299649,
                         "text": "d",
                         "rawText": "d",
@@ -997,7 +997,7 @@ x = (a,b)+c=>{};
                         "kind": 271,
                         "asyncKeyword": null,
                         "typeParameters": null,
-                        "parameters": {
+                        "arrowPatameterList": {
                             "kind": 134299649,
                             "text": "c",
                             "rawText": "c",

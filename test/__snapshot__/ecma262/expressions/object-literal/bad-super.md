@@ -101,64 +101,71 @@ class x extends y {constructor(){    ({"foo": super}) => x    }}
                                                     "kind": 271,
                                                     "asyncKeyword": null,
                                                     "typeParameters": null,
-                                                    "parameters": [
-                                                        {
-                                                            "kind": 212,
-                                                            "propertyList": {
-                                                                "kind": 213,
-                                                                "properties": [
-                                                                    {
-                                                                        "kind": 329,
-                                                                        "key": {
-                                                                            "kind": 201392131,
-                                                                            "text": "foo",
-                                                                            "rawText": "\"foo\"",
-                                                                            "flags": 96,
-                                                                            "start": 39,
-                                                                            "end": 44
-                                                                        },
-                                                                        "value": {
-                                                                            "kind": 129,
-                                                                            "member": {
-                                                                                "kind": 225,
-                                                                                "superKeyword": {
-                                                                                    "kind": 4259935,
+                                                    "arrowPatameterList": {
+                                                        "kind": 342,
+                                                        "parameters": [
+                                                            {
+                                                                "kind": 212,
+                                                                "propertyList": {
+                                                                    "kind": 213,
+                                                                    "properties": [
+                                                                        {
+                                                                            "kind": 329,
+                                                                            "key": {
+                                                                                "kind": 201392131,
+                                                                                "text": "foo",
+                                                                                "rawText": "\"foo\"",
+                                                                                "flags": 96,
+                                                                                "start": 39,
+                                                                                "end": 44
+                                                                            },
+                                                                            "value": {
+                                                                                "kind": 129,
+                                                                                "member": {
+                                                                                    "kind": 225,
+                                                                                    "superKeyword": {
+                                                                                        "kind": 4259935,
+                                                                                        "flags": 96,
+                                                                                        "start": 45,
+                                                                                        "end": 51
+                                                                                    },
                                                                                     "flags": 96,
                                                                                     "start": 45,
                                                                                     "end": 51
                                                                                 },
-                                                                                "flags": 96,
+                                                                                "expression": {
+                                                                                    "kind": 16637,
+                                                                                    "text": "",
+                                                                                    "rawText": "",
+                                                                                    "flags": 64,
+                                                                                    "start": 51,
+                                                                                    "end": 51
+                                                                                },
+                                                                                "flags": 536870944,
                                                                                 "start": 45,
                                                                                 "end": 51
                                                                             },
-                                                                            "expression": {
-                                                                                "kind": 16637,
-                                                                                "text": "",
-                                                                                "rawText": "",
-                                                                                "flags": 64,
-                                                                                "start": 51,
-                                                                                "end": 51
-                                                                            },
-                                                                            "flags": 536870944,
-                                                                            "start": 45,
+                                                                            "initializer": null,
+                                                                            "flags": 32,
+                                                                            "start": 39,
                                                                             "end": 51
-                                                                        },
-                                                                        "initializer": null,
-                                                                        "flags": 32,
-                                                                        "start": 39,
-                                                                        "end": 51
-                                                                    }
-                                                                ],
-                                                                "trailingComma": false,
-                                                                "flags": 32,
-                                                                "start": 39,
-                                                                "end": 51
-                                                            },
-                                                            "flags": 48,
-                                                            "start": 38,
-                                                            "end": 52
-                                                        }
-                                                    ],
+                                                                        }
+                                                                    ],
+                                                                    "trailingComma": false,
+                                                                    "flags": 32,
+                                                                    "start": 39,
+                                                                    "end": 51
+                                                                },
+                                                                "flags": 48,
+                                                                "start": 38,
+                                                                "end": 52
+                                                            }
+                                                        ],
+                                                        "trailingComma": false,
+                                                        "flags": 2,
+                                                        "start": 38,
+                                                        "end": 53
+                                                    },
                                                     "returnType": null,
                                                     "arrowToken": {
                                                         "kind": 10,

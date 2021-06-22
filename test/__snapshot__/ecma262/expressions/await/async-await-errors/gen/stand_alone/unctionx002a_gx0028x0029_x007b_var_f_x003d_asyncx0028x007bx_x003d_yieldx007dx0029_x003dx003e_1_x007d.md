@@ -108,7 +108,7 @@ unction* g() { var f = async({x = yield}) => 1; }
                                             "end": 28
                                         },
                                         "typeParameters": null,
-                                        "parameters": [
+                                        "arrowPatameterList": [
                                             {
                                                 "kind": 212,
                                                 "propertyList": {

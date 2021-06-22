@@ -61,7 +61,14 @@
                                     "kind": 271,
                                     "asyncKeyword": null,
                                     "typeParameters": null,
-                                    "parameters": [],
+                                    "arrowPatameterList": {
+                                        "kind": 342,
+                                        "parameters": [],
+                                        "trailingComma": false,
+                                        "flags": 0,
+                                        "start": 19,
+                                        "end": 19
+                                    },
                                     "returnType": null,
                                     "arrowToken": {
                                         "kind": 10,

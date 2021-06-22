@@ -103,7 +103,14 @@ class A<TYPE> {
                                 "kind": 271,
                                 "asyncKeyword": null,
                                 "typeParameters": null,
-                                "parameters": [],
+                                "arrowPatameterList": {
+                                    "kind": 342,
+                                    "parameters": [],
+                                    "trailingComma": false,
+                                    "flags": 0,
+                                    "start": 25,
+                                    "end": 25
+                                },
                                 "returnType": {
                                     "kind": 139,
                                     "bitwiseOrToken": null,

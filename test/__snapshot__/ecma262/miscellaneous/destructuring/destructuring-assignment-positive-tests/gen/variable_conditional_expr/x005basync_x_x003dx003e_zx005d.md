@@ -178,7 +178,7 @@ var x, y, z; m(['b']) ? lhs : [async x => z] = {}
                                         "end": 36
                                     },
                                     "typeParameters": null,
-                                    "parameters": {
+                                    "arrowPatameterList": {
                                         "kind": 134299649,
                                         "text": "x",
                                         "rawText": "x",

@@ -51,61 +51,68 @@ var x = ({ a } : any = 'foo') => {}
                             "kind": 271,
                             "asyncKeyword": null,
                             "typeParameters": null,
-                            "parameters": [
-                                {
-                                    "kind": 281,
-                                    "ellipsisToken": null,
-                                    "left": {
-                                        "kind": 220,
-                                        "propertyList": {
-                                            "kind": 218,
-                                            "properties": [
-                                                {
-                                                    "kind": 134299649,
-                                                    "text": "a",
-                                                    "rawText": "a",
-                                                    "flags": 96,
-                                                    "start": 10,
-                                                    "end": 12
-                                                }
-                                            ],
-                                            "trailingComma": false,
-                                            "flags": 16,
-                                            "start": 10,
-                                            "end": 12
+                            "arrowPatameterList": {
+                                "kind": 342,
+                                "parameters": [
+                                    {
+                                        "kind": 281,
+                                        "ellipsisToken": null,
+                                        "left": {
+                                            "kind": 220,
+                                            "propertyList": {
+                                                "kind": 218,
+                                                "properties": [
+                                                    {
+                                                        "kind": 134299649,
+                                                        "text": "a",
+                                                        "rawText": "a",
+                                                        "flags": 96,
+                                                        "start": 10,
+                                                        "end": 12
+                                                    }
+                                                ],
+                                                "trailingComma": false,
+                                                "flags": 16,
+                                                "start": 10,
+                                                "end": 12
+                                            },
+                                            "flags": 48,
+                                            "start": 9,
+                                            "end": 14
                                         },
-                                        "flags": 48,
-                                        "start": 9,
-                                        "end": 14
-                                    },
-                                    "optionalToken": null,
-                                    "type": {
-                                        "kind": 139,
-                                        "bitwiseOrToken": null,
-                                        "bitwiseAndToken": null,
+                                        "optionalToken": null,
                                         "type": {
-                                            "kind": 134234252,
-                                            "flags": 2097216,
+                                            "kind": 139,
+                                            "bitwiseOrToken": null,
+                                            "bitwiseAndToken": null,
+                                            "type": {
+                                                "kind": 134234252,
+                                                "flags": 2097216,
+                                                "start": 16,
+                                                "end": 20
+                                            },
+                                            "flags": 2097152,
                                             "start": 16,
                                             "end": 20
                                         },
-                                        "flags": 2097152,
-                                        "start": 16,
-                                        "end": 20
-                                    },
-                                    "right": {
-                                        "kind": 201392131,
-                                        "text": "foo",
-                                        "rawText": "'foo'",
-                                        "flags": 4194400,
-                                        "start": 22,
+                                        "right": {
+                                            "kind": 201392131,
+                                            "text": "foo",
+                                            "rawText": "'foo'",
+                                            "flags": 4194400,
+                                            "start": 22,
+                                            "end": 28
+                                        },
+                                        "flags": 32,
+                                        "start": 7,
                                         "end": 28
-                                    },
-                                    "flags": 32,
-                                    "start": 7,
-                                    "end": 28
-                                }
-                            ],
+                                    }
+                                ],
+                                "trailingComma": false,
+                                "flags": 2,
+                                "start": 9,
+                                "end": 29
+                            },
                             "returnType": null,
                             "arrowToken": {
                                 "kind": 10,
@@ -158,7 +165,7 @@ var x = ({ a } : any = 'foo') => {}
 
 ```javascript
 
-var x = ({ a } = "'foo'") =>  {};
+var x = () =>  {};
 ```
 
 ### Diagnostics

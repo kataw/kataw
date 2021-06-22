@@ -31,16 +31,23 @@ delete ((x) => x)
                         "kind": 271,
                         "asyncKeyword": null,
                         "typeParameters": null,
-                        "parameters": [
-                            {
-                                "kind": 134299649,
-                                "text": "x",
-                                "rawText": "x",
-                                "flags": 96,
-                                "start": 9,
-                                "end": 10
-                            }
-                        ],
+                        "arrowPatameterList": {
+                            "kind": 342,
+                            "parameters": [
+                                {
+                                    "kind": 134299649,
+                                    "text": "x",
+                                    "rawText": "x",
+                                    "flags": 96,
+                                    "start": 9,
+                                    "end": 10
+                                }
+                            ],
+                            "trailingComma": false,
+                            "flags": 0,
+                            "start": 9,
+                            "end": 11
+                        },
                         "returnType": null,
                         "arrowToken": {
                             "kind": 10,
@@ -86,7 +93,7 @@ delete ((x) => x)
 
 ```javascript
 
-delete ((x) =>  x);
+delete (() =>  x);
 ```
 
 ### Diagnostics

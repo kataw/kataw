@@ -54,7 +54,7 @@ let y = typeof async x => await x
                                     "end": 20
                                 },
                                 "typeParameters": null,
-                                "parameters": {
+                                "arrowPatameterList": {
                                     "kind": 134299649,
                                     "text": "x",
                                     "rawText": "x",

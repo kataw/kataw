@@ -94,7 +94,7 @@ function* g() { var f = async yield => 1; }
                                                 "end": 29
                                             },
                                             "typeParameters": null,
-                                            "parameters": {
+                                            "arrowPatameterList": {
                                                 "kind": 134299649,
                                                 "text": "yield",
                                                 "rawText": "yield",

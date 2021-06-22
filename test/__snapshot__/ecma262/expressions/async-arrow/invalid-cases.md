@@ -216,7 +216,7 @@ async ([a]:string)=>c;
                     "end": 46
                 },
                 "typeParameters": null,
-                "parameters": {
+                "arrowPatameterList": {
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
@@ -479,7 +479,7 @@ async ([a]:string)=>c;
                     "end": 120
                 },
                 "typeParameters": null,
-                "parameters": {
+                "arrowPatameterList": {
                     "kind": 134299649,
                     "text": "enum",
                     "rawText": "enum",
@@ -564,7 +564,7 @@ async ([a]:string)=>c;
                         "end": 157
                     },
                     "typeParameters": null,
-                    "parameters": [],
+                    "arrowPatameterList": [],
                     "returnType": null,
                     "arrowToken": {
                         "kind": 10,
@@ -609,7 +609,7 @@ async ([a]:string)=>c;
                     "end": 174
                 },
                 "typeParameters": null,
-                "parameters": {
+                "arrowPatameterList": {
                     "kind": 134299649,
                     "text": "async",
                     "rawText": "async",
@@ -746,7 +746,7 @@ async ([a]:string)=>c;
                                     "end": 235
                                 },
                                 "typeParameters": null,
-                                "parameters": [],
+                                "arrowPatameterList": [],
                                 "returnType": null,
                                 "arrowToken": {
                                     "kind": 10,
@@ -811,7 +811,7 @@ async ([a]:string)=>c;
                 "kind": 271,
                 "asyncKeyword": null,
                 "typeParameters": null,
-                "parameters": {
+                "arrowPatameterList": {
                     "kind": 134299649,
                     "text": "foo10",
                     "rawText": "foo10",
@@ -906,7 +906,7 @@ async ([a]:string)=>c;
                 "kind": 271,
                 "asyncKeyword": null,
                 "typeParameters": null,
-                "parameters": {
+                "arrowPatameterList": {
                     "kind": 134299649,
                     "text": "foo30",
                     "rawText": "foo30",
@@ -1007,7 +1007,7 @@ async ([a]:string)=>c;
                 "kind": 271,
                 "asyncKeyword": null,
                 "typeParameters": null,
-                "parameters": {
+                "arrowPatameterList": {
                     "kind": 134299649,
                     "text": "foo16",
                     "rawText": "foo16",
@@ -1480,7 +1480,7 @@ async ([a]:string)=>c;
                 "end": 537
             },
             "typeParameters": null,
-            "parameters": [],
+            "arrowPatameterList": [],
             "returnType": null,
             "arrowToken": {
                 "kind": 10,
@@ -1698,7 +1698,7 @@ async ([a]:string)=>c;
                                         "end": 616
                                     },
                                     "typeParameters": null,
-                                    "parameters": {
+                                    "arrowPatameterList": {
                                         "kind": 134299649,
                                         "text": "await",
                                         "rawText": "await",
@@ -1770,7 +1770,7 @@ async ([a]:string)=>c;
                     "end": 638
                 },
                 "typeParameters": null,
-                "parameters": {
+                "arrowPatameterList": {
                     "kind": 134299649,
                     "text": "await",
                     "rawText": "await",
@@ -1816,7 +1816,7 @@ async ([a]:string)=>c;
                 "end": 658
             },
             "typeParameters": null,
-            "parameters": [
+            "arrowPatameterList": [
                 {
                     "kind": 134299649,
                     "text": "a",
@@ -1874,7 +1874,7 @@ async ([a]:string)=>c;
                 "end": 684
             },
             "typeParameters": null,
-            "parameters": [],
+            "arrowPatameterList": [],
             "returnType": null,
             "arrowToken": {
                 "kind": 10,
@@ -2150,7 +2150,7 @@ async ([a]:string)=>c;
                 "end": 755
             },
             "typeParameters": null,
-            "parameters": [
+            "arrowPatameterList": [
                 {
                     "kind": 281,
                     "ellipsisToken": null,

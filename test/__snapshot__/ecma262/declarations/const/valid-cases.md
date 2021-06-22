@@ -300,7 +300,7 @@ const { async = true } = x;
                                 "end": 97
                             },
                             "typeParameters": null,
-                            "parameters": [
+                            "arrowPatameterList": [
                                 {
                                     "kind": 212,
                                     "propertyList": {
@@ -436,7 +436,7 @@ const { async = true } = x;
                                 "end": 152
                             },
                             "typeParameters": null,
-                            "parameters": [
+                            "arrowPatameterList": [
                                 {
                                     "kind": 212,
                                     "propertyList": {

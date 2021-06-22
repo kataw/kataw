@@ -65,7 +65,7 @@ a ? <T>(b) : c => (d) : e => f;
                     "kind": 271,
                     "asyncKeyword": null,
                     "typeParameters": null,
-                    "parameters": {
+                    "arrowPatameterList": {
                         "kind": 134299649,
                         "text": "c",
                         "rawText": "c",
@@ -84,16 +84,23 @@ a ? <T>(b) : c => (d) : e => f;
                         "kind": 271,
                         "asyncKeyword": null,
                         "typeParameters": null,
-                        "parameters": [
-                            {
-                                "kind": 134299649,
-                                "text": "d",
-                                "rawText": "d",
-                                "flags": 96,
-                                "start": 19,
-                                "end": 20
-                            }
-                        ],
+                        "arrowPatameterList": {
+                            "kind": 342,
+                            "parameters": [
+                                {
+                                    "kind": 134299649,
+                                    "text": "d",
+                                    "rawText": "d",
+                                    "flags": 96,
+                                    "start": 19,
+                                    "end": 20
+                                }
+                            ],
+                            "trailingComma": false,
+                            "flags": 0,
+                            "start": 19,
+                            "end": 25
+                        },
                         "returnType": {
                             "kind": 139,
                             "bitwiseOrToken": null,

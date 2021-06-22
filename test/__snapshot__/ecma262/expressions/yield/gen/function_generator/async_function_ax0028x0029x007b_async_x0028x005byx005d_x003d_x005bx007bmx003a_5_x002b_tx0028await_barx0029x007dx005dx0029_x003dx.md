@@ -144,7 +144,7 @@ function * gen() { function not_gen() { async function a(){     async ([y] = [{m
                                                                 "end": 69
                                                             },
                                                             "typeParameters": null,
-                                                            "parameters": [
+                                                            "arrowPatameterList": [
                                                                 {
                                                                     "kind": 281,
                                                                     "ellipsisToken": null,

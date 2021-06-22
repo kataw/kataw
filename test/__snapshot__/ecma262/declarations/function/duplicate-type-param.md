@@ -134,7 +134,14 @@ function foo<T><T>() {}
                     "start": 15,
                     "end": 18
                 },
-                "parameters": [],
+                "arrowPatameterList": {
+                    "kind": 342,
+                    "parameters": [],
+                    "trailingComma": false,
+                    "flags": 0,
+                    "start": 19,
+                    "end": 19
+                },
                 "returnType": null,
                 "arrowToken": null,
                 "contents": {

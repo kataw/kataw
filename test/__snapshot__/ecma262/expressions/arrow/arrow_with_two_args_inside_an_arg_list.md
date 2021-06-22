@@ -36,24 +36,31 @@ f(((a, b) => a + b));
                                 "kind": 271,
                                 "asyncKeyword": null,
                                 "typeParameters": null,
-                                "parameters": [
-                                    {
-                                        "kind": 134299649,
-                                        "text": "a",
-                                        "rawText": "a",
-                                        "flags": 96,
-                                        "start": 4,
-                                        "end": 5
-                                    },
-                                    {
-                                        "kind": 134299649,
-                                        "text": "b",
-                                        "rawText": "b",
-                                        "flags": 96,
-                                        "start": 6,
-                                        "end": 8
-                                    }
-                                ],
+                                "arrowPatameterList": {
+                                    "kind": 342,
+                                    "parameters": [
+                                        {
+                                            "kind": 134299649,
+                                            "text": "a",
+                                            "rawText": "a",
+                                            "flags": 96,
+                                            "start": 4,
+                                            "end": 5
+                                        },
+                                        {
+                                            "kind": 134299649,
+                                            "text": "b",
+                                            "rawText": "b",
+                                            "flags": 96,
+                                            "start": 6,
+                                            "end": 8
+                                        }
+                                    ],
+                                    "trailingComma": false,
+                                    "flags": 0,
+                                    "start": 4,
+                                    "end": 9
+                                },
                                 "returnType": null,
                                 "arrowToken": {
                                     "kind": 10,
@@ -125,7 +132,7 @@ f(((a, b) => a + b));
 
 ```javascript
 
-f(((a, b) =>  a + b));
+f((() =>  a + b));
 ```
 
 ### Diagnostics

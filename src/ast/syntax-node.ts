@@ -93,6 +93,7 @@ export enum SyntaxKind {
   BindingElementList = 324,
   BindingList = 151,
   ForBinding = 341,
+  ArrowPatameterList = 342,
   BindingProperty = 329,
   BindingPropertyList = 213,
   BitwiseAnd = 134252103,

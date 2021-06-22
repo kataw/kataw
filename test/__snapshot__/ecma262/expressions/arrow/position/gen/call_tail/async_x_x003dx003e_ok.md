@@ -49,7 +49,7 @@ foo(async x => ok).bar
                                     "end": 9
                                 },
                                 "typeParameters": null,
-                                "parameters": {
+                                "arrowPatameterList": {
                                     "kind": 134299649,
                                     "text": "x",
                                     "rawText": "x",

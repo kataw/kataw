@@ -36,7 +36,7 @@ a => a;
                 "kind": 271,
                 "asyncKeyword": null,
                 "typeParameters": null,
-                "parameters": {
+                "arrowPatameterList": {
                     "kind": 134299649,
                     "text": "a",
                     "rawText": "a",

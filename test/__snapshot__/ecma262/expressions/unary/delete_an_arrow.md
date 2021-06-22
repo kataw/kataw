@@ -29,16 +29,23 @@ delete (foo)=>bar
                     "kind": 271,
                     "asyncKeyword": null,
                     "typeParameters": null,
-                    "parameters": [
-                        {
-                            "kind": 134299649,
-                            "text": "foo",
-                            "rawText": "foo",
-                            "flags": 96,
-                            "start": 8,
-                            "end": 11
-                        }
-                    ],
+                    "arrowPatameterList": {
+                        "kind": 342,
+                        "parameters": [
+                            {
+                                "kind": 134299649,
+                                "text": "foo",
+                                "rawText": "foo",
+                                "flags": 96,
+                                "start": 8,
+                                "end": 11
+                            }
+                        ],
+                        "trailingComma": false,
+                        "flags": 0,
+                        "start": 8,
+                        "end": 12
+                    },
                     "returnType": null,
                     "arrowToken": {
                         "kind": 10,
@@ -80,7 +87,7 @@ delete (foo)=>bar
 
 ```javascript
 
-delete (foo) =>  bar;
+delete () =>  bar;
 ```
 
 ### Diagnostics

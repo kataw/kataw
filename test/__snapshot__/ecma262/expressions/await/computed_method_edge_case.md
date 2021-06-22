@@ -99,154 +99,161 @@ async function f(){    async function f(){   (a= {[await foo](){}, "x"(){}} ) =>
                                                 "kind": 271,
                                                 "asyncKeyword": null,
                                                 "typeParameters": null,
-                                                "parameters": [
-                                                    {
-                                                        "kind": 281,
-                                                        "ellipsisToken": null,
-                                                        "left": {
-                                                            "kind": 134299649,
-                                                            "text": "a",
-                                                            "rawText": "a",
-                                                            "flags": 96,
-                                                            "start": 46,
-                                                            "end": 47
-                                                        },
-                                                        "optionalToken": null,
-                                                        "type": null,
-                                                        "right": {
-                                                            "kind": 220,
-                                                            "propertyList": {
-                                                                "kind": 218,
-                                                                "properties": [
-                                                                    {
-                                                                        "kind": 351,
-                                                                        "asyncKeyword": null,
-                                                                        "asteriskToken": null,
-                                                                        "getKeyword": null,
-                                                                        "setKeyword": null,
-                                                                        "method": {
-                                                                            "kind": 209,
-                                                                            "name": {
-                                                                                "kind": 194,
-                                                                                "expression": {
-                                                                                    "kind": 208,
-                                                                                    "awaitKeyword": {
-                                                                                        "kind": 82196,
-                                                                                        "flags": 64,
-                                                                                        "start": 51,
-                                                                                        "end": 56
-                                                                                    },
+                                                "arrowPatameterList": {
+                                                    "kind": 342,
+                                                    "parameters": [
+                                                        {
+                                                            "kind": 281,
+                                                            "ellipsisToken": null,
+                                                            "left": {
+                                                                "kind": 134299649,
+                                                                "text": "a",
+                                                                "rawText": "a",
+                                                                "flags": 96,
+                                                                "start": 46,
+                                                                "end": 47
+                                                            },
+                                                            "optionalToken": null,
+                                                            "type": null,
+                                                            "right": {
+                                                                "kind": 220,
+                                                                "propertyList": {
+                                                                    "kind": 218,
+                                                                    "properties": [
+                                                                        {
+                                                                            "kind": 351,
+                                                                            "asyncKeyword": null,
+                                                                            "asteriskToken": null,
+                                                                            "getKeyword": null,
+                                                                            "setKeyword": null,
+                                                                            "method": {
+                                                                                "kind": 209,
+                                                                                "name": {
+                                                                                    "kind": 194,
                                                                                     "expression": {
-                                                                                        "kind": 134299649,
-                                                                                        "text": "foo",
-                                                                                        "rawText": "foo",
-                                                                                        "flags": 96,
-                                                                                        "start": 56,
+                                                                                        "kind": 208,
+                                                                                        "awaitKeyword": {
+                                                                                            "kind": 82196,
+                                                                                            "flags": 64,
+                                                                                            "start": 51,
+                                                                                            "end": 56
+                                                                                        },
+                                                                                        "expression": {
+                                                                                            "kind": 134299649,
+                                                                                            "text": "foo",
+                                                                                            "rawText": "foo",
+                                                                                            "flags": 96,
+                                                                                            "start": 56,
+                                                                                            "end": 60
+                                                                                        },
+                                                                                        "flags": 32,
+                                                                                        "start": 51,
                                                                                         "end": 60
                                                                                     },
                                                                                     "flags": 32,
-                                                                                    "start": 51,
-                                                                                    "end": 60
+                                                                                    "start": 50,
+                                                                                    "end": 61
                                                                                 },
-                                                                                "flags": 32,
-                                                                                "start": 50,
-                                                                                "end": 61
-                                                                            },
-                                                                            "typeParameters": null,
-                                                                            "formalParameterList": {
-                                                                                "kind": 214,
-                                                                                "formalParameters": [],
-                                                                                "trailingComma": false,
-                                                                                "flags": 32,
-                                                                                "start": 62,
-                                                                                "end": 63
-                                                                            },
-                                                                            "returnType": null,
-                                                                            "contents": {
-                                                                                "kind": 216,
-                                                                                "functionStatementList": {
-                                                                                    "kind": 217,
-                                                                                    "directives": [],
-                                                                                    "statements": [],
+                                                                                "typeParameters": null,
+                                                                                "formalParameterList": {
+                                                                                    "kind": 214,
+                                                                                    "formalParameters": [],
+                                                                                    "trailingComma": false,
                                                                                     "flags": 32,
-                                                                                    "start": 64,
-                                                                                    "end": 64
+                                                                                    "start": 62,
+                                                                                    "end": 63
+                                                                                },
+                                                                                "returnType": null,
+                                                                                "contents": {
+                                                                                    "kind": 216,
+                                                                                    "functionStatementList": {
+                                                                                        "kind": 217,
+                                                                                        "directives": [],
+                                                                                        "statements": [],
+                                                                                        "flags": 32,
+                                                                                        "start": 64,
+                                                                                        "end": 64
+                                                                                    },
+                                                                                    "flags": 32,
+                                                                                    "start": 63,
+                                                                                    "end": 65
                                                                                 },
                                                                                 "flags": 32,
-                                                                                "start": 63,
+                                                                                "start": 61,
                                                                                 "end": 65
                                                                             },
                                                                             "flags": 32,
-                                                                            "start": 61,
+                                                                            "start": 50,
                                                                             "end": 65
                                                                         },
-                                                                        "flags": 32,
-                                                                        "start": 50,
-                                                                        "end": 65
-                                                                    },
-                                                                    {
-                                                                        "kind": 351,
-                                                                        "asyncKeyword": null,
-                                                                        "asteriskToken": null,
-                                                                        "getKeyword": null,
-                                                                        "setKeyword": null,
-                                                                        "method": {
-                                                                            "kind": 209,
-                                                                            "name": {
-                                                                                "kind": 201392131,
-                                                                                "text": "x",
-                                                                                "rawText": "\"x\"",
-                                                                                "flags": 96,
-                                                                                "start": 66,
-                                                                                "end": 70
-                                                                            },
-                                                                            "typeParameters": null,
-                                                                            "formalParameterList": {
-                                                                                "kind": 214,
-                                                                                "formalParameters": [],
-                                                                                "trailingComma": false,
-                                                                                "flags": 32,
-                                                                                "start": 71,
-                                                                                "end": 72
-                                                                            },
-                                                                            "returnType": null,
-                                                                            "contents": {
-                                                                                "kind": 216,
-                                                                                "functionStatementList": {
-                                                                                    "kind": 217,
-                                                                                    "directives": [],
-                                                                                    "statements": [],
+                                                                        {
+                                                                            "kind": 351,
+                                                                            "asyncKeyword": null,
+                                                                            "asteriskToken": null,
+                                                                            "getKeyword": null,
+                                                                            "setKeyword": null,
+                                                                            "method": {
+                                                                                "kind": 209,
+                                                                                "name": {
+                                                                                    "kind": 201392131,
+                                                                                    "text": "x",
+                                                                                    "rawText": "\"x\"",
+                                                                                    "flags": 96,
+                                                                                    "start": 66,
+                                                                                    "end": 70
+                                                                                },
+                                                                                "typeParameters": null,
+                                                                                "formalParameterList": {
+                                                                                    "kind": 214,
+                                                                                    "formalParameters": [],
+                                                                                    "trailingComma": false,
                                                                                     "flags": 32,
-                                                                                    "start": 73,
-                                                                                    "end": 73
+                                                                                    "start": 71,
+                                                                                    "end": 72
+                                                                                },
+                                                                                "returnType": null,
+                                                                                "contents": {
+                                                                                    "kind": 216,
+                                                                                    "functionStatementList": {
+                                                                                        "kind": 217,
+                                                                                        "directives": [],
+                                                                                        "statements": [],
+                                                                                        "flags": 32,
+                                                                                        "start": 73,
+                                                                                        "end": 73
+                                                                                    },
+                                                                                    "flags": 32,
+                                                                                    "start": 72,
+                                                                                    "end": 74
                                                                                 },
                                                                                 "flags": 32,
-                                                                                "start": 72,
+                                                                                "start": 70,
                                                                                 "end": 74
                                                                             },
                                                                             "flags": 32,
-                                                                            "start": 70,
+                                                                            "start": 66,
                                                                             "end": 74
-                                                                        },
-                                                                        "flags": 32,
-                                                                        "start": 66,
-                                                                        "end": 74
-                                                                    }
-                                                                ],
-                                                                "trailingComma": false,
-                                                                "flags": 16,
-                                                                "start": 50,
-                                                                "end": 74
+                                                                        }
+                                                                    ],
+                                                                    "trailingComma": false,
+                                                                    "flags": 16,
+                                                                    "start": 50,
+                                                                    "end": 74
+                                                                },
+                                                                "flags": 48,
+                                                                "start": 48,
+                                                                "end": 75
                                                             },
-                                                            "flags": 48,
-                                                            "start": 48,
+                                                            "flags": 32,
+                                                            "start": 42,
                                                             "end": 75
-                                                        },
-                                                        "flags": 32,
-                                                        "start": 42,
-                                                        "end": 75
-                                                    }
-                                                ],
+                                                        }
+                                                    ],
+                                                    "trailingComma": false,
+                                                    "flags": 2,
+                                                    "start": 46,
+                                                    "end": 77
+                                                },
                                                 "returnType": null,
                                                 "arrowToken": {
                                                     "kind": 10,
@@ -314,7 +321,7 @@ async function f(){    async function f(){   (a= {[await foo](){}, "x"(){}} ) =>
 
 async function f() {
   async function f() {
-    (a = { [await foo]() {}, "\"x\""() {} }) =>  a;
+    () =>  a;
   }
 }
 ```

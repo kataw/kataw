@@ -24,7 +24,7 @@ async (a = 1, b = 2) => x;
                 "end": 5
             },
             "typeParameters": null,
-            "parameters": [
+            "arrowPatameterList": [
                 {
                     "kind": 281,
                     "ellipsisToken": null,

@@ -34,7 +34,7 @@ async => ok async => ok
                     "end": 5
                 },
                 "typeParameters": null,
-                "parameters": {
+                "arrowPatameterList": {
                     "kind": 134299649,
                     "text": "async",
                     "rawText": "async",
@@ -76,7 +76,7 @@ async => ok async => ok
                     "end": 17
                 },
                 "typeParameters": null,
-                "parameters": {
+                "arrowPatameterList": {
                     "kind": 134299649,
                     "text": "async",
                     "rawText": "async",

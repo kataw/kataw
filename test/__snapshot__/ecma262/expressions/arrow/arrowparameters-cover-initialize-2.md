@@ -42,48 +42,55 @@ var af = ({x = 1}) => x;
                             "kind": 271,
                             "asyncKeyword": null,
                             "typeParameters": null,
-                            "parameters": [
-                                {
-                                    "kind": 212,
-                                    "propertyList": {
-                                        "kind": 213,
-                                        "properties": [
-                                            {
-                                                "kind": 281,
-                                                "ellipsisToken": null,
-                                                "left": {
-                                                    "kind": 134299649,
-                                                    "text": "x",
-                                                    "rawText": "x",
-                                                    "flags": 96,
+                            "arrowPatameterList": {
+                                "kind": 342,
+                                "parameters": [
+                                    {
+                                        "kind": 212,
+                                        "propertyList": {
+                                            "kind": 213,
+                                            "properties": [
+                                                {
+                                                    "kind": 281,
+                                                    "ellipsisToken": null,
+                                                    "left": {
+                                                        "kind": 134299649,
+                                                        "text": "x",
+                                                        "rawText": "x",
+                                                        "flags": 96,
+                                                        "start": 11,
+                                                        "end": 12
+                                                    },
+                                                    "optionalToken": null,
+                                                    "type": null,
+                                                    "right": {
+                                                        "kind": 201392130,
+                                                        "text": 1,
+                                                        "rawText": "1",
+                                                        "flags": 96,
+                                                        "start": 14,
+                                                        "end": 16
+                                                    },
+                                                    "flags": 32,
                                                     "start": 11,
-                                                    "end": 12
-                                                },
-                                                "optionalToken": null,
-                                                "type": null,
-                                                "right": {
-                                                    "kind": 201392130,
-                                                    "text": 1,
-                                                    "rawText": "1",
-                                                    "flags": 96,
-                                                    "start": 14,
                                                     "end": 16
-                                                },
-                                                "flags": 32,
-                                                "start": 11,
-                                                "end": 16
-                                            }
-                                        ],
-                                        "trailingComma": false,
-                                        "flags": 32,
-                                        "start": 11,
-                                        "end": 16
-                                    },
-                                    "flags": 48,
-                                    "start": 10,
-                                    "end": 17
-                                }
-                            ],
+                                                }
+                                            ],
+                                            "trailingComma": false,
+                                            "flags": 32,
+                                            "start": 11,
+                                            "end": 16
+                                        },
+                                        "flags": 48,
+                                        "start": 10,
+                                        "end": 17
+                                    }
+                                ],
+                                "trailingComma": false,
+                                "flags": 2,
+                                "start": 10,
+                                "end": 18
+                            },
                             "returnType": null,
                             "arrowToken": {
                                 "kind": 10,
@@ -130,9 +137,7 @@ var af = ({x = 1}) => x;
 
 ```javascript
 
-var af = ({
-  x = 1
-}) =>  x;
+var af = () =>  x;
 ```
 
 ### Diagnostics

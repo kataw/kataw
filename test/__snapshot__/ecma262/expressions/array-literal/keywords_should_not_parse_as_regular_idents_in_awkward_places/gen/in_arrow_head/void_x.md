@@ -29,43 +29,50 @@
                 "kind": 271,
                 "asyncKeyword": null,
                 "typeParameters": null,
-                "parameters": [
-                    {
-                        "kind": 201,
-                        "elementList": {
-                            "kind": 270,
-                            "elements": [
-                                {
-                                    "kind": 126,
-                                    "operandToken": {
-                                        "kind": 138477615,
-                                        "flags": 96,
+                "arrowPatameterList": {
+                    "kind": 342,
+                    "parameters": [
+                        {
+                            "kind": 201,
+                            "elementList": {
+                                "kind": 270,
+                                "elements": [
+                                    {
+                                        "kind": 126,
+                                        "operandToken": {
+                                            "kind": 138477615,
+                                            "flags": 96,
+                                            "start": 2,
+                                            "end": 7
+                                        },
+                                        "operand": {
+                                            "kind": 134299649,
+                                            "text": "x",
+                                            "rawText": "x",
+                                            "flags": 96,
+                                            "start": 7,
+                                            "end": 9
+                                        },
+                                        "flags": 32,
                                         "start": 2,
-                                        "end": 7
-                                    },
-                                    "operand": {
-                                        "kind": 134299649,
-                                        "text": "x",
-                                        "rawText": "x",
-                                        "flags": 96,
-                                        "start": 7,
                                         "end": 9
-                                    },
-                                    "flags": 32,
-                                    "start": 2,
-                                    "end": 9
-                                }
-                            ],
-                            "trailingComma": false,
+                                    }
+                                ],
+                                "trailingComma": false,
+                                "flags": 32,
+                                "start": 2,
+                                "end": 9
+                            },
                             "flags": 32,
-                            "start": 2,
-                            "end": 9
-                        },
-                        "flags": 32,
-                        "start": 1,
-                        "end": 11
-                    }
-                ],
+                            "start": 1,
+                            "end": 11
+                        }
+                    ],
+                    "trailingComma": false,
+                    "flags": 2,
+                    "start": 1,
+                    "end": 12
+                },
                 "returnType": null,
                 "arrowToken": {
                     "kind": 10,

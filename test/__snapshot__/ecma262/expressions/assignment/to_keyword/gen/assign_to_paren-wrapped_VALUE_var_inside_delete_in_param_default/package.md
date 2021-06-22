@@ -29,77 +29,84 @@
                 "kind": 271,
                 "asyncKeyword": null,
                 "typeParameters": null,
-                "parameters": [
-                    {
-                        "kind": 281,
-                        "ellipsisToken": null,
-                        "left": {
-                            "kind": 134299649,
-                            "text": "x",
-                            "rawText": "x",
-                            "flags": 96,
-                            "start": 1,
-                            "end": 2
-                        },
-                        "optionalToken": null,
-                        "type": null,
-                        "right": {
-                            "kind": 126,
-                            "operandToken": {
-                                "kind": 4259886,
+                "arrowPatameterList": {
+                    "kind": 342,
+                    "parameters": [
+                        {
+                            "kind": 281,
+                            "ellipsisToken": null,
+                            "left": {
+                                "kind": 134299649,
+                                "text": "x",
+                                "rawText": "x",
                                 "flags": 96,
-                                "start": 4,
-                                "end": 11
+                                "start": 1,
+                                "end": 2
                             },
-                            "operand": {
-                                "kind": 121,
-                                "expression": {
-                                    "kind": 125,
-                                    "left": {
-                                        "kind": 121,
-                                        "expression": {
-                                            "kind": 134299649,
-                                            "text": "package",
-                                            "rawText": "package",
+                            "optionalToken": null,
+                            "type": null,
+                            "right": {
+                                "kind": 126,
+                                "operandToken": {
+                                    "kind": 4259886,
+                                    "flags": 96,
+                                    "start": 4,
+                                    "end": 11
+                                },
+                                "operand": {
+                                    "kind": 121,
+                                    "expression": {
+                                        "kind": 125,
+                                        "left": {
+                                            "kind": 121,
+                                            "expression": {
+                                                "kind": 134299649,
+                                                "text": "package",
+                                                "rawText": "package",
+                                                "flags": 96,
+                                                "start": 14,
+                                                "end": 21
+                                            },
+                                            "flags": 32,
+                                            "start": 13,
+                                            "end": 22
+                                        },
+                                        "operatorToken": {
+                                            "kind": 4125,
                                             "flags": 96,
-                                            "start": 14,
-                                            "end": 21
+                                            "start": 22,
+                                            "end": 24
+                                        },
+                                        "right": {
+                                            "kind": 134299649,
+                                            "text": "f",
+                                            "rawText": "f",
+                                            "flags": 96,
+                                            "start": 24,
+                                            "end": 26
                                         },
                                         "flags": 32,
                                         "start": 13,
-                                        "end": 22
-                                    },
-                                    "operatorToken": {
-                                        "kind": 4125,
-                                        "flags": 96,
-                                        "start": 22,
-                                        "end": 24
-                                    },
-                                    "right": {
-                                        "kind": 134299649,
-                                        "text": "f",
-                                        "rawText": "f",
-                                        "flags": 96,
-                                        "start": 24,
                                         "end": 26
                                     },
                                     "flags": 32,
-                                    "start": 13,
-                                    "end": 26
+                                    "start": 11,
+                                    "end": 27
                                 },
                                 "flags": 32,
-                                "start": 11,
+                                "start": 4,
                                 "end": 27
                             },
                             "flags": 32,
-                            "start": 4,
+                            "start": 0,
                             "end": 27
-                        },
-                        "flags": 32,
-                        "start": 0,
-                        "end": 27
-                    }
-                ],
+                        }
+                    ],
+                    "trailingComma": false,
+                    "flags": 2,
+                    "start": 1,
+                    "end": 28
+                },
                 "returnType": null,
                 "arrowToken": {
                     "kind": 10,
@@ -143,7 +150,7 @@
 
 ```javascript
 
-(x = delete ((package) = f)) =>  {};
+() =>  {};
 ```
 
 ### Diagnostics

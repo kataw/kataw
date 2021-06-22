@@ -76,7 +76,7 @@ async <T, U>(x)=>y
                 "start": 0,
                 "end": 12
             },
-            "parameters": [
+            "arrowPatameterList": [
                 {
                     "kind": 134299649,
                     "text": "x",

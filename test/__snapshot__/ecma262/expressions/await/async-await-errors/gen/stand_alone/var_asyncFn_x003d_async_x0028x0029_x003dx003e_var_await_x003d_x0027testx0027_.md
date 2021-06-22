@@ -55,7 +55,7 @@ var asyncFn = async () => var await = 'test';
                                 "end": 19
                             },
                             "typeParameters": null,
-                            "parameters": [],
+                            "arrowPatameterList": [],
                             "returnType": null,
                             "arrowToken": {
                                 "kind": 10,

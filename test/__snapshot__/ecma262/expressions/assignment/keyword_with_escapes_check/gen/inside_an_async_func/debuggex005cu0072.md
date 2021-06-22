@@ -32,7 +32,7 @@ async () => {  debugge\u0072 = x  }
                 "end": 5
             },
             "typeParameters": null,
-            "parameters": [],
+            "arrowPatameterList": [],
             "returnType": null,
             "arrowToken": {
                 "kind": 10,

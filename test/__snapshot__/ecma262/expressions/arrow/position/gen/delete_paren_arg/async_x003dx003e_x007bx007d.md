@@ -44,7 +44,7 @@ delete (async => {})
                             "end": 13
                         },
                         "typeParameters": null,
-                        "parameters": {
+                        "arrowPatameterList": {
                             "kind": 134299649,
                             "text": "async",
                             "rawText": "async",

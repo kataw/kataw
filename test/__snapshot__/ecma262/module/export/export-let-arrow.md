@@ -60,7 +60,7 @@ export let foo = async () => this
                                     "end": 22
                                 },
                                 "typeParameters": null,
-                                "parameters": [],
+                                "arrowPatameterList": [],
                                 "returnType": null,
                                 "arrowToken": {
                                     "kind": 10,

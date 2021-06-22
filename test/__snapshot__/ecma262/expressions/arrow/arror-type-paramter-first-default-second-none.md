@@ -97,16 +97,23 @@
                     "start": 0,
                     "end": 8
                 },
-                "parameters": [
-                    {
-                        "kind": 134299649,
-                        "text": "x",
-                        "rawText": "x",
-                        "flags": 96,
-                        "start": 9,
-                        "end": 10
-                    }
-                ],
+                "arrowPatameterList": {
+                    "kind": 342,
+                    "parameters": [
+                        {
+                            "kind": 134299649,
+                            "text": "x",
+                            "rawText": "x",
+                            "flags": 96,
+                            "start": 9,
+                            "end": 10
+                        }
+                    ],
+                    "trailingComma": false,
+                    "flags": 0,
+                    "start": 9,
+                    "end": 11
+                },
                 "returnType": null,
                 "arrowToken": {
                     "kind": 10,

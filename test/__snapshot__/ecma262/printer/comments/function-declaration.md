@@ -257,16 +257,23 @@ function foo4() {
                             "kind": 271,
                             "asyncKeyword": null,
                             "typeParameters": null,
-                            "parameters": [
-                                {
-                                    "kind": 134299649,
-                                    "text": "row",
-                                    "rawText": "row",
-                                    "flags": 96,
-                                    "start": 130,
-                                    "end": 144
-                                }
-                            ],
+                            "arrowPatameterList": {
+                                "kind": 342,
+                                "parameters": [
+                                    {
+                                        "kind": 134299649,
+                                        "text": "row",
+                                        "rawText": "row",
+                                        "flags": 96,
+                                        "start": 130,
+                                        "end": 144
+                                    }
+                                ],
+                                "trailingComma": false,
+                                "flags": 0,
+                                "start": 130,
+                                "end": 145
+                            },
                             "returnType": null,
                             "arrowToken": {
                                 "kind": 10,
@@ -1840,7 +1847,7 @@ function b() {} // comment
 
 function c() {} // comment
 
-call((/*object*/ row) =>  {});
+call(() =>  {});
 function f1 /* f */() {}
 function f2() {}
 function f3() /* returns */ {}

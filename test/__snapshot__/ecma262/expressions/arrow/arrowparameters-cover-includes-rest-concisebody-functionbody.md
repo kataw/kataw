@@ -42,39 +42,46 @@ var af = (x, ...y) => { return [x, y.length]; };
                             "kind": 271,
                             "asyncKeyword": null,
                             "typeParameters": null,
-                            "parameters": [
-                                {
-                                    "kind": 134299649,
-                                    "text": "x",
-                                    "rawText": "x",
-                                    "flags": 96,
-                                    "start": 10,
-                                    "end": 11
-                                },
-                                {
-                                    "kind": 281,
-                                    "ellipsisToken": {
-                                        "kind": 524302,
-                                        "flags": 64,
-                                        "start": 12,
-                                        "end": 16
-                                    },
-                                    "left": {
+                            "arrowPatameterList": {
+                                "kind": 342,
+                                "parameters": [
+                                    {
                                         "kind": 134299649,
-                                        "text": "y",
-                                        "rawText": "y",
+                                        "text": "x",
+                                        "rawText": "x",
                                         "flags": 96,
-                                        "start": 16,
-                                        "end": 17
+                                        "start": 10,
+                                        "end": 11
                                     },
-                                    "optionalToken": null,
-                                    "type": null,
-                                    "right": null,
-                                    "flags": 34,
-                                    "start": 12,
-                                    "end": 17
-                                }
-                            ],
+                                    {
+                                        "kind": 281,
+                                        "ellipsisToken": {
+                                            "kind": 524302,
+                                            "flags": 64,
+                                            "start": 12,
+                                            "end": 16
+                                        },
+                                        "left": {
+                                            "kind": 134299649,
+                                            "text": "y",
+                                            "rawText": "y",
+                                            "flags": 96,
+                                            "start": 16,
+                                            "end": 17
+                                        },
+                                        "optionalToken": null,
+                                        "type": null,
+                                        "right": null,
+                                        "flags": 34,
+                                        "start": 12,
+                                        "end": 17
+                                    }
+                                ],
+                                "trailingComma": false,
+                                "flags": 0,
+                                "start": 10,
+                                "end": 18
+                            },
                             "returnType": null,
                             "arrowToken": {
                                 "kind": 10,
@@ -185,7 +192,7 @@ var af = (x, ...y) => { return [x, y.length]; };
 
 ```javascript
 
-var af = (x, ...y) =>  {
+var af = () =>  {
   return  [x, y.length];
 };
 ```

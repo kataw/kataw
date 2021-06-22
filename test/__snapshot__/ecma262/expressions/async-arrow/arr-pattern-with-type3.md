@@ -32,7 +32,7 @@
                 "end": 6
             },
             "typeParameters": null,
-            "parameters": [
+            "arrowPatameterList": [
                 {
                     "kind": 201,
                     "elementList": {

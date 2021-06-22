@@ -34,7 +34,7 @@ delete async () => 3;
                         "end": 12
                     },
                     "typeParameters": null,
-                    "parameters": [],
+                    "arrowPatameterList": [],
                     "returnType": null,
                     "arrowToken": {
                         "kind": 10,

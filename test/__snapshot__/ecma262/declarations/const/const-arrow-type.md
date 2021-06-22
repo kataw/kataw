@@ -54,7 +54,7 @@ const fn = async (a?: any): Promise<void> => {};
                                 "end": 16
                             },
                             "typeParameters": null,
-                            "parameters": [
+                            "arrowPatameterList": [
                                 {
                                     "kind": 281,
                                     "ellipsisToken": null,

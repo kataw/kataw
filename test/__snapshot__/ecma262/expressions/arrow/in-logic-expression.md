@@ -26,7 +26,14 @@
                         "kind": 271,
                         "asyncKeyword": null,
                         "typeParameters": null,
-                        "parameters": [],
+                        "arrowPatameterList": {
+                            "kind": 342,
+                            "parameters": [],
+                            "trailingComma": false,
+                            "flags": 0,
+                            "start": 2,
+                            "end": 2
+                        },
                         "returnType": null,
                         "arrowToken": {
                             "kind": 10,
@@ -86,7 +93,14 @@
                         "kind": 271,
                         "asyncKeyword": null,
                         "typeParameters": null,
-                        "parameters": [],
+                        "arrowPatameterList": {
+                            "kind": 342,
+                            "parameters": [],
+                            "trailingComma": false,
+                            "flags": 0,
+                            "start": 22,
+                            "end": 22
+                        },
                         "returnType": null,
                         "arrowToken": {
                             "kind": 10,

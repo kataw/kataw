@@ -24,7 +24,7 @@ async ([...x.y]) => z
                 "end": 5
             },
             "typeParameters": null,
-            "parameters": [
+            "arrowPatameterList": [
                 {
                     "kind": 201,
                     "elementList": {

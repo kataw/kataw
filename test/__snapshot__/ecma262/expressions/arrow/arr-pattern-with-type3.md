@@ -29,62 +29,69 @@
                 "kind": 271,
                 "asyncKeyword": null,
                 "typeParameters": null,
-                "parameters": [
-                    {
-                        "kind": 201,
-                        "elementList": {
-                            "kind": 270,
-                            "elements": [
-                                {
-                                    "kind": 281,
-                                    "ellipsisToken": null,
-                                    "left": {
-                                        "kind": 134299649,
-                                        "text": "y",
-                                        "rawText": "y",
-                                        "flags": 96,
-                                        "start": 5,
-                                        "end": 7
-                                    },
-                                    "optionalToken": null,
-                                    "type": {
-                                        "kind": 139,
-                                        "bitwiseOrToken": null,
-                                        "bitwiseAndToken": null,
+                "arrowPatameterList": {
+                    "kind": 342,
+                    "parameters": [
+                        {
+                            "kind": 201,
+                            "elementList": {
+                                "kind": 270,
+                                "elements": [
+                                    {
+                                        "kind": 281,
+                                        "ellipsisToken": null,
+                                        "left": {
+                                            "kind": 134299649,
+                                            "text": "y",
+                                            "rawText": "y",
+                                            "flags": 96,
+                                            "start": 5,
+                                            "end": 7
+                                        },
+                                        "optionalToken": null,
                                         "type": {
-                                            "kind": 134234345,
-                                            "flags": 2097216,
+                                            "kind": 139,
+                                            "bitwiseOrToken": null,
+                                            "bitwiseAndToken": null,
+                                            "type": {
+                                                "kind": 134234345,
+                                                "flags": 2097216,
+                                                "start": 8,
+                                                "end": 15
+                                            },
+                                            "flags": 2097152,
                                             "start": 8,
                                             "end": 15
                                         },
-                                        "flags": 2097152,
-                                        "start": 8,
+                                        "right": null,
+                                        "flags": 32,
+                                        "start": 5,
                                         "end": 15
                                     },
-                                    "right": null,
-                                    "flags": 32,
-                                    "start": 5,
-                                    "end": 15
-                                },
-                                {
-                                    "kind": 134299649,
-                                    "text": "x",
-                                    "rawText": "x",
-                                    "flags": 96,
-                                    "start": 3,
-                                    "end": 4
-                                }
-                            ],
-                            "trailingComma": false,
+                                    {
+                                        "kind": 134299649,
+                                        "text": "x",
+                                        "rawText": "x",
+                                        "flags": 96,
+                                        "start": 3,
+                                        "end": 4
+                                    }
+                                ],
+                                "trailingComma": false,
+                                "flags": 32,
+                                "start": 3,
+                                "end": 15
+                            },
                             "flags": 32,
-                            "start": 3,
-                            "end": 15
-                        },
-                        "flags": 32,
-                        "start": 2,
-                        "end": 16
-                    }
-                ],
+                            "start": 2,
+                            "end": 16
+                        }
+                    ],
+                    "trailingComma": false,
+                    "flags": 2,
+                    "start": 2,
+                    "end": 17
+                },
                 "returnType": null,
                 "arrowToken": {
                     "kind": 10,
@@ -128,7 +135,7 @@
 
 ```javascript
 
-([, x]) =>  {};
+() =>  {};
 ```
 
 ### Diagnostics

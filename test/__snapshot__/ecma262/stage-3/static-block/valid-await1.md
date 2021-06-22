@@ -68,7 +68,14 @@ class C {
                                                     "kind": 271,
                                                     "asyncKeyword": null,
                                                     "typeParameters": null,
-                                                    "parameters": [],
+                                                    "arrowPatameterList": {
+                                                        "kind": 342,
+                                                        "parameters": [],
+                                                        "trailingComma": false,
+                                                        "flags": 0,
+                                                        "start": 27,
+                                                        "end": 27
+                                                    },
                                                     "returnType": null,
                                                     "arrowToken": {
                                                         "kind": 10,

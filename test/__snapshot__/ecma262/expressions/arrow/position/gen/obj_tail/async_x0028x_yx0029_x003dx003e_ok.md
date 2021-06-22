@@ -68,7 +68,7 @@ x = {arrow: async (x, y) => ok}.y
                                             "end": 17
                                         },
                                         "typeParameters": null,
-                                        "parameters": [
+                                        "arrowPatameterList": [
                                             {
                                                 "kind": 134299649,
                                                 "text": "x",

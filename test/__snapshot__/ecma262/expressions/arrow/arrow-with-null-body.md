@@ -29,16 +29,23 @@
                 "kind": 271,
                 "asyncKeyword": null,
                 "typeParameters": null,
-                "parameters": [
-                    {
-                        "kind": 134299649,
-                        "text": "a",
-                        "rawText": "a",
-                        "flags": 96,
-                        "start": 1,
-                        "end": 2
-                    }
-                ],
+                "arrowPatameterList": {
+                    "kind": 342,
+                    "parameters": [
+                        {
+                            "kind": 134299649,
+                            "text": "a",
+                            "rawText": "a",
+                            "flags": 96,
+                            "start": 1,
+                            "end": 2
+                        }
+                    ],
+                    "trailingComma": false,
+                    "flags": 0,
+                    "start": 1,
+                    "end": 3
+                },
                 "returnType": null,
                 "arrowToken": {
                     "kind": 10,
@@ -76,7 +83,7 @@
 
 ```javascript
 
-(a) =>  00;
+() =>  00;
 ```
 
 ### Diagnostics

@@ -34,31 +34,38 @@
                             "kind": 271,
                             "asyncKeyword": null,
                             "typeParameters": null,
-                            "parameters": [
-                                {
-                                    "kind": 212,
-                                    "propertyList": {
-                                        "kind": 213,
-                                        "properties": [
-                                            {
-                                                "kind": 134299649,
-                                                "text": "interface",
-                                                "rawText": "interface",
-                                                "flags": 96,
-                                                "start": 4,
-                                                "end": 13
-                                            }
-                                        ],
-                                        "trailingComma": false,
-                                        "flags": 32,
-                                        "start": 4,
-                                        "end": 13
-                                    },
-                                    "flags": 48,
-                                    "start": 3,
-                                    "end": 14
-                                }
-                            ],
+                            "arrowPatameterList": {
+                                "kind": 342,
+                                "parameters": [
+                                    {
+                                        "kind": 212,
+                                        "propertyList": {
+                                            "kind": 213,
+                                            "properties": [
+                                                {
+                                                    "kind": 134299649,
+                                                    "text": "interface",
+                                                    "rawText": "interface",
+                                                    "flags": 96,
+                                                    "start": 4,
+                                                    "end": 13
+                                                }
+                                            ],
+                                            "trailingComma": false,
+                                            "flags": 32,
+                                            "start": 4,
+                                            "end": 13
+                                        },
+                                        "flags": 48,
+                                        "start": 3,
+                                        "end": 14
+                                    }
+                                ],
+                                "trailingComma": false,
+                                "flags": 2,
+                                "start": 3,
+                                "end": 15
+                            },
                             "returnType": null,
                             "arrowToken": {
                                 "kind": 10,
@@ -104,9 +111,7 @@
 ```javascript
 
 {
-  ({
-    interface
-  }) =>  null;
+  () =>  null;
 }
 ```
 

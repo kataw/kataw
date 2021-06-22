@@ -41,36 +41,43 @@ const f = (...x?) => {}
                             "kind": 271,
                             "asyncKeyword": null,
                             "typeParameters": null,
-                            "parameters": [
-                                {
-                                    "kind": 281,
-                                    "ellipsisToken": {
-                                        "kind": 524302,
-                                        "flags": 64,
+                            "arrowPatameterList": {
+                                "kind": 342,
+                                "parameters": [
+                                    {
+                                        "kind": 281,
+                                        "ellipsisToken": {
+                                            "kind": 524302,
+                                            "flags": 64,
+                                            "start": 11,
+                                            "end": 14
+                                        },
+                                        "left": {
+                                            "kind": 134299649,
+                                            "text": "x",
+                                            "rawText": "x",
+                                            "flags": 96,
+                                            "start": 14,
+                                            "end": 15
+                                        },
+                                        "optionalToken": {
+                                            "kind": 134217750,
+                                            "flags": 64,
+                                            "start": 15,
+                                            "end": 16
+                                        },
+                                        "type": null,
+                                        "right": null,
+                                        "flags": 34,
                                         "start": 11,
-                                        "end": 14
-                                    },
-                                    "left": {
-                                        "kind": 134299649,
-                                        "text": "x",
-                                        "rawText": "x",
-                                        "flags": 96,
-                                        "start": 14,
-                                        "end": 15
-                                    },
-                                    "optionalToken": {
-                                        "kind": 134217750,
-                                        "flags": 64,
-                                        "start": 15,
                                         "end": 16
-                                    },
-                                    "type": null,
-                                    "right": null,
-                                    "flags": 34,
-                                    "start": 11,
-                                    "end": 16
-                                }
-                            ],
+                                    }
+                                ],
+                                "trailingComma": false,
+                                "flags": 0,
+                                "start": 11,
+                                "end": 17
+                            },
                             "returnType": null,
                             "arrowToken": {
                                 "kind": 10,
@@ -123,7 +130,7 @@ const f = (...x?) => {}
 
 ```javascript
 
-const f = (...x?) =>  {};
+const f = () =>  {};
 ```
 
 ### Diagnostics

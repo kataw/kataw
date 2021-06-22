@@ -48,7 +48,7 @@ async (...[x]?: string, a?) => {};
                 "end": 5
             },
             "typeParameters": null,
-            "parameters": [
+            "arrowPatameterList": [
                 {
                     "kind": 281,
                     "ellipsisToken": null,
@@ -126,7 +126,7 @@ async (...[x]?: string, a?) => {};
                 "end": 32
             },
             "typeParameters": null,
-            "parameters": [
+            "arrowPatameterList": [
                 {
                     "kind": 281,
                     "ellipsisToken": null,
@@ -222,7 +222,7 @@ async (...[x]?: string, a?) => {};
                 "end": 63
             },
             "typeParameters": null,
-            "parameters": [
+            "arrowPatameterList": [
                 {
                     "kind": 281,
                     "ellipsisToken": null,
@@ -318,7 +318,7 @@ async (...[x]?: string, a?) => {};
                 "end": 94
             },
             "typeParameters": null,
-            "parameters": [
+            "arrowPatameterList": [
                 {
                     "kind": 281,
                     "ellipsisToken": null,
@@ -437,7 +437,7 @@ async (...[x]?: string, a?) => {};
                 "end": 133
             },
             "typeParameters": null,
-            "parameters": [
+            "arrowPatameterList": [
                 {
                     "kind": 281,
                     "ellipsisToken": null,
@@ -538,7 +538,7 @@ async (...[x]?: string, a?) => {};
                 "end": 165
             },
             "typeParameters": null,
-            "parameters": [
+            "arrowPatameterList": [
                 {
                     "kind": 281,
                     "ellipsisToken": null,
@@ -654,7 +654,7 @@ async (...[x]?: string, a?) => {};
                 "end": 198
             },
             "typeParameters": null,
-            "parameters": [
+            "arrowPatameterList": [
                 {
                     "kind": 281,
                     "ellipsisToken": {
@@ -711,7 +711,7 @@ async (...[x]?: string, a?) => {};
                 "end": 227
             },
             "typeParameters": null,
-            "parameters": [
+            "arrowPatameterList": [
                 {
                     "kind": 281,
                     "ellipsisToken": {

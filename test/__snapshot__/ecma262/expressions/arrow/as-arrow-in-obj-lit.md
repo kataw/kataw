@@ -55,16 +55,23 @@ x = {arrow: (x, y) => ok};
                                     "kind": 271,
                                     "asyncKeyword": null,
                                     "typeParameters": null,
-                                    "parameters": [
-                                        {
-                                            "kind": 134299649,
-                                            "text": "x",
-                                            "rawText": "x",
-                                            "flags": 96,
-                                            "start": 13,
-                                            "end": 14
-                                        }
-                                    ],
+                                    "arrowPatameterList": {
+                                        "kind": 342,
+                                        "parameters": [
+                                            {
+                                                "kind": 134299649,
+                                                "text": "x",
+                                                "rawText": "x",
+                                                "flags": 96,
+                                                "start": 13,
+                                                "end": 14
+                                            }
+                                        ],
+                                        "trailingComma": false,
+                                        "flags": 0,
+                                        "start": 13,
+                                        "end": 15
+                                    },
                                     "returnType": null,
                                     "arrowToken": {
                                         "kind": 10,
@@ -144,24 +151,31 @@ x = {arrow: (x, y) => ok};
                                     "kind": 271,
                                     "asyncKeyword": null,
                                     "typeParameters": null,
-                                    "parameters": [
-                                        {
-                                            "kind": 134299649,
-                                            "text": "x",
-                                            "rawText": "x",
-                                            "flags": 96,
-                                            "start": 38,
-                                            "end": 39
-                                        },
-                                        {
-                                            "kind": 134299649,
-                                            "text": "y",
-                                            "rawText": "y",
-                                            "flags": 96,
-                                            "start": 40,
-                                            "end": 42
-                                        }
-                                    ],
+                                    "arrowPatameterList": {
+                                        "kind": 342,
+                                        "parameters": [
+                                            {
+                                                "kind": 134299649,
+                                                "text": "x",
+                                                "rawText": "x",
+                                                "flags": 96,
+                                                "start": 38,
+                                                "end": 39
+                                            },
+                                            {
+                                                "kind": 134299649,
+                                                "text": "y",
+                                                "rawText": "y",
+                                                "flags": 96,
+                                                "start": 40,
+                                                "end": 42
+                                            }
+                                        ],
+                                        "trailingComma": false,
+                                        "flags": 0,
+                                        "start": 38,
+                                        "end": 43
+                                    },
                                     "returnType": null,
                                     "arrowToken": {
                                         "kind": 10,
@@ -217,8 +231,8 @@ x = {arrow: (x, y) => ok};
 
 ```javascript
 
-x = { arrow: (x) =>  ok };
-x = { arrow: (x, y) =>  ok };
+x = { arrow: () =>  ok };
+x = { arrow: () =>  ok };
 ```
 
 ### Diagnostics

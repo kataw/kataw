@@ -60,98 +60,105 @@ function *g() { (x = x + foo(a, yield y)) => x; }
                                 "kind": 271,
                                 "asyncKeyword": null,
                                 "typeParameters": null,
-                                "parameters": [
-                                    {
-                                        "kind": 281,
-                                        "ellipsisToken": null,
-                                        "left": {
-                                            "kind": 134299649,
-                                            "text": "x",
-                                            "rawText": "x",
-                                            "flags": 96,
-                                            "start": 17,
-                                            "end": 18
-                                        },
-                                        "optionalToken": null,
-                                        "type": null,
-                                        "right": {
-                                            "kind": 198,
+                                "arrowPatameterList": {
+                                    "kind": 342,
+                                    "parameters": [
+                                        {
+                                            "kind": 281,
+                                            "ellipsisToken": null,
                                             "left": {
                                                 "kind": 134299649,
                                                 "text": "x",
                                                 "rawText": "x",
                                                 "flags": 96,
-                                                "start": 20,
-                                                "end": 22
+                                                "start": 17,
+                                                "end": 18
                                             },
-                                            "operatorToken": {
-                                                "kind": 99634,
-                                                "flags": 96,
-                                                "start": 22,
-                                                "end": 24
-                                            },
+                                            "optionalToken": null,
+                                            "type": null,
                                             "right": {
-                                                "kind": 131,
-                                                "expression": {
+                                                "kind": 198,
+                                                "left": {
                                                     "kind": 134299649,
-                                                    "text": "foo",
-                                                    "rawText": "foo",
+                                                    "text": "x",
+                                                    "rawText": "x",
                                                     "flags": 96,
-                                                    "start": 24,
-                                                    "end": 28
+                                                    "start": 20,
+                                                    "end": 22
                                                 },
-                                                "argumentList": {
-                                                    "kind": 256,
-                                                    "elements": [
-                                                        {
-                                                            "kind": 134299649,
-                                                            "text": "a",
-                                                            "rawText": "a",
-                                                            "flags": 96,
-                                                            "start": 29,
-                                                            "end": 30
-                                                        },
-                                                        {
-                                                            "kind": 229,
-                                                            "yieldKeyword": {
-                                                                "kind": 8454253,
-                                                                "flags": 64,
-                                                                "start": 31,
-                                                                "end": 37
-                                                            },
-                                                            "delegate": false,
-                                                            "asteriskToken": null,
-                                                            "expression": {
+                                                "operatorToken": {
+                                                    "kind": 99634,
+                                                    "flags": 96,
+                                                    "start": 22,
+                                                    "end": 24
+                                                },
+                                                "right": {
+                                                    "kind": 131,
+                                                    "expression": {
+                                                        "kind": 134299649,
+                                                        "text": "foo",
+                                                        "rawText": "foo",
+                                                        "flags": 96,
+                                                        "start": 24,
+                                                        "end": 28
+                                                    },
+                                                    "argumentList": {
+                                                        "kind": 256,
+                                                        "elements": [
+                                                            {
                                                                 "kind": 134299649,
-                                                                "text": "y",
-                                                                "rawText": "y",
+                                                                "text": "a",
+                                                                "rawText": "a",
                                                                 "flags": 96,
-                                                                "start": 37,
-                                                                "end": 39
+                                                                "start": 29,
+                                                                "end": 30
                                                             },
-                                                            "flags": 32,
-                                                            "start": 31,
-                                                            "end": 39
-                                                        }
-                                                    ],
-                                                    "trailingComma": false,
-                                                    "flags": 32,
-                                                    "start": 29,
-                                                    "end": 39
+                                                            {
+                                                                "kind": 229,
+                                                                "yieldKeyword": {
+                                                                    "kind": 8454253,
+                                                                    "flags": 64,
+                                                                    "start": 31,
+                                                                    "end": 37
+                                                                },
+                                                                "delegate": false,
+                                                                "asteriskToken": null,
+                                                                "expression": {
+                                                                    "kind": 134299649,
+                                                                    "text": "y",
+                                                                    "rawText": "y",
+                                                                    "flags": 96,
+                                                                    "start": 37,
+                                                                    "end": 39
+                                                                },
+                                                                "flags": 32,
+                                                                "start": 31,
+                                                                "end": 39
+                                                            }
+                                                        ],
+                                                        "trailingComma": false,
+                                                        "flags": 32,
+                                                        "start": 29,
+                                                        "end": 39
+                                                    },
+                                                    "flags": 268435488,
+                                                    "start": 24,
+                                                    "end": 40
                                                 },
-                                                "flags": 268435488,
-                                                "start": 24,
+                                                "flags": 32,
+                                                "start": 20,
                                                 "end": 40
                                             },
                                             "flags": 32,
-                                            "start": 20,
+                                            "start": 15,
                                             "end": 40
-                                        },
-                                        "flags": 32,
-                                        "start": 15,
-                                        "end": 40
-                                    }
-                                ],
+                                        }
+                                    ],
+                                    "trailingComma": false,
+                                    "flags": 2,
+                                    "start": 17,
+                                    "end": 41
+                                },
                                 "returnType": null,
                                 "arrowToken": {
                                     "kind": 10,
@@ -204,7 +211,7 @@ function *g() { (x = x + foo(a, yield y)) => x; }
 ```javascript
 
 function * g() {
-  (x = x + foo(a, yield y)) =>  x;
+  () =>  x;
 }
 ```
 

@@ -45,7 +45,7 @@
                     "kind": 271,
                     "asyncKeyword": null,
                     "typeParameters": null,
-                    "parameters": {
+                    "arrowPatameterList": {
                         "kind": 134299649,
                         "text": "x",
                         "rawText": "x",
@@ -108,7 +108,14 @@
                     "kind": 271,
                     "asyncKeyword": null,
                     "typeParameters": null,
-                    "parameters": [],
+                    "arrowPatameterList": {
+                        "kind": 342,
+                        "parameters": [],
+                        "trailingComma": false,
+                        "flags": 0,
+                        "start": 18,
+                        "end": 18
+                    },
                     "returnType": null,
                     "arrowToken": {
                         "kind": 10,
@@ -164,16 +171,23 @@
                     "kind": 271,
                     "asyncKeyword": null,
                     "typeParameters": null,
-                    "parameters": [
-                        {
-                            "kind": 134299649,
-                            "text": "x",
-                            "rawText": "x",
-                            "flags": 96,
-                            "start": 32,
-                            "end": 33
-                        }
-                    ],
+                    "arrowPatameterList": {
+                        "kind": 342,
+                        "parameters": [
+                            {
+                                "kind": 134299649,
+                                "text": "x",
+                                "rawText": "x",
+                                "flags": 96,
+                                "start": 32,
+                                "end": 33
+                            }
+                        ],
+                        "trailingComma": false,
+                        "flags": 0,
+                        "start": 32,
+                        "end": 34
+                    },
                     "returnType": null,
                     "arrowToken": {
                         "kind": 10,
@@ -234,7 +248,7 @@
                         "end": 51
                     },
                     "typeParameters": null,
-                    "parameters": {
+                    "arrowPatameterList": {
                         "kind": 134299649,
                         "text": "x",
                         "rawText": "x",
@@ -302,7 +316,7 @@
                         "end": 70
                     },
                     "typeParameters": null,
-                    "parameters": [
+                    "arrowPatameterList": [
                         {
                             "kind": 134299649,
                             "text": "x",

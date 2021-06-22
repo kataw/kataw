@@ -52,16 +52,23 @@ var f = (): (number) => 123;
                             "kind": 271,
                             "asyncKeyword": null,
                             "typeParameters": null,
-                            "parameters": [
-                                {
-                                    "kind": 134299649,
-                                    "text": "x",
-                                    "rawText": "x",
-                                    "flags": 96,
-                                    "start": 9,
-                                    "end": 10
-                                }
-                            ],
+                            "arrowPatameterList": {
+                                "kind": 342,
+                                "parameters": [
+                                    {
+                                        "kind": 134299649,
+                                        "text": "x",
+                                        "rawText": "x",
+                                        "flags": 96,
+                                        "start": 9,
+                                        "end": 10
+                                    }
+                                ],
+                                "trailingComma": false,
+                                "flags": 0,
+                                "start": 9,
+                                "end": 20
+                            },
                             "returnType": {
                                 "kind": 139,
                                 "bitwiseOrToken": {
@@ -155,7 +162,14 @@ var f = (): (number) => 123;
                             "kind": 271,
                             "asyncKeyword": null,
                             "typeParameters": null,
-                            "parameters": [],
+                            "arrowPatameterList": {
+                                "kind": 342,
+                                "parameters": [],
+                                "trailingComma": false,
+                                "flags": 0,
+                                "start": 37,
+                                "end": 37
+                            },
                             "returnType": {
                                 "kind": 139,
                                 "bitwiseOrToken": null,
@@ -221,7 +235,7 @@ var f = (): (number) => 123;
 
 ```javascript
 
-var f = (x) =>  1;
+var f = () =>  1;
 var f = () =>  123;
 ```
 

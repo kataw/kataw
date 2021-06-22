@@ -49,53 +49,60 @@ const foo = (foo?: bar) => {};
                             "kind": 271,
                             "asyncKeyword": null,
                             "typeParameters": null,
-                            "parameters": [
-                                {
-                                    "kind": 281,
-                                    "ellipsisToken": null,
-                                    "left": {
-                                        "kind": 134299649,
-                                        "text": "foo",
-                                        "rawText": "foo",
-                                        "flags": 96,
-                                        "start": 13,
-                                        "end": 16
-                                    },
-                                    "optionalToken": {
-                                        "kind": 134217750,
-                                        "flags": 64,
-                                        "start": 16,
-                                        "end": 17
-                                    },
-                                    "type": {
-                                        "kind": 139,
-                                        "bitwiseOrToken": null,
-                                        "bitwiseAndToken": null,
+                            "arrowPatameterList": {
+                                "kind": 342,
+                                "parameters": [
+                                    {
+                                        "kind": 281,
+                                        "ellipsisToken": null,
+                                        "left": {
+                                            "kind": 134299649,
+                                            "text": "foo",
+                                            "rawText": "foo",
+                                            "flags": 96,
+                                            "start": 13,
+                                            "end": 16
+                                        },
+                                        "optionalToken": {
+                                            "kind": 134217750,
+                                            "flags": 64,
+                                            "start": 16,
+                                            "end": 17
+                                        },
                                         "type": {
-                                            "kind": 144,
-                                            "typeName": {
-                                                "kind": 134299649,
-                                                "text": "bar",
-                                                "rawText": "bar",
-                                                "flags": 96,
+                                            "kind": 139,
+                                            "bitwiseOrToken": null,
+                                            "bitwiseAndToken": null,
+                                            "type": {
+                                                "kind": 144,
+                                                "typeName": {
+                                                    "kind": 134299649,
+                                                    "text": "bar",
+                                                    "rawText": "bar",
+                                                    "flags": 96,
+                                                    "start": 18,
+                                                    "end": 22
+                                                },
+                                                "typeParameters": null,
+                                                "flags": 2097152,
                                                 "start": 18,
                                                 "end": 22
                                             },
-                                            "typeParameters": null,
                                             "flags": 2097152,
                                             "start": 18,
                                             "end": 22
                                         },
-                                        "flags": 2097152,
-                                        "start": 18,
+                                        "right": null,
+                                        "flags": 32,
+                                        "start": 11,
                                         "end": 22
-                                    },
-                                    "right": null,
-                                    "flags": 32,
-                                    "start": 11,
-                                    "end": 22
-                                }
-                            ],
+                                    }
+                                ],
+                                "trailingComma": false,
+                                "flags": 0,
+                                "start": 13,
+                                "end": 23
+                            },
                             "returnType": null,
                             "arrowToken": {
                                 "kind": 10,
@@ -148,7 +155,7 @@ const foo = (foo?: bar) => {};
 
 ```javascript
 
-const foo = (foo?) =>  {};
+const foo = () =>  {};
 ```
 
 ### Diagnostics

@@ -43,7 +43,14 @@ const t = () => ({
                             "kind": 271,
                             "asyncKeyword": null,
                             "typeParameters": null,
-                            "parameters": [],
+                            "arrowPatameterList": {
+                                "kind": 342,
+                                "parameters": [],
+                                "trailingComma": false,
+                                "flags": 0,
+                                "start": 11,
+                                "end": 11
+                            },
                             "returnType": null,
                             "arrowToken": {
                                 "kind": 10,
@@ -73,16 +80,23 @@ const t = () => ({
                                                     "kind": 271,
                                                     "asyncKeyword": null,
                                                     "typeParameters": null,
-                                                    "parameters": [
-                                                        {
-                                                            "kind": 134299649,
-                                                            "text": "v",
-                                                            "rawText": "v",
-                                                            "flags": 96,
-                                                            "start": 25,
-                                                            "end": 26
-                                                        }
-                                                    ],
+                                                    "arrowPatameterList": {
+                                                        "kind": 342,
+                                                        "parameters": [
+                                                            {
+                                                                "kind": 134299649,
+                                                                "text": "v",
+                                                                "rawText": "v",
+                                                                "flags": 96,
+                                                                "start": 25,
+                                                                "end": 26
+                                                            }
+                                                        ],
+                                                        "trailingComma": false,
+                                                        "flags": 0,
+                                                        "start": 25,
+                                                        "end": 27
+                                                    },
                                                     "returnType": null,
                                                     "arrowToken": {
                                                         "kind": 10,
@@ -171,7 +185,7 @@ const t = () => ({
 
 ```javascript
 
-const t = () =>  ({ v: (v) =>  v in z });
+const t = () =>  ({ v: () =>  v in z });
 ```
 
 ### Diagnostics

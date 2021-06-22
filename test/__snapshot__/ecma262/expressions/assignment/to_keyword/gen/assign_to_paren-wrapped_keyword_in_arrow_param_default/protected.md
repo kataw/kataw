@@ -29,59 +29,66 @@
                 "kind": 271,
                 "asyncKeyword": null,
                 "typeParameters": null,
-                "parameters": [
-                    {
-                        "kind": 281,
-                        "ellipsisToken": null,
-                        "left": {
-                            "kind": 134299649,
-                            "text": "x",
-                            "rawText": "x",
-                            "flags": 96,
-                            "start": 1,
-                            "end": 2
-                        },
-                        "optionalToken": null,
-                        "type": null,
-                        "right": {
-                            "kind": 125,
+                "arrowPatameterList": {
+                    "kind": 342,
+                    "parameters": [
+                        {
+                            "kind": 281,
+                            "ellipsisToken": null,
                             "left": {
-                                "kind": 121,
-                                "expression": {
-                                    "kind": 134299649,
-                                    "text": "protected",
-                                    "rawText": "protected",
+                                "kind": 134299649,
+                                "text": "x",
+                                "rawText": "x",
+                                "flags": 96,
+                                "start": 1,
+                                "end": 2
+                            },
+                            "optionalToken": null,
+                            "type": null,
+                            "right": {
+                                "kind": 125,
+                                "left": {
+                                    "kind": 121,
+                                    "expression": {
+                                        "kind": 134299649,
+                                        "text": "protected",
+                                        "rawText": "protected",
+                                        "flags": 96,
+                                        "start": 6,
+                                        "end": 15
+                                    },
+                                    "flags": 32,
+                                    "start": 4,
+                                    "end": 16
+                                },
+                                "operatorToken": {
+                                    "kind": 4125,
                                     "flags": 96,
-                                    "start": 6,
-                                    "end": 15
+                                    "start": 16,
+                                    "end": 18
+                                },
+                                "right": {
+                                    "kind": 134299649,
+                                    "text": "f",
+                                    "rawText": "f",
+                                    "flags": 96,
+                                    "start": 18,
+                                    "end": 20
                                 },
                                 "flags": 32,
                                 "start": 4,
-                                "end": 16
-                            },
-                            "operatorToken": {
-                                "kind": 4125,
-                                "flags": 96,
-                                "start": 16,
-                                "end": 18
-                            },
-                            "right": {
-                                "kind": 134299649,
-                                "text": "f",
-                                "rawText": "f",
-                                "flags": 96,
-                                "start": 18,
                                 "end": 20
                             },
                             "flags": 32,
-                            "start": 4,
+                            "start": 0,
                             "end": 20
-                        },
-                        "flags": 32,
-                        "start": 0,
-                        "end": 20
-                    }
-                ],
+                        }
+                    ],
+                    "trailingComma": false,
+                    "flags": 2,
+                    "start": 1,
+                    "end": 21
+                },
                 "returnType": null,
                 "arrowToken": {
                     "kind": 10,
@@ -125,7 +132,7 @@
 
 ```javascript
 
-(x = (protected) = f) =>  {};
+() =>  {};
 ```
 
 ### Diagnostics

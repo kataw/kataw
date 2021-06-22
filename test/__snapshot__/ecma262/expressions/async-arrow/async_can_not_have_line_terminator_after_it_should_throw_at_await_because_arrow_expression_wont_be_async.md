@@ -65,7 +65,7 @@ g => await g
                 "kind": 271,
                 "asyncKeyword": null,
                 "typeParameters": null,
-                "parameters": {
+                "arrowPatameterList": {
                     "kind": 134299649,
                     "text": "g",
                     "rawText": "g",

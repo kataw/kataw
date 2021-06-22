@@ -380,16 +380,23 @@ type T = <
                                 "start": 150,
                                 "end": 168
                             },
-                            "parameters": [
-                                {
-                                    "kind": 134299649,
-                                    "text": "arg",
-                                    "rawText": "arg",
-                                    "flags": 96,
-                                    "start": 169,
-                                    "end": 172
-                                }
-                            ],
+                            "arrowPatameterList": {
+                                "kind": 342,
+                                "parameters": [
+                                    {
+                                        "kind": 134299649,
+                                        "text": "arg",
+                                        "rawText": "arg",
+                                        "flags": 96,
+                                        "start": 169,
+                                        "end": 172
+                                    }
+                                ],
+                                "trailingComma": false,
+                                "flags": 0,
+                                "start": 169,
+                                "end": 178
+                            },
                             "returnType": {
                                 "kind": 139,
                                 "bitwiseOrToken": null,
@@ -860,16 +867,23 @@ type T = <
                                 "start": 384,
                                 "end": 407
                             },
-                            "parameters": [
-                                {
-                                    "kind": 134299649,
-                                    "text": "arg",
-                                    "rawText": "arg",
-                                    "flags": 96,
-                                    "start": 408,
-                                    "end": 411
-                                }
-                            ],
+                            "arrowPatameterList": {
+                                "kind": 342,
+                                "parameters": [
+                                    {
+                                        "kind": 134299649,
+                                        "text": "arg",
+                                        "rawText": "arg",
+                                        "flags": 96,
+                                        "start": 408,
+                                        "end": 411
+                                    }
+                                ],
+                                "trailingComma": false,
+                                "flags": 0,
+                                "start": 408,
+                                "end": 417
+                            },
                             "returnType": {
                                 "kind": 139,
                                 "bitwiseOrToken": null,

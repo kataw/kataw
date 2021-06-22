@@ -164,24 +164,31 @@ const fn: ( Object, Object Object ) => void = ( o1, o2, ) => o1;
                             "kind": 271,
                             "asyncKeyword": null,
                             "typeParameters": null,
-                            "parameters": [
-                                {
-                                    "kind": 134299649,
-                                    "text": "o1",
-                                    "rawText": "o1",
-                                    "flags": 96,
-                                    "start": 47,
-                                    "end": 50
-                                },
-                                {
-                                    "kind": 134299649,
-                                    "text": "o2",
-                                    "rawText": "o2",
-                                    "flags": 96,
-                                    "start": 51,
-                                    "end": 54
-                                }
-                            ],
+                            "arrowPatameterList": {
+                                "kind": 342,
+                                "parameters": [
+                                    {
+                                        "kind": 134299649,
+                                        "text": "o1",
+                                        "rawText": "o1",
+                                        "flags": 96,
+                                        "start": 47,
+                                        "end": 50
+                                    },
+                                    {
+                                        "kind": 134299649,
+                                        "text": "o2",
+                                        "rawText": "o2",
+                                        "flags": 96,
+                                        "start": 51,
+                                        "end": 54
+                                    }
+                                ],
+                                "trailingComma": false,
+                                "flags": 0,
+                                "start": 47,
+                                "end": 57
+                            },
                             "returnType": null,
                             "arrowToken": {
                                 "kind": 10,

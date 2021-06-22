@@ -284,24 +284,31 @@ var y: Array<string> = ['3', ...x];
                             "kind": 271,
                             "asyncKeyword": null,
                             "typeParameters": null,
-                            "parameters": [
-                                {
-                                    "kind": 134299649,
-                                    "text": "a",
-                                    "rawText": "a",
-                                    "flags": 96,
-                                    "start": 58,
-                                    "end": 59
-                                },
-                                {
-                                    "kind": 134299649,
-                                    "text": "b",
-                                    "rawText": "b",
-                                    "flags": 96,
-                                    "start": 60,
-                                    "end": 62
-                                }
-                            ],
+                            "arrowPatameterList": {
+                                "kind": 342,
+                                "parameters": [
+                                    {
+                                        "kind": 134299649,
+                                        "text": "a",
+                                        "rawText": "a",
+                                        "flags": 96,
+                                        "start": 58,
+                                        "end": 59
+                                    },
+                                    {
+                                        "kind": 134299649,
+                                        "text": "b",
+                                        "rawText": "b",
+                                        "flags": 96,
+                                        "start": 60,
+                                        "end": 62
+                                    }
+                                ],
+                                "trailingComma": false,
+                                "flags": 0,
+                                "start": 58,
+                                "end": 63
+                            },
                             "returnType": null,
                             "arrowToken": {
                                 "kind": 10,
@@ -388,24 +395,31 @@ var y: Array<string> = ['3', ...x];
                             "kind": 271,
                             "asyncKeyword": null,
                             "typeParameters": null,
-                            "parameters": [
-                                {
-                                    "kind": 134299649,
-                                    "text": "a",
-                                    "rawText": "a",
-                                    "flags": 96,
-                                    "start": 83,
-                                    "end": 84
-                                },
-                                {
-                                    "kind": 134299649,
-                                    "text": "b",
-                                    "rawText": "b",
-                                    "flags": 96,
-                                    "start": 85,
-                                    "end": 87
-                                }
-                            ],
+                            "arrowPatameterList": {
+                                "kind": 342,
+                                "parameters": [
+                                    {
+                                        "kind": 134299649,
+                                        "text": "a",
+                                        "rawText": "a",
+                                        "flags": 96,
+                                        "start": 83,
+                                        "end": 84
+                                    },
+                                    {
+                                        "kind": 134299649,
+                                        "text": "b",
+                                        "rawText": "b",
+                                        "flags": 96,
+                                        "start": 85,
+                                        "end": 87
+                                    }
+                                ],
+                                "trailingComma": false,
+                                "flags": 0,
+                                "start": 83,
+                                "end": 88
+                            },
                             "returnType": null,
                             "arrowToken": {
                                 "kind": 10,
@@ -722,8 +736,8 @@ var y: Array<string> = ['3', ...x];
 var A = [1, 2, 3];
 var B = [...A];
 var C = [1, 2, 3];
-B.sort((a, b) =>  a - b);
-C.sort((a, b) =>  a - b);
+B.sort(() =>  a - b);
+C.sort(() =>  a - b);
 var x:  = ["'1'", "'2'"];
 var y:  = ["'3'", ...x];
 ```

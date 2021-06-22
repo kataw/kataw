@@ -46,7 +46,7 @@ export default async x => y, z;
                     "end": 20
                 },
                 "typeParameters": null,
-                "parameters": [
+                "arrowPatameterList": [
                     {
                         "kind": 134299649,
                         "text": "x",
@@ -121,7 +121,7 @@ export default async x => y, z;
                                 "end": 55
                             },
                             "typeParameters": null,
-                            "parameters": {
+                            "arrowPatameterList": {
                                 "kind": 134299649,
                                 "text": "x",
                                 "rawText": "x",

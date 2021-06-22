@@ -37,76 +37,83 @@ f = ([xCls = class X {}]) => {}
                     "kind": 271,
                     "asyncKeyword": null,
                     "typeParameters": null,
-                    "parameters": [
-                        {
-                            "kind": 201,
-                            "elementList": {
-                                "kind": 270,
-                                "elements": [
-                                    {
-                                        "kind": 281,
-                                        "ellipsisToken": null,
-                                        "left": {
-                                            "kind": 134299649,
-                                            "text": "xCls",
-                                            "rawText": "xCls",
-                                            "flags": 96,
-                                            "start": 6,
-                                            "end": 10
-                                        },
-                                        "optionalToken": null,
-                                        "type": null,
-                                        "right": {
-                                            "kind": 189,
-                                            "decorators": null,
-                                            "classKeyword": {
-                                                "kind": 37822544,
-                                                "flags": 64,
-                                                "start": 12,
-                                                "end": 18
-                                            },
-                                            "name": {
+                    "arrowPatameterList": {
+                        "kind": 342,
+                        "parameters": [
+                            {
+                                "kind": 201,
+                                "elementList": {
+                                    "kind": 270,
+                                    "elements": [
+                                        {
+                                            "kind": 281,
+                                            "ellipsisToken": null,
+                                            "left": {
                                                 "kind": 134299649,
-                                                "text": "X",
-                                                "rawText": "X",
+                                                "text": "xCls",
+                                                "rawText": "xCls",
                                                 "flags": 96,
-                                                "start": 18,
-                                                "end": 20
+                                                "start": 6,
+                                                "end": 10
                                             },
-                                            "typeParameters": null,
-                                            "tail": {
-                                                "kind": 277,
-                                                "classHeritage": null,
-                                                "body": {
-                                                    "kind": 303,
-                                                    "elements": [],
-                                                    "flags": 32,
-                                                    "start": 22,
-                                                    "end": 22
+                                            "optionalToken": null,
+                                            "type": null,
+                                            "right": {
+                                                "kind": 189,
+                                                "decorators": null,
+                                                "classKeyword": {
+                                                    "kind": 37822544,
+                                                    "flags": 64,
+                                                    "start": 12,
+                                                    "end": 18
                                                 },
-                                                "flags": 20,
-                                                "start": 32,
+                                                "name": {
+                                                    "kind": 134299649,
+                                                    "text": "X",
+                                                    "rawText": "X",
+                                                    "flags": 96,
+                                                    "start": 18,
+                                                    "end": 20
+                                                },
+                                                "typeParameters": null,
+                                                "tail": {
+                                                    "kind": 277,
+                                                    "classHeritage": null,
+                                                    "body": {
+                                                        "kind": 303,
+                                                        "elements": [],
+                                                        "flags": 32,
+                                                        "start": 22,
+                                                        "end": 22
+                                                    },
+                                                    "flags": 20,
+                                                    "start": 32,
+                                                    "end": 23
+                                                },
+                                                "flags": 32,
+                                                "start": 12,
                                                 "end": 23
                                             },
                                             "flags": 32,
-                                            "start": 12,
+                                            "start": 6,
                                             "end": 23
-                                        },
-                                        "flags": 32,
-                                        "start": 6,
-                                        "end": 23
-                                    }
-                                ],
-                                "trailingComma": false,
+                                        }
+                                    ],
+                                    "trailingComma": false,
+                                    "flags": 32,
+                                    "start": 6,
+                                    "end": 23
+                                },
                                 "flags": 32,
-                                "start": 6,
-                                "end": 23
-                            },
-                            "flags": 32,
-                            "start": 5,
-                            "end": 24
-                        }
-                    ],
+                                "start": 5,
+                                "end": 24
+                            }
+                        ],
+                        "trailingComma": false,
+                        "flags": 2,
+                        "start": 5,
+                        "end": 25
+                    },
                     "returnType": null,
                     "arrowToken": {
                         "kind": 10,
@@ -154,7 +161,7 @@ f = ([xCls = class X {}]) => {}
 
 ```javascript
 
-f = ([]) =>  {};
+f = () =>  {};
 ```
 
 ### Diagnostics

@@ -29,7 +29,7 @@ it => { var [,,...rest] = it; return rest; }
                 "kind": 271,
                 "asyncKeyword": null,
                 "typeParameters": null,
-                "parameters": {
+                "arrowPatameterList": {
                     "kind": 134299649,
                     "text": "it",
                     "rawText": "it",

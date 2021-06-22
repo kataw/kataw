@@ -65,7 +65,7 @@ async <T>(fn: () => T) => fn;
                     "start": 0,
                     "end": 9
                 },
-                "parameters": [
+                "arrowPatameterList": [
                     {
                         "kind": 281,
                         "ellipsisToken": null,

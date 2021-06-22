@@ -36,24 +36,31 @@ foo(y,(y) => ok);
                             "kind": 271,
                             "asyncKeyword": null,
                             "typeParameters": null,
-                            "parameters": [
-                                {
-                                    "kind": 134299649,
-                                    "text": "x",
-                                    "rawText": "x",
-                                    "flags": 96,
-                                    "start": 5,
-                                    "end": 6
-                                },
-                                {
-                                    "kind": 134299649,
-                                    "text": "y",
-                                    "rawText": "y",
-                                    "flags": 96,
-                                    "start": 7,
-                                    "end": 9
-                                }
-                            ],
+                            "arrowPatameterList": {
+                                "kind": 342,
+                                "parameters": [
+                                    {
+                                        "kind": 134299649,
+                                        "text": "x",
+                                        "rawText": "x",
+                                        "flags": 96,
+                                        "start": 5,
+                                        "end": 6
+                                    },
+                                    {
+                                        "kind": 134299649,
+                                        "text": "y",
+                                        "rawText": "y",
+                                        "flags": 96,
+                                        "start": 7,
+                                        "end": 9
+                                    }
+                                ],
+                                "trailingComma": false,
+                                "flags": 0,
+                                "start": 5,
+                                "end": 10
+                            },
                             "returnType": null,
                             "arrowToken": {
                                 "kind": 10,
@@ -120,16 +127,23 @@ foo(y,(y) => ok);
                             "kind": 271,
                             "asyncKeyword": null,
                             "typeParameters": null,
-                            "parameters": [
-                                {
-                                    "kind": 134299649,
-                                    "text": "y",
-                                    "rawText": "y",
-                                    "flags": 96,
-                                    "start": 26,
-                                    "end": 27
-                                }
-                            ],
+                            "arrowPatameterList": {
+                                "kind": 342,
+                                "parameters": [
+                                    {
+                                        "kind": 134299649,
+                                        "text": "y",
+                                        "rawText": "y",
+                                        "flags": 96,
+                                        "start": 26,
+                                        "end": 27
+                                    }
+                                ],
+                                "trailingComma": false,
+                                "flags": 0,
+                                "start": 26,
+                                "end": 28
+                            },
                             "returnType": null,
                             "arrowToken": {
                                 "kind": 10,
@@ -196,16 +210,23 @@ foo(y,(y) => ok);
                             "kind": 271,
                             "asyncKeyword": null,
                             "typeParameters": null,
-                            "parameters": [
-                                {
-                                    "kind": 134299649,
-                                    "text": "y",
-                                    "rawText": "y",
-                                    "flags": 96,
-                                    "start": 44,
-                                    "end": 45
-                                }
-                            ],
+                            "arrowPatameterList": {
+                                "kind": 342,
+                                "parameters": [
+                                    {
+                                        "kind": 134299649,
+                                        "text": "y",
+                                        "rawText": "y",
+                                        "flags": 96,
+                                        "start": 44,
+                                        "end": 45
+                                    }
+                                ],
+                                "trailingComma": false,
+                                "flags": 0,
+                                "start": 44,
+                                "end": 46
+                            },
                             "returnType": null,
                             "arrowToken": {
                                 "kind": 10,
@@ -253,9 +274,9 @@ foo(y,(y) => ok);
 
 ```javascript
 
-foo((x, y) =>  {});
-foo(x, (y) =>  {});
-foo(y, (y) =>  ok);
+foo(() =>  {});
+foo(x, () =>  {});
+foo(y, () =>  ok);
 ```
 
 ### Diagnostics

@@ -21,53 +21,60 @@
                 "kind": 271,
                 "asyncKeyword": null,
                 "typeParameters": null,
-                "parameters": [
-                    {
-                        "kind": 281,
-                        "ellipsisToken": null,
-                        "left": {
-                            "kind": 134299649,
-                            "text": "x",
-                            "rawText": "x",
-                            "flags": 96,
-                            "start": 1,
-                            "end": 2
-                        },
-                        "optionalToken": null,
-                        "type": null,
-                        "right": {
-                            "kind": 125,
+                "arrowPatameterList": {
+                    "kind": 342,
+                    "parameters": [
+                        {
+                            "kind": 281,
+                            "ellipsisToken": null,
                             "left": {
                                 "kind": 134299649,
-                                "text": "interface",
-                                "rawText": "interface",
+                                "text": "x",
+                                "rawText": "x",
                                 "flags": 96,
-                                "start": 3,
-                                "end": 12
+                                "start": 1,
+                                "end": 2
                             },
-                            "operatorToken": {
-                                "kind": 4125,
-                                "flags": 96,
-                                "start": 12,
-                                "end": 13
-                            },
+                            "optionalToken": null,
+                            "type": null,
                             "right": {
-                                "kind": 201392130,
-                                "text": 10,
-                                "rawText": "10",
-                                "flags": 96,
-                                "start": 13,
+                                "kind": 125,
+                                "left": {
+                                    "kind": 134299649,
+                                    "text": "interface",
+                                    "rawText": "interface",
+                                    "flags": 96,
+                                    "start": 3,
+                                    "end": 12
+                                },
+                                "operatorToken": {
+                                    "kind": 4125,
+                                    "flags": 96,
+                                    "start": 12,
+                                    "end": 13
+                                },
+                                "right": {
+                                    "kind": 201392130,
+                                    "text": 10,
+                                    "rawText": "10",
+                                    "flags": 96,
+                                    "start": 13,
+                                    "end": 15
+                                },
+                                "flags": 32,
+                                "start": 3,
                                 "end": 15
                             },
                             "flags": 32,
-                            "start": 3,
+                            "start": 0,
                             "end": 15
-                        },
-                        "flags": 32,
-                        "start": 0,
-                        "end": 15
-                    }
-                ],
+                        }
+                    ],
+                    "trailingComma": false,
+                    "flags": 2,
+                    "start": 1,
+                    "end": 16
+                },
                 "returnType": null,
                 "arrowToken": {
                     "kind": 10,
@@ -111,7 +118,7 @@
 
 ```javascript
 
-(x = interface = 10) =>  {};
+() =>  {};
 ```
 
 ### Diagnostics

@@ -34,86 +34,93 @@
                             "kind": 271,
                             "asyncKeyword": null,
                             "typeParameters": null,
-                            "parameters": [
-                                {
-                                    "kind": 212,
-                                    "propertyList": {
-                                        "kind": 213,
-                                        "properties": [
-                                            {
-                                                "kind": 329,
-                                                "key": {
-                                                    "kind": 134299649,
-                                                    "text": "__proto__",
-                                                    "rawText": "__proto__",
-                                                    "flags": 96,
+                            "arrowPatameterList": {
+                                "kind": 342,
+                                "parameters": [
+                                    {
+                                        "kind": 212,
+                                        "propertyList": {
+                                            "kind": 213,
+                                            "properties": [
+                                                {
+                                                    "kind": 329,
+                                                    "key": {
+                                                        "kind": 134299649,
+                                                        "text": "__proto__",
+                                                        "rawText": "__proto__",
+                                                        "flags": 96,
+                                                        "start": 4,
+                                                        "end": 14
+                                                    },
+                                                    "value": {
+                                                        "kind": 138477575,
+                                                        "flags": 96,
+                                                        "start": 15,
+                                                        "end": 20
+                                                    },
+                                                    "initializer": null,
+                                                    "flags": 32,
                                                     "start": 4,
-                                                    "end": 14
-                                                },
-                                                "value": {
-                                                    "kind": 138477575,
-                                                    "flags": 96,
-                                                    "start": 15,
                                                     "end": 20
                                                 },
-                                                "initializer": null,
-                                                "flags": 32,
-                                                "start": 4,
-                                                "end": 20
-                                            },
-                                            {
-                                                "kind": 329,
-                                                "key": {
-                                                    "kind": 134299649,
-                                                    "text": "other",
-                                                    "rawText": "other",
-                                                    "flags": 96,
+                                                {
+                                                    "kind": 329,
+                                                    "key": {
+                                                        "kind": 134299649,
+                                                        "text": "other",
+                                                        "rawText": "other",
+                                                        "flags": 96,
+                                                        "start": 21,
+                                                        "end": 27
+                                                    },
+                                                    "value": {
+                                                        "kind": 138477575,
+                                                        "flags": 96,
+                                                        "start": 28,
+                                                        "end": 33
+                                                    },
+                                                    "initializer": null,
+                                                    "flags": 32,
                                                     "start": 21,
-                                                    "end": 27
-                                                },
-                                                "value": {
-                                                    "kind": 138477575,
-                                                    "flags": 96,
-                                                    "start": 28,
                                                     "end": 33
                                                 },
-                                                "initializer": null,
-                                                "flags": 32,
-                                                "start": 21,
-                                                "end": 33
-                                            },
-                                            {
-                                                "kind": 329,
-                                                "key": {
-                                                    "kind": 201392131,
-                                                    "text": "__proto__",
-                                                    "rawText": "\"__proto__\"",
-                                                    "flags": 96,
+                                                {
+                                                    "kind": 329,
+                                                    "key": {
+                                                        "kind": 201392131,
+                                                        "text": "__proto__",
+                                                        "rawText": "\"__proto__\"",
+                                                        "flags": 96,
+                                                        "start": 34,
+                                                        "end": 46
+                                                    },
+                                                    "value": {
+                                                        "kind": 138477575,
+                                                        "flags": 96,
+                                                        "start": 47,
+                                                        "end": 52
+                                                    },
+                                                    "initializer": null,
+                                                    "flags": 32,
                                                     "start": 34,
-                                                    "end": 46
-                                                },
-                                                "value": {
-                                                    "kind": 138477575,
-                                                    "flags": 96,
-                                                    "start": 47,
                                                     "end": 52
-                                                },
-                                                "initializer": null,
-                                                "flags": 32,
-                                                "start": 34,
-                                                "end": 52
-                                            }
-                                        ],
-                                        "trailingComma": false,
-                                        "flags": 32,
-                                        "start": 4,
-                                        "end": 52
-                                    },
-                                    "flags": 52,
-                                    "start": 3,
-                                    "end": 54
-                                }
-                            ],
+                                                }
+                                            ],
+                                            "trailingComma": false,
+                                            "flags": 32,
+                                            "start": 4,
+                                            "end": 52
+                                        },
+                                        "flags": 52,
+                                        "start": 3,
+                                        "end": 54
+                                    }
+                                ],
+                                "trailingComma": false,
+                                "flags": 2,
+                                "start": 3,
+                                "end": 55
+                            },
                             "returnType": null,
                             "arrowToken": {
                                 "kind": 10,

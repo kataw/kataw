@@ -38,7 +38,7 @@ async ([{x}: string]) =>  {};
                 "end": 5
             },
             "typeParameters": null,
-            "parameters": [
+            "arrowPatameterList": [
                 {
                     "kind": 201,
                     "elementList": {
@@ -126,7 +126,7 @@ async ([{x}: string]) =>  {};
                 "end": 34
             },
             "typeParameters": null,
-            "parameters": [
+            "arrowPatameterList": [
                 {
                     "kind": 201,
                     "elementList": {
@@ -229,7 +229,7 @@ async ([{x}: string]) =>  {};
                 "end": 65
             },
             "typeParameters": null,
-            "parameters": [
+            "arrowPatameterList": [
                 {
                     "kind": 201,
                     "elementList": {
@@ -355,7 +355,7 @@ async ([{x}: string]) =>  {};
                 "end": 104
             },
             "typeParameters": null,
-            "parameters": [
+            "arrowPatameterList": [
                 {
                     "kind": 201,
                     "elementList": {

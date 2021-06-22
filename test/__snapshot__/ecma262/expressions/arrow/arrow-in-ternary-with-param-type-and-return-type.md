@@ -47,48 +47,55 @@ test
                     "kind": 271,
                     "asyncKeyword": null,
                     "typeParameters": null,
-                    "parameters": [
-                        {
-                            "kind": 281,
-                            "ellipsisToken": null,
-                            "left": {
-                                "kind": 134299649,
-                                "text": "x",
-                                "rawText": "x",
-                                "flags": 96,
-                                "start": 10,
-                                "end": 11
-                            },
-                            "optionalToken": null,
-                            "type": {
-                                "kind": 139,
-                                "bitwiseOrToken": null,
-                                "bitwiseAndToken": null,
+                    "arrowPatameterList": {
+                        "kind": 342,
+                        "parameters": [
+                            {
+                                "kind": 281,
+                                "ellipsisToken": null,
+                                "left": {
+                                    "kind": 134299649,
+                                    "text": "x",
+                                    "rawText": "x",
+                                    "flags": 96,
+                                    "start": 10,
+                                    "end": 11
+                                },
+                                "optionalToken": null,
                                 "type": {
-                                    "kind": 144,
-                                    "typeName": {
-                                        "kind": 134299649,
-                                        "text": "T",
-                                        "rawText": "T",
-                                        "flags": 96,
+                                    "kind": 139,
+                                    "bitwiseOrToken": null,
+                                    "bitwiseAndToken": null,
+                                    "type": {
+                                        "kind": 144,
+                                        "typeName": {
+                                            "kind": 134299649,
+                                            "text": "T",
+                                            "rawText": "T",
+                                            "flags": 96,
+                                            "start": 12,
+                                            "end": 14
+                                        },
+                                        "typeParameters": null,
+                                        "flags": 2097152,
                                         "start": 12,
                                         "end": 14
                                     },
-                                    "typeParameters": null,
                                     "flags": 2097152,
                                     "start": 12,
                                     "end": 14
                                 },
-                                "flags": 2097152,
-                                "start": 12,
+                                "right": null,
+                                "flags": 32,
+                                "start": 8,
                                 "end": 14
-                            },
-                            "right": null,
-                            "flags": 32,
-                            "start": 8,
-                            "end": 14
-                        }
-                    ],
+                            }
+                        ],
+                        "trailingComma": false,
+                        "flags": 0,
+                        "start": 10,
+                        "end": 18
+                    },
                     "returnType": {
                         "kind": 139,
                         "bitwiseOrToken": null,
@@ -166,7 +173,7 @@ test
 
 ```javascript
 
-test ? (x) =>  y : z;
+test ? () =>  y : z;
 ```
 
 ### Diagnostics

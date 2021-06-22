@@ -161,24 +161,31 @@ const fn2: ( Object, ?Object, ) => void = ( o1, o2, ) => o1;
                             "kind": 271,
                             "asyncKeyword": null,
                             "typeParameters": null,
-                            "parameters": [
-                                {
-                                    "kind": 134299649,
-                                    "text": "o1",
-                                    "rawText": "o1",
-                                    "flags": 96,
-                                    "start": 41,
-                                    "end": 44
-                                },
-                                {
-                                    "kind": 134299649,
-                                    "text": "o2",
-                                    "rawText": "o2",
-                                    "flags": 96,
-                                    "start": 45,
-                                    "end": 48
-                                }
-                            ],
+                            "arrowPatameterList": {
+                                "kind": 342,
+                                "parameters": [
+                                    {
+                                        "kind": 134299649,
+                                        "text": "o1",
+                                        "rawText": "o1",
+                                        "flags": 96,
+                                        "start": 41,
+                                        "end": 44
+                                    },
+                                    {
+                                        "kind": 134299649,
+                                        "text": "o2",
+                                        "rawText": "o2",
+                                        "flags": 96,
+                                        "start": 45,
+                                        "end": 48
+                                    }
+                                ],
+                                "trailingComma": false,
+                                "flags": 0,
+                                "start": 41,
+                                "end": 50
+                            },
                             "returnType": null,
                             "arrowToken": {
                                 "kind": 10,
@@ -348,24 +355,31 @@ const fn2: ( Object, ?Object, ) => void = ( o1, o2, ) => o1;
                             "kind": 271,
                             "asyncKeyword": null,
                             "typeParameters": null,
-                            "parameters": [
-                                {
-                                    "kind": 134299649,
-                                    "text": "o1",
-                                    "rawText": "o1",
-                                    "flags": 96,
-                                    "start": 101,
-                                    "end": 104
-                                },
-                                {
-                                    "kind": 134299649,
-                                    "text": "o2",
-                                    "rawText": "o2",
-                                    "flags": 96,
-                                    "start": 105,
-                                    "end": 108
-                                }
-                            ],
+                            "arrowPatameterList": {
+                                "kind": 342,
+                                "parameters": [
+                                    {
+                                        "kind": 134299649,
+                                        "text": "o1",
+                                        "rawText": "o1",
+                                        "flags": 96,
+                                        "start": 101,
+                                        "end": 104
+                                    },
+                                    {
+                                        "kind": 134299649,
+                                        "text": "o2",
+                                        "rawText": "o2",
+                                        "flags": 96,
+                                        "start": 105,
+                                        "end": 108
+                                    }
+                                ],
+                                "trailingComma": false,
+                                "flags": 0,
+                                "start": 101,
+                                "end": 111
+                            },
                             "returnType": null,
                             "arrowToken": {
                                 "kind": 10,
@@ -412,8 +426,8 @@ const fn2: ( Object, ?Object, ) => void = ( o1, o2, ) => o1;
 
 ```javascript
 
-const fn:  = (o1, o2) =>  o1;
-const fn2:  = (o1, o2) =>  o1;
+const fn:  = () =>  o1;
+const fn2:  = () =>  o1;
 ```
 
 ### Diagnostics

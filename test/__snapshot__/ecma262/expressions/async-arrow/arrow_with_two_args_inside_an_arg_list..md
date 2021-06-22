@@ -41,7 +41,7 @@ f((async (a, b) => a + b));
                                     "end": 8
                                 },
                                 "typeParameters": null,
-                                "parameters": [
+                                "arrowPatameterList": [
                                     {
                                         "kind": 134299649,
                                         "text": "a",

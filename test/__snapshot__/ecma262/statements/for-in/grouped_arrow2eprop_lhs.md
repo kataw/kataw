@@ -50,16 +50,23 @@ for (((x)=>{}).x in y);
                         "kind": 271,
                         "asyncKeyword": null,
                         "typeParameters": null,
-                        "parameters": [
-                            {
-                                "kind": 134299649,
-                                "text": "x",
-                                "rawText": "x",
-                                "flags": 96,
-                                "start": 7,
-                                "end": 8
-                            }
-                        ],
+                        "arrowPatameterList": {
+                            "kind": 342,
+                            "parameters": [
+                                {
+                                    "kind": 134299649,
+                                    "text": "x",
+                                    "rawText": "x",
+                                    "flags": 96,
+                                    "start": 7,
+                                    "end": 8
+                                }
+                            ],
+                            "trailingComma": false,
+                            "flags": 0,
+                            "start": 7,
+                            "end": 9
+                        },
                         "returnType": null,
                         "arrowToken": {
                             "kind": 10,
@@ -139,7 +146,7 @@ for (((x)=>{}).x in y);
 
 ```javascript
 
-for (((x) =>  {}).x in y);
+for ((() =>  {}).x in y);
 ```
 
 ### Diagnostics

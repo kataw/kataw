@@ -26,7 +26,7 @@ async g => (x = [await y])
                     "end": 5
                 },
                 "typeParameters": null,
-                "parameters": {
+                "arrowPatameterList": {
                     "kind": 134299649,
                     "text": "g",
                     "rawText": "g",

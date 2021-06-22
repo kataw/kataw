@@ -50,16 +50,23 @@ var f = (x): (x: number) => 123 => 123;
                             "kind": 271,
                             "asyncKeyword": null,
                             "typeParameters": null,
-                            "parameters": [
-                                {
-                                    "kind": 134299649,
-                                    "text": "x",
-                                    "rawText": "x",
-                                    "flags": 96,
-                                    "start": 9,
-                                    "end": 10
-                                }
-                            ],
+                            "arrowPatameterList": {
+                                "kind": 342,
+                                "parameters": [
+                                    {
+                                        "kind": 134299649,
+                                        "text": "x",
+                                        "rawText": "x",
+                                        "flags": 96,
+                                        "start": 9,
+                                        "end": 10
+                                    }
+                                ],
+                                "trailingComma": false,
+                                "flags": 0,
+                                "start": 9,
+                                "end": 31
+                            },
                             "returnType": {
                                 "kind": 139,
                                 "bitwiseOrToken": null,
@@ -180,7 +187,7 @@ var f = (x): (x: number) => 123 => 123;
 
 ```javascript
 
-var f = (x) =>  123;
+var f = () =>  123;
 ```
 
 ### Diagnostics

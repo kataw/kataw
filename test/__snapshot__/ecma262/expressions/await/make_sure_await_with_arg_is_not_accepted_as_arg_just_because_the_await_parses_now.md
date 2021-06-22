@@ -60,28 +60,35 @@ async function f(){  (await fail) => x  }
                                 "kind": 271,
                                 "asyncKeyword": null,
                                 "typeParameters": null,
-                                "parameters": [
-                                    {
-                                        "kind": 208,
-                                        "awaitKeyword": {
-                                            "kind": 82196,
-                                            "flags": 64,
+                                "arrowPatameterList": {
+                                    "kind": 342,
+                                    "parameters": [
+                                        {
+                                            "kind": 208,
+                                            "awaitKeyword": {
+                                                "kind": 82196,
+                                                "flags": 64,
+                                                "start": 22,
+                                                "end": 27
+                                            },
+                                            "expression": {
+                                                "kind": 134299649,
+                                                "text": "fail",
+                                                "rawText": "fail",
+                                                "flags": 96,
+                                                "start": 27,
+                                                "end": 32
+                                            },
+                                            "flags": 32,
                                             "start": 22,
-                                            "end": 27
-                                        },
-                                        "expression": {
-                                            "kind": 134299649,
-                                            "text": "fail",
-                                            "rawText": "fail",
-                                            "flags": 96,
-                                            "start": 27,
                                             "end": 32
-                                        },
-                                        "flags": 32,
-                                        "start": 22,
-                                        "end": 32
-                                    }
-                                ],
+                                        }
+                                    ],
+                                    "trailingComma": false,
+                                    "flags": 0,
+                                    "start": 22,
+                                    "end": 33
+                                },
                                 "returnType": null,
                                 "arrowToken": {
                                     "kind": 10,

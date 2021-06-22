@@ -29,24 +29,31 @@
                 "kind": 271,
                 "asyncKeyword": null,
                 "typeParameters": null,
-                "parameters": [
-                    {
-                        "kind": 134299649,
-                        "text": "foo",
-                        "rawText": "foo",
-                        "flags": 96,
-                        "start": 1,
-                        "end": 4
-                    },
-                    {
-                        "kind": 134299649,
-                        "text": "bar",
-                        "rawText": "bar",
-                        "flags": 96,
-                        "start": 5,
-                        "end": 9
-                    }
-                ],
+                "arrowPatameterList": {
+                    "kind": 342,
+                    "parameters": [
+                        {
+                            "kind": 134299649,
+                            "text": "foo",
+                            "rawText": "foo",
+                            "flags": 96,
+                            "start": 1,
+                            "end": 4
+                        },
+                        {
+                            "kind": 134299649,
+                            "text": "bar",
+                            "rawText": "bar",
+                            "flags": 96,
+                            "start": 5,
+                            "end": 9
+                        }
+                    ],
+                    "trailingComma": false,
+                    "flags": 0,
+                    "start": 1,
+                    "end": 13
+                },
                 "returnType": {
                     "kind": 139,
                     "bitwiseOrToken": null,
@@ -104,7 +111,7 @@
 
 ```javascript
 
-(foo, bar) =>  null;
+() =>  null;
 ```
 
 ### Diagnostics

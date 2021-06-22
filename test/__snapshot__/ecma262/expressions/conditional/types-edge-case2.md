@@ -45,31 +45,38 @@ a ? (({b}) => {}) : c
                         "kind": 271,
                         "asyncKeyword": null,
                         "typeParameters": null,
-                        "parameters": [
-                            {
-                                "kind": 212,
-                                "propertyList": {
-                                    "kind": 213,
-                                    "properties": [
-                                        {
-                                            "kind": 134299649,
-                                            "text": "b",
-                                            "rawText": "b",
-                                            "flags": 96,
-                                            "start": 7,
-                                            "end": 8
-                                        }
-                                    ],
-                                    "trailingComma": false,
-                                    "flags": 32,
-                                    "start": 7,
-                                    "end": 8
-                                },
-                                "flags": 48,
-                                "start": 6,
-                                "end": 9
-                            }
-                        ],
+                        "arrowPatameterList": {
+                            "kind": 342,
+                            "parameters": [
+                                {
+                                    "kind": 212,
+                                    "propertyList": {
+                                        "kind": 213,
+                                        "properties": [
+                                            {
+                                                "kind": 134299649,
+                                                "text": "b",
+                                                "rawText": "b",
+                                                "flags": 96,
+                                                "start": 7,
+                                                "end": 8
+                                            }
+                                        ],
+                                        "trailingComma": false,
+                                        "flags": 32,
+                                        "start": 7,
+                                        "end": 8
+                                    },
+                                    "flags": 48,
+                                    "start": 6,
+                                    "end": 9
+                                }
+                            ],
+                            "trailingComma": false,
+                            "flags": 2,
+                            "start": 6,
+                            "end": 10
+                        },
                         "returnType": null,
                         "arrowToken": {
                             "kind": 10,
@@ -135,9 +142,7 @@ a ? (({b}) => {}) : c
 
 ```javascript
 
-a ? (({
-        b
-      }) =>  {}) : c;
+a ? (() =>  {}) : c;
 ```
 
 ### Diagnostics

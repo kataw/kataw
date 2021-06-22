@@ -59,6 +59,7 @@ import { createBindingList, BindingList } from './ast/statements/binding-list';
 import { createVariableStatement, VariableStatement } from './ast/statements/variable-stmt';
 import { createBlock, Block } from './ast/statements/block';
 import { createBlockStatement, BlockStatement } from './ast/statements/block-stmt';
+import { createArrowPatameterList, ArrowPatameterList } from './ast/expressions/arrow-parameter-list';
 import { createBreakStatement, BreakStatement } from './ast/statements/break-stmt';
 import { createContinueStatement, ContinueStatement } from './ast/statements/continue-stmt';
 import { createDefaultClause, DefaultClause } from './ast/statements/default-clause';
@@ -414,17 +415,27 @@ export function visitEachChild(
             (<BlockStatement>node).end
           )
         : node;
+    case SyntaxKind.ArrowPatameterList:
+      return (<ArrowPatameterList>node).parameters !== visitNodes((<ArrowPatameterList>node).parameters, visitor)
+        ? createArrowPatameterList(
+            (<ArrowPatameterList>node).parameters,
+            (<ArrowPatameterList>node).trailingComma,
+            (<ArrowPatameterList>node).flags,
+            (<ArrowPatameterList>node).start,
+            (<ArrowPatameterList>node).end
+          )
+        : node;
     case SyntaxKind.ArrowFunction:
       return (<ArrowFunction>node).arrowToken !== visitNode((<ArrowFunction>node).arrowToken, visitor) ||
         (<ArrowFunction>node).typeParameters !== visitNode((<ArrowFunction>node).typeParameters, visitor) ||
-        (<ArrowFunction>node).parameters !== visitNodes((<any>node).parameters, visitor) ||
+        (<ArrowFunction>node).arrowPatameterList !== visitNodes((<any>node).arrowPatameterList, visitor) ||
         (<ArrowFunction>node).asyncKeyword !== visitNode((<ArrowFunction>node).asyncKeyword, visitor) ||
         (<ArrowFunction>node).returnType !== visitNode((<ArrowFunction>node).returnType, visitor) ||
         (<ArrowFunction>node).contents !== visitFunctionBody(transform, (<ArrowFunction>node).contents, visitor)
         ? createArrowFunction(
             (<ArrowFunction>node).arrowToken,
             (<ArrowFunction>node).typeParameters,
-            (<ArrowFunction>node).parameters,
+            (<ArrowFunction>node).arrowPatameterList,
             (<ArrowFunction>node).asyncKeyword,
             (<ArrowFunction>node).returnType,
             (<ArrowFunction>node).contents,
@@ -443,7 +454,7 @@ export function visitEachChild(
             (<AwaitExpression>node).end
           )
         : node;
-        case SyntaxKind.ForBinding:
+    case SyntaxKind.ForBinding:
       return (<ForBinding>node).varKeyword !== visitNode((<ForBinding>node).varKeyword, visitor) ||
         (<ForBinding>node).declarationList !== visitNode((<ForBinding>node).declarationList, visitor)
         ? createForBinding(
@@ -471,7 +482,7 @@ export function visitEachChild(
           )
         : node;
     case SyntaxKind.BindingProperty:
-            return (<BindingProperty>node).key !== visitNode((<BindingProperty>node).key, visitor) ||
+      return (<BindingProperty>node).key !== visitNode((<BindingProperty>node).key, visitor) ||
         (<BindingProperty>node).value !== visitNode((<BindingProperty>node).value, visitor) ||
         (<BindingProperty>node).initializer !== visitNode((<BindingProperty>node).initializer, visitor)
         ? createBindingProperty(
@@ -1360,7 +1371,8 @@ export function visitEachChild(
     case SyntaxKind.MethodDefinition:
       return (<MethodDefinition>node).name !== visitNode((<MethodDefinition>node).name, visitor) ||
         (<MethodDefinition>node).typeParameters !== visitNode((<MethodDefinition>node).typeParameters, visitor) ||
-        (<MethodDefinition>node).formalParameterList !== visitNode((<MethodDefinition>node).formalParameterList, visitor) ||
+        (<MethodDefinition>node).formalParameterList !==
+          visitNode((<MethodDefinition>node).formalParameterList, visitor) ||
         (<MethodDefinition>node).returnType !== visitNode((<MethodDefinition>node).returnType, visitor) ||
         (<MethodDefinition>node).contents !== visitFunctionBody(transform, (<MethodDefinition>node).contents, visitor)
         ? createMethodDefinition(

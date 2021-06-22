@@ -65,7 +65,7 @@ async <T>() => {}
                     "start": 0,
                     "end": 9
                 },
-                "parameters": [],
+                "arrowPatameterList": [],
                 "returnType": null,
                 "arrowToken": {
                     "kind": 10,

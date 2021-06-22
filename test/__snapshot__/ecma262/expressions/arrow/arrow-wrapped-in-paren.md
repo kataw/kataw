@@ -35,16 +35,23 @@
                     "kind": 271,
                     "asyncKeyword": null,
                     "typeParameters": null,
-                    "parameters": [
-                        {
-                            "kind": 134299649,
-                            "text": "a",
-                            "rawText": "a",
-                            "flags": 96,
-                            "start": 2,
-                            "end": 3
-                        }
-                    ],
+                    "arrowPatameterList": {
+                        "kind": 342,
+                        "parameters": [
+                            {
+                                "kind": 134299649,
+                                "text": "a",
+                                "rawText": "a",
+                                "flags": 96,
+                                "start": 2,
+                                "end": 3
+                            }
+                        ],
+                        "trailingComma": false,
+                        "flags": 0,
+                        "start": 2,
+                        "end": 4
+                    },
                     "returnType": null,
                     "arrowToken": {
                         "kind": 10,
@@ -91,16 +98,23 @@
                             "kind": 271,
                             "asyncKeyword": null,
                             "typeParameters": null,
-                            "parameters": [
-                                {
-                                    "kind": 134299649,
-                                    "text": "a",
-                                    "rawText": "a",
-                                    "flags": 96,
-                                    "start": 18,
-                                    "end": 19
-                                }
-                            ],
+                            "arrowPatameterList": {
+                                "kind": 342,
+                                "parameters": [
+                                    {
+                                        "kind": 134299649,
+                                        "text": "a",
+                                        "rawText": "a",
+                                        "flags": 96,
+                                        "start": 18,
+                                        "end": 19
+                                    }
+                                ],
+                                "trailingComma": false,
+                                "flags": 0,
+                                "start": 18,
+                                "end": 20
+                            },
                             "returnType": null,
                             "arrowToken": {
                                 "kind": 10,
@@ -144,16 +158,23 @@
                             "kind": 271,
                             "asyncKeyword": null,
                             "typeParameters": null,
-                            "parameters": [
-                                {
-                                    "kind": 134299649,
-                                    "text": "x",
-                                    "rawText": "x",
-                                    "flags": 96,
-                                    "start": 31,
-                                    "end": 32
-                                }
-                            ],
+                            "arrowPatameterList": {
+                                "kind": 342,
+                                "parameters": [
+                                    {
+                                        "kind": 134299649,
+                                        "text": "x",
+                                        "rawText": "x",
+                                        "flags": 96,
+                                        "start": 31,
+                                        "end": 32
+                                    }
+                                ],
+                                "trailingComma": false,
+                                "flags": 0,
+                                "start": 31,
+                                "end": 33
+                            },
                             "returnType": null,
                             "arrowToken": {
                                 "kind": 10,
@@ -177,16 +198,23 @@
                             "kind": 271,
                             "asyncKeyword": null,
                             "typeParameters": null,
-                            "parameters": [
-                                {
-                                    "kind": 134299649,
-                                    "text": "z",
-                                    "rawText": "z",
-                                    "flags": 96,
-                                    "start": 41,
-                                    "end": 42
-                                }
-                            ],
+                            "arrowPatameterList": {
+                                "kind": 342,
+                                "parameters": [
+                                    {
+                                        "kind": 134299649,
+                                        "text": "z",
+                                        "rawText": "z",
+                                        "flags": 96,
+                                        "start": 41,
+                                        "end": 42
+                                    }
+                                ],
+                                "trailingComma": false,
+                                "flags": 0,
+                                "start": 41,
+                                "end": 43
+                            },
                             "returnType": null,
                             "arrowToken": {
                                 "kind": 10,
@@ -239,9 +267,9 @@
 
 ```javascript
 
-((a) =>  x);
-(x, (a) =>  x);
-((x) =>  y, (z) =>  {});
+(() =>  x);
+(x, () =>  x);
+(() =>  y, () =>  {});
 ```
 
 ### Diagnostics

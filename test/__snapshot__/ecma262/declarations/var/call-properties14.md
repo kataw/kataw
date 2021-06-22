@@ -97,16 +97,23 @@ var d: { (): string } = (x) => "hi"
                             "kind": 271,
                             "asyncKeyword": null,
                             "typeParameters": null,
-                            "parameters": [
-                                {
-                                    "kind": 134299649,
-                                    "text": "x",
-                                    "rawText": "x",
-                                    "flags": 96,
-                                    "start": 25,
-                                    "end": 26
-                                }
-                            ],
+                            "arrowPatameterList": {
+                                "kind": 342,
+                                "parameters": [
+                                    {
+                                        "kind": 134299649,
+                                        "text": "x",
+                                        "rawText": "x",
+                                        "flags": 96,
+                                        "start": 25,
+                                        "end": 26
+                                    }
+                                ],
+                                "trailingComma": false,
+                                "flags": 0,
+                                "start": 25,
+                                "end": 27
+                            },
                             "returnType": null,
                             "arrowToken": {
                                 "kind": 10,
@@ -153,7 +160,7 @@ var d: { (): string } = (x) => "hi"
 
 ```javascript
 
-var d:  = (x) =>  "\"hi\"";
+var d:  = () =>  "\"hi\"";
 ```
 
 ### Diagnostics

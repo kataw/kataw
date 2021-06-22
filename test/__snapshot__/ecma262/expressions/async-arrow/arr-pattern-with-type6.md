@@ -32,7 +32,7 @@ async ([{x}: string], y, z: string) =>  {};
                 "end": 5
             },
             "typeParameters": null,
-            "parameters": [
+            "arrowPatameterList": [
                 {
                     "kind": 201,
                     "elementList": {

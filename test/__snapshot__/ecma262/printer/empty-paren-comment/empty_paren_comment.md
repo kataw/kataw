@@ -62,7 +62,14 @@ let f4 = () => doThing(a, /* ... */ b);
                                     "kind": 271,
                                     "asyncKeyword": null,
                                     "typeParameters": null,
-                                    "parameters": [],
+                                    "arrowPatameterList": {
+                                        "kind": 342,
+                                        "parameters": [],
+                                        "trailingComma": false,
+                                        "flags": 0,
+                                        "start": 10,
+                                        "end": 10
+                                    },
                                     "returnType": null,
                                     "arrowToken": {
                                         "kind": 10,
@@ -302,7 +309,14 @@ let f4 = () => doThing(a, /* ... */ b);
                                             "kind": 271,
                                             "asyncKeyword": null,
                                             "typeParameters": null,
-                                            "parameters": [],
+                                            "arrowPatameterList": {
+                                                "kind": 342,
+                                                "parameters": [],
+                                                "trailingComma": false,
+                                                "flags": 0,
+                                                "start": 130,
+                                                "end": 130
+                                            },
                                             "returnType": null,
                                             "arrowToken": {
                                                 "kind": 10,
@@ -651,7 +665,14 @@ let f4 = () => doThing(a, /* ... */ b);
                             "kind": 271,
                             "asyncKeyword": null,
                             "typeParameters": null,
-                            "parameters": [],
+                            "arrowPatameterList": {
+                                "kind": 342,
+                                "parameters": [],
+                                "trailingComma": false,
+                                "flags": 0,
+                                "start": 290,
+                                "end": 290
+                            },
                             "returnType": null,
                             "arrowToken": {
                                 "kind": 10,
@@ -728,7 +749,14 @@ let f4 = () => doThing(a, /* ... */ b);
                             "kind": 271,
                             "asyncKeyword": null,
                             "typeParameters": null,
-                            "parameters": [],
+                            "arrowPatameterList": {
+                                "kind": 342,
+                                "parameters": [],
+                                "trailingComma": false,
+                                "flags": 0,
+                                "start": 326,
+                                "end": 326
+                            },
                             "returnType": null,
                             "arrowToken": {
                                 "kind": 10,

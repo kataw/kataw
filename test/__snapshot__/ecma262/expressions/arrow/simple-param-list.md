@@ -31,22 +31,29 @@
                             "kind": 271,
                             "asyncKeyword": null,
                             "typeParameters": null,
-                            "parameters": [
-                                {
-                                    "kind": 201,
-                                    "elementList": {
-                                        "kind": 270,
-                                        "elements": [],
-                                        "trailingComma": false,
+                            "arrowPatameterList": {
+                                "kind": 342,
+                                "parameters": [
+                                    {
+                                        "kind": 201,
+                                        "elementList": {
+                                            "kind": 270,
+                                            "elements": [],
+                                            "trailingComma": false,
+                                            "flags": 32,
+                                            "start": 3,
+                                            "end": 3
+                                        },
                                         "flags": 32,
-                                        "start": 3,
-                                        "end": 3
-                                    },
-                                    "flags": 32,
-                                    "start": 2,
-                                    "end": 4
-                                }
-                            ],
+                                        "start": 2,
+                                        "end": 4
+                                    }
+                                ],
+                                "trailingComma": false,
+                                "flags": 2,
+                                "start": 2,
+                                "end": 5
+                            },
                             "returnType": null,
                             "arrowToken": {
                                 "kind": 10,

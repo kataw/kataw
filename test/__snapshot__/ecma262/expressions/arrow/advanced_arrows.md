@@ -55,70 +55,77 @@ var ident = <T>(x: T): T => x;
                             "kind": 271,
                             "asyncKeyword": null,
                             "typeParameters": null,
-                            "parameters": [
-                                {
-                                    "kind": 281,
-                                    "ellipsisToken": null,
-                                    "left": {
-                                        "kind": 134299649,
-                                        "text": "x",
-                                        "rawText": "x",
-                                        "flags": 96,
-                                        "start": 11,
-                                        "end": 12
-                                    },
-                                    "optionalToken": null,
-                                    "type": {
-                                        "kind": 139,
-                                        "bitwiseOrToken": null,
-                                        "bitwiseAndToken": null,
+                            "arrowPatameterList": {
+                                "kind": 342,
+                                "parameters": [
+                                    {
+                                        "kind": 281,
+                                        "ellipsisToken": null,
+                                        "left": {
+                                            "kind": 134299649,
+                                            "text": "x",
+                                            "rawText": "x",
+                                            "flags": 96,
+                                            "start": 11,
+                                            "end": 12
+                                        },
+                                        "optionalToken": null,
                                         "type": {
-                                            "kind": 134234345,
-                                            "flags": 2097216,
+                                            "kind": 139,
+                                            "bitwiseOrToken": null,
+                                            "bitwiseAndToken": null,
+                                            "type": {
+                                                "kind": 134234345,
+                                                "flags": 2097216,
+                                                "start": 13,
+                                                "end": 20
+                                            },
+                                            "flags": 2097152,
                                             "start": 13,
                                             "end": 20
                                         },
-                                        "flags": 2097152,
-                                        "start": 13,
+                                        "right": null,
+                                        "flags": 32,
+                                        "start": 9,
                                         "end": 20
                                     },
-                                    "right": null,
-                                    "flags": 32,
-                                    "start": 9,
-                                    "end": 20
-                                },
-                                {
-                                    "kind": 281,
-                                    "ellipsisToken": null,
-                                    "left": {
-                                        "kind": 134299649,
-                                        "text": "y",
-                                        "rawText": "y",
-                                        "flags": 96,
-                                        "start": 21,
-                                        "end": 23
-                                    },
-                                    "optionalToken": null,
-                                    "type": {
-                                        "kind": 139,
-                                        "bitwiseOrToken": null,
-                                        "bitwiseAndToken": null,
+                                    {
+                                        "kind": 281,
+                                        "ellipsisToken": null,
+                                        "left": {
+                                            "kind": 134299649,
+                                            "text": "y",
+                                            "rawText": "y",
+                                            "flags": 96,
+                                            "start": 21,
+                                            "end": 23
+                                        },
+                                        "optionalToken": null,
                                         "type": {
-                                            "kind": 134234345,
-                                            "flags": 2097216,
+                                            "kind": 139,
+                                            "bitwiseOrToken": null,
+                                            "bitwiseAndToken": null,
+                                            "type": {
+                                                "kind": 134234345,
+                                                "flags": 2097216,
+                                                "start": 24,
+                                                "end": 31
+                                            },
+                                            "flags": 2097152,
                                             "start": 24,
                                             "end": 31
                                         },
-                                        "flags": 2097152,
-                                        "start": 24,
+                                        "right": null,
+                                        "flags": 32,
+                                        "start": 9,
                                         "end": 31
-                                    },
-                                    "right": null,
-                                    "flags": 32,
-                                    "start": 9,
-                                    "end": 31
-                                }
-                            ],
+                                    }
+                                ],
+                                "trailingComma": false,
+                                "flags": 0,
+                                "start": 11,
+                                "end": 40
+                            },
                             "returnType": {
                                 "kind": 139,
                                 "bitwiseOrToken": null,
@@ -211,39 +218,46 @@ var ident = <T>(x: T): T => x;
                             "kind": 271,
                             "asyncKeyword": null,
                             "typeParameters": null,
-                            "parameters": [
-                                {
-                                    "kind": 281,
-                                    "ellipsisToken": null,
-                                    "left": {
-                                        "kind": 134299649,
-                                        "text": "x",
-                                        "rawText": "x",
-                                        "flags": 96,
-                                        "start": 63,
-                                        "end": 64
-                                    },
-                                    "optionalToken": null,
-                                    "type": {
-                                        "kind": 139,
-                                        "bitwiseOrToken": null,
-                                        "bitwiseAndToken": null,
+                            "arrowPatameterList": {
+                                "kind": 342,
+                                "parameters": [
+                                    {
+                                        "kind": 281,
+                                        "ellipsisToken": null,
+                                        "left": {
+                                            "kind": 134299649,
+                                            "text": "x",
+                                            "rawText": "x",
+                                            "flags": 96,
+                                            "start": 63,
+                                            "end": 64
+                                        },
+                                        "optionalToken": null,
                                         "type": {
-                                            "kind": 134234345,
-                                            "flags": 2097216,
+                                            "kind": 139,
+                                            "bitwiseOrToken": null,
+                                            "bitwiseAndToken": null,
+                                            "type": {
+                                                "kind": 134234345,
+                                                "flags": 2097216,
+                                                "start": 65,
+                                                "end": 72
+                                            },
+                                            "flags": 2097152,
                                             "start": 65,
                                             "end": 72
                                         },
-                                        "flags": 2097152,
-                                        "start": 65,
+                                        "right": null,
+                                        "flags": 32,
+                                        "start": 61,
                                         "end": 72
-                                    },
-                                    "right": null,
-                                    "flags": 32,
-                                    "start": 61,
-                                    "end": 72
-                                }
-                            ],
+                                    }
+                                ],
+                                "trailingComma": false,
+                                "flags": 0,
+                                "start": 63,
+                                "end": 81
+                            },
                             "returnType": {
                                 "kind": 139,
                                 "bitwiseOrToken": null,
@@ -346,48 +360,55 @@ var ident = <T>(x: T): T => x;
                                 "start": 100,
                                 "end": 104
                             },
-                            "parameters": [
-                                {
-                                    "kind": 281,
-                                    "ellipsisToken": null,
-                                    "left": {
-                                        "kind": 134299649,
-                                        "text": "x",
-                                        "rawText": "x",
-                                        "flags": 96,
-                                        "start": 105,
-                                        "end": 106
-                                    },
-                                    "optionalToken": null,
-                                    "type": {
-                                        "kind": 139,
-                                        "bitwiseOrToken": null,
-                                        "bitwiseAndToken": null,
+                            "arrowPatameterList": {
+                                "kind": 342,
+                                "parameters": [
+                                    {
+                                        "kind": 281,
+                                        "ellipsisToken": null,
+                                        "left": {
+                                            "kind": 134299649,
+                                            "text": "x",
+                                            "rawText": "x",
+                                            "flags": 96,
+                                            "start": 105,
+                                            "end": 106
+                                        },
+                                        "optionalToken": null,
                                         "type": {
-                                            "kind": 144,
-                                            "typeName": {
-                                                "kind": 134299649,
-                                                "text": "T",
-                                                "rawText": "T",
-                                                "flags": 96,
+                                            "kind": 139,
+                                            "bitwiseOrToken": null,
+                                            "bitwiseAndToken": null,
+                                            "type": {
+                                                "kind": 144,
+                                                "typeName": {
+                                                    "kind": 134299649,
+                                                    "text": "T",
+                                                    "rawText": "T",
+                                                    "flags": 96,
+                                                    "start": 107,
+                                                    "end": 109
+                                                },
+                                                "typeParameters": null,
+                                                "flags": 2097152,
                                                 "start": 107,
                                                 "end": 109
                                             },
-                                            "typeParameters": null,
                                             "flags": 2097152,
                                             "start": 107,
                                             "end": 109
                                         },
-                                        "flags": 2097152,
-                                        "start": 107,
+                                        "right": null,
+                                        "flags": 32,
+                                        "start": 100,
                                         "end": 109
-                                    },
-                                    "right": null,
-                                    "flags": 32,
-                                    "start": 100,
-                                    "end": 109
-                                }
-                            ],
+                                    }
+                                ],
+                                "trailingComma": false,
+                                "flags": 0,
+                                "start": 105,
+                                "end": 113
+                            },
                             "returnType": {
                                 "kind": 139,
                                 "bitwiseOrToken": null,
@@ -456,9 +477,9 @@ var ident = <T>(x: T): T => x;
 
 ```javascript
 
-var add = (x, y) =>  x + y;
-var bad = (x) =>  x;
-var ident = (x) =>  x;
+var add = () =>  x + y;
+var bad = () =>  x;
+var ident = () =>  x;
 ```
 
 ### Diagnostics

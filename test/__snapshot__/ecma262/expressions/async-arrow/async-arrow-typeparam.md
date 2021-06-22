@@ -53,7 +53,7 @@ async (): string => {}
                         "end": 9
                     },
                     "typeParameters": null,
-                    "parameters": [],
+                    "arrowPatameterList": [],
                     "returnType": {
                         "kind": 139,
                         "bitwiseOrToken": null,
@@ -123,7 +123,7 @@ async (): string => {}
                 "end": 40
             },
             "typeParameters": null,
-            "parameters": [],
+            "arrowPatameterList": [],
             "returnType": {
                 "kind": 139,
                 "bitwiseOrToken": null,

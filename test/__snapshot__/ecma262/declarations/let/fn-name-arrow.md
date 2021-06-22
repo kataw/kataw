@@ -41,7 +41,14 @@ let arrow = () => {};
                             "kind": 271,
                             "asyncKeyword": null,
                             "typeParameters": null,
-                            "parameters": [],
+                            "arrowPatameterList": {
+                                "kind": 342,
+                                "parameters": [],
+                                "trailingComma": false,
+                                "flags": 0,
+                                "start": 13,
+                                "end": 13
+                            },
                             "returnType": null,
                             "arrowToken": {
                                 "kind": 10,

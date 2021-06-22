@@ -43,53 +43,60 @@ x = (x, {}:string) => {} ;
                     "kind": 271,
                     "asyncKeyword": null,
                     "typeParameters": null,
-                    "parameters": [
-                        {
-                            "kind": 134299649,
-                            "text": "x",
-                            "rawText": "x",
-                            "flags": 96,
-                            "start": 5,
-                            "end": 6
-                        },
-                        {
-                            "kind": 281,
-                            "ellipsisToken": null,
-                            "left": {
-                                "kind": 220,
-                                "propertyList": {
-                                    "kind": 218,
-                                    "properties": [],
-                                    "trailingComma": false,
-                                    "flags": 16,
-                                    "start": 9,
-                                    "end": 9
-                                },
-                                "flags": 48,
-                                "start": 7,
-                                "end": 10
+                    "arrowPatameterList": {
+                        "kind": 342,
+                        "parameters": [
+                            {
+                                "kind": 134299649,
+                                "text": "x",
+                                "rawText": "x",
+                                "flags": 96,
+                                "start": 5,
+                                "end": 6
                             },
-                            "optionalToken": null,
-                            "type": {
-                                "kind": 139,
-                                "bitwiseOrToken": null,
-                                "bitwiseAndToken": null,
+                            {
+                                "kind": 281,
+                                "ellipsisToken": null,
+                                "left": {
+                                    "kind": 220,
+                                    "propertyList": {
+                                        "kind": 218,
+                                        "properties": [],
+                                        "trailingComma": false,
+                                        "flags": 16,
+                                        "start": 9,
+                                        "end": 9
+                                    },
+                                    "flags": 48,
+                                    "start": 7,
+                                    "end": 10
+                                },
+                                "optionalToken": null,
                                 "type": {
-                                    "kind": 134234347,
-                                    "flags": 2097216,
+                                    "kind": 139,
+                                    "bitwiseOrToken": null,
+                                    "bitwiseAndToken": null,
+                                    "type": {
+                                        "kind": 134234347,
+                                        "flags": 2097216,
+                                        "start": 11,
+                                        "end": 17
+                                    },
+                                    "flags": 2097152,
                                     "start": 11,
                                     "end": 17
                                 },
-                                "flags": 2097152,
-                                "start": 11,
+                                "right": null,
+                                "flags": 32,
+                                "start": 3,
                                 "end": 17
-                            },
-                            "right": null,
-                            "flags": 32,
-                            "start": 3,
-                            "end": 17
-                        }
-                    ],
+                            }
+                        ],
+                        "trailingComma": false,
+                        "flags": 2,
+                        "start": 5,
+                        "end": 18
+                    },
                     "returnType": null,
                     "arrowToken": {
                         "kind": 10,
@@ -137,7 +144,7 @@ x = (x, {}:string) => {} ;
 
 ```javascript
 
-x = (x, {}) =>  {};
+x = () =>  {};
 ```
 
 ### Diagnostics

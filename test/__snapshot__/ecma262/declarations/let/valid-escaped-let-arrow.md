@@ -23,7 +23,7 @@ async l\u0065t => 42;
                 "kind": 271,
                 "asyncKeyword": null,
                 "typeParameters": null,
-                "parameters": {
+                "arrowPatameterList": {
                     "kind": 134299649,
                     "text": "let",
                     "rawText": "let",
@@ -65,7 +65,7 @@ async l\u0065t => 42;
                     "end": 22
                 },
                 "typeParameters": null,
-                "parameters": {
+                "arrowPatameterList": {
                     "kind": 134299649,
                     "text": "let",
                     "rawText": "l\\u0065t",
