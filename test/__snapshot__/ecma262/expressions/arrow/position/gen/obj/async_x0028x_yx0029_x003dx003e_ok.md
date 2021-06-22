@@ -66,24 +66,31 @@ x = {arrow: async (x, y) => ok}
                                         "end": 17
                                     },
                                     "typeParameters": null,
-                                    "arrowPatameterList": [
-                                        {
-                                            "kind": 134299649,
-                                            "text": "x",
-                                            "rawText": "x",
-                                            "flags": 96,
-                                            "start": 19,
-                                            "end": 20
-                                        },
-                                        {
-                                            "kind": 134299649,
-                                            "text": "y",
-                                            "rawText": "y",
-                                            "flags": 96,
-                                            "start": 21,
-                                            "end": 23
-                                        }
-                                    ],
+                                    "arrowPatameterList": {
+                                        "kind": 342,
+                                        "parameters": [
+                                            {
+                                                "kind": 134299649,
+                                                "text": "x",
+                                                "rawText": "x",
+                                                "flags": 96,
+                                                "start": 19,
+                                                "end": 20
+                                            },
+                                            {
+                                                "kind": 134299649,
+                                                "text": "y",
+                                                "rawText": "y",
+                                                "flags": 96,
+                                                "start": 21,
+                                                "end": 23
+                                            }
+                                        ],
+                                        "trailingComma": false,
+                                        "flags": 32,
+                                        "start": 19,
+                                        "end": 24
+                                    },
                                     "returnType": null,
                                     "arrowToken": {
                                         "kind": 10,
@@ -139,7 +146,7 @@ x = {arrow: async (x, y) => ok}
 
 ```javascript
 
-x = { arrow: async (x, y) =>  ok };
+x = { arrow: async  =>  ok };
 ```
 
 ### Diagnostics

@@ -57,7 +57,14 @@ var foo = (async (): number => bar);
                                     "end": 16
                                 },
                                 "typeParameters": null,
-                                "arrowPatameterList": [],
+                                "arrowPatameterList": {
+                                    "kind": 342,
+                                    "parameters": [],
+                                    "trailingComma": false,
+                                    "flags": 32,
+                                    "start": 18,
+                                    "end": 18
+                                },
                                 "returnType": {
                                     "kind": 139,
                                     "bitwiseOrToken": null,
@@ -121,7 +128,7 @@ var foo = (async (): number => bar);
 
 ```javascript
 
-var foo = (async () =>  bar);
+var foo = (async  =>  bar);
 ```
 
 ### Diagnostics

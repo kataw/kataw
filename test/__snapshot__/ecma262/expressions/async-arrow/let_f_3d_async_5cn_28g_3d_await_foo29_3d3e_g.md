@@ -47,41 +47,48 @@ let f = async
                                 "end": 13
                             },
                             "typeParameters": null,
-                            "arrowPatameterList": [
-                                {
-                                    "kind": 281,
-                                    "ellipsisToken": null,
-                                    "left": {
-                                        "kind": 134299649,
-                                        "text": "g",
-                                        "rawText": "g",
-                                        "flags": 96,
+                            "arrowPatameterList": {
+                                "kind": 342,
+                                "parameters": [
+                                    {
+                                        "kind": 281,
+                                        "ellipsisToken": null,
+                                        "left": {
+                                            "kind": 134299649,
+                                            "text": "g",
+                                            "rawText": "g",
+                                            "flags": 96,
+                                            "start": 16,
+                                            "end": 17
+                                        },
+                                        "optionalToken": null,
+                                        "type": null,
+                                        "right": {
+                                            "kind": 134299649,
+                                            "text": "await",
+                                            "rawText": "await",
+                                            "flags": 96,
+                                            "start": 19,
+                                            "end": 25
+                                        },
+                                        "flags": 32,
                                         "start": 16,
-                                        "end": 17
-                                    },
-                                    "optionalToken": null,
-                                    "type": null,
-                                    "right": {
-                                        "kind": 134299649,
-                                        "text": "await",
-                                        "rawText": "await",
-                                        "flags": 96,
-                                        "start": 19,
                                         "end": 25
                                     },
-                                    "flags": 32,
-                                    "start": 16,
-                                    "end": 25
-                                },
-                                {
-                                    "kind": 134299649,
-                                    "text": "foo",
-                                    "rawText": "foo",
-                                    "flags": 96,
-                                    "start": 25,
-                                    "end": 29
-                                }
-                            ],
+                                    {
+                                        "kind": 134299649,
+                                        "text": "foo",
+                                        "rawText": "foo",
+                                        "flags": 96,
+                                        "start": 25,
+                                        "end": 29
+                                    }
+                                ],
+                                "trailingComma": false,
+                                "flags": 35,
+                                "start": 16,
+                                "end": 30
+                            },
                             "returnType": null,
                             "arrowToken": {
                                 "kind": 10,

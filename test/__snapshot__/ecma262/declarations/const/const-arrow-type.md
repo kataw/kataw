@@ -54,44 +54,51 @@ const fn = async (a?: any): Promise<void> => {};
                                 "end": 16
                             },
                             "typeParameters": null,
-                            "arrowPatameterList": [
-                                {
-                                    "kind": 281,
-                                    "ellipsisToken": null,
-                                    "left": {
-                                        "kind": 134299649,
-                                        "text": "a",
-                                        "rawText": "a",
-                                        "flags": 96,
-                                        "start": 18,
-                                        "end": 19
-                                    },
-                                    "optionalToken": {
-                                        "kind": 134217750,
-                                        "flags": 64,
-                                        "start": 19,
-                                        "end": 20
-                                    },
-                                    "type": {
-                                        "kind": 139,
-                                        "bitwiseOrToken": null,
-                                        "bitwiseAndToken": null,
+                            "arrowPatameterList": {
+                                "kind": 342,
+                                "parameters": [
+                                    {
+                                        "kind": 281,
+                                        "ellipsisToken": null,
+                                        "left": {
+                                            "kind": 134299649,
+                                            "text": "a",
+                                            "rawText": "a",
+                                            "flags": 96,
+                                            "start": 18,
+                                            "end": 19
+                                        },
+                                        "optionalToken": {
+                                            "kind": 134217750,
+                                            "flags": 64,
+                                            "start": 19,
+                                            "end": 20
+                                        },
                                         "type": {
-                                            "kind": 134234252,
-                                            "flags": 2097216,
+                                            "kind": 139,
+                                            "bitwiseOrToken": null,
+                                            "bitwiseAndToken": null,
+                                            "type": {
+                                                "kind": 134234252,
+                                                "flags": 2097216,
+                                                "start": 21,
+                                                "end": 25
+                                            },
+                                            "flags": 2097152,
                                             "start": 21,
                                             "end": 25
                                         },
-                                        "flags": 2097152,
-                                        "start": 21,
+                                        "right": null,
+                                        "flags": 32,
+                                        "start": 18,
                                         "end": 25
-                                    },
-                                    "right": null,
-                                    "flags": 32,
-                                    "start": 18,
-                                    "end": 25
-                                }
-                            ],
+                                    }
+                                ],
+                                "trailingComma": false,
+                                "flags": 32,
+                                "start": 18,
+                                "end": 41
+                            },
                             "returnType": {
                                 "kind": 139,
                                 "bitwiseOrToken": null,
@@ -194,7 +201,7 @@ const fn = async (a?: any): Promise<void> => {};
 
 ```javascript
 
-const fn = async (a?) =>  {};
+const fn = async  =>  {};
 ```
 
 ### Diagnostics

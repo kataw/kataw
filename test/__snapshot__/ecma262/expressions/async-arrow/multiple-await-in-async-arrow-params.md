@@ -24,103 +24,110 @@ async ({ x = [ await ], y = { await } }) => {}
                 "end": 5
             },
             "typeParameters": null,
-            "arrowPatameterList": [
-                {
-                    "kind": 212,
-                    "propertyList": {
-                        "kind": 213,
-                        "properties": [
-                            {
-                                "kind": 281,
-                                "ellipsisToken": null,
-                                "left": {
-                                    "kind": 134299649,
-                                    "text": "x",
-                                    "rawText": "x",
-                                    "flags": 96,
-                                    "start": 8,
-                                    "end": 10
-                                },
-                                "optionalToken": null,
-                                "type": null,
-                                "right": {
-                                    "kind": 119,
-                                    "elementList": {
-                                        "kind": 270,
-                                        "elements": [
-                                            {
-                                                "kind": 134299649,
-                                                "text": "await",
-                                                "rawText": "await",
-                                                "flags": 96,
-                                                "start": 14,
-                                                "end": 20
-                                            }
-                                        ],
-                                        "trailingComma": false,
+            "arrowPatameterList": {
+                "kind": 342,
+                "parameters": [
+                    {
+                        "kind": 212,
+                        "propertyList": {
+                            "kind": 213,
+                            "properties": [
+                                {
+                                    "kind": 281,
+                                    "ellipsisToken": null,
+                                    "left": {
+                                        "kind": 134299649,
+                                        "text": "x",
+                                        "rawText": "x",
+                                        "flags": 96,
+                                        "start": 8,
+                                        "end": 10
+                                    },
+                                    "optionalToken": null,
+                                    "type": null,
+                                    "right": {
+                                        "kind": 119,
+                                        "elementList": {
+                                            "kind": 270,
+                                            "elements": [
+                                                {
+                                                    "kind": 134299649,
+                                                    "text": "await",
+                                                    "rawText": "await",
+                                                    "flags": 96,
+                                                    "start": 14,
+                                                    "end": 20
+                                                }
+                                            ],
+                                            "trailingComma": false,
+                                            "flags": 32,
+                                            "start": 14,
+                                            "end": 20
+                                        },
                                         "flags": 32,
-                                        "start": 14,
-                                        "end": 20
+                                        "start": 12,
+                                        "end": 22
                                     },
                                     "flags": 32,
-                                    "start": 12,
+                                    "start": 8,
                                     "end": 22
                                 },
-                                "flags": 32,
-                                "start": 8,
-                                "end": 22
-                            },
-                            {
-                                "kind": 281,
-                                "ellipsisToken": null,
-                                "left": {
-                                    "kind": 134299649,
-                                    "text": "y",
-                                    "rawText": "y",
-                                    "flags": 96,
-                                    "start": 23,
-                                    "end": 25
-                                },
-                                "optionalToken": null,
-                                "type": null,
-                                "right": {
-                                    "kind": 220,
-                                    "propertyList": {
-                                        "kind": 218,
-                                        "properties": [
-                                            {
-                                                "kind": 134299649,
-                                                "text": "await",
-                                                "rawText": "await",
-                                                "flags": 96,
-                                                "start": 29,
-                                                "end": 35
-                                            }
-                                        ],
-                                        "trailingComma": false,
-                                        "flags": 16,
-                                        "start": 29,
-                                        "end": 35
+                                {
+                                    "kind": 281,
+                                    "ellipsisToken": null,
+                                    "left": {
+                                        "kind": 134299649,
+                                        "text": "y",
+                                        "rawText": "y",
+                                        "flags": 96,
+                                        "start": 23,
+                                        "end": 25
                                     },
-                                    "flags": 48,
-                                    "start": 27,
+                                    "optionalToken": null,
+                                    "type": null,
+                                    "right": {
+                                        "kind": 220,
+                                        "propertyList": {
+                                            "kind": 218,
+                                            "properties": [
+                                                {
+                                                    "kind": 134299649,
+                                                    "text": "await",
+                                                    "rawText": "await",
+                                                    "flags": 96,
+                                                    "start": 29,
+                                                    "end": 35
+                                                }
+                                            ],
+                                            "trailingComma": false,
+                                            "flags": 16,
+                                            "start": 29,
+                                            "end": 35
+                                        },
+                                        "flags": 48,
+                                        "start": 27,
+                                        "end": 37
+                                    },
+                                    "flags": 32,
+                                    "start": 23,
                                     "end": 37
-                                },
-                                "flags": 32,
-                                "start": 23,
-                                "end": 37
-                            }
-                        ],
-                        "trailingComma": false,
-                        "flags": 32,
-                        "start": 8,
-                        "end": 37
-                    },
-                    "flags": 48,
-                    "start": 7,
-                    "end": 39
-                }
-            ],
+                                }
+                            ],
+                            "trailingComma": false,
+                            "flags": 32,
+                            "start": 8,
+                            "end": 37
+                        },
+                        "flags": 48,
+                        "start": 7,
+                        "end": 39
+                    }
+                ],
+                "trailingComma": false,
+                "flags": 34,
+                "start": 7,
+                "end": 40
+            },
             "returnType": null,
             "arrowToken": {
                 "kind": 10,
@@ -160,10 +167,7 @@ async ({ x = [ await ], y = { await } }) => {}
 
 ```javascript
 
-async ({
-  x = [await],
-  y = { await }
-}) =>  {}
+async  =>  {}
 ```
 
 ### Diagnostics

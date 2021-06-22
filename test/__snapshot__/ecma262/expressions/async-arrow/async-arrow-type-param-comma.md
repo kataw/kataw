@@ -76,16 +76,23 @@ async <T, U>(x)=>y
                 "start": 0,
                 "end": 12
             },
-            "arrowPatameterList": [
-                {
-                    "kind": 134299649,
-                    "text": "x",
-                    "rawText": "x",
-                    "flags": 96,
-                    "start": 13,
-                    "end": 14
-                }
-            ],
+            "arrowPatameterList": {
+                "kind": 342,
+                "parameters": [
+                    {
+                        "kind": 134299649,
+                        "text": "x",
+                        "rawText": "x",
+                        "flags": 96,
+                        "start": 13,
+                        "end": 14
+                    }
+                ],
+                "trailingComma": false,
+                "flags": 32,
+                "start": 13,
+                "end": 15
+            },
             "returnType": null,
             "arrowToken": {
                 "kind": 10,
@@ -119,7 +126,7 @@ async <T, U>(x)=>y
 
 ```javascript
 
-async (x) =>  y
+async  =>  y
 ```
 
 ### Diagnostics

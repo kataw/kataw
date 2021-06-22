@@ -61,24 +61,31 @@ class A extends async (x, y) => ok {}
                             "end": 21
                         },
                         "typeParameters": null,
-                        "arrowPatameterList": [
-                            {
-                                "kind": 134299649,
-                                "text": "x",
-                                "rawText": "x",
-                                "flags": 96,
-                                "start": 23,
-                                "end": 24
-                            },
-                            {
-                                "kind": 134299649,
-                                "text": "y",
-                                "rawText": "y",
-                                "flags": 96,
-                                "start": 25,
-                                "end": 27
-                            }
-                        ],
+                        "arrowPatameterList": {
+                            "kind": 342,
+                            "parameters": [
+                                {
+                                    "kind": 134299649,
+                                    "text": "x",
+                                    "rawText": "x",
+                                    "flags": 96,
+                                    "start": 23,
+                                    "end": 24
+                                },
+                                {
+                                    "kind": 134299649,
+                                    "text": "y",
+                                    "rawText": "y",
+                                    "flags": 96,
+                                    "start": 25,
+                                    "end": 27
+                                }
+                            ],
+                            "trailingComma": false,
+                            "flags": 32,
+                            "start": 23,
+                            "end": 28
+                        },
                         "returnType": null,
                         "arrowToken": {
                             "kind": 10,

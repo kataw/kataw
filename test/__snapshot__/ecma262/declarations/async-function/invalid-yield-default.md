@@ -65,47 +65,54 @@ function* wrap() {
                                 "end": 26
                             },
                             "typeParameters": null,
-                            "arrowPatameterList": [
-                                {
-                                    "kind": 281,
-                                    "ellipsisToken": null,
-                                    "left": {
-                                        "kind": 134299649,
-                                        "text": "a",
-                                        "rawText": "a",
-                                        "flags": 96,
-                                        "start": 27,
-                                        "end": 28
-                                    },
-                                    "optionalToken": null,
-                                    "type": null,
-                                    "right": {
-                                        "kind": 229,
-                                        "yieldKeyword": {
-                                            "kind": 8454253,
-                                            "flags": 64,
-                                            "start": 30,
-                                            "end": 36
-                                        },
-                                        "delegate": false,
-                                        "asteriskToken": null,
-                                        "expression": {
+                            "arrowPatameterList": {
+                                "kind": 342,
+                                "parameters": [
+                                    {
+                                        "kind": 281,
+                                        "ellipsisToken": null,
+                                        "left": {
                                             "kind": 134299649,
-                                            "text": "b",
-                                            "rawText": "b",
+                                            "text": "a",
+                                            "rawText": "a",
                                             "flags": 96,
-                                            "start": 36,
+                                            "start": 27,
+                                            "end": 28
+                                        },
+                                        "optionalToken": null,
+                                        "type": null,
+                                        "right": {
+                                            "kind": 229,
+                                            "yieldKeyword": {
+                                                "kind": 8454253,
+                                                "flags": 64,
+                                                "start": 30,
+                                                "end": 36
+                                            },
+                                            "delegate": false,
+                                            "asteriskToken": null,
+                                            "expression": {
+                                                "kind": 134299649,
+                                                "text": "b",
+                                                "rawText": "b",
+                                                "flags": 96,
+                                                "start": 36,
+                                                "end": 38
+                                            },
+                                            "flags": 32,
+                                            "start": 30,
                                             "end": 38
                                         },
                                         "flags": 32,
-                                        "start": 30,
+                                        "start": 27,
                                         "end": 38
-                                    },
-                                    "flags": 32,
-                                    "start": 27,
-                                    "end": 38
-                                }
-                            ],
+                                    }
+                                ],
+                                "trailingComma": false,
+                                "flags": 34,
+                                "start": 27,
+                                "end": 39
+                            },
                             "returnType": null,
                             "arrowToken": {
                                 "kind": 10,
@@ -160,7 +167,7 @@ function* wrap() {
 ```javascript
 
 function * wrap() {
-  async (a = yield b) =>  a
+  async  =>  a
 }
 
 ```

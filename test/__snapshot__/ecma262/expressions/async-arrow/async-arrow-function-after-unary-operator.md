@@ -34,7 +34,14 @@ delete async () => 3;
                         "end": 12
                     },
                     "typeParameters": null,
-                    "arrowPatameterList": [],
+                    "arrowPatameterList": {
+                        "kind": 342,
+                        "parameters": [],
+                        "trailingComma": false,
+                        "flags": 32,
+                        "start": 14,
+                        "end": 14
+                    },
                     "returnType": null,
                     "arrowToken": {
                         "kind": 10,
@@ -76,7 +83,7 @@ delete async () => 3;
 
 ```javascript
 
-delete async () =>  3;
+delete async  =>  3;
 ```
 
 ### Diagnostics

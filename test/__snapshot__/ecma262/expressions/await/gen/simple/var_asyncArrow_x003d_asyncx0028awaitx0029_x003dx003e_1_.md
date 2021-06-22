@@ -55,16 +55,23 @@ var asyncArrow = async(await) => 1;
                                 "end": 22
                             },
                             "typeParameters": null,
-                            "arrowPatameterList": [
-                                {
-                                    "kind": 134299649,
-                                    "text": "await",
-                                    "rawText": "await",
-                                    "flags": 96,
-                                    "start": 23,
-                                    "end": 28
-                                }
-                            ],
+                            "arrowPatameterList": {
+                                "kind": 342,
+                                "parameters": [
+                                    {
+                                        "kind": 134299649,
+                                        "text": "await",
+                                        "rawText": "await",
+                                        "flags": 96,
+                                        "start": 23,
+                                        "end": 28
+                                    }
+                                ],
+                                "trailingComma": false,
+                                "flags": 32,
+                                "start": 23,
+                                "end": 29
+                            },
                             "returnType": null,
                             "arrowToken": {
                                 "kind": 10,
@@ -111,7 +118,7 @@ var asyncArrow = async(await) => 1;
 
 ```javascript
 
-var asyncArrow = async (await) =>  1;
+var asyncArrow = async  =>  1;
 ```
 
 ### Diagnostics

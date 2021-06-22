@@ -32,62 +32,69 @@
                 "end": 6
             },
             "typeParameters": null,
-            "arrowPatameterList": [
-                {
-                    "kind": 201,
-                    "elementList": {
-                        "kind": 270,
-                        "elements": [
-                            {
-                                "kind": 281,
-                                "ellipsisToken": null,
-                                "left": {
-                                    "kind": 134299649,
-                                    "text": "y",
-                                    "rawText": "y",
-                                    "flags": 96,
-                                    "start": 11,
-                                    "end": 13
-                                },
-                                "optionalToken": null,
-                                "type": {
-                                    "kind": 139,
-                                    "bitwiseOrToken": null,
-                                    "bitwiseAndToken": null,
+            "arrowPatameterList": {
+                "kind": 342,
+                "parameters": [
+                    {
+                        "kind": 201,
+                        "elementList": {
+                            "kind": 270,
+                            "elements": [
+                                {
+                                    "kind": 281,
+                                    "ellipsisToken": null,
+                                    "left": {
+                                        "kind": 134299649,
+                                        "text": "y",
+                                        "rawText": "y",
+                                        "flags": 96,
+                                        "start": 11,
+                                        "end": 13
+                                    },
+                                    "optionalToken": null,
                                     "type": {
-                                        "kind": 134234345,
-                                        "flags": 2097216,
+                                        "kind": 139,
+                                        "bitwiseOrToken": null,
+                                        "bitwiseAndToken": null,
+                                        "type": {
+                                            "kind": 134234345,
+                                            "flags": 2097216,
+                                            "start": 14,
+                                            "end": 21
+                                        },
+                                        "flags": 2097152,
                                         "start": 14,
                                         "end": 21
                                     },
-                                    "flags": 2097152,
-                                    "start": 14,
+                                    "right": null,
+                                    "flags": 32,
+                                    "start": 11,
                                     "end": 21
                                 },
-                                "right": null,
-                                "flags": 32,
-                                "start": 11,
-                                "end": 21
-                            },
-                            {
-                                "kind": 134299649,
-                                "text": "x",
-                                "rawText": "x",
-                                "flags": 96,
-                                "start": 9,
-                                "end": 10
-                            }
-                        ],
-                        "trailingComma": false,
+                                {
+                                    "kind": 134299649,
+                                    "text": "x",
+                                    "rawText": "x",
+                                    "flags": 96,
+                                    "start": 9,
+                                    "end": 10
+                                }
+                            ],
+                            "trailingComma": false,
+                            "flags": 32,
+                            "start": 9,
+                            "end": 21
+                        },
                         "flags": 32,
-                        "start": 9,
-                        "end": 21
-                    },
-                    "flags": 32,
-                    "start": 8,
-                    "end": 22
-                }
-            ],
+                        "start": 8,
+                        "end": 22
+                    }
+                ],
+                "trailingComma": false,
+                "flags": 34,
+                "start": 8,
+                "end": 23
+            },
             "returnType": null,
             "arrowToken": {
                 "kind": 10,
@@ -133,7 +140,7 @@
 
 ```javascript
 
-async ([, x]) =>  {}
+async  =>  {}
 
 ```
 

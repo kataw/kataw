@@ -128,16 +128,23 @@ export default async (x) => (y, z);
                     "end": 54
                 },
                 "typeParameters": null,
-                "arrowPatameterList": [
-                    {
-                        "kind": 134299649,
-                        "text": "x",
-                        "rawText": "x",
-                        "flags": 96,
-                        "start": 56,
-                        "end": 57
-                    }
-                ],
+                "arrowPatameterList": {
+                    "kind": 342,
+                    "parameters": [
+                        {
+                            "kind": 134299649,
+                            "text": "x",
+                            "rawText": "x",
+                            "flags": 96,
+                            "start": 56,
+                            "end": 57
+                        }
+                    ],
+                    "trailingComma": false,
+                    "flags": 32,
+                    "start": 56,
+                    "end": 58
+                },
                 "returnType": null,
                 "arrowToken": {
                     "kind": 10,
@@ -204,7 +211,7 @@ export default async (x) => (y, z);
 ```javascript
 
 export default async x =>  (y, z);;
-export default async (x) =>  (y, z);
+export default async  =>  (y, z);
 
 ```
 

@@ -126,16 +126,23 @@ async <A = B, C = D>(x) => y;
                     "start": 0,
                     "end": 20
                 },
-                "arrowPatameterList": [
-                    {
-                        "kind": 134299649,
-                        "text": "x",
-                        "rawText": "x",
-                        "flags": 96,
-                        "start": 21,
-                        "end": 22
-                    }
-                ],
+                "arrowPatameterList": {
+                    "kind": 342,
+                    "parameters": [
+                        {
+                            "kind": 134299649,
+                            "text": "x",
+                            "rawText": "x",
+                            "flags": 96,
+                            "start": 21,
+                            "end": 22
+                        }
+                    ],
+                    "trailingComma": false,
+                    "flags": 32,
+                    "start": 21,
+                    "end": 23
+                },
                 "returnType": null,
                 "arrowToken": {
                     "kind": 10,
@@ -262,16 +269,23 @@ async <A = B, C = D>(x) => y;
                         "start": 32,
                         "end": 52
                     },
-                    "arrowPatameterList": [
-                        {
-                            "kind": 134299649,
-                            "text": "x",
-                            "rawText": "x",
-                            "flags": 96,
-                            "start": 53,
-                            "end": 54
-                        }
-                    ],
+                    "arrowPatameterList": {
+                        "kind": 342,
+                        "parameters": [
+                            {
+                                "kind": 134299649,
+                                "text": "x",
+                                "rawText": "x",
+                                "flags": 96,
+                                "start": 53,
+                                "end": 54
+                            }
+                        ],
+                        "trailingComma": false,
+                        "flags": 32,
+                        "start": 53,
+                        "end": 55
+                    },
                     "returnType": null,
                     "arrowToken": {
                         "kind": 10,
@@ -313,8 +327,8 @@ async <A = B, C = D>(x) => y;
 
 ```javascript
 
-async (x) =>  y;
-(async (x) =>  y);
+async  =>  y;
+(async  =>  y);
 ```
 
 ### Diagnostics

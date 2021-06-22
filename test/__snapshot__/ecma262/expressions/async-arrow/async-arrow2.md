@@ -65,7 +65,14 @@ async <T>() => {}
                     "start": 0,
                     "end": 9
                 },
-                "arrowPatameterList": [],
+                "arrowPatameterList": {
+                    "kind": 342,
+                    "parameters": [],
+                    "trailingComma": false,
+                    "flags": 32,
+                    "start": 10,
+                    "end": 10
+                },
                 "returnType": null,
                 "arrowToken": {
                     "kind": 10,
@@ -109,7 +116,7 @@ async <T>() => {}
 
 ```javascript
 
-async () =>  {};
+async  =>  {};
 ```
 
 ### Diagnostics

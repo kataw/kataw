@@ -68,24 +68,31 @@ function f(a = async (x, y) => ok) {}
                                 "end": 20
                             },
                             "typeParameters": null,
-                            "arrowPatameterList": [
-                                {
-                                    "kind": 134299649,
-                                    "text": "x",
-                                    "rawText": "x",
-                                    "flags": 96,
-                                    "start": 22,
-                                    "end": 23
-                                },
-                                {
-                                    "kind": 134299649,
-                                    "text": "y",
-                                    "rawText": "y",
-                                    "flags": 96,
-                                    "start": 24,
-                                    "end": 26
-                                }
-                            ],
+                            "arrowPatameterList": {
+                                "kind": 342,
+                                "parameters": [
+                                    {
+                                        "kind": 134299649,
+                                        "text": "x",
+                                        "rawText": "x",
+                                        "flags": 96,
+                                        "start": 22,
+                                        "end": 23
+                                    },
+                                    {
+                                        "kind": 134299649,
+                                        "text": "y",
+                                        "rawText": "y",
+                                        "flags": 96,
+                                        "start": 24,
+                                        "end": 26
+                                    }
+                                ],
+                                "trailingComma": false,
+                                "flags": 32,
+                                "start": 22,
+                                "end": 27
+                            },
                             "returnType": null,
                             "arrowToken": {
                                 "kind": 10,

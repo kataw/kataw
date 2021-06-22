@@ -24,103 +24,110 @@ async (x = async([(f) = []])) => {};
                 "end": 5
             },
             "typeParameters": null,
-            "arrowPatameterList": [
-                {
-                    "kind": 281,
-                    "ellipsisToken": null,
-                    "left": {
-                        "kind": 134299649,
-                        "text": "x",
-                        "rawText": "x",
-                        "flags": 96,
-                        "start": 7,
-                        "end": 8
-                    },
-                    "optionalToken": null,
-                    "type": null,
-                    "right": {
-                        "kind": 131,
-                        "expression": {
+            "arrowPatameterList": {
+                "kind": 342,
+                "parameters": [
+                    {
+                        "kind": 281,
+                        "ellipsisToken": null,
+                        "left": {
                             "kind": 134299649,
-                            "text": "async",
-                            "rawText": "async",
+                            "text": "x",
+                            "rawText": "x",
                             "flags": 96,
-                            "start": 10,
-                            "end": 16
+                            "start": 7,
+                            "end": 8
                         },
-                        "argumentList": {
-                            "kind": 256,
-                            "elements": [
-                                {
-                                    "kind": 119,
-                                    "elementList": {
-                                        "kind": 270,
-                                        "elements": [
-                                            {
-                                                "kind": 125,
-                                                "left": {
-                                                    "kind": 121,
-                                                    "expression": {
-                                                        "kind": 134299649,
-                                                        "text": "f",
-                                                        "rawText": "f",
+                        "optionalToken": null,
+                        "type": null,
+                        "right": {
+                            "kind": 131,
+                            "expression": {
+                                "kind": 134299649,
+                                "text": "async",
+                                "rawText": "async",
+                                "flags": 96,
+                                "start": 10,
+                                "end": 16
+                            },
+                            "argumentList": {
+                                "kind": 256,
+                                "elements": [
+                                    {
+                                        "kind": 119,
+                                        "elementList": {
+                                            "kind": 270,
+                                            "elements": [
+                                                {
+                                                    "kind": 125,
+                                                    "left": {
+                                                        "kind": 121,
+                                                        "expression": {
+                                                            "kind": 134299649,
+                                                            "text": "f",
+                                                            "rawText": "f",
+                                                            "flags": 96,
+                                                            "start": 19,
+                                                            "end": 20
+                                                        },
+                                                        "flags": 32,
+                                                        "start": 18,
+                                                        "end": 21
+                                                    },
+                                                    "operatorToken": {
+                                                        "kind": 4125,
                                                         "flags": 96,
-                                                        "start": 19,
-                                                        "end": 20
+                                                        "start": 21,
+                                                        "end": 23
+                                                    },
+                                                    "right": {
+                                                        "kind": 119,
+                                                        "elementList": {
+                                                            "kind": 270,
+                                                            "elements": [],
+                                                            "trailingComma": false,
+                                                            "flags": 32,
+                                                            "start": 25,
+                                                            "end": 25
+                                                        },
+                                                        "flags": 32,
+                                                        "start": 23,
+                                                        "end": 26
                                                     },
                                                     "flags": 32,
                                                     "start": 18,
-                                                    "end": 21
-                                                },
-                                                "operatorToken": {
-                                                    "kind": 4125,
-                                                    "flags": 96,
-                                                    "start": 21,
-                                                    "end": 23
-                                                },
-                                                "right": {
-                                                    "kind": 119,
-                                                    "elementList": {
-                                                        "kind": 270,
-                                                        "elements": [],
-                                                        "trailingComma": false,
-                                                        "flags": 32,
-                                                        "start": 25,
-                                                        "end": 25
-                                                    },
-                                                    "flags": 32,
-                                                    "start": 23,
                                                     "end": 26
-                                                },
-                                                "flags": 32,
-                                                "start": 18,
-                                                "end": 26
-                                            }
-                                        ],
-                                        "trailingComma": false,
+                                                }
+                                            ],
+                                            "trailingComma": false,
+                                            "flags": 32,
+                                            "start": 18,
+                                            "end": 26
+                                        },
                                         "flags": 32,
-                                        "start": 18,
-                                        "end": 26
-                                    },
-                                    "flags": 32,
-                                    "start": 17,
-                                    "end": 27
-                                }
-                            ],
-                            "trailingComma": false,
-                            "flags": 32,
+                                        "start": 17,
+                                        "end": 27
+                                    }
+                                ],
+                                "trailingComma": false,
+                                "flags": 32,
+                                "start": 10,
+                                "end": 10
+                            },
+                            "flags": 268435490,
                             "start": 10,
-                            "end": 10
+                            "end": 28
                         },
-                        "flags": 268435490,
-                        "start": 10,
+                        "flags": 32,
+                        "start": 7,
                         "end": 28
-                    },
-                    "flags": 32,
-                    "start": 7,
-                    "end": 28
-                }
-            ],
+                    }
+                ],
+                "trailingComma": false,
+                "flags": 34,
+                "start": 7,
+                "end": 29
+            },
             "returnType": null,
             "arrowToken": {
                 "kind": 10,
@@ -166,7 +173,7 @@ async (x = async([(f) = []])) => {};
 
 ```javascript
 
-async (x = async([(f) = []])) =>  {}
+async  =>  {}
 
 ```
 

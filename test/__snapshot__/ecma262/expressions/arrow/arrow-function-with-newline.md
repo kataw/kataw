@@ -33,16 +33,23 @@ async (f)
                 "end": 5
             },
             "typeParameters": null,
-            "arrowPatameterList": [
-                {
-                    "kind": 134299649,
-                    "text": "f",
-                    "rawText": "f",
-                    "flags": 96,
-                    "start": 7,
-                    "end": 8
-                }
-            ],
+            "arrowPatameterList": {
+                "kind": 342,
+                "parameters": [
+                    {
+                        "kind": 134299649,
+                        "text": "f",
+                        "rawText": "f",
+                        "flags": 96,
+                        "start": 7,
+                        "end": 8
+                    }
+                ],
+                "trailingComma": false,
+                "flags": 32,
+                "start": 7,
+                "end": 13
+            },
             "returnType": {
                 "kind": 139,
                 "bitwiseOrToken": null,
@@ -104,7 +111,7 @@ async (f)
 
 ```javascript
 
-async (f) =>  {}
+async  =>  {}
 ```
 
 ### Diagnostics

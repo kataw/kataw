@@ -46,7 +46,14 @@ await (async () => {})(); // equivalent to: await((async () => {})())
                                 "end": 13
                             },
                             "typeParameters": null,
-                            "arrowPatameterList": [],
+                            "arrowPatameterList": {
+                                "kind": 342,
+                                "parameters": [],
+                                "trailingComma": false,
+                                "flags": 32,
+                                "start": 15,
+                                "end": 15
+                            },
                             "returnType": null,
                             "arrowToken": {
                                 "kind": 10,
@@ -110,7 +117,7 @@ await (async () => {})(); // equivalent to: await((async () => {})())
 
 ```javascript
 
-await (async () =>  {})(); // equivalent to: await((async () => {})())
+await (async  =>  {})(); // equivalent to: await((async () => {})())
 
 ```
 

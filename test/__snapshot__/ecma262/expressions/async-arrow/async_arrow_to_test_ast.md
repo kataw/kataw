@@ -82,7 +82,14 @@ let f = a + b + async()=>d
                                     "end": 21
                                 },
                                 "typeParameters": null,
-                                "arrowPatameterList": [],
+                                "arrowPatameterList": {
+                                    "kind": 342,
+                                    "parameters": [],
+                                    "trailingComma": false,
+                                    "flags": 32,
+                                    "start": 22,
+                                    "end": 22
+                                },
                                 "returnType": null,
                                 "arrowToken": {
                                     "kind": 10,
@@ -133,7 +140,7 @@ let f = a + b + async()=>d
 
 ```javascript
 
-let f = a + b + async () =>  d;
+let f = a + b + async  =>  d;
 ```
 
 ### Diagnostics

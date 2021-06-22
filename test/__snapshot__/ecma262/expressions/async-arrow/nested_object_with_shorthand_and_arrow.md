@@ -24,61 +24,68 @@ async ({ident: {x}}) => x
                 "end": 5
             },
             "typeParameters": null,
-            "arrowPatameterList": [
-                {
-                    "kind": 212,
-                    "propertyList": {
-                        "kind": 213,
-                        "properties": [
-                            {
-                                "kind": 329,
-                                "key": {
-                                    "kind": 134299649,
-                                    "text": "ident",
-                                    "rawText": "ident",
-                                    "flags": 96,
-                                    "start": 8,
-                                    "end": 13
-                                },
-                                "value": {
-                                    "kind": 220,
-                                    "propertyList": {
-                                        "kind": 218,
-                                        "properties": [
-                                            {
-                                                "kind": 134299649,
-                                                "text": "x",
-                                                "rawText": "x",
-                                                "flags": 96,
-                                                "start": 16,
-                                                "end": 17
-                                            }
-                                        ],
-                                        "trailingComma": false,
-                                        "flags": 16,
-                                        "start": 16,
-                                        "end": 17
+            "arrowPatameterList": {
+                "kind": 342,
+                "parameters": [
+                    {
+                        "kind": 212,
+                        "propertyList": {
+                            "kind": 213,
+                            "properties": [
+                                {
+                                    "kind": 329,
+                                    "key": {
+                                        "kind": 134299649,
+                                        "text": "ident",
+                                        "rawText": "ident",
+                                        "flags": 96,
+                                        "start": 8,
+                                        "end": 13
                                     },
-                                    "flags": 48,
-                                    "start": 14,
+                                    "value": {
+                                        "kind": 220,
+                                        "propertyList": {
+                                            "kind": 218,
+                                            "properties": [
+                                                {
+                                                    "kind": 134299649,
+                                                    "text": "x",
+                                                    "rawText": "x",
+                                                    "flags": 96,
+                                                    "start": 16,
+                                                    "end": 17
+                                                }
+                                            ],
+                                            "trailingComma": false,
+                                            "flags": 16,
+                                            "start": 16,
+                                            "end": 17
+                                        },
+                                        "flags": 48,
+                                        "start": 14,
+                                        "end": 18
+                                    },
+                                    "initializer": null,
+                                    "flags": 32,
+                                    "start": 8,
                                     "end": 18
-                                },
-                                "initializer": null,
-                                "flags": 32,
-                                "start": 8,
-                                "end": 18
-                            }
-                        ],
-                        "trailingComma": false,
-                        "flags": 32,
-                        "start": 8,
-                        "end": 18
-                    },
-                    "flags": 48,
-                    "start": 7,
-                    "end": 19
-                }
-            ],
+                                }
+                            ],
+                            "trailingComma": false,
+                            "flags": 32,
+                            "start": 8,
+                            "end": 18
+                        },
+                        "flags": 48,
+                        "start": 7,
+                        "end": 19
+                    }
+                ],
+                "trailingComma": false,
+                "flags": 34,
+                "start": 7,
+                "end": 20
+            },
             "returnType": null,
             "arrowToken": {
                 "kind": 10,
@@ -112,9 +119,7 @@ async ({ident: {x}}) => x
 
 ```javascript
 
-async ({
-  ident: { x }
-}) =>  x
+async  =>  x
 ```
 
 ### Diagnostics

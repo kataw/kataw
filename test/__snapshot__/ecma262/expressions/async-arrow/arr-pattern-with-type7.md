@@ -32,92 +32,99 @@ async ([x: string = y, z: number]) =>  {};
                 "end": 5
             },
             "typeParameters": null,
-            "arrowPatameterList": [
-                {
-                    "kind": 201,
-                    "elementList": {
-                        "kind": 270,
-                        "elements": [
-                            {
-                                "kind": 281,
-                                "ellipsisToken": null,
-                                "left": {
-                                    "kind": 134299649,
-                                    "text": "z",
-                                    "rawText": "z",
-                                    "flags": 96,
-                                    "start": 22,
-                                    "end": 24
-                                },
-                                "optionalToken": null,
-                                "type": {
-                                    "kind": 139,
-                                    "bitwiseOrToken": null,
-                                    "bitwiseAndToken": null,
+            "arrowPatameterList": {
+                "kind": 342,
+                "parameters": [
+                    {
+                        "kind": 201,
+                        "elementList": {
+                            "kind": 270,
+                            "elements": [
+                                {
+                                    "kind": 281,
+                                    "ellipsisToken": null,
+                                    "left": {
+                                        "kind": 134299649,
+                                        "text": "z",
+                                        "rawText": "z",
+                                        "flags": 96,
+                                        "start": 22,
+                                        "end": 24
+                                    },
+                                    "optionalToken": null,
                                     "type": {
-                                        "kind": 134234345,
-                                        "flags": 2097216,
+                                        "kind": 139,
+                                        "bitwiseOrToken": null,
+                                        "bitwiseAndToken": null,
+                                        "type": {
+                                            "kind": 134234345,
+                                            "flags": 2097216,
+                                            "start": 25,
+                                            "end": 32
+                                        },
+                                        "flags": 2097152,
                                         "start": 25,
                                         "end": 32
                                     },
-                                    "flags": 2097152,
-                                    "start": 25,
+                                    "right": null,
+                                    "flags": 32,
+                                    "start": 22,
                                     "end": 32
                                 },
-                                "right": null,
-                                "flags": 32,
-                                "start": 22,
-                                "end": 32
-                            },
-                            {
-                                "kind": 281,
-                                "ellipsisToken": null,
-                                "left": {
-                                    "kind": 134299649,
-                                    "text": "x",
-                                    "rawText": "x",
-                                    "flags": 96,
-                                    "start": 8,
-                                    "end": 9
-                                },
-                                "optionalToken": null,
-                                "type": {
-                                    "kind": 139,
-                                    "bitwiseOrToken": null,
-                                    "bitwiseAndToken": null,
+                                {
+                                    "kind": 281,
+                                    "ellipsisToken": null,
+                                    "left": {
+                                        "kind": 134299649,
+                                        "text": "x",
+                                        "rawText": "x",
+                                        "flags": 96,
+                                        "start": 8,
+                                        "end": 9
+                                    },
+                                    "optionalToken": null,
                                     "type": {
-                                        "kind": 134234347,
-                                        "flags": 2097216,
+                                        "kind": 139,
+                                        "bitwiseOrToken": null,
+                                        "bitwiseAndToken": null,
+                                        "type": {
+                                            "kind": 134234347,
+                                            "flags": 2097216,
+                                            "start": 10,
+                                            "end": 17
+                                        },
+                                        "flags": 2097152,
                                         "start": 10,
                                         "end": 17
                                     },
-                                    "flags": 2097152,
-                                    "start": 10,
-                                    "end": 17
-                                },
-                                "right": {
-                                    "kind": 134299649,
-                                    "text": "y",
-                                    "rawText": "y",
-                                    "flags": 96,
-                                    "start": 19,
+                                    "right": {
+                                        "kind": 134299649,
+                                        "text": "y",
+                                        "rawText": "y",
+                                        "flags": 96,
+                                        "start": 19,
+                                        "end": 21
+                                    },
+                                    "flags": 32,
+                                    "start": 8,
                                     "end": 21
-                                },
-                                "flags": 32,
-                                "start": 8,
-                                "end": 21
-                            }
-                        ],
-                        "trailingComma": false,
+                                }
+                            ],
+                            "trailingComma": false,
+                            "flags": 32,
+                            "start": 8,
+                            "end": 32
+                        },
                         "flags": 32,
-                        "start": 8,
-                        "end": 32
-                    },
-                    "flags": 32,
-                    "start": 7,
-                    "end": 33
-                }
-            ],
+                        "start": 7,
+                        "end": 33
+                    }
+                ],
+                "trailingComma": false,
+                "flags": 34,
+                "start": 7,
+                "end": 34
+            },
             "returnType": null,
             "arrowToken": {
                 "kind": 10,
@@ -163,7 +170,7 @@ async ([x: string = y, z: number]) =>  {};
 
 ```javascript
 
-async ([, ]) =>  {}
+async  =>  {}
 
 ```
 

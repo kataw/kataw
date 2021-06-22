@@ -42,24 +42,31 @@ delete async (x, y) => ok
                         "end": 12
                     },
                     "typeParameters": null,
-                    "arrowPatameterList": [
-                        {
-                            "kind": 134299649,
-                            "text": "x",
-                            "rawText": "x",
-                            "flags": 96,
-                            "start": 14,
-                            "end": 15
-                        },
-                        {
-                            "kind": 134299649,
-                            "text": "y",
-                            "rawText": "y",
-                            "flags": 96,
-                            "start": 16,
-                            "end": 18
-                        }
-                    ],
+                    "arrowPatameterList": {
+                        "kind": 342,
+                        "parameters": [
+                            {
+                                "kind": 134299649,
+                                "text": "x",
+                                "rawText": "x",
+                                "flags": 96,
+                                "start": 14,
+                                "end": 15
+                            },
+                            {
+                                "kind": 134299649,
+                                "text": "y",
+                                "rawText": "y",
+                                "flags": 96,
+                                "start": 16,
+                                "end": 18
+                            }
+                        ],
+                        "trailingComma": false,
+                        "flags": 32,
+                        "start": 14,
+                        "end": 19
+                    },
                     "returnType": null,
                     "arrowToken": {
                         "kind": 10,
@@ -101,7 +108,7 @@ delete async (x, y) => ok
 
 ```javascript
 
-delete async (x, y) =>  ok;
+delete async  =>  ok;
 ```
 
 ### Diagnostics

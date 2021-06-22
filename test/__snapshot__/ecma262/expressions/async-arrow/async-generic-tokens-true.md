@@ -64,48 +64,55 @@ async <T>(a: T): T => a;
                     "start": 0,
                     "end": 9
                 },
-                "arrowPatameterList": [
-                    {
-                        "kind": 281,
-                        "ellipsisToken": null,
-                        "left": {
-                            "kind": 134299649,
-                            "text": "a",
-                            "rawText": "a",
-                            "flags": 96,
-                            "start": 10,
-                            "end": 11
-                        },
-                        "optionalToken": null,
-                        "type": {
-                            "kind": 139,
-                            "bitwiseOrToken": null,
-                            "bitwiseAndToken": null,
+                "arrowPatameterList": {
+                    "kind": 342,
+                    "parameters": [
+                        {
+                            "kind": 281,
+                            "ellipsisToken": null,
+                            "left": {
+                                "kind": 134299649,
+                                "text": "a",
+                                "rawText": "a",
+                                "flags": 96,
+                                "start": 10,
+                                "end": 11
+                            },
+                            "optionalToken": null,
                             "type": {
-                                "kind": 144,
-                                "typeName": {
-                                    "kind": 134299649,
-                                    "text": "T",
-                                    "rawText": "T",
-                                    "flags": 96,
+                                "kind": 139,
+                                "bitwiseOrToken": null,
+                                "bitwiseAndToken": null,
+                                "type": {
+                                    "kind": 144,
+                                    "typeName": {
+                                        "kind": 134299649,
+                                        "text": "T",
+                                        "rawText": "T",
+                                        "flags": 96,
+                                        "start": 12,
+                                        "end": 14
+                                    },
+                                    "typeParameters": null,
+                                    "flags": 2097152,
                                     "start": 12,
                                     "end": 14
                                 },
-                                "typeParameters": null,
                                 "flags": 2097152,
                                 "start": 12,
                                 "end": 14
                             },
-                            "flags": 2097152,
-                            "start": 12,
+                            "right": null,
+                            "flags": 32,
+                            "start": 10,
                             "end": 14
-                        },
-                        "right": null,
-                        "flags": 32,
-                        "start": 10,
-                        "end": 14
-                    }
-                ],
+                        }
+                    ],
+                    "trailingComma": false,
+                    "flags": 32,
+                    "start": 10,
+                    "end": 18
+                },
                 "returnType": {
                     "kind": 139,
                     "bitwiseOrToken": null,
@@ -165,7 +172,7 @@ async <T>(a: T): T => a;
 
 ```javascript
 
-async (a) =>  a;
+async  =>  a;
 ```
 
 ### Diagnostics

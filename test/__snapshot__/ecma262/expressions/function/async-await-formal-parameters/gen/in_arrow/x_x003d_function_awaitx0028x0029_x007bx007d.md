@@ -64,71 +64,78 @@
                                 "end": 27
                             },
                             "typeParameters": null,
-                            "arrowPatameterList": [
-                                {
-                                    "kind": 281,
-                                    "ellipsisToken": null,
-                                    "left": {
-                                        "kind": 134299649,
-                                        "text": "x",
-                                        "rawText": "x",
-                                        "flags": 96,
-                                        "start": 28,
-                                        "end": 29
-                                    },
-                                    "optionalToken": null,
-                                    "type": null,
-                                    "right": {
-                                        "kind": 177,
-                                        "asyncKeyword": null,
-                                        "functionKeyword": {
-                                            "kind": 37822554,
-                                            "flags": 64,
-                                            "start": 31,
-                                            "end": 40
-                                        },
-                                        "asteriskToken": null,
-                                        "name": {
+                            "arrowPatameterList": {
+                                "kind": 342,
+                                "parameters": [
+                                    {
+                                        "kind": 281,
+                                        "ellipsisToken": null,
+                                        "left": {
                                             "kind": 134299649,
-                                            "text": "await",
-                                            "rawText": "await",
+                                            "text": "x",
+                                            "rawText": "x",
                                             "flags": 96,
-                                            "start": 40,
-                                            "end": 46
+                                            "start": 28,
+                                            "end": 29
                                         },
-                                        "typeParameters": null,
-                                        "formalParameterList": {
-                                            "kind": 214,
-                                            "formalParameters": [],
-                                            "trailingComma": false,
-                                            "flags": 32,
-                                            "start": 46,
-                                            "end": 48
-                                        },
-                                        "contents": {
-                                            "kind": 216,
-                                            "functionStatementList": {
-                                                "kind": 217,
-                                                "directives": [],
-                                                "statements": [],
-                                                "flags": 32,
-                                                "start": 50,
-                                                "end": 50
+                                        "optionalToken": null,
+                                        "type": null,
+                                        "right": {
+                                            "kind": 177,
+                                            "asyncKeyword": null,
+                                            "functionKeyword": {
+                                                "kind": 37822554,
+                                                "flags": 64,
+                                                "start": 31,
+                                                "end": 40
                                             },
+                                            "asteriskToken": null,
+                                            "name": {
+                                                "kind": 134299649,
+                                                "text": "await",
+                                                "rawText": "await",
+                                                "flags": 96,
+                                                "start": 40,
+                                                "end": 46
+                                            },
+                                            "typeParameters": null,
+                                            "formalParameterList": {
+                                                "kind": 214,
+                                                "formalParameters": [],
+                                                "trailingComma": false,
+                                                "flags": 32,
+                                                "start": 46,
+                                                "end": 48
+                                            },
+                                            "contents": {
+                                                "kind": 216,
+                                                "functionStatementList": {
+                                                    "kind": 217,
+                                                    "directives": [],
+                                                    "statements": [],
+                                                    "flags": 32,
+                                                    "start": 50,
+                                                    "end": 50
+                                                },
+                                                "flags": 32,
+                                                "start": 48,
+                                                "end": 51
+                                            },
+                                            "returnType": null,
                                             "flags": 32,
-                                            "start": 48,
+                                            "start": 31,
                                             "end": 51
                                         },
-                                        "returnType": null,
                                         "flags": 32,
-                                        "start": 31,
+                                        "start": 28,
                                         "end": 51
-                                    },
-                                    "flags": 32,
-                                    "start": 28,
-                                    "end": 51
-                                }
-                            ],
+                                    }
+                                ],
+                                "trailingComma": false,
+                                "flags": 34,
+                                "start": 28,
+                                "end": 52
+                            },
                             "returnType": null,
                             "arrowToken": {
                                 "kind": 10,
@@ -181,7 +188,7 @@
 
 ```javascript
 
-var f = async (x = function await() {}) =>  {};
+var f = async  =>  {};
 ```
 
 ### Diagnostics

@@ -85,24 +85,31 @@ function *f() {
                                         "end": 29
                                     },
                                     "typeParameters": null,
-                                    "arrowPatameterList": [
-                                        {
-                                            "kind": 134299649,
-                                            "text": "x",
-                                            "rawText": "x",
-                                            "flags": 96,
-                                            "start": 31,
-                                            "end": 32
-                                        },
-                                        {
-                                            "kind": 134299649,
-                                            "text": "y",
-                                            "rawText": "y",
-                                            "flags": 96,
-                                            "start": 33,
-                                            "end": 35
-                                        }
-                                    ],
+                                    "arrowPatameterList": {
+                                        "kind": 342,
+                                        "parameters": [
+                                            {
+                                                "kind": 134299649,
+                                                "text": "x",
+                                                "rawText": "x",
+                                                "flags": 96,
+                                                "start": 31,
+                                                "end": 32
+                                            },
+                                            {
+                                                "kind": 134299649,
+                                                "text": "y",
+                                                "rawText": "y",
+                                                "flags": 96,
+                                                "start": 33,
+                                                "end": 35
+                                            }
+                                        ],
+                                        "trailingComma": false,
+                                        "flags": 32,
+                                        "start": 31,
+                                        "end": 36
+                                    },
                                     "returnType": null,
                                     "arrowToken": {
                                         "kind": 10,
@@ -159,7 +166,7 @@ function *f() {
 ```javascript
 
 function * f() {
-  yield async (x, y) =>  ok;
+  yield async  =>  ok;
 }
 ```
 

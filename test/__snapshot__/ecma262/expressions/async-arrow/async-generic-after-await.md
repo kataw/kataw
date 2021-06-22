@@ -35,7 +35,14 @@ async () => {
                 "end": 5
             },
             "typeParameters": null,
-            "arrowPatameterList": [],
+            "arrowPatameterList": {
+                "kind": 342,
+                "parameters": [],
+                "trailingComma": false,
+                "flags": 32,
+                "start": 7,
+                "end": 7
+            },
             "returnType": null,
             "arrowToken": {
                 "kind": 10,
@@ -114,7 +121,14 @@ async () => {
                                     "start": 27,
                                     "end": 39
                                 },
-                                "arrowPatameterList": [],
+                                "arrowPatameterList": {
+                                    "kind": 342,
+                                    "parameters": [],
+                                    "trailingComma": false,
+                                    "flags": 32,
+                                    "start": 40,
+                                    "end": 40
+                                },
                                 "returnType": null,
                                 "arrowToken": {
                                     "kind": 10,
@@ -169,9 +183,9 @@ async () => {
 
 ```javascript
 
-async () =>  {
+async  =>  {
   await null;
-  async () =>  null;
+  async  =>  null;
 }
 
 ```

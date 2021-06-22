@@ -50,16 +50,23 @@ a ? async (b) => (c => d) : e => f;
                         "end": 9
                     },
                     "typeParameters": null,
-                    "arrowPatameterList": [
-                        {
-                            "kind": 134299649,
-                            "text": "b",
-                            "rawText": "b",
-                            "flags": 96,
-                            "start": 11,
-                            "end": 12
-                        }
-                    ],
+                    "arrowPatameterList": {
+                        "kind": 342,
+                        "parameters": [
+                            {
+                                "kind": 134299649,
+                                "text": "b",
+                                "rawText": "b",
+                                "flags": 96,
+                                "start": 11,
+                                "end": 12
+                            }
+                        ],
+                        "trailingComma": false,
+                        "flags": 32,
+                        "start": 11,
+                        "end": 13
+                    },
                     "returnType": null,
                     "arrowToken": {
                         "kind": 10,

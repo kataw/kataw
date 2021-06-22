@@ -24,31 +24,38 @@ async (a, ...b) => a;
                 "end": 5
             },
             "typeParameters": null,
-            "arrowPatameterList": [
-                {
-                    "kind": 134299649,
-                    "text": "a",
-                    "rawText": "a",
-                    "flags": 96,
-                    "start": 7,
-                    "end": 8
-                },
-                {
-                    "kind": 281,
-                    "ellipsisToken": {
-                        "kind": 524302,
-                        "flags": 64,
-                        "start": 9,
-                        "end": 13
+            "arrowPatameterList": {
+                "kind": 342,
+                "parameters": [
+                    {
+                        "kind": 134299649,
+                        "text": "a",
+                        "rawText": "a",
+                        "flags": 96,
+                        "start": 7,
+                        "end": 8
                     },
-                    "optionalToken": null,
-                    "type": null,
-                    "right": null,
-                    "flags": 32,
-                    "start": 9,
-                    "end": 14
-                }
-            ],
+                    {
+                        "kind": 281,
+                        "ellipsisToken": {
+                            "kind": 524302,
+                            "flags": 64,
+                            "start": 9,
+                            "end": 13
+                        },
+                        "optionalToken": null,
+                        "type": null,
+                        "right": null,
+                        "flags": 32,
+                        "start": 9,
+                        "end": 14
+                    }
+                ],
+                "trailingComma": false,
+                "flags": 34,
+                "start": 7,
+                "end": 15
+            },
             "returnType": null,
             "arrowToken": {
                 "kind": 10,
@@ -88,7 +95,7 @@ async (a, ...b) => a;
 
 ```javascript
 
-async (a, ...) =>  a
+async  =>  a
 
 ```
 

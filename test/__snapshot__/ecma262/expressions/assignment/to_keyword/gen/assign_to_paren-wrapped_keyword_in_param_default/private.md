@@ -32,59 +32,66 @@ async (x = (private) = f) => {}
                 "end": 5
             },
             "typeParameters": null,
-            "arrowPatameterList": [
-                {
-                    "kind": 281,
-                    "ellipsisToken": null,
-                    "left": {
-                        "kind": 134299649,
-                        "text": "x",
-                        "rawText": "x",
-                        "flags": 96,
-                        "start": 7,
-                        "end": 8
-                    },
-                    "optionalToken": null,
-                    "type": null,
-                    "right": {
-                        "kind": 125,
+            "arrowPatameterList": {
+                "kind": 342,
+                "parameters": [
+                    {
+                        "kind": 281,
+                        "ellipsisToken": null,
                         "left": {
-                            "kind": 121,
-                            "expression": {
-                                "kind": 134299649,
-                                "text": "private",
-                                "rawText": "private",
+                            "kind": 134299649,
+                            "text": "x",
+                            "rawText": "x",
+                            "flags": 96,
+                            "start": 7,
+                            "end": 8
+                        },
+                        "optionalToken": null,
+                        "type": null,
+                        "right": {
+                            "kind": 125,
+                            "left": {
+                                "kind": 121,
+                                "expression": {
+                                    "kind": 134299649,
+                                    "text": "private",
+                                    "rawText": "private",
+                                    "flags": 96,
+                                    "start": 12,
+                                    "end": 19
+                                },
+                                "flags": 32,
+                                "start": 10,
+                                "end": 20
+                            },
+                            "operatorToken": {
+                                "kind": 4125,
                                 "flags": 96,
-                                "start": 12,
-                                "end": 19
+                                "start": 20,
+                                "end": 22
+                            },
+                            "right": {
+                                "kind": 134299649,
+                                "text": "f",
+                                "rawText": "f",
+                                "flags": 96,
+                                "start": 22,
+                                "end": 24
                             },
                             "flags": 32,
                             "start": 10,
-                            "end": 20
-                        },
-                        "operatorToken": {
-                            "kind": 4125,
-                            "flags": 96,
-                            "start": 20,
-                            "end": 22
-                        },
-                        "right": {
-                            "kind": 134299649,
-                            "text": "f",
-                            "rawText": "f",
-                            "flags": 96,
-                            "start": 22,
                             "end": 24
                         },
                         "flags": 32,
-                        "start": 10,
+                        "start": 7,
                         "end": 24
-                    },
-                    "flags": 32,
-                    "start": 7,
-                    "end": 24
-                }
-            ],
+                    }
+                ],
+                "trailingComma": false,
+                "flags": 34,
+                "start": 7,
+                "end": 25
+            },
             "returnType": null,
             "arrowToken": {
                 "kind": 10,
@@ -124,7 +131,7 @@ async (x = (private) = f) => {}
 
 ```javascript
 
-async (x = (private) = f) =>  {}
+async  =>  {}
 ```
 
 ### Diagnostics

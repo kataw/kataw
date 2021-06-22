@@ -39,7 +39,14 @@ f(async ()=>c)
                                 "end": 7
                             },
                             "typeParameters": null,
-                            "arrowPatameterList": [],
+                            "arrowPatameterList": {
+                                "kind": 342,
+                                "parameters": [],
+                                "trailingComma": false,
+                                "flags": 32,
+                                "start": 9,
+                                "end": 9
+                            },
                             "returnType": null,
                             "arrowToken": {
                                 "kind": 10,
@@ -87,7 +94,7 @@ f(async ()=>c)
 
 ```javascript
 
-f(async () =>  c);
+f(async  =>  c);
 ```
 
 ### Diagnostics

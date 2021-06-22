@@ -32,7 +32,14 @@ async () => {  publ\u0069c = x  }
                 "end": 5
             },
             "typeParameters": null,
-            "arrowPatameterList": [],
+            "arrowPatameterList": {
+                "kind": 342,
+                "parameters": [],
+                "trailingComma": false,
+                "flags": 32,
+                "start": 7,
+                "end": 7
+            },
             "returnType": null,
             "arrowToken": {
                 "kind": 10,
@@ -107,7 +114,7 @@ async () => {  publ\u0069c = x  }
 
 ```javascript
 
-async () =>  {
+async  =>  {
   public = x;
 }
 ```

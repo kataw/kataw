@@ -41,24 +41,31 @@ f((async (a, b) => a + b));
                                     "end": 8
                                 },
                                 "typeParameters": null,
-                                "arrowPatameterList": [
-                                    {
-                                        "kind": 134299649,
-                                        "text": "a",
-                                        "rawText": "a",
-                                        "flags": 96,
-                                        "start": 10,
-                                        "end": 11
-                                    },
-                                    {
-                                        "kind": 134299649,
-                                        "text": "b",
-                                        "rawText": "b",
-                                        "flags": 96,
-                                        "start": 12,
-                                        "end": 14
-                                    }
-                                ],
+                                "arrowPatameterList": {
+                                    "kind": 342,
+                                    "parameters": [
+                                        {
+                                            "kind": 134299649,
+                                            "text": "a",
+                                            "rawText": "a",
+                                            "flags": 96,
+                                            "start": 10,
+                                            "end": 11
+                                        },
+                                        {
+                                            "kind": 134299649,
+                                            "text": "b",
+                                            "rawText": "b",
+                                            "flags": 96,
+                                            "start": 12,
+                                            "end": 14
+                                        }
+                                    ],
+                                    "trailingComma": false,
+                                    "flags": 32,
+                                    "start": 10,
+                                    "end": 15
+                                },
                                 "returnType": null,
                                 "arrowToken": {
                                     "kind": 10,
@@ -130,7 +137,7 @@ f((async (a, b) => a + b));
 
 ```javascript
 
-f((async (a, b) =>  a + b));
+f((async  =>  a + b));
 ```
 
 ### Diagnostics

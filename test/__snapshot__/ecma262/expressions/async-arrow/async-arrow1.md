@@ -65,77 +65,84 @@ async <T>(fn: () => T) => fn;
                     "start": 0,
                     "end": 9
                 },
-                "arrowPatameterList": [
-                    {
-                        "kind": 281,
-                        "ellipsisToken": null,
-                        "left": {
-                            "kind": 134299649,
-                            "text": "fn",
-                            "rawText": "fn",
-                            "flags": 96,
-                            "start": 10,
-                            "end": 12
-                        },
-                        "optionalToken": null,
-                        "type": {
-                            "kind": 139,
-                            "bitwiseOrToken": null,
-                            "bitwiseAndToken": null,
+                "arrowPatameterList": {
+                    "kind": 342,
+                    "parameters": [
+                        {
+                            "kind": 281,
+                            "ellipsisToken": null,
+                            "left": {
+                                "kind": 134299649,
+                                "text": "fn",
+                                "rawText": "fn",
+                                "flags": 96,
+                                "start": 10,
+                                "end": 12
+                            },
+                            "optionalToken": null,
                             "type": {
-                                "kind": 288,
-                                "arrowTypeParameterList": {
-                                    "kind": 292,
-                                    "parameters": [],
-                                    "trailingComma": false,
-                                    "flags": 2097152,
-                                    "start": 15,
-                                    "end": 15
-                                },
-                                "arrowToken": {
-                                    "kind": 10,
-                                    "flags": 64,
-                                    "start": 16,
-                                    "end": 19
-                                },
-                                "returnType": {
-                                    "kind": 139,
-                                    "bitwiseOrToken": null,
-                                    "bitwiseAndToken": null,
-                                    "type": {
-                                        "kind": 144,
-                                        "typeName": {
-                                            "kind": 134299649,
-                                            "text": "T",
-                                            "rawText": "T",
-                                            "flags": 96,
+                                "kind": 139,
+                                "bitwiseOrToken": null,
+                                "bitwiseAndToken": null,
+                                "type": {
+                                    "kind": 288,
+                                    "arrowTypeParameterList": {
+                                        "kind": 292,
+                                        "parameters": [],
+                                        "trailingComma": false,
+                                        "flags": 2097152,
+                                        "start": 15,
+                                        "end": 15
+                                    },
+                                    "arrowToken": {
+                                        "kind": 10,
+                                        "flags": 64,
+                                        "start": 16,
+                                        "end": 19
+                                    },
+                                    "returnType": {
+                                        "kind": 139,
+                                        "bitwiseOrToken": null,
+                                        "bitwiseAndToken": null,
+                                        "type": {
+                                            "kind": 144,
+                                            "typeName": {
+                                                "kind": 134299649,
+                                                "text": "T",
+                                                "rawText": "T",
+                                                "flags": 96,
+                                                "start": 19,
+                                                "end": 21
+                                            },
+                                            "typeParameters": null,
+                                            "flags": 2097152,
                                             "start": 19,
                                             "end": 21
                                         },
-                                        "typeParameters": null,
                                         "flags": 2097152,
                                         "start": 19,
                                         "end": 21
                                     },
+                                    "typeParameters": null,
                                     "flags": 2097152,
-                                    "start": 19,
+                                    "start": 13,
                                     "end": 21
                                 },
-                                "typeParameters": null,
                                 "flags": 2097152,
                                 "start": 13,
                                 "end": 21
                             },
-                            "flags": 2097152,
-                            "start": 13,
+                            "right": null,
+                            "flags": 32,
+                            "start": 10,
                             "end": 21
-                        },
-                        "right": null,
-                        "flags": 32,
-                        "start": 10,
-                        "end": 21
-                    }
-                ],
+                        }
+                    ],
+                    "trailingComma": false,
+                    "flags": 32,
+                    "start": 10,
+                    "end": 22
+                },
                 "returnType": null,
                 "arrowToken": {
                     "kind": 10,
@@ -173,7 +180,7 @@ async <T>(fn: () => T) => fn;
 
 ```javascript
 
-async (fn) =>  fn;
+async  =>  fn;
 ```
 
 ### Diagnostics

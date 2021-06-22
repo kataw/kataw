@@ -37,41 +37,48 @@
                             "end": 7
                         },
                         "typeParameters": null,
-                        "arrowPatameterList": [
-                            {
-                                "kind": 281,
-                                "ellipsisToken": null,
-                                "left": {
-                                    "kind": 134299649,
-                                    "text": "foo",
-                                    "rawText": "foo",
-                                    "flags": 96,
+                        "arrowPatameterList": {
+                            "kind": 342,
+                            "parameters": [
+                                {
+                                    "kind": 281,
+                                    "ellipsisToken": null,
+                                    "left": {
+                                        "kind": 134299649,
+                                        "text": "foo",
+                                        "rawText": "foo",
+                                        "flags": 96,
+                                        "start": 9,
+                                        "end": 12
+                                    },
+                                    "optionalToken": null,
+                                    "type": null,
+                                    "right": {
+                                        "kind": 134299649,
+                                        "text": "yield",
+                                        "rawText": "yield",
+                                        "flags": 96,
+                                        "start": 14,
+                                        "end": 20
+                                    },
+                                    "flags": 32,
                                     "start": 9,
-                                    "end": 12
-                                },
-                                "optionalToken": null,
-                                "type": null,
-                                "right": {
-                                    "kind": 134299649,
-                                    "text": "yield",
-                                    "rawText": "yield",
-                                    "flags": 96,
-                                    "start": 14,
                                     "end": 20
                                 },
-                                "flags": 32,
-                                "start": 9,
-                                "end": 20
-                            },
-                            {
-                                "kind": 134299649,
-                                "text": "x",
-                                "rawText": "x",
-                                "flags": 96,
-                                "start": 20,
-                                "end": 22
-                            }
-                        ],
+                                {
+                                    "kind": 134299649,
+                                    "text": "x",
+                                    "rawText": "x",
+                                    "flags": 96,
+                                    "start": 20,
+                                    "end": 22
+                                }
+                            ],
+                            "trailingComma": false,
+                            "flags": 34,
+                            "start": 9,
+                            "end": 23
+                        },
                         "returnType": null,
                         "arrowToken": {
                             "kind": 10,
@@ -115,7 +122,7 @@
 ```javascript
 
 {
-  async (foo = yield, x) =>  foo
+  async  =>  foo
 }
 ```
 

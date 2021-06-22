@@ -24,41 +24,48 @@ async (x = yield y) => {}
                 "end": 5
             },
             "typeParameters": null,
-            "arrowPatameterList": [
-                {
-                    "kind": 281,
-                    "ellipsisToken": null,
-                    "left": {
-                        "kind": 134299649,
-                        "text": "x",
-                        "rawText": "x",
-                        "flags": 96,
+            "arrowPatameterList": {
+                "kind": 342,
+                "parameters": [
+                    {
+                        "kind": 281,
+                        "ellipsisToken": null,
+                        "left": {
+                            "kind": 134299649,
+                            "text": "x",
+                            "rawText": "x",
+                            "flags": 96,
+                            "start": 7,
+                            "end": 8
+                        },
+                        "optionalToken": null,
+                        "type": null,
+                        "right": {
+                            "kind": 134299649,
+                            "text": "yield",
+                            "rawText": "yield",
+                            "flags": 96,
+                            "start": 10,
+                            "end": 16
+                        },
+                        "flags": 32,
                         "start": 7,
-                        "end": 8
-                    },
-                    "optionalToken": null,
-                    "type": null,
-                    "right": {
-                        "kind": 134299649,
-                        "text": "yield",
-                        "rawText": "yield",
-                        "flags": 96,
-                        "start": 10,
                         "end": 16
                     },
-                    "flags": 32,
-                    "start": 7,
-                    "end": 16
-                },
-                {
-                    "kind": 134299649,
-                    "text": "y",
-                    "rawText": "y",
-                    "flags": 96,
-                    "start": 16,
-                    "end": 18
-                }
-            ],
+                    {
+                        "kind": 134299649,
+                        "text": "y",
+                        "rawText": "y",
+                        "flags": 96,
+                        "start": 16,
+                        "end": 18
+                    }
+                ],
+                "trailingComma": false,
+                "flags": 34,
+                "start": 7,
+                "end": 19
+            },
             "returnType": null,
             "arrowToken": {
                 "kind": 10,
@@ -98,7 +105,7 @@ async (x = yield y) => {}
 
 ```javascript
 
-async (x = yield, y) =>  {}
+async  =>  {}
 ```
 
 ### Diagnostics

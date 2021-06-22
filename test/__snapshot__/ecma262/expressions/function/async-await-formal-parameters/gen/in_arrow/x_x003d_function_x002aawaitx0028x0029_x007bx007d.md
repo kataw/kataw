@@ -64,76 +64,83 @@
                                 "end": 27
                             },
                             "typeParameters": null,
-                            "arrowPatameterList": [
-                                {
-                                    "kind": 281,
-                                    "ellipsisToken": null,
-                                    "left": {
-                                        "kind": 134299649,
-                                        "text": "x",
-                                        "rawText": "x",
-                                        "flags": 96,
-                                        "start": 28,
-                                        "end": 29
-                                    },
-                                    "optionalToken": null,
-                                    "type": null,
-                                    "right": {
-                                        "kind": 177,
-                                        "asyncKeyword": null,
-                                        "functionKeyword": {
-                                            "kind": 37822554,
-                                            "flags": 64,
-                                            "start": 31,
-                                            "end": 40
-                                        },
-                                        "asteriskToken": {
-                                            "kind": 67143222,
-                                            "flags": 64,
-                                            "start": 40,
-                                            "end": 42
-                                        },
-                                        "name": {
+                            "arrowPatameterList": {
+                                "kind": 342,
+                                "parameters": [
+                                    {
+                                        "kind": 281,
+                                        "ellipsisToken": null,
+                                        "left": {
                                             "kind": 134299649,
-                                            "text": "await",
-                                            "rawText": "await",
+                                            "text": "x",
+                                            "rawText": "x",
                                             "flags": 96,
-                                            "start": 42,
-                                            "end": 47
+                                            "start": 28,
+                                            "end": 29
                                         },
-                                        "typeParameters": null,
-                                        "formalParameterList": {
-                                            "kind": 214,
-                                            "formalParameters": [],
-                                            "trailingComma": false,
-                                            "flags": 32,
-                                            "start": 47,
-                                            "end": 49
-                                        },
-                                        "contents": {
-                                            "kind": 216,
-                                            "functionStatementList": {
-                                                "kind": 217,
-                                                "directives": [],
-                                                "statements": [],
-                                                "flags": 32,
-                                                "start": 51,
-                                                "end": 51
+                                        "optionalToken": null,
+                                        "type": null,
+                                        "right": {
+                                            "kind": 177,
+                                            "asyncKeyword": null,
+                                            "functionKeyword": {
+                                                "kind": 37822554,
+                                                "flags": 64,
+                                                "start": 31,
+                                                "end": 40
                                             },
-                                            "flags": 32,
-                                            "start": 49,
+                                            "asteriskToken": {
+                                                "kind": 67143222,
+                                                "flags": 64,
+                                                "start": 40,
+                                                "end": 42
+                                            },
+                                            "name": {
+                                                "kind": 134299649,
+                                                "text": "await",
+                                                "rawText": "await",
+                                                "flags": 96,
+                                                "start": 42,
+                                                "end": 47
+                                            },
+                                            "typeParameters": null,
+                                            "formalParameterList": {
+                                                "kind": 214,
+                                                "formalParameters": [],
+                                                "trailingComma": false,
+                                                "flags": 32,
+                                                "start": 47,
+                                                "end": 49
+                                            },
+                                            "contents": {
+                                                "kind": 216,
+                                                "functionStatementList": {
+                                                    "kind": 217,
+                                                    "directives": [],
+                                                    "statements": [],
+                                                    "flags": 32,
+                                                    "start": 51,
+                                                    "end": 51
+                                                },
+                                                "flags": 32,
+                                                "start": 49,
+                                                "end": 52
+                                            },
+                                            "returnType": null,
+                                            "flags": 288,
+                                            "start": 31,
                                             "end": 52
                                         },
-                                        "returnType": null,
-                                        "flags": 288,
-                                        "start": 31,
+                                        "flags": 32,
+                                        "start": 28,
                                         "end": 52
-                                    },
-                                    "flags": 32,
-                                    "start": 28,
-                                    "end": 52
-                                }
-                            ],
+                                    }
+                                ],
+                                "trailingComma": false,
+                                "flags": 34,
+                                "start": 28,
+                                "end": 53
+                            },
                             "returnType": null,
                             "arrowToken": {
                                 "kind": 10,
@@ -186,7 +193,7 @@
 
 ```javascript
 
-var f = async (x = function * await() {}) =>  {};
+var f = async  =>  {};
 ```
 
 ### Diagnostics

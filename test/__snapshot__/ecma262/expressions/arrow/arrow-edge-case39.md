@@ -32,16 +32,23 @@ async (a): void => {}
                 "end": 5
             },
             "typeParameters": null,
-            "arrowPatameterList": [
-                {
-                    "kind": 134299649,
-                    "text": "a",
-                    "rawText": "a",
-                    "flags": 96,
-                    "start": 7,
-                    "end": 8
-                }
-            ],
+            "arrowPatameterList": {
+                "kind": 342,
+                "parameters": [
+                    {
+                        "kind": 134299649,
+                        "text": "a",
+                        "rawText": "a",
+                        "flags": 96,
+                        "start": 7,
+                        "end": 8
+                    }
+                ],
+                "trailingComma": false,
+                "flags": 32,
+                "start": 7,
+                "end": 15
+            },
             "returnType": {
                 "kind": 139,
                 "bitwiseOrToken": null,
@@ -94,7 +101,7 @@ async (a): void => {}
 
 ```javascript
 
-async (a) =>  {}
+async  =>  {}
 ```
 
 ### Diagnostics

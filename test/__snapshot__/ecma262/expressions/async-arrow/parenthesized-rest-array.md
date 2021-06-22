@@ -47,52 +47,59 @@ var foo = async ([...(foo)]) => {};
                                 "end": 15
                             },
                             "typeParameters": null,
-                            "arrowPatameterList": [
-                                {
-                                    "kind": 201,
-                                    "elementList": {
-                                        "kind": 270,
-                                        "elements": [
-                                            {
-                                                "kind": 281,
-                                                "ellipsisToken": {
-                                                    "kind": 524302,
-                                                    "flags": 64,
-                                                    "start": 18,
-                                                    "end": 21
-                                                },
-                                                "left": {
-                                                    "kind": 121,
-                                                    "expression": {
-                                                        "kind": 134299649,
-                                                        "text": "foo",
-                                                        "rawText": "foo",
-                                                        "flags": 96,
-                                                        "start": 22,
-                                                        "end": 25
+                            "arrowPatameterList": {
+                                "kind": 342,
+                                "parameters": [
+                                    {
+                                        "kind": 201,
+                                        "elementList": {
+                                            "kind": 270,
+                                            "elements": [
+                                                {
+                                                    "kind": 281,
+                                                    "ellipsisToken": {
+                                                        "kind": 524302,
+                                                        "flags": 64,
+                                                        "start": 18,
+                                                        "end": 21
                                                     },
+                                                    "left": {
+                                                        "kind": 121,
+                                                        "expression": {
+                                                            "kind": 134299649,
+                                                            "text": "foo",
+                                                            "rawText": "foo",
+                                                            "flags": 96,
+                                                            "start": 22,
+                                                            "end": 25
+                                                        },
+                                                        "flags": 32,
+                                                        "start": 21,
+                                                        "end": 26
+                                                    },
+                                                    "optionalToken": null,
+                                                    "type": null,
+                                                    "right": null,
                                                     "flags": 32,
-                                                    "start": 21,
+                                                    "start": 18,
                                                     "end": 26
-                                                },
-                                                "optionalToken": null,
-                                                "type": null,
-                                                "right": null,
-                                                "flags": 32,
-                                                "start": 18,
-                                                "end": 26
-                                            }
-                                        ],
-                                        "trailingComma": false,
+                                                }
+                                            ],
+                                            "trailingComma": false,
+                                            "flags": 32,
+                                            "start": 18,
+                                            "end": 26
+                                        },
                                         "flags": 32,
-                                        "start": 18,
-                                        "end": 26
-                                    },
-                                    "flags": 32,
-                                    "start": 17,
-                                    "end": 27
-                                }
-                            ],
+                                        "start": 17,
+                                        "end": 27
+                                    }
+                                ],
+                                "trailingComma": false,
+                                "flags": 34,
+                                "start": 17,
+                                "end": 28
+                            },
                             "returnType": null,
                             "arrowToken": {
                                 "kind": 10,

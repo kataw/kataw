@@ -60,7 +60,14 @@ export let foo = async () => this
                                     "end": 22
                                 },
                                 "typeParameters": null,
-                                "arrowPatameterList": [],
+                                "arrowPatameterList": {
+                                    "kind": 342,
+                                    "parameters": [],
+                                    "trailingComma": false,
+                                    "flags": 32,
+                                    "start": 24,
+                                    "end": 24
+                                },
                                 "returnType": null,
                                 "arrowToken": {
                                     "kind": 10,
@@ -113,7 +120,7 @@ export let foo = async () => this
 
 ```javascript
 
-export let foo = async () =>  this;
+export let foo = async  =>  this;
 ```
 
 ### Diagnostics

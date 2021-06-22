@@ -53,64 +53,71 @@ var x = async (a, b, c, d, e, f, g) => await a + await b + c + d + e + f + g;
                                 "end": 13
                             },
                             "typeParameters": null,
-                            "arrowPatameterList": [
-                                {
-                                    "kind": 134299649,
-                                    "text": "a",
-                                    "rawText": "a",
-                                    "flags": 96,
-                                    "start": 15,
-                                    "end": 16
-                                },
-                                {
-                                    "kind": 134299649,
-                                    "text": "b",
-                                    "rawText": "b",
-                                    "flags": 96,
-                                    "start": 17,
-                                    "end": 19
-                                },
-                                {
-                                    "kind": 134299649,
-                                    "text": "c",
-                                    "rawText": "c",
-                                    "flags": 96,
-                                    "start": 20,
-                                    "end": 22
-                                },
-                                {
-                                    "kind": 134299649,
-                                    "text": "d",
-                                    "rawText": "d",
-                                    "flags": 96,
-                                    "start": 23,
-                                    "end": 25
-                                },
-                                {
-                                    "kind": 134299649,
-                                    "text": "e",
-                                    "rawText": "e",
-                                    "flags": 96,
-                                    "start": 26,
-                                    "end": 28
-                                },
-                                {
-                                    "kind": 134299649,
-                                    "text": "f",
-                                    "rawText": "f",
-                                    "flags": 96,
-                                    "start": 29,
-                                    "end": 31
-                                },
-                                {
-                                    "kind": 134299649,
-                                    "text": "g",
-                                    "rawText": "g",
-                                    "flags": 96,
-                                    "start": 32,
-                                    "end": 34
-                                }
-                            ],
+                            "arrowPatameterList": {
+                                "kind": 342,
+                                "parameters": [
+                                    {
+                                        "kind": 134299649,
+                                        "text": "a",
+                                        "rawText": "a",
+                                        "flags": 96,
+                                        "start": 15,
+                                        "end": 16
+                                    },
+                                    {
+                                        "kind": 134299649,
+                                        "text": "b",
+                                        "rawText": "b",
+                                        "flags": 96,
+                                        "start": 17,
+                                        "end": 19
+                                    },
+                                    {
+                                        "kind": 134299649,
+                                        "text": "c",
+                                        "rawText": "c",
+                                        "flags": 96,
+                                        "start": 20,
+                                        "end": 22
+                                    },
+                                    {
+                                        "kind": 134299649,
+                                        "text": "d",
+                                        "rawText": "d",
+                                        "flags": 96,
+                                        "start": 23,
+                                        "end": 25
+                                    },
+                                    {
+                                        "kind": 134299649,
+                                        "text": "e",
+                                        "rawText": "e",
+                                        "flags": 96,
+                                        "start": 26,
+                                        "end": 28
+                                    },
+                                    {
+                                        "kind": 134299649,
+                                        "text": "f",
+                                        "rawText": "f",
+                                        "flags": 96,
+                                        "start": 29,
+                                        "end": 31
+                                    },
+                                    {
+                                        "kind": 134299649,
+                                        "text": "g",
+                                        "rawText": "g",
+                                        "flags": 96,
+                                        "start": 32,
+                                        "end": 34
+                                    }
+                                ],
+                                "trailingComma": false,
+                                "flags": 32,
+                                "start": 15,
+                                "end": 35
+                            },
                             "returnType": null,
                             "arrowToken": {
                                 "kind": 10,
@@ -301,7 +308,7 @@ var x = async (a, b, c, d, e, f, g) => await a + await b + c + d + e + f + g;
 
 ```javascript
 
-var x = async (a, b, c, d, e, f, g) =>  await a + await b + c + d + e + f + g;
+var x = async  =>  await a + await b + c + d + e + f + g;
 ```
 
 ### Diagnostics

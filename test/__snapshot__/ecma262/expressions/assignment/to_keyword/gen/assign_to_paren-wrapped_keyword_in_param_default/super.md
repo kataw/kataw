@@ -32,77 +32,84 @@ async (x = (super) = f) => {}
                 "end": 5
             },
             "typeParameters": null,
-            "arrowPatameterList": [
-                {
-                    "kind": 281,
-                    "ellipsisToken": null,
-                    "left": {
-                        "kind": 134299649,
-                        "text": "x",
-                        "rawText": "x",
-                        "flags": 96,
-                        "start": 7,
-                        "end": 8
-                    },
-                    "optionalToken": null,
-                    "type": null,
-                    "right": {
-                        "kind": 125,
+            "arrowPatameterList": {
+                "kind": 342,
+                "parameters": [
+                    {
+                        "kind": 281,
+                        "ellipsisToken": null,
                         "left": {
-                            "kind": 121,
-                            "expression": {
-                                "kind": 129,
-                                "member": {
-                                    "kind": 225,
-                                    "superKeyword": {
-                                        "kind": 4259935,
+                            "kind": 134299649,
+                            "text": "x",
+                            "rawText": "x",
+                            "flags": 96,
+                            "start": 7,
+                            "end": 8
+                        },
+                        "optionalToken": null,
+                        "type": null,
+                        "right": {
+                            "kind": 125,
+                            "left": {
+                                "kind": 121,
+                                "expression": {
+                                    "kind": 129,
+                                    "member": {
+                                        "kind": 225,
+                                        "superKeyword": {
+                                            "kind": 4259935,
+                                            "flags": 96,
+                                            "start": 12,
+                                            "end": 17
+                                        },
                                         "flags": 96,
                                         "start": 12,
                                         "end": 17
                                     },
-                                    "flags": 96,
+                                    "expression": {
+                                        "kind": 16637,
+                                        "text": "",
+                                        "rawText": "",
+                                        "flags": 64,
+                                        "start": 17,
+                                        "end": 17
+                                    },
+                                    "flags": 536870944,
                                     "start": 12,
                                     "end": 17
                                 },
-                                "expression": {
-                                    "kind": 16637,
-                                    "text": "",
-                                    "rawText": "",
-                                    "flags": 64,
-                                    "start": 17,
-                                    "end": 17
-                                },
-                                "flags": 536870944,
-                                "start": 12,
-                                "end": 17
+                                "flags": 32,
+                                "start": 10,
+                                "end": 18
+                            },
+                            "operatorToken": {
+                                "kind": 4125,
+                                "flags": 96,
+                                "start": 18,
+                                "end": 20
+                            },
+                            "right": {
+                                "kind": 134299649,
+                                "text": "f",
+                                "rawText": "f",
+                                "flags": 96,
+                                "start": 20,
+                                "end": 22
                             },
                             "flags": 32,
                             "start": 10,
-                            "end": 18
-                        },
-                        "operatorToken": {
-                            "kind": 4125,
-                            "flags": 96,
-                            "start": 18,
-                            "end": 20
-                        },
-                        "right": {
-                            "kind": 134299649,
-                            "text": "f",
-                            "rawText": "f",
-                            "flags": 96,
-                            "start": 20,
                             "end": 22
                         },
                         "flags": 32,
-                        "start": 10,
+                        "start": 7,
                         "end": 22
-                    },
-                    "flags": 32,
-                    "start": 7,
-                    "end": 22
-                }
-            ],
+                    }
+                ],
+                "trailingComma": false,
+                "flags": 34,
+                "start": 7,
+                "end": 23
+            },
             "returnType": null,
             "arrowToken": {
                 "kind": 10,

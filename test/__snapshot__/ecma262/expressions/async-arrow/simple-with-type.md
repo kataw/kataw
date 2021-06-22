@@ -32,39 +32,46 @@ async (s: any) => x
                 "end": 5
             },
             "typeParameters": null,
-            "arrowPatameterList": [
-                {
-                    "kind": 281,
-                    "ellipsisToken": null,
-                    "left": {
-                        "kind": 134299649,
-                        "text": "s",
-                        "rawText": "s",
-                        "flags": 96,
-                        "start": 7,
-                        "end": 8
-                    },
-                    "optionalToken": null,
-                    "type": {
-                        "kind": 139,
-                        "bitwiseOrToken": null,
-                        "bitwiseAndToken": null,
+            "arrowPatameterList": {
+                "kind": 342,
+                "parameters": [
+                    {
+                        "kind": 281,
+                        "ellipsisToken": null,
+                        "left": {
+                            "kind": 134299649,
+                            "text": "s",
+                            "rawText": "s",
+                            "flags": 96,
+                            "start": 7,
+                            "end": 8
+                        },
+                        "optionalToken": null,
                         "type": {
-                            "kind": 134234252,
-                            "flags": 2097216,
+                            "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
+                            "type": {
+                                "kind": 134234252,
+                                "flags": 2097216,
+                                "start": 9,
+                                "end": 13
+                            },
+                            "flags": 2097152,
                             "start": 9,
                             "end": 13
                         },
-                        "flags": 2097152,
-                        "start": 9,
+                        "right": null,
+                        "flags": 32,
+                        "start": 7,
                         "end": 13
-                    },
-                    "right": null,
-                    "flags": 32,
-                    "start": 7,
-                    "end": 13
-                }
-            ],
+                    }
+                ],
+                "trailingComma": false,
+                "flags": 32,
+                "start": 7,
+                "end": 14
+            },
             "returnType": null,
             "arrowToken": {
                 "kind": 10,
@@ -98,7 +105,7 @@ async (s: any) => x
 
 ```javascript
 
-async (s) =>  x
+async  =>  x
 ```
 
 ### Diagnostics

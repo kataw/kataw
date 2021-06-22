@@ -32,23 +32,30 @@ async (...args: any[]) : any => {}
                 "end": 5
             },
             "typeParameters": null,
-            "arrowPatameterList": [
-                {
-                    "kind": 281,
-                    "ellipsisToken": {
-                        "kind": 524302,
-                        "flags": 64,
+            "arrowPatameterList": {
+                "kind": 342,
+                "parameters": [
+                    {
+                        "kind": 281,
+                        "ellipsisToken": {
+                            "kind": 524302,
+                            "flags": 64,
+                            "start": 7,
+                            "end": 10
+                        },
+                        "optionalToken": null,
+                        "type": null,
+                        "right": null,
+                        "flags": 32,
                         "start": 7,
-                        "end": 10
-                    },
-                    "optionalToken": null,
-                    "type": null,
-                    "right": null,
-                    "flags": 32,
-                    "start": 7,
-                    "end": 21
-                }
-            ],
+                        "end": 21
+                    }
+                ],
+                "trailingComma": false,
+                "flags": 34,
+                "start": 7,
+                "end": 28
+            },
             "returnType": {
                 "kind": 139,
                 "bitwiseOrToken": null,
@@ -101,7 +108,7 @@ async (...args: any[]) : any => {}
 
 ```javascript
 
-async (...) =>  {}
+async  =>  {}
 ```
 
 ### Diagnostics

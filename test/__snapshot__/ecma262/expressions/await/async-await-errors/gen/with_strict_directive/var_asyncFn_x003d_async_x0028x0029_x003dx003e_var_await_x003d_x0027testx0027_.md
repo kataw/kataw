@@ -64,7 +64,14 @@
                                 "end": 33
                             },
                             "typeParameters": null,
-                            "arrowPatameterList": [],
+                            "arrowPatameterList": {
+                                "kind": 342,
+                                "parameters": [],
+                                "trailingComma": false,
+                                "flags": 32,
+                                "start": 35,
+                                "end": 35
+                            },
                             "returnType": null,
                             "arrowToken": {
                                 "kind": 10,

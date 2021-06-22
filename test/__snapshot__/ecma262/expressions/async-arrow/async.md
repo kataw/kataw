@@ -32,44 +32,51 @@ async (x?: number): any => x;
                 "end": 5
             },
             "typeParameters": null,
-            "arrowPatameterList": [
-                {
-                    "kind": 281,
-                    "ellipsisToken": null,
-                    "left": {
-                        "kind": 134299649,
-                        "text": "x",
-                        "rawText": "x",
-                        "flags": 96,
-                        "start": 7,
-                        "end": 8
-                    },
-                    "optionalToken": {
-                        "kind": 134217750,
-                        "flags": 64,
-                        "start": 8,
-                        "end": 9
-                    },
-                    "type": {
-                        "kind": 139,
-                        "bitwiseOrToken": null,
-                        "bitwiseAndToken": null,
+            "arrowPatameterList": {
+                "kind": 342,
+                "parameters": [
+                    {
+                        "kind": 281,
+                        "ellipsisToken": null,
+                        "left": {
+                            "kind": 134299649,
+                            "text": "x",
+                            "rawText": "x",
+                            "flags": 96,
+                            "start": 7,
+                            "end": 8
+                        },
+                        "optionalToken": {
+                            "kind": 134217750,
+                            "flags": 64,
+                            "start": 8,
+                            "end": 9
+                        },
                         "type": {
-                            "kind": 134234345,
-                            "flags": 2097216,
+                            "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
+                            "type": {
+                                "kind": 134234345,
+                                "flags": 2097216,
+                                "start": 10,
+                                "end": 17
+                            },
+                            "flags": 2097152,
                             "start": 10,
                             "end": 17
                         },
-                        "flags": 2097152,
-                        "start": 10,
+                        "right": null,
+                        "flags": 32,
+                        "start": 7,
                         "end": 17
-                    },
-                    "right": null,
-                    "flags": 32,
-                    "start": 7,
-                    "end": 17
-                }
-            ],
+                    }
+                ],
+                "trailingComma": false,
+                "flags": 32,
+                "start": 7,
+                "end": 23
+            },
             "returnType": {
                 "kind": 139,
                 "bitwiseOrToken": null,
@@ -122,7 +129,7 @@ async (x?: number): any => x;
 
 ```javascript
 
-async (x?) =>  x
+async  =>  x
 
 ```
 

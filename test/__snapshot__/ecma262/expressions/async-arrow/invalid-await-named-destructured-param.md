@@ -32,46 +32,53 @@ async ({a: await}) => 1;
                 "end": 5
             },
             "typeParameters": null,
-            "arrowPatameterList": [
-                {
-                    "kind": 212,
-                    "propertyList": {
-                        "kind": 213,
-                        "properties": [
-                            {
-                                "kind": 329,
-                                "key": {
-                                    "kind": 134299649,
-                                    "text": "a",
-                                    "rawText": "a",
-                                    "flags": 96,
+            "arrowPatameterList": {
+                "kind": 342,
+                "parameters": [
+                    {
+                        "kind": 212,
+                        "propertyList": {
+                            "kind": 213,
+                            "properties": [
+                                {
+                                    "kind": 329,
+                                    "key": {
+                                        "kind": 134299649,
+                                        "text": "a",
+                                        "rawText": "a",
+                                        "flags": 96,
+                                        "start": 8,
+                                        "end": 9
+                                    },
+                                    "value": {
+                                        "kind": 134299649,
+                                        "text": "await",
+                                        "rawText": "await",
+                                        "flags": 96,
+                                        "start": 10,
+                                        "end": 16
+                                    },
+                                    "initializer": null,
+                                    "flags": 32,
                                     "start": 8,
-                                    "end": 9
-                                },
-                                "value": {
-                                    "kind": 134299649,
-                                    "text": "await",
-                                    "rawText": "await",
-                                    "flags": 96,
-                                    "start": 10,
                                     "end": 16
-                                },
-                                "initializer": null,
-                                "flags": 32,
-                                "start": 8,
-                                "end": 16
-                            }
-                        ],
-                        "trailingComma": false,
-                        "flags": 32,
-                        "start": 8,
-                        "end": 16
-                    },
-                    "flags": 48,
-                    "start": 7,
-                    "end": 17
-                }
-            ],
+                                }
+                            ],
+                            "trailingComma": false,
+                            "flags": 32,
+                            "start": 8,
+                            "end": 16
+                        },
+                        "flags": 48,
+                        "start": 7,
+                        "end": 17
+                    }
+                ],
+                "trailingComma": false,
+                "flags": 34,
+                "start": 7,
+                "end": 18
+            },
             "returnType": null,
             "arrowToken": {
                 "kind": 10,
@@ -111,9 +118,7 @@ async ({a: await}) => 1;
 
 ```javascript
 
-async ({
-  a: await
-}) =>  1
+async  =>  1
 
 ```
 

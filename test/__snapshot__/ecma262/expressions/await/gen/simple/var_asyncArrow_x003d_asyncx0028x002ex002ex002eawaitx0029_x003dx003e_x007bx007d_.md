@@ -55,23 +55,30 @@ var asyncArrow = async(...await) => {};
                                 "end": 22
                             },
                             "typeParameters": null,
-                            "arrowPatameterList": [
-                                {
-                                    "kind": 281,
-                                    "ellipsisToken": {
-                                        "kind": 524302,
-                                        "flags": 64,
+                            "arrowPatameterList": {
+                                "kind": 342,
+                                "parameters": [
+                                    {
+                                        "kind": 281,
+                                        "ellipsisToken": {
+                                            "kind": 524302,
+                                            "flags": 64,
+                                            "start": 23,
+                                            "end": 26
+                                        },
+                                        "optionalToken": null,
+                                        "type": null,
+                                        "right": null,
+                                        "flags": 32,
                                         "start": 23,
-                                        "end": 26
-                                    },
-                                    "optionalToken": null,
-                                    "type": null,
-                                    "right": null,
-                                    "flags": 32,
-                                    "start": 23,
-                                    "end": 31
-                                }
-                            ],
+                                        "end": 31
+                                    }
+                                ],
+                                "trailingComma": false,
+                                "flags": 34,
+                                "start": 23,
+                                "end": 32
+                            },
                             "returnType": null,
                             "arrowToken": {
                                 "kind": 10,
@@ -124,7 +131,7 @@ var asyncArrow = async(...await) => {};
 
 ```javascript
 
-var asyncArrow = async (...) =>  {};
+var asyncArrow = async  =>  {};
 ```
 
 ### Diagnostics

@@ -45,24 +45,31 @@ a, async (x, y) => ok
                             "end": 8
                         },
                         "typeParameters": null,
-                        "arrowPatameterList": [
-                            {
-                                "kind": 134299649,
-                                "text": "x",
-                                "rawText": "x",
-                                "flags": 96,
-                                "start": 10,
-                                "end": 11
-                            },
-                            {
-                                "kind": 134299649,
-                                "text": "y",
-                                "rawText": "y",
-                                "flags": 96,
-                                "start": 12,
-                                "end": 14
-                            }
-                        ],
+                        "arrowPatameterList": {
+                            "kind": 342,
+                            "parameters": [
+                                {
+                                    "kind": 134299649,
+                                    "text": "x",
+                                    "rawText": "x",
+                                    "flags": 96,
+                                    "start": 10,
+                                    "end": 11
+                                },
+                                {
+                                    "kind": 134299649,
+                                    "text": "y",
+                                    "rawText": "y",
+                                    "flags": 96,
+                                    "start": 12,
+                                    "end": 14
+                                }
+                            ],
+                            "trailingComma": false,
+                            "flags": 32,
+                            "start": 10,
+                            "end": 15
+                        },
                         "returnType": null,
                         "arrowToken": {
                             "kind": 10,
@@ -105,7 +112,7 @@ a, async (x, y) => ok
 
 ```javascript
 
-a, async (x, y) =>  ok;
+a, async  =>  ok;
 ```
 
 ### Diagnostics

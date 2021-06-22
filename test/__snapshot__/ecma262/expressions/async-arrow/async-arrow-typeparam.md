@@ -53,7 +53,14 @@ async (): string => {}
                         "end": 9
                     },
                     "typeParameters": null,
-                    "arrowPatameterList": [],
+                    "arrowPatameterList": {
+                        "kind": 342,
+                        "parameters": [],
+                        "trailingComma": false,
+                        "flags": 32,
+                        "start": 11,
+                        "end": 11
+                    },
                     "returnType": {
                         "kind": 139,
                         "bitwiseOrToken": null,
@@ -123,7 +130,14 @@ async (): string => {}
                 "end": 40
             },
             "typeParameters": null,
-            "arrowPatameterList": [],
+            "arrowPatameterList": {
+                "kind": 342,
+                "parameters": [],
+                "trailingComma": false,
+                "flags": 32,
+                "start": 42,
+                "end": 42
+            },
             "returnType": {
                 "kind": 139,
                 "bitwiseOrToken": null,
@@ -176,8 +190,8 @@ async (): string => {}
 
 ```javascript
 
-a ? async () =>  {} : b;
-async () =>  {}
+a ? async  =>  {} : b;
+async  =>  {}
 ```
 
 ### Diagnostics

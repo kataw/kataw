@@ -117,48 +117,55 @@
                                             "end": 42
                                         },
                                         "typeParameters": null,
-                                        "arrowPatameterList": [
-                                            {
-                                                "kind": 212,
-                                                "propertyList": {
-                                                    "kind": 213,
-                                                    "properties": [
-                                                        {
-                                                            "kind": 281,
-                                                            "ellipsisToken": null,
-                                                            "left": {
-                                                                "kind": 134299649,
-                                                                "text": "x",
-                                                                "rawText": "x",
-                                                                "flags": 96,
+                                        "arrowPatameterList": {
+                                            "kind": 342,
+                                            "parameters": [
+                                                {
+                                                    "kind": 212,
+                                                    "propertyList": {
+                                                        "kind": 213,
+                                                        "properties": [
+                                                            {
+                                                                "kind": 281,
+                                                                "ellipsisToken": null,
+                                                                "left": {
+                                                                    "kind": 134299649,
+                                                                    "text": "x",
+                                                                    "rawText": "x",
+                                                                    "flags": 96,
+                                                                    "start": 44,
+                                                                    "end": 45
+                                                                },
+                                                                "optionalToken": null,
+                                                                "type": null,
+                                                                "right": {
+                                                                    "kind": 134299649,
+                                                                    "text": "yield",
+                                                                    "rawText": "yield",
+                                                                    "flags": 96,
+                                                                    "start": 47,
+                                                                    "end": 53
+                                                                },
+                                                                "flags": 32,
                                                                 "start": 44,
-                                                                "end": 45
-                                                            },
-                                                            "optionalToken": null,
-                                                            "type": null,
-                                                            "right": {
-                                                                "kind": 134299649,
-                                                                "text": "yield",
-                                                                "rawText": "yield",
-                                                                "flags": 96,
-                                                                "start": 47,
                                                                 "end": 53
-                                                            },
-                                                            "flags": 32,
-                                                            "start": 44,
-                                                            "end": 53
-                                                        }
-                                                    ],
-                                                    "trailingComma": false,
-                                                    "flags": 32,
-                                                    "start": 44,
-                                                    "end": 53
-                                                },
-                                                "flags": 48,
-                                                "start": 43,
-                                                "end": 54
-                                            }
-                                        ],
+                                                            }
+                                                        ],
+                                                        "trailingComma": false,
+                                                        "flags": 32,
+                                                        "start": 44,
+                                                        "end": 53
+                                                    },
+                                                    "flags": 48,
+                                                    "start": 43,
+                                                    "end": 54
+                                                }
+                                            ],
+                                            "trailingComma": false,
+                                            "flags": 34,
+                                            "start": 43,
+                                            "end": 55
+                                        },
                                         "returnType": null,
                                         "arrowToken": {
                                             "kind": 10,

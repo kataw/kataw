@@ -63,16 +63,23 @@ function *f(){  async (await) => x  }
                                 "end": 21
                             },
                             "typeParameters": null,
-                            "arrowPatameterList": [
-                                {
-                                    "kind": 134299649,
-                                    "text": "await",
-                                    "rawText": "await",
-                                    "flags": 96,
-                                    "start": 23,
-                                    "end": 28
-                                }
-                            ],
+                            "arrowPatameterList": {
+                                "kind": 342,
+                                "parameters": [
+                                    {
+                                        "kind": 134299649,
+                                        "text": "await",
+                                        "rawText": "await",
+                                        "flags": 96,
+                                        "start": 23,
+                                        "end": 28
+                                    }
+                                ],
+                                "trailingComma": false,
+                                "flags": 32,
+                                "start": 23,
+                                "end": 29
+                            },
                             "returnType": null,
                             "arrowToken": {
                                 "kind": 10,
@@ -121,7 +128,7 @@ function *f(){  async (await) => x  }
 ```javascript
 
 function * f() {
-  async (await) =>  x
+  async  =>  x
 }
 ```
 

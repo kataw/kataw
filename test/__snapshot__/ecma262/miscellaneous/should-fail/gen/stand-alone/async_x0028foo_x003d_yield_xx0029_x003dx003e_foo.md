@@ -32,41 +32,48 @@ async (foo = yield x) => foo
                 "end": 5
             },
             "typeParameters": null,
-            "arrowPatameterList": [
-                {
-                    "kind": 281,
-                    "ellipsisToken": null,
-                    "left": {
-                        "kind": 134299649,
-                        "text": "foo",
-                        "rawText": "foo",
-                        "flags": 96,
+            "arrowPatameterList": {
+                "kind": 342,
+                "parameters": [
+                    {
+                        "kind": 281,
+                        "ellipsisToken": null,
+                        "left": {
+                            "kind": 134299649,
+                            "text": "foo",
+                            "rawText": "foo",
+                            "flags": 96,
+                            "start": 7,
+                            "end": 10
+                        },
+                        "optionalToken": null,
+                        "type": null,
+                        "right": {
+                            "kind": 134299649,
+                            "text": "yield",
+                            "rawText": "yield",
+                            "flags": 96,
+                            "start": 12,
+                            "end": 18
+                        },
+                        "flags": 32,
                         "start": 7,
-                        "end": 10
-                    },
-                    "optionalToken": null,
-                    "type": null,
-                    "right": {
-                        "kind": 134299649,
-                        "text": "yield",
-                        "rawText": "yield",
-                        "flags": 96,
-                        "start": 12,
                         "end": 18
                     },
-                    "flags": 32,
-                    "start": 7,
-                    "end": 18
-                },
-                {
-                    "kind": 134299649,
-                    "text": "x",
-                    "rawText": "x",
-                    "flags": 96,
-                    "start": 18,
-                    "end": 20
-                }
-            ],
+                    {
+                        "kind": 134299649,
+                        "text": "x",
+                        "rawText": "x",
+                        "flags": 96,
+                        "start": 18,
+                        "end": 20
+                    }
+                ],
+                "trailingComma": false,
+                "flags": 34,
+                "start": 7,
+                "end": 21
+            },
             "returnType": null,
             "arrowToken": {
                 "kind": 10,
@@ -100,7 +107,7 @@ async (foo = yield x) => foo
 
 ```javascript
 
-async (foo = yield, x) =>  foo
+async  =>  foo
 ```
 
 ### Diagnostics

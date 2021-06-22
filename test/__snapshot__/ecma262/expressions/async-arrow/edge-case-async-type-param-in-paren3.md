@@ -88,16 +88,23 @@
                         "start": 1,
                         "end": 13
                     },
-                    "arrowPatameterList": [
-                        {
-                            "kind": 134299649,
-                            "text": "x",
-                            "rawText": "x",
-                            "flags": 96,
-                            "start": 14,
-                            "end": 15
-                        }
-                    ],
+                    "arrowPatameterList": {
+                        "kind": 342,
+                        "parameters": [
+                            {
+                                "kind": 134299649,
+                                "text": "x",
+                                "rawText": "x",
+                                "flags": 96,
+                                "start": 14,
+                                "end": 15
+                            }
+                        ],
+                        "trailingComma": false,
+                        "flags": 32,
+                        "start": 14,
+                        "end": 16
+                    },
                     "returnType": null,
                     "arrowToken": {
                         "kind": 10,
@@ -139,7 +146,7 @@
 
 ```javascript
 
-(async (x) =>  y);
+(async  =>  y);
 ```
 
 ### Diagnostics

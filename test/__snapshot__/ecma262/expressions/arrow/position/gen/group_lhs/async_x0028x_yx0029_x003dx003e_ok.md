@@ -38,24 +38,31 @@
                             "end": 6
                         },
                         "typeParameters": null,
-                        "arrowPatameterList": [
-                            {
-                                "kind": 134299649,
-                                "text": "x",
-                                "rawText": "x",
-                                "flags": 96,
-                                "start": 8,
-                                "end": 9
-                            },
-                            {
-                                "kind": 134299649,
-                                "text": "y",
-                                "rawText": "y",
-                                "flags": 96,
-                                "start": 10,
-                                "end": 12
-                            }
-                        ],
+                        "arrowPatameterList": {
+                            "kind": 342,
+                            "parameters": [
+                                {
+                                    "kind": 134299649,
+                                    "text": "x",
+                                    "rawText": "x",
+                                    "flags": 96,
+                                    "start": 8,
+                                    "end": 9
+                                },
+                                {
+                                    "kind": 134299649,
+                                    "text": "y",
+                                    "rawText": "y",
+                                    "flags": 96,
+                                    "start": 10,
+                                    "end": 12
+                                }
+                            ],
+                            "trailingComma": false,
+                            "flags": 32,
+                            "start": 8,
+                            "end": 13
+                        },
                         "returnType": null,
                         "arrowToken": {
                             "kind": 10,
@@ -115,7 +122,7 @@
 
 ```javascript
 
-(async (x, y) =>  ok) * x;
+(async  =>  ok) * x;
 ```
 
 ### Diagnostics

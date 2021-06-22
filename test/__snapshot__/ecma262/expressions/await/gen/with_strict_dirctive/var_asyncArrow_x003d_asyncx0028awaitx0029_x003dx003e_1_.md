@@ -64,16 +64,23 @@
                                 "end": 36
                             },
                             "typeParameters": null,
-                            "arrowPatameterList": [
-                                {
-                                    "kind": 134299649,
-                                    "text": "await",
-                                    "rawText": "await",
-                                    "flags": 96,
-                                    "start": 37,
-                                    "end": 42
-                                }
-                            ],
+                            "arrowPatameterList": {
+                                "kind": 342,
+                                "parameters": [
+                                    {
+                                        "kind": 134299649,
+                                        "text": "await",
+                                        "rawText": "await",
+                                        "flags": 96,
+                                        "start": 37,
+                                        "end": 42
+                                    }
+                                ],
+                                "trailingComma": false,
+                                "flags": 32,
+                                "start": 37,
+                                "end": 43
+                            },
                             "returnType": null,
                             "arrowToken": {
                                 "kind": 10,
@@ -120,7 +127,7 @@
 
 ```javascript
 
-var asyncArrow = async (await) =>  1;
+var asyncArrow = async  =>  1;
 ```
 
 ### Diagnostics

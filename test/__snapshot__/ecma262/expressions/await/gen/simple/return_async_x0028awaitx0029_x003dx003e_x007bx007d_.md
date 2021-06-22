@@ -40,16 +40,23 @@ return async (await) => {};
                     "end": 12
                 },
                 "typeParameters": null,
-                "arrowPatameterList": [
-                    {
-                        "kind": 134299649,
-                        "text": "await",
-                        "rawText": "await",
-                        "flags": 96,
-                        "start": 14,
-                        "end": 19
-                    }
-                ],
+                "arrowPatameterList": {
+                    "kind": 342,
+                    "parameters": [
+                        {
+                            "kind": 134299649,
+                            "text": "await",
+                            "rawText": "await",
+                            "flags": 96,
+                            "start": 14,
+                            "end": 19
+                        }
+                    ],
+                    "trailingComma": false,
+                    "flags": 32,
+                    "start": 14,
+                    "end": 20
+                },
                 "returnType": null,
                 "arrowToken": {
                     "kind": 10,

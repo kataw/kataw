@@ -32,59 +32,66 @@ async (x = (arguments) = f) => {}
                 "end": 5
             },
             "typeParameters": null,
-            "arrowPatameterList": [
-                {
-                    "kind": 281,
-                    "ellipsisToken": null,
-                    "left": {
-                        "kind": 134299649,
-                        "text": "x",
-                        "rawText": "x",
-                        "flags": 96,
-                        "start": 7,
-                        "end": 8
-                    },
-                    "optionalToken": null,
-                    "type": null,
-                    "right": {
-                        "kind": 125,
+            "arrowPatameterList": {
+                "kind": 342,
+                "parameters": [
+                    {
+                        "kind": 281,
+                        "ellipsisToken": null,
                         "left": {
-                            "kind": 121,
-                            "expression": {
-                                "kind": 134299649,
-                                "text": "arguments",
-                                "rawText": "arguments",
+                            "kind": 134299649,
+                            "text": "x",
+                            "rawText": "x",
+                            "flags": 96,
+                            "start": 7,
+                            "end": 8
+                        },
+                        "optionalToken": null,
+                        "type": null,
+                        "right": {
+                            "kind": 125,
+                            "left": {
+                                "kind": 121,
+                                "expression": {
+                                    "kind": 134299649,
+                                    "text": "arguments",
+                                    "rawText": "arguments",
+                                    "flags": 96,
+                                    "start": 12,
+                                    "end": 21
+                                },
+                                "flags": 32,
+                                "start": 10,
+                                "end": 22
+                            },
+                            "operatorToken": {
+                                "kind": 4125,
                                 "flags": 96,
-                                "start": 12,
-                                "end": 21
+                                "start": 22,
+                                "end": 24
+                            },
+                            "right": {
+                                "kind": 134299649,
+                                "text": "f",
+                                "rawText": "f",
+                                "flags": 96,
+                                "start": 24,
+                                "end": 26
                             },
                             "flags": 32,
                             "start": 10,
-                            "end": 22
-                        },
-                        "operatorToken": {
-                            "kind": 4125,
-                            "flags": 96,
-                            "start": 22,
-                            "end": 24
-                        },
-                        "right": {
-                            "kind": 134299649,
-                            "text": "f",
-                            "rawText": "f",
-                            "flags": 96,
-                            "start": 24,
                             "end": 26
                         },
                         "flags": 32,
-                        "start": 10,
+                        "start": 7,
                         "end": 26
-                    },
-                    "flags": 32,
-                    "start": 7,
-                    "end": 26
-                }
-            ],
+                    }
+                ],
+                "trailingComma": false,
+                "flags": 34,
+                "start": 7,
+                "end": 27
+            },
             "returnType": null,
             "arrowToken": {
                 "kind": 10,
@@ -124,7 +131,7 @@ async (x = (arguments) = f) => {}
 
 ```javascript
 
-async (x = (arguments) = f) =>  {}
+async  =>  {}
 ```
 
 ### Diagnostics

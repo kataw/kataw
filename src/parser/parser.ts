@@ -10526,6 +10526,8 @@ export function parseCoverCallExpressionAndAsyncArrowHead(
 
   consume(parser, context | Context.AllowRegExp, SyntaxKind.LeftParen);
 
+  let innerPos = parser.curPos;
+
   if (consumeOpt(parser, context, SyntaxKind.RightParen)) {
     let isType = false;
     if (context & Context.OptionsAllowTypes && parser.token === SyntaxKind.Colon) {
@@ -10553,7 +10555,7 @@ export function parseCoverCallExpressionAndAsyncArrowHead(
         scope,
         typeParameters,
         parseType(parser, context),
-        [],
+        createArrowPatameterList([], false, flags | NodeFlags.ExpressionNode, innerPos, innerPos),
         createToken(SyntaxKind.AsyncKeyword, NodeFlags.NoChildren, start, expr.end),
         /* nodeFlags */ NodeFlags.Async,
         start
@@ -11081,7 +11083,7 @@ export function parseCoverCallExpressionAndAsyncArrowHead(
         scope,
         typeParameters,
         parseType(parser, context),
-        arrowParams,
+        createArrowPatameterList(arrowParams, false, flags | NodeFlags.ExpressionNode, innerPos, parser.curPos),
         createToken(SyntaxKind.AsyncKeyword, NodeFlags.NoChildren, start, expr.end),
         /* nodeFlags */ flags | NodeFlags.Async,
         start

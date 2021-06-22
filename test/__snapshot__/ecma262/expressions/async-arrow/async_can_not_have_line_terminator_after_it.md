@@ -47,16 +47,23 @@ let f = async
                                 "end": 13
                             },
                             "typeParameters": null,
-                            "arrowPatameterList": [
-                                {
-                                    "kind": 134299649,
-                                    "text": "g",
-                                    "rawText": "g",
-                                    "flags": 96,
-                                    "start": 15,
-                                    "end": 16
-                                }
-                            ],
+                            "arrowPatameterList": {
+                                "kind": 342,
+                                "parameters": [
+                                    {
+                                        "kind": 134299649,
+                                        "text": "g",
+                                        "rawText": "g",
+                                        "flags": 96,
+                                        "start": 15,
+                                        "end": 16
+                                    }
+                                ],
+                                "trailingComma": false,
+                                "flags": 33,
+                                "start": 15,
+                                "end": 17
+                            },
                             "returnType": null,
                             "arrowToken": {
                                 "kind": 10,

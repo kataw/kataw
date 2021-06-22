@@ -42,24 +42,31 @@
                         "end": 7
                     },
                     "typeParameters": null,
-                    "arrowPatameterList": [
-                        {
-                            "kind": 134299649,
-                            "text": "x",
-                            "rawText": "x",
-                            "flags": 96,
-                            "start": 9,
-                            "end": 10
-                        },
-                        {
-                            "kind": 134299649,
-                            "text": "y",
-                            "rawText": "y",
-                            "flags": 96,
-                            "start": 11,
-                            "end": 13
-                        }
-                    ],
+                    "arrowPatameterList": {
+                        "kind": 342,
+                        "parameters": [
+                            {
+                                "kind": 134299649,
+                                "text": "x",
+                                "rawText": "x",
+                                "flags": 96,
+                                "start": 9,
+                                "end": 10
+                            },
+                            {
+                                "kind": 134299649,
+                                "text": "y",
+                                "rawText": "y",
+                                "flags": 96,
+                                "start": 11,
+                                "end": 13
+                            }
+                        ],
+                        "trailingComma": false,
+                        "flags": 32,
+                        "start": 9,
+                        "end": 14
+                    },
                     "returnType": null,
                     "arrowToken": {
                         "kind": 10,

@@ -126,16 +126,23 @@ async <A = B, C = D,>(x) => y;
                     "start": 0,
                     "end": 21
                 },
-                "arrowPatameterList": [
-                    {
-                        "kind": 134299649,
-                        "text": "x",
-                        "rawText": "x",
-                        "flags": 96,
-                        "start": 22,
-                        "end": 23
-                    }
-                ],
+                "arrowPatameterList": {
+                    "kind": 342,
+                    "parameters": [
+                        {
+                            "kind": 134299649,
+                            "text": "x",
+                            "rawText": "x",
+                            "flags": 96,
+                            "start": 22,
+                            "end": 23
+                        }
+                    ],
+                    "trailingComma": false,
+                    "flags": 32,
+                    "start": 22,
+                    "end": 24
+                },
                 "returnType": null,
                 "arrowToken": {
                     "kind": 10,

@@ -33,7 +33,14 @@ do async
                     "end": 8
                 },
                 "typeParameters": null,
-                "arrowPatameterList": [],
+                "arrowPatameterList": {
+                    "kind": 342,
+                    "parameters": [],
+                    "trailingComma": false,
+                    "flags": 33,
+                    "start": 11,
+                    "end": 11
+                },
                 "returnType": null,
                 "arrowToken": {
                     "kind": 10,

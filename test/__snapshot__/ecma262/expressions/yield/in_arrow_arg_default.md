@@ -63,40 +63,47 @@ function *g() { async (x = yield) => {}; }
                                 "end": 21
                             },
                             "typeParameters": null,
-                            "arrowPatameterList": [
-                                {
-                                    "kind": 281,
-                                    "ellipsisToken": null,
-                                    "left": {
-                                        "kind": 134299649,
-                                        "text": "x",
-                                        "rawText": "x",
-                                        "flags": 96,
-                                        "start": 23,
-                                        "end": 24
-                                    },
-                                    "optionalToken": null,
-                                    "type": null,
-                                    "right": {
-                                        "kind": 229,
-                                        "yieldKeyword": {
-                                            "kind": 8454253,
-                                            "flags": 64,
+                            "arrowPatameterList": {
+                                "kind": 342,
+                                "parameters": [
+                                    {
+                                        "kind": 281,
+                                        "ellipsisToken": null,
+                                        "left": {
+                                            "kind": 134299649,
+                                            "text": "x",
+                                            "rawText": "x",
+                                            "flags": 96,
+                                            "start": 23,
+                                            "end": 24
+                                        },
+                                        "optionalToken": null,
+                                        "type": null,
+                                        "right": {
+                                            "kind": 229,
+                                            "yieldKeyword": {
+                                                "kind": 8454253,
+                                                "flags": 64,
+                                                "start": 26,
+                                                "end": 32
+                                            },
+                                            "delegate": false,
+                                            "asteriskToken": null,
+                                            "expression": null,
+                                            "flags": 32,
                                             "start": 26,
                                             "end": 32
                                         },
-                                        "delegate": false,
-                                        "asteriskToken": null,
-                                        "expression": null,
                                         "flags": 32,
-                                        "start": 26,
+                                        "start": 23,
                                         "end": 32
-                                    },
-                                    "flags": 32,
-                                    "start": 23,
-                                    "end": 32
-                                }
-                            ],
+                                    }
+                                ],
+                                "trailingComma": false,
+                                "flags": 34,
+                                "start": 23,
+                                "end": 33
+                            },
                             "returnType": null,
                             "arrowToken": {
                                 "kind": 10,
@@ -157,7 +164,7 @@ function *g() { async (x = yield) => {}; }
 ```javascript
 
 function * g() {
-  async (x =  yield) =>  {}
+  async  =>  {}
 
 }
 ```

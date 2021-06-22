@@ -32,24 +32,31 @@ async (x, y) => ok, async (x, y) => ok
                 "end": 5
             },
             "typeParameters": null,
-            "arrowPatameterList": [
-                {
-                    "kind": 134299649,
-                    "text": "x",
-                    "rawText": "x",
-                    "flags": 96,
-                    "start": 7,
-                    "end": 8
-                },
-                {
-                    "kind": 134299649,
-                    "text": "y",
-                    "rawText": "y",
-                    "flags": 96,
-                    "start": 9,
-                    "end": 11
-                }
-            ],
+            "arrowPatameterList": {
+                "kind": 342,
+                "parameters": [
+                    {
+                        "kind": 134299649,
+                        "text": "x",
+                        "rawText": "x",
+                        "flags": 96,
+                        "start": 7,
+                        "end": 8
+                    },
+                    {
+                        "kind": 134299649,
+                        "text": "y",
+                        "rawText": "y",
+                        "flags": 96,
+                        "start": 9,
+                        "end": 11
+                    }
+                ],
+                "trailingComma": false,
+                "flags": 32,
+                "start": 7,
+                "end": 12
+            },
             "returnType": null,
             "arrowToken": {
                 "kind": 10,
@@ -78,24 +85,31 @@ async (x, y) => ok, async (x, y) => ok
                 "end": 25
             },
             "typeParameters": null,
-            "arrowPatameterList": [
-                {
-                    "kind": 134299649,
-                    "text": "x",
-                    "rawText": "x",
-                    "flags": 96,
-                    "start": 27,
-                    "end": 28
-                },
-                {
-                    "kind": 134299649,
-                    "text": "y",
-                    "rawText": "y",
-                    "flags": 96,
-                    "start": 29,
-                    "end": 31
-                }
-            ],
+            "arrowPatameterList": {
+                "kind": 342,
+                "parameters": [
+                    {
+                        "kind": 134299649,
+                        "text": "x",
+                        "rawText": "x",
+                        "flags": 96,
+                        "start": 27,
+                        "end": 28
+                    },
+                    {
+                        "kind": 134299649,
+                        "text": "y",
+                        "rawText": "y",
+                        "flags": 96,
+                        "start": 29,
+                        "end": 31
+                    }
+                ],
+                "trailingComma": false,
+                "flags": 32,
+                "start": 27,
+                "end": 32
+            },
             "returnType": null,
             "arrowToken": {
                 "kind": 10,

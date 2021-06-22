@@ -64,23 +64,30 @@
                                 "end": 36
                             },
                             "typeParameters": null,
-                            "arrowPatameterList": [
-                                {
-                                    "kind": 281,
-                                    "ellipsisToken": {
-                                        "kind": 524302,
-                                        "flags": 64,
+                            "arrowPatameterList": {
+                                "kind": 342,
+                                "parameters": [
+                                    {
+                                        "kind": 281,
+                                        "ellipsisToken": {
+                                            "kind": 524302,
+                                            "flags": 64,
+                                            "start": 37,
+                                            "end": 40
+                                        },
+                                        "optionalToken": null,
+                                        "type": null,
+                                        "right": null,
+                                        "flags": 32,
                                         "start": 37,
-                                        "end": 40
-                                    },
-                                    "optionalToken": null,
-                                    "type": null,
-                                    "right": null,
-                                    "flags": 32,
-                                    "start": 37,
-                                    "end": 45
-                                }
-                            ],
+                                        "end": 45
+                                    }
+                                ],
+                                "trailingComma": false,
+                                "flags": 34,
+                                "start": 37,
+                                "end": 46
+                            },
                             "returnType": null,
                             "arrowToken": {
                                 "kind": 10,
@@ -133,7 +140,7 @@
 
 ```javascript
 
-var asyncArrow = async (...) =>  {};
+var asyncArrow = async  =>  {};
 ```
 
 ### Diagnostics

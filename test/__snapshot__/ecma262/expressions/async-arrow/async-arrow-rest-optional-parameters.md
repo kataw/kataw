@@ -32,23 +32,30 @@ async (...args?: any) => {};
                 "end": 5
             },
             "typeParameters": null,
-            "arrowPatameterList": [
-                {
-                    "kind": 281,
-                    "ellipsisToken": {
-                        "kind": 524302,
-                        "flags": 64,
+            "arrowPatameterList": {
+                "kind": 342,
+                "parameters": [
+                    {
+                        "kind": 281,
+                        "ellipsisToken": {
+                            "kind": 524302,
+                            "flags": 64,
+                            "start": 7,
+                            "end": 10
+                        },
+                        "optionalToken": null,
+                        "type": null,
+                        "right": null,
+                        "flags": 32,
                         "start": 7,
-                        "end": 10
-                    },
-                    "optionalToken": null,
-                    "type": null,
-                    "right": null,
-                    "flags": 32,
-                    "start": 7,
-                    "end": 20
-                }
-            ],
+                        "end": 20
+                    }
+                ],
+                "trailingComma": false,
+                "flags": 34,
+                "start": 7,
+                "end": 21
+            },
             "returnType": null,
             "arrowToken": {
                 "kind": 10,
@@ -94,7 +101,7 @@ async (...args?: any) => {};
 
 ```javascript
 
-async (...) =>  {}
+async  =>  {}
 
 ```
 

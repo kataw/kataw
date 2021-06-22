@@ -616,7 +616,14 @@ class Foo extends async x => {} {}
                                                 "end": 209
                                             },
                                             "typeParameters": null,
-                                            "arrowPatameterList": [],
+                                            "arrowPatameterList": {
+                                                "kind": 342,
+                                                "parameters": [],
+                                                "trailingComma": false,
+                                                "flags": 32,
+                                                "start": 211,
+                                                "end": 211
+                                            },
                                             "returnType": null,
                                             "arrowToken": {
                                                 "kind": 10,
@@ -705,16 +712,23 @@ class Foo extends async x => {} {}
                                             "end": 244
                                         },
                                         "typeParameters": null,
-                                        "arrowPatameterList": [
-                                            {
-                                                "kind": 134299649,
-                                                "text": "x",
-                                                "rawText": "x",
-                                                "flags": 96,
-                                                "start": 246,
-                                                "end": 247
-                                            }
-                                        ],
+                                        "arrowPatameterList": {
+                                            "kind": 342,
+                                            "parameters": [
+                                                {
+                                                    "kind": 134299649,
+                                                    "text": "x",
+                                                    "rawText": "x",
+                                                    "flags": 96,
+                                                    "start": 246,
+                                                    "end": 247
+                                                }
+                                            ],
+                                            "trailingComma": false,
+                                            "flags": 32,
+                                            "start": 246,
+                                            "end": 248
+                                        },
                                         "returnType": null,
                                         "arrowToken": {
                                             "kind": 10,

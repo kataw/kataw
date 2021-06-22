@@ -42,7 +42,14 @@
                         "end": 9
                     },
                     "typeParameters": null,
-                    "arrowPatameterList": [],
+                    "arrowPatameterList": {
+                        "kind": 342,
+                        "parameters": [],
+                        "trailingComma": false,
+                        "flags": 32,
+                        "start": 10,
+                        "end": 10
+                    },
                     "returnType": null,
                     "arrowToken": {
                         "kind": 10,
@@ -84,7 +91,7 @@
 
 ```javascript
 
-3 + async () =>  2;
+3 + async  =>  2;
 ```
 
 ### Diagnostics

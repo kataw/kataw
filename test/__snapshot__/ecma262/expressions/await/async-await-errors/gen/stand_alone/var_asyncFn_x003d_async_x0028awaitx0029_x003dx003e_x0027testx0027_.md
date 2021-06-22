@@ -55,16 +55,23 @@ var asyncFn = async (await) => 'test';
                                 "end": 19
                             },
                             "typeParameters": null,
-                            "arrowPatameterList": [
-                                {
-                                    "kind": 134299649,
-                                    "text": "await",
-                                    "rawText": "await",
-                                    "flags": 96,
-                                    "start": 21,
-                                    "end": 26
-                                }
-                            ],
+                            "arrowPatameterList": {
+                                "kind": 342,
+                                "parameters": [
+                                    {
+                                        "kind": 134299649,
+                                        "text": "await",
+                                        "rawText": "await",
+                                        "flags": 96,
+                                        "start": 21,
+                                        "end": 26
+                                    }
+                                ],
+                                "trailingComma": false,
+                                "flags": 32,
+                                "start": 21,
+                                "end": 27
+                            },
                             "returnType": null,
                             "arrowToken": {
                                 "kind": 10,
@@ -111,7 +118,7 @@ var asyncFn = async (await) => 'test';
 
 ```javascript
 
-var asyncFn = async (await) =>  "'test'";
+var asyncFn = async  =>  "'test'";
 ```
 
 ### Diagnostics

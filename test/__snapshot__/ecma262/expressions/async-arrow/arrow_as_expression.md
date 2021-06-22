@@ -39,7 +39,14 @@ foo(async () => foo)
                                 "end": 9
                             },
                             "typeParameters": null,
-                            "arrowPatameterList": [],
+                            "arrowPatameterList": {
+                                "kind": 342,
+                                "parameters": [],
+                                "trailingComma": false,
+                                "flags": 32,
+                                "start": 11,
+                                "end": 11
+                            },
                             "returnType": null,
                             "arrowToken": {
                                 "kind": 10,
@@ -87,7 +94,7 @@ foo(async () => foo)
 
 ```javascript
 
-foo(async () =>  foo);
+foo(async  =>  foo);
 ```
 
 ### Diagnostics

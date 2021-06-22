@@ -47,39 +47,46 @@ var a = async (options = {}) => options;
                                 "end": 13
                             },
                             "typeParameters": null,
-                            "arrowPatameterList": [
-                                {
-                                    "kind": 281,
-                                    "ellipsisToken": null,
-                                    "left": {
-                                        "kind": 134299649,
-                                        "text": "options",
-                                        "rawText": "options",
-                                        "flags": 96,
-                                        "start": 15,
-                                        "end": 22
-                                    },
-                                    "optionalToken": null,
-                                    "type": null,
-                                    "right": {
-                                        "kind": 220,
-                                        "propertyList": {
-                                            "kind": 218,
-                                            "properties": [],
-                                            "trailingComma": false,
-                                            "flags": 16,
-                                            "start": 26,
-                                            "end": 26
+                            "arrowPatameterList": {
+                                "kind": 342,
+                                "parameters": [
+                                    {
+                                        "kind": 281,
+                                        "ellipsisToken": null,
+                                        "left": {
+                                            "kind": 134299649,
+                                            "text": "options",
+                                            "rawText": "options",
+                                            "flags": 96,
+                                            "start": 15,
+                                            "end": 22
                                         },
-                                        "flags": 48,
-                                        "start": 24,
+                                        "optionalToken": null,
+                                        "type": null,
+                                        "right": {
+                                            "kind": 220,
+                                            "propertyList": {
+                                                "kind": 218,
+                                                "properties": [],
+                                                "trailingComma": false,
+                                                "flags": 16,
+                                                "start": 26,
+                                                "end": 26
+                                            },
+                                            "flags": 48,
+                                            "start": 24,
+                                            "end": 27
+                                        },
+                                        "flags": 32,
+                                        "start": 15,
                                         "end": 27
-                                    },
-                                    "flags": 32,
-                                    "start": 15,
-                                    "end": 27
-                                }
-                            ],
+                                    }
+                                ],
+                                "trailingComma": false,
+                                "flags": 34,
+                                "start": 15,
+                                "end": 28
+                            },
                             "returnType": null,
                             "arrowToken": {
                                 "kind": 10,
@@ -126,7 +133,7 @@ var a = async (options = {}) => options;
 
 ```javascript
 
-var a = async (options = {}) =>  options;
+var a = async  =>  options;
 ```
 
 ### Diagnostics

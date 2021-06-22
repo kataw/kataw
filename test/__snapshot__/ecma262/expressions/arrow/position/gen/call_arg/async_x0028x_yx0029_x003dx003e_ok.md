@@ -47,24 +47,31 @@ foo(async (x, y) => ok)
                                 "end": 9
                             },
                             "typeParameters": null,
-                            "arrowPatameterList": [
-                                {
-                                    "kind": 134299649,
-                                    "text": "x",
-                                    "rawText": "x",
-                                    "flags": 96,
-                                    "start": 11,
-                                    "end": 12
-                                },
-                                {
-                                    "kind": 134299649,
-                                    "text": "y",
-                                    "rawText": "y",
-                                    "flags": 96,
-                                    "start": 13,
-                                    "end": 15
-                                }
-                            ],
+                            "arrowPatameterList": {
+                                "kind": 342,
+                                "parameters": [
+                                    {
+                                        "kind": 134299649,
+                                        "text": "x",
+                                        "rawText": "x",
+                                        "flags": 96,
+                                        "start": 11,
+                                        "end": 12
+                                    },
+                                    {
+                                        "kind": 134299649,
+                                        "text": "y",
+                                        "rawText": "y",
+                                        "flags": 96,
+                                        "start": 13,
+                                        "end": 15
+                                    }
+                                ],
+                                "trailingComma": false,
+                                "flags": 32,
+                                "start": 11,
+                                "end": 16
+                            },
                             "returnType": null,
                             "arrowToken": {
                                 "kind": 10,
@@ -112,7 +119,7 @@ foo(async (x, y) => ok)
 
 ```javascript
 
-foo(async (x, y) =>  ok);
+foo(async  =>  ok);
 ```
 
 ### Diagnostics

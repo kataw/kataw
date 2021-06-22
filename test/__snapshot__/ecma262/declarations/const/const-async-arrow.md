@@ -54,46 +54,53 @@ const a = async (foo: string = "") => {}
                                 "end": 15
                             },
                             "typeParameters": null,
-                            "arrowPatameterList": [
-                                {
-                                    "kind": 281,
-                                    "ellipsisToken": null,
-                                    "left": {
-                                        "kind": 134299649,
-                                        "text": "foo",
-                                        "rawText": "foo",
-                                        "flags": 96,
-                                        "start": 17,
-                                        "end": 20
-                                    },
-                                    "optionalToken": null,
-                                    "type": {
-                                        "kind": 139,
-                                        "bitwiseOrToken": null,
-                                        "bitwiseAndToken": null,
+                            "arrowPatameterList": {
+                                "kind": 342,
+                                "parameters": [
+                                    {
+                                        "kind": 281,
+                                        "ellipsisToken": null,
+                                        "left": {
+                                            "kind": 134299649,
+                                            "text": "foo",
+                                            "rawText": "foo",
+                                            "flags": 96,
+                                            "start": 17,
+                                            "end": 20
+                                        },
+                                        "optionalToken": null,
                                         "type": {
-                                            "kind": 134234347,
-                                            "flags": 2097216,
+                                            "kind": 139,
+                                            "bitwiseOrToken": null,
+                                            "bitwiseAndToken": null,
+                                            "type": {
+                                                "kind": 134234347,
+                                                "flags": 2097216,
+                                                "start": 21,
+                                                "end": 28
+                                            },
+                                            "flags": 2097152,
                                             "start": 21,
                                             "end": 28
                                         },
-                                        "flags": 2097152,
-                                        "start": 21,
-                                        "end": 28
-                                    },
-                                    "right": {
-                                        "kind": 201392131,
-                                        "text": "",
-                                        "rawText": "\"\"",
-                                        "flags": 96,
-                                        "start": 30,
+                                        "right": {
+                                            "kind": 201392131,
+                                            "text": "",
+                                            "rawText": "\"\"",
+                                            "flags": 96,
+                                            "start": 30,
+                                            "end": 33
+                                        },
+                                        "flags": 32,
+                                        "start": 17,
                                         "end": 33
-                                    },
-                                    "flags": 32,
-                                    "start": 17,
-                                    "end": 33
-                                }
-                            ],
+                                    }
+                                ],
+                                "trailingComma": false,
+                                "flags": 32,
+                                "start": 17,
+                                "end": 34
+                            },
                             "returnType": null,
                             "arrowToken": {
                                 "kind": 10,
@@ -146,7 +153,7 @@ const a = async (foo: string = "") => {}
 
 ```javascript
 
-const a = async (foo = "\"\"") =>  {};
+const a = async  =>  {};
 ```
 
 ### Diagnostics

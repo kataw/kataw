@@ -248,7 +248,14 @@ y = async (x) => {}
                         "end": 51
                     },
                     "typeParameters": null,
-                    "arrowPatameterList": [],
+                    "arrowPatameterList": {
+                        "kind": 342,
+                        "parameters": [],
+                        "trailingComma": false,
+                        "flags": 32,
+                        "start": 53,
+                        "end": 53
+                    },
                     "returnType": null,
                     "arrowToken": {
                         "kind": 10,
@@ -309,16 +316,23 @@ y = async (x) => {}
                         "end": 71
                     },
                     "typeParameters": null,
-                    "arrowPatameterList": [
-                        {
-                            "kind": 134299649,
-                            "text": "x",
-                            "rawText": "x",
-                            "flags": 96,
-                            "start": 73,
-                            "end": 74
-                        }
-                    ],
+                    "arrowPatameterList": {
+                        "kind": 342,
+                        "parameters": [
+                            {
+                                "kind": 134299649,
+                                "text": "x",
+                                "rawText": "x",
+                                "flags": 96,
+                                "start": 73,
+                                "end": 74
+                            }
+                        ],
+                        "trailingComma": false,
+                        "flags": 32,
+                        "start": 73,
+                        "end": 75
+                    },
                     "returnType": null,
                     "arrowToken": {
                         "kind": 10,
@@ -369,8 +383,8 @@ y = async (x) => {}
 y = x =>  {};
 y = () =>  {};
 y = () =>  {};
-y = async () =>  {};
-y = async (x) =>  {};
+y = async  =>  {};
+y = async  =>  {};
 ```
 
 ### Diagnostics

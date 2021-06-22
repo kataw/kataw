@@ -316,16 +316,23 @@
                         "end": 70
                     },
                     "typeParameters": null,
-                    "arrowPatameterList": [
-                        {
-                            "kind": 134299649,
-                            "text": "x",
-                            "rawText": "x",
-                            "flags": 96,
-                            "start": 72,
-                            "end": 73
-                        }
-                    ],
+                    "arrowPatameterList": {
+                        "kind": 342,
+                        "parameters": [
+                            {
+                                "kind": 134299649,
+                                "text": "x",
+                                "rawText": "x",
+                                "flags": 96,
+                                "start": 72,
+                                "end": 73
+                            }
+                        ],
+                        "trailingComma": false,
+                        "flags": 32,
+                        "start": 72,
+                        "end": 74
+                    },
                     "returnType": null,
                     "arrowToken": {
                         "kind": 10,

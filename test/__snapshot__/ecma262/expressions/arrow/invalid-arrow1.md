@@ -1711,7 +1711,14 @@ y = (x => {}(0));
                             "end": 386
                         },
                         "typeParameters": null,
-                        "arrowPatameterList": [],
+                        "arrowPatameterList": {
+                            "kind": 342,
+                            "parameters": [],
+                            "trailingComma": false,
+                            "flags": 32,
+                            "start": 388,
+                            "end": 388
+                        },
                         "returnType": null,
                         "arrowToken": {
                             "kind": 10,
@@ -1945,7 +1952,14 @@ y = (x => {}(0));
                             "end": 443
                         },
                         "typeParameters": null,
-                        "arrowPatameterList": [],
+                        "arrowPatameterList": {
+                            "kind": 342,
+                            "parameters": [],
+                            "trailingComma": false,
+                            "flags": 32,
+                            "start": 445,
+                            "end": 445
+                        },
                         "returnType": null,
                         "arrowToken": {
                             "kind": 10,
@@ -2015,7 +2029,14 @@ y = (x => {}(0));
                             "end": 465
                         },
                         "typeParameters": null,
-                        "arrowPatameterList": [],
+                        "arrowPatameterList": {
+                            "kind": 342,
+                            "parameters": [],
+                            "trailingComma": false,
+                            "flags": 32,
+                            "start": 467,
+                            "end": 467
+                        },
                         "returnType": null,
                         "arrowToken": {
                             "kind": 10,
@@ -2085,7 +2106,14 @@ y = (x => {}(0));
                             "end": 487
                         },
                         "typeParameters": null,
-                        "arrowPatameterList": [],
+                        "arrowPatameterList": {
+                            "kind": 342,
+                            "parameters": [],
+                            "trailingComma": false,
+                            "flags": 32,
+                            "start": 489,
+                            "end": 489
+                        },
                         "returnType": null,
                         "arrowToken": {
                             "kind": 10,
@@ -2155,7 +2183,14 @@ y = (x => {}(0));
                             "end": 509
                         },
                         "typeParameters": null,
-                        "arrowPatameterList": [],
+                        "arrowPatameterList": {
+                            "kind": 342,
+                            "parameters": [],
+                            "trailingComma": false,
+                            "flags": 32,
+                            "start": 511,
+                            "end": 511
+                        },
                         "returnType": null,
                         "arrowToken": {
                             "kind": 10,

@@ -49,16 +49,23 @@
                     "end": 26
                 },
                 "typeParameters": null,
-                "arrowPatameterList": [
-                    {
-                        "kind": 134299649,
-                        "text": "await",
-                        "rawText": "await",
-                        "flags": 96,
-                        "start": 28,
-                        "end": 33
-                    }
-                ],
+                "arrowPatameterList": {
+                    "kind": 342,
+                    "parameters": [
+                        {
+                            "kind": 134299649,
+                            "text": "await",
+                            "rawText": "await",
+                            "flags": 96,
+                            "start": 28,
+                            "end": 33
+                        }
+                    ],
+                    "trailingComma": false,
+                    "flags": 32,
+                    "start": 28,
+                    "end": 34
+                },
                 "returnType": null,
                 "arrowToken": {
                     "kind": 10,

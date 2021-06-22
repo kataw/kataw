@@ -53,24 +53,31 @@ var x = async (a, b) => await a + b;
                                 "end": 13
                             },
                             "typeParameters": null,
-                            "arrowPatameterList": [
-                                {
-                                    "kind": 134299649,
-                                    "text": "a",
-                                    "rawText": "a",
-                                    "flags": 96,
-                                    "start": 15,
-                                    "end": 16
-                                },
-                                {
-                                    "kind": 134299649,
-                                    "text": "b",
-                                    "rawText": "b",
-                                    "flags": 96,
-                                    "start": 17,
-                                    "end": 19
-                                }
-                            ],
+                            "arrowPatameterList": {
+                                "kind": 342,
+                                "parameters": [
+                                    {
+                                        "kind": 134299649,
+                                        "text": "a",
+                                        "rawText": "a",
+                                        "flags": 96,
+                                        "start": 15,
+                                        "end": 16
+                                    },
+                                    {
+                                        "kind": 134299649,
+                                        "text": "b",
+                                        "rawText": "b",
+                                        "flags": 96,
+                                        "start": 17,
+                                        "end": 19
+                                    }
+                                ],
+                                "trailingComma": false,
+                                "flags": 32,
+                                "start": 15,
+                                "end": 20
+                            },
                             "returnType": null,
                             "arrowToken": {
                                 "kind": 10,
@@ -149,7 +156,7 @@ var x = async (a, b) => await a + b;
 
 ```javascript
 
-var x = async (a, b) =>  await a + b;
+var x = async  =>  await a + b;
 ```
 
 ### Diagnostics
