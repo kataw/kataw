@@ -9,9 +9,33 @@
 </p>
 <br>
 
+<!-- vscode-markdown-toc -->
+* [CST nodes](#CSTnodes)
+* [CST keywords](#CSTkeywords)
+* [ESNext](#ESNext)
+* [Types](#Types)
+* [Comments](#Comments)
+	* [Ignore comment](#Ignorecomment)
+* [Transformation](#Transformation)
+* [CST parser features](#CSTparserfeatures)
+* [Current state](#Currentstate)
+* [Roadmap](#Roadmap)
+	* [📌v0.1](#v0.1)
+	* [v0.2](#v0.2)
+	* [v0.3](#v0.3)
+	* [v1.0](#v1.0)
+* [Future](#Future)
+
+<!-- vscode-markdown-toc-config
+	numbering=false
+	autoSave=true
+	/vscode-markdown-toc-config -->
+<!-- /vscode-markdown-toc -->
+
 **WIP**
 
 Kataw is a javascript toolchain with high focus on performance, and it's main goal is to unify functionality that has previously been separate tools.
+
 
 It's core is an ECMAScript friendly CST that allows you to parse `ECMAScript® 2022 (ECMA-262 12th Edition) language specification`.
 
@@ -76,7 +100,7 @@ are parsing in. The diagnostics have been designed like this so you can quickly 
 These features used together gives you more options to adjust, modify and customize the CST tree compared to a regular AST parser and you can also write fewer
 code lines and at the same time experience insane performance.
 
-## CST nodes
+## <a name='CSTnodes'></a>CST nodes
 
 All CST nodes has a `kind` which is a number that represents the node type. It's identical to `ESTree` type with the exception that Kataw doesn't do any
 string comparisons - everything in Kataw is a number.
@@ -120,7 +144,7 @@ Some CST nodes needes additional info. This can be set using the `Kataw.NodeFlag
  kataw.isSingleQuote(str); // true
 ```
 
-## CST keywords
+## <a name='CSTkeywords'></a>CST keywords
 
 All keywords in Kataw is it's own CST node, and you create them in almost the same way as any other CST nodes.
 
@@ -128,14 +152,14 @@ All keywords in Kataw is it's own CST node, and you create them in almost the sa
 kataw.createToken(kataw.SyntaxKind.ForKeyword, Kataw.NodeFlags.NoChildren, /* start */ 1,  /* end */ 5);
 ```
 
-## ESNext
+## <a name='ESNext'></a>ESNext
 
 `Stage 3` proposals can be parsed if the `next` options are enabled.
 
 `Stage 1` and `stage 2` proposals are not supported because the specs drafts are changing all the time.
 
 
-## Types
+## <a name='Types'></a>Types
 
 Kataw has it's own type system that is an improvement over `Typescript` and `Flow`, and it
 conform to the `ECMAScript® 2022 (ECMA-262 12th Edition) language specification`.
@@ -160,7 +184,7 @@ const source = kataw.parseModule('let: string', { allowTypes: true});
 kataw.removeKatawTypes(source);
 ```
 
-## Comments
+## <a name='Comments'></a>Comments
 
 Leading and trailing comments can be extracted at correct position with `kataw.getLeadingComments` and `kataw.getTrailingComments`.
 
@@ -175,7 +199,7 @@ Getting the trailing comment of `Hello` can be done like this `kataw.getTrailing
 
 If you want a `1:1` copy of the actual source code, you can do a "*slice*" from the start value of `Hello` to the end value of `there!`.
 
-### Ignore comment
+### <a name='Ignorecomment'></a>Ignore comment
 
 Statements, blocks and other code lines can be ignored in Kataw with a `// kataw-ignore` comment.
 
@@ -188,7 +212,7 @@ while (true) {}
 
 You can use `kataw.shouldIgnoreNextNode(node);` to verify if the node should be ignored.
 
-## Transformation
+## <a name='Transformation'></a>Transformation
 
 `Kataw` can act the same way as`Babel` and be a tool that helps you write code in the latest version of Javascript. This can be done with
 developing transformers to handle situations where your supported environments don't support certain features natively.
@@ -244,7 +268,7 @@ export function swapIdentifierWithNumeric(transform) {
 
 ```
 
-## Printing
+## <a name='CSTparserfeatures'></a>CST parser features
 
 Kataw is adjustable and allows three different ways to print your source code.
 
@@ -277,9 +301,6 @@ Here is an example:
 
 ## CST parser features
 
-- Error recovery by default (_like Acorn loose_), but it reconstruct the CST tree correctly
-
-- Optional error reporting (_require a callback as the parsers 3rd argument_)
 
 - Dynamic error, hint and warning diagnostics (_depends on the context you are parsing in_)
 
@@ -295,23 +316,34 @@ Here is an example:
 
 - Performance
 
-## Current state
+## <a name='Currentstate'></a>Current state
 
 - The CST parser can be used in production
 
+## <a name='Roadmap'></a>Roadmap
 
-## This is what the future plans are for Kataw
+### <a name='v0.1'></a>📌v0.1
+- [x] Parsing ECMA 262(aka JavaScript), and the cst spec be stable
+- [x] Test 262 passes
+- [x] Printing API (like prettier API)
+- [ ] //kataw-ignore(like //prettier-ignore)
+- [ ] Command line interface (like prettier cli)
+- [ ] Documentation & website
 
-All this features are still *WIP*.
+### <a name='v0.2'></a>v0.2
+- [ ] plugin system, to make it possible to support jsx/ts/flow...
+- [ ] jsx plugin
+- [ ] ts plugin
 
-- typechecking (_like Typescript and Flow_)
+### <a name='v0.3'></a>v0.3
+- [ ] transformers: like babel
+- [ ] minify: like uglify-js
+- [ ] linter: like eslint
 
-- Linting (_like ESLint_)
-
-- Minify (_Like Terser_)
+### <a name='v1.0'></a>v1.0
 
 
-## Future
+## <a name='Future'></a>Future
 
 - A "hook system" for adding additional rules for the linter and the grammar checker will be published.
 
