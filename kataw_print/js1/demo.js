@@ -157,7 +157,15 @@
     _parse: function() {
       var result;
       try {
-        result = kataw.toSource1(this.$input.val(), { printWidth:80, tabWidth: 2 });
+        result = this.isModule ? kataw.parseModule(this.$input.val(), { allowTypes: true, next: true }, function (a, b, c, d, e) {
+          throw c + '(' + d + ', ' + e + ')';
+
+        }) : kataw.parseScript(this.$input.val(), { allowTypes: true, next: true }, function (a, b, c, d, e) {
+          throw c + '(' + d + ', ' + e + ')';
+
+        });
+        result = kataw.aladdin(result);
+        //result = customStringify(result, null, '    ');
       } catch (e) {
         result = e.message || e;
       }
@@ -166,6 +174,7 @@
       this.updateURL();
       this._timerId = null;
     },
+
 
     updateURL: function() {
       var params = {
