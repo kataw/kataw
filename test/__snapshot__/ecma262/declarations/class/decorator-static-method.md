@@ -46,7 +46,34 @@ class Foo {
                         {
                             "kind": 278,
                             "declareToken": null,
-                            "decorators": null,
+                            "decorators": {
+                                "kind": 207,
+                                "elements": [
+                                    {
+                                        "kind": 34611453,
+                                        "decoratorToken": {
+                                            "kind": 34611453,
+                                            "flags": 65,
+                                            "start": 11,
+                                            "end": 15
+                                        },
+                                        "expression": {
+                                            "kind": 134299649,
+                                            "text": "dec",
+                                            "rawText": "dec",
+                                            "flags": 96,
+                                            "start": 15,
+                                            "end": 18
+                                        },
+                                        "flags": 0,
+                                        "start": 15,
+                                        "end": 18
+                                    }
+                                ],
+                                "flags": 32,
+                                "start": 11,
+                                "end": 18
+                            },
                             "staticKeyword": {
                                 "kind": 8388716,
                                 "flags": 64,
@@ -127,6 +154,7 @@ class Foo {
 ```javascript
 
 class Foo {
+  @dec
   static static bar() {}
 }
 ```

@@ -9916,7 +9916,9 @@ export function parseClassElement(
     return createSemicolonClassElement(pos, parser.curPos);
   }
 
-  decorators = parseDecorators(parser, context);
+  if (!decorators) {
+    decorators = parseDecorators(parser, context);
+  }
 
   const token = parser.token;
   const flags = parser.nodeFlags;

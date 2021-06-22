@@ -44,7 +44,34 @@ class A {
                     "elements": [
                         {
                             "kind": 280,
-                            "decorators": null,
+                            "decorators": {
+                                "kind": 207,
+                                "elements": [
+                                    {
+                                        "kind": 34611453,
+                                        "decoratorToken": {
+                                            "kind": 34611453,
+                                            "flags": 65,
+                                            "start": 9,
+                                            "end": 13
+                                        },
+                                        "expression": {
+                                            "kind": 134299649,
+                                            "text": "dec",
+                                            "rawText": "dec",
+                                            "flags": 96,
+                                            "start": 13,
+                                            "end": 16
+                                        },
+                                        "flags": 0,
+                                        "start": 13,
+                                        "end": 16
+                                    }
+                                ],
+                                "flags": 32,
+                                "start": 9,
+                                "end": 16
+                            },
                             "declaredToken": null,
                             "staticToken": {
                                 "kind": 8388716,
@@ -103,6 +130,7 @@ class A {
 ```javascript
 
 class A {
+  @dec
   static name = 0;
 }
 ```
