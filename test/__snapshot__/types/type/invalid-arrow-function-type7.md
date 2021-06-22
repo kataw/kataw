@@ -86,7 +86,7 @@ type a = ({} | {proto [x]:string}) => T;
                                                 "end": 21
                                             },
                                             "optionalToken": null,
-                                            "value": {
+                                            "type": {
                                                 "kind": 139,
                                                 "bitwiseOrToken": null,
                                                 "bitwiseAndToken": null,

@@ -69,7 +69,7 @@ type a = {function():string};
                                 "end": 18
                             },
                             "optionalToken": null,
-                            "value": {
+                            "type": {
                                 "kind": 148,
                                 "functionTypeParameterList": {
                                     "kind": 282,

@@ -68,7 +68,7 @@ var a : { x: number{ y: string } } = { x: 0, y: 'foo' };
                                             "end": 11
                                         },
                                         "optionalToken": null,
-                                        "value": {
+                                        "type": {
                                             "kind": 139,
                                             "bitwiseOrToken": null,
                                             "bitwiseAndToken": null,
@@ -101,7 +101,7 @@ var a : { x: number{ y: string } } = { x: 0, y: 'foo' };
                                             "end": 19
                                         },
                                         "optionalToken": null,
-                                        "value": {
+                                        "type": {
                                             "kind": 139,
                                             "bitwiseOrToken": null,
                                             "bitwiseAndToken": null,
@@ -123,7 +123,7 @@ var a : { x: number{ y: string } } = { x: 0, y: 'foo' };
                                                             "end": 22
                                                         },
                                                         "optionalToken": null,
-                                                        "value": {
+                                                        "type": {
                                                             "kind": 139,
                                                             "bitwiseOrToken": null,
                                                             "bitwiseAndToken": null,

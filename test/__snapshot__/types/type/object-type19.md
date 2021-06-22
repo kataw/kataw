@@ -74,7 +74,7 @@ type a = {get foo():string};
                                 "end": 17
                             },
                             "optionalToken": null,
-                            "value": {
+                            "type": {
                                 "kind": 148,
                                 "functionTypeParameterList": {
                                     "kind": 282,

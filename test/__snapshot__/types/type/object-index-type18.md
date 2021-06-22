@@ -72,7 +72,7 @@ var obj: {
                                             "end": 17
                                         },
                                         "optionalToken": null,
-                                        "value": {
+                                        "type": {
                                             "kind": 139,
                                             "bitwiseOrToken": null,
                                             "bitwiseAndToken": null,

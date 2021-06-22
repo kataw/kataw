@@ -68,7 +68,7 @@ opaque type Good: {x: string} = {x: string, y: number};
                                 "end": 20
                             },
                             "optionalToken": null,
-                            "value": {
+                            "type": {
                                 "kind": 139,
                                 "bitwiseOrToken": null,
                                 "bitwiseAndToken": null,
@@ -118,7 +118,7 @@ opaque type Good: {x: string} = {x: string, y: number};
                                 "end": 34
                             },
                             "optionalToken": null,
-                            "value": {
+                            "type": {
                                 "kind": 139,
                                 "bitwiseOrToken": null,
                                 "bitwiseAndToken": null,
@@ -151,7 +151,7 @@ opaque type Good: {x: string} = {x: string, y: number};
                                 "end": 45
                             },
                             "optionalToken": null,
-                            "value": {
+                            "type": {
                                 "kind": 139,
                                 "bitwiseOrToken": null,
                                 "bitwiseAndToken": null,

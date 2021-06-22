@@ -72,7 +72,7 @@ var obj: { foo?: boolean } = {};
                                             "start": 14,
                                             "end": 15
                                         },
-                                        "value": {
+                                        "type": {
                                             "kind": 139,
                                             "bitwiseOrToken": null,
                                             "bitwiseAndToken": null,

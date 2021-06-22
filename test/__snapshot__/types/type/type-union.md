@@ -108,7 +108,7 @@ type overloads2 = {
                                         "end": 21
                                     },
                                     "optionalToken": null,
-                                    "value": {
+                                    "type": {
                                         "kind": 139,
                                         "bitwiseOrToken": null,
                                         "bitwiseAndToken": null,
@@ -151,7 +151,7 @@ type overloads2 = {
                                         "end": 36
                                     },
                                     "optionalToken": null,
-                                    "value": {
+                                    "type": {
                                         "kind": 139,
                                         "bitwiseOrToken": null,
                                         "bitwiseAndToken": null,
@@ -442,7 +442,7 @@ type overloads2 = {
                                 "end": 141
                             },
                             "optionalToken": null,
-                            "value": {
+                            "type": {
                                 "kind": 139,
                                 "bitwiseOrToken": {
                                     "kind": 134251592,
@@ -472,7 +472,7 @@ type overloads2 = {
                                                         "end": 154
                                                     },
                                                     "optionalToken": null,
-                                                    "value": {
+                                                    "type": {
                                                         "kind": 139,
                                                         "bitwiseOrToken": null,
                                                         "bitwiseAndToken": null,
@@ -515,7 +515,7 @@ type overloads2 = {
                                                         "end": 172
                                                     },
                                                     "optionalToken": null,
-                                                    "value": {
+                                                    "type": {
                                                         "kind": 139,
                                                         "bitwiseOrToken": null,
                                                         "bitwiseAndToken": null,
@@ -613,7 +613,7 @@ type overloads2 = {
                                 "end": 206
                             },
                             "optionalToken": null,
-                            "value": {
+                            "type": {
                                 "kind": 139,
                                 "bitwiseOrToken": null,
                                 "bitwiseAndToken": {
@@ -643,7 +643,7 @@ type overloads2 = {
                                                         "end": 219
                                                     },
                                                     "optionalToken": null,
-                                                    "value": {
+                                                    "type": {
                                                         "kind": 139,
                                                         "bitwiseOrToken": null,
                                                         "bitwiseAndToken": null,
@@ -686,7 +686,7 @@ type overloads2 = {
                                                         "end": 237
                                                     },
                                                     "optionalToken": null,
-                                                    "value": {
+                                                    "type": {
                                                         "kind": 139,
                                                         "bitwiseOrToken": null,
                                                         "bitwiseAndToken": null,

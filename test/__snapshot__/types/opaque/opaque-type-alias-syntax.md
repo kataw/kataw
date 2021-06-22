@@ -125,7 +125,7 @@ opaque type VeryOpaque: AliasAlias = ObjectAlias;
                                 "end": 72
                             },
                             "optionalToken": null,
-                            "value": {
+                            "type": {
                                 "kind": 139,
                                 "bitwiseOrToken": null,
                                 "bitwiseAndToken": null,
@@ -158,7 +158,7 @@ opaque type VeryOpaque: AliasAlias = ObjectAlias;
                                 "end": 90
                             },
                             "optionalToken": null,
-                            "value": {
+                            "type": {
                                 "kind": 148,
                                 "functionTypeParameterList": {
                                     "kind": 282,

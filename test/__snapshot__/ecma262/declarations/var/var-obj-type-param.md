@@ -67,7 +67,7 @@ var a: { id<T>(x: T): T; }
                                             "end": 11
                                         },
                                         "optionalToken": null,
-                                        "value": {
+                                        "type": {
                                             "kind": 148,
                                             "functionTypeParameterList": {
                                                 "kind": 282,

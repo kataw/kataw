@@ -74,7 +74,7 @@ var obj: {
                                             "end": 20
                                         },
                                         "optionalToken": null,
-                                        "value": {
+                                        "type": {
                                             "kind": 148,
                                             "functionTypeParameterList": {
                                                 "kind": 282,

@@ -574,7 +574,7 @@ class C2<X, Y> {
                                                 "end": 169
                                             },
                                             "optionalToken": null,
-                                            "value": {
+                                            "type": {
                                                 "kind": 139,
                                                 "bitwiseOrToken": null,
                                                 "bitwiseAndToken": null,

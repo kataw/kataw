@@ -81,7 +81,7 @@ declare class D extends C { }
                                 "end": 30
                             },
                             "optionalToken": null,
-                            "value": {
+                            "type": {
                                 "kind": 139,
                                 "bitwiseOrToken": null,
                                 "bitwiseAndToken": null,
@@ -119,7 +119,7 @@ declare class D extends C { }
                                 "end": 54
                             },
                             "optionalToken": null,
-                            "value": {
+                            "type": {
                                 "kind": 148,
                                 "functionTypeParameterList": {
                                     "kind": 282,
@@ -198,7 +198,7 @@ declare class D extends C { }
                                 "end": 89
                             },
                             "optionalToken": null,
-                            "value": {
+                            "type": {
                                 "kind": 148,
                                 "functionTypeParameterList": {
                                     "kind": 282,

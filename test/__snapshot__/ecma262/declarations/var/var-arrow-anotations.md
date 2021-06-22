@@ -777,7 +777,7 @@ class Array { concat(items:number | string) {}; }
                                             "end": 215
                                         },
                                         "optionalToken": null,
-                                        "value": {
+                                        "type": {
                                             "kind": 139,
                                             "bitwiseOrToken": null,
                                             "bitwiseAndToken": null,
@@ -1546,7 +1546,7 @@ class Array { concat(items:number | string) {}; }
                                             "end": 491
                                         },
                                         "optionalToken": null,
-                                        "value": {
+                                        "type": {
                                             "kind": 139,
                                             "bitwiseOrToken": null,
                                             "bitwiseAndToken": null,
@@ -1584,7 +1584,7 @@ class Array { concat(items:number | string) {}; }
                                             "start": 507,
                                             "end": 508
                                         },
-                                        "value": {
+                                        "type": {
                                             "kind": 139,
                                             "bitwiseOrToken": null,
                                             "bitwiseAndToken": null,
@@ -1809,7 +1809,7 @@ class Array { concat(items:number | string) {}; }
                                             "end": 569
                                         },
                                         "optionalToken": null,
-                                        "value": {
+                                        "type": {
                                             "kind": 139,
                                             "bitwiseOrToken": null,
                                             "bitwiseAndToken": null,
@@ -1947,7 +1947,7 @@ class Array { concat(items:number | string) {}; }
                                             "end": 610
                                         },
                                         "optionalToken": null,
-                                        "value": {
+                                        "type": {
                                             "kind": 139,
                                             "bitwiseOrToken": null,
                                             "bitwiseAndToken": null,
@@ -2078,7 +2078,7 @@ class Array { concat(items:number | string) {}; }
                                                 "end": 656
                                             },
                                             "optionalToken": null,
-                                            "value": {
+                                            "type": {
                                                 "kind": 139,
                                                 "bitwiseOrToken": null,
                                                 "bitwiseAndToken": null,
@@ -2260,7 +2260,7 @@ class Array { concat(items:number | string) {}; }
                                             "end": 713
                                         },
                                         "optionalToken": null,
-                                        "value": {
+                                        "type": {
                                             "kind": 139,
                                             "bitwiseOrToken": null,
                                             "bitwiseAndToken": null,
@@ -2282,7 +2282,7 @@ class Array { concat(items:number | string) {}; }
                                                             "end": 722
                                                         },
                                                         "optionalToken": null,
-                                                        "value": {
+                                                        "type": {
                                                             "kind": 139,
                                                             "bitwiseOrToken": null,
                                                             "bitwiseAndToken": null,

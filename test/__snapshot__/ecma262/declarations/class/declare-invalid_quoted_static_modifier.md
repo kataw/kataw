@@ -68,7 +68,7 @@ declare class A { "static" foo(): number }
                                 "end": 26
                             },
                             "optionalToken": null,
-                            "value": {
+                            "type": {
                                 "kind": 139,
                                 "bitwiseOrToken": null,
                                 "bitwiseAndToken": null,

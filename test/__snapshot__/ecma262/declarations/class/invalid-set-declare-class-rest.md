@@ -75,7 +75,7 @@ declare class B {
                                 "end": 39
                             },
                             "optionalToken": null,
-                            "value": {
+                            "type": {
                                 "kind": 148,
                                 "functionTypeParameterList": {
                                     "kind": 282,

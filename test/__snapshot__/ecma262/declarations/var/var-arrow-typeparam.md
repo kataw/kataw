@@ -72,7 +72,7 @@ var a: {param1?: number; param2: string; param3: string;}
                                             "start": 14,
                                             "end": 15
                                         },
-                                        "value": {
+                                        "type": {
                                             "kind": 139,
                                             "bitwiseOrToken": null,
                                             "bitwiseAndToken": null,
@@ -105,7 +105,7 @@ var a: {param1?: number; param2: string; param3: string;}
                                             "end": 31
                                         },
                                         "optionalToken": null,
-                                        "value": {
+                                        "type": {
                                             "kind": 139,
                                             "bitwiseOrToken": null,
                                             "bitwiseAndToken": null,
@@ -138,7 +138,7 @@ var a: {param1?: number; param2: string; param3: string;}
                                             "end": 47
                                         },
                                         "optionalToken": null,
-                                        "value": {
+                                        "type": {
                                             "kind": 139,
                                             "bitwiseOrToken": null,
                                             "bitwiseAndToken": null,

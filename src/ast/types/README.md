@@ -173,7 +173,7 @@ interface ObjectTypeProperty <: TypeNode {
   protoKeyword: SyntaxToken<TokenSyntaxKind> | null;
   key: Identifier | DummyIdentifier | StringLiteral | NumericLiteral;
   optionalToken: SyntaxToken<TokenSyntaxKind> | null;
-  value: TypeNode;
+  type: TypeNode;
 }
 ```
 

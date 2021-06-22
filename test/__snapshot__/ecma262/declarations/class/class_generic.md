@@ -141,7 +141,7 @@ class C<T> {
                                                                     "end": 32
                                                                 },
                                                                 "optionalToken": null,
-                                                                "value": {
+                                                                "type": {
                                                                     "kind": 139,
                                                                     "bitwiseOrToken": null,
                                                                     "bitwiseAndToken": null,
@@ -327,7 +327,7 @@ class C<T> {
                                                                                 "end": 79
                                                                             },
                                                                             "optionalToken": null,
-                                                                            "value": {
+                                                                            "type": {
                                                                                 "kind": 139,
                                                                                 "bitwiseOrToken": null,
                                                                                 "bitwiseAndToken": null,

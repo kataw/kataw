@@ -153,7 +153,7 @@ type x = (Record<string, any> | null)[] & { length: 2; }
                                         "end": 50
                                     },
                                     "optionalToken": null,
-                                    "value": {
+                                    "type": {
                                         "kind": 139,
                                         "bitwiseOrToken": null,
                                         "bitwiseAndToken": null,

@@ -82,7 +82,7 @@ type Animal =
                                         "end": 23
                                     },
                                     "optionalToken": null,
-                                    "value": {
+                                    "type": {
                                         "kind": 139,
                                         "bitwiseOrToken": null,
                                         "bitwiseAndToken": null,
@@ -125,7 +125,7 @@ type Animal =
                                         "end": 44
                                     },
                                     "optionalToken": null,
-                                    "value": {
+                                    "type": {
                                         "kind": 139,
                                         "bitwiseOrToken": null,
                                         "bitwiseAndToken": null,
@@ -168,7 +168,7 @@ type Animal =
                                         "end": 63
                                     },
                                     "optionalToken": null,
-                                    "value": {
+                                    "type": {
                                         "kind": 139,
                                         "bitwiseOrToken": null,
                                         "bitwiseAndToken": null,
@@ -211,7 +211,7 @@ type Animal =
                                         "end": 85
                                     },
                                     "optionalToken": null,
-                                    "value": {
+                                    "type": {
                                         "kind": 139,
                                         "bitwiseOrToken": null,
                                         "bitwiseAndToken": null,

@@ -93,7 +93,7 @@ declare var tup: [{foo: string}, {bar: number}];
                                                                 "end": 34
                                                             },
                                                             "optionalToken": null,
-                                                            "value": {
+                                                            "type": {
                                                                 "kind": 139,
                                                                 "bitwiseOrToken": null,
                                                                 "bitwiseAndToken": null,
@@ -221,7 +221,7 @@ declare var tup: [{foo: string}, {bar: number}];
                                                                 "end": 91
                                                             },
                                                             "optionalToken": null,
-                                                            "value": {
+                                                            "type": {
                                                                 "kind": 139,
                                                                 "bitwiseOrToken": null,
                                                                 "bitwiseAndToken": null,
@@ -337,7 +337,7 @@ declare var tup: [{foo: string}, {bar: number}];
                                                         "end": 125
                                                     },
                                                     "optionalToken": null,
-                                                    "value": {
+                                                    "type": {
                                                         "kind": 139,
                                                         "bitwiseOrToken": null,
                                                         "bitwiseAndToken": null,
@@ -387,7 +387,7 @@ declare var tup: [{foo: string}, {bar: number}];
                                                         "end": 140
                                                     },
                                                     "optionalToken": null,
-                                                    "value": {
+                                                    "type": {
                                                         "kind": 139,
                                                         "bitwiseOrToken": null,
                                                         "bitwiseAndToken": null,

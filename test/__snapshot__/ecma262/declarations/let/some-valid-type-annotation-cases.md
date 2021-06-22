@@ -93,7 +93,7 @@ let fourteen: A.B<X.Y<Z<T>>>=2;
                                             "end": 11
                                         },
                                         "optionalToken": null,
-                                        "value": {
+                                        "type": {
                                             "kind": 139,
                                             "bitwiseOrToken": null,
                                             "bitwiseAndToken": null,
@@ -127,7 +127,7 @@ let fourteen: A.B<X.Y<Z<T>>>=2;
                                             "end": 19
                                         },
                                         "optionalToken": null,
-                                        "value": {
+                                        "type": {
                                             "kind": 139,
                                             "bitwiseOrToken": null,
                                             "bitwiseAndToken": null,
@@ -160,7 +160,7 @@ let fourteen: A.B<X.Y<Z<T>>>=2;
                                             "end": 29
                                         },
                                         "optionalToken": null,
-                                        "value": {
+                                        "type": {
                                             "kind": 139,
                                             "bitwiseOrToken": null,
                                             "bitwiseAndToken": null,
@@ -245,7 +245,7 @@ let fourteen: A.B<X.Y<Z<T>>>=2;
                                             "end": 52
                                         },
                                         "optionalToken": null,
-                                        "value": {
+                                        "type": {
                                             "kind": 148,
                                             "functionTypeParameterList": {
                                                 "kind": 282,

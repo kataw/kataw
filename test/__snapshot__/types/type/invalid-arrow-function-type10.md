@@ -91,7 +91,7 @@ type a = ({} | { ?[x]:string}) => T;
                                                 "start": 16,
                                                 "end": 18
                                             },
-                                            "value": {
+                                            "type": {
                                                 "kind": 139,
                                                 "bitwiseOrToken": null,
                                                 "bitwiseAndToken": null,

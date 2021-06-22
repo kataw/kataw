@@ -69,7 +69,7 @@ type o = { m(|int|bool): void }
                                 "end": 12
                             },
                             "optionalToken": null,
-                            "value": {
+                            "type": {
                                 "kind": 148,
                                 "functionTypeParameterList": {
                                     "kind": 282,

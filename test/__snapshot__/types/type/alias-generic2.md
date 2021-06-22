@@ -135,7 +135,7 @@ type MyObject<A, B, C> = {
                                 "end": 32
                             },
                             "optionalToken": null,
-                            "value": {
+                            "type": {
                                 "kind": 139,
                                 "bitwiseOrToken": null,
                                 "bitwiseAndToken": null,
@@ -177,7 +177,7 @@ type MyObject<A, B, C> = {
                                 "end": 42
                             },
                             "optionalToken": null,
-                            "value": {
+                            "type": {
                                 "kind": 139,
                                 "bitwiseOrToken": null,
                                 "bitwiseAndToken": null,
@@ -219,7 +219,7 @@ type MyObject<A, B, C> = {
                                 "end": 52
                             },
                             "optionalToken": null,
-                            "value": {
+                            "type": {
                                 "kind": 139,
                                 "bitwiseOrToken": null,
                                 "bitwiseAndToken": null,

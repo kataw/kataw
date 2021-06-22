@@ -96,7 +96,7 @@ var z : Object = (x) => "hi"
                                             "end": 78
                                         },
                                         "optionalToken": null,
-                                        "value": {
+                                        "type": {
                                             "kind": 139,
                                             "bitwiseOrToken": null,
                                             "bitwiseAndToken": null,
@@ -220,7 +220,7 @@ var z : Object = (x) => "hi"
                                             "end": 176
                                         },
                                         "optionalToken": null,
-                                        "value": {
+                                        "type": {
                                             "kind": 139,
                                             "bitwiseOrToken": null,
                                             "bitwiseAndToken": null,
@@ -476,7 +476,7 @@ var z : Object = (x) => "hi"
                                             "end": 328
                                         },
                                         "optionalToken": null,
-                                        "value": {
+                                        "type": {
                                             "kind": 139,
                                             "bitwiseOrToken": null,
                                             "bitwiseAndToken": null,

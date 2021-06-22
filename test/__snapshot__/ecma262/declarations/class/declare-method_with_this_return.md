@@ -70,7 +70,7 @@ declare class Foo {
                                 "end": 23
                             },
                             "optionalToken": null,
-                            "value": {
+                            "type": {
                                 "kind": 148,
                                 "functionTypeParameterList": {
                                     "kind": 282,

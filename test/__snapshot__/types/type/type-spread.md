@@ -153,7 +153,7 @@ type D32 = {p?: number};
                                 "end": 42
                             },
                             "optionalToken": null,
-                            "value": {
+                            "type": {
                                 "kind": 139,
                                 "bitwiseOrToken": null,
                                 "bitwiseAndToken": null,
@@ -387,7 +387,7 @@ type D32 = {p?: number};
                                 "end": 96
                             },
                             "optionalToken": null,
-                            "value": {
+                            "type": {
                                 "kind": 139,
                                 "bitwiseOrToken": null,
                                 "bitwiseAndToken": null,
@@ -589,7 +589,7 @@ type D32 = {p?: number};
                                 "start": 145,
                                 "end": 146
                             },
-                            "value": {
+                            "type": {
                                 "kind": 139,
                                 "bitwiseOrToken": null,
                                 "bitwiseAndToken": null,
@@ -805,7 +805,7 @@ type D32 = {p?: number};
                                 "start": 208,
                                 "end": 209
                             },
-                            "value": {
+                            "type": {
                                 "kind": 139,
                                 "bitwiseOrToken": null,
                                 "bitwiseAndToken": null,
@@ -917,7 +917,7 @@ type D32 = {p?: number};
                                 "start": 251,
                                 "end": 252
                             },
-                            "value": {
+                            "type": {
                                 "kind": 139,
                                 "bitwiseOrToken": null,
                                 "bitwiseAndToken": null,
@@ -1043,7 +1043,7 @@ type D32 = {p?: number};
                                 "start": 303,
                                 "end": 304
                             },
-                            "value": {
+                            "type": {
                                 "kind": 139,
                                 "bitwiseOrToken": null,
                                 "bitwiseAndToken": null,
@@ -1140,7 +1140,7 @@ type D32 = {p?: number};
                                 "start": 337,
                                 "end": 338
                             },
-                            "value": {
+                            "type": {
                                 "kind": 139,
                                 "bitwiseOrToken": null,
                                 "bitwiseAndToken": null,

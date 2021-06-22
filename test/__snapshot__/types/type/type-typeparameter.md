@@ -512,7 +512,7 @@ type B = Foo<
                                                             "end": 143
                                                         },
                                                         "optionalToken": null,
-                                                        "value": {
+                                                        "type": {
                                                             "kind": 139,
                                                             "bitwiseOrToken": null,
                                                             "bitwiseAndToken": null,
@@ -555,7 +555,7 @@ type B = Foo<
                                                             "end": 159
                                                         },
                                                         "optionalToken": null,
-                                                        "value": {
+                                                        "type": {
                                                             "kind": 139,
                                                             "bitwiseOrToken": null,
                                                             "bitwiseAndToken": null,
@@ -684,7 +684,7 @@ type B = Foo<
                                                             "end": 193
                                                         },
                                                         "optionalToken": null,
-                                                        "value": {
+                                                        "type": {
                                                             "kind": 139,
                                                             "bitwiseOrToken": null,
                                                             "bitwiseAndToken": null,
@@ -727,7 +727,7 @@ type B = Foo<
                                                             "end": 209
                                                         },
                                                         "optionalToken": null,
-                                                        "value": {
+                                                        "type": {
                                                             "kind": 139,
                                                             "bitwiseOrToken": null,
                                                             "bitwiseAndToken": null,

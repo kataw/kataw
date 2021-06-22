@@ -117,7 +117,7 @@ type LinkedList<Type> = Type & { next: LinkedList<Type> };
                                         "end": 37
                                     },
                                     "optionalToken": null,
-                                    "value": {
+                                    "type": {
                                         "kind": 139,
                                         "bitwiseOrToken": null,
                                         "bitwiseAndToken": null,

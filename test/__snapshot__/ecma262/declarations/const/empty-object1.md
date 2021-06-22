@@ -64,7 +64,7 @@ const someObj: { id: number } = {};
                                             "end": 19
                                         },
                                         "optionalToken": null,
-                                        "value": {
+                                        "type": {
                                             "kind": 139,
                                             "bitwiseOrToken": null,
                                             "bitwiseAndToken": null,

@@ -69,7 +69,7 @@ type T = { proto p: string }
                                 "end": 16
                             },
                             "optionalToken": null,
-                            "value": {
+                            "type": {
                                 "kind": 139,
                                 "bitwiseOrToken": null,
                                 "bitwiseAndToken": null,

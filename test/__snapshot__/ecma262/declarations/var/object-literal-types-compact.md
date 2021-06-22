@@ -154,7 +154,7 @@ type T4 = { foo: number, bar: string, ... };
                                 "end": 32
                             },
                             "optionalToken": null,
-                            "value": {
+                            "type": {
                                 "kind": 139,
                                 "bitwiseOrToken": null,
                                 "bitwiseAndToken": null,
@@ -176,7 +176,7 @@ type T4 = { foo: number, bar: string, ... };
                                                 "end": 37
                                             },
                                             "optionalToken": null,
-                                            "value": {
+                                            "type": {
                                                 "kind": 139,
                                                 "bitwiseOrToken": null,
                                                 "bitwiseAndToken": null,
@@ -198,7 +198,7 @@ type T4 = { foo: number, bar: string, ... };
                                                                 "end": 42
                                                             },
                                                             "optionalToken": null,
-                                                            "value": {
+                                                            "type": {
                                                                 "kind": 139,
                                                                 "bitwiseOrToken": null,
                                                                 "bitwiseAndToken": null,
@@ -418,7 +418,7 @@ type T4 = { foo: number, bar: string, ... };
                                 "end": 81
                             },
                             "optionalToken": null,
-                            "value": {
+                            "type": {
                                 "kind": 139,
                                 "bitwiseOrToken": null,
                                 "bitwiseAndToken": null,
@@ -533,7 +533,7 @@ type T4 = { foo: number, bar: string, ... };
                                 "end": 113
                             },
                             "optionalToken": null,
-                            "value": {
+                            "type": {
                                 "kind": 139,
                                 "bitwiseOrToken": null,
                                 "bitwiseAndToken": null,
@@ -566,7 +566,7 @@ type T4 = { foo: number, bar: string, ... };
                                 "end": 126
                             },
                             "optionalToken": null,
-                            "value": {
+                            "type": {
                                 "kind": 139,
                                 "bitwiseOrToken": null,
                                 "bitwiseAndToken": null,

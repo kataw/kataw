@@ -208,7 +208,7 @@ type a = (a[a & b][c | d][{a():string}][][][(a[a & b][c | d][{a():string}][][][]
                                                         "end": 28
                                                     },
                                                     "optionalToken": null,
-                                                    "value": {
+                                                    "type": {
                                                         "kind": 148,
                                                         "functionTypeParameterList": {
                                                             "kind": 282,
@@ -424,7 +424,7 @@ type a = (a[a & b][c | d][{a():string}][][][(a[a & b][c | d][{a():string}][][][]
                                                                     "end": 63
                                                                 },
                                                                 "optionalToken": null,
-                                                                "value": {
+                                                                "type": {
                                                                     "kind": 148,
                                                                     "functionTypeParameterList": {
                                                                         "kind": 282,

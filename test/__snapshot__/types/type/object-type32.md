@@ -74,7 +74,7 @@ type x = {get x (): string }
                                 "end": 15
                             },
                             "optionalToken": null,
-                            "value": {
+                            "type": {
                                 "kind": 148,
                                 "functionTypeParameterList": {
                                     "kind": 282,

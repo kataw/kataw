@@ -86,7 +86,7 @@ type a = ({} | {static [x]:string}) => T;
                                                 "end": 22
                                             },
                                             "optionalToken": null,
-                                            "value": {
+                                            "type": {
                                                 "kind": 139,
                                                 "bitwiseOrToken": null,
                                                 "bitwiseAndToken": null,

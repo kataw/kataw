@@ -69,7 +69,7 @@ type a = {"string":y.z};
                                 "end": 18
                             },
                             "optionalToken": null,
-                            "value": {
+                            "type": {
                                 "kind": 139,
                                 "bitwiseOrToken": null,
                                 "bitwiseAndToken": null,

@@ -1635,7 +1635,7 @@ export function visitEachChild(
         return (<ObjectTypeProperty>node).getKeyword !== visitNode((<ObjectTypeProperty>node).getKeyword, visitor) ||
           (<ObjectTypeProperty>node).setKeyword !== visitNode((<ObjectTypeProperty>node).setKeyword, visitor) ||
           (<ObjectTypeProperty>node).key !== visitNode((<ObjectTypeProperty>node).key, visitor) ||
-          (<ObjectTypeProperty>node).value !== visitNode((<ObjectTypeProperty>node).value, visitor) ||
+          (<ObjectTypeProperty>node).type !== visitNode((<ObjectTypeProperty>node).type, visitor) ||
           (<ObjectTypeProperty>node).optionalToken !== visitNode((<ObjectTypeProperty>node).optionalToken, visitor) ||
           (<ObjectTypeProperty>node).staticToken !== visitNode((<ObjectTypeProperty>node).staticToken, visitor) ||
           (<ObjectTypeProperty>node).protoKeyword !== visitNode((<ObjectTypeProperty>node).protoKeyword, visitor)
@@ -1643,7 +1643,7 @@ export function visitEachChild(
               (<ObjectTypeProperty>node).getKeyword,
               (<ObjectTypeProperty>node).setKeyword,
               (<ObjectTypeProperty>node).key,
-              (<ObjectTypeProperty>node).value,
+              (<ObjectTypeProperty>node).type,
               (<ObjectTypeProperty>node).optionalToken,
               (<ObjectTypeProperty>node).staticToken,
               (<ObjectTypeProperty>node).protoKeyword,

@@ -69,7 +69,7 @@ type a = {x: {x:y}};
                                 "end": 11
                             },
                             "optionalToken": null,
-                            "value": {
+                            "type": {
                                 "kind": 139,
                                 "bitwiseOrToken": null,
                                 "bitwiseAndToken": null,
@@ -91,7 +91,7 @@ type a = {x: {x:y}};
                                                 "end": 15
                                             },
                                             "optionalToken": null,
-                                            "value": {
+                                            "type": {
                                                 "kind": 139,
                                                 "bitwiseOrToken": null,
                                                 "bitwiseAndToken": null,

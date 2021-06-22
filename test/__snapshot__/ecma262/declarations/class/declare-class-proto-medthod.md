@@ -73,7 +73,7 @@ declare class C { proto m(): void }
                                 "end": 25
                             },
                             "optionalToken": null,
-                            "value": {
+                            "type": {
                                 "kind": 148,
                                 "functionTypeParameterList": {
                                     "kind": 282,

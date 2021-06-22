@@ -352,7 +352,7 @@ function remove<A, B>(a: A): [$Rest<A, {p: B}>, B] {
                                                                 "end": 41
                                                             },
                                                             "optionalToken": null,
-                                                            "value": {
+                                                            "type": {
                                                                 "kind": 139,
                                                                 "bitwiseOrToken": null,
                                                                 "bitwiseAndToken": null,

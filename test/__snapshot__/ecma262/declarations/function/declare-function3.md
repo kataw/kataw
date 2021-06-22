@@ -106,7 +106,7 @@ declare function foo<TArguments: $ReadOnlyArray<{foo: 'a'}>, TReturn>(
                                                                     "end": 52
                                                                 },
                                                                 "optionalToken": null,
-                                                                "value": {
+                                                                "type": {
                                                                     "kind": 139,
                                                                     "bitwiseOrToken": null,
                                                                     "bitwiseAndToken": null,

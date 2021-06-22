@@ -14,14 +14,14 @@ export interface ObjectTypeProperty extends SyntaxNode {
   readonly protoKeyword: SyntaxToken<TokenSyntaxKind> | null;
   readonly key: Identifier | DummyIdentifier | StringLiteral | NumericLiteral;
   readonly optionalToken: SyntaxToken<TokenSyntaxKind> | null;
-  readonly value: TypeNode;
+  readonly type: TypeNode;
 }
 
 export function createObjectTypeProperty(
   getKeyword: SyntaxToken<TokenSyntaxKind> | null,
   setKeyword: SyntaxToken<TokenSyntaxKind> | null,
   key: Identifier | DummyIdentifier | StringLiteral | NumericLiteral,
-  value: TypeNode,
+  type: TypeNode,
   optionalToken: SyntaxToken<TokenSyntaxKind> | null,
   staticToken: SyntaxToken<TokenSyntaxKind> | null,
   protoKeyword: SyntaxToken<TokenSyntaxKind> | null,
@@ -36,7 +36,7 @@ export function createObjectTypeProperty(
     setKeyword,
     key,
     optionalToken,
-    value,
+    type,
     flags: NodeFlags.IsTypeNode,
     start,
     end

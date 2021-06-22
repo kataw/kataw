@@ -1141,7 +1141,7 @@ var {x5}: {x5: string; } = { x5: "hello" };
                                             "end": 266
                                         },
                                         "optionalToken": null,
-                                        "value": {
+                                        "type": {
                                             "kind": 139,
                                             "bitwiseOrToken": null,
                                             "bitwiseAndToken": null,

@@ -6889,7 +6889,6 @@ function parseFormalParameterList(parser: ParserState, context: Context, scope: 
             parser.curPos
           );
         }
-
         parameters.push(left);
       }
 

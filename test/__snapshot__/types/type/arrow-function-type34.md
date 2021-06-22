@@ -208,7 +208,7 @@ type a = (a[a & b][c | d][{a():string}][][][]) => T;
                                                         "end": 28
                                                     },
                                                     "optionalToken": null,
-                                                    "value": {
+                                                    "type": {
                                                         "kind": 148,
                                                         "functionTypeParameterList": {
                                                             "kind": 282,

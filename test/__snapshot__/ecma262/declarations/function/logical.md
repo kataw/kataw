@@ -1620,7 +1620,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                             "end": 1094
                                         },
                                         "optionalToken": null,
-                                        "value": {
+                                        "type": {
                                             "kind": 139,
                                             "bitwiseOrToken": null,
                                             "bitwiseAndToken": null,
@@ -8893,7 +8893,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                                     "end": 6372
                                                 },
                                                 "optionalToken": null,
-                                                "value": {
+                                                "type": {
                                                     "kind": 139,
                                                     "bitwiseOrToken": null,
                                                     "bitwiseAndToken": null,
@@ -9540,7 +9540,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                                     "end": 6691
                                                 },
                                                 "optionalToken": null,
-                                                "value": {
+                                                "type": {
                                                     "kind": 139,
                                                     "bitwiseOrToken": null,
                                                     "bitwiseAndToken": null,
@@ -11759,7 +11759,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                             "end": 8362
                                         },
                                         "optionalToken": null,
-                                        "value": {
+                                        "type": {
                                             "kind": 139,
                                             "bitwiseOrToken": null,
                                             "bitwiseAndToken": null,
@@ -11826,7 +11826,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                             "end": 8378
                                         },
                                         "optionalToken": null,
-                                        "value": {
+                                        "type": {
                                             "kind": 139,
                                             "bitwiseOrToken": null,
                                             "bitwiseAndToken": null,
@@ -12063,7 +12063,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                             "end": 8513
                                         },
                                         "optionalToken": null,
-                                        "value": {
+                                        "type": {
                                             "kind": 139,
                                             "bitwiseOrToken": null,
                                             "bitwiseAndToken": null,
@@ -12096,7 +12096,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                             "end": 8524
                                         },
                                         "optionalToken": null,
-                                        "value": {
+                                        "type": {
                                             "kind": 139,
                                             "bitwiseOrToken": null,
                                             "bitwiseAndToken": null,
@@ -12299,7 +12299,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                             "end": 8625
                                         },
                                         "optionalToken": null,
-                                        "value": {
+                                        "type": {
                                             "kind": 139,
                                             "bitwiseOrToken": null,
                                             "bitwiseAndToken": null,
@@ -12332,7 +12332,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                             "end": 8636
                                         },
                                         "optionalToken": null,
-                                        "value": {
+                                        "type": {
                                             "kind": 139,
                                             "bitwiseOrToken": null,
                                             "bitwiseAndToken": null,

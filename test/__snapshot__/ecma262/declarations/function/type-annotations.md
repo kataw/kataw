@@ -1962,7 +1962,7 @@ function foo28(numVal?: number = 2) {}
                                             "end": 709
                                         },
                                         "optionalToken": null,
-                                        "value": {
+                                        "type": {
                                             "kind": 139,
                                             "bitwiseOrToken": null,
                                             "bitwiseAndToken": null,

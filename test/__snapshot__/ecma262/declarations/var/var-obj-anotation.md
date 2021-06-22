@@ -82,7 +82,7 @@ var {x}: {x: string; } = { x: "hello" };
                                             "end": 11
                                         },
                                         "optionalToken": null,
-                                        "value": {
+                                        "type": {
                                             "kind": 139,
                                             "bitwiseOrToken": null,
                                             "bitwiseAndToken": null,

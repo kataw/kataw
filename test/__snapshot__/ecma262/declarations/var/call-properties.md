@@ -509,7 +509,7 @@ var a: { <T>(x: T): number; };
                                             "end": 124
                                         },
                                         "optionalToken": null,
-                                        "value": {
+                                        "type": {
                                             "kind": 139,
                                             "bitwiseOrToken": null,
                                             "bitwiseAndToken": null,

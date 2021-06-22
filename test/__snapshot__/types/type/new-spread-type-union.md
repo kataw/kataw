@@ -91,7 +91,7 @@ type UnsealedInUnion = Union1 | Union2 | typeof y;
                                                         "end": 16
                                                     },
                                                     "optionalToken": null,
-                                                    "value": {
+                                                    "type": {
                                                         "kind": 139,
                                                         "bitwiseOrToken": null,
                                                         "bitwiseAndToken": null,
@@ -142,7 +142,7 @@ type UnsealedInUnion = Union1 | Union2 | typeof y;
                                                         "end": 22
                                                     },
                                                     "optionalToken": null,
-                                                    "value": {
+                                                    "type": {
                                                         "kind": 139,
                                                         "bitwiseOrToken": null,
                                                         "bitwiseAndToken": null,

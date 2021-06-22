@@ -135,7 +135,7 @@ opaque type MyObject<A, B, C>: { foo: A, bar: B } = {
                                 "end": 36
                             },
                             "optionalToken": null,
-                            "value": {
+                            "type": {
                                 "kind": 139,
                                 "bitwiseOrToken": null,
                                 "bitwiseAndToken": null,
@@ -177,7 +177,7 @@ opaque type MyObject<A, B, C>: { foo: A, bar: B } = {
                                 "end": 44
                             },
                             "optionalToken": null,
-                            "value": {
+                            "type": {
                                 "kind": 139,
                                 "bitwiseOrToken": null,
                                 "bitwiseAndToken": null,
@@ -236,7 +236,7 @@ opaque type MyObject<A, B, C>: { foo: A, bar: B } = {
                                 "end": 59
                             },
                             "optionalToken": null,
-                            "value": {
+                            "type": {
                                 "kind": 139,
                                 "bitwiseOrToken": null,
                                 "bitwiseAndToken": null,
@@ -278,7 +278,7 @@ opaque type MyObject<A, B, C>: { foo: A, bar: B } = {
                                 "end": 69
                             },
                             "optionalToken": null,
-                            "value": {
+                            "type": {
                                 "kind": 139,
                                 "bitwiseOrToken": null,
                                 "bitwiseAndToken": null,
@@ -320,7 +320,7 @@ opaque type MyObject<A, B, C>: { foo: A, bar: B } = {
                                 "end": 79
                             },
                             "optionalToken": null,
-                            "value": {
+                            "type": {
                                 "kind": 139,
                                 "bitwiseOrToken": null,
                                 "bitwiseAndToken": null,

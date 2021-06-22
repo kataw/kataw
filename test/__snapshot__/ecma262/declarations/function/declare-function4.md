@@ -104,7 +104,7 @@ declare function bar(config: Config<{foo: 'a'}>) : void
                                                                 "end": 40
                                                             },
                                                             "optionalToken": null,
-                                                            "value": {
+                                                            "type": {
                                                                 "kind": 139,
                                                                 "bitwiseOrToken": null,
                                                                 "bitwiseAndToken": null,

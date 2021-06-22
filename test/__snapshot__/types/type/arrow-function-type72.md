@@ -124,7 +124,7 @@ type a = (((symbol[{a():string}][][][] | ((y & [((x) => T)]) => T) => T) => T) =
                                                                                             "end": 21
                                                                                         },
                                                                                         "optionalToken": null,
-                                                                                        "value": {
+                                                                                        "type": {
                                                                                             "kind": 148,
                                                                                             "functionTypeParameterList": {
                                                                                                 "kind": 282,

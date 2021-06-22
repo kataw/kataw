@@ -67,7 +67,7 @@ var obj: {str:string; i:number; j:boolean} = {str: "...", i: "...", k: false};
                                             "end": 13
                                         },
                                         "optionalToken": null,
-                                        "value": {
+                                        "type": {
                                             "kind": 139,
                                             "bitwiseOrToken": null,
                                             "bitwiseAndToken": null,
@@ -100,7 +100,7 @@ var obj: {str:string; i:number; j:boolean} = {str: "...", i: "...", k: false};
                                             "end": 23
                                         },
                                         "optionalToken": null,
-                                        "value": {
+                                        "type": {
                                             "kind": 139,
                                             "bitwiseOrToken": null,
                                             "bitwiseAndToken": null,
@@ -133,7 +133,7 @@ var obj: {str:string; i:number; j:boolean} = {str: "...", i: "...", k: false};
                                             "end": 33
                                         },
                                         "optionalToken": null,
-                                        "value": {
+                                        "type": {
                                             "kind": 139,
                                             "bitwiseOrToken": null,
                                             "bitwiseAndToken": null,

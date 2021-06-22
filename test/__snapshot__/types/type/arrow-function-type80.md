@@ -87,7 +87,7 @@ type a = ({x:y} | { [[x]]:string}) => T;
                                                         "end": 12
                                                     },
                                                     "optionalToken": null,
-                                                    "value": {
+                                                    "type": {
                                                         "kind": 139,
                                                         "bitwiseOrToken": null,
                                                         "bitwiseAndToken": null,

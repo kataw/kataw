@@ -89,7 +89,7 @@ type a = ({set y(y): string}) => T;
                                                 "end": 16
                                             },
                                             "optionalToken": null,
-                                            "value": {
+                                            "type": {
                                                 "kind": 148,
                                                 "functionTypeParameterList": {
                                                     "kind": 282,

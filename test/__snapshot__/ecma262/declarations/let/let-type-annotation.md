@@ -101,7 +101,7 @@ let x: () => {} | ({y: z});
                                                                     "end": 21
                                                                 },
                                                                 "optionalToken": null,
-                                                                "value": {
+                                                                "type": {
                                                                     "kind": 139,
                                                                     "bitwiseOrToken": null,
                                                                     "bitwiseAndToken": null,

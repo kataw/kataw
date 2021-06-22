@@ -125,7 +125,7 @@ type a = (((symbol[{a:string}][][][] | ((y & [((x) => T)]) => T) => T) => T) => 
                                                                                             "end": 21
                                                                                         },
                                                                                         "optionalToken": null,
-                                                                                        "value": {
+                                                                                        "type": {
                                                                                             "kind": 139,
                                                                                             "bitwiseOrToken": null,
                                                                                             "bitwiseAndToken": null,

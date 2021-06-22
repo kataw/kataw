@@ -372,7 +372,7 @@ type T9 = { [param: string]: U };
                                 "end": 86
                             },
                             "optionalToken": null,
-                            "value": {
+                            "type": {
                                 "kind": 139,
                                 "bitwiseOrToken": null,
                                 "bitwiseAndToken": null,
@@ -533,7 +533,7 @@ type T9 = { [param: string]: U };
                                 "end": 118
                             },
                             "optionalToken": null,
-                            "value": {
+                            "type": {
                                 "kind": 139,
                                 "bitwiseOrToken": null,
                                 "bitwiseAndToken": null,
@@ -648,7 +648,7 @@ type T9 = { [param: string]: U };
                                                         "end": 147
                                                     },
                                                     "optionalToken": null,
-                                                    "value": {
+                                                    "type": {
                                                         "kind": 139,
                                                         "bitwiseOrToken": null,
                                                         "bitwiseAndToken": null,
@@ -754,7 +754,7 @@ type T9 = { [param: string]: U };
                                 "end": 171
                             },
                             "optionalToken": null,
-                            "value": {
+                            "type": {
                                 "kind": 148,
                                 "functionTypeParameterList": {
                                     "kind": 282,
@@ -847,7 +847,7 @@ type T9 = { [param: string]: U };
                                 "end": 199
                             },
                             "optionalToken": null,
-                            "value": {
+                            "type": {
                                 "kind": 139,
                                 "bitwiseOrToken": null,
                                 "bitwiseAndToken": null,

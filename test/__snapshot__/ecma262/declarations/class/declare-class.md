@@ -73,7 +73,7 @@ declare class A { static foo(): number; static x : string }
                                 "end": 28
                             },
                             "optionalToken": null,
-                            "value": {
+                            "type": {
                                 "kind": 148,
                                 "functionTypeParameterList": {
                                     "kind": 282,
@@ -126,7 +126,7 @@ declare class A { static foo(): number; static x : string }
                                 "end": 48
                             },
                             "optionalToken": null,
-                            "value": {
+                            "type": {
                                 "kind": 139,
                                 "bitwiseOrToken": null,
                                 "bitwiseAndToken": null,

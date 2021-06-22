@@ -155,7 +155,7 @@ declare class A<T> extends B<T> { x: number }
                                 "end": 35
                             },
                             "optionalToken": null,
-                            "value": {
+                            "type": {
                                 "kind": 139,
                                 "bitwiseOrToken": null,
                                 "bitwiseAndToken": null,
