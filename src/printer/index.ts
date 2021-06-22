@@ -1349,8 +1349,7 @@ function printVariableDeclarationOrLexicalBinding(node: any, printer: Printer): 
       initializer.kind === SyntaxKind.StringType ||
       initializer.kind === SyntaxKind.BinaryExpression ||
       (initializer.kind === SyntaxKind.ClassExpression &&
-        initializer.decorators &&
-        initializer.decorators.node.elements.length) ||
+        initializer.decorators) ||
       initializer.kind === SyntaxKind.CommaOperator ||
       initializer.kind === SyntaxKind.UnaryExpression ||
       (initializer.kind === SyntaxKind.ConditionalExpression &&
