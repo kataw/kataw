@@ -395,6 +395,7 @@ async f = async function*({a, b, ...{c, ...rest}} = {a: 1, b: 2, c: 3, d: 4, e: 
 ### Diagnostics
 
 ```javascript
+✖ 'async' modifier cannot be used here - start: 7, end: 9
 ✖ Identifier expected - start: 7, end: 9
 ✖ Identifier expected - start: 36, end: 37
 ✖ ',' expected - start: 36, end: 37

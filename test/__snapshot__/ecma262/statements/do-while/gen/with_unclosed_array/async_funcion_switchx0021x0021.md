@@ -166,6 +166,7 @@ do[ async funcion switch!!
 ### Diagnostics
 
 ```javascript
+✖ 'async' modifier cannot be used here - start: 17, end: 24
 ✖ Identifier expected - start: 17, end: 24
 ✖ Missing an opening parentheses - '( - start: 24, end: 25
 ✖ Identifier expected - start: 26, end: 26

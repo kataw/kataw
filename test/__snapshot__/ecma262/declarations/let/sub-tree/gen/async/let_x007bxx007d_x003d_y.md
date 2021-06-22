@@ -114,6 +114,7 @@ async let {x} = y
 ### Diagnostics
 
 ```javascript
+✖ 'async' modifier cannot be used here - start: 9, end: 11
 ✖ Expected a `;` - start: 13, end: 15
 
 ```

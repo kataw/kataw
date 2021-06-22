@@ -229,6 +229,7 @@ do while [catch] async funcion switch!!
 ✖ Did you forgot a ']' to match the `[` token? - start: 10, end: 15
 ✖ 'try' expected - start: 10, end: 15
 ✖ Missing an opening parentheses - '( - start: 15, end: 16
+✖ 'async' modifier cannot be used here - start: 30, end: 37
 ✖ Identifier expected - start: 30, end: 37
 ✖ Missing an opening parentheses - '( - start: 37, end: 38
 ✖ Identifier expected - start: 39, end: 39

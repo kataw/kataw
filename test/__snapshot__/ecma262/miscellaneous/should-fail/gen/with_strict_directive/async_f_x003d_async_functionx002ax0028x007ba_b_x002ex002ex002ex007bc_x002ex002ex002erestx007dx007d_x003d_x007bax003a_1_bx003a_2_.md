@@ -404,6 +404,7 @@
 ### Diagnostics
 
 ```javascript
+✖ 'async' modifier cannot be used here - start: 21, end: 23
 ✖ Identifier expected - start: 21, end: 23
 ✖ Identifier expected - start: 50, end: 51
 ✖ ',' expected - start: 50, end: 51

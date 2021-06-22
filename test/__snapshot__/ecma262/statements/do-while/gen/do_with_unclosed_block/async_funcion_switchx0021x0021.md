@@ -183,6 +183,7 @@ do {} while (x) { async funcion switch!!
 ### Diagnostics
 
 ```javascript
+✖ 'async' modifier cannot be used here - start: 31, end: 38
 ✖ Identifier expected - start: 31, end: 38
 ✖ Missing an opening parentheses - '( - start: 38, end: 39
 ✖ Identifier expected - start: 40, end: 40

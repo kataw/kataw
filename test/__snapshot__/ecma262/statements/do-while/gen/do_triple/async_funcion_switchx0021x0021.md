@@ -268,6 +268,7 @@ do do do async funcion switch!! while while while
 
 ```javascript
 ✖ Function declarations cannot be used in a single-statement context - start: 8, end: 14
+✖ 'async' modifier cannot be used here - start: 22, end: 29
 ✖ Identifier expected - start: 22, end: 29
 ✖ Missing an opening parentheses - '( - start: 29, end: 30
 ✖ Identifier expected - start: 31, end: 37

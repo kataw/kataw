@@ -115,6 +115,8 @@
 
 ```javascript
 ✖ Identifier expected. Reserved word in strict mode - start: 19, end: 23
+✖ Identifier expected. Reserved word in strict mode - start: 19, end: 23
+✖ 'async' modifier cannot be used here - start: 23, end: 25
 
 ```
 

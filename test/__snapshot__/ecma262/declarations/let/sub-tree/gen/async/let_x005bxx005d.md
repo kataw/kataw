@@ -89,12 +89,12 @@ async let [x]
 
 ```javascript
 
-async let  [x];
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ 'async' modifier cannot be used here - start: 9, end: 11
+
 ```
 

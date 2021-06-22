@@ -409,6 +409,7 @@
 ### Diagnostics
 
 ```javascript
+✖ 'async' modifier cannot be used here - start: 9, end: 11
 ✖ Identifier expected - start: 9, end: 11
 ✖ Identifier expected - start: 38, end: 39
 ✖ ',' expected - start: 38, end: 39
