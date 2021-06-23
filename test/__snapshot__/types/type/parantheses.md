@@ -64,111 +64,6 @@ type C = (<T>(T) => $Foo<T>)[];
                                 "bitwiseAndToken": null,
                                 "type": {
                                     "kind": 288,
-                                    "arrowTypeParameterList": {
-                                        "kind": 292,
-                                        "parameters": [],
-                                        "trailingComma": false,
-                                        "flags": 2097152,
-                                        "start": 13,
-                                        "end": 13
-                                    },
-                                    "arrowToken": null,
-                                    "returnType": {
-                                        "kind": 139,
-                                        "bitwiseOrToken": null,
-                                        "bitwiseAndToken": null,
-                                        "type": {
-                                            "kind": 288,
-                                            "arrowTypeParameterList": {
-                                                "kind": 10,
-                                                "flags": 64,
-                                                "start": 16,
-                                                "end": 19
-                                            },
-                                            "arrowToken": {
-                                                "kind": 144,
-                                                "typeName": {
-                                                    "kind": 134299649,
-                                                    "text": "T",
-                                                    "rawText": "T",
-                                                    "flags": 96,
-                                                    "start": 14,
-                                                    "end": 15
-                                                },
-                                                "typeParameters": null,
-                                                "flags": 2097152,
-                                                "start": 13,
-                                                "end": 15
-                                            },
-                                            "returnType": {
-                                                "kind": 139,
-                                                "bitwiseOrToken": null,
-                                                "bitwiseAndToken": null,
-                                                "type": {
-                                                    "kind": 144,
-                                                    "typeName": {
-                                                        "kind": 134299649,
-                                                        "text": "$Foo",
-                                                        "rawText": "$Foo",
-                                                        "flags": 96,
-                                                        "start": 19,
-                                                        "end": 24
-                                                    },
-                                                    "typeParameters": {
-                                                        "kind": 310,
-                                                        "typeInstantiations": {
-                                                            "kind": 309,
-                                                            "types": [
-                                                                {
-                                                                    "kind": 139,
-                                                                    "bitwiseOrToken": null,
-                                                                    "bitwiseAndToken": null,
-                                                                    "type": {
-                                                                        "kind": 144,
-                                                                        "typeName": {
-                                                                            "kind": 134299649,
-                                                                            "text": "T",
-                                                                            "rawText": "T",
-                                                                            "flags": 96,
-                                                                            "start": 25,
-                                                                            "end": 26
-                                                                        },
-                                                                        "typeParameters": null,
-                                                                        "flags": 2097152,
-                                                                        "start": 25,
-                                                                        "end": 26
-                                                                    },
-                                                                    "flags": 2097152,
-                                                                    "start": 25,
-                                                                    "end": 26
-                                                                }
-                                                            ],
-                                                            "trailingComma": false,
-                                                            "flags": 2097152,
-                                                            "start": 25,
-                                                            "end": 26
-                                                        },
-                                                        "flags": 2097152,
-                                                        "start": 24,
-                                                        "end": 27
-                                                    },
-                                                    "flags": 2097152,
-                                                    "start": 19,
-                                                    "end": 27
-                                                },
-                                                "flags": 2097152,
-                                                "start": 19,
-                                                "end": 27
-                                            },
-                                            "typeParameters": null,
-                                            "flags": 2097152,
-                                            "start": 13,
-                                            "end": 27
-                                        },
-                                        "flags": 2097152,
-                                        "start": 13,
-                                        "end": 27
-                                    },
                                     "typeParameters": {
                                         "kind": 307,
                                         "declarations": {
@@ -200,6 +95,105 @@ type C = (<T>(T) => $Foo<T>)[];
                                         "start": 10,
                                         "end": 13
                                     },
+                                    "arrowTypeParameterList": {
+                                        "kind": 292,
+                                        "parameters": [
+                                            {
+                                                "kind": 284,
+                                                "ellipsisToken": null,
+                                                "name": null,
+                                                "optionalToken": null,
+                                                "types": {
+                                                    "kind": 144,
+                                                    "typeName": {
+                                                        "kind": 134299649,
+                                                        "text": "T",
+                                                        "rawText": "T",
+                                                        "flags": 96,
+                                                        "start": 14,
+                                                        "end": 15
+                                                    },
+                                                    "typeParameters": null,
+                                                    "flags": 2097152,
+                                                    "start": 14,
+                                                    "end": 15
+                                                },
+                                                "flags": 2097152,
+                                                "start": 14,
+                                                "end": 15
+                                            }
+                                        ],
+                                        "trailingComma": false,
+                                        "flags": 2097152,
+                                        "start": 14,
+                                        "end": 15
+                                    },
+                                    "arrowToken": {
+                                        "kind": 10,
+                                        "flags": 64,
+                                        "start": 16,
+                                        "end": 19
+                                    },
+                                    "returnType": {
+                                        "kind": 139,
+                                        "bitwiseOrToken": null,
+                                        "bitwiseAndToken": null,
+                                        "type": {
+                                            "kind": 144,
+                                            "typeName": {
+                                                "kind": 134299649,
+                                                "text": "$Foo",
+                                                "rawText": "$Foo",
+                                                "flags": 96,
+                                                "start": 19,
+                                                "end": 24
+                                            },
+                                            "typeParameters": {
+                                                "kind": 310,
+                                                "typeInstantiations": {
+                                                    "kind": 309,
+                                                    "types": [
+                                                        {
+                                                            "kind": 139,
+                                                            "bitwiseOrToken": null,
+                                                            "bitwiseAndToken": null,
+                                                            "type": {
+                                                                "kind": 144,
+                                                                "typeName": {
+                                                                    "kind": 134299649,
+                                                                    "text": "T",
+                                                                    "rawText": "T",
+                                                                    "flags": 96,
+                                                                    "start": 25,
+                                                                    "end": 26
+                                                                },
+                                                                "typeParameters": null,
+                                                                "flags": 2097152,
+                                                                "start": 25,
+                                                                "end": 26
+                                                            },
+                                                            "flags": 2097152,
+                                                            "start": 25,
+                                                            "end": 26
+                                                        }
+                                                    ],
+                                                    "trailingComma": false,
+                                                    "flags": 2097152,
+                                                    "start": 25,
+                                                    "end": 26
+                                                },
+                                                "flags": 2097152,
+                                                "start": 24,
+                                                "end": 27
+                                            },
+                                            "flags": 2097152,
+                                            "start": 19,
+                                            "end": 27
+                                        },
+                                        "flags": 2097152,
+                                        "start": 19,
+                                        "end": 27
+                                    },
                                     "flags": 2097152,
                                     "start": 10,
                                     "end": 27
@@ -220,111 +214,6 @@ type C = (<T>(T) => $Foo<T>)[];
                                 "bitwiseAndToken": null,
                                 "type": {
                                     "kind": 288,
-                                    "arrowTypeParameterList": {
-                                        "kind": 292,
-                                        "parameters": [],
-                                        "trailingComma": false,
-                                        "flags": 2097152,
-                                        "start": 35,
-                                        "end": 35
-                                    },
-                                    "arrowToken": null,
-                                    "returnType": {
-                                        "kind": 139,
-                                        "bitwiseOrToken": null,
-                                        "bitwiseAndToken": null,
-                                        "type": {
-                                            "kind": 288,
-                                            "arrowTypeParameterList": {
-                                                "kind": 10,
-                                                "flags": 64,
-                                                "start": 38,
-                                                "end": 41
-                                            },
-                                            "arrowToken": {
-                                                "kind": 144,
-                                                "typeName": {
-                                                    "kind": 134299649,
-                                                    "text": "T",
-                                                    "rawText": "T",
-                                                    "flags": 96,
-                                                    "start": 36,
-                                                    "end": 37
-                                                },
-                                                "typeParameters": null,
-                                                "flags": 2097152,
-                                                "start": 35,
-                                                "end": 37
-                                            },
-                                            "returnType": {
-                                                "kind": 139,
-                                                "bitwiseOrToken": null,
-                                                "bitwiseAndToken": null,
-                                                "type": {
-                                                    "kind": 144,
-                                                    "typeName": {
-                                                        "kind": 134299649,
-                                                        "text": "$Foo",
-                                                        "rawText": "$Foo",
-                                                        "flags": 96,
-                                                        "start": 41,
-                                                        "end": 46
-                                                    },
-                                                    "typeParameters": {
-                                                        "kind": 310,
-                                                        "typeInstantiations": {
-                                                            "kind": 309,
-                                                            "types": [
-                                                                {
-                                                                    "kind": 139,
-                                                                    "bitwiseOrToken": null,
-                                                                    "bitwiseAndToken": null,
-                                                                    "type": {
-                                                                        "kind": 144,
-                                                                        "typeName": {
-                                                                            "kind": 134299649,
-                                                                            "text": "T",
-                                                                            "rawText": "T",
-                                                                            "flags": 96,
-                                                                            "start": 47,
-                                                                            "end": 48
-                                                                        },
-                                                                        "typeParameters": null,
-                                                                        "flags": 2097152,
-                                                                        "start": 47,
-                                                                        "end": 48
-                                                                    },
-                                                                    "flags": 2097152,
-                                                                    "start": 47,
-                                                                    "end": 48
-                                                                }
-                                                            ],
-                                                            "trailingComma": false,
-                                                            "flags": 2097152,
-                                                            "start": 47,
-                                                            "end": 48
-                                                        },
-                                                        "flags": 2097152,
-                                                        "start": 46,
-                                                        "end": 49
-                                                    },
-                                                    "flags": 2097152,
-                                                    "start": 41,
-                                                    "end": 49
-                                                },
-                                                "flags": 2097152,
-                                                "start": 41,
-                                                "end": 49
-                                            },
-                                            "typeParameters": null,
-                                            "flags": 2097152,
-                                            "start": 35,
-                                            "end": 49
-                                        },
-                                        "flags": 2097152,
-                                        "start": 35,
-                                        "end": 49
-                                    },
                                     "typeParameters": {
                                         "kind": 307,
                                         "declarations": {
@@ -355,6 +244,105 @@ type C = (<T>(T) => $Foo<T>)[];
                                         "flags": 2097152,
                                         "start": 32,
                                         "end": 35
+                                    },
+                                    "arrowTypeParameterList": {
+                                        "kind": 292,
+                                        "parameters": [
+                                            {
+                                                "kind": 284,
+                                                "ellipsisToken": null,
+                                                "name": null,
+                                                "optionalToken": null,
+                                                "types": {
+                                                    "kind": 144,
+                                                    "typeName": {
+                                                        "kind": 134299649,
+                                                        "text": "T",
+                                                        "rawText": "T",
+                                                        "flags": 96,
+                                                        "start": 36,
+                                                        "end": 37
+                                                    },
+                                                    "typeParameters": null,
+                                                    "flags": 2097152,
+                                                    "start": 36,
+                                                    "end": 37
+                                                },
+                                                "flags": 2097152,
+                                                "start": 36,
+                                                "end": 37
+                                            }
+                                        ],
+                                        "trailingComma": false,
+                                        "flags": 2097152,
+                                        "start": 36,
+                                        "end": 37
+                                    },
+                                    "arrowToken": {
+                                        "kind": 10,
+                                        "flags": 64,
+                                        "start": 38,
+                                        "end": 41
+                                    },
+                                    "returnType": {
+                                        "kind": 139,
+                                        "bitwiseOrToken": null,
+                                        "bitwiseAndToken": null,
+                                        "type": {
+                                            "kind": 144,
+                                            "typeName": {
+                                                "kind": 134299649,
+                                                "text": "$Foo",
+                                                "rawText": "$Foo",
+                                                "flags": 96,
+                                                "start": 41,
+                                                "end": 46
+                                            },
+                                            "typeParameters": {
+                                                "kind": 310,
+                                                "typeInstantiations": {
+                                                    "kind": 309,
+                                                    "types": [
+                                                        {
+                                                            "kind": 139,
+                                                            "bitwiseOrToken": null,
+                                                            "bitwiseAndToken": null,
+                                                            "type": {
+                                                                "kind": 144,
+                                                                "typeName": {
+                                                                    "kind": 134299649,
+                                                                    "text": "T",
+                                                                    "rawText": "T",
+                                                                    "flags": 96,
+                                                                    "start": 47,
+                                                                    "end": 48
+                                                                },
+                                                                "typeParameters": null,
+                                                                "flags": 2097152,
+                                                                "start": 47,
+                                                                "end": 48
+                                                            },
+                                                            "flags": 2097152,
+                                                            "start": 47,
+                                                            "end": 48
+                                                        }
+                                                    ],
+                                                    "trailingComma": false,
+                                                    "flags": 2097152,
+                                                    "start": 47,
+                                                    "end": 48
+                                                },
+                                                "flags": 2097152,
+                                                "start": 46,
+                                                "end": 49
+                                            },
+                                            "flags": 2097152,
+                                            "start": 41,
+                                            "end": 49
+                                        },
+                                        "flags": 2097152,
+                                        "start": 41,
+                                        "end": 49
                                     },
                                     "flags": 2097152,
                                     "start": 32,
@@ -420,111 +408,6 @@ type C = (<T>(T) => $Foo<T>)[];
                                 "bitwiseAndToken": null,
                                 "type": {
                                     "kind": 288,
-                                    "arrowTypeParameterList": {
-                                        "kind": 292,
-                                        "parameters": [],
-                                        "trailingComma": false,
-                                        "flags": 2097152,
-                                        "start": 65,
-                                        "end": 65
-                                    },
-                                    "arrowToken": null,
-                                    "returnType": {
-                                        "kind": 139,
-                                        "bitwiseOrToken": null,
-                                        "bitwiseAndToken": null,
-                                        "type": {
-                                            "kind": 288,
-                                            "arrowTypeParameterList": {
-                                                "kind": 10,
-                                                "flags": 64,
-                                                "start": 68,
-                                                "end": 71
-                                            },
-                                            "arrowToken": {
-                                                "kind": 144,
-                                                "typeName": {
-                                                    "kind": 134299649,
-                                                    "text": "T",
-                                                    "rawText": "T",
-                                                    "flags": 96,
-                                                    "start": 66,
-                                                    "end": 67
-                                                },
-                                                "typeParameters": null,
-                                                "flags": 2097152,
-                                                "start": 65,
-                                                "end": 67
-                                            },
-                                            "returnType": {
-                                                "kind": 139,
-                                                "bitwiseOrToken": null,
-                                                "bitwiseAndToken": null,
-                                                "type": {
-                                                    "kind": 144,
-                                                    "typeName": {
-                                                        "kind": 134299649,
-                                                        "text": "$Foo",
-                                                        "rawText": "$Foo",
-                                                        "flags": 96,
-                                                        "start": 71,
-                                                        "end": 76
-                                                    },
-                                                    "typeParameters": {
-                                                        "kind": 310,
-                                                        "typeInstantiations": {
-                                                            "kind": 309,
-                                                            "types": [
-                                                                {
-                                                                    "kind": 139,
-                                                                    "bitwiseOrToken": null,
-                                                                    "bitwiseAndToken": null,
-                                                                    "type": {
-                                                                        "kind": 144,
-                                                                        "typeName": {
-                                                                            "kind": 134299649,
-                                                                            "text": "T",
-                                                                            "rawText": "T",
-                                                                            "flags": 96,
-                                                                            "start": 77,
-                                                                            "end": 78
-                                                                        },
-                                                                        "typeParameters": null,
-                                                                        "flags": 2097152,
-                                                                        "start": 77,
-                                                                        "end": 78
-                                                                    },
-                                                                    "flags": 2097152,
-                                                                    "start": 77,
-                                                                    "end": 78
-                                                                }
-                                                            ],
-                                                            "trailingComma": false,
-                                                            "flags": 2097152,
-                                                            "start": 77,
-                                                            "end": 78
-                                                        },
-                                                        "flags": 2097152,
-                                                        "start": 76,
-                                                        "end": 79
-                                                    },
-                                                    "flags": 2097152,
-                                                    "start": 71,
-                                                    "end": 79
-                                                },
-                                                "flags": 2097152,
-                                                "start": 71,
-                                                "end": 79
-                                            },
-                                            "typeParameters": null,
-                                            "flags": 2097152,
-                                            "start": 65,
-                                            "end": 79
-                                        },
-                                        "flags": 2097152,
-                                        "start": 65,
-                                        "end": 79
-                                    },
                                     "typeParameters": {
                                         "kind": 307,
                                         "declarations": {
@@ -556,6 +439,105 @@ type C = (<T>(T) => $Foo<T>)[];
                                         "start": 62,
                                         "end": 65
                                     },
+                                    "arrowTypeParameterList": {
+                                        "kind": 292,
+                                        "parameters": [
+                                            {
+                                                "kind": 284,
+                                                "ellipsisToken": null,
+                                                "name": null,
+                                                "optionalToken": null,
+                                                "types": {
+                                                    "kind": 144,
+                                                    "typeName": {
+                                                        "kind": 134299649,
+                                                        "text": "T",
+                                                        "rawText": "T",
+                                                        "flags": 96,
+                                                        "start": 66,
+                                                        "end": 67
+                                                    },
+                                                    "typeParameters": null,
+                                                    "flags": 2097152,
+                                                    "start": 66,
+                                                    "end": 67
+                                                },
+                                                "flags": 2097152,
+                                                "start": 66,
+                                                "end": 67
+                                            }
+                                        ],
+                                        "trailingComma": false,
+                                        "flags": 2097152,
+                                        "start": 66,
+                                        "end": 67
+                                    },
+                                    "arrowToken": {
+                                        "kind": 10,
+                                        "flags": 64,
+                                        "start": 68,
+                                        "end": 71
+                                    },
+                                    "returnType": {
+                                        "kind": 139,
+                                        "bitwiseOrToken": null,
+                                        "bitwiseAndToken": null,
+                                        "type": {
+                                            "kind": 144,
+                                            "typeName": {
+                                                "kind": 134299649,
+                                                "text": "$Foo",
+                                                "rawText": "$Foo",
+                                                "flags": 96,
+                                                "start": 71,
+                                                "end": 76
+                                            },
+                                            "typeParameters": {
+                                                "kind": 310,
+                                                "typeInstantiations": {
+                                                    "kind": 309,
+                                                    "types": [
+                                                        {
+                                                            "kind": 139,
+                                                            "bitwiseOrToken": null,
+                                                            "bitwiseAndToken": null,
+                                                            "type": {
+                                                                "kind": 144,
+                                                                "typeName": {
+                                                                    "kind": 134299649,
+                                                                    "text": "T",
+                                                                    "rawText": "T",
+                                                                    "flags": 96,
+                                                                    "start": 77,
+                                                                    "end": 78
+                                                                },
+                                                                "typeParameters": null,
+                                                                "flags": 2097152,
+                                                                "start": 77,
+                                                                "end": 78
+                                                            },
+                                                            "flags": 2097152,
+                                                            "start": 77,
+                                                            "end": 78
+                                                        }
+                                                    ],
+                                                    "trailingComma": false,
+                                                    "flags": 2097152,
+                                                    "start": 77,
+                                                    "end": 78
+                                                },
+                                                "flags": 2097152,
+                                                "start": 76,
+                                                "end": 79
+                                            },
+                                            "flags": 2097152,
+                                            "start": 71,
+                                            "end": 79
+                                        },
+                                        "flags": 2097152,
+                                        "start": 71,
+                                        "end": 79
+                                    },
                                     "flags": 2097152,
                                     "start": 62,
                                     "end": 79
@@ -576,111 +558,6 @@ type C = (<T>(T) => $Foo<T>)[];
                                 "bitwiseAndToken": null,
                                 "type": {
                                     "kind": 288,
-                                    "arrowTypeParameterList": {
-                                        "kind": 292,
-                                        "parameters": [],
-                                        "trailingComma": false,
-                                        "flags": 2097152,
-                                        "start": 87,
-                                        "end": 87
-                                    },
-                                    "arrowToken": null,
-                                    "returnType": {
-                                        "kind": 139,
-                                        "bitwiseOrToken": null,
-                                        "bitwiseAndToken": null,
-                                        "type": {
-                                            "kind": 288,
-                                            "arrowTypeParameterList": {
-                                                "kind": 10,
-                                                "flags": 64,
-                                                "start": 90,
-                                                "end": 93
-                                            },
-                                            "arrowToken": {
-                                                "kind": 144,
-                                                "typeName": {
-                                                    "kind": 134299649,
-                                                    "text": "T",
-                                                    "rawText": "T",
-                                                    "flags": 96,
-                                                    "start": 88,
-                                                    "end": 89
-                                                },
-                                                "typeParameters": null,
-                                                "flags": 2097152,
-                                                "start": 87,
-                                                "end": 89
-                                            },
-                                            "returnType": {
-                                                "kind": 139,
-                                                "bitwiseOrToken": null,
-                                                "bitwiseAndToken": null,
-                                                "type": {
-                                                    "kind": 144,
-                                                    "typeName": {
-                                                        "kind": 134299649,
-                                                        "text": "$Foo",
-                                                        "rawText": "$Foo",
-                                                        "flags": 96,
-                                                        "start": 93,
-                                                        "end": 98
-                                                    },
-                                                    "typeParameters": {
-                                                        "kind": 310,
-                                                        "typeInstantiations": {
-                                                            "kind": 309,
-                                                            "types": [
-                                                                {
-                                                                    "kind": 139,
-                                                                    "bitwiseOrToken": null,
-                                                                    "bitwiseAndToken": null,
-                                                                    "type": {
-                                                                        "kind": 144,
-                                                                        "typeName": {
-                                                                            "kind": 134299649,
-                                                                            "text": "T",
-                                                                            "rawText": "T",
-                                                                            "flags": 96,
-                                                                            "start": 99,
-                                                                            "end": 100
-                                                                        },
-                                                                        "typeParameters": null,
-                                                                        "flags": 2097152,
-                                                                        "start": 99,
-                                                                        "end": 100
-                                                                    },
-                                                                    "flags": 2097152,
-                                                                    "start": 99,
-                                                                    "end": 100
-                                                                }
-                                                            ],
-                                                            "trailingComma": false,
-                                                            "flags": 2097152,
-                                                            "start": 99,
-                                                            "end": 100
-                                                        },
-                                                        "flags": 2097152,
-                                                        "start": 98,
-                                                        "end": 101
-                                                    },
-                                                    "flags": 2097152,
-                                                    "start": 93,
-                                                    "end": 101
-                                                },
-                                                "flags": 2097152,
-                                                "start": 93,
-                                                "end": 101
-                                            },
-                                            "typeParameters": null,
-                                            "flags": 2097152,
-                                            "start": 87,
-                                            "end": 101
-                                        },
-                                        "flags": 2097152,
-                                        "start": 87,
-                                        "end": 101
-                                    },
                                     "typeParameters": {
                                         "kind": 307,
                                         "declarations": {
@@ -711,6 +588,105 @@ type C = (<T>(T) => $Foo<T>)[];
                                         "flags": 2097152,
                                         "start": 84,
                                         "end": 87
+                                    },
+                                    "arrowTypeParameterList": {
+                                        "kind": 292,
+                                        "parameters": [
+                                            {
+                                                "kind": 284,
+                                                "ellipsisToken": null,
+                                                "name": null,
+                                                "optionalToken": null,
+                                                "types": {
+                                                    "kind": 144,
+                                                    "typeName": {
+                                                        "kind": 134299649,
+                                                        "text": "T",
+                                                        "rawText": "T",
+                                                        "flags": 96,
+                                                        "start": 88,
+                                                        "end": 89
+                                                    },
+                                                    "typeParameters": null,
+                                                    "flags": 2097152,
+                                                    "start": 88,
+                                                    "end": 89
+                                                },
+                                                "flags": 2097152,
+                                                "start": 88,
+                                                "end": 89
+                                            }
+                                        ],
+                                        "trailingComma": false,
+                                        "flags": 2097152,
+                                        "start": 88,
+                                        "end": 89
+                                    },
+                                    "arrowToken": {
+                                        "kind": 10,
+                                        "flags": 64,
+                                        "start": 90,
+                                        "end": 93
+                                    },
+                                    "returnType": {
+                                        "kind": 139,
+                                        "bitwiseOrToken": null,
+                                        "bitwiseAndToken": null,
+                                        "type": {
+                                            "kind": 144,
+                                            "typeName": {
+                                                "kind": 134299649,
+                                                "text": "$Foo",
+                                                "rawText": "$Foo",
+                                                "flags": 96,
+                                                "start": 93,
+                                                "end": 98
+                                            },
+                                            "typeParameters": {
+                                                "kind": 310,
+                                                "typeInstantiations": {
+                                                    "kind": 309,
+                                                    "types": [
+                                                        {
+                                                            "kind": 139,
+                                                            "bitwiseOrToken": null,
+                                                            "bitwiseAndToken": null,
+                                                            "type": {
+                                                                "kind": 144,
+                                                                "typeName": {
+                                                                    "kind": 134299649,
+                                                                    "text": "T",
+                                                                    "rawText": "T",
+                                                                    "flags": 96,
+                                                                    "start": 99,
+                                                                    "end": 100
+                                                                },
+                                                                "typeParameters": null,
+                                                                "flags": 2097152,
+                                                                "start": 99,
+                                                                "end": 100
+                                                            },
+                                                            "flags": 2097152,
+                                                            "start": 99,
+                                                            "end": 100
+                                                        }
+                                                    ],
+                                                    "trailingComma": false,
+                                                    "flags": 2097152,
+                                                    "start": 99,
+                                                    "end": 100
+                                                },
+                                                "flags": 2097152,
+                                                "start": 98,
+                                                "end": 101
+                                            },
+                                            "flags": 2097152,
+                                            "start": 93,
+                                            "end": 101
+                                        },
+                                        "flags": 2097152,
+                                        "start": 93,
+                                        "end": 101
                                     },
                                     "flags": 2097152,
                                     "start": 84,
@@ -775,111 +751,6 @@ type C = (<T>(T) => $Foo<T>)[];
                             "bitwiseAndToken": null,
                             "type": {
                                 "kind": 288,
-                                "arrowTypeParameterList": {
-                                    "kind": 292,
-                                    "parameters": [],
-                                    "trailingComma": false,
-                                    "flags": 2097152,
-                                    "start": 117,
-                                    "end": 117
-                                },
-                                "arrowToken": null,
-                                "returnType": {
-                                    "kind": 139,
-                                    "bitwiseOrToken": null,
-                                    "bitwiseAndToken": null,
-                                    "type": {
-                                        "kind": 288,
-                                        "arrowTypeParameterList": {
-                                            "kind": 10,
-                                            "flags": 64,
-                                            "start": 120,
-                                            "end": 123
-                                        },
-                                        "arrowToken": {
-                                            "kind": 144,
-                                            "typeName": {
-                                                "kind": 134299649,
-                                                "text": "T",
-                                                "rawText": "T",
-                                                "flags": 96,
-                                                "start": 118,
-                                                "end": 119
-                                            },
-                                            "typeParameters": null,
-                                            "flags": 2097152,
-                                            "start": 117,
-                                            "end": 119
-                                        },
-                                        "returnType": {
-                                            "kind": 139,
-                                            "bitwiseOrToken": null,
-                                            "bitwiseAndToken": null,
-                                            "type": {
-                                                "kind": 144,
-                                                "typeName": {
-                                                    "kind": 134299649,
-                                                    "text": "$Foo",
-                                                    "rawText": "$Foo",
-                                                    "flags": 96,
-                                                    "start": 123,
-                                                    "end": 128
-                                                },
-                                                "typeParameters": {
-                                                    "kind": 310,
-                                                    "typeInstantiations": {
-                                                        "kind": 309,
-                                                        "types": [
-                                                            {
-                                                                "kind": 139,
-                                                                "bitwiseOrToken": null,
-                                                                "bitwiseAndToken": null,
-                                                                "type": {
-                                                                    "kind": 144,
-                                                                    "typeName": {
-                                                                        "kind": 134299649,
-                                                                        "text": "T",
-                                                                        "rawText": "T",
-                                                                        "flags": 96,
-                                                                        "start": 129,
-                                                                        "end": 130
-                                                                    },
-                                                                    "typeParameters": null,
-                                                                    "flags": 2097152,
-                                                                    "start": 129,
-                                                                    "end": 130
-                                                                },
-                                                                "flags": 2097152,
-                                                                "start": 129,
-                                                                "end": 130
-                                                            }
-                                                        ],
-                                                        "trailingComma": false,
-                                                        "flags": 2097152,
-                                                        "start": 129,
-                                                        "end": 130
-                                                    },
-                                                    "flags": 2097152,
-                                                    "start": 128,
-                                                    "end": 131
-                                                },
-                                                "flags": 2097152,
-                                                "start": 123,
-                                                "end": 131
-                                            },
-                                            "flags": 2097152,
-                                            "start": 123,
-                                            "end": 131
-                                        },
-                                        "typeParameters": null,
-                                        "flags": 2097152,
-                                        "start": 117,
-                                        "end": 131
-                                    },
-                                    "flags": 2097152,
-                                    "start": 117,
-                                    "end": 131
-                                },
                                 "typeParameters": {
                                     "kind": 307,
                                     "declarations": {
@@ -910,6 +781,105 @@ type C = (<T>(T) => $Foo<T>)[];
                                     "flags": 2097152,
                                     "start": 114,
                                     "end": 117
+                                },
+                                "arrowTypeParameterList": {
+                                    "kind": 292,
+                                    "parameters": [
+                                        {
+                                            "kind": 284,
+                                            "ellipsisToken": null,
+                                            "name": null,
+                                            "optionalToken": null,
+                                            "types": {
+                                                "kind": 144,
+                                                "typeName": {
+                                                    "kind": 134299649,
+                                                    "text": "T",
+                                                    "rawText": "T",
+                                                    "flags": 96,
+                                                    "start": 118,
+                                                    "end": 119
+                                                },
+                                                "typeParameters": null,
+                                                "flags": 2097152,
+                                                "start": 118,
+                                                "end": 119
+                                            },
+                                            "flags": 2097152,
+                                            "start": 118,
+                                            "end": 119
+                                        }
+                                    ],
+                                    "trailingComma": false,
+                                    "flags": 2097152,
+                                    "start": 118,
+                                    "end": 119
+                                },
+                                "arrowToken": {
+                                    "kind": 10,
+                                    "flags": 64,
+                                    "start": 120,
+                                    "end": 123
+                                },
+                                "returnType": {
+                                    "kind": 139,
+                                    "bitwiseOrToken": null,
+                                    "bitwiseAndToken": null,
+                                    "type": {
+                                        "kind": 144,
+                                        "typeName": {
+                                            "kind": 134299649,
+                                            "text": "$Foo",
+                                            "rawText": "$Foo",
+                                            "flags": 96,
+                                            "start": 123,
+                                            "end": 128
+                                        },
+                                        "typeParameters": {
+                                            "kind": 310,
+                                            "typeInstantiations": {
+                                                "kind": 309,
+                                                "types": [
+                                                    {
+                                                        "kind": 139,
+                                                        "bitwiseOrToken": null,
+                                                        "bitwiseAndToken": null,
+                                                        "type": {
+                                                            "kind": 144,
+                                                            "typeName": {
+                                                                "kind": 134299649,
+                                                                "text": "T",
+                                                                "rawText": "T",
+                                                                "flags": 96,
+                                                                "start": 129,
+                                                                "end": 130
+                                                            },
+                                                            "typeParameters": null,
+                                                            "flags": 2097152,
+                                                            "start": 129,
+                                                            "end": 130
+                                                        },
+                                                        "flags": 2097152,
+                                                        "start": 129,
+                                                        "end": 130
+                                                    }
+                                                ],
+                                                "trailingComma": false,
+                                                "flags": 2097152,
+                                                "start": 129,
+                                                "end": 130
+                                            },
+                                            "flags": 2097152,
+                                            "start": 128,
+                                            "end": 131
+                                        },
+                                        "flags": 2097152,
+                                        "start": 123,
+                                        "end": 131
+                                    },
+                                    "flags": 2097152,
+                                    "start": 123,
+                                    "end": 131
                                 },
                                 "flags": 2097152,
                                 "start": 114,

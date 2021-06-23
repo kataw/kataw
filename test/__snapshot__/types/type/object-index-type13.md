@@ -70,26 +70,45 @@ type X = {[|(x) =>x&symbol[][x|y]]: string,};
                                 "bitwiseAndToken": null,
                                 "type": {
                                     "kind": 288,
+                                    "typeParameters": null,
                                     "arrowTypeParameterList": {
+                                        "kind": 292,
+                                        "parameters": [
+                                            {
+                                                "kind": 284,
+                                                "ellipsisToken": null,
+                                                "name": {
+                                                    "kind": 144,
+                                                    "typeName": {
+                                                        "kind": 134299649,
+                                                        "text": "x",
+                                                        "rawText": "x",
+                                                        "flags": 96,
+                                                        "start": 13,
+                                                        "end": 14
+                                                    },
+                                                    "typeParameters": null,
+                                                    "flags": 2097152,
+                                                    "start": 12,
+                                                    "end": 14
+                                                },
+                                                "optionalToken": null,
+                                                "types": null,
+                                                "flags": 2097152,
+                                                "start": 12,
+                                                "end": 15
+                                            }
+                                        ],
+                                        "trailingComma": false,
+                                        "flags": 2097152,
+                                        "start": 12,
+                                        "end": 15
+                                    },
+                                    "arrowToken": {
                                         "kind": 10,
                                         "flags": 64,
                                         "start": 15,
                                         "end": 18
-                                    },
-                                    "arrowToken": {
-                                        "kind": 144,
-                                        "typeName": {
-                                            "kind": 134299649,
-                                            "text": "x",
-                                            "rawText": "x",
-                                            "flags": 96,
-                                            "start": 13,
-                                            "end": 14
-                                        },
-                                        "typeParameters": null,
-                                        "flags": 2097152,
-                                        "start": 12,
-                                        "end": 14
                                     },
                                     "returnType": {
                                         "kind": 139,
@@ -186,7 +205,6 @@ type X = {[|(x) =>x&symbol[][x|y]]: string,};
                                         "start": 18,
                                         "end": 33
                                     },
-                                    "typeParameters": null,
                                     "flags": 2097152,
                                     "start": 12,
                                     "end": 33

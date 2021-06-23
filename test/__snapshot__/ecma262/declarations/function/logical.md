@@ -1915,17 +1915,12 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                             "bitwiseAndToken": null,
                             "type": {
                                 "kind": 288,
+                                "typeParameters": null,
                                 "arrowTypeParameterList": {
-                                    "kind": 10,
-                                    "flags": 64,
-                                    "start": 1328,
-                                    "end": 1331
-                                },
-                                "arrowToken": {
                                     "kind": 292,
                                     "parameters": [
                                         {
-                                            "kind": 149,
+                                            "kind": 284,
                                             "ellipsisToken": null,
                                             "name": {
                                                 "kind": 134299649,
@@ -1960,6 +1955,12 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                     "start": 1316,
                                     "end": 1327
                                 },
+                                "arrowToken": {
+                                    "kind": 10,
+                                    "flags": 64,
+                                    "start": 1328,
+                                    "end": 1331
+                                },
                                 "returnType": {
                                     "kind": 139,
                                     "bitwiseOrToken": null,
@@ -1974,7 +1975,6 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                     "start": 1331,
                                     "end": 1338
                                 },
-                                "typeParameters": null,
                                 "flags": 2097152,
                                 "start": 1316,
                                 "end": 1338

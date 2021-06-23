@@ -50,26 +50,45 @@ let x: (y) => void = () => {}
                             "bitwiseAndToken": null,
                             "type": {
                                 "kind": 288,
+                                "typeParameters": null,
                                 "arrowTypeParameterList": {
+                                    "kind": 292,
+                                    "parameters": [
+                                        {
+                                            "kind": 284,
+                                            "ellipsisToken": null,
+                                            "name": {
+                                                "kind": 144,
+                                                "typeName": {
+                                                    "kind": 134299649,
+                                                    "text": "y",
+                                                    "rawText": "y",
+                                                    "flags": 96,
+                                                    "start": 8,
+                                                    "end": 9
+                                                },
+                                                "typeParameters": null,
+                                                "flags": 2097152,
+                                                "start": 6,
+                                                "end": 9
+                                            },
+                                            "optionalToken": null,
+                                            "types": null,
+                                            "flags": 2097152,
+                                            "start": 6,
+                                            "end": 10
+                                        }
+                                    ],
+                                    "trailingComma": false,
+                                    "flags": 2097152,
+                                    "start": 6,
+                                    "end": 10
+                                },
+                                "arrowToken": {
                                     "kind": 10,
                                     "flags": 64,
                                     "start": 10,
                                     "end": 13
-                                },
-                                "arrowToken": {
-                                    "kind": 144,
-                                    "typeName": {
-                                        "kind": 134299649,
-                                        "text": "y",
-                                        "rawText": "y",
-                                        "flags": 96,
-                                        "start": 8,
-                                        "end": 9
-                                    },
-                                    "typeParameters": null,
-                                    "flags": 2097152,
-                                    "start": 6,
-                                    "end": 9
                                 },
                                 "returnType": {
                                     "kind": 139,
@@ -85,7 +104,6 @@ let x: (y) => void = () => {}
                                     "start": 13,
                                     "end": 18
                                 },
-                                "typeParameters": null,
                                 "flags": 2097152,
                                 "start": 6,
                                 "end": 18

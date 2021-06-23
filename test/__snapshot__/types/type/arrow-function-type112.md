@@ -57,13 +57,8 @@ type a = ((bj[c] | e) => T);
                     "kind": 290,
                     "type": {
                         "kind": 288,
+                        "typeParameters": null,
                         "arrowTypeParameterList": {
-                            "kind": 10,
-                            "flags": 64,
-                            "start": 21,
-                            "end": 24
-                        },
-                        "arrowToken": {
                             "kind": 292,
                             "parameters": [
                                 {
@@ -139,6 +134,12 @@ type a = ((bj[c] | e) => T);
                             "start": 8,
                             "end": 24
                         },
+                        "arrowToken": {
+                            "kind": 10,
+                            "flags": 64,
+                            "start": 21,
+                            "end": 24
+                        },
                         "returnType": {
                             "kind": 139,
                             "bitwiseOrToken": null,
@@ -162,7 +163,6 @@ type a = ((bj[c] | e) => T);
                             "start": 24,
                             "end": 26
                         },
-                        "typeParameters": null,
                         "flags": 2097152,
                         "start": 8,
                         "end": 26
@@ -211,13 +211,8 @@ type a = ((bj[c] | e) => T);
                     "kind": 290,
                     "type": {
                         "kind": 288,
+                        "typeParameters": null,
                         "arrowTypeParameterList": {
-                            "kind": 10,
-                            "flags": 64,
-                            "start": 51,
-                            "end": 54
-                        },
-                        "arrowToken": {
                             "kind": 292,
                             "parameters": [
                                 {
@@ -293,6 +288,12 @@ type a = ((bj[c] | e) => T);
                             "start": 38,
                             "end": 54
                         },
+                        "arrowToken": {
+                            "kind": 10,
+                            "flags": 64,
+                            "start": 51,
+                            "end": 54
+                        },
                         "returnType": {
                             "kind": 139,
                             "bitwiseOrToken": null,
@@ -316,7 +317,6 @@ type a = ((bj[c] | e) => T);
                             "start": 54,
                             "end": 56
                         },
-                        "typeParameters": null,
                         "flags": 2097152,
                         "start": 38,
                         "end": 56

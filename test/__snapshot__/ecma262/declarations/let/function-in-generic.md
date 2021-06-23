@@ -69,6 +69,7 @@ let x: Array<() => void>;
                                                 "bitwiseAndToken": null,
                                                 "type": {
                                                     "kind": 288,
+                                                    "typeParameters": null,
                                                     "arrowTypeParameterList": {
                                                         "kind": 292,
                                                         "parameters": [],
@@ -97,7 +98,6 @@ let x: Array<() => void>;
                                                         "start": 18,
                                                         "end": 23
                                                     },
-                                                    "typeParameters": null,
                                                     "flags": 2097152,
                                                     "start": 13,
                                                     "end": 23

@@ -756,17 +756,12 @@ var p10 = ([{ value, done }]) => { };
                             "bitwiseAndToken": null,
                             "type": {
                                 "kind": 288,
+                                "typeParameters": null,
                                 "arrowTypeParameterList": {
-                                    "kind": 10,
-                                    "flags": 64,
-                                    "start": 210,
-                                    "end": 213
-                                },
-                                "arrowToken": {
                                     "kind": 292,
                                     "parameters": [
                                         {
-                                            "kind": 149,
+                                            "kind": 284,
                                             "ellipsisToken": null,
                                             "name": {
                                                 "kind": 134299649,
@@ -801,6 +796,12 @@ var p10 = ([{ value, done }]) => { };
                                     "start": 201,
                                     "end": 209
                                 },
+                                "arrowToken": {
+                                    "kind": 10,
+                                    "flags": 64,
+                                    "start": 210,
+                                    "end": 213
+                                },
                                 "returnType": {
                                     "kind": 139,
                                     "bitwiseOrToken": null,
@@ -815,7 +816,6 @@ var p10 = ([{ value, done }]) => { };
                                     "start": 213,
                                     "end": 217
                                 },
-                                "typeParameters": null,
                                 "flags": 2097152,
                                 "start": 201,
                                 "end": 217

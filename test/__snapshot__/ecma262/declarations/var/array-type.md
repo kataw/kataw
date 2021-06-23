@@ -122,13 +122,8 @@ var a: (?number)[];
                                     "kind": 290,
                                     "type": {
                                         "kind": 288,
+                                        "typeParameters": null,
                                         "arrowTypeParameterList": {
-                                            "kind": 10,
-                                            "flags": 64,
-                                            "start": 28,
-                                            "end": 31
-                                        },
-                                        "arrowToken": {
                                             "kind": 292,
                                             "parameters": [
                                                 []
@@ -136,6 +131,12 @@ var a: (?number)[];
                                             "trailingComma": false,
                                             "flags": 2097152,
                                             "start": 24,
+                                            "end": 28
+                                        },
+                                        "arrowToken": {
+                                            "kind": 10,
+                                            "flags": 64,
+                                            "start": 28,
                                             "end": 31
                                         },
                                         "returnType": {
@@ -152,7 +153,6 @@ var a: (?number)[];
                                             "start": 31,
                                             "end": 38
                                         },
-                                        "typeParameters": null,
                                         "flags": 2097152,
                                         "start": 24,
                                         "end": 38
@@ -211,6 +211,7 @@ var a: (?number)[];
                             "bitwiseAndToken": null,
                             "type": {
                                 "kind": 288,
+                                "typeParameters": null,
                                 "arrowTypeParameterList": {
                                     "kind": 292,
                                     "parameters": [],
@@ -245,7 +246,6 @@ var a: (?number)[];
                                     "start": 56,
                                     "end": 65
                                 },
-                                "typeParameters": null,
                                 "flags": 2097152,
                                 "start": 50,
                                 "end": 65

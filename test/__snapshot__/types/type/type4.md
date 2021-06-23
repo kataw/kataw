@@ -94,6 +94,7 @@ type T27 = ArgumentType<never>;  // any
                                     "bitwiseAndToken": null,
                                     "type": {
                                         "kind": 288,
+                                        "typeParameters": null,
                                         "arrowTypeParameterList": {
                                             "kind": 292,
                                             "parameters": [],
@@ -122,7 +123,6 @@ type T27 = ArgumentType<never>;  // any
                                             "start": 27,
                                             "end": 34
                                         },
-                                        "typeParameters": null,
                                         "flags": 2097152,
                                         "start": 22,
                                         "end": 34
@@ -202,17 +202,12 @@ type T27 = ArgumentType<never>;  // any
                                     "bitwiseAndToken": null,
                                     "type": {
                                         "kind": 288,
+                                        "typeParameters": null,
                                         "arrowTypeParameterList": {
-                                            "kind": 10,
-                                            "flags": 64,
-                                            "start": 81,
-                                            "end": 84
-                                        },
-                                        "arrowToken": {
                                             "kind": 292,
                                             "parameters": [
                                                 {
-                                                    "kind": 149,
+                                                    "kind": 284,
                                                     "ellipsisToken": null,
                                                     "name": {
                                                         "kind": 134299649,
@@ -247,6 +242,12 @@ type T27 = ArgumentType<never>;  // any
                                             "start": 70,
                                             "end": 80
                                         },
+                                        "arrowToken": {
+                                            "kind": 10,
+                                            "flags": 64,
+                                            "start": 81,
+                                            "end": 84
+                                        },
                                         "returnType": {
                                             "kind": 139,
                                             "bitwiseOrToken": null,
@@ -261,7 +262,6 @@ type T27 = ArgumentType<never>;  // any
                                             "start": 84,
                                             "end": 89
                                         },
-                                        "typeParameters": null,
                                         "flags": 2097152,
                                         "start": 70,
                                         "end": 89
@@ -347,67 +347,6 @@ type T27 = ArgumentType<never>;  // any
                                             "bitwiseAndToken": null,
                                             "type": {
                                                 "kind": 288,
-                                                "arrowTypeParameterList": {
-                                                    "kind": 292,
-                                                    "parameters": [],
-                                                    "trailingComma": false,
-                                                    "flags": 2097152,
-                                                    "start": 127,
-                                                    "end": 127
-                                                },
-                                                "arrowToken": null,
-                                                "returnType": {
-                                                    "kind": 139,
-                                                    "bitwiseOrToken": null,
-                                                    "bitwiseAndToken": null,
-                                                    "type": {
-                                                        "kind": 288,
-                                                        "arrowTypeParameterList": {
-                                                            "kind": 292,
-                                                            "parameters": [],
-                                                            "trailingComma": false,
-                                                            "flags": 2097152,
-                                                            "start": 128,
-                                                            "end": 128
-                                                        },
-                                                        "arrowToken": {
-                                                            "kind": 10,
-                                                            "flags": 64,
-                                                            "start": 129,
-                                                            "end": 132
-                                                        },
-                                                        "returnType": {
-                                                            "kind": 139,
-                                                            "bitwiseOrToken": null,
-                                                            "bitwiseAndToken": null,
-                                                            "type": {
-                                                                "kind": 144,
-                                                                "typeName": {
-                                                                    "kind": 134299649,
-                                                                    "text": "T",
-                                                                    "rawText": "T",
-                                                                    "flags": 96,
-                                                                    "start": 132,
-                                                                    "end": 134
-                                                                },
-                                                                "typeParameters": null,
-                                                                "flags": 2097152,
-                                                                "start": 132,
-                                                                "end": 134
-                                                            },
-                                                            "flags": 2097152,
-                                                            "start": 132,
-                                                            "end": 134
-                                                        },
-                                                        "typeParameters": null,
-                                                        "flags": 2097152,
-                                                        "start": 127,
-                                                        "end": 134
-                                                    },
-                                                    "flags": 2097152,
-                                                    "start": 127,
-                                                    "end": 134
-                                                },
                                                 "typeParameters": {
                                                     "kind": 307,
                                                     "declarations": {
@@ -438,6 +377,43 @@ type T27 = ArgumentType<never>;  // any
                                                     "flags": 2097152,
                                                     "start": 124,
                                                     "end": 127
+                                                },
+                                                "arrowTypeParameterList": {
+                                                    "kind": 292,
+                                                    "parameters": [],
+                                                    "trailingComma": false,
+                                                    "flags": 2097152,
+                                                    "start": 128,
+                                                    "end": 128
+                                                },
+                                                "arrowToken": {
+                                                    "kind": 10,
+                                                    "flags": 64,
+                                                    "start": 129,
+                                                    "end": 132
+                                                },
+                                                "returnType": {
+                                                    "kind": 139,
+                                                    "bitwiseOrToken": null,
+                                                    "bitwiseAndToken": null,
+                                                    "type": {
+                                                        "kind": 144,
+                                                        "typeName": {
+                                                            "kind": 134299649,
+                                                            "text": "T",
+                                                            "rawText": "T",
+                                                            "flags": 96,
+                                                            "start": 132,
+                                                            "end": 134
+                                                        },
+                                                        "typeParameters": null,
+                                                        "flags": 2097152,
+                                                        "start": 132,
+                                                        "end": 134
+                                                    },
+                                                    "flags": 2097152,
+                                                    "start": 132,
+                                                    "end": 134
                                                 },
                                                 "flags": 2097152,
                                                 "start": 124,
@@ -1051,6 +1027,7 @@ type T27 = ArgumentType<never>;  // any
                                     "bitwiseAndToken": null,
                                     "type": {
                                         "kind": 288,
+                                        "typeParameters": null,
                                         "arrowTypeParameterList": {
                                             "kind": 292,
                                             "parameters": [],
@@ -1079,7 +1056,6 @@ type T27 = ArgumentType<never>;  // any
                                             "start": 436,
                                             "end": 441
                                         },
-                                        "typeParameters": null,
                                         "flags": 2097152,
                                         "start": 431,
                                         "end": 441
@@ -1159,17 +1135,12 @@ type T27 = ArgumentType<never>;  // any
                                     "bitwiseAndToken": null,
                                     "type": {
                                         "kind": 288,
+                                        "typeParameters": null,
                                         "arrowTypeParameterList": {
-                                            "kind": 10,
-                                            "flags": 64,
-                                            "start": 489,
-                                            "end": 492
-                                        },
-                                        "arrowToken": {
                                             "kind": 292,
                                             "parameters": [
                                                 {
-                                                    "kind": 149,
+                                                    "kind": 284,
                                                     "ellipsisToken": null,
                                                     "name": {
                                                         "kind": 134299649,
@@ -1204,6 +1175,12 @@ type T27 = ArgumentType<never>;  // any
                                             "start": 478,
                                             "end": 488
                                         },
+                                        "arrowToken": {
+                                            "kind": 10,
+                                            "flags": 64,
+                                            "start": 489,
+                                            "end": 492
+                                        },
                                         "returnType": {
                                             "kind": 139,
                                             "bitwiseOrToken": null,
@@ -1218,7 +1195,6 @@ type T27 = ArgumentType<never>;  // any
                                             "start": 492,
                                             "end": 499
                                         },
-                                        "typeParameters": null,
                                         "flags": 2097152,
                                         "start": 478,
                                         "end": 499
@@ -1298,17 +1274,12 @@ type T27 = ArgumentType<never>;  // any
                                     "bitwiseAndToken": null,
                                     "type": {
                                         "kind": 288,
+                                        "typeParameters": null,
                                         "arrowTypeParameterList": {
-                                            "kind": 10,
-                                            "flags": 64,
-                                            "start": 549,
-                                            "end": 552
-                                        },
-                                        "arrowToken": {
                                             "kind": 292,
                                             "parameters": [
                                                 {
-                                                    "kind": 149,
+                                                    "kind": 284,
                                                     "ellipsisToken": null,
                                                     "name": {
                                                         "kind": 134299649,
@@ -1348,6 +1319,12 @@ type T27 = ArgumentType<never>;  // any
                                             "start": 537,
                                             "end": 548
                                         },
+                                        "arrowToken": {
+                                            "kind": 10,
+                                            "flags": 64,
+                                            "start": 549,
+                                            "end": 552
+                                        },
                                         "returnType": {
                                             "kind": 139,
                                             "bitwiseOrToken": null,
@@ -1362,7 +1339,6 @@ type T27 = ArgumentType<never>;  // any
                                             "start": 552,
                                             "end": 559
                                         },
-                                        "typeParameters": null,
                                         "flags": 2097152,
                                         "start": 537,
                                         "end": 559
@@ -1442,6 +1418,7 @@ type T27 = ArgumentType<never>;  // any
                                     "bitwiseAndToken": null,
                                     "type": {
                                         "kind": 288,
+                                        "typeParameters": null,
                                         "arrowTypeParameterList": {
                                             "kind": 292,
                                             "parameters": [
@@ -1512,7 +1489,6 @@ type T27 = ArgumentType<never>;  // any
                                             "start": 631,
                                             "end": 638
                                         },
-                                        "typeParameters": null,
                                         "flags": 2097152,
                                         "start": 609,
                                         "end": 638

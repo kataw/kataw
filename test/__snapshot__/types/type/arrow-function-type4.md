@@ -53,40 +53,59 @@ type X = (x.y) => T;
                 "bitwiseAndToken": null,
                 "type": {
                     "kind": 288,
+                    "typeParameters": null,
                     "arrowTypeParameterList": {
+                        "kind": 292,
+                        "parameters": [
+                            {
+                                "kind": 284,
+                                "ellipsisToken": null,
+                                "name": {
+                                    "kind": 144,
+                                    "typeName": {
+                                        "kind": 145,
+                                        "qualification": {
+                                            "kind": 134299649,
+                                            "text": "x",
+                                            "rawText": "x",
+                                            "flags": 96,
+                                            "start": 10,
+                                            "end": 11
+                                        },
+                                        "name": {
+                                            "kind": 134299649,
+                                            "text": "y",
+                                            "rawText": "y",
+                                            "flags": 96,
+                                            "start": 12,
+                                            "end": 13
+                                        },
+                                        "flags": 2097152,
+                                        "start": 8,
+                                        "end": 13
+                                    },
+                                    "typeParameters": null,
+                                    "flags": 2097152,
+                                    "start": 8,
+                                    "end": 13
+                                },
+                                "optionalToken": null,
+                                "types": null,
+                                "flags": 2097152,
+                                "start": 8,
+                                "end": 14
+                            }
+                        ],
+                        "trailingComma": false,
+                        "flags": 2097152,
+                        "start": 8,
+                        "end": 14
+                    },
+                    "arrowToken": {
                         "kind": 10,
                         "flags": 64,
                         "start": 14,
                         "end": 17
-                    },
-                    "arrowToken": {
-                        "kind": 144,
-                        "typeName": {
-                            "kind": 145,
-                            "qualification": {
-                                "kind": 134299649,
-                                "text": "x",
-                                "rawText": "x",
-                                "flags": 96,
-                                "start": 10,
-                                "end": 11
-                            },
-                            "name": {
-                                "kind": 134299649,
-                                "text": "y",
-                                "rawText": "y",
-                                "flags": 96,
-                                "start": 12,
-                                "end": 13
-                            },
-                            "flags": 2097152,
-                            "start": 8,
-                            "end": 13
-                        },
-                        "typeParameters": null,
-                        "flags": 2097152,
-                        "start": 8,
-                        "end": 13
                     },
                     "returnType": {
                         "kind": 139,
@@ -111,7 +130,6 @@ type X = (x.y) => T;
                         "start": 17,
                         "end": 19
                     },
-                    "typeParameters": null,
                     "flags": 2097152,
                     "start": 8,
                     "end": 19

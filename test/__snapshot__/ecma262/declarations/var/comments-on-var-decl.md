@@ -628,17 +628,12 @@ n4 = z2;
                             "bitwiseAndToken": null,
                             "type": {
                                 "kind": 288,
+                                "typeParameters": null,
                                 "arrowTypeParameterList": {
-                                    "kind": 10,
-                                    "flags": 64,
-                                    "start": 1022,
-                                    "end": 1025
-                                },
-                                "arrowToken": {
                                     "kind": 292,
                                     "parameters": [
                                         {
-                                            "kind": 149,
+                                            "kind": 284,
                                             "ellipsisToken": null,
                                             "name": {
                                                 "kind": 134299649,
@@ -673,6 +668,12 @@ n4 = z2;
                                     "start": 991,
                                     "end": 1021
                                 },
+                                "arrowToken": {
+                                    "kind": 10,
+                                    "flags": 64,
+                                    "start": 1022,
+                                    "end": 1025
+                                },
                                 "returnType": {
                                     "kind": 139,
                                     "bitwiseOrToken": null,
@@ -687,7 +688,6 @@ n4 = z2;
                                     "start": 1025,
                                     "end": 1032
                                 },
-                                "typeParameters": null,
                                 "flags": 2097152,
                                 "start": 991,
                                 "end": 1032
@@ -782,17 +782,12 @@ n4 = z2;
                             "bitwiseAndToken": null,
                             "type": {
                                 "kind": 288,
+                                "typeParameters": null,
                                 "arrowTypeParameterList": {
-                                    "kind": 10,
-                                    "flags": 64,
-                                    "start": 1068,
-                                    "end": 1071
-                                },
-                                "arrowToken": {
                                     "kind": 292,
                                     "parameters": [
                                         {
-                                            "kind": 149,
+                                            "kind": 284,
                                             "ellipsisToken": null,
                                             "name": {
                                                 "kind": 134299649,
@@ -827,6 +822,12 @@ n4 = z2;
                                     "start": 1056,
                                     "end": 1067
                                 },
+                                "arrowToken": {
+                                    "kind": 10,
+                                    "flags": 64,
+                                    "start": 1068,
+                                    "end": 1071
+                                },
                                 "returnType": {
                                     "kind": 139,
                                     "bitwiseOrToken": null,
@@ -841,7 +842,6 @@ n4 = z2;
                                     "start": 1071,
                                     "end": 1078
                                 },
-                                "typeParameters": null,
                                 "flags": 2097152,
                                 "start": 1056,
                                 "end": 1078

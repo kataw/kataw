@@ -53,80 +53,99 @@ type a = (x,symbol['string']) => T;
                 "bitwiseAndToken": null,
                 "type": {
                     "kind": 288,
+                    "typeParameters": null,
                     "arrowTypeParameterList": {
-                        "kind": 10,
-                        "flags": 64,
-                        "start": 29,
-                        "end": 32
-                    },
-                    "arrowToken": {
                         "kind": 292,
                         "parameters": [
                             {
-                                "kind": 149,
+                                "kind": 284,
                                 "ellipsisToken": null,
                                 "name": {
-                                    "kind": 144,
-                                    "typeName": {
-                                        "kind": 134299649,
-                                        "text": "x",
-                                        "rawText": "x",
-                                        "flags": 96,
-                                        "start": 10,
-                                        "end": 11
-                                    },
-                                    "typeParameters": null,
+                                    "kind": 292,
+                                    "parameters": [
+                                        {
+                                            "kind": 284,
+                                            "ellipsisToken": null,
+                                            "name": {
+                                                "kind": 144,
+                                                "typeName": {
+                                                    "kind": 134299649,
+                                                    "text": "x",
+                                                    "rawText": "x",
+                                                    "flags": 96,
+                                                    "start": 10,
+                                                    "end": 11
+                                                },
+                                                "typeParameters": null,
+                                                "flags": 2097152,
+                                                "start": 8,
+                                                "end": 11
+                                            },
+                                            "optionalToken": null,
+                                            "types": null,
+                                            "flags": 2097152,
+                                            "start": 8,
+                                            "end": 11
+                                        },
+                                        {
+                                            "kind": 284,
+                                            "ellipsisToken": null,
+                                            "name": null,
+                                            "optionalToken": null,
+                                            "types": {
+                                                "kind": 311,
+                                                "objectType": {
+                                                    "kind": 134234343,
+                                                    "flags": 64,
+                                                    "start": 12,
+                                                    "end": 18
+                                                },
+                                                "indexType": {
+                                                    "kind": 139,
+                                                    "bitwiseOrToken": null,
+                                                    "bitwiseAndToken": null,
+                                                    "type": {
+                                                        "kind": 134217967,
+                                                        "text": "string",
+                                                        "flags": 2097216,
+                                                        "start": 19,
+                                                        "end": 27
+                                                    },
+                                                    "flags": 2097152,
+                                                    "start": 19,
+                                                    "end": 27
+                                                },
+                                                "flags": 0,
+                                                "start": 18,
+                                                "end": 29
+                                            },
+                                            "flags": 2097152,
+                                            "start": 12,
+                                            "end": 28
+                                        }
+                                    ],
+                                    "trailingComma": false,
                                     "flags": 2097152,
                                     "start": 8,
-                                    "end": 11
+                                    "end": 28
                                 },
                                 "optionalToken": null,
                                 "types": null,
                                 "flags": 2097152,
                                 "start": 8,
-                                "end": 11
-                            },
-                            {
-                                "kind": 284,
-                                "ellipsisToken": null,
-                                "name": null,
-                                "optionalToken": null,
-                                "types": {
-                                    "kind": 311,
-                                    "objectType": {
-                                        "kind": 134234343,
-                                        "flags": 64,
-                                        "start": 12,
-                                        "end": 18
-                                    },
-                                    "indexType": {
-                                        "kind": 139,
-                                        "bitwiseOrToken": null,
-                                        "bitwiseAndToken": null,
-                                        "type": {
-                                            "kind": 134217967,
-                                            "text": "string",
-                                            "flags": 2097216,
-                                            "start": 19,
-                                            "end": 27
-                                        },
-                                        "flags": 2097152,
-                                        "start": 19,
-                                        "end": 27
-                                    },
-                                    "flags": 0,
-                                    "start": 18,
-                                    "end": 29
-                                },
-                                "flags": 2097152,
-                                "start": 12,
-                                "end": 28
+                                "end": 29
                             }
                         ],
                         "trailingComma": false,
                         "flags": 2097152,
                         "start": 8,
-                        "end": 28
+                        "end": 29
+                    },
+                    "arrowToken": {
+                        "kind": 10,
+                        "flags": 64,
+                        "start": 29,
+                        "end": 32
                     },
                     "returnType": {
                         "kind": 139,
@@ -151,7 +170,6 @@ type a = (x,symbol['string']) => T;
                         "start": 32,
                         "end": 34
                     },
-                    "typeParameters": null,
                     "flags": 2097152,
                     "start": 8,
                     "end": 34

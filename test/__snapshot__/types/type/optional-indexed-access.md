@@ -53,12 +53,6 @@ type x = a?.[b]
                 "bitwiseAndToken": null,
                 "type": {
                     "kind": 332,
-                    "optionalIndexedToken": {
-                        "kind": 393240,
-                        "flags": 64,
-                        "start": 10,
-                        "end": 12
-                    },
                     "objectType": {
                         "kind": 144,
                         "typeName": {
@@ -73,6 +67,12 @@ type x = a?.[b]
                         "flags": 2097152,
                         "start": 8,
                         "end": 10
+                    },
+                    "optionalIndexedToken": {
+                        "kind": 393240,
+                        "flags": 64,
+                        "start": 10,
+                        "end": 12
                     },
                     "indexType": {
                         "kind": 139,

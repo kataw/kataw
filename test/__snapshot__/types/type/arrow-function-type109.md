@@ -52,6 +52,7 @@ type a = (...b[([x])=> c] | d) => c;
                 "bitwiseAndToken": null,
                 "type": {
                     "kind": 288,
+                    "typeParameters": null,
                     "arrowTypeParameterList": {
                         "kind": 292,
                         "parameters": [
@@ -91,13 +92,8 @@ type a = (...b[([x])=> c] | d) => c;
                                                 "bitwiseAndToken": null,
                                                 "type": {
                                                     "kind": 288,
+                                                    "typeParameters": null,
                                                     "arrowTypeParameterList": {
-                                                        "kind": 10,
-                                                        "flags": 64,
-                                                        "start": 20,
-                                                        "end": 22
-                                                    },
-                                                    "arrowToken": {
                                                         "kind": 292,
                                                         "parameters": [
                                                             {
@@ -144,6 +140,12 @@ type a = (...b[([x])=> c] | d) => c;
                                                         "trailingComma": false,
                                                         "flags": 2097152,
                                                         "start": 15,
+                                                        "end": 20
+                                                    },
+                                                    "arrowToken": {
+                                                        "kind": 10,
+                                                        "flags": 64,
+                                                        "start": 20,
                                                         "end": 22
                                                     },
                                                     "returnType": {
@@ -169,7 +171,6 @@ type a = (...b[([x])=> c] | d) => c;
                                                         "start": 22,
                                                         "end": 24
                                                     },
-                                                    "typeParameters": null,
                                                     "flags": 2097152,
                                                     "start": 15,
                                                     "end": 24
@@ -241,7 +242,6 @@ type a = (...b[([x])=> c] | d) => c;
                         "start": 33,
                         "end": 35
                     },
-                    "typeParameters": null,
                     "flags": 2097152,
                     "start": 8,
                     "end": 35

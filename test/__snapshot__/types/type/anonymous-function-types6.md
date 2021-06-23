@@ -53,17 +53,12 @@ type A = (x: string, number) => void
                 "bitwiseAndToken": null,
                 "type": {
                     "kind": 288,
+                    "typeParameters": null,
                     "arrowTypeParameterList": {
-                        "kind": 10,
-                        "flags": 64,
-                        "start": 28,
-                        "end": 31
-                    },
-                    "arrowToken": {
                         "kind": 292,
                         "parameters": [
                             {
-                                "kind": 149,
+                                "kind": 284,
                                 "ellipsisToken": null,
                                 "name": {
                                     "kind": 134299649,
@@ -113,6 +108,12 @@ type A = (x: string, number) => void
                         "start": 8,
                         "end": 27
                     },
+                    "arrowToken": {
+                        "kind": 10,
+                        "flags": 64,
+                        "start": 28,
+                        "end": 31
+                    },
                     "returnType": {
                         "kind": 139,
                         "bitwiseOrToken": null,
@@ -127,7 +128,6 @@ type A = (x: string, number) => void
                         "start": 31,
                         "end": 36
                     },
-                    "typeParameters": null,
                     "flags": 2097152,
                     "start": 8,
                     "end": 36

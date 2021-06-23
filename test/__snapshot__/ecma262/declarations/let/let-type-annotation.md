@@ -48,6 +48,7 @@ let x: () => {} | ({y: z});
                             "bitwiseAndToken": null,
                             "type": {
                                 "kind": 288,
+                                "typeParameters": null,
                                 "arrowTypeParameterList": {
                                     "kind": 292,
                                     "parameters": [],
@@ -151,7 +152,6 @@ let x: () => {} | ({y: z});
                                     "start": 12,
                                     "end": 26
                                 },
-                                "typeParameters": null,
                                 "flags": 2097152,
                                 "start": 6,
                                 "end": 26

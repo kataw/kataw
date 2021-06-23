@@ -190,64 +190,83 @@ function w2<A: Array<number>>(x: A, f: (number, ...A) => void) {
                             "bitwiseAndToken": null,
                             "type": {
                                 "kind": 288,
+                                "typeParameters": null,
                                 "arrowTypeParameterList": {
-                                    "kind": 10,
-                                    "flags": 64,
-                                    "start": 55,
-                                    "end": 58
-                                },
-                                "arrowToken": {
                                     "kind": 292,
                                     "parameters": [
                                         {
-                                            "kind": 149,
+                                            "kind": 284,
                                             "ellipsisToken": null,
                                             "name": {
-                                                "kind": 134234345,
-                                                "flags": 64,
-                                                "start": 42,
-                                                "end": 48
+                                                "kind": 292,
+                                                "parameters": [
+                                                    {
+                                                        "kind": 284,
+                                                        "ellipsisToken": null,
+                                                        "name": {
+                                                            "kind": 134234345,
+                                                            "flags": 64,
+                                                            "start": 42,
+                                                            "end": 48
+                                                        },
+                                                        "optionalToken": null,
+                                                        "types": null,
+                                                        "flags": 2097152,
+                                                        "start": 40,
+                                                        "end": 48
+                                                    },
+                                                    {
+                                                        "kind": 284,
+                                                        "ellipsisToken": {
+                                                            "kind": 524302,
+                                                            "flags": 64,
+                                                            "start": 49,
+                                                            "end": 53
+                                                        },
+                                                        "name": null,
+                                                        "optionalToken": null,
+                                                        "types": {
+                                                            "kind": 144,
+                                                            "typeName": {
+                                                                "kind": 134299649,
+                                                                "text": "A",
+                                                                "rawText": "A",
+                                                                "flags": 96,
+                                                                "start": 53,
+                                                                "end": 54
+                                                            },
+                                                            "typeParameters": null,
+                                                            "flags": 2097152,
+                                                            "start": 49,
+                                                            "end": 54
+                                                        },
+                                                        "flags": 2097152,
+                                                        "start": 49,
+                                                        "end": 54
+                                                    }
+                                                ],
+                                                "trailingComma": false,
+                                                "flags": 2097152,
+                                                "start": 40,
+                                                "end": 54
                                             },
                                             "optionalToken": null,
                                             "types": null,
                                             "flags": 2097152,
                                             "start": 40,
-                                            "end": 48
-                                        },
-                                        {
-                                            "kind": 284,
-                                            "ellipsisToken": {
-                                                "kind": 524302,
-                                                "flags": 64,
-                                                "start": 49,
-                                                "end": 53
-                                            },
-                                            "name": null,
-                                            "optionalToken": null,
-                                            "types": {
-                                                "kind": 144,
-                                                "typeName": {
-                                                    "kind": 134299649,
-                                                    "text": "A",
-                                                    "rawText": "A",
-                                                    "flags": 96,
-                                                    "start": 53,
-                                                    "end": 54
-                                                },
-                                                "typeParameters": null,
-                                                "flags": 2097152,
-                                                "start": 49,
-                                                "end": 54
-                                            },
-                                            "flags": 2097152,
-                                            "start": 49,
-                                            "end": 54
+                                            "end": 55
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 2097152,
                                     "start": 40,
-                                    "end": 54
+                                    "end": 55
+                                },
+                                "arrowToken": {
+                                    "kind": 10,
+                                    "flags": 64,
+                                    "start": 55,
+                                    "end": 58
                                 },
                                 "returnType": {
                                     "kind": 139,
@@ -263,7 +282,6 @@ function w2<A: Array<number>>(x: A, f: (number, ...A) => void) {
                                     "start": 58,
                                     "end": 63
                                 },
-                                "typeParameters": null,
                                 "flags": 2097152,
                                 "start": 40,
                                 "end": 63
@@ -700,64 +718,83 @@ function w2<A: Array<number>>(x: A, f: (number, ...A) => void) {
                             "bitwiseAndToken": null,
                             "type": {
                                 "kind": 288,
+                                "typeParameters": null,
                                 "arrowTypeParameterList": {
-                                    "kind": 10,
-                                    "flags": 64,
-                                    "start": 210,
-                                    "end": 213
-                                },
-                                "arrowToken": {
                                     "kind": 292,
                                     "parameters": [
                                         {
-                                            "kind": 149,
+                                            "kind": 284,
                                             "ellipsisToken": null,
                                             "name": {
-                                                "kind": 134234345,
-                                                "flags": 64,
-                                                "start": 197,
-                                                "end": 203
+                                                "kind": 292,
+                                                "parameters": [
+                                                    {
+                                                        "kind": 284,
+                                                        "ellipsisToken": null,
+                                                        "name": {
+                                                            "kind": 134234345,
+                                                            "flags": 64,
+                                                            "start": 197,
+                                                            "end": 203
+                                                        },
+                                                        "optionalToken": null,
+                                                        "types": null,
+                                                        "flags": 2097152,
+                                                        "start": 195,
+                                                        "end": 203
+                                                    },
+                                                    {
+                                                        "kind": 284,
+                                                        "ellipsisToken": {
+                                                            "kind": 524302,
+                                                            "flags": 64,
+                                                            "start": 204,
+                                                            "end": 208
+                                                        },
+                                                        "name": null,
+                                                        "optionalToken": null,
+                                                        "types": {
+                                                            "kind": 144,
+                                                            "typeName": {
+                                                                "kind": 134299649,
+                                                                "text": "A",
+                                                                "rawText": "A",
+                                                                "flags": 96,
+                                                                "start": 208,
+                                                                "end": 209
+                                                            },
+                                                            "typeParameters": null,
+                                                            "flags": 2097152,
+                                                            "start": 204,
+                                                            "end": 209
+                                                        },
+                                                        "flags": 2097152,
+                                                        "start": 204,
+                                                        "end": 209
+                                                    }
+                                                ],
+                                                "trailingComma": false,
+                                                "flags": 2097152,
+                                                "start": 195,
+                                                "end": 209
                                             },
                                             "optionalToken": null,
                                             "types": null,
                                             "flags": 2097152,
                                             "start": 195,
-                                            "end": 203
-                                        },
-                                        {
-                                            "kind": 284,
-                                            "ellipsisToken": {
-                                                "kind": 524302,
-                                                "flags": 64,
-                                                "start": 204,
-                                                "end": 208
-                                            },
-                                            "name": null,
-                                            "optionalToken": null,
-                                            "types": {
-                                                "kind": 144,
-                                                "typeName": {
-                                                    "kind": 134299649,
-                                                    "text": "A",
-                                                    "rawText": "A",
-                                                    "flags": 96,
-                                                    "start": 208,
-                                                    "end": 209
-                                                },
-                                                "typeParameters": null,
-                                                "flags": 2097152,
-                                                "start": 204,
-                                                "end": 209
-                                            },
-                                            "flags": 2097152,
-                                            "start": 204,
-                                            "end": 209
+                                            "end": 210
                                         }
                                     ],
                                     "trailingComma": false,
                                     "flags": 2097152,
                                     "start": 195,
-                                    "end": 209
+                                    "end": 210
+                                },
+                                "arrowToken": {
+                                    "kind": 10,
+                                    "flags": 64,
+                                    "start": 210,
+                                    "end": 213
                                 },
                                 "returnType": {
                                     "kind": 139,
@@ -773,7 +810,6 @@ function w2<A: Array<number>>(x: A, f: (number, ...A) => void) {
                                     "start": 213,
                                     "end": 218
                                 },
-                                "typeParameters": null,
                                 "flags": 2097152,
                                 "start": 195,
                                 "end": 218

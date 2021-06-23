@@ -8008,8 +8008,12 @@ function parseArrowTypeParameter(parser: ParserState, context: Context): Functio
 function parseArrowFunctionType(parser: ParserState, context: Context): ArrowFunctionType {
   const pos = parser.curPos;
   const typeParameters = parseTypeParameterDeclaration(parser, context);
+  consume(parser, context, SyntaxKind.LeftParen);
+  const param = parseArrowTypeParameters(parser, context);
+  consume(parser, context, SyntaxKind.RightParen);
+  console.log(parser.token === SyntaxKind.LeftParen);
   return createArrowFunctionType(
-    parseArrowTypeParameters(parser, context),
+    param,
     consumeOptToken(parser, context, SyntaxKind.Arrow),
     parseTypeAnnotation(parser, context),
     typeParameters,
@@ -8105,14 +8109,14 @@ function parseParenthesizedType(parser: ParserState, context: Context): any {
       const params = parseArrowFunctionTypeParameters(
         parser,
         context,
-        createFunctionTypeParameters(/* ellipsisToken */ null, arg, optionalToken, type, pos, parser.curPos),
+        createArrowTypeParameter(/* ellipsisToken */ null, arg, optionalToken, type, pos, parser.curPos),
         pos
       );
       consume(parser, context, SyntaxKind.RightParen, DiagnosticCode.Expected_a_to_match_the_token_here);
 
       return createArrowFunctionType(
-        consumeOptToken(parser, context, SyntaxKind.Arrow),
         params,
+        consumeOptToken(parser, context, SyntaxKind.Arrow),
         parseTypeAnnotation(parser, context),
         /* typeParameters */ null,
         pos,
@@ -8148,7 +8152,7 @@ function parseParenthesizedType(parser: ParserState, context: Context): any {
       arg = parseArrowFunctionTypeParameters(
         parser,
         context,
-        createFunctionTypeParameters(
+        createArrowTypeParameter(
           /* ellipsisToken */ null,
           arg,
           /* optionalToken */ null,
@@ -8165,7 +8169,7 @@ function parseParenthesizedType(parser: ParserState, context: Context): any {
       arg = parseArrowFunctionTypeParameters(
         parser,
         context,
-        createFunctionTypeParameters(
+        createArrowTypeParameter(
           /* ellipsisToken */ null,
           arg,
           /* optionalToken */ null,
@@ -8177,8 +8181,8 @@ function parseParenthesizedType(parser: ParserState, context: Context): any {
       );
       consume(parser, context, SyntaxKind.RightParen);
       return createArrowFunctionType(
-        consumeToken(parser, context, SyntaxKind.Arrow, DiagnosticCode.Expected),
         arg,
+        consumeToken(parser, context, SyntaxKind.Arrow, DiagnosticCode.Expected),
         parseTypeAnnotation(parser, context),
         /* typeParameters */ null,
         pos,
@@ -8190,8 +8194,20 @@ function parseParenthesizedType(parser: ParserState, context: Context): any {
 
     if ((context & Context.ArrowOrigin) === 0 && parser.token === SyntaxKind.Arrow) {
       return createArrowFunctionType(
+        parseArrowFunctionTypeParameters(
+          parser,
+          context,
+          createArrowTypeParameter(
+            /* ellipsisToken */ null,
+            arg,
+            /* optionalToken */ null,
+            /* type */ null,
+            pos,
+            parser.curPos
+          ),
+          pos
+        ),
         consumeToken(parser, context, SyntaxKind.Arrow, DiagnosticCode.Expected),
-        arg,
         parseTypeAnnotation(parser, context),
         /* typeParameters */ null,
         pos,
@@ -8210,8 +8226,8 @@ function parseParenthesizedType(parser: ParserState, context: Context): any {
     let type: any;
     if (consumeOpt(parser, context, SyntaxKind.RightParen)) {
       type = createArrowFunctionType(
-        consumeOptToken(parser, context, SyntaxKind.Arrow),
         parseArrowFunctionTypeParameters(parser, context, [], pos),
+        consumeOptToken(parser, context, SyntaxKind.Arrow),
         parseTypeAnnotation(parser, context),
         /* typeParameters */ null,
         pos,
@@ -8247,14 +8263,14 @@ function parseParenthesizedType(parser: ParserState, context: Context): any {
           const params = parseArrowFunctionTypeParameters(
             parser,
             context,
-            createFunctionTypeParameters(/* ellipsisToken */ null, type, optionalToken, type1, pos, parser.curPos),
+            createArrowTypeParameter(/* ellipsisToken */ null, type, optionalToken, type1, pos, parser.curPos),
             pos
           );
           consume(parser, context, SyntaxKind.RightParen, DiagnosticCode.Expected_a_to_match_the_token_here);
 
           type = createArrowFunctionType(
-            consumeOptToken(parser, context, SyntaxKind.Arrow),
             params,
+            consumeOptToken(parser, context, SyntaxKind.Arrow),
             parseTypeAnnotation(parser, context),
             /* typeParameters */ null,
             pos,
@@ -8282,7 +8298,7 @@ function parseParenthesizedType(parser: ParserState, context: Context): any {
           type = parseArrowFunctionTypeParameters(
             parser,
             context,
-            createFunctionTypeParameters(
+            createArrowTypeParameter(
               /* ellipsisToken */ null,
               type,
               /* optionalToken */ null,
@@ -8306,8 +8322,8 @@ function parseParenthesizedType(parser: ParserState, context: Context): any {
       const arrowToken = consumeOptToken(parser, context, SyntaxKind.Arrow);
       if (arrowToken) {
         type = createArrowFunctionType(
-          arrowToken,
           parseArrowFunctionTypeParameters(parser, context, type, pos),
+          arrowToken,
           parseTypeAnnotation(parser, context),
           /* typeParameters */ null,
           pos,
@@ -8320,8 +8336,8 @@ function parseParenthesizedType(parser: ParserState, context: Context): any {
 
     if ((context & Context.ArrowOrigin) === 0 && (parser.token as SyntaxKind) === SyntaxKind.Arrow) {
       return createArrowFunctionType(
-        consumeToken(parser, context, SyntaxKind.Arrow, DiagnosticCode.Expected),
         parseArrowFunctionTypeParameters(parser, context, type, pos),
+        consumeToken(parser, context, SyntaxKind.Arrow, DiagnosticCode.Expected),
         parseTypeAnnotation(parser, context),
         /* typeParameters */ null,
         pos,
@@ -8371,8 +8387,8 @@ function parseParenthesizedType(parser: ParserState, context: Context): any {
       return createParenthesizedType(type, pos, parser.curPos);
     }
     return createArrowFunctionType(
-      consumeOptToken(parser, context, SyntaxKind.Arrow),
       parseArrowFunctionTypeParameters(parser, context, type, pos),
+      consumeOptToken(parser, context, SyntaxKind.Arrow),
       parseTypeAnnotation(parser, context),
       /* typeParameters */ null,
       pos,

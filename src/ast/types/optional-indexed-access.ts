@@ -17,8 +17,8 @@ export function createOptionalIndexedAccess(
 ): OptionalIndexedAccess {
   return {
     kind: SyntaxKind.OptionalIndexedAccess,
-    optionalIndexedToken,
     objectType,
+    optionalIndexedToken,
     indexType,
     flags: NodeFlags.IsTypeNode,
     start,

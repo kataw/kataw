@@ -75,13 +75,8 @@ var f = (x): ((number) => 123) => 123;
                                     "kind": 290,
                                     "type": {
                                         "kind": 288,
+                                        "typeParameters": null,
                                         "arrowTypeParameterList": {
-                                            "kind": 10,
-                                            "flags": 64,
-                                            "start": 22,
-                                            "end": 25
-                                        },
-                                        "arrowToken": {
                                             "kind": 292,
                                             "parameters": [
                                                 {
@@ -94,6 +89,12 @@ var f = (x): ((number) => 123) => 123;
                                             "trailingComma": false,
                                             "flags": 2097152,
                                             "start": 12,
+                                            "end": 25
+                                        },
+                                        "arrowToken": {
+                                            "kind": 10,
+                                            "flags": 64,
+                                            "start": 22,
                                             "end": 25
                                         },
                                         "returnType": {
@@ -111,7 +112,6 @@ var f = (x): ((number) => 123) => 123;
                                             "start": 25,
                                             "end": 29
                                         },
-                                        "typeParameters": null,
                                         "flags": 2097152,
                                         "start": 12,
                                         "end": 29

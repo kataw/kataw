@@ -53,6 +53,7 @@ type a = (...x) => T;
                 "bitwiseAndToken": null,
                 "type": {
                     "kind": 288,
+                    "typeParameters": null,
                     "arrowTypeParameterList": {
                         "kind": 292,
                         "parameters": [
@@ -120,7 +121,6 @@ type a = (...x) => T;
                         "start": 18,
                         "end": 20
                     },
-                    "typeParameters": null,
                     "flags": 2097152,
                     "start": 8,
                     "end": 20

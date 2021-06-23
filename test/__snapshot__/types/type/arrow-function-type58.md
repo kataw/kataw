@@ -50,13 +50,8 @@ let a: ([-1] | x | q & (x)) => T;
                             "bitwiseAndToken": null,
                             "type": {
                                 "kind": 288,
+                                "typeParameters": null,
                                 "arrowTypeParameterList": {
-                                    "kind": 10,
-                                    "flags": 64,
-                                    "start": 27,
-                                    "end": 30
-                                },
-                                "arrowToken": {
                                     "kind": 292,
                                     "parameters": [
                                         {
@@ -168,6 +163,12 @@ let a: ([-1] | x | q & (x)) => T;
                                     "trailingComma": false,
                                     "flags": 2097152,
                                     "start": 6,
+                                    "end": 27
+                                },
+                                "arrowToken": {
+                                    "kind": 10,
+                                    "flags": 64,
+                                    "start": 27,
                                     "end": 30
                                 },
                                 "returnType": {
@@ -193,7 +194,6 @@ let a: ([-1] | x | q & (x)) => T;
                                     "start": 30,
                                     "end": 32
                                 },
-                                "typeParameters": null,
                                 "flags": 2097152,
                                 "start": 6,
                                 "end": 32

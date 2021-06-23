@@ -71,13 +71,8 @@ type a = {[(((-1) => [c|d]))]:string};
                                         "bitwiseAndToken": null,
                                         "type": {
                                             "kind": 288,
+                                            "typeParameters": null,
                                             "arrowTypeParameterList": {
-                                                "kind": 10,
-                                                "flags": 64,
-                                                "start": 17,
-                                                "end": 20
-                                            },
-                                            "arrowToken": {
                                                 "kind": 292,
                                                 "parameters": [
                                                     {
@@ -105,6 +100,12 @@ type a = {[(((-1) => [c|d]))]:string};
                                                 "trailingComma": false,
                                                 "flags": 2097152,
                                                 "start": 13,
+                                                "end": 17
+                                            },
+                                            "arrowToken": {
+                                                "kind": 10,
+                                                "flags": 64,
+                                                "start": 17,
                                                 "end": 20
                                             },
                                             "returnType": {
@@ -170,7 +171,6 @@ type a = {[(((-1) => [c|d]))]:string};
                                                 "start": 20,
                                                 "end": 26
                                             },
-                                            "typeParameters": null,
                                             "flags": 2097152,
                                             "start": 13,
                                             "end": 26

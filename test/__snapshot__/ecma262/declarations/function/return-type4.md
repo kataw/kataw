@@ -125,6 +125,7 @@ function x(y: | z):
                 "bitwiseAndToken": null,
                 "type": {
                     "kind": 288,
+                    "typeParameters": null,
                     "arrowTypeParameterList": {
                         "kind": 292,
                         "parameters": [],
@@ -153,7 +154,6 @@ function x(y: | z):
                         "start": 47,
                         "end": 54
                     },
-                    "typeParameters": null,
                     "flags": 2097152,
                     "start": 23,
                     "end": 54

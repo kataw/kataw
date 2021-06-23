@@ -122,6 +122,7 @@ function x(y: | z): | /* comment */ () => number {}
                 "bitwiseAndToken": null,
                 "type": {
                     "kind": 288,
+                    "typeParameters": null,
                     "arrowTypeParameterList": {
                         "kind": 292,
                         "parameters": [],
@@ -150,7 +151,6 @@ function x(y: | z): | /* comment */ () => number {}
                         "start": 41,
                         "end": 48
                     },
-                    "typeParameters": null,
                     "flags": 2097152,
                     "start": 21,
                     "end": 48

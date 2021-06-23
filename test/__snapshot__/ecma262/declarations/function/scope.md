@@ -397,6 +397,7 @@ function for_scope_var() {
                                             "bitwiseAndToken": null,
                                             "type": {
                                                 "kind": 288,
+                                                "typeParameters": null,
                                                 "arrowTypeParameterList": {
                                                     "kind": 292,
                                                     "parameters": [],
@@ -425,7 +426,6 @@ function for_scope_var() {
                                                     "start": 211,
                                                     "end": 218
                                                 },
-                                                "typeParameters": null,
                                                 "flags": 2097152,
                                                 "start": 205,
                                                 "end": 218

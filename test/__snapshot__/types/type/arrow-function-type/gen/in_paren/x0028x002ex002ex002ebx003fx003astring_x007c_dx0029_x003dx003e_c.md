@@ -55,13 +55,8 @@ type a = ((...b?:string | d) => c);
                     "kind": 290,
                     "type": {
                         "kind": 288,
+                        "typeParameters": null,
                         "arrowTypeParameterList": {
-                            "kind": 10,
-                            "flags": 64,
-                            "start": 28,
-                            "end": 31
-                        },
-                        "arrowToken": {
                             "kind": 292,
                             "parameters": [
                                 {
@@ -133,6 +128,12 @@ type a = ((...b?:string | d) => c);
                             "start": 8,
                             "end": 31
                         },
+                        "arrowToken": {
+                            "kind": 10,
+                            "flags": 64,
+                            "start": 28,
+                            "end": 31
+                        },
                         "returnType": {
                             "kind": 139,
                             "bitwiseOrToken": null,
@@ -156,7 +157,6 @@ type a = ((...b?:string | d) => c);
                             "start": 31,
                             "end": 33
                         },
-                        "typeParameters": null,
                         "flags": 2097152,
                         "start": 8,
                         "end": 33

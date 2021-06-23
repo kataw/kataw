@@ -50,17 +50,12 @@ let x: (this: any) => void = () => {}
                             "bitwiseAndToken": null,
                             "type": {
                                 "kind": 288,
+                                "typeParameters": null,
                                 "arrowTypeParameterList": {
-                                    "kind": 10,
-                                    "flags": 64,
-                                    "start": 18,
-                                    "end": 21
-                                },
-                                "arrowToken": {
                                     "kind": 292,
                                     "parameters": [
                                         {
-                                            "kind": 149,
+                                            "kind": 284,
                                             "ellipsisToken": null,
                                             "name": {
                                                 "kind": 134299649,
@@ -95,6 +90,12 @@ let x: (this: any) => void = () => {}
                                     "start": 6,
                                     "end": 17
                                 },
+                                "arrowToken": {
+                                    "kind": 10,
+                                    "flags": 64,
+                                    "start": 18,
+                                    "end": 21
+                                },
                                 "returnType": {
                                     "kind": 139,
                                     "bitwiseOrToken": null,
@@ -109,7 +110,6 @@ let x: (this: any) => void = () => {}
                                     "start": 21,
                                     "end": 26
                                 },
-                                "typeParameters": null,
                                 "flags": 2097152,
                                 "start": 6,
                                 "end": 26

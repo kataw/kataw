@@ -71,13 +71,8 @@ type a = {[((({[(((-1) => [c|d]))]:string}) => [c|d]))]:string};
                                         "bitwiseAndToken": null,
                                         "type": {
                                             "kind": 288,
+                                            "typeParameters": null,
                                             "arrowTypeParameterList": {
-                                                "kind": 10,
-                                                "flags": 64,
-                                                "start": 43,
-                                                "end": 46
-                                            },
-                                            "arrowToken": {
                                                 "kind": 292,
                                                 "parameters": [
                                                     {
@@ -104,13 +99,8 @@ type a = {[((({[(((-1) => [c|d]))]:string}) => [c|d]))]:string};
                                                                                 "bitwiseAndToken": null,
                                                                                 "type": {
                                                                                     "kind": 288,
+                                                                                    "typeParameters": null,
                                                                                     "arrowTypeParameterList": {
-                                                                                        "kind": 10,
-                                                                                        "flags": 64,
-                                                                                        "start": 22,
-                                                                                        "end": 25
-                                                                                    },
-                                                                                    "arrowToken": {
                                                                                         "kind": 292,
                                                                                         "parameters": [
                                                                                             {
@@ -138,6 +128,12 @@ type a = {[((({[(((-1) => [c|d]))]:string}) => [c|d]))]:string};
                                                                                         "trailingComma": false,
                                                                                         "flags": 2097152,
                                                                                         "start": 18,
+                                                                                        "end": 22
+                                                                                    },
+                                                                                    "arrowToken": {
+                                                                                        "kind": 10,
+                                                                                        "flags": 64,
+                                                                                        "start": 22,
                                                                                         "end": 25
                                                                                     },
                                                                                     "returnType": {
@@ -203,7 +199,6 @@ type a = {[((({[(((-1) => [c|d]))]:string}) => [c|d]))]:string};
                                                                                         "start": 25,
                                                                                         "end": 31
                                                                                     },
-                                                                                    "typeParameters": null,
                                                                                     "flags": 2097152,
                                                                                     "start": 18,
                                                                                     "end": 31
@@ -252,6 +247,12 @@ type a = {[((({[(((-1) => [c|d]))]:string}) => [c|d]))]:string};
                                                 "trailingComma": false,
                                                 "flags": 2097152,
                                                 "start": 13,
+                                                "end": 43
+                                            },
+                                            "arrowToken": {
+                                                "kind": 10,
+                                                "flags": 64,
+                                                "start": 43,
                                                 "end": 46
                                             },
                                             "returnType": {
@@ -317,7 +318,6 @@ type a = {[((({[(((-1) => [c|d]))]:string}) => [c|d]))]:string};
                                                 "start": 46,
                                                 "end": 52
                                             },
-                                            "typeParameters": null,
                                             "flags": 2097152,
                                             "start": 13,
                                             "end": 52

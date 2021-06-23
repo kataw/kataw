@@ -77,6 +77,7 @@ async <T>(fn: () => T);
                                 "bitwiseAndToken": null,
                                 "type": {
                                     "kind": 288,
+                                    "typeParameters": null,
                                     "arrowTypeParameterList": {
                                         "kind": 292,
                                         "parameters": [],
@@ -114,7 +115,6 @@ async <T>(fn: () => T);
                                         "start": 19,
                                         "end": 21
                                     },
-                                    "typeParameters": null,
                                     "flags": 2097152,
                                     "start": 13,
                                     "end": 21

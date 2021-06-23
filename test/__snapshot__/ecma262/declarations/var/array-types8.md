@@ -261,6 +261,7 @@ var a: typeof A[];
                             "bitwiseAndToken": null,
                             "type": {
                                 "kind": 288,
+                                "typeParameters": null,
                                 "arrowTypeParameterList": {
                                     "kind": 292,
                                     "parameters": [],
@@ -295,7 +296,6 @@ var a: typeof A[];
                                     "start": 67,
                                     "end": 76
                                 },
-                                "typeParameters": null,
                                 "flags": 2097152,
                                 "start": 61,
                                 "end": 76

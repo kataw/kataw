@@ -53,13 +53,8 @@ type a = (1 | 1[symbol & string]) => T;
                 "bitwiseAndToken": null,
                 "type": {
                     "kind": 288,
+                    "typeParameters": null,
                     "arrowTypeParameterList": {
-                        "kind": 10,
-                        "flags": 64,
-                        "start": 33,
-                        "end": 36
-                    },
-                    "arrowToken": {
                         "kind": 292,
                         "parameters": [
                             {
@@ -130,6 +125,12 @@ type a = (1 | 1[symbol & string]) => T;
                         "trailingComma": false,
                         "flags": 2097152,
                         "start": 8,
+                        "end": 33
+                    },
+                    "arrowToken": {
+                        "kind": 10,
+                        "flags": 64,
+                        "start": 33,
                         "end": 36
                     },
                     "returnType": {
@@ -155,7 +156,6 @@ type a = (1 | 1[symbol & string]) => T;
                         "start": 36,
                         "end": 38
                     },
-                    "typeParameters": null,
                     "flags": 2097152,
                     "start": 8,
                     "end": 38

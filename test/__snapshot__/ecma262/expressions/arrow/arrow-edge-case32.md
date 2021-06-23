@@ -97,13 +97,8 @@ let x = (y: any): (() => {}) => { };
                                     "kind": 290,
                                     "type": {
                                         "kind": 288,
+                                        "typeParameters": null,
                                         "arrowTypeParameterList": {
-                                            "kind": 10,
-                                            "flags": 64,
-                                            "start": 21,
-                                            "end": 24
-                                        },
-                                        "arrowToken": {
                                             "kind": 292,
                                             "parameters": [
                                                 []
@@ -111,6 +106,12 @@ let x = (y: any): (() => {}) => { };
                                             "trailingComma": false,
                                             "flags": 2097152,
                                             "start": 17,
+                                            "end": 21
+                                        },
+                                        "arrowToken": {
+                                            "kind": 10,
+                                            "flags": 64,
+                                            "start": 21,
                                             "end": 24
                                         },
                                         "returnType": {
@@ -129,7 +130,6 @@ let x = (y: any): (() => {}) => { };
                                             "start": 24,
                                             "end": 27
                                         },
-                                        "typeParameters": null,
                                         "flags": 2097152,
                                         "start": 17,
                                         "end": 27

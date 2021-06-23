@@ -853,6 +853,7 @@ type T9 = { [param: string]: U };
                                 "bitwiseAndToken": null,
                                 "type": {
                                     "kind": 288,
+                                    "typeParameters": null,
                                     "arrowTypeParameterList": {
                                         "kind": 292,
                                         "parameters": [],
@@ -881,7 +882,6 @@ type T9 = { [param: string]: U };
                                         "start": 206,
                                         "end": 213
                                     },
-                                    "typeParameters": null,
                                     "flags": 2097152,
                                     "start": 200,
                                     "end": 213

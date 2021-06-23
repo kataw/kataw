@@ -53,35 +53,54 @@ type A = (string,) => void
                 "bitwiseAndToken": null,
                 "type": {
                     "kind": 288,
+                    "typeParameters": null,
                     "arrowTypeParameterList": {
-                        "kind": 10,
-                        "flags": 64,
-                        "start": 18,
-                        "end": 21
-                    },
-                    "arrowToken": {
                         "kind": 292,
                         "parameters": [
                             {
-                                "kind": 149,
+                                "kind": 284,
                                 "ellipsisToken": null,
                                 "name": {
-                                    "kind": 134234347,
-                                    "flags": 64,
-                                    "start": 10,
-                                    "end": 16
+                                    "kind": 292,
+                                    "parameters": [
+                                        {
+                                            "kind": 284,
+                                            "ellipsisToken": null,
+                                            "name": {
+                                                "kind": 134234347,
+                                                "flags": 64,
+                                                "start": 10,
+                                                "end": 16
+                                            },
+                                            "optionalToken": null,
+                                            "types": null,
+                                            "flags": 2097152,
+                                            "start": 8,
+                                            "end": 16
+                                        }
+                                    ],
+                                    "trailingComma": true,
+                                    "flags": 2097152,
+                                    "start": 8,
+                                    "end": 17
                                 },
                                 "optionalToken": null,
                                 "types": null,
                                 "flags": 2097152,
                                 "start": 8,
-                                "end": 16
+                                "end": 18
                             }
                         ],
-                        "trailingComma": true,
+                        "trailingComma": false,
                         "flags": 2097152,
                         "start": 8,
-                        "end": 17
+                        "end": 18
+                    },
+                    "arrowToken": {
+                        "kind": 10,
+                        "flags": 64,
+                        "start": 18,
+                        "end": 21
                     },
                     "returnType": {
                         "kind": 139,
@@ -97,7 +116,6 @@ type A = (string,) => void
                         "start": 21,
                         "end": 26
                     },
-                    "typeParameters": null,
                     "flags": 2097152,
                     "start": 8,
                     "end": 26

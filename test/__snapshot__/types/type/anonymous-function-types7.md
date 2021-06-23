@@ -53,6 +53,7 @@ type A = (...Array<string>) => void
                 "bitwiseAndToken": null,
                 "type": {
                     "kind": 288,
+                    "typeParameters": null,
                     "arrowTypeParameterList": {
                         "kind": 292,
                         "parameters": [
@@ -139,7 +140,6 @@ type A = (...Array<string>) => void
                         "start": 30,
                         "end": 35
                     },
-                    "typeParameters": null,
                     "flags": 2097152,
                     "start": 8,
                     "end": 35

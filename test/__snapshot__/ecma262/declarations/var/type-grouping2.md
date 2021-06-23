@@ -56,13 +56,8 @@ var a: (() => number) | () => string
                                         "kind": 290,
                                         "type": {
                                             "kind": 288,
+                                            "typeParameters": null,
                                             "arrowTypeParameterList": {
-                                                "kind": 10,
-                                                "flags": 64,
-                                                "start": 10,
-                                                "end": 13
-                                            },
-                                            "arrowToken": {
                                                 "kind": 292,
                                                 "parameters": [
                                                     []
@@ -70,6 +65,12 @@ var a: (() => number) | () => string
                                                 "trailingComma": false,
                                                 "flags": 2097152,
                                                 "start": 6,
+                                                "end": 10
+                                            },
+                                            "arrowToken": {
+                                                "kind": 10,
+                                                "flags": 64,
+                                                "start": 10,
                                                 "end": 13
                                             },
                                             "returnType": {
@@ -86,7 +87,6 @@ var a: (() => number) | () => string
                                                 "start": 13,
                                                 "end": 20
                                             },
-                                            "typeParameters": null,
                                             "flags": 2097152,
                                             "start": 6,
                                             "end": 20
@@ -97,6 +97,7 @@ var a: (() => number) | () => string
                                     },
                                     {
                                         "kind": 288,
+                                        "typeParameters": null,
                                         "arrowTypeParameterList": {
                                             "kind": 292,
                                             "parameters": [],
@@ -125,7 +126,6 @@ var a: (() => number) | () => string
                                             "start": 29,
                                             "end": 36
                                         },
-                                        "typeParameters": null,
                                         "flags": 2097152,
                                         "start": 23,
                                         "end": 36

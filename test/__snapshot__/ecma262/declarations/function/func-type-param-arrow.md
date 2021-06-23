@@ -68,17 +68,12 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
                 "bitwiseAndToken": null,
                 "type": {
                     "kind": 288,
+                    "typeParameters": null,
                     "arrowTypeParameterList": {
-                        "kind": 10,
-                        "flags": 64,
-                        "start": 23,
-                        "end": 26
-                    },
-                    "arrowToken": {
                         "kind": 292,
                         "parameters": [
                             {
-                                "kind": 149,
+                                "kind": 284,
                                 "ellipsisToken": null,
                                 "name": {
                                     "kind": 134299649,
@@ -122,6 +117,12 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
                         "start": 15,
                         "end": 22
                     },
+                    "arrowToken": {
+                        "kind": 10,
+                        "flags": 64,
+                        "start": 23,
+                        "end": 26
+                    },
                     "returnType": {
                         "kind": 139,
                         "bitwiseOrToken": null,
@@ -136,7 +137,6 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
                         "start": 26,
                         "end": 33
                     },
-                    "typeParameters": null,
                     "flags": 2097152,
                     "start": 15,
                     "end": 33
@@ -216,17 +216,12 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
                 "bitwiseAndToken": null,
                 "type": {
                     "kind": 288,
+                    "typeParameters": null,
                     "arrowTypeParameterList": {
-                        "kind": 10,
-                        "flags": 64,
-                        "start": 80,
-                        "end": 83
-                    },
-                    "arrowToken": {
                         "kind": 292,
                         "parameters": [
                             {
-                                "kind": 149,
+                                "kind": 284,
                                 "ellipsisToken": null,
                                 "name": {
                                     "kind": 134299649,
@@ -300,6 +295,12 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
                         "start": 59,
                         "end": 79
                     },
+                    "arrowToken": {
+                        "kind": 10,
+                        "flags": 64,
+                        "start": 80,
+                        "end": 83
+                    },
                     "returnType": {
                         "kind": 139,
                         "bitwiseOrToken": null,
@@ -314,7 +315,6 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
                         "start": 83,
                         "end": 90
                     },
-                    "typeParameters": null,
                     "flags": 2097152,
                     "start": 59,
                     "end": 90
@@ -407,17 +407,12 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
                 "bitwiseAndToken": null,
                 "type": {
                     "kind": 288,
+                    "typeParameters": null,
                     "arrowTypeParameterList": {
-                        "kind": 10,
-                        "flags": 64,
-                        "start": 149,
-                        "end": 152
-                    },
-                    "arrowToken": {
                         "kind": 292,
                         "parameters": [
                             {
-                                "kind": 149,
+                                "kind": 284,
                                 "ellipsisToken": null,
                                 "name": {
                                     "kind": 134299649,
@@ -533,6 +528,12 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
                         "start": 117,
                         "end": 148
                     },
+                    "arrowToken": {
+                        "kind": 10,
+                        "flags": 64,
+                        "start": 149,
+                        "end": 152
+                    },
                     "returnType": {
                         "kind": 139,
                         "bitwiseOrToken": null,
@@ -547,7 +548,6 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
                         "start": 152,
                         "end": 159
                     },
-                    "typeParameters": null,
                     "flags": 2097152,
                     "start": 117,
                     "end": 159

@@ -91,13 +91,8 @@ type a = {function((((-1) => [c|d]))):string};
                                             "bitwiseAndToken": null,
                                             "type": {
                                                 "kind": 288,
+                                                "typeParameters": null,
                                                 "arrowTypeParameterList": {
-                                                    "kind": 10,
-                                                    "flags": 64,
-                                                    "start": 25,
-                                                    "end": 28
-                                                },
-                                                "arrowToken": {
                                                     "kind": 292,
                                                     "parameters": [
                                                         {
@@ -125,6 +120,12 @@ type a = {function((((-1) => [c|d]))):string};
                                                     "trailingComma": false,
                                                     "flags": 2097152,
                                                     "start": 21,
+                                                    "end": 25
+                                                },
+                                                "arrowToken": {
+                                                    "kind": 10,
+                                                    "flags": 64,
+                                                    "start": 25,
                                                     "end": 28
                                                 },
                                                 "returnType": {
@@ -190,7 +191,6 @@ type a = {function((((-1) => [c|d]))):string};
                                                     "start": 28,
                                                     "end": 34
                                                 },
-                                                "typeParameters": null,
                                                 "flags": 2097152,
                                                 "start": 21,
                                                 "end": 34

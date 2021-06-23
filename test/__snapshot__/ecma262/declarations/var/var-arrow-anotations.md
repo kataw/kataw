@@ -503,6 +503,7 @@ class Array { concat(items:number | string) {}; }
                             "bitwiseAndToken": null,
                             "type": {
                                 "kind": 288,
+                                "typeParameters": null,
                                 "arrowTypeParameterList": {
                                     "kind": 292,
                                     "parameters": [],
@@ -532,6 +533,7 @@ class Array { concat(items:number | string) {}; }
                                             },
                                             {
                                                 "kind": 288,
+                                                "typeParameters": null,
                                                 "arrowTypeParameterList": {
                                                     "kind": 292,
                                                     "parameters": [],
@@ -560,7 +562,6 @@ class Array { concat(items:number | string) {}; }
                                                     "start": 141,
                                                     "end": 148
                                                 },
-                                                "typeParameters": null,
                                                 "flags": 2097152,
                                                 "start": 135,
                                                 "end": 148
@@ -574,7 +575,6 @@ class Array { concat(items:number | string) {}; }
                                     "start": 126,
                                     "end": 148
                                 },
-                                "typeParameters": null,
                                 "flags": 2097152,
                                 "start": 120,
                                 "end": 148

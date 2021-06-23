@@ -55,30 +55,20 @@ type a = ((x?:string )=> T) => T;
                     "kind": 290,
                     "type": {
                         "kind": 288,
+                        "typeParameters": null,
                         "arrowTypeParameterList": {
-                            "kind": 10,
-                            "flags": 64,
-                            "start": 27,
-                            "end": 30
-                        },
-                        "arrowToken": {
                             "kind": 292,
                             "parameters": [
                                 {
                                     "kind": 144,
                                     "typeName": {
                                         "kind": 288,
+                                        "typeParameters": null,
                                         "arrowTypeParameterList": {
-                                            "kind": 10,
-                                            "flags": 64,
-                                            "start": 22,
-                                            "end": 24
-                                        },
-                                        "arrowToken": {
                                             "kind": 292,
                                             "parameters": [
                                                 {
-                                                    "kind": 149,
+                                                    "kind": 284,
                                                     "ellipsisToken": null,
                                                     "name": {
                                                         "kind": 134299649,
@@ -118,6 +108,12 @@ type a = ((x?:string )=> T) => T;
                                             "start": 8,
                                             "end": 20
                                         },
+                                        "arrowToken": {
+                                            "kind": 10,
+                                            "flags": 64,
+                                            "start": 22,
+                                            "end": 24
+                                        },
                                         "returnType": {
                                             "kind": 139,
                                             "bitwiseOrToken": null,
@@ -141,7 +137,6 @@ type a = ((x?:string )=> T) => T;
                                             "start": 24,
                                             "end": 26
                                         },
-                                        "typeParameters": null,
                                         "flags": 2097152,
                                         "start": 8,
                                         "end": 26
@@ -155,6 +150,12 @@ type a = ((x?:string )=> T) => T;
                             "trailingComma": false,
                             "flags": 2097152,
                             "start": 8,
+                            "end": 30
+                        },
+                        "arrowToken": {
+                            "kind": 10,
+                            "flags": 64,
+                            "start": 27,
                             "end": 30
                         },
                         "returnType": {
@@ -180,7 +181,6 @@ type a = ((x?:string )=> T) => T;
                             "start": 30,
                             "end": 32
                         },
-                        "typeParameters": null,
                         "flags": 2097152,
                         "start": 8,
                         "end": 32

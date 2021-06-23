@@ -53,17 +53,12 @@ type X = (await:string) => T;
                 "bitwiseAndToken": null,
                 "type": {
                     "kind": 288,
+                    "typeParameters": null,
                     "arrowTypeParameterList": {
-                        "kind": 10,
-                        "flags": 64,
-                        "start": 23,
-                        "end": 26
-                    },
-                    "arrowToken": {
                         "kind": 292,
                         "parameters": [
                             {
-                                "kind": 149,
+                                "kind": 284,
                                 "ellipsisToken": null,
                                 "name": {
                                     "kind": 134299649,
@@ -98,6 +93,12 @@ type X = (await:string) => T;
                         "start": 8,
                         "end": 22
                     },
+                    "arrowToken": {
+                        "kind": 10,
+                        "flags": 64,
+                        "start": 23,
+                        "end": 26
+                    },
                     "returnType": {
                         "kind": 139,
                         "bitwiseOrToken": null,
@@ -121,7 +122,6 @@ type X = (await:string) => T;
                         "start": 26,
                         "end": 28
                     },
-                    "typeParameters": null,
                     "flags": 2097152,
                     "start": 8,
                     "end": 28

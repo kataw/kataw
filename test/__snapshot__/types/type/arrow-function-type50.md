@@ -53,53 +53,72 @@ type a = (a[-1]) => T;
                 "bitwiseAndToken": null,
                 "type": {
                     "kind": 288,
+                    "typeParameters": null,
                     "arrowTypeParameterList": {
+                        "kind": 292,
+                        "parameters": [
+                            {
+                                "kind": 284,
+                                "ellipsisToken": null,
+                                "name": {
+                                    "kind": 311,
+                                    "objectType": {
+                                        "kind": 144,
+                                        "typeName": {
+                                            "kind": 134299649,
+                                            "text": "a",
+                                            "rawText": "a",
+                                            "flags": 96,
+                                            "start": 10,
+                                            "end": 11
+                                        },
+                                        "typeParameters": null,
+                                        "flags": 2097152,
+                                        "start": 8,
+                                        "end": 11
+                                    },
+                                    "indexType": {
+                                        "kind": 139,
+                                        "bitwiseOrToken": null,
+                                        "bitwiseAndToken": null,
+                                        "type": {
+                                            "kind": 313,
+                                            "subtractionToken": {
+                                                "kind": 134318643,
+                                                "flags": 64,
+                                                "start": 12,
+                                                "end": 13
+                                            },
+                                            "text": 1,
+                                            "flags": 2097216,
+                                            "start": 12,
+                                            "end": 14
+                                        },
+                                        "flags": 2097152,
+                                        "start": 12,
+                                        "end": 14
+                                    },
+                                    "flags": 0,
+                                    "start": 11,
+                                    "end": 16
+                                },
+                                "optionalToken": null,
+                                "types": null,
+                                "flags": 2097152,
+                                "start": 8,
+                                "end": 16
+                            }
+                        ],
+                        "trailingComma": false,
+                        "flags": 2097152,
+                        "start": 8,
+                        "end": 16
+                    },
+                    "arrowToken": {
                         "kind": 10,
                         "flags": 64,
                         "start": 16,
                         "end": 19
-                    },
-                    "arrowToken": {
-                        "kind": 311,
-                        "objectType": {
-                            "kind": 144,
-                            "typeName": {
-                                "kind": 134299649,
-                                "text": "a",
-                                "rawText": "a",
-                                "flags": 96,
-                                "start": 10,
-                                "end": 11
-                            },
-                            "typeParameters": null,
-                            "flags": 2097152,
-                            "start": 8,
-                            "end": 11
-                        },
-                        "indexType": {
-                            "kind": 139,
-                            "bitwiseOrToken": null,
-                            "bitwiseAndToken": null,
-                            "type": {
-                                "kind": 313,
-                                "subtractionToken": {
-                                    "kind": 134318643,
-                                    "flags": 64,
-                                    "start": 12,
-                                    "end": 13
-                                },
-                                "text": 1,
-                                "flags": 2097216,
-                                "start": 12,
-                                "end": 14
-                            },
-                            "flags": 2097152,
-                            "start": 12,
-                            "end": 14
-                        },
-                        "flags": 0,
-                        "start": 11,
-                        "end": 16
                     },
                     "returnType": {
                         "kind": 139,
@@ -124,7 +143,6 @@ type a = (a[-1]) => T;
                         "start": 19,
                         "end": 21
                     },
-                    "typeParameters": null,
                     "flags": 2097152,
                     "start": 8,
                     "end": 21

@@ -51,6 +51,7 @@ type Fn0 = () => number;
                 "bitwiseAndToken": null,
                 "type": {
                     "kind": 288,
+                    "typeParameters": null,
                     "arrowTypeParameterList": {
                         "kind": 292,
                         "parameters": [],
@@ -79,7 +80,6 @@ type Fn0 = () => number;
                         "start": 16,
                         "end": 23
                     },
-                    "typeParameters": null,
                     "flags": 2097152,
                     "start": 10,
                     "end": 23

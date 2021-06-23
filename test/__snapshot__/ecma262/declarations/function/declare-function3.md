@@ -210,6 +210,7 @@ declare function foo<TArguments: $ReadOnlyArray<{foo: 'a'}>, TReturn>(
                             "bitwiseAndToken": null,
                             "type": {
                                 "kind": 288,
+                                "typeParameters": null,
                                 "arrowTypeParameterList": {
                                     "kind": 292,
                                     "parameters": [
@@ -292,7 +293,6 @@ declare function foo<TArguments: $ReadOnlyArray<{foo: 'a'}>, TReturn>(
                                     "start": 116,
                                     "end": 124
                                 },
-                                "typeParameters": null,
                                 "flags": 2097152,
                                 "start": 91,
                                 "end": 124
@@ -319,6 +319,7 @@ declare function foo<TArguments: $ReadOnlyArray<{foo: 'a'}>, TReturn>(
                 "bitwiseAndToken": null,
                 "type": {
                     "kind": 288,
+                    "typeParameters": null,
                     "arrowTypeParameterList": {
                         "kind": 292,
                         "parameters": [
@@ -401,7 +402,6 @@ declare function foo<TArguments: $ReadOnlyArray<{foo: 'a'}>, TReturn>(
                         "start": 155,
                         "end": 163
                     },
-                    "typeParameters": null,
                     "flags": 2097152,
                     "start": 130,
                     "end": 163

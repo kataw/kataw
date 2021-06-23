@@ -53,6 +53,7 @@ type a = (...x: string & foo | (...x: string & foo | bar) => T) => T;
                 "bitwiseAndToken": null,
                 "type": {
                     "kind": 288,
+                    "typeParameters": null,
                     "arrowTypeParameterList": {
                         "kind": 292,
                         "parameters": [
@@ -111,6 +112,7 @@ type a = (...x: string & foo | (...x: string & foo | bar) => T) => T;
                                             },
                                             {
                                                 "kind": 288,
+                                                "typeParameters": null,
                                                 "arrowTypeParameterList": {
                                                     "kind": 292,
                                                     "parameters": [
@@ -230,7 +232,6 @@ type a = (...x: string & foo | (...x: string & foo | bar) => T) => T;
                                                     "start": 60,
                                                     "end": 62
                                                 },
-                                                "typeParameters": null,
                                                 "flags": 2097152,
                                                 "start": 30,
                                                 "end": 62
@@ -283,7 +284,6 @@ type a = (...x: string & foo | (...x: string & foo | bar) => T) => T;
                         "start": 66,
                         "end": 68
                     },
-                    "typeParameters": null,
                     "flags": 2097152,
                     "start": 8,
                     "end": 68

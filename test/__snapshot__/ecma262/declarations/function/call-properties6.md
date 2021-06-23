@@ -191,6 +191,7 @@ function d(x: { (z: number): string }): () => string {
                 "bitwiseAndToken": null,
                 "type": {
                     "kind": 288,
+                    "typeParameters": null,
                     "arrowTypeParameterList": {
                         "kind": 292,
                         "parameters": [],
@@ -219,7 +220,6 @@ function d(x: { (z: number): string }): () => string {
                         "start": 45,
                         "end": 52
                     },
-                    "typeParameters": null,
                     "flags": 2097152,
                     "start": 39,
                     "end": 52

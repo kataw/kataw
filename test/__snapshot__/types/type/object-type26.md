@@ -71,13 +71,8 @@ type a = {[((({a():foo}) => [c|d]))]:string};
                                         "bitwiseAndToken": null,
                                         "type": {
                                             "kind": 288,
+                                            "typeParameters": null,
                                             "arrowTypeParameterList": {
-                                                "kind": 10,
-                                                "flags": 64,
-                                                "start": 24,
-                                                "end": 27
-                                            },
-                                            "arrowToken": {
                                                 "kind": 292,
                                                 "parameters": [
                                                     {
@@ -158,6 +153,12 @@ type a = {[((({a():foo}) => [c|d]))]:string};
                                                 "trailingComma": false,
                                                 "flags": 2097152,
                                                 "start": 13,
+                                                "end": 24
+                                            },
+                                            "arrowToken": {
+                                                "kind": 10,
+                                                "flags": 64,
+                                                "start": 24,
                                                 "end": 27
                                             },
                                             "returnType": {
@@ -223,7 +224,6 @@ type a = {[((({a():foo}) => [c|d]))]:string};
                                                 "start": 27,
                                                 "end": 33
                                             },
-                                            "typeParameters": null,
                                             "flags": 2097152,
                                             "start": 13,
                                             "end": 33

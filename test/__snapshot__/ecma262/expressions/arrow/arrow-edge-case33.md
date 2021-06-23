@@ -95,6 +95,7 @@ let x = (y: any): () => {} => { };
                                 "bitwiseAndToken": null,
                                 "type": {
                                     "kind": 288,
+                                    "typeParameters": null,
                                     "arrowTypeParameterList": {
                                         "kind": 292,
                                         "parameters": [],
@@ -125,7 +126,6 @@ let x = (y: any): () => {} => { };
                                         "start": 23,
                                         "end": 26
                                     },
-                                    "typeParameters": null,
                                     "flags": 2097152,
                                     "start": 17,
                                     "end": 26

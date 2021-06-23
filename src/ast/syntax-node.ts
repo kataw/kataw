@@ -652,6 +652,8 @@ export function tokenToString(node: any): string {
       return 'yield';
     case SyntaxKind.Meta:
       return 'meta';
+    case SyntaxKind.Subtract:
+      return '-';
     default:
       return '';
   }

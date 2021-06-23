@@ -145,116 +145,135 @@ type X<S, A, C, I, R> = (S, A, C, I) => Promise<R>
                 "bitwiseAndToken": null,
                 "type": {
                     "kind": 288,
+                    "typeParameters": null,
                     "arrowTypeParameterList": {
-                        "kind": 10,
-                        "flags": 64,
-                        "start": 36,
-                        "end": 39
-                    },
-                    "arrowToken": {
                         "kind": 292,
                         "parameters": [
                             {
-                                "kind": 149,
+                                "kind": 284,
                                 "ellipsisToken": null,
                                 "name": {
-                                    "kind": 144,
-                                    "typeName": {
-                                        "kind": 134299649,
-                                        "text": "S",
-                                        "rawText": "S",
-                                        "flags": 96,
-                                        "start": 25,
-                                        "end": 26
-                                    },
-                                    "typeParameters": null,
+                                    "kind": 292,
+                                    "parameters": [
+                                        {
+                                            "kind": 284,
+                                            "ellipsisToken": null,
+                                            "name": {
+                                                "kind": 144,
+                                                "typeName": {
+                                                    "kind": 134299649,
+                                                    "text": "S",
+                                                    "rawText": "S",
+                                                    "flags": 96,
+                                                    "start": 25,
+                                                    "end": 26
+                                                },
+                                                "typeParameters": null,
+                                                "flags": 2097152,
+                                                "start": 23,
+                                                "end": 26
+                                            },
+                                            "optionalToken": null,
+                                            "types": null,
+                                            "flags": 2097152,
+                                            "start": 23,
+                                            "end": 26
+                                        },
+                                        {
+                                            "kind": 284,
+                                            "ellipsisToken": null,
+                                            "name": null,
+                                            "optionalToken": null,
+                                            "types": {
+                                                "kind": 144,
+                                                "typeName": {
+                                                    "kind": 134299649,
+                                                    "text": "A",
+                                                    "rawText": "A",
+                                                    "flags": 96,
+                                                    "start": 27,
+                                                    "end": 29
+                                                },
+                                                "typeParameters": null,
+                                                "flags": 2097152,
+                                                "start": 27,
+                                                "end": 29
+                                            },
+                                            "flags": 2097152,
+                                            "start": 27,
+                                            "end": 29
+                                        },
+                                        {
+                                            "kind": 284,
+                                            "ellipsisToken": null,
+                                            "name": null,
+                                            "optionalToken": null,
+                                            "types": {
+                                                "kind": 144,
+                                                "typeName": {
+                                                    "kind": 134299649,
+                                                    "text": "C",
+                                                    "rawText": "C",
+                                                    "flags": 96,
+                                                    "start": 30,
+                                                    "end": 32
+                                                },
+                                                "typeParameters": null,
+                                                "flags": 2097152,
+                                                "start": 30,
+                                                "end": 32
+                                            },
+                                            "flags": 2097152,
+                                            "start": 30,
+                                            "end": 32
+                                        },
+                                        {
+                                            "kind": 284,
+                                            "ellipsisToken": null,
+                                            "name": null,
+                                            "optionalToken": null,
+                                            "types": {
+                                                "kind": 144,
+                                                "typeName": {
+                                                    "kind": 134299649,
+                                                    "text": "I",
+                                                    "rawText": "I",
+                                                    "flags": 96,
+                                                    "start": 33,
+                                                    "end": 35
+                                                },
+                                                "typeParameters": null,
+                                                "flags": 2097152,
+                                                "start": 33,
+                                                "end": 35
+                                            },
+                                            "flags": 2097152,
+                                            "start": 33,
+                                            "end": 35
+                                        }
+                                    ],
+                                    "trailingComma": false,
                                     "flags": 2097152,
                                     "start": 23,
-                                    "end": 26
+                                    "end": 35
                                 },
                                 "optionalToken": null,
                                 "types": null,
                                 "flags": 2097152,
                                 "start": 23,
-                                "end": 26
-                            },
-                            {
-                                "kind": 284,
-                                "ellipsisToken": null,
-                                "name": null,
-                                "optionalToken": null,
-                                "types": {
-                                    "kind": 144,
-                                    "typeName": {
-                                        "kind": 134299649,
-                                        "text": "A",
-                                        "rawText": "A",
-                                        "flags": 96,
-                                        "start": 27,
-                                        "end": 29
-                                    },
-                                    "typeParameters": null,
-                                    "flags": 2097152,
-                                    "start": 27,
-                                    "end": 29
-                                },
-                                "flags": 2097152,
-                                "start": 27,
-                                "end": 29
-                            },
-                            {
-                                "kind": 284,
-                                "ellipsisToken": null,
-                                "name": null,
-                                "optionalToken": null,
-                                "types": {
-                                    "kind": 144,
-                                    "typeName": {
-                                        "kind": 134299649,
-                                        "text": "C",
-                                        "rawText": "C",
-                                        "flags": 96,
-                                        "start": 30,
-                                        "end": 32
-                                    },
-                                    "typeParameters": null,
-                                    "flags": 2097152,
-                                    "start": 30,
-                                    "end": 32
-                                },
-                                "flags": 2097152,
-                                "start": 30,
-                                "end": 32
-                            },
-                            {
-                                "kind": 284,
-                                "ellipsisToken": null,
-                                "name": null,
-                                "optionalToken": null,
-                                "types": {
-                                    "kind": 144,
-                                    "typeName": {
-                                        "kind": 134299649,
-                                        "text": "I",
-                                        "rawText": "I",
-                                        "flags": 96,
-                                        "start": 33,
-                                        "end": 35
-                                    },
-                                    "typeParameters": null,
-                                    "flags": 2097152,
-                                    "start": 33,
-                                    "end": 35
-                                },
-                                "flags": 2097152,
-                                "start": 33,
-                                "end": 35
+                                "end": 36
                             }
                         ],
                         "trailingComma": false,
                         "flags": 2097152,
                         "start": 23,
-                        "end": 35
+                        "end": 36
+                    },
+                    "arrowToken": {
+                        "kind": 10,
+                        "flags": 64,
+                        "start": 36,
+                        "end": 39
                     },
                     "returnType": {
                         "kind": 139,
@@ -316,7 +335,6 @@ type X<S, A, C, I, R> = (S, A, C, I) => Promise<R>
                         "start": 39,
                         "end": 50
                     },
-                    "typeParameters": null,
                     "flags": 2097152,
                     "start": 23,
                     "end": 50

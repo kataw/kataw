@@ -49,17 +49,12 @@ var a: (number: number) => number = (number) => { return 123; }
                             "bitwiseAndToken": null,
                             "type": {
                                 "kind": 288,
+                                "typeParameters": null,
                                 "arrowTypeParameterList": {
-                                    "kind": 10,
-                                    "flags": 64,
-                                    "start": 23,
-                                    "end": 26
-                                },
-                                "arrowToken": {
                                     "kind": 292,
                                     "parameters": [
                                         {
-                                            "kind": 149,
+                                            "kind": 284,
                                             "ellipsisToken": null,
                                             "name": {
                                                 "kind": 134299649,
@@ -94,6 +89,12 @@ var a: (number: number) => number = (number) => { return 123; }
                                     "start": 6,
                                     "end": 22
                                 },
+                                "arrowToken": {
+                                    "kind": 10,
+                                    "flags": 64,
+                                    "start": 23,
+                                    "end": 26
+                                },
                                 "returnType": {
                                     "kind": 139,
                                     "bitwiseOrToken": null,
@@ -108,7 +109,6 @@ var a: (number: number) => number = (number) => { return 123; }
                                     "start": 26,
                                     "end": 33
                                 },
-                                "typeParameters": null,
                                 "flags": 2097152,
                                 "start": 6,
                                 "end": 33

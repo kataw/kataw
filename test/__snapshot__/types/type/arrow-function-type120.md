@@ -54,13 +54,8 @@ type a = (((| x )=> T) => T);
                     "kind": 290,
                     "type": {
                         "kind": 288,
+                        "typeParameters": null,
                         "arrowTypeParameterList": {
-                            "kind": 10,
-                            "flags": 64,
-                            "start": 22,
-                            "end": 25
-                        },
-                        "arrowToken": {
                             "kind": 292,
                             "parameters": [
                                 {
@@ -69,13 +64,8 @@ type a = (((| x )=> T) => T);
                                     "bitwiseAndToken": null,
                                     "type": {
                                         "kind": 288,
+                                        "typeParameters": null,
                                         "arrowTypeParameterList": {
-                                            "kind": 10,
-                                            "flags": 64,
-                                            "start": 17,
-                                            "end": 19
-                                        },
-                                        "arrowToken": {
                                             "kind": 292,
                                             "parameters": [
                                                 {
@@ -110,6 +100,12 @@ type a = (((| x )=> T) => T);
                                             "trailingComma": false,
                                             "flags": 2097152,
                                             "start": 11,
+                                            "end": 17
+                                        },
+                                        "arrowToken": {
+                                            "kind": 10,
+                                            "flags": 64,
+                                            "start": 17,
                                             "end": 19
                                         },
                                         "returnType": {
@@ -135,7 +131,6 @@ type a = (((| x )=> T) => T);
                                             "start": 19,
                                             "end": 21
                                         },
-                                        "typeParameters": null,
                                         "flags": 2097152,
                                         "start": 11,
                                         "end": 21
@@ -148,6 +143,12 @@ type a = (((| x )=> T) => T);
                             "trailingComma": false,
                             "flags": 2097152,
                             "start": 8,
+                            "end": 25
+                        },
+                        "arrowToken": {
+                            "kind": 10,
+                            "flags": 64,
+                            "start": 22,
                             "end": 25
                         },
                         "returnType": {
@@ -173,7 +174,6 @@ type a = (((| x )=> T) => T);
                             "start": 25,
                             "end": 27
                         },
-                        "typeParameters": null,
                         "flags": 2097152,
                         "start": 8,
                         "end": 27

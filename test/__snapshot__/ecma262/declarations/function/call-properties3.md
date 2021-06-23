@@ -222,6 +222,7 @@ function e(x: { (): string; (x: number): string }): () => number {
                 "bitwiseAndToken": null,
                 "type": {
                     "kind": 288,
+                    "typeParameters": null,
                     "arrowTypeParameterList": {
                         "kind": 292,
                         "parameters": [],
@@ -250,7 +251,6 @@ function e(x: { (): string; (x: number): string }): () => number {
                         "start": 57,
                         "end": 64
                     },
-                    "typeParameters": null,
                     "flags": 2097152,
                     "start": 51,
                     "end": 64

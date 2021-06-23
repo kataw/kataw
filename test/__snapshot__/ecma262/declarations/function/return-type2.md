@@ -76,6 +76,7 @@ function x(): |  () => number {}
                 "bitwiseAndToken": null,
                 "type": {
                     "kind": 288,
+                    "typeParameters": null,
                     "arrowTypeParameterList": {
                         "kind": 292,
                         "parameters": [],
@@ -104,7 +105,6 @@ function x(): |  () => number {}
                         "start": 22,
                         "end": 29
                     },
-                    "typeParameters": null,
                     "flags": 2097152,
                     "start": 15,
                     "end": 29

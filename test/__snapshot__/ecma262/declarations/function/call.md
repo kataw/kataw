@@ -237,6 +237,7 @@ function g(x: () => any) {
                             "bitwiseAndToken": null,
                             "type": {
                                 "kind": 288,
+                                "typeParameters": null,
                                 "arrowTypeParameterList": {
                                     "kind": 292,
                                     "parameters": [],
@@ -265,7 +266,6 @@ function g(x: () => any) {
                                     "start": 67,
                                     "end": 71
                                 },
-                                "typeParameters": null,
                                 "flags": 2097152,
                                 "start": 61,
                                 "end": 71

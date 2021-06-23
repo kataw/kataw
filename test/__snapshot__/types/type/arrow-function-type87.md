@@ -53,13 +53,8 @@ type a = (((x | ((y & [((x) => T)]))))) => T;
                 "bitwiseAndToken": null,
                 "type": {
                     "kind": 288,
+                    "typeParameters": null,
                     "arrowTypeParameterList": {
-                        "kind": 10,
-                        "flags": 64,
-                        "start": 39,
-                        "end": 42
-                    },
-                    "arrowToken": {
                         "kind": 292,
                         "parameters": [
                             {
@@ -117,13 +112,8 @@ type a = (((x | ((y & [((x) => T)]))))) => T;
                                                                         "kind": 290,
                                                                         "type": {
                                                                             "kind": 288,
+                                                                            "typeParameters": null,
                                                                             "arrowTypeParameterList": {
-                                                                                "kind": 10,
-                                                                                "flags": 64,
-                                                                                "start": 27,
-                                                                                "end": 30
-                                                                            },
-                                                                            "arrowToken": {
                                                                                 "kind": 292,
                                                                                 "parameters": [
                                                                                     {
@@ -145,6 +135,12 @@ type a = (((x | ((y & [((x) => T)]))))) => T;
                                                                                 "trailingComma": false,
                                                                                 "flags": 2097152,
                                                                                 "start": 23,
+                                                                                "end": 30
+                                                                            },
+                                                                            "arrowToken": {
+                                                                                "kind": 10,
+                                                                                "flags": 64,
+                                                                                "start": 27,
                                                                                 "end": 30
                                                                             },
                                                                             "returnType": {
@@ -170,7 +166,6 @@ type a = (((x | ((y & [((x) => T)]))))) => T;
                                                                                 "start": 30,
                                                                                 "end": 32
                                                                             },
-                                                                            "typeParameters": null,
                                                                             "flags": 2097152,
                                                                             "start": 23,
                                                                             "end": 32
@@ -215,6 +210,12 @@ type a = (((x | ((y & [((x) => T)]))))) => T;
                         "trailingComma": false,
                         "flags": 2097152,
                         "start": 8,
+                        "end": 39
+                    },
+                    "arrowToken": {
+                        "kind": 10,
+                        "flags": 64,
+                        "start": 39,
                         "end": 42
                     },
                     "returnType": {
@@ -240,7 +241,6 @@ type a = (((x | ((y & [((x) => T)]))))) => T;
                         "start": 42,
                         "end": 44
                     },
-                    "typeParameters": null,
                     "flags": 2097152,
                     "start": 8,
                     "end": 44

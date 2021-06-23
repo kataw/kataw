@@ -75,17 +75,12 @@ function foo(callback: (_1:bool, _2:string) => number){}
                             "bitwiseAndToken": null,
                             "type": {
                                 "kind": 288,
+                                "typeParameters": null,
                                 "arrowTypeParameterList": {
-                                    "kind": 10,
-                                    "flags": 64,
-                                    "start": 43,
-                                    "end": 46
-                                },
-                                "arrowToken": {
                                     "kind": 292,
                                     "parameters": [
                                         {
-                                            "kind": 149,
+                                            "kind": 284,
                                             "ellipsisToken": null,
                                             "name": {
                                                 "kind": 134299649,
@@ -159,6 +154,12 @@ function foo(callback: (_1:bool, _2:string) => number){}
                                     "start": 22,
                                     "end": 42
                                 },
+                                "arrowToken": {
+                                    "kind": 10,
+                                    "flags": 64,
+                                    "start": 43,
+                                    "end": 46
+                                },
                                 "returnType": {
                                     "kind": 139,
                                     "bitwiseOrToken": null,
@@ -173,7 +174,6 @@ function foo(callback: (_1:bool, _2:string) => number){}
                                     "start": 46,
                                     "end": 53
                                 },
-                                "typeParameters": null,
                                 "flags": 2097152,
                                 "start": 22,
                                 "end": 53

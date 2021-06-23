@@ -66,13 +66,8 @@ declare var x3: ?(() => (() => number));
                                     "kind": 290,
                                     "type": {
                                         "kind": 288,
+                                        "typeParameters": null,
                                         "arrowTypeParameterList": {
-                                            "kind": 10,
-                                            "flags": 64,
-                                            "start": 20,
-                                            "end": 23
-                                        },
-                                        "arrowToken": {
                                             "kind": 292,
                                             "parameters": [
                                                 []
@@ -80,6 +75,12 @@ declare var x3: ?(() => (() => number));
                                             "trailingComma": false,
                                             "flags": 2097152,
                                             "start": 17,
+                                            "end": 20
+                                        },
+                                        "arrowToken": {
+                                            "kind": 10,
+                                            "flags": 64,
+                                            "start": 20,
                                             "end": 23
                                         },
                                         "returnType": {
@@ -90,13 +91,8 @@ declare var x3: ?(() => (() => number));
                                                 "kind": 290,
                                                 "type": {
                                                     "kind": 288,
+                                                    "typeParameters": null,
                                                     "arrowTypeParameterList": {
-                                                        "kind": 10,
-                                                        "flags": 64,
-                                                        "start": 27,
-                                                        "end": 30
-                                                    },
-                                                    "arrowToken": {
                                                         "kind": 292,
                                                         "parameters": [
                                                             []
@@ -104,6 +100,12 @@ declare var x3: ?(() => (() => number));
                                                         "trailingComma": false,
                                                         "flags": 2097152,
                                                         "start": 23,
+                                                        "end": 27
+                                                    },
+                                                    "arrowToken": {
+                                                        "kind": 10,
+                                                        "flags": 64,
+                                                        "start": 27,
                                                         "end": 30
                                                     },
                                                     "returnType": {
@@ -120,7 +122,6 @@ declare var x3: ?(() => (() => number));
                                                         "start": 30,
                                                         "end": 37
                                                     },
-                                                    "typeParameters": null,
                                                     "flags": 2097152,
                                                     "start": 23,
                                                     "end": 37
@@ -133,7 +134,6 @@ declare var x3: ?(() => (() => number));
                                             "start": 23,
                                             "end": 38
                                         },
-                                        "typeParameters": null,
                                         "flags": 2097152,
                                         "start": 17,
                                         "end": 38

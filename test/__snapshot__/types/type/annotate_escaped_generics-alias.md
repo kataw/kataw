@@ -53,151 +53,6 @@ type Tr = <Return>(() => Pr<Return>) => Return;
                 "bitwiseAndToken": null,
                 "type": {
                     "kind": 288,
-                    "arrowTypeParameterList": {
-                        "kind": 292,
-                        "parameters": [],
-                        "trailingComma": false,
-                        "flags": 2097152,
-                        "start": 18,
-                        "end": 18
-                    },
-                    "arrowToken": null,
-                    "returnType": {
-                        "kind": 139,
-                        "bitwiseOrToken": null,
-                        "bitwiseAndToken": null,
-                        "type": {
-                            "kind": 288,
-                            "arrowTypeParameterList": {
-                                "kind": 10,
-                                "flags": 64,
-                                "start": 36,
-                                "end": 39
-                            },
-                            "arrowToken": {
-                                "kind": 292,
-                                "parameters": [
-                                    {
-                                        "kind": 288,
-                                        "arrowTypeParameterList": {
-                                            "kind": 10,
-                                            "flags": 64,
-                                            "start": 21,
-                                            "end": 24
-                                        },
-                                        "arrowToken": {
-                                            "kind": 292,
-                                            "parameters": [
-                                                []
-                                            ],
-                                            "trailingComma": false,
-                                            "flags": 2097152,
-                                            "start": 18,
-                                            "end": 24
-                                        },
-                                        "returnType": {
-                                            "kind": 139,
-                                            "bitwiseOrToken": null,
-                                            "bitwiseAndToken": null,
-                                            "type": {
-                                                "kind": 144,
-                                                "typeName": {
-                                                    "kind": 134299649,
-                                                    "text": "Pr",
-                                                    "rawText": "Pr",
-                                                    "flags": 96,
-                                                    "start": 24,
-                                                    "end": 27
-                                                },
-                                                "typeParameters": {
-                                                    "kind": 310,
-                                                    "typeInstantiations": {
-                                                        "kind": 309,
-                                                        "types": [
-                                                            {
-                                                                "kind": 139,
-                                                                "bitwiseOrToken": null,
-                                                                "bitwiseAndToken": null,
-                                                                "type": {
-                                                                    "kind": 144,
-                                                                    "typeName": {
-                                                                        "kind": 134299649,
-                                                                        "text": "Return",
-                                                                        "rawText": "Return",
-                                                                        "flags": 96,
-                                                                        "start": 28,
-                                                                        "end": 34
-                                                                    },
-                                                                    "typeParameters": null,
-                                                                    "flags": 2097152,
-                                                                    "start": 28,
-                                                                    "end": 34
-                                                                },
-                                                                "flags": 2097152,
-                                                                "start": 28,
-                                                                "end": 34
-                                                            }
-                                                        ],
-                                                        "trailingComma": false,
-                                                        "flags": 2097152,
-                                                        "start": 28,
-                                                        "end": 34
-                                                    },
-                                                    "flags": 2097152,
-                                                    "start": 27,
-                                                    "end": 35
-                                                },
-                                                "flags": 2097152,
-                                                "start": 24,
-                                                "end": 35
-                                            },
-                                            "flags": 2097152,
-                                            "start": 24,
-                                            "end": 35
-                                        },
-                                        "typeParameters": null,
-                                        "flags": 2097152,
-                                        "start": 18,
-                                        "end": 35
-                                    }
-                                ],
-                                "trailingComma": false,
-                                "flags": 2097152,
-                                "start": 18,
-                                "end": 39
-                            },
-                            "returnType": {
-                                "kind": 139,
-                                "bitwiseOrToken": null,
-                                "bitwiseAndToken": null,
-                                "type": {
-                                    "kind": 144,
-                                    "typeName": {
-                                        "kind": 134299649,
-                                        "text": "Return",
-                                        "rawText": "Return",
-                                        "flags": 96,
-                                        "start": 39,
-                                        "end": 46
-                                    },
-                                    "typeParameters": null,
-                                    "flags": 2097152,
-                                    "start": 39,
-                                    "end": 46
-                                },
-                                "flags": 2097152,
-                                "start": 39,
-                                "end": 46
-                            },
-                            "typeParameters": null,
-                            "flags": 2097152,
-                            "start": 18,
-                            "end": 46
-                        },
-                        "flags": 2097152,
-                        "start": 18,
-                        "end": 46
-                    },
                     "typeParameters": {
                         "kind": 307,
                         "declarations": {
@@ -229,16 +84,128 @@ type Tr = <Return>(() => Pr<Return>) => Return;
                         "start": 9,
                         "end": 18
                     },
+                    "arrowTypeParameterList": {
+                        "kind": 292,
+                        "parameters": [],
+                        "trailingComma": false,
+                        "flags": 2097152,
+                        "start": 19,
+                        "end": 19
+                    },
+                    "arrowToken": null,
+                    "returnType": {
+                        "kind": 139,
+                        "bitwiseOrToken": null,
+                        "bitwiseAndToken": null,
+                        "type": {
+                            "kind": 288,
+                            "typeParameters": null,
+                            "arrowTypeParameterList": {
+                                "kind": 292,
+                                "parameters": [],
+                                "trailingComma": false,
+                                "flags": 2097152,
+                                "start": 20,
+                                "end": 20
+                            },
+                            "arrowToken": {
+                                "kind": 10,
+                                "flags": 64,
+                                "start": 21,
+                                "end": 24
+                            },
+                            "returnType": {
+                                "kind": 139,
+                                "bitwiseOrToken": null,
+                                "bitwiseAndToken": null,
+                                "type": {
+                                    "kind": 144,
+                                    "typeName": {
+                                        "kind": 134299649,
+                                        "text": "Pr",
+                                        "rawText": "Pr",
+                                        "flags": 96,
+                                        "start": 24,
+                                        "end": 27
+                                    },
+                                    "typeParameters": {
+                                        "kind": 310,
+                                        "typeInstantiations": {
+                                            "kind": 309,
+                                            "types": [
+                                                {
+                                                    "kind": 139,
+                                                    "bitwiseOrToken": null,
+                                                    "bitwiseAndToken": null,
+                                                    "type": {
+                                                        "kind": 144,
+                                                        "typeName": {
+                                                            "kind": 134299649,
+                                                            "text": "Return",
+                                                            "rawText": "Return",
+                                                            "flags": 96,
+                                                            "start": 28,
+                                                            "end": 34
+                                                        },
+                                                        "typeParameters": null,
+                                                        "flags": 2097152,
+                                                        "start": 28,
+                                                        "end": 34
+                                                    },
+                                                    "flags": 2097152,
+                                                    "start": 28,
+                                                    "end": 34
+                                                }
+                                            ],
+                                            "trailingComma": false,
+                                            "flags": 2097152,
+                                            "start": 28,
+                                            "end": 34
+                                        },
+                                        "flags": 2097152,
+                                        "start": 27,
+                                        "end": 35
+                                    },
+                                    "flags": 2097152,
+                                    "start": 24,
+                                    "end": 35
+                                },
+                                "flags": 2097152,
+                                "start": 24,
+                                "end": 35
+                            },
+                            "flags": 2097152,
+                            "start": 19,
+                            "end": 35
+                        },
+                        "flags": 2097152,
+                        "start": 19,
+                        "end": 35
+                    },
                     "flags": 2097152,
                     "start": 9,
-                    "end": 46
+                    "end": 35
                 },
                 "flags": 2097152,
                 "start": 9,
-                "end": 46
+                "end": 35
             },
             "flags": 2097152,
             "start": 0,
+            "end": 35
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 134299649,
+                "text": "Return",
+                "rawText": "Return",
+                "flags": 96,
+                "start": 39,
+                "end": 46
+            },
+            "flags": 16,
+            "start": 39,
             "end": 47
         }
     ],
@@ -255,12 +222,13 @@ type Tr = <Return>(() => Pr<Return>) => Return;
 
 ```javascript
 
-
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Expected a `;` - start: 35, end: 36
+✖ Declaration or statement expected - start: 36, end: 39
+
 ```
 

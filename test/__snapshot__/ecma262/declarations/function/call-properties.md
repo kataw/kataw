@@ -228,6 +228,7 @@ function e(x: { (): string; (x: number): string }): () => number {
                 "bitwiseAndToken": null,
                 "type": {
                     "kind": 288,
+                    "typeParameters": null,
                     "arrowTypeParameterList": {
                         "kind": 292,
                         "parameters": [],
@@ -256,7 +257,6 @@ function e(x: { (): string; (x: number): string }): () => number {
                         "start": 111,
                         "end": 118
                     },
-                    "typeParameters": null,
                     "flags": 2097152,
                     "start": 105,
                     "end": 118
@@ -466,6 +466,7 @@ function e(x: { (): string; (x: number): string }): () => number {
                 "bitwiseAndToken": null,
                 "type": {
                     "kind": 288,
+                    "typeParameters": null,
                     "arrowTypeParameterList": {
                         "kind": 292,
                         "parameters": [],
@@ -494,7 +495,6 @@ function e(x: { (): string; (x: number): string }): () => number {
                         "start": 225,
                         "end": 232
                     },
-                    "typeParameters": null,
                     "flags": 2097152,
                     "start": 219,
                     "end": 232

@@ -53,13 +53,8 @@ type a = (((x | ((y & [x]))))) => T;
                 "bitwiseAndToken": null,
                 "type": {
                     "kind": 288,
+                    "typeParameters": null,
                     "arrowTypeParameterList": {
-                        "kind": 10,
-                        "flags": 64,
-                        "start": 30,
-                        "end": 33
-                    },
-                    "arrowToken": {
                         "kind": 292,
                         "parameters": [
                             {
@@ -164,6 +159,12 @@ type a = (((x | ((y & [x]))))) => T;
                         "trailingComma": false,
                         "flags": 2097152,
                         "start": 8,
+                        "end": 30
+                    },
+                    "arrowToken": {
+                        "kind": 10,
+                        "flags": 64,
+                        "start": 30,
                         "end": 33
                     },
                     "returnType": {
@@ -189,7 +190,6 @@ type a = (((x | ((y & [x]))))) => T;
                         "start": 33,
                         "end": 35
                     },
-                    "typeParameters": null,
                     "flags": 2097152,
                     "start": 8,
                     "end": 35

@@ -76,26 +76,45 @@ type X = ({[|(x) =>x&symbol[][x|y]]: string,});
                                         "bitwiseAndToken": null,
                                         "type": {
                                             "kind": 288,
+                                            "typeParameters": null,
                                             "arrowTypeParameterList": {
+                                                "kind": 292,
+                                                "parameters": [
+                                                    {
+                                                        "kind": 284,
+                                                        "ellipsisToken": null,
+                                                        "name": {
+                                                            "kind": 144,
+                                                            "typeName": {
+                                                                "kind": 134299649,
+                                                                "text": "x",
+                                                                "rawText": "x",
+                                                                "flags": 96,
+                                                                "start": 14,
+                                                                "end": 15
+                                                            },
+                                                            "typeParameters": null,
+                                                            "flags": 2097152,
+                                                            "start": 13,
+                                                            "end": 15
+                                                        },
+                                                        "optionalToken": null,
+                                                        "types": null,
+                                                        "flags": 2097152,
+                                                        "start": 13,
+                                                        "end": 16
+                                                    }
+                                                ],
+                                                "trailingComma": false,
+                                                "flags": 2097152,
+                                                "start": 13,
+                                                "end": 16
+                                            },
+                                            "arrowToken": {
                                                 "kind": 10,
                                                 "flags": 64,
                                                 "start": 16,
                                                 "end": 19
-                                            },
-                                            "arrowToken": {
-                                                "kind": 144,
-                                                "typeName": {
-                                                    "kind": 134299649,
-                                                    "text": "x",
-                                                    "rawText": "x",
-                                                    "flags": 96,
-                                                    "start": 14,
-                                                    "end": 15
-                                                },
-                                                "typeParameters": null,
-                                                "flags": 2097152,
-                                                "start": 13,
-                                                "end": 15
                                             },
                                             "returnType": {
                                                 "kind": 139,
@@ -192,7 +211,6 @@ type X = ({[|(x) =>x&symbol[][x|y]]: string,});
                                                 "start": 19,
                                                 "end": 34
                                             },
-                                            "typeParameters": null,
                                             "flags": 2097152,
                                             "start": 13,
                                             "end": 34

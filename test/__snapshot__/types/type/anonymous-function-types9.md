@@ -73,17 +73,12 @@ var f = (x): (x: number) => 123 => 123;
                                 "bitwiseAndToken": null,
                                 "type": {
                                     "kind": 288,
+                                    "typeParameters": null,
                                     "arrowTypeParameterList": {
-                                        "kind": 10,
-                                        "flags": 64,
-                                        "start": 24,
-                                        "end": 27
-                                    },
-                                    "arrowToken": {
                                         "kind": 292,
                                         "parameters": [
                                             {
-                                                "kind": 149,
+                                                "kind": 284,
                                                 "ellipsisToken": null,
                                                 "name": {
                                                     "kind": 134299649,
@@ -118,6 +113,12 @@ var f = (x): (x: number) => 123 => 123;
                                         "start": 12,
                                         "end": 23
                                     },
+                                    "arrowToken": {
+                                        "kind": 10,
+                                        "flags": 64,
+                                        "start": 24,
+                                        "end": 27
+                                    },
                                     "returnType": {
                                         "kind": 139,
                                         "bitwiseOrToken": null,
@@ -133,7 +134,6 @@ var f = (x): (x: number) => 123 => 123;
                                         "start": 27,
                                         "end": 31
                                     },
-                                    "typeParameters": null,
                                     "flags": 2097152,
                                     "start": 12,
                                     "end": 31

@@ -231,17 +231,12 @@ type overloads2 = {
                                 "kind": 144,
                                 "typeName": {
                                     "kind": 288,
+                                    "typeParameters": null,
                                     "arrowTypeParameterList": {
-                                        "kind": 10,
-                                        "flags": 64,
-                                        "start": 79,
-                                        "end": 82
-                                    },
-                                    "arrowToken": {
                                         "kind": 292,
                                         "parameters": [
                                             {
-                                                "kind": 149,
+                                                "kind": 284,
                                                 "ellipsisToken": null,
                                                 "name": {
                                                     "kind": 134299649,
@@ -276,6 +271,12 @@ type overloads2 = {
                                         "start": 66,
                                         "end": 78
                                     },
+                                    "arrowToken": {
+                                        "kind": 10,
+                                        "flags": 64,
+                                        "start": 79,
+                                        "end": 82
+                                    },
                                     "returnType": {
                                         "kind": 139,
                                         "bitwiseOrToken": null,
@@ -290,7 +291,6 @@ type overloads2 = {
                                         "start": 82,
                                         "end": 89
                                     },
-                                    "typeParameters": null,
                                     "flags": 2097152,
                                     "start": 66,
                                     "end": 89
@@ -310,17 +310,12 @@ type overloads2 = {
                                 "kind": 144,
                                 "typeName": {
                                     "kind": 288,
+                                    "typeParameters": null,
                                     "arrowTypeParameterList": {
-                                        "kind": 10,
-                                        "flags": 64,
-                                        "start": 107,
-                                        "end": 110
-                                    },
-                                    "arrowToken": {
                                         "kind": 292,
                                         "parameters": [
                                             {
-                                                "kind": 149,
+                                                "kind": 284,
                                                 "ellipsisToken": null,
                                                 "name": {
                                                     "kind": 134299649,
@@ -355,6 +350,12 @@ type overloads2 = {
                                         "start": 94,
                                         "end": 106
                                     },
+                                    "arrowToken": {
+                                        "kind": 10,
+                                        "flags": 64,
+                                        "start": 107,
+                                        "end": 110
+                                    },
                                     "returnType": {
                                         "kind": 139,
                                         "bitwiseOrToken": null,
@@ -369,7 +370,6 @@ type overloads2 = {
                                         "start": 110,
                                         "end": 117
                                     },
-                                    "typeParameters": null,
                                     "flags": 2097152,
                                     "start": 94,
                                     "end": 117

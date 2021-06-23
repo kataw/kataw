@@ -82,17 +82,36 @@ let x = (): Array<(string) => number> => []
                                                     "bitwiseAndToken": null,
                                                     "type": {
                                                         "kind": 288,
+                                                        "typeParameters": null,
                                                         "arrowTypeParameterList": {
+                                                            "kind": 292,
+                                                            "parameters": [
+                                                                {
+                                                                    "kind": 284,
+                                                                    "ellipsisToken": null,
+                                                                    "name": {
+                                                                        "kind": 134234347,
+                                                                        "flags": 64,
+                                                                        "start": 19,
+                                                                        "end": 25
+                                                                    },
+                                                                    "optionalToken": null,
+                                                                    "types": null,
+                                                                    "flags": 2097152,
+                                                                    "start": 18,
+                                                                    "end": 26
+                                                                }
+                                                            ],
+                                                            "trailingComma": false,
+                                                            "flags": 2097152,
+                                                            "start": 18,
+                                                            "end": 26
+                                                        },
+                                                        "arrowToken": {
                                                             "kind": 10,
                                                             "flags": 64,
                                                             "start": 26,
                                                             "end": 29
-                                                        },
-                                                        "arrowToken": {
-                                                            "kind": 134234347,
-                                                            "flags": 64,
-                                                            "start": 19,
-                                                            "end": 25
                                                         },
                                                         "returnType": {
                                                             "kind": 139,
@@ -108,7 +127,6 @@ let x = (): Array<(string) => number> => []
                                                             "start": 29,
                                                             "end": 36
                                                         },
-                                                        "typeParameters": null,
                                                         "flags": 2097152,
                                                         "start": 18,
                                                         "end": 36

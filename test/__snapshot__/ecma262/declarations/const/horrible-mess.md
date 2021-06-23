@@ -148,17 +148,12 @@ const processArgs =
                                             "bitwiseAndToken": null,
                                             "type": {
                                                 "kind": 288,
+                                                "typeParameters": null,
                                                 "arrowTypeParameterList": {
-                                                    "kind": 10,
-                                                    "flags": 64,
-                                                    "start": 58,
-                                                    "end": 61
-                                                },
-                                                "arrowToken": {
                                                     "kind": 292,
                                                     "parameters": [
                                                         {
-                                                            "kind": 149,
+                                                            "kind": 284,
                                                             "ellipsisToken": null,
                                                             "name": {
                                                                 "kind": 134299649,
@@ -202,6 +197,12 @@ const processArgs =
                                                     "start": 47,
                                                     "end": 57
                                                 },
+                                                "arrowToken": {
+                                                    "kind": 10,
+                                                    "flags": 64,
+                                                    "start": 58,
+                                                    "end": 61
+                                                },
                                                 "returnType": {
                                                     "kind": 139,
                                                     "bitwiseOrToken": null,
@@ -225,7 +226,6 @@ const processArgs =
                                                     "start": 61,
                                                     "end": 64
                                                 },
-                                                "typeParameters": null,
                                                 "flags": 2097152,
                                                 "start": 47,
                                                 "end": 64

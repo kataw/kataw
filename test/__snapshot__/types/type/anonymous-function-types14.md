@@ -72,17 +72,36 @@ type T = Array<(string) => number>
                                     "bitwiseAndToken": null,
                                     "type": {
                                         "kind": 288,
+                                        "typeParameters": null,
                                         "arrowTypeParameterList": {
+                                            "kind": 292,
+                                            "parameters": [
+                                                {
+                                                    "kind": 284,
+                                                    "ellipsisToken": null,
+                                                    "name": {
+                                                        "kind": 134234347,
+                                                        "flags": 64,
+                                                        "start": 16,
+                                                        "end": 22
+                                                    },
+                                                    "optionalToken": null,
+                                                    "types": null,
+                                                    "flags": 2097152,
+                                                    "start": 15,
+                                                    "end": 23
+                                                }
+                                            ],
+                                            "trailingComma": false,
+                                            "flags": 2097152,
+                                            "start": 15,
+                                            "end": 23
+                                        },
+                                        "arrowToken": {
                                             "kind": 10,
                                             "flags": 64,
                                             "start": 23,
                                             "end": 26
-                                        },
-                                        "arrowToken": {
-                                            "kind": 134234347,
-                                            "flags": 64,
-                                            "start": 16,
-                                            "end": 22
                                         },
                                         "returnType": {
                                             "kind": 139,
@@ -98,7 +117,6 @@ type T = Array<(string) => number>
                                             "start": 26,
                                             "end": 33
                                         },
-                                        "typeParameters": null,
                                         "flags": 2097152,
                                         "start": 15,
                                         "end": 33
