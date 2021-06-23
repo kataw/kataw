@@ -33,9 +33,9 @@ export function printSource(root: RootNode): any {
             printer,
             root,
             /* sameIndent */ true,
-            /* newline */ ""
+            /* newline */ ''
           )
-        : "",
+        : '',
       printStatement(root, printer),
       end >= 0
         ? printLeadingComments(
@@ -45,7 +45,7 @@ export function printSource(root: RootNode): any {
             // take a shortcut...
             statements.length !== 0 ? lastOrUndefined(statements).end : end
           )
-        : "",
+        : '',
     ]),
     { printWidth: 80 }
   );
@@ -55,7 +55,11 @@ export function printSource(root: RootNode): any {
 export function printStatementWithComment(
   root: RootNode,
   printer: Printer
-): any {}
+): any {
+  return '';
+}
 
 // Prints CST nodes on statement level without comments
-export function printStatement(root: RootNode, printer: Printer): any {}
+export function printStatement(root: RootNode, printer: Printer): any {
+  return '';
+}

@@ -1,4 +1,5 @@
 import { getLeadingComments } from "../parser/scanner/comments";
+import { concat, line, hardline, softline } from './formatter';
 
 /**
  * The printer interface
@@ -24,13 +25,14 @@ export function printDetachedComments(
   newLine: string
 ) {
   let leadingComments = getLeadingComments(printer.source, node.start);
-  if (!leadingComments) return "";
+  if (!leadingComments) return '';
 
-  let detachedComments = "";
+  let detachedComments = [];
   let currentDetachedCommentInfo: any;
-
-  if (leadingComments) {
-    console.log(leadingComments);
+  for (const comment of leadingComments) {
+    detachedComments.push(
+      concat([printer.source.substring(comment.pos, comment.end), line])
+    );
   }
 
   if (currentDetachedCommentInfo) {
@@ -40,7 +42,8 @@ export function printDetachedComments(
       printer.detachedCommentsInfo = [currentDetachedCommentInfo];
     }
   }
-  return detachedComments;
+
+  return concat(detachedComments);
 }
 
 export function printLeadingComments(printer: Printer, pos: number) {
