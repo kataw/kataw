@@ -1,4 +1,4 @@
-import { getLeadingComments } from "../parser/scanner/comments";
+import { getLeadingComments } from '../parser/scanner/comments';
 import { concat, line, hardline, softline } from './formatter';
 
 /**
@@ -56,12 +56,20 @@ export function printLeadingComments(printer: Printer, pos: number) {
         ? getLeadingCommentsWithoutDetachedComments(printer)
         : getLeadingComments(printer.source, pos);
   }
-
+  if (!leadingComments) return '';
+  let comments = [hardline];
   if (leadingComments && leadingComments.length > 0) {
     for (const comment of leadingComments) {
+      comments.push(
+        concat([
+          hardline,
+          printer.source.substring(comment.pos, comment.end),
+          hardline,
+        ])
+      );
     }
   }
-  return "";
+  return concat(comments);
 }
 
 function getLeadingCommentsWithoutDetachedComments(printer: Printer) {
@@ -76,4 +84,8 @@ function getLeadingCommentsWithoutDetachedComments(printer: Printer) {
   }
 
   return leadingComments;
+}
+
+export function printTrailingComments(printer: Printer, pos: number) {
+  return '';
 }
