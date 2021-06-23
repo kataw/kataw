@@ -11147,11 +11147,11 @@ function parseOpaqueType(
   if (parser.token === SyntaxKind.TypeKeyword) {
     return createOpaqueType(
       declareKeyword,
-      createToken(SyntaxKind.OpaqueKeyword, NodeFlags.NoChildren, pos, parser.curPos),
+      opaqueToken,
       consumeOptToken(parser, context, SyntaxKind.TypeKeyword),
       parseIdentifier(parser, context, Constants.Identifier, DiagnosticCode.Identifier_expected),
       parseTypeParameterDeclaration(parser, context),
-      opaqueToken,
+      consumeOpt(parser, context, SyntaxKind.Colon) ? parseTypeAnnotation(parser, context) : null,
       !declareKeyword && consume(parser, context, SyntaxKind.Assign) ? parseTypeAnnotation(parser, context) : null,
       pos,
       parser.curPos
