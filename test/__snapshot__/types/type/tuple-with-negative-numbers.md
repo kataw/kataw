@@ -30,7 +30,7 @@ type x = [-1n, 0n, 1n];
                 "kind": 24775,
                 "flags": 64,
                 "start": 0,
-                "end": 6
+                "end": 4
             },
             "name": {
                 "kind": 134299649,
@@ -115,7 +115,7 @@ type x = [-1n, 0n, 1n];
                 "start": 8,
                 "end": 19
             },
-            "flags": 2097152,
+            "flags": 64,
             "start": 0,
             "end": 20
         },
@@ -124,9 +124,9 @@ type x = [-1n, 0n, 1n];
             "declareToken": null,
             "typeToken": {
                 "kind": 24775,
-                "flags": 64,
+                "flags": 65,
                 "start": 20,
-                "end": 28
+                "end": 26
             },
             "name": {
                 "kind": 134299649,
@@ -213,7 +213,7 @@ type x = [-1n, 0n, 1n];
                 "start": 30,
                 "end": 44
             },
-            "flags": 2097153,
+            "flags": 65,
             "start": 20,
             "end": 45
         }

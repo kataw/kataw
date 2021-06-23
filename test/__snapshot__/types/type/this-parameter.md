@@ -39,7 +39,7 @@ type ten = {
                 "kind": 24775,
                 "flags": 64,
                 "start": 0,
-                "end": 8
+                "end": 4
             },
             "name": {
                 "kind": 134299649,
@@ -130,7 +130,7 @@ type ten = {
                 "start": 10,
                 "end": 33
             },
-            "flags": 2097152,
+            "flags": 64,
             "start": 0,
             "end": 34
         },
@@ -139,9 +139,9 @@ type ten = {
             "declareToken": null,
             "typeToken": {
                 "kind": 24775,
-                "flags": 64,
+                "flags": 65,
                 "start": 34,
-                "end": 45
+                "end": 39
             },
             "name": {
                 "kind": 134299649,
@@ -262,7 +262,7 @@ type ten = {
                 "start": 47,
                 "end": 81
             },
-            "flags": 2097153,
+            "flags": 65,
             "start": 34,
             "end": 82
         },
@@ -271,9 +271,9 @@ type ten = {
             "declareToken": null,
             "typeToken": {
                 "kind": 24775,
-                "flags": 64,
+                "flags": 65,
                 "start": 82,
-                "end": 93
+                "end": 87
             },
             "name": {
                 "kind": 134299649,
@@ -399,7 +399,7 @@ type ten = {
                 "start": 95,
                 "end": 129
             },
-            "flags": 2097153,
+            "flags": 65,
             "start": 82,
             "end": 130
         },
@@ -408,9 +408,9 @@ type ten = {
             "declareToken": null,
             "typeToken": {
                 "kind": 24775,
-                "flags": 64,
+                "flags": 65,
                 "start": 130,
-                "end": 140
+                "end": 135
             },
             "name": {
                 "kind": 134299649,
@@ -540,7 +540,7 @@ type ten = {
                 "start": 142,
                 "end": 163
             },
-            "flags": 2097153,
+            "flags": 65,
             "start": 130,
             "end": 164
         },
@@ -549,9 +549,9 @@ type ten = {
             "declareToken": null,
             "typeToken": {
                 "kind": 24775,
-                "flags": 64,
+                "flags": 65,
                 "start": 164,
-                "end": 173
+                "end": 169
             },
             "name": {
                 "kind": 134299649,
@@ -1005,7 +1005,7 @@ type ten = {
                 "start": 175,
                 "end": 303
             },
-            "flags": 2097153,
+            "flags": 65,
             "start": 164,
             "end": 304
         }

@@ -30,7 +30,7 @@ type X = (?await:string) => T;
                 "kind": 24775,
                 "flags": 64,
                 "start": 0,
-                "end": 6
+                "end": 4
             },
             "name": {
                 "kind": 134299649,
@@ -96,7 +96,7 @@ type X = (?await:string) => T;
                 "start": 8,
                 "end": 16
             },
-            "flags": 2097152,
+            "flags": 64,
             "start": 0,
             "end": 16
         },

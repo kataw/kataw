@@ -28,7 +28,7 @@ type x = (Record<string, any> | null)[] & { length: 2; }
                 "kind": 24775,
                 "flags": 64,
                 "start": 0,
-                "end": 6
+                "end": 4
             },
             "name": {
                 "kind": 134299649,
@@ -187,7 +187,7 @@ type x = (Record<string, any> | null)[] & { length: 2; }
                 "start": 8,
                 "end": 56
             },
-            "flags": 2097152,
+            "flags": 64,
             "start": 0,
             "end": 56
         }

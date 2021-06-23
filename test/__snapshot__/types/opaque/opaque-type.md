@@ -46,7 +46,12 @@ opaque type ID = string;
                 "end": 14
             },
             "typeParameters": null,
-            "superType": null,
+            "superType": {
+                "kind": 24822,
+                "flags": 64,
+                "start": 0,
+                "end": 6
+            },
             "impltype": {
                 "kind": 139,
                 "bitwiseOrToken": null,

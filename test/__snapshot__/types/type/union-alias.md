@@ -30,7 +30,7 @@ type UnionAlias = 1 | 2 | 3;
                 "kind": 24775,
                 "flags": 64,
                 "start": 0,
-                "end": 15
+                "end": 4
             },
             "name": {
                 "kind": 134299649,
@@ -84,7 +84,7 @@ type UnionAlias = 1 | 2 | 3;
                 "start": 17,
                 "end": 27
             },
-            "flags": 2097152,
+            "flags": 64,
             "start": 0,
             "end": 28
         }

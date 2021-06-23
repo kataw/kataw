@@ -33,7 +33,7 @@ type MyObject<A, B, C> = {
                 "kind": 24775,
                 "flags": 64,
                 "start": 0,
-                "end": 13
+                "end": 4
             },
             "name": {
                 "kind": 134299649,
@@ -268,7 +268,7 @@ type MyObject<A, B, C> = {
                 "start": 24,
                 "end": 64
             },
-            "flags": 2097152,
+            "flags": 64,
             "start": 0,
             "end": 65
         }

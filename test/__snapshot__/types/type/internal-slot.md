@@ -34,7 +34,7 @@ type q = { [[foo]]: X }
                 "kind": 24775,
                 "flags": 64,
                 "start": 0,
-                "end": 6
+                "end": 4
             },
             "name": {
                 "kind": 134299649,
@@ -108,7 +108,7 @@ type q = { [[foo]]: X }
                 "start": 8,
                 "end": 23
             },
-            "flags": 2097152,
+            "flags": 64,
             "start": 0,
             "end": 23
         },
@@ -117,9 +117,9 @@ type q = { [[foo]]: X }
             "declareToken": null,
             "typeToken": {
                 "kind": 24775,
-                "flags": 64,
+                "flags": 65,
                 "start": 23,
-                "end": 31
+                "end": 29
             },
             "name": {
                 "kind": 134299649,
@@ -208,7 +208,7 @@ type q = { [[foo]]: X }
                 "start": 33,
                 "end": 50
             },
-            "flags": 2097153,
+            "flags": 65,
             "start": 23,
             "end": 50
         },
@@ -217,9 +217,9 @@ type q = { [[foo]]: X }
             "declareToken": null,
             "typeToken": {
                 "kind": 24775,
-                "flags": 64,
+                "flags": 65,
                 "start": 50,
-                "end": 58
+                "end": 56
             },
             "name": {
                 "kind": 134299649,
@@ -298,7 +298,7 @@ type q = { [[foo]]: X }
                 "start": 60,
                 "end": 76
             },
-            "flags": 2097153,
+            "flags": 65,
             "start": 50,
             "end": 76
         },
@@ -307,9 +307,9 @@ type q = { [[foo]]: X }
             "declareToken": null,
             "typeToken": {
                 "kind": 24775,
-                "flags": 64,
+                "flags": 65,
                 "start": 76,
-                "end": 84
+                "end": 82
             },
             "name": {
                 "kind": 134299649,
@@ -383,7 +383,7 @@ type q = { [[foo]]: X }
                 "start": 86,
                 "end": 101
             },
-            "flags": 2097153,
+            "flags": 65,
             "start": 76,
             "end": 101
         }

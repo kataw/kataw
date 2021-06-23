@@ -8011,7 +8011,6 @@ function parseArrowFunctionType(parser: ParserState, context: Context): ArrowFun
   consume(parser, context, SyntaxKind.LeftParen);
   const param = parseArrowTypeParameters(parser, context);
   consume(parser, context, SyntaxKind.RightParen);
-  console.log(parser.token === SyntaxKind.LeftParen);
   return createArrowFunctionType(
     param,
     consumeOptToken(parser, context, SyntaxKind.Arrow),
@@ -8673,10 +8672,10 @@ function parseTypeAsIdentifierOrTypeAlias(
   ownLabels: any
 ): TypeAlias | LabelledStatement | ExpressionStatement {
   const pos = parser.curPos;
-  let nodeFlags = parser.nodeFlags | NodeFlags.IsTypeNode;
-  let expr = parseIdentifier(parser, context, Constants.Identifier, DiagnosticCode.Identifier_expected);
+  const typeToken = consumeToken(parser, context, SyntaxKind.TypeKeyword);
+  let nodeFlags = typeToken.flags;
   if (context & Context.OptionsAllowTypes && parser.token & Constants.Identifier) {
-    expr = parseIdentifier(parser, context, Constants.Identifier, DiagnosticCode.Identifier_expected);
+    let expr = parseIdentifier(parser, context, Constants.Identifier, DiagnosticCode.Identifier_expected);
     const typeParameters = parseTypeParameterDeclaration(parser, context);
     const assignToken = consumeToken(
       parser,
@@ -8689,7 +8688,7 @@ function parseTypeAsIdentifierOrTypeAlias(
     parseSemicolon(parser, context);
     return createTypeAlias(
       declareKeyword,
-      createToken(SyntaxKind.TypeKeyword, NodeFlags.NoChildren, pos, expr.end),
+      typeToken,
       expr as Identifier,
       typeParameters,
       assignToken,
@@ -8699,6 +8698,9 @@ function parseTypeAsIdentifierOrTypeAlias(
       parser.curPos
     );
   }
+
+  let expr = createIdentifier('type', 'type', typeToken.start, typeToken.end);
+
   parser.assignable = true;
   if (parser.token === SyntaxKind.Colon) {
     return parseLabelledStatement(
@@ -8721,7 +8723,7 @@ function parseTypeAsIdentifierOrTypeAlias(
       scope,
       /*typeParameters */ null,
       /* returnType */ null,
-      /* params */ createIdentifier('type', 'type', pos, parser.curPos),
+      /* params */ expr,
       /* asyncToken */ null,
       /* nodeFlags */ NodeFlags.ExpressionNode,
       pos
@@ -11141,7 +11143,7 @@ function parseOpaqueType(
   ownLabels: any
 ) {
   const pos = parser.curPos;
-  let expr = parseIdentifier(parser, context, Constants.Identifier, DiagnosticCode.Identifier_expected);
+  const opaqueToken = consumeToken(parser, context, SyntaxKind.OpaqueKeyword);
   if (parser.token === SyntaxKind.TypeKeyword) {
     return createOpaqueType(
       declareKeyword,
@@ -11149,12 +11151,15 @@ function parseOpaqueType(
       consumeOptToken(parser, context, SyntaxKind.TypeKeyword),
       parseIdentifier(parser, context, Constants.Identifier, DiagnosticCode.Identifier_expected),
       parseTypeParameterDeclaration(parser, context),
-      consumeOpt(parser, context, SyntaxKind.Colon) ? parseTypeAnnotation(parser, context) : null,
+      opaqueToken,
       !declareKeyword && consume(parser, context, SyntaxKind.Assign) ? parseTypeAnnotation(parser, context) : null,
       pos,
       parser.curPos
     );
   }
+
+  let expr = createIdentifier('opaque', 'opaque', opaqueToken.start, opaqueToken.end);
+
   parser.assignable = true;
   if (parser.token === SyntaxKind.Colon) {
     return parseLabelledStatement(

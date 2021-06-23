@@ -44,7 +44,7 @@ type T9 = { [param: string]: U };
                 "kind": 24775,
                 "flags": 64,
                 "start": 0,
-                "end": 6
+                "end": 4
             },
             "name": {
                 "kind": 134299649,
@@ -77,7 +77,7 @@ type T9 = { [param: string]: U };
                 "start": 8,
                 "end": 11
             },
-            "flags": 2097152,
+            "flags": 64,
             "start": 0,
             "end": 12
         },
@@ -86,9 +86,9 @@ type T9 = { [param: string]: U };
             "declareToken": null,
             "typeToken": {
                 "kind": 24775,
-                "flags": 64,
+                "flags": 65,
                 "start": 12,
-                "end": 19
+                "end": 17
             },
             "name": {
                 "kind": 134299649,
@@ -121,7 +121,7 @@ type T9 = { [param: string]: U };
                 "start": 21,
                 "end": 24
             },
-            "flags": 2097153,
+            "flags": 65,
             "start": 12,
             "end": 25
         },
@@ -130,9 +130,9 @@ type T9 = { [param: string]: U };
             "declareToken": null,
             "typeToken": {
                 "kind": 24775,
-                "flags": 64,
+                "flags": 65,
                 "start": 25,
-                "end": 33
+                "end": 30
             },
             "name": {
                 "kind": 134299649,
@@ -203,7 +203,7 @@ type T9 = { [param: string]: U };
                 "start": 35,
                 "end": 45
             },
-            "flags": 2097153,
+            "flags": 65,
             "start": 25,
             "end": 46
         },
@@ -212,9 +212,9 @@ type T9 = { [param: string]: U };
             "declareToken": null,
             "typeToken": {
                 "kind": 24775,
-                "flags": 64,
+                "flags": 65,
                 "start": 46,
-                "end": 54
+                "end": 51
             },
             "name": {
                 "kind": 134299649,
@@ -322,7 +322,7 @@ type T9 = { [param: string]: U };
                 "start": 56,
                 "end": 71
             },
-            "flags": 2097153,
+            "flags": 65,
             "start": 46,
             "end": 72
         },
@@ -331,9 +331,9 @@ type T9 = { [param: string]: U };
             "declareToken": null,
             "typeToken": {
                 "kind": 24775,
-                "flags": 64,
+                "flags": 65,
                 "start": 72,
-                "end": 80
+                "end": 77
             },
             "name": {
                 "kind": 134299649,
@@ -446,7 +446,7 @@ type T9 = { [param: string]: U };
                 "start": 82,
                 "end": 97
             },
-            "flags": 2097153,
+            "flags": 65,
             "start": 72,
             "end": 98
         },
@@ -455,9 +455,9 @@ type T9 = { [param: string]: U };
             "declareToken": null,
             "typeToken": {
                 "kind": 24775,
-                "flags": 64,
+                "flags": 65,
                 "start": 98,
-                "end": 106
+                "end": 103
             },
             "name": {
                 "kind": 134299649,
@@ -570,7 +570,7 @@ type T9 = { [param: string]: U };
                 "start": 108,
                 "end": 124
             },
-            "flags": 2097153,
+            "flags": 65,
             "start": 98,
             "end": 125
         },
@@ -579,9 +579,9 @@ type T9 = { [param: string]: U };
             "declareToken": null,
             "typeToken": {
                 "kind": 24775,
-                "flags": 64,
+                "flags": 65,
                 "start": 125,
-                "end": 133
+                "end": 130
             },
             "name": {
                 "kind": 134299649,
@@ -704,7 +704,7 @@ type T9 = { [param: string]: U };
                 "start": 135,
                 "end": 154
             },
-            "flags": 2097153,
+            "flags": 65,
             "start": 125,
             "end": 155
         },
@@ -713,9 +713,9 @@ type T9 = { [param: string]: U };
             "declareToken": null,
             "typeToken": {
                 "kind": 24775,
-                "flags": 64,
+                "flags": 65,
                 "start": 155,
-                "end": 163
+                "end": 160
             },
             "name": {
                 "kind": 134299649,
@@ -797,7 +797,7 @@ type T9 = { [param: string]: U };
                 "start": 165,
                 "end": 183
             },
-            "flags": 2097153,
+            "flags": 65,
             "start": 155,
             "end": 183
         },
@@ -806,9 +806,9 @@ type T9 = { [param: string]: U };
             "declareToken": null,
             "typeToken": {
                 "kind": 24775,
-                "flags": 64,
+                "flags": 65,
                 "start": 183,
-                "end": 191
+                "end": 188
             },
             "name": {
                 "kind": 134299649,
@@ -904,7 +904,7 @@ type T9 = { [param: string]: U };
                 "start": 193,
                 "end": 215
             },
-            "flags": 2097153,
+            "flags": 65,
             "start": 183,
             "end": 215
         },
@@ -913,9 +913,9 @@ type T9 = { [param: string]: U };
             "declareToken": null,
             "typeToken": {
                 "kind": 24775,
-                "flags": 64,
+                "flags": 65,
                 "start": 215,
-                "end": 223
+                "end": 220
             },
             "name": {
                 "kind": 134299649,
@@ -987,7 +987,7 @@ type T9 = { [param: string]: U };
                 "start": 225,
                 "end": 241
             },
-            "flags": 2097153,
+            "flags": 65,
             "start": 215,
             "end": 242
         },
@@ -996,9 +996,9 @@ type T9 = { [param: string]: U };
             "declareToken": null,
             "typeToken": {
                 "kind": 24775,
-                "flags": 64,
+                "flags": 65,
                 "start": 242,
-                "end": 250
+                "end": 247
             },
             "name": {
                 "kind": 134299649,
@@ -1085,7 +1085,7 @@ type T9 = { [param: string]: U };
                 "start": 252,
                 "end": 275
             },
-            "flags": 2097153,
+            "flags": 65,
             "start": 242,
             "end": 276
         }

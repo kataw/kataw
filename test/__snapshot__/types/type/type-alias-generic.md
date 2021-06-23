@@ -30,7 +30,7 @@ type T<U> = U;
                 "kind": 24775,
                 "flags": 64,
                 "start": 0,
-                "end": 6
+                "end": 4
             },
             "name": {
                 "kind": 134299649,
@@ -100,7 +100,7 @@ type T<U> = U;
                 "start": 11,
                 "end": 13
             },
-            "flags": 2097152,
+            "flags": 64,
             "start": 0,
             "end": 14
         }

@@ -30,7 +30,7 @@ type X = {[|(x) =>x&symbol[][x|y]]: string,};
                 "kind": 24775,
                 "flags": 64,
                 "start": 0,
-                "end": 6
+                "end": 4
             },
             "name": {
                 "kind": 134299649,
@@ -241,7 +241,7 @@ type X = {[|(x) =>x&symbol[][x|y]]: string,};
                 "start": 8,
                 "end": 44
             },
-            "flags": 2097152,
+            "flags": 64,
             "start": 0,
             "end": 45
         }

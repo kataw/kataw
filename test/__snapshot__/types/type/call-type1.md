@@ -30,7 +30,7 @@ type Fn2 = <A, B>(A, B) => A | B;
                 "kind": 24775,
                 "flags": 64,
                 "start": 0,
-                "end": 8
+                "end": 4
             },
             "name": {
                 "kind": 134299649,
@@ -217,7 +217,7 @@ type Fn2 = <A, B>(A, B) => A | B;
                 "start": 10,
                 "end": 32
             },
-            "flags": 2097152,
+            "flags": 64,
             "start": 0,
             "end": 33
         }

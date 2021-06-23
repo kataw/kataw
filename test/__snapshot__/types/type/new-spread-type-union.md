@@ -32,7 +32,7 @@ type UnsealedInUnion = Union1 | Union2 | typeof y;
                 "kind": 24775,
                 "flags": 64,
                 "start": 0,
-                "end": 7
+                "end": 4
             },
             "name": {
                 "kind": 134299649,
@@ -198,7 +198,7 @@ type UnsealedInUnion = Union1 | Union2 | typeof y;
                 "start": 9,
                 "end": 26
             },
-            "flags": 2097152,
+            "flags": 64,
             "start": 0,
             "end": 27
         },
@@ -207,9 +207,9 @@ type UnsealedInUnion = Union1 | Union2 | typeof y;
             "declareToken": null,
             "typeToken": {
                 "kind": 24775,
-                "flags": 64,
+                "flags": 65,
                 "start": 27,
-                "end": 49
+                "end": 33
             },
             "name": {
                 "kind": 134299649,
@@ -299,7 +299,7 @@ type UnsealedInUnion = Union1 | Union2 | typeof y;
                 "start": 51,
                 "end": 78
             },
-            "flags": 2097153,
+            "flags": 65,
             "start": 27,
             "end": 79
         }

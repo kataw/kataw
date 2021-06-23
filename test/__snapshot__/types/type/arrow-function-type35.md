@@ -30,7 +30,7 @@ type a = (a[a & b[a|b|c|d|e]][c | d][(x) => T][][][]) => T;
                 "kind": 24775,
                 "flags": 64,
                 "start": 0,
-                "end": 6
+                "end": 4
             },
             "name": {
                 "kind": 134299649,
@@ -426,7 +426,7 @@ type a = (a[a & b[a|b|c|d|e]][c | d][(x) => T][][][]) => T;
                 "start": 8,
                 "end": 58
             },
-            "flags": 2097152,
+            "flags": 64,
             "start": 0,
             "end": 59
         }

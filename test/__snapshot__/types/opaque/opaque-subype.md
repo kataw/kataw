@@ -47,12 +47,23 @@ opaque type Counter: Box<T> = Container<T>;
             },
             "typeParameters": null,
             "superType": {
-                "kind": 139,
-                "bitwiseOrToken": null,
-                "bitwiseAndToken": null,
-                "type": {
-                    "kind": 144,
-                    "typeName": {
+                "kind": 24822,
+                "flags": 64,
+                "start": 0,
+                "end": 6
+            },
+            "impltype": null,
+            "flags": 2097152,
+            "start": 0,
+            "end": 19
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 198,
+                "left": {
+                    "kind": 198,
+                    "left": {
                         "kind": 134299649,
                         "text": "Box",
                         "rawText": "Box",
@@ -60,59 +71,53 @@ opaque type Counter: Box<T> = Container<T>;
                         "start": 20,
                         "end": 24
                     },
-                    "typeParameters": {
-                        "kind": 310,
-                        "typeInstantiations": {
-                            "kind": 309,
-                            "types": [
-                                {
-                                    "kind": 139,
-                                    "bitwiseOrToken": null,
-                                    "bitwiseAndToken": null,
-                                    "type": {
-                                        "kind": 144,
-                                        "typeName": {
-                                            "kind": 134299649,
-                                            "text": "T",
-                                            "rawText": "T",
-                                            "flags": 96,
-                                            "start": 25,
-                                            "end": 26
-                                        },
-                                        "typeParameters": null,
-                                        "flags": 2097152,
-                                        "start": 25,
-                                        "end": 26
-                                    },
-                                    "flags": 2097152,
-                                    "start": 25,
-                                    "end": 26
-                                }
-                            ],
-                            "trailingComma": false,
-                            "flags": 2097152,
-                            "start": 25,
-                            "end": 26
-                        },
-                        "flags": 2097152,
+                    "operatorToken": {
+                        "kind": 536971330,
+                        "flags": 96,
                         "start": 24,
-                        "end": 27
+                        "end": 25
                     },
-                    "flags": 2097152,
+                    "right": {
+                        "kind": 134299649,
+                        "text": "T",
+                        "rawText": "T",
+                        "flags": 96,
+                        "start": 25,
+                        "end": 26
+                    },
+                    "flags": 32,
                     "start": 20,
+                    "end": 26
+                },
+                "operatorToken": {
+                    "kind": 34883,
+                    "flags": 96,
+                    "start": 26,
                     "end": 27
                 },
-                "flags": 2097152,
+                "right": {
+                    "kind": 16637,
+                    "text": "",
+                    "rawText": "",
+                    "flags": 64,
+                    "start": 27,
+                    "end": 27
+                },
+                "flags": 32,
                 "start": 20,
                 "end": 27
             },
-            "impltype": {
-                "kind": 139,
-                "bitwiseOrToken": null,
-                "bitwiseAndToken": null,
-                "type": {
-                    "kind": 144,
-                    "typeName": {
+            "flags": 16,
+            "start": 20,
+            "end": 27
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 198,
+                "left": {
+                    "kind": 198,
+                    "left": {
                         "kind": 134299649,
                         "text": "Container",
                         "rawText": "Container",
@@ -120,60 +125,44 @@ opaque type Counter: Box<T> = Container<T>;
                         "start": 29,
                         "end": 39
                     },
-                    "typeParameters": {
-                        "kind": 310,
-                        "typeInstantiations": {
-                            "kind": 309,
-                            "types": [
-                                {
-                                    "kind": 139,
-                                    "bitwiseOrToken": null,
-                                    "bitwiseAndToken": null,
-                                    "type": {
-                                        "kind": 144,
-                                        "typeName": {
-                                            "kind": 134299649,
-                                            "text": "T",
-                                            "rawText": "T",
-                                            "flags": 96,
-                                            "start": 40,
-                                            "end": 41
-                                        },
-                                        "typeParameters": null,
-                                        "flags": 2097152,
-                                        "start": 40,
-                                        "end": 41
-                                    },
-                                    "flags": 2097152,
-                                    "start": 40,
-                                    "end": 41
-                                }
-                            ],
-                            "trailingComma": false,
-                            "flags": 2097152,
-                            "start": 40,
-                            "end": 41
-                        },
-                        "flags": 2097152,
+                    "operatorToken": {
+                        "kind": 536971330,
+                        "flags": 96,
                         "start": 39,
-                        "end": 42
+                        "end": 40
                     },
-                    "flags": 2097152,
+                    "right": {
+                        "kind": 134299649,
+                        "text": "T",
+                        "rawText": "T",
+                        "flags": 96,
+                        "start": 40,
+                        "end": 41
+                    },
+                    "flags": 32,
                     "start": 29,
+                    "end": 41
+                },
+                "operatorToken": {
+                    "kind": 34883,
+                    "flags": 96,
+                    "start": 41,
                     "end": 42
                 },
-                "flags": 2097152,
+                "right": {
+                    "kind": 16637,
+                    "text": "",
+                    "rawText": "",
+                    "flags": 64,
+                    "start": 42,
+                    "end": 42
+                },
+                "flags": 32,
                 "start": 29,
                 "end": 42
             },
-            "flags": 2097152,
-            "start": 0,
-            "end": 42
-        },
-        {
-            "kind": 168,
             "flags": 16,
-            "start": 42,
+            "start": 29,
             "end": 43
         }
     ],
@@ -190,13 +179,14 @@ opaque type Counter: Box<T> = Container<T>;
 
 ```javascript
 
-
-
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Declaration or statement expected - start: 19, end: 20
+✖ Identifier expected - start: 27, end: 29
+✖ Identifier expected - start: 42, end: 43
+
 ```
 

@@ -30,7 +30,7 @@ type a = (((symbol[{[x]:string}][(((symbol[{[x]:string}][][][] | ((y & [((x) => 
                 "kind": 24775,
                 "flags": 64,
                 "start": 0,
-                "end": 6
+                "end": 4
             },
             "name": {
                 "kind": 134299649,
@@ -945,7 +945,7 @@ type a = (((symbol[{[x]:string}][(((symbol[{[x]:string}][][][] | ((y & [((x) => 
                 "start": 8,
                 "end": 169
             },
-            "flags": 2097152,
+            "flags": 64,
             "start": 0,
             "end": 170
         }

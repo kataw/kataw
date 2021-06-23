@@ -30,7 +30,7 @@ type a = (b[()=> c]) => c;
                 "kind": 24775,
                 "flags": 64,
                 "start": 0,
-                "end": 6
+                "end": 4
             },
             "name": {
                 "kind": 134299649,
@@ -182,7 +182,7 @@ type a = (b[()=> c]) => c;
                 "start": 8,
                 "end": 25
             },
-            "flags": 2097152,
+            "flags": 64,
             "start": 0,
             "end": 26
         }

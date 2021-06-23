@@ -30,7 +30,7 @@ type X = {[(x) =>x]: string, (): string};
                 "kind": 24775,
                 "flags": 64,
                 "start": 0,
-                "end": 6
+                "end": 4
             },
             "name": {
                 "kind": 134299649,
@@ -195,7 +195,7 @@ type X = {[(x) =>x]: string, (): string};
                 "start": 8,
                 "end": 40
             },
-            "flags": 2097152,
+            "flags": 64,
             "start": 0,
             "end": 41
         }

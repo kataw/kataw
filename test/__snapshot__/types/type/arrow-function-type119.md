@@ -29,7 +29,7 @@ type a = (|x) => T;
                 "kind": 24775,
                 "flags": 64,
                 "start": 0,
-                "end": 6
+                "end": 4
             },
             "name": {
                 "kind": 134299649,
@@ -127,7 +127,7 @@ type a = (|x) => T;
                 "start": 8,
                 "end": 18
             },
-            "flags": 2097152,
+            "flags": 64,
             "start": 0,
             "end": 19
         }

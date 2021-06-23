@@ -30,7 +30,7 @@ type a = ([-1] | x | q & (x)) => T;
                 "kind": 24775,
                 "flags": 64,
                 "start": 0,
-                "end": 6
+                "end": 4
             },
             "name": {
                 "kind": 134299649,
@@ -205,7 +205,7 @@ type a = ([-1] | x | q & (x)) => T;
                 "start": 8,
                 "end": 34
             },
-            "flags": 2097152,
+            "flags": 64,
             "start": 0,
             "end": 35
         }

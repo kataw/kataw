@@ -30,7 +30,7 @@ type Foo = (string)
                 "kind": 24775,
                 "flags": 64,
                 "start": 0,
-                "end": 8
+                "end": 4
             },
             "name": {
                 "kind": 134299649,
@@ -67,7 +67,7 @@ type Foo = (string)
                 "start": 10,
                 "end": 19
             },
-            "flags": 2097152,
+            "flags": 64,
             "start": 0,
             "end": 19
         }

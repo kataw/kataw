@@ -30,7 +30,7 @@
                 "kind": 24775,
                 "flags": 64,
                 "start": 0,
-                "end": 7
+                "end": 5
             },
             "name": {
                 "kind": 134299649,
@@ -89,7 +89,7 @@
                 "start": 9,
                 "end": 14
             },
-            "flags": 2097152,
+            "flags": 64,
             "start": 0,
             "end": 15
         }

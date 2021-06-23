@@ -30,7 +30,7 @@ type T = { [[foo]](): X }
                 "kind": 24775,
                 "flags": 64,
                 "start": 0,
-                "end": 6
+                "end": 4
             },
             "name": {
                 "kind": 134299649,
@@ -119,7 +119,7 @@ type T = { [[foo]](): X }
                 "start": 8,
                 "end": 25
             },
-            "flags": 2097152,
+            "flags": 64,
             "start": 0,
             "end": 25
         }

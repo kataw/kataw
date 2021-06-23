@@ -61,7 +61,7 @@ type overloads2 = {
                 "kind": 24775,
                 "flags": 64,
                 "start": 0,
-                "end": 10
+                "end": 4
             },
             "name": {
                 "kind": 134299649,
@@ -185,7 +185,7 @@ type overloads2 = {
                 "start": 12,
                 "end": 42
             },
-            "flags": 2097152,
+            "flags": 64,
             "start": 0,
             "end": 44
         },
@@ -194,9 +194,9 @@ type overloads2 = {
             "declareToken": null,
             "typeToken": {
                 "kind": 24775,
-                "flags": 64,
+                "flags": 65,
                 "start": 44,
-                "end": 60
+                "end": 50
             },
             "name": {
                 "kind": 134299649,
@@ -392,7 +392,7 @@ type overloads2 = {
                 "start": 62,
                 "end": 118
             },
-            "flags": 2097153,
+            "flags": 65,
             "start": 44,
             "end": 120
         },
@@ -401,9 +401,9 @@ type overloads2 = {
             "declareToken": null,
             "typeToken": {
                 "kind": 24775,
-                "flags": 64,
+                "flags": 65,
                 "start": 120,
-                "end": 133
+                "end": 126
             },
             "name": {
                 "kind": 134299649,
@@ -563,7 +563,7 @@ type overloads2 = {
                 "start": 135,
                 "end": 180
             },
-            "flags": 2097153,
+            "flags": 65,
             "start": 120,
             "end": 181
         },
@@ -572,9 +572,9 @@ type overloads2 = {
             "declareToken": null,
             "typeToken": {
                 "kind": 24775,
-                "flags": 64,
+                "flags": 65,
                 "start": 181,
-                "end": 198
+                "end": 187
             },
             "name": {
                 "kind": 134299649,
@@ -734,7 +734,7 @@ type overloads2 = {
                 "start": 200,
                 "end": 245
             },
-            "flags": 2097153,
+            "flags": 65,
             "start": 181,
             "end": 246
         }

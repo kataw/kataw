@@ -680,9 +680,9 @@ type T = { [string]: Class<null> }
             "declareToken": null,
             "typeToken": {
                 "kind": 24775,
-                "flags": 64,
+                "flags": 65,
                 "start": 194,
-                "end": 202
+                "end": 200
             },
             "name": {
                 "kind": 134299649,
@@ -782,7 +782,7 @@ type T = { [string]: Class<null> }
                 "start": 204,
                 "end": 230
             },
-            "flags": 2097153,
+            "flags": 65,
             "start": 194,
             "end": 230
         }

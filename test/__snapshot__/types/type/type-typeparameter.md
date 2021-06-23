@@ -44,7 +44,7 @@ type B = Foo<
                 "kind": 24775,
                 "flags": 64,
                 "start": 0,
-                "end": 7
+                "end": 4
             },
             "name": {
                 "kind": 134299649,
@@ -152,7 +152,7 @@ type B = Foo<
                 "start": 30,
                 "end": 32
             },
-            "flags": 2097152,
+            "flags": 64,
             "start": 0,
             "end": 33
         },
@@ -161,9 +161,9 @@ type B = Foo<
             "declareToken": null,
             "typeToken": {
                 "kind": 24775,
-                "flags": 64,
+                "flags": 65,
                 "start": 33,
-                "end": 42
+                "end": 39
             },
             "name": {
                 "kind": 134299649,
@@ -287,7 +287,7 @@ type B = Foo<
                 "start": 68,
                 "end": 70
             },
-            "flags": 2097153,
+            "flags": 65,
             "start": 33,
             "end": 71
         },
@@ -296,9 +296,9 @@ type B = Foo<
             "declareToken": null,
             "typeToken": {
                 "kind": 24775,
-                "flags": 64,
+                "flags": 65,
                 "start": 71,
-                "end": 80
+                "end": 77
             },
             "name": {
                 "kind": 134299649,
@@ -435,7 +435,7 @@ type B = Foo<
                 "start": 115,
                 "end": 117
             },
-            "flags": 2097153,
+            "flags": 65,
             "start": 71,
             "end": 118
         },
@@ -444,9 +444,9 @@ type B = Foo<
             "declareToken": null,
             "typeToken": {
                 "kind": 24775,
-                "flags": 64,
+                "flags": 65,
                 "start": 118,
-                "end": 126
+                "end": 124
             },
             "name": {
                 "kind": 134299649,
@@ -607,7 +607,7 @@ type B = Foo<
                 "start": 128,
                 "end": 167
             },
-            "flags": 2097153,
+            "flags": 65,
             "start": 118,
             "end": 168
         },
@@ -616,9 +616,9 @@ type B = Foo<
             "declareToken": null,
             "typeToken": {
                 "kind": 24775,
-                "flags": 64,
+                "flags": 65,
                 "start": 168,
-                "end": 176
+                "end": 174
             },
             "name": {
                 "kind": 134299649,
@@ -779,7 +779,7 @@ type B = Foo<
                 "start": 178,
                 "end": 217
             },
-            "flags": 2097153,
+            "flags": 65,
             "start": 168,
             "end": 218
         }

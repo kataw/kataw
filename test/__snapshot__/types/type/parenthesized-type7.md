@@ -30,7 +30,7 @@ type X = (x.y);
                 "kind": 24775,
                 "flags": 64,
                 "start": 0,
-                "end": 6
+                "end": 4
             },
             "name": {
                 "kind": 134299649,
@@ -90,7 +90,7 @@ type X = (x.y);
                 "start": 8,
                 "end": 14
             },
-            "flags": 2097152,
+            "flags": 64,
             "start": 0,
             "end": 15
         }

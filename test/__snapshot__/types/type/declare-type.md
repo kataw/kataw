@@ -35,7 +35,7 @@ declare type bool = any;
                 "kind": 24775,
                 "flags": 64,
                 "start": 7,
-                "end": 17
+                "end": 12
             },
             "name": {
                 "kind": 134299649,
@@ -66,7 +66,7 @@ declare type bool = any;
                 "start": 19,
                 "end": 23
             },
-            "flags": 2101248,
+            "flags": 4160,
             "start": 7,
             "end": 24
         }

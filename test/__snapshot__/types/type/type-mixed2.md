@@ -28,7 +28,7 @@ type X<S, A, C, I, R> = (S, A, C, I) => Promise<R>
                 "kind": 24775,
                 "flags": 64,
                 "start": 0,
-                "end": 6
+                "end": 4
             },
             "name": {
                 "kind": 134299649,
@@ -343,7 +343,7 @@ type X<S, A, C, I, R> = (S, A, C, I) => Promise<R>
                 "start": 23,
                 "end": 50
             },
-            "flags": 2097152,
+            "flags": 64,
             "start": 0,
             "end": 50
         }

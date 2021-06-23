@@ -33,7 +33,7 @@ type T4 = { foo: number, bar: string, ... };
                 "kind": 24775,
                 "flags": 64,
                 "start": 0,
-                "end": 7
+                "end": 4
             },
             "name": {
                 "kind": 134299649,
@@ -104,7 +104,7 @@ type T4 = { foo: number, bar: string, ... };
                 "start": 9,
                 "end": 17
             },
-            "flags": 2097152,
+            "flags": 64,
             "start": 0,
             "end": 18
         },
@@ -113,9 +113,9 @@ type T4 = { foo: number, bar: string, ... };
             "declareToken": null,
             "typeToken": {
                 "kind": 24775,
-                "flags": 64,
+                "flags": 65,
                 "start": 18,
-                "end": 26
+                "end": 23
             },
             "name": {
                 "kind": 134299649,
@@ -368,7 +368,7 @@ type T4 = { foo: number, bar: string, ... };
                 "start": 28,
                 "end": 65
             },
-            "flags": 2097153,
+            "flags": 65,
             "start": 18,
             "end": 65
         },
@@ -377,9 +377,9 @@ type T4 = { foo: number, bar: string, ... };
             "declareToken": null,
             "typeToken": {
                 "kind": 24775,
-                "flags": 64,
+                "flags": 65,
                 "start": 65,
-                "end": 73
+                "end": 70
             },
             "name": {
                 "kind": 134299649,
@@ -483,7 +483,7 @@ type T4 = { foo: number, bar: string, ... };
                 "start": 75,
                 "end": 96
             },
-            "flags": 2097153,
+            "flags": 65,
             "start": 65,
             "end": 97
         },
@@ -492,9 +492,9 @@ type T4 = { foo: number, bar: string, ... };
             "declareToken": null,
             "typeToken": {
                 "kind": 24775,
-                "flags": 64,
+                "flags": 65,
                 "start": 97,
-                "end": 105
+                "end": 102
             },
             "name": {
                 "kind": 134299649,
@@ -631,7 +631,7 @@ type T4 = { foo: number, bar: string, ... };
                 "start": 107,
                 "end": 141
             },
-            "flags": 2097153,
+            "flags": 65,
             "start": 97,
             "end": 142
         }

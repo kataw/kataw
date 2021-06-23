@@ -30,7 +30,7 @@ type a = ((x?:string | (x?:string)=> T)=> T) => T;
                 "kind": 24775,
                 "flags": 64,
                 "start": 0,
-                "end": 6
+                "end": 4
             },
             "name": {
                 "kind": 134299649,
@@ -281,7 +281,7 @@ type a = ((x?:string | (x?:string)=> T)=> T) => T;
                 "start": 8,
                 "end": 49
             },
-            "flags": 2097152,
+            "flags": 64,
             "start": 0,
             "end": 50
         }

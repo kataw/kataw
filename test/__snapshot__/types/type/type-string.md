@@ -31,7 +31,7 @@ type T1 = number;
                 "kind": 24775,
                 "flags": 64,
                 "start": 0,
-                "end": 7
+                "end": 4
             },
             "name": {
                 "kind": 134299649,
@@ -62,7 +62,7 @@ type T1 = number;
                 "start": 9,
                 "end": 16
             },
-            "flags": 2097152,
+            "flags": 64,
             "start": 0,
             "end": 17
         },
@@ -71,9 +71,9 @@ type T1 = number;
             "declareToken": null,
             "typeToken": {
                 "kind": 24775,
-                "flags": 64,
+                "flags": 65,
                 "start": 17,
-                "end": 25
+                "end": 22
             },
             "name": {
                 "kind": 134299649,
@@ -104,7 +104,7 @@ type T1 = number;
                 "start": 27,
                 "end": 34
             },
-            "flags": 2097153,
+            "flags": 65,
             "start": 17,
             "end": 35
         }

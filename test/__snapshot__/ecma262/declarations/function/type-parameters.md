@@ -442,9 +442,9 @@ type T = <
             "declareToken": null,
             "typeToken": {
                 "kind": 24775,
-                "flags": 64,
+                "flags": 65,
                 "start": 182,
-                "end": 190
+                "end": 188
             },
             "name": {
                 "kind": 134299649,
@@ -542,7 +542,7 @@ type T = <
                 "start": 192,
                 "end": 220
             },
-            "flags": 2097153,
+            "flags": 65,
             "start": 182,
             "end": 221
         },
@@ -923,9 +923,9 @@ type T = <
             "declareToken": null,
             "typeToken": {
                 "kind": 24775,
-                "flags": 64,
+                "flags": 65,
                 "start": 421,
-                "end": 429
+                "end": 427
             },
             "name": {
                 "kind": 134299649,
@@ -1023,7 +1023,7 @@ type T = <
                 "start": 431,
                 "end": 462
             },
-            "flags": 2097153,
+            "flags": 65,
             "start": 421,
             "end": 463
         }

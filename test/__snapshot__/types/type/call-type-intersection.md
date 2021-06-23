@@ -30,7 +30,7 @@ type X = $Call<(<T>(T) => T) & (<T>(T) => T), A | B>;
                 "kind": 24775,
                 "flags": 64,
                 "start": 0,
-                "end": 6
+                "end": 4
             },
             "name": {
                 "kind": 134299649,
@@ -372,7 +372,7 @@ type X = $Call<(<T>(T) => T) & (<T>(T) => T), A | B>;
                 "start": 8,
                 "end": 52
             },
-            "flags": 2097152,
+            "flags": 64,
             "start": 0,
             "end": 53
         }

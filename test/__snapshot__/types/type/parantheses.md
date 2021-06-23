@@ -32,7 +32,7 @@ type C = (<T>(T) => $Foo<T>)[];
                 "kind": 24775,
                 "flags": 64,
                 "start": 0,
-                "end": 6
+                "end": 4
             },
             "name": {
                 "kind": 134299649,
@@ -365,7 +365,7 @@ type C = (<T>(T) => $Foo<T>)[];
                 "start": 8,
                 "end": 50
             },
-            "flags": 2097152,
+            "flags": 64,
             "start": 0,
             "end": 51
         },
@@ -374,9 +374,9 @@ type C = (<T>(T) => $Foo<T>)[];
             "declareToken": null,
             "typeToken": {
                 "kind": 24775,
-                "flags": 64,
+                "flags": 65,
                 "start": 51,
-                "end": 58
+                "end": 56
             },
             "name": {
                 "kind": 134299649,
@@ -709,7 +709,7 @@ type C = (<T>(T) => $Foo<T>)[];
                 "start": 60,
                 "end": 102
             },
-            "flags": 2097153,
+            "flags": 65,
             "start": 51,
             "end": 103
         },
@@ -718,9 +718,9 @@ type C = (<T>(T) => $Foo<T>)[];
             "declareToken": null,
             "typeToken": {
                 "kind": 24775,
-                "flags": 64,
+                "flags": 65,
                 "start": 103,
-                "end": 110
+                "end": 108
             },
             "name": {
                 "kind": 134299649,
@@ -901,7 +901,7 @@ type C = (<T>(T) => $Foo<T>)[];
                 "start": 112,
                 "end": 134
             },
-            "flags": 2097153,
+            "flags": 65,
             "start": 103,
             "end": 135
         }

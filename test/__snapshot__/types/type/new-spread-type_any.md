@@ -42,7 +42,7 @@ var o3: O3 = (0: mixed); // ok
                 "kind": 24775,
                 "flags": 64,
                 "start": 0,
-                "end": 7
+                "end": 4
             },
             "name": {
                 "kind": 134299649,
@@ -104,7 +104,7 @@ var o3: O3 = (0: mixed); // ok
                 "start": 9,
                 "end": 18
             },
-            "flags": 2097152,
+            "flags": 64,
             "start": 0,
             "end": 19
         },
@@ -257,9 +257,9 @@ var o3: O3 = (0: mixed); // ok
             "declareToken": null,
             "typeToken": {
                 "kind": 24775,
-                "flags": 64,
+                "flags": 65,
                 "start": 63,
-                "end": 78
+                "end": 75
             },
             "name": {
                 "kind": 134299649,
@@ -330,7 +330,7 @@ var o3: O3 = (0: mixed); // ok
                 "start": 80,
                 "end": 92
             },
-            "flags": 2097153,
+            "flags": 65,
             "start": 63,
             "end": 93
         },
@@ -601,9 +601,9 @@ var o3: O3 = (0: mixed); // ok
             "declareToken": null,
             "typeToken": {
                 "kind": 24775,
-                "flags": 64,
+                "flags": 65,
                 "start": 205,
-                "end": 213
+                "end": 210
             },
             "name": {
                 "kind": 134299649,
@@ -674,7 +674,7 @@ var o3: O3 = (0: mixed); // ok
                 "start": 215,
                 "end": 228
             },
-            "flags": 2097153,
+            "flags": 65,
             "start": 205,
             "end": 229
         },

@@ -389,9 +389,9 @@ var stringArr:Array<string> = ['a','b'];
             "declareToken": null,
             "typeToken": {
                 "kind": 24775,
-                "flags": 64,
+                "flags": 65,
                 "start": 119,
-                "end": 130
+                "end": 125
             },
             "name": {
                 "kind": 134299649,
@@ -445,7 +445,7 @@ var stringArr:Array<string> = ['a','b'];
                 "start": 132,
                 "end": 146
             },
-            "flags": 2097153,
+            "flags": 65,
             "start": 119,
             "end": 147
         },

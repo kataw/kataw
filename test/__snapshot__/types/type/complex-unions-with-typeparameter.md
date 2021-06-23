@@ -32,7 +32,7 @@ type ConstantExpr<T> = Expr<Constant> | LiteralExpr<T>;
                 "kind": 24775,
                 "flags": 64,
                 "start": 0,
-                "end": 9
+                "end": 4
             },
             "name": {
                 "kind": 134299649,
@@ -199,7 +199,7 @@ type ConstantExpr<T> = Expr<Constant> | LiteralExpr<T>;
                 "start": 14,
                 "end": 44
             },
-            "flags": 2097152,
+            "flags": 64,
             "start": 0,
             "end": 45
         },
@@ -208,9 +208,9 @@ type ConstantExpr<T> = Expr<Constant> | LiteralExpr<T>;
             "declareToken": null,
             "typeToken": {
                 "kind": 24775,
-                "flags": 64,
+                "flags": 65,
                 "start": 45,
-                "end": 64
+                "end": 51
             },
             "name": {
                 "kind": 134299649,
@@ -377,7 +377,7 @@ type ConstantExpr<T> = Expr<Constant> | LiteralExpr<T>;
                 "start": 69,
                 "end": 101
             },
-            "flags": 2097153,
+            "flags": 65,
             "start": 45,
             "end": 102
         }

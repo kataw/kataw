@@ -30,7 +30,7 @@ type a = (((x | (() => T) => T) => T) => T) => T;
                 "kind": 24775,
                 "flags": 64,
                 "start": 0,
-                "end": 6
+                "end": 4
             },
             "name": {
                 "kind": 134299649,
@@ -321,7 +321,7 @@ type a = (((x | (() => T) => T) => T) => T) => T;
                 "start": 8,
                 "end": 48
             },
-            "flags": 2097152,
+            "flags": 64,
             "start": 0,
             "end": 49
         }

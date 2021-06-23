@@ -82,7 +82,7 @@ type T2 = number;
                 "kind": 24775,
                 "flags": 64,
                 "start": 28,
-                "end": 36
+                "end": 33
             },
             "name": {
                 "kind": 134299649,
@@ -113,7 +113,7 @@ type T2 = number;
                 "start": 38,
                 "end": 45
             },
-            "flags": 2101248,
+            "flags": 4160,
             "start": 28,
             "end": 46
         },
@@ -122,9 +122,9 @@ type T2 = number;
             "declareToken": null,
             "typeToken": {
                 "kind": 24775,
-                "flags": 64,
+                "flags": 65,
                 "start": 46,
-                "end": 55
+                "end": 52
             },
             "name": {
                 "kind": 134299649,
@@ -155,7 +155,7 @@ type T2 = number;
                 "start": 57,
                 "end": 64
             },
-            "flags": 2097153,
+            "flags": 65,
             "start": 46,
             "end": 65
         }

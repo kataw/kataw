@@ -32,7 +32,7 @@ type a = (bj[[c]] & d) => T;
                 "kind": 24775,
                 "flags": 64,
                 "start": 0,
-                "end": 6
+                "end": 4
             },
             "name": {
                 "kind": 134299649,
@@ -192,7 +192,7 @@ type a = (bj[[c]] & d) => T;
                 "start": 8,
                 "end": 29
             },
-            "flags": 2097152,
+            "flags": 64,
             "start": 0,
             "end": 30
         },
@@ -201,9 +201,9 @@ type a = (bj[[c]] & d) => T;
             "declareToken": null,
             "typeToken": {
                 "kind": 24775,
-                "flags": 64,
+                "flags": 65,
                 "start": 30,
-                "end": 38
+                "end": 36
             },
             "name": {
                 "kind": 134299649,
@@ -366,7 +366,7 @@ type a = (bj[[c]] & d) => T;
                 "start": 40,
                 "end": 59
             },
-            "flags": 2097153,
+            "flags": 65,
             "start": 30,
             "end": 60
         }

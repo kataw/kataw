@@ -28,7 +28,7 @@ type A = (b: (B)) => C
                 "kind": 24775,
                 "flags": 64,
                 "start": 0,
-                "end": 6
+                "end": 4
             },
             "name": {
                 "kind": 134299649,
@@ -143,7 +143,7 @@ type A = (b: (B)) => C
                 "start": 8,
                 "end": 22
             },
-            "flags": 2097152,
+            "flags": 64,
             "start": 0,
             "end": 22
         }

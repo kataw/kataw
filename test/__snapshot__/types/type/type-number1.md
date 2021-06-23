@@ -30,7 +30,7 @@ type foo<number> = string;
                 "kind": 24775,
                 "flags": 64,
                 "start": 0,
-                "end": 8
+                "end": 4
             },
             "name": {
                 "kind": 134299649,
@@ -91,7 +91,7 @@ type foo<number> = string;
                 "start": 18,
                 "end": 25
             },
-            "flags": 2097152,
+            "flags": 64,
             "start": 0,
             "end": 26
         }

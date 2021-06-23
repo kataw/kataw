@@ -34,7 +34,7 @@ type A5<S = number, T: ?string = string> = T;
                 "kind": 24775,
                 "flags": 64,
                 "start": 0,
-                "end": 7
+                "end": 4
             },
             "name": {
                 "kind": 134299649,
@@ -117,7 +117,7 @@ type A5<S = number, T: ?string = string> = T;
                 "start": 21,
                 "end": 23
             },
-            "flags": 2097152,
+            "flags": 64,
             "start": 0,
             "end": 24
         },
@@ -126,9 +126,9 @@ type A5<S = number, T: ?string = string> = T;
             "declareToken": null,
             "typeToken": {
                 "kind": 24775,
-                "flags": 64,
+                "flags": 65,
                 "start": 24,
-                "end": 32
+                "end": 29
             },
             "name": {
                 "kind": 134299649,
@@ -211,7 +211,7 @@ type A5<S = number, T: ?string = string> = T;
                 "start": 41,
                 "end": 43
             },
-            "flags": 2097153,
+            "flags": 65,
             "start": 24,
             "end": 44
         },
@@ -220,9 +220,9 @@ type A5<S = number, T: ?string = string> = T;
             "declareToken": null,
             "typeToken": {
                 "kind": 24775,
-                "flags": 64,
+                "flags": 65,
                 "start": 44,
-                "end": 52
+                "end": 49
             },
             "name": {
                 "kind": 134299649,
@@ -330,7 +330,7 @@ type A5<S = number, T: ?string = string> = T;
                 "start": 75,
                 "end": 77
             },
-            "flags": 2097153,
+            "flags": 65,
             "start": 44,
             "end": 78
         },
@@ -339,9 +339,9 @@ type A5<S = number, T: ?string = string> = T;
             "declareToken": null,
             "typeToken": {
                 "kind": 24775,
-                "flags": 64,
+                "flags": 65,
                 "start": 78,
-                "end": 86
+                "end": 83
             },
             "name": {
                 "kind": 134299649,
@@ -465,7 +465,7 @@ type A5<S = number, T: ?string = string> = T;
                 "start": 112,
                 "end": 114
             },
-            "flags": 2097153,
+            "flags": 65,
             "start": 78,
             "end": 115
         },
@@ -474,9 +474,9 @@ type A5<S = number, T: ?string = string> = T;
             "declareToken": null,
             "typeToken": {
                 "kind": 24775,
-                "flags": 64,
+                "flags": 65,
                 "start": 115,
-                "end": 123
+                "end": 120
             },
             "name": {
                 "kind": 134299649,
@@ -613,7 +613,7 @@ type A5<S = number, T: ?string = string> = T;
                 "start": 158,
                 "end": 160
             },
-            "flags": 2097153,
+            "flags": 65,
             "start": 115,
             "end": 161
         }

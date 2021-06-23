@@ -30,7 +30,7 @@ type C = Obj['bar'][foo]['boz'];
                 "kind": 24775,
                 "flags": 64,
                 "start": 0,
-                "end": 6
+                "end": 4
             },
             "name": {
                 "kind": 134299649,
@@ -141,7 +141,7 @@ type C = Obj['bar'][foo]['boz'];
                 "start": 8,
                 "end": 31
             },
-            "flags": 2097152,
+            "flags": 64,
             "start": 0,
             "end": 32
         }
