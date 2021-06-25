@@ -103,8 +103,8 @@ function bar(a = v[1 + 1]) {
                 ],
                 "trailingComma": false,
                 "flags": 34,
-                "start": 12,
-                "end": 26
+                "start": 13,
+                "end": 25
             },
             "contents": {
                 "kind": 216,
@@ -210,8 +210,8 @@ function bar(a = v[1 + 1]) {
                 ],
                 "trailingComma": false,
                 "flags": 34,
-                "start": 44,
-                "end": 58
+                "start": 45,
+                "end": 57
             },
             "contents": {
                 "kind": 216,

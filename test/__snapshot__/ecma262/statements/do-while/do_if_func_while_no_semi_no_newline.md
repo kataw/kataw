@@ -64,8 +64,8 @@ do if(8)function s(){}while(y)
                         "formalParameters": [],
                         "trailingComma": false,
                         "flags": 32,
-                        "start": 18,
-                        "end": 20
+                        "start": 19,
+                        "end": 19
                     },
                     "contents": {
                         "kind": 216,

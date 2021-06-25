@@ -210,8 +210,8 @@ var b: { (): string; (x: number): string } =
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
-                                "start": 55,
-                                "end": 68
+                                "start": 57,
+                                "end": 67
                             },
                             "contents": {
                                 "kind": 216,

@@ -97,8 +97,8 @@ function a({ option1, option2 } = {}) {
                 ],
                 "trailingComma": false,
                 "flags": 34,
-                "start": 10,
-                "end": 37
+                "start": 11,
+                "end": 36
             },
             "contents": {
                 "kind": 216,

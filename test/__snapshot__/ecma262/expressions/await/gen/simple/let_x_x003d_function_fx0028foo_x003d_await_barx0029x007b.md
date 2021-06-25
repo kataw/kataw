@@ -103,8 +103,8 @@ let x = function f(foo = await bar){
                                 ],
                                 "trailingComma": false,
                                 "flags": 34,
-                                "start": 18,
-                                "end": 35
+                                "start": 19,
+                                "end": 34
                             },
                             "contents": {
                                 "kind": 216,

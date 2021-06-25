@@ -57,8 +57,8 @@ function yield(yield) { yield: yield (yield + yield (0)); }
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 14,
-                "end": 21
+                "start": 15,
+                "end": 20
             },
             "contents": {
                 "kind": 216,

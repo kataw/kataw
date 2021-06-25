@@ -62,8 +62,8 @@ async function f(await) {}
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 16,
-                "end": 23
+                "start": 17,
+                "end": 22
             },
             "contents": {
                 "kind": 216,

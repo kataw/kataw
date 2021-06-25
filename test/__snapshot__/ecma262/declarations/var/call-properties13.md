@@ -142,8 +142,8 @@ var d: { (): string } = function (x: number): string { return "hi"; };
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
-                                "start": 32,
-                                "end": 44
+                                "start": 34,
+                                "end": 43
                             },
                             "contents": {
                                 "kind": 216,

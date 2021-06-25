@@ -64,8 +64,8 @@ function getSecurity(level) {
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 20,
-                "end": 27
+                "start": 21,
+                "end": 26
             },
             "contents": {
                 "kind": 216,

@@ -153,8 +153,8 @@
                                         ],
                                         "trailingComma": false,
                                         "flags": 32,
-                                        "start": 34,
-                                        "end": 43
+                                        "start": 35,
+                                        "end": 42
                                     },
                                     "contents": {
                                         "kind": 216,

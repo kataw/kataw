@@ -197,8 +197,8 @@ function b1<A: 'a', B: A>(b: B): void {
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 16,
-                "end": 29
+                "start": 17,
+                "end": 28
             },
             "contents": {
                 "kind": 216,
@@ -468,8 +468,8 @@ function b1<A: 'a', B: A>(b: B): void {
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
-                                "start": 161,
-                                "end": 167
+                                "start": 162,
+                                "end": 166
                             },
                             "contents": {
                                 "kind": 216,
@@ -722,8 +722,8 @@ function b1<A: 'a', B: A>(b: B): void {
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 227,
-                "end": 233
+                "start": 228,
+                "end": 232
             },
             "contents": {
                 "kind": 216,

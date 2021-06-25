@@ -3,10 +3,7 @@
 ## Input
 
 `````js
-a /*1*/ ?
-
-
-      /*1*/ b /*2*/: /*3*/c
+a /*1*/ ? /*2*/ b /*3*/: /*4*/c
 
 `````
 
@@ -43,37 +40,37 @@ a /*1*/ ?
                     "rawText": "b",
                     "flags": 96,
                     "start": 9,
-                    "end": 25
+                    "end": 17
                 },
                 "colonToken": {
                     "kind": 21,
                     "flags": 64,
-                    "start": 25,
-                    "end": 32
+                    "start": 17,
+                    "end": 24
                 },
                 "alternate": {
                     "kind": 134299649,
                     "text": "c",
                     "rawText": "c",
                     "flags": 96,
-                    "start": 32,
-                    "end": 39
+                    "start": 24,
+                    "end": 31
                 },
                 "flags": 32,
                 "start": 0,
-                "end": 39
+                "end": 31
             },
             "flags": 16,
             "start": 0,
-            "end": 39
+            "end": 31
         }
     ],
     "isModule": false,
-    "source": "a /*1*/ ?\n\n\n      /*1*/ b /*2*/: /*3*/c\n",
+    "source": "a /*1*/ ? /*2*/ b /*3*/: /*4*/c\n",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,
-    "end": 40
+    "end": 32
 }
 ```
 
@@ -81,7 +78,7 @@ a /*1*/ ?
 
 ```javascript
 
-a /*1*/ ? /*1*/ b /*2*/ : c;
+a /*1*/ ? b /*3*/ : c;
 ```
 
 ### Diagnostics

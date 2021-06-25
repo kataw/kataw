@@ -91,8 +91,8 @@ function f(b, a, b, a = x) {}
                 ],
                 "trailingComma": false,
                 "flags": 34,
-                "start": 10,
-                "end": 26
+                "start": 11,
+                "end": 25
             },
             "contents": {
                 "kind": 216,

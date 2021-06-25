@@ -45,8 +45,8 @@ function* x() { function* foo(a = 1 + (yield)) {} }
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 11,
-                "end": 13
+                "start": 12,
+                "end": 12
             },
             "contents": {
                 "kind": 216,
@@ -143,8 +143,8 @@ function* x() { function* foo(a = 1 + (yield)) {} }
                                 ],
                                 "trailingComma": false,
                                 "flags": 34,
-                                "start": 29,
-                                "end": 46
+                                "start": 30,
+                                "end": 45
                             },
                             "contents": {
                                 "kind": 216,

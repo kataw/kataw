@@ -101,8 +101,8 @@ const f = async function * (source, block, opts) {
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
-                                "start": 26,
-                                "end": 48
+                                "start": 28,
+                                "end": 47
                             },
                             "contents": {
                                 "kind": 216,
@@ -213,8 +213,8 @@ const f = async function * (source, block, opts) {
                                                                         "formalParameters": [],
                                                                         "trailingComma": false,
                                                                         "flags": 32,
-                                                                        "start": 121,
-                                                                        "end": 124
+                                                                        "start": 123,
+                                                                        "end": 123
                                                                     },
                                                                     "contents": {
                                                                         "kind": 216,

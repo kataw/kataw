@@ -123,8 +123,8 @@ function *f(x = delete ((eval) = f)) {}
                 ],
                 "trailingComma": false,
                 "flags": 34,
-                "start": 11,
-                "end": 36
+                "start": 12,
+                "end": 35
             },
             "contents": {
                 "kind": 216,

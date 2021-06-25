@@ -237,8 +237,8 @@ var callCount = 0;
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
-                                "start": 81,
-                                "end": 86
+                                "start": 82,
+                                "end": 85
                             },
                             "contents": {
                                 "kind": 216,

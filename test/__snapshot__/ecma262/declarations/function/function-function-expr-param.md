@@ -85,8 +85,8 @@ function* foo(a = function* foo() { yield b }) {}
                                 "formalParameters": [],
                                 "trailingComma": false,
                                 "flags": 32,
-                                "start": 31,
-                                "end": 33
+                                "start": 32,
+                                "end": 32
                             },
                             "contents": {
                                 "kind": 216,
@@ -143,8 +143,8 @@ function* foo(a = function* foo() { yield b }) {}
                 ],
                 "trailingComma": false,
                 "flags": 34,
-                "start": 13,
-                "end": 46
+                "start": 14,
+                "end": 45
             },
             "contents": {
                 "kind": 216,

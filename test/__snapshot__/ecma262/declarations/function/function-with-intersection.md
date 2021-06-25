@@ -157,8 +157,8 @@ function x(a: | 1 | 2, b: & 3 & 4): number {}
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 10,
-                "end": 34
+                "start": 11,
+                "end": 33
             },
             "contents": {
                 "kind": 216,

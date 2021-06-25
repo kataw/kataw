@@ -173,8 +173,8 @@ var a: { (x: number): string } = function (x: number): string { return "hi"; };
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
-                                "start": 41,
-                                "end": 53
+                                "start": 43,
+                                "end": 52
                             },
                             "contents": {
                                 "kind": 216,

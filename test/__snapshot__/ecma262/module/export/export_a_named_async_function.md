@@ -59,8 +59,8 @@ export async function f(){}
                     "formalParameters": [],
                     "trailingComma": false,
                     "flags": 32,
-                    "start": 23,
-                    "end": 25
+                    "start": 24,
+                    "end": 24
                 },
                 "contents": {
                     "kind": 216,

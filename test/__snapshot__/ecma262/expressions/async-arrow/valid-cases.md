@@ -1992,8 +1992,8 @@ async a => await 1;
                 ],
                 "trailingComma": false,
                 "flags": 34,
-                "start": 599,
-                "end": 624
+                "start": 600,
+                "end": 623
             },
             "contents": {
                 "kind": 216,

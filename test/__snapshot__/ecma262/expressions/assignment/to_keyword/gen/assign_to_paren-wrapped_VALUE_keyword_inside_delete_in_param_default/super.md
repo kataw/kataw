@@ -141,8 +141,8 @@ function *f(x = delete ((super) = f)) {}
                 ],
                 "trailingComma": false,
                 "flags": 34,
-                "start": 11,
-                "end": 37
+                "start": 12,
+                "end": 36
             },
             "contents": {
                 "kind": 216,

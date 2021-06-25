@@ -205,8 +205,8 @@ var c: { (): string; (x: number): string } =
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
-                                "start": 55,
-                                "end": 67
+                                "start": 57,
+                                "end": 66
                             },
                             "contents": {
                                 "kind": 216,

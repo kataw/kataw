@@ -169,8 +169,8 @@ class x extends y { constructor(){ return async function(a=super[foo]) {}; }}
                                                         ],
                                                         "trailingComma": false,
                                                         "flags": 34,
-                                                        "start": 56,
-                                                        "end": 70
+                                                        "start": 57,
+                                                        "end": 69
                                                     },
                                                     "contents": {
                                                         "kind": 216,

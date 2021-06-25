@@ -53,8 +53,8 @@ function * gen() { function not_gen() { let foo = function*() { try {yield 42} f
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 14,
-                "end": 16
+                "start": 15,
+                "end": 15
             },
             "contents": {
                 "kind": 216,
@@ -87,8 +87,8 @@ function * gen() { function not_gen() { let foo = function*() { try {yield 42} f
                                 "formalParameters": [],
                                 "trailingComma": false,
                                 "flags": 32,
-                                "start": 35,
-                                "end": 37
+                                "start": 36,
+                                "end": 36
                             },
                             "contents": {
                                 "kind": 216,
@@ -140,8 +140,8 @@ function * gen() { function not_gen() { let foo = function*() { try {yield 42} f
                                                                 "formalParameters": [],
                                                                 "trailingComma": false,
                                                                 "flags": 32,
-                                                                "start": 59,
-                                                                "end": 61
+                                                                "start": 60,
+                                                                "end": 60
                                                             },
                                                             "contents": {
                                                                 "kind": 216,

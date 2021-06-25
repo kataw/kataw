@@ -120,8 +120,8 @@ function foo(numVal: any, otherVal: mixed){}
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 12,
-                "end": 42
+                "start": 13,
+                "end": 41
             },
             "contents": {
                 "kind": 216,

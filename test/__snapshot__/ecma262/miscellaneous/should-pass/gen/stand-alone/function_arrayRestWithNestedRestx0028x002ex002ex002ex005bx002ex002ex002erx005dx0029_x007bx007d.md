@@ -102,8 +102,8 @@ function arrayRestWithNestedRest(...[...r]) {}
                 ],
                 "trailingComma": false,
                 "flags": 34,
-                "start": 32,
-                "end": 43
+                "start": 33,
+                "end": 42
             },
             "contents": {
                 "kind": 216,

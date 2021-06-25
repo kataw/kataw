@@ -87,8 +87,8 @@ function f({eval: x}) {}
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 10,
-                "end": 21
+                "start": 11,
+                "end": 20
             },
             "contents": {
                 "kind": 216,

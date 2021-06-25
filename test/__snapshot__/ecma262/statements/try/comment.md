@@ -60,8 +60,8 @@ fn(function f() {
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 10,
-                "end": 12
+                "start": 11,
+                "end": 11
             },
             "contents": {
                 "kind": 216,
@@ -156,8 +156,8 @@ fn(function f() {
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 72,
-                "end": 74
+                "start": 73,
+                "end": 73
             },
             "contents": {
                 "kind": 216,
@@ -272,8 +272,8 @@ fn(function f() {
                                 "formalParameters": [],
                                 "trailingComma": false,
                                 "flags": 32,
-                                "start": 146,
-                                "end": 148
+                                "start": 147,
+                                "end": 147
                             },
                             "contents": {
                                 "kind": 216,

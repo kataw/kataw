@@ -118,8 +118,8 @@ function *f(x = (new) = f) {}
                 ],
                 "trailingComma": false,
                 "flags": 34,
-                "start": 11,
-                "end": 26
+                "start": 12,
+                "end": 25
             },
             "contents": {
                 "kind": 216,

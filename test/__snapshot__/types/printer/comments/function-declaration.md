@@ -112,8 +112,8 @@ function /*1*/ constant/*2*/<T>(value/*3*/: T/*4*/): () => T {
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 29,
-                "end": 59
+                "start": 35,
+                "end": 53
             },
             "contents": {
                 "kind": 216,
@@ -264,8 +264,8 @@ function /*1*/ constant/*2*/<T>(value/*3*/: T/*4*/): () => T {
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 136,
-                "end": 146
+                "start": 137,
+                "end": 145
             },
             "contents": {
                 "kind": 216,
@@ -582,8 +582,8 @@ function /*1*/ constant/*2*/<T>(value/*3*/: T/*4*/): () => T {
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 271,
-                "end": 287
+                "start": 272,
+                "end": 286
             },
             "contents": {
                 "kind": 216,
@@ -791,8 +791,8 @@ function /*1*/ constant/*2*/<T>(value/*3*/: T/*4*/): () => T {
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 327,
-                "end": 402
+                "start": 334,
+                "end": 401
             },
             "contents": {
                 "kind": 216,
@@ -909,8 +909,8 @@ function /*1*/ constant/*2*/<T>(value/*3*/: T/*4*/): () => T {
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 440,
-                "end": 460
+                "start": 441,
+                "end": 454
             },
             "contents": {
                 "kind": 216,
@@ -943,8 +943,8 @@ function /*1*/ constant/*2*/<T>(value/*3*/: T/*4*/): () => T {
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 32,
-                                    "start": 499,
-                                    "end": 506
+                                    "start": 500,
+                                    "end": 500
                                 },
                                 "contents": {
                                     "kind": 216,
@@ -1092,7 +1092,7 @@ function /*1*/ constant/*2*/<T>(value/*3*/: T/*4*/): () => T {
 ```javascript
 /*1*/
 
-function /*2*/ identity /*3*/(): string /*6*/ {
+function /*2*/ identity /*3*/() /*5*/: string /*6*/ {
   return  value; /*7*/
 }
 function  <T >identity():  {
@@ -1101,7 +1101,7 @@ function  <T >identity():  {
 
 function  <T >method():  {}
 function /*1*/ method /*2*/() {}
-function /*1*/  <T >constant /*2*/():  {
+function /*1*/  <T >constant /*2*/() /*4*/:  {
   /*5*/ return /*6*/  function ():  /*9*/ {
     return /*11*/  value; /*12*/
   }; /*13*/

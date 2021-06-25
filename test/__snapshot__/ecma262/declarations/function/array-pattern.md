@@ -78,8 +78,8 @@ async function a(options = {}) {
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 10,
-                "end": 32
+                "start": 11,
+                "end": 31
             },
             "contents": {
                 "kind": 216,
@@ -171,8 +171,8 @@ async function a(options = {}) {
                 ],
                 "trailingComma": false,
                 "flags": 34,
-                "start": 70,
-                "end": 84
+                "start": 71,
+                "end": 83
             },
             "contents": {
                 "kind": 216,

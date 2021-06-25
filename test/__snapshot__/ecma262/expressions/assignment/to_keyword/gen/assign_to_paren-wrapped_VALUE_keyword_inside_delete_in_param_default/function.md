@@ -154,8 +154,8 @@ function *f(x = delete ((function) = f)) {}
                 ],
                 "trailingComma": false,
                 "flags": 34,
-                "start": 11,
-                "end": 40
+                "start": 12,
+                "end": 39
             },
             "contents": {
                 "kind": 216,

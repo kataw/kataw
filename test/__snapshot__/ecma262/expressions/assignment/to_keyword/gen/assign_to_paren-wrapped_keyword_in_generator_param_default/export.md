@@ -85,8 +85,8 @@ function *f(x = (export) = f) {}
                 ],
                 "trailingComma": false,
                 "flags": 34,
-                "start": 11,
-                "end": 23
+                "start": 12,
+                "end": 17
             },
             "contents": {
                 "kind": 216,

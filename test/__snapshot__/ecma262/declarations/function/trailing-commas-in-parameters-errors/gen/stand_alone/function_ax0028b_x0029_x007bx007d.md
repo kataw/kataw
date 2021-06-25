@@ -57,8 +57,8 @@ function  a(b,,) {}
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 11,
-                "end": 15
+                "start": 12,
+                "end": 14
             },
             "contents": {
                 "kind": 216,

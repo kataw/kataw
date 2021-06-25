@@ -310,8 +310,8 @@ declare function foo<TArguments: $ReadOnlyArray<{foo: 'a'}>, TReturn>(
                 ],
                 "trailingComma": true,
                 "flags": 32,
-                "start": 69,
-                "end": 129
+                "start": 70,
+                "end": 125
             },
             "contents": null,
             "returnType": {

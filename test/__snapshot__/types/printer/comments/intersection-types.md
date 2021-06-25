@@ -131,8 +131,8 @@ function method(value: /*1*/A & B & /*2*/ C /*3*/) {
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 15,
-                "end": 50
+                "start": 16,
+                "end": 43
             },
             "contents": {
                 "kind": 216,
@@ -366,7 +366,7 @@ function method(value: /*1*/A & B & /*2*/ C /*3*/) {
 
 ```javascript
 
-function method() {
+function method() /*3*/ {
   var a:  = value;
   var b:  = value; /*4*/
   var c:  = value;

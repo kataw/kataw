@@ -61,8 +61,8 @@ function *f() {
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 24,
-                "end": 26
+                "start": 25,
+                "end": 25
             },
             "contents": {
                 "kind": 216,
@@ -217,8 +217,8 @@ function *f() {
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 88,
-                "end": 90
+                "start": 89,
+                "end": 89
             },
             "contents": {
                 "kind": 216,

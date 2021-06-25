@@ -133,8 +133,8 @@ function f({ __proto__: x, __proto__: y, ...z}) {}
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 10,
-                "end": 47
+                "start": 11,
+                "end": 46
             },
             "contents": {
                 "kind": 216,

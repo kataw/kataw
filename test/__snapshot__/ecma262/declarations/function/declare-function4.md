@@ -160,8 +160,8 @@ declare function bar(config: Config<{foo: 'a'}>) : void
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 20,
-                "end": 48
+                "start": 21,
+                "end": 47
             },
             "contents": null,
             "returnType": {

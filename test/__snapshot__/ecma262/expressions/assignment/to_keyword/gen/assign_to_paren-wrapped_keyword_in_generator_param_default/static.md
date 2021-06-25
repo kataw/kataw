@@ -105,8 +105,8 @@ function *f(x = (static) = f) {}
                 ],
                 "trailingComma": false,
                 "flags": 34,
-                "start": 11,
-                "end": 29
+                "start": 12,
+                "end": 28
             },
             "contents": {
                 "kind": 216,

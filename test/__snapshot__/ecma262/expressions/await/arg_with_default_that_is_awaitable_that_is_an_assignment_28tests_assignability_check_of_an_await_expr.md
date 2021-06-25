@@ -91,8 +91,8 @@ function call(foo=await bar=10){}
                 ],
                 "trailingComma": false,
                 "flags": 34,
-                "start": 13,
-                "end": 31
+                "start": 14,
+                "end": 30
             },
             "contents": {
                 "kind": 216,

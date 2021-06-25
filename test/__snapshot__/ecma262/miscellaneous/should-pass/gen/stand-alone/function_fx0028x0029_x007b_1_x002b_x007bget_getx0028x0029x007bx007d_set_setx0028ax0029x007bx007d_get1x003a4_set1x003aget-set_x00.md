@@ -48,8 +48,8 @@ function f() { 1 + {get get(){}, set set(a){}, get1:4, set1:get-set, } }
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 10,
-                "end": 12
+                "start": 11,
+                "end": 11
             },
             "contents": {
                 "kind": 216,

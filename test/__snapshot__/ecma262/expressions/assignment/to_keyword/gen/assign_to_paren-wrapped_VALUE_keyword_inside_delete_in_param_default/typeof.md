@@ -135,8 +135,8 @@ function *f(x = delete ((typeof) = f)) {}
                 ],
                 "trailingComma": false,
                 "flags": 34,
-                "start": 11,
-                "end": 38
+                "start": 12,
+                "end": 37
             },
             "contents": {
                 "kind": 216,

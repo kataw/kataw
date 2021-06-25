@@ -49,8 +49,8 @@ function w(casecase){y:j:function casecase(){}}
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 10,
-                "end": 20
+                "start": 11,
+                "end": 19
             },
             "contents": {
                 "kind": 216,
@@ -115,8 +115,8 @@ function w(casecase){y:j:function casecase(){}}
                                         "formalParameters": [],
                                         "trailingComma": false,
                                         "flags": 32,
-                                        "start": 42,
-                                        "end": 44
+                                        "start": 43,
+                                        "end": 43
                                     },
                                     "contents": {
                                         "kind": 216,

@@ -70,8 +70,8 @@ async function foo(a, b) { await a + await b };
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 18,
-                "end": 24
+                "start": 19,
+                "end": 23
             },
             "contents": {
                 "kind": 216,

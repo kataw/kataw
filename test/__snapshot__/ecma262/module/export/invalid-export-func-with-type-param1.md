@@ -83,8 +83,8 @@ export default function <T>() {}
                     "formalParameters": [],
                     "trailingComma": false,
                     "flags": 32,
-                    "start": 27,
-                    "end": 29
+                    "start": 28,
+                    "end": 28
                 },
                 "contents": {
                     "kind": 216,

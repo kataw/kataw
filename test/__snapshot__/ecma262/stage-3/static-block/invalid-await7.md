@@ -413,8 +413,8 @@ class C {
                                                         "formalParameters": [],
                                                         "trailingComma": false,
                                                         "flags": 32,
-                                                        "start": 408,
-                                                        "end": 410
+                                                        "start": 409,
+                                                        "end": 409
                                                     },
                                                     "contents": {
                                                         "kind": 216,
@@ -512,8 +512,8 @@ class C {
                                                         "formalParameters": [],
                                                         "trailingComma": false,
                                                         "flags": 32,
-                                                        "start": 606,
-                                                        "end": 609
+                                                        "start": 608,
+                                                        "end": 608
                                                     },
                                                     "contents": {
                                                         "kind": 216,

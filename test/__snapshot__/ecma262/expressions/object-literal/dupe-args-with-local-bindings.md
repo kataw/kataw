@@ -279,8 +279,8 @@ class o {f([b, a], ...b) {}}
                                         "formalParameters": [],
                                         "trailingComma": false,
                                         "flags": 32,
-                                        "start": 57,
-                                        "end": 59
+                                        "start": 58,
+                                        "end": 58
                                     },
                                     "contents": {
                                         "kind": 216,

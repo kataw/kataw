@@ -118,8 +118,8 @@ function f(argument1, {arguments: x, ...z}) {}
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 10,
-                "end": 43
+                "start": 11,
+                "end": 42
             },
             "contents": {
                 "kind": 216,

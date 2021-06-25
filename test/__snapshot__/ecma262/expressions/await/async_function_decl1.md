@@ -83,8 +83,8 @@ async function f(foo = await){}
                 ],
                 "trailingComma": false,
                 "flags": 34,
-                "start": 16,
-                "end": 29
+                "start": 17,
+                "end": 28
             },
             "contents": {
                 "kind": 216,

@@ -154,8 +154,8 @@ var x, y, z; for (x in { x: async function() {} } = z = {});
                                         "formalParameters": [],
                                         "trailingComma": false,
                                         "flags": 32,
-                                        "start": 42,
-                                        "end": 44
+                                        "start": 43,
+                                        "end": 43
                                     },
                                     "contents": {
                                         "kind": 216,

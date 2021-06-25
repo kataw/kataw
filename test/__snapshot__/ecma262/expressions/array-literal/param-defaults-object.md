@@ -100,8 +100,8 @@ function a({x = 10}) {}
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 10,
-                "end": 20
+                "start": 11,
+                "end": 19
             },
             "contents": {
                 "kind": 216,

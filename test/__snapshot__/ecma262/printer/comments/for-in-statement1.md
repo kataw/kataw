@@ -4,6 +4,13 @@
 
 `````js
 for /* comment 1 */ ( /* comment 2 */ a  /* comment 3 */ in /* comment 4 */  b /* comment 5 */ ) /* comment 6 */ ; /* comment 7 */
+
+
+
+/*1*/
+for /*2*/(x /*3*/in /*4*/ y) /*5*/ {}
+
+
 `````
 
 ## Output
@@ -54,14 +61,61 @@ for /* comment 1 */ ( /* comment 2 */ a  /* comment 3 */ in /* comment 4 */  b /
             "flags": 80,
             "start": 0,
             "end": 114
+        },
+        {
+            "kind": 166,
+            "forKeyword": {
+                "kind": 37757017,
+                "flags": 81,
+                "start": 114,
+                "end": 143
+            },
+            "initializer": {
+                "kind": 134299649,
+                "text": "x",
+                "rawText": "x",
+                "flags": 96,
+                "start": 150,
+                "end": 151
+            },
+            "inKeyword": {
+                "kind": 21006388,
+                "flags": 64,
+                "start": 151,
+                "end": 159
+            },
+            "expression": {
+                "kind": 134299649,
+                "text": "y",
+                "rawText": "y",
+                "flags": 96,
+                "start": 159,
+                "end": 167
+            },
+            "statement": {
+                "kind": 124,
+                "block": {
+                    "kind": 249,
+                    "statements": [],
+                    "flags": 16,
+                    "start": 176,
+                    "end": 176
+                },
+                "flags": 16,
+                "start": 168,
+                "end": 177
+            },
+            "flags": 81,
+            "start": 114,
+            "end": 177
         }
     ],
     "isModule": false,
-    "source": "for /* comment 1 */ ( /* comment 2 */ a  /* comment 3 */ in /* comment 4 */  b /* comment 5 */ ) /* comment 6 */ ; /* comment 7 */",
+    "source": "for /* comment 1 */ ( /* comment 2 */ a  /* comment 3 */ in /* comment 4 */  b /* comment 5 */ ) /* comment 6 */ ; /* comment 7 */\n\n\n\n/*1*/\nfor /*2*/(x /*3*/in /*4*/ y) /*5*/ {}\n\n",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,
-    "end": 130
+    "end": 179
 }
 ```
 
@@ -70,6 +124,9 @@ for /* comment 1 */ ( /* comment 2 */ a  /* comment 3 */ in /* comment 4 */  b /
 ```javascript
 
 for /* comment 1 */ (a /* comment 3 */ in b /* comment 5 */); /* comment 7 */
+/*1*/
+for /*2*/ (x /*3*/ in y)
+  {}
 ```
 
 ### Diagnostics

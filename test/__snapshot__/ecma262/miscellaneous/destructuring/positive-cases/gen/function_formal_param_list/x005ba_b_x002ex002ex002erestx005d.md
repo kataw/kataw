@@ -103,8 +103,8 @@ function f([a,b,...rest]) {}
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 10,
-                "end": 25
+                "start": 11,
+                "end": 24
             },
             "contents": {
                 "kind": 216,

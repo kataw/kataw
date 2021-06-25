@@ -58,8 +58,8 @@ export default async function() { };
                     "formalParameters": [],
                     "trailingComma": false,
                     "flags": 32,
-                    "start": 29,
-                    "end": 31
+                    "start": 30,
+                    "end": 30
                 },
                 "contents": {
                     "kind": 216,

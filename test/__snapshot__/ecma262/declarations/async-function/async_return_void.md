@@ -64,8 +64,8 @@ async function foo3(): Promise<string> {
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 19,
-                "end": 21
+                "start": 20,
+                "end": 20
             },
             "contents": {
                 "kind": 216,
@@ -180,8 +180,8 @@ async function foo3(): Promise<string> {
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 73,
-                "end": 75
+                "start": 74,
+                "end": 74
             },
             "contents": {
                 "kind": 216,
@@ -303,8 +303,8 @@ async function foo3(): Promise<string> {
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 137,
-                "end": 139
+                "start": 138,
+                "end": 138
             },
             "contents": {
                 "kind": 216,
@@ -337,8 +337,8 @@ async function foo3(): Promise<string> {
                                 "formalParameters": [],
                                 "trailingComma": false,
                                 "flags": 32,
-                                "start": 173,
-                                "end": 175
+                                "start": 174,
+                                "end": 174
                             },
                             "contents": {
                                 "kind": 216,

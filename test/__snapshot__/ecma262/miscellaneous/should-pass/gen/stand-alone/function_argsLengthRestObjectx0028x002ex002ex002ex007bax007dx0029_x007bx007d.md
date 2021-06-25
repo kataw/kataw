@@ -87,8 +87,8 @@ function argsLengthRestObject(...{a}) {}
                 ],
                 "trailingComma": false,
                 "flags": 34,
-                "start": 29,
-                "end": 37
+                "start": 30,
+                "end": 36
             },
             "contents": {
                 "kind": 216,

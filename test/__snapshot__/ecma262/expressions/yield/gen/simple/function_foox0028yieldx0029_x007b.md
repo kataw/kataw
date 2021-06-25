@@ -57,8 +57,8 @@ function foo(yield) {
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 12,
-                "end": 19
+                "start": 13,
+                "end": 18
             },
             "contents": {
                 "kind": 216,

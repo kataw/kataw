@@ -6797,6 +6797,7 @@ function parseFormalParameterList(parser: ParserState, context: Context, scope: 
     let trailingComma = false;
     let count = 0;
     let ellipsisToken = null;
+    let i = parser.curPos;
     while (parser.token & Constants.FormalParameterList) {
       const pos = parser.curPos;
       if (parser.token === SyntaxKind.ThisKeyword) {
@@ -6911,7 +6912,7 @@ function parseFormalParameterList(parser: ParserState, context: Context, scope: 
       );
     }
 
-    const result = createFormalParameterList(parameters, trailingComma, nodeflags, curpPos, parser.pos);
+    const result = createFormalParameterList(parameters, trailingComma, nodeflags, i, parser.curPos);
     consume(parser, context, SyntaxKind.RightParen, DiagnosticCode.Expected_a_to_match_the_token_here);
     return result;
   }

@@ -100,8 +100,8 @@ function baz(x: boolean) {
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 12,
-                "end": 24
+                "start": 13,
+                "end": 23
             },
             "contents": {
                 "kind": 216,
@@ -415,8 +415,8 @@ function baz(x: boolean) {
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 146,
-                "end": 158
+                "start": 147,
+                "end": 157
             },
             "contents": {
                 "kind": 216,
@@ -590,8 +590,8 @@ function baz(x: boolean) {
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 217,
-                "end": 229
+                "start": 218,
+                "end": 228
             },
             "contents": {
                 "kind": 216,

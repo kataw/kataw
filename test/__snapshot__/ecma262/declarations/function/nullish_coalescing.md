@@ -82,8 +82,8 @@ function g(x: any): string {
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 10,
-                "end": 18
+                "start": 11,
+                "end": 17
             },
             "contents": {
                 "kind": 216,

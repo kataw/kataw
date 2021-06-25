@@ -639,8 +639,8 @@ o = {f(){ function x(){} var x = y; }};
                                                         "formalParameters": [],
                                                         "trailingComma": false,
                                                         "flags": 32,
-                                                        "start": 120,
-                                                        "end": 122
+                                                        "start": 121,
+                                                        "end": 121
                                                     },
                                                     "contents": {
                                                         "kind": 216,
@@ -819,8 +819,8 @@ o = {f(){ function x(){} var x = y; }};
                                                         "formalParameters": [],
                                                         "trailingComma": false,
                                                         "flags": 32,
-                                                        "start": 163,
-                                                        "end": 165
+                                                        "start": 164,
+                                                        "end": 164
                                                     },
                                                     "contents": {
                                                         "kind": 216,
@@ -956,8 +956,8 @@ o = {f(){ function x(){} var x = y; }};
                                                         "formalParameters": [],
                                                         "trailingComma": false,
                                                         "flags": 32,
-                                                        "start": 193,
-                                                        "end": 195
+                                                        "start": 194,
+                                                        "end": 194
                                                     },
                                                     "contents": {
                                                         "kind": 216,
@@ -1136,8 +1136,8 @@ o = {f(){ function x(){} var x = y; }};
                                                         "formalParameters": [],
                                                         "trailingComma": false,
                                                         "flags": 32,
-                                                        "start": 236,
-                                                        "end": 238
+                                                        "start": 237,
+                                                        "end": 237
                                                     },
                                                     "contents": {
                                                         "kind": 216,

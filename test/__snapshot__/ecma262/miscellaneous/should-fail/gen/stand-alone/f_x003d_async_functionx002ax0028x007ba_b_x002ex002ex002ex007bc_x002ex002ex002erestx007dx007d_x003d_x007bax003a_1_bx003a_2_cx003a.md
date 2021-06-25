@@ -323,8 +323,8 @@ f = async function*({a, b, ...{c, ...rest}} = {a: 1, b: 2, c: 3, d: 4, e: 5}) {}
                         ],
                         "trailingComma": false,
                         "flags": 34,
-                        "start": 19,
-                        "end": 77
+                        "start": 20,
+                        "end": 76
                     },
                     "contents": {
                         "kind": 216,

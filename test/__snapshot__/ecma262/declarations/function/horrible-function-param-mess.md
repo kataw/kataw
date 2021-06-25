@@ -245,8 +245,8 @@ function processArgs<A1: {}, A2: {}>(
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 36,
-                "end": 67
+                "start": 37,
+                "end": 65
             },
             "contents": {
                 "kind": 216,

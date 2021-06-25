@@ -86,8 +86,8 @@ function spreadOpt3(r, ...[]){ return spreadTarget(...r); }
                 ],
                 "trailingComma": false,
                 "flags": 34,
-                "start": 19,
-                "end": 29
+                "start": 20,
+                "end": 28
             },
             "contents": {
                 "kind": 216,

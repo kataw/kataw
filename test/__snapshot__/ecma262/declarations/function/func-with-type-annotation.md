@@ -112,8 +112,8 @@ function a<string>(x: string): string {
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 18,
-                "end": 29
+                "start": 19,
+                "end": 28
             },
             "contents": {
                 "kind": 216,

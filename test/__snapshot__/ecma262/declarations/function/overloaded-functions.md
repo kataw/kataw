@@ -89,8 +89,8 @@ declare function three(value :mixed) :boolean;
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 20,
-                "end": 33
+                "start": 21,
+                "end": 32
             },
             "contents": null,
             "returnType": {
@@ -179,8 +179,8 @@ declare function three(value :mixed) :boolean;
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 63,
-                "end": 76
+                "start": 64,
+                "end": 75
             },
             "contents": null,
             "returnType": {
@@ -278,8 +278,8 @@ declare function three(value :mixed) :boolean;
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 108,
-                "end": 122
+                "start": 109,
+                "end": 121
             },
             "contents": null,
             "returnType": {

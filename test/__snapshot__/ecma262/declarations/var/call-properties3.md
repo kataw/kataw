@@ -141,8 +141,8 @@ var z : Object = (x) => "hi"
                                 "formalParameters": [],
                                 "trailingComma": false,
                                 "flags": 32,
-                                "start": 99,
-                                "end": 102
+                                "start": 101,
+                                "end": 101
                             },
                             "contents": {
                                 "kind": 216,
@@ -274,8 +274,8 @@ var z : Object = (x) => "hi"
                                 "formalParameters": [],
                                 "trailingComma": false,
                                 "flags": 32,
-                                "start": 199,
-                                "end": 202
+                                "start": 201,
+                                "end": 201
                             },
                             "contents": {
                                 "kind": 216,
@@ -349,8 +349,8 @@ var z : Object = (x) => "hi"
                                 "formalParameters": [],
                                 "trailingComma": false,
                                 "flags": 32,
-                                "start": 288,
-                                "end": 291
+                                "start": 290,
+                                "end": 290
                             },
                             "contents": {
                                 "kind": 216,

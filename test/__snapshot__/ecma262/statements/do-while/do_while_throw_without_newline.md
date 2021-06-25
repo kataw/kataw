@@ -67,8 +67,8 @@ do throw function (v, h) {
                         ],
                         "trailingComma": false,
                         "flags": 32,
-                        "start": 17,
-                        "end": 24
+                        "start": 19,
+                        "end": 23
                     },
                     "contents": {
                         "kind": 216,

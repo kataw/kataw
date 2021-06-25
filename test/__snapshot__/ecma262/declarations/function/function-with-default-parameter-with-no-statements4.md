@@ -69,8 +69,8 @@ function bar(a = ``) {
                 ],
                 "trailingComma": false,
                 "flags": 34,
-                "start": 12,
-                "end": 20
+                "start": 13,
+                "end": 19
             },
             "contents": {
                 "kind": 216,
@@ -142,8 +142,8 @@ function bar(a = ``) {
                 ],
                 "trailingComma": false,
                 "flags": 34,
-                "start": 38,
-                "end": 46
+                "start": 39,
+                "end": 45
             },
             "contents": {
                 "kind": 216,

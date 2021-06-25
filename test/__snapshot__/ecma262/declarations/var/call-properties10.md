@@ -182,8 +182,8 @@ var g: { (x: string): void } = function(x: mixed) { }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
-                                "start": 39,
-                                "end": 49
+                                "start": 40,
+                                "end": 48
                             },
                             "contents": {
                                 "kind": 216,

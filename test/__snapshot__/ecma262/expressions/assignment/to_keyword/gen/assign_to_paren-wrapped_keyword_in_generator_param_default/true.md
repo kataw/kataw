@@ -103,8 +103,8 @@ function *f(x = (true) = f) {}
                 ],
                 "trailingComma": false,
                 "flags": 34,
-                "start": 11,
-                "end": 27
+                "start": 12,
+                "end": 26
             },
             "contents": {
                 "kind": 216,

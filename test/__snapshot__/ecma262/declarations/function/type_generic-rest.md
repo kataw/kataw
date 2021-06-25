@@ -139,8 +139,8 @@ function remove<A, B>(a: A): [$Rest<A, {p: B}>, B] {
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 21,
-                "end": 27
+                "start": 22,
+                "end": 26
             },
             "contents": {
                 "kind": 216,

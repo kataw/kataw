@@ -45,8 +45,8 @@ async function g(){    function f(foo = [h, {m: t(+await bar)}]){}    }
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 16,
-                "end": 18
+                "start": 17,
+                "end": 17
             },
             "contents": {
                 "kind": 216,
@@ -201,8 +201,8 @@ async function g(){    function f(foo = [h, {m: t(+await bar)}]){}    }
                                 ],
                                 "trailingComma": false,
                                 "flags": 34,
-                                "start": 33,
-                                "end": 64
+                                "start": 34,
+                                "end": 63
                             },
                             "contents": {
                                 "kind": 216,

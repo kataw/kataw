@@ -160,8 +160,8 @@ function* foo(a = {*bar() { yield b }}) {}
                 ],
                 "trailingComma": false,
                 "flags": 34,
-                "start": 13,
-                "end": 39
+                "start": 14,
+                "end": 38
             },
             "contents": {
                 "kind": 216,

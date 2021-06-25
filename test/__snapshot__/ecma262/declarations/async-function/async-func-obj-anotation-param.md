@@ -136,8 +136,8 @@ async function foo({x}: { x: string; }) {}
                 ],
                 "trailingComma": false,
                 "flags": 34,
-                "start": 18,
-                "end": 39
+                "start": 19,
+                "end": 38
             },
             "contents": {
                 "kind": 216,

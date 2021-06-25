@@ -178,8 +178,8 @@ function e(x: { (): string; (x: number): string }): () => number {
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 10,
-                "end": 50
+                "start": 11,
+                "end": 49
             },
             "contents": {
                 "kind": 216,

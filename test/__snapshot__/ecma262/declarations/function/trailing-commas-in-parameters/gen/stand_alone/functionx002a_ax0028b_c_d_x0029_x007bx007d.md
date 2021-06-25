@@ -78,8 +78,8 @@ function* a(b,c,d,) {}
                 ],
                 "trailingComma": true,
                 "flags": 32,
-                "start": 11,
-                "end": 19
+                "start": 12,
+                "end": 18
             },
             "contents": {
                 "kind": 216,

@@ -109,8 +109,8 @@ async function f(x=(await z)=y){}
                 ],
                 "trailingComma": false,
                 "flags": 34,
-                "start": 16,
-                "end": 31
+                "start": 17,
+                "end": 30
             },
             "contents": {
                 "kind": 216,

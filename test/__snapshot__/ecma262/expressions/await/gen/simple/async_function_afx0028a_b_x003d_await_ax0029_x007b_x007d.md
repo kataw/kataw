@@ -99,8 +99,8 @@ async function af(a, b = await a) { }
                 ],
                 "trailingComma": false,
                 "flags": 34,
-                "start": 17,
-                "end": 33
+                "start": 18,
+                "end": 32
             },
             "contents": {
                 "kind": 216,

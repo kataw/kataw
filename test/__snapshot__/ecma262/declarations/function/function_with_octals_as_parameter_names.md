@@ -40,8 +40,8 @@ function foo(001, 003) { "use strict"; }
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 12,
-                "end": 16
+                "start": 13,
+                "end": 13
             },
             "contents": {
                 "kind": 216,

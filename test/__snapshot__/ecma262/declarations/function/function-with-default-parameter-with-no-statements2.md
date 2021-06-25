@@ -83,8 +83,8 @@ function bar(a = console.log) {
                 ],
                 "trailingComma": false,
                 "flags": 34,
-                "start": 12,
-                "end": 29
+                "start": 13,
+                "end": 28
             },
             "contents": {
                 "kind": 216,
@@ -170,8 +170,8 @@ function bar(a = console.log) {
                 ],
                 "trailingComma": false,
                 "flags": 34,
-                "start": 47,
-                "end": 64
+                "start": 48,
+                "end": 63
             },
             "contents": {
                 "kind": 216,

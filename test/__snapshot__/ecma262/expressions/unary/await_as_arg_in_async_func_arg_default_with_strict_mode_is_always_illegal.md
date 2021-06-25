@@ -45,8 +45,8 @@ async function f(){   async function g(x = + await x) { "use strict"; }  }
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 16,
-                "end": 18
+                "start": 17,
+                "end": 17
             },
             "contents": {
                 "kind": 216,
@@ -134,8 +134,8 @@ async function f(){   async function g(x = + await x) { "use strict"; }  }
                                 ],
                                 "trailingComma": false,
                                 "flags": 34,
-                                "start": 38,
-                                "end": 53
+                                "start": 39,
+                                "end": 52
                             },
                             "contents": {
                                 "kind": 216,

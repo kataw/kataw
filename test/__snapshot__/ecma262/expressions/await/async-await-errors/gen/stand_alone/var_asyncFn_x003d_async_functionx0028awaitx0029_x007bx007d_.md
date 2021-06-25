@@ -77,8 +77,8 @@ var asyncFn = async function(await) {};
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
-                                "start": 28,
-                                "end": 35
+                                "start": 29,
+                                "end": 34
                             },
                             "contents": {
                                 "kind": 216,

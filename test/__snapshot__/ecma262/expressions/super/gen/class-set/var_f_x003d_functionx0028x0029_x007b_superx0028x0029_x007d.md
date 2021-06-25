@@ -137,8 +137,8 @@ class C { set x(_) { var f = function() { super(); } } }
                                                                     "formalParameters": [],
                                                                     "trailingComma": false,
                                                                     "flags": 32,
-                                                                    "start": 37,
-                                                                    "end": 39
+                                                                    "start": 38,
+                                                                    "end": 38
                                                                 },
                                                                 "contents": {
                                                                     "kind": 216,

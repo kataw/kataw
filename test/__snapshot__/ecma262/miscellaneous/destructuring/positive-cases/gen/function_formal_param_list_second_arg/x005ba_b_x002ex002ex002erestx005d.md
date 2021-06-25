@@ -111,8 +111,8 @@ function f(argument1, [a,b,...rest]) {}
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 10,
-                "end": 36
+                "start": 11,
+                "end": 35
             },
             "contents": {
                 "kind": 216,

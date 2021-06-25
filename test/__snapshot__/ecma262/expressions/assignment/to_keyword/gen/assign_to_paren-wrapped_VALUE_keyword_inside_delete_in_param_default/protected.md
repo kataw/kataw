@@ -123,8 +123,8 @@ function *f(x = delete ((protected) = f)) {}
                 ],
                 "trailingComma": false,
                 "flags": 34,
-                "start": 11,
-                "end": 41
+                "start": 12,
+                "end": 40
             },
             "contents": {
                 "kind": 216,

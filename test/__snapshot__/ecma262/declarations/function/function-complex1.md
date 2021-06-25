@@ -298,8 +298,8 @@ function w2<A: Array<number>>(x: A, f: (number, ...A) => void) {
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 31,
-                "end": 64
+                "start": 32,
+                "end": 63
             },
             "contents": {
                 "kind": 216,
@@ -826,8 +826,8 @@ function w2<A: Array<number>>(x: A, f: (number, ...A) => void) {
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 186,
-                "end": 219
+                "start": 187,
+                "end": 218
             },
             "contents": {
                 "kind": 216,

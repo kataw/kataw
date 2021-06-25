@@ -117,8 +117,8 @@ function test({...{a}}) {}
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 13,
-                "end": 23
+                "start": 14,
+                "end": 22
             },
             "contents": {
                 "kind": 216,

@@ -137,7 +137,7 @@ function *f(x = (import) = f) {}
                 ],
                 "trailingComma": false,
                 "flags": 34,
-                "start": 11,
+                "start": 12,
                 "end": 32
             },
             "contents": {

@@ -70,8 +70,8 @@
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 36,
-                "end": 86
+                "start": 46,
+                "end": 76
             },
             "contents": {
                 "kind": 216,
@@ -119,7 +119,7 @@
 
 ```javascript
 /* before */
-async function f /* b */() /* g */ {
+async function f /* b */() /* f */ {
 
 } /* after */
 ```

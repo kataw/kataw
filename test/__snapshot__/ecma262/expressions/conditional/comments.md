@@ -249,8 +249,8 @@ c */? foo : bar : bar;
                                         ],
                                         "trailingComma": false,
                                         "flags": 32,
-                                        "start": 74,
-                                        "end": 85
+                                        "start": 75,
+                                        "end": 84
                                     },
                                     "contents": {
                                         "kind": 216,
@@ -423,8 +423,8 @@ c */? foo : bar : bar;
                                         ],
                                         "trailingComma": false,
                                         "flags": 32,
-                                        "start": 182,
-                                        "end": 193
+                                        "start": 183,
+                                        "end": 192
                                     },
                                     "contents": {
                                         "kind": 216,
@@ -685,8 +685,8 @@ c */? foo : bar : bar;
                                         ],
                                         "trailingComma": false,
                                         "flags": 32,
-                                        "start": 329,
-                                        "end": 340
+                                        "start": 330,
+                                        "end": 339
                                     },
                                     "contents": {
                                         "kind": 216,
@@ -859,8 +859,8 @@ c */? foo : bar : bar;
                                         ],
                                         "trailingComma": false,
                                         "flags": 32,
-                                        "start": 437,
-                                        "end": 448
+                                        "start": 438,
+                                        "end": 447
                                     },
                                     "contents": {
                                         "kind": 216,

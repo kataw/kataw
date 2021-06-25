@@ -88,8 +88,8 @@ function five<T>(this: T) {}
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 12,
-                "end": 26
+                "start": 13,
+                "end": 25
             },
             "contents": {
                 "kind": 216,
@@ -175,8 +175,8 @@ function five<T>(this: T) {}
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 43,
-                "end": 60
+                "start": 44,
+                "end": 59
             },
             "contents": {
                 "kind": 216,
@@ -277,8 +277,8 @@ function five<T>(this: T) {}
                 ],
                 "trailingComma": false,
                 "flags": 34,
-                "start": 79,
-                "end": 99
+                "start": 80,
+                "end": 98
             },
             "contents": {
                 "kind": 216,
@@ -395,8 +395,8 @@ function five<T>(this: T) {}
                 ],
                 "trailingComma": false,
                 "flags": 34,
-                "start": 117,
-                "end": 143
+                "start": 118,
+                "end": 142
             },
             "contents": {
                 "kind": 216,
@@ -513,8 +513,8 @@ function five<T>(this: T) {}
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 164,
-                "end": 173
+                "start": 165,
+                "end": 172
             },
             "contents": {
                 "kind": 216,

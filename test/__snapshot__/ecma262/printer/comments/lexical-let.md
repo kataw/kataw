@@ -6,28 +6,28 @@
 let {
 
 /*1*/
-a :/*2*/ b
+a1 :/*2*/ b1
 } = y;
 
 let {
 
 /*1*/
-a = /*2*/ b
-} = y;
+a = /*2*/ addd
+} = y1;
 
 
 let {
 
 /*1*/
-.../*2*/a
+.../*2*/h1
 } = y;;
 
 
 let {
 
 /*1*/
-.../*2*/a /*3*/
-} /*4*/ = /*5 */y;
+.../*2*/ja /*3*/
+} /*4*/ = /*5 */y2;
 
 
 let /* 1*/ {
@@ -36,8 +36,8 @@ let /* 1*/ {
 
 
 /*3*/
-.../*4*/a /*5*/
-} /*6*/ = /*7 */y;
+.../*4*/aaa /*5*/
+} /*6*/ = /*7 */yd;
 
 
 // detached!
@@ -50,8 +50,8 @@ let /* 1*/ {
 
 
 /*3*/
-.../*4*/a /*5*/
-} /*6*/ = /*7 */y;
+.../*4*/a3 /*5*/
+} /*6*/ = /*7 */ady;
 
 `````
 
@@ -86,34 +86,34 @@ let /* 1*/ {
                                         "kind": 329,
                                         "key": {
                                             "kind": 134299649,
-                                            "text": "a",
-                                            "rawText": "a",
+                                            "text": "a1",
+                                            "rawText": "a1",
                                             "flags": 96,
                                             "start": 5,
-                                            "end": 14
+                                            "end": 15
                                         },
                                         "value": {
                                             "kind": 134299649,
-                                            "text": "b",
-                                            "rawText": "b",
+                                            "text": "b1",
+                                            "rawText": "b1",
                                             "flags": 96,
-                                            "start": 16,
-                                            "end": 23
+                                            "start": 17,
+                                            "end": 25
                                         },
                                         "initializer": null,
                                         "flags": 32,
                                         "start": 5,
-                                        "end": 23
+                                        "end": 25
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 33,
                                 "start": 5,
-                                "end": 23
+                                "end": 25
                             },
                             "flags": 32,
                             "start": 3,
-                            "end": 25
+                            "end": 27
                         },
                         "type": null,
                         "initializer": {
@@ -121,29 +121,29 @@ let /* 1*/ {
                             "text": "y",
                             "rawText": "y",
                             "flags": 96,
-                            "start": 27,
-                            "end": 29
+                            "start": 29,
+                            "end": 31
                         },
                         "flags": 16,
                         "start": 3,
-                        "end": 29
+                        "end": 31
                     }
                 ],
                 "flags": 16,
                 "start": 3,
-                "end": 29
+                "end": 31
             },
             "flags": 33554448,
             "start": 0,
-            "end": 30
+            "end": 32
         },
         {
             "kind": 162,
             "lexicalKeyword": {
                 "kind": 41951307,
                 "flags": 81,
-                "start": 30,
-                "end": 35
+                "start": 32,
+                "end": 37
             },
             "binding": {
                 "kind": 151,
@@ -163,62 +163,62 @@ let /* 1*/ {
                                             "text": "a",
                                             "rawText": "a",
                                             "flags": 96,
-                                            "start": 37,
-                                            "end": 46
+                                            "start": 39,
+                                            "end": 48
                                         },
                                         "optionalToken": null,
                                         "type": null,
                                         "right": {
                                             "kind": 134299649,
-                                            "text": "b",
-                                            "rawText": "b",
+                                            "text": "addd",
+                                            "rawText": "addd",
                                             "flags": 96,
-                                            "start": 48,
-                                            "end": 56
+                                            "start": 50,
+                                            "end": 61
                                         },
                                         "flags": 0,
-                                        "start": 37,
-                                        "end": 56
+                                        "start": 39,
+                                        "end": 61
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 33,
-                                "start": 37,
-                                "end": 56
+                                "start": 39,
+                                "end": 61
                             },
                             "flags": 32,
-                            "start": 35,
-                            "end": 58
+                            "start": 37,
+                            "end": 63
                         },
                         "type": null,
                         "initializer": {
                             "kind": 134299649,
-                            "text": "y",
-                            "rawText": "y",
+                            "text": "y1",
+                            "rawText": "y1",
                             "flags": 96,
-                            "start": 60,
-                            "end": 62
+                            "start": 65,
+                            "end": 68
                         },
                         "flags": 16,
-                        "start": 35,
-                        "end": 62
+                        "start": 37,
+                        "end": 68
                     }
                 ],
                 "flags": 17,
-                "start": 35,
-                "end": 62
+                "start": 37,
+                "end": 68
             },
             "flags": 33554448,
-            "start": 30,
-            "end": 63
+            "start": 32,
+            "end": 69
         },
         {
             "kind": 162,
             "lexicalKeyword": {
                 "kind": 41951307,
                 "flags": 81,
-                "start": 63,
-                "end": 69
+                "start": 69,
+                "end": 75
             },
             "binding": {
                 "kind": 151,
@@ -235,33 +235,33 @@ let /* 1*/ {
                                         "ellipsisToken": {
                                             "kind": 524302,
                                             "flags": 65,
-                                            "start": 71,
-                                            "end": 82
+                                            "start": 77,
+                                            "end": 88
                                         },
                                         "left": {
                                             "kind": 134299649,
-                                            "text": "a",
-                                            "rawText": "a",
+                                            "text": "h1",
+                                            "rawText": "h1",
                                             "flags": 96,
-                                            "start": 82,
-                                            "end": 88
+                                            "start": 88,
+                                            "end": 95
                                         },
                                         "optionalToken": null,
                                         "type": null,
                                         "right": null,
                                         "flags": 0,
-                                        "start": 71,
-                                        "end": 88
+                                        "start": 77,
+                                        "end": 95
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 33,
-                                "start": 71,
-                                "end": 88
+                                "start": 77,
+                                "end": 95
                             },
                             "flags": 32,
-                            "start": 69,
-                            "end": 90
+                            "start": 75,
+                            "end": 97
                         },
                         "type": null,
                         "initializer": {
@@ -269,35 +269,35 @@ let /* 1*/ {
                             "text": "y",
                             "rawText": "y",
                             "flags": 96,
-                            "start": 92,
-                            "end": 94
+                            "start": 99,
+                            "end": 101
                         },
                         "flags": 16,
-                        "start": 69,
-                        "end": 94
+                        "start": 75,
+                        "end": 101
                     }
                 ],
                 "flags": 17,
-                "start": 69,
-                "end": 94
+                "start": 75,
+                "end": 101
             },
             "flags": 33554448,
-            "start": 63,
-            "end": 95
+            "start": 69,
+            "end": 102
         },
         {
             "kind": 168,
             "flags": 16,
-            "start": 95,
-            "end": 96
+            "start": 102,
+            "end": 103
         },
         {
             "kind": 162,
             "lexicalKeyword": {
                 "kind": 41951307,
                 "flags": 81,
-                "start": 96,
-                "end": 102
+                "start": 103,
+                "end": 109
             },
             "binding": {
                 "kind": 151,
@@ -314,63 +314,63 @@ let /* 1*/ {
                                         "ellipsisToken": {
                                             "kind": 524302,
                                             "flags": 65,
-                                            "start": 104,
-                                            "end": 115
+                                            "start": 111,
+                                            "end": 122
                                         },
                                         "left": {
                                             "kind": 134299649,
-                                            "text": "a",
-                                            "rawText": "a",
+                                            "text": "ja",
+                                            "rawText": "ja",
                                             "flags": 96,
-                                            "start": 115,
-                                            "end": 121
+                                            "start": 122,
+                                            "end": 129
                                         },
                                         "optionalToken": null,
                                         "type": null,
                                         "right": null,
                                         "flags": 0,
-                                        "start": 104,
-                                        "end": 121
+                                        "start": 111,
+                                        "end": 129
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 33,
-                                "start": 104,
-                                "end": 121
+                                "start": 111,
+                                "end": 129
                             },
                             "flags": 32,
-                            "start": 102,
-                            "end": 129
+                            "start": 109,
+                            "end": 137
                         },
                         "type": null,
                         "initializer": {
                             "kind": 134299649,
-                            "text": "y",
-                            "rawText": "y",
+                            "text": "y2",
+                            "rawText": "y2",
                             "flags": 96,
-                            "start": 137,
-                            "end": 145
+                            "start": 145,
+                            "end": 154
                         },
                         "flags": 16,
-                        "start": 102,
-                        "end": 145
+                        "start": 109,
+                        "end": 154
                     }
                 ],
                 "flags": 17,
-                "start": 102,
-                "end": 145
+                "start": 109,
+                "end": 154
             },
             "flags": 33554448,
-            "start": 96,
-            "end": 146
+            "start": 103,
+            "end": 155
         },
         {
             "kind": 162,
             "lexicalKeyword": {
                 "kind": 41951307,
                 "flags": 81,
-                "start": 146,
-                "end": 152
+                "start": 155,
+                "end": 161
             },
             "binding": {
                 "kind": 151,
@@ -387,63 +387,63 @@ let /* 1*/ {
                                         "ellipsisToken": {
                                             "kind": 524302,
                                             "flags": 65,
-                                            "start": 161,
-                                            "end": 180
+                                            "start": 170,
+                                            "end": 189
                                         },
                                         "left": {
                                             "kind": 134299649,
-                                            "text": "a",
-                                            "rawText": "a",
+                                            "text": "aaa",
+                                            "rawText": "aaa",
                                             "flags": 96,
-                                            "start": 180,
-                                            "end": 186
+                                            "start": 189,
+                                            "end": 197
                                         },
                                         "optionalToken": null,
                                         "type": null,
                                         "right": null,
                                         "flags": 0,
-                                        "start": 161,
-                                        "end": 186
+                                        "start": 170,
+                                        "end": 197
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 33,
-                                "start": 161,
-                                "end": 186
+                                "start": 170,
+                                "end": 197
                             },
                             "flags": 32,
-                            "start": 152,
-                            "end": 194
+                            "start": 161,
+                            "end": 205
                         },
                         "type": null,
                         "initializer": {
                             "kind": 134299649,
-                            "text": "y",
-                            "rawText": "y",
+                            "text": "yd",
+                            "rawText": "yd",
                             "flags": 96,
-                            "start": 202,
-                            "end": 210
+                            "start": 213,
+                            "end": 222
                         },
                         "flags": 16,
-                        "start": 152,
-                        "end": 210
+                        "start": 161,
+                        "end": 222
                     }
                 ],
                 "flags": 17,
-                "start": 152,
-                "end": 210
+                "start": 161,
+                "end": 222
             },
             "flags": 33554448,
-            "start": 146,
-            "end": 211
+            "start": 155,
+            "end": 223
         },
         {
             "kind": 162,
             "lexicalKeyword": {
                 "kind": 41951307,
                 "flags": 81,
-                "start": 211,
-                "end": 233
+                "start": 223,
+                "end": 245
             },
             "binding": {
                 "kind": 151,
@@ -460,63 +460,63 @@ let /* 1*/ {
                                         "ellipsisToken": {
                                             "kind": 524302,
                                             "flags": 65,
-                                            "start": 242,
-                                            "end": 261
+                                            "start": 254,
+                                            "end": 273
                                         },
                                         "left": {
                                             "kind": 134299649,
-                                            "text": "a",
-                                            "rawText": "a",
+                                            "text": "a3",
+                                            "rawText": "a3",
                                             "flags": 96,
-                                            "start": 261,
-                                            "end": 267
+                                            "start": 273,
+                                            "end": 280
                                         },
                                         "optionalToken": null,
                                         "type": null,
                                         "right": null,
                                         "flags": 0,
-                                        "start": 242,
-                                        "end": 267
+                                        "start": 254,
+                                        "end": 280
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 33,
-                                "start": 242,
-                                "end": 267
+                                "start": 254,
+                                "end": 280
                             },
                             "flags": 32,
-                            "start": 233,
-                            "end": 275
+                            "start": 245,
+                            "end": 288
                         },
                         "type": null,
                         "initializer": {
                             "kind": 134299649,
-                            "text": "y",
-                            "rawText": "y",
+                            "text": "ady",
+                            "rawText": "ady",
                             "flags": 96,
-                            "start": 283,
-                            "end": 291
+                            "start": 296,
+                            "end": 306
                         },
                         "flags": 16,
-                        "start": 233,
-                        "end": 291
+                        "start": 245,
+                        "end": 306
                     }
                 ],
                 "flags": 17,
-                "start": 233,
-                "end": 291
+                "start": 245,
+                "end": 306
             },
             "flags": 33554448,
-            "start": 211,
-            "end": 292
+            "start": 223,
+            "end": 307
         }
     ],
     "isModule": false,
-    "source": "let {\n\n/*1*/\na :/*2*/ b\n} = y;\n\nlet {\n\n/*1*/\na = /*2*/ b\n} = y;\n\n\nlet {\n\n/*1*/\n.../*2*/a\n} = y;;\n\n\nlet {\n\n/*1*/\n.../*2*/a /*3*/\n} /*4*/ = /*5 */y;\n\n\nlet /* 1*/ {\n\n/*2*/\n\n\n/*3*/\n.../*4*/a /*5*/\n} /*6*/ = /*7 */y;\n\n\n// detached!\n\n\n\nlet /* 1*/ {\n\n/*2*/\n\n\n/*3*/\n.../*4*/a /*5*/\n} /*6*/ = /*7 */y;\n",
+    "source": "let {\n\n/*1*/\na1 :/*2*/ b1\n} = y;\n\nlet {\n\n/*1*/\na = /*2*/ addd\n} = y1;\n\n\nlet {\n\n/*1*/\n.../*2*/h1\n} = y;;\n\n\nlet {\n\n/*1*/\n.../*2*/ja /*3*/\n} /*4*/ = /*5 */y2;\n\n\nlet /* 1*/ {\n\n/*2*/\n\n\n/*3*/\n.../*4*/aaa /*5*/\n} /*6*/ = /*7 */yd;\n\n\n// detached!\n\n\n\nlet /* 1*/ {\n\n/*2*/\n\n\n/*3*/\n.../*4*/a3 /*5*/\n} /*6*/ = /*7 */ady;\n",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,
-    "end": 293
+    "end": 308
 }
 ```
 
@@ -524,15 +524,38 @@ let /* 1*/ {
 
 ```javascript
 
+let {
+  /*1*/
+  a1: b1
+} = y;
+let {
+  /*1*/
+  a = addd
+} = y1;
+let {
+  /*1*/
+  .../*2*/ h1
+} = y;
+let {
+  /*1*/
+  .../*2*/ ja /*3*/
+} /*4*/ = y2;
+let /* 1*/ /* 1*/ {
+  /*2*/
+  /*3*/
+  .../*4*/ aaa /*5*/
+} /*6*/ = yd;
+// detached!
+let /* 1*/ /* 1*/ {
+  /*2*/
+  /*3*/
+  .../*4*/ a3 /*5*/
+} /*6*/ = ady;
 ```
 
 ### Diagnostics
 
 ```javascript
-✖ Duplicate identifier - start: 88, end: 90
-✖ Duplicate identifier - start: 121, end: 129
-✖ Duplicate identifier - start: 186, end: 194
-✖ Duplicate identifier - start: 267, end: 275
-
+✔ No errors
 ```
 

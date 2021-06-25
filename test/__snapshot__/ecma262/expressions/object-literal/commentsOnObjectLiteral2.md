@@ -104,8 +104,8 @@ var Person = makeClass(
                                                             ],
                                                             "trailingComma": false,
                                                             "flags": 32,
-                                                            "start": 209,
-                                                            "end": 215
+                                                            "start": 210,
+                                                            "end": 214
                                                         },
                                                         "contents": {
                                                             "kind": 216,

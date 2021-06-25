@@ -67,8 +67,8 @@ function foo(x = 0) {
                 ],
                 "trailingComma": false,
                 "flags": 34,
-                "start": 12,
-                "end": 19
+                "start": 13,
+                "end": 18
             },
             "contents": {
                 "kind": 216,

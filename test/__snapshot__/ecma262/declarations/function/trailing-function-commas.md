@@ -65,8 +65,8 @@ function log(n, op, val,) { }
                 ],
                 "trailingComma": true,
                 "flags": 32,
-                "start": 12,
-                "end": 25
+                "start": 13,
+                "end": 24
             },
             "contents": {
                 "kind": 216,

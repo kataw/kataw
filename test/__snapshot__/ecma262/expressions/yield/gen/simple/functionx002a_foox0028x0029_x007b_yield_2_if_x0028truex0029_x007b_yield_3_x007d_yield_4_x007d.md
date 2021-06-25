@@ -53,8 +53,8 @@ function* foo() { yield 2; if (true) { yield 3 }; yield 4 }
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 13,
-                "end": 15
+                "start": 14,
+                "end": 14
             },
             "contents": {
                 "kind": 216,

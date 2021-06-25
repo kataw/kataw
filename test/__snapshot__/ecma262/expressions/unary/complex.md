@@ -108,8 +108,8 @@ function x8(a: false & false): false {
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 11,
-                "end": 22
+                "start": 12,
+                "end": 21
             },
             "contents": {
                 "kind": 216,
@@ -233,8 +233,8 @@ function x8(a: false & false): false {
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 96,
-                "end": 107
+                "start": 97,
+                "end": 106
             },
             "contents": {
                 "kind": 216,
@@ -358,8 +358,8 @@ function x8(a: false & false): false {
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 184,
-                "end": 195
+                "start": 185,
+                "end": 194
             },
             "contents": {
                 "kind": 216,
@@ -470,8 +470,8 @@ function x8(a: false & false): false {
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 265,
-                "end": 276
+                "start": 266,
+                "end": 275
             },
             "contents": {
                 "kind": 216,
@@ -632,8 +632,8 @@ function x8(a: false & false): false {
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 342,
-                "end": 355
+                "start": 343,
+                "end": 354
             },
             "contents": {
                 "kind": 216,
@@ -800,8 +800,8 @@ function x8(a: false & false): false {
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 398,
-                "end": 411
+                "start": 399,
+                "end": 410
             },
             "contents": {
                 "kind": 216,
@@ -945,8 +945,8 @@ function x8(a: false & false): false {
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 473,
-                "end": 491
+                "start": 474,
+                "end": 490
             },
             "contents": {
                 "kind": 216,
@@ -1090,8 +1090,8 @@ function x8(a: false & false): false {
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 534,
-                "end": 552
+                "start": 535,
+                "end": 551
             },
             "contents": {
                 "kind": 216,

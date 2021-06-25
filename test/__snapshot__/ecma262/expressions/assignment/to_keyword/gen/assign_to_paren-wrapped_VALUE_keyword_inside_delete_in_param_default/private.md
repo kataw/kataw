@@ -123,8 +123,8 @@ function *f(x = delete ((private) = f)) {}
                 ],
                 "trailingComma": false,
                 "flags": 34,
-                "start": 11,
-                "end": 39
+                "start": 12,
+                "end": 38
             },
             "contents": {
                 "kind": 216,

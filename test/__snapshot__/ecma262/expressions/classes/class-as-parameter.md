@@ -100,8 +100,8 @@ class A {
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 26,
-                "end": 30
+                "start": 27,
+                "end": 29
             },
             "contents": {
                 "kind": 216,

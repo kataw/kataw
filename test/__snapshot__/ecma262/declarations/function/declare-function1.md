@@ -185,8 +185,8 @@ declare function aw<T>(p: Pr<T> | T): T;
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 22,
-                "end": 36
+                "start": 23,
+                "end": 35
             },
             "contents": null,
             "returnType": {

@@ -61,8 +61,8 @@ do async function f(){} while (x);
                     "formalParameters": [],
                     "trailingComma": false,
                     "flags": 32,
-                    "start": 19,
-                    "end": 21
+                    "start": 20,
+                    "end": 20
                 },
                 "contents": {
                     "kind": 216,

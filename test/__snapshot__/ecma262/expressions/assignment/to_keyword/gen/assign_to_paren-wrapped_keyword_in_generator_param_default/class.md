@@ -126,8 +126,8 @@ function *f(x = (class) = f) {}
                 ],
                 "trailingComma": false,
                 "flags": 34,
-                "start": 11,
-                "end": 28
+                "start": 12,
+                "end": 27
             },
             "contents": {
                 "kind": 216,

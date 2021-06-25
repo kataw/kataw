@@ -54,8 +54,8 @@ function foo3() {
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 12,
-                "end": 14
+                "start": 13,
+                "end": 13
             },
             "contents": {
                 "kind": 216,
@@ -265,8 +265,8 @@ function foo3() {
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 124,
-                "end": 126
+                "start": 125,
+                "end": 125
             },
             "contents": {
                 "kind": 216,
@@ -506,8 +506,8 @@ function foo3() {
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 259,
-                "end": 261
+                "start": 260,
+                "end": 260
             },
             "contents": {
                 "kind": 216,

@@ -1817,8 +1817,8 @@ let x = { foo(){ super(); } };
                                         "formalParameters": [],
                                         "trailingComma": false,
                                         "flags": 32,
-                                        "start": 510,
-                                        "end": 512
+                                        "start": 511,
+                                        "end": 511
                                     },
                                     "contents": {
                                         "kind": 216,
@@ -1980,8 +1980,8 @@ let x = { foo(){ super(); } };
                         ],
                         "trailingComma": false,
                         "flags": 34,
-                        "start": 541,
-                        "end": 554
+                        "start": 542,
+                        "end": 553
                     },
                     "contents": {
                         "kind": 216,
@@ -2068,8 +2068,8 @@ let x = { foo(){ super(); } };
                                         "formalParameters": [],
                                         "trailingComma": false,
                                         "flags": 32,
-                                        "start": 575,
-                                        "end": 577
+                                        "start": 576,
+                                        "end": 576
                                     },
                                     "contents": {
                                         "kind": 216,
@@ -2342,8 +2342,8 @@ let x = { foo(){ super(); } };
                 ],
                 "trailingComma": false,
                 "flags": 34,
-                "start": 632,
-                "end": 645
+                "start": 633,
+                "end": 644
             },
             "contents": {
                 "kind": 216,
@@ -2395,8 +2395,8 @@ let x = { foo(){ super(); } };
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 660,
-                "end": 662
+                "start": 661,
+                "end": 661
             },
             "contents": {
                 "kind": 216,

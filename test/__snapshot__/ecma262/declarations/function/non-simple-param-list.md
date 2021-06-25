@@ -63,8 +63,8 @@ function f(x, ...y) { 'use strict' }
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 10,
-                "end": 13
+                "start": 11,
+                "end": 12
             },
             "contents": {
                 "kind": 216,
@@ -143,8 +143,8 @@ function f(x, ...y) { 'use strict' }
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 42,
-                "end": 47
+                "start": 43,
+                "end": 46
             },
             "contents": {
                 "kind": 216,
@@ -223,8 +223,8 @@ function f(x, ...y) { 'use strict' }
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 76,
-                "end": 81
+                "start": 77,
+                "end": 80
             },
             "contents": {
                 "kind": 216,
@@ -305,8 +305,8 @@ function f(x, ...y) { 'use strict' }
                 ],
                 "trailingComma": false,
                 "flags": 34,
-                "start": 110,
-                "end": 117
+                "start": 111,
+                "end": 116
             },
             "contents": {
                 "kind": 216,
@@ -393,8 +393,8 @@ function f(x, ...y) { 'use strict' }
                 ],
                 "trailingComma": false,
                 "flags": 34,
-                "start": 146,
-                "end": 155
+                "start": 147,
+                "end": 154
             },
             "contents": {
                 "kind": 216,
@@ -469,8 +469,8 @@ function f(x, ...y) { 'use strict' }
                         ],
                         "trailingComma": false,
                         "flags": 32,
-                        "start": 183,
-                        "end": 188
+                        "start": 184,
+                        "end": 187
                     },
                     "contents": {
                         "kind": 216,
@@ -555,8 +555,8 @@ function f(x, ...y) { 'use strict' }
                         ],
                         "trailingComma": false,
                         "flags": 34,
-                        "start": 218,
-                        "end": 225
+                        "start": 219,
+                        "end": 224
                     },
                     "contents": {
                         "kind": 216,
@@ -647,8 +647,8 @@ function f(x, ...y) { 'use strict' }
                         ],
                         "trailingComma": false,
                         "flags": 34,
-                        "start": 255,
-                        "end": 264
+                        "start": 256,
+                        "end": 263
                     },
                     "contents": {
                         "kind": 216,

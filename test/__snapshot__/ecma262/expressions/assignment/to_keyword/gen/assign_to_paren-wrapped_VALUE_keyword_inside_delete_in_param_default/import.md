@@ -155,7 +155,7 @@ function *f(x = delete ((import) = f)) {}
                 ],
                 "trailingComma": false,
                 "flags": 34,
-                "start": 11,
+                "start": 12,
                 "end": 41
             },
             "contents": {

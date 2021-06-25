@@ -90,8 +90,8 @@ function bar(x: X): B { return x; }
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 12,
-                "end": 18
+                "start": 13,
+                "end": 17
             },
             "contents": {
                 "kind": 216,
@@ -221,8 +221,8 @@ function bar(x: X): B { return x; }
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 48,
-                "end": 54
+                "start": 49,
+                "end": 53
             },
             "contents": {
                 "kind": 216,

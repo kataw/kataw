@@ -48,8 +48,8 @@ function not_gen() { async function g(){let x = async function f(foo = [h, {m: t
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 16,
-                "end": 18
+                "start": 17,
+                "end": 17
             },
             "contents": {
                 "kind": 216,
@@ -87,8 +87,8 @@ function not_gen() { async function g(){let x = async function f(foo = [h, {m: t
                                 "formalParameters": [],
                                 "trailingComma": false,
                                 "flags": 32,
-                                "start": 37,
-                                "end": 39
+                                "start": 38,
+                                "end": 38
                             },
                             "contents": {
                                 "kind": 216,
@@ -261,8 +261,8 @@ function not_gen() { async function g(){let x = async function f(foo = [h, {m: t
                                                                 ],
                                                                 "trailingComma": false,
                                                                 "flags": 34,
-                                                                "start": 64,
-                                                                "end": 94
+                                                                "start": 65,
+                                                                "end": 93
                                                             },
                                                             "contents": {
                                                                 "kind": 216,

@@ -105,8 +105,8 @@ function *f(x = (interface) = f) {}
                 ],
                 "trailingComma": false,
                 "flags": 34,
-                "start": 11,
-                "end": 32
+                "start": 12,
+                "end": 31
             },
             "contents": {
                 "kind": 216,

@@ -102,8 +102,8 @@ function f(a = async async => ok) {}
                 ],
                 "trailingComma": false,
                 "flags": 34,
-                "start": 10,
-                "end": 33
+                "start": 11,
+                "end": 32
             },
             "contents": {
                 "kind": 216,

@@ -63,8 +63,8 @@ function asReversedTuple(a: number, b: string, c: boolean): [boolean, string, nu
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 24,
-                "end": 27
+                "start": 25,
+                "end": 26
             },
             "contents": {
                 "kind": 216,

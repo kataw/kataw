@@ -73,8 +73,8 @@ function* g( x = function() { async(yield) }) {};
                                 "formalParameters": [],
                                 "trailingComma": false,
                                 "flags": 32,
-                                "start": 25,
-                                "end": 27
+                                "start": 26,
+                                "end": 26
                             },
                             "contents": {
                                 "kind": 216,
@@ -134,8 +134,8 @@ function* g( x = function() { async(yield) }) {};
                 ],
                 "trailingComma": false,
                 "flags": 34,
-                "start": 11,
-                "end": 45
+                "start": 12,
+                "end": 44
             },
             "contents": {
                 "kind": 216,

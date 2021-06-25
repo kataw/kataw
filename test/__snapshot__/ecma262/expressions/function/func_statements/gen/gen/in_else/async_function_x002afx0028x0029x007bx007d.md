@@ -95,8 +95,8 @@ else async function *f(){}
                     "formalParameters": [],
                     "trailingComma": false,
                     "flags": 32,
-                    "start": 32,
-                    "end": 34
+                    "start": 33,
+                    "end": 33
                 },
                 "contents": {
                     "kind": 216,

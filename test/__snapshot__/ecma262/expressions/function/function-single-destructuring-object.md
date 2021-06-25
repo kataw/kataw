@@ -163,8 +163,8 @@ function StatelessFunctionalComponent3(
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 37,
-                "end": 156
+                "start": 38,
+                "end": 155
             },
             "contents": {
                 "kind": 216,
@@ -550,8 +550,8 @@ function StatelessFunctionalComponent3(
                 ],
                 "trailingComma": false,
                 "flags": 34,
-                "start": 205,
-                "end": 405
+                "start": 206,
+                "end": 404
             },
             "contents": {
                 "kind": 216,
@@ -950,8 +950,8 @@ function StatelessFunctionalComponent3(
                 ],
                 "trailingComma": false,
                 "flags": 34,
-                "start": 461,
-                "end": 698
+                "start": 462,
+                "end": 696
             },
             "contents": {
                 "kind": 216,

@@ -215,8 +215,8 @@ var c: { (): string; (x: number): string } =
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
-                                "start": 111,
-                                "end": 124
+                                "start": 113,
+                                "end": 123
                             },
                             "contents": {
                                 "kind": 216,
@@ -465,8 +465,8 @@ var c: { (): string; (x: number): string } =
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
-                                "start": 272,
-                                "end": 284
+                                "start": 274,
+                                "end": 283
                             },
                             "contents": {
                                 "kind": 216,

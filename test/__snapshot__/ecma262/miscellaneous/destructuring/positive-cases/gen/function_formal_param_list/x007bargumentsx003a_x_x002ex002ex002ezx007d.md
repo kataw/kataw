@@ -110,8 +110,8 @@ function f({arguments: x, ...z}) {}
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 10,
-                "end": 32
+                "start": 11,
+                "end": 31
             },
             "contents": {
                 "kind": 216,

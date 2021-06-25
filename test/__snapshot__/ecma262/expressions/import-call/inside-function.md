@@ -51,8 +51,8 @@ function loadImport(file) {
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 19,
-                "end": 25
+                "start": 20,
+                "end": 24
             },
             "contents": {
                 "kind": 216,

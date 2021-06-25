@@ -210,8 +210,8 @@ var callCount = 0;
                                 "formalParameters": [],
                                 "trailingComma": false,
                                 "flags": 32,
-                                "start": 66,
-                                "end": 68
+                                "start": 67,
+                                "end": 67
                             },
                             "contents": {
                                 "kind": 216,

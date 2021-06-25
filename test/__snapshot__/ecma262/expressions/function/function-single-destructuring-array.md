@@ -143,8 +143,8 @@ promise.then(([firstResult, secondResult, thirdResult, fourthResult, fifthResult
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 32,
-                "end": 80
+                "start": 33,
+                "end": 79
             },
             "contents": {
                 "kind": 216,
@@ -307,8 +307,8 @@ promise.then(([firstResult, secondResult, thirdResult, fourthResult, fifthResult
                 ],
                 "trailingComma": false,
                 "flags": 34,
-                "start": 134,
-                "end": 205
+                "start": 135,
+                "end": 204
             },
             "contents": {
                 "kind": 216,
@@ -518,8 +518,8 @@ promise.then(([firstResult, secondResult, thirdResult, fourthResult, fifthResult
                 ],
                 "trailingComma": false,
                 "flags": 34,
-                "start": 259,
-                "end": 355
+                "start": 260,
+                "end": 354
             },
             "contents": {
                 "kind": 216,

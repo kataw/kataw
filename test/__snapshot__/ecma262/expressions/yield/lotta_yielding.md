@@ -82,8 +82,8 @@ var gen = async function *g() {
                                 "formalParameters": [],
                                 "trailingComma": false,
                                 "flags": 32,
-                                "start": 27,
-                                "end": 29
+                                "start": 28,
+                                "end": 28
                             },
                             "contents": {
                                 "kind": 216,
@@ -221,8 +221,8 @@ var gen = async function *g() {
                                                                                 ],
                                                                                 "trailingComma": false,
                                                                                 "flags": 32,
-                                                                                "start": 102,
-                                                                                "end": 107
+                                                                                "start": 103,
+                                                                                "end": 106
                                                                             },
                                                                             "contents": {
                                                                                 "kind": 216,

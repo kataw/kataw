@@ -59,8 +59,8 @@ function isUnusedDiagnostic(code) {
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 27,
-                "end": 33
+                "start": 28,
+                "end": 32
             },
             "contents": {
                 "kind": 216,

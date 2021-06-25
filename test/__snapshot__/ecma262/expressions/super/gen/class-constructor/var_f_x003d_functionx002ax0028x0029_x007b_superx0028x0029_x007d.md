@@ -128,8 +128,8 @@ class C { constructor() { var f = function*() { super(); } } }
                                                                     "formalParameters": [],
                                                                     "trailingComma": false,
                                                                     "flags": 32,
-                                                                    "start": 43,
-                                                                    "end": 45
+                                                                    "start": 44,
+                                                                    "end": 44
                                                                 },
                                                                 "contents": {
                                                                     "kind": 216,

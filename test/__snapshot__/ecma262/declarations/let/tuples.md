@@ -134,8 +134,8 @@ let tests = [
                                             ],
                                             "trailingComma": false,
                                             "flags": 32,
-                                            "start": 24,
-                                            "end": 37
+                                            "start": 25,
+                                            "end": 36
                                         },
                                         "contents": {
                                             "kind": 216,
@@ -305,8 +305,8 @@ let tests = [
                                             ],
                                             "trailingComma": false,
                                             "flags": 32,
-                                            "start": 160,
-                                            "end": 181
+                                            "start": 161,
+                                            "end": 180
                                         },
                                         "contents": {
                                             "kind": 216,
@@ -450,8 +450,8 @@ let tests = [
                                             ],
                                             "trailingComma": false,
                                             "flags": 32,
-                                            "start": 337,
-                                            "end": 351
+                                            "start": 339,
+                                            "end": 350
                                         },
                                         "contents": {
                                             "kind": 216,
@@ -561,8 +561,8 @@ let tests = [
                                             "formalParameters": [],
                                             "trailingComma": false,
                                             "flags": 32,
-                                            "start": 487,
-                                            "end": 490
+                                            "start": 489,
+                                            "end": 489
                                         },
                                         "contents": {
                                             "kind": 216,
@@ -662,8 +662,8 @@ let tests = [
                                                             ],
                                                             "trailingComma": false,
                                                             "flags": 32,
-                                                            "start": 547,
-                                                            "end": 558
+                                                            "start": 548,
+                                                            "end": 557
                                                         },
                                                         "contents": {
                                                             "kind": 216,

@@ -64,8 +64,8 @@ function f([f]) { }
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 10,
-                "end": 15
+                "start": 11,
+                "end": 14
             },
             "contents": {
                 "kind": 216,

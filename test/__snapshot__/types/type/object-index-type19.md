@@ -127,8 +127,8 @@ function method(obj: { [key: string]: any }) {}
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 15,
-                "end": 44
+                "start": 16,
+                "end": 43
             },
             "contents": {
                 "kind": 216,

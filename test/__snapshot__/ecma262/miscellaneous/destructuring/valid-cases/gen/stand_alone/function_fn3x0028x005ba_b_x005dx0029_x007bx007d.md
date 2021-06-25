@@ -86,8 +86,8 @@ function fn3([a,, b,]) {}
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 12,
-                "end": 22
+                "start": 13,
+                "end": 21
             },
             "contents": {
                 "kind": 216,

@@ -92,8 +92,8 @@ function*g({a: yield}){}
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 10,
-                "end": 22
+                "start": 11,
+                "end": 21
             },
             "contents": {
                 "kind": 216,

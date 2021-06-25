@@ -119,8 +119,8 @@ function from<T>(arg: any): Query<T> {
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 24,
-                "end": 38
+                "start": 25,
+                "end": 37
             },
             "contents": null,
             "returnType": {
@@ -280,8 +280,8 @@ function from<T>(arg: any): Query<T> {
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 66,
-                "end": 76
+                "start": 67,
+                "end": 75
             },
             "contents": {
                 "kind": 216,
