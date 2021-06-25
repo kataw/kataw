@@ -36,7 +36,7 @@ this?.#c[d];
                     "chain": {
                         "kind": 302,
                         "chain": {
-                            "kind": 536871114,
+                            "kind": 202,
                             "chain": null,
                             "expression": {
                                 "kind": 67191035,
@@ -46,7 +46,7 @@ this?.#c[d];
                                 "start": 6,
                                 "end": 8
                             },
-                            "flags": 32,
+                            "flags": 536870944,
                             "start": 6,
                             "end": 8
                         },

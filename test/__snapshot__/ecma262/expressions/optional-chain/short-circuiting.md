@@ -51,7 +51,7 @@ undefined?.b.c(++x).d; // long short-circuiting.
                                 "end": 1
                             },
                             "chain": {
-                                "kind": 536871114,
+                                "kind": 202,
                                 "chain": {
                                     "kind": 302,
                                     "chain": {
@@ -93,7 +93,7 @@ undefined?.b.c(++x).d; // long short-circuiting.
                                     "start": 8,
                                     "end": 31
                                 },
-                                "flags": 32,
+                                "flags": 536870944,
                                 "start": 8,
                                 "end": 31
                             },
@@ -102,11 +102,11 @@ undefined?.b.c(++x).d; // long short-circuiting.
                             "end": 31
                         },
                         "chain": {
-                            "kind": 536871114,
+                            "kind": 202,
                             "chain": {
                                 "kind": 302,
                                 "chain": {
-                                    "kind": 536871114,
+                                    "kind": 202,
                                     "chain": null,
                                     "expression": {
                                         "kind": 134299649,
@@ -116,7 +116,7 @@ undefined?.b.c(++x).d; // long short-circuiting.
                                         "start": 33,
                                         "end": 34
                                     },
-                                    "flags": 32,
+                                    "flags": 536870944,
                                     "start": 33,
                                     "end": 34
                                 },
@@ -132,7 +132,7 @@ undefined?.b.c(++x).d; // long short-circuiting.
                                 "start": 35,
                                 "end": 36
                             },
-                            "flags": 32,
+                            "flags": 536870944,
                             "start": 34,
                             "end": 36
                         },
@@ -220,7 +220,7 @@ undefined?.b.c(++x).d; // long short-circuiting.
                                 "end": 81
                             },
                             "chain": {
-                                "kind": 536871114,
+                                "kind": 202,
                                 "chain": {
                                     "kind": 302,
                                     "chain": {
@@ -262,7 +262,7 @@ undefined?.b.c(++x).d; // long short-circuiting.
                                     "start": 88,
                                     "end": 119
                                 },
-                                "flags": 32,
+                                "flags": 536870944,
                                 "start": 88,
                                 "end": 119
                             },
@@ -271,11 +271,11 @@ undefined?.b.c(++x).d; // long short-circuiting.
                             "end": 119
                         },
                         "chain": {
-                            "kind": 536871114,
+                            "kind": 202,
                             "chain": {
                                 "kind": 302,
                                 "chain": {
-                                    "kind": 536871114,
+                                    "kind": 202,
                                     "chain": null,
                                     "expression": {
                                         "kind": 134299649,
@@ -285,7 +285,7 @@ undefined?.b.c(++x).d; // long short-circuiting.
                                         "start": 121,
                                         "end": 122
                                     },
-                                    "flags": 32,
+                                    "flags": 536870944,
                                     "start": 121,
                                     "end": 122
                                 },
@@ -301,7 +301,7 @@ undefined?.b.c(++x).d; // long short-circuiting.
                                 "start": 123,
                                 "end": 124
                             },
-                            "flags": 32,
+                            "flags": 536870944,
                             "start": 122,
                             "end": 124
                         },

@@ -41,7 +41,7 @@ a?.b
                         "chain": {
                             "kind": 302,
                             "chain": {
-                                "kind": 536871114,
+                                "kind": 202,
                                 "chain": null,
                                 "expression": {
                                     "kind": 134299649,
@@ -51,7 +51,7 @@ a?.b
                                     "start": 3,
                                     "end": 4
                                 },
-                                "flags": 32,
+                                "flags": 536870944,
                                 "start": 3,
                                 "end": 4
                             },

@@ -379,8 +379,8 @@ interface RestType <: TypeNode {
 
 ```js
 interface OptionalType <: TypeNode {
-  optionalToken: SyntaxToken<TokenSyntaxKind>;
   type: TypeNode;
+  optionalToken: SyntaxToken<TokenSyntaxKind>;
 }
 ```
 

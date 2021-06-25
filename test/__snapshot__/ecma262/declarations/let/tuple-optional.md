@@ -51,12 +51,6 @@ let x: [string[]?]
                                 "elementTypes": [
                                     {
                                         "kind": 334,
-                                        "optionalToken": {
-                                            "kind": 134217750,
-                                            "flags": 64,
-                                            "start": 16,
-                                            "end": 17
-                                        },
                                         "type": {
                                             "kind": 139,
                                             "bitwiseOrToken": null,
@@ -76,6 +70,12 @@ let x: [string[]?]
                                             "flags": 2097152,
                                             "start": 8,
                                             "end": 16
+                                        },
+                                        "optionalToken": {
+                                            "kind": 134217750,
+                                            "flags": 64,
+                                            "start": 16,
+                                            "end": 17
                                         },
                                         "flags": 2097152,
                                         "start": 8,

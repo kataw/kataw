@@ -59,7 +59,7 @@ a?.b
                     "member": {
                         "kind": 302,
                         "chain": {
-                            "kind": 536871114,
+                            "kind": 202,
                             "chain": null,
                             "expression": {
                                 "kind": 134299649,
@@ -69,7 +69,7 @@ a?.b
                                 "start": 3,
                                 "end": 4
                             },
-                            "flags": 32,
+                            "flags": 536870944,
                             "start": 3,
                             "end": 4
                         },
@@ -189,11 +189,11 @@ a?.b
                         "end": 19
                     },
                     "chain": {
-                        "kind": 536871114,
+                        "kind": 202,
                         "chain": {
                             "kind": 302,
                             "chain": {
-                                "kind": 536871114,
+                                "kind": 202,
                                 "chain": null,
                                 "expression": {
                                     "kind": 134299649,
@@ -203,7 +203,7 @@ a?.b
                                     "start": 21,
                                     "end": 22
                                 },
-                                "flags": 32,
+                                "flags": 536870944,
                                 "start": 21,
                                 "end": 22
                             },
@@ -219,7 +219,7 @@ a?.b
                             "start": 23,
                             "end": 24
                         },
-                        "flags": 32,
+                        "flags": 536870944,
                         "start": 22,
                         "end": 24
                     },
@@ -264,7 +264,7 @@ a?.b
                         "end": 29
                     },
                     "chain": {
-                        "kind": 536871114,
+                        "kind": 202,
                         "chain": {
                             "kind": 302,
                             "chain": {
@@ -304,7 +304,7 @@ a?.b
                             "start": 35,
                             "end": 36
                         },
-                        "flags": 32,
+                        "flags": 536870944,
                         "start": 34,
                         "end": 36
                     },
@@ -349,7 +349,7 @@ a?.b
                         "end": 41
                     },
                     "chain": {
-                        "kind": 536871114,
+                        "kind": 202,
                         "chain": {
                             "kind": 302,
                             "chain": {
@@ -379,7 +379,7 @@ a?.b
                             "start": 47,
                             "end": 48
                         },
-                        "flags": 32,
+                        "flags": 536870944,
                         "start": 46,
                         "end": 48
                     },
@@ -509,7 +509,7 @@ a?.b
                         "end": 68
                     },
                     "chain": {
-                        "kind": 536871114,
+                        "kind": 202,
                         "chain": {
                             "kind": 302,
                             "chain": {
@@ -549,7 +549,7 @@ a?.b
                             "start": 74,
                             "end": 75
                         },
-                        "flags": 32,
+                        "flags": 536870944,
                         "start": 73,
                         "end": 75
                     },
@@ -618,7 +618,7 @@ a?.b
                         "end": 84
                     },
                     "chain": {
-                        "kind": 536871114,
+                        "kind": 202,
                         "chain": {
                             "kind": 302,
                             "chain": {
@@ -648,7 +648,7 @@ a?.b
                             "start": 90,
                             "end": 91
                         },
-                        "flags": 32,
+                        "flags": 536870944,
                         "start": 89,
                         "end": 91
                     },
@@ -719,7 +719,7 @@ a?.b
                     "member": {
                         "kind": 302,
                         "chain": {
-                            "kind": 536871114,
+                            "kind": 202,
                             "chain": null,
                             "expression": {
                                 "kind": 134299649,
@@ -729,7 +729,7 @@ a?.b
                                 "start": 102,
                                 "end": 103
                             },
-                            "flags": 32,
+                            "flags": 536870944,
                             "start": 102,
                             "end": 103
                         },

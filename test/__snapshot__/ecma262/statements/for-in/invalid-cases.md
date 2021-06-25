@@ -4291,7 +4291,7 @@ for ({}.bar = x in obj);
                                     "chain": {
                                         "kind": 302,
                                         "chain": {
-                                            "kind": 536871114,
+                                            "kind": 202,
                                             "chain": null,
                                             "expression": {
                                                 "kind": 134299649,
@@ -4301,7 +4301,7 @@ for ({}.bar = x in obj);
                                                 "start": 1139,
                                                 "end": 1140
                                             },
-                                            "flags": 32,
+                                            "flags": 536870944,
                                             "start": 1139,
                                             "end": 1140
                                         },
@@ -4526,7 +4526,7 @@ for ({}.bar = x in obj);
                                 "chain": {
                                     "kind": 302,
                                     "chain": {
-                                        "kind": 536871114,
+                                        "kind": 202,
                                         "chain": null,
                                         "expression": {
                                             "kind": 134299649,
@@ -4536,7 +4536,7 @@ for ({}.bar = x in obj);
                                             "start": 1193,
                                             "end": 1194
                                         },
-                                        "flags": 32,
+                                        "flags": 536870944,
                                         "start": 1193,
                                         "end": 1194
                                     },

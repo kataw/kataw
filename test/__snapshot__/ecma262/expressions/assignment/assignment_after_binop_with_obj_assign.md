@@ -135,7 +135,7 @@ for(x in(t&{}=y))x
 
 ```javascript
 
-for (x in (t => {} = y))
+for (x in (t & {} = y))
   x;
 ```
 

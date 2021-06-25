@@ -165,7 +165,7 @@ class C { #aaa; f(f) { f()?.#aaa } }
                                                     "chain": {
                                                         "kind": 302,
                                                         "chain": {
-                                                            "kind": 536871114,
+                                                            "kind": 202,
                                                             "chain": null,
                                                             "expression": {
                                                                 "kind": 67191035,
@@ -175,7 +175,7 @@ class C { #aaa; f(f) { f()?.#aaa } }
                                                                 "start": 28,
                                                                 "end": 32
                                                             },
-                                                            "flags": 32,
+                                                            "flags": 536870944,
                                                             "start": 28,
                                                             "end": 32
                                                         },
@@ -239,7 +239,7 @@ class C {
   #aaa;
 
   f() {
-    f()?.;
+    f()?.#aaa;
   }
 }
 ```

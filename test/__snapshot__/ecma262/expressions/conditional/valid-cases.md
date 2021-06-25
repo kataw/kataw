@@ -1647,7 +1647,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                     "chain": {
                         "kind": 302,
                         "chain": {
-                            "kind": 536871114,
+                            "kind": 202,
                             "chain": null,
                             "expression": {
                                 "kind": 134299649,
@@ -1657,7 +1657,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                                 "start": 357,
                                 "end": 358
                             },
-                            "flags": 32,
+                            "flags": 536870944,
                             "start": 357,
                             "end": 358
                         },
@@ -1694,7 +1694,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                     "chain": {
                         "kind": 302,
                         "chain": {
-                            "kind": 536871114,
+                            "kind": 202,
                             "chain": null,
                             "expression": {
                                 "kind": 134299649,
@@ -1704,7 +1704,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                                 "start": 364,
                                 "end": 365
                             },
-                            "flags": 32,
+                            "flags": 536870944,
                             "start": 364,
                             "end": 365
                         },
@@ -2672,7 +2672,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                     "chain": {
                         "kind": 302,
                         "chain": {
-                            "kind": 536871114,
+                            "kind": 202,
                             "chain": null,
                             "expression": {
                                 "kind": 134299649,
@@ -2682,7 +2682,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                                 "start": 549,
                                 "end": 550
                             },
-                            "flags": 32,
+                            "flags": 536870944,
                             "start": 549,
                             "end": 550
                         },

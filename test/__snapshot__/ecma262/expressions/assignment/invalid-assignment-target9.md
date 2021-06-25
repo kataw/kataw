@@ -173,7 +173,7 @@ x?.[y] = 0;
                     "chain": {
                         "kind": 302,
                         "chain": {
-                            "kind": 536871114,
+                            "kind": 202,
                             "chain": null,
                             "expression": {
                                 "kind": 134299649,
@@ -183,7 +183,7 @@ x?.[y] = 0;
                                 "start": 28,
                                 "end": 29
                             },
-                            "flags": 32,
+                            "flags": 536870944,
                             "start": 28,
                             "end": 29
                         },

@@ -40,11 +40,11 @@ for (obj?.foo.bar in {}) ;
                     "end": 8
                 },
                 "chain": {
-                    "kind": 536871114,
+                    "kind": 202,
                     "chain": {
                         "kind": 302,
                         "chain": {
-                            "kind": 536871114,
+                            "kind": 202,
                             "chain": null,
                             "expression": {
                                 "kind": 134299649,
@@ -54,7 +54,7 @@ for (obj?.foo.bar in {}) ;
                                 "start": 10,
                                 "end": 13
                             },
-                            "flags": 32,
+                            "flags": 536870944,
                             "start": 10,
                             "end": 13
                         },
@@ -70,7 +70,7 @@ for (obj?.foo.bar in {}) ;
                         "start": 14,
                         "end": 17
                     },
-                    "flags": 32,
+                    "flags": 536870944,
                     "start": 13,
                     "end": 17
                 },

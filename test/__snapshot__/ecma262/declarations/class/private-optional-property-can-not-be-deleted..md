@@ -153,7 +153,7 @@ class Foo {
                                                         "chain": {
                                                             "kind": 302,
                                                             "chain": {
-                                                                "kind": 536871114,
+                                                                "kind": 202,
                                                                 "chain": null,
                                                                 "expression": {
                                                                     "kind": 67191035,
@@ -163,7 +163,7 @@ class Foo {
                                                                     "start": 53,
                                                                     "end": 55
                                                                 },
-                                                                "flags": 32,
+                                                                "flags": 536870944,
                                                                 "start": 53,
                                                                 "end": 55
                                                             },

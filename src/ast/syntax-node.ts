@@ -423,7 +423,7 @@ export function tokenToString(node: any): string {
     case SyntaxKind.AwaitKeyword:
       return 'await';
     case SyntaxKind.BitwiseAnd:
-      return '=>';
+      return '&';
     case SyntaxKind.BitwiseAndAssign:
       return '&=';
     case SyntaxKind.BitwiseOr:
