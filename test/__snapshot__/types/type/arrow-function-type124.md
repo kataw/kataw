@@ -107,6 +107,7 @@ type a = (x,symbol['string']) => T;
                                                     "type": {
                                                         "kind": 134217967,
                                                         "text": "string",
+                                                        "rawText": "'string'",
                                                         "flags": 2097216,
                                                         "start": 19,
                                                         "end": 27

@@ -619,6 +619,7 @@ let tests = [
                                                                                     "type": {
                                                                                         "kind": 134217968,
                                                                                         "text": 1,
+                                                                                        "rawText": "1",
                                                                                         "flags": 2097216,
                                                                                         "start": 552,
                                                                                         "end": 553
@@ -634,6 +635,7 @@ let tests = [
                                                                                     "type": {
                                                                                         "kind": 134217968,
                                                                                         "text": 2,
+                                                                                        "rawText": "2",
                                                                                         "flags": 2097216,
                                                                                         "start": 554,
                                                                                         "end": 556

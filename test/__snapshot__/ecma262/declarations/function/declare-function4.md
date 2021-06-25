@@ -111,6 +111,7 @@ declare function bar(config: Config<{foo: 'a'}>) : void
                                                                 "type": {
                                                                     "kind": 134217967,
                                                                     "text": "a",
+                                                                    "rawText": "'a'",
                                                                     "flags": 2097216,
                                                                     "start": 41,
                                                                     "end": 45

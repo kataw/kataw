@@ -398,6 +398,7 @@ function b1<A: 'a', B: A>(b: B): void {
                                                 "type": {
                                                     "kind": 134217967,
                                                     "text": "a",
+                                                    "rawText": "'a'",
                                                     "flags": 2097216,
                                                     "start": 156,
                                                     "end": 160
@@ -613,6 +614,7 @@ function b1<A: 'a', B: A>(b: B): void {
                                 "type": {
                                     "kind": 134217967,
                                     "text": "a",
+                                    "rawText": "'a'",
                                     "flags": 2097216,
                                     "start": 216,
                                     "end": 220

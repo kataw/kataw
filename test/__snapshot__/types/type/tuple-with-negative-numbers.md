@@ -82,6 +82,7 @@ type x = [-1n, 0n, 1n];
                             "type": {
                                 "kind": 134217968,
                                 "text": 0,
+                                "rawText": "0",
                                 "flags": 2097216,
                                 "start": 13,
                                 "end": 15
@@ -97,6 +98,7 @@ type x = [-1n, 0n, 1n];
                             "type": {
                                 "kind": 134217968,
                                 "text": 1,
+                                "rawText": "1",
                                 "flags": 2097216,
                                 "start": 16,
                                 "end": 18

@@ -519,6 +519,7 @@ type B = Foo<
                                                             "type": {
                                                                 "kind": 134217967,
                                                                 "text": "A",
+                                                                "rawText": "\"A\"",
                                                                 "flags": 2097216,
                                                                 "start": 144,
                                                                 "end": 148
@@ -562,6 +563,7 @@ type B = Foo<
                                                             "type": {
                                                                 "kind": 134217967,
                                                                 "text": "B",
+                                                                "rawText": "\"B\"",
                                                                 "flags": 2097216,
                                                                 "start": 160,
                                                                 "end": 164
@@ -691,6 +693,7 @@ type B = Foo<
                                                             "type": {
                                                                 "kind": 134217967,
                                                                 "text": "A",
+                                                                "rawText": "\"A\"",
                                                                 "flags": 2097216,
                                                                 "start": 194,
                                                                 "end": 198
@@ -734,6 +737,7 @@ type B = Foo<
                                                             "type": {
                                                                 "kind": 134217967,
                                                                 "text": "B",
+                                                                "rawText": "\"B\"",
                                                                 "flags": 2097216,
                                                                 "start": 210,
                                                                 "end": 214

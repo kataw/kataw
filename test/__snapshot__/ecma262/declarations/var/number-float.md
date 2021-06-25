@@ -52,6 +52,7 @@ var a: 123.0
                             "type": {
                                 "kind": 134217968,
                                 "text": 123,
+                                "rawText": "123.0",
                                 "flags": 2097216,
                                 "start": 6,
                                 "end": 12

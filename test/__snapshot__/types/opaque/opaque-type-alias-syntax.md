@@ -246,6 +246,7 @@ opaque type VeryOpaque: AliasAlias = ObjectAlias;
                         {
                             "kind": 134217968,
                             "text": 1,
+                            "rawText": "1",
                             "flags": 2097216,
                             "start": 129,
                             "end": 131
@@ -253,6 +254,7 @@ opaque type VeryOpaque: AliasAlias = ObjectAlias;
                         {
                             "kind": 134217968,
                             "text": 2,
+                            "rawText": "2",
                             "flags": 2097216,
                             "start": 133,
                             "end": 135
@@ -260,6 +262,7 @@ opaque type VeryOpaque: AliasAlias = ObjectAlias;
                         {
                             "kind": 134217968,
                             "text": 3,
+                            "rawText": "3",
                             "flags": 2097216,
                             "start": 137,
                             "end": 139

@@ -761,6 +761,7 @@ type x = {get x (/*1*/): string }
                             "type": {
                                 "kind": 134217967,
                                 "text": "bar",
+                                "rawText": "'bar'",
                                 "flags": 2097216,
                                 "start": 269,
                                 "end": 274
@@ -839,6 +840,7 @@ type x = {get x (/*1*/): string }
                             "type": {
                                 "kind": 134217967,
                                 "text": "bar",
+                                "rawText": "'bar'",
                                 "flags": 2097216,
                                 "start": 298,
                                 "end": 308

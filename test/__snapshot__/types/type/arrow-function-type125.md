@@ -72,6 +72,7 @@ type a = (|1,symbol['string']) => T;
                                     "type": {
                                         "kind": 134217968,
                                         "text": 1,
+                                        "rawText": "1",
                                         "flags": 2097216,
                                         "start": 11,
                                         "end": 12
@@ -106,6 +107,7 @@ type a = (|1,symbol['string']) => T;
                                         "type": {
                                             "kind": 134217967,
                                             "text": "string",
+                                            "rawText": "'string'",
                                             "flags": 2097216,
                                             "start": 20,
                                             "end": 28

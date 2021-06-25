@@ -100,6 +100,7 @@ let fourteen: A.B<X.Y<Z<T>>>=2;
                                             "type": {
                                                 "kind": 134217967,
                                                 "text": "a",
+                                                "rawText": "'a'",
                                                 "flags": 2097216,
                                                 "start": 12,
                                                 "end": 16
@@ -342,6 +343,7 @@ let fourteen: A.B<X.Y<Z<T>>>=2;
                                             "type": {
                                                 "kind": 134217967,
                                                 "text": "x",
+                                                "rawText": "'x'",
                                                 "flags": 2097216,
                                                 "start": 77,
                                                 "end": 80

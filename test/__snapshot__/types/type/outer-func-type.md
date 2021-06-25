@@ -160,6 +160,7 @@ type x = (Record<string, any> | null)[] & { length: 2; }
                                         "type": {
                                             "kind": 134217968,
                                             "text": 2,
+                                            "rawText": "2",
                                             "flags": 2097216,
                                             "start": 51,
                                             "end": 53

@@ -113,6 +113,7 @@ declare function foo<TArguments: $ReadOnlyArray<{foo: 'a'}>, TReturn>(
                                                                     "type": {
                                                                         "kind": 134217967,
                                                                         "text": "a",
+                                                                        "rawText": "'a'",
                                                                         "flags": 2097216,
                                                                         "start": 53,
                                                                         "end": 57

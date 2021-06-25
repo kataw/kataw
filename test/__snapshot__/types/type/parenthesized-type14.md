@@ -60,6 +60,7 @@ type X = (1);
                         "type": {
                             "kind": 134217968,
                             "text": 1,
+                            "rawText": "1",
                             "flags": 2097216,
                             "start": 10,
                             "end": 11

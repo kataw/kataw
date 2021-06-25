@@ -7821,15 +7821,17 @@ function parseTypeofType(parser: ParserState, context: Context): TypeofType {
 function parseStringType(parser: ParserState, context: Context): StringType {
   const pos = parser.curPos;
   const value = parser.tokenValue;
+  const raw = parser.tokenRaw;
   nextToken(parser, context);
-  return createStringType(value, pos, parser.curPos);
+  return createStringType(value, raw, pos, parser.curPos);
 }
 
 function parseNumberType(parser: ParserState, context: Context): NumberType {
   const pos = parser.curPos;
-  const value = parser.tokenValue;
+  const text = parser.tokenValue;
+  const raw = parser.tokenRaw;
   nextToken(parser, context);
-  return createNumberType(value, pos, parser.curPos);
+  return createNumberType(text, raw, pos, parser.curPos);
 }
 
 function parseBigIntType(parser: ParserState, context: Context): BigIntType {

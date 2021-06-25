@@ -115,6 +115,7 @@ type overloads2 = {
                                         "type": {
                                             "kind": 134217967,
                                             "text": "A",
+                                            "rawText": "\"A\"",
                                             "flags": 2097216,
                                             "start": 22,
                                             "end": 26
@@ -158,6 +159,7 @@ type overloads2 = {
                                         "type": {
                                             "kind": 134217967,
                                             "text": "B",
+                                            "rawText": "\"B\"",
                                             "flags": 2097216,
                                             "start": 37,
                                             "end": 41
@@ -479,6 +481,7 @@ type overloads2 = {
                                                         "type": {
                                                             "kind": 134217967,
                                                             "text": "A",
+                                                            "rawText": "\"A\"",
                                                             "flags": 2097216,
                                                             "start": 155,
                                                             "end": 159
@@ -522,6 +525,7 @@ type overloads2 = {
                                                         "type": {
                                                             "kind": 134217967,
                                                             "text": "B",
+                                                            "rawText": "\"B\"",
                                                             "flags": 2097216,
                                                             "start": 173,
                                                             "end": 177
@@ -650,6 +654,7 @@ type overloads2 = {
                                                         "type": {
                                                             "kind": 134217967,
                                                             "text": "A",
+                                                            "rawText": "\"A\"",
                                                             "flags": 2097216,
                                                             "start": 220,
                                                             "end": 224
@@ -693,6 +698,7 @@ type overloads2 = {
                                                         "type": {
                                                             "kind": 134217967,
                                                             "text": "B",
+                                                            "rawText": "\"B\"",
                                                             "flags": 2097216,
                                                             "start": 238,
                                                             "end": 242

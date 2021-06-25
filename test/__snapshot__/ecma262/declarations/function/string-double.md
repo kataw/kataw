@@ -83,6 +83,7 @@ function createElement(tagName: "div"): HTMLDivElement {}
                 "type": {
                     "kind": 134217967,
                     "text": "div",
+                    "rawText": "\"div\"",
                     "flags": 2097216,
                     "start": 31,
                     "end": 37

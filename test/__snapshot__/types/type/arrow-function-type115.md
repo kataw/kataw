@@ -67,6 +67,7 @@ type a = (1,2, 3) => T;
                                     "type": {
                                         "kind": 134217968,
                                         "text": 1,
+                                        "rawText": "1",
                                         "flags": 2097216,
                                         "start": 10,
                                         "end": 11
@@ -93,6 +94,7 @@ type a = (1,2, 3) => T;
                                     "type": {
                                         "kind": 134217968,
                                         "text": 2,
+                                        "rawText": "2",
                                         "flags": 2097216,
                                         "start": 12,
                                         "end": 13
@@ -117,6 +119,7 @@ type a = (1,2, 3) => T;
                                     "type": {
                                         "kind": 134217968,
                                         "text": 3,
+                                        "rawText": "3",
                                         "flags": 2097216,
                                         "start": 14,
                                         "end": 16

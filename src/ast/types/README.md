@@ -97,6 +97,7 @@ interface IndexedAccessType <: TypeNode {
 interface NumberType <: TypeNode {
   kind: NodeKind.NumberType;
   text: number;
+  rawText: string;
 }
 ```
 
@@ -240,6 +241,7 @@ interface QualifiedType <: TypeNode {
 interface StringType <: TypeNode {
   kind: NodeKind.StringType;
   text: string;
+  rawText: string;
 }
 ```
 

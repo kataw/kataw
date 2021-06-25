@@ -64,6 +64,7 @@ type a = ("string") => T;
                                 "type": {
                                     "kind": 134217967,
                                     "text": "string",
+                                    "rawText": "\"string\"",
                                     "flags": 2097216,
                                     "start": 10,
                                     "end": 18

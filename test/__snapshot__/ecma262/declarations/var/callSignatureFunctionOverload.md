@@ -153,6 +153,7 @@ var foo2: {
                                                         "type": {
                                                             "kind": 134217967,
                                                             "text": "order",
+                                                            "rawText": "'order'",
                                                             "flags": 2097216,
                                                             "start": 49,
                                                             "end": 57
@@ -216,6 +217,7 @@ var foo2: {
                                                         "type": {
                                                             "kind": 134217967,
                                                             "text": "content",
+                                                            "rawText": "'content'",
                                                             "flags": 2097216,
                                                             "start": 78,
                                                             "end": 88
@@ -279,6 +281,7 @@ var foo2: {
                                                         "type": {
                                                             "kind": 134217967,
                                                             "text": "done",
+                                                            "rawText": "'done'",
                                                             "flags": 2097216,
                                                             "start": 109,
                                                             "end": 116
@@ -457,6 +460,7 @@ var foo2: {
                                                         "type": {
                                                             "kind": 134217967,
                                                             "text": "order",
+                                                            "rawText": "'order'",
                                                             "flags": 2097216,
                                                             "start": 180,
                                                             "end": 188
@@ -520,6 +524,7 @@ var foo2: {
                                                         "type": {
                                                             "kind": 134217967,
                                                             "text": "order",
+                                                            "rawText": "'order'",
                                                             "flags": 2097216,
                                                             "start": 209,
                                                             "end": 217
@@ -583,6 +588,7 @@ var foo2: {
                                                         "type": {
                                                             "kind": 134217967,
                                                             "text": "done",
+                                                            "rawText": "'done'",
                                                             "flags": 2097216,
                                                             "start": 238,
                                                             "end": 245

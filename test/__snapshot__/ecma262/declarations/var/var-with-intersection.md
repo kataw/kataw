@@ -64,6 +64,7 @@ var x:
                                     {
                                         "kind": 134217968,
                                         "text": 1,
+                                        "rawText": "1",
                                         "flags": 2097216,
                                         "start": 9,
                                         "end": 11
@@ -71,6 +72,7 @@ var x:
                                     {
                                         "kind": 134217968,
                                         "text": 2,
+                                        "rawText": "2",
                                         "flags": 2097216,
                                         "start": 14,
                                         "end": 16

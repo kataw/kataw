@@ -89,6 +89,7 @@ type Animal =
                                         "type": {
                                             "kind": 134217967,
                                             "text": "insect",
+                                            "rawText": "'insect'",
                                             "flags": 2097216,
                                             "start": 24,
                                             "end": 33
@@ -132,6 +133,7 @@ type Animal =
                                         "type": {
                                             "kind": 134217967,
                                             "text": "fish",
+                                            "rawText": "'fish'",
                                             "flags": 2097216,
                                             "start": 45,
                                             "end": 52
@@ -175,6 +177,7 @@ type Animal =
                                         "type": {
                                             "kind": 134217967,
                                             "text": "chinese",
+                                            "rawText": "'chinese'",
                                             "flags": 2097216,
                                             "start": 64,
                                             "end": 74
@@ -218,6 +221,7 @@ type Animal =
                                         "type": {
                                             "kind": 134217967,
                                             "text": "bird",
+                                            "rawText": "'bird'",
                                             "flags": 2097216,
                                             "start": 86,
                                             "end": 93

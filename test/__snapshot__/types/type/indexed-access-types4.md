@@ -77,6 +77,7 @@ type E = Obj['bar'][];
                             "type": {
                                 "kind": 134217967,
                                 "text": "bar",
+                                "rawText": "'bar'",
                                 "flags": 2097216,
                                 "start": 13,
                                 "end": 18
