@@ -73,6 +73,7 @@
                                         "start": 10,
                                         "end": 12
                                     },
+                                    "assignToken": null,
                                     "defaultType": null,
                                     "flags": 2097152,
                                     "start": 1,

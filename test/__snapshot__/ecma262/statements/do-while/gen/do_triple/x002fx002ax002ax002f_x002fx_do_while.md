@@ -50,7 +50,7 @@ do do do /**/ /x do while while while while
                     "statement": {
                         "kind": 120,
                         "expression": {
-                            "kind": 221,
+                            "kind": 371,
                             "text": "/x do while while while while",
                             "flags": 96,
                             "start": 8,

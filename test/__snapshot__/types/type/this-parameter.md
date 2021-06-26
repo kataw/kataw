@@ -449,6 +449,7 @@ type ten = {
                                         "end": 145
                                     },
                                     "type": null,
+                                    "assignToken": null,
                                     "defaultType": null,
                                     "flags": 2097152,
                                     "start": 144,
@@ -972,6 +973,7 @@ type ten = {
                                                     "end": 284
                                                 },
                                                 "type": null,
+                                                "assignToken": null,
                                                 "defaultType": null,
                                                 "flags": 2097152,
                                                 "start": 283,

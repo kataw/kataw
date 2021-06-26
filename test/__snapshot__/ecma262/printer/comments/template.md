@@ -540,7 +540,7 @@ let h = f()/*7*/./*8*/g`template with more complex function call`;/*9*/
                                     "start": 323,
                                     "end": 329
                                 },
-                                "flags": 536870944,
+                                "flags": 268435488,
                                 "start": 313,
                                 "end": 329
                             },

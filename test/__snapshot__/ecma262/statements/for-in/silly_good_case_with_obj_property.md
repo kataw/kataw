@@ -66,7 +66,7 @@ for ({}.bar in obj);
                     "start": 8,
                     "end": 11
                 },
-                "flags": 536870944,
+                "flags": 48,
                 "start": 0,
                 "end": 11
             },

@@ -67,7 +67,7 @@ x={..."foo".foo=x}
                                             "start": 12,
                                             "end": 15
                                         },
-                                        "flags": 536870944,
+                                        "flags": 96,
                                         "start": 6,
                                         "end": 15
                                     },

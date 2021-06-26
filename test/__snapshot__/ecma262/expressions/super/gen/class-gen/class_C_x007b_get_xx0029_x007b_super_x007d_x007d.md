@@ -241,7 +241,7 @@ class C { *method() { class C { get x) { super; } } } }
                                 "start": 46,
                                 "end": 46
                             },
-                            "flags": 536870944,
+                            "flags": 32,
                             "start": 40,
                             "end": 46
                         },

@@ -165,7 +165,7 @@ class C {
                                                         "start": 55,
                                                         "end": 58
                                                     },
-                                                    "flags": 536870944,
+                                                    "flags": 97,
                                                     "start": 45,
                                                     "end": 58
                                                 },
@@ -191,7 +191,7 @@ class C {
                                                         "start": 66,
                                                         "end": 69
                                                     },
-                                                    "flags": 536870944,
+                                                    "flags": 96,
                                                     "start": 60,
                                                     "end": 69
                                                 },

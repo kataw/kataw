@@ -45,7 +45,7 @@ async (a=/i/) = /i/
                             "end": 9
                         },
                         "right": {
-                            "kind": 221,
+                            "kind": 371,
                             "text": "/i/",
                             "flags": 96,
                             "start": 9,
@@ -68,7 +68,7 @@ async (a=/i/) = /i/
         {
             "kind": 120,
             "expression": {
-                "kind": 221,
+                "kind": 371,
                 "text": "/i/",
                 "flags": 96,
                 "start": 15,

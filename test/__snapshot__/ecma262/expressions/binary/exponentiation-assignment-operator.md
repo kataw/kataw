@@ -251,7 +251,7 @@
                                             "start": 58,
                                             "end": 59
                                         },
-                                        "flags": 536870944,
+                                        "flags": 96,
                                         "start": 51,
                                         "end": 59
                                     },
@@ -379,7 +379,7 @@
                                             "start": 91,
                                             "end": 92
                                         },
-                                        "flags": 536870944,
+                                        "flags": 268435488,
                                         "start": 82,
                                         "end": 92
                                     },
@@ -1004,7 +1004,7 @@
                                             "end": 281
                                         },
                                         "expression": {
-                                            "kind": 221,
+                                            "kind": 371,
                                             "text": "/x/",
                                             "flags": 96,
                                             "start": 282,

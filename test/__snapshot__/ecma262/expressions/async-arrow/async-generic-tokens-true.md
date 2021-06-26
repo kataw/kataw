@@ -49,6 +49,7 @@ async <T>(a: T): T => a;
                                     "end": 8
                                 },
                                 "type": null,
+                                "assignToken": null,
                                 "defaultType": null,
                                 "flags": 2097152,
                                 "start": 7,

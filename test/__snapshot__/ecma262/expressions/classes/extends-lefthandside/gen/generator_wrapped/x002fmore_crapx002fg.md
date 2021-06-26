@@ -94,7 +94,7 @@ function *P(){
                                         "end": 32
                                     },
                                     "expression": {
-                                        "kind": 221,
+                                        "kind": 371,
                                         "text": "/more crap/g",
                                         "flags": 96,
                                         "start": 32,

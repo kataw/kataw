@@ -95,6 +95,12 @@ type B = Foo<
                                 "start": 10,
                                 "end": 18
                             },
+                            "assignToken": {
+                                "kind": 4125,
+                                "flags": 64,
+                                "start": 18,
+                                "end": 20
+                            },
                             "defaultType": {
                                 "kind": 139,
                                 "bitwiseOrToken": null,
@@ -189,6 +195,7 @@ type B = Foo<
                                 "end": 44
                             },
                             "type": null,
+                            "assignToken": null,
                             "defaultType": null,
                             "flags": 2097152,
                             "start": 43,
@@ -229,6 +236,12 @@ type B = Foo<
                                 "flags": 2097152,
                                 "start": 48,
                                 "end": 56
+                            },
+                            "assignToken": {
+                                "kind": 4125,
+                                "flags": 64,
+                                "start": 56,
+                                "end": 58
                             },
                             "defaultType": {
                                 "kind": 139,
@@ -324,6 +337,12 @@ type B = Foo<
                                 "end": 82
                             },
                             "type": null,
+                            "assignToken": {
+                                "kind": 4125,
+                                "flags": 64,
+                                "start": 82,
+                                "end": 84
+                            },
                             "defaultType": {
                                 "kind": 139,
                                 "bitwiseOrToken": null,
@@ -377,6 +396,12 @@ type B = Foo<
                                 "flags": 2097152,
                                 "start": 95,
                                 "end": 103
+                            },
+                            "assignToken": {
+                                "kind": 4125,
+                                "flags": 64,
+                                "start": 103,
+                                "end": 105
                             },
                             "defaultType": {
                                 "kind": 139,

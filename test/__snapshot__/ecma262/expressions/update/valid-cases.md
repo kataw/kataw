@@ -77,7 +77,7 @@ new foo().bar++;
                         "start": 11,
                         "end": 14
                     },
-                    "flags": 536870944,
+                    "flags": 96,
                     "start": 6,
                     "end": 14
                 },
@@ -225,7 +225,7 @@ new foo().bar++;
                         "start": 50,
                         "end": 53
                     },
-                    "flags": 536870944,
+                    "flags": 268435488,
                     "start": 43,
                     "end": 53
                 },
@@ -263,7 +263,7 @@ new foo().bar++;
                         "start": 62,
                         "end": 65
                     },
-                    "flags": 536870944,
+                    "flags": 97,
                     "start": 56,
                     "end": 65
                 },
@@ -421,7 +421,7 @@ new foo().bar++;
                         "start": 110,
                         "end": 113
                     },
-                    "flags": 536870944,
+                    "flags": 97,
                     "start": 99,
                     "end": 113
                 },

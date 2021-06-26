@@ -618,6 +618,7 @@ type x = {get x (/*1*/): string }
                                         "end": 209
                                     },
                                     "type": null,
+                                    "assignToken": null,
                                     "defaultType": null,
                                     "flags": 2097152,
                                     "start": 202,
@@ -1281,6 +1282,7 @@ type x = {get x (/*1*/): string }
                                 "end": 498
                             },
                             "type": null,
+                            "assignToken": null,
                             "defaultType": null,
                             "flags": 2097152,
                             "start": 492,

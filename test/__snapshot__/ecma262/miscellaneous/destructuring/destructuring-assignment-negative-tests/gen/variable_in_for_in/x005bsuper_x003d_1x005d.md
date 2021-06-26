@@ -145,7 +145,7 @@ var x, y, z; for (x in [super = 1] = {});
                                         "start": 29,
                                         "end": 29
                                     },
-                                    "flags": 536870944,
+                                    "flags": 32,
                                     "start": 24,
                                     "end": 29
                                 },

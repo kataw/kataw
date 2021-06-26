@@ -1823,7 +1823,7 @@ q = {"foo": super = x} = x;
                                                 "start": 412,
                                                 "end": 412
                                             },
-                                            "flags": 536870944,
+                                            "flags": 32,
                                             "start": 406,
                                             "end": 412
                                         },

@@ -104,7 +104,7 @@ for (((x)=>{}).x in y);
                     "start": 15,
                     "end": 16
                 },
-                "flags": 536870944,
+                "flags": 32,
                 "start": 5,
                 "end": 16
             },

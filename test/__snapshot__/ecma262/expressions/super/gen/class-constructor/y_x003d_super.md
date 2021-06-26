@@ -123,7 +123,7 @@ class C { constructor() { y = super } }
                                                             "start": 35,
                                                             "end": 35
                                                         },
-                                                        "flags": 536870944,
+                                                        "flags": 32,
                                                         "start": 29,
                                                         "end": 35
                                                     },

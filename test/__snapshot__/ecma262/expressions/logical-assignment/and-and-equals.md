@@ -78,7 +78,7 @@ obj.a &&= b;
                         "start": 13,
                         "end": 14
                     },
-                    "flags": 536870944,
+                    "flags": 96,
                     "start": 8,
                     "end": 14
                 },

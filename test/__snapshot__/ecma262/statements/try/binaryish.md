@@ -107,7 +107,7 @@ function f() {
                                                         "start": 38,
                                                         "end": 50
                                                     },
-                                                    "flags": 536870944,
+                                                    "flags": 96,
                                                     "start": 22,
                                                     "end": 50
                                                 },
@@ -159,7 +159,7 @@ function f() {
                                                             "start": 80,
                                                             "end": 84
                                                         },
-                                                        "flags": 536870944,
+                                                        "flags": 96,
                                                         "start": 71,
                                                         "end": 84
                                                     },
@@ -171,7 +171,7 @@ function f() {
                                                         "start": 85,
                                                         "end": 89
                                                     },
-                                                    "flags": 536870944,
+                                                    "flags": 96,
                                                     "start": 71,
                                                     "end": 89
                                                 },
@@ -213,7 +213,7 @@ function f() {
                                                             "start": 107,
                                                             "end": 119
                                                         },
-                                                        "flags": 536870944,
+                                                        "flags": 96,
                                                         "start": 93,
                                                         "end": 119
                                                     },
@@ -268,7 +268,7 @@ function f() {
                                                                     "start": 151,
                                                                     "end": 169
                                                                 },
-                                                                "flags": 536870944,
+                                                                "flags": 96,
                                                                 "start": 135,
                                                                 "end": 169
                                                             },
@@ -379,7 +379,7 @@ function f() {
                                                         "start": 233,
                                                         "end": 237
                                                     },
-                                                    "flags": 536870944,
+                                                    "flags": 96,
                                                     "start": 224,
                                                     "end": 237
                                                 },
@@ -391,7 +391,7 @@ function f() {
                                                     "start": 238,
                                                     "end": 242
                                                 },
-                                                "flags": 536870944,
+                                                "flags": 96,
                                                 "start": 224,
                                                 "end": 242
                                             },
@@ -422,7 +422,7 @@ function f() {
                                                             "start": 249,
                                                             "end": 252
                                                         },
-                                                        "flags": 536870944,
+                                                        "flags": 96,
                                                         "start": 244,
                                                         "end": 252
                                                     },
@@ -501,7 +501,7 @@ function f() {
                                                 "start": 293,
                                                 "end": 297
                                             },
-                                            "flags": 536870944,
+                                            "flags": 96,
                                             "start": 280,
                                             "end": 297
                                         },
@@ -552,7 +552,7 @@ function f() {
                                                 "start": 387,
                                                 "end": 390
                                             },
-                                            "flags": 536870944,
+                                            "flags": 96,
                                             "start": 376,
                                             "end": 390
                                         },
@@ -579,7 +579,7 @@ function f() {
                                                             "start": 410,
                                                             "end": 415
                                                         },
-                                                        "flags": 536870944,
+                                                        "flags": 96,
                                                         "start": 391,
                                                         "end": 415
                                                     },
@@ -675,7 +675,7 @@ function f() {
                                                 "start": 570,
                                                 "end": 578
                                             },
-                                            "flags": 536870944,
+                                            "flags": 96,
                                             "start": 561,
                                             "end": 578
                                         },
@@ -738,7 +738,7 @@ function f() {
                                                 "start": 615,
                                                 "end": 623
                                             },
-                                            "flags": 536870944,
+                                            "flags": 96,
                                             "start": 606,
                                             "end": 623
                                         },

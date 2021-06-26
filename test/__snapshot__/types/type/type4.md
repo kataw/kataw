@@ -363,6 +363,7 @@ type T27 = ArgumentType<never>;  // any
                                                                     "end": 126
                                                                 },
                                                                 "type": null,
+                                                                "assignToken": null,
                                                                 "defaultType": null,
                                                                 "flags": 2097152,
                                                                 "start": 125,

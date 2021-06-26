@@ -915,7 +915,7 @@ const obj = {
                         "start": 623,
                         "end": 628
                     },
-                    "flags": 536870944,
+                    "flags": 97,
                     "start": 616,
                     "end": 628
                 },
@@ -1049,7 +1049,7 @@ const obj = {
                         "start": 715,
                         "end": 720
                     },
-                    "flags": 536870944,
+                    "flags": 97,
                     "start": 708,
                     "end": 720
                 },
@@ -1203,7 +1203,7 @@ const obj = {
                         "start": 820,
                         "end": 825
                     },
-                    "flags": 536870944,
+                    "flags": 97,
                     "start": 813,
                     "end": 825
                 },
@@ -1487,7 +1487,7 @@ const obj = {
                                                                 "start": 1017,
                                                                 "end": 1019
                                                             },
-                                                            "flags": 536870944,
+                                                            "flags": 96,
                                                             "start": 1005,
                                                             "end": 1019
                                                         },
@@ -1558,7 +1558,7 @@ const obj = {
                                                                             "start": 1069,
                                                                             "end": 1078
                                                                         },
-                                                                        "flags": 536870944,
+                                                                        "flags": 96,
                                                                         "start": 1044,
                                                                         "end": 1078
                                                                     },
@@ -1595,7 +1595,7 @@ const obj = {
                                                                             "start": 1104,
                                                                             "end": 1113
                                                                         },
-                                                                        "flags": 536870944,
+                                                                        "flags": 96,
                                                                         "start": 1079,
                                                                         "end": 1113
                                                                     },
@@ -1803,7 +1803,7 @@ const obj = {
                                                                     "start": 1222,
                                                                     "end": 1224
                                                                 },
-                                                                "flags": 536870944,
+                                                                "flags": 96,
                                                                 "start": 1214,
                                                                 "end": 1224
                                                             },
@@ -1892,7 +1892,7 @@ const obj = {
                                                                             "start": 1284,
                                                                             "end": 1293
                                                                         },
-                                                                        "flags": 536870944,
+                                                                        "flags": 96,
                                                                         "start": 1259,
                                                                         "end": 1293
                                                                     },
@@ -1929,7 +1929,7 @@ const obj = {
                                                                             "start": 1319,
                                                                             "end": 1328
                                                                         },
-                                                                        "flags": 536870944,
+                                                                        "flags": 96,
                                                                         "start": 1294,
                                                                         "end": 1328
                                                                     },

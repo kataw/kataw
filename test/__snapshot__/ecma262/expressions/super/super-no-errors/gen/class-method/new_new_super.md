@@ -136,7 +136,7 @@ class C { m() { foo(new new super); } }
                                                                             "start": 33,
                                                                             "end": 33
                                                                         },
-                                                                        "flags": 536870944,
+                                                                        "flags": 32,
                                                                         "start": 27,
                                                                         "end": 33
                                                                     },

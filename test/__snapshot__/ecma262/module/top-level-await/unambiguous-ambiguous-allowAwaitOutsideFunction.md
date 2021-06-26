@@ -213,7 +213,7 @@ await / 0 /u
                     "end": 58
                 },
                 "expression": {
-                    "kind": 221,
+                    "kind": 371,
                     "text": "/ 0 /u",
                     "flags": 96,
                     "start": 58,

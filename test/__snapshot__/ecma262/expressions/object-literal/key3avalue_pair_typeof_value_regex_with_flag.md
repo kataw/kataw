@@ -44,7 +44,7 @@
                                         "end": 13
                                     },
                                     "operand": {
-                                        "kind": 221,
+                                        "kind": 371,
                                         "text": "/x/g",
                                         "flags": 96,
                                         "start": 13,

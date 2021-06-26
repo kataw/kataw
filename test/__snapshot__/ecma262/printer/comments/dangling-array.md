@@ -93,7 +93,7 @@ expect(() => {}).toTriggerReadyStateChanges([
                         "start": 17,
                         "end": 43
                     },
-                    "flags": 536870944,
+                    "flags": 268435488,
                     "start": 0,
                     "end": 43
                 },

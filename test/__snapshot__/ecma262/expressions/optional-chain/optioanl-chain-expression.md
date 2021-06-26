@@ -43,7 +43,7 @@ a.b?.c()
                         "start": 2,
                         "end": 3
                     },
-                    "flags": 536870944,
+                    "flags": 96,
                     "start": 0,
                     "end": 3
                 },

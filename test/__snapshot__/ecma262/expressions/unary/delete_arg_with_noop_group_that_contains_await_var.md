@@ -96,7 +96,7 @@ delete (((((foo(await)))))).bar
                         "start": 28,
                         "end": 31
                     },
-                    "flags": 536870944,
+                    "flags": 32,
                     "start": 6,
                     "end": 31
                 },

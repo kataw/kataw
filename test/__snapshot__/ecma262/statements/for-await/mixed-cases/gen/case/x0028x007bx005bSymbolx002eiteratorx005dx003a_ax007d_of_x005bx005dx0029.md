@@ -140,7 +140,7 @@ async function f() { let a; for await ({[Symbol.iterator]: a} of []) ; }
                                                         "start": 48,
                                                         "end": 56
                                                     },
-                                                    "flags": 536870944,
+                                                    "flags": 96,
                                                     "start": 41,
                                                     "end": 56
                                                 },

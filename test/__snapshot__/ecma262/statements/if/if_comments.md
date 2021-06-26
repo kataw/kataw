@@ -253,7 +253,7 @@ async function f5() {
                                                                 "start": 152,
                                                                 "end": 158
                                                             },
-                                                            "flags": 536870944,
+                                                            "flags": 96,
                                                             "start": 140,
                                                             "end": 158
                                                         },
@@ -280,7 +280,7 @@ async function f5() {
                                                                             "start": 165,
                                                                             "end": 169
                                                                         },
-                                                                        "flags": 536870944,
+                                                                        "flags": 96,
                                                                         "start": 159,
                                                                         "end": 169
                                                                     },
@@ -307,7 +307,7 @@ async function f5() {
                                                                                         "start": 187,
                                                                                         "end": 191
                                                                                     },
-                                                                                    "flags": 536870944,
+                                                                                    "flags": 96,
                                                                                     "start": 170,
                                                                                     "end": 191
                                                                                 },
@@ -1218,7 +1218,7 @@ async function f5() {
                                                                 "start": 975,
                                                                 "end": 981
                                                             },
-                                                            "flags": 536870944,
+                                                            "flags": 96,
                                                             "start": 963,
                                                             "end": 981
                                                         },
@@ -1245,7 +1245,7 @@ async function f5() {
                                                                             "start": 988,
                                                                             "end": 992
                                                                         },
-                                                                        "flags": 536870944,
+                                                                        "flags": 96,
                                                                         "start": 982,
                                                                         "end": 992
                                                                     },
@@ -1272,7 +1272,7 @@ async function f5() {
                                                                                         "start": 1010,
                                                                                         "end": 1014
                                                                                     },
-                                                                                    "flags": 536870944,
+                                                                                    "flags": 96,
                                                                                     "start": 993,
                                                                                     "end": 1014
                                                                                 },
@@ -1657,7 +1657,7 @@ async function f5() {
                                                                 "start": 1304,
                                                                 "end": 1310
                                                             },
-                                                            "flags": 536870944,
+                                                            "flags": 96,
                                                             "start": 1292,
                                                             "end": 1310
                                                         },
@@ -1684,7 +1684,7 @@ async function f5() {
                                                                             "start": 1317,
                                                                             "end": 1321
                                                                         },
-                                                                        "flags": 536870944,
+                                                                        "flags": 96,
                                                                         "start": 1311,
                                                                         "end": 1321
                                                                     },
@@ -1711,7 +1711,7 @@ async function f5() {
                                                                                         "start": 1339,
                                                                                         "end": 1343
                                                                                     },
-                                                                                    "flags": 536870944,
+                                                                                    "flags": 96,
                                                                                     "start": 1322,
                                                                                     "end": 1343
                                                                                 },

@@ -63,7 +63,7 @@ for ({}[y] ^= x;;) x;
                         "start": 8,
                         "end": 9
                     },
-                    "flags": 536870944,
+                    "flags": 32,
                     "start": 0,
                     "end": 9
                 },
@@ -215,7 +215,7 @@ for ({}[y] ^= x;;) x;
                         "start": 54,
                         "end": 55
                     },
-                    "flags": 536870944,
+                    "flags": 32,
                     "start": 44,
                     "end": 55
                 },

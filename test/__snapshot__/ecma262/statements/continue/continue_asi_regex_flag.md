@@ -67,7 +67,7 @@ for (x of 3) continue
         {
             "kind": 120,
             "expression": {
-                "kind": 221,
+                "kind": 371,
                 "text": "/x/g",
                 "flags": 96,
                 "start": 21,

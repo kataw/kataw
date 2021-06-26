@@ -147,7 +147,7 @@ var x, y, z; for (x in { import.meta } = z = {});
                     "start": 32,
                     "end": 36
                 },
-                "flags": 536870944,
+                "flags": 48,
                 "start": 22,
                 "end": 36
             },

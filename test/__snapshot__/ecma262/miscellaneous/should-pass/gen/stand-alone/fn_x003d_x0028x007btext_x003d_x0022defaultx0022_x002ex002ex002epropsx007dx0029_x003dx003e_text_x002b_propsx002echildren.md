@@ -158,7 +158,7 @@ fn = ({text = "default", ...props}) => text + props.children
                                 "start": 52,
                                 "end": 60
                             },
-                            "flags": 536870944,
+                            "flags": 96,
                             "start": 45,
                             "end": 60
                         },

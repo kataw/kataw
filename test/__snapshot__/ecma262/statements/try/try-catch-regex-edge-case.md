@@ -60,7 +60,7 @@ try/catch/finally/{
             "expression": {
                 "kind": 198,
                 "left": {
-                    "kind": 221,
+                    "kind": 371,
                     "text": "/catch/finally",
                     "flags": 96,
                     "start": 3,

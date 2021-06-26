@@ -30,7 +30,7 @@
                     "operand": {
                         "kind": 129,
                         "member": {
-                            "kind": 221,
+                            "kind": 371,
                             "text": "/a/g",
                             "flags": 96,
                             "start": 7,
@@ -44,7 +44,7 @@
                             "start": 13,
                             "end": 14
                         },
-                        "flags": 536870944,
+                        "flags": 96,
                         "start": 7,
                         "end": 14
                     },

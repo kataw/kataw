@@ -56,6 +56,7 @@ type Foo<T> = Bar<T>
                                 "end": 10
                             },
                             "type": null,
+                            "assignToken": null,
                             "defaultType": null,
                             "flags": 2097152,
                             "start": 9,

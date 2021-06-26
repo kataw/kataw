@@ -36,7 +36,7 @@ do( /**/ /x do while while
                 "expression": {
                     "kind": 121,
                     "expression": {
-                        "kind": 221,
+                        "kind": 371,
                         "text": "/x do while while",
                         "flags": 96,
                         "start": 3,

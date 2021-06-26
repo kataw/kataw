@@ -132,7 +132,7 @@ class x extends y { constructor() { log(super.foo); super.mom; } }
                                                                     "start": 46,
                                                                     "end": 49
                                                                 },
-                                                                "flags": 536870944,
+                                                                "flags": 96,
                                                                 "start": 40,
                                                                 "end": 49
                                                             }
@@ -174,7 +174,7 @@ class x extends y { constructor() { log(super.foo); super.mom; } }
                                                         "start": 58,
                                                         "end": 61
                                                     },
-                                                    "flags": 536870944,
+                                                    "flags": 96,
                                                     "start": 51,
                                                     "end": 61
                                                 },

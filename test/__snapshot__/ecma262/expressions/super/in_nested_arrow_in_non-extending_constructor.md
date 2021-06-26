@@ -143,7 +143,7 @@ class x { constructor(){ return () => () => super.foo; }}
                                                                 "start": 50,
                                                                 "end": 53
                                                             },
-                                                            "flags": 536870944,
+                                                            "flags": 96,
                                                             "start": 43,
                                                             "end": 53
                                                         },

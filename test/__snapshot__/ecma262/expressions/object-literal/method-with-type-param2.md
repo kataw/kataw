@@ -83,6 +83,7 @@ a={*id<T>(x: T): T {}}
                                                         "end": 8
                                                     },
                                                     "type": null,
+                                                    "assignToken": null,
                                                     "defaultType": null,
                                                     "flags": 2097152,
                                                     "start": 7,

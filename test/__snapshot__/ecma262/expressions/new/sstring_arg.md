@@ -50,7 +50,7 @@ new 'foo'.__proto__.constructor
                         "start": 10,
                         "end": 19
                     },
-                    "flags": 536870944,
+                    "flags": 96,
                     "start": 0,
                     "end": 19
                 },
@@ -62,7 +62,7 @@ new 'foo'.__proto__.constructor
                     "start": 20,
                     "end": 31
                 },
-                "flags": 536870944,
+                "flags": 96,
                 "start": 0,
                 "end": 31
             },

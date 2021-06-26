@@ -112,7 +112,7 @@ class C { *method() { super; } }
                                                         "start": 27,
                                                         "end": 27
                                                     },
-                                                    "flags": 536870944,
+                                                    "flags": 32,
                                                     "start": 21,
                                                     "end": 27
                                                 },

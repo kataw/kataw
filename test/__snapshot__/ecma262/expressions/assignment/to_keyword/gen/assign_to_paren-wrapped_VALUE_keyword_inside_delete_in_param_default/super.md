@@ -100,7 +100,7 @@ function *f(x = delete ((super) = f)) {}
                                                 "start": 30,
                                                 "end": 30
                                             },
-                                            "flags": 536870944,
+                                            "flags": 32,
                                             "start": 25,
                                             "end": 30
                                         },

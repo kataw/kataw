@@ -54,6 +54,7 @@ type x<y> = z<<q>(r) => s>
                                 "end": 8
                             },
                             "type": null,
+                            "assignToken": null,
                             "defaultType": null,
                             "flags": 2097152,
                             "start": 7,
@@ -116,6 +117,7 @@ type x<y> = z<<q>(r) => s>
                                                             "end": 16
                                                         },
                                                         "type": null,
+                                                        "assignToken": null,
                                                         "defaultType": null,
                                                         "flags": 2097152,
                                                         "start": 15,

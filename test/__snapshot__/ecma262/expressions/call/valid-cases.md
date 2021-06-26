@@ -55,7 +55,7 @@ x(class {} ?? 1);
                         {
                             "kind": 198,
                             "left": {
-                                "kind": 221,
+                                "kind": 371,
                                 "text": "/./",
                                 "flags": 96,
                                 "start": 2,

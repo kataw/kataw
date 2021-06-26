@@ -32,7 +32,7 @@ for (/more crap/g in x) ;
                 "end": 3
             },
             "initializer": {
-                "kind": 221,
+                "kind": 371,
                 "text": "/more crap/g",
                 "flags": 96,
                 "start": 5,

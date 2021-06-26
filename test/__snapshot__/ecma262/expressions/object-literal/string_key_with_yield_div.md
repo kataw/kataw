@@ -99,7 +99,7 @@ function *f(){   s = {"foo": yield / x}   }
                                                     "delegate": false,
                                                     "asteriskToken": null,
                                                     "expression": {
-                                                        "kind": 221,
+                                                        "kind": 371,
                                                         "text": "/ x}   }",
                                                         "flags": 96,
                                                         "start": 34,

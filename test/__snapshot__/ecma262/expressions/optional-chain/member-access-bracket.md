@@ -311,7 +311,7 @@ obj.a?.[true]
                                 "start": 73,
                                 "end": 74
                             },
-                            "flags": 536870944,
+                            "flags": 32,
                             "start": 0,
                             "end": 74
                         },
@@ -362,7 +362,7 @@ obj.a?.[true]
                         "start": 88,
                         "end": 89
                     },
-                    "flags": 536870944,
+                    "flags": 32,
                     "start": 0,
                     "end": 89
                 },

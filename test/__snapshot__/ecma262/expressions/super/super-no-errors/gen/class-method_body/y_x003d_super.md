@@ -123,7 +123,7 @@ class C { m() { y = super; }
                                                             "start": 25,
                                                             "end": 25
                                                         },
-                                                        "flags": 536870944,
+                                                        "flags": 32,
                                                         "start": 19,
                                                         "end": 25
                                                     },

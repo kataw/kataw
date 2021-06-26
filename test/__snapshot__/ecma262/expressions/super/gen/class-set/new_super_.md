@@ -129,7 +129,7 @@ class C { set x(_) { new super; } }
                                                             "start": 30,
                                                             "end": 30
                                                         },
-                                                        "flags": 536870944,
+                                                        "flags": 32,
                                                         "start": 24,
                                                         "end": 30
                                                     },

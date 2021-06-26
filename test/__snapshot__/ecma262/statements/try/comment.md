@@ -97,7 +97,7 @@ fn(function f() {
                                         "start": 52,
                                         "end": 55
                                     },
-                                    "flags": 536870944,
+                                    "flags": 96,
                                     "start": 22,
                                     "end": 55
                                 },
@@ -195,7 +195,7 @@ fn(function f() {
                                             "start": 119,
                                             "end": 122
                                         },
-                                        "flags": 536870944,
+                                        "flags": 96,
                                         "start": 84,
                                         "end": 122
                                     },
@@ -311,7 +311,7 @@ fn(function f() {
                                                             "start": 193,
                                                             "end": 196
                                                         },
-                                                        "flags": 536870944,
+                                                        "flags": 96,
                                                         "start": 158,
                                                         "end": 196
                                                     },

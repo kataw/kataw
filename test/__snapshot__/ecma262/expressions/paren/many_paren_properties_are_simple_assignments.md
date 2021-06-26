@@ -54,7 +54,7 @@
                                                             "start": 9,
                                                             "end": 10
                                                         },
-                                                        "flags": 536870944,
+                                                        "flags": 96,
                                                         "start": 6,
                                                         "end": 10
                                                     },

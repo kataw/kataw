@@ -97,7 +97,7 @@ export function bar() {
                                                     "start": 37,
                                                     "end": 38
                                                 },
-                                                "flags": 536870944,
+                                                "flags": 96,
                                                 "start": 34,
                                                 "end": 38
                                             },
@@ -109,7 +109,7 @@ export function bar() {
                                                 "start": 39,
                                                 "end": 40
                                             },
-                                            "flags": 536870944,
+                                            "flags": 96,
                                             "start": 34,
                                             "end": 40
                                         },
@@ -121,7 +121,7 @@ export function bar() {
                                             "start": 41,
                                             "end": 44
                                         },
-                                        "flags": 536870944,
+                                        "flags": 96,
                                         "start": 34,
                                         "end": 44
                                     },

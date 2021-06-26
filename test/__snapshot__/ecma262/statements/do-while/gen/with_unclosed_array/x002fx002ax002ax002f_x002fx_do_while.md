@@ -39,7 +39,7 @@ do[ /**/ /x do while
                         "kind": 270,
                         "elements": [
                             {
-                                "kind": 221,
+                                "kind": 371,
                                 "text": "/x do while",
                                 "flags": 96,
                                 "start": 3,

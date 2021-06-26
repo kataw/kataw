@@ -131,7 +131,7 @@ await (var {[Symbol.iterator]: a = 1} of []) { } }
                                                                         "start": 61,
                                                                         "end": 69
                                                                     },
-                                                                    "flags": 536870944,
+                                                                    "flags": 96,
                                                                     "start": 54,
                                                                     "end": 69
                                                                 },

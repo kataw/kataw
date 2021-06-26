@@ -25,7 +25,7 @@ throw
                 "end": 5
             },
             "expression": {
-                "kind": 221,
+                "kind": 371,
                 "text": "/x/g",
                 "flags": 96,
                 "start": 5,

@@ -1001,7 +1001,7 @@ const foo3 = 123
                         "start": 577,
                         "end": 584
                     },
-                    "flags": 536870944,
+                    "flags": 32,
                     "start": 566,
                     "end": 584
                 },
@@ -1047,7 +1047,7 @@ const foo3 = 123
                                         "start": 598,
                                         "end": 601
                                     },
-                                    "flags": 536870944,
+                                    "flags": 96,
                                     "start": 589,
                                     "end": 601
                                 },

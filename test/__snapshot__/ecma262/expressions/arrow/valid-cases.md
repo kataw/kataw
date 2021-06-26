@@ -689,7 +689,7 @@ foo ? bar : baz => {};
                                             "start": 168,
                                             "end": 169
                                         },
-                                        "flags": 536870944,
+                                        "flags": 96,
                                         "start": 165,
                                         "end": 169
                                     },
@@ -1193,7 +1193,7 @@ foo ? bar : baz => {};
                             "start": 283,
                             "end": 284
                         },
-                        "flags": 536870944,
+                        "flags": 96,
                         "start": 280,
                         "end": 284
                     },

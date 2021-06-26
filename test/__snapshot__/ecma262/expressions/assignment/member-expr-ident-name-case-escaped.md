@@ -96,7 +96,7 @@ obj.c\u0061se = 42;
                         "start": 19,
                         "end": 28
                     },
-                    "flags": 536870944,
+                    "flags": 96,
                     "start": 13,
                     "end": 28
                 },

@@ -66,6 +66,7 @@ opaque type MyObject<A, B, C>: { foo: A, bar: B } = {
                                 "end": 22
                             },
                             "type": null,
+                            "assignToken": null,
                             "defaultType": null,
                             "flags": 2097152,
                             "start": 21,
@@ -82,6 +83,7 @@ opaque type MyObject<A, B, C>: { foo: A, bar: B } = {
                                 "end": 25
                             },
                             "type": null,
+                            "assignToken": null,
                             "defaultType": null,
                             "flags": 2097152,
                             "start": 23,
@@ -98,6 +100,7 @@ opaque type MyObject<A, B, C>: { foo: A, bar: B } = {
                                 "end": 28
                             },
                             "type": null,
+                            "assignToken": null,
                             "defaultType": null,
                             "flags": 2097152,
                             "start": 26,

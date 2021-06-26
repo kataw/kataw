@@ -160,7 +160,7 @@ var x, y, z; for (x of x = [super] = z = {});
                                         "start": 33,
                                         "end": 33
                                     },
-                                    "flags": 536870944,
+                                    "flags": 32,
                                     "start": 28,
                                     "end": 33
                                 }

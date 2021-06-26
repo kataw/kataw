@@ -103,7 +103,7 @@ class X {
                                                                 "start": 25,
                                                                 "end": 33
                                                             },
-                                                            "flags": 536870944,
+                                                            "flags": 268435488,
                                                             "start": 14,
                                                             "end": 33
                                                         },

@@ -53,7 +53,7 @@ for (super.foo in x) ;
                     "start": 11,
                     "end": 14
                 },
-                "flags": 536870944,
+                "flags": 96,
                 "start": 5,
                 "end": 14
             },

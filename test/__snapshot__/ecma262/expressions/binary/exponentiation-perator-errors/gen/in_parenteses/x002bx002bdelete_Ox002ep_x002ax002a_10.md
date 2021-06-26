@@ -166,7 +166,7 @@ var O = { p: 1 }, x = 10; ; (++delete O.p ** 10)
                                     "start": 40,
                                     "end": 41
                                 },
-                                "flags": 536870944,
+                                "flags": 96,
                                 "start": 37,
                                 "end": 41
                             },

@@ -105,7 +105,7 @@ async function f() { for await
                                                         "start": 41,
                                                         "end": 49
                                                     },
-                                                    "flags": 536870944,
+                                                    "flags": 96,
                                                     "start": 34,
                                                     "end": 49
                                                 },

@@ -90,7 +90,7 @@ function *f(x = (super) = f) {}
                                         "start": 22,
                                         "end": 22
                                     },
-                                    "flags": 536870944,
+                                    "flags": 32,
                                     "start": 17,
                                     "end": 22
                                 },

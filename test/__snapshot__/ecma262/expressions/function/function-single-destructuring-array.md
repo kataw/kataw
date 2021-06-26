@@ -944,7 +944,7 @@ promise.then(([firstResult, secondResult, thirdResult, fourthResult, fifthResult
                         "start": 617,
                         "end": 621
                     },
-                    "flags": 536870944,
+                    "flags": 96,
                     "start": 607,
                     "end": 621
                 },

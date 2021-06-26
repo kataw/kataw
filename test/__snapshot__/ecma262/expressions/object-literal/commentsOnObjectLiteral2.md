@@ -133,7 +133,7 @@ var Person = makeClass(
                                                                                     "start": 234,
                                                                                     "end": 238
                                                                                 },
-                                                                                "flags": 536870944,
+                                                                                "flags": 97,
                                                                                 "start": 217,
                                                                                 "end": 238
                                                                             },

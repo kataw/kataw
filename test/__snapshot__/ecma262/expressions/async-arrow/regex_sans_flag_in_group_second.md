@@ -37,7 +37,7 @@ async (x, /x/g) => x
                         "end": 8
                     },
                     {
-                        "kind": 221,
+                        "kind": 371,
                         "text": "/x/g",
                         "flags": 96,
                         "start": 9,

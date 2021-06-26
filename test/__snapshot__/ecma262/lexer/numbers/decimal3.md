@@ -107,7 +107,7 @@
                 "kind": 201392130,
                 "text": 0,
                 "rawText": "0.e-100",
-                "flags": 97,
+                "flags": 32865,
                 "start": 35,
                 "end": 43
             },
@@ -121,7 +121,7 @@
                 "kind": 201392130,
                 "text": 1e-100,
                 "rawText": "1.e-100",
-                "flags": 97,
+                "flags": 32865,
                 "start": 45,
                 "end": 53
             },
@@ -135,7 +135,7 @@
                 "kind": 201392130,
                 "text": 0,
                 "rawText": "0.E-100",
-                "flags": 97,
+                "flags": 32865,
                 "start": 55,
                 "end": 63
             },
@@ -149,7 +149,7 @@
                 "kind": 201392130,
                 "text": 1e-100,
                 "rawText": "1.E-100",
-                "flags": 97,
+                "flags": 32865,
                 "start": 65,
                 "end": 73
             },
@@ -163,7 +163,7 @@
                 "kind": 201392130,
                 "text": 1e-101,
                 "rawText": "0.1e-100",
-                "flags": 97,
+                "flags": 32865,
                 "start": 75,
                 "end": 84
             },
@@ -177,7 +177,7 @@
                 "kind": 201392130,
                 "text": 1.1e-100,
                 "rawText": "1.1e-100",
-                "flags": 97,
+                "flags": 32865,
                 "start": 86,
                 "end": 95
             },
@@ -191,7 +191,7 @@
                 "kind": 201392130,
                 "text": 1e-101,
                 "rawText": "0.1E-100",
-                "flags": 97,
+                "flags": 32865,
                 "start": 97,
                 "end": 106
             },
@@ -205,7 +205,7 @@
                 "kind": 201392130,
                 "text": 1.1e-100,
                 "rawText": "1.1E-100",
-                "flags": 97,
+                "flags": 32865,
                 "start": 108,
                 "end": 117
             },

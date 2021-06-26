@@ -182,7 +182,7 @@ class x extends y { constructor() { let xx = x + x; super.mom; } }
                                                         "start": 58,
                                                         "end": 61
                                                     },
-                                                    "flags": 536870944,
+                                                    "flags": 96,
                                                     "start": 51,
                                                     "end": 61
                                                 },

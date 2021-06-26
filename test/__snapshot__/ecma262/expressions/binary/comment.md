@@ -115,7 +115,7 @@ foo[
                                                 "start": 29,
                                                 "end": 35
                                             },
-                                            "flags": 536870944,
+                                            "flags": 96,
                                             "start": 5,
                                             "end": 35
                                         },

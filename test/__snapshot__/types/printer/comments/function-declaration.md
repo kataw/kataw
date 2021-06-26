@@ -203,6 +203,7 @@ function /*1*/ constant/*2*/<T>(value/*3*/: T/*4*/): () => T {
                                 "end": 135
                             },
                             "type": null,
+                            "assignToken": null,
                             "defaultType": null,
                             "flags": 2097152,
                             "start": 134,
@@ -449,6 +450,7 @@ function /*1*/ constant/*2*/<T>(value/*3*/: T/*4*/): () => T {
                                                     "end": 227
                                                 },
                                                 "type": null,
+                                                "assignToken": null,
                                                 "defaultType": null,
                                                 "flags": 2097152,
                                                 "start": 221,
@@ -521,6 +523,7 @@ function /*1*/ constant/*2*/<T>(value/*3*/: T/*4*/): () => T {
                                 "end": 270
                             },
                             "type": null,
+                            "assignToken": null,
                             "defaultType": null,
                             "flags": 2097152,
                             "start": 269,
@@ -683,6 +686,7 @@ function /*1*/ constant/*2*/<T>(value/*3*/: T/*4*/): () => T {
                                                     "end": 348
                                                 },
                                                 "type": null,
+                                                "assignToken": null,
                                                 "defaultType": null,
                                                 "flags": 2097152,
                                                 "start": 341,
@@ -848,6 +852,7 @@ function /*1*/ constant/*2*/<T>(value/*3*/: T/*4*/): () => T {
                                 "end": 439
                             },
                             "type": null,
+                            "assignToken": null,
                             "defaultType": null,
                             "flags": 2097152,
                             "start": 438,

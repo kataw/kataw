@@ -122,7 +122,7 @@ class C { m() { foo(super = x); } }
                                                                         "start": 25,
                                                                         "end": 25
                                                                     },
-                                                                    "flags": 536870944,
+                                                                    "flags": 32,
                                                                     "start": 20,
                                                                     "end": 25
                                                                 },

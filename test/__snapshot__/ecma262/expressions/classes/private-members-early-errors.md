@@ -119,7 +119,7 @@ class C { foo() { this.#a = 1; }}
                                                                         "start": 28,
                                                                         "end": 30
                                                                     },
-                                                                    "flags": 536870944,
+                                                                    "flags": 96,
                                                                     "start": 22,
                                                                     "end": 30
                                                                 },
@@ -263,7 +263,7 @@ class C { foo() { this.#a = 1; }}
                                                                         "start": 75,
                                                                         "end": 77
                                                                     },
-                                                                    "flags": 536870944,
+                                                                    "flags": 96,
                                                                     "start": 69,
                                                                     "end": 77
                                                                 },
@@ -419,7 +419,7 @@ class C { foo() { this.#a = 1; }}
                                                         "start": 126,
                                                         "end": 128
                                                     },
-                                                    "flags": 536870944,
+                                                    "flags": 96,
                                                     "start": 120,
                                                     "end": 128
                                                 },
@@ -537,7 +537,7 @@ class C { foo() { this.#a = 1; }}
                                                             "start": 157,
                                                             "end": 159
                                                         },
-                                                        "flags": 536870944,
+                                                        "flags": 96,
                                                         "start": 151,
                                                         "end": 159
                                                     },

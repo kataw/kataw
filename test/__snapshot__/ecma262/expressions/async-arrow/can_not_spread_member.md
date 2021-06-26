@@ -58,7 +58,7 @@ async ([...x.y]) => z
                                             "start": 13,
                                             "end": 14
                                         },
-                                        "flags": 536870944,
+                                        "flags": 96,
                                         "start": 11,
                                         "end": 14
                                     },

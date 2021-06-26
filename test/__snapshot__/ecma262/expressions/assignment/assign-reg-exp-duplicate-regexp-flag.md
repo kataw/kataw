@@ -46,7 +46,7 @@ x = /x/xxx;
                     "end": 3
                 },
                 "right": {
-                    "kind": 221,
+                    "kind": 371,
                     "text": "/x/msuygig",
                     "flags": 96,
                     "start": 3,
@@ -79,7 +79,7 @@ x = /x/xxx;
                     "end": 19
                 },
                 "right": {
-                    "kind": 221,
+                    "kind": 371,
                     "text": "/x/mmsig",
                     "flags": 96,
                     "start": 19,
@@ -112,7 +112,7 @@ x = /x/xxx;
                     "end": 33
                 },
                 "right": {
-                    "kind": 221,
+                    "kind": 371,
                     "text": "/x/ssug",
                     "flags": 96,
                     "start": 33,
@@ -145,7 +145,7 @@ x = /x/xxx;
                     "end": 46
                 },
                 "right": {
-                    "kind": 221,
+                    "kind": 371,
                     "text": "/x/suuygig",
                     "flags": 96,
                     "start": 46,
@@ -178,7 +178,7 @@ x = /x/xxx;
                     "end": 62
                 },
                 "right": {
-                    "kind": 221,
+                    "kind": 371,
                     "text": "/x/msyygi",
                     "flags": 96,
                     "start": 62,
@@ -211,7 +211,7 @@ x = /x/xxx;
                     "end": 77
                 },
                 "right": {
-                    "kind": 221,
+                    "kind": 371,
                     "text": "/x/msii",
                     "flags": 96,
                     "start": 77,
@@ -244,7 +244,7 @@ x = /x/xxx;
                     "end": 124
                 },
                 "right": {
-                    "kind": 221,
+                    "kind": 371,
                     "text": "/x/xxx",
                     "flags": 96,
                     "start": 124,

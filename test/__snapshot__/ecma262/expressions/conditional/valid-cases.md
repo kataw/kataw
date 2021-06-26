@@ -1570,7 +1570,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                         "start": 341,
                         "end": 342
                     },
-                    "flags": 536870944,
+                    "flags": 96,
                     "start": 338,
                     "end": 342
                 },
@@ -1598,7 +1598,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                         "start": 347,
                         "end": 348
                     },
-                    "flags": 536870944,
+                    "flags": 96,
                     "start": 344,
                     "end": 348
                 },
@@ -2232,7 +2232,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                             "start": 466,
                             "end": 467
                         },
-                        "flags": 536870944,
+                        "flags": 96,
                         "start": 463,
                         "end": 467
                     },
@@ -2317,7 +2317,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                             "start": 482,
                             "end": 483
                         },
-                        "flags": 536870944,
+                        "flags": 96,
                         "start": 479,
                         "end": 483
                     },
@@ -2718,7 +2718,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                         "start": 555,
                         "end": 556
                     },
-                    "flags": 536870944,
+                    "flags": 96,
                     "start": 552,
                     "end": 556
                 },
@@ -3047,7 +3047,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                             "start": 621,
                             "end": 622
                         },
-                        "flags": 536870944,
+                        "flags": 96,
                         "start": 618,
                         "end": 622
                     },
@@ -3132,7 +3132,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                             "start": 637,
                             "end": 638
                         },
-                        "flags": 536870944,
+                        "flags": 96,
                         "start": 634,
                         "end": 638
                     },

@@ -147,7 +147,7 @@ x={ foo(){ return () => function() { super.foo; } }}
                                                                                     "start": 43,
                                                                                     "end": 46
                                                                                 },
-                                                                                "flags": 536870944,
+                                                                                "flags": 96,
                                                                                 "start": 36,
                                                                                 "end": 46
                                                                             },

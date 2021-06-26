@@ -99,7 +99,7 @@ x={ foo: function(){ super.foo; }}
                                                             "start": 27,
                                                             "end": 30
                                                         },
-                                                        "flags": 536870944,
+                                                        "flags": 96,
                                                         "start": 20,
                                                         "end": 30
                                                     },

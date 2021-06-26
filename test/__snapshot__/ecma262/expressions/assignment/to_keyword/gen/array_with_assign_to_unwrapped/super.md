@@ -73,7 +73,7 @@ async x => super = 1
                             "start": 16,
                             "end": 16
                         },
-                        "flags": 536870944,
+                        "flags": 32,
                         "start": 10,
                         "end": 16
                     },

@@ -63,6 +63,7 @@ export default function <T>() {}
                                     "end": 26
                                 },
                                 "type": null,
+                                "assignToken": null,
                                 "defaultType": null,
                                 "flags": 2097152,
                                 "start": 25,

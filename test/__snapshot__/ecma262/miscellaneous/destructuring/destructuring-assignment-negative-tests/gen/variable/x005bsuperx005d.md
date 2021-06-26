@@ -125,7 +125,7 @@ var x, y, z; ([super] = {});
                                         "start": 20,
                                         "end": 20
                                     },
-                                    "flags": 536870944,
+                                    "flags": 32,
                                     "start": 15,
                                     "end": 20
                                 }

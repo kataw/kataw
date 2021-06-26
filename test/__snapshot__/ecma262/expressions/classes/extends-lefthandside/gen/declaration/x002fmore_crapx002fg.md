@@ -53,7 +53,7 @@ class A extends /more crap/g {}
                         "end": 15
                     },
                     "expression": {
-                        "kind": 221,
+                        "kind": 371,
                         "text": "/more crap/g",
                         "flags": 96,
                         "start": 15,

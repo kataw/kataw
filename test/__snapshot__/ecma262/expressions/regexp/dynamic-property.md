@@ -18,7 +18,7 @@
         {
             "kind": 120,
             "expression": {
-                "kind": 221,
+                "kind": 371,
                 "text": "/++!{class",
                 "flags": 96,
                 "start": 2,

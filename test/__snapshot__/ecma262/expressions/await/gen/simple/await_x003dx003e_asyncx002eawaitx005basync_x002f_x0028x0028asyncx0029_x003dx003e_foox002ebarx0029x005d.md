@@ -64,7 +64,7 @@ await => async.await[async / ((async) => foo.bar)]
                             "start": 15,
                             "end": 20
                         },
-                        "flags": 536870944,
+                        "flags": 96,
                         "start": 8,
                         "end": 20
                     },
@@ -132,7 +132,7 @@ await => async.await[async / ((async) => foo.bar)]
                                         "start": 45,
                                         "end": 48
                                     },
-                                    "flags": 536870944,
+                                    "flags": 96,
                                     "start": 40,
                                     "end": 48
                                 },

@@ -74,7 +74,7 @@ class x extends super {}
                             "start": 21,
                             "end": 21
                         },
-                        "flags": 536870944,
+                        "flags": 32,
                         "start": 15,
                         "end": 21
                     },

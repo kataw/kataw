@@ -49,7 +49,7 @@ for (456..x of c) d;
                     "kind": 201392130,
                     "text": 456,
                     "rawText": "456.",
-                    "flags": 96,
+                    "flags": 32864,
                     "start": 5,
                     "end": 9
                 },
@@ -61,7 +61,7 @@ for (456..x of c) d;
                     "start": 10,
                     "end": 11
                 },
-                "flags": 536870944,
+                "flags": 32864,
                 "start": 5,
                 "end": 11
             },

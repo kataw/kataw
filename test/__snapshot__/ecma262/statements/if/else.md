@@ -182,7 +182,7 @@ function f() {
                                                             "start": 148,
                                                             "end": 157
                                                         },
-                                                        "flags": 536870944,
+                                                        "flags": 96,
                                                         "start": 137,
                                                         "end": 157
                                                     },
@@ -250,7 +250,7 @@ function f() {
                                                             "start": 184,
                                                             "end": 193
                                                         },
-                                                        "flags": 536870944,
+                                                        "flags": 96,
                                                         "start": 171,
                                                         "end": 193
                                                     },
@@ -481,7 +481,7 @@ function f() {
                                                             "start": 306,
                                                             "end": 315
                                                         },
-                                                        "flags": 536870944,
+                                                        "flags": 96,
                                                         "start": 288,
                                                         "end": 315
                                                     },
@@ -549,7 +549,7 @@ function f() {
                                                             "start": 348,
                                                             "end": 357
                                                         },
-                                                        "flags": 536870944,
+                                                        "flags": 96,
                                                         "start": 329,
                                                         "end": 357
                                                     },

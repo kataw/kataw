@@ -45,7 +45,7 @@ for (/foo/[x] in c) d;
             "initializer": {
                 "kind": 130,
                 "member": {
-                    "kind": 221,
+                    "kind": 371,
                     "text": "/foo/",
                     "flags": 96,
                     "start": 5,

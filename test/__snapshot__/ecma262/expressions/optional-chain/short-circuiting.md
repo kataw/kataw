@@ -181,7 +181,7 @@ undefined?.b.c(++x).d; // long short-circuiting.
                     "start": 42,
                     "end": 43
                 },
-                "flags": 536870944,
+                "flags": 268435488,
                 "start": 0,
                 "end": 43
             },
@@ -350,7 +350,7 @@ undefined?.b.c(++x).d; // long short-circuiting.
                     "start": 130,
                     "end": 131
                 },
-                "flags": 536870944,
+                "flags": 268435488,
                 "start": 44,
                 "end": 131
             },

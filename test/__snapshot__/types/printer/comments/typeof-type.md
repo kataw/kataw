@@ -85,7 +85,7 @@ let num3: /*1*/ typeof /*2*/ num1 = 3.14;     // Works!
                             "kind": 201392130,
                             "text": 3.14,
                             "rawText": "3.14",
-                            "flags": 96,
+                            "flags": 32864,
                             "start": 23,
                             "end": 28
                         },
@@ -162,7 +162,7 @@ let num3: /*1*/ typeof /*2*/ num1 = 3.14;     // Works!
                             "kind": 201392130,
                             "text": 3.14,
                             "rawText": "3.14",
-                            "flags": 96,
+                            "flags": 32864,
                             "start": 80,
                             "end": 85
                         },

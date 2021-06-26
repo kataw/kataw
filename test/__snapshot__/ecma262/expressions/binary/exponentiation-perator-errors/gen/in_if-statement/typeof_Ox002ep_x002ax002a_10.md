@@ -162,7 +162,7 @@ var O = { p: 1 }, x = 10; ; if (typeof O.p ** 10) { foo(); }
                             "start": 41,
                             "end": 42
                         },
-                        "flags": 536870944,
+                        "flags": 96,
                         "start": 38,
                         "end": 42
                     },

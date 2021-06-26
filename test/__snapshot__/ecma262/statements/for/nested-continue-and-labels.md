@@ -140,7 +140,7 @@ function relativeComplement() {
                                             "start": 65,
                                             "end": 71
                                         },
-                                        "flags": 536870944,
+                                        "flags": 96,
                                         "start": 57,
                                         "end": 71
                                     },
@@ -232,7 +232,7 @@ function relativeComplement() {
                                                                 "start": 121,
                                                                 "end": 127
                                                             },
-                                                            "flags": 536870944,
+                                                            "flags": 96,
                                                             "start": 113,
                                                             "end": 127
                                                         },
@@ -527,7 +527,7 @@ function relativeComplement() {
                                                             "start": 315,
                                                             "end": 319
                                                         },
-                                                        "flags": 536870944,
+                                                        "flags": 96,
                                                         "start": 305,
                                                         "end": 319
                                                     },

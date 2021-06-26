@@ -41,7 +41,7 @@ switch (this.a) { c\u0061se 6: break; }
                     "start": 13,
                     "end": 14
                 },
-                "flags": 536870944,
+                "flags": 96,
                 "start": 8,
                 "end": 14
             },
@@ -114,7 +114,7 @@ switch (this.a) { c\u0061se 6: break; }
                     "start": 55,
                     "end": 56
                 },
-                "flags": 536870944,
+                "flags": 96,
                 "start": 50,
                 "end": 56
             },

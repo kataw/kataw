@@ -74,7 +74,7 @@ async (x = (super) = f) => {}
                                         "start": 17,
                                         "end": 17
                                     },
-                                    "flags": 536870944,
+                                    "flags": 32,
                                     "start": 12,
                                     "end": 17
                                 },

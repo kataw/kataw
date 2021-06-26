@@ -45,6 +45,7 @@ async <T, U>(x)=>y
                                 "end": 8
                             },
                             "type": null,
+                            "assignToken": null,
                             "defaultType": null,
                             "flags": 2097152,
                             "start": 0,
@@ -61,6 +62,7 @@ async <T, U>(x)=>y
                                 "end": 11
                             },
                             "type": null,
+                            "assignToken": null,
                             "defaultType": null,
                             "flags": 2097152,
                             "start": 9,

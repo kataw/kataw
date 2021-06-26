@@ -66,7 +66,7 @@ for ({}.b in c) d;
                     "start": 8,
                     "end": 9
                 },
-                "flags": 536870944,
+                "flags": 48,
                 "start": 0,
                 "end": 9
             },

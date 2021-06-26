@@ -120,7 +120,7 @@ class Foo {
                                                         "start": 51,
                                                         "end": 54
                                                     },
-                                                    "flags": 536870944,
+                                                    "flags": 97,
                                                     "start": 41,
                                                     "end": 54
                                                 },
@@ -148,7 +148,7 @@ class Foo {
                                                         "start": 61,
                                                         "end": 64
                                                     },
-                                                    "flags": 536870944,
+                                                    "flags": 96,
                                                     "start": 56,
                                                     "end": 64
                                                 },

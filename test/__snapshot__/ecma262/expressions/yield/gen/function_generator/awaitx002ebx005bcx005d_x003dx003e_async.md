@@ -118,7 +118,7 @@ function * gen() { function not_gen() { await.b[c] => async }}
                                                         "start": 46,
                                                         "end": 47
                                                     },
-                                                    "flags": 536870944,
+                                                    "flags": 96,
                                                     "start": 39,
                                                     "end": 47
                                                 },

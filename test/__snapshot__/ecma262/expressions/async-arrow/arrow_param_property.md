@@ -46,7 +46,7 @@ async (a.b) => x;
                             "start": 9,
                             "end": 10
                         },
-                        "flags": 536870944,
+                        "flags": 96,
                         "start": 7,
                         "end": 10
                     }

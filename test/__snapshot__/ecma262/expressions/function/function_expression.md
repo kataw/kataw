@@ -81,7 +81,7 @@ new function() {};
                     "start": 16,
                     "end": 22
                 },
-                "flags": 536870944,
+                "flags": 32,
                 "start": 0,
                 "end": 22
             },

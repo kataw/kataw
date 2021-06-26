@@ -153,7 +153,7 @@ for (let i = 0; i < require('foo').bar; i++) {
                         "start": 35,
                         "end": 38
                     },
-                    "flags": 536870944,
+                    "flags": 268435488,
                     "start": 19,
                     "end": 38
                 },

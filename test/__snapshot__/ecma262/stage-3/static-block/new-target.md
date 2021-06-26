@@ -110,7 +110,7 @@ class Base {
                                                             "start": 40,
                                                             "end": 43
                                                         },
-                                                        "flags": 536870944,
+                                                        "flags": 97,
                                                         "start": 30,
                                                         "end": 43
                                                     },
@@ -207,7 +207,7 @@ class Base {
                                                                                                                 "start": 94,
                                                                                                                 "end": 97
                                                                                                             },
-                                                                                                            "flags": 536870944,
+                                                                                                            "flags": 97,
                                                                                                             "start": 80,
                                                                                                             "end": 97
                                                                                                         },

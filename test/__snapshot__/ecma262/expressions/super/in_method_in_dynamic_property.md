@@ -110,7 +110,7 @@ x = { foo(){ return x[super.foo]; }}
                                                                 "start": 28,
                                                                 "end": 31
                                                             },
-                                                            "flags": 536870944,
+                                                            "flags": 96,
                                                             "start": 22,
                                                             "end": 31
                                                         },

@@ -40,7 +40,7 @@
                             "start": 5,
                             "end": 8
                         },
-                        "flags": 536870944,
+                        "flags": 96,
                         "start": 0,
                         "end": 8
                     },
@@ -56,7 +56,7 @@
                     "start": 10,
                     "end": 13
                 },
-                "flags": 536870944,
+                "flags": 32,
                 "start": 0,
                 "end": 13
             },
@@ -88,7 +88,7 @@
                             "start": 20,
                             "end": 23
                         },
-                        "flags": 536870944,
+                        "flags": 96,
                         "start": 14,
                         "end": 23
                     },

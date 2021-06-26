@@ -97,6 +97,7 @@ type X = $Call<(<T>(T) => T) & (<T>(T) => T), A | B>;
                                                                             "end": 18
                                                                         },
                                                                         "type": null,
+                                                                        "assignToken": null,
                                                                         "defaultType": null,
                                                                         "flags": 2097152,
                                                                         "start": 17,
@@ -210,6 +211,7 @@ type X = $Call<(<T>(T) => T) & (<T>(T) => T), A | B>;
                                                                             "end": 34
                                                                         },
                                                                         "type": null,
+                                                                        "assignToken": null,
                                                                         "defaultType": null,
                                                                         "flags": 2097152,
                                                                         "start": 33,

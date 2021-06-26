@@ -360,7 +360,7 @@ const bem = block =>
                                                 "start": 660,
                                                 "end": 664
                                             },
-                                            "flags": 536870944,
+                                            "flags": 33,
                                             "start": 521,
                                             "end": 664
                                         },

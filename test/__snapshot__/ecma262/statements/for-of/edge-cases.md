@@ -48,7 +48,7 @@ for ((async) of x);
                     "start": 12,
                     "end": 13
                 },
-                "flags": 536870944,
+                "flags": 96,
                 "start": 6,
                 "end": 13
             },

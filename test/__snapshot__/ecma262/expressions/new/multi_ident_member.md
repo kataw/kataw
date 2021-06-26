@@ -54,7 +54,7 @@ new a.b.c.d()
                                 "start": 6,
                                 "end": 7
                             },
-                            "flags": 536870944,
+                            "flags": 96,
                             "start": 0,
                             "end": 7
                         },
@@ -66,7 +66,7 @@ new a.b.c.d()
                             "start": 8,
                             "end": 9
                         },
-                        "flags": 536870944,
+                        "flags": 96,
                         "start": 0,
                         "end": 9
                     },
@@ -78,7 +78,7 @@ new a.b.c.d()
                         "start": 10,
                         "end": 11
                     },
-                    "flags": 536870944,
+                    "flags": 96,
                     "start": 0,
                     "end": 11
                 },

@@ -94,7 +94,7 @@ async function p(){
                                         "end": 37
                                     },
                                     "expression": {
-                                        "kind": 221,
+                                        "kind": 371,
                                         "text": "/crap/",
                                         "flags": 96,
                                         "start": 37,

@@ -51,6 +51,12 @@ async <A = B, C = D>(x) => y;
                                     "end": 8
                                 },
                                 "type": null,
+                                "assignToken": {
+                                    "kind": 4125,
+                                    "flags": 64,
+                                    "start": 8,
+                                    "end": 10
+                                },
                                 "defaultType": {
                                     "kind": 139,
                                     "bitwiseOrToken": null,
@@ -89,6 +95,12 @@ async <A = B, C = D>(x) => y;
                                     "end": 15
                                 },
                                 "type": null,
+                                "assignToken": {
+                                    "kind": 4125,
+                                    "flags": 64,
+                                    "start": 15,
+                                    "end": 17
+                                },
                                 "defaultType": {
                                     "kind": 139,
                                     "bitwiseOrToken": null,
@@ -194,6 +206,12 @@ async <A = B, C = D>(x) => y;
                                         "end": 40
                                     },
                                     "type": null,
+                                    "assignToken": {
+                                        "kind": 4125,
+                                        "flags": 64,
+                                        "start": 40,
+                                        "end": 42
+                                    },
                                     "defaultType": {
                                         "kind": 139,
                                         "bitwiseOrToken": null,
@@ -232,6 +250,12 @@ async <A = B, C = D>(x) => y;
                                         "end": 47
                                     },
                                     "type": null,
+                                    "assignToken": {
+                                        "kind": 4125,
+                                        "flags": 64,
+                                        "start": 47,
+                                        "end": 49
+                                    },
                                     "defaultType": {
                                         "kind": 139,
                                         "bitwiseOrToken": null,

@@ -38,7 +38,7 @@ while (await /1/) { break; }
                     "end": 12
                 },
                 "expression": {
-                    "kind": 221,
+                    "kind": 371,
                     "text": "/1/",
                     "flags": 96,
                     "start": 12,

@@ -67,7 +67,7 @@ for (x of 3) break
         {
             "kind": 120,
             "expression": {
-                "kind": 221,
+                "kind": 371,
                 "text": "/x/",
                 "flags": 96,
                 "start": 18,

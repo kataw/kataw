@@ -241,7 +241,7 @@ switch (answer) { case 0: let a; };
                     "kind": 270,
                     "elements": [
                         {
-                            "kind": 221,
+                            "kind": 371,
                             "text": "/a/",
                             "flags": 96,
                             "start": 72,
@@ -2163,7 +2163,7 @@ switch (answer) { case 0: let a; };
                             {
                                 "kind": 120,
                                 "expression": {
-                                    "kind": 221,
+                                    "kind": 371,
                                     "text": "/a/",
                                     "flags": 96,
                                     "start": 775,
@@ -4477,7 +4477,7 @@ switch (answer) { case 0: let a; };
         {
             "kind": 120,
             "expression": {
-                "kind": 221,
+                "kind": 371,
                 "text": "/foo/",
                 "flags": 96,
                 "start": 1528,

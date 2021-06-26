@@ -3069,7 +3069,7 @@ async function * gen() {class C extends await { }}
                                 "delegate": false,
                                 "asteriskToken": null,
                                 "expression": {
-                                    "kind": 221,
+                                    "kind": 371,
                                     "text": "/ yield}",
                                     "flags": 96,
                                     "start": 1519,

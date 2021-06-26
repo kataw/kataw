@@ -56,6 +56,7 @@ type LinkedList<Type> = Type & { next: LinkedList<Type> };
                                 "end": 20
                             },
                             "type": null,
+                            "assignToken": null,
                             "defaultType": null,
                             "flags": 2097152,
                             "start": 16,

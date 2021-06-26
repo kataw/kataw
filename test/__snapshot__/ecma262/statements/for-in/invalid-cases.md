@@ -642,7 +642,7 @@ for ({}.bar = x in obj);
                                     "start": 169,
                                     "end": 170
                                 },
-                                "flags": 536870944,
+                                "flags": 96,
                                 "start": 167,
                                 "end": 170
                             }
@@ -833,7 +833,7 @@ for ({}.bar = x in obj);
                     "start": 218,
                     "end": 219
                 },
-                "flags": 536870944,
+                "flags": 48,
                 "start": 208,
                 "end": 219
             },
@@ -6399,7 +6399,7 @@ for ({}.bar = x in obj);
                         "start": 1714,
                         "end": 1715
                     },
-                    "flags": 536870944,
+                    "flags": 268435488,
                     "start": 1710,
                     "end": 1715
                 },
@@ -6565,7 +6565,7 @@ for ({}.bar = x in obj);
                                         "start": 1758,
                                         "end": 1759
                                     },
-                                    "flags": 536870944,
+                                    "flags": 96,
                                     "start": 1753,
                                     "end": 1759
                                 },
@@ -7055,7 +7055,7 @@ for ({}.bar = x in obj);
                         "start": 1891,
                         "end": 1894
                     },
-                    "flags": 536870944,
+                    "flags": 32,
                     "start": 1881,
                     "end": 1894
                 },
@@ -7150,7 +7150,7 @@ for ({}.bar = x in obj);
                         "start": 1917,
                         "end": 1920
                     },
-                    "flags": 536870944,
+                    "flags": 48,
                     "start": 1907,
                     "end": 1920
                 },

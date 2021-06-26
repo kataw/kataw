@@ -80,6 +80,7 @@ type C = (<T>(T) => $Foo<T>)[];
                                                         "end": 12
                                                     },
                                                     "type": null,
+                                                    "assignToken": null,
                                                     "defaultType": null,
                                                     "flags": 2097152,
                                                     "start": 11,
@@ -230,6 +231,7 @@ type C = (<T>(T) => $Foo<T>)[];
                                                         "end": 34
                                                     },
                                                     "type": null,
+                                                    "assignToken": null,
                                                     "defaultType": null,
                                                     "flags": 2097152,
                                                     "start": 33,
@@ -424,6 +426,7 @@ type C = (<T>(T) => $Foo<T>)[];
                                                         "end": 64
                                                     },
                                                     "type": null,
+                                                    "assignToken": null,
                                                     "defaultType": null,
                                                     "flags": 2097152,
                                                     "start": 63,
@@ -574,6 +577,7 @@ type C = (<T>(T) => $Foo<T>)[];
                                                         "end": 86
                                                     },
                                                     "type": null,
+                                                    "assignToken": null,
                                                     "defaultType": null,
                                                     "flags": 2097152,
                                                     "start": 85,
@@ -767,6 +771,7 @@ type C = (<T>(T) => $Foo<T>)[];
                                                     "end": 116
                                                 },
                                                 "type": null,
+                                                "assignToken": null,
                                                 "defaultType": null,
                                                 "flags": 2097152,
                                                 "start": 115,

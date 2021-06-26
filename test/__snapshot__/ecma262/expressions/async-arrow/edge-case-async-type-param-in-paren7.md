@@ -51,6 +51,7 @@
                                         "end": 9
                                     },
                                     "type": null,
+                                    "assignToken": null,
                                     "defaultType": null,
                                     "flags": 2097152,
                                     "start": 1,
@@ -67,6 +68,7 @@
                                         "end": 12
                                     },
                                     "type": null,
+                                    "assignToken": null,
                                     "defaultType": null,
                                     "flags": 2097152,
                                     "start": 10,
