@@ -35,12 +35,7 @@
                 },
                 "operand": {
                     "kind": 271,
-                    "asyncKeyword": {
-                        "kind": 82031,
-                        "flags": 64,
-                        "start": 2,
-                        "end": 7
-                    },
+                    "asyncKeyword": null,
                     "typeParameters": null,
                     "arrowPatameterList": {
                         "kind": 134299649,

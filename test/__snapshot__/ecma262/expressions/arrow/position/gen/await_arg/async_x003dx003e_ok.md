@@ -76,12 +76,7 @@ async function f() {
                                 },
                                 "expression": {
                                     "kind": 271,
-                                    "asyncKeyword": {
-                                        "kind": 82031,
-                                        "flags": 64,
-                                        "start": 28,
-                                        "end": 34
-                                    },
+                                    "asyncKeyword": null,
                                     "typeParameters": null,
                                     "arrowPatameterList": {
                                         "kind": 134299649,
@@ -147,7 +142,7 @@ async function f() {
 ```javascript
 
 async function f() {
-  await async async =>  ok;
+  await async =>  ok;
 }
 ```
 

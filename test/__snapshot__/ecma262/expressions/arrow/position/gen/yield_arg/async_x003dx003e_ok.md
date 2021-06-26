@@ -78,12 +78,7 @@ function *f() {
                                 "asteriskToken": null,
                                 "expression": {
                                     "kind": 271,
-                                    "asyncKeyword": {
-                                        "kind": 82031,
-                                        "flags": 64,
-                                        "start": 23,
-                                        "end": 29
-                                    },
+                                    "asyncKeyword": null,
                                     "typeParameters": null,
                                     "arrowPatameterList": {
                                         "kind": 134299649,
@@ -149,7 +144,7 @@ function *f() {
 ```javascript
 
 function * f() {
-  yield async async =>  ok;
+  yield async =>  ok;
 }
 ```
 

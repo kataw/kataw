@@ -5622,6 +5622,7 @@ function parseFunctionExpression(
   const asyncToken = consumeOptToken(parser, context, SyntaxKind.AsyncKeyword);
 
   if (asyncToken) {
+
     // `async` [no LineTerminator here] `function`
     if (parser.token !== SyntaxKind.FunctionKeyword || parser.nodeFlags & NodeFlags.NewLine) {
       const flags = parser.nodeFlags;
@@ -5984,7 +5985,7 @@ function parseFunctionExpression(
           /* typeParameters */ null,
           /* returnType */ null,
           /* params */ expression,
-          /* asyncToken */ asyncToken,
+          /* asyncToken */ null,
           /* nodeFlags */ NodeFlags.ExpressionNode,
           /* pos */ pos
         );
@@ -6501,7 +6502,7 @@ function parseFunctionDeclaration(
           /* typeParameters */ null,
           /* returnType */ null,
           /* params */ expression,
-          /* asyncToken */ asyncToken,
+          /* asyncToken */ null,
           /* nodeFlags */ NodeFlags.Async,
           /* pos */ pos
         ) as any;

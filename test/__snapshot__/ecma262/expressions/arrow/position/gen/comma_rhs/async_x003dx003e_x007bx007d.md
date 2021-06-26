@@ -38,12 +38,7 @@ a, async => {}
                     },
                     {
                         "kind": 271,
-                        "asyncKeyword": {
-                            "kind": 82031,
-                            "flags": 64,
-                            "start": 2,
-                            "end": 8
-                        },
+                        "asyncKeyword": null,
                         "typeParameters": null,
                         "arrowPatameterList": {
                             "kind": 134299649,
@@ -101,7 +96,7 @@ a, async => {}
 
 ```javascript
 
-a, async async =>  {};
+a, async =>  {};
 ```
 
 ### Diagnostics

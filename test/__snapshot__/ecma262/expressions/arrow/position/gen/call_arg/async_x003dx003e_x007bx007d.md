@@ -40,12 +40,7 @@ foo(async => {})
                     "elements": [
                         {
                             "kind": 271,
-                            "asyncKeyword": {
-                                "kind": 82031,
-                                "flags": 64,
-                                "start": 4,
-                                "end": 9
-                            },
+                            "asyncKeyword": null,
                             "typeParameters": null,
                             "arrowPatameterList": {
                                 "kind": 134299649,
@@ -108,7 +103,7 @@ foo(async => {})
 
 ```javascript
 
-foo(async async =>  {});
+foo(async =>  {});
 ```
 
 ### Diagnostics

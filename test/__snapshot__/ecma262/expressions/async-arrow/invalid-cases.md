@@ -609,12 +609,7 @@ async ([a]:string)=>c;
             "kind": 120,
             "expression": {
                 "kind": 271,
-                "asyncKeyword": {
-                    "kind": 82031,
-                    "flags": 65,
-                    "start": 167,
-                    "end": 174
-                },
+                "asyncKeyword": null,
                 "typeParameters": null,
                 "arrowPatameterList": {
                     "kind": 134299649,
