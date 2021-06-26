@@ -164,7 +164,7 @@
           throw c + '(' + d + ', ' + e + ')';
 
         });
-        result = kataw.aladdin(result);
+        result = kataw.print(result);
         //result = customStringify(result, null, '    ');
       } catch (e) {
         result = e.message || e;
