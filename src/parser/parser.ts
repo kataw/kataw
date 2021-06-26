@@ -1646,11 +1646,9 @@ export function parseExpressionOrLabelledStatement(
 
   // - `() => {}
   //    () => {}`
-  if (
-    parser.nodeFlags & NodeFlags.NewLine &&
-    expr.kind === SyntaxKind.ArrowFunction &&
-    parser.token === SyntaxKind.LeftParen
-  ) {
+  // - `x => {}
+  //    + x`
+  if (parser.nodeFlags & NodeFlags.NewLine && expr.kind === SyntaxKind.ArrowFunction) {
     return parseExpressionStatement(parser, context, expr, curPos);
   }
 
@@ -5622,7 +5620,6 @@ function parseFunctionExpression(
   const asyncToken = consumeOptToken(parser, context, SyntaxKind.AsyncKeyword);
 
   if (asyncToken) {
-
     // `async` [no LineTerminator here] `function`
     if (parser.token !== SyntaxKind.FunctionKeyword || parser.nodeFlags & NodeFlags.NewLine) {
       const flags = parser.nodeFlags;
@@ -6506,6 +6503,8 @@ function parseFunctionDeclaration(
           /* nodeFlags */ NodeFlags.Async,
           /* pos */ pos
         ) as any;
+        expression = parseCommaOperator(parser, context, expression, pos);
+        return parseExpressionStatement(parser, context, expression, pos);
       }
 
       if (functionFlags & ParseFunctionFlag.DisallowAsyncArrow) {
@@ -6516,6 +6515,7 @@ function parseFunctionDeclaration(
           pos,
           parser.pos
         );
+        return parseExpressionStatement(parser, context, expression, pos);
       }
       // "async"
       // "async + 1"
