@@ -275,12 +275,6 @@ Here is an example:
  kataw.printScript('x = y');
 ```
 
-### Comments
-
-Comments are automatically inserted into the printed output. Compared to Prettier comments are printed **100%** correct and they will appear on the
-**exact** same place as in the original code.
-
-
 ## CST parser features
 
 - Error recovery by default (_like Acorn loose_), but it reconstruct the CST tree correctly
