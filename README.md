@@ -244,6 +244,41 @@ export function swapIdentifierWithNumeric(transform) {
 
 ```
 
+## Printing
+
+Kataw is adjustable and allows three different ways to print your source code.
+
+The returned source does not include any extra parenthesis or unnecessary code.
+
+The comments are 100% correct and they will be printed in the places you expect.
+
+
+| API        |   Description |
+| ----------- |------------------------------------------------- |
+| `print`  |   Prints *a given* CST tree and let you adjust the diagnostics and set your own parser options |
+| `printModule`    | Prints the source in module goal |
+| `printScript`    | Prints the source in script mode |
+
+Here is an example:
+
+```ts
+ // Print with module goal
+ kataw.printModule('x = y', { next: true }, function(source, kind, msg, line, column) {
+    throw msg + '(' + line + ', ' + column + ')';
+ });
+
+ // Print in script mode
+ kataw.printScript('x = y', { next: true }, function(source, kind, msg, line, column) {
+    throw msg + '(' + line + ', ' + column + ')';
+ });
+```
+
+### Comments
+
+Comments are automatically inserted into the printed output. Compared to Prettier comments are printed **100%** correct and they will appear on the
+**exact** same place as in the original code.
+
+
 ## CST parser features
 
 - Error recovery by default (_like Acorn loose_), but it reconstruct the CST tree correctly
