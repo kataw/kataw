@@ -85,8 +85,8 @@ else function f(){}
                     "formalParameters": [],
                     "trailingComma": false,
                     "flags": 32,
-                    "start": 26,
-                    "end": 26
+                    "start": 25,
+                    "end": 25
                 },
                 "contents": {
                     "kind": 216,

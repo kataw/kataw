@@ -52,8 +52,8 @@ function x () {}
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 12,
-                "end": 12
+                "start": 10,
+                "end": 10
             },
             "contents": {
                 "kind": 216,

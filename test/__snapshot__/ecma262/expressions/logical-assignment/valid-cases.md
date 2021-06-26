@@ -712,8 +712,8 @@ x((y ?? z) ?? 1);
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 32,
-                                    "start": 137,
-                                    "end": 137
+                                    "start": 136,
+                                    "end": 136
                                 },
                                 "contents": {
                                     "kind": 216,

@@ -48,8 +48,8 @@ function not_gen() { async function f(){ await await foo; } }}
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 17,
-                "end": 17
+                "start": 16,
+                "end": 16
             },
             "contents": {
                 "kind": 216,
@@ -87,8 +87,8 @@ function not_gen() { async function f(){ await await foo; } }}
                                 "formalParameters": [],
                                 "trailingComma": false,
                                 "flags": 32,
-                                "start": 38,
-                                "end": 38
+                                "start": 37,
+                                "end": 37
                             },
                             "contents": {
                                 "kind": 216,

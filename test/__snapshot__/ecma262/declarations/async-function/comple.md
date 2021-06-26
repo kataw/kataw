@@ -50,8 +50,8 @@ await 0 }
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 14,
-                "end": 14
+                "start": 13,
+                "end": 13
             },
             "contents": {
                 "kind": 216,
@@ -167,8 +167,8 @@ await 0 }
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 60,
-                "end": 60
+                "start": 59,
+                "end": 59
             },
             "contents": {
                 "kind": 216,

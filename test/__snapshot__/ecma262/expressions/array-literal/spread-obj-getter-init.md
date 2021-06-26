@@ -306,7 +306,7 @@ var callCount = 0;
                                                             "start": 108,
                                                             "end": 109
                                                         },
-                                                        "flags": 32,
+                                                        "flags": 1073741856,
                                                         "start": 105,
                                                         "end": 109
                                                     },

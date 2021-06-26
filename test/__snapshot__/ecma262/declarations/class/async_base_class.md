@@ -360,8 +360,8 @@ async function foo() {
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 119,
-                "end": 119
+                "start": 118,
+                "end": 118
             },
             "contents": {
                 "kind": 216,

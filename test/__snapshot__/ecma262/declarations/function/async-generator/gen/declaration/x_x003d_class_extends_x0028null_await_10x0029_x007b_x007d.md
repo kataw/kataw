@@ -59,8 +59,8 @@ async function * gen() {x = class extends (null, await 10) { }}
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 21,
-                "end": 21
+                "start": 20,
+                "end": 20
             },
             "contents": {
                 "kind": 216,

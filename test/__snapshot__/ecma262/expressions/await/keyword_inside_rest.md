@@ -121,7 +121,7 @@ async r => result = [...{ x = await x }] = y;
                                             "start": 24,
                                             "end": 39
                                         },
-                                        "flags": 32,
+                                        "flags": 1073741856,
                                         "start": 21,
                                         "end": 39
                                     }

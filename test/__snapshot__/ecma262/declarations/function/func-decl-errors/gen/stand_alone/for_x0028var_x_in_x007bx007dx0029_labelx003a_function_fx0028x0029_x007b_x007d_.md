@@ -128,8 +128,8 @@ for (var x in {}) label: function f() { };
                         "formalParameters": [],
                         "trailingComma": false,
                         "flags": 32,
-                        "start": 36,
-                        "end": 36
+                        "start": 35,
+                        "end": 35
                     },
                     "contents": {
                         "kind": 216,

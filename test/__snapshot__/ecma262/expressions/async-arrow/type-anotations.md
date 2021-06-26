@@ -710,7 +710,7 @@ async (...[x]?: string, a?) => {};
                         "optionalToken": null,
                         "type": null,
                         "right": null,
-                        "flags": 32,
+                        "flags": 1073741856,
                         "start": 200,
                         "end": 212
                     }
@@ -774,7 +774,7 @@ async (...[x]?: string, a?) => {};
                         "optionalToken": null,
                         "type": null,
                         "right": null,
-                        "flags": 32,
+                        "flags": 1073741856,
                         "start": 229,
                         "end": 242
                     }
@@ -859,7 +859,7 @@ async (...[x]?: string, a?) => {};
                             "start": 262,
                             "end": 265
                         },
-                        "flags": 32,
+                        "flags": 1073741856,
                         "start": 259,
                         "end": 274
                     },

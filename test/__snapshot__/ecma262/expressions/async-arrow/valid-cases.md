@@ -191,7 +191,7 @@ async a => await 1;
                             "start": 47,
                             "end": 50
                         },
-                        "flags": 32,
+                        "flags": 1073741856,
                         "start": 47,
                         "end": 51
                     }
@@ -232,7 +232,7 @@ async a => await 1;
                             "start": 61,
                             "end": 64
                         },
-                        "flags": 32,
+                        "flags": 1073741856,
                         "start": 61,
                         "end": 65
                     },
@@ -244,7 +244,7 @@ async a => await 1;
                             "start": 66,
                             "end": 70
                         },
-                        "flags": 32,
+                        "flags": 1073741856,
                         "start": 66,
                         "end": 71
                     }
@@ -440,7 +440,7 @@ async a => await 1;
                         "optionalToken": null,
                         "type": null,
                         "right": null,
-                        "flags": 32,
+                        "flags": 1073741856,
                         "start": 129,
                         "end": 133
                     }

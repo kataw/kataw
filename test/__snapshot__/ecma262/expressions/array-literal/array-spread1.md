@@ -149,7 +149,7 @@ var y: Array<string> = ['3', ...x];
                                             "start": 29,
                                             "end": 30
                                         },
-                                        "flags": 32,
+                                        "flags": 1073741856,
                                         "start": 26,
                                         "end": 30
                                     }
@@ -692,7 +692,7 @@ var y: Array<string> = ['3', ...x];
                                             "start": 168,
                                             "end": 169
                                         },
-                                        "flags": 32,
+                                        "flags": 1073741856,
                                         "start": 164,
                                         "end": 169
                                     }

@@ -48,8 +48,8 @@ function not_gen() { function *gf(){ function yield(){}; } }}
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 17,
-                "end": 17
+                "start": 16,
+                "end": 16
             },
             "contents": {
                 "kind": 216,
@@ -87,8 +87,8 @@ function not_gen() { function *gf(){ function yield(){}; } }}
                                 "formalParameters": [],
                                 "trailingComma": false,
                                 "flags": 32,
-                                "start": 34,
-                                "end": 34
+                                "start": 33,
+                                "end": 33
                             },
                             "contents": {
                                 "kind": 216,
@@ -121,8 +121,8 @@ function not_gen() { function *gf(){ function yield(){}; } }}
                                                 "formalParameters": [],
                                                 "trailingComma": false,
                                                 "flags": 32,
-                                                "start": 52,
-                                                "end": 52
+                                                "start": 51,
+                                                "end": 51
                                             },
                                             "contents": {
                                                 "kind": 216,

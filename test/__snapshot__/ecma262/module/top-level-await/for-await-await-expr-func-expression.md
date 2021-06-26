@@ -134,8 +134,8 @@ for await (let binding of [await function() {}]) {
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 32,
-                                    "start": 214,
-                                    "end": 214
+                                    "start": 213,
+                                    "end": 213
                                 },
                                 "contents": {
                                     "kind": 216,
@@ -202,8 +202,8 @@ for await (let binding of [await function() {}]) {
                                         "formalParameters": [],
                                         "trailingComma": false,
                                         "flags": 32,
-                                        "start": 240,
-                                        "end": 240
+                                        "start": 239,
+                                        "end": 239
                                     },
                                     "contents": {
                                         "kind": 216,
@@ -344,8 +344,8 @@ for await (let binding of [await function() {}]) {
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 32,
-                                    "start": 436,
-                                    "end": 436
+                                    "start": 435,
+                                    "end": 435
                                 },
                                 "contents": {
                                     "kind": 216,
@@ -412,8 +412,8 @@ for await (let binding of [await function() {}]) {
                                         "formalParameters": [],
                                         "trailingComma": false,
                                         "flags": 32,
-                                        "start": 462,
-                                        "end": 462
+                                        "start": 461,
+                                        "end": 461
                                     },
                                     "contents": {
                                         "kind": 216,
@@ -554,8 +554,8 @@ for await (let binding of [await function() {}]) {
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 32,
-                                    "start": 658,
-                                    "end": 658
+                                    "start": 657,
+                                    "end": 657
                                 },
                                 "contents": {
                                     "kind": 216,
@@ -622,8 +622,8 @@ for await (let binding of [await function() {}]) {
                                         "formalParameters": [],
                                         "trailingComma": false,
                                         "flags": 32,
-                                        "start": 684,
-                                        "end": 684
+                                        "start": 683,
+                                        "end": 683
                                     },
                                     "contents": {
                                         "kind": 216,

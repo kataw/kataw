@@ -989,7 +989,7 @@ var p10 = ([{ value, done }]) => { };
                                                     "optionalToken": null,
                                                     "type": null,
                                                     "right": null,
-                                                    "flags": 32,
+                                                    "flags": 1073741856,
                                                     "start": 255,
                                                     "end": 259
                                                 }
@@ -1204,7 +1204,7 @@ var p10 = ([{ value, done }]) => { };
                                                     "optionalToken": null,
                                                     "type": null,
                                                     "right": null,
-                                                    "flags": 32,
+                                                    "flags": 1073741856,
                                                     "start": 307,
                                                     "end": 312
                                                 },

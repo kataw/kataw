@@ -338,7 +338,7 @@ function w2<A: Array<number>>(x: A, f: (number, ...A) => void) {
                                                 "start": 74,
                                                 "end": 75
                                             },
-                                            "flags": 32,
+                                            "flags": 1073741856,
                                             "start": 71,
                                             "end": 75
                                         }
@@ -448,7 +448,7 @@ function w2<A: Array<number>>(x: A, f: (number, ...A) => void) {
                                                 "start": 122,
                                                 "end": 123
                                             },
-                                            "flags": 32,
+                                            "flags": 1073741856,
                                             "start": 118,
                                             "end": 123
                                         }
@@ -505,7 +505,7 @@ function w2<A: Array<number>>(x: A, f: (number, ...A) => void) {
                                                 "start": 137,
                                                 "end": 138
                                             },
-                                            "flags": 32,
+                                            "flags": 1073741856,
                                             "start": 133,
                                             "end": 138
                                         },
@@ -525,7 +525,7 @@ function w2<A: Array<number>>(x: A, f: (number, ...A) => void) {
                                                 "start": 143,
                                                 "end": 144
                                             },
-                                            "flags": 32,
+                                            "flags": 1073741856,
                                             "start": 139,
                                             "end": 144
                                         }
@@ -866,7 +866,7 @@ function w2<A: Array<number>>(x: A, f: (number, ...A) => void) {
                                                 "start": 229,
                                                 "end": 230
                                             },
-                                            "flags": 32,
+                                            "flags": 1073741856,
                                             "start": 226,
                                             "end": 230
                                         }
@@ -992,7 +992,7 @@ function w2<A: Array<number>>(x: A, f: (number, ...A) => void) {
                                                 "start": 277,
                                                 "end": 278
                                             },
-                                            "flags": 32,
+                                            "flags": 1073741856,
                                             "start": 273,
                                             "end": 278
                                         }
@@ -1049,7 +1049,7 @@ function w2<A: Array<number>>(x: A, f: (number, ...A) => void) {
                                                 "start": 310,
                                                 "end": 311
                                             },
-                                            "flags": 32,
+                                            "flags": 1073741856,
                                             "start": 306,
                                             "end": 311
                                         }
@@ -1106,7 +1106,7 @@ function w2<A: Array<number>>(x: A, f: (number, ...A) => void) {
                                                 "start": 325,
                                                 "end": 326
                                             },
-                                            "flags": 32,
+                                            "flags": 1073741856,
                                             "start": 321,
                                             "end": 326
                                         },
@@ -1126,7 +1126,7 @@ function w2<A: Array<number>>(x: A, f: (number, ...A) => void) {
                                                 "start": 331,
                                                 "end": 332
                                             },
-                                            "flags": 32,
+                                            "flags": 1073741856,
                                             "start": 327,
                                             "end": 332
                                         }

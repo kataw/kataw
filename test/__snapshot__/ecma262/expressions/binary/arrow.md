@@ -55,8 +55,8 @@ function f2() {
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 11,
-                "end": 11
+                "start": 10,
+                "end": 10
             },
             "contents": {
                 "kind": 216,
@@ -385,8 +385,8 @@ function f2() {
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 187,
-                "end": 187
+                "start": 186,
+                "end": 186
             },
             "contents": {
                 "kind": 216,

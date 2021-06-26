@@ -50,8 +50,8 @@ x = function(){ super.foo; }
                         "formalParameters": [],
                         "trailingComma": false,
                         "flags": 32,
-                        "start": 13,
-                        "end": 13
+                        "start": 12,
+                        "end": 12
                     },
                     "contents": {
                         "kind": 216,

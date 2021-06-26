@@ -108,7 +108,7 @@ var f = (argument1,{arguments: x, ...z}) => {};
                                                     "optionalToken": null,
                                                     "type": null,
                                                     "right": null,
-                                                    "flags": 32,
+                                                    "flags": 1073741856,
                                                     "start": 33,
                                                     "end": 38
                                                 }

@@ -221,7 +221,7 @@ function d<X: [number, number]>(x: X): X {
                                                 "start": 62,
                                                 "end": 63
                                             },
-                                            "flags": 32,
+                                            "flags": 1073741856,
                                             "start": 59,
                                             "end": 63
                                         }
@@ -459,7 +459,7 @@ function d<X: [number, number]>(x: X): X {
                                                 "start": 131,
                                                 "end": 132
                                             },
-                                            "flags": 32,
+                                            "flags": 1073741856,
                                             "start": 128,
                                             "end": 132
                                         },
@@ -479,7 +479,7 @@ function d<X: [number, number]>(x: X): X {
                                                 "start": 137,
                                                 "end": 138
                                             },
-                                            "flags": 32,
+                                            "flags": 1073741856,
                                             "start": 133,
                                             "end": 138
                                         }
@@ -725,7 +725,7 @@ function d<X: [number, number]>(x: X): X {
                                                 "start": 246,
                                                 "end": 247
                                             },
-                                            "flags": 32,
+                                            "flags": 1073741856,
                                             "start": 242,
                                             "end": 247
                                         }
@@ -957,7 +957,7 @@ function d<X: [number, number]>(x: X): X {
                                                 "start": 318,
                                                 "end": 319
                                             },
-                                            "flags": 32,
+                                            "flags": 1073741856,
                                             "start": 315,
                                             "end": 319
                                         },
@@ -977,7 +977,7 @@ function d<X: [number, number]>(x: X): X {
                                                 "start": 324,
                                                 "end": 325
                                             },
-                                            "flags": 32,
+                                            "flags": 1073741856,
                                             "start": 320,
                                             "end": 325
                                         }

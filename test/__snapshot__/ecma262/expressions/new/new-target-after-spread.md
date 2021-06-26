@@ -40,8 +40,8 @@ function f(){ [...new.target] }
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 11,
-                "end": 11
+                "start": 10,
+                "end": 10
             },
             "contents": {
                 "kind": 216,
@@ -82,7 +82,7 @@ function f(){ [...new.target] }
                                                 "start": 18,
                                                 "end": 28
                                             },
-                                            "flags": 32,
+                                            "flags": 1073741856,
                                             "start": 15,
                                             "end": 28
                                         }

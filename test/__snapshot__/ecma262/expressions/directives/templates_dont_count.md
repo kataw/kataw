@@ -40,8 +40,8 @@ function f(){ `use strict`; with (x) y; }
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 11,
-                "end": 11
+                "start": 10,
+                "end": 10
             },
             "contents": {
                 "kind": 216,

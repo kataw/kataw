@@ -107,8 +107,8 @@ var await; var f = (async function() { async function wrap() { async function aw
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 32,
-                                    "start": 35,
-                                    "end": 35
+                                    "start": 34,
+                                    "end": 34
                                 },
                                 "contents": {
                                     "kind": 216,
@@ -146,8 +146,8 @@ var await; var f = (async function() { async function wrap() { async function aw
                                                     "formalParameters": [],
                                                     "trailingComma": false,
                                                     "flags": 32,
-                                                    "start": 59,
-                                                    "end": 59
+                                                    "start": 58,
+                                                    "end": 58
                                                 },
                                                 "contents": {
                                                     "kind": 216,
@@ -185,8 +185,8 @@ var await; var f = (async function() { async function wrap() { async function aw
                                                                     "formalParameters": [],
                                                                     "trailingComma": false,
                                                                     "flags": 32,
-                                                                    "start": 84,
-                                                                    "end": 84
+                                                                    "start": 83,
+                                                                    "end": 83
                                                                 },
                                                                 "contents": {
                                                                     "kind": 216,

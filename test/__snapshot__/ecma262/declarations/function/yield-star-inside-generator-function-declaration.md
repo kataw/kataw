@@ -45,8 +45,8 @@ function* test () { yield *v }
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 16,
-                "end": 16
+                "start": 14,
+                "end": 14
             },
             "contents": {
                 "kind": 216,

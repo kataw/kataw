@@ -259,8 +259,8 @@ FooBar.bar = 1;
                             "formalParameters": [],
                             "trailingComma": false,
                             "flags": 32,
-                            "start": 83,
-                            "end": 83
+                            "start": 82,
+                            "end": 82
                         },
                         "contents": {
                             "kind": 216,

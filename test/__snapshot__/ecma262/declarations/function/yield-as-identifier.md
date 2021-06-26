@@ -46,8 +46,8 @@ function *foo() { let x = {yield} }
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 13,
-                "end": 13
+                "start": 12,
+                "end": 12
             },
             "contents": {
                 "kind": 216,
@@ -149,8 +149,8 @@ function *foo() { let x = {yield} }
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 47,
-                "end": 47
+                "start": 46,
+                "end": 46
             },
             "contents": {
                 "kind": 216,
@@ -260,8 +260,8 @@ function *foo() { let x = {yield} }
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 84,
-                "end": 84
+                "start": 83,
+                "end": 83
             },
             "contents": {
                 "kind": 216,
@@ -368,8 +368,8 @@ function *foo() { let x = {yield} }
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 119,
-                "end": 119
+                "start": 118,
+                "end": 118
             },
             "contents": {
                 "kind": 216,

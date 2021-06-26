@@ -67,8 +67,8 @@ let foo = function*() { try {yield 42} finally {yield 43; return 13} };
                                 "formalParameters": [],
                                 "trailingComma": false,
                                 "flags": 32,
-                                "start": 20,
-                                "end": 20
+                                "start": 19,
+                                "end": 19
                             },
                             "contents": {
                                 "kind": 216,

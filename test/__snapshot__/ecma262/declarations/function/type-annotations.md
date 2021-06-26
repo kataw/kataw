@@ -1364,8 +1364,8 @@ function foo28(numVal?: number = 2) {}
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 519,
-                "end": 519
+                "start": 518,
+                "end": 518
             },
             "contents": {
                 "kind": 216,
@@ -1424,8 +1424,8 @@ function foo28(numVal?: number = 2) {}
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 546,
-                "end": 546
+                "start": 545,
+                "end": 545
             },
             "contents": {
                 "kind": 216,
@@ -1513,8 +1513,8 @@ function foo28(numVal?: number = 2) {}
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 577,
-                "end": 577
+                "start": 576,
+                "end": 576
             },
             "contents": {
                 "kind": 216,
@@ -1642,8 +1642,8 @@ function foo28(numVal?: number = 2) {}
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 615,
-                "end": 615
+                "start": 614,
+                "end": 614
             },
             "contents": {
                 "kind": 216,
@@ -1776,8 +1776,8 @@ function foo28(numVal?: number = 2) {}
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 654,
-                "end": 654
+                "start": 653,
+                "end": 653
             },
             "contents": {
                 "kind": 216,
@@ -1868,8 +1868,8 @@ function foo28(numVal?: number = 2) {}
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 681,
-                "end": 681
+                "start": 680,
+                "end": 680
             },
             "contents": {
                 "kind": 216,

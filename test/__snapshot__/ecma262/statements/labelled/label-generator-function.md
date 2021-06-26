@@ -61,8 +61,8 @@ label: function * x (){}
                     "formalParameters": [],
                     "trailingComma": false,
                     "flags": 32,
-                    "start": 21,
-                    "end": 21
+                    "start": 19,
+                    "end": 19
                 },
                 "contents": {
                     "kind": 216,

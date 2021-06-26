@@ -147,8 +147,8 @@
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 32,
-                                    "start": 52,
-                                    "end": 52
+                                    "start": 51,
+                                    "end": 51
                                 },
                                 "contents": {
                                     "kind": 216,

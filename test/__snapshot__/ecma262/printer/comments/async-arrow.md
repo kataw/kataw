@@ -497,7 +497,7 @@ async (...a/*1*/: /*2*/ string, [/*2*/])=>x;
                         "optionalToken": null,
                         "type": null,
                         "right": null,
-                        "flags": 32,
+                        "flags": 1073741856,
                         "start": 210,
                         "end": 233
                     }
@@ -555,7 +555,7 @@ async (...a/*1*/: /*2*/ string, [/*2*/])=>x;
                         "optionalToken": null,
                         "type": null,
                         "right": null,
-                        "flags": 32,
+                        "flags": 1073741856,
                         "start": 247,
                         "end": 270
                     },

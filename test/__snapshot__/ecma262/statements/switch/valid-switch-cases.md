@@ -1506,8 +1506,8 @@ switch (answer) { case 0: let a; };
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 32,
-                                    "start": 483,
-                                    "end": 483
+                                    "start": 482,
+                                    "end": 482
                                 },
                                 "contents": {
                                     "kind": 216,
@@ -2364,7 +2364,7 @@ switch (answer) { case 0: let a; };
                                                         "start": 838,
                                                         "end": 839
                                                     },
-                                                    "flags": 32,
+                                                    "flags": 1073741856,
                                                     "start": 835,
                                                     "end": 839
                                                 }
@@ -2782,8 +2782,8 @@ switch (answer) { case 0: let a; };
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 32,
-                                    "start": 973,
-                                    "end": 973
+                                    "start": 972,
+                                    "end": 972
                                 },
                                 "contents": {
                                     "kind": 216,
@@ -2854,8 +2854,8 @@ switch (answer) { case 0: let a; };
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 32,
-                                    "start": 1004,
-                                    "end": 1004
+                                    "start": 1003,
+                                    "end": 1003
                                 },
                                 "contents": {
                                     "kind": 216,
@@ -3139,7 +3139,7 @@ switch (answer) { case 0: let a; };
                                                     "start": 1082,
                                                     "end": 1083
                                                 },
-                                                "flags": 32,
+                                                "flags": 1073741856,
                                                 "start": 1079,
                                                 "end": 1083
                                             }
@@ -3274,7 +3274,7 @@ switch (answer) { case 0: let a; };
                                                         "start": 1116,
                                                         "end": 1117
                                                     },
-                                                    "flags": 32,
+                                                    "flags": 1073741856,
                                                     "start": 1113,
                                                     "end": 1117
                                                 }
@@ -3516,8 +3516,8 @@ switch (answer) { case 0: let a; };
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 32,
-                                    "start": 1191,
-                                    "end": 1191
+                                    "start": 1190,
+                                    "end": 1190
                                 },
                                 "contents": {
                                     "kind": 216,
@@ -3563,8 +3563,8 @@ switch (answer) { case 0: let a; };
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 32,
-                                    "start": 1206,
-                                    "end": 1206
+                                    "start": 1205,
+                                    "end": 1205
                                 },
                                 "contents": {
                                     "kind": 216,
@@ -3682,8 +3682,8 @@ switch (answer) { case 0: let a; };
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 32,
-                                    "start": 1252,
-                                    "end": 1252
+                                    "start": 1251,
+                                    "end": 1251
                                 },
                                 "contents": {
                                     "kind": 216,
@@ -3739,8 +3739,8 @@ switch (answer) { case 0: let a; };
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 32,
-                                    "start": 1274,
-                                    "end": 1274
+                                    "start": 1273,
+                                    "end": 1273
                                 },
                                 "contents": {
                                     "kind": 216,
@@ -4159,8 +4159,8 @@ switch (answer) { case 0: let a; };
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 32,
-                                    "start": 1408,
-                                    "end": 1408
+                                    "start": 1407,
+                                    "end": 1407
                                 },
                                 "contents": {
                                     "kind": 216,
@@ -4273,8 +4273,8 @@ switch (answer) { case 0: let a; };
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 32,
-                                    "start": 1450,
-                                    "end": 1450
+                                    "start": 1449,
+                                    "end": 1449
                                 },
                                 "contents": {
                                     "kind": 216,
@@ -4587,8 +4587,8 @@ switch (answer) { case 0: let a; };
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 32,
-                                    "start": 1589,
-                                    "end": 1589
+                                    "start": 1588,
+                                    "end": 1588
                                 },
                                 "contents": {
                                     "kind": 216,
@@ -4815,8 +4815,8 @@ switch (answer) { case 0: let a; };
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 32,
-                                    "start": 1674,
-                                    "end": 1674
+                                    "start": 1673,
+                                    "end": 1673
                                 },
                                 "contents": {
                                     "kind": 216,
@@ -5109,8 +5109,8 @@ switch (answer) { case 0: let a; };
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 32,
-                                    "start": 1799,
-                                    "end": 1799
+                                    "start": 1798,
+                                    "end": 1798
                                 },
                                 "contents": {
                                     "kind": 216,

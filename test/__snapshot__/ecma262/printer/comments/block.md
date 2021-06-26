@@ -78,8 +78,8 @@ Trailing block comment of this script file.
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 89,
-                "end": 89
+                "start": 88,
+                "end": 88
             },
             "contents": {
                 "kind": 216,
@@ -202,8 +202,8 @@ Trailing block comment of this script file.
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 243,
-                "end": 243
+                "start": 242,
+                "end": 242
             },
             "contents": {
                 "kind": 216,

@@ -86,7 +86,7 @@ const [a=[...b], ...c] = obj;
                                                             "start": 13,
                                                             "end": 14
                                                         },
-                                                        "flags": 32,
+                                                        "flags": 1073741856,
                                                         "start": 10,
                                                         "end": 14
                                                     }

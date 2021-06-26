@@ -67,8 +67,8 @@ let gen = function*() {};
                                 "formalParameters": [],
                                 "trailingComma": false,
                                 "flags": 32,
-                                "start": 23,
-                                "end": 23
+                                "start": 22,
+                                "end": 22
                             },
                             "contents": {
                                 "kind": 216,
@@ -146,8 +146,8 @@ let gen = function*() {};
                                 "formalParameters": [],
                                 "trailingComma": false,
                                 "flags": 32,
-                                "start": 49,
-                                "end": 49
+                                "start": 48,
+                                "end": 48
                             },
                             "contents": {
                                 "kind": 216,

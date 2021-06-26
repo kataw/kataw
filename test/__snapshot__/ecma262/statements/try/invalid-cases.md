@@ -370,8 +370,8 @@ try {} catch({ x: "str" }) {}
                                 "formalParameters": [],
                                 "trailingComma": false,
                                 "flags": 32,
-                                "start": 100,
-                                "end": 100
+                                "start": 99,
+                                "end": 99
                             },
                             "contents": {
                                 "kind": 216,
@@ -1417,8 +1417,8 @@ try {} catch({ x: "str" }) {}
                         "formalParameters": [],
                         "trailingComma": false,
                         "flags": 32,
-                        "start": 378,
-                        "end": 378
+                        "start": 377,
+                        "end": 377
                     },
                     "contents": {
                         "kind": 216,
@@ -1566,8 +1566,8 @@ try {} catch({ x: "str" }) {}
                         "formalParameters": [],
                         "trailingComma": false,
                         "flags": 32,
-                        "start": 412,
-                        "end": 412
+                        "start": 411,
+                        "end": 411
                     },
                     "contents": {
                         "kind": 216,
@@ -1842,8 +1842,8 @@ try {} catch({ x: "str" }) {}
                             "formalParameters": [],
                             "trailingComma": false,
                             "flags": 32,
-                            "start": 503,
-                            "end": 503
+                            "start": 502,
+                            "end": 502
                         },
                         "contents": {
                             "kind": 216,
@@ -1918,8 +1918,8 @@ try {} catch({ x: "str" }) {}
                                                                 "formalParameters": [],
                                                                 "trailingComma": false,
                                                                 "flags": 32,
-                                                                "start": 538,
-                                                                "end": 538
+                                                                "start": 537,
+                                                                "end": 537
                                                             },
                                                             "contents": {
                                                                 "kind": 216,
@@ -3005,8 +3005,8 @@ try {} catch({ x: "str" }) {}
                         "formalParameters": [],
                         "trailingComma": false,
                         "flags": 32,
-                        "start": 844,
-                        "end": 844
+                        "start": 843,
+                        "end": 843
                     },
                     "contents": {
                         "kind": 216,
@@ -3159,8 +3159,8 @@ try {} catch({ x: "str" }) {}
                         "formalParameters": [],
                         "trailingComma": false,
                         "flags": 32,
-                        "start": 885,
-                        "end": 885
+                        "start": 884,
+                        "end": 884
                     },
                     "contents": {
                         "kind": 216,

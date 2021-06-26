@@ -47,8 +47,8 @@ async function f(){
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 17,
-                "end": 17
+                "start": 16,
+                "end": 16
             },
             "contents": {
                 "kind": 216,
@@ -106,7 +106,7 @@ async function f(){
                                                                 "start": 40,
                                                                 "end": 41
                                                             },
-                                                            "flags": 32,
+                                                            "flags": 1073741856,
                                                             "start": 37,
                                                             "end": 41
                                                         }

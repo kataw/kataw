@@ -63,8 +63,8 @@ a = async function() { g(await) }
                         "formalParameters": [],
                         "trailingComma": false,
                         "flags": 32,
-                        "start": 19,
-                        "end": 19
+                        "start": 18,
+                        "end": 18
                     },
                     "contents": {
                         "kind": 216,

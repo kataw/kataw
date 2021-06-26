@@ -48,8 +48,8 @@ function f() { /* infinite */ while (true) { } /* bar */ var each; }
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 11,
-                "end": 11
+                "start": 10,
+                "end": 10
             },
             "contents": {
                 "kind": 216,

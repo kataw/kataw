@@ -213,8 +213,8 @@ const f = async function * (source, block, opts) {
                                                                         "formalParameters": [],
                                                                         "trailingComma": false,
                                                                         "flags": 32,
-                                                                        "start": 123,
-                                                                        "end": 123
+                                                                        "start": 121,
+                                                                        "end": 121
                                                                     },
                                                                     "contents": {
                                                                         "kind": 216,

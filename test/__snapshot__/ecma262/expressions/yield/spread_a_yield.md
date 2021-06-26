@@ -45,8 +45,8 @@ function *g() { [...yield]; }
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 12,
-                "end": 12
+                "start": 11,
+                "end": 11
             },
             "contents": {
                 "kind": 216,
@@ -84,7 +84,7 @@ function *g() { [...yield]; }
                                                 "start": 20,
                                                 "end": 25
                                             },
-                                            "flags": 32,
+                                            "flags": 1073741856,
                                             "start": 17,
                                             "end": 25
                                         }

@@ -138,8 +138,8 @@ async function * gen() {class C extends await { }}
                             "formalParameters": [],
                             "trailingComma": false,
                             "flags": 32,
-                            "start": 37,
-                            "end": 37
+                            "start": 36,
+                            "end": 36
                         },
                         "contents": {
                             "kind": 216,
@@ -242,8 +242,8 @@ async function * gen() {class C extends await { }}
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 73,
-                "end": 73
+                "start": 72,
+                "end": 72
             },
             "contents": {
                 "kind": 216,
@@ -353,8 +353,8 @@ async function * gen() {class C extends await { }}
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 114,
-                "end": 114
+                "start": 113,
+                "end": 113
             },
             "contents": {
                 "kind": 216,
@@ -464,8 +464,8 @@ async function * gen() {class C extends await { }}
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 155,
-                "end": 155
+                "start": 154,
+                "end": 154
             },
             "contents": {
                 "kind": 216,
@@ -582,8 +582,8 @@ async function * gen() {class C extends await { }}
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 206,
-                "end": 206
+                "start": 205,
+                "end": 205
             },
             "contents": {
                 "kind": 216,
@@ -700,8 +700,8 @@ async function * gen() {class C extends await { }}
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 257,
-                "end": 257
+                "start": 256,
+                "end": 256
             },
             "contents": {
                 "kind": 216,
@@ -734,8 +734,8 @@ async function * gen() {class C extends await { }}
                                 "formalParameters": [],
                                 "trailingComma": false,
                                 "flags": 32,
-                                "start": 275,
-                                "end": 275
+                                "start": 274,
+                                "end": 274
                             },
                             "contents": {
                                 "kind": 216,
@@ -805,8 +805,8 @@ async function * gen() {class C extends await { }}
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 303,
-                "end": 303
+                "start": 302,
+                "end": 302
             },
             "contents": {
                 "kind": 216,
@@ -839,8 +839,8 @@ async function * gen() {class C extends await { }}
                                 "formalParameters": [],
                                 "trailingComma": false,
                                 "flags": 32,
-                                "start": 321,
-                                "end": 321
+                                "start": 320,
+                                "end": 320
                             },
                             "contents": {
                                 "kind": 216,
@@ -910,8 +910,8 @@ async function * gen() {class C extends await { }}
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 466,
-                "end": 466
+                "start": 465,
+                "end": 465
             },
             "contents": {
                 "kind": 216,
@@ -957,8 +957,8 @@ async function * gen() {class C extends await { }}
                                         "formalParameters": [],
                                         "trailingComma": false,
                                         "flags": 32,
-                                        "start": 493,
-                                        "end": 493
+                                        "start": 492,
+                                        "end": 492
                                     },
                                     "contents": {
                                         "kind": 216,
@@ -1036,8 +1036,8 @@ async function * gen() {class C extends await { }}
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 522,
-                "end": 522
+                "start": 521,
+                "end": 521
             },
             "contents": {
                 "kind": 216,
@@ -1083,8 +1083,8 @@ async function * gen() {class C extends await { }}
                                         "formalParameters": [],
                                         "trailingComma": false,
                                         "flags": 32,
-                                        "start": 549,
-                                        "end": 549
+                                        "start": 548,
+                                        "end": 548
                                     },
                                     "contents": {
                                         "kind": 216,
@@ -1162,8 +1162,8 @@ async function * gen() {class C extends await { }}
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 652,
-                "end": 652
+                "start": 651,
+                "end": 651
             },
             "contents": {
                 "kind": 216,
@@ -1286,8 +1286,8 @@ async function * gen() {class C extends await { }}
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 709,
-                "end": 709
+                "start": 708,
+                "end": 708
             },
             "contents": {
                 "kind": 216,
@@ -1421,8 +1421,8 @@ async function * gen() {class C extends await { }}
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 768,
-                "end": 768
+                "start": 767,
+                "end": 767
             },
             "contents": {
                 "kind": 216,
@@ -1545,8 +1545,8 @@ async function * gen() {class C extends await { }}
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 825,
-                "end": 825
+                "start": 824,
+                "end": 824
             },
             "contents": {
                 "kind": 216,
@@ -1680,8 +1680,8 @@ async function * gen() {class C extends await { }}
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 884,
-                "end": 884
+                "start": 883,
+                "end": 883
             },
             "contents": {
                 "kind": 216,
@@ -1779,8 +1779,8 @@ async function * gen() {class C extends await { }}
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 920,
-                "end": 920
+                "start": 919,
+                "end": 919
             },
             "contents": {
                 "kind": 216,
@@ -1883,8 +1883,8 @@ async function * gen() {class C extends await { }}
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 956,
-                "end": 956
+                "start": 955,
+                "end": 955
             },
             "contents": {
                 "kind": 216,
@@ -2012,8 +2012,8 @@ async function * gen() {class C extends await { }}
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 1002,
-                "end": 1002
+                "start": 1001,
+                "end": 1001
             },
             "contents": {
                 "kind": 216,
@@ -2146,8 +2146,8 @@ async function * gen() {class C extends await { }}
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 1048,
-                "end": 1048
+                "start": 1047,
+                "end": 1047
             },
             "contents": {
                 "kind": 216,
@@ -2237,8 +2237,8 @@ async function * gen() {class C extends await { }}
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 1082,
-                "end": 1082
+                "start": 1081,
+                "end": 1081
             },
             "contents": {
                 "kind": 216,
@@ -2333,8 +2333,8 @@ async function * gen() {class C extends await { }}
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 1116,
-                "end": 1116
+                "start": 1115,
+                "end": 1115
             },
             "contents": {
                 "kind": 216,
@@ -2431,8 +2431,8 @@ async function * gen() {class C extends await { }}
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 1150,
-                "end": 1150
+                "start": 1149,
+                "end": 1149
             },
             "contents": {
                 "kind": 216,
@@ -2527,8 +2527,8 @@ async function * gen() {class C extends await { }}
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 1184,
-                "end": 1184
+                "start": 1183,
+                "end": 1183
             },
             "contents": {
                 "kind": 216,
@@ -2618,8 +2618,8 @@ async function * gen() {class C extends await { }}
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 1217,
-                "end": 1217
+                "start": 1216,
+                "end": 1216
             },
             "contents": {
                 "kind": 216,
@@ -2715,8 +2715,8 @@ async function * gen() {class C extends await { }}
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 1350,
-                "end": 1350
+                "start": 1349,
+                "end": 1349
             },
             "contents": {
                 "kind": 216,
@@ -2835,8 +2835,8 @@ async function * gen() {class C extends await { }}
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 1394,
-                "end": 1394
+                "start": 1393,
+                "end": 1393
             },
             "contents": {
                 "kind": 216,
@@ -2934,8 +2934,8 @@ async function * gen() {class C extends await { }}
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 1429,
-                "end": 1429
+                "start": 1428,
+                "end": 1428
             },
             "contents": {
                 "kind": 216,
@@ -3047,8 +3047,8 @@ async function * gen() {class C extends await { }}
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 1511,
-                "end": 1511
+                "start": 1510,
+                "end": 1510
             },
             "contents": {
                 "kind": 216,
@@ -3118,8 +3118,8 @@ async function * gen() {class C extends await { }}
                                 "formalParameters": [],
                                 "trailingComma": false,
                                 "flags": 32,
-                                "start": 1550,
-                                "end": 1550
+                                "start": 1549,
+                                "end": 1549
                             },
                             "contents": {
                                 "kind": 216,
@@ -3209,8 +3209,8 @@ async function * gen() {class C extends await { }}
                                 "formalParameters": [],
                                 "trailingComma": false,
                                 "flags": 32,
-                                "start": 1583,
-                                "end": 1583
+                                "start": 1582,
+                                "end": 1582
                             },
                             "contents": {
                                 "kind": 216,
@@ -3307,8 +3307,8 @@ async function * gen() {class C extends await { }}
                                 "formalParameters": [],
                                 "trailingComma": false,
                                 "flags": 32,
-                                "start": 1675,
-                                "end": 1675
+                                "start": 1674,
+                                "end": 1674
                             },
                             "contents": {
                                 "kind": 216,
@@ -3434,8 +3434,8 @@ async function * gen() {class C extends await { }}
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 1846,
-                "end": 1846
+                "start": 1845,
+                "end": 1845
             },
             "contents": {
                 "kind": 216,
@@ -3575,8 +3575,8 @@ async function * gen() {class C extends await { }}
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 1890,
-                "end": 1890
+                "start": 1889,
+                "end": 1889
             },
             "contents": {
                 "kind": 216,
@@ -3716,8 +3716,8 @@ async function * gen() {class C extends await { }}
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 1949,
-                "end": 1949
+                "start": 1948,
+                "end": 1948
             },
             "contents": {
                 "kind": 216,
@@ -3771,8 +3771,8 @@ async function * gen() {class C extends await { }}
                                         "formalParameters": [],
                                         "trailingComma": false,
                                         "flags": 32,
-                                        "start": 2068,
-                                        "end": 2068
+                                        "start": 2067,
+                                        "end": 2067
                                     },
                                     "contents": {
                                         "kind": 216,
@@ -3911,8 +3911,8 @@ async function * gen() {class C extends await { }}
                                 "formalParameters": [],
                                 "trailingComma": false,
                                 "flags": 32,
-                                "start": 2113,
-                                "end": 2113
+                                "start": 2112,
+                                "end": 2112
                             },
                             "contents": {
                                 "kind": 216,
@@ -4043,8 +4043,8 @@ async function * gen() {class C extends await { }}
                                 "formalParameters": [],
                                 "trailingComma": false,
                                 "flags": 32,
-                                "start": 2158,
-                                "end": 2158
+                                "start": 2157,
+                                "end": 2157
                             },
                             "contents": {
                                 "kind": 216,
@@ -4205,8 +4205,8 @@ async function * gen() {class C extends await { }}
                                 "formalParameters": [],
                                 "trailingComma": false,
                                 "flags": 32,
-                                "start": 2211,
-                                "end": 2211
+                                "start": 2210,
+                                "end": 2210
                             },
                             "contents": {
                                 "kind": 216,
@@ -4367,8 +4367,8 @@ async function * gen() {class C extends await { }}
                                 "formalParameters": [],
                                 "trailingComma": false,
                                 "flags": 32,
-                                "start": 2264,
-                                "end": 2264
+                                "start": 2263,
+                                "end": 2263
                             },
                             "contents": {
                                 "kind": 216,
@@ -4496,8 +4496,8 @@ async function * gen() {class C extends await { }}
                                 "formalParameters": [],
                                 "trailingComma": false,
                                 "flags": 32,
-                                "start": 2305,
-                                "end": 2305
+                                "start": 2304,
+                                "end": 2304
                             },
                             "contents": {
                                 "kind": 216,
@@ -4630,8 +4630,8 @@ async function * gen() {class C extends await { }}
                                 "formalParameters": [],
                                 "trailingComma": false,
                                 "flags": 32,
-                                "start": 2346,
-                                "end": 2346
+                                "start": 2345,
+                                "end": 2345
                             },
                             "contents": {
                                 "kind": 216,
@@ -4795,8 +4795,8 @@ async function * gen() {class C extends await { }}
                                 "formalParameters": [],
                                 "trailingComma": false,
                                 "flags": 32,
-                                "start": 2395,
-                                "end": 2395
+                                "start": 2394,
+                                "end": 2394
                             },
                             "contents": {
                                 "kind": 216,
@@ -4965,8 +4965,8 @@ async function * gen() {class C extends await { }}
                                 "formalParameters": [],
                                 "trailingComma": false,
                                 "flags": 32,
-                                "start": 2501,
-                                "end": 2501
+                                "start": 2500,
+                                "end": 2500
                             },
                             "contents": {
                                 "kind": 216,
@@ -5132,8 +5132,8 @@ async function * gen() {class C extends await { }}
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 2549,
-                "end": 2549
+                "start": 2548,
+                "end": 2548
             },
             "contents": {
                 "kind": 216,
@@ -5285,8 +5285,8 @@ async function * gen() {class C extends await { }}
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 2597,
-                "end": 2597
+                "start": 2596,
+                "end": 2596
             },
             "contents": {
                 "kind": 216,
@@ -5470,8 +5470,8 @@ async function * gen() {class C extends await { }}
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 2653,
-                "end": 2653
+                "start": 2652,
+                "end": 2652
             },
             "contents": {
                 "kind": 216,
@@ -5655,8 +5655,8 @@ async function * gen() {class C extends await { }}
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 2709,
-                "end": 2709
+                "start": 2708,
+                "end": 2708
             },
             "contents": {
                 "kind": 216,
@@ -5791,8 +5791,8 @@ async function * gen() {class C extends await { }}
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 2753,
-                "end": 2753
+                "start": 2752,
+                "end": 2752
             },
             "contents": {
                 "kind": 216,
@@ -5925,8 +5925,8 @@ async function * gen() {class C extends await { }}
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 2797,
-                "end": 2797
+                "start": 2796,
+                "end": 2796
             },
             "contents": {
                 "kind": 216,
@@ -6097,8 +6097,8 @@ async function * gen() {class C extends await { }}
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 2849,
-                "end": 2849
+                "start": 2848,
+                "end": 2848
             },
             "contents": {
                 "kind": 216,
@@ -6267,8 +6267,8 @@ async function * gen() {class C extends await { }}
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 2901,
-                "end": 2901
+                "start": 2900,
+                "end": 2900
             },
             "contents": {
                 "kind": 216,
@@ -6385,8 +6385,8 @@ async function * gen() {class C extends await { }}
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 2949,
-                "end": 2949
+                "start": 2948,
+                "end": 2948
             },
             "contents": {
                 "kind": 216,
@@ -6501,8 +6501,8 @@ async function * gen() {class C extends await { }}
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 2997,
-                "end": 2997
+                "start": 2996,
+                "end": 2996
             },
             "contents": {
                 "kind": 216,
@@ -6620,8 +6620,8 @@ async function * gen() {class C extends await { }}
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 3045,
-                "end": 3045
+                "start": 3044,
+                "end": 3044
             },
             "contents": {
                 "kind": 216,
@@ -6737,8 +6737,8 @@ async function * gen() {class C extends await { }}
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 3093,
-                "end": 3093
+                "start": 3092,
+                "end": 3092
             },
             "contents": {
                 "kind": 216,
@@ -6881,8 +6881,8 @@ async function * gen() {class C extends await { }}
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 3147,
-                "end": 3147
+                "start": 3146,
+                "end": 3146
             },
             "contents": {
                 "kind": 216,
@@ -7023,8 +7023,8 @@ async function * gen() {class C extends await { }}
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 3201,
-                "end": 3201
+                "start": 3200,
+                "end": 3200
             },
             "contents": {
                 "kind": 216,
@@ -7168,8 +7168,8 @@ async function * gen() {class C extends await { }}
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 3255,
-                "end": 3255
+                "start": 3254,
+                "end": 3254
             },
             "contents": {
                 "kind": 216,
@@ -7311,8 +7311,8 @@ async function * gen() {class C extends await { }}
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 3309,
-                "end": 3309
+                "start": 3308,
+                "end": 3308
             },
             "contents": {
                 "kind": 216,
@@ -7446,8 +7446,8 @@ async function * gen() {class C extends await { }}
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 3360,
-                "end": 3360
+                "start": 3359,
+                "end": 3359
             },
             "contents": {
                 "kind": 216,

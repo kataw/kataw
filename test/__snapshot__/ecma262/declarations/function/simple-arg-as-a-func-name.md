@@ -83,8 +83,8 @@ function f(x) { function x() {} }
                                 "formalParameters": [],
                                 "trailingComma": false,
                                 "flags": 32,
-                                "start": 27,
-                                "end": 27
+                                "start": 26,
+                                "end": 26
                             },
                             "contents": {
                                 "kind": 216,

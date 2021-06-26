@@ -73,8 +73,8 @@ function * x() { "use strict";  yield: 34; }
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 31,
-                "end": 31
+                "start": 30,
+                "end": 30
             },
             "contents": {
                 "kind": 216,
@@ -188,8 +188,8 @@ function * x() { "use strict";  yield: 34; }
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 85,
-                "end": 85
+                "start": 84,
+                "end": 84
             },
             "contents": {
                 "kind": 216,
@@ -310,8 +310,8 @@ function * x() { "use strict";  yield: 34; }
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 149,
-                "end": 149
+                "start": 148,
+                "end": 148
             },
             "contents": {
                 "kind": 216,
@@ -344,8 +344,8 @@ function * x() { "use strict";  yield: 34; }
                                 "formalParameters": [],
                                 "trailingComma": false,
                                 "flags": 32,
-                                "start": 168,
-                                "end": 168
+                                "start": 167,
+                                "end": 167
                             },
                             "contents": {
                                 "kind": 216,
@@ -419,8 +419,8 @@ function * x() { "use strict";  yield: 34; }
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 207,
-                "end": 207
+                "start": 206,
+                "end": 206
             },
             "contents": {
                 "kind": 216,
@@ -456,8 +456,8 @@ function * x() { "use strict";  yield: 34; }
                                         "formalParameters": [],
                                         "trailingComma": false,
                                         "flags": 32,
-                                        "start": 227,
-                                        "end": 227
+                                        "start": 226,
+                                        "end": 226
                                     },
                                     "contents": {
                                         "kind": 216,
@@ -539,8 +539,8 @@ function * x() { "use strict";  yield: 34; }
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 267,
-                "end": 267
+                "start": 266,
+                "end": 266
             },
             "contents": {
                 "kind": 216,
@@ -657,8 +657,8 @@ function * x() { "use strict";  yield: 34; }
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 328,
-                "end": 328
+                "start": 327,
+                "end": 327
             },
             "contents": {
                 "kind": 216,
@@ -783,8 +783,8 @@ function * x() { "use strict";  yield: 34; }
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 394,
-                "end": 394
+                "start": 393,
+                "end": 393
             },
             "contents": {
                 "kind": 216,
@@ -822,8 +822,8 @@ function * x() { "use strict";  yield: 34; }
                                 "formalParameters": [],
                                 "trailingComma": false,
                                 "flags": 32,
-                                "start": 415,
-                                "end": 415
+                                "start": 414,
+                                "end": 414
                             },
                             "contents": {
                                 "kind": 216,
@@ -897,8 +897,8 @@ function * x() { "use strict";  yield: 34; }
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 454,
-                "end": 454
+                "start": 453,
+                "end": 453
             },
             "contents": {
                 "kind": 216,
@@ -939,8 +939,8 @@ function * x() { "use strict";  yield: 34; }
                                         "formalParameters": [],
                                         "trailingComma": false,
                                         "flags": 32,
-                                        "start": 476,
-                                        "end": 476
+                                        "start": 475,
+                                        "end": 475
                                     },
                                     "contents": {
                                         "kind": 216,
@@ -1022,8 +1022,8 @@ function * x() { "use strict";  yield: 34; }
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 516,
-                "end": 516
+                "start": 515,
+                "end": 515
             },
             "contents": {
                 "kind": 216,
@@ -1118,8 +1118,8 @@ function * x() { "use strict";  yield: 34; }
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 564,
-                "end": 564
+                "start": 563,
+                "end": 563
             },
             "contents": {
                 "kind": 216,
@@ -1244,8 +1244,8 @@ function * x() { "use strict";  yield: 34; }
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 622,
-                "end": 622
+                "start": 621,
+                "end": 621
             },
             "contents": {
                 "kind": 216,
@@ -1318,8 +1318,8 @@ function * x() { "use strict";  yield: 34; }
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 655,
-                "end": 655
+                "start": 654,
+                "end": 654
             },
             "contents": {
                 "kind": 216,
@@ -1401,8 +1401,8 @@ function * x() { "use strict";  yield: 34; }
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 701,
-                "end": 701
+                "start": 700,
+                "end": 700
             },
             "contents": {
                 "kind": 216,
@@ -1497,8 +1497,8 @@ function * x() { "use strict";  yield: 34; }
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 747,
-                "end": 747
+                "start": 746,
+                "end": 746
             },
             "contents": {
                 "kind": 216,
@@ -1599,8 +1599,8 @@ function * x() { "use strict";  yield: 34; }
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 789,
-                "end": 789
+                "start": 788,
+                "end": 788
             },
             "contents": {
                 "kind": 216,

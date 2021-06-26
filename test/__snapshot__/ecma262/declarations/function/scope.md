@@ -85,8 +85,8 @@ function for_scope_var() {
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 21,
-                "end": 21
+                "start": 20,
+                "end": 20
             },
             "contents": {
                 "kind": 216,
@@ -347,8 +347,8 @@ function for_scope_var() {
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 134,
-                "end": 134
+                "start": 133,
+                "end": 133
             },
             "contents": {
                 "kind": 216,
@@ -544,8 +544,8 @@ function for_scope_var() {
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 310,
-                "end": 310
+                "start": 309,
+                "end": 309
             },
             "contents": {
                 "kind": 216,
@@ -972,8 +972,8 @@ function for_scope_var() {
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 598,
-                "end": 598
+                "start": 597,
+                "end": 597
             },
             "contents": {
                 "kind": 216,
@@ -1146,8 +1146,8 @@ function for_scope_var() {
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 697,
-                "end": 697
+                "start": 696,
+                "end": 696
             },
             "contents": {
                 "kind": 216,

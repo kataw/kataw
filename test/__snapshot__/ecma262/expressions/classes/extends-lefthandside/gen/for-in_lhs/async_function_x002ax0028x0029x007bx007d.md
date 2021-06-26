@@ -58,8 +58,8 @@ for (async function *(){} in x) ;
                     "formalParameters": [],
                     "trailingComma": false,
                     "flags": 32,
-                    "start": 22,
-                    "end": 22
+                    "start": 21,
+                    "end": 21
                 },
                 "contents": {
                     "kind": 216,

@@ -114,8 +114,8 @@ x={ foo(){ return () => function() { super.foo; } }}
                                                                 "formalParameters": [],
                                                                 "trailingComma": false,
                                                                 "flags": 32,
-                                                                "start": 33,
-                                                                "end": 33
+                                                                "start": 32,
+                                                                "end": 32
                                                             },
                                                             "contents": {
                                                                 "kind": 216,

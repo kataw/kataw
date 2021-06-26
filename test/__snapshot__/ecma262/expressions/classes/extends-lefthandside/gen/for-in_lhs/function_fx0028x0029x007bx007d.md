@@ -55,8 +55,8 @@ for (function f(){} in x) ;
                     "formalParameters": [],
                     "trailingComma": false,
                     "flags": 32,
-                    "start": 16,
-                    "end": 16
+                    "start": 15,
+                    "end": 15
                 },
                 "contents": {
                     "kind": 216,

@@ -238,7 +238,7 @@
                                         "optionalToken": null,
                                         "type": null,
                                         "right": null,
-                                        "flags": 32,
+                                        "flags": 1073741856,
                                         "start": 35,
                                         "end": 42
                                     }
@@ -312,7 +312,7 @@
                                         "optionalToken": null,
                                         "type": null,
                                         "right": null,
-                                        "flags": 32,
+                                        "flags": 1073741856,
                                         "start": 54,
                                         "end": 61
                                     }
@@ -394,7 +394,7 @@
                                         "optionalToken": null,
                                         "type": null,
                                         "right": null,
-                                        "flags": 32,
+                                        "flags": 1073741856,
                                         "start": 75,
                                         "end": 83
                                     }
@@ -468,7 +468,7 @@
                                         "optionalToken": null,
                                         "type": null,
                                         "right": null,
-                                        "flags": 32,
+                                        "flags": 1073741856,
                                         "start": 97,
                                         "end": 105
                                     },
@@ -829,7 +829,7 @@
                                         "optionalToken": null,
                                         "type": null,
                                         "right": null,
-                                        "flags": 32,
+                                        "flags": 1073741856,
                                         "start": 177,
                                         "end": 184
                                     }
@@ -911,7 +911,7 @@
                                         "optionalToken": null,
                                         "type": null,
                                         "right": null,
-                                        "flags": 32,
+                                        "flags": 1073741856,
                                         "start": 199,
                                         "end": 206
                                     }
@@ -1001,7 +1001,7 @@
                                         "optionalToken": null,
                                         "type": null,
                                         "right": null,
-                                        "flags": 32,
+                                        "flags": 1073741856,
                                         "start": 223,
                                         "end": 231
                                     }
@@ -1083,7 +1083,7 @@
                                         "optionalToken": null,
                                         "type": null,
                                         "right": null,
-                                        "flags": 32,
+                                        "flags": 1073741856,
                                         "start": 248,
                                         "end": 256
                                     },

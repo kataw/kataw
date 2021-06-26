@@ -48,8 +48,8 @@ function not_gen() { function* foo() { var x = 10; yield 1; return x; } }}
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 17,
-                "end": 17
+                "start": 16,
+                "end": 16
             },
             "contents": {
                 "kind": 216,
@@ -87,8 +87,8 @@ function not_gen() { function* foo() { var x = 10; yield 1; return x; } }}
                                 "formalParameters": [],
                                 "trailingComma": false,
                                 "flags": 32,
-                                "start": 35,
-                                "end": 35
+                                "start": 34,
+                                "end": 34
                             },
                             "contents": {
                                 "kind": 216,

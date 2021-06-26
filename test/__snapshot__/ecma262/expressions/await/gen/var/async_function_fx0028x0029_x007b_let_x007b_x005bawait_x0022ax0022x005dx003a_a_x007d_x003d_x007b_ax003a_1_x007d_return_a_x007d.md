@@ -113,8 +113,8 @@ var await; var f = (async function() { async function f() {
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 32,
-                                    "start": 35,
-                                    "end": 35
+                                    "start": 34,
+                                    "end": 34
                                 },
                                 "contents": {
                                     "kind": 216,
@@ -152,8 +152,8 @@ var await; var f = (async function() { async function f() {
                                                     "formalParameters": [],
                                                     "trailingComma": false,
                                                     "flags": 32,
-                                                    "start": 56,
-                                                    "end": 56
+                                                    "start": 55,
+                                                    "end": 55
                                                 },
                                                 "contents": {
                                                     "kind": 216,

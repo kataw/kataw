@@ -196,8 +196,8 @@ if ({ x } &&= { x: 2 }) { foo(); };
                     "formalParameters": [],
                     "trailingComma": false,
                     "flags": 32,
-                    "start": 51,
-                    "end": 51
+                    "start": 50,
+                    "end": 50
                 },
                 "contents": {
                     "kind": 216,
@@ -512,8 +512,8 @@ if ({ x } &&= { x: 2 }) { foo(); };
                     "formalParameters": [],
                     "trailingComma": false,
                     "flags": 32,
-                    "start": 157,
-                    "end": 157
+                    "start": 156,
+                    "end": 156
                 },
                 "contents": {
                     "kind": 216,
@@ -592,8 +592,8 @@ if ({ x } &&= { x: 2 }) { foo(); };
                     "formalParameters": [],
                     "trailingComma": false,
                     "flags": 32,
-                    "start": 182,
-                    "end": 182
+                    "start": 181,
+                    "end": 181
                 },
                 "contents": {
                     "kind": 216,
@@ -880,8 +880,8 @@ if ({ x } &&= { x: 2 }) { foo(); };
                     "formalParameters": [],
                     "trailingComma": false,
                     "flags": 32,
-                    "start": 295,
-                    "end": 295
+                    "start": 294,
+                    "end": 294
                 },
                 "contents": {
                     "kind": 216,
@@ -938,8 +938,8 @@ if ({ x } &&= { x: 2 }) { foo(); };
                     "formalParameters": [],
                     "trailingComma": false,
                     "flags": 32,
-                    "start": 325,
-                    "end": 325
+                    "start": 324,
+                    "end": 324
                 },
                 "contents": {
                     "kind": 216,

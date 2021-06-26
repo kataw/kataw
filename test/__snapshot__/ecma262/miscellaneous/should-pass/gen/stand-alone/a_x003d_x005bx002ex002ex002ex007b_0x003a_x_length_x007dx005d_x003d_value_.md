@@ -102,7 +102,7 @@ a = [...{ 0: x, length }] = value;
                                         "start": 8,
                                         "end": 24
                                     },
-                                    "flags": 32,
+                                    "flags": 1073741856,
                                     "start": 5,
                                     "end": 24
                                 }

@@ -527,7 +527,7 @@ this.#f,
                                                                                     "start": 143,
                                                                                     "end": 150
                                                                                 },
-                                                                                "flags": 32,
+                                                                                "flags": 1073741856,
                                                                                 "start": 139,
                                                                                 "end": 150
                                                                             }
@@ -586,7 +586,7 @@ this.#f,
                                                                                     "start": 161,
                                                                                     "end": 168
                                                                                 },
-                                                                                "flags": 32,
+                                                                                "flags": 1073741856,
                                                                                 "start": 157,
                                                                                 "end": 168
                                                                             }

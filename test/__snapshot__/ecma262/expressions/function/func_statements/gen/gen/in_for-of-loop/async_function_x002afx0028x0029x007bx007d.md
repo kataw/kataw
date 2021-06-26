@@ -89,8 +89,8 @@ for (a of b) async function *f(){}
                     "formalParameters": [],
                     "trailingComma": false,
                     "flags": 32,
-                    "start": 31,
-                    "end": 31
+                    "start": 30,
+                    "end": 30
                 },
                 "contents": {
                     "kind": 216,

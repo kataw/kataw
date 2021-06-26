@@ -55,8 +55,8 @@ function *f(){
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 12,
-                "end": 12
+                "start": 11,
+                "end": 11
             },
             "contents": {
                 "kind": 216,
@@ -67,10 +67,10 @@ function *f(){
                         {
                             "kind": 120,
                             "expression": {
-                                "kind": 125,
-                                "left": {
-                                    "kind": 121,
-                                    "expression": {
+                                "kind": 121,
+                                "expression": {
+                                    "kind": 125,
+                                    "left": {
                                         "kind": 177,
                                         "asyncKeyword": null,
                                         "functionKeyword": {
@@ -97,34 +97,34 @@ function *f(){
                                                 "directives": [],
                                                 "statements": [],
                                                 "flags": 32,
-                                                "start": 26,
-                                                "end": 26
+                                                "start": 27,
+                                                "end": 27
                                             },
                                             "flags": 32,
-                                            "start": 26,
-                                            "end": 26
+                                            "start": 27,
+                                            "end": 27
                                         },
                                         "returnType": null,
                                         "flags": 32,
                                         "start": 18,
-                                        "end": 26
+                                        "end": 27
+                                    },
+                                    "operatorToken": {
+                                        "kind": 4125,
+                                        "flags": 96,
+                                        "start": 27,
+                                        "end": 29
+                                    },
+                                    "right": {
+                                        "kind": 201392130,
+                                        "text": 1,
+                                        "rawText": "1",
+                                        "flags": 96,
+                                        "start": 29,
+                                        "end": 31
                                     },
                                     "flags": 32,
-                                    "start": 14,
-                                    "end": 27
-                                },
-                                "operatorToken": {
-                                    "kind": 4125,
-                                    "flags": 96,
-                                    "start": 27,
-                                    "end": 29
-                                },
-                                "right": {
-                                    "kind": 201392130,
-                                    "text": 1,
-                                    "rawText": "1",
-                                    "flags": 96,
-                                    "start": 29,
+                                    "start": 18,
                                     "end": 31
                                 },
                                 "flags": 32,
@@ -169,6 +169,9 @@ function *f(){
 
 ```javascript
 ✖ Missing an opening parentheses - '( - start: 26, end: 27
+✖ Missing an opening brace - '{ - start: 28, end: 29
+✖ The left-hand side of an assignment expression must be a variable or a property access - start: 27, end: 29
+✖ Expected a ')' to match the '(' token here - start: 31, end: 32
 
 ```
 

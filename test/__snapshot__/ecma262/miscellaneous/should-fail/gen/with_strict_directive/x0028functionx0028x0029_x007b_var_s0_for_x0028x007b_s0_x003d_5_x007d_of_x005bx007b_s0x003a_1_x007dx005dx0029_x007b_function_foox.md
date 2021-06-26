@@ -53,8 +53,8 @@
                         "formalParameters": [],
                         "trailingComma": false,
                         "flags": 32,
-                        "start": 24,
-                        "end": 24
+                        "start": 23,
+                        "end": 23
                     },
                     "contents": {
                         "kind": 216,

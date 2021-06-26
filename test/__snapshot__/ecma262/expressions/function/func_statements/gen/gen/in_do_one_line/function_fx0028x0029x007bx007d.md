@@ -56,8 +56,8 @@ do function f(){} while (x);
                     "formalParameters": [],
                     "trailingComma": false,
                     "flags": 32,
-                    "start": 14,
-                    "end": 14
+                    "start": 13,
+                    "end": 13
                 },
                 "contents": {
                     "kind": 216,

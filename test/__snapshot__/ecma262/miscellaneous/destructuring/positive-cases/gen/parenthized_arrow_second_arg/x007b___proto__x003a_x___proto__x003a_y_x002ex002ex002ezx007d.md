@@ -131,7 +131,7 @@ var f = (argument1,{ __proto__: x, __proto__: y, ...z}) => {};
                                                     "optionalToken": null,
                                                     "type": null,
                                                     "right": null,
-                                                    "flags": 32,
+                                                    "flags": 1073741856,
                                                     "start": 48,
                                                     "end": 53
                                                 }

@@ -48,8 +48,8 @@ function not_gen() { var gfe = function* rgfe() { switch (1) { case yield* 'foo'
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 17,
-                "end": 17
+                "start": 16,
+                "end": 16
             },
             "contents": {
                 "kind": 216,
@@ -109,8 +109,8 @@ function not_gen() { var gfe = function* rgfe() { switch (1) { case yield* 'foo'
                                                 "formalParameters": [],
                                                 "trailingComma": false,
                                                 "flags": 32,
-                                                "start": 46,
-                                                "end": 46
+                                                "start": 45,
+                                                "end": 45
                                             },
                                             "contents": {
                                                 "kind": 216,

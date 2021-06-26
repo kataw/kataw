@@ -48,8 +48,8 @@ function x() {function () { for (const x in { a: x }) { } }}
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 11,
-                "end": 11
+                "start": 10,
+                "end": 10
             },
             "contents": {
                 "kind": 216,
@@ -75,8 +75,8 @@ function x() {function () { for (const x in { a: x }) { } }}
                                 "formalParameters": [],
                                 "trailingComma": false,
                                 "flags": 32,
-                                "start": 24,
-                                "end": 24
+                                "start": 22,
+                                "end": 22
                             },
                             "contents": {
                                 "kind": 216,

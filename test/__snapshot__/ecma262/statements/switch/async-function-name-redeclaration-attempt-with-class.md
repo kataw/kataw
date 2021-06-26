@@ -87,8 +87,8 @@ switch (0) { case 1: async function f() {} default: class f {} }
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 32,
-                                    "start": 38,
-                                    "end": 38
+                                    "start": 37,
+                                    "end": 37
                                 },
                                 "contents": {
                                     "kind": 216,

@@ -123,7 +123,7 @@ var f = ({ __proto__: x, __proto__: y, ...z}) => {};
                                                     "optionalToken": null,
                                                     "type": null,
                                                     "right": null,
-                                                    "flags": 32,
+                                                    "flags": 1073741856,
                                                     "start": 38,
                                                     "end": 43
                                                 }

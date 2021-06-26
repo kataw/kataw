@@ -88,8 +88,8 @@ declare function foo(): void
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 24,
-                "end": 24
+                "start": 23,
+                "end": 23
             },
             "contents": null,
             "returnType": {
@@ -267,8 +267,8 @@ declare function foo(): void
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 106,
-                "end": 106
+                "start": 105,
+                "end": 105
             },
             "contents": null,
             "returnType": {

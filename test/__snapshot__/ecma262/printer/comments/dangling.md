@@ -200,8 +200,8 @@ Thing(/* dangling */);
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 90,
-                "end": 90
+                "start": 89,
+                "end": 89
             },
             "contents": {
                 "kind": 216,

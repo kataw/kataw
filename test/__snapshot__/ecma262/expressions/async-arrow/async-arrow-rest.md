@@ -46,7 +46,7 @@ async (...args: any) => {};
                         "optionalToken": null,
                         "type": null,
                         "right": null,
-                        "flags": 32,
+                        "flags": 1073741856,
                         "start": 7,
                         "end": 19
                     }

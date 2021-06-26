@@ -73,7 +73,7 @@ for ({x,...x}=x in x) ;
                                     "start": 11,
                                     "end": 12
                                 },
-                                "flags": 32,
+                                "flags": 1073741856,
                                 "start": 8,
                                 "end": 12
                             }

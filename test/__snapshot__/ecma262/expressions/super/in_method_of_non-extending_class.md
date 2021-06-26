@@ -100,8 +100,8 @@ class x { fo(){ return function() { super.foo; } }}
                                                         "formalParameters": [],
                                                         "trailingComma": false,
                                                         "flags": 32,
-                                                        "start": 32,
-                                                        "end": 32
+                                                        "start": 31,
+                                                        "end": 31
                                                     },
                                                     "contents": {
                                                         "kind": 216,

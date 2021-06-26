@@ -53,8 +53,8 @@ function * gen() { function not_gen() { function f() { class C { yield() { } } }
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 15,
-                "end": 15
+                "start": 14,
+                "end": 14
             },
             "contents": {
                 "kind": 216,
@@ -87,8 +87,8 @@ function * gen() { function not_gen() { function f() { class C { yield() { } } }
                                 "formalParameters": [],
                                 "trailingComma": false,
                                 "flags": 32,
-                                "start": 36,
-                                "end": 36
+                                "start": 35,
+                                "end": 35
                             },
                             "contents": {
                                 "kind": 216,
@@ -121,8 +121,8 @@ function * gen() { function not_gen() { function f() { class C { yield() { } } }
                                                 "formalParameters": [],
                                                 "trailingComma": false,
                                                 "flags": 32,
-                                                "start": 51,
-                                                "end": 51
+                                                "start": 50,
+                                                "end": 50
                                             },
                                             "contents": {
                                                 "kind": 216,

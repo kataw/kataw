@@ -1817,8 +1817,8 @@ let x = { foo(){ super(); } };
                                         "formalParameters": [],
                                         "trailingComma": false,
                                         "flags": 32,
-                                        "start": 511,
-                                        "end": 511
+                                        "start": 510,
+                                        "end": 510
                                     },
                                     "contents": {
                                         "kind": 216,
@@ -2068,8 +2068,8 @@ let x = { foo(){ super(); } };
                                         "formalParameters": [],
                                         "trailingComma": false,
                                         "flags": 32,
-                                        "start": 576,
-                                        "end": 576
+                                        "start": 575,
+                                        "end": 575
                                     },
                                     "contents": {
                                         "kind": 216,
@@ -2395,8 +2395,8 @@ let x = { foo(){ super(); } };
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 661,
-                "end": 661
+                "start": 660,
+                "end": 660
             },
             "contents": {
                 "kind": 216,

@@ -99,8 +99,8 @@ async function f5() {
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 18,
-                "end": 18
+                "start": 17,
+                "end": 17
             },
             "contents": {
                 "kind": 216,
@@ -538,8 +538,8 @@ async function f5() {
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 333,
-                "end": 333
+                "start": 332,
+                "end": 332
             },
             "contents": {
                 "kind": 216,
@@ -801,8 +801,8 @@ async function f5() {
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 561,
-                "end": 561
+                "start": 560,
+                "end": 560
             },
             "contents": {
                 "kind": 216,
@@ -1064,8 +1064,8 @@ async function f5() {
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 825,
-                "end": 825
+                "start": 824,
+                "end": 824
             },
             "contents": {
                 "kind": 216,
@@ -1503,8 +1503,8 @@ async function f5() {
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 1170,
-                "end": 1170
+                "start": 1169,
+                "end": 1169
             },
             "contents": {
                 "kind": 216,

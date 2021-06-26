@@ -96,7 +96,7 @@ async ([a]:string)=>c;
                             "start": 9,
                             "end": 12
                         },
-                        "flags": 32,
+                        "flags": 1073741856,
                         "start": 9,
                         "end": 13
                     }
@@ -1683,8 +1683,8 @@ async ([a]:string)=>c;
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 603,
-                "end": 603
+                "start": 601,
+                "end": 601
             },
             "contents": {
                 "kind": 216,

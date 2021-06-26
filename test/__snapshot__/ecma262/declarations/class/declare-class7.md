@@ -83,8 +83,8 @@ declare function foo<T>(): void;
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 24,
-                "end": 24
+                "start": 23,
+                "end": 23
             },
             "contents": null,
             "returnType": {

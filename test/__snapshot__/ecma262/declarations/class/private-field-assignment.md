@@ -1130,7 +1130,7 @@ class Foo {
     this.#x ^= 1;
     this.#x &&= 1;
     this.#x ||= 1;
-    this.#x => 1;
+    this.#x ??= 1;
   }
 }
 ```

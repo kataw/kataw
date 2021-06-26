@@ -557,7 +557,7 @@ module.exports = {
                                     "start": 302,
                                     "end": 307
                                 },
-                                "flags": 32,
+                                "flags": 1073741856,
                                 "start": 296,
                                 "end": 307
                             },
@@ -606,7 +606,7 @@ module.exports = {
                                     "start": 334,
                                     "end": 339
                                 },
-                                "flags": 32,
+                                "flags": 1073741856,
                                 "start": 328,
                                 "end": 339
                             }

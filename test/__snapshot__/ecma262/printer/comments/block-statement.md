@@ -217,8 +217,8 @@ x /*2*/
                             "formalParameters": [],
                             "trailingComma": false,
                             "flags": 32,
-                            "start": 95,
-                            "end": 95
+                            "start": 88,
+                            "end": 88
                         },
                         "contents": {
                             "kind": 216,

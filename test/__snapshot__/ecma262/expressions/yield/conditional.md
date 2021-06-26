@@ -63,8 +63,8 @@ async function f3() {
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 13,
-                "end": 13
+                "start": 12,
+                "end": 12
             },
             "contents": {
                 "kind": 216,
@@ -545,8 +545,8 @@ async function f3() {
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 158,
-                "end": 158
+                "start": 157,
+                "end": 157
             },
             "contents": {
                 "kind": 216,
@@ -884,8 +884,8 @@ async function f3() {
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 264,
-                "end": 264
+                "start": 263,
+                "end": 263
             },
             "contents": {
                 "kind": 216,

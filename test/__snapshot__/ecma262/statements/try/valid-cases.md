@@ -120,8 +120,8 @@ try { var e } catch (e) {}
                                         "formalParameters": [],
                                         "trailingComma": false,
                                         "flags": 32,
-                                        "start": 44,
-                                        "end": 44
+                                        "start": 43,
+                                        "end": 43
                                     },
                                     "contents": {
                                         "kind": 216,
@@ -248,8 +248,8 @@ try { var e } catch (e) {}
                                         "formalParameters": [],
                                         "trailingComma": false,
                                         "flags": 32,
-                                        "start": 89,
-                                        "end": 89
+                                        "start": 88,
+                                        "end": 88
                                     },
                                     "contents": {
                                         "kind": 216,
@@ -378,8 +378,8 @@ try { var e } catch (e) {}
                                         "formalParameters": [],
                                         "trailingComma": false,
                                         "flags": 32,
-                                        "start": 134,
-                                        "end": 134
+                                        "start": 133,
+                                        "end": 133
                                     },
                                     "contents": {
                                         "kind": 216,
@@ -497,8 +497,8 @@ try { var e } catch (e) {}
                                                 "formalParameters": [],
                                                 "trailingComma": false,
                                                 "flags": 32,
-                                                "start": 174,
-                                                "end": 174
+                                                "start": 173,
+                                                "end": 173
                                             },
                                             "contents": {
                                                 "kind": 216,
@@ -619,8 +619,8 @@ try { var e } catch (e) {}
                                                 "formalParameters": [],
                                                 "trailingComma": false,
                                                 "flags": 32,
-                                                "start": 216,
-                                                "end": 216
+                                                "start": 215,
+                                                "end": 215
                                             },
                                             "contents": {
                                                 "kind": 216,

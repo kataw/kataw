@@ -115,8 +115,8 @@ var f = async function f(x = function *await() {}) {}
                                                 "formalParameters": [],
                                                 "trailingComma": false,
                                                 "flags": 32,
-                                                "start": 45,
-                                                "end": 45
+                                                "start": 44,
+                                                "end": 44
                                             },
                                             "contents": {
                                                 "kind": 216,

@@ -561,8 +561,8 @@ let tests = [
                                             "formalParameters": [],
                                             "trailingComma": false,
                                             "flags": 32,
-                                            "start": 489,
-                                            "end": 489
+                                            "start": 487,
+                                            "end": 487
                                         },
                                         "contents": {
                                             "kind": 216,

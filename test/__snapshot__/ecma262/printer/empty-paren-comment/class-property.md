@@ -381,8 +381,8 @@ class Foo {
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 32,
-                                    "start": 154,
-                                    "end": 154
+                                    "start": 153,
+                                    "end": 153
                                 },
                                 "contents": {
                                     "kind": 216,
@@ -458,8 +458,8 @@ class Foo {
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 32,
-                                    "start": 193,
-                                    "end": 193
+                                    "start": 192,
+                                    "end": 192
                                 },
                                 "contents": {
                                     "kind": 216,

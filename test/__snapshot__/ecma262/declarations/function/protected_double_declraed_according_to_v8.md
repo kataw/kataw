@@ -47,8 +47,8 @@ const protected = x, function arguments(){}
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 19,
-                "end": 19
+                "start": 18,
+                "end": 18
             },
             "contents": {
                 "kind": 216,
@@ -200,8 +200,8 @@ const protected = x, function arguments(){}
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 111,
-                "end": 111
+                "start": 110,
+                "end": 110
             },
             "contents": {
                 "kind": 216,

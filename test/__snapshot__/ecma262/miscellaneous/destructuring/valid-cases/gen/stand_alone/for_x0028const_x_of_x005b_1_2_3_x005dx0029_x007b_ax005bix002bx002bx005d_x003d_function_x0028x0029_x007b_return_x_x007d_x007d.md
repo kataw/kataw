@@ -179,8 +179,8 @@ for (const x of [ 1, 2, 3 ]) { a[i++] = function () { return x; }; }
                                         "formalParameters": [],
                                         "trailingComma": false,
                                         "flags": 32,
-                                        "start": 50,
-                                        "end": 50
+                                        "start": 48,
+                                        "end": 48
                                     },
                                     "contents": {
                                         "kind": 216,

@@ -66,11 +66,26 @@ class x extends function {}
                         "typeParameters": null,
                         "formalParameterList": {
                             "kind": 214,
-                            "formalParameters": [],
+                            "formalParameters": [
+                                {
+                                    "kind": 212,
+                                    "propertyList": {
+                                        "kind": 213,
+                                        "properties": [],
+                                        "trailingComma": false,
+                                        "flags": 32,
+                                        "start": 26,
+                                        "end": 26
+                                    },
+                                    "flags": 32,
+                                    "start": 24,
+                                    "end": 27
+                                }
+                            ],
                             "trailingComma": false,
                             "flags": 32,
                             "start": 24,
-                            "end": 24
+                            "end": 27
                         },
                         "contents": {
                             "kind": 216,
@@ -79,11 +94,11 @@ class x extends function {}
                                 "directives": [],
                                 "statements": [],
                                 "flags": 32,
-                                "start": 26,
-                                "end": 26
+                                "start": 27,
+                                "end": 27
                             },
                             "flags": 32,
-                            "start": 24,
+                            "start": 27,
                             "end": 27
                         },
                         "returnType": null,
@@ -131,7 +146,7 @@ class x extends function {}
 
 ```javascript
 ✖ Missing an opening parentheses - '( - start: 25, end: 26
-✖ Missing an opening brace - '{ - start: 26, end: 27
+✖ ',' expected - start: 26, end: 27
 
 ```
 

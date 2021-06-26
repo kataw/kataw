@@ -53,8 +53,8 @@ export default function () {}
                     "formalParameters": [],
                     "trailingComma": false,
                     "flags": 32,
-                    "start": 25,
-                    "end": 25
+                    "start": 23,
+                    "end": 23
                 },
                 "contents": {
                     "kind": 216,

@@ -1093,8 +1093,8 @@ for ({a: b.c}-- of d) e;
                     "formalParameters": [],
                     "trailingComma": false,
                     "flags": 32,
-                    "start": 270,
-                    "end": 270
+                    "start": 269,
+                    "end": 269
                 },
                 "contents": {
                     "kind": 216,
@@ -1220,8 +1220,8 @@ for ({a: b.c}-- of d) e;
                     "formalParameters": [],
                     "trailingComma": false,
                     "flags": 32,
-                    "start": 307,
-                    "end": 307
+                    "start": 306,
+                    "end": 306
                 },
                 "contents": {
                     "kind": 216,

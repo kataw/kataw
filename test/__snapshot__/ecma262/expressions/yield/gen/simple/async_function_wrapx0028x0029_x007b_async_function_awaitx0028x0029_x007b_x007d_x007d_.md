@@ -53,8 +53,8 @@ async function wrap() { async function await() { } };
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 20,
-                "end": 20
+                "start": 19,
+                "end": 19
             },
             "contents": {
                 "kind": 216,
@@ -92,8 +92,8 @@ async function wrap() { async function await() { } };
                                 "formalParameters": [],
                                 "trailingComma": false,
                                 "flags": 32,
-                                "start": 45,
-                                "end": 45
+                                "start": 44,
+                                "end": 44
                             },
                             "contents": {
                                 "kind": 216,

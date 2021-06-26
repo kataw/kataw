@@ -145,8 +145,8 @@ switch (0) { case 1: const f = 0; default: function f() {} }
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 32,
-                                    "start": 54,
-                                    "end": 54
+                                    "start": 53,
+                                    "end": 53
                                 },
                                 "contents": {
                                     "kind": 216,

@@ -44,7 +44,7 @@ for ({...a,} in []);
                                 "start": 9,
                                 "end": 10
                             },
-                            "flags": 32,
+                            "flags": 1073741856,
                             "start": 6,
                             "end": 10
                         }

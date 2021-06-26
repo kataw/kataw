@@ -742,7 +742,7 @@ for ({}.bar = x in obj);
                                 "start": 195,
                                 "end": 196
                             },
-                            "flags": 32,
+                            "flags": 1073741856,
                             "start": 192,
                             "end": 196
                         }
@@ -1184,7 +1184,7 @@ for ({}.bar = x in obj);
                                 "start": 298,
                                 "end": 303
                             },
-                            "flags": 32,
+                            "flags": 1073741856,
                             "start": 295,
                             "end": 303
                         }
@@ -1816,8 +1816,8 @@ for ({}.bar = x in obj);
                         "formalParameters": [],
                         "trailingComma": false,
                         "flags": 32,
-                        "start": 493,
-                        "end": 493
+                        "start": 492,
+                        "end": 492
                     },
                     "contents": {
                         "kind": 216,
@@ -2975,8 +2975,8 @@ for ({}.bar = x in obj);
                             "formalParameters": [],
                             "trailingComma": false,
                             "flags": 32,
-                            "start": 810,
-                            "end": 810
+                            "start": 809,
+                            "end": 809
                         },
                         "contents": {
                             "kind": 216,
@@ -3823,7 +3823,7 @@ for ({}.bar = x in obj);
                                     "start": 1015,
                                     "end": 1018
                                 },
-                                "flags": 32,
+                                "flags": 1073741856,
                                 "start": 1012,
                                 "end": 1018
                             }
@@ -4080,8 +4080,8 @@ for ({}.bar = x in obj);
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 1075,
-                "end": 1075
+                "start": 1074,
+                "end": 1074
             },
             "contents": {
                 "kind": 216,

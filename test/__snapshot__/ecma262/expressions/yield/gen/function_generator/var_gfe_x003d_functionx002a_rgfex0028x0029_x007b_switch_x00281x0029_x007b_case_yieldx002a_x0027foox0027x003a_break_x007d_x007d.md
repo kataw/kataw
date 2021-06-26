@@ -53,8 +53,8 @@ function * gen() { function not_gen() { var gfe = function* rgfe() { switch (1) 
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 15,
-                "end": 15
+                "start": 14,
+                "end": 14
             },
             "contents": {
                 "kind": 216,
@@ -87,8 +87,8 @@ function * gen() { function not_gen() { var gfe = function* rgfe() { switch (1) 
                                 "formalParameters": [],
                                 "trailingComma": false,
                                 "flags": 32,
-                                "start": 36,
-                                "end": 36
+                                "start": 35,
+                                "end": 35
                             },
                             "contents": {
                                 "kind": 216,
@@ -148,8 +148,8 @@ function * gen() { function not_gen() { var gfe = function* rgfe() { switch (1) 
                                                                 "formalParameters": [],
                                                                 "trailingComma": false,
                                                                 "flags": 32,
-                                                                "start": 65,
-                                                                "end": 65
+                                                                "start": 64,
+                                                                "end": 64
                                                             },
                                                             "contents": {
                                                                 "kind": 216,

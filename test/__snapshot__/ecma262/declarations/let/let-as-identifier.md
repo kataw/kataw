@@ -228,8 +228,8 @@ L: let
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 63,
-                "end": 63
+                "start": 62,
+                "end": 62
             },
             "contents": {
                 "kind": 216,
@@ -278,8 +278,8 @@ L: let
                         "formalParameters": [],
                         "trailingComma": false,
                         "flags": 32,
-                        "start": 84,
-                        "end": 84
+                        "start": 83,
+                        "end": 83
                     },
                     "contents": {
                         "kind": 216,
@@ -640,8 +640,8 @@ L: let
                         "formalParameters": [],
                         "trailingComma": false,
                         "flags": 32,
-                        "start": 211,
-                        "end": 211
+                        "start": 210,
+                        "end": 210
                     },
                     "contents": {
                         "kind": 216,

@@ -97,7 +97,7 @@ fn = ({text = "default", ...props}) => text + props.children
                                             "optionalToken": null,
                                             "type": null,
                                             "right": null,
-                                            "flags": 32,
+                                            "flags": 1073741856,
                                             "start": 24,
                                             "end": 33
                                         }

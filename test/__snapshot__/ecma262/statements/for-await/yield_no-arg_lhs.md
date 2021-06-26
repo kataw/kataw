@@ -53,8 +53,8 @@ async function f(){
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 17,
-                "end": 17
+                "start": 16,
+                "end": 16
             },
             "contents": {
                 "kind": 216,
@@ -152,8 +152,8 @@ async function f(){
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 66,
-                "end": 66
+                "start": 65,
+                "end": 65
             },
             "contents": {
                 "kind": 216,

@@ -50,10 +50,10 @@ async x => (function) = 1
                     "end": 10
                 },
                 "contents": {
-                    "kind": 125,
-                    "left": {
-                        "kind": 121,
-                        "expression": {
+                    "kind": 121,
+                    "expression": {
+                        "kind": 125,
+                        "left": {
                             "kind": 177,
                             "asyncKeyword": null,
                             "functionKeyword": {
@@ -80,34 +80,34 @@ async x => (function) = 1
                                     "directives": [],
                                     "statements": [],
                                     "flags": 32,
-                                    "start": 20,
-                                    "end": 20
+                                    "start": 21,
+                                    "end": 21
                                 },
                                 "flags": 32,
-                                "start": 20,
-                                "end": 20
+                                "start": 21,
+                                "end": 21
                             },
                             "returnType": null,
                             "flags": 32,
                             "start": 12,
-                            "end": 20
+                            "end": 21
+                        },
+                        "operatorToken": {
+                            "kind": 4125,
+                            "flags": 96,
+                            "start": 21,
+                            "end": 23
+                        },
+                        "right": {
+                            "kind": 201392130,
+                            "text": 1,
+                            "rawText": "1",
+                            "flags": 96,
+                            "start": 23,
+                            "end": 25
                         },
                         "flags": 32,
-                        "start": 10,
-                        "end": 21
-                    },
-                    "operatorToken": {
-                        "kind": 4125,
-                        "flags": 96,
-                        "start": 21,
-                        "end": 23
-                    },
-                    "right": {
-                        "kind": 201392130,
-                        "text": 1,
-                        "rawText": "1",
-                        "flags": 96,
-                        "start": 23,
+                        "start": 12,
                         "end": 25
                     },
                     "flags": 32,
@@ -142,6 +142,9 @@ async x => (function) = 1
 
 ```javascript
 ✖ Missing an opening parentheses - '( - start: 20, end: 21
+✖ Missing an opening brace - '{ - start: 22, end: 23
+✖ The left-hand side of an assignment expression must be a variable or a property access - start: 21, end: 23
+✖ Expected a ')' to match the '(' token here - start: 24, end: 25
 
 ```
 

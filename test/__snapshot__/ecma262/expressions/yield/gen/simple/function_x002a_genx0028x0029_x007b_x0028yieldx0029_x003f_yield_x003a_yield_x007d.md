@@ -53,8 +53,8 @@ function * gen() { (yield) ? yield : yield }
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 15,
-                "end": 15
+                "start": 14,
+                "end": 14
             },
             "contents": {
                 "kind": 216,

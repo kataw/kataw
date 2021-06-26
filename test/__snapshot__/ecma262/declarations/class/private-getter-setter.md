@@ -2144,7 +2144,7 @@ class Foo {
     fn().#prop ^= 1;
     fn().#prop &&= 1;
     fn().#prop ||= 1;
-    fn().#prop => 1;
+    fn().#prop ??= 1;
   }
 }
 ```

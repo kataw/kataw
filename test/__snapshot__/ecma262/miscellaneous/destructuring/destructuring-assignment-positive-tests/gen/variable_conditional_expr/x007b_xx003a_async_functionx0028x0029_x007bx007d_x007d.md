@@ -202,8 +202,8 @@ var x, y, z; m(['b']) ? lhs : { x: async function() {} } = {}
                                             "formalParameters": [],
                                             "trailingComma": false,
                                             "flags": 32,
-                                            "start": 50,
-                                            "end": 50
+                                            "start": 49,
+                                            "end": 49
                                         },
                                         "contents": {
                                             "kind": 216,

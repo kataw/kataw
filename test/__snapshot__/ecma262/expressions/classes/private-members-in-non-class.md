@@ -89,8 +89,8 @@ class C { test() {get #a() { }}}
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 19,
-                "end": 19
+                "start": 18,
+                "end": 18
             },
             "contents": {
                 "kind": 216,
@@ -193,8 +193,8 @@ class C { test() {get #a() { }}}
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 48,
-                "end": 48
+                "start": 47,
+                "end": 47
             },
             "contents": {
                 "kind": 216,

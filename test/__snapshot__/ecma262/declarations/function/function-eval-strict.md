@@ -42,8 +42,8 @@ function arguments() { "use strict"; }
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 14,
-                "end": 14
+                "start": 13,
+                "end": 13
             },
             "contents": {
                 "kind": 216,
@@ -98,8 +98,8 @@ function arguments() { "use strict"; }
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 54,
-                "end": 54
+                "start": 53,
+                "end": 53
             },
             "contents": {
                 "kind": 216,

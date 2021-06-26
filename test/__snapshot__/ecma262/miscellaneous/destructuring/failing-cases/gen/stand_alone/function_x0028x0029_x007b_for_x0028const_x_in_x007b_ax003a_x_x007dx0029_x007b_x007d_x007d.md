@@ -41,8 +41,8 @@ function () { for (const x in { a: x }) { } }
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 10,
-                "end": 10
+                "start": 8,
+                "end": 8
             },
             "contents": {
                 "kind": 216,

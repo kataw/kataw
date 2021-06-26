@@ -58,8 +58,8 @@ function test1() {
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 15,
-                "end": 15
+                "start": 14,
+                "end": 14
             },
             "contents": {
                 "kind": 216,
@@ -97,8 +97,8 @@ function test1() {
                                 "formalParameters": [],
                                 "trailingComma": false,
                                 "flags": 32,
-                                "start": 40,
-                                "end": 40
+                                "start": 39,
+                                "end": 39
                             },
                             "contents": {
                                 "kind": 216,
@@ -170,8 +170,8 @@ function test1() {
                                 "formalParameters": [],
                                 "trailingComma": false,
                                 "flags": 32,
-                                "start": 85,
-                                "end": 85
+                                "start": 84,
+                                "end": 84
                             },
                             "contents": {
                                 "kind": 216,

@@ -306,8 +306,8 @@ type T = <
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 129,
-                "end": 129
+                "start": 128,
+                "end": 128
             },
             "contents": {
                 "kind": 216,
@@ -770,8 +770,8 @@ type T = <
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 363,
-                "end": 363
+                "start": 362,
+                "end": 362
             },
             "contents": {
                 "kind": 216,

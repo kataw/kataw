@@ -40,8 +40,8 @@ function #private(): {} {}
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 18,
-                "end": 18
+                "start": 17,
+                "end": 17
             },
             "contents": {
                 "kind": 216,

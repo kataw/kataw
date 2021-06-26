@@ -65,7 +65,7 @@ async ([...x.y]) => z
                                     "optionalToken": null,
                                     "type": null,
                                     "right": null,
-                                    "flags": 32,
+                                    "flags": 1073741856,
                                     "start": 8,
                                     "end": 14
                                 }

@@ -614,7 +614,7 @@ promise.then(([firstResult, secondResult, thirdResult, fourthResult, fifthResult
                                                     "optionalToken": null,
                                                     "type": null,
                                                     "right": null,
-                                                    "flags": 32,
+                                                    "flags": 1073741856,
                                                     "start": 447,
                                                     "end": 455
                                                 },
@@ -982,7 +982,7 @@ promise.then(([firstResult, secondResult, thirdResult, fourthResult, fifthResult
                                                     "optionalToken": null,
                                                     "type": null,
                                                     "right": null,
-                                                    "flags": 32,
+                                                    "flags": 1073741856,
                                                     "start": 690,
                                                     "end": 698
                                                 },

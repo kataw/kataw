@@ -46,7 +46,7 @@ async (x, ...a)=>0;
                         "optionalToken": null,
                         "type": null,
                         "right": null,
-                        "flags": 32,
+                        "flags": 1073741856,
                         "start": 9,
                         "end": 14
                     }

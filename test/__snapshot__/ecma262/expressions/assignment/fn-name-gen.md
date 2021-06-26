@@ -124,8 +124,8 @@ gen = function*() {};
                         "formalParameters": [],
                         "trailingComma": false,
                         "flags": 32,
-                        "start": 35,
-                        "end": 35
+                        "start": 34,
+                        "end": 34
                     },
                     "contents": {
                         "kind": 216,
@@ -194,8 +194,8 @@ gen = function*() {};
                         "formalParameters": [],
                         "trailingComma": false,
                         "flags": 32,
-                        "start": 57,
-                        "end": 57
+                        "start": 56,
+                        "end": 56
                     },
                     "contents": {
                         "kind": 216,

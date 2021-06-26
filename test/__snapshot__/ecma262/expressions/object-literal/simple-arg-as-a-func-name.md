@@ -104,8 +104,8 @@ o = {f(x) { function x() {} }}
                                                         "formalParameters": [],
                                                         "trailingComma": false,
                                                         "flags": 32,
-                                                        "start": 23,
-                                                        "end": 23
+                                                        "start": 22,
+                                                        "end": 22
                                                     },
                                                     "contents": {
                                                         "kind": 216,

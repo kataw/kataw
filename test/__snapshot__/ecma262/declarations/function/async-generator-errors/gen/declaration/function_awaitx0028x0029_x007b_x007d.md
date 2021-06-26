@@ -59,8 +59,8 @@ async function * gen() {function await() { }}
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 21,
-                "end": 21
+                "start": 20,
+                "end": 20
             },
             "contents": {
                 "kind": 216,
@@ -93,8 +93,8 @@ async function * gen() {function await() { }}
                                 "formalParameters": [],
                                 "trailingComma": false,
                                 "flags": 32,
-                                "start": 39,
-                                "end": 39
+                                "start": 38,
+                                "end": 38
                             },
                             "contents": {
                                 "kind": 216,

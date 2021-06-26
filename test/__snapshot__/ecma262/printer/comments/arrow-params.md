@@ -2416,7 +2416,7 @@ foo(
                                                     "optionalToken": null,
                                                     "type": null,
                                                     "right": null,
-                                                    "flags": 32,
+                                                    "flags": 1073741856,
                                                     "start": 1005,
                                                     "end": 1119
                                                 }
@@ -3634,7 +3634,7 @@ foo(
                                                     "optionalToken": null,
                                                     "type": null,
                                                     "right": null,
-                                                    "flags": 32,
+                                                    "flags": 1073741856,
                                                     "start": 1876,
                                                     "end": 1929
                                                 }

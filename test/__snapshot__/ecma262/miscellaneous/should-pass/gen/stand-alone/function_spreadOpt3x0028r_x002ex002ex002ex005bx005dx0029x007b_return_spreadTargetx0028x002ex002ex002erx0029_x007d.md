@@ -132,7 +132,7 @@ function spreadOpt3(r, ...[]){ return spreadTarget(...r); }
                                                 "start": 54,
                                                 "end": 55
                                             },
-                                            "flags": 32,
+                                            "flags": 1073741856,
                                             "start": 51,
                                             "end": 55
                                         }
