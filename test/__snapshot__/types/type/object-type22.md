@@ -108,6 +108,7 @@ type a = {function((((-1) => [c|d]))):string};
                                                                     "end": 23
                                                                 },
                                                                 "text": 1,
+                                                                "rawText": "1",
                                                                 "flags": 2097216,
                                                                 "start": 22,
                                                                 "end": 24

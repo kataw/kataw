@@ -378,6 +378,7 @@ type a = (a[a & b[a|b|c|d|e]][c | d][(x) => T][-1][{...x}][]) => T;
                                                         "end": 48
                                                     },
                                                     "text": 1,
+                                                    "rawText": "1",
                                                     "flags": 2097216,
                                                     "start": 47,
                                                     "end": 49

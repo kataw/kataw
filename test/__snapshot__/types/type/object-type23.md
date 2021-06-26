@@ -96,6 +96,7 @@ type a = {((((-1) => [c|d]))):string};
                                                                 "end": 15
                                                             },
                                                             "text": 1,
+                                                            "rawText": "1",
                                                             "flags": 2097216,
                                                             "start": 14,
                                                             "end": 16

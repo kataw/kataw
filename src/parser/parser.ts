@@ -6794,134 +6794,139 @@ function parseFormalParameterList(parser: ParserState, context: Context, scope: 
 
   // Empty list
 
-   if (consume(parser, context | Context.AllowRegExp, SyntaxKind.LeftParen, DiagnosticCode.Missing_an_opening_parentheses) &&
-   consume(parser, context, SyntaxKind.RightParen)) {
+  if (
+    consume(
+      parser,
+      context | Context.AllowRegExp,
+      SyntaxKind.LeftParen,
+      DiagnosticCode.Missing_an_opening_parentheses
+    ) &&
+    consume(parser, context, SyntaxKind.RightParen)
+  ) {
     return createFormalParameterList([], /* trailingComma*/ false, nodeflags, curPos, curPos);
-   }
+  }
 
-    let trailingComma = false;
-    let count = 0;
-    let ellipsisToken = null;
-    let posAfterLeftParen = parser.curPos;
-    while (parser.token & Constants.FormalParameterList) {
-      const pos = parser.curPos;
-      if (parser.token === SyntaxKind.ThisKeyword) {
-        if ((context & Context.OptionsAllowTypes) < 1 || count > 0) {
-          parser.onError(
-            DiagnosticSource.Parser,
-            DiagnosticKind.Error,
-            diagnosticMap[
-              (context & Context.OptionsAllowTypes) < 1
-                ? DiagnosticCode.The_this_keyword_cannot_be_a_formal_parameter
-                : DiagnosticCode.The_this_parameter_must_be_the_first_function_parameter
-            ],
-            pos,
-            parser.pos
-          );
-        }
-
-        const left = parseBindingIdentifier(parser, context, scope, BindingType.ArgumentList);
-        const optionalToken = consumeOptToken(parser, context | Context.AllowRegExp, SyntaxKind.QuestionMark);
-        if (optionalToken) {
-          parser.onError(
-            DiagnosticSource.Parser,
-            DiagnosticKind.Error,
-            diagnosticMap[DiagnosticCode.The_this_parameter_cannot_be_optional],
-            parser.curPos,
-            parser.pos
-          );
-        }
-        if ((parser.token as SyntaxKind) !== SyntaxKind.Colon) {
-          parser.onError(
-            DiagnosticSource.Parser,
-            DiagnosticKind.Error,
-            diagnosticMap[DiagnosticCode.A_type_annotation_is_required_for_the_this_parameter],
-            parser.curPos,
-            parser.pos
-          );
-        }
-        parameters.push(
-          createBindingElement(
-            ellipsisToken,
-            left,
-            optionalToken,
-            parseType(parser, context),
-            /* right */ null,
-            nodeflags,
-            pos,
-            parser.curPos
-          )
+  let trailingComma = false;
+  let count = 0;
+  let ellipsisToken = null;
+  let posAfterLeftParen = parser.curPos;
+  while (parser.token & Constants.FormalParameterList) {
+    const pos = parser.curPos;
+    if (parser.token === SyntaxKind.ThisKeyword) {
+      if ((context & Context.OptionsAllowTypes) < 1 || count > 0) {
+        parser.onError(
+          DiagnosticSource.Parser,
+          DiagnosticKind.Error,
+          diagnosticMap[
+            (context & Context.OptionsAllowTypes) < 1
+              ? DiagnosticCode.The_this_keyword_cannot_be_a_formal_parameter
+              : DiagnosticCode.The_this_parameter_must_be_the_first_function_parameter
+          ],
+          pos,
+          parser.pos
         );
-      } else {
-        ellipsisToken = consumeOptToken(parser, context | Context.AllowRegExp, SyntaxKind.Ellipsis);
-        let left = parseIdentifierOrPattern(
-          parser,
-          context,
-          scope,
-          ellipsisToken ? BindingType.None : BindingType.ArgumentList
-        );
-
-        if (
-          ellipsisToken ||
-          parser.token === SyntaxKind.QuestionMark ||
-          parser.token === SyntaxKind.Colon ||
-          parser.token === SyntaxKind.Assign
-        ) {
-          if (ellipsisToken) {
-            nodeflags |= NodeFlags.NoneSimpleParamList;
-            parser.diagnosticStartPos = pos;
-            if (parser.token === SyntaxKind.Comma) {
-              parser.onError(
-                DiagnosticSource.Parser,
-                DiagnosticKind.Error,
-                diagnosticMap[DiagnosticCode.A_rest_parameter_must_be_last_in_a_parameter_list],
-                parser.curPos,
-                parser.pos
-              );
-            }
-          }
-          if (left.kind !== SyntaxKind.Identifier || parser.token === SyntaxKind.Assign) {
-            nodeflags |= NodeFlags.NoneSimpleParamList;
-            parser.diagnosticStartPos = pos;
-          }
-          left = createBindingElement(
-            ellipsisToken,
-            left,
-            consumeOptToken(parser, context, SyntaxKind.QuestionMark),
-            parseType(parser, context),
-            parseInitializer(parser, context, ellipsisToken ? true : false),
-            nodeflags,
-            pos,
-            parser.curPos
-          );
-        }
-        parameters.push(left);
       }
 
-      count++;
-      if ((parser.token as SyntaxKind) === SyntaxKind.RightParen) break;
-      consume(parser, context | Context.AllowRegExp, SyntaxKind.Comma, DiagnosticCode._expected);
-      if ((parser.token as SyntaxKind) === SyntaxKind.RightParen) {
-        trailingComma = true;
-        break;
+      const left = parseBindingIdentifier(parser, context, scope, BindingType.ArgumentList);
+      const optionalToken = consumeOptToken(parser, context | Context.AllowRegExp, SyntaxKind.QuestionMark);
+      if (optionalToken) {
+        parser.onError(
+          DiagnosticSource.Parser,
+          DiagnosticKind.Error,
+          diagnosticMap[DiagnosticCode.The_this_parameter_cannot_be_optional],
+          parser.curPos,
+          parser.pos
+        );
       }
-    }
-
-    if (scope.flags & ScopeFlags.Error && (nodeflags & NodeFlags.NoneSimpleParamList || context & Context.Strict)) {
-      parser.onError(
-        DiagnosticSource.Parser,
-        DiagnosticKind.Error,
-        diagnosticMap[DiagnosticCode.A_formal_parameter_cannot_be_bound_multiple_times_in_the_same_parameter_list],
-        parser.diagnosticStartPos,
-        parser.pos
+      if ((parser.token as SyntaxKind) !== SyntaxKind.Colon) {
+        parser.onError(
+          DiagnosticSource.Parser,
+          DiagnosticKind.Error,
+          diagnosticMap[DiagnosticCode.A_type_annotation_is_required_for_the_this_parameter],
+          parser.curPos,
+          parser.pos
+        );
+      }
+      parameters.push(
+        createBindingElement(
+          ellipsisToken,
+          left,
+          optionalToken,
+          parseType(parser, context),
+          /* right */ null,
+          nodeflags,
+          pos,
+          parser.curPos
+        )
       );
+    } else {
+      ellipsisToken = consumeOptToken(parser, context | Context.AllowRegExp, SyntaxKind.Ellipsis);
+      let left = parseIdentifierOrPattern(
+        parser,
+        context,
+        scope,
+        ellipsisToken ? BindingType.None : BindingType.ArgumentList
+      );
+
+      if (
+        ellipsisToken ||
+        parser.token === SyntaxKind.QuestionMark ||
+        parser.token === SyntaxKind.Colon ||
+        parser.token === SyntaxKind.Assign
+      ) {
+        if (ellipsisToken) {
+          nodeflags |= NodeFlags.NoneSimpleParamList;
+          parser.diagnosticStartPos = pos;
+          if (parser.token === SyntaxKind.Comma) {
+            parser.onError(
+              DiagnosticSource.Parser,
+              DiagnosticKind.Error,
+              diagnosticMap[DiagnosticCode.A_rest_parameter_must_be_last_in_a_parameter_list],
+              parser.curPos,
+              parser.pos
+            );
+          }
+        }
+        if (left.kind !== SyntaxKind.Identifier || parser.token === SyntaxKind.Assign) {
+          nodeflags |= NodeFlags.NoneSimpleParamList;
+          parser.diagnosticStartPos = pos;
+        }
+        left = createBindingElement(
+          ellipsisToken,
+          left,
+          consumeOptToken(parser, context, SyntaxKind.QuestionMark),
+          parseType(parser, context),
+          parseInitializer(parser, context, ellipsisToken ? true : false),
+          nodeflags,
+          pos,
+          parser.curPos
+        );
+      }
+      parameters.push(left);
     }
 
-    const result = createFormalParameterList(parameters, trailingComma, nodeflags, posAfterLeftParen, parser.curPos);
-    consume(parser, context, SyntaxKind.RightParen, DiagnosticCode.Expected_a_to_match_the_token_here);
-    return result;
+    count++;
+    if ((parser.token as SyntaxKind) === SyntaxKind.RightParen) break;
+    consume(parser, context | Context.AllowRegExp, SyntaxKind.Comma, DiagnosticCode._expected);
+    if ((parser.token as SyntaxKind) === SyntaxKind.RightParen) {
+      trailingComma = true;
+      break;
+    }
+  }
 
+  if (scope.flags & ScopeFlags.Error && (nodeflags & NodeFlags.NoneSimpleParamList || context & Context.Strict)) {
+    parser.onError(
+      DiagnosticSource.Parser,
+      DiagnosticKind.Error,
+      diagnosticMap[DiagnosticCode.A_formal_parameter_cannot_be_bound_multiple_times_in_the_same_parameter_list],
+      parser.diagnosticStartPos,
+      parser.pos
+    );
+  }
 
+  const result = createFormalParameterList(parameters, trailingComma, nodeflags, posAfterLeftParen, parser.curPos);
+  consume(parser, context, SyntaxKind.RightParen, DiagnosticCode.Expected_a_to_match_the_token_here);
+  return result;
 }
 
 /**
@@ -7794,8 +7799,9 @@ function parseSubtractionType(parser: ParserState, context: Context): Subtractio
   const subtractionToken = consumeToken(parser, context, SyntaxKind.Subtract);
   if (parser.token === SyntaxKind.NumericLiteral || parser.token === SyntaxKind.BigIntLiteral) {
     const value = parser.tokenValue;
+    const raw = parser.tokenRaw;
     nextToken(parser, context);
-    return createSubtractionType(subtractionToken, value, pos, parser.curPos);
+    return createSubtractionType(subtractionToken, value, raw, pos, parser.curPos);
   }
   parser.onError(
     DiagnosticSource.Parser,
@@ -8322,6 +8328,23 @@ function parseParenthesizedType(parser: ParserState, context: Context): any {
         // - `type X = (([1]) => T);`
       } else {
         type = parseTypeAnnotation(parser, context);
+      }
+
+      // - `type a = ((& 1,) => T)`
+      if ((parser.token as SyntaxKind) === SyntaxKind.Comma) {
+        type = parseArrowFunctionTypeParameters(
+          parser,
+          context,
+          createArrowTypeParameter(
+            /* ellipsisToken */ null,
+            type,
+            /* optionalToken */ null,
+            /* type */ null,
+            pos,
+            parser.curPos
+          ),
+          pos
+        );
       }
 
       consume(parser, context, SyntaxKind.RightParen);

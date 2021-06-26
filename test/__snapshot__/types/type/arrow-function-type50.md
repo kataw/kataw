@@ -90,6 +90,7 @@ type a = (a[-1]) => T;
                                                 "end": 13
                                             },
                                             "text": 1,
+                                            "rawText": "1",
                                             "flags": 2097216,
                                             "start": 12,
                                             "end": 14

@@ -77,6 +77,7 @@ let a: ([-1] | x | q & (x)) => T;
                                                                         "end": 10
                                                                     },
                                                                     "text": 1,
+                                                                    "rawText": "1",
                                                                     "flags": 2097216,
                                                                     "start": 9,
                                                                     "end": 11

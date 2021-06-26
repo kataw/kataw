@@ -123,6 +123,7 @@ type a = (a[b][-1][][]) => T;
                                                         "end": 16
                                                     },
                                                     "text": 1,
+                                                    "rawText": "1",
                                                     "flags": 2097216,
                                                     "start": 15,
                                                     "end": 17

@@ -83,6 +83,7 @@ type a = (([-1]) => T) => T
                                                                 "end": 13
                                                             },
                                                             "text": 1,
+                                                            "rawText": "1",
                                                             "flags": 2097216,
                                                             "start": 12,
                                                             "end": 14

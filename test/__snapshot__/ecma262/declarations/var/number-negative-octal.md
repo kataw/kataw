@@ -58,6 +58,7 @@ var a: -0x7B
                                     "end": 8
                                 },
                                 "text": 123,
+                                "rawText": "0x7B",
                                 "flags": 2097216,
                                 "start": 6,
                                 "end": 12

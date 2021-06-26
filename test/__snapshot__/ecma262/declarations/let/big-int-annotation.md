@@ -51,7 +51,7 @@ let x: 1n;
                             "type": {
                                 "kind": 286,
                                 "text": "1",
-                                "raw": "1n",
+                                "rawText": "1n",
                                 "flags": 2097216,
                                 "start": 6,
                                 "end": 9

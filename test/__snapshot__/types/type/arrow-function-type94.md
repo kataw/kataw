@@ -81,6 +81,7 @@ type a = ((1 |-1)) => T;
                                                 "end": 15
                                             },
                                             "text": 1,
+                                            "rawText": "1",
                                             "flags": 2097216,
                                             "start": 14,
                                             "end": 16

@@ -116,6 +116,7 @@ type a = {[((({[(((-1) => [c|d]))]:string}) => [c|d]))]:string};
                                                                                                         "end": 20
                                                                                                     },
                                                                                                     "text": 1,
+                                                                                                    "rawText": "1",
                                                                                                     "flags": 2097216,
                                                                                                     "start": 19,
                                                                                                     "end": 21

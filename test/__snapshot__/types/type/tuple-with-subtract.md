@@ -67,6 +67,7 @@ type x = [-1];
                                     "end": 11
                                 },
                                 "text": 1,
+                                "rawText": "1",
                                 "flags": 2097216,
                                 "start": 10,
                                 "end": 12
