@@ -273,7 +273,7 @@ var y: Array<string> = ['3', ...x];
                         "start": 52,
                         "end": 56
                     },
-                    "flags": 536870944,
+                    "flags": 96,
                     "start": 49,
                     "end": 56
                 },
@@ -384,7 +384,7 @@ var y: Array<string> = ['3', ...x];
                         "start": 77,
                         "end": 81
                     },
-                    "flags": 536870944,
+                    "flags": 96,
                     "start": 74,
                     "end": 81
                 },

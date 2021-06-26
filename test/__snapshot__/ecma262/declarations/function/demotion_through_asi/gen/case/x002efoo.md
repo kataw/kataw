@@ -80,7 +80,7 @@ function f(){
                                     "start": 32,
                                     "end": 35
                                 },
-                                "flags": 536870944,
+                                "flags": 97,
                                 "start": 13,
                                 "end": 35
                             },

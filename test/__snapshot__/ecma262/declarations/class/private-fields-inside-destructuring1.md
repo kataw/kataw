@@ -224,7 +224,7 @@ class Test {
                                                         "start": 71,
                                                         "end": 73
                                                     },
-                                                    "flags": 536870944,
+                                                    "flags": 96,
                                                     "start": 65,
                                                     "end": 73
                                                 },
@@ -313,7 +313,7 @@ class Test {
                                                         "start": 102,
                                                         "end": 104
                                                     },
-                                                    "flags": 536870944,
+                                                    "flags": 96,
                                                     "start": 96,
                                                     "end": 104
                                                 },
@@ -524,7 +524,7 @@ class Test {
                                                                         "start": 177,
                                                                         "end": 179
                                                                     },
-                                                                    "flags": 536870944,
+                                                                    "flags": 96,
                                                                     "start": 172,
                                                                     "end": 179
                                                                 },
@@ -544,7 +544,7 @@ class Test {
                                                                         "start": 185,
                                                                         "end": 187
                                                                     },
-                                                                    "flags": 536870944,
+                                                                    "flags": 96,
                                                                     "start": 180,
                                                                     "end": 187
                                                                 },
@@ -564,7 +564,7 @@ class Test {
                                                                         "start": 193,
                                                                         "end": 194
                                                                     },
-                                                                    "flags": 536870944,
+                                                                    "flags": 96,
                                                                     "start": 188,
                                                                     "end": 194
                                                                 }
@@ -602,7 +602,7 @@ class Test {
                                                                 "start": 203,
                                                                 "end": 208
                                                             },
-                                                            "flags": 536870944,
+                                                            "flags": 96,
                                                             "start": 197,
                                                             "end": 208
                                                         },

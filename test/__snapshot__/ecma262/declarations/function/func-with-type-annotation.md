@@ -60,6 +60,7 @@ function a<string>(x: string): string {
                                 "end": 17
                             },
                             "type": null,
+                            "assignToken": null,
                             "defaultType": null,
                             "flags": 2097152,
                             "start": 11,

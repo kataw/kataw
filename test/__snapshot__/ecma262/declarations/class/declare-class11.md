@@ -62,6 +62,7 @@ declare class A<T> extends B<T> { x: number }
                                 "end": 17
                             },
                             "type": null,
+                            "assignToken": null,
                             "defaultType": null,
                             "flags": 2097152,
                             "start": 16,

@@ -919,7 +919,7 @@ var stringArr:Array<string> = ['a','b'];
                                                             "start": 332,
                                                             "end": 333
                                                         },
-                                                        "flags": 536870944,
+                                                        "flags": 97,
                                                         "start": 318,
                                                         "end": 333
                                                     },
@@ -1193,7 +1193,7 @@ var stringArr:Array<string> = ['a','b'];
                                                             "start": 437,
                                                             "end": 444
                                                         },
-                                                        "flags": 536870944,
+                                                        "flags": 97,
                                                         "start": 423,
                                                         "end": 444
                                                     },
@@ -1243,7 +1243,7 @@ var stringArr:Array<string> = ['a','b'];
                                                         "start": 476,
                                                         "end": 483
                                                     },
-                                                    "flags": 536870944,
+                                                    "flags": 96,
                                                     "start": 470,
                                                     "end": 483
                                                 },

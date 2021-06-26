@@ -58,6 +58,7 @@ function foo<T,S>() {}
                                 "end": 14
                             },
                             "type": null,
+                            "assignToken": null,
                             "defaultType": null,
                             "flags": 2097152,
                             "start": 13,
@@ -74,6 +75,7 @@ function foo<T,S>() {}
                                 "end": 16
                             },
                             "type": null,
+                            "assignToken": null,
                             "defaultType": null,
                             "flags": 2097152,
                             "start": 15,

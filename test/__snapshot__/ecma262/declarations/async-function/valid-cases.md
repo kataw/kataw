@@ -964,7 +964,7 @@ new async function() { await 0 }.x
                     "start": 338,
                     "end": 339
                 },
-                "flags": 536870944,
+                "flags": 97,
                 "start": 304,
                 "end": 339
             },

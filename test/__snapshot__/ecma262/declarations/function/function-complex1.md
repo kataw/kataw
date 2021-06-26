@@ -114,6 +114,7 @@ function w2<A: Array<number>>(x: A, f: (number, ...A) => void) {
                                 "start": 13,
                                 "end": 30
                             },
+                            "assignToken": null,
                             "defaultType": null,
                             "flags": 2097152,
                             "start": 11,
@@ -642,6 +643,7 @@ function w2<A: Array<number>>(x: A, f: (number, ...A) => void) {
                                 "start": 171,
                                 "end": 185
                             },
+                            "assignToken": null,
                             "defaultType": null,
                             "flags": 2097152,
                             "start": 169,

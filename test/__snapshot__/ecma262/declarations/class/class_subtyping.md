@@ -62,6 +62,7 @@ class D extends C<O> {
                                 "end": 10
                             },
                             "type": null,
+                            "assignToken": null,
                             "defaultType": null,
                             "flags": 2097152,
                             "start": 9,
@@ -280,7 +281,7 @@ class D extends C<O> {
                                                         "start": 61,
                                                         "end": 62
                                                     },
-                                                    "flags": 536870944,
+                                                    "flags": 96,
                                                     "start": 55,
                                                     "end": 62
                                                 },

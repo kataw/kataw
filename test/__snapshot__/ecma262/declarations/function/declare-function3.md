@@ -154,6 +154,7 @@ declare function foo<TArguments: $ReadOnlyArray<{foo: 'a'}>, TReturn>(
                                 "start": 32,
                                 "end": 59
                             },
+                            "assignToken": null,
                             "defaultType": null,
                             "flags": 2097152,
                             "start": 21,
@@ -170,6 +171,7 @@ declare function foo<TArguments: $ReadOnlyArray<{foo: 'a'}>, TReturn>(
                                 "end": 68
                             },
                             "type": null,
+                            "assignToken": null,
                             "defaultType": null,
                             "flags": 2097152,
                             "start": 60,

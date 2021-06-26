@@ -99,6 +99,7 @@ function b1<A: 'a', B: A>(b: B): void {
                                 "start": 13,
                                 "end": 15
                             },
+                            "assignToken": null,
                             "defaultType": null,
                             "flags": 2097152,
                             "start": 11,
@@ -407,6 +408,7 @@ function b1<A: 'a', B: A>(b: B): void {
                                                 "start": 156,
                                                 "end": 160
                                             },
+                                            "assignToken": null,
                                             "defaultType": null,
                                             "flags": 2097152,
                                             "start": 154,
@@ -623,6 +625,7 @@ function b1<A: 'a', B: A>(b: B): void {
                                 "start": 216,
                                 "end": 220
                             },
+                            "assignToken": null,
                             "defaultType": null,
                             "flags": 2097152,
                             "start": 214,
@@ -661,6 +664,7 @@ function b1<A: 'a', B: A>(b: B): void {
                                 "start": 224,
                                 "end": 226
                             },
+                            "assignToken": null,
                             "defaultType": null,
                             "flags": 2097152,
                             "start": 221,

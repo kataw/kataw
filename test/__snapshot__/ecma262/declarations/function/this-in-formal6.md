@@ -403,6 +403,7 @@ declare function four<T>(this: T): void;
                                 "end": 173
                             },
                             "type": null,
+                            "assignToken": null,
                             "defaultType": null,
                             "flags": 2097152,
                             "start": 172,

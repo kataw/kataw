@@ -469,6 +469,7 @@ class two {
                                                     "end": 126
                                                 },
                                                 "type": null,
+                                                "assignToken": null,
                                                 "defaultType": null,
                                                 "flags": 2097152,
                                                 "start": 125,
@@ -968,6 +969,7 @@ class two {
                                                     "end": 278
                                                 },
                                                 "type": null,
+                                                "assignToken": null,
                                                 "defaultType": null,
                                                 "flags": 2097152,
                                                 "start": 277,

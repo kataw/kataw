@@ -117,7 +117,7 @@ x = {arrow: async => ok}.y
                         "start": 25,
                         "end": 26
                     },
-                    "flags": 536870944,
+                    "flags": 48,
                     "start": 3,
                     "end": 26
                 },

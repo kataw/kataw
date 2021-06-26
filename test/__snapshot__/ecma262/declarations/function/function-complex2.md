@@ -122,6 +122,7 @@ function d<X: [number, number]>(x: X): X {
                                 "start": 13,
                                 "end": 36
                             },
+                            "assignToken": null,
                             "defaultType": null,
                             "flags": 2097152,
                             "start": 11,
@@ -360,6 +361,7 @@ function d<X: [number, number]>(x: X): X {
                                 "start": 82,
                                 "end": 105
                             },
+                            "assignToken": null,
                             "defaultType": null,
                             "flags": 2097152,
                             "start": 80,
@@ -618,6 +620,7 @@ function d<X: [number, number]>(x: X): X {
                                 "start": 193,
                                 "end": 216
                             },
+                            "assignToken": null,
                             "defaultType": null,
                             "flags": 2097152,
                             "start": 191,
@@ -858,6 +861,7 @@ function d<X: [number, number]>(x: X): X {
                                 "start": 275,
                                 "end": 292
                             },
+                            "assignToken": null,
                             "defaultType": null,
                             "flags": 2097152,
                             "start": 273,

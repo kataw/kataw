@@ -947,6 +947,7 @@ export function visitEachChild(
         ? createIndexExpression(
             (<IndexExpression>node).member,
             (<IndexExpression>node).expression,
+            (<IndexExpression>node).flags,
             (<IndexExpression>node).start,
             (<IndexExpression>node).end
           )
@@ -1486,10 +1487,12 @@ export function visitEachChild(
       case SyntaxKind.TypeParameter:
         return (<TypeParameter>node).name !== visitNode((<TypeParameter>node).name, visitor) ||
           (<TypeParameter>node).type !== visitNode((<TypeParameter>node).type, visitor) ||
+          (<TypeParameter>node).assignToken !== visitNode((<TypeParameter>node).assignToken, visitor) ||
           (<TypeParameter>node).defaultType !== visitNode((<TypeParameter>node).defaultType, visitor)
           ? createTypeParameter(
               (<TypeParameter>node).name,
               (<TypeParameter>node).type,
+              (<TypeParameter>node).assignToken,
               (<TypeParameter>node).defaultType,
               (<TypeParameter>node).start,
               (<TypeParameter>node).end

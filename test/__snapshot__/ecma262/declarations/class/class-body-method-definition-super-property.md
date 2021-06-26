@@ -108,7 +108,7 @@ class A {
                                                             "start": 38,
                                                             "end": 46
                                                         },
-                                                        "flags": 536870944,
+                                                        "flags": 96,
                                                         "start": 27,
                                                         "end": 46
                                                     },
@@ -206,7 +206,7 @@ class A {
                                                             "start": 81,
                                                             "end": 89
                                                         },
-                                                        "flags": 536870944,
+                                                        "flags": 96,
                                                         "start": 70,
                                                         "end": 89
                                                     },

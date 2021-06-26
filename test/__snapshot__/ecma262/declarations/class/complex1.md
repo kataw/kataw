@@ -77,6 +77,7 @@ class D<T> {
                                 "end": 9
                             },
                             "type": null,
+                            "assignToken": null,
                             "defaultType": null,
                             "flags": 2097152,
                             "start": 8,
@@ -93,6 +94,7 @@ class D<T> {
                                 "end": 12
                             },
                             "type": null,
+                            "assignToken": null,
                             "defaultType": null,
                             "flags": 2097152,
                             "start": 10,
@@ -259,7 +261,7 @@ class D<T> {
                                                             "start": 55,
                                                             "end": 56
                                                         },
-                                                        "flags": 536870944,
+                                                        "flags": 97,
                                                         "start": 45,
                                                         "end": 56
                                                     },
@@ -383,7 +385,7 @@ class D<T> {
                                                         "start": 95,
                                                         "end": 96
                                                     },
-                                                    "flags": 536870944,
+                                                    "flags": 96,
                                                     "start": 89,
                                                     "end": 96
                                                 },
@@ -489,7 +491,7 @@ class D<T> {
                                                         "start": 135,
                                                         "end": 136
                                                     },
-                                                    "flags": 536870944,
+                                                    "flags": 96,
                                                     "start": 129,
                                                     "end": 136
                                                 },
@@ -561,6 +563,7 @@ class D<T> {
                                 "end": 154
                             },
                             "type": null,
+                            "assignToken": null,
                             "defaultType": null,
                             "flags": 2097152,
                             "start": 153,
@@ -666,6 +669,7 @@ class D<T> {
                                                     "end": 171
                                                 },
                                                 "type": null,
+                                                "assignToken": null,
                                                 "defaultType": null,
                                                 "flags": 2097152,
                                                 "start": 170,
@@ -819,7 +823,7 @@ class D<T> {
                                                             "start": 199,
                                                             "end": 200
                                                         },
-                                                        "flags": 536870944,
+                                                        "flags": 97,
                                                         "start": 189,
                                                         "end": 200
                                                     },

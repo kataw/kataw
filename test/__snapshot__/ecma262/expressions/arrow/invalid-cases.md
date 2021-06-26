@@ -465,7 +465,7 @@ a++ => {};
             "expression": {
                 "kind": 131,
                 "expression": {
-                    "kind": 221,
+                    "kind": 371,
                     "text": "/a;",
                     "flags": 96,
                     "start": 95,
@@ -763,7 +763,7 @@ a++ => {};
                     "start": 160,
                     "end": 161
                 },
-                "flags": 536870944,
+                "flags": 32,
                 "start": 146,
                 "end": 161
             },
@@ -820,7 +820,7 @@ a++ => {};
                     "start": 172,
                     "end": 173
                 },
-                "flags": 536870944,
+                "flags": 32,
                 "start": 162,
                 "end": 173
             },
@@ -6113,7 +6113,7 @@ a++ => {};
                                                             "right": {
                                                                 "kind": 198,
                                                                 "left": {
-                                                                    "kind": 221,
+                                                                    "kind": 371,
                                                                     "text": "/x/",
                                                                     "flags": 96,
                                                                     "start": 1340,
@@ -6616,7 +6616,7 @@ a++ => {};
                                         "key": {
                                             "kind": 194,
                                             "expression": {
-                                                "kind": 221,
+                                                "kind": 371,
                                                 "text": "/x/g",
                                                 "flags": 96,
                                                 "start": 1457,
@@ -6644,7 +6644,7 @@ a++ => {};
                                         "key": {
                                             "kind": 194,
                                             "expression": {
-                                                "kind": 221,
+                                                "kind": 371,
                                                 "text": "/x/g",
                                                 "flags": 96,
                                                 "start": 1467,
@@ -10406,7 +10406,7 @@ a++ => {};
                                 "start": 3261,
                                 "end": 3262
                             },
-                            "flags": 536870944,
+                            "flags": 96,
                             "start": 3257,
                             "end": 3262
                         },
@@ -10486,7 +10486,7 @@ a++ => {};
                                 "start": 3280,
                                 "end": 3281
                             },
-                            "flags": 536870944,
+                            "flags": 96,
                             "start": 3273,
                             "end": 3281
                         }

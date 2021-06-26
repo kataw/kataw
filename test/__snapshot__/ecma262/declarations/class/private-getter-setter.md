@@ -139,7 +139,7 @@ class Foo {
                                                         "start": 38,
                                                         "end": 41
                                                     },
-                                                    "flags": 536870944,
+                                                    "flags": 96,
                                                     "start": 32,
                                                     "end": 41
                                                 },
@@ -233,7 +233,7 @@ class Foo {
                                                             "start": 66,
                                                             "end": 69
                                                         },
-                                                        "flags": 536870944,
+                                                        "flags": 96,
                                                         "start": 60,
                                                         "end": 69
                                                     },
@@ -340,7 +340,7 @@ class Foo {
                                                         "start": 105,
                                                         "end": 109
                                                     },
-                                                    "flags": 536870944,
+                                                    "flags": 96,
                                                     "start": 99,
                                                     "end": 109
                                                 },
@@ -434,7 +434,7 @@ class Foo {
                                                             "start": 135,
                                                             "end": 139
                                                         },
-                                                        "flags": 536870944,
+                                                        "flags": 96,
                                                         "start": 129,
                                                         "end": 139
                                                     },
@@ -555,7 +555,7 @@ class Foo {
                                                         "start": 166,
                                                         "end": 170
                                                     },
-                                                    "flags": 536870944,
+                                                    "flags": 268435488,
                                                     "start": 158,
                                                     "end": 170
                                                 },
@@ -599,7 +599,7 @@ class Foo {
                                                             "start": 178,
                                                             "end": 182
                                                         },
-                                                        "flags": 536870944,
+                                                        "flags": 268435488,
                                                         "start": 170,
                                                         "end": 182
                                                     },
@@ -659,7 +659,7 @@ class Foo {
                                                         "start": 194,
                                                         "end": 199
                                                     },
-                                                    "flags": 536870944,
+                                                    "flags": 268435488,
                                                     "start": 186,
                                                     "end": 199
                                                 },
@@ -703,7 +703,7 @@ class Foo {
                                                             "start": 207,
                                                             "end": 212
                                                         },
-                                                        "flags": 536870944,
+                                                        "flags": 268435488,
                                                         "start": 199,
                                                         "end": 212
                                                     },
@@ -832,7 +832,7 @@ class Foo {
                                                             "start": 240,
                                                             "end": 245
                                                         },
-                                                        "flags": 536870944,
+                                                        "flags": 268435488,
                                                         "start": 232,
                                                         "end": 245
                                                     },
@@ -886,7 +886,7 @@ class Foo {
                                                             "start": 256,
                                                             "end": 261
                                                         },
-                                                        "flags": 536870944,
+                                                        "flags": 268435488,
                                                         "start": 248,
                                                         "end": 261
                                                     },
@@ -940,7 +940,7 @@ class Foo {
                                                             "start": 274,
                                                             "end": 279
                                                         },
-                                                        "flags": 536870944,
+                                                        "flags": 268435488,
                                                         "start": 269,
                                                         "end": 279
                                                     },
@@ -994,7 +994,7 @@ class Foo {
                                                             "start": 290,
                                                             "end": 295
                                                         },
-                                                        "flags": 536870944,
+                                                        "flags": 268435488,
                                                         "start": 285,
                                                         "end": 295
                                                     },
@@ -1103,7 +1103,7 @@ class Foo {
                                                             "start": 321,
                                                             "end": 326
                                                         },
-                                                        "flags": 536870944,
+                                                        "flags": 268435488,
                                                         "start": 313,
                                                         "end": 326
                                                     },
@@ -1165,7 +1165,7 @@ class Foo {
                                                             "start": 339,
                                                             "end": 344
                                                         },
-                                                        "flags": 536870944,
+                                                        "flags": 268435488,
                                                         "start": 331,
                                                         "end": 344
                                                     },
@@ -1227,7 +1227,7 @@ class Foo {
                                                             "start": 358,
                                                             "end": 363
                                                         },
-                                                        "flags": 536870944,
+                                                        "flags": 268435488,
                                                         "start": 350,
                                                         "end": 363
                                                     },
@@ -1289,7 +1289,7 @@ class Foo {
                                                             "start": 377,
                                                             "end": 382
                                                         },
-                                                        "flags": 536870944,
+                                                        "flags": 268435488,
                                                         "start": 369,
                                                         "end": 382
                                                     },
@@ -1351,7 +1351,7 @@ class Foo {
                                                             "start": 396,
                                                             "end": 401
                                                         },
-                                                        "flags": 536870944,
+                                                        "flags": 268435488,
                                                         "start": 388,
                                                         "end": 401
                                                     },
@@ -1413,7 +1413,7 @@ class Foo {
                                                             "start": 415,
                                                             "end": 420
                                                         },
-                                                        "flags": 536870944,
+                                                        "flags": 268435488,
                                                         "start": 407,
                                                         "end": 420
                                                     },
@@ -1475,7 +1475,7 @@ class Foo {
                                                             "start": 434,
                                                             "end": 439
                                                         },
-                                                        "flags": 536870944,
+                                                        "flags": 268435488,
                                                         "start": 426,
                                                         "end": 439
                                                     },
@@ -1537,7 +1537,7 @@ class Foo {
                                                             "start": 454,
                                                             "end": 459
                                                         },
-                                                        "flags": 536870944,
+                                                        "flags": 268435488,
                                                         "start": 446,
                                                         "end": 459
                                                     },
@@ -1599,7 +1599,7 @@ class Foo {
                                                             "start": 474,
                                                             "end": 479
                                                         },
-                                                        "flags": 536870944,
+                                                        "flags": 268435488,
                                                         "start": 466,
                                                         "end": 479
                                                     },
@@ -1661,7 +1661,7 @@ class Foo {
                                                             "start": 494,
                                                             "end": 499
                                                         },
-                                                        "flags": 536870944,
+                                                        "flags": 268435488,
                                                         "start": 486,
                                                         "end": 499
                                                     },
@@ -1723,7 +1723,7 @@ class Foo {
                                                             "start": 515,
                                                             "end": 520
                                                         },
-                                                        "flags": 536870944,
+                                                        "flags": 268435488,
                                                         "start": 507,
                                                         "end": 520
                                                     },
@@ -1785,7 +1785,7 @@ class Foo {
                                                             "start": 534,
                                                             "end": 539
                                                         },
-                                                        "flags": 536870944,
+                                                        "flags": 268435488,
                                                         "start": 526,
                                                         "end": 539
                                                     },
@@ -1847,7 +1847,7 @@ class Foo {
                                                             "start": 553,
                                                             "end": 558
                                                         },
-                                                        "flags": 536870944,
+                                                        "flags": 268435488,
                                                         "start": 545,
                                                         "end": 558
                                                     },
@@ -1909,7 +1909,7 @@ class Foo {
                                                             "start": 572,
                                                             "end": 577
                                                         },
-                                                        "flags": 536870944,
+                                                        "flags": 268435488,
                                                         "start": 564,
                                                         "end": 577
                                                     },
@@ -1971,7 +1971,7 @@ class Foo {
                                                             "start": 592,
                                                             "end": 597
                                                         },
-                                                        "flags": 536870944,
+                                                        "flags": 268435488,
                                                         "start": 584,
                                                         "end": 597
                                                     },
@@ -2033,7 +2033,7 @@ class Foo {
                                                             "start": 612,
                                                             "end": 617
                                                         },
-                                                        "flags": 536870944,
+                                                        "flags": 268435488,
                                                         "start": 604,
                                                         "end": 617
                                                     },

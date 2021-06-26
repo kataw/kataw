@@ -172,7 +172,7 @@ var c: { (x: string): string } = (x) => x.toFixed()
                                         "start": 42,
                                         "end": 49
                                     },
-                                    "flags": 536870944,
+                                    "flags": 96,
                                     "start": 39,
                                     "end": 49
                                 },

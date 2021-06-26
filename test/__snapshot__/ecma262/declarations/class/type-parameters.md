@@ -61,6 +61,12 @@ class A9<S = number, T: ?string = string> {}
                                 "end": 10
                             },
                             "type": null,
+                            "assignToken": {
+                                "kind": 4125,
+                                "flags": 64,
+                                "start": 10,
+                                "end": 12
+                            },
                             "defaultType": {
                                 "kind": 139,
                                 "bitwiseOrToken": null,
@@ -166,6 +172,12 @@ class A9<S = number, T: ?string = string> {}
                                 "start": 35,
                                 "end": 43
                             },
+                            "assignToken": {
+                                "kind": 4125,
+                                "flags": 64,
+                                "start": 43,
+                                "end": 45
+                            },
                             "defaultType": {
                                 "kind": 139,
                                 "bitwiseOrToken": null,
@@ -246,6 +258,7 @@ class A9<S = number, T: ?string = string> {}
                                 "end": 67
                             },
                             "type": null,
+                            "assignToken": null,
                             "defaultType": null,
                             "flags": 2097152,
                             "start": 66,
@@ -286,6 +299,12 @@ class A9<S = number, T: ?string = string> {}
                                 "flags": 2097152,
                                 "start": 71,
                                 "end": 79
+                            },
+                            "assignToken": {
+                                "kind": 4125,
+                                "flags": 64,
+                                "start": 79,
+                                "end": 81
                             },
                             "defaultType": {
                                 "kind": 139,
@@ -367,6 +386,12 @@ class A9<S = number, T: ?string = string> {}
                                 "end": 103
                             },
                             "type": null,
+                            "assignToken": {
+                                "kind": 4125,
+                                "flags": 64,
+                                "start": 103,
+                                "end": 105
+                            },
                             "defaultType": {
                                 "kind": 139,
                                 "bitwiseOrToken": null,
@@ -420,6 +445,12 @@ class A9<S = number, T: ?string = string> {}
                                 "flags": 2097152,
                                 "start": 116,
                                 "end": 124
+                            },
+                            "assignToken": {
+                                "kind": 4125,
+                                "flags": 64,
+                                "start": 124,
+                                "end": 126
                             },
                             "defaultType": {
                                 "kind": 139,
@@ -504,6 +535,12 @@ class A9<S = number, T: ?string = string> {}
                                         "end": 150
                                     },
                                     "type": null,
+                                    "assignToken": {
+                                        "kind": 4125,
+                                        "flags": 64,
+                                        "start": 150,
+                                        "end": 152
+                                    },
                                     "defaultType": {
                                         "kind": 139,
                                         "bitwiseOrToken": null,

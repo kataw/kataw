@@ -172,7 +172,7 @@ var a: { (x: number): string } = (x) => x.toString()
                                         "start": 42,
                                         "end": 50
                                     },
-                                    "flags": 536870944,
+                                    "flags": 96,
                                     "start": 39,
                                     "end": 50
                                 },

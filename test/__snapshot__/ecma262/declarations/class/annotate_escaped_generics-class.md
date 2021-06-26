@@ -66,6 +66,7 @@ class B<X> {
                                 "end": 9
                             },
                             "type": null,
+                            "assignToken": null,
                             "defaultType": null,
                             "flags": 2097152,
                             "start": 8,
@@ -195,7 +196,7 @@ class B<X> {
                                                         "start": 42,
                                                         "end": 43
                                                     },
-                                                    "flags": 536870944,
+                                                    "flags": 96,
                                                     "start": 37,
                                                     "end": 43
                                                 },
@@ -238,7 +239,7 @@ class B<X> {
                                                                             "start": 62,
                                                                             "end": 63
                                                                         },
-                                                                        "flags": 536870944,
+                                                                        "flags": 96,
                                                                         "start": 56,
                                                                         "end": 63
                                                                     },
@@ -285,7 +286,7 @@ class B<X> {
                                                             "start": 80,
                                                             "end": 81
                                                         },
-                                                        "flags": 536870944,
+                                                        "flags": 97,
                                                         "start": 70,
                                                         "end": 81
                                                     },

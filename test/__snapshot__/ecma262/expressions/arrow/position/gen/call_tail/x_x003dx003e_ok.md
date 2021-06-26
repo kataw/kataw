@@ -89,7 +89,7 @@ foo(x => ok).bar
                     "start": 13,
                     "end": 16
                 },
-                "flags": 536870944,
+                "flags": 268435488,
                 "start": 0,
                 "end": 16
             },

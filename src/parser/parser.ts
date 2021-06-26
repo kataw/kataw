@@ -2347,8 +2347,15 @@ function parseIndexExpression(
       parser.pos
     );
   }
+
   parser.assignable = true;
-  return createIndexExpression(member, parsePropertyOrPrivatePropertyName(parser, context), pos, parser.curPos);
+  return createIndexExpression(
+    member,
+    parsePropertyOrPrivatePropertyName(parser, context),
+    member.flags | NodeFlags.ExpressionNode,
+    pos,
+    parser.curPos
+  );
 }
 
 function parseMemberAccessExpression(
@@ -5751,7 +5758,16 @@ function parseFunctionExpression(
             ) {
               expression.typeParameters = createTypeParameterDeclaration(
                 createTypeParameterList(
-                  [createTypeParameter(name, /* type */ null, /* defaultType */ null, name.start, parser.curPos)],
+                  [
+                    createTypeParameter(
+                      name,
+                      /* type */ null,
+                      /* assignToken */ null,
+                      /* defaultType */ null,
+                      name.start,
+                      parser.curPos
+                    )
+                  ],
                   /* trailingComma */ false,
                   expression.start,
                   parser.curPos
@@ -5789,10 +5805,14 @@ function parseFunctionExpression(
               (parser.token as SyntaxKind) === SyntaxKind.Assign
             ) {
               const type = parseType(parser, context);
-              const defaultType = consumeOpt(parser, context, SyntaxKind.Assign)
-                ? parseTypeAnnotation(parser, context)
-                : null;
-              const types = [createTypeParameter(name, type, defaultType, asyncIdent.start, parser.curPos)];
+              const assignToken = consumeOptToken(parser, context, SyntaxKind.Assign);
+              let defaultType = null;
+              if (assignToken) {
+                defaultType = parseTypeAnnotation(parser, context);
+              }
+              const types = [
+                createTypeParameter(name, type, assignToken, defaultType, asyncIdent.start, parser.curPos)
+              ];
               let trailingComma = false;
               let requireDefault = (parser.token as SyntaxKind) === SyntaxKind.Assign;
               if (consumeOpt(parser, context, SyntaxKind.Comma)) {
@@ -5863,6 +5883,7 @@ function parseFunctionExpression(
                       createTypeParameter(
                         name,
                         /* type */ null,
+                        /* assignToken */ null,
                         /* defaultType */ null,
                         asyncIdent.start,
                         parser.curPos
@@ -6236,7 +6257,16 @@ function parseFunctionDeclaration(
                     expression,
                     createTypeParameterDeclaration(
                       createTypeParameterList(
-                        [createTypeParameter(name, /* type */ null, /* defaultType */ null, name.start, parser.curPos)],
+                        [
+                          createTypeParameter(
+                            name,
+                            /* type */ null,
+                            /* assignToken */ null,
+                            /* defaultType */ null,
+                            name.start,
+                            parser.curPos
+                          )
+                        ],
                         /* trailingComma */ false,
                         expression.start,
                         parser.curPos
@@ -6281,10 +6311,14 @@ function parseFunctionDeclaration(
               (parser.token as SyntaxKind) === SyntaxKind.Assign
             ) {
               const type = parseType(parser, context);
-              const defaultType = consumeOpt(parser, context, SyntaxKind.Assign)
-                ? parseTypeAnnotation(parser, context)
-                : null;
-              const types = [createTypeParameter(name, type, defaultType, asyncIdent.start, parser.curPos)];
+              let defaultType = null;
+              const assignToken = consumeOptToken(parser, context, SyntaxKind.Assign);
+              if (assignToken) {
+                defaultType = parseTypeAnnotation(parser, context);
+              }
+              const types = [
+                createTypeParameter(name, type, assignToken, defaultType, asyncIdent.start, parser.curPos)
+              ];
               let trailingComma = false;
               let requireDefault = (parser.token as SyntaxKind) === SyntaxKind.Assign;
               if (consumeOpt(parser, context, SyntaxKind.Comma)) {
@@ -6354,6 +6388,7 @@ function parseFunctionDeclaration(
                       createTypeParameter(
                         name,
                         /* type */ null,
+                        /* assignToken */ null,
                         /* defaultType */ null,
                         asyncIdent.start,
                         parser.curPos
@@ -8540,7 +8575,13 @@ function parseTypeParameter(parser: ParserState, context: Context, requireInitia
   const start = parser.curPos;
   const name = parseIdentifier(parser, context, Constants.Identifier);
   const type = parseType(parser, context);
-  const defaultType = consumeOpt(parser, context, SyntaxKind.Assign) ? parseTypeAnnotation(parser, context) : null;
+  const assignToken = consumeOptToken(parser, context, SyntaxKind.Assign);
+  let defaultType = null;
+
+  if (assignToken) {
+    defaultType = parseTypeAnnotation(parser, context);
+  }
+
   if (requireInitializer && !defaultType && parser.previousErrorPos !== parser.pos) {
     parser.previousErrorPos = parser.pos;
     parser.onError(
@@ -8554,7 +8595,7 @@ function parseTypeParameter(parser: ParserState, context: Context, requireInitia
       parser.pos
     );
   }
-  return createTypeParameter(name, type, defaultType, start, parser.curPos);
+  return createTypeParameter(name, type, assignToken, defaultType, start, parser.curPos);
 }
 
 // VariableStatement : `var` VariableDeclarationList `;`
@@ -10508,6 +10549,7 @@ function parseSuperExpression(parser: ParserState, context: Context): Super | an
   return createIndexExpression(
     createSuper(superKeyword, pos, parser.curPos),
     parsePropertyOrPrivatePropertyName(parser, context),
+    NodeFlags.ExpressionNode,
     pos,
     parser.curPos
   );

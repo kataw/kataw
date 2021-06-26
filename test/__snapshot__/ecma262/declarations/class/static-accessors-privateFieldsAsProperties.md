@@ -124,7 +124,7 @@ new C;
                                                             "start": 33,
                                                             "end": 35
                                                         },
-                                                        "flags": 536870944,
+                                                        "flags": 96,
                                                         "start": 30,
                                                         "end": 35
                                                     },
@@ -263,7 +263,7 @@ new C;
                                                                             "start": 81,
                                                                             "end": 83
                                                                         },
-                                                                        "flags": 536870944,
+                                                                        "flags": 96,
                                                                         "start": 79,
                                                                         "end": 83
                                                                     }

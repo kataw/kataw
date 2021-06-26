@@ -61,6 +61,7 @@ function f<X, Y: X, Z: Y, W>(y: Y, z: X, w: W): X {
                                 "end": 12
                             },
                             "type": null,
+                            "assignToken": null,
                             "defaultType": null,
                             "flags": 2097152,
                             "start": 11,
@@ -99,6 +100,7 @@ function f<X, Y: X, Z: Y, W>(y: Y, z: X, w: W): X {
                                 "start": 16,
                                 "end": 18
                             },
+                            "assignToken": null,
                             "defaultType": null,
                             "flags": 2097152,
                             "start": 13,
@@ -137,6 +139,7 @@ function f<X, Y: X, Z: Y, W>(y: Y, z: X, w: W): X {
                                 "start": 22,
                                 "end": 24
                             },
+                            "assignToken": null,
                             "defaultType": null,
                             "flags": 2097152,
                             "start": 19,
@@ -153,6 +156,7 @@ function f<X, Y: X, Z: Y, W>(y: Y, z: X, w: W): X {
                                 "end": 27
                             },
                             "type": null,
+                            "assignToken": null,
                             "defaultType": null,
                             "flags": 2097152,
                             "start": 25,

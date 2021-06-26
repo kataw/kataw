@@ -156,6 +156,7 @@ var a: { id<T>(x: T): T; }
                                                                 "end": 13
                                                             },
                                                             "type": null,
+                                                            "assignToken": null,
                                                             "defaultType": null,
                                                             "flags": 2097152,
                                                             "start": 12,

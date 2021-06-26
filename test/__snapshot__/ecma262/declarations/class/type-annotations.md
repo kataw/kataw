@@ -80,6 +80,7 @@ class Array { concat(items:number | string) {}; }
                                 "end": 12
                             },
                             "type": null,
+                            "assignToken": null,
                             "defaultType": null,
                             "flags": 2097152,
                             "start": 11,
@@ -147,6 +148,7 @@ class Array { concat(items:number | string) {}; }
                                 "end": 29
                             },
                             "type": null,
+                            "assignToken": null,
                             "defaultType": null,
                             "flags": 2097152,
                             "start": 28,
@@ -271,6 +273,7 @@ class Array { concat(items:number | string) {}; }
                                 "end": 61
                             },
                             "type": null,
+                            "assignToken": null,
                             "defaultType": null,
                             "flags": 2097152,
                             "start": 60,
@@ -779,6 +782,7 @@ class Array { concat(items:number | string) {}; }
                                                     "end": 249
                                                 },
                                                 "type": null,
+                                                "assignToken": null,
                                                 "defaultType": null,
                                                 "flags": 2097152,
                                                 "start": 248,

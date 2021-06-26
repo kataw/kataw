@@ -1848,6 +1848,7 @@ function foo28(numVal?: number = 2) {}
                                 "end": 679
                             },
                             "type": null,
+                            "assignToken": null,
                             "defaultType": null,
                             "flags": 2097152,
                             "start": 678,

@@ -67,7 +67,7 @@ function* bar() { yield /re/ }
                                 "delegate": false,
                                 "asteriskToken": null,
                                 "expression": {
-                                    "kind": 221,
+                                    "kind": 371,
                                     "text": "/re/",
                                     "flags": 96,
                                     "start": 23,

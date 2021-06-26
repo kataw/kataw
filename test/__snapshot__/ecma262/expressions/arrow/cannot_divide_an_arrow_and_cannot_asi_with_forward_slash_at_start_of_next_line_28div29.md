@@ -62,7 +62,7 @@ _ => {}
         {
             "kind": 120,
             "expression": {
-                "kind": 221,
+                "kind": 371,
                 "text": "/foo",
                 "flags": 96,
                 "start": 7,

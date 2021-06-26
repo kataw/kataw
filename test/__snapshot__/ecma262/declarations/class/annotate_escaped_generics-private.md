@@ -67,6 +67,7 @@ class I<X> {
                                 "end": 9
                             },
                             "type": null,
+                            "assignToken": null,
                             "defaultType": null,
                             "flags": 2097152,
                             "start": 8,
@@ -351,7 +352,7 @@ class I<X> {
                                                             "start": 77,
                                                             "end": 79
                                                         },
-                                                        "flags": 536870944,
+                                                        "flags": 97,
                                                         "start": 67,
                                                         "end": 79
                                                     },
@@ -397,7 +398,7 @@ class I<X> {
                                                             "start": 94,
                                                             "end": 96
                                                         },
-                                                        "flags": 536870944,
+                                                        "flags": 97,
                                                         "start": 84,
                                                         "end": 96
                                                     },

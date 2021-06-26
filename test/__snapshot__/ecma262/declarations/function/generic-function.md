@@ -67,6 +67,7 @@ function from<T>(arg: any): Query<T> {
                                 "end": 23
                             },
                             "type": null,
+                            "assignToken": null,
                             "defaultType": null,
                             "flags": 2097152,
                             "start": 22,
@@ -228,6 +229,7 @@ function from<T>(arg: any): Query<T> {
                                 "end": 65
                             },
                             "type": null,
+                            "assignToken": null,
                             "defaultType": null,
                             "flags": 2097152,
                             "start": 64,

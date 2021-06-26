@@ -618,6 +618,7 @@ let fourteen: A.B<X.Y<Z<T>>>=2;
                                                     "end": 170
                                                 },
                                                 "type": null,
+                                                "assignToken": null,
                                                 "defaultType": null,
                                                 "flags": 2097152,
                                                 "start": 169,

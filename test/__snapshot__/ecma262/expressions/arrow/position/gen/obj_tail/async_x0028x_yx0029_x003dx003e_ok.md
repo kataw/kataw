@@ -134,7 +134,7 @@ x = {arrow: async (x, y) => ok}.y
                         "start": 32,
                         "end": 33
                     },
-                    "flags": 536870944,
+                    "flags": 48,
                     "start": 3,
                     "end": 33
                 },

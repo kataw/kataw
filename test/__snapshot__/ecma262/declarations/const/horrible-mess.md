@@ -81,6 +81,7 @@ const processArgs =
                                                 "start": 26,
                                                 "end": 29
                                             },
+                                            "assignToken": null,
                                             "defaultType": null,
                                             "flags": 2097152,
                                             "start": 23,
@@ -112,6 +113,7 @@ const processArgs =
                                                 "start": 34,
                                                 "end": 37
                                             },
+                                            "assignToken": null,
                                             "defaultType": null,
                                             "flags": 2097152,
                                             "start": 30,
@@ -271,6 +273,7 @@ const processArgs =
                                                     "end": 73
                                                 },
                                                 "type": null,
+                                                "assignToken": null,
                                                 "defaultType": null,
                                                 "flags": 2097152,
                                                 "start": 72,
@@ -287,6 +290,7 @@ const processArgs =
                                                     "end": 76
                                                 },
                                                 "type": null,
+                                                "assignToken": null,
                                                 "defaultType": null,
                                                 "flags": 2097152,
                                                 "start": 74,
@@ -303,6 +307,7 @@ const processArgs =
                                                     "end": 79
                                                 },
                                                 "type": null,
+                                                "assignToken": null,
                                                 "defaultType": null,
                                                 "flags": 2097152,
                                                 "start": 77,
@@ -319,6 +324,7 @@ const processArgs =
                                                     "end": 82
                                                 },
                                                 "type": null,
+                                                "assignToken": null,
                                                 "defaultType": null,
                                                 "flags": 2097152,
                                                 "start": 80,

@@ -64,6 +64,7 @@ declare function aw<T>(p: Pr<T> | T): T;
                                 "end": 21
                             },
                             "type": null,
+                            "assignToken": null,
                             "defaultType": null,
                             "flags": 2097152,
                             "start": 20,

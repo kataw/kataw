@@ -72,6 +72,7 @@ class C2<X, Y> {
                                 "end": 9
                             },
                             "type": null,
+                            "assignToken": null,
                             "defaultType": null,
                             "flags": 2097152,
                             "start": 8,
@@ -282,7 +283,7 @@ class C2<X, Y> {
                                                             "start": 60,
                                                             "end": 61
                                                         },
-                                                        "flags": 536870944,
+                                                        "flags": 97,
                                                         "start": 50,
                                                         "end": 61
                                                     },
@@ -355,7 +356,7 @@ class C2<X, Y> {
                                                                             "start": 98,
                                                                             "end": 105
                                                                         },
-                                                                        "flags": 536870944,
+                                                                        "flags": 96,
                                                                         "start": 92,
                                                                         "end": 105
                                                                     },
@@ -416,7 +417,7 @@ class C2<X, Y> {
                                                             "start": 131,
                                                             "end": 134
                                                         },
-                                                        "flags": 536870944,
+                                                        "flags": 96,
                                                         "start": 125,
                                                         "end": 134
                                                     },
@@ -500,6 +501,7 @@ class C2<X, Y> {
                                 "end": 155
                             },
                             "type": null,
+                            "assignToken": null,
                             "defaultType": null,
                             "flags": 2097152,
                             "start": 154,
@@ -516,6 +518,7 @@ class C2<X, Y> {
                                 "end": 158
                             },
                             "type": null,
+                            "assignToken": null,
                             "defaultType": null,
                             "flags": 2097152,
                             "start": 156,
@@ -763,7 +766,7 @@ class C2<X, Y> {
                                                         "start": 211,
                                                         "end": 212
                                                     },
-                                                    "flags": 536870944,
+                                                    "flags": 96,
                                                     "start": 205,
                                                     "end": 212
                                                 },

@@ -63,6 +63,7 @@ class C<T> {
                                 "end": 9
                             },
                             "type": null,
+                            "assignToken": null,
                             "defaultType": null,
                             "flags": 2097152,
                             "start": 8,
@@ -130,6 +131,7 @@ class C<T> {
                                 "end": 25
                             },
                             "type": null,
+                            "assignToken": null,
                             "defaultType": null,
                             "flags": 2097152,
                             "start": 24,
@@ -360,7 +362,7 @@ class C<T> {
                                                         "start": 85,
                                                         "end": 89
                                                     },
-                                                    "flags": 536870944,
+                                                    "flags": 96,
                                                     "start": 79,
                                                     "end": 89
                                                 },

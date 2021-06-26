@@ -44,6 +44,12 @@
                                     "end": 2
                                 },
                                 "type": null,
+                                "assignToken": {
+                                    "kind": 4125,
+                                    "flags": 64,
+                                    "start": 2,
+                                    "end": 3
+                                },
                                 "defaultType": {
                                     "kind": 139,
                                     "bitwiseOrToken": null,
@@ -82,6 +88,7 @@
                                     "end": 7
                                 },
                                 "type": null,
+                                "assignToken": null,
                                 "defaultType": null,
                                 "flags": 2097152,
                                 "start": 5,

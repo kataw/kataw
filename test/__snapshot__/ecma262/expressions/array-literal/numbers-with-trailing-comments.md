@@ -159,7 +159,7 @@ function isUnusedDiagnostic(code) {
                                         "start": 351,
                                         "end": 359
                                     },
-                                    "flags": 536870944,
+                                    "flags": 32,
                                     "start": 44,
                                     "end": 359
                                 },

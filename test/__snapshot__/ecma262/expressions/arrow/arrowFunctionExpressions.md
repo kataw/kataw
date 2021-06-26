@@ -137,7 +137,7 @@ var p10 = ([{ value, done }]) => { };
                                     "start": 25,
                                     "end": 31
                                 },
-                                "flags": 536870944,
+                                "flags": 96,
                                 "start": 22,
                                 "end": 31
                             },
@@ -264,7 +264,7 @@ var p10 = ([{ value, done }]) => { };
                                                     "start": 67,
                                                     "end": 73
                                                 },
-                                                "flags": 536870944,
+                                                "flags": 96,
                                                 "start": 64,
                                                 "end": 73
                                             },

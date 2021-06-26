@@ -61,7 +61,7 @@ for (let.foo of x);
                     "start": 9,
                     "end": 12
                 },
-                "flags": 536870944,
+                "flags": 96,
                 "start": 5,
                 "end": 12
             },

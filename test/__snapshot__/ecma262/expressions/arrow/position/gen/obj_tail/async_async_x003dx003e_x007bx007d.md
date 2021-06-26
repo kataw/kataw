@@ -123,7 +123,7 @@ x = {arrow: async async => {}}.y
                         "start": 31,
                         "end": 32
                     },
-                    "flags": 536870944,
+                    "flags": 48,
                     "start": 3,
                     "end": 32
                 },

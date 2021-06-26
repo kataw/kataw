@@ -187,6 +187,7 @@ var {x5}: {x5: string; } = { x5: "hello" };
                                                     "end": 43
                                                 },
                                                 "type": null,
+                                                "assignToken": null,
                                                 "defaultType": null,
                                                 "flags": 2097152,
                                                 "start": 42,
@@ -345,6 +346,7 @@ var {x5}: {x5: string; } = { x5: "hello" };
                                                     "end": 73
                                                 },
                                                 "type": null,
+                                                "assignToken": null,
                                                 "defaultType": null,
                                                 "flags": 2097152,
                                                 "start": 72,

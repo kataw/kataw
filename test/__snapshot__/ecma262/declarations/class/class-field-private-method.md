@@ -120,7 +120,7 @@ class C { #aaa; f() { this.#aaa } }
                                                         "start": 27,
                                                         "end": 31
                                                     },
-                                                    "flags": 536870944,
+                                                    "flags": 96,
                                                     "start": 21,
                                                     "end": 31
                                                 },

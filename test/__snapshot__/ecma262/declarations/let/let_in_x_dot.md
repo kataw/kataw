@@ -56,7 +56,7 @@ let.dot in x
                         "start": 4,
                         "end": 7
                     },
-                    "flags": 536870944,
+                    "flags": 96,
                     "start": 0,
                     "end": 7
                 },

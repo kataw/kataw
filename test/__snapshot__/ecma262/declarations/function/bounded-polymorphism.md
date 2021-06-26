@@ -83,6 +83,7 @@ function bar<T: ?number>() {}
                                 "start": 15,
                                 "end": 23
                             },
+                            "assignToken": null,
                             "defaultType": null,
                             "flags": 2097152,
                             "start": 13,

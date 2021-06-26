@@ -330,7 +330,7 @@ let tests = [
                                                                 "kind": 201392130,
                                                                 "text": 0.5,
                                                                 "rawText": "0.5",
-                                                                "flags": 96,
+                                                                "flags": 32864,
                                                                 "start": 190,
                                                                 "end": 193
                                                             },
@@ -358,7 +358,7 @@ let tests = [
                                                                 "kind": 201392130,
                                                                 "text": 1e-22,
                                                                 "rawText": "0.0000000000000000000001",
-                                                                "flags": 96,
+                                                                "flags": 32864,
                                                                 "start": 232,
                                                                 "end": 256
                                                             },
@@ -485,7 +485,7 @@ let tests = [
                                                                         "kind": 201392130,
                                                                         "text": 0.5,
                                                                         "rawText": "0.5",
-                                                                        "flags": 96,
+                                                                        "flags": 32864,
                                                                         "start": 367,
                                                                         "end": 371
                                                                     },
@@ -697,7 +697,7 @@ let tests = [
                                                                                 "start": 578,
                                                                                 "end": 584
                                                                             },
-                                                                            "flags": 536870944,
+                                                                            "flags": 96,
                                                                             "start": 575,
                                                                             "end": 584
                                                                         },

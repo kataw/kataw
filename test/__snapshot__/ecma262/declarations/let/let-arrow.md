@@ -148,7 +148,7 @@ hello();
                                                         "start": 65,
                                                         "end": 68
                                                     },
-                                                    "flags": 536870944,
+                                                    "flags": 96,
                                                     "start": 54,
                                                     "end": 68
                                                 },

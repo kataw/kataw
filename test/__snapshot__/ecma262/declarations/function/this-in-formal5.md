@@ -452,6 +452,7 @@ function five<T>(this: T) {}
                                 "end": 163
                             },
                             "type": null,
+                            "assignToken": null,
                             "defaultType": null,
                             "flags": 2097152,
                             "start": 162,

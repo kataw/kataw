@@ -166,7 +166,7 @@ class Example {
                                                         "start": 77,
                                                         "end": 82
                                                     },
-                                                    "flags": 536870944,
+                                                    "flags": 96,
                                                     "start": 71,
                                                     "end": 82
                                                 },

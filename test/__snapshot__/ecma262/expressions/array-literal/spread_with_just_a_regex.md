@@ -50,7 +50,7 @@
                                 "end": 4
                             },
                             "argument": {
-                                "kind": 221,
+                                "kind": 371,
                                 "text": "/x/",
                                 "flags": 96,
                                 "start": 4,

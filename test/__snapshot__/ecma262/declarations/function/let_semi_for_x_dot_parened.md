@@ -66,7 +66,7 @@ for ((let).foo;;);
                     "start": 11,
                     "end": 14
                 },
-                "flags": 536870944,
+                "flags": 32,
                 "start": 5,
                 "end": 14
             },

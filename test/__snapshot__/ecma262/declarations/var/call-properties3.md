@@ -406,7 +406,7 @@ var z : Object = (x) => "hi"
                         "start": 298,
                         "end": 304
                     },
-                    "flags": 536870944,
+                    "flags": 96,
                     "start": 295,
                     "end": 304
                 },
@@ -674,7 +674,7 @@ var z : Object = (x) => "hi"
                                         "start": 387,
                                         "end": 395
                                     },
-                                    "flags": 536870944,
+                                    "flags": 96,
                                     "start": 384,
                                     "end": 395
                                 },
@@ -1010,7 +1010,7 @@ var z : Object = (x) => "hi"
                                         "start": 580,
                                         "end": 587
                                     },
-                                    "flags": 536870944,
+                                    "flags": 96,
                                     "start": 577,
                                     "end": 587
                                 },

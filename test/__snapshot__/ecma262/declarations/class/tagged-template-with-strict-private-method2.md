@@ -157,7 +157,7 @@ new Foo();
                                     "start": 60,
                                     "end": 64
                                 },
-                                "flags": 536870944,
+                                "flags": 96,
                                 "start": 54,
                                 "end": 64
                             },
@@ -246,7 +246,7 @@ new Foo();
                                                                         "start": 111,
                                                                         "end": 115
                                                                     },
-                                                                    "flags": 536870944,
+                                                                    "flags": 96,
                                                                     "start": 105,
                                                                     "end": 115
                                                                 },
@@ -297,7 +297,7 @@ new Foo();
                                                             "start": 146,
                                                             "end": 152
                                                         },
-                                                        "flags": 536870944,
+                                                        "flags": 96,
                                                         "start": 133,
                                                         "end": 152
                                                     },
@@ -384,7 +384,7 @@ new Foo();
                                                                         "start": 201,
                                                                         "end": 206
                                                                     },
-                                                                    "flags": 536870944,
+                                                                    "flags": 96,
                                                                     "start": 195,
                                                                     "end": 206
                                                                 },
@@ -435,7 +435,7 @@ new Foo();
                                                             "start": 237,
                                                             "end": 243
                                                         },
-                                                        "flags": 536870944,
+                                                        "flags": 96,
                                                         "start": 224,
                                                         "end": 243
                                                     },

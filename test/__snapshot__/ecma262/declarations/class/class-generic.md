@@ -62,6 +62,7 @@ class A<TYPE> {
                                 "end": 12
                             },
                             "type": null,
+                            "assignToken": null,
                             "defaultType": null,
                             "flags": 2097152,
                             "start": 8,
@@ -260,7 +261,7 @@ class A<TYPE> {
                                                                 "start": 84,
                                                                 "end": 87
                                                             },
-                                                            "flags": 536870944,
+                                                            "flags": 96,
                                                             "start": 75,
                                                             "end": 87
                                                         },
@@ -470,7 +471,7 @@ class A<TYPE> {
                                                                 "start": 157,
                                                                 "end": 160
                                                             },
-                                                            "flags": 536870944,
+                                                            "flags": 96,
                                                             "start": 148,
                                                             "end": 160
                                                         },

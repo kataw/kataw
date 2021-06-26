@@ -161,6 +161,7 @@ var a: { <T>(x: T): number; };
                                                             "end": 36
                                                         },
                                                         "type": null,
+                                                        "assignToken": null,
                                                         "defaultType": null,
                                                         "flags": 2097152,
                                                         "start": 35,
@@ -662,6 +663,7 @@ var a: { <T>(x: T): number; };
                                                             "end": 168
                                                         },
                                                         "type": null,
+                                                        "assignToken": null,
                                                         "defaultType": null,
                                                         "flags": 2097152,
                                                         "start": 167,

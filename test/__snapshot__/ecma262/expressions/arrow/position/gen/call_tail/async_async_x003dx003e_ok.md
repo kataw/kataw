@@ -94,7 +94,7 @@ foo(async async => ok).bar
                     "start": 23,
                     "end": 26
                 },
-                "flags": 536870944,
+                "flags": 268435488,
                 "start": 0,
                 "end": 26
             },

@@ -156,7 +156,7 @@ class Foo {
                                                                                 "start": 72,
                                                                                 "end": 79
                                                                             },
-                                                                            "flags": 536870944,
+                                                                            "flags": 96,
                                                                             "start": 59,
                                                                             "end": 79
                                                                         },

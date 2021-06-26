@@ -62,6 +62,7 @@ const absurd = <T>(x: empty): T => {};
                                                 "end": 17
                                             },
                                             "type": null,
+                                            "assignToken": null,
                                             "defaultType": null,
                                             "flags": 2097152,
                                             "start": 16,

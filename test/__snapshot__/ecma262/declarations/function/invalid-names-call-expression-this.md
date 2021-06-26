@@ -110,7 +110,7 @@ function fn() { (() => this)().#x }
                                     "start": 31,
                                     "end": 33
                                 },
-                                "flags": 536870944,
+                                "flags": 268435488,
                                 "start": 15,
                                 "end": 33
                             },

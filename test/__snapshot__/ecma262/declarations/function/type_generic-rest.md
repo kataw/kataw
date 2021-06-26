@@ -62,6 +62,7 @@ function remove<A, B>(a: A): [$Rest<A, {p: B}>, B] {
                                 "end": 17
                             },
                             "type": null,
+                            "assignToken": null,
                             "defaultType": null,
                             "flags": 2097152,
                             "start": 16,
@@ -78,6 +79,7 @@ function remove<A, B>(a: A): [$Rest<A, {p: B}>, B] {
                                 "end": 20
                             },
                             "type": null,
+                            "assignToken": null,
                             "defaultType": null,
                             "flags": 2097152,
                             "start": 18,

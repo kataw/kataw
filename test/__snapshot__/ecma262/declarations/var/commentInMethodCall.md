@@ -104,7 +104,7 @@ s.map(// do something
                         "start": 35,
                         "end": 38
                     },
-                    "flags": 536870944,
+                    "flags": 96,
                     "start": 32,
                     "end": 38
                 },

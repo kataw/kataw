@@ -279,7 +279,6 @@ export enum SyntaxKind {
   NumberType = 134217968,
   NumericLiteral = 201392130,
   ObjectBindingPattern = 212,
-  ObjectKeyword = 134234346,
   ObjectLiteral = 220,
   ObjectType = 134234353,
   ObjectTypeCallProperty = 196,
@@ -313,7 +312,7 @@ export enum SyntaxKind {
   QuestionMarkPeriod = 393240,
   QuestionMarkQuestionMark = 33047,
   RegularExpression = 65540,
-  RegularExpressionLiteral = 221,
+  RegularExpressionLiteral = 371,
   ReturnKeyword = 37757022,
   ReturnStatement = 161,
   RightBrace = 1048591,
@@ -400,12 +399,15 @@ export enum SyntaxKind {
   ProtoKeyword = 16873,
   ArrowTypeParameterList = 292,
   ArrowTypeParameter = 284,
-  BigIntType = 286
+  BigIntType = 286,
+  ObjectKeyword = 134234474
 }
 
 export function tokenToString(node: any): string {
   if (!node) return '';
   switch (node.kind) {
+    case SyntaxKind.ObjectKeyword:
+      return 'object';
     case SyntaxKind.Add:
       return '+';
     case SyntaxKind.AddAssign:

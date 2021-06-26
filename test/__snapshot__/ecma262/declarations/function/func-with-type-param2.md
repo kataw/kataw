@@ -68,6 +68,7 @@ a=function<T,S>() {}
                                         "end": 12
                                     },
                                     "type": null,
+                                    "assignToken": null,
                                     "defaultType": null,
                                     "flags": 2097152,
                                     "start": 11,
@@ -84,6 +85,7 @@ a=function<T,S>() {}
                                         "end": 14
                                     },
                                     "type": null,
+                                    "assignToken": null,
                                     "defaultType": null,
                                     "flags": 2097152,
                                     "start": 13,

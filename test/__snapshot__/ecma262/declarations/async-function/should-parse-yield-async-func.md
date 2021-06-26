@@ -287,7 +287,7 @@ const f = async function * (source, block, opts) {
                                                                                                                                 "start": 169,
                                                                                                                                 "end": 176
                                                                                                                             },
-                                                                                                                            "flags": 536870944,
+                                                                                                                            "flags": 96,
                                                                                                                             "start": 163,
                                                                                                                             "end": 176
                                                                                                                         },
@@ -299,7 +299,7 @@ const f = async function * (source, block, opts) {
                                                                                                                             "start": 177,
                                                                                                                             "end": 186
                                                                                                                         },
-                                                                                                                        "flags": 536870944,
+                                                                                                                        "flags": 96,
                                                                                                                         "start": 163,
                                                                                                                         "end": 186
                                                                                                                     },
@@ -408,7 +408,7 @@ const f = async function * (source, block, opts) {
                                                                                                             "start": 263,
                                                                                                             "end": 267
                                                                                                         },
-                                                                                                        "flags": 536870944,
+                                                                                                        "flags": 96,
                                                                                                         "start": 238,
                                                                                                         "end": 267
                                                                                                     },
@@ -447,7 +447,7 @@ const f = async function * (source, block, opts) {
                                                                                                                 "start": 296,
                                                                                                                 "end": 305
                                                                                                             },
-                                                                                                            "flags": 536870944,
+                                                                                                            "flags": 96,
                                                                                                             "start": 268,
                                                                                                             "end": 305
                                                                                                         },
@@ -474,7 +474,7 @@ const f = async function * (source, block, opts) {
                                                                                                                             "start": 312,
                                                                                                                             "end": 319
                                                                                                                         },
-                                                                                                                        "flags": 536870944,
+                                                                                                                        "flags": 96,
                                                                                                                         "start": 306,
                                                                                                                         "end": 319
                                                                                                                     },
@@ -486,7 +486,7 @@ const f = async function * (source, block, opts) {
                                                                                                                         "start": 320,
                                                                                                                         "end": 324
                                                                                                                     },
-                                                                                                                    "flags": 536870944,
+                                                                                                                    "flags": 96,
                                                                                                                     "start": 306,
                                                                                                                     "end": 324
                                                                                                                 }
@@ -533,7 +533,7 @@ const f = async function * (source, block, opts) {
                                                                                                             "start": 351,
                                                                                                             "end": 358
                                                                                                         },
-                                                                                                        "flags": 536870944,
+                                                                                                        "flags": 96,
                                                                                                         "start": 326,
                                                                                                         "end": 358
                                                                                                     },
