@@ -6790,14 +6790,19 @@ function parseFormalParameterList(parser: ParserState, context: Context, scope: 
   const parameters = [];
   context = (context | 0b00000000100000000000000010000000) ^ 0b00000000100000000000000010000000;
   let nodeflags = NodeFlags.ExpressionNode;
-  const curpPos = parser.curPos;
-  if (
-    consume(parser, context | Context.AllowRegExp, SyntaxKind.LeftParen, DiagnosticCode.Missing_an_opening_parentheses)
-  ) {
+  const curPos = parser.curPos;
+
+  // Empty list
+
+   if (consume(parser, context | Context.AllowRegExp, SyntaxKind.LeftParen, DiagnosticCode.Missing_an_opening_parentheses) &&
+   consume(parser, context, SyntaxKind.RightParen)) {
+    return createFormalParameterList([], /* trailingComma*/ false, nodeflags, curPos, curPos);
+   }
+
     let trailingComma = false;
     let count = 0;
     let ellipsisToken = null;
-    let i = parser.curPos;
+    let posAfterLeftParen = parser.curPos;
     while (parser.token & Constants.FormalParameterList) {
       const pos = parser.curPos;
       if (parser.token === SyntaxKind.ThisKeyword) {
@@ -6912,12 +6917,11 @@ function parseFormalParameterList(parser: ParserState, context: Context, scope: 
       );
     }
 
-    const result = createFormalParameterList(parameters, trailingComma, nodeflags, i, parser.curPos);
+    const result = createFormalParameterList(parameters, trailingComma, nodeflags, posAfterLeftParen, parser.curPos);
     consume(parser, context, SyntaxKind.RightParen, DiagnosticCode.Expected_a_to_match_the_token_here);
     return result;
-  }
-  // Empty list
-  return createFormalParameterList([], /* trailingComma*/ false, nodeflags, curpPos, curpPos);
+
+
 }
 
 /**

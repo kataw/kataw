@@ -64,7 +64,7 @@ export enum NodeFlags {
   TemplateLiteral = 1 << 27,
   IsCallExpression = 1 << 28,
   IsMemberExpression = 1 << 29,
-  IsUntionTypeIndention = 1 << 30
+  DisallowTrailingComma = 1 << 30
 }
 
 // DO NOT EDIT ANY OF THIS NUMBERS. IT WILL BREAK THE PARSER!!!!!
@@ -129,7 +129,7 @@ export enum SyntaxKind {
   ClassKeyword = 37822544,
   CoalesceAssign = 4140,
   Colon = 21,
-  Comma = 2097170, // =>
+  Comma = 2097170,
   CommaOperator = 132,
   Complement = 65585,
   ComputedPropertyName = 194,
@@ -445,7 +445,7 @@ export function tokenToString(node: any): string {
     case SyntaxKind.ClassKeyword:
       return 'class';
     case SyntaxKind.CoalesceAssign:
-      return '=>';
+      return '??=';
     case SyntaxKind.Colon:
       return ':';
     case SyntaxKind.Comma:

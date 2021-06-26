@@ -20,7 +20,7 @@ export function createSpreadElement(
     kind: SyntaxKind.SpreadElement,
     ellipsisToken,
     argument,
-    flags: NodeFlags.ExpressionNode,
+    flags: NodeFlags.ExpressionNode | NodeFlags.DisallowTrailingComma,
     start,
     end
   };

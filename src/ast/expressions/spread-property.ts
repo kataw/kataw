@@ -20,7 +20,7 @@ export function createSpreadProperty(
     kind: SyntaxKind.SpreadProperty,
     ellipsisToken,
     argument,
-    flags: NodeFlags.ExpressionNode,
+    flags: NodeFlags.ExpressionNode | NodeFlags.DisallowTrailingComma,
     start,
     end
   };
