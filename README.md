@@ -269,10 +269,10 @@ Here is an example:
  });
 
  // Print with module goal
- kataw.printModule('x = y', { next: true });
+ kataw.printModule('x = y');
 
  // Print in script mode
- kataw.printScript('x = y', { next: true });
+ kataw.printScript('x = y');
 ```
 
 ### Comments
