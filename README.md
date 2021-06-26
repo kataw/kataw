@@ -105,7 +105,7 @@ Here is an example on how to create an CST node:
  kataw.createIdentifier(/* text */ 'hello', /* rawText */ 'hello', /* start */ 1,  /* end */ 5)
 ```
 
-**Note**  Some CST nodes needes additional info. This can be set using the `Kataw.NodeFlags` andt this bitwise mask can be set on every CST node and CST keyword node.
+Some CST nodes needes additional info. This can be set using the `Kataw.NodeFlags` andt this bitwise mask can be set on every CST node and CST keyword node.
 
 ```ts
  // creates an string literal
@@ -262,15 +262,17 @@ The comments are 100% correct and they will be printed in the places you expect.
 Here is an example:
 
 ```ts
- // Print with module goal
- kataw.printModule('x = y', { next: true }, function(source, kind, msg, line, column) {
+
+// Print
+ kataw.print(kataw.parseModule('x = y', { next: true }), function(source, kind, msg, line, column) {
     throw msg + '(' + line + ', ' + column + ')';
  });
 
+ // Print with module goal
+ kataw.printModule('x = y', { next: true });
+
  // Print in script mode
- kataw.printScript('x = y', { next: true }, function(source, kind, msg, line, column) {
-    throw msg + '(' + line + ', ' + column + ')';
- });
+ kataw.printScript('x = y', { next: true });
 ```
 
 ### Comments
