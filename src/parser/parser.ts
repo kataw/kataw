@@ -2472,6 +2472,7 @@ function parseConciseOrFunctionBody(
     if (parser.nodeFlags & NodeFlags.NewLine) {
       switch (parser.token as SyntaxKind) {
         case SyntaxKind.Period:
+          parser.previousErrorPos = parser.pos;
           parser.onError(
             DiagnosticSource.Parser,
             DiagnosticKind.Error,
@@ -2483,6 +2484,7 @@ function parseConciseOrFunctionBody(
         case SyntaxKind.QuestionMark:
         case SyntaxKind.Exponentiate:
         case SyntaxKind.Multiply:
+          parser.previousErrorPos = parser.pos;
           parser.onError(
             DiagnosticSource.Parser,
             DiagnosticKind.Error,
@@ -2495,6 +2497,7 @@ function parseConciseOrFunctionBody(
       }
     } else {
       if (parser.token & SyntaxKind.IsBinaryOp) {
+        parser.previousErrorPos = parser.pos;
         parser.onError(
           DiagnosticSource.Parser,
           DiagnosticKind.Error,
@@ -2505,6 +2508,7 @@ function parseConciseOrFunctionBody(
       } else {
         switch (parser.token as SyntaxKind) {
           case SyntaxKind.Period:
+            parser.previousErrorPos = parser.pos;
             parser.onError(
               DiagnosticSource.Parser,
               DiagnosticKind.Error,
@@ -2515,6 +2519,7 @@ function parseConciseOrFunctionBody(
             break;
           case SyntaxKind.LeftParen:
           case SyntaxKind.LeftBracket:
+            parser.previousErrorPos = parser.pos;
             parser.onError(
               DiagnosticSource.Parser,
               DiagnosticKind.Error,
@@ -2524,6 +2529,7 @@ function parseConciseOrFunctionBody(
             );
             break;
           case SyntaxKind.TemplateTail:
+            parser.previousErrorPos = parser.pos;
             parser.onError(
               DiagnosticSource.Parser,
               DiagnosticKind.Error,
@@ -2533,6 +2539,7 @@ function parseConciseOrFunctionBody(
             );
             break;
           case SyntaxKind.QuestionMark:
+            parser.previousErrorPos = parser.pos;
             parser.onError(
               DiagnosticSource.Parser,
               DiagnosticKind.Error,
@@ -6829,17 +6836,14 @@ function parseFormalParameterList(parser: ParserState, context: Context, scope: 
   const curPos = parser.curPos;
 
   // Empty list
-
   if (
-    consume(
-      parser,
-      context | Context.AllowRegExp,
-      SyntaxKind.LeftParen,
-      DiagnosticCode.Missing_an_opening_parentheses
-    ) &&
-    consume(parser, context, SyntaxKind.RightParen)
+    consume(parser, context | Context.AllowRegExp, SyntaxKind.LeftParen, DiagnosticCode.Missing_an_opening_parentheses)
   ) {
-    return createFormalParameterList([], /* trailingComma*/ false, nodeflags, curPos, curPos);
+    if (parser.token === SyntaxKind.RightParen) {
+      const leftParenPos = parser.curPos;
+      consume(parser, context, SyntaxKind.RightParen);
+      return createFormalParameterList([], /* trailingComma*/ false, nodeflags, leftParenPos, leftParenPos);
+    }
   }
 
   let trailingComma = false;
