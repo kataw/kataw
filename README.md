@@ -264,9 +264,9 @@ Here is an example:
 ```ts
 
 // Print
- kataw.print(kataw.parseModule('x = y', { next: true }), function(source, kind, msg, line, column) {
+ kataw.print(kataw.parseModule('x = y', { next: true }, function(source, kind, msg, line, column) {
     throw msg + '(' + line + ', ' + column + ')';
- });
+ }));
 
  // Print with module goal
  kataw.printModule('x = y');
