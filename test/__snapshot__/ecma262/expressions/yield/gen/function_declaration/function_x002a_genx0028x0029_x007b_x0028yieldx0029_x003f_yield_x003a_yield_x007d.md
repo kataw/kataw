@@ -48,8 +48,8 @@ function not_gen() { function * gen() { (yield) ? yield : yield } }}
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 16,
-                "end": 16
+                "start": 17,
+                "end": 17
             },
             "contents": {
                 "kind": 216,
@@ -87,8 +87,8 @@ function not_gen() { function * gen() { (yield) ? yield : yield } }}
                                 "formalParameters": [],
                                 "trailingComma": false,
                                 "flags": 32,
-                                "start": 35,
-                                "end": 35
+                                "start": 36,
+                                "end": 36
                             },
                             "contents": {
                                 "kind": 216,

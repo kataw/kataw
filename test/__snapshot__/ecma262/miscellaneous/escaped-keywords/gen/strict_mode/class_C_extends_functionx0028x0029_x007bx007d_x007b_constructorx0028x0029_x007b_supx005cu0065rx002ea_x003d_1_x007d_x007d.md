@@ -69,8 +69,8 @@ class C extends function() {} { constructor() { sup\u0065r.a = 1 } }
                             "formalParameters": [],
                             "trailingComma": false,
                             "flags": 32,
-                            "start": 24,
-                            "end": 24
+                            "start": 25,
+                            "end": 25
                         },
                         "contents": {
                             "kind": 216,

@@ -83,8 +83,8 @@ function g() {
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 10,
-                "end": 10
+                "start": 11,
+                "end": 11
             },
             "contents": {
                 "kind": 216,
@@ -130,8 +130,8 @@ function g() {
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 58,
-                "end": 58
+                "start": 59,
+                "end": 59
             },
             "contents": {
                 "kind": 216,

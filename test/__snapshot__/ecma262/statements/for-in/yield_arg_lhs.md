@@ -64,8 +64,8 @@ function *f(){   for (yield x in y);   }
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 11,
-                "end": 11
+                "start": 12,
+                "end": 12
             },
             "contents": {
                 "kind": 216,

@@ -40,8 +40,8 @@ function foo() { return {eval} }
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 12,
-                "end": 12
+                "start": 13,
+                "end": 13
             },
             "contents": {
                 "kind": 216,

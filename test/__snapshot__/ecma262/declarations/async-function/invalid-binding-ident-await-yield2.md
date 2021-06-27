@@ -51,8 +51,8 @@ async function bar () {
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 18,
-                "end": 18
+                "start": 20,
+                "end": 20
             },
             "contents": {
                 "kind": 216,
@@ -148,8 +148,8 @@ async function bar () {
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 62,
-                "end": 62
+                "start": 64,
+                "end": 64
             },
             "contents": {
                 "kind": 216,

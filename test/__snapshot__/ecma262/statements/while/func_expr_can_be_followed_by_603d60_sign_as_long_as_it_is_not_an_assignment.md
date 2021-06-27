@@ -47,8 +47,8 @@ while (function* () {} === x);
                         "formalParameters": [],
                         "trailingComma": false,
                         "flags": 32,
-                        "start": 16,
-                        "end": 16
+                        "start": 18,
+                        "end": 18
                     },
                     "contents": {
                         "kind": 216,

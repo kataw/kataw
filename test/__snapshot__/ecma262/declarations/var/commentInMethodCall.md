@@ -128,8 +128,8 @@ s.map(// do something
                                 "formalParameters": [],
                                 "trailingComma": false,
                                 "flags": 32,
-                                "start": 67,
-                                "end": 67
+                                "start": 69,
+                                "end": 69
                             },
                             "contents": {
                                 "kind": 216,

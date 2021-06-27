@@ -40,8 +40,8 @@ function f() { { async function x() {} { var x } }
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 10,
-                "end": 10
+                "start": 11,
+                "end": 11
             },
             "contents": {
                 "kind": 216,
@@ -84,8 +84,8 @@ function f() { { async function x() {} { var x } }
                                             "formalParameters": [],
                                             "trailingComma": false,
                                             "flags": 32,
-                                            "start": 33,
-                                            "end": 33
+                                            "start": 34,
+                                            "end": 34
                                         },
                                         "contents": {
                                             "kind": 216,

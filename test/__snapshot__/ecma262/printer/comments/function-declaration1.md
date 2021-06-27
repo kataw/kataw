@@ -54,8 +54,8 @@ function x (
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 10,
-                "end": 10
+                "start": 12,
+                "end": 12
             },
             "contents": {
                 "kind": 216,
@@ -101,8 +101,8 @@ function x (
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 33,
-                "end": 33
+                "start": 35,
+                "end": 35
             },
             "contents": {
                 "kind": 216,
@@ -276,8 +276,8 @@ function x (
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 128,
-                "end": 128
+                "start": 130,
+                "end": 130
             },
             "contents": {
                 "kind": 216,

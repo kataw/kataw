@@ -168,8 +168,8 @@
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 32,
-                                    "start": 46,
-                                    "end": 46
+                                    "start": 47,
+                                    "end": 47
                                 },
                                 "contents": {
                                     "kind": 216,

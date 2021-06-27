@@ -73,8 +73,8 @@ function fn(x = async function () { await 1 }) {}
                                 "formalParameters": [],
                                 "trailingComma": false,
                                 "flags": 32,
-                                "start": 30,
-                                "end": 30
+                                "start": 32,
+                                "end": 32
                             },
                             "contents": {
                                 "kind": 216,

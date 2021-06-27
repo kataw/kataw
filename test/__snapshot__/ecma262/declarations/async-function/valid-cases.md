@@ -65,8 +65,8 @@ new async function() { await 0 }.x
                             "formalParameters": [],
                             "trailingComma": false,
                             "flags": 32,
-                            "start": 19,
-                            "end": 19
+                            "start": 20,
+                            "end": 20
                         },
                         "contents": {
                             "kind": 216,
@@ -146,8 +146,8 @@ new async function() { await 0 }.x
                         "formalParameters": [],
                         "trailingComma": false,
                         "flags": 32,
-                        "start": 49,
-                        "end": 49
+                        "start": 50,
+                        "end": 50
                     },
                     "contents": {
                         "kind": 216,
@@ -250,8 +250,8 @@ new async function() { await 0 }.x
                         "formalParameters": [],
                         "trailingComma": false,
                         "flags": 32,
-                        "start": 86,
-                        "end": 86
+                        "start": 87,
+                        "end": 87
                     },
                     "contents": {
                         "kind": 216,
@@ -355,8 +355,8 @@ new async function() { await 0 }.x
                                         "formalParameters": [],
                                         "trailingComma": false,
                                         "flags": 32,
-                                        "start": 119,
-                                        "end": 119
+                                        "start": 120,
+                                        "end": 120
                                     },
                                     "contents": {
                                         "kind": 216,
@@ -436,8 +436,8 @@ new async function() { await 0 }.x
                                                 "formalParameters": [],
                                                 "trailingComma": false,
                                                 "flags": 32,
-                                                "start": 153,
-                                                "end": 153
+                                                "start": 154,
+                                                "end": 154
                                             },
                                             "contents": {
                                                 "kind": 216,
@@ -520,8 +520,8 @@ new async function() { await 0 }.x
                                             "formalParameters": [],
                                             "trailingComma": false,
                                             "flags": 32,
-                                            "start": 184,
-                                            "end": 184
+                                            "start": 185,
+                                            "end": 185
                                         },
                                         "contents": {
                                             "kind": 216,
@@ -619,8 +619,8 @@ new async function() { await 0 }.x
                                         "formalParameters": [],
                                         "trailingComma": false,
                                         "flags": 32,
-                                        "start": 222,
-                                        "end": 222
+                                        "start": 223,
+                                        "end": 223
                                     },
                                     "contents": {
                                         "kind": 216,
@@ -711,8 +711,8 @@ new async function() { await 0 }.x
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 32,
-                                    "start": 256,
-                                    "end": 256
+                                    "start": 257,
+                                    "end": 257
                                 },
                                 "contents": {
                                     "kind": 216,
@@ -810,8 +810,8 @@ new async function() { await 0 }.x
                         "formalParameters": [],
                         "trailingComma": false,
                         "flags": 32,
-                        "start": 290,
-                        "end": 290
+                        "start": 291,
+                        "end": 291
                     },
                     "contents": {
                         "kind": 216,
@@ -902,8 +902,8 @@ new async function() { await 0 }.x
                             "formalParameters": [],
                             "trailingComma": false,
                             "flags": 32,
-                            "start": 323,
-                            "end": 323
+                            "start": 324,
+                            "end": 324
                         },
                         "contents": {
                             "kind": 216,

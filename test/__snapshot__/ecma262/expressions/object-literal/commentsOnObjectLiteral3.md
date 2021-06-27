@@ -110,8 +110,8 @@ var v = {
                                                 "formalParameters": [],
                                                 "trailingComma": false,
                                                 "flags": 32,
-                                                "start": 114,
-                                                "end": 114
+                                                "start": 116,
+                                                "end": 116
                                             },
                                             "contents": {
                                                 "kind": 216,

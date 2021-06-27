@@ -115,8 +115,8 @@ let f4 = () => doThing(a, /* ... */ b);
                                                 "formalParameters": [],
                                                 "trailingComma": false,
                                                 "flags": 32,
-                                                "start": 36,
-                                                "end": 36
+                                                "start": 38,
+                                                "end": 38
                                             },
                                             "contents": {
                                                 "kind": 216,
@@ -197,8 +197,8 @@ let f4 = () => doThing(a, /* ... */ b);
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 75,
-                "end": 75
+                "start": 76,
+                "end": 76
             },
             "contents": {
                 "kind": 216,
@@ -374,8 +374,8 @@ let f4 = () => doThing(a, /* ... */ b);
                                                 "formalParameters": [],
                                                 "trailingComma": false,
                                                 "flags": 32,
-                                                "start": 161,
-                                                "end": 161
+                                                "start": 162,
+                                                "end": 162
                                             },
                                             "contents": {
                                                 "kind": 216,
@@ -435,8 +435,8 @@ let f4 = () => doThing(a, /* ... */ b);
                                                 "formalParameters": [],
                                                 "trailingComma": false,
                                                 "flags": 32,
-                                                "start": 192,
-                                                "end": 192
+                                                "start": 193,
+                                                "end": 193
                                             },
                                             "contents": {
                                                 "kind": 216,

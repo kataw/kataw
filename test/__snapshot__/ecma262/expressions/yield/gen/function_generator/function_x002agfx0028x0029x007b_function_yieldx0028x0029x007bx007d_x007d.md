@@ -53,8 +53,8 @@ function * gen() { function not_gen() { function *gf(){ function yield(){}; } }}
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 14,
-                "end": 14
+                "start": 15,
+                "end": 15
             },
             "contents": {
                 "kind": 216,
@@ -87,8 +87,8 @@ function * gen() { function not_gen() { function *gf(){ function yield(){}; } }}
                                 "formalParameters": [],
                                 "trailingComma": false,
                                 "flags": 32,
-                                "start": 35,
-                                "end": 35
+                                "start": 36,
+                                "end": 36
                             },
                             "contents": {
                                 "kind": 216,
@@ -126,8 +126,8 @@ function * gen() { function not_gen() { function *gf(){ function yield(){}; } }}
                                                 "formalParameters": [],
                                                 "trailingComma": false,
                                                 "flags": 32,
-                                                "start": 52,
-                                                "end": 52
+                                                "start": 53,
+                                                "end": 53
                                             },
                                             "contents": {
                                                 "kind": 216,
@@ -160,8 +160,8 @@ function * gen() { function not_gen() { function *gf(){ function yield(){}; } }}
                                                                 "formalParameters": [],
                                                                 "trailingComma": false,
                                                                 "flags": 32,
-                                                                "start": 70,
-                                                                "end": 70
+                                                                "start": 71,
+                                                                "end": 71
                                                             },
                                                             "contents": {
                                                                 "kind": 216,

@@ -103,8 +103,8 @@ var f = async function f(x = function() { let await = 0; }) {}
                                                 "formalParameters": [],
                                                 "trailingComma": false,
                                                 "flags": 32,
-                                                "start": 37,
-                                                "end": 37
+                                                "start": 38,
+                                                "end": 38
                                             },
                                             "contents": {
                                                 "kind": 216,

@@ -53,8 +53,8 @@ function * gen() { function not_gen() { async function a(){     async ([y] = [{m
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 14,
-                "end": 14
+                "start": 15,
+                "end": 15
             },
             "contents": {
                 "kind": 216,
@@ -87,8 +87,8 @@ function * gen() { function not_gen() { async function a(){     async ([y] = [{m
                                 "formalParameters": [],
                                 "trailingComma": false,
                                 "flags": 32,
-                                "start": 35,
-                                "end": 35
+                                "start": 36,
+                                "end": 36
                             },
                             "contents": {
                                 "kind": 216,
@@ -126,8 +126,8 @@ function * gen() { function not_gen() { async function a(){     async ([y] = [{m
                                                 "formalParameters": [],
                                                 "trailingComma": false,
                                                 "flags": 32,
-                                                "start": 56,
-                                                "end": 56
+                                                "start": 57,
+                                                "end": 57
                                             },
                                             "contents": {
                                                 "kind": 216,

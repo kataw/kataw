@@ -58,8 +58,8 @@ function z() {
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 10,
-                "end": 10
+                "start": 11,
+                "end": 11
             },
             "contents": {
                 "kind": 216,
@@ -334,8 +334,8 @@ function z() {
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 135,
-                "end": 135
+                "start": 136,
+                "end": 136
             },
             "contents": {
                 "kind": 216,
@@ -520,8 +520,8 @@ function z() {
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 237,
-                "end": 237
+                "start": 238,
+                "end": 238
             },
             "contents": {
                 "kind": 216,

@@ -107,8 +107,8 @@ var await; var f = (async function() { function f() { class C { await() { } } } 
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 32,
-                                    "start": 34,
-                                    "end": 34
+                                    "start": 35,
+                                    "end": 35
                                 },
                                 "contents": {
                                     "kind": 216,
@@ -141,8 +141,8 @@ var await; var f = (async function() { function f() { class C { await() { } } } 
                                                     "formalParameters": [],
                                                     "trailingComma": false,
                                                     "flags": 32,
-                                                    "start": 49,
-                                                    "end": 49
+                                                    "start": 50,
+                                                    "end": 50
                                                 },
                                                 "contents": {
                                                     "kind": 216,

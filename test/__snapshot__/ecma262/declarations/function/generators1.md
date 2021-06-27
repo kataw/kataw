@@ -69,8 +69,8 @@ function *infer_stmt() {
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 20,
-                "end": 20
+                "start": 21,
+                "end": 21
             },
             "contents": {
                 "kind": 216,
@@ -256,8 +256,8 @@ function *infer_stmt() {
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 106,
-                "end": 106
+                "start": 107,
+                "end": 107
             },
             "contents": {
                 "kind": 216,
@@ -407,8 +407,8 @@ function *infer_stmt() {
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 182,
-                "end": 182
+                "start": 183,
+                "end": 183
             },
             "contents": {
                 "kind": 216,
@@ -558,8 +558,8 @@ function *infer_stmt() {
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 254,
-                "end": 254
+                "start": 255,
+                "end": 255
             },
             "contents": {
                 "kind": 216,

@@ -60,8 +60,8 @@ function name() {
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 10,
-                "end": 10
+                "start": 11,
+                "end": 11
             },
             "contents": {
                 "kind": 216,
@@ -122,8 +122,8 @@ function name() {
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 55,
-                "end": 55
+                "start": 56,
+                "end": 56
             },
             "contents": {
                 "kind": 216,
@@ -184,8 +184,8 @@ function name() {
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 104,
-                "end": 104
+                "start": 105,
+                "end": 105
             },
             "contents": {
                 "kind": 216,

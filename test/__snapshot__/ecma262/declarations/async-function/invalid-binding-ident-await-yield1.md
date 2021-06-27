@@ -59,8 +59,8 @@ function * bar1() {
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 18,
-                "end": 18
+                "start": 20,
+                "end": 20
             },
             "contents": {
                 "kind": 216,
@@ -156,8 +156,8 @@ function * bar1() {
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 62,
-                "end": 62
+                "start": 64,
+                "end": 64
             },
             "contents": {
                 "kind": 216,
@@ -252,8 +252,8 @@ function * bar1() {
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 103,
-                "end": 103
+                "start": 104,
+                "end": 104
             },
             "contents": {
                 "kind": 216,
@@ -349,8 +349,8 @@ function * bar1() {
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 143,
-                "end": 143
+                "start": 144,
+                "end": 144
             },
             "contents": {
                 "kind": 216,

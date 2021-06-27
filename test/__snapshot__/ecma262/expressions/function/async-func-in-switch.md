@@ -96,8 +96,8 @@ switch (x) {
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 32,
-                                    "start": 45,
-                                    "end": 45
+                                    "start": 46,
+                                    "end": 46
                                 },
                                 "contents": {
                                     "kind": 216,

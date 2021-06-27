@@ -107,8 +107,8 @@ var await; var f = (async function() { class x {*f(foo = await bar){}} });
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 32,
-                                    "start": 34,
-                                    "end": 34
+                                    "start": 35,
+                                    "end": 35
                                 },
                                 "contents": {
                                     "kind": 216,

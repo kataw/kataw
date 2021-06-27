@@ -53,8 +53,8 @@ function *gf(){ function yield(){}; }
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 12,
-                "end": 12
+                "start": 13,
+                "end": 13
             },
             "contents": {
                 "kind": 216,
@@ -87,8 +87,8 @@ function *gf(){ function yield(){}; }
                                 "formalParameters": [],
                                 "trailingComma": false,
                                 "flags": 32,
-                                "start": 30,
-                                "end": 30
+                                "start": 31,
+                                "end": 31
                             },
                             "contents": {
                                 "kind": 216,

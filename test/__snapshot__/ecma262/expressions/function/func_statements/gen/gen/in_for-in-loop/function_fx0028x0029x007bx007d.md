@@ -78,8 +78,8 @@ for (a in b) function f(){}
                     "formalParameters": [],
                     "trailingComma": false,
                     "flags": 32,
-                    "start": 23,
-                    "end": 23
+                    "start": 24,
+                    "end": 24
                 },
                 "contents": {
                     "kind": 216,

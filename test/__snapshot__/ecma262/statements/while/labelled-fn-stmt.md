@@ -86,8 +86,8 @@ while (false) label1: label2: function f() {}
                             "formalParameters": [],
                             "trailingComma": false,
                             "flags": 32,
-                            "start": 40,
-                            "end": 40
+                            "start": 41,
+                            "end": 41
                         },
                         "contents": {
                             "kind": 216,

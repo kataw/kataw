@@ -54,8 +54,8 @@ export function d(): Promise<boolean> {}
                     "formalParameters": [],
                     "trailingComma": false,
                     "flags": 32,
-                    "start": 17,
-                    "end": 17
+                    "start": 18,
+                    "end": 18
                 },
                 "contents": {
                     "kind": 216,

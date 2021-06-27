@@ -55,8 +55,8 @@ new async function(){}
                         "formalParameters": [],
                         "trailingComma": false,
                         "flags": 32,
-                        "start": 18,
-                        "end": 18
+                        "start": 19,
+                        "end": 19
                     },
                     "contents": {
                         "kind": 216,

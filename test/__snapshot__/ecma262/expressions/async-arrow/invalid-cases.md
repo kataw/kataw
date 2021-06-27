@@ -1678,8 +1678,8 @@ async ([a]:string)=>c;
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 601,
-                "end": 601
+                "start": 603,
+                "end": 603
             },
             "contents": {
                 "kind": 216,
@@ -2329,7 +2329,6 @@ async ([a]:string)=>c;
 ✖ Binding identifier expected - start: 601, end: 603
 ✖ Parameter 'await' for async arrow not allowed here - start: 638, end: 644
 ✖ An arrow function can not be part of an operator to the right - start: 694, end: 696
-✖ Declaration or statement expected - start: 694, end: 696
 
 ```
 

@@ -88,8 +88,8 @@ function x(function () { for (const x in { a: x }) { } }) {}
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 19,
-                "end": 19
+                "start": 21,
+                "end": 21
             },
             "contents": {
                 "kind": 216,

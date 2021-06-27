@@ -115,8 +115,8 @@ let tests = [
                                             "formalParameters": [],
                                             "trailingComma": false,
                                             "flags": 32,
-                                            "start": 44,
-                                            "end": 44
+                                            "start": 45,
+                                            "end": 45
                                         },
                                         "contents": {
                                             "kind": 216,
@@ -383,8 +383,8 @@ let tests = [
                                             "formalParameters": [],
                                             "trailingComma": false,
                                             "flags": 32,
-                                            "start": 174,
-                                            "end": 174
+                                            "start": 175,
+                                            "end": 175
                                         },
                                         "contents": {
                                             "kind": 216,
@@ -561,8 +561,8 @@ let tests = [
                                             "formalParameters": [],
                                             "trailingComma": false,
                                             "flags": 32,
-                                            "start": 281,
-                                            "end": 281
+                                            "start": 282,
+                                            "end": 282
                                         },
                                         "contents": {
                                             "kind": 216,
@@ -739,8 +739,8 @@ let tests = [
                                             "formalParameters": [],
                                             "trailingComma": false,
                                             "flags": 32,
-                                            "start": 391,
-                                            "end": 391
+                                            "start": 392,
+                                            "end": 392
                                         },
                                         "contents": {
                                             "kind": 216,
@@ -949,8 +949,8 @@ let tests = [
                                             "formalParameters": [],
                                             "trailingComma": false,
                                             "flags": 32,
-                                            "start": 558,
-                                            "end": 558
+                                            "start": 559,
+                                            "end": 559
                                         },
                                         "contents": {
                                             "kind": 216,
@@ -1239,8 +1239,8 @@ let tests = [
                                             "formalParameters": [],
                                             "trailingComma": false,
                                             "flags": 32,
-                                            "start": 732,
-                                            "end": 732
+                                            "start": 733,
+                                            "end": 733
                                         },
                                         "contents": {
                                             "kind": 216,

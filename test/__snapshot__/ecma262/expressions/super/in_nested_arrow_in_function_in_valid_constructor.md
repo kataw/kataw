@@ -120,8 +120,8 @@ class x extends y { constructor(){ return function() { return () => super.foo; }
                                                         "formalParameters": [],
                                                         "trailingComma": false,
                                                         "flags": 32,
-                                                        "start": 50,
-                                                        "end": 50
+                                                        "start": 51,
+                                                        "end": 51
                                                     },
                                                     "contents": {
                                                         "kind": 216,

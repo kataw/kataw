@@ -113,8 +113,8 @@ fn = function() {};
                         "formalParameters": [],
                         "trailingComma": false,
                         "flags": 32,
-                        "start": 30,
-                        "end": 30
+                        "start": 31,
+                        "end": 31
                     },
                     "contents": {
                         "kind": 216,
@@ -178,8 +178,8 @@ fn = function() {};
                         "formalParameters": [],
                         "trailingComma": false,
                         "flags": 32,
-                        "start": 50,
-                        "end": 50
+                        "start": 51,
+                        "end": 51
                     },
                     "contents": {
                         "kind": 216,

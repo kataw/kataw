@@ -948,8 +948,8 @@ function /*1*/ constant/*2*/<T>(value/*3*/: T/*4*/): () => T {
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 32,
-                                    "start": 499,
-                                    "end": 499
+                                    "start": 500,
+                                    "end": 500
                                 },
                                 "contents": {
                                     "kind": 216,

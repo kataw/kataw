@@ -412,8 +412,8 @@ export const [destructuredArrNumber2] = [1]
                     "formalParameters": [],
                     "trailingComma": false,
                     "flags": 32,
-                    "start": 297,
-                    "end": 297
+                    "start": 298,
+                    "end": 298
                 },
                 "contents": {
                     "kind": 216,

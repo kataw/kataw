@@ -89,8 +89,8 @@ try {
                                 "formalParameters": [],
                                 "trailingComma": false,
                                 "flags": 32,
-                                "start": 36,
-                                "end": 36
+                                "start": 37,
+                                "end": 37
                             },
                             "contents": {
                                 "kind": 216,

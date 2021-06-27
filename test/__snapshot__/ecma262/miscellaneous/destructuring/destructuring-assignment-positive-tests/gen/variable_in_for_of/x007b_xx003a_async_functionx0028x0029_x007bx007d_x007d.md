@@ -155,8 +155,8 @@ var x, y, z; for (x of { x: async function() {} } = {});
                                         "formalParameters": [],
                                         "trailingComma": false,
                                         "flags": 32,
-                                        "start": 42,
-                                        "end": 42
+                                        "start": 43,
+                                        "end": 43
                                     },
                                     "contents": {
                                         "kind": 216,

@@ -268,8 +268,8 @@ Object.defineProperty(this, "x", {
                             "formalParameters": [],
                             "trailingComma": false,
                             "flags": 32,
-                            "start": 117,
-                            "end": 117
+                            "start": 118,
+                            "end": 118
                         },
                         "contents": {
                             "kind": 216,

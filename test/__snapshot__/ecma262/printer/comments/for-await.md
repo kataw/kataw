@@ -55,8 +55,8 @@ for /*2*/ await /*3*/(x /*4*/of /*5*/ y/*6*/) /*7*/ {}
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 16,
-                "end": 16
+                "start": 17,
+                "end": 17
             },
             "contents": {
                 "kind": 216,
@@ -161,8 +161,8 @@ for /*2*/ await /*3*/(x /*4*/of /*5*/ y/*6*/) /*7*/ {}
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 90,
-                "end": 90
+                "start": 91,
+                "end": 91
             },
             "contents": {
                 "kind": 216,

@@ -136,8 +136,8 @@ var x, y, z; ({ x: async function() {} } = {});
                                             "formalParameters": [],
                                             "trailingComma": false,
                                             "flags": 32,
-                                            "start": 33,
-                                            "end": 33
+                                            "start": 34,
+                                            "end": 34
                                         },
                                         "contents": {
                                             "kind": 216,

@@ -504,8 +504,8 @@ export const [destructuredArrNumber] = [1]
                     "formalParameters": [],
                     "trailingComma": false,
                     "flags": 32,
-                    "start": 351,
-                    "end": 351
+                    "start": 352,
+                    "end": 352
                 },
                 "contents": {
                     "kind": 216,

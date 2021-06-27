@@ -53,8 +53,8 @@ async function f() { for await ({[Symbol.iterator]: a = 1} = 1 of []) ; }
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 16,
-                "end": 16
+                "start": 17,
+                "end": 17
             },
             "contents": {
                 "kind": 216,

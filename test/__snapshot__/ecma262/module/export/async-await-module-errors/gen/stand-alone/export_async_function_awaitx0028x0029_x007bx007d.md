@@ -61,8 +61,8 @@ export async function await() {}
                     "formalParameters": [],
                     "trailingComma": false,
                     "flags": 32,
-                    "start": 27,
-                    "end": 27
+                    "start": 28,
+                    "end": 28
                 },
                 "contents": {
                     "kind": 216,

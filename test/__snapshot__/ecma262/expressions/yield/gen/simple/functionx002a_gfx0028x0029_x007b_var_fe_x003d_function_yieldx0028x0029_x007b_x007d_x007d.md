@@ -53,8 +53,8 @@ function* gf() { var fe = function yield() { } }
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 12,
-                "end": 12
+                "start": 13,
+                "end": 13
             },
             "contents": {
                 "kind": 216,
@@ -109,8 +109,8 @@ function* gf() { var fe = function yield() { } }
                                                 "formalParameters": [],
                                                 "trailingComma": false,
                                                 "flags": 32,
-                                                "start": 40,
-                                                "end": 40
+                                                "start": 41,
+                                                "end": 41
                                             },
                                             "contents": {
                                                 "kind": 216,

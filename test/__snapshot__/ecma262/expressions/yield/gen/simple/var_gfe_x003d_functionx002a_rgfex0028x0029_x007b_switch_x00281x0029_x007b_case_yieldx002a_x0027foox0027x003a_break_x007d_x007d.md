@@ -75,8 +75,8 @@ var gfe = function* rgfe() { switch (1) { case yield* 'foo': break; } }
                                 "formalParameters": [],
                                 "trailingComma": false,
                                 "flags": 32,
-                                "start": 24,
-                                "end": 24
+                                "start": 25,
+                                "end": 25
                             },
                             "contents": {
                                 "kind": 216,

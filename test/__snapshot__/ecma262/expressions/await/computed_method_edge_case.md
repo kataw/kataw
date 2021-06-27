@@ -45,8 +45,8 @@ async function f(){    async function f(){   (a= {[await foo](){}, "x"(){}} ) =>
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 16,
-                "end": 16
+                "start": 17,
+                "end": 17
             },
             "contents": {
                 "kind": 216,
@@ -84,8 +84,8 @@ async function f(){    async function f(){   (a= {[await foo](){}, "x"(){}} ) =>
                                 "formalParameters": [],
                                 "trailingComma": false,
                                 "flags": 32,
-                                "start": 39,
-                                "end": 39
+                                "start": 40,
+                                "end": 40
                             },
                             "contents": {
                                 "kind": 216,

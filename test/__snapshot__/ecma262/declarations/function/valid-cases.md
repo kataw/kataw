@@ -145,8 +145,8 @@ function f({x:arg = (arg = 2)}) {}
                                 "formalParameters": [],
                                 "trailingComma": false,
                                 "flags": 32,
-                                "start": 27,
-                                "end": 27
+                                "start": 28,
+                                "end": 28
                             },
                             "contents": {
                                 "kind": 216,
@@ -2298,8 +2298,8 @@ function f({x:arg = (arg = 2)}) {}
                                                 "formalParameters": [],
                                                 "trailingComma": false,
                                                 "flags": 32,
-                                                "start": 626,
-                                                "end": 626
+                                                "start": 627,
+                                                "end": 627
                                             },
                                             "contents": {
                                                 "kind": 216,

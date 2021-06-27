@@ -45,8 +45,8 @@ function *await(){}
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 15,
-                "end": 15
+                "start": 16,
+                "end": 16
             },
             "contents": {
                 "kind": 216,

@@ -142,8 +142,8 @@ class C { set x(_) { var f = function*() { super(); } } }
                                                                     "formalParameters": [],
                                                                     "trailingComma": false,
                                                                     "flags": 32,
-                                                                    "start": 38,
-                                                                    "end": 38
+                                                                    "start": 39,
+                                                                    "end": 39
                                                                 },
                                                                 "contents": {
                                                                     "kind": 216,

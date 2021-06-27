@@ -2291,7 +2291,6 @@ y = (x => {}(0));
 ✖ Block body arrows can not be immediately invoked without a group - start: 324, end: 325
 ✖ Block body arrows can not be immediately invoked without a group - start: 337, end: 338
 ✖ Block body arrows can not be immediately invoked without a group - start: 356, end: 357
-✖ Expected a `;` - start: 356, end: 357
 ✖ Block body arrows can not be immediately invoked without a group - start: 374, end: 375
 ✖ Block body arrows can not be immediately invoked without a group - start: 395, end: 396
 ✖ Block body arrows can not be immediately invoked without a group - start: 411, end: 412

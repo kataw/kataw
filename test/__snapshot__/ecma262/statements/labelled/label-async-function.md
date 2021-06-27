@@ -54,8 +54,8 @@ label: async function () {}
                     "formalParameters": [],
                     "trailingComma": false,
                     "flags": 32,
-                    "start": 21,
-                    "end": 21
+                    "start": 23,
+                    "end": 23
                 },
                 "contents": {
                     "kind": 216,

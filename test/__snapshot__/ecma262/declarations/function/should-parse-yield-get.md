@@ -43,8 +43,8 @@ function get() {}
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 12,
-                "end": 12
+                "start": 13,
+                "end": 13
             },
             "contents": {
                 "kind": 216,
@@ -95,8 +95,8 @@ function get() {}
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 37,
-                "end": 37
+                "start": 38,
+                "end": 38
             },
             "contents": {
                 "kind": 216,

@@ -48,8 +48,8 @@ function not_gen() { function* gf() { +yield 2; } }}
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 16,
-                "end": 16
+                "start": 17,
+                "end": 17
             },
             "contents": {
                 "kind": 216,
@@ -87,8 +87,8 @@ function not_gen() { function* gf() { +yield 2; } }}
                                 "formalParameters": [],
                                 "trailingComma": false,
                                 "flags": 32,
-                                "start": 33,
-                                "end": 33
+                                "start": 34,
+                                "end": 34
                             },
                             "contents": {
                                 "kind": 216,

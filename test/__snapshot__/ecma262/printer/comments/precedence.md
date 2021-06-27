@@ -3570,8 +3570,8 @@ g = b + -+-a++;
                         "formalParameters": [],
                         "trailingComma": false,
                         "flags": 32,
-                        "start": 971,
-                        "end": 971
+                        "start": 973,
+                        "end": 973
                     },
                     "contents": {
                         "kind": 216,
@@ -4152,8 +4152,8 @@ g = b + -+-a++;
                         "formalParameters": [],
                         "trailingComma": false,
                         "flags": 32,
-                        "start": 1199,
-                        "end": 1199
+                        "start": 1201,
+                        "end": 1201
                     },
                     "contents": {
                         "kind": 216,
@@ -4556,8 +4556,8 @@ g = b + -+-a++;
                             "formalParameters": [],
                             "trailingComma": false,
                             "flags": 32,
-                            "start": 1327,
-                            "end": 1327
+                            "start": 1329,
+                            "end": 1329
                         },
                         "contents": {
                             "kind": 216,

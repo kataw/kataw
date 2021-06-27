@@ -40,8 +40,8 @@ function f() { { var x } function* x() {} }
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 10,
-                "end": 10
+                "start": 11,
+                "end": 11
             },
             "contents": {
                 "kind": 216,
@@ -130,8 +130,8 @@ function f() { { var x } function* x() {} }
                                 "formalParameters": [],
                                 "trailingComma": false,
                                 "flags": 32,
-                                "start": 36,
-                                "end": 36
+                                "start": 37,
+                                "end": 37
                             },
                             "contents": {
                                 "kind": 216,

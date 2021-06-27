@@ -76,8 +76,8 @@ if (false) ; else async function* f() {  }
                     "formalParameters": [],
                     "trailingComma": false,
                     "flags": 32,
-                    "start": 35,
-                    "end": 35
+                    "start": 36,
+                    "end": 36
                 },
                 "contents": {
                     "kind": 216,
