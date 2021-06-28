@@ -59,26 +59,26 @@ class /*1*/ x /*2*/ {
                     "kind": 303,
                     "elements": [
                         {
-                            "kind": 317,
-                            "flags": 96,
+                            "kind": 1108353041,
+                            "flags": 65,
                             "start": 9,
                             "end": 15
                         },
                         {
-                            "kind": 317,
-                            "flags": 96,
+                            "kind": 1108353041,
+                            "flags": 65,
                             "start": 15,
                             "end": 21
                         },
                         {
-                            "kind": 317,
-                            "flags": 96,
+                            "kind": 1108353041,
+                            "flags": 65,
                             "start": 21,
                             "end": 32
                         },
                         {
-                            "kind": 317,
-                            "flags": 96,
+                            "kind": 1108353041,
+                            "flags": 65,
                             "start": 32,
                             "end": 38
                         },
@@ -184,26 +184,26 @@ class /*1*/ x /*2*/ {
                     "kind": 303,
                     "elements": [
                         {
-                            "kind": 317,
-                            "flags": 96,
+                            "kind": 1108353041,
+                            "flags": 65,
                             "start": 88,
                             "end": 94
                         },
                         {
-                            "kind": 317,
-                            "flags": 96,
+                            "kind": 1108353041,
+                            "flags": 65,
                             "start": 94,
                             "end": 100
                         },
                         {
-                            "kind": 317,
-                            "flags": 96,
+                            "kind": 1108353041,
+                            "flags": 65,
                             "start": 100,
                             "end": 111
                         },
                         {
-                            "kind": 317,
-                            "flags": 96,
+                            "kind": 1108353041,
+                            "flags": 65,
                             "start": 111,
                             "end": 117
                         },

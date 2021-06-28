@@ -203,8 +203,8 @@ class C<T> {
                             "end": 37
                         },
                         {
-                            "kind": 317,
-                            "flags": 96,
+                            "kind": 1108353041,
+                            "flags": 64,
                             "start": 37,
                             "end": 38
                         },

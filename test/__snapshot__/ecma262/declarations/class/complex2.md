@@ -620,8 +620,8 @@ class C2<X, Y> {
                             "end": 173
                         },
                         {
-                            "kind": 317,
-                            "flags": 96,
+                            "kind": 1108353041,
+                            "flags": 64,
                             "start": 173,
                             "end": 174
                         },

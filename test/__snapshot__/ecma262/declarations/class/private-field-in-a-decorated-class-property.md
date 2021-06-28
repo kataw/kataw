@@ -69,8 +69,8 @@ class Example {
                             "end": 23
                         },
                         {
-                            "kind": 317,
-                            "flags": 96,
+                            "kind": 1108353041,
+                            "flags": 64,
                             "start": 23,
                             "end": 24
                         },
@@ -192,8 +192,8 @@ class Example {
                             "end": 87
                         },
                         {
-                            "kind": 317,
-                            "flags": 96,
+                            "kind": 1108353041,
+                            "flags": 64,
                             "start": 87,
                             "end": 88
                         }

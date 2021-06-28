@@ -65,8 +65,8 @@ class Foo { #foo; foo() { delete this?.#foo } }
                             "end": 17
                         },
                         {
-                            "kind": 317,
-                            "flags": 96,
+                            "kind": 1108353041,
+                            "flags": 64,
                             "start": 17,
                             "end": 18
                         },
@@ -220,8 +220,8 @@ class Foo { #foo; foo() { delete this?.#foo } }
                             "end": 65
                         },
                         {
-                            "kind": 317,
-                            "flags": 96,
+                            "kind": 1108353041,
+                            "flags": 64,
                             "start": 65,
                             "end": 66
                         },

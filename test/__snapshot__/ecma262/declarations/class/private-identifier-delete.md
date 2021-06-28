@@ -62,8 +62,8 @@ class Foo { #foo; foo() { delete this.#foo } }
                             "end": 16
                         },
                         {
-                            "kind": 317,
-                            "flags": 96,
+                            "kind": 1108353041,
+                            "flags": 64,
                             "start": 16,
                             "end": 17
                         },

@@ -154,8 +154,8 @@ class C {
                                                             "end": 61
                                                         },
                                                         {
-                                                            "kind": 317,
-                                                            "flags": 96,
+                                                            "kind": 1108353041,
+                                                            "flags": 64,
                                                             "start": 61,
                                                             "end": 62
                                                         },
@@ -200,8 +200,8 @@ class C {
                                                             "end": 78
                                                         },
                                                         {
-                                                            "kind": 317,
-                                                            "flags": 96,
+                                                            "kind": 1108353041,
+                                                            "flags": 64,
                                                             "start": 78,
                                                             "end": 79
                                                         }

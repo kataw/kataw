@@ -132,8 +132,8 @@ class B<X> {
                             "end": 19
                         },
                         {
-                            "kind": 317,
-                            "flags": 96,
+                            "kind": 1108353041,
+                            "flags": 64,
                             "start": 19,
                             "end": 20
                         },

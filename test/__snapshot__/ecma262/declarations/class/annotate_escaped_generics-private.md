@@ -111,8 +111,8 @@ class I<X> {
                             "end": 17
                         },
                         {
-                            "kind": 317,
-                            "flags": 96,
+                            "kind": 1108353041,
+                            "flags": 64,
                             "start": 17,
                             "end": 18
                         },
@@ -138,8 +138,8 @@ class I<X> {
                             "end": 23
                         },
                         {
-                            "kind": 317,
-                            "flags": 96,
+                            "kind": 1108353041,
+                            "flags": 64,
                             "start": 23,
                             "end": 24
                         },

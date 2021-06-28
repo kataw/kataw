@@ -277,8 +277,8 @@ class Base {
                                                                         "end": 122
                                                                     },
                                                                     {
-                                                                        "kind": 317,
-                                                                        "flags": 96,
+                                                                        "kind": 1108353041,
+                                                                        "flags": 64,
                                                                         "start": 122,
                                                                         "end": 123
                                                                     }

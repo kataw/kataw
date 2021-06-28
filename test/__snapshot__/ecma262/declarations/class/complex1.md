@@ -160,8 +160,8 @@ class D<T> {
                             "end": 22
                         },
                         {
-                            "kind": 317,
-                            "flags": 96,
+                            "kind": 1108353041,
+                            "flags": 64,
                             "start": 22,
                             "end": 23
                         },
@@ -629,8 +629,8 @@ class D<T> {
                             "end": 164
                         },
                         {
-                            "kind": 317,
-                            "flags": 96,
+                            "kind": 1108353041,
+                            "flags": 64,
                             "start": 164,
                             "end": 165
                         },

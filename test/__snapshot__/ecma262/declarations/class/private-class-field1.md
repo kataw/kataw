@@ -1041,8 +1041,8 @@ class Annotations {
                             "end": 653
                         },
                         {
-                            "kind": 317,
-                            "flags": 96,
+                            "kind": 1108353041,
+                            "flags": 64,
                             "start": 653,
                             "end": 654
                         },
@@ -1075,8 +1075,8 @@ class Annotations {
                             "end": 663
                         },
                         {
-                            "kind": 317,
-                            "flags": 96,
+                            "kind": 1108353041,
+                            "flags": 64,
                             "start": 663,
                             "end": 664
                         },
@@ -1102,8 +1102,8 @@ class Annotations {
                             "end": 669
                         },
                         {
-                            "kind": 317,
-                            "flags": 96,
+                            "kind": 1108353041,
+                            "flags": 64,
                             "start": 669,
                             "end": 670
                         },
@@ -1149,8 +1149,8 @@ class Annotations {
                             "end": 687
                         },
                         {
-                            "kind": 317,
-                            "flags": 96,
+                            "kind": 1108353041,
+                            "flags": 64,
                             "start": 687,
                             "end": 688
                         },
@@ -1196,8 +1196,8 @@ class Annotations {
                             "end": 737
                         },
                         {
-                            "kind": 317,
-                            "flags": 96,
+                            "kind": 1108353041,
+                            "flags": 64,
                             "start": 737,
                             "end": 738
                         },
@@ -1241,8 +1241,8 @@ class Annotations {
                             "end": 759
                         },
                         {
-                            "kind": 317,
-                            "flags": 96,
+                            "kind": 1108353041,
+                            "flags": 64,
                             "start": 759,
                             "end": 760
                         },
@@ -1280,8 +1280,8 @@ class Annotations {
                             "end": 777
                         },
                         {
-                            "kind": 317,
-                            "flags": 96,
+                            "kind": 1108353041,
+                            "flags": 64,
                             "start": 777,
                             "end": 778
                         },
@@ -1312,8 +1312,8 @@ class Annotations {
                             "end": 791
                         },
                         {
-                            "kind": 317,
-                            "flags": 96,
+                            "kind": 1108353041,
+                            "flags": 64,
                             "start": 791,
                             "end": 792
                         },
@@ -1364,8 +1364,8 @@ class Annotations {
                             "end": 817
                         },
                         {
-                            "kind": 317,
-                            "flags": 96,
+                            "kind": 1108353041,
+                            "flags": 64,
                             "start": 817,
                             "end": 818
                         },
@@ -1416,8 +1416,8 @@ class Annotations {
                             "end": 875
                         },
                         {
-                            "kind": 317,
-                            "flags": 96,
+                            "kind": 1108353041,
+                            "flags": 64,
                             "start": 875,
                             "end": 876
                         },

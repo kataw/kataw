@@ -71,8 +71,8 @@ class A {
                             "end": 27
                         },
                         {
-                            "kind": 317,
-                            "flags": 96,
+                            "kind": 1108353041,
+                            "flags": 64,
                             "start": 27,
                             "end": 28
                         }
@@ -148,8 +148,8 @@ class A {
                             "end": 65
                         },
                         {
-                            "kind": 317,
-                            "flags": 96,
+                            "kind": 1108353041,
+                            "flags": 64,
                             "start": 65,
                             "end": 66
                         }

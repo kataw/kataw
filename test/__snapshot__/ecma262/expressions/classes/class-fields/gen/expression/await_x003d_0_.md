@@ -97,8 +97,8 @@ class C extends Base { await = 0; }
                             "end": 32
                         },
                         {
-                            "kind": 317,
-                            "flags": 96,
+                            "kind": 1108353041,
+                            "flags": 64,
                             "start": 32,
                             "end": 33
                         }

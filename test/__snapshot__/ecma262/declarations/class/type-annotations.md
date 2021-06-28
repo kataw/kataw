@@ -907,8 +907,8 @@ class Array { concat(items:number | string) {}; }
                             "end": 294
                         },
                         {
-                            "kind": 317,
-                            "flags": 96,
+                            "kind": 1108353041,
+                            "flags": 64,
                             "start": 294,
                             "end": 295
                         },
@@ -947,8 +947,8 @@ class Array { concat(items:number | string) {}; }
                             "end": 311
                         },
                         {
-                            "kind": 317,
-                            "flags": 96,
+                            "kind": 1108353041,
+                            "flags": 64,
                             "start": 311,
                             "end": 312
                         }
@@ -1025,8 +1025,8 @@ class Array { concat(items:number | string) {}; }
                             "end": 345
                         },
                         {
-                            "kind": 317,
-                            "flags": 96,
+                            "kind": 1108353041,
+                            "flags": 64,
                             "start": 345,
                             "end": 346
                         },
@@ -1065,8 +1065,8 @@ class Array { concat(items:number | string) {}; }
                             "end": 362
                         },
                         {
-                            "kind": 317,
-                            "flags": 96,
+                            "kind": 1108353041,
+                            "flags": 64,
                             "start": 362,
                             "end": 363
                         }
@@ -1206,8 +1206,8 @@ class Array { concat(items:number | string) {}; }
                             "end": 412
                         },
                         {
-                            "kind": 317,
-                            "flags": 96,
+                            "kind": 1108353041,
+                            "flags": 64,
                             "start": 412,
                             "end": 413
                         }

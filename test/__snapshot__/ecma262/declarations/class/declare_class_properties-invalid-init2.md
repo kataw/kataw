@@ -77,8 +77,8 @@ class C {
                             "end": 21
                         },
                         {
-                            "kind": 317,
-                            "flags": 96,
+                            "kind": 1108353041,
+                            "flags": 64,
                             "start": 21,
                             "end": 22
                         }

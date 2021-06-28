@@ -99,8 +99,8 @@ class A {
                             "end": 36
                         },
                         {
-                            "kind": 317,
-                            "flags": 96,
+                            "kind": 1108353041,
+                            "flags": 64,
                             "start": 36,
                             "end": 37
                         }

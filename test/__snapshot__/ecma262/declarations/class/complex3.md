@@ -859,8 +859,8 @@ var stringArr:Array<string> = ['a','b'];
                             "end": 297
                         },
                         {
-                            "kind": 317,
-                            "flags": 96,
+                            "kind": 1108353041,
+                            "flags": 64,
                             "start": 297,
                             "end": 298
                         },
@@ -1056,8 +1056,8 @@ var stringArr:Array<string> = ['a','b'];
                             "end": 382
                         },
                         {
-                            "kind": 317,
-                            "flags": 96,
+                            "kind": 1108353041,
+                            "flags": 64,
                             "start": 382,
                             "end": 383
                         },

@@ -593,7 +593,7 @@ export function tokenToString(node: any): string {
     case SyntaxKind.ReturnKeyword:
       return 'return';
     case SyntaxKind.Semicolon:
-      return ':';
+      return ';';
     case SyntaxKind.SetKeyword:
       return 'set';
     case SyntaxKind.ShiftLeft:

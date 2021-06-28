@@ -73,8 +73,8 @@ class Foo {
                             "end": 20
                         },
                         {
-                            "kind": 317,
-                            "flags": 96,
+                            "kind": 1108353041,
+                            "flags": 64,
                             "start": 20,
                             "end": 21
                         },

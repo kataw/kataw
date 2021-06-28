@@ -55,7 +55,6 @@ export { createSpreadProperty } from './ast/expressions/spread-property';
 export { createCoverInitializedName } from './ast/expressions/cover-initialized-name';
 export { createMethodDefinition } from './ast/expressions/method-definition';
 export { createArrowFunction } from './ast/expressions/arrow-function';
-export { createSemicolonClassElement } from './ast/expressions/semicolon-class-element';
 export { createRegularExpressionLiteral } from './ast/expressions/regular-expr';
 export { createExpressionStatement } from './ast/statements/expression-stmt';
 export { createNameSpaceImport } from './ast/module/namespace-import';

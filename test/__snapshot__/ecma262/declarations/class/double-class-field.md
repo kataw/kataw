@@ -81,8 +81,8 @@ class C { aaa; bbb}
                             "end": 13
                         },
                         {
-                            "kind": 317,
-                            "flags": 96,
+                            "kind": 1108353041,
+                            "flags": 64,
                             "start": 13,
                             "end": 14
                         },

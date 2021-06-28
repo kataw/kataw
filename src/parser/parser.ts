@@ -56,7 +56,6 @@ import { createCoverInitializedName, CoverInitializedName } from '../ast/express
 import { createMethodDefinition, MethodDefinition } from '../ast/expressions/method-definition';
 import { createArrowFunction, ArrowFunction } from '../ast/expressions/arrow-function';
 import { createArrowPatameterList, ArrowPatameterList } from '../ast/expressions/arrow-parameter-list';
-import { createSemicolonClassElement, SemicolonClassElement } from '../ast/expressions/semicolon-class-element';
 import { createRegularExpressionLiteral, RegularExpressionLiteral } from '../ast/expressions/regular-expr';
 import { ExpressionStatement, createExpressionStatement } from '../ast/statements/expression-stmt';
 import { createNameSpaceImport, NameSpaceImport } from '../ast/module/namespace-import';
@@ -4501,7 +4500,7 @@ function parseCoverParenthesizedExpressionAndArrowParameterList(
   context = (context | 0b00000000100000000000000010000000) ^ 0b00000000100000000000000010000000;
 
   consume(parser, context | Context.AllowRegExp, SyntaxKind.LeftParen);
-  const innerParenPos = parser.curPos;
+  let innerParenPos = parser.curPos;
   // - `() => x`
   // - `(() => x)`
   // - `return () => x`
@@ -8746,7 +8745,7 @@ function parseTypeAsIdentifierOrTypeAlias(
   const typeToken = consumeToken(parser, context, SyntaxKind.TypeKeyword);
   let nodeFlags = typeToken.flags;
   if (context & Context.OptionsAllowTypes && parser.token & Constants.Identifier) {
-    const expr = parseIdentifier(parser, context, Constants.Identifier, DiagnosticCode.Identifier_expected);
+    let expr = parseIdentifier(parser, context, Constants.Identifier, DiagnosticCode.Identifier_expected);
     const typeParameters = parseTypeParameterDeclaration(parser, context);
     const assignToken = consumeToken(
       parser,
@@ -9992,7 +9991,7 @@ export function parseClassElement(
   staticKeyword: SyntaxToken<TokenSyntaxKind> | null,
   decorators: DecoratorList | null,
   nodeFlags: NodeFlags
-): ClassElement | SemicolonClassElement | FieldDefinition {
+): ClassElement | SyntaxToken<TokenSyntaxKind> | FieldDefinition {
   const pos = parser.curPos;
 
   let generatorToken: SyntaxToken<TokenSyntaxKind> | null = null;
@@ -10000,8 +9999,9 @@ export function parseClassElement(
   let getKeyword: SyntaxToken<TokenSyntaxKind> | null = null;
   let setKeyword: SyntaxToken<TokenSyntaxKind> | null = null;
 
-  if (consumeOpt(parser, context, SyntaxKind.Semicolon)) {
-    return createSemicolonClassElement(pos, parser.curPos);
+  const semiColonToken = consumeOptToken(parser, context, SyntaxKind.Semicolon);
+  if (semiColonToken) {
+    return semiColonToken;
   }
 
   if (!decorators) {
@@ -10136,7 +10136,7 @@ export function parseClassElement(
         staticKeyword,
         nodeFlags,
         pos
-      );
+      ) as any;
     }
 
     if (nodeFlags & (NodeFlags.Async | NodeFlags.Getter | NodeFlags.Setter)) {
@@ -10617,7 +10617,7 @@ export function parseCoverCallExpressionAndAsyncArrowHead(
 
   consume(parser, context | Context.AllowRegExp, SyntaxKind.LeftParen);
 
-  const innerPos = parser.curPos;
+  let innerPos = parser.curPos;
 
   if (consumeOpt(parser, context, SyntaxKind.RightParen)) {
     let isType = false;

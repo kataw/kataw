@@ -81,8 +81,8 @@ class Test {
                             "end": 22
                         },
                         {
-                            "kind": 317,
-                            "flags": 96,
+                            "kind": 1108353041,
+                            "flags": 64,
                             "start": 22,
                             "end": 23
                         },
@@ -121,8 +121,8 @@ class Test {
                             "end": 34
                         },
                         {
-                            "kind": 317,
-                            "flags": 96,
+                            "kind": 1108353041,
+                            "flags": 64,
                             "start": 34,
                             "end": 35
                         },
@@ -155,8 +155,8 @@ class Test {
                             "end": 44
                         },
                         {
-                            "kind": 317,
-                            "flags": 96,
+                            "kind": 1108353041,
+                            "flags": 64,
                             "start": 44,
                             "end": 45
                         },

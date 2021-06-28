@@ -139,8 +139,8 @@ function* foo() {
                                             "end": 93
                                         },
                                         {
-                                            "kind": 317,
-                                            "flags": 96,
+                                            "kind": 1108353041,
+                                            "flags": 64,
                                             "start": 93,
                                             "end": 94
                                         }

@@ -128,8 +128,8 @@ class D extends C<O> {
                             "end": 18
                         },
                         {
-                            "kind": 317,
-                            "flags": 96,
+                            "kind": 1108353041,
+                            "flags": 64,
                             "start": 18,
                             "end": 19
                         }

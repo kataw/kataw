@@ -100,8 +100,8 @@ class x { constructor(){}; "constructor"(){}; }
                             "end": 25
                         },
                         {
-                            "kind": 317,
-                            "flags": 96,
+                            "kind": 1108353041,
+                            "flags": 64,
                             "start": 25,
                             "end": 26
                         },
@@ -157,8 +157,8 @@ class x { constructor(){}; "constructor"(){}; }
                             "end": 44
                         },
                         {
-                            "kind": 317,
-                            "flags": 96,
+                            "kind": 1108353041,
+                            "flags": 64,
                             "start": 44,
                             "end": 45
                         }

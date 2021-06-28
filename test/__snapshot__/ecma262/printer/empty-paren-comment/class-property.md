@@ -208,8 +208,8 @@ class Foo {
                             "end": 72
                         },
                         {
-                            "kind": 317,
-                            "flags": 96,
+                            "kind": 1108353041,
+                            "flags": 64,
                             "start": 72,
                             "end": 73
                         },
@@ -270,8 +270,8 @@ class Foo {
                             "end": 98
                         },
                         {
-                            "kind": 317,
-                            "flags": 96,
+                            "kind": 1108353041,
+                            "flags": 64,
                             "start": 98,
                             "end": 99
                         },
@@ -338,8 +338,8 @@ class Foo {
                             "end": 130
                         },
                         {
-                            "kind": 317,
-                            "flags": 96,
+                            "kind": 1108353041,
+                            "flags": 64,
                             "start": 130,
                             "end": 131
                         },
@@ -408,8 +408,8 @@ class Foo {
                             "end": 167
                         },
                         {
-                            "kind": 317,
-                            "flags": 96,
+                            "kind": 1108353041,
+                            "flags": 64,
                             "start": 167,
                             "end": 168
                         },
@@ -485,8 +485,8 @@ class Foo {
                             "end": 206
                         },
                         {
-                            "kind": 317,
-                            "flags": 96,
+                            "kind": 1108353041,
+                            "flags": 64,
                             "start": 206,
                             "end": 207
                         }
