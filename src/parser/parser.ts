@@ -4501,7 +4501,7 @@ function parseCoverParenthesizedExpressionAndArrowParameterList(
   context = (context | 0b00000000100000000000000010000000) ^ 0b00000000100000000000000010000000;
 
   consume(parser, context | Context.AllowRegExp, SyntaxKind.LeftParen);
-  let innerParenPos = parser.curPos;
+  const innerParenPos = parser.curPos;
   // - `() => x`
   // - `(() => x)`
   // - `return () => x`
@@ -8746,7 +8746,7 @@ function parseTypeAsIdentifierOrTypeAlias(
   const typeToken = consumeToken(parser, context, SyntaxKind.TypeKeyword);
   let nodeFlags = typeToken.flags;
   if (context & Context.OptionsAllowTypes && parser.token & Constants.Identifier) {
-    let expr = parseIdentifier(parser, context, Constants.Identifier, DiagnosticCode.Identifier_expected);
+    const expr = parseIdentifier(parser, context, Constants.Identifier, DiagnosticCode.Identifier_expected);
     const typeParameters = parseTypeParameterDeclaration(parser, context);
     const assignToken = consumeToken(
       parser,
@@ -10617,7 +10617,7 @@ export function parseCoverCallExpressionAndAsyncArrowHead(
 
   consume(parser, context | Context.AllowRegExp, SyntaxKind.LeftParen);
 
-  let innerPos = parser.curPos;
+  const innerPos = parser.curPos;
 
   if (consumeOpt(parser, context, SyntaxKind.RightParen)) {
     let isType = false;
