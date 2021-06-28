@@ -132,13 +132,7 @@ class x extends y {
                                                                         "right": {
                                                                             "kind": 129,
                                                                             "member": {
-                                                                                "kind": 225,
-                                                                                "superKeyword": {
-                                                                                    "kind": 4259935,
-                                                                                    "flags": 96,
-                                                                                    "start": 48,
-                                                                                    "end": 54
-                                                                                },
+                                                                                "kind": 4259935,
                                                                                 "flags": 96,
                                                                                 "start": 48,
                                                                                 "end": 54
@@ -241,7 +235,7 @@ class x extends y {
 
 class x  {
   constructor() {
-    ({ 123: super.cool } = x);
+    ({ 123: .cool } = x);
   }
 }
 ```

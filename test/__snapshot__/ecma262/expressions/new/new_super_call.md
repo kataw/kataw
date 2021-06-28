@@ -106,13 +106,7 @@ class x extends y { constructor() { new super() }}
                                                         "end": 39
                                                     },
                                                     "expression": {
-                                                        "kind": 225,
-                                                        "superKeyword": {
-                                                            "kind": 4259935,
-                                                            "flags": 96,
-                                                            "start": 39,
-                                                            "end": 45
-                                                        },
+                                                        "kind": 4259935,
                                                         "flags": 96,
                                                         "start": 39,
                                                         "end": 45
@@ -179,7 +173,7 @@ class x extends y { constructor() { new super() }}
 
 class x  {
   constructor() {
-    new  super();
+    new  ();
   }
 }
 ```

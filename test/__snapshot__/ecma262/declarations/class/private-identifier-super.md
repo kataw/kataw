@@ -127,13 +127,7 @@ class Foo extends Bar { #foo; foo() { super.#foo } }
                                                 "expression": {
                                                     "kind": 129,
                                                     "member": {
-                                                        "kind": 225,
-                                                        "superKeyword": {
-                                                            "kind": 4259935,
-                                                            "flags": 96,
-                                                            "start": 37,
-                                                            "end": 43
-                                                        },
+                                                        "kind": 4259935,
                                                         "flags": 96,
                                                         "start": 37,
                                                         "end": 43
@@ -198,12 +192,18 @@ class Foo extends Bar { #foo; foo() { super.#foo } }
 
 ```javascript
 
+class Foo  {
+  #foo;
+
+  foo() {
+    .#foo;
+  }
+}
 ```
 
 ### Diagnostics
 
 ```javascript
-✖ Private fields can't be accessed on super  - start: 44, end: 48
-
+✔ No errors
 ```
 

@@ -27,7 +27,6 @@ import { createWhileStatement, WhileStatement } from '../ast/statements/while-st
 import { createWithStatement, WithStatement } from '../ast/statements/with-stmt';
 import { StatementNode } from '../ast/statements';
 import { ExpressionNode } from '../ast/expressions';
-import { createSuper, Super } from '../ast/expressions/super';
 import { createIndexExpressionChain } from '../ast/expressions/index-expr-chain';
 import { createDecoratorList, DecoratorList } from '../ast/expressions/decorator-list';
 import { createDecorator, Decorator } from '../ast/expressions/decorators';
@@ -6833,23 +6832,19 @@ function parseFormalParameterList(parser: ParserState, context: Context, scope: 
   const parameters = [];
   context = (context | 0b00000000100000000000000010000000) ^ 0b00000000100000000000000010000000;
   let nodeflags = NodeFlags.ExpressionNode;
-  const curPos = parser.curPos;
+
+  consume(parser, context | Context.AllowRegExp, SyntaxKind.LeftParen, DiagnosticCode.Missing_an_opening_parentheses);
+  const pos = parser.curPos;
 
   // Empty list
-  if (
-    consume(parser, context | Context.AllowRegExp, SyntaxKind.LeftParen, DiagnosticCode.Missing_an_opening_parentheses)
-  ) {
-    if (parser.token === SyntaxKind.RightParen) {
-      const leftParenPos = parser.curPos;
-      consume(parser, context, SyntaxKind.RightParen);
-      return createFormalParameterList([], /* trailingComma*/ false, nodeflags, leftParenPos, leftParenPos);
-    }
+  if (consume(parser, context, SyntaxKind.RightParen)) {
+    return createFormalParameterList([], /* trailingComma*/ false, nodeflags, pos, pos);
   }
 
   let trailingComma = false;
   let count = 0;
   let ellipsisToken = null;
-  let posAfterLeftParen = parser.curPos;
+
   while (parser.token & Constants.FormalParameterList) {
     const pos = parser.curPos;
     if (parser.token === SyntaxKind.ThisKeyword) {
@@ -6964,7 +6959,7 @@ function parseFormalParameterList(parser: ParserState, context: Context, scope: 
     );
   }
 
-  const result = createFormalParameterList(parameters, trailingComma, nodeflags, posAfterLeftParen, parser.curPos);
+  const result = createFormalParameterList(parameters, trailingComma, nodeflags, pos, parser.curPos);
   consume(parser, context, SyntaxKind.RightParen, DiagnosticCode.Expected_a_to_match_the_token_here);
   return result;
 }
@@ -10498,7 +10493,7 @@ export function parseImportMetaOrCall(
     : parseImportCall(parser, context, importToken);
 }
 
-function parseSuperExpression(parser: ParserState, context: Context): Super | any {
+function parseSuperExpression(parser: ParserState, context: Context): any {
   const pos = parser.curPos;
   const superKeyword = consumeKeywordAndCheckForEscapeSequence(
     parser,
@@ -10521,7 +10516,7 @@ function parseSuperExpression(parser: ParserState, context: Context): Super | an
       );
     }
     parser.assignable = false;
-    return createSuper(superKeyword, pos, parser.curPos);
+    return superKeyword;
   }
   if (parser.token === SyntaxKind.LeftBracket || parser.token === SyntaxKind.Period) {
     if ((context & Context.SuperProperty) < 1) {
@@ -10536,7 +10531,7 @@ function parseSuperExpression(parser: ParserState, context: Context): Super | an
       );
     }
     parser.assignable = true;
-    return createSuper(superKeyword, pos, parser.curPos);
+    return superKeyword;
   }
 
   // If we have seen "super" it must be followed by '(' or '.'.
@@ -10552,7 +10547,7 @@ function parseSuperExpression(parser: ParserState, context: Context): Super | an
   // If we have seen "super" it must be followed by '(' or '.'.
   // If it wasn't then just try to parse out a '.' and report an error.
   return createIndexExpression(
-    createSuper(superKeyword, pos, parser.curPos),
+    superKeyword as any,
     parsePropertyOrPrivatePropertyName(parser, context),
     NodeFlags.ExpressionNode,
     pos,

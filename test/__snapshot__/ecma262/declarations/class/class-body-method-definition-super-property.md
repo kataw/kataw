@@ -89,14 +89,8 @@ class A {
                                                     "expression": {
                                                         "kind": 129,
                                                         "member": {
-                                                            "kind": 225,
-                                                            "superKeyword": {
-                                                                "kind": 4259935,
-                                                                "flags": 97,
-                                                                "start": 27,
-                                                                "end": 37
-                                                            },
-                                                            "flags": 96,
+                                                            "kind": 4259935,
+                                                            "flags": 97,
                                                             "start": 27,
                                                             "end": 37
                                                         },
@@ -108,7 +102,7 @@ class A {
                                                             "start": 38,
                                                             "end": 46
                                                         },
-                                                        "flags": 96,
+                                                        "flags": 97,
                                                         "start": 27,
                                                         "end": 46
                                                     },
@@ -187,14 +181,8 @@ class A {
                                                     "left": {
                                                         "kind": 129,
                                                         "member": {
-                                                            "kind": 225,
-                                                            "superKeyword": {
-                                                                "kind": 4259935,
-                                                                "flags": 97,
-                                                                "start": 70,
-                                                                "end": 80
-                                                            },
-                                                            "flags": 96,
+                                                            "kind": 4259935,
+                                                            "flags": 97,
                                                             "start": 70,
                                                             "end": 80
                                                         },
@@ -206,7 +194,7 @@ class A {
                                                             "start": 81,
                                                             "end": 89
                                                         },
-                                                        "flags": 96,
+                                                        "flags": 97,
                                                         "start": 70,
                                                         "end": 89
                                                     },
@@ -278,10 +266,10 @@ class A {
 
 class A {
   constructor() {
-    super.toString();
+    .toString();
   }
   dontDoThis() {
-    super.makeBugs = 1;
+    .makeBugs = 1;
   }
 }
 ```

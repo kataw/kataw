@@ -80,13 +80,7 @@ x={ foo: function(){ super.foo; }}
                                                     "expression": {
                                                         "kind": 129,
                                                         "member": {
-                                                            "kind": 225,
-                                                            "superKeyword": {
-                                                                "kind": 4259935,
-                                                                "flags": 96,
-                                                                "start": 20,
-                                                                "end": 26
-                                                            },
+                                                            "kind": 4259935,
                                                             "flags": 96,
                                                             "start": 20,
                                                             "end": 26

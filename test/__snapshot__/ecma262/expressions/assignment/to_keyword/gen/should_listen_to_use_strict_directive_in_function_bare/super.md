@@ -76,14 +76,8 @@ function f() {
                                 "left": {
                                     "kind": 129,
                                     "member": {
-                                        "kind": 225,
-                                        "superKeyword": {
-                                            "kind": 4259935,
-                                            "flags": 97,
-                                            "start": 30,
-                                            "end": 38
-                                        },
-                                        "flags": 96,
+                                        "kind": 4259935,
+                                        "flags": 97,
                                         "start": 30,
                                         "end": 38
                                     },

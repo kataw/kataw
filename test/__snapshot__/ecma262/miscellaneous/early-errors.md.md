@@ -2500,13 +2500,7 @@ try {} catch(e) { for(var e of 0); };
                                                     "expression": {
                                                         "kind": 131,
                                                         "expression": {
-                                                            "kind": 225,
-                                                            "superKeyword": {
-                                                                "kind": 4259935,
-                                                                "flags": 96,
-                                                                "start": 3170,
-                                                                "end": 3176
-                                                            },
+                                                            "kind": 4259935,
                                                             "flags": 96,
                                                             "start": 3170,
                                                             "end": 3176
@@ -2638,13 +2632,7 @@ try {} catch(e) { for(var e of 0); };
                                                                                         "expression": {
                                                                                             "kind": 131,
                                                                                             "expression": {
-                                                                                                "kind": 225,
-                                                                                                "superKeyword": {
-                                                                                                    "kind": 4259935,
-                                                                                                    "flags": 96,
-                                                                                                    "start": 3205,
-                                                                                                    "end": 3211
-                                                                                                },
+                                                                                                "kind": 4259935,
                                                                                                 "flags": 96,
                                                                                                 "start": 3205,
                                                                                                 "end": 3211
@@ -2864,13 +2852,7 @@ try {} catch(e) { for(var e of 0); };
                                                                                         "expression": {
                                                                                             "kind": 131,
                                                                                             "expression": {
-                                                                                                "kind": 225,
-                                                                                                "superKeyword": {
-                                                                                                    "kind": 4259935,
-                                                                                                    "flags": 96,
-                                                                                                    "start": 3280,
-                                                                                                    "end": 3286
-                                                                                                },
+                                                                                                "kind": 4259935,
                                                                                                 "flags": 96,
                                                                                                 "start": 3280,
                                                                                                 "end": 3286
@@ -3093,13 +3075,7 @@ try {} catch(e) { for(var e of 0); };
                                                                                         "expression": {
                                                                                             "kind": 131,
                                                                                             "expression": {
-                                                                                                "kind": 225,
-                                                                                                "superKeyword": {
-                                                                                                    "kind": 4259935,
-                                                                                                    "flags": 96,
-                                                                                                    "start": 3352,
-                                                                                                    "end": 3358
-                                                                                                },
+                                                                                                "kind": 4259935,
                                                                                                 "flags": 96,
                                                                                                 "start": 3352,
                                                                                                 "end": 3358
@@ -3322,13 +3298,7 @@ try {} catch(e) { for(var e of 0); };
                                                                                         "expression": {
                                                                                             "kind": 131,
                                                                                             "expression": {
-                                                                                                "kind": 225,
-                                                                                                "superKeyword": {
-                                                                                                    "kind": 4259935,
-                                                                                                    "flags": 96,
-                                                                                                    "start": 3427,
-                                                                                                    "end": 3433
-                                                                                                },
+                                                                                                "kind": 4259935,
                                                                                                 "flags": 96,
                                                                                                 "start": 3427,
                                                                                                 "end": 3433
@@ -3560,13 +3530,7 @@ try {} catch(e) { for(var e of 0); };
                                                                                         "expression": {
                                                                                             "kind": 131,
                                                                                             "expression": {
-                                                                                                "kind": 225,
-                                                                                                "superKeyword": {
-                                                                                                    "kind": 4259935,
-                                                                                                    "flags": 96,
-                                                                                                    "start": 3503,
-                                                                                                    "end": 3509
-                                                                                                },
+                                                                                                "kind": 4259935,
                                                                                                 "flags": 96,
                                                                                                 "start": 3503,
                                                                                                 "end": 3509

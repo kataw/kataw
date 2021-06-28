@@ -147,13 +147,7 @@ class C { *method() { var f = function*() { super(); } } }
                                                                                 "expression": {
                                                                                     "kind": 131,
                                                                                     "expression": {
-                                                                                        "kind": 225,
-                                                                                        "superKeyword": {
-                                                                                            "kind": 4259935,
-                                                                                            "flags": 96,
-                                                                                            "start": 43,
-                                                                                            "end": 49
-                                                                                        },
+                                                                                        "kind": 4259935,
                                                                                         "flags": 96,
                                                                                         "start": 43,
                                                                                         "end": 49

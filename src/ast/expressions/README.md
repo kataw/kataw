@@ -535,16 +535,6 @@ interface SpreadProperty <: ExpressionNode {
 See `12.2.6 Object Initializer`. The `SpreadProperty` AST node is not mentioned in the specs, but has been
 added to represent the `...AssignmentExpression` production.
 
-
-### Super
-
-```js
-interface Super <: ExpressionNode {
-  kind: NodeKind.Super;
-  superKeyword: SyntaxToken<TokenSyntaxKind>;
-}
-```
-
 ### TaggedTemplate
 
 ```js

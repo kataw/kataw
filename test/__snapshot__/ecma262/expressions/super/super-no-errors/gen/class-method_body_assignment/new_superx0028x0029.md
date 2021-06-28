@@ -110,13 +110,7 @@ class C { m() { k = new super(); } }
                                                             "end": 23
                                                         },
                                                         "expression": {
-                                                            "kind": 225,
-                                                            "superKeyword": {
-                                                                "kind": 4259935,
-                                                                "flags": 96,
-                                                                "start": 23,
-                                                                "end": 29
-                                                            },
+                                                            "kind": 4259935,
                                                             "flags": 96,
                                                             "start": 23,
                                                             "end": 29

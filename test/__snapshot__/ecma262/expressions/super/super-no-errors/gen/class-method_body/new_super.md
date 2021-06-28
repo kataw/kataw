@@ -96,13 +96,7 @@ class C { m() { new super; }
                                                     "expression": {
                                                         "kind": 129,
                                                         "member": {
-                                                            "kind": 225,
-                                                            "superKeyword": {
-                                                                "kind": 4259935,
-                                                                "flags": 96,
-                                                                "start": 19,
-                                                                "end": 25
-                                                            },
+                                                            "kind": 4259935,
                                                             "flags": 96,
                                                             "start": 19,
                                                             "end": 25

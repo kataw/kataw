@@ -113,13 +113,7 @@ class x extends y { constructor() { log(super.foo); super.mom; } }
                                                             {
                                                                 "kind": 129,
                                                                 "member": {
-                                                                    "kind": 225,
-                                                                    "superKeyword": {
-                                                                        "kind": 4259935,
-                                                                        "flags": 96,
-                                                                        "start": 40,
-                                                                        "end": 45
-                                                                    },
+                                                                    "kind": 4259935,
                                                                     "flags": 96,
                                                                     "start": 40,
                                                                     "end": 45
@@ -155,13 +149,7 @@ class x extends y { constructor() { log(super.foo); super.mom; } }
                                                 "expression": {
                                                     "kind": 129,
                                                     "member": {
-                                                        "kind": 225,
-                                                        "superKeyword": {
-                                                            "kind": 4259935,
-                                                            "flags": 96,
-                                                            "start": 51,
-                                                            "end": 57
-                                                        },
+                                                        "kind": 4259935,
                                                         "flags": 96,
                                                         "start": 51,
                                                         "end": 57
@@ -228,8 +216,8 @@ class x extends y { constructor() { log(super.foo); super.mom; } }
 
 class x  {
   constructor() {
-    log(super.foo);
-    super.mom;
+    log(.foo);
+    .mom;
   }
 }
 ```

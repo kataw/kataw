@@ -79,13 +79,7 @@ class x { foo(x=super.foo){ }}
                                             "right": {
                                                 "kind": 129,
                                                 "member": {
-                                                    "kind": 225,
-                                                    "superKeyword": {
-                                                        "kind": 4259935,
-                                                        "flags": 96,
-                                                        "start": 16,
-                                                        "end": 21
-                                                    },
+                                                    "kind": 4259935,
                                                     "flags": 96,
                                                     "start": 16,
                                                     "end": 21

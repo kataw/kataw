@@ -143,13 +143,7 @@ var x, y, z; for (x of x = [super = 1] = z = {});
                                     "left": {
                                         "kind": 129,
                                         "member": {
-                                            "kind": 225,
-                                            "superKeyword": {
-                                                "kind": 4259935,
-                                                "flags": 96,
-                                                "start": 28,
-                                                "end": 33
-                                            },
+                                            "kind": 4259935,
                                             "flags": 96,
                                             "start": 28,
                                             "end": 33

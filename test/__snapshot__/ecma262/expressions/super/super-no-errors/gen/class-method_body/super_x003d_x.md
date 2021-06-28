@@ -90,13 +90,7 @@ class C { m() { super = x; }
                                                     "left": {
                                                         "kind": 129,
                                                         "member": {
-                                                            "kind": 225,
-                                                            "superKeyword": {
-                                                                "kind": 4259935,
-                                                                "flags": 96,
-                                                                "start": 15,
-                                                                "end": 21
-                                                            },
+                                                            "kind": 4259935,
                                                             "flags": 96,
                                                             "start": 15,
                                                             "end": 21

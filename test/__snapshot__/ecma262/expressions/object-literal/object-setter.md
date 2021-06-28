@@ -276,13 +276,7 @@
                                                         "expression": {
                                                             "kind": 129,
                                                             "member": {
-                                                                "kind": 225,
-                                                                "superKeyword": {
-                                                                    "kind": 4259935,
-                                                                    "flags": 96,
-                                                                    "start": 54,
-                                                                    "end": 60
-                                                                },
+                                                                "kind": 4259935,
                                                                 "flags": 96,
                                                                 "start": 54,
                                                                 "end": 60
@@ -435,13 +429,7 @@
                                                         "expression": {
                                                             "kind": 129,
                                                             "member": {
-                                                                "kind": 225,
-                                                                "superKeyword": {
-                                                                    "kind": 4259935,
-                                                                    "flags": 96,
-                                                                    "start": 91,
-                                                                    "end": 97
-                                                                },
+                                                                "kind": 4259935,
                                                                 "flags": 96,
                                                                 "start": 91,
                                                                 "end": 97
@@ -543,10 +531,10 @@
 ({ set ["\"a\""]() {} });
 ({ set [0]() {} });
 ({ set [0]() {
-    super.m("\"b\"", v);
+    .m("\"b\"", v);
   } });
 ({ set [0]() {
-    super.m("\"1\"", v);
+    .m("\"1\"", v);
   } });
 ```
 

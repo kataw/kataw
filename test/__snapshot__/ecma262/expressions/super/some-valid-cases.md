@@ -297,13 +297,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
                                                 "expression": {
                                                     "kind": 131,
                                                     "expression": {
-                                                        "kind": 225,
-                                                        "superKeyword": {
-                                                            "kind": 4259935,
-                                                            "flags": 96,
-                                                            "start": 87,
-                                                            "end": 93
-                                                        },
+                                                        "kind": 4259935,
                                                         "flags": 96,
                                                         "start": 87,
                                                         "end": 93
@@ -419,13 +413,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
                                                 "expression": {
                                                     "kind": 129,
                                                     "member": {
-                                                        "kind": 225,
-                                                        "superKeyword": {
-                                                            "kind": 4259935,
-                                                            "flags": 96,
-                                                            "start": 126,
-                                                            "end": 132
-                                                        },
+                                                        "kind": 4259935,
                                                         "flags": 96,
                                                         "start": 126,
                                                         "end": 132
@@ -541,13 +529,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
                                                 "expression": {
                                                     "kind": 129,
                                                     "member": {
-                                                        "kind": 225,
-                                                        "superKeyword": {
-                                                            "kind": 4259935,
-                                                            "flags": 96,
-                                                            "start": 158,
-                                                            "end": 164
-                                                        },
+                                                        "kind": 4259935,
                                                         "flags": 96,
                                                         "start": 158,
                                                         "end": 164
@@ -662,13 +644,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
                                             "right": {
                                                 "kind": 129,
                                                 "member": {
-                                                    "kind": 225,
-                                                    "superKeyword": {
-                                                        "kind": 4259935,
-                                                        "flags": 96,
-                                                        "start": 190,
-                                                        "end": 195
-                                                    },
+                                                    "kind": 4259935,
                                                     "flags": 96,
                                                     "start": 190,
                                                     "end": 195
@@ -790,13 +766,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
                                                 "right": {
                                                     "kind": 129,
                                                     "member": {
-                                                        "kind": 225,
-                                                        "superKeyword": {
-                                                            "kind": 4259935,
-                                                            "flags": 96,
-                                                            "start": 217,
-                                                            "end": 223
-                                                        },
+                                                        "kind": 4259935,
                                                         "flags": 96,
                                                         "start": 217,
                                                         "end": 223
@@ -929,13 +899,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
                                                 "expression": {
                                                     "kind": 130,
                                                     "member": {
-                                                        "kind": 225,
-                                                        "superKeyword": {
-                                                            "kind": 4259935,
-                                                            "flags": 96,
-                                                            "start": 258,
-                                                            "end": 264
-                                                        },
+                                                        "kind": 4259935,
                                                         "flags": 96,
                                                         "start": 258,
                                                         "end": 264
@@ -1051,13 +1015,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
                                                 "expression": {
                                                     "kind": 130,
                                                     "member": {
-                                                        "kind": 225,
-                                                        "superKeyword": {
-                                                            "kind": 4259935,
-                                                            "flags": 96,
-                                                            "start": 291,
-                                                            "end": 297
-                                                        },
+                                                        "kind": 4259935,
                                                         "flags": 96,
                                                         "start": 291,
                                                         "end": 297
@@ -1172,13 +1130,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
                                             "right": {
                                                 "kind": 130,
                                                 "member": {
-                                                    "kind": 225,
-                                                    "superKeyword": {
-                                                        "kind": 4259935,
-                                                        "flags": 96,
-                                                        "start": 324,
-                                                        "end": 329
-                                                    },
+                                                    "kind": 4259935,
                                                     "flags": 96,
                                                     "start": 324,
                                                     "end": 329
@@ -1301,13 +1253,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
                                                     "expression": {
                                                         "kind": 130,
                                                         "member": {
-                                                            "kind": 225,
-                                                            "superKeyword": {
-                                                                "kind": 4259935,
-                                                                "flags": 96,
-                                                                "start": 351,
-                                                                "end": 357
-                                                            },
+                                                            "kind": 4259935,
                                                             "flags": 96,
                                                             "start": 351,
                                                             "end": 357
@@ -1422,13 +1368,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
                                                 "right": {
                                                     "kind": 130,
                                                     "member": {
-                                                        "kind": 225,
-                                                        "superKeyword": {
-                                                            "kind": 4259935,
-                                                            "flags": 96,
-                                                            "start": 379,
-                                                            "end": 385
-                                                        },
+                                                        "kind": 4259935,
                                                         "flags": 96,
                                                         "start": 379,
                                                         "end": 385
@@ -1607,13 +1547,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
                                                                 "right": {
                                                                     "kind": 131,
                                                                     "expression": {
-                                                                        "kind": 225,
-                                                                        "superKeyword": {
-                                                                            "kind": 4259935,
-                                                                            "flags": 96,
-                                                                            "start": 442,
-                                                                            "end": 447
-                                                                        },
+                                                                        "kind": 4259935,
                                                                         "flags": 96,
                                                                         "start": 442,
                                                                         "end": 447
@@ -1803,13 +1737,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
                                                     "contents": {
                                                         "kind": 130,
                                                         "member": {
-                                                            "kind": 225,
-                                                            "superKeyword": {
-                                                                "kind": 4259935,
-                                                                "flags": 96,
-                                                                "start": 508,
-                                                                "end": 514
-                                                            },
+                                                            "kind": 4259935,
                                                             "flags": 96,
                                                             "start": 508,
                                                             "end": 514
@@ -1954,13 +1882,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
                                                     "contents": {
                                                         "kind": 129,
                                                         "member": {
-                                                            "kind": 225,
-                                                            "superKeyword": {
-                                                                "kind": 4259935,
-                                                                "flags": 96,
-                                                                "start": 553,
-                                                                "end": 559
-                                                            },
+                                                            "kind": 4259935,
                                                             "flags": 96,
                                                             "start": 553,
                                                             "end": 559
@@ -2106,13 +2028,7 @@ class x { dsda(){ return (a=super.foo) => a; }}
                                                                 "right": {
                                                                     "kind": 129,
                                                                     "member": {
-                                                                        "kind": 225,
-                                                                        "superKeyword": {
-                                                                            "kind": 4259935,
-                                                                            "flags": 96,
-                                                                            "start": 597,
-                                                                            "end": 602
-                                                                        },
+                                                                        "kind": 4259935,
                                                                         "flags": 96,
                                                                         "start": 597,
                                                                         "end": 602

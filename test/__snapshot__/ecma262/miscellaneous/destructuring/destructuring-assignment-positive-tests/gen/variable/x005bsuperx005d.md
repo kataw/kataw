@@ -106,13 +106,7 @@ var x, y, z; ([super] = {});
                                 {
                                     "kind": 129,
                                     "member": {
-                                        "kind": 225,
-                                        "superKeyword": {
-                                            "kind": 4259935,
-                                            "flags": 96,
-                                            "start": 15,
-                                            "end": 20
-                                        },
+                                        "kind": 4259935,
                                         "flags": 96,
                                         "start": 15,
                                         "end": 20

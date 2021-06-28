@@ -100,13 +100,7 @@ class x extends y { constructor() { super(this); } }
                                                 "expression": {
                                                     "kind": 131,
                                                     "expression": {
-                                                        "kind": 225,
-                                                        "superKeyword": {
-                                                            "kind": 4259935,
-                                                            "flags": 96,
-                                                            "start": 35,
-                                                            "end": 41
-                                                        },
+                                                        "kind": 4259935,
                                                         "flags": 96,
                                                         "start": 35,
                                                         "end": 41
@@ -180,7 +174,7 @@ class x extends y { constructor() { super(this); } }
 
 class x  {
   constructor() {
-    super(this);
+    (this);
   }
 }
 ```

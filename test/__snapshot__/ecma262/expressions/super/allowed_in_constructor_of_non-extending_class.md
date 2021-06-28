@@ -80,13 +80,7 @@ class x { constructor(){ super.foo; }}
                                                 "expression": {
                                                     "kind": 129,
                                                     "member": {
-                                                        "kind": 225,
-                                                        "superKeyword": {
-                                                            "kind": 4259935,
-                                                            "flags": 96,
-                                                            "start": 24,
-                                                            "end": 30
-                                                        },
+                                                        "kind": 4259935,
                                                         "flags": 96,
                                                         "start": 24,
                                                         "end": 30
@@ -153,7 +147,7 @@ class x { constructor(){ super.foo; }}
 
 class x {
   constructor() {
-    super.foo;
+    .foo;
   }
 }
 ```

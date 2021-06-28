@@ -163,13 +163,7 @@ class x extends y { constructor() { let xx = x + x; super.mom; } }
                                                 "expression": {
                                                     "kind": 129,
                                                     "member": {
-                                                        "kind": 225,
-                                                        "superKeyword": {
-                                                            "kind": 4259935,
-                                                            "flags": 96,
-                                                            "start": 51,
-                                                            "end": 57
-                                                        },
+                                                        "kind": 4259935,
                                                         "flags": 96,
                                                         "start": 51,
                                                         "end": 57
@@ -237,7 +231,7 @@ class x extends y { constructor() { let xx = x + x; super.mom; } }
 class x  {
   constructor() {
     let xx = x + x;
-    super.mom;
+    .mom;
   }
 }
 ```

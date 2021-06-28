@@ -236,13 +236,7 @@ class B extends A {
                                                 "expression": {
                                                     "kind": 131,
                                                     "expression": {
-                                                        "kind": 225,
-                                                        "superKeyword": {
-                                                            "kind": 4259935,
-                                                            "flags": 96,
-                                                            "start": 78,
-                                                            "end": 84
-                                                        },
+                                                        "kind": 4259935,
                                                         "flags": 96,
                                                         "start": 78,
                                                         "end": 84
@@ -451,7 +445,7 @@ class A {
 }
 class B  {
   constructor() {
-    super({ test: () =>  this.someMethod() });
+    ({ test: () =>  this.someMethod() });
   }
   someMethod() {}
 }

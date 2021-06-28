@@ -94,13 +94,7 @@ class C { constructor() { new super(); } }
                                                         "end": 29
                                                     },
                                                     "expression": {
-                                                        "kind": 225,
-                                                        "superKeyword": {
-                                                            "kind": 4259935,
-                                                            "flags": 96,
-                                                            "start": 29,
-                                                            "end": 35
-                                                        },
+                                                        "kind": 4259935,
                                                         "flags": 96,
                                                         "start": 29,
                                                         "end": 35

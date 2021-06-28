@@ -112,14 +112,8 @@ class Foo extends Base {
                                                     "member": {
                                                         "kind": 129,
                                                         "member": {
-                                                            "kind": 225,
-                                                            "superKeyword": {
-                                                                "kind": 4259935,
-                                                                "flags": 97,
-                                                                "start": 39,
-                                                                "end": 51
-                                                            },
-                                                            "flags": 96,
+                                                            "kind": 4259935,
+                                                            "flags": 97,
                                                             "start": 39,
                                                             "end": 51
                                                         },
@@ -131,7 +125,7 @@ class Foo extends Base {
                                                             "start": 52,
                                                             "end": 58
                                                         },
-                                                        "flags": 96,
+                                                        "flags": 97,
                                                         "start": 39,
                                                         "end": 58
                                                     },
@@ -211,7 +205,7 @@ class Foo extends Base {
 
 class Foo  {
   method() {
-    super.method?.();
+    .method?.();
   }
 }
 ```

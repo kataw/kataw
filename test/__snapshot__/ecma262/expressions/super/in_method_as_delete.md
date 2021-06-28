@@ -83,13 +83,7 @@ x = { foo(){ delete super[foo]; }}
                                                         "operand": {
                                                             "kind": 130,
                                                             "member": {
-                                                                "kind": 225,
-                                                                "superKeyword": {
-                                                                    "kind": 4259935,
-                                                                    "flags": 96,
-                                                                    "start": 19,
-                                                                    "end": 25
-                                                                },
+                                                                "kind": 4259935,
                                                                 "flags": 96,
                                                                 "start": 19,
                                                                 "end": 25
@@ -164,7 +158,7 @@ x = { foo(){ delete super[foo]; }}
 ```javascript
 
 x = { foo() {
-    delete super[foo];
+    delete [foo];
   } };
 ```
 

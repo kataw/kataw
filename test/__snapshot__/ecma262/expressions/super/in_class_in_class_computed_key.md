@@ -162,13 +162,7 @@ class A extends B {
                                                                         "expression": {
                                                                             "kind": 130,
                                                                             "member": {
-                                                                                "kind": 225,
-                                                                                "superKeyword": {
-                                                                                    "kind": 4259935,
-                                                                                    "flags": 96,
-                                                                                    "start": 59,
-                                                                                    "end": 64
-                                                                                },
+                                                                                "kind": 4259935,
                                                                                 "flags": 96,
                                                                                 "start": 59,
                                                                                 "end": 64
@@ -281,7 +275,7 @@ class A extends B {
 class A  {
   x() {
     class C  {
-      [super[foo]]() {}
+      [[foo]]() {}
     }
   }
 }

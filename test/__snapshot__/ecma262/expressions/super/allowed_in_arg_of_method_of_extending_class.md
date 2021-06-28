@@ -126,13 +126,7 @@ class x extends y { dsda(){ return (a=super[bar]) => a; }}
                                                                 "right": {
                                                                     "kind": 130,
                                                                     "member": {
-                                                                        "kind": 225,
-                                                                        "superKeyword": {
-                                                                            "kind": 4259935,
-                                                                            "flags": 96,
-                                                                            "start": 38,
-                                                                            "end": 43
-                                                                        },
+                                                                        "kind": 4259935,
                                                                         "flags": 96,
                                                                         "start": 38,
                                                                         "end": 43

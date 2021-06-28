@@ -55,13 +55,7 @@ async (x = (super) = f) => {}
                                 "expression": {
                                     "kind": 129,
                                     "member": {
-                                        "kind": 225,
-                                        "superKeyword": {
-                                            "kind": 4259935,
-                                            "flags": 96,
-                                            "start": 12,
-                                            "end": 17
-                                        },
+                                        "kind": 4259935,
                                         "flags": 96,
                                         "start": 12,
                                         "end": 17

@@ -89,13 +89,7 @@
                                                             "end": 17
                                                         },
                                                         "expression": {
-                                                            "kind": 225,
-                                                            "superKeyword": {
-                                                                "kind": 4259935,
-                                                                "flags": 96,
-                                                                "start": 17,
-                                                                "end": 23
-                                                            },
+                                                            "kind": 4259935,
                                                             "flags": 96,
                                                             "start": 17,
                                                             "end": 23

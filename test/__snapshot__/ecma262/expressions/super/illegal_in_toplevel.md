@@ -20,13 +20,7 @@ super.foo;
             "expression": {
                 "kind": 129,
                 "member": {
-                    "kind": 225,
-                    "superKeyword": {
-                        "kind": 4259935,
-                        "flags": 96,
-                        "start": 0,
-                        "end": 5
-                    },
+                    "kind": 4259935,
                     "flags": 96,
                     "start": 0,
                     "end": 5

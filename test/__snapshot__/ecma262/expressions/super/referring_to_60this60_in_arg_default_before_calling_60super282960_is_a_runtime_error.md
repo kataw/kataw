@@ -124,13 +124,7 @@ class x extends y { constructor(x = this) { super[dad]; } }
                                                 "expression": {
                                                     "kind": 130,
                                                     "member": {
-                                                        "kind": 225,
-                                                        "superKeyword": {
-                                                            "kind": 4259935,
-                                                            "flags": 96,
-                                                            "start": 43,
-                                                            "end": 49
-                                                        },
+                                                        "kind": 4259935,
                                                         "flags": 96,
                                                         "start": 43,
                                                         "end": 49
@@ -197,7 +191,7 @@ class x extends y { constructor(x = this) { super[dad]; } }
 
 class x  {
   constructor() {
-    super[dad];
+    [dad];
   }
 }
 ```

@@ -1355,14 +1355,8 @@ this.subscriptions.add(
                                                     "expression": {
                                                         "kind": 129,
                                                         "member": {
-                                                            "kind": 225,
-                                                            "superKeyword": {
-                                                                "kind": 4259935,
-                                                                "flags": 97,
-                                                                "start": 511,
-                                                                "end": 521
-                                                            },
-                                                            "flags": 96,
+                                                            "kind": 4259935,
+                                                            "flags": 97,
                                                             "start": 511,
                                                             "end": 521
                                                         },
@@ -1374,7 +1368,7 @@ this.subscriptions.add(
                                                             "start": 522,
                                                             "end": 529
                                                         },
-                                                        "flags": 96,
+                                                        "flags": 97,
                                                         "start": 511,
                                                         "end": 529
                                                     },
@@ -1756,7 +1750,7 @@ this.a.b.c.compose(sortBy(x =>  x), flatten);
 someObj.someMethod(this.field.compose(a, b));
 class A  {
   compose() {
-    super.compose(sortBy(x =>  x), flatten);
+    .compose(sortBy(x =>  x), flatten);
   }
 }
 this.subscriptions.add(

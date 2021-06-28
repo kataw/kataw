@@ -27,7 +27,6 @@ export { createSwitchStatement } from './ast/statements/switch-stmt';
 export { createThrowStatement } from './ast/statements/throw-stmt';
 export { createWhileStatement } from './ast/statements/while-stmt';
 export { createWithStatement } from './ast/statements/with-stmt';
-export { createSuper } from './ast/expressions/super';
 export { createIndexExpressionChain } from './ast/expressions/index-expr-chain';
 export { createDecoratorList } from './ast/expressions/decorator-list';
 export { createDecorator } from './ast/expressions/decorators';

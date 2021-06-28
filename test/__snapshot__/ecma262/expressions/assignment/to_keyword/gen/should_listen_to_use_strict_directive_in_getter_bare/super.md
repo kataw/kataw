@@ -104,14 +104,8 @@ foo = {
                                                         "left": {
                                                             "kind": 129,
                                                             "member": {
-                                                                "kind": 225,
-                                                                "superKeyword": {
-                                                                    "kind": 4259935,
-                                                                    "flags": 97,
-                                                                    "start": 36,
-                                                                    "end": 46
-                                                                },
-                                                                "flags": 96,
+                                                                "kind": 4259935,
+                                                                "flags": 97,
                                                                 "start": 36,
                                                                 "end": 46
                                                             },

@@ -139,14 +139,8 @@ class C extends function() {} { constructor() { sup\u0065r() } }
                                                 "expression": {
                                                     "kind": 131,
                                                     "expression": {
-                                                        "kind": 225,
-                                                        "superKeyword": {
-                                                            "kind": 4259935,
-                                                            "flags": 16480,
-                                                            "start": 47,
-                                                            "end": 58
-                                                        },
-                                                        "flags": 96,
+                                                        "kind": 4259935,
+                                                        "flags": 16480,
                                                         "start": 47,
                                                         "end": 58
                                                     },

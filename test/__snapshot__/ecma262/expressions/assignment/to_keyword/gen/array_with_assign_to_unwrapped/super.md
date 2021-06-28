@@ -54,13 +54,7 @@ async x => super = 1
                     "left": {
                         "kind": 129,
                         "member": {
-                            "kind": 225,
-                            "superKeyword": {
-                                "kind": 4259935,
-                                "flags": 96,
-                                "start": 10,
-                                "end": 16
-                            },
+                            "kind": 4259935,
                             "flags": 96,
                             "start": 10,
                             "end": 16

@@ -155,13 +155,7 @@ class a { constructor(){   class x extends y { [super()](){} }    }}
                                                                         "expression": {
                                                                             "kind": 131,
                                                                             "expression": {
-                                                                                "kind": 225,
-                                                                                "superKeyword": {
-                                                                                    "kind": 4259935,
-                                                                                    "flags": 96,
-                                                                                    "start": 48,
-                                                                                    "end": 53
-                                                                                },
+                                                                                "kind": 4259935,
                                                                                 "flags": 96,
                                                                                 "start": 48,
                                                                                 "end": 53

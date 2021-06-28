@@ -217,13 +217,7 @@ class C { constructor() { class C { get x) { super; } } } }
                         "expression": {
                             "kind": 129,
                             "member": {
-                                "kind": 225,
-                                "superKeyword": {
-                                    "kind": 4259935,
-                                    "flags": 96,
-                                    "start": 44,
-                                    "end": 50
-                                },
+                                "kind": 4259935,
                                 "flags": 96,
                                 "start": 44,
                                 "end": 50

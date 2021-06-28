@@ -28,13 +28,7 @@ delete super[foo]
                 "operand": {
                     "kind": 130,
                     "member": {
-                        "kind": 225,
-                        "superKeyword": {
-                            "kind": 4259935,
-                            "flags": 96,
-                            "start": 6,
-                            "end": 12
-                        },
+                        "kind": 4259935,
                         "flags": 96,
                         "start": 6,
                         "end": 12

@@ -151,13 +151,7 @@
                                     "left": {
                                         "kind": 129,
                                         "member": {
-                                            "kind": 225,
-                                            "superKeyword": {
-                                                "kind": 4259935,
-                                                "flags": 96,
-                                                "start": 42,
-                                                "end": 47
-                                            },
+                                            "kind": 4259935,
                                             "flags": 96,
                                             "start": 42,
                                             "end": 47

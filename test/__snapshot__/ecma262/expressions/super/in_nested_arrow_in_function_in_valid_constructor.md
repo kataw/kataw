@@ -159,13 +159,7 @@ class x extends y { constructor(){ return function() { return () => super.foo; }
                                                                         "contents": {
                                                                             "kind": 129,
                                                                             "member": {
-                                                                                "kind": 225,
-                                                                                "superKeyword": {
-                                                                                    "kind": 4259935,
-                                                                                    "flags": 96,
-                                                                                    "start": 67,
-                                                                                    "end": 73
-                                                                                },
+                                                                                "kind": 4259935,
                                                                                 "flags": 96,
                                                                                 "start": 67,
                                                                                 "end": 73

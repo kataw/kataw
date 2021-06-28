@@ -3158,13 +3158,7 @@ a = { y: x = 1 } = b;
                                                         "expression": {
                                                             "kind": 129,
                                                             "member": {
-                                                                "kind": 225,
-                                                                "superKeyword": {
-                                                                    "kind": 4259935,
-                                                                    "flags": 96,
-                                                                    "start": 724,
-                                                                    "end": 730
-                                                                },
+                                                                "kind": 4259935,
                                                                 "flags": 96,
                                                                 "start": 724,
                                                                 "end": 730
@@ -4565,7 +4559,7 @@ x({ get 1() {} });
 ({ topLeft: { x: x1, y: y1 }, bottomRight: { x: x2, y: y2 } } = rect);
 ({ y });
 ({ set [0]() {
-    super.m("\"1\"", v);
+    .m("\"1\"", v);
   } });
 x = { async: b }({ set foo() {} });
 ({ * set() {} });
