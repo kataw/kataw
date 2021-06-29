@@ -55,121 +55,118 @@ let f4 = () => doThing(a, /* ... */ b);
                         },
                         "type": null,
                         "initializer": {
-                            "kind": 131,
-                            "expression": {
-                                "kind": 131,
-                                "expression": {
-                                    "kind": 271,
-                                    "asyncKeyword": null,
-                                    "typeParameters": null,
-                                    "arrowPatameterList": {
-                                        "kind": 342,
-                                        "parameters": [],
-                                        "trailingComma": false,
-                                        "flags": 0,
-                                        "start": 10,
-                                        "end": 10
-                                    },
-                                    "returnType": null,
-                                    "arrowToken": {
-                                        "kind": 10,
-                                        "flags": 64,
-                                        "start": 20,
-                                        "end": 23
-                                    },
-                                    "contents": {
-                                        "kind": 216,
-                                        "functionStatementList": {
-                                            "kind": 217,
-                                            "directives": [],
-                                            "statements": [],
-                                            "flags": 32,
-                                            "start": 25,
-                                            "end": 25
-                                        },
-                                        "flags": 32,
-                                        "start": 23,
-                                        "end": 26
-                                    },
-                                    "flags": 32,
-                                    "start": 8,
-                                    "end": 26
-                                },
-                                "argumentList": {
-                                    "kind": 256,
-                                    "elements": [
-                                        {
-                                            "kind": 177,
-                                            "asyncKeyword": null,
-                                            "functionKeyword": {
-                                                "kind": 37822554,
-                                                "flags": 64,
-                                                "start": 28,
-                                                "end": 36
-                                            },
-                                            "asteriskToken": null,
-                                            "name": null,
-                                            "typeParameters": null,
-                                            "formalParameterList": {
-                                                "kind": 214,
-                                                "formalParameters": [],
-                                                "trailingComma": false,
-                                                "flags": 32,
-                                                "start": 38,
-                                                "end": 38
-                                            },
-                                            "contents": {
-                                                "kind": 216,
-                                                "functionStatementList": {
-                                                    "kind": 217,
-                                                    "directives": [],
-                                                    "statements": [],
-                                                    "flags": 32,
-                                                    "start": 50,
-                                                    "end": 50
-                                                },
-                                                "flags": 32,
-                                                "start": 48,
-                                                "end": 51
-                                            },
-                                            "returnType": null,
-                                            "flags": 32,
-                                            "start": 28,
-                                            "end": 51
-                                        }
-                                    ],
-                                    "trailingComma": false,
-                                    "flags": 32,
-                                    "start": 28,
-                                    "end": 51
-                                },
-                                "flags": 268435489,
-                                "start": 8,
-                                "end": 52
-                            },
-                            "argumentList": {
-                                "kind": 256,
-                                "elements": [],
+                            "kind": 271,
+                            "asyncKeyword": null,
+                            "typeParameters": null,
+                            "arrowPatameterList": {
+                                "kind": 342,
+                                "parameters": [],
                                 "trailingComma": false,
-                                "flags": 32,
-                                "start": 53,
-                                "end": 53
+                                "flags": 0,
+                                "start": 10,
+                                "end": 10
                             },
-                            "flags": 268435488,
+                            "returnType": null,
+                            "arrowToken": {
+                                "kind": 10,
+                                "flags": 64,
+                                "start": 20,
+                                "end": 23
+                            },
+                            "contents": {
+                                "kind": 216,
+                                "functionStatementList": {
+                                    "kind": 217,
+                                    "directives": [],
+                                    "statements": [],
+                                    "flags": 32,
+                                    "start": 25,
+                                    "end": 25
+                                },
+                                "flags": 32,
+                                "start": 23,
+                                "end": 26
+                            },
+                            "flags": 32,
                             "start": 8,
-                            "end": 63
+                            "end": 26
                         },
                         "flags": 16,
                         "start": 3,
-                        "end": 63
+                        "end": 26
                     }
                 ],
                 "flags": 16,
                 "start": 3,
-                "end": 63
+                "end": 26
             },
             "flags": 33554448,
             "start": 0,
+            "end": 26
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 131,
+                "expression": {
+                    "kind": 121,
+                    "expression": {
+                        "kind": 177,
+                        "asyncKeyword": null,
+                        "functionKeyword": {
+                            "kind": 37822554,
+                            "flags": 64,
+                            "start": 28,
+                            "end": 36
+                        },
+                        "asteriskToken": null,
+                        "name": null,
+                        "typeParameters": null,
+                        "formalParameterList": {
+                            "kind": 214,
+                            "formalParameters": [],
+                            "trailingComma": false,
+                            "flags": 32,
+                            "start": 38,
+                            "end": 38
+                        },
+                        "contents": {
+                            "kind": 216,
+                            "functionStatementList": {
+                                "kind": 217,
+                                "directives": [],
+                                "statements": [],
+                                "flags": 32,
+                                "start": 50,
+                                "end": 50
+                            },
+                            "flags": 32,
+                            "start": 48,
+                            "end": 51
+                        },
+                        "returnType": null,
+                        "flags": 32,
+                        "start": 28,
+                        "end": 51
+                    },
+                    "flags": 32,
+                    "start": 26,
+                    "end": 52
+                },
+                "argumentList": {
+                    "kind": 256,
+                    "elements": [],
+                    "trailingComma": false,
+                    "flags": 32,
+                    "start": 53,
+                    "end": 53
+                },
+                "flags": 268435488,
+                "start": 26,
+                "end": 63
+            },
+            "flags": 16,
+            "start": 26,
             "end": 63
         },
         {
@@ -828,7 +825,8 @@ let f4 = () => doThing(a, /* ... */ b);
 
 ```javascript
 
-let f1 = () =>  {}(function () {})();
+let f1 = () =>  {};
+(function () {})();
 function f2() {}
 const obj = { f() {}, f: () =>  {}, f: function () {}, f: function f() {} };
 f();

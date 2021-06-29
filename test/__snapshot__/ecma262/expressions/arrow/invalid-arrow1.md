@@ -1629,71 +1629,68 @@ y = (x => {}(0));
                     "end": 365
                 },
                 "right": {
-                    "kind": 131,
-                    "expression": {
-                        "kind": 271,
-                        "asyncKeyword": null,
-                        "typeParameters": null,
-                        "arrowPatameterList": {
-                            "kind": 342,
-                            "parameters": [],
-                            "trailingComma": false,
-                            "flags": 0,
-                            "start": 367,
-                            "end": 367
-                        },
-                        "returnType": null,
-                        "arrowToken": {
-                            "kind": 10,
-                            "flags": 64,
-                            "start": 368,
-                            "end": 371
-                        },
-                        "contents": {
-                            "kind": 216,
-                            "functionStatementList": {
-                                "kind": 217,
-                                "directives": [],
-                                "statements": [],
-                                "flags": 32,
-                                "start": 373,
-                                "end": 373
-                            },
+                    "kind": 271,
+                    "asyncKeyword": null,
+                    "typeParameters": null,
+                    "arrowPatameterList": {
+                        "kind": 342,
+                        "parameters": [],
+                        "trailingComma": false,
+                        "flags": 0,
+                        "start": 367,
+                        "end": 367
+                    },
+                    "returnType": null,
+                    "arrowToken": {
+                        "kind": 10,
+                        "flags": 64,
+                        "start": 368,
+                        "end": 371
+                    },
+                    "contents": {
+                        "kind": 216,
+                        "functionStatementList": {
+                            "kind": 217,
+                            "directives": [],
+                            "statements": [],
                             "flags": 32,
-                            "start": 371,
-                            "end": 374
+                            "start": 373,
+                            "end": 373
                         },
                         "flags": 32,
-                        "start": 365,
+                        "start": 371,
                         "end": 374
                     },
-                    "argumentList": {
-                        "kind": 256,
-                        "elements": [
-                            {
-                                "kind": 201392130,
-                                "text": 0,
-                                "rawText": "0",
-                                "flags": 96,
-                                "start": 375,
-                                "end": 376
-                            }
-                        ],
-                        "trailingComma": false,
-                        "flags": 32,
-                        "start": 375,
-                        "end": 376
-                    },
-                    "flags": 268435488,
+                    "flags": 32,
                     "start": 365,
-                    "end": 377
+                    "end": 374
                 },
                 "flags": 32,
                 "start": 360,
-                "end": 377
+                "end": 374
             },
             "flags": 16,
             "start": 360,
+            "end": 374
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 121,
+                "expression": {
+                    "kind": 201392130,
+                    "text": 0,
+                    "rawText": "0",
+                    "flags": 96,
+                    "start": 375,
+                    "end": 376
+                },
+                "flags": 32,
+                "start": 374,
+                "end": 377
+            },
+            "flags": 16,
+            "start": 374,
             "end": 378
         },
         {
@@ -1776,9 +1773,9 @@ y = (x => {}(0));
         {
             "kind": 120,
             "expression": {
-                "kind": 121,
+                "kind": 131,
                 "expression": {
-                    "kind": 131,
+                    "kind": 121,
                     "expression": {
                         "kind": 271,
                         "asyncKeyword": null,
@@ -1816,33 +1813,39 @@ y = (x => {}(0));
                         "start": 403,
                         "end": 411
                     },
-                    "argumentList": {
-                        "kind": 256,
-                        "elements": [
-                            {
-                                "kind": 201392130,
-                                "text": 0,
-                                "rawText": "0",
-                                "flags": 96,
-                                "start": 412,
-                                "end": 413
-                            }
-                        ],
-                        "trailingComma": false,
-                        "flags": 32,
-                        "start": 412,
-                        "end": 413
-                    },
-                    "flags": 268435488,
-                    "start": 403,
-                    "end": 414
+                    "flags": 32,
+                    "start": 400,
+                    "end": 411
                 },
-                "flags": 32,
+                "argumentList": {
+                    "kind": 256,
+                    "elements": [
+                        {
+                            "kind": 201392130,
+                            "text": 0,
+                            "rawText": "0",
+                            "flags": 96,
+                            "start": 412,
+                            "end": 413
+                        }
+                    ],
+                    "trailingComma": false,
+                    "flags": 32,
+                    "start": 412,
+                    "end": 413
+                },
+                "flags": 268435488,
                 "start": 400,
-                "end": 415
+                "end": 414
             },
             "flags": 16,
             "start": 400,
+            "end": 414
+        },
+        {
+            "kind": 168,
+            "flags": 16,
+            "start": 415,
             "end": 416
         },
         {
@@ -2294,6 +2297,7 @@ y = (x => {}(0));
 ✖ Block body arrows can not be immediately invoked without a group - start: 374, end: 375
 ✖ Block body arrows can not be immediately invoked without a group - start: 395, end: 396
 ✖ Block body arrows can not be immediately invoked without a group - start: 411, end: 412
+✖ Expected a `;` - start: 414, end: 415
 ✖ Block body arrows can not be immediately invoked without a group - start: 430, end: 431
 ✖ Block body arrows can not be immediately invoked without a group - start: 452, end: 453
 ✖ Block body arrows can not be immediately invoked without a group - start: 474, end: 475

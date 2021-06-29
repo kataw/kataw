@@ -2,7 +2,7 @@ import { SyntaxKind, NodeFlags, Constants, ExportKind } from '../ast/syntax-node
 import { TokenSyntaxKind, createToken, SyntaxToken } from '../ast/token';
 import { nextToken } from './scanner/scanner';
 import { scanTemplateTail } from './scanner/template';
-import { createForBinding, ForBinding } from '../ast/statements/for-binding';
+import { createForBinding } from '../ast/statements/for-binding';
 import { createBlockStatement, BlockStatement } from '../ast/statements/block-stmt';
 import { createBlock, Block } from '../ast/statements/block';
 import { createLabelledStatement, LabelledStatement } from '../ast/statements/labelled-stmt';
@@ -2079,9 +2079,18 @@ function parseLeftHandSideExpression(
 function parseExpression(parser: ParserState, context: Context): ExpressionNode {
   const curPos = parser.curPos;
   let expr = parsePrimaryExpression(parser, context, LeftHandSide.None);
-  expr = parseMemberExpression(parser, context, expr, SyntaxKind.IsPropertyOrCall, curPos);
-  expr = parseAssignmentExpression(parser, context, expr, curPos);
-  return expr;
+  return parseAssignmentExpression(
+    parser,
+    context,
+    parseMemberExpression(
+      parser,
+      context,
+      expr,
+      expr.kind === SyntaxKind.ArrowFunction ? SyntaxKind.IsMember : SyntaxKind.IsPropertyOrCall,
+      curPos
+    ),
+    curPos
+  );
 }
 
 function parseExpressionCoverGrammar(parser: ParserState, context: Context): ExpressionNode {
