@@ -56,7 +56,7 @@
                             "kind": 280,
                             "decorators": null,
                             "declaredToken": null,
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "asyncKeyword": null,
                             "key": {
                                 "kind": 194,
@@ -632,7 +632,7 @@
                             "kind": 280,
                             "decorators": null,
                             "declaredToken": null,
-                            "staticToken": {
+                            "staticKeyword": {
                                 "kind": 8388716,
                                 "flags": 64,
                                 "start": 250,
@@ -1242,7 +1242,7 @@ class six {
   async ["'constructor'"]() {}
 }
 class seven {
-  static ["'constructor'"] = 0;
+  ["'constructor'"] = 0;
 }
 class eigth {
   static static ["'constructor'"]() {}

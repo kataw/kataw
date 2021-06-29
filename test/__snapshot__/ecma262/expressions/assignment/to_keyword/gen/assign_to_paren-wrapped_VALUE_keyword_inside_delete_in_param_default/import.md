@@ -77,48 +77,42 @@ function *f(x = delete ((import) = f)) {}
                                 "expression": {
                                     "kind": 121,
                                     "expression": {
-                                        "kind": 120,
+                                        "kind": 206,
+                                        "importKeyword": {
+                                            "kind": 37814364,
+                                            "flags": 64,
+                                            "start": 25,
+                                            "end": 31
+                                        },
                                         "expression": {
-                                            "kind": 206,
-                                            "importKeyword": {
-                                                "kind": 37814364,
+                                            "kind": 125,
+                                            "left": {
+                                                "kind": 16637,
+                                                "text": "",
+                                                "rawText": "",
                                                 "flags": 64,
-                                                "start": 25,
-                                                "end": 31
-                                            },
-                                            "expression": {
-                                                "kind": 125,
-                                                "left": {
-                                                    "kind": 16637,
-                                                    "text": "",
-                                                    "rawText": "",
-                                                    "flags": 64,
-                                                    "start": 32,
-                                                    "end": 32
-                                                },
-                                                "operatorToken": {
-                                                    "kind": 4125,
-                                                    "flags": 96,
-                                                    "start": 32,
-                                                    "end": 34
-                                                },
-                                                "right": {
-                                                    "kind": 134299649,
-                                                    "text": "f",
-                                                    "rawText": "f",
-                                                    "flags": 96,
-                                                    "start": 34,
-                                                    "end": 36
-                                                },
-                                                "flags": 32,
                                                 "start": 32,
+                                                "end": 32
+                                            },
+                                            "operatorToken": {
+                                                "kind": 4125,
+                                                "flags": 96,
+                                                "start": 32,
+                                                "end": 34
+                                            },
+                                            "right": {
+                                                "kind": 134299649,
+                                                "text": "f",
+                                                "rawText": "f",
+                                                "flags": 96,
+                                                "start": 34,
                                                 "end": 36
                                             },
                                             "flags": 32,
-                                            "start": 31,
-                                            "end": 37
+                                            "start": 32,
+                                            "end": 36
                                         },
-                                        "flags": 16,
+                                        "flags": 32,
                                         "start": 31,
                                         "end": 37
                                     },
@@ -198,7 +192,6 @@ function *f(x = delete ((import) = f)) {}
 ```javascript
 ✖ Identifier expected - start: 32, end: 34
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 32, end: 34
-✖ Expected a `;` - start: 37, end: 38
 ✖ Expected a ')' to match the '(' token here - start: 39, end: 40
 ✖ ',' expected - start: 40, end: 41
 

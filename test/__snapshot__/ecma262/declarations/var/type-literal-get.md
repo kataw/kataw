@@ -57,7 +57,7 @@ var obj: {
                                     {
                                         "kind": 193,
                                         "protoKeyword": null,
-                                        "staticToken": null,
+                                        "staticKeyword": null,
                                         "getKeyword": {
                                             "kind": 16498,
                                             "flags": 96,

@@ -67,7 +67,7 @@ type a = ({get y(y): string}) => T;
                                         {
                                             "kind": 193,
                                             "protoKeyword": null,
-                                            "staticToken": null,
+                                            "staticKeyword": null,
                                             "getKeyword": {
                                                 "kind": 16498,
                                                 "flags": 96,

@@ -57,7 +57,7 @@ type C = { ...A&B };
                         {
                             "kind": 247,
                             "protoKeyword": null,
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "ellipsisToken": {
                                 "kind": 524302,
                                 "flags": 64,

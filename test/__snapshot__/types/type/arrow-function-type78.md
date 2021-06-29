@@ -78,7 +78,7 @@ type a = ({} | {[x]:string}) => T;
                                                 {
                                                     "kind": 195,
                                                     "protoKeyword": null,
-                                                    "staticToken": null,
+                                                    "staticKeyword": null,
                                                     "name": null,
                                                     "key": {
                                                         "kind": 144,

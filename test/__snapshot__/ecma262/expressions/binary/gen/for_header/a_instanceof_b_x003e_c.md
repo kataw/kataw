@@ -105,7 +105,7 @@ for ( a instanceof b > c ;;);
 
 ```javascript
 
-for (a inctanceof b > c; ; );
+for (a instanceof b > c; ; );
 ```
 
 ### Diagnostics

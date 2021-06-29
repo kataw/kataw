@@ -63,7 +63,7 @@ class C { #aaa; f(f) { f()?.#aaa } }
                             "kind": 280,
                             "decorators": null,
                             "declaredToken": null,
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "asyncKeyword": null,
                             "key": {
                                 "kind": 134299649,

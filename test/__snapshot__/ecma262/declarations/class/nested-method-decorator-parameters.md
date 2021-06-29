@@ -113,7 +113,7 @@ class Bar{
                                 "end": 34
                             },
                             "declaredToken": null,
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "asyncKeyword": null,
                             "key": {
                                 "kind": 134299649,

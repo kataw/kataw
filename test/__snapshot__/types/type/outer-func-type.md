@@ -141,7 +141,7 @@ type x = (Record<string, any> | null)[] & { length: 2; }
                                 {
                                     "kind": 193,
                                     "protoKeyword": null,
-                                    "staticToken": null,
+                                    "staticKeyword": null,
                                     "getKeyword": null,
                                     "setKeyword": null,
                                     "key": {

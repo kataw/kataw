@@ -90,7 +90,7 @@ if (this \u0069nstanceof Array) {}
 
 ```javascript
 
-if (this inctanceof Array) {
+if (this instanceof Array) {
   }
 ```
 

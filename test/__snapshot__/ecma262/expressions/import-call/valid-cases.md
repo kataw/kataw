@@ -50,7 +50,7 @@ import(x).then();
                 "end": 10
             },
             "flags": 16,
-            "start": 7,
+            "start": 0,
             "end": 11
         },
         {
@@ -76,7 +76,7 @@ import(x).then();
                 "end": 24
             },
             "flags": 16,
-            "start": 19,
+            "start": 11,
             "end": 25
         },
         {
@@ -102,7 +102,7 @@ import(x).then();
                 "end": 36
             },
             "flags": 16,
-            "start": 33,
+            "start": 25,
             "end": 37
         },
         {
@@ -148,7 +148,7 @@ import(x).then();
                 "end": 50
             },
             "flags": 16,
-            "start": 45,
+            "start": 37,
             "end": 51
         },
         {
@@ -162,28 +162,22 @@ import(x).then();
                     "end": 59
                 },
                 "expression": {
-                    "kind": 120,
-                    "expression": {
-                        "kind": 206,
-                        "importKeyword": {
-                            "kind": 37814364,
-                            "flags": 64,
-                            "start": 60,
-                            "end": 66
-                        },
-                        "expression": {
-                            "kind": 134299649,
-                            "text": "x",
-                            "rawText": "x",
-                            "flags": 96,
-                            "start": 67,
-                            "end": 68
-                        },
-                        "flags": 32,
-                        "start": 66,
-                        "end": 69
+                    "kind": 206,
+                    "importKeyword": {
+                        "kind": 37814364,
+                        "flags": 64,
+                        "start": 60,
+                        "end": 66
                     },
-                    "flags": 16,
+                    "expression": {
+                        "kind": 134299649,
+                        "text": "x",
+                        "rawText": "x",
+                        "flags": 96,
+                        "start": 67,
+                        "end": 68
+                    },
+                    "flags": 32,
                     "start": 66,
                     "end": 69
                 },
@@ -192,7 +186,7 @@ import(x).then();
                 "end": 70
             },
             "flags": 16,
-            "start": 59,
+            "start": 51,
             "end": 71
         },
         {
@@ -230,7 +224,7 @@ import(x).then();
                         "end": 87
                     },
                     "flags": 32,
-                    "start": 79,
+                    "start": 71,
                     "end": 87
                 },
                 "argumentList": {
@@ -242,11 +236,11 @@ import(x).then();
                     "end": 88
                 },
                 "flags": 268435488,
-                "start": 79,
+                "start": 71,
                 "end": 89
             },
             "flags": 16,
-            "start": 79,
+            "start": 71,
             "end": 90
         }
     ],
@@ -263,12 +257,17 @@ import(x).then();
 
 ```javascript
 
+import(x);
+import(foo);
+import(1);
+import(y = x);
+import();
+.then();
 ```
 
 ### Diagnostics
 
 ```javascript
-✖ Expected a `;` - start: 69, end: 70
-
+✔ No errors
 ```
 

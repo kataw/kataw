@@ -57,7 +57,7 @@ type a = {[((({a():foo}) => [c|d]))]:string};
                         {
                             "kind": 195,
                             "protoKeyword": null,
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "name": null,
                             "key": {
                                 "kind": 139,
@@ -85,7 +85,7 @@ type a = {[((({a():foo}) => [c|d]))]:string};
                                                                 {
                                                                     "kind": 193,
                                                                     "protoKeyword": null,
-                                                                    "staticToken": null,
+                                                                    "staticKeyword": null,
                                                                     "getKeyword": null,
                                                                     "setKeyword": null,
                                                                     "key": {

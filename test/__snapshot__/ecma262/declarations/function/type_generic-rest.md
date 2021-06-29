@@ -342,7 +342,7 @@ function remove<A, B>(a: A): [$Rest<A, {p: B}>, B] {
                                                         {
                                                             "kind": 193,
                                                             "protoKeyword": null,
-                                                            "staticToken": null,
+                                                            "staticKeyword": null,
                                                             "getKeyword": null,
                                                             "setKeyword": null,
                                                             "key": {

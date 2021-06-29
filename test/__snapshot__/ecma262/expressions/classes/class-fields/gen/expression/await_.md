@@ -72,7 +72,7 @@ class C extends Base { await; }
                             "kind": 280,
                             "decorators": null,
                             "declaredToken": null,
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "asyncKeyword": null,
                             "key": {
                                 "kind": 134299649,

@@ -62,7 +62,7 @@ x = class { static x = class { y = this } }
                                     "kind": 280,
                                     "decorators": null,
                                     "declaredToken": null,
-                                    "staticToken": {
+                                    "staticKeyword": {
                                         "kind": 8388716,
                                         "flags": 64,
                                         "start": 11,
@@ -100,7 +100,7 @@ x = class { static x = class { y = this } }
                                                         "kind": 280,
                                                         "decorators": null,
                                                         "declaredToken": null,
-                                                        "staticToken": null,
+                                                        "staticKeyword": null,
                                                         "asyncKeyword": null,
                                                         "key": {
                                                             "kind": 134299649,
@@ -175,7 +175,7 @@ x = class { static x = class { y = this } }
 ```javascript
 
 x = class  {
-  static x = class  {
+  x = class  {
       y = this;
     };
 };

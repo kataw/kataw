@@ -52,7 +52,7 @@ class C {
                             "kind": 280,
                             "decorators": null,
                             "declaredToken": null,
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "asyncKeyword": null,
                             "key": {
                                 "kind": 194,

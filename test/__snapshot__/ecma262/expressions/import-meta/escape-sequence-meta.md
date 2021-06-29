@@ -42,7 +42,7 @@ import.m\u0065ta;
                 "end": 16
             },
             "flags": 16,
-            "start": 6,
+            "start": 0,
             "end": 17
         }
     ],

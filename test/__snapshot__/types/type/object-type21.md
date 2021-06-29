@@ -57,7 +57,7 @@ type a = {function():string};
                         {
                             "kind": 193,
                             "protoKeyword": null,
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "getKeyword": null,
                             "setKeyword": null,
                             "key": {

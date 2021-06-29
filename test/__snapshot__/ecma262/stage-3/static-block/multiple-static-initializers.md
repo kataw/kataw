@@ -60,7 +60,7 @@ class Foo {
                             "kind": 280,
                             "decorators": null,
                             "declaredToken": null,
-                            "staticToken": {
+                            "staticKeyword": {
                                 "kind": 8388716,
                                 "flags": 64,
                                 "start": 11,
@@ -99,7 +99,7 @@ class Foo {
                             "kind": 280,
                             "decorators": null,
                             "declaredToken": null,
-                            "staticToken": {
+                            "staticKeyword": {
                                 "kind": 8388716,
                                 "flags": 64,
                                 "start": 31,
@@ -304,7 +304,7 @@ class Foo {
                             "kind": 280,
                             "decorators": null,
                             "declaredToken": null,
-                            "staticToken": {
+                            "staticKeyword": {
                                 "kind": 8388716,
                                 "flags": 64,
                                 "start": 114,
@@ -343,7 +343,7 @@ class Foo {
                             "kind": 280,
                             "decorators": null,
                             "declaredToken": null,
-                            "staticToken": {
+                            "staticKeyword": {
                                 "kind": 8388716,
                                 "flags": 64,
                                 "start": 133,
@@ -514,16 +514,16 @@ class Foo {
 ```javascript
 
 class Foo {
-  static #bar = 21;
+  #bar = 21;
 
-  static #_ = (() =>  {
+  #_ = (() =>  {
         this.foo = this.#bar;
         this.qux1 = this.qux;
       })();
 
-  static qux = 21;
+  qux = 21;
 
-  static #_2 = (() =>  {
+  #_2 = (() =>  {
         this.qux2 = this.qux;
       })();
 

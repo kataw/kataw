@@ -64,7 +64,7 @@ class Foo extends Bar { #foo; foo() { super.#foo } }
                             "kind": 280,
                             "decorators": null,
                             "declaredToken": null,
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "asyncKeyword": null,
                             "key": {
                                 "kind": 134299649,
@@ -192,18 +192,12 @@ class Foo extends Bar { #foo; foo() { super.#foo } }
 
 ```javascript
 
-class Foo  {
-  #foo;
-
-  foo() {
-    .#foo;
-  }
-}
 ```
 
 ### Diagnostics
 
 ```javascript
-✔ No errors
+✖ Private fields can't be accessed on super  - start: 44, end: 48
+
 ```
 

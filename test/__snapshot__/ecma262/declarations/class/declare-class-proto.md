@@ -62,7 +62,7 @@ declare class B {
                         {
                             "kind": 193,
                             "protoKeyword": null,
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "getKeyword": null,
                             "setKeyword": null,
                             "key": {
@@ -153,7 +153,7 @@ declare class B {
                                 "start": 50,
                                 "end": 58
                             },
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "getKeyword": null,
                             "setKeyword": null,
                             "key": {

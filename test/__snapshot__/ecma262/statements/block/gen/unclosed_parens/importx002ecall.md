@@ -33,22 +33,16 @@
                         "expression": {
                             "kind": 121,
                             "expression": {
-                                "kind": 120,
-                                "expression": {
-                                    "kind": 299,
-                                    "importKeyword": {
-                                        "kind": 37814364,
-                                        "flags": 64,
-                                        "start": 2,
-                                        "end": 9
-                                    },
-                                    "metaIdentifier": null,
-                                    "flags": 9,
-                                    "start": 96,
-                                    "end": 10
+                                "kind": 299,
+                                "importKeyword": {
+                                    "kind": 37814364,
+                                    "flags": 64,
+                                    "start": 2,
+                                    "end": 9
                                 },
-                                "flags": 16,
-                                "start": 9,
+                                "metaIdentifier": null,
+                                "flags": 9,
+                                "start": 96,
                                 "end": 10
                             },
                             "flags": 32,

@@ -114,7 +114,7 @@ var a: { [a: number]: string; [b: number]: string; };
                                     {
                                         "kind": 195,
                                         "protoKeyword": null,
-                                        "staticToken": null,
+                                        "staticKeyword": null,
                                         "name": {
                                             "kind": 134299649,
                                             "text": "a",
@@ -158,7 +158,7 @@ var a: { [a: number]: string; [b: number]: string; };
                                     {
                                         "kind": 195,
                                         "protoKeyword": null,
-                                        "staticToken": null,
+                                        "staticKeyword": null,
                                         "name": {
                                             "kind": 134299649,
                                             "text": "b",

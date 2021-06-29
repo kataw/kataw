@@ -104,7 +104,7 @@ type a = (((symbol[{a:string}][][][] | ((y & [((x) => T)]) => T) => T) => T) => 
                                                                                                 {
                                                                                                     "kind": 193,
                                                                                                     "protoKeyword": null,
-                                                                                                    "staticToken": null,
+                                                                                                    "staticKeyword": null,
                                                                                                     "getKeyword": null,
                                                                                                     "setKeyword": null,
                                                                                                     "key": {

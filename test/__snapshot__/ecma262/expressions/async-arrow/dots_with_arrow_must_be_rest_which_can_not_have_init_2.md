@@ -44,6 +44,32 @@ async (a, ...true=b) => a;
                             "start": 9,
                             "end": 13
                         },
+                        "argument": {
+                            "kind": 125,
+                            "left": {
+                                "kind": 24752947,
+                                "flags": 96,
+                                "start": 13,
+                                "end": 17
+                            },
+                            "operatorToken": {
+                                "kind": 4125,
+                                "flags": 96,
+                                "start": 17,
+                                "end": 18
+                            },
+                            "right": {
+                                "kind": 134299649,
+                                "text": "b",
+                                "rawText": "b",
+                                "flags": 96,
+                                "start": 18,
+                                "end": 19
+                            },
+                            "flags": 32,
+                            "start": 9,
+                            "end": 19
+                        },
                         "flags": 1073741856,
                         "start": 9,
                         "end": 19

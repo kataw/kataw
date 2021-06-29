@@ -84,7 +84,7 @@ var z : Object = (x) => "hi"
                                     {
                                         "kind": 193,
                                         "protoKeyword": null,
-                                        "staticToken": null,
+                                        "staticKeyword": null,
                                         "getKeyword": null,
                                         "setKeyword": null,
                                         "key": {
@@ -208,7 +208,7 @@ var z : Object = (x) => "hi"
                                     {
                                         "kind": 193,
                                         "protoKeyword": null,
-                                        "staticToken": null,
+                                        "staticKeyword": null,
                                         "getKeyword": null,
                                         "setKeyword": null,
                                         "key": {
@@ -464,7 +464,7 @@ var z : Object = (x) => "hi"
                                     {
                                         "kind": 193,
                                         "protoKeyword": null,
-                                        "staticToken": null,
+                                        "staticKeyword": null,
                                         "getKeyword": null,
                                         "setKeyword": null,
                                         "key": {
@@ -557,7 +557,7 @@ var z : Object = (x) => "hi"
                                     {
                                         "kind": 196,
                                         "protoKeyword": null,
-                                        "staticToken": null,
+                                        "staticKeyword": null,
                                         "typeParameter": null,
                                         "value": {
                                             "kind": 282,
@@ -739,7 +739,7 @@ var z : Object = (x) => "hi"
                                     {
                                         "kind": 196,
                                         "protoKeyword": null,
-                                        "staticToken": null,
+                                        "staticKeyword": null,
                                         "typeParameter": null,
                                         "value": {
                                             "kind": 282,
@@ -893,7 +893,7 @@ var z : Object = (x) => "hi"
                                     {
                                         "kind": 196,
                                         "protoKeyword": null,
-                                        "staticToken": null,
+                                        "staticKeyword": null,
                                         "typeParameter": null,
                                         "value": {
                                             "kind": 282,
@@ -1075,7 +1075,7 @@ var z : Object = (x) => "hi"
                                     {
                                         "kind": 196,
                                         "protoKeyword": null,
-                                        "staticToken": null,
+                                        "staticKeyword": null,
                                         "typeParameter": null,
                                         "value": {
                                             "kind": 282,
@@ -1198,7 +1198,7 @@ var z : Object = (x) => "hi"
                                     {
                                         "kind": 196,
                                         "protoKeyword": null,
-                                        "staticToken": null,
+                                        "staticKeyword": null,
                                         "typeParameter": null,
                                         "value": {
                                             "kind": 282,
@@ -1349,7 +1349,7 @@ var z : Object = (x) => "hi"
                                     {
                                         "kind": 196,
                                         "protoKeyword": null,
-                                        "staticToken": null,
+                                        "staticKeyword": null,
                                         "typeParameter": null,
                                         "value": {
                                             "kind": 282,
@@ -1472,7 +1472,7 @@ var z : Object = (x) => "hi"
                                     {
                                         "kind": 196,
                                         "protoKeyword": null,
-                                        "staticToken": null,
+                                        "staticKeyword": null,
                                         "typeParameter": null,
                                         "value": {
                                             "kind": 282,

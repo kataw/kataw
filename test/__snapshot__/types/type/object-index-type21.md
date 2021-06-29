@@ -57,7 +57,7 @@ type x = { [y]: z[q] | null };
                         {
                             "kind": 195,
                             "protoKeyword": null,
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "name": null,
                             "key": {
                                 "kind": 144,

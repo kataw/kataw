@@ -74,34 +74,28 @@ function f() {
                             "expression": {
                                 "kind": 121,
                                 "expression": {
-                                    "kind": 120,
-                                    "expression": {
-                                        "kind": 206,
-                                        "importKeyword": {
-                                            "kind": 37814364,
-                                            "flags": 64,
-                                            "start": 34,
-                                            "end": 40
-                                        },
-                                        "expression": {
-                                            "kind": 134299649,
-                                            "text": "x",
-                                            "rawText": "x",
-                                            "flags": 96,
-                                            "start": 42,
-                                            "end": 44
-                                        },
-                                        "flags": 32,
-                                        "start": 40,
-                                        "end": 45
+                                    "kind": 206,
+                                    "importKeyword": {
+                                        "kind": 37814364,
+                                        "flags": 64,
+                                        "start": 34,
+                                        "end": 40
                                     },
-                                    "flags": 16,
+                                    "expression": {
+                                        "kind": 134299649,
+                                        "text": "x",
+                                        "rawText": "x",
+                                        "flags": 96,
+                                        "start": 42,
+                                        "end": 44
+                                    },
+                                    "flags": 32,
                                     "start": 40,
-                                    "end": 46
+                                    "end": 45
                                 },
                                 "flags": 32,
                                 "start": 30,
-                                "end": 46
+                                "end": 45
                             },
                             "flags": 16,
                             "start": 30,
@@ -140,7 +134,7 @@ function f() {
 ### Diagnostics
 
 ```javascript
-✖ Expected a ')' to match the '(' token here - start: 47, end: 48
+✖ Expected a ')' to match the '(' token here - start: 45, end: 46
 
 ```
 

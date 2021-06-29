@@ -495,7 +495,7 @@ let x = { foo(){ super(); } };
                             "kind": 280,
                             "decorators": null,
                             "declaredToken": null,
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "asyncKeyword": null,
                             "key": {
                                 "kind": 134299649,
@@ -587,7 +587,7 @@ let x = { foo(){ super(); } };
                             "kind": 280,
                             "decorators": null,
                             "declaredToken": null,
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "asyncKeyword": null,
                             "key": {
                                 "kind": 134299649,
@@ -806,7 +806,7 @@ let x = { foo(){ super(); } };
                             "kind": 280,
                             "decorators": null,
                             "declaredToken": null,
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "asyncKeyword": null,
                             "key": {
                                 "kind": 194,
@@ -845,7 +845,7 @@ let x = { foo(){ super(); } };
                             "kind": 280,
                             "decorators": null,
                             "declaredToken": null,
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "asyncKeyword": null,
                             "key": {
                                 "kind": 134299649,
@@ -1619,7 +1619,7 @@ let x = { foo(){ super(); } };
                                                                 "kind": 280,
                                                                 "decorators": null,
                                                                 "declaredToken": null,
-                                                                "staticToken": null,
+                                                                "staticKeyword": null,
                                                                 "asyncKeyword": null,
                                                                 "key": {
                                                                     "kind": 134299649,

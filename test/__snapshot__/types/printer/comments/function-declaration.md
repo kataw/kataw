@@ -364,7 +364,7 @@ function /*1*/ constant/*2*/<T>(value/*3*/: T/*4*/): () => T {
                         {
                             "kind": 193,
                             "protoKeyword": null,
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "getKeyword": null,
                             "setKeyword": null,
                             "key": {

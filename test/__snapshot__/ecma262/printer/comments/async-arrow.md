@@ -494,10 +494,31 @@ async (...a/*1*/: /*2*/ string, [/*2*/])=>x;
                             "start": 210,
                             "end": 213
                         },
+                        "left": {
+                            "kind": 134299649,
+                            "text": "a",
+                            "rawText": "a",
+                            "flags": 96,
+                            "start": 213,
+                            "end": 214
+                        },
                         "optionalToken": null,
-                        "type": null,
+                        "type": {
+                            "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
+                            "type": {
+                                "kind": 134234347,
+                                "flags": 2097216,
+                                "start": 220,
+                                "end": 233
+                            },
+                            "flags": 2097152,
+                            "start": 220,
+                            "end": 233
+                        },
                         "right": null,
-                        "flags": 1073741856,
+                        "flags": 32,
                         "start": 210,
                         "end": 233
                     }
@@ -552,10 +573,31 @@ async (...a/*1*/: /*2*/ string, [/*2*/])=>x;
                             "start": 247,
                             "end": 250
                         },
+                        "left": {
+                            "kind": 134299649,
+                            "text": "a",
+                            "rawText": "a",
+                            "flags": 96,
+                            "start": 250,
+                            "end": 251
+                        },
                         "optionalToken": null,
-                        "type": null,
+                        "type": {
+                            "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
+                            "type": {
+                                "kind": 134234347,
+                                "flags": 2097216,
+                                "start": 257,
+                                "end": 270
+                            },
+                            "flags": 2097152,
+                            "start": 257,
+                            "end": 270
+                        },
                         "right": null,
-                        "flags": 1073741856,
+                        "flags": 32,
                         "start": 247,
                         "end": 270
                     },

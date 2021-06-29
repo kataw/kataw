@@ -2334,7 +2334,7 @@ function parseIndexExpression(
   pos: number
 ): ExpressionNode {
   nextToken(parser, context);
-  if (member.kind === SyntaxKind.Super && parser.token === SyntaxKind.PrivateIdentifier) {
+  if (member.kind === SyntaxKind.SuperKeyword && parser.token === SyntaxKind.PrivateIdentifier) {
     parser.onError(
       DiagnosticSource.Parser,
       DiagnosticKind.Error | DiagnosticKind.EarlyError,
@@ -7121,11 +7121,21 @@ function parseImportDeclaration(
   }
 
   if (parser.token === SyntaxKind.LeftParen) {
-    return parseImportCall(parser, context, importToken);
+    return parseExpressionStatement(
+      parser,
+      context,
+      parseExpressionRest(parser, context, parseImportCall(parser, context, importToken), pos),
+      pos
+    );
   }
 
   if (parser.token === SyntaxKind.Period) {
-    return parseImportMeta(parser, context, importToken);
+    return parseExpressionStatement(
+      parser,
+      context,
+      parseExpressionRest(parser, context, parseImportMeta(parser, context, importToken), pos),
+      pos
+    );
   }
 
   if (isScript) {
@@ -9604,7 +9614,7 @@ export function parseImportCall(
   parser: ParserState,
   context: Context,
   importKeyword: SyntaxToken<TokenSyntaxKind>
-): ExpressionStatement {
+): any {
   const pos = parser.curPos;
   nextToken(parser, context);
   if (parser.token === SyntaxKind.RightParen) {
@@ -9632,12 +9642,7 @@ export function parseImportCall(
   }
 
   consume(parser, context, SyntaxKind.RightParen, DiagnosticCode.Expected_a_to_match_the_token_here);
-  return parseExpressionStatement(
-    parser,
-    context,
-    parseExpressionRest(parser, context, createImportCall(importKeyword, expression, pos, parser.curPos), pos),
-    pos
-  );
+  return createImportCall(importKeyword, expression, pos, parser.curPos);
 }
 
 // ImportMeta:
@@ -9646,7 +9651,7 @@ export function parseImportMeta(
   parser: ParserState,
   context: Context,
   importKeyword: SyntaxToken<TokenSyntaxKind>
-): ExpressionStatement {
+): any {
   const pos = parser.curPos;
   consume(parser, context, SyntaxKind.Period);
   const metaKeyword = consumeKeywordAndCheckForEscapeSequence(
@@ -9678,15 +9683,15 @@ export function parseImportMeta(
     );
   }
 
-  const expression: any = createImportMeta(
+  parser.assignable = false;
+
+  return createImportMeta(
     importKeyword,
     metaKeyword,
     pos,
     parser.nodeFlags | NodeFlags.ExpressionNode | NodeFlags.NoChildren,
     parser.curPos
   );
-  parser.assignable = false;
-  return parseExpressionStatement(parser, context, parseExpressionRest(parser, context, expression, pos), pos);
 }
 
 function parseTemplateExpression(parser: ParserState, context: Context, isTaggedTemplate: boolean): TemplateExpression {
@@ -10875,10 +10880,8 @@ export function parseCoverCallExpressionAndAsyncArrowHead(
       parser.diagnosticStartPos = pos;
       flags |= NodeFlags.NoneSimpleParamList;
 
-      let argument: any;
-
       if (parser.token & Constants.Identifier) {
-        let argument = parsePrimaryExpression(parser, context, LeftHandSide.None);
+        expression = parsePrimaryExpression(parser, context, LeftHandSide.None);
 
         if (context & Context.OptionsAllowTypes && (parser.token as SyntaxKind) === SyntaxKind.QuestionMark) {
           const questionMarkToken = consumeOptToken(parser, context, SyntaxKind.QuestionMark);
@@ -10915,7 +10918,7 @@ export function parseCoverCallExpressionAndAsyncArrowHead(
 
             expression = createBindingElement(
               /* ellipsisToken */ ellipsisToken,
-              /* left */ expression,
+              /* left */ expression as any,
               /* optionalToken */ questionMarkToken,
               /* type */ parseType(parser, context),
               /* right */ parseInitializer(parser, context, false),
@@ -10930,7 +10933,7 @@ export function parseCoverCallExpressionAndAsyncArrowHead(
 
           expression = createBindingElement(
             /* ellipsisToken */ ellipsisToken,
-            /* left */ expression,
+            /* left */ expression as any,
             /* optionalToken */ null,
             /* type */ parseType(parser, context),
             /* right */ parseInitializer(parser, context, false),
@@ -10946,22 +10949,22 @@ export function parseCoverCallExpressionAndAsyncArrowHead(
             destructible = DestructibleKind.NotDestructible;
           } else {
             // This is the slow path. We shouldn't care too much about performance
-            argument = parseMemberExpression(parser, context, argument, SyntaxKind.IsPropertyOrCall, pos);
+            expression = parseMemberExpression(parser, context, expression, SyntaxKind.IsPropertyOrCall, pos);
 
             destructible = DestructibleKind.None;
 
             if (parser.token & (SyntaxKind.IsAssignOp | SyntaxKind.IsBinaryOp)) {
               destructible |= DestructibleKind.NotDestructible;
-              argument = parseAssignmentExpression(parser, context, argument, pos);
+              expression = parseAssignmentExpression(parser, context, expression, pos);
             } else if ((parser.token as SyntaxKind) === SyntaxKind.QuestionMark) {
-              argument = parseConditionalExpression(parser, context, argument, pos);
+              expression = parseConditionalExpression(parser, context, expression, pos);
             }
 
             destructible = parser.assignable ? DestructibleKind.Assignable : DestructibleKind.NotDestructible;
           }
         }
       } else if (parser.token & SyntaxKind.IsPatternStart) {
-        argument =
+        expression =
           (parser.token as SyntaxKind) === SyntaxKind.LeftBracket
             ? parseArrayLiteralOrAssignmentExpression(
                 parser,
@@ -11045,10 +11048,10 @@ export function parseCoverCallExpressionAndAsyncArrowHead(
               );
             }
 
-            argument = parseAssignmentExpression(
+            expression = parseAssignmentExpression(
               parser,
               context,
-              parseMemberExpression(parser, context, argument, SyntaxKind.IsPropertyOrCall, pos),
+              parseMemberExpression(parser, context, expression, SyntaxKind.IsPropertyOrCall, pos),
               pos
             );
 
@@ -11056,21 +11059,23 @@ export function parseCoverCallExpressionAndAsyncArrowHead(
           }
         }
       } else {
-        let argument = parseLeftHandSideExpression(parser, context, LeftHandSide.None);
+        expression = parseLeftHandSideExpression(parser, context, LeftHandSide.None);
 
         if (parser.token & SyntaxKind.IsExpressionStart) {
-          argument = parseAssignmentExpression(parser, context, argument, pos);
+          expression = parseAssignmentExpression(parser, context, expression, pos);
           parser.destructible |= DestructibleKind.NotDestructible;
         } else if ((parser.token as SyntaxKind) === SyntaxKind.Comma) {
           parser.destructible = DestructibleKind.NotDestructible;
         } else if ((parser.token as SyntaxKind) === SyntaxKind.RightBrace) {
         } else {
-          argument = parseAssignmentExpression(parser, context, argument, pos);
+          expression = parseAssignmentExpression(parser, context, expression, pos);
 
           destructible = parser.assignable ? DestructibleKind.Assignable : DestructibleKind.NotDestructible;
         }
       }
-      expression = createSpreadElement(ellipsisToken, argument, pos, parser.curPos);
+
+      if (expression.kind !== SyntaxKind.BindingElement)
+        expression = createSpreadElement(ellipsisToken, expression, pos, parser.curPos);
 
       destructible |=
         (parser.token as SyntaxKind) === SyntaxKind.RightParen

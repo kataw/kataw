@@ -13,14 +13,14 @@ export interface ObjectTypeInternalSlot extends SyntaxNode {
   readonly name: Identifier | DummyIdentifier | StringLiteral | NumericLiteral;
   readonly type: TypeNode;
   readonly optionalToken: SyntaxToken<TokenSyntaxKind> | null;
-  readonly staticToken: SyntaxToken<TokenSyntaxKind> | null;
+  readonly staticKeyword: SyntaxToken<TokenSyntaxKind> | null;
 }
 
 export function createObjectTypeInternalSlot(
   protoKeyword: SyntaxToken<TokenSyntaxKind> | null,
   name: Identifier | DummyIdentifier | StringLiteral | NumericLiteral,
   optionalToken: SyntaxToken<TokenSyntaxKind> | null,
-  staticToken: SyntaxToken<TokenSyntaxKind> | null,
+  staticKeyword: SyntaxToken<TokenSyntaxKind> | null,
   type: TypeNode,
   start: number,
   end: number
@@ -28,7 +28,7 @@ export function createObjectTypeInternalSlot(
   return {
     kind: SyntaxKind.ObjectTypeInternalSlot,
     protoKeyword,
-    staticToken,
+    staticKeyword,
     name,
     optionalToken,
     type,

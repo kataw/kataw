@@ -59,7 +59,7 @@ class A {
                                 "start": 18,
                                 "end": 26
                             },
-                            "staticToken": {
+                            "staticKeyword": {
                                 "kind": 8388716,
                                 "flags": 64,
                                 "start": 9,

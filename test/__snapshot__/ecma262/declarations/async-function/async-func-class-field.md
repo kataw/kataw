@@ -102,7 +102,7 @@ async function f() { class C { aaa = await } }
                                             "kind": 280,
                                             "decorators": null,
                                             "declaredToken": null,
-                                            "staticToken": null,
+                                            "staticKeyword": null,
                                             "asyncKeyword": null,
                                             "key": {
                                                 "kind": 134299649,

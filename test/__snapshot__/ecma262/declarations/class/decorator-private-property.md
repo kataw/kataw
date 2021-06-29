@@ -73,7 +73,7 @@ class A {
                                 "end": 16
                             },
                             "declaredToken": null,
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "asyncKeyword": null,
                             "key": {
                                 "kind": 134299649,

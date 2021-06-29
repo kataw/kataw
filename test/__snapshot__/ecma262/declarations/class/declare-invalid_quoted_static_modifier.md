@@ -56,7 +56,7 @@ declare class A { "static" foo(): number }
                         {
                             "kind": 193,
                             "protoKeyword": null,
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "getKeyword": null,
                             "setKeyword": null,
                             "key": {
@@ -98,7 +98,7 @@ declare class A { "static" foo(): number }
                         {
                             "kind": 196,
                             "protoKeyword": null,
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "typeParameter": null,
                             "value": {
                                 "kind": 282,

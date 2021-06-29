@@ -126,7 +126,7 @@ opaque type MyObject<A, B, C>: { foo: A, bar: B } = {
                         {
                             "kind": 193,
                             "protoKeyword": null,
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "getKeyword": null,
                             "setKeyword": null,
                             "key": {
@@ -168,7 +168,7 @@ opaque type MyObject<A, B, C>: { foo: A, bar: B } = {
                         {
                             "kind": 193,
                             "protoKeyword": null,
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "getKeyword": null,
                             "setKeyword": null,
                             "key": {
@@ -227,7 +227,7 @@ opaque type MyObject<A, B, C>: { foo: A, bar: B } = {
                         {
                             "kind": 193,
                             "protoKeyword": null,
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "getKeyword": null,
                             "setKeyword": null,
                             "key": {
@@ -269,7 +269,7 @@ opaque type MyObject<A, B, C>: { foo: A, bar: B } = {
                         {
                             "kind": 193,
                             "protoKeyword": null,
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "getKeyword": null,
                             "setKeyword": null,
                             "key": {
@@ -311,7 +311,7 @@ opaque type MyObject<A, B, C>: { foo: A, bar: B } = {
                         {
                             "kind": 193,
                             "protoKeyword": null,
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "getKeyword": null,
                             "setKeyword": null,
                             "key": {

@@ -121,7 +121,7 @@ class Annotations {
                             "kind": 280,
                             "decorators": null,
                             "declaredToken": null,
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "asyncKeyword": null,
                             "key": {
                                 "kind": 134299649,
@@ -155,7 +155,7 @@ class Annotations {
                             "kind": 280,
                             "decorators": null,
                             "declaredToken": null,
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "asyncKeyword": null,
                             "key": {
                                 "kind": 134299649,
@@ -472,7 +472,7 @@ class Annotations {
                             "kind": 280,
                             "decorators": null,
                             "declaredToken": null,
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "asyncKeyword": null,
                             "key": {
                                 "kind": 134299649,
@@ -588,7 +588,7 @@ class Annotations {
                                                                                 "kind": 280,
                                                                                 "decorators": null,
                                                                                 "declaredToken": null,
-                                                                                "staticToken": null,
+                                                                                "staticKeyword": null,
                                                                                 "asyncKeyword": null,
                                                                                 "key": {
                                                                                     "kind": 134299649,
@@ -1010,7 +1010,7 @@ class Annotations {
                             "kind": 280,
                             "decorators": null,
                             "declaredToken": null,
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "asyncKeyword": null,
                             "key": {
                                 "kind": 134299649,
@@ -1050,7 +1050,7 @@ class Annotations {
                             "kind": 280,
                             "decorators": null,
                             "declaredToken": null,
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "asyncKeyword": null,
                             "key": {
                                 "kind": 134299649,
@@ -1084,7 +1084,7 @@ class Annotations {
                             "kind": 280,
                             "decorators": null,
                             "declaredToken": null,
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "asyncKeyword": null,
                             "key": {
                                 "kind": 134299649,
@@ -1111,7 +1111,7 @@ class Annotations {
                             "kind": 280,
                             "decorators": null,
                             "declaredToken": null,
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "asyncKeyword": null,
                             "key": {
                                 "kind": 134299649,
@@ -1158,7 +1158,7 @@ class Annotations {
                             "kind": 280,
                             "decorators": null,
                             "declaredToken": null,
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "asyncKeyword": null,
                             "key": {
                                 "kind": 134299649,
@@ -1205,7 +1205,7 @@ class Annotations {
                             "kind": 280,
                             "decorators": null,
                             "declaredToken": null,
-                            "staticToken": {
+                            "staticKeyword": {
                                 "kind": 8388716,
                                 "flags": 64,
                                 "start": 738,
@@ -1250,7 +1250,7 @@ class Annotations {
                             "kind": 280,
                             "decorators": null,
                             "declaredToken": null,
-                            "staticToken": {
+                            "staticKeyword": {
                                 "kind": 8388716,
                                 "flags": 64,
                                 "start": 760,
@@ -1289,7 +1289,7 @@ class Annotations {
                             "kind": 280,
                             "decorators": null,
                             "declaredToken": null,
-                            "staticToken": {
+                            "staticKeyword": {
                                 "kind": 8388716,
                                 "flags": 64,
                                 "start": 778,
@@ -1321,7 +1321,7 @@ class Annotations {
                             "kind": 280,
                             "decorators": null,
                             "declaredToken": null,
-                            "staticToken": {
+                            "staticKeyword": {
                                 "kind": 8388716,
                                 "flags": 64,
                                 "start": 792,
@@ -1373,7 +1373,7 @@ class Annotations {
                             "kind": 280,
                             "decorators": null,
                             "declaredToken": null,
-                            "staticToken": {
+                            "staticKeyword": {
                                 "kind": 8388716,
                                 "flags": 64,
                                 "start": 818,
@@ -2473,16 +2473,16 @@ class Annotations {
 
   #t = "\"yay!\"";
 
-  static #sp;
+  #sp;
 
-  static #sq = 0;
+  #sq = 0;
 
-  static #sr;
+  #sr;
 
-  static #ss = 0;
+  #ss = 0;
    // Error, number ~> string
 
-  static #st = "\"yay!\"";
+  #st = "\"yay!\"";
 
   test1() {
     return  this.#p;

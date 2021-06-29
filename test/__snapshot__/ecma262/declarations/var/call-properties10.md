@@ -55,7 +55,7 @@ var g: { (x: string): void } = function(x: mixed) { }
                                     {
                                         "kind": 196,
                                         "protoKeyword": null,
-                                        "staticToken": null,
+                                        "staticKeyword": null,
                                         "typeParameter": null,
                                         "value": {
                                             "kind": 282,

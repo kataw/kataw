@@ -70,7 +70,7 @@ type a = ({x:y} | { [[x]]:string}) => T;
                                                 {
                                                     "kind": 193,
                                                     "protoKeyword": null,
-                                                    "staticToken": null,
+                                                    "staticKeyword": null,
                                                     "getKeyword": null,
                                                     "setKeyword": null,
                                                     "key": {
@@ -121,7 +121,7 @@ type a = ({x:y} | { [[x]]:string}) => T;
                                                 {
                                                     "kind": 248,
                                                     "protoKeyword": null,
-                                                    "staticToken": null,
+                                                    "staticKeyword": null,
                                                     "name": {
                                                         "kind": 134299649,
                                                         "text": "x",

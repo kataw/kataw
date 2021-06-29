@@ -154,7 +154,7 @@ class Foo {
                             "kind": 280,
                             "decorators": null,
                             "declaredToken": null,
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "asyncKeyword": null,
                             "key": {
                                 "kind": 134299649,
@@ -279,7 +279,7 @@ class Foo {
                             "kind": 280,
                             "decorators": null,
                             "declaredToken": null,
-                            "staticToken": {
+                            "staticKeyword": {
                                 "kind": 8388716,
                                 "flags": 64,
                                 "start": 99,
@@ -347,7 +347,7 @@ class Foo {
                             "kind": 280,
                             "decorators": null,
                             "declaredToken": null,
-                            "staticToken": {
+                            "staticKeyword": {
                                 "kind": 8388716,
                                 "flags": 64,
                                 "start": 131,
@@ -417,7 +417,7 @@ class Foo {
                             "kind": 280,
                             "decorators": null,
                             "declaredToken": null,
-                            "staticToken": {
+                            "staticKeyword": {
                                 "kind": 8388716,
                                 "flags": 64,
                                 "start": 168,
@@ -524,11 +524,11 @@ class Foo {
 
   static static f() {}
 
-  static f = () =>  {};
+  f = () =>  {};
 
-  static f = function () {};
+  f = function () {};
 
-  static f = function f() {};
+  f = function f() {};
 
 }
 ```

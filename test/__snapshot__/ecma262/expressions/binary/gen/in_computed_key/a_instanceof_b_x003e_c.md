@@ -147,7 +147,7 @@ x = {[ a instanceof b > c ]: y}
 
 ```javascript
 
-x = { [a inctanceof b > c]: y };
+x = { [a instanceof b > c]: y };
 ```
 
 ### Diagnostics

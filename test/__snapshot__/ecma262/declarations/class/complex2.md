@@ -544,7 +544,7 @@ class C2<X, Y> {
                             "kind": 280,
                             "decorators": null,
                             "declaredToken": null,
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "asyncKeyword": null,
                             "key": {
                                 "kind": 134299649,
@@ -565,7 +565,7 @@ class C2<X, Y> {
                                         {
                                             "kind": 193,
                                             "protoKeyword": null,
-                                            "staticToken": null,
+                                            "staticKeyword": null,
                                             "getKeyword": null,
                                             "setKeyword": null,
                                             "key": {

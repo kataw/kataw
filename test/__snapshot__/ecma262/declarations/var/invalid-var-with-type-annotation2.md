@@ -56,7 +56,7 @@ var a : { x: number{ y: string } } = { x: 0, y: 'foo' };
                                     {
                                         "kind": 193,
                                         "protoKeyword": null,
-                                        "staticToken": null,
+                                        "staticKeyword": null,
                                         "getKeyword": null,
                                         "setKeyword": null,
                                         "key": {
@@ -89,7 +89,7 @@ var a : { x: number{ y: string } } = { x: 0, y: 'foo' };
                                     {
                                         "kind": 193,
                                         "protoKeyword": null,
-                                        "staticToken": null,
+                                        "staticKeyword": null,
                                         "getKeyword": null,
                                         "setKeyword": null,
                                         "key": {
@@ -111,7 +111,7 @@ var a : { x: number{ y: string } } = { x: 0, y: 'foo' };
                                                     {
                                                         "kind": 193,
                                                         "protoKeyword": null,
-                                                        "staticToken": null,
+                                                        "staticKeyword": null,
                                                         "getKeyword": null,
                                                         "setKeyword": null,
                                                         "key": {

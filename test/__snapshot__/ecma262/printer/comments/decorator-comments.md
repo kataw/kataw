@@ -89,7 +89,7 @@ class Something {
                                 "end": 35
                             },
                             "declaredToken": null,
-                            "staticToken": {
+                            "staticKeyword": {
                                 "kind": 8388716,
                                 "flags": 64,
                                 "start": 17,
@@ -146,7 +146,7 @@ class Something {
 
 class Something {
   @Annotateme()
-  static property;
+  property;
 
 }
 ```

@@ -51,48 +51,42 @@ async (x = (import) = f) => {}
                         "right": {
                             "kind": 121,
                             "expression": {
-                                "kind": 120,
+                                "kind": 206,
+                                "importKeyword": {
+                                    "kind": 37814364,
+                                    "flags": 64,
+                                    "start": 12,
+                                    "end": 18
+                                },
                                 "expression": {
-                                    "kind": 206,
-                                    "importKeyword": {
-                                        "kind": 37814364,
+                                    "kind": 125,
+                                    "left": {
+                                        "kind": 16637,
+                                        "text": "",
+                                        "rawText": "",
                                         "flags": 64,
-                                        "start": 12,
-                                        "end": 18
-                                    },
-                                    "expression": {
-                                        "kind": 125,
-                                        "left": {
-                                            "kind": 16637,
-                                            "text": "",
-                                            "rawText": "",
-                                            "flags": 64,
-                                            "start": 19,
-                                            "end": 19
-                                        },
-                                        "operatorToken": {
-                                            "kind": 4125,
-                                            "flags": 96,
-                                            "start": 19,
-                                            "end": 21
-                                        },
-                                        "right": {
-                                            "kind": 134299649,
-                                            "text": "f",
-                                            "rawText": "f",
-                                            "flags": 96,
-                                            "start": 21,
-                                            "end": 23
-                                        },
-                                        "flags": 32,
                                         "start": 19,
+                                        "end": 19
+                                    },
+                                    "operatorToken": {
+                                        "kind": 4125,
+                                        "flags": 96,
+                                        "start": 19,
+                                        "end": 21
+                                    },
+                                    "right": {
+                                        "kind": 134299649,
+                                        "text": "f",
+                                        "rawText": "f",
+                                        "flags": 96,
+                                        "start": 21,
                                         "end": 23
                                     },
                                     "flags": 32,
-                                    "start": 18,
-                                    "end": 24
+                                    "start": 19,
+                                    "end": 23
                                 },
-                                "flags": 16,
+                                "flags": 32,
                                 "start": 18,
                                 "end": 24
                             },
@@ -156,7 +150,7 @@ async (x = (import) = f) => {}
 ```javascript
 ✖ Identifier expected - start: 19, end: 21
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 19, end: 21
-✖ Expected a `;` - start: 24, end: 27
+✖ Expected a ')' to match the '(' token here - start: 25, end: 27
 ✖ Arrow parameters can only contain a binding pattern or an identifier - start: 10, end: 27
 
 ```

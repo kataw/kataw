@@ -75,6 +75,14 @@
                                             "start": 37,
                                             "end": 40
                                         },
+                                        "left": {
+                                            "kind": 134299649,
+                                            "text": "await",
+                                            "rawText": "await",
+                                            "flags": 96,
+                                            "start": 40,
+                                            "end": 45
+                                        },
                                         "optionalToken": null,
                                         "type": null,
                                         "right": null,

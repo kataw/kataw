@@ -81,7 +81,7 @@ let fourteen: A.B<X.Y<Z<T>>>=2;
                                     {
                                         "kind": 193,
                                         "protoKeyword": null,
-                                        "staticToken": null,
+                                        "staticKeyword": null,
                                         "getKeyword": null,
                                         "setKeyword": null,
                                         "key": {
@@ -116,7 +116,7 @@ let fourteen: A.B<X.Y<Z<T>>>=2;
                                     {
                                         "kind": 193,
                                         "protoKeyword": null,
-                                        "staticToken": null,
+                                        "staticKeyword": null,
                                         "getKeyword": null,
                                         "setKeyword": null,
                                         "key": {
@@ -149,7 +149,7 @@ let fourteen: A.B<X.Y<Z<T>>>=2;
                                     {
                                         "kind": 193,
                                         "protoKeyword": null,
-                                        "staticToken": null,
+                                        "staticKeyword": null,
                                         "getKeyword": null,
                                         "setKeyword": null,
                                         "key": {
@@ -234,7 +234,7 @@ let fourteen: A.B<X.Y<Z<T>>>=2;
                                     {
                                         "kind": 193,
                                         "protoKeyword": null,
-                                        "staticToken": null,
+                                        "staticKeyword": null,
                                         "getKeyword": null,
                                         "setKeyword": null,
                                         "key": {
@@ -334,7 +334,7 @@ let fourteen: A.B<X.Y<Z<T>>>=2;
                                     {
                                         "kind": 195,
                                         "protoKeyword": null,
-                                        "staticToken": null,
+                                        "staticKeyword": null,
                                         "name": null,
                                         "key": {
                                             "kind": 139,
@@ -425,7 +425,7 @@ let fourteen: A.B<X.Y<Z<T>>>=2;
                                     {
                                         "kind": 195,
                                         "protoKeyword": null,
-                                        "staticToken": null,
+                                        "staticKeyword": null,
                                         "name": {
                                             "kind": 134299649,
                                             "text": "key",

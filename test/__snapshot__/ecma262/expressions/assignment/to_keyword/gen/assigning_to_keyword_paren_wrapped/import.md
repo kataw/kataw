@@ -28,28 +28,22 @@
             "expression": {
                 "kind": 121,
                 "expression": {
-                    "kind": 120,
-                    "expression": {
-                        "kind": 206,
-                        "importKeyword": {
-                            "kind": 37814364,
-                            "flags": 64,
-                            "start": 1,
-                            "end": 7
-                        },
-                        "expression": {
-                            "kind": 134299649,
-                            "text": "x",
-                            "rawText": "x",
-                            "flags": 96,
-                            "start": 9,
-                            "end": 11
-                        },
-                        "flags": 32,
-                        "start": 7,
-                        "end": 12
+                    "kind": 206,
+                    "importKeyword": {
+                        "kind": 37814364,
+                        "flags": 64,
+                        "start": 1,
+                        "end": 7
                     },
-                    "flags": 16,
+                    "expression": {
+                        "kind": 134299649,
+                        "text": "x",
+                        "rawText": "x",
+                        "flags": 96,
+                        "start": 9,
+                        "end": 11
+                    },
+                    "flags": 32,
                     "start": 7,
                     "end": 12
                 },

@@ -43,10 +43,31 @@ async (...args: any) => {};
                             "start": 7,
                             "end": 10
                         },
+                        "left": {
+                            "kind": 134299649,
+                            "text": "args",
+                            "rawText": "args",
+                            "flags": 96,
+                            "start": 10,
+                            "end": 14
+                        },
                         "optionalToken": null,
-                        "type": null,
+                        "type": {
+                            "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
+                            "type": {
+                                "kind": 134234252,
+                                "flags": 2097216,
+                                "start": 15,
+                                "end": 19
+                            },
+                            "flags": 2097152,
+                            "start": 15,
+                            "end": 19
+                        },
                         "right": null,
-                        "flags": 1073741856,
+                        "flags": 32,
                         "start": 7,
                         "end": 19
                     }

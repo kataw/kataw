@@ -53,28 +53,22 @@ class x extends import {}
                         "end": 15
                     },
                     "expression": {
-                        "kind": 120,
+                        "kind": 206,
+                        "importKeyword": {
+                            "kind": 37814364,
+                            "flags": 64,
+                            "start": 15,
+                            "end": 22
+                        },
                         "expression": {
-                            "kind": 206,
-                            "importKeyword": {
-                                "kind": 37814364,
-                                "flags": 64,
-                                "start": 15,
-                                "end": 22
-                            },
-                            "expression": {
-                                "kind": 16637,
-                                "text": "",
-                                "rawText": "",
-                                "flags": 64,
-                                "start": 24,
-                                "end": 24
-                            },
-                            "flags": 32,
-                            "start": 22,
+                            "kind": 16637,
+                            "text": "",
+                            "rawText": "",
+                            "flags": 64,
+                            "start": 24,
                             "end": 24
                         },
-                        "flags": 16,
+                        "flags": 32,
                         "start": 22,
                         "end": 24
                     },

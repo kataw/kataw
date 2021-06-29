@@ -56,7 +56,7 @@ declare class C { static [[foo]]: T }
                         {
                             "kind": 248,
                             "protoKeyword": null,
-                            "staticToken": {
+                            "staticKeyword": {
                                 "kind": 8388716,
                                 "flags": 32,
                                 "start": 17,

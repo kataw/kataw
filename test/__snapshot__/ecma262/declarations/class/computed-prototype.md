@@ -56,7 +56,7 @@ class Twelve { static async ['prototype']() {} }
                             "kind": 280,
                             "decorators": null,
                             "declaredToken": null,
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "asyncKeyword": null,
                             "key": {
                                 "kind": 194,
@@ -632,7 +632,7 @@ class Twelve { static async ['prototype']() {} }
                             "kind": 280,
                             "decorators": null,
                             "declaredToken": null,
-                            "staticToken": {
+                            "staticKeyword": {
                                 "kind": 8388716,
                                 "flags": 64,
                                 "start": 231,
@@ -1242,7 +1242,7 @@ class Six {
   async ["'prototype'"]() {}
 }
 class Seven {
-  static ["'prototype'"] = 0;
+  ["'prototype'"] = 0;
 }
 class Eigth {
   static static ["'prototype'"]() {}

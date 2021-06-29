@@ -55,7 +55,7 @@ var e: { (x: any): void } = function() { } // arity
                                     {
                                         "kind": 196,
                                         "protoKeyword": null,
-                                        "staticToken": null,
+                                        "staticKeyword": null,
                                         "typeParameter": null,
                                         "value": {
                                             "kind": 282,

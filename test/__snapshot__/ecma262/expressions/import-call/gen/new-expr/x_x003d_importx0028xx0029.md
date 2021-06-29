@@ -42,28 +42,22 @@ x = import(x)
                     "end": 3
                 },
                 "right": {
-                    "kind": 120,
-                    "expression": {
-                        "kind": 206,
-                        "importKeyword": {
-                            "kind": 37814364,
-                            "flags": 64,
-                            "start": 3,
-                            "end": 10
-                        },
-                        "expression": {
-                            "kind": 134299649,
-                            "text": "x",
-                            "rawText": "x",
-                            "flags": 96,
-                            "start": 11,
-                            "end": 12
-                        },
-                        "flags": 32,
-                        "start": 10,
-                        "end": 13
+                    "kind": 206,
+                    "importKeyword": {
+                        "kind": 37814364,
+                        "flags": 64,
+                        "start": 3,
+                        "end": 10
                     },
-                    "flags": 16,
+                    "expression": {
+                        "kind": 134299649,
+                        "text": "x",
+                        "rawText": "x",
+                        "flags": 96,
+                        "start": 11,
+                        "end": 12
+                    },
+                    "flags": 32,
                     "start": 10,
                     "end": 13
                 },

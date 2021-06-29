@@ -64,28 +64,22 @@ async () => { await import(x) }
                                     "end": 19
                                 },
                                 "expression": {
-                                    "kind": 120,
-                                    "expression": {
-                                        "kind": 206,
-                                        "importKeyword": {
-                                            "kind": 37814364,
-                                            "flags": 64,
-                                            "start": 19,
-                                            "end": 26
-                                        },
-                                        "expression": {
-                                            "kind": 134299649,
-                                            "text": "x",
-                                            "rawText": "x",
-                                            "flags": 96,
-                                            "start": 27,
-                                            "end": 28
-                                        },
-                                        "flags": 32,
-                                        "start": 26,
-                                        "end": 29
+                                    "kind": 206,
+                                    "importKeyword": {
+                                        "kind": 37814364,
+                                        "flags": 64,
+                                        "start": 19,
+                                        "end": 26
                                     },
-                                    "flags": 16,
+                                    "expression": {
+                                        "kind": 134299649,
+                                        "text": "x",
+                                        "rawText": "x",
+                                        "flags": 96,
+                                        "start": 27,
+                                        "end": 28
+                                    },
+                                    "flags": 32,
                                     "start": 26,
                                     "end": 29
                                 },

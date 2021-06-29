@@ -68,7 +68,7 @@ function method(obj: { [key: string]: any }) {}
                                     {
                                         "kind": 195,
                                         "protoKeyword": null,
-                                        "staticToken": null,
+                                        "staticKeyword": null,
                                         "name": {
                                             "kind": 134299649,
                                             "text": "key",

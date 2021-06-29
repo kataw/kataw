@@ -141,7 +141,7 @@ class Base {
                                                                         "kind": 280,
                                                                         "decorators": null,
                                                                         "declaredToken": null,
-                                                                        "staticToken": {
+                                                                        "staticKeyword": {
                                                                             "kind": 8388716,
                                                                             "flags": 64,
                                                                             "start": 53,
@@ -350,7 +350,7 @@ class Base {
 class Base {
   constructor() {
     this.Foo = class  {
-      static #_ = (() =>  {
+      #_ = (() =>  {
             this.foo = ;
           })();
 

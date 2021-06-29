@@ -55,7 +55,7 @@ var f: { (): mixed } = function(): string { return "hi" } // return types
                                     {
                                         "kind": 196,
                                         "protoKeyword": null,
-                                        "staticToken": null,
+                                        "staticKeyword": null,
                                         "typeParameter": null,
                                         "value": {
                                             "kind": 282,

@@ -401,7 +401,7 @@ type a = (a[a & b[a|b|c|d|e]][c | d][(x) => T][-1][{...x}][]) => T;
                                                     {
                                                         "kind": 247,
                                                         "protoKeyword": null,
-                                                        "staticToken": null,
+                                                        "staticKeyword": null,
                                                         "ellipsisToken": {
                                                             "kind": 524302,
                                                             "flags": 64,

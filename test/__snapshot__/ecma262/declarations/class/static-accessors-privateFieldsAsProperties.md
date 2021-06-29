@@ -171,7 +171,7 @@ new C;
                             "kind": 280,
                             "decorators": null,
                             "declaredToken": null,
-                            "staticToken": {
+                            "staticKeyword": {
                                 "kind": 8388716,
                                 "flags": 64,
                                 "start": 41,
@@ -393,7 +393,7 @@ class C {
   static set static #p() {
     C.#q = v;
   }
-  static #q;
+  #q;
 
   constructor() {
     ([C.#p] = [0]);

@@ -291,7 +291,7 @@ typeof x;
 
 ```javascript
 
-x0 / x1 & x2 << x3 ^ x4 inctanceof x5 + x6 || x7 && x8 == x9 | x10 ** x;
+x0 / x1 & x2 << x3 ^ x4 instanceof x5 + x6 || x7 && x8 == x9 | x10 ** x;
 typeof x;
 ```
 

@@ -91,7 +91,7 @@ a + b instanceof c
 
 ```javascript
 
-a + b inctanceof c;
+a + b instanceof c;
 ```
 
 ### Diagnostics

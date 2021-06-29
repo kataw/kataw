@@ -59,7 +59,7 @@ class A {
                                 "start": 9,
                                 "end": 19
                             },
-                            "staticToken": {
+                            "staticKeyword": {
                                 "kind": 8388716,
                                 "flags": 64,
                                 "start": 19,
@@ -109,7 +109,7 @@ class A {
 ```javascript
 
 class A {
-  declare static foo;
+  declare foo;
 }
 ```
 

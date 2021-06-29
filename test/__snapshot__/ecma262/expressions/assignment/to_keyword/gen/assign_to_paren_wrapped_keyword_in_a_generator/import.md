@@ -69,54 +69,48 @@ function *f(){
                             "expression": {
                                 "kind": 121,
                                 "expression": {
-                                    "kind": 120,
+                                    "kind": 206,
+                                    "importKeyword": {
+                                        "kind": 37814364,
+                                        "flags": 64,
+                                        "start": 18,
+                                        "end": 24
+                                    },
                                     "expression": {
-                                        "kind": 206,
-                                        "importKeyword": {
-                                            "kind": 37814364,
+                                        "kind": 125,
+                                        "left": {
+                                            "kind": 16637,
+                                            "text": "",
+                                            "rawText": "",
                                             "flags": 64,
-                                            "start": 18,
-                                            "end": 24
-                                        },
-                                        "expression": {
-                                            "kind": 125,
-                                            "left": {
-                                                "kind": 16637,
-                                                "text": "",
-                                                "rawText": "",
-                                                "flags": 64,
-                                                "start": 25,
-                                                "end": 25
-                                            },
-                                            "operatorToken": {
-                                                "kind": 4125,
-                                                "flags": 96,
-                                                "start": 25,
-                                                "end": 27
-                                            },
-                                            "right": {
-                                                "kind": 201392130,
-                                                "text": 1,
-                                                "rawText": "1",
-                                                "flags": 96,
-                                                "start": 27,
-                                                "end": 29
-                                            },
-                                            "flags": 32,
                                             "start": 25,
+                                            "end": 25
+                                        },
+                                        "operatorToken": {
+                                            "kind": 4125,
+                                            "flags": 96,
+                                            "start": 25,
+                                            "end": 27
+                                        },
+                                        "right": {
+                                            "kind": 201392130,
+                                            "text": 1,
+                                            "rawText": "1",
+                                            "flags": 96,
+                                            "start": 27,
                                             "end": 29
                                         },
                                         "flags": 32,
-                                        "start": 24,
+                                        "start": 25,
                                         "end": 29
                                     },
-                                    "flags": 16,
+                                    "flags": 32,
                                     "start": 24,
-                                    "end": 30
+                                    "end": 29
                                 },
                                 "flags": 32,
                                 "start": 14,
-                                "end": 30
+                                "end": 29
                             },
                             "flags": 16,
                             "start": 14,
@@ -157,7 +151,6 @@ function *f(){
 ```javascript
 ✖ Identifier expected - start: 25, end: 27
 ✖ Expected a ')' to match the '(' token here - start: 29, end: 30
-✖ Expected a ')' to match the '(' token here - start: 31, end: 32
 
 ```
 

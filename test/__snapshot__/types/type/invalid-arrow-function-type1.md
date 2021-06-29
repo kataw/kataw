@@ -197,7 +197,7 @@ type a = (a[a & b][c | d][{a():string}][][][(a[a & b][c | d][{a():string}][][][]
                                                             {
                                                                 "kind": 193,
                                                                 "protoKeyword": null,
-                                                                "staticToken": null,
+                                                                "staticKeyword": null,
                                                                 "getKeyword": null,
                                                                 "setKeyword": null,
                                                                 "key": {
@@ -414,7 +414,7 @@ type a = (a[a & b][c | d][{a():string}][][][(a[a & b][c | d][{a():string}][][][]
                                                                                     {
                                                                                         "kind": 193,
                                                                                         "protoKeyword": null,
-                                                                                        "staticToken": null,
+                                                                                        "staticKeyword": null,
                                                                                         "getKeyword": null,
                                                                                         "setKeyword": null,
                                                                                         "key": {

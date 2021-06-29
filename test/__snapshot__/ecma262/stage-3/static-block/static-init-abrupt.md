@@ -152,7 +152,7 @@ try {
                                             "kind": 280,
                                             "decorators": null,
                                             "declaredToken": null,
-                                            "staticToken": {
+                                            "staticKeyword": {
                                                 "kind": 8388716,
                                                 "flags": 64,
                                                 "start": 81,
@@ -373,7 +373,7 @@ try {
 try {
   class C {
 
-    static x = subsequentField = true;
+    x = subsequentField = true;
 
 
   }

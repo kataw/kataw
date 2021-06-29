@@ -57,7 +57,7 @@ type X = {[(x) =>x]: string, (): string};
                         {
                             "kind": 195,
                             "protoKeyword": null,
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "name": null,
                             "key": {
                                 "kind": 139,
@@ -157,7 +157,7 @@ type X = {[(x) =>x]: string, (): string};
                         {
                             "kind": 196,
                             "protoKeyword": null,
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "typeParameter": null,
                             "value": {
                                 "kind": 282,

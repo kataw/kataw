@@ -98,7 +98,7 @@ class GenericClass/*1*/</*2*/T/*3*/>/*4*/ {}
                             "kind": 280,
                             "decorators": null,
                             "declaredToken": null,
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "asyncKeyword": null,
                             "key": {
                                 "kind": 134299649,

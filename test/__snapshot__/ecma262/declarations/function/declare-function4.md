@@ -92,7 +92,7 @@ declare function bar(config: Config<{foo: 'a'}>) : void
                                                         {
                                                             "kind": 193,
                                                             "protoKeyword": null,
-                                                            "staticToken": null,
+                                                            "staticKeyword": null,
                                                             "getKeyword": null,
                                                             "setKeyword": null,
                                                             "key": {

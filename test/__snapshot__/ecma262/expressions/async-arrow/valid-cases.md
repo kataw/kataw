@@ -191,6 +191,14 @@ async a => await 1;
                             "start": 47,
                             "end": 50
                         },
+                        "argument": {
+                            "kind": 134299649,
+                            "text": "x",
+                            "rawText": "x",
+                            "flags": 96,
+                            "start": 50,
+                            "end": 51
+                        },
                         "flags": 1073741856,
                         "start": 47,
                         "end": 51
@@ -232,6 +240,14 @@ async a => await 1;
                             "start": 61,
                             "end": 64
                         },
+                        "argument": {
+                            "kind": 134299649,
+                            "text": "x",
+                            "rawText": "x",
+                            "flags": 96,
+                            "start": 64,
+                            "end": 65
+                        },
                         "flags": 1073741856,
                         "start": 61,
                         "end": 65
@@ -243,6 +259,14 @@ async a => await 1;
                             "flags": 64,
                             "start": 66,
                             "end": 70
+                        },
+                        "argument": {
+                            "kind": 134299649,
+                            "text": "y",
+                            "rawText": "y",
+                            "flags": 96,
+                            "start": 70,
+                            "end": 71
                         },
                         "flags": 1073741856,
                         "start": 66,
@@ -436,6 +460,14 @@ async a => await 1;
                             "flags": 64,
                             "start": 129,
                             "end": 132
+                        },
+                        "left": {
+                            "kind": 134299649,
+                            "text": "x",
+                            "rawText": "x",
+                            "flags": 96,
+                            "start": 132,
+                            "end": 133
                         },
                         "optionalToken": null,
                         "type": null,

@@ -60,7 +60,7 @@ declare class X {
                         {
                             "kind": 193,
                             "protoKeyword": null,
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "getKeyword": null,
                             "setKeyword": null,
                             "key": {
@@ -93,7 +93,7 @@ declare class X {
                         {
                             "kind": 193,
                             "protoKeyword": null,
-                            "staticToken": {
+                            "staticKeyword": {
                                 "kind": 8388716,
                                 "flags": 32,
                                 "start": 29,
@@ -131,7 +131,7 @@ declare class X {
                         {
                             "kind": 193,
                             "protoKeyword": null,
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "getKeyword": null,
                             "setKeyword": null,
                             "key": {

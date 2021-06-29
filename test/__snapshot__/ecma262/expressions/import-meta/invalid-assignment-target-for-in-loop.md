@@ -30,27 +30,21 @@ for (import.meta in null) ;
                 "end": 3
             },
             "initializer": {
-                "kind": 120,
-                "expression": {
-                    "kind": 299,
-                    "importKeyword": {
-                        "kind": 37814364,
-                        "flags": 64,
-                        "start": 5,
-                        "end": 11
-                    },
-                    "metaIdentifier": {
-                        "kind": 16595,
-                        "flags": 96,
-                        "start": 12,
-                        "end": 16
-                    },
-                    "flags": 11,
-                    "start": 96,
+                "kind": 299,
+                "importKeyword": {
+                    "kind": 37814364,
+                    "flags": 64,
+                    "start": 5,
+                    "end": 11
+                },
+                "metaIdentifier": {
+                    "kind": 16595,
+                    "flags": 96,
+                    "start": 12,
                     "end": 16
                 },
-                "flags": 16,
-                "start": 11,
+                "flags": 11,
+                "start": 96,
                 "end": 16
             },
             "inKeyword": {
@@ -94,7 +88,6 @@ for (import.meta in null) ;
 ### Diagnostics
 
 ```javascript
-✖ Expected a `;` - start: 16, end: 19
 ✖ The left-hand side of a 'for...in' statement must be a variable or a property access. - start: 19, end: 24
 
 ```

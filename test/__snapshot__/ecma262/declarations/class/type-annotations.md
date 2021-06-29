@@ -871,7 +871,7 @@ class Array { concat(items:number | string) {}; }
                             "kind": 280,
                             "decorators": null,
                             "declaredToken": null,
-                            "staticToken": {
+                            "staticKeyword": {
                                 "kind": 8388716,
                                 "flags": 64,
                                 "start": 271,
@@ -916,7 +916,7 @@ class Array { concat(items:number | string) {}; }
                             "kind": 280,
                             "decorators": null,
                             "declaredToken": null,
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "asyncKeyword": null,
                             "key": {
                                 "kind": 134299649,
@@ -994,7 +994,7 @@ class Array { concat(items:number | string) {}; }
                             "kind": 280,
                             "decorators": null,
                             "declaredToken": null,
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "asyncKeyword": null,
                             "key": {
                                 "kind": 134299649,
@@ -1034,7 +1034,7 @@ class Array { concat(items:number | string) {}; }
                             "kind": 280,
                             "decorators": null,
                             "declaredToken": null,
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "asyncKeyword": null,
                             "key": {
                                 "kind": 134299649,
@@ -1254,7 +1254,7 @@ class Foo8 {
   "\"bar\""() {}
 }
 class Foo10 {
-  static prop1;
+  prop1;
 
   prop2;
 

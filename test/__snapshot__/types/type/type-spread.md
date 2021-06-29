@@ -67,7 +67,7 @@ type D32 = {p?: number};
                         {
                             "kind": 195,
                             "protoKeyword": null,
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "name": null,
                             "key": {
                                 "kind": 134234347,
@@ -141,7 +141,7 @@ type D32 = {p?: number};
                         {
                             "kind": 193,
                             "protoKeyword": null,
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "getKeyword": null,
                             "setKeyword": null,
                             "key": {
@@ -174,7 +174,7 @@ type D32 = {p?: number};
                         {
                             "kind": 247,
                             "protoKeyword": null,
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "ellipsisToken": {
                                 "kind": 524302,
                                 "flags": 64,
@@ -256,7 +256,7 @@ type D32 = {p?: number};
                         {
                             "kind": 247,
                             "protoKeyword": null,
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "ellipsisToken": {
                                 "kind": 524302,
                                 "flags": 64,
@@ -293,7 +293,7 @@ type D32 = {p?: number};
                         {
                             "kind": 247,
                             "protoKeyword": null,
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "ellipsisToken": {
                                 "kind": 524302,
                                 "flags": 64,
@@ -375,7 +375,7 @@ type D32 = {p?: number};
                         {
                             "kind": 193,
                             "protoKeyword": null,
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "getKeyword": null,
                             "setKeyword": null,
                             "key": {
@@ -453,7 +453,7 @@ type D32 = {p?: number};
                         {
                             "kind": 247,
                             "protoKeyword": null,
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "ellipsisToken": {
                                 "kind": 524302,
                                 "flags": 64,
@@ -490,7 +490,7 @@ type D32 = {p?: number};
                         {
                             "kind": 247,
                             "protoKeyword": null,
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "ellipsisToken": {
                                 "kind": 524302,
                                 "flags": 64,
@@ -572,7 +572,7 @@ type D32 = {p?: number};
                         {
                             "kind": 193,
                             "protoKeyword": null,
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "getKeyword": null,
                             "setKeyword": null,
                             "key": {
@@ -669,7 +669,7 @@ type D32 = {p?: number};
                         {
                             "kind": 247,
                             "protoKeyword": null,
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "ellipsisToken": {
                                 "kind": 524302,
                                 "flags": 64,
@@ -706,7 +706,7 @@ type D32 = {p?: number};
                         {
                             "kind": 247,
                             "protoKeyword": null,
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "ellipsisToken": {
                                 "kind": 524302,
                                 "flags": 64,
@@ -788,7 +788,7 @@ type D32 = {p?: number};
                         {
                             "kind": 193,
                             "protoKeyword": null,
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "getKeyword": null,
                             "setKeyword": null,
                             "key": {
@@ -871,7 +871,7 @@ type D32 = {p?: number};
                         {
                             "kind": 195,
                             "protoKeyword": null,
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "name": null,
                             "key": {
                                 "kind": 134234347,
@@ -900,7 +900,7 @@ type D32 = {p?: number};
                         {
                             "kind": 193,
                             "protoKeyword": null,
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "getKeyword": null,
                             "setKeyword": null,
                             "key": {
@@ -997,7 +997,7 @@ type D32 = {p?: number};
                         {
                             "kind": 195,
                             "protoKeyword": null,
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "name": null,
                             "key": {
                                 "kind": 134234347,
@@ -1026,7 +1026,7 @@ type D32 = {p?: number};
                         {
                             "kind": 193,
                             "protoKeyword": null,
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "getKeyword": null,
                             "setKeyword": null,
                             "key": {
@@ -1123,7 +1123,7 @@ type D32 = {p?: number};
                         {
                             "kind": 193,
                             "protoKeyword": null,
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "getKeyword": null,
                             "setKeyword": null,
                             "key": {

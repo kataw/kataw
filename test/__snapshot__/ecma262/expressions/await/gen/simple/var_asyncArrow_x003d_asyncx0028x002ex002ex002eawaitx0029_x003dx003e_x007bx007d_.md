@@ -66,6 +66,14 @@ var asyncArrow = async(...await) => {};
                                             "start": 23,
                                             "end": 26
                                         },
+                                        "left": {
+                                            "kind": 134299649,
+                                            "text": "await",
+                                            "rawText": "await",
+                                            "flags": 96,
+                                            "start": 26,
+                                            "end": 31
+                                        },
                                         "optionalToken": null,
                                         "type": null,
                                         "right": null,

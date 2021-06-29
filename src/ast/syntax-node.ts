@@ -320,7 +320,6 @@ export enum SyntaxKind {
   RightParen = 16,
   RootNode = 122,
   Semicolon = 1108353041,
-  SemicolonClassElement = 317,
   SetKeyword = 16499,
   ShiftLeft = 35140,
   ShiftLeftAssign = 4126,
@@ -339,7 +338,6 @@ export enum SyntaxKind {
   StringType = 134217967,
   Subtract = 134318643,
   SubtractAssign = 4131,
-  Super = 225,
   SuperKeyword = 4259935,
   SwitchKeyword = 37757024,
   SwitchStatement = 160,
@@ -525,7 +523,7 @@ export function tokenToString(node: any): string {
     case SyntaxKind.Increment:
       return '++';
     case SyntaxKind.InstanceofKeyword:
-      return 'inctanceof';
+      return 'instanceof';
     case SyntaxKind.LessThan:
       return ' <';
     case SyntaxKind.LessThanOrEqual:

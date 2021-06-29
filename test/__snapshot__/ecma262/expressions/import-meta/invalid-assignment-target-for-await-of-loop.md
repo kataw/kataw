@@ -82,27 +82,21 @@ async function* f() {
                                 "end": 35
                             },
                             "initializer": {
-                                "kind": 120,
-                                "expression": {
-                                    "kind": 299,
-                                    "importKeyword": {
-                                        "kind": 37814364,
-                                        "flags": 64,
-                                        "start": 37,
-                                        "end": 43
-                                    },
-                                    "metaIdentifier": {
-                                        "kind": 16595,
-                                        "flags": 96,
-                                        "start": 44,
-                                        "end": 48
-                                    },
-                                    "flags": 43,
-                                    "start": 96,
+                                "kind": 299,
+                                "importKeyword": {
+                                    "kind": 37814364,
+                                    "flags": 64,
+                                    "start": 37,
+                                    "end": 43
+                                },
+                                "metaIdentifier": {
+                                    "kind": 16595,
+                                    "flags": 96,
+                                    "start": 44,
                                     "end": 48
                                 },
-                                "flags": 16,
-                                "start": 43,
+                                "flags": 43,
+                                "start": 96,
                                 "end": 48
                             },
                             "ofKeyword": {
@@ -160,7 +154,6 @@ async function* f() {
 ### Diagnostics
 
 ```javascript
-✖ Expected a `;` - start: 48, end: 51
 ✖ The left-hand side of a 'for...of' statement must be a variable or a property access. - start: 51, end: 56
 
 ```

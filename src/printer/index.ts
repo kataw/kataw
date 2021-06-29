@@ -253,7 +253,7 @@ function printExpressionWorker(node: any, printer: Printer, parentNode: any): an
       return node.text;
     case SyntaxKind.CoverInitializedName:
       return printCoverInitializedName(node, printer);
-    case SyntaxKind.Super:
+    case SyntaxKind.SuperKeyword:
       return printSuper(node, printer);
     case SyntaxKind.PropertyDefinition:
       return printPropertyDefinition(node, printer);

@@ -54,7 +54,7 @@ class Foo {
                             "kind": 280,
                             "decorators": null,
                             "declaredToken": null,
-                            "staticToken": {
+                            "staticKeyword": {
                                 "kind": 8388716,
                                 "flags": 64,
                                 "start": 11,
@@ -481,7 +481,7 @@ class Foo {
 ```javascript
 
 class Foo {
-  static #x;
+  #x;
   static get static #y() {}
   static set static #y() {}
   static static #z() {}

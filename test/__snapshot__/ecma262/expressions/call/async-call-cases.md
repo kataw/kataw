@@ -1094,6 +1094,20 @@ async(a, [q].z = y);
                             "start": 272,
                             "end": 275
                         },
+                        "argument": {
+                            "kind": 121,
+                            "expression": {
+                                "kind": 134299649,
+                                "text": "x",
+                                "rawText": "x",
+                                "flags": 96,
+                                "start": 276,
+                                "end": 277
+                            },
+                            "flags": 32,
+                            "start": 275,
+                            "end": 278
+                        },
                         "flags": 1073741856,
                         "start": 272,
                         "end": 278
@@ -1143,6 +1157,20 @@ async(a, [q].z = y);
                             "start": 290,
                             "end": 293
                         },
+                        "argument": {
+                            "kind": 121,
+                            "expression": {
+                                "kind": 134299649,
+                                "text": "x",
+                                "rawText": "x",
+                                "flags": 96,
+                                "start": 294,
+                                "end": 295
+                            },
+                            "flags": 32,
+                            "start": 293,
+                            "end": 296
+                        },
                         "flags": 1073741856,
                         "start": 290,
                         "end": 296
@@ -1183,6 +1211,34 @@ async(a, [q].z = y);
                             "flags": 64,
                             "start": 305,
                             "end": 308
+                        },
+                        "argument": {
+                            "kind": 130,
+                            "member": {
+                                "kind": 121,
+                                "expression": {
+                                    "kind": 134299649,
+                                    "text": "x",
+                                    "rawText": "x",
+                                    "flags": 96,
+                                    "start": 309,
+                                    "end": 310
+                                },
+                                "flags": 32,
+                                "start": 308,
+                                "end": 311
+                            },
+                            "expression": {
+                                "kind": 134299649,
+                                "text": "y",
+                                "rawText": "y",
+                                "flags": 96,
+                                "start": 312,
+                                "end": 313
+                            },
+                            "flags": 536870944,
+                            "start": 308,
+                            "end": 314
                         },
                         "flags": 1073741856,
                         "start": 305,
@@ -1225,6 +1281,54 @@ async(a, [q].z = y);
                             "start": 323,
                             "end": 326
                         },
+                        "argument": {
+                            "kind": 125,
+                            "left": {
+                                "kind": 130,
+                                "member": {
+                                    "kind": 121,
+                                    "expression": {
+                                        "kind": 134299649,
+                                        "text": "x",
+                                        "rawText": "x",
+                                        "flags": 96,
+                                        "start": 327,
+                                        "end": 328
+                                    },
+                                    "flags": 32,
+                                    "start": 326,
+                                    "end": 329
+                                },
+                                "expression": {
+                                    "kind": 134299649,
+                                    "text": "y",
+                                    "rawText": "y",
+                                    "flags": 96,
+                                    "start": 330,
+                                    "end": 331
+                                },
+                                "flags": 536870944,
+                                "start": 326,
+                                "end": 332
+                            },
+                            "operatorToken": {
+                                "kind": 4125,
+                                "flags": 96,
+                                "start": 332,
+                                "end": 334
+                            },
+                            "right": {
+                                "kind": 134299649,
+                                "text": "z",
+                                "rawText": "z",
+                                "flags": 96,
+                                "start": 334,
+                                "end": 336
+                            },
+                            "flags": 32,
+                            "start": 323,
+                            "end": 336
+                        },
                         "flags": 1073741856,
                         "start": 323,
                         "end": 336
@@ -1265,6 +1369,54 @@ async(a, [q].z = y);
                             "flags": 64,
                             "start": 345,
                             "end": 348
+                        },
+                        "argument": {
+                            "kind": 197,
+                            "shortCircuit": {
+                                "kind": 121,
+                                "expression": {
+                                    "kind": 134299649,
+                                    "text": "x",
+                                    "rawText": "x",
+                                    "flags": 96,
+                                    "start": 349,
+                                    "end": 350
+                                },
+                                "flags": 32,
+                                "start": 348,
+                                "end": 351
+                            },
+                            "questionToken": {
+                                "kind": 134217750,
+                                "flags": 64,
+                                "start": 351,
+                                "end": 353
+                            },
+                            "consequent": {
+                                "kind": 134299649,
+                                "text": "b",
+                                "rawText": "b",
+                                "flags": 96,
+                                "start": 353,
+                                "end": 355
+                            },
+                            "colonToken": {
+                                "kind": 21,
+                                "flags": 64,
+                                "start": 355,
+                                "end": 357
+                            },
+                            "alternate": {
+                                "kind": 134299649,
+                                "text": "c",
+                                "rawText": "c",
+                                "flags": 96,
+                                "start": 357,
+                                "end": 359
+                            },
+                            "flags": 32,
+                            "start": 345,
+                            "end": 359
                         },
                         "flags": 1073741856,
                         "start": 345,
@@ -1307,6 +1459,74 @@ async(a, [q].z = y);
                             "start": 368,
                             "end": 371
                         },
+                        "argument": {
+                            "kind": 125,
+                            "left": {
+                                "kind": 121,
+                                "expression": {
+                                    "kind": 134299649,
+                                    "text": "x",
+                                    "rawText": "x",
+                                    "flags": 96,
+                                    "start": 372,
+                                    "end": 373
+                                },
+                                "flags": 32,
+                                "start": 371,
+                                "end": 374
+                            },
+                            "operatorToken": {
+                                "kind": 4125,
+                                "flags": 96,
+                                "start": 374,
+                                "end": 376
+                            },
+                            "right": {
+                                "kind": 197,
+                                "shortCircuit": {
+                                    "kind": 134299649,
+                                    "text": "a",
+                                    "rawText": "a",
+                                    "flags": 96,
+                                    "start": 376,
+                                    "end": 378
+                                },
+                                "questionToken": {
+                                    "kind": 134217750,
+                                    "flags": 64,
+                                    "start": 378,
+                                    "end": 380
+                                },
+                                "consequent": {
+                                    "kind": 134299649,
+                                    "text": "b",
+                                    "rawText": "b",
+                                    "flags": 96,
+                                    "start": 380,
+                                    "end": 382
+                                },
+                                "colonToken": {
+                                    "kind": 21,
+                                    "flags": 64,
+                                    "start": 382,
+                                    "end": 384
+                                },
+                                "alternate": {
+                                    "kind": 134299649,
+                                    "text": "c",
+                                    "rawText": "c",
+                                    "flags": 96,
+                                    "start": 384,
+                                    "end": 386
+                                },
+                                "flags": 32,
+                                "start": 376,
+                                "end": 386
+                            },
+                            "flags": 32,
+                            "start": 368,
+                            "end": 386
+                        },
                         "flags": 1073741856,
                         "start": 368,
                         "end": 386
@@ -1347,6 +1567,54 @@ async(a, [q].z = y);
                             "flags": 64,
                             "start": 395,
                             "end": 398
+                        },
+                        "argument": {
+                            "kind": 197,
+                            "shortCircuit": {
+                                "kind": 121,
+                                "expression": {
+                                    "kind": 134299649,
+                                    "text": "x",
+                                    "rawText": "x",
+                                    "flags": 96,
+                                    "start": 399,
+                                    "end": 400
+                                },
+                                "flags": 32,
+                                "start": 398,
+                                "end": 401
+                            },
+                            "questionToken": {
+                                "kind": 134217750,
+                                "flags": 64,
+                                "start": 401,
+                                "end": 402
+                            },
+                            "consequent": {
+                                "kind": 134299649,
+                                "text": "b",
+                                "rawText": "b",
+                                "flags": 96,
+                                "start": 402,
+                                "end": 403
+                            },
+                            "colonToken": {
+                                "kind": 21,
+                                "flags": 64,
+                                "start": 403,
+                                "end": 404
+                            },
+                            "alternate": {
+                                "kind": 134299649,
+                                "text": "c",
+                                "rawText": "c",
+                                "flags": 96,
+                                "start": 404,
+                                "end": 405
+                            },
+                            "flags": 32,
+                            "start": 395,
+                            "end": 405
                         },
                         "flags": 1073741856,
                         "start": 395,
@@ -2382,13 +2650,13 @@ async(q, (x)[y] = z)
 async(q, (x) ? b : c)
 async(q, (x) = a ? b : c)
 async(q, (x) ? b : c)
-async(..., y)
-async(...)
-async(...)
-async(...)
-async(...)
-async(...)
-async(...)
+async(...(x), y)
+async(...(x))
+async(...(x)[y])
+async(...(x)[y] = z)
+async(...(x) ? b : c)
+async(...(x) = a ? b : c)
+async(...(x) ? b : c)
 async([q] = y)
 async([q] / y)
 async([q] ** y)

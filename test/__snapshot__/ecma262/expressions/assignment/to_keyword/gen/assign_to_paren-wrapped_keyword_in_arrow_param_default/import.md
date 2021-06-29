@@ -87,7 +87,7 @@
 ```javascript
 ✖ Identifier expected - start: 13, end: 15
 ✖ The left-hand side of an assignment expression must be a variable or a property access - start: 13, end: 15
-✖ Expected a `;` - start: 18, end: 21
+✖ Expected a ')' to match the '(' token here - start: 19, end: 21
 ✖ Arrow parameters can only contain a binding pattern or an identifier - start: 4, end: 21
 
 ```

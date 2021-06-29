@@ -57,7 +57,7 @@ type A = { [string | boolean]: number };
                         {
                             "kind": 195,
                             "protoKeyword": null,
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "name": null,
                             "key": {
                                 "kind": 137,

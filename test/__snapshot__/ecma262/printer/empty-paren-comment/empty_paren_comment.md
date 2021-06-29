@@ -681,43 +681,37 @@ let f4 = () => doThing(a, /* ... */ b);
                                 "end": 294
                             },
                             "contents": {
-                                "kind": 120,
-                                "expression": {
-                                    "kind": 206,
-                                    "importKeyword": {
-                                        "kind": 37814364,
-                                        "flags": 64,
-                                        "start": 294,
-                                        "end": 301
-                                    },
-                                    "expression": {
-                                        "kind": 134299649,
-                                        "text": "a",
-                                        "rawText": "a",
-                                        "flags": 96,
-                                        "start": 302,
-                                        "end": 303
-                                    },
-                                    "flags": 32,
-                                    "start": 301,
-                                    "end": 314
+                                "kind": 206,
+                                "importKeyword": {
+                                    "kind": 37814364,
+                                    "flags": 64,
+                                    "start": 294,
+                                    "end": 301
                                 },
-                                "flags": 16,
+                                "expression": {
+                                    "kind": 134299649,
+                                    "text": "a",
+                                    "rawText": "a",
+                                    "flags": 96,
+                                    "start": 302,
+                                    "end": 303
+                                },
+                                "flags": 32,
                                 "start": 301,
-                                "end": 315
+                                "end": 314
                             },
                             "flags": 32,
                             "start": 288,
-                            "end": 315
+                            "end": 314
                         },
                         "flags": 16,
                         "start": 283,
-                        "end": 315
+                        "end": 314
                     }
                 ],
                 "flags": 17,
                 "start": 283,
-                "end": 315
+                "end": 314
             },
             "flags": 33554448,
             "start": 278,

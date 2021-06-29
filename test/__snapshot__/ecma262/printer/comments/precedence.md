@@ -4717,11 +4717,11 @@ f = "\"a\"" + (1 + 2) + "\"b\"";
 g = "\"a\"" + (1 - 2) + "\"b\"";
 a = true /*6*/ || false && null;
 b = c == d || e != f;
-c = x inctanceof y || x inctanceof z;
+c = x instanceof y || x instanceof z;
 d = x == y && y != z;
 a = !false; /*8*/
-b = !x inctanceof Number;
-c = !(x inctanceof Number);
+b = !x instanceof Number;
+c = !(x instanceof Number);
 d = typeof a === "'boolean'";
 e = !typeof a === "'boolean'";
 f = !(typeof a === "'boolean'");

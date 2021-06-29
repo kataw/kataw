@@ -130,7 +130,7 @@ interface ObjectTypeCallProperty <: TypeNode {
   typeParameter: TypeParameterDeclaration | null;
   kind: SyntaxKind.ObjectTypeCallProperty;
   value: TypeNode;
-  staticToken: SyntaxToken<TokenSyntaxKind> | null;
+  staticKeyword: SyntaxToken<TokenSyntaxKind> | null;
   returnType: TypeNode;
 }
 ```
@@ -144,7 +144,7 @@ interface ObjectTypeIndexer <: TypeNode {
   name: Identifier | DummyIdentifier | StringLiteral | NumericLiteral | null;
   key: TypeNode;
   type: TypeNode;
-  staticToken: SyntaxToken<TokenSyntaxKind> | null;
+  staticKeyword: SyntaxToken<TokenSyntaxKind> | null;
 }
 ```
 
@@ -155,7 +155,7 @@ interface ObjectTypeInternalSlot <: TypeNode {
   kind: SyntaxKind.ObjectTypeInternalSlot;
   /* error recovery */
   protoKeyword: SyntaxToken<TokenSyntaxKind> | null;
-  staticToken: SyntaxToken<TokenSyntaxKind> | null;
+  staticKeyword: SyntaxToken<TokenSyntaxKind> | null;
   name: Identifier | DummyIdentifier | StringLiteral | NumericLiteral;
   optionalToken: SyntaxToken<TokenSyntaxKind> | null;
   type: TypeNode;
@@ -170,7 +170,7 @@ interface ObjectTypeProperty <: TypeNode {
   kind: NodeKind.ObjectTypeProperty;
   getKeyword: SyntaxToken<TokenSyntaxKind> | null;
   setKeyword: SyntaxToken<TokenSyntaxKind> | null;
-  staticToken: SyntaxToken<TokenSyntaxKind> | null;
+  staticKeyword: SyntaxToken<TokenSyntaxKind> | null;
   protoKeyword: SyntaxToken<TokenSyntaxKind> | null;
   key: Identifier | DummyIdentifier | StringLiteral | NumericLiteral;
   optionalToken: SyntaxToken<TokenSyntaxKind> | null;
@@ -187,7 +187,7 @@ interface ObjectTypeSpreadProperty <: TypeNode {
   ellipsisToken: SyntaxToken<TokenSyntaxKind>;
   kind: SyntaxKind.ObjectTypeSpreadProperty;
   type: TypeNode;
-  staticToken: SyntaxToken<TokenSyntaxKind> | null;
+  staticKeyword: SyntaxToken<TokenSyntaxKind> | null;
 }
 ```
 

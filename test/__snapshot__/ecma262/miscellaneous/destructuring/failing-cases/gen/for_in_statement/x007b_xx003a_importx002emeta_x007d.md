@@ -48,27 +48,21 @@ for({ x: import.meta } in y);
                                 "end": 7
                             },
                             "right": {
-                                "kind": 120,
-                                "expression": {
-                                    "kind": 299,
-                                    "importKeyword": {
-                                        "kind": 37814364,
-                                        "flags": 64,
-                                        "start": 8,
-                                        "end": 15
-                                    },
-                                    "metaIdentifier": {
-                                        "kind": 16595,
-                                        "flags": 96,
-                                        "start": 16,
-                                        "end": 20
-                                    },
-                                    "flags": 15,
-                                    "start": 96,
+                                "kind": 299,
+                                "importKeyword": {
+                                    "kind": 37814364,
+                                    "flags": 64,
+                                    "start": 8,
+                                    "end": 15
+                                },
+                                "metaIdentifier": {
+                                    "kind": 16595,
+                                    "flags": 96,
+                                    "start": 16,
                                     "end": 20
                                 },
-                                "flags": 16,
-                                "start": 15,
+                                "flags": 15,
+                                "start": 96,
                                 "end": 20
                             },
                             "flags": 32,

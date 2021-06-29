@@ -96,6 +96,14 @@ async ([a]:string)=>c;
                             "start": 9,
                             "end": 12
                         },
+                        "argument": {
+                            "kind": 134299649,
+                            "text": "b",
+                            "rawText": "b",
+                            "flags": 96,
+                            "start": 12,
+                            "end": 13
+                        },
                         "flags": 1073741856,
                         "start": 9,
                         "end": 13

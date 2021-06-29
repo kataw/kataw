@@ -57,7 +57,7 @@ type x = { [x:string]:string }
                         {
                             "kind": 195,
                             "protoKeyword": null,
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "name": {
                                 "kind": 134299649,
                                 "text": "x",

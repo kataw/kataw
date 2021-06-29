@@ -2353,6 +2353,14 @@ a++ => {};
                                                                     "start": 515,
                                                                     "end": 518
                                                                 },
+                                                                "argument": {
+                                                                    "kind": 134299649,
+                                                                    "text": "x",
+                                                                    "rawText": "x",
+                                                                    "flags": 96,
+                                                                    "start": 518,
+                                                                    "end": 519
+                                                                },
                                                                 "flags": 1073741856,
                                                                 "start": 515,
                                                                 "end": 519
@@ -2517,6 +2525,14 @@ a++ => {};
                                                                                         "flags": 64,
                                                                                         "start": 555,
                                                                                         "end": 558
+                                                                                    },
+                                                                                    "argument": {
+                                                                                        "kind": 134299649,
+                                                                                        "text": "x",
+                                                                                        "rawText": "x",
+                                                                                        "flags": 96,
+                                                                                        "start": 558,
+                                                                                        "end": 559
                                                                                     },
                                                                                     "flags": 1073741856,
                                                                                     "start": 555,
@@ -4304,6 +4320,14 @@ a++ => {};
                                                                                             "start": 946,
                                                                                             "end": 949
                                                                                         },
+                                                                                        "argument": {
+                                                                                            "kind": 134299649,
+                                                                                            "text": "x",
+                                                                                            "rawText": "x",
+                                                                                            "flags": 96,
+                                                                                            "start": 949,
+                                                                                            "end": 950
+                                                                                        },
                                                                                         "flags": 1073741856,
                                                                                         "start": 946,
                                                                                         "end": 950
@@ -4509,6 +4533,14 @@ a++ => {};
                                                                         "start": 990,
                                                                         "end": 993
                                                                     },
+                                                                    "argument": {
+                                                                        "kind": 134299649,
+                                                                        "text": "x",
+                                                                        "rawText": "x",
+                                                                        "flags": 96,
+                                                                        "start": 993,
+                                                                        "end": 994
+                                                                    },
                                                                     "flags": 1073741856,
                                                                     "start": 990,
                                                                     "end": 994
@@ -4555,6 +4587,14 @@ a++ => {};
                                                                         "flags": 64,
                                                                         "start": 1004,
                                                                         "end": 1007
+                                                                    },
+                                                                    "argument": {
+                                                                        "kind": 134299649,
+                                                                        "text": "x",
+                                                                        "rawText": "x",
+                                                                        "flags": 96,
+                                                                        "start": 1007,
+                                                                        "end": 1008
                                                                     },
                                                                     "flags": 1073741856,
                                                                     "start": 1004,
@@ -4829,6 +4869,14 @@ a++ => {};
                                                                     "flags": 64,
                                                                     "start": 1068,
                                                                     "end": 1071
+                                                                },
+                                                                "argument": {
+                                                                    "kind": 134299649,
+                                                                    "text": "x",
+                                                                    "rawText": "x",
+                                                                    "flags": 96,
+                                                                    "start": 1071,
+                                                                    "end": 1072
                                                                 },
                                                                 "flags": 1073741856,
                                                                 "start": 1068,
@@ -5890,6 +5938,14 @@ a++ => {};
                                                                         "start": 1296,
                                                                         "end": 1299
                                                                     },
+                                                                    "argument": {
+                                                                        "kind": 134299649,
+                                                                        "text": "x",
+                                                                        "rawText": "x",
+                                                                        "flags": 96,
+                                                                        "start": 1299,
+                                                                        "end": 1300
+                                                                    },
                                                                     "flags": 1073741856,
                                                                     "start": 1296,
                                                                     "end": 1300
@@ -6185,6 +6241,14 @@ a++ => {};
                                                                                 "flags": 64,
                                                                                 "start": 1364,
                                                                                 "end": 1367
+                                                                            },
+                                                                            "argument": {
+                                                                                "kind": 134299649,
+                                                                                "text": "x",
+                                                                                "rawText": "x",
+                                                                                "flags": 96,
+                                                                                "start": 1367,
+                                                                                "end": 1368
                                                                             },
                                                                             "flags": 1073741856,
                                                                             "start": 1364,

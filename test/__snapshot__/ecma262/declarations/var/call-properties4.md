@@ -55,7 +55,7 @@ var a: { (x: number): string } = function (x: number): string { return "hi"; };
                                     {
                                         "kind": 196,
                                         "protoKeyword": null,
-                                        "staticToken": null,
+                                        "staticKeyword": null,
                                         "typeParameter": null,
                                         "value": {
                                             "kind": 282,

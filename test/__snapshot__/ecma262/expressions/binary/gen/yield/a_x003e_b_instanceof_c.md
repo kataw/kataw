@@ -161,7 +161,7 @@ function *f() {
 ```javascript
 
 function * f() {
-  yield a > b inctanceof c;
+  yield a > b instanceof c;
 }
 ```
 

@@ -55,7 +55,7 @@ var a: {param1?: number; param2: string; param3: string;}
                                     {
                                         "kind": 193,
                                         "protoKeyword": null,
-                                        "staticToken": null,
+                                        "staticKeyword": null,
                                         "getKeyword": null,
                                         "setKeyword": null,
                                         "key": {
@@ -93,7 +93,7 @@ var a: {param1?: number; param2: string; param3: string;}
                                     {
                                         "kind": 193,
                                         "protoKeyword": null,
-                                        "staticToken": null,
+                                        "staticKeyword": null,
                                         "getKeyword": null,
                                         "setKeyword": null,
                                         "key": {
@@ -126,7 +126,7 @@ var a: {param1?: number; param2: string; param3: string;}
                                     {
                                         "kind": 193,
                                         "protoKeyword": null,
-                                        "staticToken": null,
+                                        "staticKeyword": null,
                                         "getKeyword": null,
                                         "setKeyword": null,
                                         "key": {
