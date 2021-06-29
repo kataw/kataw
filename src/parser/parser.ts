@@ -4378,9 +4378,9 @@ export function convertArrowParameter(parser: ParserState, node: any): any {
       );
     case SyntaxKind.ElementList:
       const listElements = [];
+
       const arrayElements = node.elements;
-      let i = arrayElements.length;
-      while (i--) {
+      for (let i = 0; i < arrayElements.length; ++i) {
         listElements.push(convertArrowParameter(parser, arrayElements[i]));
       }
       return createElementList(
@@ -11169,6 +11169,7 @@ export function parseCoverCallExpressionAndAsyncArrowHead(
         );
       }
       const arrowParams = [];
+
       for (let i = 0; i < params.length; ++i) {
         arrowParams.push(convertArrowParameter(parser, params[i]));
       }

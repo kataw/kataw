@@ -1083,18 +1083,18 @@ var p10 = ([{ value, done }]) => { };
                                             "kind": 270,
                                             "elements": [
                                                 {
+                                                    "kind": 230,
+                                                    "flags": 96,
+                                                    "start": 281,
+                                                    "end": 281
+                                                },
+                                                {
                                                     "kind": 134299649,
                                                     "text": "a",
                                                     "rawText": "a",
                                                     "flags": 96,
                                                     "start": 282,
                                                     "end": 284
-                                                },
-                                                {
-                                                    "kind": 230,
-                                                    "flags": 96,
-                                                    "start": 281,
-                                                    "end": 281
                                                 }
                                             ],
                                             "trailingComma": false,
@@ -1186,6 +1186,12 @@ var p10 = ([{ value, done }]) => { };
                                             "kind": 270,
                                             "elements": [
                                                 {
+                                                    "kind": 230,
+                                                    "flags": 96,
+                                                    "start": 306,
+                                                    "end": 306
+                                                },
+                                                {
                                                     "kind": 281,
                                                     "ellipsisToken": {
                                                         "kind": 524302,
@@ -1207,12 +1213,6 @@ var p10 = ([{ value, done }]) => { };
                                                     "flags": 1073741856,
                                                     "start": 307,
                                                     "end": 312
-                                                },
-                                                {
-                                                    "kind": 230,
-                                                    "flags": 96,
-                                                    "start": 306,
-                                                    "end": 306
                                                 }
                                             ],
                                             "trailingComma": false,

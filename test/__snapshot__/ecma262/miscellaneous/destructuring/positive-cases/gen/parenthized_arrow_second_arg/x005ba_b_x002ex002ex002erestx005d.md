@@ -67,6 +67,22 @@ var f = (argument1,[a,b,...rest]) => {};
                                             "kind": 270,
                                             "elements": [
                                                 {
+                                                    "kind": 134299649,
+                                                    "text": "a",
+                                                    "rawText": "a",
+                                                    "flags": 96,
+                                                    "start": 20,
+                                                    "end": 21
+                                                },
+                                                {
+                                                    "kind": 134299649,
+                                                    "text": "b",
+                                                    "rawText": "b",
+                                                    "flags": 96,
+                                                    "start": 22,
+                                                    "end": 23
+                                                },
+                                                {
                                                     "kind": 281,
                                                     "ellipsisToken": {
                                                         "kind": 524302,
@@ -88,22 +104,6 @@ var f = (argument1,[a,b,...rest]) => {};
                                                     "flags": 1073741856,
                                                     "start": 24,
                                                     "end": 31
-                                                },
-                                                {
-                                                    "kind": 134299649,
-                                                    "text": "b",
-                                                    "rawText": "b",
-                                                    "flags": 96,
-                                                    "start": 22,
-                                                    "end": 23
-                                                },
-                                                {
-                                                    "kind": 134299649,
-                                                    "text": "a",
-                                                    "rawText": "a",
-                                                    "flags": 96,
-                                                    "start": 20,
-                                                    "end": 21
                                                 }
                                             ],
                                             "trailingComma": false,

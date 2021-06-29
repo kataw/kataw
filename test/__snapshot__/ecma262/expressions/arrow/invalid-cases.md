@@ -1499,29 +1499,6 @@ a++ => {};
                                 "kind": 270,
                                 "elements": [
                                     {
-                                        "kind": 281,
-                                        "ellipsisToken": {
-                                            "kind": 524302,
-                                            "flags": 64,
-                                            "start": 329,
-                                            "end": 332
-                                        },
-                                        "left": {
-                                            "kind": 134299649,
-                                            "text": "qq",
-                                            "rawText": "qq",
-                                            "flags": 96,
-                                            "start": 332,
-                                            "end": 334
-                                        },
-                                        "optionalToken": null,
-                                        "type": null,
-                                        "right": null,
-                                        "flags": 1073741856,
-                                        "start": 329,
-                                        "end": 334
-                                    },
-                                    {
                                         "kind": 201,
                                         "elementList": {
                                             "kind": 270,
@@ -1558,6 +1535,29 @@ a++ => {};
                                         "flags": 32,
                                         "start": 322,
                                         "end": 328
+                                    },
+                                    {
+                                        "kind": 281,
+                                        "ellipsisToken": {
+                                            "kind": 524302,
+                                            "flags": 64,
+                                            "start": 329,
+                                            "end": 332
+                                        },
+                                        "left": {
+                                            "kind": 134299649,
+                                            "text": "qq",
+                                            "rawText": "qq",
+                                            "flags": 96,
+                                            "start": 332,
+                                            "end": 334
+                                        },
+                                        "optionalToken": null,
+                                        "type": null,
+                                        "right": null,
+                                        "flags": 1073741856,
+                                        "start": 329,
+                                        "end": 334
                                     }
                                 ],
                                 "trailingComma": false,
@@ -3210,27 +3210,12 @@ a++ => {};
                                 "kind": 270,
                                 "elements": [
                                     {
-                                        "kind": 281,
-                                        "ellipsisToken": {
-                                            "kind": 524302,
-                                            "flags": 64,
-                                            "start": 718,
-                                            "end": 721
-                                        },
-                                        "left": {
-                                            "kind": 134299649,
-                                            "text": "js",
-                                            "rawText": "js",
-                                            "flags": 96,
-                                            "start": 721,
-                                            "end": 723
-                                        },
-                                        "optionalToken": null,
-                                        "type": null,
-                                        "right": null,
-                                        "flags": 1073741856,
-                                        "start": 718,
-                                        "end": 723
+                                        "kind": 134299649,
+                                        "text": "t",
+                                        "rawText": "t",
+                                        "flags": 96,
+                                        "start": 699,
+                                        "end": 700
                                     },
                                     {
                                         "kind": 212,
@@ -3287,12 +3272,27 @@ a++ => {};
                                         "end": 717
                                     },
                                     {
-                                        "kind": 134299649,
-                                        "text": "t",
-                                        "rawText": "t",
-                                        "flags": 96,
-                                        "start": 699,
-                                        "end": 700
+                                        "kind": 281,
+                                        "ellipsisToken": {
+                                            "kind": 524302,
+                                            "flags": 64,
+                                            "start": 718,
+                                            "end": 721
+                                        },
+                                        "left": {
+                                            "kind": 134299649,
+                                            "text": "js",
+                                            "rawText": "js",
+                                            "flags": 96,
+                                            "start": 721,
+                                            "end": 723
+                                        },
+                                        "optionalToken": null,
+                                        "type": null,
+                                        "right": null,
+                                        "flags": 1073741856,
+                                        "start": 718,
+                                        "end": 723
                                     }
                                 ],
                                 "trailingComma": false,

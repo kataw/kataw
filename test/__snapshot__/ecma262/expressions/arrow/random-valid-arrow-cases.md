@@ -989,19 +989,19 @@ foo((x, y) => {});
                                             "elements": [
                                                 {
                                                     "kind": 134299649,
-                                                    "text": "b",
-                                                    "rawText": "b",
-                                                    "flags": 96,
-                                                    "start": 216,
-                                                    "end": 217
-                                                },
-                                                {
-                                                    "kind": 134299649,
                                                     "text": "a",
                                                     "rawText": "a",
                                                     "flags": 96,
                                                     "start": 214,
                                                     "end": 215
+                                                },
+                                                {
+                                                    "kind": 134299649,
+                                                    "text": "b",
+                                                    "rawText": "b",
+                                                    "flags": 96,
+                                                    "start": 216,
+                                                    "end": 217
                                                 }
                                             ],
                                             "trailingComma": false,
@@ -1426,19 +1426,19 @@ foo((x, y) => {});
                                                 "elements": [
                                                     {
                                                         "kind": 134299649,
-                                                        "text": "y",
-                                                        "rawText": "y",
-                                                        "flags": 96,
-                                                        "start": 313,
-                                                        "end": 315
-                                                    },
-                                                    {
-                                                        "kind": 134299649,
                                                         "text": "x",
                                                         "rawText": "x",
                                                         "flags": 96,
                                                         "start": 311,
                                                         "end": 312
+                                                    },
+                                                    {
+                                                        "kind": 134299649,
+                                                        "text": "y",
+                                                        "rawText": "y",
+                                                        "flags": 96,
+                                                        "start": 313,
+                                                        "end": 315
                                                     }
                                                 ],
                                                 "trailingComma": false,
