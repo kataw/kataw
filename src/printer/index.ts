@@ -207,8 +207,8 @@ function statementWorker(node: SyntaxNode, printer: Printer): void {
       return printBreakStatement(<any>node, printer);
     case SyntaxKind.SwitchStatement:
       return printSwitchStatement(<any>node, printer);
-//    case SyntaxKind.StaticBlock:
-  //    return printStaticBlock(<any>node, printer);
+    //    case SyntaxKind.StaticBlock:
+    //    return printStaticBlock(<any>node, printer);
     case SyntaxKind.ForStatement:
       return printForStatement(<any>node, printer);
     case SyntaxKind.FunctionDeclaration:
@@ -346,8 +346,8 @@ function statementWorker(node: SyntaxNode, printer: Printer): void {
       return printUnionType(<any>node, printer);
     case SyntaxKind.ExportDeclaration:
       return printExportDeclaration(<any>node, printer);
-      case SyntaxKind.ExportFromClause:
-        return printExportFromClause(<any>node, printer);
+    case SyntaxKind.ExportFromClause:
+      return printExportFromClause(<any>node, printer);
     case SyntaxKind.ExportDefault:
       return printExportDefault(<any>node, printer);
     case SyntaxKind.NamedExports:
@@ -604,11 +604,34 @@ function printList(
 ) {
   const isEmpty = children === undefined || 0 >= children.length;
 
-let aladdin: any = [];
+  let aladdin: any = [];
 
-  if (format & (PrinterContext.Braces | PrinterContext.Parenthesis | PrinterContext.AngleBrackets | PrinterContext.SquareBrackets)) {
-    aladdin.push(brackets[format & (PrinterContext.Braces | PrinterContext.Parenthesis | PrinterContext.AngleBrackets | PrinterContext.SquareBrackets)][0])
-    write(printer, brackets[format & (PrinterContext.Braces | PrinterContext.Parenthesis | PrinterContext.AngleBrackets | PrinterContext.SquareBrackets)][0]);
+  if (
+    format &
+    (PrinterContext.Braces |
+      PrinterContext.Parenthesis |
+      PrinterContext.AngleBrackets |
+      PrinterContext.SquareBrackets)
+  ) {
+    aladdin.push(
+      brackets[
+        format &
+          (PrinterContext.Braces |
+            PrinterContext.Parenthesis |
+            PrinterContext.AngleBrackets |
+            PrinterContext.SquareBrackets)
+      ][0]
+    );
+    write(
+      printer,
+      brackets[
+        format &
+          (PrinterContext.Braces |
+            PrinterContext.Parenthesis |
+            PrinterContext.AngleBrackets |
+            PrinterContext.SquareBrackets)
+      ][0]
+    );
     if (isEmpty && children) {
       printTrailingCommentsOfPosition(printer, listNode.start);
     }
@@ -648,13 +671,16 @@ let aladdin: any = [];
 
       if (previousSibling) {
         if (
-          format & (PrinterContext.BarDelimited | PrinterContext.AmpersandDelimited | PrinterContext.CommaDelimited) &&
+          format &
+            (PrinterContext.BarDelimited |
+              PrinterContext.AmpersandDelimited |
+              PrinterContext.CommaDelimited) &&
           previousSibling.end !== (listNode ? listNode.end : -1)
         ) {
           printLeadingCommentsOfPosition(printer, previousSibling.end);
         }
 
-        aladdin.push(', ')
+        aladdin.push(', ');
         writeDelimiter(printer, format);
 
         // Write either a line terminator or whitespace to separate the elements.
@@ -669,7 +695,11 @@ let aladdin: any = [];
           // If a synthesized node in a single-line list starts on a new
           // line, we should increase the indent.
           if (
-            (format & (PrinterContext.SingleLine |  PrinterContext.MultiLine |  PrinterContext.PreserveLines | PrinterContext.Indented)) ===
+            (format &
+              (PrinterContext.SingleLine |
+                PrinterContext.MultiLine |
+                PrinterContext.PreserveLines |
+                PrinterContext.Indented)) ===
             PrinterContext.SingleLine
           ) {
             printer.indent++;
@@ -715,7 +745,10 @@ let aladdin: any = [];
     if (
       previousSibling &&
       listNode.end !== previousSibling.end &&
-      format & (PrinterContext.BarDelimited | PrinterContext.AmpersandDelimited | PrinterContext.CommaDelimited)
+      format &
+        (PrinterContext.BarDelimited |
+          PrinterContext.AmpersandDelimited |
+          PrinterContext.CommaDelimited)
     ) {
       printLeadingCommentsOfPosition(
         printer,
@@ -740,11 +773,34 @@ let aladdin: any = [];
     }
   }
 
-  if (format & (PrinterContext.Braces | PrinterContext.Parenthesis | PrinterContext.AngleBrackets | PrinterContext.SquareBrackets)) {
+  if (
+    format &
+    (PrinterContext.Braces |
+      PrinterContext.Parenthesis |
+      PrinterContext.AngleBrackets |
+      PrinterContext.SquareBrackets)
+  ) {
     if (isEmpty && children)
       printLeadingCommentsOfPosition(printer, listNode.end);
-      aladdin.push(brackets[format & (PrinterContext.Braces | PrinterContext.Parenthesis | PrinterContext.AngleBrackets | PrinterContext.SquareBrackets)][1])
-    write(printer, brackets[format & (PrinterContext.Braces | PrinterContext.Parenthesis | PrinterContext.AngleBrackets | PrinterContext.SquareBrackets)][1]);
+    aladdin.push(
+      brackets[
+        format &
+          (PrinterContext.Braces |
+            PrinterContext.Parenthesis |
+            PrinterContext.AngleBrackets |
+            PrinterContext.SquareBrackets)
+      ][1]
+    );
+    write(
+      printer,
+      brackets[
+        format &
+          (PrinterContext.Braces |
+            PrinterContext.Parenthesis |
+            PrinterContext.AngleBrackets |
+            PrinterContext.SquareBrackets)
+      ][1]
+    );
   }
 }
 
@@ -763,8 +819,19 @@ function printElementList(
     parentNode,
     node.elements,
     node.flags & NodeFlags.NewLine
-      ? PrinterContext.PreserveLines | PrinterContext.CommaDelimited | PrinterContext.SpaceBetweenSiblings | PrinterContext.AllowTrailingComma | PrinterContext.Indented | PrinterContext.SquareBrackets | PrinterContext.PreferNewLine
-      : PrinterContext.PreserveLines | PrinterContext.CommaDelimited | PrinterContext.SpaceBetweenSiblings | PrinterContext.AllowTrailingComma | PrinterContext.Indented | PrinterContext.SquareBrackets
+      ? PrinterContext.PreserveLines |
+          PrinterContext.CommaDelimited |
+          PrinterContext.SpaceBetweenSiblings |
+          PrinterContext.AllowTrailingComma |
+          PrinterContext.Indented |
+          PrinterContext.SquareBrackets |
+          PrinterContext.PreferNewLine
+      : PrinterContext.PreserveLines |
+          PrinterContext.CommaDelimited |
+          PrinterContext.SpaceBetweenSiblings |
+          PrinterContext.AllowTrailingComma |
+          PrinterContext.Indented |
+          PrinterContext.SquareBrackets
   );
 }
 
@@ -811,7 +878,9 @@ function printVariableDeclarationList(
     node,
     parentNode,
     node.declarations,
-    PrinterContext.CommaDelimited | PrinterContext.SpaceBetweenSiblings | PrinterContext.SingleLine
+    PrinterContext.CommaDelimited |
+      PrinterContext.SpaceBetweenSiblings |
+      PrinterContext.SingleLine
   );
 }
 
@@ -836,7 +905,9 @@ function printBindingList(
     node,
     parentNode,
     node.bindingList,
-    PrinterContext.CommaDelimited | PrinterContext.SpaceBetweenSiblings | PrinterContext.SingleLine
+    PrinterContext.CommaDelimited |
+      PrinterContext.SpaceBetweenSiblings |
+      PrinterContext.SingleLine
   );
 }
 
@@ -958,8 +1029,13 @@ function printBlock(
     node.statements,
     (node.flags & NodeFlags.NewLine) === 0 &&
       isEmptyBlock(node, parentNode, printer)
-      ? PrinterContext.SpaceBetweenBraces | PrinterContext.SpaceBetweenSiblings | PrinterContext.SingleLine | PrinterContext.Braces
-      : PrinterContext.Indented | PrinterContext.MultiLine | PrinterContext.Braces
+      ? PrinterContext.SpaceBetweenBraces |
+          PrinterContext.SpaceBetweenSiblings |
+          PrinterContext.SingleLine |
+          PrinterContext.Braces
+      : PrinterContext.Indented |
+          PrinterContext.MultiLine |
+          PrinterContext.Braces
   );
 }
 
@@ -1147,8 +1223,11 @@ function printCaseOrDefaultClauseRest(
       node,
       node,
       statements,
-      PrinterContext.Indented | PrinterContext.MultiLine | PrinterContext.NoTrailingNewLine | PrinterContext.OptionalIfEmpty &
-        ~(PrinterContext.MultiLine | PrinterContext.Indented)
+      PrinterContext.Indented |
+        PrinterContext.MultiLine |
+        PrinterContext.NoTrailingNewLine |
+        (PrinterContext.OptionalIfEmpty &
+          ~(PrinterContext.MultiLine | PrinterContext.Indented))
     );
   } else {
     printKeyword(node.colonToken, printer, node);
@@ -1157,7 +1236,10 @@ function printCaseOrDefaultClauseRest(
       node,
       node,
       statements,
-      PrinterContext.Indented | PrinterContext.MultiLine | PrinterContext.NoTrailingNewLine | PrinterContext.OptionalIfEmpty
+      PrinterContext.Indented |
+        PrinterContext.MultiLine |
+        PrinterContext.NoTrailingNewLine |
+        PrinterContext.OptionalIfEmpty
     );
   }
 }
@@ -1172,7 +1254,9 @@ function printCommaOperator(node: any, printer: Printer): void {
     node,
     node,
     node.expressions,
-    PrinterContext.CommaDelimited | PrinterContext.SpaceBetweenSiblings | PrinterContext.SingleLine
+    PrinterContext.CommaDelimited |
+      PrinterContext.SpaceBetweenSiblings |
+      PrinterContext.SingleLine
   );
 }
 
@@ -1228,7 +1312,11 @@ function printNewExpression(node: any, printer: Printer): void {
       node.argumentList,
       node,
       printer,
-      PrinterContext.CommaDelimited | PrinterContext.SpaceBetweenSiblings | PrinterContext.SingleLine | PrinterContext.Parenthesis | PrinterContext.OptionalIfUndefined
+      PrinterContext.CommaDelimited |
+        PrinterContext.SpaceBetweenSiblings |
+        PrinterContext.SingleLine |
+        PrinterContext.Parenthesis |
+        PrinterContext.OptionalIfUndefined
     );
   }
 }
@@ -1258,7 +1346,10 @@ function printCallExpression(node: CallExpression, printer: Printer): void {
     node.argumentList,
     node,
     printer,
-    PrinterContext.CommaDelimited | PrinterContext.SpaceBetweenSiblings | PrinterContext.SingleLine | PrinterContext.Parenthesis
+    PrinterContext.CommaDelimited |
+      PrinterContext.SpaceBetweenSiblings |
+      PrinterContext.SingleLine |
+      PrinterContext.Parenthesis
   );
 }
 
@@ -1266,9 +1357,9 @@ function printParenthesizedExpression(
   node: ParenthesizedExpression,
   printer: Printer
 ): void {
-    printPunctuator('(', printer, node.start, node);
-    printExpression(node.expression, printer);
-    printPunctuator(')', printer, node.expression.end, node);
+  printPunctuator('(', printer, node.start, node);
+  printExpression(node.expression, printer);
+  printPunctuator(')', printer, node.expression.end, node);
 }
 
 function printYieldExpression(node: YieldExpression, printer: Printer): void {
@@ -1460,7 +1551,9 @@ function printFunctioBody(node: any, printer: Printer, parentNode: any): void {
       node,
       parentNode,
       statements,
-      PrinterContext.SingleLine | PrinterContext.SpaceBetweenSiblings | PrinterContext.SpaceBetweenBraces
+      PrinterContext.SingleLine |
+        PrinterContext.SpaceBetweenSiblings |
+        PrinterContext.SpaceBetweenBraces
     );
     printer.indent++;
   } else {
@@ -1502,8 +1595,17 @@ function printFormalParameterList(
     parentNode,
     node.formalParameters,
     node.trailingComma
-      ? PrinterContext.CommaDelimited | PrinterContext.SpaceBetweenSiblings | PrinterContext.SingleLine | PrinterContext.Indented | PrinterContext.Parenthesis | PrinterContext.AllowTrailingComma
-      : PrinterContext.CommaDelimited | PrinterContext.SpaceBetweenSiblings | PrinterContext.SingleLine | PrinterContext.Indented | PrinterContext.Parenthesis
+      ? PrinterContext.CommaDelimited |
+          PrinterContext.SpaceBetweenSiblings |
+          PrinterContext.SingleLine |
+          PrinterContext.Indented |
+          PrinterContext.Parenthesis |
+          PrinterContext.AllowTrailingComma
+      : PrinterContext.CommaDelimited |
+          PrinterContext.SpaceBetweenSiblings |
+          PrinterContext.SingleLine |
+          PrinterContext.Indented |
+          PrinterContext.Parenthesis
   );
 }
 
@@ -1547,8 +1649,16 @@ function printPropertyDefinitionList(
     node,
     parentNode,
     node.properties,
-    PrinterContext.PreserveLines | PrinterContext.CommaDelimited | PrinterContext.SpaceBetweenSiblings | PrinterContext.SpaceBetweenBraces | PrinterContext.Indented | PrinterContext.Braces | PrinterContext.NoSpaceIfEmpty |
-      (node.trailingComma ? PrinterContext.AllowTrailingComma : PrinterContext.None) |
+    PrinterContext.PreserveLines |
+      PrinterContext.CommaDelimited |
+      PrinterContext.SpaceBetweenSiblings |
+      PrinterContext.SpaceBetweenBraces |
+      PrinterContext.Indented |
+      PrinterContext.Braces |
+      PrinterContext.NoSpaceIfEmpty |
+      (node.trailingComma
+        ? PrinterContext.AllowTrailingComma
+        : PrinterContext.None) |
       (node.flags & NodeFlags.NewLine
         ? PrinterContext.PreferNewLine
         : PrinterContext.None)
@@ -1619,7 +1729,9 @@ function printerBindingElementList(
     node.elements,
     PrinterContext.SingleLine |
       PrinterContext.SquareBrackets |
-      (node.trailingComma ? PrinterContext.AllowTrailingComma : PrinterContext.None) |
+      (node.trailingComma
+        ? PrinterContext.AllowTrailingComma
+        : PrinterContext.None) |
       PrinterContext.CommaDelimited |
       PrinterContext.SpaceBetweenSiblings
   );
@@ -1641,7 +1753,9 @@ function printBindingPropertyList(
     node,
     parentNode,
     node.properties,
-    (node.trailingComma ? PrinterContext.AllowTrailingComma : PrinterContext.None) |
+    (node.trailingComma
+      ? PrinterContext.AllowTrailingComma
+      : PrinterContext.None) |
       ((node.flags & NodeFlags.NewLine) === 0 &&
       isEmptyProperties(node, printer)
         ? PrinterContext.SingleLine |
@@ -1680,7 +1794,11 @@ function printArrowParameterList(
     node,
     parentNode,
     node.parameters,
-    PrinterContext.CommaDelimited | PrinterContext.SpaceBetweenSiblings | PrinterContext.SingleLine | PrinterContext.Indented | PrinterContext.Parenthesis
+    PrinterContext.CommaDelimited |
+      PrinterContext.SpaceBetweenSiblings |
+      PrinterContext.SingleLine |
+      PrinterContext.Indented |
+      PrinterContext.Parenthesis
   );
 }
 
@@ -1895,8 +2013,14 @@ function printArrowTypeParameterList(node: any, printer: Printer): void {
     node,
     node,
     node.parameters,
-    (PrinterContext.CommaDelimited | PrinterContext.SpaceBetweenSiblings | PrinterContext.SingleLine | PrinterContext.Indented | PrinterContext.Parenthesis & ~PrinterContext.Parenthesis) |
-      (node.trailingComma ? PrinterContext.AllowTrailingComma : PrinterContext.None)
+    PrinterContext.CommaDelimited |
+      PrinterContext.SpaceBetweenSiblings |
+      PrinterContext.SingleLine |
+      PrinterContext.Indented |
+      (PrinterContext.Parenthesis & ~PrinterContext.Parenthesis) |
+      (node.trailingComma
+        ? PrinterContext.AllowTrailingComma
+        : PrinterContext.None)
   );
 }
 
@@ -1938,8 +2062,14 @@ function printFunctionTypeParameterList(node: any, printer: Printer): void {
     node,
     node,
     node.parameters,
-    (PrinterContext.CommaDelimited | PrinterContext.SpaceBetweenSiblings | PrinterContext.SingleLine | PrinterContext.Indented | PrinterContext.Parenthesis & ~PrinterContext.Parenthesis) |
-      (node.trailingComma ? PrinterContext.AllowTrailingComma : PrinterContext.None)
+    PrinterContext.CommaDelimited |
+      PrinterContext.SpaceBetweenSiblings |
+      PrinterContext.SingleLine |
+      PrinterContext.Indented |
+      (PrinterContext.Parenthesis & ~PrinterContext.Parenthesis) |
+      (node.trailingComma
+        ? PrinterContext.AllowTrailingComma
+        : PrinterContext.None)
   );
 }
 
@@ -1999,7 +2129,9 @@ function printIntersectionType(node: any, printer: Printer): void {
     node,
     node,
     node.types,
-    PrinterContext.AmpersandDelimited | PrinterContext.SpaceBetweenSiblings | PrinterContext.SingleLine
+    PrinterContext.AmpersandDelimited |
+      PrinterContext.SpaceBetweenSiblings |
+      PrinterContext.SingleLine
   );
 }
 
@@ -2126,10 +2258,14 @@ function printObjectType(
 ): void {
   let flags =
     parentNode.flags & NodeFlags.NewLine || node.properties.length > 3
-      ? PrinterContext.MultiLine | PrinterContext.Indented | PrinterContext.OptionalIfEmpty |
+      ? PrinterContext.MultiLine |
+        PrinterContext.Indented |
+        PrinterContext.OptionalIfEmpty |
         PrinterContext.NoSpaceIfEmpty |
         PrinterContext.CommaDelimited
-      : PrinterContext.SingleLine | PrinterContext.SpaceBetweenBraces | PrinterContext.SpaceBetweenSiblings |
+      : PrinterContext.SingleLine |
+        PrinterContext.SpaceBetweenBraces |
+        PrinterContext.SpaceBetweenSiblings |
         PrinterContext.NoSpaceIfEmpty |
         PrinterContext.CommaDelimited;
   if (node.trailingComma) flags |= PrinterContext.AllowTrailingComma;
@@ -2221,8 +2357,13 @@ function printTupleType(node: any, printer: Printer): void {
     node,
     node.elementTypes,
     node.trailingComma
-      ? PrinterContext.CommaDelimited | PrinterContext.SpaceBetweenSiblings | PrinterContext.SingleLine | PrinterContext.AllowTrailingComma
-      : PrinterContext.CommaDelimited | PrinterContext.SpaceBetweenSiblings | PrinterContext.SingleLine
+      ? PrinterContext.CommaDelimited |
+          PrinterContext.SpaceBetweenSiblings |
+          PrinterContext.SingleLine |
+          PrinterContext.AllowTrailingComma
+      : PrinterContext.CommaDelimited |
+          PrinterContext.SpaceBetweenSiblings |
+          PrinterContext.SingleLine
   );
   write(printer, ']');
 }
@@ -2251,8 +2392,21 @@ function printTypeInstantiations(node: any, printer: Printer): void {
     node,
     node.types,
     node.trailingComma
-      ? PrinterContext.CommaDelimited | PrinterContext.SpaceBetweenSiblings | PrinterContext.SingleLine | PrinterContext.Indented | PrinterContext.AngleBrackets | PrinterContext.OptionalIfUndefined | PrinterContext.OptionalIfEmpty | PrinterContext.AllowTrailingComma
-      : PrinterContext.CommaDelimited | PrinterContext.SpaceBetweenSiblings | PrinterContext.SingleLine | PrinterContext.Indented | PrinterContext.AngleBrackets | PrinterContext.OptionalIfUndefined | PrinterContext.OptionalIfEmpty
+      ? PrinterContext.CommaDelimited |
+          PrinterContext.SpaceBetweenSiblings |
+          PrinterContext.SingleLine |
+          PrinterContext.Indented |
+          PrinterContext.AngleBrackets |
+          PrinterContext.OptionalIfUndefined |
+          PrinterContext.OptionalIfEmpty |
+          PrinterContext.AllowTrailingComma
+      : PrinterContext.CommaDelimited |
+          PrinterContext.SpaceBetweenSiblings |
+          PrinterContext.SingleLine |
+          PrinterContext.Indented |
+          PrinterContext.AngleBrackets |
+          PrinterContext.OptionalIfUndefined |
+          PrinterContext.OptionalIfEmpty
   );
 }
 
@@ -2271,8 +2425,21 @@ function printTypeParameterList(node: any, printer: Printer): void {
     node,
     node.parameters,
     node.trailingComma
-      ? PrinterContext.CommaDelimited | PrinterContext.SpaceBetweenSiblings | PrinterContext.SingleLine | PrinterContext.Indented | PrinterContext.AngleBrackets | PrinterContext.OptionalIfUndefined | PrinterContext.OptionalIfEmpty | PrinterContext.AllowTrailingComma
-      : PrinterContext.CommaDelimited | PrinterContext.SpaceBetweenSiblings | PrinterContext.SingleLine | PrinterContext.Indented | PrinterContext.AngleBrackets | PrinterContext.OptionalIfUndefined | PrinterContext.OptionalIfEmpty
+      ? PrinterContext.CommaDelimited |
+          PrinterContext.SpaceBetweenSiblings |
+          PrinterContext.SingleLine |
+          PrinterContext.Indented |
+          PrinterContext.AngleBrackets |
+          PrinterContext.OptionalIfUndefined |
+          PrinterContext.OptionalIfEmpty |
+          PrinterContext.AllowTrailingComma
+      : PrinterContext.CommaDelimited |
+          PrinterContext.SpaceBetweenSiblings |
+          PrinterContext.SingleLine |
+          PrinterContext.Indented |
+          PrinterContext.AngleBrackets |
+          PrinterContext.OptionalIfUndefined |
+          PrinterContext.OptionalIfEmpty
   );
 }
 
@@ -2310,7 +2477,9 @@ function printUnionType(node: any, printer: Printer): void {
     node,
     node,
     node.types,
-    PrinterContext.BarDelimited | PrinterContext.SpaceBetweenSiblings | PrinterContext.SingleLine
+    PrinterContext.BarDelimited |
+      PrinterContext.SpaceBetweenSiblings |
+      PrinterContext.SingleLine
   );
 }
 
@@ -2322,9 +2491,9 @@ function printImportCall(node: any, printer: Printer): void {
 }
 
 function printImportMeta(node: any, printer: Printer): void {
-    printKeyword(node.importKeyword, printer, node);
-    printPunctuator('.', printer, node.importKeyword.end, node);
-    printKeyword(node.metaIdentifier, printer, node);
+  printKeyword(node.importKeyword, printer, node);
+  printPunctuator('.', printer, node.importKeyword.end, node);
+  printKeyword(node.metaIdentifier, printer, node);
 }
 
 function printOptionalExpression(node: any, printer: Printer): void {
@@ -2346,7 +2515,10 @@ function printCallChain(node: any, printer: Printer): void {
     node.argumentList,
     node,
     printer,
-    PrinterContext.CommaDelimited | PrinterContext.SpaceBetweenSiblings | PrinterContext.SingleLine | PrinterContext.Parenthesis
+    PrinterContext.CommaDelimited |
+      PrinterContext.SpaceBetweenSiblings |
+      PrinterContext.SingleLine |
+      PrinterContext.Parenthesis
   );
 }
 
@@ -2402,7 +2574,9 @@ function printDecoratorList(
     node,
     parentNode,
     node.elements,
-    PrinterContext.MultiLine | PrinterContext.OptionalIfUndefined | PrinterContext.OptionalIfEmpty
+    PrinterContext.MultiLine |
+      PrinterContext.OptionalIfUndefined |
+      PrinterContext.OptionalIfEmpty
   );
 }
 
@@ -2474,10 +2648,10 @@ function printExportsImportsList(node: any, printer: Printer): void {
     node,
     node.specifiers,
     PrinterContext.CommaDelimited |
-    PrinterContext.SpaceBetweenSiblings |
-    PrinterContext.AllowTrailingComma |
-    PrinterContext.SingleLine |
-    PrinterContext.SpaceBetweenBraces
+      PrinterContext.SpaceBetweenSiblings |
+      PrinterContext.AllowTrailingComma |
+      PrinterContext.SingleLine |
+      PrinterContext.SpaceBetweenBraces
   );
   write(printer, '}');
 }
@@ -2503,15 +2677,14 @@ function printFromClause(node: any, printer: Printer): void {
   if (node) {
     write(printer, ' ');
     if (node.fromKeyword) {
-    printKeyword(node.fromKeyword, printer, node);
-    write(printer, ' ');
-  }
+      printKeyword(node.fromKeyword, printer, node);
+      write(printer, ' ');
+    }
     printStatement(node.from, printer);
   }
 }
 
 function printImportDeclaration(node: any, printer: Printer): void {
-
   printKeyword(node.importKeyword, printer, node);
   write(printer, ' ');
   if (node.typeKeyword) {
@@ -2549,11 +2722,11 @@ function printExportFromClause(node: any, printer: Printer): void {
   printKeyword(node.asteriskToken, printer, node);
   write(printer, ' ');
   if (node.asKeyword) {
-  printKeyword(node.asKeyword, printer, node);
-  write(printer, ' ');
-  printStatement(node.moduleExportName, printer);
-  printStatement(node.namedBinding, printer);
-}
+    printKeyword(node.asKeyword, printer, node);
+    write(printer, ' ');
+    printStatement(node.moduleExportName, printer);
+    printStatement(node.namedBinding, printer);
+  }
 }
 
 function printExportDeclaration(node: any, printer: Printer): void {
@@ -2674,10 +2847,7 @@ export function printStringLiteral(
   );
 }
 
-export function printNewTarget(
-  node: any,
-  printer: Printer,
-) {
+export function printNewTarget(node: any, printer: Printer) {
   printKeyword(node.newKeyword, printer, node);
   write(printer, '.');
   printKeyword(node.targetIdentifier, printer, node);

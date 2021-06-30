@@ -63,7 +63,7 @@ export function createPrinter(source: string): Printer {
     lastSingleLinePos: -1,
     declarationListContainerEnd: -1,
     lineMap: [],
-    detachedCommentsInfo: undefined
+    detachedCommentsInfo: undefined,
   };
 }
 
@@ -76,35 +76,40 @@ export function writeLine(printer: Printer) {
 function stringRepeat(str: string, num: number) {
   var result = '';
   while (true) {
-      if (num & 1) { // (1)
-          result += str;
-      }
-      num >>>= 1; // (2)
-      if (num <= 0) break;
-      str += str;
+    if (num & 1) {
+      // (1)
+      result += str;
+    }
+    num >>>= 1; // (2)
+    if (num <= 0) break;
+    str += str;
   }
 
   return result;
 }
 export function write(printer: Printer, s: string) {
-    if (printer.lineStart) {
-      printer.output += stringRepeat(' ', printer.indent * 2);
-      printer.lineStart = false;
-    }
-    printer.output += s;
+  if (printer.lineStart) {
+    printer.output += stringRepeat(' ', printer.indent * 2);
+    printer.lineStart = false;
+  }
+  printer.output += s;
 }
 
-export function printWithComments(node: any, printer: Printer, printCallback: (node: any, printer: Printer) => void) {
+export function printWithComments(
+  node: any,
+  printer: Printer,
+  printCallback: (node: any, printer: Printer) => void
+) {
   if (node) {
     const { start, end } = node;
 
     if ((start < 0 && end < 0) || start === end) {
       printCallback(node, printer);
     } else {
-
       if (start >= 0) printLeadingComments(printer, start);
 
-      const { containerPos, containerEnd, declarationListContainerEnd } = printer;
+      const { containerPos, containerEnd, declarationListContainerEnd } =
+        printer;
 
       if (start >= 0) {
         printer.containerPos = start;
@@ -138,7 +143,11 @@ function getTrailingCommentRanges(text: string, pos: number): any[] {
 
 function getTrailingCommentsToEmit(printer: Printer, end: number): any {
   // Emit the trailing comments only if the container's end doesn't match because the container should take care of emitting these comments
-  if (printer.containerEnd === -1 || (end !== printer.containerEnd && end !== printer.declarationListContainerEnd)) {
+  if (
+    printer.containerEnd === -1 ||
+    (end !== printer.containerEnd &&
+      end !== printer.declarationListContainerEnd)
+  ) {
     return getTrailingCommentRanges(printer.source, end);
   }
 }
@@ -168,7 +177,6 @@ function getCommentRanges(text: string, pos: number, trailing: boolean): any {
   let collecting = trailing || pos === 0;
 
   while (true) {
-
     let ch = text.charCodeAt(pos);
     switch (ch) {
       case Char.CarriageReturn:
@@ -195,7 +203,10 @@ function getCommentRanges(text: string, pos: number, trailing: boolean): any {
         let nextChar = text.charCodeAt(pos + 1);
         let hasTrailingNewLine = false;
         if (nextChar === Char.Slash || nextChar === Char.Asterisk) {
-          let kind = nextChar === Char.Slash ? SyntaxKind.SingleLineComment : SyntaxKind.MultiLineComment;
+          let kind =
+            nextChar === Char.Slash
+              ? SyntaxKind.SingleLineComment
+              : SyntaxKind.MultiLineComment;
           let startPos = pos;
           pos += 2;
           if (nextChar === Char.Slash) {
@@ -208,7 +219,10 @@ function getCommentRanges(text: string, pos: number, trailing: boolean): any {
             }
           } else {
             while (pos < text.length) {
-              if (text.charCodeAt(pos) === Char.Asterisk && text.charCodeAt(pos + 1) === Char.Slash) {
+              if (
+                text.charCodeAt(pos) === Char.Asterisk &&
+                text.charCodeAt(pos + 1) === Char.Slash
+              ) {
                 pos += 2;
                 break;
               }
@@ -240,7 +254,6 @@ function getCommentRanges(text: string, pos: number, trailing: boolean): any {
 }
 
 export function printLeadingCommentsOfPosition(printer: Printer, pos: number) {
-
   if (pos === -1) {
     return;
   }
@@ -248,7 +261,9 @@ export function printLeadingCommentsOfPosition(printer: Printer, pos: number) {
 }
 function getLeadingCommentsWithoutDetachedComments(printer: Printer) {
   // get the leading comments from detachedPos
-  const pos = lastOrUndefined(printer.detachedCommentsInfo).detachedCommentEndPos;
+  const pos = lastOrUndefined(
+    printer.detachedCommentsInfo
+  ).detachedCommentEndPos;
   const leadingComments = getLeadingCommentRanges(printer.source, pos);
   if (printer.detachedCommentsInfo.length - 1) {
     printer.detachedCommentsInfo.pop();
@@ -260,14 +275,16 @@ function getLeadingCommentsWithoutDetachedComments(printer: Printer) {
 }
 
 export function getLeadingCommentRanges(text: string, pos: number): any {
-
   if (pos !== undefined) {
-  return getCommentRanges(text, pos, /*trailing*/ false);
+    return getCommentRanges(text, pos, /*trailing*/ false);
   }
 }
 
 function hasDetachedComments(printer: Printer, pos: number) {
-  return printer.detachedCommentsInfo !== undefined && lastOrUndefined(printer.detachedCommentsInfo).nodePos === pos;
+  return (
+    printer.detachedCommentsInfo !== undefined &&
+    lastOrUndefined(printer.detachedCommentsInfo).nodePos === pos
+  );
 }
 
 export function printLeadingComments(printer: Printer, pos: number) {
@@ -313,7 +330,10 @@ export function printLeadingComments(printer: Printer, pos: number) {
   return '';
 }
 
-export function printDetachedCommentsAndUpdateCommentsInfo(node: any, printer: Printer) {
+export function printDetachedCommentsAndUpdateCommentsInfo(
+  node: any,
+  printer: Printer
+) {
   const currentDetachedCommentInfo = emitDetachedComments(printer, node, '');
 
   if (currentDetachedCommentInfo) {
@@ -325,8 +345,11 @@ export function printDetachedCommentsAndUpdateCommentsInfo(node: any, printer: P
   }
 }
 
-export function emitDetachedComments(printer: Printer, node: any, _newLine: string) {
-
+export function emitDetachedComments(
+  printer: Printer,
+  node: any,
+  _newLine: string
+) {
   let currentDetachedCommentInfo: any;
   let leadingComments = getLeadingCommentRanges(printer.source, node.start);
 
@@ -338,7 +361,6 @@ export function emitDetachedComments(printer: Printer, node: any, _newLine: stri
     }
 
     if (detachedComments.length) {
-
       emitNewLineBeforeLeadingComments(node, printer, leadingComments);
       if (detachedComments && detachedComments.length > 0) {
         let emitInterveningSeparator = false;
@@ -357,7 +379,7 @@ export function emitDetachedComments(printer: Printer, node: any, _newLine: stri
       }
       currentDetachedCommentInfo = {
         nodePos: node.start,
-        detachedCommentEndPos: lastOrUndefined(detachedComments).end
+        detachedCommentEndPos: lastOrUndefined(detachedComments).end,
       };
     }
   }
@@ -365,11 +387,23 @@ export function emitDetachedComments(printer: Printer, node: any, _newLine: stri
   return currentDetachedCommentInfo as any;
 }
 
-function emitNewLineBeforeLeadingComments(node: any, printer: Printer, leadingComments: any[]) {
-  emitNewLineBeforeLeadingCommentsOfPosition(node.start, printer, leadingComments);
+function emitNewLineBeforeLeadingComments(
+  node: any,
+  printer: Printer,
+  leadingComments: any[]
+) {
+  emitNewLineBeforeLeadingCommentsOfPosition(
+    node.start,
+    printer,
+    leadingComments
+  );
 }
 
-function emitNewLineBeforeLeadingCommentsOfPosition(pos: number, printer: Printer, leadingComments: any[]) {
+function emitNewLineBeforeLeadingCommentsOfPosition(
+  pos: number,
+  printer: Printer,
+  leadingComments: any[]
+) {
   // If the leading comments start on different line than the start of node, write new line
   if (
     leadingComments &&
@@ -381,7 +415,10 @@ function emitNewLineBeforeLeadingCommentsOfPosition(pos: number, printer: Printe
     writeLine(printer);
   }
 }
-export function getLineOfLocalPositionFromLineMap(printer: Printer, pos: number) {
+export function getLineOfLocalPositionFromLineMap(
+  printer: Printer,
+  pos: number
+) {
   return computeLineAndCharacterOfPosition(printer.lineMap, pos).line;
 }
 
@@ -414,12 +451,20 @@ export function computeLineStarts(text: string): number[] {
 }
 
 export function getLineStarts(printer: any): number[] {
-  return printer.lineMap || (printer.lineMap = computeLineStarts(printer.source));
+  return (
+    printer.lineMap || (printer.lineMap = computeLineStarts(printer.source))
+  );
 }
-export function getLineAndCharacterOfPosition(printer: any, position: number): any {
+export function getLineAndCharacterOfPosition(
+  printer: any,
+  position: number
+): any {
   return computeLineAndCharacterOfPosition(getLineStarts(printer), position);
 }
-export function computeLineAndCharacterOfPosition(lineStarts: number[], position: number) {
+export function computeLineAndCharacterOfPosition(
+  lineStarts: number[],
+  position: number
+) {
   let lineNumber = binarySearch(lineStarts, position);
 
   if (lineNumber < 0) {
@@ -427,7 +472,7 @@ export function computeLineAndCharacterOfPosition(lineStarts: number[], position
   }
   return {
     line: lineNumber,
-    character: position - lineStarts[lineNumber]
+    character: position - lineStarts[lineNumber],
   };
 }
 export function binarySearch(array: number[], value: number): number {
@@ -453,21 +498,43 @@ export function rangeIsOnSingleLine(range: any, printer: Printer) {
   return rangeStartIsOnSameLineAsRangeEnd(range, range, printer);
 }
 
-export function rangeStartPositionsAreOnSameLine(range1: any, range2: any, printer: Printer) {
+export function rangeStartPositionsAreOnSameLine(
+  range1: any,
+  range2: any,
+  printer: Printer
+) {
   return positionsAreOnSameLine(
     getStartPositionOfRange(range1, printer),
     getStartPositionOfRange(range2, printer),
     printer
   );
 }
-export function rangeStartIsOnSameLineAsRangeEnd(range1: any, range2: any, printer: Printer) {
-  return positionsAreOnSameLine(getStartPositionOfRange(range1, printer), range2.end, printer);
+export function rangeStartIsOnSameLineAsRangeEnd(
+  range1: any,
+  range2: any,
+  printer: Printer
+) {
+  return positionsAreOnSameLine(
+    getStartPositionOfRange(range1, printer),
+    range2.end,
+    printer
+  );
 }
-export function positionsAreOnSameLine(pos1: number, pos2: number, printer: Printer) {
-  return pos1 === pos2 || getLineOfLocalPosition(printer, pos1) === getLineOfLocalPosition(printer, pos2);
+export function positionsAreOnSameLine(
+  pos1: number,
+  pos2: number,
+  printer: Printer
+) {
+  return (
+    pos1 === pos2 ||
+    getLineOfLocalPosition(printer, pos1) ===
+      getLineOfLocalPosition(printer, pos2)
+  );
 }
 export function getStartPositionOfRange(range: any, printer: Printer) {
-  return positionIsSynthesized(range.start) ? -1 : skipWhitespace(printer.source, range.start);
+  return positionIsSynthesized(range.start)
+    ? -1
+    : skipWhitespace(printer.source, range.start);
 }
 
 export function getLineOfLocalPosition(printer: Printer, pos: number) {
@@ -481,7 +548,11 @@ function synthesizedNodeStartsOnNewLine(node: Node, format: PrinterContext) {
 
   return (format & PrinterContext.PreferNewLine) !== 0;
 }
-export function rangeEndPositionsAreOnSameLine(range1: any, range2: any, printer: Printer) {
+export function rangeEndPositionsAreOnSameLine(
+  range1: any,
+  range2: any,
+  printer: Printer
+) {
   return positionsAreOnSameLine(range1.end, range2.end, printer);
 }
 export function positionIsSynthesized(pos: number): boolean {
@@ -493,7 +564,12 @@ export function nodeIsSynthesized(node: any): boolean {
   return positionIsSynthesized(node.start) || positionIsSynthesized(node.end);
 }
 
-export function shouldWriteLeadingLineTerminator(parentNode: any, printer: Printer, children: any, format: PrinterContext) {
+export function shouldWriteLeadingLineTerminator(
+  parentNode: any,
+  printer: Printer,
+  children: any,
+  format: PrinterContext
+) {
   if (format & PrinterContext.PreserveLines) {
     if (format & PrinterContext.PreferNewLine) {
       return true;
@@ -560,7 +636,10 @@ export function skipWhitespace(
         if (text.charCodeAt(pos + 1) === Char.Asterisk) {
           pos += 2;
           while (pos < text.length) {
-            if (text.charCodeAt(pos) === Char.Asterisk && text.charCodeAt(pos + 1) === Char.Slash) {
+            if (
+              text.charCodeAt(pos) === Char.Asterisk &&
+              text.charCodeAt(pos + 1) === Char.Slash
+            ) {
               pos += 2;
               break;
             }
@@ -597,8 +676,16 @@ export function skipWhitespace(
   }
 }
 
-export function rangeEndIsOnSameLineAsRangeStart(range1: any, range2: any, printer: Printer) {
-  return positionsAreOnSameLine(range1.end, getStartPositionOfRange(range2, printer), printer);
+export function rangeEndIsOnSameLineAsRangeStart(
+  range1: any,
+  range2: any,
+  printer: Printer
+) {
+  return positionsAreOnSameLine(
+    range1.end,
+    getStartPositionOfRange(range2, printer),
+    printer
+  );
 }
 
 export function shouldWriteSeparatingLineTerminator(
@@ -618,17 +705,21 @@ export function shouldWriteSeparatingLineTerminator(
 
     if (
       !nodeIsSynthesized(previousNode) &&
-      !nodeIsSynthesized(nextNode)// &&
+      !nodeIsSynthesized(nextNode) // &&
       //previousNode.parent === nextNode.parent
     ) {
-      return rangeEndIsOnSameLineAsRangeStart(previousNode, nextNode, printer) ? 0 : 1;
+      return rangeEndIsOnSameLineAsRangeStart(previousNode, nextNode, printer)
+        ? 0
+        : 1;
     } else if (
       synthesizedNodeStartsOnNewLine(previousNode, format) ||
       synthesizedNodeStartsOnNewLine(nextNode, format)
     ) {
       return 1;
     }
-    return rangeEndIsOnSameLineAsRangeStart(previousNode, nextNode, printer) ? 0 : 1;
+    return rangeEndIsOnSameLineAsRangeStart(previousNode, nextNode, printer)
+      ? 0
+      : 1;
   }
 
   return format & PrinterContext.MultiLine ? true : false;
@@ -638,7 +729,12 @@ export function printTrailingCommentsOfPosition(printer: Printer, pos: number) {
   const trailingComments = getTrailingCommentsToEmit(printer, pos);
 
   // trailing comments of a position are emitted at /*trailing comment1 */space/*trailing comment*/space
-  return emitComments(printer, trailingComments, /*leadingSeparator*/ false, /*trailingSeparator*/ true);
+  return emitComments(
+    printer,
+    trailingComments,
+    /*leadingSeparator*/ false,
+    /*trailingSeparator*/ true
+  );
 }
 
 export function emitComments(
@@ -676,8 +772,6 @@ export function shouldWriteClosingLineTerminator(
   children: any,
   format: PrinterContext
 ) {
-
-
   if (format & PrinterContext.PreserveLines) {
     if (format & PrinterContext.PreferNewLine) return 1;
 
@@ -701,12 +795,18 @@ export function shouldWriteClosingLineTerminator(
                   currentSourceFile!,
                   includeComments));
       }*/
-      return rangeEndPositionsAreOnSameLine(parentNode, lastChild, printer) ? 0 : 1;
+      return rangeEndPositionsAreOnSameLine(parentNode, lastChild, printer)
+        ? 0
+        : 1;
     }
-    if (lastChild && synthesizedNodeStartsOnNewLine(lastChild as any, format)) return 1;
+    if (lastChild && synthesizedNodeStartsOnNewLine(lastChild as any, format))
+      return 1;
   }
 
-  if (format & PrinterContext.MultiLine && !(format & PrinterContext.NoTrailingNewLine)) {
+  if (
+    format & PrinterContext.MultiLine &&
+    !(format & PrinterContext.NoTrailingNewLine)
+  ) {
     return true;
   }
   return false;
@@ -723,7 +823,12 @@ export function printKeyword(t: any, printer: any, parent: any): void {
   }
 }
 
-export function printPunctuator1(punctuator: string, printer: any, pos: number, parent: any): number {
+export function printPunctuator1(
+  punctuator: string,
+  printer: any,
+  pos: number,
+  parent: any
+): number {
   const startPos = pos;
 
   pos = skipWhitespace(printer.source, pos);
@@ -740,7 +845,12 @@ export function printPunctuator1(punctuator: string, printer: any, pos: number, 
   return pos + 1;
 }
 
-export function printPunctuator(punctuator: string, printer: any, pos: number, parent: any): number {
+export function printPunctuator(
+  punctuator: string,
+  printer: any,
+  pos: number,
+  parent: any
+): number {
   const startPos = pos;
 
   pos = skipWhitespace(printer.source, pos);
@@ -774,11 +884,21 @@ export function isEmptyProperties(block: any, printer: any): boolean {
   );
 }
 
-export function isEmptyBlock(node: any, parentNode: any, printer: any): boolean {
-  return node.statements.length === 0 && rangeEndIsOnSameLineAsRangeStart(parentNode, parentNode, printer);
+export function isEmptyBlock(
+  node: any,
+  parentNode: any,
+  printer: any
+): boolean {
+  return (
+    node.statements.length === 0 &&
+    rangeEndIsOnSameLineAsRangeStart(parentNode, parentNode, printer)
+  );
 }
 
-export function shouldprintBlockFunctionBodyOnSingleLine(printer: any, body: any): boolean {
+export function shouldprintBlockFunctionBodyOnSingleLine(
+  printer: any,
+  body: any
+): boolean {
   if (body.flags & NodeFlags.NewLine) return false;
 
   if (!nodeIsSynthesized(body) && !rangeIsOnSingleLine(body, printer)) {
@@ -786,23 +906,32 @@ export function shouldprintBlockFunctionBodyOnSingleLine(printer: any, body: any
   }
 
   if (
-    shouldWriteLeadingLineTerminator(body, printer, body.statements, PrinterContext.PreserveLines) ||
-    shouldWriteClosingLineTerminator(body, printer, body.statements, PrinterContext.PreserveLines)
+    shouldWriteLeadingLineTerminator(
+      body,
+      printer,
+      body.statements,
+      PrinterContext.PreserveLines
+    ) ||
+    shouldWriteClosingLineTerminator(
+      body,
+      printer,
+      body.statements,
+      PrinterContext.PreserveLines
+    )
   ) {
     return false;
   }
 
   let previousStatement: any;
   for (const statement of body.statements) {
-
-
-
-    if (shouldWriteSeparatingLineTerminator(
-      previousStatement,
-      printer,
-      statement,
-      PrinterContext.PreserveLines
-    )) {
+    if (
+      shouldWriteSeparatingLineTerminator(
+        previousStatement,
+        printer,
+        statement,
+        PrinterContext.PreserveLines
+      )
+    ) {
       return false;
     }
 
@@ -812,42 +941,50 @@ export function shouldprintBlockFunctionBodyOnSingleLine(printer: any, body: any
   return true;
 }
 
-
 export function writeDelimiter(printer: Printer, format: PrinterContext) {
-	switch (format & (PrinterContext.BarDelimited | PrinterContext.AmpersandDelimited | PrinterContext.CommaDelimited)) {
-		case PrinterContext.None:
-			break;
-		case PrinterContext.CommaDelimited:
-			write(printer, ',');
-			break;
-		case PrinterContext.BarDelimited:
-			write(printer, ' ');
-			write(printer, '|');
-			break;
-		case PrinterContext.AmpersandDelimited:
-			write(printer, ' ');
-			write(printer, '&');
-	}
+  switch (
+    format &
+    (PrinterContext.BarDelimited |
+      PrinterContext.AmpersandDelimited |
+      PrinterContext.CommaDelimited)
+  ) {
+    case PrinterContext.None:
+      break;
+    case PrinterContext.CommaDelimited:
+      write(printer, ',');
+      break;
+    case PrinterContext.BarDelimited:
+      write(printer, ' ');
+      write(printer, '|');
+      break;
+    case PrinterContext.AmpersandDelimited:
+      write(printer, ' ');
+      write(printer, '&');
+  }
 }
-
 
 export function makeString(rawContent: any, enclosingQuote: any): any {
   const otherQuote = enclosingQuote === '"' ? "'" : '"';
   const regex = /\\([\S\s])|(["'])/g;
-  const newContent = rawContent.replace(regex, (_match: any, escaped: any, quote: any) => {
-    if (escaped === otherQuote) {
-      return escaped;
-    }
+  const newContent = rawContent.replace(
+    regex,
+    (_match: any, escaped: any, quote: any) => {
+      if (escaped === otherQuote) {
+        return escaped;
+      }
 
-    if (quote === enclosingQuote) {
-      return '\\' + quote;
-    }
+      if (quote === enclosingQuote) {
+        return '\\' + quote;
+      }
 
-    if (quote) {
-      return quote;
+      if (quote) {
+        return quote;
+      }
+      return /^[^\n\r"'0-7\\bfnrt-vx\u2028\u2029]$/.test(escaped)
+        ? escaped
+        : '\\' + escaped;
     }
-    return /^[^\n\r"'0-7\\bfnrt-vx\u2028\u2029]$/.test(escaped) ? escaped : '\\' + escaped;
-  });
+  );
 
   return enclosingQuote + newContent + enclosingQuote;
 }
