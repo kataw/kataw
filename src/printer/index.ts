@@ -154,11 +154,11 @@ import {
   rangeStartPositionsAreOnSameLine,
   createPrinter,
   shouldprintBlockFunctionBodyOnSingleLine,
-  brackets,
+  getOpeningBrackets,
+  getClosingBrackets,
   makeString,
   isEmptyProperties,
   printDetachedCommentsAndUpdateCommentsInfo,
-  printLeadingCommentsOfPosition,
   printTrailingCommentsOfPosition,
   shouldWriteSeparatingLineTerminator,
   shouldWriteLeadingLineTerminator,
@@ -554,9 +554,9 @@ function printStatementList(
   listNode: SyntaxNode,
   parentNode: SyntaxNode,
   children: SyntaxNode[],
-  format: PrinterContext
+  context: PrinterContext
 ) {
-  printList(printStatement, printer, listNode, parentNode, children, format);
+  printList(printStatement, printer, listNode, parentNode, children, context);
 }
 
 function printExpressionList(
@@ -564,9 +564,9 @@ function printExpressionList(
   listNode: SyntaxNode,
   parentNode: SyntaxNode,
   children: SyntaxNode[],
-  format: PrinterContext
+  context: PrinterContext
 ) {
-  printList(printExpression, printer, listNode, parentNode, children, format);
+  printList(printExpression, printer, listNode, parentNode, children, context);
 }
 
 function printList(
@@ -575,47 +575,45 @@ function printList(
   listNode: SyntaxNode,
   parentNode: SyntaxNode,
   children: SyntaxNode[],
-  format: PrinterContext
+  context: PrinterContext
 ) {
-  const isEmpty = children === undefined || 0 >= children.length;
-
   if (
-    format &
+    context &
     (PrinterContext.Braces | PrinterContext.Parenthesis | PrinterContext.AngleBrackets | PrinterContext.SquareBrackets)
   ) {
     write(
       printer,
-      brackets[
-        format &
+      getOpeningBrackets(
+        context &
           (PrinterContext.Braces |
             PrinterContext.Parenthesis |
             PrinterContext.AngleBrackets |
             PrinterContext.SquareBrackets)
-      ][0]
+      )
     );
-    if (isEmpty && children) {
+    if (0 >= children.length) {
       printTrailingCommentsOfPosition(printer, listNode.start);
     }
   }
 
-  if (isEmpty) {
-    if (format & PrinterContext.MultiLine) {
+  if (0 >= children.length) {
+    if (context & PrinterContext.MultiLine) {
       writeLine(printer);
-    } else if (format & PrinterContext.SpaceBetweenBraces && !(format & PrinterContext.NoSpaceIfEmpty)) {
+    } else if (context & PrinterContext.SpaceBetweenBraces && !(context & PrinterContext.NoSpaceIfEmpty)) {
       write(printer, ' ');
     }
   } else {
     let shouldEmitInterveningComments = true;
 
-    if (shouldWriteLeadingLineTerminator(parentNode, printer, children, format)) {
+    if (shouldWriteLeadingLineTerminator(parentNode, printer, children, context)) {
       writeLine(printer);
       shouldEmitInterveningComments = false;
-    } else if (format & PrinterContext.SpaceBetweenBraces) {
+    } else if (context & PrinterContext.SpaceBetweenBraces) {
       write(printer, ' ');
     }
 
     // Increase the indent, if requested.
-    if (format & PrinterContext.Indented) {
+    if (context & PrinterContext.Indented) {
       printer.indent++;
     }
 
@@ -627,20 +625,22 @@ function printList(
 
       if (previousSibling) {
         if (
-          format & (PrinterContext.BarDelimited | PrinterContext.AmpersandDelimited | PrinterContext.CommaDelimited) &&
+          context & (PrinterContext.BarDelimited | PrinterContext.AmpersandDelimited | PrinterContext.CommaDelimited) &&
           previousSibling.end !== (listNode ? listNode.end : -1)
         ) {
-          printLeadingCommentsOfPosition(printer, previousSibling.end);
+          if (previousSibling.end !== -1) {
+            printLeadingComments(printer, previousSibling.end);
+          }
         }
 
-        writeDelimiter(printer, format);
+        writeDelimiter(printer, context);
 
         // Write either a line terminator or whitespace to separate the elements.
-        if (shouldWriteSeparatingLineTerminator(previousSibling, printer, child, format)) {
+        if (shouldWriteSeparatingLineTerminator(previousSibling, printer, child, context)) {
           // If a synthesized node in a single-line list starts on a new
           // line, we should increase the indent.
           if (
-            (format &
+            (context &
               (PrinterContext.SingleLine |
                 PrinterContext.MultiLine |
                 PrinterContext.PreserveLines |
@@ -652,7 +652,7 @@ function printList(
           }
           writeLine(printer);
           shouldEmitInterveningComments = false;
-        } else if (previousSibling && format & PrinterContext.SpaceBetweenSiblings) {
+        } else if (previousSibling && context & PrinterContext.SpaceBetweenSiblings) {
           write(printer, ' ');
         }
       }
@@ -673,8 +673,8 @@ function printList(
       previousSibling = child;
     }
     if (
-      format & PrinterContext.CommaDelimited &&
-      format & PrinterContext.AllowTrailingComma &&
+      context & PrinterContext.CommaDelimited &&
+      context & PrinterContext.AllowTrailingComma &&
       (previousSibling.flags & NodeFlags.DisallowTrailingComma) === 0
     ) {
       if (previousSibling) {
@@ -687,42 +687,42 @@ function printList(
     if (
       previousSibling &&
       listNode.end !== previousSibling.end &&
-      format & (PrinterContext.BarDelimited | PrinterContext.AmpersandDelimited | PrinterContext.CommaDelimited)
+      context & (PrinterContext.BarDelimited | PrinterContext.AmpersandDelimited | PrinterContext.CommaDelimited)
     ) {
-      printLeadingCommentsOfPosition(
-        printer,
-        format & PrinterContext.AllowTrailingComma ? listNode.end : previousSibling.end
-      );
+      const pos = context & PrinterContext.AllowTrailingComma ? listNode.end : previousSibling.end;
+      if (pos !== -1) {
+        printLeadingComments(printer, pos);
+      }
     }
 
-    // Decrease the indent, if requested.
-    if (format & PrinterContext.Indented) {
+    if (context & PrinterContext.Indented) {
       printer.indent--;
     }
 
-    // Write the closing line terminator or closing whitespace.
-    if (shouldWriteClosingLineTerminator(parentNode, printer, children, format)) {
+    if (shouldWriteClosingLineTerminator(parentNode, printer, children, context)) {
       writeLine(printer);
-    } else if (format & PrinterContext.SpaceBetweenBraces) {
+    } else if (context & PrinterContext.SpaceBetweenBraces) {
       write(printer, ' ');
     }
   }
 
   if (
-    format &
+    context &
     (PrinterContext.Braces | PrinterContext.Parenthesis | PrinterContext.AngleBrackets | PrinterContext.SquareBrackets)
   ) {
-    if (isEmpty && children) printLeadingCommentsOfPosition(printer, listNode.end);
+    if (listNode.end !== -1 && 0 >= children.length) {
+      printLeadingComments(printer, listNode.end);
+    }
 
     write(
       printer,
-      brackets[
-        format &
+      getClosingBrackets(
+        context &
           (PrinterContext.Braces |
             PrinterContext.Parenthesis |
             PrinterContext.AngleBrackets |
             PrinterContext.SquareBrackets)
-      ][1]
+      )
     );
   }
 }
@@ -1115,9 +1115,9 @@ function printNewExpression(node: any, printer: Printer): void {
   }
 }
 
-function printArgumentList(node: any, parentNode: any, printer: Printer, format: PrinterContext): void {
-  if (node.trailingComma) format |= PrinterContext.AllowTrailingComma;
-  printExpressionList(printer, node, parentNode, node.elements, format);
+function printArgumentList(node: any, parentNode: any, printer: Printer, context: PrinterContext): void {
+  if (node.trailingComma) context |= PrinterContext.AllowTrailingComma;
+  printExpressionList(printer, node, parentNode, node.elements, context);
 }
 
 function printComputedPropertyName(node: ComputedPropertyName, printer: Printer): void {

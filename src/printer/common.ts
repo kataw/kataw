@@ -165,12 +165,6 @@ function printTrailingComments(printer: Printer, pos: number) {
   return '';
 }
 
-export function printLeadingCommentsOfPosition(printer: Printer, pos: number) {
-  if (pos === -1) {
-    return;
-  }
-  printLeadingComments(printer, pos);
-}
 function getLeadingCommentsWithoutDetachedComments(printer: Printer) {
   // get the leading comments from detachedPos
   const pos = lastOrUndefined(printer.detachedCommentsInfo).detachedCommentEndPos;
@@ -395,12 +389,12 @@ export function getLineOfLocalPosition(printer: Printer, pos: number) {
   return getLineAndCharacterOfPosition(printer, pos).line;
 }
 
-function synthesizedNodeStartsOnNewLine(node: Node, format: PrinterContext) {
+function synthesizedNodeStartsOnNewLine(node: Node, context: PrinterContext) {
   if (nodeIsSynthesized(node)) {
-    return (format & PrinterContext.PreferNewLine) !== 0;
+    return (context & PrinterContext.PreferNewLine) !== 0;
   }
 
-  return (format & PrinterContext.PreferNewLine) !== 0;
+  return (context & PrinterContext.PreferNewLine) !== 0;
 }
 export function rangeEndPositionsAreOnSameLine(range1: any, range2: any, printer: Printer) {
   return positionsAreOnSameLine(range1.end, range2.end, printer);
@@ -418,10 +412,10 @@ export function shouldWriteLeadingLineTerminator(
   parentNode: any,
   printer: Printer,
   children: any,
-  format: PrinterContext
+  context: PrinterContext
 ) {
-  if (format & PrinterContext.PreserveLines) {
-    if (format & PrinterContext.PreferNewLine) {
+  if (context & PrinterContext.PreserveLines) {
+    if (context & PrinterContext.PreferNewLine) {
       return true;
     }
     const firstChild = children[0];
@@ -432,10 +426,10 @@ export function shouldWriteLeadingLineTerminator(
 
     //if (firstChild.start === printer.nextListElementPos) return 0;
 
-    if ((format & PrinterContext.PreferNewLine) !== 0) return 1;
+    if ((context & PrinterContext.PreferNewLine) !== 0) return 1;
   }
 
-  return format & PrinterContext.MultiLine ? true : false;
+  return context & PrinterContext.MultiLine ? true : false;
 }
 
 export function rangeEndIsOnSameLineAsRangeStart(range1: any, range2: any, printer: Printer) {
@@ -446,14 +440,14 @@ export function shouldWriteSeparatingLineTerminator(
   previousNode: any,
   printer: Printer,
   nextNode: any,
-  format: PrinterContext
+  context: PrinterContext
 ) {
-  if (format & PrinterContext.PreserveLines) {
+  if (context & PrinterContext.PreserveLines) {
     if (previousNode === undefined || nextNode === undefined) {
       return 0;
     }
 
-    if (format & PrinterContext.PreferNewLine) {
+    if (context & PrinterContext.PreferNewLine) {
       return true;
     }
 
@@ -464,15 +458,15 @@ export function shouldWriteSeparatingLineTerminator(
     ) {
       return rangeEndIsOnSameLineAsRangeStart(previousNode, nextNode, printer) ? 0 : 1;
     } else if (
-      synthesizedNodeStartsOnNewLine(previousNode, format) ||
-      synthesizedNodeStartsOnNewLine(nextNode, format)
+      synthesizedNodeStartsOnNewLine(previousNode, context) ||
+      synthesizedNodeStartsOnNewLine(nextNode, context)
     ) {
       return 1;
     }
     return rangeEndIsOnSameLineAsRangeStart(previousNode, nextNode, printer) ? 0 : 1;
   }
 
-  return format & PrinterContext.MultiLine ? true : false;
+  return context & PrinterContext.MultiLine ? true : false;
 }
 
 export function printTrailingCommentsOfPosition(printer: Printer, pos: number) {
@@ -515,10 +509,10 @@ export function shouldWriteClosingLineTerminator(
   parentNode: any,
   printer: Printer,
   children: any,
-  format: PrinterContext
+  context: PrinterContext
 ) {
-  if (format & PrinterContext.PreserveLines) {
-    if (format & PrinterContext.PreferNewLine) return 1;
+  if (context & PrinterContext.PreserveLines) {
+    if (context & PrinterContext.PreferNewLine) return 1;
 
     const lastChild: any = lastOrUndefined(children);
 
@@ -531,21 +525,12 @@ export function shouldWriteClosingLineTerminator(
       !nodeIsSynthesized(lastChild) &&
       (!lastChild.parent || lastChild.parent === parentNode)
     ) {
-      /*if (preserveSourceNewlines) {
-          const end = isNodeArray(children) && !positionIsSynthesized(children.end) ? children.end : lastChild.end;
-          return getEffectiveLines(
-              includeComments => getLinesBetweenPositionAndNextNonWhitespaceCharacter(
-                  end,
-                  parentNode.end,
-                  currentSourceFile!,
-                  includeComments));
-      }*/
       return rangeEndPositionsAreOnSameLine(parentNode, lastChild, printer) ? 0 : 1;
     }
-    if (lastChild && synthesizedNodeStartsOnNewLine(lastChild as any, format)) return 1;
+    if (lastChild && synthesizedNodeStartsOnNewLine(lastChild as any, context)) return 1;
   }
 
-  if (format & PrinterContext.MultiLine && !(format & PrinterContext.NoTrailingNewLine)) {
+  if (context & PrinterContext.MultiLine && !(context & PrinterContext.NoTrailingNewLine)) {
     return true;
   }
   return false;
@@ -553,8 +538,8 @@ export function shouldWriteClosingLineTerminator(
 
 export function printKeyword(keyword: any, printer: any, parent: any, addSpace: boolean): void {
   if (keyword) {
-    if (parent.start !== keyword.start) {
-      printLeadingCommentsOfPosition(printer, keyword.start);
+    if (keyword.start !== -1 && parent.start !== keyword.start) {
+      printLeadingComments(printer, keyword.start);
     }
     write(printer, tokenToString(keyword));
 
@@ -573,8 +558,8 @@ export function printPunctuator1(punctuator: string, printer: any, pos: number, 
 
   pos = skipWhitespace(printer.source, pos);
 
-  if (parent.start !== pos) {
-    printLeadingCommentsOfPosition(printer, startPos);
+  if (startPos !== -1 && parent.start !== pos) {
+    printLeadingComments(printer, startPos);
   }
 
   write(printer, punctuator);
@@ -590,8 +575,8 @@ export function printPunctuator(punctuator: string, printer: any, pos: number, p
 
   pos = skipWhitespace(printer.source, pos);
 
-  if (parent.start !== pos) {
-    printLeadingCommentsOfPosition(printer, startPos);
+  if (startPos !== 1 && parent.start !== pos) {
+    printLeadingComments(printer, startPos);
   }
   write(printer, punctuator);
 
@@ -601,15 +586,34 @@ export function printPunctuator(punctuator: string, printer: any, pos: number, p
   return pos + 1;
 }
 
-export const brackets = createBracketsMap();
+export function getOpeningBrackets(context: PrinterContext): string {
+  switch (context) {
+    case PrinterContext.Braces:
+      return '{';
+    case PrinterContext.Parenthesis:
+      return '(';
+    case PrinterContext.AngleBrackets:
+      return '<';
+    case PrinterContext.SquareBrackets:
+      return '[';
+    default:
+      return '';
+  }
+}
 
-function createBracketsMap() {
-  const brackets: string[][] = [];
-  brackets[PrinterContext.Braces] = ['{', '}'];
-  brackets[PrinterContext.Parenthesis] = ['(', ')'];
-  brackets[PrinterContext.AngleBrackets] = ['<', '>'];
-  brackets[PrinterContext.SquareBrackets] = ['[', ']'];
-  return brackets;
+export function getClosingBrackets(context: PrinterContext): string {
+  switch (context) {
+    case PrinterContext.Braces:
+      return '}';
+    case PrinterContext.Parenthesis:
+      return ')';
+    case PrinterContext.AngleBrackets:
+      return '>';
+    case PrinterContext.SquareBrackets:
+      return ']';
+    default:
+      return '';
+  }
 }
 
 export function isEmptyProperties(block: any, printer: any): boolean {
@@ -649,8 +653,8 @@ export function shouldprintBlockFunctionBodyOnSingleLine(printer: any, body: any
   return true;
 }
 
-export function writeDelimiter(printer: Printer, format: PrinterContext) {
-  switch (format & (PrinterContext.BarDelimited | PrinterContext.AmpersandDelimited | PrinterContext.CommaDelimited)) {
+export function writeDelimiter(printer: Printer, context: PrinterContext) {
+  switch (context & (PrinterContext.BarDelimited | PrinterContext.AmpersandDelimited | PrinterContext.CommaDelimited)) {
     case PrinterContext.None:
       break;
     case PrinterContext.CommaDelimited:
