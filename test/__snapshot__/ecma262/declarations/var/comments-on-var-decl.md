@@ -916,7 +916,7 @@ var myVariable = 10;// This trailing Comment1
  /** This is another variable comment*/
 var anotherVariable = 30;
  // shouldn't appear
-var aVar = "\"\"";
+var aVar = '""';
  /** this is multiline comment
   * All these variables are of number type */
 var anotherAnotherVariable = 70;/* these are multiple trailing comments */ /* multiple trailing comments */

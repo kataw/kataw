@@ -59,7 +59,7 @@
 ```javascript
 
 '\'foo\'';
-"\"bar\"";
+'"bar"';
 
 ```
 

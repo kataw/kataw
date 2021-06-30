@@ -12521,7 +12521,7 @@ function logical2b(): number {
  * A literal on the left side of &&
  */
 function logical2c(): string {
-  return "\"\"" && 123;
+  return '""' && 123;
 }
  /**
  * A literal on the left side of &&
@@ -12636,7 +12636,7 @@ function logical6b(): string {
  * A literal on the left side of ||
  */
 function logical6c(): number {
-  return "\"\"" || 123;
+  return '""' || 123;
 }
  /**
  * A literal on the left side of ||
@@ -12818,14 +12818,14 @@ function logical12b(y: number): number {
  */
 function logical13(x: number): Array<{ x: string }> {
   return [
-    { x : x && "\"bar\"" },
-    { x : true && "\"bar\"" },
+    { x : x && '"bar"' },
+    { x : true && '"bar"' },
     { x : true && false },
     { x : false && false },
-    { x : 1 && "\"bar\"" },
-    { x : "\"foo\"" && "\"bar\"" },
-    { x : "\"foo\"" && "\"bar\"" },
-    { x : "\"foo\"" && "\"bar\"" },
+    { x : 1 && '"bar"' },
+    { x : '"foo"' && '"bar"' },
+    { x : '"foo"' && '"bar"' },
+    { x : '"foo"' && '"bar"' },
   ];
 }
  /**
@@ -12833,14 +12833,14 @@ function logical13(x: number): Array<{ x: string }> {
  */
 function logical14(x: number): Array<{ x: string }> {
   return [
-    { x : x || "\"bar\"" },
-    { x : false || "\"bar\"" },
+    { x : x || '"bar"' },
+    { x : false || '"bar"' },
     { x : false || true },
     { x : true || false },
-    { x : 0 || "\"bar\"" },
-    { x : "\"foo\"" || "\"bar\"" },
-    { x : "\"foo\"" || "\"bar\"" },
-    { x : "\"foo\"" || "\"bar\"" },
+    { x : 0 || '"bar"' },
+    { x : '"foo"' || '"bar"' },
+    { x : '"foo"' || '"bar"' },
+    { x : '"foo"' || '"bar"' },
   ];
 }
  /**

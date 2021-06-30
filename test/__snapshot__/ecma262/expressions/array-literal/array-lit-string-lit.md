@@ -111,7 +111,7 @@
 
 ```javascript
 
-["\"X\"".length,] = x;
+['"X"'.length,] = x;
 
 ```
 

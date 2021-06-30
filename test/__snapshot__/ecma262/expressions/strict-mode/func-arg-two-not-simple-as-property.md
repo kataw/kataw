@@ -137,7 +137,7 @@
 ```javascript
 
 ({ x : function (x, y) {
-  "\"use strict\"";
+  '"use strict"';
   } });
 
 ```

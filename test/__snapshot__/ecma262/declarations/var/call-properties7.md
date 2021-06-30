@@ -225,7 +225,7 @@ var d: { (): string } = function (x: number): string { return "hi"; };
 
 ```javascript
 
-var d: { (): string } = function (x: number): string { return "\"hi\""; };
+var d: { (): string } = function (x: number): string { return '"hi"'; };
 
 ```
 

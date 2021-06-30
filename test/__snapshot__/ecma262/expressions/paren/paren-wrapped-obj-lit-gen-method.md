@@ -1079,7 +1079,7 @@ x({ * get() { } });
 x({ * 123() { } });
 x({ async foo() { }, bar() { } });
 x({ foo() { }, async bar() { } });
-x({ async "\"foo\""() { } });
+x({ async '"foo"'() { } });
 x({ async [foo]() { } });
 x({ foo() { }, * bar() { } });
 x({ * foo() { } });

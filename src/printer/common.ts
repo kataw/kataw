@@ -36,6 +36,7 @@ export interface Printer {
   source: string;
   output: string;
   indent: number;
+  singleQuote: boolean;
   lineStart: boolean;
   lineCount: number;
   linePos: number;
@@ -49,11 +50,12 @@ export interface Printer {
   lineMap: any;
 }
 
-export function createPrinter(source: string, indent: number): Printer {
+export function createPrinter(source: string, indent: number, singleQuote: boolean): Printer {
   return {
     source,
     output: '',
     indent,
+    singleQuote,
     lineStart: false,
     lineCount: 0,
     linePos: 0,

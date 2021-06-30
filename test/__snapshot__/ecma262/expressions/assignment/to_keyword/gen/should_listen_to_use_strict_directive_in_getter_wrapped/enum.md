@@ -188,7 +188,7 @@ foo = {
 
 foo = {
   get x() {
-  "\"use strict\"";
+  '"use strict"';
     (enum = x);
   }
 };

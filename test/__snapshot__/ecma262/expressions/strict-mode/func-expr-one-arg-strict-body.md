@@ -112,7 +112,7 @@
 ```javascript
 
 + function f(x) {
-"\"use strict\"";
+'"use strict"';
 };
 
 ```

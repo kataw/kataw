@@ -91,10 +91,10 @@
 
 ```javascript
 
-"\"\r\n\"";
-"\"prefix\r\n\"";
-"\"\r\nsuffix\"";
-"\"\rinfix\nsuffix\"";
+'"\r\n"';
+'"prefix\r\n"';
+'"\r\nsuffix"';
+'"\rinfix\nsuffix"';
 
 ```
 

@@ -149,7 +149,7 @@ class A {* get "foo"(){}}
 
 class A {
   get
-  "\"foo\""() { }
+  '"foo"'() { }
 }
 
 ```

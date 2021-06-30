@@ -115,7 +115,7 @@ function x(){""[new.target]}
 
 ```javascript
 
-function x() { "\"\""[new.target]; }
+function x() { '""'[new.target]; }
 
 ```
 

@@ -2465,7 +2465,7 @@ class Annotations {
   ;
   #s: string = 0
   ;// Error, number ~> string
-  #t: string = "\"yay!\""
+  #t: string = '"yay!"'
   ;
   static #sp: number
   ;
@@ -2475,7 +2475,7 @@ class Annotations {
   ;
   static #ss: string = 0
   ;// Error, number ~> string
-  static #st: string = "\"yay!\""
+  static #st: string = '"yay!"'
   ;
   test1(): number {
     return this.#p;

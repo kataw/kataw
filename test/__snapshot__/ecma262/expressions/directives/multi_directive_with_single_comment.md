@@ -59,9 +59,9 @@
 
 ```javascript
 
-"\"foo\"";
+'"foo"';
  // stuff here
-"\"bar\"";
+'"bar"';
 
 ```
 

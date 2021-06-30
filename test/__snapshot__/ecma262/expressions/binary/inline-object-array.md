@@ -2324,7 +2324,7 @@ this.steps = steps && checkStep || [
 const create = () =>  {
   const result = doSomething();
   return (shouldReturn && result.ok && {
-    status : "\"ok\"",
+    status : '"ok"',
     createdAt : result.createdAt,
     updatedAt : result.updatedAt
   });
@@ -2332,7 +2332,7 @@ const create = () =>  {
 const create2 = () =>  {
   const result = doSomething();
   return (shouldReturn && result.ok && result || {
-    status : "\"ok\"",
+    status : '"ok"',
     createdAt : result.createdAt,
     updatedAt : result.updatedAt
   });

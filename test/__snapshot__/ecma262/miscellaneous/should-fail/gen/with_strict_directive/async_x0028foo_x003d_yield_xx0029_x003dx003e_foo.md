@@ -116,7 +116,7 @@
 
 ```javascript
 
-"\"use strict\"";
+'"use strict"';
 async (foo = yield, x) => foo
 
 ```

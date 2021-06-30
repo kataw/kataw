@@ -141,7 +141,7 @@ function *f(){ delete ("x"[(yield)]) }
 
 ```javascript
 
-function* f() { delete  ("\"x\""[(yield)]); }
+function* f() { delete  ('"x"'[(yield)]); }
 
 ```
 

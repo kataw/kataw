@@ -150,7 +150,7 @@
 
 ```javascript
 
-"\"use strict\"";
+'"use strict"';
 s = { foo : yield / x / g };
 
 ```

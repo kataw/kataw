@@ -814,10 +814,10 @@
 ({ __proto__ : null, get __proto__() { } });
 ({ __proto__ : null, __proto__() { }, });
 ({ __proto__ : null, set __proto__(x) { } });
-({ "\"__proto__\"" : null, get __proto__() { }, set __proto__(x) { } });
-({ "\"__proto__\"" : null, __proto__() { }, });
-({ "\"__proto__\"" : null, set __proto__(x) { } });
-({ "\"__proto__\"" : null, __proto__ });
+({ '"__proto__"' : null, get __proto__() { }, set __proto__(x) { } });
+({ '"__proto__"' : null, __proto__() { }, });
+({ '"__proto__"' : null, set __proto__(x) { } });
+({ '"__proto__"' : null, __proto__ });
 ({ __proto__, __proto__ });
 
 ```

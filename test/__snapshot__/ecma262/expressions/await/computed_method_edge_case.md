@@ -319,7 +319,7 @@ async function f(){    async function f(){   (a= {[await foo](){}, "x"(){}} ) =>
 
 ```javascript
 
-async function f() { async function f() { (a = { [await foo]() { }, "\"x\""() { } }) => a; } }
+async function f() { async function f() { (a = { [await foo]() { }, '"x"'() { } }) => a; } }
 
 ```
 

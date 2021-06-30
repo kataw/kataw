@@ -343,13 +343,13 @@ function *f() {
 
 ```javascript
 
-"\"use strict\"";
+'"use strict"';
 function f() {
   class C {
     yield() { }
   }
 }
-"\"use strict\"";
+'"use strict"';
 function* f() {
   class C {
     yield() { }

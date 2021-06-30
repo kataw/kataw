@@ -163,7 +163,7 @@ declare class B {
 
 ```javascript
 
-declare class B { "\"string\""(x): {} }
+declare class B { '"string"'(x): {} }
 
 ```
 

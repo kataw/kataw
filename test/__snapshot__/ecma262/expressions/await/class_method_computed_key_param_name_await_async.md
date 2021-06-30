@@ -309,7 +309,7 @@ async function f() {
   (fail = class A {
       [x](await) { }
       ;
-      "\"x\""() { }
+      '"x"'() { }
     }) =>  { };
 }
 

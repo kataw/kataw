@@ -82,7 +82,7 @@ x => { "use strict"; }
 ```javascript
 
 x =>  {
-"\"use strict\"";
+'"use strict"';
 };
 
 ```

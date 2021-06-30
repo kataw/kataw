@@ -202,7 +202,7 @@ var z = x + x;
 ```javascript
 
 var x: any;
-x.name = "\"hello\"";
+x.name = '"hello"';
 var z = x + x;
 
 ```

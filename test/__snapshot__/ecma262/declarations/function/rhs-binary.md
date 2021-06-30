@@ -699,7 +699,7 @@ function x() {
   ('\'foo\'' in {});
   ('\'foo\'' in { foo : null });
   (0 in {});
-  (0 in { "\"0\"" : null });
+  (0 in { '"0"' : null });
 }
  // arrays on RHS
 function y() {

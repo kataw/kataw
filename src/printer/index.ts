@@ -158,7 +158,6 @@ import {
   makeString,
   isEmptyProperties,
   printDetachedCommentsAndUpdateCommentsInfo,
-  rangeEndIsOnSameLineAsRangeStart,
   printLeadingCommentsOfPosition,
   printTrailingCommentsOfPosition,
   shouldWriteSeparatingLineTerminator,
@@ -171,17 +170,20 @@ import {
 } from './common';
 
 export interface PrinterOptions {
+  singleQuote?: boolean;
   indent?: number;
 }
 
 /** @internal */
 export function printCST(node: RootNode, options?: PrinterOptions): string {
   let indent = 0;
+  let singleQuote = true;
 
   if (options != null) {
     if (options.indent) indent = options.indent;
+    if (options.singleQuote) singleQuote = options.singleQuote;
   }
-  const printer = createPrinter(node.source, indent);
+  const printer = createPrinter(node.source, indent, singleQuote);
   printRootNode(node, printer);
   return printer.output;
 }
@@ -408,9 +410,7 @@ function printExpressions(node: SyntaxNode, printer: Printer): void {
     case SyntaxKind.NewTarget:
       return printNewTarget(<any>node, printer);
     case SyntaxKind.StringLiteral:
-      return printStringLiteral(<StringLiteral>node, printer, {
-        singleQuote: false
-      });
+      return printStringLiteral(<StringLiteral>node, printer);
     case SyntaxKind.NumericLiteral:
       return printNumericLiteral(<NumericLiteral>node, printer);
     case SyntaxKind.BigIntLiteral:
@@ -538,7 +538,11 @@ function printPrivateIdentifier(node: PrivateIdentifier, printer: Printer) {
   write(printer, node.rawText);
 }
 
-function printPrologueDirectives(printer: Printer, directives: StringLiteral[], startWithNewLine: boolean) {
+function printPrologueDirectives(
+  printer: Printer,
+  directives: StringLiteral[],
+  startWithNewLine: boolean,
+) {
   for (let i = 0; i < directives.length; i++) {
     if (startWithNewLine || i > 0) {
       writeLine(printer);
@@ -1961,9 +1965,7 @@ function printRestType(node: any, printer: Printer): void {
 }
 
 function printStringType(node: any, printer: Printer): void {
-  return printStringLiteral(<StringLiteral>node, printer, {
-    singleQuote: false
-  });
+  return printStringLiteral(<StringLiteral>node, printer);
 }
 function printSubtractionType(node: any, printer: Printer): void {
   printKeyword(node.subtractionToken, printer, node);
@@ -2422,8 +2424,8 @@ function printStaticBlockBody(node: any, printer: Printer, parentNode: any): voi
   }
 }
 
-export function printStringLiteral(node: StringLiteral, printer: Printer, _options: any): void {
-  write(printer, makeString(node.rawText, node.flags & NodeFlags.SingleQuote ? "'" : '"'));
+export function printStringLiteral(node: StringLiteral, printer: Printer): void {
+  write(printer, makeString(node.rawText, printer.singleQuote ? "'" : '"'));
 }
 
 export function printNewTarget(node: any, printer: Printer) {

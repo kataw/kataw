@@ -75,9 +75,9 @@
 
 ```javascript
 
-"\"P\"";
-"\"prefixQ\"";
-"\"Rsuffix\"";
+'"P"';
+'"prefixQ"';
+'"Rsuffix"';
 
 ```
 

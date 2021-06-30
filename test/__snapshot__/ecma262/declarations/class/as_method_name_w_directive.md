@@ -129,7 +129,7 @@ class c {eval(){ "use strict"; }}
 
 class c {
   eval() {
-  "\"use strict\"";
+  '"use strict"';
   }
 }
 

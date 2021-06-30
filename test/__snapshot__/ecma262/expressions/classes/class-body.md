@@ -6571,7 +6571,7 @@
   *const() { }
 });
 (class  {
-  static *"\"str\""() { }
+  static *'"str"'() { }
 });
 (class C {
   true() { }

@@ -138,7 +138,7 @@ class c {foo(eval){ "use strict"; }}
 
 class c {
   foo(eval) {
-  "\"use strict\"";
+  '"use strict"';
   }
 }
 

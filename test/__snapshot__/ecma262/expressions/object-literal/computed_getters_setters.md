@@ -439,8 +439,8 @@ var f = {
 var f = {
   get ['\'d\'']() { return '\'foo\''; },
   set ['\'d\''](x: number) { },
-  set "\"stringLiteral\""(x: number) { },
-  get "\"stringLiteral\""(): number { return 4; },
+  set '"stringLiteral"'(x: number) { },
+  get '"stringLiteral"'(): number { return 4; },
 };
 
 ```

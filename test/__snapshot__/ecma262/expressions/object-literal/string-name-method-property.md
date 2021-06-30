@@ -155,7 +155,7 @@ var x = {
 ```javascript
 
 var x = {
-  "\"foo\""() {
+  '"foo"'() {
     return bar;
   }
 };

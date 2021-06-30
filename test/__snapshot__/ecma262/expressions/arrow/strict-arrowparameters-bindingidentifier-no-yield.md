@@ -105,7 +105,7 @@
 
 ```javascript
 
-"\"use strict\"";
+'"use strict"';
 var x = yield => 1;
 
 ```
