@@ -20,7 +20,13 @@ async function runCli() {
     total: opts.files.length
   });
 
-  opts.gen && (opts.files = await autogen(opts.files, opts.conservative));
+  if (opts.gen) {
+    opts.files = await autogen(opts.files, opts.conservative);
+
+    // TODO:there was something wrong in the update logic,
+    // need to re-run `npm run test:update-all` to update the snapshots
+    return;
+  }
   setTiming(opts);
 
   let cnt = 0;

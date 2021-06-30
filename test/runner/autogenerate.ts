@@ -16,7 +16,11 @@ export async function autogen(files: string[], conservative: boolean) {
       ColorCodes.yellow +
       files.length +
       ColorCodes.GREEN +
-      ' files. \n\n' +
+    ' files. \n\n' +
+    ColorCodes.yellow +
+    'npm run test:update-all' +
+    ColorCodes.GREEN +
+    ' for auto update' +
       ColorCodes.RESET
   );
 
