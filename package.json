@@ -1,6 +1,6 @@
 {
   "name": "kataw",
-  "version": "0.0.73",
+  "version": "0.0.74",
   "description": "A insane fast CST based Javascript toolchain",
   "main": "dist/kataw.umd.min.js",
   "module": "dist/kataw.esm.min.js",
@@ -79,7 +79,7 @@
     "@types/progress": "^2.0.3",
     "@typescript-eslint/eslint-plugin": "^4.26.0",
     "@typescript-eslint/parser": "^4.26.0",
-    "c8": "^7.7.2",
+    "c8": "^7.7.3",
     "chalk": "^4.1.1",
     "cross-env": "^7.0.3",
     "eslint": "^7.28.0",
@@ -93,14 +93,14 @@
     "pretty-error": "^3.0.3",
     "progress": "^2.0.3",
     "rimraf": "^3.0.2",
-    "rollup": "^2.51.0",
+    "rollup": "^2.52.4",
     "rollup-plugin-replace": "^2.2.0",
     "rollup-plugin-terser": "^7.0.2",
     "rollup-plugin-typescript2": "^0.30.0",
     "source-map-support": "^0.5.13",
     "ts-node": "^10.0.0",
     "tsconfig-paths": "^3.9.0",
-    "typescript": "^4.3.2",
+    "typescript": "^4.3.4",
     "unicode-13.0.0": "^0.8.0"
   },
   "husky": {
