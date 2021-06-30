@@ -49,11 +49,11 @@ export interface Printer {
   lineMap: any;
 }
 
-export function createPrinter(source: string): Printer {
+export function createPrinter(source: string, indent: number): Printer {
   return {
     source,
     output: '',
-    indent: 0,
+    indent,
     lineStart: false,
     lineCount: 0,
     linePos: 0,

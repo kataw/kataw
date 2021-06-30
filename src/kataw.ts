@@ -1,4 +1,5 @@
 import { parse, Options } from './parser/parser';
+import { PrinterOptions } from './printer/index';
 import { Context, OnError } from './parser/common';
 import { RootNode } from './ast/rootNode';
 import { printCST } from './printer';
@@ -214,22 +215,22 @@ export function parseModule(source: string, options?: Options, onError?: OnError
   );
 }
 
-export function print(root: any, options?: Options): string {
+export function print(root: any, options?: PrinterOptions): string {
   return printCST(root, options);
 }
 
-export function printScript(source: string, options?: Options): string {
+export function printScript(source: string, options?: PrinterOptions): string {
   return printCST(
-    parseScript(source, options, function (_source, _kind, msg, line, column) {
+    parseScript(source, { next: true }, function (_source, _kind, msg, line, column) {
       throw msg + '(' + line + ', ' + column + ')';
     }),
     options
   );
 }
 
-export function printModule(source: string, options?: Options): string {
+export function printModule(source: string, options?: PrinterOptions): string {
   return printCST(
-    parseModule(source, options, function (_source, _kind, msg, line, column) {
+    parseModule(source, { next: true }, function (_source, _kind, msg, line, column) {
       throw msg + '(' + line + ', ' + column + ')';
     }),
     options

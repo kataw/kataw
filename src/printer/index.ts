@@ -162,19 +162,28 @@ import {
   printWithComments
 } from './common';
 
+export interface PrinterOptions {
+  indent?: number;
+}
+
 /** @internal */
-export function printCST(node: RootNode, _options?: any): string {
-  const printer = createPrinter(node.source);
+export function printCST(node: RootNode, options?: PrinterOptions): string {
+  let indent = 0;
+
+  if (options != null) {
+    if (options.indent) indent = options.indent;
+  }
+  const printer = createPrinter(node.source, indent);
   printRootNode(node, printer);
   return printer.output;
 }
 
 // Prints CST nodes on statement level with comment attachment
 function printStatement(node: SyntaxNode, printer: Printer): void {
-  printWithComments(node, printer, statementWorker);
+  printWithComments(node, printer, printStatements);
 }
 
-function statementWorker(node: SyntaxNode, printer: Printer): void {
+function printStatements(node: SyntaxNode, printer: Printer): void {
   switch (node.kind) {
     case SyntaxKind.WhileStatement:
       return printWhileStatement(<any>node, printer);
@@ -368,48 +377,11 @@ function statementWorker(node: SyntaxNode, printer: Printer): void {
   }
 }
 
-function printRootNode(node: RootNode, printer: Printer) {
-  const { directives, statements } = node;
-  if (directives.length !== 0) {
-    printPrologueDirectives(printer, directives, /*startWithNewLine */ true, /* indented */ false);
-  }
-
-  if (statements.length === 0 || directives.length === 0 || nodeIsSynthesized(statements[0])) {
-    const { start, end } = node;
-
-    if (start >= 0) {
-      printDetachedCommentsAndUpdateCommentsInfo(node, printer);
-    }
-
-    printStatementList(printer, node, node, node.statements, PrinterContext.MultiLine);
-    if (end >= 0) {
-      printLeadingComments(
-        printer,
-        // In terms of performance, there is not much to gain from creating a new 'CST node
-        // just to retieve the 'end' value of the last statement in the array, so we
-        // take a shortcut...
-        node.statements.length !== 0 ? lastOrUndefined(node.statements).end : end
-      );
-
-      if (printer.hasWrittenComment) {
-        writeLine(printer);
-      }
-    }
-  } else {
-    printStatementList(printer, node, node, node.statements, PrinterContext.MultiLine);
-  }
+function printExpression(node: SyntaxNode, printer: Printer): void {
+  printWithComments(node, printer, printExpressions);
 }
 
-function printExpressionStatement(node: ExpressionStatement, printer: Printer) {
-  printExpression(node.expression, printer);
-  write(printer, ';');
-}
-
-function printExpression(node: SyntaxNode, printer: Printer) {
-  printWithComments(node, printer, emitExpressionWorker);
-}
-
-function emitExpressionWorker(node: SyntaxNode, printer: Printer) {
+function printExpressions(node: SyntaxNode, printer: Printer): void {
   const kind = node.kind;
   switch (kind) {
     case SyntaxKind.Identifier:
@@ -511,6 +483,43 @@ function emitExpressionWorker(node: SyntaxNode, printer: Printer) {
       return printIndexExpressionChain(<any>node, printer);
     case SyntaxKind.MemberAccessChain:
       return printMemberAccessChain(node, printer);
+  }
+}
+
+function printExpressionStatement(node: ExpressionStatement, printer: Printer): void {
+  printExpression(node.expression, printer);
+  write(printer, ';');
+}
+
+function printRootNode(node: RootNode, printer: Printer) {
+  const { directives, statements } = node;
+  if (directives.length !== 0) {
+    printPrologueDirectives(printer, directives, /*startWithNewLine */ true, /* indented */ false);
+  }
+
+  if (statements.length === 0 || directives.length === 0 || nodeIsSynthesized(statements[0])) {
+    const { start, end } = node;
+
+    if (start >= 0) {
+      printDetachedCommentsAndUpdateCommentsInfo(node, printer);
+    }
+
+    printStatementList(printer, node, node, node.statements, PrinterContext.MultiLine);
+    if (end >= 0) {
+      printLeadingComments(
+        printer,
+        // In terms of performance, there is not much to gain from creating a new 'CST node
+        // just to retieve the 'end' value of the last statement in the array, so we
+        // take a shortcut...
+        node.statements.length !== 0 ? lastOrUndefined(node.statements).end : end
+      );
+
+      if (printer.hasWrittenComment) {
+        writeLine(printer);
+      }
+    }
+  } else {
+    printStatementList(printer, node, node, node.statements, PrinterContext.MultiLine);
   }
 }
 
