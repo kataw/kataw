@@ -70,14 +70,8 @@ export function createPrinter(source: string, indent: number, singleQuote: boole
   };
 }
 
-export function writeLine(printer: Printer) {
-  if (!printer.lineStart) {
-    printer.output += '\n';
-    printer.lineStart = true;
-  }
-}
-function stringRepeat(str: string, num: number) {
-  var result = '';
+function stringRepeat(str: string, num: number): string {
+  let result = '';
   while (true) {
     if (num & 1) {
       // (1)
@@ -90,6 +84,14 @@ function stringRepeat(str: string, num: number) {
 
   return result;
 }
+
+export function writeLine(printer: Printer): void {
+  if (!printer.lineStart) {
+    printer.output += '\n';
+    printer.lineStart = true;
+  }
+}
+
 export function write(printer: Printer, s: string) {
   if (printer.lineStart) {
     printer.output += stringRepeat(' ', printer.indent * 2);
@@ -98,12 +100,17 @@ export function write(printer: Printer, s: string) {
   printer.output += s;
 }
 
-export function printWithComments(node: any, printer: Printer, printCallback: (node: any, printer: Printer) => void) {
+export function printWithComments(
+  node: any,
+  printer: Printer,
+  parentNode: any,
+  printCallback: (node: any, printer: Printer, parentNode: any) => void
+) {
   if (node) {
     const { start, end } = node;
 
     if ((start < 0 && end < 0) || start === end) {
-      printCallback(node, printer);
+      printCallback(node, printer, parentNode);
     } else {
       if (start >= 0) printLeadingComments(printer, start);
 
@@ -121,7 +128,7 @@ export function printWithComments(node: any, printer: Printer, printCallback: (n
         }
       }
 
-      printCallback(node, printer);
+      printCallback(node, printer, parentNode);
 
       // Restore previous container state.
       printer.containerPos = containerPos;
@@ -135,30 +142,26 @@ export function printWithComments(node: any, printer: Printer, printCallback: (n
   }
 }
 
-function getTrailingCommentRanges(text: string, pos: number): any[] {
-  return collectTrailingComments(text, pos);
-}
-
-function getTrailingCommentsToEmit(printer: Printer, end: number): any {
+function getTrailingCommentsToPrint(printer: Printer, end: number): any {
   if (printer.containerEnd === -1 || (end !== printer.containerEnd && end !== printer.declarationListContainerEnd)) {
-    return getTrailingCommentRanges(printer.source, end);
+    return collectTrailingComments(printer.source, end);
   }
 }
 
 function printTrailingComments(printer: Printer, pos: number) {
-  const trailingComments = getTrailingCommentsToEmit(printer, pos);
+  const trailingComments = getTrailingCommentsToPrint(printer, pos);
   if (trailingComments && trailingComments.length > 0) {
-    let emitInterveningSeparator = false;
+    let printInterveningSeparator = false;
     for (const comment of trailingComments) {
-      if (emitInterveningSeparator) {
+      if (printInterveningSeparator) {
         write(printer, ' ');
-        emitInterveningSeparator = false;
+        printInterveningSeparator = false;
       }
       write(printer, printer.source.substring(comment.pos, comment.end));
       if (comment.hasTrailingNewLine) {
         writeLine(printer);
       } else {
-        emitInterveningSeparator = true;
+        printInterveningSeparator = true;
       }
     }
   }
@@ -166,7 +169,6 @@ function printTrailingComments(printer: Printer, pos: number) {
 }
 
 function getLeadingCommentsWithoutDetachedComments(printer: Printer) {
-  // get the leading comments from detachedPos
   const pos = lastOrUndefined(printer.detachedCommentsInfo).detachedCommentEndPos;
   const leadingComments = getLeadingCommentRanges(printer.source, pos);
   if (printer.detachedCommentsInfo.length - 1) {
@@ -200,16 +202,16 @@ export function printLeadingComments(printer: Printer, pos: number) {
   let trailingSeparator = false;
 
   if (leadingComments && leadingComments.length > 0) {
-    let emitLeadingSpace = !trailingSeparator;
+    let printLeadingSpace = !trailingSeparator;
     if (!printer.hasWrittenComment) {
       writeLine(printer);
       printer.hasWrittenComment = true;
     }
 
     for (const comment of leadingComments) {
-      if (emitLeadingSpace) {
+      if (printLeadingSpace) {
         write(printer, ' ');
-        emitLeadingSpace = false;
+        printLeadingSpace = false;
       }
 
       if (comment.kind === SyntaxKind.MultiLineComment) {
@@ -219,7 +221,7 @@ export function printLeadingComments(printer: Printer, pos: number) {
         } else if (trailingSeparator) {
           write(printer, ' ');
         } else {
-          emitLeadingSpace = true;
+          printLeadingSpace = true;
         }
       } else {
         write(printer, printer.source.substring(comment.pos, comment.end));
@@ -231,7 +233,7 @@ export function printLeadingComments(printer: Printer, pos: number) {
 }
 
 export function printDetachedCommentsAndUpdateCommentsInfo(node: any, printer: Printer) {
-  const currentDetachedCommentInfo = emitDetachedComments(printer, node, '');
+  const currentDetachedCommentInfo = printDetachedComments(printer, node, '');
 
   if (currentDetachedCommentInfo) {
     if (printer.detachedCommentsInfo) {
@@ -242,7 +244,7 @@ export function printDetachedCommentsAndUpdateCommentsInfo(node: any, printer: P
   }
 }
 
-export function emitDetachedComments(printer: Printer, node: any, _newLine: string) {
+export function printDetachedComments(printer: Printer, node: any, _newLine: string) {
   let currentDetachedCommentInfo: any;
   let leadingComments = getLeadingCommentRanges(printer.source, node.start);
 
@@ -254,19 +256,19 @@ export function emitDetachedComments(printer: Printer, node: any, _newLine: stri
     }
 
     if (detachedComments.length) {
-      emitNewLineBeforeLeadingComments(node, printer, leadingComments);
+      printNewLineBeforeLeadingComments(node, printer, leadingComments);
       if (detachedComments && detachedComments.length > 0) {
-        let emitInterveningSeparator = false;
+        let printInterveningSeparator = false;
         for (const comment of detachedComments) {
-          if (emitInterveningSeparator) {
+          if (printInterveningSeparator) {
             write(printer, ' ');
-            emitInterveningSeparator = false;
+            printInterveningSeparator = false;
           }
           write(printer, printer.source.substring(comment.pos, comment.end));
           if (comment.hasTrailingNewLine) {
             writeLine(printer);
           } else {
-            emitInterveningSeparator = true;
+            printInterveningSeparator = true;
           }
         }
       }
@@ -280,12 +282,11 @@ export function emitDetachedComments(printer: Printer, node: any, _newLine: stri
   return currentDetachedCommentInfo as any;
 }
 
-function emitNewLineBeforeLeadingComments(node: any, printer: Printer, leadingComments: any[]) {
-  emitNewLineBeforeLeadingCommentsOfPosition(node.start, printer, leadingComments);
+function printNewLineBeforeLeadingComments(node: any, printer: Printer, leadingComments: any[]) {
+  printNewLineBeforeLeadingCommentsOfPosition(node.start, printer, leadingComments);
 }
 
-function emitNewLineBeforeLeadingCommentsOfPosition(pos: number, printer: Printer, leadingComments: any[]) {
-  // If the leading comments start on different line than the start of node, write new line
+function printNewLineBeforeLeadingCommentsOfPosition(pos: number, printer: Printer, leadingComments: any[]) {
   if (
     leadingComments &&
     leadingComments.length &&
@@ -396,14 +397,15 @@ function synthesizedNodeStartsOnNewLine(node: Node, context: PrinterContext) {
 
   return (context & PrinterContext.PreferNewLine) !== 0;
 }
+
 export function rangeEndPositionsAreOnSameLine(range1: any, range2: any, printer: Printer) {
   return positionsAreOnSameLine(range1.end, range2.end, printer);
 }
+
 export function positionIsSynthesized(pos: number): boolean {
-  // This is a fast way of testing the following conditions:
-  //  pos === undefined || pos === null || isNaN(pos) || pos < 0;
   return !(pos >= 0);
 }
+
 export function nodeIsSynthesized(node: any): boolean {
   return positionIsSynthesized(node.start) || positionIsSynthesized(node.end);
 }
@@ -421,10 +423,10 @@ export function shouldWriteLeadingLineTerminator(
     const firstChild = children[0];
 
     if (firstChild === undefined) {
-      return parentNode.start === parentNode.end ? 0 : 1;
+      return rangeIsOnSingleLine(parentNode, printer!) ? 0 : 1;
     }
 
-    //if (firstChild.start === printer.nextListElementPos) return 0;
+    if (firstChild.start === printer.nextListElementPos) return 0;
 
     if ((context & PrinterContext.PreferNewLine) !== 0) return 1;
   }
@@ -451,16 +453,10 @@ export function shouldWriteSeparatingLineTerminator(
       return true;
     }
 
-    if (
-      !nodeIsSynthesized(previousNode) &&
-      !nodeIsSynthesized(nextNode) // &&
-      //previousNode.parent === nextNode.parent
-    ) {
+    if (!nodeIsSynthesized(previousNode) && !nodeIsSynthesized(nextNode)) {
       return rangeEndIsOnSameLineAsRangeStart(previousNode, nextNode, printer) ? 0 : 1;
-    } else if (
-      synthesizedNodeStartsOnNewLine(previousNode, context) ||
-      synthesizedNodeStartsOnNewLine(nextNode, context)
-    ) {
+    }
+    if (synthesizedNodeStartsOnNewLine(previousNode, context) || synthesizedNodeStartsOnNewLine(nextNode, context)) {
       return 1;
     }
     return rangeEndIsOnSameLineAsRangeStart(previousNode, nextNode, printer) ? 0 : 1;
@@ -470,13 +466,11 @@ export function shouldWriteSeparatingLineTerminator(
 }
 
 export function printTrailingCommentsOfPosition(printer: Printer, pos: number) {
-  const trailingComments = getTrailingCommentsToEmit(printer, pos);
-
-  // trailing comments of a position are emitted at /*trailing comment1 */space/*trailing comment*/space
-  return emitComments(printer, trailingComments, /*leadingSeparator*/ false, /*trailingSeparator*/ true);
+  const trailingComments = getTrailingCommentsToPrint(printer, pos);
+  return printComments(printer, trailingComments, /*leadingSeparator*/ false, /*trailingSeparator*/ true);
 }
 
-export function emitComments(
+export function printComments(
   printer: Printer,
   comments: any[],
   leadingSeparator: boolean,
@@ -489,17 +483,17 @@ export function emitComments(
       parts.push(' ');
     }
 
-    let emitInterveningSeparator = false;
+    let printInterveningSeparator = false;
     for (const comment of comments) {
-      if (emitInterveningSeparator) {
+      if (printInterveningSeparator) {
         write(printer, ' ');
-        emitInterveningSeparator = false;
+        printInterveningSeparator = false;
       }
       write(printer, printer.source.substring(comment.pos, comment.end));
       if (comment.hasTrailingNewLine) {
         writeLine(printer);
       } else {
-        emitInterveningSeparator = true;
+        printInterveningSeparator = true;
       }
     }
   }

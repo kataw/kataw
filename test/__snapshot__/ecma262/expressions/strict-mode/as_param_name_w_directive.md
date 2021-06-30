@@ -112,7 +112,7 @@ f = (interface) => { "use strict"; }
 
 f = (interface) =>  {
 '"use strict"';
-};
+ };
 
 ```
 

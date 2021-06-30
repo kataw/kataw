@@ -92,7 +92,7 @@ async function f() { "use strict"; }
 
 async function f() {
 '"use strict"';
-}
+ }
 
 ```
 

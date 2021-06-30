@@ -104,7 +104,7 @@ function f(x, y){"use strict";}
 
 function f(x, y) {
 '"use strict"';
-}
+ }
 
 ```
 
