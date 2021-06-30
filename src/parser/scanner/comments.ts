@@ -2,11 +2,16 @@ import { Char } from './char';
 import { SyntaxKind } from '../../ast/syntax-node';
 import { isWhiteSpaceSlow, isLineTerminator } from './common';
 
+export function lastOrUndefined<T>(array: readonly T[]): any {
+  return array.length === 0 ? undefined : array[array.length - 1];
+}
+
 export function extractComments(text: string, pos: number, trailing: boolean): any[] {
-  const result: any[] = [];
+  let result: any;
   let collecting = trailing || pos === 0;
-  while (pos < text.length) {
-    const ch = text.charCodeAt(pos);
+
+  while (true) {
+    let ch = text.charCodeAt(pos);
     switch (ch) {
       case Char.CarriageReturn:
         if (text.charCodeAt(pos + 1) === Char.LineFeed) {
@@ -18,6 +23,9 @@ export function extractComments(text: string, pos: number, trailing: boolean): a
           return result;
         }
         collecting = true;
+        if (result && result.length) {
+          lastOrUndefined(result).hasTrailingNewLine = true;
+        }
         continue;
       case Char.Tab:
       case Char.VerticalTab:
@@ -26,11 +34,11 @@ export function extractComments(text: string, pos: number, trailing: boolean): a
         pos++;
         continue;
       case Char.Slash:
-        const nextChar = text.charCodeAt(pos + 1);
+        let nextChar = text.charCodeAt(pos + 1);
         let hasTrailingNewLine = false;
         if (nextChar === Char.Slash || nextChar === Char.Asterisk) {
-          const kind = nextChar === Char.Slash ? SyntaxKind.SingleLineComment : SyntaxKind.MultiLineComment;
-          const startPos = pos;
+          let kind = nextChar === Char.Slash ? SyntaxKind.SingleLineComment : SyntaxKind.MultiLineComment;
+          let startPos = pos;
           pos += 2;
           if (nextChar === Char.Slash) {
             while (pos < text.length) {
@@ -50,6 +58,10 @@ export function extractComments(text: string, pos: number, trailing: boolean): a
             }
           }
           if (collecting) {
+            if (!result) {
+              result = [];
+            }
+
             result.push({ pos: startPos, end: pos, hasTrailingNewLine, kind });
           }
           continue;
@@ -57,6 +69,9 @@ export function extractComments(text: string, pos: number, trailing: boolean): a
         break;
       default:
         if (ch > 127 && (isWhiteSpaceSlow(ch) || isLineTerminator(ch))) {
+          if (result && result.length && isLineTerminator(ch)) {
+            lastOrUndefined(result).hasTrailingNewLine = true;
+          }
           pos++;
           continue;
         }
@@ -64,8 +79,6 @@ export function extractComments(text: string, pos: number, trailing: boolean): a
     }
     return result;
   }
-
-  return result;
 }
 
 export function getLeadingComments(text: string, pos: number): any[] {

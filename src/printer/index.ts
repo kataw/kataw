@@ -576,21 +576,10 @@ function printList(
 ) {
   const isEmpty = children === undefined || 0 >= children.length;
 
-  const aladdin: any = [];
-
   if (
     format &
     (PrinterContext.Braces | PrinterContext.Parenthesis | PrinterContext.AngleBrackets | PrinterContext.SquareBrackets)
   ) {
-    aladdin.push(
-      brackets[
-        format &
-          (PrinterContext.Braces |
-            PrinterContext.Parenthesis |
-            PrinterContext.AngleBrackets |
-            PrinterContext.SquareBrackets)
-      ][0]
-    );
     write(
       printer,
       brackets[
@@ -628,7 +617,7 @@ function printList(
     }
 
     let previousSibling!: SyntaxNode;
-    let shouldDecreaseIndentAfterEmit = false;
+    let shouldDecreaseIndentAfterEmit: boolean = false;
 
     for (let i = 0; i < children.length; i++) {
       const child = children[i];
@@ -641,7 +630,6 @@ function printList(
           printLeadingCommentsOfPosition(printer, previousSibling.end);
         }
 
-        aladdin.push(', ');
         writeDelimiter(printer, format);
 
         // Write either a line terminator or whitespace to separate the elements.
@@ -722,15 +710,7 @@ function printList(
     (PrinterContext.Braces | PrinterContext.Parenthesis | PrinterContext.AngleBrackets | PrinterContext.SquareBrackets)
   ) {
     if (isEmpty && children) printLeadingCommentsOfPosition(printer, listNode.end);
-    aladdin.push(
-      brackets[
-        format &
-          (PrinterContext.Braces |
-            PrinterContext.Parenthesis |
-            PrinterContext.AngleBrackets |
-            PrinterContext.SquareBrackets)
-      ][1]
-    );
+
     write(
       printer,
       brackets[
@@ -1862,7 +1842,7 @@ function printObjectTypeCallProperty(node: any, printer: Printer): void {
   }
   write(printer, '(');
   printStatement(node.value, printer);
-  const pos = printPunctuator(')', printer, node.value.end, node);
+  let pos = printPunctuator(')', printer, node.value.end, node);
   if (node.returnType) {
     printPunctuator(':', printer, pos, node);
     write(printer, ' ');

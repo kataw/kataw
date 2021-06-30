@@ -1,6 +1,7 @@
 import { SyntaxKind, NodeFlags, tokenToString } from '../ast/syntax-node';
 import { Char } from '../parser/scanner/char';
-import { isLineTerminator, isWhiteSpaceSlow } from '../parser/scanner/common';
+import { collectLeadingComments, collectTrailingComments } from '../parser/scanner/comments';
+import { skipWhitespace } from '../parser/scanner/common';
 
 export const enum PrinterContext {
   None = 0,
@@ -74,7 +75,7 @@ export function writeLine(printer: Printer) {
   }
 }
 function stringRepeat(str: string, num: number) {
-  let result = '';
+  var result = '';
   while (true) {
     if (num & 1) {
       // (1)
@@ -133,11 +134,10 @@ export function printWithComments(node: any, printer: Printer, printCallback: (n
 }
 
 function getTrailingCommentRanges(text: string, pos: number): any[] {
-  return getCommentRanges(text, pos, /*trailing*/ true);
+  return collectTrailingComments(text, pos);
 }
 
 function getTrailingCommentsToEmit(printer: Printer, end: number): any {
-  // Emit the trailing comments only if the container's end doesn't match because the container should take care of emitting these comments
   if (printer.containerEnd === -1 || (end !== printer.containerEnd && end !== printer.declarationListContainerEnd)) {
     return getTrailingCommentRanges(printer.source, end);
   }
@@ -163,81 +163,6 @@ function printTrailingComments(printer: Printer, pos: number) {
   return '';
 }
 
-function getCommentRanges(text: string, pos: number, trailing: boolean): any {
-  let result: any;
-  let collecting = trailing || pos === 0;
-
-  while (true) {
-    const ch = text.charCodeAt(pos);
-    switch (ch) {
-      case Char.CarriageReturn:
-        if (text.charCodeAt(pos + 1) === Char.LineFeed) {
-          pos++;
-        }
-      case Char.LineFeed:
-        pos++;
-        if (trailing) {
-          return result;
-        }
-        collecting = true;
-        if (result && result.length) {
-          lastOrUndefined(result).hasTrailingNewLine = true;
-        }
-        continue;
-      case Char.Tab:
-      case Char.VerticalTab:
-      case Char.FormFeed:
-      case Char.Space:
-        pos++;
-        continue;
-      case Char.Slash:
-        const nextChar = text.charCodeAt(pos + 1);
-        let hasTrailingNewLine = false;
-        if (nextChar === Char.Slash || nextChar === Char.Asterisk) {
-          const kind = nextChar === Char.Slash ? SyntaxKind.SingleLineComment : SyntaxKind.MultiLineComment;
-          const startPos = pos;
-          pos += 2;
-          if (nextChar === Char.Slash) {
-            while (pos < text.length) {
-              if (isLineTerminator(text.charCodeAt(pos))) {
-                hasTrailingNewLine = true;
-                break;
-              }
-              pos++;
-            }
-          } else {
-            while (pos < text.length) {
-              if (text.charCodeAt(pos) === Char.Asterisk && text.charCodeAt(pos + 1) === Char.Slash) {
-                pos += 2;
-                break;
-              }
-              pos++;
-            }
-          }
-          if (collecting) {
-            if (!result) {
-              result = [];
-            }
-
-            result.push({ pos: startPos, end: pos, hasTrailingNewLine, kind });
-          }
-          continue;
-        }
-        break;
-      default:
-        if (ch > 127 && (isWhiteSpaceSlow(ch) || isLineTerminator(ch))) {
-          if (result && result.length && isLineTerminator(ch)) {
-            lastOrUndefined(result).hasTrailingNewLine = true;
-          }
-          pos++;
-          continue;
-        }
-        break;
-    }
-    return result;
-  }
-}
-
 export function printLeadingCommentsOfPosition(printer: Printer, pos: number) {
   if (pos === -1) {
     return;
@@ -259,7 +184,7 @@ function getLeadingCommentsWithoutDetachedComments(printer: Printer) {
 
 export function getLeadingCommentRanges(text: string, pos: number): any {
   if (pos !== undefined) {
-    return getCommentRanges(text, pos, /*trailing*/ false);
+    return collectLeadingComments(text, pos);
   }
 }
 
@@ -276,7 +201,7 @@ export function printLeadingComments(printer: Printer, pos: number) {
       : getLeadingCommentRanges(printer.source, pos);
   }
 
-  const trailingSeparator = false;
+  let trailingSeparator = false;
 
   if (leadingComments && leadingComments.length > 0) {
     let emitLeadingSpace = !trailingSeparator;
@@ -298,7 +223,6 @@ export function printLeadingComments(printer: Printer, pos: number) {
         } else if (trailingSeparator) {
           write(printer, ' ');
         } else {
-          // Emit leading space to separate comment during next comment emit
           emitLeadingSpace = true;
         }
       } else {
@@ -324,7 +248,7 @@ export function printDetachedCommentsAndUpdateCommentsInfo(node: any, printer: P
 
 export function emitDetachedComments(printer: Printer, node: any, _newLine: string) {
   let currentDetachedCommentInfo: any;
-  const leadingComments = getLeadingCommentRanges(printer.source, node.start);
+  let leadingComments = getLeadingCommentRanges(printer.source, node.start);
 
   if (leadingComments) {
     const detachedComments: any[] = [];
@@ -512,91 +436,6 @@ export function shouldWriteLeadingLineTerminator(
   return format & PrinterContext.MultiLine ? true : false;
 }
 
-export function skipWhitespace(
-  text: string,
-  pos: number,
-  stopAfterLineBreak?: boolean,
-  stopAtComments = false
-): number {
-  if (!(pos >= 0)) {
-    return pos;
-  }
-
-  // Keep in sync with couldStartTrivia
-  while (true) {
-    const ch = text.charCodeAt(pos);
-    switch (ch) {
-      case Char.CarriageReturn:
-        if (text.charCodeAt(pos + 1) === Char.LineFeed) {
-          pos++;
-        }
-      // falls through
-      case Char.LineFeed:
-        pos++;
-        if (stopAfterLineBreak) {
-          return pos;
-        }
-        continue;
-      case Char.Tab:
-      case Char.VerticalTab:
-      case Char.FormFeed:
-      case Char.Space:
-        pos++;
-        continue;
-      case Char.Slash:
-        if (stopAtComments) {
-          break;
-        }
-        if (text.charCodeAt(pos + 1) === Char.Slash) {
-          pos += 2;
-          while (pos < text.length) {
-            if (isLineTerminator(text.charCodeAt(pos))) {
-              break;
-            }
-            pos++;
-          }
-          continue;
-        }
-        if (text.charCodeAt(pos + 1) === Char.Asterisk) {
-          pos += 2;
-          while (pos < text.length) {
-            if (text.charCodeAt(pos) === Char.Asterisk && text.charCodeAt(pos + 1) === Char.Slash) {
-              pos += 2;
-              break;
-            }
-            pos++;
-          }
-          continue;
-        }
-        break;
-      /*
-          case Char.LessThan:
-          case Char.Bar:
-          case Char.Assign:
-          case Char.greaterThan:
-              if (isConflictMarkerTrivia(text, pos)) {
-                  pos = scanConflictMarkerTrivia(text, pos);
-                  continue;
-              }
-              break;
-          case Char.hash:
-              if (pos === 0 && isShebangTrivia(text, pos)) {
-                  pos = scanShebangTrivia(text, pos);
-                  continue;
-              }
-              break;
-*/
-      default:
-        if (ch > 127 && isWhiteSpaceSlow(ch)) {
-          pos++;
-          continue;
-        }
-        break;
-    }
-    return pos;
-  }
-}
-
 export function rangeEndIsOnSameLineAsRangeStart(range1: any, range2: any, printer: Printer) {
   return positionsAreOnSameLine(range1.end, getStartPositionOfRange(range2, printer), printer);
 }
@@ -647,7 +486,7 @@ export function emitComments(
   leadingSeparator: boolean,
   _trailingSeparator: boolean
 ) {
-  const parts = [];
+  let parts = [];
 
   if (comments && comments.length > 0) {
     if (leadingSeparator) {
