@@ -94,7 +94,12 @@ class Foo {
                             "kind": 305,
                             "decorators": null,
                             "declaredKeyword": null,
-                            "staticKeyword": null,
+                            "staticKeyword": {
+                                "kind": 8388716,
+                                "flags": 64,
+                                "start": 30,
+                                "end": 39
+                            },
                             "block": {
                                 "kind": 124,
                                 "block": {
@@ -203,6 +208,9 @@ class Foo {
 class Foo {
   static bar = 42
   ;
+  static  {
+    this.foo = Foo.bar;
+  }
 }
 
 ```

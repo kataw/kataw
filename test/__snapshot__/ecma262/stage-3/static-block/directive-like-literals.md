@@ -112,7 +112,12 @@ class C {
                             "kind": 305,
                             "decorators": null,
                             "declaredKeyword": null,
-                            "staticKeyword": null,
+                            "staticKeyword": {
+                                "kind": 8388716,
+                                "flags": 64,
+                                "start": 27,
+                                "end": 36
+                            },
                             "block": {
                                 "kind": 124,
                                 "block": {
@@ -232,6 +237,10 @@ class C {
 
 class C {
   static foo() { }
+  static  {
+    '"use strict"';// will not be parsed as directives
+    this.bar = this.foo;
+  }
 }
 
 ```

@@ -91,7 +91,12 @@ label: while(false) {
                                                 "kind": 305,
                                                 "decorators": null,
                                                 "declaredKeyword": null,
-                                                "staticKeyword": null,
+                                                "staticKeyword": {
+                                                    "kind": 8388716,
+                                                    "flags": 64,
+                                                    "start": 33,
+                                                    "end": 44
+                                                },
                                                 "block": {
                                                     "kind": 124,
                                                     "block": {

@@ -95,7 +95,12 @@ function * g() {
                                             "kind": 305,
                                             "decorators": null,
                                             "declaredKeyword": null,
-                                            "staticKeyword": null,
+                                            "staticKeyword": {
+                                                "kind": 8388716,
+                                                "flags": 64,
+                                                "start": 28,
+                                                "end": 39
+                                            },
                                             "block": {
                                                 "kind": 124,
                                                 "block": {
@@ -171,6 +176,9 @@ function * g() {
 
 function* g() {
   class C {
+    static  {
+      yield;
+    }
   }
 }
 

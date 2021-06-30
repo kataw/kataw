@@ -57,8 +57,8 @@ class Foo {
                             "staticKeyword": {
                                 "kind": 8388716,
                                 "flags": 64,
-                                "start": 11,
-                                "end": 20
+                                "start": 20,
+                                "end": 27
                             },
                             "block": {
                                 "kind": 124,
@@ -104,12 +104,16 @@ class Foo {
 
 ```javascript
 
+class Foo {
+  static  {
+  }
+}
+
 ```
 
 ### Diagnostics
 
 ```javascript
-✖ A 'static {}' initialization block cannot have the 'static' modifier - start: 27, end: 29
-
+✔ No errors
 ```
 

@@ -221,8 +221,8 @@ function printStatements(node: SyntaxNode, printer: Printer): void {
       return printBreakStatement(<BreakStatement>node, printer);
     case SyntaxKind.SwitchStatement:
       return printSwitchStatement(<SwitchStatement>node, printer);
-    //    case SyntaxKind.StaticBlock:
-    //    return printStaticBlock(<any>node, printer);
+    case SyntaxKind.StaticBlock:
+      return printStaticBlock(<any>node, printer);
     case SyntaxKind.ForStatement:
       return printForStatement(<ForStatement>node, printer);
     case SyntaxKind.FunctionDeclaration:
@@ -2401,9 +2401,8 @@ function printStaticBlock(node: any, printer: Printer): void {
   if (node.declaredKeyword) {
     printKeyword(node.declaredKeyword, printer, node);
   }
-  try {
-    printKeyword(node.staticKeyword, printer, node);
-  } catch (e) {}
+  printKeyword(node.staticKeyword, printer, node);
+  write(printer, ' ');
   printStaticBlockBody(node.block, printer, node);
 }
 

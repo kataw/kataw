@@ -151,7 +151,12 @@ class C {
                                                                 "kind": 305,
                                                                 "decorators": null,
                                                                 "declaredKeyword": null,
-                                                                "staticKeyword": null,
+                                                                "staticKeyword": {
+                                                                    "kind": 8388716,
+                                                                    "flags": 64,
+                                                                    "start": 54,
+                                                                    "end": 67
+                                                                },
                                                                 "block": {
                                                                     "kind": 124,
                                                                     "block": {
@@ -280,6 +285,9 @@ class C {
   ;
   constructor() {
     class D {
+      static  {
+        C.#_ = 42;
+      }
     }
   }
 }

@@ -153,7 +153,12 @@ class C {
                             "kind": 305,
                             "decorators": null,
                             "declaredKeyword": null,
-                            "staticKeyword": null,
+                            "staticKeyword": {
+                                "kind": 8388716,
+                                "flags": 64,
+                                "start": 36,
+                                "end": 47
+                            },
                             "block": {
                                 "kind": 124,
                                 "block": {
@@ -247,7 +252,12 @@ class C {
                             "kind": 305,
                             "decorators": null,
                             "declaredKeyword": null,
-                            "staticKeyword": null,
+                            "staticKeyword": {
+                                "kind": 8388716,
+                                "flags": 64,
+                                "start": 100,
+                                "end": 112
+                            },
                             "block": {
                                 "kind": 124,
                                 "block": {
@@ -367,6 +377,16 @@ class C {
 const a = 1;
 const b = 2;
 class C {
+  static  {
+    const a = 11;
+    a;
+    b;
+  }
+  static  {
+    const a = 11;
+    a;
+    b;
+  }
 }
 
 ```

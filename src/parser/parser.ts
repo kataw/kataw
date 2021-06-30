@@ -10034,6 +10034,7 @@ export function parseClassElement(
 
       (parser.nodeFlags & NodeFlags.NewLine) < 1
     ) {
+
       switch (token) {
         case SyntaxKind.StaticKeyword:
           // avoid 'static static'
@@ -10147,7 +10148,7 @@ export function parseClassElement(
         inheritedContext,
         decorators,
         declareKeyword,
-        staticKeyword,
+        createToken(SyntaxKind.StaticKeyword, NodeFlags.NoChildren, key.start, key.end),
         nodeFlags,
         pos
       ) as any;
@@ -10345,16 +10346,6 @@ export function parseClassStaticBlockDeclaration(
   nodeFlags: NodeFlags,
   pos: number
 ): StaticBlock {
-  // - `class q { static static {} }`
-  if (staticKeyword) {
-    parser.onError(
-      DiagnosticSource.Parser,
-      DiagnosticKind.Error | DiagnosticKind.EarlyError,
-      diagnosticMap[DiagnosticCode.A_static_initialization_block_cannot_have_the_static_modifier],
-      parser.curPos,
-      parser.pos
-    );
-  }
 
   // - `@foo class q { static {} }`
   if (decorators) {
@@ -10403,6 +10394,7 @@ export function parseClassStaticBlockDeclaration(
       parser.pos
     );
   }
+
   return createStaticBlock(
     decorators,
     declareKeyword,

@@ -91,7 +91,12 @@ class C {
                             "kind": 305,
                             "decorators": null,
                             "declaredKeyword": null,
-                            "staticKeyword": null,
+                            "staticKeyword": {
+                                "kind": 8388716,
+                                "flags": 64,
+                                "start": 20,
+                                "end": 29
+                            },
                             "block": {
                                 "kind": 124,
                                 "block": {
@@ -171,6 +176,9 @@ class C {
 
 let await;
 class C {
+  static  {
+    await (1);// illegal
+  }
 }
 
 ```

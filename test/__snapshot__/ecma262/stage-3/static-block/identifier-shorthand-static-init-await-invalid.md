@@ -55,7 +55,12 @@ class C {
                             "kind": 305,
                             "decorators": null,
                             "declaredKeyword": null,
-                            "staticKeyword": null,
+                            "staticKeyword": {
+                                "kind": 8388716,
+                                "flags": 64,
+                                "start": 78,
+                                "end": 87
+                            },
                             "block": {
                                 "kind": 124,
                                 "block": {

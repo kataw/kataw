@@ -154,7 +154,12 @@ switch (0) {
                                                             "kind": 305,
                                                             "decorators": null,
                                                             "declaredKeyword": null,
-                                                            "staticKeyword": null,
+                                                            "staticKeyword": {
+                                                                "kind": 8388716,
+                                                                "flags": 64,
+                                                                "start": 61,
+                                                                "end": 74
+                                                            },
                                                             "block": {
                                                                 "kind": 124,
                                                                 "block": {

@@ -77,7 +77,12 @@ try {
                                             "kind": 305,
                                             "decorators": null,
                                             "declaredKeyword": null,
-                                            "staticKeyword": null,
+                                            "staticKeyword": {
+                                                "kind": 8388716,
+                                                "flags": 64,
+                                                "start": 18,
+                                                "end": 29
+                                            },
                                             "block": {
                                                 "kind": 124,
                                                 "block": {
@@ -209,7 +214,12 @@ try {
                                             "kind": 305,
                                             "decorators": null,
                                             "declaredKeyword": null,
-                                            "staticKeyword": null,
+                                            "staticKeyword": {
+                                                "kind": 8388716,
+                                                "flags": 64,
+                                                "start": 120,
+                                                "end": 131
+                                            },
                                             "block": {
                                                 "kind": 124,
                                                 "block": {
@@ -372,8 +382,15 @@ try {
 
 try {
   class C {
+    static  {
+      throw thrown;
+      sameBlock = true;
+    }
     static x = subsequentField = true
     ;
+    static  {
+      subsequentBlock = true;
+    }
   }
 }
 catch (error){

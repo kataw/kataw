@@ -152,7 +152,12 @@ async function foo() {
                                             "kind": 305,
                                             "decorators": null,
                                             "declaredKeyword": null,
-                                            "staticKeyword": null,
+                                            "staticKeyword": {
+                                                "kind": 8388716,
+                                                "flags": 64,
+                                                "start": 54,
+                                                "end": 65
+                                            },
                                             "block": {
                                                 "kind": 124,
                                                 "block": {
@@ -241,6 +246,9 @@ async function foo() {
 async function foo() {
   class C {
     static foo() { }
+    static  {
+      await 42;
+    }
   }
 }
 

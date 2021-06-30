@@ -139,7 +139,12 @@ class C {
                                 "end": 34
                             },
                             "declaredKeyword": null,
-                            "staticKeyword": null,
+                            "staticKeyword": {
+                                "kind": 8388716,
+                                "flags": 64,
+                                "start": 34,
+                                "end": 43
+                            },
                             "block": {
                                 "kind": 124,
                                 "block": {

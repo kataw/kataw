@@ -54,7 +54,12 @@ class C {
                             "kind": 305,
                             "decorators": null,
                             "declaredKeyword": null,
-                            "staticKeyword": null,
+                            "staticKeyword": {
+                                "kind": 8388716,
+                                "flags": 64,
+                                "start": 9,
+                                "end": 18
+                            },
                             "block": {
                                 "kind": 124,
                                 "block": {
@@ -216,6 +221,9 @@ class C {
 ```javascript
 
 class C {
+  static  {
+    (() =>  { var [await] = []; });
+  }
 }
 
 ```
