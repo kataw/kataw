@@ -21,10 +21,10 @@ export function createArrowFunctionType(
 ): ArrowFunctionType {
   return {
     kind: SyntaxKind.ArrowFunctionType,
+    typeParameters,
     arrowTypeParameterList,
     arrowToken,
     returnType,
-    typeParameters,
     flags: NodeFlags.IsTypeNode,
     start,
     end

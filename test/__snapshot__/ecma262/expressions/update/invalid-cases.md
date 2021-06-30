@@ -1,0 +1,589 @@
+# Kataw parser test case
+
+## Input
+
+`````js
+foo()++;
+
+foo(bar)++;
+
+foo[bar]()++;
+
+foo.bar()++;
+
+this.foo[foo].bar(this)(bar)[foo]()++;
+
+new foo()++;
+
+new new foo().bar++;
+
+{x: 1}++;
+`````
+
+## Output
+
+### CST
+
+```javascript
+{
+    "kind": 122,
+    "directives": [],
+    "statements": [
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 127,
+                "operandToken": {
+                    "kind": 196635,
+                    "flags": 96,
+                    "start": 5,
+                    "end": 7
+                },
+                "operand": {
+                    "kind": 131,
+                    "expression": {
+                        "kind": 134299649,
+                        "text": "foo",
+                        "rawText": "foo",
+                        "flags": 96,
+                        "start": 0,
+                        "end": 3
+                    },
+                    "argumentList": {
+                        "kind": 256,
+                        "elements": [],
+                        "trailingComma": false,
+                        "flags": 32,
+                        "start": 4,
+                        "end": 4
+                    },
+                    "flags": 268435488,
+                    "start": 0,
+                    "end": 5
+                },
+                "flags": 32,
+                "start": 0,
+                "end": 7
+            },
+            "flags": 16,
+            "start": 0,
+            "end": 8
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 127,
+                "operandToken": {
+                    "kind": 196635,
+                    "flags": 96,
+                    "start": 18,
+                    "end": 20
+                },
+                "operand": {
+                    "kind": 131,
+                    "expression": {
+                        "kind": 134299649,
+                        "text": "foo",
+                        "rawText": "foo",
+                        "flags": 96,
+                        "start": 8,
+                        "end": 13
+                    },
+                    "argumentList": {
+                        "kind": 256,
+                        "elements": [
+                            {
+                                "kind": 134299649,
+                                "text": "bar",
+                                "rawText": "bar",
+                                "flags": 96,
+                                "start": 14,
+                                "end": 17
+                            }
+                        ],
+                        "trailingComma": false,
+                        "flags": 32,
+                        "start": 14,
+                        "end": 17
+                    },
+                    "flags": 268435488,
+                    "start": 8,
+                    "end": 18
+                },
+                "flags": 32,
+                "start": 8,
+                "end": 20
+            },
+            "flags": 16,
+            "start": 8,
+            "end": 21
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 127,
+                "operandToken": {
+                    "kind": 196635,
+                    "flags": 96,
+                    "start": 33,
+                    "end": 35
+                },
+                "operand": {
+                    "kind": 131,
+                    "expression": {
+                        "kind": 130,
+                        "member": {
+                            "kind": 134299649,
+                            "text": "foo",
+                            "rawText": "foo",
+                            "flags": 96,
+                            "start": 21,
+                            "end": 26
+                        },
+                        "expression": {
+                            "kind": 134299649,
+                            "text": "bar",
+                            "rawText": "bar",
+                            "flags": 96,
+                            "start": 27,
+                            "end": 30
+                        },
+                        "flags": 536870944,
+                        "start": 21,
+                        "end": 31
+                    },
+                    "argumentList": {
+                        "kind": 256,
+                        "elements": [],
+                        "trailingComma": false,
+                        "flags": 32,
+                        "start": 32,
+                        "end": 32
+                    },
+                    "flags": 268435488,
+                    "start": 21,
+                    "end": 33
+                },
+                "flags": 32,
+                "start": 21,
+                "end": 35
+            },
+            "flags": 16,
+            "start": 21,
+            "end": 36
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 127,
+                "operandToken": {
+                    "kind": 196635,
+                    "flags": 96,
+                    "start": 47,
+                    "end": 49
+                },
+                "operand": {
+                    "kind": 131,
+                    "expression": {
+                        "kind": 129,
+                        "member": {
+                            "kind": 134299649,
+                            "text": "foo",
+                            "rawText": "foo",
+                            "flags": 96,
+                            "start": 36,
+                            "end": 41
+                        },
+                        "expression": {
+                            "kind": 134299649,
+                            "text": "bar",
+                            "rawText": "bar",
+                            "flags": 96,
+                            "start": 42,
+                            "end": 45
+                        },
+                        "flags": 96,
+                        "start": 36,
+                        "end": 45
+                    },
+                    "argumentList": {
+                        "kind": 256,
+                        "elements": [],
+                        "trailingComma": false,
+                        "flags": 32,
+                        "start": 46,
+                        "end": 46
+                    },
+                    "flags": 268435488,
+                    "start": 36,
+                    "end": 47
+                },
+                "flags": 32,
+                "start": 36,
+                "end": 49
+            },
+            "flags": 16,
+            "start": 36,
+            "end": 50
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 127,
+                "operandToken": {
+                    "kind": 196635,
+                    "flags": 96,
+                    "start": 87,
+                    "end": 89
+                },
+                "operand": {
+                    "kind": 131,
+                    "expression": {
+                        "kind": 130,
+                        "member": {
+                            "kind": 131,
+                            "expression": {
+                                "kind": 131,
+                                "expression": {
+                                    "kind": 129,
+                                    "member": {
+                                        "kind": 130,
+                                        "member": {
+                                            "kind": 129,
+                                            "member": {
+                                                "kind": 4276321,
+                                                "flags": 97,
+                                                "start": 50,
+                                                "end": 56
+                                            },
+                                            "expression": {
+                                                "kind": 134299649,
+                                                "text": "foo",
+                                                "rawText": "foo",
+                                                "flags": 96,
+                                                "start": 57,
+                                                "end": 60
+                                            },
+                                            "flags": 97,
+                                            "start": 50,
+                                            "end": 60
+                                        },
+                                        "expression": {
+                                            "kind": 134299649,
+                                            "text": "foo",
+                                            "rawText": "foo",
+                                            "flags": 96,
+                                            "start": 61,
+                                            "end": 64
+                                        },
+                                        "flags": 536870944,
+                                        "start": 50,
+                                        "end": 65
+                                    },
+                                    "expression": {
+                                        "kind": 134299649,
+                                        "text": "bar",
+                                        "rawText": "bar",
+                                        "flags": 96,
+                                        "start": 66,
+                                        "end": 69
+                                    },
+                                    "flags": 536870944,
+                                    "start": 50,
+                                    "end": 69
+                                },
+                                "argumentList": {
+                                    "kind": 256,
+                                    "elements": [
+                                        {
+                                            "kind": 4276321,
+                                            "flags": 96,
+                                            "start": 70,
+                                            "end": 74
+                                        }
+                                    ],
+                                    "trailingComma": false,
+                                    "flags": 32,
+                                    "start": 70,
+                                    "end": 74
+                                },
+                                "flags": 268435488,
+                                "start": 50,
+                                "end": 75
+                            },
+                            "argumentList": {
+                                "kind": 256,
+                                "elements": [
+                                    {
+                                        "kind": 134299649,
+                                        "text": "bar",
+                                        "rawText": "bar",
+                                        "flags": 96,
+                                        "start": 76,
+                                        "end": 79
+                                    }
+                                ],
+                                "trailingComma": false,
+                                "flags": 32,
+                                "start": 76,
+                                "end": 79
+                            },
+                            "flags": 268435488,
+                            "start": 50,
+                            "end": 80
+                        },
+                        "expression": {
+                            "kind": 134299649,
+                            "text": "foo",
+                            "rawText": "foo",
+                            "flags": 96,
+                            "start": 81,
+                            "end": 84
+                        },
+                        "flags": 536870944,
+                        "start": 50,
+                        "end": 85
+                    },
+                    "argumentList": {
+                        "kind": 256,
+                        "elements": [],
+                        "trailingComma": false,
+                        "flags": 32,
+                        "start": 86,
+                        "end": 86
+                    },
+                    "flags": 268435488,
+                    "start": 50,
+                    "end": 87
+                },
+                "flags": 32,
+                "start": 50,
+                "end": 89
+            },
+            "flags": 16,
+            "start": 50,
+            "end": 90
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 127,
+                "operandToken": {
+                    "kind": 196635,
+                    "flags": 96,
+                    "start": 101,
+                    "end": 103
+                },
+                "operand": {
+                    "kind": 210,
+                    "newKeyword": {
+                        "kind": 138477661,
+                        "flags": 97,
+                        "start": 90,
+                        "end": 95
+                    },
+                    "expression": {
+                        "kind": 134299649,
+                        "text": "foo",
+                        "rawText": "foo",
+                        "flags": 96,
+                        "start": 95,
+                        "end": 99
+                    },
+                    "argumentList": {
+                        "kind": 256,
+                        "elements": [],
+                        "trailingComma": false,
+                        "flags": 32,
+                        "start": 100,
+                        "end": 100
+                    },
+                    "flags": 97,
+                    "start": 90,
+                    "end": 101
+                },
+                "flags": 32,
+                "start": 90,
+                "end": 103
+            },
+            "flags": 16,
+            "start": 90,
+            "end": 104
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 127,
+                "operandToken": {
+                    "kind": 196635,
+                    "flags": 96,
+                    "start": 123,
+                    "end": 125
+                },
+                "operand": {
+                    "kind": 129,
+                    "member": {
+                        "kind": 210,
+                        "newKeyword": {
+                            "kind": 138477661,
+                            "flags": 97,
+                            "start": 104,
+                            "end": 109
+                        },
+                        "expression": {
+                            "kind": 210,
+                            "newKeyword": {
+                                "kind": 138477661,
+                                "flags": 96,
+                                "start": 109,
+                                "end": 113
+                            },
+                            "expression": {
+                                "kind": 134299649,
+                                "text": "foo",
+                                "rawText": "foo",
+                                "flags": 96,
+                                "start": 113,
+                                "end": 117
+                            },
+                            "argumentList": {
+                                "kind": 256,
+                                "elements": [],
+                                "trailingComma": false,
+                                "flags": 32,
+                                "start": 118,
+                                "end": 118
+                            },
+                            "flags": 96,
+                            "start": 109,
+                            "end": 119
+                        },
+                        "argumentList": null,
+                        "flags": 97,
+                        "start": 104,
+                        "end": 119
+                    },
+                    "expression": {
+                        "kind": 134299649,
+                        "text": "bar",
+                        "rawText": "bar",
+                        "flags": 96,
+                        "start": 120,
+                        "end": 123
+                    },
+                    "flags": 97,
+                    "start": 104,
+                    "end": 123
+                },
+                "flags": 32,
+                "start": 104,
+                "end": 125
+            },
+            "flags": 16,
+            "start": 104,
+            "end": 126
+        },
+        {
+            "kind": 124,
+            "block": {
+                "kind": 249,
+                "statements": [
+                    {
+                        "kind": 163,
+                        "label": {
+                            "kind": 134299649,
+                            "text": "x",
+                            "rawText": "x",
+                            "flags": 96,
+                            "start": 129,
+                            "end": 130
+                        },
+                        "colonToken": {
+                            "kind": 21,
+                            "flags": 64,
+                            "start": 130,
+                            "end": 131
+                        },
+                        "statement": {
+                            "kind": 120,
+                            "expression": {
+                                "kind": 201392130,
+                                "text": 1,
+                                "rawText": "1",
+                                "flags": 96,
+                                "start": 131,
+                                "end": 133
+                            },
+                            "flags": 16,
+                            "start": 131,
+                            "end": 133
+                        },
+                        "flags": 16,
+                        "start": 129,
+                        "end": 133
+                    }
+                ],
+                "flags": 16,
+                "start": 129,
+                "end": 133
+            },
+            "flags": 17,
+            "start": 126,
+            "end": 134
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 128,
+                "operandToken": {
+                    "kind": 196635,
+                    "flags": 96,
+                    "start": 134,
+                    "end": 136
+                },
+                "operand": {
+                    "kind": 16637,
+                    "text": "",
+                    "rawText": "",
+                    "flags": 64,
+                    "start": 136,
+                    "end": 136
+                },
+                "flags": 32,
+                "start": 134,
+                "end": 136
+            },
+            "flags": 16,
+            "start": 134,
+            "end": 137
+        }
+    ],
+    "isModule": false,
+    "source": "foo()++;\n\nfoo(bar)++;\n\nfoo[bar]()++;\n\nfoo.bar()++;\n\nthis.foo[foo].bar(this)(bar)[foo]()++;\n\nnew foo()++;\n\nnew new foo().bar++;\n\n{x: 1}++;",
+    "fileName": "__root__",
+    "flags": 0,
+    "start": 0,
+    "end": 137
+}
+```
+
+### Printed
+
+```javascript
+
+```
+
+### Diagnostics
+
+```javascript
+✖ The operand of an increment or decrement operator must be a variable or a property access - start: 5, end: 7
+✖ The operand of an increment or decrement operator must be a variable or a property access - start: 18, end: 20
+✖ The operand of an increment or decrement operator must be a variable or a property access - start: 33, end: 35
+✖ The operand of an increment or decrement operator must be a variable or a property access - start: 47, end: 49
+✖ The operand of an increment or decrement operator must be a variable or a property access - start: 87, end: 89
+✖ The operand of an increment or decrement operator must be a variable or a property access - start: 101, end: 103
+✖ Identifier expected - start: 136, end: 137
+✖ The operand of an increment or decrement operator must be a variable or a property access - start: 136, end: 137
+
+```
+

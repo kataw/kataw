@@ -12,12 +12,12 @@ export interface ObjectTypeIndexer extends SyntaxNode {
   readonly name: Identifier | DummyIdentifier | StringLiteral | NumericLiteral | null;
   readonly key: TypeNode;
   readonly type: TypeNode;
-  readonly staticToken: SyntaxToken<TokenSyntaxKind> | null;
+  readonly staticKeyword: SyntaxToken<TokenSyntaxKind> | null;
 }
 
 export function createObjectTypeIndexer(
   protoKeyword: SyntaxToken<TokenSyntaxKind> | null,
-  staticToken: SyntaxToken<TokenSyntaxKind> | null,
+  staticKeyword: SyntaxToken<TokenSyntaxKind> | null,
   name: Identifier | DummyIdentifier | StringLiteral | NumericLiteral | null,
   key: TypeNode,
   type: TypeNode,
@@ -27,7 +27,7 @@ export function createObjectTypeIndexer(
   return {
     kind: SyntaxKind.ObjectTypeIndexer,
     protoKeyword,
-    staticToken,
+    staticKeyword,
     name,
     key,
     type,

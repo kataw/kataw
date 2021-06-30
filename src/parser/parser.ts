@@ -2,7 +2,7 @@ import { SyntaxKind, NodeFlags, Constants, ExportKind } from '../ast/syntax-node
 import { TokenSyntaxKind, createToken, SyntaxToken } from '../ast/token';
 import { nextToken } from './scanner/scanner';
 import { scanTemplateTail } from './scanner/template';
-import { createForBinding, ForBinding } from '../ast/statements/for-binding';
+import { createForBinding } from '../ast/statements/for-binding';
 import { createBlockStatement, BlockStatement } from '../ast/statements/block-stmt';
 import { createBlock, Block } from '../ast/statements/block';
 import { createLabelledStatement, LabelledStatement } from '../ast/statements/labelled-stmt';
@@ -27,7 +27,6 @@ import { createWhileStatement, WhileStatement } from '../ast/statements/while-st
 import { createWithStatement, WithStatement } from '../ast/statements/with-stmt';
 import { StatementNode } from '../ast/statements';
 import { ExpressionNode } from '../ast/expressions';
-import { createSuper, Super } from '../ast/expressions/super';
 import { createIndexExpressionChain } from '../ast/expressions/index-expr-chain';
 import { createDecoratorList, DecoratorList } from '../ast/expressions/decorator-list';
 import { createDecorator, Decorator } from '../ast/expressions/decorators';
@@ -56,7 +55,7 @@ import { createSpreadProperty, SpreadProperty } from '../ast/expressions/spread-
 import { createCoverInitializedName, CoverInitializedName } from '../ast/expressions/cover-initialized-name';
 import { createMethodDefinition, MethodDefinition } from '../ast/expressions/method-definition';
 import { createArrowFunction, ArrowFunction } from '../ast/expressions/arrow-function';
-import { createSemicolonClassElement, SemicolonClassElement } from '../ast/expressions/semicolon-class-element';
+import { createArrowPatameterList, ArrowPatameterList } from '../ast/expressions/arrow-parameter-list';
 import { createRegularExpressionLiteral, RegularExpressionLiteral } from '../ast/expressions/regular-expr';
 import { ExpressionStatement, createExpressionStatement } from '../ast/statements/expression-stmt';
 import { createNameSpaceImport, NameSpaceImport } from '../ast/module/namespace-import';
@@ -1645,11 +1644,9 @@ export function parseExpressionOrLabelledStatement(
 
   // - `() => {}
   //    () => {}`
-  if (
-    parser.nodeFlags & NodeFlags.NewLine &&
-    expr.kind === SyntaxKind.ArrowFunction &&
-    parser.token === SyntaxKind.LeftParen
-  ) {
+  // - `x => {}
+  //    + x`
+  if (parser.nodeFlags & NodeFlags.NewLine && expr.kind === SyntaxKind.ArrowFunction) {
     return parseExpressionStatement(parser, context, expr, curPos);
   }
 
@@ -2081,10 +2078,19 @@ function parseLeftHandSideExpression(
 
 function parseExpression(parser: ParserState, context: Context): ExpressionNode {
   const curPos = parser.curPos;
-  let expr = parsePrimaryExpression(parser, context, LeftHandSide.None);
-  expr = parseMemberExpression(parser, context, expr, SyntaxKind.IsPropertyOrCall, curPos);
-  expr = parseAssignmentExpression(parser, context, expr, curPos);
-  return expr;
+  const expr = parsePrimaryExpression(parser, context, LeftHandSide.None);
+  return parseAssignmentExpression(
+    parser,
+    context,
+    parseMemberExpression(
+      parser,
+      context,
+      expr,
+      expr.kind === SyntaxKind.ArrowFunction ? SyntaxKind.IsMember : SyntaxKind.IsPropertyOrCall,
+      curPos
+    ),
+    curPos
+  );
 }
 
 function parseExpressionCoverGrammar(parser: ParserState, context: Context): ExpressionNode {
@@ -2337,7 +2343,7 @@ function parseIndexExpression(
   pos: number
 ): ExpressionNode {
   nextToken(parser, context);
-  if (member.kind === SyntaxKind.Super && parser.token === SyntaxKind.PrivateIdentifier) {
+  if (member.kind === SyntaxKind.SuperKeyword && parser.token === SyntaxKind.PrivateIdentifier) {
     parser.onError(
       DiagnosticSource.Parser,
       DiagnosticKind.Error | DiagnosticKind.EarlyError,
@@ -2346,8 +2352,15 @@ function parseIndexExpression(
       parser.pos
     );
   }
+
   parser.assignable = true;
-  return createIndexExpression(member, parsePropertyOrPrivatePropertyName(parser, context), pos, parser.curPos);
+  return createIndexExpression(
+    member,
+    parsePropertyOrPrivatePropertyName(parser, context),
+    member.flags | NodeFlags.ExpressionNode,
+    pos,
+    parser.curPos
+  );
 }
 
 function parseMemberAccessExpression(
@@ -2421,7 +2434,6 @@ function parseArrowFunction(
     scope,
     (flags & NodeFlags.NoneSimpleParamList) < 1
   );
-
   parser.assignable = false;
   return createArrowFunction(
     arrowToken,
@@ -2467,6 +2479,7 @@ function parseConciseOrFunctionBody(
     if (parser.nodeFlags & NodeFlags.NewLine) {
       switch (parser.token as SyntaxKind) {
         case SyntaxKind.Period:
+          parser.previousErrorPos = parser.pos;
           parser.onError(
             DiagnosticSource.Parser,
             DiagnosticKind.Error,
@@ -2478,6 +2491,7 @@ function parseConciseOrFunctionBody(
         case SyntaxKind.QuestionMark:
         case SyntaxKind.Exponentiate:
         case SyntaxKind.Multiply:
+          parser.previousErrorPos = parser.pos;
           parser.onError(
             DiagnosticSource.Parser,
             DiagnosticKind.Error,
@@ -2490,6 +2504,7 @@ function parseConciseOrFunctionBody(
       }
     } else {
       if (parser.token & SyntaxKind.IsBinaryOp) {
+        parser.previousErrorPos = parser.pos;
         parser.onError(
           DiagnosticSource.Parser,
           DiagnosticKind.Error,
@@ -2500,6 +2515,7 @@ function parseConciseOrFunctionBody(
       } else {
         switch (parser.token as SyntaxKind) {
           case SyntaxKind.Period:
+            parser.previousErrorPos = parser.pos;
             parser.onError(
               DiagnosticSource.Parser,
               DiagnosticKind.Error,
@@ -2510,6 +2526,7 @@ function parseConciseOrFunctionBody(
             break;
           case SyntaxKind.LeftParen:
           case SyntaxKind.LeftBracket:
+            parser.previousErrorPos = parser.pos;
             parser.onError(
               DiagnosticSource.Parser,
               DiagnosticKind.Error,
@@ -2519,6 +2536,7 @@ function parseConciseOrFunctionBody(
             );
             break;
           case SyntaxKind.TemplateTail:
+            parser.previousErrorPos = parser.pos;
             parser.onError(
               DiagnosticSource.Parser,
               DiagnosticKind.Error,
@@ -2528,6 +2546,7 @@ function parseConciseOrFunctionBody(
             );
             break;
           case SyntaxKind.QuestionMark:
+            parser.previousErrorPos = parser.pos;
             parser.onError(
               DiagnosticSource.Parser,
               DiagnosticKind.Error,
@@ -4368,9 +4387,9 @@ export function convertArrowParameter(parser: ParserState, node: any): any {
       );
     case SyntaxKind.ElementList:
       const listElements = [];
+
       const arrayElements = node.elements;
-      let i = arrayElements.length;
-      while (i--) {
+      for (let i = 0; i < arrayElements.length; ++i) {
         listElements.push(convertArrowParameter(parser, arrayElements[i]));
       }
       return createElementList(
@@ -4490,7 +4509,7 @@ function parseCoverParenthesizedExpressionAndArrowParameterList(
   context = (context | 0b00000000100000000000000010000000) ^ 0b00000000100000000000000010000000;
 
   consume(parser, context | Context.AllowRegExp, SyntaxKind.LeftParen);
-
+  const innerParenPos = parser.curPos;
   // - `() => x`
   // - `(() => x)`
   // - `return () => x`
@@ -4530,13 +4549,14 @@ function parseCoverParenthesizedExpressionAndArrowParameterList(
             parser.pos
           );
         }
+
         return parseArrowFunction(
           parser,
           context,
           scope,
           /*typeParameters */ typeParameters,
           /* returnType */ isType ? parseType(parser, context | Context.ArrowOrigin) : null,
-          /* params */ [],
+          /* params */ createArrowPatameterList([], false, flags, innerParenPos, innerParenPos),
           /* asyncToken */ null,
           /* nodeFlags */ NodeFlags.ExpressionNode,
           curPos
@@ -4916,7 +4936,7 @@ function parseCoverParenthesizedExpressionAndArrowParameterList(
           scope,
           typeParameters,
           parseType(parser, context | Context.ArrowOrigin),
-          [expression],
+          createArrowPatameterList([expression], false, flags, innerParenPos, parser.curPos),
           null,
           /* nodeFlags */ flags,
           curPos
@@ -5288,7 +5308,7 @@ function parseCoverParenthesizedExpressionAndArrowParameterList(
         scope,
         typeParameters,
         parseType(parser, context),
-        arrowParams,
+        createArrowPatameterList(arrowParams, false, flags, innerParenPos, parser.curPos),
         null,
         flags,
         curPos
@@ -5665,6 +5685,18 @@ function parseFunctionExpression(
             flags: ScopeFlags.None
           };
 
+          const param = parseIdentifierReference(parser, context);
+
+          if (parser.token !== SyntaxKind.Arrow) {
+            parser.onError(
+              DiagnosticSource.Parser,
+              DiagnosticKind.Error,
+              diagnosticMap[DiagnosticCode._async_modifier_cannot_be_used_here],
+              parser.curPos,
+              parser.pos
+            );
+          }
+
           addBlockName(parser, context, scope, parser.tokenValue, BindingType.ArgumentList);
 
           return parseArrowFunction(
@@ -5673,7 +5705,7 @@ function parseFunctionExpression(
             scope,
             /* typeParameters */ null,
             /* returnType */ null,
-            parseIdentifierReference(parser, context),
+            param,
             /* asyncToken */ asyncToken,
             /* nodeFlags */ NodeFlags.Async,
             /* pos */ pos
@@ -5738,7 +5770,16 @@ function parseFunctionExpression(
             ) {
               expression.typeParameters = createTypeParameterDeclaration(
                 createTypeParameterList(
-                  [createTypeParameter(name, /* type */ null, /* defaultType */ null, name.start, parser.curPos)],
+                  [
+                    createTypeParameter(
+                      name,
+                      /* type */ null,
+                      /* assignToken */ null,
+                      /* defaultType */ null,
+                      name.start,
+                      parser.curPos
+                    )
+                  ],
                   /* trailingComma */ false,
                   expression.start,
                   parser.curPos
@@ -5776,10 +5817,14 @@ function parseFunctionExpression(
               (parser.token as SyntaxKind) === SyntaxKind.Assign
             ) {
               const type = parseType(parser, context);
-              const defaultType = consumeOpt(parser, context, SyntaxKind.Assign)
-                ? parseTypeAnnotation(parser, context)
-                : null;
-              const types = [createTypeParameter(name, type, defaultType, asyncIdent.start, parser.curPos)];
+              const assignToken = consumeOptToken(parser, context, SyntaxKind.Assign);
+              let defaultType = null;
+              if (assignToken) {
+                defaultType = parseTypeAnnotation(parser, context);
+              }
+              const types = [
+                createTypeParameter(name, type, assignToken, defaultType, asyncIdent.start, parser.curPos)
+              ];
               let trailingComma = false;
               let requireDefault = (parser.token as SyntaxKind) === SyntaxKind.Assign;
               if (consumeOpt(parser, context, SyntaxKind.Comma)) {
@@ -5850,6 +5895,7 @@ function parseFunctionExpression(
                       createTypeParameter(
                         name,
                         /* type */ null,
+                        /* assignToken */ null,
                         /* defaultType */ null,
                         asyncIdent.start,
                         parser.curPos
@@ -5950,7 +5996,7 @@ function parseFunctionExpression(
           /* typeParameters */ null,
           /* returnType */ null,
           /* params */ expression,
-          /* asyncToken */ asyncToken,
+          /* asyncToken */ null,
           /* nodeFlags */ NodeFlags.ExpressionNode,
           /* pos */ pos
         );
@@ -6138,6 +6184,19 @@ function parseFunctionDeclaration(
 
           addBlockName(parser, context, scope, parser.tokenValue, BindingType.ArgumentList);
 
+          const param = parseIdentifierReference(parser, context);
+
+          // Catches invalid cases like `async let {x}` and `async let [x] = y`
+          if (parser.token !== SyntaxKind.Arrow) {
+            parser.onError(
+              DiagnosticSource.Parser,
+              DiagnosticKind.Error,
+              diagnosticMap[DiagnosticCode._async_modifier_cannot_be_used_here],
+              parser.curPos,
+              parser.pos
+            );
+          }
+
           return parseExpressionStatement(
             parser,
             context,
@@ -6150,7 +6209,7 @@ function parseFunctionDeclaration(
                 scope,
                 /* typeParameters */ null,
                 /* returnType */ null,
-                parseIdentifier(parser, context, Constants.Identifier),
+                param,
                 /* asyncToken */ asyncToken,
                 /* nodeFlags */ NodeFlags.Async,
                 /* pos */ pos
@@ -6210,7 +6269,16 @@ function parseFunctionDeclaration(
                     expression,
                     createTypeParameterDeclaration(
                       createTypeParameterList(
-                        [createTypeParameter(name, /* type */ null, /* defaultType */ null, name.start, parser.curPos)],
+                        [
+                          createTypeParameter(
+                            name,
+                            /* type */ null,
+                            /* assignToken */ null,
+                            /* defaultType */ null,
+                            name.start,
+                            parser.curPos
+                          )
+                        ],
                         /* trailingComma */ false,
                         expression.start,
                         parser.curPos
@@ -6255,10 +6323,14 @@ function parseFunctionDeclaration(
               (parser.token as SyntaxKind) === SyntaxKind.Assign
             ) {
               const type = parseType(parser, context);
-              const defaultType = consumeOpt(parser, context, SyntaxKind.Assign)
-                ? parseTypeAnnotation(parser, context)
-                : null;
-              const types = [createTypeParameter(name, type, defaultType, asyncIdent.start, parser.curPos)];
+              let defaultType = null;
+              const assignToken = consumeOptToken(parser, context, SyntaxKind.Assign);
+              if (assignToken) {
+                defaultType = parseTypeAnnotation(parser, context);
+              }
+              const types = [
+                createTypeParameter(name, type, assignToken, defaultType, asyncIdent.start, parser.curPos)
+              ];
               let trailingComma = false;
               let requireDefault = (parser.token as SyntaxKind) === SyntaxKind.Assign;
               if (consumeOpt(parser, context, SyntaxKind.Comma)) {
@@ -6328,6 +6400,7 @@ function parseFunctionDeclaration(
                       createTypeParameter(
                         name,
                         /* type */ null,
+                        /* assignToken */ null,
                         /* defaultType */ null,
                         asyncIdent.start,
                         parser.curPos
@@ -6440,10 +6513,12 @@ function parseFunctionDeclaration(
           /* typeParameters */ null,
           /* returnType */ null,
           /* params */ expression,
-          /* asyncToken */ asyncToken,
+          /* asyncToken */ null,
           /* nodeFlags */ NodeFlags.Async,
           /* pos */ pos
         ) as any;
+        expression = parseCommaOperator(parser, context, expression, pos);
+        return parseExpressionStatement(parser, context, expression, pos);
       }
 
       if (functionFlags & ParseFunctionFlag.DisallowAsyncArrow) {
@@ -6454,6 +6529,7 @@ function parseFunctionDeclaration(
           pos,
           parser.pos
         );
+        return parseExpressionStatement(parser, context, expression, pos);
       }
       // "async"
       // "async + 1"
@@ -6764,134 +6840,136 @@ function parseFormalParameterList(parser: ParserState, context: Context, scope: 
   const parameters = [];
   context = (context | 0b00000000100000000000000010000000) ^ 0b00000000100000000000000010000000;
   let nodeflags = NodeFlags.ExpressionNode;
-  const curpPos = parser.curPos;
-  if (
-    consume(parser, context | Context.AllowRegExp, SyntaxKind.LeftParen, DiagnosticCode.Missing_an_opening_parentheses)
-  ) {
-    let trailingComma = false;
-    let count = 0;
-    let ellipsisToken = null;
-    while (parser.token & Constants.FormalParameterList) {
-      const pos = parser.curPos;
-      if (parser.token === SyntaxKind.ThisKeyword) {
-        if ((context & Context.OptionsAllowTypes) < 1 || count > 0) {
-          parser.onError(
-            DiagnosticSource.Parser,
-            DiagnosticKind.Error,
-            diagnosticMap[
-              (context & Context.OptionsAllowTypes) < 1
-                ? DiagnosticCode.The_this_keyword_cannot_be_a_formal_parameter
-                : DiagnosticCode.The_this_parameter_must_be_the_first_function_parameter
-            ],
-            pos,
-            parser.pos
-          );
-        }
 
-        const left = parseBindingIdentifier(parser, context, scope, BindingType.ArgumentList);
-        const optionalToken = consumeOptToken(parser, context | Context.AllowRegExp, SyntaxKind.QuestionMark);
-        if (optionalToken) {
-          parser.onError(
-            DiagnosticSource.Parser,
-            DiagnosticKind.Error,
-            diagnosticMap[DiagnosticCode.The_this_parameter_cannot_be_optional],
-            parser.curPos,
-            parser.pos
-          );
-        }
-        if ((parser.token as SyntaxKind) !== SyntaxKind.Colon) {
-          parser.onError(
-            DiagnosticSource.Parser,
-            DiagnosticKind.Error,
-            diagnosticMap[DiagnosticCode.A_type_annotation_is_required_for_the_this_parameter],
-            parser.curPos,
-            parser.pos
-          );
-        }
-        parameters.push(
-          createBindingElement(
-            ellipsisToken,
-            left,
-            optionalToken,
-            parseType(parser, context),
-            /* right */ null,
-            nodeflags,
-            pos,
-            parser.curPos
-          )
-        );
-      } else {
-        ellipsisToken = consumeOptToken(parser, context | Context.AllowRegExp, SyntaxKind.Ellipsis);
-        let left = parseIdentifierOrPattern(
-          parser,
-          context,
-          scope,
-          ellipsisToken ? BindingType.None : BindingType.ArgumentList
-        );
+  consume(parser, context | Context.AllowRegExp, SyntaxKind.LeftParen, DiagnosticCode.Missing_an_opening_parentheses);
+  const pos = parser.curPos;
 
-        if (
-          ellipsisToken ||
-          parser.token === SyntaxKind.QuestionMark ||
-          parser.token === SyntaxKind.Colon ||
-          parser.token === SyntaxKind.Assign
-        ) {
-          if (ellipsisToken) {
-            nodeflags |= NodeFlags.NoneSimpleParamList;
-            parser.diagnosticStartPos = pos;
-            if (parser.token === SyntaxKind.Comma) {
-              parser.onError(
-                DiagnosticSource.Parser,
-                DiagnosticKind.Error,
-                diagnosticMap[DiagnosticCode.A_rest_parameter_must_be_last_in_a_parameter_list],
-                parser.curPos,
-                parser.pos
-              );
-            }
-          }
-          if (left.kind !== SyntaxKind.Identifier || parser.token === SyntaxKind.Assign) {
-            nodeflags |= NodeFlags.NoneSimpleParamList;
-            parser.diagnosticStartPos = pos;
-          }
-          left = createBindingElement(
-            ellipsisToken,
-            left,
-            consumeOptToken(parser, context, SyntaxKind.QuestionMark),
-            parseType(parser, context),
-            parseInitializer(parser, context, ellipsisToken ? true : false),
-            nodeflags,
-            pos,
-            parser.curPos
-          );
-        }
-
-        parameters.push(left);
-      }
-
-      count++;
-      if ((parser.token as SyntaxKind) === SyntaxKind.RightParen) break;
-      consume(parser, context | Context.AllowRegExp, SyntaxKind.Comma, DiagnosticCode._expected);
-      if ((parser.token as SyntaxKind) === SyntaxKind.RightParen) {
-        trailingComma = true;
-        break;
-      }
-    }
-
-    if (scope.flags & ScopeFlags.Error && (nodeflags & NodeFlags.NoneSimpleParamList || context & Context.Strict)) {
-      parser.onError(
-        DiagnosticSource.Parser,
-        DiagnosticKind.Error,
-        diagnosticMap[DiagnosticCode.A_formal_parameter_cannot_be_bound_multiple_times_in_the_same_parameter_list],
-        parser.diagnosticStartPos,
-        parser.pos
-      );
-    }
-
-    const result = createFormalParameterList(parameters, trailingComma, nodeflags, curpPos, parser.pos);
-    consume(parser, context, SyntaxKind.RightParen, DiagnosticCode.Expected_a_to_match_the_token_here);
-    return result;
-  }
   // Empty list
-  return createFormalParameterList([], /* trailingComma*/ false, nodeflags, curpPos, curpPos);
+  if (consume(parser, context, SyntaxKind.RightParen)) {
+    return createFormalParameterList([], /* trailingComma*/ false, nodeflags, pos, pos);
+  }
+
+  let trailingComma = false;
+  let count = 0;
+  let ellipsisToken = null;
+
+  while (parser.token & Constants.FormalParameterList) {
+    const pos = parser.curPos;
+    if (parser.token === SyntaxKind.ThisKeyword) {
+      if ((context & Context.OptionsAllowTypes) < 1 || count > 0) {
+        parser.onError(
+          DiagnosticSource.Parser,
+          DiagnosticKind.Error,
+          diagnosticMap[
+            (context & Context.OptionsAllowTypes) < 1
+              ? DiagnosticCode.The_this_keyword_cannot_be_a_formal_parameter
+              : DiagnosticCode.The_this_parameter_must_be_the_first_function_parameter
+          ],
+          pos,
+          parser.pos
+        );
+      }
+
+      const left = parseBindingIdentifier(parser, context, scope, BindingType.ArgumentList);
+      const optionalToken = consumeOptToken(parser, context | Context.AllowRegExp, SyntaxKind.QuestionMark);
+      if (optionalToken) {
+        parser.onError(
+          DiagnosticSource.Parser,
+          DiagnosticKind.Error,
+          diagnosticMap[DiagnosticCode.The_this_parameter_cannot_be_optional],
+          parser.curPos,
+          parser.pos
+        );
+      }
+      if ((parser.token as SyntaxKind) !== SyntaxKind.Colon) {
+        parser.onError(
+          DiagnosticSource.Parser,
+          DiagnosticKind.Error,
+          diagnosticMap[DiagnosticCode.A_type_annotation_is_required_for_the_this_parameter],
+          parser.curPos,
+          parser.pos
+        );
+      }
+      parameters.push(
+        createBindingElement(
+          ellipsisToken,
+          left,
+          optionalToken,
+          parseType(parser, context),
+          /* right */ null,
+          nodeflags,
+          pos,
+          parser.curPos
+        )
+      );
+    } else {
+      ellipsisToken = consumeOptToken(parser, context | Context.AllowRegExp, SyntaxKind.Ellipsis);
+      let left = parseIdentifierOrPattern(
+        parser,
+        context,
+        scope,
+        ellipsisToken ? BindingType.None : BindingType.ArgumentList
+      );
+
+      if (
+        ellipsisToken ||
+        parser.token === SyntaxKind.QuestionMark ||
+        parser.token === SyntaxKind.Colon ||
+        parser.token === SyntaxKind.Assign
+      ) {
+        if (ellipsisToken) {
+          nodeflags |= NodeFlags.NoneSimpleParamList;
+          parser.diagnosticStartPos = pos;
+          if (parser.token === SyntaxKind.Comma) {
+            parser.onError(
+              DiagnosticSource.Parser,
+              DiagnosticKind.Error,
+              diagnosticMap[DiagnosticCode.A_rest_parameter_must_be_last_in_a_parameter_list],
+              parser.curPos,
+              parser.pos
+            );
+          }
+        }
+        if (left.kind !== SyntaxKind.Identifier || parser.token === SyntaxKind.Assign) {
+          nodeflags |= NodeFlags.NoneSimpleParamList;
+          parser.diagnosticStartPos = pos;
+        }
+        left = createBindingElement(
+          ellipsisToken,
+          left,
+          consumeOptToken(parser, context, SyntaxKind.QuestionMark),
+          parseType(parser, context),
+          parseInitializer(parser, context, ellipsisToken ? true : false),
+          nodeflags,
+          pos,
+          parser.curPos
+        );
+      }
+      parameters.push(left);
+    }
+
+    count++;
+    if ((parser.token as SyntaxKind) === SyntaxKind.RightParen) break;
+    consume(parser, context | Context.AllowRegExp, SyntaxKind.Comma, DiagnosticCode._expected);
+    if ((parser.token as SyntaxKind) === SyntaxKind.RightParen) {
+      trailingComma = true;
+      break;
+    }
+  }
+
+  if (scope.flags & ScopeFlags.Error && (nodeflags & NodeFlags.NoneSimpleParamList || context & Context.Strict)) {
+    parser.onError(
+      DiagnosticSource.Parser,
+      DiagnosticKind.Error,
+      diagnosticMap[DiagnosticCode.A_formal_parameter_cannot_be_bound_multiple_times_in_the_same_parameter_list],
+      parser.diagnosticStartPos,
+      parser.pos
+    );
+  }
+
+  const result = createFormalParameterList(parameters, trailingComma, nodeflags, pos, parser.curPos);
+  consume(parser, context, SyntaxKind.RightParen, DiagnosticCode.Expected_a_to_match_the_token_here);
+  return result;
 }
 
 /**
@@ -7052,11 +7130,21 @@ function parseImportDeclaration(
   }
 
   if (parser.token === SyntaxKind.LeftParen) {
-    return parseImportCall(parser, context, importToken);
+    return parseExpressionStatement(
+      parser,
+      context,
+      parseExpressionRest(parser, context, parseImportCall(parser, context, importToken), pos),
+      pos
+    );
   }
 
   if (parser.token === SyntaxKind.Period) {
-    return parseImportMeta(parser, context, importToken);
+    return parseExpressionStatement(
+      parser,
+      context,
+      parseExpressionRest(parser, context, parseImportMeta(parser, context, importToken), pos),
+      pos
+    );
   }
 
   if (isScript) {
@@ -7764,8 +7852,9 @@ function parseSubtractionType(parser: ParserState, context: Context): Subtractio
   const subtractionToken = consumeToken(parser, context, SyntaxKind.Subtract);
   if (parser.token === SyntaxKind.NumericLiteral || parser.token === SyntaxKind.BigIntLiteral) {
     const value = parser.tokenValue;
+    const raw = parser.tokenRaw;
     nextToken(parser, context);
-    return createSubtractionType(subtractionToken, value, pos, parser.curPos);
+    return createSubtractionType(subtractionToken, value, raw, pos, parser.curPos);
   }
   parser.onError(
     DiagnosticSource.Parser,
@@ -7796,15 +7885,17 @@ function parseTypeofType(parser: ParserState, context: Context): TypeofType {
 function parseStringType(parser: ParserState, context: Context): StringType {
   const pos = parser.curPos;
   const value = parser.tokenValue;
+  const raw = parser.tokenRaw;
   nextToken(parser, context);
-  return createStringType(value, pos, parser.curPos);
+  return createStringType(value, raw, pos, parser.curPos);
 }
 
 function parseNumberType(parser: ParserState, context: Context): NumberType {
   const pos = parser.curPos;
-  const value = parser.tokenValue;
+  const text = parser.tokenValue;
+  const raw = parser.tokenRaw;
   nextToken(parser, context);
-  return createNumberType(value, pos, parser.curPos);
+  return createNumberType(text, raw, pos, parser.curPos);
 }
 
 function parseBigIntType(parser: ParserState, context: Context): BigIntType {
@@ -7983,8 +8074,11 @@ function parseArrowTypeParameter(parser: ParserState, context: Context): Functio
 function parseArrowFunctionType(parser: ParserState, context: Context): ArrowFunctionType {
   const pos = parser.curPos;
   const typeParameters = parseTypeParameterDeclaration(parser, context);
+  consume(parser, context, SyntaxKind.LeftParen);
+  const param = parseArrowTypeParameters(parser, context);
+  consume(parser, context, SyntaxKind.RightParen);
   return createArrowFunctionType(
-    parseArrowTypeParameters(parser, context),
+    param,
     consumeOptToken(parser, context, SyntaxKind.Arrow),
     parseTypeAnnotation(parser, context),
     typeParameters,
@@ -8080,14 +8174,14 @@ function parseParenthesizedType(parser: ParserState, context: Context): any {
       const params = parseArrowFunctionTypeParameters(
         parser,
         context,
-        createFunctionTypeParameters(/* ellipsisToken */ null, arg, optionalToken, type, pos, parser.curPos),
+        createArrowTypeParameter(/* ellipsisToken */ null, arg, optionalToken, type, pos, parser.curPos),
         pos
       );
       consume(parser, context, SyntaxKind.RightParen, DiagnosticCode.Expected_a_to_match_the_token_here);
 
       return createArrowFunctionType(
-        consumeOptToken(parser, context, SyntaxKind.Arrow),
         params,
+        consumeOptToken(parser, context, SyntaxKind.Arrow),
         parseTypeAnnotation(parser, context),
         /* typeParameters */ null,
         pos,
@@ -8123,7 +8217,7 @@ function parseParenthesizedType(parser: ParserState, context: Context): any {
       arg = parseArrowFunctionTypeParameters(
         parser,
         context,
-        createFunctionTypeParameters(
+        createArrowTypeParameter(
           /* ellipsisToken */ null,
           arg,
           /* optionalToken */ null,
@@ -8140,7 +8234,7 @@ function parseParenthesizedType(parser: ParserState, context: Context): any {
       arg = parseArrowFunctionTypeParameters(
         parser,
         context,
-        createFunctionTypeParameters(
+        createArrowTypeParameter(
           /* ellipsisToken */ null,
           arg,
           /* optionalToken */ null,
@@ -8152,8 +8246,8 @@ function parseParenthesizedType(parser: ParserState, context: Context): any {
       );
       consume(parser, context, SyntaxKind.RightParen);
       return createArrowFunctionType(
-        consumeToken(parser, context, SyntaxKind.Arrow, DiagnosticCode.Expected),
         arg,
+        consumeToken(parser, context, SyntaxKind.Arrow, DiagnosticCode.Expected),
         parseTypeAnnotation(parser, context),
         /* typeParameters */ null,
         pos,
@@ -8165,8 +8259,20 @@ function parseParenthesizedType(parser: ParserState, context: Context): any {
 
     if ((context & Context.ArrowOrigin) === 0 && parser.token === SyntaxKind.Arrow) {
       return createArrowFunctionType(
+        parseArrowFunctionTypeParameters(
+          parser,
+          context,
+          createArrowTypeParameter(
+            /* ellipsisToken */ null,
+            arg,
+            /* optionalToken */ null,
+            /* type */ null,
+            pos,
+            parser.curPos
+          ),
+          pos
+        ),
         consumeToken(parser, context, SyntaxKind.Arrow, DiagnosticCode.Expected),
-        arg,
         parseTypeAnnotation(parser, context),
         /* typeParameters */ null,
         pos,
@@ -8185,8 +8291,8 @@ function parseParenthesizedType(parser: ParserState, context: Context): any {
     let type: any;
     if (consumeOpt(parser, context, SyntaxKind.RightParen)) {
       type = createArrowFunctionType(
-        consumeOptToken(parser, context, SyntaxKind.Arrow),
         parseArrowFunctionTypeParameters(parser, context, [], pos),
+        consumeOptToken(parser, context, SyntaxKind.Arrow),
         parseTypeAnnotation(parser, context),
         /* typeParameters */ null,
         pos,
@@ -8222,14 +8328,14 @@ function parseParenthesizedType(parser: ParserState, context: Context): any {
           const params = parseArrowFunctionTypeParameters(
             parser,
             context,
-            createFunctionTypeParameters(/* ellipsisToken */ null, type, optionalToken, type1, pos, parser.curPos),
+            createArrowTypeParameter(/* ellipsisToken */ null, type, optionalToken, type1, pos, parser.curPos),
             pos
           );
           consume(parser, context, SyntaxKind.RightParen, DiagnosticCode.Expected_a_to_match_the_token_here);
 
           type = createArrowFunctionType(
-            consumeOptToken(parser, context, SyntaxKind.Arrow),
             params,
+            consumeOptToken(parser, context, SyntaxKind.Arrow),
             parseTypeAnnotation(parser, context),
             /* typeParameters */ null,
             pos,
@@ -8257,7 +8363,7 @@ function parseParenthesizedType(parser: ParserState, context: Context): any {
           type = parseArrowFunctionTypeParameters(
             parser,
             context,
-            createFunctionTypeParameters(
+            createArrowTypeParameter(
               /* ellipsisToken */ null,
               type,
               /* optionalToken */ null,
@@ -8277,12 +8383,29 @@ function parseParenthesizedType(parser: ParserState, context: Context): any {
         type = parseTypeAnnotation(parser, context);
       }
 
+      // - `type a = ((& 1,) => T)`
+      if ((parser.token as SyntaxKind) === SyntaxKind.Comma) {
+        type = parseArrowFunctionTypeParameters(
+          parser,
+          context,
+          createArrowTypeParameter(
+            /* ellipsisToken */ null,
+            type,
+            /* optionalToken */ null,
+            /* type */ null,
+            pos,
+            parser.curPos
+          ),
+          pos
+        );
+      }
+
       consume(parser, context, SyntaxKind.RightParen);
       const arrowToken = consumeOptToken(parser, context, SyntaxKind.Arrow);
       if (arrowToken) {
         type = createArrowFunctionType(
-          arrowToken,
           parseArrowFunctionTypeParameters(parser, context, type, pos),
+          arrowToken,
           parseTypeAnnotation(parser, context),
           /* typeParameters */ null,
           pos,
@@ -8295,8 +8418,8 @@ function parseParenthesizedType(parser: ParserState, context: Context): any {
 
     if ((context & Context.ArrowOrigin) === 0 && (parser.token as SyntaxKind) === SyntaxKind.Arrow) {
       return createArrowFunctionType(
-        consumeToken(parser, context, SyntaxKind.Arrow, DiagnosticCode.Expected),
         parseArrowFunctionTypeParameters(parser, context, type, pos),
+        consumeToken(parser, context, SyntaxKind.Arrow, DiagnosticCode.Expected),
         parseTypeAnnotation(parser, context),
         /* typeParameters */ null,
         pos,
@@ -8346,8 +8469,8 @@ function parseParenthesizedType(parser: ParserState, context: Context): any {
       return createParenthesizedType(type, pos, parser.curPos);
     }
     return createArrowFunctionType(
-      consumeOptToken(parser, context, SyntaxKind.Arrow),
       parseArrowFunctionTypeParameters(parser, context, type, pos),
+      consumeOptToken(parser, context, SyntaxKind.Arrow),
       parseTypeAnnotation(parser, context),
       /* typeParameters */ null,
       pos,
@@ -8470,7 +8593,13 @@ function parseTypeParameter(parser: ParserState, context: Context, requireInitia
   const start = parser.curPos;
   const name = parseIdentifier(parser, context, Constants.Identifier);
   const type = parseType(parser, context);
-  const defaultType = consumeOpt(parser, context, SyntaxKind.Assign) ? parseTypeAnnotation(parser, context) : null;
+  const assignToken = consumeOptToken(parser, context, SyntaxKind.Assign);
+  let defaultType = null;
+
+  if (assignToken) {
+    defaultType = parseTypeAnnotation(parser, context);
+  }
+
   if (requireInitializer && !defaultType && parser.previousErrorPos !== parser.pos) {
     parser.previousErrorPos = parser.pos;
     parser.onError(
@@ -8484,7 +8613,7 @@ function parseTypeParameter(parser: ParserState, context: Context, requireInitia
       parser.pos
     );
   }
-  return createTypeParameter(name, type, defaultType, start, parser.curPos);
+  return createTypeParameter(name, type, assignToken, defaultType, start, parser.curPos);
 }
 
 // VariableStatement : `var` VariableDeclarationList `;`
@@ -8632,10 +8761,10 @@ function parseTypeAsIdentifierOrTypeAlias(
   ownLabels: any
 ): TypeAlias | LabelledStatement | ExpressionStatement {
   const pos = parser.curPos;
-  let nodeFlags = parser.nodeFlags | NodeFlags.IsTypeNode;
-  let expr = parseIdentifier(parser, context, Constants.Identifier, DiagnosticCode.Identifier_expected);
+  const typeToken = consumeToken(parser, context, SyntaxKind.TypeKeyword);
+  let nodeFlags = typeToken.flags;
   if (context & Context.OptionsAllowTypes && parser.token & Constants.Identifier) {
-    expr = parseIdentifier(parser, context, Constants.Identifier, DiagnosticCode.Identifier_expected);
+    const expr = parseIdentifier(parser, context, Constants.Identifier, DiagnosticCode.Identifier_expected);
     const typeParameters = parseTypeParameterDeclaration(parser, context);
     const assignToken = consumeToken(
       parser,
@@ -8648,7 +8777,7 @@ function parseTypeAsIdentifierOrTypeAlias(
     parseSemicolon(parser, context);
     return createTypeAlias(
       declareKeyword,
-      createToken(SyntaxKind.TypeKeyword, NodeFlags.NoChildren, pos, expr.end),
+      typeToken,
       expr as Identifier,
       typeParameters,
       assignToken,
@@ -8658,6 +8787,9 @@ function parseTypeAsIdentifierOrTypeAlias(
       parser.curPos
     );
   }
+
+  let expr = createIdentifier('type', 'type', typeToken.start, typeToken.end);
+
   parser.assignable = true;
   if (parser.token === SyntaxKind.Colon) {
     return parseLabelledStatement(
@@ -8680,7 +8812,7 @@ function parseTypeAsIdentifierOrTypeAlias(
       scope,
       /*typeParameters */ null,
       /* returnType */ null,
-      /* params */ createIdentifier('type', 'type', pos, parser.curPos),
+      /* params */ expr,
       /* asyncToken */ null,
       /* nodeFlags */ NodeFlags.ExpressionNode,
       pos
@@ -9491,7 +9623,7 @@ export function parseImportCall(
   parser: ParserState,
   context: Context,
   importKeyword: SyntaxToken<TokenSyntaxKind>
-): ExpressionStatement {
+): any {
   const pos = parser.curPos;
   nextToken(parser, context);
   if (parser.token === SyntaxKind.RightParen) {
@@ -9519,12 +9651,7 @@ export function parseImportCall(
   }
 
   consume(parser, context, SyntaxKind.RightParen, DiagnosticCode.Expected_a_to_match_the_token_here);
-  return parseExpressionStatement(
-    parser,
-    context,
-    parseExpressionRest(parser, context, createImportCall(importKeyword, expression, pos, parser.curPos), pos),
-    pos
-  );
+  return createImportCall(importKeyword, expression, pos, parser.curPos);
 }
 
 // ImportMeta:
@@ -9533,7 +9660,7 @@ export function parseImportMeta(
   parser: ParserState,
   context: Context,
   importKeyword: SyntaxToken<TokenSyntaxKind>
-): ExpressionStatement {
+): any {
   const pos = parser.curPos;
   consume(parser, context, SyntaxKind.Period);
   const metaKeyword = consumeKeywordAndCheckForEscapeSequence(
@@ -9565,15 +9692,15 @@ export function parseImportMeta(
     );
   }
 
-  const expression: any = createImportMeta(
+  parser.assignable = false;
+
+  return createImportMeta(
     importKeyword,
     metaKeyword,
     pos,
     parser.nodeFlags | NodeFlags.ExpressionNode | NodeFlags.NoChildren,
     parser.curPos
   );
-  parser.assignable = false;
-  return parseExpressionStatement(parser, context, parseExpressionRest(parser, context, expression, pos), pos);
 }
 
 function parseTemplateExpression(parser: ParserState, context: Context, isTaggedTemplate: boolean): TemplateExpression {
@@ -9878,7 +10005,7 @@ export function parseClassElement(
   staticKeyword: SyntaxToken<TokenSyntaxKind> | null,
   decorators: DecoratorList | null,
   nodeFlags: NodeFlags
-): ClassElement | SemicolonClassElement | FieldDefinition {
+): ClassElement | SyntaxToken<TokenSyntaxKind> | FieldDefinition {
   const pos = parser.curPos;
 
   let generatorToken: SyntaxToken<TokenSyntaxKind> | null = null;
@@ -9886,11 +10013,14 @@ export function parseClassElement(
   let getKeyword: SyntaxToken<TokenSyntaxKind> | null = null;
   let setKeyword: SyntaxToken<TokenSyntaxKind> | null = null;
 
-  if (consumeOpt(parser, context, SyntaxKind.Semicolon)) {
-    return createSemicolonClassElement(pos, parser.curPos);
+  const semiColonToken = consumeOptToken(parser, context, SyntaxKind.Semicolon);
+  if (semiColonToken) {
+    return semiColonToken;
   }
 
-  decorators = parseDecorators(parser, context);
+  if (!decorators) {
+    decorators = parseDecorators(parser, context);
+  }
 
   const token = parser.token;
   const flags = parser.nodeFlags;
@@ -10020,7 +10150,7 @@ export function parseClassElement(
         staticKeyword,
         nodeFlags,
         pos
-      );
+      ) as any;
     }
 
     if (nodeFlags & (NodeFlags.Async | NodeFlags.Getter | NodeFlags.Setter)) {
@@ -10377,7 +10507,7 @@ export function parseImportMetaOrCall(
     : parseImportCall(parser, context, importToken);
 }
 
-function parseSuperExpression(parser: ParserState, context: Context): Super | any {
+function parseSuperExpression(parser: ParserState, context: Context): any {
   const pos = parser.curPos;
   const superKeyword = consumeKeywordAndCheckForEscapeSequence(
     parser,
@@ -10400,7 +10530,7 @@ function parseSuperExpression(parser: ParserState, context: Context): Super | an
       );
     }
     parser.assignable = false;
-    return createSuper(superKeyword, pos, parser.curPos);
+    return superKeyword;
   }
   if (parser.token === SyntaxKind.LeftBracket || parser.token === SyntaxKind.Period) {
     if ((context & Context.SuperProperty) < 1) {
@@ -10415,7 +10545,7 @@ function parseSuperExpression(parser: ParserState, context: Context): Super | an
       );
     }
     parser.assignable = true;
-    return createSuper(superKeyword, pos, parser.curPos);
+    return superKeyword;
   }
 
   // If we have seen "super" it must be followed by '(' or '.'.
@@ -10431,8 +10561,9 @@ function parseSuperExpression(parser: ParserState, context: Context): Super | an
   // If we have seen "super" it must be followed by '(' or '.'.
   // If it wasn't then just try to parse out a '.' and report an error.
   return createIndexExpression(
-    createSuper(superKeyword, pos, parser.curPos),
+    superKeyword as any,
     parsePropertyOrPrivatePropertyName(parser, context),
+    NodeFlags.ExpressionNode,
     pos,
     parser.curPos
   );
@@ -10500,6 +10631,8 @@ export function parseCoverCallExpressionAndAsyncArrowHead(
 
   consume(parser, context | Context.AllowRegExp, SyntaxKind.LeftParen);
 
+  const innerPos = parser.curPos;
+
   if (consumeOpt(parser, context, SyntaxKind.RightParen)) {
     let isType = false;
     if (context & Context.OptionsAllowTypes && parser.token === SyntaxKind.Colon) {
@@ -10527,7 +10660,7 @@ export function parseCoverCallExpressionAndAsyncArrowHead(
         scope,
         typeParameters,
         parseType(parser, context),
-        [],
+        createArrowPatameterList([], false, flags | NodeFlags.ExpressionNode, innerPos, innerPos),
         createToken(SyntaxKind.AsyncKeyword, NodeFlags.NoChildren, start, expr.end),
         /* nodeFlags */ NodeFlags.Async,
         start
@@ -10756,10 +10889,8 @@ export function parseCoverCallExpressionAndAsyncArrowHead(
       parser.diagnosticStartPos = pos;
       flags |= NodeFlags.NoneSimpleParamList;
 
-      let argument: any;
-
       if (parser.token & Constants.Identifier) {
-        let argument = parsePrimaryExpression(parser, context, LeftHandSide.None);
+        expression = parsePrimaryExpression(parser, context, LeftHandSide.None);
 
         if (context & Context.OptionsAllowTypes && (parser.token as SyntaxKind) === SyntaxKind.QuestionMark) {
           const questionMarkToken = consumeOptToken(parser, context, SyntaxKind.QuestionMark);
@@ -10796,7 +10927,7 @@ export function parseCoverCallExpressionAndAsyncArrowHead(
 
             expression = createBindingElement(
               /* ellipsisToken */ ellipsisToken,
-              /* left */ expression,
+              /* left */ expression as any,
               /* optionalToken */ questionMarkToken,
               /* type */ parseType(parser, context),
               /* right */ parseInitializer(parser, context, false),
@@ -10811,7 +10942,7 @@ export function parseCoverCallExpressionAndAsyncArrowHead(
 
           expression = createBindingElement(
             /* ellipsisToken */ ellipsisToken,
-            /* left */ expression,
+            /* left */ expression as any,
             /* optionalToken */ null,
             /* type */ parseType(parser, context),
             /* right */ parseInitializer(parser, context, false),
@@ -10827,22 +10958,22 @@ export function parseCoverCallExpressionAndAsyncArrowHead(
             destructible = DestructibleKind.NotDestructible;
           } else {
             // This is the slow path. We shouldn't care too much about performance
-            argument = parseMemberExpression(parser, context, argument, SyntaxKind.IsPropertyOrCall, pos);
+            expression = parseMemberExpression(parser, context, expression, SyntaxKind.IsPropertyOrCall, pos);
 
             destructible = DestructibleKind.None;
 
             if (parser.token & (SyntaxKind.IsAssignOp | SyntaxKind.IsBinaryOp)) {
               destructible |= DestructibleKind.NotDestructible;
-              argument = parseAssignmentExpression(parser, context, argument, pos);
+              expression = parseAssignmentExpression(parser, context, expression, pos);
             } else if ((parser.token as SyntaxKind) === SyntaxKind.QuestionMark) {
-              argument = parseConditionalExpression(parser, context, argument, pos);
+              expression = parseConditionalExpression(parser, context, expression, pos);
             }
 
             destructible = parser.assignable ? DestructibleKind.Assignable : DestructibleKind.NotDestructible;
           }
         }
       } else if (parser.token & SyntaxKind.IsPatternStart) {
-        argument =
+        expression =
           (parser.token as SyntaxKind) === SyntaxKind.LeftBracket
             ? parseArrayLiteralOrAssignmentExpression(
                 parser,
@@ -10926,10 +11057,10 @@ export function parseCoverCallExpressionAndAsyncArrowHead(
               );
             }
 
-            argument = parseAssignmentExpression(
+            expression = parseAssignmentExpression(
               parser,
               context,
-              parseMemberExpression(parser, context, argument, SyntaxKind.IsPropertyOrCall, pos),
+              parseMemberExpression(parser, context, expression, SyntaxKind.IsPropertyOrCall, pos),
               pos
             );
 
@@ -10937,21 +11068,23 @@ export function parseCoverCallExpressionAndAsyncArrowHead(
           }
         }
       } else {
-        let argument = parseLeftHandSideExpression(parser, context, LeftHandSide.None);
+        expression = parseLeftHandSideExpression(parser, context, LeftHandSide.None);
 
         if (parser.token & SyntaxKind.IsExpressionStart) {
-          argument = parseAssignmentExpression(parser, context, argument, pos);
+          expression = parseAssignmentExpression(parser, context, expression, pos);
           parser.destructible |= DestructibleKind.NotDestructible;
         } else if ((parser.token as SyntaxKind) === SyntaxKind.Comma) {
           parser.destructible = DestructibleKind.NotDestructible;
         } else if ((parser.token as SyntaxKind) === SyntaxKind.RightBrace) {
         } else {
-          argument = parseAssignmentExpression(parser, context, argument, pos);
+          expression = parseAssignmentExpression(parser, context, expression, pos);
 
           destructible = parser.assignable ? DestructibleKind.Assignable : DestructibleKind.NotDestructible;
         }
       }
-      expression = createSpreadElement(ellipsisToken, argument, pos, parser.curPos);
+
+      if (expression.kind !== SyntaxKind.BindingElement)
+        expression = createSpreadElement(ellipsisToken, expression, pos, parser.curPos);
 
       destructible |=
         (parser.token as SyntaxKind) === SyntaxKind.RightParen
@@ -11045,6 +11178,7 @@ export function parseCoverCallExpressionAndAsyncArrowHead(
         );
       }
       const arrowParams = [];
+
       for (let i = 0; i < params.length; ++i) {
         arrowParams.push(convertArrowParameter(parser, params[i]));
       }
@@ -11055,7 +11189,7 @@ export function parseCoverCallExpressionAndAsyncArrowHead(
         scope,
         typeParameters,
         parseType(parser, context),
-        arrowParams,
+        createArrowPatameterList(arrowParams, false, flags | NodeFlags.ExpressionNode, innerPos, parser.curPos),
         createToken(SyntaxKind.AsyncKeyword, NodeFlags.NoChildren, start, expr.end),
         /* nodeFlags */ flags | NodeFlags.Async,
         start
@@ -11096,11 +11230,11 @@ function parseOpaqueType(
   ownLabels: any
 ) {
   const pos = parser.curPos;
-  let expr = parseIdentifier(parser, context, Constants.Identifier, DiagnosticCode.Identifier_expected);
+  const opaqueToken = consumeToken(parser, context, SyntaxKind.OpaqueKeyword);
   if (parser.token === SyntaxKind.TypeKeyword) {
     return createOpaqueType(
       declareKeyword,
-      createToken(SyntaxKind.OpaqueKeyword, NodeFlags.NoChildren, pos, parser.curPos),
+      opaqueToken,
       consumeOptToken(parser, context, SyntaxKind.TypeKeyword),
       parseIdentifier(parser, context, Constants.Identifier, DiagnosticCode.Identifier_expected),
       parseTypeParameterDeclaration(parser, context),
@@ -11110,6 +11244,9 @@ function parseOpaqueType(
       parser.curPos
     );
   }
+
+  let expr = createIdentifier('opaque', 'opaque', opaqueToken.start, opaqueToken.end);
+
   parser.assignable = true;
   if (parser.token === SyntaxKind.Colon) {
     return parseLabelledStatement(

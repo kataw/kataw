@@ -59,6 +59,7 @@ import { createBindingList, BindingList } from './ast/statements/binding-list';
 import { createVariableStatement, VariableStatement } from './ast/statements/variable-stmt';
 import { createBlock, Block } from './ast/statements/block';
 import { createBlockStatement, BlockStatement } from './ast/statements/block-stmt';
+import { createArrowPatameterList, ArrowPatameterList } from './ast/expressions/arrow-parameter-list';
 import { createBreakStatement, BreakStatement } from './ast/statements/break-stmt';
 import { createContinueStatement, ContinueStatement } from './ast/statements/continue-stmt';
 import { createDefaultClause, DefaultClause } from './ast/statements/default-clause';
@@ -414,17 +415,27 @@ export function visitEachChild(
             (<BlockStatement>node).end
           )
         : node;
+    case SyntaxKind.ArrowPatameterList:
+      return (<ArrowPatameterList>node).parameters !== visitNodes((<ArrowPatameterList>node).parameters, visitor)
+        ? createArrowPatameterList(
+            (<ArrowPatameterList>node).parameters,
+            (<ArrowPatameterList>node).trailingComma,
+            (<ArrowPatameterList>node).flags,
+            (<ArrowPatameterList>node).start,
+            (<ArrowPatameterList>node).end
+          )
+        : node;
     case SyntaxKind.ArrowFunction:
       return (<ArrowFunction>node).arrowToken !== visitNode((<ArrowFunction>node).arrowToken, visitor) ||
         (<ArrowFunction>node).typeParameters !== visitNode((<ArrowFunction>node).typeParameters, visitor) ||
-        (<ArrowFunction>node).parameters !== visitNodes((<any>node).parameters, visitor) ||
+        (<ArrowFunction>node).arrowPatameterList !== visitNodes((<any>node).arrowPatameterList, visitor) ||
         (<ArrowFunction>node).asyncKeyword !== visitNode((<ArrowFunction>node).asyncKeyword, visitor) ||
         (<ArrowFunction>node).returnType !== visitNode((<ArrowFunction>node).returnType, visitor) ||
         (<ArrowFunction>node).contents !== visitFunctionBody(transform, (<ArrowFunction>node).contents, visitor)
         ? createArrowFunction(
             (<ArrowFunction>node).arrowToken,
             (<ArrowFunction>node).typeParameters,
-            (<ArrowFunction>node).parameters,
+            (<ArrowFunction>node).arrowPatameterList,
             (<ArrowFunction>node).asyncKeyword,
             (<ArrowFunction>node).returnType,
             (<ArrowFunction>node).contents,
@@ -936,6 +947,7 @@ export function visitEachChild(
         ? createIndexExpression(
             (<IndexExpression>node).member,
             (<IndexExpression>node).expression,
+            (<IndexExpression>node).flags,
             (<IndexExpression>node).start,
             (<IndexExpression>node).end
           )
@@ -1303,7 +1315,7 @@ export function visitEachChild(
     case SyntaxKind.FieldDefinition:
       return (<FieldDefinition>node).decorators !== visitNode((<FieldDefinition>node).decorators, visitor) ||
         (<FieldDefinition>node).declaredToken !== visitNode((<FieldDefinition>node).declaredToken, visitor) ||
-        (<FieldDefinition>node).staticToken !== visitNode((<FieldDefinition>node).staticToken, visitor) ||
+        (<FieldDefinition>node).staticKeyword !== visitNode((<FieldDefinition>node).staticKeyword, visitor) ||
         (<FieldDefinition>node).asyncKeyword !== visitNode((<FieldDefinition>node).asyncKeyword, visitor) ||
         (<FieldDefinition>node).key !== visitNode((<FieldDefinition>node).key, visitor) ||
         (<FieldDefinition>node).optionalToken !== visitNode((<FieldDefinition>node).optionalToken, visitor) ||
@@ -1312,7 +1324,7 @@ export function visitEachChild(
         ? createFieldDefinition(
             (<FieldDefinition>node).decorators,
             (<FieldDefinition>node).declaredToken,
-            (<FieldDefinition>node).staticToken,
+            (<FieldDefinition>node).staticKeyword,
             (<FieldDefinition>node).asyncKeyword,
             (<FieldDefinition>node).key,
             (<FieldDefinition>node).optionalToken,
@@ -1385,10 +1397,10 @@ export function visitEachChild(
           : node;
 
       case SyntaxKind.TypeReference:
-        return (<TypeReference>node).name !== visitNode((<TypeReference>node).name, visitor) ||
+        return (<TypeReference>node).typeName !== visitNode((<TypeReference>node).typeName, visitor) ||
           (<TypeReference>node).typeParameters !== visitNode((<TypeReference>node).typeParameters, visitor)
           ? createTypeReference(
-              (<TypeReference>node).name,
+              (<TypeReference>node).typeName,
               (<TypeReference>node).typeParameters,
               (<TypeReference>node).start,
               (<TypeReference>node).end
@@ -1475,10 +1487,12 @@ export function visitEachChild(
       case SyntaxKind.TypeParameter:
         return (<TypeParameter>node).name !== visitNode((<TypeParameter>node).name, visitor) ||
           (<TypeParameter>node).type !== visitNode((<TypeParameter>node).type, visitor) ||
+          (<TypeParameter>node).assignToken !== visitNode((<TypeParameter>node).assignToken, visitor) ||
           (<TypeParameter>node).defaultType !== visitNode((<TypeParameter>node).defaultType, visitor)
           ? createTypeParameter(
               (<TypeParameter>node).name,
               (<TypeParameter>node).type,
+              (<TypeParameter>node).assignToken,
               (<TypeParameter>node).defaultType,
               (<TypeParameter>node).start,
               (<TypeParameter>node).end
@@ -1573,14 +1587,14 @@ export function visitEachChild(
           (<ObjectTypeCallProperty>node).typeParameter !==
             visitNode((<ObjectTypeCallProperty>node).typeParameter, visitor) ||
           (<ObjectTypeCallProperty>node).value !== visitNode((<ObjectTypeCallProperty>node).value, visitor) ||
-          (<ObjectTypeCallProperty>node).staticToken !==
-            visitNode((<ObjectTypeCallProperty>node).staticToken, visitor) ||
+          (<ObjectTypeCallProperty>node).staticKeyword !==
+            visitNode((<ObjectTypeCallProperty>node).staticKeyword, visitor) ||
           (<ObjectTypeCallProperty>node).returnType !== visitNode((<ObjectTypeCallProperty>node).returnType, visitor)
           ? createObjectTypeCallProperty(
               (<ObjectTypeCallProperty>node).protoKeyword,
               (<ObjectTypeCallProperty>node).typeParameter,
               (<ObjectTypeCallProperty>node).value,
-              (<ObjectTypeCallProperty>node).staticToken,
+              (<ObjectTypeCallProperty>node).staticKeyword,
               (<ObjectTypeCallProperty>node).returnType,
               (<ObjectTypeCallProperty>node).start,
               (<ObjectTypeCallProperty>node).end
@@ -1590,11 +1604,11 @@ export function visitEachChild(
         return (<ObjectTypeIndexer>node).protoKeyword !== visitNode((<ObjectTypeIndexer>node).protoKeyword, visitor) ||
           (<ObjectTypeIndexer>node).name !== visitNode((<ObjectTypeIndexer>node).name, visitor) ||
           (<ObjectTypeIndexer>node).key !== visitNode((<ObjectTypeIndexer>node).key, visitor) ||
-          (<ObjectTypeIndexer>node).staticToken !== visitNode((<ObjectTypeIndexer>node).staticToken, visitor) ||
+          (<ObjectTypeIndexer>node).staticKeyword !== visitNode((<ObjectTypeIndexer>node).staticKeyword, visitor) ||
           (<ObjectTypeIndexer>node).type !== visitNode((<ObjectTypeIndexer>node).type, visitor)
           ? createObjectTypeIndexer(
               (<ObjectTypeIndexer>node).protoKeyword,
-              (<ObjectTypeIndexer>node).staticToken,
+              (<ObjectTypeIndexer>node).staticKeyword,
               (<ObjectTypeIndexer>node).name,
               (<ObjectTypeIndexer>node).key,
               (<ObjectTypeIndexer>node).type,
@@ -1607,15 +1621,15 @@ export function visitEachChild(
           visitNode((<ObjectTypeInternalSlot>node).protoKeyword, visitor) ||
           (<ObjectTypeInternalSlot>node).optionalToken !==
             visitNode((<ObjectTypeInternalSlot>node).optionalToken, visitor) ||
-          (<ObjectTypeInternalSlot>node).staticToken !==
-            visitNode((<ObjectTypeInternalSlot>node).staticToken, visitor) ||
-          (<ObjectTypeInternalSlot>node).value !== visitNode((<ObjectTypeInternalSlot>node).value, visitor)
+          (<ObjectTypeInternalSlot>node).staticKeyword !==
+            visitNode((<ObjectTypeInternalSlot>node).staticKeyword, visitor) ||
+          (<ObjectTypeInternalSlot>node).type !== visitNode((<ObjectTypeInternalSlot>node).type, visitor)
           ? createObjectTypeInternalSlot(
               (<ObjectTypeInternalSlot>node).protoKeyword,
               (<ObjectTypeInternalSlot>node).name,
               (<ObjectTypeInternalSlot>node).optionalToken,
-              (<ObjectTypeInternalSlot>node).staticToken,
-              (<ObjectTypeInternalSlot>node).value,
+              (<ObjectTypeInternalSlot>node).staticKeyword,
+              (<ObjectTypeInternalSlot>node).type,
               (<ObjectTypeInternalSlot>node).start,
               (<ObjectTypeInternalSlot>node).end
             )
@@ -1624,17 +1638,17 @@ export function visitEachChild(
         return (<ObjectTypeProperty>node).getKeyword !== visitNode((<ObjectTypeProperty>node).getKeyword, visitor) ||
           (<ObjectTypeProperty>node).setKeyword !== visitNode((<ObjectTypeProperty>node).setKeyword, visitor) ||
           (<ObjectTypeProperty>node).key !== visitNode((<ObjectTypeProperty>node).key, visitor) ||
-          (<ObjectTypeProperty>node).value !== visitNode((<ObjectTypeProperty>node).value, visitor) ||
+          (<ObjectTypeProperty>node).type !== visitNode((<ObjectTypeProperty>node).type, visitor) ||
           (<ObjectTypeProperty>node).optionalToken !== visitNode((<ObjectTypeProperty>node).optionalToken, visitor) ||
-          (<ObjectTypeProperty>node).staticToken !== visitNode((<ObjectTypeProperty>node).staticToken, visitor) ||
+          (<ObjectTypeProperty>node).staticKeyword !== visitNode((<ObjectTypeProperty>node).staticKeyword, visitor) ||
           (<ObjectTypeProperty>node).protoKeyword !== visitNode((<ObjectTypeProperty>node).protoKeyword, visitor)
           ? createObjectTypeProperty(
               (<ObjectTypeProperty>node).getKeyword,
               (<ObjectTypeProperty>node).setKeyword,
               (<ObjectTypeProperty>node).key,
-              (<ObjectTypeProperty>node).value,
+              (<ObjectTypeProperty>node).type,
               (<ObjectTypeProperty>node).optionalToken,
-              (<ObjectTypeProperty>node).staticToken,
+              (<ObjectTypeProperty>node).staticKeyword,
               (<ObjectTypeProperty>node).protoKeyword,
               (<ObjectTypeProperty>node).start,
               (<ObjectTypeProperty>node).end

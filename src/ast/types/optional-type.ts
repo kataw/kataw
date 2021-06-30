@@ -7,8 +7,8 @@ import { TypeNode } from '.';
  */
 
 export interface OptionalType extends SyntaxNode {
-  readonly optionalToken: SyntaxToken<TokenSyntaxKind>;
   readonly type: TypeNode;
+  readonly optionalToken: SyntaxToken<TokenSyntaxKind>;
 }
 
 export function createOptionalType(
@@ -19,8 +19,8 @@ export function createOptionalType(
 ): OptionalType {
   return {
     kind: SyntaxKind.OptionalType,
-    optionalToken,
     type,
+    optionalToken,
     flags: NodeFlags.IsTypeNode,
     start,
     end

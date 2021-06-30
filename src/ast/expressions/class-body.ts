@@ -1,9 +1,9 @@
 import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
+import { SyntaxToken, TokenSyntaxKind } from '../token';
 import { ClassElement } from './class-element';
 import { FieldDefinition } from './field-definition';
-import { SemicolonClassElement } from './semicolon-class-element';
 
-export type ClassElements = SemicolonClassElement | ClassElement | FieldDefinition;
+export type ClassElements = SyntaxToken<TokenSyntaxKind> | ClassElement | FieldDefinition;
 
 /**
  * ClassBody

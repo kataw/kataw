@@ -1,7 +1,7 @@
 import { parse, Options } from './parser/parser';
 import { Context, OnError } from './parser/common';
 import { RootNode } from './ast/rootNode';
-import { printSourceFile } from './printer';
+import { printCST } from './printer';
 export { SyntaxKind } from './ast/syntax-node';
 export { NodeFlags } from './ast/syntax-node';
 export { TokenSyntaxKind, createToken, SyntaxToken } from './ast/token';
@@ -27,7 +27,6 @@ export { createSwitchStatement } from './ast/statements/switch-stmt';
 export { createThrowStatement } from './ast/statements/throw-stmt';
 export { createWhileStatement } from './ast/statements/while-stmt';
 export { createWithStatement } from './ast/statements/with-stmt';
-export { createSuper } from './ast/expressions/super';
 export { createIndexExpressionChain } from './ast/expressions/index-expr-chain';
 export { createDecoratorList } from './ast/expressions/decorator-list';
 export { createDecorator } from './ast/expressions/decorators';
@@ -56,7 +55,6 @@ export { createSpreadProperty } from './ast/expressions/spread-property';
 export { createCoverInitializedName } from './ast/expressions/cover-initialized-name';
 export { createMethodDefinition } from './ast/expressions/method-definition';
 export { createArrowFunction } from './ast/expressions/arrow-function';
-export { createSemicolonClassElement } from './ast/expressions/semicolon-class-element';
 export { createRegularExpressionLiteral } from './ast/expressions/regular-expr';
 export { createExpressionStatement } from './ast/statements/expression-stmt';
 export { createNameSpaceImport } from './ast/module/namespace-import';
@@ -216,10 +214,24 @@ export function parseModule(source: string, options?: Options, onError?: OnError
   );
 }
 
-export function prettifyScript(source: string, options?: Options, onError?: OnError): string {
-  return printSourceFile(parseScript(source, options, onError), options as any);
+export function print(root: any, options?: Options): string {
+  return printCST(root, options);
 }
 
-export function prettifyModule(source: string, options?: Options, onError?: OnError): string {
-  return printSourceFile(parseModule(source, options, onError), options as any);
+export function printScript(source: string, options?: Options): string {
+  return printCST(
+    parseScript(source, options, function (_source, _kind, msg, line, column) {
+      throw msg + '(' + line + ', ' + column + ')';
+    }),
+    options
+  );
+}
+
+export function printModule(source: string, options?: Options): string {
+  return printCST(
+    parseModule(source, options, function (_source, _kind, msg, line, column) {
+      throw msg + '(' + line + ', ' + column + ')';
+    }),
+    options
+  );
 }

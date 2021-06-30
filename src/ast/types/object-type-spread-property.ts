@@ -7,23 +7,23 @@ export interface ObjectTypeSpreadProperty extends SyntaxNode {
   readonly ellipsisToken: SyntaxToken<TokenSyntaxKind>;
   readonly kind: SyntaxKind.ObjectTypeSpreadProperty;
   readonly type: TypeNode;
-  readonly staticToken: SyntaxToken<TokenSyntaxKind> | null;
+  readonly staticKeyword: SyntaxToken<TokenSyntaxKind> | null;
 }
 
 export function createObjectTypeSpreadProperty(
   protoKeyword: SyntaxToken<TokenSyntaxKind> | null,
   ellipsisToken: SyntaxToken<TokenSyntaxKind>,
   type: TypeNode,
-  staticToken: SyntaxToken<TokenSyntaxKind> | null,
+  staticKeyword: SyntaxToken<TokenSyntaxKind> | null,
   start: number,
   end: number
 ): ObjectTypeSpreadProperty {
   return {
     kind: SyntaxKind.ObjectTypeSpreadProperty,
     protoKeyword,
+    staticKeyword,
     ellipsisToken,
     type,
-    staticToken,
     flags: NodeFlags.IsTypeNode,
     start,
     end

@@ -112,9 +112,19 @@ interface ArrowFunction <: ExpressionNode {
   kind: NodeKind.ArrowFunction;
   arrowToken: SyntaxToken | null;
   typeParameters: TypeParameter | null;
-  parameters: Identifier | [FormalParameter];
+  arrowPatameterList: ArrowPatameterList;
   asyncToken: SyntaxToken | null;
   content: ExpressionNode | FunctionBody
+}
+```
+
+### ArrowPatameterList
+
+```js
+interface ArrowPatameterList <: ExpressionNode {
+  kind: NodeKind.ArrowFunction;
+  parameters: [Identifier | BindingElement];
+  trailingComma: boolean;
 }
 ```
 
@@ -244,7 +254,7 @@ interface ClassHeritage <: ExpressionNode {
 interface ClassTail <: ExpressionNode {
   kind: NodeKind.ClassTail;
   classHeritage: ExpressionNode | null;
-  body: [ClassElements]
+  body: [ SyntaxToken<TokenSyntaxKind>  | ClassElement ]
 }
 ```
 
@@ -255,11 +265,11 @@ interface ClassElement <: ExpressionNode {
   kind: NodeKind.ClassElement;
   declareToken: SyntaxToken<TokenSyntaxKind> | null;
   decorators: DecoratorList | null;
-  asteriskToken: SyntaxToken<TokenSyntaxKind> | null;
   staticKeyword: SyntaxToken<TokenSyntaxKind> | null;
   asyncKeyword: SyntaxToken<TokenSyntaxKind> | null;
   setKeyword: SyntaxToken<TokenSyntaxKind> | null;
   getKeyword: SyntaxToken<TokenSyntaxKind> | null;
+  asteriskToken: SyntaxToken<TokenSyntaxKind> | null;
   method: MethodDefinition;
 }
 ```
@@ -278,17 +288,6 @@ interface FieldDefinition <: ExpressionNode {
  initializer: ExpressionNode | null;
 }
 ```
-
-### SemicolonClassElement
-
-```js
-interface SemicolonClassElement <: ExpressionNode {
-  kind: NodeKind.Semicolon;
-}
-
-```
-This node is part of the `ClassElement` production. See[`14.6 Class Definitions`](https://tc39.es/ecma262/#prod-ClassElement).
-
 
 ### ComputedPropertyName
 
@@ -524,16 +523,6 @@ interface SpreadProperty <: ExpressionNode {
 
 See `12.2.6 Object Initializer`. The `SpreadProperty` AST node is not mentioned in the specs, but has been
 added to represent the `...AssignmentExpression` production.
-
-
-### Super
-
-```js
-interface Super <: ExpressionNode {
-  kind: NodeKind.Super;
-  superKeyword: SyntaxToken<TokenSyntaxKind>;
-}
-```
 
 ### TaggedTemplate
 

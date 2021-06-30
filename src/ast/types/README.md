@@ -97,6 +97,7 @@ interface IndexedAccessType <: TypeNode {
 interface NumberType <: TypeNode {
   kind: NodeKind.NumberType;
   text: number;
+  rawText: string;
 }
 ```
 
@@ -129,7 +130,7 @@ interface ObjectTypeCallProperty <: TypeNode {
   typeParameter: TypeParameterDeclaration | null;
   kind: SyntaxKind.ObjectTypeCallProperty;
   value: TypeNode;
-  staticToken: SyntaxToken<TokenSyntaxKind> | null;
+  staticKeyword: SyntaxToken<TokenSyntaxKind> | null;
   returnType: TypeNode;
 }
 ```
@@ -143,7 +144,7 @@ interface ObjectTypeIndexer <: TypeNode {
   name: Identifier | DummyIdentifier | StringLiteral | NumericLiteral | null;
   key: TypeNode;
   type: TypeNode;
-  staticToken: SyntaxToken<TokenSyntaxKind> | null;
+  staticKeyword: SyntaxToken<TokenSyntaxKind> | null;
 }
 ```
 
@@ -151,14 +152,14 @@ interface ObjectTypeIndexer <: TypeNode {
 
 ```js
 interface ObjectTypeInternalSlot <: TypeNode {
-  kind: NodeKind.ObjectTypeInternalSlot;
-   kind: SyntaxKind.ObjectTypeInternalSlot;
+  kind: SyntaxKind.ObjectTypeInternalSlot;
   /* error recovery */
   protoKeyword: SyntaxToken<TokenSyntaxKind> | null;
+  staticKeyword: SyntaxToken<TokenSyntaxKind> | null;
   name: Identifier | DummyIdentifier | StringLiteral | NumericLiteral;
-  value: TypeNode;
   optionalToken: SyntaxToken<TokenSyntaxKind> | null;
-  staticToken: SyntaxToken<TokenSyntaxKind> | null;
+  type: TypeNode;
+
 }
 ```
 
@@ -169,11 +170,11 @@ interface ObjectTypeProperty <: TypeNode {
   kind: NodeKind.ObjectTypeProperty;
   getKeyword: SyntaxToken<TokenSyntaxKind> | null;
   setKeyword: SyntaxToken<TokenSyntaxKind> | null;
-  staticToken: SyntaxToken<TokenSyntaxKind> | null;
+  staticKeyword: SyntaxToken<TokenSyntaxKind> | null;
   protoKeyword: SyntaxToken<TokenSyntaxKind> | null;
   key: Identifier | DummyIdentifier | StringLiteral | NumericLiteral;
   optionalToken: SyntaxToken<TokenSyntaxKind> | null;
-  value: TypeNode;
+  type: TypeNode;
 }
 ```
 
@@ -186,7 +187,7 @@ interface ObjectTypeSpreadProperty <: TypeNode {
   ellipsisToken: SyntaxToken<TokenSyntaxKind>;
   kind: SyntaxKind.ObjectTypeSpreadProperty;
   type: TypeNode;
-  staticToken: SyntaxToken<TokenSyntaxKind> | null;
+  staticKeyword: SyntaxToken<TokenSyntaxKind> | null;
 }
 ```
 
@@ -240,6 +241,7 @@ interface QualifiedType <: TypeNode {
 interface StringType <: TypeNode {
   kind: NodeKind.StringType;
   text: string;
+  rawText: string;
 }
 ```
 
@@ -341,7 +343,7 @@ interface TypeParameter <: TypeNode {
 ```js
 interface TypeReference <: TypeNode {
   kind: NodeKind.TypeReference;
-  name: Identifier | DummyIdentifier;
+  typeName: Identifier | DummyIdentifier;
   typeParameters: TypeParameterInstantiationList | null;
 }
 ```
@@ -379,8 +381,8 @@ interface RestType <: TypeNode {
 
 ```js
 interface OptionalType <: TypeNode {
-  optionalToken: SyntaxToken<TokenSyntaxKind>;
   type: TypeNode;
+  optionalToken: SyntaxToken<TokenSyntaxKind>;
 }
 ```
 

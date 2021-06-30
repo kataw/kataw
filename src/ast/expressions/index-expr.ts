@@ -9,6 +9,7 @@ export interface IndexExpression extends SyntaxNode {
 export function createIndexExpression(
   member: ExpressionNode,
   expression: ExpressionNode,
+  flags: NodeFlags,
   start: number,
   end: number
 ): IndexExpression {
@@ -16,7 +17,7 @@ export function createIndexExpression(
     kind: SyntaxKind.IndexExpression,
     member,
     expression,
-    flags: NodeFlags.ExpressionNode | NodeFlags.IsMemberExpression,
+    flags,
     start,
     end
   };
