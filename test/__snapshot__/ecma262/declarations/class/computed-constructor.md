@@ -1230,7 +1230,7 @@ class two {
   ['\'constructor\'']() { }
 }
 class three {
-  *['\'constructor\'']() { }
+  * ['\'constructor\'']() { }
 }
 class four {
   get ['\'constructor\'']() { }
@@ -1248,7 +1248,7 @@ class eigth {
   static ['\'constructor\'']() { }
 }
 class nine {
-  static *['\'constructor\'']() { }
+  static * ['\'constructor\'']() { }
 }
 class ten {
   static get ['\'constructor\'']() { }

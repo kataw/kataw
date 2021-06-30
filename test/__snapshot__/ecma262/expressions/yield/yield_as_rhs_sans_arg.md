@@ -181,7 +181,7 @@ function *g() { function f(x = x + yield) {}; }
 
 ```javascript
 
-function* g() { function f(x = x + yield) { } ; }
+function * g() { function f(x = x + yield) { } ; }
 
 ```
 

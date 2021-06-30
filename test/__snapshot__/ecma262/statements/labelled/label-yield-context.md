@@ -125,8 +125,8 @@ function * x () {
 
 ```javascript
 
-function* x() {
-  y: yield;
+function * x() {
+  y: yield ;
 }
 
 ```

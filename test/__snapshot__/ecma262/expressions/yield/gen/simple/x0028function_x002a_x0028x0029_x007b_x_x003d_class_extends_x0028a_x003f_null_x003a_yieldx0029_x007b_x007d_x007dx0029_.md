@@ -214,7 +214,7 @@
 
 ```javascript
 
-(function* () { x = class  extends (a ? null : yield) {
+(function * () { x = class  extends (a ? null : yield ) {
 }; });
 
 ```

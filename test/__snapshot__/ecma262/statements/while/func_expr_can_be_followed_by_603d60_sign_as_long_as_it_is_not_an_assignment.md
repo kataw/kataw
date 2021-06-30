@@ -111,7 +111,7 @@ while (function* () {} === x);
 
 ```javascript
 
-while (function* () { } === x)
+while (function * () { } === x)
   ;
 
 ```

@@ -295,7 +295,7 @@ function * gen() { function not_gen() { function yield(yield) { yield: yield (yi
 
 ```javascript
 
-function* gen() { function not_gen() { function yield(yield) { yield: yield(yield + yield(0)); } } }
+function * gen() { function not_gen() { function yield(yield) { yield: yield(yield + yield(0)); } } }
 
 ```
 

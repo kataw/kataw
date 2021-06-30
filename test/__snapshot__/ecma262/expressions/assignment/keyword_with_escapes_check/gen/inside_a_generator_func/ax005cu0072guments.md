@@ -126,7 +126,7 @@ function *f(){
 
 ```javascript
 
-function* f() {
+function * f() {
   a\u0072guments = x;
 }
 

@@ -279,8 +279,8 @@ function * gen() { function not_gen() { function* gf() { switch (1) { case yield
 
 ```javascript
 
-function* gen() { function not_gen() { function* gf() { switch (1) {
-  case yield* '\'foo\'': 
+function * gen() { function not_gen() { function * gf() { switch (1) {
+  case yield *  '\'foo\'': 
     break;
 } } } }
 

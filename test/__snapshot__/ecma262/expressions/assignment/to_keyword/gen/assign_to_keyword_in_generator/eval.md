@@ -126,7 +126,7 @@ function *f(){
 
 ```javascript
 
-function* f() {
+function * f() {
   eval = 1;
 }
 

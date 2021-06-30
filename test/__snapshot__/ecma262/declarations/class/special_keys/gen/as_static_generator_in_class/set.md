@@ -137,7 +137,7 @@ class x {static * set(){}}
 ```javascript
 
 class x {
-  static *set() { }
+  static * set() { }
 }
 
 ```

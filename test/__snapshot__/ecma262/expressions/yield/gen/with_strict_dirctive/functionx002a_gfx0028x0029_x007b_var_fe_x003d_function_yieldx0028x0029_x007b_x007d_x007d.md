@@ -182,7 +182,7 @@
 ```javascript
 
 '\'use strict\'';
-function* gf() { var fe = function yield() { }; }
+function * gf() { var fe = function yield() { }; }
 
 ```
 

@@ -142,7 +142,7 @@ function* fn() {
 
 ```javascript
 
-function* fn() {
+function * fn() {
   (function yield() { });
 }
 

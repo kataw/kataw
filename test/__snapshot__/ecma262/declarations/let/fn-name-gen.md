@@ -195,8 +195,8 @@ let gen = function*() {};
 
 ```javascript
 
-let xGen = function* x() { };
-let gen = function* () { };
+let xGen = function * x() { };
+let gen = function * () { };
 
 ```
 

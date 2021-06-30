@@ -120,8 +120,8 @@ function *f() {
 
 ```javascript
 
-function* f() {
-  (yield /x/);
+function * f() {
+  (yield  /x/);
 }
 
 ```

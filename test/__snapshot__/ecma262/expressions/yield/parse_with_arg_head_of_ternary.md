@@ -144,7 +144,7 @@ function *f() { 1 ? yield 2 : 3; }
 
 ```javascript
 
-function* f() { 1 ? yield 2 : 3; }
+function * f() { 1 ? yield  2 : 3; }
 
 ```
 

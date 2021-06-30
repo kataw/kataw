@@ -129,7 +129,7 @@ function *foo() { (x = \u0079ield) }
 
 ```javascript
 
-function* foo() { (x = yield); }
+function * foo() { (x = yield ); }
 
 ```
 

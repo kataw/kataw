@@ -187,7 +187,7 @@ function *P(){
 
 ```javascript
 
-function* P() {
+function * P() {
   class D extends function f() { } {
   }
 }

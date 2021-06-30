@@ -132,7 +132,7 @@ function *f(){
 
 ```javascript
 
-function* f() {
+function * f() {
   (await) = 1;
 }
 

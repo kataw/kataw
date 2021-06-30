@@ -142,7 +142,7 @@ class x {static async * switch(){}}
 ```javascript
 
 class x {
-  static async *switch() { }
+  static async * switch() { }
 }
 
 ```

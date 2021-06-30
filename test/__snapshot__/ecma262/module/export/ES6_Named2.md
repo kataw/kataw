@@ -921,7 +921,7 @@ const specifierNumber5 = 2;
 const groupedSpecifierNumber3 = 1;
 const groupedSpecifierNumber4 = 2;
 export { specifierNumber4, };
-export { specifierNumber5 as specifierNumber5Renamed, };
+export { specifierNumber5 as  specifierNumber5Renamed, };
 export { groupedSpecifierNumber3, groupedSpecifierNumber4, };
 export function givesANumber2(): number { return 42; }
 ;

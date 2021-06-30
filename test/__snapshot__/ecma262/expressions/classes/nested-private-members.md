@@ -1354,7 +1354,7 @@
 });
 (class  {
   a = class  {
-    *#a() { }
+    * #a() { }
   }
 });
 (class  {
@@ -1364,7 +1364,7 @@
 });
 (class  {
   a = class  {
-    async *#a() { }
+    async * #a() { }
   }
 });
 

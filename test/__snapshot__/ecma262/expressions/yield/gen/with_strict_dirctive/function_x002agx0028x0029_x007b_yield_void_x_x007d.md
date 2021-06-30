@@ -140,7 +140,7 @@
 ```javascript
 
 '\'use strict\'';
-function* g() { yield void  x; }
+function * g() { yield  void  x; }
 
 ```
 

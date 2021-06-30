@@ -6438,23 +6438,23 @@
   set() { }
 });
 (class  {
-  *g() { }
+  * g() { }
 });
 (class  {
-  *g() { }
+  * g() { }
   ;
 });
 (class  {
   ;
-  *g() { }
+  * g() { }
 });
 (class  {
-  *g() { }
+  * g() { }
   ;
-  *h(x) { }
+  * h(x) { }
 });
 (class  {
-  async *x() { }
+  async * x() { }
 });
 (class  {
   static() { }
@@ -6490,34 +6490,34 @@
   static set static(v) { }
 });
 (class  {
-  *static() { }
+  * static() { }
 });
 (class  {
-  static *static() { }
+  static * static() { }
 });
 (class  {
-  *get() { }
+  * get() { }
 });
 (class  {
-  *set() { }
+  * set() { }
 });
 (class  {
-  static *g() { }
+  static * g() { }
 });
 (class  {
   async() { }
 });
 (class  {
-  *async() { }
+  * async() { }
 });
 (class  {
   static async() { }
 });
 (class  {
-  static *async() { }
+  static * async() { }
 });
 (class  {
-  static async *x() { }
+  static async * x() { }
 });
 (class  {
   static async x() { }
@@ -6526,7 +6526,7 @@
   static async() { }
 });
 (class  {
-  static *async() { }
+  static * async() { }
 });
 (class  {
   async x() { }
@@ -6550,7 +6550,7 @@
   async() { }
 });
 (class  {
-  *async() { }
+  * async() { }
 });
 (class  {
   get 42.5() { }
@@ -6568,10 +6568,10 @@
   static set 42.5(v) { }
 });
 (class  {
-  *const() { }
+  * const() { }
 });
 (class  {
-  static *'"str"'() { }
+  static * '"str"'() { }
 });
 (class C {
   true() { }
@@ -6592,10 +6592,10 @@
   static set get(v) { }
 });
 (class C {
-  *set() { }
+  * set() { }
 });
 (class C {
-  static *static() { }
+  static * static() { }
 });
 
 ```

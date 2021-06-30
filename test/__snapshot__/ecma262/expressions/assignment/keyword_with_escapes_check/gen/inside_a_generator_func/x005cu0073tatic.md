@@ -126,7 +126,7 @@ function *f(){
 
 ```javascript
 
-function* f() {
+function * f() {
   \u0073tatic = x;
 }
 

@@ -132,7 +132,7 @@ class x {* in(){}}
 ```javascript
 
 class x {
-  *in() { }
+  * in() { }
 }
 
 ```

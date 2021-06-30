@@ -670,7 +670,7 @@ class C {
       }) {
       fn = arguments;
     })('\'function\'');
-    (function* ({
+    (function * ({
         test262 = genParam = arguments
       }) {
       gen = arguments;

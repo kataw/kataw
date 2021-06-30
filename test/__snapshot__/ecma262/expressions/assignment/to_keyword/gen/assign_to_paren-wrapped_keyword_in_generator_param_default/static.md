@@ -141,7 +141,7 @@ function *f(x = (static) = f) {}
 
 ```javascript
 
-function* f(x = (static) = f) { }
+function * f(x = (static) = f) { }
 
 ```
 

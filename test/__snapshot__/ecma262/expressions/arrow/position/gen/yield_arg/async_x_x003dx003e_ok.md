@@ -148,8 +148,8 @@ function *f() {
 
 ```javascript
 
-function* f() {
-  yield async x => ok;
+function * f() {
+  yield  async x => ok;
 }
 
 ```

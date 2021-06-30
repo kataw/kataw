@@ -117,7 +117,7 @@ class A {
 ```javascript
 
 class A {
-  declarefoo: string
+  declare foo: string
 }
 
 ```

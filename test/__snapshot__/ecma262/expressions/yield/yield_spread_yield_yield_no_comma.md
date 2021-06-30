@@ -158,7 +158,7 @@ function *g() {yield {     ...yield yield    };}
 
 ```javascript
 
-function* g() { yield { ...yield yield }; }
+function * g() { yield  { ...yield  yield  }; }
 
 ```
 

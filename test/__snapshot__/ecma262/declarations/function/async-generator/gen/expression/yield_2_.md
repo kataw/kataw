@@ -151,7 +151,7 @@
 
 ```javascript
 
-({ async * gen() { yield 2; } });
+({ async * gen() { yield  2; } });
 
 ```
 

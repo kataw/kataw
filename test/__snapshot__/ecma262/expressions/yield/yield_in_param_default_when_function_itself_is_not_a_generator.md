@@ -161,7 +161,7 @@ function *g() { function f(x = yield) {}; }
 
 ```javascript
 
-function* g() { function f(x = yield) { } ; }
+function * g() { function f(x = yield) { } ; }
 
 ```
 

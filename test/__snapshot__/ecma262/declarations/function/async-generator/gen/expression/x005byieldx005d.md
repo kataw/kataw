@@ -159,7 +159,7 @@
 
 ```javascript
 
-({ async * gen() { [yield,]; } });
+({ async * gen() { [yield ,]; } });
 
 ```
 

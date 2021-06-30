@@ -167,7 +167,7 @@
 
 ```javascript
 
-({ * g1() { return { x : yield }; } });
+({ * g1() { return { x : yield  }; } });
 
 ```
 

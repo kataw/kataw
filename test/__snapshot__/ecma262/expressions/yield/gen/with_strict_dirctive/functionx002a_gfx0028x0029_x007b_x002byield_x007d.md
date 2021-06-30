@@ -133,7 +133,7 @@
 ```javascript
 
 '\'use strict\'';
-function* gf() { + yield; }
+function * gf() { + yield ; }
 
 ```
 

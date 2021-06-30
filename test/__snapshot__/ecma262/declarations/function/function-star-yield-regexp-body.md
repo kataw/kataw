@@ -158,7 +158,7 @@ function *f() { yield
 
 ```javascript
 
-function* f() { yield {} / 1 / g; }
+function * f() { yield  {} / 1 / g; }
 
 ```
 

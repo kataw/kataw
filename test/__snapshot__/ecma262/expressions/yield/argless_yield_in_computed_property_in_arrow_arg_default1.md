@@ -188,7 +188,7 @@ function *g(){ (x = {[yield]: 1}) => z }
 
 ```javascript
 
-function* g() { (x = { [yield] : 1 }) => z; }
+function * g() { (x = { [yield ] : 1 }) => z; }
 
 ```
 

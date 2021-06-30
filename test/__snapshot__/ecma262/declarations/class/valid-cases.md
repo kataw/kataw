@@ -2982,7 +2982,7 @@ class One {
   foo() { }
 }
 class Two {
-  *foo() { }
+  * foo() { }
 }
 class Three {
   get foo() { }
@@ -2994,7 +2994,7 @@ class Five {
   static foo() { }
 }
 class Six {
-  static *foo() { }
+  static * foo() { }
 }
 class Seven {
   static get foo() { }
@@ -3009,13 +3009,13 @@ class Ten {
   static async foo() { }
 }
 class Eleven {
-  static async *foo() { }
+  static async * foo() { }
 }
 class Twelwe {
   if() { }
 }
 class Thirteen {
-  *if() { }
+  * if() { }
 }
 class Fourtin {
   get if() { }
@@ -3027,10 +3027,10 @@ class Sixteen {
   static if() { }
 }
 class Seventeen {
-  static *if() { }
+  static * if() { }
 }
 class Eigtheen {
-  static async *if() { }
+  static async * if() { }
 }
 class Nineteen {
   a() { }
@@ -3050,7 +3050,7 @@ class Twentytwo {
 }
 class TwentyThree {
   a() { }
-  static async *b() { }
+  static async * b() { }
 }
 class TwentyFour {
   [arguments]
@@ -3062,7 +3062,7 @@ class TwentySeven {
   static get '\'constructor\''() { }
 }
 class TwentyEigth {
-  *['\'constructor\'']() { }
+  * ['\'constructor\'']() { }
 }
 class TwentyNine {
   async '\'prototype\''() { }

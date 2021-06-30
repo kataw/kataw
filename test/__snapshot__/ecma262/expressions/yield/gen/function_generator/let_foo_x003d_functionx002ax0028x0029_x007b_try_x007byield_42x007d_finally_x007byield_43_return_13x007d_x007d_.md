@@ -341,11 +341,11 @@ function * gen() { function not_gen() { let foo = function*() { try {yield 42} f
 
 ```javascript
 
-function* gen() { function not_gen() { let foo = function* () { try {
-  yield 42;
+function * gen() { function not_gen() { let foo = function * () { try {
+  yield  42;
 }
 finally {
-  yield 43;
+  yield  43;
   return 13;
 } }; } }
 

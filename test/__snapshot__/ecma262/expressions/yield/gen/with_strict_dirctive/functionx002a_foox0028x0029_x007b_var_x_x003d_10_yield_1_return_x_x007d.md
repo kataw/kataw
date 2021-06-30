@@ -192,7 +192,7 @@
 ```javascript
 
 '\'use strict\'';
-function* foo() { var x = 10; yield 1; return x; }
+function * foo() { var x = 10; yield  1; return x; }
 
 ```
 

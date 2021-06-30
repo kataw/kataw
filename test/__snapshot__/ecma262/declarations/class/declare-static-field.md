@@ -109,7 +109,7 @@ class A {
 ```javascript
 
 class A {
-  declarestatic foo
+  declare static foo
 }
 
 ```

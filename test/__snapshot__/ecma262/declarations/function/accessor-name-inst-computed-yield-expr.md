@@ -435,10 +435,10 @@ function* g() {
 ```javascript
 
 var yieldSet, C, iter;
-function* g() {
+function * g() {
   class C_ {
-    get [yield]() { return '\'get yield\''; }
-    set [yield](param) { yieldSet = param; }
+    get [yield ]() { return '\'get yield\''; }
+    set [yield ](param) { yieldSet = param; }
   }
   C = C_;
 }

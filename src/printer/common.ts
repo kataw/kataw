@@ -551,14 +551,20 @@ export function shouldWriteClosingLineTerminator(
   return false;
 }
 
-export function printKeyword(t: any, printer: any, parent: any): void {
-  if (parent.start !== t.start) {
-    printLeadingCommentsOfPosition(printer, t.start);
-  }
-  write(printer, tokenToString(t));
+export function printKeyword(keyword: any, printer: any, parent: any, addSpace: boolean): void {
+  if (keyword) {
+    if (parent.start !== keyword.start) {
+      printLeadingCommentsOfPosition(printer, keyword.start);
+    }
+    write(printer, tokenToString(keyword));
 
-  if (parent.end !== t.end) {
-    printTrailingCommentsOfPosition(printer, t.end);
+    if (parent.end !== keyword.end) {
+      printTrailingCommentsOfPosition(printer, keyword.end);
+    }
+
+    if (addSpace) {
+      write(printer, ' ');
+    }
   }
 }
 

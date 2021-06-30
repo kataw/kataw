@@ -142,7 +142,7 @@ function *g(){ return x + (yield f); }
 
 ```javascript
 
-function* g() { return x + (yield f); }
+function * g() { return x + (yield  f); }
 
 ```
 

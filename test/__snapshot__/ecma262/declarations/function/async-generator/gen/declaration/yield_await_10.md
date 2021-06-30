@@ -136,7 +136,7 @@ async function * gen() {yield await 10}
 
 ```javascript
 
-async function* gen() { yield await 10; }
+async function * gen() { yield  await 10; }
 
 ```
 

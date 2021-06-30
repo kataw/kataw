@@ -112,7 +112,7 @@ new async function *f(){}
 
 ```javascript
 
-new async function* f() { };
+new async function * f() { };
 
 ```
 

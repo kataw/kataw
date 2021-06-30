@@ -4748,20 +4748,20 @@ d = ! ! a;
 e = ! + - + ! a;
 f = - + - a++;
 g = b + - + - a++;
-(async function* () {/*20*/
+(async function * () {/*20*/
   await a + b;
   await a + await b;
   await (a =/*21*/ b);
   (await f(/*22*/)).a;
   await f(/*23*/).a;
-  yield 1;/*24*/
-  yield 1 + 2;
-  (yield 1) +/*25*/ (yield 2);
-  yield a = b;
-  const c = yield 3;
+  yield  1;/*24*/
+  yield  1 + 2;
+  (yield  1) +/*25*/ (yield  2);
+  yield  a = b;
+  const c = yield  3;
 });
-(function* () {
-  ! (yield 1);
+(function * () {
+  ! (yield  1);
 });/*27*/
 ! (() =>  { });
 (() =>  { }) ? a : b;

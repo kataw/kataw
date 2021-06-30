@@ -160,8 +160,8 @@ function *f() {
 
 ```javascript
 
-function* f() {
-  yield a instanceof b + c;
+function * f() {
+  yield  a instanceof b + c;
 }
 
 ```

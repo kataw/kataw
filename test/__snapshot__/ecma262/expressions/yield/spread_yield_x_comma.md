@@ -157,7 +157,7 @@ function *g() {x={     ...yield x,    };}
 
 ```javascript
 
-function* g() { x = { ...yield x }; }
+function * g() { x = { ...yield  x }; }
 
 ```
 

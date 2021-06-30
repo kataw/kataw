@@ -373,17 +373,17 @@ function getSecurity(level) {
 
 function getSecurity(level) {
   switch (level) {
-    case 0:
+    case 0: 
     // Zero
-    case 1:
+    case 1: 
     // one
     case 2: 
       return '"Hi"';
-    case 3:
+    case 3: 
     // three
     case 4: 
       return '"hello"';
-    case 5:
+    case 5: 
     // five
     default: 
       return '"world"';

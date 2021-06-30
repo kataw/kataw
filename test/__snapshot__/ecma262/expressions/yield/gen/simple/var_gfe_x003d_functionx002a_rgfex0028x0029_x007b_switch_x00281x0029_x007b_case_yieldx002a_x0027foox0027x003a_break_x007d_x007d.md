@@ -213,8 +213,8 @@ var gfe = function* rgfe() { switch (1) { case yield* 'foo': break; } }
 
 ```javascript
 
-var gfe = function* rgfe() { switch (1) {
-  case yield* '\'foo\'': 
+var gfe = function * rgfe() { switch (1) {
+  case yield *  '\'foo\'': 
     break;
 } };
 

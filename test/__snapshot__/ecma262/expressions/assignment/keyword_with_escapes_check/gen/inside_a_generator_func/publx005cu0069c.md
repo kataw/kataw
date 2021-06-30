@@ -126,7 +126,7 @@ function *f(){
 
 ```javascript
 
-function* f() {
+function * f() {
   publ\u0069c = x;
 }
 

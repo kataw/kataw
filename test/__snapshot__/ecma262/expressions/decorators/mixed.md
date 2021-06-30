@@ -188,7 +188,7 @@ class MyComponent {
 @foo
 class MyComponent {
   @task
-  *foo() {
+  * foo() {
   }
 }
 

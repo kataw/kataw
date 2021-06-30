@@ -181,7 +181,7 @@
 
 ```javascript
 
-({ async * gen() { yield/* comment */ { yield : 12 }; } });
+({ async * gen() { yield/* comment */  { yield : 12 }; } });
 
 ```
 

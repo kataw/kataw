@@ -223,8 +223,8 @@
 ```javascript
 
 '\'use strict\'';
-var gfe = function* rgfe() { switch (1) {
-  case yield* '\'foo\'': 
+var gfe = function * rgfe() { switch (1) {
+  case yield *  '\'foo\'': 
     break;
 } };
 

@@ -128,7 +128,7 @@
 ```javascript
 
 '\'use strict\'';
-function* a() { yield 2e308; }
+function * a() { yield  2e308; }
 
 ```
 

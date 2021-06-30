@@ -167,7 +167,7 @@
 
 ```javascript
 
-({ async * gen() { yield, yield; } });
+({ async * gen() { yield , yield ; } });
 
 ```
 

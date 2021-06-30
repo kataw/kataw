@@ -195,7 +195,7 @@ function * gen() { function not_gen() { class C extends yield { } }}
 
 ```javascript
 
-function* gen() { function not_gen() { class C extends yield {
+function * gen() { function not_gen() { class C extends yield {
 } } }
 
 ```

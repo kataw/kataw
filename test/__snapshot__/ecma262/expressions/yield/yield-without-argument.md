@@ -304,16 +304,16 @@ function* f() {
 
 ```javascript
 
-function* f() {
-  (yield);
-  [yield,];
+function * f() {
+  (yield );
+  [yield ,];
   {
-    yield;
+    yield ;
   }
   ;
-  yield;
-  true ? yield : 1;
-  yield, 1;
+  yield ;
+  true ? yield  : 1;
+  yield , 1;
 }
 
 ```

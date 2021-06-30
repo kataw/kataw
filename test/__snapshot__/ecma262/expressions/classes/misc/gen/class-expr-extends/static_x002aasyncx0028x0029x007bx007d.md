@@ -161,7 +161,7 @@
 ```javascript
 
 (class  extends Base {
-  static *async() { }
+  static * async() { }
 });
 
 ```

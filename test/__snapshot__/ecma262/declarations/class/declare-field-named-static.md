@@ -104,7 +104,7 @@ class A {
 ```javascript
 
 class A {
-  declarestatic
+  declare static
 }
 
 ```

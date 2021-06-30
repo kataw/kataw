@@ -130,7 +130,7 @@ function *g() { [...yield]; }
 
 ```javascript
 
-function* g() { [...yield]; }
+function * g() { [...yield ]; }
 
 ```
 

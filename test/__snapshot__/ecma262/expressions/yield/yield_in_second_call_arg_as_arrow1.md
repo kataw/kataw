@@ -210,7 +210,7 @@ function *g() { (x = x + foo(a, yield y)) => x; }
 
 ```javascript
 
-function* g() { (x = x + foo(a, yield y)) => x; }
+function * g() { (x = x + foo(a, yield  y)) => x; }
 
 ```
 

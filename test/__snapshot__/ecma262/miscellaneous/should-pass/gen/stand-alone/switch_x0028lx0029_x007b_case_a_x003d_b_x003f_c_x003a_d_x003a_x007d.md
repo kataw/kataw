@@ -147,7 +147,7 @@ switch (l) { case a = b ? c : d : }
 ```javascript
 
 switch (l) {
-  case a = b ? c : d:
+  case a = b ? c : d: 
 }
 
 ```

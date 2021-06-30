@@ -126,7 +126,7 @@ function *f(){
 
 ```javascript
 
-function* f() {
+function * f() {
   p\u0072otected = x;
 }
 

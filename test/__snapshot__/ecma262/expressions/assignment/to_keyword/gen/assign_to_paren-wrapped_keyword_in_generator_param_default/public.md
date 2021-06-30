@@ -141,7 +141,7 @@ function *f(x = (public) = f) {}
 
 ```javascript
 
-function* f(x = (public) = f) { }
+function * f(x = (public) = f) { }
 
 ```
 

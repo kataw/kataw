@@ -144,7 +144,7 @@
 
 ```javascript
 
-({ async * gen() { yield;/* comment */ } });
+({ async * gen() { yield ;/* comment */ } });
 
 ```
 

@@ -132,7 +132,7 @@ class A {
 
 class A {
   @dec
-  declarefoo
+  declare foo
 }
 
 ```

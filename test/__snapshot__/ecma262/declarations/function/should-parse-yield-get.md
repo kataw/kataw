@@ -181,8 +181,8 @@ function get() {}
 ```javascript
 
 function get() { }
-function* getData() {
-  return yield get();
+function * getData() {
+  return yield  get();
 }
 
 ```

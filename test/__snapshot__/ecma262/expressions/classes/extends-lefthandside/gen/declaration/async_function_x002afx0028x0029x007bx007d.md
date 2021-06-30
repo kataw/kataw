@@ -142,7 +142,7 @@ class A extends async function *f(){} {}
 
 ```javascript
 
-class A extends async function* f() { } {
+class A extends async function * f() { } {
 }
 
 ```

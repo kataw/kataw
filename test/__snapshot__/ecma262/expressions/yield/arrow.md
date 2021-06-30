@@ -276,10 +276,10 @@ function *f() {
 
 ```javascript
 
-function* f() {
-  (yield a => a);
-  (yield async a => a);
-  (yield async (a) => a);
+function * f() {
+  (yield  a => a);
+  (yield  async a => a);
+  (yield  async (a) => a);
 }
 
 ```

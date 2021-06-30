@@ -225,7 +225,7 @@
 
 ```javascript
 
-({ async * gen() { x = class  extends (null, yield) {
+({ async * gen() { x = class  extends (null, yield ) {
   }; } });
 
 ```

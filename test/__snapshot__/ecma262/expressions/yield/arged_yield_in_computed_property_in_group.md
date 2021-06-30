@@ -183,7 +183,7 @@ function *g(){ async (x = {[yield y]: 1}) }
 
 ```javascript
 
-function* g() { async(x = { [yield y] : 1 }) }
+function * g() { async(x = { [yield  y] : 1 }) }
 
 ```
 

@@ -141,7 +141,7 @@ function *f(x = (arguments) = f) {}
 
 ```javascript
 
-function* f(x = (arguments) = f) { }
+function * f(x = (arguments) = f) { }
 
 ```
 

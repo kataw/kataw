@@ -127,7 +127,7 @@ function *f(){  async (await) => x  }
 
 ```javascript
 
-function* f() { async (await) => x }
+function * f() { async (await) => x }
 
 ```
 

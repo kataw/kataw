@@ -5641,7 +5641,7 @@ switch (x) {
 }
 ;
 switch (x) {
-  case 42:
+  case 42: 
     y();
     break;
   default: 
@@ -5649,7 +5649,7 @@ switch (x) {
 }
 ;
 switch (answer) {
-  case 42:
+  case 42: 
     let t = 42;
     break;
 }
@@ -5686,7 +5686,7 @@ switch (x / b[(c)]) {
 ;
 switch (x) {
   case foo: 
-    function* f() { }
+    function * f() { }
 }
 ;
 switch (x) {
@@ -5774,15 +5774,15 @@ switch (x / b(c)) {
 }
 ;
 switch (x) {
-  case c:
+  case c: 
     function f() { }
     function f() { }
 }
 ;
 switch (x) {
-  case c:
-    async function* f() { }
-    async function* f() { }
+  case c: 
+    async function * f() { }
+    async function * f() { }
 }
 ;
 switch (0) {
@@ -5800,17 +5800,17 @@ switch (0) {
 ;
 switch (x) {
   case x: 
-    function* f() { }
+    function * f() { }
 }
 ;
 switch (x) {
   case x: 
-    function* f() { }
+    function * f() { }
 }
 ;
 '"use strict"';
 switch (x) {
-  case 1:
+  case 1: 
   default: 
     class C {
     }
@@ -5821,8 +5821,8 @@ switch (x) {
 /foo/;
 '"use strict"';
 switch (x) {
-  case 1:
-  default:
+  case 1: 
+  default: 
     function f() { }
     ;
     class C {
@@ -5831,8 +5831,8 @@ switch (x) {
 ;
 '"use strict"';
 switch (x) {
-  case 1:
-  default:
+  case 1: 
+  default: 
     class C {
     }
     ;
@@ -5841,7 +5841,7 @@ switch (x) {
 ;
 '"use strict"';
 switch (x) {
-  case 1:
+  case 1: 
   default: 
     class C extends Q {
     }
@@ -5849,8 +5849,8 @@ switch (x) {
 ;
 '"use strict"';
 switch (x) {
-  case 1:
-  default:
+  case 1: 
+  default: 
     function f() { }
     class C {
     }
@@ -5858,14 +5858,14 @@ switch (x) {
 ;
 '"use strict"';
 switch (x) {
-  case 1:
+  case 1: 
   default: 
     class C {
     }
 }
 ;
 switch (a) {
-  case 1:
+  case 1: 
 }
 ;
 switch (a) {

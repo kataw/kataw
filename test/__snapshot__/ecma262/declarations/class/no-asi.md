@@ -148,7 +148,7 @@ class C { static
 
 class C {
   static
-  *#aaa() { }
+  * #aaa() { }
 }
 
 ```

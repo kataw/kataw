@@ -168,7 +168,7 @@ class C {
 
 class C {
   set
-  *aaa() { }
+  * aaa() { }
 }
 
 ```

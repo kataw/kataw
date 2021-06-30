@@ -200,7 +200,7 @@
 
 ```javascript
 
-({ async * gen() { (yield) ? yield : yield; } });
+({ async * gen() { (yield ) ? yield  : yield ; } });
 
 ```
 

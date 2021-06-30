@@ -137,7 +137,7 @@ class x {static * eval(){}}
 ```javascript
 
 class x {
-  static *eval() { }
+  static * eval() { }
 }
 
 ```

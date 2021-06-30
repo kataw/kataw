@@ -141,7 +141,7 @@ function *f(x = (private) = f) {}
 
 ```javascript
 
-function* f(x = (private) = f) { }
+function * f(x = (private) = f) { }
 
 ```
 

@@ -10458,13 +10458,13 @@ class x {
   set #a(foo) { }
 });
 (class  {
-  *#a() { }
+  * #a() { }
 });
 (class  {
   async #a() { }
 });
 (class  {
-  async *#a() { }
+  async * #a() { }
 });
 (class  {
   #a() { }
@@ -10526,7 +10526,7 @@ class x {
 });
 (class  {
   #a() { }
-  async *#b() { }
+  async * #b() { }
 });
 (class  {
   #get() { }
@@ -10607,46 +10607,46 @@ class x {
   async #arguments() { }
 });
 (class  {
-  *#async() { }
+  * #async() { }
 });
 (class  {
-  *#await() { }
+  * #await() { }
 });
 (class  {
-  *#yield() { }
+  * #yield() { }
 });
 (class  {
-  *#get() { }
+  * #get() { }
 });
 (class  {
-  *#set() { }
+  * #set() { }
 });
 (class  {
-  *#static() { }
+  * #static() { }
 });
 (class  {
-  *#arguments() { }
+  * #arguments() { }
 });
 (class  {
-  async *#yield() { }
+  async * #yield() { }
 });
 (class  {
-  async *#async() { }
+  async * #async() { }
 });
 (class  {
-  async *#await() { }
+  async * #await() { }
 });
 (class  {
-  async *#get() { }
+  async * #get() { }
 });
 (class  {
-  async *#set() { }
+  async * #set() { }
 });
 (class  {
-  async *#static() { }
+  async * #static() { }
 });
 (class  {
-  async *#arguments() { }
+  async * #arguments() { }
 });
 (class  {
   #b
@@ -10666,7 +10666,7 @@ class x {
 (class  {
   #b
   ;
-  *#a() { }
+  * #a() { }
 });
 (class  {
   #b
@@ -10676,7 +10676,7 @@ class x {
 (class  {
   #b
   ;
-  async *#a() { }
+  async * #a() { }
 });
 (class  {
   #b = 1
@@ -10696,7 +10696,7 @@ class x {
 (class  {
   #b = 1
   ;
-  *#a() { }
+  * #a() { }
 });
 (class  {
   #b = 1
@@ -10706,7 +10706,7 @@ class x {
 (class  {
   #b = 1
   ;
-  async *#a() { }
+  async * #a() { }
 });
 (class  {
   a
@@ -10726,7 +10726,7 @@ class x {
 (class  {
   a
   ;
-  *#a() { }
+  * #a() { }
 });
 (class  {
   a
@@ -10736,7 +10736,7 @@ class x {
 (class  {
   a
   ;
-  async *#a() { }
+  async * #a() { }
 });
 (class  {
   a = 1
@@ -10756,7 +10756,7 @@ class x {
 (class  {
   a = 1
   ;
-  *#a() { }
+  * #a() { }
 });
 (class  {
   a = 1
@@ -10766,7 +10766,7 @@ class x {
 (class  {
   a = 1
   ;
-  async *#a() { }
+  async * #a() { }
 });
 
 ```

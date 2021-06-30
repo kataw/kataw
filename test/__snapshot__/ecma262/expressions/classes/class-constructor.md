@@ -602,7 +602,7 @@
   static set constructor(_) { }
 });
 (class C {
-  static *constructor() { }
+  static * constructor() { }
 });
 
 ```

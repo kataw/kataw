@@ -153,7 +153,7 @@ function *f(){   s = {"foo": yield}   }
 
 ```javascript
 
-function* f() { s = { '"foo"' : yield }; }
+function * f() { s = { '"foo"' : yield  }; }
 
 ```
 

@@ -4640,7 +4640,7 @@ class x {
 (class C {
   static a = 0
   ;
-  *b() { }
+  * b() { }
 });
 (class C {
   static a = 0
@@ -4665,7 +4665,7 @@ class x {
 (class C {
   static a
   ;
-  *b() { }
+  * b() { }
 });
 (class C {
   static a
@@ -4689,7 +4689,7 @@ class x {
 (class C {
   static ['\'a\''] = 0
   ;
-  *b() { }
+  * b() { }
 });
 (class C {
   static ['\'a\''] = 0
@@ -4714,7 +4714,7 @@ class x {
 (class C {
   static ['\'a\'']
   ;
-  *b() { }
+  * b() { }
 });
 (class C {
   static ['\'a\'']

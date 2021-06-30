@@ -163,7 +163,7 @@ function *g() { async (x = yield) => {}; }
 
 ```javascript
 
-function* g() { async (x = yield) =>  { } ; }
+function * g() { async (x = yield ) =>  { } ; }
 
 ```
 

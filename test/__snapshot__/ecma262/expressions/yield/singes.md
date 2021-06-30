@@ -143,7 +143,7 @@ function *g() { yield {...(x),}}
 
 ```javascript
 
-function* g() { yield { ...(x) }; }
+function * g() { yield  { ...(x) }; }
 
 ```
 

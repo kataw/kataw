@@ -133,7 +133,7 @@ function* f(){ call(yield x); }
 
 ```javascript
 
-function* f() { call(yield x); }
+function * f() { call(yield  x); }
 
 ```
 

@@ -1230,7 +1230,7 @@ class Two {
   ['\'prototype\'']() { }
 }
 class Three {
-  *['\'prototype\'']() { }
+  * ['\'prototype\'']() { }
 }
 class Four {
   get ['\'prototype\'']() { }
@@ -1248,7 +1248,7 @@ class Eigth {
   static ['\'prototype\'']() { }
 }
 class Nine {
-  static *['\'prototype\'']() { }
+  static * ['\'prototype\'']() { }
 }
 class Ten {
   static get ['\'prototype\'']() { }

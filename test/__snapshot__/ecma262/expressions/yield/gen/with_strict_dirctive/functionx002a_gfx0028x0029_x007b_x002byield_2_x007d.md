@@ -140,7 +140,7 @@
 ```javascript
 
 '\'use strict\'';
-function* gf() { + yield 2; }
+function * gf() { + yield  2; }
 
 ```
 

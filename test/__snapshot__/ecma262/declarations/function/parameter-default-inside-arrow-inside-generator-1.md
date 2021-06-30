@@ -160,8 +160,8 @@ function* fn() {
 
 ```javascript
 
-function* fn() {
-  (x = yield) =>  { };
+function * fn() {
+  (x = yield ) =>  { };
 }
 
 ```

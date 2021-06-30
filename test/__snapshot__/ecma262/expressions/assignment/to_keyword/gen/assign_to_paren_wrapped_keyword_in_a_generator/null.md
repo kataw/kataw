@@ -130,7 +130,7 @@ function *f(){
 
 ```javascript
 
-function* f() {
+function * f() {
   (null) = 1;
 }
 

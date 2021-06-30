@@ -231,7 +231,7 @@ function * gen() { function not_gen() { function *g() { yield void x } }}
 
 ```javascript
 
-function* gen() { function not_gen() { function* g() { yield void  x; } } }
+function * gen() { function not_gen() { function * g() { yield  void  x; } } }
 
 ```
 

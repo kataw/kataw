@@ -177,7 +177,7 @@ function *f(){ async (x = z = yield) => {} }
 
 ```javascript
 
-function* f() { async (x = z = yield) =>  { } }
+function * f() { async (x = z = yield ) =>  { } }
 
 ```
 

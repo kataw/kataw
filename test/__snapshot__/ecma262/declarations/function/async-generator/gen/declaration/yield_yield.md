@@ -140,7 +140,7 @@ async function * gen() {yield, yield}
 
 ```javascript
 
-async function* gen() { yield, yield; }
+async function * gen() { yield , yield ; }
 
 ```
 

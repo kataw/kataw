@@ -180,9 +180,9 @@ function *f(){ ({x} = yield x) => {} }
 
 ```javascript
 
-function* f() { ({
+function * f() { ({
     x
-  } = yield x) =>  { }; }
+  } = yield  x) =>  { }; }
 
 ```
 

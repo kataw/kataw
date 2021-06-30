@@ -155,7 +155,7 @@
 ```javascript
 
 '\'use strict\'';
-function* g() { x ? yield : y; }
+function * g() { x ? yield  : y; }
 
 ```
 

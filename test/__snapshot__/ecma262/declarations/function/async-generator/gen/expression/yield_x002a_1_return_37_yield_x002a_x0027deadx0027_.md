@@ -209,7 +209,7 @@
 
 ```javascript
 
-({ async * gen() { yield* 1; return 37; yield* '\'dead\''; } });
+({ async * gen() { yield *  1; return 37; yield *  '\'dead\''; } });
 
 ```
 

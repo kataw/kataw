@@ -142,7 +142,7 @@ class x {static async * interface(){}}
 ```javascript
 
 class x {
-  static async *interface() { }
+  static async * interface() { }
 }
 
 ```

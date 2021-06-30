@@ -148,7 +148,7 @@ function *P(){
 
 ```javascript
 
-function* P() {
+function * P() {
   class D extends /more crap/g {
   }
 }
