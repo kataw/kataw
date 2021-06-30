@@ -114,7 +114,8 @@
 
 ```javascript
 
-() =>  x;
+(x, y: string) => x;
+
 ```
 
 ### Diagnostics

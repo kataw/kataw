@@ -225,7 +225,9 @@
 
 ```javascript
 
-var f = async  =>  {};
+'\'use strict\'';
+var f = async (x = function () { let await = 0; }) =>  { };
+
 ```
 
 ### Diagnostics

@@ -414,14 +414,16 @@ class C<T> {
 
 ```javascript
 
-class A {}
-class C {
-  data;
-
-  get x() {
-    return  this.data;
+class A<T> {
+}
+class C<T> {
+  data: A<T>
+  ;
+  get x(): A<T> {
+    return this.data;
   }
 }
+
 ```
 
 ### Diagnostics

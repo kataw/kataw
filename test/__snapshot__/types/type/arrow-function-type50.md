@@ -170,6 +170,7 @@ type a = (a[-1]) => T;
 
 ```javascript
 
+type a = (a[-1]) => T
 
 ```
 

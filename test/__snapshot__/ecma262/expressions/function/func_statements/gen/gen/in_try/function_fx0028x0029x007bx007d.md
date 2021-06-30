@@ -149,9 +149,11 @@ try {
 ```javascript
 
 try {
-  function f() {}
-} catch (e) {
+  function f() { }
 }
+catch (e){
+}
+
 ```
 
 ### Diagnostics

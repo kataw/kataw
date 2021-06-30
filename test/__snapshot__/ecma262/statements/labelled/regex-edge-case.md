@@ -64,6 +64,7 @@ foo:
 ```javascript
 
 foo: /bar/;
+
 ```
 
 ### Diagnostics

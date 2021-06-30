@@ -183,9 +183,10 @@ function a<string>(x: string): string {
 
 ```javascript
 
-function  <string >a(): string {
-  return  x;
+function a<string> (x: string): string {
+  return x;
 }
+
 ```
 
 ### Diagnostics

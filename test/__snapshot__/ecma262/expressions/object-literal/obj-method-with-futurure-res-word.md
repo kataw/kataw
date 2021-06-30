@@ -203,8 +203,9 @@
 
 ```javascript
 
-({ * method() {} });
-({ method() {} });
+({ * method(public) { } });
+({ method(protected) { } });
+
 ```
 
 ### Diagnostics

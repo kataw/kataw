@@ -1224,41 +1224,42 @@ class Twelve { static async ['prototype']() {} }
 ```javascript
 
 class One {
-  ["'prototype'"] = 0;
+  ['\'prototype\''] = 0
 }
 class Two {
-  ["'prototype'"]() {}
+  ['\'prototype\'']() { }
 }
 class Three {
-  ["'prototype'"]() {}
+  *['\'prototype\'']() { }
 }
 class Four {
-  get ["'prototype'"]() {}
+  get ['\'prototype\'']() { }
 }
 class Five {
-  set ["'prototype'"]() {}
+  set ['\'prototype\''](x) { }
 }
 class Six {
-  async ["'prototype'"]() {}
+  async ['\'prototype\'']() { }
 }
 class Seven {
-  ["'prototype'"] = 0;
+  static ['\'prototype\''] = 0
 }
 class Eigth {
-  static static ["'prototype'"]() {}
+  static ['\'prototype\'']() { }
 }
 class Nine {
-  static static ["'prototype'"]() {}
+  static *['\'prototype\'']() { }
 }
 class Ten {
-  static get static ["'prototype'"]() {}
+  static get ['\'prototype\'']() { }
 }
 class Eleven {
-  static set static ["'prototype'"]() {}
+  static set ['\'prototype\''](x) { }
 }
 class Twelve {
-  async static static ["'prototype'"]() {}
+  static async ['\'prototype\'']() { }
 }
+
 ```
 
 ### Diagnostics

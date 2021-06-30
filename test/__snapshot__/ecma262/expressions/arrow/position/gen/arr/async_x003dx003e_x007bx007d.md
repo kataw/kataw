@@ -95,7 +95,8 @@
 
 ```javascript
 
-[async =>  {}];
+[async =>  { },];
+
 ```
 
 ### Diagnostics

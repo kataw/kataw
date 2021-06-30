@@ -563,24 +563,12 @@ if (VeryVeryVeryVeryVeryVeryVeryVeryLong === VeryVeryVeryVeryVeryVeryVeryVeryLon
 
 ```javascript
 
-if (this.hasPlugin("\"dynamicImports\"") && this.lookahead().type) {
-  }
-if (
-  this.hasPlugin("\"dynamicImports\"") && this.lookahead().type === tt.parenLeft
-)
-  {
-  }
-if (
-  this.hasPlugin("\"dynamicImports\"") &&
-    this.lookahead().type === tt.parenLeft.right
-)
-  {
-  }
-if (
-  VeryVeryVeryVeryVeryVeryVeryVeryLong === VeryVeryVeryVeryVeryVeryVeryVeryLong
-)
-  {
-  }
+if (this.hasPlugin("\"dynamicImports\"") && this.lookahead().type) { }
+if (this.hasPlugin("\"dynamicImports\"") && this.lookahead().type === tt.parenLeft) { }
+if (this.hasPlugin("\"dynamicImports\"") && this.lookahead().type === tt.parenLeft.right) { }
+if (VeryVeryVeryVeryVeryVeryVeryVeryLong === VeryVeryVeryVeryVeryVeryVeryVeryLong) {
+}
+
 ```
 
 ### Diagnostics

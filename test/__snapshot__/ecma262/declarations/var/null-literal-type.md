@@ -88,6 +88,7 @@ var foo: null;
 ```javascript
 
 var foo: null;
+
 ```
 
 ### Diagnostics

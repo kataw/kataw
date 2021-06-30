@@ -112,7 +112,9 @@ class C extends (
 
 ```javascript
 
-class C  {}
+class C extends (a, c) {
+}
+
 ```
 
 ### Diagnostics

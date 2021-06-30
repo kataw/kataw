@@ -119,8 +119,9 @@ var _𐒦 = 10;
 
 ```javascript
 
-var 𫠝_ = 10;
+var  𫠝_ = 10;
 var _𐒦 = 10;
+
 ```
 
 ### Diagnostics

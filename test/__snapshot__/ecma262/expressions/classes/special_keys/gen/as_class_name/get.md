@@ -74,7 +74,9 @@ class get {}
 
 ```javascript
 
-class get {}
+class get {
+}
+
 ```
 
 ### Diagnostics

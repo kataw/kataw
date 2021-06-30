@@ -70,6 +70,7 @@ x = 0b1_01_0
 ```javascript
 
 x = 0b1_01_0;
+
 ```
 
 ### Diagnostics

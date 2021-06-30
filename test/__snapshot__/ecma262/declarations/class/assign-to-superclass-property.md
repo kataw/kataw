@@ -248,12 +248,13 @@ class B extends A {
 
 ```javascript
 
-class B  {
+class B extends A {
   constructor() {
-    ();
+    super();
     this.initializer = this.initializer + 1;
   }
 }
+
 ```
 
 ### Diagnostics

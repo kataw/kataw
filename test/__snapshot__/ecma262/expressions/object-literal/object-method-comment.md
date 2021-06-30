@@ -167,9 +167,12 @@ function foo() {
 ```javascript
 
 function foo() {
-  return  { // this comment causes the problem
-    bar: baz() + 1 };
+  return {
+     // this comment causes the problem
+    bar : baz() + 1
+  };
 }
+
 ```
 
 ### Diagnostics

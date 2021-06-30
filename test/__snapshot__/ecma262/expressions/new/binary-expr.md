@@ -108,7 +108,8 @@ new x<number>(y)
 
 ```javascript
 
-new  x()  < number > (y);
+new x  < number > (y);
+
 ```
 
 ### Diagnostics

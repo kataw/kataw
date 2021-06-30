@@ -107,8 +107,9 @@ let {x,} = obj;
 ```javascript
 
 let {
-  x
+  x,
 } = obj;
+
 ```
 
 ### Diagnostics

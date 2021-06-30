@@ -121,7 +121,8 @@
 
 ```javascript
 
-`X${async a =>  b + {}}Y`;
+`X${async a => b + {}}Y`;
+
 ```
 
 ### Diagnostics

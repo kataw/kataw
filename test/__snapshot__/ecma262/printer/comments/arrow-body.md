@@ -142,11 +142,12 @@ const test = () => {
 ```javascript
 
 const test = () =>  {
-  /**
+   /**
      * Multiline comment
      **/
-  return  bar();
+  return bar();
 };
+
 ```
 
 ### Diagnostics

@@ -49,7 +49,8 @@ throw foo
 
 ```javascript
 
-throw  foo;
+throw foo;
+
 ```
 
 ### Diagnostics

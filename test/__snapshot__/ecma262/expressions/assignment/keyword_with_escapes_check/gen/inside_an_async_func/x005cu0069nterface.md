@@ -114,9 +114,8 @@ async () => {  \u0069nterface = x  }
 
 ```javascript
 
-async  =>  {
-  interface = x;
-}
+async () =>  { \u0069nterface = x; }
+
 ```
 
 ### Diagnostics

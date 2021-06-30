@@ -133,9 +133,8 @@ function f(x) { function x() {} }
 
 ```javascript
 
-function f() {
-  function x() {}
-}
+function f(x) { function x() { } }
+
 ```
 
 ### Diagnostics

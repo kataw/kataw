@@ -189,9 +189,9 @@ async function * gen() {x = class extends (await 10) {}}
 
 ```javascript
 
-async function * gen() {
-  x = class   {};
-}
+async function* gen() { x = class  extends (await 10) {
+}; }
+
 ```
 
 ### Diagnostics

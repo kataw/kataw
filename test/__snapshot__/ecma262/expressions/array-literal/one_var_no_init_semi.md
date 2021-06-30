@@ -97,7 +97,8 @@
 
 ```javascript
 
-[foo] = arr;
+[foo,] = arr;
+
 ```
 
 ### Diagnostics

@@ -277,9 +277,10 @@ function d(x: { (): string; (x: number): string }): () => string {
 
 ```javascript
 
-function d():  {
-  return  x;
+function d(x: { (): string, (x: number): string }): () => string {
+  return x;
 }
+
 ```
 
 ### Diagnostics

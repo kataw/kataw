@@ -131,7 +131,10 @@ function f(argument1, {eval: x}) {}
 
 ```javascript
 
-function f() {}
+function f(argument1, {
+    eval: x
+  }) { }
+
 ```
 
 ### Diagnostics

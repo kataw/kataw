@@ -136,6 +136,7 @@ var {
   x,
   y = z
 } = obj;
+
 ```
 
 ### Diagnostics

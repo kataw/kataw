@@ -171,10 +171,8 @@ function g() {  function f(){} function f(){} }
 
 ```javascript
 
-function g() {
-  function f() {}
-  function f() {}
-}
+function g() { function f() { } function f() { } }
+
 ```
 
 ### Diagnostics

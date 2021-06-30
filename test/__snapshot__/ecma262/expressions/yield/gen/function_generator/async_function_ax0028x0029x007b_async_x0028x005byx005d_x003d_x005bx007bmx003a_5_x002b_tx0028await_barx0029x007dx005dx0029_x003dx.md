@@ -374,13 +374,8 @@ function * gen() { function not_gen() { async function a(){     async ([y] = [{m
 
 ```javascript
 
-function * gen() {
-  function not_gen() {
-    async function a() {
-      async  =>  {}
-    }
-  }
-}
+function* gen() { function not_gen() { async function a() { async ([y] = [{ m : 5 + t(await bar) },]) =>  { } } } }
+
 ```
 
 ### Diagnostics

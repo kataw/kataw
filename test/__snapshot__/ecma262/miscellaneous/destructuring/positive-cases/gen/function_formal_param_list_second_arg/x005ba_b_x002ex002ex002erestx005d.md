@@ -147,7 +147,8 @@ function f(argument1, [a,b,...rest]) {}
 
 ```javascript
 
-function f() {}
+function f(argument1, [a, b, ...rest]) { }
+
 ```
 
 ### Diagnostics

@@ -130,7 +130,8 @@
 
 ```javascript
 
-() =>  {};
+(x = (false) = f) =>  { };
+
 ```
 
 ### Diagnostics

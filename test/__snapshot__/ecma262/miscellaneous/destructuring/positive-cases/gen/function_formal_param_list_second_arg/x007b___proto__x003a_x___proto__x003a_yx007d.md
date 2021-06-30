@@ -154,7 +154,11 @@ function f(argument1, { __proto__: x, __proto__: y}) {}
 
 ```javascript
 
-function f() {}
+function f(argument1, {
+    __proto__: x,
+    __proto__: y
+  }) { }
+
 ```
 
 ### Diagnostics

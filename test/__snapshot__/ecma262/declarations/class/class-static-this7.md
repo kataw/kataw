@@ -188,10 +188,11 @@ x = class { static x = class { [this.y] } }
 ```javascript
 
 x = class  {
-  x = class  {
-      [this.y];
-    };
+  static x = class  {
+    [this.y]
+  }
 };
+
 ```
 
 ### Diagnostics

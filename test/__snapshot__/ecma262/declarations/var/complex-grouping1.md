@@ -211,9 +211,8 @@ var a: (number: number) => number = (number) => { return 123; }
 
 ```javascript
 
-var a:  = () =>  {
-  return  123;
-};
+var a: (number: number) => number = (number) =>  { return 123; };
+
 ```
 
 ### Diagnostics

@@ -89,7 +89,8 @@ declare function foo(): void
 
 ```javascript
 
-function foo(): void;
+declare function foo(): void
+
 ```
 
 ### Diagnostics

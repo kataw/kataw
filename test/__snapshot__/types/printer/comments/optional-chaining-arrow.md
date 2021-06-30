@@ -223,8 +223,10 @@ const test = (names: string[]) =>
 
 ```javascript
 
-const test = () =>  // single-line comment
-  ;
+const test = (names: string[]) => 
+ // single-line comment
+names?.filter(x => x);
+
 ```
 
 ### Diagnostics

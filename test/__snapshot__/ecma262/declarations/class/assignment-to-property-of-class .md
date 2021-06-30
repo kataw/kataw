@@ -308,15 +308,16 @@ c.m = n => n * 3;
 ```javascript
 
 class C {
-  /**
+   /**
      * @param {number} n
      * @return {number}
      */
-  m = n =>  n * 2;
-
+  m = n => n * 2
+  ;
 }
-const c = new  C();
-c.m = n =>  n * 3;
+const c = new C();
+c.m = n => n * 3;
+
 ```
 
 ### Diagnostics

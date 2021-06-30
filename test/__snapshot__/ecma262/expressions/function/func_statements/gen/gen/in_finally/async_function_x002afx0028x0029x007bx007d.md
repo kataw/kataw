@@ -144,9 +144,11 @@ try {
 ```javascript
 
 try {
-} try{
-  async function * f() {}
 }
+finally {
+  async function* f() { }
+}
+
 ```
 
 ### Diagnostics

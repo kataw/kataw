@@ -148,7 +148,9 @@
 
 ```javascript
 
-var asyncArrow = async  =>  {};
+'\'use strict\'';
+var asyncArrow = async (...await) =>  { };
+
 ```
 
 ### Diagnostics

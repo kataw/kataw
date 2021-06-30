@@ -398,11 +398,8 @@ var await; var f = (async function() { async function a(){     async ([y] = [{m:
 ```javascript
 
 var await;
-var f = (async function () {
-    async function a() {
-      async  =>  {}
-    }
-  });
+var f = (async function () { async function a() { async ([y] = [{ m : 5 + t(await bar) },]) =>  { } } });
+
 ```
 
 ### Diagnostics

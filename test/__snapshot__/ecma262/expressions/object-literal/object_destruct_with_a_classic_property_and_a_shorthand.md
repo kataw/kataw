@@ -121,7 +121,8 @@ x = {a:b, c} = obj;
 
 ```javascript
 
-x = { a: b, c } = obj;
+x = { a : b, c } = obj;
+
 ```
 
 ### Diagnostics

@@ -108,7 +108,8 @@ new C<T>(e)
 
 ```javascript
 
-new  C()  < T > (e);
+new C  < T > (e);
+
 ```
 
 ### Diagnostics

@@ -86,6 +86,7 @@ foo: for (;;) break foo
 
 foo: for (;;)
   break foo;
+
 ```
 
 ### Diagnostics

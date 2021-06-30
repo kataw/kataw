@@ -127,8 +127,9 @@ class x {protected(){}}
 ```javascript
 
 class x {
-  protected() {}
+  protected() { }
 }
+
 ```
 
 ### Diagnostics

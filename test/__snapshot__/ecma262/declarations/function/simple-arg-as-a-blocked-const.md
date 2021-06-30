@@ -143,11 +143,10 @@ function f(x) { { const x = y } }
 
 ```javascript
 
-function f() {
-  {
-    const x = y;
-  }
-}
+function f(x) { {
+  const x = y;
+} }
+
 ```
 
 ### Diagnostics

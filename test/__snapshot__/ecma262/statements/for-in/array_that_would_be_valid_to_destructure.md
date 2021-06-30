@@ -103,7 +103,9 @@ for ([x] in obj);
 
 ```javascript
 
-for ([x] in obj);
+for ([x,] in obj)
+  ;
+
 ```
 
 ### Diagnostics

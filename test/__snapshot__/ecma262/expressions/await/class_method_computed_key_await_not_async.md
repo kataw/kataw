@@ -241,7 +241,12 @@
 
 ```javascript
 
-() =>  {};
+(fail = class A {
+    [await]() { }
+    ;
+    "\"x\""() { }
+  }) =>  { };
+
 ```
 
 ### Diagnostics

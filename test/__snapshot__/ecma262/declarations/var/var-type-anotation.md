@@ -123,7 +123,8 @@ var foo = ((): number => bar);
 
 ```javascript
 
-var foo = (() =>  bar);
+var foo = (() => bar);
+
 ```
 
 ### Diagnostics

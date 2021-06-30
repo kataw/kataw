@@ -151,9 +151,10 @@ class C extends Base { async async(){} }
 
 ```javascript
 
-class C  {
-  async async() {}
+class C extends Base {
+  async async() { }
 }
+
 ```
 
 ### Diagnostics

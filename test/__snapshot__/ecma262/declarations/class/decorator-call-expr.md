@@ -181,8 +181,9 @@ class C2 {
 
 @a(b)
 class C2 {
-  method() {}
+  method() { }
 }
+
 ```
 
 ### Diagnostics

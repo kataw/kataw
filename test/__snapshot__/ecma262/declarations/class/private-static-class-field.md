@@ -113,8 +113,9 @@ class C { static #aaa }
 ```javascript
 
 class C {
-  #aaa;
+  static #aaa
 }
+
 ```
 
 ### Diagnostics

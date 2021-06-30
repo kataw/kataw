@@ -143,10 +143,11 @@ switch (x) {
 
 ```javascript
 
-switch(x) {
-  case foo:
-    function f() {}
+switch (x) {
+  case foo: 
+    function f() { }
 }
+
 ```
 
 ### Diagnostics

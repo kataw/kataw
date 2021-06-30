@@ -138,7 +138,8 @@ function arrayRestWithNestedRest(...[...r]) {}
 
 ```javascript
 
-function arrayRestWithNestedRest() {}
+function arrayRestWithNestedRest(...[...r]) { }
+
 ```
 
 ### Diagnostics

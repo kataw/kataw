@@ -174,8 +174,10 @@ class Foo {
 
 class Foo {
   @bar[bizz]
-  abc() {}
+  abc() {
+  }
 }
+
 ```
 
 ### Diagnostics

@@ -2637,38 +2637,71 @@ async(a, [q].z = y);
 ```javascript
 
 async((x), y)
+;
 async((x))
+;
 async((x)[y])
+;
 async((x)[y] = z)
+;
 async((x) ? b : c)
+;
 async((x) = a ? b : c)
+;
 async((x) ? b : c)
+;
 async(q, (x), y)
+;
 async(q, (x))
+;
 async(q, (x)[y])
+;
 async(q, (x)[y] = z)
+;
 async(q, (x) ? b : c)
+;
 async(q, (x) = a ? b : c)
+;
 async(q, (x) ? b : c)
+;
 async(...(x), y)
+;
 async(...(x))
+;
 async(...(x)[y])
+;
 async(...(x)[y] = z)
+;
 async(...(x) ? b : c)
+;
 async(...(x) = a ? b : c)
+;
 async(...(x) ? b : c)
-async([q] = y)
-async([q] / y)
-async([q] ** y)
-async([q](x))
-async([q] = y / z)
-async([q].z = y)
-async(a, [q] = y)
-async(a, [q] / y)
-async(a, [q] ** y)
-async(a, [q](x))
-async(a, [q] = y / z)
-async(a, [q].z = y)
+;
+async([q,] = y)
+;
+async([q,] / y)
+;
+async([q,] ** y)
+;
+async([q,](x))
+;
+async([q,] = y / z)
+;
+async([q,].z = y)
+;
+async(a, [q,] = y)
+;
+async(a, [q,] / y)
+;
+async(a, [q,] ** y)
+;
+async(a, [q,](x))
+;
+async(a, [q,] = y / z)
+;
+async(a, [q,].z = y)
+;
 
 ```
 

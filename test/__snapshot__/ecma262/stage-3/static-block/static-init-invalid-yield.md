@@ -169,11 +169,11 @@ function * g() {
 
 ```javascript
 
-function * g() {
+function* g() {
   class C {
-
   }
 }
+
 ```
 
 ### Diagnostics

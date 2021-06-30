@@ -172,9 +172,8 @@ function* gf() { var fe = function yield() { } }
 
 ```javascript
 
-function * gf() {
-  var fe = function yield() {};
-}
+function* gf() { var fe = function yield() { }; }
+
 ```
 
 ### Diagnostics

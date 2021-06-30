@@ -186,9 +186,13 @@ foo = {
 
 ```javascript
 
-foo = { get x() {
+foo = {
+  get x() {
+  "\"use strict\"";
     (await = x);
-  } };
+  }
+};
+
 ```
 
 ### Diagnostics

@@ -136,10 +136,10 @@ function f(){ do        if (x) continue   ; while(true);}
 
 ```javascript
 
-function f() {
-  do if (x) continue;
-  while (true);
-}
+function f() { do
+  if (x)
+    continue; while (true) }
+
 ```
 
 ### Diagnostics

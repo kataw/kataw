@@ -245,11 +245,15 @@ async function f(){
 ```javascript
 
 async function f() {
-  for await (yield of x);
+  for await (yield of x)
+    ;
 }
 async function f() {
-  for await (yield of x);
+"\"use strict\"";
+  for await (yield of x)
+    ;
 }
+
 ```
 
 ### Diagnostics

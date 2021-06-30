@@ -88,7 +88,8 @@
 
 ```javascript
 
-(function () {});
+(function () { });
+
 ```
 
 ### Diagnostics

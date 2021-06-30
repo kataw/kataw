@@ -132,8 +132,9 @@ class x {static enum(){}}
 ```javascript
 
 class x {
-  static static enum() {}
+  static enum() { }
 }
+
 ```
 
 ### Diagnostics

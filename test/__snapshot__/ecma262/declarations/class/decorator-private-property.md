@@ -126,8 +126,9 @@ class A {
 
 class A {
   @dec
-  #name = 0;
+  #name = 0
 }
+
 ```
 
 ### Diagnostics

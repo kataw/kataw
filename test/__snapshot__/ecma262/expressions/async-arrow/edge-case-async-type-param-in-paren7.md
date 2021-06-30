@@ -142,7 +142,8 @@
 
 ```javascript
 
-(async  =>  y);
+(async <T, U>(x) => y);
+
 ```
 
 ### Diagnostics

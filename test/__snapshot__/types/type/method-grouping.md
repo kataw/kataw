@@ -147,6 +147,7 @@ type A = {
 
 ```javascript
 
+type A = { b(): (B) }
 
 ```
 

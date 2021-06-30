@@ -95,7 +95,8 @@
 
 ```javascript
 
-[[x].length];
+[[x,].length,];
+
 ```
 
 ### Diagnostics

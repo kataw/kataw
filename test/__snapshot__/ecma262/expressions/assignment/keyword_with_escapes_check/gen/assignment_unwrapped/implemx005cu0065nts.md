@@ -71,7 +71,8 @@ implem\u0065nts = x;
 
 ```javascript
 
-implements = x;
+implem\u0065nts = x;
+
 ```
 
 ### Diagnostics

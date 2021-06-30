@@ -155,7 +155,8 @@ const foo = (foo?: bar) => {};
 
 ```javascript
 
-const foo = () =>  {};
+const foo = (foo?: bar) =>  { };
+
 ```
 
 ### Diagnostics

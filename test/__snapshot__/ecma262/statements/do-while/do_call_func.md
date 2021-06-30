@@ -123,8 +123,9 @@ do h(function(){});while(x)
 
 ```javascript
 
-do h(function () {});
-while (x);
+do
+  h(function () { }); while (x)
+
 ```
 
 ### Diagnostics

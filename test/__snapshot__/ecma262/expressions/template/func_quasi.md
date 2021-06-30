@@ -98,7 +98,8 @@
 
 ```javascript
 
-`${function () {}}`;
+`${function () { }}`;
+
 ```
 
 ### Diagnostics

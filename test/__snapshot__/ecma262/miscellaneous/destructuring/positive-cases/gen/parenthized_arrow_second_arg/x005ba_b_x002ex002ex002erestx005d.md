@@ -173,7 +173,8 @@ var f = (argument1,[a,b,...rest]) => {};
 
 ```javascript
 
-var f = () =>  {};
+var f = (argument1, [a, b, ...rest]) =>  { };
+
 ```
 
 ### Diagnostics

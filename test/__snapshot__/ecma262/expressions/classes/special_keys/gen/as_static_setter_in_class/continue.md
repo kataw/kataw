@@ -146,8 +146,9 @@ class x {static set continue(x){}}
 ```javascript
 
 class x {
-  static set static continue() {}
+  static set continue(x) { }
 }
+
 ```
 
 ### Diagnostics

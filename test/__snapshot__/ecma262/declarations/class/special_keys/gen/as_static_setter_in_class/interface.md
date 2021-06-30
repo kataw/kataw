@@ -146,8 +146,9 @@ class x {static set interface(x){}}
 ```javascript
 
 class x {
-  static set static interface() {}
+  static set interface(x) { }
 }
+
 ```
 
 ### Diagnostics

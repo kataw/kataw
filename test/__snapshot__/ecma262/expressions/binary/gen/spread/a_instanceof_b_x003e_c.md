@@ -119,6 +119,7 @@
 ```javascript
 
 [...a instanceof b > c];
+
 ```
 
 ### Diagnostics

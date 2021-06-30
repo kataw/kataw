@@ -146,8 +146,9 @@ class x {static set delete(x){}}
 ```javascript
 
 class x {
-  static set static delete() {}
+  static set delete(x) { }
 }
+
 ```
 
 ### Diagnostics

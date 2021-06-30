@@ -200,9 +200,8 @@ x = { foo(){ [a = super.foo] = c; }}
 
 ```javascript
 
-x = { foo() {
-    [a = .foo] = c;
-  } };
+x = { foo() { [a = super.foo,] = c; } };
+
 ```
 
 ### Diagnostics

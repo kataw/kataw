@@ -257,7 +257,8 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
 
 ```javascript
 
-function foo() {}
+function foo(callback: (_1: bool, ...foo: Array<number>) => number) { }
+
 ```
 
 ### Diagnostics

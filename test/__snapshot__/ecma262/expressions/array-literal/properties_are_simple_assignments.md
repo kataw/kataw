@@ -98,7 +98,8 @@
 
 ```javascript
 
-[(x.y)] = obj;
+[(x.y),] = obj;
+
 ```
 
 ### Diagnostics

@@ -211,8 +211,11 @@
 
 ```javascript
 
+'\'use strict\'';
 let x, y, z;
-for (x in [x, y, z] = {});
+for (x in [x, y, z,] = {})
+  ;
+
 ```
 
 ### Diagnostics

@@ -121,7 +121,11 @@ while (true) {
 
 ```javascript
 
-while (true) {}
+while (true) {
+  x: while (true)
+    continue x;
+}
+
 ```
 
 ### Diagnostics

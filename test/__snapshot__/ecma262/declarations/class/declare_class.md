@@ -353,8 +353,9 @@ declare class D extends C { }
 
 ```javascript
 
-declare class C TODO!
-declare class D  TODO!
+declare class C { static x: number, static foo(x: number): void, constructor(x: string): void }
+declare class D extends C {}
+
 ```
 
 ### Diagnostics

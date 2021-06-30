@@ -153,9 +153,10 @@ bar ? baz : ( (interface) => { 'use strict'; 0 } );
 
 ```javascript
 
-bar ? baz : (() =>  {
-        0;
-      });
+bar ? baz : ((interface) =>  {
+'\'use strict\'';
+ 0; });
+
 ```
 
 ### Diagnostics

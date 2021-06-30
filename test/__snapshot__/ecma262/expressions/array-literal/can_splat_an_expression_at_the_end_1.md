@@ -126,6 +126,7 @@
 ```javascript
 
 [x, y, ...z + arr];
+
 ```
 
 ### Diagnostics

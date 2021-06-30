@@ -141,8 +141,9 @@
 ```javascript
 
 (class  {
-    static static async() {}
-  });
+  static *async() { }
+});
+
 ```
 
 ### Diagnostics

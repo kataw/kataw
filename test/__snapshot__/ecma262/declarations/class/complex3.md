@@ -1545,34 +1545,35 @@ var stringArr:Array<string> = ['a','b'];
 
 class Tag {
   constructor() {
-    var a1:  = [];
-    var a2:  = a1;
+    var a1: Array<Tag | string> = [];
+    var a2: Array<Tag | string> = a1;
   }
 }
-
+type Node = Tag_ | string
 class Tag_ {
   constructor() {
-    var a1:  = [new  Tag_()];
-    var a2:  = a1;
+    var a1: Array<Node> = [new Tag_,];
+    var a2: Array<Node> = a1;
   }
 }
 class C {
-  x;
-
+  x: ?number | string
+  ;
   constructor() {
     this.x = null;
   }
 }
 class D {
-  content;
-
-  copyContent() {
+  content: string | C
+  ;
+  copyContent(content: C): string | C {
     this.content = content;
-    return  this.content;
+    return this.content;
   }
 }
-var numberAndStringArr:  = [1, 2];
-var stringArr:  = ["'a'", "'b'"];
+var numberAndStringArr: Array<number | string> = [1, 2,];
+var stringArr: Array<string> = ['\'a\'', '\'b\'',];
+
 ```
 
 ### Diagnostics

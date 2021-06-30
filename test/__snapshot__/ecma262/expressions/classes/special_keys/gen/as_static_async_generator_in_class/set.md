@@ -142,8 +142,9 @@ class x {static async * set(){}}
 ```javascript
 
 class x {
-  async static static set() {}
+  static async *set() { }
 }
+
 ```
 
 ### Diagnostics

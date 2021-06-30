@@ -44,6 +44,7 @@
 ```javascript
 
 "\"use\x20strict\"";
+
 ```
 
 ### Diagnostics

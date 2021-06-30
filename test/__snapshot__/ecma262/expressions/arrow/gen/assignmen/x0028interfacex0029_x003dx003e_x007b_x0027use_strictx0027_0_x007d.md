@@ -133,9 +133,10 @@ x = (interface) => { 'use strict'; 0 } ;
 
 ```javascript
 
-x = () =>  {
-  0;
-};
+x = (interface) =>  {
+'\'use strict\'';
+ 0; };
+
 ```
 
 ### Diagnostics

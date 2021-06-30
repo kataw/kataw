@@ -110,7 +110,8 @@ function f(x = await){}
 
 ```javascript
 
-function f() {}
+function f(x = await) { }
+
 ```
 
 ### Diagnostics

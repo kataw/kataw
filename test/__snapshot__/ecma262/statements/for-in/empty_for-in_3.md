@@ -105,7 +105,9 @@ for (let a in b);
 
 ```javascript
 
-for (let a; in b);
+for (let a in b)
+  ;
+
 ```
 
 ### Diagnostics

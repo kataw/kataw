@@ -163,8 +163,9 @@ class x { static set [y](z){}}
 ```javascript
 
 class x {
-  static set static [y]() {}
+  static set [y](z) { }
 }
+
 ```
 
 ### Diagnostics

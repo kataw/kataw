@@ -112,7 +112,9 @@ for (a?.b of c);
 
 ```javascript
 
-for (a?.b.of; ; c);
+for (a?.bof;; c)
+  ;
+
 ```
 
 ### Diagnostics

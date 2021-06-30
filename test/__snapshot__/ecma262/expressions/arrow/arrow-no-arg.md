@@ -126,7 +126,8 @@
 
 ```javascript
 
-() =>  a + b - yield / 1;
+() => a + b - yield / 1;
+
 ```
 
 ### Diagnostics

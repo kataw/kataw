@@ -77,7 +77,8 @@ obj.voi\u0064 = 42;
 
 ```javascript
 
-obj.void = 42;
+obj.voi\u0064 = 42;
+
 ```
 
 ### Diagnostics

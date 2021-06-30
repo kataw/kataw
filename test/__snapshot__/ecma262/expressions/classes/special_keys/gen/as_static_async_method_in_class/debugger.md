@@ -137,8 +137,9 @@ class x {static async debugger(){}}
 ```javascript
 
 class x {
-  async static static debugger() {}
+  static async debugger() { }
 }
+
 ```
 
 ### Diagnostics

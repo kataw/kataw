@@ -137,8 +137,9 @@ class x {static get implements(){}}
 ```javascript
 
 class x {
-  static get static implements() {}
+  static get implements() { }
 }
+
 ```
 
 ### Diagnostics

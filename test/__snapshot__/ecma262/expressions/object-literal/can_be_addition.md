@@ -111,6 +111,7 @@ x = {...a + b}
 ```javascript
 
 x = { ...a + b };
+
 ```
 
 ### Diagnostics

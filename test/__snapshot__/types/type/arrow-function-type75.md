@@ -213,6 +213,7 @@ type a = ({set y(y): string}) => T;
 
 ```javascript
 
+type a = ({ y(y): string }) => T
 
 ```
 

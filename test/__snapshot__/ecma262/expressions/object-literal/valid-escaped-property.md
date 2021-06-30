@@ -132,9 +132,8 @@ function *a(){({yi\u0065ld: 0})}
 
 ```javascript
 
-function * a() {
-  ({ yield: 0 });
-}
+function* a() { ({ yi\u0065ld : 0 }); }
+
 ```
 
 ### Diagnostics

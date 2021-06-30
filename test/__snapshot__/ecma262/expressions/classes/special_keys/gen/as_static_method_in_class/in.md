@@ -132,8 +132,9 @@ class x {static in(){}}
 ```javascript
 
 class x {
-  static static in() {}
+  static in() { }
 }
+
 ```
 
 ### Diagnostics

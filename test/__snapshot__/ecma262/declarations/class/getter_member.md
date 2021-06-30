@@ -149,8 +149,9 @@ class A {get [foo](){}}
 ```javascript
 
 class A {
-  get [foo]() {}
+  get [foo]() { }
 }
+
 ```
 
 ### Diagnostics

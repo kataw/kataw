@@ -132,9 +132,10 @@ function *f(){
 
 ```javascript
 
-function * f() {
+function* f() {
   (implements) = 1;
 }
+
 ```
 
 ### Diagnostics

@@ -483,19 +483,22 @@ class GenericClass/*1*/</*2*/T/*3*/>/*4*/ {}
 
 ```javascript
 
-class /*1*/ Item {
-  prop;
-   /*3*/
-  constructor /*4*/() {
-    this /*6*/.prop = param;
+class/*1*/ Item<T>/*2*/ {
+  prop: T
+  ;/*3*/
+  constructor/*4*/(param/*5*/: T) {
+    this/*6*/./*7*/prop = param;
   }
-  /*8*/
-  /*8*/
-  method() {
-    return  this /*12*/ /*13*/.prop; /*14*/
+   /*8*/
+   /*8*/
+  method():/*9*/ T/*10*/ {/*11*/
+    return this/*12*/ /*13*/.prop;/*14*/
   }
+ /*15*/
 }
-class GenericClass /*1*/ {}
+class GenericClass/*1*/</*2*/T>/*3*//*4*/ {
+}
+
 ```
 
 ### Diagnostics

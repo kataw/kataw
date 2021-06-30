@@ -114,9 +114,8 @@ async () => {  \u0070ackage = x  }
 
 ```javascript
 
-async  =>  {
-  package = x;
-}
+async () =>  { \u0070ackage = x; }
+
 ```
 
 ### Diagnostics

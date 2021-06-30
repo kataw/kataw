@@ -320,6 +320,7 @@ type a = (...x?: string & foo | (...x?: string & foo | bar) => T) => T;
 
 ```javascript
 
+type a = (...x?: string & foo | (...x?: string & foo | bar) => T) => T
 
 ```
 

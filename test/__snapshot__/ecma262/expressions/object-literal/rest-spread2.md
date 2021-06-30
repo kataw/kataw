@@ -100,6 +100,7 @@ let z = {...x}
 ```javascript
 
 let z = { ...x };
+
 ```
 
 ### Diagnostics

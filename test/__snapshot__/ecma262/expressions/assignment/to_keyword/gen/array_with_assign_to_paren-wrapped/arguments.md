@@ -105,7 +105,8 @@ async x => (arguments) = 1
 
 ```javascript
 
-async x =>  (arguments) = 1;
+async x => (arguments) = 1;
+
 ```
 
 ### Diagnostics

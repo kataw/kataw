@@ -209,8 +209,9 @@ result = { x: x[yield] } = vals;
 
 ```javascript
 
-var vals = { x: 23 };
-result = { x: x[yield] } = vals;
+var vals = { x : 23 };
+result = { x : x[yield] } = vals;
+
 ```
 
 ### Diagnostics

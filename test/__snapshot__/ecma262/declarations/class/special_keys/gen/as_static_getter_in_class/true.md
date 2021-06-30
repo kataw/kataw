@@ -137,8 +137,9 @@ class x {static get true(){}}
 ```javascript
 
 class x {
-  static get static true() {}
+  static get true() { }
 }
+
 ```
 
 ### Diagnostics

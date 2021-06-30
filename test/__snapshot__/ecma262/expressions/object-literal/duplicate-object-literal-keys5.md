@@ -171,7 +171,8 @@
 
 ```javascript
 
-({ set x() {}, get x() {} });
+({ set x(y) { }, get x() { } });
+
 ```
 
 ### Diagnostics

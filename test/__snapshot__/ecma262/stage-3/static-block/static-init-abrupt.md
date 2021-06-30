@@ -372,14 +372,14 @@ try {
 
 try {
   class C {
-
-    x = subsequentField = true;
-
-
+    static x = subsequentField = true
+    ;
   }
-} catch (error) {
+}
+catch (error){
   caught = error;
 }
+
 ```
 
 ### Diagnostics

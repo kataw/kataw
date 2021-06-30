@@ -193,11 +193,11 @@
 
 ```javascript
 
-function * gf() {
-  class C {
-    yield() {}
-  }
-}
+'\'use strict\'';
+function* gf() { class C {
+  *yield() { }
+} }
+
 ```
 
 ### Diagnostics

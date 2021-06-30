@@ -130,9 +130,8 @@ function *g() { yield void x }
 
 ```javascript
 
-function * g() {
-  yield void x;
-}
+function* g() { yield void  x; }
+
 ```
 
 ### Diagnostics

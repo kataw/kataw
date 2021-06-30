@@ -132,6 +132,7 @@ function f() {
   "\"use strict\"";
   --x;
 }
+
 ```
 
 ### Diagnostics

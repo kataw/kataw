@@ -131,7 +131,8 @@ async (x = (interface) = f) => {}
 
 ```javascript
 
-async  =>  {}
+async (x = (interface) = f) =>  { }
+
 ```
 
 ### Diagnostics

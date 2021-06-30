@@ -233,7 +233,8 @@ a?.b?.c?.(d)?.[e].f?.g
 
 ```javascript
 
-?.g;
+a?.b?.c?.(d)?.[e]f?.g;
+
 ```
 
 ### Diagnostics

@@ -151,7 +151,8 @@
 
 ```javascript
 
-[new  x().y = a] = z;
+[new x().y = a,] = z;
+
 ```
 
 ### Diagnostics

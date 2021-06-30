@@ -130,9 +130,8 @@ function *a(){yield typeof 0}
 
 ```javascript
 
-function * a() {
-  yield typeof 0;
-}
+function* a() { yield typeof  0; }
+
 ```
 
 ### Diagnostics

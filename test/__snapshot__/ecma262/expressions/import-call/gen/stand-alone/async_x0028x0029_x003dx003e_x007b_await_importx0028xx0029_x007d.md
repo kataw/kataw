@@ -118,9 +118,8 @@ async () => { await import(x) }
 
 ```javascript
 
-async  =>  {
-  await ;
-}
+async () =>  { await import(x); }
+
 ```
 
 ### Diagnostics

@@ -1238,37 +1238,41 @@ class Array { concat(items:number | string) {}; }
 
 ```javascript
 
-class Foo4 {}
-class Foo5  {}
-class Foo6  {}
+class Foo4<T> {
+}
+class Foo5<T> extends Bar<T> {
+}
+class Foo6<T> extends mixin(Bar) {
+}
 class Foo1 {
-  set fooProp() {}
+  set fooProp(value: number) { }
 }
 class Foo2 {
-  set fooProp() {}
+  set fooProp(value: number): void { }
 }
 class Foo3 {
-  get fooProp() {}
+  get fooProp(): number { }
 }
 class Foo8 {
-  "\"bar\""() {}
+  "\"bar\""<T>() { }
 }
 class Foo10 {
-  prop1;
-
-  prop2;
-
+  static prop1: string
+  ;
+  prop2: number
+  ;
 }
 class Foo11 {
-  #prop1;
-
-  prop2;
-
+  #prop1: string
+  ;
+  prop2: number
+  ;
 }
 class Array {
-  concat() {}
-
+  concat(items: number | string) { }
+  ;
 }
+
 ```
 
 ### Diagnostics

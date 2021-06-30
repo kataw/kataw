@@ -415,10 +415,12 @@ var callCount = 0;
 
 ```javascript
 
-let o = { a: 2, b: 3 };
+let o = { a : 2, b : 3 };
 let executedGetter = false;
 var callCount = 0;
-(function () {}.apply(null, [{ ...o, get c() {} }]));
+(function (obj) {
+}.apply(null, [{ ...o, get c() { } },]));
+
 ```
 
 ### Diagnostics

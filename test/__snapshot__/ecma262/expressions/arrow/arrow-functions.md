@@ -988,15 +988,16 @@ const bar9 = <T>(x) => {};
 
 ```javascript
 
-const bar1 = () =>  {};
-const bar2 = () =>  {};
-const bar3 = () =>  {};
-const bar4 = () =>  {};
-const bar5 = () =>  {};
-const bar6 = x =>  {};
-const bar7 = () =>  {};
-const bar8 = () =>  {};
-const bar9 = () =>  {};
+const bar1 = (x: number) =>  { };
+const bar2 = (x?) =>  { };
+const bar3 = (x?: string) =>  { };
+const bar4 = (x, y?: string) =>  { };
+const bar5 = (x, ...y?: string) =>  { };
+const bar6 = x =>  { };
+const bar7 = (x) =>  { };
+const bar8 = (x: number) =>  { };
+const bar9 = <T>(x) =>  { };
+
 ```
 
 ### Diagnostics

@@ -165,7 +165,8 @@
 
 ```javascript
 
-() =>  {};
+([x: string = y, z: number]) =>  { };
+
 ```
 
 ### Diagnostics

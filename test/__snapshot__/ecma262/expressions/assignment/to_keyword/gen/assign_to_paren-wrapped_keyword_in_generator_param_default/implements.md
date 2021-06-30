@@ -141,7 +141,8 @@ function *f(x = (implements) = f) {}
 
 ```javascript
 
-function * f() {}
+function* f(x = (implements) = f) { }
+
 ```
 
 ### Diagnostics

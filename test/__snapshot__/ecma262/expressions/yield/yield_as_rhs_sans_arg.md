@@ -181,10 +181,8 @@ function *g() { function f(x = x + yield) {}; }
 
 ```javascript
 
-function * g() {
-  function f() {}
+function* g() { function f(x = x + yield) { } ; }
 
-}
 ```
 
 ### Diagnostics

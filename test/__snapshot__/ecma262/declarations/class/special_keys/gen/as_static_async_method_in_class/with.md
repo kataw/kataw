@@ -137,8 +137,9 @@ class x {static async with(){}}
 ```javascript
 
 class x {
-  async static static with() {}
+  static async with() { }
 }
+
 ```
 
 ### Diagnostics

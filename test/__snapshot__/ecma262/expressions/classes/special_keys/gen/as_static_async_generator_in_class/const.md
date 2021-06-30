@@ -142,8 +142,9 @@ class x {static async * const(){}}
 ```javascript
 
 class x {
-  async static static const() {}
+  static async *const() { }
 }
+
 ```
 
 ### Diagnostics

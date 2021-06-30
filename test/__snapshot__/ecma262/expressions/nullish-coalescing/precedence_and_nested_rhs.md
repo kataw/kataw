@@ -96,6 +96,7 @@ a && (b ?? c)
 ```javascript
 
 a && (b ?? c);
+
 ```
 
 ### Diagnostics

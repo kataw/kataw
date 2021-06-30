@@ -137,8 +137,9 @@ class x {static get public(){}}
 ```javascript
 
 class x {
-  static get static public() {}
+  static get public() { }
 }
+
 ```
 
 ### Diagnostics

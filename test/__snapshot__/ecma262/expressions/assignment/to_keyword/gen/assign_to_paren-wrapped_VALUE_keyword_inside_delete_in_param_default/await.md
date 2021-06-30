@@ -159,7 +159,8 @@ function *f(x = delete ((await) = f)) {}
 
 ```javascript
 
-function * f() {}
+function* f(x = delete  ((await) = f)) { }
+
 ```
 
 ### Diagnostics

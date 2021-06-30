@@ -122,7 +122,8 @@ import {default as foo} from "foo";
 
 ```javascript
 
-import { default asfoo }  ;
+import { default as foo, } from "\"foo\"";
+
 ```
 
 ### Diagnostics

@@ -115,9 +115,8 @@ function* test () { yield *v }
 
 ```javascript
 
-function * test() {
-  yield * v;
-}
+function* test() { yield* v; }
+
 ```
 
 ### Diagnostics

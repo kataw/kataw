@@ -132,7 +132,8 @@
 
 ```javascript
 
-() =>  {};
+(x = (private) = f) =>  { };
+
 ```
 
 ### Diagnostics

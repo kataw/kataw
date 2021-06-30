@@ -71,7 +71,8 @@
 
 ```javascript
 
-brguments = x;
+\u0062rguments = x;
+
 ```
 
 ### Diagnostics

@@ -62,6 +62,7 @@ await foo;
 ```javascript
 
 await foo;
+
 ```
 
 ### Diagnostics

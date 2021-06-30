@@ -105,6 +105,7 @@ export var x, y
 ```javascript
 
 export var x, y;
+
 ```
 
 ### Diagnostics

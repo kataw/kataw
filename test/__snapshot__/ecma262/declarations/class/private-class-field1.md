@@ -2431,94 +2431,84 @@ class Annotations {
 ```javascript
 
 class C {
-  #p;
-  #q;
+  #p: number
+  #q: number
   constructor() {
-    this.#p = 0; // in scope
-
-    this.#q; // in scope
-
+    this.#p = 0;// in scope
+    this.#q;// in scope
   }
-  test() {
-    other.#q; // in lexical scope, object has the property.
-
+  test(other: C) {
+    other.#q;// in lexical scope, object has the property.
   }
 }
 class Outer {
-  #outer;
+  #outer: number
   constructor() {
     var Inner = class A {
-      #inner;
+      #inner: Outer
       constructor() {
-        this.#inner = new  Outer();
-        var x = new  Outer();
-        x.#outer = 0; // Both inner and outer should be visible here!
-
-        x.#inner = new  Outer(); // Error, #inner is not a private field of Outer
-
+        this.#inner = new Outer();
+        var x = new Outer();
+        x.#outer = 0;// Both inner and outer should be visible here!
+        x.#inner = new Outer();// Error, #inner is not a private field of Outer
       }
     };
   }
 }
 class Annotations {
-  // Private class fields must either be annotated or have an initializer
-  #p;
-
-  #q = 0;
-
-  #r;
-
-  #s = 0;
-   // Error, number ~> string
-
-  #t = "\"yay!\"";
-
-  #sp;
-
-  #sq = 0;
-
-  #sr;
-
-  #ss = 0;
-   // Error, number ~> string
-
-  #st = "\"yay!\"";
-
-  test1() {
-    return  this.#p;
+   // Private class fields must either be annotated or have an initializer
+  #p: number
+  ;
+  #q = 0
+  ;
+  #r
+  ;
+  #s: string = 0
+  ;// Error, number ~> string
+  #t: string = "\"yay!\""
+  ;
+  static #sp: number
+  ;
+  static #sq = 0
+  ;
+  static #sr
+  ;
+  static #ss: string = 0
+  ;// Error, number ~> string
+  static #st: string = "\"yay!\""
+  ;
+  test1(): number {
+    return this.#p;
   }
-  test2() {
-    return  this.#t; // Error, string ~> number
-
+  test2(): number {
+    return this.#t;// Error, string ~> number
   }
-  test3() {
-    return  Annotations.#sp;
+  test3(): number {
+    return Annotations.#sp;
   }
-  test4() {
-    return  Annotations.#st; // Error, string ~> number
-
+  test4(): number {
+    return Annotations.#st;// Error, string ~> number
   }
-  test5() {
-    return  this.#r;
+  test5(): number {
+    return this.#r;
   }
-  test6() {
-    return  this.#r; // Error, number ~> string
-
+  test6(): string {
+    return this.#r;// Error, number ~> string
   }
   test5And6Helper() {
     this.#r = 3;
   }
-  test7() {
-    return  Annotations.#sr;
+  test7(): number {
+    return Annotations.#sr;
   }
-  test8() {
-    return  Annotations.#sr; // Error, number ~> string
-
+  test8(): string {
+    return Annotations.#sr;// Error, number ~> string
   }
   test7And9Helper() {
     Annotations.#sr = 3;
   }
 }
+
 ```
 
 ### Diagnostics

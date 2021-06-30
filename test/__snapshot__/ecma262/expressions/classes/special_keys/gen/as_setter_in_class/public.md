@@ -141,8 +141,9 @@ class x {set public(x){}}
 ```javascript
 
 class x {
-  set public() {}
+  set public(x) { }
 }
+
 ```
 
 ### Diagnostics

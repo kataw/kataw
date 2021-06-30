@@ -141,8 +141,9 @@ class x {set try(x){}}
 ```javascript
 
 class x {
-  set try() {}
+  set try(x) { }
 }
+
 ```
 
 ### Diagnostics

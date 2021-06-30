@@ -164,9 +164,9 @@ async function f() { for await (var x of xs); }
 
 ```javascript
 
-async function f() {
-  for await ( of xs);
-}
+async function f() { for await (var x of xs)
+  ; }
+
 ```
 
 ### Diagnostics

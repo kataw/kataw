@@ -131,7 +131,8 @@ async (x = (public) = f) => {}
 
 ```javascript
 
-async  =>  {}
+async (x = (public) = f) =>  { }
+
 ```
 
 ### Diagnostics

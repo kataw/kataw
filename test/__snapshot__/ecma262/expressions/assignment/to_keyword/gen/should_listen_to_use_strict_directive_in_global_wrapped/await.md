@@ -86,7 +86,9 @@
 
 ```javascript
 
+"\"use strict\"";
 (await = x);
+
 ```
 
 ### Diagnostics

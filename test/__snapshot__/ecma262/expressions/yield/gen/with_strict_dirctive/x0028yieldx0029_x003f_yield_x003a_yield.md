@@ -100,7 +100,9 @@
 
 ```javascript
 
+'\'use strict\'';
 (yield) ? yield : yield;
+
 ```
 
 ### Diagnostics

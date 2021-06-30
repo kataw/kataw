@@ -80,8 +80,9 @@ x
 
 ```javascript
 
-new  async();
+new async;
 x;
+
 ```
 
 ### Diagnostics

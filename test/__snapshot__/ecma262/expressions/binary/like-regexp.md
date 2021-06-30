@@ -127,7 +127,8 @@
 
 ```javascript
 
-0 ? a : { b: 1 } / 2;
+0 ? a : { b : 1 } / 2;
+
 ```
 
 ### Diagnostics

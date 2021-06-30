@@ -105,10 +105,8 @@ function f(){foo;bar}
 
 ```javascript
 
-function f() {
-  foo;
-  bar;
-}
+function f() { foo; bar; }
+
 ```
 
 ### Diagnostics

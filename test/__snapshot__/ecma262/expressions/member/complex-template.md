@@ -122,7 +122,8 @@
 
 ```javascript
 
-[`a${5}b`.length] = x;
+[`a${5}b`.length,] = x;
+
 ```
 
 ### Diagnostics

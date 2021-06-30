@@ -148,7 +148,9 @@
 
 ```javascript
 
-x = [{ __proto__: 1, __proto__: 2 }];
+"\"use strict\"";
+x = [{ __proto__ : 1, __proto__ : 2 },];
+
 ```
 
 ### Diagnostics

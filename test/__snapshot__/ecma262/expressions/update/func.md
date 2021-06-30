@@ -109,9 +109,8 @@ function f(){ return --a; }
 
 ```javascript
 
-function f() {
-  return  --a;
-}
+function f() { return --a; }
+
 ```
 
 ### Diagnostics

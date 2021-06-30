@@ -146,11 +146,8 @@ var {nonExistent, defaults = "hi", foo = 3} = x;
 
 ```javascript
 
-var {
-  nonExistent,
-  defaults = "\"hi\"",
-  foo = 3
-} = x;
+var { nonExistent, defaults = "\"hi\"", foo = 3 } = x;
+
 ```
 
 ### Diagnostics

@@ -85,6 +85,7 @@ yield
 ```javascript
 
 yield / x / d;
+
 ```
 
 ### Diagnostics

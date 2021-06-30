@@ -173,7 +173,9 @@
 
 ```javascript
 
-(function () {}.apply(null, [{ ...null }]));
+(function (obj) {
+}.apply(null, [{ ...null },]));
+
 ```
 
 ### Diagnostics

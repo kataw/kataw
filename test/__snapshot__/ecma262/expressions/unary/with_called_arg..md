@@ -82,7 +82,8 @@ new + x()
 
 ```javascript
 
-new  +x()();
+new + x();
+
 ```
 
 ### Diagnostics

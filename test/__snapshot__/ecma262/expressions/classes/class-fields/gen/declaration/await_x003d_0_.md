@@ -110,9 +110,10 @@ class C { await = 0; }
 ```javascript
 
 class C {
-  await = 0;
-
+  await = 0
+  ;
 }
+
 ```
 
 ### Diagnostics

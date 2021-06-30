@@ -160,7 +160,8 @@ var d: { (): string } = (x) => "hi"
 
 ```javascript
 
-var d:  = () =>  "\"hi\"";
+var d: { (): string } = (x) => "\"hi\"";
+
 ```
 
 ### Diagnostics

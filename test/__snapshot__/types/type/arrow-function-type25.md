@@ -164,6 +164,7 @@ type a = (()=> T) => T;
 
 ```javascript
 
+type a = (() => T) => T
 
 ```
 

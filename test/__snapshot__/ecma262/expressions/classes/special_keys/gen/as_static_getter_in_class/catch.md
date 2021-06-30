@@ -137,8 +137,9 @@ class x {static get catch(){}}
 ```javascript
 
 class x {
-  static get static catch() {}
+  static get catch() { }
 }
+
 ```
 
 ### Diagnostics

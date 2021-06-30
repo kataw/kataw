@@ -77,10 +77,10 @@ if (false) let // ASI
 
 ```javascript
 
-if (false) let; // ASI
+if (false)
+  let;// ASI
+{ }
 
-{
-}
 ```
 
 ### Diagnostics

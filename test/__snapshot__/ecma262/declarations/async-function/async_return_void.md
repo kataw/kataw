@@ -471,16 +471,17 @@ async function foo3(): Promise<string> {
 
 ```javascript
 
-async function foo1():  {
-  return ;
+async function foo1(): Promise<string> {
+  return;
 }
-async function foo2():  {
-  return  undefined;
+async function foo2(): Promise<string> {
+  return undefined;
 }
-async function foo3():  {
-  function bar() {}
-  return  bar();
+async function foo3(): Promise<string> {
+  function bar() { }
+  return bar();
 }
+
 ```
 
 ### Diagnostics

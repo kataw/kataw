@@ -146,8 +146,9 @@ class x {static set if(x){}}
 ```javascript
 
 class x {
-  static set static if() {}
+  static set if(x) { }
 }
+
 ```
 
 ### Diagnostics

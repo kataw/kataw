@@ -137,8 +137,9 @@ class x {static async this(){}}
 ```javascript
 
 class x {
-  async static static this() {}
+  static async this() { }
 }
+
 ```
 
 ### Diagnostics

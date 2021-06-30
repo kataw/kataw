@@ -160,9 +160,10 @@
 
 ```javascript
 
-(class   {
-    static static async() {}
-  });
+(class  extends Base {
+  static *async() { }
+});
+
 ```
 
 ### Diagnostics

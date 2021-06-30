@@ -116,6 +116,7 @@ type E = Obj['bar'][];
 
 ```javascript
 
+type E = Obj["'bar'"][]
 
 ```
 

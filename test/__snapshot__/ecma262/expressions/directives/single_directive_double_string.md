@@ -96,6 +96,7 @@ function f(){
 function f() {
   "\"foo\"";
 }
+
 ```
 
 ### Diagnostics

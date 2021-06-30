@@ -63,7 +63,8 @@ new /crap/
 
 ```javascript
 
-new  /crap/();
+new /crap/;
+
 ```
 
 ### Diagnostics

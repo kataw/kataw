@@ -117,9 +117,8 @@ bar, x => { return x; }
 
 ```javascript
 
-bar, x =>  {
-    return  x;
-  };
+bar, x =>  { return x; };
+
 ```
 
 ### Diagnostics

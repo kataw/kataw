@@ -170,7 +170,8 @@ async ([x: string = y, z: number]) =>  {};
 
 ```javascript
 
-async  =>  {}
+async ([x: string = y, z: number]) =>  { }
+;
 
 ```
 

@@ -131,7 +131,8 @@ result = [...[x]] = vals;
 
 ```javascript
 
-result = [...[x]] = vals;
+result = [...[x,]] = vals;
+
 ```
 
 ### Diagnostics

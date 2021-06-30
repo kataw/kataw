@@ -140,7 +140,8 @@ result = [...[x, y]] = vals;
 
 ```javascript
 
-result = [...[x, y]] = vals;
+result = [...[x, y,]] = vals;
+
 ```
 
 ### Diagnostics

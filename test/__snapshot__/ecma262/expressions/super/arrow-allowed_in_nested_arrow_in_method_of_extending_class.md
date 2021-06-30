@@ -217,11 +217,10 @@ class x extends y { foo(){ return () => () => super[bar]; }}
 
 ```javascript
 
-class x  {
-  foo() {
-    return  () =>  () =>  [bar];
-  }
+class x extends y {
+  foo() { return () => () => super[bar]; }
 }
+
 ```
 
 ### Diagnostics

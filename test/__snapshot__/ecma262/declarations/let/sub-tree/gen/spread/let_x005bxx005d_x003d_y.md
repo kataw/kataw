@@ -113,6 +113,7 @@
 ```javascript
 
 [...let[x] = y];
+
 ```
 
 ### Diagnostics

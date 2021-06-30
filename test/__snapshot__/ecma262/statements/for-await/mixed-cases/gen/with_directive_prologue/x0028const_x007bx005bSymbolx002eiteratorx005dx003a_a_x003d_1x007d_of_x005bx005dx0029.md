@@ -273,11 +273,12 @@ async function f() { 'use strict'; let a; for await (const {[Symbol.iterator]: a
 ```javascript
 
 async function f() {
-  let a;
-  for await (const {
-    [Symbol.iterator]: a = 1
-  }; of []);
-}
+'\'use strict\'';
+ let a; for await (const {
+  [Symbol.iterator]: a = 1
+} of [])
+  ; }
+
 ```
 
 ### Diagnostics

@@ -128,8 +128,10 @@
 ```javascript
 
 (function () {
-    "'\0'";
-  }());
+'\'use strict\'';
+  '\'\0\'';
+}());
+
 ```
 
 ### Diagnostics

@@ -141,7 +141,8 @@ function *f(x = (protected) = f) {}
 
 ```javascript
 
-function * f() {}
+function* f(x = (protected) = f) { }
+
 ```
 
 ### Diagnostics

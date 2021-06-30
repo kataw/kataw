@@ -191,7 +191,8 @@ var b: { (x: number): number } = (x) => "hi"
 
 ```javascript
 
-var b:  = () =>  "\"hi\"";
+var b: { (x: number): number } = (x) => "\"hi\"";
+
 ```
 
 ### Diagnostics

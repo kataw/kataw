@@ -137,8 +137,9 @@ class x {static * if(){}}
 ```javascript
 
 class x {
-  static static if() {}
+  static *if() { }
 }
+
 ```
 
 ### Diagnostics

@@ -102,7 +102,8 @@ await => async.await[foo]
 
 ```javascript
 
-await =>  async.await[foo];
+await => async.await[foo];
+
 ```
 
 ### Diagnostics

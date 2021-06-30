@@ -131,7 +131,8 @@ async (x = (enum) = f) => {}
 
 ```javascript
 
-async  =>  {}
+async (x = (enum) = f) =>  { }
+
 ```
 
 ### Diagnostics

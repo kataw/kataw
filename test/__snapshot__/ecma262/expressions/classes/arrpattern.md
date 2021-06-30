@@ -125,7 +125,9 @@ class n extends ([] = x) {}
 
 ```javascript
 
-class n  {}
+class n extends ([] = x) {
+}
+
 ```
 
 ### Diagnostics

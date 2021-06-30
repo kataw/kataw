@@ -130,10 +130,11 @@ switch (true) { default: function g() {} }
 
 ```javascript
 
-switch(true) {
-  default
-    function g() {}
+switch (true) {
+  default: 
+    function g() { }
 }
+
 ```
 
 ### Diagnostics

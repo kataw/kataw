@@ -149,7 +149,8 @@ async (x = delete ((interface) = f)) => {}
 
 ```javascript
 
-async  =>  {}
+async (x = delete  ((interface) = f)) =>  { }
+
 ```
 
 ### Diagnostics

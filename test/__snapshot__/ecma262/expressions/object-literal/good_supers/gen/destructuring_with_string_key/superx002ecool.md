@@ -233,11 +233,12 @@ class x extends y {
 
 ```javascript
 
-class x  {
+class x extends y {
   constructor() {
-    ({ "\"foo\"": .cool } = x);
+    ({ "\"foo\"" : super.cool } = x);
   }
 }
+
 ```
 
 ### Diagnostics

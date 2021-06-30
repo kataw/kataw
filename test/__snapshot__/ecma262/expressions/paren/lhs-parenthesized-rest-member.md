@@ -117,6 +117,7 @@
 ```javascript
 
 [...(a.b)] = [];
+
 ```
 
 ### Diagnostics

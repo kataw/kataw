@@ -119,7 +119,8 @@ c?.(d)?.[e]
 
 ```javascript
 
-?.[e];
+c?.(d)?.[e];
+
 ```
 
 ### Diagnostics

@@ -276,14 +276,14 @@ class C {
 ```javascript
 
 class C {
-  #_;
-
+  static #_
+  ;
   constructor() {
     class D {
-
     }
   }
 }
+
 ```
 
 ### Diagnostics

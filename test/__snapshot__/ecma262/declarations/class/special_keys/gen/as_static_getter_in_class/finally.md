@@ -137,8 +137,9 @@ class x {static get finally(){}}
 ```javascript
 
 class x {
-  static get static finally() {}
+  static get finally() { }
 }
+
 ```
 
 ### Diagnostics

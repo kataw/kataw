@@ -132,8 +132,9 @@ class x {static catch(){}}
 ```javascript
 
 class x {
-  static static catch() {}
+  static catch() { }
 }
+
 ```
 
 ### Diagnostics

@@ -157,8 +157,9 @@ class A {static set 10(x){}}
 ```javascript
 
 class A {
-  static set static 10() {}
+  static set 10(x) { }
 }
+
 ```
 
 ### Diagnostics

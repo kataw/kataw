@@ -137,6 +137,7 @@ for(x in(t&{}=y))x
 
 for (x in (t & {} = y))
   x;
+
 ```
 
 ### Diagnostics

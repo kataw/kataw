@@ -1049,21 +1049,19 @@ function d<X: [number, number]>(x: X): X {
 
 ```javascript
 
-function  <X:  >a():  {
-  return  [...x];
+function a<X: $ReadOnlyArray<number>> (x: X): X {
+  return [...x];
 }
-function  <X:  >b():  {
-  return  [...x, ...x]; // nope, because X could be a tuple
+function b<X: $ReadOnlyArray<number>> (x: X): X {
+  return [...x, ...x];// nope, because X could be a tuple
+}
+function c<X: $ReadOnlyArray<number>> (x: X): X {
+  return [42, ...x];// error
+}
+function d<X: [number, number]> (x: X): X {
+  return [...x, ...x];// error
+}
 
-}
-function  <X:  >c():  {
-  return  [42, ...x]; // error
-
-}
-function  <X:  [: number, : number ] >d():  {
-  return  [...x, ...x]; // error
-
-}
 ```
 
 ### Diagnostics

@@ -153,10 +153,8 @@ function f() { /* infinite */ while (true) { } /* bar */ var each; }
 
 ```javascript
 
-function f() {
-  while (true) {} /* bar */
-  var each;
-}
+function f() {/* infinite */ /* infinite */while (true) { }/* bar */ /* bar */var each; }
+
 ```
 
 ### Diagnostics

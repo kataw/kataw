@@ -85,6 +85,7 @@
 ```javascript
 
 "\"ignore me\"" / x / g;
+
 ```
 
 ### Diagnostics

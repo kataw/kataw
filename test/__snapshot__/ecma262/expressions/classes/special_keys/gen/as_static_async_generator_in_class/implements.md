@@ -142,8 +142,9 @@ class x {static async * implements(){}}
 ```javascript
 
 class x {
-  async static static implements() {}
+  static async *implements() { }
 }
+
 ```
 
 ### Diagnostics

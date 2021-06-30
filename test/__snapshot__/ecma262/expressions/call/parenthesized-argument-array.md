@@ -117,7 +117,8 @@ var foo = async ([(foo)]);
 
 ```javascript
 
-var foo = async([(foo)]);
+var foo = async([(foo),]);
+
 ```
 
 ### Diagnostics

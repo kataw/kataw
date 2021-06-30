@@ -590,15 +590,19 @@ const foo = /*12*/class extends (Bar ?? Baz) {}
 
 ```javascript
 
-(foo /*1*/++)?.();
-async /*2*/  =>  {
+(foo/*1*/++)?.();
+async/*2*/ () =>  {
   (await foo)?.();
-} /*3*/
-(+foo) /*4*/?.();
-+(+foo); /*6*/
-class x   /*9*/{}
-class y  {}
-const foo = class   {};
+}/*3*/
+(+ foo)/*4*/?./*5*/();
++ (+ foo);/*6*/
+class x extends (/*7*/+ Bar/*8*/) /*9*/{
+}
+class y extends (Bar/*10*/ ?? Baz) {
+}
+const foo =/*12*/ class  extends (Bar ?? Baz) {
+};
+
 ```
 
 ### Diagnostics

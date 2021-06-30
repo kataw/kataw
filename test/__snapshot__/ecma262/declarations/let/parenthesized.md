@@ -95,6 +95,7 @@ type T = ({});
 
 ```javascript
 
+type T = ({})
 
 ```
 

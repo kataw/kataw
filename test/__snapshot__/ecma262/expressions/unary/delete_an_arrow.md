@@ -87,7 +87,8 @@ delete (foo)=>bar
 
 ```javascript
 
-delete () =>  bar;
+delete  (foo) => bar;
+
 ```
 
 ### Diagnostics

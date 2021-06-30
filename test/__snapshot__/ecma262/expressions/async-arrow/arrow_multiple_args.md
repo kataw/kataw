@@ -88,7 +88,8 @@ async (x, y) => {}
 
 ```javascript
 
-async  =>  {}
+async (x, y) =>  { }
+
 ```
 
 ### Diagnostics

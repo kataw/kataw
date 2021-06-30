@@ -132,8 +132,9 @@ class x {static eval(){}}
 ```javascript
 
 class x {
-  static static eval() {}
+  static eval() { }
 }
+
 ```
 
 ### Diagnostics

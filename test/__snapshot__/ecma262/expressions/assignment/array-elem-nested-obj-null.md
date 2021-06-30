@@ -122,7 +122,8 @@
 
 ```javascript
 
-0, [{ x }] = [null];
+0, [{ x },] = [null,];
+
 ```
 
 ### Diagnostics

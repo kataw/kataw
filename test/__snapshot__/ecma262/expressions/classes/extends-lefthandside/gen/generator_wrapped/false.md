@@ -147,9 +147,11 @@ function *P(){
 
 ```javascript
 
-function * P() {
-  class D  {}
+function* P() {
+  class D extends false {
+  }
 }
+
 ```
 
 ### Diagnostics

@@ -104,6 +104,7 @@
 ```javascript
 
 (async  < T > (x));
+
 ```
 
 ### Diagnostics

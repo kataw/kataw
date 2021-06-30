@@ -106,7 +106,10 @@
 
 ```javascript
 
-foo: while (x) {}
+foo: while (x) {
+  break/* comment 1 */ foo;
+}
+
 ```
 
 ### Diagnostics

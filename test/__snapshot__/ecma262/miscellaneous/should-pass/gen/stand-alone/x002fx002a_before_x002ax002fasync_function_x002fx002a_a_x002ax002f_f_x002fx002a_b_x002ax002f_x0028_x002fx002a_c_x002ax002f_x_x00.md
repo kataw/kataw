@@ -119,9 +119,8 @@
 
 ```javascript
 /* before */
-async function f /* b */() /* f */ {
+async function/* a */ f/* b */(/* c */x/* d */, /* e */y/* f */) {/* h */ /* h */;/* i */ /* i */;/* j */ }/* after */
 
-} /* after */
 ```
 
 ### Diagnostics

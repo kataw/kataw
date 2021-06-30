@@ -134,7 +134,9 @@ for (function(){ }[foo] of x);
 
 ```javascript
 
-for (function () {}[foo] of x);
+for (function () { }[foo] of x)
+  ;
+
 ```
 
 ### Diagnostics

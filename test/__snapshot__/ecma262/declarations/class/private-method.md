@@ -1717,27 +1717,28 @@ class Foo {
 ```javascript
 
 class Foo {
-  #field;
-  #method() {}
+  #field
+  #method() { }
   baseline() {
     a().foo;
     b().foo(x);
     c()?.foo(x);
-    ?.(x);
+    d().foo?.(x)e()?.foo?.(x);
   }
   privateField() {
     a().#field;
     b().#field(x);
     c()?.#field(x);
-    (x).bar();
+    d().#field?.(x)e()?.#field?.(x)f()?.foo#field(x).bar();
   }
   privateMethod() {
     a().#method;
     b().#method(x);
     c()?.#method(x);
-    (x).bar();
+    d().#method?.(x)e()?.#method?.(x)f()?.foo#method(x).bar();
   }
 }
+
 ```
 
 ### Diagnostics

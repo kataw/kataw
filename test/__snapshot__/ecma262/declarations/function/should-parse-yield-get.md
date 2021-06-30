@@ -180,10 +180,11 @@ function get() {}
 
 ```javascript
 
-function get() {}
-function * getData() {
-  return  yield get();
+function get() { }
+function* getData() {
+  return yield get();
 }
+
 ```
 
 ### Diagnostics

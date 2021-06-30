@@ -142,9 +142,10 @@ function* fn() {
 
 ```javascript
 
-function * fn() {
-  (function yield() {});
+function* fn() {
+  (function yield() { });
 }
+
 ```
 
 ### Diagnostics

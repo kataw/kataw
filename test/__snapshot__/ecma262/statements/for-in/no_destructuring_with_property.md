@@ -154,8 +154,9 @@ for ({a: b.c}.foo in d) e
 
 ```javascript
 
-for ({ a: b.c }.foo in d)
+for ({ a : b.c }.foo in d)
   e;
+
 ```
 
 ### Diagnostics

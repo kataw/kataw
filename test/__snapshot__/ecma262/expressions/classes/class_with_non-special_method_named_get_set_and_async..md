@@ -221,10 +221,11 @@ class A {set(){} get(){} async(){}}
 ```javascript
 
 class A {
-  set() {}
-  get() {}
-  async() {}
+  set() { }
+  get() { }
+  async() { }
 }
+
 ```
 
 ### Diagnostics

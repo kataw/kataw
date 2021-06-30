@@ -160,9 +160,8 @@ function f(){ x({[new.target]:y}) }
 
 ```javascript
 
-function f() {
-  x({ []: y });
-}
+function f() { x({ [new.target] : y }); }
+
 ```
 
 ### Diagnostics

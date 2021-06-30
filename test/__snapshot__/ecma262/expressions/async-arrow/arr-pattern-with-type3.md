@@ -140,7 +140,8 @@
 
 ```javascript
 
-async  =>  {}
+async ([x, y: number]) =>  { }
+;
 
 ```
 

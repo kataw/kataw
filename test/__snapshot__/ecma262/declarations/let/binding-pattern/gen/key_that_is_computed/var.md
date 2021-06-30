@@ -120,6 +120,7 @@ var {[a]: c} = v
 var {
   [a]: c
 } = v;
+
 ```
 
 ### Diagnostics

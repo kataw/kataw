@@ -137,8 +137,9 @@ class x {static get await(){}}
 ```javascript
 
 class x {
-  static get static await() {}
+  static get await() { }
 }
+
 ```
 
 ### Diagnostics

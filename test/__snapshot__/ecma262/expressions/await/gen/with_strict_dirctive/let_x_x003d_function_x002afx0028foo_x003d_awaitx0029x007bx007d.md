@@ -158,7 +158,9 @@
 
 ```javascript
 
-let x = function * f() {};
+'\'use strict\'';
+let x = function* f(foo = await) { };
+
 ```
 
 ### Diagnostics

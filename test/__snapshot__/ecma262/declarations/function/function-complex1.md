@@ -1174,24 +1174,20 @@ function w2<A: Array<number>>(x: A, f: (number, ...A) => void) {
 
 ```javascript
 
-function  <A:  [: number, : number ] >w() {
-  f(...x); // nope
-
-  f(42, 42, 42); // nope
-
+function w<A: [number, number]> (x: A, f: (number, ...A) => void) {
+  f(...x);// nope
+  f(42, 42, 42);// nope
   f(42, ...x);
-  f(42, ...x, ...x); // nope
-
+  f(42, ...x, ...x);// nope
 }
-function  <A:  >w2() {
+function w2<A: Array<number>> (x: A, f: (number, ...A) => void) {
   f(...x);
-  f(42, 42, 42); // nope
-
-  f(42, 42, 42, ...x); // should be nope
-
+  f(42, 42, 42);// nope
+  f(42, 42, 42, ...x);// should be nope
   f(42, ...x);
   f(42, ...x, ...x);
 }
+
 ```
 
 ### Diagnostics

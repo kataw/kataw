@@ -142,8 +142,9 @@ class x {static async * package(){}}
 ```javascript
 
 class x {
-  async static static package() {}
+  static async *package() { }
 }
+
 ```
 
 ### Diagnostics

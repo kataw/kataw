@@ -189,7 +189,8 @@ declare class X {
 
 ```javascript
 
-declare class X TODO!
+declare class X { a: number, static b: number, c: number }
+
 ```
 
 ### Diagnostics

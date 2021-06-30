@@ -109,7 +109,10 @@ foo: while (true) if (x) continue foo;
 
 ```javascript
 
-foo: while (true) if (x) continue foo;
+foo: while (true)
+  if (x)
+    continue foo;
+
 ```
 
 ### Diagnostics

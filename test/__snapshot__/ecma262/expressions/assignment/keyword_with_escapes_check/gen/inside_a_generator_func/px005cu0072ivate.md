@@ -126,9 +126,10 @@ function *f(){
 
 ```javascript
 
-function * f() {
-  private = x;
+function* f() {
+  p\u0072ivate = x;
 }
+
 ```
 
 ### Diagnostics

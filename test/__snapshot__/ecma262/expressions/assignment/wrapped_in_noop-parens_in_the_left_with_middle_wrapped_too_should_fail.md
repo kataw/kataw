@@ -102,6 +102,7 @@
 ```javascript
 
 (1) = (y) = x;
+
 ```
 
 ### Diagnostics

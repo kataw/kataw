@@ -126,6 +126,7 @@ x={..."foo".foo=x}
 ```javascript
 
 x = { ..."\"foo\"".foo = x };
+
 ```
 
 ### Diagnostics

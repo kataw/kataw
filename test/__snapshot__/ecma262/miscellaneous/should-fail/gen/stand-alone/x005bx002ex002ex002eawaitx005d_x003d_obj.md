@@ -99,6 +99,7 @@
 ```javascript
 
 [...await] = obj;
+
 ```
 
 ### Diagnostics

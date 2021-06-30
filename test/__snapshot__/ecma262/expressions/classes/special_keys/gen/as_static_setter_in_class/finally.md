@@ -146,8 +146,9 @@ class x {static set finally(x){}}
 ```javascript
 
 class x {
-  static set static finally() {}
+  static set finally(x) { }
 }
+
 ```
 
 ### Diagnostics

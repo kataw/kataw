@@ -151,8 +151,9 @@ class x{[x](a=await){}}
 ```javascript
 
 class x {
-  [x]() {}
+  [x](a = await) { }
 }
+
 ```
 
 ### Diagnostics

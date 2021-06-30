@@ -114,9 +114,8 @@ async () => {  \u0070rivate = x  }
 
 ```javascript
 
-async  =>  {
-  private = x;
-}
+async () =>  { \u0070rivate = x; }
+
 ```
 
 ### Diagnostics

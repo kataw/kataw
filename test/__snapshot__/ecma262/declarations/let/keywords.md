@@ -715,8 +715,9 @@ let st: string;
 let sy: symbol;
 let u: undefined;
 let v: void;
-let n: ;
-let nx: ;
+let n: bigint;
+let nx: mixed;
+
 ```
 
 ### Diagnostics

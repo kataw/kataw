@@ -148,9 +148,10 @@ function *f() {
 
 ```javascript
 
-function * f() {
-  yield async async =>  ok;
+function* f() {
+  yield async async => ok;
 }
+
 ```
 
 ### Diagnostics

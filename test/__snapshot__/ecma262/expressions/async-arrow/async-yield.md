@@ -79,7 +79,8 @@ async yield => 1;
 
 ```javascript
 
-async yield =>  1;
+async yield => 1;
+
 ```
 
 ### Diagnostics

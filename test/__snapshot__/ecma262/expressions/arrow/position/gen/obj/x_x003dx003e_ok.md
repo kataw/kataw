@@ -124,7 +124,8 @@ x = {arrow: x => ok}
 
 ```javascript
 
-x = { arrow: x =>  ok };
+x = { arrow : x => ok };
+
 ```
 
 ### Diagnostics

@@ -131,9 +131,11 @@
 
 ```javascript
 
+"\"use strict\"";
 const {
   [eval]: []
 } = a;
+
 ```
 
 ### Diagnostics

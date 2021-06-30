@@ -122,7 +122,8 @@ async (a = 1, b = 2) => x;
 
 ```javascript
 
-async  =>  x
+async (a = 1, b = 2) => x
+;
 
 ```
 

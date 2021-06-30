@@ -184,10 +184,11 @@ async () => {
 
 ```javascript
 
-async  =>  {
+async () =>  {
   await null;
-  async  =>  null;
+  async <T>() => null;
 }
+;
 
 ```
 

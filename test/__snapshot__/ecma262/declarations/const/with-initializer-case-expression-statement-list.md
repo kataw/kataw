@@ -124,10 +124,11 @@ switch (true) { case true: const x = 1; }
 
 ```javascript
 
-switch(true) {
-  case true:
+switch (true) {
+  case true: 
     const x = 1;
 }
+
 ```
 
 ### Diagnostics

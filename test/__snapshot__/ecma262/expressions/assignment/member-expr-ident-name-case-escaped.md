@@ -137,7 +137,8 @@ obj.c\u0061se = 42;
 ```javascript
 
 var obj = {};
-obj.case = 42;
+obj.c\u0061se = 42;
+
 ```
 
 ### Diagnostics

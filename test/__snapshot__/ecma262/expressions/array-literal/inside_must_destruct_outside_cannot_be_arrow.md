@@ -154,7 +154,8 @@
 
 ```javascript
 
-() =>  d;
+([...{ a = b } = c]) => d;
+
 ```
 
 ### Diagnostics

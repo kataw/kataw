@@ -146,8 +146,9 @@ class x {static set while(x){}}
 ```javascript
 
 class x {
-  static set static while() {}
+  static set while(x) { }
 }
+
 ```
 
 ### Diagnostics

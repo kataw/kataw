@@ -196,7 +196,8 @@ declare function bar(config: Config<{foo: 'a'}>) : void
 
 ```javascript
 
-function bar(): void;
+declare function bar(config: Config<{ foo: "'a'" }>): void
+
 ```
 
 ### Diagnostics

@@ -119,7 +119,9 @@
 
 ```javascript
 
-function f() {}
+'\'use strict\'';
+function f(x = await) { }
+
 ```
 
 ### Diagnostics

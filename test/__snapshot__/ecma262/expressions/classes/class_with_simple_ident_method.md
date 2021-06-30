@@ -119,8 +119,9 @@ class A {a(){}}
 ```javascript
 
 class A {
-  a() {}
+  a() { }
 }
+
 ```
 
 ### Diagnostics

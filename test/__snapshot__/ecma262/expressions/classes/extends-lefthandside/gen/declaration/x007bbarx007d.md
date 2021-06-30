@@ -109,7 +109,9 @@ class A extends {bar} {}
 
 ```javascript
 
-class A  {}
+class A extends { bar } {
+}
+
 ```
 
 ### Diagnostics

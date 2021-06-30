@@ -165,9 +165,8 @@ function * gen() { (yield) ? yield : yield }
 
 ```javascript
 
-function * gen() {
-  ( yield) ?  yield :  yield;
-}
+function* gen() { (yield) ? yield : yield; }
+
 ```
 
 ### Diagnostics

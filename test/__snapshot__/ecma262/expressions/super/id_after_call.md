@@ -91,6 +91,7 @@ foo()?.bar
 ```javascript
 
 foo()?.bar;
+
 ```
 
 ### Diagnostics

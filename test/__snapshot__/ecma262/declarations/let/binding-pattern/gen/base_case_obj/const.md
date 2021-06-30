@@ -98,6 +98,7 @@ const {x} = v
 const {
   x
 } = v;
+
 ```
 
 ### Diagnostics

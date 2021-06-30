@@ -325,9 +325,10 @@ const f = async <T, R, S>(
 
 ```javascript
 
-const f = async  =>  {
-  return  null;
+const f = async <T, R, S>(x: T, y: R, z: S) =>  {
+  return null;
 };
+
 ```
 
 ### Diagnostics

@@ -142,8 +142,9 @@ class x {static async * throw(){}}
 ```javascript
 
 class x {
-  async static static throw() {}
+  static async *throw() { }
 }
+
 ```
 
 ### Diagnostics

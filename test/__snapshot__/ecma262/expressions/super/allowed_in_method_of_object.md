@@ -145,9 +145,8 @@ x={ foo(){ super.foo; }}
 
 ```javascript
 
-x = { foo() {
-    .foo;
-  } };
+x = { foo() { super.foo; } };
+
 ```
 
 ### Diagnostics

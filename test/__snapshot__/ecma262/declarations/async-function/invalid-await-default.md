@@ -166,8 +166,9 @@ async function wrap() {
 ```javascript
 
 async function wrap() {
-  () =>  a;
+  (a = await b) => a;
 }
+;
 
 ```
 

@@ -104,8 +104,9 @@ class A {
 ```javascript
 
 class A {
-  declare;
+  static declare
 }
+
 ```
 
 ### Diagnostics

@@ -172,7 +172,11 @@ var f = ({arguments: x, ...z}) => {};
 
 ```javascript
 
-var f = () =>  {};
+var f = ({
+    arguments: x,
+    ...z
+  }) =>  { };
+
 ```
 
 ### Diagnostics

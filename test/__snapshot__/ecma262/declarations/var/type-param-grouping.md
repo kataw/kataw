@@ -128,7 +128,8 @@ var a: Array<(number)>
 
 ```javascript
 
-var a: ;
+var a: Array<(number)>;
+
 ```
 
 ### Diagnostics

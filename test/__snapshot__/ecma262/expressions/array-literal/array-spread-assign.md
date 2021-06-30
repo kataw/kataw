@@ -110,6 +110,7 @@
 ```javascript
 
 [...z = 1];
+
 ```
 
 ### Diagnostics

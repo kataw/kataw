@@ -141,8 +141,9 @@ class x {set super(x){}}
 ```javascript
 
 class x {
-  set super() {}
+  set super(x) { }
 }
+
 ```
 
 ### Diagnostics

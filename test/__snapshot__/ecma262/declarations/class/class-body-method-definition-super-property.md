@@ -266,12 +266,13 @@ class A {
 
 class A {
   constructor() {
-    .toString();
+    super.toString();
   }
   dontDoThis() {
-    .makeBugs = 1;
+    super.makeBugs = 1;
   }
 }
+
 ```
 
 ### Diagnostics

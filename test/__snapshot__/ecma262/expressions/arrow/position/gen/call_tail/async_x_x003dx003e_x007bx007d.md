@@ -122,7 +122,8 @@ foo(async x => {}).bar
 
 ```javascript
 
-foo(async x =>  {}).bar;
+foo(async x =>  { }).bar;
+
 ```
 
 ### Diagnostics

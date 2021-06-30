@@ -50,7 +50,9 @@ for(;/*1*/;);
 
 ```javascript
 
-for (;;);
+for (;/*1*/;)
+  ;
+
 ```
 
 ### Diagnostics

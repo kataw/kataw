@@ -141,8 +141,9 @@ let {my_var} = {my_var: 3}; my_var;
 
 let {
   my_var
-} = { my_var: 3 };
+} = { my_var : 3 };
 my_var;
+
 ```
 
 ### Diagnostics

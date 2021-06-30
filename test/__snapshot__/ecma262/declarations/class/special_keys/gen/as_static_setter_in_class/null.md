@@ -146,8 +146,9 @@ class x {static set null(x){}}
 ```javascript
 
 class x {
-  static set static null() {}
+  static set null(x) { }
 }
+
 ```
 
 ### Diagnostics

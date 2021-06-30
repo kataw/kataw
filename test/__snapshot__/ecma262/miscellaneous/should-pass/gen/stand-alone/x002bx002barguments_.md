@@ -64,6 +64,7 @@
 ```javascript
 
 ++arguments;
+
 ```
 
 ### Diagnostics

@@ -130,8 +130,9 @@ class A {static async() { }};
 ```javascript
 
 class A {
-  static static async() {}
+  static async() { }
 }
+;
 
 ```
 

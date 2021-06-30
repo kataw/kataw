@@ -239,6 +239,7 @@ type x<y> = z<<q>(r) => s>
 
 ```javascript
 
+type x<y> = z<<q>(r) => s>
 
 ```
 

@@ -121,6 +121,7 @@ a = { x = yield } = value;
 ```javascript
 
 a = { x = yield } = value;
+
 ```
 
 ### Diagnostics

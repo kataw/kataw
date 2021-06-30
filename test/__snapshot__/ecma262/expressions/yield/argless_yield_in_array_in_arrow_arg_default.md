@@ -166,9 +166,8 @@ function *g(){ async (x = [yield]) => z }
 
 ```javascript
 
-function * g() {
-  async  =>  z
-}
+function* g() { async (x = [yield,]) => z }
+
 ```
 
 ### Diagnostics

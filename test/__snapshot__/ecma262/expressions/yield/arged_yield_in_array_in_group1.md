@@ -151,9 +151,8 @@ function *g(){ (x = [yield y]) }
 
 ```javascript
 
-function * g() {
-  (x = [yield y]);
-}
+function* g() { (x = [yield y,]); }
+
 ```
 
 ### Diagnostics

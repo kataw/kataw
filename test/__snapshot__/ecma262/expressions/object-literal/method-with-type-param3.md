@@ -220,7 +220,8 @@ a={123<T>(x: T): T {}}
 
 ```javascript
 
-a = { 123() {} };
+a = { 123<T>(x: T): T { } };
+
 ```
 
 ### Diagnostics

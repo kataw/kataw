@@ -132,8 +132,10 @@ function f() {
 ```javascript
 
 function f() {
+"\"use strict\"";
   enum = x;
 }
+
 ```
 
 ### Diagnostics

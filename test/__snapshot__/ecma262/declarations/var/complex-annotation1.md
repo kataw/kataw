@@ -270,7 +270,8 @@ var obj: {str:string; i:number; j:boolean} = {str: "...", i: "...", k: false};
 
 ```javascript
 
-var obj:  = { str: "\"...\"", i: "\"...\"", k: false };
+var obj: { str: string, i: number, j: boolean } = { str : "\"...\"", i : "\"...\"", k : false };
+
 ```
 
 ### Diagnostics

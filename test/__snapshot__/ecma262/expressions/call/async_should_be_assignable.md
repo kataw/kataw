@@ -84,6 +84,7 @@ async = 5 + 5;
 ```javascript
 
 async = 5 + 5;
+
 ```
 
 ### Diagnostics

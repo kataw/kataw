@@ -106,7 +106,9 @@ if (x) function f(){}
 
 ```javascript
 
-if (x) function f() {}
+if (x)
+  function f() { }
+
 ```
 
 ### Diagnostics

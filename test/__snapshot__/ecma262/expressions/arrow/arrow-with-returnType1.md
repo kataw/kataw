@@ -111,7 +111,8 @@
 
 ```javascript
 
-() =>  null;
+(foo, bar) => null;
+
 ```
 
 ### Diagnostics

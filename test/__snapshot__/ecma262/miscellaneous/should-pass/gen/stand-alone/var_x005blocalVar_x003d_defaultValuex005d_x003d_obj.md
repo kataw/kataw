@@ -114,6 +114,7 @@ var [localVar = defaultValue] = obj
 ```javascript
 
 var [localVar = defaultValue] = obj;
+
 ```
 
 ### Diagnostics

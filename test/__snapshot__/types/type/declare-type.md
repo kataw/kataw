@@ -84,6 +84,7 @@ declare type bool = any;
 
 ```javascript
 
+declare type bool = any
 
 ```
 

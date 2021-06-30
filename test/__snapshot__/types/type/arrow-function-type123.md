@@ -107,6 +107,7 @@
 
 ```javascript
 
+type a = (| x)
 
 ```
 

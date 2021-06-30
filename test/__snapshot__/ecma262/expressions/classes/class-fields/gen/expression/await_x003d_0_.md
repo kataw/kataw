@@ -129,10 +129,11 @@ class C extends Base { await = 0; }
 
 ```javascript
 
-class C  {
-  await = 0;
-
+class C extends Base {
+  await = 0
+  ;
 }
+
 ```
 
 ### Diagnostics

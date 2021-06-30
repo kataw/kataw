@@ -206,7 +206,10 @@ function x({ y }: z<[string |Q]>) {}
 
 ```javascript
 
-function x() {}
+function x({
+    y
+  }: z<[string | Q]>) { }
+
 ```
 
 ### Diagnostics

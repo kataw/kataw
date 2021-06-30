@@ -155,8 +155,9 @@ for ({a: b.c}[x] of d) e
 
 ```javascript
 
-for ({ a: b.c }[x] of d)
+for ({ a : b.c }[x] of d)
   e;
+
 ```
 
 ### Diagnostics

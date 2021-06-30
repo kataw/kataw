@@ -141,8 +141,9 @@ class x {set class(x){}}
 ```javascript
 
 class x {
-  set class() {}
+  set class(x) { }
 }
+
 ```
 
 ### Diagnostics

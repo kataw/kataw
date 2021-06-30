@@ -174,10 +174,8 @@ async function a(){     async ({r} = await bar);     }
 
 ```javascript
 
-async function a() {
-  async({ r } = await bar)
+async function a() { async({ r } = await bar) ; }
 
-}
 ```
 
 ### Diagnostics

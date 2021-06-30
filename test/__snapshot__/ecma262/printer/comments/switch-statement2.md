@@ -56,8 +56,9 @@ switch /* comment 1 */ (x) /* comment 2 */   {} /* comment 3 */
 
 ```javascript
 
-switch/* comment 1 */ (x) {
-} /* comment 3 */
+switch/* comment 1 */ (x)/* comment 2 */ {
+}/* comment 3 */
+
 ```
 
 ### Diagnostics

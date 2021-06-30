@@ -127,8 +127,9 @@ class x {let(){}}
 ```javascript
 
 class x {
-  let() {}
+  let() { }
 }
+
 ```
 
 ### Diagnostics

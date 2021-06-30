@@ -107,7 +107,9 @@ foo: bar: while (true) continue foo;
 
 ```javascript
 
-foo: bar: while (true) continue foo;
+foo: bar: while (true)
+  continue foo;
+
 ```
 
 ### Diagnostics

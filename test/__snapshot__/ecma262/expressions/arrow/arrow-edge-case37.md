@@ -192,7 +192,8 @@ let x = (y: any): (a | b) => {};
 
 ```javascript
 
-let x = () =>  {};
+let x = (y: any) =>  { };
+
 ```
 
 ### Diagnostics

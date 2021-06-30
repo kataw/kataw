@@ -140,6 +140,7 @@ function f() {
 function f() {
   var x = arguments[12];
 }
+
 ```
 
 ### Diagnostics

@@ -178,8 +178,10 @@ function bar(a = ``) {
 
 ```javascript
 
-function foo() {}
-function bar() {}
+function foo(a = ``) { }
+function bar(a = ``) {
+}
+
 ```
 
 ### Diagnostics

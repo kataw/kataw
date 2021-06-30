@@ -97,8 +97,9 @@ let { x, y, } = obj;
 
 let {
   x,
-  y
+  y,
 } = obj;
+
 ```
 
 ### Diagnostics

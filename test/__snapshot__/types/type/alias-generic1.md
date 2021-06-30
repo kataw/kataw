@@ -289,6 +289,7 @@ type MyObject<A, B, C> = {
 
 ```javascript
 
+type MyObject<A, B, C> = { property: A, method(val: B): C }
 
 ```
 

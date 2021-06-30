@@ -128,9 +128,8 @@ function *f(){  (await) => x  }
 
 ```javascript
 
-function * f() {
-  () =>  x;
-}
+function* f() { (await) => x; }
+
 ```
 
 ### Diagnostics

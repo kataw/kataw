@@ -103,7 +103,8 @@ typeof a + b / c
 
 ```javascript
 
-typeof a + b / c;
+typeof  a + b / c;
+
 ```
 
 ### Diagnostics

@@ -165,7 +165,8 @@ var f = ([a,b,...rest]) => {};
 
 ```javascript
 
-var f = () =>  {};
+var f = ([a, b, ...rest]) =>  { };
+
 ```
 
 ### Diagnostics

@@ -137,7 +137,8 @@ f((async (a, b) => a + b));
 
 ```javascript
 
-f((async  =>  a + b));
+f((async (a, b) => a + b));
+
 ```
 
 ### Diagnostics

@@ -88,7 +88,9 @@ for (yield in x);
 
 ```javascript
 
-for (yield in x);
+for (yield in x)
+  ;
+
 ```
 
 ### Diagnostics

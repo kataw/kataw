@@ -141,9 +141,8 @@ bar ? (x => { return x; }) : baz;
 
 ```javascript
 
-bar ? (x =>  {
-        return  x;
-      }) : baz;
+bar ? (x =>  { return x; }) : baz;
+
 ```
 
 ### Diagnostics

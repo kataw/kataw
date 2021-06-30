@@ -201,10 +201,10 @@ class Foo {
 ```javascript
 
 class Foo {
-  bar = 42;
-
-
+  static bar = 42
+  ;
 }
+
 ```
 
 ### Diagnostics

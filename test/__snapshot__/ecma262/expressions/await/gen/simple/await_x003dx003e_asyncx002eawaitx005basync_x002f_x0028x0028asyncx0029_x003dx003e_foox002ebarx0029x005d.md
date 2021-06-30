@@ -174,7 +174,8 @@ await => async.await[async / ((async) => foo.bar)]
 
 ```javascript
 
-await =>  async.await[async / (() =>  foo.bar)];
+await => async.await[async / ((async) => foo.bar)];
+
 ```
 
 ### Diagnostics

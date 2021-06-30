@@ -79,7 +79,8 @@ var obj = { /*comment*/ };
 
 ```javascript
 
-var obj = {};
+var obj = {/*comment*/};
+
 ```
 
 ### Diagnostics

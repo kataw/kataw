@@ -132,7 +132,9 @@ class A extends function f(){} {}
 
 ```javascript
 
-class A  {}
+class A extends function f() { } {
+}
+
 ```
 
 ### Diagnostics

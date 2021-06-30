@@ -132,7 +132,8 @@
 
 ```javascript
 
-() =>  {};
+(x = (enum) = f) =>  { };
+
 ```
 
 ### Diagnostics

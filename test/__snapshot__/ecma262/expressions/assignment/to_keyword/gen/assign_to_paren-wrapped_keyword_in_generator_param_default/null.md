@@ -139,7 +139,8 @@ function *f(x = (null) = f) {}
 
 ```javascript
 
-function * f() {}
+function* f(x = (null) = f) { }
+
 ```
 
 ### Diagnostics

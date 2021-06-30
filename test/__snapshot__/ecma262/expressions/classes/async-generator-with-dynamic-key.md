@@ -135,8 +135,9 @@ class x { async *[y](){}}
 ```javascript
 
 class x {
-  async [y]() {}
+  async *[y]() { }
 }
+
 ```
 
 ### Diagnostics

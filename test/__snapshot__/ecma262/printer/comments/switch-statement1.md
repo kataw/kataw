@@ -58,6 +58,7 @@ switch /* comment 1 */ (x) {}
 
 switch/* comment 1 */ (x) {
 }
+
 ```
 
 ### Diagnostics

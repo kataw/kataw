@@ -210,9 +210,8 @@ function *g() { (x = x + foo(a, yield y)) => x; }
 
 ```javascript
 
-function * g() {
-  () =>  x;
-}
+function* g() { (x = x + foo(a, yield y)) => x; }
+
 ```
 
 ### Diagnostics

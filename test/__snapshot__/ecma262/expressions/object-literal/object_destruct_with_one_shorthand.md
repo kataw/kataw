@@ -102,6 +102,7 @@ x({a}=obj);
 ```javascript
 
 x({ a } = obj);
+
 ```
 
 ### Diagnostics

@@ -286,9 +286,10 @@ const uuid = String(this._uuidCounter++);
 ```javascript
 
 (this.x++).toString();
-new  (r++)();
+new (r++);
 (x++)();
 const uuid = String(this._uuidCounter++);
+
 ```
 
 ### Diagnostics

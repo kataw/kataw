@@ -147,7 +147,8 @@
 
 ```javascript
 
-0, { x: x = y } = {};
+0, { x : x = y } = {};
+
 ```
 
 ### Diagnostics

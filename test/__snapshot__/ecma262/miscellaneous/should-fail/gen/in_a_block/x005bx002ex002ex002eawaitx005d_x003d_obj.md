@@ -115,6 +115,7 @@
 {
   [...await] = obj;
 }
+
 ```
 
 ### Diagnostics

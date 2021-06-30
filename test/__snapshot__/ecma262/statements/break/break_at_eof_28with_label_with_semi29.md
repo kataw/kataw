@@ -70,6 +70,7 @@ foo: break foo;
 ```javascript
 
 foo: break foo;
+
 ```
 
 ### Diagnostics

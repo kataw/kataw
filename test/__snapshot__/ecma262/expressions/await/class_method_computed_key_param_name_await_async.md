@@ -306,8 +306,13 @@ async function f(){
 ```javascript
 
 async function f() {
-  () =>  {};
+  (fail = class A {
+      [x](await) { }
+      ;
+      "\"x\""() { }
+    }) =>  { };
 }
+
 ```
 
 ### Diagnostics

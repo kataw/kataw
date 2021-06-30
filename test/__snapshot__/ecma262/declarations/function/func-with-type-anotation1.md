@@ -161,7 +161,8 @@ function g(a:number=1, e:number=1) {}
 
 ```javascript
 
-function g() {}
+function g(a: number = 1, e: number = 1) { }
+
 ```
 
 ### Diagnostics

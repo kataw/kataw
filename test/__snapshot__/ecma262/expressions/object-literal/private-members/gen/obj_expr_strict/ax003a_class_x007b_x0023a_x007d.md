@@ -139,9 +139,11 @@
 
 ```javascript
 
-({ a: class  {
-    #a;
+'\'use strict\'';
+({ a : class  {
+    #a
   } });
+
 ```
 
 ### Diagnostics

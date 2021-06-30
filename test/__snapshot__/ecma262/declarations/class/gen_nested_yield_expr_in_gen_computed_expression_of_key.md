@@ -206,11 +206,10 @@ function *f(){  class x{*[yield](a){}}  }
 
 ```javascript
 
-function * f() {
-  class x {
-    [ yield]() {}
-  }
-}
+function* f() { class x {
+  *[yield](a) { }
+} }
+
 ```
 
 ### Diagnostics

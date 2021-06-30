@@ -98,6 +98,7 @@ let {x} = v
 let {
   x
 } = v;
+
 ```
 
 ### Diagnostics

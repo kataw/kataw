@@ -501,12 +501,14 @@ function f<X, Y: X, Z: Y, W>(y: Y, z: X, w: W): X {
 
 ```javascript
 
-function  <X, Y: , Z: , W >f():  {
-  if (n === 0) return  y;
-  if (n === 1) return  z;
-  return  w; // nope
-
+function f<X, Y: X, Z: Y, W> (y: Y, z: X, w: W): X {
+  if (n === 0)
+    return y;
+  if (n === 1)
+    return z;
+  return w;// nope
 }
+
 ```
 
 ### Diagnostics

@@ -125,7 +125,8 @@
 
 ```javascript
 
-[async  =>  ok].x;
+[async (x, y) => ok,].x;
+
 ```
 
 ### Diagnostics

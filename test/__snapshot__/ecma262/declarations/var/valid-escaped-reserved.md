@@ -253,14 +253,15 @@ var int\u0065rface = 1;
 
 ```javascript
 
-var implements = 1;
+var impl\u0065ments = 1;
 var {
-  implements
+  impl\u0065ments
 } = {};
 var {
-  interface
+  int\u0065rface
 } = {};
-var interface = 1;
+var int\u0065rface = 1;
+
 ```
 
 ### Diagnostics

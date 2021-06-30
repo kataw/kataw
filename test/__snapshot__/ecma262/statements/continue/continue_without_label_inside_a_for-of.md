@@ -79,6 +79,7 @@ for (x of y) continue
 
 for (x of y)
   continue;
+
 ```
 
 ### Diagnostics

@@ -149,7 +149,8 @@ async (x = delete ((eval) = f)) => {}
 
 ```javascript
 
-async  =>  {}
+async (x = delete  ((eval) = f)) =>  { }
+
 ```
 
 ### Diagnostics

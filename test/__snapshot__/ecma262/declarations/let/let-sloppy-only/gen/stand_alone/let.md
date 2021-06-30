@@ -52,6 +52,7 @@ let
 ```javascript
 
 let;
+
 ```
 
 ### Diagnostics

@@ -252,11 +252,12 @@ function F<T>() {
 
 ```javascript
 
-function  <T >F() {
-  var expr: ;
-  for ( in expr)
-    {}
+function F<T> () {
+  var expr: T;
+  for (var a in expr) {
+  }
 }
+
 ```
 
 ### Diagnostics

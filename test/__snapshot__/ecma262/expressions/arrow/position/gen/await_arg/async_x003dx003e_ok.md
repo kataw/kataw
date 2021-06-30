@@ -142,8 +142,9 @@ async function f() {
 ```javascript
 
 async function f() {
-  await async =>  ok;
+  await async => ok;
 }
+
 ```
 
 ### Diagnostics

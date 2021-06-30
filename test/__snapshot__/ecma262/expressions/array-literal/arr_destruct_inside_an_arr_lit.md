@@ -108,7 +108,8 @@
 
 ```javascript
 
-(foo, [bar, baz] = doo);
+(foo, [bar, baz,] = doo);
+
 ```
 
 ### Diagnostics

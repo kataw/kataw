@@ -99,6 +99,7 @@ x = {x, ...y}
 ```javascript
 
 x = { x, ...y };
+
 ```
 
 ### Diagnostics

@@ -198,10 +198,9 @@ class x { constructor(){ return () => () => super.foo; }}
 ```javascript
 
 class x {
-  constructor() {
-    return  () =>  () =>  .foo;
-  }
+  constructor() { return () => () => super.foo; }
 }
+
 ```
 
 ### Diagnostics

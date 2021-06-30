@@ -514,6 +514,7 @@ type a = (((symbol[{[x]:string}][][][] | ((y & [((x) => T)]) => T) => T) => T) =
 
 ```javascript
 
+type a = (((symbol[{ [x]: string }][][][] | ((y & [((x) => T)]) => T) => T) => T) => T) => T
 
 ```
 

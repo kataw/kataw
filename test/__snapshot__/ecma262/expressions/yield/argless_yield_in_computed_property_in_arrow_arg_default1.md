@@ -188,9 +188,8 @@ function *g(){ (x = {[yield]: 1}) => z }
 
 ```javascript
 
-function * g() {
-  () =>  z;
-}
+function* g() { (x = { [yield] : 1 }) => z; }
+
 ```
 
 ### Diagnostics

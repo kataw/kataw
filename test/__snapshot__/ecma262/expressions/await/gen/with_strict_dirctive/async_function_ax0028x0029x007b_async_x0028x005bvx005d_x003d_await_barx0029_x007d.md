@@ -183,10 +183,9 @@
 
 ```javascript
 
-async function a() {
-  async([v] = await bar)
+'\'use strict\'';
+async function a() { async([v,] = await bar) ; }
 
-}
 ```
 
 ### Diagnostics

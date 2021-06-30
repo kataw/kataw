@@ -44,6 +44,7 @@
 ```javascript
 
 `a`;
+
 ```
 
 ### Diagnostics

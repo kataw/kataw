@@ -111,8 +111,9 @@ for (456..x of c) d;
 
 ```javascript
 
-for (456.x of c)
+for (456..x of c)
   d;
+
 ```
 
 ### Diagnostics

@@ -132,8 +132,9 @@ class x {* false(){}}
 ```javascript
 
 class x {
-  false() {}
+  *false() { }
 }
+
 ```
 
 ### Diagnostics

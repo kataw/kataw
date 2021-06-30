@@ -96,9 +96,10 @@ x = 1;
 
 ```javascript
 
-while (false) let; // ASI
-
+while (false)
+  let;// ASI
 x = 1;
+
 ```
 
 ### Diagnostics

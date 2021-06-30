@@ -94,7 +94,9 @@ x in x) ;
 
 ```javascript
 
-for (async; ; x in x);
+for (async;; x in x)
+  ;
+
 ```
 
 ### Diagnostics

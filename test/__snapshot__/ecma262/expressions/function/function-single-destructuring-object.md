@@ -1007,15 +1007,45 @@ function StatelessFunctionalComponent3(
 
 ```javascript
 
-function StatelessFunctionalComponent() {
+function StatelessFunctionalComponent({
+    isActive,
+    onFiltersUpdated,
+    onSelect,
+    onSubmitAndDeselect,
+    onCancel,
+    searchFilters,
+    title,
+    items,
+  }) {
   x;
 }
-function StatelessFunctionalComponent2() {
-  return  x;
+function StatelessFunctionalComponent2({
+    isActive = true,
+    onFiltersUpdated = () => null,
+    onSelect = () => null,
+    onSubmitAndDeselect = () => null,
+    onCancel = () => null,
+    searchFilters = null,
+    title = '\'\'',
+    items = [],
+  } = {}) {
+  return x;
 }
-function StatelessFunctionalComponent3() {
-  return  x;
+function StatelessFunctionalComponent3({
+    isActive,
+    onFiltersUpdated = () => null,
+    onSelect = () => null,
+    onSubmitAndDeselect = () => null,
+    onCancel = () => null,
+    searchFilters = null,
+    title = '\'\'',
+    items = [],
+  } = {
+    isActive : true
+  }) {
+  return x;
 }
+
 ```
 
 ### Diagnostics

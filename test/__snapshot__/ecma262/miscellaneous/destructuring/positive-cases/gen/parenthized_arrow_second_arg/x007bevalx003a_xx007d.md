@@ -157,7 +157,10 @@ var f = (argument1,{eval: x}) => {};
 
 ```javascript
 
-var f = () =>  {};
+var f = (argument1, {
+    eval: x
+  }) =>  { };
+
 ```
 
 ### Diagnostics

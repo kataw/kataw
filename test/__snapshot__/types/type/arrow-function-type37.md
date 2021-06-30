@@ -520,6 +520,7 @@ type a = (a[a & b[a|b|c|d|e]][c | d][(x) => T][-1][{...x}][]) => T;
 
 ```javascript
 
+type a = (a[a & b[a | b | c | d | e]][c | d][(x) => T][-1][{ ...x }][]) => T
 
 ```
 

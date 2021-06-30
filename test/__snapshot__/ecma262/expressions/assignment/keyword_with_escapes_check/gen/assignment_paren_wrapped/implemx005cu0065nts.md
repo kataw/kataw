@@ -77,7 +77,8 @@
 
 ```javascript
 
-(implements = x);
+(implem\u0065nts = x);
+
 ```
 
 ### Diagnostics

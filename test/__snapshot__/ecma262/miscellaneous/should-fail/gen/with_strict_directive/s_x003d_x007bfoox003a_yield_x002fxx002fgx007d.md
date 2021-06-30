@@ -150,7 +150,9 @@
 
 ```javascript
 
-s = { foo: yield / x / g };
+"\"use strict\"";
+s = { foo : yield / x / g };
+
 ```
 
 ### Diagnostics

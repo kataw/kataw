@@ -146,10 +146,9 @@ class x { foo(){ super.foo; }}
 ```javascript
 
 class x {
-  foo() {
-    .foo;
-  }
+  foo() { super.foo; }
 }
+
 ```
 
 ### Diagnostics

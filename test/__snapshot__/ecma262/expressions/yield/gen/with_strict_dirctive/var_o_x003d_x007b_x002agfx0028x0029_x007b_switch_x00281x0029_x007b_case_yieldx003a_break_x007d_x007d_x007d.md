@@ -227,12 +227,12 @@
 
 ```javascript
 
-var o = { * gf() {
-    switch(1) {
-      case  yield:
-        break;
-    }
-  } };
+'\'use strict\'';
+var o = { * gf() { switch (1) {
+    case yield: 
+      break;
+  } } };
+
 ```
 
 ### Diagnostics

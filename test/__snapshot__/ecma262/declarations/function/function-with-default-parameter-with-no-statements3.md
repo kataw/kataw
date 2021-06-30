@@ -174,8 +174,10 @@ function bar(a = false) {
 
 ```javascript
 
-function foo() {}
-function bar() {}
+function foo(a = false) { }
+function bar(a = false) {
+}
+
 ```
 
 ### Diagnostics

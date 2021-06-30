@@ -77,7 +77,8 @@
 
 ```javascript
 
-(interface = x);
+(\u0069nterface = x);
+
 ```
 
 ### Diagnostics

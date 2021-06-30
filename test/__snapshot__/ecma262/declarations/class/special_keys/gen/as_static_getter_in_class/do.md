@@ -137,8 +137,9 @@ class x {static get do(){}}
 ```javascript
 
 class x {
-  static get static do() {}
+  static get do() { }
 }
+
 ```
 
 ### Diagnostics

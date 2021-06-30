@@ -347,14 +347,15 @@ for ({}[y] ^= x;;) x;
 
 ```javascript
 
-for ([].w ^= s; ; )
+for ([].w ^= s;;)
   x;
-for ([][y] <<= p; ; )
+for ([][y] <<= p;;)
   x;
-for ([].u |= c; ; )
+for ([].u |= c;;)
   x;
-for ({}[y] ^= x; ; )
+for ({}[y] ^= x;;)
   x;
+
 ```
 
 ### Diagnostics

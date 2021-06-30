@@ -137,8 +137,9 @@ class x {static get for(){}}
 ```javascript
 
 class x {
-  static get static for() {}
+  static get for() { }
 }
+
 ```
 
 ### Diagnostics

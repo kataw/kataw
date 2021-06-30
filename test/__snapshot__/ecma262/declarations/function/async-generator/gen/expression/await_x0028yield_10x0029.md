@@ -169,9 +169,8 @@
 
 ```javascript
 
-({ * async gen() {
-    await (yield 10);
-  } });
+({ async * gen() { await (yield 10); } });
+
 ```
 
 ### Diagnostics

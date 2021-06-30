@@ -96,7 +96,10 @@
 
 ```javascript
 
-class   {}
+"\"use strict\"";
+class  extends A {
+}
+
 ```
 
 ### Diagnostics

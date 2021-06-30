@@ -145,10 +145,11 @@ switch (x) {
 
 ```javascript
 
-switch(x) {
-  default
-    async function * f() {}
+switch (x) {
+  default: 
+    async function* f() { }
 }
+
 ```
 
 ### Diagnostics

@@ -285,15 +285,10 @@ function * gen() { function not_gen() { function* gf() { class C { *yield() { } 
 
 ```javascript
 
-function * gen() {
-  function not_gen() {
-    function * gf() {
-      class C {
-        yield() {}
-      }
-    }
-  }
-}
+function* gen() { function not_gen() { function* gf() { class C {
+  *yield() { }
+} } } }
+
 ```
 
 ### Diagnostics

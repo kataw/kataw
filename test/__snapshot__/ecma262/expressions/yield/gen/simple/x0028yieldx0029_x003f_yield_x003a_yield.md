@@ -92,6 +92,7 @@
 ```javascript
 
 (yield) ? yield : yield;
+
 ```
 
 ### Diagnostics

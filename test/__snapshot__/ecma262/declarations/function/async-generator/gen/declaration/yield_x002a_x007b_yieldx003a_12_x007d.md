@@ -161,9 +161,8 @@ async function * gen() {yield *
 
 ```javascript
 
-async function * gen() {
-  yield * { yield: 12 };
-}
+async function* gen() { yield* { yield : 12 }; }
+
 ```
 
 ### Diagnostics

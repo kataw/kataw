@@ -132,6 +132,7 @@ test !== false ? success() : error()
 ```javascript
 
 test !== false ? success() : error();
+
 ```
 
 ### Diagnostics

@@ -93,7 +93,8 @@ function f(enum) {}
 
 ```javascript
 
-function f() {}
+function f(enum) { }
+
 ```
 
 ### Diagnostics

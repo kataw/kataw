@@ -3228,27 +3228,28 @@ a ? c : b || c;
 a = b == null ? c : b;
 a = b != null ? b : c;
 a(b ? 0 : 0);
-a(b ? +0 : -0);
-a(b ? +0 : 0);
-a(b ? -0 : 0);
+a(b ? + 0 : - 0);
+a(b ? + 0 : 0);
+a(b ? - 0 : 0);
 a ? b : b;
-a ? -b : -b;
+a ? - b : - b;
 a ? b.c : b.c;
-a ?  : ;
+a ? b?.c : b?.c;
 a ? b[c] : b[c];
 a ? b() : b();
-a ?  : ;
-a ?  : ;
+a ? b?.() : b?.();
+a ? b?.[c] : b?.[c];
 a ? b == c : b == c;
 a ? b.c(d + e[f]) : b.c(d + e[f]);
-a ? -b : !b;
+a ? - b : ! b;
 a ? b() : b(c);
 a ? b(c) : b(d);
-a ?  : b.c;
-a ?  : b();
-a ?  : b[c];
+a ? b?.c : b.c;
+a ? b?.() : b();
+a ? b?.[c] : b[c];
 a ? b == c : b != c;
 a ? b.c(d + e[f]) : b.c(d + e[g]);
+
 ```
 
 ### Diagnostics

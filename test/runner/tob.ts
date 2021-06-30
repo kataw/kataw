@@ -1,4 +1,4 @@
-import { printSourceFile } from '../../src/printer';
+import { printCST } from '../../src/printer';
 import { parseScript, parseModule } from '../../src/kataw';
 import { promiseToReadFile, promiseToWriteFile, Constants, report, deepEqual } from './utils';
 import { visit } from './visit';
@@ -51,7 +51,7 @@ export async function file2Tob(filename: string): Promise<Tob> {
   visit(cst, tob.filename);
 
   tob.$cst = JSON.stringify(cst, null, 4);
-  tob.$printed = diagnostics.length === 0 ? printSourceFile(cst, tob.printerOptions) : '';
+  tob.$printed = diagnostics.length === 0 ? printCST(cst, tob.printerOptions) : '';
   tob.$diagnostics = diagnostics2md(diagnostics);
 
   !deepEqual(tob.cst, tob.$cst) && tob.mismatchItems.push('cst');

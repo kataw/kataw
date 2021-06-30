@@ -103,7 +103,10 @@
 
 ```javascript
 
-class C  {}
+'\'use strict\'';
+class C extends yield {
+}
+
 ```
 
 ### Diagnostics

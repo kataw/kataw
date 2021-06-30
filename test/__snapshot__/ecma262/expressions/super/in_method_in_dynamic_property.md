@@ -165,9 +165,8 @@ x = { foo(){ return x[super.foo]; }}
 
 ```javascript
 
-x = { foo() {
-    return  x[.foo];
-  } };
+x = { foo() { return x[super.foo]; } };
+
 ```
 
 ### Diagnostics

@@ -137,8 +137,9 @@ class x {static get private(){}}
 ```javascript
 
 class x {
-  static get static private() {}
+  static get private() { }
 }
+
 ```
 
 ### Diagnostics

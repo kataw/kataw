@@ -239,8 +239,9 @@ gen = function*() {};
 ```javascript
 
 var xGen, gen;
-xGen = function * x() {};
-gen = function * () {};
+xGen = function* x() { };
+gen = function* () { };
+
 ```
 
 ### Diagnostics

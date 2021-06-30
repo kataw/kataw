@@ -132,8 +132,9 @@ class x {get delete(){}}
 ```javascript
 
 class x {
-  get delete() {}
+  get delete() { }
 }
+
 ```
 
 ### Diagnostics

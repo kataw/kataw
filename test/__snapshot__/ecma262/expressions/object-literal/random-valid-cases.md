@@ -4525,56 +4525,57 @@ a = { y: x = 1 } = b;
 
 ```javascript
 
-({ key: {} });
-({ key: { a } = x });
-({ a: b } = obj);
-({ 1: {}.b ? c : d });
-({ a: { prop: 1 }.prop } = {});
-({ 1: +b });
-({ [a]: +b });
-({ a: +b });
-({ async: (await) ? yield : foo });
-({ async 100() {} });
-({ key: bar = x });
-({ typeof() {} });
-({ x() {}, x: 1 });
-({ * x() {}, get x() {} });
-({ "\"x\"": y + z });
-() =>  x;
-({ "\"x\"": { y: z } });
-x({ [a]: b, [15]: d } = obj);
-({ l: 50.foo } = x);
-a = { "\"b\"": c = d };
-({ x: let });
-({ x: let } = null);
-s = { "\"foo\"": this };
-x({ set "\"foo\""() {} });
-({ a = 42, [b]: c.d } = e);
-x({ foo() {}, * bar() {} });
-({ ...[a, b] });
-x = { a: 1, ...y, b: 1 };
-x({ get 0x234241() {} });
-x({ get 1() {} });
-({ [left()]: y, ...x } = right());
-({ topLeft: { x: x1, y: y1 }, bottomRight: { x: x2, y: y2 } } = rect);
+({ key : {} });
+({ key : { a } = x });
+({ a : b } = obj);
+({ 1 : {}.b ? c : d });
+({ a : { prop : 1 }.prop } = {});
+({ 1 : + b });
+({ [a] : + b });
+({ a : + b });
+({ async : (await) ? yield : foo });
+({ async 100() { } });
+({ key : bar = x });
+({ typeof(x, y) { } });
+({ x() { }, x : 1 });
+({ * x() { }, get x() { } });
+({ "\"x\"" : y + z });
+({
+    "\"x\"": [y,]
+  }) => x;
+({ "\"x\"" : { y : z } });
+x({ [a] : b, [15] : d } = obj);
+({ l : 50..foo } = x);
+a = { "\"b\"" : c = d };
+({ x : let });
+({ x : let } = null);
+s = { "\"foo\"" : this };
+x({ set "\"foo\""(a) { } });
+({ a = 42, [b] : c.d } = e);
+x({ foo() { }, * bar() { } });
+({ ...[a, b,] });
+x = { a : 1, ...y, b : 1 };
+x({ get 0x234241() { } });
+x({ get 1() { } });
+({ [left()] : y, ...x } = right());
+({ topLeft : { x : x1, y : y1 }, bottomRight : { x : x2, y : y2 } } = rect);
 ({ y });
-({ set [0]() {
-    .m("\"1\"", v);
-  } });
-x = { async: b }({ set foo() {} });
-({ * set() {} });
-({ * static() {} });
-({ * async() {} });
-({ get: 0 });
-({ if: 4 });
-({ * await() {} });
-x = { * "\"foo\""() {} };
-x = { set get() {} };
-x = { foo: typeof x };
-x = { "\"x\"": { a: y + x } };
-a = { w, a: x } = b;
+({ set [0](x) { super.m("\"1\"", v); } });
+x = { async : b }({ set foo(v) { } });
+({ * set() { } });
+({ * static() { } });
+({ * async() { } });
+({ get : 0 });
+({ if : 4 });
+({ * await() { } });
+x = { * "\"foo\""() { } };
+x = { set get(a) { } };
+x = { foo : typeof  x };
+x = { "\"x\"" : { a : y + x } };
+a = { w, a : x } = b;
 a = { ...src.y.x } = b;
-a = { y: x = 1 } = b;
+a = { y : x = 1 } = b;
+
 ```
 
 ### Diagnostics

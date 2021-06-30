@@ -212,11 +212,8 @@ function * gen() { function not_gen() { var [yield] = [42]; }}
 
 ```javascript
 
-function * gen() {
-  function not_gen() {
-    var [yield] = [42];
-  }
-}
+function* gen() { function not_gen() { var [yield] = [42,]; } }
+
 ```
 
 ### Diagnostics

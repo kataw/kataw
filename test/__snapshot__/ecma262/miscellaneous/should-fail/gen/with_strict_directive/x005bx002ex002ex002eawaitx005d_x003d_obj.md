@@ -107,7 +107,9 @@
 
 ```javascript
 
+"\"use strict\"";
 [...await] = obj;
+
 ```
 
 ### Diagnostics

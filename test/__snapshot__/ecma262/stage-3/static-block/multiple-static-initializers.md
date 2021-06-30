@@ -514,20 +514,21 @@ class Foo {
 ```javascript
 
 class Foo {
-  #bar = 21;
-
-  #_ = (() =>  {
-        this.foo = this.#bar;
-        this.qux1 = this.qux;
-      })();
-
-  qux = 21;
-
-  #_2 = (() =>  {
-        this.qux2 = this.qux;
-      })();
-
+  static #bar = 21
+  ;
+  static #_ = (() =>  {
+    this.foo = this.#bar;
+    this.qux1 = this.qux;
+  })()
+  ;
+  static qux = 21
+  ;
+  static #_2 = (() =>  {
+    this.qux2 = this.qux;
+  })()
+  ;
 }
+
 ```
 
 ### Diagnostics

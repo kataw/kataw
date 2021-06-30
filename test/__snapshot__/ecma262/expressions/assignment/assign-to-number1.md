@@ -70,6 +70,7 @@ x = 123;
 ```javascript
 
 x = 123;
+
 ```
 
 ### Diagnostics

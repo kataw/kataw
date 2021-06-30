@@ -105,7 +105,9 @@ if ( a > b instanceof c ) ;
 
 ```javascript
 
-if (a > b instanceof c);
+if (a > b instanceof c)
+  ;
+
 ```
 
 ### Diagnostics

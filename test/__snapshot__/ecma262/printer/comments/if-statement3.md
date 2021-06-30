@@ -69,9 +69,9 @@ if /* comment 2 */ (x) /* comment 3 */ {}
 
 ```javascript
 /* comment 1 */
+if/* comment 2 */ (x)/* comment 3 */ { }
+ /* comment 4 */
 
-if /* comment 2 */ (x) {
-  }
 ```
 
 ### Diagnostics

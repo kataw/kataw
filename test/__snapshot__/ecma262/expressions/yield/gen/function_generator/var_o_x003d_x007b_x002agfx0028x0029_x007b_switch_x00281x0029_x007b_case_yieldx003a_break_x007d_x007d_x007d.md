@@ -319,16 +319,11 @@ function * gen() { function not_gen() { var o = { *gf() { switch (1) { case yiel
 
 ```javascript
 
-function * gen() {
-  function not_gen() {
-    var o = { * gf() {
-        switch(1) {
-          case  yield:
-            break;
-        }
-      } };
-  }
-}
+function* gen() { function not_gen() { var o = { * gf() { switch (1) {
+    case yield: 
+      break;
+  } } }; } }
+
 ```
 
 ### Diagnostics

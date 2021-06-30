@@ -179,7 +179,8 @@ function* foo(a = function* foo() { yield b }) {}
 
 ```javascript
 
-function * foo() {}
+function* foo(a = function* foo() { yield b; }) { }
+
 ```
 
 ### Diagnostics

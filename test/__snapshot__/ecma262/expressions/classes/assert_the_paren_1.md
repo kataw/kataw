@@ -125,8 +125,9 @@ class x {[x](){}}
 ```javascript
 
 class x {
-  [x]() {}
+  [x]() { }
 }
+
 ```
 
 ### Diagnostics

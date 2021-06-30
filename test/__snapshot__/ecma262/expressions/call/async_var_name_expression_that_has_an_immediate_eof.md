@@ -64,6 +64,7 @@ x + async
 ```javascript
 
 x + async;
+
 ```
 
 ### Diagnostics

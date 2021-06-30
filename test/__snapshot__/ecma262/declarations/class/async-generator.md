@@ -132,8 +132,9 @@ class A {
 ```javascript
 
 class A {
-  async a() {}
+  async *a() { }
 }
+
 ```
 
 ### Diagnostics

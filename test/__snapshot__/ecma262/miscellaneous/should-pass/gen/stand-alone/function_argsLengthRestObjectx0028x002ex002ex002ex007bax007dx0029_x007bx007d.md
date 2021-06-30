@@ -123,7 +123,10 @@ function argsLengthRestObject(...{a}) {}
 
 ```javascript
 
-function argsLengthRestObject() {}
+function argsLengthRestObject(...{
+    a
+  }) { }
+
 ```
 
 ### Diagnostics

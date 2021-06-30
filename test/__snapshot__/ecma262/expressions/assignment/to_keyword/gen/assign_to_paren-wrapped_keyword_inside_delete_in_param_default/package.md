@@ -149,7 +149,8 @@ async (x = delete ((package) = f)) => {}
 
 ```javascript
 
-async  =>  {}
+async (x = delete  ((package) = f)) =>  { }
+
 ```
 
 ### Diagnostics

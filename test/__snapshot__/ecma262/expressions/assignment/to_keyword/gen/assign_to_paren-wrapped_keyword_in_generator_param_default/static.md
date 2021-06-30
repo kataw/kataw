@@ -141,7 +141,8 @@ function *f(x = (static) = f) {}
 
 ```javascript
 
-function * f() {}
+function* f(x = (static) = f) { }
+
 ```
 
 ### Diagnostics

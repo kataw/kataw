@@ -71,7 +71,8 @@
 
 ```javascript
 
-protected = x;
+\u0070rotected = x;
+
 ```
 
 ### Diagnostics

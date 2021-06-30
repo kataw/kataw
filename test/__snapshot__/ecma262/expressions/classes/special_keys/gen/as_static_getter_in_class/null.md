@@ -137,8 +137,9 @@ class x {static get null(){}}
 ```javascript
 
 class x {
-  static get static null() {}
+  static get null() { }
 }
+
 ```
 
 ### Diagnostics

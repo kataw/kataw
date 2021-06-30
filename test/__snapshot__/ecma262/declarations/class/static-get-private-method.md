@@ -129,8 +129,9 @@ class C { static get #aaa(){} }
 ```javascript
 
 class C {
-  static get static #aaa() {}
+  static get #aaa() { }
 }
+
 ```
 
 ### Diagnostics

@@ -140,8 +140,9 @@
 ```javascript
 
 (class  {
-    constructor() {}
-  });
+  constructor(enum) { }
+});
+
 ```
 
 ### Diagnostics

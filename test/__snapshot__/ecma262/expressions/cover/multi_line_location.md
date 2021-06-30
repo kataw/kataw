@@ -89,6 +89,7 @@ a = (
 ```javascript
 
 a = (b, c);
+
 ```
 
 ### Diagnostics

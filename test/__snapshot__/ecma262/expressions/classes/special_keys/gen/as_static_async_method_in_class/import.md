@@ -137,8 +137,9 @@ class x {static async import(){}}
 ```javascript
 
 class x {
-  async static static import() {}
+  static async import() { }
 }
+
 ```
 
 ### Diagnostics

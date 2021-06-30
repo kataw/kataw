@@ -83,7 +83,8 @@ x = import(x)
 
 ```javascript
 
-x = ;
+x = import(x);
+
 ```
 
 ### Diagnostics

@@ -74,6 +74,7 @@
 ```javascript
 
 `foo${{}}baz`;
+
 ```
 
 ### Diagnostics

@@ -131,7 +131,8 @@ async (x = (private) = f) => {}
 
 ```javascript
 
-async  =>  {}
+async (x = (private) = f) =>  { }
+
 ```
 
 ### Diagnostics

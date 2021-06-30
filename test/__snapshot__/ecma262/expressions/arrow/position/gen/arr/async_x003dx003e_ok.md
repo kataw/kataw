@@ -89,7 +89,8 @@
 
 ```javascript
 
-[async =>  ok];
+[async => ok,];
+
 ```
 
 ### Diagnostics

@@ -118,7 +118,8 @@
 
 ```javascript
 
-({ set async() {} });
+({ set async(x) { } });
+
 ```
 
 ### Diagnostics

@@ -113,7 +113,8 @@
 
 ```javascript
 
-({ x: y.z } = b);
+({ x : y.z } = b);
+
 ```
 
 ### Diagnostics

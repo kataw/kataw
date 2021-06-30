@@ -150,7 +150,8 @@
 
 ```javascript
 
-() =>  {};
+(x = delete  ((static) = f)) =>  { };
+
 ```
 
 ### Diagnostics

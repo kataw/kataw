@@ -96,7 +96,9 @@ for (a instanceof b;;);
 
 ```javascript
 
-for (a instanceof b; ; );
+for (a instanceof b;;)
+  ;
+
 ```
 
 ### Diagnostics

@@ -154,9 +154,9 @@
 
 ```javascript
 
-function * g() {
-  x ?  yield : y;
-}
+'\'use strict\'';
+function* g() { x ? yield : y; }
+
 ```
 
 ### Diagnostics

@@ -120,7 +120,8 @@ async <T>() => await null;
 
 ```javascript
 
-async  =>  await null;
+async <T>() => await null;
+
 ```
 
 ### Diagnostics

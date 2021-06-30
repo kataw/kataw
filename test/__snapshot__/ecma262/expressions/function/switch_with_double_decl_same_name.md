@@ -204,12 +204,13 @@ switch (0) {
 
 ```javascript
 
-switch(0) {
-  case 1:
-    function f() {}
-  default
-    function f() {}
+switch (0) {
+  case 1: 
+    function f() { }
+  default: 
+    function f() { }
 }
+
 ```
 
 ### Diagnostics

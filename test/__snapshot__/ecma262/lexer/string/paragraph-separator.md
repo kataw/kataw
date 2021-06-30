@@ -44,6 +44,7 @@
 ```javascript
 
 "\"\u2029\"";
+
 ```
 
 ### Diagnostics

@@ -90,6 +90,7 @@
 ```javascript
 
 ([].length) = y;
+
 ```
 
 ### Diagnostics

@@ -194,11 +194,10 @@ class x extends y { fo(){ return () => super[bar]; }}
 
 ```javascript
 
-class x  {
-  fo() {
-    return  () =>  [bar];
-  }
+class x extends y {
+  fo() { return () => super[bar]; }
 }
+
 ```
 
 ### Diagnostics

@@ -222,9 +222,10 @@ async function fn() {
 ```javascript
 
 async function fn() {
-  async  =>  {}
-
+  async (x = async(y = await 2)) =>  { }
+  ;
 }
+
 ```
 
 ### Diagnostics

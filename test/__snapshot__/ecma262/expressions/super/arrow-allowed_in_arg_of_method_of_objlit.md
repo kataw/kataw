@@ -200,9 +200,8 @@ x={ dsda(){ return (a=super[bar]) => a; }}
 
 ```javascript
 
-x = { dsda() {
-    return  () =>  a;
-  } };
+x = { dsda() { return (a = super[bar]) => a; } };
+
 ```
 
 ### Diagnostics

@@ -137,7 +137,8 @@
 
 ```javascript
 
-[[x = true] = true] = y;
+[[x = true,] = true,] = y;
+
 ```
 
 ### Diagnostics

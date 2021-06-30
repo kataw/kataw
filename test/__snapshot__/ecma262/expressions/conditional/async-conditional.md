@@ -110,6 +110,7 @@ true ? async.waterfall() : null;
 ```javascript
 
 true ? async.waterfall() : null;
+
 ```
 
 ### Diagnostics

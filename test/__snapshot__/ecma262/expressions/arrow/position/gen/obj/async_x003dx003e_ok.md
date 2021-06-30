@@ -124,7 +124,8 @@ x = {arrow: async => ok}
 
 ```javascript
 
-x = { arrow: async =>  ok };
+x = { arrow : async => ok };
+
 ```
 
 ### Diagnostics

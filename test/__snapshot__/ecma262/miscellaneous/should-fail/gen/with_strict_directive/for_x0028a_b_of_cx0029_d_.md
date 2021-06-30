@@ -112,8 +112,10 @@
 
 ```javascript
 
+"\"use strict\"";
 for (a, b; c; of)
   d;
+
 ```
 
 ### Diagnostics

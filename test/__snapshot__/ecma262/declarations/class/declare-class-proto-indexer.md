@@ -133,7 +133,8 @@ declare class C { proto [K]: V }
 
 ```javascript
 
-declare class C TODO!
+declare class C { [K]: V }
+
 ```
 
 ### Diagnostics

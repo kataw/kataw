@@ -127,8 +127,9 @@ class x {static(){}}
 ```javascript
 
 class x {
-  static() {}
+  static() { }
 }
+
 ```
 
 ### Diagnostics

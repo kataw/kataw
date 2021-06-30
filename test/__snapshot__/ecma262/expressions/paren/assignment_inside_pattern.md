@@ -155,7 +155,8 @@
 
 ```javascript
 
-([target()[targetKey(a = b)]] = x);
+([target()[targetKey(a = b)],] = x);
+
 ```
 
 ### Diagnostics

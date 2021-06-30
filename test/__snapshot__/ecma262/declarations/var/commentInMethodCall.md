@@ -178,9 +178,10 @@ s.map(// do something
 
 ```javascript
 //commment here
+var s: string[];
+s.map(// do something
+function () { });
 
-var s: [ string ];
-s.map(function () {});
 ```
 
 ### Diagnostics

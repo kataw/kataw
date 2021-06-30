@@ -103,8 +103,9 @@ x => y
 
 ```javascript
 
-new  async();
-x =>  y;
+new async;
+x => y;
+
 ```
 
 ### Diagnostics

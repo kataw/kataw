@@ -76,7 +76,10 @@
 
 ```javascript
 
-while (x) {}
+while (x) {
+  break;
+}
+
 ```
 
 ### Diagnostics

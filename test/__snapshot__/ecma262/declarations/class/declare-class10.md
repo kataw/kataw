@@ -80,7 +80,8 @@ declare class A {}
 
 ```javascript
 
-declare class A TODO!
+declare class A {}
+
 ```
 
 ### Diagnostics

@@ -141,7 +141,8 @@ function *f(x = (package) = f) {}
 
 ```javascript
 
-function * f() {}
+function* f(x = (package) = f) { }
+
 ```
 
 ### Diagnostics

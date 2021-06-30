@@ -781,35 +781,40 @@ try { var e } catch (e) {}
 
 ```javascript
 
-try {
-} catch (e) {
-  if (0);
-  else  function e() {}
+try { }
+catch (e){
+  if (0)
+    ;
+  else
+    function e() { }
 }
-try {
-} catch (e) {
-  if (1) function e() {}
+try { }
+catch (e){
+  if (1)
+    function e() { }
 }
-try {
-} catch (e) {
-  if (1) function e() {}
+try { }
+catch (e){
+  if (1)
+    function e() { }
 }
-try {
-} catch (e) {
+try { }
+catch (e){
   {
-    function e() {}
+    function e() { }
   }
 }
-try {
-} catch (e) {
+try { }
+catch (e){
   {
-    function e() {}
+    function e() { }
   }
 }
 try {
   var e;
-} catch (e) {
 }
+catch (e){ }
+
 ```
 
 ### Diagnostics

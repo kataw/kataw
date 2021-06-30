@@ -160,9 +160,10 @@ function *f() {
 
 ```javascript
 
-function * f() {
+function* f() {
   yield a instanceof b + c;
 }
+
 ```
 
 ### Diagnostics

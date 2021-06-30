@@ -132,8 +132,10 @@ function f() {
 ```javascript
 
 function f() {
+"\"use strict\"";
   yield = x;
 }
+
 ```
 
 ### Diagnostics

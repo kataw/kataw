@@ -92,7 +92,8 @@
 
 ```javascript
 
-[ok.v] = 20;
+[ok.v,] = 20;
+
 ```
 
 ### Diagnostics

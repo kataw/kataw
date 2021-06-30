@@ -913,27 +913,28 @@ class D<T> {
 
 ```javascript
 
-class C {
-  x;
-
-  constructor() {
+class C<X, Y> {
+  x: X
+  ;
+  constructor(x: X) {
     this.x = x;
   }
-  get() {
-    return  this.x;
+  get(): X {
+    return this.x;
   }
-  get_bad() {
-    return  this.x;
+  get_bad(): Y {
+    return this.x;
   }
 }
-class D {
-  x;
-
-  m() {
+class D<T> {
+  x: T
+  ;
+  m<S>(z: S, u: T): S {
     this.x = u;
-    return  z;
+    return z;
   }
 }
+
 ```
 
 ### Diagnostics

@@ -267,6 +267,7 @@ type Animal =
 
 ```javascript
 
+type Animal = | { type: "'insect'" } | { type: "'fish'" } | { type: "'chinese'" } | { type: "'bird'" }
 
 ```
 

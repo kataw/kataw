@@ -256,11 +256,10 @@ class Bar {
 ```javascript
 
 class Bar {
-  get ["'d'"]() {
-    return  "'foo'";
-  }
-  set ["'d'"]() {}
+  get ['\'d\'']() { return '\'foo\''; }
+  set ['\'d\''](x: number) { }
 }
+
 ```
 
 ### Diagnostics

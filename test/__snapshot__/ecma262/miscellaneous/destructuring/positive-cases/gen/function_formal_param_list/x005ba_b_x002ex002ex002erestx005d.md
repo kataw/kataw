@@ -139,7 +139,8 @@ function f([a,b,...rest]) {}
 
 ```javascript
 
-function f() {}
+function f([a, b, ...rest]) { }
+
 ```
 
 ### Diagnostics

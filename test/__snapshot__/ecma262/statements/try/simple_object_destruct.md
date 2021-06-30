@@ -104,11 +104,11 @@ try {} catch({e}){}
 
 ```javascript
 
-try {
-} catch ({
+try { }
+catch ({
   e
-}) {
-}
+}){ }
+
 ```
 
 ### Diagnostics

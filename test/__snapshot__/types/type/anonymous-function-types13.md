@@ -149,7 +149,8 @@ var f = (x): | 1 | 2 => 1;
 
 ```javascript
 
-var f = () =>  1;
+var f = (x) => 1;
+
 ```
 
 ### Diagnostics

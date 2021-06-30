@@ -121,8 +121,9 @@ class A {
 ```javascript
 
 class A {
-  constructor() {}
+  constructor() { }
 }
+
 ```
 
 ### Diagnostics

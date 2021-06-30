@@ -84,9 +84,10 @@
 ```javascript
 
 {
-  do x;
-  while (y);
+  do
+    x; while (y)
 }
+
 ```
 
 ### Diagnostics

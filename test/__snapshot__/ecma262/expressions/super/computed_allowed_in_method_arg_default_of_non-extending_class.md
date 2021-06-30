@@ -157,8 +157,9 @@ class x { foo(x=super[foo]){ }}
 ```javascript
 
 class x {
-  foo() {}
+  foo(x = super[foo]) { }
 }
+
 ```
 
 ### Diagnostics

@@ -184,9 +184,10 @@ function e(x: {}): () => string {
 
 ```javascript
 
-function e():  {
-  return  x;
+function e(x: {}): () => string {
+  return x;
 }
+
 ```
 
 ### Diagnostics

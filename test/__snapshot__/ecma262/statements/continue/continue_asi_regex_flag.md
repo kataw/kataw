@@ -94,6 +94,7 @@ for (x of 3) continue
 for (x of 3)
   continue;
 /x/g;
+
 ```
 
 ### Diagnostics

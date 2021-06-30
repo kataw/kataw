@@ -754,15 +754,16 @@
 ```javascript
 
 ({ async });
-({ async: await });
-({ async: (await) ? yield : foo });
-({ async: true });
-({ async() {} });
-({ async foo() {} });
-({ x, y, z() {} });
-({ async delete() {} });
-({ async [foo]() {} });
-({ async 100() {} });
+({ async : await });
+({ async : (await) ? yield : foo });
+({ async : true });
+({ async() { } });
+({ async foo() { } });
+({ x, y, z() { } });
+({ async delete() { } });
+({ async [foo]() { } });
+({ async 100() { } });
+
 ```
 
 ### Diagnostics

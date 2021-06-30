@@ -550,11 +550,12 @@ function five<T>(this: T) {}
 
 ```javascript
 
-function one() {}
-function two() {}
-function three() {}
-function four() {}
-function  <T >five() {}
+function one(this: number) { }
+function two(this: number, a) { }
+function three(this: number, ...a) { }
+function four(this: number, a, b, ...c) { }
+function five<T> (this: T) { }
+
 ```
 
 ### Diagnostics

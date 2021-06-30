@@ -138,6 +138,7 @@ type D = (Obj['bar'])['baz'];
 
 ```javascript
 
+type D = (Obj["'bar'"])["'baz'"]
 
 ```
 

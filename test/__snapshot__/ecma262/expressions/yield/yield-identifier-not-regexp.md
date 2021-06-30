@@ -358,6 +358,7 @@ function f2() {
   yield /= 2 / i;
   yield /= 2 / i;
 }
+
 ```
 
 ### Diagnostics

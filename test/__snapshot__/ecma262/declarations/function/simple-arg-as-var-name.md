@@ -123,9 +123,8 @@ function f(x) { var x; }
 
 ```javascript
 
-function f() {
-  var x;
-}
+function f(x) { var x; }
+
 ```
 
 ### Diagnostics

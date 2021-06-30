@@ -562,10 +562,10 @@ new Foo();
 
 class Foo {
   #tag() {
-    return  this;
+    return this;
   }
-  #tag2 = this.#tag;
-
+  #tag2 = this.#tag
+  ;
   constructor() {
     const receiver = this.#tag`tagged template`;
     console.assert(receiver === this);
@@ -573,7 +573,8 @@ class Foo {
     console.assert(receiver2 === this);
   }
 }
-new  Foo();
+new Foo();
+
 ```
 
 ### Diagnostics

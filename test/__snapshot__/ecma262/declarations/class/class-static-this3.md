@@ -159,10 +159,9 @@ class Foo { static x = function() { return this } }
 ```javascript
 
 class Foo {
-  x = function () {
-      return  this;
-    };
+  static x = function () { return this; }
 }
+
 ```
 
 ### Diagnostics

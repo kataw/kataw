@@ -94,7 +94,9 @@ class C extends yield { }
 
 ```javascript
 
-class C  {}
+class C extends yield {
+}
+
 ```
 
 ### Diagnostics

@@ -129,9 +129,10 @@ bar, (interface) => { 'use strict'; 0 };
 
 ```javascript
 
-bar, () =>  {
-    0;
-  };
+bar, (interface) =>  {
+'\'use strict\'';
+ 0; };
+
 ```
 
 ### Diagnostics

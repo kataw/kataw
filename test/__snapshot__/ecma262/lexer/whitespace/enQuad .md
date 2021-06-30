@@ -70,6 +70,7 @@ left|right
 ```javascript
 
 left | right;
+
 ```
 
 ### Diagnostics

@@ -141,7 +141,8 @@ function *f(x = (await) = f) {}
 
 ```javascript
 
-function * f() {}
+function* f(x = (await) = f) { }
+
 ```
 
 ### Diagnostics

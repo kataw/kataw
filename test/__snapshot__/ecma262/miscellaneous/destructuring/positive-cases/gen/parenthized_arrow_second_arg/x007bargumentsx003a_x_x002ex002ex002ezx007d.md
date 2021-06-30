@@ -180,7 +180,11 @@ var f = (argument1,{arguments: x, ...z}) => {};
 
 ```javascript
 
-var f = () =>  {};
+var f = (argument1, {
+    arguments: x,
+    ...z
+  }) =>  { };
+
 ```
 
 ### Diagnostics

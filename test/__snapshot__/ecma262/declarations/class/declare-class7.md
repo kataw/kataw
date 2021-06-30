@@ -126,7 +126,8 @@ declare function foo<T>(): void;
 
 ```javascript
 
-function  <T >foo(): void;
+declare function foo<T> (): void
+;
 
 ```
 

@@ -130,7 +130,9 @@
 
 ```javascript
 
-(function call() {});
+'\'use strict\'';
+(function call(foo = await) { });
+
 ```
 
 ### Diagnostics

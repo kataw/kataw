@@ -116,8 +116,9 @@ function one() {
 ```javascript
 
 function one() {
-  return  two, three;
+  return two, three;
 }
+
 ```
 
 ### Diagnostics

@@ -106,7 +106,8 @@ x = [a, b] = y
 
 ```javascript
 
-x = [a, b] = y;
+x = [a, b,] = y;
+
 ```
 
 ### Diagnostics

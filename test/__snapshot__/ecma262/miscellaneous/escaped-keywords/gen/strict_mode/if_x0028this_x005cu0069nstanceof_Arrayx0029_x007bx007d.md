@@ -90,8 +90,8 @@ if (this \u0069nstanceof Array) {}
 
 ```javascript
 
-if (this instanceof Array) {
-  }
+if (this instanceof Array) { }
+
 ```
 
 ### Diagnostics

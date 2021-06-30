@@ -183,11 +183,11 @@
 
 ```javascript
 
-function f() {
-  class C {
-    yield() {}
-  }
-}
+'\'use strict\'';
+function f() { class C {
+  yield() { }
+} }
+
 ```
 
 ### Diagnostics

@@ -380,11 +380,12 @@ y = async (x) => {}
 
 ```javascript
 
-y = x =>  {};
-y = () =>  {};
-y = () =>  {};
-y = async  =>  {};
-y = async  =>  {};
+y = x =>  { };
+y = () =>  { };
+y = (x) =>  { };
+y = async () =>  { };
+y = async (x) =>  { };
+
 ```
 
 ### Diagnostics

@@ -132,7 +132,8 @@
 
 ```javascript
 
-() =>  {};
+(x = (protected) = f) =>  { };
+
 ```
 
 ### Diagnostics

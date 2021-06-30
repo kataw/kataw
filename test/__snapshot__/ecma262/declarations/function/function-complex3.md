@@ -831,25 +831,23 @@ function b1<A: 'a', B: A>(b: B): void {
 
 ```javascript
 
-function  <X:  >c() {
-  switch(x) {
-    case "'p'":
+function c<X: T> (x: $Keys<X>) {
+  switch (x) {
+    case '\'p\'': 
       break;
-    case "'q'":
+    case '\'q\'': 
       break;
-    case "'r'":
+    case '\'r\'': 
       break;
   }
-  function  <A:  >a(): void {
-    if (a === "'a'") {
-      }
+  function a<A: "'a'"> (a: A): void {
+    if (a === '\'a\'') { }
   }
 }
-function  <A: , B:  >b1(): void {
-  if (b === "'b'") {
-    } // error 'b' not compatible with 'a'
+function b1<A: "'a'", B: A> (b: B): void {
+  if (b === '\'b\'') { }// error 'b' not compatible with 'a'
+}
 
-}
 ```
 
 ### Diagnostics

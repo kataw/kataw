@@ -121,9 +121,8 @@ function f(){ new.target + foo }
 
 ```javascript
 
-function f() {
-   + foo;
-}
+function f() { new.target + foo; }
+
 ```
 
 ### Diagnostics

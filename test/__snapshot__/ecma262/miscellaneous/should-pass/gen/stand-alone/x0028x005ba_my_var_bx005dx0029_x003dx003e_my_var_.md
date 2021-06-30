@@ -114,7 +114,8 @@
 
 ```javascript
 
-() =>  my_var;
+([a, my_var, b]) => my_var;
+
 ```
 
 ### Diagnostics

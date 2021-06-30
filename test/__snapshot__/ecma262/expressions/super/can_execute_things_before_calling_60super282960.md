@@ -228,12 +228,10 @@ class x extends y { constructor() { let xx = x + x; super.mom; } }
 
 ```javascript
 
-class x  {
-  constructor() {
-    let xx = x + x;
-    .mom;
-  }
+class x extends y {
+  constructor() { let xx = x + x; super.mom; }
 }
+
 ```
 
 ### Diagnostics

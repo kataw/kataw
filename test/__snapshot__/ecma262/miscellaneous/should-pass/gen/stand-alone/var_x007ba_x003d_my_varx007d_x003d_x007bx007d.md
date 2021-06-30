@@ -122,6 +122,7 @@ var {a = my_var} = {}
 var {
   a = my_var
 } = {};
+
 ```
 
 ### Diagnostics

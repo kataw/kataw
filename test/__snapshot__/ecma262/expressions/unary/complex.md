@@ -1178,38 +1178,34 @@ function x8(a: false & false): false {
 
 ```javascript
 
-function x0(): number {
-  return  +y; // ok, + exists solely for coercion
-
+function x0(y: string): number {
+  return + y;// ok, + exists solely for coercion
 }
-function x1(): number {
-  return  -y; // error, we don't allow coercion here
-
+function x1(y: string): number {
+  return - y;// error, we don't allow coercion here
 }
-function x3() {
-  return  ~y; // error, we don't allow coercion here
-
+function x3(y: string) {
+  return ~ y;// error, we don't allow coercion here
 }
-function x4(): boolean {
-  return  !y; // ok, coercion is allowed
-
+function x4(y: string): boolean {
+  return ! y;// ok, coercion is allowed
 }
-function x5(): true {
-  return  !a; // ok
-
+function x5(a: A<false>): true {
+  return ! a;// ok
 }
-function x6(): false {
-  return  !a; // error, true ~> false
-
+;
+function x6(a: A<false>): false {
+  return ! a;// error, true ~> false
 }
-function x7(): true {
-  return  !a; // ok
-
+;
+function x7(a: false & false): true {
+  return ! a;// ok
 }
-function x8(): false {
-  return  !a; // error, true ~> false
-
+;
+function x8(a: false & false): false {
+  return ! a;// error, true ~> false
 }
+;
 
 ```
 

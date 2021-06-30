@@ -173,7 +173,8 @@ async (x = async([(f) = []])) => {};
 
 ```javascript
 
-async  =>  {}
+async (x = async([(f) = [],])) =>  { }
+;
 
 ```
 

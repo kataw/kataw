@@ -164,9 +164,10 @@ function* wrap() {
 
 ```javascript
 
-function * wrap() {
-  ({ * yield() {} });
+function* wrap() {
+  ({ * yield() { } });
 }
+
 ```
 
 ### Diagnostics

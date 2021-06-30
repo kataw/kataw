@@ -137,8 +137,9 @@ class x {static * typeof(){}}
 ```javascript
 
 class x {
-  static static typeof() {}
+  static *typeof() { }
 }
+
 ```
 
 ### Diagnostics

@@ -126,7 +126,9 @@
 
 ```javascript
 
-(class   {});
+(class  extends async function () { } {
+});
+
 ```
 
 ### Diagnostics

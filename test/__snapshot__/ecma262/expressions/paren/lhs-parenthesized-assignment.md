@@ -165,7 +165,8 @@
 
 ```javascript
 
-({ a: (a.b) = (c.d) } = {});
+({ a : (a.b) = (c.d) } = {});
+
 ```
 
 ### Diagnostics

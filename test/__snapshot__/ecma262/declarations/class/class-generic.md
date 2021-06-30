@@ -531,15 +531,16 @@ class A<TYPE> {
 
 ```javascript
 
-class A {
+class A<TYPE> {
   aaf = () =>  {
-      return  new  Promise()  < TYPE > (console.log);
-    };
-
-  anf() {
-    return  new  Promise()  < TYPE > (console.log);
+    return new Promise  < TYPE > (console.log);
+  }
+  ;
+  anf(): Promise<TYPE> {
+    return new Promise  < TYPE > (console.log);
   }
 }
+
 ```
 
 ### Diagnostics

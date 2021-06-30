@@ -350,13 +350,14 @@ class Base {
 class Base {
   constructor() {
     this.Foo = class  {
-      #_ = (() =>  {
-            this.foo = ;
-          })();
-
+      static #_ = (() =>  {
+        this.foo = new.target;
+      })()
+      ;
     };
   }
 }
+
 ```
 
 ### Diagnostics

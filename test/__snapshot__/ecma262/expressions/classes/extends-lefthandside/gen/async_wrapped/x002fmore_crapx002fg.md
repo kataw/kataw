@@ -149,8 +149,10 @@ async function p(){
 ```javascript
 
 async function p() {
-  class C  {}
+  class C extends /more crap/g {
+  }
 }
+
 ```
 
 ### Diagnostics

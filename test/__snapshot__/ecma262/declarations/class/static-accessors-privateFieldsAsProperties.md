@@ -390,16 +390,15 @@ new C;
 ```javascript
 
 class C {
-  static set static #p() {
-    C.#q = v;
-  }
-  #q;
-
+  static set #p(v) { C.#q = v; }
+  static #q
+  ;
   constructor() {
-    ([C.#p] = [0]);
+    ([C.#p,] = [0,]);
   }
 }
-new  C();
+new C;
+
 ```
 
 ### Diagnostics

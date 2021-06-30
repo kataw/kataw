@@ -102,6 +102,7 @@ var foo = yield = 1;
 ```javascript
 
 var foo = yield = 1;
+
 ```
 
 ### Diagnostics

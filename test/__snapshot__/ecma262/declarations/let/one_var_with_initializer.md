@@ -105,6 +105,7 @@ let [foo=a] = arr;
 ```javascript
 
 let [foo = a] = arr;
+
 ```
 
 ### Diagnostics

@@ -415,13 +415,14 @@ class C<T> {
 
 ```javascript
 
-class C {
+class C<T> {
   foo() {
     TypeAssertIs  < T > (9);
     TypeAssertIs  < T | number > (9);
-    TypeAssertIs  < { A: number, B: T } > (9);
+    TypeAssertIs  < { A : number, B : T } > (9);
   }
 }
+
 ```
 
 ### Diagnostics

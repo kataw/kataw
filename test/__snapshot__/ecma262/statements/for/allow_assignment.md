@@ -85,7 +85,9 @@ for (foo=10;;);
 
 ```javascript
 
-for (foo = 10; ; );
+for (foo = 10;;)
+  ;
+
 ```
 
 ### Diagnostics

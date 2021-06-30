@@ -183,17 +183,17 @@ foo /* comment */
 
 ```javascript
 
-foo``; // comment
-
-foo // comment
+foo``;// comment
+foo// comment
 ``;
-foo // comment
+foo// comment
 `
 `;
-foo /* comment */`
+foo/* comment */`
 `;
-foo /* comment */`
+foo/* comment */`
 `;
+
 ```
 
 ### Diagnostics

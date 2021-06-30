@@ -136,9 +136,8 @@
 
 ```javascript
 
-({ async a() {
-    await 0;
-  } });
+({ async a() { await 0; } });
+
 ```
 
 ### Diagnostics

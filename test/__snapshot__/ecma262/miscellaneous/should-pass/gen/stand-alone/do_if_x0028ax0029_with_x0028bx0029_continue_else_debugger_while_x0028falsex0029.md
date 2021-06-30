@@ -132,9 +132,13 @@ do if (a) with (b) continue; else debugger; while (false)
 
 ```javascript
 
-do if (a) with (b) continue;
-  else  debugger;
-while (false);
+do
+  if (a)
+    with (b)
+      continue;
+  else
+    debugger; while (false)
+
 ```
 
 ### Diagnostics

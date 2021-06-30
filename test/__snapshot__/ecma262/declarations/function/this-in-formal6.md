@@ -507,10 +507,14 @@ declare function four<T>(this: T): void;
 
 ```javascript
 
-function one(): void;
-function two(): void;
-function three(): void;
-function  <T >four(): void;
+declare function one(this: number): void
+;
+declare function two(this: string, a: number): void
+;
+declare function three(this: string, ...a: any): void
+;
+declare function four<T> (this: T): void
+;
 
 ```
 

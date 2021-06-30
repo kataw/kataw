@@ -171,8 +171,9 @@ class A {
 
 class A {
   @foo
-  set setter() {}
+  set setter(_val) { }
 }
+
 ```
 
 ### Diagnostics

@@ -141,7 +141,8 @@ function *f(x = (arguments) = f) {}
 
 ```javascript
 
-function * f() {}
+function* f(x = (arguments) = f) { }
+
 ```
 
 ### Diagnostics

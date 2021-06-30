@@ -124,9 +124,11 @@ class x {
 ```javascript
 
 class x {
-  focus() // comment 1
-   {}
+  focus() {
+   // comment 2
+  }
 }
+
 ```
 
 ### Diagnostics

@@ -170,7 +170,8 @@ var f = (x): ((number) => 123) => 123;
 
 ```javascript
 
-var f = () =>  123;
+var f = (x) => 123;
+
 ```
 
 ### Diagnostics

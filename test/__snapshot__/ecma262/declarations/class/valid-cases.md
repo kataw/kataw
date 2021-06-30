@@ -2979,94 +2979,95 @@
 ```javascript
 
 class One {
-  foo() {}
+  foo() { }
 }
 class Two {
-  foo() {}
+  *foo() { }
 }
 class Three {
-  get foo() {}
+  get foo() { }
 }
 class Four {
-  set foo() {}
+  set foo(x) { }
 }
 class Five {
-  static static foo() {}
+  static foo() { }
 }
 class Six {
-  static static foo() {}
+  static *foo() { }
 }
 class Seven {
-  static get static foo() {}
+  static get foo() { }
 }
 class Eigth {
-  static set static foo() {}
+  static set foo(x) { }
 }
 class Nine {
-  async foo() {}
+  async foo() { }
 }
 class Ten {
-  async static static foo() {}
+  static async foo() { }
 }
 class Eleven {
-  async static static foo() {}
+  static async *foo() { }
 }
 class Twelwe {
-  if() {}
+  if() { }
 }
 class Thirteen {
-  if() {}
+  *if() { }
 }
 class Fourtin {
-  get if() {}
+  get if() { }
 }
 class Fiveteen {
-  set if() {}
+  set if(x) { }
 }
 class Sixteen {
-  static static if() {}
+  static if() { }
 }
 class Seventeen {
-  static static if() {}
+  static *if() { }
 }
 class Eigtheen {
-  async static static if() {}
+  static async *if() { }
 }
 class Nineteen {
-  a() {}
-  b() {}
+  a() { }
+  b() { }
 }
 class Twenty {
-  a() {}
-  get b() {}
+  a() { }
+  get b() { }
 }
 class Twentyone {
-  a() {}
-  set b() {}
+  a() { }
+  set b(x) { }
 }
 class Twentytwo {
-  a() {}
-  static static b() {}
+  a() { }
+  static b() { }
 }
 class TwentyThree {
-  a() {}
-  async static static b() {}
+  a() { }
+  static async *b() { }
 }
 class TwentyFour {
-  [arguments];
+  [arguments]
 }
 class TwentySix {
-  arguments = 1;
+  arguments = 1
 }
 class TwentySeven {
-  static get static "'constructor'"() {}
+  static get '\'constructor\''() { }
 }
 class TwentyEigth {
-  ["'constructor'"]() {}
+  *['\'constructor\'']() { }
 }
 class TwentyNine {
-  async "'prototype'"() {}
+  async '\'prototype\''() { }
 }
+
 ```
 
 ### Diagnostics

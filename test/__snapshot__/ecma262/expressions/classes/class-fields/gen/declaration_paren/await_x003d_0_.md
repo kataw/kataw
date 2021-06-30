@@ -133,10 +133,11 @@
 
 ```javascript
 
-(class   {
-    await = 0;
+(class  extends Base {
+  await = 0
+  ;
+});
 
-  });
 ```
 
 ### Diagnostics

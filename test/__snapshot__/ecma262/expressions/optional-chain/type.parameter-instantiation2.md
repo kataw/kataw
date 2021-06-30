@@ -339,8 +339,9 @@ a?.a?.a?.a?.<number>(y);
 
 ```javascript
 
-?.(y);
-?.(y);
+a?.a?.<number>(y);
+a?.a?.a?.a?.<number>(y);
+
 ```
 
 ### Diagnostics

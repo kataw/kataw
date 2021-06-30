@@ -1474,9 +1474,10 @@ function processArgs<A1: {}, A2: {}>(
 
 ```javascript
 
-function  <A1: , A2:  >processArgs():  {
-  return  () =>  () =>  resolver(src, process(args), appContext, info);
+function processArgs<A1: {}, A2: {}> (process: (args: A1) => A2): <S, C, I, R>(resolver: Resolver<S, A2, C, I, R>) => Resolver<S, A1, C, I, R> {
+  return <S, C, I, R>(resolver: Resolver<S, A2, C, I, R>) => (src: S, args: A1, appContext: C, info: I) => resolver(src, process(args), appContext, info);
 }
+
 ```
 
 ### Diagnostics

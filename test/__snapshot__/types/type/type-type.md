@@ -156,6 +156,7 @@ type Foo<T> = Bar<T>
 
 ```javascript
 
+type Foo<T> = Bar<T>
 
 ```
 

@@ -162,10 +162,8 @@ async function * gen() {await (yield 10); return 20}
 
 ```javascript
 
-async function * gen() {
-  await (yield 10);
-  return  20;
-}
+async function* gen() { await (yield 10); return 20; }
+
 ```
 
 ### Diagnostics

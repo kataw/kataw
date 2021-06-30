@@ -138,9 +138,10 @@ export class C {
 ```javascript
 
 export class C {
-  p = await 0;
-
+  p = await 0
+  ;
 }
+
 ```
 
 ### Diagnostics

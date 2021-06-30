@@ -142,8 +142,9 @@ class x {static async * enum(){}}
 ```javascript
 
 class x {
-  async static static enum() {}
+  static async *enum() { }
 }
+
 ```
 
 ### Diagnostics

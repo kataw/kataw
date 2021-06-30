@@ -171,11 +171,9 @@
 
 ```javascript
 
-let {
-  __proto__: x,
-  __proto__: y,
-  ...z
-} = {};
+'\'use strict\'';
+let { __proto__: x, __proto__: y, ...z } = {};
+
 ```
 
 ### Diagnostics

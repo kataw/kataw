@@ -160,7 +160,10 @@
 
 ```javascript
 
-() =>  {};
+({
+    a: (foo.qux)
+  } = {}) =>  { };
+
 ```
 
 ### Diagnostics

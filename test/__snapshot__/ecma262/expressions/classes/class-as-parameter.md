@@ -418,15 +418,18 @@ class A {
 ```javascript
 
 var C;
-function decorator() {
-  return  Object.assign(el, { finisher() {
-        C = Class;
-      } });
+function decorator(el) {
+  return Object.assign(el, {
+    finisher(Class) {
+      C = Class;
+    },
+  });
 }
 class A {
   @decorator
-  foo() {}
+  foo() { }
 }
+
 ```
 
 ### Diagnostics

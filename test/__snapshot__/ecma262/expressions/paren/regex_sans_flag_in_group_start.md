@@ -49,6 +49,7 @@
 ```javascript
 
 (/x/);
+
 ```
 
 ### Diagnostics

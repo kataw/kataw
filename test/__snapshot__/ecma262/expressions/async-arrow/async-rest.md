@@ -135,7 +135,8 @@ async (...args: any[]) : any => {}
 
 ```javascript
 
-async  =>  {}
+async (...args: any[]) =>  { }
+
 ```
 
 ### Diagnostics

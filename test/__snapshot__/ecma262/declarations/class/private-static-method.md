@@ -315,12 +315,13 @@ class A {
 ```javascript
 
 class A {
-  static static #method() {}
+  static #method() { }
   run() {
     A.#method = 2;
-    ([A.#method] = [2]);
+    ([A.#method,] = [2,]);
   }
 }
+
 ```
 
 ### Diagnostics

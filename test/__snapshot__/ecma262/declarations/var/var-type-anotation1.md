@@ -128,7 +128,8 @@ var foo = (async (): number => bar);
 
 ```javascript
 
-var foo = (async  =>  bar);
+var foo = (async () => bar);
+
 ```
 
 ### Diagnostics

@@ -84,7 +84,8 @@ new a + b
 
 ```javascript
 
-new  a() + b;
+new a + b;
+
 ```
 
 ### Diagnostics

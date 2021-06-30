@@ -89,7 +89,8 @@
 
 ```javascript
 
-([delete /a/.x]);
+([delete  /a/.x,]);
+
 ```
 
 ### Diagnostics

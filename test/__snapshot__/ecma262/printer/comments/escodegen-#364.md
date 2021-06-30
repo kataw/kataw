@@ -104,8 +104,9 @@ var bar; // another comment
 
 ```javascript
 
-var foo; /* comment */
-var bar; // another comment
+var foo;/* comment */
+var bar;// another comment
+
 ```
 
 ### Diagnostics

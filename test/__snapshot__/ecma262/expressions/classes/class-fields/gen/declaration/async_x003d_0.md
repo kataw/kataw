@@ -104,8 +104,9 @@ class C { async = 0 }
 ```javascript
 
 class C {
-  async = 0;
+  async = 0
 }
+
 ```
 
 ### Diagnostics

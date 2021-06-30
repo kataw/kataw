@@ -84,7 +84,8 @@ new 0x2.__proto__.constructor
 
 ```javascript
 
-new  0x2().__proto__.constructor;
+new 0x2.__proto__.constructor;
+
 ```
 
 ### Diagnostics

@@ -126,9 +126,10 @@ function *f(){
 
 ```javascript
 
-function * f() {
-  interface = x;
+function* f() {
+  \u0069nterface = x;
 }
+
 ```
 
 ### Diagnostics

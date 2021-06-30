@@ -209,7 +209,8 @@
 
 ```javascript
 
-() =>  {};
+(a = function (a) { [(a),] = [0,]; }) =>  { };
+
 ```
 
 ### Diagnostics

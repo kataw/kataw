@@ -122,7 +122,8 @@ delete (((((foo(yield)))))).bar
 
 ```javascript
 
-delete (foo(yield)).bar;
+delete  (((((foo(yield)))))).bar;
+
 ```
 
 ### Diagnostics

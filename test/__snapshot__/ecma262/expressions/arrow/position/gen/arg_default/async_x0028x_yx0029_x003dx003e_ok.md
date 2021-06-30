@@ -155,7 +155,8 @@ function f(a = async (x, y) => ok) {}
 
 ```javascript
 
-function f() {}
+function f(a = async (x, y) => ok) { }
+
 ```
 
 ### Diagnostics

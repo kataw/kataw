@@ -117,6 +117,7 @@ x, {foo = y, bar} = doo
 ```javascript
 
 x, { foo = y, bar } = doo;
+
 ```
 
 ### Diagnostics

@@ -141,8 +141,9 @@ class x {set static(x){}}
 ```javascript
 
 class x {
-  set static() {}
+  set static(x) { }
 }
+
 ```
 
 ### Diagnostics

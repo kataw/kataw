@@ -160,9 +160,10 @@ function* fn() {
 
 ```javascript
 
-function * fn() {
-  () =>  {};
+function* fn() {
+  (x = yield) =>  { };
 }
+
 ```
 
 ### Diagnostics

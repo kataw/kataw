@@ -131,7 +131,8 @@ async (x = (protected) = f) => {}
 
 ```javascript
 
-async  =>  {}
+async (x = (protected) = f) =>  { }
+
 ```
 
 ### Diagnostics

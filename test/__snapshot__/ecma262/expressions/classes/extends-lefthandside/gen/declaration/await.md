@@ -94,7 +94,9 @@ class A extends await {}
 
 ```javascript
 
-class A  {}
+class A extends await {
+}
+
 ```
 
 ### Diagnostics

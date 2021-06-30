@@ -132,9 +132,10 @@ function *f(){
 
 ```javascript
 
-function * f() {
+function* f() {
   (private) = 1;
 }
+
 ```
 
 ### Diagnostics

@@ -150,7 +150,8 @@
 
 ```javascript
 
-() =>  {};
+(x = delete  ((private) = f)) =>  { };
+
 ```
 
 ### Diagnostics

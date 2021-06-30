@@ -90,7 +90,8 @@ var a: 123
 
 ```javascript
 
-var a: ;
+var a: 123;
+
 ```
 
 ### Diagnostics

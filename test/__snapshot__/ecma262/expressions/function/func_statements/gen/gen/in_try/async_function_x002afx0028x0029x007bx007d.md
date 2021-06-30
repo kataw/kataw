@@ -159,9 +159,11 @@ try {
 ```javascript
 
 try {
-  async function * f() {}
-} catch (e) {
+  async function* f() { }
 }
+catch (e){
+}
+
 ```
 
 ### Diagnostics

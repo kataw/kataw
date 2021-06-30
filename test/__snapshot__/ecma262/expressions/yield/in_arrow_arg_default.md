@@ -163,10 +163,8 @@ function *g() { async (x = yield) => {}; }
 
 ```javascript
 
-function * g() {
-  async  =>  {}
+function* g() { async (x = yield) =>  { } ; }
 
-}
 ```
 
 ### Diagnostics

@@ -175,9 +175,8 @@ o = {f(x) { function x() {} }}
 
 ```javascript
 
-o = { f() {
-    function x() {}
-  } };
+o = { f(x) { function x() { } } };
+
 ```
 
 ### Diagnostics

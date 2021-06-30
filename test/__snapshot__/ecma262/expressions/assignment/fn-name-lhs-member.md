@@ -116,7 +116,8 @@ o.attr = function() {};
 
 ```javascript
 
-o.attr = function () {};
+o.attr = function () { };
+
 ```
 
 ### Diagnostics

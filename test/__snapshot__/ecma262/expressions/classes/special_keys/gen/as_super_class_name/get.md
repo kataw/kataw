@@ -94,7 +94,9 @@ class x extends get {}
 
 ```javascript
 
-class x  {}
+class x extends get {
+}
+
 ```
 
 ### Diagnostics

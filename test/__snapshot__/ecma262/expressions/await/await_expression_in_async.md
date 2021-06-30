@@ -131,10 +131,8 @@ async function f(){ async(await x); }
 
 ```javascript
 
-async function f() {
-  async(await x)
+async function f() { async(await x) ; }
 
-}
 ```
 
 ### Diagnostics

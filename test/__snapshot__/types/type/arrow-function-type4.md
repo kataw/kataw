@@ -156,6 +156,7 @@ type X = (x.y) => T;
 
 ```javascript
 
+type X = (x.y) => T
 
 ```
 

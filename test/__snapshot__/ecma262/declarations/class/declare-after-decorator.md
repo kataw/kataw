@@ -132,8 +132,9 @@ class A {
 
 class A {
   @dec
-  declare foo;
+  declarefoo
 }
+
 ```
 
 ### Diagnostics

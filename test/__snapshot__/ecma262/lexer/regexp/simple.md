@@ -43,6 +43,7 @@
 ```javascript
 
 /a/;
+
 ```
 
 ### Diagnostics

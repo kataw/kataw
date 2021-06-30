@@ -112,7 +112,9 @@
 
 ```javascript
 
+'\'use strict\'';
 var e = (await, f);
+
 ```
 
 ### Diagnostics

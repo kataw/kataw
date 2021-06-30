@@ -64,6 +64,7 @@ await = 16
 ```javascript
 
 await = 16;
+
 ```
 
 ### Diagnostics

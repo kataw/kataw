@@ -123,7 +123,9 @@
 
 ```javascript
 
-function * a() {}
+'\'use strict\'';
+function* a(b, c, d,) { }
+
 ```
 
 ### Diagnostics

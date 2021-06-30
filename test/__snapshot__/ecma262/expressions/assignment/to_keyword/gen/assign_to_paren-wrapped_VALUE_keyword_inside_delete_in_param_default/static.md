@@ -159,7 +159,8 @@ function *f(x = delete ((static) = f)) {}
 
 ```javascript
 
-function * f() {}
+function* f(x = delete  ((static) = f)) { }
+
 ```
 
 ### Diagnostics

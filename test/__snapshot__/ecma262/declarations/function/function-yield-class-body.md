@@ -150,9 +150,9 @@ function* bar() { yield class {} }
 
 ```javascript
 
-function * bar() {
-  yield class  {};
-}
+function* bar() { yield class  {
+}; }
+
 ```
 
 ### Diagnostics

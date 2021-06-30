@@ -315,13 +315,9 @@ function * gen() { function not_gen() { (function * () { x = class extends (a ? 
 
 ```javascript
 
-function * gen() {
-  function not_gen() {
-    (function * () {
-        x = class   {};
-      });
-  }
-}
+function* gen() { function not_gen() { (function* () { x = class  extends (a ? null : yield) {
+}; }); } }
+
 ```
 
 ### Diagnostics

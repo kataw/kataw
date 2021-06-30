@@ -102,7 +102,10 @@ function f(x, y){"use strict";}
 
 ```javascript
 
-function f() {}
+function f(x, y) {
+"\"use strict\"";
+}
+
 ```
 
 ### Diagnostics

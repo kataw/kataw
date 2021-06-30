@@ -468,19 +468,20 @@ class I<X> {
 
 ```javascript
 
-class I {
-  #i;
-
-  _f;
-
-  _h() {
-    return  x;
+class I<X> {
+  #i
+  ;
+  _f
+  ;
+  _h(x: X) {
+    return x;
   }
-  g() {
+  g(x: X) {
     this.#i = x;
     this._f = x;
   }
 }
+
 ```
 
 ### Diagnostics

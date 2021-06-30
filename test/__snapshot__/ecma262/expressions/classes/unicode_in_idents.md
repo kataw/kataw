@@ -126,8 +126,9 @@ class x { \u0063onstructor(){} }
 ```javascript
 
 class x {
-  constructor() {}
+  \u0063onstructor() { }
 }
+
 ```
 
 ### Diagnostics

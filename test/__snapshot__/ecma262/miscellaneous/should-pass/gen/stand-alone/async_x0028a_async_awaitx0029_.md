@@ -91,6 +91,7 @@ async (a, async, await);
 ```javascript
 
 async(a, async, await)
+;
 
 ```
 

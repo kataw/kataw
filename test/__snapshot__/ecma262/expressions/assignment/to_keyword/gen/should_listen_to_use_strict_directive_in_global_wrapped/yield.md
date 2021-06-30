@@ -86,7 +86,9 @@
 
 ```javascript
 
+"\"use strict\"";
 (yield = x);
+
 ```
 
 ### Diagnostics

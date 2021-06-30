@@ -189,11 +189,10 @@ class x extends y { constructor(x = this) { super[dad]; } }
 
 ```javascript
 
-class x  {
-  constructor() {
-    [dad];
-  }
+class x extends y {
+  constructor(x = this) { super[dad]; }
 }
+
 ```
 
 ### Diagnostics

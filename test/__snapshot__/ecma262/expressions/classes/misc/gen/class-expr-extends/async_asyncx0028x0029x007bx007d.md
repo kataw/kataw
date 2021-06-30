@@ -155,9 +155,10 @@
 
 ```javascript
 
-(class   {
-    async async() {}
-  });
+(class  extends Base {
+  async async() { }
+});
+
 ```
 
 ### Diagnostics

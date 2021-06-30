@@ -95,6 +95,7 @@ type X = ("string");
 
 ```javascript
 
+type X = ("\"string\"")
 
 ```
 

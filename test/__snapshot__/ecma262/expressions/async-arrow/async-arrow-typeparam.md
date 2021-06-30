@@ -190,8 +190,9 @@ async (): string => {}
 
 ```javascript
 
-a ? async  =>  {} : b;
-async  =>  {}
+a ? async () =>  { } : b;
+async () =>  { }
+
 ```
 
 ### Diagnostics

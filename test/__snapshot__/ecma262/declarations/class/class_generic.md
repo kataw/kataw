@@ -508,14 +508,15 @@ class C<T> {
 
 ```javascript
 
-class C {
-  arr;
-
-  foo() {
-    var entry:  = { value };
+class C<T> {
+  arr: Array<{ value: T }>
+  ;
+  foo(value: T) {
+    var entry: { value: T } = { value };
     this.arr.push(entry);
   }
 }
+
 ```
 
 ### Diagnostics

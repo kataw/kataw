@@ -126,9 +126,10 @@ function *f(){
 
 ```javascript
 
-function * f() {
-  arguments = x;
+function* f() {
+  a\u0072guments = x;
 }
+
 ```
 
 ### Diagnostics

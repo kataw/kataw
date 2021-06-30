@@ -159,9 +159,8 @@ function *g(){ return x + f(yield f); }
 
 ```javascript
 
-function * g() {
-  return  x + f(yield f);
-}
+function* g() { return x + f(yield f); }
+
 ```
 
 ### Diagnostics

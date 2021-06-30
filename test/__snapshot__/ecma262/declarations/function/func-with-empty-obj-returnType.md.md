@@ -99,7 +99,8 @@ function foo(): {} {}
 
 ```javascript
 
-function foo():  {}
+function foo(): {} { }
+
 ```
 
 ### Diagnostics

@@ -91,6 +91,7 @@
 ```javascript
 
 [...yield] = obj;
+
 ```
 
 ### Diagnostics

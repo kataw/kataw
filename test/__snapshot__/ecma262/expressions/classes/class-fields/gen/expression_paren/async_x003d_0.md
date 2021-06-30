@@ -108,8 +108,9 @@
 ```javascript
 
 (class  {
-    async = 0;
-  });
+  async = 0
+});
+
 ```
 
 ### Diagnostics

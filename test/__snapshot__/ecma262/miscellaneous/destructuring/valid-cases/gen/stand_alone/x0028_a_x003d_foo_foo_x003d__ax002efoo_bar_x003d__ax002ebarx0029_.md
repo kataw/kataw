@@ -170,6 +170,7 @@
 ```javascript
 
 (_a = foo, foo = _a.foo, bar = _a.bar);
+
 ```
 
 ### Diagnostics

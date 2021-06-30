@@ -146,8 +146,9 @@ class x {static set implements(x){}}
 ```javascript
 
 class x {
-  static set static implements() {}
+  static set implements(x) { }
 }
+
 ```
 
 ### Diagnostics

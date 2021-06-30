@@ -155,9 +155,9 @@ class C {
 ```javascript
 
 class C {
-  static static foo() {}
-
+  static foo() { }
 }
+
 ```
 
 ### Diagnostics

@@ -141,7 +141,8 @@ function *f(x = (public) = f) {}
 
 ```javascript
 
-function * f() {}
+function* f(x = (public) = f) { }
+
 ```
 
 ### Diagnostics

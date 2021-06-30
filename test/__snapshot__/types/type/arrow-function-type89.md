@@ -185,6 +185,7 @@ type a = ((x | (y & x))) => T;
 
 ```javascript
 
+type a = (x | (y & x)) => T
 
 ```
 

@@ -117,10 +117,11 @@ switch (true) { case true: let x; }
 
 ```javascript
 
-switch(true) {
-  case true:
+switch (true) {
+  case true: 
     let x;
 }
+
 ```
 
 ### Diagnostics

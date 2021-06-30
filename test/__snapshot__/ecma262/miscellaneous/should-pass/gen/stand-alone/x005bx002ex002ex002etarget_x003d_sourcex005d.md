@@ -99,6 +99,7 @@
 ```javascript
 
 [...target = source];
+
 ```
 
 ### Diagnostics

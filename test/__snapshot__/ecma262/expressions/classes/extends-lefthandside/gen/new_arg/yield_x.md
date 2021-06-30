@@ -80,8 +80,9 @@ x
 
 ```javascript
 
-new  yield();
+new yield;
 x;
+
 ```
 
 ### Diagnostics

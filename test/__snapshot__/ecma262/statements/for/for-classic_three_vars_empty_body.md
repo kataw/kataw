@@ -136,7 +136,9 @@ for (var a,b,c;;);
 
 ```javascript
 
-for (; ; );
+for (var a, b, c;;)
+  ;
+
 ```
 
 ### Diagnostics

@@ -101,8 +101,9 @@ for ((2935) instanceof ((2e308));;) debugger
 
 ```javascript
 
-for ((2935) instanceof (2e308); ; )
+for ((2935) instanceof ((2e308));;)
   debugger;
+
 ```
 
 ### Diagnostics

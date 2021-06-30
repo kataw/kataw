@@ -162,9 +162,8 @@ function foo() {function* a(b,c,d,) {}}
 
 ```javascript
 
-function foo() {
-  function * a() {}
-}
+function foo() { function* a(b, c, d,) { } }
+
 ```
 
 ### Diagnostics

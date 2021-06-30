@@ -265,10 +265,11 @@ hello();
 
 ```javascript
 
-let hello = () =>  {
-  console.log("'hello'" + greeting);
+let hello = (greeting: string = '\' world\'') =>  {
+  console.log('\'hello\'' + greeting);
 };
 hello();
+
 ```
 
 ### Diagnostics

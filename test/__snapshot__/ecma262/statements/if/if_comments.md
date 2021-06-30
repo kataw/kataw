@@ -1927,51 +1927,58 @@ async function f5() {
 ```javascript
 
 async function f1() {
-  if (untrackedChoice === 0) {
-      return  null;
-    }
-  else  if (untrackedChoice === 1) {
-      await repository.addAll(Array.from(untrackedChanges.keys()));
-      shouldAmend = true;
-    }
-  else  if (untrackedChoice === 2) {
-      allowUntracked = true;
-    }
+  if (untrackedChoice === 0)/* Cancel */ {
+    return null;
+  }
+  else if (untrackedChoice === 1)/* Add */ {
+    await repository.addAll(Array.from(untrackedChanges.keys()));
+    shouldAmend = true;
+  }
+  else if (untrackedChoice === 2)/* Allow Untracked */ {
+    allowUntracked = true;
+  }
 }
 async function f2() {
-  if (untrackedChoice === 0) null;
-  else  if (untrackedChoice === 1) shouldAmend = true;
-  else  if (untrackedChoice === 2) allowUntracked = true;
+  if (untrackedChoice === 0)/* Cancel */
+    null;
+  else if (untrackedChoice === 1)/* Add */
+    shouldAmend = true;
+  else if (untrackedChoice === 2)/* Allow Untracked */
+    allowUntracked = true;
 }
 async function f3() {
-  if (untrackedChoice === 0) null;
-  else  if (untrackedChoice === 1) shouldAmend = true;
-  else  if (untrackedChoice === 2) allowUntracked = true;
+  if (untrackedChoice === 0)/* Cancel */ // Cancel
+    null;
+  else if (untrackedChoice === 1)/* Add */ // Add
+    shouldAmend = true;
+  else if (untrackedChoice === 2)/* Allow Untracked */ // Allow Untracked
+    allowUntracked = true;
 }
 async function f4() {
-  if (untrackedChoice === 0) /* Cancel */ {
-      return  null;
-    }
-  else  if (untrackedChoice === 1) /* Add */ {
-      await repository.addAll(Array.from(untrackedChanges.keys()));
-      shouldAmend = true;
-    }
-  else  if (untrackedChoice === 2) /* Allow Untracked */ {
-      allowUntracked = true;
-    }
+  if (untrackedChoice === 0) {
+    return null;
+  }
+  else if (untrackedChoice === 1) {
+    await repository.addAll(Array.from(untrackedChanges.keys()));
+    shouldAmend = true;
+  }
+  else if (untrackedChoice === 2) {
+    allowUntracked = true;
+  }
 }
 async function f5() {
   if (untrackedChoice === 0) {
-      /* Cancel */ return  null;
-    }
-  else  if (untrackedChoice === 1) {
-      /* Add */ await repository.addAll(Array.from(untrackedChanges.keys()));
-      shouldAmend = true;
-    }
-  else  if (untrackedChoice === 2) {
-      /* Allow Untracked */ allowUntracked = true;
-    }
+     /* Cancel */return null;
+  }
+  else if (untrackedChoice === 1) {
+     /* Add */await repository.addAll(Array.from(untrackedChanges.keys()));
+    shouldAmend = true;
+  }
+  else if (untrackedChoice === 2) {
+     /* Allow Untracked */allowUntracked = true;
+  }
 }
+
 ```
 
 ### Diagnostics

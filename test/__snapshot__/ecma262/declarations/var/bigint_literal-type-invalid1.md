@@ -87,7 +87,8 @@ var a: 0173n
 
 ```javascript
 
-var a: ;
+var a: 0173n;
+
 ```
 
 ### Diagnostics

@@ -132,8 +132,9 @@ class x {static const(){}}
 ```javascript
 
 class x {
-  static static const() {}
+  static const() { }
 }
+
 ```
 
 ### Diagnostics

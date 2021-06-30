@@ -147,7 +147,8 @@
 
 ```javascript
 
-() =>  {};
+<A= B>(x) =>  { };
+
 ```
 
 ### Diagnostics

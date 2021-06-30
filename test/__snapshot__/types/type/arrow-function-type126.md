@@ -201,6 +201,7 @@ type a = (|2&3,symbol['string']) => T;
 
 ```javascript
 
+type a = (| 2 & 3, symbol["'string'"]) => T
 
 ```
 

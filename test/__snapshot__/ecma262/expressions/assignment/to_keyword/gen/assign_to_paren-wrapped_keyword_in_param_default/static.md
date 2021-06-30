@@ -131,7 +131,8 @@ async (x = (static) = f) => {}
 
 ```javascript
 
-async  =>  {}
+async (x = (static) = f) =>  { }
+
 ```
 
 ### Diagnostics

@@ -220,11 +220,10 @@ class x extends y { dsda(){ return (a=super[bar]) => a; }}
 
 ```javascript
 
-class x  {
-  dsda() {
-    return  () =>  a;
-  }
+class x extends y {
+  dsda() { return (a = super[bar]) => a; }
 }
+
 ```
 
 ### Diagnostics

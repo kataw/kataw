@@ -120,6 +120,7 @@ function f() {
   "\"use strict\"";
   foo;
 }
+
 ```
 
 ### Diagnostics

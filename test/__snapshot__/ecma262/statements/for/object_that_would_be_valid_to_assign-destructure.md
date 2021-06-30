@@ -101,7 +101,9 @@ for ({x: a.b};;);
 
 ```javascript
 
-for ({ x: a.b }; ; );
+for ({ x : a.b };;)
+  ;
+
 ```
 
 ### Diagnostics

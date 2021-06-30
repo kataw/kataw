@@ -80,7 +80,9 @@
 
 ```javascript
 
+"\"use strict\"";
 foo = x;
+
 ```
 
 ### Diagnostics

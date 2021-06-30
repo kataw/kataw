@@ -10446,328 +10446,329 @@ class x { #foo() {}}
 ```javascript
 
 class x {
-  #foo() {}
+  #foo() { }
 }
 (class  {
-    #a() {}
-  });
+  #a() { }
+});
 (class  {
-    get #a() {}
-  });
+  get #a() { }
+});
 (class  {
-    set #a() {}
-  });
+  set #a(foo) { }
+});
 (class  {
-    #a() {}
-  });
+  *#a() { }
+});
 (class  {
-    async #a() {}
-  });
+  async #a() { }
+});
 (class  {
-    async #a() {}
-  });
+  async *#a() { }
+});
 (class  {
-    #a() {}
-    #b() {}
-  });
+  #a() { }
+  #b() { }
+});
 (class  {
-    get #a() {}
-    set #a() {}
-  });
+  get #a() { }
+  set #a(foo) { }
+});
 (class  {
-    get #a() {}
-    get #b() {}
-    set #a() {}
-  });
+  get #a() { }
+  get #b() { }
+  set #a(foo) { }
+});
 (class  {
-    get #a() {}
-    get #b() {}
-    set #a() {}
-    set #b() {}
-  });
+  get #a() { }
+  get #b() { }
+  set #a(foo) { }
+  set #b(foo) { }
+});
 (class  {
-    set #a() {}
-    set #b() {}
-  });
+  set #a(foo) { }
+  set #b(foo) { }
+});
 (class  {
-    get #a() {}
-    get #b() {}
-  });
+  get #a() { }
+  get #b() { }
+});
 (class  {
-    #a() {}
-    static static a() {}
-  });
+  #a() { }
+  static a() { }
+});
 (class  {
-    #a() {}
-    a() {}
-  });
+  #a() { }
+  a() { }
+});
 (class  {
-    #a() {}
-    a() {}
-    static static a() {}
-  });
+  #a() { }
+  a() { }
+  static a() { }
+});
 (class  {
-    get #a() {}
-    get a() {}
-    static get static a() {}
-  });
+  get #a() { }
+  get a() { }
+  static get a() { }
+});
 (class  {
-    set #a() {}
-    set a() {}
-    static set static a() {}
-  });
+  set #a(foo) { }
+  set a(foo) { }
+  static set a(foo) { }
+});
 (class  {
-    #a() {}
-    get #b() {}
-  });
+  #a() { }
+  get #b() { }
+});
 (class  {
-    #a() {}
-    async #b() {}
-  });
+  #a() { }
+  async #b() { }
+});
 (class  {
-    #a() {}
-    async #b() {}
-  });
+  #a() { }
+  async *#b() { }
+});
 (class  {
-    #get() {}
-  });
+  #get() { }
+});
 (class  {
-    #set() {}
-  });
+  #set() { }
+});
 (class  {
-    #yield() {}
-  });
+  #yield() { }
+});
 (class  {
-    #await() {}
-  });
+  #await() { }
+});
 (class  {
-    #async() {}
-  });
+  #async() { }
+});
 (class  {
-    #static() {}
-  });
+  #static() { }
+});
 (class  {
-    #arguments() {}
-  });
+  #arguments() { }
+});
 (class  {
-    get #yield() {}
-  });
+  get #yield() { }
+});
 (class  {
-    get #await() {}
-  });
+  get #await() { }
+});
 (class  {
-    get #async() {}
-  });
+  get #async() { }
+});
 (class  {
-    get #get() {}
-  });
+  get #get() { }
+});
 (class  {
-    get #static() {}
-  });
+  get #static() { }
+});
 (class  {
-    get #arguments() {}
-  });
+  get #arguments() { }
+});
 (class  {
-    set #yield() {}
-  });
+  set #yield(test) { }
+});
 (class  {
-    set #async() {}
-  });
+  set #async(test) { }
+});
 (class  {
-    set #await() {}
-  });
+  set #await(test) { }
+});
 (class  {
-    set #set() {}
-  });
+  set #set(test) { }
+});
 (class  {
-    set #static() {}
-  });
+  set #static(test) { }
+});
 (class  {
-    set #arguments() {}
-  });
+  set #arguments(test) { }
+});
 (class  {
-    async #yield() {}
-  });
+  async #yield() { }
+});
 (class  {
-    async #async() {}
-  });
+  async #async() { }
+});
 (class  {
-    async #await() {}
-  });
+  async #await() { }
+});
 (class  {
-    async #get() {}
-  });
+  async #get() { }
+});
 (class  {
-    async #set() {}
-  });
+  async #set() { }
+});
 (class  {
-    async #static() {}
-  });
+  async #static() { }
+});
 (class  {
-    async #arguments() {}
-  });
+  async #arguments() { }
+});
 (class  {
-    #async() {}
-  });
+  *#async() { }
+});
 (class  {
-    #await() {}
-  });
+  *#await() { }
+});
 (class  {
-    #yield() {}
-  });
+  *#yield() { }
+});
 (class  {
-    #get() {}
-  });
+  *#get() { }
+});
 (class  {
-    #set() {}
-  });
+  *#set() { }
+});
 (class  {
-    #static() {}
-  });
+  *#static() { }
+});
 (class  {
-    #arguments() {}
-  });
+  *#arguments() { }
+});
 (class  {
-    async #yield() {}
-  });
+  async *#yield() { }
+});
 (class  {
-    async #async() {}
-  });
+  async *#async() { }
+});
 (class  {
-    async #await() {}
-  });
+  async *#await() { }
+});
 (class  {
-    async #get() {}
-  });
+  async *#get() { }
+});
 (class  {
-    async #set() {}
-  });
+  async *#set() { }
+});
 (class  {
-    async #static() {}
-  });
+  async *#static() { }
+});
 (class  {
-    async #arguments() {}
-  });
+  async *#arguments() { }
+});
 (class  {
-    #b;
+  #b
+  ;
+  #a() { }
+});
+(class  {
+  #b
+  ;
+  get #a() { }
+});
+(class  {
+  #b
+  ;
+  set #a(foo) { }
+});
+(class  {
+  #b
+  ;
+  *#a() { }
+});
+(class  {
+  #b
+  ;
+  async #a() { }
+});
+(class  {
+  #b
+  ;
+  async *#a() { }
+});
+(class  {
+  #b = 1
+  ;
+  #a() { }
+});
+(class  {
+  #b = 1
+  ;
+  get #a() { }
+});
+(class  {
+  #b = 1
+  ;
+  set #a(foo) { }
+});
+(class  {
+  #b = 1
+  ;
+  *#a() { }
+});
+(class  {
+  #b = 1
+  ;
+  async #a() { }
+});
+(class  {
+  #b = 1
+  ;
+  async *#a() { }
+});
+(class  {
+  a
+  ;
+  #a() { }
+});
+(class  {
+  a
+  ;
+  get #a() { }
+});
+(class  {
+  a
+  ;
+  set #a(foo) { }
+});
+(class  {
+  a
+  ;
+  *#a() { }
+});
+(class  {
+  a
+  ;
+  async #a() { }
+});
+(class  {
+  a
+  ;
+  async *#a() { }
+});
+(class  {
+  a = 1
+  ;
+  #a() { }
+});
+(class  {
+  a = 1
+  ;
+  get #a() { }
+});
+(class  {
+  a = 1
+  ;
+  set #a(foo) { }
+});
+(class  {
+  a = 1
+  ;
+  *#a() { }
+});
+(class  {
+  a = 1
+  ;
+  async #a() { }
+});
+(class  {
+  a = 1
+  ;
+  async *#a() { }
+});
 
-    #a() {}
-  });
-(class  {
-    #b;
-
-    get #a() {}
-  });
-(class  {
-    #b;
-
-    set #a() {}
-  });
-(class  {
-    #b;
-
-    #a() {}
-  });
-(class  {
-    #b;
-
-    async #a() {}
-  });
-(class  {
-    #b;
-
-    async #a() {}
-  });
-(class  {
-    #b = 1;
-
-    #a() {}
-  });
-(class  {
-    #b = 1;
-
-    get #a() {}
-  });
-(class  {
-    #b = 1;
-
-    set #a() {}
-  });
-(class  {
-    #b = 1;
-
-    #a() {}
-  });
-(class  {
-    #b = 1;
-
-    async #a() {}
-  });
-(class  {
-    #b = 1;
-
-    async #a() {}
-  });
-(class  {
-    a;
-
-    #a() {}
-  });
-(class  {
-    a;
-
-    get #a() {}
-  });
-(class  {
-    a;
-
-    set #a() {}
-  });
-(class  {
-    a;
-
-    #a() {}
-  });
-(class  {
-    a;
-
-    async #a() {}
-  });
-(class  {
-    a;
-
-    async #a() {}
-  });
-(class  {
-    a = 1;
-
-    #a() {}
-  });
-(class  {
-    a = 1;
-
-    get #a() {}
-  });
-(class  {
-    a = 1;
-
-    set #a() {}
-  });
-(class  {
-    a = 1;
-
-    #a() {}
-  });
-(class  {
-    a = 1;
-
-    async #a() {}
-  });
-(class  {
-    a = 1;
-
-    async #a() {}
-  });
 ```
 
 ### Diagnostics

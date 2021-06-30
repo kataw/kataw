@@ -333,15 +333,14 @@ class D extends C<O> {
 
 ```javascript
 
-class C {
-  x;
+class C<X> {
+  x: X
+  ;
+}
+class D extends C<O> {
+  bar() { this.x; }
+}
 
-}
-class D  {
-  bar() {
-    this.x;
-  }
-}
 ```
 
 ### Diagnostics

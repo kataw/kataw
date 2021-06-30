@@ -112,7 +112,8 @@
 
 ```javascript
 
-`a ${async =>  ok} b`.length;
+`a ${async => ok} b`.length;
+
 ```
 
 ### Diagnostics

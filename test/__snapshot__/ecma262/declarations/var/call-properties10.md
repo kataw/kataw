@@ -231,7 +231,8 @@ var g: { (x: string): void } = function(x: mixed) { }
 
 ```javascript
 
-var g:  = function () {};
+var g: { (x: string): void } = function (x: mixed) { };
+
 ```
 
 ### Diagnostics

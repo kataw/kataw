@@ -111,9 +111,8 @@ for (const x of xs) {}
 
 ```javascript
 
-for (const x; of xs)
-  {
-  }
+for (const x of xs) { }
+
 ```
 
 ### Diagnostics

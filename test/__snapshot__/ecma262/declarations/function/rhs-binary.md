@@ -696,22 +696,23 @@ function z() {
 ```javascript
 
 function x() {
-  ("'foo'" in {});
-  ("'foo'" in { foo: null });
+  ('\'foo\'' in {});
+  ('\'foo\'' in { foo : null });
   (0 in {});
-  (0 in { "\"0\"": null });
+  (0 in { "\"0\"" : null });
 }
-// arrays on RHS
+ // arrays on RHS
 function y() {
-  ("'foo'" in []);
+  ('\'foo\'' in []);
   (0 in []);
-  ("'length'" in []);
+  ('\'length\'' in []);
 }
-// primitive classes on RHS
+ // primitive classes on RHS
 function z() {
-  ("'foo'" in new  String("'bar'"));
-  ("'foo'" in new  Number(123));
+  ('\'foo\'' in new String('\'bar\''));
+  ('\'foo\'' in new Number(123));
 }
+
 ```
 
 ### Diagnostics

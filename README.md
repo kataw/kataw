@@ -105,7 +105,7 @@ Here is an example on how to create an CST node:
  kataw.createIdentifier(/* text */ 'hello', /* rawText */ 'hello', /* start */ 1,  /* end */ 5)
 ```
 
-**Note**  Some CST nodes needes additional info. This can be set using the `Kataw.NodeFlags` andt this bitwise mask can be set on every CST node and CST keyword node.
+Some CST nodes needes additional info. This can be set using the `Kataw.NodeFlags` andt this bitwise mask can be set on every CST node and CST keyword node.
 
 ```ts
  // creates an string literal
@@ -242,6 +242,37 @@ export function swapIdentifierWithNumeric(transform) {
   }
 }
 
+```
+
+## Printing
+
+Kataw is adjustable and allows three different ways to print your source code.
+
+The returned source does not include any extra parenthesis or unnecessary code.
+
+The comments are 100% correct and they will be printed in the places you expect.
+
+
+| API        |   Description |
+| ----------- |------------------------------------------------- |
+| `print`  |   Prints *a given* CST tree and let you adjust the diagnostics and set your own parser options |
+| `printModule`    | Prints the source in module goal |
+| `printScript`    | Prints the source in script mode |
+
+Here is an example:
+
+```ts
+
+// Print
+ kataw.print(kataw.parseModule('x = y', { next: true }, function(source, kind, msg, line, column) {
+    throw msg + '(' + line + ', ' + column + ')';
+ }));
+
+ // Print with module goal
+ kataw.printModule('x = y');
+
+ // Print in script mode
+ kataw.printScript('x = y');
 ```
 
 ## CST parser features

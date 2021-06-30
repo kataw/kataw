@@ -240,10 +240,10 @@ async function foo() {
 
 async function foo() {
   class C {
-    static static foo() {}
-
+    static foo() { }
   }
 }
+
 ```
 
 ### Diagnostics

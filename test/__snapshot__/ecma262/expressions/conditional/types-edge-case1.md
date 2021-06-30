@@ -136,7 +136,10 @@ a ? ({b}) => {} : c
 
 ```javascript
 
-a ? () =>  {} : c;
+a ? ({
+    b
+  }) =>  { } : c;
+
 ```
 
 ### Diagnostics

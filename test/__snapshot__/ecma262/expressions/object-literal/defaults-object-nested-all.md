@@ -166,6 +166,7 @@ var {
     z = 10
   }
 } = a;
+
 ```
 
 ### Diagnostics

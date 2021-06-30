@@ -286,11 +286,19 @@ const bar =
 ```javascript
 
 @deco
-class Foo {}
-const foo = @deco
-  class  {};
-const bar = @deco
-  class  {};
+class Foo {
+}
+const foo = 
+@deco
+class  {
+ //
+};
+const bar = 
+@deco
+class  {
+ //
+};
+
 ```
 
 ### Diagnostics

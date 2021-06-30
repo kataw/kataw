@@ -137,8 +137,9 @@ class x {static get debugger(){}}
 ```javascript
 
 class x {
-  static get static debugger() {}
+  static get debugger() { }
 }
+
 ```
 
 ### Diagnostics

@@ -132,7 +132,8 @@
 
 ```javascript
 
-() =>  {};
+(x = (await) = f) =>  { };
+
 ```
 
 ### Diagnostics

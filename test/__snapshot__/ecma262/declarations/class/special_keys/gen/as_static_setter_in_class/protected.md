@@ -146,8 +146,9 @@ class x {static set protected(x){}}
 ```javascript
 
 class x {
-  static set static protected() {}
+  static set protected(x) { }
 }
+
 ```
 
 ### Diagnostics

@@ -58,6 +58,7 @@ var x;
 ```javascript
 
 var ;
+
 ```
 
 ### Diagnostics

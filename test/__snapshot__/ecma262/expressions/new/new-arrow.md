@@ -94,7 +94,8 @@ new (x)=>{}
 
 ```javascript
 
-new  () =>  {}();
+new (x) =>  { };
+
 ```
 
 ### Diagnostics

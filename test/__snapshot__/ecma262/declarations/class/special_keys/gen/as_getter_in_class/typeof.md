@@ -132,8 +132,9 @@ class x {get typeof(){}}
 ```javascript
 
 class x {
-  get typeof() {}
+  get typeof() { }
 }
+
 ```
 
 ### Diagnostics

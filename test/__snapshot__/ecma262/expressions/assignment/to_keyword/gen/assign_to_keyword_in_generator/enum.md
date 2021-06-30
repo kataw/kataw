@@ -126,9 +126,10 @@ function *f(){
 
 ```javascript
 
-function * f() {
+function* f() {
   enum = 1;
 }
+
 ```
 
 ### Diagnostics

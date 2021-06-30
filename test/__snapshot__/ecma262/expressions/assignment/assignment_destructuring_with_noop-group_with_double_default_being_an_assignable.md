@@ -125,7 +125,8 @@
 
 ```javascript
 
-({ a: (b) = c } = 1);
+({ a : (b) = c } = 1);
+
 ```
 
 ### Diagnostics

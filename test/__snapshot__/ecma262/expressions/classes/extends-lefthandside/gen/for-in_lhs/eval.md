@@ -77,7 +77,9 @@ for (eval in x) ;
 
 ```javascript
 
-for (eval in x);
+for (eval in x)
+  ;
+
 ```
 
 ### Diagnostics

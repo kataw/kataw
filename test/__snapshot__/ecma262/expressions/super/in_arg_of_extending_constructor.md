@@ -220,11 +220,10 @@ class x extends y { constructor(){ return (a=super.foo) => a; }}
 
 ```javascript
 
-class x  {
-  constructor() {
-    return  () =>  a;
-  }
+class x extends y {
+  constructor() { return (a = super.foo) => a; }
 }
+
 ```
 
 ### Diagnostics

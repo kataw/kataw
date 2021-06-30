@@ -193,7 +193,8 @@ a ? (b) : c => (d) : e => f : g;
 
 ```javascript
 
-a ? () =>  () =>  f : g;
+a ? (b) => (d) => f : g;
+
 ```
 
 ### Diagnostics

@@ -109,8 +109,13 @@ b
 
 ```javascript
 
-function commentedParameters/* Parameter a */
-() {}
+function commentedParameters(
+   /* Parameter a */
+  a
+   /* End of parameter a */
+  /* Parameter b */
+  , b) { }
+
 ```
 
 ### Diagnostics

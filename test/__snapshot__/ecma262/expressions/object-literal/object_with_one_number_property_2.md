@@ -188,7 +188,8 @@ wrap({.9:a, 0x84:b, 0b1:c, 0o27:d, 1e234:e});
 
 ```javascript
 
-wrap({ 0.9: a, 0x84: b, 0b1: c, 0o27: d, 1e234: e });
+wrap({ 0.9 : a, 0x84 : b, 0b1 : c, 0o27 : d, 1e234 : e });
+
 ```
 
 ### Diagnostics

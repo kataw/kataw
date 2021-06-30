@@ -265,9 +265,8 @@ async function a(){     async ([y] = [{m: 5 + t(await bar)}]) => {}     }
 
 ```javascript
 
-async function a() {
-  async  =>  {}
-}
+async function a() { async ([y] = [{ m : 5 + t(await bar) },]) =>  { } }
+
 ```
 
 ### Diagnostics

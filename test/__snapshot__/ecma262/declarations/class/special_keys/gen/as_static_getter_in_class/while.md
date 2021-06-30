@@ -137,8 +137,9 @@ class x {static get while(){}}
 ```javascript
 
 class x {
-  static get static while() {}
+  static get while() { }
 }
+
 ```
 
 ### Diagnostics

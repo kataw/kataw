@@ -137,7 +137,9 @@ class A extends async function f(){} {}
 
 ```javascript
 
-class A  {}
+class A extends async function f() { } {
+}
+
 ```
 
 ### Diagnostics

@@ -133,6 +133,7 @@ type x = { [|a]:string }
 
 ```javascript
 
+type x = { [| a]: string }
 
 ```
 

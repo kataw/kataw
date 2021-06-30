@@ -140,6 +140,7 @@
 ```javascript
 
 (a.b().c().d) += 1;
+
 ```
 
 ### Diagnostics

@@ -177,9 +177,8 @@ function *f(){ async (x = z = yield) => {} }
 
 ```javascript
 
-function * f() {
-  async  =>  {}
-}
+function* f() { async (x = z = yield) =>  { } }
+
 ```
 
 ### Diagnostics

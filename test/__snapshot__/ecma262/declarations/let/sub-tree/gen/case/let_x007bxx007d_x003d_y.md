@@ -151,12 +151,13 @@ switch (a) { case b: let {x} = y }
 
 ```javascript
 
-switch(a) {
-  case b:
+switch (a) {
+  case b: 
     let {
       x
     } = y;
 }
+
 ```
 
 ### Diagnostics

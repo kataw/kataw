@@ -132,6 +132,7 @@ const [foo=a, bar] = arr;
 ```javascript
 
 const [foo = a, bar] = arr;
+
 ```
 
 ### Diagnostics

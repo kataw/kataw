@@ -94,6 +94,7 @@
 ```javascript
 
 0, {} = undefined;
+
 ```
 
 ### Diagnostics

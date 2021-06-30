@@ -344,11 +344,12 @@ var { ["key"]: val3, ...spread } = { key: "val" };
 var key: string = "\"key\"";
 var {
   [key]: val2
-} = { key: "\"val\"" };
+} = { key : "\"val\"" };
 var {
   ["\"key\""]: val3,
   ...spread
-} = { key: "\"val\"" };
+} = { key : "\"val\"" };
+
 ```
 
 ### Diagnostics

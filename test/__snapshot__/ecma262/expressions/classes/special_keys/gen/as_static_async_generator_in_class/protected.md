@@ -142,8 +142,9 @@ class x {static async * protected(){}}
 ```javascript
 
 class x {
-  async static static protected() {}
+  static async *protected() { }
 }
+
 ```
 
 ### Diagnostics

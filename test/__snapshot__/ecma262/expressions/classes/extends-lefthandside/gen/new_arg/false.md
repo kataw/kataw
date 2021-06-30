@@ -62,7 +62,8 @@ new false
 
 ```javascript
 
-new  false();
+new false;
+
 ```
 
 ### Diagnostics

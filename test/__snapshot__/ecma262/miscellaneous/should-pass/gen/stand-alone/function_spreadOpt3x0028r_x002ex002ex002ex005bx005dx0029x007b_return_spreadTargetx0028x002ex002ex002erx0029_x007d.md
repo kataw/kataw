@@ -178,9 +178,8 @@ function spreadOpt3(r, ...[]){ return spreadTarget(...r); }
 
 ```javascript
 
-function spreadOpt3() {
-  return  spreadTarget(...r);
-}
+function spreadOpt3(r, ...[]) { return spreadTarget(...r); }
+
 ```
 
 ### Diagnostics

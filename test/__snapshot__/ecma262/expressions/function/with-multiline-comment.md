@@ -183,14 +183,11 @@ x; })
 
 ```javascript
 
-(function () {
-    return /* Multiline\nComment */  x;
-  });
-(function () {
-    return ; // Comment
+(function () { return/* Multiline\nComment */ x; });
+(function () { return;// Comment
+ // Comment
+x; });
 
-    x;
-  });
 ```
 
 ### Diagnostics

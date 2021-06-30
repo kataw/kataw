@@ -94,6 +94,7 @@ let [a,,]=0
 ```javascript
 
 let [a, ,] = 0;
+
 ```
 
 ### Diagnostics

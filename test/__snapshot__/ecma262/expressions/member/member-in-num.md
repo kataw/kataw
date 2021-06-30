@@ -112,7 +112,8 @@
 
 ```javascript
 
-6[(x =>  y)] in 3;
+6[(x => y)] in 3;
+
 ```
 
 ### Diagnostics

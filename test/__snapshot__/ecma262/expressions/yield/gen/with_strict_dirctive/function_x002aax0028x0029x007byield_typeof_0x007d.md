@@ -139,9 +139,9 @@
 
 ```javascript
 
-function * a() {
-  yield typeof 0;
-}
+'\'use strict\'';
+function* a() { yield typeof  0; }
+
 ```
 
 ### Diagnostics

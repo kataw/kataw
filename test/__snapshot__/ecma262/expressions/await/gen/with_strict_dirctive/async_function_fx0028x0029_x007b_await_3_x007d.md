@@ -125,9 +125,9 @@
 
 ```javascript
 
-async function f() {
-  await 3;
-}
+'\'use strict\'';
+async function f() { await 3; }
+
 ```
 
 ### Diagnostics

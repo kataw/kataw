@@ -122,7 +122,8 @@ function e(x=eval=10){ }
 
 ```javascript
 
-function e() {}
+function e(x = eval = 10) { }
+
 ```
 
 ### Diagnostics

@@ -93,7 +93,9 @@ class A extends /crap/ {}
 
 ```javascript
 
-class A  {}
+class A extends /crap/ {
+}
+
 ```
 
 ### Diagnostics

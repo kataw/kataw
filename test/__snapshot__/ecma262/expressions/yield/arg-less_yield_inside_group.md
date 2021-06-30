@@ -137,9 +137,8 @@
 
 ```javascript
 
-({ * g1() {
-    ( yield);
-  } });
+({ * g1() { (yield); } });
+
 ```
 
 ### Diagnostics

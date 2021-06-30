@@ -63,7 +63,8 @@ new Foo()
 
 ```javascript
 
-new  Foo();
+new Foo();
+
 ```
 
 ### Diagnostics

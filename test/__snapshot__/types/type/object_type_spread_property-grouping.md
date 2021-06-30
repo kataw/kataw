@@ -125,6 +125,7 @@ type A = {
 
 ```javascript
 
+type A = { ...(/* comment 1 */B/* comment 1 */) }
 
 ```
 

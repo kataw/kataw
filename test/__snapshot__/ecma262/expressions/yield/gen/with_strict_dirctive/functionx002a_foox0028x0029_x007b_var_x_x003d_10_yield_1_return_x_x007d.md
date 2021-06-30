@@ -191,11 +191,9 @@
 
 ```javascript
 
-function * foo() {
-  var x = 10;
-  yield 1;
-  return  x;
-}
+'\'use strict\'';
+function* foo() { var x = 10; yield 1; return x; }
+
 ```
 
 ### Diagnostics

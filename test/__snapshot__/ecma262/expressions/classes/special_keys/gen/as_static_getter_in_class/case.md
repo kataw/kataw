@@ -137,8 +137,9 @@ class x {static get case(){}}
 ```javascript
 
 class x {
-  static get static case() {}
+  static get case() { }
 }
+
 ```
 
 ### Diagnostics

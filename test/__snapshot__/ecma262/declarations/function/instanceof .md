@@ -185,9 +185,10 @@ function foo(value: AOrString) {
 
 ```javascript
 
-function foo() {
+function foo(value: AOrString) {
   invariant(value instanceof B);
 }
+
 ```
 
 ### Diagnostics

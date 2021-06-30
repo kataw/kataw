@@ -139,7 +139,8 @@
 
 ```javascript
 
-({ ident: [foo, bar].join("\"\"") });
+({ ident : [foo, bar,].join("\"\"") });
+
 ```
 
 ### Diagnostics

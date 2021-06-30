@@ -78,6 +78,7 @@
 ```javascript
 
 (implements = x);
+
 ```
 
 ### Diagnostics

@@ -98,7 +98,8 @@
 
 ```javascript
 
-([a.b] = x);
+([a.b,] = x);
+
 ```
 
 ### Diagnostics

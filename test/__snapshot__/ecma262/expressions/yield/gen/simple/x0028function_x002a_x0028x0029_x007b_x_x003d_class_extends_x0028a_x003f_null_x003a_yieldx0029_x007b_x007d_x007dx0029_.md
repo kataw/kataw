@@ -214,9 +214,9 @@
 
 ```javascript
 
-(function * () {
-    x = class   {};
-  });
+(function* () { x = class  extends (a ? null : yield) {
+}; });
+
 ```
 
 ### Diagnostics

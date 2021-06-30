@@ -193,8 +193,10 @@ async function p(){
 ```javascript
 
 async function p() {
-  class C  {}
+  class C extends async function f() { } {
+  }
 }
+
 ```
 
 ### Diagnostics

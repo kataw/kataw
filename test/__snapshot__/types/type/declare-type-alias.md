@@ -84,6 +84,7 @@ declare type T = number;
 
 ```javascript
 
+declare type T = number
 
 ```
 

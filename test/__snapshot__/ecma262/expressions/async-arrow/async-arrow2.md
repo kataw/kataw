@@ -117,7 +117,8 @@ async <T>() => {}
 
 ```javascript
 
-async  =>  {};
+async <T>() =>  { };
+
 ```
 
 ### Diagnostics

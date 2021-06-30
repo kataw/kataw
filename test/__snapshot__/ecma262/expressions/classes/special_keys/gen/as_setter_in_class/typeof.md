@@ -141,8 +141,9 @@ class x {set typeof(x){}}
 ```javascript
 
 class x {
-  set typeof() {}
+  set typeof(x) { }
 }
+
 ```
 
 ### Diagnostics

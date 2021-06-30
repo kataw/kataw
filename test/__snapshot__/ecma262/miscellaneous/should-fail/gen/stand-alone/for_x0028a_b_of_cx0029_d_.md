@@ -105,6 +105,7 @@ for (a,b of c) d;
 
 for (a, b; c; of)
   d;
+
 ```
 
 ### Diagnostics

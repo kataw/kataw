@@ -92,6 +92,7 @@ a instanceof b > c
 ```javascript
 
 a instanceof b > c;
+
 ```
 
 ### Diagnostics

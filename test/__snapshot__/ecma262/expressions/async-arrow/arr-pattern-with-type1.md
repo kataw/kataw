@@ -491,10 +491,14 @@ async ([{x}: string]) =>  {};
 
 ```javascript
 
-async  =>  {}
-async  =>  {}
-async  =>  {}
-async  =>  {}
+async ([x: string]) =>  { }
+;
+async ([[x,]: string]) =>  { }
+;
+async ([[,]: string]) =>  { }
+;
+async ([{ x }: string]) =>  { }
+;
 
 ```
 

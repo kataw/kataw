@@ -113,7 +113,8 @@ export {𐀀 as x} from 'path'
 
 ```javascript
 
-export { 𐀀 as x } from ;
+export { 𐀀 as x, } from '\'path\'';
+
 ```
 
 ### Diagnostics

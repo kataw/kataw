@@ -132,8 +132,9 @@ class x {static debugger(){}}
 ```javascript
 
 class x {
-  static static debugger() {}
+  static debugger() { }
 }
+
 ```
 
 ### Diagnostics

@@ -122,7 +122,11 @@
 
 ```javascript
 
-async function f() {}
+'\'use strict\'';
+async function f({
+    await
+  }) { }
+
 ```
 
 ### Diagnostics

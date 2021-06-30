@@ -144,6 +144,7 @@ var {
   arguments: x,
   ...z
 } = {};
+
 ```
 
 ### Diagnostics

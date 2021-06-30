@@ -132,8 +132,9 @@ class x {static null(){}}
 ```javascript
 
 class x {
-  static static null() {}
+  static null() { }
 }
+
 ```
 
 ### Diagnostics

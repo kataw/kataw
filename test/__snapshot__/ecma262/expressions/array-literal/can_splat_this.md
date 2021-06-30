@@ -75,6 +75,7 @@
 ```javascript
 
 [...this];
+
 ```
 
 ### Diagnostics

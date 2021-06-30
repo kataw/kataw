@@ -159,7 +159,8 @@ function *f(x = delete ((enum) = f)) {}
 
 ```javascript
 
-function * f() {}
+function* f(x = delete  ((enum) = f)) { }
+
 ```
 
 ### Diagnostics

@@ -90,7 +90,8 @@
 
 ```javascript
 
-([delete foo.bar]);
+([delete  foo.bar,]);
+
 ```
 
 ### Diagnostics

@@ -150,9 +150,10 @@ var [{__proto__:a, __proto__:b}] = 0;
 ```javascript
 
 var [{
-    __proto__: a,
-    __proto__: b
-  }] = 0;
+  __proto__: a,
+  __proto__: b
+}] = 0;
+
 ```
 
 ### Diagnostics

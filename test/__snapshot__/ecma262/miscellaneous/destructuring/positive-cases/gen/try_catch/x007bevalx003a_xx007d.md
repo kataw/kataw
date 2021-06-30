@@ -127,11 +127,11 @@ try {} catch({eval: x}) {}
 
 ```javascript
 
-try {
-} catch ({
+try { }
+catch ({
   eval: x
-}) {
-}
+}){ }
+
 ```
 
 ### Diagnostics

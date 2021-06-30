@@ -178,11 +178,12 @@ function* wrap() {
 
 ```javascript
 
-function * wrap() {
+function* wrap() {
   class A {
-    yield() {}
+    *yield() { }
   }
 }
+
 ```
 
 ### Diagnostics

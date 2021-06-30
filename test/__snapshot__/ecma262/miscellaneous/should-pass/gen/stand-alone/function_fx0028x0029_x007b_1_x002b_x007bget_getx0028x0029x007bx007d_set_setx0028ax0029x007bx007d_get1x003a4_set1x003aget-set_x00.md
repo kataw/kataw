@@ -307,9 +307,8 @@ function f() { 1 + {get get(){}, set set(a){}, get1:4, set1:get-set, } }
 
 ```javascript
 
-function f() {
-  1 + { get get() {}, set set() {}, get1: 4, set1: get - set };
-}
+function f() { 1 + { get get() { }, set set(a) { }, get1 : 4, set1 : get - set, }; }
+
 ```
 
 ### Diagnostics

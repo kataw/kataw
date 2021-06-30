@@ -191,8 +191,11 @@
 
 ```javascript
 
+'\'use strict\'';
 var x, y, z;
-for ({ var: x } in {});
+for ({ var : x } in {})
+  ;
+
 ```
 
 ### Diagnostics

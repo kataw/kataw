@@ -90,7 +90,8 @@ async => ok, a
 
 ```javascript
 
-async =>  ok, a;
+async => ok, a;
+
 ```
 
 ### Diagnostics

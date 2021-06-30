@@ -159,11 +159,11 @@ try {} catch (e) { for (let e;;) {} }
 
 ```javascript
 
-try {
-} catch (e) {
-  for (let e;; ; )
-    {}
+try { }
+catch (e){
+  for (let e;;) { }
 }
+
 ```
 
 ### Diagnostics

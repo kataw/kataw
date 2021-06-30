@@ -132,8 +132,9 @@ class x {static async(){}}
 ```javascript
 
 class x {
-  static static async() {}
+  static async() { }
 }
+
 ```
 
 ### Diagnostics

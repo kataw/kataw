@@ -146,8 +146,9 @@ class x {static set break(x){}}
 ```javascript
 
 class x {
-  static set static break() {}
+  static set break(x) { }
 }
+
 ```
 
 ### Diagnostics

@@ -481,16 +481,17 @@ class Foo {
 ```javascript
 
 class Foo {
-  #x;
-  static get static #y() {}
-  static set static #y() {}
-  static static #z() {}
+  static #x
+  static get #y() { }
+  static set #y(x) { }
+  static #z() { }
   foo() {
     Foo.#x += 1;
     Foo.#y += 1;
     Foo.#z();
   }
 }
+
 ```
 
 ### Diagnostics

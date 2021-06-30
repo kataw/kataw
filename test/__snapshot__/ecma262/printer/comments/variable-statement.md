@@ -81,7 +81,8 @@ var foo = /* comment */ (
 
 ```javascript
 
-var foo = (42);
+var foo =/* comment */ (42);
+
 ```
 
 ### Diagnostics

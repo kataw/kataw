@@ -126,7 +126,8 @@ wrap({*async(){}});
 
 ```javascript
 
-wrap({ * async() {} });
+wrap({ * async() { } });
+
 ```
 
 ### Diagnostics

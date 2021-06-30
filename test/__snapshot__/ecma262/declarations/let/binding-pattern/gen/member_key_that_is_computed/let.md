@@ -133,6 +133,7 @@ let {[a.b]: c} = v
 let {
   [a.b]: c
 } = v;
+
 ```
 
 ### Diagnostics

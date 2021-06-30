@@ -72,6 +72,7 @@ public = x
 ```javascript
 
 public = x;
+
 ```
 
 ### Diagnostics

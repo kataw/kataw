@@ -97,7 +97,8 @@ opaque type ID = number;
 
 ```javascript
 
-
+opaque type ID = number
+;
 
 ```
 

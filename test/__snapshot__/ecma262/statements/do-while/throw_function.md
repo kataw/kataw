@@ -137,10 +137,11 @@ for(;;)x
 
 ```javascript
 
-do throw  function () {};
-while (y);
+do
+  throw function () { }; while (y)
 for (;;)
   x;
+
 ```
 
 ### Diagnostics

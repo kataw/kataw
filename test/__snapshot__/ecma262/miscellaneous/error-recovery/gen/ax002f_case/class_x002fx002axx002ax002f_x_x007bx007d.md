@@ -74,7 +74,9 @@ class /*x*/ x {}
 
 ```javascript
 
-class /*x*/ x {}
+class/*x*/ x {
+}
+
 ```
 
 ### Diagnostics

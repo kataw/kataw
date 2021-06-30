@@ -105,7 +105,8 @@ type =>  x, type =>  x;
 
 ```javascript
 
-type =>  x, type =>  x;
+type => x, type => x;
+
 ```
 
 ### Diagnostics

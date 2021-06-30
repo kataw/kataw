@@ -164,10 +164,10 @@ class Foo { #foo = () => { for (#foo in this) ; } }
 ```javascript
 
 class Foo {
-  #foo = () =>  {
-      for (#foo in this);
-    };
+  #foo = () =>  { for (#foo in this)
+    ; }
 }
+
 ```
 
 ### Diagnostics

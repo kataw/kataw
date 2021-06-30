@@ -185,7 +185,8 @@ let x = (y: any): () => {} => { };
 
 ```javascript
 
-let x = () =>  {};
+let x = (y: any) =>  { };
+
 ```
 
 ### Diagnostics

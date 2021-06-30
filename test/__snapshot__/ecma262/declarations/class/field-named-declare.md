@@ -99,8 +99,9 @@ class A {
 ```javascript
 
 class A {
-  declare;
+  declare
 }
+
 ```
 
 ### Diagnostics

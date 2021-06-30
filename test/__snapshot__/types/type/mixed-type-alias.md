@@ -185,6 +185,7 @@ type MyObject = {
 
 ```javascript
 
+type MyObject = { foo: number, bar: boolean, baz: string }
 
 ```
 

@@ -142,8 +142,9 @@ class x {static async * default(){}}
 ```javascript
 
 class x {
-  async static static default() {}
+  static async *default() { }
 }
+
 ```
 
 ### Diagnostics

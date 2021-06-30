@@ -75,7 +75,8 @@ delete (foo.bar);
 
 ```javascript
 
-delete (foo.bar);
+delete  (foo.bar);
+
 ```
 
 ### Diagnostics

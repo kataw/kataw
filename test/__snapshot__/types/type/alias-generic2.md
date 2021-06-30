@@ -277,6 +277,7 @@ type MyObject<A, B, C> = {
 
 ```javascript
 
+type MyObject<A, B, C> = { foo: A, bar: B, baz: C }
 
 ```
 

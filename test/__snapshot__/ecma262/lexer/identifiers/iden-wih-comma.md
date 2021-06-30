@@ -68,6 +68,7 @@ foo, bar, zoo
 ```javascript
 
 foo, bar, zoo;
+
 ```
 
 ### Diagnostics

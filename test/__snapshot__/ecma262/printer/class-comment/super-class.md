@@ -1021,31 +1021,46 @@ extends Base
 
 ```javascript
 
-class A // comment 1
-  {}
-class A1   // comment1
-{}
-class A2 /* a */  {}
-class A3   /* a */{}
-class A4  {}
-(class A5 // comment 1
-    {});
-(class A6   // comment1
-  {});
-(class A7 /* a */  {});
-(class A8   /* a */{});
-(class A9  {});
-class a   // comment
+class A// comment 1
+ 
+ // comment 2
+extends B {
+}
+class A1 extends B // comment1
 {
-  constructor() {}
 }
-class c  {
-  constructor() {}
+class A2/* a */ extends B {
 }
-class C2 // comment
-  {
-  foo() {}
+class A3 extends B /* a */{
 }
+class A4 extends/* a */ B {
+}
+(class A5// comment 1
+ 
+ // comment 2
+extends B {
+});
+(class A6 extends B // comment1
+{
+});
+(class A7/* a */ extends B {
+});
+(class A8 extends B /* a */{
+});
+(class A9 extends/* a */ B {
+});
+class a extends b // comment
+{
+  constructor() { }
+}
+class c extends d {
+  constructor() { }
+}
+class C2// comment
+ extends Base {
+  foo() { }
+}
+
 ```
 
 ### Diagnostics

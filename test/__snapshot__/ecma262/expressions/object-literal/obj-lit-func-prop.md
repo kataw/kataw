@@ -149,7 +149,8 @@
 
 ```javascript
 
-({ f: function  <T >() {} });
+({ f : function <T> () { } });
+
 ```
 
 ### Diagnostics

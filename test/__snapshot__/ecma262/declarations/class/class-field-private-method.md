@@ -173,12 +173,11 @@ class C { #aaa; f() { this.#aaa } }
 ```javascript
 
 class C {
-  #aaa;
-
-  f() {
-    this.#aaa;
-  }
+  #aaa
+  ;
+  f() { this.#aaa; }
 }
+
 ```
 
 ### Diagnostics

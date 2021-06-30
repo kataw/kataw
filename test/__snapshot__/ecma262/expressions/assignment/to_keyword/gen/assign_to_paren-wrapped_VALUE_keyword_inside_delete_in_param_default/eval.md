@@ -159,7 +159,8 @@ function *f(x = delete ((eval) = f)) {}
 
 ```javascript
 
-function * f() {}
+function* f(x = delete  ((eval) = f)) { }
+
 ```
 
 ### Diagnostics

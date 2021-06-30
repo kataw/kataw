@@ -139,7 +139,8 @@ var asyncArrow = async(...await) => {};
 
 ```javascript
 
-var asyncArrow = async  =>  {};
+var asyncArrow = async (...await) =>  { };
+
 ```
 
 ### Diagnostics

@@ -1398,18 +1398,19 @@
 
 ```javascript
 
-[{ [foo]: bar4 }] = [{ bar: "\"bar\"" }];
-[{ [foo2()]: bar5 }] = [{ bar: "\"bar\"" }];
-[{ [foo()]: bar4 }] = [{ bar: "\"bar\"" }];
-[{ [foo]: bar4 }] = [{ bar: "\"bar\"" }];
-[{ [foo2()]: bar5 }] = [{ bar: "\"bar\"" }];
-[{ [foo()]: bar4 }] = [{ bar: "\"bar\"" }];
-[{ [(1 + {})]: bar4 }] = [{ bar: "\"bar\"" }];
+[{ [foo] : bar4 },] = [{ bar : "\"bar\"" },];
+[{ [foo2()] : bar5 },] = [{ bar : "\"bar\"" },];
+[{ [foo()] : bar4 },] = [{ bar : "\"bar\"" },];
+[{ [foo] : bar4 },] = [{ bar : "\"bar\"" },];
+[{ [foo2()] : bar5 },] = [{ bar : "\"bar\"" },];
+[{ [foo()] : bar4 },] = [{ bar : "\"bar\"" },];
+[{ [(1 + {})] : bar4 },] = [{ bar : "\"bar\"" },];
 [...x] = it;
-[[x]] = [null];
-[x] = [];
+[[x,],] = [null,];
+[x,] = [];
 [...x] = [];
 [...x[yield]] = [];
+
 ```
 
 ### Diagnostics

@@ -90,6 +90,7 @@ result = {} = vals;
 ```javascript
 
 result = {} = vals;
+
 ```
 
 ### Diagnostics

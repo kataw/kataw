@@ -109,7 +109,8 @@ obj?.a?.b
 
 ```javascript
 
-?.b;
+obj?.a?.b;
+
 ```
 
 ### Diagnostics

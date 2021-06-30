@@ -142,6 +142,7 @@ type C = { ...A&B };
 
 ```javascript
 
+type C = { ...A & B }
 
 ```
 

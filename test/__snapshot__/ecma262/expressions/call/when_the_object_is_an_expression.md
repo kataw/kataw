@@ -76,6 +76,7 @@ async({a})
 ```javascript
 
 async({ a })
+
 ```
 
 ### Diagnostics

@@ -89,6 +89,7 @@ call(await.foo)
 ```javascript
 
 call(await.foo);
+
 ```
 
 ### Diagnostics

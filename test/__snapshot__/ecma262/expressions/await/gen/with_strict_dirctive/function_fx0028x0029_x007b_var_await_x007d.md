@@ -131,9 +131,9 @@
 
 ```javascript
 
-function f() {
-  var await;
-}
+'\'use strict\'';
+function f() { var await; }
+
 ```
 
 ### Diagnostics

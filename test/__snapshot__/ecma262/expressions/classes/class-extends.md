@@ -1183,31 +1183,54 @@
 
 ```javascript
 
-(class name {});
-(class   {});
-(class name  {});
-(class   {});
-(class name  {});
-(class   {});
-(class name  {});
-(class   {});
-(class name  {});
-"'use strict'";
+(class name {
+});
+(class  extends F {
+});
+(class name extends F {
+});
+(class  extends (F, G) {
+});
+(class name extends (F, G) {
+});
+(class  extends class  {
+} {
+});
+(class name extends class  {
+} {
+});
+(class  extends class base {
+} {
+});
+(class name extends class base {
+} {
+});
+'\'use strict\'';
 {
-  class name  {}
+  class name extends F {
+  }
 }
-"'use strict'";
+;
+'\'use strict\'';
 {
-  class name  {}
+  class name extends (F, G) {
+  }
 }
-"'use strict'";
+;
+'\'use strict\'';
 {
-  class name  {}
+  class name extends class  {
+  } {
+  }
 }
-"'use strict'";
+;
+'\'use strict\'';
 {
-  class name  {}
+  class name extends class base {
+  } {
+  }
 }
+;
 
 ```
 

@@ -215,6 +215,7 @@ type LinkedList<Type> = Type & { next: LinkedList<Type> };
 
 ```javascript
 
+type LinkedList<Type> = Type & { next: LinkedList<Type> }
 
 ```
 

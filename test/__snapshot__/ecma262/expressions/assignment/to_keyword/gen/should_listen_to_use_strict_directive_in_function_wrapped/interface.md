@@ -138,8 +138,10 @@ function f() {
 ```javascript
 
 function f() {
+"\"use strict\"";
   (interface = x);
 }
+
 ```
 
 ### Diagnostics

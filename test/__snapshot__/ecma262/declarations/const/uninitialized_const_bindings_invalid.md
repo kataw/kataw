@@ -98,8 +98,8 @@ for (const x;;) {}
 
 ```javascript
 
-for (const x;; ; )
-  {}
+for (const x;;) { }
+
 ```
 
 ### Diagnostics

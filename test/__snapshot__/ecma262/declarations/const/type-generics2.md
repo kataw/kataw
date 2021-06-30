@@ -197,7 +197,8 @@ const identity = <T>(t: T): T => t;
 
 ```javascript
 
-const identity = () =>  t;
+const identity = <T>(t: T) => t;
+
 ```
 
 ### Diagnostics

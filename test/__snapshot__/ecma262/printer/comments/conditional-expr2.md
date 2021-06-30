@@ -77,7 +77,8 @@ a ? /*1*/ b : c
 
 ```javascript
 
-a ? b : c;
+a ?/*1*/ b : c;
+
 ```
 
 ### Diagnostics

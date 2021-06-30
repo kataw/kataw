@@ -29,7 +29,6 @@
 ```javascript
 // detached comment
 
-
 ```
 
 ### Diagnostics

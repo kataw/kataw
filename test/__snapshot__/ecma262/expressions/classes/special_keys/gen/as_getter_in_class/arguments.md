@@ -132,8 +132,9 @@ class x {get arguments(){}}
 ```javascript
 
 class x {
-  get arguments() {}
+  get arguments() { }
 }
+
 ```
 
 ### Diagnostics

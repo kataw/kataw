@@ -130,9 +130,10 @@ function *f(){
 
 ```javascript
 
-function * f() {
+function* f() {
   (false) = 1;
 }
+
 ```
 
 ### Diagnostics

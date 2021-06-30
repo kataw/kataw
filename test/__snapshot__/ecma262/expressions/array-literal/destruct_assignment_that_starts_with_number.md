@@ -100,7 +100,8 @@
 
 ```javascript
 
-[50.foo] = x;
+[50..foo,] = x;
+
 ```
 
 ### Diagnostics

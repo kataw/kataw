@@ -127,8 +127,9 @@ class x {arguments(){}}
 ```javascript
 
 class x {
-  arguments() {}
+  arguments() { }
 }
+
 ```
 
 ### Diagnostics

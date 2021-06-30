@@ -141,7 +141,8 @@ import type { foo25, bar1 } from "baz";
 
 ```javascript
 
-import type, { foo25, bar1 }  ;
+import type type{  foo25,  bar1, } from "\"baz\"";
+
 ```
 
 ### Diagnostics

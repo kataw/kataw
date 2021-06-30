@@ -130,6 +130,7 @@ type a = {function():string};
 
 ```javascript
 
+type a = { function(): string }
 
 ```
 

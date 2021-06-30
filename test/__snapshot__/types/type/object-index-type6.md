@@ -134,6 +134,7 @@ type X = {[(x)]: string};
 
 ```javascript
 
+type X = { [(x)]: string }
 
 ```
 

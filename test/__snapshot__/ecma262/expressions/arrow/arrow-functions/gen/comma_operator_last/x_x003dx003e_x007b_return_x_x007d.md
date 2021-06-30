@@ -117,9 +117,8 @@ x => { return x; }, bar
 
 ```javascript
 
-x =>  {
-  return  x;
-}, bar;
+x =>  { return x; }, bar;
+
 ```
 
 ### Diagnostics

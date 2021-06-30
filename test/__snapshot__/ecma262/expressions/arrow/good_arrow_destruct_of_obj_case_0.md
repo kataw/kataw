@@ -134,7 +134,11 @@
 
 ```javascript
 
-() =>  {};
+({
+    a: b,
+    ...obj
+  }) =>  { };
+
 ```
 
 ### Diagnostics

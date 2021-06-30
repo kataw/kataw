@@ -225,14 +225,15 @@ class Example {
 ```javascript
 
 class Example {
-  #priv;
-
+  #priv
+  ;
   @anydecorator
   method = () =>  {
-      return  this.#priv;
-    };
-
+    return this.#priv;
+  }
+  ;
 }
+
 ```
 
 ### Diagnostics

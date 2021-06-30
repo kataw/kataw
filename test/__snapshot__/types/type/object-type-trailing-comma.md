@@ -115,6 +115,7 @@ type a = {x: number, };
 
 ```javascript
 
+type a = { x: number }
 
 ```
 

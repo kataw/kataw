@@ -130,8 +130,9 @@ class A {*foo(){}}
 ```javascript
 
 class A {
-  foo() {}
+  *foo() { }
 }
+
 ```
 
 ### Diagnostics

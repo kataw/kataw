@@ -154,9 +154,12 @@ var x = {
 
 ```javascript
 
-var x = { "\"foo\""() {
-    return  bar;
-  } };
+var x = {
+  "\"foo\""() {
+    return bar;
+  }
+};
+
 ```
 
 ### Diagnostics

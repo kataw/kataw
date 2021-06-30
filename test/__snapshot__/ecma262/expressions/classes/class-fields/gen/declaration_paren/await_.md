@@ -126,10 +126,11 @@
 
 ```javascript
 
-(class   {
-    await;
+(class  extends Base {
+  await
+  ;
+});
 
-  });
 ```
 
 ### Diagnostics

@@ -89,8 +89,9 @@ var {x,} = obj;
 ```javascript
 
 var {
-  x
+  x,
 } = obj;
+
 ```
 
 ### Diagnostics

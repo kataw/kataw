@@ -2104,31 +2104,23 @@ class Foo {
 ```javascript
 
 class Foo {
-  get #foo() {
-    return  this.foo;
-  }
-  set #bar() {
-    this.bar = val;
-  }
-  get #prop() {
-    return  this.prop;
-  }
-  set #prop() {
-    this.prop = val;
-  }
-  foo() {
+  get #foo() { return this.foo; }
+  set #bar(val) { this.bar = val; }
+  get #prop() { return this.prop; }
+  set #prop(val) { this.prop = val; }
+  foo(fn) {
     fn().#foo;
     fn().#bar = 1;
     fn().#prop;
     fn().#prop = 2;
   }
-  unary() {
+  unary(fn) {
     fn().#prop++;
     fn().#prop--;
     ++fn().#prop;
     --fn().#prop;
   }
-  binary() {
+  binary(fn) {
     fn().#prop = 1;
     fn().#prop += 1;
     fn().#prop -= 1;
@@ -2147,6 +2139,7 @@ class Foo {
     fn().#prop ??= 1;
   }
 }
+
 ```
 
 ### Diagnostics

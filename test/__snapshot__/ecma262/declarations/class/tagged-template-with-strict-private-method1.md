@@ -381,14 +381,15 @@ new Foo();
 
 class Foo {
   #tag() {
-    return  this;
+    return this;
   }
   constructor() {
     const receiver = this.#tag`tagged template`;
     console.assert(receiver === this);
   }
 }
-new  Foo();
+new Foo();
+
 ```
 
 ### Diagnostics

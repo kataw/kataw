@@ -106,7 +106,9 @@ class x extends new A() {}
 
 ```javascript
 
-class x  {}
+class x extends new A() {
+}
+
 ```
 
 ### Diagnostics

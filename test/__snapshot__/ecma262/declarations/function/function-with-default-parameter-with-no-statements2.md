@@ -206,8 +206,10 @@ function bar(a = console.log) {
 
 ```javascript
 
-function foo() {}
-function bar() {}
+function foo(a = console.log) { }
+function bar(a = console.log) {
+}
+
 ```
 
 ### Diagnostics

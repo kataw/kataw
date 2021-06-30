@@ -130,9 +130,8 @@ function* gf() { +yield 2; }
 
 ```javascript
 
-function * gf() {
-  +yield 2;
-}
+function* gf() { + yield 2; }
+
 ```
 
 ### Diagnostics

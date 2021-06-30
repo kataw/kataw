@@ -136,11 +136,10 @@ function f(x) { { let x } }
 
 ```javascript
 
-function f() {
-  {
-    let x;
-  }
-}
+function f(x) { {
+  let x;
+} }
+
 ```
 
 ### Diagnostics

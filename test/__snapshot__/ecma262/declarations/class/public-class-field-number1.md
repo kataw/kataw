@@ -97,8 +97,9 @@ class C { 1e2 }
 ```javascript
 
 class C {
-  1e2;
+  1e2
 }
+
 ```
 
 ### Diagnostics

@@ -126,9 +126,10 @@ function *f(){
 
 ```javascript
 
-function * f() {
-  public = x;
+function* f() {
+  publ\u0069c = x;
 }
+
 ```
 
 ### Diagnostics

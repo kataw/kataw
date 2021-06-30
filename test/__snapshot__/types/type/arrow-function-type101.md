@@ -201,6 +201,7 @@ type a = ((q | y)=> T) => T;
 
 ```javascript
 
+type a = ((q | y) => T) => T
 
 ```
 

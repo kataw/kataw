@@ -141,8 +141,9 @@ class x {set do(x){}}
 ```javascript
 
 class x {
-  set do() {}
+  set do(x) { }
 }
+
 ```
 
 ### Diagnostics

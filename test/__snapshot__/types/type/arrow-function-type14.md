@@ -199,6 +199,7 @@ type a = (?c & a | b) => T;
 
 ```javascript
 
+type a = (?c & a | b) => T
 
 ```
 

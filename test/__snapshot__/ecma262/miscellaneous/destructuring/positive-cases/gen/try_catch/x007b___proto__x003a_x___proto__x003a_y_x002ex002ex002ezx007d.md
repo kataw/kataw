@@ -173,13 +173,9 @@ try {} catch({ __proto__: x, __proto__: y, ...z}) {}
 
 ```javascript
 
-try {
-} catch ({
-  __proto__: x,
-  __proto__: y,
-  ...z
-}) {
-}
+try { }
+catch ({ __proto__: x, __proto__: y, ...z }){ }
+
 ```
 
 ### Diagnostics

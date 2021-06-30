@@ -90,6 +90,7 @@
 {
   let x;
 }
+
 ```
 
 ### Diagnostics

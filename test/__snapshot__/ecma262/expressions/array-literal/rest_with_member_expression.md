@@ -112,6 +112,7 @@
 ```javascript
 
 [...x.list] = a;
+
 ```
 
 ### Diagnostics

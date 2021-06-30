@@ -107,7 +107,9 @@
 
 ```javascript
 
-function * f() {}
+'\'use strict\'';
+function* f(await) { }
+
 ```
 
 ### Diagnostics

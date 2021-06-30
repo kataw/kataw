@@ -174,9 +174,9 @@
 
 ```javascript
 
-function * gen() {
-  ( yield) ?  yield :  yield;
-}
+'\'use strict\'';
+function* gen() { (yield) ? yield : yield; }
+
 ```
 
 ### Diagnostics

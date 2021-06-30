@@ -181,9 +181,9 @@
 
 ```javascript
 
-function * gf() {
-  var fe = function yield() {};
-}
+'\'use strict\'';
+function* gf() { var fe = function yield() { }; }
+
 ```
 
 ### Diagnostics

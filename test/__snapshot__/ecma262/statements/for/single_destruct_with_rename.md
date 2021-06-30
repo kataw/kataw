@@ -123,8 +123,10 @@ for (let {x : y} = obj;;);
 ```javascript
 
 for (let {
-    x: y
-  } = obj;; ; );
+  x: y
+} = obj;;)
+  ;
+
 ```
 
 ### Diagnostics

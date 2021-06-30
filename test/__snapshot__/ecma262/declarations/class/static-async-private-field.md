@@ -134,8 +134,9 @@ class C { static async*#aaa(){} }
 ```javascript
 
 class C {
-  async static static #aaa() {}
+  static async *#aaa() { }
 }
+
 ```
 
 ### Diagnostics

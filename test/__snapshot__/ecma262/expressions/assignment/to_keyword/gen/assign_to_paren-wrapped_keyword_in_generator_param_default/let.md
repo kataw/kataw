@@ -141,7 +141,8 @@ function *f(x = (let) = f) {}
 
 ```javascript
 
-function * f() {}
+function* f(x = (let) = f) { }
+
 ```
 
 ### Diagnostics

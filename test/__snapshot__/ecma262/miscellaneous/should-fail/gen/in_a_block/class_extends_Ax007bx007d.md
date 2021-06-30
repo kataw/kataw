@@ -102,8 +102,10 @@
 ```javascript
 
 {
-  class   {}
+  class  extends A {
+  }
 }
+
 ```
 
 ### Diagnostics

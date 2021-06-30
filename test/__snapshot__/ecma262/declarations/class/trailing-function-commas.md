@@ -128,8 +128,9 @@ class Foo { bar(a,) { } }
 ```javascript
 
 class Foo {
-  bar() {}
+  bar(a,) { }
 }
+
 ```
 
 ### Diagnostics

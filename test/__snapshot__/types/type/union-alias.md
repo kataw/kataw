@@ -105,6 +105,7 @@ type UnionAlias = 1 | 2 | 3;
 
 ```javascript
 
+type UnionAlias = 1 | 2 | 3
 
 ```
 

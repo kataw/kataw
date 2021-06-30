@@ -95,9 +95,9 @@ try { } catch ({}) {}
 
 ```javascript
 
-try {
-} catch ({}) {
-}
+try { }
+catch ({ }){ }
+
 ```
 
 ### Diagnostics

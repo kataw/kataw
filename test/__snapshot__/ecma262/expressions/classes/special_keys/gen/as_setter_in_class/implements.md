@@ -141,8 +141,9 @@ class x {set implements(x){}}
 ```javascript
 
 class x {
-  set implements() {}
+  set implements(x) { }
 }
+
 ```
 
 ### Diagnostics

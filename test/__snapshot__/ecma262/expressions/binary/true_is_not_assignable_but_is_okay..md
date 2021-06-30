@@ -62,6 +62,7 @@ true ** a
 ```javascript
 
 true ** a;
+
 ```
 
 ### Diagnostics

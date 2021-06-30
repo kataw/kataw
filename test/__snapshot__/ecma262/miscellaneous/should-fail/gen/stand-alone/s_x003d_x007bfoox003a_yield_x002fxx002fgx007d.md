@@ -141,7 +141,8 @@ s = {foo: yield /x/g}
 
 ```javascript
 
-s = { foo: yield / x / g };
+s = { foo : yield / x / g };
+
 ```
 
 ### Diagnostics

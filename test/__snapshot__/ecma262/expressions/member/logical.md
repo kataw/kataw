@@ -166,11 +166,8 @@
 ```javascript
 
 (veryLongVeryLongVeryLong || e).prop;
-(
-  veryLongVeryLongVeryLong ||
-  anotherVeryLongVeryLongVeryLong ||
-  veryVeryVeryLongError
-).prop;
+(veryLongVeryLongVeryLong || anotherVeryLongVeryLongVeryLong || veryVeryVeryLongError).prop;
+
 ```
 
 ### Diagnostics

@@ -197,6 +197,7 @@ type a = (x,symbol['string']) => T;
 
 ```javascript
 
+type a = (x, symbol["'string'"]) => T
 
 ```
 

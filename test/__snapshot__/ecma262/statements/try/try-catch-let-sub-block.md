@@ -254,18 +254,19 @@ try {} catch (x) { { var x } }
 
 ```javascript
 
-try {
-} catch (x) {
+try { }
+catch (x){
   {
     let x;
   }
 }
-try {
-} catch (x) {
+try { }
+catch (x){
   {
     var x;
   }
 }
+
 ```
 
 ### Diagnostics

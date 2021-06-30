@@ -132,8 +132,9 @@ class x {* debugger(){}}
 ```javascript
 
 class x {
-  debugger() {}
+  *debugger() { }
 }
+
 ```
 
 ### Diagnostics

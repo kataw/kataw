@@ -113,9 +113,10 @@
 
 ```javascript
 
-() =>  {
-  0;
-};
+(interface) =>  {
+'\'use strict\'';
+ 0; };
+
 ```
 
 ### Diagnostics

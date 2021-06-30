@@ -134,6 +134,7 @@ var {[a.b]: c} = v
 var {
   [a.b]: c
 } = v;
+
 ```
 
 ### Diagnostics

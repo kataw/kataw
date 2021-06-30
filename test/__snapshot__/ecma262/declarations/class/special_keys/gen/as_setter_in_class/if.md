@@ -141,8 +141,9 @@ class x {set if(x){}}
 ```javascript
 
 class x {
-  set if() {}
+  set if(x) { }
 }
+
 ```
 
 ### Diagnostics

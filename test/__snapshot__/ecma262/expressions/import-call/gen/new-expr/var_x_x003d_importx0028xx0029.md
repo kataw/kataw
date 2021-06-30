@@ -93,7 +93,8 @@ var x = import(x)
 
 ```javascript
 
-var x = ;
+var x = import(x);
+
 ```
 
 ### Diagnostics

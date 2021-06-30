@@ -105,7 +105,8 @@ async x => (foo) = 1
 
 ```javascript
 
-async x =>  (foo) = 1;
+async x => (foo) = 1;
+
 ```
 
 ### Diagnostics

@@ -371,32 +371,25 @@ function getSecurity(level) {
 
 ```javascript
 
-function getSecurity() {
-  switch(level) {
+function getSecurity(level) {
+  switch (level) {
     case 0:
-       // Zero
-
     // Zero
     case 1:
-       // one
-
     // one
-    case 2:
-      return  "\"Hi\"";
+    case 2: 
+      return "\"Hi\"";
     case 3:
-       // three
-
     // three
-    case 4:
-      return  "\"hello\"";
+    case 4: 
+      return "\"hello\"";
     case 5:
-       // five
-
     // five
-    default
-      return  "\"world\"";
+    default: 
+      return "\"world\"";
   }
 }
+
 ```
 
 ### Diagnostics

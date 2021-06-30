@@ -154,9 +154,10 @@ function *f() {
 
 ```javascript
 
-function * f() {
-  yield async async =>  {};
+function* f() {
+  yield async async =>  { };
 }
+
 ```
 
 ### Diagnostics

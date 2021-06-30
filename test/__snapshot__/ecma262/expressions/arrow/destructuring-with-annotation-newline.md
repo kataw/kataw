@@ -168,7 +168,8 @@
 
 ```javascript
 
-() =>  {};
+({ a, b }: T) =>  { };
+
 ```
 
 ### Diagnostics

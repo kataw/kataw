@@ -4621,185 +4621,185 @@ a});
 ```javascript
 
 class x {
-  #foo = bar;
+  static #foo = bar
 }
 (class C {
-    a = 0;
-
-  });
+  static a = 0
+  ;
+});
 (class C {
-    a = 0;
-
-    b;
-  });
+  static a = 0
+  ;
+  b
+});
 (class C {
-    a = 0;
-
-    b() {}
-  });
+  static a = 0
+  ;
+  b() { }
+});
 (class C {
-    a = 0;
-
-    b() {}
-  });
+  static a = 0
+  ;
+  *b() { }
+});
 (class C {
-    a = 0;
-
-    ["'b'"]() {}
-  });
+  static a = 0
+  ;
+  ['\'b\'']() { }
+});
 (class C {
-    a;
-
-  });
+  static a
+  ;
+});
 (class C {
-    a;
-
-    b;
-
-  });
+  static a
+  ;
+  b
+  ;
+});
 (class C {
-    a;
-
-    b() {}
-  });
+  static a
+  ;
+  b() { }
+});
 (class C {
-    a;
-
-    b() {}
-  });
+  static a
+  ;
+  *b() { }
+});
 (class C {
-    a;
-
-    ["'b'"]() {}
-  });
+  static a
+  ;
+  ['\'b\'']() { }
+});
 (class C {
-    ["'a'"] = 0;
-
-  });
+  static ['\'a\''] = 0
+  ;
+});
 (class C {
-    ["'a'"] = 0;
-
-    b;
-  });
+  static ['\'a\''] = 0
+  ;
+  b
+});
 (class C {
-    ["'a'"] = 0;
-
-    b() {}
-  });
+  static ['\'a\''] = 0
+  ;
+  b() { }
+});
 (class C {
-    ["'a'"] = 0;
-
-    b() {}
-  });
+  static ['\'a\''] = 0
+  ;
+  *b() { }
+});
 (class C {
-    ["'a'"] = 0;
-
-    ["'b'"]() {}
-  });
+  static ['\'a\''] = 0
+  ;
+  ['\'b\'']() { }
+});
 (class C {
-    ["'a'"];
-
-  });
+  static ['\'a\'']
+  ;
+});
 (class C {
-    ["'a'"];
-
-    b;
-
-  });
+  static ['\'a\'']
+  ;
+  b
+  ;
+});
 (class C {
-    ["'a'"];
-
-    b() {}
-  });
+  static ['\'a\'']
+  ;
+  b() { }
+});
 (class C {
-    ["'a'"];
-
-    b() {}
-  });
+  static ['\'a\'']
+  ;
+  *b() { }
+});
 (class C {
-    ["'a'"];
-
-    ["'b'"]() {}
-  });
-(class   {
-    0 = 0;
-
-  });
-(class   {
-    0;
-
-  });
-(class   {
-    "'a'" = 0;
-
-  });
-(class   {
-    "'a'";
-
-  });
+  static ['\'a\'']
+  ;
+  ['\'b\'']() { }
+});
+(class  extends x {
+  static 0 = 0
+  ;
+});
+(class  extends x {
+  static 0
+  ;
+});
+(class  extends x {
+  static '\'a\'' = 0
+  ;
+});
+(class  extends x {
+  static '\'a\''
+  ;
+});
 (class C {
-    yield = 0;
-  });
+  static yield = 0
+});
 (class C {
-    yield;
-    a;
-  });
+  static yield
+  a
+});
 (class C {
-    async;
-
-  });
+  static async
+  ;
+});
 (class C {
-    async = 0;
-
-  });
+  static async = 0
+  ;
+});
 (class C {
-    async;
-  });
+  static async
+});
 (class C {
-    async = 0;
-  });
+  static async = 0
+});
 (class C {
-    async;
-    a() {}
-  }); // a field named async, and a method named a.
-
+  static async
+  a() { }
+});// a field named async, and a method named a.
 (class C {
-    async;
-    a;
-  });
+  static async
+  a
+});
 (class C {
-    await;
-
-  });
+  static await
+  ;
+});
 (class C {
-    await = 0;
-
-  });
+  static await = 0
+  ;
+});
 (class C {
-    await;
-    a;
-  });
+  static await
+  a
+});
 (class C {
-    c = [c] = c;
-  });
+  static c = [c,] = c
+});
 (class  {
-    a = 0;
-  });
+  static a = 0
+});
 (class  {
-    a = 0;
-    b;
-  });
+  static a = 0
+  b
+});
 (class  {
-    a = 0;
-    b() {}
-  });
+  static a = 0
+  b() { }
+});
 (class  {
-    a;
-  });
+  static a
+});
 (class  {
-    a;
-    b;
-  });
+  static a
+  b
+});
+
 ```
 
 ### Diagnostics

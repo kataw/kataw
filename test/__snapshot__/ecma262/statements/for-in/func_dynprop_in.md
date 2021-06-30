@@ -153,7 +153,9 @@ for (function(){ }[x in y] in x);
 
 ```javascript
 
-for (function () {}[x in y] in x);
+for (function () { }[x in y] in x)
+  ;
+
 ```
 
 ### Diagnostics

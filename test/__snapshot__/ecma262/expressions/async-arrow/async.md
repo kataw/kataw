@@ -129,7 +129,8 @@ async (x?: number): any => x;
 
 ```javascript
 
-async  =>  x
+async (x?: number) => x
+;
 
 ```
 

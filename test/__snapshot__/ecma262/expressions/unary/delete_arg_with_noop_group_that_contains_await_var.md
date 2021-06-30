@@ -122,7 +122,8 @@ delete (((((foo(await)))))).bar
 
 ```javascript
 
-delete (foo(await)).bar;
+delete  (((((foo(await)))))).bar;
+
 ```
 
 ### Diagnostics

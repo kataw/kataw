@@ -85,7 +85,8 @@ function f(f) { }
 
 ```javascript
 
-function f() {}
+function f(f) { }
+
 ```
 
 ### Diagnostics

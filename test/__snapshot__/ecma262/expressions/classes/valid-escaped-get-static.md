@@ -658,23 +658,24 @@
 ```javascript
 
 (class  {
-    get static() {}
-  });
+  get st\u0061tic() { }
+});
 (class  {
-    set static() {}
-  });
+  set st\u0061tic(x) { }
+});
 (class  {
-    static() {}
-  });
+  *st\u0061tic() { }
+});
 (class  {
-    static() {}
-  });
+  st\u0061tic() { }
+});
 (class  {
-    static get static static() {}
-  });
+  static get st\u0061tic() { }
+});
 (class  {
-    static set static static() {}
-  });
+  static set st\u0061tic(x) { }
+});
+
 ```
 
 ### Diagnostics

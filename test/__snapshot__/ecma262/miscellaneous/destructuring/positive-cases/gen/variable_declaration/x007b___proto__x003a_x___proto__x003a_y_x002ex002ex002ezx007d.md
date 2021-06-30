@@ -163,11 +163,8 @@ var { __proto__: x, __proto__: y, ...z} = {};
 
 ```javascript
 
-var {
-  __proto__: x,
-  __proto__: y,
-  ...z
-} = {};
+var { __proto__: x, __proto__: y, ...z } = {};
+
 ```
 
 ### Diagnostics

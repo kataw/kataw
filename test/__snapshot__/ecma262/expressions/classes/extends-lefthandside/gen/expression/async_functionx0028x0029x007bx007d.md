@@ -141,7 +141,9 @@
 
 ```javascript
 
-(class B  {});
+(class B extends async function () { } {
+});
+
 ```
 
 ### Diagnostics

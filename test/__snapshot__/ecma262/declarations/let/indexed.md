@@ -124,7 +124,8 @@ let x: T[K];
 
 ```javascript
 
-let x: ;
+let x: T[K];
+
 ```
 
 ### Diagnostics

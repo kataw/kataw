@@ -141,7 +141,8 @@ var obj: { foo?: boolean } = {};
 
 ```javascript
 
-var obj:  = {};
+var obj: { foo?: boolean } = {};
+
 ```
 
 ### Diagnostics

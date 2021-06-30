@@ -154,10 +154,11 @@ foo /* 2*/ bar() {}
 ```javascript
 
 class x {
-  @/*1*/
-  foo /* 2*/
-  bar() {}
+   /*1*/
+  @foo/* 2*/
+  bar() { }
 }
+
 ```
 
 ### Diagnostics

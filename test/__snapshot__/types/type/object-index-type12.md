@@ -201,6 +201,7 @@ type X = {[|(x) =>x&symbol]: string,};
 
 ```javascript
 
+type X = { [| (x) => x & symbol]: string }
 
 ```
 

@@ -92,7 +92,8 @@ let x = import(x)
 
 ```javascript
 
-let x = ;
+let x = import(x);
+
 ```
 
 ### Diagnostics

@@ -155,6 +155,7 @@ async function f() {
   for await (/foo/g.x of c)
     d;
 }
+
 ```
 
 ### Diagnostics

@@ -111,7 +111,8 @@ function x(): | a {}
 
 ```javascript
 
-function x(): |  {}
+function x(): | a { }
+
 ```
 
 ### Diagnostics

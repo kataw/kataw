@@ -93,7 +93,9 @@
 
 ```javascript
 
-let x: | /* detached comment */ string;
+let x: | 
+ /* detached comment */string;
+
 ```
 
 ### Diagnostics

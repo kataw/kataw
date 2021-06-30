@@ -384,10 +384,11 @@ const d: string | null = c?.c;
 
 ```javascript
 
-const a:  = 1337;
-const b:  = ;
-const c:  = 1337;
-const d:  = ;
+const a: any | null = 1337;
+const b: string | null = a?.a;
+const c: ?any = 1337;
+const d: string | null = c?.c;
+
 ```
 
 ### Diagnostics

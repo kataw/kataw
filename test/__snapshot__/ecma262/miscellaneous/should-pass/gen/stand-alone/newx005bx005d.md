@@ -70,7 +70,8 @@ new[]
 
 ```javascript
 
-new  []();
+new [];
+
 ```
 
 ### Diagnostics

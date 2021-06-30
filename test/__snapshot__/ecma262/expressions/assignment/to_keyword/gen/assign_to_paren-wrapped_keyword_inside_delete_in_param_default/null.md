@@ -147,7 +147,8 @@ async (x = delete ((null) = f)) => {}
 
 ```javascript
 
-async  =>  {}
+async (x = delete  ((null) = f)) =>  { }
+
 ```
 
 ### Diagnostics

@@ -50,6 +50,7 @@ foo;
 ```javascript
 
 foo;
+
 ```
 
 ### Diagnostics

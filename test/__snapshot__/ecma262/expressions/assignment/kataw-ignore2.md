@@ -64,8 +64,8 @@ foo = bar;
 
 ```javascript
 // kataw-ignore
-
 foo = bar;
+
 ```
 
 ### Diagnostics

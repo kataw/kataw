@@ -127,8 +127,9 @@ function fn() {
 ```javascript
 
 function fn() {
-  function yield() {}
+  function yield() { }
 }
+
 ```
 
 ### Diagnostics

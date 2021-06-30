@@ -98,7 +98,8 @@ new async a => {}
 
 ```javascript
 
-new  async a =>  {}();
+new async a =>  { };
+
 ```
 
 ### Diagnostics

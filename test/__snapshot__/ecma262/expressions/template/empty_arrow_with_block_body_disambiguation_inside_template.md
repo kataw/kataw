@@ -96,7 +96,8 @@
 
 ```javascript
 
-`a ${() =>  {}} b`;
+`a ${() =>  { }} b`;
+
 ```
 
 ### Diagnostics

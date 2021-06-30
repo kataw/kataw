@@ -811,30 +811,31 @@ x = class {y = 1; 'z' = 2}
 ```javascript
 
 x = class  {
-  y = 1;
-
-  "'z'" = 2;
+  y = 1
+  ;
+  '\'z\'' = 2
 };
 x = class  {
-  y() {}
-
-  "'z'"() {}
+  y() { }
+  ;
+  '\'z\''() { }
 };
 x = class  {
-  get y() {}
-
-  set "'z'"() {}
+  get y() { }
+  ;
+  set '\'z\''(z) { }
 };
 x = class  {
-  get y() {}
-
-  set "'z'"() {}
+  get y() { }
+  ;
+  set '\'z\''(z) { }
 };
 x = class  {
-  y = 1;
-
-  "'z'" = 2;
+  y = 1
+  ;
+  '\'z\'' = 2
 };
+
 ```
 
 ### Diagnostics

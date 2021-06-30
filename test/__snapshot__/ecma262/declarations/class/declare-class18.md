@@ -130,7 +130,8 @@ declare class C {
 
 ```javascript
 
-declare class C TODO!
+declare class C { x: T }
+
 ```
 
 ### Diagnostics

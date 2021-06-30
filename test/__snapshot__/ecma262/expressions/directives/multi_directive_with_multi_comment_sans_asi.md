@@ -58,9 +58,10 @@ xyz*/"bar";
 
 ```javascript
 
-"\"foo\""; /*abc
+"\"foo\"";/*abc
 xyz*/
 "\"bar\"";
+
 ```
 
 ### Diagnostics

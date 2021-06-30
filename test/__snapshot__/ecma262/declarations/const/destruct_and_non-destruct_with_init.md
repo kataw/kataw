@@ -130,6 +130,7 @@ const [foo] = arr, bar = arr2;
 ```javascript
 
 const [foo] = arr, bar = arr2;
+
 ```
 
 ### Diagnostics

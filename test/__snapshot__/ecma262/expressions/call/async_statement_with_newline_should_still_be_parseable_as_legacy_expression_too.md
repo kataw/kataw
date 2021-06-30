@@ -68,6 +68,7 @@ async
 ```javascript
 
 async(2)
+;
 
 ```
 

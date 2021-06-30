@@ -201,12 +201,16 @@ else
 
 ```javascript
 
-if (firstTrue()) // comment
+if (firstTrue())
+   // comment
   doFirstThing();
-else  if (secondTrue()) // comment
+else if (secondTrue())
+   // comment
   doSecondThing();
-else  // this comment should not move
+else
+   // this comment should not move
   doThirdThing();
+
 ```
 
 ### Diagnostics

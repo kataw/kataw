@@ -90,7 +90,8 @@
 
 ```javascript
 
-({ foo: typeof /x/g });
+({ foo : typeof  /x/g });
+
 ```
 
 ### Diagnostics

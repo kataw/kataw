@@ -141,7 +141,8 @@ function *f(x = (interface) = f) {}
 
 ```javascript
 
-function * f() {}
+function* f(x = (interface) = f) { }
+
 ```
 
 ### Diagnostics

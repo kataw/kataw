@@ -91,7 +91,9 @@ for (fooo[bar] in x) ;
 
 ```javascript
 
-for (fooo[bar] in x);
+for (fooo[bar] in x)
+  ;
+
 ```
 
 ### Diagnostics

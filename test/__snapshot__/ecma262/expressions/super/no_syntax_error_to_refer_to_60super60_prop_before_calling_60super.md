@@ -214,12 +214,10 @@ class x extends y { constructor() { log(super.foo); super.mom; } }
 
 ```javascript
 
-class x  {
-  constructor() {
-    log(.foo);
-    .mom;
-  }
+class x extends y {
+  constructor() { log(super.foo); super.mom; }
 }
+
 ```
 
 ### Diagnostics

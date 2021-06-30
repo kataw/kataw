@@ -125,8 +125,11 @@ else function f(){}
 
 ```javascript
 
-if (x) x;
-else  function f() {}
+if (x)
+  x;
+else
+  function f() { }
+
 ```
 
 ### Diagnostics

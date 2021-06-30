@@ -141,8 +141,9 @@ class x {set debugger(x){}}
 ```javascript
 
 class x {
-  set debugger() {}
+  set debugger(x) { }
 }
+
 ```
 
 ### Diagnostics

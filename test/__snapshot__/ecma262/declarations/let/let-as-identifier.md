@@ -1173,27 +1173,20 @@ L: let
 
 var let;
 var foo, let;
-try {
-} catch (let) {
-}
-function let() {}
-(function let() {});
-function foo() {}
-function foo() {}
+try { }
+catch (let){ }
+function let() { }
+(function let() { });
+function foo(let) { }
+function foo(bar, let) { }
 let = 1;
 var foo = let = 1;
 let * 2;
 ++let;
 let++;
-(function f() {
-    let: 34;
-  });
-function let() {
-  let: let(let + let(0));
-}
-({ let: 1 })({ get let() {
-    1;
-  } });
+(function f() { let: 34; });
+function let(let) { let: let(let + let(0)); }
+({ let : 1 })({ get let() { 1; } });
 let(100);
 L: let;
 x;
@@ -1201,6 +1194,7 @@ L: let;
 {
   x;
 }
+
 ```
 
 ### Diagnostics

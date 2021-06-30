@@ -133,9 +133,11 @@ for (let {x, y = z} = obj;;);
 ```javascript
 
 for (let {
-    x,
-    y = z
-  } = obj;; ; );
+  x,
+  y = z
+} = obj;;)
+  ;
+
 ```
 
 ### Diagnostics

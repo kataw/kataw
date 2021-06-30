@@ -152,10 +152,10 @@ g => {
 ```javascript
 
 g =>  {
-  try {
-  } catch ([g]) {
-  }
+  try { }
+  catch ([g]){ }
 };
+
 ```
 
 ### Diagnostics

@@ -225,6 +225,7 @@ type a = ({x:y} | { [[x]]:string}) => T;
 
 ```javascript
 
+type a = ({ x: y } | { [[x]]string }) => T
 
 ```
 

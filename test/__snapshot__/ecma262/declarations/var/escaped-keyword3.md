@@ -105,7 +105,10 @@ var a = {
 
 ```javascript
 
-var a = { break: 2 };
+var a = {
+  br\u{65}ak : 2
+};
+
 ```
 
 ### Diagnostics

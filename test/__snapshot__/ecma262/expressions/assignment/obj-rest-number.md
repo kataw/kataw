@@ -111,6 +111,7 @@ result = {...rest} = 69;
 ```javascript
 
 result = { ...rest } = 69;
+
 ```
 
 ### Diagnostics

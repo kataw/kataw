@@ -109,8 +109,9 @@ let {a:{}} = 0
 ```javascript
 
 let {
-  a: {}
+  a: { }
 } = 0;
+
 ```
 
 ### Diagnostics

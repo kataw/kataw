@@ -366,11 +366,12 @@ function method(value: /*1*/A & B & /*2*/ C /*3*/) {
 
 ```javascript
 
-function method() /*3*/ {
-  var a:  = value;
-  var b:  = value; /*4*/
-  var c:  = value;
+function method(value:/*1*/ /*1*/A & B & /*2*/C/*3*/) {
+  var a: A = value;
+  var b: B = value;/*4*/
+  var c: C = value;
 }
+
 ```
 
 ### Diagnostics

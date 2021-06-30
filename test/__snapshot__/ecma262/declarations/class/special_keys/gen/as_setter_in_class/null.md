@@ -141,8 +141,9 @@ class x {set null(x){}}
 ```javascript
 
 class x {
-  set null() {}
+  set null(x) { }
 }
+
 ```
 
 ### Diagnostics

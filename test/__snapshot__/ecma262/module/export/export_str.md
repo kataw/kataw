@@ -62,6 +62,7 @@ export default "foo";
 ```javascript
 
 export default "\"foo\"";
+
 ```
 
 ### Diagnostics

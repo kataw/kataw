@@ -118,7 +118,8 @@
 
 ```javascript
 
-([foo /= g / m.x]);
+([foo /= g / m.x,]);
+
 ```
 
 ### Diagnostics

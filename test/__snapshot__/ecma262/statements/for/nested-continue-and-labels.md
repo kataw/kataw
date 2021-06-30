@@ -636,10 +636,22 @@ function relativeComplement() {
 ```javascript
 
 function relativeComplement() {
-  outer: for (; offsetB++; offsetB  < arrayB.length)
-    {}
-  return  result;
+  outer: for (; offsetB++; offsetB  < arrayB.length) {
+    inner: for (; offsetA++; offsetA  < arrayA.length) {
+      switch (comparer(arrayB[offsetB], arrayA[offsetA])) {
+        case - 1: 
+          break inner;
+        case 0: 
+          continue outer;
+        case 1: 
+          continue inner;
+      }
+    }
+    result.push(arrayB[offsetB]);
+  }
+  return result;
 }
+
 ```
 
 ### Diagnostics

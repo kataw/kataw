@@ -141,8 +141,9 @@ class x {set this(x){}}
 ```javascript
 
 class x {
-  set this() {}
+  set this(x) { }
 }
+
 ```
 
 ### Diagnostics

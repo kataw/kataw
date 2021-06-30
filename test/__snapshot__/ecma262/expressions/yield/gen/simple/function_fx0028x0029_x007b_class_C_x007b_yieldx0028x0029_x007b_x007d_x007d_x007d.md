@@ -174,11 +174,10 @@ function f() { class C { yield() { } } }
 
 ```javascript
 
-function f() {
-  class C {
-    yield() {}
-  }
-}
+function f() { class C {
+  yield() { }
+} }
+
 ```
 
 ### Diagnostics

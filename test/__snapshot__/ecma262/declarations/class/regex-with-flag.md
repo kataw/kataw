@@ -99,8 +99,10 @@ class x{}
 
 ```javascript
 
-class x {}
+class x {
+}
 /foo/g;
+
 ```
 
 ### Diagnostics

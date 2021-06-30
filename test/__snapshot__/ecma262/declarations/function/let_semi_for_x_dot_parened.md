@@ -96,7 +96,9 @@ for ((let).foo;;);
 
 ```javascript
 
-for ((let).foo; ; );
+for ((let).foo;;)
+  ;
+
 ```
 
 ### Diagnostics

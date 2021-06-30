@@ -174,11 +174,10 @@ function f() { class C { await() { } } }
 
 ```javascript
 
-function f() {
-  class C {
-    await() {}
-  }
-}
+function f() { class C {
+  await() { }
+} }
+
 ```
 
 ### Diagnostics

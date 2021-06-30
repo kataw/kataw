@@ -113,7 +113,8 @@
 
 ```javascript
 
-({ l: 50.foo } = x);
+({ l : 50..foo } = x);
+
 ```
 
 ### Diagnostics

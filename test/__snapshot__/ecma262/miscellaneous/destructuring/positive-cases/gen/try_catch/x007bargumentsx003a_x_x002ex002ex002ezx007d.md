@@ -150,12 +150,12 @@ try {} catch({arguments: x, ...z}) {}
 
 ```javascript
 
-try {
-} catch ({
+try { }
+catch ({
   arguments: x,
   ...z
-}) {
-}
+}){ }
+
 ```
 
 ### Diagnostics

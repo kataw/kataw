@@ -98,7 +98,8 @@
 
 ```javascript
 
-`a ${function () {}} b`;
+`a ${function () { }} b`;
+
 ```
 
 ### Diagnostics

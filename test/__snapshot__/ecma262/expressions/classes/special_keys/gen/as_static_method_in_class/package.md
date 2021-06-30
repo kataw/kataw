@@ -132,8 +132,9 @@ class x {static package(){}}
 ```javascript
 
 class x {
-  static static package() {}
+  static package() { }
 }
+
 ```
 
 ### Diagnostics

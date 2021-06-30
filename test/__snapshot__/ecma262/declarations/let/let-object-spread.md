@@ -443,6 +443,7 @@ let tests = [
   { a, ...b, c },
   { a, b, ...c, ...d, e, f, ...g, ...h, i, j },
 ];
+
 ```
 
 ### Diagnostics

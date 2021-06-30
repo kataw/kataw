@@ -139,6 +139,7 @@ const {
   a,
   [x]: y
 } = a;
+
 ```
 
 ### Diagnostics

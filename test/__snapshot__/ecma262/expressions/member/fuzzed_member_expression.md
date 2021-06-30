@@ -122,6 +122,7 @@
 ```javascript
 
 (2[x, x], x) > x;
+
 ```
 
 ### Diagnostics

@@ -127,7 +127,9 @@ class A<T: Foo> {}
 
 ```javascript
 
-class A {}
+class A<T: Foo> {
+}
+
 ```
 
 ### Diagnostics

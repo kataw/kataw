@@ -202,7 +202,9 @@
 
 ```javascript
 
-var f = async function f() {};
+'\'use strict\'';
+var f = async function f(x = function* await() { }) { };
+
 ```
 
 ### Diagnostics

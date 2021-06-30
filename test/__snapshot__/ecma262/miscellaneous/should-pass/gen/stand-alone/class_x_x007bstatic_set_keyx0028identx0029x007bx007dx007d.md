@@ -146,8 +146,9 @@ class x {static set key(ident){}}
 ```javascript
 
 class x {
-  static set static key() {}
+  static set key(ident) { }
 }
+
 ```
 
 ### Diagnostics

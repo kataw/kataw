@@ -119,10 +119,11 @@
 
 ```javascript
 
-try {
-} try{
-}
+"\"use strict\"";
+try { }
+finally { }
 a();
+
 ```
 
 ### Diagnostics

@@ -121,7 +121,8 @@ var x:
 
 ```javascript
 
-var x: |  = 2;
+var x: | 1 | 2 = 2;
+
 ```
 
 ### Diagnostics

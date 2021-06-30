@@ -148,7 +148,8 @@ export function d(): Promise<boolean> {}
 
 ```javascript
 
-export function d():  {}
+export function d(): Promise<boolean> { }
+
 ```
 
 ### Diagnostics

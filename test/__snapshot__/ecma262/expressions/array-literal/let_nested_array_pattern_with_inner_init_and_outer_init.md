@@ -184,7 +184,8 @@
 
 ```javascript
 
-[foo, [x, y = 20, z], bar = B] = arr;
+[foo, [x, y = 20, z,], bar = B,] = arr;
+
 ```
 
 ### Diagnostics

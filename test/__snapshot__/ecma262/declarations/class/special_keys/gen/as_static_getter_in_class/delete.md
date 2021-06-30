@@ -137,8 +137,9 @@ class x {static get delete(){}}
 ```javascript
 
 class x {
-  static get static delete() {}
+  static get delete() { }
 }
+
 ```
 
 ### Diagnostics

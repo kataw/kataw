@@ -112,6 +112,7 @@ for ("foo"[x] in c) d;
 
 for ("\"foo\""[x] in c)
   d;
+
 ```
 
 ### Diagnostics

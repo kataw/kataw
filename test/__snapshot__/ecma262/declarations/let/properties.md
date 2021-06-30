@@ -216,6 +216,7 @@ let {
   e: f = 0,
   [g]: [h]
 } = 0;
+
 ```
 
 ### Diagnostics

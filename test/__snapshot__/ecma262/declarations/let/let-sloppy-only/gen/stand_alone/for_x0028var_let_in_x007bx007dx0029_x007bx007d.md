@@ -118,8 +118,8 @@ for (var let in {}) {}
 
 ```javascript
 
-for ( in {})
-  {}
+for (var let in {}) { }
+
 ```
 
 ### Diagnostics

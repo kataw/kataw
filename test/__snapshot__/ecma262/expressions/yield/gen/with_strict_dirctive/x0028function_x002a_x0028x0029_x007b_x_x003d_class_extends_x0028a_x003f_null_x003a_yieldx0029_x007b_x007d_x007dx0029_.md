@@ -223,9 +223,10 @@
 
 ```javascript
 
-(function * () {
-    x = class   {};
-  });
+'\'use strict\'';
+(function* () { x = class  extends (a ? null : yield) {
+}; });
+
 ```
 
 ### Diagnostics

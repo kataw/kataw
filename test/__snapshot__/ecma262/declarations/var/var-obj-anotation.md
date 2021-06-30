@@ -177,7 +177,8 @@ var {x}: {x: string; } = { x: "hello" };
 
 var {
   x
-}:  = { x: "\"hello\"" };
+}: { x: string } = { x : "\"hello\"" };
+
 ```
 
 ### Diagnostics

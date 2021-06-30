@@ -134,9 +134,11 @@ try {
 ```javascript
 
 try {
-} try{
-  function f() {}
 }
+finally {
+  function f() { }
+}
+
 ```
 
 ### Diagnostics

@@ -144,6 +144,7 @@ type a = {1:y.z[]};
 
 ```javascript
 
+type a = { 1: y.z[] }
 
 ```
 

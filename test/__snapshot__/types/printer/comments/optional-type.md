@@ -213,8 +213,9 @@ let y: [.../*1*/x/*2*/];
 
 ```javascript
 
-let x:  [:  /*2*/ ];
-let y:  [ /*2*/ ];
+let x: [?/*1*/x/*2*/];
+let y: [.../*1*/x/*2*/];
+
 ```
 
 ### Diagnostics

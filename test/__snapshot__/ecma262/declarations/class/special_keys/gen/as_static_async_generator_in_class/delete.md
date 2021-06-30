@@ -142,8 +142,9 @@ class x {static async * delete(){}}
 ```javascript
 
 class x {
-  async static static delete() {}
+  static async *delete() { }
 }
+
 ```
 
 ### Diagnostics

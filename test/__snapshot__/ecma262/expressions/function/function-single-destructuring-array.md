@@ -1116,26 +1116,27 @@ promise.then(([firstResult, secondResult, thirdResult, fourthResult, fifthResult
 
 ```javascript
 
-function excludeFirstFiveResults() {
-  return  rest;
+function excludeFirstFiveResults([first, second, third, fourth, fifth, ...rest]) {
+  return rest;
 }
-function excludeFirstFiveResults2() {
-  return  rest;
+function excludeFirstFiveResults2([first, second, third, fourth, fifth, ...rest] = DEFAULT_FIVE_RESULTS) {
+  return rest;
 }
-function excludeFirstFiveResults3() {
-  return  rest;
+function excludeFirstFiveResults3([firstResult, secondResult, thirdResult, fourthResult, fifthResult, ...rest] = [1, 2, 3, 4, 5,]) {
+  return rest;
 }
-const excludeFirstFiveResults5 = () =>  {
-  return  rest;
+const excludeFirstFiveResults5 = ([first, second, third, fourth, fifth, ...rest]) =>  {
+  return rest;
 };
 class A {
-  excludeFirstFiveResults() {
-    return  restOfResults;
+  excludeFirstFiveResults([first, second, third, fourth, fifth, ...restOfResults]) {
+    return restOfResults;
   }
 }
-promise.then(() =>  {
-  return  rest;
+promise.then(([firstResult, secondResult, thirdResult, fourthResult, fifthResult, ...rest]) =>  {
+  return rest;
 });
+
 ```
 
 ### Diagnostics

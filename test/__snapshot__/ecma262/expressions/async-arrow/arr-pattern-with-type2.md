@@ -163,7 +163,8 @@
 
 ```javascript
 
-async  =>  {}
+async ([x: string, y: number]) =>  { }
+;
 
 ```
 

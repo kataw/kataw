@@ -146,8 +146,9 @@ class x {static set this(x){}}
 ```javascript
 
 class x {
-  static set static this() {}
+  static set this(x) { }
 }
+
 ```
 
 ### Diagnostics

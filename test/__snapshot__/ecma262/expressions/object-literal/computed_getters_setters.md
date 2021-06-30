@@ -436,11 +436,13 @@ var f = {
 
 ```javascript
 
-var f = { get ["'d'"]() {
-    return  "'foo'";
-  }, set ["'d'"]() {}, set "\"stringLiteral\""() {}, get "\"stringLiteral\""() {
-    return  4;
-  } };
+var f = {
+  get ['\'d\'']() { return '\'foo\''; },
+  set ['\'d\''](x: number) { },
+  set "\"stringLiteral\""(x: number) { },
+  get "\"stringLiteral\""(): number { return 4; },
+};
+
 ```
 
 ### Diagnostics

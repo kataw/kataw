@@ -518,19 +518,20 @@ class Foo {
 ```javascript
 
 class Foo {
-  f() {}
-  f() /* ... */ {}
-  f = () =>  {};
-
-  static static f() {}
-
-  f = () =>  {};
-
-  f = function () {};
-
-  f = function f() {};
-
+  f(/* ... */) { }
+  f() { }
+  f = (/* ... */) =>  { }
+  ;
+  static f(/* ... */) { }
+  ;
+  static f = (/* ... */) =>  { }
+  ;
+  static f = function (/* ... */) { }
+  ;
+  static f = function f(/* ... */) { }
+  ;
 }
+
 ```
 
 ### Diagnostics

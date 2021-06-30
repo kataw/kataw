@@ -100,7 +100,8 @@
 
 ```javascript
 
-[a, , b] = array;
+[a, , b,] = array;
+
 ```
 
 ### Diagnostics

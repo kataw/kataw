@@ -356,16 +356,17 @@ class B<X> {
 
 ```javascript
 
-class B {
-  s;
-
+class B<X> {
+  s: X
+  ;
   f() {
     if (this.s) {
-        y = this.s;
-      }
+      y = this.s;
+    }
     this.s = y;
   }
 }
+
 ```
 
 ### Diagnostics

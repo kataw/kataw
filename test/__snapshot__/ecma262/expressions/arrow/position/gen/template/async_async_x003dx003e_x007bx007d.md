@@ -109,7 +109,8 @@
 
 ```javascript
 
-`a ${async async =>  {}} b`;
+`a ${async async =>  { }} b`;
+
 ```
 
 ### Diagnostics

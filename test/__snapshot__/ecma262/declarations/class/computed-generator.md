@@ -147,8 +147,10 @@ class Foo {
 ```javascript
 
 class Foo {
-  [Symbol.iterator]() {}
+  *[Symbol.iterator]() {
+  }
 }
+
 ```
 
 ### Diagnostics

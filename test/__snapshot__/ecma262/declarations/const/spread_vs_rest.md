@@ -174,6 +174,7 @@ const [a=[...b], ...c] = obj;
 ```javascript
 
 const [a = [...b], ...c] = obj;
+
 ```
 
 ### Diagnostics

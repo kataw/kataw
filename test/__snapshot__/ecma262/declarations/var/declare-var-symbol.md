@@ -93,6 +93,7 @@ declare var x: symbol;
 ```javascript
 
 var x: symbol;
+
 ```
 
 ### Diagnostics

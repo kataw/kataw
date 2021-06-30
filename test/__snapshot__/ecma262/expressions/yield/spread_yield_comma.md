@@ -150,9 +150,8 @@ function *g() {x={     ...yield,    };}
 
 ```javascript
 
-function * g() {
-  x = { ... yield };
-}
+function* g() { x = { ...yield }; }
+
 ```
 
 ### Diagnostics

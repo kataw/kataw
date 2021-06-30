@@ -3073,19 +3073,19 @@ c.baz ??= result.baz;
 (results &&= []).push(100);
 (results ??= []).push(100);
 if ((thing &&= thing.original)) {
-  }
+}
 if ((thing &&= defaultValue)) {
-  }
+}
 if ((thing ||= defaultValue)) {
-  }
+}
 if ((thing ??= defaultValue)) {
-  }
-f ||= () =>  a;
-f &&= () =>  a;
-f ??= () =>  a;
-f ||= (f.toString(), () =>  a);
-f &&= (f.toString(), () =>  a);
-f ??= (f.toString(), () =>  a);
+}
+f ||= (a) => a;
+f &&= (a) => a;
+f ??= (a) => a;
+f ||= (f.toString(), (a) => a);
+f &&= (f.toString(), (a) => a);
+f ??= (f.toString(), (a) => a);
 (results ||= results1 ||= []).push(100);
 (results &&= results1 &&= []).push(100);
 (results ??= results1 ??= []).push(100);
@@ -3095,6 +3095,7 @@ obj[incr()] &&= incr();
 oobj["\"obj\""][incr()] &&= incr();
 obj[incr()] ??= incr();
 oobj["\"obj\""][incr()] ??= incr();
+
 ```
 
 ### Diagnostics

@@ -146,8 +146,9 @@ class x {static set instanceof(x){}}
 ```javascript
 
 class x {
-  static set static instanceof() {}
+  static set instanceof(x) { }
 }
+
 ```
 
 ### Diagnostics

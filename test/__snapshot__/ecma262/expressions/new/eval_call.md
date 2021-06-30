@@ -63,7 +63,8 @@ new eval()
 
 ```javascript
 
-new  eval();
+new eval();
+
 ```
 
 ### Diagnostics

@@ -101,7 +101,8 @@ function log(n, op, val,) { }
 
 ```javascript
 
-function log() {}
+function log(n, op, val,) { }
+
 ```
 
 ### Diagnostics

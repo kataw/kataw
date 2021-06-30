@@ -113,8 +113,9 @@ for ({}.u |= c;;) x;
 
 ```javascript
 
-for ({}.u |= c; ; )
+for ({}.u |= c;;)
   x;
+
 ```
 
 ### Diagnostics

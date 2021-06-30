@@ -144,9 +144,10 @@ function loadImport(file) {
 
 ```javascript
 
-function loadImport() {
-  return  ;
+function loadImport(file) {
+  return import(`test/${file}.js`);
 }
+
 ```
 
 ### Diagnostics

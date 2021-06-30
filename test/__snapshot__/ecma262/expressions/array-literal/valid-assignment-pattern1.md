@@ -98,7 +98,8 @@
 
 ```javascript
 
-[(a.x)] = t;
+[(a.x),] = t;
+
 ```
 
 ### Diagnostics

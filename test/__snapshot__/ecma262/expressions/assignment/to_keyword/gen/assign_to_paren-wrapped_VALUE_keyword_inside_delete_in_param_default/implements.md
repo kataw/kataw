@@ -159,7 +159,8 @@ function *f(x = delete ((implements) = f)) {}
 
 ```javascript
 
-function * f() {}
+function* f(x = delete  ((implements) = f)) { }
+
 ```
 
 ### Diagnostics

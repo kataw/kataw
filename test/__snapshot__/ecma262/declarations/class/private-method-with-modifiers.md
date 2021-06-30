@@ -436,13 +436,14 @@ class Foo {
 ```javascript
 
 class Foo {
-  #g() {}
-  async #a() {}
-  async #ag() {}
-  static static #sg() {}
-  async static static #sa() {}
-  async static static #sag() {}
+  *#g() { }
+  async #a() { }
+  async *#ag() { }
+  static *#sg() { }
+  static async #sa() { }
+  static async *#sag() { }
 }
+
 ```
 
 ### Diagnostics

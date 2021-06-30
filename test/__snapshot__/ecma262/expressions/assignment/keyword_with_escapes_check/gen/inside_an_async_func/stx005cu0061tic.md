@@ -114,9 +114,8 @@ async () => {  st\u0061tic = x  }
 
 ```javascript
 
-async  =>  {
-  static = x;
-}
+async () =>  { st\u0061tic = x; }
+
 ```
 
 ### Diagnostics

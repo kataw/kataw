@@ -140,8 +140,9 @@ for ({a: b.c} in d) e
 
 ```javascript
 
-for ({ a: b.c } in d)
+for ({ a : b.c } in d)
   e;
+
 ```
 
 ### Diagnostics

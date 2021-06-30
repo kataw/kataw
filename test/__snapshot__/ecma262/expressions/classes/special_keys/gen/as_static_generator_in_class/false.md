@@ -137,8 +137,9 @@ class x {static * false(){}}
 ```javascript
 
 class x {
-  static static false() {}
+  static *false() { }
 }
+
 ```
 
 ### Diagnostics

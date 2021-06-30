@@ -105,7 +105,8 @@ var a = (b) => c;
 
 ```javascript
 
-var a = () =>  c;
+var a = (b) => c;
+
 ```
 
 ### Diagnostics

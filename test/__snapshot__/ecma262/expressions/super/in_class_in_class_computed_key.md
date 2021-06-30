@@ -272,13 +272,14 @@ class A extends B {
 
 ```javascript
 
-class A  {
+class A extends B {
   x() {
-    class C  {
-      [[foo]]() {}
+    class C extends D {
+      [super[foo]]() { }
     }
   }
 }
+
 ```
 
 ### Diagnostics

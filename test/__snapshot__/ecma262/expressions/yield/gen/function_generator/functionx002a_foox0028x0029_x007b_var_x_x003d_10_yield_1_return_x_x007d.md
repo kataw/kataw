@@ -283,15 +283,8 @@ function * gen() { function not_gen() { function* foo() { var x = 10; yield 1; r
 
 ```javascript
 
-function * gen() {
-  function not_gen() {
-    function * foo() {
-      var x = 10;
-      yield 1;
-      return  x;
-    }
-  }
-}
+function* gen() { function not_gen() { function* foo() { var x = 10; yield 1; return x; } } }
+
 ```
 
 ### Diagnostics

@@ -1107,7 +1107,7 @@ class Foo {
 ```javascript
 
 class Foo {
-  #x;
+  #x
   unary() {
     this.#x++;
     this.#x--;
@@ -1133,6 +1133,7 @@ class Foo {
     this.#x ??= 1;
   }
 }
+
 ```
 
 ### Diagnostics

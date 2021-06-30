@@ -141,8 +141,9 @@ class x {set arguments(x){}}
 ```javascript
 
 class x {
-  set arguments() {}
+  set arguments(x) { }
 }
+
 ```
 
 ### Diagnostics

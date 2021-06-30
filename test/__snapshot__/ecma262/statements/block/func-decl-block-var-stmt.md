@@ -113,8 +113,9 @@
 
 ```javascript
 
-function f() {}
+function f() { }
 var f;
+
 ```
 
 ### Diagnostics

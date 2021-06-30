@@ -138,7 +138,8 @@ declare class B {
 
 ```javascript
 
-declare class B TODO!
+declare class B { 1(): {} }
+
 ```
 
 ### Diagnostics

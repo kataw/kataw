@@ -90,6 +90,7 @@ var my_var; my_var;
 
 var my_var;
 my_var;
+
 ```
 
 ### Diagnostics

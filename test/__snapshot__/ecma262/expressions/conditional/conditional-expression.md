@@ -704,15 +704,16 @@ async function f2() {
 ```javascript
 
 async function f() {
-  const result = typeof fn === "'function'" ? await fn() : null;
+  const result = typeof  fn === '\'function\'' ? await fn() : null;
 }
 (async function () {
-    console.log(await (true ? Promise.resolve("\"A\"") : Promise.resolve("\"B\"")));
-  })();
+  console.log(await (true ? Promise.resolve("\"A\"") : Promise.resolve("\"B\"")));
+})();
 async function f2() {
   await (spellcheck && spellcheck.setChecking(false));
   await spellcheck && spellcheck.setChecking(false);
 }
+
 ```
 
 ### Diagnostics

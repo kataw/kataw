@@ -159,7 +159,8 @@ function *f(x = delete ((package) = f)) {}
 
 ```javascript
 
-function * f() {}
+function* f(x = delete  ((package) = f)) { }
+
 ```
 
 ### Diagnostics

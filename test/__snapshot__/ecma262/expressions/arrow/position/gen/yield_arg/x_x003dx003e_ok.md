@@ -143,9 +143,10 @@ function *f() {
 
 ```javascript
 
-function * f() {
-  yield x =>  ok;
+function* f() {
+  yield x => ok;
 }
+
 ```
 
 ### Diagnostics

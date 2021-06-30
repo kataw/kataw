@@ -203,11 +203,12 @@ class Foo extends Base {
 
 ```javascript
 
-class Foo  {
+class Foo extends Base {
   method() {
-    .method?.();
+    super.method?.();
   }
 }
+
 ```
 
 ### Diagnostics

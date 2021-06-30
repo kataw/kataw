@@ -137,8 +137,9 @@ class x {async * return(){}}
 ```javascript
 
 class x {
-  async return() {}
+  async *return() { }
 }
+
 ```
 
 ### Diagnostics

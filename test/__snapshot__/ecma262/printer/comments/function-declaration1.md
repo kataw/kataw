@@ -312,11 +312,13 @@ function x (
 
 ```javascript
 
-function x() {}
-function x() {}
-function x() /*2*/ {}
-function x() /*2*/ {}
-function x() {}
+function x(/*1*/) { }
+function x(/*1*/) {/*2*/ }
+function x(/*1*/a, b/*2*/) { }
+function x(/*1*/a, b/*2*/) { }
+function x(
+ /*2*/) { }
+
 ```
 
 ### Diagnostics

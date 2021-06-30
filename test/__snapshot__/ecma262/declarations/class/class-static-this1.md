@@ -107,8 +107,9 @@ class Foo { static x = this }
 ```javascript
 
 class Foo {
-  x = this;
+  static x = this
 }
+
 ```
 
 ### Diagnostics

@@ -289,8 +289,8 @@ class C {
 ```javascript
 
 class C {
-
 }
+
 ```
 
 ### Diagnostics

@@ -78,6 +78,7 @@ import(source = "foo.js")
 ```javascript
 
 import(source = "\"foo.js\"");
+
 ```
 
 ### Diagnostics

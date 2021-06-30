@@ -183,11 +183,11 @@
 
 ```javascript
 
-function f() {
-  class C {
-    await() {}
-  }
-}
+'\'use strict\'';
+function f() { class C {
+  await() { }
+} }
+
 ```
 
 ### Diagnostics

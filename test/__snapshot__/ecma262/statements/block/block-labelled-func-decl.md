@@ -131,8 +131,9 @@
 ```javascript
 
 {
-  foo: bar: function f() {}
+  foo: bar: function f() { }
 }
+
 ```
 
 ### Diagnostics

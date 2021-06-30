@@ -49,7 +49,8 @@ abc\uD835\uDFD0def
 
 ```javascript
 
-abc𝟐def;
+abc\uD835\uDFD0def;
+
 ```
 
 ### Diagnostics

@@ -119,11 +119,8 @@ let g = /* before */GeneratorFunction("a", " /* a */ b, c /* b */ //", "/* c */ 
 
 ```javascript
 
-let g = GeneratorFunction(
-  "\"a\"",
-  "\" /* a */ b, c /* b */ //\"",
-  "\"/* c */ yield yield; /* d */ //\"",
-) /* after */;
+let g =/* before */ GeneratorFunction("\"a\"", "\" /* a */ b, c /* b */ //\"", "\"/* c */ yield yield; /* d */ //\"")/* after */;
+
 ```
 
 ### Diagnostics

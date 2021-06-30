@@ -69,6 +69,7 @@ async (yield x)
 ```javascript
 
 async(yield, x)
+
 ```
 
 ### Diagnostics

@@ -122,7 +122,8 @@ async (...args: any) => {};
 
 ```javascript
 
-async  =>  {}
+async (...args: any) =>  { }
+;
 
 ```
 

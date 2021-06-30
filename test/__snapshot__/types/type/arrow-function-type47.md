@@ -211,6 +211,7 @@ type a = (a[b][-1][][]) => T;
 
 ```javascript
 
+type a = (a[b][-1][][]) => T
 
 ```
 

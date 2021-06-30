@@ -122,6 +122,7 @@ type T = { [[foo]]: X }
 
 ```javascript
 
+type T = { [[foo]]X }
 
 ```
 

@@ -57,7 +57,8 @@ foo`H\x45Y`
 
 ```javascript
 
-foo`HEY`;
+foo`H\x45Y`;
+
 ```
 
 ### Diagnostics

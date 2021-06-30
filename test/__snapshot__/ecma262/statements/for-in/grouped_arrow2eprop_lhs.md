@@ -146,7 +146,9 @@ for (((x)=>{}).x in y);
 
 ```javascript
 
-for ((() =>  {}).x in y);
+for (((x) =>  { }).x in y)
+  ;
+
 ```
 
 ### Diagnostics

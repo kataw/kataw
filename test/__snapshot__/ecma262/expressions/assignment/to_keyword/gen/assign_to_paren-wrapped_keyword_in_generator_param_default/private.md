@@ -141,7 +141,8 @@ function *f(x = (private) = f) {}
 
 ```javascript
 
-function * f() {}
+function* f(x = (private) = f) { }
+
 ```
 
 ### Diagnostics

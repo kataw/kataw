@@ -125,8 +125,9 @@ class x { @declare a }
 
 class x {
   @declare
-  a;
+  a
 }
+
 ```
 
 ### Diagnostics

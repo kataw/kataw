@@ -122,7 +122,8 @@ function fn3([a,, b,]) {}
 
 ```javascript
 
-function fn3() {}
+function fn3([a, , b,]) { }
+
 ```
 
 ### Diagnostics

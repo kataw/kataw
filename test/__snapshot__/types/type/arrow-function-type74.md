@@ -183,6 +183,7 @@ type a = ({x: (y)}) => T;
 
 ```javascript
 
+type a = ({ x: (y) }) => T
 
 ```
 

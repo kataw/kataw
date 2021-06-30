@@ -101,7 +101,8 @@ let arrow = () => {};
 
 ```javascript
 
-let arrow = () =>  {};
+let arrow = () =>  { };
+
 ```
 
 ### Diagnostics

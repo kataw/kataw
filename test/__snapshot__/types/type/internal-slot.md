@@ -401,9 +401,10 @@ type q = { [[foo]]: X }
 
 ```javascript
 
-
-
-
+type x = { [[foo]]X }
+type y = { [[foo]](): X }
+type z = { [[foo]]?X }
+type q = { [[foo]]X }
 
 ```
 

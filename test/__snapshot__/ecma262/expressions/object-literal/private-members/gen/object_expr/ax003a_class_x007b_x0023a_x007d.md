@@ -130,9 +130,10 @@
 
 ```javascript
 
-({ a: class  {
-    #a;
+({ a : class  {
+    #a
   } });
+
 ```
 
 ### Diagnostics

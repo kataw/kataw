@@ -126,9 +126,10 @@ function *f(){
 
 ```javascript
 
-function * f() {
-  private = x;
+function* f() {
+  \u0070rivate = x;
 }
+
 ```
 
 ### Diagnostics

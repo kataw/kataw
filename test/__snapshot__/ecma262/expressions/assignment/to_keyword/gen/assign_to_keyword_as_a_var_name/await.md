@@ -72,6 +72,7 @@ await = x
 ```javascript
 
 await = x;
+
 ```
 
 ### Diagnostics

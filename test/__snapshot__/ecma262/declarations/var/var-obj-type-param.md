@@ -218,7 +218,8 @@ var a: { id<T>(x: T): T; }
 
 ```javascript
 
-var a: ;
+var a: { id(x: T): T };
+
 ```
 
 ### Diagnostics

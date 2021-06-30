@@ -72,6 +72,7 @@ enum = x
 ```javascript
 
 enum = x;
+
 ```
 
 ### Diagnostics

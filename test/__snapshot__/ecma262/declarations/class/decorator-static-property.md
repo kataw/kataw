@@ -131,8 +131,9 @@ class A {
 
 class A {
   @dec
-  name = 0;
+  static name = 0
 }
+
 ```
 
 ### Diagnostics

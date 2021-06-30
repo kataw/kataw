@@ -249,14 +249,15 @@
 
 ```javascript
 
-let foo = function * () {
-  try {
-    yield 42;
-  } try{
-    yield 43;
-    return  13;
-  }
-};
+'\'use strict\'';
+let foo = function* () { try {
+  yield 42;
+}
+finally {
+  yield 43;
+  return 13;
+} };
+
 ```
 
 ### Diagnostics

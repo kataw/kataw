@@ -122,9 +122,8 @@ function f() { var await; }
 
 ```javascript
 
-function f() {
-  var await;
-}
+function f() { var await; }
+
 ```
 
 ### Diagnostics

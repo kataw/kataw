@@ -132,7 +132,8 @@
 
 ```javascript
 
-[[1].c] = [];
+[[1,].c,] = [];
+
 ```
 
 ### Diagnostics

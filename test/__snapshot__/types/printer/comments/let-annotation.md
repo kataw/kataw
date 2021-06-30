@@ -100,7 +100,8 @@ let x /*1*/ :/*2*/ string /*3*/|/*4*/ number;
 
 ```javascript
 
-let x /*1*/: ;
+let x/*1*/:/*2*/ /*2*/string/*3*/ | /*4*/number;
+
 ```
 
 ### Diagnostics

@@ -143,7 +143,9 @@
 
 ```javascript
 
-({ * break() {} });
+'\'use strict\'';
+({ * break(x, y) { } });
+
 ```
 
 ### Diagnostics

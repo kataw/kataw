@@ -943,35 +943,28 @@
 ```javascript
 
 (class  {
-    get #a() {
-      class C {
-        #a() {}
-      }
-    }
-  });
+  get #a() { class C {
+    #a() { }
+  } }
+});
 (class  {
-    get #a() {
-      class C {
-        get #a() {}
-      }
-    }
-  });
+  get #a() { class C {
+    get #a() { }
+  } }
+});
 (class  {
-    set #a() {}
-    get #a() {
-      class C {
-        get #a() {}
-        set #a() {}
-      }
-    }
-  });
+  set #a(val) { }
+  get #a() { class C {
+    get #a() { }
+    set #a(val) { }
+  } }
+});
 (class  {
-    #a() {
-      class C {
-        set #a() {}
-      }
-    }
-  });
+  #a() { class C {
+    set #a(val) { }
+  } }
+});
+
 ```
 
 ### Diagnostics

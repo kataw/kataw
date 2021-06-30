@@ -115,6 +115,7 @@ foo( a instanceof b > c )
 ```javascript
 
 foo(a instanceof b > c);
+
 ```
 
 ### Diagnostics

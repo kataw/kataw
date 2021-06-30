@@ -113,10 +113,12 @@ else let
 
 ```javascript
 
-if (a) b;
-else  let;
-{
-}
+if (a)
+  b;
+else
+  let;
+{ }
+;
 
 ```
 

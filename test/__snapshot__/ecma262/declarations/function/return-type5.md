@@ -178,8 +178,10 @@ function x(y: | /* comment 1 */ z):
 
 ```javascript
 
-function x(): | /* comment 2 */
- {}
+function x(y: |/* comment 1 */ z): | 
+ /* comment 2 */
+() => number { }
+
 ```
 
 ### Diagnostics

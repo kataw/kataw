@@ -79,7 +79,8 @@
 
 ```javascript
 
-({ async: x });
+({ async : x });
+
 ```
 
 ### Diagnostics

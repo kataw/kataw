@@ -92,7 +92,9 @@ class x extends null {}
 
 ```javascript
 
-class x  {}
+class x extends null {
+}
+
 ```
 
 ### Diagnostics

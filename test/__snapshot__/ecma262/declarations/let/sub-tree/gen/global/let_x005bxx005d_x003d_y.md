@@ -96,6 +96,7 @@ let [x] = y
 ```javascript
 
 let [x] = y;
+
 ```
 
 ### Diagnostics

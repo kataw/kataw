@@ -139,8 +139,9 @@ class A {set 9(x){}}
 ```javascript
 
 class A {
-  set 9() {}
+  set 9(x) { }
 }
+
 ```
 
 ### Diagnostics

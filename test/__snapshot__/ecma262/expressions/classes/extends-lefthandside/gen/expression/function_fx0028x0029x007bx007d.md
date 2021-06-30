@@ -143,7 +143,9 @@
 
 ```javascript
 
-(class B  {});
+(class B extends function f() { } {
+});
+
 ```
 
 ### Diagnostics

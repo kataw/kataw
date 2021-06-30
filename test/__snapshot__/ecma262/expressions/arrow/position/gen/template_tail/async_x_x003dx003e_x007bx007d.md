@@ -123,7 +123,8 @@
 
 ```javascript
 
-`a ${async x =>  {}} b`.length;
+`a ${async x =>  { }} b`.length;
+
 ```
 
 ### Diagnostics

@@ -454,8 +454,9 @@ foo()[bar]++;
 foo().bar++;
 this.foo++;
 this[foo]++;
-new  foo()[bar]++;
-new  foo().bar++;
+new foo()[bar]++;
+new foo().bar++;
+
 ```
 
 ### Diagnostics

@@ -193,8 +193,11 @@
 
 ```javascript
 
+'\'use strict\'';
 var x, y, z;
-for ([x, y, z] of {});
+for ([x, y, z,] of {})
+  ;
+
 ```
 
 ### Diagnostics

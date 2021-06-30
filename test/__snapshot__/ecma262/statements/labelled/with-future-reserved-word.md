@@ -64,6 +64,7 @@ interface: x;
 ```javascript
 
 interface: x;
+
 ```
 
 ### Diagnostics

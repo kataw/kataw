@@ -431,7 +431,8 @@ declare function foo<TArguments: $ReadOnlyArray<{foo: 'a'}>, TReturn>(
 
 ```javascript
 
-function  <TArguments: , TReturn >foo(): ;
+declare function foo<TArguments: $ReadOnlyArray<{ foo: "'a'" }>, TReturn> (implementation?: (...args: TArguments) => TReturn,): (...args: TArguments) => TReturn
+
 ```
 
 ### Diagnostics

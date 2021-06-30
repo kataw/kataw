@@ -132,8 +132,9 @@ class x {static let(){}}
 ```javascript
 
 class x {
-  static static let() {}
+  static let() { }
 }
+
 ```
 
 ### Diagnostics

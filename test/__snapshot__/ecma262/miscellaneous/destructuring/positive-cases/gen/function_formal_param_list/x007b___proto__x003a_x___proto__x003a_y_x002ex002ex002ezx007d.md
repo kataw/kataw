@@ -169,7 +169,8 @@ function f({ __proto__: x, __proto__: y, ...z}) {}
 
 ```javascript
 
-function f() {}
+function f({ __proto__: x, __proto__: y, ...z }) { }
+
 ```
 
 ### Diagnostics

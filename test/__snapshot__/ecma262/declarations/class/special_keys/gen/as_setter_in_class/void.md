@@ -141,8 +141,9 @@ class x {set void(x){}}
 ```javascript
 
 class x {
-  set void() {}
+  set void(x) { }
 }
+
 ```
 
 ### Diagnostics

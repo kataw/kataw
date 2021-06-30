@@ -139,9 +139,9 @@
 
 ```javascript
 
-function * g() {
-  yield void x;
-}
+'\'use strict\'';
+function* g() { yield void  x; }
+
 ```
 
 ### Diagnostics

@@ -122,8 +122,9 @@
 ```javascript
 
 {
-  async  =>  foo
+  async (foo = yield, x) => foo
 }
+
 ```
 
 ### Diagnostics

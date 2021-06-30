@@ -49,7 +49,8 @@ xxx\u{65}
 
 ```javascript
 
-xxxe;
+xxx\u{65};
+
 ```
 
 ### Diagnostics

@@ -248,9 +248,9 @@
 
 ```javascript
 
-({ * async gen() {
-    x = class   {};
-  } });
+({ async * gen() { x = class  extends (a ? null : await 10) {
+  }; } });
+
 ```
 
 ### Diagnostics

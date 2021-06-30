@@ -114,9 +114,8 @@ async () => {  implem\u0065nts = x  }
 
 ```javascript
 
-async  =>  {
-  implements = x;
-}
+async () =>  { implem\u0065nts = x; }
+
 ```
 
 ### Diagnostics

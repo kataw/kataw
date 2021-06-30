@@ -75,6 +75,7 @@ call(await)
 ```javascript
 
 call(await);
+
 ```
 
 ### Diagnostics

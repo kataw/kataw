@@ -195,7 +195,8 @@ wrap({[foo](){}, set [bar](e){}});
 
 ```javascript
 
-wrap({ [foo]() {}, set [bar]() {} });
+wrap({ [foo]() { }, set [bar](e) { } });
+
 ```
 
 ### Diagnostics

@@ -183,9 +183,9 @@ async function f() {
 
 async function f() {
   class C {
-
   }
 }
+
 ```
 
 ### Diagnostics

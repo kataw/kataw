@@ -319,11 +319,8 @@ async function f(){    async function f(){   (a= {[await foo](){}, "x"(){}} ) =>
 
 ```javascript
 
-async function f() {
-  async function f() {
-    () =>  a;
-  }
-}
+async function f() { async function f() { (a = { [await foo]() { }, "\"x\""() { } }) => a; } }
+
 ```
 
 ### Diagnostics

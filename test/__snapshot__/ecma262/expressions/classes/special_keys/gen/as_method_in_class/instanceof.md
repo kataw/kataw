@@ -127,8 +127,9 @@ class x {instanceof(){}}
 ```javascript
 
 class x {
-  instanceof() {}
+  instanceof() { }
 }
+
 ```
 
 ### Diagnostics

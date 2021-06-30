@@ -115,9 +115,8 @@ function x(){""[new.target]}
 
 ```javascript
 
-function x() {
-  "\"\""[];
-}
+function x() { "\"\""[new.target]; }
+
 ```
 
 ### Diagnostics

@@ -64,7 +64,8 @@ new arguments
 
 ```javascript
 
-new  arguments();
+new arguments;
+
 ```
 
 ### Diagnostics

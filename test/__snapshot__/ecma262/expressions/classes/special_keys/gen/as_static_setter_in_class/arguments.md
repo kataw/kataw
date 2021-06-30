@@ -146,8 +146,9 @@ class x {static set arguments(x){}}
 ```javascript
 
 class x {
-  static set static arguments() {}
+  static set arguments(x) { }
 }
+
 ```
 
 ### Diagnostics

@@ -86,10 +86,11 @@ while (x) {}
 
 ```javascript
 
-do/* comment */  {}
-while (x);
-{
-}
+do/* comment */ { } 
+ /* comment 1 */
+while (x)
+{ }
+
 ```
 
 ### Diagnostics

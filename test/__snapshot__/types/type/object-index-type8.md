@@ -182,6 +182,7 @@ type X = {[(x) =>x]: string,};
 
 ```javascript
 
+type X = { [(x) => x]: string }
 
 ```
 

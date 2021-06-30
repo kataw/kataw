@@ -132,8 +132,9 @@ class x {* public(){}}
 ```javascript
 
 class x {
-  public() {}
+  *public() { }
 }
+
 ```
 
 ### Diagnostics

@@ -139,7 +139,8 @@ x = [{__proto__: 1, __proto__: 2}]
 
 ```javascript
 
-x = [{ __proto__: 1, __proto__: 2 }];
+x = [{ __proto__ : 1, __proto__ : 2 },];
+
 ```
 
 ### Diagnostics

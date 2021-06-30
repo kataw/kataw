@@ -115,6 +115,7 @@ foo( a + b instanceof c )
 ```javascript
 
 foo(a + b instanceof c);
+
 ```
 
 ### Diagnostics

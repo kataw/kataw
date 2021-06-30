@@ -142,7 +142,8 @@
 
 ```javascript
 
-({ ident: [foo, bar] / x / g });
+({ ident : [foo, bar,] / x / g });
+
 ```
 
 ### Diagnostics

@@ -936,23 +936,36 @@ const { async = true } = x;
 
 ```javascript
 
-const a = function () {};
-const b = function () {};
-const c = async  =>  {
+const a = function ({
+    async = true
+  }) { };
+const b = function ({
+    async: bar
+  }) { };
+const c = async ({
+    async: bar
+  }) =>  {
   await baz;
 };
-const d = async  =>  {
+const d = async ({
+    async = bar
+  }) =>  {
   await baz;
 };
-const e = async function () {
+const e = async function ({
+    async: bar
+  }) {
   await baz;
 };
-const f = async function () {
+const f = async function ({
+    async = bar
+  }) {
   await baz;
 };
 const {
   async = true
 } = x;
+
 ```
 
 ### Diagnostics

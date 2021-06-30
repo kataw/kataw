@@ -248,8 +248,10 @@ function bar(a = [1 + 1]) {
 
 ```javascript
 
-function foo() {}
-function bar() {}
+function foo(a = [1 + 1,]) { }
+function bar(a = [1 + 1,]) {
+}
+
 ```
 
 ### Diagnostics

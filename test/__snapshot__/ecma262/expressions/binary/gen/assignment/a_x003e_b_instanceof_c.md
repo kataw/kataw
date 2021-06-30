@@ -112,6 +112,7 @@ x = a > b instanceof c
 ```javascript
 
 x = a > b instanceof c;
+
 ```
 
 ### Diagnostics

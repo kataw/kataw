@@ -173,6 +173,7 @@ type Fn1 = <T>(T) => T;
 
 ```javascript
 
+type Fn1 = <T>(T) => T
 
 ```
 

@@ -151,8 +151,9 @@ function f(){
 
 function f() {
   "\"use strict\"";
-  function f() {}
+  function f() { }
 }
+
 ```
 
 ### Diagnostics

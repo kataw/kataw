@@ -1748,26 +1748,32 @@ var x = 4;
 var x = 5;
 var {
   x
-} = { x: 4, b: (x = 5) };
-var x = { a: 4, b: (x = 5) };
-"'use strict'";
+} = { x : 4, b : (x = 5) };
+var x = { a : 4, b : (x = 5) };
+'\'use strict\'';
 var x = 0;
 {
   let x = 6;
 }
 var x;
-try {
-} catch (x) {
+try { }
+catch (x){
   x = 5;
 }
-var f = () =>  {};
-var f = () =>  {};
+var f = ({
+    x: arg = 1
+  }, {
+    y: b = (arg = 2)
+  }) =>  { };
+var f = ({
+    x: arg = (arg = 2)
+  }) =>  { };
 var foo;
 var foo = 0;
-var [foo] = [1];
+var [foo] = [1,];
 var {
   foo
-} = { foo: 2 };
+} = { foo : 2 };
 var {
   foo = 3
 } = {};
@@ -1783,6 +1789,7 @@ var {
 var {
   get
 } = obj;
+
 ```
 
 ### Diagnostics

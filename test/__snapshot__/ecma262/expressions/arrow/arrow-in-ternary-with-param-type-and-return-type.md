@@ -173,7 +173,8 @@ test
 
 ```javascript
 
-test ? () =>  y : z;
+test ? (x: T) => y : z;
+
 ```
 
 ### Diagnostics

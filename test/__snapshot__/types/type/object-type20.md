@@ -135,6 +135,7 @@ type a = {get "string"():string};
 
 ```javascript
 
+type a = { "\"string\""(): string }
 
 ```
 

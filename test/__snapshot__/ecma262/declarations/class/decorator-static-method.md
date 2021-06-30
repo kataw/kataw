@@ -155,8 +155,9 @@ class Foo {
 
 class Foo {
   @dec
-  static static bar() {}
+  static bar() { }
 }
+
 ```
 
 ### Diagnostics

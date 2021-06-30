@@ -139,7 +139,8 @@ function *f(x = (true) = f) {}
 
 ```javascript
 
-function * f() {}
+function* f(x = (true) = f) { }
+
 ```
 
 ### Diagnostics

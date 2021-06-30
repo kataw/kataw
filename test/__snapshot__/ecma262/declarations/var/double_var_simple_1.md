@@ -119,6 +119,7 @@ var {
   x,
   y
 } = obj;
+
 ```
 
 ### Diagnostics

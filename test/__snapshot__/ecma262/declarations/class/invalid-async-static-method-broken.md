@@ -152,9 +152,10 @@ class A {static async
 ```javascript
 
 class A {
-  async;
-  foo() {}
+  static async
+  foo() { }
 }
+;
 
 ```
 

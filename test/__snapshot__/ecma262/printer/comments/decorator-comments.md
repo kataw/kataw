@@ -146,9 +146,10 @@ class Something {
 
 class Something {
   @Annotateme()
-  property;
-
+  static property
+  ;
 }
+
 ```
 
 ### Diagnostics

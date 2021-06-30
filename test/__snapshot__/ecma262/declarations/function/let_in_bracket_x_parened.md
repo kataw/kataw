@@ -92,6 +92,7 @@
 ```javascript
 
 (let)[x] in x;
+
 ```
 
 ### Diagnostics

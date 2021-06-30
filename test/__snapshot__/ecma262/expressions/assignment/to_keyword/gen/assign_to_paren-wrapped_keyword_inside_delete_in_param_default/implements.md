@@ -149,7 +149,8 @@ async (x = delete ((implements) = f)) => {}
 
 ```javascript
 
-async  =>  {}
+async (x = delete  ((implements) = f)) =>  { }
+
 ```
 
 ### Diagnostics

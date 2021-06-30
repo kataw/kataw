@@ -81,7 +81,10 @@ x => { "use strict"; }
 
 ```javascript
 
-x =>  {};
+x =>  {
+"\"use strict\"";
+};
+
 ```
 
 ### Diagnostics

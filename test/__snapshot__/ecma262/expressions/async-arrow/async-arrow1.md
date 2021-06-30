@@ -181,7 +181,8 @@ async <T>(fn: () => T) => fn;
 
 ```javascript
 
-async  =>  fn;
+async <T>(fn: () => T) => fn;
+
 ```
 
 ### Diagnostics

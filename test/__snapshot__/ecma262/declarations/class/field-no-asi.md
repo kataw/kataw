@@ -163,10 +163,11 @@ get
 ```javascript
 
 class C {
-  static;
-  get;
-  #aaa() {}
+  static
+  get
+  #aaa() { }
 }
+
 ```
 
 ### Diagnostics

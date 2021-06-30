@@ -154,13 +154,19 @@ default /* comment 6 */ : /* comment 7 */ foo;
 
 ```javascript
 
-switch/* comment 1 */ (x) {
-  case/* comment 3 */  y:
+switch/* comment 1 */ (x)/* comment 2 */ {
+  case/* comment 3 */ y: 
     foo;
-  // comment 5
-  default/* comment 6 */
+   // comment 5
+  default/* comment 6 */: 
     foo;
-} /* comment 8 */
+}/* comment 8 */
+ /* comment 9 */
+/* comment 10 */
+/* comment 11 */
+/* comment 12 */
+// comment 13
+
 ```
 
 ### Diagnostics

@@ -78,7 +78,10 @@ function x() {
 
 ```javascript
 
-function x() {}
+function x() {
+ // Something
+}
+
 ```
 
 ### Diagnostics

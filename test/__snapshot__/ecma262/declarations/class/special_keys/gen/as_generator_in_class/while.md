@@ -132,8 +132,9 @@ class x {* while(){}}
 ```javascript
 
 class x {
-  while() {}
+  *while() { }
 }
+
 ```
 
 ### Diagnostics

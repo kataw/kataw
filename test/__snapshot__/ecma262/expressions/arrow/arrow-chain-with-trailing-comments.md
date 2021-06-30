@@ -371,14 +371,15 @@ x2 = (a) => ((askTrovenaBeenaDependsRowans1, askTrovenaBeenaDependsRowans2, askT
 
 ```javascript
 
-x = () =>  (() =>  () =>  {
-      averredBathersBoxroomBuggyNurl();
-    } // BOOM
-    );
-x2 = () =>  (() =>  {
-      c();
-    } /* ! */ // KABOOM
-    );
+x = (bifornCringerMoshedPerplexSawder) => ((askTrovenaBeenaDependsRowans, glimseGlyphsHazardNoopsTieTie) => (f00) =>  {
+  averredBathersBoxroomBuggyNurl();
+}// BOOM
+);
+x2 = (a) => ((askTrovenaBeenaDependsRowans1, askTrovenaBeenaDependsRowans2, askTrovenaBeenaDependsRowans3) =>  {
+  c();
+}/* ! */ // KABOOM
+);
+
 ```
 
 ### Diagnostics

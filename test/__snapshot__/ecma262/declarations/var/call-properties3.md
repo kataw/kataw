@@ -1847,33 +1847,28 @@ var z : Object = (x) => "hi"
 
 ```javascript
 // Expecting properties that don't exist should be an error
-
-var a:  = function () {};
-// Expecting properties that do exist should be fine
-var b:  = function () {};
-// Expecting properties in the functions statics should be fine
-var f = function () {};
+var a: { someProp: number } = function () { };
+ // Expecting properties that do exist should be fine
+var b: { apply: Function } = function () { };
+ // Expecting properties in the functions statics should be fine
+var f = function () { };
 f.myProp = 123;
-var c:  = f;
-var a:  = () =>  x.toString();
-// ...and it should notice when the return type is wrong
-var b:  = () =>  "\"hi\"";
-// ...or if the param type is wrong
-var c:  = () =>  x.toFixed();
-// ...or if the arity is wrong
-var d:  = () =>  "\"hi\"";
-// ...but subtyping rules still apply
-var e:  = () =>  {}; // arity
+var c: { myProp: number } = f;
+var a: { (x: number): string } = (x) => x.toString();
+ // ...and it should notice when the return type is wrong
+var b: { (x: number): number } = (x) => "\"hi\"";
+ // ...or if the param type is wrong
+var c: { (x: string): string } = (x) => x.toFixed();
+ // ...or if the arity is wrong
+var d: { (): string } = (x) => "\"hi\"";
+ // ...but subtyping rules still apply
+var e: { (x: any): void } = () =>  { };// arity
+var f: { (): mixed } = () => "\"hi\"";// return type
+var g: { (x: Date): void } = (x) =>  { x * 2; };// param type (date < number)
+ // A function can be an object
+var y: {} = (x) => "\"hi\"";
+var z: Object = (x) => "\"hi\"";
 
-var f:  = () =>  "\"hi\""; // return type
-
-var g:  = () =>  {
-  x * 2;
-}; // param type (date < number)
-
-// A function can be an object
-var y:  = () =>  "\"hi\"";
-var z:  = () =>  "\"hi\"";
 ```
 
 ### Diagnostics

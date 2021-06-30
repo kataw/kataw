@@ -64,8 +64,8 @@ if /* comment 1 */ (/* comment 2 */x/* comment 3 */) {/* comment 4 */} // commen
 
 ```javascript
 
-if /* comment 1 */ (x /* comment 3 */) {
-  } // comment 5
+if/* comment 1 */ (/* comment 2 */x/* comment 3 */) {/* comment 4 */ }// comment 5
+
 ```
 
 ### Diagnostics

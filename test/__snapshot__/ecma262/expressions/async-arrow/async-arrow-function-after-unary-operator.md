@@ -83,7 +83,8 @@ delete async () => 3;
 
 ```javascript
 
-delete async  =>  3;
+delete  async () => 3;
+
 ```
 
 ### Diagnostics

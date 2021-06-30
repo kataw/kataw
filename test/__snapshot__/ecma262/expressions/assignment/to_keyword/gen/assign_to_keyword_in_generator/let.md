@@ -126,9 +126,10 @@ function *f(){
 
 ```javascript
 
-function * f() {
+function* f() {
   let = 1;
 }
+
 ```
 
 ### Diagnostics

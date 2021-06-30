@@ -124,7 +124,8 @@ function f([b, a, b, a]) {}
 
 ```javascript
 
-function f() {}
+function f([b, a, b, a]) { }
+
 ```
 
 ### Diagnostics

@@ -132,8 +132,9 @@ class x {static extends(){}}
 ```javascript
 
 class x {
-  static static extends() {}
+  static extends() { }
 }
+
 ```
 
 ### Diagnostics

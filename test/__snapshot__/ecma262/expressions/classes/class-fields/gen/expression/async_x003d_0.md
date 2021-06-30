@@ -123,9 +123,10 @@ class C extends Base { async = 0 }
 
 ```javascript
 
-class C  {
-  async = 0;
+class C extends Base {
+  async = 0
 }
+
 ```
 
 ### Diagnostics

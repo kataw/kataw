@@ -177,7 +177,8 @@
 
 ```javascript
 
-() =>  0;
+(x ? b : c, [a,]?: b) => 0;
+
 ```
 
 ### Diagnostics

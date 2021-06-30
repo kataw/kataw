@@ -135,6 +135,7 @@ var [a, ...[b, c]] = d;
 ```javascript
 
 var [a, ...[b, c]] = d;
+
 ```
 
 ### Diagnostics

@@ -144,7 +144,8 @@ x = {__proto__: a, __proto__: b} = y
 
 ```javascript
 
-x = { __proto__: a, __proto__: b } = y;
+x = { __proto__ : a, __proto__ : b } = y;
+
 ```
 
 ### Diagnostics

@@ -136,7 +136,10 @@
 
 ```javascript
 
-({ x: function () {} });
+({ x : function (x, y) {
+  "\"use strict\"";
+  } });
+
 ```
 
 ### Diagnostics

@@ -137,7 +137,12 @@ type Foo = /*1*/
 
 ```javascript
 
- /*8*/
+type Foo =/*1*/ 
+ /*2*/|/*3*/ 
+ /*4*//*3*/Type1 | /*5*/Type2
+ /*6*/ | /*7*/TypeN/*8*/
+ /*9*/
+
 ```
 
 ### Diagnostics

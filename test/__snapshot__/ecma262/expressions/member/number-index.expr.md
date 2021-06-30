@@ -80,7 +80,8 @@
 
 ```javascript
 
-123.toString(10);
+123..toString(10);
+
 ```
 
 ### Diagnostics

@@ -126,9 +126,10 @@ function *f(){
 
 ```javascript
 
-function * f() {
-  implements = x;
+function* f() {
+  implem\u0065nts = x;
 }
+
 ```
 
 ### Diagnostics

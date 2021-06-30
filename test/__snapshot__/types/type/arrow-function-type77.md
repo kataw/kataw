@@ -150,6 +150,7 @@ type a = ({} | {}) => T;
 
 ```javascript
 
+type a = ({} | {}) => T
 
 ```
 

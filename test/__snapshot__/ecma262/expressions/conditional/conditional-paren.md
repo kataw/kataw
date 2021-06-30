@@ -138,6 +138,7 @@ a ? (1 + 2) : (3 + 4)
 ```javascript
 
 a ? (1 + 2) : (3 + 4);
+
 ```
 
 ### Diagnostics

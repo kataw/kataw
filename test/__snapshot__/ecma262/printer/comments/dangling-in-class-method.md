@@ -123,9 +123,9 @@ class Foo {
 ```javascript
 
 class Foo {
-  method// foo
-  () {}
+  method() { }
 }
+
 ```
 
 ### Diagnostics

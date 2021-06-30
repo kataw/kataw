@@ -818,22 +818,23 @@ class C2<X, Y> {
 
 ```javascript
 
-class E  {
-  set() {
+class E<X> extends C<X, number> {
+  set(x: X): X {
     this.x = x;
     if (x) {
-        return  this.get_bad();
-      }
-    return  this.get();
+      return this.get_bad();
+    }
+    return this.get();
   }
 }
-class C2 {
-  x;
+class C2<X, Y> {
+  x: { p: Y }
+  ;
+  foo(): D2<X, Y> {
+    return this.x;
+  }
+}
 
-  foo() {
-    return  this.x;
-  }
-}
 ```
 
 ### Diagnostics

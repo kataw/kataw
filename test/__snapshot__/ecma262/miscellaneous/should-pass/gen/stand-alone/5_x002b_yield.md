@@ -72,6 +72,7 @@
 ```javascript
 
 5 + yield;
+
 ```
 
 ### Diagnostics

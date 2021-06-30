@@ -99,6 +99,7 @@
 ```javascript
 
 ({ ...x.x, y });
+
 ```
 
 ### Diagnostics

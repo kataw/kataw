@@ -94,7 +94,9 @@ function f1(a, /* my comment */ c) {
 
 ```javascript
 
-function f1() {}
+function f1(a, /* my comment */c) {
+}
+
 ```
 
 ### Diagnostics

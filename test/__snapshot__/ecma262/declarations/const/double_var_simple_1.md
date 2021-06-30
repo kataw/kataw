@@ -118,6 +118,7 @@ const {
   x,
   y
 } = obj;
+
 ```
 
 ### Diagnostics

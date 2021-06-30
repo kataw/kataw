@@ -190,10 +190,8 @@ function *g() { async (x = y = yield z) => {}; }
 
 ```javascript
 
-function * g() {
-  async  =>  {}
+function* g() { async (x = y = yield z) =>  { } ; }
 
-}
 ```
 
 ### Diagnostics

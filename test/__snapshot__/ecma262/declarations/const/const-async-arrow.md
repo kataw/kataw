@@ -153,7 +153,8 @@ const a = async (foo: string = "") => {}
 
 ```javascript
 
-const a = async  =>  {};
+const a = async (foo: string = "\"\"") =>  { };
+
 ```
 
 ### Diagnostics

@@ -283,13 +283,14 @@ const example = (obj) => {
 
 ```javascript
 
-const example = () =>  {
-  const foo = "'foo'";
+const example = (obj) =>  {
+  const foo = '\'foo\'';
   const {
     [`prefix_${foo}`]: _,
     ...rest
   } = obj;
 };
+
 ```
 
 ### Diagnostics

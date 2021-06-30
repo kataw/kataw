@@ -158,7 +158,8 @@
 
 ```javascript
 
-() =>  {};
+([x: string, y: number]) =>  { };
+
 ```
 
 ### Diagnostics

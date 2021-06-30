@@ -157,6 +157,7 @@ type a = ((1 | y)) => T;
 
 ```javascript
 
+type a = (1 | y) => T
 
 ```
 

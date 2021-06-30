@@ -150,7 +150,8 @@
 
 ```javascript
 
-() =>  {};
+(x = delete  ((let) = f)) =>  { };
+
 ```
 
 ### Diagnostics

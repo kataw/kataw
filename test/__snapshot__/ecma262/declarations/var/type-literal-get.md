@@ -145,7 +145,8 @@ var obj: {
 
 ```javascript
 
-var obj: ;
+var obj: { foo(): string };
+
 ```
 
 ### Diagnostics

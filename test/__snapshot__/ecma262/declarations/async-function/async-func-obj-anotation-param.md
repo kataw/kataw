@@ -172,7 +172,10 @@ async function foo({x}: { x: string; }) {}
 
 ```javascript
 
-async function foo() {}
+async function foo({
+    x
+  }: { x: string }) { }
+
 ```
 
 ### Diagnostics

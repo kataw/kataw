@@ -110,6 +110,7 @@ a.b<T>(e)
 ```javascript
 
 a.b  < T > (e);
+
 ```
 
 ### Diagnostics

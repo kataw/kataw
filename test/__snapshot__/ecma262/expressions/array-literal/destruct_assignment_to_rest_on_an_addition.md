@@ -130,6 +130,7 @@
 ```javascript
 
 [..."\"foo\"" + bar] = x;
+
 ```
 
 ### Diagnostics

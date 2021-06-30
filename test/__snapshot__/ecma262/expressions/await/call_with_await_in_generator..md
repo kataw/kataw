@@ -119,9 +119,8 @@ function *f(){  foo(await)  }
 
 ```javascript
 
-function * f() {
-  foo(await);
-}
+function* f() { foo(await); }
+
 ```
 
 ### Diagnostics

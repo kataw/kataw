@@ -314,9 +314,16 @@
 
 ```javascript
 
-() =>  x;
-() =>  x;
-() =>  {};
+({
+    ident: { x : y }
+  }) => x;
+({
+    ident: { x }
+  }) => x;
+({
+    a
+  } = b) =>  { };
+
 ```
 
 ### Diagnostics

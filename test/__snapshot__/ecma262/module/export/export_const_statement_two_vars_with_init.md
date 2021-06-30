@@ -118,6 +118,7 @@ export const x = 10, y = 20
 ```javascript
 
 export const x = 10, y = 20;
+
 ```
 
 ### Diagnostics

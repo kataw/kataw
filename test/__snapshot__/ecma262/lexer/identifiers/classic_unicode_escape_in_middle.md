@@ -43,7 +43,8 @@ xxx\u0065xxx
 
 ```javascript
 
-xxxexxx;
+xxx\u0065xxx;
+
 ```
 
 ### Diagnostics

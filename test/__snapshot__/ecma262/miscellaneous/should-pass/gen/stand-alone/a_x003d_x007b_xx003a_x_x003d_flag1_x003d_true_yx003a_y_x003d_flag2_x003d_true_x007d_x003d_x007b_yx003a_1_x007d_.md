@@ -250,7 +250,8 @@ a = { x: x = flag1 = true, y: y = flag2 = true } = { y: 1 };
 
 ```javascript
 
-a = { x: x = flag1 = true, y: y = flag2 = true } = { y: 1 };
+a = { x : x = flag1 = true, y : y = flag2 = true } = { y : 1 };
+
 ```
 
 ### Diagnostics

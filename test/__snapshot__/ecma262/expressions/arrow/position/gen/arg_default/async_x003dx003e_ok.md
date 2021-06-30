@@ -133,7 +133,8 @@ function f(a = async => ok) {}
 
 ```javascript
 
-function f() {}
+function f(a = async => ok) { }
+
 ```
 
 ### Diagnostics

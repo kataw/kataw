@@ -145,8 +145,9 @@ class Foo {get fooProp():number{}}
 ```javascript
 
 class Foo {
-  get fooProp() {}
+  get fooProp(): number { }
 }
+
 ```
 
 ### Diagnostics

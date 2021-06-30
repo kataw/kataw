@@ -231,8 +231,9 @@ class A {
 
 class A {
   @a.b.c.d(e, f)
-  m() {}
+  m() { }
 }
+
 ```
 
 ### Diagnostics

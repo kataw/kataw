@@ -167,7 +167,7 @@ switch (A) {case B: C; break; case D: E; break;}
 
 ```javascript
 
-switch(A) {
+switch (A) {
   case B:
     C;
     break;
@@ -175,6 +175,7 @@ switch(A) {
     E;
     break;
 }
+
 ```
 
 ### Diagnostics

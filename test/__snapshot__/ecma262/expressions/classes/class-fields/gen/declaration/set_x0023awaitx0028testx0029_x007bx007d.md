@@ -141,8 +141,9 @@ class C { set #await(test) {} }
 ```javascript
 
 class C {
-  set #await() {}
+  set #await(test) { }
 }
+
 ```
 
 ### Diagnostics

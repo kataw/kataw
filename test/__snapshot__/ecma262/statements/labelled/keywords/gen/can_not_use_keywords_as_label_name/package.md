@@ -72,6 +72,7 @@ package: x
 ```javascript
 
 package: x;
+
 ```
 
 ### Diagnostics

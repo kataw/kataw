@@ -103,9 +103,8 @@
 
 ```javascript
 
-() =>  {
-  return ;
-};
+(a, b) =>  { return; };
+
 ```
 
 ### Diagnostics

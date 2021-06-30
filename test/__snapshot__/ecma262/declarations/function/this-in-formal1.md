@@ -116,7 +116,8 @@ function one(this: number) {}
 
 ```javascript
 
-function one() {}
+function one(this: number) { }
+
 ```
 
 ### Diagnostics

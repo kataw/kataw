@@ -219,13 +219,8 @@ function * gen() { function not_gen() { function *a(){yield 2e308} }}
 
 ```javascript
 
-function * gen() {
-  function not_gen() {
-    function * a() {
-      yield 2e308;
-    }
-  }
-}
+function* gen() { function not_gen() { function* a() { yield 2e308; } } }
+
 ```
 
 ### Diagnostics

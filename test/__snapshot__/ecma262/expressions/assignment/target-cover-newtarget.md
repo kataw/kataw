@@ -130,8 +130,9 @@ function f() {
 ```javascript
 
 function f() {
-  () = 1;
+  (new.target) = 1;
 }
+
 ```
 
 ### Diagnostics

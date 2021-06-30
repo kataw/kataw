@@ -126,9 +126,10 @@ function *f(){
 
 ```javascript
 
-function * f() {
-  protected = x;
+function* f() {
+  p\u0072otected = x;
 }
+
 ```
 
 ### Diagnostics

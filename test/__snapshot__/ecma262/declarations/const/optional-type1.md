@@ -191,7 +191,8 @@ const f = (x?, y?:Object = {}) => {}
 
 ```javascript
 
-const f = () =>  {};
+const f = (x?, y?: Object = {}) =>  { };
+
 ```
 
 ### Diagnostics

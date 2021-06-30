@@ -277,9 +277,10 @@ function e(x: { (): string; (x: number): string }): () => number {
 
 ```javascript
 
-function e():  {
-  return  x;
+function e(x: { (): string, (x: number): string }): () => number {
+  return x;
 }
+
 ```
 
 ### Diagnostics

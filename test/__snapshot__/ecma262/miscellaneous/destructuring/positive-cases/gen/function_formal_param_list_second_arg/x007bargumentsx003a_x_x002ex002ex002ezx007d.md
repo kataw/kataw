@@ -154,7 +154,11 @@ function f(argument1, {arguments: x, ...z}) {}
 
 ```javascript
 
-function f() {}
+function f(argument1, {
+    arguments: x,
+    ...z
+  }) { }
+
 ```
 
 ### Diagnostics

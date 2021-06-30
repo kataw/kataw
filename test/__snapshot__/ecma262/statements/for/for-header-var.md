@@ -129,8 +129,10 @@ for (var a;;) { let a; }
 
 ```javascript
 
-for (; ; )
-  {}
+for (var a;;) {
+  let a;
+}
+
 ```
 
 ### Diagnostics

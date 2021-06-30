@@ -126,9 +126,10 @@ function *f(){
 
 ```javascript
 
-function * f() {
-  package = x;
+function* f() {
+  \u0070ackage = x;
 }
+
 ```
 
 ### Diagnostics

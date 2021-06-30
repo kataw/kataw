@@ -107,7 +107,8 @@
 
 ```javascript
 
-({ responseText: text } = res);
+({ responseText : text } = res);
+
 ```
 
 ### Diagnostics

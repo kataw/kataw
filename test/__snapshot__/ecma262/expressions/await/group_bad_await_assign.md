@@ -96,6 +96,7 @@
 ```javascript
 
 (x = (await) = y);
+
 ```
 
 ### Diagnostics

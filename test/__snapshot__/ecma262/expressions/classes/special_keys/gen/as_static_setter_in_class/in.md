@@ -146,8 +146,9 @@ class x {static set in(x){}}
 ```javascript
 
 class x {
-  static set static in() {}
+  static set in(x) { }
 }
+
 ```
 
 ### Diagnostics

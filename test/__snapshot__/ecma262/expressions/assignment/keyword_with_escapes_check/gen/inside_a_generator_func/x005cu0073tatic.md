@@ -126,9 +126,10 @@ function *f(){
 
 ```javascript
 
-function * f() {
-  static = x;
+function* f() {
+  \u0073tatic = x;
 }
+
 ```
 
 ### Diagnostics

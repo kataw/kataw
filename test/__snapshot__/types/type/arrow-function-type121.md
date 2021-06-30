@@ -208,6 +208,7 @@ type a = [(&x,|a) => T];
 
 ```javascript
 
+type a = [(& x, | a) => T]
 
 ```
 

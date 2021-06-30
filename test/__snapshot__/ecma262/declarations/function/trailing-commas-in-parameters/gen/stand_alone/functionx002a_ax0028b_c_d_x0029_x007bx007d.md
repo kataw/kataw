@@ -114,7 +114,8 @@ function* a(b,c,d,) {}
 
 ```javascript
 
-function * a() {}
+function* a(b, c, d,) { }
+
 ```
 
 ### Diagnostics

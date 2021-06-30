@@ -107,9 +107,10 @@
 ```javascript
 
 (class  {
-    await;
+  await
+  ;
+});
 
-  });
 ```
 
 ### Diagnostics

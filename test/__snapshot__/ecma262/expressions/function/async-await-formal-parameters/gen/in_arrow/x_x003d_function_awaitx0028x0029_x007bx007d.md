@@ -188,7 +188,9 @@
 
 ```javascript
 
-var f = async  =>  {};
+'\'use strict\'';
+var f = async (x = function await() { }) =>  { };
+
 ```
 
 ### Diagnostics

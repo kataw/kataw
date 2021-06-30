@@ -230,9 +230,9 @@
 
 ```javascript
 
-({ * async gen() {
-    x = class   {};
-  } });
+({ async * gen() { x = class  extends (null, await 10) {
+  }; } });
+
 ```
 
 ### Diagnostics

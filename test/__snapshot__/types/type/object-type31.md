@@ -130,6 +130,7 @@ type x = { get (): string }
 
 ```javascript
 
+type x = { get(): string }
 
 ```
 

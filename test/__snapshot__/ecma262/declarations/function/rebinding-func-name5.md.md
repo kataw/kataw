@@ -155,9 +155,8 @@ x={f(){ let f }}
 
 ```javascript
 
-x = { f() {
-    let f;
-  } };
+x = { f() { let f; } };
+
 ```
 
 ### Diagnostics

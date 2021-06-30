@@ -92,6 +92,7 @@ a + b instanceof c
 ```javascript
 
 a + b instanceof c;
+
 ```
 
 ### Diagnostics

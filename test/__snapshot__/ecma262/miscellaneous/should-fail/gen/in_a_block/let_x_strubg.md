@@ -105,6 +105,7 @@
   let x;
   strubg;
 }
+
 ```
 
 ### Diagnostics

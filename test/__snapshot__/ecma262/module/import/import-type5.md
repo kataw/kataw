@@ -106,7 +106,8 @@ import type a * from "b";
 
 ```javascript
 
-import a, * as   ;
+import type a * from "\"b\"";
+
 ```
 
 ### Diagnostics

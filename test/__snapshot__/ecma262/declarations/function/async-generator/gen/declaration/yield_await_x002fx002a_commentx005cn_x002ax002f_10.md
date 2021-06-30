@@ -136,9 +136,8 @@ async function * gen() {yield await /* comment\n */ 10}
 
 ```javascript
 
-async function * gen() {
-  yield await /* comment\n */ 10;
-}
+async function* gen() { yield await/* comment\n */ 10; }
+
 ```
 
 ### Diagnostics

@@ -137,8 +137,9 @@ class x {static get try(){}}
 ```javascript
 
 class x {
-  static get static try() {}
+  static get try() { }
 }
+
 ```
 
 ### Diagnostics

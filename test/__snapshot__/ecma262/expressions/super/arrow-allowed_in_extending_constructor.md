@@ -194,11 +194,10 @@ class x extends y { constructor(){ return () => super[bar]; }}
 
 ```javascript
 
-class x  {
-  constructor() {
-    return  () =>  [bar];
-  }
+class x extends y {
+  constructor() { return () => super[bar]; }
 }
+
 ```
 
 ### Diagnostics

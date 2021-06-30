@@ -79,6 +79,7 @@ x = {y}
 ```javascript
 
 x = { y };
+
 ```
 
 ### Diagnostics

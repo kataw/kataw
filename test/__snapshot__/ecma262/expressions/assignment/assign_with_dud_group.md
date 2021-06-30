@@ -101,7 +101,8 @@ a = ((b)) = c;
 
 ```javascript
 
-a = (b) = c;
+a = ((b)) = c;
+
 ```
 
 ### Diagnostics

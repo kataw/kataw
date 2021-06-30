@@ -130,7 +130,8 @@
 
 ```javascript
 
-() =>  x;
+([[x, y] = z]) => x;
+
 ```
 
 ### Diagnostics

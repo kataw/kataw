@@ -90,6 +90,7 @@
 ```javascript
 
 [...yield];
+
 ```
 
 ### Diagnostics

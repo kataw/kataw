@@ -134,7 +134,8 @@
 
 ```javascript
 
-({ * await() {} });
+({ * await(x, y) { } });
+
 ```
 
 ### Diagnostics

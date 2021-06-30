@@ -111,10 +111,11 @@ switch (true) { default: let x; }
 
 ```javascript
 
-switch(true) {
-  default
+switch (true) {
+  default: 
     let x;
 }
+
 ```
 
 ### Diagnostics

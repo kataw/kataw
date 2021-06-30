@@ -118,6 +118,7 @@ a === b ? c : d % e;
 ```javascript
 
 a === b ? c : d % e;
+
 ```
 
 ### Diagnostics

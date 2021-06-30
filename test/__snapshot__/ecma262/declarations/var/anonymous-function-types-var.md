@@ -237,8 +237,9 @@ var f = (): (number) => 123;
 
 ```javascript
 
-var f = () =>  1;
-var f = () =>  123;
+var f = (x) => 1;
+var f = () => 123;
+
 ```
 
 ### Diagnostics

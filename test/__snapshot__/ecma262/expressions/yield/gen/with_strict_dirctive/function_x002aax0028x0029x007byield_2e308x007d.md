@@ -127,9 +127,9 @@
 
 ```javascript
 
-function * a() {
-  yield 2e308;
-}
+'\'use strict\'';
+function* a() { yield 2e308; }
+
 ```
 
 ### Diagnostics

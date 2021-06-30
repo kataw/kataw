@@ -128,6 +128,7 @@
   let x;
 }
 var x;
+
 ```
 
 ### Diagnostics

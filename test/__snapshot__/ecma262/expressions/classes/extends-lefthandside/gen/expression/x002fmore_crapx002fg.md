@@ -104,7 +104,9 @@
 
 ```javascript
 
-(class B  {});
+(class B extends /more crap/g {
+});
+
 ```
 
 ### Diagnostics

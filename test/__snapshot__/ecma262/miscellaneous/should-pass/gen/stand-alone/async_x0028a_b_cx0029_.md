@@ -91,6 +91,7 @@ async (a, b, c);
 ```javascript
 
 async(a, b, c)
+;
 
 ```
 

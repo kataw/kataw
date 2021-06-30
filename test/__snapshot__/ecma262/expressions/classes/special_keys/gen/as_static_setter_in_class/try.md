@@ -146,8 +146,9 @@ class x {static set try(x){}}
 ```javascript
 
 class x {
-  static set static try() {}
+  static set try(x) { }
 }
+
 ```
 
 ### Diagnostics

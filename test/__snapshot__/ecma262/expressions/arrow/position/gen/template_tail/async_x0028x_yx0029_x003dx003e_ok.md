@@ -134,7 +134,8 @@
 
 ```javascript
 
-`a ${async  =>  ok} b`.length;
+`a ${async (x, y) => ok} b`.length;
+
 ```
 
 ### Diagnostics

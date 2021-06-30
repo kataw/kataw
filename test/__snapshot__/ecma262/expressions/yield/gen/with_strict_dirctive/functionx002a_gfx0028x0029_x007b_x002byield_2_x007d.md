@@ -139,9 +139,9 @@
 
 ```javascript
 
-function * gf() {
-  +yield 2;
-}
+'\'use strict\'';
+function* gf() { + yield 2; }
+
 ```
 
 ### Diagnostics

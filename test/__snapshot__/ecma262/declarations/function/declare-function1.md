@@ -237,7 +237,8 @@ declare function aw<T>(p: Pr<T> | T): T;
 
 ```javascript
 
-function  <T >aw(): ;
+declare function aw<T> (p: Pr<T> | T): T
+;
 
 ```
 

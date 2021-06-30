@@ -81,7 +81,8 @@
 
 ```javascript
 
-() =>  {};
+(yield) =>  { };
+
 ```
 
 ### Diagnostics

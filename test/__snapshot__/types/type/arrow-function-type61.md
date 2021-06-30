@@ -169,6 +169,7 @@ type a = (?"string" | y) => T;
 
 ```javascript
 
+type a = (?"\"string\"" | y) => T
 
 ```
 

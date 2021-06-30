@@ -381,6 +381,7 @@ type a = {[((({[(((-1) => [c|d]))]:string}) => [c|d]))]:string};
 
 ```javascript
 
+type a = { [(({ [((-1) => [c | d])]: string }) => [c | d])]: string }
 
 ```
 

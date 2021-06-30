@@ -125,11 +125,9 @@ function f(){ `use strict`; with (x) y; }
 
 ```javascript
 
-function f() {
-  `use strict`;
-  with (x)
-    y;
-}
+function f() { `use strict`; with (x)
+  y; }
+
 ```
 
 ### Diagnostics

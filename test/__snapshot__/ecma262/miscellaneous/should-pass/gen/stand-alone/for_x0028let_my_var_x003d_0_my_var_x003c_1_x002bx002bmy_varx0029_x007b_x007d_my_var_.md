@@ -167,9 +167,9 @@ for (let my_var = 0; my_var < 1; ++my_var) { } my_var;
 
 ```javascript
 
-for (let my_var = 0;; ++my_var; my_var  < 1)
-  {}
+for (let my_var = 0; ++my_var; my_var  < 1) { }
 my_var;
+
 ```
 
 ### Diagnostics

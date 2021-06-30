@@ -132,8 +132,9 @@ class x {static new(){}}
 ```javascript
 
 class x {
-  static static new() {}
+  static new() { }
 }
+
 ```
 
 ### Diagnostics

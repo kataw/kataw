@@ -117,10 +117,11 @@ foo: switch (x) { default: break foo; }
 
 ```javascript
 
-foo: switch(x) {
-  default
+foo: switch (x) {
+  default: 
     break foo;
 }
+
 ```
 
 ### Diagnostics

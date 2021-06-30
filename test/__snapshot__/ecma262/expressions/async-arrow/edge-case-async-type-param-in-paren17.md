@@ -253,8 +253,9 @@ async <T: U,>(x) => y;
 
 ```javascript
 
-async  =>  y;
-(async  =>  y);
+async <T: U,>(x) => y;
+(async <T: U,>(x) => y);
+
 ```
 
 ### Diagnostics

@@ -133,6 +133,7 @@ const {[a.b]: c} = v
 const {
   [a.b]: c
 } = v;
+
 ```
 
 ### Diagnostics

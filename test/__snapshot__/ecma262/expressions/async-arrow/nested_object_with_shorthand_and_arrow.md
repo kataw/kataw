@@ -119,7 +119,10 @@ async ({ident: {x}}) => x
 
 ```javascript
 
-async  =>  x
+async ({
+    ident: { x }
+  }) => x
+
 ```
 
 ### Diagnostics

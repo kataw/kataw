@@ -115,7 +115,8 @@
 
 ```javascript
 
-+x.def + +y.x;
++ x.def + + y.x;
+
 ```
 
 ### Diagnostics

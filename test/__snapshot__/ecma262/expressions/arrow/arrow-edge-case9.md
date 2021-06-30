@@ -199,7 +199,8 @@ a ? (b) : c => <T>(d) : e => f;
 
 ```javascript
 
-a ? (b) : c =>  () =>  f;
+a ? (b) : c => <T>(d) => f;
+
 ```
 
 ### Diagnostics

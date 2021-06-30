@@ -99,8 +99,9 @@
 ```javascript
 
 {
-  (x = [yield]);
+  (x = [yield,]);
 }
+
 ```
 
 ### Diagnostics

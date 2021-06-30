@@ -163,7 +163,8 @@ function method(obj: { [key: string]: any }) {}
 
 ```javascript
 
-function method() {}
+function method(obj: { [keystring]: any }) { }
+
 ```
 
 ### Diagnostics

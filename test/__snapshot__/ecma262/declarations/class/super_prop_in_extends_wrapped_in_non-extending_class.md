@@ -208,10 +208,10 @@ class a { foo(){      class x extends super.foo {}    }}
 ```javascript
 
 class a {
-  foo() {
-    class x  {}
-  }
+  foo() { class x extends super.foo {
+  } }
 }
+
 ```
 
 ### Diagnostics

@@ -142,8 +142,9 @@ class x {static async * export(){}}
 ```javascript
 
 class x {
-  async static static export() {}
+  static async *export() { }
 }
+
 ```
 
 ### Diagnostics
