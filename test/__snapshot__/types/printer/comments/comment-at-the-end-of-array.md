@@ -5,71 +5,71 @@
 `````js
 [    /* element 1*/    1    /* end of element 1 */,    2    /* end of element 2 */];
 
-const array = [,, /* comment */];
+const ix = [,, /* comment */];
 
-var array = [, , /* comment */];
+var iq = [, , /* comment */];
 
 [    , /* comment */];
 
-var array = [
+var aryuray = [
     ,
     , /* comment */
 ];
 
-var array = [ /* comment */];
+var ayiu = [ /* comment */];
 
-const array = [1 /* comment */];
+const yuid = [1 /* comment */];
 
-const array = [/* comment */ 1 /* comment */];
+const yiyv = [/* comment */ 1 /* comment */];
 
-const array = [
+const yig = [
     // comment start
     1,
     2,
     // comment end
 ];
 
-const array = [
+const yius = [
     /* element 1 */
     1,
     /* end of element 1 */
 ];
 
-const array = [
+const yuh = [
     /* element 1 */
     1,
     /* end of element 1 */
     /* extra comment */
 ];
 
-const array = [
+const hsy = [
     1, /* comment */
 ];
 
 
-const array = [
+const aiya = [
     // comment start
     1,
     2,
     // comment end
 ];
 
-const array = [
+const hj = [
     /* element 1 */
     1,
     /* end of element 1 */
     /* extra comment */
-];const array = [
+];const ig = [
     /* element 1 */
     1,
     /* end of element 1 */
     /* extra comment */
-];const array = [
+];const yj = [
     /* element 1 */
     1,
     /* end of element 1 */
     /* extra comment */
-];const array = [
+];const ka = [
     /* element 1 */
     1,
     /* end of element 1 */
@@ -150,11 +150,11 @@ const array = [
                         "kind": 190,
                         "binding": {
                             "kind": 134299649,
-                            "text": "array",
-                            "rawText": "array",
+                            "text": "ix",
+                            "rawText": "ix",
                             "flags": 96,
                             "start": 91,
-                            "end": 97
+                            "end": 94
                         },
                         "type": null,
                         "initializer": {
@@ -165,37 +165,37 @@ const array = [
                                     {
                                         "kind": 230,
                                         "flags": 96,
-                                        "start": 101,
-                                        "end": 101
+                                        "start": 98,
+                                        "end": 98
                                     },
                                     {
                                         "kind": 230,
                                         "flags": 96,
-                                        "start": 102,
-                                        "end": 102
+                                        "start": 99,
+                                        "end": 99
                                     }
                                 ],
                                 "trailingComma": true,
                                 "flags": 32,
-                                "start": 101,
-                                "end": 103
+                                "start": 98,
+                                "end": 100
                             },
                             "flags": 32,
-                            "start": 99,
-                            "end": 118
+                            "start": 96,
+                            "end": 115
                         },
                         "flags": 16,
                         "start": 91,
-                        "end": 118
+                        "end": 115
                     }
                 ],
                 "flags": 16777232,
                 "start": 91,
-                "end": 118
+                "end": 115
             },
             "flags": 33554448,
             "start": 84,
-            "end": 119
+            "end": 116
         },
         {
             "kind": 155,
@@ -203,8 +203,8 @@ const array = [
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 81,
-                "start": 119,
-                "end": 124
+                "start": 116,
+                "end": 121
             },
             "declarationList": {
                 "kind": 156,
@@ -213,11 +213,11 @@ const array = [
                         "kind": 157,
                         "binding": {
                             "kind": 134299649,
-                            "text": "array",
-                            "rawText": "array",
+                            "text": "iq",
+                            "rawText": "iq",
                             "flags": 96,
-                            "start": 124,
-                            "end": 130
+                            "start": 121,
+                            "end": 124
                         },
                         "type": null,
                         "initializer": {
@@ -228,37 +228,37 @@ const array = [
                                     {
                                         "kind": 230,
                                         "flags": 96,
-                                        "start": 134,
-                                        "end": 134
+                                        "start": 128,
+                                        "end": 128
                                     },
                                     {
                                         "kind": 230,
                                         "flags": 96,
-                                        "start": 135,
-                                        "end": 135
+                                        "start": 129,
+                                        "end": 129
                                     }
                                 ],
                                 "trailingComma": true,
                                 "flags": 32,
-                                "start": 134,
-                                "end": 137
+                                "start": 128,
+                                "end": 131
                             },
                             "flags": 32,
-                            "start": 132,
-                            "end": 152
+                            "start": 126,
+                            "end": 146
                         },
                         "flags": 16,
-                        "start": 124,
-                        "end": 152
+                        "start": 121,
+                        "end": 146
                     }
                 ],
                 "flags": 16,
-                "start": 124,
-                "end": 152
+                "start": 121,
+                "end": 146
             },
             "flags": 16,
-            "start": 119,
-            "end": 153
+            "start": 116,
+            "end": 147
         },
         {
             "kind": 120,
@@ -270,22 +270,22 @@ const array = [
                         {
                             "kind": 230,
                             "flags": 96,
-                            "start": 156,
-                            "end": 156
+                            "start": 150,
+                            "end": 150
                         }
                     ],
                     "trailingComma": true,
                     "flags": 32,
-                    "start": 156,
-                    "end": 161
+                    "start": 150,
+                    "end": 155
                 },
                 "flags": 33,
-                "start": 153,
-                "end": 176
+                "start": 147,
+                "end": 170
             },
             "flags": 16,
-            "start": 153,
-            "end": 177
+            "start": 147,
+            "end": 171
         },
         {
             "kind": 155,
@@ -293,8 +293,8 @@ const array = [
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 81,
-                "start": 177,
-                "end": 182
+                "start": 171,
+                "end": 176
             },
             "declarationList": {
                 "kind": 156,
@@ -303,11 +303,11 @@ const array = [
                         "kind": 157,
                         "binding": {
                             "kind": 134299649,
-                            "text": "array",
-                            "rawText": "array",
+                            "text": "aryuray",
+                            "rawText": "aryuray",
                             "flags": 96,
-                            "start": 182,
-                            "end": 188
+                            "start": 176,
+                            "end": 184
                         },
                         "type": null,
                         "initializer": {
@@ -318,37 +318,37 @@ const array = [
                                     {
                                         "kind": 230,
                                         "flags": 96,
-                                        "start": 192,
-                                        "end": 192
+                                        "start": 188,
+                                        "end": 188
                                     },
                                     {
                                         "kind": 230,
                                         "flags": 96,
-                                        "start": 198,
-                                        "end": 198
+                                        "start": 194,
+                                        "end": 194
                                     }
                                 ],
                                 "trailingComma": true,
                                 "flags": 33,
-                                "start": 192,
-                                "end": 204
+                                "start": 188,
+                                "end": 200
                             },
                             "flags": 32,
-                            "start": 190,
-                            "end": 220
+                            "start": 186,
+                            "end": 216
                         },
                         "flags": 16,
-                        "start": 182,
-                        "end": 220
+                        "start": 176,
+                        "end": 216
                     }
                 ],
                 "flags": 16,
-                "start": 182,
-                "end": 220
+                "start": 176,
+                "end": 216
             },
             "flags": 16,
-            "start": 177,
-            "end": 221
+            "start": 171,
+            "end": 217
         },
         {
             "kind": 155,
@@ -356,8 +356,8 @@ const array = [
             "varKeyword": {
                 "kind": 37757002,
                 "flags": 81,
-                "start": 221,
-                "end": 226
+                "start": 217,
+                "end": 222
             },
             "declarationList": {
                 "kind": 156,
@@ -366,11 +366,11 @@ const array = [
                         "kind": 157,
                         "binding": {
                             "kind": 134299649,
-                            "text": "array",
-                            "rawText": "array",
+                            "text": "ayiu",
+                            "rawText": "ayiu",
                             "flags": 96,
-                            "start": 226,
-                            "end": 232
+                            "start": 222,
+                            "end": 227
                         },
                         "type": null,
                         "initializer": {
@@ -380,33 +380,33 @@ const array = [
                                 "elements": [],
                                 "trailingComma": false,
                                 "flags": 32,
-                                "start": 236,
-                                "end": 236
+                                "start": 231,
+                                "end": 231
                             },
                             "flags": 32,
-                            "start": 234,
-                            "end": 251
+                            "start": 229,
+                            "end": 246
                         },
                         "flags": 16,
-                        "start": 226,
-                        "end": 251
+                        "start": 222,
+                        "end": 246
                     }
                 ],
                 "flags": 16,
-                "start": 226,
-                "end": 251
+                "start": 222,
+                "end": 246
             },
             "flags": 16,
-            "start": 221,
-            "end": 252
+            "start": 217,
+            "end": 247
         },
         {
             "kind": 162,
             "lexicalKeyword": {
                 "kind": 37757004,
                 "flags": 81,
-                "start": 252,
-                "end": 259
+                "start": 247,
+                "end": 254
             },
             "binding": {
                 "kind": 151,
@@ -415,11 +415,11 @@ const array = [
                         "kind": 190,
                         "binding": {
                             "kind": 134299649,
-                            "text": "array",
-                            "rawText": "array",
+                            "text": "yuid",
+                            "rawText": "yuid",
                             "flags": 96,
-                            "start": 259,
-                            "end": 265
+                            "start": 254,
+                            "end": 259
                         },
                         "type": null,
                         "initializer": {
@@ -432,39 +432,39 @@ const array = [
                                         "text": 1,
                                         "rawText": "1",
                                         "flags": 96,
-                                        "start": 269,
-                                        "end": 270
+                                        "start": 263,
+                                        "end": 264
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
-                                "start": 269,
-                                "end": 270
+                                "start": 263,
+                                "end": 264
                             },
                             "flags": 32,
-                            "start": 267,
-                            "end": 285
+                            "start": 261,
+                            "end": 279
                         },
                         "flags": 16,
-                        "start": 259,
-                        "end": 285
+                        "start": 254,
+                        "end": 279
                     }
                 ],
                 "flags": 16777232,
-                "start": 259,
-                "end": 285
+                "start": 254,
+                "end": 279
             },
             "flags": 33554448,
-            "start": 252,
-            "end": 286
+            "start": 247,
+            "end": 280
         },
         {
             "kind": 162,
             "lexicalKeyword": {
                 "kind": 37757004,
                 "flags": 81,
-                "start": 286,
-                "end": 293
+                "start": 280,
+                "end": 287
             },
             "binding": {
                 "kind": 151,
@@ -473,11 +473,11 @@ const array = [
                         "kind": 190,
                         "binding": {
                             "kind": 134299649,
-                            "text": "array",
-                            "rawText": "array",
+                            "text": "yiyv",
+                            "rawText": "yiyv",
                             "flags": 96,
-                            "start": 293,
-                            "end": 299
+                            "start": 287,
+                            "end": 292
                         },
                         "type": null,
                         "initializer": {
@@ -490,39 +490,39 @@ const array = [
                                         "text": 1,
                                         "rawText": "1",
                                         "flags": 96,
-                                        "start": 303,
-                                        "end": 318
+                                        "start": 296,
+                                        "end": 311
                                     }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
-                                "start": 303,
-                                "end": 318
+                                "start": 296,
+                                "end": 311
                             },
                             "flags": 32,
-                            "start": 301,
-                            "end": 333
+                            "start": 294,
+                            "end": 326
                         },
                         "flags": 16,
-                        "start": 293,
-                        "end": 333
+                        "start": 287,
+                        "end": 326
                     }
                 ],
                 "flags": 16777232,
-                "start": 293,
-                "end": 333
+                "start": 287,
+                "end": 326
             },
             "flags": 33554448,
-            "start": 286,
-            "end": 334
+            "start": 280,
+            "end": 327
         },
         {
             "kind": 162,
             "lexicalKeyword": {
                 "kind": 37757004,
                 "flags": 81,
-                "start": 334,
-                "end": 341
+                "start": 327,
+                "end": 334
             },
             "binding": {
                 "kind": 151,
@@ -531,11 +531,11 @@ const array = [
                         "kind": 190,
                         "binding": {
                             "kind": 134299649,
-                            "text": "array",
-                            "rawText": "array",
+                            "text": "yig",
+                            "rawText": "yig",
                             "flags": 96,
-                            "start": 341,
-                            "end": 347
+                            "start": 334,
+                            "end": 338
                         },
                         "type": null,
                         "initializer": {
@@ -548,47 +548,47 @@ const array = [
                                         "text": 1,
                                         "rawText": "1",
                                         "flags": 97,
-                                        "start": 351,
-                                        "end": 378
+                                        "start": 342,
+                                        "end": 369
                                     },
                                     {
                                         "kind": 201392130,
                                         "text": 2,
                                         "rawText": "2",
                                         "flags": 97,
-                                        "start": 379,
-                                        "end": 385
+                                        "start": 370,
+                                        "end": 376
                                     }
                                 ],
                                 "trailingComma": true,
                                 "flags": 33,
-                                "start": 351,
-                                "end": 386
+                                "start": 342,
+                                "end": 377
                             },
                             "flags": 32,
-                            "start": 349,
-                            "end": 407
+                            "start": 340,
+                            "end": 398
                         },
                         "flags": 16,
-                        "start": 341,
-                        "end": 407
+                        "start": 334,
+                        "end": 398
                     }
                 ],
                 "flags": 16777232,
-                "start": 341,
-                "end": 407
+                "start": 334,
+                "end": 398
             },
             "flags": 33554448,
-            "start": 334,
-            "end": 408
+            "start": 327,
+            "end": 399
         },
         {
             "kind": 162,
             "lexicalKeyword": {
                 "kind": 37757004,
                 "flags": 81,
-                "start": 408,
-                "end": 415
+                "start": 399,
+                "end": 406
             },
             "binding": {
                 "kind": 151,
@@ -597,11 +597,11 @@ const array = [
                         "kind": 190,
                         "binding": {
                             "kind": 134299649,
-                            "text": "array",
-                            "rawText": "array",
+                            "text": "yius",
+                            "rawText": "yius",
                             "flags": 96,
-                            "start": 415,
-                            "end": 421
+                            "start": 406,
+                            "end": 411
                         },
                         "type": null,
                         "initializer": {
@@ -614,39 +614,39 @@ const array = [
                                         "text": 1,
                                         "rawText": "1",
                                         "flags": 97,
-                                        "start": 425,
-                                        "end": 451
+                                        "start": 415,
+                                        "end": 441
                                     }
                                 ],
                                 "trailingComma": true,
                                 "flags": 33,
-                                "start": 425,
-                                "end": 452
+                                "start": 415,
+                                "end": 442
                             },
                             "flags": 32,
-                            "start": 423,
-                            "end": 481
+                            "start": 413,
+                            "end": 471
                         },
                         "flags": 16,
-                        "start": 415,
-                        "end": 481
+                        "start": 406,
+                        "end": 471
                     }
                 ],
                 "flags": 16777232,
-                "start": 415,
-                "end": 481
+                "start": 406,
+                "end": 471
             },
             "flags": 33554448,
-            "start": 408,
-            "end": 482
+            "start": 399,
+            "end": 472
         },
         {
             "kind": 162,
             "lexicalKeyword": {
                 "kind": 37757004,
                 "flags": 81,
-                "start": 482,
-                "end": 489
+                "start": 472,
+                "end": 479
             },
             "binding": {
                 "kind": 151,
@@ -655,11 +655,11 @@ const array = [
                         "kind": 190,
                         "binding": {
                             "kind": 134299649,
-                            "text": "array",
-                            "rawText": "array",
+                            "text": "yuh",
+                            "rawText": "yuh",
                             "flags": 96,
-                            "start": 489,
-                            "end": 495
+                            "start": 479,
+                            "end": 483
                         },
                         "type": null,
                         "initializer": {
@@ -672,53 +672,53 @@ const array = [
                                         "text": 1,
                                         "rawText": "1",
                                         "flags": 97,
-                                        "start": 499,
-                                        "end": 525
+                                        "start": 487,
+                                        "end": 513
                                     }
                                 ],
                                 "trailingComma": true,
                                 "flags": 33,
-                                "start": 499,
-                                "end": 526
+                                "start": 487,
+                                "end": 514
                             },
                             "flags": 32,
-                            "start": 497,
+                            "start": 485,
+                            "end": 567
+                        },
+                        "flags": 16,
+                        "start": 479,
+                        "end": 567
+                    }
+                ],
+                "flags": 16777232,
+                "start": 479,
+                "end": 567
+            },
+            "flags": 33554448,
+            "start": 472,
+            "end": 568
+        },
+        {
+            "kind": 162,
+            "lexicalKeyword": {
+                "kind": 37757004,
+                "flags": 81,
+                "start": 568,
+                "end": 575
+            },
+            "binding": {
+                "kind": 151,
+                "bindingList": [
+                    {
+                        "kind": 190,
+                        "binding": {
+                            "kind": 134299649,
+                            "text": "hsy",
+                            "rawText": "hsy",
+                            "flags": 96,
+                            "start": 575,
                             "end": 579
                         },
-                        "flags": 16,
-                        "start": 489,
-                        "end": 579
-                    }
-                ],
-                "flags": 16777232,
-                "start": 489,
-                "end": 579
-            },
-            "flags": 33554448,
-            "start": 482,
-            "end": 580
-        },
-        {
-            "kind": 162,
-            "lexicalKeyword": {
-                "kind": 37757004,
-                "flags": 81,
-                "start": 580,
-                "end": 587
-            },
-            "binding": {
-                "kind": 151,
-                "bindingList": [
-                    {
-                        "kind": 190,
-                        "binding": {
-                            "kind": 134299649,
-                            "text": "array",
-                            "rawText": "array",
-                            "flags": 96,
-                            "start": 587,
-                            "end": 593
-                        },
                         "type": null,
                         "initializer": {
                             "kind": 119,
@@ -730,39 +730,39 @@ const array = [
                                         "text": 1,
                                         "rawText": "1",
                                         "flags": 97,
-                                        "start": 597,
-                                        "end": 603
+                                        "start": 583,
+                                        "end": 589
                                     }
                                 ],
                                 "trailingComma": true,
                                 "flags": 33,
-                                "start": 597,
-                                "end": 604
+                                "start": 583,
+                                "end": 590
                             },
                             "flags": 32,
-                            "start": 595,
-                            "end": 620
+                            "start": 581,
+                            "end": 606
                         },
                         "flags": 16,
-                        "start": 587,
-                        "end": 620
+                        "start": 575,
+                        "end": 606
                     }
                 ],
                 "flags": 16777232,
-                "start": 587,
-                "end": 620
+                "start": 575,
+                "end": 606
             },
             "flags": 33554448,
-            "start": 580,
-            "end": 621
+            "start": 568,
+            "end": 607
         },
         {
             "kind": 162,
             "lexicalKeyword": {
                 "kind": 37757004,
                 "flags": 81,
-                "start": 621,
-                "end": 629
+                "start": 607,
+                "end": 615
             },
             "binding": {
                 "kind": 151,
@@ -771,11 +771,11 @@ const array = [
                         "kind": 190,
                         "binding": {
                             "kind": 134299649,
-                            "text": "array",
-                            "rawText": "array",
+                            "text": "aiya",
+                            "rawText": "aiya",
                             "flags": 96,
-                            "start": 629,
-                            "end": 635
+                            "start": 615,
+                            "end": 620
                         },
                         "type": null,
                         "initializer": {
@@ -788,47 +788,47 @@ const array = [
                                         "text": 1,
                                         "rawText": "1",
                                         "flags": 97,
-                                        "start": 639,
-                                        "end": 666
+                                        "start": 624,
+                                        "end": 651
                                     },
                                     {
                                         "kind": 201392130,
                                         "text": 2,
                                         "rawText": "2",
                                         "flags": 97,
-                                        "start": 667,
-                                        "end": 673
+                                        "start": 652,
+                                        "end": 658
                                     }
                                 ],
                                 "trailingComma": true,
                                 "flags": 33,
-                                "start": 639,
-                                "end": 674
+                                "start": 624,
+                                "end": 659
                             },
                             "flags": 32,
-                            "start": 637,
-                            "end": 695
+                            "start": 622,
+                            "end": 680
                         },
                         "flags": 16,
-                        "start": 629,
-                        "end": 695
+                        "start": 615,
+                        "end": 680
                     }
                 ],
                 "flags": 16777232,
-                "start": 629,
-                "end": 695
+                "start": 615,
+                "end": 680
             },
             "flags": 33554448,
-            "start": 621,
-            "end": 696
+            "start": 607,
+            "end": 681
         },
         {
             "kind": 162,
             "lexicalKeyword": {
                 "kind": 37757004,
                 "flags": 81,
-                "start": 696,
-                "end": 703
+                "start": 681,
+                "end": 688
             },
             "binding": {
                 "kind": 151,
@@ -837,11 +837,11 @@ const array = [
                         "kind": 190,
                         "binding": {
                             "kind": 134299649,
-                            "text": "array",
-                            "rawText": "array",
+                            "text": "hj",
+                            "rawText": "hj",
                             "flags": 96,
-                            "start": 703,
-                            "end": 709
+                            "start": 688,
+                            "end": 691
                         },
                         "type": null,
                         "initializer": {
@@ -854,39 +854,39 @@ const array = [
                                         "text": 1,
                                         "rawText": "1",
                                         "flags": 97,
-                                        "start": 713,
-                                        "end": 739
+                                        "start": 695,
+                                        "end": 721
                                     }
                                 ],
                                 "trailingComma": true,
                                 "flags": 33,
-                                "start": 713,
-                                "end": 740
+                                "start": 695,
+                                "end": 722
                             },
                             "flags": 32,
-                            "start": 711,
-                            "end": 793
+                            "start": 693,
+                            "end": 775
                         },
                         "flags": 16,
-                        "start": 703,
-                        "end": 793
+                        "start": 688,
+                        "end": 775
                     }
                 ],
                 "flags": 16777232,
-                "start": 703,
-                "end": 793
+                "start": 688,
+                "end": 775
             },
             "flags": 33554448,
-            "start": 696,
-            "end": 794
+            "start": 681,
+            "end": 776
         },
         {
             "kind": 162,
             "lexicalKeyword": {
                 "kind": 37757004,
                 "flags": 80,
-                "start": 794,
-                "end": 799
+                "start": 776,
+                "end": 781
             },
             "binding": {
                 "kind": 151,
@@ -895,11 +895,11 @@ const array = [
                         "kind": 190,
                         "binding": {
                             "kind": 134299649,
-                            "text": "array",
-                            "rawText": "array",
+                            "text": "ig",
+                            "rawText": "ig",
                             "flags": 96,
-                            "start": 799,
-                            "end": 805
+                            "start": 781,
+                            "end": 784
                         },
                         "type": null,
                         "initializer": {
@@ -912,39 +912,39 @@ const array = [
                                         "text": 1,
                                         "rawText": "1",
                                         "flags": 97,
-                                        "start": 809,
-                                        "end": 835
+                                        "start": 788,
+                                        "end": 814
                                     }
                                 ],
                                 "trailingComma": true,
                                 "flags": 33,
-                                "start": 809,
-                                "end": 836
+                                "start": 788,
+                                "end": 815
                             },
                             "flags": 32,
-                            "start": 807,
-                            "end": 889
+                            "start": 786,
+                            "end": 868
                         },
                         "flags": 16,
-                        "start": 799,
-                        "end": 889
+                        "start": 781,
+                        "end": 868
                     }
                 ],
                 "flags": 16777232,
-                "start": 799,
-                "end": 889
+                "start": 781,
+                "end": 868
             },
             "flags": 33554448,
-            "start": 794,
-            "end": 890
+            "start": 776,
+            "end": 869
         },
         {
             "kind": 162,
             "lexicalKeyword": {
                 "kind": 37757004,
                 "flags": 80,
-                "start": 890,
-                "end": 895
+                "start": 869,
+                "end": 874
             },
             "binding": {
                 "kind": 151,
@@ -953,11 +953,11 @@ const array = [
                         "kind": 190,
                         "binding": {
                             "kind": 134299649,
-                            "text": "array",
-                            "rawText": "array",
+                            "text": "yj",
+                            "rawText": "yj",
                             "flags": 96,
-                            "start": 895,
-                            "end": 901
+                            "start": 874,
+                            "end": 877
                         },
                         "type": null,
                         "initializer": {
@@ -970,39 +970,39 @@ const array = [
                                         "text": 1,
                                         "rawText": "1",
                                         "flags": 97,
-                                        "start": 905,
-                                        "end": 931
+                                        "start": 881,
+                                        "end": 907
                                     }
                                 ],
                                 "trailingComma": true,
                                 "flags": 33,
-                                "start": 905,
-                                "end": 932
+                                "start": 881,
+                                "end": 908
                             },
                             "flags": 32,
-                            "start": 903,
-                            "end": 985
+                            "start": 879,
+                            "end": 961
                         },
                         "flags": 16,
-                        "start": 895,
-                        "end": 985
+                        "start": 874,
+                        "end": 961
                     }
                 ],
                 "flags": 16777232,
-                "start": 895,
-                "end": 985
+                "start": 874,
+                "end": 961
             },
             "flags": 33554448,
-            "start": 890,
-            "end": 986
+            "start": 869,
+            "end": 962
         },
         {
             "kind": 162,
             "lexicalKeyword": {
                 "kind": 37757004,
                 "flags": 80,
-                "start": 986,
-                "end": 991
+                "start": 962,
+                "end": 967
             },
             "binding": {
                 "kind": 151,
@@ -1011,11 +1011,11 @@ const array = [
                         "kind": 190,
                         "binding": {
                             "kind": 134299649,
-                            "text": "array",
-                            "rawText": "array",
+                            "text": "ka",
+                            "rawText": "ka",
                             "flags": 96,
-                            "start": 991,
-                            "end": 997
+                            "start": 967,
+                            "end": 970
                         },
                         "type": null,
                         "initializer": {
@@ -1028,39 +1028,39 @@ const array = [
                                         "text": 1,
                                         "rawText": "1",
                                         "flags": 97,
-                                        "start": 1001,
-                                        "end": 1027
+                                        "start": 974,
+                                        "end": 1000
                                     }
                                 ],
                                 "trailingComma": true,
                                 "flags": 33,
-                                "start": 1001,
-                                "end": 1028
+                                "start": 974,
+                                "end": 1001
                             },
                             "flags": 32,
-                            "start": 999,
-                            "end": 1081
+                            "start": 972,
+                            "end": 1054
                         },
                         "flags": 16,
-                        "start": 991,
-                        "end": 1081
+                        "start": 967,
+                        "end": 1054
                     }
                 ],
                 "flags": 16777232,
-                "start": 991,
-                "end": 1081
+                "start": 967,
+                "end": 1054
             },
             "flags": 33554448,
-            "start": 986,
-            "end": 1082
+            "start": 962,
+            "end": 1055
         }
     ],
     "isModule": false,
-    "source": "[    /* element 1*/    1    /* end of element 1 */,    2    /* end of element 2 */];\n\nconst array = [,, /* comment */];\n\nvar array = [, , /* comment */];\n\n[    , /* comment */];\n\nvar array = [\n    ,\n    , /* comment */\n];\n\nvar array = [ /* comment */];\n\nconst array = [1 /* comment */];\n\nconst array = [/* comment */ 1 /* comment */];\n\nconst array = [\n    // comment start\n    1,\n    2,\n    // comment end\n];\n\nconst array = [\n    /* element 1 */\n    1,\n    /* end of element 1 */\n];\n\nconst array = [\n    /* element 1 */\n    1,\n    /* end of element 1 */\n    /* extra comment */\n];\n\nconst array = [\n    1, /* comment */\n];\n\n\nconst array = [\n    // comment start\n    1,\n    2,\n    // comment end\n];\n\nconst array = [\n    /* element 1 */\n    1,\n    /* end of element 1 */\n    /* extra comment */\n];const array = [\n    /* element 1 */\n    1,\n    /* end of element 1 */\n    /* extra comment */\n];const array = [\n    /* element 1 */\n    1,\n    /* end of element 1 */\n    /* extra comment */\n];const array = [\n    /* element 1 */\n    1,\n    /* end of element 1 */\n    /* extra comment */\n];\n\n\n\n",
+    "source": "[    /* element 1*/    1    /* end of element 1 */,    2    /* end of element 2 */];\n\nconst ix = [,, /* comment */];\n\nvar iq = [, , /* comment */];\n\n[    , /* comment */];\n\nvar aryuray = [\n    ,\n    , /* comment */\n];\n\nvar ayiu = [ /* comment */];\n\nconst yuid = [1 /* comment */];\n\nconst yiyv = [/* comment */ 1 /* comment */];\n\nconst yig = [\n    // comment start\n    1,\n    2,\n    // comment end\n];\n\nconst yius = [\n    /* element 1 */\n    1,\n    /* end of element 1 */\n];\n\nconst yuh = [\n    /* element 1 */\n    1,\n    /* end of element 1 */\n    /* extra comment */\n];\n\nconst hsy = [\n    1, /* comment */\n];\n\n\nconst aiya = [\n    // comment start\n    1,\n    2,\n    // comment end\n];\n\nconst hj = [\n    /* element 1 */\n    1,\n    /* end of element 1 */\n    /* extra comment */\n];const ig = [\n    /* element 1 */\n    1,\n    /* end of element 1 */\n    /* extra comment */\n];const yj = [\n    /* element 1 */\n    1,\n    /* end of element 1 */\n    /* extra comment */\n];const ka = [\n    /* element 1 */\n    1,\n    /* end of element 1 */\n    /* extra comment */\n];\n\n\n\n",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,
-    "end": 1086
+    "end": 1059
 }
 ```
 
@@ -1068,23 +1068,73 @@ const array = [
 
 ```javascript
 
+[/* element 1*/1/* end of element 1 */, 2/* end of element 2 */,];
+const ix = [, ,/* comment */];
+var iq = [, ,/* comment */];
+[,/* comment */];
+var aryuray = [
+  ,
+  ,/* comment */
+];
+var ayiu = [/* comment */];
+const yuid = [1/* comment */,];
+const yiyv = [/* comment */1/* comment */,];
+const yig = [
+   // comment start
+  1,
+  2,
+   // comment end
+];
+const yius = [
+   /* element 1 */
+  1,
+   /* end of element 1 */
+];
+const yuh = [
+   /* element 1 */
+  1,
+   /* end of element 1 */
+  /* extra comment */
+];
+const hsy = [
+  1,/* comment */
+];
+const aiya = [
+   // comment start
+  1,
+  2,
+   // comment end
+];
+const hj = [
+   /* element 1 */
+  1,
+   /* end of element 1 */
+  /* extra comment */
+];
+const ig = [
+   /* element 1 */
+  1,
+   /* end of element 1 */
+  /* extra comment */
+];
+const yj = [
+   /* element 1 */
+  1,
+   /* end of element 1 */
+  /* extra comment */
+];
+const ka = [
+   /* element 1 */
+  1,
+   /* end of element 1 */
+  /* extra comment */
+];
+
 ```
 
 ### Diagnostics
 
 ```javascript
-✖ Cannot redeclare block-scoped variable - start: 124, end: 130
-✖ Duplicate identifier - start: 259, end: 265
-✖ Duplicate identifier - start: 293, end: 299
-✖ Duplicate identifier - start: 341, end: 347
-✖ Duplicate identifier - start: 415, end: 421
-✖ Duplicate identifier - start: 489, end: 495
-✖ Duplicate identifier - start: 587, end: 593
-✖ Duplicate identifier - start: 629, end: 635
-✖ Duplicate identifier - start: 703, end: 709
-✖ Duplicate identifier - start: 799, end: 805
-✖ Duplicate identifier - start: 895, end: 901
-✖ Duplicate identifier - start: 991, end: 997
-
+✔ No errors
 ```
 
