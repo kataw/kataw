@@ -106,7 +106,7 @@ import type a * from "b";
 
 ```javascript
 
-import type a * from "\"b\"";
+import type a * from '"b"';
 
 ```
 

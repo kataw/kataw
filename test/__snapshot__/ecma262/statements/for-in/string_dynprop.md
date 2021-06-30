@@ -110,7 +110,7 @@ for ("foo"[x] in c) d;
 
 ```javascript
 
-for ("\"foo\""[x] in c)
+for ('"foo"'[x] in c)
   d;
 
 ```

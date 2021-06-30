@@ -382,15 +382,15 @@ function getSecurity(level) {
     // one
     case 2: 
        // Leading comments
-      return "\"Hi\"";
+      return '"Hi"';
     case 3:
     // three
     case 4: 
-      return "\"hello\"";
+      return '"hello"';
     case 5:
     // five
     default: 
-      return "\"world\"";
+      return '"world"';
    // Comment After
   }/*Comment 1*/ // Comment After 1
  // Comment After 2

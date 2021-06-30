@@ -110,7 +110,7 @@ import { for } from "iteration"
 
 ```javascript
 
-import {  for, } from "\"iteration\"";
+import {  for, } from '"iteration"';
 
 ```
 

@@ -131,7 +131,7 @@
 
 ```javascript
 
-"\"use strict\"";
+'"use strict"';
 const {
   [eval]: []
 } = a;

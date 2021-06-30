@@ -5808,7 +5808,7 @@ switch (x) {
     function* f() { }
 }
 ;
-"\"use strict\"";
+'"use strict"';
 switch (x) {
   case 1:
   default: 
@@ -5819,7 +5819,7 @@ switch (x) {
 switch (x) {
 }
 /foo/;
-"\"use strict\"";
+'"use strict"';
 switch (x) {
   case 1:
   default:
@@ -5829,7 +5829,7 @@ switch (x) {
     }
 }
 ;
-"\"use strict\"";
+'"use strict"';
 switch (x) {
   case 1:
   default:
@@ -5839,7 +5839,7 @@ switch (x) {
     function f() { }
 }
 ;
-"\"use strict\"";
+'"use strict"';
 switch (x) {
   case 1:
   default: 
@@ -5847,7 +5847,7 @@ switch (x) {
     }
 }
 ;
-"\"use strict\"";
+'"use strict"';
 switch (x) {
   case 1:
   default:
@@ -5856,7 +5856,7 @@ switch (x) {
     }
 }
 ;
-"\"use strict\"";
+'"use strict"';
 switch (x) {
   case 1:
   default: 

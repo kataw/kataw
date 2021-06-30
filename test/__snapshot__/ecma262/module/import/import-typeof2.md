@@ -91,7 +91,7 @@ import typeof foo24 from "bar";
 
 ```javascript
 
-import typeof foo24 from "\"bar\"";
+import typeof foo24 from '"bar"';
 
 ```
 

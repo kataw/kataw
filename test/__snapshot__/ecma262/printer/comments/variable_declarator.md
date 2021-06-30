@@ -1153,7 +1153,7 @@ foo1 = '\'val\'';
 let // Comment
 foo2 = '\'val\'', bar = '\'val\'';
 const foo3 = 123;
-["\"2\"", "\"3\"",].forEach(x => console.log(x));
+['"2"', '"3"',].forEach(x => console.log(x));
 
 ```
 
