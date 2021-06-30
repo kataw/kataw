@@ -153,8 +153,9 @@ class x{[yield](a){}}
 ```javascript
 
 class x {
-  [yield]() {}
+  [yield](a) { }
 }
+
 ```
 
 ### Diagnostics

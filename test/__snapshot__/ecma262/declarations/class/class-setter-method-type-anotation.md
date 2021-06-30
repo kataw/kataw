@@ -164,8 +164,9 @@ class Foo {set fooProp(value:number){}}
 ```javascript
 
 class Foo {
-  set fooProp() {}
+  set fooProp(value: number) { }
 }
+
 ```
 
 ### Diagnostics

@@ -64,6 +64,7 @@ const identity = <T>(t: T): T => t;
                                                 "end": 19
                                             },
                                             "type": null,
+                                            "assignToken": null,
                                             "defaultType": null,
                                             "flags": 2097152,
                                             "start": 18,
@@ -196,7 +197,8 @@ const identity = <T>(t: T): T => t;
 
 ```javascript
 
-const identity = () =>  t;
+const identity = <T>(t: T) => t;
+
 ```
 
 ### Diagnostics

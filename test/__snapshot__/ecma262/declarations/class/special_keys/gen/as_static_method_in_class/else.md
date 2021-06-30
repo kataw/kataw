@@ -132,8 +132,9 @@ class x {static else(){}}
 ```javascript
 
 class x {
-  static static else() {}
+  static else() { }
 }
+
 ```
 
 ### Diagnostics

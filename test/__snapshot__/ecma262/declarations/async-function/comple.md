@@ -50,8 +50,8 @@ await 0 }
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 13,
-                "end": 15
+                "start": 14,
+                "end": 14
             },
             "contents": {
                 "kind": 216,
@@ -167,8 +167,8 @@ await 0 }
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 59,
-                "end": 61
+                "start": 60,
+                "end": 60
             },
             "contents": {
                 "kind": 216,
@@ -266,14 +266,11 @@ await 0 }
 
 ```javascript
 
-function * foo() {
-  if (0) let;
-  yield 0;
-}
-async function foo() {
-  if (0) let;
-  await 0;
-}
+function* foo() { if (0)
+  let; yield 0; }
+async function foo() { if (0)
+  let; await 0; }
+
 ```
 
 ### Diagnostics

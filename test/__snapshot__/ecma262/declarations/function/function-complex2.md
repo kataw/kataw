@@ -122,6 +122,7 @@ function d<X: [number, number]>(x: X): X {
                                 "start": 13,
                                 "end": 36
                             },
+                            "assignToken": null,
                             "defaultType": null,
                             "flags": 2097152,
                             "start": 11,
@@ -183,8 +184,8 @@ function d<X: [number, number]>(x: X): X {
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 37,
-                "end": 43
+                "start": 38,
+                "end": 42
             },
             "contents": {
                 "kind": 216,
@@ -221,7 +222,7 @@ function d<X: [number, number]>(x: X): X {
                                                 "start": 62,
                                                 "end": 63
                                             },
-                                            "flags": 32,
+                                            "flags": 1073741856,
                                             "start": 59,
                                             "end": 63
                                         }
@@ -360,6 +361,7 @@ function d<X: [number, number]>(x: X): X {
                                 "start": 82,
                                 "end": 105
                             },
+                            "assignToken": null,
                             "defaultType": null,
                             "flags": 2097152,
                             "start": 80,
@@ -421,8 +423,8 @@ function d<X: [number, number]>(x: X): X {
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 106,
-                "end": 112
+                "start": 107,
+                "end": 111
             },
             "contents": {
                 "kind": 216,
@@ -459,7 +461,7 @@ function d<X: [number, number]>(x: X): X {
                                                 "start": 131,
                                                 "end": 132
                                             },
-                                            "flags": 32,
+                                            "flags": 1073741856,
                                             "start": 128,
                                             "end": 132
                                         },
@@ -479,7 +481,7 @@ function d<X: [number, number]>(x: X): X {
                                                 "start": 137,
                                                 "end": 138
                                             },
-                                            "flags": 32,
+                                            "flags": 1073741856,
                                             "start": 133,
                                             "end": 138
                                         }
@@ -618,6 +620,7 @@ function d<X: [number, number]>(x: X): X {
                                 "start": 193,
                                 "end": 216
                             },
+                            "assignToken": null,
                             "defaultType": null,
                             "flags": 2097152,
                             "start": 191,
@@ -679,8 +682,8 @@ function d<X: [number, number]>(x: X): X {
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 217,
-                "end": 223
+                "start": 218,
+                "end": 222
             },
             "contents": {
                 "kind": 216,
@@ -725,7 +728,7 @@ function d<X: [number, number]>(x: X): X {
                                                 "start": 246,
                                                 "end": 247
                                             },
-                                            "flags": 32,
+                                            "flags": 1073741856,
                                             "start": 242,
                                             "end": 247
                                         }
@@ -858,6 +861,7 @@ function d<X: [number, number]>(x: X): X {
                                 "start": 275,
                                 "end": 292
                             },
+                            "assignToken": null,
                             "defaultType": null,
                             "flags": 2097152,
                             "start": 273,
@@ -919,8 +923,8 @@ function d<X: [number, number]>(x: X): X {
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 293,
-                "end": 299
+                "start": 294,
+                "end": 298
             },
             "contents": {
                 "kind": 216,
@@ -957,7 +961,7 @@ function d<X: [number, number]>(x: X): X {
                                                 "start": 318,
                                                 "end": 319
                                             },
-                                            "flags": 32,
+                                            "flags": 1073741856,
                                             "start": 315,
                                             "end": 319
                                         },
@@ -977,7 +981,7 @@ function d<X: [number, number]>(x: X): X {
                                                 "start": 324,
                                                 "end": 325
                                             },
-                                            "flags": 32,
+                                            "flags": 1073741856,
                                             "start": 320,
                                             "end": 325
                                         }
@@ -1045,21 +1049,19 @@ function d<X: [number, number]>(x: X): X {
 
 ```javascript
 
-function  <X:  >a():  {
-  return  [...x];
+function a<X: $ReadOnlyArray<number>> (x: X): X {
+  return [...x];
 }
-function  <X:  >b():  {
-  return  [...x, ...x]; // nope, because X could be a tuple
+function b<X: $ReadOnlyArray<number>> (x: X): X {
+  return [...x, ...x];// nope, because X could be a tuple
+}
+function c<X: $ReadOnlyArray<number>> (x: X): X {
+  return [42, ...x];// error
+}
+function d<X: [number, number]> (x: X): X {
+  return [...x, ...x];// error
+}
 
-}
-function  <X:  >c():  {
-  return  [42, ...x]; // error
-
-}
-function  <X:  [: number, : number ] >d():  {
-  return  [...x, ...x]; // error
-
-}
 ```
 
 ### Diagnostics

@@ -69,8 +69,8 @@ function *infer_stmt() {
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 20,
-                "end": 22
+                "start": 21,
+                "end": 21
             },
             "contents": {
                 "kind": 216,
@@ -256,8 +256,8 @@ function *infer_stmt() {
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 106,
-                "end": 108
+                "start": 107,
+                "end": 107
             },
             "contents": {
                 "kind": 216,
@@ -407,8 +407,8 @@ function *infer_stmt() {
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 182,
-                "end": 184
+                "start": 183,
+                "end": 183
             },
             "contents": {
                 "kind": 216,
@@ -558,8 +558,8 @@ function *infer_stmt() {
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 254,
-                "end": 256
+                "start": 255,
+                "end": 255
             },
             "contents": {
                 "kind": 216,
@@ -686,20 +686,21 @@ function *infer_stmt() {
 
 ```javascript
 
-function * stmt_yield():  {
+function* stmt_yield(): Generator<number, void, void> {
   yield 0;
   yield "\"\"";
 }
-function * stmt_return_ok():  {
-  return  0;
+function* stmt_return_ok(): Generator<void, number, void> {
+  return 0;
 }
-function * stmt_return_err():  {
-  return  "\"\"";
+function* stmt_return_err(): Generator<void, number, void> {
+  return "\"\"";
 }
-function * infer_stmt() {
+function* infer_stmt() {
   var x: boolean = yield 0;
-  return  "\"\"";
+  return "\"\"";
 }
+
 ```
 
 ### Diagnostics

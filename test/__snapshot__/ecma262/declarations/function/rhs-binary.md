@@ -58,8 +58,8 @@ function z() {
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 10,
-                "end": 12
+                "start": 11,
+                "end": 11
             },
             "contents": {
                 "kind": 216,
@@ -334,8 +334,8 @@ function z() {
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 135,
-                "end": 137
+                "start": 136,
+                "end": 136
             },
             "contents": {
                 "kind": 216,
@@ -520,8 +520,8 @@ function z() {
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 237,
-                "end": 239
+                "start": 238,
+                "end": 238
             },
             "contents": {
                 "kind": 216,
@@ -696,22 +696,23 @@ function z() {
 ```javascript
 
 function x() {
-  ("'foo'" in {});
-  ("'foo'" in { foo: null });
+  ('\'foo\'' in {});
+  ('\'foo\'' in { foo : null });
   (0 in {});
-  (0 in { "\"0\"": null });
+  (0 in { "\"0\"" : null });
 }
-// arrays on RHS
+ // arrays on RHS
 function y() {
-  ("'foo'" in []);
+  ('\'foo\'' in []);
   (0 in []);
-  ("'length'" in []);
+  ('\'length\'' in []);
 }
-// primitive classes on RHS
+ // primitive classes on RHS
 function z() {
-  ("'foo'" in new  String("'bar'"));
-  ("'foo'" in new  Number(123));
+  ('\'foo\'' in new String('\'bar\''));
+  ('\'foo\'' in new Number(123));
 }
+
 ```
 
 ### Diagnostics

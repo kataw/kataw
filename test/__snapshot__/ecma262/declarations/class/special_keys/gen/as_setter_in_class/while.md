@@ -141,8 +141,9 @@ class x {set while(x){}}
 ```javascript
 
 class x {
-  set while() {}
+  set while(x) { }
 }
+
 ```
 
 ### Diagnostics

@@ -58,7 +58,7 @@ declare class A {
                         {
                             "kind": 193,
                             "protoKeyword": null,
-                            "staticToken": {
+                            "staticKeyword": {
                                 "kind": 8388716,
                                 "flags": 32,
                                 "start": 17,
@@ -130,7 +130,9 @@ declare class A {
 
 ```javascript
 
-declare class A TODO!
+declare class A { static prototype: Object// error
+ }
+
 ```
 
 ### Diagnostics

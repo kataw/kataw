@@ -48,8 +48,8 @@
                         "formalParameters": [],
                         "trailingComma": false,
                         "flags": 32,
-                        "start": 19,
-                        "end": 21
+                        "start": 20,
+                        "end": 20
                     },
                     "contents": {
                         "kind": 216,
@@ -92,7 +92,8 @@
 
 ```javascript
 
-(async function foo() {});
+(async function foo() { });
+
 ```
 
 ### Diagnostics

@@ -51,7 +51,7 @@ class Example {
                             "kind": 280,
                             "decorators": null,
                             "declaredToken": null,
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "asyncKeyword": null,
                             "key": {
                                 "kind": 134299649,
@@ -69,8 +69,8 @@ class Example {
                             "end": 23
                         },
                         {
-                            "kind": 317,
-                            "flags": 96,
+                            "kind": 1108353041,
+                            "flags": 64,
                             "start": 23,
                             "end": 24
                         },
@@ -105,7 +105,7 @@ class Example {
                                 "end": 41
                             },
                             "declaredToken": null,
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "asyncKeyword": null,
                             "key": {
                                 "kind": 134299649,
@@ -166,7 +166,7 @@ class Example {
                                                         "start": 77,
                                                         "end": 82
                                                     },
-                                                    "flags": 536870944,
+                                                    "flags": 96,
                                                     "start": 71,
                                                     "end": 82
                                                 },
@@ -192,8 +192,8 @@ class Example {
                             "end": 87
                         },
                         {
-                            "kind": 317,
-                            "flags": 96,
+                            "kind": 1108353041,
+                            "flags": 64,
                             "start": 87,
                             "end": 88
                         }
@@ -225,14 +225,15 @@ class Example {
 ```javascript
 
 class Example {
-  #priv;
-
+  #priv
+  ;
   @anydecorator
   method = () =>  {
-      return  this.#priv;
-    };
-
+    return this.#priv;
+  }
+  ;
 }
+
 ```
 
 ### Diagnostics

@@ -76,7 +76,7 @@ function e(x: { (): string; (x: number): string }): () => number {
                                     {
                                         "kind": 196,
                                         "protoKeyword": null,
-                                        "staticToken": null,
+                                        "staticKeyword": null,
                                         "typeParameter": null,
                                         "value": {
                                             "kind": 282,
@@ -107,7 +107,7 @@ function e(x: { (): string; (x: number): string }): () => number {
                                     {
                                         "kind": 196,
                                         "protoKeyword": null,
-                                        "staticToken": null,
+                                        "staticKeyword": null,
                                         "typeParameter": null,
                                         "value": {
                                             "kind": 282,
@@ -184,8 +184,8 @@ function e(x: { (): string; (x: number): string }): () => number {
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 64,
-                "end": 104
+                "start": 65,
+                "end": 103
             },
             "contents": {
                 "kind": 216,
@@ -314,7 +314,7 @@ function e(x: { (): string; (x: number): string }): () => number {
                                     {
                                         "kind": 196,
                                         "protoKeyword": null,
-                                        "staticToken": null,
+                                        "staticKeyword": null,
                                         "typeParameter": null,
                                         "value": {
                                             "kind": 282,
@@ -345,7 +345,7 @@ function e(x: { (): string; (x: number): string }): () => number {
                                     {
                                         "kind": 196,
                                         "protoKeyword": null,
-                                        "staticToken": null,
+                                        "staticKeyword": null,
                                         "typeParameter": null,
                                         "value": {
                                             "kind": 282,
@@ -422,8 +422,8 @@ function e(x: { (): string; (x: number): string }): () => number {
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 178,
-                "end": 218
+                "start": 179,
+                "end": 217
             },
             "contents": {
                 "kind": 216,
@@ -521,14 +521,14 @@ function e(x: { (): string; (x: number): string }): () => number {
 
 ```javascript
 // Only one call property needs to match the function
+function d(x: { (): string, (x: number): string }): () => string {
+  return x;
+}
+ // ...but you need at least one
+function e(x: { (): string, (x: number): string }): () => number {
+  return x;
+}
 
-function d():  {
-  return  x;
-}
-// ...but you need at least one
-function e():  {
-  return  x;
-}
 ```
 
 ### Diagnostics

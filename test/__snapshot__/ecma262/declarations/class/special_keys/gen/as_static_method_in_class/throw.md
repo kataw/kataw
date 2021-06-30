@@ -132,8 +132,9 @@ class x {static throw(){}}
 ```javascript
 
 class x {
-  static static throw() {}
+  static throw() { }
 }
+
 ```
 
 ### Diagnostics

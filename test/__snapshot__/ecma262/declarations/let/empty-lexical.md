@@ -78,7 +78,8 @@ let {} = 0
 
 ```javascript
 
-let {} = 0;
+let { } = 0;
+
 ```
 
 ### Diagnostics

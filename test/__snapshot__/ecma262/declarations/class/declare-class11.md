@@ -62,6 +62,7 @@ declare class A<T> extends B<T> { x: number }
                                 "end": 17
                             },
                             "type": null,
+                            "assignToken": null,
                             "defaultType": null,
                             "flags": 2097152,
                             "start": 16,
@@ -143,7 +144,7 @@ declare class A<T> extends B<T> { x: number }
                         {
                             "kind": 193,
                             "protoKeyword": null,
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "getKeyword": null,
                             "setKeyword": null,
                             "key": {
@@ -201,7 +202,8 @@ declare class A<T> extends B<T> { x: number }
 
 ```javascript
 
-declare class A  TODO!
+declare class A<T> extends B<T> { x: number }
+
 ```
 
 ### Diagnostics

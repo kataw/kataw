@@ -129,6 +129,7 @@ let {
   x: y,
   z: a
 } = obj;
+
 ```
 
 ### Diagnostics

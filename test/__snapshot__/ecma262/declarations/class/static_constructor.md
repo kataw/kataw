@@ -143,8 +143,9 @@ class A {static constructor(){}}
 ```javascript
 
 class A {
-  static static constructor() {}
+  static constructor() { }
 }
+
 ```
 
 ### Diagnostics

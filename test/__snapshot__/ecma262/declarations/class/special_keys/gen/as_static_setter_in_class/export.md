@@ -146,8 +146,9 @@ class x {static set export(x){}}
 ```javascript
 
 class x {
-  static set static export() {}
+  static set export(x) { }
 }
+
 ```
 
 ### Diagnostics

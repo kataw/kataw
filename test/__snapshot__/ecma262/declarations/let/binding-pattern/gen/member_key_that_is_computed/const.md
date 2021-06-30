@@ -63,7 +63,7 @@ const {[a.b]: c} = v
                                                     "start": 10,
                                                     "end": 11
                                                 },
-                                                "flags": 536870944,
+                                                "flags": 96,
                                                 "start": 8,
                                                 "end": 11
                                             },
@@ -133,6 +133,7 @@ const {[a.b]: c} = v
 const {
   [a.b]: c
 } = v;
+
 ```
 
 ### Diagnostics

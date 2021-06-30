@@ -60,7 +60,7 @@ declare class X {
                         {
                             "kind": 193,
                             "protoKeyword": null,
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "getKeyword": null,
                             "setKeyword": null,
                             "key": {
@@ -93,7 +93,7 @@ declare class X {
                         {
                             "kind": 193,
                             "protoKeyword": null,
-                            "staticToken": {
+                            "staticKeyword": {
                                 "kind": 8388716,
                                 "flags": 32,
                                 "start": 30,
@@ -131,7 +131,7 @@ declare class X {
                         {
                             "kind": 193,
                             "protoKeyword": null,
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "getKeyword": null,
                             "setKeyword": null,
                             "key": {
@@ -189,7 +189,8 @@ declare class X {
 
 ```javascript
 
-declare class X TODO!
+declare class X { a: number, static b: number, c: number }
+
 ```
 
 ### Diagnostics

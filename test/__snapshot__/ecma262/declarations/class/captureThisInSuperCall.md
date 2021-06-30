@@ -236,13 +236,7 @@ class B extends A {
                                                 "expression": {
                                                     "kind": 131,
                                                     "expression": {
-                                                        "kind": 225,
-                                                        "superKeyword": {
-                                                            "kind": 4259935,
-                                                            "flags": 96,
-                                                            "start": 78,
-                                                            "end": 84
-                                                        },
+                                                        "kind": 4259935,
                                                         "flags": 96,
                                                         "start": 78,
                                                         "end": 84
@@ -303,7 +297,7 @@ class B extends A {
                                                                                             "start": 104,
                                                                                             "end": 114
                                                                                         },
-                                                                                        "flags": 536870944,
+                                                                                        "flags": 96,
                                                                                         "start": 98,
                                                                                         "end": 114
                                                                                     },
@@ -447,14 +441,13 @@ class B extends A {
 ```javascript
 
 class A {
-  constructor() {}
+  constructor(p: any) { }
 }
-class B  {
-  constructor() {
-    super({ test: () =>  this.someMethod() });
-  }
-  someMethod() {}
+class B extends A {
+  constructor() { super({ test : () => this.someMethod() }); }
+  someMethod() { }
 }
+
 ```
 
 ### Diagnostics

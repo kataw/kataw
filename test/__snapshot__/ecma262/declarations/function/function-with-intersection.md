@@ -73,6 +73,7 @@ function x(a: | 1 | 2, b: & 3 & 4): number {}
                                     {
                                         "kind": 134217968,
                                         "text": 1,
+                                        "rawText": "1",
                                         "flags": 2097216,
                                         "start": 15,
                                         "end": 17
@@ -80,6 +81,7 @@ function x(a: | 1 | 2, b: & 3 & 4): number {}
                                     {
                                         "kind": 134217968,
                                         "text": 2,
+                                        "rawText": "2",
                                         "flags": 2097216,
                                         "start": 19,
                                         "end": 21
@@ -125,6 +127,7 @@ function x(a: | 1 | 2, b: & 3 & 4): number {}
                                     {
                                         "kind": 134217968,
                                         "text": 3,
+                                        "rawText": "3",
                                         "flags": 2097216,
                                         "start": 27,
                                         "end": 29
@@ -132,6 +135,7 @@ function x(a: | 1 | 2, b: & 3 & 4): number {}
                                     {
                                         "kind": 134217968,
                                         "text": 4,
+                                        "rawText": "4",
                                         "flags": 2097216,
                                         "start": 31,
                                         "end": 33
@@ -153,8 +157,8 @@ function x(a: | 1 | 2, b: & 3 & 4): number {}
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 10,
-                "end": 34
+                "start": 11,
+                "end": 33
             },
             "contents": {
                 "kind": 216,
@@ -202,7 +206,8 @@ function x(a: | 1 | 2, b: & 3 & 4): number {}
 
 ```javascript
 
-function x(): number {}
+function x(a: | 1 | 2, b: & 3 & 4): number { }
+
 ```
 
 ### Diagnostics

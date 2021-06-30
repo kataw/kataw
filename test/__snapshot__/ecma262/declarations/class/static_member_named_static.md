@@ -143,8 +143,9 @@ class x{   static static(){}    }
 ```javascript
 
 class x {
-  static static static() {}
+  static static() { }
 }
+
 ```
 
 ### Diagnostics

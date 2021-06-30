@@ -170,8 +170,8 @@ function x({ y }: z<[string |Q]>) {}
                 ],
                 "trailingComma": false,
                 "flags": 34,
-                "start": 10,
-                "end": 33
+                "start": 11,
+                "end": 32
             },
             "contents": {
                 "kind": 216,
@@ -206,7 +206,10 @@ function x({ y }: z<[string |Q]>) {}
 
 ```javascript
 
-function x() {}
+function x({
+    y
+  }: z<[string | Q]>) { }
+
 ```
 
 ### Diagnostics

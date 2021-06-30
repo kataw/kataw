@@ -88,8 +88,8 @@ function g(x: () => any) {
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 10,
-                "end": 18
+                "start": 11,
+                "end": 17
             },
             "contents": {
                 "kind": 216,
@@ -282,8 +282,8 @@ function g(x: () => any) {
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 58,
-                "end": 72
+                "start": 59,
+                "end": 71
             },
             "contents": {
                 "kind": 216,
@@ -404,14 +404,15 @@ function g(x: () => any) {
 
 ```javascript
 
-function f() {
+function f(x: any) {
   x();
   const y = x();
 }
-function g() {
+function g(x: () => any) {
   x();
   const y = x();
 }
+
 ```
 
 ### Diagnostics

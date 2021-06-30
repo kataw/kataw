@@ -50,8 +50,8 @@ function yield() {}
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 28,
-                "end": 30
+                "start": 29,
+                "end": 29
             },
             "contents": {
                 "kind": 216,

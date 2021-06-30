@@ -104,8 +104,8 @@ function bar(a = [1 + 1]) {
                 ],
                 "trailingComma": false,
                 "flags": 34,
-                "start": 12,
-                "end": 25
+                "start": 13,
+                "end": 24
             },
             "contents": {
                 "kind": 216,
@@ -212,8 +212,8 @@ function bar(a = [1 + 1]) {
                 ],
                 "trailingComma": false,
                 "flags": 34,
-                "start": 43,
-                "end": 56
+                "start": 44,
+                "end": 55
             },
             "contents": {
                 "kind": 216,
@@ -248,8 +248,10 @@ function bar(a = [1 + 1]) {
 
 ```javascript
 
-function foo() {}
-function bar() {}
+function foo(a = [1 + 1,]) { }
+function bar(a = [1 + 1,]) {
+}
+
 ```
 
 ### Diagnostics

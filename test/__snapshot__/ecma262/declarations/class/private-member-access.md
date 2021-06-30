@@ -44,7 +44,7 @@
                             "kind": 280,
                             "decorators": null,
                             "declaredToken": null,
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "asyncKeyword": null,
                             "key": {
                                 "kind": 134299649,
@@ -62,8 +62,8 @@
                             "end": 16
                         },
                         {
-                            "kind": 317,
-                            "flags": 96,
+                            "kind": 1108353041,
+                            "flags": 64,
                             "start": 16,
                             "end": 17
                         },
@@ -120,7 +120,7 @@
                                                         "start": 29,
                                                         "end": 33
                                                     },
-                                                    "flags": 536870944,
+                                                    "flags": 96,
                                                     "start": 23,
                                                     "end": 33
                                                 },
@@ -173,12 +173,11 @@
 ```javascript
 
 class C {
-  #aaa;
-
-  f() {
-    this.#aaa;
-  }
+  #aaa
+  ;
+  f() { this.#aaa; }
 }
+
 ```
 
 ### Diagnostics

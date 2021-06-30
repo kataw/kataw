@@ -63,7 +63,7 @@ class C { #aaa; f(f) { f()?.#aaa } }
                             "kind": 280,
                             "decorators": null,
                             "declaredToken": null,
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "asyncKeyword": null,
                             "key": {
                                 "kind": 134299649,
@@ -81,8 +81,8 @@ class C { #aaa; f(f) { f()?.#aaa } }
                             "end": 14
                         },
                         {
-                            "kind": 317,
-                            "flags": 96,
+                            "kind": 1108353041,
+                            "flags": 64,
                             "start": 14,
                             "end": 15
                         },
@@ -165,7 +165,7 @@ class C { #aaa; f(f) { f()?.#aaa } }
                                                     "chain": {
                                                         "kind": 302,
                                                         "chain": {
-                                                            "kind": 536871114,
+                                                            "kind": 202,
                                                             "chain": null,
                                                             "expression": {
                                                                 "kind": 67191035,
@@ -175,7 +175,7 @@ class C { #aaa; f(f) { f()?.#aaa } }
                                                                 "start": 28,
                                                                 "end": 32
                                                             },
-                                                            "flags": 32,
+                                                            "flags": 536870944,
                                                             "start": 28,
                                                             "end": 32
                                                         },
@@ -236,12 +236,11 @@ class C { #aaa; f(f) { f()?.#aaa } }
 ```javascript
 
 class C {
-  #aaa;
-
-  f() {
-    f()?.;
-  }
+  #aaa
+  ;
+  f(f) { f()?.#aaa; }
 }
+
 ```
 
 ### Diagnostics

@@ -64,6 +64,7 @@ declare function aw<T>(p: Pr<T> | T): T;
                                 "end": 21
                             },
                             "type": null,
+                            "assignToken": null,
                             "defaultType": null,
                             "flags": 2097152,
                             "start": 20,
@@ -185,8 +186,8 @@ declare function aw<T>(p: Pr<T> | T): T;
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 22,
-                "end": 36
+                "start": 23,
+                "end": 35
             },
             "contents": null,
             "returnType": {
@@ -236,7 +237,8 @@ declare function aw<T>(p: Pr<T> | T): T;
 
 ```javascript
 
-function  <T >aw(): ;
+declare function aw<T> (p: Pr<T> | T): T
+;
 
 ```
 

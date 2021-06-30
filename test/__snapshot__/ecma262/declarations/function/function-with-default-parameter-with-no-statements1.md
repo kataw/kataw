@@ -75,8 +75,8 @@ function bar(a = (v)) {
                 ],
                 "trailingComma": false,
                 "flags": 34,
-                "start": 12,
-                "end": 21
+                "start": 13,
+                "end": 20
             },
             "contents": {
                 "kind": 216,
@@ -154,8 +154,8 @@ function bar(a = (v)) {
                 ],
                 "trailingComma": false,
                 "flags": 34,
-                "start": 39,
-                "end": 48
+                "start": 40,
+                "end": 47
             },
             "contents": {
                 "kind": 216,
@@ -190,8 +190,10 @@ function bar(a = (v)) {
 
 ```javascript
 
-function foo() {}
-function bar() {}
+function foo(a = (v)) { }
+function bar(a = (v)) {
+}
+
 ```
 
 ### Diagnostics

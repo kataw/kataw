@@ -56,7 +56,7 @@ class C2 {
                                 "start": 3,
                                 "end": 4
                             },
-                            "flags": 536870944,
+                            "flags": 96,
                             "start": 1,
                             "end": 4
                         },
@@ -170,8 +170,9 @@ class C2 {
 
 @a.b
 class C2 {
-  method() {}
+  method() { }
 }
+
 ```
 
 ### Diagnostics

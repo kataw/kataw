@@ -57,6 +57,7 @@ class Foo<T> extends mixin(Bar) { }
                                 "end": 11
                             },
                             "type": null,
+                            "assignToken": null,
                             "defaultType": null,
                             "flags": 2097152,
                             "start": 10,
@@ -147,7 +148,9 @@ class Foo<T> extends mixin(Bar) { }
 
 ```javascript
 
-class Foo  {}
+class Foo<T> extends mixin(Bar) {
+}
+
 ```
 
 ### Diagnostics

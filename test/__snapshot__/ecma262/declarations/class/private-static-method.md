@@ -160,7 +160,7 @@ class A {
                                                             "start": 49,
                                                             "end": 56
                                                         },
-                                                        "flags": 536870944,
+                                                        "flags": 96,
                                                         "start": 42,
                                                         "end": 56
                                                     },
@@ -215,7 +215,7 @@ class A {
                                                                             "start": 70,
                                                                             "end": 77
                                                                         },
-                                                                        "flags": 536870944,
+                                                                        "flags": 96,
                                                                         "start": 68,
                                                                         "end": 77
                                                                     }
@@ -315,12 +315,13 @@ class A {
 ```javascript
 
 class A {
-  static static #method() {}
+  static #method() { }
   run() {
     A.#method = 2;
-    ([A.#method] = [2]);
+    ([A.#method,] = [2,]);
   }
 }
+
 ```
 
 ### Diagnostics

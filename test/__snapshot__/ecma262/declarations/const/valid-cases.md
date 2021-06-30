@@ -121,8 +121,8 @@ const { async = true } = x;
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
-                                "start": 18,
-                                "end": 36
+                                "start": 19,
+                                "end": 35
                             },
                             "contents": {
                                 "kind": 216,
@@ -234,8 +234,8 @@ const { async = true } = x;
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
-                                "start": 60,
-                                "end": 76
+                                "start": 61,
+                                "end": 75
                             },
                             "contents": {
                                 "kind": 216,
@@ -640,8 +640,8 @@ const { async = true } = x;
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
-                                "start": 217,
-                                "end": 233
+                                "start": 218,
+                                "end": 232
                             },
                             "contents": {
                                 "kind": 216,
@@ -787,8 +787,8 @@ const { async = true } = x;
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
-                                "start": 277,
-                                "end": 294
+                                "start": 278,
+                                "end": 293
                             },
                             "contents": {
                                 "kind": 216,
@@ -936,23 +936,36 @@ const { async = true } = x;
 
 ```javascript
 
-const a = function () {};
-const b = function () {};
-const c = async  =>  {
+const a = function ({
+    async = true
+  }) { };
+const b = function ({
+    async: bar
+  }) { };
+const c = async ({
+    async: bar
+  }) =>  {
   await baz;
 };
-const d = async  =>  {
+const d = async ({
+    async = bar
+  }) =>  {
   await baz;
 };
-const e = async function () {
+const e = async function ({
+    async: bar
+  }) {
   await baz;
 };
-const f = async function () {
+const f = async function ({
+    async = bar
+  }) {
   await baz;
 };
 const {
   async = true
 } = x;
+
 ```
 
 ### Diagnostics

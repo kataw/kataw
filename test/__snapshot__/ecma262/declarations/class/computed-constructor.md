@@ -56,7 +56,7 @@
                             "kind": 280,
                             "decorators": null,
                             "declaredToken": null,
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "asyncKeyword": null,
                             "key": {
                                 "kind": 194,
@@ -632,7 +632,7 @@
                             "kind": 280,
                             "decorators": null,
                             "declaredToken": null,
-                            "staticToken": {
+                            "staticKeyword": {
                                 "kind": 8388716,
                                 "flags": 64,
                                 "start": 250,
@@ -1224,41 +1224,42 @@
 ```javascript
 
 class one {
-  ["'constructor'"] = 0;
+  ['\'constructor\''] = 0
 }
 class two {
-  ["'constructor'"]() {}
+  ['\'constructor\'']() { }
 }
 class three {
-  ["'constructor'"]() {}
+  *['\'constructor\'']() { }
 }
 class four {
-  get ["'constructor'"]() {}
+  get ['\'constructor\'']() { }
 }
 class five {
-  set ["'constructor'"]() {}
+  set ['\'constructor\''](x) { }
 }
 class six {
-  async ["'constructor'"]() {}
+  async ['\'constructor\'']() { }
 }
 class seven {
-  static ["'constructor'"] = 0;
+  static ['\'constructor\''] = 0
 }
 class eigth {
-  static static ["'constructor'"]() {}
+  static ['\'constructor\'']() { }
 }
 class nine {
-  static static ["'constructor'"]() {}
+  static *['\'constructor\'']() { }
 }
 class ten {
-  static get static ["'constructor'"]() {}
+  static get ['\'constructor\'']() { }
 }
 class eleven {
-  static set static ["'constructor'"]() {}
+  static set ['\'constructor\''](x) { }
 }
 class twelve {
-  async static static ["'constructor'"]() {}
+  static async ['\'constructor\'']() { }
 }
+
 ```
 
 ### Diagnostics

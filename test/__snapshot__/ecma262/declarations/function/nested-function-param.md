@@ -61,6 +61,7 @@ function f<X, Y: X, Z: Y, W>(y: Y, z: X, w: W): X {
                                 "end": 12
                             },
                             "type": null,
+                            "assignToken": null,
                             "defaultType": null,
                             "flags": 2097152,
                             "start": 11,
@@ -99,6 +100,7 @@ function f<X, Y: X, Z: Y, W>(y: Y, z: X, w: W): X {
                                 "start": 16,
                                 "end": 18
                             },
+                            "assignToken": null,
                             "defaultType": null,
                             "flags": 2097152,
                             "start": 13,
@@ -137,6 +139,7 @@ function f<X, Y: X, Z: Y, W>(y: Y, z: X, w: W): X {
                                 "start": 22,
                                 "end": 24
                             },
+                            "assignToken": null,
                             "defaultType": null,
                             "flags": 2097152,
                             "start": 19,
@@ -153,6 +156,7 @@ function f<X, Y: X, Z: Y, W>(y: Y, z: X, w: W): X {
                                 "end": 27
                             },
                             "type": null,
+                            "assignToken": null,
                             "defaultType": null,
                             "flags": 2097152,
                             "start": 25,
@@ -294,8 +298,8 @@ function f<X, Y: X, Z: Y, W>(y: Y, z: X, w: W): X {
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 28,
-                "end": 46
+                "start": 29,
+                "end": 45
             },
             "contents": {
                 "kind": 216,
@@ -497,12 +501,14 @@ function f<X, Y: X, Z: Y, W>(y: Y, z: X, w: W): X {
 
 ```javascript
 
-function  <X, Y: , Z: , W >f():  {
-  if (n === 0) return  y;
-  if (n === 1) return  z;
-  return  w; // nope
-
+function f<X, Y: X, Z: Y, W> (y: Y, z: X, w: W): X {
+  if (n === 0)
+    return y;
+  if (n === 1)
+    return z;
+  return w;// nope
 }
+
 ```
 
 ### Diagnostics

@@ -174,8 +174,8 @@ var A = class B {
                                             "end": 52
                                         },
                                         {
-                                            "kind": 317,
-                                            "flags": 96,
+                                            "kind": 1108353041,
+                                            "flags": 65,
                                             "start": 52,
                                             "end": 56
                                         }
@@ -220,10 +220,11 @@ var A = class B {
 ```javascript
 
 var A = class B {
-  method() {}
-  static static method() {}
-
+  method() { }
+  static method() { }
+  ;
 };
+
 ```
 
 ### Diagnostics

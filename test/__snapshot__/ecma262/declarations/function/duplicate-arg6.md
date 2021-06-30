@@ -62,8 +62,8 @@ async function f(a, a) { 'use strict' }
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 16,
-                "end": 22
+                "start": 17,
+                "end": 21
             },
             "contents": {
                 "kind": 216,

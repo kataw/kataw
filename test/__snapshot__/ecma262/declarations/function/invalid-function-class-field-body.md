@@ -50,8 +50,8 @@ function* foo() {
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 13,
-                "end": 15
+                "start": 14,
+                "end": 14
             },
             "contents": {
                 "kind": 216,
@@ -88,7 +88,7 @@ function* foo() {
                                             "kind": 280,
                                             "decorators": null,
                                             "declaredToken": null,
-                                            "staticToken": null,
+                                            "staticKeyword": null,
                                             "asyncKeyword": null,
                                             "key": {
                                                 "kind": 134299649,
@@ -139,8 +139,8 @@ function* foo() {
                                             "end": 93
                                         },
                                         {
-                                            "kind": 317,
-                                            "flags": 96,
+                                            "kind": 1108353041,
+                                            "flags": 64,
                                             "start": 93,
                                             "end": 94
                                         }
@@ -185,13 +185,14 @@ function* foo() {
 
 ```javascript
 
-function * foo() {
+function* foo() {
   class C {
-    // here yield is an identifier reference
-    p = yield +42;
-
+     // here yield is an identifier reference
+    p = yield + 42
+    ;
   }
 }
+
 ```
 
 ### Diagnostics

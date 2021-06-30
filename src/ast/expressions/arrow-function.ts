@@ -2,7 +2,6 @@ import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
 import { SyntaxToken, TokenSyntaxKind } from '../token';
 import { TypeParameterDeclaration } from '../types/type-parameter-declaration';
 import { Identifier } from './identifier-expr';
-import { BindingElement } from './binding-element';
 import { ArrowPatameterList } from './arrow-parameter-list';
 import { TypeNode } from '../types';
 import { FunctionBody } from './function-body';

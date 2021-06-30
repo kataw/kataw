@@ -127,8 +127,9 @@ class x {throw(){}}
 ```javascript
 
 class x {
-  throw() {}
+  throw() { }
 }
+
 ```
 
 ### Diagnostics

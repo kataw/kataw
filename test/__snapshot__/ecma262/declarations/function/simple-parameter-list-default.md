@@ -74,8 +74,8 @@ function a(options = {}) {
                 ],
                 "trailingComma": false,
                 "flags": 34,
-                "start": 10,
-                "end": 24
+                "start": 11,
+                "end": 23
             },
             "contents": {
                 "kind": 216,

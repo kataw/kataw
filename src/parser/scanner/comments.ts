@@ -75,3 +75,11 @@ export function getLeadingComments(text: string, pos: number): any[] {
 export function getTrailingComments(text: string, pos: number): any[] {
   return extractComments(text, pos, /*trailing*/ true);
 }
+
+export function collectLeadingComments(text: string, pos: number): any[] {
+  return extractComments(text, pos, /*trailing*/ false);
+}
+
+export function collectTrailingComments(text: string, pos: number): any[] {
+  return extractComments(text, pos, /*trailing*/ true);
+}

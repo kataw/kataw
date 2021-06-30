@@ -121,7 +121,7 @@ class Annotations {
                             "kind": 280,
                             "decorators": null,
                             "declaredToken": null,
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "asyncKeyword": null,
                             "key": {
                                 "kind": 134299649,
@@ -155,7 +155,7 @@ class Annotations {
                             "kind": 280,
                             "decorators": null,
                             "declaredToken": null,
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "asyncKeyword": null,
                             "key": {
                                 "kind": 134299649,
@@ -240,7 +240,7 @@ class Annotations {
                                                             "start": 63,
                                                             "end": 65
                                                         },
-                                                        "flags": 536870944,
+                                                        "flags": 97,
                                                         "start": 53,
                                                         "end": 65
                                                     },
@@ -284,7 +284,7 @@ class Annotations {
                                                         "start": 92,
                                                         "end": 94
                                                     },
-                                                    "flags": 536870944,
+                                                    "flags": 97,
                                                     "start": 70,
                                                     "end": 94
                                                 },
@@ -405,7 +405,7 @@ class Annotations {
                                                         "start": 141,
                                                         "end": 143
                                                     },
-                                                    "flags": 536870944,
+                                                    "flags": 96,
                                                     "start": 130,
                                                     "end": 143
                                                 },
@@ -472,7 +472,7 @@ class Annotations {
                             "kind": 280,
                             "decorators": null,
                             "declaredToken": null,
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "asyncKeyword": null,
                             "key": {
                                 "kind": 134299649,
@@ -588,7 +588,7 @@ class Annotations {
                                                                                 "kind": 280,
                                                                                 "decorators": null,
                                                                                 "declaredToken": null,
-                                                                                "staticToken": null,
+                                                                                "staticKeyword": null,
                                                                                 "asyncKeyword": null,
                                                                                 "key": {
                                                                                     "kind": 134299649,
@@ -682,7 +682,7 @@ class Annotations {
                                                                                                                 "start": 325,
                                                                                                                 "end": 331
                                                                                                             },
-                                                                                                            "flags": 536870944,
+                                                                                                            "flags": 97,
                                                                                                             "start": 311,
                                                                                                             "end": 331
                                                                                                         },
@@ -814,7 +814,7 @@ class Annotations {
                                                                                                                 "start": 386,
                                                                                                                 "end": 392
                                                                                                             },
-                                                                                                            "flags": 536870944,
+                                                                                                            "flags": 96,
                                                                                                             "start": 375,
                                                                                                             "end": 392
                                                                                                         },
@@ -862,7 +862,7 @@ class Annotations {
                                                                                                                 "start": 456,
                                                                                                                 "end": 462
                                                                                                             },
-                                                                                                            "flags": 536870944,
+                                                                                                            "flags": 96,
                                                                                                             "start": 397,
                                                                                                             "end": 462
                                                                                                         },
@@ -1010,7 +1010,7 @@ class Annotations {
                             "kind": 280,
                             "decorators": null,
                             "declaredToken": null,
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "asyncKeyword": null,
                             "key": {
                                 "kind": 134299649,
@@ -1041,8 +1041,8 @@ class Annotations {
                             "end": 653
                         },
                         {
-                            "kind": 317,
-                            "flags": 96,
+                            "kind": 1108353041,
+                            "flags": 64,
                             "start": 653,
                             "end": 654
                         },
@@ -1050,7 +1050,7 @@ class Annotations {
                             "kind": 280,
                             "decorators": null,
                             "declaredToken": null,
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "asyncKeyword": null,
                             "key": {
                                 "kind": 134299649,
@@ -1075,8 +1075,8 @@ class Annotations {
                             "end": 663
                         },
                         {
-                            "kind": 317,
-                            "flags": 96,
+                            "kind": 1108353041,
+                            "flags": 64,
                             "start": 663,
                             "end": 664
                         },
@@ -1084,7 +1084,7 @@ class Annotations {
                             "kind": 280,
                             "decorators": null,
                             "declaredToken": null,
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "asyncKeyword": null,
                             "key": {
                                 "kind": 134299649,
@@ -1102,8 +1102,8 @@ class Annotations {
                             "end": 669
                         },
                         {
-                            "kind": 317,
-                            "flags": 96,
+                            "kind": 1108353041,
+                            "flags": 64,
                             "start": 669,
                             "end": 670
                         },
@@ -1111,7 +1111,7 @@ class Annotations {
                             "kind": 280,
                             "decorators": null,
                             "declaredToken": null,
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "asyncKeyword": null,
                             "key": {
                                 "kind": 134299649,
@@ -1149,8 +1149,8 @@ class Annotations {
                             "end": 687
                         },
                         {
-                            "kind": 317,
-                            "flags": 96,
+                            "kind": 1108353041,
+                            "flags": 64,
                             "start": 687,
                             "end": 688
                         },
@@ -1158,7 +1158,7 @@ class Annotations {
                             "kind": 280,
                             "decorators": null,
                             "declaredToken": null,
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "asyncKeyword": null,
                             "key": {
                                 "kind": 134299649,
@@ -1196,8 +1196,8 @@ class Annotations {
                             "end": 737
                         },
                         {
-                            "kind": 317,
-                            "flags": 96,
+                            "kind": 1108353041,
+                            "flags": 64,
                             "start": 737,
                             "end": 738
                         },
@@ -1205,7 +1205,7 @@ class Annotations {
                             "kind": 280,
                             "decorators": null,
                             "declaredToken": null,
-                            "staticToken": {
+                            "staticKeyword": {
                                 "kind": 8388716,
                                 "flags": 64,
                                 "start": 738,
@@ -1241,8 +1241,8 @@ class Annotations {
                             "end": 759
                         },
                         {
-                            "kind": 317,
-                            "flags": 96,
+                            "kind": 1108353041,
+                            "flags": 64,
                             "start": 759,
                             "end": 760
                         },
@@ -1250,7 +1250,7 @@ class Annotations {
                             "kind": 280,
                             "decorators": null,
                             "declaredToken": null,
-                            "staticToken": {
+                            "staticKeyword": {
                                 "kind": 8388716,
                                 "flags": 64,
                                 "start": 760,
@@ -1280,8 +1280,8 @@ class Annotations {
                             "end": 777
                         },
                         {
-                            "kind": 317,
-                            "flags": 96,
+                            "kind": 1108353041,
+                            "flags": 64,
                             "start": 777,
                             "end": 778
                         },
@@ -1289,7 +1289,7 @@ class Annotations {
                             "kind": 280,
                             "decorators": null,
                             "declaredToken": null,
-                            "staticToken": {
+                            "staticKeyword": {
                                 "kind": 8388716,
                                 "flags": 64,
                                 "start": 778,
@@ -1312,8 +1312,8 @@ class Annotations {
                             "end": 791
                         },
                         {
-                            "kind": 317,
-                            "flags": 96,
+                            "kind": 1108353041,
+                            "flags": 64,
                             "start": 791,
                             "end": 792
                         },
@@ -1321,7 +1321,7 @@ class Annotations {
                             "kind": 280,
                             "decorators": null,
                             "declaredToken": null,
-                            "staticToken": {
+                            "staticKeyword": {
                                 "kind": 8388716,
                                 "flags": 64,
                                 "start": 792,
@@ -1364,8 +1364,8 @@ class Annotations {
                             "end": 817
                         },
                         {
-                            "kind": 317,
-                            "flags": 96,
+                            "kind": 1108353041,
+                            "flags": 64,
                             "start": 817,
                             "end": 818
                         },
@@ -1373,7 +1373,7 @@ class Annotations {
                             "kind": 280,
                             "decorators": null,
                             "declaredToken": null,
-                            "staticToken": {
+                            "staticKeyword": {
                                 "kind": 8388716,
                                 "flags": 64,
                                 "start": 818,
@@ -1416,8 +1416,8 @@ class Annotations {
                             "end": 875
                         },
                         {
-                            "kind": 317,
-                            "flags": 96,
+                            "kind": 1108353041,
+                            "flags": 64,
                             "start": 875,
                             "end": 876
                         },
@@ -1493,7 +1493,7 @@ class Annotations {
                                                         "start": 913,
                                                         "end": 915
                                                     },
-                                                    "flags": 536870944,
+                                                    "flags": 96,
                                                     "start": 907,
                                                     "end": 915
                                                 },
@@ -1590,7 +1590,7 @@ class Annotations {
                                                         "start": 957,
                                                         "end": 959
                                                     },
-                                                    "flags": 536870944,
+                                                    "flags": 96,
                                                     "start": 951,
                                                     "end": 959
                                                 },
@@ -1689,7 +1689,7 @@ class Annotations {
                                                         "start": 1035,
                                                         "end": 1038
                                                     },
-                                                    "flags": 536870944,
+                                                    "flags": 96,
                                                     "start": 1022,
                                                     "end": 1038
                                                 },
@@ -1788,7 +1788,7 @@ class Annotations {
                                                         "start": 1087,
                                                         "end": 1090
                                                     },
-                                                    "flags": 536870944,
+                                                    "flags": 96,
                                                     "start": 1074,
                                                     "end": 1090
                                                 },
@@ -1885,7 +1885,7 @@ class Annotations {
                                                         "start": 1159,
                                                         "end": 1161
                                                     },
-                                                    "flags": 536870944,
+                                                    "flags": 96,
                                                     "start": 1153,
                                                     "end": 1161
                                                 },
@@ -1982,7 +1982,7 @@ class Annotations {
                                                         "start": 1203,
                                                         "end": 1205
                                                     },
-                                                    "flags": 536870944,
+                                                    "flags": 96,
                                                     "start": 1197,
                                                     "end": 1205
                                                 },
@@ -2062,7 +2062,7 @@ class Annotations {
                                                             "start": 1269,
                                                             "end": 1271
                                                         },
-                                                        "flags": 536870944,
+                                                        "flags": 97,
                                                         "start": 1259,
                                                         "end": 1271
                                                     },
@@ -2179,7 +2179,7 @@ class Annotations {
                                                         "start": 1324,
                                                         "end": 1327
                                                     },
-                                                    "flags": 536870944,
+                                                    "flags": 96,
                                                     "start": 1311,
                                                     "end": 1327
                                                 },
@@ -2278,7 +2278,7 @@ class Annotations {
                                                         "start": 1376,
                                                         "end": 1379
                                                     },
-                                                    "flags": 536870944,
+                                                    "flags": 96,
                                                     "start": 1363,
                                                     "end": 1379
                                                 },
@@ -2360,7 +2360,7 @@ class Annotations {
                                                             "start": 1450,
                                                             "end": 1453
                                                         },
-                                                        "flags": 536870944,
+                                                        "flags": 96,
                                                         "start": 1433,
                                                         "end": 1453
                                                     },
@@ -2431,94 +2431,84 @@ class Annotations {
 ```javascript
 
 class C {
-  #p;
-  #q;
+  #p: number
+  #q: number
   constructor() {
-    this.#p = 0; // in scope
-
-    this.#q; // in scope
-
+    this.#p = 0;// in scope
+    this.#q;// in scope
   }
-  test() {
-    other.#q; // in lexical scope, object has the property.
-
+  test(other: C) {
+    other.#q;// in lexical scope, object has the property.
   }
 }
 class Outer {
-  #outer;
+  #outer: number
   constructor() {
     var Inner = class A {
-      #inner;
+      #inner: Outer
       constructor() {
-        this.#inner = new  Outer();
-        var x = new  Outer();
-        x.#outer = 0; // Both inner and outer should be visible here!
-
-        x.#inner = new  Outer(); // Error, #inner is not a private field of Outer
-
+        this.#inner = new Outer();
+        var x = new Outer();
+        x.#outer = 0;// Both inner and outer should be visible here!
+        x.#inner = new Outer();// Error, #inner is not a private field of Outer
       }
     };
   }
 }
 class Annotations {
-  // Private class fields must either be annotated or have an initializer
-  #p;
-
-  #q = 0;
-
-  #r;
-
-  #s = 0;
-   // Error, number ~> string
-
-  #t = "\"yay!\"";
-
-  static #sp;
-
-  static #sq = 0;
-
-  static #sr;
-
-  static #ss = 0;
-   // Error, number ~> string
-
-  static #st = "\"yay!\"";
-
-  test1() {
-    return  this.#p;
+   // Private class fields must either be annotated or have an initializer
+  #p: number
+  ;
+  #q = 0
+  ;
+  #r
+  ;
+  #s: string = 0
+  ;// Error, number ~> string
+  #t: string = "\"yay!\""
+  ;
+  static #sp: number
+  ;
+  static #sq = 0
+  ;
+  static #sr
+  ;
+  static #ss: string = 0
+  ;// Error, number ~> string
+  static #st: string = "\"yay!\""
+  ;
+  test1(): number {
+    return this.#p;
   }
-  test2() {
-    return  this.#t; // Error, string ~> number
-
+  test2(): number {
+    return this.#t;// Error, string ~> number
   }
-  test3() {
-    return  Annotations.#sp;
+  test3(): number {
+    return Annotations.#sp;
   }
-  test4() {
-    return  Annotations.#st; // Error, string ~> number
-
+  test4(): number {
+    return Annotations.#st;// Error, string ~> number
   }
-  test5() {
-    return  this.#r;
+  test5(): number {
+    return this.#r;
   }
-  test6() {
-    return  this.#r; // Error, number ~> string
-
+  test6(): string {
+    return this.#r;// Error, number ~> string
   }
   test5And6Helper() {
     this.#r = 3;
   }
-  test7() {
-    return  Annotations.#sr;
+  test7(): number {
+    return Annotations.#sr;
   }
-  test8() {
-    return  Annotations.#sr; // Error, number ~> string
-
+  test8(): string {
+    return Annotations.#sr;// Error, number ~> string
   }
   test7And9Helper() {
     Annotations.#sr = 3;
   }
 }
+
 ```
 
 ### Diagnostics

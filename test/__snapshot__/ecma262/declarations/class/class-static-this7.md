@@ -62,7 +62,7 @@ x = class { static x = class { [this.y] } }
                                     "kind": 280,
                                     "decorators": null,
                                     "declaredToken": null,
-                                    "staticToken": {
+                                    "staticKeyword": {
                                         "kind": 8388716,
                                         "flags": 64,
                                         "start": 11,
@@ -100,7 +100,7 @@ x = class { static x = class { [this.y] } }
                                                         "kind": 280,
                                                         "decorators": null,
                                                         "declaredToken": null,
-                                                        "staticToken": null,
+                                                        "staticKeyword": null,
                                                         "asyncKeyword": null,
                                                         "key": {
                                                             "kind": 194,
@@ -120,7 +120,7 @@ x = class { static x = class { [this.y] } }
                                                                     "start": 37,
                                                                     "end": 38
                                                                 },
-                                                                "flags": 536870944,
+                                                                "flags": 96,
                                                                 "start": 32,
                                                                 "end": 38
                                                             },
@@ -189,9 +189,10 @@ x = class { static x = class { [this.y] } }
 
 x = class  {
   static x = class  {
-      [this.y];
-    };
+    [this.y]
+  }
 };
+
 ```
 
 ### Diagnostics

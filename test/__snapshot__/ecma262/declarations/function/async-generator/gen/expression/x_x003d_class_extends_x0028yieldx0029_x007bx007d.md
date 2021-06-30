@@ -211,9 +211,9 @@
 
 ```javascript
 
-({ * async gen() {
-    x = class   {};
-  } });
+({ async * gen() { x = class  extends (yield) {
+  }; } });
+
 ```
 
 ### Diagnostics

@@ -59,7 +59,7 @@ class C { [super.bbb] = 0 };
                             "kind": 280,
                             "decorators": null,
                             "declaredToken": null,
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "asyncKeyword": null,
                             "key": {
                                 "kind": 134299649,
@@ -74,13 +74,7 @@ class C { [super.bbb] = 0 };
                             "initializer": {
                                 "kind": 129,
                                 "member": {
-                                    "kind": 225,
-                                    "superKeyword": {
-                                        "kind": 4259935,
-                                        "flags": 96,
-                                        "start": 15,
-                                        "end": 21
-                                    },
+                                    "kind": 4259935,
                                     "flags": 96,
                                     "start": 15,
                                     "end": 21
@@ -93,7 +87,7 @@ class C { [super.bbb] = 0 };
                                     "start": 22,
                                     "end": 25
                                 },
-                                "flags": 536870944,
+                                "flags": 96,
                                 "start": 15,
                                 "end": 25
                             },
@@ -149,7 +143,7 @@ class C { [super.bbb] = 0 };
                             "kind": 280,
                             "decorators": null,
                             "declaredToken": null,
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "asyncKeyword": null,
                             "key": {
                                 "kind": 134299649,
@@ -183,13 +177,7 @@ class C { [super.bbb] = 0 };
                                 "contents": {
                                     "kind": 129,
                                     "member": {
-                                        "kind": 225,
-                                        "superKeyword": {
-                                            "kind": 4259935,
-                                            "flags": 96,
-                                            "start": 51,
-                                            "end": 57
-                                        },
+                                        "kind": 4259935,
                                         "flags": 96,
                                         "start": 51,
                                         "end": 57
@@ -202,7 +190,7 @@ class C { [super.bbb] = 0 };
                                         "start": 58,
                                         "end": 61
                                     },
-                                    "flags": 536870944,
+                                    "flags": 96,
                                     "start": 51,
                                     "end": 61
                                 },
@@ -262,7 +250,7 @@ class C { [super.bbb] = 0 };
                             "kind": 280,
                             "decorators": null,
                             "declaredToken": null,
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "asyncKeyword": null,
                             "key": {
                                 "kind": 134299649,
@@ -315,13 +303,7 @@ class C { [super.bbb] = 0 };
                                     "contents": {
                                         "kind": 129,
                                         "member": {
-                                            "kind": 225,
-                                            "superKeyword": {
-                                                "kind": 4259935,
-                                                "flags": 96,
-                                                "start": 93,
-                                                "end": 99
-                                            },
+                                            "kind": 4259935,
                                             "flags": 96,
                                             "start": 93,
                                             "end": 99
@@ -334,7 +316,7 @@ class C { [super.bbb] = 0 };
                                             "start": 100,
                                             "end": 103
                                         },
-                                        "flags": 536870944,
+                                        "flags": 96,
                                         "start": 93,
                                         "end": 103
                                     },
@@ -398,20 +380,14 @@ class C { [super.bbb] = 0 };
                             "kind": 280,
                             "decorators": null,
                             "declaredToken": null,
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "asyncKeyword": null,
                             "key": {
                                 "kind": 194,
                                 "expression": {
                                     "kind": 129,
                                     "member": {
-                                        "kind": 225,
-                                        "superKeyword": {
-                                            "kind": 4259935,
-                                            "flags": 96,
-                                            "start": 119,
-                                            "end": 124
-                                        },
+                                        "kind": 4259935,
                                         "flags": 96,
                                         "start": 119,
                                         "end": 124
@@ -424,7 +400,7 @@ class C { [super.bbb] = 0 };
                                         "start": 125,
                                         "end": 128
                                     },
-                                    "flags": 536870944,
+                                    "flags": 96,
                                     "start": 119,
                                     "end": 128
                                 },

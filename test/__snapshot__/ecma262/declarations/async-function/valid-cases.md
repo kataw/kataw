@@ -65,8 +65,8 @@ new async function() { await 0 }.x
                             "formalParameters": [],
                             "trailingComma": false,
                             "flags": 32,
-                            "start": 19,
-                            "end": 21
+                            "start": 20,
+                            "end": 20
                         },
                         "contents": {
                             "kind": 216,
@@ -146,8 +146,8 @@ new async function() { await 0 }.x
                         "formalParameters": [],
                         "trailingComma": false,
                         "flags": 32,
-                        "start": 49,
-                        "end": 51
+                        "start": 50,
+                        "end": 50
                     },
                     "contents": {
                         "kind": 216,
@@ -250,8 +250,8 @@ new async function() { await 0 }.x
                         "formalParameters": [],
                         "trailingComma": false,
                         "flags": 32,
-                        "start": 86,
-                        "end": 88
+                        "start": 87,
+                        "end": 87
                     },
                     "contents": {
                         "kind": 216,
@@ -355,8 +355,8 @@ new async function() { await 0 }.x
                                         "formalParameters": [],
                                         "trailingComma": false,
                                         "flags": 32,
-                                        "start": 119,
-                                        "end": 121
+                                        "start": 120,
+                                        "end": 120
                                     },
                                     "contents": {
                                         "kind": 216,
@@ -436,8 +436,8 @@ new async function() { await 0 }.x
                                                 "formalParameters": [],
                                                 "trailingComma": false,
                                                 "flags": 32,
-                                                "start": 153,
-                                                "end": 155
+                                                "start": 154,
+                                                "end": 154
                                             },
                                             "contents": {
                                                 "kind": 216,
@@ -520,8 +520,8 @@ new async function() { await 0 }.x
                                             "formalParameters": [],
                                             "trailingComma": false,
                                             "flags": 32,
-                                            "start": 184,
-                                            "end": 186
+                                            "start": 185,
+                                            "end": 185
                                         },
                                         "contents": {
                                             "kind": 216,
@@ -619,8 +619,8 @@ new async function() { await 0 }.x
                                         "formalParameters": [],
                                         "trailingComma": false,
                                         "flags": 32,
-                                        "start": 222,
-                                        "end": 224
+                                        "start": 223,
+                                        "end": 223
                                     },
                                     "contents": {
                                         "kind": 216,
@@ -711,8 +711,8 @@ new async function() { await 0 }.x
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 32,
-                                    "start": 256,
-                                    "end": 258
+                                    "start": 257,
+                                    "end": 257
                                 },
                                 "contents": {
                                     "kind": 216,
@@ -810,8 +810,8 @@ new async function() { await 0 }.x
                         "formalParameters": [],
                         "trailingComma": false,
                         "flags": 32,
-                        "start": 290,
-                        "end": 292
+                        "start": 291,
+                        "end": 291
                     },
                     "contents": {
                         "kind": 216,
@@ -902,8 +902,8 @@ new async function() { await 0 }.x
                             "formalParameters": [],
                             "trailingComma": false,
                             "flags": 32,
-                            "start": 323,
-                            "end": 325
+                            "start": 324,
+                            "end": 324
                         },
                         "contents": {
                             "kind": 216,
@@ -964,7 +964,7 @@ new async function() { await 0 }.x
                     "start": 338,
                     "end": 339
                 },
-                "flags": 536870944,
+                "flags": 97,
                 "start": 304,
                 "end": 339
             },
@@ -986,31 +986,12 @@ new async function() { await 0 }.x
 
 ```javascript
 
--async function foo() {
-  await 0;
-} - async function () {
-    await 0;
-  };
-1 - async function foo() {
-    await 0;
-  };
-1 - async function () {
-    await 0;
-  }(async function foo() {
-    await 0;
-  })(async function () {
-    await 0;
-  })(x, async function foo() {
-      await 0;
-    })(x, async function () {
-      await 0;
-    });
-new  async function () {
-  await 0;
-}();
-new  async function () {
-  await 0;
-}().x;
+- async function foo() { await 0; } - async function () { await 0; };
+1 - async function foo() { await 0; };
+1 - async function () { await 0; }(async function foo() { await 0; })(async function () { await 0; })(x, async function foo() { await 0; })(x, async function () { await 0; });
+new async function () { await 0; };
+new async function () { await 0; }.x;
+
 ```
 
 ### Diagnostics

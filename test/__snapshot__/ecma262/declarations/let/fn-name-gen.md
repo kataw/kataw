@@ -67,8 +67,8 @@ let gen = function*() {};
                                 "formalParameters": [],
                                 "trailingComma": false,
                                 "flags": 32,
-                                "start": 22,
-                                "end": 24
+                                "start": 23,
+                                "end": 23
                             },
                             "contents": {
                                 "kind": 216,
@@ -146,8 +146,8 @@ let gen = function*() {};
                                 "formalParameters": [],
                                 "trailingComma": false,
                                 "flags": 32,
-                                "start": 48,
-                                "end": 50
+                                "start": 49,
+                                "end": 49
                             },
                             "contents": {
                                 "kind": 216,
@@ -195,8 +195,9 @@ let gen = function*() {};
 
 ```javascript
 
-let xGen = function * x() {};
-let gen = function * () {};
+let xGen = function* x() { };
+let gen = function* () { };
+
 ```
 
 ### Diagnostics

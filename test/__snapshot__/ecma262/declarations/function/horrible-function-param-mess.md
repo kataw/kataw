@@ -84,6 +84,7 @@ function processArgs<A1: {}, A2: {}>(
                                 "start": 24,
                                 "end": 27
                             },
+                            "assignToken": null,
                             "defaultType": null,
                             "flags": 2097152,
                             "start": 21,
@@ -115,6 +116,7 @@ function processArgs<A1: {}, A2: {}>(
                                 "start": 32,
                                 "end": 35
                             },
+                            "assignToken": null,
                             "defaultType": null,
                             "flags": 2097152,
                             "start": 28,
@@ -245,8 +247,8 @@ function processArgs<A1: {}, A2: {}>(
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 36,
-                "end": 67
+                "start": 37,
+                "end": 65
             },
             "contents": {
                 "kind": 216,
@@ -281,6 +283,7 @@ function processArgs<A1: {}, A2: {}>(
                                                     "end": 163
                                                 },
                                                 "type": null,
+                                                "assignToken": null,
                                                 "defaultType": null,
                                                 "flags": 2097152,
                                                 "start": 162,
@@ -297,6 +300,7 @@ function processArgs<A1: {}, A2: {}>(
                                                     "end": 166
                                                 },
                                                 "type": null,
+                                                "assignToken": null,
                                                 "defaultType": null,
                                                 "flags": 2097152,
                                                 "start": 164,
@@ -313,6 +317,7 @@ function processArgs<A1: {}, A2: {}>(
                                                     "end": 169
                                                 },
                                                 "type": null,
+                                                "assignToken": null,
                                                 "defaultType": null,
                                                 "flags": 2097152,
                                                 "start": 167,
@@ -329,6 +334,7 @@ function processArgs<A1: {}, A2: {}>(
                                                     "end": 172
                                                 },
                                                 "type": null,
+                                                "assignToken": null,
                                                 "defaultType": null,
                                                 "flags": 2097152,
                                                 "start": 170,
@@ -1040,6 +1046,7 @@ function processArgs<A1: {}, A2: {}>(
                                         "end": 71
                                     },
                                     "type": null,
+                                    "assignToken": null,
                                     "defaultType": null,
                                     "flags": 2097152,
                                     "start": 70,
@@ -1056,6 +1063,7 @@ function processArgs<A1: {}, A2: {}>(
                                         "end": 74
                                     },
                                     "type": null,
+                                    "assignToken": null,
                                     "defaultType": null,
                                     "flags": 2097152,
                                     "start": 72,
@@ -1072,6 +1080,7 @@ function processArgs<A1: {}, A2: {}>(
                                         "end": 77
                                     },
                                     "type": null,
+                                    "assignToken": null,
                                     "defaultType": null,
                                     "flags": 2097152,
                                     "start": 75,
@@ -1088,6 +1097,7 @@ function processArgs<A1: {}, A2: {}>(
                                         "end": 80
                                     },
                                     "type": null,
+                                    "assignToken": null,
                                     "defaultType": null,
                                     "flags": 2097152,
                                     "start": 78,
@@ -1464,9 +1474,10 @@ function processArgs<A1: {}, A2: {}>(
 
 ```javascript
 
-function  <A1: , A2:  >processArgs():  {
-  return  () =>  () =>  resolver(src, process(args), appContext, info);
+function processArgs<A1: {}, A2: {}> (process: (args: A1) => A2): <S, C, I, R>(resolver: Resolver<S, A2, C, I, R>) => Resolver<S, A1, C, I, R> {
+  return <S, C, I, R>(resolver: Resolver<S, A2, C, I, R>) => (src: S, args: A1, appContext: C, info: I) => resolver(src, process(args), appContext, info);
 }
+
 ```
 
 ### Diagnostics

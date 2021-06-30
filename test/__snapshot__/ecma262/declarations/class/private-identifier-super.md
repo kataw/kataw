@@ -64,7 +64,7 @@ class Foo extends Bar { #foo; foo() { super.#foo } }
                             "kind": 280,
                             "decorators": null,
                             "declaredToken": null,
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "asyncKeyword": null,
                             "key": {
                                 "kind": 134299649,
@@ -82,8 +82,8 @@ class Foo extends Bar { #foo; foo() { super.#foo } }
                             "end": 28
                         },
                         {
-                            "kind": 317,
-                            "flags": 96,
+                            "kind": 1108353041,
+                            "flags": 64,
                             "start": 28,
                             "end": 29
                         },
@@ -127,13 +127,7 @@ class Foo extends Bar { #foo; foo() { super.#foo } }
                                                 "expression": {
                                                     "kind": 129,
                                                     "member": {
-                                                        "kind": 225,
-                                                        "superKeyword": {
-                                                            "kind": 4259935,
-                                                            "flags": 96,
-                                                            "start": 37,
-                                                            "end": 43
-                                                        },
+                                                        "kind": 4259935,
                                                         "flags": 96,
                                                         "start": 37,
                                                         "end": 43
@@ -146,7 +140,7 @@ class Foo extends Bar { #foo; foo() { super.#foo } }
                                                         "start": 44,
                                                         "end": 48
                                                     },
-                                                    "flags": 536870944,
+                                                    "flags": 96,
                                                     "start": 37,
                                                     "end": 48
                                                 },

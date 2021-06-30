@@ -254,7 +254,7 @@ interface ClassHeritage <: ExpressionNode {
 interface ClassTail <: ExpressionNode {
   kind: NodeKind.ClassTail;
   classHeritage: ExpressionNode | null;
-  body: [ClassElement]
+  body: [ SyntaxToken<TokenSyntaxKind>  | ClassElement ]
 }
 ```
 
@@ -288,17 +288,6 @@ interface FieldDefinition <: ExpressionNode {
  initializer: ExpressionNode | null;
 }
 ```
-
-### SemicolonClassElement
-
-```js
-interface SemicolonClassElement <: ExpressionNode {
-  kind: NodeKind.Semicolon;
-}
-
-```
-This node is part of the `ClassElement` production. See[`14.6 Class Definitions`](https://tc39.es/ecma262/#prod-ClassElement).
-
 
 ### ComputedPropertyName
 
@@ -534,16 +523,6 @@ interface SpreadProperty <: ExpressionNode {
 
 See `12.2.6 Object Initializer`. The `SpreadProperty` AST node is not mentioned in the specs, but has been
 added to represent the `...AssignmentExpression` production.
-
-
-### Super
-
-```js
-interface Super <: ExpressionNode {
-  kind: NodeKind.Super;
-  superKeyword: SyntaxToken<TokenSyntaxKind>;
-}
-```
 
 ### TaggedTemplate
 

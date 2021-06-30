@@ -48,8 +48,8 @@ function foo() {function* a(b,c,d,) {}}
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 12,
-                "end": 14
+                "start": 13,
+                "end": 13
             },
             "contents": {
                 "kind": 216,
@@ -112,8 +112,8 @@ function foo() {function* a(b,c,d,) {}}
                                 ],
                                 "trailingComma": true,
                                 "flags": 32,
-                                "start": 27,
-                                "end": 35
+                                "start": 28,
+                                "end": 34
                             },
                             "contents": {
                                 "kind": 216,
@@ -162,9 +162,8 @@ function foo() {function* a(b,c,d,) {}}
 
 ```javascript
 
-function foo() {
-  function * a() {}
-}
+function foo() { function* a(b, c, d,) { } }
+
 ```
 
 ### Diagnostics

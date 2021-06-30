@@ -65,8 +65,8 @@ function log(n, op, val,) { }
                 ],
                 "trailingComma": true,
                 "flags": 32,
-                "start": 12,
-                "end": 25
+                "start": 13,
+                "end": 24
             },
             "contents": {
                 "kind": 216,
@@ -101,7 +101,8 @@ function log(n, op, val,) { }
 
 ```javascript
 
-function log() {}
+function log(n, op, val,) { }
+
 ```
 
 ### Diagnostics

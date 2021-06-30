@@ -241,17 +241,16 @@ class C {
 ```javascript
 
 class C {
-  /**
+   /**
    * Getter.
    */
-  get bar() {
-    return  1;
-  }
-  /**
+  get bar(): number { return 1; }
+   /**
    * Setter.
    */
-  set bar() {}
+  set bar(v) { }
 }
+
 ```
 
 ### Diagnostics

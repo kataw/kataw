@@ -132,8 +132,9 @@ class x {static break(){}}
 ```javascript
 
 class x {
-  static static break() {}
+  static break() { }
 }
+
 ```
 
 ### Diagnostics

@@ -124,7 +124,7 @@ new C;
                                                             "start": 33,
                                                             "end": 35
                                                         },
-                                                        "flags": 536870944,
+                                                        "flags": 96,
                                                         "start": 30,
                                                         "end": 35
                                                     },
@@ -171,7 +171,7 @@ new C;
                             "kind": 280,
                             "decorators": null,
                             "declaredToken": null,
-                            "staticToken": {
+                            "staticKeyword": {
                                 "kind": 8388716,
                                 "flags": 64,
                                 "start": 41,
@@ -194,8 +194,8 @@ new C;
                             "end": 53
                         },
                         {
-                            "kind": 317,
-                            "flags": 96,
+                            "kind": 1108353041,
+                            "flags": 64,
                             "start": 53,
                             "end": 54
                         },
@@ -263,7 +263,7 @@ new C;
                                                                             "start": 81,
                                                                             "end": 83
                                                                         },
-                                                                        "flags": 536870944,
+                                                                        "flags": 96,
                                                                         "start": 79,
                                                                         "end": 83
                                                                     }
@@ -390,16 +390,15 @@ new C;
 ```javascript
 
 class C {
-  static set static #p() {
-    C.#q = v;
-  }
-  static #q;
-
+  static set #p(v) { C.#q = v; }
+  static #q
+  ;
   constructor() {
-    ([C.#p] = [0]);
+    ([C.#p,] = [0,]);
   }
 }
-new  C();
+new C;
+
 ```
 
 ### Diagnostics

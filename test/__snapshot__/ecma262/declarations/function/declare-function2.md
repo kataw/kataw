@@ -68,6 +68,7 @@ declare function foo(): void
                                 "end": 22
                             },
                             "type": null,
+                            "assignToken": null,
                             "defaultType": null,
                             "flags": 2097152,
                             "start": 21,
@@ -88,8 +89,8 @@ declare function foo(): void
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 23,
-                "end": 25
+                "start": 24,
+                "end": 24
             },
             "contents": null,
             "returnType": {
@@ -209,8 +210,8 @@ declare function foo(): void
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 54,
-                "end": 76
+                "start": 55,
+                "end": 75
             },
             "contents": null,
             "returnType": {
@@ -267,8 +268,8 @@ declare function foo(): void
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 105,
-                "end": 107
+                "start": 106,
+                "end": 106
             },
             "contents": null,
             "returnType": {
@@ -303,9 +304,12 @@ declare function foo(): void
 
 ```javascript
 
-function  <T >foo(): void;
-function foo(): void;
-function foo(): void;
+declare function foo<T> (): void
+;
+declare function foo(x: number, y: string): void
+;
+declare function foo(): void
+
 ```
 
 ### Diagnostics

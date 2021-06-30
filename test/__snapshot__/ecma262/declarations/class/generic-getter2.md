@@ -63,6 +63,7 @@ class C<T> {
                                 "end": 9
                             },
                             "type": null,
+                            "assignToken": null,
                             "defaultType": null,
                             "flags": 2097152,
                             "start": 8,
@@ -130,6 +131,7 @@ class C<T> {
                                 "end": 25
                             },
                             "type": null,
+                            "assignToken": null,
                             "defaultType": null,
                             "flags": 2097152,
                             "start": 24,
@@ -155,7 +157,7 @@ class C<T> {
                             "kind": 280,
                             "decorators": null,
                             "declaredToken": null,
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "asyncKeyword": null,
                             "key": {
                                 "kind": 134299649,
@@ -232,8 +234,8 @@ class C<T> {
                             "end": 43
                         },
                         {
-                            "kind": 317,
-                            "flags": 96,
+                            "kind": 1108353041,
+                            "flags": 64,
                             "start": 43,
                             "end": 44
                         },
@@ -360,7 +362,7 @@ class C<T> {
                                                         "start": 85,
                                                         "end": 89
                                                     },
-                                                    "flags": 536870944,
+                                                    "flags": 96,
                                                     "start": 79,
                                                     "end": 89
                                                 },
@@ -412,14 +414,16 @@ class C<T> {
 
 ```javascript
 
-class A {}
-class C {
-  data;
-
-  get x() {
-    return  this.data;
+class A<T> {
+}
+class C<T> {
+  data: A<T>
+  ;
+  get x(): A<T> {
+    return this.data;
   }
 }
+
 ```
 
 ### Diagnostics

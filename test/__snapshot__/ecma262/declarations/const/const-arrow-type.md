@@ -201,7 +201,8 @@ const fn = async (a?: any): Promise<void> => {};
 
 ```javascript
 
-const fn = async  =>  {};
+const fn = async (a?: any) =>  { };
+
 ```
 
 ### Diagnostics

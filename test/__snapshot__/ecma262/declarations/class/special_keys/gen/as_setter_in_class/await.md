@@ -141,8 +141,9 @@ class x {set await(x){}}
 ```javascript
 
 class x {
-  set await() {}
+  set await(x) { }
 }
+
 ```
 
 ### Diagnostics

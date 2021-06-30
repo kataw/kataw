@@ -61,6 +61,7 @@ class C<T> {
                                 "end": 9
                             },
                             "type": null,
+                            "assignToken": null,
                             "defaultType": null,
                             "flags": 2097152,
                             "start": 8,
@@ -414,13 +415,14 @@ class C<T> {
 
 ```javascript
 
-class C {
+class C<T> {
   foo() {
     TypeAssertIs  < T > (9);
     TypeAssertIs  < T | number > (9);
-    TypeAssertIs  < { A: number, B: T } > (9);
+    TypeAssertIs  < { A : number, B : T } > (9);
   }
 }
+
 ```
 
 ### Diagnostics

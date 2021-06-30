@@ -86,7 +86,8 @@ const array = [/* comment */];
 
 ```javascript
 
-const array = [];
+const array = [/* comment */];
+
 ```
 
 ### Diagnostics

@@ -88,8 +88,8 @@ declare function four<T>(this: T): void;
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 20,
-                "end": 34
+                "start": 21,
+                "end": 33
             },
             "contents": null,
             "returnType": {
@@ -209,8 +209,8 @@ declare function four<T>(this: T): void;
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 62,
-                "end": 87
+                "start": 63,
+                "end": 86
             },
             "contents": null,
             "returnType": {
@@ -335,8 +335,8 @@ declare function four<T>(this: T): void;
                 ],
                 "trailingComma": false,
                 "flags": 34,
-                "start": 117,
-                "end": 142
+                "start": 118,
+                "end": 141
             },
             "contents": null,
             "returnType": {
@@ -403,6 +403,7 @@ declare function four<T>(this: T): void;
                                 "end": 173
                             },
                             "type": null,
+                            "assignToken": null,
                             "defaultType": null,
                             "flags": 2097152,
                             "start": 172,
@@ -464,8 +465,8 @@ declare function four<T>(this: T): void;
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 174,
-                "end": 183
+                "start": 175,
+                "end": 182
             },
             "contents": null,
             "returnType": {
@@ -506,10 +507,14 @@ declare function four<T>(this: T): void;
 
 ```javascript
 
-function one(): void;
-function two(): void;
-function three(): void;
-function  <T >four(): void;
+declare function one(this: number): void
+;
+declare function two(this: string, a: number): void
+;
+declare function three(this: string, ...a: any): void
+;
+declare function four<T> (this: T): void
+;
 
 ```
 

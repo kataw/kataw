@@ -52,7 +52,7 @@ const someObj: { id: number } = {};
                                     {
                                         "kind": 193,
                                         "protoKeyword": null,
-                                        "staticToken": null,
+                                        "staticKeyword": null,
                                         "getKeyword": null,
                                         "setKeyword": null,
                                         "key": {
@@ -133,7 +133,8 @@ const someObj: { id: number } = {};
 
 ```javascript
 
-const someObj:  = {};
+const someObj: { id: number } = {};
+
 ```
 
 ### Diagnostics

@@ -57,8 +57,8 @@ function f(a, a) { 'use strict' }
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 10,
-                "end": 16
+                "start": 11,
+                "end": 15
             },
             "contents": {
                 "kind": 216,

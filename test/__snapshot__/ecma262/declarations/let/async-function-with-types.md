@@ -73,6 +73,7 @@ const f = async <T, R, S>(
                                                 "end": 18
                                             },
                                             "type": null,
+                                            "assignToken": null,
                                             "defaultType": null,
                                             "flags": 2097152,
                                             "start": 9,
@@ -89,6 +90,7 @@ const f = async <T, R, S>(
                                                 "end": 21
                                             },
                                             "type": null,
+                                            "assignToken": null,
                                             "defaultType": null,
                                             "flags": 2097152,
                                             "start": 19,
@@ -105,6 +107,7 @@ const f = async <T, R, S>(
                                                 "end": 24
                                             },
                                             "type": null,
+                                            "assignToken": null,
                                             "defaultType": null,
                                             "flags": 2097152,
                                             "start": 22,
@@ -320,9 +323,10 @@ const f = async <T, R, S>(
 
 ```javascript
 
-const f = async  =>  {
-  return  null;
+const f = async <T, R, S>(x: T, y: R, z: S) =>  {
+  return null;
 };
+
 ```
 
 ### Diagnostics

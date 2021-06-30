@@ -44,7 +44,7 @@ class Foo { #foo; foo() { delete this?.#foo } }
                             "kind": 280,
                             "decorators": null,
                             "declaredToken": null,
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "asyncKeyword": null,
                             "key": {
                                 "kind": 134299649,
@@ -62,8 +62,8 @@ class Foo { #foo; foo() { delete this?.#foo } }
                             "end": 16
                         },
                         {
-                            "kind": 317,
-                            "flags": 96,
+                            "kind": 1108353041,
+                            "flags": 64,
                             "start": 16,
                             "end": 17
                         },
@@ -129,7 +129,7 @@ class Foo { #foo; foo() { delete this?.#foo } }
                                                         "chain": {
                                                             "kind": 302,
                                                             "chain": {
-                                                                "kind": 536871114,
+                                                                "kind": 202,
                                                                 "chain": null,
                                                                 "expression": {
                                                                     "kind": 67191035,
@@ -139,7 +139,7 @@ class Foo { #foo; foo() { delete this?.#foo } }
                                                                     "start": 39,
                                                                     "end": 43
                                                                 },
-                                                                "flags": 32,
+                                                                "flags": 536870944,
                                                                 "start": 39,
                                                                 "end": 43
                                                             },
@@ -204,12 +204,11 @@ class Foo { #foo; foo() { delete this?.#foo } }
 ```javascript
 
 class Foo {
-  #foo;
-
-  foo() {
-    delete ;
-  }
+  #foo
+  ;
+  foo() { delete  this?.#foo; }
 }
+
 ```
 
 ### Diagnostics

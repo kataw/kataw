@@ -59,8 +59,8 @@ async function * gen() {yield, yield}
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 20,
-                "end": 22
+                "start": 21,
+                "end": 21
             },
             "contents": {
                 "kind": 216,
@@ -140,9 +140,8 @@ async function * gen() {yield, yield}
 
 ```javascript
 
-async function * gen() {
-   yield,  yield;
-}
+async function* gen() { yield, yield; }
+
 ```
 
 ### Diagnostics

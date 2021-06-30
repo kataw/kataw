@@ -40,8 +40,8 @@ function f(){ let f }
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 10,
-                "end": 12
+                "start": 11,
+                "end": 11
             },
             "contents": {
                 "kind": 216,
@@ -113,9 +113,8 @@ function f(){ let f }
 
 ```javascript
 
-function f() {
-  let f;
-}
+function f() { let f; }
+
 ```
 
 ### Diagnostics

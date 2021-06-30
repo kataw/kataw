@@ -132,8 +132,9 @@ class x {get finally(){}}
 ```javascript
 
 class x {
-  get finally() {}
+  get finally() { }
 }
+
 ```
 
 ### Diagnostics

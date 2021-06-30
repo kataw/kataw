@@ -146,8 +146,9 @@ class x {static set eval(x){}}
 ```javascript
 
 class x {
-  static set static eval() {}
+  static set eval(x) { }
 }
+
 ```
 
 ### Diagnostics

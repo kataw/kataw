@@ -54,8 +54,8 @@ async function foo(await) { };
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 18,
-                "end": 25
+                "start": 19,
+                "end": 24
             },
             "contents": {
                 "kind": 216,

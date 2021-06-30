@@ -52,7 +52,7 @@ class C { 1e2 }
                             "kind": 280,
                             "decorators": null,
                             "declaredToken": null,
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "asyncKeyword": null,
                             "key": {
                                 "kind": 201392130,
@@ -97,8 +97,9 @@ class C { 1e2 }
 ```javascript
 
 class C {
-  1e2;
+  1e2
 }
+
 ```
 
 ### Diagnostics

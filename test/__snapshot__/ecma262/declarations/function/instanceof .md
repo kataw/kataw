@@ -91,8 +91,8 @@ function foo(value: AOrString) {
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 12,
-                "end": 30
+                "start": 13,
+                "end": 29
             },
             "contents": {
                 "kind": 216,
@@ -185,9 +185,10 @@ function foo(value: AOrString) {
 
 ```javascript
 
-function foo() {
-  invariant(value inctanceof B);
+function foo(value: AOrString) {
+  invariant(value instanceof B);
 }
+
 ```
 
 ### Diagnostics

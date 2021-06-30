@@ -355,7 +355,7 @@ let nx: mixed;
                             "bitwiseOrToken": null,
                             "bitwiseAndToken": null,
                             "type": {
-                                "kind": 134234346,
+                                "kind": 134234474,
                                 "flags": 2097216,
                                 "start": 98,
                                 "end": 105
@@ -710,13 +710,14 @@ let b: boolean;
 let ne: never;
 let nul: null;
 let num: number;
-let o: ;
+let o: object;
 let st: string;
 let sy: symbol;
 let u: undefined;
 let v: void;
-let n: ;
-let nx: ;
+let n: bigint;
+let nx: mixed;
+
 ```
 
 ### Diagnostics

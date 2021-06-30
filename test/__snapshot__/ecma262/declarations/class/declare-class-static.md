@@ -56,7 +56,7 @@ declare class C { static [[foo]]: T }
                         {
                             "kind": 248,
                             "protoKeyword": null,
-                            "staticToken": {
+                            "staticKeyword": {
                                 "kind": 8388716,
                                 "flags": 32,
                                 "start": 17,
@@ -126,7 +126,8 @@ declare class C { static [[foo]]: T }
 
 ```javascript
 
-declare class C TODO!
+declare class C { static [[foo]]T }
+
 ```
 
 ### Diagnostics

@@ -101,6 +101,7 @@ const functionReturningIdentityAsAField = () => ({ id: <T>(value: T): T => value
                                                                         "end": 57
                                                                     },
                                                                     "type": null,
+                                                                    "assignToken": null,
                                                                     "defaultType": null,
                                                                     "flags": 2097152,
                                                                     "start": 56,
@@ -255,7 +256,8 @@ const functionReturningIdentityAsAField = () => ({ id: <T>(value: T): T => value
 
 ```javascript
 
-const functionReturningIdentityAsAField = () =>  ({ id: () =>  value });
+const functionReturningIdentityAsAField = () => ({ id : <T>(value: T) => value });
+
 ```
 
 ### Diagnostics

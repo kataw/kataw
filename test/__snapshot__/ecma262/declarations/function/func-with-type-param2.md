@@ -68,6 +68,7 @@ a=function<T,S>() {}
                                         "end": 12
                                     },
                                     "type": null,
+                                    "assignToken": null,
                                     "defaultType": null,
                                     "flags": 2097152,
                                     "start": 11,
@@ -84,6 +85,7 @@ a=function<T,S>() {}
                                         "end": 14
                                     },
                                     "type": null,
+                                    "assignToken": null,
                                     "defaultType": null,
                                     "flags": 2097152,
                                     "start": 13,
@@ -104,8 +106,8 @@ a=function<T,S>() {}
                         "formalParameters": [],
                         "trailingComma": false,
                         "flags": 32,
-                        "start": 15,
-                        "end": 17
+                        "start": 16,
+                        "end": 16
                     },
                     "contents": {
                         "kind": 216,
@@ -148,7 +150,8 @@ a=function<T,S>() {}
 
 ```javascript
 
-a = function  <T, S >() {};
+a = function <T, S> () { };
+
 ```
 
 ### Diagnostics

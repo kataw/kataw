@@ -54,7 +54,7 @@ class Foo {
                             "kind": 280,
                             "decorators": null,
                             "declaredToken": null,
-                            "staticToken": {
+                            "staticKeyword": {
                                 "kind": 8388716,
                                 "flags": 64,
                                 "start": 11,
@@ -320,7 +320,7 @@ class Foo {
                                                             "start": 97,
                                                             "end": 99
                                                         },
-                                                        "flags": 536870944,
+                                                        "flags": 96,
                                                         "start": 88,
                                                         "end": 99
                                                     },
@@ -368,7 +368,7 @@ class Foo {
                                                             "start": 112,
                                                             "end": 114
                                                         },
-                                                        "flags": 536870944,
+                                                        "flags": 96,
                                                         "start": 104,
                                                         "end": 114
                                                     },
@@ -416,7 +416,7 @@ class Foo {
                                                             "start": 127,
                                                             "end": 129
                                                         },
-                                                        "flags": 536870944,
+                                                        "flags": 96,
                                                         "start": 119,
                                                         "end": 129
                                                     },
@@ -481,16 +481,17 @@ class Foo {
 ```javascript
 
 class Foo {
-  static #x;
-  static get static #y() {}
-  static set static #y() {}
-  static static #z() {}
+  static #x
+  static get #y() { }
+  static set #y(x) { }
+  static #z() { }
   foo() {
     Foo.#x += 1;
     Foo.#y += 1;
     Foo.#z();
   }
 }
+
 ```
 
 ### Diagnostics

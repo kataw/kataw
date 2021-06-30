@@ -127,8 +127,9 @@ class x {yield(){}}
 ```javascript
 
 class x {
-  yield() {}
+  yield() { }
 }
+
 ```
 
 ### Diagnostics

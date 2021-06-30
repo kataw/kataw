@@ -101,8 +101,8 @@ function foo28(numVal?: number = 2) {}
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 13,
-                "end": 26
+                "start": 14,
+                "end": 25
             },
             "contents": {
                 "kind": 216,
@@ -180,8 +180,8 @@ function foo28(numVal?: number = 2) {}
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 43,
-                "end": 59
+                "start": 44,
+                "end": 58
             },
             "contents": {
                 "kind": 216,
@@ -290,8 +290,8 @@ function foo28(numVal?: number = 2) {}
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 76,
-                "end": 108
+                "start": 77,
+                "end": 107
             },
             "contents": {
                 "kind": 216,
@@ -377,8 +377,8 @@ function foo28(numVal?: number = 2) {}
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 125,
-                "end": 153
+                "start": 126,
+                "end": 152
             },
             "contents": {
                 "kind": 216,
@@ -464,8 +464,8 @@ function foo28(numVal?: number = 2) {}
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 170,
-                "end": 198
+                "start": 171,
+                "end": 197
             },
             "contents": {
                 "kind": 216,
@@ -555,8 +555,8 @@ function foo28(numVal?: number = 2) {}
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 215,
-                "end": 237
+                "start": 216,
+                "end": 236
             },
             "contents": {
                 "kind": 216,
@@ -663,8 +663,8 @@ function foo28(numVal?: number = 2) {}
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 254,
-                "end": 276
+                "start": 255,
+                "end": 275
             },
             "contents": {
                 "kind": 216,
@@ -771,8 +771,8 @@ function foo28(numVal?: number = 2) {}
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 293,
-                "end": 317
+                "start": 294,
+                "end": 316
             },
             "contents": {
                 "kind": 216,
@@ -919,8 +919,8 @@ function foo28(numVal?: number = 2) {}
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 334,
-                "end": 365
+                "start": 335,
+                "end": 364
             },
             "contents": {
                 "kind": 216,
@@ -1097,8 +1097,8 @@ function foo28(numVal?: number = 2) {}
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 383,
-                "end": 427
+                "start": 384,
+                "end": 426
             },
             "contents": {
                 "kind": 216,
@@ -1317,8 +1317,8 @@ function foo28(numVal?: number = 2) {}
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 445,
-                "end": 500
+                "start": 446,
+                "end": 499
             },
             "contents": {
                 "kind": 216,
@@ -1364,8 +1364,8 @@ function foo28(numVal?: number = 2) {}
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 518,
-                "end": 520
+                "start": 519,
+                "end": 519
             },
             "contents": {
                 "kind": 216,
@@ -1424,8 +1424,8 @@ function foo28(numVal?: number = 2) {}
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 545,
-                "end": 547
+                "start": 546,
+                "end": 546
             },
             "contents": {
                 "kind": 216,
@@ -1513,8 +1513,8 @@ function foo28(numVal?: number = 2) {}
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 576,
-                "end": 578
+                "start": 577,
+                "end": 577
             },
             "contents": {
                 "kind": 216,
@@ -1642,8 +1642,8 @@ function foo28(numVal?: number = 2) {}
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 614,
-                "end": 616
+                "start": 615,
+                "end": 615
             },
             "contents": {
                 "kind": 216,
@@ -1776,8 +1776,8 @@ function foo28(numVal?: number = 2) {}
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 653,
-                "end": 655
+                "start": 654,
+                "end": 654
             },
             "contents": {
                 "kind": 216,
@@ -1848,6 +1848,7 @@ function foo28(numVal?: number = 2) {}
                                 "end": 679
                             },
                             "type": null,
+                            "assignToken": null,
                             "defaultType": null,
                             "flags": 2097152,
                             "start": 678,
@@ -1868,8 +1869,8 @@ function foo28(numVal?: number = 2) {}
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 680,
-                "end": 682
+                "start": 681,
+                "end": 681
             },
             "contents": {
                 "kind": 216,
@@ -1950,7 +1951,7 @@ function foo28(numVal?: number = 2) {}
                                     {
                                         "kind": 193,
                                         "protoKeyword": null,
-                                        "staticToken": null,
+                                        "staticKeyword": null,
                                         "getKeyword": null,
                                         "setKeyword": null,
                                         "key": {
@@ -1998,8 +1999,8 @@ function foo28(numVal?: number = 2) {}
                 ],
                 "trailingComma": false,
                 "flags": 34,
-                "start": 700,
-                "end": 721
+                "start": 701,
+                "end": 720
             },
             "contents": {
                 "kind": 216,
@@ -2129,8 +2130,8 @@ function foo28(numVal?: number = 2) {}
                 ],
                 "trailingComma": false,
                 "flags": 34,
-                "start": 739,
-                "end": 759
+                "start": 740,
+                "end": 758
             },
             "contents": {
                 "kind": 216,
@@ -2250,8 +2251,8 @@ function foo28(numVal?: number = 2) {}
                 ],
                 "trailingComma": false,
                 "flags": 34,
-                "start": 777,
-                "end": 801
+                "start": 778,
+                "end": 800
             },
             "contents": {
                 "kind": 216,
@@ -2336,8 +2337,8 @@ function foo28(numVal?: number = 2) {}
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 819,
-                "end": 839
+                "start": 820,
+                "end": 838
             },
             "contents": {
                 "kind": 216,
@@ -2427,8 +2428,8 @@ function foo28(numVal?: number = 2) {}
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 857,
-                "end": 878
+                "start": 858,
+                "end": 877
             },
             "contents": {
                 "kind": 216,
@@ -2463,28 +2464,31 @@ function foo28(numVal?: number = 2) {}
 
 ```javascript
 
-function foo1() {}
-function foo2() {}
-function foo3() {}
-function foo4() {}
-function foo5() {}
-function foo6() {}
-function foo7() {}
-function foo8() {}
-function foo9() {}
-function foo10() {}
-function foo11() {}
-function foo12(): number {}
-function foo13():  {}
-function foo14():  {}
-function foo15():  {}
-function foo16():  {}
-function  <T >foo17() {}
-function foo21() {}
-function foo22() {}
-function foo23() {}
-function foo27() {}
-function foo28() {}
+function foo1(numVal: any) { }
+function foo2(numVal: number) { }
+function foo3(numVal: number, strVal: string) { }
+function foo4(numVal: number, untypedVal) { }
+function foo5(untypedVal, numVal: number) { }
+function foo6(nullableNum: ?number) { }
+function foo7(callback: () => void) { }
+function foo8(callback: () => number) { }
+function foo9(callback: (_: bool) => number) { }
+function foo10(callback: (_1: bool, _2: string) => number) { }
+function foo11(callback: (_1: bool, ...foo: Array<number>) => number) { }
+function foo12(): number { }
+function foo13(): () => void { }
+function foo14(): (_: bool) => number { }
+function foo15(): (_?: bool) => number { }
+function foo16(): {} { }
+function foo17<T> () { }
+function foo21({
+    x
+  }: { x: string }) { }
+function foo22([x]: Array<string>) { }
+function foo23(...rest: Array<number>) { }
+function foo27(numVal: number = 2) { }
+function foo28(numVal?: number = 2) { }
+
 ```
 
 ### Diagnostics

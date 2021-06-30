@@ -166,8 +166,8 @@ async function foo(a = {async bar() { await b }}) {};
                 ],
                 "trailingComma": false,
                 "flags": 34,
-                "start": 18,
-                "end": 49
+                "start": 19,
+                "end": 48
             },
             "contents": {
                 "kind": 216,
@@ -208,7 +208,8 @@ async function foo(a = {async bar() { await b }}) {};
 
 ```javascript
 
-async function foo() {}
+async function foo(a = { async bar() { await b; } }) { }
+;
 
 ```
 

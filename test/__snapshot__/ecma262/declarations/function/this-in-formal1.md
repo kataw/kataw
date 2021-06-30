@@ -80,8 +80,8 @@ function one(this: number) {}
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 12,
-                "end": 26
+                "start": 13,
+                "end": 25
             },
             "contents": {
                 "kind": 216,
@@ -116,7 +116,8 @@ function one(this: number) {}
 
 ```javascript
 
-function one() {}
+function one(this: number) { }
+
 ```
 
 ### Diagnostics

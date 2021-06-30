@@ -85,8 +85,8 @@ function e(x: {}): () => string {
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 10,
-                "end": 17
+                "start": 11,
+                "end": 16
             },
             "contents": {
                 "kind": 216,
@@ -184,9 +184,10 @@ function e(x: {}): () => string {
 
 ```javascript
 
-function e():  {
-  return  x;
+function e(x: {}): () => string {
+  return x;
 }
+
 ```
 
 ### Diagnostics

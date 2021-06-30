@@ -137,8 +137,9 @@ class x {static async private(){}}
 ```javascript
 
 class x {
-  async static static private() {}
+  static async private() { }
 }
+
 ```
 
 ### Diagnostics

@@ -51,8 +51,8 @@ function f(){
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 10,
-                "end": 12
+                "start": 11,
+                "end": 11
             },
             "contents": {
                 "kind": 216,
@@ -109,7 +109,7 @@ function f(){
                                         "end": 41
                                     },
                                     "right": {
-                                        "kind": 221,
+                                        "kind": 371,
                                         "text": "/ VALUE;",
                                         "flags": 96,
                                         "start": 41,

@@ -67,6 +67,7 @@ function from<T>(arg: any): Query<T> {
                                 "end": 23
                             },
                             "type": null,
+                            "assignToken": null,
                             "defaultType": null,
                             "flags": 2097152,
                             "start": 22,
@@ -119,8 +120,8 @@ function from<T>(arg: any): Query<T> {
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 24,
-                "end": 38
+                "start": 25,
+                "end": 37
             },
             "contents": null,
             "returnType": {
@@ -228,6 +229,7 @@ function from<T>(arg: any): Query<T> {
                                 "end": 65
                             },
                             "type": null,
+                            "assignToken": null,
                             "defaultType": null,
                             "flags": 2097152,
                             "start": 64,
@@ -280,8 +282,8 @@ function from<T>(arg: any): Query<T> {
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 66,
-                "end": 76
+                "start": 67,
+                "end": 75
             },
             "contents": {
                 "kind": 216,
@@ -396,10 +398,12 @@ function from<T>(arg: any): Query<T> {
 
 ```javascript
 
-function  <T >from(): ;
-function  <T >from():  {
-  return  undefined;
+declare function from<T> (arg: boolean): Query<T>
+;
+function from<T> (arg: any): Query<T> {
+  return undefined;
 }
+
 ```
 
 ### Diagnostics

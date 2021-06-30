@@ -75,7 +75,7 @@ class x{}
         {
             "kind": 120,
             "expression": {
-                "kind": 221,
+                "kind": 371,
                 "text": "/foo/g",
                 "flags": 96,
                 "start": 9,
@@ -99,8 +99,10 @@ class x{}
 
 ```javascript
 
-class x {}
+class x {
+}
 /foo/g;
+
 ```
 
 ### Diagnostics

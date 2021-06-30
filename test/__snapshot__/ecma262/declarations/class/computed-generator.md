@@ -79,7 +79,7 @@ class Foo {
                                             "start": 22,
                                             "end": 30
                                         },
-                                        "flags": 536870944,
+                                        "flags": 96,
                                         "start": 15,
                                         "end": 30
                                     },
@@ -147,8 +147,10 @@ class Foo {
 ```javascript
 
 class Foo {
-  [Symbol.iterator]() {}
+  *[Symbol.iterator]() {
+  }
 }
+
 ```
 
 ### Diagnostics

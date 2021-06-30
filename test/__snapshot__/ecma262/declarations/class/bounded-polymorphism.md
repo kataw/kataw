@@ -79,6 +79,7 @@ class A<T: Foo> {}
                                 "start": 10,
                                 "end": 14
                             },
+                            "assignToken": null,
                             "defaultType": null,
                             "flags": 2097152,
                             "start": 8,
@@ -126,7 +127,9 @@ class A<T: Foo> {}
 
 ```javascript
 
-class A {}
+class A<T: Foo> {
+}
+
 ```
 
 ### Diagnostics

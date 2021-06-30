@@ -82,8 +82,8 @@ function g(x: any): string {
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 10,
-                "end": 18
+                "start": 11,
+                "end": 17
             },
             "contents": {
                 "kind": 216,
@@ -172,9 +172,10 @@ function g(x: any): string {
 
 ```javascript
 
-function g(): string {
-  return  x ?? 1;
+function g(x: any): string {
+  return x ?? 1;
 }
+
 ```
 
 ### Diagnostics

@@ -61,7 +61,7 @@ declare class C { proto m(): void }
                                 "start": 17,
                                 "end": 23
                             },
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "getKeyword": null,
                             "setKeyword": null,
                             "key": {
@@ -134,7 +134,8 @@ declare class C { proto m(): void }
 
 ```javascript
 
-declare class C TODO!
+declare class C { m(): void }
+
 ```
 
 ### Diagnostics

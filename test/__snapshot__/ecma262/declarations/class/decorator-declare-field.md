@@ -79,7 +79,7 @@ class x { @declare a }
                                 "end": 18
                             },
                             "declaredToken": null,
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "asyncKeyword": null,
                             "key": {
                                 "kind": 134299649,
@@ -125,8 +125,9 @@ class x { @declare a }
 
 class x {
   @declare
-  a;
+  a
 }
+
 ```
 
 ### Diagnostics

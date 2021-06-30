@@ -1,12 +1,13 @@
 import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
+import { SyntaxToken, TokenSyntaxKind } from '../token';
 import { ClassElement } from '../expressions/class-element';
+import { StaticBlock } from '../expressions/static-block';
 import { FieldDefinition } from './field-definition';
-import { SemicolonClassElement } from './semicolon-class-element';
 import { ClassBody } from './class-body';
 import { ObjectType } from '../types/object-type';
 import { ExpressionNode } from '.';
 
-export type ClassElements = SemicolonClassElement | ClassElement | FieldDefinition;
+export type ClassElements = SyntaxToken<TokenSyntaxKind> | ClassElement | FieldDefinition | StaticBlock;
 
 /**
  * ClassTail

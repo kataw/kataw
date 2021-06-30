@@ -83,6 +83,7 @@ function bar<T: ?number>() {}
                                 "start": 15,
                                 "end": 23
                             },
+                            "assignToken": null,
                             "defaultType": null,
                             "flags": 2097152,
                             "start": 13,
@@ -103,8 +104,8 @@ function bar<T: ?number>() {}
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 24,
-                "end": 26
+                "start": 25,
+                "end": 25
             },
             "contents": {
                 "kind": 216,
@@ -139,7 +140,8 @@ function bar<T: ?number>() {}
 
 ```javascript
 
-function  <T:  >bar() {}
+function bar<T: ?number> () { }
+
 ```
 
 ### Diagnostics

@@ -146,8 +146,9 @@ class x {static set switch(x){}}
 ```javascript
 
 class x {
-  static set static switch() {}
+  static set switch(x) { }
 }
+
 ```
 
 ### Diagnostics

@@ -118,6 +118,7 @@ let {
   x,
   y
 } = obj;
+
 ```
 
 ### Diagnostics

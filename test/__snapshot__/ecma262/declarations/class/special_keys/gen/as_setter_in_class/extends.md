@@ -141,8 +141,9 @@ class x {set extends(x){}}
 ```javascript
 
 class x {
-  set extends() {}
+  set extends(x) { }
 }
+
 ```
 
 ### Diagnostics

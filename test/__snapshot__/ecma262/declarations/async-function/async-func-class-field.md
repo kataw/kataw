@@ -64,8 +64,8 @@ async function f() { class C { aaa = await } }
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 16,
-                "end": 18
+                "start": 17,
+                "end": 17
             },
             "contents": {
                 "kind": 216,
@@ -102,7 +102,7 @@ async function f() { class C { aaa = await } }
                                             "kind": 280,
                                             "decorators": null,
                                             "declaredToken": null,
-                                            "staticToken": null,
+                                            "staticKeyword": null,
                                             "asyncKeyword": null,
                                             "key": {
                                                 "kind": 134299649,

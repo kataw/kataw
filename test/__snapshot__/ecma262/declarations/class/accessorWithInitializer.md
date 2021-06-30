@@ -248,9 +248,10 @@ class C {
 ```javascript
 
 class C {
-  set X() {}
-  static set static X() {}
+  set X(v = 0) { }
+  static set X(v2 = 0) { }
 }
+
 ```
 
 ### Diagnostics

@@ -52,7 +52,7 @@ class Foo { prop1:string; prop2:number; }
                             "kind": 280,
                             "decorators": null,
                             "declaredToken": null,
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "asyncKeyword": null,
                             "key": {
                                 "kind": 134299649,
@@ -83,8 +83,8 @@ class Foo { prop1:string; prop2:number; }
                             "end": 24
                         },
                         {
-                            "kind": 317,
-                            "flags": 96,
+                            "kind": 1108353041,
+                            "flags": 64,
                             "start": 24,
                             "end": 25
                         },
@@ -92,7 +92,7 @@ class Foo { prop1:string; prop2:number; }
                             "kind": 280,
                             "decorators": null,
                             "declaredToken": null,
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "asyncKeyword": null,
                             "key": {
                                 "kind": 134299649,
@@ -123,8 +123,8 @@ class Foo { prop1:string; prop2:number; }
                             "end": 38
                         },
                         {
-                            "kind": 317,
-                            "flags": 96,
+                            "kind": 1108353041,
+                            "flags": 64,
                             "start": 38,
                             "end": 39
                         }
@@ -156,11 +156,12 @@ class Foo { prop1:string; prop2:number; }
 ```javascript
 
 class Foo {
-  prop1;
-
-  prop2;
-
+  prop1: string
+  ;
+  prop2: number
+  ;
 }
+
 ```
 
 ### Diagnostics

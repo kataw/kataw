@@ -63,7 +63,7 @@ declare class C {
                                 "start": 17,
                                 "end": 25
                             },
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "getKeyword": null,
                             "setKeyword": null,
                             "key": {

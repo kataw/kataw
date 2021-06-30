@@ -65,13 +65,7 @@ class super {}
             "expression": {
                 "kind": 129,
                 "member": {
-                    "kind": 225,
-                    "superKeyword": {
-                        "kind": 4259935,
-                        "flags": 96,
-                        "start": 5,
-                        "end": 11
-                    },
+                    "kind": 4259935,
                     "flags": 96,
                     "start": 5,
                     "end": 11
@@ -84,7 +78,7 @@ class super {}
                     "start": 11,
                     "end": 11
                 },
-                "flags": 536870944,
+                "flags": 32,
                 "start": 5,
                 "end": 11
             },

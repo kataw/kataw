@@ -129,7 +129,7 @@ new Foo();
                             "kind": 280,
                             "decorators": null,
                             "declaredToken": null,
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "asyncKeyword": null,
                             "key": {
                                 "kind": 134299649,
@@ -157,7 +157,7 @@ new Foo();
                                     "start": 60,
                                     "end": 64
                                 },
-                                "flags": 536870944,
+                                "flags": 96,
                                 "start": 54,
                                 "end": 64
                             },
@@ -166,8 +166,8 @@ new Foo();
                             "end": 64
                         },
                         {
-                            "kind": 317,
-                            "flags": 96,
+                            "kind": 1108353041,
+                            "flags": 64,
                             "start": 64,
                             "end": 65
                         },
@@ -246,7 +246,7 @@ new Foo();
                                                                         "start": 111,
                                                                         "end": 115
                                                                     },
-                                                                    "flags": 536870944,
+                                                                    "flags": 96,
                                                                     "start": 105,
                                                                     "end": 115
                                                                 },
@@ -297,7 +297,7 @@ new Foo();
                                                             "start": 146,
                                                             "end": 152
                                                         },
-                                                        "flags": 536870944,
+                                                        "flags": 96,
                                                         "start": 133,
                                                         "end": 152
                                                     },
@@ -384,7 +384,7 @@ new Foo();
                                                                         "start": 201,
                                                                         "end": 206
                                                                     },
-                                                                    "flags": 536870944,
+                                                                    "flags": 96,
                                                                     "start": 195,
                                                                     "end": 206
                                                                 },
@@ -435,7 +435,7 @@ new Foo();
                                                             "start": 237,
                                                             "end": 243
                                                         },
-                                                        "flags": 536870944,
+                                                        "flags": 96,
                                                         "start": 224,
                                                         "end": 243
                                                     },
@@ -562,10 +562,10 @@ new Foo();
 
 class Foo {
   #tag() {
-    return  this;
+    return this;
   }
-  #tag2 = this.#tag;
-
+  #tag2 = this.#tag
+  ;
   constructor() {
     const receiver = this.#tag`tagged template`;
     console.assert(receiver === this);
@@ -573,7 +573,8 @@ class Foo {
     console.assert(receiver2 === this);
   }
 }
-new  Foo();
+new Foo();
+
 ```
 
 ### Diagnostics

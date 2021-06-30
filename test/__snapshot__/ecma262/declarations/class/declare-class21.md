@@ -58,7 +58,7 @@ declare class B {
                         {
                             "kind": 193,
                             "protoKeyword": null,
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "getKeyword": null,
                             "setKeyword": {
                                 "kind": 16499,
@@ -163,7 +163,8 @@ declare class B {
 
 ```javascript
 
-declare class B TODO!
+declare class B { "\"string\""(x): {} }
+
 ```
 
 ### Diagnostics

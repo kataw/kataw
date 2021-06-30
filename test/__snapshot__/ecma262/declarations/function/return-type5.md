@@ -95,8 +95,8 @@ function x(y: | /* comment 1 */ z):
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 10,
-                "end": 34
+                "start": 11,
+                "end": 33
             },
             "contents": {
                 "kind": 216,
@@ -178,8 +178,10 @@ function x(y: | /* comment 1 */ z):
 
 ```javascript
 
-function x(): | /* comment 2 */
- {}
+function x(y: |/* comment 1 */ z): | 
+ /* comment 2 */
+() => number { }
+
 ```
 
 ### Diagnostics

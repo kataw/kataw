@@ -56,7 +56,7 @@ declare class IViewFactory { didAnimate(view:Object, prop:string) :void; }
                         {
                             "kind": 193,
                             "protoKeyword": null,
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "getKeyword": null,
                             "setKeyword": null,
                             "key": {
@@ -199,7 +199,8 @@ declare class IViewFactory { didAnimate(view:Object, prop:string) :void; }
 
 ```javascript
 
-declare class IViewFactory TODO!
+declare class IViewFactory { didAnimate(view: Object, prop: string): void }
+
 ```
 
 ### Diagnostics

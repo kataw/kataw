@@ -85,8 +85,8 @@ var x = function({ foo }) {}
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
-                                "start": 16,
-                                "end": 25
+                                "start": 17,
+                                "end": 24
                             },
                             "contents": {
                                 "kind": 216,
@@ -134,7 +134,10 @@ var x = function({ foo }) {}
 
 ```javascript
 
-var x = function () {};
+var x = function ({
+    foo
+  }) { };
+
 ```
 
 ### Diagnostics

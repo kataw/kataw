@@ -137,8 +137,9 @@ class x {static * this(){}}
 ```javascript
 
 class x {
-  static static this() {}
+  static *this() { }
 }
+
 ```
 
 ### Diagnostics

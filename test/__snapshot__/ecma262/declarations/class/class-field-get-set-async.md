@@ -52,7 +52,7 @@ class C { get; set; static; async }
                             "kind": 280,
                             "decorators": null,
                             "declaredToken": null,
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "asyncKeyword": null,
                             "key": {
                                 "kind": 134299649,
@@ -70,8 +70,8 @@ class C { get; set; static; async }
                             "end": 13
                         },
                         {
-                            "kind": 317,
-                            "flags": 96,
+                            "kind": 1108353041,
+                            "flags": 64,
                             "start": 13,
                             "end": 14
                         },
@@ -79,7 +79,7 @@ class C { get; set; static; async }
                             "kind": 280,
                             "decorators": null,
                             "declaredToken": null,
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "asyncKeyword": null,
                             "key": {
                                 "kind": 134299649,
@@ -97,8 +97,8 @@ class C { get; set; static; async }
                             "end": 18
                         },
                         {
-                            "kind": 317,
-                            "flags": 96,
+                            "kind": 1108353041,
+                            "flags": 64,
                             "start": 18,
                             "end": 19
                         },
@@ -106,7 +106,7 @@ class C { get; set; static; async }
                             "kind": 280,
                             "decorators": null,
                             "declaredToken": null,
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "asyncKeyword": null,
                             "key": {
                                 "kind": 134299649,
@@ -124,8 +124,8 @@ class C { get; set; static; async }
                             "end": 26
                         },
                         {
-                            "kind": 317,
-                            "flags": 96,
+                            "kind": 1108353041,
+                            "flags": 64,
                             "start": 26,
                             "end": 27
                         },
@@ -133,7 +133,7 @@ class C { get; set; static; async }
                             "kind": 280,
                             "decorators": null,
                             "declaredToken": null,
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "asyncKeyword": null,
                             "key": {
                                 "kind": 134299649,
@@ -178,14 +178,15 @@ class C { get; set; static; async }
 ```javascript
 
 class C {
-  get;
-
-  set;
-
-  static;
-
-  async;
+  get
+  ;
+  set
+  ;
+  static
+  ;
+  async
 }
+
 ```
 
 ### Diagnostics

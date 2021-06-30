@@ -124,8 +124,9 @@ class C { *#aaa(){} }
 ```javascript
 
 class C {
-  #aaa() {}
+  *#aaa() { }
 }
+
 ```
 
 ### Diagnostics

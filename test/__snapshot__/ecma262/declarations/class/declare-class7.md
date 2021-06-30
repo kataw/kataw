@@ -63,6 +63,7 @@ declare function foo<T>(): void;
                                 "end": 22
                             },
                             "type": null,
+                            "assignToken": null,
                             "defaultType": null,
                             "flags": 2097152,
                             "start": 21,
@@ -83,8 +84,8 @@ declare function foo<T>(): void;
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 23,
-                "end": 25
+                "start": 24,
+                "end": 24
             },
             "contents": null,
             "returnType": {
@@ -125,7 +126,8 @@ declare function foo<T>(): void;
 
 ```javascript
 
-function  <T >foo(): void;
+declare function foo<T> (): void
+;
 
 ```
 

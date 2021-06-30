@@ -97,7 +97,8 @@ let {} = obj;
 
 ```javascript
 
-let {} = obj;
+let { } = obj;
+
 ```
 
 ### Diagnostics

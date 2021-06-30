@@ -141,8 +141,9 @@ class x {set package(x){}}
 ```javascript
 
 class x {
-  set package() {}
+  set package(x) { }
 }
+
 ```
 
 ### Diagnostics

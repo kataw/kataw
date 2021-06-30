@@ -45,8 +45,8 @@ function* bar() { yield /re/ }
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 13,
-                "end": 15
+                "start": 14,
+                "end": 14
             },
             "contents": {
                 "kind": 216,
@@ -67,7 +67,7 @@ function* bar() { yield /re/ }
                                 "delegate": false,
                                 "asteriskToken": null,
                                 "expression": {
-                                    "kind": 221,
+                                    "kind": 371,
                                     "text": "/re/",
                                     "flags": 96,
                                     "start": 23,
@@ -109,9 +109,8 @@ function* bar() { yield /re/ }
 
 ```javascript
 
-function * bar() {
-  yield /re/;
-}
+function* bar() { yield /re/; }
+
 ```
 
 ### Diagnostics

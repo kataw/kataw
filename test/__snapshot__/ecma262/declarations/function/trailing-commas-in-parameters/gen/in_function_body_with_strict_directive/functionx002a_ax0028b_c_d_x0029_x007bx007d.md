@@ -48,8 +48,8 @@ function foo() {'use strict'; function* a(b,c,d,) {} }
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 12,
-                "end": 14
+                "start": 13,
+                "end": 13
             },
             "contents": {
                 "kind": 216,
@@ -121,8 +121,8 @@ function foo() {'use strict'; function* a(b,c,d,) {} }
                                 ],
                                 "trailingComma": true,
                                 "flags": 32,
-                                "start": 41,
-                                "end": 49
+                                "start": 42,
+                                "end": 48
                             },
                             "contents": {
                                 "kind": 216,
@@ -172,8 +172,9 @@ function foo() {'use strict'; function* a(b,c,d,) {} }
 ```javascript
 
 function foo() {
-  function * a() {}
-}
+'\'use strict\'';
+ function* a(b, c, d,) { } }
+
 ```
 
 ### Diagnostics

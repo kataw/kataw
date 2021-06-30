@@ -57,8 +57,8 @@ function func(x,  @foo x) {}
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 13,
-                "end": 19
+                "start": 14,
+                "end": 16
             },
             "contents": {
                 "kind": 216,

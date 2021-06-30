@@ -137,8 +137,9 @@ class x {static get else(){}}
 ```javascript
 
 class x {
-  static get static else() {}
+  static get else() { }
 }
+
 ```
 
 ### Diagnostics

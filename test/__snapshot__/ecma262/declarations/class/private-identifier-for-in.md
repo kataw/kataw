@@ -44,7 +44,7 @@ class Foo { #foo = () => { for (#foo in this) ; } }
                             "kind": 280,
                             "decorators": null,
                             "declaredToken": null,
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "asyncKeyword": null,
                             "key": {
                                 "kind": 134299649,
@@ -164,10 +164,10 @@ class Foo { #foo = () => { for (#foo in this) ; } }
 ```javascript
 
 class Foo {
-  #foo = () =>  {
-      for (#foo in this);
-    };
+  #foo = () =>  { for (#foo in this)
+    ; }
 }
+
 ```
 
 ### Diagnostics

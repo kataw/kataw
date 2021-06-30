@@ -130,7 +130,8 @@ const f = (...x?) => {}
 
 ```javascript
 
-const f = () =>  {};
+const f = (...x?) =>  { };
+
 ```
 
 ### Diagnostics

@@ -70,7 +70,7 @@ function d(x: { (z: number): string }): () => string {
                                     {
                                         "kind": 196,
                                         "protoKeyword": null,
-                                        "staticToken": null,
+                                        "staticKeyword": null,
                                         "typeParameter": null,
                                         "value": {
                                             "kind": 282,
@@ -147,8 +147,8 @@ function d(x: { (z: number): string }): () => string {
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 10,
-                "end": 38
+                "start": 11,
+                "end": 37
             },
             "contents": {
                 "kind": 216,
@@ -246,9 +246,10 @@ function d(x: { (z: number): string }): () => string {
 
 ```javascript
 
-function d():  {
-  return  x;
+function d(x: { (z: number): string }): () => string {
+  return x;
 }
+
 ```
 
 ### Diagnostics

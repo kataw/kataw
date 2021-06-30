@@ -54,8 +54,8 @@ function* f() { class C { aaa = yield } }
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 11,
-                "end": 13
+                "start": 12,
+                "end": 12
             },
             "contents": {
                 "kind": 216,
@@ -92,7 +92,7 @@ function* f() { class C { aaa = yield } }
                                             "kind": 280,
                                             "decorators": null,
                                             "declaredToken": null,
-                                            "staticToken": null,
+                                            "staticKeyword": null,
                                             "asyncKeyword": null,
                                             "key": {
                                                 "kind": 134299649,
@@ -164,11 +164,10 @@ function* f() { class C { aaa = yield } }
 
 ```javascript
 
-function * f() {
-  class C {
-    aaa =  yield;
-  }
-}
+function* f() { class C {
+  aaa = yield
+} }
+
 ```
 
 ### Diagnostics

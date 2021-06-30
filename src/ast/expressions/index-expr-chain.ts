@@ -19,10 +19,10 @@ export function createIndexExpressionChain(
   end: number
 ): IndexExpressionChain {
   return {
-    kind: SyntaxKind.IndexExpressionChain | NodeFlags.IsMemberExpression,
+    kind: SyntaxKind.IndexExpressionChain,
     chain,
     expression,
-    flags: NodeFlags.ExpressionNode,
+    flags: NodeFlags.ExpressionNode | NodeFlags.IsMemberExpression,
     start,
     end
   };

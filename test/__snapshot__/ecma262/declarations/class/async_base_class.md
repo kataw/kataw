@@ -247,8 +247,8 @@ async function foo() {
                                             ],
                                             "trailingComma": false,
                                             "flags": 32,
-                                            "start": 60,
-                                            "end": 78
+                                            "start": 62,
+                                            "end": 77
                                         },
                                         "contents": {
                                             "kind": 216,
@@ -360,8 +360,8 @@ async function foo() {
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 118,
-                "end": 120
+                "start": 119,
+                "end": 119
             },
             "contents": {
                 "kind": 216,
@@ -492,14 +492,18 @@ async function foo() {
 
 ```javascript
 
-class C {}
-var P:  = new  Promise(function () {
+class C {
+}
+;
+var P: Promise<Class<C>> = new Promise(function (resolve, reject) {
   resolve(C);
 });
 async function foo() {
-  class Bar  {}
-  return  Bar;
+  class Bar extends (await P) {
+  }
+  return Bar;
 }
+
 ```
 
 ### Diagnostics

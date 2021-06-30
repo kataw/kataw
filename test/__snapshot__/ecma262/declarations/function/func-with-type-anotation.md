@@ -221,8 +221,8 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 12,
-                "end": 65
+                "start": 13,
+                "end": 64
             },
             "contents": {
                 "kind": 216,
@@ -257,7 +257,8 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
 
 ```javascript
 
-function foo() {}
+function foo(callback: (_1: bool, ...foo: Array<number>) => number) { }
+
 ```
 
 ### Diagnostics

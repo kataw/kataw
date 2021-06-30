@@ -62,6 +62,7 @@ class D extends C<O> {
                                 "end": 10
                             },
                             "type": null,
+                            "assignToken": null,
                             "defaultType": null,
                             "flags": 2097152,
                             "start": 9,
@@ -87,7 +88,7 @@ class D extends C<O> {
                             "kind": 280,
                             "decorators": null,
                             "declaredToken": null,
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "asyncKeyword": null,
                             "key": {
                                 "kind": 134299649,
@@ -127,8 +128,8 @@ class D extends C<O> {
                             "end": 18
                         },
                         {
-                            "kind": 317,
-                            "flags": 96,
+                            "kind": 1108353041,
+                            "flags": 64,
                             "start": 18,
                             "end": 19
                         }
@@ -280,7 +281,7 @@ class D extends C<O> {
                                                         "start": 61,
                                                         "end": 62
                                                     },
-                                                    "flags": 536870944,
+                                                    "flags": 96,
                                                     "start": 55,
                                                     "end": 62
                                                 },
@@ -332,15 +333,14 @@ class D extends C<O> {
 
 ```javascript
 
-class C {
-  x;
+class C<X> {
+  x: X
+  ;
+}
+class D extends C<O> {
+  bar() { this.x; }
+}
 
-}
-class D  {
-  bar() {
-    this.x;
-  }
-}
 ```
 
 ### Diagnostics

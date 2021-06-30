@@ -70,8 +70,8 @@ function x({ foo }) {}
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 10,
-                "end": 19
+                "start": 11,
+                "end": 18
             },
             "contents": {
                 "kind": 216,
@@ -106,7 +106,10 @@ function x({ foo }) {}
 
 ```javascript
 
-function x() {}
+function x({
+    foo
+  }) { }
+
 ```
 
 ### Diagnostics

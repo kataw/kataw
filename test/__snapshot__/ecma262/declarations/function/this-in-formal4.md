@@ -67,8 +67,8 @@ function one(this: number) {}
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 12,
-                "end": 18
+                "start": 13,
+                "end": 17
             },
             "contents": {
                 "kind": 216,

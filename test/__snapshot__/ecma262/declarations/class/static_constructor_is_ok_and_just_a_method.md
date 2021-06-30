@@ -143,8 +143,9 @@ class x { static "constructor"(){} }
 ```javascript
 
 class x {
-  static static "\"constructor\""() {}
+  static "\"constructor\""() { }
 }
+
 ```
 
 ### Diagnostics

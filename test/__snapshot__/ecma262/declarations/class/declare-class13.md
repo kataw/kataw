@@ -56,7 +56,7 @@ declare class A { static () : number }
                         {
                             "kind": 196,
                             "protoKeyword": null,
-                            "staticToken": {
+                            "staticKeyword": {
                                 "kind": 8388716,
                                 "flags": 32,
                                 "start": 17,
@@ -117,7 +117,8 @@ declare class A { static () : number }
 
 ```javascript
 
-declare class A TODO!
+declare class A { static (): number }
+
 ```
 
 ### Diagnostics

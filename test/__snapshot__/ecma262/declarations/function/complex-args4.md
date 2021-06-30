@@ -91,7 +91,7 @@ unction f([b, a], ...b) {}
                                 "start": 21,
                                 "end": 22
                             },
-                            "flags": 32,
+                            "flags": 1073741856,
                             "start": 17,
                             "end": 22
                         }

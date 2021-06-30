@@ -132,8 +132,9 @@ class x {static true(){}}
 ```javascript
 
 class x {
-  static static true() {}
+  static true() { }
 }
+
 ```
 
 ### Diagnostics

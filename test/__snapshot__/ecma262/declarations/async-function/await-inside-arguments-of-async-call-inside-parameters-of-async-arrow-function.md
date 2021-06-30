@@ -55,8 +55,8 @@ async function fn() {
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 17,
-                "end": 19
+                "start": 18,
+                "end": 18
             },
             "contents": {
                 "kind": 216,
@@ -222,9 +222,10 @@ async function fn() {
 ```javascript
 
 async function fn() {
-  async  =>  {}
-
+  async (x = async(y = await 2)) =>  { }
+  ;
 }
+
 ```
 
 ### Diagnostics

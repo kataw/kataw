@@ -97,6 +97,7 @@ var [x] = v
 ```javascript
 
 var [x] = v;
+
 ```
 
 ### Diagnostics

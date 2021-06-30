@@ -132,6 +132,7 @@ let [foo, bar=b] = arr;
 ```javascript
 
 let [foo, bar = b] = arr;
+
 ```
 
 ### Diagnostics

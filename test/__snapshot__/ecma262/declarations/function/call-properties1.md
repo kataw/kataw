@@ -70,7 +70,7 @@ function a(f: { (): string; (x: number): string }): string {
                                     {
                                         "kind": 196,
                                         "protoKeyword": null,
-                                        "staticToken": null,
+                                        "staticKeyword": null,
                                         "typeParameter": null,
                                         "value": {
                                             "kind": 282,
@@ -101,7 +101,7 @@ function a(f: { (): string; (x: number): string }): string {
                                     {
                                         "kind": 196,
                                         "protoKeyword": null,
-                                        "staticToken": null,
+                                        "staticKeyword": null,
                                         "typeParameter": null,
                                         "value": {
                                             "kind": 282,
@@ -178,8 +178,8 @@ function a(f: { (): string; (x: number): string }): string {
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 10,
-                "end": 50
+                "start": 11,
+                "end": 49
             },
             "contents": {
                 "kind": 216,
@@ -305,9 +305,10 @@ function a(f: { (): string; (x: number): string }): string {
 
 ```javascript
 
-function a(): string {
-  return  f() + f(123);
+function a(f: { (): string, (x: number): string }): string {
+  return f() + f(123);
 }
+
 ```
 
 ### Diagnostics

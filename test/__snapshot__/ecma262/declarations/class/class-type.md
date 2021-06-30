@@ -315,8 +315,8 @@ type T = { [string]: Class<null> }
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 63,
-                "end": 76
+                "start": 64,
+                "end": 75
             },
             "contents": {
                 "kind": 216,
@@ -709,7 +709,7 @@ type T = { [string]: Class<null> }
                         {
                             "kind": 195,
                             "protoKeyword": null,
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "name": null,
                             "key": {
                                 "kind": 134234347,

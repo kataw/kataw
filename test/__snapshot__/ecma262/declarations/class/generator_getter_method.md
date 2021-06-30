@@ -52,7 +52,7 @@ class A {* get "foo"(){}}
                             "kind": 280,
                             "decorators": null,
                             "declaredToken": null,
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "asyncKeyword": null,
                             "key": {
                                 "kind": 134299649,
@@ -148,9 +148,10 @@ class A {* get "foo"(){}}
 ```javascript
 
 class A {
-  get;
-  "\"foo\""() {}
+  get
+  "\"foo\""() { }
 }
+
 ```
 
 ### Diagnostics

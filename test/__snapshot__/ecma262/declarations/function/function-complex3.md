@@ -99,6 +99,7 @@ function b1<A: 'a', B: A>(b: B): void {
                                 "start": 13,
                                 "end": 15
                             },
+                            "assignToken": null,
                             "defaultType": null,
                             "flags": 2097152,
                             "start": 11,
@@ -197,8 +198,8 @@ function b1<A: 'a', B: A>(b: B): void {
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 16,
-                "end": 29
+                "start": 17,
+                "end": 28
             },
             "contents": {
                 "kind": 216,
@@ -398,6 +399,7 @@ function b1<A: 'a', B: A>(b: B): void {
                                                 "type": {
                                                     "kind": 134217967,
                                                     "text": "a",
+                                                    "rawText": "'a'",
                                                     "flags": 2097216,
                                                     "start": 156,
                                                     "end": 160
@@ -406,6 +408,7 @@ function b1<A: 'a', B: A>(b: B): void {
                                                 "start": 156,
                                                 "end": 160
                                             },
+                                            "assignToken": null,
                                             "defaultType": null,
                                             "flags": 2097152,
                                             "start": 154,
@@ -467,8 +470,8 @@ function b1<A: 'a', B: A>(b: B): void {
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
-                                "start": 161,
-                                "end": 167
+                                "start": 162,
+                                "end": 166
                             },
                             "contents": {
                                 "kind": 216,
@@ -613,6 +616,7 @@ function b1<A: 'a', B: A>(b: B): void {
                                 "type": {
                                     "kind": 134217967,
                                     "text": "a",
+                                    "rawText": "'a'",
                                     "flags": 2097216,
                                     "start": 216,
                                     "end": 220
@@ -621,6 +625,7 @@ function b1<A: 'a', B: A>(b: B): void {
                                 "start": 216,
                                 "end": 220
                             },
+                            "assignToken": null,
                             "defaultType": null,
                             "flags": 2097152,
                             "start": 214,
@@ -659,6 +664,7 @@ function b1<A: 'a', B: A>(b: B): void {
                                 "start": 224,
                                 "end": 226
                             },
+                            "assignToken": null,
                             "defaultType": null,
                             "flags": 2097152,
                             "start": 221,
@@ -720,8 +726,8 @@ function b1<A: 'a', B: A>(b: B): void {
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 227,
-                "end": 233
+                "start": 228,
+                "end": 232
             },
             "contents": {
                 "kind": 216,
@@ -825,25 +831,21 @@ function b1<A: 'a', B: A>(b: B): void {
 
 ```javascript
 
-function  <X:  >c() {
-  switch(x) {
-    case "'p'":
-      break;
-    case "'q'":
-      break;
-    case "'r'":
-      break;
+function c<X: T> (x: $Keys<X>) {
+  switch (x) {
+    case '\'p\'': break;
+    case '\'q\'': break;
+    case '\'r\'': // error
+    break;
   }
-  function  <A:  >a(): void {
-    if (a === "'a'") {
-      }
+  function a<A: "'a'"> (a: A): void {
+    if (a === '\'a\'') { }
   }
 }
-function  <A: , B:  >b1(): void {
-  if (b === "'b'") {
-    } // error 'b' not compatible with 'a'
+function b1<A: "'a'", B: A> (b: B): void {
+  if (b === '\'b\'') { }// error 'b' not compatible with 'a'
+}
 
-}
 ```
 
 ### Diagnostics

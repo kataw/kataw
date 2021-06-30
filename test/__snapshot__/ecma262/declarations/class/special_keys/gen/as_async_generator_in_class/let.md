@@ -137,8 +137,9 @@ class x {async * let(){}}
 ```javascript
 
 class x {
-  async let() {}
+  async *let() { }
 }
+
 ```
 
 ### Diagnostics

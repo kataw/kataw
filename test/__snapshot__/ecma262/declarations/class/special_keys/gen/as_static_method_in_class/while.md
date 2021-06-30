@@ -132,8 +132,9 @@ class x {static while(){}}
 ```javascript
 
 class x {
-  static static while() {}
+  static while() { }
 }
+
 ```
 
 ### Diagnostics

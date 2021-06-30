@@ -256,8 +256,8 @@ class C {
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 56,
-                "end": 59
+                "start": 57,
+                "end": 58
             },
             "contents": {
                 "kind": 216,
@@ -427,7 +427,7 @@ class C {
                         "start": 95,
                         "end": 98
                     },
-                    "flags": 536870944,
+                    "flags": 96,
                     "start": 87,
                     "end": 98
                 },

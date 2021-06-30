@@ -122,8 +122,8 @@ function* g() {
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 34,
-                "end": 36
+                "start": 35,
+                "end": 35
             },
             "contents": {
                 "kind": 216,
@@ -435,17 +435,14 @@ function* g() {
 ```javascript
 
 var yieldSet, C, iter;
-function * g() {
+function* g() {
   class C_ {
-    get [ yield]() {
-      return  "'get yield'";
-    }
-    set [ yield]() {
-      yieldSet = param;
-    }
+    get [yield]() { return '\'get yield\''; }
+    set [yield](param) { yieldSet = param; }
   }
   C = C_;
 }
+
 ```
 
 ### Diagnostics

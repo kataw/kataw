@@ -163,8 +163,8 @@ for (var i = 0; i < 1; i++) label: function f() { };
                         "formalParameters": [],
                         "trailingComma": false,
                         "flags": 32,
-                        "start": 45,
-                        "end": 47
+                        "start": 46,
+                        "end": 46
                     },
                     "contents": {
                         "kind": 216,

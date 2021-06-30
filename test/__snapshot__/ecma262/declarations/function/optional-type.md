@@ -92,8 +92,8 @@ function f([]?, {}) {}
                 ],
                 "trailingComma": false,
                 "flags": 34,
-                "start": 10,
-                "end": 19
+                "start": 11,
+                "end": 18
             },
             "contents": {
                 "kind": 216,
@@ -128,7 +128,8 @@ function f([]?, {}) {}
 
 ```javascript
 
-function f() {}
+function f([]?, { }) { }
+
 ```
 
 ### Diagnostics

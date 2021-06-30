@@ -130,8 +130,8 @@ async function foo(a = class extends (await b) {}) {};
                 ],
                 "trailingComma": false,
                 "flags": 34,
-                "start": 18,
-                "end": 50
+                "start": 19,
+                "end": 49
             },
             "contents": {
                 "kind": 216,

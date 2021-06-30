@@ -62,6 +62,7 @@ class C<T> {
                                 "end": 9
                             },
                             "type": null,
+                            "assignToken": null,
                             "defaultType": null,
                             "flags": 2097152,
                             "start": 8,
@@ -87,7 +88,7 @@ class C<T> {
                             "kind": 280,
                             "decorators": null,
                             "declaredToken": null,
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "asyncKeyword": null,
                             "key": {
                                 "kind": 134299649,
@@ -127,8 +128,8 @@ class C<T> {
                             "end": 24
                         },
                         {
-                            "kind": 317,
-                            "flags": 96,
+                            "kind": 1108353041,
+                            "flags": 64,
                             "start": 24,
                             "end": 25
                         },
@@ -218,7 +219,7 @@ class C<T> {
                                                         "start": 63,
                                                         "end": 67
                                                     },
-                                                    "flags": 536870944,
+                                                    "flags": 96,
                                                     "start": 57,
                                                     "end": 67
                                                 },
@@ -270,13 +271,14 @@ class C<T> {
 
 ```javascript
 
-class C {
-  data;
-
-  get x() {
-    return  this.data;
+class C<T> {
+  data: T
+  ;
+  get x(): T {
+    return this.data;
   }
 }
+
 ```
 
 ### Diagnostics

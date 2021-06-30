@@ -141,8 +141,9 @@ class x {set throw(x){}}
 ```javascript
 
 class x {
-  set throw() {}
+  set throw(x) { }
 }
+
 ```
 
 ### Diagnostics

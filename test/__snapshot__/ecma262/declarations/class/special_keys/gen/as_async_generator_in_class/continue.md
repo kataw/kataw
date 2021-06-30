@@ -137,8 +137,9 @@ class x {async * continue(){}}
 ```javascript
 
 class x {
-  async continue() {}
+  async *continue() { }
 }
+
 ```
 
 ### Diagnostics

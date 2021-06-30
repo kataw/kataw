@@ -88,7 +88,7 @@ async function foo({x}: { x: string; }) {}
                                     {
                                         "kind": 193,
                                         "protoKeyword": null,
-                                        "staticToken": null,
+                                        "staticKeyword": null,
                                         "getKeyword": null,
                                         "setKeyword": null,
                                         "key": {
@@ -136,8 +136,8 @@ async function foo({x}: { x: string; }) {}
                 ],
                 "trailingComma": false,
                 "flags": 34,
-                "start": 18,
-                "end": 39
+                "start": 19,
+                "end": 38
             },
             "contents": {
                 "kind": 216,
@@ -172,7 +172,10 @@ async function foo({x}: { x: string; }) {}
 
 ```javascript
 
-async function foo() {}
+async function foo({
+    x
+  }: { x: string }) { }
+
 ```
 
 ### Diagnostics

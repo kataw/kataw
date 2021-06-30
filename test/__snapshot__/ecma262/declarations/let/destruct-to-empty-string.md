@@ -87,7 +87,8 @@ let [a] = '';
 
 ```javascript
 
-let [a] = "''";
+let [a] = '\'\'';
+
 ```
 
 ### Diagnostics

@@ -802,7 +802,7 @@ var stringArr:Array<string> = ['a','b'];
                             "kind": 280,
                             "decorators": null,
                             "declaredToken": null,
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "asyncKeyword": null,
                             "key": {
                                 "kind": 134299649,
@@ -859,8 +859,8 @@ var stringArr:Array<string> = ['a','b'];
                             "end": 297
                         },
                         {
-                            "kind": 317,
-                            "flags": 96,
+                            "kind": 1108353041,
+                            "flags": 64,
                             "start": 297,
                             "end": 298
                         },
@@ -919,7 +919,7 @@ var stringArr:Array<string> = ['a','b'];
                                                             "start": 332,
                                                             "end": 333
                                                         },
-                                                        "flags": 536870944,
+                                                        "flags": 97,
                                                         "start": 318,
                                                         "end": 333
                                                     },
@@ -1002,7 +1002,7 @@ var stringArr:Array<string> = ['a','b'];
                             "kind": 280,
                             "decorators": null,
                             "declaredToken": null,
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "asyncKeyword": null,
                             "key": {
                                 "kind": 134299649,
@@ -1056,8 +1056,8 @@ var stringArr:Array<string> = ['a','b'];
                             "end": 382
                         },
                         {
-                            "kind": 317,
-                            "flags": 96,
+                            "kind": 1108353041,
+                            "flags": 64,
                             "start": 382,
                             "end": 383
                         },
@@ -1193,7 +1193,7 @@ var stringArr:Array<string> = ['a','b'];
                                                             "start": 437,
                                                             "end": 444
                                                         },
-                                                        "flags": 536870944,
+                                                        "flags": 97,
                                                         "start": 423,
                                                         "end": 444
                                                     },
@@ -1243,7 +1243,7 @@ var stringArr:Array<string> = ['a','b'];
                                                         "start": 476,
                                                         "end": 483
                                                     },
-                                                    "flags": 536870944,
+                                                    "flags": 96,
                                                     "start": 470,
                                                     "end": 483
                                                 },
@@ -1545,34 +1545,35 @@ var stringArr:Array<string> = ['a','b'];
 
 class Tag {
   constructor() {
-    var a1:  = [];
-    var a2:  = a1;
+    var a1: Array<Tag | string> = [];
+    var a2: Array<Tag | string> = a1;
   }
 }
-
+type Node = Tag_ | string
 class Tag_ {
   constructor() {
-    var a1:  = [new  Tag_()];
-    var a2:  = a1;
+    var a1: Array<Node> = [new Tag_,];
+    var a2: Array<Node> = a1;
   }
 }
 class C {
-  x;
-
+  x: ?number | string
+  ;
   constructor() {
     this.x = null;
   }
 }
 class D {
-  content;
-
-  copyContent() {
+  content: string | C
+  ;
+  copyContent(content: C): string | C {
     this.content = content;
-    return  this.content;
+    return this.content;
   }
 }
-var numberAndStringArr:  = [1, 2];
-var stringArr:  = ["'a'", "'b'"];
+var numberAndStringArr: Array<number | string> = [1, 2,];
+var stringArr: Array<string> = ['\'a\'', '\'b\'',];
+
 ```
 
 ### Diagnostics

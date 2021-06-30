@@ -96,8 +96,8 @@ function f(b, a, b, a, [fine]) {}
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 10,
-                "end": 30
+                "start": 11,
+                "end": 29
             },
             "contents": {
                 "kind": 216,
@@ -132,7 +132,8 @@ function f(b, a, b, a, [fine]) {}
 
 ```javascript
 
-function f() {}
+function f(b, a, b, a, [fine]) { }
+
 ```
 
 ### Diagnostics

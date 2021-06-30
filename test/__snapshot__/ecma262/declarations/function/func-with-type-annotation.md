@@ -60,6 +60,7 @@ function a<string>(x: string): string {
                                 "end": 17
                             },
                             "type": null,
+                            "assignToken": null,
                             "defaultType": null,
                             "flags": 2097152,
                             "start": 11,
@@ -112,8 +113,8 @@ function a<string>(x: string): string {
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 18,
-                "end": 29
+                "start": 19,
+                "end": 28
             },
             "contents": {
                 "kind": 216,
@@ -182,9 +183,10 @@ function a<string>(x: string): string {
 
 ```javascript
 
-function  <string >a(): string {
-  return  x;
+function a<string> (x: string): string {
+  return x;
 }
+
 ```
 
 ### Diagnostics

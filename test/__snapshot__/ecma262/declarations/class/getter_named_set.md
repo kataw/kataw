@@ -143,8 +143,9 @@ class A {get set(){}}
 ```javascript
 
 class A {
-  get set() {}
+  get set() { }
 }
+
 ```
 
 ### Diagnostics

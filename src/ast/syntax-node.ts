@@ -64,7 +64,7 @@ export enum NodeFlags {
   TemplateLiteral = 1 << 27,
   IsCallExpression = 1 << 28,
   IsMemberExpression = 1 << 29,
-  IsUntionTypeIndention = 1 << 30
+  DisallowTrailingComma = 1 << 30
 }
 
 // DO NOT EDIT ANY OF THIS NUMBERS. IT WILL BREAK THE PARSER!!!!!
@@ -129,7 +129,7 @@ export enum SyntaxKind {
   ClassKeyword = 37822544,
   CoalesceAssign = 4140,
   Colon = 21,
-  Comma = 2097170, // =>
+  Comma = 2097170,
   CommaOperator = 132,
   Complement = 65585,
   ComputedPropertyName = 194,
@@ -279,7 +279,6 @@ export enum SyntaxKind {
   NumberType = 134217968,
   NumericLiteral = 201392130,
   ObjectBindingPattern = 212,
-  ObjectKeyword = 134234346,
   ObjectLiteral = 220,
   ObjectType = 134234353,
   ObjectTypeCallProperty = 196,
@@ -313,7 +312,7 @@ export enum SyntaxKind {
   QuestionMarkPeriod = 393240,
   QuestionMarkQuestionMark = 33047,
   RegularExpression = 65540,
-  RegularExpressionLiteral = 221,
+  RegularExpressionLiteral = 371,
   ReturnKeyword = 37757022,
   ReturnStatement = 161,
   RightBrace = 1048591,
@@ -321,7 +320,6 @@ export enum SyntaxKind {
   RightParen = 16,
   RootNode = 122,
   Semicolon = 1108353041,
-  SemicolonClassElement = 317,
   SetKeyword = 16499,
   ShiftLeft = 35140,
   ShiftLeftAssign = 4126,
@@ -340,7 +338,6 @@ export enum SyntaxKind {
   StringType = 134217967,
   Subtract = 134318643,
   SubtractAssign = 4131,
-  Super = 225,
   SuperKeyword = 4259935,
   SwitchKeyword = 37757024,
   SwitchStatement = 160,
@@ -400,12 +397,15 @@ export enum SyntaxKind {
   ProtoKeyword = 16873,
   ArrowTypeParameterList = 292,
   ArrowTypeParameter = 284,
-  BigIntType = 286
+  BigIntType = 286,
+  ObjectKeyword = 134234474
 }
 
 export function tokenToString(node: any): string {
   if (!node) return '';
   switch (node.kind) {
+    case SyntaxKind.ObjectKeyword:
+      return 'object';
     case SyntaxKind.Add:
       return '+';
     case SyntaxKind.AddAssign:
@@ -423,7 +423,7 @@ export function tokenToString(node: any): string {
     case SyntaxKind.AwaitKeyword:
       return 'await';
     case SyntaxKind.BitwiseAnd:
-      return '=>';
+      return '&';
     case SyntaxKind.BitwiseAndAssign:
       return '&=';
     case SyntaxKind.BitwiseOr:
@@ -445,7 +445,7 @@ export function tokenToString(node: any): string {
     case SyntaxKind.ClassKeyword:
       return 'class';
     case SyntaxKind.CoalesceAssign:
-      return '=>';
+      return '??=';
     case SyntaxKind.Colon:
       return ':';
     case SyntaxKind.Comma:
@@ -523,7 +523,7 @@ export function tokenToString(node: any): string {
     case SyntaxKind.Increment:
       return '++';
     case SyntaxKind.InstanceofKeyword:
-      return 'inctanceof';
+      return 'instanceof';
     case SyntaxKind.LessThan:
       return ' <';
     case SyntaxKind.LessThanOrEqual:
@@ -591,7 +591,7 @@ export function tokenToString(node: any): string {
     case SyntaxKind.ReturnKeyword:
       return 'return';
     case SyntaxKind.Semicolon:
-      return ':';
+      return ';';
     case SyntaxKind.SetKeyword:
       return 'set';
     case SyntaxKind.ShiftLeft:

@@ -38,7 +38,6 @@ import { ClassExpression } from '../expressions/class-expr';
 import { YieldExpression } from '../expressions/yield-expr';
 import { NewExpression } from '../expressions/new-expr';
 import { NewTarget } from '../expressions/new-target';
-import { Super } from '../expressions/super';
 import { SpreadElement } from '../expressions/spread-element';
 import { RegularExpressionLiteral } from '../expressions/regular-expr';
 
@@ -62,7 +61,6 @@ export type ExpressionNode =
   | YieldExpression
   | NewExpression
   | SpreadElement
-  | Super
   | NewTarget
   | CommaOperator
   | ObjectLiteral

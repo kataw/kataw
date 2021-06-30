@@ -85,6 +85,7 @@ let [] = [];
 ```javascript
 
 let [] = [];
+
 ```
 
 ### Diagnostics

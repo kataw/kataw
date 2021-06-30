@@ -86,8 +86,8 @@ function e(x=eval=10){ }
                 ],
                 "trailingComma": false,
                 "flags": 34,
-                "start": 10,
-                "end": 21
+                "start": 11,
+                "end": 20
             },
             "contents": {
                 "kind": 216,
@@ -122,7 +122,8 @@ function e(x=eval=10){ }
 
 ```javascript
 
-function e() {}
+function e(x = eval = 10) { }
+
 ```
 
 ### Diagnostics

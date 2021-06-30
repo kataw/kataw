@@ -92,7 +92,7 @@ declare function bar(config: Config<{foo: 'a'}>) : void
                                                         {
                                                             "kind": 193,
                                                             "protoKeyword": null,
-                                                            "staticToken": null,
+                                                            "staticKeyword": null,
                                                             "getKeyword": null,
                                                             "setKeyword": null,
                                                             "key": {
@@ -111,6 +111,7 @@ declare function bar(config: Config<{foo: 'a'}>) : void
                                                                 "type": {
                                                                     "kind": 134217967,
                                                                     "text": "a",
+                                                                    "rawText": "'a'",
                                                                     "flags": 2097216,
                                                                     "start": 41,
                                                                     "end": 45
@@ -159,8 +160,8 @@ declare function bar(config: Config<{foo: 'a'}>) : void
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 20,
-                "end": 48
+                "start": 21,
+                "end": 47
             },
             "contents": null,
             "returnType": {
@@ -195,7 +196,8 @@ declare function bar(config: Config<{foo: 'a'}>) : void
 
 ```javascript
 
-function bar(): void;
+declare function bar(config: Config<{ foo: "'a'" }>): void
+
 ```
 
 ### Diagnostics

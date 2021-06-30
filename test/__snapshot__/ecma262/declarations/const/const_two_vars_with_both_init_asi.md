@@ -115,6 +115,7 @@ const foo = bar, zoo = boo
 ```javascript
 
 const foo = bar, zoo = boo;
+
 ```
 
 ### Diagnostics

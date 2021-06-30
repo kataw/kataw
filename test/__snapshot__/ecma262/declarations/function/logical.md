@@ -561,8 +561,8 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 70,
-                "end": 72
+                "start": 71,
+                "end": 71
             },
             "contents": {
                 "kind": 216,
@@ -704,8 +704,8 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 222,
-                "end": 224
+                "start": 223,
+                "end": 223
             },
             "contents": {
                 "kind": 216,
@@ -847,8 +847,8 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 341,
-                "end": 343
+                "start": 342,
+                "end": 342
             },
             "contents": {
                 "kind": 216,
@@ -946,8 +946,8 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 470,
-                "end": 472
+                "start": 471,
+                "end": 471
             },
             "contents": {
                 "kind": 216,
@@ -1047,8 +1047,8 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 571,
-                "end": 573
+                "start": 572,
+                "end": 572
             },
             "contents": {
                 "kind": 216,
@@ -1148,8 +1148,8 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 671,
-                "end": 673
+                "start": 672,
+                "end": 672
             },
             "contents": {
                 "kind": 216,
@@ -1254,8 +1254,8 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 775,
-                "end": 777
+                "start": 776,
+                "end": 776
             },
             "contents": {
                 "kind": 216,
@@ -1355,8 +1355,8 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 878,
-                "end": 880
+                "start": 879,
+                "end": 879
             },
             "contents": {
                 "kind": 216,
@@ -1456,8 +1456,8 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 981,
-                "end": 983
+                "start": 982,
+                "end": 982
             },
             "contents": {
                 "kind": 216,
@@ -1608,7 +1608,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                     {
                                         "kind": 193,
                                         "protoKeyword": null,
-                                        "staticToken": null,
+                                        "staticKeyword": null,
                                         "getKeyword": null,
                                         "setKeyword": null,
                                         "key": {
@@ -1656,8 +1656,8 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 1088,
-                "end": 1104
+                "start": 1089,
+                "end": 1103
             },
             "contents": {
                 "kind": 216,
@@ -1798,8 +1798,8 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 1203,
-                "end": 1214
+                "start": 1204,
+                "end": 1213
             },
             "contents": {
                 "kind": 216,
@@ -1991,8 +1991,8 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 1313,
-                "end": 1339
+                "start": 1314,
+                "end": 1338
             },
             "contents": {
                 "kind": 216,
@@ -2133,8 +2133,8 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 1438,
-                "end": 1451
+                "start": 1439,
+                "end": 1450
             },
             "contents": {
                 "kind": 216,
@@ -2234,8 +2234,8 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 1554,
-                "end": 1556
+                "start": 1555,
+                "end": 1555
             },
             "contents": {
                 "kind": 216,
@@ -2440,8 +2440,8 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 1719,
-                "end": 1721
+                "start": 1720,
+                "end": 1720
             },
             "contents": {
                 "kind": 216,
@@ -2626,8 +2626,8 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 1888,
-                "end": 1890
+                "start": 1889,
+                "end": 1889
             },
             "contents": {
                 "kind": 216,
@@ -2858,8 +2858,8 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 2058,
-                "end": 2070
+                "start": 2059,
+                "end": 2069
             },
             "contents": {
                 "kind": 216,
@@ -2959,8 +2959,8 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 2209,
-                "end": 2211
+                "start": 2210,
+                "end": 2210
             },
             "contents": {
                 "kind": 216,
@@ -3102,8 +3102,8 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 2332,
-                "end": 2334
+                "start": 2333,
+                "end": 2333
             },
             "contents": {
                 "kind": 216,
@@ -3270,8 +3270,8 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 2464,
-                "end": 2466
+                "start": 2465,
+                "end": 2465
             },
             "contents": {
                 "kind": 216,
@@ -3413,8 +3413,8 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 2603,
-                "end": 2605
+                "start": 2604,
+                "end": 2604
             },
             "contents": {
                 "kind": 216,
@@ -3512,8 +3512,8 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 2708,
-                "end": 2710
+                "start": 2709,
+                "end": 2709
             },
             "contents": {
                 "kind": 216,
@@ -3613,8 +3613,8 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 2809,
-                "end": 2811
+                "start": 2810,
+                "end": 2810
             },
             "contents": {
                 "kind": 216,
@@ -3714,8 +3714,8 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 2909,
-                "end": 2911
+                "start": 2910,
+                "end": 2910
             },
             "contents": {
                 "kind": 216,
@@ -3820,8 +3820,8 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 3037,
-                "end": 3039
+                "start": 3038,
+                "end": 3038
             },
             "contents": {
                 "kind": 216,
@@ -3921,8 +3921,8 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 3140,
-                "end": 3142
+                "start": 3141,
+                "end": 3141
             },
             "contents": {
                 "kind": 216,
@@ -4022,8 +4022,8 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 3232,
-                "end": 3234
+                "start": 3233,
+                "end": 3233
             },
             "contents": {
                 "kind": 216,
@@ -4291,8 +4291,8 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 3390,
-                "end": 3413
+                "start": 3391,
+                "end": 3412
             },
             "contents": {
                 "kind": 216,
@@ -4444,8 +4444,8 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 3502,
-                "end": 3513
+                "start": 3503,
+                "end": 3512
             },
             "contents": {
                 "kind": 216,
@@ -4597,8 +4597,8 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 3602,
-                "end": 3613
+                "start": 3603,
+                "end": 3612
             },
             "contents": {
                 "kind": 216,
@@ -4750,8 +4750,8 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 3710,
-                "end": 3721
+                "start": 3711,
+                "end": 3720
             },
             "contents": {
                 "kind": 216,
@@ -4869,8 +4869,8 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 3964,
-                "end": 3966
+                "start": 3965,
+                "end": 3965
             },
             "contents": {
                 "kind": 216,
@@ -5038,8 +5038,8 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 4153,
-                "end": 4155
+                "start": 4154,
+                "end": 4154
             },
             "contents": {
                 "kind": 216,
@@ -5207,8 +5207,8 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 4322,
-                "end": 4324
+                "start": 4323,
+                "end": 4323
             },
             "contents": {
                 "kind": 216,
@@ -5376,8 +5376,8 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 4437,
-                "end": 4439
+                "start": 4438,
+                "end": 4438
             },
             "contents": {
                 "kind": 216,
@@ -5545,8 +5545,8 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 4553,
-                "end": 4555
+                "start": 4554,
+                "end": 4554
             },
             "contents": {
                 "kind": 216,
@@ -5714,8 +5714,8 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 4669,
-                "end": 4671
+                "start": 4670,
+                "end": 4670
             },
             "contents": {
                 "kind": 216,
@@ -5946,8 +5946,8 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 4808,
-                "end": 4840
+                "start": 4809,
+                "end": 4838
             },
             "contents": {
                 "kind": 216,
@@ -6142,8 +6142,8 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 4984,
-                "end": 5006
+                "start": 4985,
+                "end": 5005
             },
             "contents": {
                 "kind": 216,
@@ -6338,8 +6338,8 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 5108,
-                "end": 5131
+                "start": 5109,
+                "end": 5130
             },
             "contents": {
                 "kind": 216,
@@ -6522,8 +6522,8 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 5223,
-                "end": 5255
+                "start": 5224,
+                "end": 5253
             },
             "contents": {
                 "kind": 216,
@@ -6718,8 +6718,8 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 5400,
-                "end": 5422
+                "start": 5401,
+                "end": 5421
             },
             "contents": {
                 "kind": 216,
@@ -6937,8 +6937,8 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 5544,
-                "end": 5566
+                "start": 5545,
+                "end": 5565
             },
             "contents": {
                 "kind": 216,
@@ -7093,8 +7093,8 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 5686,
-                "end": 5688
+                "start": 5687,
+                "end": 5687
             },
             "contents": {
                 "kind": 216,
@@ -7419,8 +7419,8 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 5837,
-                "end": 5848
+                "start": 5838,
+                "end": 5847
             },
             "contents": {
                 "kind": 216,
@@ -7669,8 +7669,8 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 6003,
-                "end": 6005
+                "start": 6004,
+                "end": 6004
             },
             "contents": {
                 "kind": 216,
@@ -8071,8 +8071,8 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 6188,
-                "end": 6199
+                "start": 6189,
+                "end": 6198
             },
             "contents": {
                 "kind": 216,
@@ -8353,8 +8353,8 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 6351,
-                "end": 6362
+                "start": 6352,
+                "end": 6361
             },
             "contents": {
                 "kind": 216,
@@ -8881,7 +8881,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                             {
                                                 "kind": 193,
                                                 "protoKeyword": null,
-                                                "staticToken": null,
+                                                "staticKeyword": null,
                                                 "getKeyword": null,
                                                 "setKeyword": null,
                                                 "key": {
@@ -9000,8 +9000,8 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 6670,
-                "end": 6681
+                "start": 6671,
+                "end": 6680
             },
             "contents": {
                 "kind": 216,
@@ -9528,7 +9528,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                             {
                                                 "kind": 193,
                                                 "protoKeyword": null,
-                                                "staticToken": null,
+                                                "staticKeyword": null,
                                                 "getKeyword": null,
                                                 "setKeyword": null,
                                                 "key": {
@@ -9647,8 +9647,8 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 6997,
-                "end": 7008
+                "start": 6998,
+                "end": 7007
             },
             "contents": {
                 "kind": 216,
@@ -9806,8 +9806,8 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 7095,
-                "end": 7106
+                "start": 7096,
+                "end": 7105
             },
             "contents": {
                 "kind": 216,
@@ -9965,8 +9965,8 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 7193,
-                "end": 7204
+                "start": 7194,
+                "end": 7203
             },
             "contents": {
                 "kind": 216,
@@ -10124,8 +10124,8 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 7291,
-                "end": 7302
+                "start": 7292,
+                "end": 7301
             },
             "contents": {
                 "kind": 216,
@@ -10283,8 +10283,8 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 7390,
-                "end": 7401
+                "start": 7391,
+                "end": 7400
             },
             "contents": {
                 "kind": 216,
@@ -10442,8 +10442,8 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 7490,
-                "end": 7501
+                "start": 7491,
+                "end": 7500
             },
             "contents": {
                 "kind": 216,
@@ -10601,8 +10601,8 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 7590,
-                "end": 7601
+                "start": 7591,
+                "end": 7600
             },
             "contents": {
                 "kind": 216,
@@ -10760,8 +10760,8 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 7690,
-                "end": 7701
+                "start": 7691,
+                "end": 7700
             },
             "contents": {
                 "kind": 216,
@@ -10919,8 +10919,8 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 7789,
-                "end": 7800
+                "start": 7790,
+                "end": 7799
             },
             "contents": {
                 "kind": 216,
@@ -11078,8 +11078,8 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 7889,
-                "end": 7900
+                "start": 7890,
+                "end": 7899
             },
             "contents": {
                 "kind": 216,
@@ -11237,8 +11237,8 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 7989,
-                "end": 8000
+                "start": 7990,
+                "end": 7999
             },
             "contents": {
                 "kind": 216,
@@ -11396,8 +11396,8 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 8089,
-                "end": 8100
+                "start": 8090,
+                "end": 8099
             },
             "contents": {
                 "kind": 216,
@@ -11586,8 +11586,8 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 8222,
-                "end": 8244
+                "start": 8223,
+                "end": 8243
             },
             "contents": {
                 "kind": 216,
@@ -11747,7 +11747,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                     {
                                         "kind": 193,
                                         "protoKeyword": null,
-                                        "staticToken": null,
+                                        "staticKeyword": null,
                                         "getKeyword": null,
                                         "setKeyword": null,
                                         "key": {
@@ -11814,7 +11814,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                     {
                                         "kind": 193,
                                         "protoKeyword": null,
-                                        "staticToken": null,
+                                        "staticKeyword": null,
                                         "getKeyword": null,
                                         "setKeyword": null,
                                         "key": {
@@ -11862,8 +11862,8 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 8356,
-                "end": 8388
+                "start": 8357,
+                "end": 8387
             },
             "contents": {
                 "kind": 216,
@@ -11901,7 +11901,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                             "start": 8412,
                                             "end": 8413
                                         },
-                                        "flags": 536870944,
+                                        "flags": 96,
                                         "start": 8409,
                                         "end": 8413
                                     },
@@ -11949,7 +11949,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                             "start": 8423,
                                             "end": 8424
                                         },
-                                        "flags": 536870944,
+                                        "flags": 96,
                                         "start": 8420,
                                         "end": 8424
                                     },
@@ -12051,7 +12051,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                     {
                                         "kind": 193,
                                         "protoKeyword": null,
-                                        "staticToken": null,
+                                        "staticKeyword": null,
                                         "getKeyword": null,
                                         "setKeyword": null,
                                         "key": {
@@ -12084,7 +12084,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                     {
                                         "kind": 193,
                                         "protoKeyword": null,
-                                        "staticToken": null,
+                                        "staticKeyword": null,
                                         "getKeyword": null,
                                         "setKeyword": null,
                                         "key": {
@@ -12132,8 +12132,8 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 8506,
-                "end": 8536
+                "start": 8507,
+                "end": 8535
             },
             "contents": {
                 "kind": 216,
@@ -12171,7 +12171,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                             "start": 8560,
                                             "end": 8561
                                         },
-                                        "flags": 536870944,
+                                        "flags": 96,
                                         "start": 8556,
                                         "end": 8561
                                     },
@@ -12199,7 +12199,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                             "start": 8567,
                                             "end": 8568
                                         },
-                                        "flags": 536870944,
+                                        "flags": 96,
                                         "start": 8564,
                                         "end": 8568
                                     },
@@ -12287,7 +12287,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                     {
                                         "kind": 193,
                                         "protoKeyword": null,
-                                        "staticToken": null,
+                                        "staticKeyword": null,
                                         "getKeyword": null,
                                         "setKeyword": null,
                                         "key": {
@@ -12320,7 +12320,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                     {
                                         "kind": 193,
                                         "protoKeyword": null,
-                                        "staticToken": null,
+                                        "staticKeyword": null,
                                         "getKeyword": null,
                                         "setKeyword": null,
                                         "key": {
@@ -12368,8 +12368,8 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 8618,
-                "end": 8648
+                "start": 8619,
+                "end": 8647
             },
             "contents": {
                 "kind": 216,
@@ -12407,7 +12407,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                             "start": 8672,
                                             "end": 8673
                                         },
-                                        "flags": 536870944,
+                                        "flags": 96,
                                         "start": 8668,
                                         "end": 8673
                                     },
@@ -12435,7 +12435,7 @@ function logical19b(x: { y: string, z: boolean }): boolean {
                                             "start": 8679,
                                             "end": 8680
                                         },
-                                        "flags": 536870944,
+                                        "flags": 96,
                                         "start": 8676,
                                         "end": 8680
                                     },
@@ -12494,202 +12494,201 @@ function logical19b(x: { y: string, z: boolean }): boolean {
 /**
  * A falsy variable on the left side of &&
  */
-
-function logical1a(): number {
+function logical1a(): number {// expected `: boolean`
   var x = false;
-  return  x && "'123'";
+  return x && '\'123\'';
 }
-/**
+ /**
  * A truthy variable on the left side of &&
  */
 function logical1b(): string {
   var x = true;
-  return  x && "'123'";
+  return x && '\'123\'';
 }
-/**
+ /**
  * A literal on the left side of &&
  */
-function logical2a(): number {
-  return  false && "'123'";
+function logical2a(): number {// expected `: boolean`
+  return false && '\'123\'';
 }
-/**
+ /**
  * A literal on the left side of &&
  */
 function logical2b(): number {
-  return  0 && "'123'";
+  return 0 && '\'123\'';
 }
-/**
+ /**
  * A literal on the left side of &&
  */
 function logical2c(): string {
-  return  "\"\"" && 123;
+  return "\"\"" && 123;
 }
-/**
+ /**
  * A literal on the left side of &&
  */
 function logical2d(): string {
-  return ;
-  true && "'123'";
+  return;
+  true && '\'123\'';
 }
-/**
+ /**
  * A literal on the left side of &&
  */
 function logical2e(): number {
-  return  "'foo'" && 123;
+  return '\'foo\'' && 123;
 }
-/**
+ /**
  * A literal on the left side of &&
  */
 function logical2f(): string {
-  return  123 && "'foo'";
+  return 123 && '\'foo\'';
 }
-/**
+ /**
  * A literal on the left side of &&
  */
 function logical2g(): string {
-  return  [1, 2, 3] && "'foo'";
+  return [1, 2, 3,] && '\'foo\'';
 }
-/**
+ /**
  * A literal on the left side of &&
  */
-function logical2h(): string {
-  return  x && "'foo'";
+function logical2h(x: { a: number }): string {
+  return x && '\'foo\'';
 }
-/**
+ /**
  * A literal on the left side of &&
  */
-function logical2i(): string {
-  return  x && "'foo'";
+function logical2i(x: Object): string {
+  return x && '\'foo\'';
 }
-/**
+ /**
  * A literal on the left side of &&
  */
-function logical2j(): string {
-  return  x && "'foo'";
+function logical2j(x: (a: number) => number): string {
+  return x && '\'foo\'';
 }
-/**
+ /**
  * A literal on the left side of &&
  */
-function logical2k(): string {
-  return  x && "'foo'";
+function logical2k(x: Function): string {
+  return x && '\'foo\'';
 }
-/**
+ /**
  * An expression on the left side of &&
  */
-function logical3a(): string {
-  var x:  = null;
-  return  x != null && x > 10;
+function logical3a(): string {// expected `: boolean`
+  var x: ?number = null;
+  return x != null && x > 10;
 }
-/**
+ /**
  * An expression on the left side of &&
  */
-function logical3b(): number {
-  var x:  = null;
-  return  x != null && x;
+function logical3b(): number {// expected `: boolean | number`
+  var x: ?number = null;
+  return x != null && x;
 }
-/**
+ /**
  * An expression on the left side of &&
  */
-function logical3c():  {
-  var x:  = null;
-  return  x != undefined && x;
+function logical3c(): ?number {// expected `: boolean | ?number`
+  var x: ?number = null;
+  return x != undefined && x;
 }
-/**
+ /**
  * Maybe truthy returns both types
  */
-function logical4(): string {
-  return  x && "'123'";
+function logical4(x: boolean): string {// expected `: boolean | string`
+  return x && '\'123\'';
 }
-/**
+ /**
  * A falsy variable on the left side of ||
  */
 function logical5a(): number {
   var x = false;
-  return  x || 0;
+  return x || 0;
 }
-/**
+ /**
  * A maybe variable on the left side of ||
  */
 function logical5b(): number {
-  var x:  = null;
-  return  x || 0;
+  var x: ?number = null;
+  return x || 0;
 }
-/**
+ /**
  * A truthy variable on the left side of ||
  */
-function logical5c(): string {
+function logical5c(): string {// expected `: boolean`
   var x = true;
-  return  x || 0;
+  return x || 0;
 }
-/**
+ /**
  * A literal on the left side of ||
  */
 function logical6a(): string {
-  return  false || "'123'";
+  return false || '\'123\'';
 }
-/**
+ /**
  * A literal on the left side of ||
  */
 function logical6b(): string {
-  return  0 || "'123'";
+  return 0 || '\'123\'';
 }
-/**
+ /**
  * A literal on the left side of ||
  */
 function logical6c(): number {
-  return  "\"\"" || 123;
+  return "\"\"" || 123;
 }
-/**
+ /**
  * A literal on the left side of ||
  */
-function logical6d(): number {
-  return ;
-  true || "'123'";
+function logical6d(): number {// expected `: boolean`
+  return;
+  true || '\'123\'';
 }
-/**
+ /**
  * A literal on the left side of ||
  */
 function logical6e(): string {
-  return  "'foo'" || 123;
+  return '\'foo\'' || 123;
 }
-/**
+ /**
  * A literal on the left side of ||
  */
 function logical6f(): number {
-  return  123 || "'foo'";
+  return 123 || '\'foo\'';
 }
-/**
+ /**
  * A composite && and ||
  */
 function logical7a(): number {
-  var x:  = null;
-  return  x != null && x || 0;
+  var x: ?number = null;
+  return x != null && x || 0;
 }
-/**
+ /**
  * A composite && and || where the truthiness is unknown
  */
-function logical7b(): number {
-  return  x && y || 0;
+function logical7b(x: boolean, y: number): number {
+  return x && y || 0;
 }
-/**
+ /**
  * A composite && and ||
  */
-function logical7c(): number {
-  return  x && 1 || 0;
+function logical7c(x: string): number {
+  return x && 1 || 0;
 }
-/**
+ /**
  * A composite && and ||
  */
-function logical7d(): string {
-  return  x && "'foo'" || "'bar'";
+function logical7d(x: number): string {
+  return x && '\'foo\'' || '\'bar\'';
 }
-/**
+ /**
  * A composite && and ||
  */
-function logical7e(): string {
-  return  false && x || "'bar'";
+function logical7e(x: number): string {
+  return false && x || '\'bar\'';
 }
-/**
+ /**
  * A composite || and &&
  *
  * `x || 0` always returns a number (never a boolean) and then short
@@ -12697,243 +12696,247 @@ function logical7e(): string {
  */
 function logical8a(): number {
   var x = false;
-  return  (x || 0) && "'foo'";
+  return (x || 0) && '\'foo\'';
 }
-/**
+ /**
  * A composite || and &&
  *
  * `x || 1` always returns something truthy, so this returns a string
  */
 function logical8b(): string {
   var x = false;
-  return  (x || 1) && "'foo'";
+  return (x || 1) && '\'foo\'';
 }
-/**
+ /**
  * A composite || and &&
  *
  * `x` is always truthy, so this returns a string
  */
 function logical8c(): string {
   var x = true;
-  return  (x || 1) && "'foo'";
+  return (x || 1) && '\'foo\'';
 }
-/**
+ /**
  * A composite || and &&
  */
 function logical8d(): number {
   var x = false;
-  return  x || (0 && "'foo'");
+  return x || (0 && '\'foo\'');
 }
-/**
+ /**
  * A composite || and &&
  */
 function logical8e(): string {
   var x = false;
-  return  x || (1 && "'foo'");
+  return x || (1 && '\'foo\'');
 }
-/**
+ /**
  * A composite || and &&
  */
-function logical8f(): string {
+function logical8f(): string {// expected `: boolean`
   var x = true;
-  return  x || (1 && "'foo'");
+  return x || (1 && '\'foo\'');
 }
-/**
+ /**
  * A composite || and ||
  */
-function logical9a():  {
-  return  x || y || false;
+function logical9a(x: number, y: string): number | string {// expected `: number | string | boolean`
+  return x || y || false;
 }
-/**
+ /**
  * A composite || and ||
  */
-function logical9b():  {
-  return  false || x || y;
+function logical9b(x: number, y: string): number | string {
+  return false || x || y;
 }
-/**
+ /**
  * A composite || and ||
  */
-function logical9c(): string {
-  return  "'a'" || x || y;
+function logical9c(x: number, y: boolean): string {
+  return '\'a\'' || x || y;
 }
-/**
+ /**
  * A composite && and &&
  */
-function logical10a():  {
-  return  x && y && false;
+function logical10a(x: number, y: string): number | string {// expected `: number | string | boolean`
+  return x && y && false;
 }
-/**
+ /**
  * A composite && and &&
  */
-function logical10b():  {
-  return  false && x && y;
+function logical10b(x: number, y: string): Array<any> {// expected `: boolean`
+  return false && x && y;
 }
-/**
+ /**
  * A composite && and &&
  */
-function logical10c():  {
-  return  x && false && y;
+function logical10c(x: number, y: string): Array<any> {// expected `number | boolean`
+  return x && false && y;
 }
-/**
+ /**
  * || in a loop
  */
 function logical11a(): number {
   var y = 1;
-  for (; x++; x  < 5)
-    {}
-  return  y;
+  for (var x = 0; x++; x  < 5) {
+    y = y || true;
+  }
+  return y;
 }
-/**
+ /**
  * || in a loop
  */
-function logical11b(): number {
-  for (; x++; x  < 5)
-    {}
-  return  y;
+function logical11b(y: number): number {
+  for (var x = 0; x++; x  < 5) {
+    y = y || true;// expected a number
+  }
+  return y;
 }
-/**
+ /**
  * && in a loop
  */
 function logical12a(): number {
   var y = 1;
   var z = true;
-  for (; x++; x  < 5)
-    {}
-  return  y;
+  for (var x = 0; x++; x  < 5) {
+    y = z && y;
+    z = false;
+  }
+  return y;
 }
-/**
+ /**
  * && in a loop
  */
-function logical12b(): number {
-  for (; x++; x  < 5)
-    {}
-  return  y;
+function logical12b(y: number): number {
+  for (var x = 0; x++; x  < 5) {
+    y = y && true;// expected a number
+  }
+  return y;
 }
-/**
+ /**
  * Complex &&
  */
-function logical13():  {
-  return  [
-    { x: x && "\"bar\"" },
-    { x: true && "\"bar\"" },
-    { x: true && false },
-    { x: false && false },
-    { x: 1 && "\"bar\"" },
-    { x: "\"foo\"" && "\"bar\"" },
-    { x: "\"foo\"" && "\"bar\"" },
-    { x: "\"foo\"" && "\"bar\"" },
+function logical13(x: number): Array<{ x: string }> {
+  return [
+    { x : x && "\"bar\"" },
+    { x : true && "\"bar\"" },
+    { x : true && false },
+    { x : false && false },
+    { x : 1 && "\"bar\"" },
+    { x : "\"foo\"" && "\"bar\"" },
+    { x : "\"foo\"" && "\"bar\"" },
+    { x : "\"foo\"" && "\"bar\"" },
   ];
 }
-/**
+ /**
  * Complex ||
  */
-function logical14():  {
-  return  [
-    { x: x || "\"bar\"" },
-    { x: false || "\"bar\"" },
-    { x: false || true },
-    { x: true || false },
-    { x: 0 || "\"bar\"" },
-    { x: "\"foo\"" || "\"bar\"" },
-    { x: "\"foo\"" || "\"bar\"" },
-    { x: "\"foo\"" || "\"bar\"" },
+function logical14(x: number): Array<{ x: string }> {
+  return [
+    { x : x || "\"bar\"" },
+    { x : false || "\"bar\"" },
+    { x : false || true },
+    { x : true || false },
+    { x : 0 || "\"bar\"" },
+    { x : "\"foo\"" || "\"bar\"" },
+    { x : "\"foo\"" || "\"bar\"" },
+    { x : "\"foo\"" || "\"bar\"" },
   ];
 }
-/**
+ /**
  * || in an addition
  */
-function logical15a(): number {
-  return  5 + (x || 7);
+function logical15a(x: number): number {
+  return 5 + (x || 7);
 }
-/**
+ /**
  * || in an addition
  */
-function logical15b(): number {
-  return  (x || 7) + 5;
+function logical15b(x: number): number {
+  return (x || 7) + 5;
 }
-/**
+ /**
  * && in an addition
  */
-function logical15c(): number {
-  return  5 + (x && 7);
+function logical15c(x: number): number {
+  return 5 + (x && 7);
 }
-/**
+ /**
  * && in an addition
  */
-function logical15d(): number {
-  return  (x && 7) + 5;
+function logical15d(x: number): number {
+  return (x && 7) + 5;
 }
-/**
+ /**
  * || in a comparison
  */
-function logical16a(): boolean {
-  return  5  < (x || 7);
+function logical16a(x: number): boolean {
+  return 5  < (x || 7);
 }
-/**
+ /**
  * || in a comparison
  */
-function logical16b(): boolean {
-  return  (x || 7)  < 5;
+function logical16b(x: number): boolean {
+  return (x || 7)  < 5;
 }
-/**
+ /**
  * && in a comparison
  */
-function logical16c(): boolean {
-  return  5  < (x && 7);
+function logical16c(x: number): boolean {
+  return 5  < (x && 7);
 }
-/**
+ /**
  * && in a comparison
  */
-function logical16d(): boolean {
-  return  (x && 7)  < 5;
+function logical16d(x: number): boolean {
+  return (x && 7)  < 5;
 }
-/**
+ /**
  * || in an equality
  */
-function logical17a(): boolean {
-  return  5 == (x || 7);
+function logical17a(x: number): boolean {
+  return 5 == (x || 7);
 }
-/**
+ /**
  * || in an equality
  */
-function logical17b(): boolean {
-  return  (x || 7) == 5;
+function logical17b(x: number): boolean {
+  return (x || 7) == 5;
 }
-/**
+ /**
  * && in an equality
  */
-function logical17c(): boolean {
-  return  5 == (x && 7);
+function logical17c(x: number): boolean {
+  return 5 == (x && 7);
 }
-/**
+ /**
  * && in an equality
  */
-function logical17d(): boolean {
-  return  (x && 7) == 5;
+function logical17d(x: number): boolean {
+  return (x && 7) == 5;
 }
-/**
+ /**
  * Expressions on each side that return truthy things
  */
-function logical18a(): number {
-  return  x - 1 || y - 1;
+function logical18a(x: number, y: number): number {
+  return x - 1 || y - 1;
 }
-/**
+ /**
  * Sentinel properties should not interfere
  */
-function logical18b(): number {
-  return  x.a - 1 || y.b - 1;
+function logical18b(x: { a: number }, y: { b: number }): number {
+  return x.a - 1 || y.b - 1;
 }
-/**
+ /**
  * Layer of indirection in the LHS (get prop)
  */
-function logical19a(): boolean {
-  return  (x.y && x.z); // error: x.y is a string
-
+function logical19a(x: { y: string, z: boolean }): boolean {
+  return (x.y && x.z);// error: x.y is a string
 }
-function logical19b(): boolean {
-  return  (x.y || x.z); // error: x.y is a string
-
+function logical19b(x: { y: string, z: boolean }): boolean {
+  return (x.y || x.z);// error: x.y is a string
 }
+
 ```
 
 ### Diagnostics

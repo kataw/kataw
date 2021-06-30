@@ -44,7 +44,7 @@ class C { #aaa; f(obj) { obj.#aaa } }
                             "kind": 280,
                             "decorators": null,
                             "declaredToken": null,
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "asyncKeyword": null,
                             "key": {
                                 "kind": 134299649,
@@ -62,8 +62,8 @@ class C { #aaa; f(obj) { obj.#aaa } }
                             "end": 14
                         },
                         {
-                            "kind": 317,
-                            "flags": 96,
+                            "kind": 1108353041,
+                            "flags": 64,
                             "start": 14,
                             "end": 15
                         },
@@ -131,7 +131,7 @@ class C { #aaa; f(obj) { obj.#aaa } }
                                                         "start": 29,
                                                         "end": 33
                                                     },
-                                                    "flags": 536870944,
+                                                    "flags": 96,
                                                     "start": 24,
                                                     "end": 33
                                                 },
@@ -184,12 +184,11 @@ class C { #aaa; f(obj) { obj.#aaa } }
 ```javascript
 
 class C {
-  #aaa;
-
-  f() {
-    obj.#aaa;
-  }
+  #aaa
+  ;
+  f(obj) { obj.#aaa; }
 }
+
 ```
 
 ### Diagnostics

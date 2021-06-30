@@ -198,10 +198,11 @@ var C = class { static async *gen() {
 ```javascript
 
 var C = class  {
-  async static static gen() {
+  static async *gen() {
     void  yield;
   }
 };
+
 ```
 
 ### Diagnostics

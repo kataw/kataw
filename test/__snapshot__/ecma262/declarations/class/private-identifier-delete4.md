@@ -47,7 +47,7 @@ class Foo { #foo; foo() { delete this?.#foo } }
                             "kind": 280,
                             "decorators": null,
                             "declaredToken": null,
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "asyncKeyword": null,
                             "key": {
                                 "kind": 134299649,
@@ -65,8 +65,8 @@ class Foo { #foo; foo() { delete this?.#foo } }
                             "end": 17
                         },
                         {
-                            "kind": 317,
-                            "flags": 96,
+                            "kind": 1108353041,
+                            "flags": 64,
                             "start": 17,
                             "end": 18
                         },
@@ -131,7 +131,7 @@ class Foo { #foo; foo() { delete this?.#foo } }
                                                             "start": 39,
                                                             "end": 43
                                                         },
-                                                        "flags": 536870944,
+                                                        "flags": 96,
                                                         "start": 33,
                                                         "end": 43
                                                     },
@@ -202,7 +202,7 @@ class Foo { #foo; foo() { delete this?.#foo } }
                             "kind": 280,
                             "decorators": null,
                             "declaredToken": null,
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "asyncKeyword": null,
                             "key": {
                                 "kind": 134299649,
@@ -220,8 +220,8 @@ class Foo { #foo; foo() { delete this?.#foo } }
                             "end": 65
                         },
                         {
-                            "kind": 317,
-                            "flags": 96,
+                            "kind": 1108353041,
+                            "flags": 64,
                             "start": 65,
                             "end": 66
                         },
@@ -287,7 +287,7 @@ class Foo { #foo; foo() { delete this?.#foo } }
                                                         "chain": {
                                                             "kind": 302,
                                                             "chain": {
-                                                                "kind": 536871114,
+                                                                "kind": 202,
                                                                 "chain": null,
                                                                 "expression": {
                                                                     "kind": 67191035,
@@ -297,7 +297,7 @@ class Foo { #foo; foo() { delete this?.#foo } }
                                                                     "start": 88,
                                                                     "end": 92
                                                                 },
-                                                                "flags": 32,
+                                                                "flags": 536870944,
                                                                 "start": 88,
                                                                 "end": 92
                                                             },

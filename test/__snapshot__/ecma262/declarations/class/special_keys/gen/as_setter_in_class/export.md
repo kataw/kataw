@@ -141,8 +141,9 @@ class x {set export(x){}}
 ```javascript
 
 class x {
-  set export() {}
+  set export(x) { }
 }
+
 ```
 
 ### Diagnostics

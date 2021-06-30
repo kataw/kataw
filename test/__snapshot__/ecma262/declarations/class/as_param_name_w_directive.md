@@ -137,8 +137,11 @@ class c {foo(eval){ "use strict"; }}
 ```javascript
 
 class c {
-  foo() {}
+  foo(eval) {
+  "\"use strict\"";
+  }
 }
+
 ```
 
 ### Diagnostics

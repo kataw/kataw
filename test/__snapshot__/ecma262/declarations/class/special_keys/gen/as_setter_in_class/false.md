@@ -141,8 +141,9 @@ class x {set false(x){}}
 ```javascript
 
 class x {
-  set false() {}
+  set false(x) { }
 }
+
 ```
 
 ### Diagnostics

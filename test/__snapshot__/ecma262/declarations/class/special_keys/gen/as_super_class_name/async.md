@@ -94,7 +94,9 @@ class x extends async {}
 
 ```javascript
 
-class x  {}
+class x extends async {
+}
+
 ```
 
 ### Diagnostics

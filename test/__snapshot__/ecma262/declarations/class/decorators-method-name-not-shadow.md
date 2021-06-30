@@ -174,9 +174,10 @@ class Foo {
 @decorator
 class Foo {
   method() {
-    return  method;
+    return method;
   }
 }
+
 ```
 
 ### Diagnostics

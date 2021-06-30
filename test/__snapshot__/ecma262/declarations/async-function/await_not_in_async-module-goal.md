@@ -62,8 +62,8 @@ f(await 1);
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 16,
-                "end": 19
+                "start": 17,
+                "end": 18
             },
             "contents": {
                 "kind": 216,
@@ -168,10 +168,9 @@ f(await 1);
 
 ```javascript
 
-async function f() {
-  return  x;
-}
+async function f(x) { return x; }
 f(await 1);
+
 ```
 
 ### Diagnostics

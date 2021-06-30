@@ -947,6 +947,7 @@ export function visitEachChild(
         ? createIndexExpression(
             (<IndexExpression>node).member,
             (<IndexExpression>node).expression,
+            (<IndexExpression>node).flags,
             (<IndexExpression>node).start,
             (<IndexExpression>node).end
           )
@@ -1314,7 +1315,7 @@ export function visitEachChild(
     case SyntaxKind.FieldDefinition:
       return (<FieldDefinition>node).decorators !== visitNode((<FieldDefinition>node).decorators, visitor) ||
         (<FieldDefinition>node).declaredToken !== visitNode((<FieldDefinition>node).declaredToken, visitor) ||
-        (<FieldDefinition>node).staticToken !== visitNode((<FieldDefinition>node).staticToken, visitor) ||
+        (<FieldDefinition>node).staticKeyword !== visitNode((<FieldDefinition>node).staticKeyword, visitor) ||
         (<FieldDefinition>node).asyncKeyword !== visitNode((<FieldDefinition>node).asyncKeyword, visitor) ||
         (<FieldDefinition>node).key !== visitNode((<FieldDefinition>node).key, visitor) ||
         (<FieldDefinition>node).optionalToken !== visitNode((<FieldDefinition>node).optionalToken, visitor) ||
@@ -1323,7 +1324,7 @@ export function visitEachChild(
         ? createFieldDefinition(
             (<FieldDefinition>node).decorators,
             (<FieldDefinition>node).declaredToken,
-            (<FieldDefinition>node).staticToken,
+            (<FieldDefinition>node).staticKeyword,
             (<FieldDefinition>node).asyncKeyword,
             (<FieldDefinition>node).key,
             (<FieldDefinition>node).optionalToken,
@@ -1486,10 +1487,12 @@ export function visitEachChild(
       case SyntaxKind.TypeParameter:
         return (<TypeParameter>node).name !== visitNode((<TypeParameter>node).name, visitor) ||
           (<TypeParameter>node).type !== visitNode((<TypeParameter>node).type, visitor) ||
+          (<TypeParameter>node).assignToken !== visitNode((<TypeParameter>node).assignToken, visitor) ||
           (<TypeParameter>node).defaultType !== visitNode((<TypeParameter>node).defaultType, visitor)
           ? createTypeParameter(
               (<TypeParameter>node).name,
               (<TypeParameter>node).type,
+              (<TypeParameter>node).assignToken,
               (<TypeParameter>node).defaultType,
               (<TypeParameter>node).start,
               (<TypeParameter>node).end
@@ -1584,14 +1587,14 @@ export function visitEachChild(
           (<ObjectTypeCallProperty>node).typeParameter !==
             visitNode((<ObjectTypeCallProperty>node).typeParameter, visitor) ||
           (<ObjectTypeCallProperty>node).value !== visitNode((<ObjectTypeCallProperty>node).value, visitor) ||
-          (<ObjectTypeCallProperty>node).staticToken !==
-            visitNode((<ObjectTypeCallProperty>node).staticToken, visitor) ||
+          (<ObjectTypeCallProperty>node).staticKeyword !==
+            visitNode((<ObjectTypeCallProperty>node).staticKeyword, visitor) ||
           (<ObjectTypeCallProperty>node).returnType !== visitNode((<ObjectTypeCallProperty>node).returnType, visitor)
           ? createObjectTypeCallProperty(
               (<ObjectTypeCallProperty>node).protoKeyword,
               (<ObjectTypeCallProperty>node).typeParameter,
               (<ObjectTypeCallProperty>node).value,
-              (<ObjectTypeCallProperty>node).staticToken,
+              (<ObjectTypeCallProperty>node).staticKeyword,
               (<ObjectTypeCallProperty>node).returnType,
               (<ObjectTypeCallProperty>node).start,
               (<ObjectTypeCallProperty>node).end
@@ -1601,11 +1604,11 @@ export function visitEachChild(
         return (<ObjectTypeIndexer>node).protoKeyword !== visitNode((<ObjectTypeIndexer>node).protoKeyword, visitor) ||
           (<ObjectTypeIndexer>node).name !== visitNode((<ObjectTypeIndexer>node).name, visitor) ||
           (<ObjectTypeIndexer>node).key !== visitNode((<ObjectTypeIndexer>node).key, visitor) ||
-          (<ObjectTypeIndexer>node).staticToken !== visitNode((<ObjectTypeIndexer>node).staticToken, visitor) ||
+          (<ObjectTypeIndexer>node).staticKeyword !== visitNode((<ObjectTypeIndexer>node).staticKeyword, visitor) ||
           (<ObjectTypeIndexer>node).type !== visitNode((<ObjectTypeIndexer>node).type, visitor)
           ? createObjectTypeIndexer(
               (<ObjectTypeIndexer>node).protoKeyword,
-              (<ObjectTypeIndexer>node).staticToken,
+              (<ObjectTypeIndexer>node).staticKeyword,
               (<ObjectTypeIndexer>node).name,
               (<ObjectTypeIndexer>node).key,
               (<ObjectTypeIndexer>node).type,
@@ -1618,14 +1621,14 @@ export function visitEachChild(
           visitNode((<ObjectTypeInternalSlot>node).protoKeyword, visitor) ||
           (<ObjectTypeInternalSlot>node).optionalToken !==
             visitNode((<ObjectTypeInternalSlot>node).optionalToken, visitor) ||
-          (<ObjectTypeInternalSlot>node).staticToken !==
-            visitNode((<ObjectTypeInternalSlot>node).staticToken, visitor) ||
+          (<ObjectTypeInternalSlot>node).staticKeyword !==
+            visitNode((<ObjectTypeInternalSlot>node).staticKeyword, visitor) ||
           (<ObjectTypeInternalSlot>node).type !== visitNode((<ObjectTypeInternalSlot>node).type, visitor)
           ? createObjectTypeInternalSlot(
               (<ObjectTypeInternalSlot>node).protoKeyword,
               (<ObjectTypeInternalSlot>node).name,
               (<ObjectTypeInternalSlot>node).optionalToken,
-              (<ObjectTypeInternalSlot>node).staticToken,
+              (<ObjectTypeInternalSlot>node).staticKeyword,
               (<ObjectTypeInternalSlot>node).type,
               (<ObjectTypeInternalSlot>node).start,
               (<ObjectTypeInternalSlot>node).end
@@ -1637,7 +1640,7 @@ export function visitEachChild(
           (<ObjectTypeProperty>node).key !== visitNode((<ObjectTypeProperty>node).key, visitor) ||
           (<ObjectTypeProperty>node).type !== visitNode((<ObjectTypeProperty>node).type, visitor) ||
           (<ObjectTypeProperty>node).optionalToken !== visitNode((<ObjectTypeProperty>node).optionalToken, visitor) ||
-          (<ObjectTypeProperty>node).staticToken !== visitNode((<ObjectTypeProperty>node).staticToken, visitor) ||
+          (<ObjectTypeProperty>node).staticKeyword !== visitNode((<ObjectTypeProperty>node).staticKeyword, visitor) ||
           (<ObjectTypeProperty>node).protoKeyword !== visitNode((<ObjectTypeProperty>node).protoKeyword, visitor)
           ? createObjectTypeProperty(
               (<ObjectTypeProperty>node).getKeyword,
@@ -1645,7 +1648,7 @@ export function visitEachChild(
               (<ObjectTypeProperty>node).key,
               (<ObjectTypeProperty>node).type,
               (<ObjectTypeProperty>node).optionalToken,
-              (<ObjectTypeProperty>node).staticToken,
+              (<ObjectTypeProperty>node).staticKeyword,
               (<ObjectTypeProperty>node).protoKeyword,
               (<ObjectTypeProperty>node).start,
               (<ObjectTypeProperty>node).end

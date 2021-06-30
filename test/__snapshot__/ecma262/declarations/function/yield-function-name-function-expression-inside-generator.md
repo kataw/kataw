@@ -47,8 +47,8 @@ function* fn() {
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 12,
-                "end": 14
+                "start": 13,
+                "end": 13
             },
             "contents": {
                 "kind": 216,
@@ -84,8 +84,8 @@ function* fn() {
                                         "formalParameters": [],
                                         "trailingComma": false,
                                         "flags": 32,
-                                        "start": 34,
-                                        "end": 36
+                                        "start": 35,
+                                        "end": 35
                                     },
                                     "contents": {
                                         "kind": 216,
@@ -142,9 +142,10 @@ function* fn() {
 
 ```javascript
 
-function * fn() {
-  (function yield() {});
+function* fn() {
+  (function yield() { });
 }
+
 ```
 
 ### Diagnostics

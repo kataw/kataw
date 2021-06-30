@@ -60,6 +60,7 @@ class Foo7<T> {
                                 "end": 12
                             },
                             "type": null,
+                            "assignToken": null,
                             "defaultType": null,
                             "flags": 2097152,
                             "start": 11,
@@ -116,6 +117,7 @@ class Foo7<T> {
                                                     "end": 23
                                                 },
                                                 "type": null,
+                                                "assignToken": null,
                                                 "defaultType": null,
                                                 "flags": 2097152,
                                                 "start": 22,
@@ -223,11 +225,10 @@ class Foo7<T> {
 
 ```javascript
 
-class Foo7 {
-  bar() {
-    return  42;
-  }
+class Foo7<T> {
+  bar<U>(): number { return 42; }
 }
+
 ```
 
 ### Diagnostics

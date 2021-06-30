@@ -59,7 +59,7 @@ class C {
                                 "start": 9,
                                 "end": 19
                             },
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "asyncKeyword": null,
                             "key": {
                                 "kind": 134299649,
@@ -77,8 +77,8 @@ class C {
                             "end": 21
                         },
                         {
-                            "kind": 317,
-                            "flags": 96,
+                            "kind": 1108353041,
+                            "flags": 64,
                             "start": 21,
                             "end": 22
                         }
@@ -110,9 +110,10 @@ class C {
 ```javascript
 
 class C {
-  declare x;
-
+  declarex
+  ;
 }
+
 ```
 
 ### Diagnostics

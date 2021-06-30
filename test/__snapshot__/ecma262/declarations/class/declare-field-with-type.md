@@ -59,7 +59,7 @@ class A {
                                 "start": 9,
                                 "end": 19
                             },
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "asyncKeyword": null,
                             "key": {
                                 "kind": 134299649,
@@ -117,8 +117,9 @@ class A {
 ```javascript
 
 class A {
-  declare foo;
+  declarefoo: string
 }
+
 ```
 
 ### Diagnostics

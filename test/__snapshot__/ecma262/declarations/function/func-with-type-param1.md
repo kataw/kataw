@@ -58,6 +58,7 @@ function foo<T,S>() {}
                                 "end": 14
                             },
                             "type": null,
+                            "assignToken": null,
                             "defaultType": null,
                             "flags": 2097152,
                             "start": 13,
@@ -74,6 +75,7 @@ function foo<T,S>() {}
                                 "end": 16
                             },
                             "type": null,
+                            "assignToken": null,
                             "defaultType": null,
                             "flags": 2097152,
                             "start": 15,
@@ -94,8 +96,8 @@ function foo<T,S>() {}
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 17,
-                "end": 19
+                "start": 18,
+                "end": 18
             },
             "contents": {
                 "kind": 216,
@@ -130,7 +132,8 @@ function foo<T,S>() {}
 
 ```javascript
 
-function  <T, S >foo() {}
+function foo<T, S> () { }
+
 ```
 
 ### Diagnostics

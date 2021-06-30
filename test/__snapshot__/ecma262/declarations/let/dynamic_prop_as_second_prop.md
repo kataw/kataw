@@ -139,6 +139,7 @@ let {
   a,
   [x]: y
 } = a;
+
 ```
 
 ### Diagnostics

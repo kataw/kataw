@@ -138,8 +138,9 @@ class C { static set #aaa(x){} }
 ```javascript
 
 class C {
-  static set static #aaa() {}
+  static set #aaa(x) { }
 }
+
 ```
 
 ### Diagnostics

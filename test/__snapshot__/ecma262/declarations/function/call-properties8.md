@@ -68,7 +68,7 @@ function b(x: { (z: number): string }): (z: number) => number {
                                     {
                                         "kind": 196,
                                         "protoKeyword": null,
-                                        "staticToken": null,
+                                        "staticKeyword": null,
                                         "typeParameter": null,
                                         "value": {
                                             "kind": 282,
@@ -145,8 +145,8 @@ function b(x: { (z: number): string }): (z: number) => number {
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 10,
-                "end": 38
+                "start": 11,
+                "end": 37
             },
             "contents": {
                 "kind": 216,
@@ -275,9 +275,10 @@ function b(x: { (z: number): string }): (z: number) => number {
 
 ```javascript
 
-function b():  {
-  return  x;
+function b(x: { (z: number): string }): (z: number) => number {
+  return x;
 }
+
 ```
 
 ### Diagnostics

@@ -73,8 +73,8 @@ b
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 28,
-                "end": 123
+                "start": 29,
+                "end": 96
             },
             "contents": {
                 "kind": 216,
@@ -109,7 +109,13 @@ b
 
 ```javascript
 
-function commentedParameters() {}
+function commentedParameters(
+   /* Parameter a */
+  a
+   /* End of parameter a */
+  /* Parameter b */
+  , b) { }
+
 ```
 
 ### Diagnostics

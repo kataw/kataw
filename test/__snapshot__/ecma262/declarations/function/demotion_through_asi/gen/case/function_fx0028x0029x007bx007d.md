@@ -51,8 +51,8 @@ function f(){
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 10,
-                "end": 12
+                "start": 11,
+                "end": 11
             },
             "contents": {
                 "kind": 216,
@@ -99,8 +99,8 @@ function f(){
                                 "formalParameters": [],
                                 "trailingComma": false,
                                 "flags": 32,
-                                "start": 41,
-                                "end": 43
+                                "start": 42,
+                                "end": 42
                             },
                             "contents": {
                                 "kind": 216,
@@ -151,8 +151,9 @@ function f(){
 
 function f() {
   "\"use strict\"";
-  function f() {}
+  function f() { }
 }
+
 ```
 
 ### Diagnostics

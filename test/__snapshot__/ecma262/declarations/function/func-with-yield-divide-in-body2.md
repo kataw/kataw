@@ -48,8 +48,8 @@ function f2() { yield /=2 /d }
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 11,
-                "end": 13
+                "start": 12,
+                "end": 12
             },
             "contents": {
                 "kind": 216,
@@ -139,9 +139,8 @@ function f2() { yield /=2 /d }
 
 ```javascript
 
-function f2() {
-  yield /= 2 / d;
-}
+function f2() { yield /= 2 / d; }
+
 ```
 
 ### Diagnostics

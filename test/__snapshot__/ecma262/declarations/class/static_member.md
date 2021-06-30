@@ -138,8 +138,9 @@ class A {static [a](){}}
 ```javascript
 
 class A {
-  static static [a]() {}
+  static [a]() { }
 }
+
 ```
 
 ### Diagnostics

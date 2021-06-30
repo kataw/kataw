@@ -148,7 +148,7 @@ hello();
                                                         "start": 65,
                                                         "end": 68
                                                     },
-                                                    "flags": 536870944,
+                                                    "flags": 96,
                                                     "start": 54,
                                                     "end": 68
                                                 },
@@ -265,10 +265,11 @@ hello();
 
 ```javascript
 
-let hello = () =>  {
-  console.log("'hello'" + greeting);
+let hello = (greeting: string = '\' world\'') =>  {
+  console.log('\'hello\'' + greeting);
 };
 hello();
+
 ```
 
 ### Diagnostics

@@ -142,8 +142,9 @@ class A { foo(a, b,) {} };
 ```javascript
 
 class A {
-  foo() {}
+  foo(a, b,) { }
 }
+;
 
 ```
 

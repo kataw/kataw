@@ -72,6 +72,7 @@ class C2<X, Y> {
                                 "end": 9
                             },
                             "type": null,
+                            "assignToken": null,
                             "defaultType": null,
                             "flags": 2097152,
                             "start": 8,
@@ -282,7 +283,7 @@ class C2<X, Y> {
                                                             "start": 60,
                                                             "end": 61
                                                         },
-                                                        "flags": 536870944,
+                                                        "flags": 97,
                                                         "start": 50,
                                                         "end": 61
                                                     },
@@ -355,7 +356,7 @@ class C2<X, Y> {
                                                                             "start": 98,
                                                                             "end": 105
                                                                         },
-                                                                        "flags": 536870944,
+                                                                        "flags": 96,
                                                                         "start": 92,
                                                                         "end": 105
                                                                     },
@@ -416,7 +417,7 @@ class C2<X, Y> {
                                                             "start": 131,
                                                             "end": 134
                                                         },
-                                                        "flags": 536870944,
+                                                        "flags": 96,
                                                         "start": 125,
                                                         "end": 134
                                                     },
@@ -500,6 +501,7 @@ class C2<X, Y> {
                                 "end": 155
                             },
                             "type": null,
+                            "assignToken": null,
                             "defaultType": null,
                             "flags": 2097152,
                             "start": 154,
@@ -516,6 +518,7 @@ class C2<X, Y> {
                                 "end": 158
                             },
                             "type": null,
+                            "assignToken": null,
                             "defaultType": null,
                             "flags": 2097152,
                             "start": 156,
@@ -541,7 +544,7 @@ class C2<X, Y> {
                             "kind": 280,
                             "decorators": null,
                             "declaredToken": null,
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "asyncKeyword": null,
                             "key": {
                                 "kind": 134299649,
@@ -562,7 +565,7 @@ class C2<X, Y> {
                                         {
                                             "kind": 193,
                                             "protoKeyword": null,
-                                            "staticToken": null,
+                                            "staticKeyword": null,
                                             "getKeyword": null,
                                             "setKeyword": null,
                                             "key": {
@@ -617,8 +620,8 @@ class C2<X, Y> {
                             "end": 173
                         },
                         {
-                            "kind": 317,
-                            "flags": 96,
+                            "kind": 1108353041,
+                            "flags": 64,
                             "start": 173,
                             "end": 174
                         },
@@ -763,7 +766,7 @@ class C2<X, Y> {
                                                         "start": 211,
                                                         "end": 212
                                                     },
-                                                    "flags": 536870944,
+                                                    "flags": 96,
                                                     "start": 205,
                                                     "end": 212
                                                 },
@@ -815,22 +818,23 @@ class C2<X, Y> {
 
 ```javascript
 
-class E  {
-  set() {
+class E<X> extends C<X, number> {
+  set(x: X): X {
     this.x = x;
     if (x) {
-        return  this.get_bad();
-      }
-    return  this.get();
+      return this.get_bad();
+    }
+    return this.get();
   }
 }
-class C2 {
-  x;
+class C2<X, Y> {
+  x: { p: Y }
+  ;
+  foo(): D2<X, Y> {
+    return this.x;
+  }
+}
 
-  foo() {
-    return  this.x;
-  }
-}
 ```
 
 ### Diagnostics

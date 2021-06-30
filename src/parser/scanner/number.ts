@@ -332,6 +332,8 @@ export function scanNumber(parser: ParserState, context: Context, cp: number, so
 
   if (cp === Char.Period) {
     disallowBigInt = true;
+    parser.nodeFlags |= NodeFlags.FloatingPointLiteral;
+
     cp = source.charCodeAt(++parser.pos); // skips: '.'
     value += '.' + scanDigitsWithNumericSeparators(parser, parser.pos, cp);
     cp = source.charCodeAt(parser.pos);
@@ -362,7 +364,6 @@ export function scanNumber(parser: ParserState, context: Context, cp: number, so
   // e-<number>   E-<number>
   if ((cp | 32) === Char.LowerE) {
     cp = source.charCodeAt(++parser.pos);
-
     // e+ or E+ or e- or E-
     if (cp === Char.Plus || cp === Char.Hyphen) {
       cp = source.charCodeAt(++parser.pos);

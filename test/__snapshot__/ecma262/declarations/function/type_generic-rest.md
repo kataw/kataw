@@ -62,6 +62,7 @@ function remove<A, B>(a: A): [$Rest<A, {p: B}>, B] {
                                 "end": 17
                             },
                             "type": null,
+                            "assignToken": null,
                             "defaultType": null,
                             "flags": 2097152,
                             "start": 16,
@@ -78,6 +79,7 @@ function remove<A, B>(a: A): [$Rest<A, {p: B}>, B] {
                                 "end": 20
                             },
                             "type": null,
+                            "assignToken": null,
                             "defaultType": null,
                             "flags": 2097152,
                             "start": 18,
@@ -139,8 +141,8 @@ function remove<A, B>(a: A): [$Rest<A, {p: B}>, B] {
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 21,
-                "end": 27
+                "start": 22,
+                "end": 26
             },
             "contents": {
                 "kind": 216,
@@ -340,7 +342,7 @@ function remove<A, B>(a: A): [$Rest<A, {p: B}>, B] {
                                                         {
                                                             "kind": 193,
                                                             "protoKeyword": null,
-                                                            "staticToken": null,
+                                                            "staticKeyword": null,
                                                             "getKeyword": null,
                                                             "setKeyword": null,
                                                             "key": {
@@ -458,13 +460,14 @@ function remove<A, B>(a: A): [$Rest<A, {p: B}>, B] {
 
 ```javascript
 
-function  <A, B >remove():  [: , :  ] {
+function remove<A, B> (a: A): [$Rest<A, { p: B }>, B] {
   const {
     p,
     ...o
   } = a;
-  return  [o, p];
+  return [o, p,];
 }
+
 ```
 
 ### Diagnostics

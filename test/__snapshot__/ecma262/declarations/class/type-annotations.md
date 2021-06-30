@@ -80,6 +80,7 @@ class Array { concat(items:number | string) {}; }
                                 "end": 12
                             },
                             "type": null,
+                            "assignToken": null,
                             "defaultType": null,
                             "flags": 2097152,
                             "start": 11,
@@ -147,6 +148,7 @@ class Array { concat(items:number | string) {}; }
                                 "end": 29
                             },
                             "type": null,
+                            "assignToken": null,
                             "defaultType": null,
                             "flags": 2097152,
                             "start": 28,
@@ -271,6 +273,7 @@ class Array { concat(items:number | string) {}; }
                                 "end": 61
                             },
                             "type": null,
+                            "assignToken": null,
                             "defaultType": null,
                             "flags": 2097152,
                             "start": 60,
@@ -779,6 +782,7 @@ class Array { concat(items:number | string) {}; }
                                                     "end": 249
                                                 },
                                                 "type": null,
+                                                "assignToken": null,
                                                 "defaultType": null,
                                                 "flags": 2097152,
                                                 "start": 248,
@@ -867,7 +871,7 @@ class Array { concat(items:number | string) {}; }
                             "kind": 280,
                             "decorators": null,
                             "declaredToken": null,
-                            "staticToken": {
+                            "staticKeyword": {
                                 "kind": 8388716,
                                 "flags": 64,
                                 "start": 271,
@@ -903,8 +907,8 @@ class Array { concat(items:number | string) {}; }
                             "end": 294
                         },
                         {
-                            "kind": 317,
-                            "flags": 96,
+                            "kind": 1108353041,
+                            "flags": 64,
                             "start": 294,
                             "end": 295
                         },
@@ -912,7 +916,7 @@ class Array { concat(items:number | string) {}; }
                             "kind": 280,
                             "decorators": null,
                             "declaredToken": null,
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "asyncKeyword": null,
                             "key": {
                                 "kind": 134299649,
@@ -943,8 +947,8 @@ class Array { concat(items:number | string) {}; }
                             "end": 311
                         },
                         {
-                            "kind": 317,
-                            "flags": 96,
+                            "kind": 1108353041,
+                            "flags": 64,
                             "start": 311,
                             "end": 312
                         }
@@ -990,7 +994,7 @@ class Array { concat(items:number | string) {}; }
                             "kind": 280,
                             "decorators": null,
                             "declaredToken": null,
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "asyncKeyword": null,
                             "key": {
                                 "kind": 134299649,
@@ -1021,8 +1025,8 @@ class Array { concat(items:number | string) {}; }
                             "end": 345
                         },
                         {
-                            "kind": 317,
-                            "flags": 96,
+                            "kind": 1108353041,
+                            "flags": 64,
                             "start": 345,
                             "end": 346
                         },
@@ -1030,7 +1034,7 @@ class Array { concat(items:number | string) {}; }
                             "kind": 280,
                             "decorators": null,
                             "declaredToken": null,
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "asyncKeyword": null,
                             "key": {
                                 "kind": 134299649,
@@ -1061,8 +1065,8 @@ class Array { concat(items:number | string) {}; }
                             "end": 362
                         },
                         {
-                            "kind": 317,
-                            "flags": 96,
+                            "kind": 1108353041,
+                            "flags": 64,
                             "start": 362,
                             "end": 363
                         }
@@ -1202,8 +1206,8 @@ class Array { concat(items:number | string) {}; }
                             "end": 412
                         },
                         {
-                            "kind": 317,
-                            "flags": 96,
+                            "kind": 1108353041,
+                            "flags": 64,
                             "start": 412,
                             "end": 413
                         }
@@ -1234,37 +1238,41 @@ class Array { concat(items:number | string) {}; }
 
 ```javascript
 
-class Foo4 {}
-class Foo5  {}
-class Foo6  {}
+class Foo4<T> {
+}
+class Foo5<T> extends Bar<T> {
+}
+class Foo6<T> extends mixin(Bar) {
+}
 class Foo1 {
-  set fooProp() {}
+  set fooProp(value: number) { }
 }
 class Foo2 {
-  set fooProp() {}
+  set fooProp(value: number): void { }
 }
 class Foo3 {
-  get fooProp() {}
+  get fooProp(): number { }
 }
 class Foo8 {
-  "\"bar\""() {}
+  "\"bar\""<T>() { }
 }
 class Foo10 {
-  static prop1;
-
-  prop2;
-
+  static prop1: string
+  ;
+  prop2: number
+  ;
 }
 class Foo11 {
-  #prop1;
-
-  prop2;
-
+  #prop1: string
+  ;
+  prop2: number
+  ;
 }
 class Array {
-  concat() {}
-
+  concat(items: number | string) { }
+  ;
 }
+
 ```
 
 ### Diagnostics

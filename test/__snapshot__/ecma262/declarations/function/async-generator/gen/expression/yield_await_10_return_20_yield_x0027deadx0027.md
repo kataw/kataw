@@ -211,11 +211,8 @@
 
 ```javascript
 
-({ * async gen() {
-    yield await 10;
-    return  20;
-    yield "'dead'";
-  } });
+({ async * gen() { yield await 10; return 20; yield '\'dead\''; } });
+
 ```
 
 ### Diagnostics

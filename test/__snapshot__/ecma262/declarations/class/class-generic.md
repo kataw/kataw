@@ -62,6 +62,7 @@ class A<TYPE> {
                                 "end": 12
                             },
                             "type": null,
+                            "assignToken": null,
                             "defaultType": null,
                             "flags": 2097152,
                             "start": 8,
@@ -87,7 +88,7 @@ class A<TYPE> {
                             "kind": 280,
                             "decorators": null,
                             "declaredToken": null,
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "asyncKeyword": null,
                             "key": {
                                 "kind": 134299649,
@@ -260,7 +261,7 @@ class A<TYPE> {
                                                                 "start": 84,
                                                                 "end": 87
                                                             },
-                                                            "flags": 536870944,
+                                                            "flags": 96,
                                                             "start": 75,
                                                             "end": 87
                                                         },
@@ -294,8 +295,8 @@ class A<TYPE> {
                             "end": 93
                         },
                         {
-                            "kind": 317,
-                            "flags": 96,
+                            "kind": 1108353041,
+                            "flags": 64,
                             "start": 93,
                             "end": 94
                         },
@@ -470,7 +471,7 @@ class A<TYPE> {
                                                                 "start": 157,
                                                                 "end": 160
                                                             },
-                                                            "flags": 536870944,
+                                                            "flags": 96,
                                                             "start": 148,
                                                             "end": 160
                                                         },
@@ -530,15 +531,16 @@ class A<TYPE> {
 
 ```javascript
 
-class A {
+class A<TYPE> {
   aaf = () =>  {
-      return  new  Promise()  < TYPE > (console.log);
-    };
-
-  anf() {
-    return  new  Promise()  < TYPE > (console.log);
+    return new Promise  < TYPE > (console.log);
+  }
+  ;
+  anf(): Promise<TYPE> {
+    return new Promise  < TYPE > (console.log);
   }
 }
+
 ```
 
 ### Diagnostics

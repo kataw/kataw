@@ -111,8 +111,8 @@ function f({x:arg = (arg = 2)}) {}
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 10,
-                "end": 15
+                "start": 11,
+                "end": 14
             },
             "contents": {
                 "kind": 216,
@@ -145,8 +145,8 @@ function f({x:arg = (arg = 2)}) {}
                                 "formalParameters": [],
                                 "trailingComma": false,
                                 "flags": 32,
-                                "start": 27,
-                                "end": 29
+                                "start": 28,
+                                "end": 28
                             },
                             "contents": {
                                 "kind": 216,
@@ -304,8 +304,8 @@ function f({x:arg = (arg = 2)}) {}
                 ],
                 "trailingComma": false,
                 "flags": 34,
-                "start": 58,
-                "end": 65
+                "start": 59,
+                "end": 64
             },
             "contents": {
                 "kind": 216,
@@ -406,8 +406,8 @@ function f({x:arg = (arg = 2)}) {}
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 86,
-                "end": 102
+                "start": 87,
+                "end": 101
             },
             "contents": {
                 "kind": 216,
@@ -600,8 +600,8 @@ function f({x:arg = (arg = 2)}) {}
                 ],
                 "trailingComma": false,
                 "flags": 34,
-                "start": 150,
-                "end": 158
+                "start": 151,
+                "end": 157
             },
             "contents": {
                 "kind": 216,
@@ -779,8 +779,8 @@ function f({x:arg = (arg = 2)}) {}
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 206,
-                "end": 211
+                "start": 207,
+                "end": 210
             },
             "contents": {
                 "kind": 216,
@@ -944,8 +944,8 @@ function f({x:arg = (arg = 2)}) {}
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 250,
-                "end": 255
+                "start": 251,
+                "end": 254
             },
             "contents": {
                 "kind": 216,
@@ -1112,8 +1112,8 @@ function f({x:arg = (arg = 2)}) {}
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 302,
-                "end": 307
+                "start": 303,
+                "end": 306
             },
             "contents": {
                 "kind": 216,
@@ -1312,8 +1312,8 @@ function f({x:arg = (arg = 2)}) {}
                 ],
                 "trailingComma": false,
                 "flags": 34,
-                "start": 350,
-                "end": 360
+                "start": 351,
+                "end": 359
             },
             "contents": {
                 "kind": 216,
@@ -1500,8 +1500,8 @@ function f({x:arg = (arg = 2)}) {}
                 ],
                 "trailingComma": false,
                 "flags": 34,
-                "start": 399,
-                "end": 410
+                "start": 400,
+                "end": 409
             },
             "contents": {
                 "kind": 216,
@@ -1682,8 +1682,8 @@ function f({x:arg = (arg = 2)}) {}
                 ],
                 "trailingComma": false,
                 "flags": 34,
-                "start": 449,
-                "end": 456
+                "start": 450,
+                "end": 455
             },
             "contents": {
                 "kind": 216,
@@ -1847,8 +1847,8 @@ function f({x:arg = (arg = 2)}) {}
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 495,
-                "end": 500
+                "start": 496,
+                "end": 499
             },
             "contents": {
                 "kind": 216,
@@ -2126,8 +2126,8 @@ function f({x:arg = (arg = 2)}) {}
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 553,
-                "end": 580
+                "start": 554,
+                "end": 579
             },
             "contents": {
                 "kind": 216,
@@ -2220,8 +2220,8 @@ function f({x:arg = (arg = 2)}) {}
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 601,
-                "end": 606
+                "start": 602,
+                "end": 605
             },
             "contents": {
                 "kind": 216,
@@ -2298,8 +2298,8 @@ function f({x:arg = (arg = 2)}) {}
                                                 "formalParameters": [],
                                                 "trailingComma": false,
                                                 "flags": 32,
-                                                "start": 626,
-                                                "end": 628
+                                                "start": 627,
+                                                "end": 627
                                             },
                                             "contents": {
                                                 "kind": 216,
@@ -2454,8 +2454,8 @@ function f({x:arg = (arg = 2)}) {}
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 661,
-                "end": 666
+                "start": 662,
+                "end": 665
             },
             "contents": {
                 "kind": 216,
@@ -2665,8 +2665,8 @@ function f({x:arg = (arg = 2)}) {}
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 714,
-                "end": 719
+                "start": 715,
+                "end": 718
             },
             "contents": {
                 "kind": 216,
@@ -2894,8 +2894,8 @@ function f({x:arg = (arg = 2)}) {}
                 ],
                 "trailingComma": false,
                 "flags": 34,
-                "start": 775,
-                "end": 783
+                "start": 776,
+                "end": 782
             },
             "contents": {
                 "kind": 216,
@@ -3062,8 +3062,8 @@ function f({x:arg = (arg = 2)}) {}
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 830,
-                "end": 835
+                "start": 831,
+                "end": 834
             },
             "contents": {
                 "kind": 216,
@@ -3241,8 +3241,8 @@ function f({x:arg = (arg = 2)}) {}
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 883,
-                "end": 888
+                "start": 884,
+                "end": 887
             },
             "contents": {
                 "kind": 216,
@@ -3409,8 +3409,8 @@ function f({x:arg = (arg = 2)}) {}
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 931,
-                "end": 936
+                "start": 932,
+                "end": 935
             },
             "contents": {
                 "kind": 216,
@@ -3577,8 +3577,8 @@ function f({x:arg = (arg = 2)}) {}
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 992,
-                "end": 997
+                "start": 993,
+                "end": 996
             },
             "contents": {
                 "kind": 216,
@@ -3910,8 +3910,8 @@ function f({x:arg = (arg = 2)}) {}
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 1054,
-                "end": 1082
+                "start": 1055,
+                "end": 1081
             },
             "contents": {
                 "kind": 216,
@@ -4029,8 +4029,8 @@ function f({x:arg = (arg = 2)}) {}
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 1097,
-                "end": 1118
+                "start": 1098,
+                "end": 1117
             },
             "contents": {
                 "kind": 216,
@@ -4065,107 +4065,39 @@ function f({x:arg = (arg = 2)}) {}
 
 ```javascript
 
-function f() {
-  function h() {
-    g(arg);
-  }
-  h();
-}
-function f() {
-  g(arg);
-}
-function f() {
-  g(arg);
-  arguments[0] = 42;
-  g(arg);
-}
-function f() {
-  g(arg);
-  arguments[0] = 42;
-  g(arg);
-}
-function f() {
-  g(arg);
-  arg = 42;
-  g(arg);
-}
-function f() {
-  g(arg);
-  eval("'arg = 42'");
-  g(arg);
-}
-function f() {
-  g(arg);
-  var arg = 42;
-  g(arg);
-}
-function f() {
-  g(arg);
-  arg = 42;
-  g(arg);
-}
-function f() {
-  g(arg);
-  arg = 42;
-  g(arg);
-}
-function f() {
-  g(arg);
-  arg = 42;
-  g(arg);
-}
-function f() {
-  g(arg);
-  arg = 42;
-  g(arg);
-}
-function f() {
-  g(arg);
-}
-function f() {
-  g(arg);
-  g(function () {
-    arg = 42;
-  });
-  g(arg);
-}
-function f() {
-  g(arg);
-  g(() =>  arg = 42);
-  g(arg);
-}
-function f() {
-  g(arg);
-  g(() =>  eval("'arg = 42'"));
-  g(arg);
-}
-function f() {
-  g(arg);
-  eval("'arg = 42'");
-  g(arg);
-}
-function f() {
-  g(arg);
-  arguments[0] = 42;
-  g(arg);
-}
-function f() {
-  g(arg);
-  h(arguments);
-  g(arg);
-}
-function f() {
-  g(arg);
-  eval("'arguments[0] = 42'");
-  g(arg);
-}
-function f() {
-  g(arg);
-  g(() =>  arguments[0] = 42);
-  g(arg);
-}
-function f() {}
-function f() {}
+function f(arg) { function h() { g(arg); } ; h(); }
+function f(arg = 1) { g(arg); }
+function f(arg, arguments) { g(arg); arguments[0] = 42; g(arg); }
+function f(...arg) { g(arg); arguments[0] = 42; g(arg); }
+function f(arg) { g(arg); arg = 42; g(arg); }
+function f(arg) { g(arg); eval('\'arg = 42\''); g(arg); }
+function f(arg) { g(arg); var arg = 42; g(arg); }
+function f(arg, x = 1) { g(arg); arg = 42; g(arg); }
+function f(arg, ...x) { g(arg); arg = 42; g(arg); }
+function f(arg = 1) { g(arg); arg = 42; g(arg); }
+function f(arg) {
+'\'use strict\'';
+ g(arg); arg = 42; g(arg); }
+function f(arg, {
+    a = (g(arg), arg = 42)
+  }) { g(arg); }
+function f(arg) { g(arg); g(function () { arg = 42; }); g(arg); }
+function f(arg) { g(arg); g(() => arg = 42); g(arg); }
+function f(arg) { g(arg); g(() => eval('\'arg = 42\'')); g(arg); }
+function f(...arg) { g(arg); eval('\'arg = 42\''); g(arg); }
+function f(arg) { g(arg); arguments[0] = 42; g(arg); }
+function f(arg) { g(arg); h(arguments); g(arg); }
+function f(arg) { g(arg); eval('\'arguments[0] = 42\''); g(arg); }
+function f(arg) { g(arg); g(() => arguments[0] = 42); g(arg); }
+function f({
+    x: arg = 1
+  }, {
+    y: b = (arg = 2)
+  }) { }
+function f({
+    x: arg = (arg = 2)
+  }) { }
+
 ```
 
 ### Diagnostics

@@ -163,9 +163,8 @@
 
 ```javascript
 
-({ * async gen() {
-    +yield 3;
-  } });
+({ async * gen() { + yield 3; } });
+
 ```
 
 ### Diagnostics

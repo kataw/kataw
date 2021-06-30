@@ -52,7 +52,7 @@ class Foo { static x = this }
                             "kind": 280,
                             "decorators": null,
                             "declaredToken": null,
-                            "staticToken": {
+                            "staticKeyword": {
                                 "kind": 8388716,
                                 "flags": 64,
                                 "start": 11,
@@ -107,8 +107,9 @@ class Foo { static x = this }
 ```javascript
 
 class Foo {
-  static x = this;
+  static x = this
 }
+
 ```
 
 ### Diagnostics

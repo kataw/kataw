@@ -40,8 +40,8 @@ function g() {  function f(){} function f(){} }
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 10,
-                "end": 12
+                "start": 11,
+                "end": 11
             },
             "contents": {
                 "kind": 216,
@@ -74,8 +74,8 @@ function g() {  function f(){} function f(){} }
                                 "formalParameters": [],
                                 "trailingComma": false,
                                 "flags": 32,
-                                "start": 26,
-                                "end": 28
+                                "start": 27,
+                                "end": 27
                             },
                             "contents": {
                                 "kind": 216,
@@ -121,8 +121,8 @@ function g() {  function f(){} function f(){} }
                                 "formalParameters": [],
                                 "trailingComma": false,
                                 "flags": 32,
-                                "start": 41,
-                                "end": 43
+                                "start": 42,
+                                "end": 42
                             },
                             "contents": {
                                 "kind": 216,
@@ -171,10 +171,8 @@ function g() {  function f(){} function f(){} }
 
 ```javascript
 
-function g() {
-  function f() {}
-  function f() {}
-}
+function g() { function f() { } function f() { } }
+
 ```
 
 ### Diagnostics

@@ -279,16 +279,23 @@ class AnotherRomote {
 /**
  * Leading trivia
  */
-
+ /**
+ * Leading trivia
+ */
 @decorator("\"hello\"")
-class Remote {}
-/**
+class Remote {
+}
+ /**
+ * Floating Comment
+ */
+ /**
  * Floating Comment
  */
 @decorator("\"hi\"")
 class AnotherRomote {
-  constructor() {}
+  constructor() { }
 }
+
 ```
 
 ### Diagnostics

@@ -10,7 +10,7 @@ export interface ObjectTypeProperty extends SyntaxNode {
   readonly kind: SyntaxKind.ObjectTypeProperty;
   readonly getKeyword: SyntaxToken<TokenSyntaxKind> | null;
   readonly setKeyword: SyntaxToken<TokenSyntaxKind> | null;
-  readonly staticToken: SyntaxToken<TokenSyntaxKind> | null;
+  readonly staticKeyword: SyntaxToken<TokenSyntaxKind> | null;
   readonly protoKeyword: SyntaxToken<TokenSyntaxKind> | null;
   readonly key: Identifier | DummyIdentifier | StringLiteral | NumericLiteral;
   readonly optionalToken: SyntaxToken<TokenSyntaxKind> | null;
@@ -23,7 +23,7 @@ export function createObjectTypeProperty(
   key: Identifier | DummyIdentifier | StringLiteral | NumericLiteral,
   type: TypeNode,
   optionalToken: SyntaxToken<TokenSyntaxKind> | null,
-  staticToken: SyntaxToken<TokenSyntaxKind> | null,
+  staticKeyword: SyntaxToken<TokenSyntaxKind> | null,
   protoKeyword: SyntaxToken<TokenSyntaxKind> | null,
   start: number,
   end: number
@@ -31,7 +31,7 @@ export function createObjectTypeProperty(
   return {
     kind: SyntaxKind.ObjectTypeProperty,
     protoKeyword,
-    staticToken,
+    staticKeyword,
     getKeyword,
     setKeyword,
     key,

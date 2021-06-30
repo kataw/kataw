@@ -146,8 +146,9 @@ class x {static set debugger(x){}}
 ```javascript
 
 class x {
-  static set static debugger() {}
+  static set debugger(x) { }
 }
+
 ```
 
 ### Diagnostics

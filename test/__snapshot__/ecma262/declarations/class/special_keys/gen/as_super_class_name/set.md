@@ -94,7 +94,9 @@ class x extends set {}
 
 ```javascript
 
-class x  {}
+class x extends set {
+}
+
 ```
 
 ### Diagnostics

@@ -101,8 +101,8 @@ const f = async function * (source, block, opts) {
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
-                                "start": 26,
-                                "end": 48
+                                "start": 28,
+                                "end": 47
                             },
                             "contents": {
                                 "kind": 216,
@@ -213,8 +213,8 @@ const f = async function * (source, block, opts) {
                                                                         "formalParameters": [],
                                                                         "trailingComma": false,
                                                                         "flags": 32,
-                                                                        "start": 121,
-                                                                        "end": 124
+                                                                        "start": 123,
+                                                                        "end": 123
                                                                     },
                                                                     "contents": {
                                                                         "kind": 216,
@@ -287,7 +287,7 @@ const f = async function * (source, block, opts) {
                                                                                                                                 "start": 169,
                                                                                                                                 "end": 176
                                                                                                                             },
-                                                                                                                            "flags": 536870944,
+                                                                                                                            "flags": 96,
                                                                                                                             "start": 163,
                                                                                                                             "end": 176
                                                                                                                         },
@@ -299,7 +299,7 @@ const f = async function * (source, block, opts) {
                                                                                                                             "start": 177,
                                                                                                                             "end": 186
                                                                                                                         },
-                                                                                                                        "flags": 536870944,
+                                                                                                                        "flags": 96,
                                                                                                                         "start": 163,
                                                                                                                         "end": 186
                                                                                                                     },
@@ -408,7 +408,7 @@ const f = async function * (source, block, opts) {
                                                                                                             "start": 263,
                                                                                                             "end": 267
                                                                                                         },
-                                                                                                        "flags": 536870944,
+                                                                                                        "flags": 96,
                                                                                                         "start": 238,
                                                                                                         "end": 267
                                                                                                     },
@@ -447,7 +447,7 @@ const f = async function * (source, block, opts) {
                                                                                                                 "start": 296,
                                                                                                                 "end": 305
                                                                                                             },
-                                                                                                            "flags": 536870944,
+                                                                                                            "flags": 96,
                                                                                                             "start": 268,
                                                                                                             "end": 305
                                                                                                         },
@@ -474,7 +474,7 @@ const f = async function * (source, block, opts) {
                                                                                                                             "start": 312,
                                                                                                                             "end": 319
                                                                                                                         },
-                                                                                                                        "flags": 536870944,
+                                                                                                                        "flags": 96,
                                                                                                                         "start": 306,
                                                                                                                         "end": 319
                                                                                                                     },
@@ -486,7 +486,7 @@ const f = async function * (source, block, opts) {
                                                                                                                         "start": 320,
                                                                                                                         "end": 324
                                                                                                                     },
-                                                                                                                    "flags": 536870944,
+                                                                                                                    "flags": 96,
                                                                                                                     "start": 306,
                                                                                                                     "end": 324
                                                                                                                 }
@@ -533,7 +533,7 @@ const f = async function * (source, block, opts) {
                                                                                                             "start": 351,
                                                                                                             "end": 358
                                                                                                         },
-                                                                                                        "flags": 536870944,
+                                                                                                        "flags": 96,
                                                                                                         "start": 326,
                                                                                                         "end": 358
                                                                                                     },
@@ -631,19 +631,20 @@ const f = async function * (source, block, opts) {
 
 ```javascript
 
-const f = async function * () {
-  for await (const entry; of source) {
-      yield async function () {
-        const cid = await persist(entry.content.serialize(), block, opts);
-        return  {
-          cid,
-          path: entry.path,
-          unixfs: UnixFS.unmarshal(entry.content.Data),
-          node: entry.content
-        };
+const f = async function* (source, block, opts) {
+  for await (const entry of source) {
+    yield async function () {
+      const cid = await persist(entry.content.serialize(), block, opts);
+      return {
+        cid,
+        path : entry.path,
+        unixfs : UnixFS.unmarshal(entry.content.Data),
+        node : entry.content
       };
-    }
+    };
+  }
 };
+
 ```
 
 ### Diagnostics

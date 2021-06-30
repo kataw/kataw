@@ -64,6 +64,7 @@ class C<T> {
                                 "end": 9
                             },
                             "type": null,
+                            "assignToken": null,
                             "defaultType": null,
                             "flags": 2097152,
                             "start": 8,
@@ -89,7 +90,7 @@ class C<T> {
                             "kind": 280,
                             "decorators": null,
                             "declaredToken": null,
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "asyncKeyword": null,
                             "key": {
                                 "kind": 134299649,
@@ -129,7 +130,7 @@ class C<T> {
                                                             {
                                                                 "kind": 193,
                                                                 "protoKeyword": null,
-                                                                "staticToken": null,
+                                                                "staticKeyword": null,
                                                                 "getKeyword": null,
                                                                 "setKeyword": null,
                                                                 "key": {
@@ -202,8 +203,8 @@ class C<T> {
                             "end": 37
                         },
                         {
-                            "kind": 317,
-                            "flags": 96,
+                            "kind": 1108353041,
+                            "flags": 64,
                             "start": 37,
                             "end": 38
                         },
@@ -315,7 +316,7 @@ class C<T> {
                                                                         {
                                                                             "kind": 193,
                                                                             "protoKeyword": null,
-                                                                            "staticToken": null,
+                                                                            "staticKeyword": null,
                                                                             "getKeyword": null,
                                                                             "setKeyword": null,
                                                                             "key": {
@@ -422,7 +423,7 @@ class C<T> {
                                                                 "start": 104,
                                                                 "end": 107
                                                             },
-                                                            "flags": 536870944,
+                                                            "flags": 97,
                                                             "start": 94,
                                                             "end": 107
                                                         },
@@ -434,7 +435,7 @@ class C<T> {
                                                             "start": 108,
                                                             "end": 112
                                                         },
-                                                        "flags": 536870944,
+                                                        "flags": 97,
                                                         "start": 94,
                                                         "end": 112
                                                     },
@@ -507,14 +508,15 @@ class C<T> {
 
 ```javascript
 
-class C {
-  arr;
-
-  foo() {
-    var entry:  = { value };
+class C<T> {
+  arr: Array<{ value: T }>
+  ;
+  foo(value: T) {
+    var entry: { value: T } = { value };
     this.arr.push(entry);
   }
 }
+
 ```
 
 ### Diagnostics

@@ -56,7 +56,7 @@ class Test {
                             "kind": 280,
                             "decorators": null,
                             "declaredToken": null,
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "asyncKeyword": null,
                             "key": {
                                 "kind": 134299649,
@@ -81,8 +81,8 @@ class Test {
                             "end": 22
                         },
                         {
-                            "kind": 317,
-                            "flags": 96,
+                            "kind": 1108353041,
+                            "flags": 64,
                             "start": 22,
                             "end": 23
                         },
@@ -90,7 +90,7 @@ class Test {
                             "kind": 280,
                             "decorators": null,
                             "declaredToken": null,
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "asyncKeyword": null,
                             "key": {
                                 "kind": 134299649,
@@ -121,8 +121,8 @@ class Test {
                             "end": 34
                         },
                         {
-                            "kind": 317,
-                            "flags": 96,
+                            "kind": 1108353041,
+                            "flags": 64,
                             "start": 34,
                             "end": 35
                         },
@@ -130,7 +130,7 @@ class Test {
                             "kind": 280,
                             "decorators": null,
                             "declaredToken": null,
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "asyncKeyword": null,
                             "key": {
                                 "kind": 134299649,
@@ -155,8 +155,8 @@ class Test {
                             "end": 44
                         },
                         {
-                            "kind": 317,
-                            "flags": 96,
+                            "kind": 1108353041,
+                            "flags": 64,
                             "start": 44,
                             "end": 45
                         },
@@ -224,7 +224,7 @@ class Test {
                                                         "start": 71,
                                                         "end": 73
                                                     },
-                                                    "flags": 536870944,
+                                                    "flags": 96,
                                                     "start": 65,
                                                     "end": 73
                                                 },
@@ -313,7 +313,7 @@ class Test {
                                                         "start": 102,
                                                         "end": 104
                                                     },
-                                                    "flags": 536870944,
+                                                    "flags": 96,
                                                     "start": 96,
                                                     "end": 104
                                                 },
@@ -524,7 +524,7 @@ class Test {
                                                                         "start": 177,
                                                                         "end": 179
                                                                     },
-                                                                    "flags": 536870944,
+                                                                    "flags": 96,
                                                                     "start": 172,
                                                                     "end": 179
                                                                 },
@@ -544,7 +544,7 @@ class Test {
                                                                         "start": 185,
                                                                         "end": 187
                                                                     },
-                                                                    "flags": 536870944,
+                                                                    "flags": 96,
                                                                     "start": 180,
                                                                     "end": 187
                                                                 },
@@ -564,7 +564,7 @@ class Test {
                                                                         "start": 193,
                                                                         "end": 194
                                                                     },
-                                                                    "flags": 536870944,
+                                                                    "flags": 96,
                                                                     "start": 188,
                                                                     "end": 194
                                                                 }
@@ -602,7 +602,7 @@ class Test {
                                                                 "start": 203,
                                                                 "end": 208
                                                             },
-                                                            "flags": 536870944,
+                                                            "flags": 96,
                                                             "start": 197,
                                                             "end": 208
                                                         },
@@ -671,25 +671,22 @@ class Test {
 ```javascript
 
 class Test {
-  #x = 2;
-
-  #y = [];
-
-  z = 2;
-
-  get x() {
-    return  this.#x;
-  }
-  get y() {
-    return  this.#y;
-  }
+  #x = 2
+  ;
+  #y = []
+  ;
+  z = 2
+  ;
+  get x() { return this.#x; }
+  get y() { return this.#y; }
   world() {
-    return  [1, [2, 3], 4];
+    return [1, [2, 3,], 4,];
   }
   hello() {
-    [this.#x, this.#y, this.z] = this.world();
+    [this.#x, this.#y, this.z,] = this.world();
   }
 }
+
 ```
 
 ### Diagnostics

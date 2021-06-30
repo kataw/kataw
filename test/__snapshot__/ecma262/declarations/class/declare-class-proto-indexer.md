@@ -61,7 +61,7 @@ declare class C { proto [K]: V }
                                 "start": 17,
                                 "end": 23
                             },
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "name": null,
                             "key": {
                                 "kind": 144,
@@ -133,7 +133,8 @@ declare class C { proto [K]: V }
 
 ```javascript
 
-declare class C TODO!
+declare class C { [K]: V }
+
 ```
 
 ### Diagnostics

@@ -146,8 +146,9 @@ class x {static set catch(x){}}
 ```javascript
 
 class x {
-  static set static catch() {}
+  static set catch(x) { }
 }
+
 ```
 
 ### Diagnostics

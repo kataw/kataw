@@ -162,8 +162,10 @@ for (const x in [1, 2, 3]) { x++ }
 
 ```javascript
 
-for (const x; in [1, 2, 3])
-  {}
+for (const x in [1, 2, 3,]) {
+  x++;
+}
+
 ```
 
 ### Diagnostics

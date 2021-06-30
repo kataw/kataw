@@ -132,8 +132,9 @@ class x {static var(){}}
 ```javascript
 
 class x {
-  static static var() {}
+  static var() { }
 }
+
 ```
 
 ### Diagnostics

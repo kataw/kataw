@@ -59,8 +59,8 @@ function createElement(tagName: "div"): HTMLDivElement {}
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 22,
-                "end": 31
+                "start": 23,
+                "end": 30
             },
             "contents": {
                 "kind": 216,
@@ -83,6 +83,7 @@ function createElement(tagName: "div"): HTMLDivElement {}
                 "type": {
                     "kind": 134217967,
                     "text": "div",
+                    "rawText": "\"div\"",
                     "flags": 2097216,
                     "start": 31,
                     "end": 37

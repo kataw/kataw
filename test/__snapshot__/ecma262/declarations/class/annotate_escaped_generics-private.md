@@ -67,6 +67,7 @@ class I<X> {
                                 "end": 9
                             },
                             "type": null,
+                            "assignToken": null,
                             "defaultType": null,
                             "flags": 2097152,
                             "start": 8,
@@ -92,7 +93,7 @@ class I<X> {
                             "kind": 280,
                             "decorators": null,
                             "declaredToken": null,
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "asyncKeyword": null,
                             "key": {
                                 "kind": 134299649,
@@ -110,8 +111,8 @@ class I<X> {
                             "end": 17
                         },
                         {
-                            "kind": 317,
-                            "flags": 96,
+                            "kind": 1108353041,
+                            "flags": 64,
                             "start": 17,
                             "end": 18
                         },
@@ -119,7 +120,7 @@ class I<X> {
                             "kind": 280,
                             "decorators": null,
                             "declaredToken": null,
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "asyncKeyword": null,
                             "key": {
                                 "kind": 134299649,
@@ -137,8 +138,8 @@ class I<X> {
                             "end": 23
                         },
                         {
-                            "kind": 317,
-                            "flags": 96,
+                            "kind": 1108353041,
+                            "flags": 64,
                             "start": 23,
                             "end": 24
                         },
@@ -351,7 +352,7 @@ class I<X> {
                                                             "start": 77,
                                                             "end": 79
                                                         },
-                                                        "flags": 536870944,
+                                                        "flags": 97,
                                                         "start": 67,
                                                         "end": 79
                                                     },
@@ -397,7 +398,7 @@ class I<X> {
                                                             "start": 94,
                                                             "end": 96
                                                         },
-                                                        "flags": 536870944,
+                                                        "flags": 97,
                                                         "start": 84,
                                                         "end": 96
                                                     },
@@ -467,19 +468,20 @@ class I<X> {
 
 ```javascript
 
-class I {
-  #i;
-
-  _f;
-
-  _h() {
-    return  x;
+class I<X> {
+  #i
+  ;
+  _f
+  ;
+  _h(x: X) {
+    return x;
   }
-  g() {
+  g(x: X) {
     this.#i = x;
     this._f = x;
   }
 }
+
 ```
 
 ### Diagnostics

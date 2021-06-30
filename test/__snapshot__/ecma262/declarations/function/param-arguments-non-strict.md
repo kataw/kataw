@@ -49,8 +49,8 @@ function foo(arguments){}
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 12,
-                "end": 23
+                "start": 13,
+                "end": 22
             },
             "contents": {
                 "kind": 216,
@@ -85,7 +85,8 @@ function foo(arguments){}
 
 ```javascript
 
-function foo() {}
+function foo(arguments) { }
+
 ```
 
 ### Diagnostics

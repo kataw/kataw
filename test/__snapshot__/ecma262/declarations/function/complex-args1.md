@@ -80,8 +80,8 @@ function f([b, a, a]) {}
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 10,
-                "end": 21
+                "start": 11,
+                "end": 20
             },
             "contents": {
                 "kind": 216,
@@ -116,7 +116,8 @@ function f([b, a, a]) {}
 
 ```javascript
 
-function f() {}
+function f([b, a, a]) { }
+
 ```
 
 ### Diagnostics

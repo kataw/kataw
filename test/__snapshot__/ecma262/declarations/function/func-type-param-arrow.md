@@ -45,8 +45,8 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 12,
-                "end": 14
+                "start": 13,
+                "end": 13
             },
             "contents": {
                 "kind": 216,
@@ -193,8 +193,8 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 49,
-                "end": 59
+                "start": 50,
+                "end": 58
             },
             "contents": {
                 "kind": 216,
@@ -384,8 +384,8 @@ function foo(callback: (_1:bool, ...foo:Array<number>) => number){}
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 107,
-                "end": 117
+                "start": 108,
+                "end": 116
             },
             "contents": {
                 "kind": 216,

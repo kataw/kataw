@@ -142,8 +142,9 @@ class x {static async * try(){}}
 ```javascript
 
 class x {
-  async static static try() {}
+  static async *try() { }
 }
+
 ```
 
 ### Diagnostics

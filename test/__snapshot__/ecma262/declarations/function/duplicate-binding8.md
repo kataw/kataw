@@ -40,8 +40,8 @@ function f() { function x() {} { var x } }
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 10,
-                "end": 12
+                "start": 11,
+                "end": 11
             },
             "contents": {
                 "kind": 216,
@@ -74,8 +74,8 @@ function f() { function x() {} { var x } }
                                 "formalParameters": [],
                                 "trailingComma": false,
                                 "flags": 32,
-                                "start": 25,
-                                "end": 27
+                                "start": 26,
+                                "end": 26
                             },
                             "contents": {
                                 "kind": 216,
@@ -175,12 +175,10 @@ function f() { function x() {} { var x } }
 
 ```javascript
 
-function f() {
-  function x() {}
-  {
-    var x;
-  }
-}
+function f() { function x() { } {
+  var x;
+} }
+
 ```
 
 ### Diagnostics

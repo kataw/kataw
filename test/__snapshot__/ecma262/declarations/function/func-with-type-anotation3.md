@@ -190,8 +190,8 @@ function foo(callback: (_1:bool, _2:string) => number){}
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 12,
-                "end": 54
+                "start": 13,
+                "end": 53
             },
             "contents": {
                 "kind": 216,
@@ -226,7 +226,8 @@ function foo(callback: (_1:bool, _2:string) => number){}
 
 ```javascript
 
-function foo() {}
+function foo(callback: (_1: bool, _2: string) => number) { }
+
 ```
 
 ### Diagnostics

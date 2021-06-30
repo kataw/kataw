@@ -146,7 +146,7 @@ for (class x { [a](){} }.x in c);
                     "start": 25,
                     "end": 26
                 },
-                "flags": 536870944,
+                "flags": 32,
                 "start": 5,
                 "end": 26
             },
@@ -189,8 +189,10 @@ for (class x { [a](){} }.x in c);
 ```javascript
 
 for (class x {
-  [a]() {}
-}.x in c);
+  [a]() { }
+}.x in c)
+  ;
+
 ```
 
 ### Diagnostics

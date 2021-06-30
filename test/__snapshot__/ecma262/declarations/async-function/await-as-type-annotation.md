@@ -53,8 +53,8 @@ async function f() {
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 16,
-                "end": 18
+                "start": 17,
+                "end": 17
             },
             "contents": {
                 "kind": 216,
@@ -156,9 +156,9 @@ async function f() {
 ```javascript
 
 async function f() {
-  const a:  = 1; // not an error because parsing a type annotation exits the Await context
-
+  const a: await = 1;// not an error because parsing a type annotation exits the Await context
 }
+
 ```
 
 ### Diagnostics

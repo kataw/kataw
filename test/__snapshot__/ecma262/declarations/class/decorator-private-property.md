@@ -73,7 +73,7 @@ class A {
                                 "end": 16
                             },
                             "declaredToken": null,
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "asyncKeyword": null,
                             "key": {
                                 "kind": 134299649,
@@ -126,8 +126,9 @@ class A {
 
 class A {
   @dec
-  #name = 0;
+  #name = 0
 }
+
 ```
 
 ### Diagnostics

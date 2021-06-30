@@ -306,8 +306,8 @@ type T = <
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 128,
-                "end": 130
+                "start": 129,
+                "end": 129
             },
             "contents": {
                 "kind": 216,
@@ -770,8 +770,8 @@ type T = <
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 362,
-                "end": 364
+                "start": 363,
+                "end": 363
             },
             "contents": {
                 "kind": 216,
@@ -846,6 +846,7 @@ type T = <
                                                 "end": 393
                                             },
                                             "type": null,
+                                            "assignToken": null,
                                             "defaultType": null,
                                             "flags": 2097152,
                                             "start": 388,

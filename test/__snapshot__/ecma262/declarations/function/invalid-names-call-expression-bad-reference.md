@@ -40,8 +40,8 @@ function fn() { (() => {})().#x }
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 11,
-                "end": 13
+                "start": 12,
+                "end": 12
             },
             "contents": {
                 "kind": 216,
@@ -118,7 +118,7 @@ function fn() { (() => {})().#x }
                                     "start": 29,
                                     "end": 31
                                 },
-                                "flags": 536870944,
+                                "flags": 268435488,
                                 "start": 15,
                                 "end": 31
                             },

@@ -70,7 +70,7 @@ function e(x: { (): string; (x: number): string }): () => number {
                                     {
                                         "kind": 196,
                                         "protoKeyword": null,
-                                        "staticToken": null,
+                                        "staticKeyword": null,
                                         "typeParameter": null,
                                         "value": {
                                             "kind": 282,
@@ -101,7 +101,7 @@ function e(x: { (): string; (x: number): string }): () => number {
                                     {
                                         "kind": 196,
                                         "protoKeyword": null,
-                                        "staticToken": null,
+                                        "staticKeyword": null,
                                         "typeParameter": null,
                                         "value": {
                                             "kind": 282,
@@ -178,8 +178,8 @@ function e(x: { (): string; (x: number): string }): () => number {
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 10,
-                "end": 50
+                "start": 11,
+                "end": 49
             },
             "contents": {
                 "kind": 216,
@@ -277,9 +277,10 @@ function e(x: { (): string; (x: number): string }): () => number {
 
 ```javascript
 
-function e():  {
-  return  x;
+function e(x: { (): string, (x: number): string }): () => number {
+  return x;
 }
+
 ```
 
 ### Diagnostics

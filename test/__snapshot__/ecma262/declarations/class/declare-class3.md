@@ -57,7 +57,7 @@ declare class B { () : number }
                         {
                             "kind": 196,
                             "protoKeyword": null,
-                            "staticToken": {
+                            "staticKeyword": {
                                 "kind": 8388716,
                                 "flags": 32,
                                 "start": 17,
@@ -137,7 +137,7 @@ declare class B { () : number }
                         {
                             "kind": 196,
                             "protoKeyword": null,
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "typeParameter": null,
                             "value": {
                                 "kind": 282,
@@ -193,8 +193,9 @@ declare class B { () : number }
 
 ```javascript
 
-declare class A TODO!
-declare class B TODO!
+declare class A { static (): number }
+declare class B { (): number }
+
 ```
 
 ### Diagnostics

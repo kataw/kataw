@@ -116,8 +116,8 @@ declare function foo(x: number, y: string): void;
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 20,
-                "end": 42
+                "start": 21,
+                "end": 41
             },
             "contents": null,
             "returnType": {
@@ -158,7 +158,8 @@ declare function foo(x: number, y: string): void;
 
 ```javascript
 
-function foo(): void;
+declare function foo(x: number, y: string): void
+;
 
 ```
 

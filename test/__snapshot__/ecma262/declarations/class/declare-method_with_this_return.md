@@ -58,7 +58,7 @@ declare class Foo {
                         {
                             "kind": 193,
                             "protoKeyword": null,
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "getKeyword": null,
                             "setKeyword": null,
                             "key": {
@@ -131,7 +131,8 @@ declare class Foo {
 
 ```javascript
 
-declare class Foo TODO!
+declare class Foo { m(): this }
+
 ```
 
 ### Diagnostics

@@ -72,7 +72,7 @@ function bar(a = console.log) {
                                 "start": 25,
                                 "end": 28
                             },
-                            "flags": 536870944,
+                            "flags": 96,
                             "start": 16,
                             "end": 28
                         },
@@ -83,8 +83,8 @@ function bar(a = console.log) {
                 ],
                 "trailingComma": false,
                 "flags": 34,
-                "start": 12,
-                "end": 29
+                "start": 13,
+                "end": 28
             },
             "contents": {
                 "kind": 216,
@@ -159,7 +159,7 @@ function bar(a = console.log) {
                                 "start": 60,
                                 "end": 63
                             },
-                            "flags": 536870944,
+                            "flags": 96,
                             "start": 51,
                             "end": 63
                         },
@@ -170,8 +170,8 @@ function bar(a = console.log) {
                 ],
                 "trailingComma": false,
                 "flags": 34,
-                "start": 47,
-                "end": 64
+                "start": 48,
+                "end": 63
             },
             "contents": {
                 "kind": 216,
@@ -206,8 +206,10 @@ function bar(a = console.log) {
 
 ```javascript
 
-function foo() {}
-function bar() {}
+function foo(a = console.log) { }
+function bar(a = console.log) {
+}
+
 ```
 
 ### Diagnostics

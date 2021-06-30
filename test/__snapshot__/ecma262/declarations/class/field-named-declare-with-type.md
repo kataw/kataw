@@ -54,7 +54,7 @@ class A {
                             "kind": 280,
                             "decorators": null,
                             "declaredToken": null,
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "asyncKeyword": null,
                             "key": {
                                 "kind": 134299649,
@@ -112,8 +112,9 @@ class A {
 ```javascript
 
 class A {
-  declare;
+  declare: string
 }
+
 ```
 
 ### Diagnostics

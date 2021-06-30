@@ -58,6 +58,7 @@ function foo<T>() {}
                                 "end": 14
                             },
                             "type": null,
+                            "assignToken": null,
                             "defaultType": null,
                             "flags": 2097152,
                             "start": 13,
@@ -78,8 +79,8 @@ function foo<T>() {}
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 15,
-                "end": 17
+                "start": 16,
+                "end": 16
             },
             "contents": {
                 "kind": 216,
@@ -114,7 +115,8 @@ function foo<T>() {}
 
 ```javascript
 
-function  <T >foo() {}
+function foo<T> () { }
+
 ```
 
 ### Diagnostics

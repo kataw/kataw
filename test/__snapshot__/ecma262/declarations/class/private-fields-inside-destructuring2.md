@@ -76,7 +76,7 @@ this.#f,
                             "kind": 280,
                             "decorators": null,
                             "declaredToken": null,
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "asyncKeyword": null,
                             "key": {
                                 "kind": 134299649,
@@ -97,7 +97,7 @@ this.#f,
                             "kind": 280,
                             "decorators": null,
                             "declaredToken": null,
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "asyncKeyword": null,
                             "key": {
                                 "kind": 134299649,
@@ -118,7 +118,7 @@ this.#f,
                             "kind": 280,
                             "decorators": null,
                             "declaredToken": null,
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "asyncKeyword": null,
                             "key": {
                                 "kind": 134299649,
@@ -139,7 +139,7 @@ this.#f,
                             "kind": 280,
                             "decorators": null,
                             "declaredToken": null,
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "asyncKeyword": null,
                             "key": {
                                 "kind": 134299649,
@@ -160,7 +160,7 @@ this.#f,
                             "kind": 280,
                             "decorators": null,
                             "declaredToken": null,
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "asyncKeyword": null,
                             "key": {
                                 "kind": 134299649,
@@ -181,7 +181,7 @@ this.#f,
                             "kind": 280,
                             "decorators": null,
                             "declaredToken": null,
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "asyncKeyword": null,
                             "key": {
                                 "kind": 134299649,
@@ -274,7 +274,7 @@ this.#f,
                                                                                         "start": 76,
                                                                                         "end": 78
                                                                                     },
-                                                                                    "flags": 536870944,
+                                                                                    "flags": 96,
                                                                                     "start": 68,
                                                                                     "end": 78
                                                                                 },
@@ -324,7 +324,7 @@ this.#f,
                                                                                                 "start": 90,
                                                                                                 "end": 92
                                                                                             },
-                                                                                            "flags": 536870944,
+                                                                                            "flags": 96,
                                                                                             "start": 84,
                                                                                             "end": 92
                                                                                         },
@@ -388,7 +388,7 @@ this.#f,
                                                                                             "start": 108,
                                                                                             "end": 110
                                                                                         },
-                                                                                        "flags": 536870944,
+                                                                                        "flags": 96,
                                                                                         "start": 100,
                                                                                         "end": 110
                                                                                     },
@@ -456,7 +456,7 @@ this.#f,
                                                                                         "start": 126,
                                                                                         "end": 127
                                                                                     },
-                                                                                    "flags": 536870944,
+                                                                                    "flags": 96,
                                                                                     "start": 118,
                                                                                     "end": 127
                                                                                 },
@@ -491,7 +491,7 @@ this.#f,
                                                                                         "start": 137,
                                                                                         "end": 138
                                                                                     },
-                                                                                    "flags": 536870944,
+                                                                                    "flags": 96,
                                                                                     "start": 128,
                                                                                     "end": 138
                                                                                 },
@@ -523,11 +523,11 @@ this.#f,
                                                                                         "start": 148,
                                                                                         "end": 150
                                                                                     },
-                                                                                    "flags": 536870944,
+                                                                                    "flags": 96,
                                                                                     "start": 143,
                                                                                     "end": 150
                                                                                 },
-                                                                                "flags": 32,
+                                                                                "flags": 1073741856,
                                                                                 "start": 139,
                                                                                 "end": 150
                                                                             }
@@ -582,11 +582,11 @@ this.#f,
                                                                                         "start": 166,
                                                                                         "end": 168
                                                                                     },
-                                                                                    "flags": 536870944,
+                                                                                    "flags": 96,
                                                                                     "start": 161,
                                                                                     "end": 168
                                                                                 },
-                                                                                "flags": 32,
+                                                                                "flags": 1073741856,
                                                                                 "start": 157,
                                                                                 "end": 168
                                                                             }
@@ -663,7 +663,7 @@ this.#f,
                                                                                                                                             "start": 187,
                                                                                                                                             "end": 189
                                                                                                                                         },
-                                                                                                                                        "flags": 536870944,
+                                                                                                                                        "flags": 96,
                                                                                                                                         "start": 182,
                                                                                                                                         "end": 189
                                                                                                                                     }
@@ -1173,7 +1173,7 @@ this.#f,
                                                             "start": 318,
                                                             "end": 327
                                                         },
-                                                        "flags": 536870944,
+                                                        "flags": 96,
                                                         "start": 312,
                                                         "end": 327
                                                     },
@@ -1201,7 +1201,7 @@ this.#f,
                                                                                 "start": 335,
                                                                                 "end": 337
                                                                             },
-                                                                            "flags": 536870944,
+                                                                            "flags": 97,
                                                                             "start": 329,
                                                                             "end": 337
                                                                         },
@@ -1221,7 +1221,7 @@ this.#f,
                                                                                 "start": 344,
                                                                                 "end": 346
                                                                             },
-                                                                            "flags": 536870944,
+                                                                            "flags": 97,
                                                                             "start": 338,
                                                                             "end": 346
                                                                         },
@@ -1241,7 +1241,7 @@ this.#f,
                                                                                 "start": 353,
                                                                                 "end": 355
                                                                             },
-                                                                            "flags": 536870944,
+                                                                            "flags": 97,
                                                                             "start": 347,
                                                                             "end": 355
                                                                         },
@@ -1261,7 +1261,7 @@ this.#f,
                                                                                 "start": 362,
                                                                                 "end": 364
                                                                             },
-                                                                            "flags": 536870944,
+                                                                            "flags": 97,
                                                                             "start": 356,
                                                                             "end": 364
                                                                         },
@@ -1281,7 +1281,7 @@ this.#f,
                                                                                 "start": 371,
                                                                                 "end": 373
                                                                             },
-                                                                            "flags": 536870944,
+                                                                            "flags": 97,
                                                                             "start": 365,
                                                                             "end": 373
                                                                         },
@@ -1301,7 +1301,7 @@ this.#f,
                                                                                 "start": 380,
                                                                                 "end": 382
                                                                             },
-                                                                            "flags": 536870944,
+                                                                            "flags": 97,
                                                                             "start": 374,
                                                                             "end": 382
                                                                         }
@@ -1374,29 +1374,29 @@ this.#f,
 ```javascript
 
 class Foo {
-  #a;
-  #b;
-  #c;
-  #d;
-  #e;
-  #f;
+  #a
+  #b
+  #c
+  #d
+  #e
+  #f
   foo() {
     [
-      { x: this.#a },
-      [[, this.#b, ,]],
-      { y: this.#c = 3 },
-      { x: this.x, y: this.y, ...this.#d },
+      { x : this.#a },
+      [[, this.#b, ,],],
+      { y : this.#c = 3 },
+      { x : this.x, y : this.y, ...this.#d },
       [, , ...this.#e],
-      [{ x: [{ y: [this.#f] }] }],
+      [{ x : [{ y : [this.#f,] },] },],
     ] = [
-      { x: 1 },
-      [[1, 2, 3]],
+      { x : 1 },
+      [[1, 2, 3,],],
       {},
-      { x: 2, y: 3, z: 4, w: 5 },
-      [4, 5, 6, 7, 8],
-      [{ x: [{ y: [9] }] }],
+      { x : 2, y : 3, z : 4, w : 5 },
+      [4, 5, 6, 7, 8,],
+      [{ x : [{ y : [9,] },] },],
     ];
-    return  JSON.stringify([
+    return JSON.stringify([
       this.#a,
       this.#b,
       this.#c,
@@ -1406,6 +1406,7 @@ class Foo {
     ]);
   }
 }
+
 ```
 
 ### Diagnostics

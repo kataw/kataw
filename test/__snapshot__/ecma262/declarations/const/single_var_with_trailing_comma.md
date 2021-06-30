@@ -107,8 +107,9 @@ const {x,} = obj;
 ```javascript
 
 const {
-  x
+  x,
 } = obj;
+
 ```
 
 ### Diagnostics

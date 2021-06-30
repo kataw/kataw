@@ -125,8 +125,8 @@ function g(a:number=1, e:number=1) {}
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 10,
-                "end": 34
+                "start": 11,
+                "end": 33
             },
             "contents": {
                 "kind": 216,
@@ -161,7 +161,8 @@ function g(a:number=1, e:number=1) {}
 
 ```javascript
 
-function g() {}
+function g(a: number = 1, e: number = 1) { }
+
 ```
 
 ### Diagnostics

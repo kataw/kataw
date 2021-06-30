@@ -11,7 +11,7 @@ import { DecoratorList } from './decorator-list';
 export interface FieldDefinition extends SyntaxNode {
   readonly decorators: DecoratorList | null;
   readonly declaredToken: SyntaxToken<TokenSyntaxKind> | null;
-  readonly staticToken: SyntaxToken<TokenSyntaxKind> | null;
+  readonly staticKeyword: SyntaxToken<TokenSyntaxKind> | null;
   readonly asyncKeyword: SyntaxToken<TokenSyntaxKind> | null;
   readonly key: ExpressionNode | Identifier;
   readonly optionalToken: SyntaxToken<TokenSyntaxKind> | null;
@@ -22,7 +22,7 @@ export interface FieldDefinition extends SyntaxNode {
 export function createFieldDefinition(
   decorators: DecoratorList | null,
   declaredToken: SyntaxToken<TokenSyntaxKind> | null,
-  staticToken: SyntaxToken<TokenSyntaxKind> | null,
+  staticKeyword: SyntaxToken<TokenSyntaxKind> | null,
   asyncKeyword: SyntaxToken<TokenSyntaxKind> | null,
   key: ExpressionNode | Identifier,
   optionalToken: SyntaxToken<TokenSyntaxKind> | null,
@@ -35,7 +35,7 @@ export function createFieldDefinition(
     kind: SyntaxKind.FieldDefinition,
     decorators,
     declaredToken,
-    staticToken,
+    staticKeyword,
     asyncKeyword,
     key,
     optionalToken,

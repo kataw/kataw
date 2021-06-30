@@ -126,13 +126,7 @@ class a { foo(){      class x extends super.foo {}    }}
                                                         "expression": {
                                                             "kind": 129,
                                                             "member": {
-                                                                "kind": 225,
-                                                                "superKeyword": {
-                                                                    "kind": 4259935,
-                                                                    "flags": 96,
-                                                                    "start": 37,
-                                                                    "end": 43
-                                                                },
+                                                                "kind": 4259935,
                                                                 "flags": 96,
                                                                 "start": 37,
                                                                 "end": 43
@@ -145,7 +139,7 @@ class a { foo(){      class x extends super.foo {}    }}
                                                                 "start": 44,
                                                                 "end": 47
                                                             },
-                                                            "flags": 536870944,
+                                                            "flags": 96,
                                                             "start": 37,
                                                             "end": 47
                                                         },
@@ -214,10 +208,10 @@ class a { foo(){      class x extends super.foo {}    }}
 ```javascript
 
 class a {
-  foo() {
-    class x  {}
-  }
+  foo() { class x extends super.foo {
+  } }
 }
+
 ```
 
 ### Diagnostics

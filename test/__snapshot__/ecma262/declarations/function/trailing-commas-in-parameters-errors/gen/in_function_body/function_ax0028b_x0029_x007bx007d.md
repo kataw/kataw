@@ -48,8 +48,8 @@ function foo() {function  a(b,,) {}}
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 12,
-                "end": 14
+                "start": 13,
+                "end": 13
             },
             "contents": {
                 "kind": 216,
@@ -91,8 +91,8 @@ function foo() {function  a(b,,) {}}
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
-                                "start": 27,
-                                "end": 31
+                                "start": 28,
+                                "end": 30
                             },
                             "contents": {
                                 "kind": 216,

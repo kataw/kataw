@@ -57,6 +57,7 @@ class Foo<T> extends Bar<T> { }
                                 "end": 11
                             },
                             "type": null,
+                            "assignToken": null,
                             "defaultType": null,
                             "flags": 2097152,
                             "start": 10,
@@ -161,7 +162,9 @@ class Foo<T> extends Bar<T> { }
 
 ```javascript
 
-class Foo  {}
+class Foo<T> extends Bar<T> {
+}
+
 ```
 
 ### Diagnostics

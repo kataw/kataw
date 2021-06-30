@@ -94,7 +94,7 @@ declare function foo<TArguments: $ReadOnlyArray<{foo: 'a'}>, TReturn>(
                                                             {
                                                                 "kind": 193,
                                                                 "protoKeyword": null,
-                                                                "staticToken": null,
+                                                                "staticKeyword": null,
                                                                 "getKeyword": null,
                                                                 "setKeyword": null,
                                                                 "key": {
@@ -113,6 +113,7 @@ declare function foo<TArguments: $ReadOnlyArray<{foo: 'a'}>, TReturn>(
                                                                     "type": {
                                                                         "kind": 134217967,
                                                                         "text": "a",
+                                                                        "rawText": "'a'",
                                                                         "flags": 2097216,
                                                                         "start": 53,
                                                                         "end": 57
@@ -153,6 +154,7 @@ declare function foo<TArguments: $ReadOnlyArray<{foo: 'a'}>, TReturn>(
                                 "start": 32,
                                 "end": 59
                             },
+                            "assignToken": null,
                             "defaultType": null,
                             "flags": 2097152,
                             "start": 21,
@@ -169,6 +171,7 @@ declare function foo<TArguments: $ReadOnlyArray<{foo: 'a'}>, TReturn>(
                                 "end": 68
                             },
                             "type": null,
+                            "assignToken": null,
                             "defaultType": null,
                             "flags": 2097152,
                             "start": 60,
@@ -309,8 +312,8 @@ declare function foo<TArguments: $ReadOnlyArray<{foo: 'a'}>, TReturn>(
                 ],
                 "trailingComma": true,
                 "flags": 32,
-                "start": 69,
-                "end": 129
+                "start": 70,
+                "end": 125
             },
             "contents": null,
             "returnType": {
@@ -428,7 +431,8 @@ declare function foo<TArguments: $ReadOnlyArray<{foo: 'a'}>, TReturn>(
 
 ```javascript
 
-function  <TArguments: , TReturn >foo(): ;
+declare function foo<TArguments: $ReadOnlyArray<{ foo: "'a'" }>, TReturn> (implementation?: (...args: TArguments) => TReturn,): (...args: TArguments) => TReturn
+
 ```
 
 ### Diagnostics

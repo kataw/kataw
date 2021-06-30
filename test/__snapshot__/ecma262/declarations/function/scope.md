@@ -85,8 +85,8 @@ function for_scope_var() {
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 20,
-                "end": 22
+                "start": 21,
+                "end": 21
             },
             "contents": {
                 "kind": 216,
@@ -347,8 +347,8 @@ function for_scope_var() {
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 133,
-                "end": 135
+                "start": 134,
+                "end": 134
             },
             "contents": {
                 "kind": 216,
@@ -449,8 +449,8 @@ function for_scope_var() {
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
-                                "start": 197,
-                                "end": 253
+                                "start": 198,
+                                "end": 222
                             },
                             "contents": {
                                 "kind": 216,
@@ -544,8 +544,8 @@ function for_scope_var() {
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 309,
-                "end": 311
+                "start": 310,
+                "end": 310
             },
             "contents": {
                 "kind": 216,
@@ -670,8 +670,8 @@ function for_scope_var() {
                                 ],
                                 "trailingComma": false,
                                 "flags": 34,
-                                "start": 392,
-                                "end": 405
+                                "start": 393,
+                                "end": 404
                             },
                             "contents": {
                                 "kind": 216,
@@ -834,8 +834,8 @@ function for_scope_var() {
                                 ],
                                 "trailingComma": false,
                                 "flags": 34,
-                                "start": 491,
-                                "end": 528
+                                "start": 492,
+                                "end": 497
                             },
                             "contents": {
                                 "kind": 216,
@@ -972,8 +972,8 @@ function for_scope_var() {
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 597,
-                "end": 599
+                "start": 598,
+                "end": 598
             },
             "contents": {
                 "kind": 216,
@@ -1146,8 +1146,8 @@ function for_scope_var() {
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 696,
-                "end": 698
+                "start": 697,
+                "end": 697
             },
             "contents": {
                 "kind": 216,
@@ -1319,34 +1319,33 @@ function block_scope() {
   }
 }
 function default_param_1() {
-  // function binding in scope in default expr
-  function f(): number {
-    return  0;
+   // function binding in scope in default expr
+  function f(x: () => string = f// error: number ~> string
+  ): number {
+    return 0;
   }
 }
 function default_param_2() {
-  // fn body bindings not visible from param scope
+   // fn body bindings not visible from param scope
   let a = "\"\"";
-  function f0(): number {
+  function f0(x = () => a): number {
     let a = 0;
-    return  x(); // error: string ~> number
-
+    return x();// error: string ~> number
   }
-  function f1(): number {
+  function f1(x = b/* error: cannot resolve b */): number {
     let b = 0;
-    return  x;
+    return x;
   }
 }
 function for_scope_let() {
   let a: number = 0;
-  for (let a = "\"\""; /* ok: local to init */; ; )
-    {}
+  for (let a = "\"\""/* ok: local to init */;;) { }
 }
 function for_scope_var() {
   var a: number = 0;
-  for (; ; )
-    {}
+  for (var a = "\"\""/* error: string ~> number */;;) { }
 }
+
 ```
 
 ### Diagnostics

@@ -77,6 +77,7 @@ class D<T> {
                                 "end": 9
                             },
                             "type": null,
+                            "assignToken": null,
                             "defaultType": null,
                             "flags": 2097152,
                             "start": 8,
@@ -93,6 +94,7 @@ class D<T> {
                                 "end": 12
                             },
                             "type": null,
+                            "assignToken": null,
                             "defaultType": null,
                             "flags": 2097152,
                             "start": 10,
@@ -118,7 +120,7 @@ class D<T> {
                             "kind": 280,
                             "decorators": null,
                             "declaredToken": null,
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "asyncKeyword": null,
                             "key": {
                                 "kind": 134299649,
@@ -158,8 +160,8 @@ class D<T> {
                             "end": 22
                         },
                         {
-                            "kind": 317,
-                            "flags": 96,
+                            "kind": 1108353041,
+                            "flags": 64,
                             "start": 22,
                             "end": 23
                         },
@@ -259,7 +261,7 @@ class D<T> {
                                                             "start": 55,
                                                             "end": 56
                                                         },
-                                                        "flags": 536870944,
+                                                        "flags": 97,
                                                         "start": 45,
                                                         "end": 56
                                                     },
@@ -383,7 +385,7 @@ class D<T> {
                                                         "start": 95,
                                                         "end": 96
                                                     },
-                                                    "flags": 536870944,
+                                                    "flags": 96,
                                                     "start": 89,
                                                     "end": 96
                                                 },
@@ -489,7 +491,7 @@ class D<T> {
                                                         "start": 135,
                                                         "end": 136
                                                     },
-                                                    "flags": 536870944,
+                                                    "flags": 96,
                                                     "start": 129,
                                                     "end": 136
                                                 },
@@ -561,6 +563,7 @@ class D<T> {
                                 "end": 154
                             },
                             "type": null,
+                            "assignToken": null,
                             "defaultType": null,
                             "flags": 2097152,
                             "start": 153,
@@ -586,7 +589,7 @@ class D<T> {
                             "kind": 280,
                             "decorators": null,
                             "declaredToken": null,
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "asyncKeyword": null,
                             "key": {
                                 "kind": 134299649,
@@ -626,8 +629,8 @@ class D<T> {
                             "end": 164
                         },
                         {
-                            "kind": 317,
-                            "flags": 96,
+                            "kind": 1108353041,
+                            "flags": 64,
                             "start": 164,
                             "end": 165
                         },
@@ -666,6 +669,7 @@ class D<T> {
                                                     "end": 171
                                                 },
                                                 "type": null,
+                                                "assignToken": null,
                                                 "defaultType": null,
                                                 "flags": 2097152,
                                                 "start": 170,
@@ -819,7 +823,7 @@ class D<T> {
                                                             "start": 199,
                                                             "end": 200
                                                         },
-                                                        "flags": 536870944,
+                                                        "flags": 97,
                                                         "start": 189,
                                                         "end": 200
                                                     },
@@ -909,27 +913,28 @@ class D<T> {
 
 ```javascript
 
-class C {
-  x;
-
-  constructor() {
+class C<X, Y> {
+  x: X
+  ;
+  constructor(x: X) {
     this.x = x;
   }
-  get() {
-    return  this.x;
+  get(): X {
+    return this.x;
   }
-  get_bad() {
-    return  this.x;
+  get_bad(): Y {
+    return this.x;
   }
 }
-class D {
-  x;
-
-  m() {
+class D<T> {
+  x: T
+  ;
+  m<S>(z: S, u: T): S {
     this.x = u;
-    return  z;
+    return z;
   }
 }
+
 ```
 
 ### Diagnostics

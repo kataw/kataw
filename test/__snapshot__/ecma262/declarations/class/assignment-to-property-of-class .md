@@ -53,7 +53,7 @@ c.m = n => n * 3;
                             "kind": 280,
                             "decorators": null,
                             "declaredToken": null,
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "asyncKeyword": null,
                             "key": {
                                 "kind": 134299649,
@@ -121,8 +121,8 @@ c.m = n => n * 3;
                             "end": 93
                         },
                         {
-                            "kind": 317,
-                            "flags": 96,
+                            "kind": 1108353041,
+                            "flags": 64,
                             "start": 93,
                             "end": 94
                         }
@@ -224,7 +224,7 @@ c.m = n => n * 3;
                         "start": 119,
                         "end": 120
                     },
-                    "flags": 536870944,
+                    "flags": 96,
                     "start": 116,
                     "end": 120
                 },
@@ -308,15 +308,16 @@ c.m = n => n * 3;
 ```javascript
 
 class C {
-  /**
+   /**
      * @param {number} n
      * @return {number}
      */
-  m = n =>  n * 2;
-
+  m = n => n * 2
+  ;
 }
-const c = new  C();
-c.m = n =>  n * 3;
+const c = new C();
+c.m = n => n * 3;
+
 ```
 
 ### Diagnostics

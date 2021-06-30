@@ -63,7 +63,7 @@ declare class B {
                                 "start": 17,
                                 "end": 25
                             },
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "getKeyword": null,
                             "setKeyword": null,
                             "key": {
@@ -130,7 +130,8 @@ declare class B {
 
 ```javascript
 
-declare class B TODO!
+declare class B { x: T }
+
 ```
 
 ### Diagnostics

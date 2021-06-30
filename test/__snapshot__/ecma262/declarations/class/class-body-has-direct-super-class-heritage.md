@@ -142,14 +142,8 @@ class B extends A {
                                                 "expression": {
                                                     "kind": 131,
                                                     "expression": {
-                                                        "kind": 225,
-                                                        "superKeyword": {
-                                                            "kind": 4259935,
-                                                            "flags": 97,
-                                                            "start": 48,
-                                                            "end": 58
-                                                        },
-                                                        "flags": 96,
+                                                        "kind": 4259935,
+                                                        "flags": 97,
                                                         "start": 48,
                                                         "end": 58
                                                     },
@@ -213,12 +207,14 @@ class B extends A {
 
 ```javascript
 
-class A {}
-class B  {
+class A {
+}
+class B extends A {
   constructor() {
     super();
   }
 }
+
 ```
 
 ### Diagnostics

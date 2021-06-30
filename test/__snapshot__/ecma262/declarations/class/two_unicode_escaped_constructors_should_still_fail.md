@@ -111,8 +111,8 @@ class x { constructor(){}; \u0063onstructor(){}; }
                             "end": 25
                         },
                         {
-                            "kind": 317,
-                            "flags": 96,
+                            "kind": 1108353041,
+                            "flags": 64,
                             "start": 25,
                             "end": 26
                         },
@@ -168,8 +168,8 @@ class x { constructor(){}; \u0063onstructor(){}; }
                             "end": 47
                         },
                         {
-                            "kind": 317,
-                            "flags": 96,
+                            "kind": 1108353041,
+                            "flags": 64,
                             "start": 47,
                             "end": 48
                         }

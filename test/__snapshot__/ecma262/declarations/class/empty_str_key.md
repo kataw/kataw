@@ -140,8 +140,9 @@ class X {
 ```javascript
 
 class X {
-  "''"() {}
+  '\'\''() { }
 }
+
 ```
 
 ### Diagnostics

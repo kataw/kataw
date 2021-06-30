@@ -59,8 +59,8 @@ async function * gen() {(async function * foo(yield) { })}
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 20,
-                "end": 22
+                "start": 21,
+                "end": 21
             },
             "contents": {
                 "kind": 216,
@@ -115,8 +115,8 @@ async function * gen() {(async function * foo(yield) { })}
                                         ],
                                         "trailingComma": false,
                                         "flags": 32,
-                                        "start": 45,
-                                        "end": 52
+                                        "start": 46,
+                                        "end": 51
                                     },
                                     "contents": {
                                         "kind": 216,

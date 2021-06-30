@@ -44,7 +44,7 @@ class C { #aaa; f(obj) { obj?.#aaa } }
                             "kind": 280,
                             "decorators": null,
                             "declaredToken": null,
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "asyncKeyword": null,
                             "key": {
                                 "kind": 134299649,
@@ -62,8 +62,8 @@ class C { #aaa; f(obj) { obj?.#aaa } }
                             "end": 14
                         },
                         {
-                            "kind": 317,
-                            "flags": 96,
+                            "kind": 1108353041,
+                            "flags": 64,
                             "start": 14,
                             "end": 15
                         },
@@ -132,7 +132,7 @@ class C { #aaa; f(obj) { obj?.#aaa } }
                                                     "chain": {
                                                         "kind": 302,
                                                         "chain": {
-                                                            "kind": 536871114,
+                                                            "kind": 202,
                                                             "chain": null,
                                                             "expression": {
                                                                 "kind": 67191035,
@@ -142,7 +142,7 @@ class C { #aaa; f(obj) { obj?.#aaa } }
                                                                 "start": 30,
                                                                 "end": 34
                                                             },
-                                                            "flags": 32,
+                                                            "flags": 536870944,
                                                             "start": 30,
                                                             "end": 34
                                                         },
@@ -203,12 +203,11 @@ class C { #aaa; f(obj) { obj?.#aaa } }
 ```javascript
 
 class C {
-  #aaa;
-
-  f() {
-    obj?.;
-  }
+  #aaa
+  ;
+  f(obj) { obj?.#aaa; }
 }
+
 ```
 
 ### Diagnostics

@@ -141,8 +141,9 @@ class x {set private(x){}}
 ```javascript
 
 class x {
-  set private() {}
+  set private(x) { }
 }
+
 ```
 
 ### Diagnostics
