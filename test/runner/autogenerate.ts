@@ -119,7 +119,6 @@ export async function autogen(files: string[], conservative: boolean) {
         writeFileSync(
           testFile,
           `# Auto-generated test cases ( Kataw )
-- Regenerated: ${new Date().toISOString().slice(0, 10)}
 - From: ${obj.file.slice(obj.file.indexOf('kataw')).replace(/\\/g, '/')}
 - Path: ${caseDir.slice(caseDir.indexOf('kataw'))}
 > :: test: ${title.split('\n').join('\n>          ')}
