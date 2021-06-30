@@ -6,7 +6,8 @@ import { StatementNode } from '../ast/statements';
 import { PrivateIdentifier } from '../ast/expressions/private-identifier';
 import { NumericLiteral } from '../ast/expressions/numeric-literal';
 import { AssignmentExpression } from '../ast/expressions/assignment-expr';
-import { createForBinding, ForBinding } from '../ast/statements/for-binding';
+import { ForBinding } from '../ast/statements/for-binding';
+import { EmptyStatement } from '../ast/statements/empty-stmt';
 import { ExpressionStatement } from '../ast/statements/expression-stmt';
 import { ArrayLiteral } from '../ast/expressions/array-literal';
 import { BinaryExpression } from '../ast/expressions/binary-expr';
@@ -86,14 +87,21 @@ import { WithStatement } from '../ast/statements/with-stmt';
 import { FunctionDeclaration } from '../ast/statements/function-declaration';
 import { LexicalDeclaration } from '../ast/statements/lexical-declaration';
 import { ClassDeclaration } from '../ast/statements/class-declaration';
-import { CatchClause } from '../ast/statements/catch-stmt';
+import { SubtractionType } from '../ast/types/subtraction-type';
+import { OptionalIndexedAccess } from '../ast/types/optional-indexed-access';
+import { StringType } from '../ast/types/string-type';
 import { ArrayType } from '../ast/types/array-type';
+import { ObjectType } from '../ast/types/object-type';
+import { BigIntType } from '../ast/types/big-int-type';
+import { NumberType } from '../ast/types/number-type';
+import { ObjectTypeSpreadProperty } from '../ast/types/object-type-spread-property';
+import { TypeAlias } from '../ast/types/type-alias-declaration';
 import { ArrowFunctionType } from '../ast/types/arrow-function-type';
 import { ArrowTypeParameter } from '../ast/types/arrow-type-parameter';
 import { ArrowTypeParameterList } from '../ast/types/arrow-type-parameter-list';
 import { FunctionTypeParameterList } from '../ast/types/function-type-parameter-list';
 import { FunctionTypeParameter } from '../ast/types/function-type-parameter';
-import { createNullableType, NullableType } from '../ast/types/nullable-type';
+import { NullableType } from '../ast/types/nullable-type';
 import { ObjectTypeCallProperty } from '../ast/types/object-type-call-property';
 import { ObjectTypeIndexer } from '../ast/types/object-type-indexer';
 import { ObjectTypeInternalSlot } from '../ast/types/object-type-internal-slot';
@@ -121,6 +129,7 @@ import { Decorator } from '../ast/expressions/decorators';
 import { FormalParameterList } from '../ast/expressions/formal-parameter-list';
 import { createImportClause, ImportClause } from '../ast/module/import-clause';
 import { NameSpaceImport } from '../ast/module/namespace-import';
+import { FromClause } from '../ast/module/from-clause';
 import { ExportDefault } from '../ast/module/export-default';
 import { ExportDeclaration } from '../ast/module/export-declaration';
 import { ExportFromClause } from '../ast/module/export-from-clause';
@@ -128,7 +137,6 @@ import { ExportSpecifier } from '../ast/module/export-specifier';
 import { ExportsList } from '../ast/module/exports-list';
 import { ImportDeclaration } from '../ast/module/import-declaration';
 import { ImportSpecifier } from '../ast/module/import-specifier';
-import { ImportsList } from '../ast/module/imports-list';
 import { NamedExports } from '../ast/module/named-exports';
 import { NamedImports } from '../ast/module/named-imports';
 import { SpreadElement } from '../ast/expressions/spread-element';
@@ -186,76 +194,77 @@ function printStatement(node: SyntaxNode, printer: Printer): void {
 function printStatements(node: SyntaxNode, printer: Printer): void {
   switch (node.kind) {
     case SyntaxKind.WhileStatement:
-      return printWhileStatement(<any>node, printer);
+      return printWhileStatement(<WhileStatement>node, printer);
     case SyntaxKind.WithStatement:
-      return printWithStatement(<any>node, printer);
+      return printWithStatement(<WithStatement>node, printer);
     case SyntaxKind.ExpressionStatement:
       return printExpressionStatement(<ExpressionStatement>node, printer);
     case SyntaxKind.DoWhileStatement:
-      return printDoWhileStatement(<any>node, printer);
+      return printDoWhileStatement(<DoWhileStatement>node, printer);
     case SyntaxKind.IfStatement:
-      return printIfStatement(<any>node, printer);
+      return printIfStatement(<IfStatement>node, printer);
     case SyntaxKind.CaseClause:
-      return printCaseClause(<any>node, printer);
+      return printCaseClause(<CaseClause>node, printer);
     case SyntaxKind.DefaultClause:
-      return printDefaultClause(<any>node, printer);
+      return printDefaultClause(<DefaultClause>node, printer);
     case SyntaxKind.ContinueStatement:
-      return printContinueStatement(<any>node, printer);
+      return printContinueStatement(<ContinueStatement>node, printer);
     case SyntaxKind.ClassTail:
-      return printTail(<any>node, printer);
+      return printTail(<ClassTail>node, printer);
     case SyntaxKind.ClassElement:
-      return printClassElement(<any>node, printer);
+      return printClassElement(<ClassElement>node, printer);
     case SyntaxKind.ClassHeritage:
-      return printClassHeritage(<any>node, printer);
+      return printClassHeritage(<ClassHeritage>node, printer);
     case SyntaxKind.BreakStatement:
-      return printBreakStatement(<any>node, printer);
+      return printBreakStatement(<BreakStatement>node, printer);
     case SyntaxKind.SwitchStatement:
-      return printSwitchStatement(<any>node, printer);
+      return printSwitchStatement(<SwitchStatement>node, printer);
     //    case SyntaxKind.StaticBlock:
     //    return printStaticBlock(<any>node, printer);
     case SyntaxKind.ForStatement:
-      return printForStatement(<any>node, printer);
+      return printForStatement(<ForStatement>node, printer);
     case SyntaxKind.FunctionDeclaration:
-      return printFunctionDeclarationOrExpression(<any>node, printer);
+      return printFunctionDeclarationOrExpression(<FunctionDeclaration>node, printer);
     case SyntaxKind.ForInStatement:
-      return printForInStatement(<any>node, printer);
+      return printForInStatement(<ForInStatement>node, printer);
     case SyntaxKind.ForOfStatement:
-      return printForOfStatement(<any>node, printer);
+      return printForOfStatement(<ForOfStatement>node, printer);
     case SyntaxKind.EmptyStatement:
-      return printEmptyStatement(<any>node, printer);
+      return printEmptyStatement(<EmptyStatement>node, printer);
     case SyntaxKind.LexicalDeclaration:
-      return printLexicalDeclaration(<any>node, printer, false);
+      return printLexicalDeclaration(<LexicalDeclaration>node, printer, false);
     case SyntaxKind.VariableStatement:
-      return printVariableStatement(<any>node, printer);
+      return printVariableStatement(<VariableStatement>node, printer);
     case SyntaxKind.VariableDeclaration:
+      return printVariableDeclarationOrLexicalBinding(<LexicalBinding>node, printer);
     case SyntaxKind.LexicalBinding:
-      return printVariableDeclarationOrLexicalBinding(<any>node, printer);
+      return printVariableDeclarationOrLexicalBinding(<VariableDeclaration>node, printer);
     case SyntaxKind.Decorator:
-      return printDecorator(<any>node, printer);
+      return printDecorator(<Decorator>node, printer);
     case SyntaxKind.TryStatement:
-      return printTryStatement(<any>node, printer);
+      return printTryStatement(<TryStatement>node, printer);
     case SyntaxKind.ReturnStatement:
-      return printReturnStatement(<any>node, printer);
+      return printReturnStatement(<ReturnStatement>node, printer);
     case SyntaxKind.ThrowStatement:
-      return printThrowStatement(<any>node, printer);
+      return printThrowStatement(<ThrowStatement>node, printer);
     case SyntaxKind.LabelledStatement:
-      return printLabelledStatement(<any>node, printer);
+      return printLabelledStatement(<LabelledStatement>node, printer);
     case SyntaxKind.ArrayBindingPattern:
-      return emitArrayBindingPattern(<any>node, printer);
+      return emitArrayBindingPattern(<ArrayBindingPattern>node, printer);
     case SyntaxKind.ObjectBindingPattern:
-      return printObjectBindingPattern(<any>node, printer);
+      return printObjectBindingPattern(<ObjectBindingPattern>node, printer);
     case SyntaxKind.BindingProperty:
-      return printBindingProperty(<any>node, printer);
+      return printBindingProperty(<BindingProperty>node, printer);
     case SyntaxKind.ClassDeclaration:
-      return printClassExpressionOrDeclaration(<any>node, printer);
+      return printClassExpressionOrDeclaration(<ClassDeclaration>node, printer);
     case SyntaxKind.TypeAlias:
-      return printTypeAlias(<any>node, printer);
+      return printTypeAlias(<TypeAlias>node, printer);
     case SyntaxKind.BindingElement:
-      return printBindingElement(<any>node, printer);
+      return printBindingElement(<BindingElement>node, printer);
     case SyntaxKind.BlockStatement:
-      return printBlockStatement(<any>node, printer);
+      return printBlockStatement(<BlockStatement>node, printer);
     case SyntaxKind.DebuggerStatement:
-      return printDebuggerStatement(<any>node, printer);
+      return printDebuggerStatement(<DebuggerStatement>node, printer);
     case SyntaxKind.Multiply:
     case SyntaxKind.ThisKeyword:
     case SyntaxKind.AnyKeyword:
@@ -277,99 +286,99 @@ function printStatements(node: SyntaxNode, printer: Printer): void {
     case SyntaxKind.Semicolon:
       return printKeyword(<any>node, printer, node);
     case SyntaxKind.TypeAnnotation:
-      return printTypeAnnotation(<any>node, printer);
+      return printTypeAnnotation(<TypeAnnotation>node, printer);
     case SyntaxKind.ArrayType:
-      return printArrayType(<any>node, printer);
+      return printArrayType(<ArrayType>node, printer);
     case SyntaxKind.ArrowFunctionType:
-      return printArrowFunctionType(<any>node, printer);
+      return printArrowFunctionType(<ArrowFunctionType>node, printer);
     case SyntaxKind.ArrowTypeParameterList:
-      return printArrowTypeParameterList(<any>node, printer);
+      return printArrowTypeParameterList(<ArrowTypeParameterList>node, printer);
     case SyntaxKind.ArrowTypeParameter:
-      return printArrowTypeParameter(<any>node, printer);
+      return printArrowTypeParameter(<ArrowTypeParameter>node, printer);
     case SyntaxKind.BigIntType:
-      return printBigIntType(<any>node, printer);
+      return printBigIntType(<BigIntType>node, printer);
     case SyntaxKind.FunctionTypeParameterList:
-      return printFunctionTypeParameterList(<any>node, printer);
+      return printFunctionTypeParameterList(<FunctionTypeParameterList>node, printer);
     case SyntaxKind.FunctionTypeParameter:
-      return printFunctionTypeParameter(<any>node, printer);
+      return printFunctionTypeParameter(<FunctionTypeParameter>node, printer);
     case SyntaxKind.FunctionType:
-      return printFunctionType(<any>node, printer);
+      return printFunctionType(<FunctionType>node, printer);
     case SyntaxKind.IndexedAccessType:
-      return printIndexedAccessType(<any>node, printer);
+      return printIndexedAccessType(<IndexedAccessType>node, printer);
     case SyntaxKind.IntersectionType:
-      return printIntersectionType(<any>node, printer);
+      return printIntersectionType(<IntersectionType>node, printer);
     case SyntaxKind.NullableType:
-      return printNullableType(<any>node, printer);
+      return printNullableType(<NullableType>node, printer);
     case SyntaxKind.NumberType:
-      return printNumericLiteral(<any>node, printer);
+      return printNumericLiteral(<NumberType>node, printer);
     case SyntaxKind.ObjectTypeCallProperty:
-      return printObjectTypeCallProperty(<any>node, printer);
+      return printObjectTypeCallProperty(<ObjectTypeCallProperty>node, printer);
     case SyntaxKind.ObjectTypeIndexer:
-      return printObjectTypeIndexer(<any>node, printer);
+      return printObjectTypeIndexer(<ObjectTypeIndexer>node, printer);
     case SyntaxKind.ObjectTypeInternalSlot:
-      return printObjectTypeInternalSlot(<any>node, printer);
+      return printObjectTypeInternalSlot(<ObjectTypeInternalSlot>node, printer);
     case SyntaxKind.ObjectTypeProperty:
-      return printObjectTypeProperty(<any>node, printer);
+      return printObjectTypeProperty(<ObjectTypeProperty>node, printer);
     case SyntaxKind.ObjectTypeSpreadProperty:
-      return printObjectTypeSpreadProperty(<any>node, printer);
+      return printObjectTypeSpreadProperty(<ObjectTypeSpreadProperty>node, printer);
     case SyntaxKind.ObjectType:
-      return printObjectType(<any>node, printer, <any>node);
+      return printObjectType(<ObjectType>node, printer, <any>node);
     case SyntaxKind.OpaqueType:
-      return printOpaqueType(<any>node, printer);
+      return printOpaqueType(<OpaqueType>node, printer);
     case SyntaxKind.OptionalIndexedAccess:
-      return printOptionalIndexedAccess(<any>node, printer);
+      return printOptionalIndexedAccess(<OptionalIndexedAccess>node, printer);
     case SyntaxKind.OptionalType:
-      return printOptionalType(<any>node, printer);
+      return printOptionalType(<OptionalType>node, printer);
     case SyntaxKind.ParenthesizedType:
-      return printParenthesizedType(<any>node, printer);
+      return printParenthesizedType(<ParenthesizedType>node, printer);
     case SyntaxKind.QualifiedType:
-      return printQualifiedType(<any>node, printer);
+      return printQualifiedType(<QualifiedType>node, printer);
     case SyntaxKind.RestType:
-      return printRestType(<any>node, printer);
+      return printRestType(<RestType>node, printer);
     case SyntaxKind.StringType:
-      return printStringType(<any>node, printer);
+      return printStringType(<StringType>node, printer);
     case SyntaxKind.SubtractionType:
-      return printSubtractionType(<any>node, printer);
+      return printSubtractionType(<SubtractionType>node, printer);
     case SyntaxKind.TupleType:
-      return printTupleType(<any>node, printer);
+      return printTupleType(<TupleType>node, printer);
     case SyntaxKind.TypeInstantiations:
-      return printTypeInstantiations(<any>node, printer);
+      return printTypeInstantiations(<TypeInstantiations>node, printer);
     case SyntaxKind.TypeParameterDeclaration:
-      return printTypeParameterDeclaration(<any>node, printer);
+      return printTypeParameterDeclaration(<TypeParameterDeclaration>node, printer);
     case SyntaxKind.TypeParameterInstantiation:
-      return printTypeParameterInstantiation(<any>node, printer);
+      return printTypeParameterInstantiation(<TypeParameterInstantiation>node, printer);
     case SyntaxKind.TypeParameterList:
-      return printTypeParameterList(<any>node, printer);
+      return printTypeParameterList(<TypeParameterList>node, printer);
     case SyntaxKind.TypeParameter:
-      return printTypeParameter(<any>node, printer);
+      return printTypeParameter(<TypeParameter>node, printer);
     case SyntaxKind.TypeReference:
-      return printTypeReference(<any>node, printer);
+      return printTypeReference(<TypeReference>node, printer);
     case SyntaxKind.TypeofType:
-      return printTypeofType(<any>node, printer);
+      return printTypeofType(<TypeofType>node, printer);
     case SyntaxKind.UnionType:
-      return printUnionType(<any>node, printer);
+      return printUnionType(<UnionType>node, printer);
     case SyntaxKind.ExportDeclaration:
-      return printExportDeclaration(<any>node, printer);
+      return printExportDeclaration(<ExportDeclaration>node, printer);
     case SyntaxKind.ExportFromClause:
-      return printExportFromClause(<any>node, printer);
+      return printExportFromClause(<ExportFromClause>node, printer);
     case SyntaxKind.ExportDefault:
-      return printExportDefault(<any>node, printer);
+      return printExportDefault(<ExportDefault>node, printer);
     case SyntaxKind.NamedExports:
-      return printNamedExports(<any>node, printer);
+      return printNamedExports(<NamedExports>node, printer);
     case SyntaxKind.ExportSpecifier:
-      return printExportSpecifier(<any>node, printer);
+      return printExportSpecifier(<ExportSpecifier>node, printer);
     case SyntaxKind.ImportDeclaration:
-      return printImportDeclaration(<any>node, printer);
+      return printImportDeclaration(<ImportDeclaration>node, printer);
     case SyntaxKind.ImportClause:
-      return printImportClause(<any>node, printer);
+      return printImportClause(<ImportClause>node, printer);
     case SyntaxKind.NameSpaceImport:
-      return printNameSpaceImport(<any>node, printer);
+      return printNameSpaceImport(<NameSpaceImport>node, printer);
     case SyntaxKind.NamedImports:
-      return printNamedImports(<any>node, printer);
+      return printNamedImports(<NamedImports>node, printer);
     case SyntaxKind.ImportSpecifier:
-      return printImportSpecifier(<any>node, printer);
+      return printImportSpecifier(<ImportSpecifier>node, printer);
     case SyntaxKind.FromClause:
-      return printFromClause(<any>node, printer);
+      return printFromClause(<FromClause>node, printer);
     default:
       if (node.flags & NodeFlags.ExpressionNode) {
         printExpression(<ExpressionNode>node, printer);
@@ -423,44 +432,42 @@ function printExpressions(node: SyntaxNode, printer: Printer): void {
     case SyntaxKind.SuperKeyword:
       return printKeyword(<any>node, printer, node);
     case SyntaxKind.ClassExpression:
-      return printClassExpressionOrDeclaration(<any>node, printer);
+      return printClassExpressionOrDeclaration(<ClassExpression>node, printer);
     case SyntaxKind.IndexExpression:
-      return printIndexExpression(<any>node, printer);
+      return printIndexExpression(<IndexExpression>node, printer);
     case SyntaxKind.MemberAccessExpression:
-      return printMemberAccessExpression(<any>node, printer);
+      return printMemberAccessExpression(<MemberAccessExpression>node, printer);
     case SyntaxKind.FieldDefinition:
-      return printFieldDefinition(<any>node, printer);
+      return printFieldDefinition(<FieldDefinition>node, printer);
     case SyntaxKind.UnaryExpression:
-      return printUnaryExpression(<any>node, printer);
+      return printUnaryExpression(<UnaryExpression>node, printer);
     case SyntaxKind.BinaryExpression:
-      return printBinaryExpression(<any>node, printer);
+      return printBinaryExpression(<BinaryExpression>node, printer);
     case SyntaxKind.ArrowFunction:
-      return printArrowFunction(<any>node, printer);
+      return printArrowFunction(<ArrowFunction>node, printer);
     case SyntaxKind.PrivateIdentifier:
       return printPrivateIdentifier(<PrivateIdentifier>node, printer);
     case SyntaxKind.CoverInitializedName:
-      return printCoverInitializedName(<any>node, printer);
+      return printCoverInitializedName(<CoverInitializedName>node, printer);
     case SyntaxKind.PropertyMethod:
-      return printPropertyMethod(<any>node, printer);
+      return printPropertyMethod(<PropertyMethod>node, printer);
     case SyntaxKind.ObjectLiteral:
-      return printObjectLiteral(<any>node, printer);
+      return printObjectLiteral(<ObjectLiteral>node, printer);
     case SyntaxKind.PropertyDefinition:
-      return printPropertyDefinition(<any>node, printer);
+      return printPropertyDefinition(<PropertyDefinition>node, printer);
     case SyntaxKind.MethodDefinition:
-      return printMethodDefinition(<any>node, printer);
+      return printMethodDefinition(<MethodDefinition>node, printer);
     case SyntaxKind.ComputedPropertyName:
-      return printComputedPropertyName(<any>node, printer);
+      return printComputedPropertyName(<ComputedPropertyName>node, printer);
     case SyntaxKind.CallExpression:
-      return printCallExpression(<any>node, printer);
+      return printCallExpression(<CallExpression>node, printer);
     case SyntaxKind.YieldExpression:
-      return printYieldExpression(<any>node, printer);
+      return printYieldExpression(<YieldExpression>node, printer);
     case SyntaxKind.SpreadProperty:
     case SyntaxKind.SpreadElement:
-      return printSpreadElement(<any>node, printer);
+      return printSpreadElement(<SpreadElement>node, printer);
     case SyntaxKind.RegularExpressionLiteral:
       return printRegularExpressionLiteral(<any>node, printer);
-    case SyntaxKind.ThisKeyword:
-      return printThisExpression(<any>node, printer);
     case SyntaxKind.ImportCall:
       return printImportCall(<any>node, printer);
     case SyntaxKind.ImportMeta:
@@ -494,7 +501,7 @@ function printExpressionStatement(node: ExpressionStatement, printer: Printer): 
 function printRootNode(node: RootNode, printer: Printer) {
   const { directives, statements } = node;
   if (directives.length !== 0) {
-    printPrologueDirectives(printer, directives, /*startWithNewLine */ true, /* indented */ false);
+    printPrologueDirectives(printer, directives, /*startWithNewLine */ true);
   }
 
   if (statements.length === 0 || directives.length === 0 || nodeIsSynthesized(statements[0])) {
@@ -531,25 +538,12 @@ function printPrivateIdentifier(node: PrivateIdentifier, printer: Printer) {
   write(printer, node.rawText);
 }
 
-function printPrologueDirectives(
-  printer: Printer,
-  directives: StringLiteral[],
-  startWithNewLine: boolean,
-  indented: boolean
-) {
-  if (indented) {
-    printer.indent++;
-    writeLine(printer);
-  }
+function printPrologueDirectives(printer: Printer, directives: StringLiteral[], startWithNewLine: boolean) {
   for (let i = 0; i < directives.length; i++) {
     if (startWithNewLine || i > 0) {
       writeLine(printer);
     }
     printStatement(directives[i], printer);
-  }
-
-  if (indented) {
-    printer.indent--;
   }
   write(printer, ';');
   return directives.length;
@@ -1108,19 +1102,14 @@ function printCommaOperator(node: any, printer: Printer): void {
 }
 
 function printConditionalExpression(node: any, printer: Printer): void {
-  const indentBeforeQuestion = needsIndentation(printer, node, node.shortCircuit, node.questionToken);
-  const indentAfterQuestion = needsIndentation(printer, node, node.questionToken, node.consequent);
-  const indentBeforeColon = needsIndentation(printer, node, node.consequent, node.colonToken);
-  const indentAfterColon = needsIndentation(printer, node, node.colonToken, node.alternate);
   printStatement(node.shortCircuit, printer);
-  increaseIndentIf(printer, indentBeforeQuestion, ' ');
+  write(printer, ' ');
   printKeyword(node.questionToken, printer, node);
-  increaseIndentIf(printer, indentAfterQuestion, ' ');
+  write(printer, ' ');
   printStatement(node.consequent, printer);
-  decreaseIndentIf(printer, indentBeforeQuestion, indentAfterQuestion);
-  increaseIndentIf(printer, indentBeforeColon, ' ');
+  write(printer, ' ');
   printKeyword(node.colonToken, printer, node);
-  increaseIndentIf(printer, indentAfterColon, ' ');
+  write(printer, ' ');
   printStatement(node.alternate, printer);
 }
 
@@ -1205,10 +1194,6 @@ function printAssignmentExpression(node: AssignmentExpression, printer: Printer)
   printExpression(node.right, printer);
 }
 
-function printThisExpression(node: any, printer: Printer): void {
-  printKeyword(node.thisKeyword, printer, node);
-}
-
 function printRegularExpressionLiteral(node: any, printer: Printer): void {
   write(printer, node.text);
 }
@@ -1217,55 +1202,13 @@ function printSpreadElement(node: any, printer: Printer): void {
   printKeyword(node.ellipsisToken, printer, node);
   printExpression(node.argument, printer);
 }
-function skipSynthesizedParentheses(node: any) {
-  while (node.kind === SyntaxKind.ParenthesizedExpression && nodeIsSynthesized(node)) {
-    node = (<ParenthesizedExpression>node).expression;
-  }
-
-  return node;
-}
-function needsIndentation(printer: Printer, parent: Node, node1: Node, node2: Node): boolean {
-  parent = skipSynthesizedParentheses(parent);
-  node1 = skipSynthesizedParentheses(node1);
-  node2 = skipSynthesizedParentheses(node2);
-
-  return (
-    !nodeIsSynthesized(parent) &&
-    !nodeIsSynthesized(node1) &&
-    !nodeIsSynthesized(node2) &&
-    !rangeEndIsOnSameLineAsRangeStart(node1, node2, printer)
-  );
-}
 
 function printBinaryExpression(node: any, printer: Printer): void {
-  const isCommaOperator = node.operatorToken.kind !== SyntaxKind.Comma;
-  const indentBeforeOperator = needsIndentation(printer, node, node.left, node.operatorToken);
-  const indentAfterOperator = needsIndentation(printer, node, node.operatorToken, node.right);
-
   printExpression(node.left, printer);
-  increaseIndentIf(printer, indentBeforeOperator, isCommaOperator ? ' ' : undefined);
+  write(printer, ' ');
   printKeyword(node.operatorToken, printer, node);
-  increaseIndentIf(printer, indentAfterOperator, ' ');
+  write(printer, ' ');
   printExpression(node.right, printer);
-  decreaseIndentIf(printer, indentBeforeOperator, indentAfterOperator);
-}
-
-function decreaseIndentIf(printer: Printer, value1: boolean, value2?: boolean) {
-  if (value1) {
-    printer.indent--;
-  }
-  if (value2) {
-    printer.indent--;
-  }
-}
-
-function increaseIndentIf(printer: Printer, value: boolean, valueToWriteWhenNotIndenting?: string) {
-  if (value) {
-    printer.indent++;
-    writeLine(printer);
-  } else if (valueToWriteWhenNotIndenting) {
-    write(printer, valueToWriteWhenNotIndenting);
-  }
 }
 
 function printFunctionDeclarationOrExpression(node: any, printer: Printer): void {
@@ -1312,7 +1255,7 @@ function printFunctioBody(node: any, printer: Printer, parentNode: any): void {
   const { directives, statements, start, end } = node;
   if (directives.length !== 0) {
     printer.indent--;
-    printPrologueDirectives(printer, directives, /*startWithNewLine */ true, /* indented */ false);
+    printPrologueDirectives(printer, directives, /*startWithNewLine */ true);
     printer.indent++;
     writeLine(printer);
   }
