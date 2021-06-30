@@ -2,6 +2,7 @@ import { printCST } from '../../src/printer';
 import { parseScript, parseModule } from '../../src/kataw';
 import { promiseToReadFile, promiseToWriteFile, Constants, report, deepEqual } from './utils';
 import { visit } from './visit';
+import { strict as assert } from 'assert';
 
 // testing object
 export interface Tob {
@@ -27,7 +28,7 @@ export function updateTob(tob: any, updateItems: any): void {
   return promiseToWriteFile(tob.filename, tob.content);
 }
 
-export async function file2Tob(filename: string): Promise<Tob> {
+export async function file2Tob(filename: string, check = false): Promise<Tob> {
   const content: any = await promiseToReadFile(filename);
 
   const tob: Tob = {
@@ -53,6 +54,16 @@ export async function file2Tob(filename: string): Promise<Tob> {
   tob.$cst = JSON.stringify(cst, null, 4);
   tob.$printed = diagnostics.length === 0 ? printCST(cst, tob.printerOptions) : '';
   tob.$diagnostics = diagnostics2md(diagnostics);
+
+  // check the pirnted code
+  if (tob.$printed && check) {
+    const $$diagnostics: any[] = [];
+    const cb = function (...args: any[]) {
+      $$diagnostics.push(args);
+    };
+    const _printedCst = (tob.parserOptions.module ? parseModule : parseScript)(tob.$printed, tob.parserOptions, cb);
+    assert.equal($$diagnostics.length, diagnostics.length, `file: ${tob.filename} printed code is invalid!`);
+  }
 
   !deepEqual(tob.cst, tob.$cst) && tob.mismatchItems.push('cst');
   !deepEqual(tob.printed, tob.$printed) && tob.mismatchItems.push('printed');
