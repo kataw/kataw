@@ -172,7 +172,7 @@
 ```javascript
 
 "\"prefix '\"";
-'"prefix""';
+"\"prefix\"\"";
 "\"prefix\\\"";
 "\"prefix\b\"";
 "\"prefix\f\"";
@@ -180,6 +180,7 @@
 "\"prefix\r\"";
 "\"prefix\t\"";
 "\"prefix\v\"";
+
 ```
 
 ### Diagnostics

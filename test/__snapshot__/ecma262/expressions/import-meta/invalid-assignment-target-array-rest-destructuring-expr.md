@@ -39,30 +39,24 @@
                                     "end": 4
                                 },
                                 "argument": {
-                                    "kind": 120,
-                                    "expression": {
-                                        "kind": 299,
-                                        "importKeyword": {
-                                            "kind": 37814364,
-                                            "flags": 64,
-                                            "start": 4,
-                                            "end": 10
-                                        },
-                                        "metaIdentifier": {
-                                            "kind": 16595,
-                                            "flags": 96,
-                                            "start": 11,
-                                            "end": 15
-                                        },
-                                        "flags": 10,
-                                        "start": 96,
+                                    "kind": 299,
+                                    "importKeyword": {
+                                        "kind": 37814364,
+                                        "flags": 64,
+                                        "start": 4,
+                                        "end": 10
+                                    },
+                                    "metaIdentifier": {
+                                        "kind": 16595,
+                                        "flags": 96,
+                                        "start": 11,
                                         "end": 15
                                     },
-                                    "flags": 16,
-                                    "start": 10,
+                                    "flags": 10,
+                                    "start": 96,
                                     "end": 15
                                 },
-                                "flags": 32,
+                                "flags": 1073741856,
                                 "start": 1,
                                 "end": 15
                             }
@@ -123,7 +117,6 @@
 ### Diagnostics
 
 ```javascript
-✖ Expected a `;` - start: 15, end: 16
 ✖ The left-hand side must be a variable or a property access. - start: 16, end: 18
 
 ```

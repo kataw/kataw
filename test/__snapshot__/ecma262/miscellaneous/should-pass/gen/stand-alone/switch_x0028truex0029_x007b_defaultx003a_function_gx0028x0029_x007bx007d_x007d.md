@@ -80,8 +80,8 @@ switch (true) { default: function g() {} }
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 32,
-                                    "start": 35,
-                                    "end": 37
+                                    "start": 36,
+                                    "end": 36
                                 },
                                 "contents": {
                                     "kind": 216,
@@ -130,10 +130,11 @@ switch (true) { default: function g() {} }
 
 ```javascript
 
-switch(true) {
-  default
-    function g() {}
+switch (true) {
+  default: 
+    function g() { }
 }
+
 ```
 
 ### Diagnostics

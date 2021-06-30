@@ -143,7 +143,9 @@
 
 ```javascript
 
-({ * async() {} });
+'\'use strict\'';
+({ * async(x, y) { } });
+
 ```
 
 ### Diagnostics

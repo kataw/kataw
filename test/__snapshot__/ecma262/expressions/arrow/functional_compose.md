@@ -268,7 +268,7 @@ this.subscriptions.add(
                         "start": 71,
                         "end": 78
                     },
-                    "flags": 536870944,
+                    "flags": 96,
                     "start": 61,
                     "end": 78
                 },
@@ -658,7 +658,7 @@ this.subscriptions.add(
                         "start": 212,
                         "end": 226
                     },
-                    "flags": 536870944,
+                    "flags": 96,
                     "start": 202,
                     "end": 226
                 },
@@ -932,7 +932,7 @@ this.subscriptions.add(
                         "start": 352,
                         "end": 359
                     },
-                    "flags": 536870944,
+                    "flags": 97,
                     "start": 345,
                     "end": 359
                 },
@@ -1041,7 +1041,7 @@ this.subscriptions.add(
                                     "start": 391,
                                     "end": 392
                                 },
-                                "flags": 536870944,
+                                "flags": 97,
                                 "start": 385,
                                 "end": 392
                             },
@@ -1053,7 +1053,7 @@ this.subscriptions.add(
                                 "start": 393,
                                 "end": 394
                             },
-                            "flags": 536870944,
+                            "flags": 97,
                             "start": 385,
                             "end": 394
                         },
@@ -1065,7 +1065,7 @@ this.subscriptions.add(
                             "start": 395,
                             "end": 396
                         },
-                        "flags": 536870944,
+                        "flags": 97,
                         "start": 385,
                         "end": 396
                     },
@@ -1077,7 +1077,7 @@ this.subscriptions.add(
                         "start": 397,
                         "end": 404
                     },
-                    "flags": 536870944,
+                    "flags": 97,
                     "start": 385,
                     "end": 404
                 },
@@ -1182,7 +1182,7 @@ this.subscriptions.add(
                         "start": 439,
                         "end": 449
                     },
-                    "flags": 536870944,
+                    "flags": 96,
                     "start": 430,
                     "end": 449
                 },
@@ -1209,7 +1209,7 @@ this.subscriptions.add(
                                         "start": 455,
                                         "end": 460
                                     },
-                                    "flags": 536870944,
+                                    "flags": 96,
                                     "start": 450,
                                     "end": 460
                                 },
@@ -1221,7 +1221,7 @@ this.subscriptions.add(
                                     "start": 461,
                                     "end": 468
                                 },
-                                "flags": 536870944,
+                                "flags": 96,
                                 "start": 450,
                                 "end": 468
                             },
@@ -1355,14 +1355,8 @@ this.subscriptions.add(
                                                     "expression": {
                                                         "kind": 129,
                                                         "member": {
-                                                            "kind": 225,
-                                                            "superKeyword": {
-                                                                "kind": 4259935,
-                                                                "flags": 97,
-                                                                "start": 511,
-                                                                "end": 521
-                                                            },
-                                                            "flags": 96,
+                                                            "kind": 4259935,
+                                                            "flags": 97,
                                                             "start": 511,
                                                             "end": 521
                                                         },
@@ -1374,7 +1368,7 @@ this.subscriptions.add(
                                                             "start": 522,
                                                             "end": 529
                                                         },
-                                                        "flags": 536870944,
+                                                        "flags": 97,
                                                         "start": 511,
                                                         "end": 529
                                                     },
@@ -1509,7 +1503,7 @@ this.subscriptions.add(
                             "start": 568,
                             "end": 581
                         },
-                        "flags": 536870944,
+                        "flags": 97,
                         "start": 561,
                         "end": 581
                     },
@@ -1521,7 +1515,7 @@ this.subscriptions.add(
                         "start": 582,
                         "end": 585
                     },
-                    "flags": 536870944,
+                    "flags": 97,
                     "start": 561,
                     "end": 585
                 },
@@ -1552,7 +1546,7 @@ this.subscriptions.add(
                                                 "start": 604,
                                                 "end": 620
                                             },
-                                            "flags": 536870944,
+                                            "flags": 97,
                                             "start": 586,
                                             "end": 620
                                         },
@@ -1564,7 +1558,7 @@ this.subscriptions.add(
                                             "start": 638,
                                             "end": 642
                                         },
-                                        "flags": 536870944,
+                                        "flags": 97,
                                         "start": 586,
                                         "end": 642
                                     },
@@ -1600,7 +1594,7 @@ this.subscriptions.add(
                                                                 "start": 658,
                                                                 "end": 663
                                                             },
-                                                            "flags": 536870944,
+                                                            "flags": 96,
                                                             "start": 653,
                                                             "end": 663
                                                         }
@@ -1663,7 +1657,7 @@ this.subscriptions.add(
                                     "start": 714,
                                     "end": 723
                                 },
-                                "flags": 536870944,
+                                "flags": 268435488,
                                 "start": 586,
                                 "end": 723
                             },
@@ -1745,26 +1739,23 @@ this.subscriptions.add(
 
 ```javascript
 
-compose(sortBy(x =>  x), flatten, map(x =>  [x, x * 2]));
-somelib.compose(sortBy(x =>  x), flatten, map(x =>  [x, x * 2]));
-composeFlipped(sortBy(x =>  x), flatten, map(x =>  [x, x * 2]));
-somelib.composeFlipped(sortBy(x =>  x), flatten, map(x =>  [x, x * 2]));
-// no regression (#4602)
+compose(sortBy(x => x), flatten, map(x => [x, x * 2,]));
+somelib.compose(sortBy(x => x), flatten, map(x => [x, x * 2,]));
+composeFlipped(sortBy(x => x), flatten, map(x => [x, x * 2,]));
+somelib.composeFlipped(sortBy(x => x), flatten, map(x => [x, x * 2,]));
+ // no regression (#4602)
 const hasValue = hasOwnProperty(a, b);
-this.compose(sortBy(x =>  x), flatten);
-this.a.b.c.compose(sortBy(x =>  x), flatten);
+this.compose(sortBy(x => x), flatten);
+this.a.b.c.compose(sortBy(x => x), flatten);
 someObj.someMethod(this.field.compose(a, b));
-class A  {
+class A extends B {
   compose() {
-    super.compose(sortBy(x =>  x), flatten);
+    super.compose(sortBy(x => x), flatten);
   }
 }
-this.subscriptions.add(
-  this.componentUpdates.pipe(
-    startWith(this.props),
-    distinctUntilChanged(isEqual),
-  ).subscribe(props =>  {}),
-);
+this.subscriptions.add(this.componentUpdates.pipe(startWith(this.props), distinctUntilChanged(isEqual)).subscribe(props =>  {
+}));
+
 ```
 
 ### Diagnostics

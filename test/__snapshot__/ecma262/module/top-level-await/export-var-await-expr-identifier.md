@@ -269,6 +269,7 @@ export var name1 = await foo;
 export var {
   x = await foo
 } = {};
+
 ```
 
 ### Diagnostics

@@ -145,9 +145,8 @@
 
 ```javascript
 
-({ async foo() {
-    await a;
-  } });
+({ async foo(a) { await a; } });
+
 ```
 
 ### Diagnostics

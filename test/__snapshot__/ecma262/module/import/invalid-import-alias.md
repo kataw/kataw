@@ -122,7 +122,8 @@ import {'\uD800' as x} from 'foo'
 
 ```javascript
 
-import { x }  ;
+import { '\'\uD800\'' as x, } from '\'foo\'';
+
 ```
 
 ### Diagnostics

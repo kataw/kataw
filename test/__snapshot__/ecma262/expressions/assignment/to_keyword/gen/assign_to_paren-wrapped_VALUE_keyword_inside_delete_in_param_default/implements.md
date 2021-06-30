@@ -123,8 +123,8 @@ function *f(x = delete ((implements) = f)) {}
                 ],
                 "trailingComma": false,
                 "flags": 34,
-                "start": 11,
-                "end": 42
+                "start": 12,
+                "end": 41
             },
             "contents": {
                 "kind": 216,
@@ -159,7 +159,8 @@ function *f(x = delete ((implements) = f)) {}
 
 ```javascript
 
-function * f() {}
+function* f(x = delete  ((implements) = f)) { }
+
 ```
 
 ### Diagnostics

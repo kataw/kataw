@@ -70,6 +70,7 @@ async in {}
 ```javascript
 
 async in {};
+
 ```
 
 ### Diagnostics

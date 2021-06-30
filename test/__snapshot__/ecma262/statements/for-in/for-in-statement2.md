@@ -60,6 +60,7 @@ function F<T>() {
                                 "end": 12
                             },
                             "type": null,
+                            "assignToken": null,
                             "defaultType": null,
                             "flags": 2097152,
                             "start": 11,
@@ -80,8 +81,8 @@ function F<T>() {
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 13,
-                "end": 15
+                "start": 14,
+                "end": 14
             },
             "contents": {
                 "kind": 216,
@@ -251,11 +252,12 @@ function F<T>() {
 
 ```javascript
 
-function  <T >F() {
-  var expr: ;
-  for ( in expr)
-    {}
+function F<T> () {
+  var expr: T;
+  for (var a in expr) {
+  }
 }
+
 ```
 
 ### Diagnostics

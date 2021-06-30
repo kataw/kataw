@@ -122,7 +122,8 @@ import { a as arguments } from 'm.js';
 
 ```javascript
 
-import { a asarguments }  ;
+import { a as arguments, } from '\'m.js\'';
+
 ```
 
 ### Diagnostics

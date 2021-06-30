@@ -1033,13 +1033,14 @@ x << y >> z;
 x >>> y << z;
 x >>> y >>> z;
 x + y >> z;
-x | y => z;
-x => y | z;
+x | y & z;
+x & y | z;
 x ^ y ^ z;
-   => y => z;
+x & y & z;
 x | y | z;
-x => y >> z;
+x & y >> z;
 x << y | z;
+
 ```
 
 ### Diagnostics

@@ -129,7 +129,8 @@
 
 ```javascript
 
-({ instanceof() {} });
+({ instanceof(x, y) { } });
+
 ```
 
 ### Diagnostics

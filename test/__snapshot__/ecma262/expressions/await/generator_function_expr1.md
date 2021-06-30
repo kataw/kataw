@@ -92,8 +92,8 @@ let x = function *f(foo = await){}
                                 ],
                                 "trailingComma": false,
                                 "flags": 34,
-                                "start": 19,
-                                "end": 32
+                                "start": 20,
+                                "end": 31
                             },
                             "contents": {
                                 "kind": 216,
@@ -141,7 +141,8 @@ let x = function *f(foo = await){}
 
 ```javascript
 
-let x = function * f() {};
+let x = function* f(foo = await) { };
+
 ```
 
 ### Diagnostics

@@ -154,8 +154,9 @@ class A { [x=y](foo) {} }
 ```javascript
 
 class A {
-  [x = y]() {}
+  [x = y](foo) { }
 }
+
 ```
 
 ### Diagnostics

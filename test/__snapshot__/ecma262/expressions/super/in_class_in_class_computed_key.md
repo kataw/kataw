@@ -162,13 +162,7 @@ class A extends B {
                                                                         "expression": {
                                                                             "kind": 130,
                                                                             "member": {
-                                                                                "kind": 225,
-                                                                                "superKeyword": {
-                                                                                    "kind": 4259935,
-                                                                                    "flags": 96,
-                                                                                    "start": 59,
-                                                                                    "end": 64
-                                                                                },
+                                                                                "kind": 4259935,
                                                                                 "flags": 96,
                                                                                 "start": 59,
                                                                                 "end": 64
@@ -278,13 +272,14 @@ class A extends B {
 
 ```javascript
 
-class A  {
+class A extends B {
   x() {
-    class C  {
-      [super[foo]]() {}
+    class C extends D {
+      [super[foo]]() { }
     }
   }
 }
+
 ```
 
 ### Diagnostics

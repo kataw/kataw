@@ -205,13 +205,10 @@ var {x: x, y: y, z: { a: a = 10} } = b;
 
 ```javascript
 
-var {
-  x: x,
-  y: y,
-  z: {
-    a: a = 10
-  }
-} = b;
+var { x: x, y: y, z: {
+  a: a = 10
+} } = b;
+
 ```
 
 ### Diagnostics

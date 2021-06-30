@@ -179,7 +179,8 @@ wrap({* foo(){},*bar(){}});
 
 ```javascript
 
-wrap({ * foo() {}, * bar() {} });
+wrap({ * foo() { }, * bar() { } });
+
 ```
 
 ### Diagnostics

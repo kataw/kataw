@@ -99,7 +99,8 @@ async x => implements = 1
 
 ```javascript
 
-async x =>  implements = 1;
+async x => implements = 1;
+
 ```
 
 ### Diagnostics

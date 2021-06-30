@@ -135,7 +135,8 @@ import a { b, c } from 'm.js'
 
 ```javascript
 
-import a, { b, c }  ;
+import a{  b,  c, } from '\'m.js\'';
+
 ```
 
 ### Diagnostics

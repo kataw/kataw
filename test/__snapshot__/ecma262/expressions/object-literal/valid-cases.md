@@ -1047,7 +1047,7 @@ x = {y: {z: 1}}?.y?.z;
                                     "start": 247,
                                     "end": 251
                                 },
-                                "flags": 32,
+                                "flags": 1073741856,
                                 "start": 243,
                                 "end": 251
                             },
@@ -1153,7 +1153,7 @@ x = {y: {z: 1}}?.y?.z;
                                     "start": 269,
                                     "end": 275
                                 },
-                                "flags": 32,
+                                "flags": 1073741856,
                                 "start": 265,
                                 "end": 275
                             },
@@ -1279,7 +1279,7 @@ x = {y: {z: 1}}?.y?.z;
                                     "start": 293,
                                     "end": 303
                                 },
-                                "flags": 32,
+                                "flags": 1073741856,
                                 "start": 289,
                                 "end": 303
                             },
@@ -1411,7 +1411,7 @@ x = {y: {z: 1}}?.y?.z;
                                     "start": 321,
                                     "end": 329
                                 },
-                                "flags": 32,
+                                "flags": 1073741856,
                                 "start": 317,
                                 "end": 329
                             },
@@ -1643,7 +1643,7 @@ x = {y: {z: 1}}?.y?.z;
                         "chain": {
                             "kind": 302,
                             "chain": {
-                                "kind": 536871114,
+                                "kind": 202,
                                 "chain": null,
                                 "expression": {
                                     "kind": 134299649,
@@ -1653,7 +1653,7 @@ x = {y: {z: 1}}?.y?.z;
                                     "start": 373,
                                     "end": 374
                                 },
-                                "flags": 32,
+                                "flags": 536870944,
                                 "start": 373,
                                 "end": 374
                             },
@@ -1668,7 +1668,7 @@ x = {y: {z: 1}}?.y?.z;
                     "chain": {
                         "kind": 302,
                         "chain": {
-                            "kind": 536871114,
+                            "kind": 202,
                             "chain": null,
                             "expression": {
                                 "kind": 134299649,
@@ -1678,7 +1678,7 @@ x = {y: {z: 1}}?.y?.z;
                                 "start": 376,
                                 "end": 377
                             },
-                            "flags": 32,
+                            "flags": 536870944,
                             "start": 376,
                             "end": 377
                         },
@@ -1803,7 +1803,7 @@ x = {y: {z: 1}}?.y?.z;
                         "chain": {
                             "kind": 302,
                             "chain": {
-                                "kind": 536871114,
+                                "kind": 202,
                                 "chain": null,
                                 "expression": {
                                     "kind": 134299649,
@@ -1813,7 +1813,7 @@ x = {y: {z: 1}}?.y?.z;
                                     "start": 397,
                                     "end": 398
                                 },
-                                "flags": 32,
+                                "flags": 536870944,
                                 "start": 397,
                                 "end": 398
                             },
@@ -1828,7 +1828,7 @@ x = {y: {z: 1}}?.y?.z;
                     "chain": {
                         "kind": 302,
                         "chain": {
-                            "kind": 536871114,
+                            "kind": 202,
                             "chain": null,
                             "expression": {
                                 "kind": 134299649,
@@ -1838,7 +1838,7 @@ x = {y: {z: 1}}?.y?.z;
                                 "start": 400,
                                 "end": 401
                             },
-                            "flags": 32,
+                            "flags": 536870944,
                             "start": 400,
                             "end": 401
                         },

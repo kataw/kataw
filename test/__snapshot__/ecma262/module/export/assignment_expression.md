@@ -84,7 +84,8 @@ export default () => x
 
 ```javascript
 
-export default () =>  x;
+export default () => x;
+
 ```
 
 ### Diagnostics

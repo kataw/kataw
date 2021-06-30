@@ -50,6 +50,7 @@
 ```javascript
 
 (x);
+
 ```
 
 ### Diagnostics

@@ -64,11 +64,11 @@ import('hello', 'world', '!');
                     }
                 ],
                 "flags": 32,
-                "start": 6,
+                "start": 0,
                 "end": 28
             },
             "flags": 16,
-            "start": 6,
+            "start": 0,
             "end": 28
         },
         {

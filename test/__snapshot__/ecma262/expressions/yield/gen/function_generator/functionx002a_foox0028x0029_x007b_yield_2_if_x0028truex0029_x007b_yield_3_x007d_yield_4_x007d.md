@@ -53,8 +53,8 @@ function * gen() { function not_gen() { function* foo() { yield 2; if (true) { y
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 14,
-                "end": 16
+                "start": 15,
+                "end": 15
             },
             "contents": {
                 "kind": 216,
@@ -87,8 +87,8 @@ function * gen() { function not_gen() { function* foo() { yield 2; if (true) { y
                                 "formalParameters": [],
                                 "trailingComma": false,
                                 "flags": 32,
-                                "start": 35,
-                                "end": 37
+                                "start": 36,
+                                "end": 36
                             },
                             "contents": {
                                 "kind": 216,
@@ -126,8 +126,8 @@ function * gen() { function not_gen() { function* foo() { yield 2; if (true) { y
                                                 "formalParameters": [],
                                                 "trailingComma": false,
                                                 "flags": 32,
-                                                "start": 53,
-                                                "end": 55
+                                                "start": 54,
+                                                "end": 54
                                             },
                                             "contents": {
                                                 "kind": 216,
@@ -315,17 +315,10 @@ function * gen() { function not_gen() { function* foo() { yield 2; if (true) { y
 
 ```javascript
 
-function * gen() {
-  function not_gen() {
-    function * foo() {
-      yield 2;
-      if (true) {
-          yield 3;
-        }
-      yield 4;
-    }
-  }
-}
+function* gen() { function not_gen() { function* foo() { yield 2; if (true) {
+  yield 3;
+} ; yield 4; } } }
+
 ```
 
 ### Diagnostics

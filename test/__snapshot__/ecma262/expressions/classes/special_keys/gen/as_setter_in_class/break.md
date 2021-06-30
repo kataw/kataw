@@ -141,8 +141,9 @@ class x {set break(x){}}
 ```javascript
 
 class x {
-  set break() {}
+  set break(x) { }
 }
+
 ```
 
 ### Diagnostics

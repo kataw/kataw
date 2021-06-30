@@ -82,6 +82,7 @@ wrap({get});
 ```javascript
 
 wrap({ get });
+
 ```
 
 ### Diagnostics

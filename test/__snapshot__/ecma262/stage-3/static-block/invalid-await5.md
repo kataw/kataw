@@ -171,8 +171,8 @@ class C {
 
 let await;
 class C {
-
 }
+
 ```
 
 ### Diagnostics

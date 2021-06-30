@@ -55,7 +55,7 @@ var c: { (x: string): string } = function (x: number): string { return "hi"; };
                                     {
                                         "kind": 196,
                                         "protoKeyword": null,
-                                        "staticToken": null,
+                                        "staticKeyword": null,
                                         "typeParameter": null,
                                         "value": {
                                             "kind": 282,
@@ -173,8 +173,8 @@ var c: { (x: string): string } = function (x: number): string { return "hi"; };
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
-                                "start": 41,
-                                "end": 53
+                                "start": 43,
+                                "end": 52
                             },
                             "contents": {
                                 "kind": 216,
@@ -256,9 +256,8 @@ var c: { (x: string): string } = function (x: number): string { return "hi"; };
 
 ```javascript
 
-var c:  = function (): string {
-  return  "\"hi\"";
-};
+var c: { (x: string): string } = function (x: number): string { return "\"hi\""; };
+
 ```
 
 ### Diagnostics

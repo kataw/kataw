@@ -134,13 +134,7 @@ class x extends y {
                                                                             "value": {
                                                                                 "kind": 129,
                                                                                 "member": {
-                                                                                    "kind": 225,
-                                                                                    "superKeyword": {
-                                                                                        "kind": 4259935,
-                                                                                        "flags": 96,
-                                                                                        "start": 48,
-                                                                                        "end": 54
-                                                                                    },
+                                                                                    "kind": 4259935,
                                                                                     "flags": 96,
                                                                                     "start": 48,
                                                                                     "end": 54
@@ -153,7 +147,7 @@ class x extends y {
                                                                                     "start": 55,
                                                                                     "end": 59
                                                                                 },
-                                                                                "flags": 536870944,
+                                                                                "flags": 96,
                                                                                 "start": 44,
                                                                                 "end": 59
                                                                             },

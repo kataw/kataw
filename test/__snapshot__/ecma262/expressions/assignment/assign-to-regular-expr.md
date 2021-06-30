@@ -38,7 +38,7 @@ x = /a/y;
                     "end": 3
                 },
                 "right": {
-                    "kind": 221,
+                    "kind": 371,
                     "text": "/a/i",
                     "flags": 96,
                     "start": 3,
@@ -71,7 +71,7 @@ x = /a/y;
                     "end": 14
                 },
                 "right": {
-                    "kind": 221,
+                    "kind": 371,
                     "text": "/a/u",
                     "flags": 96,
                     "start": 14,
@@ -104,7 +104,7 @@ x = /a/y;
                     "end": 25
                 },
                 "right": {
-                    "kind": 221,
+                    "kind": 371,
                     "text": "/a/y",
                     "flags": 96,
                     "start": 25,
@@ -135,6 +135,7 @@ x = /a/y;
 x = /a/i;
 x = /a/u;
 x = /a/y;
+
 ```
 
 ### Diagnostics

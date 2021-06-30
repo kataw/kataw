@@ -43,8 +43,40 @@ async(...args?: any[]) : any => {}
                             "start": 6,
                             "end": 9
                         },
-                        "optionalToken": null,
-                        "type": null,
+                        "left": {
+                            "kind": 134299649,
+                            "text": "args",
+                            "rawText": "args",
+                            "flags": 96,
+                            "start": 9,
+                            "end": 13
+                        },
+                        "optionalToken": {
+                            "kind": 134217750,
+                            "flags": 64,
+                            "start": 13,
+                            "end": 14
+                        },
+                        "type": {
+                            "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
+                            "type": {
+                                "kind": 136,
+                                "type": {
+                                    "kind": 134234252,
+                                    "flags": 2097216,
+                                    "start": 15,
+                                    "end": 19
+                                },
+                                "flags": 2097152,
+                                "start": 15,
+                                "end": 21
+                            },
+                            "flags": 2097152,
+                            "start": 15,
+                            "end": 21
+                        },
                         "right": null,
                         "flags": 32,
                         "start": 6,
@@ -108,7 +140,8 @@ async(...args?: any[]) : any => {}
 
 ```javascript
 
-async  =>  {}
+async (...args?: any[]) =>  { }
+
 ```
 
 ### Diagnostics

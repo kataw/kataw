@@ -141,8 +141,9 @@ class x {set async(x){}}
 ```javascript
 
 class x {
-  set async() {}
+  set async(x) { }
 }
+
 ```
 
 ### Diagnostics

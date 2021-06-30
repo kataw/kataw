@@ -137,8 +137,9 @@ class x {static * for(){}}
 ```javascript
 
 class x {
-  static static for() {}
+  static *for() { }
 }
+
 ```
 
 ### Diagnostics

@@ -57,8 +57,8 @@ function f() {
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 72,
-                "end": 74
+                "start": 73,
+                "end": 73
             },
             "contents": {
                 "kind": 216,
@@ -182,7 +182,7 @@ function f() {
                                                             "start": 148,
                                                             "end": 157
                                                         },
-                                                        "flags": 536870944,
+                                                        "flags": 96,
                                                         "start": 137,
                                                         "end": 157
                                                     },
@@ -250,7 +250,7 @@ function f() {
                                                             "start": 184,
                                                             "end": 193
                                                         },
-                                                        "flags": 536870944,
+                                                        "flags": 96,
                                                         "start": 171,
                                                         "end": 193
                                                     },
@@ -356,8 +356,8 @@ function f() {
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 223,
-                "end": 225
+                "start": 224,
+                "end": 224
             },
             "contents": {
                 "kind": 216,
@@ -481,7 +481,7 @@ function f() {
                                                             "start": 306,
                                                             "end": 315
                                                         },
-                                                        "flags": 536870944,
+                                                        "flags": 96,
                                                         "start": 288,
                                                         "end": 315
                                                     },
@@ -549,7 +549,7 @@ function f() {
                                                             "start": 348,
                                                             "end": 357
                                                         },
-                                                        "flags": 536870944,
+                                                        "flags": 96,
                                                         "start": 329,
                                                         "end": 357
                                                     },
@@ -644,23 +644,22 @@ function f() {
 
 ```javascript
 // Both functions below should be formatted exactly the same
+function f() {
+  if (position)
+    return { name : pair };
+  else
+    return { name : pair.substring(0, position), value : pair.substring(position + 1) };
+}
+function f() {
+  if (position)
+    return { name : pair };
+  else
+    return {
+      name : pair.substring(0, position),
+      value : pair.substring(position + 1)
+    };
+}
 
-function f() {
-  if (position) return  { name: pair };
-  else
-    return  {
-      name: pair.substring(0, position),
-      value: pair.substring(position + 1)
-    };
-}
-function f() {
-  if (position) return  { name: pair };
-  else
-    return  {
-      name: pair.substring(0, position),
-      value: pair.substring(position + 1)
-    };
-}
 ```
 
 ### Diagnostics

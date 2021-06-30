@@ -54,12 +54,6 @@ type x = [y?];
                     "elementTypes": [
                         {
                             "kind": 334,
-                            "optionalToken": {
-                                "kind": 134217750,
-                                "flags": 64,
-                                "start": 11,
-                                "end": 12
-                            },
                             "type": {
                                 "kind": 139,
                                 "bitwiseOrToken": null,
@@ -82,6 +76,12 @@ type x = [y?];
                                 "flags": 2097152,
                                 "start": 10,
                                 "end": 11
+                            },
+                            "optionalToken": {
+                                "kind": 134217750,
+                                "flags": 64,
+                                "start": 11,
+                                "end": 12
                             },
                             "flags": 2097152,
                             "start": 10,
@@ -115,6 +115,7 @@ type x = [y?];
 
 ```javascript
 
+type x = [y?]
 
 ```
 

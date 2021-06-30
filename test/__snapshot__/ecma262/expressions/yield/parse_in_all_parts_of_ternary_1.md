@@ -45,8 +45,8 @@ function *f() { (yield 1) ? yield 2 : yield 3; }
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 11,
-                "end": 13
+                "start": 12,
+                "end": 12
             },
             "contents": {
                 "kind": 216,
@@ -178,9 +178,8 @@ function *f() { (yield 1) ? yield 2 : yield 3; }
 
 ```javascript
 
-function * f() {
-  (yield 1) ? yield 2 : yield 3;
-}
+function* f() { (yield 1) ? yield 2 : yield 3; }
+
 ```
 
 ### Diagnostics

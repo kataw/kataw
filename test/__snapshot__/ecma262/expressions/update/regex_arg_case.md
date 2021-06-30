@@ -28,7 +28,7 @@
                 "operand": {
                     "kind": 129,
                     "member": {
-                        "kind": 221,
+                        "kind": 371,
                         "text": "/b/",
                         "flags": 96,
                         "start": 2,
@@ -42,7 +42,7 @@
                         "start": 6,
                         "end": 7
                     },
-                    "flags": 536870944,
+                    "flags": 96,
                     "start": 2,
                     "end": 7
                 },
@@ -69,6 +69,7 @@
 ```javascript
 
 --/b/.c;
+
 ```
 
 ### Diagnostics

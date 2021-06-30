@@ -43,7 +43,7 @@
                                             "kind": 201392130,
                                             "text": 50,
                                             "rawText": "50.",
-                                            "flags": 96,
+                                            "flags": 32864,
                                             "start": 4,
                                             "end": 8
                                         },
@@ -55,7 +55,7 @@
                                             "start": 9,
                                             "end": 12
                                         },
-                                        "flags": 536870944,
+                                        "flags": 32864,
                                         "start": 4,
                                         "end": 12
                                     },
@@ -113,7 +113,8 @@
 
 ```javascript
 
-({ l: 50.foo } = x);
+({ l : 50..foo } = x);
+
 ```
 
 ### Diagnostics

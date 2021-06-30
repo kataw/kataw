@@ -127,7 +127,8 @@ x = { method(test) { } }
 
 ```javascript
 
-x = { method() {} };
+x = { method(test) { } };
+
 ```
 
 ### Diagnostics

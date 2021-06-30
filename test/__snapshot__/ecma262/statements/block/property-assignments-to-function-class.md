@@ -88,7 +88,7 @@ FooBar.bar = 1;
                                     "start": 19,
                                     "end": 22
                                 },
-                                "flags": 536870944,
+                                "flags": 96,
                                 "start": 14,
                                 "end": 22
                             },
@@ -208,7 +208,7 @@ FooBar.bar = 1;
                                     "start": 57,
                                     "end": 60
                                 },
-                                "flags": 536870944,
+                                "flags": 96,
                                 "start": 51,
                                 "end": 60
                             },
@@ -259,8 +259,8 @@ FooBar.bar = 1;
                             "formalParameters": [],
                             "trailingComma": false,
                             "flags": 32,
-                            "start": 82,
-                            "end": 84
+                            "start": 83,
+                            "end": 83
                         },
                         "contents": {
                             "kind": 216,
@@ -303,7 +303,7 @@ FooBar.bar = 1;
                                     "start": 95,
                                     "end": 98
                                 },
-                                "flags": 536870944,
+                                "flags": 96,
                                 "start": 87,
                                 "end": 98
                             },
@@ -353,13 +353,15 @@ FooBar.bar = 1;
 ```javascript
 
 {
-  class Foo {}
+  class Foo {
+  }
   Foo.bar = 1;
-  const Foo2 = () =>  {};
+  const Foo2 = () =>  { };
   Foo2.bar = 1;
-  function FooBar() {}
+  function FooBar() { }
   FooBar.bar = 1;
 }
+
 ```
 
 ### Diagnostics

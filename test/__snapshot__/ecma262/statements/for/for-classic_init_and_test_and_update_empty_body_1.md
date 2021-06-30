@@ -90,7 +90,9 @@ for (a;b;c);
 
 ```javascript
 
-for (a; c; b);
+for (a; c; b)
+  ;
+
 ```
 
 ### Diagnostics

@@ -134,8 +134,8 @@ let tests = [
                                             ],
                                             "trailingComma": false,
                                             "flags": 32,
-                                            "start": 24,
-                                            "end": 37
+                                            "start": 25,
+                                            "end": 36
                                         },
                                         "contents": {
                                             "kind": 216,
@@ -305,8 +305,8 @@ let tests = [
                                             ],
                                             "trailingComma": false,
                                             "flags": 32,
-                                            "start": 160,
-                                            "end": 181
+                                            "start": 161,
+                                            "end": 180
                                         },
                                         "contents": {
                                             "kind": 216,
@@ -330,7 +330,7 @@ let tests = [
                                                                 "kind": 201392130,
                                                                 "text": 0.5,
                                                                 "rawText": "0.5",
-                                                                "flags": 96,
+                                                                "flags": 32864,
                                                                 "start": 190,
                                                                 "end": 193
                                                             },
@@ -358,7 +358,7 @@ let tests = [
                                                                 "kind": 201392130,
                                                                 "text": 1e-22,
                                                                 "rawText": "0.0000000000000000000001",
-                                                                "flags": 96,
+                                                                "flags": 32864,
                                                                 "start": 232,
                                                                 "end": 256
                                                             },
@@ -450,8 +450,8 @@ let tests = [
                                             ],
                                             "trailingComma": false,
                                             "flags": 32,
-                                            "start": 337,
-                                            "end": 351
+                                            "start": 339,
+                                            "end": 350
                                         },
                                         "contents": {
                                             "kind": 216,
@@ -485,7 +485,7 @@ let tests = [
                                                                         "kind": 201392130,
                                                                         "text": 0.5,
                                                                         "rawText": "0.5",
-                                                                        "flags": 96,
+                                                                        "flags": 32864,
                                                                         "start": 367,
                                                                         "end": 371
                                                                     },
@@ -561,8 +561,8 @@ let tests = [
                                             "formalParameters": [],
                                             "trailingComma": false,
                                             "flags": 32,
-                                            "start": 487,
-                                            "end": 490
+                                            "start": 489,
+                                            "end": 489
                                         },
                                         "contents": {
                                             "kind": 216,
@@ -619,6 +619,7 @@ let tests = [
                                                                                     "type": {
                                                                                         "kind": 134217968,
                                                                                         "text": 1,
+                                                                                        "rawText": "1",
                                                                                         "flags": 2097216,
                                                                                         "start": 552,
                                                                                         "end": 553
@@ -634,6 +635,7 @@ let tests = [
                                                                                     "type": {
                                                                                         "kind": 134217968,
                                                                                         "text": 2,
+                                                                                        "rawText": "2",
                                                                                         "flags": 2097216,
                                                                                         "start": 554,
                                                                                         "end": 556
@@ -660,8 +662,8 @@ let tests = [
                                                             ],
                                                             "trailingComma": false,
                                                             "flags": 32,
-                                                            "start": 547,
-                                                            "end": 558
+                                                            "start": 548,
+                                                            "end": 557
                                                         },
                                                         "contents": {
                                                             "kind": 216,
@@ -695,7 +697,7 @@ let tests = [
                                                                                 "start": 578,
                                                                                 "end": 584
                                                                             },
-                                                                            "flags": 536870944,
+                                                                            "flags": 96,
                                                                             "start": 575,
                                                                             "end": 584
                                                                         },
@@ -781,29 +783,28 @@ let tests = [
 
 ```javascript
 
-let tests = [function () {
-    t[1]; // error, out of bounds
-
-    t[-1]; // error, out of bounds
-
-  }, // toString's to an invalid index
-  function () {
-    t[0.5]; // error: index out of bounds
-
-    t[0.0000000000000000000001]; // error: index ("1e-22") out of bounds
-
-  }, // through a variable
-  function () {
+let tests = [
+  function (t: [number]) {
+    t[1];// error, out of bounds
+    t[- 1];// error, out of bounds
+  },
+   // toString's to an invalid index
+  function (t: [number, string]) {
+    t[0.5];// error: index out of bounds
+    t[0.0000000000000000000001];// error: index ("1e-22") out of bounds
+  },
+   // through a variable
+  function (t: [number]) {
     const x = 0.5;
-    t[x]; // error, not an integer
-
-  }, // Return length from a function with mismatched return type.
+    t[x];// error, not an integer
+  },
+   // Return length from a function with mismatched return type.
   function () {
-    // error: tuple length 2 !~> string
-    function a(): string {
-      return  x.length;
-    }
-  },];
+     // error: tuple length 2 !~> string
+    function a(x: [1, 2]): string { return x.length; }
+  },
+];
+
 ```
 
 ### Diagnostics

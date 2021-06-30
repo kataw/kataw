@@ -105,7 +105,9 @@ for (var a in b);
 
 ```javascript
 
-for ( in b);
+for (var a in b)
+  ;
+
 ```
 
 ### Diagnostics

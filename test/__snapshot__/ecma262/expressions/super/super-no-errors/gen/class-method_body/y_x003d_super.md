@@ -104,13 +104,7 @@ class C { m() { y = super; }
                                                     "right": {
                                                         "kind": 129,
                                                         "member": {
-                                                            "kind": 225,
-                                                            "superKeyword": {
-                                                                "kind": 4259935,
-                                                                "flags": 96,
-                                                                "start": 19,
-                                                                "end": 25
-                                                            },
+                                                            "kind": 4259935,
                                                             "flags": 96,
                                                             "start": 19,
                                                             "end": 25
@@ -123,7 +117,7 @@ class C { m() { y = super; }
                                                             "start": 25,
                                                             "end": 25
                                                         },
-                                                        "flags": 536870944,
+                                                        "flags": 32,
                                                         "start": 19,
                                                         "end": 25
                                                     },

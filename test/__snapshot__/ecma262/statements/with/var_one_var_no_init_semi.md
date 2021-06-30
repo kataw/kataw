@@ -65,6 +65,7 @@ with (foo) bar;
 
 with (foo)
   bar;
+
 ```
 
 ### Diagnostics

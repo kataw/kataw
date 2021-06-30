@@ -55,8 +55,8 @@ function *P(){
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 11,
-                "end": 13
+                "start": 12,
+                "end": 12
             },
             "contents": {
                 "kind": 216,
@@ -94,7 +94,7 @@ function *P(){
                                         "end": 32
                                     },
                                     "expression": {
-                                        "kind": 221,
+                                        "kind": 371,
                                         "text": "/more crap/g",
                                         "flags": 96,
                                         "start": 32,
@@ -148,9 +148,11 @@ function *P(){
 
 ```javascript
 
-function * P() {
-  class D  {}
+function* P() {
+  class D extends /more crap/g {
+  }
 }
+
 ```
 
 ### Diagnostics

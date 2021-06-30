@@ -159,7 +159,8 @@ var a : typeof A.B<T>
 
 ```javascript
 
-var a: ;
+var a: typeof A.B<T>;
+
 ```
 
 ### Diagnostics

@@ -106,6 +106,7 @@ foo: for (x of y) continue foo;
 
 foo: for (x of y)
   continue foo;
+
 ```
 
 ### Diagnostics

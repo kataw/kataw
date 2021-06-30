@@ -134,6 +134,7 @@ var [a,b,...rest] = {};
 ```javascript
 
 var [a, b, ...rest] = {};
+
 ```
 
 ### Diagnostics

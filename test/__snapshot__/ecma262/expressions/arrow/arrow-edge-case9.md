@@ -99,6 +99,7 @@ a ? (b) : c => <T>(d) : e => f;
                                             "end": 17
                                         },
                                         "type": null,
+                                        "assignToken": null,
                                         "defaultType": null,
                                         "flags": 2097152,
                                         "start": 16,
@@ -198,7 +199,8 @@ a ? (b) : c => <T>(d) : e => f;
 
 ```javascript
 
-a ? (b) : c =>  () =>  f;
+a ? (b) : c => <T>(d) => f;
+
 ```
 
 ### Diagnostics

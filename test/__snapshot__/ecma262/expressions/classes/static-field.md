@@ -42,7 +42,7 @@ class {
                             "kind": 280,
                             "decorators": null,
                             "declaredToken": null,
-                            "staticToken": {
+                            "staticKeyword": {
                                 "kind": 8388716,
                                 "flags": 64,
                                 "start": 7,
@@ -72,8 +72,8 @@ class {
                             "end": 33
                         },
                         {
-                            "kind": 317,
-                            "flags": 96,
+                            "kind": 1108353041,
+                            "flags": 64,
                             "start": 33,
                             "end": 34
                         }

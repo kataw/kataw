@@ -64,7 +64,8 @@ export {}
 
 ```javascript
 
-export {};
+export { };
+
 ```
 
 ### Diagnostics

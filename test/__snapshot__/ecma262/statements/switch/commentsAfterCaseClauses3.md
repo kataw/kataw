@@ -64,8 +64,8 @@ function getSecurity(level) {
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 20,
-                "end": 27
+                "start": 21,
+                "end": 26
             },
             "contents": {
                 "kind": 216,
@@ -373,25 +373,26 @@ function getSecurity(level) {
 
 ```javascript
 
-function getSecurity() {
-  switch(level) {
+function getSecurity(level) {
+  switch (level) {
     case 0:
-       /*Zero*/
-    /*Zero*/ case 1:
-       /*One*/
-    /*One*/ case 2:
-      // Leading comments
-      return  "\"Hi\"";
+    /*Zero*/
+    case 1:
+    /*One*/
+    case 2: 
+       // Leading comments
+      return "\"Hi\"";
     case 3:
-       /*three*/
-    /*three*/ case 4:
-      return  "\"hello\"";
+    /*three*/
+    case 4: 
+      return "\"hello\"";
     case 5:
-       /*five*/
-    /*five*/ default
-      return  "\"world\"";
+    /*five*/
+    default: 
+      return "\"world\"";
   }
 }
+
 ```
 
 ### Diagnostics

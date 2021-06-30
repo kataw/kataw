@@ -132,8 +132,9 @@ class x {get extends(){}}
 ```javascript
 
 class x {
-  get extends() {}
+  get extends() { }
 }
+
 ```
 
 ### Diagnostics

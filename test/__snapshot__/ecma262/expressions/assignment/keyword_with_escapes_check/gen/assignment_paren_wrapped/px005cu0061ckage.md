@@ -77,7 +77,8 @@
 
 ```javascript
 
-(package = x);
+(p\u0061ckage = x);
+
 ```
 
 ### Diagnostics

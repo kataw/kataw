@@ -127,7 +127,9 @@
 
 ```javascript
 
-var asyncFn = async  =>  "'test'";
+'\'use strict\'';
+var asyncFn = async (await) => '\'test\'';
+
 ```
 
 ### Diagnostics

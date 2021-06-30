@@ -64,6 +64,7 @@ await - 25
 ```javascript
 
 await - 25;
+
 ```
 
 ### Diagnostics

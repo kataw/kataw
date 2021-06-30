@@ -141,8 +141,8 @@ function f(argument1, { __proto__: x, __proto__: y, ...z}) {}
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 10,
-                "end": 58
+                "start": 11,
+                "end": 57
             },
             "contents": {
                 "kind": 216,
@@ -177,7 +177,8 @@ function f(argument1, { __proto__: x, __proto__: y, ...z}) {}
 
 ```javascript
 
-function f() {}
+function f(argument1, { __proto__: x, __proto__: y, ...z }) { }
+
 ```
 
 ### Diagnostics

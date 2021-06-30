@@ -67,6 +67,7 @@ type a = ((1 |-1)) => T;
                                         {
                                             "kind": 134217968,
                                             "text": 1,
+                                            "rawText": "1",
                                             "flags": 2097216,
                                             "start": 11,
                                             "end": 12
@@ -80,6 +81,7 @@ type a = ((1 |-1)) => T;
                                                 "end": 15
                                             },
                                             "text": 1,
+                                            "rawText": "1",
                                             "flags": 2097216,
                                             "start": 14,
                                             "end": 16
@@ -154,6 +156,7 @@ type a = ((1 |-1)) => T;
 
 ```javascript
 
+type a = (1 | -1) => T
 
 ```
 

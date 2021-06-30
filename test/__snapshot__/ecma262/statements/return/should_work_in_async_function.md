@@ -45,8 +45,8 @@ async function f(){ return; }
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 16,
-                "end": 18
+                "start": 17,
+                "end": 17
             },
             "contents": {
                 "kind": 216,
@@ -95,9 +95,8 @@ async function f(){ return; }
 
 ```javascript
 
-async function f() {
-  return ;
-}
+async function f() { return; }
+
 ```
 
 ### Diagnostics

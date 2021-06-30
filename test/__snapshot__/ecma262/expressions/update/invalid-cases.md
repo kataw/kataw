@@ -202,7 +202,7 @@ new new foo().bar++;
                             "start": 42,
                             "end": 45
                         },
-                        "flags": 536870944,
+                        "flags": 96,
                         "start": 36,
                         "end": 45
                     },
@@ -264,7 +264,7 @@ new new foo().bar++;
                                                 "start": 57,
                                                 "end": 60
                                             },
-                                            "flags": 536870944,
+                                            "flags": 97,
                                             "start": 50,
                                             "end": 60
                                         },
@@ -471,7 +471,7 @@ new new foo().bar++;
                         "start": 120,
                         "end": 123
                     },
-                    "flags": 536870944,
+                    "flags": 97,
                     "start": 104,
                     "end": 123
                 },

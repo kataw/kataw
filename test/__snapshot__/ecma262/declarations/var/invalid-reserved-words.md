@@ -223,13 +223,7 @@
             "expression": {
                 "kind": 129,
                 "member": {
-                    "kind": 225,
-                    "superKeyword": {
-                        "kind": 4259935,
-                        "flags": 96,
-                        "start": 83,
-                        "end": 89
-                    },
+                    "kind": 4259935,
                     "flags": 96,
                     "start": 83,
                     "end": 89
@@ -242,7 +236,7 @@
                     "start": 89,
                     "end": 89
                 },
-                "flags": 536870944,
+                "flags": 32,
                 "start": 83,
                 "end": 89
             },
@@ -292,13 +286,7 @@
                             "left": {
                                 "kind": 129,
                                 "member": {
-                                    "kind": 225,
-                                    "superKeyword": {
-                                        "kind": 4259935,
-                                        "flags": 96,
-                                        "start": 115,
-                                        "end": 121
-                                    },
+                                    "kind": 4259935,
                                     "flags": 96,
                                     "start": 115,
                                     "end": 121
@@ -311,7 +299,7 @@
                                     "start": 121,
                                     "end": 121
                                 },
-                                "flags": 536870944,
+                                "flags": 32,
                                 "start": 115,
                                 "end": 121
                             },

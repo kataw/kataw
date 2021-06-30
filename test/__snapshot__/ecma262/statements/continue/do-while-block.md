@@ -40,8 +40,8 @@ function f(){ do        { continue }     while(true);}
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 10,
-                "end": 12
+                "start": 11,
+                "end": 11
             },
             "contents": {
                 "kind": 216,
@@ -128,10 +128,10 @@ function f(){ do        { continue }     while(true);}
 
 ```javascript
 
-function f() {
-  do {}
-  while (true);
-}
+function f() { do {
+  continue;
+} while (true) }
+
 ```
 
 ### Diagnostics

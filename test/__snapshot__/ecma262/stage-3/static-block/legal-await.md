@@ -133,7 +133,7 @@ class C {
                                                             "kind": 280,
                                                             "decorators": null,
                                                             "declaredToken": null,
-                                                            "staticToken": null,
+                                                            "staticKeyword": null,
                                                             "asyncKeyword": null,
                                                             "key": {
                                                                 "kind": 134299649,
@@ -158,8 +158,8 @@ class C {
                                                             "end": 61
                                                         },
                                                         {
-                                                            "kind": 317,
-                                                            "flags": 96,
+                                                            "kind": 1108353041,
+                                                            "flags": 64,
                                                             "start": 61,
                                                             "end": 62
                                                         },
@@ -167,7 +167,7 @@ class C {
                                                             "kind": 280,
                                                             "decorators": null,
                                                             "declaredToken": null,
-                                                            "staticToken": null,
+                                                            "staticKeyword": null,
                                                             "asyncKeyword": null,
                                                             "key": {
                                                                 "kind": 134299649,
@@ -204,8 +204,8 @@ class C {
                                                             "end": 87
                                                         },
                                                         {
-                                                            "kind": 317,
-                                                            "flags": 96,
+                                                            "kind": 1108353041,
+                                                            "flags": 64,
                                                             "start": 87,
                                                             "end": 88
                                                         }
@@ -256,8 +256,8 @@ class C {
                                                         "formalParameters": [],
                                                         "trailingComma": false,
                                                         "flags": 32,
-                                                        "start": 174,
-                                                        "end": 176
+                                                        "start": 175,
+                                                        "end": 175
                                                     },
                                                     "contents": {
                                                         "kind": 216,
@@ -355,8 +355,8 @@ class C {
                                                         "formalParameters": [],
                                                         "trailingComma": false,
                                                         "flags": 32,
-                                                        "start": 372,
-                                                        "end": 375
+                                                        "start": 374,
+                                                        "end": 374
                                                     },
                                                     "contents": {
                                                         "kind": 216,

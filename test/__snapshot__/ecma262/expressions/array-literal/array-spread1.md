@@ -149,7 +149,7 @@ var y: Array<string> = ['3', ...x];
                                             "start": 29,
                                             "end": 30
                                         },
-                                        "flags": 32,
+                                        "flags": 1073741856,
                                         "start": 26,
                                         "end": 30
                                     }
@@ -273,7 +273,7 @@ var y: Array<string> = ['3', ...x];
                         "start": 52,
                         "end": 56
                     },
-                    "flags": 536870944,
+                    "flags": 96,
                     "start": 49,
                     "end": 56
                 },
@@ -384,7 +384,7 @@ var y: Array<string> = ['3', ...x];
                         "start": 77,
                         "end": 81
                     },
-                    "flags": 536870944,
+                    "flags": 96,
                     "start": 74,
                     "end": 81
                 },
@@ -692,7 +692,7 @@ var y: Array<string> = ['3', ...x];
                                             "start": 168,
                                             "end": 169
                                         },
-                                        "flags": 32,
+                                        "flags": 1073741856,
                                         "start": 164,
                                         "end": 169
                                     }
@@ -733,13 +733,14 @@ var y: Array<string> = ['3', ...x];
 
 ```javascript
 
-var A = [1, 2, 3];
+var A = [1, 2, 3,];
 var B = [...A];
-var C = [1, 2, 3];
-B.sort(() =>  a - b);
-C.sort(() =>  a - b);
-var x:  = ["'1'", "'2'"];
-var y:  = ["'3'", ...x];
+var C = [1, 2, 3,];
+B.sort((a, b) => a - b);
+C.sort((a, b) => a - b);
+var x: Array<string> = ['\'1\'', '\'2\'',];
+var y: Array<string> = ['\'3\'', ...x];
+
 ```
 
 ### Diagnostics

@@ -642,7 +642,7 @@ for ({}.bar = x in obj);
                                     "start": 169,
                                     "end": 170
                                 },
-                                "flags": 536870944,
+                                "flags": 96,
                                 "start": 167,
                                 "end": 170
                             }
@@ -742,7 +742,7 @@ for ({}.bar = x in obj);
                                 "start": 195,
                                 "end": 196
                             },
-                            "flags": 32,
+                            "flags": 1073741856,
                             "start": 192,
                             "end": 196
                         }
@@ -833,7 +833,7 @@ for ({}.bar = x in obj);
                     "start": 218,
                     "end": 219
                 },
-                "flags": 536870944,
+                "flags": 48,
                 "start": 208,
                 "end": 219
             },
@@ -1184,7 +1184,7 @@ for ({}.bar = x in obj);
                                 "start": 298,
                                 "end": 303
                             },
-                            "flags": 32,
+                            "flags": 1073741856,
                             "start": 295,
                             "end": 303
                         }
@@ -1816,8 +1816,8 @@ for ({}.bar = x in obj);
                         "formalParameters": [],
                         "trailingComma": false,
                         "flags": 32,
-                        "start": 492,
-                        "end": 494
+                        "start": 493,
+                        "end": 493
                     },
                     "contents": {
                         "kind": 216,
@@ -2975,8 +2975,8 @@ for ({}.bar = x in obj);
                             "formalParameters": [],
                             "trailingComma": false,
                             "flags": 32,
-                            "start": 809,
-                            "end": 811
+                            "start": 810,
+                            "end": 810
                         },
                         "contents": {
                             "kind": 216,
@@ -3823,7 +3823,7 @@ for ({}.bar = x in obj);
                                     "start": 1015,
                                     "end": 1018
                                 },
-                                "flags": 32,
+                                "flags": 1073741856,
                                 "start": 1012,
                                 "end": 1018
                             }
@@ -4080,8 +4080,8 @@ for ({}.bar = x in obj);
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 1074,
-                "end": 1076
+                "start": 1075,
+                "end": 1075
             },
             "contents": {
                 "kind": 216,
@@ -4291,7 +4291,7 @@ for ({}.bar = x in obj);
                                     "chain": {
                                         "kind": 302,
                                         "chain": {
-                                            "kind": 536871114,
+                                            "kind": 202,
                                             "chain": null,
                                             "expression": {
                                                 "kind": 134299649,
@@ -4301,7 +4301,7 @@ for ({}.bar = x in obj);
                                                 "start": 1139,
                                                 "end": 1140
                                             },
-                                            "flags": 32,
+                                            "flags": 536870944,
                                             "start": 1139,
                                             "end": 1140
                                         },
@@ -4526,7 +4526,7 @@ for ({}.bar = x in obj);
                                 "chain": {
                                     "kind": 302,
                                     "chain": {
-                                        "kind": 536871114,
+                                        "kind": 202,
                                         "chain": null,
                                         "expression": {
                                             "kind": 134299649,
@@ -4536,7 +4536,7 @@ for ({}.bar = x in obj);
                                             "start": 1193,
                                             "end": 1194
                                         },
-                                        "flags": 32,
+                                        "flags": 536870944,
                                         "start": 1193,
                                         "end": 1194
                                     },
@@ -6399,7 +6399,7 @@ for ({}.bar = x in obj);
                         "start": 1714,
                         "end": 1715
                     },
-                    "flags": 536870944,
+                    "flags": 268435488,
                     "start": 1710,
                     "end": 1715
                 },
@@ -6565,7 +6565,7 @@ for ({}.bar = x in obj);
                                         "start": 1758,
                                         "end": 1759
                                     },
-                                    "flags": 536870944,
+                                    "flags": 96,
                                     "start": 1753,
                                     "end": 1759
                                 },
@@ -7055,7 +7055,7 @@ for ({}.bar = x in obj);
                         "start": 1891,
                         "end": 1894
                     },
-                    "flags": 536870944,
+                    "flags": 32,
                     "start": 1881,
                     "end": 1894
                 },
@@ -7150,7 +7150,7 @@ for ({}.bar = x in obj);
                         "start": 1917,
                         "end": 1920
                     },
-                    "flags": 536870944,
+                    "flags": 48,
                     "start": 1907,
                     "end": 1920
                 },

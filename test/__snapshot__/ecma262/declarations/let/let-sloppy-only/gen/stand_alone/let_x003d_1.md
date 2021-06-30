@@ -72,6 +72,7 @@ let = 1
 ```javascript
 
 let = 1;
+
 ```
 
 ### Diagnostics

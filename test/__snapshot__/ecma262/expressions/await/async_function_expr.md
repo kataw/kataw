@@ -104,8 +104,8 @@ let x = async function f(foo = await){}
                                 ],
                                 "trailingComma": false,
                                 "flags": 34,
-                                "start": 24,
-                                "end": 37
+                                "start": 25,
+                                "end": 36
                             },
                             "contents": {
                                 "kind": 216,

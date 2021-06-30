@@ -36,7 +36,7 @@
                                     "end": 3
                                 },
                                 "right": {
-                                    "kind": 221,
+                                    "kind": 371,
                                     "text": "/foo/",
                                     "flags": 96,
                                     "start": 4,
@@ -78,7 +78,8 @@
 
 ```javascript
 
-({ x: /foo/ });
+({ x : /foo/ });
+
 ```
 
 ### Diagnostics

@@ -59,7 +59,7 @@ class C {
                             "kind": 280,
                             "decorators": null,
                             "declaredToken": null,
-                            "staticToken": {
+                            "staticKeyword": {
                                 "kind": 8388716,
                                 "flags": 64,
                                 "start": 9,
@@ -82,8 +82,8 @@ class C {
                             "end": 21
                         },
                         {
-                            "kind": 317,
-                            "flags": 96,
+                            "kind": 1108353041,
+                            "flags": 64,
                             "start": 21,
                             "end": 22
                         },
@@ -179,7 +179,7 @@ class C {
                                                                                             "start": 80,
                                                                                             "end": 82
                                                                                         },
-                                                                                        "flags": 536870944,
+                                                                                        "flags": 96,
                                                                                         "start": 69,
                                                                                         "end": 82
                                                                                     },
@@ -276,14 +276,14 @@ class C {
 ```javascript
 
 class C {
-  static #_;
-
+  static #_
+  ;
   constructor() {
     class D {
-
     }
   }
 }
+
 ```
 
 ### Diagnostics

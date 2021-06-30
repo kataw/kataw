@@ -339,6 +339,7 @@ type a = (((x | (() => T) => T) => T) => T) => T;
 
 ```javascript
 
+type a = (((x | (() => T) => T) => T) => T) => T
 
 ```
 

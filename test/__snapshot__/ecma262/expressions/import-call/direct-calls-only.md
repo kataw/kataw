@@ -42,8 +42,8 @@ function failsParse() {
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 19,
-                "end": 21
+                "start": 20,
+                "end": 20
             },
             "contents": {
                 "kind": 216,
@@ -60,22 +60,16 @@ function failsParse() {
                                 "end": 32
                             },
                             "expression": {
-                                "kind": 120,
-                                "expression": {
-                                    "kind": 299,
-                                    "importKeyword": {
-                                        "kind": 37814364,
-                                        "flags": 64,
-                                        "start": 32,
-                                        "end": 39
-                                    },
-                                    "metaIdentifier": null,
-                                    "flags": 39,
-                                    "start": 96,
-                                    "end": 40
+                                "kind": 299,
+                                "importKeyword": {
+                                    "kind": 37814364,
+                                    "flags": 64,
+                                    "start": 32,
+                                    "end": 39
                                 },
-                                "flags": 16,
-                                "start": 39,
+                                "metaIdentifier": null,
+                                "flags": 39,
+                                "start": 96,
                                 "end": 40
                             },
                             "flags": 81,

@@ -707,8 +707,29 @@ async (...[x]?: string, a?) => {};
                             "start": 200,
                             "end": 203
                         },
+                        "left": {
+                            "kind": 134299649,
+                            "text": "x",
+                            "rawText": "x",
+                            "flags": 96,
+                            "start": 203,
+                            "end": 204
+                        },
                         "optionalToken": null,
-                        "type": null,
+                        "type": {
+                            "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
+                            "type": {
+                                "kind": 134234347,
+                                "flags": 2097216,
+                                "start": 205,
+                                "end": 212
+                            },
+                            "flags": 2097152,
+                            "start": 205,
+                            "end": 212
+                        },
                         "right": null,
                         "flags": 32,
                         "start": 200,
@@ -771,8 +792,34 @@ async (...[x]?: string, a?) => {};
                             "start": 229,
                             "end": 232
                         },
-                        "optionalToken": null,
-                        "type": null,
+                        "left": {
+                            "kind": 134299649,
+                            "text": "x",
+                            "rawText": "x",
+                            "flags": 96,
+                            "start": 232,
+                            "end": 233
+                        },
+                        "optionalToken": {
+                            "kind": 134217750,
+                            "flags": 64,
+                            "start": 233,
+                            "end": 234
+                        },
+                        "type": {
+                            "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
+                            "type": {
+                                "kind": 134234347,
+                                "flags": 2097216,
+                                "start": 235,
+                                "end": 242
+                            },
+                            "flags": 2097152,
+                            "start": 235,
+                            "end": 242
+                        },
                         "right": null,
                         "flags": 32,
                         "start": 229,
@@ -829,14 +876,9 @@ async (...[x]?: string, a?) => {};
                 "kind": 256,
                 "elements": [
                     {
-                        "kind": 223,
-                        "ellipsisToken": {
-                            "kind": 524302,
-                            "flags": 64,
-                            "start": 259,
-                            "end": 262
-                        },
-                        "argument": {
+                        "kind": 281,
+                        "ellipsisToken": null,
+                        "left": {
                             "kind": 119,
                             "elementList": {
                                 "kind": 270,
@@ -859,6 +901,27 @@ async (...[x]?: string, a?) => {};
                             "start": 262,
                             "end": 265
                         },
+                        "optionalToken": {
+                            "kind": 134217750,
+                            "flags": 64,
+                            "start": 265,
+                            "end": 266
+                        },
+                        "type": {
+                            "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
+                            "type": {
+                                "kind": 134234347,
+                                "flags": 2097216,
+                                "start": 267,
+                                "end": 274
+                            },
+                            "flags": 2097152,
+                            "start": 267,
+                            "end": 274
+                        },
+                        "right": null,
                         "flags": 32,
                         "start": 259,
                         "end": 274

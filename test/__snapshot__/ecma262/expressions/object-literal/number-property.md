@@ -93,7 +93,8 @@ x = {15:b}
 
 ```javascript
 
-x = { 15: b };
+x = { 15 : b };
+
 ```
 
 ### Diagnostics

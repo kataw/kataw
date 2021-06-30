@@ -47,8 +47,8 @@ async function x() {
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 16,
-                "end": 18
+                "start": 17,
+                "end": 17
             },
             "contents": {
                 "kind": 216,
@@ -132,7 +132,7 @@ async function x() {
                                         "chain": {
                                             "kind": 302,
                                             "chain": {
-                                                "kind": 536871114,
+                                                "kind": 202,
                                                 "chain": null,
                                                 "expression": {
                                                     "kind": 134299649,
@@ -142,7 +142,7 @@ async function x() {
                                                     "start": 40,
                                                     "end": 41
                                                 },
-                                                "flags": 32,
+                                                "flags": 536870944,
                                                 "start": 40,
                                                 "end": 41
                                             },
@@ -203,8 +203,9 @@ async function x() {
 ```javascript
 
 async function x() {
-  await ;
+  await { y : [11,] }?.z[0];
 }
+
 ```
 
 ### Diagnostics

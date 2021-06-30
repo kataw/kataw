@@ -56,6 +56,7 @@ type foo<number> = string;
                                 "end": 15
                             },
                             "type": null,
+                            "assignToken": null,
                             "defaultType": null,
                             "flags": 2097152,
                             "start": 9,
@@ -109,6 +110,7 @@ type foo<number> = string;
 
 ```javascript
 
+type foo<number> = string
 
 ```
 

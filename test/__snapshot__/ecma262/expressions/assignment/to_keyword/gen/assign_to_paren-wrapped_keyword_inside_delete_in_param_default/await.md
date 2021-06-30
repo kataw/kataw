@@ -149,7 +149,8 @@ async (x = delete ((await) = f)) => {}
 
 ```javascript
 
-async  =>  {}
+async (x = delete  ((await) = f)) =>  { }
+
 ```
 
 ### Diagnostics

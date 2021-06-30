@@ -81,6 +81,7 @@ type a = {};
 
 ```javascript
 
+type a = {}
 
 ```
 

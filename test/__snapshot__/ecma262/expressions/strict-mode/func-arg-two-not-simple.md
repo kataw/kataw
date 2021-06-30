@@ -57,8 +57,8 @@ function f(x, y){"use strict";}
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 10,
-                "end": 16
+                "start": 11,
+                "end": 15
             },
             "contents": {
                 "kind": 216,
@@ -102,7 +102,10 @@ function f(x, y){"use strict";}
 
 ```javascript
 
-function f() {}
+function f(x, y) {
+"\"use strict\"";
+}
+
 ```
 
 ### Diagnostics

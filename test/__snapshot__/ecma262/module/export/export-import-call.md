@@ -38,30 +38,24 @@ import(y);
                 "end": 14
             },
             "declaration": {
-                "kind": 120,
-                "expression": {
-                    "kind": 206,
-                    "importKeyword": {
-                        "kind": 37814364,
-                        "flags": 64,
-                        "start": 14,
-                        "end": 21
-                    },
-                    "expression": {
-                        "kind": 134299649,
-                        "text": "y",
-                        "rawText": "y",
-                        "flags": 96,
-                        "start": 22,
-                        "end": 23
-                    },
-                    "flags": 32,
-                    "start": 21,
-                    "end": 24
+                "kind": 206,
+                "importKeyword": {
+                    "kind": 37814364,
+                    "flags": 64,
+                    "start": 14,
+                    "end": 21
                 },
-                "flags": 16,
+                "expression": {
+                    "kind": 134299649,
+                    "text": "y",
+                    "rawText": "y",
+                    "flags": 96,
+                    "start": 22,
+                    "end": 23
+                },
+                "flags": 32,
                 "start": 21,
-                "end": 25
+                "end": 24
             },
             "flags": 16,
             "start": 0,
@@ -90,7 +84,7 @@ import(y);
                 "end": 36
             },
             "flags": 16,
-            "start": 33,
+            "start": 25,
             "end": 37
         }
     ],
@@ -107,8 +101,9 @@ import(y);
 
 ```javascript
 
-export default import(y);;
+export default import(y);
 import(y);
+
 ```
 
 ### Diagnostics

@@ -132,13 +132,7 @@ class x extends y {
                                                                         "right": {
                                                                             "kind": 129,
                                                                             "member": {
-                                                                                "kind": 225,
-                                                                                "superKeyword": {
-                                                                                    "kind": 4259935,
-                                                                                    "flags": 96,
-                                                                                    "start": 50,
-                                                                                    "end": 56
-                                                                                },
+                                                                                "kind": 4259935,
                                                                                 "flags": 96,
                                                                                 "start": 50,
                                                                                 "end": 56
@@ -151,7 +145,7 @@ class x extends y {
                                                                                 "start": 57,
                                                                                 "end": 61
                                                                             },
-                                                                            "flags": 536870944,
+                                                                            "flags": 96,
                                                                             "start": 44,
                                                                             "end": 61
                                                                         },
@@ -239,11 +233,12 @@ class x extends y {
 
 ```javascript
 
-class x  {
+class x extends y {
   constructor() {
-    ({ "\"foo\"": super.cool } = x);
+    ({ "\"foo\"" : super.cool } = x);
   }
 }
+
 ```
 
 ### Diagnostics

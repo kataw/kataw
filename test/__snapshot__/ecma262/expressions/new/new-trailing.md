@@ -55,7 +55,7 @@ new x().y;
                     "start": 8,
                     "end": 9
                 },
-                "flags": 536870944,
+                "flags": 96,
                 "start": 0,
                 "end": 9
             },
@@ -77,7 +77,8 @@ new x().y;
 
 ```javascript
 
-new  x().y;
+new x().y;
+
 ```
 
 ### Diagnostics

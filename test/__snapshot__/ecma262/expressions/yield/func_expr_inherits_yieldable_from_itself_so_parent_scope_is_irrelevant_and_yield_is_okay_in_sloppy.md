@@ -45,8 +45,8 @@ function* g() { (function yield() {}) }
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 11,
-                "end": 13
+                "start": 12,
+                "end": 12
             },
             "contents": {
                 "kind": 216,
@@ -82,8 +82,8 @@ function* g() { (function yield() {}) }
                                         "formalParameters": [],
                                         "trailingComma": false,
                                         "flags": 32,
-                                        "start": 31,
-                                        "end": 33
+                                        "start": 32,
+                                        "end": 32
                                     },
                                     "contents": {
                                         "kind": 216,
@@ -140,9 +140,8 @@ function* g() { (function yield() {}) }
 
 ```javascript
 
-function * g() {
-  (function yield() {});
-}
+function* g() { (function yield() { }); }
+
 ```
 
 ### Diagnostics

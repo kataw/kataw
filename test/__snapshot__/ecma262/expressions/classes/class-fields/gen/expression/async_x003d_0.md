@@ -72,7 +72,7 @@ class C extends Base { async = 0 }
                             "kind": 280,
                             "decorators": null,
                             "declaredToken": null,
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "asyncKeyword": null,
                             "key": {
                                 "kind": 134299649,
@@ -123,9 +123,10 @@ class C extends Base { async = 0 }
 
 ```javascript
 
-class C  {
-  async = 0;
+class C extends Base {
+  async = 0
 }
+
 ```
 
 ### Diagnostics

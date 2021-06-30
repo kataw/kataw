@@ -45,8 +45,8 @@ function *g(){ (x = [yield y]) }
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 11,
-                "end": 13
+                "start": 12,
+                "end": 12
             },
             "contents": {
                 "kind": 216,
@@ -151,9 +151,8 @@ function *g(){ (x = [yield y]) }
 
 ```javascript
 
-function * g() {
-  (x = [yield y]);
-}
+function* g() { (x = [yield y,]); }
+
 ```
 
 ### Diagnostics

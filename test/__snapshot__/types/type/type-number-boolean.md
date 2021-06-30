@@ -57,7 +57,7 @@ type A = { [string | boolean]: number };
                         {
                             "kind": 195,
                             "protoKeyword": null,
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "name": null,
                             "key": {
                                 "kind": 137,
@@ -125,6 +125,7 @@ type A = { [string | boolean]: number };
 
 ```javascript
 
+type A = { [string | boolean]: number }
 
 ```
 

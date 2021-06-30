@@ -49,6 +49,7 @@ async <T>() => await null;
                                     "end": 8
                                 },
                                 "type": null,
+                                "assignToken": null,
                                 "defaultType": null,
                                 "flags": 2097152,
                                 "start": 7,
@@ -119,7 +120,8 @@ async <T>() => await null;
 
 ```javascript
 
-async  =>  await null;
+async <T>() => await null;
+
 ```
 
 ### Diagnostics

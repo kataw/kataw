@@ -87,8 +87,8 @@ switch (0) { case 1: async function f() {} default: function* f() {} }
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 32,
-                                    "start": 37,
-                                    "end": 39
+                                    "start": 38,
+                                    "end": 38
                                 },
                                 "contents": {
                                     "kind": 216,
@@ -159,8 +159,8 @@ switch (0) { case 1: async function f() {} default: function* f() {} }
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 32,
-                                    "start": 63,
-                                    "end": 65
+                                    "start": 64,
+                                    "end": 64
                                 },
                                 "contents": {
                                     "kind": 216,
@@ -209,12 +209,13 @@ switch (0) { case 1: async function f() {} default: function* f() {} }
 
 ```javascript
 
-switch(0) {
-  case 1:
-    async function f() {}
-  default
-    function * f() {}
+switch (0) {
+  case 1: 
+    async function f() { }
+  default: 
+    function* f() { }
 }
+
 ```
 
 ### Diagnostics

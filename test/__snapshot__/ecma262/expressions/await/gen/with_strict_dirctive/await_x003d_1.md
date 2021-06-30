@@ -80,7 +80,9 @@
 
 ```javascript
 
+'\'use strict\'';
 await = 1;
+
 ```
 
 ### Diagnostics

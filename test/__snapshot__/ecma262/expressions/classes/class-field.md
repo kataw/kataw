@@ -125,7 +125,7 @@
                                         "kind": 280,
                                         "decorators": null,
                                         "declaredToken": null,
-                                        "staticToken": null,
+                                        "staticKeyword": null,
                                         "asyncKeyword": null,
                                         "key": {
                                             "kind": 134299649,
@@ -143,8 +143,8 @@
                                         "end": 12
                                     },
                                     {
-                                        "kind": 317,
-                                        "flags": 96,
+                                        "kind": 1108353041,
+                                        "flags": 64,
                                         "start": 12,
                                         "end": 13
                                     }
@@ -189,7 +189,7 @@
                                             "kind": 280,
                                             "decorators": null,
                                             "declaredToken": null,
-                                            "staticToken": null,
+                                            "staticKeyword": null,
                                             "asyncKeyword": null,
                                             "key": {
                                                 "kind": 134299649,
@@ -214,8 +214,8 @@
                                             "end": 32
                                         },
                                         {
-                                            "kind": 317,
-                                            "flags": 96,
+                                            "kind": 1108353041,
+                                            "flags": 64,
                                             "start": 32,
                                             "end": 33
                                         }
@@ -271,7 +271,7 @@
                                     "kind": 280,
                                     "decorators": null,
                                     "declaredToken": null,
-                                    "staticToken": null,
+                                    "staticKeyword": null,
                                     "asyncKeyword": null,
                                     "key": {
                                         "kind": 134299649,
@@ -296,8 +296,8 @@
                                     "end": 50
                                 },
                                 {
-                                    "kind": 317,
-                                    "flags": 96,
+                                    "kind": 1108353041,
+                                    "flags": 64,
                                     "start": 50,
                                     "end": 51
                                 },
@@ -305,7 +305,7 @@
                                     "kind": 280,
                                     "decorators": null,
                                     "declaredToken": null,
-                                    "staticToken": null,
+                                    "staticKeyword": null,
                                     "asyncKeyword": null,
                                     "key": {
                                         "kind": 134299649,
@@ -368,7 +368,7 @@
                                     "kind": 280,
                                     "decorators": null,
                                     "declaredToken": null,
-                                    "staticToken": null,
+                                    "staticKeyword": null,
                                     "asyncKeyword": null,
                                     "key": {
                                         "kind": 134299649,
@@ -393,8 +393,8 @@
                                     "end": 70
                                 },
                                 {
-                                    "kind": 317,
-                                    "flags": 96,
+                                    "kind": 1108353041,
+                                    "flags": 64,
                                     "start": 70,
                                     "end": 71
                                 },
@@ -495,7 +495,7 @@
                                     "kind": 280,
                                     "decorators": null,
                                     "declaredToken": null,
-                                    "staticToken": null,
+                                    "staticKeyword": null,
                                     "asyncKeyword": null,
                                     "key": {
                                         "kind": 134299649,
@@ -520,8 +520,8 @@
                                     "end": 94
                                 },
                                 {
-                                    "kind": 317,
-                                    "flags": 96,
+                                    "kind": 1108353041,
+                                    "flags": 64,
                                     "start": 94,
                                     "end": 95
                                 },
@@ -627,7 +627,7 @@
                                     "kind": 280,
                                     "decorators": null,
                                     "declaredToken": null,
-                                    "staticToken": null,
+                                    "staticKeyword": null,
                                     "asyncKeyword": null,
                                     "key": {
                                         "kind": 134299649,
@@ -652,8 +652,8 @@
                                     "end": 119
                                 },
                                 {
-                                    "kind": 317,
-                                    "flags": 96,
+                                    "kind": 1108353041,
+                                    "flags": 64,
                                     "start": 119,
                                     "end": 120
                                 },
@@ -760,7 +760,7 @@
                                     "kind": 280,
                                     "decorators": null,
                                     "declaredToken": null,
-                                    "staticToken": null,
+                                    "staticKeyword": null,
                                     "asyncKeyword": null,
                                     "key": {
                                         "kind": 134299649,
@@ -778,8 +778,8 @@
                                     "end": 143
                                 },
                                 {
-                                    "kind": 317,
-                                    "flags": 96,
+                                    "kind": 1108353041,
+                                    "flags": 64,
                                     "start": 143,
                                     "end": 144
                                 }
@@ -829,7 +829,7 @@
                                     "kind": 280,
                                     "decorators": null,
                                     "declaredToken": null,
-                                    "staticToken": null,
+                                    "staticKeyword": null,
                                     "asyncKeyword": null,
                                     "key": {
                                         "kind": 134299649,
@@ -847,8 +847,8 @@
                                     "end": 157
                                 },
                                 {
-                                    "kind": 317,
-                                    "flags": 96,
+                                    "kind": 1108353041,
+                                    "flags": 64,
                                     "start": 157,
                                     "end": 158
                                 },
@@ -856,7 +856,7 @@
                                     "kind": 280,
                                     "decorators": null,
                                     "declaredToken": null,
-                                    "staticToken": null,
+                                    "staticKeyword": null,
                                     "asyncKeyword": null,
                                     "key": {
                                         "kind": 134299649,
@@ -874,8 +874,8 @@
                                     "end": 160
                                 },
                                 {
-                                    "kind": 317,
-                                    "flags": 96,
+                                    "kind": 1108353041,
+                                    "flags": 64,
                                     "start": 160,
                                     "end": 161
                                 }
@@ -925,7 +925,7 @@
                                     "kind": 280,
                                     "decorators": null,
                                     "declaredToken": null,
-                                    "staticToken": null,
+                                    "staticKeyword": null,
                                     "asyncKeyword": null,
                                     "key": {
                                         "kind": 134299649,
@@ -943,8 +943,8 @@
                                     "end": 174
                                 },
                                 {
-                                    "kind": 317,
-                                    "flags": 96,
+                                    "kind": 1108353041,
+                                    "flags": 64,
                                     "start": 174,
                                     "end": 175
                                 },
@@ -1045,7 +1045,7 @@
                                     "kind": 280,
                                     "decorators": null,
                                     "declaredToken": null,
-                                    "staticToken": null,
+                                    "staticKeyword": null,
                                     "asyncKeyword": null,
                                     "key": {
                                         "kind": 134299649,
@@ -1063,8 +1063,8 @@
                                     "end": 194
                                 },
                                 {
-                                    "kind": 317,
-                                    "flags": 96,
+                                    "kind": 1108353041,
+                                    "flags": 64,
                                     "start": 194,
                                     "end": 195
                                 },
@@ -1170,7 +1170,7 @@
                                     "kind": 280,
                                     "decorators": null,
                                     "declaredToken": null,
-                                    "staticToken": null,
+                                    "staticKeyword": null,
                                     "asyncKeyword": null,
                                     "key": {
                                         "kind": 134299649,
@@ -1188,8 +1188,8 @@
                                     "end": 215
                                 },
                                 {
-                                    "kind": 317,
-                                    "flags": 96,
+                                    "kind": 1108353041,
+                                    "flags": 64,
                                     "start": 215,
                                     "end": 216
                                 },
@@ -1296,7 +1296,7 @@
                                     "kind": 280,
                                     "decorators": null,
                                     "declaredToken": null,
-                                    "staticToken": null,
+                                    "staticKeyword": null,
                                     "asyncKeyword": null,
                                     "key": {
                                         "kind": 194,
@@ -1327,8 +1327,8 @@
                                     "end": 247
                                 },
                                 {
-                                    "kind": 317,
-                                    "flags": 96,
+                                    "kind": 1108353041,
+                                    "flags": 64,
                                     "start": 247,
                                     "end": 248
                                 }
@@ -1378,7 +1378,7 @@
                                     "kind": 280,
                                     "decorators": null,
                                     "declaredToken": null,
-                                    "staticToken": null,
+                                    "staticKeyword": null,
                                     "asyncKeyword": null,
                                     "key": {
                                         "kind": 194,
@@ -1409,8 +1409,8 @@
                                     "end": 269
                                 },
                                 {
-                                    "kind": 317,
-                                    "flags": 96,
+                                    "kind": 1108353041,
+                                    "flags": 64,
                                     "start": 269,
                                     "end": 270
                                 },
@@ -1418,7 +1418,7 @@
                                     "kind": 280,
                                     "decorators": null,
                                     "declaredToken": null,
-                                    "staticToken": null,
+                                    "staticKeyword": null,
                                     "asyncKeyword": null,
                                     "key": {
                                         "kind": 134299649,
@@ -1481,7 +1481,7 @@
                                     "kind": 280,
                                     "decorators": null,
                                     "declaredToken": null,
-                                    "staticToken": null,
+                                    "staticKeyword": null,
                                     "asyncKeyword": null,
                                     "key": {
                                         "kind": 194,
@@ -1512,8 +1512,8 @@
                                     "end": 293
                                 },
                                 {
-                                    "kind": 317,
-                                    "flags": 96,
+                                    "kind": 1108353041,
+                                    "flags": 64,
                                     "start": 293,
                                     "end": 294
                                 },
@@ -1614,7 +1614,7 @@
                                     "kind": 280,
                                     "decorators": null,
                                     "declaredToken": null,
-                                    "staticToken": null,
+                                    "staticKeyword": null,
                                     "asyncKeyword": null,
                                     "key": {
                                         "kind": 194,
@@ -1645,8 +1645,8 @@
                                     "end": 321
                                 },
                                 {
-                                    "kind": 317,
-                                    "flags": 96,
+                                    "kind": 1108353041,
+                                    "flags": 64,
                                     "start": 321,
                                     "end": 322
                                 },
@@ -1752,7 +1752,7 @@
                                     "kind": 280,
                                     "decorators": null,
                                     "declaredToken": null,
-                                    "staticToken": null,
+                                    "staticKeyword": null,
                                     "asyncKeyword": null,
                                     "key": {
                                         "kind": 194,
@@ -1783,8 +1783,8 @@
                                     "end": 350
                                 },
                                 {
-                                    "kind": 317,
-                                    "flags": 96,
+                                    "kind": 1108353041,
+                                    "flags": 64,
                                     "start": 350,
                                     "end": 351
                                 },
@@ -1891,7 +1891,7 @@
                                     "kind": 280,
                                     "decorators": null,
                                     "declaredToken": null,
-                                    "staticToken": null,
+                                    "staticKeyword": null,
                                     "asyncKeyword": null,
                                     "key": {
                                         "kind": 194,
@@ -1915,8 +1915,8 @@
                                     "end": 378
                                 },
                                 {
-                                    "kind": 317,
-                                    "flags": 96,
+                                    "kind": 1108353041,
+                                    "flags": 64,
                                     "start": 378,
                                     "end": 379
                                 }
@@ -1966,7 +1966,7 @@
                                     "kind": 280,
                                     "decorators": null,
                                     "declaredToken": null,
-                                    "staticToken": null,
+                                    "staticKeyword": null,
                                     "asyncKeyword": null,
                                     "key": {
                                         "kind": 194,
@@ -1990,8 +1990,8 @@
                                     "end": 396
                                 },
                                 {
-                                    "kind": 317,
-                                    "flags": 96,
+                                    "kind": 1108353041,
+                                    "flags": 64,
                                     "start": 396,
                                     "end": 397
                                 },
@@ -1999,7 +1999,7 @@
                                     "kind": 280,
                                     "decorators": null,
                                     "declaredToken": null,
-                                    "staticToken": null,
+                                    "staticKeyword": null,
                                     "asyncKeyword": null,
                                     "key": {
                                         "kind": 134299649,
@@ -2017,8 +2017,8 @@
                                     "end": 399
                                 },
                                 {
-                                    "kind": 317,
-                                    "flags": 96,
+                                    "kind": 1108353041,
+                                    "flags": 64,
                                     "start": 399,
                                     "end": 400
                                 }
@@ -2068,7 +2068,7 @@
                                     "kind": 280,
                                     "decorators": null,
                                     "declaredToken": null,
-                                    "staticToken": null,
+                                    "staticKeyword": null,
                                     "asyncKeyword": null,
                                     "key": {
                                         "kind": 194,
@@ -2092,8 +2092,8 @@
                                     "end": 417
                                 },
                                 {
-                                    "kind": 317,
-                                    "flags": 96,
+                                    "kind": 1108353041,
+                                    "flags": 64,
                                     "start": 417,
                                     "end": 418
                                 },
@@ -2194,7 +2194,7 @@
                                     "kind": 280,
                                     "decorators": null,
                                     "declaredToken": null,
-                                    "staticToken": null,
+                                    "staticKeyword": null,
                                     "asyncKeyword": null,
                                     "key": {
                                         "kind": 194,
@@ -2218,8 +2218,8 @@
                                     "end": 441
                                 },
                                 {
-                                    "kind": 317,
-                                    "flags": 96,
+                                    "kind": 1108353041,
+                                    "flags": 64,
                                     "start": 441,
                                     "end": 442
                                 },
@@ -2325,7 +2325,7 @@
                                     "kind": 280,
                                     "decorators": null,
                                     "declaredToken": null,
-                                    "staticToken": null,
+                                    "staticKeyword": null,
                                     "asyncKeyword": null,
                                     "key": {
                                         "kind": 194,
@@ -2349,8 +2349,8 @@
                                     "end": 466
                                 },
                                 {
-                                    "kind": 317,
-                                    "flags": 96,
+                                    "kind": 1108353041,
+                                    "flags": 64,
                                     "start": 466,
                                     "end": 467
                                 },
@@ -2457,7 +2457,7 @@
                                     "kind": 280,
                                     "decorators": null,
                                     "declaredToken": null,
-                                    "staticToken": null,
+                                    "staticKeyword": null,
                                     "asyncKeyword": null,
                                     "key": {
                                         "kind": 201392130,
@@ -2482,8 +2482,8 @@
                                     "end": 495
                                 },
                                 {
-                                    "kind": 317,
-                                    "flags": 96,
+                                    "kind": 1108353041,
+                                    "flags": 64,
                                     "start": 495,
                                     "end": 496
                                 }
@@ -2533,7 +2533,7 @@
                                     "kind": 280,
                                     "decorators": null,
                                     "declaredToken": null,
-                                    "staticToken": null,
+                                    "staticKeyword": null,
                                     "asyncKeyword": null,
                                     "key": {
                                         "kind": 201392130,
@@ -2551,8 +2551,8 @@
                                     "end": 509
                                 },
                                 {
-                                    "kind": 317,
-                                    "flags": 96,
+                                    "kind": 1108353041,
+                                    "flags": 64,
                                     "start": 509,
                                     "end": 510
                                 }
@@ -2602,7 +2602,7 @@
                                     "kind": 280,
                                     "decorators": null,
                                     "declaredToken": null,
-                                    "staticToken": null,
+                                    "staticKeyword": null,
                                     "asyncKeyword": null,
                                     "key": {
                                         "kind": 201392131,
@@ -2627,8 +2627,8 @@
                                     "end": 529
                                 },
                                 {
-                                    "kind": 317,
-                                    "flags": 96,
+                                    "kind": 1108353041,
+                                    "flags": 64,
                                     "start": 529,
                                     "end": 530
                                 }
@@ -2678,7 +2678,7 @@
                                     "kind": 280,
                                     "decorators": null,
                                     "declaredToken": null,
-                                    "staticToken": null,
+                                    "staticKeyword": null,
                                     "asyncKeyword": null,
                                     "key": {
                                         "kind": 201392131,
@@ -2696,8 +2696,8 @@
                                     "end": 545
                                 },
                                 {
-                                    "kind": 317,
-                                    "flags": 96,
+                                    "kind": 1108353041,
+                                    "flags": 64,
                                     "start": 545,
                                     "end": 546
                                 }
@@ -2747,7 +2747,7 @@
                                     "kind": 280,
                                     "decorators": null,
                                     "declaredToken": null,
-                                    "staticToken": null,
+                                    "staticKeyword": null,
                                     "asyncKeyword": null,
                                     "key": {
                                         "kind": 134299649,
@@ -2817,7 +2817,7 @@
                                     "kind": 280,
                                     "decorators": null,
                                     "declaredToken": null,
-                                    "staticToken": null,
+                                    "staticKeyword": null,
                                     "asyncKeyword": null,
                                     "key": {
                                         "kind": 134299649,
@@ -2845,7 +2845,7 @@
                                     "kind": 280,
                                     "decorators": null,
                                     "declaredToken": null,
-                                    "staticToken": null,
+                                    "staticKeyword": null,
                                     "asyncKeyword": null,
                                     "key": {
                                         "kind": 134299649,
@@ -2908,7 +2908,7 @@
                                     "kind": 280,
                                     "decorators": null,
                                     "declaredToken": null,
-                                    "staticToken": null,
+                                    "staticKeyword": null,
                                     "asyncKeyword": null,
                                     "key": {
                                         "kind": 134299649,
@@ -3029,7 +3029,7 @@
                                     "kind": 280,
                                     "decorators": null,
                                     "declaredToken": null,
-                                    "staticToken": null,
+                                    "staticKeyword": null,
                                     "asyncKeyword": null,
                                     "key": {
                                         "kind": 134299649,
@@ -3092,7 +3092,7 @@
                                     "kind": 280,
                                     "decorators": null,
                                     "declaredToken": null,
-                                    "staticToken": null,
+                                    "staticKeyword": null,
                                     "asyncKeyword": null,
                                     "key": {
                                         "kind": 134299649,
@@ -3113,7 +3113,7 @@
                                     "kind": 280,
                                     "decorators": null,
                                     "declaredToken": null,
-                                    "staticToken": null,
+                                    "staticKeyword": null,
                                     "asyncKeyword": null,
                                     "key": {
                                         "kind": 134299649,
@@ -3176,7 +3176,7 @@
                                     "kind": 280,
                                     "decorators": null,
                                     "declaredToken": null,
-                                    "staticToken": null,
+                                    "staticKeyword": null,
                                     "asyncKeyword": null,
                                     "key": {
                                         "kind": 134299649,
@@ -3290,7 +3290,7 @@
                                     "kind": 280,
                                     "decorators": null,
                                     "declaredToken": null,
-                                    "staticToken": null,
+                                    "staticKeyword": null,
                                     "asyncKeyword": null,
                                     "key": {
                                         "kind": 134299649,
@@ -3409,7 +3409,7 @@
                                     "kind": 280,
                                     "decorators": null,
                                     "declaredToken": null,
-                                    "staticToken": null,
+                                    "staticKeyword": null,
                                     "asyncKeyword": null,
                                     "key": {
                                         "kind": 134299649,
@@ -3529,7 +3529,7 @@
                                     "kind": 280,
                                     "decorators": null,
                                     "declaredToken": null,
-                                    "staticToken": null,
+                                    "staticKeyword": null,
                                     "asyncKeyword": null,
                                     "key": {
                                         "kind": 194,
@@ -3605,7 +3605,7 @@
                                     "kind": 280,
                                     "decorators": null,
                                     "declaredToken": null,
-                                    "staticToken": null,
+                                    "staticKeyword": null,
                                     "asyncKeyword": null,
                                     "key": {
                                         "kind": 194,
@@ -3639,7 +3639,7 @@
                                     "kind": 280,
                                     "decorators": null,
                                     "declaredToken": null,
-                                    "staticToken": null,
+                                    "staticKeyword": null,
                                     "asyncKeyword": null,
                                     "key": {
                                         "kind": 134299649,
@@ -3702,7 +3702,7 @@
                                     "kind": 280,
                                     "decorators": null,
                                     "declaredToken": null,
-                                    "staticToken": null,
+                                    "staticKeyword": null,
                                     "asyncKeyword": null,
                                     "key": {
                                         "kind": 194,
@@ -3829,7 +3829,7 @@
                                     "kind": 280,
                                     "decorators": null,
                                     "declaredToken": null,
-                                    "staticToken": null,
+                                    "staticKeyword": null,
                                     "asyncKeyword": null,
                                     "key": {
                                         "kind": 194,
@@ -3898,7 +3898,7 @@
                                     "kind": 280,
                                     "decorators": null,
                                     "declaredToken": null,
-                                    "staticToken": null,
+                                    "staticKeyword": null,
                                     "asyncKeyword": null,
                                     "key": {
                                         "kind": 194,
@@ -3925,7 +3925,7 @@
                                     "kind": 280,
                                     "decorators": null,
                                     "declaredToken": null,
-                                    "staticToken": null,
+                                    "staticKeyword": null,
                                     "asyncKeyword": null,
                                     "key": {
                                         "kind": 134299649,
@@ -3988,7 +3988,7 @@
                                     "kind": 280,
                                     "decorators": null,
                                     "declaredToken": null,
-                                    "staticToken": null,
+                                    "staticKeyword": null,
                                     "asyncKeyword": null,
                                     "key": {
                                         "kind": 194,
@@ -4108,7 +4108,7 @@
                                     "kind": 280,
                                     "decorators": null,
                                     "declaredToken": null,
-                                    "staticToken": null,
+                                    "staticKeyword": null,
                                     "asyncKeyword": null,
                                     "key": {
                                         "kind": 194,
@@ -4233,7 +4233,7 @@
                                     "kind": 280,
                                     "decorators": null,
                                     "declaredToken": null,
-                                    "staticToken": null,
+                                    "staticKeyword": null,
                                     "asyncKeyword": null,
                                     "key": {
                                         "kind": 194,
@@ -4349,182 +4349,183 @@
 ```javascript
 
 (class X {
-    a;
+  a
+  ;
+})(class  {
+  a = 0
+  ;
+});
+(class  {
+  a = 0
+  ;
+  b
+});
+(class  {
+  a = 0
+  ;
+  b() { }
+});
+(class  {
+  a = 0
+  ;
+  *b() { }
+});
+(class  {
+  a = 0
+  ;
+  ['\'b\'']() { }
+});
+(class  {
+  a
+  ;
+});
+(class  {
+  a
+  ;
+  b
+  ;
+});
+(class  {
+  a
+  ;
+  b() { }
+});
+(class  {
+  a
+  ;
+  *b() { }
+});
+(class  {
+  a
+  ;
+  ['\'b\'']() { }
+});
+(class  {
+  ['\'a\''] = 0
+  ;
+});
+(class  {
+  ['\'a\''] = 0
+  ;
+  b
+});
+(class  {
+  ['\'a\''] = 0
+  ;
+  b() { }
+});
+(class  {
+  ['\'a\''] = 0
+  ;
+  *b() { }
+});
+(class  {
+  ['\'a\''] = 0
+  ;
+  ['\'b\'']() { }
+});
+(class  {
+  ['\'a\'']
+  ;
+});
+(class  {
+  ['\'a\'']
+  ;
+  b
+  ;
+});
+(class  {
+  ['\'a\'']
+  ;
+  b() { }
+});
+(class  {
+  ['\'a\'']
+  ;
+  *b() { }
+});
+(class  {
+  ['\'a\'']
+  ;
+  ['\'b\'']() { }
+});
+(class  {
+  0 = 0
+  ;
+});
+(class  {
+  0
+  ;
+});
+(class  {
+  '\'a\'' = 0
+  ;
+});
+(class  {
+  '\'a\''
+  ;
+});
+(class  {
+  a = 0
+});
+(class  {
+  a = 0
+  b
+});
+(class  {
+  a = 0
+  b() { }
+});
+(class  {
+  a
+});
+(class  {
+  a
+  b
+});
+(class  {
+  a
+  b() { }
+});
+(class  {
+  a
+  *b() { }
+});
+(class  {
+  a
+  ['\'b\'']() { }
+});
+(class  {
+  ['\'a\''] = 0
+});
+(class  {
+  ['\'a\''] = 0
+  b
+});
+(class  {
+  ['\'a\''] = 0
+  b() { }
+});
+(class  {
+  ['\'a\'']
+});
+(class  {
+  ['\'a\'']
+  b
+});
+(class  {
+  ['\'a\'']
+  b() { }
+});
+(class  {
+  ['\'a\'']
+  *b() { }
+});
+(class  {
+  ['\'a\'']
+  ['\'b\'']() { }
+});
 
-  })(class  {
-    a = 0;
-
-  });
-(class  {
-    a = 0;
-
-    b;
-  });
-(class  {
-    a = 0;
-
-    b() {}
-  });
-(class  {
-    a = 0;
-
-    b() {}
-  });
-(class  {
-    a = 0;
-
-    ["'b'"]() {}
-  });
-(class  {
-    a;
-
-  });
-(class  {
-    a;
-
-    b;
-
-  });
-(class  {
-    a;
-
-    b() {}
-  });
-(class  {
-    a;
-
-    b() {}
-  });
-(class  {
-    a;
-
-    ["'b'"]() {}
-  });
-(class  {
-    ["'a'"] = 0;
-
-  });
-(class  {
-    ["'a'"] = 0;
-
-    b;
-  });
-(class  {
-    ["'a'"] = 0;
-
-    b() {}
-  });
-(class  {
-    ["'a'"] = 0;
-
-    b() {}
-  });
-(class  {
-    ["'a'"] = 0;
-
-    ["'b'"]() {}
-  });
-(class  {
-    ["'a'"];
-
-  });
-(class  {
-    ["'a'"];
-
-    b;
-
-  });
-(class  {
-    ["'a'"];
-
-    b() {}
-  });
-(class  {
-    ["'a'"];
-
-    b() {}
-  });
-(class  {
-    ["'a'"];
-
-    ["'b'"]() {}
-  });
-(class  {
-    0 = 0;
-
-  });
-(class  {
-    0;
-
-  });
-(class  {
-    "'a'" = 0;
-
-  });
-(class  {
-    "'a'";
-
-  });
-(class  {
-    a = 0;
-  });
-(class  {
-    a = 0;
-    b;
-  });
-(class  {
-    a = 0;
-    b() {}
-  });
-(class  {
-    a;
-  });
-(class  {
-    a;
-    b;
-  });
-(class  {
-    a;
-    b() {}
-  });
-(class  {
-    a;
-    b() {}
-  });
-(class  {
-    a;
-    ["'b'"]() {}
-  });
-(class  {
-    ["'a'"] = 0;
-  });
-(class  {
-    ["'a'"] = 0;
-    b;
-  });
-(class  {
-    ["'a'"] = 0;
-    b() {}
-  });
-(class  {
-    ["'a'"];
-  });
-(class  {
-    ["'a'"];
-    b;
-  });
-(class  {
-    ["'a'"];
-    b() {}
-  });
-(class  {
-    ["'a'"];
-    b() {}
-  });
-(class  {
-    ["'a'"];
-    ["'b'"]() {}
-  });
 ```
 
 ### Diagnostics

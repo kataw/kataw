@@ -63,7 +63,7 @@ for ({}[y] ^= x;;) x;
                         "start": 8,
                         "end": 9
                     },
-                    "flags": 536870944,
+                    "flags": 32,
                     "start": 0,
                     "end": 9
                 },
@@ -215,7 +215,7 @@ for ({}[y] ^= x;;) x;
                         "start": 54,
                         "end": 55
                     },
-                    "flags": 536870944,
+                    "flags": 32,
                     "start": 44,
                     "end": 55
                 },
@@ -347,14 +347,15 @@ for ({}[y] ^= x;;) x;
 
 ```javascript
 
-for ([].w ^= s; ; )
+for ([].w ^= s;;)
   x;
-for ([][y] <<= p; ; )
+for ([][y] <<= p;;)
   x;
-for ([].u |= c; ; )
+for ([].u |= c;;)
   x;
-for ({}[y] ^= x; ; )
+for ({}[y] ^= x;;)
   x;
+
 ```
 
 ### Diagnostics

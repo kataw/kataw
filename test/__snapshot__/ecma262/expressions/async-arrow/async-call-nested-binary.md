@@ -96,6 +96,7 @@ async < T > (x);
 ```javascript
 
 async  < T > (x);
+
 ```
 
 ### Diagnostics

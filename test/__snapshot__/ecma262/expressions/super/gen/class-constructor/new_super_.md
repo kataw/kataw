@@ -96,13 +96,7 @@ class C { constructor() { new super; } }
                                                     "expression": {
                                                         "kind": 129,
                                                         "member": {
-                                                            "kind": 225,
-                                                            "superKeyword": {
-                                                                "kind": 4259935,
-                                                                "flags": 96,
-                                                                "start": 29,
-                                                                "end": 35
-                                                            },
+                                                            "kind": 4259935,
                                                             "flags": 96,
                                                             "start": 29,
                                                             "end": 35
@@ -115,7 +109,7 @@ class C { constructor() { new super; } }
                                                             "start": 35,
                                                             "end": 35
                                                         },
-                                                        "flags": 536870944,
+                                                        "flags": 32,
                                                         "start": 29,
                                                         "end": 35
                                                     },

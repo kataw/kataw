@@ -120,8 +120,8 @@ try { var e } catch (e) {}
                                         "formalParameters": [],
                                         "trailingComma": false,
                                         "flags": 32,
-                                        "start": 43,
-                                        "end": 45
+                                        "start": 44,
+                                        "end": 44
                                     },
                                     "contents": {
                                         "kind": 216,
@@ -248,8 +248,8 @@ try { var e } catch (e) {}
                                         "formalParameters": [],
                                         "trailingComma": false,
                                         "flags": 32,
-                                        "start": 88,
-                                        "end": 90
+                                        "start": 89,
+                                        "end": 89
                                     },
                                     "contents": {
                                         "kind": 216,
@@ -378,8 +378,8 @@ try { var e } catch (e) {}
                                         "formalParameters": [],
                                         "trailingComma": false,
                                         "flags": 32,
-                                        "start": 133,
-                                        "end": 135
+                                        "start": 134,
+                                        "end": 134
                                     },
                                     "contents": {
                                         "kind": 216,
@@ -497,8 +497,8 @@ try { var e } catch (e) {}
                                                 "formalParameters": [],
                                                 "trailingComma": false,
                                                 "flags": 32,
-                                                "start": 173,
-                                                "end": 175
+                                                "start": 174,
+                                                "end": 174
                                             },
                                             "contents": {
                                                 "kind": 216,
@@ -619,8 +619,8 @@ try { var e } catch (e) {}
                                                 "formalParameters": [],
                                                 "trailingComma": false,
                                                 "flags": 32,
-                                                "start": 215,
-                                                "end": 217
+                                                "start": 216,
+                                                "end": 216
                                             },
                                             "contents": {
                                                 "kind": 216,
@@ -781,35 +781,40 @@ try { var e } catch (e) {}
 
 ```javascript
 
-try {
-} catch (e) {
-  if (0);
-  else  function e() {}
+try { }
+catch (e){
+  if (0)
+    ;
+  else
+    function e() { }
 }
-try {
-} catch (e) {
-  if (1) function e() {}
+try { }
+catch (e){
+  if (1)
+    function e() { }
 }
-try {
-} catch (e) {
-  if (1) function e() {}
+try { }
+catch (e){
+  if (1)
+    function e() { }
 }
-try {
-} catch (e) {
+try { }
+catch (e){
   {
-    function e() {}
+    function e() { }
   }
 }
-try {
-} catch (e) {
+try { }
+catch (e){
   {
-    function e() {}
+    function e() { }
   }
 }
 try {
   var e;
-} catch (e) {
 }
+catch (e){ }
+
 ```
 
 ### Diagnostics

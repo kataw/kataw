@@ -35,12 +35,7 @@ delete async => {}
                 },
                 "operand": {
                     "kind": 271,
-                    "asyncKeyword": {
-                        "kind": 82031,
-                        "flags": 64,
-                        "start": 6,
-                        "end": 12
-                    },
+                    "asyncKeyword": null,
                     "typeParameters": null,
                     "arrowPatameterList": {
                         "kind": 134299649,
@@ -97,7 +92,8 @@ delete async => {}
 
 ```javascript
 
-delete async async =>  {};
+delete  async =>  { };
+
 ```
 
 ### Diagnostics

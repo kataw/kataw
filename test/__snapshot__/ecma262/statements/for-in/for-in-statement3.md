@@ -176,8 +176,9 @@ for (var a: number in expr) {
 ```javascript
 
 var expr: any;
-for ( in expr)
-  {}
+for (var a: number in expr) {
+}
+
 ```
 
 ### Diagnostics

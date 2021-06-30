@@ -97,7 +97,7 @@ fn = ({text = "default", ...props}) => text + props.children
                                             "optionalToken": null,
                                             "type": null,
                                             "right": null,
-                                            "flags": 32,
+                                            "flags": 1073741856,
                                             "start": 24,
                                             "end": 33
                                         }
@@ -158,7 +158,7 @@ fn = ({text = "default", ...props}) => text + props.children
                                 "start": 52,
                                 "end": 60
                             },
-                            "flags": 536870944,
+                            "flags": 96,
                             "start": 45,
                             "end": 60
                         },
@@ -192,7 +192,11 @@ fn = ({text = "default", ...props}) => text + props.children
 
 ```javascript
 
-fn = () =>  text + props.children;
+fn = ({
+    text = "\"default\"",
+    ...props
+  }) => text + props.children;
+
 ```
 
 ### Diagnostics

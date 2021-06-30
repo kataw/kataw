@@ -105,7 +105,10 @@
 
 ```javascript
 
-() =>  x;
+({
+    async: x
+  }) => x;
+
 ```
 
 ### Diagnostics

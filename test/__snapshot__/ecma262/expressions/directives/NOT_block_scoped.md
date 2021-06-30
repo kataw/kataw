@@ -114,9 +114,11 @@ if (x) { "use strict"; with (x) y; }
 ```javascript
 
 if (x) {
-    "\"use strict\"";
-    with (x) y;
-  }
+  "\"use strict\"";
+  with (x)
+    y;
+}
+
 ```
 
 ### Diagnostics

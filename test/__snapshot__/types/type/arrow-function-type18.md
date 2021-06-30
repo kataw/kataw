@@ -171,6 +171,7 @@ type a = (bj[c]) => T;
 
 ```javascript
 
+type a = (bj[c]) => T
 
 ```
 

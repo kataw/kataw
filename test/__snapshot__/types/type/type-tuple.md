@@ -57,7 +57,7 @@ type A = { [string]: number };
                         {
                             "kind": 195,
                             "protoKeyword": null,
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "name": null,
                             "key": {
                                 "kind": 134234347,
@@ -111,6 +111,7 @@ type A = { [string]: number };
 
 ```javascript
 
+type A = { [string]: number }
 
 ```
 

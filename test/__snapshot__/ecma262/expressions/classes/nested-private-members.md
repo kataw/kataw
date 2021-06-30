@@ -54,7 +54,7 @@
                                     "kind": 280,
                                     "decorators": null,
                                     "declaredToken": null,
-                                    "staticToken": null,
+                                    "staticKeyword": null,
                                     "asyncKeyword": null,
                                     "key": {
                                         "kind": 134299649,
@@ -87,7 +87,7 @@
                                                         "kind": 280,
                                                         "decorators": null,
                                                         "declaredToken": null,
-                                                        "staticToken": null,
+                                                        "staticKeyword": null,
                                                         "asyncKeyword": null,
                                                         "key": {
                                                             "kind": 134299649,
@@ -174,7 +174,7 @@
                                     "kind": 280,
                                     "decorators": null,
                                     "declaredToken": null,
-                                    "staticToken": null,
+                                    "staticKeyword": null,
                                     "asyncKeyword": null,
                                     "key": {
                                         "kind": 134299649,
@@ -207,7 +207,7 @@
                                                         "kind": 280,
                                                         "decorators": null,
                                                         "declaredToken": null,
-                                                        "staticToken": null,
+                                                        "staticKeyword": null,
                                                         "asyncKeyword": null,
                                                         "key": {
                                                             "kind": 134299649,
@@ -323,7 +323,7 @@
                                     "kind": 280,
                                     "decorators": null,
                                     "declaredToken": null,
-                                    "staticToken": null,
+                                    "staticKeyword": null,
                                     "asyncKeyword": null,
                                     "key": {
                                         "kind": 134299649,
@@ -356,7 +356,7 @@
                                                         "kind": 280,
                                                         "decorators": null,
                                                         "declaredToken": null,
-                                                        "staticToken": null,
+                                                        "staticKeyword": null,
                                                         "asyncKeyword": null,
                                                         "key": {
                                                             "kind": 134299649,
@@ -436,7 +436,7 @@
                                     "kind": 280,
                                     "decorators": null,
                                     "declaredToken": null,
-                                    "staticToken": null,
+                                    "staticKeyword": null,
                                     "asyncKeyword": null,
                                     "key": {
                                         "kind": 134299649,
@@ -579,7 +579,7 @@
                                     "kind": 280,
                                     "decorators": null,
                                     "declaredToken": null,
-                                    "staticToken": null,
+                                    "staticKeyword": null,
                                     "asyncKeyword": null,
                                     "key": {
                                         "kind": 134299649,
@@ -727,7 +727,7 @@
                                     "kind": 280,
                                     "decorators": null,
                                     "declaredToken": null,
-                                    "staticToken": null,
+                                    "staticKeyword": null,
                                     "asyncKeyword": null,
                                     "key": {
                                         "kind": 134299649,
@@ -884,7 +884,7 @@
                                     "kind": 280,
                                     "decorators": null,
                                     "declaredToken": null,
-                                    "staticToken": null,
+                                    "staticKeyword": null,
                                     "asyncKeyword": null,
                                     "key": {
                                         "kind": 134299649,
@@ -1032,7 +1032,7 @@
                                     "kind": 280,
                                     "decorators": null,
                                     "declaredToken": null,
-                                    "staticToken": null,
+                                    "staticKeyword": null,
                                     "asyncKeyword": null,
                                     "key": {
                                         "kind": 134299649,
@@ -1180,7 +1180,7 @@
                                     "kind": 280,
                                     "decorators": null,
                                     "declaredToken": null,
-                                    "staticToken": null,
+                                    "staticKeyword": null,
                                     "asyncKeyword": null,
                                     "key": {
                                         "kind": 134299649,
@@ -1323,50 +1323,51 @@
 ```javascript
 
 (class  {
-    a = class  {
-        #a = 1;
-      };
-  });
+  a = class  {
+    #a = 1
+  }
+});
 (class  {
-    a = class  {
-        #a = () =>  {};
-      };
-  });
+  a = class  {
+    #a = () =>  { }
+  }
+});
 (class  {
-    a = class  {
-        #a;
-      };
-  });
+  a = class  {
+    #a
+  }
+});
 (class  {
-    a = class  {
-        #a() {}
-      };
-  });
+  a = class  {
+    #a() { }
+  }
+});
 (class  {
-    a = class  {
-        get #a() {}
-      };
-  });
+  a = class  {
+    get #a() { }
+  }
+});
 (class  {
-    a = class  {
-        set #a() {}
-      };
-  });
+  a = class  {
+    set #a(foo) { }
+  }
+});
 (class  {
-    a = class  {
-        #a() {}
-      };
-  });
+  a = class  {
+    *#a() { }
+  }
+});
 (class  {
-    a = class  {
-        async #a() {}
-      };
-  });
+  a = class  {
+    async #a() { }
+  }
+});
 (class  {
-    a = class  {
-        async #a() {}
-      };
-  });
+  a = class  {
+    async *#a() { }
+  }
+});
+
 ```
 
 ### Diagnostics

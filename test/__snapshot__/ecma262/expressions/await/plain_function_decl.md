@@ -49,8 +49,8 @@ function f(await){}
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 10,
-                "end": 17
+                "start": 11,
+                "end": 16
             },
             "contents": {
                 "kind": 216,
@@ -85,7 +85,8 @@ function f(await){}
 
 ```javascript
 
-function f() {}
+function f(await) { }
+
 ```
 
 ### Diagnostics

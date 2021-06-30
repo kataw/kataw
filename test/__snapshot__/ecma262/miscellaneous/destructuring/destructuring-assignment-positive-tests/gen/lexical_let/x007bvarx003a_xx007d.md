@@ -190,8 +190,10 @@
 
 ```javascript
 
+'\'use strict\'';
 let x, y, z;
-({ var: x } = {});
+({ var : x } = {});
+
 ```
 
 ### Diagnostics

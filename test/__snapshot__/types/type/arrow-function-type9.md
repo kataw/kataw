@@ -236,6 +236,7 @@ type X = (x | y & z, q: string) => T;
 
 ```javascript
 
+type X = (x | y & z, q: string) => T
 
 ```
 

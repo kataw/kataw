@@ -43,8 +43,8 @@ function f(){
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 10,
-                "end": 12
+                "start": 11,
+                "end": 11
             },
             "contents": {
                 "kind": 216,
@@ -68,7 +68,7 @@ function f(){
                         {
                             "kind": 120,
                             "expression": {
-                                "kind": 221,
+                                "kind": 371,
                                 "text": "/x/",
                                 "flags": 96,
                                 "start": 22,
@@ -107,9 +107,10 @@ function f(){
 ```javascript
 
 function f() {
-  return ;
+  return;
   /x/;
 }
+
 ```
 
 ### Diagnostics

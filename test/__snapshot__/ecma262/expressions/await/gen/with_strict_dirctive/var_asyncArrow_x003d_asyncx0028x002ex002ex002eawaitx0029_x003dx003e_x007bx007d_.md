@@ -75,10 +75,18 @@
                                             "start": 37,
                                             "end": 40
                                         },
+                                        "left": {
+                                            "kind": 134299649,
+                                            "text": "await",
+                                            "rawText": "await",
+                                            "flags": 96,
+                                            "start": 40,
+                                            "end": 45
+                                        },
                                         "optionalToken": null,
                                         "type": null,
                                         "right": null,
-                                        "flags": 32,
+                                        "flags": 1073741856,
                                         "start": 37,
                                         "end": 45
                                     }
@@ -140,7 +148,9 @@
 
 ```javascript
 
-var asyncArrow = async  =>  {};
+'\'use strict\'';
+var asyncArrow = async (...await) =>  { };
+
 ```
 
 ### Diagnostics

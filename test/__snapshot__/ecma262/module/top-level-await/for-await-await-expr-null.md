@@ -495,24 +495,22 @@ for await (let binding of [await null]) {
 ```javascript
 
 var binding;
-// [+Await]for await ( [lookahead ≠ let] LeftHandSideExpression[?Yield, ?Await] of AssignmentExpression[+In, ?Yield, ?Await] ) Statement[?Yield, ?Await, ?Return]
-for await (binding of [await null])
-  {
-    await null;
-    break;
-  }
-// [+Await]for await ( var ForBinding[?Yield, ?Await] of AssignmentExpression[+In, ?Yield, ?Await] ) Statement[?Yield, ?Await, ?Return]
-for await ( of [await null])
-  {
-    await null;
-    break;
-  }
-// [+Await]for await ( ForDeclaration[?Yield, ?Await] of AssignmentExpression[+In, ?Yield, ?Await] ) Statement[?Yield, ?Await, ?Return]
-for await (let binding; of [await null])
-  {
-    await null;
-    break;
-  }
+ // [+Await]for await ( [lookahead ≠ let] LeftHandSideExpression[?Yield, ?Await] of AssignmentExpression[+In, ?Yield, ?Await] ) Statement[?Yield, ?Await, ?Return]
+for await (binding of [await null,]) {
+  await null;
+  break;
+}
+ // [+Await]for await ( var ForBinding[?Yield, ?Await] of AssignmentExpression[+In, ?Yield, ?Await] ) Statement[?Yield, ?Await, ?Return]
+for await (var binding of [await null,]) {
+  await null;
+  break;
+}
+ // [+Await]for await ( ForDeclaration[?Yield, ?Await] of AssignmentExpression[+In, ?Yield, ?Await] ) Statement[?Yield, ?Await, ?Return]
+for await (let binding of [await null,]) {
+  await null;
+  break;
+}
+
 ```
 
 ### Diagnostics

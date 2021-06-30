@@ -56,6 +56,7 @@ var a: - 123n
                                     "end": 8
                                 },
                                 "text": "123",
+                                "rawText": "123n",
                                 "flags": 2097216,
                                 "start": 6,
                                 "end": 13
@@ -92,7 +93,8 @@ var a: - 123n
 
 ```javascript
 
-var a: ;
+var a: -123n;
+
 ```
 
 ### Diagnostics

@@ -99,7 +99,8 @@ async x => static = 1
 
 ```javascript
 
-async x =>  static = 1;
+async x => static = 1;
+
 ```
 
 ### Diagnostics

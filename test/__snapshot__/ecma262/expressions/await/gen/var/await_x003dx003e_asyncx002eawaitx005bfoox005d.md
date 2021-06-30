@@ -131,7 +131,7 @@ var await; var f = (async function() { await => async.await[foo] });
                         "start": 54,
                         "end": 59
                     },
-                    "flags": 536870944,
+                    "flags": 96,
                     "start": 47,
                     "end": 59
                 },

@@ -139,7 +139,9 @@ for (true ? a in b : {}; false; ) ;
 
 ```javascript
 
-for (true ? a in b : {}; ; false);
+for (true ? a in b : {};; false)
+  ;
+
 ```
 
 ### Diagnostics

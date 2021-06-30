@@ -130,7 +130,9 @@ for (let {x : y} of obj);
 
 for (let {
   x: y
-}; of obj);
+} of obj)
+  ;
+
 ```
 
 ### Diagnostics

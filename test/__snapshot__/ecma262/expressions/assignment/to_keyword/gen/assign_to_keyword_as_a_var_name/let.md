@@ -72,6 +72,7 @@ let = x
 ```javascript
 
 let = x;
+
 ```
 
 ### Diagnostics

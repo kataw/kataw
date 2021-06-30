@@ -164,9 +164,10 @@
 
 ```javascript
 
-(class   {
-    set #arguments() {}
-  });
+(class  extends Base {
+  set #arguments(test) { }
+});
+
 ```
 
 ### Diagnostics

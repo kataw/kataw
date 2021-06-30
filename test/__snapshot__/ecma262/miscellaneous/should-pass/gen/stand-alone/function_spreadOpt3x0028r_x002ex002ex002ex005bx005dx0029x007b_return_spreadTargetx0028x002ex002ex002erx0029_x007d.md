@@ -86,8 +86,8 @@ function spreadOpt3(r, ...[]){ return spreadTarget(...r); }
                 ],
                 "trailingComma": false,
                 "flags": 34,
-                "start": 19,
-                "end": 29
+                "start": 20,
+                "end": 28
             },
             "contents": {
                 "kind": 216,
@@ -132,7 +132,7 @@ function spreadOpt3(r, ...[]){ return spreadTarget(...r); }
                                                 "start": 54,
                                                 "end": 55
                                             },
-                                            "flags": 32,
+                                            "flags": 1073741856,
                                             "start": 51,
                                             "end": 55
                                         }
@@ -178,9 +178,8 @@ function spreadOpt3(r, ...[]){ return spreadTarget(...r); }
 
 ```javascript
 
-function spreadOpt3() {
-  return  spreadTarget(...r);
-}
+function spreadOpt3(r, ...[]) { return spreadTarget(...r); }
+
 ```
 
 ### Diagnostics

@@ -100,6 +100,7 @@
 ```javascript
 
 `foo ${a} and ${b} and ${c} baz`;
+
 ```
 
 ### Diagnostics

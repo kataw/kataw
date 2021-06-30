@@ -104,6 +104,7 @@ x = `1 ${ yield } 2 ${ 3 } 4`
 ```javascript
 
 x = `1 ${yield} 2 ${3} 4`;
+
 ```
 
 ### Diagnostics

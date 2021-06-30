@@ -179,12 +179,13 @@ switch (0) { case 1: var f; default: var f }
 
 ```javascript
 
-switch(0) {
-  case 1:
+switch (0) {
+  case 1: 
     var f;
-  default
+  default: 
     var f;
 }
+
 ```
 
 ### Diagnostics

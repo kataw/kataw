@@ -49,10 +49,10 @@ async (x = (function) = f) => {}
                         "optionalToken": null,
                         "type": null,
                         "right": {
-                            "kind": 125,
-                            "left": {
-                                "kind": 121,
-                                "expression": {
+                            "kind": 121,
+                            "expression": {
+                                "kind": 125,
+                                "left": {
                                     "kind": 177,
                                     "asyncKeyword": null,
                                     "functionKeyword": {
@@ -79,43 +79,43 @@ async (x = (function) = f) => {}
                                             "directives": [],
                                             "statements": [],
                                             "flags": 32,
-                                            "start": 20,
-                                            "end": 20
+                                            "start": 21,
+                                            "end": 21
                                         },
                                         "flags": 32,
-                                        "start": 20,
-                                        "end": 20
+                                        "start": 21,
+                                        "end": 21
                                     },
                                     "returnType": null,
                                     "flags": 32,
                                     "start": 12,
-                                    "end": 20
+                                    "end": 21
+                                },
+                                "operatorToken": {
+                                    "kind": 4125,
+                                    "flags": 96,
+                                    "start": 21,
+                                    "end": 23
+                                },
+                                "right": {
+                                    "kind": 134299649,
+                                    "text": "f",
+                                    "rawText": "f",
+                                    "flags": 96,
+                                    "start": 23,
+                                    "end": 25
                                 },
                                 "flags": 32,
-                                "start": 10,
-                                "end": 21
-                            },
-                            "operatorToken": {
-                                "kind": 4125,
-                                "flags": 96,
-                                "start": 21,
-                                "end": 23
-                            },
-                            "right": {
-                                "kind": 134299649,
-                                "text": "f",
-                                "rawText": "f",
-                                "flags": 96,
-                                "start": 23,
+                                "start": 12,
                                 "end": 25
                             },
                             "flags": 32,
                             "start": 10,
-                            "end": 25
+                            "end": 26
                         },
                         "flags": 32,
                         "start": 7,
-                        "end": 25
+                        "end": 26
                     }
                 ],
                 "trailingComma": false,
@@ -168,6 +168,9 @@ async (x = (function) = f) => {}
 
 ```javascript
 ✖ Missing an opening parentheses - '( - start: 20, end: 21
+✖ Missing an opening brace - '{ - start: 22, end: 23
+✖ The left-hand side of an assignment expression must be a variable or a property access - start: 21, end: 23
+✖ Arrow parameters can only contain a binding pattern or an identifier - start: 10, end: 29
 
 ```
 

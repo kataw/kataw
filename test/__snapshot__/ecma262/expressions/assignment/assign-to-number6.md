@@ -70,6 +70,7 @@ x = 0o4567
 ```javascript
 
 x = 0o4567;
+
 ```
 
 ### Diagnostics

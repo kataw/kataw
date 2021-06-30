@@ -158,7 +158,8 @@
 
 ```javascript
 
-[new  x()[y] = a + b] = z;
+[new x()[y] = a + b,] = z;
+
 ```
 
 ### Diagnostics

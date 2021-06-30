@@ -54,7 +54,7 @@ x={...true} = x
                                         "start": 6,
                                         "end": 10
                                     },
-                                    "flags": 32,
+                                    "flags": 1073741856,
                                     "start": 3,
                                     "end": 10
                                 }

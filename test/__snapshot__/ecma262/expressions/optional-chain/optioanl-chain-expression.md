@@ -43,7 +43,7 @@ a.b?.c()
                         "start": 2,
                         "end": 3
                     },
-                    "flags": 536870944,
+                    "flags": 96,
                     "start": 0,
                     "end": 3
                 },
@@ -52,7 +52,7 @@ a.b?.c()
                     "chain": {
                         "kind": 302,
                         "chain": {
-                            "kind": 536871114,
+                            "kind": 202,
                             "chain": null,
                             "expression": {
                                 "kind": 134299649,
@@ -62,7 +62,7 @@ a.b?.c()
                                 "start": 5,
                                 "end": 6
                             },
-                            "flags": 32,
+                            "flags": 536870944,
                             "start": 5,
                             "end": 6
                         },
@@ -105,7 +105,8 @@ a.b?.c()
 
 ```javascript
 
-a.b?.();
+a.b?.c();
+
 ```
 
 ### Diagnostics

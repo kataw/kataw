@@ -143,8 +143,8 @@ function *f(x = delete ((in) = f)) {}
                 ],
                 "trailingComma": false,
                 "flags": 34,
-                "start": 11,
-                "end": 34
+                "start": 12,
+                "end": 33
             },
             "contents": {
                 "kind": 216,

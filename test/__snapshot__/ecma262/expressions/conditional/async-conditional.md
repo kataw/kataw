@@ -59,7 +59,7 @@ true ? async.waterfall() : null;
                             "start": 13,
                             "end": 22
                         },
-                        "flags": 536870944,
+                        "flags": 96,
                         "start": 6,
                         "end": 22
                     },
@@ -110,6 +110,7 @@ true ? async.waterfall() : null;
 ```javascript
 
 true ? async.waterfall() : null;
+
 ```
 
 ### Diagnostics

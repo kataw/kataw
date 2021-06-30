@@ -157,8 +157,8 @@ x /*2*/
                             "formalParameters": [],
                             "trailingComma": false,
                             "flags": 32,
-                            "start": 64,
-                            "end": 72
+                            "start": 71,
+                            "end": 71
                         },
                         "contents": {
                             "kind": 216,
@@ -417,43 +417,41 @@ x /*2*/
   x;
 }
 {
-  x; /*2*/
+  x;/*2*/
 }
 {
-  async /*1*/ function x /*3*/() {}
+  async/*1*/ function/*2*/ x/*3*/() { }
 }
-// 1
+ // 1
+{ }// 2
+ // 3
 {
-} // 2
-
-// 3
-{
-  x; /*2*/
+  x;/*2*/
 }
 {
-  x; /*2*/
+  x;/*2*/
 }
 {
-  /* 1*/
+   /* 1*/
   /* 2*/
   /* 3*/
   /* 4*/
-  /* 5 */ {
-  } /* 6 */
-  /* 7 */
+  /* 5 */{ }/* 6 */
+   /* 7 */
   /* 8 */
   /* 9 */
   /* 10 */
-  /*1*/ x; /*2*/
+  /*1*/x;/*2*/
 }
-// No duplicate comments #1
+ // No duplicate comments #1
 {
-  let /*1*/ /*1*/ x;
+  let /*1*/x;
 }
-// No duplicate comments #2
+ // No duplicate comments #2
 {
-  var /*1*/ /*1*/ x;
+  var /*1*/x;
 }
+
 ```
 
 ### Diagnostics

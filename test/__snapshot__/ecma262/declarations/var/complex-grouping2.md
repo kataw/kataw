@@ -165,7 +165,8 @@ var a: (() => number) | () => string
 
 ```javascript
 
-var a: ;
+var a: (() => number) | () => string;
+
 ```
 
 ### Diagnostics

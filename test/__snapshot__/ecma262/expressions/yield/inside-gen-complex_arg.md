@@ -45,8 +45,8 @@ function* f(){ yield x + y; }
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 11,
-                "end": 13
+                "start": 12,
+                "end": 12
             },
             "contents": {
                 "kind": 216,
@@ -130,9 +130,8 @@ function* f(){ yield x + y; }
 
 ```javascript
 
-function * f() {
-  yield x + y;
-}
+function* f() { yield x + y; }
+
 ```
 
 ### Diagnostics

@@ -49,8 +49,8 @@
                         "formalParameters": [],
                         "trailingComma": false,
                         "flags": 32,
-                        "start": 11,
-                        "end": 14
+                        "start": 13,
+                        "end": 13
                     },
                     "contents": {
                         "kind": 216,
@@ -214,9 +214,9 @@
 
 ```javascript
 
-(function * () {
-    x = class   {};
-  });
+(function* () { x = class  extends (a ? null : yield) {
+}; });
+
 ```
 
 ### Diagnostics

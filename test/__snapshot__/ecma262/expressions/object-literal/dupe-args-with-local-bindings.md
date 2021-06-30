@@ -156,7 +156,7 @@ class o {f([b, a], ...b) {}}
                             "kind": 280,
                             "decorators": null,
                             "declaredToken": null,
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "asyncKeyword": null,
                             "key": {
                                 "kind": 134299649,
@@ -177,7 +177,7 @@ class o {f([b, a], ...b) {}}
                             "kind": 280,
                             "decorators": null,
                             "declaredToken": null,
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "asyncKeyword": null,
                             "key": {
                                 "kind": 134299649,
@@ -279,8 +279,8 @@ class o {f([b, a], ...b) {}}
                                         "formalParameters": [],
                                         "trailingComma": false,
                                         "flags": 32,
-                                        "start": 57,
-                                        "end": 59
+                                        "start": 58,
+                                        "end": 58
                                     },
                                     "contents": {
                                         "kind": 216,

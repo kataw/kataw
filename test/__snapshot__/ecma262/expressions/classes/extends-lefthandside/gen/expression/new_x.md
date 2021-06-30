@@ -118,7 +118,9 @@
 
 ```javascript
 
-(class B  {});
+(class B extends new x {
+});
+
 ```
 
 ### Diagnostics

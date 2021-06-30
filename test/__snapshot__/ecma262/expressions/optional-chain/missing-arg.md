@@ -53,7 +53,7 @@ x?.y?.[]
                             "end": 1
                         },
                         "chain": {
-                            "kind": 536871114,
+                            "kind": 202,
                             "chain": {
                                 "kind": 302,
                                 "chain": null,
@@ -69,7 +69,7 @@ x?.y?.[]
                                 "start": 5,
                                 "end": 8
                             },
-                            "flags": 32,
+                            "flags": 536870944,
                             "start": 5,
                             "end": 8
                         },
@@ -80,7 +80,7 @@ x?.y?.[]
                     "chain": {
                         "kind": 302,
                         "chain": {
-                            "kind": 536871114,
+                            "kind": 202,
                             "chain": null,
                             "expression": {
                                 "kind": 134299649,
@@ -90,7 +90,7 @@ x?.y?.[]
                                 "start": 10,
                                 "end": 11
                             },
-                            "flags": 32,
+                            "flags": 536870944,
                             "start": 10,
                             "end": 11
                         },

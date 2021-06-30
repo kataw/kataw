@@ -53,8 +53,8 @@ function * gen() { function not_gen() { yield * 1; return 37; yield * 'dead'; }}
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 14,
-                "end": 16
+                "start": 15,
+                "end": 15
             },
             "contents": {
                 "kind": 216,
@@ -87,8 +87,8 @@ function * gen() { function not_gen() { yield * 1; return 37; yield * 'dead'; }}
                                 "formalParameters": [],
                                 "trailingComma": false,
                                 "flags": 32,
-                                "start": 35,
-                                "end": 37
+                                "start": 36,
+                                "end": 36
                             },
                             "contents": {
                                 "kind": 216,
@@ -226,13 +226,8 @@ function * gen() { function not_gen() { yield * 1; return 37; yield * 'dead'; }}
 
 ```javascript
 
-function * gen() {
-  function not_gen() {
-    yield * 1;
-    return  37;
-    yield * "'dead'";
-  }
-}
+function* gen() { function not_gen() { yield * 1; return 37; yield * '\'dead\''; } }
+
 ```
 
 ### Diagnostics

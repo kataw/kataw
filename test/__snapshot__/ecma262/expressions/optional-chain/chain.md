@@ -69,7 +69,7 @@ a?.b?.c?.(d)?.[e].f?.g
                                 "chain": {
                                     "kind": 302,
                                     "chain": {
-                                        "kind": 536871114,
+                                        "kind": 202,
                                         "chain": null,
                                         "expression": {
                                             "kind": 134299649,
@@ -79,7 +79,7 @@ a?.b?.c?.(d)?.[e].f?.g
                                             "start": 3,
                                             "end": 4
                                         },
-                                        "flags": 32,
+                                        "flags": 536870944,
                                         "start": 3,
                                         "end": 4
                                     },
@@ -94,7 +94,7 @@ a?.b?.c?.(d)?.[e].f?.g
                             "chain": {
                                 "kind": 302,
                                 "chain": {
-                                    "kind": 536871114,
+                                    "kind": 202,
                                     "chain": null,
                                     "expression": {
                                         "kind": 134299649,
@@ -104,7 +104,7 @@ a?.b?.c?.(d)?.[e].f?.g
                                         "start": 6,
                                         "end": 7
                                     },
-                                    "flags": 32,
+                                    "flags": 536870944,
                                     "start": 6,
                                     "end": 7
                                 },
@@ -152,7 +152,7 @@ a?.b?.c?.(d)?.[e].f?.g
                         "end": 12
                     },
                     "chain": {
-                        "kind": 536871114,
+                        "kind": 202,
                         "chain": {
                             "kind": 302,
                             "chain": {
@@ -182,7 +182,7 @@ a?.b?.c?.(d)?.[e].f?.g
                             "start": 18,
                             "end": 19
                         },
-                        "flags": 32,
+                        "flags": 536870944,
                         "start": 17,
                         "end": 19
                     },
@@ -193,7 +193,7 @@ a?.b?.c?.(d)?.[e].f?.g
                 "chain": {
                     "kind": 302,
                     "chain": {
-                        "kind": 536871114,
+                        "kind": 202,
                         "chain": null,
                         "expression": {
                             "kind": 134299649,
@@ -203,7 +203,7 @@ a?.b?.c?.(d)?.[e].f?.g
                             "start": 21,
                             "end": 22
                         },
-                        "flags": 32,
+                        "flags": 536870944,
                         "start": 21,
                         "end": 22
                     },
@@ -233,7 +233,8 @@ a?.b?.c?.(d)?.[e].f?.g
 
 ```javascript
 
-?.;
+a?.b?.c?.(d)?.[e]f?.g;
+
 ```
 
 ### Diagnostics

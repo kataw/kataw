@@ -104,7 +104,7 @@ s.map(// do something
                         "start": 35,
                         "end": 38
                     },
-                    "flags": 536870944,
+                    "flags": 96,
                     "start": 32,
                     "end": 38
                 },
@@ -128,8 +128,8 @@ s.map(// do something
                                 "formalParameters": [],
                                 "trailingComma": false,
                                 "flags": 32,
-                                "start": 67,
-                                "end": 70
+                                "start": 69,
+                                "end": 69
                             },
                             "contents": {
                                 "kind": 216,
@@ -178,9 +178,10 @@ s.map(// do something
 
 ```javascript
 //commment here
+var s: string[];
+s.map(// do something
+function () { });
 
-var s: [ string ];
-s.map(function () {});
 ```
 
 ### Diagnostics

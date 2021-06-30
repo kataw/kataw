@@ -113,7 +113,7 @@ opaque type VeryOpaque: AliasAlias = ObjectAlias;
                         {
                             "kind": 193,
                             "protoKeyword": null,
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "getKeyword": null,
                             "setKeyword": null,
                             "key": {
@@ -146,7 +146,7 @@ opaque type VeryOpaque: AliasAlias = ObjectAlias;
                         {
                             "kind": 193,
                             "protoKeyword": null,
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "getKeyword": null,
                             "setKeyword": null,
                             "key": {
@@ -246,6 +246,7 @@ opaque type VeryOpaque: AliasAlias = ObjectAlias;
                         {
                             "kind": 134217968,
                             "text": 1,
+                            "rawText": "1",
                             "flags": 2097216,
                             "start": 129,
                             "end": 131
@@ -253,6 +254,7 @@ opaque type VeryOpaque: AliasAlias = ObjectAlias;
                         {
                             "kind": 134217968,
                             "text": 2,
+                            "rawText": "2",
                             "flags": 2097216,
                             "start": 133,
                             "end": 135
@@ -260,6 +262,7 @@ opaque type VeryOpaque: AliasAlias = ObjectAlias;
                         {
                             "kind": 134217968,
                             "text": 3,
+                            "rawText": "3",
                             "flags": 2097216,
                             "start": 137,
                             "end": 139
@@ -457,11 +460,16 @@ opaque type VeryOpaque: AliasAlias = ObjectAlias;
 
 ```javascript
 
-
-
-
-
-
+opaque type StringAlias = string
+;
+opaque type ObjectAlias = { property: string, method(): number }
+;
+opaque type UnionAlias = 1 | 2 | 3
+;
+opaque type AliasAlias: ObjectAlias = ObjectAlias
+;
+opaque type VeryOpaque: AliasAlias = ObjectAlias
+;
 
 ```
 

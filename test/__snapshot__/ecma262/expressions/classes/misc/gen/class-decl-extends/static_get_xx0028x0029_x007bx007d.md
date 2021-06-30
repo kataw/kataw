@@ -156,9 +156,10 @@ class C extends Base { static get x() {} }
 
 ```javascript
 
-class C  {
-  static get static x() {}
+class C extends Base {
+  static get x() { }
 }
+
 ```
 
 ### Diagnostics

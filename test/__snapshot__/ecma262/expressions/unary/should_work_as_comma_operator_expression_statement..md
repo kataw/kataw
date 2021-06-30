@@ -46,7 +46,7 @@ delete foo.bar, z;
                                 "start": 11,
                                 "end": 14
                             },
-                            "flags": 536870944,
+                            "flags": 96,
                             "start": 6,
                             "end": 14
                         },
@@ -85,7 +85,8 @@ delete foo.bar, z;
 
 ```javascript
 
-delete foo.bar, z;
+delete  foo.bar, z;
+
 ```
 
 ### Diagnostics

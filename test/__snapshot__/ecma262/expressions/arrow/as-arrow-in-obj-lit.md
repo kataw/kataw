@@ -231,8 +231,9 @@ x = {arrow: (x, y) => ok};
 
 ```javascript
 
-x = { arrow: () =>  ok };
-x = { arrow: () =>  ok };
+x = { arrow : (x) => ok };
+x = { arrow : (x, y) => ok };
+
 ```
 
 ### Diagnostics

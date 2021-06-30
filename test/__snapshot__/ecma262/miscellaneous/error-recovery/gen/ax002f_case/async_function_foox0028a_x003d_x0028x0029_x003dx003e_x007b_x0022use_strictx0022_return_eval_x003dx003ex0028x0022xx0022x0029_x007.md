@@ -167,8 +167,8 @@ async function foo(a = () => { "use strict"; return eval =>("x"); }) {}
                 ],
                 "trailingComma": false,
                 "flags": 34,
-                "start": 18,
-                "end": 68
+                "start": 19,
+                "end": 67
             },
             "contents": {
                 "kind": 216,
@@ -203,7 +203,10 @@ async function foo(a = () => { "use strict"; return eval =>("x"); }) {}
 
 ```javascript
 
-async function foo() {}
+async function foo(a = () =>  {
+  "\"use strict\"";
+   return eval => ("\"x\""); }) { }
+
 ```
 
 ### Diagnostics

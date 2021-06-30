@@ -249,7 +249,8 @@ var x, y, z; m(['b']) ? lhs : {var: x} = {}
 ```javascript
 
 var x, y, z;
-m(["'b'"]) ? lhs : { var: x } = {};
+m(['\'b\'',]) ? lhs : { var : x } = {};
+
 ```
 
 ### Diagnostics

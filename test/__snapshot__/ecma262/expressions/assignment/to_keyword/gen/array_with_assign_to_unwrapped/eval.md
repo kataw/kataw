@@ -99,7 +99,8 @@ async x => eval = 1
 
 ```javascript
 
-async x =>  eval = 1;
+async x => eval = 1;
+
 ```
 
 ### Diagnostics

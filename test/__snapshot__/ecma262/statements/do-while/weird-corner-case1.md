@@ -83,9 +83,10 @@ do x;while(y)z
 
 ```javascript
 
-do x;
-while (y);
+do
+  x; while (y)
 z;
+
 ```
 
 ### Diagnostics

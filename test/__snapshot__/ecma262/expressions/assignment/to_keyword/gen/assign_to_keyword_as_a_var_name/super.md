@@ -30,13 +30,7 @@ super = x
                 "left": {
                     "kind": 129,
                     "member": {
-                        "kind": 225,
-                        "superKeyword": {
-                            "kind": 4259935,
-                            "flags": 96,
-                            "start": 0,
-                            "end": 5
-                        },
+                        "kind": 4259935,
                         "flags": 96,
                         "start": 0,
                         "end": 5
@@ -49,7 +43,7 @@ super = x
                         "start": 5,
                         "end": 5
                     },
-                    "flags": 536870944,
+                    "flags": 32,
                     "start": 0,
                     "end": 5
                 },

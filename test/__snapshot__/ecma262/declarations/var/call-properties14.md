@@ -55,7 +55,7 @@ var d: { (): string } = (x) => "hi"
                                     {
                                         "kind": 196,
                                         "protoKeyword": null,
-                                        "staticToken": null,
+                                        "staticKeyword": null,
                                         "typeParameter": null,
                                         "value": {
                                             "kind": 282,
@@ -160,7 +160,8 @@ var d: { (): string } = (x) => "hi"
 
 ```javascript
 
-var d:  = () =>  "\"hi\"";
+var d: { (): string } = (x) => "\"hi\"";
+
 ```
 
 ### Diagnostics

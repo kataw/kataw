@@ -43,7 +43,7 @@
                                                 "expression": {
                                                     "kind": 198,
                                                     "left": {
-                                                        "kind": 221,
+                                                        "kind": 371,
                                                         "text": "/false/",
                                                         "flags": 96,
                                                         "start": 5,

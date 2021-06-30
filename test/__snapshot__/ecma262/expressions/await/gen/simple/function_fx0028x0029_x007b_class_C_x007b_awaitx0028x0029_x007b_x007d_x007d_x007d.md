@@ -48,8 +48,8 @@ function f() { class C { await() { } } }
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 10,
-                "end": 12
+                "start": 11,
+                "end": 11
             },
             "contents": {
                 "kind": 216,
@@ -174,11 +174,10 @@ function f() { class C { await() { } } }
 
 ```javascript
 
-function f() {
-  class C {
-    await() {}
-  }
-}
+function f() { class C {
+  await() { }
+} }
+
 ```
 
 ### Diagnostics

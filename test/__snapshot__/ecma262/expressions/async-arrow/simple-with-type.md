@@ -105,7 +105,8 @@ async (s: any) => x
 
 ```javascript
 
-async  =>  x
+async (s: any) => x
+
 ```
 
 ### Diagnostics

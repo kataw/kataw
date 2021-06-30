@@ -452,26 +452,35 @@ var fnNumber = /* comments0 */
 
 ```javascript
 
-fnNumber = // Comment
+fnNumber = 
+ // Comment
 3;
-fnNumber = // Comment
+fnNumber = 
+ // Comment
 3;
-fnNumber = // Comment0
+fnNumber = 
+ // Comment0
 // Comment1
 3;
-fnNumber = 3;
-fnNumber = /* comments1 */
+fnNumber =/* comment */ 3;
+fnNumber =/* comments0 */ 
+ /* comments1 */
 3;
-fnNumber = // Comment
+fnNumber = 
+ // Comment
 3;
-var fnNumber = // Comment
+var fnNumber = 
+ // Comment
 3;
-var fnNumber = // Comment0
+var fnNumber = 
+ // Comment0
 // Comment1
 3;
-var fnNumber = 3;
-var fnNumber = /* comments1 */
+var fnNumber =/* comment */ 3;
+var fnNumber =/* comments0 */ 
+ /* comments1 */
 3;
+
 ```
 
 ### Diagnostics

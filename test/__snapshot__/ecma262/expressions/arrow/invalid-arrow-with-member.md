@@ -58,14 +58,14 @@
                                                     "start": 7,
                                                     "end": 8
                                                 },
-                                                "flags": 536870944,
+                                                "flags": 96,
                                                 "start": 5,
                                                 "end": 8
                                             },
                                             "optionalToken": null,
                                             "type": null,
                                             "right": null,
-                                            "flags": 32,
+                                            "flags": 1073741856,
                                             "start": 2,
                                             "end": 8
                                         }

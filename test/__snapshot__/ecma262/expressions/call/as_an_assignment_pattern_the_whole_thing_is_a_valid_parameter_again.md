@@ -116,6 +116,7 @@ async({c=3} = {})
 ```javascript
 
 async({ c = 3 } = {})
+
 ```
 
 ### Diagnostics

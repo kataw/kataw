@@ -833,10 +833,12 @@ function b1<A: 'a', B: A>(b: B): void {
 
 function c<X: T> (x: $Keys<X>) {
   switch (x) {
-    case '\'p\'': break;
-    case '\'q\'': break;
-    case '\'r\'': // error
-    break;
+    case '\'p\'': 
+      break;
+    case '\'q\'': 
+      break;
+    case '\'r\'': 
+      break;
   }
   function a<A: "'a'"> (a: A): void {
     if (a === '\'a\'') { }

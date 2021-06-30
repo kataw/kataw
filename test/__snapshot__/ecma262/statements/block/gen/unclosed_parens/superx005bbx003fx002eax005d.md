@@ -35,13 +35,7 @@
                             "expression": {
                                 "kind": 130,
                                 "member": {
-                                    "kind": 225,
-                                    "superKeyword": {
-                                        "kind": 4259935,
-                                        "flags": 96,
-                                        "start": 2,
-                                        "end": 8
-                                    },
+                                    "kind": 4259935,
                                     "flags": 96,
                                     "start": 2,
                                     "end": 8
@@ -65,7 +59,7 @@
                                     "chain": {
                                         "kind": 302,
                                         "chain": {
-                                            "kind": 536871114,
+                                            "kind": 202,
                                             "chain": null,
                                             "expression": {
                                                 "kind": 134299649,
@@ -75,7 +69,7 @@
                                                 "start": 12,
                                                 "end": 13
                                             },
-                                            "flags": 32,
+                                            "flags": 536870944,
                                             "start": 12,
                                             "end": 13
                                         },

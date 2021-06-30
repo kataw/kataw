@@ -115,8 +115,8 @@ var f = async function f(x = function *await() {}) {}
                                                 "formalParameters": [],
                                                 "trailingComma": false,
                                                 "flags": 32,
-                                                "start": 44,
-                                                "end": 46
+                                                "start": 45,
+                                                "end": 45
                                             },
                                             "contents": {
                                                 "kind": 216,
@@ -144,8 +144,8 @@ var f = async function f(x = function *await() {}) {}
                                 ],
                                 "trailingComma": false,
                                 "flags": 34,
-                                "start": 24,
-                                "end": 50
+                                "start": 25,
+                                "end": 49
                             },
                             "contents": {
                                 "kind": 216,
@@ -193,7 +193,8 @@ var f = async function f(x = function *await() {}) {}
 
 ```javascript
 
-var f = async function f() {};
+var f = async function f(x = function* await() { }) { };
+
 ```
 
 ### Diagnostics

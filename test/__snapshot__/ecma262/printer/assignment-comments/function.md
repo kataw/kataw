@@ -1056,22 +1056,37 @@ let f6 = /* comment */
 
 ```javascript
 
-f1 = () =>  {};
-f2 = () =>  {};
-f3 = () =>  {};
-f4 = () =>  {};
-f5 = // Comment
-() =>  {};
-f6 = // Comment
-() =>  {};
-let f1 = () =>  {};
-let f2 = () =>  {};
-let f3 = () =>  {};
-let f4 = () =>  {};
-let f5 = // Comment
-() =>  {};
-let f6 = // Comment
-() =>  {};
+f1 = (a = 
+   //comment
+  b) =>  { };
+f2 = (a =//comment
+   b) =>  { };
+f3 = (a = b//comment
+) =>  { };
+f4 =// Comment
+ () =>  { };
+f5 = 
+ // Comment
+() =>  { };
+f6 =/* comment */ 
+ // Comment
+() =>  { };
+let f1 = (a = 
+   //comment
+  b) =>  { };
+let f2 = (a =//comment
+   b) =>  { };
+let f3 = (a = b//comment
+) =>  { };
+let f4 =// Comment
+ () =>  { };
+let f5 = 
+ // Comment
+() =>  { };
+let f6 =/* comment */ 
+ // Comment
+() =>  { };
+
 ```
 
 ### Diagnostics

@@ -50,7 +50,7 @@ var a: 0173n
                             "type": {
                                 "kind": 286,
                                 "text": "0173",
-                                "raw": "0173n",
+                                "rawText": "0173n",
                                 "flags": 2097216,
                                 "start": 6,
                                 "end": 12
@@ -87,7 +87,8 @@ var a: 0173n
 
 ```javascript
 
-var a: ;
+var a: 0173n;
+
 ```
 
 ### Diagnostics

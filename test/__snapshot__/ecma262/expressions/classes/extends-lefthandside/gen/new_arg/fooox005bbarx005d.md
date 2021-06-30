@@ -78,7 +78,8 @@ new fooo[bar]
 
 ```javascript
 
-new  fooo[bar]();
+new fooo[bar];
+
 ```
 
 ### Diagnostics

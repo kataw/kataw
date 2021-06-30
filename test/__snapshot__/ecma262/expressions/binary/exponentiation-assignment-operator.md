@@ -251,7 +251,7 @@
                                             "start": 58,
                                             "end": 59
                                         },
-                                        "flags": 536870944,
+                                        "flags": 96,
                                         "start": 51,
                                         "end": 59
                                     },
@@ -379,7 +379,7 @@
                                             "start": 91,
                                             "end": 92
                                         },
-                                        "flags": 536870944,
+                                        "flags": 268435488,
                                         "start": 82,
                                         "end": 92
                                     },
@@ -1004,7 +1004,7 @@
                                             "end": 281
                                         },
                                         "expression": {
-                                            "kind": 221,
+                                            "kind": 371,
                                             "text": "/x/",
                                             "flags": 96,
                                             "start": 282,
@@ -1288,8 +1288,8 @@
                                                 "formalParameters": [],
                                                 "trailingComma": false,
                                                 "flags": 32,
-                                                "start": 369,
-                                                "end": 371
+                                                "start": 370,
+                                                "end": 370
                                             },
                                             "contents": {
                                                 "kind": 216,
@@ -1369,27 +1369,28 @@
 ```javascript
 
 ({
-  0: a ** b ** c,
-  1: (a ** b) ** c,
-  2: a **= b,
-  3: a.b **= c,
-  4: a[b] **= c,
-  5: a().b **= c,
-  6: a()[b] **= c,
-  7: a[b()] **= c,
-  8: a()[b()] **= c,
-  9: a[0] **= b,
-  10: a[false] **= b,
-  11: a[null] **= b,
-  12: a[void 0] **= b,
-  13: a[123nn] **= b,
-  14: a[this] **= b,
-  15: a[/x/] **= b,
-  16: a[{}] **= b,
-  17: a[[]] **= b,
-  18: a[() =>  {}] **= b,
-  19: a[function () {}] **= b
+  0 : a ** b ** c,
+  1 : (a ** b) ** c,
+  2 : a **= b,
+  3 : a.b **= c,
+  4 : a[b] **= c,
+  5 : a().b **= c,
+  6 : a()[b] **= c,
+  7 : a[b()] **= c,
+  8 : a()[b()] **= c,
+  9 : a[0] **= b,
+  10 : a[false] **= b,
+  11 : a[null] **= b,
+  12 : a[void  0] **= b,
+  13 : a[123n] **= b,
+  14 : a[this] **= b,
+  15 : a[/x/] **= b,
+  16 : a[{}] **= b,
+  17 : a[[]] **= b,
+  18 : a[() =>  { }] **= b,
+  19 : a[function () { }] **= b,
 });
+
 ```
 
 ### Diagnostics

@@ -71,7 +71,8 @@
 
 ```javascript
 
-public = x;
+\u0070ublic = x;
+
 ```
 
 ### Diagnostics

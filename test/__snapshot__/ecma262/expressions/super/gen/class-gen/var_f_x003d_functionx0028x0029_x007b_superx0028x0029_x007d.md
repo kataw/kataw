@@ -128,8 +128,8 @@ class C { *method() { var f = function() { super(); } } }
                                                                     "formalParameters": [],
                                                                     "trailingComma": false,
                                                                     "flags": 32,
-                                                                    "start": 38,
-                                                                    "end": 40
+                                                                    "start": 39,
+                                                                    "end": 39
                                                                 },
                                                                 "contents": {
                                                                     "kind": 216,
@@ -142,13 +142,7 @@ class C { *method() { var f = function() { super(); } } }
                                                                                 "expression": {
                                                                                     "kind": 131,
                                                                                     "expression": {
-                                                                                        "kind": 225,
-                                                                                        "superKeyword": {
-                                                                                            "kind": 4259935,
-                                                                                            "flags": 96,
-                                                                                            "start": 42,
-                                                                                            "end": 48
-                                                                                        },
+                                                                                        "kind": 4259935,
                                                                                         "flags": 96,
                                                                                         "start": 42,
                                                                                         "end": 48

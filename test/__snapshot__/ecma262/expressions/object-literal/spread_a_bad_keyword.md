@@ -67,7 +67,7 @@ x={...new}
                                     "start": 6,
                                     "end": 9
                                 },
-                                "flags": 32,
+                                "flags": 1073741856,
                                 "start": 3,
                                 "end": 9
                             }

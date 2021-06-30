@@ -87,7 +87,9 @@ class extends A{}
 
 ```javascript
 
-class   {}
+class  extends A {
+}
+
 ```
 
 ### Diagnostics

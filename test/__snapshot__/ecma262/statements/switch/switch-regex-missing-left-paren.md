@@ -28,7 +28,7 @@ switch (/a/i {}
                 "end": 6
             },
             "expression": {
-                "kind": 221,
+                "kind": 371,
                 "text": "/a/i",
                 "flags": 96,
                 "start": 6,
@@ -54,7 +54,7 @@ switch (/a/i {}
                 "end": 23
             },
             "expression": {
-                "kind": 221,
+                "kind": 371,
                 "text": "/a/i",
                 "flags": 96,
                 "start": 23,
@@ -80,7 +80,7 @@ switch (/a/i {}
                 "end": 39
             },
             "expression": {
-                "kind": 221,
+                "kind": 371,
                 "text": "/a/i",
                 "flags": 96,
                 "start": 41,

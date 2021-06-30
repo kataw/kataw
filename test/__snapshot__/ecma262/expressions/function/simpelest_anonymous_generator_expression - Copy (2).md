@@ -58,8 +58,8 @@ foo(function*(){})
                                 "formalParameters": [],
                                 "trailingComma": false,
                                 "flags": 32,
-                                "start": 13,
-                                "end": 15
+                                "start": 14,
+                                "end": 14
                             },
                             "contents": {
                                 "kind": 216,
@@ -108,7 +108,8 @@ foo(function*(){})
 
 ```javascript
 
-foo(function * () {});
+foo(function* () { });
+
 ```
 
 ### Diagnostics

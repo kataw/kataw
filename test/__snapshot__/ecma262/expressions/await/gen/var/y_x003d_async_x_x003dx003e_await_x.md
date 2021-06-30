@@ -107,8 +107,8 @@ var await; var f = (async function() { y = async x => await x });
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 32,
-                                    "start": 34,
-                                    "end": 36
+                                    "start": 35,
+                                    "end": 35
                                 },
                                 "contents": {
                                     "kind": 216,
@@ -236,9 +236,8 @@ var await; var f = (async function() { y = async x => await x });
 ```javascript
 
 var await;
-var f = (async function () {
-    y = async x =>  await x;
-  });
+var f = (async function () { y = async x => await x; });
+
 ```
 
 ### Diagnostics

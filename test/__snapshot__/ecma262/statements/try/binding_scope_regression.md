@@ -209,10 +209,12 @@
   let AAAAAAAAAAAAAAAAAAAA;
   try {
     AAAAAAAAAAAAAAAAAAAA = false;
-  } catch {
+  }
+  catch {
     AAAAAAAAAAAAAAAAAAAA = false;
   }
 }
+
 ```
 
 ### Diagnostics

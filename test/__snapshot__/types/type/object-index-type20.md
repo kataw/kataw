@@ -56,6 +56,7 @@ type LinkedList<Type> = Type & { next: LinkedList<Type> };
                                 "end": 20
                             },
                             "type": null,
+                            "assignToken": null,
                             "defaultType": null,
                             "flags": 2097152,
                             "start": 16,
@@ -105,7 +106,7 @@ type LinkedList<Type> = Type & { next: LinkedList<Type> };
                                 {
                                     "kind": 193,
                                     "protoKeyword": null,
-                                    "staticToken": null,
+                                    "staticKeyword": null,
                                     "getKeyword": null,
                                     "setKeyword": null,
                                     "key": {
@@ -214,6 +215,7 @@ type LinkedList<Type> = Type & { next: LinkedList<Type> };
 
 ```javascript
 
+type LinkedList<Type> = Type & { next: LinkedList<Type> }
 
 ```
 

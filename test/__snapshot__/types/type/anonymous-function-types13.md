@@ -82,6 +82,7 @@ var f = (x): | 1 | 2 => 1;
                                         {
                                             "kind": 134217968,
                                             "text": 1,
+                                            "rawText": "1",
                                             "flags": 2097216,
                                             "start": 14,
                                             "end": 16
@@ -89,6 +90,7 @@ var f = (x): | 1 | 2 => 1;
                                         {
                                             "kind": 134217968,
                                             "text": 2,
+                                            "rawText": "2",
                                             "flags": 2097216,
                                             "start": 18,
                                             "end": 20
@@ -147,7 +149,8 @@ var f = (x): | 1 | 2 => 1;
 
 ```javascript
 
-var f = () =>  1;
+var f = (x) => 1;
+
 ```
 
 ### Diagnostics

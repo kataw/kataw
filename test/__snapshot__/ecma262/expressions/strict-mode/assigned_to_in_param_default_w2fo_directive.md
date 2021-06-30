@@ -118,7 +118,8 @@
 
 ```javascript
 
-() =>  {};
+(x = interface = 10) =>  { };
+
 ```
 
 ### Diagnostics

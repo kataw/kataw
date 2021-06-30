@@ -97,8 +97,8 @@
                             ],
                             "trailingComma": false,
                             "flags": 32,
-                            "start": 12,
-                            "end": 24
+                            "start": 13,
+                            "end": 23
                         },
                         "contents": {
                             "kind": 216,

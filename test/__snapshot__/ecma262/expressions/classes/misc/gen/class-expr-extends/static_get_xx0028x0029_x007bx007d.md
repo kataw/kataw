@@ -160,9 +160,10 @@
 
 ```javascript
 
-(class   {
-    static get static x() {}
-  });
+(class  extends Base {
+  static get x() { }
+});
+
 ```
 
 ### Diagnostics

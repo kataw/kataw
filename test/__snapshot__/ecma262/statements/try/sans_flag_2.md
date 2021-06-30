@@ -79,7 +79,7 @@ try {} catch (e) {}
         {
             "kind": 120,
             "expression": {
-                "kind": 221,
+                "kind": 371,
                 "text": "/foo/g",
                 "flags": 96,
                 "start": 19,
@@ -103,10 +103,10 @@ try {} catch (e) {}
 
 ```javascript
 
-try {
-} catch (e) {
-}
+try { }
+catch (e){ }
 /foo/g;
+
 ```
 
 ### Diagnostics

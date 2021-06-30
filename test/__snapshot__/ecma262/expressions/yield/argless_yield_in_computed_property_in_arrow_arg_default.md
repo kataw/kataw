@@ -143,8 +143,9 @@
 ```javascript
 
 {
-  () =>  z;
+  (x = { [yield] : 1 }) => z;
 }
+
 ```
 
 ### Diagnostics

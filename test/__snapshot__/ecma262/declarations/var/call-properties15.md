@@ -55,7 +55,7 @@ var g: { (x: Date): void } = (x) => { x * 2 } // param type (date < number)
                                     {
                                         "kind": 196,
                                         "protoKeyword": null,
-                                        "staticToken": null,
+                                        "staticKeyword": null,
                                         "typeParameter": null,
                                         "value": {
                                             "kind": 282,
@@ -241,9 +241,8 @@ var g: { (x: Date): void } = (x) => { x * 2 } // param type (date < number)
 
 ```javascript
 
-var g:  = () =>  {
-  x * 2;
-}; // param type (date < number)
+var g: { (x: Date): void } = (x) =>  { x * 2; };// param type (date < number)
+
 ```
 
 ### Diagnostics

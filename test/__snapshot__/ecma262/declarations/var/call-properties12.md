@@ -117,8 +117,8 @@ var z : Object = function (x: number): string { return "hi"; };
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
-                                "start": 25,
-                                "end": 37
+                                "start": 27,
+                                "end": 36
                             },
                             "contents": {
                                 "kind": 216,
@@ -200,9 +200,8 @@ var z : Object = function (x: number): string { return "hi"; };
 
 ```javascript
 
-var z:  = function (): string {
-  return  "\"hi\"";
-};
+var z: Object = function (x: number): string { return "\"hi\""; };
+
 ```
 
 ### Diagnostics

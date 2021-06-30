@@ -73,8 +73,9 @@ x /* comment 3 */ : /* comment 4 */  y; /* comment 5 */
 ```javascript
 /* comment 1 */
 /* comment 2 */
+x/* comment 3 */:/* comment 4 */ y;/* comment 5 */
+ /* comment 6 */
 
-x /* comment 3 */: y; /* comment 5 */
 ```
 
 ### Diagnostics

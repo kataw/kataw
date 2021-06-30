@@ -136,8 +136,8 @@ for (const {...x} in y){}
 
 for (const {
   ...x
-}; in y)
-  {}
+} in y) { }
+
 ```
 
 ### Diagnostics

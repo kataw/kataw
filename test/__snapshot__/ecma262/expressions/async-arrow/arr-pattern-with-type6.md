@@ -186,7 +186,8 @@ async ([{x}: string], y, z: string) =>  {};
 
 ```javascript
 
-async  =>  {}
+async ([{ x }: string], y, z: string) =>  { }
+;
 
 ```
 

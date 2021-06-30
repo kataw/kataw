@@ -58,6 +58,7 @@ type ConstantExpr<T> = Expr<Constant> | LiteralExpr<T>;
                                 "end": 11
                             },
                             "type": null,
+                            "assignToken": null,
                             "defaultType": null,
                             "flags": 2097152,
                             "start": 10,
@@ -236,6 +237,7 @@ type ConstantExpr<T> = Expr<Constant> | LiteralExpr<T>;
                                 "end": 66
                             },
                             "type": null,
+                            "assignToken": null,
                             "defaultType": null,
                             "flags": 2097152,
                             "start": 65,
@@ -395,7 +397,8 @@ type ConstantExpr<T> = Expr<Constant> | LiteralExpr<T>;
 
 ```javascript
 
-
+type Expr<T> = FieldExpr<T> | LiteralExpr<T>
+type ConstantExpr<T> = Expr<Constant> | LiteralExpr<T>
 
 ```
 

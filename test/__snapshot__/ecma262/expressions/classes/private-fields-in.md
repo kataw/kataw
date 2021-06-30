@@ -61,7 +61,7 @@ class C {
                             "kind": 280,
                             "decorators": null,
                             "declaredToken": null,
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "asyncKeyword": null,
                             "key": {
                                 "kind": 134299649,
@@ -79,8 +79,8 @@ class C {
                             "end": 18
                         },
                         {
-                            "kind": 317,
-                            "flags": 96,
+                            "kind": 1108353041,
+                            "flags": 64,
                             "start": 18,
                             "end": 19
                         },
@@ -405,14 +405,15 @@ class C {
 ```javascript
 
 class C {
-  #brand;
-
-  #method() {}
-  get #getter() {}
-  static static isC() {
-    return  #brand in obj && #method in obj && #getter in obj;
+  #brand
+  ;
+  #method() { }
+  get #getter() { }
+  static isC(obj) {
+    return #brand in obj && #method in obj && #getter in obj;
   }
 }
+
 ```
 
 ### Diagnostics

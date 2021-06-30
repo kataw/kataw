@@ -141,7 +141,9 @@
 
 ```javascript
 
+'\'use strict\'';
 let [a, b, ...rest] = {};
+
 ```
 
 ### Diagnostics

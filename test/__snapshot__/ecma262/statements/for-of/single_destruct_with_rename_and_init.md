@@ -137,7 +137,9 @@ for (let {x : y = z} of obj);
 
 for (let {
   x: y = z
-}; of obj);
+} of obj)
+  ;
+
 ```
 
 ### Diagnostics

@@ -57,7 +57,7 @@
                                     "start": 18,
                                     "end": 23
                                 },
-                                "flags": 32,
+                                "flags": 1073741856,
                                 "start": 15,
                                 "end": 23
                             }
@@ -107,7 +107,9 @@
 
 ```javascript
 
+"\"use strict\"";
 [...await] = obj;
+
 ```
 
 ### Diagnostics

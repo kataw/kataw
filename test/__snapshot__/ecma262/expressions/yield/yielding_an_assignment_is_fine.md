@@ -54,8 +54,8 @@ function* g(x) { yield x = 3; }
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 11,
-                "end": 14
+                "start": 12,
+                "end": 13
             },
             "contents": {
                 "kind": 216,
@@ -139,9 +139,8 @@ function* g(x) { yield x = 3; }
 
 ```javascript
 
-function * g() {
-  yield x = 3;
-}
+function* g(x) { yield x = 3; }
+
 ```
 
 ### Diagnostics

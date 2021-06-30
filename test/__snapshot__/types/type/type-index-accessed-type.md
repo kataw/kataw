@@ -107,6 +107,7 @@ type Age = typeof MyArray[number]["age"];
                         "type": {
                             "kind": 134217967,
                             "text": "age",
+                            "rawText": "\"age\"",
                             "flags": 2097216,
                             "start": 34,
                             "end": 39
@@ -141,6 +142,7 @@ type Age = typeof MyArray[number]["age"];
 
 ```javascript
 
+type Age = typeof MyArray[number]["\"age\""]
 
 ```
 

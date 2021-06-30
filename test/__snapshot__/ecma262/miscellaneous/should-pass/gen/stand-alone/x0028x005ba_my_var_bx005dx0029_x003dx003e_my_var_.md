@@ -39,11 +39,11 @@
                                 "elements": [
                                     {
                                         "kind": 134299649,
-                                        "text": "b",
-                                        "rawText": "b",
+                                        "text": "a",
+                                        "rawText": "a",
                                         "flags": 96,
-                                        "start": 12,
-                                        "end": 14
+                                        "start": 2,
+                                        "end": 3
                                     },
                                     {
                                         "kind": 134299649,
@@ -55,11 +55,11 @@
                                     },
                                     {
                                         "kind": 134299649,
-                                        "text": "a",
-                                        "rawText": "a",
+                                        "text": "b",
+                                        "rawText": "b",
                                         "flags": 96,
-                                        "start": 2,
-                                        "end": 3
+                                        "start": 12,
+                                        "end": 14
                                     }
                                 ],
                                 "trailingComma": false,
@@ -114,7 +114,8 @@
 
 ```javascript
 
-() =>  my_var;
+([a, my_var, b]) => my_var;
+
 ```
 
 ### Diagnostics

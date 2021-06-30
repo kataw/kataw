@@ -104,7 +104,8 @@
 
 ```javascript
 
-[y / [] = x];
+[y / [] = x,];
+
 ```
 
 ### Diagnostics

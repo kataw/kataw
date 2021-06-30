@@ -100,8 +100,8 @@ class x { constructor(){ function f(){ super[bar]; } }}
                                                     "formalParameters": [],
                                                     "trailingComma": false,
                                                     "flags": 32,
-                                                    "start": 35,
-                                                    "end": 37
+                                                    "start": 36,
+                                                    "end": 36
                                                 },
                                                 "contents": {
                                                     "kind": 216,
@@ -114,13 +114,7 @@ class x { constructor(){ function f(){ super[bar]; } }}
                                                                 "expression": {
                                                                     "kind": 130,
                                                                     "member": {
-                                                                        "kind": 225,
-                                                                        "superKeyword": {
-                                                                            "kind": 4259935,
-                                                                            "flags": 96,
-                                                                            "start": 38,
-                                                                            "end": 44
-                                                                        },
+                                                                        "kind": 4259935,
                                                                         "flags": 96,
                                                                         "start": 38,
                                                                         "end": 44

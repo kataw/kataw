@@ -183,7 +183,8 @@
 
 ```javascript
 
-() =>  () =>  x * u + y * v;
+(x, y) => (u, v) => x * u + y * v;
+
 ```
 
 ### Diagnostics

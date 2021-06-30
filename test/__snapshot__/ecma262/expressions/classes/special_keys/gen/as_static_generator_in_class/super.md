@@ -137,8 +137,9 @@ class x {static * super(){}}
 ```javascript
 
 class x {
-  static static super() {}
+  static *super() { }
 }
+
 ```
 
 ### Diagnostics

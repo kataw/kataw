@@ -45,8 +45,8 @@ function *g() { yield {...(x),}}
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 11,
-                "end": 13
+                "start": 12,
+                "end": 12
             },
             "contents": {
                 "kind": 216,
@@ -93,7 +93,7 @@ function *g() { yield {...(x),}}
                                                     "start": 26,
                                                     "end": 29
                                                 },
-                                                "flags": 32,
+                                                "flags": 1073741856,
                                                 "start": 23,
                                                 "end": 29
                                             }
@@ -143,9 +143,8 @@ function *g() { yield {...(x),}}
 
 ```javascript
 
-function * g() {
-  yield { ...(x) };
-}
+function* g() { yield { ...(x) }; }
+
 ```
 
 ### Diagnostics

@@ -114,9 +114,8 @@ async () => {  \u0070ublic = x  }
 
 ```javascript
 
-async  =>  {
-  public = x;
-}
+async () =>  { \u0070ublic = x; }
+
 ```
 
 ### Diagnostics

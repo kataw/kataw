@@ -124,6 +124,7 @@ type A = ?(?B)
 
 ```javascript
 
+type A = ?(?B)
 
 ```
 

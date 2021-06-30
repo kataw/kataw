@@ -114,13 +114,7 @@ x={ dsda(){ return async function(a=super.foo){} }}
                                                                     "right": {
                                                                         "kind": 129,
                                                                         "member": {
-                                                                            "kind": 225,
-                                                                            "superKeyword": {
-                                                                                "kind": 4259935,
-                                                                                "flags": 96,
-                                                                                "start": 36,
-                                                                                "end": 41
-                                                                            },
+                                                                            "kind": 4259935,
                                                                             "flags": 96,
                                                                             "start": 36,
                                                                             "end": 41
@@ -133,7 +127,7 @@ x={ dsda(){ return async function(a=super.foo){} }}
                                                                             "start": 42,
                                                                             "end": 45
                                                                         },
-                                                                        "flags": 536870944,
+                                                                        "flags": 96,
                                                                         "start": 36,
                                                                         "end": 45
                                                                     },
@@ -144,8 +138,8 @@ x={ dsda(){ return async function(a=super.foo){} }}
                                                             ],
                                                             "trailingComma": false,
                                                             "flags": 34,
-                                                            "start": 33,
-                                                            "end": 46
+                                                            "start": 34,
+                                                            "end": 45
                                                         },
                                                         "contents": {
                                                             "kind": 216,

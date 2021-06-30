@@ -85,6 +85,7 @@ await
 ```javascript
 
 await / x / g;
+
 ```
 
 ### Diagnostics

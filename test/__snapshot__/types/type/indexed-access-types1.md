@@ -75,6 +75,7 @@ type A = Obj['a'];
                         "type": {
                             "kind": 134217967,
                             "text": "a",
+                            "rawText": "'a'",
                             "flags": 2097216,
                             "start": 13,
                             "end": 16
@@ -109,6 +110,7 @@ type A = Obj['a'];
 
 ```javascript
 
+type A = Obj["'a'"]
 
 ```
 

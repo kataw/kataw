@@ -106,7 +106,8 @@
 
 ```javascript
 
-[a inctanceof b + c];
+[a instanceof b + c,];
+
 ```
 
 ### Diagnostics

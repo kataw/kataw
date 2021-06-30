@@ -114,9 +114,8 @@ async () => {  a\u0072guments = x  }
 
 ```javascript
 
-async  =>  {
-  arguments = x;
-}
+async () =>  { a\u0072guments = x; }
+
 ```
 
 ### Diagnostics

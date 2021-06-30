@@ -137,8 +137,9 @@ class x {static * interface(){}}
 ```javascript
 
 class x {
-  static static interface() {}
+  static *interface() { }
 }
+
 ```
 
 ### Diagnostics

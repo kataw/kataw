@@ -47,8 +47,8 @@ while (function* () {} === x);
                         "formalParameters": [],
                         "trailingComma": false,
                         "flags": 32,
-                        "start": 16,
-                        "end": 19
+                        "start": 18,
+                        "end": 18
                     },
                     "contents": {
                         "kind": 216,
@@ -111,7 +111,9 @@ while (function* () {} === x);
 
 ```javascript
 
-while (function * () {} === x);
+while (function* () { } === x)
+  ;
+
 ```
 
 ### Diagnostics

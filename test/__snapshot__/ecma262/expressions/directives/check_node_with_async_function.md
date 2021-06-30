@@ -45,8 +45,8 @@ async function f() { "use strict"; }
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 16,
-                "end": 18
+                "start": 17,
+                "end": 17
             },
             "contents": {
                 "kind": 216,
@@ -90,7 +90,10 @@ async function f() { "use strict"; }
 
 ```javascript
 
-async function f() {}
+async function f() {
+"\"use strict\"";
+}
+
 ```
 
 ### Diagnostics

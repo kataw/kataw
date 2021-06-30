@@ -57,7 +57,7 @@ type X = {[|(x) =>x&symbol]: string,};
                         {
                             "kind": 195,
                             "protoKeyword": null,
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "name": null,
                             "key": {
                                 "kind": 139,
@@ -201,6 +201,7 @@ type X = {[|(x) =>x&symbol]: string,};
 
 ```javascript
 
+type X = { [| (x) => x & symbol]: string }
 
 ```
 

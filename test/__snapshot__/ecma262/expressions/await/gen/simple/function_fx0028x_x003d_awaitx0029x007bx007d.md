@@ -74,8 +74,8 @@ function f(x = await){}
                 ],
                 "trailingComma": false,
                 "flags": 34,
-                "start": 10,
-                "end": 21
+                "start": 11,
+                "end": 20
             },
             "contents": {
                 "kind": 216,
@@ -110,7 +110,8 @@ function f(x = await){}
 
 ```javascript
 
-function f() {}
+function f(x = await) { }
+
 ```
 
 ### Diagnostics

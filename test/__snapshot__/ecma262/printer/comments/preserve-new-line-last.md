@@ -60,8 +60,8 @@ function name() {
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 10,
-                "end": 12
+                "start": 11,
+                "end": 11
             },
             "contents": {
                 "kind": 216,
@@ -122,8 +122,8 @@ function name() {
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 55,
-                "end": 57
+                "start": 56,
+                "end": 56
             },
             "contents": {
                 "kind": 216,
@@ -184,8 +184,8 @@ function name() {
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 104,
-                "end": 106
+                "start": 105,
+                "end": 105
             },
             "contents": {
                 "kind": 216,
@@ -279,16 +279,21 @@ function name() {
 
 function f() {
   a;
+ /* eslint-disable */
 }
 function f() {
   a;
+ /* eslint-disable */
 }
 function name() {
-  // comment1
+   // comment1
   func1();
-  // comment2
+   // comment2
   func2();
+ // comment3 why func3 commented
+// func3()
 }
+
 ```
 
 ### Diagnostics

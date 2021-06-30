@@ -77,7 +77,9 @@ for (arguments in x) ;
 
 ```javascript
 
-for (arguments in x);
+for (arguments in x)
+  ;
+
 ```
 
 ### Diagnostics

@@ -137,8 +137,9 @@ class x {async * for(){}}
 ```javascript
 
 class x {
-  async for() {}
+  async *for() { }
 }
+
 ```
 
 ### Diagnostics

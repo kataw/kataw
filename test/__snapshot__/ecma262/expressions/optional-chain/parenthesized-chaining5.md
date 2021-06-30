@@ -105,7 +105,8 @@
 
 ```javascript
 
-()(c);
+(a?.[b])(c);
+
 ```
 
 ### Diagnostics

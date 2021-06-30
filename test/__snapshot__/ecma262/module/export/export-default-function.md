@@ -53,8 +53,8 @@ export default function () {}
                     "formalParameters": [],
                     "trailingComma": false,
                     "flags": 32,
-                    "start": 23,
-                    "end": 26
+                    "start": 25,
+                    "end": 25
                 },
                 "contents": {
                     "kind": 216,
@@ -93,7 +93,8 @@ export default function () {}
 
 ```javascript
 
-export default function () {};
+export default function () { };
+
 ```
 
 ### Diagnostics

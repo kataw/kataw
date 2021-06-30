@@ -204,7 +204,9 @@ var x, y, z; for (x of {var: x} = {});
 ```javascript
 
 var x, y, z;
-for (x of { var: x } = {});
+for (x of { var : x } = {})
+  ;
+
 ```
 
 ### Diagnostics

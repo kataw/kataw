@@ -57,7 +57,7 @@ type a = {[(((-1) => [c|d]))]:string};
                         {
                             "kind": 195,
                             "protoKeyword": null,
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "name": null,
                             "key": {
                                 "kind": 139,
@@ -88,6 +88,7 @@ type a = {[(((-1) => [c|d]))]:string};
                                                                 "end": 15
                                                             },
                                                             "text": 1,
+                                                            "rawText": "1",
                                                             "flags": 2097216,
                                                             "start": 14,
                                                             "end": 16
@@ -233,6 +234,7 @@ type a = {[(((-1) => [c|d]))]:string};
 
 ```javascript
 
+type a = { [((-1) => [c | d])]: string }
 
 ```
 

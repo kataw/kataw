@@ -100,8 +100,8 @@ class x { fo(){ return function() { super.foo; } }}
                                                         "formalParameters": [],
                                                         "trailingComma": false,
                                                         "flags": 32,
-                                                        "start": 31,
-                                                        "end": 33
+                                                        "start": 32,
+                                                        "end": 32
                                                     },
                                                     "contents": {
                                                         "kind": 216,
@@ -114,13 +114,7 @@ class x { fo(){ return function() { super.foo; } }}
                                                                     "expression": {
                                                                         "kind": 129,
                                                                         "member": {
-                                                                            "kind": 225,
-                                                                            "superKeyword": {
-                                                                                "kind": 4259935,
-                                                                                "flags": 96,
-                                                                                "start": 35,
-                                                                                "end": 41
-                                                                            },
+                                                                            "kind": 4259935,
                                                                             "flags": 96,
                                                                             "start": 35,
                                                                             "end": 41
@@ -133,7 +127,7 @@ class x { fo(){ return function() { super.foo; } }}
                                                                             "start": 42,
                                                                             "end": 45
                                                                         },
-                                                                        "flags": 536870944,
+                                                                        "flags": 96,
                                                                         "start": 35,
                                                                         "end": 45
                                                                     },

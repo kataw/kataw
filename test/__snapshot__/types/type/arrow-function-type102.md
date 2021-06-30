@@ -211,6 +211,7 @@ type a = ((x?:string )=> T) => T;
 
 ```javascript
 
+type a = (((x?: string) => T) => T)
 
 ```
 

@@ -45,8 +45,8 @@ function *g() {yield {     ...yield yield    };}
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 11,
-                "end": 13
+                "start": 12,
+                "end": 12
             },
             "contents": {
                 "kind": 216,
@@ -108,7 +108,7 @@ function *g() {yield {     ...yield yield    };}
                                                     "start": 30,
                                                     "end": 41
                                                 },
-                                                "flags": 32,
+                                                "flags": 1073741856,
                                                 "start": 22,
                                                 "end": 41
                                             }
@@ -158,9 +158,8 @@ function *g() {yield {     ...yield yield    };}
 
 ```javascript
 
-function * g() {
-  yield { ...yield  yield };
-}
+function* g() { yield { ...yield yield }; }
+
 ```
 
 ### Diagnostics

@@ -62,8 +62,8 @@
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 26,
-                "end": 28
+                "start": 27,
+                "end": 27
             },
             "contents": {
                 "kind": 216,
@@ -118,8 +118,8 @@
                                                 "formalParameters": [],
                                                 "trailingComma": false,
                                                 "flags": 32,
-                                                "start": 54,
-                                                "end": 56
+                                                "start": 55,
+                                                "end": 55
                                             },
                                             "contents": {
                                                 "kind": 216,
@@ -181,9 +181,9 @@
 
 ```javascript
 
-function * gf() {
-  var fe = function yield() {};
-}
+'\'use strict\'';
+function* gf() { var fe = function yield() { }; }
+
 ```
 
 ### Diagnostics

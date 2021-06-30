@@ -324,8 +324,11 @@
 
 ```javascript
 
+'\'use strict\'';
 let x, y, z;
-for (x of x = { z: { __proto__: x, __proto__: y } = z } = z = {});
+for (x of x = { z : { __proto__ : x, __proto__ : y } = z } = z = {})
+  ;
+
 ```
 
 ### Diagnostics

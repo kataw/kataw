@@ -106,7 +106,10 @@ async ({await = x}) => x
 
 ```javascript
 
-async  =>  x
+async ({
+    await = x
+  }) => x
+
 ```
 
 ### Diagnostics

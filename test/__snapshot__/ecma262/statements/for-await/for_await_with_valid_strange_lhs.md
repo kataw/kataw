@@ -45,8 +45,8 @@ async function f() { for await ("foo".x of y) {} }
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 16,
-                "end": 18
+                "start": 17,
+                "end": 17
             },
             "contents": {
                 "kind": 216,
@@ -86,7 +86,7 @@ async function f() { for await ("foo".x of y) {} }
                                     "start": 38,
                                     "end": 39
                                 },
-                                "flags": 536870944,
+                                "flags": 96,
                                 "start": 32,
                                 "end": 39
                             },
@@ -149,11 +149,8 @@ async function f() { for await ("foo".x of y) {} }
 
 ```javascript
 
-async function f() {
-  for await ("\"foo\"".x of y)
-    {
-    }
-}
+async function f() { for await ("\"foo\"".x of y) { } }
+
 ```
 
 ### Diagnostics

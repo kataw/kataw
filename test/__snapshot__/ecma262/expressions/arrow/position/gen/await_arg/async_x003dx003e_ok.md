@@ -55,8 +55,8 @@ async function f() {
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 16,
-                "end": 18
+                "start": 17,
+                "end": 17
             },
             "contents": {
                 "kind": 216,
@@ -76,12 +76,7 @@ async function f() {
                                 },
                                 "expression": {
                                     "kind": 271,
-                                    "asyncKeyword": {
-                                        "kind": 82031,
-                                        "flags": 64,
-                                        "start": 28,
-                                        "end": 34
-                                    },
+                                    "asyncKeyword": null,
                                     "typeParameters": null,
                                     "arrowPatameterList": {
                                         "kind": 134299649,
@@ -147,8 +142,9 @@ async function f() {
 ```javascript
 
 async function f() {
-  await async async =>  ok;
+  await async => ok;
 }
+
 ```
 
 ### Diagnostics

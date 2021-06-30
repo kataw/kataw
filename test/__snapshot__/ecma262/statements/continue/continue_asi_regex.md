@@ -67,7 +67,7 @@ for (x of 3) continue
         {
             "kind": 120,
             "expression": {
-                "kind": 221,
+                "kind": 371,
                 "text": "/x/d",
                 "flags": 96,
                 "start": 21,
@@ -94,6 +94,7 @@ for (x of 3) continue
 for (x of 3)
   continue;
 /x/d;
+
 ```
 
 ### Diagnostics

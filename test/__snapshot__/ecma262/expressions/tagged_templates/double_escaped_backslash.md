@@ -86,8 +86,9 @@ tag`\\\ `;
 
 ```javascript
 
-tag` \`;
-tag`\ `;
+tag`\ \\`;
+tag`\\\ `;
+
 ```
 
 ### Diagnostics

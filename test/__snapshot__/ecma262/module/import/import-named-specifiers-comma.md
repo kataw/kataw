@@ -128,7 +128,8 @@ import {bar, baz,} from "foo";
 
 ```javascript
 
-import { bar, baz }  ;
+import {  bar,  baz, } from "\"foo\"";
+
 ```
 
 ### Diagnostics

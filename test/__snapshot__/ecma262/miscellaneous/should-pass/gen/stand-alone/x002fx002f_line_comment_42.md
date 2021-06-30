@@ -53,8 +53,8 @@
 
 ```javascript
 // line comment
-
 42;
+
 ```
 
 ### Diagnostics

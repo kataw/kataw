@@ -104,7 +104,7 @@ for (((x)=>{}).x in y);
                     "start": 15,
                     "end": 16
                 },
-                "flags": 536870944,
+                "flags": 32,
                 "start": 5,
                 "end": 16
             },
@@ -146,7 +146,9 @@ for (((x)=>{}).x in y);
 
 ```javascript
 
-for ((() =>  {}).x in y);
+for (((x) =>  { }).x in y)
+  ;
+
 ```
 
 ### Diagnostics

@@ -141,8 +141,9 @@ class x {set interface(x){}}
 ```javascript
 
 class x {
-  set interface() {}
+  set interface(x) { }
 }
+
 ```
 
 ### Diagnostics

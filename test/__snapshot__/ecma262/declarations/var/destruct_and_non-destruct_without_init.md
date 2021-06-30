@@ -124,6 +124,7 @@ var [foo] = arr, bar;
 ```javascript
 
 var [foo] = arr, bar;
+
 ```
 
 ### Diagnostics

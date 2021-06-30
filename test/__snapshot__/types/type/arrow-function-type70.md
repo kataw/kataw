@@ -459,6 +459,7 @@ type a = (((symbol[][][][] | ((y & [((x) => T)]) => T) => T) => T) => T) => T;
 
 ```javascript
 
+type a = (((symbol[][][][] | ((y & [((x) => T)]) => T) => T) => T) => T) => T
 
 ```
 

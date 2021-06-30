@@ -131,7 +131,8 @@ async (x = (package) = f) => {}
 
 ```javascript
 
-async  =>  {}
+async (x = (package) = f) =>  { }
+
 ```
 
 ### Diagnostics

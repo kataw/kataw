@@ -79,13 +79,7 @@ class x { foo(x=super[foo]){ }}
                                             "right": {
                                                 "kind": 130,
                                                 "member": {
-                                                    "kind": 225,
-                                                    "superKeyword": {
-                                                        "kind": 4259935,
-                                                        "flags": 96,
-                                                        "start": 16,
-                                                        "end": 21
-                                                    },
+                                                    "kind": 4259935,
                                                     "flags": 96,
                                                     "start": 16,
                                                     "end": 21
@@ -163,8 +157,9 @@ class x { foo(x=super[foo]){ }}
 ```javascript
 
 class x {
-  foo() {}
+  foo(x = super[foo]) { }
 }
+
 ```
 
 ### Diagnostics

@@ -118,6 +118,7 @@ for ({}[b] in c) d;
 
 for ({}[b] in c)
   d;
+
 ```
 
 ### Diagnostics

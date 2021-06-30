@@ -55,8 +55,8 @@ do h(function(){});while(x)
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 32,
-                                    "start": 13,
-                                    "end": 15
+                                    "start": 14,
+                                    "end": 14
                                 },
                                 "contents": {
                                     "kind": 216,
@@ -123,8 +123,9 @@ do h(function(){});while(x)
 
 ```javascript
 
-do h(function () {});
-while (x);
+do
+  h(function () { }); while (x)
+
 ```
 
 ### Diagnostics

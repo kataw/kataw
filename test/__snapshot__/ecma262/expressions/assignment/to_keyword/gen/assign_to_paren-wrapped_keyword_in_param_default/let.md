@@ -131,7 +131,8 @@ async (x = (let) = f) => {}
 
 ```javascript
 
-async  =>  {}
+async (x = (let) = f) =>  { }
+
 ```
 
 ### Diagnostics

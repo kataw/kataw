@@ -102,6 +102,7 @@ let [enum] = [];
 ```javascript
 
 let [enum] = [];
+
 ```
 
 ### Diagnostics

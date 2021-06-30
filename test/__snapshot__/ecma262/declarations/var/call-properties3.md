@@ -84,7 +84,7 @@ var z : Object = (x) => "hi"
                                     {
                                         "kind": 193,
                                         "protoKeyword": null,
-                                        "staticToken": null,
+                                        "staticKeyword": null,
                                         "getKeyword": null,
                                         "setKeyword": null,
                                         "key": {
@@ -141,8 +141,8 @@ var z : Object = (x) => "hi"
                                 "formalParameters": [],
                                 "trailingComma": false,
                                 "flags": 32,
-                                "start": 99,
-                                "end": 102
+                                "start": 101,
+                                "end": 101
                             },
                             "contents": {
                                 "kind": 216,
@@ -208,7 +208,7 @@ var z : Object = (x) => "hi"
                                     {
                                         "kind": 193,
                                         "protoKeyword": null,
-                                        "staticToken": null,
+                                        "staticKeyword": null,
                                         "getKeyword": null,
                                         "setKeyword": null,
                                         "key": {
@@ -274,8 +274,8 @@ var z : Object = (x) => "hi"
                                 "formalParameters": [],
                                 "trailingComma": false,
                                 "flags": 32,
-                                "start": 199,
-                                "end": 202
+                                "start": 201,
+                                "end": 201
                             },
                             "contents": {
                                 "kind": 216,
@@ -349,8 +349,8 @@ var z : Object = (x) => "hi"
                                 "formalParameters": [],
                                 "trailingComma": false,
                                 "flags": 32,
-                                "start": 288,
-                                "end": 291
+                                "start": 290,
+                                "end": 290
                             },
                             "contents": {
                                 "kind": 216,
@@ -406,7 +406,7 @@ var z : Object = (x) => "hi"
                         "start": 298,
                         "end": 304
                     },
-                    "flags": 536870944,
+                    "flags": 96,
                     "start": 295,
                     "end": 304
                 },
@@ -464,7 +464,7 @@ var z : Object = (x) => "hi"
                                     {
                                         "kind": 193,
                                         "protoKeyword": null,
-                                        "staticToken": null,
+                                        "staticKeyword": null,
                                         "getKeyword": null,
                                         "setKeyword": null,
                                         "key": {
@@ -557,7 +557,7 @@ var z : Object = (x) => "hi"
                                     {
                                         "kind": 196,
                                         "protoKeyword": null,
-                                        "staticToken": null,
+                                        "staticKeyword": null,
                                         "typeParameter": null,
                                         "value": {
                                             "kind": 282,
@@ -674,7 +674,7 @@ var z : Object = (x) => "hi"
                                         "start": 387,
                                         "end": 395
                                     },
-                                    "flags": 536870944,
+                                    "flags": 96,
                                     "start": 384,
                                     "end": 395
                                 },
@@ -739,7 +739,7 @@ var z : Object = (x) => "hi"
                                     {
                                         "kind": 196,
                                         "protoKeyword": null,
-                                        "staticToken": null,
+                                        "staticKeyword": null,
                                         "typeParameter": null,
                                         "value": {
                                             "kind": 282,
@@ -893,7 +893,7 @@ var z : Object = (x) => "hi"
                                     {
                                         "kind": 196,
                                         "protoKeyword": null,
-                                        "staticToken": null,
+                                        "staticKeyword": null,
                                         "typeParameter": null,
                                         "value": {
                                             "kind": 282,
@@ -1010,7 +1010,7 @@ var z : Object = (x) => "hi"
                                         "start": 580,
                                         "end": 587
                                     },
-                                    "flags": 536870944,
+                                    "flags": 96,
                                     "start": 577,
                                     "end": 587
                                 },
@@ -1075,7 +1075,7 @@ var z : Object = (x) => "hi"
                                     {
                                         "kind": 196,
                                         "protoKeyword": null,
-                                        "staticToken": null,
+                                        "staticKeyword": null,
                                         "typeParameter": null,
                                         "value": {
                                             "kind": 282,
@@ -1198,7 +1198,7 @@ var z : Object = (x) => "hi"
                                     {
                                         "kind": 196,
                                         "protoKeyword": null,
-                                        "staticToken": null,
+                                        "staticKeyword": null,
                                         "typeParameter": null,
                                         "value": {
                                             "kind": 282,
@@ -1349,7 +1349,7 @@ var z : Object = (x) => "hi"
                                     {
                                         "kind": 196,
                                         "protoKeyword": null,
-                                        "staticToken": null,
+                                        "staticKeyword": null,
                                         "typeParameter": null,
                                         "value": {
                                             "kind": 282,
@@ -1472,7 +1472,7 @@ var z : Object = (x) => "hi"
                                     {
                                         "kind": 196,
                                         "protoKeyword": null,
-                                        "staticToken": null,
+                                        "staticKeyword": null,
                                         "typeParameter": null,
                                         "value": {
                                             "kind": 282,
@@ -1847,33 +1847,28 @@ var z : Object = (x) => "hi"
 
 ```javascript
 // Expecting properties that don't exist should be an error
-
-var a:  = function () {};
-// Expecting properties that do exist should be fine
-var b:  = function () {};
-// Expecting properties in the functions statics should be fine
-var f = function () {};
+var a: { someProp: number } = function () { };
+ // Expecting properties that do exist should be fine
+var b: { apply: Function } = function () { };
+ // Expecting properties in the functions statics should be fine
+var f = function () { };
 f.myProp = 123;
-var c:  = f;
-var a:  = () =>  x.toString();
-// ...and it should notice when the return type is wrong
-var b:  = () =>  "\"hi\"";
-// ...or if the param type is wrong
-var c:  = () =>  x.toFixed();
-// ...or if the arity is wrong
-var d:  = () =>  "\"hi\"";
-// ...but subtyping rules still apply
-var e:  = () =>  {}; // arity
+var c: { myProp: number } = f;
+var a: { (x: number): string } = (x) => x.toString();
+ // ...and it should notice when the return type is wrong
+var b: { (x: number): number } = (x) => "\"hi\"";
+ // ...or if the param type is wrong
+var c: { (x: string): string } = (x) => x.toFixed();
+ // ...or if the arity is wrong
+var d: { (): string } = (x) => "\"hi\"";
+ // ...but subtyping rules still apply
+var e: { (x: any): void } = () =>  { };// arity
+var f: { (): mixed } = () => "\"hi\"";// return type
+var g: { (x: Date): void } = (x) =>  { x * 2; };// param type (date < number)
+ // A function can be an object
+var y: {} = (x) => "\"hi\"";
+var z: Object = (x) => "\"hi\"";
 
-var f:  = () =>  "\"hi\""; // return type
-
-var g:  = () =>  {
-  x * 2;
-}; // param type (date < number)
-
-// A function can be an object
-var y:  = () =>  "\"hi\"";
-var z:  = () =>  "\"hi\"";
 ```
 
 ### Diagnostics

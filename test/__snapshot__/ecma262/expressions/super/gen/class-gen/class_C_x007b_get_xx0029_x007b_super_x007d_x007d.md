@@ -222,13 +222,7 @@ class C { *method() { class C { get x) { super; } } } }
                         "expression": {
                             "kind": 129,
                             "member": {
-                                "kind": 225,
-                                "superKeyword": {
-                                    "kind": 4259935,
-                                    "flags": 96,
-                                    "start": 40,
-                                    "end": 46
-                                },
+                                "kind": 4259935,
                                 "flags": 96,
                                 "start": 40,
                                 "end": 46
@@ -241,7 +235,7 @@ class C { *method() { class C { get x) { super; } } } }
                                 "start": 46,
                                 "end": 46
                             },
-                            "flags": 536870944,
+                            "flags": 32,
                             "start": 40,
                             "end": 46
                         },

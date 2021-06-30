@@ -129,7 +129,8 @@ declare var C: Class<string>;
 
 ```javascript
 
-var C: ;
+var C: Class<string>;
+
 ```
 
 ### Diagnostics

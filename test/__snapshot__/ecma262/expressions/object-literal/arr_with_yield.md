@@ -112,7 +112,8 @@ result = [x[yield]] = vals;
 
 ```javascript
 
-result = [x[yield]] = vals;
+result = [x[yield],] = vals;
+
 ```
 
 ### Diagnostics

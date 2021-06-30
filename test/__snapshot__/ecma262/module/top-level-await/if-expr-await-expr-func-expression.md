@@ -54,8 +54,8 @@ if (await function() {}) {}
                         "formalParameters": [],
                         "trailingComma": false,
                         "flags": 32,
-                        "start": 18,
-                        "end": 20
+                        "start": 19,
+                        "end": 19
                     },
                     "contents": {
                         "kind": 216,
@@ -113,8 +113,8 @@ if (await function() {}) {}
 
 ```javascript
 
-if (await function () {}) {
-  }
+if (await function () { }) { }
+
 ```
 
 ### Diagnostics

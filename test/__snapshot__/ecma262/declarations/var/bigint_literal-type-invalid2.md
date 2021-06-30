@@ -50,6 +50,7 @@ var a: 1e5n
                             "type": {
                                 "kind": 134217968,
                                 "text": 100000,
+                                "rawText": "1e5",
                                 "flags": 2097216,
                                 "start": 6,
                                 "end": 10

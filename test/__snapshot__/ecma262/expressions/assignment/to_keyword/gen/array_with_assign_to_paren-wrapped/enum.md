@@ -105,7 +105,8 @@ async x => (enum) = 1
 
 ```javascript
 
-async x =>  (enum) = 1;
+async x => (enum) = 1;
+
 ```
 
 ### Diagnostics

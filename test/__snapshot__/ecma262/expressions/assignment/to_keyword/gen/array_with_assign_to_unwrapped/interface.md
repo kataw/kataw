@@ -99,7 +99,8 @@ async x => interface = 1
 
 ```javascript
 
-async x =>  interface = 1;
+async x => interface = 1;
+
 ```
 
 ### Diagnostics

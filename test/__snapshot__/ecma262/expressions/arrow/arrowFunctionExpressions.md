@@ -137,7 +137,7 @@ var p10 = ([{ value, done }]) => { };
                                     "start": 25,
                                     "end": 31
                                 },
-                                "flags": 536870944,
+                                "flags": 96,
                                 "start": 22,
                                 "end": 31
                             },
@@ -264,7 +264,7 @@ var p10 = ([{ value, done }]) => { };
                                                     "start": 67,
                                                     "end": 73
                                                 },
-                                                "flags": 536870944,
+                                                "flags": 96,
                                                 "start": 64,
                                                 "end": 73
                                             },
@@ -989,7 +989,7 @@ var p10 = ([{ value, done }]) => { };
                                                     "optionalToken": null,
                                                     "type": null,
                                                     "right": null,
-                                                    "flags": 32,
+                                                    "flags": 1073741856,
                                                     "start": 255,
                                                     "end": 259
                                                 }
@@ -1083,18 +1083,18 @@ var p10 = ([{ value, done }]) => { };
                                             "kind": 270,
                                             "elements": [
                                                 {
+                                                    "kind": 230,
+                                                    "flags": 96,
+                                                    "start": 281,
+                                                    "end": 281
+                                                },
+                                                {
                                                     "kind": 134299649,
                                                     "text": "a",
                                                     "rawText": "a",
                                                     "flags": 96,
                                                     "start": 282,
                                                     "end": 284
-                                                },
-                                                {
-                                                    "kind": 230,
-                                                    "flags": 96,
-                                                    "start": 281,
-                                                    "end": 281
                                                 }
                                             ],
                                             "trailingComma": false,
@@ -1186,6 +1186,12 @@ var p10 = ([{ value, done }]) => { };
                                             "kind": 270,
                                             "elements": [
                                                 {
+                                                    "kind": 230,
+                                                    "flags": 96,
+                                                    "start": 306,
+                                                    "end": 306
+                                                },
+                                                {
                                                     "kind": 281,
                                                     "ellipsisToken": {
                                                         "kind": 524302,
@@ -1204,15 +1210,9 @@ var p10 = ([{ value, done }]) => { };
                                                     "optionalToken": null,
                                                     "type": null,
                                                     "right": null,
-                                                    "flags": 32,
+                                                    "flags": 1073741856,
                                                     "start": 307,
                                                     "end": 312
-                                                },
-                                                {
-                                                    "kind": 230,
-                                                    "flags": 96,
-                                                    "start": 306,
-                                                    "end": 306
                                                 }
                                             ],
                                             "trailingComma": false,
@@ -1854,30 +1854,34 @@ var p10 = ([{ value, done }]) => { };
 
 ```javascript
 
-var a = () =>  p.length;
-var a = () =>  {
-  return  p.length;
-};
-var b = j =>  {
-  return  0;
-};
-var b = () =>  {
-  return  0;
-};
+var a = (p: string) => p.length;
+var a = (p: string) =>  { return p.length; };
+var b = j =>  { return 0; };
+var b = (j) =>  { return 0; };
 var c: number;
-var d = n =>  c = n;
-var d = () =>  c = n;
-var d: ;
-var p1 = () =>  {};
-var p2 = () =>  {};
-var p3 = () =>  {};
-var p4 = () =>  {};
-var p5 = () =>  {};
-var p6 = () =>  {};
-var p7 = () =>  {};
-var p8 = () =>  {};
-//var p9 = ({ a: { b = 1 } = { b: 1 } }) => { };
-var p10 = () =>  {};
+var d = n => c = n;
+var d = (n) => c = n;
+var d: (n: any) => any;
+var p1 = ([a]) =>  { };
+var p2 = ([...a]) =>  { };
+var p3 = ([, a]) =>  { };
+var p4 = ([, ...a]) =>  { };
+var p5 = ([a = 1]) =>  { };
+var p6 = ({
+    a
+  }) =>  { };
+var p7 = ({
+    a: { b }
+  }) =>  { };
+var p8 = ({
+    a = 1
+  }) =>  { };
+ //var p9 = ({ a: { b = 1 } = { b: 1 } }) => { };
+var p10 = ([{
+    value,
+    done
+  }]) =>  { };
+
 ```
 
 ### Diagnostics

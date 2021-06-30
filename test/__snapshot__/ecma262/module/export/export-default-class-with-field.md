@@ -63,7 +63,7 @@ export default class {
                                 "kind": 280,
                                 "decorators": null,
                                 "declaredToken": null,
-                                "staticToken": null,
+                                "staticKeyword": null,
                                 "asyncKeyword": null,
                                 "key": {
                                     "kind": 134299649,
@@ -164,7 +164,7 @@ export default class {
                                     "start": 59,
                                     "end": 60
                                 },
-                                "flags": 536870944,
+                                "flags": 97,
                                 "start": 49,
                                 "end": 60
                             },

@@ -73,6 +73,7 @@ async <T: U>(x) => y;
                                     "start": 9,
                                     "end": 11
                                 },
+                                "assignToken": null,
                                 "defaultType": null,
                                 "flags": 2097152,
                                 "start": 0,
@@ -178,6 +179,7 @@ async <T: U>(x) => y;
                                         "start": 33,
                                         "end": 35
                                     },
+                                    "assignToken": null,
                                     "defaultType": null,
                                     "flags": 2097152,
                                     "start": 24,
@@ -251,8 +253,9 @@ async <T: U>(x) => y;
 
 ```javascript
 
-async  =>  y;
-(async  =>  y);
+async <T: U>(x) => y;
+(async <T: U>(x) => y);
+
 ```
 
 ### Diagnostics

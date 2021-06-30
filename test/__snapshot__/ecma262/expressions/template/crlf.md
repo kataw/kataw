@@ -73,9 +73,9 @@ b
 
 ```javascript
 
-a`foo
-bar`;
+a`foo\r\nbar`;
 b;
+
 ```
 
 ### Diagnostics

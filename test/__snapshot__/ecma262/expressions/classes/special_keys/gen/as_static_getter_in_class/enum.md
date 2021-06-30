@@ -137,8 +137,9 @@ class x {static get enum(){}}
 ```javascript
 
 class x {
-  static get static enum() {}
+  static get enum() { }
 }
+
 ```
 
 ### Diagnostics

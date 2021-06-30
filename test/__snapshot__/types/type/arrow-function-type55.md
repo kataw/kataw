@@ -80,6 +80,7 @@ type a = ([-1] | (x)) => T;
                                                             "end": 12
                                                         },
                                                         "text": 1,
+                                                        "rawText": "1",
                                                         "flags": 2097216,
                                                         "start": 11,
                                                         "end": 13
@@ -185,6 +186,7 @@ type a = ([-1] | (x)) => T;
 
 ```javascript
 
+type a = ([-1] | (x)) => T
 
 ```
 

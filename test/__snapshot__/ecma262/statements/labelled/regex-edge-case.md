@@ -35,7 +35,7 @@ foo:
             "statement": {
                 "kind": 120,
                 "expression": {
-                    "kind": 221,
+                    "kind": 371,
                     "text": "/bar/",
                     "flags": 96,
                     "start": 4,
@@ -64,6 +64,7 @@ foo:
 ```javascript
 
 foo: /bar/;
+
 ```
 
 ### Diagnostics

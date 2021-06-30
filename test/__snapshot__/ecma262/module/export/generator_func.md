@@ -65,8 +65,8 @@ export default function *f(){} foo
                     "formalParameters": [],
                     "trailingComma": false,
                     "flags": 32,
-                    "start": 26,
-                    "end": 28
+                    "start": 27,
+                    "end": 27
                 },
                 "contents": {
                     "kind": 216,
@@ -119,8 +119,9 @@ export default function *f(){} foo
 
 ```javascript
 
-export default function * f() {};
+export default function* f() { };
 foo;
+
 ```
 
 ### Diagnostics

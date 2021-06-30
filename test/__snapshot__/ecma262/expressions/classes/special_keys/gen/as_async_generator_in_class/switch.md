@@ -137,8 +137,9 @@ class x {async * switch(){}}
 ```javascript
 
 class x {
-  async switch() {}
+  async *switch() { }
 }
+
 ```
 
 ### Diagnostics

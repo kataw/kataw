@@ -119,7 +119,8 @@ switch (true) { default: const x = 1; }
 ```javascript
 
 switch (true) {
-  default: const x = 1;
+  default: 
+    const x = 1;
 }
 
 ```

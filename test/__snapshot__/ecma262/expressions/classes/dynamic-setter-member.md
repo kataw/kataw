@@ -44,7 +44,7 @@ class A {* get [x](){}}
                             "kind": 280,
                             "decorators": null,
                             "declaredToken": null,
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "asyncKeyword": null,
                             "key": {
                                 "kind": 134299649,
@@ -146,9 +146,10 @@ class A {* get [x](){}}
 ```javascript
 
 class A {
-  get;
-  [x]() {}
+  get
+  [x]() { }
 }
+
 ```
 
 ### Diagnostics

@@ -184,7 +184,8 @@ var a = b ? (c + e) : d => c+e;
 
 ```javascript
 
-var a = b ? (c + e) : d =>  c + e;
+var a = b ? (c + e) : d => c + e;
+
 ```
 
 ### Diagnostics

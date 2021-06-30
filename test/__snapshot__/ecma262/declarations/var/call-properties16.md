@@ -55,7 +55,7 @@ var c: { (x: string): string } = (x) => x.toFixed()
                                     {
                                         "kind": 196,
                                         "protoKeyword": null,
-                                        "staticToken": null,
+                                        "staticKeyword": null,
                                         "typeParameter": null,
                                         "value": {
                                             "kind": 282,
@@ -172,7 +172,7 @@ var c: { (x: string): string } = (x) => x.toFixed()
                                         "start": 42,
                                         "end": 49
                                     },
-                                    "flags": 536870944,
+                                    "flags": 96,
                                     "start": 39,
                                     "end": 49
                                 },
@@ -219,7 +219,8 @@ var c: { (x: string): string } = (x) => x.toFixed()
 
 ```javascript
 
-var c:  = () =>  x.toFixed();
+var c: { (x: string): string } = (x) => x.toFixed();
+
 ```
 
 ### Diagnostics

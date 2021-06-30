@@ -95,8 +95,8 @@ function f(argument1, {eval: x}) {}
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 10,
-                "end": 32
+                "start": 11,
+                "end": 31
             },
             "contents": {
                 "kind": 216,
@@ -131,7 +131,10 @@ function f(argument1, {eval: x}) {}
 
 ```javascript
 
-function f() {}
+function f(argument1, {
+    eval: x
+  }) { }
+
 ```
 
 ### Diagnostics

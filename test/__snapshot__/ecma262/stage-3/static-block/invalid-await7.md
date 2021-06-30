@@ -238,7 +238,7 @@ class C {
                                                             "kind": 280,
                                                             "decorators": null,
                                                             "declaredToken": null,
-                                                            "staticToken": null,
+                                                            "staticKeyword": null,
                                                             "asyncKeyword": null,
                                                             "key": {
                                                                 "kind": 134299649,
@@ -263,8 +263,8 @@ class C {
                                                             "end": 202
                                                         },
                                                         {
-                                                            "kind": 317,
-                                                            "flags": 96,
+                                                            "kind": 1108353041,
+                                                            "flags": 64,
                                                             "start": 202,
                                                             "end": 203
                                                         },
@@ -272,7 +272,7 @@ class C {
                                                             "kind": 280,
                                                             "decorators": null,
                                                             "declaredToken": null,
-                                                            "staticToken": null,
+                                                            "staticKeyword": null,
                                                             "asyncKeyword": null,
                                                             "key": {
                                                                 "kind": 134299649,
@@ -309,8 +309,8 @@ class C {
                                                             "end": 228
                                                         },
                                                         {
-                                                            "kind": 317,
-                                                            "flags": 96,
+                                                            "kind": 1108353041,
+                                                            "flags": 64,
                                                             "start": 228,
                                                             "end": 229
                                                         },
@@ -318,7 +318,7 @@ class C {
                                                             "kind": 280,
                                                             "decorators": null,
                                                             "declaredToken": null,
-                                                            "staticToken": null,
+                                                            "staticKeyword": null,
                                                             "asyncKeyword": null,
                                                             "key": {
                                                                 "kind": 194,
@@ -361,8 +361,8 @@ class C {
                                                             "end": 306
                                                         },
                                                         {
-                                                            "kind": 317,
-                                                            "flags": 96,
+                                                            "kind": 1108353041,
+                                                            "flags": 64,
                                                             "start": 306,
                                                             "end": 307
                                                         }
@@ -413,8 +413,8 @@ class C {
                                                         "formalParameters": [],
                                                         "trailingComma": false,
                                                         "flags": 32,
-                                                        "start": 408,
-                                                        "end": 410
+                                                        "start": 409,
+                                                        "end": 409
                                                     },
                                                     "contents": {
                                                         "kind": 216,
@@ -512,8 +512,8 @@ class C {
                                                         "formalParameters": [],
                                                         "trailingComma": false,
                                                         "flags": 32,
-                                                        "start": 606,
-                                                        "end": 609
+                                                        "start": 608,
+                                                        "end": 608
                                                     },
                                                     "contents": {
                                                         "kind": 216,

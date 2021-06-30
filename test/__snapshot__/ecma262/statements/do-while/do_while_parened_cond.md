@@ -74,8 +74,8 @@ do {} while ((""));
 
 ```javascript
 
-do {}
-while (("\"\""));
+do { } while (("\"\""))
+
 ```
 
 ### Diagnostics

@@ -164,9 +164,10 @@
 
 ```javascript
 
-(class   {
-    set #await() {}
-  });
+(class  extends Base {
+  set #await(test) { }
+});
+
 ```
 
 ### Diagnostics

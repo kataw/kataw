@@ -55,8 +55,8 @@ function *f() {
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 11,
-                "end": 13
+                "start": 12,
+                "end": 12
             },
             "contents": {
                 "kind": 216,
@@ -160,9 +160,10 @@ function *f() {
 
 ```javascript
 
-function * f() {
-  yield a > b inctanceof c;
+function* f() {
+  yield a > b instanceof c;
 }
+
 ```
 
 ### Diagnostics

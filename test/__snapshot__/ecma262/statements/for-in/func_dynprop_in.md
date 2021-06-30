@@ -61,8 +61,8 @@ for (function(){ }[x in y] in x);
                         "formalParameters": [],
                         "trailingComma": false,
                         "flags": 32,
-                        "start": 13,
-                        "end": 15
+                        "start": 14,
+                        "end": 14
                     },
                     "contents": {
                         "kind": 216,
@@ -153,7 +153,9 @@ for (function(){ }[x in y] in x);
 
 ```javascript
 
-for (function () {}[x in y] in x);
+for (function () { }[x in y] in x)
+  ;
+
 ```
 
 ### Diagnostics

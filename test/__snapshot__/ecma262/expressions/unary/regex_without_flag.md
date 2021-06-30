@@ -28,7 +28,7 @@ delete /foo/.bar;
                 "operand": {
                     "kind": 129,
                     "member": {
-                        "kind": 221,
+                        "kind": 371,
                         "text": "/foo/",
                         "flags": 96,
                         "start": 6,
@@ -42,7 +42,7 @@ delete /foo/.bar;
                         "start": 13,
                         "end": 16
                     },
-                    "flags": 536870944,
+                    "flags": 96,
                     "start": 6,
                     "end": 16
                 },
@@ -68,7 +68,8 @@ delete /foo/.bar;
 
 ```javascript
 
-delete /foo/.bar;
+delete  /foo/.bar;
+
 ```
 
 ### Diagnostics

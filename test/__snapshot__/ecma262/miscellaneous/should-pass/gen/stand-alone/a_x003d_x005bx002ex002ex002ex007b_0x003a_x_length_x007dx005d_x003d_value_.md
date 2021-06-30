@@ -102,7 +102,7 @@ a = [...{ 0: x, length }] = value;
                                         "start": 8,
                                         "end": 24
                                     },
-                                    "flags": 32,
+                                    "flags": 1073741856,
                                     "start": 5,
                                     "end": 24
                                 }
@@ -156,7 +156,8 @@ a = [...{ 0: x, length }] = value;
 
 ```javascript
 
-a = [...{ 0: x, length }] = value;
+a = [...{ 0 : x, length }] = value;
+
 ```
 
 ### Diagnostics

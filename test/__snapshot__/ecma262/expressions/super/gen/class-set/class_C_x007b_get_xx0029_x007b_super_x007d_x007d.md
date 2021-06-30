@@ -231,13 +231,7 @@ class C { set x(_) { class C { get x) { super; } } } }
                         "expression": {
                             "kind": 129,
                             "member": {
-                                "kind": 225,
-                                "superKeyword": {
-                                    "kind": 4259935,
-                                    "flags": 96,
-                                    "start": 39,
-                                    "end": 45
-                                },
+                                "kind": 4259935,
                                 "flags": 96,
                                 "start": 39,
                                 "end": 45
@@ -250,7 +244,7 @@ class C { set x(_) { class C { get x) { super; } } } }
                                 "start": 45,
                                 "end": 45
                             },
-                            "flags": 536870944,
+                            "flags": 32,
                             "start": 39,
                             "end": 45
                         },

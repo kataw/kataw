@@ -41,26 +41,26 @@ class A {; ;; ;}
                     "kind": 303,
                     "elements": [
                         {
-                            "kind": 317,
-                            "flags": 96,
+                            "kind": 1108353041,
+                            "flags": 64,
                             "start": 9,
                             "end": 10
                         },
                         {
-                            "kind": 317,
-                            "flags": 96,
+                            "kind": 1108353041,
+                            "flags": 64,
                             "start": 10,
                             "end": 12
                         },
                         {
-                            "kind": 317,
-                            "flags": 96,
+                            "kind": 1108353041,
+                            "flags": 64,
                             "start": 12,
                             "end": 13
                         },
                         {
-                            "kind": 317,
-                            "flags": 96,
+                            "kind": 1108353041,
+                            "flags": 64,
                             "start": 13,
                             "end": 15
                         }
@@ -92,11 +92,12 @@ class A {; ;; ;}
 ```javascript
 
 class A {
-
-
-
-
+  ;
+  ;
+  ;
+  ;
 }
+
 ```
 
 ### Diagnostics

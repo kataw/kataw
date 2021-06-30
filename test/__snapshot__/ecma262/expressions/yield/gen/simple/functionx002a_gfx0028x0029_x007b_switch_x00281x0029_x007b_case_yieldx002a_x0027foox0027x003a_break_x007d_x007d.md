@@ -53,8 +53,8 @@ function* gf() { switch (1) { case yield* 'foo': break; } }
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 12,
-                "end": 14
+                "start": 13,
+                "end": 13
             },
             "contents": {
                 "kind": 216,
@@ -178,12 +178,11 @@ function* gf() { switch (1) { case yield* 'foo': break; } }
 
 ```javascript
 
-function * gf() {
-  switch(1) {
-    case yield * "'foo'":
-      break;
-  }
-}
+function* gf() { switch (1) {
+  case yield* '\'foo\'': 
+    break;
+} }
+
 ```
 
 ### Diagnostics

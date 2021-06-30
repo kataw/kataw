@@ -83,7 +83,8 @@
 
 ```javascript
 
-() =>  x;
+(private) => x;
+
 ```
 
 ### Diagnostics

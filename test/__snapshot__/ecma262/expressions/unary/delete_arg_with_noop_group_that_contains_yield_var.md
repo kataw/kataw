@@ -96,7 +96,7 @@ delete (((((foo(yield)))))).bar
                         "start": 28,
                         "end": 31
                     },
-                    "flags": 536870944,
+                    "flags": 32,
                     "start": 6,
                     "end": 31
                 },
@@ -122,7 +122,8 @@ delete (((((foo(yield)))))).bar
 
 ```javascript
 
-delete (foo(yield)).bar;
+delete  (((((foo(yield)))))).bar;
+
 ```
 
 ### Diagnostics

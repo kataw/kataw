@@ -72,6 +72,7 @@ implements: x
 ```javascript
 
 implements: x;
+
 ```
 
 ### Diagnostics

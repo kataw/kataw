@@ -185,8 +185,9 @@ var {x:y=z}, {a:b=c} = obj;
 var {
   x: y = z
 }, {
-    a: b = c
-  } = obj;
+  a: b = c
+} = obj;
+
 ```
 
 ### Diagnostics

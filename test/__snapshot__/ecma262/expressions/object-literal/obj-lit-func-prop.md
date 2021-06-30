@@ -70,6 +70,7 @@
                                                         "end": 16
                                                     },
                                                     "type": null,
+                                                    "assignToken": null,
                                                     "defaultType": null,
                                                     "flags": 2097152,
                                                     "start": 15,
@@ -90,8 +91,8 @@
                                         "formalParameters": [],
                                         "trailingComma": false,
                                         "flags": 32,
-                                        "start": 17,
-                                        "end": 19
+                                        "start": 18,
+                                        "end": 18
                                     },
                                     "contents": {
                                         "kind": 216,
@@ -148,7 +149,8 @@
 
 ```javascript
 
-({ f: function  <T >() {} });
+({ f : function <T> () { } });
+
 ```
 
 ### Diagnostics

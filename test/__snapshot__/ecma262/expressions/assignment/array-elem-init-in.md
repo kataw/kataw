@@ -144,7 +144,8 @@ result = [ x = 'x' in {} ] = vals;
 
 ```javascript
 
-result = [x = "'x'" in {}] = vals;
+result = [x = '\'x\'' in {},] = vals;
+
 ```
 
 ### Diagnostics

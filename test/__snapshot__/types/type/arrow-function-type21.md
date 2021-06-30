@@ -163,6 +163,7 @@ type a = ({}[x]) => T;
 
 ```javascript
 
+type a = ({}[x]) => T
 
 ```
 

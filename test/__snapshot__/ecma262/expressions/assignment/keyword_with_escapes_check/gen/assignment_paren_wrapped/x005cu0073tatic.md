@@ -77,7 +77,8 @@
 
 ```javascript
 
-(static = x);
+(\u0073tatic = x);
+
 ```
 
 ### Diagnostics

@@ -53,8 +53,8 @@ async function f() { await 3; }
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 16,
-                "end": 18
+                "start": 17,
+                "end": 17
             },
             "contents": {
                 "kind": 216,
@@ -116,9 +116,8 @@ async function f() { await 3; }
 
 ```javascript
 
-async function f() {
-  await 3;
-}
+async function f() { await 3; }
+
 ```
 
 ### Diagnostics

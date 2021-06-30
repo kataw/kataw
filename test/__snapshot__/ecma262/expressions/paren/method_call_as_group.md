@@ -78,7 +78,7 @@
                                             "start": 20,
                                             "end": 24
                                         },
-                                        "flags": 536870944,
+                                        "flags": 32,
                                         "start": 2,
                                         "end": 24
                                     },
@@ -139,7 +139,8 @@
 
 ```javascript
 
-({ ident: [foo, bar].join("\"\"") });
+({ ident : [foo, bar,].join("\"\"") });
+
 ```
 
 ### Diagnostics

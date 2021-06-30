@@ -115,7 +115,8 @@ await (async () => {})()
 
 ```javascript
 
-await (async  =>  {})();
+await (async () =>  { })();
+
 ```
 
 ### Diagnostics

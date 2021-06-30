@@ -77,7 +77,9 @@ for (fooo in x) ;
 
 ```javascript
 
-for (fooo in x);
+for (fooo in x)
+  ;
+
 ```
 
 ### Diagnostics

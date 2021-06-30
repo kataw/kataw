@@ -66,6 +66,7 @@ opaque type MyObject<A, B, C>: { foo: A, bar: B } = {
                                 "end": 22
                             },
                             "type": null,
+                            "assignToken": null,
                             "defaultType": null,
                             "flags": 2097152,
                             "start": 21,
@@ -82,6 +83,7 @@ opaque type MyObject<A, B, C>: { foo: A, bar: B } = {
                                 "end": 25
                             },
                             "type": null,
+                            "assignToken": null,
                             "defaultType": null,
                             "flags": 2097152,
                             "start": 23,
@@ -98,6 +100,7 @@ opaque type MyObject<A, B, C>: { foo: A, bar: B } = {
                                 "end": 28
                             },
                             "type": null,
+                            "assignToken": null,
                             "defaultType": null,
                             "flags": 2097152,
                             "start": 26,
@@ -123,7 +126,7 @@ opaque type MyObject<A, B, C>: { foo: A, bar: B } = {
                         {
                             "kind": 193,
                             "protoKeyword": null,
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "getKeyword": null,
                             "setKeyword": null,
                             "key": {
@@ -165,7 +168,7 @@ opaque type MyObject<A, B, C>: { foo: A, bar: B } = {
                         {
                             "kind": 193,
                             "protoKeyword": null,
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "getKeyword": null,
                             "setKeyword": null,
                             "key": {
@@ -224,7 +227,7 @@ opaque type MyObject<A, B, C>: { foo: A, bar: B } = {
                         {
                             "kind": 193,
                             "protoKeyword": null,
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "getKeyword": null,
                             "setKeyword": null,
                             "key": {
@@ -266,7 +269,7 @@ opaque type MyObject<A, B, C>: { foo: A, bar: B } = {
                         {
                             "kind": 193,
                             "protoKeyword": null,
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "getKeyword": null,
                             "setKeyword": null,
                             "key": {
@@ -308,7 +311,7 @@ opaque type MyObject<A, B, C>: { foo: A, bar: B } = {
                         {
                             "kind": 193,
                             "protoKeyword": null,
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "getKeyword": null,
                             "setKeyword": null,
                             "key": {
@@ -381,7 +384,8 @@ opaque type MyObject<A, B, C>: { foo: A, bar: B } = {
 
 ```javascript
 
-
+opaque type MyObject<A, B, C>: { foo: A, bar: B } = { foo: A, bar: B, baz: C }
+;
 
 ```
 

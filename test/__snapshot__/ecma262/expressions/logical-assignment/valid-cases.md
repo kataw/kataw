@@ -111,7 +111,7 @@ x((y ?? z) ?? 1);
                                     "start": 4,
                                     "end": 5
                                 },
-                                "flags": 536870944,
+                                "flags": 96,
                                 "start": 2,
                                 "end": 5
                             },
@@ -407,7 +407,7 @@ x((y ?? z) ?? 1);
                         {
                             "kind": 198,
                             "left": {
-                                "kind": 221,
+                                "kind": 371,
                                 "text": "/./",
                                 "flags": 96,
                                 "start": 65,
@@ -712,8 +712,8 @@ x((y ?? z) ?? 1);
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 32,
-                                    "start": 136,
-                                    "end": 138
+                                    "start": 137,
+                                    "end": 137
                                 },
                                 "contents": {
                                     "kind": 216,
@@ -3901,30 +3901,31 @@ x((y ?? z) ?? 1);
 x(y.z ?? 1);
 x(y[z] ?? 1);
 x(0 ?? 1);
-x(0nn ?? 1);
-x("''" ?? 1);
+x(0n ?? 1);
+x('\'\'' ?? 1);
 x(/./ ?? 1);
 x({} ?? 1);
-x((() =>  {}) ?? 1);
-x(class  {} ?? 1);
-x(function () {} ?? 1);
+x((() =>  { }) ?? 1);
+x(class  {
+} ?? 1);
+x(function () { } ?? 1);
 x(null ?? 1);
 x(undefined ?? 1);
-x(void y ?? 1);
-x(-y ?? 1);
-x(+y ?? 1);
-x(!y ?? 1);
-x(~y ?? 1);
+x(void  y ?? 1);
+x(- y ?? 1);
+x(+ y ?? 1);
+x(! y ?? 1);
+x(~ y ?? 1);
 x(--y ?? 1);
 x(++y ?? 1);
 x(y-- ?? 1);
 x(y++ ?? 1);
-x(delete y ?? 1);
-x(typeof y ?? 1);
+x(delete  y ?? 1);
+x(typeof  y ?? 1);
 x((y, 0) ?? 1);
-x((y, !z) ?? 1);
+x((y, ! z) ?? 1);
 x((y, null) ?? 1);
-x((y, void z) ?? 1);
+x((y, void  z) ?? 1);
 x((y + z) ?? 1);
 x((y - z) ?? 1);
 x((y * z) ?? 1);
@@ -3935,7 +3936,7 @@ x((y << z) ?? 1);
 x((y >> z) ?? 1);
 x((y >>> z) ?? 1);
 x((y | z) ?? 1);
-x((y => z) ?? 1);
+x((y & z) ?? 1);
 x((y ^ z) ?? 1);
 x((y  < z) ?? 1);
 x((y > z) ?? 1);
@@ -3948,6 +3949,7 @@ x((y !== z) ?? 1);
 x((y || z) ?? 1);
 x((y && z) ?? 1);
 x((y ?? z) ?? 1);
+
 ```
 
 ### Diagnostics

@@ -72,6 +72,7 @@ arguments = x
 ```javascript
 
 arguments = x;
+
 ```
 
 ### Diagnostics

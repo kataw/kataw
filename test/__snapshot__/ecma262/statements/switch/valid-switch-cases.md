@@ -241,7 +241,7 @@ switch (answer) { case 0: let a; };
                     "kind": 270,
                     "elements": [
                         {
-                            "kind": 221,
+                            "kind": 371,
                             "text": "/a/",
                             "flags": 96,
                             "start": 72,
@@ -1506,8 +1506,8 @@ switch (answer) { case 0: let a; };
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 32,
-                                    "start": 482,
-                                    "end": 484
+                                    "start": 483,
+                                    "end": 483
                                 },
                                 "contents": {
                                     "kind": 216,
@@ -2163,7 +2163,7 @@ switch (answer) { case 0: let a; };
                             {
                                 "kind": 120,
                                 "expression": {
-                                    "kind": 221,
+                                    "kind": 371,
                                     "text": "/a/",
                                     "flags": 96,
                                     "start": 775,
@@ -2364,7 +2364,7 @@ switch (answer) { case 0: let a; };
                                                         "start": 838,
                                                         "end": 839
                                                     },
-                                                    "flags": 32,
+                                                    "flags": 1073741856,
                                                     "start": 835,
                                                     "end": 839
                                                 }
@@ -2782,8 +2782,8 @@ switch (answer) { case 0: let a; };
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 32,
-                                    "start": 972,
-                                    "end": 974
+                                    "start": 973,
+                                    "end": 973
                                 },
                                 "contents": {
                                     "kind": 216,
@@ -2854,8 +2854,8 @@ switch (answer) { case 0: let a; };
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 32,
-                                    "start": 1003,
-                                    "end": 1005
+                                    "start": 1004,
+                                    "end": 1004
                                 },
                                 "contents": {
                                     "kind": 216,
@@ -3139,7 +3139,7 @@ switch (answer) { case 0: let a; };
                                                     "start": 1082,
                                                     "end": 1083
                                                 },
-                                                "flags": 32,
+                                                "flags": 1073741856,
                                                 "start": 1079,
                                                 "end": 1083
                                             }
@@ -3274,7 +3274,7 @@ switch (answer) { case 0: let a; };
                                                         "start": 1116,
                                                         "end": 1117
                                                     },
-                                                    "flags": 32,
+                                                    "flags": 1073741856,
                                                     "start": 1113,
                                                     "end": 1117
                                                 }
@@ -3516,8 +3516,8 @@ switch (answer) { case 0: let a; };
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 32,
-                                    "start": 1190,
-                                    "end": 1192
+                                    "start": 1191,
+                                    "end": 1191
                                 },
                                 "contents": {
                                     "kind": 216,
@@ -3563,8 +3563,8 @@ switch (answer) { case 0: let a; };
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 32,
-                                    "start": 1205,
-                                    "end": 1207
+                                    "start": 1206,
+                                    "end": 1206
                                 },
                                 "contents": {
                                     "kind": 216,
@@ -3682,8 +3682,8 @@ switch (answer) { case 0: let a; };
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 32,
-                                    "start": 1251,
-                                    "end": 1253
+                                    "start": 1252,
+                                    "end": 1252
                                 },
                                 "contents": {
                                     "kind": 216,
@@ -3739,8 +3739,8 @@ switch (answer) { case 0: let a; };
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 32,
-                                    "start": 1273,
-                                    "end": 1275
+                                    "start": 1274,
+                                    "end": 1274
                                 },
                                 "contents": {
                                     "kind": 216,
@@ -4159,8 +4159,8 @@ switch (answer) { case 0: let a; };
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 32,
-                                    "start": 1407,
-                                    "end": 1409
+                                    "start": 1408,
+                                    "end": 1408
                                 },
                                 "contents": {
                                     "kind": 216,
@@ -4273,8 +4273,8 @@ switch (answer) { case 0: let a; };
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 32,
-                                    "start": 1449,
-                                    "end": 1451
+                                    "start": 1450,
+                                    "end": 1450
                                 },
                                 "contents": {
                                     "kind": 216,
@@ -4477,7 +4477,7 @@ switch (answer) { case 0: let a; };
         {
             "kind": 120,
             "expression": {
-                "kind": 221,
+                "kind": 371,
                 "text": "/foo/",
                 "flags": 96,
                 "start": 1528,
@@ -4587,8 +4587,8 @@ switch (answer) { case 0: let a; };
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 32,
-                                    "start": 1588,
-                                    "end": 1590
+                                    "start": 1589,
+                                    "end": 1589
                                 },
                                 "contents": {
                                     "kind": 216,
@@ -4815,8 +4815,8 @@ switch (answer) { case 0: let a; };
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 32,
-                                    "start": 1673,
-                                    "end": 1675
+                                    "start": 1674,
+                                    "end": 1674
                                 },
                                 "contents": {
                                     "kind": 216,
@@ -5109,8 +5109,8 @@ switch (answer) { case 0: let a; };
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 32,
-                                    "start": 1798,
-                                    "end": 1800
+                                    "start": 1799,
+                                    "end": 1799
                                 },
                                 "contents": {
                                     "kind": 216,
@@ -5613,229 +5613,271 @@ switch (answer) { case 0: let a; };
 
 ```javascript
 
-switch(x) {
-  case 194:
-    switch(y) {
-      default
+switch (x) {
+  case 194: 
+    switch (y) {
+      default: 
         1;
     }
-  default
+  default: 
     2;
 }
-switch([/a/]) {
-  case y:
-    !x;
+;
+switch ([/a/,]) {
+  case y: 
+    ! x;
 }
-switch(x) {
-  case y:
+;
+switch (x) {
+  case y: 
     {
       x = b;
     }
 }
-switch(x) {
-  case y:
-    [a / b];
+;
+switch (x) {
+  case y: 
+    [a / b,];
 }
-switch(x) {
+;
+switch (x) {
   case 42:
     y();
     break;
-  default
+  default: 
     break;
 }
-switch(answer) {
+;
+switch (answer) {
   case 42:
     let t = 42;
     break;
 }
-switch(x) {
-  case y:
-    [a / b, c, (d)];
+;
+switch (x) {
+  case y: 
+    [a / b, c, (d),];
 }
-switch(x) {
-  case y:
+;
+switch (x) {
+  case y: 
     a;
 }
-switch(x) {
-  case y:
+;
+switch (x) {
+  case y: 
     x(foo);
 }
-switch(x) {
-  case y:
+;
+switch (x) {
+  case y: 
     foo = b;
 }
-switch(x / b[c]) {
-  case y:
+;
+switch (x / b[c]) {
+  case y: 
     foo;
 }
-switch(x / b[(c)]) {
-  case y:
+;
+switch (x / b[(c)]) {
+  case y: 
     foo;
 }
-switch(x) {
-  case foo:
-    function * f() {}
+;
+switch (x) {
+  case foo: 
+    function* f() { }
 }
-switch(x) {
-  case y:
+;
+switch (x) {
+  case y: 
     (foo);
 }
-switch(x) {
-  case y:
+;
+switch (x) {
+  case y: 
     (foo, bar);
 }
-switch(x) {
-  case y:
-    (foo) = (foo) /* comment */ - b;
+;
+switch (x) {
+  case y: 
+    (foo) = (foo)/* comment */ - b;
 }
-switch(x) {
-  case y:
+;
+switch (x) {
+  case y: 
     foo;
-} // comment;
-
-// should be ignored - switch(x) { case y: foo };
-switch(x / a) {
-  case y:
-    foo;
-}
-switch(a + b) {
-  case y:
+}// comment;
+ // should be ignored - switch(x) { case y: foo };
+switch (x / a) {
+  case y: 
     foo;
 }
-switch(x) {
-  case y:
+;
+switch (a + b) {
+  case y: 
+    foo;
+}
+;
+switch (x) {
+  case y: 
     /a/;
 }
-switch(x) {
-  case y:
+;
+switch (x) {
+  case y: 
     {
       x;
     }
 }
-switch(x) {
-  case y:
+;
+switch (x) {
+  case y: 
     x = { ...x };
 }
-switch(x) {
-  case y:
+;
+switch (x) {
+  case y: 
     foo / bar ? 1 : (x);
 }
-switch(x) {
-  case y:
-    foo / bar ? 1 : () =>  {};
+;
+switch (x) {
+  case y: 
+    foo / bar ? 1 : (x) =>  { };
 }
-switch(0) {
-  case 1:
-    async function f() {}
-  default
-    async function f() {}
+;
+switch (0) {
+  case 1: 
+    async function f() { }
+  default: 
+    async function f() { }
 }
-switch(x) {
-  case y:
-    foo ? 1 : () =>  {};
+;
+switch (x) {
+  case y: 
+    foo ? 1 : (x) =>  { };
 }
-switch({ x: y }) {
-  case y:
+;
+switch ({ x : y }) {
+  case y: 
     [...a];
 }
-switch({ x: y }) {
-  case y:
+;
+switch ({ x : y }) {
+  case y: 
     [...a] = b;
 }
-switch(x / b(c)) {
-  case y:
+;
+switch (x / b(c)) {
+  case y: 
     foo;
 }
-switch(x) {
+;
+switch (x) {
   case c:
-    function f() {}
-    function f() {}
+    function f() { }
+    function f() { }
 }
-switch(x) {
+;
+switch (x) {
   case c:
-    async function * f() {}
-    async function * f() {}
+    async function* f() { }
+    async function* f() { }
 }
-switch(0) {
-  case 1:
+;
+switch (0) {
+  case 1: 
     var f;
-  default
-    var f;
-}
-switch(0) {
-  case 1:
-    var f;
-  default
+  default: 
     var f;
 }
-switch(x) {
-  case x:
-    function * f() {}
+switch (0) {
+  case 1: 
+    var f;
+  default: 
+    var f;
 }
-switch(x) {
-  case x:
-    function * f() {}
+;
+switch (x) {
+  case x: 
+    function* f() { }
 }
+;
+switch (x) {
+  case x: 
+    function* f() { }
+}
+;
 "\"use strict\"";
-switch(x) {
+switch (x) {
   case 1:
-
-  default
-    class C {}
+  default: 
+    class C {
+    }
 }
-switch(x) {
+;
+switch (x) {
 }
 /foo/;
 "\"use strict\"";
-switch(x) {
+switch (x) {
   case 1:
-
-  default
-    function f() {}
-    class C {}
+  default:
+    function f() { }
+    ;
+    class C {
+    }
 }
+;
 "\"use strict\"";
-switch(x) {
+switch (x) {
   case 1:
-
-  default
-    class C {}
-    function f() {}
+  default:
+    class C {
+    }
+    ;
+    function f() { }
 }
+;
 "\"use strict\"";
-switch(x) {
+switch (x) {
   case 1:
-
-  default
-    class C  {}
+  default: 
+    class C extends Q {
+    }
 }
+;
 "\"use strict\"";
-switch(x) {
+switch (x) {
   case 1:
-
-  default
-    function f() {}
-    class C {}
+  default:
+    function f() { }
+    class C {
+    }
 }
+;
 "\"use strict\"";
-switch(x) {
+switch (x) {
   case 1:
-
-  default
-    class C {}
+  default: 
+    class C {
+    }
 }
-switch(a) {
+;
+switch (a) {
   case 1:
-
 }
-switch(a) {
-  case b:
+;
+switch (a) {
+  case b: 
     let [x] = y;
 }
-switch(answer) {
-  case 0:
+;
+switch (answer) {
+  case 0: 
     let a;
 }
+;
 
 ```
 

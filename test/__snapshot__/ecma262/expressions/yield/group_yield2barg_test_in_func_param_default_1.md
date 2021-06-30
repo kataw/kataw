@@ -79,8 +79,8 @@ function f(x=(yield z)=y){}
                 ],
                 "trailingComma": false,
                 "flags": 34,
-                "start": 10,
-                "end": 22
+                "start": 11,
+                "end": 21
             },
             "contents": {
                 "kind": 216,

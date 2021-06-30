@@ -123,6 +123,7 @@ var [...x] = y
 ```javascript
 
 var [...x] = y;
+
 ```
 
 ### Diagnostics

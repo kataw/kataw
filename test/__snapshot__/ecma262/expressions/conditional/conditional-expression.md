@@ -66,8 +66,8 @@ async function f2() {
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 16,
-                "end": 18
+                "start": 17,
+                "end": 17
             },
             "contents": {
                 "kind": 216,
@@ -250,8 +250,8 @@ async function f2() {
                             "formalParameters": [],
                             "trailingComma": false,
                             "flags": 32,
-                            "start": 102,
-                            "end": 104
+                            "start": 103,
+                            "end": 103
                         },
                         "contents": {
                             "kind": 216,
@@ -281,7 +281,7 @@ async function f2() {
                                                     "start": 117,
                                                     "end": 120
                                                 },
-                                                "flags": 536870944,
+                                                "flags": 96,
                                                 "start": 106,
                                                 "end": 120
                                             },
@@ -332,7 +332,7 @@ async function f2() {
                                                                             "start": 148,
                                                                             "end": 155
                                                                         },
-                                                                        "flags": 536870944,
+                                                                        "flags": 96,
                                                                         "start": 139,
                                                                         "end": 155
                                                                     },
@@ -383,7 +383,7 @@ async function f2() {
                                                                             "start": 171,
                                                                             "end": 178
                                                                         },
-                                                                        "flags": 536870944,
+                                                                        "flags": 96,
                                                                         "start": 162,
                                                                         "end": 178
                                                                     },
@@ -498,8 +498,8 @@ async function f2() {
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 213,
-                "end": 215
+                "start": 214,
+                "end": 214
             },
             "contents": {
                 "kind": 216,
@@ -555,7 +555,7 @@ async function f2() {
                                                     "start": 252,
                                                     "end": 263
                                                 },
-                                                "flags": 536870944,
+                                                "flags": 96,
                                                 "start": 240,
                                                 "end": 263
                                             },
@@ -644,7 +644,7 @@ async function f2() {
                                             "start": 306,
                                             "end": 317
                                         },
-                                        "flags": 536870944,
+                                        "flags": 96,
                                         "start": 294,
                                         "end": 317
                                     },
@@ -704,15 +704,16 @@ async function f2() {
 ```javascript
 
 async function f() {
-  const result = typeof fn === "'function'" ? await fn() : null;
+  const result = typeof  fn === '\'function\'' ? await fn() : null;
 }
 (async function () {
-    console.log(await (true ? Promise.resolve("\"A\"") : Promise.resolve("\"B\"")));
-  })();
+  console.log(await (true ? Promise.resolve("\"A\"") : Promise.resolve("\"B\"")));
+})();
 async function f2() {
   await (spellcheck && spellcheck.setChecking(false));
   await spellcheck && spellcheck.setChecking(false);
 }
+
 ```
 
 ### Diagnostics

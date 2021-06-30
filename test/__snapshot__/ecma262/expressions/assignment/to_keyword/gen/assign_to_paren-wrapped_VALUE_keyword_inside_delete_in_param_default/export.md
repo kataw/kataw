@@ -103,8 +103,8 @@ function *f(x = delete ((export) = f)) {}
                 ],
                 "trailingComma": false,
                 "flags": 34,
-                "start": 11,
-                "end": 31
+                "start": 12,
+                "end": 25
             },
             "contents": {
                 "kind": 216,

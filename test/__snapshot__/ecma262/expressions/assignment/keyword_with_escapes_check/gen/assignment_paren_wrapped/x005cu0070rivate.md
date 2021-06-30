@@ -77,7 +77,8 @@
 
 ```javascript
 
-(private = x);
+(\u0070rivate = x);
+
 ```
 
 ### Diagnostics

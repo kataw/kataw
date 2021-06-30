@@ -41,7 +41,8 @@ debugger /* comment */ ;
 
 ```javascript
 
-debugger;
+debugger/* comment */;
+
 ```
 
 ### Diagnostics

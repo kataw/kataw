@@ -152,7 +152,7 @@ try {
                                             "kind": 280,
                                             "decorators": null,
                                             "declaredToken": null,
-                                            "staticToken": {
+                                            "staticKeyword": {
                                                 "kind": 8388716,
                                                 "flags": 64,
                                                 "start": 81,
@@ -200,8 +200,8 @@ try {
                                             "end": 119
                                         },
                                         {
-                                            "kind": 317,
-                                            "flags": 96,
+                                            "kind": 1108353041,
+                                            "flags": 64,
                                             "start": 119,
                                             "end": 120
                                         },
@@ -372,14 +372,14 @@ try {
 
 try {
   class C {
-
-    static x = subsequentField = true;
-
-
+    static x = subsequentField = true
+    ;
   }
-} catch (error) {
+}
+catch (error){
   caught = error;
 }
+
 ```
 
 ### Diagnostics

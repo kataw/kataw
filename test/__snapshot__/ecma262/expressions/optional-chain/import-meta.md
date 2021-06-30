@@ -42,8 +42,8 @@ function f() {
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 10,
-                "end": 12
+                "start": 11,
+                "end": 11
             },
             "contents": {
                 "kind": 216,
@@ -60,73 +60,67 @@ function f() {
                                 "end": 25
                             },
                             "expression": {
-                                "kind": 120,
+                                "kind": 206,
+                                "importKeyword": {
+                                    "kind": 37814364,
+                                    "flags": 64,
+                                    "start": 25,
+                                    "end": 32
+                                },
                                 "expression": {
-                                    "kind": 206,
-                                    "importKeyword": {
-                                        "kind": 37814364,
-                                        "flags": 64,
-                                        "start": 25,
-                                        "end": 32
-                                    },
+                                    "kind": 131,
                                     "expression": {
-                                        "kind": 131,
-                                        "expression": {
-                                            "kind": 129,
-                                            "member": {
-                                                "kind": 121,
-                                                "expression": {
-                                                    "kind": 201392131,
-                                                    "text": "foo",
-                                                    "rawText": "\"foo\"",
-                                                    "flags": 96,
-                                                    "start": 35,
-                                                    "end": 40
-                                                },
-                                                "flags": 32,
-                                                "start": 34,
-                                                "end": 41
-                                            },
+                                        "kind": 129,
+                                        "member": {
+                                            "kind": 121,
                                             "expression": {
-                                                "kind": 134299649,
-                                                "text": "then",
-                                                "rawText": "then",
+                                                "kind": 201392131,
+                                                "text": "foo",
+                                                "rawText": "\"foo\"",
                                                 "flags": 96,
-                                                "start": 42,
-                                                "end": 46
+                                                "start": 35,
+                                                "end": 40
                                             },
-                                            "flags": 536870944,
+                                            "flags": 32,
                                             "start": 34,
+                                            "end": 41
+                                        },
+                                        "expression": {
+                                            "kind": 134299649,
+                                            "text": "then",
+                                            "rawText": "then",
+                                            "flags": 96,
+                                            "start": 42,
                                             "end": 46
                                         },
-                                        "argumentList": {
-                                            "kind": 256,
-                                            "elements": [
-                                                {
-                                                    "kind": 134299649,
-                                                    "text": "party",
-                                                    "rawText": "party",
-                                                    "flags": 96,
-                                                    "start": 47,
-                                                    "end": 52
-                                                }
-                                            ],
-                                            "trailingComma": false,
-                                            "flags": 32,
-                                            "start": 47,
-                                            "end": 52
-                                        },
-                                        "flags": 268435488,
+                                        "flags": 32,
                                         "start": 34,
-                                        "end": 53
+                                        "end": 46
                                     },
-                                    "flags": 32,
-                                    "start": 32,
+                                    "argumentList": {
+                                        "kind": 256,
+                                        "elements": [
+                                            {
+                                                "kind": 134299649,
+                                                "text": "party",
+                                                "rawText": "party",
+                                                "flags": 96,
+                                                "start": 47,
+                                                "end": 52
+                                            }
+                                        ],
+                                        "trailingComma": false,
+                                        "flags": 32,
+                                        "start": 47,
+                                        "end": 52
+                                    },
+                                    "flags": 268435488,
+                                    "start": 34,
                                     "end": 53
                                 },
-                                "flags": 16,
+                                "flags": 32,
                                 "start": 32,
-                                "end": 54
+                                "end": 53
                             },
                             "flags": 81,
                             "start": 14,

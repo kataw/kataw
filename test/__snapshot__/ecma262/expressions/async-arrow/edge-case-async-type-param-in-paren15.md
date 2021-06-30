@@ -51,6 +51,12 @@ async <T = U>(x) => y;
                                     "end": 8
                                 },
                                 "type": null,
+                                "assignToken": {
+                                    "kind": 4125,
+                                    "flags": 64,
+                                    "start": 8,
+                                    "end": 10
+                                },
                                 "defaultType": {
                                     "kind": 139,
                                     "bitwiseOrToken": null,
@@ -156,6 +162,12 @@ async <T = U>(x) => y;
                                         "end": 33
                                     },
                                     "type": null,
+                                    "assignToken": {
+                                        "kind": 4125,
+                                        "flags": 64,
+                                        "start": 33,
+                                        "end": 35
+                                    },
                                     "defaultType": {
                                         "kind": 139,
                                         "bitwiseOrToken": null,
@@ -251,8 +263,9 @@ async <T = U>(x) => y;
 
 ```javascript
 
-async  =>  y;
-(async  =>  y);
+async <T= U>(x) => y;
+(async <T= U>(x) => y);
+
 ```
 
 ### Diagnostics

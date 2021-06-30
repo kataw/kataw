@@ -74,7 +74,9 @@ class enum {}
 
 ```javascript
 
-class enum {}
+class enum {
+}
+
 ```
 
 ### Diagnostics

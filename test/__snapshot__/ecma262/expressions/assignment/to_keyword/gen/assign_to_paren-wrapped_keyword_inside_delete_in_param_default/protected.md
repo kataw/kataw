@@ -149,7 +149,8 @@ async (x = delete ((protected) = f)) => {}
 
 ```javascript
 
-async  =>  {}
+async (x = delete  ((protected) = f)) =>  { }
+
 ```
 
 ### Diagnostics

@@ -25,7 +25,7 @@
                         "kind": 201392130,
                         "text": 123,
                         "rawText": "123.",
-                        "flags": 96,
+                        "flags": 32864,
                         "start": 0,
                         "end": 4
                     },
@@ -37,7 +37,7 @@
                         "start": 5,
                         "end": 13
                     },
-                    "flags": 536870944,
+                    "flags": 32864,
                     "start": 0,
                     "end": 13
                 },
@@ -80,7 +80,8 @@
 
 ```javascript
 
-123.toString(10);
+123..toString(10);
+
 ```
 
 ### Diagnostics

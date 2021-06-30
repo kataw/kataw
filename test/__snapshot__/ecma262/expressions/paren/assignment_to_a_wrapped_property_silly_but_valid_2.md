@@ -84,6 +84,7 @@
 ```javascript
 
 (a[b]) += 1;
+
 ```
 
 ### Diagnostics

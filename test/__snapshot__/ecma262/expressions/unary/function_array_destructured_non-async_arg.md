@@ -45,8 +45,8 @@ async function f(){   function fh([+ await x]) { }   }
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 16,
-                "end": 18
+                "start": 17,
+                "end": 17
             },
             "contents": {
                 "kind": 216,
@@ -94,8 +94,8 @@ async function f(){   function fh([+ await x]) { }   }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
-                                "start": 33,
-                                "end": 36
+                                "start": 34,
+                                "end": 35
                             },
                             "contents": {
                                 "kind": 216,

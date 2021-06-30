@@ -137,8 +137,9 @@ class x {static get default(){}}
 ```javascript
 
 class x {
-  static get static default() {}
+  static get default() { }
 }
+
 ```
 
 ### Diagnostics

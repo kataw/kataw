@@ -86,8 +86,8 @@ class A extends async function *f(){} {}
                             "formalParameters": [],
                             "trailingComma": false,
                             "flags": 32,
-                            "start": 33,
-                            "end": 35
+                            "start": 34,
+                            "end": 34
                         },
                         "contents": {
                             "kind": 216,
@@ -142,7 +142,9 @@ class A extends async function *f(){} {}
 
 ```javascript
 
-class A  {}
+class A extends async function* f() { } {
+}
+
 ```
 
 ### Diagnostics

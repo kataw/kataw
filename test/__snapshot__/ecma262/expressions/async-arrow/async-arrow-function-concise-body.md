@@ -133,7 +133,8 @@ var a = async (options = {}) => options;
 
 ```javascript
 
-var a = async  =>  options;
+var a = async (options = {}) => options;
+
 ```
 
 ### Diagnostics

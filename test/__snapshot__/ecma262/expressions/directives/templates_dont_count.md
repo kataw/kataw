@@ -40,8 +40,8 @@ function f(){ `use strict`; with (x) y; }
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 10,
-                "end": 12
+                "start": 11,
+                "end": 11
             },
             "contents": {
                 "kind": 216,
@@ -125,11 +125,9 @@ function f(){ `use strict`; with (x) y; }
 
 ```javascript
 
-function f() {
-  `use strict`;
-  with (x)
-    y;
-}
+function f() { `use strict`; with (x)
+  y; }
+
 ```
 
 ### Diagnostics

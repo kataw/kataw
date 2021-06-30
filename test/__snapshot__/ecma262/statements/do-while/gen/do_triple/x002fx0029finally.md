@@ -50,7 +50,7 @@ do do do /)finally while while while
                     "statement": {
                         "kind": 120,
                         "expression": {
-                            "kind": 221,
+                            "kind": 371,
                             "text": "/)finally while while while",
                             "flags": 96,
                             "start": 8,

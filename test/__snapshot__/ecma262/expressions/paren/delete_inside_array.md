@@ -50,7 +50,7 @@
                                         "start": 13,
                                         "end": 16
                                     },
-                                    "flags": 536870944,
+                                    "flags": 96,
                                     "start": 8,
                                     "end": 16
                                 },
@@ -90,7 +90,8 @@
 
 ```javascript
 
-([delete foo.bar]);
+([delete  foo.bar,]);
+
 ```
 
 ### Diagnostics

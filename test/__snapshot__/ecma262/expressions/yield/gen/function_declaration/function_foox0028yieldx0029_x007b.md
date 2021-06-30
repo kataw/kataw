@@ -48,8 +48,8 @@ function not_gen() { function foo(yield) { }}
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 16,
-                "end": 18
+                "start": 17,
+                "end": 17
             },
             "contents": {
                 "kind": 216,
@@ -91,8 +91,8 @@ function not_gen() { function foo(yield) { }}
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
-                                "start": 33,
-                                "end": 40
+                                "start": 34,
+                                "end": 39
                             },
                             "contents": {
                                 "kind": 216,
@@ -141,9 +141,8 @@ function not_gen() { function foo(yield) { }}
 
 ```javascript
 
-function not_gen() {
-  function foo() {}
-}
+function not_gen() { function foo(yield) { } }
+
 ```
 
 ### Diagnostics

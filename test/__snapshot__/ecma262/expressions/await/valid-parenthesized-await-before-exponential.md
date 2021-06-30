@@ -109,7 +109,8 @@ async () => (await 5) ** 6;
 
 ```javascript
 
-async  =>  (await 5) ** 6
+async () => (await 5) ** 6
+;
 
 ```
 

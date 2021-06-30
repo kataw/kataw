@@ -137,8 +137,9 @@ class x {static * await(){}}
 ```javascript
 
 class x {
-  static static await() {}
+  static *await() { }
 }
+
 ```
 
 ### Diagnostics

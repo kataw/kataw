@@ -36,12 +36,7 @@
                             "text": "a ",
                             "expression": {
                                 "kind": 271,
-                                "asyncKeyword": {
-                                    "kind": 82031,
-                                    "flags": 64,
-                                    "start": 5,
-                                    "end": 10
-                                },
+                                "asyncKeyword": null,
                                 "typeParameters": null,
                                 "arrowPatameterList": {
                                     "kind": 134299649,
@@ -95,7 +90,7 @@
                     "start": 21,
                     "end": 27
                 },
-                "flags": 536870944,
+                "flags": 32,
                 "start": 0,
                 "end": 27
             },
@@ -117,7 +112,8 @@
 
 ```javascript
 
-`a ${async async =>  ok} b`.length;
+`a ${async => ok} b`.length;
+
 ```
 
 ### Diagnostics

@@ -53,8 +53,8 @@ function * gen() { function not_gen() { function *a(){yield typeof 0} }}
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 14,
-                "end": 16
+                "start": 15,
+                "end": 15
             },
             "contents": {
                 "kind": 216,
@@ -87,8 +87,8 @@ function * gen() { function not_gen() { function *a(){yield typeof 0} }}
                                 "formalParameters": [],
                                 "trailingComma": false,
                                 "flags": 32,
-                                "start": 35,
-                                "end": 37
+                                "start": 36,
+                                "end": 36
                             },
                             "contents": {
                                 "kind": 216,
@@ -126,8 +126,8 @@ function * gen() { function not_gen() { function *a(){yield typeof 0} }}
                                                 "formalParameters": [],
                                                 "trailingComma": false,
                                                 "flags": 32,
-                                                "start": 51,
-                                                "end": 53
+                                                "start": 52,
+                                                "end": 52
                                             },
                                             "contents": {
                                                 "kind": 216,
@@ -231,13 +231,8 @@ function * gen() { function not_gen() { function *a(){yield typeof 0} }}
 
 ```javascript
 
-function * gen() {
-  function not_gen() {
-    function * a() {
-      yield typeof 0;
-    }
-  }
-}
+function* gen() { function not_gen() { function* a() { yield typeof  0; } } }
+
 ```
 
 ### Diagnostics

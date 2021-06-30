@@ -132,6 +132,7 @@ a ? b : c ** x ? d : e
 ```javascript
 
 a ? b : c ** x ? d : e;
+
 ```
 
 ### Diagnostics

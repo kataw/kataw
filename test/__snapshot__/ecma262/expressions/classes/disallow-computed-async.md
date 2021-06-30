@@ -46,7 +46,7 @@ class A {
                             "kind": 280,
                             "decorators": null,
                             "declaredToken": null,
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "asyncKeyword": null,
                             "key": {
                                 "kind": 194,
@@ -148,9 +148,10 @@ class A {
 ```javascript
 
 class A {
-  ["\"async\""];
-  a() {}
+  ["\"async\""]
+  a() { }
 }
+
 ```
 
 ### Diagnostics

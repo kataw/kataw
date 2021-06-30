@@ -48,8 +48,8 @@ function not_gen() { await.b[c] => async }}
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 16,
-                "end": 18
+                "start": 17,
+                "end": 17
             },
             "contents": {
                 "kind": 216,
@@ -79,7 +79,7 @@ function not_gen() { await.b[c] => async }}
                                         "start": 27,
                                         "end": 28
                                     },
-                                    "flags": 536870944,
+                                    "flags": 96,
                                     "start": 20,
                                     "end": 28
                                 },

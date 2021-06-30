@@ -146,10 +146,10 @@ switch (l) { case a = b ? c : d : }
 
 ```javascript
 
-switch(l) {
+switch (l) {
   case a = b ? c : d:
-
 }
+
 ```
 
 ### Diagnostics

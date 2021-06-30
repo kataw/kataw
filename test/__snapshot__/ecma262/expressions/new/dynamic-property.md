@@ -40,8 +40,8 @@ function x(){""[new.target]}
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 10,
-                "end": 12
+                "start": 11,
+                "end": 11
             },
             "contents": {
                 "kind": 216,
@@ -115,9 +115,8 @@ function x(){""[new.target]}
 
 ```javascript
 
-function x() {
-  "\"\""[];
-}
+function x() { "\"\""[new.target]; }
+
 ```
 
 ### Diagnostics

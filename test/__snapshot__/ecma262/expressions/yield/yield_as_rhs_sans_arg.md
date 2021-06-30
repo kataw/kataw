@@ -45,8 +45,8 @@ function *g() { function f(x = x + yield) {}; }
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 11,
-                "end": 13
+                "start": 12,
+                "end": 12
             },
             "contents": {
                 "kind": 216,
@@ -125,8 +125,8 @@ function *g() { function f(x = x + yield) {}; }
                                 ],
                                 "trailingComma": false,
                                 "flags": 34,
-                                "start": 26,
-                                "end": 41
+                                "start": 27,
+                                "end": 40
                             },
                             "contents": {
                                 "kind": 216,
@@ -181,10 +181,8 @@ function *g() { function f(x = x + yield) {}; }
 
 ```javascript
 
-function * g() {
-  function f() {}
+function* g() { function f(x = x + yield) { } ; }
 
-}
 ```
 
 ### Diagnostics

@@ -105,7 +105,8 @@ async x => (package) = 1
 
 ```javascript
 
-async x =>  (package) = 1;
+async x => (package) = 1;
+
 ```
 
 ### Diagnostics

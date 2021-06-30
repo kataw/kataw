@@ -90,7 +90,7 @@
                                         "optionalToken": null,
                                         "type": null,
                                         "right": null,
-                                        "flags": 32,
+                                        "flags": 1073741856,
                                         "start": 2,
                                         "end": 9
                                     }
@@ -215,7 +215,7 @@
                                         "optionalToken": null,
                                         "type": null,
                                         "right": null,
-                                        "flags": 32,
+                                        "flags": 1073741856,
                                         "start": 21,
                                         "end": 30
                                     }

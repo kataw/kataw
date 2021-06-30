@@ -59,7 +59,7 @@
                                                     "start": 9,
                                                     "end": 10
                                                 },
-                                                "flags": 536870944,
+                                                "flags": 96,
                                                 "start": 5,
                                                 "end": 10
                                             },
@@ -93,7 +93,7 @@
                                                     "start": 17,
                                                     "end": 18
                                                 },
-                                                "flags": 536870944,
+                                                "flags": 96,
                                                 "start": 13,
                                                 "end": 18
                                             },
@@ -165,7 +165,8 @@
 
 ```javascript
 
-({ a: (a.b) = (c.d) } = {});
+({ a : (a.b) = (c.d) } = {});
+
 ```
 
 ### Diagnostics

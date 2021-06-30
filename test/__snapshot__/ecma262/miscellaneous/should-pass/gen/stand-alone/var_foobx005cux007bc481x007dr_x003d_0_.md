@@ -81,7 +81,8 @@ var foob\u{c481}r = 0;
 
 ```javascript
 
-var foob쒁r = 0;
+var foob\u{c481}r = 0;
+
 ```
 
 ### Diagnostics

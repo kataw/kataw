@@ -141,8 +141,9 @@ class x {set default(x){}}
 ```javascript
 
 class x {
-  set default() {}
+  set default(x) { }
 }
+
 ```
 
 ### Diagnostics

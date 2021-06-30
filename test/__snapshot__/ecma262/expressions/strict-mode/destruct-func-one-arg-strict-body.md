@@ -73,8 +73,8 @@
                         ],
                         "trailingComma": false,
                         "flags": 32,
-                        "start": 11,
-                        "end": 16
+                        "start": 12,
+                        "end": 15
                     },
                     "contents": {
                         "kind": 216,
@@ -126,7 +126,10 @@
 
 ```javascript
 
-+function f() {};
++ function f([x]) {
+"\"use strict\"";
+};
+
 ```
 
 ### Diagnostics

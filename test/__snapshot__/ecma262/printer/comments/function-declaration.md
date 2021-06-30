@@ -97,8 +97,8 @@ function foo4() {
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 10,
-                "end": 25
+                "start": 11,
+                "end": 11
             },
             "contents": {
                 "kind": 216,
@@ -144,8 +144,8 @@ function foo4() {
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 50,
-                "end": 52
+                "start": 51,
+                "end": 51
             },
             "contents": {
                 "kind": 216,
@@ -216,8 +216,8 @@ function foo4() {
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 77,
-                "end": 109
+                "start": 78,
+                "end": 108
             },
             "contents": {
                 "kind": 216,
@@ -338,8 +338,8 @@ function foo4() {
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 166,
-                "end": 176
+                "start": 175,
+                "end": 175
             },
             "contents": {
                 "kind": 216,
@@ -385,8 +385,8 @@ function foo4() {
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 191,
-                "end": 204
+                "start": 193,
+                "end": 193
             },
             "contents": {
                 "kind": 216,
@@ -432,8 +432,8 @@ function foo4() {
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 219,
-                "end": 222
+                "start": 221,
+                "end": 221
             },
             "contents": {
                 "kind": 216,
@@ -479,8 +479,8 @@ function foo4() {
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 251,
-                "end": 271
+                "start": 260,
+                "end": 260
             },
             "contents": {
                 "kind": 216,
@@ -535,8 +535,8 @@ function foo4() {
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 301,
-                "end": 320
+                "start": 310,
+                "end": 319
             },
             "contents": {
                 "kind": 216,
@@ -591,8 +591,8 @@ function foo4() {
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 335,
-                "end": 354
+                "start": 344,
+                "end": 345
             },
             "contents": {
                 "kind": 216,
@@ -647,8 +647,8 @@ function foo4() {
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 369,
-                "end": 388
+                "start": 378,
+                "end": 387
             },
             "contents": {
                 "kind": 216,
@@ -941,8 +941,8 @@ function foo4() {
                             "formalParameters": [],
                             "trailingComma": false,
                             "flags": 32,
-                            "start": 546,
-                            "end": 556
+                            "start": 555,
+                            "end": 555
                         },
                         "contents": {
                             "kind": 216,
@@ -1013,8 +1013,8 @@ function foo4() {
                             "formalParameters": [],
                             "trailingComma": false,
                             "flags": 32,
-                            "start": 575,
-                            "end": 588
+                            "start": 577,
+                            "end": 577
                         },
                         "contents": {
                             "kind": 216,
@@ -1085,8 +1085,8 @@ function foo4() {
                             "formalParameters": [],
                             "trailingComma": false,
                             "flags": 32,
-                            "start": 607,
-                            "end": 610
+                            "start": 609,
+                            "end": 609
                         },
                         "contents": {
                             "kind": 216,
@@ -1157,8 +1157,8 @@ function foo4() {
                             "formalParameters": [],
                             "trailingComma": false,
                             "flags": 32,
-                            "start": 643,
-                            "end": 663
+                            "start": 652,
+                            "end": 652
                         },
                         "contents": {
                             "kind": 216,
@@ -1580,8 +1580,8 @@ function foo4() {
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 850,
-                "end": 852
+                "start": 851,
+                "end": 851
             },
             "contents": {
                 "kind": 216,
@@ -1648,8 +1648,8 @@ function foo4() {
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 905,
-                "end": 907
+                "start": 906,
+                "end": 906
             },
             "contents": {
                 "kind": 216,
@@ -1716,8 +1716,8 @@ function foo4() {
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 960,
-                "end": 962
+                "start": 961,
+                "end": 961
             },
             "contents": {
                 "kind": 216,
@@ -1784,8 +1784,8 @@ function foo4() {
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 1015,
-                "end": 1017
+                "start": 1016,
+                "end": 1016
             },
             "contents": {
                 "kind": 216,
@@ -1841,56 +1841,56 @@ function foo4() {
 
 ```javascript
 
-function a() {} // comment
-
-function b() {} // comment
-
-function c() {} // comment
-
-call(() =>  {});
-function f1 /* f */() {}
-function f2() {}
-function f3() /* returns */ {}
-function f4 /* f */() /* returns */ {}
-function f5 /* f */() {}
-function f6 /* f */() {}
-function f7 /* f */() /* returns */ {}
+function a(/* comment */) { }// comment
+function b() { }// comment
+function c(/* comment */argA, argB, argC) { }// comment
+call((/*object*/row) =>  { });
+function f1/* f */() { }
+function f2(/* args */) { }
+function f3() { }
+function f4/* f */(/* args */) { }
+function f5/* f */(/* a */a) { }
+function f6/* f */(a/* a */) { }
+function f7/* f */(/* a */a) { }
 const obj = {
-  f1 /* f */() {},
-  f2() {},
-  f3() /* returns */ {},
-  f4 /* f */() /* returns */ {}
+  f1/* f */() { },
+  f2(/* args */) { },
+  f3() { },
+  f4/* f */(/* args */) { },
 };
-(function f /* f */() {})();
-(function f() {})();
-(function f() /* returns */ {})();
-(function f /* f */() /* returns */ {})();
+(function f/* f */() { })();
+(function f(/* args */) { })();
+(function f() { })();
+(function f/* f */(/* args */) { })();
 class C1 {
-  f /* f */() {}
+  f/* f */() { }
 }
 class C2 {
-  f() {}
+  f(/* args */) { }
 }
 class C3 {
-  f() /* returns */ {}
+  f() { }
 }
 class C4 {
-  f /* f */() /* returns */ {}
+  f/* f */(/* args */) { }
 }
-function foo1() {
-  return  42;
+function foo1() 
+ // this is a function
+{
+  return 42;
+  // this is a function
 }
-function foo2() // this is a function
- {
-  return  42;
+function foo2() {
+  return 42;
 }
-function foo3() {
-  return  42;
+function foo3() {// this is a function
+  return 42;
 }
 function foo4() {
-  // this is a function
-  return  42;
+   // this is a function
+  return 42;
 }
+
 ```
 
 ### Diagnostics

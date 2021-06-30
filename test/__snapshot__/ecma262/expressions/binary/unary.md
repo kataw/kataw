@@ -72,7 +72,7 @@ const anyTestFailures = !(
                                                 "start": 47,
                                                 "end": 61
                                             },
-                                            "flags": 536870944,
+                                            "flags": 96,
                                             "start": 25,
                                             "end": 61
                                         },
@@ -120,7 +120,7 @@ const anyTestFailures = !(
                                                 "start": 91,
                                                 "end": 116
                                             },
-                                            "flags": 536870944,
+                                            "flags": 96,
                                             "start": 70,
                                             "end": 116
                                         },
@@ -181,11 +181,8 @@ const anyTestFailures = !(
 
 ```javascript
 
-const anyTestFailures =
-  !(
-    aggregatedResults.numFailedTests === 0 &&
-    aggregatedResults.numRuntimeErrorTestSuites === 0
-  );
+const anyTestFailures = ! (aggregatedResults.numFailedTests === 0 && aggregatedResults.numRuntimeErrorTestSuites === 0);
+
 ```
 
 ### Diagnostics

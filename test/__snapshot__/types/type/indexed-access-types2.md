@@ -79,6 +79,7 @@ type C = Obj['bar'][foo]['boz'];
                                 "type": {
                                     "kind": 134217967,
                                     "text": "bar",
+                                    "rawText": "'bar'",
                                     "flags": 2097216,
                                     "start": 13,
                                     "end": 18
@@ -125,6 +126,7 @@ type C = Obj['bar'][foo]['boz'];
                         "type": {
                             "kind": 134217967,
                             "text": "boz",
+                            "rawText": "'boz'",
                             "flags": 2097216,
                             "start": 25,
                             "end": 30
@@ -159,6 +161,7 @@ type C = Obj['bar'][foo]['boz'];
 
 ```javascript
 
+type C = Obj["'bar'"][foo]["'boz'"]
 
 ```
 

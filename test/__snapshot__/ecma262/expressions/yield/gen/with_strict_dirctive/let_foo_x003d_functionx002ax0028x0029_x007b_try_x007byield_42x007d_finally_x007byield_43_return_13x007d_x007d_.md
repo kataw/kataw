@@ -76,8 +76,8 @@
                                 "formalParameters": [],
                                 "trailingComma": false,
                                 "flags": 32,
-                                "start": 33,
-                                "end": 35
+                                "start": 34,
+                                "end": 34
                             },
                             "contents": {
                                 "kind": 216,
@@ -249,14 +249,15 @@
 
 ```javascript
 
-let foo = function * () {
-  try {
-    yield 42;
-  } try{
-    yield 43;
-    return  13;
-  }
-};
+'\'use strict\'';
+let foo = function* () { try {
+  yield 42;
+}
+finally {
+  yield 43;
+  return 13;
+} };
+
 ```
 
 ### Diagnostics

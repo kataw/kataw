@@ -105,7 +105,8 @@ let =>  x, let =>  x;
 
 ```javascript
 
-let =>  x, let =>  x;
+let => x, let => x;
+
 ```
 
 ### Diagnostics

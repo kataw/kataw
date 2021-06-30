@@ -114,9 +114,8 @@ async () => {  p\u0072otected = x  }
 
 ```javascript
 
-async  =>  {
-  protected = x;
-}
+async () =>  { p\u0072otected = x; }
+
 ```
 
 ### Diagnostics

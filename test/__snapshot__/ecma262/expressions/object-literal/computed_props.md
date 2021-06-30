@@ -333,7 +333,7 @@ module.exports = {
                                                     "start": 178,
                                                     "end": 181
                                                 },
-                                                "flags": 536870944,
+                                                "flags": 96,
                                                 "start": 170,
                                                 "end": 181
                                             },
@@ -359,7 +359,7 @@ module.exports = {
                                                 "start": 196,
                                                 "end": 199
                                             },
-                                            "flags": 536870944,
+                                            "flags": 96,
                                             "start": 166,
                                             "end": 199
                                         },
@@ -390,7 +390,7 @@ module.exports = {
                                                     "start": 212,
                                                     "end": 217
                                                 },
-                                                "flags": 536870944,
+                                                "flags": 96,
                                                 "start": 204,
                                                 "end": 217
                                             },
@@ -416,7 +416,7 @@ module.exports = {
                                                 "start": 232,
                                                 "end": 237
                                             },
-                                            "flags": 536870944,
+                                            "flags": 96,
                                             "start": 200,
                                             "end": 237
                                         },
@@ -447,7 +447,7 @@ module.exports = {
                                                     "start": 250,
                                                     "end": 254
                                                 },
-                                                "flags": 536870944,
+                                                "flags": 96,
                                                 "start": 242,
                                                 "end": 254
                                             },
@@ -473,7 +473,7 @@ module.exports = {
                                                 "start": 269,
                                                 "end": 273
                                             },
-                                            "flags": 536870944,
+                                            "flags": 96,
                                             "start": 238,
                                             "end": 273
                                         },
@@ -526,7 +526,7 @@ module.exports = {
                         "start": 285,
                         "end": 292
                     },
-                    "flags": 536870944,
+                    "flags": 96,
                     "start": 276,
                     "end": 292
                 },
@@ -557,7 +557,7 @@ module.exports = {
                                     "start": 302,
                                     "end": 307
                                 },
-                                "flags": 32,
+                                "flags": 1073741856,
                                 "start": 296,
                                 "end": 307
                             },
@@ -606,7 +606,7 @@ module.exports = {
                                     "start": 334,
                                     "end": 339
                                 },
-                                "flags": 32,
+                                "flags": 1073741856,
                                 "start": 328,
                                 "end": 339
                             }
@@ -642,14 +642,27 @@ module.exports = {
 
 ```javascript
 
-const ColorId = { RED: "'R'", GREEN: "'G'", BLUE: "'B'" };
-const ColorNumber = { RED: "'ff0000'", GREEN: "'00ff00'", BLUE: "'0000ff'" };
-const ColorIdToNumber = {
-  [ColorId.RED]: ColorNumber.RED,
-  [ColorId.GREEN]: ColorNumber.GREEN,
-  [ColorId.BLUE]: ColorNumber.BLUE
+const ColorId = {
+  RED : '\'R\'',
+  GREEN : '\'G\'',
+  BLUE : '\'B\'',
 };
-module.exports = { ...dummy, [hello]: "'world'", ...dummy };
+const ColorNumber = {
+  RED : '\'ff0000\'',
+  GREEN : '\'00ff00\'',
+  BLUE : '\'0000ff\'',
+};
+const ColorIdToNumber = {
+  [ColorId.RED] : ColorNumber.RED,
+  [ColorId.GREEN] : ColorNumber.GREEN,
+  [ColorId.BLUE] : ColorNumber.BLUE,
+};
+module.exports = {
+  ...dummy,
+  [hello] : '\'world\'',
+  ...dummy
+};
+
 ```
 
 ### Diagnostics

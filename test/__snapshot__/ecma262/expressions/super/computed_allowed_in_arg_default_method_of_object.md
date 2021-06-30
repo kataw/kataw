@@ -74,13 +74,7 @@ x={ foo(a = super[foo]){ }}
                                                 "right": {
                                                     "kind": 130,
                                                     "member": {
-                                                        "kind": 225,
-                                                        "superKeyword": {
-                                                            "kind": 4259935,
-                                                            "flags": 96,
-                                                            "start": 11,
-                                                            "end": 17
-                                                        },
+                                                        "kind": 4259935,
                                                         "flags": 96,
                                                         "start": 11,
                                                         "end": 17
@@ -162,7 +156,8 @@ x={ foo(a = super[foo]){ }}
 
 ```javascript
 
-x = { foo() {} };
+x = { foo(a = super[foo]) { } };
+
 ```
 
 ### Diagnostics

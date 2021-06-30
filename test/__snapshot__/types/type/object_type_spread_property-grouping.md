@@ -57,7 +57,7 @@ type A = {
                         {
                             "kind": 247,
                             "protoKeyword": null,
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "ellipsisToken": {
                                 "kind": 524302,
                                 "flags": 65,
@@ -125,6 +125,7 @@ type A = {
 
 ```javascript
 
+type A = { ...(/* comment 1 */B/* comment 1 */) }
 
 ```
 

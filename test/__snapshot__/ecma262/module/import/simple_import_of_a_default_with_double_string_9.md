@@ -128,7 +128,8 @@ import {x, z,} from "y"
 
 ```javascript
 
-import { x, z }  ;
+import {  x,  z, } from "\"y\"";
+
 ```
 
 ### Diagnostics

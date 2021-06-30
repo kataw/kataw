@@ -108,6 +108,7 @@ z(x)?x:y;
 ```javascript
 
 z(x) ? x : y;
+
 ```
 
 ### Diagnostics

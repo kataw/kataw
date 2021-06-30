@@ -125,7 +125,9 @@ for (const a,b,c;;);
 
 ```javascript
 
-for (const a, b, c;; ; );
+for (const a, b, c;;)
+  ;
+
 ```
 
 ### Diagnostics

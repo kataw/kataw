@@ -123,6 +123,7 @@ await x;
 
 export const x = 1;
 await x;
+
 ```
 
 ### Diagnostics

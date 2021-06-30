@@ -199,7 +199,7 @@ module.exports = [
                         "start": 71,
                         "end": 78
                     },
-                    "flags": 536870944,
+                    "flags": 96,
                     "start": 62,
                     "end": 78
                 },
@@ -290,9 +290,13 @@ module.exports = [
 
 ```javascript
 
-import { foo1b }  ;
-import { foo2 }  ;
-module.exports = [foo1b(), foo2(),];
+import {  foo1b, } from '\'./lib1\'';
+import {  foo2, } from '\'./lib2\'';
+module.exports = [
+  foo1b(),
+  foo2(),
+];
+
 ```
 
 ### Diagnostics

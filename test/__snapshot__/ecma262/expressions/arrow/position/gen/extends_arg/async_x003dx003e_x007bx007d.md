@@ -54,12 +54,7 @@ class A extends async => {} {}
                     },
                     "expression": {
                         "kind": 271,
-                        "asyncKeyword": {
-                            "kind": 82031,
-                            "flags": 64,
-                            "start": 15,
-                            "end": 21
-                        },
+                        "asyncKeyword": null,
                         "typeParameters": null,
                         "arrowPatameterList": {
                             "kind": 134299649,
@@ -128,7 +123,9 @@ class A extends async => {} {}
 
 ```javascript
 
-class A  {}
+class A extends async =>  { } {
+}
+
 ```
 
 ### Diagnostics

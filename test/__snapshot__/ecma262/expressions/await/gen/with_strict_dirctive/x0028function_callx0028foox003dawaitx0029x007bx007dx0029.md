@@ -86,8 +86,8 @@
                         ],
                         "trailingComma": false,
                         "flags": 34,
-                        "start": 28,
-                        "end": 39
+                        "start": 29,
+                        "end": 38
                     },
                     "contents": {
                         "kind": 216,
@@ -130,7 +130,9 @@
 
 ```javascript
 
-(function call() {});
+'\'use strict\'';
+(function call(foo = await) { });
+
 ```
 
 ### Diagnostics

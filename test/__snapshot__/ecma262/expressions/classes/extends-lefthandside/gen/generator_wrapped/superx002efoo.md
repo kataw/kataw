@@ -55,8 +55,8 @@ function *P(){
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 11,
-                "end": 13
+                "start": 12,
+                "end": 12
             },
             "contents": {
                 "kind": 216,
@@ -96,13 +96,7 @@ function *P(){
                                     "expression": {
                                         "kind": 129,
                                         "member": {
-                                            "kind": 225,
-                                            "superKeyword": {
-                                                "kind": 4259935,
-                                                "flags": 96,
-                                                "start": 32,
-                                                "end": 38
-                                            },
+                                            "kind": 4259935,
                                             "flags": 96,
                                             "start": 32,
                                             "end": 38
@@ -115,7 +109,7 @@ function *P(){
                                             "start": 39,
                                             "end": 42
                                         },
-                                        "flags": 536870944,
+                                        "flags": 96,
                                         "start": 32,
                                         "end": 42
                                     },

@@ -139,7 +139,8 @@ async (a = (...await) => {});
 
 ```javascript
 
-async(a = () =>  {})
+async(a = (...await) =>  { })
+;
 
 ```
 

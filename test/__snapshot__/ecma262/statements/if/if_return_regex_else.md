@@ -43,8 +43,8 @@ function x(){
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 10,
-                "end": 12
+                "start": 11,
+                "end": 11
             },
             "contents": {
                 "kind": 216,
@@ -77,7 +77,7 @@ function x(){
                                     "end": 29
                                 },
                                 "expression": {
-                                    "kind": 221,
+                                    "kind": 371,
                                     "text": "/ /",
                                     "flags": 96,
                                     "start": 29,
@@ -132,9 +132,12 @@ function x(){
 ```javascript
 
 function x() {
-  if (x) return  / /;
-  else ;
+  if (x)
+    return / /;
+  else
+    ;
 }
+
 ```
 
 ### Diagnostics

@@ -165,8 +165,9 @@ var $\u200C = 3;
 ```javascript
 
 var $ = 1;
-var $‍ = 2;
-var $‌ = 3;
+var $\u200D = 2;
+var $\u200C = 3;
+
 ```
 
 ### Diagnostics

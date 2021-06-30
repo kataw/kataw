@@ -66,7 +66,9 @@ class x {}
 
 ```javascript
 
-class x {}
+class x {
+}
+
 ```
 
 ### Diagnostics

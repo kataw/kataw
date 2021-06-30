@@ -125,8 +125,8 @@ class x extends y { constructor(){ return async function() { return async functi
                                                         "formalParameters": [],
                                                         "trailingComma": false,
                                                         "flags": 32,
-                                                        "start": 56,
-                                                        "end": 58
+                                                        "start": 57,
+                                                        "end": 57
                                                     },
                                                     "contents": {
                                                         "kind": 216,
@@ -164,8 +164,8 @@ class x extends y { constructor(){ return async function() { return async functi
                                                                             "formalParameters": [],
                                                                             "trailingComma": false,
                                                                             "flags": 32,
-                                                                            "start": 82,
-                                                                            "end": 84
+                                                                            "start": 83,
+                                                                            "end": 83
                                                                         },
                                                                         "contents": {
                                                                             "kind": 216,
@@ -178,13 +178,7 @@ class x extends y { constructor(){ return async function() { return async functi
                                                                                         "expression": {
                                                                                             "kind": 130,
                                                                                             "member": {
-                                                                                                "kind": 225,
-                                                                                                "superKeyword": {
-                                                                                                    "kind": 4259935,
-                                                                                                    "flags": 96,
-                                                                                                    "start": 86,
-                                                                                                    "end": 92
-                                                                                                },
+                                                                                                "kind": 4259935,
                                                                                                 "flags": 96,
                                                                                                 "start": 86,
                                                                                                 "end": 92

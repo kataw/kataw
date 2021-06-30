@@ -155,9 +155,10 @@
 
 ```javascript
 
-(class   {
-    static static static() {}
-  });
+(class  extends Base {
+  static static() { }
+});
+
 ```
 
 ### Diagnostics

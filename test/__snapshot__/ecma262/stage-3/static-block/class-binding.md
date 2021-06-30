@@ -55,7 +55,7 @@ class Foo {
                             "kind": 280,
                             "decorators": null,
                             "declaredToken": null,
-                            "staticToken": {
+                            "staticKeyword": {
                                 "kind": 8388716,
                                 "flags": 64,
                                 "start": 11,
@@ -85,8 +85,8 @@ class Foo {
                             "end": 29
                         },
                         {
-                            "kind": 317,
-                            "flags": 96,
+                            "kind": 1108353041,
+                            "flags": 64,
                             "start": 29,
                             "end": 30
                         },
@@ -120,7 +120,7 @@ class Foo {
                                                         "start": 51,
                                                         "end": 54
                                                     },
-                                                    "flags": 536870944,
+                                                    "flags": 97,
                                                     "start": 41,
                                                     "end": 54
                                                 },
@@ -148,7 +148,7 @@ class Foo {
                                                         "start": 61,
                                                         "end": 64
                                                     },
-                                                    "flags": 536870944,
+                                                    "flags": 96,
                                                     "start": 56,
                                                     "end": 64
                                                 },
@@ -201,10 +201,10 @@ class Foo {
 ```javascript
 
 class Foo {
-  static bar = 42;
-
-
+  static bar = 42
+  ;
 }
+
 ```
 
 ### Diagnostics

@@ -116,7 +116,7 @@
                                                                 "start": 32,
                                                                 "end": 40
                                                             },
-                                                            "flags": 536870944,
+                                                            "flags": 96,
                                                             "start": 25,
                                                             "end": 40
                                                         },
@@ -147,8 +147,8 @@
                                                             "formalParameters": [],
                                                             "trailingComma": false,
                                                             "flags": 32,
-                                                            "start": 52,
-                                                            "end": 54
+                                                            "start": 53,
+                                                            "end": 53
                                                         },
                                                         "contents": {
                                                             "kind": 216,
@@ -865,11 +865,16 @@
 
 ```javascript
 
-({ * async method() {} });
-({ * async method() {} });
-({ * async method() {} });
-({ * async method() {} });
-({ * async method() {} });
+({ async * method([x] = g[Symbol.iterator] = function () { }) { } });
+({ async * method({
+      w: [x, y, z] = [4, 5, 6,]
+    } = {}) { } });
+({ async * method({
+      x: y = thrower()
+    } = {}) { } });
+({ async * method([x = 23]) { } });
+({ async * method([_, x]) { } });
+
 ```
 
 ### Diagnostics

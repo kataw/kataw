@@ -105,7 +105,8 @@ async (x = yield y) => {}
 
 ```javascript
 
-async  =>  {}
+async (x = yield, y) =>  { }
+
 ```
 
 ### Diagnostics

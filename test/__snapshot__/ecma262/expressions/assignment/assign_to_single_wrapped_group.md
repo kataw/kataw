@@ -70,6 +70,7 @@
 ```javascript
 
 (a) = b;
+
 ```
 
 ### Diagnostics

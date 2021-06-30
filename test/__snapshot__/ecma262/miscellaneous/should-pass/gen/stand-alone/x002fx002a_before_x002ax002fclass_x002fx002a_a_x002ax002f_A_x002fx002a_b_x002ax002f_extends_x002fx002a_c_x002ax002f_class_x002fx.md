@@ -122,7 +122,10 @@
 
 ```javascript
 /* before */
-class /* a */ A /* b */   /* g */{} /* after */
+class/* a */ A/* b */ extends/* c */ class/* d */ B/* e */ {
+} /* g */{
+}/* after */
+
 ```
 
 ### Diagnostics

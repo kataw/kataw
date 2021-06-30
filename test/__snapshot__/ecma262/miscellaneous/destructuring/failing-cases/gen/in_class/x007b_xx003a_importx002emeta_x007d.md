@@ -84,27 +84,21 @@ class x { { x: import.meta } }
                         "statement": {
                             "kind": 120,
                             "expression": {
-                                "kind": 120,
-                                "expression": {
-                                    "kind": 299,
-                                    "importKeyword": {
-                                        "kind": 37814364,
-                                        "flags": 64,
-                                        "start": 14,
-                                        "end": 21
-                                    },
-                                    "metaIdentifier": {
-                                        "kind": 16595,
-                                        "flags": 96,
-                                        "start": 22,
-                                        "end": 26
-                                    },
-                                    "flags": 21,
-                                    "start": 96,
+                                "kind": 299,
+                                "importKeyword": {
+                                    "kind": 37814364,
+                                    "flags": 64,
+                                    "start": 14,
+                                    "end": 21
+                                },
+                                "metaIdentifier": {
+                                    "kind": 16595,
+                                    "flags": 96,
+                                    "start": 22,
                                     "end": 26
                                 },
-                                "flags": 16,
-                                "start": 21,
+                                "flags": 21,
+                                "start": 96,
                                 "end": 26
                             },
                             "flags": 16,

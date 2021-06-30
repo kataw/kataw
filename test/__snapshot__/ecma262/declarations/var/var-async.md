@@ -74,6 +74,7 @@ var async = 0
 ```javascript
 
 var async = 0;
+
 ```
 
 ### Diagnostics

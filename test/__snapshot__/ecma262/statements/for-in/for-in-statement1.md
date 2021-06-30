@@ -187,8 +187,9 @@ for (a in expr) {
 
 var a: any;
 var expr: any;
-for (a in expr)
-  {}
+for (a in expr) {
+}
+
 ```
 
 ### Diagnostics

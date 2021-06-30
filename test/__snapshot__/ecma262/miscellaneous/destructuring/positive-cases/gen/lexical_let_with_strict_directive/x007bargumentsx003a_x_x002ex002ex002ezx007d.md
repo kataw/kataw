@@ -148,10 +148,12 @@
 
 ```javascript
 
+'\'use strict\'';
 let {
   arguments: x,
   ...z
 } = {};
+
 ```
 
 ### Diagnostics

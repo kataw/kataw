@@ -80,6 +80,7 @@ declare var foo;
 ```javascript
 
 var foo;
+
 ```
 
 ### Diagnostics

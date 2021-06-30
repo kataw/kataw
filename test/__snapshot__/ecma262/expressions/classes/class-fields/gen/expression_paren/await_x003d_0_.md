@@ -48,7 +48,7 @@
                                     "kind": 280,
                                     "decorators": null,
                                     "declaredToken": null,
-                                    "staticToken": null,
+                                    "staticKeyword": null,
                                     "asyncKeyword": null,
                                     "key": {
                                         "kind": 134299649,
@@ -73,8 +73,8 @@
                                     "end": 18
                                 },
                                 {
-                                    "kind": 317,
-                                    "flags": 96,
+                                    "kind": 1108353041,
+                                    "flags": 64,
                                     "start": 18,
                                     "end": 19
                                 }
@@ -114,9 +114,10 @@
 ```javascript
 
 (class  {
-    await = 0;
+  await = 0
+  ;
+});
 
-  });
 ```
 
 ### Diagnostics

@@ -68,7 +68,7 @@ new new A().foo
                     "start": 12,
                     "end": 15
                 },
-                "flags": 536870944,
+                "flags": 96,
                 "start": 0,
                 "end": 15
             },
@@ -90,7 +90,8 @@ new new A().foo
 
 ```javascript
 
-new  new  A()().foo;
+new new A().foo;
+
 ```
 
 ### Diagnostics

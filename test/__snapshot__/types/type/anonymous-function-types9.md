@@ -126,6 +126,7 @@ var f = (x): (x: number) => 123 => 123;
                                         "type": {
                                             "kind": 134217968,
                                             "text": 123,
+                                            "rawText": "123",
                                             "flags": 2097216,
                                             "start": 27,
                                             "end": 31
@@ -187,7 +188,8 @@ var f = (x): (x: number) => 123 => 123;
 
 ```javascript
 
-var f = () =>  123;
+var f = (x) => 123;
+
 ```
 
 ### Diagnostics

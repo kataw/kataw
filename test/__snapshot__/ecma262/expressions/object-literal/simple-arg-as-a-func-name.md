@@ -104,8 +104,8 @@ o = {f(x) { function x() {} }}
                                                         "formalParameters": [],
                                                         "trailingComma": false,
                                                         "flags": 32,
-                                                        "start": 22,
-                                                        "end": 24
+                                                        "start": 23,
+                                                        "end": 23
                                                     },
                                                     "contents": {
                                                         "kind": 216,
@@ -175,9 +175,8 @@ o = {f(x) { function x() {} }}
 
 ```javascript
 
-o = { f() {
-    function x() {}
-  } };
+o = { f(x) { function x() { } } };
+
 ```
 
 ### Diagnostics

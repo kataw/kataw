@@ -43,10 +43,18 @@ async (x, ...a)=>0;
                             "start": 9,
                             "end": 13
                         },
+                        "left": {
+                            "kind": 134299649,
+                            "text": "a",
+                            "rawText": "a",
+                            "flags": 96,
+                            "start": 13,
+                            "end": 14
+                        },
                         "optionalToken": null,
                         "type": null,
                         "right": null,
-                        "flags": 32,
+                        "flags": 1073741856,
                         "start": 9,
                         "end": 14
                     }
@@ -95,7 +103,8 @@ async (x, ...a)=>0;
 
 ```javascript
 
-async  =>  0
+async (x, ...a) => 0
+;
 
 ```
 

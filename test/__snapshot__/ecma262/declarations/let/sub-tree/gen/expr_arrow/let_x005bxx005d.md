@@ -88,7 +88,8 @@
 
 ```javascript
 
-() =>  let[x];
+() => let[x];
+
 ```
 
 ### Diagnostics

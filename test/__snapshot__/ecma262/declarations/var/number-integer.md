@@ -53,6 +53,7 @@ var a: 123
                             "type": {
                                 "kind": 134217968,
                                 "text": 123,
+                                "rawText": "123",
                                 "flags": 2097216,
                                 "start": 6,
                                 "end": 10
@@ -89,7 +90,8 @@ var a: 123
 
 ```javascript
 
-var a: ;
+var a: 123;
+
 ```
 
 ### Diagnostics

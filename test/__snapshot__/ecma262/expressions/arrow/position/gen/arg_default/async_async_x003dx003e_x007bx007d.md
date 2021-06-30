@@ -108,8 +108,8 @@ function f(a = async async => {}) {}
                 ],
                 "trailingComma": false,
                 "flags": 34,
-                "start": 10,
-                "end": 33
+                "start": 11,
+                "end": 32
             },
             "contents": {
                 "kind": 216,
@@ -144,7 +144,8 @@ function f(a = async async => {}) {}
 
 ```javascript
 
-function f() {}
+function f(a = async async =>  { }) { }
+
 ```
 
 ### Diagnostics

@@ -119,8 +119,8 @@ function f(a = async (x, y) => ok) {}
                 ],
                 "trailingComma": false,
                 "flags": 34,
-                "start": 10,
-                "end": 34
+                "start": 11,
+                "end": 33
             },
             "contents": {
                 "kind": 216,
@@ -155,7 +155,8 @@ function f(a = async (x, y) => ok) {}
 
 ```javascript
 
-function f() {}
+function f(a = async (x, y) => ok) { }
+
 ```
 
 ### Diagnostics

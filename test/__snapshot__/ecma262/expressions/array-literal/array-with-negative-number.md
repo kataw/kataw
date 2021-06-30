@@ -105,7 +105,8 @@ const a = [ -1 ];
 
 ```javascript
 
-const a = [-1];
+const a = [- 1,];
+
 ```
 
 ### Diagnostics

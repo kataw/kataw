@@ -140,7 +140,8 @@ let f = a + b + async()=>d
 
 ```javascript
 
-let f = a + b + async  =>  d;
+let f = a + b + async () => d;
+
 ```
 
 ### Diagnostics

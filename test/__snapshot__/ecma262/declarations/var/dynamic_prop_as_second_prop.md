@@ -140,6 +140,7 @@ var {
   a,
   [x]: y
 } = a;
+
 ```
 
 ### Diagnostics

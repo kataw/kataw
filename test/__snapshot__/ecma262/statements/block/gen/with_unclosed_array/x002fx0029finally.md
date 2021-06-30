@@ -36,7 +36,7 @@
                                 "kind": 270,
                                 "elements": [
                                     {
-                                        "kind": 221,
+                                        "kind": 371,
                                         "text": "/)finally",
                                         "flags": 96,
                                         "start": 2,

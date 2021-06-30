@@ -132,8 +132,9 @@ class x {async else(){}}
 ```javascript
 
 class x {
-  async else() {}
+  async else() { }
 }
+
 ```
 
 ### Diagnostics

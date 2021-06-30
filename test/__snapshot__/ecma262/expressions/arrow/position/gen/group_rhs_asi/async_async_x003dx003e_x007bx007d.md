@@ -112,7 +112,8 @@ x *
 
 ```javascript
 
-x * (async async =>  {});
+x * (async async =>  { });
+
 ```
 
 ### Diagnostics

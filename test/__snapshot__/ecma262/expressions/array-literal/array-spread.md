@@ -77,7 +77,7 @@
                                     "start": 8,
                                     "end": 12
                                 },
-                                "flags": 32,
+                                "flags": 1073741856,
                                 "start": 5,
                                 "end": 12
                             }
@@ -158,7 +158,7 @@
                                     "start": 27,
                                     "end": 31
                                 },
-                                "flags": 32,
+                                "flags": 1073741856,
                                 "start": 24,
                                 "end": 31
                             }
@@ -216,6 +216,7 @@
 
 [a, b, ...rest] = {};
 [a, , ...rest] = {};
+
 ```
 
 ### Diagnostics

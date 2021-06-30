@@ -56,27 +56,21 @@
                                             "end": 7
                                         },
                                         "value": {
-                                            "kind": 120,
-                                            "expression": {
-                                                "kind": 299,
-                                                "importKeyword": {
-                                                    "kind": 37814364,
-                                                    "flags": 64,
-                                                    "start": 8,
-                                                    "end": 15
-                                                },
-                                                "metaIdentifier": {
-                                                    "kind": 16595,
-                                                    "flags": 96,
-                                                    "start": 16,
-                                                    "end": 20
-                                                },
-                                                "flags": 15,
-                                                "start": 96,
+                                            "kind": 299,
+                                            "importKeyword": {
+                                                "kind": 37814364,
+                                                "flags": 64,
+                                                "start": 8,
+                                                "end": 15
+                                            },
+                                            "metaIdentifier": {
+                                                "kind": 16595,
+                                                "flags": 96,
+                                                "start": 16,
                                                 "end": 20
                                             },
-                                            "flags": 16,
-                                            "start": 15,
+                                            "flags": 15,
+                                            "start": 96,
                                             "end": 20
                                         },
                                         "initializer": null,
@@ -132,27 +126,21 @@
                                 "statement": {
                                     "kind": 120,
                                     "expression": {
-                                        "kind": 120,
-                                        "expression": {
-                                            "kind": 299,
-                                            "importKeyword": {
-                                                "kind": 37814364,
-                                                "flags": 64,
-                                                "start": 31,
-                                                "end": 38
-                                            },
-                                            "metaIdentifier": {
-                                                "kind": 16595,
-                                                "flags": 96,
-                                                "start": 39,
-                                                "end": 43
-                                            },
-                                            "flags": 38,
-                                            "start": 96,
+                                        "kind": 299,
+                                        "importKeyword": {
+                                            "kind": 37814364,
+                                            "flags": 64,
+                                            "start": 31,
+                                            "end": 38
+                                        },
+                                        "metaIdentifier": {
+                                            "kind": 16595,
+                                            "flags": 96,
+                                            "start": 39,
                                             "end": 43
                                         },
-                                        "flags": 16,
-                                        "start": 38,
+                                        "flags": 38,
+                                        "start": 96,
                                         "end": 43
                                     },
                                     "flags": 16,

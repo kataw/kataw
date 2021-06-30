@@ -105,8 +105,8 @@ function *f(x = (public) = f) {}
                 ],
                 "trailingComma": false,
                 "flags": 34,
-                "start": 11,
-                "end": 29
+                "start": 12,
+                "end": 28
             },
             "contents": {
                 "kind": 216,
@@ -141,7 +141,8 @@ function *f(x = (public) = f) {}
 
 ```javascript
 
-function * f() {}
+function* f(x = (public) = f) { }
+
 ```
 
 ### Diagnostics

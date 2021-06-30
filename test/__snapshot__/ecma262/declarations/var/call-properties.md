@@ -60,7 +60,7 @@ var a: { <T>(x: T): number; };
                                     {
                                         "kind": 196,
                                         "protoKeyword": null,
-                                        "staticToken": null,
+                                        "staticKeyword": null,
                                         "typeParameter": null,
                                         "value": {
                                             "kind": 282,
@@ -144,7 +144,7 @@ var a: { <T>(x: T): number; };
                                     {
                                         "kind": 196,
                                         "protoKeyword": null,
-                                        "staticToken": null,
+                                        "staticKeyword": null,
                                         "typeParameter": {
                                             "kind": 307,
                                             "declarations": {
@@ -161,6 +161,7 @@ var a: { <T>(x: T): number; };
                                                             "end": 36
                                                         },
                                                         "type": null,
+                                                        "assignToken": null,
                                                         "defaultType": null,
                                                         "flags": 2097152,
                                                         "start": 35,
@@ -298,7 +299,7 @@ var a: { <T>(x: T): number; };
                                     {
                                         "kind": 196,
                                         "protoKeyword": null,
-                                        "staticToken": null,
+                                        "staticKeyword": null,
                                         "typeParameter": null,
                                         "value": {
                                             "kind": 282,
@@ -382,7 +383,7 @@ var a: { <T>(x: T): number; };
                                     {
                                         "kind": 196,
                                         "protoKeyword": null,
-                                        "staticToken": null,
+                                        "staticKeyword": null,
                                         "typeParameter": null,
                                         "value": {
                                             "kind": 282,
@@ -466,7 +467,7 @@ var a: { <T>(x: T): number; };
                                     {
                                         "kind": 196,
                                         "protoKeyword": null,
-                                        "staticToken": null,
+                                        "staticKeyword": null,
                                         "typeParameter": null,
                                         "value": {
                                             "kind": 282,
@@ -497,7 +498,7 @@ var a: { <T>(x: T): number; };
                                     {
                                         "kind": 193,
                                         "protoKeyword": null,
-                                        "staticToken": null,
+                                        "staticKeyword": null,
                                         "getKeyword": null,
                                         "setKeyword": null,
                                         "key": {
@@ -530,7 +531,7 @@ var a: { <T>(x: T): number; };
                                     {
                                         "kind": 196,
                                         "protoKeyword": null,
-                                        "staticToken": null,
+                                        "staticKeyword": null,
                                         "typeParameter": null,
                                         "value": {
                                             "kind": 282,
@@ -645,7 +646,7 @@ var a: { <T>(x: T): number; };
                                     {
                                         "kind": 196,
                                         "protoKeyword": null,
-                                        "staticToken": null,
+                                        "staticKeyword": null,
                                         "typeParameter": {
                                             "kind": 307,
                                             "declarations": {
@@ -662,6 +663,7 @@ var a: { <T>(x: T): number; };
                                                             "end": 168
                                                         },
                                                         "type": null,
+                                                        "assignToken": null,
                                                         "defaultType": null,
                                                         "flags": 2097152,
                                                         "start": 167,
@@ -781,12 +783,13 @@ var a: { <T>(x: T): number; };
 
 ```javascript
 
-var a: ;
-var a: ;
-var a: ;
-var a: ;
-var a: ;
-var a: ;
+var a: { (): number };
+var a: { <T> (x: T): number };
+var a: { (): number };
+var a: { (): number };
+var a: { (): number, y: string, (x: string): string };
+var a: { <T> (x: T): number };
+
 ```
 
 ### Diagnostics

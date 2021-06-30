@@ -57,7 +57,7 @@ type a = {():string};
                         {
                             "kind": 196,
                             "protoKeyword": null,
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "typeParameter": null,
                             "value": {
                                 "kind": 282,
@@ -113,6 +113,7 @@ type a = {():string};
 
 ```javascript
 
+type a = { (): string }
 
 ```
 

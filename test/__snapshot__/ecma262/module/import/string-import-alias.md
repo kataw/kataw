@@ -389,10 +389,11 @@ import {'' as x} from 'foo';
 
 ```javascript
 
-import { x }  ;
-import { x }  ;
-import { x }  ;
-import { x }  ;
+import { '\'🍕\'' as x, } from '\'foo\'';
+import { '\'a b\'' as x, } from '\'foo\'';
+import { '\'\uD800\uDC00\'' as x, } from '\'foo\'';
+import { '\'\'' as x, } from '\'foo\'';
+
 ```
 
 ### Diagnostics

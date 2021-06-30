@@ -78,7 +78,7 @@ var foo = async ([...(foo)]);
                                                         "start": 21,
                                                         "end": 26
                                                     },
-                                                    "flags": 32,
+                                                    "flags": 1073741856,
                                                     "start": 18,
                                                     "end": 26
                                                 }
@@ -130,6 +130,7 @@ var foo = async ([...(foo)]);
 ```javascript
 
 var foo = async([...(foo)]);
+
 ```
 
 ### Diagnostics

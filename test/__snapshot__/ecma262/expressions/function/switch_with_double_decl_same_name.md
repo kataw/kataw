@@ -87,8 +87,8 @@ switch (0) {
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 32,
-                                    "start": 37,
-                                    "end": 39
+                                    "start": 38,
+                                    "end": 38
                                 },
                                 "contents": {
                                     "kind": 216,
@@ -154,8 +154,8 @@ switch (0) {
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 32,
-                                    "start": 68,
-                                    "end": 70
+                                    "start": 69,
+                                    "end": 69
                                 },
                                 "contents": {
                                     "kind": 216,
@@ -204,12 +204,13 @@ switch (0) {
 
 ```javascript
 
-switch(0) {
-  case 1:
-    function f() {}
-  default
-    function f() {}
+switch (0) {
+  case 1: 
+    function f() { }
+  default: 
+    function f() { }
 }
+
 ```
 
 ### Diagnostics

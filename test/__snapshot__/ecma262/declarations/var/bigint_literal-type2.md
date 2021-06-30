@@ -50,7 +50,7 @@ var a: 0x7Bn
                             "type": {
                                 "kind": 286,
                                 "text": 123,
-                                "raw": "0x7Bn",
+                                "rawText": "0x7Bn",
                                 "flags": 2097216,
                                 "start": 6,
                                 "end": 12
@@ -87,7 +87,8 @@ var a: 0x7Bn
 
 ```javascript
 
-var a: ;
+var a: 0x7bn;
+
 ```
 
 ### Diagnostics

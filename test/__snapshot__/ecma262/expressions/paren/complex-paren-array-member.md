@@ -82,11 +82,11 @@
                                                                                     "start": 14,
                                                                                     "end": 15
                                                                                 },
-                                                                                "flags": 536870944,
+                                                                                "flags": 32,
                                                                                 "start": 11,
                                                                                 "end": 15
                                                                             },
-                                                                            "flags": 32,
+                                                                            "flags": 1073741856,
                                                                             "start": 8,
                                                                             "end": 15
                                                                         }
@@ -140,11 +140,11 @@
                                             "start": 23,
                                             "end": 24
                                         },
-                                        "flags": 536870944,
+                                        "flags": 32,
                                         "start": 5,
                                         "end": 24
                                     },
-                                    "flags": 32,
+                                    "flags": 1073741856,
                                     "start": 2,
                                     "end": 24
                                 }
@@ -198,7 +198,8 @@
 
 ```javascript
 
-([...[([...[].x] = x)].x] = x);
+([...[([...[].x] = x),].x] = x);
+
 ```
 
 ### Diagnostics

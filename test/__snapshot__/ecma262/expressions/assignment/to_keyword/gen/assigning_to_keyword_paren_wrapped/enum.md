@@ -78,6 +78,7 @@
 ```javascript
 
 (enum = x);
+
 ```
 
 ### Diagnostics

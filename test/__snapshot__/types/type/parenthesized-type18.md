@@ -123,6 +123,7 @@ type a = (bj[c])
 
 ```javascript
 
+type a = (bj[c])
 
 ```
 

@@ -60,7 +60,7 @@ for ("foo".bar in obj);
                     "start": 11,
                     "end": 14
                 },
-                "flags": 536870944,
+                "flags": 96,
                 "start": 5,
                 "end": 14
             },
@@ -102,7 +102,9 @@ for ("foo".bar in obj);
 
 ```javascript
 
-for ("\"foo\"".bar in obj);
+for ("\"foo\"".bar in obj)
+  ;
+
 ```
 
 ### Diagnostics

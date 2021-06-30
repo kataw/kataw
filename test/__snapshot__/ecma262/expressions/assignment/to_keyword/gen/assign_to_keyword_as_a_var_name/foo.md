@@ -72,6 +72,7 @@ foo = x
 ```javascript
 
 foo = x;
+
 ```
 
 ### Diagnostics

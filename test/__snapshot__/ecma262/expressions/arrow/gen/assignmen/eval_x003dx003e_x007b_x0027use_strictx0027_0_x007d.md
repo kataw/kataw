@@ -125,8 +125,9 @@ x = eval => { 'use strict'; 0 } ;
 ```javascript
 
 x = eval =>  {
-  0;
-};
+'\'use strict\'';
+ 0; };
+
 ```
 
 ### Diagnostics

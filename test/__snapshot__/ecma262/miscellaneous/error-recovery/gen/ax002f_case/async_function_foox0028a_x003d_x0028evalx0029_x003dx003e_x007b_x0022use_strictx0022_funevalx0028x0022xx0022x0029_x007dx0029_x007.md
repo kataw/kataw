@@ -164,8 +164,8 @@ async function foo(a = (eval) => { "use strict"; funeval("x"); }) {}
                 ],
                 "trailingComma": false,
                 "flags": 34,
-                "start": 18,
-                "end": 65
+                "start": 19,
+                "end": 64
             },
             "contents": {
                 "kind": 216,
@@ -200,7 +200,10 @@ async function foo(a = (eval) => { "use strict"; funeval("x"); }) {}
 
 ```javascript
 
-async function foo() {}
+async function foo(a = (eval) =>  {
+  "\"use strict\"";
+   funeval("\"x\""); }) { }
+
 ```
 
 ### Diagnostics

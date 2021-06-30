@@ -111,7 +111,8 @@ y = async x => await x
 
 ```javascript
 
-y = async x =>  await x;
+y = async x => await x;
+
 ```
 
 ### Diagnostics

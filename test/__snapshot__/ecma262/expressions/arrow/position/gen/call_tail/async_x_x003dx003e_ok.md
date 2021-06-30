@@ -94,7 +94,7 @@ foo(async x => ok).bar
                     "start": 19,
                     "end": 22
                 },
-                "flags": 536870944,
+                "flags": 268435488,
                 "start": 0,
                 "end": 22
             },
@@ -116,7 +116,8 @@ foo(async x => ok).bar
 
 ```javascript
 
-foo(async x =>  ok).bar;
+foo(async x => ok).bar;
+
 ```
 
 ### Diagnostics

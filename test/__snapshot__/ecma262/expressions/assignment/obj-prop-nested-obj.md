@@ -194,7 +194,8 @@ result = { x: { y } } = { x: { y: 2 } };
 
 ```javascript
 
-result = { x: { y } } = { x: { y: 2 } };
+result = { x : { y } } = { x : { y : 2 } };
+
 ```
 
 ### Diagnostics

@@ -83,13 +83,7 @@
                                                     "expression": {
                                                         "kind": 129,
                                                         "member": {
-                                                            "kind": 225,
-                                                            "superKeyword": {
-                                                                "kind": 4259935,
-                                                                "flags": 96,
-                                                                "start": 13,
-                                                                "end": 19
-                                                            },
+                                                            "kind": 4259935,
                                                             "flags": 96,
                                                             "start": 13,
                                                             "end": 19
@@ -102,7 +96,7 @@
                                                             "start": 19,
                                                             "end": 19
                                                         },
-                                                        "flags": 536870944,
+                                                        "flags": 32,
                                                         "start": 13,
                                                         "end": 19
                                                     },

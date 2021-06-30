@@ -78,7 +78,7 @@ const testConsole = new TestConsole(
                                                 "start": 46,
                                                 "end": 55
                                             },
-                                            "flags": 536870944,
+                                            "flags": 96,
                                             "start": 36,
                                             "end": 55
                                         },
@@ -106,7 +106,7 @@ const testConsole = new TestConsole(
                                                 "start": 66,
                                                 "end": 72
                                             },
-                                            "flags": 536870944,
+                                            "flags": 96,
                                             "start": 57,
                                             "end": 72
                                         },
@@ -134,7 +134,7 @@ const testConsole = new TestConsole(
                                                 "start": 83,
                                                 "end": 89
                                             },
-                                            "flags": 536870944,
+                                            "flags": 96,
                                             "start": 74,
                                             "end": 89
                                         },
@@ -179,9 +179,8 @@ const testConsole = new TestConsole(
 
 ```javascript
 
-const testConsole = new  TestConsole(
-  config.useStderr ? process.stderr : process.stdout,
-);
+const testConsole = new TestConsole(config.useStderr ? process.stderr : process.stdout);
+
 ```
 
 ### Diagnostics

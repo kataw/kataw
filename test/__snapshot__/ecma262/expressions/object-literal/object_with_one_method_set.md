@@ -121,7 +121,8 @@ wrap({set(){}});
 
 ```javascript
 
-wrap({ set() {} });
+wrap({ set() { } });
+
 ```
 
 ### Diagnostics

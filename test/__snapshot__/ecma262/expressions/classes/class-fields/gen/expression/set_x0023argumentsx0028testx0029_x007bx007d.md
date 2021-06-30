@@ -160,9 +160,10 @@ class C extends Base { set #arguments(test) {} }
 
 ```javascript
 
-class C  {
-  set #arguments() {}
+class C extends Base {
+  set #arguments(test) { }
 }
+
 ```
 
 ### Diagnostics

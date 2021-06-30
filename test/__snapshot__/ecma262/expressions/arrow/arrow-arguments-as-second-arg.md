@@ -89,7 +89,8 @@
 
 ```javascript
 
-() =>  {};
+(bar, arguments) =>  { };
+
 ```
 
 ### Diagnostics

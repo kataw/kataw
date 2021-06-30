@@ -50,7 +50,7 @@ var a: 123n
                             "type": {
                                 "kind": 286,
                                 "text": "123",
-                                "raw": "123n",
+                                "rawText": "123n",
                                 "flags": 2097216,
                                 "start": 6,
                                 "end": 11
@@ -87,7 +87,8 @@ var a: 123n
 
 ```javascript
 
-var a: ;
+var a: 123n;
+
 ```
 
 ### Diagnostics

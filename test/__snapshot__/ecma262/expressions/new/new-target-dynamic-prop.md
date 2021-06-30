@@ -40,8 +40,8 @@ function f(){ x({[new.target]:y}) }
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 10,
-                "end": 12
+                "start": 11,
+                "end": 11
             },
             "contents": {
                 "kind": 216,
@@ -160,9 +160,8 @@ function f(){ x({[new.target]:y}) }
 
 ```javascript
 
-function f() {
-  x({ []: y });
-}
+function f() { x({ [new.target] : y }); }
+
 ```
 
 ### Diagnostics

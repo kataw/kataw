@@ -69,7 +69,7 @@ async( x = class { x = await });
                                 "kind": 280,
                                 "decorators": null,
                                 "declaredToken": null,
-                                "staticToken": null,
+                                "staticKeyword": null,
                                 "asyncKeyword": null,
                                 "key": {
                                     "kind": 134299649,
@@ -178,7 +178,7 @@ async( x = class { x = await });
                                             "kind": 280,
                                             "decorators": null,
                                             "declaredToken": null,
-                                            "staticToken": null,
+                                            "staticKeyword": null,
                                             "asyncKeyword": null,
                                             "key": {
                                                 "kind": 134299649,

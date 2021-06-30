@@ -162,13 +162,7 @@ class C { set x(_) { class C { constructor() { super(); } } } }
                                                                                     "expression": {
                                                                                         "kind": 131,
                                                                                         "expression": {
-                                                                                            "kind": 225,
-                                                                                            "superKeyword": {
-                                                                                                "kind": 4259935,
-                                                                                                "flags": 96,
-                                                                                                "start": 46,
-                                                                                                "end": 52
-                                                                                            },
+                                                                                            "kind": 4259935,
                                                                                             "flags": 96,
                                                                                             "start": 46,
                                                                                             "end": 52

@@ -141,8 +141,9 @@ class x {set switch(x){}}
 ```javascript
 
 class x {
-  set switch() {}
+  set switch(x) { }
 }
+
 ```
 
 ### Diagnostics

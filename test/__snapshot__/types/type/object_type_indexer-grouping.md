@@ -57,7 +57,7 @@ type A = {
                         {
                             "kind": 195,
                             "protoKeyword": null,
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "name": null,
                             "key": {
                                 "kind": 144,
@@ -135,6 +135,7 @@ type A = {
 
 ```javascript
 
+type A = { [B]: (C/* comment 2 */) }
 
 ```
 

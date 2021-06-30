@@ -114,8 +114,10 @@ while(y)
 
 ```javascript
 
-do if (x =>  {});
-while (y);
+do
+  if (x =>  { })
+    ; while (y)
+
 ```
 
 ### Diagnostics

@@ -55,7 +55,7 @@ var d: { (): string } = function (x: number): string { return "hi"; };
                                     {
                                         "kind": 196,
                                         "protoKeyword": null,
-                                        "staticToken": null,
+                                        "staticKeyword": null,
                                         "typeParameter": null,
                                         "value": {
                                             "kind": 282,
@@ -142,8 +142,8 @@ var d: { (): string } = function (x: number): string { return "hi"; };
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
-                                "start": 32,
-                                "end": 44
+                                "start": 34,
+                                "end": 43
                             },
                             "contents": {
                                 "kind": 216,
@@ -225,9 +225,8 @@ var d: { (): string } = function (x: number): string { return "hi"; };
 
 ```javascript
 
-var d:  = function (): string {
-  return  "\"hi\"";
-};
+var d: { (): string } = function (x: number): string { return "\"hi\""; };
+
 ```
 
 ### Diagnostics

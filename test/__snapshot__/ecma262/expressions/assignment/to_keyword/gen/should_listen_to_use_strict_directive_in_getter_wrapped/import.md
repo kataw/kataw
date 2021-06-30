@@ -102,34 +102,28 @@ foo = {
                                                     "expression": {
                                                         "kind": 121,
                                                         "expression": {
-                                                            "kind": 120,
-                                                            "expression": {
-                                                                "kind": 206,
-                                                                "importKeyword": {
-                                                                    "kind": 37814364,
-                                                                    "flags": 64,
-                                                                    "start": 42,
-                                                                    "end": 48
-                                                                },
-                                                                "expression": {
-                                                                    "kind": 134299649,
-                                                                    "text": "x",
-                                                                    "rawText": "x",
-                                                                    "flags": 96,
-                                                                    "start": 50,
-                                                                    "end": 52
-                                                                },
-                                                                "flags": 32,
-                                                                "start": 48,
-                                                                "end": 53
+                                                            "kind": 206,
+                                                            "importKeyword": {
+                                                                "kind": 37814364,
+                                                                "flags": 64,
+                                                                "start": 42,
+                                                                "end": 48
                                                             },
-                                                            "flags": 16,
+                                                            "expression": {
+                                                                "kind": 134299649,
+                                                                "text": "x",
+                                                                "rawText": "x",
+                                                                "flags": 96,
+                                                                "start": 50,
+                                                                "end": 52
+                                                            },
+                                                            "flags": 32,
                                                             "start": 48,
-                                                            "end": 54
+                                                            "end": 53
                                                         },
                                                         "flags": 32,
                                                         "start": 36,
-                                                        "end": 54
+                                                        "end": 53
                                                     },
                                                     "flags": 16,
                                                     "start": 36,
@@ -189,7 +183,7 @@ foo = {
 ### Diagnostics
 
 ```javascript
-✖ Expected a ')' to match the '(' token here - start: 57, end: 58
+✖ Expected a ')' to match the '(' token here - start: 53, end: 54
 
 ```
 

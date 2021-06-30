@@ -50,8 +50,8 @@
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
-                                "start": 9,
-                                "end": 14
+                                "start": 10,
+                                "end": 13
                             },
                             "contents": {
                                 "kind": 216,
@@ -80,7 +80,7 @@
                             "start": 19,
                             "end": 24
                         },
-                        "flags": 536870944,
+                        "flags": 32,
                         "start": 1,
                         "end": 24
                     },
@@ -117,7 +117,7 @@
                                                             "start": 36,
                                                             "end": 40
                                                         },
-                                                        "flags": 32,
+                                                        "flags": 1073741856,
                                                         "start": 33,
                                                         "end": 40
                                                     }
@@ -173,7 +173,9 @@
 
 ```javascript
 
-(function () {}.apply(null, [{ ...null }]));
+(function (obj) {
+}.apply(null, [{ ...null },]));
+
 ```
 
 ### Diagnostics

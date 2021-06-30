@@ -64,6 +64,7 @@ yield ** x;
 ```javascript
 
 yield ** x;
+
 ```
 
 ### Diagnostics

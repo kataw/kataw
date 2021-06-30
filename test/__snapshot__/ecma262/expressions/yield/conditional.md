@@ -63,8 +63,8 @@ async function f3() {
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 12,
-                "end": 14
+                "start": 13,
+                "end": 13
             },
             "contents": {
                 "kind": 216,
@@ -545,8 +545,8 @@ async function f3() {
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 157,
-                "end": 159
+                "start": 158,
+                "end": 158
             },
             "contents": {
                 "kind": 216,
@@ -884,8 +884,8 @@ async function f3() {
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 263,
-                "end": 265
+                "start": 264,
+                "end": 264
             },
             "contents": {
                 "kind": 216,
@@ -1179,23 +1179,24 @@ async function f3() {
 
 ```javascript
 
-function * f1() {
-  a = ( yield) ? 1 : 1;
+function* f1() {
+  a = (yield) ? 1 : 1;
   a = yield 1 ? 1 : 1;
   a = (yield 1) ? 1 : 1;
-  a = 1 ?  yield :  yield;
+  a = 1 ? yield : yield;
   a = 1 ? yield 1 : yield 1;
 }
-function * f2() {
-  a = yield * 1 ? 1 : 1;
-  a = (yield * 1) ? 1 : 1;
-  a = 1 ? yield * 1 : yield * 1;
+function* f2() {
+  a = yield* 1 ? 1 : 1;
+  a = (yield* 1) ? 1 : 1;
+  a = 1 ? yield* 1 : yield* 1;
 }
 async function f3() {
   a = await 1 ? 1 : 1;
   a = (await 1) ? 1 : 1;
   a = 1 ? await 1 : await 1;
 }
+
 ```
 
 ### Diagnostics

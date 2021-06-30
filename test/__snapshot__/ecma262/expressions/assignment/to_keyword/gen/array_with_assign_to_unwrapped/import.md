@@ -50,28 +50,22 @@ async x => import = 1
                     "end": 10
                 },
                 "contents": {
-                    "kind": 120,
+                    "kind": 206,
+                    "importKeyword": {
+                        "kind": 37814364,
+                        "flags": 64,
+                        "start": 10,
+                        "end": 17
+                    },
                     "expression": {
-                        "kind": 206,
-                        "importKeyword": {
-                            "kind": 37814364,
-                            "flags": 64,
-                            "start": 10,
-                            "end": 17
-                        },
-                        "expression": {
-                            "kind": 201392130,
-                            "text": 1,
-                            "rawText": "1",
-                            "flags": 96,
-                            "start": 19,
-                            "end": 21
-                        },
-                        "flags": 32,
-                        "start": 17,
+                        "kind": 201392130,
+                        "text": 1,
+                        "rawText": "1",
+                        "flags": 96,
+                        "start": 19,
                         "end": 21
                     },
-                    "flags": 16,
+                    "flags": 32,
                     "start": 17,
                     "end": 21
                 },

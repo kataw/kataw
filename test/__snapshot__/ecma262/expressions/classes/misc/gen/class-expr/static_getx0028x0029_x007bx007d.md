@@ -136,8 +136,9 @@
 ```javascript
 
 (class  {
-    static static get() {}
-  });
+  static get() { }
+});
+
 ```
 
 ### Diagnostics

@@ -149,7 +149,8 @@ async (x = delete ((public) = f)) => {}
 
 ```javascript
 
-async  =>  {}
+async (x = delete  ((public) = f)) =>  { }
+
 ```
 
 ### Diagnostics

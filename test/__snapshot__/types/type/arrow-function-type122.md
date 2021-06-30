@@ -214,6 +214,7 @@ type a = (((| x, )=> T) => T);
 
 ```javascript
 
+type a = (((| x,) => T) => T)
 
 ```
 

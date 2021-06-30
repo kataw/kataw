@@ -58,11 +58,11 @@
                                             "start": 8,
                                             "end": 9
                                         },
-                                        "flags": 536870944,
+                                        "flags": 48,
                                         "start": 5,
                                         "end": 9
                                     },
-                                    "flags": 32,
+                                    "flags": 1073741856,
                                     "start": 2,
                                     "end": 9
                                 }
@@ -117,6 +117,7 @@
 ```javascript
 
 ({ ...{}.x } = x);
+
 ```
 
 ### Diagnostics

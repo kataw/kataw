@@ -57,6 +57,7 @@ type UnionAlias = 1 | 2 | 3;
                         {
                             "kind": 134217968,
                             "text": 1,
+                            "rawText": "1",
                             "flags": 2097216,
                             "start": 17,
                             "end": 19
@@ -64,6 +65,7 @@ type UnionAlias = 1 | 2 | 3;
                         {
                             "kind": 134217968,
                             "text": 2,
+                            "rawText": "2",
                             "flags": 2097216,
                             "start": 21,
                             "end": 23
@@ -71,6 +73,7 @@ type UnionAlias = 1 | 2 | 3;
                         {
                             "kind": 134217968,
                             "text": 3,
+                            "rawText": "3",
                             "flags": 2097216,
                             "start": 25,
                             "end": 27
@@ -102,6 +105,7 @@ type UnionAlias = 1 | 2 | 3;
 
 ```javascript
 
+type UnionAlias = 1 | 2 | 3
 
 ```
 

@@ -100,13 +100,7 @@ class x extends y { constructor() { super.mom; super.mom; } }
                                                 "expression": {
                                                     "kind": 129,
                                                     "member": {
-                                                        "kind": 225,
-                                                        "superKeyword": {
-                                                            "kind": 4259935,
-                                                            "flags": 96,
-                                                            "start": 35,
-                                                            "end": 41
-                                                        },
+                                                        "kind": 4259935,
                                                         "flags": 96,
                                                         "start": 35,
                                                         "end": 41
@@ -119,7 +113,7 @@ class x extends y { constructor() { super.mom; super.mom; } }
                                                         "start": 42,
                                                         "end": 45
                                                     },
-                                                    "flags": 536870944,
+                                                    "flags": 96,
                                                     "start": 35,
                                                     "end": 45
                                                 },
@@ -132,13 +126,7 @@ class x extends y { constructor() { super.mom; super.mom; } }
                                                 "expression": {
                                                     "kind": 129,
                                                     "member": {
-                                                        "kind": 225,
-                                                        "superKeyword": {
-                                                            "kind": 4259935,
-                                                            "flags": 96,
-                                                            "start": 46,
-                                                            "end": 52
-                                                        },
+                                                        "kind": 4259935,
                                                         "flags": 96,
                                                         "start": 46,
                                                         "end": 52
@@ -151,7 +139,7 @@ class x extends y { constructor() { super.mom; super.mom; } }
                                                         "start": 53,
                                                         "end": 56
                                                     },
-                                                    "flags": 536870944,
+                                                    "flags": 96,
                                                     "start": 46,
                                                     "end": 56
                                                 },
@@ -203,12 +191,10 @@ class x extends y { constructor() { super.mom; super.mom; } }
 
 ```javascript
 
-class x  {
-  constructor() {
-    super.mom;
-    super.mom;
-  }
+class x extends y {
+  constructor() { super.mom; super.mom; }
 }
+
 ```
 
 ### Diagnostics

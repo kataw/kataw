@@ -79,7 +79,8 @@ void await [];
 
 ```javascript
 
-void await [];
+void  await [];
+
 ```
 
 ### Diagnostics

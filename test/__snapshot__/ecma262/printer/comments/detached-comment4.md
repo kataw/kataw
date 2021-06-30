@@ -54,8 +54,8 @@
 
 ```javascript
 /* detached */
-
 [];
+
 ```
 
 ### Diagnostics

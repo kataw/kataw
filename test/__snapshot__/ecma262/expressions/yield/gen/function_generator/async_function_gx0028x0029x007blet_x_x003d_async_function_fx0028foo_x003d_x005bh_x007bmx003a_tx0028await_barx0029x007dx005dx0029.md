@@ -53,8 +53,8 @@ function * gen() { function not_gen() { async function g(){let x = async functio
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 14,
-                "end": 16
+                "start": 15,
+                "end": 15
             },
             "contents": {
                 "kind": 216,
@@ -87,8 +87,8 @@ function * gen() { function not_gen() { async function g(){let x = async functio
                                 "formalParameters": [],
                                 "trailingComma": false,
                                 "flags": 32,
-                                "start": 35,
-                                "end": 37
+                                "start": 36,
+                                "end": 36
                             },
                             "contents": {
                                 "kind": 216,
@@ -126,8 +126,8 @@ function * gen() { function not_gen() { async function g(){let x = async functio
                                                 "formalParameters": [],
                                                 "trailingComma": false,
                                                 "flags": 32,
-                                                "start": 56,
-                                                "end": 58
+                                                "start": 57,
+                                                "end": 57
                                             },
                                             "contents": {
                                                 "kind": 216,
@@ -300,8 +300,8 @@ function * gen() { function not_gen() { async function g(){let x = async functio
                                                                                 ],
                                                                                 "trailingComma": false,
                                                                                 "flags": 34,
-                                                                                "start": 83,
-                                                                                "end": 113
+                                                                                "start": 84,
+                                                                                "end": 112
                                                                             },
                                                                             "contents": {
                                                                                 "kind": 216,

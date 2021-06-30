@@ -140,7 +140,7 @@
                         "start": 25,
                         "end": 26
                     },
-                    "flags": 536870944,
+                    "flags": 96,
                     "start": 22,
                     "end": 26
                 },
@@ -270,7 +270,7 @@
                         "start": 55,
                         "end": 56
                     },
-                    "flags": 536870944,
+                    "flags": 96,
                     "start": 52,
                     "end": 56
                 },
@@ -400,7 +400,7 @@
                         "start": 85,
                         "end": 86
                     },
-                    "flags": 536870944,
+                    "flags": 96,
                     "start": 82,
                     "end": 86
                 },
@@ -536,7 +536,7 @@
                         "start": 117,
                         "end": 118
                     },
-                    "flags": 536870944,
+                    "flags": 96,
                     "start": 114,
                     "end": 118
                 },
@@ -681,7 +681,7 @@
                         "start": 147,
                         "end": 148
                     },
-                    "flags": 536870944,
+                    "flags": 96,
                     "start": 144,
                     "end": 148
                 },
@@ -811,7 +811,7 @@
                         "start": 175,
                         "end": 176
                     },
-                    "flags": 536870944,
+                    "flags": 96,
                     "start": 172,
                     "end": 176
                 },
@@ -947,7 +947,7 @@
                         "start": 205,
                         "end": 206
                     },
-                    "flags": 536870944,
+                    "flags": 96,
                     "start": 202,
                     "end": 206
                 },
@@ -1083,7 +1083,7 @@
                         "start": 235,
                         "end": 236
                     },
-                    "flags": 536870944,
+                    "flags": 96,
                     "start": 232,
                     "end": 236
                 },
@@ -1225,7 +1225,7 @@
                         "start": 267,
                         "end": 268
                     },
-                    "flags": 536870944,
+                    "flags": 96,
                     "start": 264,
                     "end": 268
                 },
@@ -1288,7 +1288,7 @@
                                     "start": 277,
                                     "end": 284
                                 },
-                                "flags": 32,
+                                "flags": 1073741856,
                                 "start": 272,
                                 "end": 284
                             }
@@ -1740,20 +1740,21 @@
 
 ```javascript
 
-(x = { "\"a\"": x = y }) / y.z;
-(x = { "\"a\"": (x) = y }) / y.z;
-(x = { "\"a\"": x = (y) }) / y.z;
-(x = { "\"a\"": (x = (y)) }) / y.z;
-(x = { [a]: { x } = y }) / y.z;
-(x = { [a]: x = y }) / y.z;
-(x = { [a]: (x) = y }) / y.z;
-(x = { [a]: x = (y) }) / y.z;
-(x = { [a]: (x = (y)) }) / y.z;
+(x = { "\"a\"" : x = y }) / y.z;
+(x = { "\"a\"" : (x) = y }) / y.z;
+(x = { "\"a\"" : x = (y) }) / y.z;
+(x = { "\"a\"" : (x = (y)) }) / y.z;
+(x = { [a] : { x } = y }) / y.z;
+(x = { [a] : x = y }) / y.z;
+(x = { [a] : (x) = y }) / y.z;
+(x = { [a] : x = (y) }) / y.z;
+(x = { [a] : (x = (y)) }) / y.z;
 ({ ...1 in {} });
-({ set foo() {}, set bar() {} });
-({ set foo() {}, bar() {} });
-({ foo: typeof x });
-({ foo: true / false });
+({ set foo(b) { }, set bar(d) { } });
+({ set foo(c) { }, bar() { } });
+({ foo : typeof  x });
+({ foo : true / false });
+
 ```
 
 ### Diagnostics

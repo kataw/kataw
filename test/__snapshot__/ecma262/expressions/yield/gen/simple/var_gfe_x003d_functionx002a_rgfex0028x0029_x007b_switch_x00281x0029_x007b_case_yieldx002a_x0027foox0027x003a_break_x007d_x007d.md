@@ -75,8 +75,8 @@ var gfe = function* rgfe() { switch (1) { case yield* 'foo': break; } }
                                 "formalParameters": [],
                                 "trailingComma": false,
                                 "flags": 32,
-                                "start": 24,
-                                "end": 26
+                                "start": 25,
+                                "end": 25
                             },
                             "contents": {
                                 "kind": 216,
@@ -213,12 +213,11 @@ var gfe = function* rgfe() { switch (1) { case yield* 'foo': break; } }
 
 ```javascript
 
-var gfe = function * rgfe() {
-  switch(1) {
-    case yield * "'foo'":
-      break;
-  }
-};
+var gfe = function* rgfe() { switch (1) {
+  case yield* '\'foo\'': 
+    break;
+} };
+
 ```
 
 ### Diagnostics

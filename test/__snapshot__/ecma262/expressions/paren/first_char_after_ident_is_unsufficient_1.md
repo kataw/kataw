@@ -74,7 +74,7 @@
                                             "start": 12,
                                             "end": 13
                                         },
-                                        "flags": 536870944,
+                                        "flags": 96,
                                         "start": 10,
                                         "end": 13
                                     },
@@ -118,7 +118,8 @@
 
 ```javascript
 
-([foo /= g / m.x]);
+([foo /= g / m.x,]);
+
 ```
 
 ### Diagnostics

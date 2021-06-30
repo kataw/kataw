@@ -62,7 +62,9 @@ while (x) continue
 
 ```javascript
 
-while (x) continue;
+while (x)
+  continue;
+
 ```
 
 ### Diagnostics

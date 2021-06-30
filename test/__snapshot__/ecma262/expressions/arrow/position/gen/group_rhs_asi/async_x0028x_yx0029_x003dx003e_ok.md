@@ -123,7 +123,8 @@ x *
 
 ```javascript
 
-x * (async  =>  ok);
+x * (async (x, y) => ok);
+
 ```
 
 ### Diagnostics

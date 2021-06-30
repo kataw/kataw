@@ -187,7 +187,7 @@ c */? foo : bar : bar;
                                             "start": 25,
                                             "end": 32
                                         },
-                                        "flags": 536870944,
+                                        "flags": 96,
                                         "start": 19,
                                         "end": 32
                                     },
@@ -199,7 +199,7 @@ c */? foo : bar : bar;
                                         "start": 33,
                                         "end": 39
                                     },
-                                    "flags": 536870944,
+                                    "flags": 96,
                                     "start": 19,
                                     "end": 39
                                 },
@@ -249,8 +249,8 @@ c */? foo : bar : bar;
                                         ],
                                         "trailingComma": false,
                                         "flags": 32,
-                                        "start": 74,
-                                        "end": 85
+                                        "start": 75,
+                                        "end": 84
                                     },
                                     "contents": {
                                         "kind": 216,
@@ -286,7 +286,7 @@ c */? foo : bar : bar;
                                                                 "start": 106,
                                                                 "end": 113
                                                             },
-                                                            "flags": 536870944,
+                                                            "flags": 96,
                                                             "start": 100,
                                                             "end": 113
                                                         },
@@ -423,8 +423,8 @@ c */? foo : bar : bar;
                                         ],
                                         "trailingComma": false,
                                         "flags": 32,
-                                        "start": 182,
-                                        "end": 193
+                                        "start": 183,
+                                        "end": 192
                                     },
                                     "contents": {
                                         "kind": 216,
@@ -460,7 +460,7 @@ c */? foo : bar : bar;
                                                                 "start": 214,
                                                                 "end": 221
                                                             },
-                                                            "flags": 536870944,
+                                                            "flags": 96,
                                                             "start": 208,
                                                             "end": 221
                                                         },
@@ -623,7 +623,7 @@ c */? foo : bar : bar;
                                             "start": 280,
                                             "end": 287
                                         },
-                                        "flags": 536870944,
+                                        "flags": 96,
                                         "start": 274,
                                         "end": 287
                                     },
@@ -635,7 +635,7 @@ c */? foo : bar : bar;
                                         "start": 288,
                                         "end": 294
                                     },
-                                    "flags": 536870944,
+                                    "flags": 96,
                                     "start": 274,
                                     "end": 294
                                 },
@@ -685,8 +685,8 @@ c */? foo : bar : bar;
                                         ],
                                         "trailingComma": false,
                                         "flags": 32,
-                                        "start": 329,
-                                        "end": 340
+                                        "start": 330,
+                                        "end": 339
                                     },
                                     "contents": {
                                         "kind": 216,
@@ -722,7 +722,7 @@ c */? foo : bar : bar;
                                                                 "start": 361,
                                                                 "end": 368
                                                             },
-                                                            "flags": 536870944,
+                                                            "flags": 96,
                                                             "start": 355,
                                                             "end": 368
                                                         },
@@ -859,8 +859,8 @@ c */? foo : bar : bar;
                                         ],
                                         "trailingComma": false,
                                         "flags": 32,
-                                        "start": 437,
-                                        "end": 448
+                                        "start": 438,
+                                        "end": 447
                                     },
                                     "contents": {
                                         "kind": 216,
@@ -896,7 +896,7 @@ c */? foo : bar : bar;
                                                                 "start": 469,
                                                                 "end": 476
                                                             },
-                                                            "flags": 536870944,
+                                                            "flags": 96,
                                                             "start": 463,
                                                             "end": 476
                                                         },
@@ -1091,7 +1091,7 @@ c */? foo : bar : bar;
                                                                                 "start": 674,
                                                                                 "end": 679
                                                                             },
-                                                                            "flags": 536870944,
+                                                                            "flags": 96,
                                                                             "start": 662,
                                                                             "end": 679
                                                                         },
@@ -1124,7 +1124,7 @@ c */? foo : bar : bar;
                                                                         "start": 685,
                                                                         "end": 691
                                                                     },
-                                                                    "flags": 536870944,
+                                                                    "flags": 268435488,
                                                                     "start": 662,
                                                                     "end": 691
                                                                 }
@@ -1146,7 +1146,7 @@ c */? foo : bar : bar;
                                                         "start": 693,
                                                         "end": 697
                                                     },
-                                                    "flags": 536870944,
+                                                    "flags": 268435488,
                                                     "start": 643,
                                                     "end": 697
                                                 },
@@ -1315,7 +1315,7 @@ c */? foo : bar : bar;
                                                                                 "start": 883,
                                                                                 "end": 888
                                                                             },
-                                                                            "flags": 536870944,
+                                                                            "flags": 96,
                                                                             "start": 871,
                                                                             "end": 888
                                                                         },
@@ -1348,7 +1348,7 @@ c */? foo : bar : bar;
                                                                         "start": 894,
                                                                         "end": 900
                                                                     },
-                                                                    "flags": 536870944,
+                                                                    "flags": 268435488,
                                                                     "start": 871,
                                                                     "end": 900
                                                                 }
@@ -1370,7 +1370,7 @@ c */? foo : bar : bar;
                                                         "start": 902,
                                                         "end": 906
                                                     },
-                                                    "flags": 536870944,
+                                                    "flags": 268435488,
                                                     "start": 852,
                                                     "end": 906
                                                 },
@@ -1539,7 +1539,7 @@ c */? foo : bar : bar;
                                                                                 "start": 1088,
                                                                                 "end": 1093
                                                                             },
-                                                                            "flags": 536870944,
+                                                                            "flags": 96,
                                                                             "start": 1076,
                                                                             "end": 1093
                                                                         },
@@ -1572,7 +1572,7 @@ c */? foo : bar : bar;
                                                                         "start": 1099,
                                                                         "end": 1105
                                                                     },
-                                                                    "flags": 536870944,
+                                                                    "flags": 268435488,
                                                                     "start": 1076,
                                                                     "end": 1105
                                                                 }
@@ -1594,7 +1594,7 @@ c */? foo : bar : bar;
                                                         "start": 1107,
                                                         "end": 1111
                                                     },
-                                                    "flags": 536870944,
+                                                    "flags": 268435488,
                                                     "start": 1057,
                                                     "end": 1111
                                                 },
@@ -1731,7 +1731,7 @@ c */? foo : bar : bar;
                                             "start": 1165,
                                             "end": 1168
                                         },
-                                        "flags": 536870944,
+                                        "flags": 96,
                                         "start": 1156,
                                         "end": 1168
                                     },
@@ -1743,7 +1743,7 @@ c */? foo : bar : bar;
                                         "start": 1169,
                                         "end": 1177
                                     },
-                                    "flags": 536870944,
+                                    "flags": 96,
                                     "start": 1156,
                                     "end": 1177
                                 },
@@ -2356,43 +2356,65 @@ c */? foo : bar : bar;
 
 ```javascript
 
-var inspect = 4 === util.inspect.length ? (function () {
-          return  util.inspect(v, void 0, void 0, colors);
-        }) : (function () {
-          return  util.inspect(v, { colors: colors });
-        });
-var inspect = 4 === util.inspect.length ? (function () {
-          return  util.inspect(v, void 0, void 0, colors);
-        }) : (function () {
-          return  util.inspect(v, { colors: colors });
-        });
-const extractTextPluginOptions = shouldUseRelativeAssetPaths
-  ? { publicPath: Array(cssFilename.split("'/'").length).join("'../'") }
-  : {};
-const extractTextPluginOptions2 = shouldUseRelativeAssetPaths
-  ? { publicPath: Array(cssFilename.split("\"/\"").length).join("\"../\"") }
-  : {};
-const extractTextPluginOptions3 = shouldUseRelativeAssetPaths // Making sure that the publicPath goes back to to build folder.
-
-  ? { publicPath: Array(cssFilename.split("\"/\"").length).join("\"../\"") }
-  : {};
+var inspect = 4 === util.inspect.length ?// node <= 0.8.x
+ (function (v, colors) {
+  return util.inspect(v, void  0, void  0, colors);
+}) :// node > 0.8.x
+ (function (v, colors) {
+  return util.inspect(v, { colors : colors });
+});
+var inspect = 4 === util.inspect.length ?// node <= 0.8.x
+ (function (v, colors) {
+  return util.inspect(v, void  0, void  0, colors);
+}) :// node > 0.8.x
+ (function (v, colors) {
+  return util.inspect(v, { colors : colors });
+});
+const extractTextPluginOptions = shouldUseRelativeAssetPaths 
+ // Making sure that the publicPath goes back to to build folder.
+? { publicPath : Array(cssFilename.split('\'/\'').length).join('\'../\'') } : {};
+const extractTextPluginOptions2 = shouldUseRelativeAssetPaths ?// Making sure that the publicPath goes back to to build folder.
+ { publicPath : Array(cssFilename.split("\"/\"").length).join("\"../\"") } : {};
+const extractTextPluginOptions3 = shouldUseRelativeAssetPaths// Making sure that the publicPath goes back to to build folder.
+ ? { publicPath : Array(cssFilename.split("\"/\"").length).join("\"../\"") } : {};
 const {
   configureStore
-} = process.env.NODE_ENV === "\"production\"" ? require("\"./configureProdStore\"") // a
-       : require("\"./configureDevStore\""); // b
-
-test /* comment
+} = process.env.NODE_ENV === "\"production\"" ? require("\"./configureProdStore\"")// a
+ : require("\"./configureDevStore\"");// b
+test/* comment
   comment
       comment
 */ ? foo : bar;
-test ? foo : bar;
-test ? foo : test ? foo : bar;
-test ? foo : bar;
-test ? foo : bar;
-test ? foo : test ? foo : bar;
-test ? foo : bar;
-test ? test /* c
+test ?/* comment
+          comment
+    comment
+          comment
+  */ foo : bar;
+test ?/* comment
+       comment
+       comment
+       comment
+    */ foo : test ?/* comment
+  comment
+    comment */ foo : bar;
+test ?/* comment */ foo : bar;
+test ? foo :/* comment
+         comment
+     comment
+           comment
+    */ bar;
+test ? foo :/* comment
+         comment
+     comment
+           comment
+    */ test ? foo :/* comment
+  comment
+    comment
+   */ bar;
+test ? foo :/* comment */ bar;
+test ? test/* c
 c */ ? foo : bar : bar;
+
 ```
 
 ### Diagnostics

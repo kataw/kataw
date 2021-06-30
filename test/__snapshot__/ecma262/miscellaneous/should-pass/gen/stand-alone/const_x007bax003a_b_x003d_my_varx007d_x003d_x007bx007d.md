@@ -126,6 +126,7 @@ const {a: b = my_var} = {}
 const {
   a: b = my_var
 } = {};
+
 ```
 
 ### Diagnostics

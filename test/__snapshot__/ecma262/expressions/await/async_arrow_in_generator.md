@@ -45,8 +45,8 @@ function *f(){  async (await) => x  }
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 11,
-                "end": 13
+                "start": 12,
+                "end": 12
             },
             "contents": {
                 "kind": 216,
@@ -127,9 +127,8 @@ function *f(){  async (await) => x  }
 
 ```javascript
 
-function * f() {
-  async  =>  x
-}
+function* f() { async (await) => x }
+
 ```
 
 ### Diagnostics

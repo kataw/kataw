@@ -118,6 +118,7 @@ var x;
 "\"use strict\"";
 with (x)
   y;
+
 ```
 
 ### Diagnostics

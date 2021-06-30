@@ -79,6 +79,7 @@ x = {arguments}
 ```javascript
 
 x = { arguments };
+
 ```
 
 ### Diagnostics

@@ -61,7 +61,8 @@
 
 ```javascript
 
-(x);
+(((x)));
+
 ```
 
 ### Diagnostics

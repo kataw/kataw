@@ -34,13 +34,7 @@ for (super.foo in x) ;
             "initializer": {
                 "kind": 129,
                 "member": {
-                    "kind": 225,
-                    "superKeyword": {
-                        "kind": 4259935,
-                        "flags": 96,
-                        "start": 5,
-                        "end": 10
-                    },
+                    "kind": 4259935,
                     "flags": 96,
                     "start": 5,
                     "end": 10
@@ -53,7 +47,7 @@ for (super.foo in x) ;
                     "start": 11,
                     "end": 14
                 },
-                "flags": 536870944,
+                "flags": 96,
                 "start": 5,
                 "end": 14
             },

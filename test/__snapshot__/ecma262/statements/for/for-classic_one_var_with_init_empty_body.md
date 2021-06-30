@@ -111,7 +111,9 @@ for (var a=1;;);
 
 ```javascript
 
-for (; ; );
+for (var a = 1;;)
+  ;
+
 ```
 
 ### Diagnostics

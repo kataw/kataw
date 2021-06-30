@@ -141,8 +141,9 @@ class C { set #arguments(test) {} }
 ```javascript
 
 class C {
-  set #arguments() {}
+  set #arguments(test) { }
 }
+
 ```
 
 ### Diagnostics

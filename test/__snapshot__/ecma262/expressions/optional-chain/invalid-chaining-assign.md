@@ -36,11 +36,11 @@ obj?.foo.bar = 0
                         "end": 3
                     },
                     "chain": {
-                        "kind": 536871114,
+                        "kind": 202,
                         "chain": {
                             "kind": 302,
                             "chain": {
-                                "kind": 536871114,
+                                "kind": 202,
                                 "chain": null,
                                 "expression": {
                                     "kind": 134299649,
@@ -50,7 +50,7 @@ obj?.foo.bar = 0
                                     "start": 5,
                                     "end": 8
                                 },
-                                "flags": 32,
+                                "flags": 536870944,
                                 "start": 5,
                                 "end": 8
                             },
@@ -66,7 +66,7 @@ obj?.foo.bar = 0
                             "start": 9,
                             "end": 12
                         },
-                        "flags": 32,
+                        "flags": 536870944,
                         "start": 8,
                         "end": 12
                     },

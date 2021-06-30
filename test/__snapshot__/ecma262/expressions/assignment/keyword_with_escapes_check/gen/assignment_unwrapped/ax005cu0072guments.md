@@ -71,7 +71,8 @@ a\u0072guments = x;
 
 ```javascript
 
-arguments = x;
+a\u0072guments = x;
+
 ```
 
 ### Diagnostics

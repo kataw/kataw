@@ -135,7 +135,10 @@
 
 ```javascript
 
-() =>  x;
+({
+    ident: { x : y }
+  }) => x;
+
 ```
 
 ### Diagnostics

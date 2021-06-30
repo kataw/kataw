@@ -92,7 +92,7 @@
                     "start": 16,
                     "end": 17
                 },
-                "flags": 536870944,
+                "flags": 32,
                 "start": 0,
                 "end": 17
             },
@@ -114,7 +114,8 @@
 
 ```javascript
 
-[async x =>  {}].x;
+[async x =>  { },].x;
+
 ```
 
 ### Diagnostics

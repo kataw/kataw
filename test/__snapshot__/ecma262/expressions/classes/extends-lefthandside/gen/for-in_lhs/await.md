@@ -77,7 +77,9 @@ for (await in x) ;
 
 ```javascript
 
-for (await in x);
+for (await in x)
+  ;
+
 ```
 
 ### Diagnostics

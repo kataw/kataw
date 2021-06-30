@@ -66,7 +66,8 @@ x =>  y
 
 ```javascript
 
-x =>  y;
+x => y;
+
 ```
 
 ### Diagnostics

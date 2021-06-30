@@ -96,7 +96,9 @@
 
 ```javascript
 
+'\'use strict\'';
 var e = (await);
+
 ```
 
 ### Diagnostics

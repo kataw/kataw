@@ -155,13 +155,7 @@ class A extends B { constructor() { !{constructor() { super(); }}; } }
                                                                                         "expression": {
                                                                                             "kind": 131,
                                                                                             "expression": {
-                                                                                                "kind": 225,
-                                                                                                "superKeyword": {
-                                                                                                    "kind": 4259935,
-                                                                                                    "flags": 96,
-                                                                                                    "start": 53,
-                                                                                                    "end": 59
-                                                                                                },
+                                                                                                "kind": 4259935,
                                                                                                 "flags": 96,
                                                                                                 "start": 53,
                                                                                                 "end": 59

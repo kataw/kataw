@@ -141,7 +141,8 @@ x = { a: a instanceof b > c }
 
 ```javascript
 
-x = { a: a inctanceof b > c };
+x = { a : a instanceof b > c };
+
 ```
 
 ### Diagnostics

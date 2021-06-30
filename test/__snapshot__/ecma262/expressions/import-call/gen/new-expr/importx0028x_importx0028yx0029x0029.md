@@ -49,38 +49,32 @@ import(x,import(y))
                         "end": 8
                     },
                     {
-                        "kind": 120,
-                        "expression": {
-                            "kind": 206,
-                            "importKeyword": {
-                                "kind": 37814364,
-                                "flags": 64,
-                                "start": 9,
-                                "end": 15
-                            },
-                            "expression": {
-                                "kind": 134299649,
-                                "text": "y",
-                                "rawText": "y",
-                                "flags": 96,
-                                "start": 16,
-                                "end": 17
-                            },
-                            "flags": 32,
-                            "start": 15,
-                            "end": 18
+                        "kind": 206,
+                        "importKeyword": {
+                            "kind": 37814364,
+                            "flags": 64,
+                            "start": 9,
+                            "end": 15
                         },
-                        "flags": 16,
+                        "expression": {
+                            "kind": 134299649,
+                            "text": "y",
+                            "rawText": "y",
+                            "flags": 96,
+                            "start": 16,
+                            "end": 17
+                        },
+                        "flags": 32,
                         "start": 15,
                         "end": 18
                     }
                 ],
                 "flags": 32,
-                "start": 6,
+                "start": 0,
                 "end": 18
             },
             "flags": 16,
-            "start": 6,
+            "start": 0,
             "end": 18
         }
     ],

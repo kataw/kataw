@@ -50,13 +50,13 @@
                                 "end": 4
                             },
                             "argument": {
-                                "kind": 221,
+                                "kind": 371,
                                 "text": "/x/",
                                 "flags": 96,
                                 "start": 4,
                                 "end": 7
                             },
-                            "flags": 32,
+                            "flags": 1073741856,
                             "start": 1,
                             "end": 7
                         }
@@ -89,6 +89,7 @@
 ```javascript
 
 [.../x/];
+
 ```
 
 ### Diagnostics

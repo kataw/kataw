@@ -51,8 +51,8 @@
                         "formalParameters": [],
                         "trailingComma": false,
                         "flags": 32,
-                        "start": 17,
-                        "end": 19
+                        "start": 18,
+                        "end": 18
                     },
                     "contents": {
                         "kind": 216,
@@ -130,9 +130,8 @@
 
 ```javascript
 
-(function not_gen() {
-    yield * 2;
-  });
+(function not_gen() { yield * 2; });
+
 ```
 
 ### Diagnostics

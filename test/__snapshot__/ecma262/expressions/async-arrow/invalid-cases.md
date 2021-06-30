@@ -96,7 +96,15 @@ async ([a]:string)=>c;
                             "start": 9,
                             "end": 12
                         },
-                        "flags": 32,
+                        "argument": {
+                            "kind": 134299649,
+                            "text": "b",
+                            "rawText": "b",
+                            "flags": 96,
+                            "start": 12,
+                            "end": 13
+                        },
+                        "flags": 1073741856,
                         "start": 9,
                         "end": 13
                     }
@@ -609,12 +617,7 @@ async ([a]:string)=>c;
             "kind": 120,
             "expression": {
                 "kind": 271,
-                "asyncKeyword": {
-                    "kind": 82031,
-                    "flags": 65,
-                    "start": 167,
-                    "end": 174
-                },
+                "asyncKeyword": null,
                 "typeParameters": null,
                 "arrowPatameterList": {
                     "kind": 134299649,
@@ -1683,8 +1686,8 @@ async ([a]:string)=>c;
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 601,
-                "end": 604
+                "start": 603,
+                "end": 603
             },
             "contents": {
                 "kind": 216,
@@ -2334,7 +2337,6 @@ async ([a]:string)=>c;
 ✖ Binding identifier expected - start: 601, end: 603
 ✖ Parameter 'await' for async arrow not allowed here - start: 638, end: 644
 ✖ An arrow function can not be part of an operator to the right - start: 694, end: 696
-✖ Declaration or statement expected - start: 694, end: 696
 
 ```
 

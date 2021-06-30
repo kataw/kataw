@@ -93,7 +93,7 @@ var _a = {}, _b = _a.a, a = _b === void 0 ? 1 : _b, _c = _a.b, b = _c === void 0
                                 "start": 21,
                                 "end": 22
                             },
-                            "flags": 536870944,
+                            "flags": 96,
                             "start": 17,
                             "end": 22
                         },
@@ -219,7 +219,7 @@ var _a = {}, _b = _a.a, a = _b === void 0 ? 1 : _b, _c = _a.b, b = _c === void 0
                                 "start": 60,
                                 "end": 61
                             },
-                            "flags": 536870944,
+                            "flags": 96,
                             "start": 56,
                             "end": 61
                         },
@@ -345,7 +345,7 @@ var _a = {}, _b = _a.a, a = _b === void 0 ? 1 : _b, _c = _a.b, b = _c === void 0
                                 "start": 99,
                                 "end": 100
                             },
-                            "flags": 536870944,
+                            "flags": 96,
                             "start": 95,
                             "end": 100
                         },
@@ -465,13 +465,8 @@ var _a = {}, _b = _a.a, a = _b === void 0 ? 1 : _b, _c = _a.b, b = _c === void 0
 
 ```javascript
 
-var _a = {},
-  _b = _a.a,
-  a = _b === void 0 ? 1 : _b,
-  _c = _a.b,
-  b = _c === void 0 ? 2 : _c,
-  _d = _a.c,
-  c = _d === void 0 ? b : _d;
+var _a = {}, _b = _a.a, a = _b === void  0 ? 1 : _b, _c = _a.b, b = _c === void  0 ? 2 : _c, _d = _a.c, c = _d === void  0 ? b : _d;
+
 ```
 
 ### Diagnostics

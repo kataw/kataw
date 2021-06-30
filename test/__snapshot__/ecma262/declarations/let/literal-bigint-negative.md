@@ -57,6 +57,7 @@ let x: -1n;
                                     "end": 8
                                 },
                                 "text": "1",
+                                "rawText": "1n",
                                 "flags": 2097216,
                                 "start": 6,
                                 "end": 10
@@ -93,7 +94,8 @@ let x: -1n;
 
 ```javascript
 
-let x: ;
+let x: -1n;
+
 ```
 
 ### Diagnostics

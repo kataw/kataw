@@ -137,8 +137,9 @@ class x {static * import(){}}
 ```javascript
 
 class x {
-  static static import() {}
+  static *import() { }
 }
+
 ```
 
 ### Diagnostics

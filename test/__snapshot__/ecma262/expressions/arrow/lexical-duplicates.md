@@ -1189,16 +1189,16 @@ a = b => { let b; };
                                         "text": "a",
                                         "rawText": "a",
                                         "flags": 96,
-                                        "start": 269,
-                                        "end": 271
+                                        "start": 267,
+                                        "end": 268
                                     },
                                     {
                                         "kind": 134299649,
                                         "text": "a",
                                         "rawText": "a",
                                         "flags": 96,
-                                        "start": 267,
-                                        "end": 268
+                                        "start": 269,
+                                        "end": 271
                                     }
                                 ],
                                 "trailingComma": false,
@@ -1261,11 +1261,11 @@ a = b => { let b; };
                                 "elements": [
                                     {
                                         "kind": 134299649,
-                                        "text": "b",
-                                        "rawText": "b",
+                                        "text": "a",
+                                        "rawText": "a",
                                         "flags": 96,
-                                        "start": 289,
-                                        "end": 291
+                                        "start": 284,
+                                        "end": 285
                                     },
                                     {
                                         "kind": 134299649,
@@ -1277,11 +1277,11 @@ a = b => { let b; };
                                     },
                                     {
                                         "kind": 134299649,
-                                        "text": "a",
-                                        "rawText": "a",
+                                        "text": "b",
+                                        "rawText": "b",
                                         "flags": 96,
-                                        "start": 284,
-                                        "end": 285
+                                        "start": 289,
+                                        "end": 291
                                     }
                                 ],
                                 "trailingComma": false,
@@ -1344,19 +1344,19 @@ a = b => { let b; };
                                 "elements": [
                                     {
                                         "kind": 134299649,
-                                        "text": "a",
-                                        "rawText": "a",
-                                        "flags": 96,
-                                        "start": 306,
-                                        "end": 308
-                                    },
-                                    {
-                                        "kind": 134299649,
                                         "text": "b",
                                         "rawText": "b",
                                         "flags": 96,
                                         "start": 304,
                                         "end": 305
+                                    },
+                                    {
+                                        "kind": 134299649,
+                                        "text": "a",
+                                        "rawText": "a",
+                                        "flags": 96,
+                                        "start": 306,
+                                        "end": 308
                                     }
                                 ],
                                 "trailingComma": false,
@@ -1427,19 +1427,11 @@ a = b => { let b; };
                                 "elements": [
                                     {
                                         "kind": 134299649,
-                                        "text": "a",
-                                        "rawText": "a",
-                                        "flags": 96,
-                                        "start": 332,
-                                        "end": 334
-                                    },
-                                    {
-                                        "kind": 134299649,
                                         "text": "b",
                                         "rawText": "b",
                                         "flags": 96,
-                                        "start": 329,
-                                        "end": 331
+                                        "start": 324,
+                                        "end": 325
                                     },
                                     {
                                         "kind": 134299649,
@@ -1454,8 +1446,16 @@ a = b => { let b; };
                                         "text": "b",
                                         "rawText": "b",
                                         "flags": 96,
-                                        "start": 324,
-                                        "end": 325
+                                        "start": 329,
+                                        "end": 331
+                                    },
+                                    {
+                                        "kind": 134299649,
+                                        "text": "a",
+                                        "rawText": "a",
+                                        "flags": 96,
+                                        "start": 332,
+                                        "end": 334
                                     }
                                 ],
                                 "trailingComma": false,
@@ -1602,11 +1602,11 @@ a = b => { let b; };
                                 "elements": [
                                     {
                                         "kind": 134299649,
-                                        "text": "c",
-                                        "rawText": "c",
+                                        "text": "a",
+                                        "rawText": "a",
                                         "flags": 96,
-                                        "start": 370,
-                                        "end": 371
+                                        "start": 366,
+                                        "end": 367
                                     },
                                     {
                                         "kind": 134299649,
@@ -1618,11 +1618,11 @@ a = b => { let b; };
                                     },
                                     {
                                         "kind": 134299649,
-                                        "text": "a",
-                                        "rawText": "a",
+                                        "text": "c",
+                                        "rawText": "c",
                                         "flags": 96,
-                                        "start": 366,
-                                        "end": 367
+                                        "start": 370,
+                                        "end": 371
                                     }
                                 ],
                                 "trailingComma": false,

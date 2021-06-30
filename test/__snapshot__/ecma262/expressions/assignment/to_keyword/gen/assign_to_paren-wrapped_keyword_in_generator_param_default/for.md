@@ -85,8 +85,8 @@ function *f(x = (for) = f) {}
                 ],
                 "trailingComma": false,
                 "flags": 34,
-                "start": 11,
-                "end": 20
+                "start": 12,
+                "end": 17
             },
             "contents": {
                 "kind": 216,

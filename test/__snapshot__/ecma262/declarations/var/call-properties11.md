@@ -110,8 +110,8 @@ var y : {} = function (x: number): string { return "hi"; };
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
-                                "start": 21,
-                                "end": 33
+                                "start": 23,
+                                "end": 32
                             },
                             "contents": {
                                 "kind": 216,
@@ -193,9 +193,8 @@ var y : {} = function (x: number): string { return "hi"; };
 
 ```javascript
 
-var y:  = function (): string {
-  return  "\"hi\"";
-};
+var y: {} = function (x: number): string { return "\"hi\""; };
+
 ```
 
 ### Diagnostics

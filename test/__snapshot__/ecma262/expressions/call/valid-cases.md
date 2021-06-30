@@ -55,7 +55,7 @@ x(class {} ?? 1);
                         {
                             "kind": 198,
                             "left": {
-                                "kind": 221,
+                                "kind": 371,
                                 "text": "/./",
                                 "flags": 96,
                                 "start": 2,
@@ -951,17 +951,19 @@ x(class {} ?? 1);
 ```javascript
 
 x(/./ ?? 1);
-x((() =>  {}) ?? 1);
+x((() =>  { }) ?? 1);
 x(null ?? 1);
 x(y[z] ?? 1);
-x(-y ?? 1);
+x(- y ?? 1);
 x(++y ?? 1);
-x(delete y ?? 1);
-x((y, void z) ?? 1);
+x(delete  y ?? 1);
+x((y, void  z) ?? 1);
 x((y - z) ?? 1);
 x((y | z) ?? 1);
 x((y ?? z) ?? 1);
-x(class  {} ?? 1);
+x(class  {
+} ?? 1);
+
 ```
 
 ### Diagnostics

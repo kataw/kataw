@@ -63,7 +63,7 @@
                                         "start": 3,
                                         "end": 4
                                     },
-                                    "flags": 536870944,
+                                    "flags": 96,
                                     "start": 1,
                                     "end": 4
                                 },
@@ -131,7 +131,8 @@
 
 ```javascript
 
-[x.y = a] = z;
+[x.y = a,] = z;
+
 ```
 
 ### Diagnostics

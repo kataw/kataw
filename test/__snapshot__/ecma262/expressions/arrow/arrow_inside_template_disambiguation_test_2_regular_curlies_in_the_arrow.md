@@ -116,7 +116,8 @@
 
 ```javascript
 
-`X${a =>  b + {}}Y`;
+`X${a => b + {}}Y`;
+
 ```
 
 ### Diagnostics

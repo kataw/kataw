@@ -233,11 +233,9 @@ class x { function () { for (const x in { a: x }) { } } }
 ```javascript
 
 class x {
-  function() {
-    for (const x; in { a: x })
-      {}
-  }
+  function() { for (const x in { a : x }) { } }
 }
+
 ```
 
 ### Diagnostics

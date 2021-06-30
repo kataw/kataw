@@ -164,7 +164,7 @@ var x, y, z; for (x of x = { import.meta } = z = {});
                         "start": 36,
                         "end": 40
                     },
-                    "flags": 536870944,
+                    "flags": 48,
                     "start": 26,
                     "end": 40
                 },

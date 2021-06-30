@@ -47,8 +47,8 @@ function * x () {
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 12,
-                "end": 15
+                "start": 14,
+                "end": 14
             },
             "contents": {
                 "kind": 216,
@@ -125,9 +125,10 @@ function * x () {
 
 ```javascript
 
-function * x() {
-  y:  yield;
+function* x() {
+  y: yield;
 }
+
 ```
 
 ### Diagnostics

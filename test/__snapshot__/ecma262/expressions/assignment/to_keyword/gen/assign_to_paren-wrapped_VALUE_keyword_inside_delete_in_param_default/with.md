@@ -103,8 +103,8 @@ function *f(x = delete ((with) = f)) {}
                 ],
                 "trailingComma": false,
                 "flags": 34,
-                "start": 11,
-                "end": 29
+                "start": 12,
+                "end": 25
             },
             "contents": {
                 "kind": 216,

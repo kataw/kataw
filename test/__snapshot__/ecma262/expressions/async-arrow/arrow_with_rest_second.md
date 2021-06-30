@@ -43,10 +43,18 @@ async (a, ...b) => a;
                             "start": 9,
                             "end": 13
                         },
+                        "left": {
+                            "kind": 134299649,
+                            "text": "b",
+                            "rawText": "b",
+                            "flags": 96,
+                            "start": 13,
+                            "end": 14
+                        },
                         "optionalToken": null,
                         "type": null,
                         "right": null,
-                        "flags": 32,
+                        "flags": 1073741856,
                         "start": 9,
                         "end": 14
                     }
@@ -95,7 +103,8 @@ async (a, ...b) => a;
 
 ```javascript
 
-async  =>  a
+async (a, ...b) => a
+;
 
 ```
 

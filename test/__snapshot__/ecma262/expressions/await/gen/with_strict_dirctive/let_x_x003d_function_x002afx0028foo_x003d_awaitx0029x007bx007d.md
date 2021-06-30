@@ -109,8 +109,8 @@
                                 ],
                                 "trailingComma": false,
                                 "flags": 34,
-                                "start": 33,
-                                "end": 46
+                                "start": 34,
+                                "end": 45
                             },
                             "contents": {
                                 "kind": 216,
@@ -158,7 +158,9 @@
 
 ```javascript
 
-let x = function * f() {};
+'\'use strict\'';
+let x = function* f(foo = await) { };
+
 ```
 
 ### Diagnostics

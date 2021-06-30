@@ -180,8 +180,9 @@
 
 ```javascript
 
-(() =>  {}) || true;
-(() =>  {}) ? a : b;
+(() =>  { }) || true;
+(() =>  { }) ? a : b;
+
 ```
 
 ### Diagnostics

@@ -45,8 +45,8 @@ function *f(){   s = {"foo": yield / x}   }
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 11,
-                "end": 13
+                "start": 12,
+                "end": 12
             },
             "contents": {
                 "kind": 216,
@@ -99,7 +99,7 @@ function *f(){   s = {"foo": yield / x}   }
                                                     "delegate": false,
                                                     "asteriskToken": null,
                                                     "expression": {
-                                                        "kind": 221,
+                                                        "kind": 371,
                                                         "text": "/ x}   }",
                                                         "flags": 96,
                                                         "start": 34,

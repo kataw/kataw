@@ -42,8 +42,8 @@ new function(){}
                         "formalParameters": [],
                         "trailingComma": false,
                         "flags": 32,
-                        "start": 12,
-                        "end": 14
+                        "start": 13,
+                        "end": 13
                     },
                     "contents": {
                         "kind": 216,
@@ -87,7 +87,8 @@ new function(){}
 
 ```javascript
 
-new  function () {}();
+new function () { };
+
 ```
 
 ### Diagnostics

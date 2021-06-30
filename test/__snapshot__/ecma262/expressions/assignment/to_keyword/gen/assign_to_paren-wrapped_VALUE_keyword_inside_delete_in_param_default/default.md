@@ -103,8 +103,8 @@ function *f(x = delete ((default) = f)) {}
                 ],
                 "trailingComma": false,
                 "flags": 34,
-                "start": 11,
-                "end": 32
+                "start": 12,
+                "end": 25
             },
             "contents": {
                 "kind": 216,

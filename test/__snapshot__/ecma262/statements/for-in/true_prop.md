@@ -39,7 +39,7 @@ for (true.x in c) d;
                     "start": 10,
                     "end": 11
                 },
-                "flags": 536870944,
+                "flags": 96,
                 "start": 5,
                 "end": 11
             },
@@ -91,6 +91,7 @@ for (true.x in c) d;
 
 for (true.x in c)
   d;
+
 ```
 
 ### Diagnostics

@@ -93,8 +93,9 @@ foo: do continue foo; while(true)
 
 ```javascript
 
-foo: do continue foo;
-while (true);
+foo: do
+  continue foo; while (true)
+
 ```
 
 ### Diagnostics

@@ -143,7 +143,9 @@
 
 ```javascript
 
-({ * static() {} });
+'\'use strict\'';
+({ * static(x, y) { } });
+
 ```
 
 ### Diagnostics

@@ -82,8 +82,8 @@ var gen = async function *g() {
                                 "formalParameters": [],
                                 "trailingComma": false,
                                 "flags": 32,
-                                "start": 27,
-                                "end": 29
+                                "start": 28,
+                                "end": 28
                             },
                             "contents": {
                                 "kind": 216,
@@ -179,7 +179,7 @@ var gen = async function *g() {
                                                                     "start": 70,
                                                                     "end": 81
                                                                 },
-                                                                "flags": 32,
+                                                                "flags": 1073741856,
                                                                 "start": 59,
                                                                 "end": 81
                                                             },
@@ -221,8 +221,8 @@ var gen = async function *g() {
                                                                                 ],
                                                                                 "trailingComma": false,
                                                                                 "flags": 32,
-                                                                                "start": 102,
-                                                                                "end": 107
+                                                                                "start": 103,
+                                                                                "end": 106
                                                                             },
                                                                             "contents": {
                                                                                 "kind": 216,
@@ -303,7 +303,7 @@ var gen = async function *g() {
                                                                                                                 "start": 158,
                                                                                                                 "end": 163
                                                                                                             },
-                                                                                                            "flags": 32,
+                                                                                                            "flags": 1073741856,
                                                                                                             "start": 155,
                                                                                                             "end": 163
                                                                                                         }
@@ -367,7 +367,7 @@ var gen = async function *g() {
                                                                     "start": 93,
                                                                     "end": 182
                                                                 },
-                                                                "flags": 32,
+                                                                "flags": 1073741856,
                                                                 "start": 82,
                                                                 "end": 182
                                                             },
@@ -394,7 +394,7 @@ var gen = async function *g() {
                                                                     "start": 194,
                                                                     "end": 199
                                                                 },
-                                                                "flags": 32,
+                                                                "flags": 1073741856,
                                                                 "start": 183,
                                                                 "end": 199
                                                             }
@@ -457,13 +457,18 @@ var gen = async function *g() {
 
 ```javascript
 
-var gen = async function * g() {
+var gen = async function* g() {
   callCount += 1;
-  yield { ...yield  yield, ...(function () {
-        var yield = arg;
-        return  { ...yield };
-      }( yield)), ... yield };
+  yield {
+    ...yield yield,
+    ...(function (arg) {
+      var yield = arg;
+      return { ...yield };
+    }(yield)),
+    ...yield
+  };
 };
+
 ```
 
 ### Diagnostics

@@ -94,6 +94,7 @@ type X = (x);
 
 ```javascript
 
+type X = (x)
 
 ```
 

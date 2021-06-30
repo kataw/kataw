@@ -59,8 +59,8 @@ function isUnusedDiagnostic(code) {
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 27,
-                "end": 33
+                "start": 28,
+                "end": 32
             },
             "contents": {
                 "kind": 216,
@@ -159,7 +159,7 @@ function isUnusedDiagnostic(code) {
                                         "start": 351,
                                         "end": 359
                                     },
-                                    "flags": 536870944,
+                                    "flags": 32,
                                     "start": 44,
                                     "end": 359
                                 },
@@ -216,14 +216,18 @@ function isUnusedDiagnostic(code) {
 
 ```javascript
 
-function isUnusedDiagnostic() {
-  return  [6133, // '{0}' is declared but never used.
-    6138, // Property '{0}' is declared but its value is never read.
-    6192, // All imports in import declaration are unused.
-    6196, // '{0}' is declared but its value is never read.
-    6198, 6199, 6205,] // All type parameters are unused.
-  .includes(code);
+function isUnusedDiagnostic(code) {
+  return [
+    6133,
+    6138,
+    6192,
+    6196,
+    6198,
+    6199,
+    6205,// All type parameters are unused.
+  ].includes(code);
 }
+
 ```
 
 ### Diagnostics

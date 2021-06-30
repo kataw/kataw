@@ -50,8 +50,8 @@ export class C extends fn(await []) {};
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 11,
-                "end": 13
+                "start": 12,
+                "end": 12
             },
             "contents": {
                 "kind": 216,
@@ -84,8 +84,8 @@ export class C extends fn(await []) {};
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 32,
-                                    "start": 33,
-                                    "end": 35
+                                    "start": 34,
+                                    "end": 34
                                 },
                                 "contents": {
                                     "kind": 216,
@@ -259,10 +259,12 @@ export class C extends fn(await []) {};
 ```javascript
 
 function fn() {
-  return  function () {};
+  return function () { };
 }
-// extends CallExpression with arguments
-export class C  {}
+ // extends CallExpression with arguments
+export class C extends fn(await []) {
+}
+;
 
 ```
 

@@ -146,8 +146,9 @@ class x {static set package(x){}}
 ```javascript
 
 class x {
-  static set static package() {}
+  static set package(x) { }
 }
+
 ```
 
 ### Diagnostics

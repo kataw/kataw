@@ -57,7 +57,7 @@ type a = {1:y.z};
                         {
                             "kind": 193,
                             "protoKeyword": null,
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "getKeyword": null,
                             "setKeyword": null,
                             "key": {
@@ -138,6 +138,7 @@ type a = {1:y.z};
 
 ```javascript
 
+type a = { 1: y.z }
 
 ```
 

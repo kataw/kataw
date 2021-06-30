@@ -272,6 +272,7 @@ type a = (a[a & b[a|b|c|d|e]][c][-1][][]) => T;
                                                         "end": 34
                                                     },
                                                     "text": 1,
+                                                    "rawText": "1",
                                                     "flags": 2097216,
                                                     "start": 33,
                                                     "end": 35
@@ -359,6 +360,7 @@ type a = (a[a & b[a|b|c|d|e]][c][-1][][]) => T;
 
 ```javascript
 
+type a = (a[a & b[a | b | c | d | e]][c][-1][][]) => T
 
 ```
 

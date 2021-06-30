@@ -145,7 +145,7 @@ x = {x: [{a = b}] + x}.x
                         "start": 23,
                         "end": 24
                     },
-                    "flags": 536870944,
+                    "flags": 48,
                     "start": 3,
                     "end": 24
                 },

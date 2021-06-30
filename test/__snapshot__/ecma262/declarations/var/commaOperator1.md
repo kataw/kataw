@@ -186,8 +186,8 @@ function f1() {
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 47,
-                "end": 49
+                "start": 48,
+                "end": 48
             },
             "contents": {
                 "kind": 216,
@@ -314,8 +314,9 @@ function f1() {
 var v1 = ((1, 2, 3), 4, 5, (6, 7));
 function f1() {
   var a = 1;
-  return  a, v1, a;
+  return a, v1, a;
 }
+
 ```
 
 ### Diagnostics

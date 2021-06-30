@@ -55,7 +55,7 @@ var o: { [string]: number } = {};
                                     {
                                         "kind": 195,
                                         "protoKeyword": null,
-                                        "staticToken": null,
+                                        "staticKeyword": null,
                                         "name": null,
                                         "key": {
                                             "kind": 134234347,
@@ -132,7 +132,8 @@ var o: { [string]: number } = {};
 
 ```javascript
 
-var o:  = {};
+var o: { [string]: number } = {};
+
 ```
 
 ### Diagnostics

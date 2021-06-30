@@ -114,9 +114,8 @@ async () => {  p\u0061ckage = x  }
 
 ```javascript
 
-async  =>  {
-  package = x;
-}
+async () =>  { p\u0061ckage = x; }
+
 ```
 
 ### Diagnostics

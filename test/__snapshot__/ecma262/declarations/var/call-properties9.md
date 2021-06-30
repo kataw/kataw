@@ -55,7 +55,7 @@ var f: { (): mixed } = function(): string { return "hi" } // return types
                                     {
                                         "kind": 196,
                                         "protoKeyword": null,
-                                        "staticToken": null,
+                                        "staticKeyword": null,
                                         "typeParameter": null,
                                         "value": {
                                             "kind": 282,
@@ -119,8 +119,8 @@ var f: { (): mixed } = function(): string { return "hi" } // return types
                                 "formalParameters": [],
                                 "trailingComma": false,
                                 "flags": 32,
-                                "start": 31,
-                                "end": 33
+                                "start": 32,
+                                "end": 32
                             },
                             "contents": {
                                 "kind": 216,
@@ -202,9 +202,8 @@ var f: { (): mixed } = function(): string { return "hi" } // return types
 
 ```javascript
 
-var f:  = function (): string {
-  return  "\"hi\"";
-}; // return types
+var f: { (): mixed } = function (): string { return "\"hi\""; };// return types
+
 ```
 
 ### Diagnostics

@@ -68,7 +68,7 @@ function method(obj: { [key: string]: any }) {}
                                     {
                                         "kind": 195,
                                         "protoKeyword": null,
-                                        "staticToken": null,
+                                        "staticKeyword": null,
                                         "name": {
                                             "kind": 134299649,
                                             "text": "key",
@@ -127,8 +127,8 @@ function method(obj: { [key: string]: any }) {}
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 15,
-                "end": 44
+                "start": 16,
+                "end": 43
             },
             "contents": {
                 "kind": 216,
@@ -163,7 +163,8 @@ function method(obj: { [key: string]: any }) {}
 
 ```javascript
 
-function method() {}
+function method(obj: { [keystring]: any }) { }
+
 ```
 
 ### Diagnostics

@@ -124,6 +124,7 @@ type A = (string) => void
 
 ```javascript
 
+type A = (string) => void
 
 ```
 

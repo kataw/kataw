@@ -125,8 +125,9 @@ class x { "prot\u{6f}type"(){} }
 ```javascript
 
 class x {
-  "\"prot\u{6f}type\""() {}
+  "\"prot\u{6f}type\""() { }
 }
+
 ```
 
 ### Diagnostics

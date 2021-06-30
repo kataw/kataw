@@ -113,8 +113,9 @@ var x = y, {z};
 ```javascript
 
 var x = y, {
-    z
-  };
+  z
+};
+
 ```
 
 ### Diagnostics

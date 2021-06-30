@@ -37,7 +37,7 @@
                                 "operand": {
                                     "kind": 129,
                                     "member": {
-                                        "kind": 221,
+                                        "kind": 371,
                                         "text": "/a/g",
                                         "flags": 96,
                                         "start": 8,
@@ -51,7 +51,7 @@
                                         "start": 14,
                                         "end": 15
                                     },
-                                    "flags": 536870944,
+                                    "flags": 96,
                                     "start": 8,
                                     "end": 15
                                 },
@@ -100,7 +100,7 @@
                                         "operand": {
                                             "kind": 129,
                                             "member": {
-                                                "kind": 221,
+                                                "kind": 371,
                                                 "text": "/a/g",
                                                 "flags": 96,
                                                 "start": 28,
@@ -114,7 +114,7 @@
                                                 "start": 34,
                                                 "end": 35
                                             },
-                                            "flags": 536870944,
+                                            "flags": 96,
                                             "start": 28,
                                             "end": 35
                                         },
@@ -148,7 +148,7 @@
                                         "operand": {
                                             "kind": 129,
                                             "member": {
-                                                "kind": 221,
+                                                "kind": 371,
                                                 "text": "/a/g",
                                                 "flags": 96,
                                                 "start": 45,
@@ -162,7 +162,7 @@
                                                 "start": 51,
                                                 "end": 52
                                             },
-                                            "flags": 536870944,
+                                            "flags": 96,
                                             "start": 45,
                                             "end": 52
                                         },
@@ -207,8 +207,9 @@
 
 ```javascript
 
-([delete /a/g.x]);
-([delete /a/g.x], [delete /a/g.x]);
+([delete  /a/g.x,]);
+([delete  /a/g.x,], [delete  /a/g.x,]);
+
 ```
 
 ### Diagnostics

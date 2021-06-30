@@ -55,13 +55,7 @@ function f(x=super.foo){ }
                         "right": {
                             "kind": 129,
                             "member": {
-                                "kind": 225,
-                                "superKeyword": {
-                                    "kind": 4259935,
-                                    "flags": 96,
-                                    "start": 13,
-                                    "end": 18
-                                },
+                                "kind": 4259935,
                                 "flags": 96,
                                 "start": 13,
                                 "end": 18
@@ -74,7 +68,7 @@ function f(x=super.foo){ }
                                 "start": 19,
                                 "end": 22
                             },
-                            "flags": 536870944,
+                            "flags": 96,
                             "start": 13,
                             "end": 22
                         },
@@ -85,8 +79,8 @@ function f(x=super.foo){ }
                 ],
                 "trailingComma": false,
                 "flags": 34,
-                "start": 10,
-                "end": 23
+                "start": 11,
+                "end": 22
             },
             "contents": {
                 "kind": 216,

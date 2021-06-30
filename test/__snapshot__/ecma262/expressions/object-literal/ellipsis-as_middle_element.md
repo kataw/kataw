@@ -62,7 +62,7 @@ x = {a, ...y, b}
                                     "start": 11,
                                     "end": 12
                                 },
-                                "flags": 32,
+                                "flags": 1073741856,
                                 "start": 7,
                                 "end": 12
                             },
@@ -107,6 +107,7 @@ x = {a, ...y, b}
 ```javascript
 
 x = { a, ...y, b };
+
 ```
 
 ### Diagnostics

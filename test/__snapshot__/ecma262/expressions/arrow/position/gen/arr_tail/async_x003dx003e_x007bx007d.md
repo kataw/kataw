@@ -34,12 +34,7 @@
                         "elements": [
                             {
                                 "kind": 271,
-                                "asyncKeyword": {
-                                    "kind": 82031,
-                                    "flags": 64,
-                                    "start": 1,
-                                    "end": 6
-                                },
+                                "asyncKeyword": null,
                                 "typeParameters": null,
                                 "arrowPatameterList": {
                                     "kind": 134299649,
@@ -92,7 +87,7 @@
                     "start": 14,
                     "end": 15
                 },
-                "flags": 536870944,
+                "flags": 32,
                 "start": 0,
                 "end": 15
             },
@@ -114,7 +109,8 @@
 
 ```javascript
 
-[async async =>  {}].x;
+[async =>  { },].x;
+
 ```
 
 ### Diagnostics

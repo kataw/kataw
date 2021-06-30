@@ -145,8 +145,9 @@ bar ? baz : ( eval => { 'use strict'; 0 } );
 ```javascript
 
 bar ? baz : (eval =>  {
-        0;
-      });
+'\'use strict\'';
+ 0; });
+
 ```
 
 ### Diagnostics

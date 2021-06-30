@@ -73,7 +73,7 @@
                             "start": 29,
                             "end": 34
                         },
-                        "flags": 536870944,
+                        "flags": 96,
                         "start": 22,
                         "end": 34
                     },
@@ -111,7 +111,9 @@
 
 ```javascript
 
-await =>  async.await[foo];
+'\'use strict\'';
+await => async.await[foo];
+
 ```
 
 ### Diagnostics

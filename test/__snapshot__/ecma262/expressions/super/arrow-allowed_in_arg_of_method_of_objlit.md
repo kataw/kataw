@@ -101,13 +101,7 @@ x={ dsda(){ return (a=super[bar]) => a; }}
                                                                     "right": {
                                                                         "kind": 130,
                                                                         "member": {
-                                                                            "kind": 225,
-                                                                            "superKeyword": {
-                                                                                "kind": 4259935,
-                                                                                "flags": 96,
-                                                                                "start": 22,
-                                                                                "end": 27
-                                                                            },
+                                                                            "kind": 4259935,
                                                                             "flags": 96,
                                                                             "start": 22,
                                                                             "end": 27
@@ -206,9 +200,8 @@ x={ dsda(){ return (a=super[bar]) => a; }}
 
 ```javascript
 
-x = { dsda() {
-    return  () =>  a;
-  } };
+x = { dsda() { return (a = super[bar]) => a; } };
+
 ```
 
 ### Diagnostics

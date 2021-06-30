@@ -37,34 +37,28 @@
             "expression": {
                 "kind": 121,
                 "expression": {
-                    "kind": 120,
-                    "expression": {
-                        "kind": 206,
-                        "importKeyword": {
-                            "kind": 37814364,
-                            "flags": 64,
-                            "start": 15,
-                            "end": 21
-                        },
-                        "expression": {
-                            "kind": 134299649,
-                            "text": "x",
-                            "rawText": "x",
-                            "flags": 96,
-                            "start": 23,
-                            "end": 25
-                        },
-                        "flags": 32,
-                        "start": 21,
-                        "end": 26
+                    "kind": 206,
+                    "importKeyword": {
+                        "kind": 37814364,
+                        "flags": 64,
+                        "start": 15,
+                        "end": 21
                     },
-                    "flags": 16,
+                    "expression": {
+                        "kind": 134299649,
+                        "text": "x",
+                        "rawText": "x",
+                        "flags": 96,
+                        "start": 23,
+                        "end": 25
+                    },
+                    "flags": 32,
                     "start": 21,
-                    "end": 27
+                    "end": 26
                 },
                 "flags": 32,
                 "start": 13,
-                "end": 27
+                "end": 26
             },
             "flags": 16,
             "start": 13,

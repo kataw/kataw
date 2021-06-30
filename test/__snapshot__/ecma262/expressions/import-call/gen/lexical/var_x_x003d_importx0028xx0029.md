@@ -47,28 +47,22 @@ var x = import(x)
                         },
                         "type": null,
                         "initializer": {
-                            "kind": 120,
-                            "expression": {
-                                "kind": 206,
-                                "importKeyword": {
-                                    "kind": 37814364,
-                                    "flags": 64,
-                                    "start": 7,
-                                    "end": 14
-                                },
-                                "expression": {
-                                    "kind": 134299649,
-                                    "text": "x",
-                                    "rawText": "x",
-                                    "flags": 96,
-                                    "start": 15,
-                                    "end": 16
-                                },
-                                "flags": 32,
-                                "start": 14,
-                                "end": 17
+                            "kind": 206,
+                            "importKeyword": {
+                                "kind": 37814364,
+                                "flags": 64,
+                                "start": 7,
+                                "end": 14
                             },
-                            "flags": 16,
+                            "expression": {
+                                "kind": 134299649,
+                                "text": "x",
+                                "rawText": "x",
+                                "flags": 96,
+                                "start": 15,
+                                "end": 16
+                            },
+                            "flags": 32,
                             "start": 14,
                             "end": 17
                         },
@@ -99,7 +93,8 @@ var x = import(x)
 
 ```javascript
 
-var x = ;
+var x = import(x);
+
 ```
 
 ### Diagnostics

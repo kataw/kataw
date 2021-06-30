@@ -134,8 +134,9 @@
 ```javascript
 
 (class  {
-    yield() {}
-  });
+  *yield() { }
+});
+
 ```
 
 ### Diagnostics

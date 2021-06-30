@@ -148,7 +148,8 @@
 
 ```javascript
 
-() =>  {};
+(x = delete  ((false) = f)) =>  { };
+
 ```
 
 ### Diagnostics

@@ -105,7 +105,8 @@ async x => (public) = 1
 
 ```javascript
 
-async x =>  (public) = 1;
+async x => (public) = 1;
+
 ```
 
 ### Diagnostics

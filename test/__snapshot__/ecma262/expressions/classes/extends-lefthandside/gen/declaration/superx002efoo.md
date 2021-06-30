@@ -55,13 +55,7 @@ class A extends super.foo {}
                     "expression": {
                         "kind": 129,
                         "member": {
-                            "kind": 225,
-                            "superKeyword": {
-                                "kind": 4259935,
-                                "flags": 96,
-                                "start": 15,
-                                "end": 21
-                            },
+                            "kind": 4259935,
                             "flags": 96,
                             "start": 15,
                             "end": 21
@@ -74,7 +68,7 @@ class A extends super.foo {}
                             "start": 22,
                             "end": 25
                         },
-                        "flags": 536870944,
+                        "flags": 96,
                         "start": 15,
                         "end": 25
                     },

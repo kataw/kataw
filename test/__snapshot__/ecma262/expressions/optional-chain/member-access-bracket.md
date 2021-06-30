@@ -104,7 +104,7 @@ obj.a?.[true]
                                                         "end": 3
                                                     },
                                                     "chain": {
-                                                        "kind": 536871114,
+                                                        "kind": 202,
                                                         "chain": {
                                                             "kind": 302,
                                                             "chain": {
@@ -134,7 +134,7 @@ obj.a?.[true]
                                                             "start": 11,
                                                             "end": 16
                                                         },
-                                                        "flags": 32,
+                                                        "flags": 536870944,
                                                         "start": 11,
                                                         "end": 16
                                                     },
@@ -168,7 +168,7 @@ obj.a?.[true]
                                                 "end": 24
                                             },
                                             "chain": {
-                                                "kind": 536871114,
+                                                "kind": 202,
                                                 "chain": {
                                                     "kind": 302,
                                                     "chain": {
@@ -198,7 +198,7 @@ obj.a?.[true]
                                                     "start": 33,
                                                     "end": 38
                                                 },
-                                                "flags": 32,
+                                                "flags": 536870944,
                                                 "start": 33,
                                                 "end": 38
                                             },
@@ -207,7 +207,7 @@ obj.a?.[true]
                                             "end": 38
                                         },
                                         "chain": {
-                                            "kind": 536871114,
+                                            "kind": 202,
                                             "chain": {
                                                 "kind": 302,
                                                 "chain": {
@@ -235,7 +235,7 @@ obj.a?.[true]
                                                 "start": 46,
                                                 "end": 51
                                             },
-                                            "flags": 32,
+                                            "flags": 536870944,
                                             "start": 46,
                                             "end": 51
                                         },
@@ -267,7 +267,7 @@ obj.a?.[true]
                                     "end": 59
                                 },
                                 "chain": {
-                                    "kind": 536871114,
+                                    "kind": 202,
                                     "chain": {
                                         "kind": 302,
                                         "chain": {
@@ -295,7 +295,7 @@ obj.a?.[true]
                                         "start": 67,
                                         "end": 72
                                     },
-                                    "flags": 32,
+                                    "flags": 536870944,
                                     "start": 67,
                                     "end": 72
                                 },
@@ -311,12 +311,12 @@ obj.a?.[true]
                                 "start": 73,
                                 "end": 74
                             },
-                            "flags": 536870944,
+                            "flags": 32,
                             "start": 0,
                             "end": 74
                         },
                         "chain": {
-                            "kind": 536871114,
+                            "kind": 202,
                             "chain": {
                                 "kind": 302,
                                 "chain": {
@@ -346,7 +346,7 @@ obj.a?.[true]
                                 "start": 82,
                                 "end": 87
                             },
-                            "flags": 32,
+                            "flags": 536870944,
                             "start": 82,
                             "end": 87
                         },
@@ -362,7 +362,7 @@ obj.a?.[true]
                         "start": 88,
                         "end": 89
                     },
-                    "flags": 536870944,
+                    "flags": 32,
                     "start": 0,
                     "end": 89
                 },
@@ -407,7 +407,8 @@ obj.a?.[true]
 
 ```javascript
 
-.a?.[true];
+obj?.[expr]obj?.[expr]?.[other]obj?.[true]obj?.[true]?.[true]obj.a?.[expr]obj.a?.[true];
+
 ```
 
 ### Diagnostics

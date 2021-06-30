@@ -86,7 +86,7 @@ a : { b : 1 }/2/;
         {
             "kind": 120,
             "expression": {
-                "kind": 221,
+                "kind": 371,
                 "text": "/2/",
                 "flags": 96,
                 "start": 13,
@@ -114,6 +114,7 @@ a: {
   b: 1;
 }
 /2/;
+
 ```
 
 ### Diagnostics

@@ -129,8 +129,8 @@ function targetKey() {
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 31,
-                "end": 33
+                "start": 32,
+                "end": 32
             },
             "contents": {
                 "kind": 216,
@@ -160,7 +160,7 @@ function targetKey() {
                                         "start": 44,
                                         "end": 48
                                     },
-                                    "flags": 536870944,
+                                    "flags": 96,
                                     "start": 35,
                                     "end": 48
                                 },
@@ -261,7 +261,7 @@ function targetKey() {
                                                                             "start": 107,
                                                                             "end": 111
                                                                         },
-                                                                        "flags": 536870944,
+                                                                        "flags": 96,
                                                                         "start": 90,
                                                                         "end": 111
                                                                     },
@@ -360,8 +360,8 @@ function targetKey() {
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 154,
-                "end": 156
+                "start": 155,
+                "end": 155
             },
             "contents": {
                 "kind": 216,
@@ -391,7 +391,7 @@ function targetKey() {
                                         "start": 167,
                                         "end": 171
                                     },
-                                    "flags": 536870944,
+                                    "flags": 96,
                                     "start": 158,
                                     "end": 171
                                 },
@@ -501,7 +501,7 @@ function targetKey() {
                                                                             "start": 231,
                                                                             "end": 235
                                                                         },
-                                                                        "flags": 536870944,
+                                                                        "flags": 96,
                                                                         "start": 214,
                                                                         "end": 235
                                                                     },
@@ -600,8 +600,8 @@ function targetKey() {
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 281,
-                "end": 283
+                "start": 282,
+                "end": 282
             },
             "contents": {
                 "kind": 216,
@@ -631,7 +631,7 @@ function targetKey() {
                                         "start": 294,
                                         "end": 298
                                     },
-                                    "flags": 536870944,
+                                    "flags": 96,
                                     "start": 285,
                                     "end": 298
                                 },
@@ -701,8 +701,8 @@ function targetKey() {
                                                     "formalParameters": [],
                                                     "trailingComma": false,
                                                     "flags": 32,
-                                                    "start": 353,
-                                                    "end": 355
+                                                    "start": 354,
+                                                    "end": 354
                                                 },
                                                 "contents": {
                                                     "kind": 216,
@@ -732,7 +732,7 @@ function targetKey() {
                                                                             "start": 374,
                                                                             "end": 378
                                                                         },
-                                                                        "flags": 536870944,
+                                                                        "flags": 96,
                                                                         "start": 357,
                                                                         "end": 378
                                                                     },
@@ -852,8 +852,8 @@ function targetKey() {
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 464,
-                "end": 466
+                "start": 465,
+                "end": 465
             },
             "contents": {
                 "kind": 216,
@@ -883,7 +883,7 @@ function targetKey() {
                                         "start": 477,
                                         "end": 481
                                     },
-                                    "flags": 536870944,
+                                    "flags": 96,
                                     "start": 468,
                                     "end": 481
                                 },
@@ -953,8 +953,8 @@ function targetKey() {
                                                     "formalParameters": [],
                                                     "trailingComma": false,
                                                     "flags": 32,
-                                                    "start": 536,
-                                                    "end": 538
+                                                    "start": 537,
+                                                    "end": 537
                                                 },
                                                 "contents": {
                                                     "kind": 216,
@@ -984,7 +984,7 @@ function targetKey() {
                                                                             "start": 557,
                                                                             "end": 561
                                                                         },
-                                                                        "flags": 536870944,
+                                                                        "flags": 96,
                                                                         "start": 540,
                                                                         "end": 561
                                                                     },
@@ -1242,31 +1242,40 @@ function targetKey() {
 var log = [];
 function source() {
   log.push("\"source\"");
-  return  { get p() {
+  return {
+    get p() {
       log.push("\"get\"");
-    } };
+    }
+  };
 }
 function target() {
   log.push("\"target\"");
-  return  { set q() {
+  return {
+    set q(v) {
       log.push("\"set\"");
-    } };
+    }
+  };
 }
 function sourceKey() {
   log.push("\"source-key\"");
-  return  { toString: function () {
+  return {
+    toString : function () {
       log.push("\"source-key-tostring\"");
-      return  "\"p\"";
-    } };
+      return "\"p\"";
+    }
+  };
 }
 function targetKey() {
   log.push("\"target-key\"");
-  return  { toString: function () {
+  return {
+    toString : function () {
       log.push("\"target-key-tostring\"");
-      return  "\"q\"";
-    } };
+      return "\"q\"";
+    }
+  };
 }
-({ [sourceKey()]: target()[targetKey()] } = source());
+({ [sourceKey()] : target()[targetKey()] } = source());
+
 ```
 
 ### Diagnostics

@@ -49,8 +49,8 @@ function foo(p\141ckage) { "use strict"; }
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 12,
-                "end": 15
+                "start": 13,
+                "end": 14
             },
             "contents": {
                 "kind": 216,

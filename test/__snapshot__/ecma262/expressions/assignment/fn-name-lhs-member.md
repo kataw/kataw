@@ -45,7 +45,7 @@ o.attr = function() {};
                         "start": 3,
                         "end": 7
                     },
-                    "flags": 536870944,
+                    "flags": 96,
                     "start": 0,
                     "end": 7
                 },
@@ -72,8 +72,8 @@ o.attr = function() {};
                         "formalParameters": [],
                         "trailingComma": false,
                         "flags": 32,
-                        "start": 18,
-                        "end": 20
+                        "start": 19,
+                        "end": 19
                     },
                     "contents": {
                         "kind": 216,
@@ -116,7 +116,8 @@ o.attr = function() {};
 
 ```javascript
 
-o.attr = function () {};
+o.attr = function () { };
+
 ```
 
 ### Diagnostics

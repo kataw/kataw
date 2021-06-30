@@ -65,8 +65,8 @@ foo(function* f(){})
                                 "formalParameters": [],
                                 "trailingComma": false,
                                 "flags": 32,
-                                "start": 15,
-                                "end": 17
+                                "start": 16,
+                                "end": 16
                             },
                             "contents": {
                                 "kind": 216,
@@ -115,7 +115,8 @@ foo(function* f(){})
 
 ```javascript
 
-foo(function * f() {});
+foo(function* f() { });
+
 ```
 
 ### Diagnostics

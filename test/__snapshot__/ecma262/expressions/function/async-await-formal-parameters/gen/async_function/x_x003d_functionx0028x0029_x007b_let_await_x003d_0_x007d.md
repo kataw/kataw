@@ -103,8 +103,8 @@ var f = async function f(x = function() { let await = 0; }) {}
                                                 "formalParameters": [],
                                                 "trailingComma": false,
                                                 "flags": 32,
-                                                "start": 37,
-                                                "end": 39
+                                                "start": 38,
+                                                "end": 38
                                             },
                                             "contents": {
                                                 "kind": 216,
@@ -176,8 +176,8 @@ var f = async function f(x = function() { let await = 0; }) {}
                                 ],
                                 "trailingComma": false,
                                 "flags": 34,
-                                "start": 24,
-                                "end": 59
+                                "start": 25,
+                                "end": 58
                             },
                             "contents": {
                                 "kind": 216,
@@ -225,7 +225,8 @@ var f = async function f(x = function() { let await = 0; }) {}
 
 ```javascript
 
-var f = async function f() {};
+var f = async function f(x = function () { let await = 0; }) { };
+
 ```
 
 ### Diagnostics

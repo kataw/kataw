@@ -114,9 +114,8 @@ async () => {  p\u0072ivate = x  }
 
 ```javascript
 
-async  =>  {
-  private = x;
-}
+async () =>  { p\u0072ivate = x; }
+
 ```
 
 ### Diagnostics

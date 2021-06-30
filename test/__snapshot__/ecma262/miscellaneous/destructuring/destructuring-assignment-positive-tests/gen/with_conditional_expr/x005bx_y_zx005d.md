@@ -258,8 +258,10 @@
 
 ```javascript
 
+'\'use strict\'';
 var x, y, z;
-m(["'a'"]) ? [x, y, z] = {} : rhs;
+m(['\'a\'',]) ? [x, y, z,] = {} : rhs;
+
 ```
 
 ### Diagnostics

@@ -132,8 +132,9 @@ class x {static case(){}}
 ```javascript
 
 class x {
-  static static case() {}
+  static case() { }
 }
+
 ```
 
 ### Diagnostics

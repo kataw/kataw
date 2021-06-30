@@ -187,6 +187,7 @@ var {x5}: {x5: string; } = { x5: "hello" };
                                                     "end": 43
                                                 },
                                                 "type": null,
+                                                "assignToken": null,
                                                 "defaultType": null,
                                                 "flags": 2097152,
                                                 "start": 42,
@@ -345,6 +346,7 @@ var {x5}: {x5: string; } = { x5: "hello" };
                                                     "end": 73
                                                 },
                                                 "type": null,
+                                                "assignToken": null,
                                                 "defaultType": null,
                                                 "flags": 2097152,
                                                 "start": 72,
@@ -1081,7 +1083,7 @@ var {x5}: {x5: string; } = { x5: "hello" };
                                     {
                                         "kind": 193,
                                         "protoKeyword": null,
-                                        "staticToken": null,
+                                        "staticKeyword": null,
                                         "getKeyword": null,
                                         "setKeyword": null,
                                         "key": {
@@ -1186,18 +1188,19 @@ var {x5}: {x5: string; } = { x5: "hello" };
 
 ```javascript
 
-var a21: ;
-var identity1: ;
-var identity2: ;
-var a17: [ number ];
-var a18: ;
-var a19: [  ];
-var x2:  = fn;
-var x3:  = Y;
-var x4:  = Y;
+var a21: ?Array<?string>;
+var identity1: <T>(x: T) => T;
+var identity2: <T>(x: T, ...y: T[]) => T;
+var a17: number[];
+var a18: ?string[];
+var a19: Promise<bool>[];
+var x2: () => number | () => string = fn;
+var x3: typeof Y = Y;
+var x4: typeof Y | number = Y;
 var {
   x5
-}:  = { x5: "\"hello\"" };
+}: { x5: string } = { x5 : "\"hello\"" };
+
 ```
 
 ### Diagnostics

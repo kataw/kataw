@@ -33,7 +33,7 @@
                             {
                                 "kind": 129,
                                 "member": {
-                                    "kind": 221,
+                                    "kind": 371,
                                     "text": "/foo/",
                                     "flags": 96,
                                     "start": 1,
@@ -47,7 +47,7 @@
                                     "start": 7,
                                     "end": 13
                                 },
-                                "flags": 536870944,
+                                "flags": 96,
                                 "start": 1,
                                 "end": 13
                             }
@@ -97,7 +97,8 @@
 
 ```javascript
 
-[/foo/.length] = x;
+[/foo/.length,] = x;
+
 ```
 
 ### Diagnostics

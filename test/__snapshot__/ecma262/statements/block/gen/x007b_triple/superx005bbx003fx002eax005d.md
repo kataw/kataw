@@ -43,13 +43,7 @@
                                                 "expression": {
                                                     "kind": 130,
                                                     "member": {
-                                                        "kind": 225,
-                                                        "superKeyword": {
-                                                            "kind": 4259935,
-                                                            "flags": 96,
-                                                            "start": 5,
-                                                            "end": 11
-                                                        },
+                                                        "kind": 4259935,
                                                         "flags": 96,
                                                         "start": 5,
                                                         "end": 11
@@ -73,7 +67,7 @@
                                                         "chain": {
                                                             "kind": 302,
                                                             "chain": {
-                                                                "kind": 536871114,
+                                                                "kind": 202,
                                                                 "chain": null,
                                                                 "expression": {
                                                                     "kind": 134299649,
@@ -83,7 +77,7 @@
                                                                     "start": 15,
                                                                     "end": 16
                                                                 },
-                                                                "flags": 32,
+                                                                "flags": 536870944,
                                                                 "start": 15,
                                                                 "end": 16
                                                             },

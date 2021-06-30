@@ -59,7 +59,7 @@ x + + y.x
                             "start": 8,
                             "end": 9
                         },
-                        "flags": 536870944,
+                        "flags": 96,
                         "start": 5,
                         "end": 9
                     },
@@ -89,7 +89,8 @@ x + + y.x
 
 ```javascript
 
-x + +y.x;
+x + + y.x;
+
 ```
 
 ### Diagnostics

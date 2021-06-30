@@ -146,8 +146,9 @@ class x {static set enum(x){}}
 ```javascript
 
 class x {
-  static set static enum() {}
+  static set enum(x) { }
 }
+
 ```
 
 ### Diagnostics

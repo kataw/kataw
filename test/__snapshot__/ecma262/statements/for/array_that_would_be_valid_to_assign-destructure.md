@@ -65,7 +65,7 @@ for ([x.y];;);
                                 "start": 8,
                                 "end": 9
                             },
-                            "flags": 536870944,
+                            "flags": 96,
                             "start": 6,
                             "end": 9
                         }
@@ -105,7 +105,9 @@ for ([x.y];;);
 
 ```javascript
 
-for ([x.y]; ; );
+for ([x.y,];;)
+  ;
+
 ```
 
 ### Diagnostics

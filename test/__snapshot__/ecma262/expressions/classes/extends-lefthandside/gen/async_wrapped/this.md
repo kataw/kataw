@@ -55,8 +55,8 @@ async function p(){
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 16,
-                "end": 18
+                "start": 17,
+                "end": 17
             },
             "contents": {
                 "kind": 216,
@@ -148,8 +148,10 @@ async function p(){
 ```javascript
 
 async function p() {
-  class C  {}
+  class C extends this {
+  }
 }
+
 ```
 
 ### Diagnostics

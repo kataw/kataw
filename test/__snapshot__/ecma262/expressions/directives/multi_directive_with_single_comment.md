@@ -60,8 +60,9 @@
 ```javascript
 
 "\"foo\"";
-// stuff here
+ // stuff here
 "\"bar\"";
+
 ```
 
 ### Diagnostics

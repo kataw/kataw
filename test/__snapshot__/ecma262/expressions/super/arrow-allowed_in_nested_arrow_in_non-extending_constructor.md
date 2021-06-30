@@ -124,13 +124,7 @@ class x { constructor(){ return () => () => super[bar]; }}
                                                         "contents": {
                                                             "kind": 130,
                                                             "member": {
-                                                                "kind": 225,
-                                                                "superKeyword": {
-                                                                    "kind": 4259935,
-                                                                    "flags": 96,
-                                                                    "start": 43,
-                                                                    "end": 49
-                                                                },
+                                                                "kind": 4259935,
                                                                 "flags": 96,
                                                                 "start": 43,
                                                                 "end": 49
@@ -204,10 +198,9 @@ class x { constructor(){ return () => () => super[bar]; }}
 ```javascript
 
 class x {
-  constructor() {
-    return  () =>  () =>  super[bar];
-  }
+  constructor() { return () => () => super[bar]; }
 }
+
 ```
 
 ### Diagnostics

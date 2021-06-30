@@ -87,8 +87,8 @@ switch (0) { case 1: async function f() {} default: const f = 0 }
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 32,
-                                    "start": 37,
-                                    "end": 39
+                                    "start": 38,
+                                    "end": 38
                                 },
                                 "contents": {
                                     "kind": 216,

@@ -70,7 +70,7 @@ type Animal =
                                 {
                                     "kind": 193,
                                     "protoKeyword": null,
-                                    "staticToken": null,
+                                    "staticKeyword": null,
                                     "getKeyword": null,
                                     "setKeyword": null,
                                     "key": {
@@ -89,6 +89,7 @@ type Animal =
                                         "type": {
                                             "kind": 134217967,
                                             "text": "insect",
+                                            "rawText": "'insect'",
                                             "flags": 2097216,
                                             "start": 24,
                                             "end": 33
@@ -113,7 +114,7 @@ type Animal =
                                 {
                                     "kind": 193,
                                     "protoKeyword": null,
-                                    "staticToken": null,
+                                    "staticKeyword": null,
                                     "getKeyword": null,
                                     "setKeyword": null,
                                     "key": {
@@ -132,6 +133,7 @@ type Animal =
                                         "type": {
                                             "kind": 134217967,
                                             "text": "fish",
+                                            "rawText": "'fish'",
                                             "flags": 2097216,
                                             "start": 45,
                                             "end": 52
@@ -156,7 +158,7 @@ type Animal =
                                 {
                                     "kind": 193,
                                     "protoKeyword": null,
-                                    "staticToken": null,
+                                    "staticKeyword": null,
                                     "getKeyword": null,
                                     "setKeyword": null,
                                     "key": {
@@ -175,6 +177,7 @@ type Animal =
                                         "type": {
                                             "kind": 134217967,
                                             "text": "chinese",
+                                            "rawText": "'chinese'",
                                             "flags": 2097216,
                                             "start": 64,
                                             "end": 74
@@ -199,7 +202,7 @@ type Animal =
                                 {
                                     "kind": 193,
                                     "protoKeyword": null,
-                                    "staticToken": null,
+                                    "staticKeyword": null,
                                     "getKeyword": null,
                                     "setKeyword": null,
                                     "key": {
@@ -218,6 +221,7 @@ type Animal =
                                         "type": {
                                             "kind": 134217967,
                                             "text": "bird",
+                                            "rawText": "'bird'",
                                             "flags": 2097216,
                                             "start": 86,
                                             "end": 93
@@ -263,6 +267,7 @@ type Animal =
 
 ```javascript
 
+type Animal = | { type: "'insect'" } | { type: "'fish'" } | { type: "'chinese'" } | { type: "'bird'" }
 
 ```
 

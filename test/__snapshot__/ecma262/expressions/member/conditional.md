@@ -66,7 +66,7 @@
                                     "start": 18,
                                     "end": 30
                                 },
-                                "flags": 536870944,
+                                "flags": 96,
                                 "start": 10,
                                 "end": 30
                             },
@@ -89,7 +89,7 @@
                                             "start": 36,
                                             "end": 47
                                         },
-                                        "flags": 536870944,
+                                        "flags": 96,
                                         "start": 31,
                                         "end": 47
                                     }
@@ -129,7 +129,7 @@
                                     "start": 60,
                                     "end": 72
                                 },
-                                "flags": 536870944,
+                                "flags": 96,
                                 "start": 52,
                                 "end": 72
                             },
@@ -152,7 +152,7 @@
                                             "start": 78,
                                             "end": 89
                                         },
-                                        "flags": 536870944,
+                                        "flags": 96,
                                         "start": 73,
                                         "end": 89
                                     }
@@ -182,7 +182,7 @@
                     "start": 93,
                     "end": 97
                 },
-                "flags": 536870944,
+                "flags": 32,
                 "start": 0,
                 "end": 97
             },
@@ -204,11 +204,8 @@
 
 ```javascript
 
-(
-  valid
-    ? helper.responseBody(this.currentUser)
-    : helper.responseBody(this.defaultUser)
-).prop;
+(valid ? helper.responseBody(this.currentUser) : helper.responseBody(this.defaultUser)).prop;
+
 ```
 
 ### Diagnostics

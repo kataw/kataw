@@ -72,6 +72,7 @@ protected: x
 ```javascript
 
 protected: x;
+
 ```
 
 ### Diagnostics

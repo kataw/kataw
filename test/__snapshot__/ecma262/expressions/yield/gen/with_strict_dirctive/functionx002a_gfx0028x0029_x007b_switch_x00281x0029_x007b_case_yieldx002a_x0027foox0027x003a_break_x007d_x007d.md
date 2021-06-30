@@ -62,8 +62,8 @@
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 26,
-                "end": 28
+                "start": 27,
+                "end": 27
             },
             "contents": {
                 "kind": 216,
@@ -187,12 +187,12 @@
 
 ```javascript
 
-function * gf() {
-  switch(1) {
-    case yield * "'foo'":
-      break;
-  }
-}
+'\'use strict\'';
+function* gf() { switch (1) {
+  case yield* '\'foo\'': 
+    break;
+} }
+
 ```
 
 ### Diagnostics

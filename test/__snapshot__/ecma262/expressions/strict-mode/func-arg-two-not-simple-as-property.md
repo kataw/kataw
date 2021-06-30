@@ -69,8 +69,8 @@
                                         ],
                                         "trailingComma": false,
                                         "flags": 32,
-                                        "start": 12,
-                                        "end": 18
+                                        "start": 13,
+                                        "end": 17
                                     },
                                     "contents": {
                                         "kind": 216,
@@ -136,7 +136,10 @@
 
 ```javascript
 
-({ x: function () {} });
+({ x : function (x, y) {
+  "\"use strict\"";
+  } });
+
 ```
 
 ### Diagnostics

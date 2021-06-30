@@ -109,7 +109,8 @@
 
 ```javascript
 
-({ * yield() {} });
+({ * yield() { } });
+
 ```
 
 ### Diagnostics

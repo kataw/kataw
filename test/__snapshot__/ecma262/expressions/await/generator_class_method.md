@@ -133,8 +133,9 @@ class x {*f(await){}}
 ```javascript
 
 class x {
-  f() {}
+  *f(await) { }
 }
+
 ```
 
 ### Diagnostics

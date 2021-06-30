@@ -81,13 +81,7 @@ function *f(x = delete ((super) = f)) {}
                                         "expression": {
                                             "kind": 129,
                                             "member": {
-                                                "kind": 225,
-                                                "superKeyword": {
-                                                    "kind": 4259935,
-                                                    "flags": 96,
-                                                    "start": 25,
-                                                    "end": 30
-                                                },
+                                                "kind": 4259935,
                                                 "flags": 96,
                                                 "start": 25,
                                                 "end": 30
@@ -100,7 +94,7 @@ function *f(x = delete ((super) = f)) {}
                                                 "start": 30,
                                                 "end": 30
                                             },
-                                            "flags": 536870944,
+                                            "flags": 32,
                                             "start": 25,
                                             "end": 30
                                         },
@@ -141,8 +135,8 @@ function *f(x = delete ((super) = f)) {}
                 ],
                 "trailingComma": false,
                 "flags": 34,
-                "start": 11,
-                "end": 37
+                "start": 12,
+                "end": 36
             },
             "contents": {
                 "kind": 216,

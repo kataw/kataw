@@ -72,6 +72,7 @@ declare opaque type Foo
 
 ```javascript
 
+declare opaque
 
 ```
 

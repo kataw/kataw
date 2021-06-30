@@ -142,8 +142,9 @@ class x {static async * continue(){}}
 ```javascript
 
 class x {
-  async static static continue() {}
+  static async *continue() { }
 }
+
 ```
 
 ### Diagnostics

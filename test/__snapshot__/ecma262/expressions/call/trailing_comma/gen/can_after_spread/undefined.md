@@ -54,7 +54,7 @@ foo(...a,);
                                 "start": 7,
                                 "end": 8
                             },
-                            "flags": 32,
+                            "flags": 1073741856,
                             "start": 4,
                             "end": 8
                         }
@@ -87,6 +87,7 @@ foo(...a,);
 ```javascript
 
 foo(...a);
+
 ```
 
 ### Diagnostics

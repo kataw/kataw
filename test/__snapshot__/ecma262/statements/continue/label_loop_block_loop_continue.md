@@ -123,7 +123,11 @@ foo: while(z) { while(z) continue foo }
 
 ```javascript
 
-foo: while (z) {}
+foo: while (z) {
+  while (z)
+    continue foo;
+}
+
 ```
 
 ### Diagnostics

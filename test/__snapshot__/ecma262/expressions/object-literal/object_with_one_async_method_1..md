@@ -126,7 +126,8 @@ x({async foo(){}});
 
 ```javascript
 
-x({ async foo() {} });
+x({ async foo() { } });
+
 ```
 
 ### Diagnostics

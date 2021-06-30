@@ -52,8 +52,8 @@ function relativeComplement() {
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 27,
-                "end": 29
+                "start": 28,
+                "end": 28
             },
             "contents": {
                 "kind": 216,
@@ -140,7 +140,7 @@ function relativeComplement() {
                                             "start": 65,
                                             "end": 71
                                         },
-                                        "flags": 536870944,
+                                        "flags": 96,
                                         "start": 57,
                                         "end": 71
                                     },
@@ -232,7 +232,7 @@ function relativeComplement() {
                                                                 "start": 121,
                                                                 "end": 127
                                                             },
-                                                            "flags": 536870944,
+                                                            "flags": 96,
                                                             "start": 113,
                                                             "end": 127
                                                         },
@@ -527,7 +527,7 @@ function relativeComplement() {
                                                             "start": 315,
                                                             "end": 319
                                                         },
-                                                        "flags": 536870944,
+                                                        "flags": 96,
                                                         "start": 305,
                                                         "end": 319
                                                     },
@@ -636,10 +636,22 @@ function relativeComplement() {
 ```javascript
 
 function relativeComplement() {
-  outer: for (; offsetB++; offsetB  < arrayB.length)
-    {}
-  return  result;
+  outer: for (; offsetB++; offsetB  < arrayB.length) {
+    inner: for (; offsetA++; offsetA  < arrayA.length) {
+      switch (comparer(arrayB[offsetB], arrayA[offsetA])) {
+        case - 1: 
+          break inner;
+        case 0: 
+          continue outer;
+        case 1: 
+          continue inner;
+      }
+    }
+    result.push(arrayB[offsetB]);
+  }
+  return result;
 }
+
 ```
 
 ### Diagnostics

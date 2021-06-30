@@ -141,7 +141,7 @@ type x = (Record<string, any> | null)[] & { length: 2; }
                                 {
                                     "kind": 193,
                                     "protoKeyword": null,
-                                    "staticToken": null,
+                                    "staticKeyword": null,
                                     "getKeyword": null,
                                     "setKeyword": null,
                                     "key": {
@@ -160,6 +160,7 @@ type x = (Record<string, any> | null)[] & { length: 2; }
                                         "type": {
                                             "kind": 134217968,
                                             "text": 2,
+                                            "rawText": "2",
                                             "flags": 2097216,
                                             "start": 51,
                                             "end": 53
@@ -205,6 +206,7 @@ type x = (Record<string, any> | null)[] & { length: 2; }
 
 ```javascript
 
+type x = (Record<string, any> | null)[] & { length: 2 }
 
 ```
 

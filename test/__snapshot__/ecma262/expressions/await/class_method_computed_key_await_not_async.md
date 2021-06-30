@@ -119,8 +119,8 @@
                                                 "end": 28
                                             },
                                             {
-                                                "kind": 317,
-                                                "flags": 96,
+                                                "kind": 1108353041,
+                                                "flags": 64,
                                                 "start": 28,
                                                 "end": 29
                                             },
@@ -241,7 +241,12 @@
 
 ```javascript
 
-() =>  {};
+(fail = class A {
+    [await]() { }
+    ;
+    "\"x\""() { }
+  }) =>  { };
+
 ```
 
 ### Diagnostics

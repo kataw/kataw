@@ -52,7 +52,7 @@ class C { await = 0; }
                             "kind": 280,
                             "decorators": null,
                             "declaredToken": null,
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "asyncKeyword": null,
                             "key": {
                                 "kind": 134299649,
@@ -77,8 +77,8 @@ class C { await = 0; }
                             "end": 19
                         },
                         {
-                            "kind": 317,
-                            "flags": 96,
+                            "kind": 1108353041,
+                            "flags": 64,
                             "start": 19,
                             "end": 20
                         }
@@ -110,9 +110,10 @@ class C { await = 0; }
 ```javascript
 
 class C {
-  await = 0;
-
+  await = 0
+  ;
 }
+
 ```
 
 ### Diagnostics

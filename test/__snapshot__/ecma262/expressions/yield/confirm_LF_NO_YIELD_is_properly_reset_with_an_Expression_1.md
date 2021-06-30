@@ -45,8 +45,8 @@ function *g(){ return x + f(yield f); }
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 11,
-                "end": 13
+                "start": 12,
+                "end": 12
             },
             "contents": {
                 "kind": 216,
@@ -159,9 +159,8 @@ function *g(){ return x + f(yield f); }
 
 ```javascript
 
-function * g() {
-  return  x + f(yield f);
-}
+function* g() { return x + f(yield f); }
+
 ```
 
 ### Diagnostics

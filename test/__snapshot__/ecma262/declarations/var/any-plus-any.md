@@ -97,7 +97,7 @@ var z = x + x;
                         "start": 14,
                         "end": 18
                     },
-                    "flags": 536870944,
+                    "flags": 96,
                     "start": 11,
                     "end": 18
                 },
@@ -204,6 +204,7 @@ var z = x + x;
 var x: any;
 x.name = "\"hello\"";
 var z = x + x;
+
 ```
 
 ### Diagnostics

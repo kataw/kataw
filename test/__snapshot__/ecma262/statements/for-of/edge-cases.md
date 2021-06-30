@@ -48,7 +48,7 @@ for ((async) of x);
                     "start": 12,
                     "end": 13
                 },
-                "flags": 536870944,
+                "flags": 96,
                 "start": 6,
                 "end": 13
             },
@@ -199,9 +199,13 @@ for ((async) of x);
 
 ```javascript
 
-for (async.x of y);
-for (async of =>  {}; ; );
-for ((async) of x);
+for (async.x of y)
+  ;
+for (async of =>  { };;)
+  ;
+for ((async) of x)
+  ;
+
 ```
 
 ### Diagnostics

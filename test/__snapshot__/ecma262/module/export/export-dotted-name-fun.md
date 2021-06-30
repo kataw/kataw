@@ -56,8 +56,8 @@ export function bar() {
                     "formalParameters": [],
                     "trailingComma": false,
                     "flags": 32,
-                    "start": 19,
-                    "end": 21
+                    "start": 20,
+                    "end": 20
                 },
                 "contents": {
                     "kind": 216,
@@ -97,7 +97,7 @@ export function bar() {
                                                     "start": 37,
                                                     "end": 38
                                                 },
-                                                "flags": 536870944,
+                                                "flags": 96,
                                                 "start": 34,
                                                 "end": 38
                                             },
@@ -109,7 +109,7 @@ export function bar() {
                                                 "start": 39,
                                                 "end": 40
                                             },
-                                            "flags": 536870944,
+                                            "flags": 96,
                                             "start": 34,
                                             "end": 40
                                         },
@@ -121,7 +121,7 @@ export function bar() {
                                             "start": 41,
                                             "end": 44
                                         },
-                                        "flags": 536870944,
+                                        "flags": 96,
                                         "start": 34,
                                         "end": 44
                                     },
@@ -178,8 +178,9 @@ export function bar() {
 ```javascript
 
 export function bar() {
-  return  A.B.C.foo();
+  return A.B.C.foo();
 }
+
 ```
 
 ### Diagnostics

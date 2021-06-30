@@ -67,7 +67,7 @@ async async => ok.x
                         "start": 18,
                         "end": 19
                     },
-                    "flags": 536870944,
+                    "flags": 96,
                     "start": 14,
                     "end": 19
                 },
@@ -93,7 +93,8 @@ async async => ok.x
 
 ```javascript
 
-async async =>  ok.x;
+async async => ok.x;
+
 ```
 
 ### Diagnostics

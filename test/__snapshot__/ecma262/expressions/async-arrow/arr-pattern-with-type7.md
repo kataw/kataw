@@ -45,37 +45,6 @@ async ([x: string = y, z: number]) =>  {};
                                     "ellipsisToken": null,
                                     "left": {
                                         "kind": 134299649,
-                                        "text": "z",
-                                        "rawText": "z",
-                                        "flags": 96,
-                                        "start": 22,
-                                        "end": 24
-                                    },
-                                    "optionalToken": null,
-                                    "type": {
-                                        "kind": 139,
-                                        "bitwiseOrToken": null,
-                                        "bitwiseAndToken": null,
-                                        "type": {
-                                            "kind": 134234345,
-                                            "flags": 2097216,
-                                            "start": 25,
-                                            "end": 32
-                                        },
-                                        "flags": 2097152,
-                                        "start": 25,
-                                        "end": 32
-                                    },
-                                    "right": null,
-                                    "flags": 32,
-                                    "start": 22,
-                                    "end": 32
-                                },
-                                {
-                                    "kind": 281,
-                                    "ellipsisToken": null,
-                                    "left": {
-                                        "kind": 134299649,
                                         "text": "x",
                                         "rawText": "x",
                                         "flags": 96,
@@ -108,6 +77,37 @@ async ([x: string = y, z: number]) =>  {};
                                     "flags": 32,
                                     "start": 8,
                                     "end": 21
+                                },
+                                {
+                                    "kind": 281,
+                                    "ellipsisToken": null,
+                                    "left": {
+                                        "kind": 134299649,
+                                        "text": "z",
+                                        "rawText": "z",
+                                        "flags": 96,
+                                        "start": 22,
+                                        "end": 24
+                                    },
+                                    "optionalToken": null,
+                                    "type": {
+                                        "kind": 139,
+                                        "bitwiseOrToken": null,
+                                        "bitwiseAndToken": null,
+                                        "type": {
+                                            "kind": 134234345,
+                                            "flags": 2097216,
+                                            "start": 25,
+                                            "end": 32
+                                        },
+                                        "flags": 2097152,
+                                        "start": 25,
+                                        "end": 32
+                                    },
+                                    "right": null,
+                                    "flags": 32,
+                                    "start": 22,
+                                    "end": 32
                                 }
                             ],
                             "trailingComma": false,
@@ -170,7 +170,8 @@ async ([x: string = y, z: number]) =>  {};
 
 ```javascript
 
-async  =>  {}
+async ([x: string = y, z: number]) =>  { }
+;
 
 ```
 

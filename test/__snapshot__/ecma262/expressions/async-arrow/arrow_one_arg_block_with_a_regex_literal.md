@@ -57,7 +57,7 @@ async (x)=>{/x/}
                         {
                             "kind": 120,
                             "expression": {
-                                "kind": 221,
+                                "kind": 371,
                                 "text": "/x/",
                                 "flags": 96,
                                 "start": 12,
@@ -94,9 +94,8 @@ async (x)=>{/x/}
 
 ```javascript
 
-async  =>  {
-  /x/;
-}
+async (x) =>  { /x/; }
+
 ```
 
 ### Diagnostics

@@ -71,7 +71,8 @@ p\u0072otected = x;
 
 ```javascript
 
-protected = x;
+p\u0072otected = x;
+
 ```
 
 ### Diagnostics

@@ -47,8 +47,8 @@ async function f(){
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 16,
-                "end": 18
+                "start": 17,
+                "end": 17
             },
             "contents": {
                 "kind": 216,
@@ -73,7 +73,7 @@ async function f(){
                             "initializer": {
                                 "kind": 129,
                                 "member": {
-                                    "kind": 221,
+                                    "kind": 371,
                                     "text": "/foo/g",
                                     "flags": 96,
                                     "start": 33,
@@ -87,7 +87,7 @@ async function f(){
                                     "start": 40,
                                     "end": 41
                                 },
-                                "flags": 536870944,
+                                "flags": 96,
                                 "start": 33,
                                 "end": 41
                             },
@@ -155,6 +155,7 @@ async function f() {
   for await (/foo/g.x of c)
     d;
 }
+
 ```
 
 ### Diagnostics

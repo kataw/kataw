@@ -55,8 +55,8 @@ async function p(){
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 16,
-                "end": 18
+                "start": 17,
+                "end": 17
             },
             "contents": {
                 "kind": 216,
@@ -96,13 +96,7 @@ async function p(){
                                     "expression": {
                                         "kind": 129,
                                         "member": {
-                                            "kind": 225,
-                                            "superKeyword": {
-                                                "kind": 4259935,
-                                                "flags": 96,
-                                                "start": 37,
-                                                "end": 43
-                                            },
+                                            "kind": 4259935,
                                             "flags": 96,
                                             "start": 37,
                                             "end": 43
@@ -115,7 +109,7 @@ async function p(){
                                             "start": 44,
                                             "end": 47
                                         },
-                                        "flags": 536870944,
+                                        "flags": 96,
                                         "start": 37,
                                         "end": 47
                                     },

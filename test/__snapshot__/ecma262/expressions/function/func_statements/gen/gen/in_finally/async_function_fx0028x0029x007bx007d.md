@@ -89,8 +89,8 @@ try {
                                 "formalParameters": [],
                                 "trailingComma": false,
                                 "flags": 32,
-                                "start": 36,
-                                "end": 38
+                                "start": 37,
+                                "end": 37
                             },
                             "contents": {
                                 "kind": 216,
@@ -139,9 +139,11 @@ try {
 ```javascript
 
 try {
-} try{
-  async function f() {}
 }
+finally {
+  async function f() { }
+}
+
 ```
 
 ### Diagnostics

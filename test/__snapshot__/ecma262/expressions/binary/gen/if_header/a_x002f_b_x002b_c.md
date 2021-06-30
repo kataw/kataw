@@ -105,7 +105,9 @@ if ( a / b + c ) ;
 
 ```javascript
 
-if (a / b + c);
+if (a / b + c)
+  ;
+
 ```
 
 ### Diagnostics

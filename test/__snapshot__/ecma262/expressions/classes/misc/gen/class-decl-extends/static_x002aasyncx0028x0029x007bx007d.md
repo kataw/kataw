@@ -156,9 +156,10 @@ class C extends Base { static *async(){} }
 
 ```javascript
 
-class C  {
-  static static async() {}
+class C extends Base {
+  static *async() { }
 }
+
 ```
 
 ### Diagnostics

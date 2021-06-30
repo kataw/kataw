@@ -45,37 +45,6 @@ async ([x?: string, y: number]) =>  {};
                                     "ellipsisToken": null,
                                     "left": {
                                         "kind": 134299649,
-                                        "text": "y",
-                                        "rawText": "y",
-                                        "flags": 96,
-                                        "start": 19,
-                                        "end": 21
-                                    },
-                                    "optionalToken": null,
-                                    "type": {
-                                        "kind": 139,
-                                        "bitwiseOrToken": null,
-                                        "bitwiseAndToken": null,
-                                        "type": {
-                                            "kind": 134234345,
-                                            "flags": 2097216,
-                                            "start": 22,
-                                            "end": 29
-                                        },
-                                        "flags": 2097152,
-                                        "start": 22,
-                                        "end": 29
-                                    },
-                                    "right": null,
-                                    "flags": 32,
-                                    "start": 19,
-                                    "end": 29
-                                },
-                                {
-                                    "kind": 281,
-                                    "ellipsisToken": null,
-                                    "left": {
-                                        "kind": 134299649,
                                         "text": "x",
                                         "rawText": "x",
                                         "flags": 96,
@@ -106,6 +75,37 @@ async ([x?: string, y: number]) =>  {};
                                     "flags": 32,
                                     "start": 8,
                                     "end": 18
+                                },
+                                {
+                                    "kind": 281,
+                                    "ellipsisToken": null,
+                                    "left": {
+                                        "kind": 134299649,
+                                        "text": "y",
+                                        "rawText": "y",
+                                        "flags": 96,
+                                        "start": 19,
+                                        "end": 21
+                                    },
+                                    "optionalToken": null,
+                                    "type": {
+                                        "kind": 139,
+                                        "bitwiseOrToken": null,
+                                        "bitwiseAndToken": null,
+                                        "type": {
+                                            "kind": 134234345,
+                                            "flags": 2097216,
+                                            "start": 22,
+                                            "end": 29
+                                        },
+                                        "flags": 2097152,
+                                        "start": 22,
+                                        "end": 29
+                                    },
+                                    "right": null,
+                                    "flags": 32,
+                                    "start": 19,
+                                    "end": 29
                                 }
                             ],
                             "trailingComma": false,

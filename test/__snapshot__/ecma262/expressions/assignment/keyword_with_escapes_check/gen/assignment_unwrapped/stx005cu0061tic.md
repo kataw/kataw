@@ -71,7 +71,8 @@ st\u0061tic = x;
 
 ```javascript
 
-static = x;
+st\u0061tic = x;
+
 ```
 
 ### Diagnostics

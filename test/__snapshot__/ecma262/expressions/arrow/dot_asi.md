@@ -19,58 +19,58 @@
         {
             "kind": 120,
             "expression": {
-                "kind": 129,
-                "member": {
-                    "kind": 271,
-                    "asyncKeyword": null,
-                    "typeParameters": null,
-                    "arrowPatameterList": {
-                        "kind": 342,
-                        "parameters": [],
-                        "trailingComma": false,
-                        "flags": 0,
-                        "start": 1,
-                        "end": 1
-                    },
-                    "returnType": null,
-                    "arrowToken": {
-                        "kind": 10,
-                        "flags": 64,
-                        "start": 2,
-                        "end": 4
-                    },
-                    "contents": {
-                        "kind": 216,
-                        "functionStatementList": {
-                            "kind": 217,
-                            "directives": [],
-                            "statements": [],
-                            "flags": 32,
-                            "start": 5,
-                            "end": 5
-                        },
+                "kind": 271,
+                "asyncKeyword": null,
+                "typeParameters": null,
+                "arrowPatameterList": {
+                    "kind": 342,
+                    "parameters": [],
+                    "trailingComma": false,
+                    "flags": 0,
+                    "start": 1,
+                    "end": 1
+                },
+                "returnType": null,
+                "arrowToken": {
+                    "kind": 10,
+                    "flags": 64,
+                    "start": 2,
+                    "end": 4
+                },
+                "contents": {
+                    "kind": 216,
+                    "functionStatementList": {
+                        "kind": 217,
+                        "directives": [],
+                        "statements": [],
                         "flags": 32,
-                        "start": 4,
-                        "end": 6
+                        "start": 5,
+                        "end": 5
                     },
                     "flags": 32,
-                    "start": 0,
+                    "start": 4,
                     "end": 6
                 },
-                "expression": {
-                    "kind": 134299649,
-                    "text": "x",
-                    "rawText": "x",
-                    "flags": 96,
-                    "start": 8,
-                    "end": 9
-                },
-                "flags": 536870944,
+                "flags": 32,
                 "start": 0,
-                "end": 9
+                "end": 6
             },
             "flags": 16,
             "start": 0,
+            "end": 6
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 134299649,
+                "text": "x",
+                "rawText": "x",
+                "flags": 96,
+                "start": 8,
+                "end": 9
+            },
+            "flags": 16,
+            "start": 8,
             "end": 9
         }
     ],

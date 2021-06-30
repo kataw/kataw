@@ -33,7 +33,7 @@
                             "argument": {
                                 "kind": 198,
                                 "left": {
-                                    "kind": 221,
+                                    "kind": 371,
                                     "text": "/x/",
                                     "flags": 96,
                                     "start": 4,
@@ -57,7 +57,7 @@
                                 "start": 4,
                                 "end": 13
                             },
-                            "flags": 32,
+                            "flags": 1073741856,
                             "start": 1,
                             "end": 13
                         }
@@ -90,6 +90,7 @@
 ```javascript
 
 [.../x/ / yield];
+
 ```
 
 ### Diagnostics

@@ -176,13 +176,7 @@ class C { set x(_) { class C { set x(_) { super( } }
                                                                                     "expression": {
                                                                                         "kind": 131,
                                                                                         "expression": {
-                                                                                            "kind": 225,
-                                                                                            "superKeyword": {
-                                                                                                "kind": 4259935,
-                                                                                                "flags": 96,
-                                                                                                "start": 41,
-                                                                                                "end": 47
-                                                                                            },
+                                                                                            "kind": 4259935,
                                                                                             "flags": 96,
                                                                                             "start": 41,
                                                                                             "end": 47

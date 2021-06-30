@@ -137,8 +137,9 @@ class x {async * this(){}}
 ```javascript
 
 class x {
-  async this() {}
+  async *this() { }
 }
+
 ```
 
 ### Diagnostics

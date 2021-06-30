@@ -58,6 +58,7 @@ foo()
 ```javascript
 
 foo();
+
 ```
 
 ### Diagnostics

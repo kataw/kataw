@@ -186,7 +186,8 @@
 
 ```javascript
 
-() =>  {};
+([...{ x }: string], y, z: string) =>  { };
+
 ```
 
 ### Diagnostics

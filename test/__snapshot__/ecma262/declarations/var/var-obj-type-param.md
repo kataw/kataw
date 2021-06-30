@@ -55,7 +55,7 @@ var a: { id<T>(x: T): T; }
                                     {
                                         "kind": 193,
                                         "protoKeyword": null,
-                                        "staticToken": null,
+                                        "staticKeyword": null,
                                         "getKeyword": null,
                                         "setKeyword": null,
                                         "key": {
@@ -156,6 +156,7 @@ var a: { id<T>(x: T): T; }
                                                                 "end": 13
                                                             },
                                                             "type": null,
+                                                            "assignToken": null,
                                                             "defaultType": null,
                                                             "flags": 2097152,
                                                             "start": 12,
@@ -217,7 +218,8 @@ var a: { id<T>(x: T): T; }
 
 ```javascript
 
-var a: ;
+var a: { id(x: T): T };
+
 ```
 
 ### Diagnostics

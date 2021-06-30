@@ -110,7 +110,7 @@ a});
                             "kind": 280,
                             "decorators": null,
                             "declaredToken": null,
-                            "staticToken": {
+                            "staticKeyword": {
                                 "kind": 8388716,
                                 "flags": 64,
                                 "start": 9,
@@ -184,7 +184,7 @@ a});
                                     "kind": 280,
                                     "decorators": null,
                                     "declaredToken": null,
-                                    "staticToken": {
+                                    "staticKeyword": {
                                         "kind": 8388716,
                                         "flags": 64,
                                         "start": 41,
@@ -214,8 +214,8 @@ a});
                                     "end": 54
                                 },
                                 {
-                                    "kind": 317,
-                                    "flags": 96,
+                                    "kind": 1108353041,
+                                    "flags": 64,
                                     "start": 54,
                                     "end": 55
                                 }
@@ -272,7 +272,7 @@ a});
                                     "kind": 280,
                                     "decorators": null,
                                     "declaredToken": null,
-                                    "staticToken": {
+                                    "staticKeyword": {
                                         "kind": 8388716,
                                         "flags": 64,
                                         "start": 69,
@@ -302,8 +302,8 @@ a});
                                     "end": 82
                                 },
                                 {
-                                    "kind": 317,
-                                    "flags": 96,
+                                    "kind": 1108353041,
+                                    "flags": 64,
                                     "start": 82,
                                     "end": 83
                                 },
@@ -311,7 +311,7 @@ a});
                                     "kind": 280,
                                     "decorators": null,
                                     "declaredToken": null,
-                                    "staticToken": null,
+                                    "staticKeyword": null,
                                     "asyncKeyword": null,
                                     "key": {
                                         "kind": 134299649,
@@ -381,7 +381,7 @@ a});
                                     "kind": 280,
                                     "decorators": null,
                                     "declaredToken": null,
-                                    "staticToken": {
+                                    "staticKeyword": {
                                         "kind": 8388716,
                                         "flags": 64,
                                         "start": 99,
@@ -411,8 +411,8 @@ a});
                                     "end": 112
                                 },
                                 {
-                                    "kind": 317,
-                                    "flags": 96,
+                                    "kind": 1108353041,
+                                    "flags": 64,
                                     "start": 112,
                                     "end": 113
                                 },
@@ -520,7 +520,7 @@ a});
                                     "kind": 280,
                                     "decorators": null,
                                     "declaredToken": null,
-                                    "staticToken": {
+                                    "staticKeyword": {
                                         "kind": 8388716,
                                         "flags": 64,
                                         "start": 133,
@@ -550,8 +550,8 @@ a});
                                     "end": 146
                                 },
                                 {
-                                    "kind": 317,
-                                    "flags": 96,
+                                    "kind": 1108353041,
+                                    "flags": 64,
                                     "start": 146,
                                     "end": 147
                                 },
@@ -664,7 +664,7 @@ a});
                                     "kind": 280,
                                     "decorators": null,
                                     "declaredToken": null,
-                                    "staticToken": {
+                                    "staticKeyword": {
                                         "kind": 8388716,
                                         "flags": 64,
                                         "start": 168,
@@ -694,8 +694,8 @@ a});
                                     "end": 181
                                 },
                                 {
-                                    "kind": 317,
-                                    "flags": 96,
+                                    "kind": 1108353041,
+                                    "flags": 64,
                                     "start": 181,
                                     "end": 182
                                 },
@@ -809,7 +809,7 @@ a});
                                     "kind": 280,
                                     "decorators": null,
                                     "declaredToken": null,
-                                    "staticToken": {
+                                    "staticKeyword": {
                                         "kind": 8388716,
                                         "flags": 64,
                                         "start": 206,
@@ -832,8 +832,8 @@ a});
                                     "end": 215
                                 },
                                 {
-                                    "kind": 317,
-                                    "flags": 96,
+                                    "kind": 1108353041,
+                                    "flags": 64,
                                     "start": 215,
                                     "end": 216
                                 }
@@ -890,7 +890,7 @@ a});
                                     "kind": 280,
                                     "decorators": null,
                                     "declaredToken": null,
-                                    "staticToken": {
+                                    "staticKeyword": {
                                         "kind": 8388716,
                                         "flags": 64,
                                         "start": 230,
@@ -913,8 +913,8 @@ a});
                                     "end": 239
                                 },
                                 {
-                                    "kind": 317,
-                                    "flags": 96,
+                                    "kind": 1108353041,
+                                    "flags": 64,
                                     "start": 239,
                                     "end": 240
                                 },
@@ -922,7 +922,7 @@ a});
                                     "kind": 280,
                                     "decorators": null,
                                     "declaredToken": null,
-                                    "staticToken": null,
+                                    "staticKeyword": null,
                                     "asyncKeyword": null,
                                     "key": {
                                         "kind": 134299649,
@@ -940,8 +940,8 @@ a});
                                     "end": 242
                                 },
                                 {
-                                    "kind": 317,
-                                    "flags": 96,
+                                    "kind": 1108353041,
+                                    "flags": 64,
                                     "start": 242,
                                     "end": 243
                                 }
@@ -998,7 +998,7 @@ a});
                                     "kind": 280,
                                     "decorators": null,
                                     "declaredToken": null,
-                                    "staticToken": {
+                                    "staticKeyword": {
                                         "kind": 8388716,
                                         "flags": 64,
                                         "start": 257,
@@ -1021,8 +1021,8 @@ a});
                                     "end": 266
                                 },
                                 {
-                                    "kind": 317,
-                                    "flags": 96,
+                                    "kind": 1108353041,
+                                    "flags": 64,
                                     "start": 266,
                                     "end": 267
                                 },
@@ -1130,7 +1130,7 @@ a});
                                     "kind": 280,
                                     "decorators": null,
                                     "declaredToken": null,
-                                    "staticToken": {
+                                    "staticKeyword": {
                                         "kind": 8388716,
                                         "flags": 64,
                                         "start": 287,
@@ -1153,8 +1153,8 @@ a});
                                     "end": 296
                                 },
                                 {
-                                    "kind": 317,
-                                    "flags": 96,
+                                    "kind": 1108353041,
+                                    "flags": 64,
                                     "start": 296,
                                     "end": 297
                                 },
@@ -1267,7 +1267,7 @@ a});
                                     "kind": 280,
                                     "decorators": null,
                                     "declaredToken": null,
-                                    "staticToken": {
+                                    "staticKeyword": {
                                         "kind": 8388716,
                                         "flags": 64,
                                         "start": 318,
@@ -1290,8 +1290,8 @@ a});
                                     "end": 327
                                 },
                                 {
-                                    "kind": 317,
-                                    "flags": 96,
+                                    "kind": 1108353041,
+                                    "flags": 64,
                                     "start": 327,
                                     "end": 328
                                 },
@@ -1405,7 +1405,7 @@ a});
                                     "kind": 280,
                                     "decorators": null,
                                     "declaredToken": null,
-                                    "staticToken": {
+                                    "staticKeyword": {
                                         "kind": 8388716,
                                         "flags": 64,
                                         "start": 352,
@@ -1441,8 +1441,8 @@ a});
                                     "end": 369
                                 },
                                 {
-                                    "kind": 317,
-                                    "flags": 96,
+                                    "kind": 1108353041,
+                                    "flags": 64,
                                     "start": 369,
                                     "end": 370
                                 }
@@ -1499,7 +1499,7 @@ a});
                                     "kind": 280,
                                     "decorators": null,
                                     "declaredToken": null,
-                                    "staticToken": {
+                                    "staticKeyword": {
                                         "kind": 8388716,
                                         "flags": 64,
                                         "start": 384,
@@ -1535,8 +1535,8 @@ a});
                                     "end": 401
                                 },
                                 {
-                                    "kind": 317,
-                                    "flags": 96,
+                                    "kind": 1108353041,
+                                    "flags": 64,
                                     "start": 401,
                                     "end": 402
                                 },
@@ -1544,7 +1544,7 @@ a});
                                     "kind": 280,
                                     "decorators": null,
                                     "declaredToken": null,
-                                    "staticToken": null,
+                                    "staticKeyword": null,
                                     "asyncKeyword": null,
                                     "key": {
                                         "kind": 134299649,
@@ -1614,7 +1614,7 @@ a});
                                     "kind": 280,
                                     "decorators": null,
                                     "declaredToken": null,
-                                    "staticToken": {
+                                    "staticKeyword": {
                                         "kind": 8388716,
                                         "flags": 64,
                                         "start": 418,
@@ -1650,8 +1650,8 @@ a});
                                     "end": 435
                                 },
                                 {
-                                    "kind": 317,
-                                    "flags": 96,
+                                    "kind": 1108353041,
+                                    "flags": 64,
                                     "start": 435,
                                     "end": 436
                                 },
@@ -1759,7 +1759,7 @@ a});
                                     "kind": 280,
                                     "decorators": null,
                                     "declaredToken": null,
-                                    "staticToken": {
+                                    "staticKeyword": {
                                         "kind": 8388716,
                                         "flags": 64,
                                         "start": 456,
@@ -1795,8 +1795,8 @@ a});
                                     "end": 473
                                 },
                                 {
-                                    "kind": 317,
-                                    "flags": 96,
+                                    "kind": 1108353041,
+                                    "flags": 64,
                                     "start": 473,
                                     "end": 474
                                 },
@@ -1909,7 +1909,7 @@ a});
                                     "kind": 280,
                                     "decorators": null,
                                     "declaredToken": null,
-                                    "staticToken": {
+                                    "staticKeyword": {
                                         "kind": 8388716,
                                         "flags": 64,
                                         "start": 495,
@@ -1945,8 +1945,8 @@ a});
                                     "end": 512
                                 },
                                 {
-                                    "kind": 317,
-                                    "flags": 96,
+                                    "kind": 1108353041,
+                                    "flags": 64,
                                     "start": 512,
                                     "end": 513
                                 },
@@ -2060,7 +2060,7 @@ a});
                                     "kind": 280,
                                     "decorators": null,
                                     "declaredToken": null,
-                                    "staticToken": {
+                                    "staticKeyword": {
                                         "kind": 8388716,
                                         "flags": 64,
                                         "start": 537,
@@ -2089,8 +2089,8 @@ a});
                                     "end": 550
                                 },
                                 {
-                                    "kind": 317,
-                                    "flags": 96,
+                                    "kind": 1108353041,
+                                    "flags": 64,
                                     "start": 550,
                                     "end": 551
                                 }
@@ -2147,7 +2147,7 @@ a});
                                     "kind": 280,
                                     "decorators": null,
                                     "declaredToken": null,
-                                    "staticToken": {
+                                    "staticKeyword": {
                                         "kind": 8388716,
                                         "flags": 64,
                                         "start": 565,
@@ -2176,8 +2176,8 @@ a});
                                     "end": 578
                                 },
                                 {
-                                    "kind": 317,
-                                    "flags": 96,
+                                    "kind": 1108353041,
+                                    "flags": 64,
                                     "start": 578,
                                     "end": 579
                                 },
@@ -2185,7 +2185,7 @@ a});
                                     "kind": 280,
                                     "decorators": null,
                                     "declaredToken": null,
-                                    "staticToken": null,
+                                    "staticKeyword": null,
                                     "asyncKeyword": null,
                                     "key": {
                                         "kind": 134299649,
@@ -2203,8 +2203,8 @@ a});
                                     "end": 581
                                 },
                                 {
-                                    "kind": 317,
-                                    "flags": 96,
+                                    "kind": 1108353041,
+                                    "flags": 64,
                                     "start": 581,
                                     "end": 582
                                 }
@@ -2261,7 +2261,7 @@ a});
                                     "kind": 280,
                                     "decorators": null,
                                     "declaredToken": null,
-                                    "staticToken": {
+                                    "staticKeyword": {
                                         "kind": 8388716,
                                         "flags": 64,
                                         "start": 596,
@@ -2290,8 +2290,8 @@ a});
                                     "end": 609
                                 },
                                 {
-                                    "kind": 317,
-                                    "flags": 96,
+                                    "kind": 1108353041,
+                                    "flags": 64,
                                     "start": 609,
                                     "end": 610
                                 },
@@ -2399,7 +2399,7 @@ a});
                                     "kind": 280,
                                     "decorators": null,
                                     "declaredToken": null,
-                                    "staticToken": {
+                                    "staticKeyword": {
                                         "kind": 8388716,
                                         "flags": 64,
                                         "start": 630,
@@ -2428,8 +2428,8 @@ a});
                                     "end": 643
                                 },
                                 {
-                                    "kind": 317,
-                                    "flags": 96,
+                                    "kind": 1108353041,
+                                    "flags": 64,
                                     "start": 643,
                                     "end": 644
                                 },
@@ -2542,7 +2542,7 @@ a});
                                     "kind": 280,
                                     "decorators": null,
                                     "declaredToken": null,
-                                    "staticToken": {
+                                    "staticKeyword": {
                                         "kind": 8388716,
                                         "flags": 64,
                                         "start": 665,
@@ -2571,8 +2571,8 @@ a});
                                     "end": 678
                                 },
                                 {
-                                    "kind": 317,
-                                    "flags": 96,
+                                    "kind": 1108353041,
+                                    "flags": 64,
                                     "start": 678,
                                     "end": 679
                                 },
@@ -2699,7 +2699,7 @@ a});
                                     "kind": 280,
                                     "decorators": null,
                                     "declaredToken": null,
-                                    "staticToken": {
+                                    "staticKeyword": {
                                         "kind": 8388716,
                                         "flags": 64,
                                         "start": 712,
@@ -2729,8 +2729,8 @@ a});
                                     "end": 725
                                 },
                                 {
-                                    "kind": 317,
-                                    "flags": 96,
+                                    "kind": 1108353041,
+                                    "flags": 64,
                                     "start": 725,
                                     "end": 726
                                 }
@@ -2800,7 +2800,7 @@ a});
                                     "kind": 280,
                                     "decorators": null,
                                     "declaredToken": null,
-                                    "staticToken": {
+                                    "staticKeyword": {
                                         "kind": 8388716,
                                         "flags": 64,
                                         "start": 748,
@@ -2823,8 +2823,8 @@ a});
                                     "end": 757
                                 },
                                 {
-                                    "kind": 317,
-                                    "flags": 96,
+                                    "kind": 1108353041,
+                                    "flags": 64,
                                     "start": 757,
                                     "end": 758
                                 }
@@ -2894,7 +2894,7 @@ a});
                                     "kind": 280,
                                     "decorators": null,
                                     "declaredToken": null,
-                                    "staticToken": {
+                                    "staticKeyword": {
                                         "kind": 8388716,
                                         "flags": 64,
                                         "start": 780,
@@ -2924,8 +2924,8 @@ a});
                                     "end": 795
                                 },
                                 {
-                                    "kind": 317,
-                                    "flags": 96,
+                                    "kind": 1108353041,
+                                    "flags": 64,
                                     "start": 795,
                                     "end": 796
                                 }
@@ -2995,7 +2995,7 @@ a});
                                     "kind": 280,
                                     "decorators": null,
                                     "declaredToken": null,
-                                    "staticToken": {
+                                    "staticKeyword": {
                                         "kind": 8388716,
                                         "flags": 64,
                                         "start": 818,
@@ -3018,8 +3018,8 @@ a});
                                     "end": 829
                                 },
                                 {
-                                    "kind": 317,
-                                    "flags": 96,
+                                    "kind": 1108353041,
+                                    "flags": 64,
                                     "start": 829,
                                     "end": 830
                                 }
@@ -3076,7 +3076,7 @@ a});
                                     "kind": 280,
                                     "decorators": null,
                                     "declaredToken": null,
-                                    "staticToken": {
+                                    "staticKeyword": {
                                         "kind": 8388716,
                                         "flags": 64,
                                         "start": 845,
@@ -3158,7 +3158,7 @@ a});
                                     "kind": 280,
                                     "decorators": null,
                                     "declaredToken": null,
-                                    "staticToken": {
+                                    "staticKeyword": {
                                         "kind": 8388716,
                                         "flags": 64,
                                         "start": 877,
@@ -3184,7 +3184,7 @@ a});
                                     "kind": 280,
                                     "decorators": null,
                                     "declaredToken": null,
-                                    "staticToken": null,
+                                    "staticKeyword": null,
                                     "asyncKeyword": null,
                                     "key": {
                                         "kind": 134299649,
@@ -3254,7 +3254,7 @@ a});
                                     "kind": 280,
                                     "decorators": null,
                                     "declaredToken": null,
-                                    "staticToken": {
+                                    "staticKeyword": {
                                         "kind": 8388716,
                                         "flags": 64,
                                         "start": 908,
@@ -3277,8 +3277,8 @@ a});
                                     "end": 921
                                 },
                                 {
-                                    "kind": 317,
-                                    "flags": 96,
+                                    "kind": 1108353041,
+                                    "flags": 64,
                                     "start": 921,
                                     "end": 922
                                 }
@@ -3335,7 +3335,7 @@ a});
                                     "kind": 280,
                                     "decorators": null,
                                     "declaredToken": null,
-                                    "staticToken": {
+                                    "staticKeyword": {
                                         "kind": 8388716,
                                         "flags": 64,
                                         "start": 936,
@@ -3365,8 +3365,8 @@ a});
                                     "end": 953
                                 },
                                 {
-                                    "kind": 317,
-                                    "flags": 96,
+                                    "kind": 1108353041,
+                                    "flags": 64,
                                     "start": 953,
                                     "end": 954
                                 }
@@ -3423,7 +3423,7 @@ a});
                                     "kind": 280,
                                     "decorators": null,
                                     "declaredToken": null,
-                                    "staticToken": {
+                                    "staticKeyword": {
                                         "kind": 8388716,
                                         "flags": 64,
                                         "start": 968,
@@ -3498,7 +3498,7 @@ a});
                                     "kind": 280,
                                     "decorators": null,
                                     "declaredToken": null,
-                                    "staticToken": {
+                                    "staticKeyword": {
                                         "kind": 8388716,
                                         "flags": 64,
                                         "start": 995,
@@ -3580,7 +3580,7 @@ a});
                                     "kind": 280,
                                     "decorators": null,
                                     "declaredToken": null,
-                                    "staticToken": {
+                                    "staticKeyword": {
                                         "kind": 8388716,
                                         "flags": 64,
                                         "start": 1027,
@@ -3706,7 +3706,7 @@ a});
                                     "kind": 280,
                                     "decorators": null,
                                     "declaredToken": null,
-                                    "staticToken": {
+                                    "staticKeyword": {
                                         "kind": 8388716,
                                         "flags": 64,
                                         "start": 1109,
@@ -3732,7 +3732,7 @@ a});
                                     "kind": 280,
                                     "decorators": null,
                                     "declaredToken": null,
-                                    "staticToken": null,
+                                    "staticKeyword": null,
                                     "asyncKeyword": null,
                                     "key": {
                                         "kind": 134299649,
@@ -3802,7 +3802,7 @@ a});
                                     "kind": 280,
                                     "decorators": null,
                                     "declaredToken": null,
-                                    "staticToken": {
+                                    "staticKeyword": {
                                         "kind": 8388716,
                                         "flags": 64,
                                         "start": 1139,
@@ -3825,8 +3825,8 @@ a});
                                     "end": 1152
                                 },
                                 {
-                                    "kind": 317,
-                                    "flags": 96,
+                                    "kind": 1108353041,
+                                    "flags": 64,
                                     "start": 1152,
                                     "end": 1153
                                 }
@@ -3883,7 +3883,7 @@ a});
                                     "kind": 280,
                                     "decorators": null,
                                     "declaredToken": null,
-                                    "staticToken": {
+                                    "staticKeyword": {
                                         "kind": 8388716,
                                         "flags": 64,
                                         "start": 1167,
@@ -3913,8 +3913,8 @@ a});
                                     "end": 1184
                                 },
                                 {
-                                    "kind": 317,
-                                    "flags": 96,
+                                    "kind": 1108353041,
+                                    "flags": 64,
                                     "start": 1184,
                                     "end": 1185
                                 }
@@ -3971,7 +3971,7 @@ a});
                                     "kind": 280,
                                     "decorators": null,
                                     "declaredToken": null,
-                                    "staticToken": {
+                                    "staticKeyword": {
                                         "kind": 8388716,
                                         "flags": 64,
                                         "start": 1200,
@@ -3997,7 +3997,7 @@ a});
                                     "kind": 280,
                                     "decorators": null,
                                     "declaredToken": null,
-                                    "staticToken": null,
+                                    "staticKeyword": null,
                                     "asyncKeyword": null,
                                     "key": {
                                         "kind": 134299649,
@@ -4067,7 +4067,7 @@ a});
                                     "kind": 280,
                                     "decorators": null,
                                     "declaredToken": null,
-                                    "staticToken": {
+                                    "staticKeyword": {
                                         "kind": 8388716,
                                         "flags": 64,
                                         "start": 1231,
@@ -4177,7 +4177,7 @@ a});
                                     "kind": 280,
                                     "decorators": null,
                                     "declaredToken": null,
-                                    "staticToken": {
+                                    "staticKeyword": {
                                         "kind": 8388716,
                                         "flags": 64,
                                         "start": 1264,
@@ -4252,7 +4252,7 @@ a});
                                     "kind": 280,
                                     "decorators": null,
                                     "declaredToken": null,
-                                    "staticToken": {
+                                    "staticKeyword": {
                                         "kind": 8388716,
                                         "flags": 64,
                                         "start": 1292,
@@ -4285,7 +4285,7 @@ a});
                                     "kind": 280,
                                     "decorators": null,
                                     "declaredToken": null,
-                                    "staticToken": null,
+                                    "staticKeyword": null,
                                     "asyncKeyword": null,
                                     "key": {
                                         "kind": 134299649,
@@ -4348,7 +4348,7 @@ a});
                                     "kind": 280,
                                     "decorators": null,
                                     "declaredToken": null,
-                                    "staticToken": {
+                                    "staticKeyword": {
                                         "kind": 8388716,
                                         "flags": 64,
                                         "start": 1322,
@@ -4474,7 +4474,7 @@ a});
                                     "kind": 280,
                                     "decorators": null,
                                     "declaredToken": null,
-                                    "staticToken": {
+                                    "staticKeyword": {
                                         "kind": 8388716,
                                         "flags": 64,
                                         "start": 1356,
@@ -4542,7 +4542,7 @@ a});
                                     "kind": 280,
                                     "decorators": null,
                                     "declaredToken": null,
-                                    "staticToken": {
+                                    "staticKeyword": {
                                         "kind": 8388716,
                                         "flags": 64,
                                         "start": 1380,
@@ -4568,7 +4568,7 @@ a});
                                     "kind": 280,
                                     "decorators": null,
                                     "declaredToken": null,
-                                    "staticToken": null,
+                                    "staticKeyword": null,
                                     "asyncKeyword": null,
                                     "key": {
                                         "kind": 134299649,
@@ -4621,185 +4621,185 @@ a});
 ```javascript
 
 class x {
-  static #foo = bar;
+  static #foo = bar
 }
 (class C {
-    static a = 0;
-
-  });
+  static a = 0
+  ;
+});
 (class C {
-    static a = 0;
-
-    b;
-  });
+  static a = 0
+  ;
+  b
+});
 (class C {
-    static a = 0;
-
-    b() {}
-  });
+  static a = 0
+  ;
+  b() { }
+});
 (class C {
-    static a = 0;
-
-    b() {}
-  });
+  static a = 0
+  ;
+  *b() { }
+});
 (class C {
-    static a = 0;
-
-    ["'b'"]() {}
-  });
+  static a = 0
+  ;
+  ['\'b\'']() { }
+});
 (class C {
-    static a;
-
-  });
+  static a
+  ;
+});
 (class C {
-    static a;
-
-    b;
-
-  });
+  static a
+  ;
+  b
+  ;
+});
 (class C {
-    static a;
-
-    b() {}
-  });
+  static a
+  ;
+  b() { }
+});
 (class C {
-    static a;
-
-    b() {}
-  });
+  static a
+  ;
+  *b() { }
+});
 (class C {
-    static a;
-
-    ["'b'"]() {}
-  });
+  static a
+  ;
+  ['\'b\'']() { }
+});
 (class C {
-    static ["'a'"] = 0;
-
-  });
+  static ['\'a\''] = 0
+  ;
+});
 (class C {
-    static ["'a'"] = 0;
-
-    b;
-  });
+  static ['\'a\''] = 0
+  ;
+  b
+});
 (class C {
-    static ["'a'"] = 0;
-
-    b() {}
-  });
+  static ['\'a\''] = 0
+  ;
+  b() { }
+});
 (class C {
-    static ["'a'"] = 0;
-
-    b() {}
-  });
+  static ['\'a\''] = 0
+  ;
+  *b() { }
+});
 (class C {
-    static ["'a'"] = 0;
-
-    ["'b'"]() {}
-  });
+  static ['\'a\''] = 0
+  ;
+  ['\'b\'']() { }
+});
 (class C {
-    static ["'a'"];
-
-  });
+  static ['\'a\'']
+  ;
+});
 (class C {
-    static ["'a'"];
-
-    b;
-
-  });
+  static ['\'a\'']
+  ;
+  b
+  ;
+});
 (class C {
-    static ["'a'"];
-
-    b() {}
-  });
+  static ['\'a\'']
+  ;
+  b() { }
+});
 (class C {
-    static ["'a'"];
-
-    b() {}
-  });
+  static ['\'a\'']
+  ;
+  *b() { }
+});
 (class C {
-    static ["'a'"];
-
-    ["'b'"]() {}
-  });
-(class   {
-    static 0 = 0;
-
-  });
-(class   {
-    static 0;
-
-  });
-(class   {
-    static "'a'" = 0;
-
-  });
-(class   {
-    static "'a'";
-
-  });
+  static ['\'a\'']
+  ;
+  ['\'b\'']() { }
+});
+(class  extends x {
+  static 0 = 0
+  ;
+});
+(class  extends x {
+  static 0
+  ;
+});
+(class  extends x {
+  static '\'a\'' = 0
+  ;
+});
+(class  extends x {
+  static '\'a\''
+  ;
+});
 (class C {
-    static yield = 0;
-  });
+  static yield = 0
+});
 (class C {
-    static yield;
-    a;
-  });
+  static yield
+  a
+});
 (class C {
-    static async;
-
-  });
+  static async
+  ;
+});
 (class C {
-    static async = 0;
-
-  });
+  static async = 0
+  ;
+});
 (class C {
-    static async;
-  });
+  static async
+});
 (class C {
-    static async = 0;
-  });
+  static async = 0
+});
 (class C {
-    static async;
-    a() {}
-  }); // a field named async, and a method named a.
-
+  static async
+  a() { }
+});// a field named async, and a method named a.
 (class C {
-    static async;
-    a;
-  });
+  static async
+  a
+});
 (class C {
-    static await;
-
-  });
+  static await
+  ;
+});
 (class C {
-    static await = 0;
-
-  });
+  static await = 0
+  ;
+});
 (class C {
-    static await;
-    a;
-  });
+  static await
+  a
+});
 (class C {
-    static c = [c] = c;
-  });
+  static c = [c,] = c
+});
 (class  {
-    static a = 0;
-  });
+  static a = 0
+});
 (class  {
-    static a = 0;
-    b;
-  });
+  static a = 0
+  b
+});
 (class  {
-    static a = 0;
-    b() {}
-  });
+  static a = 0
+  b() { }
+});
 (class  {
-    static a;
-  });
+  static a
+});
 (class  {
-    static a;
-    b;
-  });
+  static a
+  b
+});
+
 ```
 
 ### Diagnostics

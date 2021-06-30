@@ -55,8 +55,8 @@ function f2() {
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 10,
-                "end": 12
+                "start": 11,
+                "end": 11
             },
             "contents": {
                 "kind": 216,
@@ -129,7 +129,7 @@ function f2() {
                                                     "start": 64,
                                                     "end": 70
                                                 },
-                                                "flags": 536870944,
+                                                "flags": 268435488,
                                                 "start": 36,
                                                 "end": 70
                                             },
@@ -195,7 +195,7 @@ function f2() {
                                                                                 "start": 103,
                                                                                 "end": 121
                                                                             },
-                                                                            "flags": 536870944,
+                                                                            "flags": 96,
                                                                             "start": 95,
                                                                             "end": 121
                                                                         },
@@ -249,7 +249,7 @@ function f2() {
                                                                                 "start": 135,
                                                                                 "end": 142
                                                                             },
-                                                                            "flags": 536870944,
+                                                                            "flags": 96,
                                                                             "start": 128,
                                                                             "end": 142
                                                                         },
@@ -299,7 +299,7 @@ function f2() {
                                                                         "start": 155,
                                                                         "end": 165
                                                                     },
-                                                                    "flags": 536870944,
+                                                                    "flags": 96,
                                                                     "start": 147,
                                                                     "end": 165
                                                                 },
@@ -385,8 +385,8 @@ function f2() {
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 186,
-                "end": 188
+                "start": 187,
+                "end": 187
             },
             "contents": {
                 "kind": 216,
@@ -459,7 +459,7 @@ function f2() {
                                                     "start": 240,
                                                     "end": 243
                                                 },
-                                                "flags": 536870944,
+                                                "flags": 268435488,
                                                 "start": 212,
                                                 "end": 243
                                             },
@@ -527,7 +527,7 @@ function f2() {
                                                                                     "start": 276,
                                                                                     "end": 294
                                                                                 },
-                                                                                "flags": 536870944,
+                                                                                "flags": 96,
                                                                                 "start": 268,
                                                                                 "end": 294
                                                                             },
@@ -581,7 +581,7 @@ function f2() {
                                                                                     "start": 308,
                                                                                     "end": 315
                                                                                 },
-                                                                                "flags": 536870944,
+                                                                                "flags": 96,
                                                                                 "start": 301,
                                                                                 "end": 315
                                                                             },
@@ -631,7 +631,7 @@ function f2() {
                                                                             "start": 328,
                                                                             "end": 338
                                                                         },
-                                                                        "flags": 536870944,
+                                                                        "flags": 96,
                                                                         "start": 320,
                                                                         "end": 338
                                                                     },
@@ -691,7 +691,7 @@ function f2() {
                                                                                     "start": 363,
                                                                                     "end": 365
                                                                                 },
-                                                                                "flags": 536870944,
+                                                                                "flags": 96,
                                                                                 "start": 345,
                                                                                 "end": 365
                                                                             },
@@ -913,22 +913,16 @@ function f2() {
 ```javascript
 
 function f() {
-  const appEntities = getAppEntities(loadObject).filter(entity =>
-    entity &&
-    entity.isInstallAvailable() &&
-    !entity.isQueue() &&
-    entity.isDisabled());
+  const appEntities = getAppEntities(loadObject).filter(entity => entity && entity.isInstallAvailable() && ! entity.isQueue() && entity.isDisabled());
 }
 function f2() {
-  const appEntities = getAppEntities(loadObject).map(entity =>
-    entity &&
-    entity.isInstallAvailable() &&
-    !entity.isQueue() &&
-    entity.isDisabled() &&
-    { id: entity.id });
+  const appEntities = getAppEntities(loadObject).map(entity => entity && entity.isInstallAvailable() && ! entity.isQueue() && entity.isDisabled() && {
+    id : entity.id
+  });
 }
-(() =>  x) + "''";
-"''" + (() =>  x);
+((x) => x) + '\'\'';
+'\'\'' + ((x) => x);
+
 ```
 
 ### Diagnostics

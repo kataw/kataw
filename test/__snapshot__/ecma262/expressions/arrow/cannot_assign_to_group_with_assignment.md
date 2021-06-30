@@ -38,7 +38,7 @@
                             "end": 3
                         },
                         "right": {
-                            "kind": 221,
+                            "kind": 371,
                             "text": "/i/",
                             "flags": 96,
                             "start": 3,
@@ -59,7 +59,7 @@
                     "end": 9
                 },
                 "right": {
-                    "kind": 221,
+                    "kind": 371,
                     "text": "/i/",
                     "flags": 96,
                     "start": 9,

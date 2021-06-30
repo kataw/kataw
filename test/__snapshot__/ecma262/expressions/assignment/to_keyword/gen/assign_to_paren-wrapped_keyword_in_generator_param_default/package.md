@@ -105,8 +105,8 @@ function *f(x = (package) = f) {}
                 ],
                 "trailingComma": false,
                 "flags": 34,
-                "start": 11,
-                "end": 30
+                "start": 12,
+                "end": 29
             },
             "contents": {
                 "kind": 216,
@@ -141,7 +141,8 @@ function *f(x = (package) = f) {}
 
 ```javascript
 
-function * f() {}
+function* f(x = (package) = f) { }
+
 ```
 
 ### Diagnostics

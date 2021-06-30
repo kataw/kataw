@@ -110,7 +110,7 @@ class Base {
                                                             "start": 40,
                                                             "end": 43
                                                         },
-                                                        "flags": 536870944,
+                                                        "flags": 97,
                                                         "start": 30,
                                                         "end": 43
                                                     },
@@ -141,7 +141,7 @@ class Base {
                                                                         "kind": 280,
                                                                         "decorators": null,
                                                                         "declaredToken": null,
-                                                                        "staticToken": {
+                                                                        "staticKeyword": {
                                                                             "kind": 8388716,
                                                                             "flags": 64,
                                                                             "start": 53,
@@ -207,7 +207,7 @@ class Base {
                                                                                                                 "start": 94,
                                                                                                                 "end": 97
                                                                                                             },
-                                                                                                            "flags": 536870944,
+                                                                                                            "flags": 97,
                                                                                                             "start": 80,
                                                                                                             "end": 97
                                                                                                         },
@@ -277,8 +277,8 @@ class Base {
                                                                         "end": 122
                                                                     },
                                                                     {
-                                                                        "kind": 317,
-                                                                        "flags": 96,
+                                                                        "kind": 1108353041,
+                                                                        "flags": 64,
                                                                         "start": 122,
                                                                         "end": 123
                                                                     }
@@ -351,12 +351,13 @@ class Base {
   constructor() {
     this.Foo = class  {
       static #_ = (() =>  {
-            this.foo = ;
-          })();
-
+        this.foo = new.target;
+      })()
+      ;
     };
   }
 }
+
 ```
 
 ### Diagnostics

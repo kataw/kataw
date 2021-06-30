@@ -45,8 +45,8 @@ async function f(){ foo: for await (x of y) continue foo; }
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 16,
-                "end": 18
+                "start": 17,
+                "end": 17
             },
             "contents": {
                 "kind": 216,
@@ -162,10 +162,9 @@ async function f(){ foo: for await (x of y) continue foo; }
 
 ```javascript
 
-async function f() {
-  foo: for await (x of y)
-    continue foo;
-}
+async function f() { foo: for await (x of y)
+  continue foo; }
+
 ```
 
 ### Diagnostics

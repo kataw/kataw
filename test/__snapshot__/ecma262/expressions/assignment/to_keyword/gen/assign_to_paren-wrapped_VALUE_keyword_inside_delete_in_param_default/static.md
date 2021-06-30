@@ -123,8 +123,8 @@ function *f(x = delete ((static) = f)) {}
                 ],
                 "trailingComma": false,
                 "flags": 34,
-                "start": 11,
-                "end": 38
+                "start": 12,
+                "end": 37
             },
             "contents": {
                 "kind": 216,
@@ -159,7 +159,8 @@ function *f(x = delete ((static) = f)) {}
 
 ```javascript
 
-function * f() {}
+function* f(x = delete  ((static) = f)) { }
+
 ```
 
 ### Diagnostics

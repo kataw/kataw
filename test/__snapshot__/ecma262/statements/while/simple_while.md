@@ -63,7 +63,9 @@ while (foo) bar;
 
 ```javascript
 
-while (foo) bar;
+while (foo)
+  bar;
+
 ```
 
 ### Diagnostics

@@ -60,8 +60,8 @@ new async function *(){}
                         "formalParameters": [],
                         "trailingComma": false,
                         "flags": 32,
-                        "start": 20,
-                        "end": 22
+                        "start": 21,
+                        "end": 21
                     },
                     "contents": {
                         "kind": 216,
@@ -105,7 +105,8 @@ new async function *(){}
 
 ```javascript
 
-new  async function * () {}();
+new async function* () { };
+
 ```
 
 ### Diagnostics

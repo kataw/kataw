@@ -73,6 +73,7 @@ var str = "\n";
 ```javascript
 
 var str = "\"\n\"";
+
 ```
 
 ### Diagnostics

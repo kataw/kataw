@@ -123,7 +123,11 @@ foo: while (true) { if (x) continue foo; }
 
 ```javascript
 
-foo: while (true) {}
+foo: while (true) {
+  if (x)
+    continue foo;
+}
+
 ```
 
 ### Diagnostics

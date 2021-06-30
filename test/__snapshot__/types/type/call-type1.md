@@ -69,6 +69,7 @@ type Fn2 = <A, B>(A, B) => A | B;
                                         "end": 13
                                     },
                                     "type": null,
+                                    "assignToken": null,
                                     "defaultType": null,
                                     "flags": 2097152,
                                     "start": 12,
@@ -85,6 +86,7 @@ type Fn2 = <A, B>(A, B) => A | B;
                                         "end": 16
                                     },
                                     "type": null,
+                                    "assignToken": null,
                                     "defaultType": null,
                                     "flags": 2097152,
                                     "start": 14,
@@ -235,6 +237,7 @@ type Fn2 = <A, B>(A, B) => A | B;
 
 ```javascript
 
+type Fn2 = <A, B>(A, B) => A | B
 
 ```
 

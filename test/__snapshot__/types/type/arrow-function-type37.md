@@ -378,6 +378,7 @@ type a = (a[a & b[a|b|c|d|e]][c | d][(x) => T][-1][{...x}][]) => T;
                                                         "end": 48
                                                     },
                                                     "text": 1,
+                                                    "rawText": "1",
                                                     "flags": 2097216,
                                                     "start": 47,
                                                     "end": 49
@@ -400,7 +401,7 @@ type a = (a[a & b[a|b|c|d|e]][c | d][(x) => T][-1][{...x}][]) => T;
                                                     {
                                                         "kind": 247,
                                                         "protoKeyword": null,
-                                                        "staticToken": null,
+                                                        "staticKeyword": null,
                                                         "ellipsisToken": {
                                                             "kind": 524302,
                                                             "flags": 64,
@@ -519,6 +520,7 @@ type a = (a[a & b[a|b|c|d|e]][c | d][(x) => T][-1][{...x}][]) => T;
 
 ```javascript
 
+type a = (a[a & b[a | b | c | d | e]][c | d][(x) => T][-1][{ ...x }][]) => T
 
 ```
 

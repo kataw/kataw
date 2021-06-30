@@ -57,7 +57,7 @@ type a = {[((({[(((-1) => [c|d]))]:string}) => [c|d]))]:string};
                         {
                             "kind": 195,
                             "protoKeyword": null,
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "name": null,
                             "key": {
                                 "kind": 139,
@@ -85,7 +85,7 @@ type a = {[((({[(((-1) => [c|d]))]:string}) => [c|d]))]:string};
                                                                 {
                                                                     "kind": 195,
                                                                     "protoKeyword": null,
-                                                                    "staticToken": null,
+                                                                    "staticKeyword": null,
                                                                     "name": null,
                                                                     "key": {
                                                                         "kind": 139,
@@ -116,6 +116,7 @@ type a = {[((({[(((-1) => [c|d]))]:string}) => [c|d]))]:string};
                                                                                                         "end": 20
                                                                                                     },
                                                                                                     "text": 1,
+                                                                                                    "rawText": "1",
                                                                                                     "flags": 2097216,
                                                                                                     "start": 19,
                                                                                                     "end": 21
@@ -380,6 +381,7 @@ type a = {[((({[(((-1) => [c|d]))]:string}) => [c|d]))]:string};
 
 ```javascript
 
+type a = { [(({ [((-1) => [c | d])]: string }) => [c | d])]: string }
 
 ```
 

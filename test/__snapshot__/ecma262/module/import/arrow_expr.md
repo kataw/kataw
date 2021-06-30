@@ -63,28 +63,22 @@ let x = () => import {x} from "y"
                                 "end": 13
                             },
                             "contents": {
-                                "kind": 120,
+                                "kind": 206,
+                                "importKeyword": {
+                                    "kind": 37814364,
+                                    "flags": 64,
+                                    "start": 13,
+                                    "end": 20
+                                },
                                 "expression": {
-                                    "kind": 206,
-                                    "importKeyword": {
-                                        "kind": 37814364,
-                                        "flags": 64,
-                                        "start": 13,
-                                        "end": 20
-                                    },
-                                    "expression": {
-                                        "kind": 134299649,
-                                        "text": "x",
-                                        "rawText": "x",
-                                        "flags": 96,
-                                        "start": 22,
-                                        "end": 23
-                                    },
-                                    "flags": 32,
-                                    "start": 20,
+                                    "kind": 134299649,
+                                    "text": "x",
+                                    "rawText": "x",
+                                    "flags": 96,
+                                    "start": 22,
                                     "end": 23
                                 },
-                                "flags": 16,
+                                "flags": 32,
                                 "start": 20,
                                 "end": 23
                             },

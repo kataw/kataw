@@ -57,7 +57,7 @@ type T = { [[foo]]: X }
                         {
                             "kind": 248,
                             "protoKeyword": null,
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "name": {
                                 "kind": 134299649,
                                 "text": "foo",
@@ -122,6 +122,7 @@ type T = { [[foo]]: X }
 
 ```javascript
 
+type T = { [[foo]]X }
 
 ```
 

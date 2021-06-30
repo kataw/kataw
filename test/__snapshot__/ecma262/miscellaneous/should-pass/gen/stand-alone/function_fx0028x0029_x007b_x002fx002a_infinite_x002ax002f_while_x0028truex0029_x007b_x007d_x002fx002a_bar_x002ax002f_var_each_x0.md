@@ -48,8 +48,8 @@ function f() { /* infinite */ while (true) { } /* bar */ var each; }
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 10,
-                "end": 12
+                "start": 11,
+                "end": 11
             },
             "contents": {
                 "kind": 216,
@@ -153,10 +153,8 @@ function f() { /* infinite */ while (true) { } /* bar */ var each; }
 
 ```javascript
 
-function f() {
-  while (true) {} /* bar */
-  var each;
-}
+function f() {/* infinite */ /* infinite */while (true) { }/* bar */ /* bar */var each; }
+
 ```
 
 ### Diagnostics

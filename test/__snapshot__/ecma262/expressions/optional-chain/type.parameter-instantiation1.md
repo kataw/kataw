@@ -120,7 +120,8 @@ a?.<number>(y)
 
 ```javascript
 
-a?.(y);
+a?.<number>(y);
+
 ```
 
 ### Diagnostics

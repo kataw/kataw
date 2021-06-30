@@ -56,27 +56,21 @@
                         "statement": {
                             "kind": 120,
                             "expression": {
-                                "kind": 120,
-                                "expression": {
-                                    "kind": 299,
-                                    "importKeyword": {
-                                        "kind": 37814364,
-                                        "flags": 64,
-                                        "start": 18,
-                                        "end": 25
-                                    },
-                                    "metaIdentifier": {
-                                        "kind": 16595,
-                                        "flags": 96,
-                                        "start": 26,
-                                        "end": 30
-                                    },
-                                    "flags": 25,
-                                    "start": 96,
+                                "kind": 299,
+                                "importKeyword": {
+                                    "kind": 37814364,
+                                    "flags": 64,
+                                    "start": 18,
+                                    "end": 25
+                                },
+                                "metaIdentifier": {
+                                    "kind": 16595,
+                                    "flags": 96,
+                                    "start": 26,
                                     "end": 30
                                 },
-                                "flags": 16,
-                                "start": 25,
+                                "flags": 25,
+                                "start": 96,
                                 "end": 30
                             },
                             "flags": 16,

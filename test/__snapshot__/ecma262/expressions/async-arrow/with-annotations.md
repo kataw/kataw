@@ -202,8 +202,10 @@ async ([a]:string)=>c;
 
 ```javascript
 
-async  =>  c
-async  =>  c
+async (a: string) => c
+;
+async ([a,]: string) => c
+;
 
 ```
 

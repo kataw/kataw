@@ -46,7 +46,7 @@ Math.min(
                         "start": 5,
                         "end": 8
                     },
-                    "flags": 536870944,
+                    "flags": 96,
                     "start": 0,
                     "end": 8
                 },
@@ -79,7 +79,7 @@ Math.min(
                                                 "start": 188,
                                                 "end": 192
                                             },
-                                            "flags": 536870944,
+                                            "flags": 96,
                                             "start": 9,
                                             "end": 192
                                         },
@@ -91,7 +91,7 @@ Math.min(
                                             "start": 193,
                                             "end": 205
                                         },
-                                        "flags": 536870944,
+                                        "flags": 96,
                                         "start": 9,
                                         "end": 205
                                     },
@@ -123,7 +123,7 @@ Math.min(
                                                     "start": 220,
                                                     "end": 227
                                                 },
-                                                "flags": 536870944,
+                                                "flags": 96,
                                                 "start": 207,
                                                 "end": 227
                                             },
@@ -151,7 +151,7 @@ Math.min(
                                                     "start": 237,
                                                     "end": 248
                                                 },
-                                                "flags": 536870944,
+                                                "flags": 96,
                                                 "start": 229,
                                                 "end": 248
                                             },
@@ -225,18 +225,12 @@ Math.min(
 
 ```javascript
 
-Math.min(
-
-    (
-      /* $FlowFixMe(>=0.38.0 site=www) - Flow error detected during the
+Math.min((
+ /* $FlowFixMe(>=0.38.0 site=www) - Flow error detected during the
      * deployment of v0.38.0. To see the error, remove this comment and
      * run flow */
-      document.body.scrollHeight -
-      (window.scrollY + window.innerHeight)
-    ) - devsite_footer_height
-  ,
-  0,
-);
+document.body.scrollHeight - (window.scrollY + window.innerHeight)) - devsite_footer_height, 0,);
+
 ```
 
 ### Diagnostics

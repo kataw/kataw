@@ -53,7 +53,7 @@ class A extends /crap/ {}
                         "end": 15
                     },
                     "expression": {
-                        "kind": 221,
+                        "kind": 371,
                         "text": "/crap/",
                         "flags": 96,
                         "start": 15,
@@ -93,7 +93,9 @@ class A extends /crap/ {}
 
 ```javascript
 
-class A  {}
+class A extends /crap/ {
+}
+
 ```
 
 ### Diagnostics

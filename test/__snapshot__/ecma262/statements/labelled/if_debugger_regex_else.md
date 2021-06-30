@@ -45,8 +45,8 @@ function x(){
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 10,
-                "end": 12
+                "start": 11,
+                "end": 11
             },
             "contents": {
                 "kind": 216,
@@ -91,7 +91,7 @@ function x(){
                         {
                             "kind": 120,
                             "expression": {
-                                "kind": 221,
+                                "kind": 371,
                                 "text": "/ /",
                                 "flags": 96,
                                 "start": 35,

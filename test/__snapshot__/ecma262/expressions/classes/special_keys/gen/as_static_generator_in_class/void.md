@@ -137,8 +137,9 @@ class x {static * void(){}}
 ```javascript
 
 class x {
-  static static void() {}
+  static *void() { }
 }
+
 ```
 
 ### Diagnostics

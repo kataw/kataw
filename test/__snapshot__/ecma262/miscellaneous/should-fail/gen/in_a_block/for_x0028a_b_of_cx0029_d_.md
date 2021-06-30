@@ -121,6 +121,7 @@
   for (a, b; c; of)
     d;
 }
+
 ```
 
 ### Diagnostics

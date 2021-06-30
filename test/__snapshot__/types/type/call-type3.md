@@ -69,6 +69,7 @@ type Fn1 = <T>(T) => T;
                                         "end": 13
                                     },
                                     "type": null,
+                                    "assignToken": null,
                                     "defaultType": null,
                                     "flags": 2097152,
                                     "start": 12,
@@ -172,6 +173,7 @@ type Fn1 = <T>(T) => T;
 
 ```javascript
 
+type Fn1 = <T>(T) => T
 
 ```
 

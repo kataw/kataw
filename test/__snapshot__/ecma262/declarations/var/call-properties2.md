@@ -61,7 +61,7 @@ var c: { (): string; (x: number): string } =
                                     {
                                         "kind": 196,
                                         "protoKeyword": null,
-                                        "staticToken": null,
+                                        "staticKeyword": null,
                                         "typeParameter": null,
                                         "value": {
                                             "kind": 282,
@@ -92,7 +92,7 @@ var c: { (): string; (x: number): string } =
                                     {
                                         "kind": 196,
                                         "protoKeyword": null,
-                                        "staticToken": null,
+                                        "staticKeyword": null,
                                         "typeParameter": null,
                                         "value": {
                                             "kind": 282,
@@ -215,8 +215,8 @@ var c: { (): string; (x: number): string } =
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
-                                "start": 111,
-                                "end": 124
+                                "start": 113,
+                                "end": 123
                             },
                             "contents": {
                                 "kind": 216,
@@ -316,7 +316,7 @@ var c: { (): string; (x: number): string } =
                                     {
                                         "kind": 196,
                                         "protoKeyword": null,
-                                        "staticToken": null,
+                                        "staticKeyword": null,
                                         "typeParameter": null,
                                         "value": {
                                             "kind": 282,
@@ -347,7 +347,7 @@ var c: { (): string; (x: number): string } =
                                     {
                                         "kind": 196,
                                         "protoKeyword": null,
-                                        "staticToken": null,
+                                        "staticKeyword": null,
                                         "typeParameter": null,
                                         "value": {
                                             "kind": 282,
@@ -465,8 +465,8 @@ var c: { (): string; (x: number): string } =
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
-                                "start": 272,
-                                "end": 284
+                                "start": 274,
+                                "end": 283
                             },
                             "contents": {
                                 "kind": 216,
@@ -548,14 +548,10 @@ var c: { (): string; (x: number): string } =
 
 ```javascript
 // It should be fine when a function satisfies them all
+var b: { (): string, (x: number): string } = function (x?: number): string { return "\"hi\""; };
+ // ...but should notice when a function doesn't satisfy them all
+var c: { (): string, (x: number): string } = function (x: number): string { return "\"hi\""; };
 
-var b:  = function (): string {
-  return  "\"hi\"";
-};
-// ...but should notice when a function doesn't satisfy them all
-var c:  = function (): string {
-  return  "\"hi\"";
-};
 ```
 
 ### Diagnostics

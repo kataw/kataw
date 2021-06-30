@@ -100,8 +100,8 @@ function baz(x: boolean) {
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 12,
-                "end": 24
+                "start": 13,
+                "end": 23
             },
             "contents": {
                 "kind": 216,
@@ -415,8 +415,8 @@ function baz(x: boolean) {
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 146,
-                "end": 158
+                "start": 147,
+                "end": 157
             },
             "contents": {
                 "kind": 216,
@@ -590,8 +590,8 @@ function baz(x: boolean) {
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 217,
-                "end": 229
+                "start": 218,
+                "end": 228
             },
             "contents": {
                 "kind": 216,
@@ -722,19 +722,26 @@ function baz(x: boolean) {
 
 ```javascript
 
-function foo() {
-  var obj = { a: 1, b: 2 };
-  for ( in obj)
-    {}
+function foo(x: boolean) {
+  var obj = { a : 1, b : 2 };
+  for (var prop in obj) {
+    if (x) {
+      continue;
+    }
+    return;
+  }
 }
-function bar() {
-  for ( in {})
-    {}
+function bar(x: boolean) {
+  for (var prop in {}) {
+    return;
+  }
 }
-function baz() {
-  for ( in {})
-    {}
+function baz(x: boolean) {
+  for (var prop in {}) {
+    continue;
+  }
 }
+
 ```
 
 ### Diagnostics

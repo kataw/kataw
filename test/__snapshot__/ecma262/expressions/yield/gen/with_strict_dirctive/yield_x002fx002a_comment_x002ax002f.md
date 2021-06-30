@@ -60,7 +60,9 @@
 
 ```javascript
 
-yield; /* comment */
+'\'use strict\'';
+yield;/* comment */
+
 ```
 
 ### Diagnostics

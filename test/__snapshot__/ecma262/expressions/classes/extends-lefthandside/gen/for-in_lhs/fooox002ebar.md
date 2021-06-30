@@ -49,7 +49,7 @@ for (fooo.bar in x) ;
                     "start": 10,
                     "end": 13
                 },
-                "flags": 536870944,
+                "flags": 96,
                 "start": 5,
                 "end": 13
             },
@@ -91,7 +91,9 @@ for (fooo.bar in x) ;
 
 ```javascript
 
-for (fooo.bar in x);
+for (fooo.bar in x)
+  ;
+
 ```
 
 ### Diagnostics

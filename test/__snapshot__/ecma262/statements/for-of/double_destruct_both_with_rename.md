@@ -154,7 +154,9 @@ for (let {x : y, z : a} of obj);
 for (let {
   x: y,
   z: a
-}; of obj);
+} of obj)
+  ;
+
 ```
 
 ### Diagnostics

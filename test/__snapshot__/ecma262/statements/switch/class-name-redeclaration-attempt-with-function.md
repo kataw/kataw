@@ -139,8 +139,8 @@ switch (0) { case 1: class f {} default: function f() {} }
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 32,
-                                    "start": 51,
-                                    "end": 53
+                                    "start": 52,
+                                    "end": 52
                                 },
                                 "contents": {
                                     "kind": 216,

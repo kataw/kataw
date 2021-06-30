@@ -199,6 +199,7 @@ type a = (...x: string & foo | bar) => T;
 
 ```javascript
 
+type a = (...x: string & foo | bar) => T
 
 ```
 

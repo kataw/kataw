@@ -65,6 +65,7 @@ type a = (["string"]);
                                     "type": {
                                         "kind": 134217967,
                                         "text": "string",
+                                        "rawText": "\"string\"",
                                         "flags": 2097216,
                                         "start": 11,
                                         "end": 19
@@ -109,6 +110,7 @@ type a = (["string"]);
 
 ```javascript
 
+type a = (["\"string\""])
 
 ```
 

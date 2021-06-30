@@ -111,7 +111,8 @@ var [yield] = [42];
 
 ```javascript
 
-var [yield] = [42];
+var [yield] = [42,];
+
 ```
 
 ### Diagnostics

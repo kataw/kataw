@@ -48,8 +48,8 @@ function not_gen() { (function * () { x = class extends (a ? null : yield) { } }
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 16,
-                "end": 18
+                "start": 17,
+                "end": 17
             },
             "contents": {
                 "kind": 216,
@@ -83,8 +83,8 @@ function not_gen() { (function * () { x = class extends (a ? null : yield) { } }
                                         "formalParameters": [],
                                         "trailingComma": false,
                                         "flags": 32,
-                                        "start": 32,
-                                        "end": 35
+                                        "start": 34,
+                                        "end": 34
                                     },
                                     "contents": {
                                         "kind": 216,

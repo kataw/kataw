@@ -63,6 +63,7 @@ export default function <T>() {}
                                     "end": 26
                                 },
                                 "type": null,
+                                "assignToken": null,
                                 "defaultType": null,
                                 "flags": 2097152,
                                 "start": 25,
@@ -83,8 +84,8 @@ export default function <T>() {}
                     "formalParameters": [],
                     "trailingComma": false,
                     "flags": 32,
-                    "start": 27,
-                    "end": 29
+                    "start": 28,
+                    "end": 28
                 },
                 "contents": {
                     "kind": 216,
@@ -123,7 +124,8 @@ export default function <T>() {}
 
 ```javascript
 
-export default function  <T >() {};
+export default function <T> () { };
+
 ```
 
 ### Diagnostics

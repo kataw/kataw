@@ -144,13 +144,7 @@ class x extends y { foo(){ return () => () => super.foo; }}
                                                         "contents": {
                                                             "kind": 129,
                                                             "member": {
-                                                                "kind": 225,
-                                                                "superKeyword": {
-                                                                    "kind": 4259935,
-                                                                    "flags": 96,
-                                                                    "start": 45,
-                                                                    "end": 51
-                                                                },
+                                                                "kind": 4259935,
                                                                 "flags": 96,
                                                                 "start": 45,
                                                                 "end": 51
@@ -163,7 +157,7 @@ class x extends y { foo(){ return () => () => super.foo; }}
                                                                 "start": 52,
                                                                 "end": 55
                                                             },
-                                                            "flags": 536870944,
+                                                            "flags": 96,
                                                             "start": 45,
                                                             "end": 55
                                                         },
@@ -223,11 +217,10 @@ class x extends y { foo(){ return () => () => super.foo; }}
 
 ```javascript
 
-class x  {
-  foo() {
-    return  () =>  () =>  super.foo;
-  }
+class x extends y {
+  foo() { return () => () => super.foo; }
 }
+
 ```
 
 ### Diagnostics

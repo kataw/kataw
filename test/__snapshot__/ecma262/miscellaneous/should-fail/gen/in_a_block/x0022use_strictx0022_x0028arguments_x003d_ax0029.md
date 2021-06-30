@@ -109,6 +109,7 @@
   "\"use strict\"";
   (arguments = a);
 }
+
 ```
 
 ### Diagnostics

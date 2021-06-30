@@ -92,7 +92,8 @@ new async x => ok
 
 ```javascript
 
-new  async x =>  ok();
+new async x => ok;
+
 ```
 
 ### Diagnostics

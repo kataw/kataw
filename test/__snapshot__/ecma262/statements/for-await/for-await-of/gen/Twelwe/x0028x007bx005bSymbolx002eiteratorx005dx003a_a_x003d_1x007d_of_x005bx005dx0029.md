@@ -59,8 +59,8 @@ await ({[Symbol.iterator]: a = 1} of []) { } }
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 18,
-                "end": 20
+                "start": 19,
+                "end": 19
             },
             "contents": {
                 "kind": 216,
@@ -119,7 +119,7 @@ await ({[Symbol.iterator]: a = 1} of []) { } }
                                                         "start": 57,
                                                         "end": 65
                                                     },
-                                                    "flags": 536870944,
+                                                    "flags": 96,
                                                     "start": 50,
                                                     "end": 65
                                                 },
@@ -234,11 +234,10 @@ await ({[Symbol.iterator]: a = 1} of []) { } }
 
 ```javascript
 
-async function * f() {
-  for await ({ [Symbol.iterator]: a = 1 } of [])
-    {
-    }
-}
+async function* f() {
+'\'use strict\'';
+ for await ({ [Symbol.iterator] : a = 1 } of []) { } }
+
 ```
 
 ### Diagnostics

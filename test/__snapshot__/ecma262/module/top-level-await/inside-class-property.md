@@ -60,7 +60,7 @@ export class C {
                                 "kind": 280,
                                 "decorators": null,
                                 "declaredToken": null,
-                                "staticToken": null,
+                                "staticKeyword": null,
                                 "asyncKeyword": null,
                                 "key": {
                                     "kind": 134299649,
@@ -97,8 +97,8 @@ export class C {
                                 "end": 30
                             },
                             {
-                                "kind": 317,
-                                "flags": 96,
+                                "kind": 1108353041,
+                                "flags": 64,
                                 "start": 30,
                                 "end": 31
                             }
@@ -138,9 +138,10 @@ export class C {
 ```javascript
 
 export class C {
-  p = await 0;
-
+  p = await 0
+  ;
 }
+
 ```
 
 ### Diagnostics

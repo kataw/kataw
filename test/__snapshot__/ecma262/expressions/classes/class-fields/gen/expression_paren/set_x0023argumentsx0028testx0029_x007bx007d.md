@@ -145,8 +145,9 @@
 ```javascript
 
 (class  {
-    set #arguments() {}
-  });
+  set #arguments(test) { }
+});
+
 ```
 
 ### Diagnostics

@@ -339,11 +339,12 @@ declare => x, declare(y);
 
 ```javascript
 
-declare =>  x;
-declare =>  x, declare =>  x;
-opaque =>  x;
-opaque =>  x, opaque =>  x;
-declare =>  x, declare(y);
+declare => x;
+declare => x, declare => x;
+opaque => x;
+opaque => x, opaque => x;
+declare => x, declare(y);
+
 ```
 
 ### Diagnostics

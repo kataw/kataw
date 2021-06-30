@@ -151,8 +151,16 @@ there; }
 
 ```javascript
 
-while (true) {}
-while (true) {}
+while (true) {
+  break;/* Multiline
+Comment */
+  there;
+}
+while (true) {
+  break;// Comment
+  there;
+}
+
 ```
 
 ### Diagnostics

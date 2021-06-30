@@ -103,7 +103,7 @@ type a = (((symbol[{():string}][][][] | ((y & [((x) => T)]) => T) => T) => T) =>
                                                                                                 {
                                                                                                     "kind": 196,
                                                                                                     "protoKeyword": null,
-                                                                                                    "staticToken": null,
+                                                                                                    "staticKeyword": null,
                                                                                                     "typeParameter": null,
                                                                                                     "value": {
                                                                                                         "kind": 282,
@@ -507,6 +507,7 @@ type a = (((symbol[{():string}][][][] | ((y & [((x) => T)]) => T) => T) => T) =>
 
 ```javascript
 
+type a = (((symbol[{ (): string }][][][] | ((y & [((x) => T)]) => T) => T) => T) => T) => T
 
 ```
 

@@ -143,8 +143,8 @@ promise.then(([firstResult, secondResult, thirdResult, fourthResult, fifthResult
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 32,
-                "end": 80
+                "start": 33,
+                "end": 79
             },
             "contents": {
                 "kind": 216,
@@ -307,8 +307,8 @@ promise.then(([firstResult, secondResult, thirdResult, fourthResult, fifthResult
                 ],
                 "trailingComma": false,
                 "flags": 34,
-                "start": 134,
-                "end": 205
+                "start": 135,
+                "end": 204
             },
             "contents": {
                 "kind": 216,
@@ -518,8 +518,8 @@ promise.then(([firstResult, secondResult, thirdResult, fourthResult, fifthResult
                 ],
                 "trailingComma": false,
                 "flags": 34,
-                "start": 259,
-                "end": 355
+                "start": 260,
+                "end": 354
             },
             "contents": {
                 "kind": 216,
@@ -596,6 +596,46 @@ promise.then(([firstResult, secondResult, thirdResult, fourthResult, fifthResult
                                             "kind": 270,
                                             "elements": [
                                                 {
+                                                    "kind": 134299649,
+                                                    "text": "first",
+                                                    "rawText": "first",
+                                                    "flags": 96,
+                                                    "start": 411,
+                                                    "end": 416
+                                                },
+                                                {
+                                                    "kind": 134299649,
+                                                    "text": "second",
+                                                    "rawText": "second",
+                                                    "flags": 96,
+                                                    "start": 417,
+                                                    "end": 424
+                                                },
+                                                {
+                                                    "kind": 134299649,
+                                                    "text": "third",
+                                                    "rawText": "third",
+                                                    "flags": 96,
+                                                    "start": 425,
+                                                    "end": 431
+                                                },
+                                                {
+                                                    "kind": 134299649,
+                                                    "text": "fourth",
+                                                    "rawText": "fourth",
+                                                    "flags": 96,
+                                                    "start": 432,
+                                                    "end": 439
+                                                },
+                                                {
+                                                    "kind": 134299649,
+                                                    "text": "fifth",
+                                                    "rawText": "fifth",
+                                                    "flags": 96,
+                                                    "start": 440,
+                                                    "end": 446
+                                                },
+                                                {
                                                     "kind": 281,
                                                     "ellipsisToken": {
                                                         "kind": 524302,
@@ -614,49 +654,9 @@ promise.then(([firstResult, secondResult, thirdResult, fourthResult, fifthResult
                                                     "optionalToken": null,
                                                     "type": null,
                                                     "right": null,
-                                                    "flags": 32,
+                                                    "flags": 1073741856,
                                                     "start": 447,
                                                     "end": 455
-                                                },
-                                                {
-                                                    "kind": 134299649,
-                                                    "text": "fifth",
-                                                    "rawText": "fifth",
-                                                    "flags": 96,
-                                                    "start": 440,
-                                                    "end": 446
-                                                },
-                                                {
-                                                    "kind": 134299649,
-                                                    "text": "fourth",
-                                                    "rawText": "fourth",
-                                                    "flags": 96,
-                                                    "start": 432,
-                                                    "end": 439
-                                                },
-                                                {
-                                                    "kind": 134299649,
-                                                    "text": "third",
-                                                    "rawText": "third",
-                                                    "flags": 96,
-                                                    "start": 425,
-                                                    "end": 431
-                                                },
-                                                {
-                                                    "kind": 134299649,
-                                                    "text": "second",
-                                                    "rawText": "second",
-                                                    "flags": 96,
-                                                    "start": 417,
-                                                    "end": 424
-                                                },
-                                                {
-                                                    "kind": 134299649,
-                                                    "text": "first",
-                                                    "rawText": "first",
-                                                    "flags": 96,
-                                                    "start": 411,
-                                                    "end": 416
                                                 }
                                             ],
                                             "trailingComma": false,
@@ -944,7 +944,7 @@ promise.then(([firstResult, secondResult, thirdResult, fourthResult, fifthResult
                         "start": 617,
                         "end": 621
                     },
-                    "flags": 536870944,
+                    "flags": 96,
                     "start": 607,
                     "end": 621
                 },
@@ -964,6 +964,46 @@ promise.then(([firstResult, secondResult, thirdResult, fourthResult, fifthResult
                                             "kind": 270,
                                             "elements": [
                                                 {
+                                                    "kind": 134299649,
+                                                    "text": "firstResult",
+                                                    "rawText": "firstResult",
+                                                    "flags": 96,
+                                                    "start": 624,
+                                                    "end": 635
+                                                },
+                                                {
+                                                    "kind": 134299649,
+                                                    "text": "secondResult",
+                                                    "rawText": "secondResult",
+                                                    "flags": 96,
+                                                    "start": 636,
+                                                    "end": 649
+                                                },
+                                                {
+                                                    "kind": 134299649,
+                                                    "text": "thirdResult",
+                                                    "rawText": "thirdResult",
+                                                    "flags": 96,
+                                                    "start": 650,
+                                                    "end": 662
+                                                },
+                                                {
+                                                    "kind": 134299649,
+                                                    "text": "fourthResult",
+                                                    "rawText": "fourthResult",
+                                                    "flags": 96,
+                                                    "start": 663,
+                                                    "end": 676
+                                                },
+                                                {
+                                                    "kind": 134299649,
+                                                    "text": "fifthResult",
+                                                    "rawText": "fifthResult",
+                                                    "flags": 96,
+                                                    "start": 677,
+                                                    "end": 689
+                                                },
+                                                {
                                                     "kind": 281,
                                                     "ellipsisToken": {
                                                         "kind": 524302,
@@ -982,49 +1022,9 @@ promise.then(([firstResult, secondResult, thirdResult, fourthResult, fifthResult
                                                     "optionalToken": null,
                                                     "type": null,
                                                     "right": null,
-                                                    "flags": 32,
+                                                    "flags": 1073741856,
                                                     "start": 690,
                                                     "end": 698
-                                                },
-                                                {
-                                                    "kind": 134299649,
-                                                    "text": "fifthResult",
-                                                    "rawText": "fifthResult",
-                                                    "flags": 96,
-                                                    "start": 677,
-                                                    "end": 689
-                                                },
-                                                {
-                                                    "kind": 134299649,
-                                                    "text": "fourthResult",
-                                                    "rawText": "fourthResult",
-                                                    "flags": 96,
-                                                    "start": 663,
-                                                    "end": 676
-                                                },
-                                                {
-                                                    "kind": 134299649,
-                                                    "text": "thirdResult",
-                                                    "rawText": "thirdResult",
-                                                    "flags": 96,
-                                                    "start": 650,
-                                                    "end": 662
-                                                },
-                                                {
-                                                    "kind": 134299649,
-                                                    "text": "secondResult",
-                                                    "rawText": "secondResult",
-                                                    "flags": 96,
-                                                    "start": 636,
-                                                    "end": 649
-                                                },
-                                                {
-                                                    "kind": 134299649,
-                                                    "text": "firstResult",
-                                                    "rawText": "firstResult",
-                                                    "flags": 96,
-                                                    "start": 624,
-                                                    "end": 635
                                                 }
                                             ],
                                             "trailingComma": false,
@@ -1116,26 +1116,27 @@ promise.then(([firstResult, secondResult, thirdResult, fourthResult, fifthResult
 
 ```javascript
 
-function excludeFirstFiveResults() {
-  return  rest;
+function excludeFirstFiveResults([first, second, third, fourth, fifth, ...rest]) {
+  return rest;
 }
-function excludeFirstFiveResults2() {
-  return  rest;
+function excludeFirstFiveResults2([first, second, third, fourth, fifth, ...rest] = DEFAULT_FIVE_RESULTS) {
+  return rest;
 }
-function excludeFirstFiveResults3() {
-  return  rest;
+function excludeFirstFiveResults3([firstResult, secondResult, thirdResult, fourthResult, fifthResult, ...rest] = [1, 2, 3, 4, 5,]) {
+  return rest;
 }
-const excludeFirstFiveResults5 = () =>  {
-  return  rest;
+const excludeFirstFiveResults5 = ([first, second, third, fourth, fifth, ...rest]) =>  {
+  return rest;
 };
 class A {
-  excludeFirstFiveResults() {
-    return  restOfResults;
+  excludeFirstFiveResults([first, second, third, fourth, fifth, ...restOfResults]) {
+    return restOfResults;
   }
 }
-promise.then(() =>  {
-  return  rest;
+promise.then(([firstResult, secondResult, thirdResult, fourthResult, fifthResult, ...rest]) =>  {
+  return rest;
 });
+
 ```
 
 ### Diagnostics

@@ -103,7 +103,10 @@ async ({await}) => 1;
 
 ```javascript
 
-async  =>  1
+async ({
+    await
+  }) => 1
+;
 
 ```
 

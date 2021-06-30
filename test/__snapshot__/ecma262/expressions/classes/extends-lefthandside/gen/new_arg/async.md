@@ -64,7 +64,8 @@ new async
 
 ```javascript
 
-new  async();
+new async;
+
 ```
 
 ### Diagnostics

@@ -58,7 +58,7 @@ foo && (baz ?? baz);
                         "start": 4,
                         "end": 7
                     },
-                    "flags": 536870944,
+                    "flags": 96,
                     "start": 0,
                     "end": 7
                 },
@@ -893,11 +893,11 @@ foo && (baz ?? baz);
 ```javascript
 
 obj.foo ?? "\"default\"";
-const x = () =>  {};
+const x = (foo, bar = foo ?? bar) =>  { };
 foo ? bar ?? foo : baz;
 foo ?? (bar ?? baz);
 (foo ?? bar) ?? baz;
-// Mixing ?? and (&& or ||) requires parens
+ // Mixing ?? and (&& or ||) requires parens
 // It's a syntax error without it.
 (foo ?? baz) || baz;
 foo ?? (baz || baz);
@@ -907,6 +907,7 @@ foo ?? (baz && baz);
 foo || (baz ?? baz);
 (foo && baz) ?? baz;
 foo && (baz ?? baz);
+
 ```
 
 ### Diagnostics

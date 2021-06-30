@@ -157,8 +157,9 @@ var {a: my_var} = {a: 3}; my_var;
 
 var {
   a: my_var
-} = { a: 3 };
+} = { a : 3 };
 my_var;
+
 ```
 
 ### Diagnostics

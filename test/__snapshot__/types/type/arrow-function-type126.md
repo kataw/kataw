@@ -75,6 +75,7 @@ type a = (|2&3,symbol['string']) => T;
                                             {
                                                 "kind": 134217968,
                                                 "text": 2,
+                                                "rawText": "2",
                                                 "flags": 2097216,
                                                 "start": 11,
                                                 "end": 12
@@ -82,6 +83,7 @@ type a = (|2&3,symbol['string']) => T;
                                             {
                                                 "kind": 134217968,
                                                 "text": 3,
+                                                "rawText": "3",
                                                 "flags": 2097216,
                                                 "start": 13,
                                                 "end": 14
@@ -121,6 +123,7 @@ type a = (|2&3,symbol['string']) => T;
                                         "type": {
                                             "kind": 134217967,
                                             "text": "string",
+                                            "rawText": "'string'",
                                             "flags": 2097216,
                                             "start": 22,
                                             "end": 30
@@ -198,6 +201,7 @@ type a = (|2&3,symbol['string']) => T;
 
 ```javascript
 
+type a = (| 2 & 3, symbol["'string'"]) => T
 
 ```
 

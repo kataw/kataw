@@ -86,8 +86,8 @@
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 30,
-                "end": 41
+                "start": 31,
+                "end": 40
             },
             "contents": {
                 "kind": 216,
@@ -122,7 +122,11 @@
 
 ```javascript
 
-async function f() {}
+'\'use strict\'';
+async function f({
+    await
+  }) { }
+
 ```
 
 ### Diagnostics

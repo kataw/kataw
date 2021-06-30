@@ -88,7 +88,7 @@
                                                 "start": 8,
                                                 "end": 11
                                             },
-                                            "flags": 536870944,
+                                            "flags": 32,
                                             "start": 4,
                                             "end": 11
                                         },
@@ -133,7 +133,7 @@
                                     "start": 4,
                                     "end": 20
                                 },
-                                "flags": 32,
+                                "flags": 1073741856,
                                 "start": 1,
                                 "end": 20
                             }
@@ -183,7 +183,8 @@
 
 ```javascript
 
-[...[x].map(y, z)[x]] = a;
+[...[x,].map(y, z)[x]] = a;
+
 ```
 
 ### Diagnostics

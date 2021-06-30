@@ -42,23 +42,43 @@
                                         "ellipsisToken": {
                                             "kind": 524302,
                                             "flags": 64,
-                                            "start": 22,
-                                            "end": 26
+                                            "start": 2,
+                                            "end": 5
                                         },
                                         "left": {
                                             "kind": 134299649,
-                                            "text": "number",
-                                            "rawText": "number",
+                                            "text": "x",
+                                            "rawText": "x",
                                             "flags": 96,
-                                            "start": 26,
-                                            "end": 32
+                                            "start": 5,
+                                            "end": 6
                                         },
                                         "optionalToken": null,
-                                        "type": null,
-                                        "right": null,
+                                        "type": {
+                                            "kind": 139,
+                                            "bitwiseOrToken": null,
+                                            "bitwiseAndToken": null,
+                                            "type": {
+                                                "kind": 134234347,
+                                                "flags": 2097216,
+                                                "start": 7,
+                                                "end": 14
+                                            },
+                                            "flags": 2097152,
+                                            "start": 7,
+                                            "end": 14
+                                        },
+                                        "right": {
+                                            "kind": 134299649,
+                                            "text": "y",
+                                            "rawText": "y",
+                                            "flags": 96,
+                                            "start": 16,
+                                            "end": 18
+                                        },
                                         "flags": 32,
-                                        "start": 22,
-                                        "end": 32
+                                        "start": 2,
+                                        "end": 18
                                     },
                                     {
                                         "kind": 281,
@@ -105,43 +125,23 @@
                                         "ellipsisToken": {
                                             "kind": 524302,
                                             "flags": 64,
-                                            "start": 2,
-                                            "end": 5
+                                            "start": 22,
+                                            "end": 26
                                         },
                                         "left": {
                                             "kind": 134299649,
-                                            "text": "x",
-                                            "rawText": "x",
+                                            "text": "number",
+                                            "rawText": "number",
                                             "flags": 96,
-                                            "start": 5,
-                                            "end": 6
+                                            "start": 26,
+                                            "end": 32
                                         },
                                         "optionalToken": null,
-                                        "type": {
-                                            "kind": 139,
-                                            "bitwiseOrToken": null,
-                                            "bitwiseAndToken": null,
-                                            "type": {
-                                                "kind": 134234347,
-                                                "flags": 2097216,
-                                                "start": 7,
-                                                "end": 14
-                                            },
-                                            "flags": 2097152,
-                                            "start": 7,
-                                            "end": 14
-                                        },
-                                        "right": {
-                                            "kind": 134299649,
-                                            "text": "y",
-                                            "rawText": "y",
-                                            "flags": 96,
-                                            "start": 16,
-                                            "end": 18
-                                        },
-                                        "flags": 32,
-                                        "start": 2,
-                                        "end": 18
+                                        "type": null,
+                                        "right": null,
+                                        "flags": 1073741856,
+                                        "start": 22,
+                                        "end": 32
                                     }
                                 ],
                                 "trailingComma": false,

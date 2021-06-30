@@ -195,7 +195,7 @@ var x, y, z; m(['b']) ? lhs : { import.meta } = {}
                         "start": 39,
                         "end": 43
                     },
-                    "flags": 536870944,
+                    "flags": 48,
                     "start": 29,
                     "end": 43
                 },

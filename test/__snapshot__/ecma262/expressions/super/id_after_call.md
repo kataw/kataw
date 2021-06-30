@@ -50,7 +50,7 @@ foo()?.bar
                 "chain": {
                     "kind": 302,
                     "chain": {
-                        "kind": 536871114,
+                        "kind": 202,
                         "chain": null,
                         "expression": {
                             "kind": 134299649,
@@ -60,7 +60,7 @@ foo()?.bar
                             "start": 7,
                             "end": 10
                         },
-                        "flags": 32,
+                        "flags": 536870944,
                         "start": 7,
                         "end": 10
                     },
@@ -90,7 +90,8 @@ foo()?.bar
 
 ```javascript
 
-foo()?.;
+foo()?.bar;
+
 ```
 
 ### Diagnostics

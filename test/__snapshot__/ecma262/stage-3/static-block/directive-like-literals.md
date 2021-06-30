@@ -152,7 +152,7 @@ class C {
                                                         "start": 102,
                                                         "end": 105
                                                     },
-                                                    "flags": 536870944,
+                                                    "flags": 97,
                                                     "start": 56,
                                                     "end": 105
                                                 },
@@ -178,7 +178,7 @@ class C {
                                                         "start": 113,
                                                         "end": 116
                                                     },
-                                                    "flags": 536870944,
+                                                    "flags": 96,
                                                     "start": 107,
                                                     "end": 116
                                                 },
@@ -231,9 +231,9 @@ class C {
 ```javascript
 
 class C {
-  static static foo() {}
-
+  static foo() { }
 }
+
 ```
 
 ### Diagnostics

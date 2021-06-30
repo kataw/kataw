@@ -167,7 +167,11 @@ async ({ x = [ await ], y = { await } }) => {}
 
 ```javascript
 
-async  =>  {}
+async ({
+    x = [await,],
+    y = { await }
+  }) =>  { }
+
 ```
 
 ### Diagnostics

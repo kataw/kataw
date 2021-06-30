@@ -124,13 +124,7 @@ class x { constructor(){ return () => () => super.foo; }}
                                                         "contents": {
                                                             "kind": 129,
                                                             "member": {
-                                                                "kind": 225,
-                                                                "superKeyword": {
-                                                                    "kind": 4259935,
-                                                                    "flags": 96,
-                                                                    "start": 43,
-                                                                    "end": 49
-                                                                },
+                                                                "kind": 4259935,
                                                                 "flags": 96,
                                                                 "start": 43,
                                                                 "end": 49
@@ -143,7 +137,7 @@ class x { constructor(){ return () => () => super.foo; }}
                                                                 "start": 50,
                                                                 "end": 53
                                                             },
-                                                            "flags": 536870944,
+                                                            "flags": 96,
                                                             "start": 43,
                                                             "end": 53
                                                         },
@@ -204,10 +198,9 @@ class x { constructor(){ return () => () => super.foo; }}
 ```javascript
 
 class x {
-  constructor() {
-    return  () =>  () =>  super.foo;
-  }
+  constructor() { return () => () => super.foo; }
 }
+
 ```
 
 ### Diagnostics

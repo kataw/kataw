@@ -161,6 +161,7 @@ type A = (b: (B)) => C
 
 ```javascript
 
+type A = (b: (B)) => C
 
 ```
 

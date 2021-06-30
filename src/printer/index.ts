@@ -133,12 +133,17 @@ import { NamedExports } from '../ast/module/named-exports';
 import { NamedImports } from '../ast/module/named-imports';
 import { SpreadElement } from '../ast/expressions/spread-element';
 import { Identifier } from '../ast/expressions/identifier-expr';
-import { SyntaxNode, SyntaxKind, NodeFlags, tokenToString } from '../ast/syntax-node';
+import {
+  SyntaxNode,
+  SyntaxKind,
+  NodeFlags,
+  tokenToString,
+} from '../ast/syntax-node';
 import {
   Printer,
   write,
   writeLine,
-  ListFormat,
+  PrinterContext,
   printKeyword,
   printPunctuator,
   isEmptyBlock,
@@ -159,7 +164,7 @@ import {
   printLeadingComments,
   lastOrUndefined,
   writeDelimiter,
-  printWithComments
+  printWithComments,
 } from './common';
 
 /** @internal */
@@ -202,8 +207,8 @@ function statementWorker(node: SyntaxNode, printer: Printer): void {
       return printBreakStatement(<any>node, printer);
     case SyntaxKind.SwitchStatement:
       return printSwitchStatement(<any>node, printer);
-    //    case SyntaxKind.StaticBlock:
-    //    return printStaticBlock(<any>node, printer);
+//    case SyntaxKind.StaticBlock:
+  //    return printStaticBlock(<any>node, printer);
     case SyntaxKind.ForStatement:
       return printForStatement(<any>node, printer);
     case SyntaxKind.FunctionDeclaration:
@@ -341,8 +346,8 @@ function statementWorker(node: SyntaxNode, printer: Printer): void {
       return printUnionType(<any>node, printer);
     case SyntaxKind.ExportDeclaration:
       return printExportDeclaration(<any>node, printer);
-    case SyntaxKind.ExportFromClause:
-      return printExportFromClause(<any>node, printer);
+      case SyntaxKind.ExportFromClause:
+        return printExportFromClause(<any>node, printer);
     case SyntaxKind.ExportDefault:
       return printExportDefault(<any>node, printer);
     case SyntaxKind.NamedExports:
@@ -371,24 +376,41 @@ function statementWorker(node: SyntaxNode, printer: Printer): void {
 function printRootNode(node: RootNode, printer: Printer) {
   const { directives, statements } = node;
   if (directives.length !== 0) {
-    printPrologueDirectives(printer, directives, /*startWithNewLine */ true, /* indented */ false);
+    printPrologueDirectives(
+      printer,
+      directives,
+      /*startWithNewLine */ true,
+      /* indented */ false
+    );
   }
 
-  if (statements.length === 0 || directives.length === 0 || nodeIsSynthesized(statements[0])) {
+  if (
+    statements.length === 0 ||
+    directives.length === 0 ||
+    nodeIsSynthesized(statements[0])
+  ) {
     const { start, end } = node;
 
     if (start >= 0) {
       printDetachedCommentsAndUpdateCommentsInfo(node, printer);
     }
 
-    printStatementList(printer, node, node, node.statements, ListFormat.MultiLine);
+    printStatementList(
+      printer,
+      node,
+      node,
+      node.statements,
+      PrinterContext.MultiLine
+    );
     if (end >= 0) {
       printLeadingComments(
         printer,
         // In terms of performance, there is not much to gain from creating a new 'CST node
         // just to retieve the 'end' value of the last statement in the array, so we
         // take a shortcut...
-        node.statements.length !== 0 ? lastOrUndefined(node.statements).end : end
+        node.statements.length !== 0
+          ? lastOrUndefined(node.statements).end
+          : end
       );
 
       if (printer.hasWrittenComment) {
@@ -396,7 +418,13 @@ function printRootNode(node: RootNode, printer: Printer) {
       }
     }
   } else {
-    printStatementList(printer, node, node, node.statements, ListFormat.MultiLine);
+    printStatementList(
+      printer,
+      node,
+      node,
+      node.statements,
+      PrinterContext.MultiLine
+    );
   }
 }
 
@@ -428,7 +456,7 @@ function emitExpressionWorker(node: SyntaxNode, printer: Printer) {
       return printNewTarget(<any>node, printer);
     case SyntaxKind.StringLiteral:
       return printStringLiteral(<StringLiteral>node, printer, {
-        singleQuote: false
+        singleQuote: false,
       });
     case SyntaxKind.NumericLiteral:
       return printNumericLiteral(<NumericLiteral>node, printer);
@@ -551,7 +579,7 @@ function printStatementList(
   listNode: SyntaxNode,
   parentNode: SyntaxNode,
   children: SyntaxNode[],
-  format: ListFormat
+  format: PrinterContext
 ) {
   printList(printStatement, printer, listNode, parentNode, children, format);
 }
@@ -561,7 +589,7 @@ function printExpressionList(
   listNode: SyntaxNode,
   parentNode: SyntaxNode,
   children: SyntaxNode[],
-  format: ListFormat
+  format: PrinterContext
 ) {
   printList(printExpression, printer, listNode, parentNode, children, format);
 }
@@ -572,66 +600,87 @@ function printList(
   listNode: SyntaxNode,
   parentNode: SyntaxNode,
   children: SyntaxNode[],
-  format: ListFormat
+  format: PrinterContext
 ) {
   const isEmpty = children === undefined || 0 >= children.length;
 
-  const aladdin: any = [];
+let aladdin: any = [];
 
-  if (format & ListFormat.BracketsMask) {
-    aladdin.push(brackets[format & ListFormat.BracketsMask][0]);
-    write(printer, brackets[format & ListFormat.BracketsMask][0]);
+  if (format & (PrinterContext.Braces | PrinterContext.Parenthesis | PrinterContext.AngleBrackets | PrinterContext.SquareBrackets)) {
+    aladdin.push(brackets[format & (PrinterContext.Braces | PrinterContext.Parenthesis | PrinterContext.AngleBrackets | PrinterContext.SquareBrackets)][0])
+    write(printer, brackets[format & (PrinterContext.Braces | PrinterContext.Parenthesis | PrinterContext.AngleBrackets | PrinterContext.SquareBrackets)][0]);
     if (isEmpty && children) {
       printTrailingCommentsOfPosition(printer, listNode.start);
     }
   }
 
   if (isEmpty) {
-    if (format & ListFormat.MultiLine) {
+    if (format & PrinterContext.MultiLine) {
       writeLine(printer);
-    } else if (format & ListFormat.SpaceBetweenBraces && !(format & ListFormat.NoSpaceIfEmpty)) {
+    } else if (
+      format & PrinterContext.SpaceBetweenBraces &&
+      !(format & PrinterContext.NoSpaceIfEmpty)
+    ) {
       write(printer, ' ');
     }
   } else {
     let shouldEmitInterveningComments = true;
 
-    if (shouldWriteLeadingLineTerminator(parentNode, printer, children, format)) {
+    if (
+      shouldWriteLeadingLineTerminator(parentNode, printer, children, format)
+    ) {
       writeLine(printer);
       shouldEmitInterveningComments = false;
-    } else if (format & ListFormat.SpaceBetweenBraces) {
+    } else if (format & PrinterContext.SpaceBetweenBraces) {
       write(printer, ' ');
     }
 
     // Increase the indent, if requested.
-    if (format & ListFormat.Indented) {
+    if (format & PrinterContext.Indented) {
       printer.indent++;
     }
 
     let previousSibling!: SyntaxNode;
-    let shouldDecreaseIndentAfterEmit = false;
+    let shouldDecreaseIndentAfterEmit: boolean = false;
 
     for (let i = 0; i < children.length; i++) {
       const child = children[i];
 
       if (previousSibling) {
-        if (format & ListFormat.DelimitersMask && previousSibling.end !== (listNode ? listNode.end : -1)) {
+        if (
+          format & (PrinterContext.BarDelimited | PrinterContext.AmpersandDelimited | PrinterContext.CommaDelimited) &&
+          previousSibling.end !== (listNode ? listNode.end : -1)
+        ) {
           printLeadingCommentsOfPosition(printer, previousSibling.end);
         }
 
-        aladdin.push(', ');
+        aladdin.push(', ')
         writeDelimiter(printer, format);
 
         // Write either a line terminator or whitespace to separate the elements.
-        if (shouldWriteSeparatingLineTerminator(previousSibling, printer, child, format)) {
+        if (
+          shouldWriteSeparatingLineTerminator(
+            previousSibling,
+            printer,
+            child,
+            format
+          )
+        ) {
           // If a synthesized node in a single-line list starts on a new
           // line, we should increase the indent.
-          if ((format & (ListFormat.LinesMask | ListFormat.Indented)) === ListFormat.SingleLine) {
+          if (
+            (format & (PrinterContext.SingleLine |  PrinterContext.MultiLine |  PrinterContext.PreserveLines | PrinterContext.Indented)) ===
+            PrinterContext.SingleLine
+          ) {
             printer.indent++;
             shouldDecreaseIndentAfterEmit = true;
           }
           writeLine(printer);
           shouldEmitInterveningComments = false;
-        } else if (previousSibling && format & ListFormat.SpaceBetweenSiblings) {
+        } else if (
+          previousSibling &&
+          format & PrinterContext.SpaceBetweenSiblings
+        ) {
           write(printer, ' ');
         }
       }
@@ -652,8 +701,8 @@ function printList(
       previousSibling = child;
     }
     if (
-      format & ListFormat.CommaDelimited &&
-      format & ListFormat.AllowTrailingComma &&
+      format & PrinterContext.CommaDelimited &&
+      format & PrinterContext.AllowTrailingComma &&
       (previousSibling.flags & NodeFlags.DisallowTrailingComma) === 0
     ) {
       if (previousSibling) {
@@ -663,30 +712,39 @@ function printList(
       }
     }
 
-    if (previousSibling && listNode.end !== previousSibling.end && format & ListFormat.DelimitersMask) {
+    if (
+      previousSibling &&
+      listNode.end !== previousSibling.end &&
+      format & (PrinterContext.BarDelimited | PrinterContext.AmpersandDelimited | PrinterContext.CommaDelimited)
+    ) {
       printLeadingCommentsOfPosition(
         printer,
-        format & ListFormat.AllowTrailingComma ? listNode.end : previousSibling.end
+        format & PrinterContext.AllowTrailingComma
+          ? listNode.end
+          : previousSibling.end
       );
     }
 
     // Decrease the indent, if requested.
-    if (format & ListFormat.Indented) {
+    if (format & PrinterContext.Indented) {
       printer.indent--;
     }
 
     // Write the closing line terminator or closing whitespace.
-    if (shouldWriteClosingLineTerminator(parentNode, printer, children, format)) {
+    if (
+      shouldWriteClosingLineTerminator(parentNode, printer, children, format)
+    ) {
       writeLine(printer);
-    } else if (format & ListFormat.SpaceBetweenBraces) {
+    } else if (format & PrinterContext.SpaceBetweenBraces) {
       write(printer, ' ');
     }
   }
 
-  if (format & ListFormat.BracketsMask) {
-    if (isEmpty && children) printLeadingCommentsOfPosition(printer, listNode.end);
-    aladdin.push(brackets[format & ListFormat.BracketsMask][1]);
-    write(printer, brackets[format & ListFormat.BracketsMask][1]);
+  if (format & (PrinterContext.Braces | PrinterContext.Parenthesis | PrinterContext.AngleBrackets | PrinterContext.SquareBrackets)) {
+    if (isEmpty && children)
+      printLeadingCommentsOfPosition(printer, listNode.end);
+      aladdin.push(brackets[format & (PrinterContext.Braces | PrinterContext.Parenthesis | PrinterContext.AngleBrackets | PrinterContext.SquareBrackets)][1])
+    write(printer, brackets[format & (PrinterContext.Braces | PrinterContext.Parenthesis | PrinterContext.AngleBrackets | PrinterContext.SquareBrackets)][1]);
   }
 }
 
@@ -694,19 +752,26 @@ function printArrayLiteral(node: ArrayLiteral, printer: Printer) {
   return printElementList(node.elementList, printer, node);
 }
 
-function printElementList(node: ElementList, printer: Printer, parentNode: ArrayLiteral) {
+function printElementList(
+  node: ElementList,
+  printer: Printer,
+  parentNode: ArrayLiteral
+) {
   printExpressionList(
     printer,
     node,
     parentNode,
     node.elements,
     node.flags & NodeFlags.NewLine
-      ? ListFormat.ArrayLiteralExpressionElements | ListFormat.PreferNewLine
-      : ListFormat.ArrayLiteralExpressionElements
+      ? PrinterContext.PreserveLines | PrinterContext.CommaDelimited | PrinterContext.SpaceBetweenSiblings | PrinterContext.AllowTrailingComma | PrinterContext.Indented | PrinterContext.SquareBrackets | PrinterContext.PreferNewLine
+      : PrinterContext.PreserveLines | PrinterContext.CommaDelimited | PrinterContext.SpaceBetweenSiblings | PrinterContext.AllowTrailingComma | PrinterContext.Indented | PrinterContext.SquareBrackets
   );
 }
 
-function printVariableDeclarationOrLexicalBinding(node: VariableDeclaration | LexicalBinding, printer: Printer): void {
+function printVariableDeclarationOrLexicalBinding(
+  node: VariableDeclaration | LexicalBinding,
+  printer: Printer
+): void {
   printStatement(node.binding, printer);
   if (node.type) {
     printPunctuator(':', printer, node.binding.end, node);
@@ -715,13 +780,21 @@ function printVariableDeclarationOrLexicalBinding(node: VariableDeclaration | Le
   }
   if (node.initializer) {
     write(printer, ' ');
-    printPunctuator('=', printer, node.type ? node.type.end : node.binding.end, node);
+    printPunctuator(
+      '=',
+      printer,
+      node.type ? node.type.end : node.binding.end,
+      node
+    );
     write(printer, ' ');
     printStatement(node.initializer, printer);
   }
 }
 
-function printVariableStatement(node: VariableStatement, printer: Printer): void {
+function printVariableStatement(
+  node: VariableStatement,
+  printer: Printer
+): void {
   write(printer, 'var');
   write(printer, ' ');
   printVariableDeclarationList(node.declarationList, printer, node);
@@ -733,18 +806,38 @@ function printVariableDeclarationList(
   printer: Printer,
   parentNode: VariableStatement
 ): void {
-  printStatementList(printer, node, parentNode, node.declarations, ListFormat.VariableDeclarationList);
+  printStatementList(
+    printer,
+    node,
+    parentNode,
+    node.declarations,
+    PrinterContext.CommaDelimited | PrinterContext.SpaceBetweenSiblings | PrinterContext.SingleLine
+  );
 }
 
-function printLexicalDeclaration(node: LexicalDeclaration, printer: Printer, fromForStatement: boolean): void {
+function printLexicalDeclaration(
+  node: LexicalDeclaration,
+  printer: Printer,
+  fromForStatement: boolean
+): void {
   write(printer, tokenToString(node.lexicalKeyword));
   write(printer, ' ');
   printBindingList(node.binding, printer, node);
   if (!fromForStatement) write(printer, ';');
 }
 
-function printBindingList(node: BindingList, printer: Printer, parentNode: any): void {
-  printStatementList(printer, node, parentNode, node.bindingList, ListFormat.VariableDeclarationList);
+function printBindingList(
+  node: BindingList,
+  printer: Printer,
+  parentNode: any
+): void {
+  printStatementList(
+    printer,
+    node,
+    parentNode,
+    node.bindingList,
+    PrinterContext.CommaDelimited | PrinterContext.SpaceBetweenSiblings | PrinterContext.SingleLine
+  );
 }
 
 function printForStatement(node: ForStatement, printer: Printer): void {
@@ -752,17 +845,32 @@ function printForStatement(node: ForStatement, printer: Printer): void {
   write(printer, ' ');
   let punctuatorPos = printPunctuator('(', printer, node.forKeyword.end, node);
   printForBinding(node.initializer, printer);
-  punctuatorPos = printPunctuator(';', printer, node.initializer ? node.initializer.end : punctuatorPos, node);
+  punctuatorPos = printPunctuator(
+    ';',
+    printer,
+    node.initializer ? node.initializer.end : punctuatorPos,
+    node
+  );
   if (node.condition) {
     write(printer, ' ');
     printExpression(node.condition, printer);
   }
-  punctuatorPos = printPunctuator(';', printer, node.condition ? node.condition.end : punctuatorPos, node);
+  punctuatorPos = printPunctuator(
+    ';',
+    printer,
+    node.condition ? node.condition.end : punctuatorPos,
+    node
+  );
   if (node.incrementor) {
     write(printer, ' ');
     printExpression(node.incrementor, printer);
   }
-  printPunctuator(')', printer, node.incrementor ? node.incrementor.end : punctuatorPos, node);
+  printPunctuator(
+    ')',
+    printer,
+    node.incrementor ? node.incrementor.end : punctuatorPos,
+    node
+  );
   printEmbeddedStatement(node.statement, printer);
 }
 
@@ -801,7 +909,12 @@ function printForOfStatement(node: ForOfStatement, printer: Printer): void {
     printKeyword(node.awaitKeyword, printer, node);
   }
   write(printer, ' ');
-  printPunctuator('(', printer, node.awaitKeyword ? node.awaitKeyword.end : node.forKeyword.end, node);
+  printPunctuator(
+    '(',
+    printer,
+    node.awaitKeyword ? node.awaitKeyword.end : node.forKeyword.end,
+    node
+  );
   printForBinding(node.initializer, printer);
   write(printer, ' ');
   printKeyword(node.ofKeyword, printer, node);
@@ -833,15 +946,20 @@ function printBlockStatement(node: BlockStatement, printer: Printer): void {
   printBlock(node.block, printer, node);
 }
 
-function printBlock(node: Block, printer: Printer, parentNode: BlockStatement): void {
+function printBlock(
+  node: Block,
+  printer: Printer,
+  parentNode: BlockStatement
+): void {
   printStatementList(
     printer,
     node,
     parentNode,
     node.statements,
-    (node.flags & NodeFlags.NewLine) === 0 && isEmptyBlock(node, parentNode, printer)
-      ? ListFormat.SingleLineBlockStatements | ListFormat.Braces
-      : ListFormat.MultiLineBlockStatements | ListFormat.Braces
+    (node.flags & NodeFlags.NewLine) === 0 &&
+      isEmptyBlock(node, parentNode, printer)
+      ? PrinterContext.SpaceBetweenBraces | PrinterContext.SpaceBetweenSiblings | PrinterContext.SingleLine | PrinterContext.Braces
+      : PrinterContext.Indented | PrinterContext.MultiLine | PrinterContext.Braces
   );
 }
 
@@ -931,12 +1049,18 @@ function printReturnStatement(node: ReturnStatement, printer: Printer): void {
 }
 
 // DebuggerStatement : `debugger` `;
-function printDebuggerStatement(node: DebuggerStatement, printer: Printer): void {
+function printDebuggerStatement(
+  node: DebuggerStatement,
+  printer: Printer
+): void {
   printKeyword(node.debuggerKeyword, printer, node);
   write(printer, ';');
 }
 
-function printLabelledStatement(node: LabelledStatement, printer: Printer): void {
+function printLabelledStatement(
+  node: LabelledStatement,
+  printer: Printer
+): void {
   printStatement(node.label, printer);
   printKeyword(node.colonToken, printer, node);
   write(printer, ' ');
@@ -952,7 +1076,10 @@ function printBreakStatement(node: BreakStatement, printer: Printer): void {
   write(printer, ';');
 }
 
-function printContinueStatement(node: ContinueStatement, printer: Printer): void {
+function printContinueStatement(
+  node: ContinueStatement,
+  printer: Printer
+): void {
   printKeyword(node.continueKeyword, printer, node);
   if (node.label) {
     write(printer, ' ');
@@ -971,10 +1098,22 @@ function printSwitchStatement(node: SwitchStatement, printer: Printer): void {
   printCaseBlock(node.caseBlock, printer, node);
 }
 
-function printCaseBlock(node: CaseBlock, printer: Printer, parentNode: SwitchStatement): void {
+function printCaseBlock(
+  node: CaseBlock,
+  printer: Printer,
+  parentNode: SwitchStatement
+): void {
   printPunctuator('{', printer, node.start, node);
-  printStatementList(printer, node, parentNode, node.clauses, ListFormat.CaseBlockClauses);
-  const end = node.clauses.length ? lastOrUndefined(node.clauses).end : node.end;
+  printStatementList(
+    printer,
+    node,
+    parentNode,
+    node.clauses,
+    PrinterContext.Indented | PrinterContext.MultiLine
+  );
+  const end = node.clauses.length
+    ? lastOrUndefined(node.clauses).end
+    : node.end;
   printPunctuator('}', printer, end, node);
 }
 
@@ -990,7 +1129,11 @@ function printDefaultClause(node: any, printer: Printer): void {
   printCaseOrDefaultClauseRest(node, printer, node.statements);
 }
 
-function printCaseOrDefaultClauseRest(node: any, printer: Printer, statements: any): void {
+function printCaseOrDefaultClauseRest(
+  node: any,
+  printer: Printer,
+  statements: any
+): void {
   if (
     statements.length === 1 &&
     (nodeIsSynthesized(node) ||
@@ -1004,11 +1147,18 @@ function printCaseOrDefaultClauseRest(node: any, printer: Printer, statements: a
       node,
       node,
       statements,
-      ListFormat.CaseOrDefaultClauseStatements & ~(ListFormat.MultiLine | ListFormat.Indented)
+      PrinterContext.Indented | PrinterContext.MultiLine | PrinterContext.NoTrailingNewLine | PrinterContext.OptionalIfEmpty &
+        ~(PrinterContext.MultiLine | PrinterContext.Indented)
     );
   } else {
     printKeyword(node.colonToken, printer, node);
-    printStatementList(printer, node, node, statements, ListFormat.CaseOrDefaultClauseStatements);
+    printStatementList(
+      printer,
+      node,
+      node,
+      statements,
+      PrinterContext.Indented | PrinterContext.MultiLine | PrinterContext.NoTrailingNewLine | PrinterContext.OptionalIfEmpty
+    );
   }
 }
 
@@ -1017,14 +1167,40 @@ function printEmptyStatement(_node: any, printer: Printer): void {
 }
 
 function printCommaOperator(node: any, printer: Printer): void {
-  printExpressionList(printer, node, node, node.expressions, ListFormat.VariableDeclarationList);
+  printExpressionList(
+    printer,
+    node,
+    node,
+    node.expressions,
+    PrinterContext.CommaDelimited | PrinterContext.SpaceBetweenSiblings | PrinterContext.SingleLine
+  );
 }
 
 function printConditionalExpression(node: any, printer: Printer): void {
-  const indentBeforeQuestion = needsIndentation(printer, node, node.shortCircuit, node.questionToken);
-  const indentAfterQuestion = needsIndentation(printer, node, node.questionToken, node.consequent);
-  const indentBeforeColon = needsIndentation(printer, node, node.consequent, node.colonToken);
-  const indentAfterColon = needsIndentation(printer, node, node.colonToken, node.alternate);
+  const indentBeforeQuestion = needsIndentation(
+    printer,
+    node,
+    node.shortCircuit,
+    node.questionToken
+  );
+  const indentAfterQuestion = needsIndentation(
+    printer,
+    node,
+    node.questionToken,
+    node.consequent
+  );
+  const indentBeforeColon = needsIndentation(
+    printer,
+    node,
+    node.consequent,
+    node.colonToken
+  );
+  const indentAfterColon = needsIndentation(
+    printer,
+    node,
+    node.colonToken,
+    node.alternate
+  );
   printStatement(node.shortCircuit, printer);
   increaseIndentIf(printer, indentBeforeQuestion, ' ');
   printKeyword(node.questionToken, printer, node);
@@ -1048,16 +1224,29 @@ function printNewExpression(node: any, printer: Printer): void {
   write(printer, ' ');
   printExpression(node.expression, printer);
   if (node.argumentList) {
-    printArgumentList(node.argumentList, node, printer, ListFormat.NewExpressionArguments);
+    printArgumentList(
+      node.argumentList,
+      node,
+      printer,
+      PrinterContext.CommaDelimited | PrinterContext.SpaceBetweenSiblings | PrinterContext.SingleLine | PrinterContext.Parenthesis | PrinterContext.OptionalIfUndefined
+    );
   }
 }
 
-function printArgumentList(node: any, parentNode: any, printer: Printer, format: ListFormat): void {
-  if (node.trailingComma) format |= ListFormat.AllowTrailingComma;
+function printArgumentList(
+  node: any,
+  parentNode: any,
+  printer: Printer,
+  format: PrinterContext
+): void {
+  if (node.trailingComma) format |= PrinterContext.AllowTrailingComma;
   printExpressionList(printer, node, parentNode, node.elements, format);
 }
 
-function printComputedPropertyName(node: ComputedPropertyName, printer: Printer): void {
+function printComputedPropertyName(
+  node: ComputedPropertyName,
+  printer: Printer
+): void {
   printPunctuator('[', printer, node.start, node);
   printExpression(node.expression, printer);
   printPunctuator(']', printer, node.expression.end, node);
@@ -1065,13 +1254,21 @@ function printComputedPropertyName(node: ComputedPropertyName, printer: Printer)
 
 function printCallExpression(node: CallExpression, printer: Printer): void {
   printExpression(node.expression, printer);
-  printArgumentList(node.argumentList, node, printer, ListFormat.CallExpressionArguments);
+  printArgumentList(
+    node.argumentList,
+    node,
+    printer,
+    PrinterContext.CommaDelimited | PrinterContext.SpaceBetweenSiblings | PrinterContext.SingleLine | PrinterContext.Parenthesis
+  );
 }
 
-function printParenthesizedExpression(node: ParenthesizedExpression, printer: Printer): void {
-  printPunctuator('(', printer, node.start, node);
-  printExpression(node.expression, printer);
-  printPunctuator(')', printer, node.expression.end, node);
+function printParenthesizedExpression(
+  node: ParenthesizedExpression,
+  printer: Printer
+): void {
+    printPunctuator('(', printer, node.start, node);
+    printExpression(node.expression, printer);
+    printPunctuator(')', printer, node.expression.end, node);
 }
 
 function printYieldExpression(node: YieldExpression, printer: Printer): void {
@@ -1083,17 +1280,26 @@ function printYieldExpression(node: YieldExpression, printer: Printer): void {
   }
 }
 
-function printPrefixUpdateExpression(node: PrefixUpdateExpression, printer: Printer): void {
+function printPrefixUpdateExpression(
+  node: PrefixUpdateExpression,
+  printer: Printer
+): void {
   printKeyword(node.operandToken, printer, node);
   printExpression(node.operand, printer);
 }
 
-function printPostfixUpdateExpression(node: PostfixUpdateExpression, printer: Printer): void {
+function printPostfixUpdateExpression(
+  node: PostfixUpdateExpression,
+  printer: Printer
+): void {
   printExpression(node.operand, printer);
   printKeyword(node.operandToken, printer, node);
 }
 
-function printAssignmentExpression(node: AssignmentExpression, printer: Printer): void {
+function printAssignmentExpression(
+  node: AssignmentExpression,
+  printer: Printer
+): void {
   printExpression(node.left, printer);
   write(printer, ' ');
   printKeyword(node.operatorToken, printer, node);
@@ -1114,13 +1320,21 @@ function printSpreadElement(node: any, printer: Printer): void {
   printExpression(node.argument, printer);
 }
 function skipSynthesizedParentheses(node: any) {
-  while (node.kind === SyntaxKind.ParenthesizedExpression && nodeIsSynthesized(node)) {
+  while (
+    node.kind === SyntaxKind.ParenthesizedExpression &&
+    nodeIsSynthesized(node)
+  ) {
     node = (<ParenthesizedExpression>node).expression;
   }
 
   return node;
 }
-function needsIndentation(printer: Printer, parent: Node, node1: Node, node2: Node): boolean {
+function needsIndentation(
+  printer: Printer,
+  parent: Node,
+  node1: Node,
+  node2: Node
+): boolean {
   parent = skipSynthesizedParentheses(parent);
   node1 = skipSynthesizedParentheses(node1);
   node2 = skipSynthesizedParentheses(node2);
@@ -1135,11 +1349,25 @@ function needsIndentation(printer: Printer, parent: Node, node1: Node, node2: No
 
 function printBinaryExpression(node: any, printer: Printer): void {
   const isCommaOperator = node.operatorToken.kind !== SyntaxKind.Comma;
-  const indentBeforeOperator = needsIndentation(printer, node, node.left, node.operatorToken);
-  const indentAfterOperator = needsIndentation(printer, node, node.operatorToken, node.right);
+  const indentBeforeOperator = needsIndentation(
+    printer,
+    node,
+    node.left,
+    node.operatorToken
+  );
+  const indentAfterOperator = needsIndentation(
+    printer,
+    node,
+    node.operatorToken,
+    node.right
+  );
 
   printExpression(node.left, printer);
-  increaseIndentIf(printer, indentBeforeOperator, isCommaOperator ? ' ' : undefined);
+  increaseIndentIf(
+    printer,
+    indentBeforeOperator,
+    isCommaOperator ? ' ' : undefined
+  );
   printKeyword(node.operatorToken, printer, node);
   increaseIndentIf(printer, indentAfterOperator, ' ');
   printExpression(node.right, printer);
@@ -1155,7 +1383,11 @@ function decreaseIndentIf(printer: Printer, value1: boolean, value2?: boolean) {
   }
 }
 
-function increaseIndentIf(printer: Printer, value: boolean, valueToWriteWhenNotIndenting?: string) {
+function increaseIndentIf(
+  printer: Printer,
+  value: boolean,
+  valueToWriteWhenNotIndenting?: string
+) {
   if (value) {
     printer.indent++;
     writeLine(printer);
@@ -1164,7 +1396,10 @@ function increaseIndentIf(printer: Printer, value: boolean, valueToWriteWhenNotI
   }
 }
 
-function printFunctionDeclarationOrExpression(node: any, printer: Printer): void {
+function printFunctionDeclarationOrExpression(
+  node: any,
+  printer: Printer
+): void {
   if (node.declareKeyword) {
     printKeyword(node.declareKeyword, printer, node);
     write(printer, ' ');
@@ -1208,17 +1443,34 @@ function printFunctioBody(node: any, printer: Printer, parentNode: any): void {
   const { directives, statements, start, end } = node;
   if (directives.length !== 0) {
     printer.indent--;
-    printPrologueDirectives(printer, directives, /*startWithNewLine */ true, /* indented */ false);
+    printPrologueDirectives(
+      printer,
+      directives,
+      /*startWithNewLine */ true,
+      /* indented */ false
+    );
     printer.indent++;
     writeLine(printer);
   }
 
   if (shouldprintBlockFunctionBodyOnSingleLine(printer, node)) {
     printer.indent--;
-    printStatementList(printer, node, parentNode, statements, ListFormat.SingleLineFunctionBodyStatements);
+    printStatementList(
+      printer,
+      node,
+      parentNode,
+      statements,
+      PrinterContext.SingleLine | PrinterContext.SpaceBetweenSiblings | PrinterContext.SpaceBetweenBraces
+    );
     printer.indent++;
   } else {
-    printStatementList(printer, node, parentNode, statements, ListFormat.MultiLine);
+    printStatementList(
+      printer,
+      node,
+      parentNode,
+      statements,
+      PrinterContext.MultiLine
+    );
   }
 
   printDetachedCommentsAndUpdateCommentsInfo(parentNode, printer);
@@ -1239,13 +1491,19 @@ function printTypeAnnotation(node: any, printer: Printer): void {
   printStatement(node.type, printer);
 }
 
-function printFormalParameterList(node: any, printer: Printer, parentNode: any): void {
+function printFormalParameterList(
+  node: any,
+  printer: Printer,
+  parentNode: any
+): void {
   printStatementList(
     printer,
     node,
     parentNode,
     node.formalParameters,
-    node.trailingComma ? ListFormat.Parameters | ListFormat.AllowTrailingComma : ListFormat.Parameters
+    node.trailingComma
+      ? PrinterContext.CommaDelimited | PrinterContext.SpaceBetweenSiblings | PrinterContext.SingleLine | PrinterContext.Indented | PrinterContext.Parenthesis | PrinterContext.AllowTrailingComma
+      : PrinterContext.CommaDelimited | PrinterContext.SpaceBetweenSiblings | PrinterContext.SingleLine | PrinterContext.Indented | PrinterContext.Parenthesis
   );
 }
 
@@ -1264,7 +1522,12 @@ function printBindingElement(node: any, printer: Printer): void {
   }
   if (node.right) {
     write(printer, ' ');
-    printPunctuator('=', printer, node.type ? node.type.end : node.left.end, node);
+    printPunctuator(
+      '=',
+      printer,
+      node.type ? node.type.end : node.left.end,
+      node
+    );
     write(printer, ' ');
     printStatement(node.right, printer);
   }
@@ -1274,15 +1537,21 @@ function printObjectLiteral(node: any, printer: Printer): void {
   printPropertyDefinitionList(node.propertyList, printer, node);
 }
 
-function printPropertyDefinitionList(node: any, printer: Printer, parentNode: any): void {
+function printPropertyDefinitionList(
+  node: any,
+  printer: Printer,
+  parentNode: any
+): void {
   printExpressionList(
     printer,
     node,
     parentNode,
     node.properties,
-    ListFormat.ObjectLiteralExpressionProperties |
-      (node.trailingComma ? ListFormat.AllowTrailingComma : ListFormat.None) |
-      (node.flags & NodeFlags.NewLine ? ListFormat.PreferNewLine : ListFormat.None)
+    PrinterContext.PreserveLines | PrinterContext.CommaDelimited | PrinterContext.SpaceBetweenSiblings | PrinterContext.SpaceBetweenBraces | PrinterContext.Indented | PrinterContext.Braces | PrinterContext.NoSpaceIfEmpty |
+      (node.trailingComma ? PrinterContext.AllowTrailingComma : PrinterContext.None) |
+      (node.flags & NodeFlags.NewLine
+        ? PrinterContext.PreferNewLine
+        : PrinterContext.None)
   );
 }
 
@@ -1338,17 +1607,21 @@ function emitArrayBindingPattern(node: any, printer: Printer): void {
   printerBindingElementList(node.elementList, printer, node);
 }
 
-function printerBindingElementList(node: any, printer: Printer, parentNode: any): void {
+function printerBindingElementList(
+  node: any,
+  printer: Printer,
+  parentNode: any
+): void {
   printStatementList(
     printer,
     node,
     parentNode,
     node.elements,
-    ListFormat.SingleLine |
-      ListFormat.SquareBrackets |
-      (node.trailingComma ? ListFormat.AllowTrailingComma : ListFormat.None) |
-      ListFormat.CommaDelimited |
-      ListFormat.SpaceBetweenSiblings
+    PrinterContext.SingleLine |
+      PrinterContext.SquareBrackets |
+      (node.trailingComma ? PrinterContext.AllowTrailingComma : PrinterContext.None) |
+      PrinterContext.CommaDelimited |
+      PrinterContext.SpaceBetweenSiblings
   );
 }
 
@@ -1358,19 +1631,26 @@ function printObjectBindingPattern(node: any, printer: Printer): void {
   printPunctuator('}', printer, node.propertyList.end, node);
 }
 
-function printBindingPropertyList(node: any, printer: Printer, parentNode: any): void {
+function printBindingPropertyList(
+  node: any,
+  printer: Printer,
+  parentNode: any
+): void {
   printStatementList(
     printer,
     node,
     parentNode,
     node.properties,
-    (node.trailingComma ? ListFormat.AllowTrailingComma : ListFormat.None) |
-      ((node.flags & NodeFlags.NewLine) === 0 && isEmptyProperties(node, printer)
-        ? ListFormat.SingleLine |
-          ListFormat.SpaceBetweenBraces |
-          ListFormat.CommaDelimited |
-          ListFormat.SpaceBetweenSiblings
-        : ListFormat.CommaDelimited | ListFormat.MultiLine | ListFormat.Indented)
+    (node.trailingComma ? PrinterContext.AllowTrailingComma : PrinterContext.None) |
+      ((node.flags & NodeFlags.NewLine) === 0 &&
+      isEmptyProperties(node, printer)
+        ? PrinterContext.SingleLine |
+          PrinterContext.SpaceBetweenBraces |
+          PrinterContext.CommaDelimited |
+          PrinterContext.SpaceBetweenSiblings
+        : PrinterContext.CommaDelimited |
+          PrinterContext.MultiLine |
+          PrinterContext.Indented)
   );
 }
 
@@ -1390,8 +1670,18 @@ function printBindingProperty(node: any, printer: Printer): void {
   }
 }
 
-function printArrowParameterList(node: any, printer: Printer, parentNode: any): void {
-  printStatementList(printer, node, parentNode, node.parameters, ListFormat.Parameters);
+function printArrowParameterList(
+  node: any,
+  printer: Printer,
+  parentNode: any
+): void {
+  printStatementList(
+    printer,
+    node,
+    parentNode,
+    node.parameters,
+    PrinterContext.CommaDelimited | PrinterContext.SpaceBetweenSiblings | PrinterContext.SingleLine | PrinterContext.Indented | PrinterContext.Parenthesis
+  );
 }
 
 function printArrowFunction(node: any, printer: Printer): void {
@@ -1459,8 +1749,18 @@ function printClassHeritage(node: any, printer: Printer): void {
   write(printer, ' ');
 }
 
-function printClassBody(node: any, printer: Printer, parentNode: SyntaxNode): void {
-  printStatementList(printer, node, parentNode, node.elements, ListFormat.ClassMembers);
+function printClassBody(
+  node: any,
+  printer: Printer,
+  parentNode: SyntaxNode
+): void {
+  printStatementList(
+    printer,
+    node,
+    parentNode,
+    node.elements,
+    PrinterContext.Indented | PrinterContext.MultiLine
+  );
 }
 
 function printClassElement(node: any, printer: Printer): void {
@@ -1519,7 +1819,12 @@ function printFieldDefinition(node: any, printer: Printer): void {
     printKeyword(node.optionalToken, printer, node);
   }
   if (node.type) {
-    printPunctuator(':', printer, node.optionalToken ? node.optionalToken.end : node.key.end, node);
+    printPunctuator(
+      ':',
+      printer,
+      node.optionalToken ? node.optionalToken.end : node.key.end,
+      node
+    );
     write(printer, ' ');
     printStatement(node.type, printer);
   }
@@ -1529,7 +1834,11 @@ function printFieldDefinition(node: any, printer: Printer): void {
     printPunctuator(
       '=',
       printer,
-      node.type ? node.type.end : node.optionalToken ? node.optionalToken.end : node.key.end,
+      node.type
+        ? node.type.end
+        : node.optionalToken
+        ? node.optionalToken.end
+        : node.key.end,
       node
     );
     write(printer, ' ');
@@ -1586,8 +1895,8 @@ function printArrowTypeParameterList(node: any, printer: Printer): void {
     node,
     node,
     node.parameters,
-    (ListFormat.Parameters & ~ListFormat.Parenthesis) |
-      (node.trailingComma ? ListFormat.AllowTrailingComma : ListFormat.None)
+    (PrinterContext.CommaDelimited | PrinterContext.SpaceBetweenSiblings | PrinterContext.SingleLine | PrinterContext.Indented | PrinterContext.Parenthesis & ~PrinterContext.Parenthesis) |
+      (node.trailingComma ? PrinterContext.AllowTrailingComma : PrinterContext.None)
   );
 }
 
@@ -1606,7 +1915,11 @@ function printArrowTypeParameter(node: any, printer: Printer): void {
       printPunctuator(
         ':',
         printer,
-        node.name ? node.name.end : node.optionalToken ? node.optionalToken.end : node.start,
+        node.name
+          ? node.name.end
+          : node.optionalToken
+          ? node.optionalToken.end
+          : node.start,
         node
       );
       write(printer, ' ');
@@ -1625,8 +1938,8 @@ function printFunctionTypeParameterList(node: any, printer: Printer): void {
     node,
     node,
     node.parameters,
-    (ListFormat.Parameters & ~ListFormat.Parenthesis) |
-      (node.trailingComma ? ListFormat.AllowTrailingComma : ListFormat.None)
+    (PrinterContext.CommaDelimited | PrinterContext.SpaceBetweenSiblings | PrinterContext.SingleLine | PrinterContext.Indented | PrinterContext.Parenthesis & ~PrinterContext.Parenthesis) |
+      (node.trailingComma ? PrinterContext.AllowTrailingComma : PrinterContext.None)
   );
 }
 
@@ -1645,7 +1958,11 @@ function printFunctionTypeParameter(node: any, printer: Printer): void {
       printPunctuator(
         ':',
         printer,
-        node.name ? node.name.end : node.optionalToken ? node.optionalToken.end : node.start,
+        node.name
+          ? node.name.end
+          : node.optionalToken
+          ? node.optionalToken.end
+          : node.start,
         node
       );
       write(printer, ' ');
@@ -1677,7 +1994,13 @@ function printIndexedAccessType(node: any, printer: Printer): void {
 }
 
 function printIntersectionType(node: any, printer: Printer): void {
-  printStatementList(printer, node, node, node.types, ListFormat.IntersectionTypeConstituents);
+  printStatementList(
+    printer,
+    node,
+    node,
+    node.types,
+    PrinterContext.AmpersandDelimited | PrinterContext.SpaceBetweenSiblings | PrinterContext.SingleLine
+  );
 }
 
 function printNullableType(node: any, printer: Printer): void {
@@ -1700,7 +2023,7 @@ function printObjectTypeCallProperty(node: any, printer: Printer): void {
   }
   write(printer, '(');
   printStatement(node.value, printer);
-  const pos = printPunctuator(')', printer, node.value.end, node);
+  let pos = printPunctuator(')', printer, node.value.end, node);
   if (node.returnType) {
     printPunctuator(':', printer, pos, node);
     write(printer, ' ');
@@ -1739,7 +2062,11 @@ function printObjectTypeInternalSlot(node: any, printer: Printer): void {
   let pos = printPunctuator(
     '[',
     printer,
-    node.proto ? node.proto.end : node.staticKeyword ? node.staticKeyword.end : node.start,
+    node.proto
+      ? node.proto.end
+      : node.staticKeyword
+      ? node.staticKeyword.end
+      : node.start,
     node
   );
   printPunctuator('[', printer, pos, node);
@@ -1768,7 +2095,12 @@ function printObjectTypeProperty(node: any, printer: Printer): void {
   if (node.type.kind === SyntaxKind.FunctionType) {
     printStatement(node.type, printer);
   } else {
-    printPunctuator(':', printer, node.optionalToken ? node.optionalToken.end : node.key.end, node);
+    printPunctuator(
+      ':',
+      printer,
+      node.optionalToken ? node.optionalToken.end : node.key.end,
+      node
+    );
     write(printer, ' ');
     printStatement(node.type, printer);
   }
@@ -1787,12 +2119,20 @@ function printObjectTypeSpreadProperty(node: any, printer: Printer): void {
   printStatement(node.type, printer);
 }
 
-function printObjectType(node: any, printer: Printer, parentNode: SyntaxNode): void {
+function printObjectType(
+  node: any,
+  printer: Printer,
+  parentNode: SyntaxNode
+): void {
   let flags =
     parentNode.flags & NodeFlags.NewLine || node.properties.length > 3
-      ? ListFormat.MultiLineTypeLiteralMembers | ListFormat.NoSpaceIfEmpty | ListFormat.CommaDelimited
-      : ListFormat.SingleLineTypeLiteralMembers | ListFormat.NoSpaceIfEmpty | ListFormat.CommaDelimited;
-  if (node.trailingComma) flags |= ListFormat.AllowTrailingComma;
+      ? PrinterContext.MultiLine | PrinterContext.Indented | PrinterContext.OptionalIfEmpty |
+        PrinterContext.NoSpaceIfEmpty |
+        PrinterContext.CommaDelimited
+      : PrinterContext.SingleLine | PrinterContext.SpaceBetweenBraces | PrinterContext.SpaceBetweenSiblings |
+        PrinterContext.NoSpaceIfEmpty |
+        PrinterContext.CommaDelimited;
+  if (node.trailingComma) flags |= PrinterContext.AllowTrailingComma;
   write(printer, '{');
   printStatementList(printer, node, parentNode, node.properties, flags);
   write(printer, '}');
@@ -1821,7 +2161,12 @@ function printOpaqueType(node: any, printer: Printer): void {
     }
 
     write(printer, ' ');
-    printPunctuator('=', printer, node.superType ? node.superType.end : node.name.end, node);
+    printPunctuator(
+      '=',
+      printer,
+      node.superType ? node.superType.end : node.name.end,
+      node
+    );
 
     write(printer, ' ');
     printStatement(node.impltype, printer);
@@ -1860,7 +2205,7 @@ function printRestType(node: any, printer: Printer): void {
 
 function printStringType(node: any, printer: Printer): void {
   return printStringLiteral(<StringLiteral>node, printer, {
-    singleQuote: false
+    singleQuote: false,
   });
 }
 function printSubtractionType(node: any, printer: Printer): void {
@@ -1875,7 +2220,9 @@ function printTupleType(node: any, printer: Printer): void {
     node,
     node,
     node.elementTypes,
-    node.trailingComma ? ListFormat.TupleTypeElements | ListFormat.AllowTrailingComma : ListFormat.TupleTypeElements
+    node.trailingComma
+      ? PrinterContext.CommaDelimited | PrinterContext.SpaceBetweenSiblings | PrinterContext.SingleLine | PrinterContext.AllowTrailingComma
+      : PrinterContext.CommaDelimited | PrinterContext.SpaceBetweenSiblings | PrinterContext.SingleLine
   );
   write(printer, ']');
 }
@@ -1903,7 +2250,9 @@ function printTypeInstantiations(node: any, printer: Printer): void {
     node,
     node,
     node.types,
-    node.trailingComma ? ListFormat.TypeParameters | ListFormat.AllowTrailingComma : ListFormat.TypeParameters
+    node.trailingComma
+      ? PrinterContext.CommaDelimited | PrinterContext.SpaceBetweenSiblings | PrinterContext.SingleLine | PrinterContext.Indented | PrinterContext.AngleBrackets | PrinterContext.OptionalIfUndefined | PrinterContext.OptionalIfEmpty | PrinterContext.AllowTrailingComma
+      : PrinterContext.CommaDelimited | PrinterContext.SpaceBetweenSiblings | PrinterContext.SingleLine | PrinterContext.Indented | PrinterContext.AngleBrackets | PrinterContext.OptionalIfUndefined | PrinterContext.OptionalIfEmpty
   );
 }
 
@@ -1921,7 +2270,9 @@ function printTypeParameterList(node: any, printer: Printer): void {
     node,
     node,
     node.parameters,
-    node.trailingComma ? ListFormat.TypeParameters | ListFormat.AllowTrailingComma : ListFormat.TypeParameters
+    node.trailingComma
+      ? PrinterContext.CommaDelimited | PrinterContext.SpaceBetweenSiblings | PrinterContext.SingleLine | PrinterContext.Indented | PrinterContext.AngleBrackets | PrinterContext.OptionalIfUndefined | PrinterContext.OptionalIfEmpty | PrinterContext.AllowTrailingComma
+      : PrinterContext.CommaDelimited | PrinterContext.SpaceBetweenSiblings | PrinterContext.SingleLine | PrinterContext.Indented | PrinterContext.AngleBrackets | PrinterContext.OptionalIfUndefined | PrinterContext.OptionalIfEmpty
   );
 }
 
@@ -1954,7 +2305,13 @@ function printTypeofType(node: any, printer: Printer): void {
 }
 
 function printUnionType(node: any, printer: Printer): void {
-  printStatementList(printer, node, node, node.types, ListFormat.UnionTypeConstituents);
+  printStatementList(
+    printer,
+    node,
+    node,
+    node.types,
+    PrinterContext.BarDelimited | PrinterContext.SpaceBetweenSiblings | PrinterContext.SingleLine
+  );
 }
 
 function printImportCall(node: any, printer: Printer): void {
@@ -1965,9 +2322,9 @@ function printImportCall(node: any, printer: Printer): void {
 }
 
 function printImportMeta(node: any, printer: Printer): void {
-  printKeyword(node.importKeyword, printer, node);
-  printPunctuator('.', printer, node.importKeyword.end, node);
-  printKeyword(node.metaIdentifier, printer, node);
+    printKeyword(node.importKeyword, printer, node);
+    printPunctuator('.', printer, node.importKeyword.end, node);
+    printKeyword(node.metaIdentifier, printer, node);
 }
 
 function printOptionalExpression(node: any, printer: Printer): void {
@@ -1985,7 +2342,12 @@ function printCallChain(node: any, printer: Printer): void {
   if (node.typeArguments) {
     printStatement(node.typeArguments, printer);
   }
-  printArgumentList(node.argumentList, node, printer, ListFormat.CallExpressionArguments);
+  printArgumentList(
+    node.argumentList,
+    node,
+    printer,
+    PrinterContext.CommaDelimited | PrinterContext.SpaceBetweenSiblings | PrinterContext.SingleLine | PrinterContext.Parenthesis
+  );
 }
 
 function printIndexExpressionChain(node: any, printer: Printer): void {
@@ -2013,9 +2375,11 @@ export function shouldprintWhitespaceBeforeOperand(node: any): boolean {
     operandToken.kind === SyntaxKind.TypeofKeyword ||
     (operandToken.kind === SyntaxKind.PrefixUpdateExpression &&
       ((node.operandToken.kind === SyntaxKind.Add &&
-        (operand.operandToken.kind === SyntaxKind.Add || operand.operandToken.kind === SyntaxKind.Increment)) ||
+        (operand.operandToken.kind === SyntaxKind.Add ||
+          operand.operandToken.kind === SyntaxKind.Increment)) ||
         (node.operandToken.kind === SyntaxKind.Subtract &&
-          (operand.operandToken.kind === SyntaxKind.Subtract || operand.operandToken.kind === SyntaxKind.Decrement))))
+          (operand.operandToken.kind === SyntaxKind.Subtract ||
+            operand.operandToken.kind === SyntaxKind.Decrement))))
   );
 }
 
@@ -2028,8 +2392,18 @@ function printUnaryExpression(node: any, printer: Printer): void {
   printExpression(node.operand, printer);
 }
 
-function printDecoratorList(node: any, printer: Printer, parentNode: SyntaxNode): any {
-  printStatementList(printer, node, parentNode, node.elements, ListFormat.Decorators);
+function printDecoratorList(
+  node: any,
+  printer: Printer,
+  parentNode: SyntaxNode
+): any {
+  printStatementList(
+    printer,
+    node,
+    parentNode,
+    node.elements,
+    PrinterContext.MultiLine | PrinterContext.OptionalIfUndefined | PrinterContext.OptionalIfEmpty
+  );
 }
 
 function printDecorator(node: any, printer: Printer): any {
@@ -2044,7 +2418,13 @@ function printTaggedTemplate(node: any, printer: Printer): void {
 
 function printTemplateExpression(node: any, printer: Printer): void {
   write(printer, '`');
-  printStatementList(printer, node, node, node.spans, ListFormat.TemplateExpressionSpans);
+  printStatementList(
+    printer,
+    node,
+    node,
+    node.spans,
+    PrinterContext.SingleLine | PrinterContext.NoInterveningComments
+  );
   printStatement(node.tail, printer);
   write(printer, '`');
 }
@@ -2058,7 +2438,9 @@ function printTemplateSpan(node: any, printer: Printer): void {
 }
 
 function printTemplateTail(node: any, printer: Printer): void {
-  node.flags & NodeFlags.TemplateLiteral ? write(printer, '`' + node.rawText + '`') : write(printer, node.rawText);
+  node.flags & NodeFlags.TemplateLiteral
+    ? write(printer, '`' + node.rawText + '`')
+    : write(printer, node.rawText);
 }
 
 function printImportSpecifier(node: any, printer: Printer): void {
@@ -2086,7 +2468,17 @@ function printNamedImports(node: any, printer: Printer): void {
 
 function printExportsImportsList(node: any, printer: Printer): void {
   write(printer, '{');
-  printStatementList(printer, node, node, node.specifiers, ListFormat.NamedImportsOrExportsElements);
+  printStatementList(
+    printer,
+    node,
+    node,
+    node.specifiers,
+    PrinterContext.CommaDelimited |
+    PrinterContext.SpaceBetweenSiblings |
+    PrinterContext.AllowTrailingComma |
+    PrinterContext.SingleLine |
+    PrinterContext.SpaceBetweenBraces
+  );
   write(printer, '}');
 }
 
@@ -2111,14 +2503,15 @@ function printFromClause(node: any, printer: Printer): void {
   if (node) {
     write(printer, ' ');
     if (node.fromKeyword) {
-      printKeyword(node.fromKeyword, printer, node);
-      write(printer, ' ');
-    }
+    printKeyword(node.fromKeyword, printer, node);
+    write(printer, ' ');
+  }
     printStatement(node.from, printer);
   }
 }
 
 function printImportDeclaration(node: any, printer: Printer): void {
+
   printKeyword(node.importKeyword, printer, node);
   write(printer, ' ');
   if (node.typeKeyword) {
@@ -2156,11 +2549,11 @@ function printExportFromClause(node: any, printer: Printer): void {
   printKeyword(node.asteriskToken, printer, node);
   write(printer, ' ');
   if (node.asKeyword) {
-    printKeyword(node.asKeyword, printer, node);
-    write(printer, ' ');
-    printStatement(node.moduleExportName, printer);
-    printStatement(node.namedBinding, printer);
-  }
+  printKeyword(node.asKeyword, printer, node);
+  write(printer, ' ');
+  printStatement(node.moduleExportName, printer);
+  printStatement(node.namedBinding, printer);
+}
 }
 
 function printExportDeclaration(node: any, printer: Printer): void {
@@ -2238,7 +2631,11 @@ function printStaticBlock(node: any, printer: Printer): void {
   printStaticBlockBody(node.block, printer, node);
 }
 
-function printStaticBlockBody(node: any, printer: Printer, parentNode: any): void {
+function printStaticBlockBody(
+  node: any,
+  printer: Printer,
+  parentNode: any
+): void {
   const { start, end, block } = node;
   if (start >= 0) {
     printDetachedCommentsAndUpdateCommentsInfo(node, printer);
@@ -2246,20 +2643,41 @@ function printStaticBlockBody(node: any, printer: Printer, parentNode: any): voi
   write(printer, ' ');
   printPunctuator('{', printer, node.start, node);
   printer.indent++;
-  printStatementList(printer, node, parentNode, block.statements, ListFormat.MultiLine);
+  printStatementList(
+    printer,
+    node,
+    parentNode,
+    block.statements,
+    PrinterContext.MultiLine
+  );
   printer.indent--;
   printPunctuator('}', printer, block.end, node);
 
   if (end >= 0) {
-    printLeadingComments(printer, block.statements.length !== 0 ? lastOrUndefined(block.statements).end : end);
+    printLeadingComments(
+      printer,
+      block.statements.length !== 0
+        ? lastOrUndefined(block.statements).end
+        : end
+    );
   }
 }
 
-export function printStringLiteral(node: StringLiteral, printer: Printer, _options: any): void {
-  write(printer, makeString(node.rawText, node.flags & NodeFlags.SingleQuote ? "'" : '"'));
+export function printStringLiteral(
+  node: StringLiteral,
+  printer: Printer,
+  _options: any
+): void {
+  write(
+    printer,
+    makeString(node.rawText, node.flags & NodeFlags.SingleQuote ? "'" : '"')
+  );
 }
 
-export function printNewTarget(node: any, printer: Printer) {
+export function printNewTarget(
+  node: any,
+  printer: Printer,
+) {
   printKeyword(node.newKeyword, printer, node);
   write(printer, '.');
   printKeyword(node.targetIdentifier, printer, node);

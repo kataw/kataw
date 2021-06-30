@@ -57,7 +57,7 @@ type x = { [|a]:string }
                         {
                             "kind": 195,
                             "protoKeyword": null,
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "name": null,
                             "key": {
                                 "kind": 139,
@@ -133,6 +133,7 @@ type x = { [|a]:string }
 
 ```javascript
 
+type x = { [| a]: string }
 
 ```
 

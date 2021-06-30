@@ -86,6 +86,7 @@ type a = (([-1] | x | q & (x)) => T | x | q & (x)) => T;
                                                                         "end": 13
                                                                     },
                                                                     "text": 1,
+                                                                    "rawText": "1",
                                                                     "flags": 2097216,
                                                                     "start": 12,
                                                                     "end": 14
@@ -335,6 +336,7 @@ type a = (([-1] | x | q & (x)) => T | x | q & (x)) => T;
 
 ```javascript
 
+type a = (([-1] | x | q & (x)) => T | x | q & (x)) => T
 
 ```
 

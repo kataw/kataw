@@ -96,7 +96,7 @@ type overloads2 = {
                                 {
                                     "kind": 193,
                                     "protoKeyword": null,
-                                    "staticToken": null,
+                                    "staticKeyword": null,
                                     "getKeyword": null,
                                     "setKeyword": null,
                                     "key": {
@@ -115,6 +115,7 @@ type overloads2 = {
                                         "type": {
                                             "kind": 134217967,
                                             "text": "A",
+                                            "rawText": "\"A\"",
                                             "flags": 2097216,
                                             "start": 22,
                                             "end": 26
@@ -139,7 +140,7 @@ type overloads2 = {
                                 {
                                     "kind": 193,
                                     "protoKeyword": null,
-                                    "staticToken": null,
+                                    "staticKeyword": null,
                                     "getKeyword": null,
                                     "setKeyword": null,
                                     "key": {
@@ -158,6 +159,7 @@ type overloads2 = {
                                         "type": {
                                             "kind": 134217967,
                                             "text": "B",
+                                            "rawText": "\"B\"",
                                             "flags": 2097216,
                                             "start": 37,
                                             "end": 41
@@ -430,7 +432,7 @@ type overloads2 = {
                         {
                             "kind": 193,
                             "protoKeyword": null,
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "getKeyword": null,
                             "setKeyword": null,
                             "key": {
@@ -460,7 +462,7 @@ type overloads2 = {
                                                 {
                                                     "kind": 193,
                                                     "protoKeyword": null,
-                                                    "staticToken": null,
+                                                    "staticKeyword": null,
                                                     "getKeyword": null,
                                                     "setKeyword": null,
                                                     "key": {
@@ -479,6 +481,7 @@ type overloads2 = {
                                                         "type": {
                                                             "kind": 134217967,
                                                             "text": "A",
+                                                            "rawText": "\"A\"",
                                                             "flags": 2097216,
                                                             "start": 155,
                                                             "end": 159
@@ -503,7 +506,7 @@ type overloads2 = {
                                                 {
                                                     "kind": 193,
                                                     "protoKeyword": null,
-                                                    "staticToken": null,
+                                                    "staticKeyword": null,
                                                     "getKeyword": null,
                                                     "setKeyword": null,
                                                     "key": {
@@ -522,6 +525,7 @@ type overloads2 = {
                                                         "type": {
                                                             "kind": 134217967,
                                                             "text": "B",
+                                                            "rawText": "\"B\"",
                                                             "flags": 2097216,
                                                             "start": 173,
                                                             "end": 177
@@ -601,7 +605,7 @@ type overloads2 = {
                         {
                             "kind": 193,
                             "protoKeyword": null,
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "getKeyword": null,
                             "setKeyword": null,
                             "key": {
@@ -631,7 +635,7 @@ type overloads2 = {
                                                 {
                                                     "kind": 193,
                                                     "protoKeyword": null,
-                                                    "staticToken": null,
+                                                    "staticKeyword": null,
                                                     "getKeyword": null,
                                                     "setKeyword": null,
                                                     "key": {
@@ -650,6 +654,7 @@ type overloads2 = {
                                                         "type": {
                                                             "kind": 134217967,
                                                             "text": "A",
+                                                            "rawText": "\"A\"",
                                                             "flags": 2097216,
                                                             "start": 220,
                                                             "end": 224
@@ -674,7 +679,7 @@ type overloads2 = {
                                                 {
                                                     "kind": 193,
                                                     "protoKeyword": null,
-                                                    "staticToken": null,
+                                                    "staticKeyword": null,
                                                     "getKeyword": null,
                                                     "setKeyword": null,
                                                     "key": {
@@ -693,6 +698,7 @@ type overloads2 = {
                                                         "type": {
                                                             "kind": 134217967,
                                                             "text": "B",
+                                                            "rawText": "\"B\"",
                                                             "flags": 2097216,
                                                             "start": 238,
                                                             "end": 242
@@ -752,9 +758,10 @@ type overloads2 = {
 
 ```javascript
 
-
-
-
+type union = | { type: "\"A\"" } | { type: "\"B\"" }
+type overloads = & ((x: string) => number) & ((x: number) => string)
+type union2 = { x: | { type: "\"A\"" } | { type: "\"B\"" } }
+type overloads2 = { x: & { type: "\"A\"" } & { type: "\"B\"" } }
 
 ```
 

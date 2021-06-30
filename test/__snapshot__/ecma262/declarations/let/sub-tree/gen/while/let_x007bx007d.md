@@ -92,9 +92,10 @@ while (a) let
 
 ```javascript
 
-while (a) let;
-{
-}
+while (a)
+  let;
+{ }
+;
 
 ```
 

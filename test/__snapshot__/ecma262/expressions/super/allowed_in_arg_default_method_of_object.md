@@ -74,13 +74,7 @@ x={ foo(a = super.foo){ }}
                                                 "right": {
                                                     "kind": 129,
                                                     "member": {
-                                                        "kind": 225,
-                                                        "superKeyword": {
-                                                            "kind": 4259935,
-                                                            "flags": 96,
-                                                            "start": 11,
-                                                            "end": 17
-                                                        },
+                                                        "kind": 4259935,
                                                         "flags": 96,
                                                         "start": 11,
                                                         "end": 17
@@ -93,7 +87,7 @@ x={ foo(a = super.foo){ }}
                                                         "start": 18,
                                                         "end": 21
                                                     },
-                                                    "flags": 536870944,
+                                                    "flags": 96,
                                                     "start": 11,
                                                     "end": 21
                                                 },
@@ -162,7 +156,8 @@ x={ foo(a = super.foo){ }}
 
 ```javascript
 
-x = { foo() {} };
+x = { foo(a = super.foo) { } };
+
 ```
 
 ### Diagnostics

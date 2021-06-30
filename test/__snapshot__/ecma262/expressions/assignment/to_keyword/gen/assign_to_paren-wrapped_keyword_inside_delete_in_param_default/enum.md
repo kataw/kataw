@@ -149,7 +149,8 @@ async (x = delete ((enum) = f)) => {}
 
 ```javascript
 
-async  =>  {}
+async (x = delete  ((enum) = f)) =>  { }
+
 ```
 
 ### Diagnostics

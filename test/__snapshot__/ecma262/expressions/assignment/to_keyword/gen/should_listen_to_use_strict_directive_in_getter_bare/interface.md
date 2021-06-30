@@ -180,9 +180,13 @@ foo = {
 
 ```javascript
 
-foo = { get x() {
+foo = {
+  get x() {
+  "\"use strict\"";
     interface = x;
-  } };
+  }
+};
+
 ```
 
 ### Diagnostics

@@ -95,8 +95,9 @@ foo: do break foo; while(foo);
 
 ```javascript
 
-foo: do break foo;
-while (foo);
+foo: do
+  break foo; while (foo)
+
 ```
 
 ### Diagnostics

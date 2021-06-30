@@ -310,17 +310,16 @@ if (
 
 ```javascript
 
-if (code === 92 /* '\' */) {
-  }
-if (code === 92 /* '\' */ /* '\' */) {
-  }
-if (code === 92) {
-  }
-if (code === 92) {
-  }
-if (1) {
-    a;
-  }
+if (code === 92/* '\' */) { }
+if (code === 92/* '\' */ /* '\' */) { }
+if (code === 92)/* '\' */ { }
+if (code === 92) {/* '\' */ }
+if (1
+ // Comment
+) {
+  a;
+}
+
 ```
 
 ### Diagnostics

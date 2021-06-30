@@ -79,7 +79,7 @@ for ({a: b.c}.foo of d) e
                                         "start": 11,
                                         "end": 12
                                     },
-                                    "flags": 536870944,
+                                    "flags": 96,
                                     "start": 6,
                                     "end": 12
                                 },
@@ -105,7 +105,7 @@ for ({a: b.c}.foo of d) e
                     "start": 14,
                     "end": 17
                 },
-                "flags": 536870944,
+                "flags": 48,
                 "start": 0,
                 "end": 17
             },
@@ -155,8 +155,9 @@ for ({a: b.c}.foo of d) e
 
 ```javascript
 
-for ({ a: b.c }.foo of d)
+for ({ a : b.c }.foo of d)
   e;
+
 ```
 
 ### Diagnostics

@@ -198,9 +198,10 @@ class F { static get foo() {} static get foo() {} }
 ```javascript
 
 class F {
-  static get static foo() {}
-  static get static foo() {}
+  static get foo() { }
+  static get foo() { }
 }
+
 ```
 
 ### Diagnostics

@@ -144,7 +144,8 @@ x = (x, {}:string) => {} ;
 
 ```javascript
 
-x = () =>  {};
+x = (x, {}: string) =>  { };
+
 ```
 
 ### Diagnostics

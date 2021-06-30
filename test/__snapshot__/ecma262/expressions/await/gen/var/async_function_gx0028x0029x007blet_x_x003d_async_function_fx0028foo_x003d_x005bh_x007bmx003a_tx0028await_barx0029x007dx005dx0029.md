@@ -107,8 +107,8 @@ var await; var f = (async function() { async function g(){let x = async function
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 32,
-                                    "start": 34,
-                                    "end": 36
+                                    "start": 35,
+                                    "end": 35
                                 },
                                 "contents": {
                                     "kind": 216,
@@ -146,8 +146,8 @@ var await; var f = (async function() { async function g(){let x = async function
                                                     "formalParameters": [],
                                                     "trailingComma": false,
                                                     "flags": 32,
-                                                    "start": 55,
-                                                    "end": 57
+                                                    "start": 56,
+                                                    "end": 56
                                                 },
                                                 "contents": {
                                                     "kind": 216,
@@ -320,8 +320,8 @@ var await; var f = (async function() { async function g(){let x = async function
                                                                                     ],
                                                                                     "trailingComma": false,
                                                                                     "flags": 34,
-                                                                                    "start": 82,
-                                                                                    "end": 112
+                                                                                    "start": 83,
+                                                                                    "end": 111
                                                                                 },
                                                                                 "contents": {
                                                                                     "kind": 216,

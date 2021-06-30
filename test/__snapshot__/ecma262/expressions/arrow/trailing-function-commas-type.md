@@ -143,7 +143,8 @@
 
 ```javascript
 
-() =>  (3);
+(props: SomeType) => (3);
+
 ```
 
 ### Diagnostics

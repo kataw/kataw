@@ -79,8 +79,8 @@ let g = /* before */function /* a */ ( /* b */ x /* c */ , /* d */ y /* e */ ) /
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
-                                "start": 28,
-                                "end": 78
+                                "start": 38,
+                                "end": 68
                             },
                             "contents": {
                                 "kind": 216,
@@ -141,9 +141,8 @@ let g = /* before */function /* a */ ( /* b */ x /* c */ , /* d */ y /* e */ ) /
 
 ```javascript
 
-let g = function /* a */ () /* f */ {
+let g =/* before */ function/* a */ (/* b */x/* c */, /* d */y/* e */) {/* g */ /* g */;/* h */ /* h */;/* i */ }/* after */;
 
-} /* after */;
 ```
 
 ### Diagnostics

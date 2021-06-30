@@ -41,6 +41,14 @@
                             "kind": 270,
                             "elements": [
                                 {
+                                    "kind": 134299649,
+                                    "text": "x",
+                                    "rawText": "x",
+                                    "flags": 96,
+                                    "start": 9,
+                                    "end": 10
+                                },
+                                {
                                     "kind": 281,
                                     "ellipsisToken": null,
                                     "left": {
@@ -70,14 +78,6 @@
                                     "flags": 32,
                                     "start": 11,
                                     "end": 21
-                                },
-                                {
-                                    "kind": 134299649,
-                                    "text": "x",
-                                    "rawText": "x",
-                                    "flags": 96,
-                                    "start": 9,
-                                    "end": 10
                                 }
                             ],
                             "trailingComma": false,
@@ -140,7 +140,8 @@
 
 ```javascript
 
-async  =>  {}
+async ([x, y: number]) =>  { }
+;
 
 ```
 

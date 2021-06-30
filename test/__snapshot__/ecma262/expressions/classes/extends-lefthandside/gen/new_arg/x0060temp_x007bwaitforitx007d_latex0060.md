@@ -64,7 +64,8 @@ new `temp {waitforit} late`
 
 ```javascript
 
-new  `temp {waitforit} late`();
+new `temp {waitforit} late`;
+
 ```
 
 ### Diagnostics

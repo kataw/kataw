@@ -80,13 +80,7 @@ class x { foo(){ super.foo; }}
                                                 "expression": {
                                                     "kind": 129,
                                                     "member": {
-                                                        "kind": 225,
-                                                        "superKeyword": {
-                                                            "kind": 4259935,
-                                                            "flags": 96,
-                                                            "start": 16,
-                                                            "end": 22
-                                                        },
+                                                        "kind": 4259935,
                                                         "flags": 96,
                                                         "start": 16,
                                                         "end": 22
@@ -99,7 +93,7 @@ class x { foo(){ super.foo; }}
                                                         "start": 23,
                                                         "end": 26
                                                     },
-                                                    "flags": 536870944,
+                                                    "flags": 96,
                                                     "start": 16,
                                                     "end": 26
                                                 },
@@ -152,10 +146,9 @@ class x { foo(){ super.foo; }}
 ```javascript
 
 class x {
-  foo() {
-    super.foo;
-  }
+  foo() { super.foo; }
 }
+
 ```
 
 ### Diagnostics

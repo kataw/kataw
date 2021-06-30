@@ -132,8 +132,9 @@ class x {static implements(){}}
 ```javascript
 
 class x {
-  static static implements() {}
+  static implements() { }
 }
+
 ```
 
 ### Diagnostics

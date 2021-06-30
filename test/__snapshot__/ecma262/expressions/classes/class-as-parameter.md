@@ -100,8 +100,8 @@ class A {
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 26,
-                "end": 30
+                "start": 27,
+                "end": 29
             },
             "contents": {
                 "kind": 216,
@@ -137,7 +137,7 @@ class A {
                                         "start": 49,
                                         "end": 55
                                     },
-                                    "flags": 536870944,
+                                    "flags": 96,
                                     "start": 41,
                                     "end": 55
                                 },
@@ -418,15 +418,18 @@ class A {
 ```javascript
 
 var C;
-function decorator() {
-  return  Object.assign(el, { finisher() {
-        C = Class;
-      } });
+function decorator(el) {
+  return Object.assign(el, {
+    finisher(Class) {
+      C = Class;
+    },
+  });
 }
 class A {
   @decorator
-  foo() {}
+  foo() { }
 }
+
 ```
 
 ### Diagnostics

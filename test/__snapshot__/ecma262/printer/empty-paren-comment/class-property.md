@@ -154,7 +154,7 @@ class Foo {
                             "kind": 280,
                             "decorators": null,
                             "declaredToken": null,
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "asyncKeyword": null,
                             "key": {
                                 "kind": 134299649,
@@ -208,8 +208,8 @@ class Foo {
                             "end": 72
                         },
                         {
-                            "kind": 317,
-                            "flags": 96,
+                            "kind": 1108353041,
+                            "flags": 64,
                             "start": 72,
                             "end": 73
                         },
@@ -270,8 +270,8 @@ class Foo {
                             "end": 98
                         },
                         {
-                            "kind": 317,
-                            "flags": 96,
+                            "kind": 1108353041,
+                            "flags": 64,
                             "start": 98,
                             "end": 99
                         },
@@ -279,7 +279,7 @@ class Foo {
                             "kind": 280,
                             "decorators": null,
                             "declaredToken": null,
-                            "staticToken": {
+                            "staticKeyword": {
                                 "kind": 8388716,
                                 "flags": 64,
                                 "start": 99,
@@ -338,8 +338,8 @@ class Foo {
                             "end": 130
                         },
                         {
-                            "kind": 317,
-                            "flags": 96,
+                            "kind": 1108353041,
+                            "flags": 64,
                             "start": 130,
                             "end": 131
                         },
@@ -347,7 +347,7 @@ class Foo {
                             "kind": 280,
                             "decorators": null,
                             "declaredToken": null,
-                            "staticToken": {
+                            "staticKeyword": {
                                 "kind": 8388716,
                                 "flags": 64,
                                 "start": 131,
@@ -381,8 +381,8 @@ class Foo {
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 32,
-                                    "start": 153,
-                                    "end": 164
+                                    "start": 154,
+                                    "end": 154
                                 },
                                 "contents": {
                                     "kind": 216,
@@ -408,8 +408,8 @@ class Foo {
                             "end": 167
                         },
                         {
-                            "kind": 317,
-                            "flags": 96,
+                            "kind": 1108353041,
+                            "flags": 64,
                             "start": 167,
                             "end": 168
                         },
@@ -417,7 +417,7 @@ class Foo {
                             "kind": 280,
                             "decorators": null,
                             "declaredToken": null,
-                            "staticToken": {
+                            "staticKeyword": {
                                 "kind": 8388716,
                                 "flags": 64,
                                 "start": 168,
@@ -458,8 +458,8 @@ class Foo {
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 32,
-                                    "start": 192,
-                                    "end": 203
+                                    "start": 193,
+                                    "end": 193
                                 },
                                 "contents": {
                                     "kind": 216,
@@ -485,8 +485,8 @@ class Foo {
                             "end": 206
                         },
                         {
-                            "kind": 317,
-                            "flags": 96,
+                            "kind": 1108353041,
+                            "flags": 64,
                             "start": 206,
                             "end": 207
                         }
@@ -518,19 +518,20 @@ class Foo {
 ```javascript
 
 class Foo {
-  f() {}
-  f() /* ... */ {}
-  f = () =>  {};
-
-  static static f() {}
-
-  static f = () =>  {};
-
-  static f = function () {};
-
-  static f = function f() {};
-
+  f(/* ... */) { }
+  f() { }
+  f = (/* ... */) =>  { }
+  ;
+  static f(/* ... */) { }
+  ;
+  static f = (/* ... */) =>  { }
+  ;
+  static f = function (/* ... */) { }
+  ;
+  static f = function f(/* ... */) { }
+  ;
 }
+
 ```
 
 ### Diagnostics

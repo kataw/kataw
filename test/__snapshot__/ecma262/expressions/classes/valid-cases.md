@@ -69,7 +69,7 @@ x = class {y = 1; 'z' = 2}
                                     "kind": 280,
                                     "decorators": null,
                                     "declaredToken": null,
-                                    "staticToken": null,
+                                    "staticKeyword": null,
                                     "asyncKeyword": null,
                                     "key": {
                                         "kind": 134299649,
@@ -94,8 +94,8 @@ x = class {y = 1; 'z' = 2}
                                     "end": 16
                                 },
                                 {
-                                    "kind": 317,
-                                    "flags": 96,
+                                    "kind": 1108353041,
+                                    "flags": 64,
                                     "start": 16,
                                     "end": 17
                                 },
@@ -103,7 +103,7 @@ x = class {y = 1; 'z' = 2}
                                     "kind": 280,
                                     "decorators": null,
                                     "declaredToken": null,
-                                    "staticToken": null,
+                                    "staticKeyword": null,
                                     "asyncKeyword": null,
                                     "key": {
                                         "kind": 201392131,
@@ -235,8 +235,8 @@ x = class {y = 1; 'z' = 2}
                                     "end": 45
                                 },
                                 {
-                                    "kind": 317,
-                                    "flags": 96,
+                                    "kind": 1108353041,
+                                    "flags": 64,
                                     "start": 45,
                                     "end": 46
                                 },
@@ -404,8 +404,8 @@ x = class {y = 1; 'z' = 2}
                                     "end": 79
                                 },
                                 {
-                                    "kind": 317,
-                                    "flags": 96,
+                                    "kind": 1108353041,
+                                    "flags": 64,
                                     "start": 79,
                                     "end": 80
                                 },
@@ -587,8 +587,8 @@ x = class {y = 1; 'z' = 2}
                                     "end": 118
                                 },
                                 {
-                                    "kind": 317,
-                                    "flags": 96,
+                                    "kind": 1108353041,
+                                    "flags": 64,
                                     "start": 118,
                                     "end": 119
                                 },
@@ -717,7 +717,7 @@ x = class {y = 1; 'z' = 2}
                                     "kind": 280,
                                     "decorators": null,
                                     "declaredToken": null,
-                                    "staticToken": null,
+                                    "staticKeyword": null,
                                     "asyncKeyword": null,
                                     "key": {
                                         "kind": 134299649,
@@ -742,8 +742,8 @@ x = class {y = 1; 'z' = 2}
                                     "end": 152
                                 },
                                 {
-                                    "kind": 317,
-                                    "flags": 96,
+                                    "kind": 1108353041,
+                                    "flags": 64,
                                     "start": 152,
                                     "end": 153
                                 },
@@ -751,7 +751,7 @@ x = class {y = 1; 'z' = 2}
                                     "kind": 280,
                                     "decorators": null,
                                     "declaredToken": null,
-                                    "staticToken": null,
+                                    "staticKeyword": null,
                                     "asyncKeyword": null,
                                     "key": {
                                         "kind": 201392131,
@@ -811,30 +811,31 @@ x = class {y = 1; 'z' = 2}
 ```javascript
 
 x = class  {
-  y = 1;
-
-  "'z'" = 2;
+  y = 1
+  ;
+  '\'z\'' = 2
 };
 x = class  {
-  y() {}
-
-  "'z'"() {}
+  y() { }
+  ;
+  '\'z\''() { }
 };
 x = class  {
-  get y() {}
-
-  set "'z'"() {}
+  get y() { }
+  ;
+  set '\'z\''(z) { }
 };
 x = class  {
-  get y() {}
-
-  set "'z'"() {}
+  get y() { }
+  ;
+  set '\'z\''(z) { }
 };
 x = class  {
-  y = 1;
-
-  "'z'" = 2;
+  y = 1
+  ;
+  '\'z\'' = 2
 };
+
 ```
 
 ### Diagnostics

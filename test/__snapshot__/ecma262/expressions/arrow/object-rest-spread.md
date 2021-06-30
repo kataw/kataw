@@ -79,7 +79,7 @@ var foo = ( { title, ...other } ) => {
                                                     "optionalToken": null,
                                                     "type": null,
                                                     "right": null,
-                                                    "flags": 32,
+                                                    "flags": 1073741856,
                                                     "start": 20,
                                                     "end": 29
                                                 }
@@ -151,7 +151,12 @@ var foo = ( { title, ...other } ) => {
 
 ```javascript
 
-var foo = () =>  {};
+var foo = ({
+    title,
+    ...other
+  }) =>  {
+};
+
 ```
 
 ### Diagnostics

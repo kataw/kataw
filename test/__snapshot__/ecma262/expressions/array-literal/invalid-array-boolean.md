@@ -51,7 +51,6 @@
 //[false] = x;
 //[true] = x;
 
-
 ```
 
 ### Diagnostics

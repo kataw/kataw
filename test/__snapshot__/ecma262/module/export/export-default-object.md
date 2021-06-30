@@ -91,7 +91,8 @@ export default { foo: 1 };
 
 ```javascript
 
-export default { foo: 1 };
+export default { foo : 1 };
+
 ```
 
 ### Diagnostics

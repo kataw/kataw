@@ -124,8 +124,8 @@ gen = function*() {};
                         "formalParameters": [],
                         "trailingComma": false,
                         "flags": 32,
-                        "start": 34,
-                        "end": 36
+                        "start": 35,
+                        "end": 35
                     },
                     "contents": {
                         "kind": 216,
@@ -194,8 +194,8 @@ gen = function*() {};
                         "formalParameters": [],
                         "trailingComma": false,
                         "flags": 32,
-                        "start": 56,
-                        "end": 58
+                        "start": 57,
+                        "end": 57
                     },
                     "contents": {
                         "kind": 216,
@@ -239,8 +239,9 @@ gen = function*() {};
 ```javascript
 
 var xGen, gen;
-xGen = function * x() {};
-gen = function * () {};
+xGen = function* x() { };
+gen = function* () { };
+
 ```
 
 ### Diagnostics

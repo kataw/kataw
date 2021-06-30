@@ -67,6 +67,7 @@ type a = (1 | 1[]) => T;
                                         {
                                             "kind": 134217968,
                                             "text": 1,
+                                            "rawText": "1",
                                             "flags": 2097216,
                                             "start": 10,
                                             "end": 11
@@ -76,6 +77,7 @@ type a = (1 | 1[]) => T;
                                             "type": {
                                                 "kind": 134217968,
                                                 "text": 1,
+                                                "rawText": "1",
                                                 "flags": 2097216,
                                                 "start": 13,
                                                 "end": 15
@@ -154,6 +156,7 @@ type a = (1 | 1[]) => T;
 
 ```javascript
 
+type a = (1 | 1[]) => T
 
 ```
 

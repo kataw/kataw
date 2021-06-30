@@ -45,8 +45,8 @@ function *await(){}
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 15,
-                "end": 17
+                "start": 16,
+                "end": 16
             },
             "contents": {
                 "kind": 216,
@@ -81,7 +81,8 @@ function *await(){}
 
 ```javascript
 
-function * await() {}
+function* await() { }
+
 ```
 
 ### Diagnostics

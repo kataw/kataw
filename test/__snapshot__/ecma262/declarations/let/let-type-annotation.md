@@ -90,7 +90,7 @@ let x: () => {} | ({y: z});
                                                             {
                                                                 "kind": 193,
                                                                 "protoKeyword": null,
-                                                                "staticToken": null,
+                                                                "staticKeyword": null,
                                                                 "getKeyword": null,
                                                                 "setKeyword": null,
                                                                 "key": {
@@ -188,7 +188,8 @@ let x: () => {} | ({y: z});
 
 ```javascript
 
-let x: ;
+let x: () => {} | ({ y: z });
+
 ```
 
 ### Diagnostics

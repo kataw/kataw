@@ -56,7 +56,7 @@ opaque type Good: {x: string} = {x: string, y: number};
                         {
                             "kind": 193,
                             "protoKeyword": null,
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "getKeyword": null,
                             "setKeyword": null,
                             "key": {
@@ -106,7 +106,7 @@ opaque type Good: {x: string} = {x: string, y: number};
                         {
                             "kind": 193,
                             "protoKeyword": null,
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "getKeyword": null,
                             "setKeyword": null,
                             "key": {
@@ -139,7 +139,7 @@ opaque type Good: {x: string} = {x: string, y: number};
                         {
                             "kind": 193,
                             "protoKeyword": null,
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "getKeyword": null,
                             "setKeyword": null,
                             "key": {
@@ -203,7 +203,8 @@ opaque type Good: {x: string} = {x: string, y: number};
 
 ```javascript
 
-
+opaque type Good: { x: string } = { x: string, y: number }
+;
 
 ```
 

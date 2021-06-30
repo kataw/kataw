@@ -620,10 +620,11 @@ x ? ( (a, {}) => {} ) : baz;
 
 ```javascript
 
-x ? (() =>  () =>  x * u + y * v) : baz;
-x ? (() =>  0, () =>  1) : baz;
-x ? (a, (a, () =>  0)) : baz;
-x ? (() =>  {}) : baz;
+x ? ((x, y) => (u, v) => x * u + y * v) : baz;
+x ? ((a, b) => 0, (c, d) => 1) : baz;
+x ? ((a, (a, (b, c) => 0))) : baz;
+x ? ((a, { }) =>  { }) : baz;
+
 ```
 
 ### Diagnostics

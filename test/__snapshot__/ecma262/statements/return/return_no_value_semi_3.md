@@ -40,8 +40,8 @@ function f(){   return 15;    }
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 10,
-                "end": 12
+                "start": 11,
+                "end": 11
             },
             "contents": {
                 "kind": 216,
@@ -97,9 +97,8 @@ function f(){   return 15;    }
 
 ```javascript
 
-function f() {
-  return  15;
-}
+function f() { return 15; }
+
 ```
 
 ### Diagnostics

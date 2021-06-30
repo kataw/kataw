@@ -75,10 +75,10 @@ function *f(x = delete ((function) = f)) {}
                             "operand": {
                                 "kind": 121,
                                 "expression": {
-                                    "kind": 125,
-                                    "left": {
-                                        "kind": 121,
-                                        "expression": {
+                                    "kind": 121,
+                                    "expression": {
+                                        "kind": 125,
+                                        "left": {
                                             "kind": 177,
                                             "asyncKeyword": null,
                                             "functionKeyword": {
@@ -105,57 +105,71 @@ function *f(x = delete ((function) = f)) {}
                                                     "directives": [],
                                                     "statements": [],
                                                     "flags": 32,
-                                                    "start": 33,
-                                                    "end": 33
+                                                    "start": 34,
+                                                    "end": 34
                                                 },
                                                 "flags": 32,
-                                                "start": 33,
-                                                "end": 33
+                                                "start": 34,
+                                                "end": 34
                                             },
                                             "returnType": null,
                                             "flags": 32,
                                             "start": 25,
-                                            "end": 33
+                                            "end": 34
+                                        },
+                                        "operatorToken": {
+                                            "kind": 4125,
+                                            "flags": 96,
+                                            "start": 34,
+                                            "end": 36
+                                        },
+                                        "right": {
+                                            "kind": 134299649,
+                                            "text": "f",
+                                            "rawText": "f",
+                                            "flags": 96,
+                                            "start": 36,
+                                            "end": 38
                                         },
                                         "flags": 32,
-                                        "start": 24,
-                                        "end": 34
-                                    },
-                                    "operatorToken": {
-                                        "kind": 4125,
-                                        "flags": 96,
-                                        "start": 34,
-                                        "end": 36
-                                    },
-                                    "right": {
-                                        "kind": 134299649,
-                                        "text": "f",
-                                        "rawText": "f",
-                                        "flags": 96,
-                                        "start": 36,
+                                        "start": 25,
                                         "end": 38
                                     },
                                     "flags": 32,
                                     "start": 24,
-                                    "end": 38
+                                    "end": 39
                                 },
                                 "flags": 32,
                                 "start": 22,
-                                "end": 39
+                                "end": 40
                             },
                             "flags": 32,
                             "start": 15,
-                            "end": 39
+                            "end": 40
                         },
                         "flags": 34,
                         "start": 12,
-                        "end": 39
+                        "end": 40
+                    },
+                    {
+                        "kind": 212,
+                        "propertyList": {
+                            "kind": 213,
+                            "properties": [],
+                            "trailingComma": false,
+                            "flags": 32,
+                            "start": 42,
+                            "end": 42
+                        },
+                        "flags": 32,
+                        "start": 40,
+                        "end": 43
                     }
                 ],
                 "trailingComma": false,
                 "flags": 34,
-                "start": 11,
-                "end": 40
+                "start": 12,
+                "end": 43
             },
             "contents": {
                 "kind": 216,
@@ -164,11 +178,11 @@ function *f(x = delete ((function) = f)) {}
                     "directives": [],
                     "statements": [],
                     "flags": 32,
-                    "start": 42,
-                    "end": 42
+                    "start": 43,
+                    "end": 43
                 },
                 "flags": 32,
-                "start": 40,
+                "start": 43,
                 "end": 43
             },
             "returnType": null,
@@ -196,6 +210,10 @@ function *f(x = delete ((function) = f)) {}
 
 ```javascript
 ✖ Missing an opening parentheses - '( - start: 33, end: 34
+✖ Missing an opening brace - '{ - start: 35, end: 36
+✖ The left-hand side of an assignment expression must be a variable or a property access - start: 34, end: 36
+✖ ',' expected - start: 41, end: 42
+✖ ',' expected - start: 42, end: 43
 
 ```
 

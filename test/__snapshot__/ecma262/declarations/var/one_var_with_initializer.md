@@ -115,6 +115,7 @@ var [foo=a] = arr;
 ```javascript
 
 var [foo = a] = arr;
+
 ```
 
 ### Diagnostics

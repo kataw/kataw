@@ -54,6 +54,7 @@ type X<S, A, C, I, R> = (S, A, C, I) => Promise<R>
                                 "end": 8
                             },
                             "type": null,
+                            "assignToken": null,
                             "defaultType": null,
                             "flags": 2097152,
                             "start": 7,
@@ -70,6 +71,7 @@ type X<S, A, C, I, R> = (S, A, C, I) => Promise<R>
                                 "end": 11
                             },
                             "type": null,
+                            "assignToken": null,
                             "defaultType": null,
                             "flags": 2097152,
                             "start": 9,
@@ -86,6 +88,7 @@ type X<S, A, C, I, R> = (S, A, C, I) => Promise<R>
                                 "end": 14
                             },
                             "type": null,
+                            "assignToken": null,
                             "defaultType": null,
                             "flags": 2097152,
                             "start": 12,
@@ -102,6 +105,7 @@ type X<S, A, C, I, R> = (S, A, C, I) => Promise<R>
                                 "end": 17
                             },
                             "type": null,
+                            "assignToken": null,
                             "defaultType": null,
                             "flags": 2097152,
                             "start": 15,
@@ -118,6 +122,7 @@ type X<S, A, C, I, R> = (S, A, C, I) => Promise<R>
                                 "end": 20
                             },
                             "type": null,
+                            "assignToken": null,
                             "defaultType": null,
                             "flags": 2097152,
                             "start": 18,
@@ -361,6 +366,7 @@ type X<S, A, C, I, R> = (S, A, C, I) => Promise<R>
 
 ```javascript
 
+type X<S, A, C, I, R> = (S, A, C, I) => Promise<R>
 
 ```
 

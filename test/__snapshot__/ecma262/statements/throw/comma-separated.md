@@ -85,7 +85,8 @@ throw x = y, z;
 
 ```javascript
 
-throw  x = y, z;
+throw x = y, z;
+
 ```
 
 ### Diagnostics

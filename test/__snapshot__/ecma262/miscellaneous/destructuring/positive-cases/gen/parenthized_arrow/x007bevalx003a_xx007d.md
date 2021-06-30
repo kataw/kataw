@@ -149,7 +149,10 @@ var f = ({eval: x}) => {};
 
 ```javascript
 
-var f = () =>  {};
+var f = ({
+    eval: x
+  }) =>  { };
+
 ```
 
 ### Diagnostics

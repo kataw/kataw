@@ -42,12 +42,7 @@ foo(async => {}).bar
                         "elements": [
                             {
                                 "kind": 271,
-                                "asyncKeyword": {
-                                    "kind": 82031,
-                                    "flags": 64,
-                                    "start": 4,
-                                    "end": 9
-                                },
+                                "asyncKeyword": null,
                                 "typeParameters": null,
                                 "arrowPatameterList": {
                                     "kind": 134299649,
@@ -100,7 +95,7 @@ foo(async => {}).bar
                     "start": 17,
                     "end": 20
                 },
-                "flags": 536870944,
+                "flags": 268435488,
                 "start": 0,
                 "end": 20
             },
@@ -122,7 +117,8 @@ foo(async => {}).bar
 
 ```javascript
 
-foo(async async =>  {}).bar;
+foo(async =>  { }).bar;
+
 ```
 
 ### Diagnostics

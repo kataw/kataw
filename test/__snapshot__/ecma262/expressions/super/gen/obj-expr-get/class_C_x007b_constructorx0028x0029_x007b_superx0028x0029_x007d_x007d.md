@@ -134,13 +134,7 @@
                                                                                         "expression": {
                                                                                             "kind": 131,
                                                                                             "expression": {
-                                                                                                "kind": 225,
-                                                                                                "superKeyword": {
-                                                                                                    "kind": 4259935,
-                                                                                                    "flags": 96,
-                                                                                                    "start": 38,
-                                                                                                    "end": 44
-                                                                                                },
+                                                                                                "kind": 4259935,
                                                                                                 "flags": 96,
                                                                                                 "start": 38,
                                                                                                 "end": 44

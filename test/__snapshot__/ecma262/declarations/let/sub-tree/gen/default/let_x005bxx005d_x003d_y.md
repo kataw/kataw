@@ -143,10 +143,11 @@ switch (a) { default: let [x] = y }
 
 ```javascript
 
-switch(a) {
-  default
+switch (a) {
+  default: 
     let [x] = y;
 }
+
 ```
 
 ### Diagnostics

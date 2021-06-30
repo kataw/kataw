@@ -56,7 +56,7 @@ class C {
                             "kind": 280,
                             "decorators": null,
                             "declaredToken": null,
-                            "staticToken": {
+                            "staticKeyword": {
                                 "kind": 8388716,
                                 "flags": 64,
                                 "start": 9,
@@ -86,8 +86,8 @@ class C {
                             "end": 25
                         },
                         {
-                            "kind": 317,
-                            "flags": 96,
+                            "kind": 1108353041,
+                            "flags": 64,
                             "start": 25,
                             "end": 26
                         },
@@ -121,7 +121,7 @@ class C {
                                                     "start": 45,
                                                     "end": 47
                                                 },
-                                                "flags": 536870944,
+                                                "flags": 96,
                                                 "start": 38,
                                                 "end": 47
                                             },
@@ -170,10 +170,10 @@ class C {
 ```javascript
 
 class C {
-  static #x = 1;
-
-
+  static #x = 1
+  ;
 }
+
 ```
 
 ### Diagnostics

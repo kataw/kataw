@@ -138,9 +138,10 @@ class x extends y { constructor() { } }
 
 ```javascript
 
-class x  {
-  constructor() {}
+class x extends y {
+  constructor() { }
 }
+
 ```
 
 ### Diagnostics

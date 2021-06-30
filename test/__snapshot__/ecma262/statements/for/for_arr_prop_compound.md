@@ -68,7 +68,7 @@ for ([].w ^= s;;) x;
                         "start": 8,
                         "end": 9
                     },
-                    "flags": 536870944,
+                    "flags": 32,
                     "start": 0,
                     "end": 9
                 },
@@ -124,8 +124,9 @@ for ([].w ^= s;;) x;
 
 ```javascript
 
-for ([].w ^= s; ; )
+for ([].w ^= s;;)
   x;
+
 ```
 
 ### Diagnostics

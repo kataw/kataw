@@ -172,12 +172,11 @@ try {} catch (e) { for (let e of y) {} }
 
 ```javascript
 
-try {
-} catch (e) {
-  for (let e; of y)
-    {
-    }
+try { }
+catch (e){
+  for (let e of y) { }
 }
+
 ```
 
 ### Diagnostics

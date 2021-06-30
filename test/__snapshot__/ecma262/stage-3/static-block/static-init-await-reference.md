@@ -131,8 +131,8 @@ class C {
                                                             ],
                                                             "trailingComma": false,
                                                             "flags": 34,
-                                                            "start": 34,
-                                                            "end": 58
+                                                            "start": 36,
+                                                            "end": 57
                                                         },
                                                         "contents": {
                                                             "kind": 216,
@@ -249,8 +249,8 @@ class C {
 ```javascript
 
 class C {
-
 }
+
 ```
 
 ### Diagnostics

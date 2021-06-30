@@ -559,7 +559,7 @@ a % 10 == 0;
                                     "start": 203,
                                     "end": 209
                                 },
-                                "flags": 536870944,
+                                "flags": 96,
                                 "start": 196,
                                 "end": 209
                             },
@@ -1446,7 +1446,7 @@ a % 10 == 0;
                                                     "start": 478,
                                                     "end": 484
                                                 },
-                                                "flags": 536870944,
+                                                "flags": 96,
                                                 "start": 472,
                                                 "end": 484
                                             },
@@ -1557,7 +1557,7 @@ a % 10 == 0;
                                                 "start": 532,
                                                 "end": 537
                                             },
-                                            "flags": 536870944,
+                                            "flags": 96,
                                             "start": 527,
                                             "end": 537
                                         }
@@ -1652,7 +1652,7 @@ a % 10 == 0;
                                                     "start": 571,
                                                     "end": 576
                                                 },
-                                                "flags": 536870944,
+                                                "flags": 96,
                                                 "start": 565,
                                                 "end": 576
                                             },
@@ -1763,7 +1763,7 @@ a % 10 == 0;
                                                 "start": 624,
                                                 "end": 629
                                             },
-                                            "flags": 536870944,
+                                            "flags": 96,
                                             "start": 619,
                                             "end": 629
                                         }
@@ -2025,24 +2025,22 @@ a % 10 == 0;
 ```javascript
 
 const result = (a + b) >>> 1;
-var sizeIndex = ((index - 1) >>> level) => MASK;
+var sizeIndex = ((index - 1) >>> level) & MASK;
 var from = offset > left ? 0 : (left - offset) >> level;
 var to = ((right - offset) >> level) + 1;
-if (rawIndex  < 1 << (list._level + SHIFT)) {
-  }
+if (rawIndex  < 1 << (list._level + SHIFT)) { }
 var res = size  < SIZE ? 0 : (((size - 1) >>> SHIFT) << SHIFT);
 sign = 1 - (2 * (b[3] >> 7));
-exponent = (((b[3] << 1) => 0xff) | (b[2] >> 7)) - 127;
-mantissa = ((b[2] => 0x7f) << 16) | (b[1] << 8) | b[0];
+exponent = (((b[3] << 1) & 0xff) | (b[2] >> 7)) - 127;
+mantissa = ((b[2] & 0x7f) << 16) | (b[1] << 8) | b[0];
 2 / 3 * 10 / 2 + 2;
-const rotateX =
-  ((RANGE / rect.height) * refY - RANGE / 2) * getXMultiplication(rect.width);
-const rotateY =
-  ((RANGE / rect.width) * refX - RANGE / 2) * getYMultiplication(rect.width);
+const rotateX = ((RANGE / rect.height) * refY - RANGE / 2) * getXMultiplication(rect.width);
+const rotateY = ((RANGE / rect.width) * refX - RANGE / 2) * getYMultiplication(rect.width);
 a % 10 - 5;
 a * b % 10;
 a % 10 > 5;
 a % 10 == 0;
+
 ```
 
 ### Diagnostics

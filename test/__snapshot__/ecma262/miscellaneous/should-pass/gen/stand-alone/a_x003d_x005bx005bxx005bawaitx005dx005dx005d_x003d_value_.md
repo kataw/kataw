@@ -135,7 +135,8 @@ a = [[x[await]]] = value;
 
 ```javascript
 
-a = [[x[await]]] = value;
+a = [[x[await],],] = value;
+
 ```
 
 ### Diagnostics

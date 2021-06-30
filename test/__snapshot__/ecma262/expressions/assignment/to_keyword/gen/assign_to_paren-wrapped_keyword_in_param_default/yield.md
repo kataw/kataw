@@ -131,7 +131,8 @@ async (x = (yield) = f) => {}
 
 ```javascript
 
-async  =>  {}
+async (x = (yield) = f) =>  { }
+
 ```
 
 ### Diagnostics

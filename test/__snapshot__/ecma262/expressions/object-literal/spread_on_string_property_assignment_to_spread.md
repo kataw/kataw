@@ -67,7 +67,7 @@ x={..."foo".foo=x}
                                             "start": 12,
                                             "end": 15
                                         },
-                                        "flags": 536870944,
+                                        "flags": 96,
                                         "start": 6,
                                         "end": 15
                                     },
@@ -89,7 +89,7 @@ x={..."foo".foo=x}
                                     "start": 6,
                                     "end": 17
                                 },
-                                "flags": 32,
+                                "flags": 1073741856,
                                 "start": 3,
                                 "end": 17
                             }
@@ -126,6 +126,7 @@ x={..."foo".foo=x}
 ```javascript
 
 x = { ..."\"foo\"".foo = x };
+
 ```
 
 ### Diagnostics

@@ -77,8 +77,8 @@ async function f({ await }) {}
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 16,
-                "end": 27
+                "start": 17,
+                "end": 26
             },
             "contents": {
                 "kind": 216,
@@ -113,7 +113,10 @@ async function f({ await }) {}
 
 ```javascript
 
-async function f() {}
+async function f({
+    await
+  }) { }
+
 ```
 
 ### Diagnostics

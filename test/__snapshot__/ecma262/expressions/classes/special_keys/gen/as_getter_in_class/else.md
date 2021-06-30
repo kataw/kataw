@@ -132,8 +132,9 @@ class x {get else(){}}
 ```javascript
 
 class x {
-  get else() {}
+  get else() { }
 }
+
 ```
 
 ### Diagnostics

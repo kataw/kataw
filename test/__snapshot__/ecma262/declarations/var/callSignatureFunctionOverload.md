@@ -67,7 +67,7 @@ var foo2: {
                                     {
                                         "kind": 196,
                                         "protoKeyword": null,
-                                        "staticToken": null,
+                                        "staticKeyword": null,
                                         "typeParameter": null,
                                         "value": {
                                             "kind": 282,
@@ -129,7 +129,7 @@ var foo2: {
                                     {
                                         "kind": 196,
                                         "protoKeyword": null,
-                                        "staticToken": null,
+                                        "staticKeyword": null,
                                         "typeParameter": null,
                                         "value": {
                                             "kind": 282,
@@ -153,6 +153,7 @@ var foo2: {
                                                         "type": {
                                                             "kind": 134217967,
                                                             "text": "order",
+                                                            "rawText": "'order'",
                                                             "flags": 2097216,
                                                             "start": 49,
                                                             "end": 57
@@ -192,7 +193,7 @@ var foo2: {
                                     {
                                         "kind": 196,
                                         "protoKeyword": null,
-                                        "staticToken": null,
+                                        "staticKeyword": null,
                                         "typeParameter": null,
                                         "value": {
                                             "kind": 282,
@@ -216,6 +217,7 @@ var foo2: {
                                                         "type": {
                                                             "kind": 134217967,
                                                             "text": "content",
+                                                            "rawText": "'content'",
                                                             "flags": 2097216,
                                                             "start": 78,
                                                             "end": 88
@@ -255,7 +257,7 @@ var foo2: {
                                     {
                                         "kind": 196,
                                         "protoKeyword": null,
-                                        "staticToken": null,
+                                        "staticKeyword": null,
                                         "typeParameter": null,
                                         "value": {
                                             "kind": 282,
@@ -279,6 +281,7 @@ var foo2: {
                                                         "type": {
                                                             "kind": 134217967,
                                                             "text": "done",
+                                                            "rawText": "'done'",
                                                             "flags": 2097216,
                                                             "start": 109,
                                                             "end": 116
@@ -371,7 +374,7 @@ var foo2: {
                                     {
                                         "kind": 196,
                                         "protoKeyword": null,
-                                        "staticToken": null,
+                                        "staticKeyword": null,
                                         "typeParameter": null,
                                         "value": {
                                             "kind": 282,
@@ -433,7 +436,7 @@ var foo2: {
                                     {
                                         "kind": 196,
                                         "protoKeyword": null,
-                                        "staticToken": null,
+                                        "staticKeyword": null,
                                         "typeParameter": null,
                                         "value": {
                                             "kind": 282,
@@ -457,6 +460,7 @@ var foo2: {
                                                         "type": {
                                                             "kind": 134217967,
                                                             "text": "order",
+                                                            "rawText": "'order'",
                                                             "flags": 2097216,
                                                             "start": 180,
                                                             "end": 188
@@ -496,7 +500,7 @@ var foo2: {
                                     {
                                         "kind": 196,
                                         "protoKeyword": null,
-                                        "staticToken": null,
+                                        "staticKeyword": null,
                                         "typeParameter": null,
                                         "value": {
                                             "kind": 282,
@@ -520,6 +524,7 @@ var foo2: {
                                                         "type": {
                                                             "kind": 134217967,
                                                             "text": "order",
+                                                            "rawText": "'order'",
                                                             "flags": 2097216,
                                                             "start": 209,
                                                             "end": 217
@@ -559,7 +564,7 @@ var foo2: {
                                     {
                                         "kind": 196,
                                         "protoKeyword": null,
-                                        "staticToken": null,
+                                        "staticKeyword": null,
                                         "typeParameter": null,
                                         "value": {
                                             "kind": 282,
@@ -583,6 +588,7 @@ var foo2: {
                                                         "type": {
                                                             "kind": 134217967,
                                                             "text": "done",
+                                                            "rawText": "'done'",
                                                             "flags": 2097216,
                                                             "start": 238,
                                                             "end": 245
@@ -657,8 +663,19 @@ var foo2: {
 
 ```javascript
 
-var foo: ;
-var foo2: ;
+var foo: {
+  (name: string): string,
+  (name: "'order'"): string,
+  (name: "'content'"): string,
+  (name: "'done'"): string
+};
+var foo2: {
+  (name: string): string,
+  (name: "'order'"): string,
+  (name: "'order'"): string,
+  (name: "'done'"): string
+};
+
 ```
 
 ### Diagnostics

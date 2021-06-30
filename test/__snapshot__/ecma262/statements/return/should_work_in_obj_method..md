@@ -118,9 +118,8 @@
 
 ```javascript
 
-({ foo() {
-    return ;
-  } });
+({ foo() { return; } });
+
 ```
 
 ### Diagnostics

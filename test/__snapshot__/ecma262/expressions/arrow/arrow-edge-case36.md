@@ -175,7 +175,8 @@ let x = (y: any): (y[]) => {};
 
 ```javascript
 
-let x = () =>  {};
+let x = (y: any) =>  { };
+
 ```
 
 ### Diagnostics

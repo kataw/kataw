@@ -38,7 +38,7 @@
                                     "kind": 201392130,
                                     "text": 5,
                                     "rawText": "5.",
-                                    "flags": 96,
+                                    "flags": 32864,
                                     "start": 1,
                                     "end": 3
                                 },
@@ -50,13 +50,13 @@
                                     "start": 4,
                                     "end": 10
                                 },
-                                "flags": 536870944,
+                                "flags": 32864,
                                 "start": 1,
                                 "end": 10
                             }
                         ],
                         "trailingComma": false,
-                        "flags": 32,
+                        "flags": 32800,
                         "start": 1,
                         "end": 10
                     },
@@ -100,7 +100,8 @@
 
 ```javascript
 
-[5.length] = x;
+[5..length,] = x;
+
 ```
 
 ### Diagnostics

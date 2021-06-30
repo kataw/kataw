@@ -59,7 +59,7 @@ new (x().y)();
                             "start": 9,
                             "end": 10
                         },
-                        "flags": 536870944,
+                        "flags": 268435488,
                         "start": 3,
                         "end": 10
                     },
@@ -97,7 +97,8 @@ new (x().y)();
 
 ```javascript
 
-new  (x().y)();
+new (x().y)();
+
 ```
 
 ### Diagnostics

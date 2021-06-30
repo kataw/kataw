@@ -117,7 +117,7 @@ x = {arrow: async x => ok}.y
                         "start": 27,
                         "end": 28
                     },
-                    "flags": 536870944,
+                    "flags": 48,
                     "start": 3,
                     "end": 28
                 },
@@ -143,7 +143,8 @@ x = {arrow: async x => ok}.y
 
 ```javascript
 
-x = { arrow: async x =>  ok }.y;
+x = { arrow : async x => ok }.y;
+
 ```
 
 ### Diagnostics

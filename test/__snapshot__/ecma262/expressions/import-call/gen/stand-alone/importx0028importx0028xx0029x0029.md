@@ -34,28 +34,22 @@ import(import(x))
                     "end": 6
                 },
                 "expression": {
-                    "kind": 120,
-                    "expression": {
-                        "kind": 206,
-                        "importKeyword": {
-                            "kind": 37814364,
-                            "flags": 64,
-                            "start": 7,
-                            "end": 13
-                        },
-                        "expression": {
-                            "kind": 134299649,
-                            "text": "x",
-                            "rawText": "x",
-                            "flags": 96,
-                            "start": 14,
-                            "end": 15
-                        },
-                        "flags": 32,
-                        "start": 13,
-                        "end": 16
+                    "kind": 206,
+                    "importKeyword": {
+                        "kind": 37814364,
+                        "flags": 64,
+                        "start": 7,
+                        "end": 13
                     },
-                    "flags": 16,
+                    "expression": {
+                        "kind": 134299649,
+                        "text": "x",
+                        "rawText": "x",
+                        "flags": 96,
+                        "start": 14,
+                        "end": 15
+                    },
+                    "flags": 32,
                     "start": 13,
                     "end": 16
                 },
@@ -64,7 +58,7 @@ import(import(x))
                 "end": 17
             },
             "flags": 16,
-            "start": 6,
+            "start": 0,
             "end": 17
         }
     ],
@@ -81,12 +75,13 @@ import(import(x))
 
 ```javascript
 
+import(import(x));
+
 ```
 
 ### Diagnostics
 
 ```javascript
-✖ Expected a `;` - start: 16, end: 17
-
+✔ No errors
 ```
 

@@ -449,12 +449,13 @@ declare var union: Foo | null | void;
 
 ```javascript
 
-var x: ;
-var mixed: ;
+var x: Foo;
+var mixed: mixed;
 var any: any;
-var empty: ;
-var maybe: ;
-var union: ;
+var empty: empty;
+var maybe: ?Foo;
+var union: Foo | null | void;
+
 ```
 
 ### Diagnostics

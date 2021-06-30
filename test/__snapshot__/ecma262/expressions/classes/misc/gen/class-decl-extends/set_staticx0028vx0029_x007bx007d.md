@@ -160,9 +160,10 @@ class C extends Base { set static(v) {} }
 
 ```javascript
 
-class C  {
-  set static() {}
+class C extends Base {
+  set static(v) { }
 }
+
 ```
 
 ### Diagnostics

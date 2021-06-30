@@ -150,6 +150,7 @@
 ```javascript
 
 (async  < {} > (x) >> y + z);
+
 ```
 
 ### Diagnostics

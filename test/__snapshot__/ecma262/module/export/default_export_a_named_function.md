@@ -60,8 +60,8 @@ export default function f(){}
                     "formalParameters": [],
                     "trailingComma": false,
                     "flags": 32,
-                    "start": 25,
-                    "end": 27
+                    "start": 26,
+                    "end": 26
                 },
                 "contents": {
                     "kind": 216,
@@ -100,7 +100,8 @@ export default function f(){}
 
 ```javascript
 
-export default function f() {};
+export default function f() { };
+
 ```
 
 ### Diagnostics

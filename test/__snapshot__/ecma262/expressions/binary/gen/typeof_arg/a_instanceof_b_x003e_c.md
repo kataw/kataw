@@ -103,7 +103,8 @@ typeof a instanceof b > c
 
 ```javascript
 
-typeof a inctanceof b > c;
+typeof  a instanceof b > c;
+
 ```
 
 ### Diagnostics

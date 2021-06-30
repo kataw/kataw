@@ -56,6 +56,7 @@ type T<U> = U;
                                 "end": 8
                             },
                             "type": null,
+                            "assignToken": null,
                             "defaultType": null,
                             "flags": 2097152,
                             "start": 7,
@@ -118,6 +119,7 @@ type T<U> = U;
 
 ```javascript
 
+type T<U> = U
 
 ```
 

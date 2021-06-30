@@ -62,8 +62,8 @@
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 25,
-                "end": 27
+                "start": 26,
+                "end": 26
             },
             "contents": {
                 "kind": 216,
@@ -127,9 +127,9 @@
 
 ```javascript
 
-function * a() {
-  yield 2e308;
-}
+'\'use strict\'';
+function* a() { yield 2e308; }
+
 ```
 
 ### Diagnostics

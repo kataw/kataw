@@ -60,6 +60,12 @@ type A5<S = number, T: ?string = string> = T;
                                 "end": 9
                             },
                             "type": null,
+                            "assignToken": {
+                                "kind": 4125,
+                                "flags": 64,
+                                "start": 9,
+                                "end": 11
+                            },
                             "defaultType": {
                                 "kind": 139,
                                 "bitwiseOrToken": null,
@@ -154,6 +160,12 @@ type A5<S = number, T: ?string = string> = T;
                                 "end": 34
                             },
                             "type": null,
+                            "assignToken": {
+                                "kind": 4125,
+                                "flags": 64,
+                                "start": 34,
+                                "end": 36
+                            },
                             "defaultType": {
                                 "kind": 139,
                                 "bitwiseOrToken": null,
@@ -273,6 +285,12 @@ type A5<S = number, T: ?string = string> = T;
                                 "start": 55,
                                 "end": 63
                             },
+                            "assignToken": {
+                                "kind": 4125,
+                                "flags": 64,
+                                "start": 63,
+                                "end": 65
+                            },
                             "defaultType": {
                                 "kind": 139,
                                 "bitwiseOrToken": null,
@@ -367,6 +385,7 @@ type A5<S = number, T: ?string = string> = T;
                                 "end": 88
                             },
                             "type": null,
+                            "assignToken": null,
                             "defaultType": null,
                             "flags": 2097152,
                             "start": 87,
@@ -407,6 +426,12 @@ type A5<S = number, T: ?string = string> = T;
                                 "flags": 2097152,
                                 "start": 92,
                                 "end": 100
+                            },
+                            "assignToken": {
+                                "kind": 4125,
+                                "flags": 64,
+                                "start": 100,
+                                "end": 102
                             },
                             "defaultType": {
                                 "kind": 139,
@@ -502,6 +527,12 @@ type A5<S = number, T: ?string = string> = T;
                                 "end": 125
                             },
                             "type": null,
+                            "assignToken": {
+                                "kind": 4125,
+                                "flags": 64,
+                                "start": 125,
+                                "end": 127
+                            },
                             "defaultType": {
                                 "kind": 139,
                                 "bitwiseOrToken": null,
@@ -555,6 +586,12 @@ type A5<S = number, T: ?string = string> = T;
                                 "flags": 2097152,
                                 "start": 138,
                                 "end": 146
+                            },
+                            "assignToken": {
+                                "kind": 4125,
+                                "flags": 64,
+                                "start": 146,
+                                "end": 148
                             },
                             "defaultType": {
                                 "kind": 139,
@@ -631,10 +668,11 @@ type A5<S = number, T: ?string = string> = T;
 
 ```javascript
 
-
-
-
-
+type A1<T= string> = T
+type A2<T= *> = T
+type A3<T: ?string= string> = T
+type A4<S, T: ?string= string> = T
+type A5<S= number, T: ?string= string> = T
 
 ```
 

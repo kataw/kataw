@@ -85,8 +85,8 @@ else function f(){}
                     "formalParameters": [],
                     "trailingComma": false,
                     "flags": 32,
-                    "start": 25,
-                    "end": 27
+                    "start": 26,
+                    "end": 26
                 },
                 "contents": {
                     "kind": 216,
@@ -125,8 +125,11 @@ else function f(){}
 
 ```javascript
 
-if (x) x;
-else  function f() {}
+if (x)
+  x;
+else
+  function f() { }
+
 ```
 
 ### Diagnostics

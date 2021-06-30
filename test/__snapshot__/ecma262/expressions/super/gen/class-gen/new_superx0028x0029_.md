@@ -99,13 +99,7 @@ class C { *method() { new super(); } }
                                                         "end": 25
                                                     },
                                                     "expression": {
-                                                        "kind": 225,
-                                                        "superKeyword": {
-                                                            "kind": 4259935,
-                                                            "flags": 96,
-                                                            "start": 25,
-                                                            "end": 31
-                                                        },
+                                                        "kind": 4259935,
                                                         "flags": 96,
                                                         "start": 25,
                                                         "end": 31

@@ -157,6 +157,8 @@
 
 ```javascript
 
+"\"use strict\"";
+type X = (await: string) => T
 
 ```
 

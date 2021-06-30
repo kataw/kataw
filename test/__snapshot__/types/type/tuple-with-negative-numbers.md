@@ -67,6 +67,7 @@ type x = [-1n, 0n, 1n];
                                     "end": 11
                                 },
                                 "text": 1,
+                                "rawText": "1",
                                 "flags": 2097216,
                                 "start": 10,
                                 "end": 12
@@ -82,6 +83,7 @@ type x = [-1n, 0n, 1n];
                             "type": {
                                 "kind": 134217968,
                                 "text": 0,
+                                "rawText": "0",
                                 "flags": 2097216,
                                 "start": 13,
                                 "end": 15
@@ -97,6 +99,7 @@ type x = [-1n, 0n, 1n];
                             "type": {
                                 "kind": 134217968,
                                 "text": 1,
+                                "rawText": "1",
                                 "flags": 2097216,
                                 "start": 16,
                                 "end": 18
@@ -163,6 +166,7 @@ type x = [-1n, 0n, 1n];
                                     "end": 33
                                 },
                                 "text": "1",
+                                "rawText": "1n",
                                 "flags": 2097216,
                                 "start": 32,
                                 "end": 35
@@ -178,7 +182,7 @@ type x = [-1n, 0n, 1n];
                             "type": {
                                 "kind": 286,
                                 "text": 0,
-                                "raw": "0n",
+                                "rawText": "0n",
                                 "flags": 2097216,
                                 "start": 36,
                                 "end": 39
@@ -194,7 +198,7 @@ type x = [-1n, 0n, 1n];
                             "type": {
                                 "kind": 286,
                                 "text": "1",
-                                "raw": "1n",
+                                "rawText": "1n",
                                 "flags": 2097216,
                                 "start": 40,
                                 "end": 43
@@ -231,7 +235,8 @@ type x = [-1n, 0n, 1n];
 
 ```javascript
 
-
+type x = [-1, 0, 1]
+type x = [-1n, 0n, 1n]
 
 ```
 

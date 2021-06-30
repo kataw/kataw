@@ -86,7 +86,7 @@ result = [...[x, y]] = vals;
                                         "start": 13,
                                         "end": 19
                                     },
-                                    "flags": 32,
+                                    "flags": 1073741856,
                                     "start": 10,
                                     "end": 19
                                 }
@@ -140,7 +140,8 @@ result = [...[x, y]] = vals;
 
 ```javascript
 
-result = [...[x, y]] = vals;
+result = [...[x, y,]] = vals;
+
 ```
 
 ### Diagnostics

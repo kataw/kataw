@@ -132,7 +132,8 @@
 
 ```javascript
 
-() =>  {};
+(x = (yield) = f) =>  { };
+
 ```
 
 ### Diagnostics

@@ -98,8 +98,9 @@ if (true) {
 ```javascript
 
 if (true) {
-    await 0;
-  }
+  await 0;
+}
+
 ```
 
 ### Diagnostics

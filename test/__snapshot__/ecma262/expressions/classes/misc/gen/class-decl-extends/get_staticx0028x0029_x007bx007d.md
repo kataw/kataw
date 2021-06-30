@@ -151,9 +151,10 @@ class C extends Base { get static() {} }
 
 ```javascript
 
-class C  {
-  get static() {}
+class C extends Base {
+  get static() { }
 }
+
 ```
 
 ### Diagnostics

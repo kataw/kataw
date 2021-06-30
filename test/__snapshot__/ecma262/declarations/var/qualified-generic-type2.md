@@ -124,7 +124,8 @@ var a : A.B.C
 
 ```javascript
 
-var a: ;
+var a: A.B.C;
+
 ```
 
 ### Diagnostics

@@ -142,8 +142,9 @@ class x {static async * break(){}}
 ```javascript
 
 class x {
-  async static static break() {}
+  static async *break() { }
 }
+
 ```
 
 ### Diagnostics

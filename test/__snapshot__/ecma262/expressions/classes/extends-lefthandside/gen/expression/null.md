@@ -103,7 +103,9 @@
 
 ```javascript
 
-(class B  {});
+(class B extends null {
+});
+
 ```
 
 ### Diagnostics

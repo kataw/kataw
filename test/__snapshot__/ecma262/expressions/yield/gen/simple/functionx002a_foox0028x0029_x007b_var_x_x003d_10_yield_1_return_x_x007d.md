@@ -53,8 +53,8 @@ function* foo() { var x = 10; yield 1; return x; }
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 13,
-                "end": 15
+                "start": 14,
+                "end": 14
             },
             "contents": {
                 "kind": 216,
@@ -182,11 +182,8 @@ function* foo() { var x = 10; yield 1; return x; }
 
 ```javascript
 
-function * foo() {
-  var x = 10;
-  yield 1;
-  return  x;
-}
+function* foo() { var x = 10; yield 1; return x; }
+
 ```
 
 ### Diagnostics

@@ -57,7 +57,8 @@ pa\u0073s();
 
 ```javascript
 
-pass();
+pa\u0073s();
+
 ```
 
 ### Diagnostics

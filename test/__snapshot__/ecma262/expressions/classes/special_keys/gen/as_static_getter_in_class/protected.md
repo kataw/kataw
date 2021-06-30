@@ -137,8 +137,9 @@ class x {static get protected(){}}
 ```javascript
 
 class x {
-  static get static protected() {}
+  static get protected() { }
 }
+
 ```
 
 ### Diagnostics

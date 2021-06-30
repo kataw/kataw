@@ -115,8 +115,11 @@ export @bar class Foo { }
 
 ```javascript
 
-export @bar
-class Foo {}
+export 
+@bar
+class Foo {
+}
+
 ```
 
 ### Diagnostics

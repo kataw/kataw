@@ -50,8 +50,8 @@ async function * f(){}
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 18,
-                "end": 20
+                "start": 19,
+                "end": 19
             },
             "contents": {
                 "kind": 216,
@@ -86,7 +86,8 @@ async function * f(){}
 
 ```javascript
 
-async function * f() {}
+async function* f() { }
+
 ```
 
 ### Diagnostics

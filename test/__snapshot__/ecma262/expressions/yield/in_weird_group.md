@@ -86,6 +86,7 @@
 {
   (x = yield);
 }
+
 ```
 
 ### Diagnostics

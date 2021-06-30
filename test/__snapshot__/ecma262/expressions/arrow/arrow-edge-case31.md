@@ -182,7 +182,8 @@ let x: (this: any) => void = () => {}
 
 ```javascript
 
-let x:  = () =>  {};
+let x: (this: any) => void = () =>  { };
+
 ```
 
 ### Diagnostics

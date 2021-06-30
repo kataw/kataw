@@ -58,11 +58,11 @@ import.meta = 0;
                     "end": 15
                 },
                 "flags": 32,
-                "start": 6,
+                "start": 0,
                 "end": 15
             },
             "flags": 16,
-            "start": 6,
+            "start": 0,
             "end": 16
         }
     ],

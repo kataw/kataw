@@ -697,8 +697,9 @@ var c = false ? 1 : 0;
 var d = false ? false : true;
 var e = false ? "\"foo\"" : "\"bar\"";
 var f = false ? null : undefined;
-var g = true ? { g: 5 } : null;
-var h = [{ h: 5 }, null];
+var g = true ? { g : 5 } : null;
+var h = [{ h : 5 }, null,];
+
 ```
 
 ### Diagnostics

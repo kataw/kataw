@@ -71,7 +71,8 @@ inte\u0072face = x;
 
 ```javascript
 
-interface = x;
+inte\u0072face = x;
+
 ```
 
 ### Diagnostics

@@ -57,7 +57,7 @@ type a = {[x]:string};
                         {
                             "kind": 195,
                             "protoKeyword": null,
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "name": null,
                             "key": {
                                 "kind": 144,
@@ -120,6 +120,7 @@ type a = {[x]:string};
 
 ```javascript
 
+type a = { [x]: string }
 
 ```
 

@@ -151,7 +151,8 @@ let x: () => void = () => {}
 
 ```javascript
 
-let x:  = () =>  {};
+let x: () => void = () =>  { };
+
 ```
 
 ### Diagnostics

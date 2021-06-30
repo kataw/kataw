@@ -93,6 +93,7 @@ x({}=obj);
 ```javascript
 
 x({} = obj);
+
 ```
 
 ### Diagnostics

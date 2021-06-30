@@ -142,8 +142,9 @@ class x {static async * yield(){}}
 ```javascript
 
 class x {
-  async static static yield() {}
+  static async *yield() { }
 }
+
 ```
 
 ### Diagnostics

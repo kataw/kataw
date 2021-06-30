@@ -71,13 +71,7 @@ function *f(x = (super) = f) {}
                                 "expression": {
                                     "kind": 129,
                                     "member": {
-                                        "kind": 225,
-                                        "superKeyword": {
-                                            "kind": 4259935,
-                                            "flags": 96,
-                                            "start": 17,
-                                            "end": 22
-                                        },
+                                        "kind": 4259935,
                                         "flags": 96,
                                         "start": 17,
                                         "end": 22
@@ -90,7 +84,7 @@ function *f(x = (super) = f) {}
                                         "start": 22,
                                         "end": 22
                                     },
-                                    "flags": 536870944,
+                                    "flags": 32,
                                     "start": 17,
                                     "end": 22
                                 },
@@ -123,8 +117,8 @@ function *f(x = (super) = f) {}
                 ],
                 "trailingComma": false,
                 "flags": 34,
-                "start": 11,
-                "end": 28
+                "start": 12,
+                "end": 27
             },
             "contents": {
                 "kind": 216,

@@ -76,8 +76,8 @@ class A extends function f(){} {}
                             "formalParameters": [],
                             "trailingComma": false,
                             "flags": 32,
-                            "start": 26,
-                            "end": 28
+                            "start": 27,
+                            "end": 27
                         },
                         "contents": {
                             "kind": 216,
@@ -132,7 +132,9 @@ class A extends function f(){} {}
 
 ```javascript
 
-class A  {}
+class A extends function f() { } {
+}
+
 ```
 
 ### Diagnostics

@@ -59,7 +59,8 @@ import "y"
 
 ```javascript
 
- "\"y\"";
+import "\"y\"";
+
 ```
 
 ### Diagnostics

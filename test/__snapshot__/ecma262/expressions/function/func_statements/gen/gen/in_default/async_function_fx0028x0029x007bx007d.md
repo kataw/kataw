@@ -90,8 +90,8 @@ switch (x) {
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 32,
-                                    "start": 44,
-                                    "end": 46
+                                    "start": 45,
+                                    "end": 45
                                 },
                                 "contents": {
                                     "kind": 216,
@@ -140,10 +140,11 @@ switch (x) {
 
 ```javascript
 
-switch(x) {
-  default
-    async function f() {}
+switch (x) {
+  default: 
+    async function f() { }
 }
+
 ```
 
 ### Diagnostics

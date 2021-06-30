@@ -137,8 +137,9 @@ class x {static get switch(){}}
 ```javascript
 
 class x {
-  static get static switch() {}
+  static get switch() { }
 }
+
 ```
 
 ### Diagnostics

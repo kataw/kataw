@@ -111,8 +111,11 @@
 ```javascript
 
 {
-  () =>  null;
+  ({
+      interface
+    }) => null;
 }
+
 ```
 
 ### Diagnostics

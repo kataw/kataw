@@ -55,11 +55,11 @@ for (let {...a.b} in c);
                                     "start": 11,
                                     "end": 12
                                 },
-                                "flags": 536870944,
+                                "flags": 96,
                                 "start": 9,
                                 "end": 12
                             },
-                            "flags": 32,
+                            "flags": 1073741856,
                             "start": 6,
                             "end": 12
                         }
@@ -197,7 +197,7 @@ for (let {...a.b} in c);
                     "start": 37,
                     "end": 38
                 },
-                "flags": 536870944,
+                "flags": 96,
                 "start": 36,
                 "end": 38
             },

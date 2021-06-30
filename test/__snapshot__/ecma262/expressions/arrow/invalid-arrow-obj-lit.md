@@ -84,7 +84,7 @@
                                                 "start": 7,
                                                 "end": 8
                                             },
-                                            "flags": 536870944,
+                                            "flags": 96,
                                             "start": 2,
                                             "end": 8
                                         },
@@ -164,7 +164,7 @@
                                             "start": 22,
                                             "end": 23
                                         },
-                                        "flags": 536870944,
+                                        "flags": 96,
                                         "start": 20,
                                         "end": 23
                                     }
@@ -238,7 +238,7 @@
                                         "optionalToken": null,
                                         "type": null,
                                         "right": null,
-                                        "flags": 32,
+                                        "flags": 1073741856,
                                         "start": 35,
                                         "end": 42
                                     }
@@ -312,7 +312,7 @@
                                         "optionalToken": null,
                                         "type": null,
                                         "right": null,
-                                        "flags": 32,
+                                        "flags": 1073741856,
                                         "start": 54,
                                         "end": 61
                                     }
@@ -394,7 +394,7 @@
                                         "optionalToken": null,
                                         "type": null,
                                         "right": null,
-                                        "flags": 32,
+                                        "flags": 1073741856,
                                         "start": 75,
                                         "end": 83
                                     }
@@ -452,6 +452,14 @@
                                 "kind": 270,
                                 "elements": [
                                     {
+                                        "kind": 134299649,
+                                        "text": "x",
+                                        "rawText": "x",
+                                        "flags": 96,
+                                        "start": 95,
+                                        "end": 96
+                                    },
+                                    {
                                         "kind": 281,
                                         "ellipsisToken": {
                                             "kind": 524302,
@@ -468,17 +476,9 @@
                                         "optionalToken": null,
                                         "type": null,
                                         "right": null,
-                                        "flags": 32,
+                                        "flags": 1073741856,
                                         "start": 97,
                                         "end": 105
-                                    },
-                                    {
-                                        "kind": 134299649,
-                                        "text": "x",
-                                        "rawText": "x",
-                                        "flags": 96,
-                                        "start": 95,
-                                        "end": 96
                                     }
                                 ],
                                 "trailingComma": false,
@@ -659,7 +659,7 @@
                                                 "start": 143,
                                                 "end": 144
                                             },
-                                            "flags": 536870944,
+                                            "flags": 96,
                                             "start": 138,
                                             "end": 144
                                         },
@@ -747,7 +747,7 @@
                                             "start": 161,
                                             "end": 162
                                         },
-                                        "flags": 536870944,
+                                        "flags": 96,
                                         "start": 159,
                                         "end": 162
                                     }
@@ -829,7 +829,7 @@
                                         "optionalToken": null,
                                         "type": null,
                                         "right": null,
-                                        "flags": 32,
+                                        "flags": 1073741856,
                                         "start": 177,
                                         "end": 184
                                     }
@@ -911,7 +911,7 @@
                                         "optionalToken": null,
                                         "type": null,
                                         "right": null,
-                                        "flags": 32,
+                                        "flags": 1073741856,
                                         "start": 199,
                                         "end": 206
                                     }
@@ -1001,7 +1001,7 @@
                                         "optionalToken": null,
                                         "type": null,
                                         "right": null,
-                                        "flags": 32,
+                                        "flags": 1073741856,
                                         "start": 223,
                                         "end": 231
                                     }
@@ -1067,6 +1067,14 @@
                                 "kind": 270,
                                 "elements": [
                                     {
+                                        "kind": 134299649,
+                                        "text": "x",
+                                        "rawText": "x",
+                                        "flags": 96,
+                                        "start": 246,
+                                        "end": 247
+                                    },
+                                    {
                                         "kind": 281,
                                         "ellipsisToken": {
                                             "kind": 524302,
@@ -1083,17 +1091,9 @@
                                         "optionalToken": null,
                                         "type": null,
                                         "right": null,
-                                        "flags": 32,
+                                        "flags": 1073741856,
                                         "start": 248,
                                         "end": 256
-                                    },
-                                    {
-                                        "kind": 134299649,
-                                        "text": "x",
-                                        "rawText": "x",
-                                        "flags": 96,
-                                        "start": 246,
-                                        "end": 247
                                     }
                                 ],
                                 "trailingComma": false,

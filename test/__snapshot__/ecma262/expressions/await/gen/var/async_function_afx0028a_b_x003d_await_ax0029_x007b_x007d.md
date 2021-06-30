@@ -107,8 +107,8 @@ var await; var f = (async function() { async function af(a, b = await a) { } });
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 32,
-                                    "start": 34,
-                                    "end": 36
+                                    "start": 35,
+                                    "end": 35
                                 },
                                 "contents": {
                                     "kind": 216,
@@ -192,8 +192,8 @@ var await; var f = (async function() { async function af(a, b = await a) { } });
                                                     ],
                                                     "trailingComma": false,
                                                     "flags": 34,
-                                                    "start": 56,
-                                                    "end": 72
+                                                    "start": 57,
+                                                    "end": 71
                                                 },
                                                 "contents": {
                                                     "kind": 216,

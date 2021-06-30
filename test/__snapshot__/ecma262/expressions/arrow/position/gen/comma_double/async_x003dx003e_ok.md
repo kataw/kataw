@@ -30,12 +30,7 @@ async => ok, async => ok
                 "expressions": [
                     {
                         "kind": 271,
-                        "asyncKeyword": {
-                            "kind": 82031,
-                            "flags": 64,
-                            "start": 0,
-                            "end": 5
-                        },
+                        "asyncKeyword": null,
                         "typeParameters": null,
                         "arrowPatameterList": {
                             "kind": 134299649,
@@ -66,12 +61,7 @@ async => ok, async => ok
                     },
                     {
                         "kind": 271,
-                        "asyncKeyword": {
-                            "kind": 82031,
-                            "flags": 64,
-                            "start": 12,
-                            "end": 18
-                        },
+                        "asyncKeyword": null,
                         "typeParameters": null,
                         "arrowPatameterList": {
                             "kind": 134299649,
@@ -123,7 +113,8 @@ async => ok, async => ok
 
 ```javascript
 
-async async =>  ok, async async =>  ok;
+async => ok, async => ok;
+
 ```
 
 ### Diagnostics

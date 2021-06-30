@@ -78,6 +78,7 @@ a={id<T>(x: T): T {}}
                                                         "end": 7
                                                     },
                                                     "type": null,
+                                                    "assignToken": null,
                                                     "defaultType": null,
                                                     "flags": 2097152,
                                                     "start": 6,
@@ -219,7 +220,8 @@ a={id<T>(x: T): T {}}
 
 ```javascript
 
-a = { id() {} };
+a = { id<T>(x: T): T { } };
+
 ```
 
 ### Diagnostics

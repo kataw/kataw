@@ -58,8 +58,8 @@ async function * f() { 'use strict'; for await (var {[Symbol.iterator]: a = 1} o
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 18,
-                "end": 20
+                "start": 19,
+                "end": 19
             },
             "contents": {
                 "kind": 216,
@@ -130,7 +130,7 @@ async function * f() { 'use strict'; for await (var {[Symbol.iterator]: a = 1} o
                                                                         "start": 61,
                                                                         "end": 69
                                                                     },
-                                                                    "flags": 536870944,
+                                                                    "flags": 96,
                                                                     "start": 54,
                                                                     "end": 69
                                                                 },
@@ -248,11 +248,12 @@ async function * f() { 'use strict'; for await (var {[Symbol.iterator]: a = 1} o
 
 ```javascript
 
-async function * f() {
-  for await ( of [])
-    {
-    }
-}
+async function* f() {
+'\'use strict\'';
+ for await (var {
+  [Symbol.iterator]: a = 1
+} of []) { } }
+
 ```
 
 ### Diagnostics

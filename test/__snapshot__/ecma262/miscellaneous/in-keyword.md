@@ -115,8 +115,8 @@ let tests = [
                                             "formalParameters": [],
                                             "trailingComma": false,
                                             "flags": 32,
-                                            "start": 44,
-                                            "end": 46
+                                            "start": 45,
+                                            "end": 45
                                         },
                                         "contents": {
                                             "kind": 216,
@@ -383,8 +383,8 @@ let tests = [
                                             "formalParameters": [],
                                             "trailingComma": false,
                                             "flags": 32,
-                                            "start": 174,
-                                            "end": 176
+                                            "start": 175,
+                                            "end": 175
                                         },
                                         "contents": {
                                             "kind": 216,
@@ -561,8 +561,8 @@ let tests = [
                                             "formalParameters": [],
                                             "trailingComma": false,
                                             "flags": 32,
-                                            "start": 281,
-                                            "end": 283
+                                            "start": 282,
+                                            "end": 282
                                         },
                                         "contents": {
                                             "kind": 216,
@@ -739,8 +739,8 @@ let tests = [
                                             "formalParameters": [],
                                             "trailingComma": false,
                                             "flags": 32,
-                                            "start": 391,
-                                            "end": 393
+                                            "start": 392,
+                                            "end": 392
                                         },
                                         "contents": {
                                             "kind": 216,
@@ -949,8 +949,8 @@ let tests = [
                                             "formalParameters": [],
                                             "trailingComma": false,
                                             "flags": 32,
-                                            "start": 558,
-                                            "end": 560
+                                            "start": 559,
+                                            "end": 559
                                         },
                                         "contents": {
                                             "kind": 216,
@@ -1239,8 +1239,8 @@ let tests = [
                                             "formalParameters": [],
                                             "trailingComma": false,
                                             "flags": 32,
-                                            "start": 732,
-                                            "end": 734
+                                            "start": 733,
+                                            "end": 733
                                         },
                                         "contents": {
                                             "kind": 216,
@@ -1567,8 +1567,8 @@ let tests = [
                                             ],
                                             "trailingComma": false,
                                             "flags": 32,
-                                            "start": 893,
-                                            "end": 914
+                                            "start": 894,
+                                            "end": 913
                                         },
                                         "contents": {
                                             "kind": 216,
@@ -1707,60 +1707,53 @@ let tests = [
 
 ```javascript
 
-let tests = // objects on RHS
-[function () {
-    ("'foo'" in {});
-    ("'foo'" in { foo: null });
+let tests = [
+   // objects on RHS
+  function () {
+    ('\'foo\'' in {});
+    ('\'foo\'' in { foo : null });
     (0 in {});
-    (0 in { "\"0\"": null });
-  }, // arrays on RHS
+    (0 in { "\"0\"" : null });
+  },
+   // arrays on RHS
   function () {
-    ("'foo'" in []);
+    ('\'foo\'' in []);
     (0 in []);
-    ("'length'" in []);
-  }, // primitive classes on RHS
+    ('\'length\'' in []);
+  },
+   // primitive classes on RHS
   function () {
-    ("'foo'" in new  String("'bar'"));
-    ("'foo'" in new  Number(123));
-  }, // primitives on RHS
+    ('\'foo\'' in new String('\'bar\''));
+    ('\'foo\'' in new Number(123));
+  },
+   // primitives on RHS
   function () {
-    ("'foo'" in 123); // error
-
-    ("'foo'" in "'bar'"); // error
-
-    ("'foo'" in void 0); // error
-
-    ("'foo'" in null); // error
-
-  }, // bogus stuff on LHS
+    ('\'foo\'' in 123);// error
+    ('\'foo\'' in '\'bar\'');// error
+    ('\'foo\'' in void  0);// error
+    ('\'foo\'' in null);// error
+  },
+   // bogus stuff on LHS
   function () {
-    (null in {}); // error
-
-    (void 0 in {}); // error
-
-    ({} in {}); // error
-
-    ([] in {}); // error
-
-    (false in []); // error
-
-  }, // in predicates
+    (null in {});// error
+    (void  0 in {});// error
+    ({} in {});// error
+    ([] in {});// error
+    (false in []);// error
+  },
+   // in predicates
   function () {
-    if ("'foo'" in 123) {
-      } // error
+    if ('\'foo\'' in 123) { }// error
+    if (! '\'foo\'' in {}) { }// error, !'foo' is a boolean
+    if (! ('\'foo\'' in {})) { }
+  },
+   // annotations on RHS
+  function (x: Object, y: mixed) {
+    ('\'foo\'' in x);// ok
+    ('\'foo\'' in y);// error
+  },
+];
 
-    if (!"'foo'" in {}) {
-      } // error, !'foo' is a boolean
-
-    if (!("'foo'" in {})) {
-      }
-  }, // annotations on RHS
-  function () {
-    ("'foo'" in x); // ok
-
-    ("'foo'" in y); // error
-
-  },];
 ```
 
 ### Diagnostics

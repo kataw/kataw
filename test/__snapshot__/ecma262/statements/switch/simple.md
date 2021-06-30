@@ -56,8 +56,9 @@ switch(x) {}
 
 ```javascript
 
-switch(x) {
+switch (x) {
 }
+
 ```
 
 ### Diagnostics

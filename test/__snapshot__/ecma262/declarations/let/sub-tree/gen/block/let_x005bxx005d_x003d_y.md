@@ -112,6 +112,7 @@
 {
   let [x] = y;
 }
+
 ```
 
 ### Diagnostics

@@ -54,6 +54,8 @@
 ```javascript
 
 [];
+ // detached comment
+
 ```
 
 ### Diagnostics

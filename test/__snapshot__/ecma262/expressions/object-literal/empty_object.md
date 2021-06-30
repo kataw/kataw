@@ -73,6 +73,7 @@ x({});
 ```javascript
 
 x({});
+
 ```
 
 ### Diagnostics

@@ -267,6 +267,7 @@ type a = (((x | (y & [((x) => T)])))) => T;
 
 ```javascript
 
+type a = ((x | (y & [((x) => T)]))) => T
 
 ```
 

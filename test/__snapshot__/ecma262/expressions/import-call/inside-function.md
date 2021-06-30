@@ -51,8 +51,8 @@ function loadImport(file) {
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 19,
-                "end": 25
+                "start": 20,
+                "end": 24
             },
             "contents": {
                 "kind": 216,
@@ -69,54 +69,48 @@ function loadImport(file) {
                                 "end": 36
                             },
                             "expression": {
-                                "kind": 120,
+                                "kind": 206,
+                                "importKeyword": {
+                                    "kind": 37814364,
+                                    "flags": 64,
+                                    "start": 36,
+                                    "end": 43
+                                },
                                 "expression": {
-                                    "kind": 206,
-                                    "importKeyword": {
-                                        "kind": 37814364,
-                                        "flags": 64,
-                                        "start": 36,
-                                        "end": 43
-                                    },
-                                    "expression": {
-                                        "kind": 227,
-                                        "spans": [
-                                            {
-                                                "kind": 65764,
-                                                "rawText": "test/",
-                                                "text": "test/",
-                                                "expression": {
-                                                    "kind": 134299649,
-                                                    "text": "file",
-                                                    "rawText": "file",
-                                                    "flags": 96,
-                                                    "start": 52,
-                                                    "end": 56
-                                                },
-                                                "flags": 32,
-                                                "start": 44,
+                                    "kind": 227,
+                                    "spans": [
+                                        {
+                                            "kind": 65764,
+                                            "rawText": "test/",
+                                            "text": "test/",
+                                            "expression": {
+                                                "kind": 134299649,
+                                                "text": "file",
+                                                "rawText": "file",
+                                                "flags": 96,
+                                                "start": 52,
                                                 "end": 56
-                                            }
-                                        ],
-                                        "tail": {
-                                            "kind": 458761,
-                                            "text": ".js",
-                                            "rawText": ".js",
-                                            "flags": 96,
-                                            "start": 56,
-                                            "end": 61
-                                        },
-                                        "flags": 32,
-                                        "start": 44,
+                                            },
+                                            "flags": 32,
+                                            "start": 44,
+                                            "end": 56
+                                        }
+                                    ],
+                                    "tail": {
+                                        "kind": 458761,
+                                        "text": ".js",
+                                        "rawText": ".js",
+                                        "flags": 96,
+                                        "start": 56,
                                         "end": 61
                                     },
                                     "flags": 32,
-                                    "start": 43,
-                                    "end": 62
+                                    "start": 44,
+                                    "end": 61
                                 },
-                                "flags": 16,
+                                "flags": 32,
                                 "start": 43,
-                                "end": 63
+                                "end": 62
                             },
                             "flags": 81,
                             "start": 27,
@@ -150,9 +144,10 @@ function loadImport(file) {
 
 ```javascript
 
-function loadImport() {
-  return  ;
+function loadImport(file) {
+  return import(`test/${file}.js`);
 }
+
 ```
 
 ### Diagnostics

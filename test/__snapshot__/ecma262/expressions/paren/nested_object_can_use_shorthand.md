@@ -94,7 +94,8 @@
 
 ```javascript
 
-({ ident: { x } });
+({ ident : { x } });
+
 ```
 
 ### Diagnostics

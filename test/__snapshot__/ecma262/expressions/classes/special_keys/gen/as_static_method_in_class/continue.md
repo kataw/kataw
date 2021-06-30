@@ -132,8 +132,9 @@ class x {static continue(){}}
 ```javascript
 
 class x {
-  static static continue() {}
+  static continue() { }
 }
+
 ```
 
 ### Diagnostics

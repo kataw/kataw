@@ -83,7 +83,9 @@
 
 ```javascript
 
-await =>  async;
+'\'use strict\'';
+await => async;
+
 ```
 
 ### Diagnostics

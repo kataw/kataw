@@ -55,7 +55,7 @@ var a: { (x: number): string } = (x) => x.toString()
                                     {
                                         "kind": 196,
                                         "protoKeyword": null,
-                                        "staticToken": null,
+                                        "staticKeyword": null,
                                         "typeParameter": null,
                                         "value": {
                                             "kind": 282,
@@ -172,7 +172,7 @@ var a: { (x: number): string } = (x) => x.toString()
                                         "start": 42,
                                         "end": 50
                                     },
-                                    "flags": 536870944,
+                                    "flags": 96,
                                     "start": 39,
                                     "end": 50
                                 },
@@ -219,7 +219,8 @@ var a: { (x: number): string } = (x) => x.toString()
 
 ```javascript
 
-var a:  = () =>  x.toString();
+var a: { (x: number): string } = (x) => x.toString();
+
 ```
 
 ### Diagnostics

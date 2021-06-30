@@ -233,7 +233,8 @@
 
 ```javascript
 
-({ get x() {}, set x() {}, set x() {} });
+({ get x() { }, set x(y) { }, set x(y) { } });
+
 ```
 
 ### Diagnostics

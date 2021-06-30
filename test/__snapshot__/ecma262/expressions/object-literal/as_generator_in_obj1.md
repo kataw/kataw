@@ -602,13 +602,14 @@
 
 ```javascript
 
-({ * set() {} });
-({ * get() {} });
-({ * private() {} });
-({ * readonly() {} });
-({ * async() {} });
-({ * function() {} });
-({ * declare() {} });
+({ * set() { } });
+({ * get() { } });
+({ * private() { } });
+({ * readonly() { } });
+({ * async() { } });
+({ * function() { } });
+({ * declare() { } });
+
 ```
 
 ### Diagnostics

@@ -139,13 +139,7 @@ class x extends y { constructor(){ return async function(a=super[foo]) {}; }}
                                                                 "right": {
                                                                     "kind": 130,
                                                                     "member": {
-                                                                        "kind": 225,
-                                                                        "superKeyword": {
-                                                                            "kind": 4259935,
-                                                                            "flags": 96,
-                                                                            "start": 59,
-                                                                            "end": 64
-                                                                        },
+                                                                        "kind": 4259935,
                                                                         "flags": 96,
                                                                         "start": 59,
                                                                         "end": 64
@@ -169,8 +163,8 @@ class x extends y { constructor(){ return async function(a=super[foo]) {}; }}
                                                         ],
                                                         "trailingComma": false,
                                                         "flags": 34,
-                                                        "start": 56,
-                                                        "end": 70
+                                                        "start": 57,
+                                                        "end": 69
                                                     },
                                                     "contents": {
                                                         "kind": 216,

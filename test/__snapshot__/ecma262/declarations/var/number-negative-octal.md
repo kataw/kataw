@@ -58,6 +58,7 @@ var a: -0x7B
                                     "end": 8
                                 },
                                 "text": 123,
+                                "rawText": "0x7B",
                                 "flags": 2097216,
                                 "start": 6,
                                 "end": 12
@@ -94,7 +95,8 @@ var a: -0x7B
 
 ```javascript
 
-var a: ;
+var a: -0x7b;
+
 ```
 
 ### Diagnostics

@@ -70,7 +70,7 @@ var {x}: {x: string; } = { x: "hello" };
                                     {
                                         "kind": 193,
                                         "protoKeyword": null,
-                                        "staticToken": null,
+                                        "staticKeyword": null,
                                         "getKeyword": null,
                                         "setKeyword": null,
                                         "key": {
@@ -177,7 +177,8 @@ var {x}: {x: string; } = { x: "hello" };
 
 var {
   x
-}:  = { x: "\"hello\"" };
+}: { x: string } = { x : "\"hello\"" };
+
 ```
 
 ### Diagnostics

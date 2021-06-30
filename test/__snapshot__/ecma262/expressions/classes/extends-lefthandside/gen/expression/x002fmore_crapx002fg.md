@@ -56,7 +56,7 @@
                                 "end": 16
                             },
                             "expression": {
-                                "kind": 221,
+                                "kind": 371,
                                 "text": "/more crap/g",
                                 "flags": 96,
                                 "start": 16,
@@ -104,7 +104,9 @@
 
 ```javascript
 
-(class B  {});
+(class B extends /more crap/g {
+});
+
 ```
 
 ### Diagnostics

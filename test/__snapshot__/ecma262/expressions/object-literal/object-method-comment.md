@@ -45,8 +45,8 @@ function foo() {
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 12,
-                "end": 14
+                "start": 13,
+                "end": 13
             },
             "contents": {
                 "kind": 216,
@@ -167,9 +167,12 @@ function foo() {
 ```javascript
 
 function foo() {
-  return  { // this comment causes the problem
-    bar: baz() + 1 };
+  return {
+     // this comment causes the problem
+    bar : baz() + 1
+  };
 }
+
 ```
 
 ### Diagnostics

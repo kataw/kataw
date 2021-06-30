@@ -66,8 +66,8 @@ x={ foo: function(){ super.foo; }}
                                         "formalParameters": [],
                                         "trailingComma": false,
                                         "flags": 32,
-                                        "start": 17,
-                                        "end": 19
+                                        "start": 18,
+                                        "end": 18
                                     },
                                     "contents": {
                                         "kind": 216,
@@ -80,13 +80,7 @@ x={ foo: function(){ super.foo; }}
                                                     "expression": {
                                                         "kind": 129,
                                                         "member": {
-                                                            "kind": 225,
-                                                            "superKeyword": {
-                                                                "kind": 4259935,
-                                                                "flags": 96,
-                                                                "start": 20,
-                                                                "end": 26
-                                                            },
+                                                            "kind": 4259935,
                                                             "flags": 96,
                                                             "start": 20,
                                                             "end": 26
@@ -99,7 +93,7 @@ x={ foo: function(){ super.foo; }}
                                                             "start": 27,
                                                             "end": 30
                                                         },
-                                                        "flags": 536870944,
+                                                        "flags": 96,
                                                         "start": 20,
                                                         "end": 30
                                                     },

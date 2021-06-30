@@ -91,7 +91,7 @@ for (let [.x] of obj);
                     "start": 11,
                     "end": 12
                 },
-                "flags": 536870944,
+                "flags": 96,
                 "start": 10,
                 "end": 12
             },

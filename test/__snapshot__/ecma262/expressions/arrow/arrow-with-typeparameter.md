@@ -44,6 +44,7 @@
                                     "end": 2
                                 },
                                 "type": null,
+                                "assignToken": null,
                                 "defaultType": null,
                                 "flags": 2097152,
                                 "start": 1,
@@ -123,7 +124,8 @@
 
 ```javascript
 
-() =>  {};
+<x>() =>  { };
+
 ```
 
 ### Diagnostics

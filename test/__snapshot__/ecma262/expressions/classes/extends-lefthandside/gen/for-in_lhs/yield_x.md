@@ -94,7 +94,9 @@ x in x) ;
 
 ```javascript
 
-for (yield; ; x in x);
+for (yield;; x in x)
+  ;
+
 ```
 
 ### Diagnostics

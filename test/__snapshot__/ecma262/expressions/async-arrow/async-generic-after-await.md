@@ -106,6 +106,7 @@ async () => {
                                                     "end": 38
                                                 },
                                                 "type": null,
+                                                "assignToken": null,
                                                 "defaultType": null,
                                                 "flags": 2097152,
                                                 "start": 37,
@@ -183,10 +184,11 @@ async () => {
 
 ```javascript
 
-async  =>  {
+async () =>  {
   await null;
-  async  =>  null;
+  async <T>() => null;
 }
+;
 
 ```
 

@@ -105,7 +105,8 @@ foo[ a instanceof b + c ]
 
 ```javascript
 
-foo[a inctanceof b + c];
+foo[a instanceof b + c];
+
 ```
 
 ### Diagnostics

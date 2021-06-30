@@ -53,8 +53,8 @@ function* gf() { +yield 2; }
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 12,
-                "end": 14
+                "start": 13,
+                "end": 13
             },
             "contents": {
                 "kind": 216,
@@ -130,9 +130,8 @@ function* gf() { +yield 2; }
 
 ```javascript
 
-function * gf() {
-  +yield 2;
-}
+function* gf() { + yield 2; }
+
 ```
 
 ### Diagnostics

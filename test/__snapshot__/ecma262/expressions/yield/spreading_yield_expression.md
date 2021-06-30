@@ -45,8 +45,8 @@ function *f(){ return { ...(yield) } }
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 11,
-                "end": 13
+                "start": 12,
+                "end": 12
             },
             "contents": {
                 "kind": 216,
@@ -96,7 +96,7 @@ function *f(){ return { ...(yield) } }
                                                 "start": 27,
                                                 "end": 34
                                             },
-                                            "flags": 32,
+                                            "flags": 1073741856,
                                             "start": 23,
                                             "end": 34
                                         }
@@ -142,9 +142,8 @@ function *f(){ return { ...(yield) } }
 
 ```javascript
 
-function * f() {
-  return  { ...( yield) };
-}
+function* f() { return { ...(yield) }; }
+
 ```
 
 ### Diagnostics

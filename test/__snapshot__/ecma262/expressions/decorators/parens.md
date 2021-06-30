@@ -103,7 +103,7 @@ class X {
                                                                 "start": 25,
                                                                 "end": 33
                                                             },
-                                                            "flags": 536870944,
+                                                            "flags": 268435488,
                                                             "start": 14,
                                                             "end": 33
                                                         },
@@ -139,7 +139,7 @@ class X {
                                 "end": 36
                             },
                             "declaredToken": null,
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "asyncKeyword": null,
                             "key": {
                                 "kind": 134299649,

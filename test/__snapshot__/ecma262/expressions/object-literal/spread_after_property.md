@@ -63,7 +63,7 @@
                                     "start": 13,
                                     "end": 14
                                 },
-                                "flags": 32,
+                                "flags": 1073741856,
                                 "start": 9,
                                 "end": 14
                             }
@@ -99,7 +99,8 @@
 
 ```javascript
 
-({ obj: x, ...a });
+({ obj : x, ...a });
+
 ```
 
 ### Diagnostics

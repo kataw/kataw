@@ -114,8 +114,10 @@ for (let {x,} of obj);
 ```javascript
 
 for (let {
-  x
-}; of obj);
+  x,
+} of obj)
+  ;
+
 ```
 
 ### Diagnostics

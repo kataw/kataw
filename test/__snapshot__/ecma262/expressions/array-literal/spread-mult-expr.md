@@ -210,8 +210,8 @@ var callCount = 0;
                                 "formalParameters": [],
                                 "trailingComma": false,
                                 "flags": 32,
-                                "start": 66,
-                                "end": 68
+                                "start": 67,
+                                "end": 67
                             },
                             "contents": {
                                 "kind": 216,
@@ -241,7 +241,7 @@ var callCount = 0;
                                                         "start": 80,
                                                         "end": 89
                                                     },
-                                                    "flags": 536870944,
+                                                    "flags": 96,
                                                     "start": 70,
                                                     "end": 89
                                                 },
@@ -266,7 +266,7 @@ var callCount = 0;
                                                                 "start": 100,
                                                                 "end": 106
                                                             },
-                                                            "flags": 536870944,
+                                                            "flags": 96,
                                                             "start": 90,
                                                             "end": 106
                                                         },
@@ -314,7 +314,7 @@ var callCount = 0;
                                                         "start": 121,
                                                         "end": 130
                                                     },
-                                                    "flags": 536870944,
+                                                    "flags": 96,
                                                     "start": 111,
                                                     "end": 130
                                                 },
@@ -387,7 +387,7 @@ var callCount = 0;
                                                         "start": 158,
                                                         "end": 167
                                                     },
-                                                    "flags": 536870944,
+                                                    "flags": 96,
                                                     "start": 148,
                                                     "end": 167
                                                 },
@@ -460,7 +460,7 @@ var callCount = 0;
                                                         "start": 195,
                                                         "end": 204
                                                     },
-                                                    "flags": 536870944,
+                                                    "flags": 96,
                                                     "start": 185,
                                                     "end": 204
                                                 },
@@ -533,7 +533,7 @@ var callCount = 0;
                                                         "start": 232,
                                                         "end": 241
                                                     },
-                                                    "flags": 536870944,
+                                                    "flags": 96,
                                                     "start": 222,
                                                     "end": 241
                                                 },
@@ -606,7 +606,7 @@ var callCount = 0;
                                                         "start": 269,
                                                         "end": 278
                                                     },
-                                                    "flags": 536870944,
+                                                    "flags": 96,
                                                     "start": 259,
                                                     "end": 278
                                                 },
@@ -679,7 +679,7 @@ var callCount = 0;
                                                         "start": 306,
                                                         "end": 315
                                                     },
-                                                    "flags": 536870944,
+                                                    "flags": 96,
                                                     "start": 296,
                                                     "end": 315
                                                 },
@@ -772,7 +772,7 @@ var callCount = 0;
                             "start": 353,
                             "end": 358
                         },
-                        "flags": 536870944,
+                        "flags": 32,
                         "start": 58,
                         "end": 358
                     },
@@ -842,7 +842,7 @@ var callCount = 0;
                                                 "start": 375,
                                                 "end": 390
                                             },
-                                            "flags": 32,
+                                            "flags": 1073741856,
                                             "start": 371,
                                             "end": 390
                                         }
@@ -888,19 +888,20 @@ var callCount = 0;
 
 ```javascript
 
-var source = [3, 4, 5];
+var source = [3, 4, 5,];
 var target;
 var callCount = 0;
 (function () {
-    assert.sameValue(arguments.length, 5);
-    assert.sameValue(arguments[0], 1);
-    assert.sameValue(arguments[1], 2);
-    assert.sameValue(arguments[2], 3);
-    assert.sameValue(arguments[3], 4);
-    assert.sameValue(arguments[4], 5);
-    assert.sameValue(target, source);
-    callCount += 1;
-  }.apply(null, [1, 2, ...target = source]));
+  assert.sameValue(arguments.length, 5);
+  assert.sameValue(arguments[0], 1);
+  assert.sameValue(arguments[1], 2);
+  assert.sameValue(arguments[2], 3);
+  assert.sameValue(arguments[3], 4);
+  assert.sameValue(arguments[4], 5);
+  assert.sameValue(target, source);
+  callCount += 1;
+}.apply(null, [1, 2, ...target = source]));
+
 ```
 
 ### Diagnostics

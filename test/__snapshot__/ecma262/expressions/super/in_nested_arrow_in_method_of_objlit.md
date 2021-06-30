@@ -114,8 +114,8 @@ x={ foo(){ return () => function() { super.foo; } }}
                                                                 "formalParameters": [],
                                                                 "trailingComma": false,
                                                                 "flags": 32,
-                                                                "start": 32,
-                                                                "end": 34
+                                                                "start": 33,
+                                                                "end": 33
                                                             },
                                                             "contents": {
                                                                 "kind": 216,
@@ -128,13 +128,7 @@ x={ foo(){ return () => function() { super.foo; } }}
                                                                             "expression": {
                                                                                 "kind": 129,
                                                                                 "member": {
-                                                                                    "kind": 225,
-                                                                                    "superKeyword": {
-                                                                                        "kind": 4259935,
-                                                                                        "flags": 96,
-                                                                                        "start": 36,
-                                                                                        "end": 42
-                                                                                    },
+                                                                                    "kind": 4259935,
                                                                                     "flags": 96,
                                                                                     "start": 36,
                                                                                     "end": 42
@@ -147,7 +141,7 @@ x={ foo(){ return () => function() { super.foo; } }}
                                                                                     "start": 43,
                                                                                     "end": 46
                                                                                 },
-                                                                                "flags": 536870944,
+                                                                                "flags": 96,
                                                                                 "start": 36,
                                                                                 "end": 46
                                                                             },

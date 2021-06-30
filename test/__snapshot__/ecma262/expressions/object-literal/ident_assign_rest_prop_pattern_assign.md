@@ -66,11 +66,11 @@ a = {...b.c} = d;
                                             "start": 10,
                                             "end": 11
                                         },
-                                        "flags": 536870944,
+                                        "flags": 96,
                                         "start": 8,
                                         "end": 11
                                     },
-                                    "flags": 32,
+                                    "flags": 1073741856,
                                     "start": 5,
                                     "end": 11
                                 }
@@ -125,6 +125,7 @@ a = {...b.c} = d;
 ```javascript
 
 a = { ...b.c } = d;
+
 ```
 
 ### Diagnostics

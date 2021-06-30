@@ -52,48 +52,42 @@ async x => (import) = 1
                 "contents": {
                     "kind": 121,
                     "expression": {
-                        "kind": 120,
+                        "kind": 206,
+                        "importKeyword": {
+                            "kind": 37814364,
+                            "flags": 64,
+                            "start": 12,
+                            "end": 18
+                        },
                         "expression": {
-                            "kind": 206,
-                            "importKeyword": {
-                                "kind": 37814364,
+                            "kind": 125,
+                            "left": {
+                                "kind": 16637,
+                                "text": "",
+                                "rawText": "",
                                 "flags": 64,
-                                "start": 12,
-                                "end": 18
-                            },
-                            "expression": {
-                                "kind": 125,
-                                "left": {
-                                    "kind": 16637,
-                                    "text": "",
-                                    "rawText": "",
-                                    "flags": 64,
-                                    "start": 19,
-                                    "end": 19
-                                },
-                                "operatorToken": {
-                                    "kind": 4125,
-                                    "flags": 96,
-                                    "start": 19,
-                                    "end": 21
-                                },
-                                "right": {
-                                    "kind": 201392130,
-                                    "text": 1,
-                                    "rawText": "1",
-                                    "flags": 96,
-                                    "start": 21,
-                                    "end": 23
-                                },
-                                "flags": 32,
                                 "start": 19,
+                                "end": 19
+                            },
+                            "operatorToken": {
+                                "kind": 4125,
+                                "flags": 96,
+                                "start": 19,
+                                "end": 21
+                            },
+                            "right": {
+                                "kind": 201392130,
+                                "text": 1,
+                                "rawText": "1",
+                                "flags": 96,
+                                "start": 21,
                                 "end": 23
                             },
                             "flags": 32,
-                            "start": 18,
+                            "start": 19,
                             "end": 23
                         },
-                        "flags": 16,
+                        "flags": 32,
                         "start": 18,
                         "end": 23
                     },

@@ -118,12 +118,20 @@ finally { // Comment 8
 
 ```javascript
 // Comment 1
-
-try {
-} // Comment 4
-catch (e) {
-} try{
+try {// Comment 2
+ // Comment 3
 }
+catch 
+ // Comment 7
+(e){// Comment 5
+ // Comment 6
+}
+ // Comment 7
+finally {// Comment 8
+ // Comment 9
+}
+ // Comment 10
+
 ```
 
 ### Diagnostics

@@ -45,7 +45,7 @@ delete (foo.bar);
                             "start": 12,
                             "end": 15
                         },
-                        "flags": 536870944,
+                        "flags": 96,
                         "start": 6,
                         "end": 15
                     },
@@ -75,7 +75,8 @@ delete (foo.bar);
 
 ```javascript
 
-delete (foo.bar);
+delete  (foo.bar);
+
 ```
 
 ### Diagnostics

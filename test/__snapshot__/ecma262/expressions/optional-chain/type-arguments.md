@@ -51,7 +51,7 @@ example.inner?.<string>()
                         "start": 8,
                         "end": 13
                     },
-                    "flags": 536870944,
+                    "flags": 96,
                     "start": 0,
                     "end": 13
                 },
@@ -127,7 +127,8 @@ example.inner?.<string>()
 
 ```javascript
 
-example.inner?.();
+example.inner?.<string>();
+
 ```
 
 ### Diagnostics

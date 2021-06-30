@@ -345,6 +345,7 @@ var ident = <T>(x: T): T => x;
                                                 "end": 103
                                             },
                                             "type": null,
+                                            "assignToken": null,
                                             "defaultType": null,
                                             "flags": 2097152,
                                             "start": 102,
@@ -477,9 +478,10 @@ var ident = <T>(x: T): T => x;
 
 ```javascript
 
-var add = () =>  x + y;
-var bad = () =>  x;
-var ident = () =>  x;
+var add = (x: number, y: number) => x + y;
+var bad = (x: number) => x;
+var ident = <T>(x: T) => x;
+
 ```
 
 ### Diagnostics

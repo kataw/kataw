@@ -61,12 +61,7 @@ function f(a = async => ok) {}
                         "type": null,
                         "right": {
                             "kind": 271,
-                            "asyncKeyword": {
-                                "kind": 82031,
-                                "flags": 64,
-                                "start": 14,
-                                "end": 20
-                            },
+                            "asyncKeyword": null,
                             "typeParameters": null,
                             "arrowPatameterList": {
                                 "kind": 134299649,
@@ -102,8 +97,8 @@ function f(a = async => ok) {}
                 ],
                 "trailingComma": false,
                 "flags": 34,
-                "start": 10,
-                "end": 27
+                "start": 11,
+                "end": 26
             },
             "contents": {
                 "kind": 216,
@@ -138,7 +133,8 @@ function f(a = async => ok) {}
 
 ```javascript
 
-function f() {}
+function f(a = async => ok) { }
+
 ```
 
 ### Diagnostics

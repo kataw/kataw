@@ -61,12 +61,7 @@ x = {arrow: async => ok}.y
                                     },
                                     "right": {
                                         "kind": 271,
-                                        "asyncKeyword": {
-                                            "kind": 82031,
-                                            "flags": 64,
-                                            "start": 11,
-                                            "end": 17
-                                        },
+                                        "asyncKeyword": null,
                                         "typeParameters": null,
                                         "arrowPatameterList": {
                                             "kind": 134299649,
@@ -117,7 +112,7 @@ x = {arrow: async => ok}.y
                         "start": 25,
                         "end": 26
                     },
-                    "flags": 536870944,
+                    "flags": 48,
                     "start": 3,
                     "end": 26
                 },
@@ -143,7 +138,8 @@ x = {arrow: async => ok}.y
 
 ```javascript
 
-x = { arrow: async async =>  ok }.y;
+x = { arrow : async => ok }.y;
+
 ```
 
 ### Diagnostics

@@ -483,6 +483,7 @@ let one = {
                                                                 "end": 135
                                                             },
                                                             "type": null,
+                                                            "assignToken": null,
                                                             "defaultType": null,
                                                             "flags": 2097152,
                                                             "start": 134,
@@ -607,7 +608,14 @@ let one = {
 
 ```javascript
 
-let one = { m1() {}, m2() {}, m3() {}, m4() {}, m5() {} };
+let one = {
+  m1(this: number) { },
+  m2(this: number, a) { },
+  m3(this: number, ...a) { },
+  m4(this: number, a, b, ...c) { },
+  m5<T>(this: T) { }
+};
+
 ```
 
 ### Diagnostics

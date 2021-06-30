@@ -200,8 +200,8 @@ Thing(/* dangling */);
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 89,
-                "end": 91
+                "start": 90,
+                "end": 90
             },
             "contents": {
                 "kind": 216,
@@ -298,12 +298,17 @@ Thing(/* dangling */);
 
 ```javascript
 
-var a = {};
-var b = {};
-var b = [];
-function d() {}
-new  Thing();
-Thing();
+var a = {/* dangling */};
+var b = {
+ // dangling
+};
+var b = [/* dangling */];
+function d() {
+ /* dangling */
+}
+new Thing(/* dangling */);
+Thing(/* dangling */);
+
 ```
 
 ### Diagnostics

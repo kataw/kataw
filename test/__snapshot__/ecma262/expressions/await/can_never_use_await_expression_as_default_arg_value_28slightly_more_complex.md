@@ -99,8 +99,8 @@ function call(foo= 5 + (await bar())){}
                 ],
                 "trailingComma": false,
                 "flags": 34,
-                "start": 13,
-                "end": 34
+                "start": 14,
+                "end": 33
             },
             "contents": {
                 "kind": 216,

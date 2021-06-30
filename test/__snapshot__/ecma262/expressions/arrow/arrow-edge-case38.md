@@ -92,7 +92,8 @@ async (): void => {}
 
 ```javascript
 
-async  =>  {}
+async () =>  { }
+
 ```
 
 ### Diagnostics

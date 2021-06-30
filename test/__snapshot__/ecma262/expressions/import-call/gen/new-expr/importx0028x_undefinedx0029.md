@@ -58,11 +58,11 @@ import(x,undefined)
                     }
                 ],
                 "flags": 32,
-                "start": 6,
+                "start": 0,
                 "end": 18
             },
             "flags": 16,
-            "start": 6,
+            "start": 0,
             "end": 18
         }
     ],

@@ -105,8 +105,8 @@ function *f(x = (arguments) = f) {}
                 ],
                 "trailingComma": false,
                 "flags": 34,
-                "start": 11,
-                "end": 32
+                "start": 12,
+                "end": 31
             },
             "contents": {
                 "kind": 216,
@@ -141,7 +141,8 @@ function *f(x = (arguments) = f) {}
 
 ```javascript
 
-function * f() {}
+function* f(x = (arguments) = f) { }
+
 ```
 
 ### Diagnostics

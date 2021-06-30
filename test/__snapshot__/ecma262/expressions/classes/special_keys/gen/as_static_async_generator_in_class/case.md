@@ -142,8 +142,9 @@ class x {static async * case(){}}
 ```javascript
 
 class x {
-  async static static case() {}
+  static async *case() { }
 }
+
 ```
 
 ### Diagnostics

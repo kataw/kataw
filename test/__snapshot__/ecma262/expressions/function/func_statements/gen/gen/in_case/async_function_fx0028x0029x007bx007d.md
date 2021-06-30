@@ -98,8 +98,8 @@ switch (x) {
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 32,
-                                    "start": 45,
-                                    "end": 47
+                                    "start": 46,
+                                    "end": 46
                                 },
                                 "contents": {
                                     "kind": 216,
@@ -148,10 +148,11 @@ switch (x) {
 
 ```javascript
 
-switch(x) {
-  case foo:
-    async function f() {}
+switch (x) {
+  case foo: 
+    async function f() { }
 }
+
 ```
 
 ### Diagnostics

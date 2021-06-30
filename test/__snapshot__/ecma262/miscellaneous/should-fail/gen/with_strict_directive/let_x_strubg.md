@@ -96,8 +96,10 @@
 
 ```javascript
 
+"\"use strict\"";
 let x;
 strubg;
+
 ```
 
 ### Diagnostics

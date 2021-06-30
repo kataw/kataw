@@ -62,8 +62,8 @@ foo: function x() {}
                     "formalParameters": [],
                     "trailingComma": false,
                     "flags": 32,
-                    "start": 15,
-                    "end": 17
+                    "start": 16,
+                    "end": 16
                 },
                 "contents": {
                     "kind": 216,
@@ -102,7 +102,8 @@ foo: function x() {}
 
 ```javascript
 
-foo: function x() {}
+foo: function x() { }
+
 ```
 
 ### Diagnostics

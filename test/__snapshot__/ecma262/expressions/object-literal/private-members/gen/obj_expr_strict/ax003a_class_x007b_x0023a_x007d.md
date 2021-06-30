@@ -73,7 +73,7 @@
                                                     "kind": 280,
                                                     "decorators": null,
                                                     "declaredToken": null,
-                                                    "staticToken": null,
+                                                    "staticKeyword": null,
                                                     "asyncKeyword": null,
                                                     "key": {
                                                         "kind": 134299649,
@@ -139,9 +139,11 @@
 
 ```javascript
 
-({ a: class  {
-    #a;
+'\'use strict\'';
+({ a : class  {
+    #a
   } });
+
 ```
 
 ### Diagnostics

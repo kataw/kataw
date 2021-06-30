@@ -45,8 +45,8 @@ function *f(){  foo(await)  }
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 11,
-                "end": 13
+                "start": 12,
+                "end": 12
             },
             "contents": {
                 "kind": 216,
@@ -119,9 +119,8 @@ function *f(){  foo(await)  }
 
 ```javascript
 
-function * f() {
-  foo(await);
-}
+function* f() { foo(await); }
+
 ```
 
 ### Diagnostics

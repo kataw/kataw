@@ -145,7 +145,8 @@
 
 ```javascript
 
-[x()[y] = a] = z;
+[x()[y] = a,] = z;
+
 ```
 
 ### Diagnostics

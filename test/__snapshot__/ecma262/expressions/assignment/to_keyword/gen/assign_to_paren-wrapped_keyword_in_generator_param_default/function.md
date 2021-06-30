@@ -65,10 +65,10 @@ function *f(x = (function) = f) {}
                         "optionalToken": null,
                         "type": null,
                         "right": {
-                            "kind": 125,
-                            "left": {
-                                "kind": 121,
-                                "expression": {
+                            "kind": 121,
+                            "expression": {
+                                "kind": 125,
+                                "left": {
                                     "kind": 177,
                                     "asyncKeyword": null,
                                     "functionKeyword": {
@@ -95,49 +95,63 @@ function *f(x = (function) = f) {}
                                             "directives": [],
                                             "statements": [],
                                             "flags": 32,
-                                            "start": 25,
-                                            "end": 25
+                                            "start": 26,
+                                            "end": 26
                                         },
                                         "flags": 32,
-                                        "start": 25,
-                                        "end": 25
+                                        "start": 26,
+                                        "end": 26
                                     },
                                     "returnType": null,
                                     "flags": 32,
                                     "start": 17,
-                                    "end": 25
+                                    "end": 26
+                                },
+                                "operatorToken": {
+                                    "kind": 4125,
+                                    "flags": 96,
+                                    "start": 26,
+                                    "end": 28
+                                },
+                                "right": {
+                                    "kind": 134299649,
+                                    "text": "f",
+                                    "rawText": "f",
+                                    "flags": 96,
+                                    "start": 28,
+                                    "end": 30
                                 },
                                 "flags": 32,
-                                "start": 15,
-                                "end": 26
-                            },
-                            "operatorToken": {
-                                "kind": 4125,
-                                "flags": 96,
-                                "start": 26,
-                                "end": 28
-                            },
-                            "right": {
-                                "kind": 134299649,
-                                "text": "f",
-                                "rawText": "f",
-                                "flags": 96,
-                                "start": 28,
+                                "start": 17,
                                 "end": 30
                             },
                             "flags": 32,
                             "start": 15,
-                            "end": 30
+                            "end": 31
                         },
                         "flags": 34,
                         "start": 12,
-                        "end": 30
+                        "end": 31
+                    },
+                    {
+                        "kind": 212,
+                        "propertyList": {
+                            "kind": 213,
+                            "properties": [],
+                            "trailingComma": false,
+                            "flags": 32,
+                            "start": 33,
+                            "end": 33
+                        },
+                        "flags": 32,
+                        "start": 31,
+                        "end": 34
                     }
                 ],
                 "trailingComma": false,
                 "flags": 34,
-                "start": 11,
-                "end": 31
+                "start": 12,
+                "end": 34
             },
             "contents": {
                 "kind": 216,
@@ -146,11 +160,11 @@ function *f(x = (function) = f) {}
                     "directives": [],
                     "statements": [],
                     "flags": 32,
-                    "start": 33,
-                    "end": 33
+                    "start": 34,
+                    "end": 34
                 },
                 "flags": 32,
-                "start": 31,
+                "start": 34,
                 "end": 34
             },
             "returnType": null,
@@ -178,6 +192,10 @@ function *f(x = (function) = f) {}
 
 ```javascript
 ✖ Missing an opening parentheses - '( - start: 25, end: 26
+✖ Missing an opening brace - '{ - start: 27, end: 28
+✖ The left-hand side of an assignment expression must be a variable or a property access - start: 26, end: 28
+✖ ',' expected - start: 32, end: 33
+✖ ',' expected - start: 33, end: 34
 
 ```
 

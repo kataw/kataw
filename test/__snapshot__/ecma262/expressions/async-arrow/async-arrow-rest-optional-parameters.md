@@ -43,8 +43,34 @@ async (...args?: any) => {};
                             "start": 7,
                             "end": 10
                         },
-                        "optionalToken": null,
-                        "type": null,
+                        "left": {
+                            "kind": 134299649,
+                            "text": "args",
+                            "rawText": "args",
+                            "flags": 96,
+                            "start": 10,
+                            "end": 14
+                        },
+                        "optionalToken": {
+                            "kind": 134217750,
+                            "flags": 64,
+                            "start": 14,
+                            "end": 15
+                        },
+                        "type": {
+                            "kind": 139,
+                            "bitwiseOrToken": null,
+                            "bitwiseAndToken": null,
+                            "type": {
+                                "kind": 134234252,
+                                "flags": 2097216,
+                                "start": 16,
+                                "end": 20
+                            },
+                            "flags": 2097152,
+                            "start": 16,
+                            "end": 20
+                        },
                         "right": null,
                         "flags": 32,
                         "start": 7,
@@ -101,7 +127,8 @@ async (...args?: any) => {};
 
 ```javascript
 
-async  =>  {}
+async (...args?: any) =>  { }
+;
 
 ```
 

@@ -103,8 +103,8 @@ function *f(x = (false) = f) {}
                 ],
                 "trailingComma": false,
                 "flags": 34,
-                "start": 11,
-                "end": 28
+                "start": 12,
+                "end": 27
             },
             "contents": {
                 "kind": 216,
@@ -139,7 +139,8 @@ function *f(x = (false) = f) {}
 
 ```javascript
 
-function * f() {}
+function* f(x = (false) = f) { }
+
 ```
 
 ### Diagnostics

@@ -53,8 +53,8 @@ function * gen() { function not_gen() { function * gen() { (yield) ? yield : yie
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 14,
-                "end": 16
+                "start": 15,
+                "end": 15
             },
             "contents": {
                 "kind": 216,
@@ -87,8 +87,8 @@ function * gen() { function not_gen() { function * gen() { (yield) ? yield : yie
                                 "formalParameters": [],
                                 "trailingComma": false,
                                 "flags": 32,
-                                "start": 35,
-                                "end": 37
+                                "start": 36,
+                                "end": 36
                             },
                             "contents": {
                                 "kind": 216,
@@ -126,8 +126,8 @@ function * gen() { function not_gen() { function * gen() { (yield) ? yield : yie
                                                 "formalParameters": [],
                                                 "trailingComma": false,
                                                 "flags": 32,
-                                                "start": 54,
-                                                "end": 56
+                                                "start": 55,
+                                                "end": 55
                                             },
                                             "contents": {
                                                 "kind": 216,
@@ -266,13 +266,8 @@ function * gen() { function not_gen() { function * gen() { (yield) ? yield : yie
 
 ```javascript
 
-function * gen() {
-  function not_gen() {
-    function * gen() {
-      ( yield) ?  yield :  yield;
-    }
-  }
-}
+function* gen() { function not_gen() { function* gen() { (yield) ? yield : yield; } } }
+
 ```
 
 ### Diagnostics

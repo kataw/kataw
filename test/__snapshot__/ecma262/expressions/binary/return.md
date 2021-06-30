@@ -54,8 +54,8 @@ function foo3() {
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 12,
-                "end": 14
+                "start": 13,
+                "end": 13
             },
             "contents": {
                 "kind": 216,
@@ -91,7 +91,7 @@ function foo3() {
                                             "start": 31,
                                             "end": 40
                                         },
-                                        "flags": 536870944,
+                                        "flags": 96,
                                         "start": 25,
                                         "end": 40
                                     },
@@ -144,7 +144,7 @@ function foo3() {
                                                     "start": 67,
                                                     "end": 76
                                                 },
-                                                "flags": 536870944,
+                                                "flags": 96,
                                                 "start": 61,
                                                 "end": 76
                                             },
@@ -168,7 +168,7 @@ function foo3() {
                                             "start": 79,
                                             "end": 83
                                         },
-                                        "flags": 536870944,
+                                        "flags": 268435488,
                                         "start": 61,
                                         "end": 83
                                     },
@@ -198,7 +198,7 @@ function foo3() {
                                                 "start": 91,
                                                 "end": 100
                                             },
-                                            "flags": 536870944,
+                                            "flags": 96,
                                             "start": 87,
                                             "end": 100
                                         },
@@ -210,7 +210,7 @@ function foo3() {
                                             "start": 101,
                                             "end": 106
                                         },
-                                        "flags": 536870944,
+                                        "flags": 96,
                                         "start": 87,
                                         "end": 106
                                     },
@@ -265,8 +265,8 @@ function foo3() {
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 124,
-                "end": 126
+                "start": 125,
+                "end": 125
             },
             "contents": {
                 "kind": 216,
@@ -304,7 +304,7 @@ function foo3() {
                                                 "start": 143,
                                                 "end": 152
                                             },
-                                            "flags": 536870944,
+                                            "flags": 96,
                                             "start": 137,
                                             "end": 152
                                         },
@@ -357,7 +357,7 @@ function foo3() {
                                                         "start": 179,
                                                         "end": 188
                                                     },
-                                                    "flags": 536870944,
+                                                    "flags": 96,
                                                     "start": 173,
                                                     "end": 188
                                                 },
@@ -381,7 +381,7 @@ function foo3() {
                                                 "start": 191,
                                                 "end": 195
                                             },
-                                            "flags": 536870944,
+                                            "flags": 268435488,
                                             "start": 173,
                                             "end": 195
                                         },
@@ -411,7 +411,7 @@ function foo3() {
                                                     "start": 203,
                                                     "end": 212
                                                 },
-                                                "flags": 536870944,
+                                                "flags": 96,
                                                 "start": 199,
                                                 "end": 212
                                             },
@@ -423,7 +423,7 @@ function foo3() {
                                                 "start": 213,
                                                 "end": 218
                                             },
-                                            "flags": 536870944,
+                                            "flags": 96,
                                             "start": 199,
                                             "end": 218
                                         },
@@ -506,8 +506,8 @@ function foo3() {
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 259,
-                "end": 261
+                "start": 260,
+                "end": 260
             },
             "contents": {
                 "kind": 216,
@@ -553,7 +553,7 @@ function foo3() {
                                                                 "start": 278,
                                                                 "end": 287
                                                             },
-                                                            "flags": 536870944,
+                                                            "flags": 96,
                                                             "start": 272,
                                                             "end": 287
                                                         },
@@ -577,7 +577,7 @@ function foo3() {
                                                         "start": 290,
                                                         "end": 297
                                                     },
-                                                    "flags": 536870944,
+                                                    "flags": 268435488,
                                                     "start": 272,
                                                     "end": 297
                                                 },
@@ -601,7 +601,7 @@ function foo3() {
                                                 "start": 300,
                                                 "end": 305
                                             },
-                                            "flags": 536870944,
+                                            "flags": 268435488,
                                             "start": 272,
                                             "end": 305
                                         },
@@ -613,7 +613,7 @@ function foo3() {
                                             "start": 306,
                                             "end": 320
                                         },
-                                        "flags": 536870944,
+                                        "flags": 268435488,
                                         "start": 272,
                                         "end": 320
                                     },
@@ -649,7 +649,7 @@ function foo3() {
                                                                 "start": 328,
                                                                 "end": 337
                                                             },
-                                                            "flags": 536870944,
+                                                            "flags": 96,
                                                             "start": 322,
                                                             "end": 337
                                                         },
@@ -673,7 +673,7 @@ function foo3() {
                                                         "start": 340,
                                                         "end": 347
                                                     },
-                                                    "flags": 536870944,
+                                                    "flags": 268435488,
                                                     "start": 322,
                                                     "end": 347
                                                 },
@@ -697,7 +697,7 @@ function foo3() {
                                                 "start": 350,
                                                 "end": 354
                                             },
-                                            "flags": 536870944,
+                                            "flags": 268435488,
                                             "start": 322,
                                             "end": 354
                                         },
@@ -709,7 +709,7 @@ function foo3() {
                                             "start": 355,
                                             "end": 369
                                         },
-                                        "flags": 536870944,
+                                        "flags": 268435488,
                                         "start": 322,
                                         "end": 369
                                     },
@@ -778,21 +778,15 @@ function foo3() {
 ```javascript
 
 function foo() {
-  return  this.hasPlugin("\"dynamicImports\"") &&
-  this.lookahead().type === tt.parenLeft.right;
+  return this.hasPlugin("\"dynamicImports\"") && this.lookahead().type === tt.parenLeft.right;
 }
 function foo2() {
-  return  this.hasPlugin("\"dynamicImports\"") &&
-    this.lookahead().type === tt.parenLeft.right
-    ? true
-    : false;
+  return this.hasPlugin("\"dynamicImports\"") && this.lookahead().type === tt.parenLeft.right ? true : false;
 }
 function foo3() {
-  return  this.calculate().compute().first.numberOfThings >
-    this.calculate().compute().last.numberOfThings
-    ? true
-    : false;
+  return this.calculate().compute().first.numberOfThings > this.calculate().compute().last.numberOfThings ? true : false;
 }
+
 ```
 
 ### Diagnostics

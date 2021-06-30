@@ -120,7 +120,8 @@
 
 ```javascript
 
-`a ${async  =>  ok} b`;
+`a ${async (x, y) => ok} b`;
+
 ```
 
 ### Diagnostics

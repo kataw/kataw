@@ -37,11 +37,11 @@ foo?.function?.bar
                     "end": 3
                 },
                 "chain": {
-                    "kind": 536871114,
+                    "kind": 202,
                     "chain": {
                         "kind": 302,
                         "chain": {
-                            "kind": 536871114,
+                            "kind": 202,
                             "chain": null,
                             "expression": {
                                 "kind": 134299649,
@@ -51,7 +51,7 @@ foo?.function?.bar
                                 "start": 5,
                                 "end": 10
                             },
-                            "flags": 32,
+                            "flags": 536870944,
                             "start": 5,
                             "end": 10
                         },
@@ -67,7 +67,7 @@ foo?.function?.bar
                         "start": 11,
                         "end": 14
                     },
-                    "flags": 32,
+                    "flags": 536870944,
                     "start": 10,
                     "end": 14
                 },
@@ -98,11 +98,11 @@ foo?.function?.bar
                     "end": 18
                 },
                 "chain": {
-                    "kind": 536871114,
+                    "kind": 202,
                     "chain": {
                         "kind": 302,
                         "chain": {
-                            "kind": 536871114,
+                            "kind": 202,
                             "chain": null,
                             "expression": {
                                 "kind": 134299649,
@@ -112,7 +112,7 @@ foo?.function?.bar
                                 "start": 20,
                                 "end": 28
                             },
-                            "flags": 32,
+                            "flags": 536870944,
                             "start": 20,
                             "end": 28
                         },
@@ -128,7 +128,7 @@ foo?.function?.bar
                         "start": 29,
                         "end": 32
                     },
-                    "flags": 32,
+                    "flags": 536870944,
                     "start": 28,
                     "end": 32
                 },
@@ -169,7 +169,7 @@ foo?.function?.bar
                     "chain": {
                         "kind": 302,
                         "chain": {
-                            "kind": 536871114,
+                            "kind": 202,
                             "chain": null,
                             "expression": {
                                 "kind": 134299649,
@@ -179,7 +179,7 @@ foo?.function?.bar
                                 "start": 38,
                                 "end": 41
                             },
-                            "flags": 32,
+                            "flags": 536870944,
                             "start": 38,
                             "end": 41
                         },
@@ -192,11 +192,11 @@ foo?.function?.bar
                     "end": 41
                 },
                 "chain": {
-                    "kind": 536871114,
+                    "kind": 202,
                     "chain": {
                         "kind": 302,
                         "chain": {
-                            "kind": 536871114,
+                            "kind": 202,
                             "chain": null,
                             "expression": {
                                 "kind": 134299649,
@@ -206,7 +206,7 @@ foo?.function?.bar
                                 "start": 43,
                                 "end": 48
                             },
-                            "flags": 32,
+                            "flags": 536870944,
                             "start": 43,
                             "end": 48
                         },
@@ -222,7 +222,7 @@ foo?.function?.bar
                         "start": 49,
                         "end": 52
                     },
-                    "flags": 32,
+                    "flags": 536870944,
                     "start": 48,
                     "end": 52
                 },
@@ -263,7 +263,7 @@ foo?.function?.bar
                     "chain": {
                         "kind": 302,
                         "chain": {
-                            "kind": 536871114,
+                            "kind": 202,
                             "chain": null,
                             "expression": {
                                 "kind": 134299649,
@@ -273,7 +273,7 @@ foo?.function?.bar
                                 "start": 58,
                                 "end": 66
                             },
-                            "flags": 32,
+                            "flags": 536870944,
                             "start": 58,
                             "end": 66
                         },
@@ -288,7 +288,7 @@ foo?.function?.bar
                 "chain": {
                     "kind": 302,
                     "chain": {
-                        "kind": 536871114,
+                        "kind": 202,
                         "chain": null,
                         "expression": {
                             "kind": 134299649,
@@ -298,7 +298,7 @@ foo?.function?.bar
                             "start": 68,
                             "end": 71
                         },
-                        "flags": 32,
+                        "flags": 536870944,
                         "start": 68,
                         "end": 71
                     },
@@ -328,10 +328,11 @@ foo?.function?.bar
 
 ```javascript
 
-foo?.;
-foo?.;
-?.;
-?.;
+foo?.classbar;
+foo?.functionbar;
+foo?.bar?.classbar;
+foo?.function?.bar;
+
 ```
 
 ### Diagnostics

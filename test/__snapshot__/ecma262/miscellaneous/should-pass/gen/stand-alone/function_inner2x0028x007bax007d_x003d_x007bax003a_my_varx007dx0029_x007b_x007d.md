@@ -119,8 +119,8 @@ function inner2({a} = {a: my_var}) { }
                 ],
                 "trailingComma": false,
                 "flags": 34,
-                "start": 15,
-                "end": 34
+                "start": 16,
+                "end": 33
             },
             "contents": {
                 "kind": 216,
@@ -155,7 +155,10 @@ function inner2({a} = {a: my_var}) { }
 
 ```javascript
 
-function inner2() {}
+function inner2({
+    a
+  } = { a : my_var }) { }
+
 ```
 
 ### Diagnostics

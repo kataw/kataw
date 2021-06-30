@@ -40,7 +40,7 @@ f2`hello world`?.a;
                 "chain": {
                     "kind": 302,
                     "chain": {
-                        "kind": 536871114,
+                        "kind": 202,
                         "chain": null,
                         "expression": {
                             "kind": 134299649,
@@ -50,7 +50,7 @@ f2`hello world`?.a;
                             "start": 9,
                             "end": 10
                         },
-                        "flags": 32,
+                        "flags": 536870944,
                         "start": 9,
                         "end": 10
                     },
@@ -94,14 +94,14 @@ f2`hello world`?.a;
                         "start": 17,
                         "end": 18
                     },
-                    "flags": 536870944,
+                    "flags": 96,
                     "start": 11,
                     "end": 18
                 },
                 "chain": {
                     "kind": 302,
                     "chain": {
-                        "kind": 536871114,
+                        "kind": 202,
                         "chain": null,
                         "expression": {
                             "kind": 134299649,
@@ -111,7 +111,7 @@ f2`hello world`?.a;
                             "start": 20,
                             "end": 21
                         },
-                        "flags": 32,
+                        "flags": 536870944,
                         "start": 20,
                         "end": 21
                     },
@@ -162,7 +162,7 @@ f2`hello world`?.a;
                 "chain": {
                     "kind": 302,
                     "chain": {
-                        "kind": 536871114,
+                        "kind": 202,
                         "chain": null,
                         "expression": {
                             "kind": 134299649,
@@ -172,7 +172,7 @@ f2`hello world`?.a;
                             "start": 41,
                             "end": 42
                         },
-                        "flags": 32,
+                        "flags": 536870944,
                         "start": 41,
                         "end": 42
                     },
@@ -202,9 +202,10 @@ f2`hello world`?.a;
 
 ```javascript
 
-"\"hello\""?.;
-obj.a?.;
-f2`hello world`?.;
+"\"hello\""?.a;
+obj.a?.b;
+f2`hello world`?.a;
+
 ```
 
 ### Diagnostics

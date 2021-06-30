@@ -52,27 +52,21 @@
                                     "statement": {
                                         "kind": 120,
                                         "expression": {
-                                            "kind": 120,
-                                            "expression": {
-                                                "kind": 299,
-                                                "importKeyword": {
-                                                    "kind": 37814364,
-                                                    "flags": 64,
-                                                    "start": 6,
-                                                    "end": 13
-                                                },
-                                                "metaIdentifier": {
-                                                    "kind": 16595,
-                                                    "flags": 96,
-                                                    "start": 14,
-                                                    "end": 18
-                                                },
-                                                "flags": 13,
-                                                "start": 96,
+                                            "kind": 299,
+                                            "importKeyword": {
+                                                "kind": 37814364,
+                                                "flags": 64,
+                                                "start": 6,
+                                                "end": 13
+                                            },
+                                            "metaIdentifier": {
+                                                "kind": 16595,
+                                                "flags": 96,
+                                                "start": 14,
                                                 "end": 18
                                             },
-                                            "flags": 16,
-                                            "start": 13,
+                                            "flags": 13,
+                                            "start": 96,
                                             "end": 18
                                         },
                                         "flags": 16,

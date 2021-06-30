@@ -66,10 +66,18 @@ var asyncArrow = async(...await) => {};
                                             "start": 23,
                                             "end": 26
                                         },
+                                        "left": {
+                                            "kind": 134299649,
+                                            "text": "await",
+                                            "rawText": "await",
+                                            "flags": 96,
+                                            "start": 26,
+                                            "end": 31
+                                        },
                                         "optionalToken": null,
                                         "type": null,
                                         "right": null,
-                                        "flags": 32,
+                                        "flags": 1073741856,
                                         "start": 23,
                                         "end": 31
                                     }
@@ -131,7 +139,8 @@ var asyncArrow = async(...await) => {};
 
 ```javascript
 
-var asyncArrow = async  =>  {};
+var asyncArrow = async (...await) =>  { };
+
 ```
 
 ### Diagnostics

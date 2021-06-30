@@ -82,8 +82,8 @@ var v = 1;
 
 ```javascript
 /** Comment */
-
 var v = 1;
+
 ```
 
 ### Diagnostics

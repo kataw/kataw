@@ -449,6 +449,7 @@ type ten = {
                                         "end": 145
                                     },
                                     "type": null,
+                                    "assignToken": null,
                                     "defaultType": null,
                                     "flags": 2097152,
                                     "start": 144,
@@ -578,7 +579,7 @@ type ten = {
                         {
                             "kind": 193,
                             "protoKeyword": null,
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "getKeyword": null,
                             "setKeyword": null,
                             "key": {
@@ -657,7 +658,7 @@ type ten = {
                         {
                             "kind": 193,
                             "protoKeyword": null,
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "getKeyword": null,
                             "setKeyword": null,
                             "key": {
@@ -766,7 +767,7 @@ type ten = {
                         {
                             "kind": 193,
                             "protoKeyword": null,
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "getKeyword": null,
                             "setKeyword": null,
                             "key": {
@@ -880,7 +881,7 @@ type ten = {
                         {
                             "kind": 193,
                             "protoKeyword": null,
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "getKeyword": null,
                             "setKeyword": null,
                             "key": {
@@ -972,6 +973,7 @@ type ten = {
                                                     "end": 284
                                                 },
                                                 "type": null,
+                                                "assignToken": null,
                                                 "defaultType": null,
                                                 "flags": 2097152,
                                                 "start": 283,
@@ -1023,10 +1025,16 @@ type ten = {
 
 ```javascript
 
-
-
-
-
+type six = (this: number) => void
+type seven = (this: number, a: number) => void
+type eight = (this: number, ...a: any) => void
+type nine = <T>(this: T) => void
+type ten = {
+  m1(this: string): void,
+  m2(this: string, a: number): void,
+  m3(this: string, ...a: any): void,
+  m4(this: T): void
+}
 
 ```
 

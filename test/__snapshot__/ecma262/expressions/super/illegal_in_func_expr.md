@@ -50,8 +50,8 @@ x = function(){ super.foo; }
                         "formalParameters": [],
                         "trailingComma": false,
                         "flags": 32,
-                        "start": 12,
-                        "end": 14
+                        "start": 13,
+                        "end": 13
                     },
                     "contents": {
                         "kind": 216,
@@ -64,13 +64,7 @@ x = function(){ super.foo; }
                                     "expression": {
                                         "kind": 129,
                                         "member": {
-                                            "kind": 225,
-                                            "superKeyword": {
-                                                "kind": 4259935,
-                                                "flags": 96,
-                                                "start": 15,
-                                                "end": 21
-                                            },
+                                            "kind": 4259935,
                                             "flags": 96,
                                             "start": 15,
                                             "end": 21
@@ -83,7 +77,7 @@ x = function(){ super.foo; }
                                             "start": 22,
                                             "end": 25
                                         },
-                                        "flags": 536870944,
+                                        "flags": 96,
                                         "start": 15,
                                         "end": 25
                                     },

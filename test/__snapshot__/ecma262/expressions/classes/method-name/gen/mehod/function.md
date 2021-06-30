@@ -129,7 +129,8 @@
 
 ```javascript
 
-({ function() {} });
+({ function(x, y) { } });
+
 ```
 
 ### Diagnostics

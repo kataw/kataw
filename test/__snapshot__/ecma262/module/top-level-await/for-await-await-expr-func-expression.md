@@ -134,8 +134,8 @@ for await (let binding of [await function() {}]) {
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 32,
-                                    "start": 213,
-                                    "end": 215
+                                    "start": 214,
+                                    "end": 214
                                 },
                                 "contents": {
                                     "kind": 216,
@@ -202,8 +202,8 @@ for await (let binding of [await function() {}]) {
                                         "formalParameters": [],
                                         "trailingComma": false,
                                         "flags": 32,
-                                        "start": 239,
-                                        "end": 241
+                                        "start": 240,
+                                        "end": 240
                                     },
                                     "contents": {
                                         "kind": 216,
@@ -344,8 +344,8 @@ for await (let binding of [await function() {}]) {
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 32,
-                                    "start": 435,
-                                    "end": 437
+                                    "start": 436,
+                                    "end": 436
                                 },
                                 "contents": {
                                     "kind": 216,
@@ -412,8 +412,8 @@ for await (let binding of [await function() {}]) {
                                         "formalParameters": [],
                                         "trailingComma": false,
                                         "flags": 32,
-                                        "start": 461,
-                                        "end": 463
+                                        "start": 462,
+                                        "end": 462
                                     },
                                     "contents": {
                                         "kind": 216,
@@ -554,8 +554,8 @@ for await (let binding of [await function() {}]) {
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 32,
-                                    "start": 657,
-                                    "end": 659
+                                    "start": 658,
+                                    "end": 658
                                 },
                                 "contents": {
                                     "kind": 216,
@@ -622,8 +622,8 @@ for await (let binding of [await function() {}]) {
                                         "formalParameters": [],
                                         "trailingComma": false,
                                         "flags": 32,
-                                        "start": 683,
-                                        "end": 685
+                                        "start": 684,
+                                        "end": 684
                                     },
                                     "contents": {
                                         "kind": 216,
@@ -693,24 +693,22 @@ for await (let binding of [await function() {}]) {
 ```javascript
 
 var binding;
-// [+Await]for await ( [lookahead ≠ let] LeftHandSideExpression[?Yield, ?Await] of AssignmentExpression[+In, ?Yield, ?Await] ) Statement[?Yield, ?Await, ?Return]
-for await (binding of [await function () {}])
-  {
-    await function () {};
-    break;
-  }
-// [+Await]for await ( var ForBinding[?Yield, ?Await] of AssignmentExpression[+In, ?Yield, ?Await] ) Statement[?Yield, ?Await, ?Return]
-for await ( of [await function () {}])
-  {
-    await function () {};
-    break;
-  }
-// [+Await]for await ( ForDeclaration[?Yield, ?Await] of AssignmentExpression[+In, ?Yield, ?Await] ) Statement[?Yield, ?Await, ?Return]
-for await (let binding; of [await function () {}])
-  {
-    await function () {};
-    break;
-  }
+ // [+Await]for await ( [lookahead ≠ let] LeftHandSideExpression[?Yield, ?Await] of AssignmentExpression[+In, ?Yield, ?Await] ) Statement[?Yield, ?Await, ?Return]
+for await (binding of [await function () { },]) {
+  await function () { };
+  break;
+}
+ // [+Await]for await ( var ForBinding[?Yield, ?Await] of AssignmentExpression[+In, ?Yield, ?Await] ) Statement[?Yield, ?Await, ?Return]
+for await (var binding of [await function () { },]) {
+  await function () { };
+  break;
+}
+ // [+Await]for await ( ForDeclaration[?Yield, ?Await] of AssignmentExpression[+In, ?Yield, ?Await] ) Statement[?Yield, ?Await, ?Return]
+for await (let binding of [await function () { },]) {
+  await function () { };
+  break;
+}
+
 ```
 
 ### Diagnostics

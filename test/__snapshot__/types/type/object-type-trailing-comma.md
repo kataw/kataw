@@ -57,7 +57,7 @@ type a = {x: number, };
                         {
                             "kind": 193,
                             "protoKeyword": null,
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "getKeyword": null,
                             "setKeyword": null,
                             "key": {
@@ -115,6 +115,7 @@ type a = {x: number, };
 
 ```javascript
 
+type a = { x: number }
 
 ```
 

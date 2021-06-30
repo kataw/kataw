@@ -276,13 +276,7 @@
                                                         "expression": {
                                                             "kind": 129,
                                                             "member": {
-                                                                "kind": 225,
-                                                                "superKeyword": {
-                                                                    "kind": 4259935,
-                                                                    "flags": 96,
-                                                                    "start": 54,
-                                                                    "end": 60
-                                                                },
+                                                                "kind": 4259935,
                                                                 "flags": 96,
                                                                 "start": 54,
                                                                 "end": 60
@@ -295,7 +289,7 @@
                                                                 "start": 61,
                                                                 "end": 62
                                                             },
-                                                            "flags": 536870944,
+                                                            "flags": 96,
                                                             "start": 54,
                                                             "end": 62
                                                         },
@@ -435,13 +429,7 @@
                                                         "expression": {
                                                             "kind": 129,
                                                             "member": {
-                                                                "kind": 225,
-                                                                "superKeyword": {
-                                                                    "kind": 4259935,
-                                                                    "flags": 96,
-                                                                    "start": 91,
-                                                                    "end": 97
-                                                                },
+                                                                "kind": 4259935,
                                                                 "flags": 96,
                                                                 "start": 91,
                                                                 "end": 97
@@ -454,7 +442,7 @@
                                                                 "start": 98,
                                                                 "end": 99
                                                             },
-                                                            "flags": 536870944,
+                                                            "flags": 96,
                                                             "start": 91,
                                                             "end": 99
                                                         },
@@ -540,14 +528,11 @@
 
 ```javascript
 
-({ set ["\"a\""]() {} });
-({ set [0]() {} });
-({ set [0]() {
-    super.m("\"b\"", v);
-  } });
-({ set [0]() {
-    super.m("\"1\"", v);
-  } });
+({ set ["\"a\""](x) { } });
+({ set [0](x) { } });
+({ set [0](x) { super.m("\"b\"", v); } });
+({ set [0](x) { super.m("\"1\"", v); } });
+
 ```
 
 ### Diagnostics

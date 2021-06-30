@@ -45,7 +45,7 @@
                             "start": 5,
                             "end": 8
                         },
-                        "flags": 536870944,
+                        "flags": 96,
                         "start": 0,
                         "end": 8
                     },
@@ -56,7 +56,7 @@
                 "chain": {
                     "kind": 302,
                     "chain": {
-                        "kind": 536871114,
+                        "kind": 202,
                         "chain": null,
                         "expression": {
                             "kind": 134299649,
@@ -66,7 +66,7 @@
                             "start": 11,
                             "end": 14
                         },
-                        "flags": 32,
+                        "flags": 536870944,
                         "start": 11,
                         "end": 14
                     },
@@ -96,7 +96,8 @@
 
 ```javascript
 
-(obj.aaa)?.;
+(obj.aaa)?.bbb;
+
 ```
 
 ### Diagnostics

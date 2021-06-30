@@ -127,8 +127,9 @@ class x {enum(){}}
 ```javascript
 
 class x {
-  enum() {}
+  enum() { }
 }
+
 ```
 
 ### Diagnostics

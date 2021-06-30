@@ -110,7 +110,8 @@ var a : A.B
 
 ```javascript
 
-var a: ;
+var a: A.B;
+
 ```
 
 ### Diagnostics

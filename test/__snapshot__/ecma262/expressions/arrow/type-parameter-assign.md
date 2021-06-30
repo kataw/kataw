@@ -44,6 +44,12 @@
                                     "end": 2
                                 },
                                 "type": null,
+                                "assignToken": {
+                                    "kind": 4125,
+                                    "flags": 64,
+                                    "start": 2,
+                                    "end": 4
+                                },
                                 "defaultType": {
                                     "kind": 139,
                                     "bitwiseOrToken": null,
@@ -141,7 +147,8 @@
 
 ```javascript
 
-() =>  {};
+<A= B>(x) =>  { };
+
 ```
 
 ### Diagnostics

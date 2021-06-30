@@ -266,7 +266,7 @@ const o = {
                                 "start": 368,
                                 "end": 373
                             },
-                            "flags": 536870944,
+                            "flags": 97,
                             "start": 360,
                             "end": 373
                         },
@@ -278,7 +278,7 @@ const o = {
                             "start": 374,
                             "end": 382
                         },
-                        "flags": 536870944,
+                        "flags": 97,
                         "start": 360,
                         "end": 382
                     },
@@ -306,7 +306,7 @@ const o = {
                             "start": 406,
                             "end": 414
                         },
-                        "flags": 536870944,
+                        "flags": 96,
                         "start": 386,
                         "end": 414
                     },
@@ -380,7 +380,7 @@ const o = {
                                                         "start": 475,
                                                         "end": 480
                                                     },
-                                                    "flags": 536870944,
+                                                    "flags": 97,
                                                     "start": 428,
                                                     "end": 480
                                                 },
@@ -392,7 +392,7 @@ const o = {
                                                     "start": 481,
                                                     "end": 489
                                                 },
-                                                "flags": 536870944,
+                                                "flags": 97,
                                                 "start": 428,
                                                 "end": 489
                                             },
@@ -420,7 +420,7 @@ const o = {
                                                     "start": 513,
                                                     "end": 521
                                                 },
-                                                "flags": 536870944,
+                                                "flags": 96,
                                                 "start": 493,
                                                 "end": 521
                                             },
@@ -469,21 +469,15 @@ const o = {
 
 ```javascript
 
-const blablah =
-  "\"aldkfkladfskladklsfkladklfkaldfadfkdaf\"" +
-  "\"adlfasdklfkldsklfakldsfkladsfkadsfladsfa\"" +
-  "\"dflkadfkladsfklkadlfkladlfkadklfjadlfdfdaf\"";
+const blablah = "\"aldkfkladfskladklsfkladklfkaldfadfkdaf\"" + "\"adlfasdklfkldsklfakldsfkladsfkadsfladsfa\"" + "\"dflkadfkladsfklkadlfkladlfkadklfjadlfdfdaf\"";
 const k = {
-  blablah: "\"aldkfkladfskladklsfkladklfkaldfadfkdaf\"" +
-  "\"adlfasdklfkldsklfakldsfkladsfkadsfladsfa\"" +
-  "\"dflkadfkladsfklkadlfkladlfkadklfjadlfdfdaf\""
+  blablah : "\"aldkfkladfskladklsfkladklfkaldfadfkdaf\"" + "\"adlfasdklfkldsklfakldsfkladsfkadsfladsfa\"" + "\"dflkadfkladsfklkadlfkladlfkadklfjadlfdfdaf\""
 };
-somethingThatsAReallyLongPropName =
-  this.props.cardType === AwesomizerCardEnum.SEEFIRST;
+somethingThatsAReallyLongPropName = this.props.cardType === AwesomizerCardEnum.SEEFIRST;
 const o = {
-  somethingThatsAReallyLongPropName: this.props.cardType ===
-  AwesomizerCardEnum.SEEFIRST
+  somethingThatsAReallyLongPropName : this.props.cardType === AwesomizerCardEnum.SEEFIRST,
 };
+
 ```
 
 ### Diagnostics

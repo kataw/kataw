@@ -44,7 +44,7 @@ class C { #aaa = 0 }
                             "kind": 280,
                             "decorators": null,
                             "declaredToken": null,
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "asyncKeyword": null,
                             "key": {
                                 "kind": 134299649,
@@ -96,8 +96,9 @@ class C { #aaa = 0 }
 ```javascript
 
 class C {
-  #aaa = 0;
+  #aaa = 0
 }
+
 ```
 
 ### Diagnostics

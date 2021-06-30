@@ -55,8 +55,8 @@ function *P(){
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 11,
-                "end": 13
+                "start": 12,
+                "end": 12
             },
             "contents": {
                 "kind": 216,
@@ -115,8 +115,8 @@ function *P(){
                                             "formalParameters": [],
                                             "trailingComma": false,
                                             "flags": 32,
-                                            "start": 47,
-                                            "end": 49
+                                            "start": 48,
+                                            "end": 48
                                         },
                                         "contents": {
                                             "kind": 216,
@@ -185,9 +185,11 @@ function *P(){
 
 ```javascript
 
-function * P() {
-  class D  {}
+function* P() {
+  class D extends async function () { } {
+  }
 }
+
 ```
 
 ### Diagnostics

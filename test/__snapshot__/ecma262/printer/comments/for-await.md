@@ -55,8 +55,8 @@ for /*2*/ await /*3*/(x /*4*/of /*5*/ y/*6*/) /*7*/ {}
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 16,
-                "end": 18
+                "start": 17,
+                "end": 17
             },
             "contents": {
                 "kind": 216,
@@ -161,8 +161,8 @@ for /*2*/ await /*3*/(x /*4*/of /*5*/ y/*6*/) /*7*/ {}
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 90,
-                "end": 92
+                "start": 91,
+                "end": 91
             },
             "contents": {
                 "kind": 216,
@@ -252,17 +252,14 @@ for /*2*/ await /*3*/(x /*4*/of /*5*/ y/*6*/) /*7*/ {}
 ```javascript
 
 async function x() {
-  /*1*/
-  for await (x /*3*/ of y)
-    {
-    }
+   /*1*/
+  for await/*2*/ (x/*3*/ of/*4*/ y)/*5*/ { }
 }
 async function x() {
-  /*1*/
-  for /*2*/ await (x /*4*/ of y /*6*/)
-    {
-    }
+   /*1*/
+  for/*2*/ await/*3*/ (x/*4*/ of/*5*/ y/*6*/)/*7*/ { }
 }
+
 ```
 
 ### Diagnostics

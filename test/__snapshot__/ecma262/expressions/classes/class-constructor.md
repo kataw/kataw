@@ -590,20 +590,21 @@
 ```javascript
 
 (class C {
-    constructor() {}
-  });
+  constructor() { }
+});
 (class C {
-    static static constructor() {}
-  });
+  static constructor() { }
+});
 (class C {
-    static get static constructor() {}
-  });
+  static get constructor() { }
+});
 (class C {
-    static set static constructor() {}
-  });
+  static set constructor(_) { }
+});
 (class C {
-    static static constructor() {}
-  });
+  static *constructor() { }
+});
+
 ```
 
 ### Diagnostics

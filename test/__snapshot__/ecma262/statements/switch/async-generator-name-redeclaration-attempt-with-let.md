@@ -92,8 +92,8 @@ switch (0) { case 1: async function* f() {} default: let f }
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 32,
-                                    "start": 38,
-                                    "end": 40
+                                    "start": 39,
+                                    "end": 39
                                 },
                                 "contents": {
                                     "kind": 216,
@@ -198,12 +198,13 @@ switch (0) { case 1: async function* f() {} default: let f }
 
 ```javascript
 
-switch(0) {
-  case 1:
-    async function * f() {}
-  default
+switch (0) {
+  case 1: 
+    async function* f() { }
+  default: 
     let f;
 }
+
 ```
 
 ### Diagnostics

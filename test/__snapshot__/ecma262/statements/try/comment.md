@@ -60,8 +60,8 @@ fn(function f() {
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 10,
-                "end": 12
+                "start": 11,
+                "end": 11
             },
             "contents": {
                 "kind": 216,
@@ -97,7 +97,7 @@ fn(function f() {
                                         "start": 52,
                                         "end": 55
                                     },
-                                    "flags": 536870944,
+                                    "flags": 96,
                                     "start": 22,
                                     "end": 55
                                 },
@@ -156,8 +156,8 @@ fn(function f() {
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 72,
-                "end": 74
+                "start": 73,
+                "end": 73
             },
             "contents": {
                 "kind": 216,
@@ -195,7 +195,7 @@ fn(function f() {
                                             "start": 119,
                                             "end": 122
                                         },
-                                        "flags": 536870944,
+                                        "flags": 96,
                                         "start": 84,
                                         "end": 122
                                     },
@@ -272,8 +272,8 @@ fn(function f() {
                                 "formalParameters": [],
                                 "trailingComma": false,
                                 "flags": 32,
-                                "start": 146,
-                                "end": 148
+                                "start": 147,
+                                "end": 147
                             },
                             "contents": {
                                 "kind": 216,
@@ -311,7 +311,7 @@ fn(function f() {
                                                             "start": 193,
                                                             "end": 196
                                                         },
-                                                        "flags": 536870944,
+                                                        "flags": 96,
                                                         "start": 158,
                                                         "end": 196
                                                     },
@@ -378,14 +378,21 @@ fn(function f() {
 ```javascript
 
 function x() {
-  throw  func2.bar();
+  throw func2
+   //comment
+  .bar();
 }
 function f() {
-  throw  (foo.bar());
+  throw (foo
+   // comment
+  .bar());
 }
 fn(function f() {
-  throw  (foo.bar());
+  throw (foo
+   // comment
+  .bar());
 });
+
 ```
 
 ### Diagnostics

@@ -108,8 +108,8 @@ function x8(a: false & false): false {
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 11,
-                "end": 22
+                "start": 12,
+                "end": 21
             },
             "contents": {
                 "kind": 216,
@@ -233,8 +233,8 @@ function x8(a: false & false): false {
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 96,
-                "end": 107
+                "start": 97,
+                "end": 106
             },
             "contents": {
                 "kind": 216,
@@ -358,8 +358,8 @@ function x8(a: false & false): false {
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 184,
-                "end": 195
+                "start": 185,
+                "end": 194
             },
             "contents": {
                 "kind": 216,
@@ -470,8 +470,8 @@ function x8(a: false & false): false {
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 265,
-                "end": 276
+                "start": 266,
+                "end": 275
             },
             "contents": {
                 "kind": 216,
@@ -632,8 +632,8 @@ function x8(a: false & false): false {
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 342,
-                "end": 355
+                "start": 343,
+                "end": 354
             },
             "contents": {
                 "kind": 216,
@@ -800,8 +800,8 @@ function x8(a: false & false): false {
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 398,
-                "end": 411
+                "start": 399,
+                "end": 410
             },
             "contents": {
                 "kind": 216,
@@ -945,8 +945,8 @@ function x8(a: false & false): false {
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 473,
-                "end": 491
+                "start": 474,
+                "end": 490
             },
             "contents": {
                 "kind": 216,
@@ -1090,8 +1090,8 @@ function x8(a: false & false): false {
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 534,
-                "end": 552
+                "start": 535,
+                "end": 551
             },
             "contents": {
                 "kind": 216,
@@ -1178,38 +1178,34 @@ function x8(a: false & false): false {
 
 ```javascript
 
-function x0(): number {
-  return  +y; // ok, + exists solely for coercion
-
+function x0(y: string): number {
+  return + y;// ok, + exists solely for coercion
 }
-function x1(): number {
-  return  -y; // error, we don't allow coercion here
-
+function x1(y: string): number {
+  return - y;// error, we don't allow coercion here
 }
-function x3() {
-  return  ~y; // error, we don't allow coercion here
-
+function x3(y: string) {
+  return ~ y;// error, we don't allow coercion here
 }
-function x4(): boolean {
-  return  !y; // ok, coercion is allowed
-
+function x4(y: string): boolean {
+  return ! y;// ok, coercion is allowed
 }
-function x5(): true {
-  return  !a; // ok
-
+function x5(a: A<false>): true {
+  return ! a;// ok
 }
-function x6(): false {
-  return  !a; // error, true ~> false
-
+;
+function x6(a: A<false>): false {
+  return ! a;// error, true ~> false
 }
-function x7(): true {
-  return  !a; // ok
-
+;
+function x7(a: false & false): true {
+  return ! a;// ok
 }
-function x8(): false {
-  return  !a; // error, true ~> false
-
+;
+function x8(a: false & false): false {
+  return ! a;// error, true ~> false
 }
+;
 
 ```
 

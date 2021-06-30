@@ -161,6 +161,7 @@ type A = (Array<string>) => void
 
 ```javascript
 
+type A = (Array<string>) => void
 
 ```
 

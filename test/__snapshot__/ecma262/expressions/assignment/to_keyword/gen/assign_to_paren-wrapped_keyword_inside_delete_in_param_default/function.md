@@ -59,10 +59,10 @@ async (x = delete ((function) = f)) => {}
                             "operand": {
                                 "kind": 121,
                                 "expression": {
-                                    "kind": 125,
-                                    "left": {
-                                        "kind": 121,
-                                        "expression": {
+                                    "kind": 121,
+                                    "expression": {
+                                        "kind": 125,
+                                        "left": {
                                             "kind": 177,
                                             "asyncKeyword": null,
                                             "functionKeyword": {
@@ -89,51 +89,51 @@ async (x = delete ((function) = f)) => {}
                                                     "directives": [],
                                                     "statements": [],
                                                     "flags": 32,
-                                                    "start": 28,
-                                                    "end": 28
+                                                    "start": 29,
+                                                    "end": 29
                                                 },
                                                 "flags": 32,
-                                                "start": 28,
-                                                "end": 28
+                                                "start": 29,
+                                                "end": 29
                                             },
                                             "returnType": null,
                                             "flags": 32,
                                             "start": 20,
-                                            "end": 28
+                                            "end": 29
+                                        },
+                                        "operatorToken": {
+                                            "kind": 4125,
+                                            "flags": 96,
+                                            "start": 29,
+                                            "end": 31
+                                        },
+                                        "right": {
+                                            "kind": 134299649,
+                                            "text": "f",
+                                            "rawText": "f",
+                                            "flags": 96,
+                                            "start": 31,
+                                            "end": 33
                                         },
                                         "flags": 32,
-                                        "start": 19,
-                                        "end": 29
-                                    },
-                                    "operatorToken": {
-                                        "kind": 4125,
-                                        "flags": 96,
-                                        "start": 29,
-                                        "end": 31
-                                    },
-                                    "right": {
-                                        "kind": 134299649,
-                                        "text": "f",
-                                        "rawText": "f",
-                                        "flags": 96,
-                                        "start": 31,
+                                        "start": 20,
                                         "end": 33
                                     },
                                     "flags": 32,
                                     "start": 19,
-                                    "end": 33
+                                    "end": 34
                                 },
                                 "flags": 32,
                                 "start": 17,
-                                "end": 34
+                                "end": 35
                             },
                             "flags": 32,
                             "start": 10,
-                            "end": 34
+                            "end": 35
                         },
                         "flags": 32,
                         "start": 7,
-                        "end": 34
+                        "end": 35
                     }
                 ],
                 "trailingComma": false,
@@ -186,6 +186,9 @@ async (x = delete ((function) = f)) => {}
 
 ```javascript
 ✖ Missing an opening parentheses - '( - start: 28, end: 29
+✖ Missing an opening brace - '{ - start: 30, end: 31
+✖ The left-hand side of an assignment expression must be a variable or a property access - start: 29, end: 31
+✖ Arrow parameters can only contain a binding pattern or an identifier - start: 17, end: 38
 
 ```
 

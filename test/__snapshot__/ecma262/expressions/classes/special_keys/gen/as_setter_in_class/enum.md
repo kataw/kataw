@@ -141,8 +141,9 @@ class x {set enum(x){}}
 ```javascript
 
 class x {
-  set enum() {}
+  set enum(x) { }
 }
+
 ```
 
 ### Diagnostics

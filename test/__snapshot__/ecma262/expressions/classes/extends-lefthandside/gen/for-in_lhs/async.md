@@ -77,7 +77,9 @@ for (async in x) ;
 
 ```javascript
 
-for (async in x);
+for (async in x)
+  ;
+
 ```
 
 ### Diagnostics

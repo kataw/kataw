@@ -52,8 +52,8 @@ function x () {}
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 10,
-                "end": 13
+                "start": 12,
+                "end": 12
             },
             "contents": {
                 "kind": 216,
@@ -88,7 +88,8 @@ function x () {}
 
 ```javascript
 
-function x() {}
+function x() { }
+
 ```
 
 ### Diagnostics

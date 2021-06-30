@@ -112,14 +112,8 @@ class x extends y {
                                                     "member": {
                                                         "kind": 129,
                                                         "member": {
-                                                            "kind": 225,
-                                                            "superKeyword": {
-                                                                "kind": 4259935,
-                                                                "flags": 97,
-                                                                "start": 37,
-                                                                "end": 47
-                                                            },
-                                                            "flags": 96,
+                                                            "kind": 4259935,
+                                                            "flags": 97,
                                                             "start": 37,
                                                             "end": 47
                                                         },
@@ -131,7 +125,7 @@ class x extends y {
                                                             "start": 47,
                                                             "end": 47
                                                         },
-                                                        "flags": 536870944,
+                                                        "flags": 32,
                                                         "start": 37,
                                                         "end": 47
                                                     },

@@ -85,7 +85,8 @@ export * from "foo";
 
 ```javascript
 
-export * from ;
+export *  from "\"foo\"";
+
 ```
 
 ### Diagnostics

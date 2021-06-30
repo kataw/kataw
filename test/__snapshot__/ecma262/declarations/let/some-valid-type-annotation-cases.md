@@ -81,7 +81,7 @@ let fourteen: A.B<X.Y<Z<T>>>=2;
                                     {
                                         "kind": 193,
                                         "protoKeyword": null,
-                                        "staticToken": null,
+                                        "staticKeyword": null,
                                         "getKeyword": null,
                                         "setKeyword": null,
                                         "key": {
@@ -100,6 +100,7 @@ let fourteen: A.B<X.Y<Z<T>>>=2;
                                             "type": {
                                                 "kind": 134217967,
                                                 "text": "a",
+                                                "rawText": "'a'",
                                                 "flags": 2097216,
                                                 "start": 12,
                                                 "end": 16
@@ -115,7 +116,7 @@ let fourteen: A.B<X.Y<Z<T>>>=2;
                                     {
                                         "kind": 193,
                                         "protoKeyword": null,
-                                        "staticToken": null,
+                                        "staticKeyword": null,
                                         "getKeyword": null,
                                         "setKeyword": null,
                                         "key": {
@@ -148,7 +149,7 @@ let fourteen: A.B<X.Y<Z<T>>>=2;
                                     {
                                         "kind": 193,
                                         "protoKeyword": null,
-                                        "staticToken": null,
+                                        "staticKeyword": null,
                                         "getKeyword": null,
                                         "setKeyword": null,
                                         "key": {
@@ -233,7 +234,7 @@ let fourteen: A.B<X.Y<Z<T>>>=2;
                                     {
                                         "kind": 193,
                                         "protoKeyword": null,
-                                        "staticToken": null,
+                                        "staticKeyword": null,
                                         "getKeyword": null,
                                         "setKeyword": null,
                                         "key": {
@@ -333,7 +334,7 @@ let fourteen: A.B<X.Y<Z<T>>>=2;
                                     {
                                         "kind": 195,
                                         "protoKeyword": null,
-                                        "staticToken": null,
+                                        "staticKeyword": null,
                                         "name": null,
                                         "key": {
                                             "kind": 139,
@@ -342,6 +343,7 @@ let fourteen: A.B<X.Y<Z<T>>>=2;
                                             "type": {
                                                 "kind": 134217967,
                                                 "text": "x",
+                                                "rawText": "'x'",
                                                 "flags": 2097216,
                                                 "start": 77,
                                                 "end": 80
@@ -423,7 +425,7 @@ let fourteen: A.B<X.Y<Z<T>>>=2;
                                     {
                                         "kind": 195,
                                         "protoKeyword": null,
-                                        "staticToken": null,
+                                        "staticKeyword": null,
                                         "name": {
                                             "kind": 134299649,
                                             "text": "key",
@@ -616,6 +618,7 @@ let fourteen: A.B<X.Y<Z<T>>>=2;
                                                     "end": 170
                                                 },
                                                 "type": null,
+                                                "assignToken": null,
                                                 "defaultType": null,
                                                 "flags": 2097152,
                                                 "start": 169,
@@ -2121,21 +2124,22 @@ let fourteen: A.B<X.Y<Z<T>>>=2;
 
 ```javascript
 
-let one: ;
-let two: ;
-let three: ;
-let five: ;
-let six:  = Foo;
-let seven: ;
-let eigth: ;
-let nine:  = 2;
-let ten: ;
-let eleven:  = 2;
-let thirteen: ;
-let fourteen:  = 2;
-() =>  0;
-() =>  0;
-() =>  0;
+let one: { x: "'a'", y: false, z: null };
+let two: { foo(): void };
+let three: { ["'x'"]: number };
+let five: { [keystring]: number };
+let six: () => void = Foo;
+let seven: <T>() => Foo<T>;
+let eigth: A.B<X.Y>;
+let nine: A.B<X.Y> = 2;
+let ten: A.B<X.Y<Z>>;
+let eleven: A.B<X.Y<Z>> = 2;
+let thirteen: A.B<X.Y<Z<T>>>;
+let fourteen: A.B<X.Y<Z<T>>> = 2;
+() => 0;
+() => 0;
+() => 0;
+
 ```
 
 ### Diagnostics

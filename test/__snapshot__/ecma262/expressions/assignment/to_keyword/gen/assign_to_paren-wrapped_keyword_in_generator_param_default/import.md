@@ -67,48 +67,42 @@ function *f(x = (import) = f) {}
                         "right": {
                             "kind": 121,
                             "expression": {
-                                "kind": 120,
+                                "kind": 206,
+                                "importKeyword": {
+                                    "kind": 37814364,
+                                    "flags": 64,
+                                    "start": 17,
+                                    "end": 23
+                                },
                                 "expression": {
-                                    "kind": 206,
-                                    "importKeyword": {
-                                        "kind": 37814364,
+                                    "kind": 125,
+                                    "left": {
+                                        "kind": 16637,
+                                        "text": "",
+                                        "rawText": "",
                                         "flags": 64,
-                                        "start": 17,
-                                        "end": 23
-                                    },
-                                    "expression": {
-                                        "kind": 125,
-                                        "left": {
-                                            "kind": 16637,
-                                            "text": "",
-                                            "rawText": "",
-                                            "flags": 64,
-                                            "start": 24,
-                                            "end": 24
-                                        },
-                                        "operatorToken": {
-                                            "kind": 4125,
-                                            "flags": 96,
-                                            "start": 24,
-                                            "end": 26
-                                        },
-                                        "right": {
-                                            "kind": 134299649,
-                                            "text": "f",
-                                            "rawText": "f",
-                                            "flags": 96,
-                                            "start": 26,
-                                            "end": 28
-                                        },
-                                        "flags": 32,
                                         "start": 24,
+                                        "end": 24
+                                    },
+                                    "operatorToken": {
+                                        "kind": 4125,
+                                        "flags": 96,
+                                        "start": 24,
+                                        "end": 26
+                                    },
+                                    "right": {
+                                        "kind": 134299649,
+                                        "text": "f",
+                                        "rawText": "f",
+                                        "flags": 96,
+                                        "start": 26,
                                         "end": 28
                                     },
                                     "flags": 32,
-                                    "start": 23,
-                                    "end": 29
+                                    "start": 24,
+                                    "end": 28
                                 },
-                                "flags": 16,
+                                "flags": 32,
                                 "start": 23,
                                 "end": 29
                             },
@@ -137,7 +131,7 @@ function *f(x = (import) = f) {}
                 ],
                 "trailingComma": false,
                 "flags": 34,
-                "start": 11,
+                "start": 12,
                 "end": 32
             },
             "contents": {
@@ -179,7 +173,7 @@ function *f(x = (import) = f) {}
 
 ```javascript
 ✖ Identifier expected - start: 24, end: 26
-✖ Expected a `;` - start: 29, end: 31
+✖ Expected a ')' to match the '(' token here - start: 30, end: 31
 ✖ ',' expected - start: 31, end: 32
 
 ```

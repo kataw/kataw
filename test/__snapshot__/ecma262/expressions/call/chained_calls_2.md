@@ -159,6 +159,7 @@ foo(a)(b)(c)(d)(e)
 ```javascript
 
 foo(a)(b)(c)(d)(e);
+
 ```
 
 ### Diagnostics

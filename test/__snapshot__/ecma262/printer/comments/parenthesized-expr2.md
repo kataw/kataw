@@ -59,8 +59,11 @@ a
 
 ```javascript
 
-(/*1*/
-  a);
+(
+ /*1*/
+a);
+ /*2*/
+
 ```
 
 ### Diagnostics

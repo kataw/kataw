@@ -65,14 +65,8 @@ class C {
                                             "expression": {
                                                 "kind": 131,
                                                 "expression": {
-                                                    "kind": 225,
-                                                    "superKeyword": {
-                                                        "kind": 4259935,
-                                                        "flags": 97,
-                                                        "start": 20,
-                                                        "end": 30
-                                                    },
-                                                    "flags": 96,
+                                                    "kind": 4259935,
+                                                    "flags": 97,
                                                     "start": 20,
                                                     "end": 30
                                                 },

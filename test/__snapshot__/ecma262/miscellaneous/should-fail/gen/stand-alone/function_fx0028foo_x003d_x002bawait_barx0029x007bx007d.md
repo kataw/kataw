@@ -94,8 +94,8 @@ function f(foo = +await bar){}
                 ],
                 "trailingComma": false,
                 "flags": 34,
-                "start": 10,
-                "end": 28
+                "start": 11,
+                "end": 27
             },
             "contents": {
                 "kind": 216,

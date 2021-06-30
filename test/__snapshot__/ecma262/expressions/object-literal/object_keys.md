@@ -126,7 +126,7 @@ Object.keys(y).map(k => { return {[k]: k} });
                                 "start": 27,
                                 "end": 31
                             },
-                            "flags": 536870944,
+                            "flags": 96,
                             "start": 19,
                             "end": 31
                         },
@@ -159,7 +159,7 @@ Object.keys(y).map(k => { return {[k]: k} });
                         "start": 35,
                         "end": 38
                     },
-                    "flags": 536870944,
+                    "flags": 268435488,
                     "start": 19,
                     "end": 38
                 },
@@ -396,7 +396,7 @@ Object.keys(y).map(k => { return {[k]: k} });
                                 "start": 102,
                                 "end": 106
                             },
-                            "flags": 536870944,
+                            "flags": 96,
                             "start": 94,
                             "end": 106
                         },
@@ -429,7 +429,7 @@ Object.keys(y).map(k => { return {[k]: k} });
                         "start": 110,
                         "end": 113
                     },
-                    "flags": 536870944,
+                    "flags": 268435488,
                     "start": 94,
                     "end": 113
                 },
@@ -558,14 +558,11 @@ Object.keys(y).map(k => { return {[k]: k} });
 
 ```javascript
 
-const x = { foo: 3 };
-Object.keys(x).map(k =>  {
-  return  { [k]: k };
-});
-const y = { foo: 3, bar: 3 };
-Object.keys(y).map(k =>  {
-  return  { [k]: k };
-});
+const x = { foo : 3 };
+Object.keys(x).map(k =>  { return { [k] : k }; });
+const y = { foo : 3, bar : 3 };
+Object.keys(y).map(k =>  { return { [k] : k }; });
+
 ```
 
 ### Diagnostics

@@ -32,7 +32,7 @@ await /1/;
                     "end": 5
                 },
                 "expression": {
-                    "kind": 221,
+                    "kind": 371,
                     "text": "/1/",
                     "flags": 96,
                     "start": 5,
@@ -61,6 +61,7 @@ await /1/;
 ```javascript
 
 await /1/;
+
 ```
 
 ### Diagnostics

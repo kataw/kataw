@@ -70,7 +70,7 @@ class A extends fooo.bar {}
                             "start": 21,
                             "end": 24
                         },
-                        "flags": 536870944,
+                        "flags": 96,
                         "start": 15,
                         "end": 24
                     },
@@ -108,7 +108,9 @@ class A extends fooo.bar {}
 
 ```javascript
 
-class A  {}
+class A extends fooo.bar {
+}
+
 ```
 
 ### Diagnostics

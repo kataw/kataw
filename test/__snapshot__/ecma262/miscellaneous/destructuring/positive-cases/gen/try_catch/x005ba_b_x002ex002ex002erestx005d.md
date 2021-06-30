@@ -143,9 +143,9 @@ try {} catch([a,b,...rest]) {}
 
 ```javascript
 
-try {
-} catch ([a, b, ...rest]) {
-}
+try { }
+catch ([a, b, ...rest]){ }
+
 ```
 
 ### Diagnostics

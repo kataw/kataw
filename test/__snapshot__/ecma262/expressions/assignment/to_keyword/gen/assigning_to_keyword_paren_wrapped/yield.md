@@ -78,6 +78,7 @@
 ```javascript
 
 (yield = x);
+
 ```
 
 ### Diagnostics

@@ -149,7 +149,8 @@ async (x = delete ((static) = f)) => {}
 
 ```javascript
 
-async  =>  {}
+async (x = delete  ((static) = f)) =>  { }
+
 ```
 
 ### Diagnostics

@@ -130,6 +130,7 @@ var [x = 10, y, z] = a;
 ```javascript
 
 var [x = 10, y, z] = a;
+
 ```
 
 ### Diagnostics

@@ -86,14 +86,8 @@ class A {
                                                     "left": {
                                                         "kind": 129,
                                                         "member": {
-                                                            "kind": 225,
-                                                            "superKeyword": {
-                                                                "kind": 4259935,
-                                                                "flags": 97,
-                                                                "start": 18,
-                                                                "end": 28
-                                                            },
-                                                            "flags": 96,
+                                                            "kind": 4259935,
+                                                            "flags": 97,
                                                             "start": 18,
                                                             "end": 28
                                                         },
@@ -105,7 +99,7 @@ class A {
                                                             "start": 28,
                                                             "end": 28
                                                         },
-                                                        "flags": 536870944,
+                                                        "flags": 32,
                                                         "start": 18,
                                                         "end": 28
                                                     },

@@ -103,8 +103,9 @@ for(delete(x in y);;)x
 
 ```javascript
 
-for (delete (x in y); ; )
+for (delete  (x in y);;)
   x;
+
 ```
 
 ### Diagnostics

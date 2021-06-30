@@ -62,7 +62,9 @@ while (x) break
 
 ```javascript
 
-while (x) break;
+while (x)
+  break;
+
 ```
 
 ### Diagnostics

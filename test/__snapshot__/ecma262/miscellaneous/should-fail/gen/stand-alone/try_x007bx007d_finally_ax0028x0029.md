@@ -110,10 +110,10 @@ try {} finally a()
 
 ```javascript
 
-try {
-} try{
-}
+try { }
+finally { }
 a();
+
 ```
 
 ### Diagnostics

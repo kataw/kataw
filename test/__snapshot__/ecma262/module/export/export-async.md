@@ -59,8 +59,8 @@ export async function foo() { };
                     "formalParameters": [],
                     "trailingComma": false,
                     "flags": 32,
-                    "start": 25,
-                    "end": 27
+                    "start": 26,
+                    "end": 26
                 },
                 "contents": {
                     "kind": 216,
@@ -109,7 +109,8 @@ export async function foo() { };
 
 ```javascript
 
-export async function foo() {}
+export async function foo() { }
+;
 
 ```
 

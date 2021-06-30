@@ -119,7 +119,9 @@
 
 ```javascript
 
-(class B  {});
+(class B extends fooo`bar` {
+});
+
 ```
 
 ### Diagnostics

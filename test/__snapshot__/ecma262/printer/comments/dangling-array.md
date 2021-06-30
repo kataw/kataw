@@ -93,7 +93,7 @@ expect(() => {}).toTriggerReadyStateChanges([
                         "start": 17,
                         "end": 43
                     },
-                    "flags": 536870944,
+                    "flags": 268435488,
                     "start": 0,
                     "end": 43
                 },
@@ -187,8 +187,11 @@ expect(() => {}).toTriggerReadyStateChanges([
 
 ```javascript
 
-expect(() =>  {}).toTriggerReadyStateChanges([]);
-[1 /* first comment */, 2 /* second comment */, 3];
+expect(() =>  { }).toTriggerReadyStateChanges([
+ // Nothing.
+]);
+[1/* first comment */, 2/* second comment */, 3,];
+
 ```
 
 ### Diagnostics

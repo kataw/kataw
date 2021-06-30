@@ -65,8 +65,8 @@ async function f(){}
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 10,
-                "end": 21
+                "start": 11,
+                "end": 11
             },
             "contents": {
                 "kind": 216,
@@ -112,8 +112,8 @@ async function f(){}
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 23,
-                "end": 25
+                "start": 24,
+                "end": 24
             },
             "contents": {
                 "kind": 216,
@@ -146,8 +146,8 @@ async function f(){}
                                 "formalParameters": [],
                                 "trailingComma": false,
                                 "flags": 32,
-                                "start": 38,
-                                "end": 40
+                                "start": 39,
+                                "end": 39
                             },
                             "contents": {
                                 "kind": 216,
@@ -195,8 +195,8 @@ async function f(){}
                                                 ],
                                                 "trailingComma": false,
                                                 "flags": 32,
-                                                "start": 53,
-                                                "end": 65
+                                                "start": 54,
+                                                "end": 56
                                             },
                                             "contents": {
                                                 "kind": 216,
@@ -242,8 +242,8 @@ async function f(){}
                                                 "formalParameters": [],
                                                 "trailingComma": false,
                                                 "flags": 32,
-                                                "start": 67,
-                                                "end": 69
+                                                "start": 68,
+                                                "end": 68
                                             },
                                             "contents": {
                                                 "kind": 216,
@@ -294,8 +294,8 @@ async function f(){}
                                                 "formalParameters": [],
                                                 "trailingComma": false,
                                                 "flags": 32,
-                                                "start": 89,
-                                                "end": 91
+                                                "start": 90,
+                                                "end": 90
                                             },
                                             "contents": {
                                                 "kind": 216,
@@ -434,8 +434,8 @@ async function f(){}
                                                 "formalParameters": [],
                                                 "trailingComma": false,
                                                 "flags": 32,
-                                                "start": 125,
-                                                "end": 127
+                                                "start": 126,
+                                                "end": 126
                                             },
                                             "contents": {
                                                 "kind": 216,
@@ -513,8 +513,8 @@ async function f(){}
                                                 "formalParameters": [],
                                                 "trailingComma": false,
                                                 "flags": 32,
-                                                "start": 141,
-                                                "end": 143
+                                                "start": 142,
+                                                "end": 142
                                             },
                                             "contents": {
                                                 "kind": 216,
@@ -733,8 +733,8 @@ async function f(){}
                                 "formalParameters": [],
                                 "trailingComma": false,
                                 "flags": 32,
-                                "start": 188,
-                                "end": 190
+                                "start": 189,
+                                "end": 189
                             },
                             "contents": {
                                 "kind": 216,
@@ -776,8 +776,8 @@ async function f(){}
                                                         "formalParameters": [],
                                                         "trailingComma": false,
                                                         "flags": 32,
-                                                        "start": 204,
-                                                        "end": 206
+                                                        "start": 205,
+                                                        "end": 205
                                                     },
                                                     "contents": {
                                                         "kind": 216,
@@ -831,8 +831,8 @@ async function f(){}
                                                 "formalParameters": [],
                                                 "trailingComma": false,
                                                 "flags": 32,
-                                                "start": 220,
-                                                "end": 222
+                                                "start": 221,
+                                                "end": 221
                                             },
                                             "contents": {
                                                 "kind": 216,

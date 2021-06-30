@@ -70,7 +70,7 @@ do {} while (x) { /**/ /x do while
                     {
                         "kind": 120,
                         "expression": {
-                            "kind": 221,
+                            "kind": 371,
                             "text": "/x do while",
                             "flags": 96,
                             "start": 17,

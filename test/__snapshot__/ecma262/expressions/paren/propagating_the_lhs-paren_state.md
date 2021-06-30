@@ -116,6 +116,7 @@
 ```javascript
 
 (foo + (bar + boo) + ding);
+
 ```
 
 ### Diagnostics

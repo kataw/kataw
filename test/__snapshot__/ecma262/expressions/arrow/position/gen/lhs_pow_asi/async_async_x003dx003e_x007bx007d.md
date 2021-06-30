@@ -126,7 +126,6 @@ async async => {}
 
 ```javascript
 ✖ An arrow function can not be part of an operator to the right - start: 17, end: 20
-✖ Identifier expected - start: 17, end: 20
 
 ```
 

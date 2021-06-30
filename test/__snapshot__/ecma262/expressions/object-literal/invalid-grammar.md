@@ -1804,13 +1804,7 @@ q = {"foo": super = x} = x;
                                         "left": {
                                             "kind": 129,
                                             "member": {
-                                                "kind": 225,
-                                                "superKeyword": {
-                                                    "kind": 4259935,
-                                                    "flags": 96,
-                                                    "start": 406,
-                                                    "end": 412
-                                                },
+                                                "kind": 4259935,
                                                 "flags": 96,
                                                 "start": 406,
                                                 "end": 412
@@ -1823,7 +1817,7 @@ q = {"foo": super = x} = x;
                                                 "start": 412,
                                                 "end": 412
                                             },
-                                            "flags": 536870944,
+                                            "flags": 32,
                                             "start": 406,
                                             "end": 412
                                         },

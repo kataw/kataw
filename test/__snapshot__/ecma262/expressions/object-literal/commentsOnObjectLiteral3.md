@@ -110,8 +110,8 @@ var v = {
                                                 "formalParameters": [],
                                                 "trailingComma": false,
                                                 "flags": 32,
-                                                "start": 114,
-                                                "end": 117
+                                                "start": 116,
+                                                "end": 116
                                             },
                                             "contents": {
                                                 "kind": 216,
@@ -245,7 +245,7 @@ var v = {
                                                                     "start": 205,
                                                                     "end": 209
                                                                 },
-                                                                "flags": 536870944,
+                                                                "flags": 96,
                                                                 "start": 199,
                                                                 "end": 209
                                                             },
@@ -336,7 +336,7 @@ var v = {
                                                                         "start": 263,
                                                                         "end": 267
                                                                     },
-                                                                    "flags": 536870944,
+                                                                    "flags": 97,
                                                                     "start": 255,
                                                                     "end": 267
                                                                 },
@@ -416,18 +416,25 @@ var v = {
 
 ```javascript
 
-var v = { //property
-  prop: 1 /* multiple trailing comments */ /*trailing comments*/, //property
-  func: function () {}, //PropertyName + CallSignature
-  //PropertyName + CallSignature
-  func1() {}, //getter
+var v = {
+   //property
+  prop : 1/* multiple trailing comments */ /*trailing comments*/,
+   //property
+  func : function () {
+  },
+   //PropertyName + CallSignature
+   //PropertyName + CallSignature
+  func1() { },
+   //getter
   get a() {
-    return  this.prop;
-  } /*trailing 1*/, //setter
-  set a() {
+    return this.prop;
+  }/*trailing 1*/,
+   //setter
+  set a(value) {
     this.prop = value;
-  } // trailing 2
-   };
+  }// trailing 2
+};
+
 ```
 
 ### Diagnostics

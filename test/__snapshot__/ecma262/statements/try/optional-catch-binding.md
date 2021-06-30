@@ -1069,8 +1069,8 @@ function f() { try { let e; } catch { let e; } finally { let e; } }
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 337,
-                "end": 339
+                "start": 338,
+                "end": 338
             },
             "contents": {
                 "kind": 216,

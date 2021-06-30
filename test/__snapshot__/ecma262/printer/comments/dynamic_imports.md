@@ -56,7 +56,7 @@ wrap(
                 "end": 31
             },
             "flags": 16,
-            "start": 6,
+            "start": 0,
             "end": 31
         },
         {
@@ -82,7 +82,7 @@ wrap(
                 "end": 64
             },
             "flags": 16,
-            "start": 39,
+            "start": 31,
             "end": 64
         },
         {
@@ -108,7 +108,7 @@ wrap(
                 "end": 109
             },
             "flags": 16,
-            "start": 72,
+            "start": 64,
             "end": 109
         },
         {
@@ -154,7 +154,7 @@ wrap(
                 "end": 151
             },
             "flags": 16,
-            "start": 117,
+            "start": 109,
             "end": 151
         },
         {
@@ -180,7 +180,7 @@ wrap(
                 "end": 204
             },
             "flags": 16,
-            "start": 159,
+            "start": 151,
             "end": 204
         },
         {
@@ -199,28 +199,22 @@ wrap(
                     "kind": 256,
                     "elements": [
                         {
-                            "kind": 120,
-                            "expression": {
-                                "kind": 206,
-                                "importKeyword": {
-                                    "kind": 37814364,
-                                    "flags": 65,
-                                    "start": 211,
-                                    "end": 220
-                                },
-                                "expression": {
-                                    "kind": 201392131,
-                                    "text": "something",
-                                    "rawText": "'something'",
-                                    "flags": 4194401,
-                                    "start": 221,
-                                    "end": 248
-                                },
-                                "flags": 32,
-                                "start": 220,
-                                "end": 252
+                            "kind": 206,
+                            "importKeyword": {
+                                "kind": 37814364,
+                                "flags": 65,
+                                "start": 211,
+                                "end": 220
                             },
-                            "flags": 16,
+                            "expression": {
+                                "kind": 201392131,
+                                "text": "something",
+                                "rawText": "'something'",
+                                "flags": 4194401,
+                                "start": 221,
+                                "end": 248
+                            },
+                            "flags": 32,
                             "start": 220,
                             "end": 252
                         }
@@ -252,13 +246,17 @@ wrap(
 
 ```javascript
 
-import("'something'");
-import("'something'" /* Hello */);
-import("'something'" /* Hello */);
-import("'something'" /* Hello */ + "'else'");
-import(/* Hello */
-"'something'");
-wrap();
+import(/* Hello */'\'something\'');
+import('\'something\''/* Hello */);
+import(/* Hello */'\'something\''/* Hello */);
+import('\'something\''/* Hello */ + '\'else\'');
+import(
+ /* Hello */
+'\'something\''
+ /* Hello */
+);
+wrap(import(/* Hello */'\'something\''));
+
 ```
 
 ### Diagnostics

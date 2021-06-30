@@ -134,7 +134,7 @@ var af = (x, ...y) => { return [x, y.length]; };
                                                                 "start": 37,
                                                                 "end": 43
                                                             },
-                                                            "flags": 536870944,
+                                                            "flags": 96,
                                                             "start": 34,
                                                             "end": 43
                                                         }
@@ -192,9 +192,8 @@ var af = (x, ...y) => { return [x, y.length]; };
 
 ```javascript
 
-var af = () =>  {
-  return  [x, y.length];
-};
+var af = (x, ...y) =>  { return [x, y.length,]; };
+
 ```
 
 ### Diagnostics

@@ -132,8 +132,9 @@ class x {get for(){}}
 ```javascript
 
 class x {
-  get for() {}
+  get for() { }
 }
+
 ```
 
 ### Diagnostics

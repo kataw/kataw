@@ -113,8 +113,10 @@ for (var { foo };;) {}
 
 ```javascript
 
-for (; ; )
-  {}
+for (var {
+  foo
+};;) { }
+
 ```
 
 ### Diagnostics

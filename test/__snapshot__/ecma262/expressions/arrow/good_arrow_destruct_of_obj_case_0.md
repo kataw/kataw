@@ -71,7 +71,7 @@
                                         "optionalToken": null,
                                         "type": null,
                                         "right": null,
-                                        "flags": 32,
+                                        "flags": 1073741856,
                                         "start": 6,
                                         "end": 12
                                     }
@@ -134,7 +134,11 @@
 
 ```javascript
 
-() =>  {};
+({
+    a: b,
+    ...obj
+  }) =>  { };
+
 ```
 
 ### Diagnostics

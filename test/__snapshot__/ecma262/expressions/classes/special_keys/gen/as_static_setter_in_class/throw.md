@@ -146,8 +146,9 @@ class x {static set throw(x){}}
 ```javascript
 
 class x {
-  static set static throw() {}
+  static set throw(x) { }
 }
+
 ```
 
 ### Diagnostics

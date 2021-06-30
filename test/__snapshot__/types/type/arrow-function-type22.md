@@ -69,7 +69,7 @@ type a = ({key():string}[x]) => T;
                                             {
                                                 "kind": 193,
                                                 "protoKeyword": null,
-                                                "staticToken": null,
+                                                "staticKeyword": null,
                                                 "getKeyword": null,
                                                 "setKeyword": null,
                                                 "key": {
@@ -212,6 +212,7 @@ type a = ({key():string}[x]) => T;
 
 ```javascript
 
+type a = ({ key(): string }[x]) => T
 
 ```
 

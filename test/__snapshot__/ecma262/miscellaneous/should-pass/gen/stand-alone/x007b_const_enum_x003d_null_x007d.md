@@ -95,6 +95,7 @@
 {
   const enum = null;
 }
+
 ```
 
 ### Diagnostics

@@ -67,7 +67,7 @@ type a = ({x: (y)}) => T;
                                         {
                                             "kind": 193,
                                             "protoKeyword": null,
-                                            "staticToken": null,
+                                            "staticKeyword": null,
                                             "getKeyword": null,
                                             "setKeyword": null,
                                             "key": {
@@ -183,6 +183,7 @@ type a = ({x: (y)}) => T;
 
 ```javascript
 
+type a = ({ x: (y) }) => T
 
 ```
 

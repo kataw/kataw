@@ -84,8 +84,8 @@
                                 "formalParameters": [],
                                 "trailingComma": false,
                                 "flags": 32,
-                                "start": 38,
-                                "end": 40
+                                "start": 39,
+                                "end": 39
                             },
                             "contents": {
                                 "kind": 216,
@@ -222,12 +222,12 @@
 
 ```javascript
 
-var gfe = function * rgfe() {
-  switch(1) {
-    case yield * "'foo'":
-      break;
-  }
-};
+'\'use strict\'';
+var gfe = function* rgfe() { switch (1) {
+  case yield* '\'foo\'': 
+    break;
+} };
+
 ```
 
 ### Diagnostics

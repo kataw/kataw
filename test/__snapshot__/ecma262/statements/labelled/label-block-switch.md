@@ -111,9 +111,10 @@ a: { b: switch(x) {} }
 ```javascript
 
 a: {
-  b: switch(x) {
+  b: switch (x) {
   }
 }
+
 ```
 
 ### Diagnostics

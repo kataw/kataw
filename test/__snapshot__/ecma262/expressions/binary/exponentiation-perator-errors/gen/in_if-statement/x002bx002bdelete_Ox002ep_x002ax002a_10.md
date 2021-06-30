@@ -170,7 +170,7 @@ var O = { p: 1 }, x = 10; ; if (++delete O.p ** 10) { foo(); }
                                 "start": 43,
                                 "end": 44
                             },
-                            "flags": 536870944,
+                            "flags": 96,
                             "start": 40,
                             "end": 44
                         },

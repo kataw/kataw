@@ -61,8 +61,8 @@ for (function(){ if (a in b); }.prop in x);
                         "formalParameters": [],
                         "trailingComma": false,
                         "flags": 32,
-                        "start": 13,
-                        "end": 15
+                        "start": 14,
+                        "end": 14
                     },
                     "contents": {
                         "kind": 216,
@@ -140,7 +140,7 @@ for (function(){ if (a in b); }.prop in x);
                     "start": 32,
                     "end": 36
                 },
-                "flags": 536870944,
+                "flags": 32,
                 "start": 5,
                 "end": 36
             },
@@ -182,9 +182,10 @@ for (function(){ if (a in b); }.prop in x);
 
 ```javascript
 
-for (function () {
-  if (a in b);
-}.prop in x);
+for (function () { if (a in b)
+  ; }.prop in x)
+  ;
+
 ```
 
 ### Diagnostics

@@ -55,7 +55,7 @@ var e: { (x: any): void } = function() { } // arity
                                     {
                                         "kind": 196,
                                         "protoKeyword": null,
-                                        "staticToken": null,
+                                        "staticKeyword": null,
                                         "typeParameter": null,
                                         "value": {
                                             "kind": 282,
@@ -141,8 +141,8 @@ var e: { (x: any): void } = function() { } // arity
                                 "formalParameters": [],
                                 "trailingComma": false,
                                 "flags": 32,
-                                "start": 36,
-                                "end": 38
+                                "start": 37,
+                                "end": 37
                             },
                             "contents": {
                                 "kind": 216,
@@ -190,7 +190,8 @@ var e: { (x: any): void } = function() { } // arity
 
 ```javascript
 
-var e:  = function () {}; // arity
+var e: { (x: any): void } = function () { };// arity
+
 ```
 
 ### Diagnostics

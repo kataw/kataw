@@ -142,8 +142,9 @@ class x {static async * while(){}}
 ```javascript
 
 class x {
-  async static static while() {}
+  static async *while() { }
 }
+
 ```
 
 ### Diagnostics

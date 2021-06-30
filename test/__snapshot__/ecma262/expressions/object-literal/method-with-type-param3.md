@@ -78,6 +78,7 @@ a={123<T>(x: T): T {}}
                                                         "end": 8
                                                     },
                                                     "type": null,
+                                                    "assignToken": null,
                                                     "defaultType": null,
                                                     "flags": 2097152,
                                                     "start": 7,
@@ -219,7 +220,8 @@ a={123<T>(x: T): T {}}
 
 ```javascript
 
-a = { 123() {} };
+a = { 123<T>(x: T): T { } };
+
 ```
 
 ### Diagnostics

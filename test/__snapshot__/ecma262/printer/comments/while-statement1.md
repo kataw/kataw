@@ -62,7 +62,8 @@ while /* comment */ (x) {}
 
 ```javascript
 
-while/* comment */  (x) {}
+while/* comment */ (x) { }
+
 ```
 
 ### Diagnostics

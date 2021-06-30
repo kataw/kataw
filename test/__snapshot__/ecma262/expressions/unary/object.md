@@ -108,8 +108,11 @@ state = {
 
 ```javascript
 
-state = { // students
-  hoverColumn: -1 };
+state = {
+   // students
+  hoverColumn : - 1
+};
+
 ```
 
 ### Diagnostics

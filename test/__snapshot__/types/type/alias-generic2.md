@@ -60,6 +60,7 @@ type MyObject<A, B, C> = {
                                 "end": 15
                             },
                             "type": null,
+                            "assignToken": null,
                             "defaultType": null,
                             "flags": 2097152,
                             "start": 14,
@@ -76,6 +77,7 @@ type MyObject<A, B, C> = {
                                 "end": 18
                             },
                             "type": null,
+                            "assignToken": null,
                             "defaultType": null,
                             "flags": 2097152,
                             "start": 16,
@@ -92,6 +94,7 @@ type MyObject<A, B, C> = {
                                 "end": 21
                             },
                             "type": null,
+                            "assignToken": null,
                             "defaultType": null,
                             "flags": 2097152,
                             "start": 19,
@@ -123,7 +126,7 @@ type MyObject<A, B, C> = {
                         {
                             "kind": 193,
                             "protoKeyword": null,
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "getKeyword": null,
                             "setKeyword": null,
                             "key": {
@@ -165,7 +168,7 @@ type MyObject<A, B, C> = {
                         {
                             "kind": 193,
                             "protoKeyword": null,
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "getKeyword": null,
                             "setKeyword": null,
                             "key": {
@@ -207,7 +210,7 @@ type MyObject<A, B, C> = {
                         {
                             "kind": 193,
                             "protoKeyword": null,
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "getKeyword": null,
                             "setKeyword": null,
                             "key": {
@@ -274,6 +277,7 @@ type MyObject<A, B, C> = {
 
 ```javascript
 
+type MyObject<A, B, C> = { foo: A, bar: B, baz: C }
 
 ```
 

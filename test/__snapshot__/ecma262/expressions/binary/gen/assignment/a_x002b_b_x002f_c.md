@@ -112,6 +112,7 @@ x = a + b / c
 ```javascript
 
 x = a + b / c;
+
 ```
 
 ### Diagnostics

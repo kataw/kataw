@@ -354,7 +354,7 @@ a = { y: x = 1 } = b;
                                             "start": 53,
                                             "end": 54
                                         },
-                                        "flags": 536870944,
+                                        "flags": 48,
                                         "start": 46,
                                         "end": 54
                                     },
@@ -482,7 +482,7 @@ a = { y: x = 1 } = b;
                                             "start": 83,
                                             "end": 87
                                         },
-                                        "flags": 536870944,
+                                        "flags": 48,
                                         "start": 69,
                                         "end": 87
                                     },
@@ -1678,7 +1678,7 @@ a = { y: x = 1 } = b;
                                             "kind": 201392130,
                                             "text": 50,
                                             "rawText": "50.",
-                                            "flags": 96,
+                                            "flags": 32864,
                                             "start": 360,
                                             "end": 364
                                         },
@@ -1690,7 +1690,7 @@ a = { y: x = 1 } = b;
                                             "start": 365,
                                             "end": 368
                                         },
-                                        "flags": 536870944,
+                                        "flags": 32864,
                                         "start": 360,
                                         "end": 368
                                     },
@@ -2172,7 +2172,7 @@ a = { y: x = 1 } = b;
                                             "start": 482,
                                             "end": 483
                                         },
-                                        "flags": 536870944,
+                                        "flags": 96,
                                         "start": 474,
                                         "end": 483
                                     },
@@ -2409,7 +2409,7 @@ a = { y: x = 1 } = b;
                                     "start": 523,
                                     "end": 529
                                 },
-                                "flags": 32,
+                                "flags": 1073741856,
                                 "start": 520,
                                 "end": 529
                             }
@@ -2493,7 +2493,7 @@ a = { y: x = 1 } = b;
                                     "start": 549,
                                     "end": 550
                                 },
-                                "flags": 32,
+                                "flags": 1073741856,
                                 "start": 545,
                                 "end": 550
                             },
@@ -2802,7 +2802,7 @@ a = { y: x = 1 } = b;
                                         "start": 620,
                                         "end": 621
                                     },
-                                    "flags": 32,
+                                    "flags": 1073741856,
                                     "start": 616,
                                     "end": 621
                                 }
@@ -3158,13 +3158,7 @@ a = { y: x = 1 } = b;
                                                         "expression": {
                                                             "kind": 129,
                                                             "member": {
-                                                                "kind": 225,
-                                                                "superKeyword": {
-                                                                    "kind": 4259935,
-                                                                    "flags": 96,
-                                                                    "start": 724,
-                                                                    "end": 730
-                                                                },
+                                                                "kind": 4259935,
                                                                 "flags": 96,
                                                                 "start": 724,
                                                                 "end": 730
@@ -3177,7 +3171,7 @@ a = { y: x = 1 } = b;
                                                                 "start": 731,
                                                                 "end": 732
                                                             },
-                                                            "flags": 536870944,
+                                                            "flags": 96,
                                                             "start": 724,
                                                             "end": 732
                                                         },
@@ -4357,7 +4351,7 @@ a = { y: x = 1 } = b;
                                                 "start": 999,
                                                 "end": 1000
                                             },
-                                            "flags": 536870944,
+                                            "flags": 96,
                                             "start": 995,
                                             "end": 1000
                                         },
@@ -4369,11 +4363,11 @@ a = { y: x = 1 } = b;
                                             "start": 1001,
                                             "end": 1002
                                         },
-                                        "flags": 536870944,
+                                        "flags": 96,
                                         "start": 995,
                                         "end": 1002
                                     },
-                                    "flags": 32,
+                                    "flags": 1073741856,
                                     "start": 992,
                                     "end": 1002
                                 }
@@ -4531,56 +4525,57 @@ a = { y: x = 1 } = b;
 
 ```javascript
 
-({ key: {} });
-({ key: { a } = x });
-({ a: b } = obj);
-({ 1: {}.b ? c : d });
-({ a: { prop: 1 }.prop } = {});
-({ 1: +b });
-({ [a]: +b });
-({ a: +b });
-({ async: (await) ? yield : foo });
-({ async 100() {} });
-({ key: bar = x });
-({ typeof() {} });
-({ x() {}, x: 1 });
-({ * x() {}, get x() {} });
-({ "\"x\"": y + z });
-() =>  x;
-({ "\"x\"": { y: z } });
-x({ [a]: b, [15]: d } = obj);
-({ l: 50.foo } = x);
-a = { "\"b\"": c = d };
-({ x: let });
-({ x: let } = null);
-s = { "\"foo\"": this };
-x({ set "\"foo\""() {} });
-({ a = 42, [b]: c.d } = e);
-x({ foo() {}, * bar() {} });
-({ ...[a, b] });
-x = { a: 1, ...y, b: 1 };
-x({ get 0x234241() {} });
-x({ get 1() {} });
-({ [left()]: y, ...x } = right());
-({ topLeft: { x: x1, y: y1 }, bottomRight: { x: x2, y: y2 } } = rect);
+({ key : {} });
+({ key : { a } = x });
+({ a : b } = obj);
+({ 1 : {}.b ? c : d });
+({ a : { prop : 1 }.prop } = {});
+({ 1 : + b });
+({ [a] : + b });
+({ a : + b });
+({ async : (await) ? yield : foo });
+({ async 100() { } });
+({ key : bar = x });
+({ typeof(x, y) { } });
+({ x() { }, x : 1 });
+({ * x() { }, get x() { } });
+({ "\"x\"" : y + z });
+({
+    "\"x\"": [y,]
+  }) => x;
+({ "\"x\"" : { y : z } });
+x({ [a] : b, [15] : d } = obj);
+({ l : 50..foo } = x);
+a = { "\"b\"" : c = d };
+({ x : let });
+({ x : let } = null);
+s = { "\"foo\"" : this };
+x({ set "\"foo\""(a) { } });
+({ a = 42, [b] : c.d } = e);
+x({ foo() { }, * bar() { } });
+({ ...[a, b,] });
+x = { a : 1, ...y, b : 1 };
+x({ get 0x234241() { } });
+x({ get 1() { } });
+({ [left()] : y, ...x } = right());
+({ topLeft : { x : x1, y : y1 }, bottomRight : { x : x2, y : y2 } } = rect);
 ({ y });
-({ set [0]() {
-    super.m("\"1\"", v);
-  } });
-x = { async: b }({ set foo() {} });
-({ * set() {} });
-({ * static() {} });
-({ * async() {} });
-({ get: 0 });
-({ if: 4 });
-({ * await() {} });
-x = { * "\"foo\""() {} };
-x = { set get() {} };
-x = { foo: typeof x };
-x = { "\"x\"": { a: y + x } };
-a = { w, a: x } = b;
+({ set [0](x) { super.m("\"1\"", v); } });
+x = { async : b }({ set foo(v) { } });
+({ * set() { } });
+({ * static() { } });
+({ * async() { } });
+({ get : 0 });
+({ if : 4 });
+({ * await() { } });
+x = { * "\"foo\""() { } };
+x = { set get(a) { } };
+x = { foo : typeof  x };
+x = { "\"x\"" : { a : y + x } };
+a = { w, a : x } = b;
 a = { ...src.y.x } = b;
-a = { y: x = 1 } = b;
+a = { y : x = 1 } = b;
+
 ```
 
 ### Diagnostics

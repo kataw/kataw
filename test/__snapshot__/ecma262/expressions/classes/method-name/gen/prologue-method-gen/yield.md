@@ -143,7 +143,9 @@
 
 ```javascript
 
-({ * yield() {} });
+'\'use strict\'';
+({ * yield(x, y) { } });
+
 ```
 
 ### Diagnostics

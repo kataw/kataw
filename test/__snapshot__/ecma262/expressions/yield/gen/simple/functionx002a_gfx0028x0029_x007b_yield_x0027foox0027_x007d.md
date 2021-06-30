@@ -53,8 +53,8 @@ function* gf() { yield 'foo' }
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 12,
-                "end": 14
+                "start": 13,
+                "end": 13
             },
             "contents": {
                 "kind": 216,
@@ -118,9 +118,8 @@ function* gf() { yield 'foo' }
 
 ```javascript
 
-function * gf() {
-  yield "'foo'";
-}
+function* gf() { yield '\'foo\''; }
+
 ```
 
 ### Diagnostics

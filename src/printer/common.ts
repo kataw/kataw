@@ -2,102 +2,29 @@ import { SyntaxKind, NodeFlags, tokenToString } from '../ast/syntax-node';
 import { Char } from '../parser/scanner/char';
 import { isLineTerminator, isWhiteSpaceSlow } from '../parser/scanner/common';
 
-export const enum ListFormat {
+export const enum PrinterContext {
   None = 0,
-
-  // Line separators
-  SingleLine = 0, // Prints the list on a single line (default).
-  MultiLine = 1 << 0, // Prints the list on multiple lines.
-  PreserveLines = 1 << 1, // Prints the list using line preservation if possible.
-  LinesMask = SingleLine | MultiLine | PreserveLines,
-
-  // Delimiters
-  NotDelimited = 0, // There is no delimiter between list items (default).
-  BarDelimited = 1 << 2, // Each list item is space-and-bar (" |") delimited.
-  AmpersandDelimited = 1 << 3, // Each list item is space-and-ampersand (" &") delimited.
-  CommaDelimited = 1 << 4, // Each list item is comma (",") delimited.
-  DelimitersMask = BarDelimited | AmpersandDelimited | CommaDelimited,
-
-  AllowTrailingComma = 1 << 5, // Write a trailing comma (",") if present.
-
-  // Whitespace
-  Indented = 1 << 6, // The list should be indented.
-  SpaceBetweenBraces = 1 << 7, // Inserts a space after the opening brace and before the closing brace.
-  SpaceBetweenSiblings = 1 << 8, // Inserts a space between each sibling node.
-
-  // Brackets/Braces
-  Braces = 1 << 9, // The list is surrounded by "{" and "}".
-  Parenthesis = 1 << 10, // The list is surrounded by "(" and ")".
-  AngleBrackets = 1 << 11, // The list is surrounded by "<" and ">".
-  SquareBrackets = 1 << 12, // The list is surrounded by "[" and "]".
-  BracketsMask = Braces | Parenthesis | AngleBrackets | SquareBrackets,
-
-  OptionalIfUndefined = 1 << 13, // Do not emit brackets if the list is undefined.
-  OptionalIfEmpty = 1 << 14, // Do not emit brackets if the list is empty.
-  Optional = OptionalIfUndefined | OptionalIfEmpty,
-
-  // Other
-  PreferNewLine = 1 << 15, // Prefer adding a LineTerminator between synthesized nodes.
-  NoTrailingNewLine = 1 << 16, // Do not emit a trailing NewLine for a MultiLine list.
-  NoInterveningComments = 1 << 17, // Do not emit comments between each node
+  SingleLine = 0,
+  MultiLine = 1 << 0,
+  PreserveLines = 1 << 1,
+  NotDelimited = 0,
+  BarDelimited = 1 << 2,
+  AmpersandDelimited = 1 << 3,
+  CommaDelimited = 1 << 4,
+  AllowTrailingComma = 1 << 5,
+  Indented = 1 << 6,
+  SpaceBetweenBraces = 1 << 7,
+  SpaceBetweenSiblings = 1 << 8,
+  Braces = 1 << 9,
+  Parenthesis = 1 << 10,
+  AngleBrackets = 1 << 11,
+  SquareBrackets = 1 << 12,
+  OptionalIfUndefined = 1 << 13,
+  OptionalIfEmpty = 1 << 14,
+  PreferNewLine = 1 << 15,
+  NoTrailingNewLine = 1 << 16,
+  NoInterveningComments = 1 << 17,
   NoSpaceIfEmpty = 1 << 18,
-
-  // Precomputed Formats
-  HeritageClauses = SingleLine | SpaceBetweenSiblings,
-  TupleTypeElements = CommaDelimited | SpaceBetweenSiblings | SingleLine,
-  UnionTypeConstituents = BarDelimited | SpaceBetweenSiblings | SingleLine,
-  IntersectionTypeConstituents = AmpersandDelimited | SpaceBetweenSiblings | SingleLine,
-  ObjectBindingPatternElements = SingleLine |
-    AllowTrailingComma |
-    SpaceBetweenBraces |
-    CommaDelimited |
-    SpaceBetweenSiblings,
-  ArrayBindingPatternElements = SingleLine |
-    AllowTrailingComma |
-    CommaDelimited |
-    SpaceBetweenSiblings |
-    NoSpaceIfEmpty,
-  ObjectLiteralExpressionProperties = PreserveLines |
-    CommaDelimited |
-    SpaceBetweenSiblings |
-    SpaceBetweenBraces |
-    Indented |
-    Braces |
-    NoSpaceIfEmpty,
-  ArrayLiteralExpressionElements = PreserveLines |
-    CommaDelimited |
-    SpaceBetweenSiblings |
-    AllowTrailingComma |
-    Indented |
-    SquareBrackets,
-  CallExpressionArguments = CommaDelimited | SpaceBetweenSiblings | SingleLine | Parenthesis,
-  NewExpressionArguments = CommaDelimited | SpaceBetweenSiblings | SingleLine | Parenthesis | OptionalIfUndefined,
-  TemplateExpressionSpans = SingleLine | NoInterveningComments,
-  SingleLineBlockStatements = SpaceBetweenBraces | SpaceBetweenSiblings | SingleLine,
-  MultiLineBlockStatements = Indented | MultiLine,
-  VariableDeclarationList = CommaDelimited | SpaceBetweenSiblings | SingleLine,
-  SingleLineFunctionBodyStatements = SingleLine | SpaceBetweenSiblings | SpaceBetweenBraces,
-  MultiLineFunctionBodyStatements = MultiLine,
-  ClassHeritageClauses = SingleLine | SpaceBetweenSiblings,
-  ClassMembers = Indented | MultiLine,
-  InterfaceMembers = Indented | MultiLine,
-  EnumMembers = CommaDelimited | Indented | MultiLine,
-  CaseBlockClauses = Indented | MultiLine,
-  NamedImportsOrExportsElements = CommaDelimited |
-    SpaceBetweenSiblings |
-    AllowTrailingComma |
-    SingleLine |
-    SpaceBetweenBraces,
-  CaseOrDefaultClauseStatements = Indented | MultiLine | NoTrailingNewLine | OptionalIfEmpty,
-  HeritageClauseTypes = CommaDelimited | SpaceBetweenSiblings | SingleLine,
-  SourceFileStatements = MultiLine | NoTrailingNewLine,
-  Decorators = MultiLine | Optional,
-  TypeArguments = CommaDelimited | SpaceBetweenSiblings | SingleLine | Indented | AngleBrackets | Optional,
-  TypeParameters = CommaDelimited | SpaceBetweenSiblings | SingleLine | Indented | AngleBrackets | Optional,
-  Parameters = CommaDelimited | SpaceBetweenSiblings | SingleLine | Indented | Parenthesis,
-  IndexSignatureParameters = CommaDelimited | SpaceBetweenSiblings | SingleLine | Indented | SquareBrackets,
-  SingleLineTypeLiteralMembers = SingleLine | SpaceBetweenBraces | SpaceBetweenSiblings,
-  MultiLineTypeLiteralMembers = MultiLine | Indented | OptionalIfEmpty
 }
 
 export function lastOrUndefined<T>(array: readonly T[]): any {
@@ -147,25 +74,24 @@ export function writeLine(printer: Printer) {
   }
 }
 function stringRepeat(str: string, num: number) {
-  let result = '';
+  var result = '';
   while (true) {
-    if (num & 1) {
-      // (1)
-      result += str;
-    }
-    num >>>= 1; // (2)
-    if (num <= 0) break;
-    str += str;
+      if (num & 1) { // (1)
+          result += str;
+      }
+      num >>>= 1; // (2)
+      if (num <= 0) break;
+      str += str;
   }
 
   return result;
 }
 export function write(printer: Printer, s: string) {
-  if (printer.lineStart) {
-    printer.output += stringRepeat(' ', printer.indent * 2);
-    printer.lineStart = false;
-  }
-  printer.output += s;
+    if (printer.lineStart) {
+      printer.output += stringRepeat(' ', printer.indent * 2);
+      printer.lineStart = false;
+    }
+    printer.output += s;
 }
 
 export function printWithComments(node: any, printer: Printer, printCallback: (node: any, printer: Printer) => void) {
@@ -175,6 +101,7 @@ export function printWithComments(node: any, printer: Printer, printCallback: (n
     if ((start < 0 && end < 0) || start === end) {
       printCallback(node, printer);
     } else {
+
       if (start >= 0) printLeadingComments(printer, start);
 
       const { containerPos, containerEnd, declarationListContainerEnd } = printer;
@@ -241,7 +168,8 @@ function getCommentRanges(text: string, pos: number, trailing: boolean): any {
   let collecting = trailing || pos === 0;
 
   while (true) {
-    const ch = text.charCodeAt(pos);
+
+    let ch = text.charCodeAt(pos);
     switch (ch) {
       case Char.CarriageReturn:
         if (text.charCodeAt(pos + 1) === Char.LineFeed) {
@@ -264,11 +192,11 @@ function getCommentRanges(text: string, pos: number, trailing: boolean): any {
         pos++;
         continue;
       case Char.Slash:
-        const nextChar = text.charCodeAt(pos + 1);
+        let nextChar = text.charCodeAt(pos + 1);
         let hasTrailingNewLine = false;
         if (nextChar === Char.Slash || nextChar === Char.Asterisk) {
-          const kind = nextChar === Char.Slash ? SyntaxKind.SingleLineComment : SyntaxKind.MultiLineComment;
-          const startPos = pos;
+          let kind = nextChar === Char.Slash ? SyntaxKind.SingleLineComment : SyntaxKind.MultiLineComment;
+          let startPos = pos;
           pos += 2;
           if (nextChar === Char.Slash) {
             while (pos < text.length) {
@@ -312,6 +240,7 @@ function getCommentRanges(text: string, pos: number, trailing: boolean): any {
 }
 
 export function printLeadingCommentsOfPosition(printer: Printer, pos: number) {
+
   if (pos === -1) {
     return;
   }
@@ -331,8 +260,9 @@ function getLeadingCommentsWithoutDetachedComments(printer: Printer) {
 }
 
 export function getLeadingCommentRanges(text: string, pos: number): any {
+
   if (pos !== undefined) {
-    return getCommentRanges(text, pos, /*trailing*/ false);
+  return getCommentRanges(text, pos, /*trailing*/ false);
   }
 }
 
@@ -349,7 +279,7 @@ export function printLeadingComments(printer: Printer, pos: number) {
       : getLeadingCommentRanges(printer.source, pos);
   }
 
-  const trailingSeparator = false;
+  let trailingSeparator = false;
 
   if (leadingComments && leadingComments.length > 0) {
     let emitLeadingSpace = !trailingSeparator;
@@ -395,9 +325,10 @@ export function printDetachedCommentsAndUpdateCommentsInfo(node: any, printer: P
   }
 }
 
-export function emitDetachedComments(printer: Printer, node: any, newLine: string) {
+export function emitDetachedComments(printer: Printer, node: any, _newLine: string) {
+
   let currentDetachedCommentInfo: any;
-  const leadingComments = getLeadingCommentRanges(printer.source, node.start);
+  let leadingComments = getLeadingCommentRanges(printer.source, node.start);
 
   if (leadingComments) {
     const detachedComments: any[] = [];
@@ -407,6 +338,7 @@ export function emitDetachedComments(printer: Printer, node: any, newLine: strin
     }
 
     if (detachedComments.length) {
+
       emitNewLineBeforeLeadingComments(node, printer, leadingComments);
       if (detachedComments && detachedComments.length > 0) {
         let emitInterveningSeparator = false;
@@ -542,12 +474,12 @@ export function getLineOfLocalPosition(printer: Printer, pos: number) {
   return getLineAndCharacterOfPosition(printer, pos).line;
 }
 
-function synthesizedNodeStartsOnNewLine(node: Node, format: ListFormat) {
+function synthesizedNodeStartsOnNewLine(node: Node, format: PrinterContext) {
   if (nodeIsSynthesized(node)) {
-    return (format & ListFormat.PreferNewLine) !== 0;
+    return (format & PrinterContext.PreferNewLine) !== 0;
   }
 
-  return (format & ListFormat.PreferNewLine) !== 0;
+  return (format & PrinterContext.PreferNewLine) !== 0;
 }
 export function rangeEndPositionsAreOnSameLine(range1: any, range2: any, printer: Printer) {
   return positionsAreOnSameLine(range1.end, range2.end, printer);
@@ -561,9 +493,9 @@ export function nodeIsSynthesized(node: any): boolean {
   return positionIsSynthesized(node.start) || positionIsSynthesized(node.end);
 }
 
-export function shouldWriteLeadingLineTerminator(parentNode: any, printer: Printer, children: any, format: ListFormat) {
-  if (format & ListFormat.PreserveLines) {
-    if (format & ListFormat.PreferNewLine) {
+export function shouldWriteLeadingLineTerminator(parentNode: any, printer: Printer, children: any, format: PrinterContext) {
+  if (format & PrinterContext.PreserveLines) {
+    if (format & PrinterContext.PreferNewLine) {
       return true;
     }
     const firstChild = children[0];
@@ -574,10 +506,10 @@ export function shouldWriteLeadingLineTerminator(parentNode: any, printer: Print
 
     //if (firstChild.start === printer.nextListElementPos) return 0;
 
-    if ((format & ListFormat.PreferNewLine) !== 0) return 1;
+    if ((format & PrinterContext.PreferNewLine) !== 0) return 1;
   }
 
-  return format & ListFormat.MultiLine ? true : false;
+  return format & PrinterContext.MultiLine ? true : false;
 }
 
 export function skipWhitespace(
@@ -673,20 +605,20 @@ export function shouldWriteSeparatingLineTerminator(
   previousNode: any,
   printer: Printer,
   nextNode: any,
-  format: ListFormat
+  format: PrinterContext
 ) {
-  if (format & ListFormat.PreserveLines) {
+  if (format & PrinterContext.PreserveLines) {
     if (previousNode === undefined || nextNode === undefined) {
       return 0;
     }
 
-    if (format & ListFormat.PreferNewLine) {
+    if (format & PrinterContext.PreferNewLine) {
       return true;
     }
 
     if (
       !nodeIsSynthesized(previousNode) &&
-      !nodeIsSynthesized(nextNode) // &&
+      !nodeIsSynthesized(nextNode)// &&
       //previousNode.parent === nextNode.parent
     ) {
       return rangeEndIsOnSameLineAsRangeStart(previousNode, nextNode, printer) ? 0 : 1;
@@ -699,7 +631,7 @@ export function shouldWriteSeparatingLineTerminator(
     return rangeEndIsOnSameLineAsRangeStart(previousNode, nextNode, printer) ? 0 : 1;
   }
 
-  return format & ListFormat.MultiLine ? true : false;
+  return format & PrinterContext.MultiLine ? true : false;
 }
 
 export function printTrailingCommentsOfPosition(printer: Printer, pos: number) {
@@ -715,7 +647,7 @@ export function emitComments(
   leadingSeparator: boolean,
   _trailingSeparator: boolean
 ) {
-  const parts = [];
+  let parts = [];
 
   if (comments && comments.length > 0) {
     if (leadingSeparator) {
@@ -738,9 +670,16 @@ export function emitComments(
   }
 }
 
-export function shouldWriteClosingLineTerminator(parentNode: any, printer: Printer, children: any, format: ListFormat) {
-  if (format & ListFormat.PreserveLines) {
-    if (format & ListFormat.PreferNewLine) return 1;
+export function shouldWriteClosingLineTerminator(
+  parentNode: any,
+  printer: Printer,
+  children: any,
+  format: PrinterContext
+) {
+
+
+  if (format & PrinterContext.PreserveLines) {
+    if (format & PrinterContext.PreferNewLine) return 1;
 
     const lastChild: any = lastOrUndefined(children);
 
@@ -767,7 +706,7 @@ export function shouldWriteClosingLineTerminator(parentNode: any, printer: Print
     if (lastChild && synthesizedNodeStartsOnNewLine(lastChild as any, format)) return 1;
   }
 
-  if (format & ListFormat.MultiLine && !(format & ListFormat.NoTrailingNewLine)) {
+  if (format & PrinterContext.MultiLine && !(format & PrinterContext.NoTrailingNewLine)) {
     return true;
   }
   return false;
@@ -821,10 +760,10 @@ export const brackets = createBracketsMap();
 
 function createBracketsMap() {
   const brackets: string[][] = [];
-  brackets[ListFormat.Braces] = ['{', '}'];
-  brackets[ListFormat.Parenthesis] = ['(', ')'];
-  brackets[ListFormat.AngleBrackets] = ['<', '>'];
-  brackets[ListFormat.SquareBrackets] = ['[', ']'];
+  brackets[PrinterContext.Braces] = ['{', '}'];
+  brackets[PrinterContext.Parenthesis] = ['(', ')'];
+  brackets[PrinterContext.AngleBrackets] = ['<', '>'];
+  brackets[PrinterContext.SquareBrackets] = ['[', ']'];
   return brackets;
 }
 
@@ -847,15 +786,23 @@ export function shouldprintBlockFunctionBodyOnSingleLine(printer: any, body: any
   }
 
   if (
-    shouldWriteLeadingLineTerminator(body, printer, body.statements, ListFormat.PreserveLines) ||
-    shouldWriteClosingLineTerminator(body, printer, body.statements, ListFormat.PreserveLines)
+    shouldWriteLeadingLineTerminator(body, printer, body.statements, PrinterContext.PreserveLines) ||
+    shouldWriteClosingLineTerminator(body, printer, body.statements, PrinterContext.PreserveLines)
   ) {
     return false;
   }
 
   let previousStatement: any;
   for (const statement of body.statements) {
-    if (shouldWriteSeparatingLineTerminator(previousStatement, printer, statement, ListFormat.PreserveLines)) {
+
+
+
+    if (shouldWriteSeparatingLineTerminator(
+      previousStatement,
+      printer,
+      statement,
+      PrinterContext.PreserveLines
+    )) {
       return false;
     }
 
@@ -865,22 +812,24 @@ export function shouldprintBlockFunctionBodyOnSingleLine(printer: any, body: any
   return true;
 }
 
-export function writeDelimiter(printer: Printer, format: ListFormat) {
-  switch (format & ListFormat.DelimitersMask) {
-    case ListFormat.None:
-      break;
-    case ListFormat.CommaDelimited:
-      write(printer, ',');
-      break;
-    case ListFormat.BarDelimited:
-      write(printer, ' ');
-      write(printer, '|');
-      break;
-    case ListFormat.AmpersandDelimited:
-      write(printer, ' ');
-      write(printer, '&');
-  }
+
+export function writeDelimiter(printer: Printer, format: PrinterContext) {
+	switch (format & (PrinterContext.BarDelimited | PrinterContext.AmpersandDelimited | PrinterContext.CommaDelimited)) {
+		case PrinterContext.None:
+			break;
+		case PrinterContext.CommaDelimited:
+			write(printer, ',');
+			break;
+		case PrinterContext.BarDelimited:
+			write(printer, ' ');
+			write(printer, '|');
+			break;
+		case PrinterContext.AmpersandDelimited:
+			write(printer, ' ');
+			write(printer, '&');
+	}
 }
+
 
 export function makeString(rawContent: any, enclosingQuote: any): any {
   const otherQuote = enclosingQuote === '"' ? "'" : '"';

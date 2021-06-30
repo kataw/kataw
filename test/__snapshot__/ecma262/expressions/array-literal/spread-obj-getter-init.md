@@ -237,8 +237,8 @@ var callCount = 0;
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
-                                "start": 81,
-                                "end": 86
+                                "start": 82,
+                                "end": 85
                             },
                             "contents": {
                                 "kind": 216,
@@ -267,7 +267,7 @@ var callCount = 0;
                             "start": 91,
                             "end": 96
                         },
-                        "flags": 536870944,
+                        "flags": 32,
                         "start": 73,
                         "end": 96
                     },
@@ -306,7 +306,7 @@ var callCount = 0;
                                                             "start": 108,
                                                             "end": 109
                                                         },
-                                                        "flags": 32,
+                                                        "flags": 1073741856,
                                                         "start": 105,
                                                         "end": 109
                                                     },
@@ -415,10 +415,12 @@ var callCount = 0;
 
 ```javascript
 
-let o = { a: 2, b: 3 };
+let o = { a : 2, b : 3 };
 let executedGetter = false;
 var callCount = 0;
-(function () {}.apply(null, [{ ...o, get c() {} }]));
+(function (obj) {
+}.apply(null, [{ ...o, get c() { } },]));
+
 ```
 
 ### Diagnostics

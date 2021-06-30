@@ -98,13 +98,7 @@ x = { foo(){ [a = super.foo] = c; }}
                                                                         "right": {
                                                                             "kind": 129,
                                                                             "member": {
-                                                                                "kind": 225,
-                                                                                "superKeyword": {
-                                                                                    "kind": 4259935,
-                                                                                    "flags": 96,
-                                                                                    "start": 17,
-                                                                                    "end": 23
-                                                                                },
+                                                                                "kind": 4259935,
                                                                                 "flags": 96,
                                                                                 "start": 17,
                                                                                 "end": 23
@@ -117,7 +111,7 @@ x = { foo(){ [a = super.foo] = c; }}
                                                                                 "start": 24,
                                                                                 "end": 27
                                                                             },
-                                                                            "flags": 536870944,
+                                                                            "flags": 96,
                                                                             "start": 17,
                                                                             "end": 27
                                                                         },
@@ -206,9 +200,8 @@ x = { foo(){ [a = super.foo] = c; }}
 
 ```javascript
 
-x = { foo() {
-    [a = super.foo] = c;
-  } };
+x = { foo() { [a = super.foo,] = c; } };
+
 ```
 
 ### Diagnostics

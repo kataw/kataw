@@ -107,8 +107,8 @@ var await; var f = (async function() { ({ await: async }) });
                                     "formalParameters": [],
                                     "trailingComma": false,
                                     "flags": 32,
-                                    "start": 34,
-                                    "end": 36
+                                    "start": 35,
+                                    "end": 35
                                 },
                                 "contents": {
                                     "kind": 216,
@@ -212,9 +212,8 @@ var await; var f = (async function() { ({ await: async }) });
 ```javascript
 
 var await;
-var f = (async function () {
-    ({ await: async });
-  });
+var f = (async function () { ({ await : async }); });
+
 ```
 
 ### Diagnostics

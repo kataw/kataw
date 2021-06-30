@@ -59,6 +59,7 @@ for (;;) break
 
 for (;;)
   break;
+
 ```
 
 ### Diagnostics

@@ -96,6 +96,7 @@ x<number>(y)
 ```javascript
 
 x  < number > (y);
+
 ```
 
 ### Diagnostics

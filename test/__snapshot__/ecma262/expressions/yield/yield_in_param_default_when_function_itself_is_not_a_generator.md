@@ -45,8 +45,8 @@ function *g() { function f(x = yield) {}; }
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 11,
-                "end": 13
+                "start": 12,
+                "end": 12
             },
             "contents": {
                 "kind": 216,
@@ -105,8 +105,8 @@ function *g() { function f(x = yield) {}; }
                                 ],
                                 "trailingComma": false,
                                 "flags": 34,
-                                "start": 26,
-                                "end": 37
+                                "start": 27,
+                                "end": 36
                             },
                             "contents": {
                                 "kind": 216,
@@ -161,10 +161,8 @@ function *g() { function f(x = yield) {}; }
 
 ```javascript
 
-function * g() {
-  function f() {}
+function* g() { function f(x = yield) { } ; }
 
-}
 ```
 
 ### Diagnostics

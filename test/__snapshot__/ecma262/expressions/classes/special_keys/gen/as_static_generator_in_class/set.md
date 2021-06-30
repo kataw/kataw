@@ -137,8 +137,9 @@ class x {static * set(){}}
 ```javascript
 
 class x {
-  static static set() {}
+  static *set() { }
 }
+
 ```
 
 ### Diagnostics

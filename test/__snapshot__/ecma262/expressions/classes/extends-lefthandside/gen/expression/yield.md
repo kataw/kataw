@@ -105,7 +105,9 @@
 
 ```javascript
 
-(class B  {});
+(class B extends yield {
+});
+
 ```
 
 ### Diagnostics

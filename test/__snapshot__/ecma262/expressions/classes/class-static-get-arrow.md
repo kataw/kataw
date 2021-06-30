@@ -174,8 +174,9 @@
 ```javascript
 
 (class  {
-    static get static [() =>  null]() {}
-  }());
+  static get [() => null]() { }
+}());
+
 ```
 
 ### Diagnostics

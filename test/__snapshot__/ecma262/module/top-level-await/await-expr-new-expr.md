@@ -84,8 +84,8 @@ await new Promise(function(res, rej) { res(1); });
                                     ],
                                     "trailingComma": false,
                                     "flags": 32,
-                                    "start": 26,
-                                    "end": 36
+                                    "start": 27,
+                                    "end": 35
                                 },
                                 "contents": {
                                     "kind": 216,
@@ -176,9 +176,8 @@ await new Promise(function(res, rej) { res(1); });
 
 ```javascript
 
-await new  Promise(function () {
-  res(1);
-});
+await new Promise(function (res, rej) { res(1); });
+
 ```
 
 ### Diagnostics

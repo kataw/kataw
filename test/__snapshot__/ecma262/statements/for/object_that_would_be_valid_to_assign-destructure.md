@@ -57,7 +57,7 @@ for ({x: a.b};;);
                                     "start": 11,
                                     "end": 12
                                 },
-                                "flags": 536870944,
+                                "flags": 96,
                                 "start": 6,
                                 "end": 12
                             },
@@ -101,7 +101,9 @@ for ({x: a.b};;);
 
 ```javascript
 
-for ({ x: a.b }; ; );
+for ({ x : a.b };;)
+  ;
+
 ```
 
 ### Diagnostics

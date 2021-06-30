@@ -66,7 +66,7 @@ for ([a.b] of c) d
                                 "start": 8,
                                 "end": 9
                             },
-                            "flags": 536870944,
+                            "flags": 96,
                             "start": 6,
                             "end": 9
                         }
@@ -126,8 +126,9 @@ for ([a.b] of c) d
 
 ```javascript
 
-for ([a.b] of c)
+for ([a.b,] of c)
   d;
+
 ```
 
 ### Diagnostics

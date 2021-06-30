@@ -110,8 +110,8 @@ function x({ x: import.meta }) {}
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 10,
-                "end": 23
+                "start": 11,
+                "end": 22
             },
             "contents": {
                 "kind": 216,

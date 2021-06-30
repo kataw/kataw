@@ -146,8 +146,9 @@ class x {static set return(x){}}
 ```javascript
 
 class x {
-  static set static return() {}
+  static set return(x) { }
 }
+
 ```
 
 ### Diagnostics

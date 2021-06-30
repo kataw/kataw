@@ -85,9 +85,8 @@ for (of of of){}
 
 ```javascript
 
-for (of of of)
-  {
-  }
+for (of of of) { }
+
 ```
 
 ### Diagnostics

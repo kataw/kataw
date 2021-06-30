@@ -87,6 +87,7 @@ async?.(foo)
 ```javascript
 
 async?.(foo);
+
 ```
 
 ### Diagnostics

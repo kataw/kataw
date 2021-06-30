@@ -71,7 +71,8 @@ p\u0072ivate = x;
 
 ```javascript
 
-private = x;
+p\u0072ivate = x;
+
 ```
 
 ### Diagnostics

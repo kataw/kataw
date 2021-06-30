@@ -1570,7 +1570,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                         "start": 341,
                         "end": 342
                     },
-                    "flags": 536870944,
+                    "flags": 96,
                     "start": 338,
                     "end": 342
                 },
@@ -1598,7 +1598,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                         "start": 347,
                         "end": 348
                     },
-                    "flags": 536870944,
+                    "flags": 96,
                     "start": 344,
                     "end": 348
                 },
@@ -1647,7 +1647,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                     "chain": {
                         "kind": 302,
                         "chain": {
-                            "kind": 536871114,
+                            "kind": 202,
                             "chain": null,
                             "expression": {
                                 "kind": 134299649,
@@ -1657,7 +1657,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                                 "start": 357,
                                 "end": 358
                             },
-                            "flags": 32,
+                            "flags": 536870944,
                             "start": 357,
                             "end": 358
                         },
@@ -1694,7 +1694,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                     "chain": {
                         "kind": 302,
                         "chain": {
-                            "kind": 536871114,
+                            "kind": 202,
                             "chain": null,
                             "expression": {
                                 "kind": 134299649,
@@ -1704,7 +1704,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                                 "start": 364,
                                 "end": 365
                             },
-                            "flags": 32,
+                            "flags": 536870944,
                             "start": 364,
                             "end": 365
                         },
@@ -2232,7 +2232,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                             "start": 466,
                             "end": 467
                         },
-                        "flags": 536870944,
+                        "flags": 96,
                         "start": 463,
                         "end": 467
                     },
@@ -2317,7 +2317,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                             "start": 482,
                             "end": 483
                         },
-                        "flags": 536870944,
+                        "flags": 96,
                         "start": 479,
                         "end": 483
                     },
@@ -2672,7 +2672,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                     "chain": {
                         "kind": 302,
                         "chain": {
-                            "kind": 536871114,
+                            "kind": 202,
                             "chain": null,
                             "expression": {
                                 "kind": 134299649,
@@ -2682,7 +2682,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                                 "start": 549,
                                 "end": 550
                             },
-                            "flags": 32,
+                            "flags": 536870944,
                             "start": 549,
                             "end": 550
                         },
@@ -2718,7 +2718,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                         "start": 555,
                         "end": 556
                     },
-                    "flags": 536870944,
+                    "flags": 96,
                     "start": 552,
                     "end": 556
                 },
@@ -3047,7 +3047,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                             "start": 621,
                             "end": 622
                         },
-                        "flags": 536870944,
+                        "flags": 96,
                         "start": 618,
                         "end": 622
                     },
@@ -3132,7 +3132,7 @@ a ? b.c(d + e[f]) : b.c(d + e[g]);
                             "start": 637,
                             "end": 638
                         },
-                        "flags": 536870944,
+                        "flags": 96,
                         "start": 634,
                         "end": 638
                     },
@@ -3228,27 +3228,28 @@ a ? c : b || c;
 a = b == null ? c : b;
 a = b != null ? b : c;
 a(b ? 0 : 0);
-a(b ? +0 : -0);
-a(b ? +0 : 0);
-a(b ? -0 : 0);
+a(b ? + 0 : - 0);
+a(b ? + 0 : 0);
+a(b ? - 0 : 0);
 a ? b : b;
-a ? -b : -b;
+a ? - b : - b;
 a ? b.c : b.c;
-a ?  : ;
+a ? b?.c : b?.c;
 a ? b[c] : b[c];
 a ? b() : b();
-a ?  : ;
-a ?  : ;
+a ? b?.() : b?.();
+a ? b?.[c] : b?.[c];
 a ? b == c : b == c;
 a ? b.c(d + e[f]) : b.c(d + e[f]);
-a ? -b : !b;
+a ? - b : ! b;
 a ? b() : b(c);
 a ? b(c) : b(d);
-a ?  : b.c;
-a ?  : b();
-a ?  : b[c];
+a ? b?.c : b.c;
+a ? b?.() : b();
+a ? b?.[c] : b[c];
 a ? b == c : b != c;
 a ? b.c(d + e[f]) : b.c(d + e[g]);
+
 ```
 
 ### Diagnostics

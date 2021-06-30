@@ -55,7 +55,7 @@ var obj: {str:string; i:number; j:boolean} = {str: "...", i: "...", k: false};
                                     {
                                         "kind": 193,
                                         "protoKeyword": null,
-                                        "staticToken": null,
+                                        "staticKeyword": null,
                                         "getKeyword": null,
                                         "setKeyword": null,
                                         "key": {
@@ -88,7 +88,7 @@ var obj: {str:string; i:number; j:boolean} = {str: "...", i: "...", k: false};
                                     {
                                         "kind": 193,
                                         "protoKeyword": null,
-                                        "staticToken": null,
+                                        "staticKeyword": null,
                                         "getKeyword": null,
                                         "setKeyword": null,
                                         "key": {
@@ -121,7 +121,7 @@ var obj: {str:string; i:number; j:boolean} = {str: "...", i: "...", k: false};
                                     {
                                         "kind": 193,
                                         "protoKeyword": null,
-                                        "staticToken": null,
+                                        "staticKeyword": null,
                                         "getKeyword": null,
                                         "setKeyword": null,
                                         "key": {
@@ -270,7 +270,8 @@ var obj: {str:string; i:number; j:boolean} = {str: "...", i: "...", k: false};
 
 ```javascript
 
-var obj:  = { str: "\"...\"", i: "\"...\"", k: false };
+var obj: { str: string, i: number, j: boolean } = { str : "\"...\"", i : "\"...\"", k : false };
+
 ```
 
 ### Diagnostics

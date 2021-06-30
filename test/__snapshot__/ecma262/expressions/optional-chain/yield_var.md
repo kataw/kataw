@@ -135,7 +135,8 @@
 
 ```javascript
 
-() =>  y;
+(x = a?.(yield)) => y;
+
 ```
 
 ### Diagnostics

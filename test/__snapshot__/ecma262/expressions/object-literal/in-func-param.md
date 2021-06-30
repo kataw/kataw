@@ -108,8 +108,8 @@ function test({...{}}) {}
                 ],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 13,
-                "end": 22
+                "start": 14,
+                "end": 21
             },
             "contents": {
                 "kind": 216,

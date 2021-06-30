@@ -125,8 +125,8 @@ function *f(x = (instanceof) = f) {}
                 ],
                 "trailingComma": false,
                 "flags": 34,
-                "start": 11,
-                "end": 33
+                "start": 12,
+                "end": 32
             },
             "contents": {
                 "kind": 216,

@@ -496,13 +496,14 @@ var a: (?number)[];
 
 ```javascript
 
-var a: [ number ];
-var a: [  ];
-var a: ;
-var a: [ [ number ] ];
+var a: number[];
+var a: (() => number)[];
+var a: () => number[];
+var a: number[][];
 var a: number;
 [];
-var a: [  ];
+var a: (?number)[];
+
 ```
 
 ### Diagnostics

@@ -123,8 +123,8 @@ function *f(x = delete ((let) = f)) {}
                 ],
                 "trailingComma": false,
                 "flags": 34,
-                "start": 11,
-                "end": 35
+                "start": 12,
+                "end": 34
             },
             "contents": {
                 "kind": 216,
@@ -159,7 +159,8 @@ function *f(x = delete ((let) = f)) {}
 
 ```javascript
 
-function * f() {}
+function* f(x = delete  ((let) = f)) { }
+
 ```
 
 ### Diagnostics

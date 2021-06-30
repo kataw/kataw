@@ -120,7 +120,8 @@ async ({ident: {x: y}})
 
 ```javascript
 
-async({ ident: { x: y } })
+async({ ident : { x : y } })
+
 ```
 
 ### Diagnostics

@@ -151,7 +151,7 @@ Object.defineProperty(this, "x", {
                         "start": 42,
                         "end": 56
                     },
-                    "flags": 536870944,
+                    "flags": 96,
                     "start": 33,
                     "end": 56
                 },
@@ -268,8 +268,8 @@ Object.defineProperty(this, "x", {
                             "formalParameters": [],
                             "trailingComma": false,
                             "flags": 32,
-                            "start": 117,
-                            "end": 119
+                            "start": 118,
+                            "end": 118
                         },
                         "contents": {
                             "kind": 216,
@@ -308,7 +308,7 @@ Object.defineProperty(this, "x", {
                                                     "start": 147,
                                                     "end": 153
                                                 },
-                                                "flags": 536870944,
+                                                "flags": 96,
                                                 "start": 137,
                                                 "end": 153
                                             },
@@ -423,7 +423,7 @@ Object.defineProperty(this, "x", {
                                                                                                     "start": 214,
                                                                                                     "end": 215
                                                                                                 },
-                                                                                                "flags": 536870944,
+                                                                                                "flags": 96,
                                                                                                 "start": 206,
                                                                                                 "end": 215
                                                                                             },
@@ -585,15 +585,20 @@ Object.defineProperty(this, "x", {
 
 var count = 0;
 var global = this;
-Object.defineProperty(this, "\"x\"", { configurable: true, value: 1 });
+Object.defineProperty(this, "\"x\"", {
+  configurable : true,
+  value : 1
+});
 (function () {
-    assert.throws(ReferenceError, () =>  {
-        count++;
-        x = (delete global.x, 2);
-        count++;
-      });
+"\"use strict\"";
+  assert.throws(ReferenceError, () =>  {
     count++;
-  })();
+    x = (delete  global.x, 2);
+    count++;
+  });
+  count++;
+})();
+
 ```
 
 ### Diagnostics

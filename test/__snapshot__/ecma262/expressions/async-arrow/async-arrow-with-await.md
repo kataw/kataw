@@ -156,7 +156,8 @@ var x = async (a, b) => await a + b;
 
 ```javascript
 
-var x = async  =>  await a + b;
+var x = async (a, b) => await a + b;
+
 ```
 
 ### Diagnostics

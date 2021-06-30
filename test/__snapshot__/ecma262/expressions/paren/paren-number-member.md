@@ -27,7 +27,7 @@
                             "kind": 201392130,
                             "text": 4,
                             "rawText": "4.",
-                            "flags": 96,
+                            "flags": 32864,
                             "start": 1,
                             "end": 3
                         },
@@ -39,7 +39,7 @@
                             "start": 4,
                             "end": 5
                         },
-                        "flags": 536870944,
+                        "flags": 32864,
                         "start": 1,
                         "end": 5
                     },
@@ -77,7 +77,8 @@
 
 ```javascript
 
-(4.x)();
+(4..x)();
+
 ```
 
 ### Diagnostics

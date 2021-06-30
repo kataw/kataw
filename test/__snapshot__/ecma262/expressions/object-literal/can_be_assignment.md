@@ -74,7 +74,7 @@ x = {...a=b}
                                     "start": 8,
                                     "end": 11
                                 },
-                                "flags": 32,
+                                "flags": 1073741856,
                                 "start": 5,
                                 "end": 11
                             }
@@ -111,6 +111,7 @@ x = {...a=b}
 ```javascript
 
 x = { ...a = b };
+
 ```
 
 ### Diagnostics

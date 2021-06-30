@@ -154,8 +154,8 @@ class C {
                                                             ],
                                                             "trailingComma": false,
                                                             "flags": 32,
-                                                            "start": 34,
-                                                            "end": 67
+                                                            "start": 35,
+                                                            "end": 66
                                                         },
                                                         "contents": {
                                                             "kind": 216,
@@ -333,8 +333,8 @@ class C {
                                                                     ],
                                                                     "trailingComma": false,
                                                                     "flags": 32,
-                                                                    "start": 128,
-                                                                    "end": 163
+                                                                    "start": 130,
+                                                                    "end": 162
                                                                 },
                                                                 "contents": {
                                                                     "kind": 216,
@@ -423,7 +423,7 @@ class C {
                                                         "start": 218,
                                                         "end": 222
                                                     },
-                                                    "flags": 536870944,
+                                                    "flags": 268435488,
                                                     "start": 111,
                                                     "end": 222
                                                 },
@@ -532,8 +532,8 @@ class C {
                                                             ],
                                                             "trailingComma": false,
                                                             "flags": 32,
-                                                            "start": 246,
-                                                            "end": 285
+                                                            "start": 248,
+                                                            "end": 284
                                                         },
                                                         "contents": {
                                                             "kind": 216,
@@ -659,8 +659,8 @@ class C {
 ```javascript
 
 class C {
-
 }
+
 ```
 
 ### Diagnostics

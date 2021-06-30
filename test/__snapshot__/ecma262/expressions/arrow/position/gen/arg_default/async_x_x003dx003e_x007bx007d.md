@@ -108,8 +108,8 @@ function f(a = async x => {}) {}
                 ],
                 "trailingComma": false,
                 "flags": 34,
-                "start": 10,
-                "end": 29
+                "start": 11,
+                "end": 28
             },
             "contents": {
                 "kind": 216,
@@ -144,7 +144,8 @@ function f(a = async x => {}) {}
 
 ```javascript
 
-function f() {}
+function f(a = async x =>  { }) { }
+
 ```
 
 ### Diagnostics

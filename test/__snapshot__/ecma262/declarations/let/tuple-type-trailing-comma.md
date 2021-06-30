@@ -119,7 +119,8 @@ let x: [y,] = z;
 
 ```javascript
 
-let x:  [:  ] = z;
+let x: [y,] = z;
+
 ```
 
 ### Diagnostics

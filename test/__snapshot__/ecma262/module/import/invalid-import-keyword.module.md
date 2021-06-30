@@ -110,7 +110,8 @@ import { for } from "iteration"
 
 ```javascript
 
-import { for }  ;
+import {  for, } from "\"iteration\"";
+
 ```
 
 ### Diagnostics

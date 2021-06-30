@@ -95,6 +95,12 @@ type B = Foo<
                                 "start": 10,
                                 "end": 18
                             },
+                            "assignToken": {
+                                "kind": 4125,
+                                "flags": 64,
+                                "start": 18,
+                                "end": 20
+                            },
                             "defaultType": {
                                 "kind": 139,
                                 "bitwiseOrToken": null,
@@ -189,6 +195,7 @@ type B = Foo<
                                 "end": 44
                             },
                             "type": null,
+                            "assignToken": null,
                             "defaultType": null,
                             "flags": 2097152,
                             "start": 43,
@@ -229,6 +236,12 @@ type B = Foo<
                                 "flags": 2097152,
                                 "start": 48,
                                 "end": 56
+                            },
+                            "assignToken": {
+                                "kind": 4125,
+                                "flags": 64,
+                                "start": 56,
+                                "end": 58
                             },
                             "defaultType": {
                                 "kind": 139,
@@ -324,6 +337,12 @@ type B = Foo<
                                 "end": 82
                             },
                             "type": null,
+                            "assignToken": {
+                                "kind": 4125,
+                                "flags": 64,
+                                "start": 82,
+                                "end": 84
+                            },
                             "defaultType": {
                                 "kind": 139,
                                 "bitwiseOrToken": null,
@@ -377,6 +396,12 @@ type B = Foo<
                                 "flags": 2097152,
                                 "start": 95,
                                 "end": 103
+                            },
+                            "assignToken": {
+                                "kind": 4125,
+                                "flags": 64,
+                                "start": 103,
+                                "end": 105
                             },
                             "defaultType": {
                                 "kind": 139,
@@ -500,7 +525,7 @@ type B = Foo<
                                                     {
                                                         "kind": 193,
                                                         "protoKeyword": null,
-                                                        "staticToken": null,
+                                                        "staticKeyword": null,
                                                         "getKeyword": null,
                                                         "setKeyword": null,
                                                         "key": {
@@ -519,6 +544,7 @@ type B = Foo<
                                                             "type": {
                                                                 "kind": 134217967,
                                                                 "text": "A",
+                                                                "rawText": "\"A\"",
                                                                 "flags": 2097216,
                                                                 "start": 144,
                                                                 "end": 148
@@ -543,7 +569,7 @@ type B = Foo<
                                                     {
                                                         "kind": 193,
                                                         "protoKeyword": null,
-                                                        "staticToken": null,
+                                                        "staticKeyword": null,
                                                         "getKeyword": null,
                                                         "setKeyword": null,
                                                         "key": {
@@ -562,6 +588,7 @@ type B = Foo<
                                                             "type": {
                                                                 "kind": 134217967,
                                                                 "text": "B",
+                                                                "rawText": "\"B\"",
                                                                 "flags": 2097216,
                                                                 "start": 160,
                                                                 "end": 164
@@ -672,7 +699,7 @@ type B = Foo<
                                                     {
                                                         "kind": 193,
                                                         "protoKeyword": null,
-                                                        "staticToken": null,
+                                                        "staticKeyword": null,
                                                         "getKeyword": null,
                                                         "setKeyword": null,
                                                         "key": {
@@ -691,6 +718,7 @@ type B = Foo<
                                                             "type": {
                                                                 "kind": 134217967,
                                                                 "text": "A",
+                                                                "rawText": "\"A\"",
                                                                 "flags": 2097216,
                                                                 "start": 194,
                                                                 "end": 198
@@ -715,7 +743,7 @@ type B = Foo<
                                                     {
                                                         "kind": 193,
                                                         "protoKeyword": null,
-                                                        "staticToken": null,
+                                                        "staticKeyword": null,
                                                         "getKeyword": null,
                                                         "setKeyword": null,
                                                         "key": {
@@ -734,6 +762,7 @@ type B = Foo<
                                                             "type": {
                                                                 "kind": 134217967,
                                                                 "text": "B",
+                                                                "rawText": "\"B\"",
                                                                 "flags": 2097216,
                                                                 "start": 210,
                                                                 "end": 214
@@ -797,10 +826,11 @@ type B = Foo<
 
 ```javascript
 
-
-
-
-
+type A3<T: ?string= string> = T
+type A4<S, T: ?string= string> = T
+type A5<S= number, T: ?string= string> = T
+type A = Foo<| { type: "\"A\"" } | { type: "\"B\"" }>
+type B = Foo<& { type: "\"A\"" } & { type: "\"B\"" }>
 
 ```
 

@@ -92,7 +92,7 @@
                                 "start": 4,
                                 "end": 11
                             },
-                            "flags": 32,
+                            "flags": 1073741856,
                             "start": 1,
                             "end": 11
                         }

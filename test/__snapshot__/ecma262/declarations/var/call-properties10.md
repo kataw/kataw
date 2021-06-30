@@ -55,7 +55,7 @@ var g: { (x: string): void } = function(x: mixed) { }
                                     {
                                         "kind": 196,
                                         "protoKeyword": null,
-                                        "staticToken": null,
+                                        "staticKeyword": null,
                                         "typeParameter": null,
                                         "value": {
                                             "kind": 282,
@@ -182,8 +182,8 @@ var g: { (x: string): void } = function(x: mixed) { }
                                 ],
                                 "trailingComma": false,
                                 "flags": 32,
-                                "start": 39,
-                                "end": 49
+                                "start": 40,
+                                "end": 48
                             },
                             "contents": {
                                 "kind": 216,
@@ -231,7 +231,8 @@ var g: { (x: string): void } = function(x: mixed) { }
 
 ```javascript
 
-var g:  = function () {};
+var g: { (x: string): void } = function (x: mixed) { };
+
 ```
 
 ### Diagnostics

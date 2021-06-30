@@ -121,7 +121,8 @@
 
 ```javascript
 
-() =>  0;
+([0,]: string) => 0;
+
 ```
 
 ### Diagnostics

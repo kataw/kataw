@@ -101,10 +101,11 @@
 
 ```javascript
 
-() =>  {};
+() =>  { };
 {
   x;
 }
+
 ```
 
 ### Diagnostics

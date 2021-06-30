@@ -264,7 +264,7 @@
                         "start": 137,
                         "end": 140
                     },
-                    "flags": 536870944,
+                    "flags": 96,
                     "start": 132,
                     "end": 140
                 },
@@ -577,25 +577,27 @@
 
 ```javascript
 
-delete this;
 "\"use strict\"";
-delete 1;
+delete  this;
 "\"use strict\"";
-delete foo();
+delete  1;
 "\"use strict\"";
-delete 1 + 2;
+delete  foo();
 "\"use strict\"";
-delete foo.bar;
+delete  1 + 2;
 "\"use strict\"";
-delete foo[bar];
+delete  foo.bar;
 "\"use strict\"";
-delete foo--;
+delete  foo[bar];
 "\"use strict\"";
-delete --foo;
+delete  foo--;
 "\"use strict\"";
-delete new  foo();
+delete  --foo;
 "\"use strict\"";
-delete new  foo(bar);
+delete  new foo();
+"\"use strict\"";
+delete  new foo(bar);
+
 ```
 
 ### Diagnostics

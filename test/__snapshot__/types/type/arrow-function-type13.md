@@ -224,6 +224,7 @@ type a = (a[a & b][][][][][]) => T;
 
 ```javascript
 
+type a = (a[a & b][][][][][]) => T
 
 ```
 

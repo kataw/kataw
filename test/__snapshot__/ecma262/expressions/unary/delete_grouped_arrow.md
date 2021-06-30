@@ -93,7 +93,8 @@ delete ((x) => x)
 
 ```javascript
 
-delete (() =>  x);
+delete  ((x) => x);
+
 ```
 
 ### Diagnostics

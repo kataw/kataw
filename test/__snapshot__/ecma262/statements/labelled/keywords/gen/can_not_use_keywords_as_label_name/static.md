@@ -72,6 +72,7 @@ static: x
 ```javascript
 
 static: x;
+
 ```
 
 ### Diagnostics

@@ -125,9 +125,11 @@
 
 ```javascript
 
+'\'use strict\'';
 let {
   eval: x
 } = {};
+
 ```
 
 ### Diagnostics

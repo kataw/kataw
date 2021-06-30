@@ -62,6 +62,7 @@ export default 15;
 ```javascript
 
 export default 15;
+
 ```
 
 ### Diagnostics

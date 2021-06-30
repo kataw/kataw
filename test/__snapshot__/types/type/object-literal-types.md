@@ -159,7 +159,7 @@ type T9 = { [param: string]: U };
                         {
                             "kind": 247,
                             "protoKeyword": null,
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "ellipsisToken": {
                                 "kind": 524302,
                                 "flags": 64,
@@ -241,7 +241,7 @@ type T9 = { [param: string]: U };
                         {
                             "kind": 247,
                             "protoKeyword": null,
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "ellipsisToken": {
                                 "kind": 524302,
                                 "flags": 64,
@@ -278,7 +278,7 @@ type T9 = { [param: string]: U };
                         {
                             "kind": 247,
                             "protoKeyword": null,
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "ellipsisToken": {
                                 "kind": 524302,
                                 "flags": 64,
@@ -360,7 +360,7 @@ type T9 = { [param: string]: U };
                         {
                             "kind": 193,
                             "protoKeyword": null,
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "getKeyword": null,
                             "setKeyword": null,
                             "key": {
@@ -402,7 +402,7 @@ type T9 = { [param: string]: U };
                         {
                             "kind": 247,
                             "protoKeyword": null,
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "ellipsisToken": {
                                 "kind": 524302,
                                 "flags": 64,
@@ -484,7 +484,7 @@ type T9 = { [param: string]: U };
                         {
                             "kind": 247,
                             "protoKeyword": null,
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "ellipsisToken": {
                                 "kind": 524302,
                                 "flags": 64,
@@ -521,7 +521,7 @@ type T9 = { [param: string]: U };
                         {
                             "kind": 193,
                             "protoKeyword": null,
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "getKeyword": null,
                             "setKeyword": null,
                             "key": {
@@ -608,7 +608,7 @@ type T9 = { [param: string]: U };
                         {
                             "kind": 247,
                             "protoKeyword": null,
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "ellipsisToken": {
                                 "kind": 524302,
                                 "flags": 64,
@@ -636,7 +636,7 @@ type T9 = { [param: string]: U };
                                                 {
                                                     "kind": 193,
                                                     "protoKeyword": null,
-                                                    "staticToken": null,
+                                                    "staticKeyword": null,
                                                     "getKeyword": null,
                                                     "setKeyword": null,
                                                     "key": {
@@ -742,7 +742,7 @@ type T9 = { [param: string]: U };
                         {
                             "kind": 193,
                             "protoKeyword": null,
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "getKeyword": null,
                             "setKeyword": null,
                             "key": {
@@ -835,7 +835,7 @@ type T9 = { [param: string]: U };
                         {
                             "kind": 193,
                             "protoKeyword": null,
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "getKeyword": null,
                             "setKeyword": null,
                             "key": {
@@ -942,7 +942,7 @@ type T9 = { [param: string]: U };
                         {
                             "kind": 195,
                             "protoKeyword": null,
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "name": null,
                             "key": {
                                 "kind": 134234347,
@@ -1025,7 +1025,7 @@ type T9 = { [param: string]: U };
                         {
                             "kind": 195,
                             "protoKeyword": null,
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "name": {
                                 "kind": 134299649,
                                 "text": "param",
@@ -1103,16 +1103,21 @@ type T9 = { [param: string]: U };
 
 ```javascript
 
-
-
-
-
-
-
-
-
-
-
+type U = {}
+type V = {}
+type T1 = { ...U }
+type T2 = { ...U, ...V }
+type T3 = { p: V, ...U }
+type T4 = { ...U, p: V }
+type T5 = { ...{} | { p: V } }
+type T6 = { foo(): number }
+type T7 = { foo: () => number }
+type T8 = { [string]: U }
+type T9 = { [paramstring]: U }
+ //type T10 = { ... };
+//type T11 = { a: { b: { c: {...}, ... }, ... } }
+//type T12 = { foo: number, ... };
+//type T13 = { foo: number, bar: string, ... };
 
 ```
 

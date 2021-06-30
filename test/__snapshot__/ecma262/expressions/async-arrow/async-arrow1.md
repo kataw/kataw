@@ -50,6 +50,7 @@ async <T>(fn: () => T) => fn;
                                     "end": 8
                                 },
                                 "type": null,
+                                "assignToken": null,
                                 "defaultType": null,
                                 "flags": 2097152,
                                 "start": 7,
@@ -180,7 +181,8 @@ async <T>(fn: () => T) => fn;
 
 ```javascript
 
-async  =>  fn;
+async <T>(fn: () => T) => fn;
+
 ```
 
 ### Diagnostics

@@ -114,6 +114,7 @@ let {
   x,
   ...y
 } = z;
+
 ```
 
 ### Diagnostics

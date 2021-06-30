@@ -462,7 +462,7 @@ class A {
                             "kind": 280,
                             "decorators": null,
                             "declaredToken": null,
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "asyncKeyword": null,
                             "key": {
                                 "kind": 134299649,
@@ -534,7 +534,7 @@ class A {
                             "kind": 280,
                             "decorators": null,
                             "declaredToken": null,
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "asyncKeyword": null,
                             "key": {
                                 "kind": 134299649,
@@ -606,7 +606,7 @@ class A {
                             "kind": 280,
                             "decorators": null,
                             "declaredToken": null,
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "asyncKeyword": null,
                             "key": {
                                 "kind": 134299649,
@@ -678,7 +678,7 @@ class A {
                             "kind": 280,
                             "decorators": null,
                             "declaredToken": null,
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "asyncKeyword": null,
                             "key": {
                                 "kind": 134299649,
@@ -750,7 +750,7 @@ class A {
                             "kind": 280,
                             "decorators": null,
                             "declaredToken": null,
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "asyncKeyword": null,
                             "key": {
                                 "kind": 134299649,
@@ -822,7 +822,7 @@ class A {
                             "kind": 280,
                             "decorators": null,
                             "declaredToken": null,
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "asyncKeyword": null,
                             "key": {
                                 "kind": 134299649,
@@ -894,7 +894,7 @@ class A {
                             "kind": 280,
                             "decorators": null,
                             "declaredToken": null,
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "asyncKeyword": null,
                             "key": {
                                 "kind": 134299649,
@@ -915,7 +915,7 @@ class A {
                             "kind": 280,
                             "decorators": null,
                             "declaredToken": null,
-                            "staticToken": null,
+                            "staticKeyword": null,
                             "asyncKeyword": null,
                             "key": {
                                 "kind": 134299649,
@@ -1011,29 +1011,30 @@ class A {
 ```javascript
 
 class A {
-  get() {}
-  set() {}
-  static() {}
-  async() {}
-  "'get'"() {}
-  "'set'"() {}
-  "'async'"() {}
-  static;
-  get() {}
-  static;
-  set() {}
-  static;
-  static() {}
-  static;
-  async() {}
-  static;
-  a() {}
-  get;
-  async() {}
-  static;
-  get;
-  static() {}
+  get() { }
+  set() { }
+  static() { }
+  async() { }
+  '\'get\''() { }
+  '\'set\''() { }
+  '\'async\''() { }
+  static
+  get() { }
+  static
+  set() { }
+  static
+  static() { }
+  static
+  async() { }
+  static
+  a() { }
+  get
+  async() { }
+  static
+  get
+  static() { }
 }
+
 ```
 
 ### Diagnostics

@@ -50,7 +50,7 @@ var a: 0x5E1719E3Bn
                             "type": {
                                 "kind": 286,
                                 "text": 25257156155,
-                                "raw": "0x5E1719E3Bn",
+                                "rawText": "0x5E1719E3Bn",
                                 "flags": 2097216,
                                 "start": 6,
                                 "end": 19
@@ -87,7 +87,8 @@ var a: 0x5E1719E3Bn
 
 ```javascript
 
-var a: ;
+var a: 0x5e1719e3bn;
+
 ```
 
 ### Diagnostics

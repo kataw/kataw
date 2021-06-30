@@ -56,7 +56,7 @@ new fooo.bar
                     "start": 9,
                     "end": 12
                 },
-                "flags": 536870944,
+                "flags": 96,
                 "start": 0,
                 "end": 12
             },
@@ -78,7 +78,8 @@ new fooo.bar
 
 ```javascript
 
-new  fooo().bar;
+new fooo.bar;
+
 ```
 
 ### Diagnostics

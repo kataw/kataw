@@ -127,7 +127,8 @@
 
 ```javascript
 
-async /* 1 */  /* 8 */ =>  {}
+async/* 1 */ (x/* 2 */?/* 3 */:/* 3 */ string/* 5 */) =>/* 9 */  { }
+
 ```
 
 ### Diagnostics

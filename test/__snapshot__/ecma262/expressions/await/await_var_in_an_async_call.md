@@ -67,6 +67,7 @@ async(await);
 ```javascript
 
 async(await)
+;
 
 ```
 

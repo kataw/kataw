@@ -53,8 +53,8 @@ async function f() { let a; for await ({[Symbol.iterator]: a} of []) ; }
                 "formalParameters": [],
                 "trailingComma": false,
                 "flags": 32,
-                "start": 16,
-                "end": 18
+                "start": 17,
+                "end": 17
             },
             "contents": {
                 "kind": 216,
@@ -140,7 +140,7 @@ async function f() { let a; for await ({[Symbol.iterator]: a} of []) ; }
                                                         "start": 48,
                                                         "end": 56
                                                     },
-                                                    "flags": 536870944,
+                                                    "flags": 96,
                                                     "start": 41,
                                                     "end": 56
                                                 },
@@ -228,10 +228,9 @@ async function f() { let a; for await ({[Symbol.iterator]: a} of []) ; }
 
 ```javascript
 
-async function f() {
-  let a;
-  for await ({ [Symbol.iterator]: a } of []);
-}
+async function f() { let a; for await ({ [Symbol.iterator] : a } of [])
+  ; }
+
 ```
 
 ### Diagnostics

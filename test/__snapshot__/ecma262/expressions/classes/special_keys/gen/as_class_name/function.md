@@ -75,11 +75,26 @@ class function {}
             "typeParameters": null,
             "formalParameterList": {
                 "kind": 214,
-                "formalParameters": [],
+                "formalParameters": [
+                    {
+                        "kind": 212,
+                        "propertyList": {
+                            "kind": 213,
+                            "properties": [],
+                            "trailingComma": false,
+                            "flags": 32,
+                            "start": 16,
+                            "end": 16
+                        },
+                        "flags": 32,
+                        "start": 14,
+                        "end": 17
+                    }
+                ],
                 "trailingComma": false,
                 "flags": 32,
                 "start": 14,
-                "end": 14
+                "end": 17
             },
             "contents": {
                 "kind": 216,
@@ -88,11 +103,11 @@ class function {}
                     "directives": [],
                     "statements": [],
                     "flags": 32,
-                    "start": 16,
-                    "end": 16
+                    "start": 17,
+                    "end": 17
                 },
                 "flags": 32,
-                "start": 14,
+                "start": 17,
                 "end": 17
             },
             "returnType": null,
@@ -122,6 +137,7 @@ class function {}
 ✖ Binding identifier expected - start: 5, end: 14
 ✖ Binding identifier expected - start: 14, end: 16
 ✖ Missing an opening parentheses - '( - start: 15, end: 16
+✖ ',' expected - start: 16, end: 17
 
 ```
 

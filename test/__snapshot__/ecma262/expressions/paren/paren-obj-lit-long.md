@@ -51,7 +51,7 @@
                                                 "start": 5,
                                                 "end": 10
                                             },
-                                            "flags": 32,
+                                            "flags": 1073741856,
                                             "start": 2,
                                             "end": 10
                                         }
@@ -112,7 +112,7 @@
                                                 "start": 24,
                                                 "end": 27
                                             },
-                                            "flags": 32,
+                                            "flags": 1073741856,
                                             "start": 21,
                                             "end": 27
                                         }
@@ -183,11 +183,11 @@
                                                     "start": 45,
                                                     "end": 46
                                                 },
-                                                "flags": 536870944,
+                                                "flags": 96,
                                                 "start": 41,
                                                 "end": 46
                                             },
-                                            "flags": 32,
+                                            "flags": 1073741856,
                                             "start": 38,
                                             "end": 46
                                         }
@@ -264,11 +264,11 @@
                                                     "start": 63,
                                                     "end": 64
                                                 },
-                                                "flags": 536870944,
+                                                "flags": 48,
                                                 "start": 60,
                                                 "end": 64
                                             },
-                                            "flags": 32,
+                                            "flags": 1073741856,
                                             "start": 57,
                                             "end": 64
                                         }
@@ -345,11 +345,11 @@
                                                     "start": 81,
                                                     "end": 82
                                                 },
-                                                "flags": 536870944,
+                                                "flags": 32,
                                                 "start": 78,
                                                 "end": 82
                                             },
-                                            "flags": 32,
+                                            "flags": 1073741856,
                                             "start": 75,
                                             "end": 82
                                         }
@@ -408,11 +408,8 @@
 
 ```javascript
 
-({ ...(obj) } = foo),
-  ({ ...obj } = foo),
-  ({ ...obj.x } = foo),
-  ({ ...{}.x } = foo),
-  ({ ...[].x } = foo);
+({ ...(obj) } = foo), ({ ...obj } = foo), ({ ...obj.x } = foo), ({ ...{}.x } = foo), ({ ...[].x } = foo);
+
 ```
 
 ### Diagnostics

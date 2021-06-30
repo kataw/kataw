@@ -72,6 +72,7 @@ type a = (&1,|2&3, ) => T;
                                     "type": {
                                         "kind": 134217968,
                                         "text": 1,
+                                        "rawText": "1",
                                         "flags": 2097216,
                                         "start": 11,
                                         "end": 12
@@ -106,6 +107,7 @@ type a = (&1,|2&3, ) => T;
                                             {
                                                 "kind": 134217968,
                                                 "text": 2,
+                                                "rawText": "2",
                                                 "flags": 2097216,
                                                 "start": 14,
                                                 "end": 15
@@ -113,6 +115,7 @@ type a = (&1,|2&3, ) => T;
                                             {
                                                 "kind": 134217968,
                                                 "text": 3,
+                                                "rawText": "3",
                                                 "flags": 2097216,
                                                 "start": 16,
                                                 "end": 17
@@ -191,6 +194,7 @@ type a = (&1,|2&3, ) => T;
 
 ```javascript
 
+type a = (& 1, | 2 & 3,) => T
 
 ```
 

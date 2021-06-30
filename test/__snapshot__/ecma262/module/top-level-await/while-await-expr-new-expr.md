@@ -90,8 +90,8 @@ while (await new Promise(function(res, rej) { res(1); })) { break; }
                                     ],
                                     "trailingComma": false,
                                     "flags": 32,
-                                    "start": 33,
-                                    "end": 43
+                                    "start": 34,
+                                    "end": 42
                                 },
                                 "contents": {
                                     "kind": 216,
@@ -209,9 +209,10 @@ while (await new Promise(function(res, rej) { res(1); })) { break; }
 
 ```javascript
 
-while (await new  Promise(function () {
-    res(1);
-  })) {}
+while (await new Promise(function (res, rej) { res(1); })) {
+  break;
+}
+
 ```
 
 ### Diagnostics

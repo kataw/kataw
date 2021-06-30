@@ -176,7 +176,8 @@ let x: (this) => void = () => {}
 
 ```javascript
 
-let x:  = () =>  {};
+let x: (this) => void = () =>  { };
+
 ```
 
 ### Diagnostics

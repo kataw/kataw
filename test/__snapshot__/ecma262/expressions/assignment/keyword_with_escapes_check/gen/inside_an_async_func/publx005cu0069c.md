@@ -114,9 +114,8 @@ async () => {  publ\u0069c = x  }
 
 ```javascript
 
-async  =>  {
-  public = x;
-}
+async () =>  { publ\u0069c = x; }
+
 ```
 
 ### Diagnostics

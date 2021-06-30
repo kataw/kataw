@@ -55,7 +55,7 @@ var a : { (): number }
                                     {
                                         "kind": 196,
                                         "protoKeyword": null,
-                                        "staticToken": null,
+                                        "staticKeyword": null,
                                         "typeParameter": null,
                                         "value": {
                                             "kind": 282,
@@ -121,7 +121,8 @@ var a : { (): number }
 
 ```javascript
 
-var a: ;
+var a: { (): number };
+
 ```
 
 ### Diagnostics

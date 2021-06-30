@@ -129,7 +129,8 @@
 
 ```javascript
 
-[a, b = [x, y]] = z;
+[a, b = [x, y,],] = z;
+
 ```
 
 ### Diagnostics
