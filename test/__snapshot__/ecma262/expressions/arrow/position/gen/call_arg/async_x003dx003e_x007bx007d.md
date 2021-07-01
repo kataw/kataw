@@ -103,7 +103,7 @@ foo(async => {})
 
 ```javascript
 
-foo(async =>  {});
+foo(async => {});
 
 ```
 

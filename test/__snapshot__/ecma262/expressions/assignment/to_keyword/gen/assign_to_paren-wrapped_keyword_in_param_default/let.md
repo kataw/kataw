@@ -131,7 +131,7 @@ async (x = (let) = f) => {}
 
 ```javascript
 
-async (x = (let) = f) =>  {}
+async (x = (let) = f) => {}
 
 ```
 

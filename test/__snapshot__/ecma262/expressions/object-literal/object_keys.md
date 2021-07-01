@@ -559,11 +559,11 @@ Object.keys(y).map(k => { return {[k]: k} });
 ```javascript
 
 const x = { foo : 3 };
-Object.keys(x).map(k =>  {
+Object.keys(x).map(k => {
   return { [k] : k };
 });
 const y = { foo : 3, bar : 3 };
-Object.keys(y).map(k =>  {
+Object.keys(y).map(k => {
   return { [k] : k };
 });
 

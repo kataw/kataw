@@ -149,7 +149,7 @@ async (x = delete ((yield) = f)) => {}
 
 ```javascript
 
-async (x = delete  ((yield) = f)) =>  {}
+async (x = delete  ((yield) = f)) => {}
 
 ```
 

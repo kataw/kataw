@@ -117,7 +117,7 @@ bar, x => { return x; };
 
 ```javascript
 
-bar, x =>  {
+bar, x => {
   return x;
 };
 

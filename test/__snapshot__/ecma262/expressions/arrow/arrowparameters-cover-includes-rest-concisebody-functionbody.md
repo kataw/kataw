@@ -192,7 +192,7 @@ var af = (x, ...y) => { return [x, y.length]; };
 
 ```javascript
 
-var af = (x, ...y) =>  {
+var af = (x, ...y) => {
   return [x, y.length,];
 };
 

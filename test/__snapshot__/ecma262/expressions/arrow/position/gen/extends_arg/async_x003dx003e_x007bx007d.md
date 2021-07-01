@@ -123,7 +123,7 @@ class A extends async => {} {}
 
 ```javascript
 
-class A extends async =>  {} {
+class A extends async => {} {
 }
 
 ```

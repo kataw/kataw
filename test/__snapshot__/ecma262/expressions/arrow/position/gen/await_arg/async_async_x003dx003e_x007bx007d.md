@@ -153,7 +153,7 @@ async function f() {
 ```javascript
 
 async function f() {
-  await async async =>  {};
+  await async async => {};
 }
 
 ```

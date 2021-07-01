@@ -2321,7 +2321,7 @@ this.steps = steps && checkStep || [
     path : '\'/nux/mock-module\'',
   },
 ];
-const create = () =>  {
+const create = () => {
   const result = doSomething();
   return (shouldReturn && result.ok && {
     status : '"ok"',
@@ -2329,7 +2329,7 @@ const create = () =>  {
     updatedAt : result.updatedAt
   });
 };
-const create2 = () =>  {
+const create2 = () => {
   const result = doSomething();
   return (shouldReturn && result.ok && result || {
     status : '"ok"',

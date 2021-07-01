@@ -122,7 +122,7 @@ foo(async async => {}).bar
 
 ```javascript
 
-foo(async async =>  {}).bar;
+foo(async async => {}).bar;
 
 ```
 

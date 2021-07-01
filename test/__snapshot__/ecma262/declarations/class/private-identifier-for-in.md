@@ -164,7 +164,7 @@ class Foo { #foo = () => { for (#foo in this) ; } }
 ```javascript
 
 class Foo {
-  #foo = () =>  {
+  #foo = () => {
     for (#foo in this)
       ;
   }

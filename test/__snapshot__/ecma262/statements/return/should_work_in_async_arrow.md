@@ -85,7 +85,7 @@ async () => {return}
 
 ```javascript
 
-async () =>  {
+async () => {
   return;
 }
 

@@ -619,6 +619,7 @@ export function shouldprintBlockFunctionBodyOnSingleLine(printer: any, node: any
   if (body.flags & NodeFlags.NewLine) return false;
 
   if (body.start !== body.end) {
+
     return false;
   }
 

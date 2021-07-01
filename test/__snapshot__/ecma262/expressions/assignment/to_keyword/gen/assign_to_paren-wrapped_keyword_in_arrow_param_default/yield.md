@@ -132,7 +132,7 @@
 
 ```javascript
 
-(x = (yield) = f) =>  {};
+(x = (yield) = f) => {};
 
 ```
 

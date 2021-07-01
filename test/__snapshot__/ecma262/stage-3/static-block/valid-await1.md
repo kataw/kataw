@@ -222,7 +222,7 @@ class C {
 
 class C {
   static  {
-    (() =>  {
+    (() => {
       var [await] = [];
     });
   }

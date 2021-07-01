@@ -114,7 +114,7 @@ async () => {  implem\u0065nts = x  }
 
 ```javascript
 
-async () =>  {
+async () => {
   implem\u0065nts = x;
 }
 

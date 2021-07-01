@@ -111,7 +111,7 @@ async (f)
 
 ```javascript
 
-async (f) =>  {}
+async (f) => {}
 
 ```
 

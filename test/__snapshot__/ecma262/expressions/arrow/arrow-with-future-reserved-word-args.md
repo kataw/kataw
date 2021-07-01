@@ -89,7 +89,7 @@
 
 ```javascript
 
-(interface, eval) =>  {};
+(interface, eval) => {};
 
 ```
 

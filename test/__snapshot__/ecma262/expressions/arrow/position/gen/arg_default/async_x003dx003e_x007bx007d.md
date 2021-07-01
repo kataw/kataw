@@ -139,7 +139,7 @@ function f(a = async => {}) {}
 
 ```javascript
 
-function f(a = async =>  {}) {}
+function f(a = async => {}) {}
 
 ```
 

@@ -131,7 +131,7 @@ async (x = (arguments) = f) => {}
 
 ```javascript
 
-async (x = (arguments) = f) =>  {}
+async (x = (arguments) = f) => {}
 
 ```
 

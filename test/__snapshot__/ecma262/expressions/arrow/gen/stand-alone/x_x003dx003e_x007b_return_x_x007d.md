@@ -101,7 +101,7 @@ x => { return x; } ;
 
 ```javascript
 
-x =>  {
+x => {
   return x;
 };
 

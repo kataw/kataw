@@ -200,7 +200,7 @@ async function foo(a = (eval) => { "use strict"; funeval("x"); }) {}
 
 ```javascript
 
-async function foo(a = (eval) =>  {
+async function foo(a = (eval) => {
   '"use strict"';
     funeval('"x"');
   }) {}

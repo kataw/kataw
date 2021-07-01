@@ -152,7 +152,7 @@ a => {
 
 ```javascript
 
-a =>  {
+a => {
   for (let a of b)
     c;
 };

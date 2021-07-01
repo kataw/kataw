@@ -191,7 +191,7 @@ function *g() { async (x = y = yield z) => {}; }
 ```javascript
 
 function * g() {
-  async (x = y = yield  z) =>  {}
+  async (x = y = yield  z) => {}
   ;
 }
 

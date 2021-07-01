@@ -165,7 +165,7 @@ var x = ({ a } : any = 'foo') => {}
 
 ```javascript
 
-var x = ({ a }: any = '\'foo\'') =>  {};
+var x = ({ a }: any = '\'foo\'') => {};
 
 ```
 

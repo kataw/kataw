@@ -5743,7 +5743,7 @@ switch (x) {
 ;
 switch (x) {
   case y: 
-    foo / bar ? 1 : (x) =>  {};
+    foo / bar ? 1 : (x) => {};
 }
 ;
 switch (0) {
@@ -5755,7 +5755,7 @@ switch (0) {
 ;
 switch (x) {
   case y: 
-    foo ? 1 : (x) =>  {};
+    foo ? 1 : (x) => {};
 }
 ;
 switch ({ x : y }) {

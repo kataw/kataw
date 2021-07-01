@@ -121,7 +121,7 @@ x = x => { return x; } ;
 
 ```javascript
 
-x = x =>  {
+x = x => {
   return x;
 };
 

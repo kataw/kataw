@@ -1197,12 +1197,12 @@ function printFunctionDeclarationOrExpression(node: any, printer: Printer): void
     write(printer, ' ');
     printStatement(node.returnType, printer, node);
   }
+  write(printer, ' ');
   printFunctionBody(node.contents, printer);
 }
 
 function printFunctionBody(node: any, printer: Printer): void {
   if (node) {
-    write(printer, ' ');
     printPunctuator('{', printer, node.start, node);
     printer.indent++;
     printFunctioBody(node.functionStatementList, printer, node);
@@ -1227,10 +1227,7 @@ function printFunctioBody(node: any, printer: Printer, parentNode: any): void {
       node,
       parentNode,
       statements,
-      PrinterContext.SingleLine |
-        PrinterContext.SpaceBetweenSiblings |
-        PrinterContext.SpaceBetweenBraces |
-        PrinterContext.NoSpaceIfEmpty
+      PrinterContext.SingleLine | PrinterContext.SpaceBetweenSiblings | PrinterContext.SpaceBetweenBraces | PrinterContext.NoSpaceIfEmpty
     );
     printer.indent++;
   } else {
@@ -1343,6 +1340,7 @@ function printMethodDefinition(node: any, printer: Printer): void {
     write(printer, ' ');
     printStatement(node.returnType, printer, node);
   }
+  write(printer, ' ');
   printFunctionBody(node.contents, printer);
 }
 

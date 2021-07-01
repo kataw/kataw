@@ -331,7 +331,7 @@ async function f() {
       [x](y = await) {}
       ;
       '"x"'() {}
-    }) =>  {
+    }) => {
   };
 }
 

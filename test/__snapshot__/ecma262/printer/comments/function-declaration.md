@@ -1844,7 +1844,7 @@ function foo4() {
 function a(/* comment */) {}// comment
 function b() {}// comment
 function c(/* comment */argA, argB, argC) {}// comment
-call((/*object*/row) =>  {});
+call((/*object*/row) => {});
 function f1/* f */() {}
 function f2(/* args */) {}
 function f3() {}

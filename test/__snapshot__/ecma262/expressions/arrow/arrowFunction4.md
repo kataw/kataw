@@ -129,7 +129,7 @@ var v = (a, b) => {
 
 ```javascript
 
-var v = (a, b) =>  {
+var v = (a, b) => {
 };
 
 ```

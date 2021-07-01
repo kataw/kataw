@@ -944,12 +944,12 @@ const b = function ({
   }) {};
 const c = async ({
     async: bar
-  }) =>  {
+  }) => {
   await baz;
 };
 const d = async ({
     async = bar
-  }) =>  {
+  }) => {
   await baz;
 };
 const e = async function ({

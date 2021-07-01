@@ -100,7 +100,7 @@ while(y)
 ```javascript
 
 do
-  x =>  {}; while (y)
+  x => {}; while (y)
 
 ```
 

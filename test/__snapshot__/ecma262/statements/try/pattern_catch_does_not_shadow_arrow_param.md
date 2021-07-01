@@ -151,7 +151,7 @@ g => {
 
 ```javascript
 
-g =>  {
+g => {
   try { }
   catch ([g]){ }
 };

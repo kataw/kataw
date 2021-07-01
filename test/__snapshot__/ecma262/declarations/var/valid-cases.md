@@ -1764,10 +1764,10 @@ var f = ({
     x: arg = 1
   }, {
     y: b = (arg = 2)
-  }) =>  {};
+  }) => {};
 var f = ({
     x: arg = (arg = 2)
-  }) =>  {};
+  }) => {};
 var foo;
 var foo = 0;
 var [foo] = [1,];

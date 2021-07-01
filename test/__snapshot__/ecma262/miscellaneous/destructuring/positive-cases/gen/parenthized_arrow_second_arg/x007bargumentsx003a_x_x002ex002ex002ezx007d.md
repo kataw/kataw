@@ -183,7 +183,7 @@ var f = (argument1,{arguments: x, ...z}) => {};
 var f = (argument1, {
     arguments: x,
     ...z
-  }) =>  {};
+  }) => {};
 
 ```
 

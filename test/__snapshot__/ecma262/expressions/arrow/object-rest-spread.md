@@ -154,7 +154,7 @@ var foo = ( { title, ...other } ) => {
 var foo = ({
     title,
     ...other
-  }) =>  {
+  }) => {
 };
 
 ```

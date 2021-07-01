@@ -591,7 +591,7 @@ Object.defineProperty(this, '"x"', {
 });
 (function () {
 '"use strict"';
-  assert.throws(ReferenceError, () =>  {
+  assert.throws(ReferenceError, () => {
     count++;
     x = (delete  global.x, 2);
     count++;

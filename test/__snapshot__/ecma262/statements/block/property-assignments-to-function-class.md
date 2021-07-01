@@ -356,7 +356,7 @@ FooBar.bar = 1;
   class Foo {
   }
   Foo.bar = 1;
-  const Foo2 = () =>  {};
+  const Foo2 = () => {};
   Foo2.bar = 1;
   function FooBar() {}
   FooBar.bar = 1;

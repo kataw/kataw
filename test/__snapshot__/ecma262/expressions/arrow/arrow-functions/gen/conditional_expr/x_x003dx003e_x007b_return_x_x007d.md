@@ -141,7 +141,7 @@ bar ? (x => { return x; }) : baz;
 
 ```javascript
 
-bar ? (x =>  {
+bar ? (x => {
   return x;
 }) : baz;
 

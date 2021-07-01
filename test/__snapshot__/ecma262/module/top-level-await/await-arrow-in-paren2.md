@@ -117,7 +117,7 @@ await (async () => {})(); // equivalent to: await((async () => {})())
 
 ```javascript
 
-await (async () =>  {})();// equivalent to: await((async () => {})())
+await (async () => {})();// equivalent to: await((async () => {})())
 
 ```
 

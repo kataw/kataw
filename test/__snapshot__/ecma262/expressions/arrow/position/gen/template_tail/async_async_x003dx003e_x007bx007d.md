@@ -123,7 +123,7 @@
 
 ```javascript
 
-`a ${async async =>  {}} b`.length;
+`a ${async async => {}} b`.length;
 
 ```
 

@@ -139,7 +139,7 @@ var asyncArrow = async(...await) => {};
 
 ```javascript
 
-var asyncArrow = async (...await) =>  {};
+var asyncArrow = async (...await) => {};
 
 ```
 

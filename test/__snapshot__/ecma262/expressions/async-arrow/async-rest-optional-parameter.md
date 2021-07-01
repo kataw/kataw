@@ -140,7 +140,7 @@ async(...args?: any[]) : any => {}
 
 ```javascript
 
-async (...args?: any[]) =>  {}
+async (...args?: any[]) => {}
 
 ```
 

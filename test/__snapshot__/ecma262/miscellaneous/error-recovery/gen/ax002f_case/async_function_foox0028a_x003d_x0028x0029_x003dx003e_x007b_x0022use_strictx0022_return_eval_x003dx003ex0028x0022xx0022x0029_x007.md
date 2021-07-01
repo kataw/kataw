@@ -203,7 +203,7 @@ async function foo(a = () => { "use strict"; return eval =>("x"); }) {}
 
 ```javascript
 
-async function foo(a = () =>  {
+async function foo(a = () => {
   '"use strict"';
     return eval => ('"x"');
   }) {}

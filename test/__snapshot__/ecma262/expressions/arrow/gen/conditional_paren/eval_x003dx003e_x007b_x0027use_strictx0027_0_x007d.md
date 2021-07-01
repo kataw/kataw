@@ -144,7 +144,7 @@ bar ? baz : ( eval => { 'use strict'; 0 } );
 
 ```javascript
 
-bar ? baz : (eval =>  {
+bar ? baz : (eval => {
 '\'use strict\'';
   0;
 });

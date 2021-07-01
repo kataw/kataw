@@ -186,7 +186,7 @@
 
 ```javascript
 
-([...{ x }: string], y, z: string) =>  {};
+([...{ x }: string], y, z: string) => {};
 
 ```
 

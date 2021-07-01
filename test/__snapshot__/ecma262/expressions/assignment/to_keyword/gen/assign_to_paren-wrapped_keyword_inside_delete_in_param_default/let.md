@@ -149,7 +149,7 @@ async (x = delete ((let) = f)) => {}
 
 ```javascript
 
-async (x = delete  ((let) = f)) =>  {}
+async (x = delete  ((let) = f)) => {}
 
 ```
 

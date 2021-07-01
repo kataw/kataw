@@ -228,7 +228,7 @@ class Example {
   #priv
   ;
   @anydecorator
-  method = () =>  {
+  method = () => {
     return this.#priv;
   }
   ;

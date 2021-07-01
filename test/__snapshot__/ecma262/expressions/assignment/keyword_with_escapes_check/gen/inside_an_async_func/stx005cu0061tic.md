@@ -114,7 +114,7 @@ async () => {  st\u0061tic = x  }
 
 ```javascript
 
-async () =>  {
+async () => {
   st\u0061tic = x;
 }
 

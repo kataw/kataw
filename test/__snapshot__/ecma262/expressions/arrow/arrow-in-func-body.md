@@ -663,21 +663,21 @@
 ```javascript
 
 (function f() {
-  (yield =>  {});
+  (yield => {});
 });
 (function f() {
-  ((yield, ...a) =>  {});
+  ((yield, ...a) => {});
 });
 (function f() {
-  (([yield]) =>  {});
+  (([yield]) => {});
 });
 (function f() {
   (({
       yield
-    }) =>  {});
+    }) => {});
 });
 (function f() {
-  ((yield) =>  {});
+  ((yield) => {});
 });
 
 ```

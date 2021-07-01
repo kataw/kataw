@@ -170,7 +170,7 @@ async ({ x = [ await ], y = { await } }) => {}
 async ({
     x = [await,],
     y = { await }
-  }) =>  {}
+  }) => {}
 
 ```
 

@@ -176,7 +176,7 @@ function *f(){ ({x} = yield) => {} }
 function * f() {
   ({
       x
-    } = yield ) =>  {};
+    } = yield ) => {};
 }
 
 ```

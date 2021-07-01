@@ -162,7 +162,7 @@ f = ([xCls = class X {}]) => {}
 ```javascript
 
 f = ([xCls = class X {
-  }]) =>  {};
+  }]) => {};
 
 ```
 

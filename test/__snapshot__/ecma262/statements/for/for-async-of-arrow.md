@@ -91,7 +91,7 @@ for (async of => {};;);
 
 ```javascript
 
-for (async of =>  {};;)
+for (async of => {};;)
   ;
 
 ```

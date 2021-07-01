@@ -532,7 +532,7 @@ class A<TYPE> {
 ```javascript
 
 class A<TYPE> {
-  aaf = () =>  {
+  aaf = () => {
     return new Promise  < TYPE > (console.log);
   }
   ;

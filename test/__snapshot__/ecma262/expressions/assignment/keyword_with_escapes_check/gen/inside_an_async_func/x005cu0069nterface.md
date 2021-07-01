@@ -114,7 +114,7 @@ async () => {  \u0069nterface = x  }
 
 ```javascript
 
-async () =>  {
+async () => {
   \u0069nterface = x;
 }
 

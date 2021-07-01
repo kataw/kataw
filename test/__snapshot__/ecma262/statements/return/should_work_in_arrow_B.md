@@ -86,7 +86,7 @@ x => {return}
 
 ```javascript
 
-x =>  {
+x => {
   return;
 };
 

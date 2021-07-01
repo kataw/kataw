@@ -121,7 +121,7 @@ for (() => { x in y };;);
 
 ```javascript
 
-for (() =>  {
+for (() => {
   x in y;
 };;)
   ;

@@ -350,7 +350,7 @@ class Base {
 class Base {
   constructor() {
     this.Foo = class  {
-      static #_ = (() =>  {
+      static #_ = (() => {
         this.foo = new.target;
       })()
       ;

@@ -211,7 +211,7 @@ var a: (number: number) => number = (number) => { return 123; }
 
 ```javascript
 
-var a: (number: number) => number = (number) =>  {
+var a: (number: number) => number = (number) => {
   return 123;
 };
 

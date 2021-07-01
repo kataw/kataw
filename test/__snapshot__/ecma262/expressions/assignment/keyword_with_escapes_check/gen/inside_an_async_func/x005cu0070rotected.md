@@ -114,7 +114,7 @@ async () => {  \u0070rotected = x  }
 
 ```javascript
 
-async () =>  {
+async () => {
   \u0070rotected = x;
 }
 

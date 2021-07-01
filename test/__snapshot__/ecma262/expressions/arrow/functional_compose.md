@@ -1753,7 +1753,7 @@ class A extends B {
     super.compose(sortBy(x => x), flatten);
   }
 }
-this.subscriptions.add(this.componentUpdates.pipe(startWith(this.props), distinctUntilChanged(isEqual)).subscribe(props =>  {
+this.subscriptions.add(this.componentUpdates.pipe(startWith(this.props), distinctUntilChanged(isEqual)).subscribe(props => {
 }));
 
 ```

@@ -1862,9 +1862,9 @@ var c: { (x: string): string } = (x) => x.toFixed();
  // ...or if the arity is wrong
 var d: { (): string } = (x) => '"hi"';
  // ...but subtyping rules still apply
-var e: { (x: any): void } = () =>  {};// arity
+var e: { (x: any): void } = () => {};// arity
 var f: { (): mixed } = () => '"hi"';// return type
-var g: { (x: Date): void } = (x) =>  {
+var g: { (x: Date): void } = (x) => {
   x * 2;
 };// param type (date < number)
  // A function can be an object

@@ -92,7 +92,7 @@ async (): void => {}
 
 ```javascript
 
-async () =>  {}
+async () => {}
 
 ```
 

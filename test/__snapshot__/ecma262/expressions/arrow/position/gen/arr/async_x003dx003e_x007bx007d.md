@@ -95,7 +95,7 @@
 
 ```javascript
 
-[async =>  {},];
+[async => {},];
 
 ```
 

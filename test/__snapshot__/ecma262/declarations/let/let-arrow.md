@@ -265,7 +265,7 @@ hello();
 
 ```javascript
 
-let hello = (greeting: string = '\' world\'') =>  {
+let hello = (greeting: string = '\' world\'') => {
   console.log('\'hello\'' + greeting);
 };
 hello();

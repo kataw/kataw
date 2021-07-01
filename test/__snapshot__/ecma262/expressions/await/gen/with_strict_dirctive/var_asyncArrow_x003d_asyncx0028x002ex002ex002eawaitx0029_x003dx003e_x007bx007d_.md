@@ -149,7 +149,7 @@
 ```javascript
 
 '\'use strict\'';
-var asyncArrow = async (...await) =>  {};
+var asyncArrow = async (...await) => {};
 
 ```
 

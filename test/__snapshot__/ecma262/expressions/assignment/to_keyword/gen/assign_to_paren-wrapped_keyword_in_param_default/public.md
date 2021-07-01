@@ -131,7 +131,7 @@ async (x = (public) = f) => {}
 
 ```javascript
 
-async (x = (public) = f) =>  {}
+async (x = (public) = f) => {}
 
 ```
 

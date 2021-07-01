@@ -131,7 +131,7 @@ async (x = (package) = f) => {}
 
 ```javascript
 
-async (x = (package) = f) =>  {}
+async (x = (package) = f) => {}
 
 ```
 

@@ -141,7 +141,7 @@ const test = () => {
 
 ```javascript
 
-const test = () =>  {
+const test = () => {
    /**
      * Multiline comment
      **/
