@@ -5,6 +5,7 @@ import { AssignmentExpression } from './assignment-expr';
 import { IndexExpression } from './index-expr';
 import { MemberAccessExpression } from './member-access-expr';
 import { CallExpression } from './call-expr';
+import { ImportMeta } from './import-meta';
 import { UnaryExpression } from './unary-expr';
 import { PostfixUpdateExpression } from './postfix-update-expr';
 import { PrefixUpdateExpression } from './prefix-update-expr';
@@ -70,6 +71,7 @@ export type ExpressionNode =
   | ArrowFunction
   | ClassBody
   | ClassTail
+  | ImportMeta
   | RegularExpressionLiteral
   | ArgumentList
   | NumericLiteral

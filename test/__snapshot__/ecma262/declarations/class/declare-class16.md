@@ -130,7 +130,7 @@ declare class B {
 
 ```javascript
 
-declare class B { x: T }
+declare class B { proto x: T }
 
 ```
 

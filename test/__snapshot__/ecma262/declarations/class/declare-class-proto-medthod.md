@@ -134,7 +134,7 @@ declare class C { proto m(): void }
 
 ```javascript
 
-declare class C { m(): void }
+declare class C { proto m(): void }
 
 ```
 

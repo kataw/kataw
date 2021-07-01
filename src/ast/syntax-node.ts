@@ -406,6 +406,8 @@ export function tokenToString(node: any): string {
   switch (node.kind) {
     case SyntaxKind.ObjectKeyword:
       return 'object';
+    case SyntaxKind.ProtoKeyword:
+      return 'proto';
     case SyntaxKind.Add:
       return '+';
     case SyntaxKind.AddAssign:

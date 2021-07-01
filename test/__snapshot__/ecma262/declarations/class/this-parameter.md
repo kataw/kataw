@@ -1088,7 +1088,7 @@ declare class one {
   m1(this: string): void,
   m2(this: string, a: number): void,
   m3(this: string, ...a: any): void,
-  m4(this: T): void
+  m4<T> (this: T): void
 }
 class two {
   m1(this: number) {}

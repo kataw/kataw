@@ -1104,7 +1104,7 @@ function/*2*/ identity/*3*/(value/*4*/: string/*5*/): string/*6*/ {
 function identity<T> (value: T): T {
    /*1*/return value;/*2*/
 }
-type IdentityWrapper =/*5*/ { func(/*3*/T/*4*/): T }
+type IdentityWrapper =/*5*/ { func</*1*/T>/*2*/ (/*3*/T/*4*/): T }
 function method<T> (param:/*1*/ T): T {
  // ...
 }
