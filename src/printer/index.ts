@@ -2,37 +2,29 @@ import { DebuggerStatement } from '../ast/statements/debugger-stmt';
 import { RootNode } from '../ast/rootNode';
 import { StringLiteral } from '../ast/expressions/string-literal';
 import { ExpressionNode } from '../ast/expressions';
-import { StatementNode } from '../ast/statements';
 import { PrivateIdentifier } from '../ast/expressions/private-identifier';
 import { NumericLiteral } from '../ast/expressions/numeric-literal';
 import { AssignmentExpression } from '../ast/expressions/assignment-expr';
-import { ForBinding } from '../ast/statements/for-binding';
 import { EmptyStatement } from '../ast/statements/empty-stmt';
 import { ExpressionStatement } from '../ast/statements/expression-stmt';
 import { ArrayLiteral } from '../ast/expressions/array-literal';
 import { BinaryExpression } from '../ast/expressions/binary-expr';
-import { ArgumentList } from '../ast/expressions/argument-list';
 import { ArrayBindingPattern } from '../ast/expressions/array-binding-pattern';
 import { ArrowFunction } from '../ast/expressions/arrow-function';
 import { AwaitExpression } from '../ast/expressions/await-expr';
-import { BindingElementList } from '../ast/expressions/binding-element-list';
 import { BindingProperty } from '../ast/expressions/binding-property';
 import { BindingElement } from '../ast/expressions/binding-element';
 import { IndexExpression } from '../ast/expressions/index-expr';
 import { IndexExpressionChain } from '../ast/expressions/index-expr-chain';
-import { MemberAccessChain } from '../ast/expressions/member-access-chain';
 import { MemberAccessExpression } from '../ast/expressions/member-access-expr';
 import { StaticBlock } from '../ast/expressions/static-block';
 import { YieldExpression } from '../ast/expressions/yield-expr';
-import { BindingPropertyList } from '../ast/expressions/binding-property-list';
 import { CallExpression } from '../ast/expressions/call-expr';
 import { CallChain } from '../ast/expressions/call-chain';
-import { ClassBody } from '../ast/expressions/class-body';
 import { ClassTail } from '../ast/expressions/class-tail';
 import { OptionalChain } from '../ast/expressions/optional-chain';
 import { OptionalExpression } from '../ast/expressions/optional-expr';
 import { CommaOperator } from '../ast/expressions/comma-operator';
-import { TemplateSpan } from '../ast/expressions/template-span';
 import { ClassElement } from '../ast/expressions/class-element';
 import { ClassExpression } from '../ast/expressions/class-expr';
 import { ClassHeritage } from '../ast/expressions/class-heritage';
@@ -44,8 +36,6 @@ import { FieldDefinition } from '../ast/expressions/field-definition';
 import { TaggedTemplate } from '../ast/expressions/tagged-template';
 import { FunctionExpression } from '../ast/expressions/function-expr';
 import { UnaryExpression } from '../ast/expressions/unary-expr';
-import { FunctionStatementList } from '../ast/expressions/function-stmt-list';
-import { FunctionBody } from '../ast/expressions/function-body';
 import { ImportCall } from '../ast/expressions/import-call';
 import { MethodDefinition } from '../ast/expressions/method-definition';
 import { PropertyMethod } from '../ast/expressions/property-method';
@@ -55,15 +45,16 @@ import { ObjectLiteral } from '../ast/expressions/object-literal';
 import { ParenthesizedExpression } from '../ast/expressions/parenthesized-expr';
 import { PostfixUpdateExpression } from '../ast/expressions/postfix-update-expr';
 import { PrefixUpdateExpression } from '../ast/expressions/prefix-update-expr';
+import { NewTarget } from '../ast/expressions/new-target';
+import { BigIntLiteral } from '../ast/expressions/big-int-literal';
+import { TemplateTail } from '../ast/expressions/template-tail';
 import { PropertyDefinition } from '../ast/expressions/property-definition';
-import { PropertyDefinitionList } from '../ast/expressions/property-definition-list';
 import { SpreadProperty } from '../ast/expressions/spread-property';
 import { TemplateExpression } from '../ast/expressions/template-expression';
 import { BindingList } from '../ast/statements/binding-list';
 import { VariableStatement } from '../ast/statements/variable-stmt';
 import { Block } from '../ast/statements/block';
 import { BlockStatement } from '../ast/statements/block-stmt';
-import { ArrowPatameterList } from '../ast/expressions/arrow-parameter-list';
 import { BreakStatement } from '../ast/statements/break-stmt';
 import { ContinueStatement } from '../ast/statements/continue-stmt';
 import { DefaultClause } from '../ast/statements/default-clause';
@@ -115,7 +106,7 @@ import { TypeParameterInstantiation } from '../ast/types/type-parameter-instanti
 import { TypeParameterList } from '../ast/types/type-parameter-list';
 import { TypeofType } from '../ast/types/typeof-type';
 import { TypeReference } from '../ast/types/type-reference';
-import { createFunctionType, FunctionType } from '../ast/types/function-type';
+import { FunctionType } from '../ast/types/function-type';
 import { IndexedAccessType } from '../ast/types/indexed-access-type';
 import { IntersectionType } from '../ast/types/intersection-type';
 import { OptionalType } from '../ast/types/optional-type';
@@ -123,18 +114,15 @@ import { ParenthesizedType } from '../ast/types/parenthesized-type';
 import { RestType } from '../ast/types/rest-type';
 import { TupleType } from '../ast/types/tuple-type';
 import { TypeParameter } from '../ast/types/type-parameter';
-import { createUnionType, UnionType } from '../ast/types/union-type';
-import { DecoratorList } from '../ast/expressions/decorator-list';
+import { UnionType } from '../ast/types/union-type';
 import { Decorator } from '../ast/expressions/decorators';
-import { FormalParameterList } from '../ast/expressions/formal-parameter-list';
-import { createImportClause, ImportClause } from '../ast/module/import-clause';
+import { ImportClause } from '../ast/module/import-clause';
 import { NameSpaceImport } from '../ast/module/namespace-import';
 import { FromClause } from '../ast/module/from-clause';
 import { ExportDefault } from '../ast/module/export-default';
 import { ExportDeclaration } from '../ast/module/export-declaration';
 import { ExportFromClause } from '../ast/module/export-from-clause';
 import { ExportSpecifier } from '../ast/module/export-specifier';
-import { ExportsList } from '../ast/module/exports-list';
 import { ImportDeclaration } from '../ast/module/import-declaration';
 import { ImportSpecifier } from '../ast/module/import-specifier';
 import { NamedExports } from '../ast/module/named-exports';
@@ -142,6 +130,7 @@ import { NamedImports } from '../ast/module/named-imports';
 import { SpreadElement } from '../ast/expressions/spread-element';
 import { Identifier } from '../ast/expressions/identifier-expr';
 import { SyntaxNode, SyntaxKind, NodeFlags, tokenToString } from '../ast/syntax-node';
+import { lastOrUndefined } from '../parser/common';
 import {
   Printer,
   write,
@@ -164,7 +153,6 @@ import {
   shouldWriteLeadingLineTerminator,
   shouldWriteClosingLineTerminator,
   printLeadingComments,
-  lastOrUndefined,
   writeDelimiter,
   printWithComments
 } from './common';
@@ -222,7 +210,7 @@ function printStatements(node: SyntaxNode, printer: Printer, parentNode: SyntaxN
     case SyntaxKind.SwitchStatement:
       return printSwitchStatement(<SwitchStatement>node, printer);
     case SyntaxKind.StaticBlock:
-      return printStaticBlock(<any>node, printer);
+      return printStaticBlock(<StaticBlock>node, printer);
     case SyntaxKind.ForStatement:
       return printForStatement(<ForStatement>node, printer);
     case SyntaxKind.FunctionDeclaration:
@@ -400,31 +388,31 @@ function printExpressions(node: SyntaxNode, printer: Printer, parentNode: Syntax
     case SyntaxKind.ConditionalExpression:
       return printConditionalExpression(<ConditionalExpression>node, printer);
     case SyntaxKind.ParenthesizedExpression:
-      return printParenthesizedExpression(<any>node, printer);
+      return printParenthesizedExpression(<ParenthesizedExpression>node, printer);
     case SyntaxKind.PrefixUpdateExpression:
-      return printPrefixUpdateExpression(<any>node, printer);
+      return printPrefixUpdateExpression(<PrefixUpdateExpression>node, printer);
     case SyntaxKind.AssignmentExpression:
-      return printAssignmentExpression(<any>node, printer);
+      return printAssignmentExpression(<AssignmentExpression>node, printer);
     case SyntaxKind.PostfixUpdateExpression:
-      return printPostfixUpdateExpression(<any>node, printer);
+      return printPostfixUpdateExpression(<PostfixUpdateExpression>node, printer);
     case SyntaxKind.NewTarget:
-      return printNewTarget(<any>node, printer);
+      return printNewTarget(<NewTarget>node, printer);
     case SyntaxKind.StringLiteral:
       return printStringLiteral(<StringLiteral>node, printer);
     case SyntaxKind.NumericLiteral:
       return printNumericLiteral(<NumericLiteral>node, printer);
     case SyntaxKind.BigIntLiteral:
-      return printBigIntLiteral(<any>node, printer);
+      return printBigIntLiteral(<BigIntLiteral>node, printer);
     case SyntaxKind.CommaOperator:
-      return printCommaOperator(<any>node, printer);
+      return printCommaOperator(<CommaOperator>node, printer);
     case SyntaxKind.ArrayLiteral:
-      return printArrayLiteral(<any>node, printer);
+      return printArrayLiteral(<ArrayLiteral>node, printer);
     case SyntaxKind.NewExpression:
-      return printNewExpression(<any>node, printer);
+      return printNewExpression(<NewExpression>node, printer);
     case SyntaxKind.AwaitExpression:
-      return printAwaitExpression(<any>node, printer);
+      return printAwaitExpression(<AwaitExpression>node, printer);
     case SyntaxKind.FunctionExpression:
-      return printFunctionDeclarationOrExpression(<any>node, printer);
+      return printFunctionDeclarationOrExpression(<FunctionExpression>node, printer);
     case SyntaxKind.ThisKeyword:
     case SyntaxKind.NullKeyword:
     case SyntaxKind.FalseKeyword:
@@ -464,30 +452,31 @@ function printExpressions(node: SyntaxNode, printer: Printer, parentNode: Syntax
     case SyntaxKind.YieldExpression:
       return printYieldExpression(<YieldExpression>node, printer);
     case SyntaxKind.SpreadProperty:
+      return printSpreadElement(<SpreadProperty>node, printer);
     case SyntaxKind.SpreadElement:
       return printSpreadElement(<SpreadElement>node, printer);
     case SyntaxKind.RegularExpressionLiteral:
       return printRegularExpressionLiteral(<any>node, printer);
     case SyntaxKind.ImportCall:
-      return printImportCall(<any>node, printer);
+      return printImportCall(<ImportCall>node, printer);
     case SyntaxKind.ImportMeta:
       return printImportMeta(<any>node, printer);
     case SyntaxKind.TaggedTemplate:
-      return printTaggedTemplate(<any>node, printer);
+      return printTaggedTemplate(<TaggedTemplate>node, printer);
     case SyntaxKind.TemplateExpression:
-      return printTemplateExpression(<any>node, printer);
+      return printTemplateExpression(<TemplateExpression>node, printer);
     case SyntaxKind.TemplateSpan:
       return printTemplateSpan(<any>node, printer);
     case SyntaxKind.TemplateTail:
-      return printTemplateTail(<any>node, printer);
+      return printTemplateTail(<TemplateTail>node, printer);
     case SyntaxKind.OptionalExpression:
-      return printOptionalExpression(<any>node, printer);
+      return printOptionalExpression(<OptionalExpression>node, printer);
     case SyntaxKind.OptionalChain:
-      return printOptionalChain(<any>node, printer);
+      return printOptionalChain(<OptionalChain>node, printer);
     case SyntaxKind.CallChain:
-      return printCallChain(<any>node, printer);
+      return printCallChain(<CallChain>node, printer);
     case SyntaxKind.IndexExpressionChain:
-      return printIndexExpressionChain(<any>node, printer);
+      return printIndexExpressionChain(<IndexExpressionChain>node, printer);
     case SyntaxKind.MemberAccessChain:
       return printMemberAccessChain(node, printer);
   }

@@ -63,7 +63,6 @@ export function skipWhitespace(
     return pos;
   }
 
-  // Keep in sync with couldStartTrivia
   while (true) {
     const ch = text.charCodeAt(pos);
     switch (ch) {
@@ -71,7 +70,6 @@ export function skipWhitespace(
         if (text.charCodeAt(pos + 1) === Char.LineFeed) {
           pos++;
         }
-      // falls through
       case Char.LineFeed:
         pos++;
         if (stopAfterLineBreak) {

@@ -605,3 +605,7 @@ export function lookupBreakTarget(labels: any, value: string): boolean {
   }
   return true;
 }
+
+export function lastOrUndefined<T>(array: readonly T[]): any {
+  return array.length === 0 ? undefined : array[array.length - 1];
+}

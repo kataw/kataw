@@ -2,6 +2,26 @@ import { SyntaxKind, NodeFlags, tokenToString } from '../ast/syntax-node';
 import { Char } from '../parser/scanner/char';
 import { collectLeadingComments, collectTrailingComments } from '../parser/scanner/comments';
 import { skipWhitespace } from '../parser/scanner/common';
+import { lastOrUndefined } from '../parser/common';
+
+/* The printer interface */
+export interface Printer {
+  source: string;
+  output: string;
+  indent: number;
+  singleQuote: boolean;
+  lineStart: boolean;
+  lineCount: number;
+  linePos: number;
+  containerPos: number;
+  containerEnd: number;
+  nextListElementPos: number;
+  hasWrittenComment: boolean;
+  declarationListContainerEnd: number;
+  lastSingleLinePos: number;
+  detachedCommentsInfo: any;
+  lineMap: any;
+}
 
 export const enum PrinterContext {
   None = 0,
@@ -28,28 +48,7 @@ export const enum PrinterContext {
   NoSpaceIfEmpty = 1 << 18
 }
 
-export function lastOrUndefined<T>(array: readonly T[]): any {
-  return array.length === 0 ? undefined : array[array.length - 1];
-}
-
-export interface Printer {
-  source: string;
-  output: string;
-  indent: number;
-  singleQuote: boolean;
-  lineStart: boolean;
-  lineCount: number;
-  linePos: number;
-  containerPos: number;
-  containerEnd: number;
-  nextListElementPos: number;
-  hasWrittenComment: boolean;
-  declarationListContainerEnd: number;
-  lastSingleLinePos: number;
-  detachedCommentsInfo: any;
-  lineMap: any;
-}
-
+/* create a new printer instance */
 export function createPrinter(source: string, indent: number, singleQuote: boolean): Printer {
   return {
     source,
@@ -70,14 +69,14 @@ export function createPrinter(source: string, indent: number, singleQuote: boole
   };
 }
 
+// Faster approach then 'x.repeat(y)'
 function stringRepeat(str: string, num: number): string {
   let result = '';
   while (true) {
     if (num & 1) {
-      // (1)
       result += str;
     }
-    num >>>= 1; // (2)
+    num >>>= 1;
     if (num <= 0) break;
     str += str;
   }
@@ -92,12 +91,41 @@ export function writeLine(printer: Printer): void {
   }
 }
 
-export function write(printer: Printer, s: string) {
+export function write(printer: Printer, value: string): void {
   if (printer.lineStart) {
     printer.output += stringRepeat(' ', printer.indent * 2);
     printer.lineStart = false;
   }
-  printer.output += s;
+  printer.output += value;
+}
+
+export function writeComments(
+  printer: Printer,
+  comments: any[],
+  leadingSeparator: boolean,
+  _trailingSeparator: boolean
+) {
+  let parts = [];
+
+  if (comments && comments.length > 0) {
+    if (leadingSeparator) {
+      parts.push(' ');
+    }
+
+    let printInterveningSeparator = false;
+    for (const comment of comments) {
+      if (printInterveningSeparator) {
+        write(printer, ' ');
+        printInterveningSeparator = false;
+      }
+      write(printer, printer.source.substring(comment.pos, comment.end));
+      if (comment.hasTrailingNewLine) {
+        writeLine(printer);
+      } else {
+        printInterveningSeparator = true;
+      }
+    }
+  }
 }
 
 export function printWithComments(
@@ -130,7 +158,6 @@ export function printWithComments(
 
       printCallback(node, printer, parentNode);
 
-      // Restore previous container state.
       printer.containerPos = containerPos;
       printer.containerEnd = containerEnd;
       printer.declarationListContainerEnd = declarationListContainerEnd;
@@ -256,7 +283,7 @@ export function printDetachedComments(printer: Printer, node: any, _newLine: str
     }
 
     if (detachedComments.length) {
-      printNewLineBeforeLeadingComments(node, printer, leadingComments);
+      printNewLineBeforeLeadingCommentsOfPosition(node.start, printer, leadingComments);
       if (detachedComments && detachedComments.length > 0) {
         let printInterveningSeparator = false;
         for (const comment of detachedComments) {
@@ -280,10 +307,6 @@ export function printDetachedComments(printer: Printer, node: any, _newLine: str
   }
 
   return currentDetachedCommentInfo as any;
-}
-
-function printNewLineBeforeLeadingComments(node: any, printer: Printer, leadingComments: any[]) {
-  printNewLineBeforeLeadingCommentsOfPosition(node.start, printer, leadingComments);
 }
 
 function printNewLineBeforeLeadingCommentsOfPosition(pos: number, printer: Printer, leadingComments: any[]) {
@@ -329,10 +352,10 @@ export function computeLineStarts(text: string): number[] {
   return result;
 }
 
-export function getLineStarts(printer: any): number[] {
+export function getLineStarts(printer: Printer): number[] {
   return printer.lineMap || (printer.lineMap = computeLineStarts(printer.source));
 }
-export function getLineAndCharacterOfPosition(printer: any, position: number): any {
+export function getLineAndCharacterOfPosition(printer: Printer, position: number): any {
   return computeLineAndCharacterOfPosition(getLineStarts(printer), position);
 }
 export function computeLineAndCharacterOfPosition(lineStarts: number[], position: number) {
@@ -390,7 +413,7 @@ export function getLineOfLocalPosition(printer: Printer, pos: number) {
   return getLineAndCharacterOfPosition(printer, pos).line;
 }
 
-function synthesizedNodeStartsOnNewLine(node: Node, context: PrinterContext) {
+function synthesizedNodeStartsOnNewLine(node: any, context: PrinterContext) {
   if (nodeIsSynthesized(node)) {
     return (context & PrinterContext.PreferNewLine) !== 0;
   }
@@ -467,36 +490,7 @@ export function shouldWriteSeparatingLineTerminator(
 
 export function printTrailingCommentsOfPosition(printer: Printer, pos: number) {
   const trailingComments = getTrailingCommentsToPrint(printer, pos);
-  return printComments(printer, trailingComments, /*leadingSeparator*/ false, /*trailingSeparator*/ true);
-}
-
-export function printComments(
-  printer: Printer,
-  comments: any[],
-  leadingSeparator: boolean,
-  _trailingSeparator: boolean
-) {
-  let parts = [];
-
-  if (comments && comments.length > 0) {
-    if (leadingSeparator) {
-      parts.push(' ');
-    }
-
-    let printInterveningSeparator = false;
-    for (const comment of comments) {
-      if (printInterveningSeparator) {
-        write(printer, ' ');
-        printInterveningSeparator = false;
-      }
-      write(printer, printer.source.substring(comment.pos, comment.end));
-      if (comment.hasTrailingNewLine) {
-        writeLine(printer);
-      } else {
-        printInterveningSeparator = true;
-      }
-    }
-  }
+  return writeComments(printer, trailingComments, /*leadingSeparator*/ false, /*trailingSeparator*/ true);
 }
 
 export function shouldWriteClosingLineTerminator(
