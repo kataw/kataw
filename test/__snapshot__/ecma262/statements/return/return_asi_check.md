@@ -105,7 +105,10 @@ function f(){   return
 
 ```javascript
 
-function f() { return; foo; }
+function f() {
+  return;
+  foo;
+}
 
 ```
 

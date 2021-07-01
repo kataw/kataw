@@ -229,7 +229,13 @@ function * gen() { function not_gen() { async function f(){ await await foo; } }
 
 ```javascript
 
-function * gen() { function not_gen() { async function f() { await await foo; } } }
+function * gen() {
+  function not_gen() {
+    async function f() {
+      await await foo;
+    }
+  }
+}
 
 ```
 

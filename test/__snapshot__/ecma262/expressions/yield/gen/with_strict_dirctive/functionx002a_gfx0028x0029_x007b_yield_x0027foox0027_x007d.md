@@ -128,7 +128,9 @@
 ```javascript
 
 '\'use strict\'';
-function * gf() { yield  '\'foo\''; }
+function * gf() {
+  yield  '\'foo\'';
+}
 
 ```
 

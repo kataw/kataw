@@ -114,7 +114,9 @@ async () => {  publ\u0069c = x  }
 
 ```javascript
 
-async () =>  { publ\u0069c = x; }
+async () =>  {
+  publ\u0069c = x;
+}
 
 ```
 

@@ -138,7 +138,7 @@
 
 ({ x : function (x, y) {
   '"use strict"';
-   } });
+  } });
 
 ```
 

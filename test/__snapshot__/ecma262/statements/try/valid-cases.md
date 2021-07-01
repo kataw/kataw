@@ -786,28 +786,28 @@ catch (e){
   if (0)
     ;
   else
-    function e() { }
+    function e() {}
 }
 try { }
 catch (e){
   if (1)
-    function e() { }
+    function e() {}
 }
 try { }
 catch (e){
   if (1)
-    function e() { }
+    function e() {}
 }
 try { }
 catch (e){
   {
-    function e() { }
+    function e() {}
   }
 }
 try { }
 catch (e){
   {
-    function e() { }
+    function e() {}
   }
 }
 try {

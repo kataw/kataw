@@ -162,7 +162,7 @@ class A {
 
 class A {
   @dec
-  * m() { }
+  * m() {}
 }
 
 ```

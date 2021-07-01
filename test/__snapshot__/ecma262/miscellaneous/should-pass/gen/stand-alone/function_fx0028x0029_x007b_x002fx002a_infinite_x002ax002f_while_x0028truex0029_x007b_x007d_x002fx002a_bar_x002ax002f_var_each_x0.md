@@ -153,7 +153,10 @@ function f() { /* infinite */ while (true) { } /* bar */ var each; }
 
 ```javascript
 
-function f() {/* infinite */ /* infinite */while (true) { }/* bar */ /* bar */var each; }
+function f() {/* infinite */
+  while (true) { }/* bar */
+  var each;
+}
 
 ```
 

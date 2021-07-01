@@ -165,7 +165,7 @@ var f = ([a,b,...rest]) => {};
 
 ```javascript
 
-var f = ([a, b, ...rest]) =>  { };
+var f = ([a, b, ...rest]) =>  {};
 
 ```
 

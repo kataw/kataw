@@ -142,7 +142,7 @@ class x {static async * typeof(){}}
 ```javascript
 
 class x {
-  static async * typeof() { }
+  static async * typeof() {}
 }
 
 ```

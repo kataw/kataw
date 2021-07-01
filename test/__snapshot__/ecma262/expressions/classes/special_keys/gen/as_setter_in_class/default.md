@@ -141,7 +141,7 @@ class x {set default(x){}}
 ```javascript
 
 class x {
-  set default(x) { }
+  set default(x) {}
 }
 
 ```

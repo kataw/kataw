@@ -132,7 +132,9 @@
 ```javascript
 
 '\'use strict\'';
-function f() { var await; }
+function f() {
+  var await;
+}
 
 ```
 

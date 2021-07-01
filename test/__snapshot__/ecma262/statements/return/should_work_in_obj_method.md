@@ -118,7 +118,9 @@
 
 ```javascript
 
-({ foo() { return; } });
+({ foo() {
+    return;
+  } });
 
 ```
 

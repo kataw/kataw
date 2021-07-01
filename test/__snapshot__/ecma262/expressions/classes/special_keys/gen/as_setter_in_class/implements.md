@@ -141,7 +141,7 @@ class x {set implements(x){}}
 ```javascript
 
 class x {
-  set implements(x) { }
+  set implements(x) {}
 }
 
 ```

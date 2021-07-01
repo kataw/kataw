@@ -130,7 +130,9 @@
 
 ```javascript
 
-(function not_gen() { yield * 2; });
+(function not_gen() {
+  yield * 2;
+});
 
 ```
 

@@ -162,7 +162,9 @@ function foo() {function* a(b,c,d,) {}}
 
 ```javascript
 
-function foo() { function * a(b, c, d,) { } }
+function foo() {
+  function * a(b, c, d,) {}
+}
 
 ```
 

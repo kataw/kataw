@@ -139,7 +139,9 @@ x=function f(){ var f }
 
 ```javascript
 
-x = function f() { var f; };
+x = function f() {
+  var f;
+};
 
 ```
 

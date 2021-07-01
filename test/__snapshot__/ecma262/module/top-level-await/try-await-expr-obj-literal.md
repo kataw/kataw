@@ -365,13 +365,13 @@ try {
 ```javascript
 
 try {
-  await { function() { } };
+  await { function() {} };
 }
 catch (e){
-  await { function() { } };
+  await { function() {} };
 }
 finally {
-  await { function() { } };
+  await { function() {} };
 }
 
 ```

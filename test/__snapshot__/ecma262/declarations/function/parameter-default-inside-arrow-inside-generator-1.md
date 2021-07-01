@@ -161,7 +161,7 @@ function* fn() {
 ```javascript
 
 function * fn() {
-  (x = yield ) =>  { };
+  (x = yield ) =>  {};
 }
 
 ```

@@ -180,7 +180,7 @@ function get() {}
 
 ```javascript
 
-function get() { }
+function get() {}
 function * getData() {
   return yield  get();
 }

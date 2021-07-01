@@ -152,7 +152,11 @@ function * gen() { function not_gen() { yield /* comment */ }}
 
 ```javascript
 
-function * gen() { function not_gen() { yield;/* comment */ } }
+function * gen() {
+  function not_gen() {
+    yield;/* comment */
+  }
+}
 
 ```
 

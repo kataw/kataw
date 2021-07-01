@@ -176,7 +176,10 @@
 
 ```javascript
 
-({ async * gen() { yield *  1; return 37; } });
+({ async * gen() {
+    yield *  1;
+    return 37;
+  } });
 
 ```
 

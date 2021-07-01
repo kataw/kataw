@@ -141,7 +141,9 @@ bar ? baz : ( x => { return x; } );
 
 ```javascript
 
-bar ? baz : (x =>  { return x; });
+bar ? baz : (x =>  {
+  return x;
+});
 
 ```
 

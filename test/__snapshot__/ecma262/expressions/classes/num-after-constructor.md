@@ -176,8 +176,8 @@ class x{ constructor(){} 9(){} }
 ```javascript
 
 class x {
-  constructor() { }
-  9() { }
+  constructor() {}
+  9() {}
 }
 
 ```

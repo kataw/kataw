@@ -87,7 +87,7 @@ new function(){}
 
 ```javascript
 
-new function () { };
+new function () {};
 
 ```
 

@@ -174,7 +174,7 @@
 ```javascript
 
 (class  {
-  static get [() => null]() { }
+  static get [() => null]() {}
 }());
 
 ```

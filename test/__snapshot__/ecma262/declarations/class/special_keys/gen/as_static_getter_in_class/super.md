@@ -137,7 +137,7 @@ class x {static get super(){}}
 ```javascript
 
 class x {
-  static get super() { }
+  static get super() {}
 }
 
 ```

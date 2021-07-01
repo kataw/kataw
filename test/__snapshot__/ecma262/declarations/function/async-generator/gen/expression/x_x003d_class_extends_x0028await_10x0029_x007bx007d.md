@@ -216,8 +216,10 @@
 
 ```javascript
 
-({ async * gen() { x = class  extends (await 10) {
-  }; } });
+({ async * gen() {
+    x = class  extends (await 10) {
+    };
+  } });
 
 ```
 

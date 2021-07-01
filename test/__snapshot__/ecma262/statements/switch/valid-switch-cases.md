@@ -5686,7 +5686,7 @@ switch (x / b[(c)]) {
 ;
 switch (x) {
   case foo: 
-    function * f() { }
+    function * f() {}
 }
 ;
 switch (x) {
@@ -5743,19 +5743,19 @@ switch (x) {
 ;
 switch (x) {
   case y: 
-    foo / bar ? 1 : (x) =>  { };
+    foo / bar ? 1 : (x) =>  {};
 }
 ;
 switch (0) {
   case 1: 
-    async function f() { }
+    async function f() {}
   default: 
-    async function f() { }
+    async function f() {}
 }
 ;
 switch (x) {
   case y: 
-    foo ? 1 : (x) =>  { };
+    foo ? 1 : (x) =>  {};
 }
 ;
 switch ({ x : y }) {
@@ -5775,14 +5775,14 @@ switch (x / b(c)) {
 ;
 switch (x) {
   case c: 
-    function f() { }
-    function f() { }
+    function f() {}
+    function f() {}
 }
 ;
 switch (x) {
   case c: 
-    async function * f() { }
-    async function * f() { }
+    async function * f() {}
+    async function * f() {}
 }
 ;
 switch (0) {
@@ -5800,12 +5800,12 @@ switch (0) {
 ;
 switch (x) {
   case x: 
-    function * f() { }
+    function * f() {}
 }
 ;
 switch (x) {
   case x: 
-    function * f() { }
+    function * f() {}
 }
 ;
 '"use strict"';
@@ -5823,7 +5823,7 @@ switch (x) {
 switch (x) {
   case 1: 
   default: 
-    function f() { }
+    function f() {}
     ;
     class C {
     }
@@ -5836,7 +5836,7 @@ switch (x) {
     class C {
     }
     ;
-    function f() { }
+    function f() {}
 }
 ;
 '"use strict"';
@@ -5851,7 +5851,7 @@ switch (x) {
 switch (x) {
   case 1: 
   default: 
-    function f() { }
+    function f() {}
     class C {
     }
 }

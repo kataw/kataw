@@ -146,7 +146,7 @@ for (((x)=>{}).x in y);
 
 ```javascript
 
-for (((x) =>  { }).x in y)
+for (((x) =>  {}).x in y)
   ;
 
 ```

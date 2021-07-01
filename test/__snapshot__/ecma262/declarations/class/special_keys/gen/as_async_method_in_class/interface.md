@@ -132,7 +132,7 @@ class x {async interface(){}}
 ```javascript
 
 class x {
-  async interface() { }
+  async interface() {}
 }
 
 ```

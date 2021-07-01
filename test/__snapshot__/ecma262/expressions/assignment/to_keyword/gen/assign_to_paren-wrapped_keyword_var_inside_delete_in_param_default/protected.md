@@ -150,7 +150,7 @@
 
 ```javascript
 
-(x = delete  ((protected) = f)) =>  { };
+(x = delete  ((protected) = f)) =>  {};
 
 ```
 

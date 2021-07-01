@@ -132,7 +132,7 @@ class x {get import(){}}
 ```javascript
 
 class x {
-  get import() { }
+  get import() {}
 }
 
 ```

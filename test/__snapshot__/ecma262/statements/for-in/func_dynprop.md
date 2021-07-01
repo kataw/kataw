@@ -133,7 +133,7 @@ for (function(){ }[foo] in x);
 
 ```javascript
 
-for (function () { }[foo] in x)
+for (function () {}[foo] in x)
   ;
 
 ```

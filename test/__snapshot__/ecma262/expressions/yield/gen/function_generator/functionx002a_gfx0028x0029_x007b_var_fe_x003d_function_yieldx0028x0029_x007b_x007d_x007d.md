@@ -273,7 +273,13 @@ function * gen() { function not_gen() { function* gf() { var fe = function yield
 
 ```javascript
 
-function * gen() { function not_gen() { function * gf() { var fe = function yield() { }; } } }
+function * gen() {
+  function not_gen() {
+    function * gf() {
+      var fe = function yield() {};
+    }
+  }
+}
 
 ```
 

@@ -163,7 +163,9 @@ async function f() { for await (let x of y) {} }
 
 ```javascript
 
-async function f() { for await (let x of y) { } }
+async function f() {
+  for await (let x of y) { }
+}
 
 ```
 

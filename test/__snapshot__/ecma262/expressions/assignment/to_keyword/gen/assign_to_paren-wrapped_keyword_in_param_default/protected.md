@@ -131,7 +131,7 @@ async (x = (protected) = f) => {}
 
 ```javascript
 
-async (x = (protected) = f) =>  { }
+async (x = (protected) = f) =>  {}
 
 ```
 

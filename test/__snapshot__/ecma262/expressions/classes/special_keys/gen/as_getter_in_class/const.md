@@ -132,7 +132,7 @@ class x {get const(){}}
 ```javascript
 
 class x {
-  get const() { }
+  get const() {}
 }
 
 ```

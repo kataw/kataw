@@ -390,7 +390,9 @@ new C;
 ```javascript
 
 class C {
-  static set #p(v) { C.#q = v; }
+  static set #p(v) {
+    C.#q = v;
+  }
   static #q
   ;
   constructor() {

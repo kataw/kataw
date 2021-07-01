@@ -132,7 +132,7 @@ class x {static debugger(){}}
 ```javascript
 
 class x {
-  static debugger() { }
+  static debugger() {}
 }
 
 ```

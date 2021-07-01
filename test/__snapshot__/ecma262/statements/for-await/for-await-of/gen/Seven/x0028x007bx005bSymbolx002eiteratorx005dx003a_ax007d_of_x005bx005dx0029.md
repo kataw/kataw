@@ -193,8 +193,10 @@ await ({[Symbol.iterator]: a} of []) ; }
 
 ```javascript
 
-async function f() { for await ({ [Symbol.iterator] : a } of [])
-  ; }
+async function f() {
+  for await ({ [Symbol.iterator] : a } of [])
+    ;
+}
 
 ```
 

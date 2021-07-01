@@ -478,7 +478,7 @@ async function foo2(): Promise<string> {
   return undefined;
 }
 async function foo3(): Promise<string> {
-  function bar() { }
+  function bar() {}
   return bar();
 }
 

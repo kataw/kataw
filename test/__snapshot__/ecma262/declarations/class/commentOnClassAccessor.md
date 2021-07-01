@@ -244,11 +244,13 @@ class C {
    /**
    * Getter.
    */
-  get bar(): number { return 1; }
+  get bar(): number {
+    return 1;
+  }
    /**
    * Setter.
    */
-  set bar(v) { }
+  set bar(v) {}
 }
 
 ```

@@ -275,7 +275,7 @@ class A extends B {
 class A extends B {
   x() {
     class C extends D {
-      [super[foo]]() { }
+      [super[foo]]() {}
     }
   }
 }

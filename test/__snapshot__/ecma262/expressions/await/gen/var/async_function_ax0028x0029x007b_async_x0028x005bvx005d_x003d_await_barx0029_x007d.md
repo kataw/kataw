@@ -299,7 +299,12 @@ var await; var f = (async function() { async function a(){     async ([v] = awai
 ```javascript
 
 var await;
-var f = (async function () { async function a() { async([v,] = await bar) ; } });
+var f = (async function () {
+  async function a() {
+    async([v,] = await bar)
+    ;
+  }
+});
 
 ```
 

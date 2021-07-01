@@ -6410,192 +6410,192 @@
   ;
 });
 (class  {
-  m() { }
+  m() {}
 });
 (class  {
-  m() { }
+  m() {}
   ;
 });
 (class  {
   ;
-  m() { }
+  m() {}
 });
 (class  {
-  m() { }
+  m() {}
   ;
-  n(x) { }
+  n(x) {}
 });
 (class  {
-  get x() { }
+  get x() {}
 });
 (class  {
-  set x(v) { }
+  set x(v) {}
 });
 (class  {
-  get() { }
+  get() {}
 });
 (class  {
-  set() { }
+  set() {}
 });
 (class  {
-  * g() { }
+  * g() {}
 });
 (class  {
-  * g() { }
+  * g() {}
   ;
 });
 (class  {
   ;
-  * g() { }
+  * g() {}
 });
 (class  {
-  * g() { }
+  * g() {}
   ;
-  * h(x) { }
+  * h(x) {}
 });
 (class  {
-  async * x() { }
+  async * x() {}
 });
 (class  {
-  static() { }
+  static() {}
 });
 (class  {
-  get static() { }
+  get static() {}
 });
 (class  {
-  set static(v) { }
+  set static(v) {}
 });
 (class  {
-  static m() { }
+  static m() {}
 });
 (class  {
-  static get x() { }
+  static get x() {}
 });
 (class  {
-  static set x(v) { }
+  static set x(v) {}
 });
 (class  {
-  static get() { }
+  static get() {}
 });
 (class  {
-  static set() { }
+  static set() {}
 });
 (class  {
-  static static() { }
+  static static() {}
 });
 (class  {
-  static get static() { }
+  static get static() {}
 });
 (class  {
-  static set static(v) { }
+  static set static(v) {}
 });
 (class  {
-  * static() { }
+  * static() {}
 });
 (class  {
-  static * static() { }
+  static * static() {}
 });
 (class  {
-  * get() { }
+  * get() {}
 });
 (class  {
-  * set() { }
+  * set() {}
 });
 (class  {
-  static * g() { }
+  static * g() {}
 });
 (class  {
-  async() { }
+  async() {}
 });
 (class  {
-  * async() { }
+  * async() {}
 });
 (class  {
-  static async() { }
+  static async() {}
 });
 (class  {
-  static * async() { }
+  static * async() {}
 });
 (class  {
-  static async * x() { }
+  static async * x() {}
 });
 (class  {
-  static async x() { }
+  static async x() {}
 });
 (class  {
-  static async() { }
+  static async() {}
 });
 (class  {
-  static * async() { }
+  static * async() {}
 });
 (class  {
-  async x() { }
+  async x() {}
 });
 (class  {
-  async 0() { }
+  async 0() {}
 });
 (class  {
-  async get() { }
+  async get() {}
 });
 (class  {
-  async set() { }
+  async set() {}
 });
 (class  {
-  async static() { }
+  async static() {}
 });
 (class  {
-  async async() { }
+  async async() {}
 });
 (class  {
-  async() { }
+  async() {}
 });
 (class  {
-  * async() { }
+  * async() {}
 });
 (class  {
-  get 42.5() { }
+  get 42.5() {}
 });
 (class  {
-  set static(v) { }
+  set static(v) {}
 });
 (class  {
-  static this() { }
+  static this() {}
 });
 (class  {
-  static get class() { }
+  static get class() {}
 });
 (class  {
-  static set 42.5(v) { }
+  static set 42.5(v) {}
 });
 (class  {
-  * const() { }
+  * const() {}
 });
 (class  {
-  static * '"str"'() { }
+  static * '"str"'() {}
 });
 (class C {
-  true() { }
+  true() {}
 });
 (class C {
-  get false() { }
+  get false() {}
 });
 (class C {
-  set function(v) { }
+  set function(v) {}
 });
 (class C {
-  static if() { }
+  static if() {}
 });
 (class C {
-  static get let() { }
+  static get let() {}
 });
 (class C {
-  static set get(v) { }
+  static set get(v) {}
 });
 (class C {
-  * set() { }
+  * set() {}
 });
 (class C {
-  static * static() { }
+  static * static() {}
 });
 
 ```

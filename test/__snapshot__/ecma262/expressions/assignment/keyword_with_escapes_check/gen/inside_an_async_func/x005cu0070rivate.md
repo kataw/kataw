@@ -114,7 +114,9 @@ async () => {  \u0070rivate = x  }
 
 ```javascript
 
-async () =>  { \u0070rivate = x; }
+async () =>  {
+  \u0070rivate = x;
+}
 
 ```
 

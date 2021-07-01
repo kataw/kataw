@@ -129,7 +129,7 @@
 
 ```javascript
 
-({ await(x, y) { } });
+({ await(x, y) {} });
 
 ```
 

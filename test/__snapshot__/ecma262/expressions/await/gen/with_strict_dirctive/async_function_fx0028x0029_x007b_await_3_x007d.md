@@ -126,7 +126,9 @@
 ```javascript
 
 '\'use strict\'';
-async function f() { await 3; }
+async function f() {
+  await 3;
+}
 
 ```
 

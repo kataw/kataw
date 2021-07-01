@@ -1718,7 +1718,7 @@ class Foo {
 
 class Foo {
   #field
-  #method() { }
+  #method() {}
   baseline() {
     a().foo;
     b().foo(x);

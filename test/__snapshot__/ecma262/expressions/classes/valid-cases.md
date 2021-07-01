@@ -816,19 +816,19 @@ x = class  {
   '\'z\'' = 2
 };
 x = class  {
-  y() { }
+  y() {}
   ;
-  '\'z\''() { }
+  '\'z\''() {}
 };
 x = class  {
-  get y() { }
+  get y() {}
   ;
-  set '\'z\''(z) { }
+  set '\'z\''(z) {}
 };
 x = class  {
-  get y() { }
+  get y() {}
   ;
-  set '\'z\''(z) { }
+  set '\'z\''(z) {}
 };
 x = class  {
   y = 1

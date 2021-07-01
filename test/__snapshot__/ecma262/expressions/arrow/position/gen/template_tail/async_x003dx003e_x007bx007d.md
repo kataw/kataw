@@ -118,7 +118,7 @@
 
 ```javascript
 
-`a ${async =>  { }} b`.length;
+`a ${async =>  {}} b`.length;
 
 ```
 

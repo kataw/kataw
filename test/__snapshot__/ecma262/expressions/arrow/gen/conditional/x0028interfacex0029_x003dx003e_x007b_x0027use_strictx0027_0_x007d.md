@@ -131,7 +131,8 @@
 
 (interface) =>  {
 '\'use strict\'';
- 0; }, bar;
+  0;
+}, bar;
 
 ```
 

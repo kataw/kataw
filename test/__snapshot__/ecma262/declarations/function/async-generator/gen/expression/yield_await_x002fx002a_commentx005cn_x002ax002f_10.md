@@ -163,7 +163,9 @@
 
 ```javascript
 
-({ async * gen() { yield  await/* comment\n */ 10; } });
+({ async * gen() {
+    yield  await/* comment\n */ 10;
+  } });
 
 ```
 

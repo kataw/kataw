@@ -140,7 +140,9 @@
 ```javascript
 
 '\'use strict\'';
-function * a() { yield  typeof  0; }
+function * a() {
+  yield  typeof  0;
+}
 
 ```
 

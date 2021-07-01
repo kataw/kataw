@@ -122,7 +122,8 @@ bar, eval => { 'use strict'; 0 };
 
 bar, eval =>  {
 '\'use strict\'';
- 0; };
+  0;
+};
 
 ```
 

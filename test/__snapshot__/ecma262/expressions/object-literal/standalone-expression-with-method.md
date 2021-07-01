@@ -117,7 +117,7 @@
 
 ```javascript
 
-({ [x] : function () { } });
+({ [x] : function () {} });
 
 ```
 

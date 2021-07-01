@@ -151,7 +151,7 @@ try {
 try {
 }
 catch (e){
-  function f() { }
+  function f() {}
 }
 
 ```

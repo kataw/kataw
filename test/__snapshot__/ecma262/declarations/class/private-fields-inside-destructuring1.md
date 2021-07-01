@@ -677,8 +677,12 @@ class Test {
   ;
   z = 2
   ;
-  get x() { return this.#x; }
-  get y() { return this.#y; }
+  get x() {
+    return this.#x;
+  }
+  get y() {
+    return this.#y;
+  }
   world() {
     return [1, [2, 3,], 4,];
   }

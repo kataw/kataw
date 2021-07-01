@@ -938,10 +938,10 @@ const { async = true } = x;
 
 const a = function ({
     async = true
-  }) { };
+  }) {};
 const b = function ({
     async: bar
-  }) { };
+  }) {};
 const c = async ({
     async: bar
   }) =>  {

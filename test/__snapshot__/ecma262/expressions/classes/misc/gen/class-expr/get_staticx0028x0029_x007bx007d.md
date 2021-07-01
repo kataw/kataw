@@ -136,7 +136,7 @@
 ```javascript
 
 (class  {
-  get static() { }
+  get static() {}
 });
 
 ```

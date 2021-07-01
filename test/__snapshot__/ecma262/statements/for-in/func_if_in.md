@@ -182,8 +182,10 @@ for (function(){ if (a in b); }.prop in x);
 
 ```javascript
 
-for (function () { if (a in b)
-  ; }.prop in x)
+for (function () {
+  if (a in b)
+    ;
+}.prop in x)
   ;
 
 ```

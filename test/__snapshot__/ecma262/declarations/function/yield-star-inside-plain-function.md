@@ -115,7 +115,9 @@
 
 ```javascript
 
-(function () { yield * 10; });
+(function () {
+  yield * 10;
+});
 
 ```
 

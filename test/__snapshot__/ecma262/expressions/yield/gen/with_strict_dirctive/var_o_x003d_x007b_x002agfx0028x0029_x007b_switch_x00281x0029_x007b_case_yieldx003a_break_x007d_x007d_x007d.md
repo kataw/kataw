@@ -228,10 +228,12 @@
 ```javascript
 
 '\'use strict\'';
-var o = { * gf() { switch (1) {
-    case yield : 
-      break;
-  } } };
+var o = { * gf() {
+    switch (1) {
+      case yield : 
+        break;
+    }
+  } };
 
 ```
 

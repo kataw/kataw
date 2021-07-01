@@ -1017,10 +1017,14 @@ export { specifierNumber1, };
 export { specifierNumber2 as  specifierNumber2Renamed, };
 export { specifierNumber3, };
 export { groupedSpecifierNumber1, groupedSpecifierNumber2, };
-export function givesANumber(): number { return 42; }
+export function givesANumber(): number {
+  return 42;
+}
 ;
 export class NumberGenerator {
-  givesANumber(): number { return 42; }
+  givesANumber(): number {
+    return 42;
+  }
 }
 ;
 export const varDeclNumber1 = 1, varDeclNumber2 = 2;

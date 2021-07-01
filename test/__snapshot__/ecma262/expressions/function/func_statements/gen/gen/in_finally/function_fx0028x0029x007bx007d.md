@@ -136,7 +136,7 @@ try {
 try {
 }
 finally {
-  function f() { }
+  function f() {}
 }
 
 ```

@@ -121,7 +121,7 @@
 
 ```javascript
 
-(function call(foo = await) { });
+(function call(foo = await) {});
 
 ```
 

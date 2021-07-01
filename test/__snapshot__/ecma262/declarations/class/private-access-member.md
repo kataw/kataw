@@ -205,7 +205,9 @@ class C { #aaa; f(obj) { obj?.#aaa } }
 class C {
   #aaa
   ;
-  f(obj) { obj?.#aaa; }
+  f(obj) {
+    obj?.#aaa;
+  }
 }
 
 ```

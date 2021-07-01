@@ -176,7 +176,9 @@ function* g( x = function() { async(yield) }) {};
 
 ```javascript
 
-function * g(x = function () { async(yield) }) { }
+function * g(x = function () {
+    async(yield)
+  }) {}
 ;
 
 ```

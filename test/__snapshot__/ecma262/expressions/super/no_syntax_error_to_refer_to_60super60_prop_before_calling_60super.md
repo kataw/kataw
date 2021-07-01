@@ -215,7 +215,10 @@ class x extends y { constructor() { log(super.foo); super.mom; } }
 ```javascript
 
 class x extends y {
-  constructor() { log(super.foo); super.mom; }
+  constructor() {
+    log(super.foo);
+    super.mom;
+  }
 }
 
 ```

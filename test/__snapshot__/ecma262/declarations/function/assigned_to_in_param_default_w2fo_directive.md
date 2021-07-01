@@ -122,7 +122,7 @@ function e(x=eval=10){ }
 
 ```javascript
 
-function e(x = eval = 10) { }
+function e(x = eval = 10) {}
 
 ```
 

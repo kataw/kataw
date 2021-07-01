@@ -81,7 +81,7 @@ function MyClass() {}
 /**
  * @class MyClass
  */
-function MyClass() { }
+function MyClass() {}
 
 ```
 

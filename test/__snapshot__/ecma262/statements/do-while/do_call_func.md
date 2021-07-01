@@ -124,7 +124,7 @@ do h(function(){});while(x)
 ```javascript
 
 do
-  h(function () { }); while (x)
+  h(function () {}); while (x)
 
 ```
 

@@ -137,7 +137,7 @@ class x {async * const(){}}
 ```javascript
 
 class x {
-  async * const() { }
+  async * const() {}
 }
 
 ```

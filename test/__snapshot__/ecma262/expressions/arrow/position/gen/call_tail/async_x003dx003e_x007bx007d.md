@@ -117,7 +117,7 @@ foo(async => {}).bar
 
 ```javascript
 
-foo(async =>  { }).bar;
+foo(async =>  {}).bar;
 
 ```
 

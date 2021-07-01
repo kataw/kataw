@@ -110,7 +110,9 @@ function* f(){ yield
 
 ```javascript
 
-function * f() { yield  /foo/; }
+function * f() {
+  yield  /foo/;
+}
 
 ```
 

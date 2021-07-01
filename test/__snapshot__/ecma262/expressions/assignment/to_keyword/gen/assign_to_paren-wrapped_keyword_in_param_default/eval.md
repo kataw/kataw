@@ -131,7 +131,7 @@ async (x = (eval) = f) => {}
 
 ```javascript
 
-async (x = (eval) = f) =>  { }
+async (x = (eval) = f) =>  {}
 
 ```
 

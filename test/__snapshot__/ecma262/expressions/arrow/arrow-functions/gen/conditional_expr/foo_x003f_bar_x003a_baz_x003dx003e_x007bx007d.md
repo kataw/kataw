@@ -154,7 +154,7 @@ bar ? (foo ? bar : baz => {}) : baz;
 
 ```javascript
 
-bar ? (foo ? bar : baz =>  { }) : baz;
+bar ? (foo ? bar : baz =>  {}) : baz;
 
 ```
 

@@ -189,7 +189,10 @@
 
 ```javascript
 
-({ async * gen() { await (yield  10); return 20; } });
+({ async * gen() {
+    await (yield  10);
+    return 20;
+  } });
 
 ```
 

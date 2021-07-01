@@ -173,9 +173,11 @@ function *f(){ ({x} = yield) => {} }
 
 ```javascript
 
-function * f() { ({
-    x
-  } = yield ) =>  { }; }
+function * f() {
+  ({
+      x
+    } = yield ) =>  {};
+}
 
 ```
 

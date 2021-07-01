@@ -137,7 +137,7 @@ class x {async * break(){}}
 ```javascript
 
 class x {
-  async * break() { }
+  async * break() {}
 }
 
 ```

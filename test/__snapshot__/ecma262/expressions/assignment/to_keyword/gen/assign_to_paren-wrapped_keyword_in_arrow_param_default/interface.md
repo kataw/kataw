@@ -132,7 +132,7 @@
 
 ```javascript
 
-(x = (interface) = f) =>  { };
+(x = (interface) = f) =>  {};
 
 ```
 

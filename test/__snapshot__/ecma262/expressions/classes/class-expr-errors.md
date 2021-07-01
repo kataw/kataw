@@ -846,20 +846,28 @@
 ```javascript
 
 (class  {
-  set #b(val) { }
-  fn() { return this.#b; }
+  set #b(val) {}
+  fn() {
+    return this.#b;
+  }
 });
 (class  {
-  get #b() { }
-  fn() { this.#b++; }
+  get #b() {}
+  fn() {
+    this.#b++;
+  }
 });
 (class  {
-  get #b() { }
-  fn(obj) { ({ y : this.#b } = obj); }
+  get #b() {}
+  fn(obj) {
+    ({ y : this.#b } = obj);
+  }
 });
 (class  {
-  #b() { }
-  fn() { this.#b++; }
+  #b() {}
+  fn() {
+    this.#b++;
+  }
 });
 
 ```

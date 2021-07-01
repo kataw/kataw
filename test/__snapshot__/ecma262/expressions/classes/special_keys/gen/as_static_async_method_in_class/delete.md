@@ -137,7 +137,7 @@ class x {static async delete(){}}
 ```javascript
 
 class x {
-  static async delete() { }
+  static async delete() {}
 }
 
 ```

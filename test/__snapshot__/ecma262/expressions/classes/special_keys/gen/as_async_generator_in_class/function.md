@@ -137,7 +137,7 @@ class x {async * function(){}}
 ```javascript
 
 class x {
-  async * function() { }
+  async * function() {}
 }
 
 ```

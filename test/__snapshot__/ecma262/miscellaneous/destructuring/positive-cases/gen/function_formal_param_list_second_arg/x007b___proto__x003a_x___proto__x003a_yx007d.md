@@ -157,7 +157,7 @@ function f(argument1, { __proto__: x, __proto__: y}) {}
 function f(argument1, {
     __proto__: x,
     __proto__: y
-  }) { }
+  }) {}
 
 ```
 

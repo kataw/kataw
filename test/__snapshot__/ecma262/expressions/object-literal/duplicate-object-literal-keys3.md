@@ -224,7 +224,7 @@
 
 ```javascript
 
-({ get x() { }, set x(y) { }, get x() { } });
+({ get x() {}, set x(y) {}, get x() {} });
 
 ```
 

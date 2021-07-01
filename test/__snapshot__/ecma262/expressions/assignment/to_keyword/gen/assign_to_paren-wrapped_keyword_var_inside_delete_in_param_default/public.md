@@ -150,7 +150,7 @@
 
 ```javascript
 
-(x = delete  ((public) = f)) =>  { };
+(x = delete  ((public) = f)) =>  {};
 
 ```
 

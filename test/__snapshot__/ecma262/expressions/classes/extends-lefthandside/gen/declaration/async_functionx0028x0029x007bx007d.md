@@ -130,7 +130,7 @@ class A extends async function(){} {}
 
 ```javascript
 
-class A extends async function () { } {
+class A extends async function () {} {
 }
 
 ```

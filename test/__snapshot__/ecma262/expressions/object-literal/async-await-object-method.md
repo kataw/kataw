@@ -145,7 +145,9 @@
 
 ```javascript
 
-({ async foo(a) { await a; } });
+({ async foo(a) {
+    await a;
+  } });
 
 ```
 

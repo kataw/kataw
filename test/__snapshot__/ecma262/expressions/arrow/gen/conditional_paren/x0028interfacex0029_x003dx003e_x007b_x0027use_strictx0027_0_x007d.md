@@ -155,7 +155,8 @@ bar ? baz : ( (interface) => { 'use strict'; 0 } );
 
 bar ? baz : ((interface) =>  {
 '\'use strict\'';
- 0; });
+  0;
+});
 
 ```
 

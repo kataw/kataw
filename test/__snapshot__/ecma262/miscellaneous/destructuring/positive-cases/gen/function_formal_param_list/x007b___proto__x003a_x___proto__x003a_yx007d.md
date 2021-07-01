@@ -149,7 +149,7 @@ function f({ __proto__: x, __proto__: y}) {}
 function f({
     __proto__: x,
     __proto__: y
-  }) { }
+  }) {}
 
 ```
 

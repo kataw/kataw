@@ -140,7 +140,9 @@ function* g() { (function yield() {}) }
 
 ```javascript
 
-function * g() { (function yield() { }); }
+function * g() {
+  (function yield() {});
+}
 
 ```
 

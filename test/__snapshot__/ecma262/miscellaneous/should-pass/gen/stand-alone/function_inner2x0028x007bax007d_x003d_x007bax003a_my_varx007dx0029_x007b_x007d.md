@@ -157,7 +157,7 @@ function inner2({a} = {a: my_var}) { }
 
 function inner2({
     a
-  } = { a : my_var }) { }
+  } = { a : my_var }) {}
 
 ```
 

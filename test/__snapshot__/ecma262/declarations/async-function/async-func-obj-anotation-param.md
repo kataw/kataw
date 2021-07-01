@@ -174,7 +174,7 @@ async function foo({x}: { x: string; }) {}
 
 async function foo({
     x
-  }: { x: string }) { }
+  }: { x: string }) {}
 
 ```
 

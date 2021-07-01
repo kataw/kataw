@@ -1847,11 +1847,11 @@ var z : Object = (x) => "hi"
 
 ```javascript
 // Expecting properties that don't exist should be an error
-var a: { someProp: number } = function () { };
+var a: { someProp: number } = function () {};
  // Expecting properties that do exist should be fine
-var b: { apply: Function } = function () { };
+var b: { apply: Function } = function () {};
  // Expecting properties in the functions statics should be fine
-var f = function () { };
+var f = function () {};
 f.myProp = 123;
 var c: { myProp: number } = f;
 var a: { (x: number): string } = (x) => x.toString();
@@ -1862,9 +1862,11 @@ var c: { (x: string): string } = (x) => x.toFixed();
  // ...or if the arity is wrong
 var d: { (): string } = (x) => '"hi"';
  // ...but subtyping rules still apply
-var e: { (x: any): void } = () =>  { };// arity
+var e: { (x: any): void } = () =>  {};// arity
 var f: { (): mixed } = () => '"hi"';// return type
-var g: { (x: Date): void } = (x) =>  { x * 2; };// param type (date < number)
+var g: { (x: Date): void } = (x) =>  {
+  x * 2;
+};// param type (date < number)
  // A function can be an object
 var y: {} = (x) => '"hi"';
 var z: Object = (x) => '"hi"';

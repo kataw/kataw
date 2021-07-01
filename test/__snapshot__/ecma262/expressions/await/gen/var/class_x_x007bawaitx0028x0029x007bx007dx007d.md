@@ -251,9 +251,11 @@ var await; var f = (async function() { class x {await(){}} });
 ```javascript
 
 var await;
-var f = (async function () { class x {
-  await() { }
-} });
+var f = (async function () {
+  class x {
+    await() {}
+  }
+});
 
 ```
 

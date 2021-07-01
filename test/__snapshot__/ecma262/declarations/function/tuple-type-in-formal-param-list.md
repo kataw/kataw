@@ -208,7 +208,7 @@ function x({ y }: z<[string |Q]>) {}
 
 function x({
     y
-  }: z<[string | Q]>) { }
+  }: z<[string | Q]>) {}
 
 ```
 

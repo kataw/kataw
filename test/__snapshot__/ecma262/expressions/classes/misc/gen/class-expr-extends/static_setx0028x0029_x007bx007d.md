@@ -156,7 +156,7 @@
 ```javascript
 
 (class  extends Base {
-  static set() { }
+  static set() {}
 });
 
 ```

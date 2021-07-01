@@ -441,11 +441,13 @@ class B extends A {
 ```javascript
 
 class A {
-  constructor(p: any) { }
+  constructor(p: any) {}
 }
 class B extends A {
-  constructor() { super({ test : () => this.someMethod() }); }
-  someMethod() { }
+  constructor() {
+    super({ test : () => this.someMethod() });
+  }
+  someMethod() {}
 }
 
 ```

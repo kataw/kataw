@@ -121,7 +121,9 @@ function f(){ new.target + foo }
 
 ```javascript
 
-function f() { new.target + foo; }
+function f() {
+  new.target + foo;
+}
 
 ```
 

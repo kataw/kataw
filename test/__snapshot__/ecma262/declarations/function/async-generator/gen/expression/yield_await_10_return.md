@@ -176,7 +176,10 @@
 
 ```javascript
 
-({ async * gen() { yield  await 10; return; } });
+({ async * gen() {
+    yield  await 10;
+    return;
+  } });
 
 ```
 

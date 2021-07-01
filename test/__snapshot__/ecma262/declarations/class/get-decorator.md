@@ -154,7 +154,7 @@ class A {
 
 class A {
   @foo
-  get getter() { }
+  get getter() {}
 }
 
 ```

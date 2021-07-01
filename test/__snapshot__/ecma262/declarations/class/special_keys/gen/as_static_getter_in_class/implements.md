@@ -137,7 +137,7 @@ class x {static get implements(){}}
 ```javascript
 
 class x {
-  static get implements() { }
+  static get implements() {}
 }
 
 ```

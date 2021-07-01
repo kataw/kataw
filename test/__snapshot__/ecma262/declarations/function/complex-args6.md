@@ -133,7 +133,7 @@ function f([b, a], {b}) {}
 
 function f([b, a], {
     b
-  }) { }
+  }) {}
 
 ```
 

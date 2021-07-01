@@ -314,10 +314,16 @@ function * gen() { function not_gen() { var gfe = function* rgfe() { switch (1) 
 
 ```javascript
 
-function * gen() { function not_gen() { var gfe = function * rgfe() { switch (1) {
-  case yield *  '\'foo\'': 
-    break;
-} }; } }
+function * gen() {
+  function not_gen() {
+    var gfe = function * rgfe() {
+      switch (1) {
+        case yield *  '\'foo\'': 
+          break;
+      }
+    };
+  }
+}
 
 ```
 

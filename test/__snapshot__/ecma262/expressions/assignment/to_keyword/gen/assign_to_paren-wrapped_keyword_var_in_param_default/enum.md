@@ -132,7 +132,7 @@
 
 ```javascript
 
-(x = (enum) = f) =>  { };
+(x = (enum) = f) =>  {};
 
 ```
 

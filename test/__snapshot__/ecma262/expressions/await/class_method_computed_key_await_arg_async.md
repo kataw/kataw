@@ -310,10 +310,10 @@ async function f(){
 
 async function f() {
   (fail = class A {
-      [await x]() { }
+      [await x]() {}
       ;
-      '"x"'() { }
-    }) =>  { };
+      '"x"'() {}
+    }) =>  {};
 }
 
 ```

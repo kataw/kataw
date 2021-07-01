@@ -148,7 +148,7 @@ class A {async
 
 class A {
   async
-  foo() { }
+  foo() {}
 }
 ;
 

@@ -137,7 +137,7 @@ class x {async * var(){}}
 ```javascript
 
 class x {
-  async * var() { }
+  async * var() {}
 }
 
 ```

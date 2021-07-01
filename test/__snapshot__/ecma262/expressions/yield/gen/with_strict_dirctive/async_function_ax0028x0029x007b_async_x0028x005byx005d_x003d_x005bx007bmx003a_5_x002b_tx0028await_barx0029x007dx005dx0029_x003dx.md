@@ -283,7 +283,9 @@
 ```javascript
 
 '\'use strict\'';
-async function a() { async ([y] = [{ m : 5 + t(await bar) },]) =>  { } }
+async function a() {
+  async ([y] = [{ m : 5 + t(await bar) },]) =>  {}
+}
 
 ```
 

@@ -143,7 +143,7 @@
 
 ```javascript
 
-(class B extends function f() { } {
+(class B extends function f() {} {
 });
 
 ```

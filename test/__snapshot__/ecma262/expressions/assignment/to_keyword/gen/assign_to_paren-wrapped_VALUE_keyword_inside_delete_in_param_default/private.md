@@ -159,7 +159,7 @@ function *f(x = delete ((private) = f)) {}
 
 ```javascript
 
-function * f(x = delete  ((private) = f)) { }
+function * f(x = delete  ((private) = f)) {}
 
 ```
 

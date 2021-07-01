@@ -83,7 +83,7 @@ x => { "use strict"; }
 
 x =>  {
 '"use strict"';
- };
+};
 
 ```
 

@@ -141,7 +141,7 @@ class x {set try(x){}}
 ```javascript
 
 class x {
-  set try(x) { }
+  set try(x) {}
 }
 
 ```

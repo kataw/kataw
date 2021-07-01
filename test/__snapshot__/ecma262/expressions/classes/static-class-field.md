@@ -4635,17 +4635,17 @@ class x {
 (class C {
   static a = 0
   ;
-  b() { }
+  b() {}
 });
 (class C {
   static a = 0
   ;
-  * b() { }
+  * b() {}
 });
 (class C {
   static a = 0
   ;
-  ['\'b\'']() { }
+  ['\'b\'']() {}
 });
 (class C {
   static a
@@ -4660,17 +4660,17 @@ class x {
 (class C {
   static a
   ;
-  b() { }
+  b() {}
 });
 (class C {
   static a
   ;
-  * b() { }
+  * b() {}
 });
 (class C {
   static a
   ;
-  ['\'b\'']() { }
+  ['\'b\'']() {}
 });
 (class C {
   static ['\'a\''] = 0
@@ -4684,17 +4684,17 @@ class x {
 (class C {
   static ['\'a\''] = 0
   ;
-  b() { }
+  b() {}
 });
 (class C {
   static ['\'a\''] = 0
   ;
-  * b() { }
+  * b() {}
 });
 (class C {
   static ['\'a\''] = 0
   ;
-  ['\'b\'']() { }
+  ['\'b\'']() {}
 });
 (class C {
   static ['\'a\'']
@@ -4709,17 +4709,17 @@ class x {
 (class C {
   static ['\'a\'']
   ;
-  b() { }
+  b() {}
 });
 (class C {
   static ['\'a\'']
   ;
-  * b() { }
+  * b() {}
 });
 (class C {
   static ['\'a\'']
   ;
-  ['\'b\'']() { }
+  ['\'b\'']() {}
 });
 (class  extends x {
   static 0 = 0
@@ -4760,7 +4760,7 @@ class x {
 });
 (class C {
   static async
-  a() { }
+  a() {}
 });// a field named async, and a method named a.
 (class C {
   static async
@@ -4790,7 +4790,7 @@ class x {
 });
 (class  {
   static a = 0
-  b() { }
+  b() {}
 });
 (class  {
   static a

@@ -137,7 +137,7 @@ class x {static get if(){}}
 ```javascript
 
 class x {
-  static get if() { }
+  static get if() {}
 }
 
 ```

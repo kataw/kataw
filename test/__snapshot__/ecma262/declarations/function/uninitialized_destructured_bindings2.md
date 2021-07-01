@@ -136,7 +136,7 @@ var x = function({ foo }) {}
 
 var x = function ({
     foo
-  }) { };
+  }) {};
 
 ```
 

@@ -109,7 +109,7 @@
 
 ```javascript
 
-({ async await() { } });
+({ async await() {} });
 
 ```
 

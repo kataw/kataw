@@ -114,7 +114,9 @@ async () => {  \u0070ackage = x  }
 
 ```javascript
 
-async () =>  { \u0070ackage = x; }
+async () =>  {
+  \u0070ackage = x;
+}
 
 ```
 

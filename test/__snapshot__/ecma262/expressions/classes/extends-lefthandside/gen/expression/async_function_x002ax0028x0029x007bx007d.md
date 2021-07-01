@@ -146,7 +146,7 @@
 
 ```javascript
 
-(class B extends async function * () { } {
+(class B extends async function * () {} {
 });
 
 ```

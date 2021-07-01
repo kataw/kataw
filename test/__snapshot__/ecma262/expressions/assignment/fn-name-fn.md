@@ -223,8 +223,8 @@ fn = function() {};
 ```javascript
 
 var xFn, fn;
-xFn = function x() { };
-fn = function () { };
+xFn = function x() {};
+fn = function () {};
 
 ```
 

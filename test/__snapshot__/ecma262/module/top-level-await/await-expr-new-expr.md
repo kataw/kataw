@@ -176,7 +176,9 @@ await new Promise(function(res, rej) { res(1); });
 
 ```javascript
 
-await new Promise(function (res, rej) { res(1); });
+await new Promise(function (res, rej) {
+  res(1);
+});
 
 ```
 

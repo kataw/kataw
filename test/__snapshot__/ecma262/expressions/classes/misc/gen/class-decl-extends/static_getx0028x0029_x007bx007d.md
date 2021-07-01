@@ -152,7 +152,7 @@ class C extends Base { static get() {} }
 ```javascript
 
 class C extends Base {
-  static get() { }
+  static get() {}
 }
 
 ```

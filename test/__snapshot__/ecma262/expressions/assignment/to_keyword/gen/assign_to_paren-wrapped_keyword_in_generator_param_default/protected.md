@@ -141,7 +141,7 @@ function *f(x = (protected) = f) {}
 
 ```javascript
 
-function * f(x = (protected) = f) { }
+function * f(x = (protected) = f) {}
 
 ```
 

@@ -150,7 +150,7 @@
 
 ```javascript
 
-(x = delete  ((enum) = f)) =>  { };
+(x = delete  ((enum) = f)) =>  {};
 
 ```
 

@@ -246,7 +246,13 @@ function * gen() { function not_gen() { function* g(){ x ? yield : y } }}
 
 ```javascript
 
-function * gen() { function not_gen() { function * g() { x ? yield  : y; } } }
+function * gen() {
+  function not_gen() {
+    function * g() {
+      x ? yield  : y;
+    }
+  }
+}
 
 ```
 

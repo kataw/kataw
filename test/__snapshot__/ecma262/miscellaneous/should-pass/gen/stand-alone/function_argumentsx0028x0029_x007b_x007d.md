@@ -84,7 +84,7 @@ function arguments() { }
 
 ```javascript
 
-function arguments() { }
+function arguments() {}
 
 ```
 

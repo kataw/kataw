@@ -188,7 +188,9 @@
 
 ```javascript
 
-({ async * gen() { yield *  { yield : 12 }; } });
+({ async * gen() {
+    yield *  { yield : 12 };
+  } });
 
 ```
 

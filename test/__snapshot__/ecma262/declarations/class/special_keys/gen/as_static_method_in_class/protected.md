@@ -132,7 +132,7 @@ class x {static protected(){}}
 ```javascript
 
 class x {
-  static protected() { }
+  static protected() {}
 }
 
 ```

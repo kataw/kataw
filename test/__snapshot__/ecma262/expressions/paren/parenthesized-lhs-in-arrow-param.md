@@ -209,7 +209,9 @@
 
 ```javascript
 
-(a = function (a) { [(a),] = [0,]; }) =>  { };
+(a = function (a) {
+    [(a),] = [0,];
+  }) =>  {};
 
 ```
 

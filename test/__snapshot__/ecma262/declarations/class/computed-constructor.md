@@ -1227,37 +1227,37 @@ class one {
   ['\'constructor\''] = 0
 }
 class two {
-  ['\'constructor\'']() { }
+  ['\'constructor\'']() {}
 }
 class three {
-  * ['\'constructor\'']() { }
+  * ['\'constructor\'']() {}
 }
 class four {
-  get ['\'constructor\'']() { }
+  get ['\'constructor\'']() {}
 }
 class five {
-  set ['\'constructor\''](x) { }
+  set ['\'constructor\''](x) {}
 }
 class six {
-  async ['\'constructor\'']() { }
+  async ['\'constructor\'']() {}
 }
 class seven {
   static ['\'constructor\''] = 0
 }
 class eigth {
-  static ['\'constructor\'']() { }
+  static ['\'constructor\'']() {}
 }
 class nine {
-  static * ['\'constructor\'']() { }
+  static * ['\'constructor\'']() {}
 }
 class ten {
-  static get ['\'constructor\'']() { }
+  static get ['\'constructor\'']() {}
 }
 class eleven {
-  static set ['\'constructor\''](x) { }
+  static set ['\'constructor\''](x) {}
 }
 class twelve {
-  static async ['\'constructor\'']() { }
+  static async ['\'constructor\'']() {}
 }
 
 ```

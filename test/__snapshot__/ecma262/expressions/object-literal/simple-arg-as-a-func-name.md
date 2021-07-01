@@ -175,7 +175,9 @@ o = {f(x) { function x() {} }}
 
 ```javascript
 
-o = { f(x) { function x() { } } };
+o = { f(x) {
+    function x() {}
+  } };
 
 ```
 

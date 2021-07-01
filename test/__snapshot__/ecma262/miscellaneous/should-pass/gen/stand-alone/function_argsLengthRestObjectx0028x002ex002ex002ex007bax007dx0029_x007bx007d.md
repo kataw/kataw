@@ -125,7 +125,7 @@ function argsLengthRestObject(...{a}) {}
 
 function argsLengthRestObject(...{
     a
-  }) { }
+  }) {}
 
 ```
 

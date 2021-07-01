@@ -107,7 +107,7 @@ if (x) function f(){}
 ```javascript
 
 if (x)
-  function f() { }
+  function f() {}
 
 ```
 

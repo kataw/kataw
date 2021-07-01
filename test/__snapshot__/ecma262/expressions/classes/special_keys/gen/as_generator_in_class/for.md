@@ -132,7 +132,7 @@ class x {* for(){}}
 ```javascript
 
 class x {
-  * for() { }
+  * for() {}
 }
 
 ```

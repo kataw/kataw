@@ -156,7 +156,7 @@
 ```javascript
 
 (class  extends Base {
-  async async() { }
+  async async() {}
 });
 
 ```

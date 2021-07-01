@@ -141,7 +141,7 @@ function *f(x = (interface) = f) {}
 
 ```javascript
 
-function * f(x = (interface) = f) { }
+function * f(x = (interface) = f) {}
 
 ```
 

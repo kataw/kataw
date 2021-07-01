@@ -104,7 +104,7 @@ export default async function() { };
 
 ```javascript
 
-export default async function () { };
+export default async function () {};
 ;
 
 ```

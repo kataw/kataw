@@ -132,7 +132,7 @@ class x {static while(){}}
 ```javascript
 
 class x {
-  static while() { }
+  static while() {}
 }
 
 ```

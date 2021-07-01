@@ -694,18 +694,18 @@ for await (let binding of [await function() {}]) {
 
 var binding;
  // [+Await]for await ( [lookahead ≠ let] LeftHandSideExpression[?Yield, ?Await] of AssignmentExpression[+In, ?Yield, ?Await] ) Statement[?Yield, ?Await, ?Return]
-for await (binding of [await function () { },]) {
-  await function () { };
+for await (binding of [await function () {},]) {
+  await function () {};
   break;
 }
  // [+Await]for await ( var ForBinding[?Yield, ?Await] of AssignmentExpression[+In, ?Yield, ?Await] ) Statement[?Yield, ?Await, ?Return]
-for await (var binding of [await function () { },]) {
-  await function () { };
+for await (var binding of [await function () {},]) {
+  await function () {};
   break;
 }
  // [+Await]for await ( ForDeclaration[?Yield, ?Await] of AssignmentExpression[+In, ?Yield, ?Await] ) Statement[?Yield, ?Await, ?Return]
-for await (let binding of [await function () { },]) {
-  await function () { };
+for await (let binding of [await function () {},]) {
+  await function () {};
   break;
 }
 

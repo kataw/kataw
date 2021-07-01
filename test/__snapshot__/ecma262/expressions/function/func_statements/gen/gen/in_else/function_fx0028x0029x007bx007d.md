@@ -128,7 +128,7 @@ else function f(){}
 if (x)
   x;
 else
-  function f() { }
+  function f() {}
 
 ```
 

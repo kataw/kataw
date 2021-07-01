@@ -138,7 +138,7 @@ function arrayRestWithNestedRest(...[...r]) {}
 
 ```javascript
 
-function arrayRestWithNestedRest(...[...r]) { }
+function arrayRestWithNestedRest(...[...r]) {}
 
 ```
 

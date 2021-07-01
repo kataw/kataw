@@ -137,7 +137,7 @@ class x {static async continue(){}}
 ```javascript
 
 class x {
-  static async continue() { }
+  static async continue() {}
 }
 
 ```

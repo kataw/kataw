@@ -139,7 +139,7 @@ function f([a,b,...rest]) {}
 
 ```javascript
 
-function f([a, b, ...rest]) { }
+function f([a, b, ...rest]) {}
 
 ```
 

@@ -257,9 +257,11 @@ class C {
 
 class C {
   get
-  x() { return 1; }
+  x() {
+    return 1;
+  }
   set
-  x(v) { }
+  x(v) {}
 }
 
 ```

@@ -132,7 +132,7 @@ class x {* set(){}}
 ```javascript
 
 class x {
-  * set() { }
+  * set() {}
 }
 
 ```

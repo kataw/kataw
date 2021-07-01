@@ -109,7 +109,7 @@ while(y)
 ```javascript
 
 do
-  (function () { }); while (y)
+  (function () {}); while (y)
 
 ```
 

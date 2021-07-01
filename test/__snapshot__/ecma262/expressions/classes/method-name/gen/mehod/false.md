@@ -129,7 +129,7 @@
 
 ```javascript
 
-({ false(x, y) { } });
+({ false(x, y) {} });
 
 ```
 

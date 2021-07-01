@@ -1091,11 +1091,11 @@ declare class one {
   m4(this: T): void
 }
 class two {
-  m1(this: number) { }
-  m2(this: number, a) { }
-  m3(this: number, ...a) { }
-  m4(this: number, a, b, ...c) { }
-  m5<T>(this: T) { }
+  m1(this: number) {}
+  m2(this: number, a) {}
+  m3(this: number, ...a) {}
+  m4(this: number, a, b, ...c) {}
+  m5<T>(this: T) {}
 }
 
 ```

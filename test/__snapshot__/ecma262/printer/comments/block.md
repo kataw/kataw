@@ -286,7 +286,7 @@ Block comment for this script file.
 /*
 Block comment for function f.
 */
-function f() { }
+function f() {}
  /**
 * JSDoc block comment.
 * @param {string} a - Some string to test

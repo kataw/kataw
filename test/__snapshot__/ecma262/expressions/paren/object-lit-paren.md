@@ -3938,7 +3938,7 @@
 ({ a : a } = 1)();
 ({ x : { x : y }.length } = x);
 ({ x : false });
-({ x : function () { } });
+({ x : function () {} });
 ({ x : typeof  x });
 ({ x : void  x });
 ({ x : x + y });
@@ -3951,12 +3951,12 @@
 ({ ...[][x] } = (x) = (y));
 ({ ...{}[x] } = x);
 ({ ...{}[x = (y)[z]] } = x);
-({ async x() { } });
-({ async x() { } });
-({ async [foo]() { } });
-({ get 500() { } });
-({ set 500(b) { } });
-({ set [foo](d) { } });
+({ async x() {} });
+({ async x() {} });
+({ async [foo]() {} });
+({ get 500() {} });
+({ set 500(b) {} });
+({ set [foo](d) {} });
 ({ ...{ b : 0 }[x] } = {});
 ({ ...{ b : 0 }.x } = {});
 ([target()[targetKey()],] = x);

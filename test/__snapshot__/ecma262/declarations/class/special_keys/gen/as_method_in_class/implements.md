@@ -127,7 +127,7 @@ class x {implements(){}}
 ```javascript
 
 class x {
-  implements() { }
+  implements() {}
 }
 
 ```

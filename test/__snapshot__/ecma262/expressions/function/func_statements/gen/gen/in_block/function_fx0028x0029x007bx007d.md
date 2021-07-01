@@ -101,7 +101,7 @@
 ```javascript
 
 {
-  function f() { }
+  function f() {}
 }
 
 ```

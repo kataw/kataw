@@ -135,7 +135,10 @@ async function * gen() {await 10; return}
 
 ```javascript
 
-async function * gen() { await 10; return; }
+async function * gen() {
+  await 10;
+  return;
+}
 
 ```
 

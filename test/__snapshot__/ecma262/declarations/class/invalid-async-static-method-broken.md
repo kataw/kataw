@@ -153,7 +153,7 @@ class A {static async
 
 class A {
   static async
-  foo() { }
+  foo() {}
 }
 ;
 

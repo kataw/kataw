@@ -155,7 +155,7 @@ class Foo {
 
 class Foo {
   @dec
-  static bar() { }
+  static bar() {}
 }
 
 ```

@@ -218,7 +218,9 @@ class x extends y { foo(){ return () => () => super.foo; }}
 ```javascript
 
 class x extends y {
-  foo() { return () => () => super.foo; }
+  foo() {
+    return () => () => super.foo;
+  }
 }
 
 ```

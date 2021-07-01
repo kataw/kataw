@@ -149,7 +149,7 @@ try {
 ```javascript
 
 try {
-  function f() { }
+  function f() {}
 }
 catch (e){
 }

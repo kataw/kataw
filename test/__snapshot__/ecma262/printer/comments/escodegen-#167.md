@@ -260,7 +260,9 @@ var x = function (/* pre */foo/* post */) {
   return '\'foo\'' + '\'bar\'';
 };
  /* raz */
-x(function (other) { return other; });
+x(function (other) {
+  return other;
+});
 
 ```
 

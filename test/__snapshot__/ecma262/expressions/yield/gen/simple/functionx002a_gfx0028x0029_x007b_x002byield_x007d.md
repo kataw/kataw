@@ -123,7 +123,9 @@ function* gf() { +yield; }
 
 ```javascript
 
-function * gf() { + yield ; }
+function * gf() {
+  + yield ;
+}
 
 ```
 

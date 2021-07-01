@@ -132,7 +132,7 @@ class A extends function f(){} {}
 
 ```javascript
 
-class A extends function f() { } {
+class A extends function f() {} {
 }
 
 ```

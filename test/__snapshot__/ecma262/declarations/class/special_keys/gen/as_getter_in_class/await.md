@@ -132,7 +132,7 @@ class x {get await(){}}
 ```javascript
 
 class x {
-  get await() { }
+  get await() {}
 }
 
 ```

@@ -116,7 +116,9 @@ async function f() { await 3; }
 
 ```javascript
 
-async function f() { await 3; }
+async function f() {
+  await 3;
+}
 
 ```
 

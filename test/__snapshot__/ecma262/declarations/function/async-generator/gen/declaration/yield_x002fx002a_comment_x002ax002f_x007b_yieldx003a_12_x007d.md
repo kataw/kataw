@@ -154,7 +154,9 @@ async function * gen() {yield /* comment */ { yield: 12 }}
 
 ```javascript
 
-async function * gen() { yield/* comment */  { yield : 12 }; }
+async function * gen() {
+  yield/* comment */  { yield : 12 };
+}
 
 ```
 

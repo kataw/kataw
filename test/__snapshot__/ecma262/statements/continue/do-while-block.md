@@ -128,9 +128,11 @@ function f(){ do        { continue }     while(true);}
 
 ```javascript
 
-function f() { do {
-  continue;
-} while (true) }
+function f() {
+  do {
+    continue;
+  } while (true)
+}
 
 ```
 

@@ -555,7 +555,7 @@ function g() {
 
 ```javascript
 
-function f() { }
+function f() {}
  // Line comment for function g:
 function g() {
    // Line comment for instruction 1:

@@ -144,7 +144,7 @@
 ```javascript
 
 '\'use strict\'';
-({ * async(x, y) { } });
+({ * async(x, y) {} });
 
 ```
 

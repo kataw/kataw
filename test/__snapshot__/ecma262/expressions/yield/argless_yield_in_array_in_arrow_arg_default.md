@@ -166,7 +166,9 @@ function *g(){ async (x = [yield]) => z }
 
 ```javascript
 
-function * g() { async (x = [yield ,]) => z }
+function * g() {
+  async (x = [yield ,]) => z
+}
 
 ```
 

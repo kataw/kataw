@@ -127,7 +127,7 @@ class x {typeof(){}}
 ```javascript
 
 class x {
-  typeof() { }
+  typeof() {}
 }
 
 ```

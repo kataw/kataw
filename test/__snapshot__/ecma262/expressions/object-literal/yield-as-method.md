@@ -114,7 +114,7 @@
 
 ```javascript
 
-({ async * yield() { } });
+({ async * yield() {} });
 
 ```
 

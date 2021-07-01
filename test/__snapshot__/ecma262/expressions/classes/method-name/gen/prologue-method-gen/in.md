@@ -144,7 +144,7 @@
 ```javascript
 
 '\'use strict\'';
-({ * in(x, y) { } });
+({ * in(x, y) {} });
 
 ```
 

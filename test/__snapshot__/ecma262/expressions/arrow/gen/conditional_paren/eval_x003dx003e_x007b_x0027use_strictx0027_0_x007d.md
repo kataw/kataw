@@ -146,7 +146,8 @@ bar ? baz : ( eval => { 'use strict'; 0 } );
 
 bar ? baz : (eval =>  {
 '\'use strict\'';
- 0; });
+  0;
+});
 
 ```
 

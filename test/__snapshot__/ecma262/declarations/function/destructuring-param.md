@@ -152,7 +152,7 @@ function a([a, b, ...[ok]]) {};
 
 ```javascript
 
-function a([a, b, ...[ok]]) { }
+function a([a, b, ...[ok]]) {}
 ;
 
 ```

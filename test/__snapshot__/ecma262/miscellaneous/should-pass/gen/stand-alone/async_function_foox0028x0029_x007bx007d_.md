@@ -95,7 +95,7 @@ async function foo() {};
 
 ```javascript
 
-async function foo() { }
+async function foo() {}
 ;
 
 ```

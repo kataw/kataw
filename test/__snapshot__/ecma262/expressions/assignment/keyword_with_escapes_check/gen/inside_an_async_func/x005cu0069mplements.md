@@ -114,7 +114,9 @@ async () => {  \u0069mplements = x  }
 
 ```javascript
 
-async () =>  { \u0069mplements = x; }
+async () =>  {
+  \u0069mplements = x;
+}
 
 ```
 

@@ -203,7 +203,7 @@
 ```javascript
 
 '\'use strict\'';
-var f = async function f(x = function * await() { }) { };
+var f = async function f(x = function * await() {}) {};
 
 ```
 

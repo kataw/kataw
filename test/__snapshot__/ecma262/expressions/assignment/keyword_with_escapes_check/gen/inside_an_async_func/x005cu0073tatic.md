@@ -114,7 +114,9 @@ async () => {  \u0073tatic = x  }
 
 ```javascript
 
-async () =>  { \u0073tatic = x; }
+async () =>  {
+  \u0073tatic = x;
+}
 
 ```
 

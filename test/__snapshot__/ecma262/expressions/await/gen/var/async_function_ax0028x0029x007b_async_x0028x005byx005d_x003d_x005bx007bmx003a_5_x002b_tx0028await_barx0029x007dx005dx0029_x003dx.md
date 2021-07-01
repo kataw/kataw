@@ -398,7 +398,11 @@ var await; var f = (async function() { async function a(){     async ([y] = [{m:
 ```javascript
 
 var await;
-var f = (async function () { async function a() { async ([y] = [{ m : 5 + t(await bar) },]) =>  { } } });
+var f = (async function () {
+  async function a() {
+    async ([y] = [{ m : 5 + t(await bar) },]) =>  {}
+  }
+});
 
 ```
 

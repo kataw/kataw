@@ -86,7 +86,9 @@
 
 ```javascript
 
-() =>  { return; };
+() =>  {
+  return;
+};
 
 ```
 

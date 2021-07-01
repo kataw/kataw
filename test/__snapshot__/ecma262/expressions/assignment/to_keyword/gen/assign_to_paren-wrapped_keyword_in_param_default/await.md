@@ -131,7 +131,7 @@ async (x = (await) = f) => {}
 
 ```javascript
 
-async (x = (await) = f) =>  { }
+async (x = (await) = f) =>  {}
 
 ```
 

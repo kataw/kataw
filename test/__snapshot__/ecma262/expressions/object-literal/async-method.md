@@ -865,15 +865,15 @@
 
 ```javascript
 
-({ async * method([x] = g[Symbol.iterator] = function () { }) { } });
+({ async * method([x] = g[Symbol.iterator] = function () {}) {} });
 ({ async * method({
       w: [x, y, z] = [4, 5, 6,]
-    } = {}) { } });
+    } = {}) {} });
 ({ async * method({
       x: y = thrower()
-    } = {}) { } });
-({ async * method([x = 23]) { } });
-({ async * method([_, x]) { } });
+    } = {}) {} });
+({ async * method([x = 23]) {} });
+({ async * method([_, x]) {} });
 
 ```
 

@@ -2498,14 +2498,14 @@ var a: Map<string, Array<string>>;
 var a: Map<string, Array<string>>;
 var x: typeof Y = Y;
 var x: () => number | () => string = fn;
-var foo = bar ? (foo) =>  { } : baz;
+var foo = bar ? (foo) =>  {} : baz;
 var a: { numVal: number };
 var foo = bar ? (foo) : number;
 var foo = ((bar) => bar);
 var foo = (() => bar);
 var foo = async (bar) => bar;
 var foo = async () => bar;
-var foo = async (foo: bar, bar: foo) =>  { };
+var foo = async (foo: bar, bar: foo) =>  {};
 var foo = () => bar;
 var a: { param1: number, param2?: string };
 var [x]: Array<string> = ['"hello"',];
@@ -2519,7 +2519,7 @@ var a: ?{ numVal: number };
 var x: typeof Y | number = Y;
 var a: { subObj: { strVal: string } };
 class Array {
-  concat(items: number | string) { }
+  concat(items: number | string) {}
   ;
 }
 

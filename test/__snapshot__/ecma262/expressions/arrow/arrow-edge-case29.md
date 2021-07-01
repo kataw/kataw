@@ -176,7 +176,7 @@ let x: (y) => void = () => {}
 
 ```javascript
 
-let x: (y) => void = () =>  { };
+let x: (y) => void = () =>  {};
 
 ```
 

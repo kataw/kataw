@@ -205,7 +205,8 @@ async function foo(a = () => { "use strict"; return eval =>("x"); }) {}
 
 async function foo(a = () =>  {
   '"use strict"';
-   return eval => ('"x"'); }) { }
+    return eval => ('"x"');
+  }) {}
 
 ```
 

@@ -100,7 +100,7 @@ new async function(){}
 
 ```javascript
 
-new async function () { };
+new async function () {};
 
 ```
 

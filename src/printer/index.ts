@@ -1220,14 +1220,17 @@ function printFunctioBody(node: any, printer: Printer, parentNode: any): void {
     writeLine(printer);
   }
 
-  if (shouldprintBlockFunctionBodyOnSingleLine(printer, node)) {
+  if (shouldprintBlockFunctionBodyOnSingleLine(printer, parentNode, node)) {
     printer.indent--;
     printStatementList(
       printer,
       node,
       parentNode,
       statements,
-      PrinterContext.SingleLine | PrinterContext.SpaceBetweenSiblings | PrinterContext.SpaceBetweenBraces
+      PrinterContext.SingleLine |
+        PrinterContext.SpaceBetweenSiblings |
+        PrinterContext.SpaceBetweenBraces |
+        PrinterContext.NoSpaceIfEmpty
     );
     printer.indent++;
   } else {

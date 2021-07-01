@@ -188,7 +188,7 @@ var f = async function f(x = function await() {}) {}
 
 ```javascript
 
-var f = async function f(x = function await() { }) { };
+var f = async function f(x = function await() {}) {};
 
 ```
 

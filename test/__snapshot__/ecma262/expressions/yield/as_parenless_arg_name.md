@@ -87,7 +87,7 @@
 ```javascript
 
 {
-  yield =>  { };
+  yield =>  {};
 }
 
 ```

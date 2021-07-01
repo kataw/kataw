@@ -221,7 +221,9 @@ class x extends y { dsda(){ return (a=super[bar]) => a; }}
 ```javascript
 
 class x extends y {
-  dsda() { return (a = super[bar]) => a; }
+  dsda() {
+    return (a = super[bar]) => a;
+  }
 }
 
 ```

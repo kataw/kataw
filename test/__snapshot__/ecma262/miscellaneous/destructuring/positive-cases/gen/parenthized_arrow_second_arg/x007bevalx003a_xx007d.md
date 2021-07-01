@@ -159,7 +159,7 @@ var f = (argument1,{eval: x}) => {};
 
 var f = (argument1, {
     eval: x
-  }) =>  { };
+  }) =>  {};
 
 ```
 

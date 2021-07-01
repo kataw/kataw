@@ -145,7 +145,7 @@
 ```javascript
 
 (class  {
-  set #await(test) { }
+  set #await(test) {}
 });
 
 ```

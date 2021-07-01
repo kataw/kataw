@@ -187,7 +187,10 @@ it => { var [,,...rest] = it; return rest; }
 
 ```javascript
 
-it =>  { var [, , ...rest] = it; return rest; };
+it =>  {
+  var [, , ...rest] = it;
+  return rest;
+};
 
 ```
 

@@ -226,7 +226,13 @@ function * gen() { function not_gen() { yield * 1; return 37; yield * 'dead'; }}
 
 ```javascript
 
-function * gen() { function not_gen() { yield * 1; return 37; yield * '\'dead\''; } }
+function * gen() {
+  function not_gen() {
+    yield * 1;
+    return 37;
+    yield * '\'dead\'';
+  }
+}
 
 ```
 

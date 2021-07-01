@@ -132,7 +132,7 @@
 
 ```javascript
 
-(x = (public) = f) =>  { };
+(x = (public) = f) =>  {};
 
 ```
 

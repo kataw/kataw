@@ -189,7 +189,9 @@ async function * f() { for await({a} = 1 of []){ } }
 
 ```javascript
 
-async function * f() { for await ({ a } = 1 of []) { } }
+async function * f() {
+  for await ({ a } = 1 of []) { }
+}
 
 ```
 

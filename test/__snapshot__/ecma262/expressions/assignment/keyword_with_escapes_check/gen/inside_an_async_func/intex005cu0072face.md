@@ -114,7 +114,9 @@ async () => {  inte\u0072face = x  }
 
 ```javascript
 
-async () =>  { inte\u0072face = x; }
+async () =>  {
+  inte\u0072face = x;
+}
 
 ```
 

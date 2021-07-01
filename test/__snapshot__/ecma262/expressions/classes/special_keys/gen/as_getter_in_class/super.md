@@ -132,7 +132,7 @@ class x {get super(){}}
 ```javascript
 
 class x {
-  get super() { }
+  get super() {}
 }
 
 ```

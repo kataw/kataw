@@ -245,7 +245,7 @@ async function foo() {
 
 async function foo() {
   class C {
-    static foo() { }
+    static foo() {}
     static  {
       await 42;
     }

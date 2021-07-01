@@ -114,7 +114,7 @@ function commentedParameters(
   a
    /* End of parameter a */
   /* Parameter b */
-  , b) { }
+  , b) {}
 
 ```
 

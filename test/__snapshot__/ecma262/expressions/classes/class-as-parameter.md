@@ -427,7 +427,7 @@ function decorator(el) {
 }
 class A {
   @decorator
-  foo() { }
+  foo() {}
 }
 
 ```

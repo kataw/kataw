@@ -184,7 +184,10 @@
 ```javascript
 
 '\'use strict\'';
-async function a() { async([v,] = await bar) ; }
+async function a() {
+  async([v,] = await bar)
+  ;
+}
 
 ```
 

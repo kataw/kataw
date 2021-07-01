@@ -106,7 +106,8 @@ eval => { 'use strict'; 0 } ;
 
 eval =>  {
 '\'use strict\'';
- 0; };
+  0;
+};
 
 ```
 

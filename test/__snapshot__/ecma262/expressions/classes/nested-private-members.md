@@ -1329,7 +1329,7 @@
 });
 (class  {
   a = class  {
-    #a = () =>  { }
+    #a = () =>  {}
   }
 });
 (class  {
@@ -1339,32 +1339,32 @@
 });
 (class  {
   a = class  {
-    #a() { }
+    #a() {}
   }
 });
 (class  {
   a = class  {
-    get #a() { }
+    get #a() {}
   }
 });
 (class  {
   a = class  {
-    set #a(foo) { }
+    set #a(foo) {}
   }
 });
 (class  {
   a = class  {
-    * #a() { }
+    * #a() {}
   }
 });
 (class  {
   a = class  {
-    async #a() { }
+    async #a() {}
   }
 });
 (class  {
   a = class  {
-    async * #a() { }
+    async * #a() {}
   }
 });
 

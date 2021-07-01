@@ -144,7 +144,7 @@
 ```javascript
 
 '\'use strict\'';
-({ * break(x, y) { } });
+({ * break(x, y) {} });
 
 ```
 

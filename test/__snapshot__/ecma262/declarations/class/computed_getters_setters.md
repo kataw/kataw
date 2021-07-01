@@ -256,8 +256,10 @@ class Bar {
 ```javascript
 
 class Bar {
-  get ['\'d\'']() { return '\'foo\''; }
-  set ['\'d\''](x: number) { }
+  get ['\'d\'']() {
+    return '\'foo\'';
+  }
+  set ['\'d\''](x: number) {}
 }
 
 ```

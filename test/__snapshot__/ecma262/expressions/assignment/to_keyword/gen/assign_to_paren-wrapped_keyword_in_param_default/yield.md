@@ -131,7 +131,7 @@ async (x = (yield) = f) => {}
 
 ```javascript
 
-async (x = (yield) = f) =>  { }
+async (x = (yield) = f) =>  {}
 
 ```
 

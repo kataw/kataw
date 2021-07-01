@@ -128,7 +128,9 @@
 
 ```javascript
 
-(function * () { yield  yield  10; });
+(function * () {
+  yield  yield  10;
+});
 
 ```
 

@@ -114,7 +114,9 @@ async () => {  \u0070ublic = x  }
 
 ```javascript
 
-async () =>  { \u0070ublic = x; }
+async () =>  {
+  \u0070ublic = x;
+}
 
 ```
 

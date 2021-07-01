@@ -132,7 +132,7 @@
 
 ```javascript
 
-(x = (eval) = f) =>  { };
+(x = (eval) = f) =>  {};
 
 ```
 

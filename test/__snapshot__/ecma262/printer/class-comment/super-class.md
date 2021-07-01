@@ -1051,14 +1051,14 @@ extends B {
 });
 class a extends b // comment
 {
-  constructor() { }
+  constructor() {}
 }
 class c extends d {
-  constructor() { }
+  constructor() {}
 }
 class C2// comment
  extends Base {
-  foo() { }
+  foo() {}
 }
 
 ```

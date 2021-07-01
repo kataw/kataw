@@ -491,13 +491,13 @@ async ([{x}: string]) =>  {};
 
 ```javascript
 
-async ([x: string]) =>  { }
+async ([x: string]) =>  {}
 ;
-async ([[x,]: string]) =>  { }
+async ([[x,]: string]) =>  {}
 ;
-async ([[,]: string]) =>  { }
+async ([[,]: string]) =>  {}
 ;
-async ([{ x }: string]) =>  { }
+async ([{ x }: string]) =>  {}
 ;
 
 ```

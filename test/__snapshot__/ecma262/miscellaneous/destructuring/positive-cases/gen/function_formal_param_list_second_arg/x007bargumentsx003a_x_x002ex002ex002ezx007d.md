@@ -157,7 +157,7 @@ function f(argument1, {arguments: x, ...z}) {}
 function f(argument1, {
     arguments: x,
     ...z
-  }) { }
+  }) {}
 
 ```
 

@@ -108,7 +108,7 @@ function x({ foo }) {}
 
 function x({
     foo
-  }) { }
+  }) {}
 
 ```
 

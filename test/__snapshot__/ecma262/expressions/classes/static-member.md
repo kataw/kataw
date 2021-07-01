@@ -150,7 +150,7 @@ class A {static set [foo](x){}}
 ```javascript
 
 class A {
-  static set [foo](x) { }
+  static set [foo](x) {}
 }
 
 ```

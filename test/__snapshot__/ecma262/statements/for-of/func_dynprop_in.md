@@ -135,7 +135,7 @@ for (function(){ }[x in y] of x);
 
 ```javascript
 
-for (function () { }[x in y] of x)
+for (function () {}[x in y] of x)
   ;
 
 ```

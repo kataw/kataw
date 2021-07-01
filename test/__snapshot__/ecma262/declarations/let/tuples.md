@@ -801,7 +801,9 @@ let tests = [
    // Return length from a function with mismatched return type.
   function () {
      // error: tuple length 2 !~> string
-    function a(x: [1, 2]): string { return x.length; }
+    function a(x: [1, 2]): string {
+      return x.length;
+    }
   },
 ];
 

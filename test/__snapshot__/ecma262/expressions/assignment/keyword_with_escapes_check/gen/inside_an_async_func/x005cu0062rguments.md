@@ -114,7 +114,9 @@ async () => {  \u0062rguments = x  }
 
 ```javascript
 
-async () =>  { \u0062rguments = x; }
+async () =>  {
+  \u0062rguments = x;
+}
 
 ```
 

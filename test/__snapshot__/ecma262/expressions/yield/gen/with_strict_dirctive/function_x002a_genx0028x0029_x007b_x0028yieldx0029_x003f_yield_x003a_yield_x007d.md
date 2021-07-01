@@ -175,7 +175,9 @@
 ```javascript
 
 '\'use strict\'';
-function * gen() { (yield ) ? yield  : yield ; }
+function * gen() {
+  (yield ) ? yield  : yield ;
+}
 
 ```
 

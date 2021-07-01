@@ -158,7 +158,7 @@ class C2 {
 
 @await
 class C2 {
-  method() { }
+  method() {}
 }
 
 ```

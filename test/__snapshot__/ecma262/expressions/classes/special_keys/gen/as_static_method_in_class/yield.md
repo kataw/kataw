@@ -132,7 +132,7 @@ class x {static yield(){}}
 ```javascript
 
 class x {
-  static yield() { }
+  static yield() {}
 }
 
 ```

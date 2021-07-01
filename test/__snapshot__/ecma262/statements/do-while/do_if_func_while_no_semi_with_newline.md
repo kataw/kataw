@@ -127,7 +127,7 @@ while(y)
 
 do
   if (8)
-    function s() { } while (y)
+    function s() {} while (y)
 
 ```
 

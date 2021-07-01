@@ -136,7 +136,7 @@ let o = {f(await){}}
 
 ```javascript
 
-let o = { f(await) { } };
+let o = { f(await) {} };
 
 ```
 

@@ -179,7 +179,10 @@
 
 ```javascript
 
-({ async * gen() { yield  3; yield  4; } });
+({ async * gen() {
+    yield  3;
+    yield  4;
+  } });
 
 ```
 

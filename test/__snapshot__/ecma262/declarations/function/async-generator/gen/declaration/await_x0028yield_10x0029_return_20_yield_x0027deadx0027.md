@@ -190,7 +190,11 @@ async function * gen() {await (yield 10); return 20; yield 'dead'}
 
 ```javascript
 
-async function * gen() { await (yield  10); return 20; yield  '\'dead\''; }
+async function * gen() {
+  await (yield  10);
+  return 20;
+  yield  '\'dead\'';
+}
 
 ```
 

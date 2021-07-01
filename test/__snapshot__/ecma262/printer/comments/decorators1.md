@@ -151,7 +151,7 @@ class x {
 
 class x {
   @/*1*/foo
-  bar() { }
+  bar() {}
 }
 
 ```

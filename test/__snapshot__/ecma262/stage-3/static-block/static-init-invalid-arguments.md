@@ -207,7 +207,7 @@ class C {
 class C {
   static  {
     (class  {
-      [argument\u0073]() { }
+      [argument\u0073]() {}
     });
   }
 }

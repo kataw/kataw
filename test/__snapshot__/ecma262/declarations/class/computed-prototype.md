@@ -1227,37 +1227,37 @@ class One {
   ['\'prototype\''] = 0
 }
 class Two {
-  ['\'prototype\'']() { }
+  ['\'prototype\'']() {}
 }
 class Three {
-  * ['\'prototype\'']() { }
+  * ['\'prototype\'']() {}
 }
 class Four {
-  get ['\'prototype\'']() { }
+  get ['\'prototype\'']() {}
 }
 class Five {
-  set ['\'prototype\''](x) { }
+  set ['\'prototype\''](x) {}
 }
 class Six {
-  async ['\'prototype\'']() { }
+  async ['\'prototype\'']() {}
 }
 class Seven {
   static ['\'prototype\''] = 0
 }
 class Eigth {
-  static ['\'prototype\'']() { }
+  static ['\'prototype\'']() {}
 }
 class Nine {
-  static * ['\'prototype\'']() { }
+  static * ['\'prototype\'']() {}
 }
 class Ten {
-  static get ['\'prototype\'']() { }
+  static get ['\'prototype\'']() {}
 }
 class Eleven {
-  static set ['\'prototype\''](x) { }
+  static set ['\'prototype\''](x) {}
 }
 class Twelve {
-  static async ['\'prototype\'']() { }
+  static async ['\'prototype\'']() {}
 }
 
 ```

@@ -134,7 +134,7 @@
 
 ```javascript
 
-({ * function(x, y) { } });
+({ * function(x, y) {} });
 
 ```
 

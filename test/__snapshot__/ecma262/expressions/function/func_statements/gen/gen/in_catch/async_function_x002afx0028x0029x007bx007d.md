@@ -161,7 +161,7 @@ try {
 try {
 }
 catch (e){
-  async function * f() { }
+  async function * f() {}
 }
 
 ```

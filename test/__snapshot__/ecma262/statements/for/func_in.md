@@ -142,7 +142,9 @@ for (function(){ a in b; };;);
 
 ```javascript
 
-for (function () { a in b; };;)
+for (function () {
+  a in b;
+};;)
   ;
 
 ```

@@ -201,7 +201,7 @@ const absurd = <T>(x: empty): T => {};
 
 ```javascript
 
-const absurd = <T>(x: empty) =>  { };
+const absurd = <T>(x: empty) =>  {};
 
 ```
 

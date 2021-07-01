@@ -132,7 +132,7 @@ class x {static continue(){}}
 ```javascript
 
 class x {
-  static continue() { }
+  static continue() {}
 }
 
 ```

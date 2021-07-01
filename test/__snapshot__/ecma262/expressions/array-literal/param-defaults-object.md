@@ -138,7 +138,7 @@ function a({x = 10}) {}
 
 function a({
     x = 10
-  }) { }
+  }) {}
 
 ```
 

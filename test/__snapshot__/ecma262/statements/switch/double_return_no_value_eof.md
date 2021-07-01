@@ -104,7 +104,10 @@ return   }
 
 ```javascript
 
-function f() { return; return; }
+function f() {
+  return;
+  return;
+}
 
 ```
 

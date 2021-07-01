@@ -159,7 +159,7 @@ function *f(x = delete ((protected) = f)) {}
 
 ```javascript
 
-function * f(x = delete  ((protected) = f)) { }
+function * f(x = delete  ((protected) = f)) {}
 
 ```
 

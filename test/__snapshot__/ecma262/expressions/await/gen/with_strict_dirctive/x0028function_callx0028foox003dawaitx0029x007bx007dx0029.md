@@ -131,7 +131,7 @@
 ```javascript
 
 '\'use strict\'';
-(function call(foo = await) { });
+(function call(foo = await) {});
 
 ```
 

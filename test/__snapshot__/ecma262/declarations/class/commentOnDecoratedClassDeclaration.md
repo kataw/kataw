@@ -293,7 +293,7 @@ class Remote {
  */
 @decorator('"hi"')
 class AnotherRomote {
-  constructor() { }
+  constructor() {}
 }
 
 ```

@@ -206,9 +206,9 @@ switch (0) {
 
 switch (0) {
   case 1: 
-    function f() { }
+    function f() {}
   default: 
-    function f() { }
+    function f() {}
 }
 
 ```

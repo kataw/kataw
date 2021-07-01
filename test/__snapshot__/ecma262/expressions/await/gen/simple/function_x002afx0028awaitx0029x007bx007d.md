@@ -98,7 +98,7 @@ function *f(await){}
 
 ```javascript
 
-function * f(await) { }
+function * f(await) {}
 
 ```
 

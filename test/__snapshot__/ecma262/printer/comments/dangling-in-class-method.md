@@ -123,7 +123,7 @@ class Foo {
 ```javascript
 
 class Foo {
-  method() { }
+  method() {}
 }
 
 ```

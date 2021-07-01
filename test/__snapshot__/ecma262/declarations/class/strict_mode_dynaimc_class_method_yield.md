@@ -164,7 +164,7 @@ class x{[yield](a){}}
 
 '"use strict"';
 class x {
-  [yield](a) { }
+  [yield](a) {}
 }
 
 ```

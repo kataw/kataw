@@ -248,8 +248,10 @@
 
 ```javascript
 
-({ async * gen() { x = class  extends (a ? null : await 10) {
-  }; } });
+({ async * gen() {
+    x = class  extends (a ? null : await 10) {
+    };
+  } });
 
 ```
 

@@ -424,7 +424,7 @@ var v = {
   },
    //PropertyName + CallSignature
    //PropertyName + CallSignature
-  func1() { },
+  func1() {},
    //getter
   get a() {
     return this.prop;

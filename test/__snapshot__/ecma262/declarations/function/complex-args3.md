@@ -124,7 +124,7 @@ function f([b, a, b, a]) {}
 
 ```javascript
 
-function f([b, a, b, a]) { }
+function f([b, a, b, a]) {}
 
 ```
 

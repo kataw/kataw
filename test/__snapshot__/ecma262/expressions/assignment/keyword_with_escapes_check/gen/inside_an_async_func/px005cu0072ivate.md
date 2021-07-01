@@ -114,7 +114,9 @@ async () => {  p\u0072ivate = x  }
 
 ```javascript
 
-async () =>  { p\u0072ivate = x; }
+async () =>  {
+  p\u0072ivate = x;
+}
 
 ```
 

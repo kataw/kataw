@@ -175,7 +175,7 @@ var f = ({arguments: x, ...z}) => {};
 var f = ({
     arguments: x,
     ...z
-  }) =>  { };
+  }) =>  {};
 
 ```
 

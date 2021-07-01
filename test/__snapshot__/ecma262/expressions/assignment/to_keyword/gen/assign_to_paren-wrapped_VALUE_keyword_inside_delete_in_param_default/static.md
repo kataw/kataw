@@ -159,7 +159,7 @@ function *f(x = delete ((static) = f)) {}
 
 ```javascript
 
-function * f(x = delete  ((static) = f)) { }
+function * f(x = delete  ((static) = f)) {}
 
 ```
 

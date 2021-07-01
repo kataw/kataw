@@ -141,7 +141,7 @@ class x {set void(x){}}
 ```javascript
 
 class x {
-  set void(x) { }
+  set void(x) {}
 }
 
 ```

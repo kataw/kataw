@@ -211,8 +211,10 @@
 
 ```javascript
 
-({ async * gen() { x = class  extends (yield ) {
-  }; } });
+({ async * gen() {
+    x = class  extends (yield ) {
+    };
+  } });
 
 ```
 

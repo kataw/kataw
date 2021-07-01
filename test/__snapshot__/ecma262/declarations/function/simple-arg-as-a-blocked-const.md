@@ -143,9 +143,11 @@ function f(x) { { const x = y } }
 
 ```javascript
 
-function f(x) { {
-  const x = y;
-} }
+function f(x) {
+  {
+    const x = y;
+  }
+}
 
 ```
 

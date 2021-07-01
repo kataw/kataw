@@ -145,7 +145,7 @@
 ```javascript
 
 (class  {
-  set #arguments(test) { }
+  set #arguments(test) {}
 });
 
 ```

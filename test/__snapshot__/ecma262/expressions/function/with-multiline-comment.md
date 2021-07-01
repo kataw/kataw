@@ -183,10 +183,13 @@ x; })
 
 ```javascript
 
-(function () { return/* Multiline\nComment */ x; });
-(function () { return;// Comment
- // Comment
-x; });
+(function () {
+  return/* Multiline\nComment */ x;
+});
+(function () {
+  return;// Comment
+  x;
+});
 
 ```
 

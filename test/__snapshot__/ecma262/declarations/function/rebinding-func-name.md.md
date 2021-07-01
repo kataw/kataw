@@ -114,7 +114,9 @@ function f(){ var f }
 
 ```javascript
 
-function f() { var f; }
+function f() {
+  var f;
+}
 
 ```
 

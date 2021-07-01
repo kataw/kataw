@@ -110,7 +110,7 @@ function f(x = await){}
 
 ```javascript
 
-function f(x = await) { }
+function f(x = await) {}
 
 ```
 

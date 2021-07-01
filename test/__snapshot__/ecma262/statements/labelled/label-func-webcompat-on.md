@@ -102,7 +102,7 @@ foo: function x() {}
 
 ```javascript
 
-foo: function x() { }
+foo: function x() {}
 
 ```
 

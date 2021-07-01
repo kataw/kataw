@@ -103,7 +103,9 @@
 
 ```javascript
 
-(a, b) =>  { return; };
+(a, b) =>  {
+  return;
+};
 
 ```
 

@@ -2,7 +2,7 @@ import { SyntaxKind, NodeFlags, tokenToString } from '../ast/syntax-node';
 import { Char } from '../parser/scanner/char';
 import { collectLeadingComments, collectTrailingComments } from '../parser/scanner/comments';
 import { skipWhitespace } from '../parser/scanner/common';
-import { lastOrUndefined } from '../parser/common';
+import { containsInvalidEscape, lastOrUndefined } from '../parser/common';
 
 /* The printer interface */
 export interface Printer {
@@ -615,16 +615,16 @@ export function isEmptyBlock(node: any, parentNode: any, printer: any): boolean 
   return node.statements.length === 0 && rangeEndIsOnSameLineAsRangeStart(parentNode, parentNode, printer);
 }
 
-export function shouldprintBlockFunctionBodyOnSingleLine(printer: any, body: any): boolean {
+export function shouldprintBlockFunctionBodyOnSingleLine(printer: any, node: any, body: any): boolean {
   if (body.flags & NodeFlags.NewLine) return false;
 
-  if (!nodeIsSynthesized(body) && !rangeIsOnSingleLine(body, printer)) {
+  if (body.start !== body.end) {
     return false;
   }
 
   if (
-    shouldWriteLeadingLineTerminator(body, printer, body.statements, PrinterContext.PreserveLines) ||
-    shouldWriteClosingLineTerminator(body, printer, body.statements, PrinterContext.PreserveLines)
+    shouldWriteLeadingLineTerminator(node, printer, body.statements, PrinterContext.PreserveLines) ||
+    shouldWriteClosingLineTerminator(node, printer, body.statements, PrinterContext.PreserveLines)
   ) {
     return false;
   }

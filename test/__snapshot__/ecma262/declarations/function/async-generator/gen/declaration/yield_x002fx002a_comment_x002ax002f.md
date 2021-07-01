@@ -117,7 +117,9 @@ async function * gen() {yield /* comment */}
 
 ```javascript
 
-async function * gen() { yield ;/* comment */ }
+async function * gen() {
+  yield ;/* comment */
+}
 
 ```
 

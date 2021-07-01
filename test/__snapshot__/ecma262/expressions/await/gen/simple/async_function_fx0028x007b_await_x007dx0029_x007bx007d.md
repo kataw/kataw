@@ -115,7 +115,7 @@ async function f({ await }) {}
 
 async function f({
     await
-  }) { }
+  }) {}
 
 ```
 

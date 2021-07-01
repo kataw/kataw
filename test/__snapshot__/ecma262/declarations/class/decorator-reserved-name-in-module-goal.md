@@ -156,7 +156,7 @@ class C2 {
 
 @package
 class C2 {
-  method() { }
+  method() {}
 }
 
 ```

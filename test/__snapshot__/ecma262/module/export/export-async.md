@@ -109,7 +109,7 @@ export async function foo() { };
 
 ```javascript
 
-export async function foo() { }
+export async function foo() {}
 ;
 
 ```

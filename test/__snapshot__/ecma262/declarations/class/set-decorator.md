@@ -171,7 +171,7 @@ class A {
 
 class A {
   @foo
-  set setter(_val) { }
+  set setter(_val) {}
 }
 
 ```

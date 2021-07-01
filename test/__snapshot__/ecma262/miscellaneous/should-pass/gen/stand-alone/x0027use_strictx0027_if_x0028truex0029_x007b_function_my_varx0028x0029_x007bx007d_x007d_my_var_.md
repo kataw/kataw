@@ -143,7 +143,7 @@
 
 '\'use strict\'';
 if (true) {
-  function my_var() { }
+  function my_var() {}
 }
 my_var;
 

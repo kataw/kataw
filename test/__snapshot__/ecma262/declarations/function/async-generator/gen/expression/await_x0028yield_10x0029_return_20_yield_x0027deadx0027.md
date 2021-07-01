@@ -217,7 +217,11 @@
 
 ```javascript
 
-({ async * gen() { await (yield  10); return 20; yield  '\'dead\''; } });
+({ async * gen() {
+    await (yield  10);
+    return 20;
+    yield  '\'dead\'';
+  } });
 
 ```
 

@@ -138,7 +138,7 @@ for(;;)x
 ```javascript
 
 do
-  throw function () { }; while (y)
+  throw function () {}; while (y)
 for (;;)
   x;
 

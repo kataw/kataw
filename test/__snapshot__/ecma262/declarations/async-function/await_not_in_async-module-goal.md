@@ -168,7 +168,9 @@ f(await 1);
 
 ```javascript
 
-async function f(x) { return x; }
+async function f(x) {
+  return x;
+}
 f(await 1);
 
 ```

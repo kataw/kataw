@@ -173,7 +173,9 @@ class x extends y { constructor() { super(this); } }
 ```javascript
 
 class x extends y {
-  constructor() { super(this); }
+  constructor() {
+    super(this);
+  }
 }
 
 ```

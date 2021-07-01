@@ -182,7 +182,7 @@ function x(y: | z):
 
 function x(y: | z): | 
  /* comment */
-() => number { }
+() => number {}
 
 ```
 

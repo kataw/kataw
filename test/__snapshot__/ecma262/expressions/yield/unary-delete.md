@@ -121,7 +121,9 @@ function *f() {  return delete yield;  }
 
 ```javascript
 
-function * f() { return delete  yield ; }
+function * f() {
+  return delete  yield ;
+}
 
 ```
 

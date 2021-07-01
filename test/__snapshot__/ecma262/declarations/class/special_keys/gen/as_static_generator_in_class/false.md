@@ -137,7 +137,7 @@ class x {static * false(){}}
 ```javascript
 
 class x {
-  static * false() { }
+  static * false() {}
 }
 
 ```

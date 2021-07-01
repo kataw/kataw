@@ -146,7 +146,7 @@ class x {static set key(ident){}}
 ```javascript
 
 class x {
-  static set key(ident) { }
+  static set key(ident) {}
 }
 
 ```
