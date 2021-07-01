@@ -60,56 +60,62 @@
                                 },
                                 "caseBlock": {
                                     "kind": 152,
-                                    "clauses": [
-                                        {
-                                            "kind": 175,
-                                            "caseKeyword": {
-                                                "kind": 4194382,
-                                                "flags": 80,
-                                                "start": 19,
-                                                "end": 24
-                                            },
-                                            "expression": {
-                                                "kind": 134299649,
-                                                "text": "z",
-                                                "rawText": "z",
-                                                "flags": 96,
-                                                "start": 24,
-                                                "end": 26
-                                            },
-                                            "colonToken": {
-                                                "kind": 21,
-                                                "flags": 64,
-                                                "start": 26,
-                                                "end": 27
-                                            },
-                                            "statements": [
-                                                {
-                                                    "kind": 172,
-                                                    "continueKeyword": {
-                                                        "kind": 37757009,
-                                                        "flags": 80,
+                                    "clauses": {
+                                        "kind": 383,
+                                        "clauses": [
+                                            {
+                                                "kind": 175,
+                                                "caseKeyword": {
+                                                    "kind": 4194382,
+                                                    "flags": 80,
+                                                    "start": 19,
+                                                    "end": 24
+                                                },
+                                                "expression": {
+                                                    "kind": 134299649,
+                                                    "text": "z",
+                                                    "rawText": "z",
+                                                    "flags": 96,
+                                                    "start": 24,
+                                                    "end": 26
+                                                },
+                                                "colonToken": {
+                                                    "kind": 21,
+                                                    "flags": 64,
+                                                    "start": 26,
+                                                    "end": 27
+                                                },
+                                                "statements": [
+                                                    {
+                                                        "kind": 172,
+                                                        "continueKeyword": {
+                                                            "kind": 37757009,
+                                                            "flags": 80,
+                                                            "start": 27,
+                                                            "end": 42
+                                                        },
+                                                        "label": {
+                                                            "kind": 134299649,
+                                                            "text": "y",
+                                                            "rawText": "y",
+                                                            "flags": 96,
+                                                            "start": 42,
+                                                            "end": 44
+                                                        },
+                                                        "flags": 16,
                                                         "start": 27,
-                                                        "end": 42
-                                                    },
-                                                    "label": {
-                                                        "kind": 134299649,
-                                                        "text": "y",
-                                                        "rawText": "y",
-                                                        "flags": 96,
-                                                        "start": 42,
                                                         "end": 44
-                                                    },
-                                                    "flags": 16,
-                                                    "start": 27,
-                                                    "end": 44
-                                                }
-                                            ],
-                                            "flags": 16,
-                                            "start": 19,
-                                            "end": 44
-                                        }
-                                    ],
+                                                    }
+                                                ],
+                                                "flags": 16,
+                                                "start": 19,
+                                                "end": 44
+                                            }
+                                        ],
+                                        "flags": 16,
+                                        "start": 19,
+                                        "end": 44
+                                    },
                                     "flags": 16,
                                     "start": 18,
                                     "end": 48

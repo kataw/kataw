@@ -322,164 +322,170 @@ function relativeComplement() {
                                                                     },
                                                                     "caseBlock": {
                                                                         "kind": 152,
-                                                                        "clauses": [
-                                                                            {
-                                                                                "kind": 175,
-                                                                                "caseKeyword": {
-                                                                                    "kind": 4194382,
-                                                                                    "flags": 81,
-                                                                                    "start": 200,
-                                                                                    "end": 212
-                                                                                },
-                                                                                "expression": {
-                                                                                    "kind": 126,
-                                                                                    "operandToken": {
-                                                                                        "kind": 134318643,
-                                                                                        "flags": 96,
-                                                                                        "start": 212,
-                                                                                        "end": 214
+                                                                        "clauses": {
+                                                                            "kind": 383,
+                                                                            "clauses": [
+                                                                                {
+                                                                                    "kind": 175,
+                                                                                    "caseKeyword": {
+                                                                                        "kind": 4194382,
+                                                                                        "flags": 81,
+                                                                                        "start": 200,
+                                                                                        "end": 212
                                                                                     },
-                                                                                    "operand": {
+                                                                                    "expression": {
+                                                                                        "kind": 126,
+                                                                                        "operandToken": {
+                                                                                            "kind": 134318643,
+                                                                                            "flags": 96,
+                                                                                            "start": 212,
+                                                                                            "end": 214
+                                                                                        },
+                                                                                        "operand": {
+                                                                                            "kind": 201392130,
+                                                                                            "text": 1,
+                                                                                            "rawText": "1",
+                                                                                            "flags": 96,
+                                                                                            "start": 214,
+                                                                                            "end": 215
+                                                                                        },
+                                                                                        "flags": 32,
+                                                                                        "start": 212,
+                                                                                        "end": 215
+                                                                                    },
+                                                                                    "colonToken": {
+                                                                                        "kind": 21,
+                                                                                        "flags": 64,
+                                                                                        "start": 215,
+                                                                                        "end": 216
+                                                                                    },
+                                                                                    "statements": [
+                                                                                        {
+                                                                                            "kind": 150,
+                                                                                            "breakKeyword": {
+                                                                                                "kind": 37757005,
+                                                                                                "flags": 80,
+                                                                                                "start": 216,
+                                                                                                "end": 222
+                                                                                            },
+                                                                                            "label": {
+                                                                                                "kind": 134299649,
+                                                                                                "text": "inner",
+                                                                                                "rawText": "inner",
+                                                                                                "flags": 96,
+                                                                                                "start": 222,
+                                                                                                "end": 228
+                                                                                            },
+                                                                                            "flags": 16,
+                                                                                            "start": 216,
+                                                                                            "end": 229
+                                                                                        }
+                                                                                    ],
+                                                                                    "flags": 16,
+                                                                                    "start": 200,
+                                                                                    "end": 229
+                                                                                },
+                                                                                {
+                                                                                    "kind": 175,
+                                                                                    "caseKeyword": {
+                                                                                        "kind": 4194382,
+                                                                                        "flags": 81,
+                                                                                        "start": 229,
+                                                                                        "end": 241
+                                                                                    },
+                                                                                    "expression": {
+                                                                                        "kind": 201392130,
+                                                                                        "text": 0,
+                                                                                        "rawText": "0",
+                                                                                        "flags": 96,
+                                                                                        "start": 241,
+                                                                                        "end": 243
+                                                                                    },
+                                                                                    "colonToken": {
+                                                                                        "kind": 21,
+                                                                                        "flags": 64,
+                                                                                        "start": 243,
+                                                                                        "end": 244
+                                                                                    },
+                                                                                    "statements": [
+                                                                                        {
+                                                                                            "kind": 172,
+                                                                                            "continueKeyword": {
+                                                                                                "kind": 37757009,
+                                                                                                "flags": 80,
+                                                                                                "start": 244,
+                                                                                                "end": 253
+                                                                                            },
+                                                                                            "label": {
+                                                                                                "kind": 134299649,
+                                                                                                "text": "outer",
+                                                                                                "rawText": "outer",
+                                                                                                "flags": 96,
+                                                                                                "start": 253,
+                                                                                                "end": 259
+                                                                                            },
+                                                                                            "flags": 16,
+                                                                                            "start": 244,
+                                                                                            "end": 260
+                                                                                        }
+                                                                                    ],
+                                                                                    "flags": 16,
+                                                                                    "start": 229,
+                                                                                    "end": 260
+                                                                                },
+                                                                                {
+                                                                                    "kind": 175,
+                                                                                    "caseKeyword": {
+                                                                                        "kind": 4194382,
+                                                                                        "flags": 81,
+                                                                                        "start": 260,
+                                                                                        "end": 272
+                                                                                    },
+                                                                                    "expression": {
                                                                                         "kind": 201392130,
                                                                                         "text": 1,
                                                                                         "rawText": "1",
                                                                                         "flags": 96,
-                                                                                        "start": 214,
-                                                                                        "end": 215
+                                                                                        "start": 272,
+                                                                                        "end": 274
                                                                                     },
-                                                                                    "flags": 32,
-                                                                                    "start": 212,
-                                                                                    "end": 215
-                                                                                },
-                                                                                "colonToken": {
-                                                                                    "kind": 21,
-                                                                                    "flags": 64,
-                                                                                    "start": 215,
-                                                                                    "end": 216
-                                                                                },
-                                                                                "statements": [
-                                                                                    {
-                                                                                        "kind": 150,
-                                                                                        "breakKeyword": {
-                                                                                            "kind": 37757005,
-                                                                                            "flags": 80,
-                                                                                            "start": 216,
-                                                                                            "end": 222
-                                                                                        },
-                                                                                        "label": {
-                                                                                            "kind": 134299649,
-                                                                                            "text": "inner",
-                                                                                            "rawText": "inner",
-                                                                                            "flags": 96,
-                                                                                            "start": 222,
-                                                                                            "end": 228
-                                                                                        },
-                                                                                        "flags": 16,
-                                                                                        "start": 216,
-                                                                                        "end": 229
-                                                                                    }
-                                                                                ],
-                                                                                "flags": 16,
-                                                                                "start": 200,
-                                                                                "end": 229
-                                                                            },
-                                                                            {
-                                                                                "kind": 175,
-                                                                                "caseKeyword": {
-                                                                                    "kind": 4194382,
-                                                                                    "flags": 81,
-                                                                                    "start": 229,
-                                                                                    "end": 241
-                                                                                },
-                                                                                "expression": {
-                                                                                    "kind": 201392130,
-                                                                                    "text": 0,
-                                                                                    "rawText": "0",
-                                                                                    "flags": 96,
-                                                                                    "start": 241,
-                                                                                    "end": 243
-                                                                                },
-                                                                                "colonToken": {
-                                                                                    "kind": 21,
-                                                                                    "flags": 64,
-                                                                                    "start": 243,
-                                                                                    "end": 244
-                                                                                },
-                                                                                "statements": [
-                                                                                    {
-                                                                                        "kind": 172,
-                                                                                        "continueKeyword": {
-                                                                                            "kind": 37757009,
-                                                                                            "flags": 80,
-                                                                                            "start": 244,
-                                                                                            "end": 253
-                                                                                        },
-                                                                                        "label": {
-                                                                                            "kind": 134299649,
-                                                                                            "text": "outer",
-                                                                                            "rawText": "outer",
-                                                                                            "flags": 96,
-                                                                                            "start": 253,
-                                                                                            "end": 259
-                                                                                        },
-                                                                                        "flags": 16,
-                                                                                        "start": 244,
-                                                                                        "end": 260
-                                                                                    }
-                                                                                ],
-                                                                                "flags": 16,
-                                                                                "start": 229,
-                                                                                "end": 260
-                                                                            },
-                                                                            {
-                                                                                "kind": 175,
-                                                                                "caseKeyword": {
-                                                                                    "kind": 4194382,
-                                                                                    "flags": 81,
-                                                                                    "start": 260,
-                                                                                    "end": 272
-                                                                                },
-                                                                                "expression": {
-                                                                                    "kind": 201392130,
-                                                                                    "text": 1,
-                                                                                    "rawText": "1",
-                                                                                    "flags": 96,
-                                                                                    "start": 272,
-                                                                                    "end": 274
-                                                                                },
-                                                                                "colonToken": {
-                                                                                    "kind": 21,
-                                                                                    "flags": 64,
-                                                                                    "start": 274,
-                                                                                    "end": 275
-                                                                                },
-                                                                                "statements": [
-                                                                                    {
-                                                                                        "kind": 172,
-                                                                                        "continueKeyword": {
-                                                                                            "kind": 37757009,
-                                                                                            "flags": 80,
+                                                                                    "colonToken": {
+                                                                                        "kind": 21,
+                                                                                        "flags": 64,
+                                                                                        "start": 274,
+                                                                                        "end": 275
+                                                                                    },
+                                                                                    "statements": [
+                                                                                        {
+                                                                                            "kind": 172,
+                                                                                            "continueKeyword": {
+                                                                                                "kind": 37757009,
+                                                                                                "flags": 80,
+                                                                                                "start": 275,
+                                                                                                "end": 284
+                                                                                            },
+                                                                                            "label": {
+                                                                                                "kind": 134299649,
+                                                                                                "text": "inner",
+                                                                                                "rawText": "inner",
+                                                                                                "flags": 96,
+                                                                                                "start": 284,
+                                                                                                "end": 290
+                                                                                            },
+                                                                                            "flags": 16,
                                                                                             "start": 275,
-                                                                                            "end": 284
-                                                                                        },
-                                                                                        "label": {
-                                                                                            "kind": 134299649,
-                                                                                            "text": "inner",
-                                                                                            "rawText": "inner",
-                                                                                            "flags": 96,
-                                                                                            "start": 284,
-                                                                                            "end": 290
-                                                                                        },
-                                                                                        "flags": 16,
-                                                                                        "start": 275,
-                                                                                        "end": 291
-                                                                                    }
-                                                                                ],
-                                                                                "flags": 16,
-                                                                                "start": 260,
-                                                                                "end": 291
-                                                                            }
-                                                                        ],
+                                                                                            "end": 291
+                                                                                        }
+                                                                                    ],
+                                                                                    "flags": 16,
+                                                                                    "start": 260,
+                                                                                    "end": 291
+                                                                                }
+                                                                            ],
+                                                                            "flags": 16,
+                                                                            "start": 200,
+                                                                            "end": 291
+                                                                        },
                                                                         "flags": 16,
                                                                         "start": 198,
                                                                         "end": 299

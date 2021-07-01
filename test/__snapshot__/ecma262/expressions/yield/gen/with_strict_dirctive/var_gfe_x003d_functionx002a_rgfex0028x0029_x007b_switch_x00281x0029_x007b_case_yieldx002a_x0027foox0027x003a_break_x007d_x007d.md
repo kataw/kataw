@@ -111,68 +111,74 @@
                                             },
                                             "caseBlock": {
                                                 "kind": 152,
-                                                "clauses": [
-                                                    {
-                                                        "kind": 175,
-                                                        "caseKeyword": {
-                                                            "kind": 4194382,
-                                                            "flags": 80,
-                                                            "start": 55,
-                                                            "end": 60
-                                                        },
-                                                        "expression": {
-                                                            "kind": 229,
-                                                            "yieldKeyword": {
-                                                                "kind": 8454253,
-                                                                "flags": 64,
-                                                                "start": 60,
-                                                                "end": 66
-                                                            },
-                                                            "delegate": true,
-                                                            "asteriskToken": {
-                                                                "kind": 67143222,
-                                                                "flags": 64,
-                                                                "start": 66,
-                                                                "end": 67
+                                                "clauses": {
+                                                    "kind": 383,
+                                                    "clauses": [
+                                                        {
+                                                            "kind": 175,
+                                                            "caseKeyword": {
+                                                                "kind": 4194382,
+                                                                "flags": 80,
+                                                                "start": 55,
+                                                                "end": 60
                                                             },
                                                             "expression": {
-                                                                "kind": 201392131,
-                                                                "text": "foo",
-                                                                "rawText": "'foo'",
-                                                                "flags": 4194400,
-                                                                "start": 67,
+                                                                "kind": 229,
+                                                                "yieldKeyword": {
+                                                                    "kind": 8454253,
+                                                                    "flags": 64,
+                                                                    "start": 60,
+                                                                    "end": 66
+                                                                },
+                                                                "delegate": true,
+                                                                "asteriskToken": {
+                                                                    "kind": 67143222,
+                                                                    "flags": 64,
+                                                                    "start": 66,
+                                                                    "end": 67
+                                                                },
+                                                                "expression": {
+                                                                    "kind": 201392131,
+                                                                    "text": "foo",
+                                                                    "rawText": "'foo'",
+                                                                    "flags": 4194400,
+                                                                    "start": 67,
+                                                                    "end": 73
+                                                                },
+                                                                "flags": 32,
+                                                                "start": 60,
                                                                 "end": 73
                                                             },
-                                                            "flags": 32,
-                                                            "start": 60,
-                                                            "end": 73
-                                                        },
-                                                        "colonToken": {
-                                                            "kind": 21,
-                                                            "flags": 64,
-                                                            "start": 73,
-                                                            "end": 74
-                                                        },
-                                                        "statements": [
-                                                            {
-                                                                "kind": 150,
-                                                                "breakKeyword": {
-                                                                    "kind": 37757005,
-                                                                    "flags": 80,
+                                                            "colonToken": {
+                                                                "kind": 21,
+                                                                "flags": 64,
+                                                                "start": 73,
+                                                                "end": 74
+                                                            },
+                                                            "statements": [
+                                                                {
+                                                                    "kind": 150,
+                                                                    "breakKeyword": {
+                                                                        "kind": 37757005,
+                                                                        "flags": 80,
+                                                                        "start": 74,
+                                                                        "end": 80
+                                                                    },
+                                                                    "label": null,
+                                                                    "flags": 16,
                                                                     "start": 74,
-                                                                    "end": 80
-                                                                },
-                                                                "label": null,
-                                                                "flags": 16,
-                                                                "start": 74,
-                                                                "end": 81
-                                                            }
-                                                        ],
-                                                        "flags": 16,
-                                                        "start": 55,
-                                                        "end": 81
-                                                    }
-                                                ],
+                                                                    "end": 81
+                                                                }
+                                                            ],
+                                                            "flags": 16,
+                                                            "start": 55,
+                                                            "end": 81
+                                                        }
+                                                    ],
+                                                    "flags": 16,
+                                                    "start": 55,
+                                                    "end": 81
+                                                },
                                                 "flags": 16,
                                                 "start": 53,
                                                 "end": 83

@@ -39,7 +39,13 @@ switch (x) {}
             },
             "caseBlock": {
                 "kind": 152,
-                "clauses": [],
+                "clauses": {
+                    "kind": 383,
+                    "clauses": [],
+                    "flags": 16,
+                    "start": 12,
+                    "end": 12
+                },
                 "flags": 16,
                 "start": 10,
                 "end": 13

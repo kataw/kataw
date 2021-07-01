@@ -33,55 +33,61 @@ switch (A) {default: B; break;}
             },
             "caseBlock": {
                 "kind": 152,
-                "clauses": [
-                    {
-                        "kind": 170,
-                        "defaultKeyword": {
-                            "kind": 4194387,
-                            "flags": 80,
-                            "start": 12,
-                            "end": 19
-                        },
-                        "colonToken": {
-                            "kind": 21,
-                            "flags": 64,
-                            "start": 19,
-                            "end": 20
-                        },
-                        "statements": [
-                            {
-                                "kind": 120,
-                                "expression": {
-                                    "kind": 134299649,
-                                    "text": "B",
-                                    "rawText": "B",
-                                    "flags": 96,
-                                    "start": 20,
-                                    "end": 22
-                                },
-                                "flags": 16,
-                                "start": 20,
-                                "end": 23
+                "clauses": {
+                    "kind": 383,
+                    "clauses": [
+                        {
+                            "kind": 170,
+                            "defaultKeyword": {
+                                "kind": 4194387,
+                                "flags": 80,
+                                "start": 12,
+                                "end": 19
                             },
-                            {
-                                "kind": 150,
-                                "breakKeyword": {
-                                    "kind": 37757005,
-                                    "flags": 80,
-                                    "start": 23,
-                                    "end": 29
+                            "colonToken": {
+                                "kind": 21,
+                                "flags": 64,
+                                "start": 19,
+                                "end": 20
+                            },
+                            "statements": [
+                                {
+                                    "kind": 120,
+                                    "expression": {
+                                        "kind": 134299649,
+                                        "text": "B",
+                                        "rawText": "B",
+                                        "flags": 96,
+                                        "start": 20,
+                                        "end": 22
+                                    },
+                                    "flags": 16,
+                                    "start": 20,
+                                    "end": 23
                                 },
-                                "label": null,
-                                "flags": 16,
-                                "start": 23,
-                                "end": 30
-                            }
-                        ],
-                        "flags": 16,
-                        "start": 12,
-                        "end": 30
-                    }
-                ],
+                                {
+                                    "kind": 150,
+                                    "breakKeyword": {
+                                        "kind": 37757005,
+                                        "flags": 80,
+                                        "start": 23,
+                                        "end": 29
+                                    },
+                                    "label": null,
+                                    "flags": 16,
+                                    "start": 23,
+                                    "end": 30
+                                }
+                            ],
+                            "flags": 16,
+                            "start": 12,
+                            "end": 30
+                        }
+                    ],
+                    "flags": 16,
+                    "start": 12,
+                    "end": 30
+                },
                 "flags": 16,
                 "start": 10,
                 "end": 31

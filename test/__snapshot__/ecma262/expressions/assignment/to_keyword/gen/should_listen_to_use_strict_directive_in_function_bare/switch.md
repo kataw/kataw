@@ -107,7 +107,13 @@ function f() {
                             },
                             "caseBlock": {
                                 "kind": 152,
-                                "clauses": [],
+                                "clauses": {
+                                    "kind": 383,
+                                    "clauses": [],
+                                    "flags": 16,
+                                    "start": 43,
+                                    "end": 43
+                                },
                                 "flags": 16,
                                 "start": 43,
                                 "end": 45

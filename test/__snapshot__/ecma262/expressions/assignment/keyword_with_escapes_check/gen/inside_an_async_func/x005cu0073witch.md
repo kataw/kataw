@@ -91,7 +91,13 @@ async () => {  \u0073witch = x  }
                             },
                             "caseBlock": {
                                 "kind": 152,
-                                "clauses": [],
+                                "clauses": {
+                                    "kind": 383,
+                                    "clauses": [],
+                                    "flags": 16,
+                                    "start": 30,
+                                    "end": 30
+                                },
                                 "flags": 16,
                                 "start": 30,
                                 "end": 33

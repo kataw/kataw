@@ -68,50 +68,56 @@ switch([x = y]) { case y: foo }
             },
             "caseBlock": {
                 "kind": 152,
-                "clauses": [
-                    {
-                        "kind": 175,
-                        "caseKeyword": {
-                            "kind": 4194382,
-                            "flags": 80,
-                            "start": 17,
-                            "end": 22
-                        },
-                        "expression": {
-                            "kind": 134299649,
-                            "text": "y",
-                            "rawText": "y",
-                            "flags": 96,
-                            "start": 22,
-                            "end": 24
-                        },
-                        "colonToken": {
-                            "kind": 21,
-                            "flags": 64,
-                            "start": 24,
-                            "end": 25
-                        },
-                        "statements": [
-                            {
-                                "kind": 120,
-                                "expression": {
-                                    "kind": 134299649,
-                                    "text": "foo",
-                                    "rawText": "foo",
-                                    "flags": 96,
+                "clauses": {
+                    "kind": 383,
+                    "clauses": [
+                        {
+                            "kind": 175,
+                            "caseKeyword": {
+                                "kind": 4194382,
+                                "flags": 80,
+                                "start": 17,
+                                "end": 22
+                            },
+                            "expression": {
+                                "kind": 134299649,
+                                "text": "y",
+                                "rawText": "y",
+                                "flags": 96,
+                                "start": 22,
+                                "end": 24
+                            },
+                            "colonToken": {
+                                "kind": 21,
+                                "flags": 64,
+                                "start": 24,
+                                "end": 25
+                            },
+                            "statements": [
+                                {
+                                    "kind": 120,
+                                    "expression": {
+                                        "kind": 134299649,
+                                        "text": "foo",
+                                        "rawText": "foo",
+                                        "flags": 96,
+                                        "start": 25,
+                                        "end": 29
+                                    },
+                                    "flags": 16,
                                     "start": 25,
                                     "end": 29
-                                },
-                                "flags": 16,
-                                "start": 25,
-                                "end": 29
-                            }
-                        ],
-                        "flags": 16,
-                        "start": 17,
-                        "end": 29
-                    }
-                ],
+                                }
+                            ],
+                            "flags": 16,
+                            "start": 17,
+                            "end": 29
+                        }
+                    ],
+                    "flags": 16,
+                    "start": 17,
+                    "end": 29
+                },
                 "flags": 16,
                 "start": 15,
                 "end": 31

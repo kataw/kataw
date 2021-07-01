@@ -41,89 +41,95 @@ switch (g) { case 1: a: default: }
             },
             "caseBlock": {
                 "kind": 152,
-                "clauses": [
-                    {
-                        "kind": 175,
-                        "caseKeyword": {
-                            "kind": 4194382,
-                            "flags": 80,
-                            "start": 12,
-                            "end": 17
-                        },
-                        "expression": {
-                            "kind": 201392130,
-                            "text": 1,
-                            "rawText": "1",
-                            "flags": 96,
-                            "start": 17,
-                            "end": 19
-                        },
-                        "colonToken": {
-                            "kind": 21,
-                            "flags": 64,
-                            "start": 19,
-                            "end": 20
-                        },
-                        "statements": [
-                            {
-                                "kind": 163,
-                                "label": {
-                                    "kind": 134299649,
-                                    "text": "a",
-                                    "rawText": "a",
-                                    "flags": 96,
-                                    "start": 20,
-                                    "end": 22
-                                },
-                                "colonToken": {
-                                    "kind": 21,
-                                    "flags": 64,
-                                    "start": 22,
-                                    "end": 23
-                                },
-                                "statement": {
-                                    "kind": 120,
-                                    "expression": {
-                                        "kind": 16637,
-                                        "text": "",
-                                        "rawText": "",
+                "clauses": {
+                    "kind": 383,
+                    "clauses": [
+                        {
+                            "kind": 175,
+                            "caseKeyword": {
+                                "kind": 4194382,
+                                "flags": 80,
+                                "start": 12,
+                                "end": 17
+                            },
+                            "expression": {
+                                "kind": 201392130,
+                                "text": 1,
+                                "rawText": "1",
+                                "flags": 96,
+                                "start": 17,
+                                "end": 19
+                            },
+                            "colonToken": {
+                                "kind": 21,
+                                "flags": 64,
+                                "start": 19,
+                                "end": 20
+                            },
+                            "statements": [
+                                {
+                                    "kind": 163,
+                                    "label": {
+                                        "kind": 134299649,
+                                        "text": "a",
+                                        "rawText": "a",
+                                        "flags": 96,
+                                        "start": 20,
+                                        "end": 22
+                                    },
+                                    "colonToken": {
+                                        "kind": 21,
                                         "flags": 64,
+                                        "start": 22,
+                                        "end": 23
+                                    },
+                                    "statement": {
+                                        "kind": 120,
+                                        "expression": {
+                                            "kind": 16637,
+                                            "text": "",
+                                            "rawText": "",
+                                            "flags": 64,
+                                            "start": 23,
+                                            "end": 23
+                                        },
+                                        "flags": 16,
                                         "start": 23,
                                         "end": 23
                                     },
                                     "flags": 16,
-                                    "start": 23,
+                                    "start": 20,
                                     "end": 23
-                                },
-                                "flags": 16,
-                                "start": 20,
-                                "end": 23
-                            }
-                        ],
-                        "flags": 16,
-                        "start": 12,
-                        "end": 23
-                    },
-                    {
-                        "kind": 170,
-                        "defaultKeyword": {
-                            "kind": 4194387,
-                            "flags": 80,
+                                }
+                            ],
+                            "flags": 16,
+                            "start": 12,
+                            "end": 23
+                        },
+                        {
+                            "kind": 170,
+                            "defaultKeyword": {
+                                "kind": 4194387,
+                                "flags": 80,
+                                "start": 23,
+                                "end": 31
+                            },
+                            "colonToken": {
+                                "kind": 21,
+                                "flags": 64,
+                                "start": 31,
+                                "end": 32
+                            },
+                            "statements": [],
+                            "flags": 16,
                             "start": 23,
-                            "end": 31
-                        },
-                        "colonToken": {
-                            "kind": 21,
-                            "flags": 64,
-                            "start": 31,
                             "end": 32
-                        },
-                        "statements": [],
-                        "flags": 16,
-                        "start": 23,
-                        "end": 32
-                    }
-                ],
+                        }
+                    ],
+                    "flags": 16,
+                    "start": 12,
+                    "end": 32
+                },
                 "flags": 16,
                 "start": 10,
                 "end": 34

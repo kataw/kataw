@@ -91,6 +91,7 @@ export enum SyntaxKind {
   AwaitExpression = 208,
   BinaryExpression = 198,
   BindingElementList = 324,
+  Clauses = 383,
   BindingList = 151,
   ForBinding = 341,
   ArrowPatameterList = 342,

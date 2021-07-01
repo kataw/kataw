@@ -36,7 +36,13 @@ switch (/a/i {}
             },
             "caseBlock": {
                 "kind": 152,
-                "clauses": [],
+                "clauses": {
+                    "kind": 383,
+                    "clauses": [],
+                    "flags": 16,
+                    "start": 14,
+                    "end": 14
+                },
                 "flags": 16,
                 "start": 12,
                 "end": 15
@@ -62,7 +68,13 @@ switch (/a/i {}
             },
             "caseBlock": {
                 "kind": 152,
-                "clauses": [],
+                "clauses": {
+                    "kind": 383,
+                    "clauses": [],
+                    "flags": 16,
+                    "start": 30,
+                    "end": 30
+                },
                 "flags": 16,
                 "start": 28,
                 "end": 31
@@ -88,7 +100,13 @@ switch (/a/i {}
             },
             "caseBlock": {
                 "kind": 152,
-                "clauses": [],
+                "clauses": {
+                    "kind": 383,
+                    "clauses": [],
+                    "flags": 16,
+                    "start": 47,
+                    "end": 47
+                },
                 "flags": 16,
                 "start": 45,
                 "end": 48

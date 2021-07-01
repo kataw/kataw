@@ -33,7 +33,13 @@ switch(x) {}
             },
             "caseBlock": {
                 "kind": 152,
-                "clauses": [],
+                "clauses": {
+                    "kind": 383,
+                    "clauses": [],
+                    "flags": 16,
+                    "start": 11,
+                    "end": 11
+                },
                 "flags": 16,
                 "start": 9,
                 "end": 12

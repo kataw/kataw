@@ -579,7 +579,13 @@ async function f(){}
                                             },
                                             "caseBlock": {
                                                 "kind": 152,
-                                                "clauses": [],
+                                                "clauses": {
+                                                    "kind": 383,
+                                                    "clauses": [],
+                                                    "flags": 16,
+                                                    "start": 155,
+                                                    "end": 155
+                                                },
                                                 "flags": 16,
                                                 "start": 155,
                                                 "end": 155
@@ -659,7 +665,13 @@ async function f(){}
                                             },
                                             "caseBlock": {
                                                 "kind": 152,
-                                                "clauses": [],
+                                                "clauses": {
+                                                    "kind": 383,
+                                                    "clauses": [],
+                                                    "flags": 16,
+                                                    "start": 174,
+                                                    "end": 174
+                                                },
                                                 "flags": 16,
                                                 "start": 173,
                                                 "end": 174
@@ -902,7 +914,13 @@ async function f(){}
                                             },
                                             "caseBlock": {
                                                 "kind": 152,
-                                                "clauses": [],
+                                                "clauses": {
+                                                    "kind": 383,
+                                                    "clauses": [],
+                                                    "flags": 16,
+                                                    "start": 237,
+                                                    "end": 237
+                                                },
                                                 "flags": 16,
                                                 "start": 237,
                                                 "end": 237

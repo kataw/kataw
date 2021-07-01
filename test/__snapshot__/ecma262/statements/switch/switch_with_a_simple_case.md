@@ -33,50 +33,56 @@ switch (A) {case B: C;}
             },
             "caseBlock": {
                 "kind": 152,
-                "clauses": [
-                    {
-                        "kind": 175,
-                        "caseKeyword": {
-                            "kind": 4194382,
-                            "flags": 80,
-                            "start": 12,
-                            "end": 16
-                        },
-                        "expression": {
-                            "kind": 134299649,
-                            "text": "B",
-                            "rawText": "B",
-                            "flags": 96,
-                            "start": 16,
-                            "end": 18
-                        },
-                        "colonToken": {
-                            "kind": 21,
-                            "flags": 64,
-                            "start": 18,
-                            "end": 19
-                        },
-                        "statements": [
-                            {
-                                "kind": 120,
-                                "expression": {
-                                    "kind": 134299649,
-                                    "text": "C",
-                                    "rawText": "C",
-                                    "flags": 96,
+                "clauses": {
+                    "kind": 383,
+                    "clauses": [
+                        {
+                            "kind": 175,
+                            "caseKeyword": {
+                                "kind": 4194382,
+                                "flags": 80,
+                                "start": 12,
+                                "end": 16
+                            },
+                            "expression": {
+                                "kind": 134299649,
+                                "text": "B",
+                                "rawText": "B",
+                                "flags": 96,
+                                "start": 16,
+                                "end": 18
+                            },
+                            "colonToken": {
+                                "kind": 21,
+                                "flags": 64,
+                                "start": 18,
+                                "end": 19
+                            },
+                            "statements": [
+                                {
+                                    "kind": 120,
+                                    "expression": {
+                                        "kind": 134299649,
+                                        "text": "C",
+                                        "rawText": "C",
+                                        "flags": 96,
+                                        "start": 19,
+                                        "end": 21
+                                    },
+                                    "flags": 16,
                                     "start": 19,
-                                    "end": 21
-                                },
-                                "flags": 16,
-                                "start": 19,
-                                "end": 22
-                            }
-                        ],
-                        "flags": 16,
-                        "start": 12,
-                        "end": 22
-                    }
-                ],
+                                    "end": 22
+                                }
+                            ],
+                            "flags": 16,
+                            "start": 12,
+                            "end": 22
+                        }
+                    ],
+                    "flags": 16,
+                    "start": 12,
+                    "end": 22
+                },
                 "flags": 16,
                 "start": 10,
                 "end": 23

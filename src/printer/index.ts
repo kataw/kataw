@@ -210,6 +210,8 @@ function printStatements(node: SyntaxNode, printer: Printer, parentNode: SyntaxN
       return printBreakStatement(<BreakStatement>node, printer);
     case SyntaxKind.SwitchStatement:
       return printSwitchStatement(<SwitchStatement>node, printer);
+    case SyntaxKind.CaseBlock:
+      return printCaseBlock(<any>node, printer, parentNode);
     case SyntaxKind.StaticBlock:
       return printStaticBlock(<StaticBlock>node, printer);
     case SyntaxKind.ForStatement:
@@ -613,7 +615,7 @@ function printList(
     }
 
     let previousSibling!: SyntaxNode;
-    let shouldDecreaseIndentAfterEmit: boolean = false;
+    let shouldDecreaseIndentAfterEmit = false;
 
     for (let i = 0; i < children.length; i++) {
       const child = children[i];
@@ -1009,14 +1011,21 @@ function printSwitchStatement(node: SwitchStatement, printer: Printer): void {
   printExpression(node.expression, printer, node);
   printPunctuator(')', printer, node.expression.end, node);
   write(printer, ' ');
-  printCaseBlock(node.caseBlock, printer, node);
+  printStatement(node.caseBlock, printer, node);
 }
 
-function printCaseBlock(node: CaseBlock, printer: Printer, parentNode: SwitchStatement): void {
-  printPunctuator('{', printer, node.start, node);
-  printStatementList(printer, node, parentNode, node.clauses, PrinterContext.Indented | PrinterContext.MultiLine);
-  const end = node.clauses.length ? lastOrUndefined(node.clauses).end : node.end;
-  printPunctuator('}', printer, end, node);
+function printCaseBlock(node: CaseBlock, printer: Printer, parentNode: any): void {
+  printClauses(node.clauses as any, printer, parentNode);
+}
+
+function printClauses(node: CaseBlock, printer: Printer, parentNode: any): void {
+  printStatementList(
+    printer,
+    node,
+    parentNode,
+    node.clauses as any,
+    PrinterContext.Indented | PrinterContext.MultiLine | PrinterContext.Braces
+  );
 }
 
 function printCaseClause(node: any | any, printer: Printer): void {
@@ -1228,7 +1237,10 @@ function printFunctioBody(node: any, printer: Printer, parentNode: any): void {
       node,
       parentNode,
       statements,
-      PrinterContext.SingleLine | PrinterContext.SpaceBetweenSiblings | PrinterContext.SpaceBetweenBraces | PrinterContext.NoSpaceIfEmpty
+      PrinterContext.SingleLine |
+        PrinterContext.SpaceBetweenSiblings |
+        PrinterContext.SpaceBetweenBraces |
+        PrinterContext.NoSpaceIfEmpty
     );
     printer.indent++;
   } else {
@@ -1537,7 +1549,7 @@ function printMemberAccessExpression(node: MemberAccessExpression, printer: Prin
   printStatement(node.member, printer, node);
   printPunctuator('[', printer, node.member.end, node);
   printStatement(node.expression, printer, node);
-    printPunctuator(']', printer, node.expression.end, node);
+  printPunctuator(']', printer, node.expression.end, node);
 }
 
 function printArrayType(node: ArrayType, printer: Printer): void {
@@ -1678,7 +1690,7 @@ function printObjectTypeCallProperty(node: ObjectTypeCallProperty, printer: Prin
   }
   write(printer, '(');
   printStatement(node.value, printer, node);
-  let pos = printPunctuator(')', printer, node.value.end, node);
+  const pos = printPunctuator(')', printer, node.value.end, node);
   if (node.returnType) {
     printPunctuator(':', printer, pos, node);
     write(printer, ' ');

@@ -1,8 +1,8 @@
 import { parse, Options } from './parser/parser';
-import { PrinterOptions } from './printer/index';
+import { PrinterOptions , printCST } from './printer/index';
 import { Context, OnError } from './parser/common';
 import { RootNode } from './ast/rootNode';
-import { printCST } from './printer';
+
 export { SyntaxKind } from './ast/syntax-node';
 export { NodeFlags } from './ast/syntax-node';
 export { TokenSyntaxKind, createToken, SyntaxToken } from './ast/token';

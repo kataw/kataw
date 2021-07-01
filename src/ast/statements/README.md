@@ -61,6 +61,15 @@ A `switch` statement.
 ```js
 interface CaseBlock <: Statements {
   kind: NodeKind.CaseBlock;
+  clauses: Clauses;
+}
+```
+
+### Clauses
+
+```js
+interface Clauses <: Statements {
+  kind: NodeKind.Clauses;
   clauses: [ CaseClause | DefaultClause ];
 }
 ```

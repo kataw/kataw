@@ -33,48 +33,54 @@ switch (x) { default: continue foo; }
             },
             "caseBlock": {
                 "kind": 152,
-                "clauses": [
-                    {
-                        "kind": 170,
-                        "defaultKeyword": {
-                            "kind": 4194387,
-                            "flags": 80,
-                            "start": 12,
-                            "end": 20
-                        },
-                        "colonToken": {
-                            "kind": 21,
-                            "flags": 64,
-                            "start": 20,
-                            "end": 21
-                        },
-                        "statements": [
-                            {
-                                "kind": 172,
-                                "continueKeyword": {
-                                    "kind": 37757009,
-                                    "flags": 80,
+                "clauses": {
+                    "kind": 383,
+                    "clauses": [
+                        {
+                            "kind": 170,
+                            "defaultKeyword": {
+                                "kind": 4194387,
+                                "flags": 80,
+                                "start": 12,
+                                "end": 20
+                            },
+                            "colonToken": {
+                                "kind": 21,
+                                "flags": 64,
+                                "start": 20,
+                                "end": 21
+                            },
+                            "statements": [
+                                {
+                                    "kind": 172,
+                                    "continueKeyword": {
+                                        "kind": 37757009,
+                                        "flags": 80,
+                                        "start": 21,
+                                        "end": 30
+                                    },
+                                    "label": {
+                                        "kind": 134299649,
+                                        "text": "foo",
+                                        "rawText": "foo",
+                                        "flags": 96,
+                                        "start": 30,
+                                        "end": 34
+                                    },
+                                    "flags": 16,
                                     "start": 21,
-                                    "end": 30
-                                },
-                                "label": {
-                                    "kind": 134299649,
-                                    "text": "foo",
-                                    "rawText": "foo",
-                                    "flags": 96,
-                                    "start": 30,
-                                    "end": 34
-                                },
-                                "flags": 16,
-                                "start": 21,
-                                "end": 35
-                            }
-                        ],
-                        "flags": 16,
-                        "start": 12,
-                        "end": 35
-                    }
-                ],
+                                    "end": 35
+                                }
+                            ],
+                            "flags": 16,
+                            "start": 12,
+                            "end": 35
+                        }
+                    ],
+                    "flags": 16,
+                    "start": 12,
+                    "end": 35
+                },
                 "flags": 16,
                 "start": 10,
                 "end": 37

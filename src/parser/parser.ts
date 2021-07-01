@@ -9,6 +9,7 @@ import { createLabelledStatement, LabelledStatement } from '../ast/statements/la
 import { createBreakStatement, BreakStatement } from '../ast/statements/break-stmt';
 import { createContinueStatement, ContinueStatement } from '../ast/statements/continue-stmt';
 import { createCaseBlock, CaseBlock } from '../ast/statements/case-block';
+import { createClauses, Clauses } from '../ast/statements/clauses';
 import { createCaseClause } from '../ast/statements/case-clause';
 import { createCatch, CatchClause } from '../ast/statements/catch-stmt';
 import { createDebuggerStatement, DebuggerStatement } from '../ast/statements/debugger-stmt';
@@ -513,6 +514,18 @@ function parseCaseBlock(
 ): CaseBlock {
   const pos = parser.curPos;
   consume(parser, context, SyntaxKind.LeftBrace);
+  const clauses = parseClauses(parser, context, scope, labels, ownLabels);
+  consume(
+    parser,
+    context | Context.AllowRegExp,
+    SyntaxKind.RightBrace,
+    DiagnosticCode.The_parser_expected_to_find_a_to_match_the_token_here
+  );
+  return createCaseBlock(clauses, pos, parser.curPos);
+}
+
+function parseClauses(parser: ParserState, context: Context, scope: ScopeState, labels: any, ownLabels: any): Clauses {
+  const start = parser.curPos;
   const clauses = [];
   let hasDefaultCase = false;
   let caseOrDefaultToken = null;
@@ -551,14 +564,7 @@ function parseCaseBlock(
       clauses.push(createDefaultClause(caseOrDefaultToken, colonToken, statements, pos, parser.curPos));
     }
   }
-  consume(
-    parser,
-    context | Context.AllowRegExp,
-    SyntaxKind.RightBrace,
-    DiagnosticCode.The_parser_expected_to_find_a_to_match_the_token_here
-  );
-
-  return createCaseBlock(clauses, pos, parser.curPos);
+  return createClauses(clauses, start, parser.curPos);
 }
 
 function isCaseOrDefaultClause(t: SyntaxKind): boolean {
@@ -2078,7 +2084,7 @@ function parseLeftHandSideExpression(
 
 function parseExpression(parser: ParserState, context: Context): ExpressionNode {
   const curPos = parser.curPos;
-  let expr = parsePrimaryExpression(parser, context, LeftHandSide.None);
+  const expr = parsePrimaryExpression(parser, context, LeftHandSide.None);
   return parseAssignmentExpression(
     parser,
     context,
@@ -4509,7 +4515,7 @@ function parseCoverParenthesizedExpressionAndArrowParameterList(
   context = (context | 0b00000000100000000000000010000000) ^ 0b00000000100000000000000010000000;
 
   consume(parser, context | Context.AllowRegExp, SyntaxKind.LeftParen);
-  let innerParenPos = parser.curPos;
+  const innerParenPos = parser.curPos;
   // - `() => x`
   // - `(() => x)`
   // - `return () => x`
@@ -8764,7 +8770,7 @@ function parseTypeAsIdentifierOrTypeAlias(
   const typeToken = consumeToken(parser, context, SyntaxKind.TypeKeyword);
   let nodeFlags = typeToken.flags;
   if (context & Context.OptionsAllowTypes && parser.token & Constants.Identifier) {
-    let expr = parseIdentifier(parser, context, Constants.Identifier, DiagnosticCode.Identifier_expected);
+    const expr = parseIdentifier(parser, context, Constants.Identifier, DiagnosticCode.Identifier_expected);
     const typeParameters = parseTypeParameterDeclaration(parser, context);
     const assignToken = consumeToken(
       parser,
@@ -10034,7 +10040,6 @@ export function parseClassElement(
 
       (parser.nodeFlags & NodeFlags.NewLine) < 1
     ) {
-
       switch (token) {
         case SyntaxKind.StaticKeyword:
           // avoid 'static static'
@@ -10346,7 +10351,6 @@ export function parseClassStaticBlockDeclaration(
   nodeFlags: NodeFlags,
   pos: number
 ): StaticBlock {
-
   // - `@foo class q { static {} }`
   if (decorators) {
     parser.onError(
@@ -10623,7 +10627,7 @@ export function parseCoverCallExpressionAndAsyncArrowHead(
 
   consume(parser, context | Context.AllowRegExp, SyntaxKind.LeftParen);
 
-  let innerPos = parser.curPos;
+  const innerPos = parser.curPos;
 
   if (consumeOpt(parser, context, SyntaxKind.RightParen)) {
     let isType = false;

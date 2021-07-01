@@ -41,7 +41,13 @@ switch: x
             },
             "caseBlock": {
                 "kind": 152,
-                "clauses": [],
+                "clauses": {
+                    "kind": 383,
+                    "clauses": [],
+                    "flags": 16,
+                    "start": 6,
+                    "end": 6
+                },
                 "flags": 16,
                 "start": 6,
                 "end": 6

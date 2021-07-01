@@ -1,18 +1,15 @@
 import { SyntaxNode, SyntaxKind, NodeFlags } from '../syntax-node';
-import { CaseClause } from './case-clause';
-import { DefaultClause } from './default-clause';
+import { Clauses } from './clauses';
 
 /**
  * CaseBlock
  */
 
-export type CaseOrDefaultClause = CaseClause | DefaultClause;
-
 export interface CaseBlock extends SyntaxNode {
-  readonly clauses: CaseOrDefaultClause[];
+  clauses: Clauses;
 }
 
-export function createCaseBlock(clauses: CaseOrDefaultClause[], start: number, end: number): CaseBlock {
+export function createCaseBlock(clauses: Clauses, start: number, end: number): CaseBlock {
   return {
     kind: SyntaxKind.CaseBlock,
     clauses,

@@ -79,7 +79,13 @@ switch(y&[]=y){}
             },
             "caseBlock": {
                 "kind": 152,
-                "clauses": [],
+                "clauses": {
+                    "kind": 383,
+                    "clauses": [],
+                    "flags": 16,
+                    "start": 15,
+                    "end": 15
+                },
                 "flags": 16,
                 "start": 14,
                 "end": 16
