@@ -11,7 +11,7 @@ export function extractComments(text: string, pos: number, trailing: boolean): a
   let collecting = trailing || pos === 0;
 
   while (true) {
-    const ch = text.charCodeAt(pos);
+    let ch = text.charCodeAt(pos);
     switch (ch) {
       case Char.CarriageReturn:
         if (text.charCodeAt(pos + 1) === Char.LineFeed) {
@@ -34,11 +34,11 @@ export function extractComments(text: string, pos: number, trailing: boolean): a
         pos++;
         continue;
       case Char.Slash:
-        const nextChar = text.charCodeAt(pos + 1);
+        let nextChar = text.charCodeAt(pos + 1);
         let hasTrailingNewLine = false;
         if (nextChar === Char.Slash || nextChar === Char.Asterisk) {
-          const kind = nextChar === Char.Slash ? SyntaxKind.SingleLineComment : SyntaxKind.MultiLineComment;
-          const startPos = pos;
+          let kind = nextChar === Char.Slash ? SyntaxKind.SingleLineComment : SyntaxKind.MultiLineComment;
+          let startPos = pos;
           pos += 2;
           if (nextChar === Char.Slash) {
             while (pos < text.length) {
