@@ -165,13 +165,7 @@ do do do async funcion switch!! while while while
             },
             "caseBlock": {
                 "kind": 152,
-                "clauses": {
-                    "kind": 383,
-                    "clauses": [],
-                    "flags": 16,
-                    "start": 31,
-                    "end": 31
-                },
+                "clauses": [],
                 "flags": 16,
                 "start": 31,
                 "end": 31

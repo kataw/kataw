@@ -44,89 +44,83 @@ switch (x) {
             },
             "caseBlock": {
                 "kind": 152,
-                "clauses": {
-                    "kind": 383,
-                    "clauses": [
-                        {
-                            "kind": 170,
-                            "defaultKeyword": {
-                                "kind": 4194387,
-                                "flags": 81,
-                                "start": 12,
-                                "end": 22
-                            },
-                            "colonToken": {
-                                "kind": 21,
-                                "flags": 64,
-                                "start": 22,
-                                "end": 23
-                            },
-                            "statements": [
-                                {
-                                    "kind": 176,
-                                    "declareKeyword": null,
-                                    "asyncKeyword": {
-                                        "kind": 82031,
-                                        "flags": 65,
-                                        "start": 23,
-                                        "end": 33
-                                    },
-                                    "functionKeyword": {
-                                        "kind": 37822554,
-                                        "flags": 64,
-                                        "start": 33,
-                                        "end": 42
-                                    },
-                                    "asteriskToken": null,
-                                    "name": {
-                                        "kind": 134299649,
-                                        "text": "f",
-                                        "rawText": "f",
-                                        "flags": 96,
-                                        "start": 42,
-                                        "end": 44
-                                    },
-                                    "typeParameters": null,
-                                    "formalParameterList": {
-                                        "kind": 214,
-                                        "formalParameters": [],
-                                        "trailingComma": false,
-                                        "flags": 32,
-                                        "start": 45,
-                                        "end": 45
-                                    },
-                                    "contents": {
-                                        "kind": 216,
-                                        "functionStatementList": {
-                                            "kind": 217,
-                                            "directives": [],
-                                            "statements": [],
-                                            "flags": 32,
-                                            "start": 47,
-                                            "end": 47
-                                        },
-                                        "flags": 32,
-                                        "start": 46,
-                                        "end": 48
-                                    },
-                                    "returnType": null,
-                                    "flags": 144,
-                                    "start": 23,
-                                    "end": 48
-                                }
-                            ],
-                            "flags": 16,
+                "clauses": [
+                    {
+                        "kind": 170,
+                        "defaultKeyword": {
+                            "kind": 4194387,
+                            "flags": 81,
                             "start": 12,
-                            "end": 48
-                        }
-                    ],
-                    "flags": 16,
-                    "start": 12,
-                    "end": 48
-                },
+                            "end": 22
+                        },
+                        "colonToken": {
+                            "kind": 21,
+                            "flags": 64,
+                            "start": 22,
+                            "end": 23
+                        },
+                        "statements": [
+                            {
+                                "kind": 176,
+                                "declareKeyword": null,
+                                "asyncKeyword": {
+                                    "kind": 82031,
+                                    "flags": 65,
+                                    "start": 23,
+                                    "end": 33
+                                },
+                                "functionKeyword": {
+                                    "kind": 37822554,
+                                    "flags": 64,
+                                    "start": 33,
+                                    "end": 42
+                                },
+                                "asteriskToken": null,
+                                "name": {
+                                    "kind": 134299649,
+                                    "text": "f",
+                                    "rawText": "f",
+                                    "flags": 96,
+                                    "start": 42,
+                                    "end": 44
+                                },
+                                "typeParameters": null,
+                                "formalParameterList": {
+                                    "kind": 214,
+                                    "formalParameters": [],
+                                    "trailingComma": false,
+                                    "flags": 32,
+                                    "start": 45,
+                                    "end": 45
+                                },
+                                "contents": {
+                                    "kind": 216,
+                                    "functionStatementList": {
+                                        "kind": 217,
+                                        "directives": [],
+                                        "statements": [],
+                                        "flags": 32,
+                                        "start": 47,
+                                        "end": 47
+                                    },
+                                    "flags": 32,
+                                    "start": 46,
+                                    "end": 48
+                                },
+                                "returnType": null,
+                                "flags": 144,
+                                "start": 23,
+                                "end": 48
+                            }
+                        ],
+                        "flags": 16,
+                        "start": 12,
+                        "end": 48
+                    }
+                ],
                 "flags": 16,
-                "start": 10,
-                "end": 50
+                "start": 12,
+                "end": 48
             },
             "flags": 80,
             "start": 0,

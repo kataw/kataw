@@ -123,13 +123,7 @@ do async funcion switch!!
             },
             "caseBlock": {
                 "kind": 152,
-                "clauses": {
-                    "kind": 383,
-                    "clauses": [],
-                    "flags": 16,
-                    "start": 25,
-                    "end": 25
-                },
+                "clauses": [],
                 "flags": 16,
                 "start": 25,
                 "end": 25

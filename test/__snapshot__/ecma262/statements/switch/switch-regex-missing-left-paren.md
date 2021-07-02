@@ -36,16 +36,10 @@ switch (/a/i {}
             },
             "caseBlock": {
                 "kind": 152,
-                "clauses": {
-                    "kind": 383,
-                    "clauses": [],
-                    "flags": 16,
-                    "start": 14,
-                    "end": 14
-                },
+                "clauses": [],
                 "flags": 16,
-                "start": 12,
-                "end": 15
+                "start": 14,
+                "end": 14
             },
             "flags": 80,
             "start": 0,
@@ -68,16 +62,10 @@ switch (/a/i {}
             },
             "caseBlock": {
                 "kind": 152,
-                "clauses": {
-                    "kind": 383,
-                    "clauses": [],
-                    "flags": 16,
-                    "start": 30,
-                    "end": 30
-                },
+                "clauses": [],
                 "flags": 16,
-                "start": 28,
-                "end": 31
+                "start": 30,
+                "end": 30
             },
             "flags": 81,
             "start": 15,
@@ -100,16 +88,10 @@ switch (/a/i {}
             },
             "caseBlock": {
                 "kind": 152,
-                "clauses": {
-                    "kind": 383,
-                    "clauses": [],
-                    "flags": 16,
-                    "start": 47,
-                    "end": 47
-                },
+                "clauses": [],
                 "flags": 16,
-                "start": 45,
-                "end": 48
+                "start": 47,
+                "end": 47
             },
             "flags": 81,
             "start": 31,

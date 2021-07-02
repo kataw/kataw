@@ -43,94 +43,88 @@ switch (a) { case b: let
             },
             "caseBlock": {
                 "kind": 152,
-                "clauses": {
-                    "kind": 383,
-                    "clauses": [
-                        {
-                            "kind": 175,
-                            "caseKeyword": {
-                                "kind": 4194382,
-                                "flags": 80,
-                                "start": 12,
-                                "end": 17
-                            },
-                            "expression": {
-                                "kind": 134299649,
-                                "text": "b",
-                                "rawText": "b",
-                                "flags": 96,
-                                "start": 17,
-                                "end": 19
-                            },
-                            "colonToken": {
-                                "kind": 21,
-                                "flags": 64,
-                                "start": 19,
-                                "end": 20
-                            },
-                            "statements": [
-                                {
-                                    "kind": 162,
-                                    "lexicalKeyword": {
-                                        "kind": 41951307,
-                                        "flags": 80,
-                                        "start": 20,
-                                        "end": 24
-                                    },
-                                    "binding": {
-                                        "kind": 151,
-                                        "bindingList": [
-                                            {
-                                                "kind": 190,
-                                                "binding": {
-                                                    "kind": 212,
-                                                    "propertyList": {
-                                                        "kind": 213,
-                                                        "properties": [],
-                                                        "trailingComma": false,
-                                                        "flags": 32,
-                                                        "start": 26,
-                                                        "end": 26
-                                                    },
-                                                    "flags": 33,
-                                                    "start": 24,
-                                                    "end": 27
-                                                },
-                                                "type": null,
-                                                "initializer": {
-                                                    "kind": 134299649,
-                                                    "text": "y",
-                                                    "rawText": "y",
-                                                    "flags": 96,
-                                                    "start": 29,
-                                                    "end": 31
-                                                },
-                                                "flags": 16,
-                                                "start": 24,
-                                                "end": 31
-                                            }
-                                        ],
-                                        "flags": 16,
-                                        "start": 24,
-                                        "end": 31
-                                    },
-                                    "flags": 33554448,
-                                    "start": 20,
-                                    "end": 31
-                                }
-                            ],
-                            "flags": 16,
+                "clauses": [
+                    {
+                        "kind": 175,
+                        "caseKeyword": {
+                            "kind": 4194382,
+                            "flags": 80,
                             "start": 12,
-                            "end": 31
-                        }
-                    ],
-                    "flags": 16,
-                    "start": 12,
-                    "end": 31
-                },
+                            "end": 17
+                        },
+                        "expression": {
+                            "kind": 134299649,
+                            "text": "b",
+                            "rawText": "b",
+                            "flags": 96,
+                            "start": 17,
+                            "end": 19
+                        },
+                        "colonToken": {
+                            "kind": 21,
+                            "flags": 64,
+                            "start": 19,
+                            "end": 20
+                        },
+                        "statements": [
+                            {
+                                "kind": 162,
+                                "lexicalKeyword": {
+                                    "kind": 41951307,
+                                    "flags": 80,
+                                    "start": 20,
+                                    "end": 24
+                                },
+                                "binding": {
+                                    "kind": 151,
+                                    "bindingList": [
+                                        {
+                                            "kind": 190,
+                                            "binding": {
+                                                "kind": 212,
+                                                "propertyList": {
+                                                    "kind": 213,
+                                                    "properties": [],
+                                                    "trailingComma": false,
+                                                    "flags": 32,
+                                                    "start": 26,
+                                                    "end": 26
+                                                },
+                                                "flags": 33,
+                                                "start": 24,
+                                                "end": 27
+                                            },
+                                            "type": null,
+                                            "initializer": {
+                                                "kind": 134299649,
+                                                "text": "y",
+                                                "rawText": "y",
+                                                "flags": 96,
+                                                "start": 29,
+                                                "end": 31
+                                            },
+                                            "flags": 16,
+                                            "start": 24,
+                                            "end": 31
+                                        }
+                                    ],
+                                    "flags": 16,
+                                    "start": 24,
+                                    "end": 31
+                                },
+                                "flags": 33554448,
+                                "start": 20,
+                                "end": 31
+                            }
+                        ],
+                        "flags": 16,
+                        "start": 12,
+                        "end": 31
+                    }
+                ],
                 "flags": 16,
-                "start": 10,
-                "end": 33
+                "start": 12,
+                "end": 31
             },
             "flags": 80,
             "start": 0,

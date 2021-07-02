@@ -116,13 +116,7 @@ async (x = delete ((switch) = f)) => {}
             },
             "caseBlock": {
                 "kind": 152,
-                "clauses": {
-                    "kind": 383,
-                    "clauses": [],
-                    "flags": 16,
-                    "start": 27,
-                    "end": 27
-                },
+                "clauses": [],
                 "flags": 16,
                 "start": 27,
                 "end": 27

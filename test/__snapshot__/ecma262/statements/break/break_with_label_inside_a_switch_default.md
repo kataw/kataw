@@ -49,57 +49,51 @@ foo: switch (x) { default: break foo; }
                 },
                 "caseBlock": {
                     "kind": 152,
-                    "clauses": {
-                        "kind": 383,
-                        "clauses": [
-                            {
-                                "kind": 170,
-                                "defaultKeyword": {
-                                    "kind": 4194387,
-                                    "flags": 80,
-                                    "start": 17,
-                                    "end": 25
-                                },
-                                "colonToken": {
-                                    "kind": 21,
-                                    "flags": 64,
-                                    "start": 25,
-                                    "end": 26
-                                },
-                                "statements": [
-                                    {
-                                        "kind": 150,
-                                        "breakKeyword": {
-                                            "kind": 37757005,
-                                            "flags": 80,
-                                            "start": 26,
-                                            "end": 32
-                                        },
-                                        "label": {
-                                            "kind": 134299649,
-                                            "text": "foo",
-                                            "rawText": "foo",
-                                            "flags": 96,
-                                            "start": 32,
-                                            "end": 36
-                                        },
-                                        "flags": 16,
-                                        "start": 26,
-                                        "end": 37
-                                    }
-                                ],
-                                "flags": 16,
+                    "clauses": [
+                        {
+                            "kind": 170,
+                            "defaultKeyword": {
+                                "kind": 4194387,
+                                "flags": 80,
                                 "start": 17,
-                                "end": 37
-                            }
-                        ],
-                        "flags": 16,
-                        "start": 17,
-                        "end": 37
-                    },
+                                "end": 25
+                            },
+                            "colonToken": {
+                                "kind": 21,
+                                "flags": 64,
+                                "start": 25,
+                                "end": 26
+                            },
+                            "statements": [
+                                {
+                                    "kind": 150,
+                                    "breakKeyword": {
+                                        "kind": 37757005,
+                                        "flags": 80,
+                                        "start": 26,
+                                        "end": 32
+                                    },
+                                    "label": {
+                                        "kind": 134299649,
+                                        "text": "foo",
+                                        "rawText": "foo",
+                                        "flags": 96,
+                                        "start": 32,
+                                        "end": 36
+                                    },
+                                    "flags": 16,
+                                    "start": 26,
+                                    "end": 37
+                                }
+                            ],
+                            "flags": 16,
+                            "start": 17,
+                            "end": 37
+                        }
+                    ],
                     "flags": 16,
-                    "start": 15,
-                    "end": 39
+                    "start": 17,
+                    "end": 37
                 },
                 "flags": 80,
                 "start": 4,

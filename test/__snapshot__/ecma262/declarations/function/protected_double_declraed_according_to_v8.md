@@ -85,36 +85,30 @@ const protected = x, function arguments(){}
                                 },
                                 "caseBlock": {
                                     "kind": 152,
-                                    "clauses": {
-                                        "kind": 383,
-                                        "clauses": [
-                                            {
-                                                "kind": 170,
-                                                "defaultKeyword": {
-                                                    "kind": 4194387,
-                                                    "flags": 81,
-                                                    "start": 46,
-                                                    "end": 60
-                                                },
-                                                "colonToken": {
-                                                    "kind": 21,
-                                                    "flags": 64,
-                                                    "start": 60,
-                                                    "end": 61
-                                                },
-                                                "statements": [],
-                                                "flags": 16,
+                                    "clauses": [
+                                        {
+                                            "kind": 170,
+                                            "defaultKeyword": {
+                                                "kind": 4194387,
+                                                "flags": 81,
                                                 "start": 46,
+                                                "end": 60
+                                            },
+                                            "colonToken": {
+                                                "kind": 21,
+                                                "flags": 64,
+                                                "start": 60,
                                                 "end": 61
-                                            }
-                                        ],
-                                        "flags": 16,
-                                        "start": 46,
-                                        "end": 61
-                                    },
+                                            },
+                                            "statements": [],
+                                            "flags": 16,
+                                            "start": 46,
+                                            "end": 61
+                                        }
+                                    ],
                                     "flags": 16,
-                                    "start": 45,
-                                    "end": 67
+                                    "start": 46,
+                                    "end": 61
                                 },
                                 "flags": 81,
                                 "start": 31,

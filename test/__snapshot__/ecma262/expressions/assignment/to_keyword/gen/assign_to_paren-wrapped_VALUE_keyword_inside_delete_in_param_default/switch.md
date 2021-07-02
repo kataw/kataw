@@ -143,13 +143,7 @@ function *f(x = delete ((switch) = f)) {}
             },
             "caseBlock": {
                 "kind": 152,
-                "clauses": {
-                    "kind": 383,
-                    "clauses": [],
-                    "flags": 16,
-                    "start": 32,
-                    "end": 32
-                },
+                "clauses": [],
                 "flags": 16,
                 "start": 32,
                 "end": 32

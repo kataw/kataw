@@ -41,8 +41,8 @@ switch /* comment 1 */ (x) {}
                 "kind": 152,
                 "clauses": [],
                 "flags": 16,
-                "start": 26,
-                "end": 29
+                "start": 28,
+                "end": 28
             },
             "flags": 80,
             "start": 0,

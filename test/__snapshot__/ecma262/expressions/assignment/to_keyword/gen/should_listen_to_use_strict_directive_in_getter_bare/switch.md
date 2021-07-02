@@ -135,16 +135,10 @@ foo = {
                                                     },
                                                     "caseBlock": {
                                                         "kind": 152,
-                                                        "clauses": {
-                                                            "kind": 383,
-                                                            "clauses": [],
-                                                            "flags": 16,
-                                                            "start": 51,
-                                                            "end": 51
-                                                        },
+                                                        "clauses": [],
                                                         "flags": 16,
                                                         "start": 51,
-                                                        "end": 55
+                                                        "end": 51
                                                     },
                                                     "flags": 81,
                                                     "start": 36,

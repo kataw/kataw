@@ -134,13 +134,7 @@
                         },
                         "caseBlock": {
                             "kind": 152,
-                            "clauses": {
-                                "kind": 383,
-                                "clauses": [],
-                                "flags": 16,
-                                "start": 18,
-                                "end": 18
-                            },
+                            "clauses": [],
                             "flags": 16,
                             "start": 18,
                             "end": 18

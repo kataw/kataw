@@ -103,13 +103,7 @@ async x => switch = 1
             },
             "caseBlock": {
                 "kind": 152,
-                "clauses": {
-                    "kind": 383,
-                    "clauses": [],
-                    "flags": 16,
-                    "start": 21,
-                    "end": 21
-                },
+                "clauses": [],
                 "flags": 16,
                 "start": 21,
                 "end": 21

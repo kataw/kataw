@@ -197,13 +197,7 @@ do while [catch] async funcion switch!!
             },
             "caseBlock": {
                 "kind": 152,
-                "clauses": {
-                    "kind": 383,
-                    "clauses": [],
-                    "flags": 16,
-                    "start": 39,
-                    "end": 39
-                },
+                "clauses": [],
                 "flags": 16,
                 "start": 39,
                 "end": 39

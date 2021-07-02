@@ -78,16 +78,10 @@ class switch() {}
             },
             "caseBlock": {
                 "kind": 152,
-                "clauses": {
-                    "kind": 383,
-                    "clauses": [],
-                    "flags": 16,
-                    "start": 16,
-                    "end": 16
-                },
+                "clauses": [],
                 "flags": 16,
-                "start": 14,
-                "end": 17
+                "start": 16,
+                "end": 16
             },
             "flags": 80,
             "start": 5,

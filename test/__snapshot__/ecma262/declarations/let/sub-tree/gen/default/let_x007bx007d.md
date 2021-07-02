@@ -43,79 +43,73 @@ switch (a) { default: let
             },
             "caseBlock": {
                 "kind": 152,
-                "clauses": {
-                    "kind": 383,
-                    "clauses": [
-                        {
-                            "kind": 170,
-                            "defaultKeyword": {
-                                "kind": 4194387,
-                                "flags": 80,
-                                "start": 12,
-                                "end": 20
-                            },
-                            "colonToken": {
-                                "kind": 21,
-                                "flags": 64,
-                                "start": 20,
-                                "end": 21
-                            },
-                            "statements": [
-                                {
-                                    "kind": 162,
-                                    "lexicalKeyword": {
-                                        "kind": 41951307,
-                                        "flags": 80,
-                                        "start": 21,
-                                        "end": 25
-                                    },
-                                    "binding": {
-                                        "kind": 151,
-                                        "bindingList": [
-                                            {
-                                                "kind": 190,
-                                                "binding": {
-                                                    "kind": 212,
-                                                    "propertyList": {
-                                                        "kind": 213,
-                                                        "properties": [],
-                                                        "trailingComma": false,
-                                                        "flags": 32,
-                                                        "start": 27,
-                                                        "end": 27
-                                                    },
-                                                    "flags": 33,
-                                                    "start": 25,
-                                                    "end": 28
+                "clauses": [
+                    {
+                        "kind": 170,
+                        "defaultKeyword": {
+                            "kind": 4194387,
+                            "flags": 80,
+                            "start": 12,
+                            "end": 20
+                        },
+                        "colonToken": {
+                            "kind": 21,
+                            "flags": 64,
+                            "start": 20,
+                            "end": 21
+                        },
+                        "statements": [
+                            {
+                                "kind": 162,
+                                "lexicalKeyword": {
+                                    "kind": 41951307,
+                                    "flags": 80,
+                                    "start": 21,
+                                    "end": 25
+                                },
+                                "binding": {
+                                    "kind": 151,
+                                    "bindingList": [
+                                        {
+                                            "kind": 190,
+                                            "binding": {
+                                                "kind": 212,
+                                                "propertyList": {
+                                                    "kind": 213,
+                                                    "properties": [],
+                                                    "trailingComma": false,
+                                                    "flags": 32,
+                                                    "start": 27,
+                                                    "end": 27
                                                 },
-                                                "type": null,
-                                                "initializer": null,
-                                                "flags": 16,
+                                                "flags": 33,
                                                 "start": 25,
                                                 "end": 28
-                                            }
-                                        ],
-                                        "flags": 16,
-                                        "start": 25,
-                                        "end": 28
-                                    },
-                                    "flags": 33554448,
-                                    "start": 21,
+                                            },
+                                            "type": null,
+                                            "initializer": null,
+                                            "flags": 16,
+                                            "start": 25,
+                                            "end": 28
+                                        }
+                                    ],
+                                    "flags": 16,
+                                    "start": 25,
                                     "end": 28
-                                }
-                            ],
-                            "flags": 16,
-                            "start": 12,
-                            "end": 28
-                        }
-                    ],
-                    "flags": 16,
-                    "start": 12,
-                    "end": 28
-                },
+                                },
+                                "flags": 33554448,
+                                "start": 21,
+                                "end": 28
+                            }
+                        ],
+                        "flags": 16,
+                        "start": 12,
+                        "end": 28
+                    }
+                ],
                 "flags": 16,
-                "start": 10,
-                "end": 30
+                "start": 12,
+                "end": 28
             },
             "flags": 80,
             "start": 0,

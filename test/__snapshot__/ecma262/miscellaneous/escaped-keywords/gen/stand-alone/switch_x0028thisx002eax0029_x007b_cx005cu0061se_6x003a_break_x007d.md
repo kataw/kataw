@@ -53,58 +53,52 @@ switch (this.a) { c\u0061se 6: break; }
             },
             "caseBlock": {
                 "kind": 152,
-                "clauses": {
-                    "kind": 383,
-                    "clauses": [
-                        {
-                            "kind": 175,
-                            "caseKeyword": {
-                                "kind": 4194382,
-                                "flags": 16464,
-                                "start": 17,
-                                "end": 27
-                            },
-                            "expression": {
-                                "kind": 201392130,
-                                "text": 6,
-                                "rawText": "6",
-                                "flags": 96,
-                                "start": 27,
-                                "end": 29
-                            },
-                            "colonToken": {
-                                "kind": 21,
-                                "flags": 64,
-                                "start": 29,
-                                "end": 30
-                            },
-                            "statements": [
-                                {
-                                    "kind": 150,
-                                    "breakKeyword": {
-                                        "kind": 37757005,
-                                        "flags": 80,
-                                        "start": 30,
-                                        "end": 36
-                                    },
-                                    "label": null,
-                                    "flags": 16,
-                                    "start": 30,
-                                    "end": 37
-                                }
-                            ],
-                            "flags": 16,
+                "clauses": [
+                    {
+                        "kind": 175,
+                        "caseKeyword": {
+                            "kind": 4194382,
+                            "flags": 16464,
                             "start": 17,
-                            "end": 37
-                        }
-                    ],
-                    "flags": 16,
-                    "start": 17,
-                    "end": 37
-                },
+                            "end": 27
+                        },
+                        "expression": {
+                            "kind": 201392130,
+                            "text": 6,
+                            "rawText": "6",
+                            "flags": 96,
+                            "start": 27,
+                            "end": 29
+                        },
+                        "colonToken": {
+                            "kind": 21,
+                            "flags": 64,
+                            "start": 29,
+                            "end": 30
+                        },
+                        "statements": [
+                            {
+                                "kind": 150,
+                                "breakKeyword": {
+                                    "kind": 37757005,
+                                    "flags": 80,
+                                    "start": 30,
+                                    "end": 36
+                                },
+                                "label": null,
+                                "flags": 16,
+                                "start": 30,
+                                "end": 37
+                            }
+                        ],
+                        "flags": 16,
+                        "start": 17,
+                        "end": 37
+                    }
+                ],
                 "flags": 16,
-                "start": 15,
-                "end": 39
+                "start": 17,
+                "end": 37
             },
             "flags": 80,
             "start": 0,

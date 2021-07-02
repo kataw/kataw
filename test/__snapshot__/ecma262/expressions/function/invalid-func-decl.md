@@ -579,13 +579,7 @@ async function f(){}
                                             },
                                             "caseBlock": {
                                                 "kind": 152,
-                                                "clauses": {
-                                                    "kind": 383,
-                                                    "clauses": [],
-                                                    "flags": 16,
-                                                    "start": 155,
-                                                    "end": 155
-                                                },
+                                                "clauses": [],
                                                 "flags": 16,
                                                 "start": 155,
                                                 "end": 155
@@ -665,15 +659,9 @@ async function f(){}
                                             },
                                             "caseBlock": {
                                                 "kind": 152,
-                                                "clauses": {
-                                                    "kind": 383,
-                                                    "clauses": [],
-                                                    "flags": 16,
-                                                    "start": 174,
-                                                    "end": 174
-                                                },
+                                                "clauses": [],
                                                 "flags": 16,
-                                                "start": 173,
+                                                "start": 174,
                                                 "end": 174
                                             },
                                             "flags": 80,
@@ -914,13 +902,7 @@ async function f(){}
                                             },
                                             "caseBlock": {
                                                 "kind": 152,
-                                                "clauses": {
-                                                    "kind": 383,
-                                                    "clauses": [],
-                                                    "flags": 16,
-                                                    "start": 237,
-                                                    "end": 237
-                                                },
+                                                "clauses": [],
                                                 "flags": 16,
                                                 "start": 237,
                                                 "end": 237

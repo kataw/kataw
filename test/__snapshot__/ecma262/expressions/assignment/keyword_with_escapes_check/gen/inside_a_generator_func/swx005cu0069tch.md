@@ -102,16 +102,10 @@ function *f(){
                             },
                             "caseBlock": {
                                 "kind": 152,
-                                "clauses": {
-                                    "kind": 383,
-                                    "clauses": [],
-                                    "flags": 16,
-                                    "start": 32,
-                                    "end": 32
-                                },
+                                "clauses": [],
                                 "flags": 16,
                                 "start": 32,
-                                "end": 34
+                                "end": 32
                             },
                             "flags": 81,
                             "start": 14,
