@@ -128,8 +128,8 @@ function* wrap() {
                                     "start": 24,
                                     "end": 37
                                 },
-                                "flags": 18,
-                                "start": 35,
+                                "flags": 32,
+                                "start": 18,
                                 "end": 38
                             },
                             "flags": 16,

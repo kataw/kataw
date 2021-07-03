@@ -200,7 +200,7 @@ const fn2: ( Object, ?Object, ) => void = ( o1, o2, ) => o1;
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 32,
+                                "flags": 0,
                                 "start": 41,
                                 "end": 50
                             },
@@ -412,7 +412,7 @@ const fn2: ( Object, ?Object, ) => void = ( o1, o2, ) => o1;
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 32,
+                                "flags": 0,
                                 "start": 101,
                                 "end": 111
                             },

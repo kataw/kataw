@@ -50,7 +50,7 @@
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 34,
+                                "flags": 2,
                                 "start": 2,
                                 "end": 5
                             },
@@ -88,8 +88,8 @@
                             "start": 1,
                             "end": 24
                         },
-                        "flags": 0,
-                        "start": 32,
+                        "flags": 32,
+                        "start": 0,
                         "end": 25
                     },
                     "argumentList": {
@@ -189,7 +189,7 @@
                             }
                         ],
                         "trailingComma": false,
-                        "flags": 33,
+                        "flags": 32,
                         "start": 28,
                         "end": 55
                     },
@@ -289,7 +289,7 @@
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 33,
+                    "flags": 32,
                     "start": 59,
                     "end": 80
                 },

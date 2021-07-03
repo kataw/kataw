@@ -181,7 +181,7 @@ async({a=1}. {b=2}, {c=3} = {}))
                     }
                 ],
                 "trailingComma": false,
-                "flags": 34,
+                "flags": 32,
                 "start": 0,
                 "end": 0
             },

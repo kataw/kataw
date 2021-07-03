@@ -96,8 +96,8 @@ function *f(x = (in) = f) {}
                                     "start": 17,
                                     "end": 19
                                 },
-                                "flags": 15,
-                                "start": 32,
+                                "flags": 32,
+                                "start": 15,
                                 "end": 20
                             },
                             "operatorToken": {

@@ -149,7 +149,7 @@ class x extends y { constructor(){ return (a=super.foo) => a; }}
                                                             }
                                                         ],
                                                         "trailingComma": false,
-                                                        "flags": 34,
+                                                        "flags": 2,
                                                         "start": 43,
                                                         "end": 55
                                                     },

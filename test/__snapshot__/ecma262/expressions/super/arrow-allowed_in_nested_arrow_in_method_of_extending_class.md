@@ -111,7 +111,7 @@ class x extends y { foo(){ return () => () => super[bar]; }}
                                                         "kind": 342,
                                                         "parameters": [],
                                                         "trailingComma": false,
-                                                        "flags": 32,
+                                                        "flags": 0,
                                                         "start": 35,
                                                         "end": 35
                                                     },
@@ -130,7 +130,7 @@ class x extends y { foo(){ return () => () => super[bar]; }}
                                                             "kind": 342,
                                                             "parameters": [],
                                                             "trailingComma": false,
-                                                            "flags": 32,
+                                                            "flags": 0,
                                                             "start": 41,
                                                             "end": 41
                                                         },

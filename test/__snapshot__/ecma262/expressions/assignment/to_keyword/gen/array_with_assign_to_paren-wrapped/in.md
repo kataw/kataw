@@ -81,8 +81,8 @@ async x => (in) = 1
                             "start": 12,
                             "end": 14
                         },
-                        "flags": 10,
-                        "start": 32,
+                        "flags": 32,
+                        "start": 10,
                         "end": 15
                     },
                     "operatorToken": {

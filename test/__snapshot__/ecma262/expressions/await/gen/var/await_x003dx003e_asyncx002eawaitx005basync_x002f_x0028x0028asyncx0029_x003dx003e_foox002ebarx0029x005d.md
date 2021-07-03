@@ -92,8 +92,8 @@ var await; var f = (async function() { await => async.await[async / ((async) => 
                                 "start": 18,
                                 "end": 44
                             },
-                            "flags": 18,
-                            "start": 32,
+                            "flags": 32,
+                            "start": 18,
                             "end": 44
                         },
                         "flags": 16,
@@ -170,7 +170,7 @@ var await; var f = (async function() { await => async.await[async / ((async) => 
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 32,
+                                "flags": 0,
                                 "start": 70,
                                 "end": 76
                             },
@@ -207,8 +207,8 @@ var await; var f = (async function() { await => async.await[async / ((async) => 
                             "start": 69,
                             "end": 87
                         },
-                        "flags": 67,
-                        "start": 32,
+                        "flags": 32,
+                        "start": 67,
                         "end": 88
                     },
                     "flags": 96,

@@ -68,8 +68,8 @@
                     "start": 1,
                     "end": 14
                 },
-                "flags": 0,
-                "start": 32,
+                "flags": 32,
+                "start": 0,
                 "end": 15
             },
             "flags": 16,
@@ -129,8 +129,8 @@
                     "start": 18,
                     "end": 36
                 },
-                "flags": 16,
-                "start": 33,
+                "flags": 32,
+                "start": 16,
                 "end": 37
             },
             "flags": 16,
@@ -197,8 +197,8 @@
                     "start": 40,
                     "end": 63
                 },
-                "flags": 38,
-                "start": 33,
+                "flags": 32,
+                "start": 38,
                 "end": 64
             },
             "flags": 16,
@@ -256,8 +256,8 @@
                                     "start": 80,
                                     "end": 87
                                 },
-                                "flags": 80,
-                                "start": 32,
+                                "flags": 32,
+                                "start": 80,
                                 "end": 87
                             },
                             "typeParameter": null,
@@ -280,8 +280,8 @@
                     "start": 67,
                     "end": 90
                 },
-                "flags": 65,
-                "start": 33,
+                "flags": 32,
+                "start": 65,
                 "end": 91
             },
             "flags": 16,
@@ -346,8 +346,8 @@
                                     "start": 112,
                                     "end": 119
                                 },
-                                "flags": 112,
-                                "start": 32,
+                                "flags": 32,
+                                "start": 112,
                                 "end": 119
                             },
                             "typeParameter": null,
@@ -370,8 +370,8 @@
                     "start": 94,
                     "end": 122
                 },
-                "flags": 92,
-                "start": 33,
+                "flags": 32,
+                "start": 92,
                 "end": 123
             },
             "flags": 16,
@@ -452,8 +452,8 @@
                     "start": 126,
                     "end": 151
                 },
-                "flags": 124,
-                "start": 33,
+                "flags": 32,
+                "start": 124,
                 "end": 152
             },
             "flags": 16,
@@ -541,8 +541,8 @@
                     "start": 155,
                     "end": 185
                 },
-                "flags": 153,
-                "start": 33,
+                "flags": 32,
+                "start": 153,
                 "end": 186
             },
             "flags": 16,
@@ -630,8 +630,8 @@
                     "start": 189,
                     "end": 219
                 },
-                "flags": 187,
-                "start": 33,
+                "flags": 32,
+                "start": 187,
                 "end": 220
             },
             "flags": 16,
@@ -726,8 +726,8 @@
                     "start": 223,
                     "end": 258
                 },
-                "flags": 221,
-                "start": 33,
+                "flags": 32,
+                "start": 221,
                 "end": 259
             },
             "flags": 16,
@@ -899,8 +899,8 @@
                                         "start": 339,
                                         "end": 346
                                     },
-                                    "flags": 339,
-                                    "start": 32,
+                                    "flags": 32,
+                                    "start": 339,
                                     "end": 346
                                 },
                                 "typeParameter": null,

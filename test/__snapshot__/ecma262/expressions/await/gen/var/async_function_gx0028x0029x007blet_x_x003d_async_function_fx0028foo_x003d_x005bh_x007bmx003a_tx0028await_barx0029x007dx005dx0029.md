@@ -383,8 +383,8 @@ var await; var f = (async function() { async function g(){let x = async function
                                 "start": 20,
                                 "end": 121
                             },
-                            "flags": 18,
-                            "start": 32,
+                            "flags": 32,
+                            "start": 18,
                             "end": 122
                         },
                         "flags": 16,

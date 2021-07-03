@@ -102,8 +102,8 @@ function *foo() { let x = {yield} }
                                     "start": 18,
                                     "end": 29
                                 },
-                                "flags": 16,
-                                "start": 34,
+                                "flags": 32,
+                                "start": 16,
                                 "end": 30
                             },
                             "flags": 16,
@@ -316,8 +316,8 @@ function *foo() { let x = {yield} }
                                     "start": 89,
                                     "end": 100
                                 },
-                                "flags": 87,
-                                "start": 34,
+                                "flags": 32,
+                                "start": 87,
                                 "end": 101
                             },
                             "flags": 16,

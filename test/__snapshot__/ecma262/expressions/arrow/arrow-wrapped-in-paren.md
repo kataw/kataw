@@ -48,7 +48,7 @@
                             }
                         ],
                         "trailingComma": false,
-                        "flags": 32,
+                        "flags": 0,
                         "start": 2,
                         "end": 4
                     },
@@ -71,8 +71,8 @@
                     "start": 1,
                     "end": 9
                 },
-                "flags": 0,
-                "start": 32,
+                "flags": 32,
+                "start": 0,
                 "end": 10
             },
             "flags": 16,
@@ -111,7 +111,7 @@
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 32,
+                                "flags": 0,
                                 "start": 18,
                                 "end": 20
                             },
@@ -139,8 +139,8 @@
                     "start": 11,
                     "end": 25
                 },
-                "flags": 11,
-                "start": 33,
+                "flags": 32,
+                "start": 11,
                 "end": 26
             },
             "flags": 16,
@@ -171,7 +171,7 @@
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 32,
+                                "flags": 0,
                                 "start": 31,
                                 "end": 33
                             },
@@ -211,7 +211,7 @@
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 32,
+                                "flags": 0,
                                 "start": 41,
                                 "end": 43
                             },
@@ -245,8 +245,8 @@
                     "start": 27,
                     "end": 49
                 },
-                "flags": 27,
-                "start": 33,
+                "flags": 32,
+                "start": 27,
                 "end": 50
             },
             "flags": 16,

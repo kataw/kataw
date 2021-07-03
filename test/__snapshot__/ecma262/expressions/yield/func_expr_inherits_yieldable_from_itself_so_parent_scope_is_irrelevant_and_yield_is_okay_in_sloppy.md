@@ -104,8 +104,8 @@ function* g() { (function yield() {}) }
                                     "start": 17,
                                     "end": 36
                                 },
-                                "flags": 15,
-                                "start": 32,
+                                "flags": 32,
+                                "start": 15,
                                 "end": 37
                             },
                             "flags": 16,

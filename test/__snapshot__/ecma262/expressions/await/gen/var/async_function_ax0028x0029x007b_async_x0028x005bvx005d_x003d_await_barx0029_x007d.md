@@ -225,7 +225,7 @@ var await; var f = (async function() { async function a(){     async ([v] = awai
                                                                         }
                                                                     ],
                                                                     "trailingComma": false,
-                                                                    "flags": 34,
+                                                                    "flags": 32,
                                                                     "start": 58,
                                                                     "end": 58
                                                                 },
@@ -267,8 +267,8 @@ var await; var f = (async function() { async function a(){     async ([v] = awai
                                 "start": 20,
                                 "end": 95
                             },
-                            "flags": 18,
-                            "start": 32,
+                            "flags": 32,
+                            "start": 18,
                             "end": 96
                         },
                         "flags": 16,

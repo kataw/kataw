@@ -122,7 +122,7 @@ var ident = <T>(x: T): T => x;
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 32,
+                                "flags": 0,
                                 "start": 11,
                                 "end": 40
                             },
@@ -254,7 +254,7 @@ var ident = <T>(x: T): T => x;
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 32,
+                                "flags": 0,
                                 "start": 63,
                                 "end": 81
                             },
@@ -406,7 +406,7 @@ var ident = <T>(x: T): T => x;
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 32,
+                                "flags": 0,
                                 "start": 105,
                                 "end": 113
                             },

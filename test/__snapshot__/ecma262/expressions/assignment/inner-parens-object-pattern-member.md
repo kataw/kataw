@@ -72,8 +72,8 @@
                                                     "start": 5,
                                                     "end": 14
                                                 },
-                                                "flags": 5,
-                                                "start": 32,
+                                                "flags": 32,
+                                                "start": 5,
                                                 "end": 15
                                             },
                                             "initializer": null,
@@ -113,7 +113,7 @@
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 34,
+                    "flags": 2,
                     "start": 1,
                     "end": 23
                 },
@@ -161,7 +161,7 @@
 ```javascript
 
 ({
-    a: 
+    a: (foo.qux)
   } = {}) => {};
 
 ```

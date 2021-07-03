@@ -58,12 +58,12 @@ var foo = ((foo)): string => {};
                                     "start": 12,
                                     "end": 15
                                 },
-                                "flags": 11,
-                                "start": 32,
+                                "flags": 32,
+                                "start": 11,
                                 "end": 16
                             },
-                            "flags": 9,
-                            "start": 32,
+                            "flags": 32,
+                            "start": 9,
                             "end": 17
                         },
                         "flags": 16,

@@ -51,8 +51,8 @@ a ? (b) : c => (d) : e => f
                         "start": 5,
                         "end": 6
                     },
-                    "flags": 3,
-                    "start": 32,
+                    "flags": 32,
+                    "start": 3,
                     "end": 7
                 },
                 "colonToken": {
@@ -97,7 +97,7 @@ a ? (b) : c => (d) : e => f
                                 }
                             ],
                             "trailingComma": false,
-                            "flags": 32,
+                            "flags": 0,
                             "start": 16,
                             "end": 22
                         },
@@ -168,7 +168,7 @@ a ? (b) : c => (d) : e => f
 
 ```javascript
 
-a ?  : c => (d) => f;
+a ? (b) : c => (d) => f;
 
 ```
 

@@ -82,8 +82,8 @@
                             "start": 8,
                             "end": 18
                         },
-                        "flags": 8,
-                        "start": 32,
+                        "flags": 32,
+                        "start": 8,
                         "end": 19
                     },
                     "flags": 32,
@@ -149,7 +149,7 @@
 
 ```javascript
 
-0 ? v =>  : v => 0;
+0 ? v => (sum += v) : v => 0;
 
 ```
 

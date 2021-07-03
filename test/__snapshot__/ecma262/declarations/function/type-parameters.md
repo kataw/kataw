@@ -393,7 +393,7 @@ type T = <
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 33,
+                                "flags": 0,
                                 "start": 169,
                                 "end": 178
                             },
@@ -420,7 +420,7 @@ type T = <
                                 "start": 178,
                                 "end": 178
                             },
-                            "flags": 33,
+                            "flags": 32,
                             "start": 150,
                             "end": 178
                         },
@@ -875,7 +875,7 @@ type T = <
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 33,
+                                "flags": 0,
                                 "start": 408,
                                 "end": 417
                             },
@@ -902,7 +902,7 @@ type T = <
                                 "start": 417,
                                 "end": 417
                             },
-                            "flags": 33,
+                            "flags": 32,
                             "start": 384,
                             "end": 417
                         },

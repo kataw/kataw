@@ -115,8 +115,8 @@ bar ? baz : ( x => { return x; } );
                         "start": 13,
                         "end": 32
                     },
-                    "flags": 11,
-                    "start": 32,
+                    "flags": 32,
+                    "start": 11,
                     "end": 34
                 },
                 "flags": 96,
@@ -141,7 +141,9 @@ bar ? baz : ( x => { return x; } );
 
 ```javascript
 
-bar ? baz : ;
+bar ? baz : (x => {
+  return x;
+});
 
 ```
 

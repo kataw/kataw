@@ -110,8 +110,8 @@ async x => (function) = 1
                         "start": 12,
                         "end": 25
                     },
-                    "flags": 10,
-                    "start": 32,
+                    "flags": 32,
+                    "start": 10,
                     "end": 25
                 },
                 "flags": 288,

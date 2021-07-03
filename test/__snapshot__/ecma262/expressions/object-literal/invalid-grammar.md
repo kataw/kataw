@@ -96,8 +96,8 @@ q = {"foo": super = x} = x;
                                                         "start": 10,
                                                         "end": 16
                                                     },
-                                                    "flags": 10,
-                                                    "start": 32,
+                                                    "flags": 32,
+                                                    "start": 10,
                                                     "end": 16
                                                 }
                                             ],
@@ -253,8 +253,8 @@ q = {"foo": super = x} = x;
                                                         "start": 43,
                                                         "end": 49
                                                     },
-                                                    "flags": 43,
-                                                    "start": 32,
+                                                    "flags": 32,
+                                                    "start": 43,
                                                     "end": 49
                                                 }
                                             ],
@@ -380,8 +380,8 @@ q = {"foo": super = x} = x;
                                                         "start": 69,
                                                         "end": 75
                                                     },
-                                                    "flags": 69,
-                                                    "start": 32,
+                                                    "flags": 32,
+                                                    "start": 69,
                                                     "end": 75
                                                 }
                                             ],
@@ -487,8 +487,8 @@ q = {"foo": super = x} = x;
                                                             "start": 92,
                                                             "end": 97
                                                         },
-                                                        "flags": 92,
-                                                        "start": 34,
+                                                        "flags": 32,
+                                                        "start": 92,
                                                         "end": 98
                                                     }
                                                 ],
@@ -598,8 +598,8 @@ q = {"foo": super = x} = x;
                                                         "start": 113,
                                                         "end": 119
                                                     },
-                                                    "flags": 113,
-                                                    "start": 32,
+                                                    "flags": 32,
+                                                    "start": 113,
                                                     "end": 119
                                                 }
                                             ],
@@ -719,8 +719,8 @@ q = {"foo": super = x} = x;
                                                         "start": 146,
                                                         "end": 152
                                                     },
-                                                    "flags": 146,
-                                                    "start": 32,
+                                                    "flags": 32,
+                                                    "start": 146,
                                                     "end": 152
                                                 }
                                             ],
@@ -838,8 +838,8 @@ q = {"foo": super = x} = x;
                                                         "start": 174,
                                                         "end": 180
                                                     },
-                                                    "flags": 174,
-                                                    "start": 32,
+                                                    "flags": 32,
+                                                    "start": 174,
                                                     "end": 180
                                                 }
                                             ],
@@ -959,8 +959,8 @@ q = {"foo": super = x} = x;
                                                         "start": 200,
                                                         "end": 206
                                                     },
-                                                    "flags": 200,
-                                                    "start": 32,
+                                                    "flags": 32,
+                                                    "start": 200,
                                                     "end": 206
                                                 }
                                             ],
@@ -1078,8 +1078,8 @@ q = {"foo": super = x} = x;
                                                         "start": 229,
                                                         "end": 235
                                                     },
-                                                    "flags": 229,
-                                                    "start": 32,
+                                                    "flags": 32,
+                                                    "start": 229,
                                                     "end": 235
                                                 }
                                             ],
@@ -1199,8 +1199,8 @@ q = {"foo": super = x} = x;
                                                         "start": 254,
                                                         "end": 260
                                                     },
-                                                    "flags": 254,
-                                                    "start": 32,
+                                                    "flags": 32,
+                                                    "start": 254,
                                                     "end": 260
                                                 }
                                             ],

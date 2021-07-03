@@ -95,7 +95,7 @@ var foo = ( { title, ...other } ) => {
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 34,
+                                "flags": 2,
                                 "start": 11,
                                 "end": 33
                             },

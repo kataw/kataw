@@ -77,8 +77,8 @@ function* g() {
                                         "start": 19,
                                         "end": 24
                                     },
-                                    "flags": 15,
-                                    "start": 33,
+                                    "flags": 32,
+                                    "start": 15,
                                     "end": 25
                                 },
                                 "operatorToken": {

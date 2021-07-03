@@ -51,8 +51,8 @@ a ? <T>(b) : c => (d) : e => f;
                         "start": 8,
                         "end": 9
                     },
-                    "flags": 3,
-                    "start": 32,
+                    "flags": 32,
+                    "start": 3,
                     "end": 10
                 },
                 "colonToken": {
@@ -97,7 +97,7 @@ a ? <T>(b) : c => (d) : e => f;
                                 }
                             ],
                             "trailingComma": false,
-                            "flags": 32,
+                            "flags": 0,
                             "start": 19,
                             "end": 25
                         },

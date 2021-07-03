@@ -31,16 +31,16 @@
                             "start": 3,
                             "end": 4
                         },
-                        "flags": 2,
-                        "start": 32,
+                        "flags": 32,
+                        "start": 2,
                         "end": 5
                     },
-                    "flags": 1,
-                    "start": 32,
+                    "flags": 32,
+                    "start": 1,
                     "end": 6
                 },
-                "flags": 0,
-                "start": 32,
+                "flags": 32,
+                "start": 0,
                 "end": 7
             },
             "flags": 16,

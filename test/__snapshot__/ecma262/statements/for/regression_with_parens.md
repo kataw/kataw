@@ -78,8 +78,8 @@ for ({x = y} = (z);;) {}
                         "start": 16,
                         "end": 17
                     },
-                    "flags": 14,
-                    "start": 32,
+                    "flags": 32,
+                    "start": 14,
                     "end": 18
                 },
                 "flags": 32,

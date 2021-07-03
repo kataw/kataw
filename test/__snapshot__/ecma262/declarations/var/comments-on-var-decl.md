@@ -544,7 +544,7 @@ n4 = z2;
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 32,
+                                "flags": 0,
                                 "start": 951,
                                 "end": 972
                             },

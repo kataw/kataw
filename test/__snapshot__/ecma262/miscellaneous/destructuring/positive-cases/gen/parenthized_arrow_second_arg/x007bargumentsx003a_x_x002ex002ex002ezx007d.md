@@ -124,7 +124,7 @@ var f = (argument1,{arguments: x, ...z}) => {};
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 34,
+                                "flags": 2,
                                 "start": 9,
                                 "end": 40
                             },

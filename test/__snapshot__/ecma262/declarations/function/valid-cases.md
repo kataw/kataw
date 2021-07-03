@@ -2105,8 +2105,8 @@ function f({x:arg = (arg = 2)}) {}
                                             "start": 562,
                                             "end": 578
                                         },
-                                        "flags": 562,
-                                        "start": 34,
+                                        "flags": 32,
+                                        "start": 562,
                                         "end": 578
                                     },
                                     "flags": 0,
@@ -2523,7 +2523,7 @@ function f({x:arg = (arg = 2)}) {}
                                                 "kind": 342,
                                                 "parameters": [],
                                                 "trailingComma": false,
-                                                "flags": 32,
+                                                "flags": 0,
                                                 "start": 679,
                                                 "end": 679
                                             },
@@ -2734,7 +2734,7 @@ function f({x:arg = (arg = 2)}) {}
                                                 "kind": 342,
                                                 "parameters": [],
                                                 "trailingComma": false,
-                                                "flags": 32,
+                                                "flags": 0,
                                                 "start": 732,
                                                 "end": 732
                                             },
@@ -3646,7 +3646,7 @@ function f({x:arg = (arg = 2)}) {}
                                                 "kind": 342,
                                                 "parameters": [],
                                                 "trailingComma": false,
-                                                "flags": 32,
+                                                "flags": 0,
                                                 "start": 1010,
                                                 "end": 1010
                                             },
@@ -3889,8 +3889,8 @@ function f({x:arg = (arg = 2)}) {}
                                             "start": 1073,
                                             "end": 1079
                                         },
-                                        "flags": 1073,
-                                        "start": 34,
+                                        "flags": 32,
+                                        "start": 1073,
                                         "end": 1080
                                     },
                                     "flags": 32,
@@ -4008,8 +4008,8 @@ function f({x:arg = (arg = 2)}) {}
                                             "start": 1106,
                                             "end": 1115
                                         },
-                                        "flags": 1106,
-                                        "start": 34,
+                                        "flags": 32,
+                                        "start": 1106,
                                         "end": 1116
                                     },
                                     "flags": 32,

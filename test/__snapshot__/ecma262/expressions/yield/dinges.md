@@ -105,8 +105,8 @@ function *g() { yield {...(x,y),}}
                                                         "start": 26,
                                                         "end": 31
                                                     },
-                                                    "flags": 26,
-                                                    "start": 32,
+                                                    "flags": 32,
+                                                    "start": 26,
                                                     "end": 31
                                                 },
                                                 "flags": 1073741856,

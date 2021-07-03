@@ -87,7 +87,7 @@ var af = ({x = 1}) => x;
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 34,
+                                "flags": 2,
                                 "start": 10,
                                 "end": 18
                             },

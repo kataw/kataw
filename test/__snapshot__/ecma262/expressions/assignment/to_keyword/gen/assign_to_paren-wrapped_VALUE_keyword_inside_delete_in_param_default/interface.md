@@ -86,8 +86,8 @@ function *f(x = delete ((interface) = f)) {}
                                             "start": 25,
                                             "end": 34
                                         },
-                                        "flags": 24,
-                                        "start": 32,
+                                        "flags": 32,
+                                        "start": 24,
                                         "end": 35
                                     },
                                     "operatorToken": {
@@ -108,8 +108,8 @@ function *f(x = delete ((interface) = f)) {}
                                     "start": 24,
                                     "end": 39
                                 },
-                                "flags": 22,
-                                "start": 32,
+                                "flags": 32,
+                                "start": 22,
                                 "end": 40
                             },
                             "flags": 32,

@@ -335,8 +335,8 @@ var {get} = obj;
                                                 "start": 63,
                                                 "end": 70
                                             },
-                                            "flags": 63,
-                                            "start": 34,
+                                            "flags": 32,
+                                            "start": 63,
                                             "end": 71
                                         },
                                         "flags": 32,
@@ -458,8 +458,8 @@ var {get} = obj;
                                                 "start": 92,
                                                 "end": 99
                                             },
-                                            "flags": 92,
-                                            "start": 34,
+                                            "flags": 32,
+                                            "start": 92,
                                             "end": 100
                                         },
                                         "flags": 32,
@@ -885,8 +885,8 @@ var {get} = obj;
                                                                 "start": 208,
                                                                 "end": 214
                                                             },
-                                                            "flags": 208,
-                                                            "start": 34,
+                                                            "flags": 32,
+                                                            "start": 208,
                                                             "end": 215
                                                         },
                                                         "flags": 32,
@@ -910,7 +910,7 @@ var {get} = obj;
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 34,
+                                "flags": 2,
                                 "start": 190,
                                 "end": 217
                             },
@@ -1043,8 +1043,8 @@ var {get} = obj;
                                                                 "start": 242,
                                                                 "end": 251
                                                             },
-                                                            "flags": 242,
-                                                            "start": 34,
+                                                            "flags": 32,
+                                                            "start": 242,
                                                             "end": 252
                                                         },
                                                         "flags": 32,
@@ -1068,7 +1068,7 @@ var {get} = obj;
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 34,
+                                "flags": 2,
                                 "start": 234,
                                 "end": 254
                             },

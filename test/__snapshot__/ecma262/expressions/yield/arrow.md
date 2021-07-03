@@ -107,8 +107,8 @@ function *f() {
                                     "start": 19,
                                     "end": 31
                                 },
-                                "flags": 15,
-                                "start": 33,
+                                "flags": 32,
+                                "start": 15,
                                 "end": 32
                             },
                             "flags": 16,
@@ -169,7 +169,7 @@ function *f() {
                                     "start": 37,
                                     "end": 55
                                 },
-                                "flags": 33,
+                                "flags": 32,
                                 "start": 33,
                                 "end": 56
                             },
@@ -240,8 +240,8 @@ function *f() {
                                     "start": 61,
                                     "end": 81
                                 },
-                                "flags": 57,
-                                "start": 33,
+                                "flags": 32,
+                                "start": 57,
                                 "end": 82
                             },
                             "flags": 16,

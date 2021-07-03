@@ -159,8 +159,8 @@ function *f(){  ({*g(x=yield){}})  }
                                     "start": 17,
                                     "end": 32
                                 },
-                                "flags": 14,
-                                "start": 34,
+                                "flags": 32,
+                                "start": 14,
                                 "end": 33
                             },
                             "flags": 16,

@@ -241,8 +241,8 @@ var await; var f = (async function() { async function wrap() { async function aw
                                 "start": 20,
                                 "end": 94
                             },
-                            "flags": 18,
-                            "start": 32,
+                            "flags": 32,
+                            "start": 18,
                             "end": 95
                         },
                         "flags": 16,

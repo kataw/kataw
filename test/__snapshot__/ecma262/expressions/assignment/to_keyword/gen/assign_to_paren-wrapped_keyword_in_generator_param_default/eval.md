@@ -76,8 +76,8 @@ function *f(x = (eval) = f) {}
                                     "start": 17,
                                     "end": 21
                                 },
-                                "flags": 15,
-                                "start": 32,
+                                "flags": 32,
+                                "start": 15,
                                 "end": 22
                             },
                             "operatorToken": {

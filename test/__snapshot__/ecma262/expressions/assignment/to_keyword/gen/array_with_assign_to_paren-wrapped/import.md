@@ -91,8 +91,8 @@ async x => (import) = 1
                         "start": 18,
                         "end": 23
                     },
-                    "flags": 10,
-                    "start": 32,
+                    "flags": 32,
+                    "start": 10,
                     "end": 23
                 },
                 "flags": 288,

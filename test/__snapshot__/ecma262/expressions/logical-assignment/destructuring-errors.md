@@ -99,8 +99,8 @@ x({ x: x &&= 2 ] = { x: 2 });
                     "start": 1,
                     "end": 16
                 },
-                "flags": 0,
-                "start": 34,
+                "flags": 32,
+                "start": 0,
                 "end": 17
             },
             "flags": 16,
@@ -189,8 +189,8 @@ x({ x: x &&= 2 ] = { x: 2 });
                     "start": 21,
                     "end": 40
                 },
-                "flags": 18,
-                "start": 35,
+                "flags": 32,
+                "start": 18,
                 "end": 41
             },
             "flags": 16,
@@ -274,8 +274,8 @@ x({ x: x &&= 2 ] = { x: 2 });
                     "start": 45,
                     "end": 63
                 },
-                "flags": 42,
-                "start": 35,
+                "flags": 32,
+                "start": 42,
                 "end": 64
             },
             "flags": 16,
@@ -293,8 +293,8 @@ x({ x: x &&= 2 ] = { x: 2 });
                     "start": 65,
                     "end": 80
                 },
-                "flags": 65,
-                "start": 35,
+                "flags": 32,
+                "start": 65,
                 "end": 80
             },
             "flags": 16,
@@ -417,8 +417,8 @@ x({ x: x &&= 2 ] = { x: 2 });
                     "start": 98,
                     "end": 113
                 },
-                "flags": 95,
-                "start": 35,
+                "flags": 32,
+                "start": 95,
                 "end": 114
             },
             "flags": 16,
@@ -507,8 +507,8 @@ x({ x: x &&= 2 ] = { x: 2 });
                     "start": 118,
                     "end": 137
                 },
-                "flags": 115,
-                "start": 35,
+                "flags": 32,
+                "start": 115,
                 "end": 138
             },
             "flags": 16,
@@ -592,8 +592,8 @@ x({ x: x &&= 2 ] = { x: 2 });
                     "start": 142,
                     "end": 160
                 },
-                "flags": 139,
-                "start": 35,
+                "flags": 32,
+                "start": 139,
                 "end": 161
             },
             "flags": 16,
@@ -611,8 +611,8 @@ x({ x: x &&= 2 ] = { x: 2 });
                     "start": 162,
                     "end": 177
                 },
-                "flags": 162,
-                "start": 35,
+                "flags": 32,
+                "start": 162,
                 "end": 177
             },
             "flags": 16,

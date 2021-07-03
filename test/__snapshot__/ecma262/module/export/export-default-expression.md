@@ -65,8 +65,8 @@ export default (1 + 2);
                     "start": 16,
                     "end": 21
                 },
-                "flags": 14,
-                "start": 32,
+                "flags": 32,
+                "start": 14,
                 "end": 22
             },
             "flags": 16,
@@ -87,7 +87,7 @@ export default (1 + 2);
 
 ```javascript
 
-export default ;
+export default (1 + 2);
 
 ```
 

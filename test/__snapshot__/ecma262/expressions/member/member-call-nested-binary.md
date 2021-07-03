@@ -83,8 +83,8 @@ a.b<T>(e)
                         "start": 7,
                         "end": 8
                     },
-                    "flags": 6,
-                    "start": 32,
+                    "flags": 32,
+                    "start": 6,
                     "end": 9
                 },
                 "flags": 96,

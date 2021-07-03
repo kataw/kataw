@@ -331,7 +331,7 @@ Object.defineProperty(this, "x", {
                                                             "kind": 342,
                                                             "parameters": [],
                                                             "trailingComma": false,
-                                                            "flags": 32,
+                                                            "flags": 0,
                                                             "start": 171,
                                                             "end": 171
                                                         },
@@ -444,8 +444,8 @@ Object.defineProperty(this, "x", {
                                                                                     "start": 198,
                                                                                     "end": 218
                                                                                 },
-                                                                                "flags": 198,
-                                                                                "start": 32,
+                                                                                "flags": 32,
+                                                                                "start": 198,
                                                                                 "end": 219
                                                                             },
                                                                             "flags": 32,
@@ -549,8 +549,8 @@ Object.defineProperty(this, "x", {
                         "start": 109,
                         "end": 252
                     },
-                    "flags": 106,
-                    "start": 33,
+                    "flags": 32,
+                    "start": 106,
                     "end": 253
                 },
                 "argumentList": {

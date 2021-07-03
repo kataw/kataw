@@ -76,7 +76,7 @@ a ? (b = (c) => d) : e => f;
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 32,
+                                "flags": 0,
                                 "start": 10,
                                 "end": 12
                             },
@@ -103,8 +103,8 @@ a ? (b = (c) => d) : e => f;
                         "start": 3,
                         "end": 17
                     },
-                    "flags": 3,
-                    "start": 34,
+                    "flags": 32,
+                    "start": 3,
                     "end": 18
                 },
                 "colonToken": {
@@ -166,7 +166,7 @@ a ? (b = (c) => d) : e => f;
 
 ```javascript
 
-a ?  : e => f;
+a ? (b = (c) => d) : e => f;
 
 ```
 

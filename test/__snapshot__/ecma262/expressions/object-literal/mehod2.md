@@ -454,7 +454,7 @@ x = { method(test) { } }
                             }
                         ],
                         "trailingComma": false,
-                        "flags": 33,
+                        "flags": 32,
                         "start": 87,
                         "end": 102
                     },
@@ -553,8 +553,8 @@ x = { method(test) { } }
                         "start": 111,
                         "end": 125
                     },
-                    "flags": 109,
-                    "start": 34,
+                    "flags": 32,
+                    "start": 109,
                     "end": 126
                 },
                 "flags": 32,

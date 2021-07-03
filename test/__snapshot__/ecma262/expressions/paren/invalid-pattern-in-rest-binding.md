@@ -47,8 +47,8 @@
                                                 "start": 6,
                                                 "end": 7
                                             },
-                                            "flags": 5,
-                                            "start": 32,
+                                            "flags": 32,
+                                            "start": 5,
                                             "end": 8
                                         },
                                         "optionalToken": null,
@@ -70,7 +70,7 @@
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 34,
+                    "flags": 2,
                     "start": 1,
                     "end": 10
                 },

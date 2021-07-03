@@ -124,7 +124,7 @@ function *g() { (x = u + yield z) => {}; }
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 34,
+                                    "flags": 2,
                                     "start": 17,
                                     "end": 33
                                 },

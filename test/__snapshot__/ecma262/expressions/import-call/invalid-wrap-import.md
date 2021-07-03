@@ -43,16 +43,16 @@
                             "start": 9,
                             "end": 15
                         },
-                        "flags": 8,
-                        "start": 32,
+                        "flags": 32,
+                        "start": 8,
                         "end": 16
                     },
                     "flags": 32,
                     "start": 7,
                     "end": 16
                 },
-                "flags": 0,
-                "start": 32,
+                "flags": 32,
+                "start": 0,
                 "end": 16
             },
             "flags": 16,

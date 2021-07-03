@@ -82,8 +82,8 @@ async(a, [q].z = y);
                             "start": 8,
                             "end": 9
                         },
-                        "flags": 7,
-                        "start": 32,
+                        "flags": 32,
+                        "start": 7,
                         "end": 10
                     },
                     {
@@ -133,8 +133,8 @@ async(a, [q].z = y);
                             "start": 23,
                             "end": 24
                         },
-                        "flags": 22,
-                        "start": 32,
+                        "flags": 32,
+                        "start": 22,
                         "end": 25
                     }
                 ],
@@ -178,8 +178,8 @@ async(a, [q].z = y);
                                 "start": 35,
                                 "end": 36
                             },
-                            "flags": 34,
-                            "start": 32,
+                            "flags": 32,
+                            "start": 34,
                             "end": 37
                         },
                         "expression": {
@@ -237,8 +237,8 @@ async(a, [q].z = y);
                                     "start": 50,
                                     "end": 51
                                 },
-                                "flags": 49,
-                                "start": 32,
+                                "flags": 32,
+                                "start": 49,
                                 "end": 52
                             },
                             "expression": {
@@ -312,8 +312,8 @@ async(a, [q].z = y);
                                 "start": 69,
                                 "end": 70
                             },
-                            "flags": 68,
-                            "start": 32,
+                            "flags": 32,
+                            "start": 68,
                             "end": 71
                         },
                         "questionToken": {
@@ -344,7 +344,7 @@ async(a, [q].z = y);
                             "start": 77,
                             "end": 79
                         },
-                        "flags": 100,
+                        "flags": 32,
                         "start": 68,
                         "end": 79
                     }
@@ -389,8 +389,8 @@ async(a, [q].z = y);
                                 "start": 89,
                                 "end": 90
                             },
-                            "flags": 88,
-                            "start": 32,
+                            "flags": 32,
+                            "start": 88,
                             "end": 91
                         },
                         "operatorToken": {
@@ -486,8 +486,8 @@ async(a, [q].z = y);
                                 "start": 113,
                                 "end": 114
                             },
-                            "flags": 112,
-                            "start": 32,
+                            "flags": 32,
+                            "start": 112,
                             "end": 115
                         },
                         "questionToken": {
@@ -518,7 +518,7 @@ async(a, [q].z = y);
                             "start": 118,
                             "end": 119
                         },
-                        "flags": 112,
+                        "flags": 32,
                         "start": 112,
                         "end": 119
                     }
@@ -569,8 +569,8 @@ async(a, [q].z = y);
                             "start": 133,
                             "end": 134
                         },
-                        "flags": 131,
-                        "start": 32,
+                        "flags": 32,
+                        "start": 131,
                         "end": 135
                     },
                     {
@@ -628,8 +628,8 @@ async(a, [q].z = y);
                             "start": 151,
                             "end": 152
                         },
-                        "flags": 149,
-                        "start": 32,
+                        "flags": 32,
+                        "start": 149,
                         "end": 153
                     }
                 ],
@@ -681,8 +681,8 @@ async(a, [q].z = y);
                                 "start": 166,
                                 "end": 167
                             },
-                            "flags": 164,
-                            "start": 32,
+                            "flags": 32,
+                            "start": 164,
                             "end": 168
                         },
                         "expression": {
@@ -748,8 +748,8 @@ async(a, [q].z = y);
                                     "start": 184,
                                     "end": 185
                                 },
-                                "flags": 182,
-                                "start": 32,
+                                "flags": 32,
+                                "start": 182,
                                 "end": 186
                             },
                             "expression": {
@@ -831,8 +831,8 @@ async(a, [q].z = y);
                                 "start": 206,
                                 "end": 207
                             },
-                            "flags": 204,
-                            "start": 32,
+                            "flags": 32,
+                            "start": 204,
                             "end": 208
                         },
                         "questionToken": {
@@ -863,7 +863,7 @@ async(a, [q].z = y);
                             "start": 214,
                             "end": 216
                         },
-                        "flags": 236,
+                        "flags": 32,
                         "start": 204,
                         "end": 216
                     }
@@ -916,8 +916,8 @@ async(a, [q].z = y);
                                 "start": 229,
                                 "end": 230
                             },
-                            "flags": 227,
-                            "start": 32,
+                            "flags": 32,
+                            "start": 227,
                             "end": 231
                         },
                         "operatorToken": {
@@ -1021,8 +1021,8 @@ async(a, [q].z = y);
                                 "start": 256,
                                 "end": 257
                             },
-                            "flags": 254,
-                            "start": 32,
+                            "flags": 32,
+                            "start": 254,
                             "end": 258
                         },
                         "questionToken": {
@@ -1053,7 +1053,7 @@ async(a, [q].z = y);
                             "start": 261,
                             "end": 262
                         },
-                        "flags": 254,
+                        "flags": 32,
                         "start": 254,
                         "end": 262
                     }
@@ -1104,8 +1104,8 @@ async(a, [q].z = y);
                                 "start": 276,
                                 "end": 277
                             },
-                            "flags": 275,
-                            "start": 32,
+                            "flags": 32,
+                            "start": 275,
                             "end": 278
                         },
                         "flags": 1073741856,
@@ -1122,7 +1122,7 @@ async(a, [q].z = y);
                     }
                 ],
                 "trailingComma": false,
-                "flags": 34,
+                "flags": 32,
                 "start": 264,
                 "end": 264
             },
@@ -1167,8 +1167,8 @@ async(a, [q].z = y);
                                 "start": 294,
                                 "end": 295
                             },
-                            "flags": 293,
-                            "start": 32,
+                            "flags": 32,
+                            "start": 293,
                             "end": 296
                         },
                         "flags": 1073741856,
@@ -1177,7 +1177,7 @@ async(a, [q].z = y);
                     }
                 ],
                 "trailingComma": false,
-                "flags": 34,
+                "flags": 32,
                 "start": 283,
                 "end": 283
             },
@@ -1224,8 +1224,8 @@ async(a, [q].z = y);
                                     "start": 309,
                                     "end": 310
                                 },
-                                "flags": 308,
-                                "start": 32,
+                                "flags": 32,
+                                "start": 308,
                                 "end": 311
                             },
                             "expression": {
@@ -1246,7 +1246,7 @@ async(a, [q].z = y);
                     }
                 ],
                 "trailingComma": false,
-                "flags": 34,
+                "flags": 32,
                 "start": 298,
                 "end": 298
             },
@@ -1295,8 +1295,8 @@ async(a, [q].z = y);
                                         "start": 327,
                                         "end": 328
                                     },
-                                    "flags": 326,
-                                    "start": 32,
+                                    "flags": 32,
+                                    "start": 326,
                                     "end": 329
                                 },
                                 "expression": {
@@ -1335,7 +1335,7 @@ async(a, [q].z = y);
                     }
                 ],
                 "trailingComma": false,
-                "flags": 34,
+                "flags": 32,
                 "start": 316,
                 "end": 316
             },
@@ -1382,8 +1382,8 @@ async(a, [q].z = y);
                                     "start": 349,
                                     "end": 350
                                 },
-                                "flags": 348,
-                                "start": 32,
+                                "flags": 32,
+                                "start": 348,
                                 "end": 351
                             },
                             "questionToken": {
@@ -1414,7 +1414,7 @@ async(a, [q].z = y);
                                 "start": 357,
                                 "end": 359
                             },
-                            "flags": 380,
+                            "flags": 32,
                             "start": 345,
                             "end": 359
                         },
@@ -1424,7 +1424,7 @@ async(a, [q].z = y);
                     }
                 ],
                 "trailingComma": false,
-                "flags": 34,
+                "flags": 32,
                 "start": 338,
                 "end": 338
             },
@@ -1471,8 +1471,8 @@ async(a, [q].z = y);
                                     "start": 372,
                                     "end": 373
                                 },
-                                "flags": 371,
-                                "start": 32,
+                                "flags": 32,
+                                "start": 371,
                                 "end": 374
                             },
                             "operatorToken": {
@@ -1533,7 +1533,7 @@ async(a, [q].z = y);
                     }
                 ],
                 "trailingComma": false,
-                "flags": 34,
+                "flags": 32,
                 "start": 361,
                 "end": 361
             },
@@ -1580,8 +1580,8 @@ async(a, [q].z = y);
                                     "start": 399,
                                     "end": 400
                                 },
-                                "flags": 398,
-                                "start": 32,
+                                "flags": 32,
+                                "start": 398,
                                 "end": 401
                             },
                             "questionToken": {
@@ -1612,7 +1612,7 @@ async(a, [q].z = y);
                                 "start": 404,
                                 "end": 405
                             },
-                            "flags": 430,
+                            "flags": 32,
                             "start": 395,
                             "end": 405
                         },
@@ -1622,7 +1622,7 @@ async(a, [q].z = y);
                     }
                 ],
                 "trailingComma": false,
-                "flags": 34,
+                "flags": 32,
                 "start": 388,
                 "end": 388
             },
@@ -1694,7 +1694,7 @@ async(a, [q].z = y);
                     }
                 ],
                 "trailingComma": false,
-                "flags": 34,
+                "flags": 32,
                 "start": 407,
                 "end": 407
             },
@@ -1766,7 +1766,7 @@ async(a, [q].z = y);
                     }
                 ],
                 "trailingComma": false,
-                "flags": 34,
+                "flags": 32,
                 "start": 424,
                 "end": 424
             },
@@ -1838,7 +1838,7 @@ async(a, [q].z = y);
                     }
                 ],
                 "trailingComma": false,
-                "flags": 34,
+                "flags": 32,
                 "start": 440,
                 "end": 440
             },
@@ -1913,7 +1913,7 @@ async(a, [q].z = y);
                     }
                 ],
                 "trailingComma": false,
-                "flags": 34,
+                "flags": 32,
                 "start": 457,
                 "end": 457
             },
@@ -2005,7 +2005,7 @@ async(a, [q].z = y);
                     }
                 ],
                 "trailingComma": false,
-                "flags": 34,
+                "flags": 32,
                 "start": 472,
                 "end": 472
             },
@@ -2091,7 +2091,7 @@ async(a, [q].z = y);
                     }
                 ],
                 "trailingComma": false,
-                "flags": 34,
+                "flags": 32,
                 "start": 492,
                 "end": 492
             },
@@ -2171,7 +2171,7 @@ async(a, [q].z = y);
                     }
                 ],
                 "trailingComma": false,
-                "flags": 34,
+                "flags": 32,
                 "start": 510,
                 "end": 510
             },
@@ -2251,7 +2251,7 @@ async(a, [q].z = y);
                     }
                 ],
                 "trailingComma": false,
-                "flags": 34,
+                "flags": 32,
                 "start": 530,
                 "end": 530
             },
@@ -2331,7 +2331,7 @@ async(a, [q].z = y);
                     }
                 ],
                 "trailingComma": false,
-                "flags": 34,
+                "flags": 32,
                 "start": 549,
                 "end": 549
             },
@@ -2414,7 +2414,7 @@ async(a, [q].z = y);
                     }
                 ],
                 "trailingComma": false,
-                "flags": 34,
+                "flags": 32,
                 "start": 569,
                 "end": 569
             },
@@ -2514,7 +2514,7 @@ async(a, [q].z = y);
                     }
                 ],
                 "trailingComma": false,
-                "flags": 34,
+                "flags": 32,
                 "start": 587,
                 "end": 587
             },
@@ -2608,7 +2608,7 @@ async(a, [q].z = y);
                     }
                 ],
                 "trailingComma": false,
-                "flags": 34,
+                "flags": 32,
                 "start": 610,
                 "end": 610
             },
@@ -2644,7 +2644,7 @@ async((x)[y])
 ;
 async((x)[y] = z)
 ;
-async( ? b : c)
+async((x) ? b : c)
 ;
 async((x) = a ? b : c)
 ;
@@ -2658,7 +2658,7 @@ async(q, (x)[y])
 ;
 async(q, (x)[y] = z)
 ;
-async(q,  ? b : c)
+async(q, (x) ? b : c)
 ;
 async(q, (x) = a ? b : c)
 ;
@@ -2670,13 +2670,13 @@ async(...(x))
 ;
 async(...(x)[y])
 ;
-async(...[y] = z)
+async(...(x)[y] = z)
 ;
-async(... ? b : c)
+async(...(x) ? b : c)
 ;
 async(...(x) = a ? b : c)
 ;
-async(... ? b : c)
+async(...(x) ? b : c)
 ;
 async([q,] = y)
 ;

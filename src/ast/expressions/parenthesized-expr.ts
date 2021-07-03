@@ -8,13 +8,12 @@ export interface ParenthesizedExpression extends SyntaxNode {
 export function createParenthesizedExpression(
   expression: ExpressionNode,
   start: number,
-  flags: NodeFlags,
   end: number
 ): ParenthesizedExpression {
   return {
     kind: SyntaxKind.ParenthesizedExpression,
     expression,
-    flags,
+    flags: NodeFlags.ExpressionNode,
     start,
     end
   };

@@ -70,8 +70,8 @@ async (x = delete ((foo) = f)) => {}
                                             "start": 20,
                                             "end": 23
                                         },
-                                        "flags": 19,
-                                        "start": 32,
+                                        "flags": 32,
+                                        "start": 19,
                                         "end": 24
                                     },
                                     "operatorToken": {
@@ -92,8 +92,8 @@ async (x = delete ((foo) = f)) => {}
                                     "start": 19,
                                     "end": 28
                                 },
-                                "flags": 17,
-                                "start": 32,
+                                "flags": 32,
+                                "start": 17,
                                 "end": 29
                             },
                             "flags": 32,

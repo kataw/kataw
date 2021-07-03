@@ -28,8 +28,8 @@
                     "start": 0,
                     "end": 2
                 },
-                "flags": 0,
-                "start": 32,
+                "flags": 32,
+                "start": 0,
                 "end": 2
             },
             "flags": 16,
@@ -89,7 +89,7 @@
                     "start": 33,
                     "end": 37
                 },
-                "flags": 33,
+                "flags": 32,
                 "start": 33,
                 "end": 37
             },

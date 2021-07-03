@@ -72,8 +72,8 @@ async (x = (void) = f) => {}
                                     "start": 12,
                                     "end": 16
                                 },
-                                "flags": 10,
-                                "start": 32,
+                                "flags": 32,
+                                "start": 10,
                                 "end": 17
                             },
                             "operatorToken": {

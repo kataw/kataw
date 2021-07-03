@@ -329,8 +329,8 @@ var await; var f = (async function() { async function g(){let o = {async *f(foo 
                                 "start": 20,
                                 "end": 102
                             },
-                            "flags": 18,
-                            "start": 32,
+                            "flags": 32,
+                            "start": 18,
                             "end": 103
                         },
                         "flags": 16,

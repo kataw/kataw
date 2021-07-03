@@ -124,7 +124,7 @@ class C { test() {get #a() { }}}
                                         "kind": 342,
                                         "parameters": [],
                                         "trailingComma": false,
-                                        "flags": 32,
+                                        "flags": 0,
                                         "start": 29,
                                         "end": 29
                                     },
@@ -240,7 +240,7 @@ class C { test() {get #a() { }}}
                     "kind": 342,
                     "parameters": [],
                     "trailingComma": false,
-                    "flags": 33,
+                    "flags": 0,
                     "start": 58,
                     "end": 58
                 },
@@ -555,8 +555,8 @@ class C { test() {get #a() { }}}
                     "start": 125,
                     "end": 142
                 },
-                "flags": 123,
-                "start": 34,
+                "flags": 32,
+                "start": 123,
                 "end": 143
             },
             "flags": 16,
@@ -649,8 +649,8 @@ class C { test() {get #a() { }}}
                     "start": 161,
                     "end": 172
                 },
-                "flags": 159,
-                "start": 34,
+                "flags": 32,
+                "start": 159,
                 "end": 173
             },
             "flags": 16,
@@ -755,8 +755,8 @@ class C { test() {get #a() { }}}
                     "start": 177,
                     "end": 198
                 },
-                "flags": 174,
-                "start": 35,
+                "flags": 32,
+                "start": 174,
                 "end": 199
             },
             "flags": 16,
@@ -866,8 +866,8 @@ class C { test() {get #a() { }}}
                     "start": 203,
                     "end": 225
                 },
-                "flags": 200,
-                "start": 35,
+                "flags": 32,
+                "start": 200,
                 "end": 226
             },
             "flags": 16,

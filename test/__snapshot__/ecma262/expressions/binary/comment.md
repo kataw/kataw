@@ -185,24 +185,24 @@ foo[
                                                     "start": 51,
                                                     "end": 74
                                                 },
-                                                "flags": 49,
-                                                "start": 32,
+                                                "flags": 32,
+                                                "start": 49,
                                                 "end": 75
                                             },
                                             "flags": 96,
                                             "start": 39,
                                             "end": 75
                                         },
-                                        "flags": 39,
-                                        "start": 32,
+                                        "flags": 32,
+                                        "start": 39,
                                         "end": 76
                                     },
                                     "flags": 268435488,
                                     "start": 5,
                                     "end": 76
                                 },
-                                "flags": 5,
-                                "start": 33,
+                                "flags": 32,
+                                "start": 5,
                                 "end": 77
                             },
                             "operatorToken": {
@@ -241,16 +241,16 @@ foo[
                                     "start": 81,
                                     "end": 111
                                 },
-                                "flags": 81,
-                                "start": 32,
+                                "flags": 32,
+                                "start": 81,
                                 "end": 112
                             },
-                            "flags": 37,
+                            "flags": 33,
                             "start": 5,
                             "end": 112
                         },
-                        "flags": 3,
-                        "start": 32,
+                        "flags": 32,
+                        "start": 3,
                         "end": 114
                     },
                     "operatorToken": {
@@ -267,7 +267,7 @@ foo[
                         "start": 116,
                         "end": 123
                     },
-                    "flags": 35,
+                    "flags": 32,
                     "start": 3,
                     "end": 123
                 },
@@ -1036,8 +1036,8 @@ foo[
                                     "start": 809,
                                     "end": 859
                                 },
-                                "flags": 809,
-                                "start": 32,
+                                "flags": 32,
+                                "start": 809,
                                 "end": 863
                             },
                             "flags": 32,
@@ -1048,8 +1048,8 @@ foo[
                         "start": 775,
                         "end": 863
                     },
-                    "flags": 775,
-                    "start": 32,
+                    "flags": 32,
+                    "start": 775,
                     "end": 865
                 },
                 "flags": 32,
@@ -1076,9 +1076,7 @@ foo[
 
 a = (
  // Comment 1
-(
- // Comment 1
-Math.random() * (yRange * (1 - minVerticalFraction))) + (minVerticalFraction * yRange)) - offset;
+(Math.random() * (yRange * (1 - minVerticalFraction))) + (minVerticalFraction * yRange)) - offset;
 a + a + a +// comment
  a + a;
 a && longLongLongLongLongLongLongLongLong && longLongLongLongLongLongLongLongLong &&// comment

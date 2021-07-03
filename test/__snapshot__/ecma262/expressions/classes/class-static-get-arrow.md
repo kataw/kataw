@@ -69,7 +69,7 @@
                                                         "kind": 342,
                                                         "parameters": [],
                                                         "trailingComma": false,
-                                                        "flags": 32,
+                                                        "flags": 0,
                                                         "start": 19,
                                                         "end": 19
                                                     },
@@ -151,8 +151,8 @@
                     "start": 1,
                     "end": 34
                 },
-                "flags": 0,
-                "start": 32,
+                "flags": 32,
+                "start": 0,
                 "end": 35
             },
             "flags": 16,

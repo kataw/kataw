@@ -95,7 +95,7 @@ let x: () => void = () => {}
                                 "kind": 342,
                                 "parameters": [],
                                 "trailingComma": false,
-                                "flags": 32,
+                                "flags": 0,
                                 "start": 21,
                                 "end": 21
                             },

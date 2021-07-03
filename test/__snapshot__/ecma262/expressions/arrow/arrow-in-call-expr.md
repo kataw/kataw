@@ -57,7 +57,7 @@ foo(y,(y) => ok);
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 32,
+                                "flags": 0,
                                 "start": 5,
                                 "end": 10
                             },
@@ -140,7 +140,7 @@ foo(y,(y) => ok);
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 32,
+                                "flags": 0,
                                 "start": 26,
                                 "end": 28
                             },
@@ -223,7 +223,7 @@ foo(y,(y) => ok);
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 32,
+                                "flags": 0,
                                 "start": 44,
                                 "end": 46
                             },

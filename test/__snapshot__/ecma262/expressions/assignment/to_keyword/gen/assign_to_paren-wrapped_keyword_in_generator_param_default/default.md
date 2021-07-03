@@ -74,8 +74,8 @@ function *f(x = (default) = f) {}
                                 "start": 17,
                                 "end": 17
                             },
-                            "flags": 15,
-                            "start": 32,
+                            "flags": 32,
+                            "start": 15,
                             "end": 17
                         },
                         "flags": 34,

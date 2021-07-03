@@ -50,8 +50,8 @@
                                                                 "start": 5,
                                                                 "end": 6
                                                             },
-                                                            "flags": 4,
-                                                            "start": 32,
+                                                            "flags": 32,
+                                                            "start": 4,
                                                             "end": 7
                                                         }
                                                     ],
@@ -116,7 +116,7 @@
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 34,
+                    "flags": 2,
                     "start": 1,
                     "end": 21
                 },
@@ -163,7 +163,7 @@
 
 ```javascript
 
-([[] = []] = []) => {};
+([[(a)] = []] = []) => {};
 
 ```
 

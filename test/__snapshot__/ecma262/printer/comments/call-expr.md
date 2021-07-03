@@ -268,8 +268,8 @@ let ({/*1*/}/*2*/=/*3*/c) ;
                     "start": 89,
                     "end": 107
                 },
-                "flags": 89,
-                "start": 33,
+                "flags": 32,
+                "start": 89,
                 "end": 114
             },
             "flags": 16,
@@ -303,7 +303,7 @@ let ({/*1*/}/*2*/=/*3*/c) ;
                             }
                         ],
                         "trailingComma": true,
-                        "flags": 33,
+                        "flags": 32,
                         "start": 127,
                         "end": 129
                     },
@@ -311,8 +311,8 @@ let ({/*1*/}/*2*/=/*3*/c) ;
                     "start": 115,
                     "end": 135
                 },
-                "flags": 115,
-                "start": 33,
+                "flags": 32,
+                "start": 115,
                 "end": 145
             },
             "flags": 16,

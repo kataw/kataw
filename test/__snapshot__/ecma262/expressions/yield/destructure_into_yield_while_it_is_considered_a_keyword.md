@@ -101,8 +101,8 @@ function *f(){  ({yield} = x)  }
                                     "start": 17,
                                     "end": 28
                                 },
-                                "flags": 14,
-                                "start": 34,
+                                "flags": 32,
+                                "start": 14,
                                 "end": 29
                             },
                             "flags": 16,

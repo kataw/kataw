@@ -153,7 +153,7 @@ class Foo extends async x => {} {}
                             "kind": 342,
                             "parameters": [],
                             "trailingComma": false,
-                            "flags": 32,
+                            "flags": 0,
                             "start": 49,
                             "end": 49
                         },
@@ -383,8 +383,8 @@ class Foo extends async x => {} {}
                                     "start": 98,
                                     "end": 122
                                 },
-                                "flags": 95,
-                                "start": 33,
+                                "flags": 32,
+                                "start": 95,
                                 "end": 123
                             },
                             "argumentList": {
@@ -428,7 +428,7 @@ class Foo extends async x => {} {}
                                                             }
                                                         ],
                                                         "trailingComma": false,
-                                                        "flags": 32,
+                                                        "flags": 0,
                                                         "start": 141,
                                                         "end": 143
                                                     },
@@ -479,7 +479,7 @@ class Foo extends async x => {} {}
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 33,
+                                "flags": 32,
                                 "start": 126,
                                 "end": 152
                             },
@@ -575,7 +575,7 @@ class Foo extends async x => {} {}
                                 }
                             ],
                             "trailingComma": false,
-                            "flags": 33,
+                            "flags": 32,
                             "start": 156,
                             "end": 186
                         },
@@ -671,7 +671,7 @@ class Foo extends async x => {} {}
                             }
                         ],
                         "trailingComma": false,
-                        "flags": 33,
+                        "flags": 32,
                         "start": 190,
                         "end": 221
                     },
@@ -776,7 +776,7 @@ class Foo extends async x => {} {}
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 33,
+                    "flags": 32,
                     "start": 225,
                     "end": 257
                 },

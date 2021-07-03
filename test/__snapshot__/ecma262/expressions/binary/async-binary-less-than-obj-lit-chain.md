@@ -73,8 +73,8 @@ async <{}>(x) >> y + z
                                 "start": 11,
                                 "end": 12
                             },
-                            "flags": 10,
-                            "start": 32,
+                            "flags": 32,
+                            "start": 10,
                             "end": 13
                         },
                         "operatorToken": {
@@ -91,7 +91,7 @@ async <{}>(x) >> y + z
                             "start": 16,
                             "end": 18
                         },
-                        "flags": 42,
+                        "flags": 32,
                         "start": 13,
                         "end": 18
                     },

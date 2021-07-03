@@ -125,7 +125,7 @@ const identity = <T>(t: T): T => t;
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 32,
+                                "flags": 0,
                                 "start": 21,
                                 "end": 29
                             },

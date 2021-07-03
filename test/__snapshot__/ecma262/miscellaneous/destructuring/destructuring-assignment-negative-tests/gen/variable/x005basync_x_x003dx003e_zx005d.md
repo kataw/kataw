@@ -173,8 +173,8 @@ var x, y, z; ([async x => z] = {});
                     "start": 14,
                     "end": 33
                 },
-                "flags": 12,
-                "start": 34,
+                "flags": 32,
+                "start": 12,
                 "end": 34
             },
             "flags": 16,

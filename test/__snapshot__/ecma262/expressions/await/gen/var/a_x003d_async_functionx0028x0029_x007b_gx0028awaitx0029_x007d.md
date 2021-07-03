@@ -250,8 +250,8 @@ var await; var f = (async function() { a = async function() { g(await) } });
                                 "start": 20,
                                 "end": 74
                             },
-                            "flags": 18,
-                            "start": 32,
+                            "flags": 32,
+                            "start": 18,
                             "end": 75
                         },
                         "flags": 16,

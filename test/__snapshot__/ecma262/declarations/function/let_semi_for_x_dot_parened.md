@@ -54,8 +54,8 @@ for ((let).foo;;);
                         "start": 6,
                         "end": 9
                     },
-                    "flags": 5,
-                    "start": 32,
+                    "flags": 32,
+                    "start": 5,
                     "end": 10
                 },
                 "expression": {
@@ -66,7 +66,7 @@ for ((let).foo;;);
                     "start": 11,
                     "end": 14
                 },
-                "flags": 37,
+                "flags": 32,
                 "start": 5,
                 "end": 14
             },
@@ -96,7 +96,7 @@ for ((let).foo;;);
 
 ```javascript
 
-for (.foo;;)
+for ((let).foo;;)
   ;
 
 ```

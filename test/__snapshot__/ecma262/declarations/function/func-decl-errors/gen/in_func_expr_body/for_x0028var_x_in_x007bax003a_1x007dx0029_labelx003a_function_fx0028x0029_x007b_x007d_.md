@@ -234,8 +234,8 @@
                         "start": 1,
                         "end": 60
                     },
-                    "flags": 0,
-                    "start": 32,
+                    "flags": 32,
+                    "start": 0,
                     "end": 61
                 },
                 "argumentList": {

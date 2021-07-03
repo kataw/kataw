@@ -5,18 +5,12 @@ export interface BigIntLiteral extends SyntaxNode {
   readonly rawText: string;
 }
 
-export function createBigIntLiteral(
-  text: string,
-  rawText: string,
-  flags: NodeFlags,
-  start: number,
-  end: number
-): BigIntLiteral {
+export function createBigIntLiteral(text: string, rawText: string, start: number, end: number): BigIntLiteral {
   return {
     kind: SyntaxKind.BigIntLiteral,
     text,
     rawText,
-    flags,
+    flags: NodeFlags.ExpressionNode | NodeFlags.NoChildren,
     start,
     end
   };

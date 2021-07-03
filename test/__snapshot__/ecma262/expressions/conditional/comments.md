@@ -377,8 +377,8 @@ c */? foo : bar : bar;
                                     "start": 66,
                                     "end": 147
                                 },
-                                "flags": 43,
-                                "start": 33,
+                                "flags": 32,
+                                "start": 43,
                                 "end": 148
                             },
                             "colonToken": {
@@ -541,8 +541,8 @@ c */? foo : bar : bar;
                                     "start": 174,
                                     "end": 251
                                 },
-                                "flags": 152,
-                                "start": 33,
+                                "flags": 32,
+                                "start": 152,
                                 "end": 252
                             },
                             "flags": 96,
@@ -813,8 +813,8 @@ c */? foo : bar : bar;
                                     "start": 321,
                                     "end": 402
                                 },
-                                "flags": 298,
-                                "start": 33,
+                                "flags": 32,
+                                "start": 298,
                                 "end": 403
                             },
                             "colonToken": {
@@ -977,8 +977,8 @@ c */? foo : bar : bar;
                                     "start": 429,
                                     "end": 506
                                 },
-                                "flags": 407,
-                                "start": 33,
+                                "flags": 32,
+                                "start": 407,
                                 "end": 507
                             },
                             "flags": 96,
@@ -2360,12 +2360,16 @@ var inspect = 4 === util.inspect.length ?// node <= 0.8.x
  (function (v, colors) {
   return util.inspect(v, void  0, void  0, colors);
 }) :// node > 0.8.x
- ;
+ (function (v, colors) {
+  return util.inspect(v, { colors : colors });
+});
 var inspect = 4 === util.inspect.length ?// node <= 0.8.x
  (function (v, colors) {
   return util.inspect(v, void  0, void  0, colors);
 }) :// node > 0.8.x
- ;
+ (function (v, colors) {
+  return util.inspect(v, { colors : colors });
+});
 const extractTextPluginOptions = shouldUseRelativeAssetPaths 
  // Making sure that the publicPath goes back to to build folder.
 ? { publicPath : Array(cssFilename.split('\'/\'').length).join('\'../\'') } : {};

@@ -93,16 +93,16 @@ function *f(){ delete ("x"[(yield)]) }
                                                 "start": 28,
                                                 "end": 33
                                             },
-                                            "flags": 27,
-                                            "start": 32,
+                                            "flags": 32,
+                                            "start": 27,
                                             "end": 34
                                         },
                                         "flags": 536870944,
                                         "start": 23,
                                         "end": 35
                                     },
-                                    "flags": 21,
-                                    "start": 32,
+                                    "flags": 32,
+                                    "start": 21,
                                     "end": 36
                                 },
                                 "flags": 32,
@@ -142,7 +142,7 @@ function *f(){ delete ("x"[(yield)]) }
 ```javascript
 
 function * f() {
-  delete  ('"x"'[]);
+  delete  ('"x"'[(yield )]);
 }
 
 ```

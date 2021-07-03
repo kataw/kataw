@@ -63,7 +63,7 @@ x ? ( (a, {}) => {} ) : baz;
                                 }
                             ],
                             "trailingComma": false,
-                            "flags": 32,
+                            "flags": 0,
                             "start": 7,
                             "end": 12
                         },
@@ -99,7 +99,7 @@ x ? ( (a, {}) => {} ) : baz;
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 32,
+                                "flags": 0,
                                 "start": 17,
                                 "end": 22
                             },
@@ -186,8 +186,8 @@ x ? ( (a, {}) => {} ) : baz;
                         "start": 5,
                         "end": 35
                     },
-                    "flags": 3,
-                    "start": 32,
+                    "flags": 32,
+                    "start": 3,
                     "end": 37
                 },
                 "colonToken": {
@@ -260,7 +260,7 @@ x ? ( (a, {}) => {} ) : baz;
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 32,
+                                    "flags": 0,
                                     "start": 52,
                                     "end": 57
                                 },
@@ -308,7 +308,7 @@ x ? ( (a, {}) => {} ) : baz;
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 32,
+                                    "flags": 0,
                                     "start": 65,
                                     "end": 70
                                 },
@@ -336,8 +336,8 @@ x ? ( (a, {}) => {} ) : baz;
                         "start": 48,
                         "end": 75
                     },
-                    "flags": 48,
-                    "start": 32,
+                    "flags": 32,
+                    "start": 48,
                     "end": 77
                 },
                 "colonToken": {
@@ -433,7 +433,7 @@ x ? ( (a, {}) => {} ) : baz;
                                                         }
                                                     ],
                                                     "trailingComma": false,
-                                                    "flags": 32,
+                                                    "flags": 0,
                                                     "start": 100,
                                                     "end": 105
                                                 },
@@ -461,8 +461,8 @@ x ? ( (a, {}) => {} ) : baz;
                                         "start": 94,
                                         "end": 110
                                     },
-                                    "flags": 94,
-                                    "start": 32,
+                                    "flags": 32,
+                                    "start": 94,
                                     "end": 111
                                 }
                             ],
@@ -470,12 +470,12 @@ x ? ( (a, {}) => {} ) : baz;
                             "start": 90,
                             "end": 111
                         },
-                        "flags": 90,
-                        "start": 32,
+                        "flags": 32,
+                        "start": 90,
                         "end": 112
                     },
-                    "flags": 88,
-                    "start": 32,
+                    "flags": 32,
+                    "start": 88,
                     "end": 114
                 },
                 "colonToken": {
@@ -551,7 +551,7 @@ x ? ( (a, {}) => {} ) : baz;
                                 }
                             ],
                             "trailingComma": false,
-                            "flags": 34,
+                            "flags": 2,
                             "start": 129,
                             "end": 135
                         },
@@ -580,8 +580,8 @@ x ? ( (a, {}) => {} ) : baz;
                         "start": 127,
                         "end": 141
                     },
-                    "flags": 125,
-                    "start": 32,
+                    "flags": 32,
+                    "start": 125,
                     "end": 143
                 },
                 "colonToken": {
@@ -620,9 +620,9 @@ x ? ( (a, {}) => {} ) : baz;
 
 ```javascript
 
-x ?  : baz;
+x ? ((x, y) => (u, v) => x * u + y * v) : baz;
 x ? ((a, b) => 0, (c, d) => 1) : baz;
-x ?  : baz;
+x ? ((a, (a, (b, c) => 0))) : baz;
 x ? ((a, { }) => {}) : baz;
 
 ```

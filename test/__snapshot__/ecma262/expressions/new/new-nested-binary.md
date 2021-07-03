@@ -82,8 +82,8 @@ new C<T>(e)
                         "start": 9,
                         "end": 10
                     },
-                    "flags": 8,
-                    "start": 32,
+                    "flags": 32,
+                    "start": 8,
                     "end": 11
                 },
                 "flags": 96,

@@ -83,8 +83,8 @@ let foo = (async bar => bar);
                                 "start": 11,
                                 "end": 27
                             },
-                            "flags": 9,
-                            "start": 32,
+                            "flags": 32,
+                            "start": 9,
                             "end": 28
                         },
                         "flags": 16,

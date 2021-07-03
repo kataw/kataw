@@ -44,8 +44,8 @@
                         "start": 0,
                         "end": 8
                     },
-                    "flags": 0,
-                    "start": 32,
+                    "flags": 32,
+                    "start": 0,
                     "end": 9
                 },
                 "expression": {
@@ -92,8 +92,8 @@
                         "start": 14,
                         "end": 23
                     },
-                    "flags": 14,
-                    "start": 33,
+                    "flags": 32,
+                    "start": 14,
                     "end": 24
                 },
                 "argumentList": {
@@ -126,7 +126,7 @@
 
 ```javascript
 
-.bbb;
+(obj.aaa).bbb;
 (obj.aaa)();
 
 ```

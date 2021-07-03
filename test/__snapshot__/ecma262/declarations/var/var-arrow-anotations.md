@@ -660,7 +660,7 @@ class Array { concat(items:number | string) {}; }
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 32,
+                                    "flags": 0,
                                     "start": 173,
                                     "end": 186
                                 },
@@ -868,8 +868,8 @@ class Array { concat(items:number | string) {}; }
                                     "start": 245,
                                     "end": 248
                                 },
-                                "flags": 243,
-                                "start": 32,
+                                "flags": 32,
+                                "start": 243,
                                 "end": 249
                             },
                             "colonToken": {
@@ -945,7 +945,7 @@ class Array { concat(items:number | string) {}; }
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 32,
+                                    "flags": 0,
                                     "start": 273,
                                     "end": 285
                                 },
@@ -981,8 +981,8 @@ class Array { concat(items:number | string) {}; }
                                 "start": 272,
                                 "end": 292
                             },
-                            "flags": 270,
-                            "start": 32,
+                            "flags": 32,
+                            "start": 270,
                             "end": 293
                         },
                         "flags": 16,
@@ -1031,7 +1031,7 @@ class Array { concat(items:number | string) {}; }
                                     "kind": 342,
                                     "parameters": [],
                                     "trailingComma": false,
-                                    "flags": 32,
+                                    "flags": 0,
                                     "start": 308,
                                     "end": 308
                                 },
@@ -1067,8 +1067,8 @@ class Array { concat(items:number | string) {}; }
                                 "start": 307,
                                 "end": 324
                             },
-                            "flags": 305,
-                            "start": 32,
+                            "flags": 32,
+                            "start": 305,
                             "end": 325
                         },
                         "flags": 16,
@@ -1453,7 +1453,7 @@ class Array { concat(items:number | string) {}; }
                                 "kind": 342,
                                 "parameters": [],
                                 "trailingComma": false,
-                                "flags": 32,
+                                "flags": 0,
                                 "start": 458,
                                 "end": 458
                             },

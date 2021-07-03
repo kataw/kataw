@@ -72,12 +72,12 @@ async (x = delete ((var) = f)) => {}
                                         "start": 20,
                                         "end": 20
                                     },
-                                    "flags": 19,
-                                    "start": 32,
+                                    "flags": 32,
+                                    "start": 19,
                                     "end": 20
                                 },
-                                "flags": 17,
-                                "start": 32,
+                                "flags": 32,
+                                "start": 17,
                                 "end": 20
                             },
                             "flags": 32,
@@ -90,7 +90,7 @@ async (x = delete ((var) = f)) => {}
                     }
                 ],
                 "trailingComma": false,
-                "flags": 34,
+                "flags": 32,
                 "start": 0,
                 "end": 0
             },

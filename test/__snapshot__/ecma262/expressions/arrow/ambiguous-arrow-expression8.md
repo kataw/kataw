@@ -58,7 +58,7 @@ a ? (b) : c => (d) : e => f : g;
                             }
                         ],
                         "trailingComma": false,
-                        "flags": 32,
+                        "flags": 0,
                         "start": 5,
                         "end": 11
                     },
@@ -108,7 +108,7 @@ a ? (b) : c => (d) : e => f : g;
                                 }
                             ],
                             "trailingComma": false,
-                            "flags": 32,
+                            "flags": 0,
                             "start": 16,
                             "end": 22
                         },

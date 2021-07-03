@@ -74,7 +74,7 @@ bar ? baz : ( (interface) => { 'use strict'; 0 } );
                                 }
                             ],
                             "trailingComma": false,
-                            "flags": 32,
+                            "flags": 0,
                             "start": 15,
                             "end": 25
                         },
@@ -127,8 +127,8 @@ bar ? baz : ( (interface) => { 'use strict'; 0 } );
                         "start": 13,
                         "end": 48
                     },
-                    "flags": 11,
-                    "start": 32,
+                    "flags": 32,
+                    "start": 11,
                     "end": 50
                 },
                 "flags": 96,
@@ -153,7 +153,10 @@ bar ? baz : ( (interface) => { 'use strict'; 0 } );
 
 ```javascript
 
-bar ? baz : ;
+bar ? baz : ((interface) => {
+'\'use strict\'';
+  0;
+});
 
 ```
 

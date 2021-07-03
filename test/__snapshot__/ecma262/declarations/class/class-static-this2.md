@@ -77,7 +77,7 @@ class Foo { static x = () => this }
                                     "kind": 342,
                                     "parameters": [],
                                     "trailingComma": false,
-                                    "flags": 32,
+                                    "flags": 0,
                                     "start": 24,
                                     "end": 24
                                 },

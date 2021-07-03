@@ -335,8 +335,8 @@ var await; var f = (async function() { class x {async *f(foo = [{m: t(await bar)
                                 "start": 20,
                                 "end": 88
                             },
-                            "flags": 18,
-                            "start": 32,
+                            "flags": 32,
+                            "start": 18,
                             "end": 89
                         },
                         "flags": 16,

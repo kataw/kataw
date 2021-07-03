@@ -62,7 +62,7 @@ let f4 = () => doThing(a, /* ... */ b);
                                 "kind": 342,
                                 "parameters": [],
                                 "trailingComma": false,
-                                "flags": 32,
+                                "flags": 0,
                                 "start": 10,
                                 "end": 10
                             },
@@ -149,8 +149,8 @@ let f4 = () => doThing(a, /* ... */ b);
                         "start": 28,
                         "end": 51
                     },
-                    "flags": 26,
-                    "start": 33,
+                    "flags": 32,
+                    "start": 26,
                     "end": 52
                 },
                 "argumentList": {
@@ -310,7 +310,7 @@ let f4 = () => doThing(a, /* ... */ b);
                                                 "kind": 342,
                                                 "parameters": [],
                                                 "trailingComma": false,
-                                                "flags": 32,
+                                                "flags": 0,
                                                 "start": 130,
                                                 "end": 130
                                             },
@@ -666,7 +666,7 @@ let f4 = () => doThing(a, /* ... */ b);
                                 "kind": 342,
                                 "parameters": [],
                                 "trailingComma": false,
-                                "flags": 32,
+                                "flags": 0,
                                 "start": 290,
                                 "end": 290
                             },
@@ -744,7 +744,7 @@ let f4 = () => doThing(a, /* ... */ b);
                                 "kind": 342,
                                 "parameters": [],
                                 "trailingComma": false,
-                                "flags": 32,
+                                "flags": 0,
                                 "start": 326,
                                 "end": 326
                             },

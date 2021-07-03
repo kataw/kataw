@@ -74,8 +74,8 @@ a ? (b => c) : d => e;
                         "start": 5,
                         "end": 11
                     },
-                    "flags": 3,
-                    "start": 32,
+                    "flags": 32,
+                    "start": 3,
                     "end": 12
                 },
                 "colonToken": {
@@ -137,7 +137,7 @@ a ? (b => c) : d => e;
 
 ```javascript
 
-a ?  : d => e;
+a ? (b => c) : d => e;
 
 ```
 

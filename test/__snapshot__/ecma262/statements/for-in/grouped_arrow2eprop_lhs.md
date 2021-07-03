@@ -63,7 +63,7 @@ for (((x)=>{}).x in y);
                                 }
                             ],
                             "trailingComma": false,
-                            "flags": 32,
+                            "flags": 0,
                             "start": 7,
                             "end": 9
                         },
@@ -92,8 +92,8 @@ for (((x)=>{}).x in y);
                         "start": 6,
                         "end": 13
                     },
-                    "flags": 5,
-                    "start": 32,
+                    "flags": 32,
+                    "start": 5,
                     "end": 14
                 },
                 "expression": {
@@ -104,7 +104,7 @@ for (((x)=>{}).x in y);
                     "start": 15,
                     "end": 16
                 },
-                "flags": 37,
+                "flags": 32,
                 "start": 5,
                 "end": 16
             },
@@ -146,7 +146,7 @@ for (((x)=>{}).x in y);
 
 ```javascript
 
-for (.x in y)
+for (((x) => {}).x in y)
   ;
 
 ```

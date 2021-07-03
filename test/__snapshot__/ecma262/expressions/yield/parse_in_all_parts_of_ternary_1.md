@@ -82,8 +82,8 @@ function *f() { (yield 1) ? yield 2 : yield 3; }
                                         "start": 17,
                                         "end": 24
                                     },
-                                    "flags": 15,
-                                    "start": 32,
+                                    "flags": 32,
+                                    "start": 15,
                                     "end": 25
                                 },
                                 "questionToken": {
@@ -142,7 +142,7 @@ function *f() { (yield 1) ? yield 2 : yield 3; }
                                     "start": 37,
                                     "end": 45
                                 },
-                                "flags": 47,
+                                "flags": 32,
                                 "start": 15,
                                 "end": 45
                             },
@@ -179,7 +179,7 @@ function *f() { (yield 1) ? yield 2 : yield 3; }
 ```javascript
 
 function * f() {
-   ? yield  2 : yield  3;
+  (yield  1) ? yield  2 : yield  3;
 }
 
 ```

@@ -43,7 +43,7 @@ export default () => x
                     "kind": 342,
                     "parameters": [],
                     "trailingComma": false,
-                    "flags": 32,
+                    "flags": 0,
                     "start": 16,
                     "end": 16
                 },

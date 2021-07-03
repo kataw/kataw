@@ -84,8 +84,8 @@ test
                         "start": 8,
                         "end": 14
                     },
-                    "flags": 8,
-                    "start": 32,
+                    "flags": 32,
+                    "start": 8,
                     "end": 15
                 },
                 "colonToken": {

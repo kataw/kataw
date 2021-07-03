@@ -3450,8 +3450,8 @@
                     "start": 589,
                     "end": 601
                 },
-                "flags": 587,
-                "start": 35,
+                "flags": 32,
+                "start": 587,
                 "end": 602
             },
             "flags": 16,
@@ -3522,7 +3522,7 @@
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 35,
+                    "flags": 2,
                     "start": 605,
                     "end": 614
                 },
@@ -3541,7 +3541,7 @@
                     "start": 617,
                     "end": 619
                 },
-                "flags": 35,
+                "flags": 34,
                 "start": 603,
                 "end": 619
             },
@@ -3568,8 +3568,8 @@
                                     "start": 623,
                                     "end": 624
                                 },
-                                "flags": 622,
-                                "start": 32,
+                                "flags": 32,
+                                "start": 622,
                                 "end": 625
                             }
                         ],
@@ -3701,7 +3701,7 @@
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 35,
+                    "flags": 2,
                     "start": 633,
                     "end": 650
                 },
@@ -3720,7 +3720,7 @@
                     "start": 653,
                     "end": 655
                 },
-                "flags": 35,
+                "flags": 34,
                 "start": 631,
                 "end": 655
             },
@@ -3805,7 +3805,7 @@
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 35,
+                    "flags": 2,
                     "start": 658,
                     "end": 671
                 },
@@ -3824,7 +3824,7 @@
                     "start": 674,
                     "end": 676
                 },
-                "flags": 35,
+                "flags": 34,
                 "start": 656,
                 "end": 676
             },
@@ -4284,8 +4284,8 @@
                     "start": 743,
                     "end": 769
                 },
-                "flags": 741,
-                "start": 35,
+                "flags": 32,
+                "start": 741,
                 "end": 770
             },
             "flags": 16,
@@ -4454,8 +4454,8 @@
                                     "start": 790,
                                     "end": 799
                                 },
-                                "flags": 790,
-                                "start": 34,
+                                "flags": 32,
+                                "start": 790,
                                 "end": 800
                             }
                         ],
@@ -4736,8 +4736,8 @@
                                     "start": 852,
                                     "end": 858
                                 },
-                                "flags": 852,
-                                "start": 34,
+                                "flags": 32,
+                                "start": 852,
                                 "end": 859
                             }
                         ],
@@ -4890,8 +4890,8 @@
                     "start": 868,
                     "end": 894
                 },
-                "flags": 866,
-                "start": 35,
+                "flags": 32,
+                "start": 866,
                 "end": 895
             },
             "flags": 16,
@@ -6366,8 +6366,8 @@
                                         "start": 1168,
                                         "end": 1176
                                     },
-                                    "flags": 1168,
-                                    "start": 34,
+                                    "flags": 32,
+                                    "start": 1168,
                                     "end": 1177
                                 },
                                 "operatorToken": {
@@ -6399,7 +6399,7 @@
                                     "start": 1181,
                                     "end": 1190
                                 },
-                                "flags": 1200,
+                                "flags": 32,
                                 "start": 1168,
                                 "end": 1190
                             },
@@ -6431,7 +6431,7 @@
                                 "start": 1196,
                                 "end": 1198
                             },
-                            "flags": 1200,
+                            "flags": 32,
                             "start": 1168,
                             "end": 1198
                         }
@@ -6513,8 +6513,8 @@
                                         "start": 1203,
                                         "end": 1211
                                     },
-                                    "flags": 1203,
-                                    "start": 34,
+                                    "flags": 32,
+                                    "start": 1203,
                                     "end": 1212
                                 },
                                 "operatorToken": {
@@ -6531,7 +6531,7 @@
                                     "start": 1216,
                                     "end": 1218
                                 },
-                                "flags": 1203,
+                                "flags": 32,
                                 "start": 1203,
                                 "end": 1218
                             },
@@ -6583,7 +6583,7 @@
                                 "start": 1224,
                                 "end": 1231
                             },
-                            "flags": 1203,
+                            "flags": 32,
                             "start": 1203,
                             "end": 1231
                         }
@@ -6681,8 +6681,8 @@
                                             "start": 1251,
                                             "end": 1252
                                         },
-                                        "flags": 1249,
-                                        "start": 32,
+                                        "flags": 32,
+                                        "start": 1249,
                                         "end": 1253
                                     },
                                     "flags": 96,
@@ -6792,8 +6792,8 @@
                                     "start": 1277,
                                     "end": 1278
                                 },
-                                "flags": 1275,
-                                "start": 32,
+                                "flags": 32,
+                                "start": 1275,
                                 "end": 1279
                             },
                             "colonToken": {
@@ -6812,8 +6812,8 @@
                                     "start": 1283,
                                     "end": 1284
                                 },
-                                "flags": 1281,
-                                "start": 32,
+                                "flags": 32,
+                                "start": 1281,
                                 "end": 1285
                             },
                             "flags": 96,
@@ -7227,8 +7227,8 @@
                                     "start": 1369,
                                     "end": 1380
                                 },
-                                "flags": 1369,
-                                "start": 32,
+                                "flags": 32,
+                                "start": 1369,
                                 "end": 1382
                             },
                             "flags": 96,
@@ -7347,7 +7347,7 @@
 [([b,].c.d) === { string } ? f : g,];
 [([3,].c.d) === e ? f : g /= 1,];
 [{}[x ? { zzz } : (z)] /= a,];
-[c.d === e ? (f) : ,];
+[c.d === e ? (f) : (g),];
 ['"b"' === e ? f : g,];
 [[b,].c.d === e ? f : g,];
 [{}[x ? y : z] += a,];

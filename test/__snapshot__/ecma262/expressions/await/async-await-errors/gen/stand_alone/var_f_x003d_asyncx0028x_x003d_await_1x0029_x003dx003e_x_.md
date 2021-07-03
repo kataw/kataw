@@ -97,7 +97,7 @@ var f = async(x = await 1) => x;
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 34,
+                                "flags": 32,
                                 "start": 7,
                                 "end": 25
                             },

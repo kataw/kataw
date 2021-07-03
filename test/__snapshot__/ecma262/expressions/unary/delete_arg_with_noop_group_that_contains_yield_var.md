@@ -68,24 +68,24 @@ delete (((((foo(yield)))))).bar
                                             "start": 11,
                                             "end": 22
                                         },
-                                        "flags": 11,
-                                        "start": 32,
+                                        "flags": 32,
+                                        "start": 11,
                                         "end": 23
                                     },
-                                    "flags": 10,
-                                    "start": 32,
+                                    "flags": 32,
+                                    "start": 10,
                                     "end": 24
                                 },
-                                "flags": 9,
-                                "start": 32,
+                                "flags": 32,
+                                "start": 9,
                                 "end": 25
                             },
-                            "flags": 8,
-                            "start": 32,
+                            "flags": 32,
+                            "start": 8,
                             "end": 26
                         },
-                        "flags": 6,
-                        "start": 32,
+                        "flags": 32,
+                        "start": 6,
                         "end": 27
                     },
                     "expression": {
@@ -96,7 +96,7 @@ delete (((((foo(yield)))))).bar
                         "start": 28,
                         "end": 31
                     },
-                    "flags": 38,
+                    "flags": 32,
                     "start": 6,
                     "end": 31
                 },
@@ -122,7 +122,7 @@ delete (((((foo(yield)))))).bar
 
 ```javascript
 
-delete  .bar;
+delete  (((((foo(yield)))))).bar;
 
 ```
 

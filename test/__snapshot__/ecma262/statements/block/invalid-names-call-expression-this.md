@@ -36,7 +36,7 @@
                                             "kind": 342,
                                             "parameters": [],
                                             "trailingComma": false,
-                                            "flags": 32,
+                                            "flags": 0,
                                             "start": 4,
                                             "end": 4
                                         },
@@ -57,8 +57,8 @@
                                         "start": 3,
                                         "end": 13
                                     },
-                                    "flags": 1,
-                                    "start": 32,
+                                    "flags": 32,
+                                    "start": 1,
                                     "end": 14
                                 },
                                 "argumentList": {

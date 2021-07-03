@@ -60,7 +60,7 @@ bar ? ((interface) => { 'use strict'; 0 }) : baz;
                                 }
                             ],
                             "trailingComma": false,
-                            "flags": 32,
+                            "flags": 0,
                             "start": 8,
                             "end": 18
                         },
@@ -113,8 +113,8 @@ bar ? ((interface) => { 'use strict'; 0 }) : baz;
                         "start": 7,
                         "end": 41
                     },
-                    "flags": 5,
-                    "start": 32,
+                    "flags": 32,
+                    "start": 5,
                     "end": 42
                 },
                 "colonToken": {
@@ -153,7 +153,10 @@ bar ? ((interface) => { 'use strict'; 0 }) : baz;
 
 ```javascript
 
-bar ?  : baz;
+bar ? ((interface) => {
+'\'use strict\'';
+  0;
+}) : baz;
 
 ```
 

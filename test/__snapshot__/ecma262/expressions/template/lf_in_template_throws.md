@@ -28,8 +28,8 @@
                     "start": 1,
                     "end": 4
                 },
-                "flags": 0,
-                "start": 32,
+                "flags": 32,
+                "start": 0,
                 "end": 5
             },
             "flags": 16,

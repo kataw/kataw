@@ -225,8 +225,8 @@ result = ({ __proto__: x, __proto__: y } = value);
                         "start": 60,
                         "end": 98
                     },
-                    "flags": 58,
-                    "start": 34,
+                    "flags": 32,
+                    "start": 58,
                     "end": 99
                 },
                 "flags": 32,

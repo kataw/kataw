@@ -99,7 +99,7 @@ function* fn() {
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 35,
+                                    "flags": 2,
                                     "start": 20,
                                     "end": 30
                                 },
@@ -124,7 +124,7 @@ function* fn() {
                                     "start": 33,
                                     "end": 36
                                 },
-                                "flags": 35,
+                                "flags": 34,
                                 "start": 16,
                                 "end": 36
                             },

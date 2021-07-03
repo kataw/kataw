@@ -59,8 +59,8 @@
                     "start": 0,
                     "end": 9
                 },
-                "flags": 0,
-                "start": 32,
+                "flags": 32,
+                "start": 0,
                 "end": 9
             },
             "flags": 16,
@@ -121,8 +121,8 @@
                     "start": 12,
                     "end": 20
                 },
-                "flags": 10,
-                "start": 33,
+                "flags": 32,
+                "start": 10,
                 "end": 21
             },
             "flags": 16,
@@ -164,8 +164,8 @@
                     "start": 22,
                     "end": 32
                 },
-                "flags": 22,
-                "start": 33,
+                "flags": 32,
+                "start": 22,
                 "end": 32
             },
             "flags": 16,
@@ -214,7 +214,7 @@
                     "start": 33,
                     "end": 44
                 },
-                "flags": 33,
+                "flags": 32,
                 "start": 33,
                 "end": 44
             },
@@ -259,8 +259,8 @@
                         "start": 45,
                         "end": 54
                     },
-                    "flags": 45,
-                    "start": 33,
+                    "flags": 32,
+                    "start": 45,
                     "end": 54
                 },
                 "operatorToken": {
@@ -402,8 +402,8 @@
                     "start": 57,
                     "end": 73
                 },
-                "flags": 57,
-                "start": 33,
+                "flags": 32,
+                "start": 57,
                 "end": 74
             },
             "flags": 16,
@@ -541,8 +541,8 @@
                     "start": 75,
                     "end": 95
                 },
-                "flags": 75,
-                "start": 33,
+                "flags": 32,
+                "start": 75,
                 "end": 96
             },
             "flags": 16,
@@ -603,8 +603,8 @@
                     "start": 99,
                     "end": 107
                 },
-                "flags": 97,
-                "start": 33,
+                "flags": 32,
+                "start": 97,
                 "end": 108
             },
             "flags": 16,
@@ -646,8 +646,8 @@
                     "start": 109,
                     "end": 119
                 },
-                "flags": 109,
-                "start": 33,
+                "flags": 32,
+                "start": 109,
                 "end": 119
             },
             "flags": 16,
@@ -681,8 +681,8 @@
                     "start": 122,
                     "end": 125
                 },
-                "flags": 120,
-                "start": 33,
+                "flags": 32,
+                "start": 120,
                 "end": 126
             },
             "flags": 16,

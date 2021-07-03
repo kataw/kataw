@@ -118,8 +118,8 @@ bar ? baz : ( eval => { 'use strict'; 0 } );
                         "start": 13,
                         "end": 41
                     },
-                    "flags": 11,
-                    "start": 32,
+                    "flags": 32,
+                    "start": 11,
                     "end": 43
                 },
                 "flags": 96,
@@ -144,7 +144,10 @@ bar ? baz : ( eval => { 'use strict'; 0 } );
 
 ```javascript
 
-bar ? baz : ;
+bar ? baz : (eval => {
+'\'use strict\'';
+  0;
+});
 
 ```
 

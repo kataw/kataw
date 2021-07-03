@@ -87,7 +87,7 @@ async function f(){
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 32,
+                                    "flags": 0,
                                     "start": 34,
                                     "end": 36
                                 },

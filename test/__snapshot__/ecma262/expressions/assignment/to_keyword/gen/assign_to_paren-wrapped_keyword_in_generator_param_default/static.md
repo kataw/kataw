@@ -76,8 +76,8 @@ function *f(x = (static) = f) {}
                                     "start": 17,
                                     "end": 23
                                 },
-                                "flags": 15,
-                                "start": 32,
+                                "flags": 32,
+                                "start": 15,
                                 "end": 24
                             },
                             "operatorToken": {

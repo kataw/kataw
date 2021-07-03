@@ -366,8 +366,8 @@ var await; var f = (async function() { async function a(){     async ([y] = [{m:
                                 "start": 20,
                                 "end": 114
                             },
-                            "flags": 18,
-                            "start": 32,
+                            "flags": 32,
+                            "start": 18,
                             "end": 115
                         },
                         "flags": 16,

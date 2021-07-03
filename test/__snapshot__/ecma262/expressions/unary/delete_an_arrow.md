@@ -42,7 +42,7 @@ delete (foo)=>bar
                             }
                         ],
                         "trailingComma": false,
-                        "flags": 32,
+                        "flags": 0,
                         "start": 8,
                         "end": 12
                     },

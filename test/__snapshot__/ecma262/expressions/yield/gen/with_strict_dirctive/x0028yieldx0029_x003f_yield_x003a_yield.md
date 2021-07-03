@@ -46,8 +46,8 @@
                         "start": 15,
                         "end": 20
                     },
-                    "flags": 13,
-                    "start": 32,
+                    "flags": 32,
+                    "start": 13,
                     "end": 21
                 },
                 "questionToken": {
@@ -78,7 +78,7 @@
                     "start": 31,
                     "end": 37
                 },
-                "flags": 45,
+                "flags": 32,
                 "start": 13,
                 "end": 37
             },
@@ -101,7 +101,7 @@
 ```javascript
 
 '\'use strict\'';
- ? yield : yield;
+(yield) ? yield : yield;
 
 ```
 

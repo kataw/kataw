@@ -670,7 +670,7 @@ promise.then(([firstResult, secondResult, thirdResult, fourthResult, fifthResult
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 34,
+                                "flags": 2,
                                 "start": 410,
                                 "end": 457
                             },
@@ -1038,7 +1038,7 @@ promise.then(([firstResult, secondResult, thirdResult, fourthResult, fifthResult
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 34,
+                                "flags": 2,
                                 "start": 623,
                                 "end": 700
                             },

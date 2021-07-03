@@ -163,7 +163,7 @@ class C { [super.bbb] = 0 };
                                     "kind": 342,
                                     "parameters": [],
                                     "trailingComma": false,
-                                    "flags": 32,
+                                    "flags": 0,
                                     "start": 47,
                                     "end": 47
                                 },
@@ -270,7 +270,7 @@ class C { [super.bbb] = 0 };
                                     "kind": 342,
                                     "parameters": [],
                                     "trailingComma": false,
-                                    "flags": 32,
+                                    "flags": 0,
                                     "start": 83,
                                     "end": 83
                                 },
@@ -289,7 +289,7 @@ class C { [super.bbb] = 0 };
                                         "kind": 342,
                                         "parameters": [],
                                         "trailingComma": false,
-                                        "flags": 32,
+                                        "flags": 0,
                                         "start": 89,
                                         "end": 89
                                     },

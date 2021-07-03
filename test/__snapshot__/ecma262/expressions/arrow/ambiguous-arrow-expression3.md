@@ -111,8 +111,8 @@
                         "start": 14,
                         "end": 20
                     },
-                    "flags": 12,
-                    "start": 32,
+                    "flags": 32,
+                    "start": 12,
                     "end": 21
                 },
                 "flags": 96,
@@ -137,7 +137,7 @@
 
 ```javascript
 
-5 ? t => 5 : ;
+5 ? t => 5 : (t => 5);
 
 ```
 

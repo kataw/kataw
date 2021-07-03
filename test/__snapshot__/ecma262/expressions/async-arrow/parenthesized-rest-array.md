@@ -73,8 +73,8 @@ var foo = async ([...(foo)]) => {};
                                                             "start": 22,
                                                             "end": 25
                                                         },
-                                                        "flags": 21,
-                                                        "start": 32,
+                                                        "flags": 32,
+                                                        "start": 21,
                                                         "end": 26
                                                     },
                                                     "optionalToken": null,

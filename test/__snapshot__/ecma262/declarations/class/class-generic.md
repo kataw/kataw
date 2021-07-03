@@ -108,7 +108,7 @@ class A<TYPE> {
                                     "kind": 342,
                                     "parameters": [],
                                     "trailingComma": false,
-                                    "flags": 32,
+                                    "flags": 0,
                                     "start": 25,
                                     "end": 25
                                 },
@@ -265,8 +265,8 @@ class A<TYPE> {
                                                             "start": 75,
                                                             "end": 87
                                                         },
-                                                        "flags": 75,
-                                                        "start": 32,
+                                                        "flags": 32,
+                                                        "start": 75,
                                                         "end": 88
                                                     },
                                                     "flags": 96,
@@ -475,8 +475,8 @@ class A<TYPE> {
                                                             "start": 148,
                                                             "end": 160
                                                         },
-                                                        "flags": 148,
-                                                        "start": 32,
+                                                        "flags": 32,
+                                                        "start": 148,
                                                         "end": 161
                                                     },
                                                     "flags": 96,

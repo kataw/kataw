@@ -478,8 +478,8 @@ function * x() { "use strict";  yield: 34; }
                                     "start": 212,
                                     "end": 232
                                 },
-                                "flags": 210,
-                                "start": 32,
+                                "flags": 32,
+                                "start": 210,
                                 "end": 233
                             },
                             "flags": 16,
@@ -961,8 +961,8 @@ function * x() { "use strict";  yield: 34; }
                                     "start": 459,
                                     "end": 481
                                 },
-                                "flags": 457,
-                                "start": 32,
+                                "flags": 32,
+                                "start": 457,
                                 "end": 482
                             },
                             "flags": 16,

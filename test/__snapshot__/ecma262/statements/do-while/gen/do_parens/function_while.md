@@ -74,8 +74,8 @@ do( function while while
                         "start": 3,
                         "end": 12
                     },
-                    "flags": 2,
-                    "start": 32,
+                    "flags": 32,
+                    "start": 2,
                     "end": 12
                 },
                 "flags": 16,

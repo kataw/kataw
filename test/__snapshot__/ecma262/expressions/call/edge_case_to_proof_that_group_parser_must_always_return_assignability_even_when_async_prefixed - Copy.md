@@ -39,7 +39,7 @@ async
                     }
                 ],
                 "trailingComma": false,
-                "flags": 33,
+                "flags": 32,
                 "start": 0,
                 "end": 0
             },

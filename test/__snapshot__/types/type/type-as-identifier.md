@@ -87,8 +87,8 @@ type = x;
                     "start": 19,
                     "end": 23
                 },
-                "flags": 16,
-                "start": 33,
+                "flags": 32,
+                "start": 16,
                 "end": 24
             },
             "flags": 16,

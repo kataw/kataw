@@ -96,8 +96,8 @@ function *f(){ async (x = (yield)) => {} }
                                                 "start": 27,
                                                 "end": 32
                                             },
-                                            "flags": 25,
-                                            "start": 32,
+                                            "flags": 32,
+                                            "start": 25,
                                             "end": 33
                                         },
                                         "flags": 32,
@@ -164,7 +164,7 @@ function *f(){ async (x = (yield)) => {} }
 ```javascript
 
 function * f() {
-  async (x = ) => {}
+  async (x = (yield )) => {}
 }
 
 ```

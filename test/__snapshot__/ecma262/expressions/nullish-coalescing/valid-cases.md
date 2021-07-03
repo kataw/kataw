@@ -239,8 +239,8 @@ a ?? b ?? c ? d : e;
                         "start": 41,
                         "end": 50
                     },
-                    "flags": 41,
-                    "start": 33,
+                    "flags": 32,
+                    "start": 41,
                     "end": 51
                 },
                 "operatorToken": {
@@ -257,7 +257,7 @@ a ?? b ?? c ? d : e;
                     "start": 54,
                     "end": 56
                 },
-                "flags": 41,
+                "flags": 32,
                 "start": 41,
                 "end": 56
             },

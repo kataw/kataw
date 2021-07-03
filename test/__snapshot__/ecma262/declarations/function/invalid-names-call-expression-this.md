@@ -65,7 +65,7 @@ function fn() { (() => this)().#x }
                                                 "kind": 342,
                                                 "parameters": [],
                                                 "trailingComma": false,
-                                                "flags": 32,
+                                                "flags": 0,
                                                 "start": 18,
                                                 "end": 18
                                             },
@@ -86,8 +86,8 @@ function fn() { (() => this)().#x }
                                             "start": 17,
                                             "end": 27
                                         },
-                                        "flags": 15,
-                                        "start": 32,
+                                        "flags": 32,
+                                        "start": 15,
                                         "end": 28
                                     },
                                     "argumentList": {

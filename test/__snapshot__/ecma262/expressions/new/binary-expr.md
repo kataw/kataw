@@ -82,8 +82,8 @@ new x<number>(y)
                         "start": 14,
                         "end": 15
                     },
-                    "flags": 13,
-                    "start": 32,
+                    "flags": 32,
+                    "start": 13,
                     "end": 16
                 },
                 "flags": 96,

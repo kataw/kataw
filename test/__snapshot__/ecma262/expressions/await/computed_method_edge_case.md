@@ -250,7 +250,7 @@ async function f(){    async function f(){   (a= {[await foo](){}, "x"(){}} ) =>
                                                         }
                                                     ],
                                                     "trailingComma": false,
-                                                    "flags": 34,
+                                                    "flags": 2,
                                                     "start": 46,
                                                     "end": 77
                                                 },

@@ -68,7 +68,7 @@ x = {arrow: (x, y) => ok};
                                             }
                                         ],
                                         "trailingComma": false,
-                                        "flags": 32,
+                                        "flags": 0,
                                         "start": 13,
                                         "end": 15
                                     },
@@ -172,7 +172,7 @@ x = {arrow: (x, y) => ok};
                                             }
                                         ],
                                         "trailingComma": false,
-                                        "flags": 32,
+                                        "flags": 0,
                                         "start": 38,
                                         "end": 43
                                     },

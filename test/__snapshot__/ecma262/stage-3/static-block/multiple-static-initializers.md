@@ -128,7 +128,7 @@ class Foo {
                                             "kind": 342,
                                             "parameters": [],
                                             "trailingComma": false,
-                                            "flags": 32,
+                                            "flags": 0,
                                             "start": 48,
                                             "end": 48
                                         },
@@ -274,8 +274,8 @@ class Foo {
                                         "start": 47,
                                         "end": 110
                                     },
-                                    "flags": 45,
-                                    "start": 32,
+                                    "flags": 32,
+                                    "start": 45,
                                     "end": 111
                                 },
                                 "argumentList": {
@@ -372,7 +372,7 @@ class Foo {
                                             "kind": 342,
                                             "parameters": [],
                                             "trailingComma": false,
-                                            "flags": 32,
+                                            "flags": 0,
                                             "start": 151,
                                             "end": 151
                                         },
@@ -460,8 +460,8 @@ class Foo {
                                         "start": 150,
                                         "end": 187
                                     },
-                                    "flags": 148,
-                                    "start": 32,
+                                    "flags": 32,
+                                    "start": 148,
                                     "end": 188
                                 },
                                 "argumentList": {

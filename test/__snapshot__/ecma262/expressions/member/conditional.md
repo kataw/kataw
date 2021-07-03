@@ -170,8 +170,8 @@
                         "start": 0,
                         "end": 90
                     },
-                    "flags": 0,
-                    "start": 32,
+                    "flags": 32,
+                    "start": 0,
                     "end": 91
                 },
                 "expression": {
@@ -204,7 +204,7 @@
 
 ```javascript
 
-.prop;
+(valid ? helper.responseBody(this.currentUser) : helper.responseBody(this.defaultUser)).prop;
 
 ```
 

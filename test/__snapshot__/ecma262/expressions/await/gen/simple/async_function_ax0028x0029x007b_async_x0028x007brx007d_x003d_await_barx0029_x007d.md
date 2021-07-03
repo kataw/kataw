@@ -132,7 +132,7 @@ async function a(){     async ({r} = await bar);     }
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 34,
+                                "flags": 32,
                                 "start": 19,
                                 "end": 19
                             },

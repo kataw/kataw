@@ -148,7 +148,7 @@ foo((x, y) => {});
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 34,
+                    "flags": 2,
                     "start": 1,
                     "end": 14
                 },
@@ -224,7 +224,7 @@ foo((x, y) => {});
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 33,
+                    "flags": 0,
                     "start": 22,
                     "end": 29
                 },
@@ -243,7 +243,7 @@ foo((x, y) => {});
                     "start": 32,
                     "end": 34
                 },
-                "flags": 33,
+                "flags": 32,
                 "start": 20,
                 "end": 34
             },
@@ -304,7 +304,7 @@ foo((x, y) => {});
                                                 }
                                             ],
                                             "trailingComma": false,
-                                            "flags": 32,
+                                            "flags": 0,
                                             "start": 45,
                                             "end": 50
                                         },
@@ -332,8 +332,8 @@ foo((x, y) => {});
                                 "start": 39,
                                 "end": 55
                             },
-                            "flags": 39,
-                            "start": 32,
+                            "flags": 32,
+                            "start": 39,
                             "end": 56
                         }
                     ],
@@ -341,8 +341,8 @@ foo((x, y) => {});
                     "start": 35,
                     "end": 56
                 },
-                "flags": 35,
-                "start": 33,
+                "flags": 32,
+                "start": 35,
                 "end": 57
             },
             "flags": 16,
@@ -359,7 +359,7 @@ foo((x, y) => {});
                     "kind": 342,
                     "parameters": [],
                     "trailingComma": false,
-                    "flags": 33,
+                    "flags": 0,
                     "start": 60,
                     "end": 60
                 },
@@ -378,7 +378,7 @@ foo((x, y) => {});
                         "kind": 342,
                         "parameters": [],
                         "trailingComma": false,
-                        "flags": 32,
+                        "flags": 0,
                         "start": 66,
                         "end": 66
                     },
@@ -422,7 +422,7 @@ foo((x, y) => {});
                             "kind": 342,
                             "parameters": [],
                             "trailingComma": false,
-                            "flags": 33,
+                            "flags": 0,
                             "start": 75,
                             "end": 75
                         },
@@ -472,7 +472,7 @@ foo((x, y) => {});
                     "kind": 342,
                     "parameters": [],
                     "trailingComma": false,
-                    "flags": 33,
+                    "flags": 0,
                     "start": 88,
                     "end": 88
                 },
@@ -579,7 +579,7 @@ foo((x, y) => {});
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 33,
+                    "flags": 0,
                     "start": 111,
                     "end": 113
                 },
@@ -598,7 +598,7 @@ foo((x, y) => {});
                     "start": 116,
                     "end": 123
                 },
-                "flags": 33,
+                "flags": 32,
                 "start": 108,
                 "end": 123
             },
@@ -633,7 +633,7 @@ foo((x, y) => {});
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 33,
+                    "flags": 0,
                     "start": 127,
                     "end": 132
                 },
@@ -669,7 +669,7 @@ foo((x, y) => {});
                             }
                         ],
                         "trailingComma": false,
-                        "flags": 32,
+                        "flags": 0,
                         "start": 137,
                         "end": 142
                     },
@@ -752,7 +752,7 @@ foo((x, y) => {});
                     "start": 135,
                     "end": 155
                 },
-                "flags": 33,
+                "flags": 32,
                 "start": 124,
                 "end": 155
             },
@@ -780,7 +780,7 @@ foo((x, y) => {});
                             "kind": 342,
                             "parameters": [],
                             "trailingComma": false,
-                            "flags": 32,
+                            "flags": 0,
                             "start": 164,
                             "end": 164
                         },
@@ -809,8 +809,8 @@ foo((x, y) => {});
                         "start": 163,
                         "end": 171
                     },
-                    "flags": 161,
-                    "start": 32,
+                    "flags": 32,
+                    "start": 161,
                     "end": 172
                 },
                 "argumentList": null,
@@ -856,7 +856,7 @@ foo((x, y) => {});
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 35,
+                    "flags": 2,
                     "start": 176,
                     "end": 180
                 },
@@ -875,7 +875,7 @@ foo((x, y) => {});
                     "start": 183,
                     "end": 185
                 },
-                "flags": 35,
+                "flags": 34,
                 "start": 173,
                 "end": 185
             },
@@ -899,7 +899,7 @@ foo((x, y) => {});
                                 "kind": 342,
                                 "parameters": [],
                                 "trailingComma": false,
-                                "flags": 32,
+                                "flags": 0,
                                 "start": 190,
                                 "end": 190
                             },
@@ -922,8 +922,8 @@ foo((x, y) => {});
                             "start": 189,
                             "end": 196
                         },
-                        "flags": 186,
-                        "start": 33,
+                        "flags": 32,
+                        "start": 186,
                         "end": 197
                     },
                     "argumentList": {
@@ -1015,7 +1015,7 @@ foo((x, y) => {});
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 34,
+                                "flags": 2,
                                 "start": 213,
                                 "end": 219
                             },
@@ -1103,7 +1103,7 @@ foo((x, y) => {});
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 35,
+                    "flags": 2,
                     "start": 230,
                     "end": 238
                 },
@@ -1128,7 +1128,7 @@ foo((x, y) => {});
                     "start": 241,
                     "end": 244
                 },
-                "flags": 35,
+                "flags": 34,
                 "start": 227,
                 "end": 244
             },
@@ -1189,7 +1189,7 @@ foo((x, y) => {});
                                                 }
                                             ],
                                             "trailingComma": false,
-                                            "flags": 32,
+                                            "flags": 0,
                                             "start": 256,
                                             "end": 261
                                         },
@@ -1217,8 +1217,8 @@ foo((x, y) => {});
                                 "start": 250,
                                 "end": 266
                             },
-                            "flags": 250,
-                            "start": 32,
+                            "flags": 32,
+                            "start": 250,
                             "end": 267
                         }
                     ],
@@ -1226,8 +1226,8 @@ foo((x, y) => {});
                     "start": 245,
                     "end": 267
                 },
-                "flags": 245,
-                "start": 33,
+                "flags": 32,
+                "start": 245,
                 "end": 268
             },
             "flags": 16,
@@ -1277,7 +1277,7 @@ foo((x, y) => {});
                             }
                         ],
                         "trailingComma": false,
-                        "flags": 32,
+                        "flags": 0,
                         "start": 276,
                         "end": 280
                     },
@@ -1341,7 +1341,7 @@ foo((x, y) => {});
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 33,
+                    "flags": 0,
                     "start": 289,
                     "end": 294
                 },
@@ -1394,7 +1394,7 @@ foo((x, y) => {});
                     "start": 297,
                     "end": 305
                 },
-                "flags": 33,
+                "flags": 32,
                 "start": 286,
                 "end": 305
             },
@@ -1476,7 +1476,7 @@ foo((x, y) => {});
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 35,
+                    "flags": 2,
                     "start": 309,
                     "end": 322
                 },
@@ -1495,7 +1495,7 @@ foo((x, y) => {});
                     "start": 325,
                     "end": 327
                 },
-                "flags": 35,
+                "flags": 34,
                 "start": 306,
                 "end": 327
             },
@@ -1564,7 +1564,7 @@ foo((x, y) => {});
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 35,
+                    "flags": 2,
                     "start": 331,
                     "end": 344
                 },
@@ -1583,7 +1583,7 @@ foo((x, y) => {});
                     "start": 347,
                     "end": 349
                 },
-                "flags": 35,
+                "flags": 34,
                 "start": 328,
                 "end": 349
             },
@@ -1669,7 +1669,7 @@ foo((x, y) => {});
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 34,
+                                "flags": 2,
                                 "start": 355,
                                 "end": 367
                             },
@@ -1801,7 +1801,7 @@ foo((x, y) => {});
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 34,
+                                "flags": 2,
                                 "start": 378,
                                 "end": 395
                             },
@@ -1910,7 +1910,7 @@ foo((x, y) => {});
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 34,
+                                "flags": 2,
                                 "start": 406,
                                 "end": 418
                             },
@@ -1967,7 +1967,7 @@ foo((x, y) => {});
                             "kind": 342,
                             "parameters": [],
                             "trailingComma": false,
-                            "flags": 32,
+                            "flags": 0,
                             "start": 436,
                             "end": 436
                         },
@@ -1990,8 +1990,8 @@ foo((x, y) => {});
                         "start": 435,
                         "end": 443
                     },
-                    "flags": 433,
-                    "start": 32,
+                    "flags": 32,
+                    "start": 433,
                     "end": 444
                 },
                 "flags": 32,
@@ -2012,7 +2012,7 @@ foo((x, y) => {});
                     "kind": 342,
                     "parameters": [],
                     "trailingComma": false,
-                    "flags": 33,
+                    "flags": 0,
                     "start": 448,
                     "end": 448
                 },
@@ -2158,7 +2158,7 @@ foo((x, y) => {});
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 35,
+                    "flags": 2,
                     "start": 466,
                     "end": 480
                 },
@@ -2183,7 +2183,7 @@ foo((x, y) => {});
                     "start": 483,
                     "end": 486
                 },
-                "flags": 35,
+                "flags": 34,
                 "start": 463,
                 "end": 486
             },
@@ -2201,7 +2201,7 @@ foo((x, y) => {});
                     "kind": 342,
                     "parameters": [],
                     "trailingComma": false,
-                    "flags": 33,
+                    "flags": 0,
                     "start": 490,
                     "end": 490
                 },
@@ -2276,7 +2276,7 @@ foo((x, y) => {});
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 32,
+                                    "flags": 0,
                                     "start": 504,
                                     "end": 509
                                 },
@@ -2346,8 +2346,8 @@ foo((x, y) => {});
                                 "start": 503,
                                 "end": 530
                             },
-                            "flags": 500,
-                            "start": 33,
+                            "flags": 32,
+                            "start": 500,
                             "end": 531
                         },
                         "argumentList": {
@@ -2436,7 +2436,7 @@ foo((x, y) => {});
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 32,
+                                "flags": 0,
                                 "start": 548,
                                 "end": 553
                             },
@@ -2498,7 +2498,7 @@ foo((x, y) => {});
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 33,
+                    "flags": 0,
                     "start": 564,
                     "end": 567
                 },
@@ -2523,7 +2523,7 @@ foo((x, y) => {});
                     "start": 570,
                     "end": 573
                 },
-                "flags": 33,
+                "flags": 32,
                 "start": 561,
                 "end": 573
             },
@@ -2566,7 +2566,7 @@ foo((x, y) => {});
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 33,
+                    "flags": 0,
                     "start": 577,
                     "end": 584
                 },
@@ -2591,7 +2591,7 @@ foo((x, y) => {});
                     "start": 587,
                     "end": 590
                 },
-                "flags": 33,
+                "flags": 32,
                 "start": 574,
                 "end": 590
             },
@@ -2665,7 +2665,7 @@ foo((x, y) => {});
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 35,
+                    "flags": 2,
                     "start": 594,
                     "end": 604
                 },
@@ -2684,7 +2684,7 @@ foo((x, y) => {});
                     "start": 607,
                     "end": 609
                 },
-                "flags": 35,
+                "flags": 34,
                 "start": 591,
                 "end": 609
             },
@@ -2818,7 +2818,7 @@ foo((x, y) => {});
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 35,
+                    "flags": 2,
                     "start": 613,
                     "end": 633
                 },
@@ -2837,7 +2837,7 @@ foo((x, y) => {});
                     "start": 635,
                     "end": 636
                 },
-                "flags": 35,
+                "flags": 34,
                 "start": 610,
                 "end": 636
             },

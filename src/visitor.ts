@@ -212,7 +212,6 @@ export function visitEachChild(
         ? createParenthesizedExpression(
             (<ParenthesizedExpression>node).expression,
             (<ParenthesizedExpression>node).start,
-            (<ParenthesizedExpression>node).flags,
             (<ParenthesizedExpression>node).end
           )
         : node;
@@ -268,7 +267,6 @@ export function visitEachChild(
         ? createArgumentList(
             (<ArgumentList>node).elements,
             (<ArgumentList>node).trailingComma,
-            (<ArgumentList>node).flags,
             (<ArgumentList>node).start,
             (<ArgumentList>node).end
           )

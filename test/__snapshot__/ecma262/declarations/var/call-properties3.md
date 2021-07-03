@@ -643,7 +643,7 @@ var z : Object = (x) => "hi"
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 32,
+                                "flags": 0,
                                 "start": 379,
                                 "end": 381
                             },
@@ -825,7 +825,7 @@ var z : Object = (x) => "hi"
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 32,
+                                "flags": 0,
                                 "start": 490,
                                 "end": 492
                             },
@@ -979,7 +979,7 @@ var z : Object = (x) => "hi"
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 32,
+                                "flags": 0,
                                 "start": 572,
                                 "end": 574
                             },
@@ -1130,7 +1130,7 @@ var z : Object = (x) => "hi"
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 32,
+                                "flags": 0,
                                 "start": 647,
                                 "end": 649
                             },
@@ -1275,7 +1275,7 @@ var z : Object = (x) => "hi"
                                 "kind": 342,
                                 "parameters": [],
                                 "trailingComma": false,
-                                "flags": 32,
+                                "flags": 0,
                                 "start": 726,
                                 "end": 726
                             },
@@ -1404,7 +1404,7 @@ var z : Object = (x) => "hi"
                                 "kind": 342,
                                 "parameters": [],
                                 "trailingComma": false,
-                                "flags": 32,
+                                "flags": 0,
                                 "start": 768,
                                 "end": 768
                             },
@@ -1567,7 +1567,7 @@ var z : Object = (x) => "hi"
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 32,
+                                "flags": 0,
                                 "start": 823,
                                 "end": 825
                             },
@@ -1699,7 +1699,7 @@ var z : Object = (x) => "hi"
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 32,
+                                "flags": 0,
                                 "start": 915,
                                 "end": 917
                             },
@@ -1797,7 +1797,7 @@ var z : Object = (x) => "hi"
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 32,
+                                "flags": 0,
                                 "start": 944,
                                 "end": 946
                             },

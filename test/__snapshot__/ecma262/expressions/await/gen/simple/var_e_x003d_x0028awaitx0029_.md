@@ -56,8 +56,8 @@ var e = (await);
                                 "start": 9,
                                 "end": 14
                             },
-                            "flags": 7,
-                            "start": 32,
+                            "flags": 32,
+                            "start": 7,
                             "end": 15
                         },
                         "flags": 16,

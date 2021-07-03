@@ -258,8 +258,8 @@ var await; var f = (async function() { class x {*f(foo = await bar){}} });
                                 "start": 20,
                                 "end": 72
                             },
-                            "flags": 18,
-                            "start": 32,
+                            "flags": 32,
+                            "start": 18,
                             "end": 73
                         },
                         "flags": 16,

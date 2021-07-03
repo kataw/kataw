@@ -76,7 +76,7 @@ async (a = (...await) => {});
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 32,
+                                "flags": 0,
                                 "start": 12,
                                 "end": 21
                             },
@@ -111,7 +111,7 @@ async (a = (...await) => {});
                     }
                 ],
                 "trailingComma": false,
-                "flags": 34,
+                "flags": 32,
                 "start": 0,
                 "end": 0
             },

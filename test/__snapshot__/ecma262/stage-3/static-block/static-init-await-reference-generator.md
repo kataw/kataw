@@ -230,8 +230,8 @@ class C {
                                                                     "start": 26,
                                                                     "end": 106
                                                                 },
-                                                                "flags": 20,
-                                                                "start": 35,
+                                                                "flags": 32,
+                                                                "start": 20,
                                                                 "end": 107
                                                             },
                                                             "expression": {
@@ -242,7 +242,7 @@ class C {
                                                                 "start": 108,
                                                                 "end": 114
                                                             },
-                                                            "flags": 52,
+                                                            "flags": 32,
                                                             "start": 20,
                                                             "end": 114
                                                         },
@@ -328,7 +328,11 @@ class C {
 
 class C {
   static  {
-    .method().next();
+    ({
+      * method(x = fromParam = await) {
+        fromBody = await;
+      }
+    }).method().next();
   }
 }
 

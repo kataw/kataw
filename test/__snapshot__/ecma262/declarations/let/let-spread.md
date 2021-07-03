@@ -109,8 +109,8 @@ let {...(a,b)} = foo
                     "start": 8,
                     "end": 13
                 },
-                "flags": 8,
-                "start": 32,
+                "flags": 32,
+                "start": 8,
                 "end": 13
             },
             "flags": 16,

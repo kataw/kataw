@@ -69,8 +69,8 @@ a ? (1 + 2) : (3 + 4)
                         "start": 5,
                         "end": 10
                     },
-                    "flags": 3,
-                    "start": 32,
+                    "flags": 32,
+                    "start": 3,
                     "end": 11
                 },
                 "colonToken": {
@@ -109,8 +109,8 @@ a ? (1 + 2) : (3 + 4)
                         "start": 15,
                         "end": 20
                     },
-                    "flags": 13,
-                    "start": 32,
+                    "flags": 32,
+                    "start": 13,
                     "end": 21
                 },
                 "flags": 96,
@@ -135,7 +135,7 @@ a ? (1 + 2) : (3 + 4)
 
 ```javascript
 
-a ?  : ;
+a ? (1 + 2) : (3 + 4);
 
 ```
 

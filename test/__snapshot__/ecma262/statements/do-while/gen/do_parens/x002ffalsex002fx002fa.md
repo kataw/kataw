@@ -62,8 +62,8 @@ do( /false//a while
                         "start": 3,
                         "end": 13
                     },
-                    "flags": 2,
-                    "start": 32,
+                    "flags": 32,
+                    "start": 2,
                     "end": 13
                 },
                 "flags": 16,

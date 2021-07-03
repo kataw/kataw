@@ -144,7 +144,7 @@ FooBar.bar = 1;
                                             "kind": 342,
                                             "parameters": [],
                                             "trailingComma": false,
-                                            "flags": 32,
+                                            "flags": 0,
                                             "start": 43,
                                             "end": 43
                                         },

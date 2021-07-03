@@ -41,8 +41,8 @@ do( false while
                         "start": 3,
                         "end": 9
                     },
-                    "flags": 2,
-                    "start": 32,
+                    "flags": 32,
+                    "start": 2,
                     "end": 9
                 },
                 "flags": 16,

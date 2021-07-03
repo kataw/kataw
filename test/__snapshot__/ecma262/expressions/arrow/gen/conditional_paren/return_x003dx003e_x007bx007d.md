@@ -65,8 +65,8 @@ bar ? baz : ( return => {} );
                         "start": 13,
                         "end": 13
                     },
-                    "flags": 11,
-                    "start": 32,
+                    "flags": 32,
+                    "start": 11,
                     "end": 13
                 },
                 "flags": 96,

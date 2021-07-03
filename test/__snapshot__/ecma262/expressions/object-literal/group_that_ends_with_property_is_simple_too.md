@@ -49,8 +49,8 @@
                                                 "start": 6,
                                                 "end": 7
                                             },
-                                            "flags": 4,
-                                            "start": 32,
+                                            "flags": 32,
+                                            "start": 4,
                                             "end": 8
                                         },
                                         "expression": {
@@ -61,7 +61,7 @@
                                             "start": 9,
                                             "end": 10
                                         },
-                                        "flags": 36,
+                                        "flags": 32,
                                         "start": 4,
                                         "end": 10
                                     },
@@ -112,8 +112,8 @@
                     "start": 1,
                     "end": 17
                 },
-                "flags": 0,
-                "start": 34,
+                "flags": 32,
+                "start": 0,
                 "end": 18
             },
             "flags": 16,
@@ -134,7 +134,7 @@
 
 ```javascript
 
-({ a : .c } = [2,]);
+({ a : (b).c } = [2,]);
 
 ```
 

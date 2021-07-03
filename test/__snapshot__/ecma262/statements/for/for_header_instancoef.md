@@ -35,8 +35,8 @@ for ((2935) instanceof ((2e308));;) debugger
                         "start": 6,
                         "end": 10
                     },
-                    "flags": 5,
-                    "start": 32,
+                    "flags": 32,
+                    "start": 5,
                     "end": 11
                 },
                 "operatorToken": {
@@ -57,15 +57,15 @@ for ((2935) instanceof ((2e308));;) debugger
                             "start": 25,
                             "end": 30
                         },
-                        "flags": 24,
-                        "start": 32,
+                        "flags": 32,
+                        "start": 24,
                         "end": 31
                     },
-                    "flags": 22,
-                    "start": 32,
+                    "flags": 32,
+                    "start": 22,
                     "end": 32
                 },
-                "flags": 37,
+                "flags": 32,
                 "start": 0,
                 "end": 32
             },

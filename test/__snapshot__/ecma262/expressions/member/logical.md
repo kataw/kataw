@@ -57,8 +57,8 @@
                         "start": 0,
                         "end": 30
                     },
-                    "flags": 0,
-                    "start": 32,
+                    "flags": 32,
+                    "start": 0,
                     "end": 31
                 },
                 "expression": {
@@ -131,8 +131,8 @@
                         "start": 37,
                         "end": 124
                     },
-                    "flags": 37,
-                    "start": 33,
+                    "flags": 32,
+                    "start": 37,
                     "end": 125
                 },
                 "expression": {
@@ -143,7 +143,7 @@
                     "start": 126,
                     "end": 130
                 },
-                "flags": 37,
+                "flags": 32,
                 "start": 37,
                 "end": 130
             },
@@ -165,7 +165,7 @@
 
 ```javascript
 
-.prop;
+(veryLongVeryLongVeryLong || e).prop;
 (veryLongVeryLongVeryLong || anotherVeryLongVeryLongVeryLong || veryVeryVeryLongError).prop;
 
 ```

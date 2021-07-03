@@ -42,8 +42,8 @@ do( async try while { catch } while
                         "start": 2,
                         "end": 9
                     },
-                    "flags": 2,
-                    "start": 32,
+                    "flags": 32,
+                    "start": 2,
                     "end": 9
                 },
                 "flags": 16,

@@ -205,7 +205,7 @@ async function a(){     ([y] = [{m: 5 + t(await bar)}]) => {}     }
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 34,
+                                    "flags": 2,
                                     "start": 25,
                                     "end": 55
                                 },

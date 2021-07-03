@@ -90,8 +90,8 @@ function *f(){
                                         "start": 18,
                                         "end": 24
                                     },
-                                    "flags": 14,
-                                    "start": 33,
+                                    "flags": 32,
+                                    "start": 14,
                                     "end": 25
                                 },
                                 "operatorToken": {

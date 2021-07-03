@@ -124,7 +124,7 @@ var f = (argument1,{ __proto__: x, __proto__: y}) => {};
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 34,
+                                "flags": 2,
                                 "start": 9,
                                 "end": 49
                             },

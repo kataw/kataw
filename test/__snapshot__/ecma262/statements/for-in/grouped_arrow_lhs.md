@@ -61,7 +61,7 @@ for (((x)=>{}) in y);
                             }
                         ],
                         "trailingComma": false,
-                        "flags": 32,
+                        "flags": 0,
                         "start": 7,
                         "end": 9
                     },
@@ -90,8 +90,8 @@ for (((x)=>{}) in y);
                     "start": 6,
                     "end": 13
                 },
-                "flags": 5,
-                "start": 32,
+                "flags": 32,
+                "start": 5,
                 "end": 14
             },
             "inKeyword": {

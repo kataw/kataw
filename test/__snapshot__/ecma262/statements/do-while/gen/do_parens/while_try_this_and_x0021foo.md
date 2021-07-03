@@ -43,8 +43,8 @@ do( while try this and !foo while
                         "start": 3,
                         "end": 3
                     },
-                    "flags": 2,
-                    "start": 32,
+                    "flags": 32,
+                    "start": 2,
                     "end": 3
                 },
                 "flags": 16,

@@ -244,8 +244,8 @@ var o3: O3 = (0: mixed); // ok
                     "start": 44,
                     "end": 61
                 },
-                "flags": 44,
-                "start": 33,
+                "flags": 32,
+                "start": 44,
                 "end": 62
             },
             "flags": 16,
@@ -389,8 +389,8 @@ var o3: O3 = (0: mixed); // ok
                                 "start": 108,
                                 "end": 109
                             },
-                            "flags": 106,
-                            "start": 32,
+                            "flags": 32,
+                            "start": 106,
                             "end": 109
                         },
                         "flags": 16,
@@ -470,8 +470,8 @@ var o3: O3 = (0: mixed); // ok
                     "start": 118,
                     "end": 135
                 },
-                "flags": 118,
-                "start": 33,
+                "flags": 32,
+                "start": 118,
                 "end": 136
             },
             "flags": 16,
@@ -733,8 +733,8 @@ var o3: O3 = (0: mixed); // ok
                                 "start": 244,
                                 "end": 245
                             },
-                            "flags": 242,
-                            "start": 32,
+                            "flags": 32,
+                            "start": 242,
                             "end": 245
                         },
                         "flags": 16,
@@ -814,8 +814,8 @@ var o3: O3 = (0: mixed); // ok
                     "start": 254,
                     "end": 271
                 },
-                "flags": 254,
-                "start": 33,
+                "flags": 32,
+                "start": 254,
                 "end": 272
             },
             "flags": 16,

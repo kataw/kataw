@@ -587,8 +587,8 @@ class A9<S = number, T: ?string = string> {}
                     "start": 139,
                     "end": 163
                 },
-                "flags": 137,
-                "start": 33,
+                "flags": 32,
+                "start": 137,
                 "end": 164
             },
             "flags": 16,

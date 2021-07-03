@@ -72,8 +72,8 @@ var a = b ? (c): d => e;
                                     "start": 13,
                                     "end": 14
                                 },
-                                "flags": 11,
-                                "start": 32,
+                                "flags": 32,
+                                "start": 11,
                                 "end": 15
                             },
                             "colonToken": {
@@ -144,7 +144,7 @@ var a = b ? (c): d => e;
 
 ```javascript
 
-var a = b ?  : d => e;
+var a = b ? (c) : d => e;
 
 ```
 

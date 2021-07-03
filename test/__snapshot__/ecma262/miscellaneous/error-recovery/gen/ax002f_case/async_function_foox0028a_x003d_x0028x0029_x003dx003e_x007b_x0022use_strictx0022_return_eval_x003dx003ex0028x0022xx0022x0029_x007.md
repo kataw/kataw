@@ -72,7 +72,7 @@ async function foo(a = () => { "use strict"; return eval =>("x"); }) {}
                                 "kind": 342,
                                 "parameters": [],
                                 "trailingComma": false,
-                                "flags": 32,
+                                "flags": 0,
                                 "start": 24,
                                 "end": 24
                             },
@@ -135,8 +135,8 @@ async function foo(a = () => { "use strict"; return eval =>("x"); }) {}
                                                         "start": 60,
                                                         "end": 63
                                                     },
-                                                    "flags": 59,
-                                                    "start": 32,
+                                                    "flags": 32,
+                                                    "start": 59,
                                                     "end": 64
                                                 },
                                                 "flags": 32,

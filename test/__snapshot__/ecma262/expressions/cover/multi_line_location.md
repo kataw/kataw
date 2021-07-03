@@ -62,8 +62,8 @@ a = (
                         "start": 3,
                         "end": 16
                     },
-                    "flags": 3,
-                    "start": 32,
+                    "flags": 32,
+                    "start": 3,
                     "end": 16
                 },
                 "flags": 32,

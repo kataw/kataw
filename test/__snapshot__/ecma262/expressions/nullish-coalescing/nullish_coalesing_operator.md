@@ -168,7 +168,7 @@ foo && (baz ?? baz);
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 34,
+                                "flags": 2,
                                 "start": 34,
                                 "end": 56
                             },
@@ -326,8 +326,8 @@ foo && (baz ?? baz);
                         "start": 96,
                         "end": 108
                     },
-                    "flags": 96,
-                    "start": 32,
+                    "flags": 32,
+                    "start": 96,
                     "end": 109
                 },
                 "flags": 97,
@@ -372,8 +372,8 @@ foo && (baz ?? baz);
                         "start": 110,
                         "end": 122
                     },
-                    "flags": 110,
-                    "start": 33,
+                    "flags": 32,
+                    "start": 110,
                     "end": 123
                 },
                 "operatorToken": {
@@ -390,7 +390,7 @@ foo && (baz ?? baz);
                     "start": 126,
                     "end": 130
                 },
-                "flags": 110,
+                "flags": 32,
                 "start": 110,
                 "end": 130
             },
@@ -432,8 +432,8 @@ foo && (baz ?? baz);
                         "start": 131,
                         "end": 223
                     },
-                    "flags": 131,
-                    "start": 33,
+                    "flags": 32,
+                    "start": 131,
                     "end": 224
                 },
                 "operatorToken": {
@@ -450,7 +450,7 @@ foo && (baz ?? baz);
                     "start": 227,
                     "end": 231
                 },
-                "flags": 163,
+                "flags": 32,
                 "start": 131,
                 "end": 231
             },
@@ -506,8 +506,8 @@ foo && (baz ?? baz);
                         "start": 239,
                         "end": 251
                     },
-                    "flags": 239,
-                    "start": 32,
+                    "flags": 32,
+                    "start": 239,
                     "end": 252
                 },
                 "flags": 97,
@@ -552,8 +552,8 @@ foo && (baz ?? baz);
                         "start": 253,
                         "end": 266
                     },
-                    "flags": 253,
-                    "start": 33,
+                    "flags": 32,
+                    "start": 253,
                     "end": 267
                 },
                 "operatorToken": {
@@ -570,7 +570,7 @@ foo && (baz ?? baz);
                     "start": 270,
                     "end": 274
                 },
-                "flags": 253,
+                "flags": 32,
                 "start": 253,
                 "end": 274
             },
@@ -626,8 +626,8 @@ foo && (baz ?? baz);
                         "start": 282,
                         "end": 294
                     },
-                    "flags": 282,
-                    "start": 32,
+                    "flags": 32,
+                    "start": 282,
                     "end": 295
                 },
                 "flags": 97,
@@ -672,8 +672,8 @@ foo && (baz ?? baz);
                         "start": 296,
                         "end": 309
                     },
-                    "flags": 296,
-                    "start": 33,
+                    "flags": 32,
+                    "start": 296,
                     "end": 310
                 },
                 "operatorToken": {
@@ -690,7 +690,7 @@ foo && (baz ?? baz);
                     "start": 313,
                     "end": 317
                 },
-                "flags": 296,
+                "flags": 32,
                 "start": 296,
                 "end": 317
             },
@@ -746,8 +746,8 @@ foo && (baz ?? baz);
                         "start": 325,
                         "end": 337
                     },
-                    "flags": 325,
-                    "start": 32,
+                    "flags": 32,
+                    "start": 325,
                     "end": 338
                 },
                 "flags": 97,
@@ -792,8 +792,8 @@ foo && (baz ?? baz);
                         "start": 339,
                         "end": 352
                     },
-                    "flags": 339,
-                    "start": 33,
+                    "flags": 32,
+                    "start": 339,
                     "end": 353
                 },
                 "operatorToken": {
@@ -810,7 +810,7 @@ foo && (baz ?? baz);
                     "start": 356,
                     "end": 360
                 },
-                "flags": 371,
+                "flags": 32,
                 "start": 339,
                 "end": 360
             },
@@ -866,8 +866,8 @@ foo && (baz ?? baz);
                         "start": 368,
                         "end": 380
                     },
-                    "flags": 368,
-                    "start": 32,
+                    "flags": 32,
+                    "start": 368,
                     "end": 381
                 },
                 "flags": 97,
@@ -899,10 +899,7 @@ foo ?? (bar ?? baz);
 (foo ?? bar) ?? baz;
  // Mixing ?? and (&& or ||) requires parens
 // It's a syntax error without it.
-(
- // Mixing ?? and (&& or ||) requires parens
-// It's a syntax error without it.
-foo ?? baz) || baz;
+(foo ?? baz) || baz;
 foo ?? (baz || baz);
 (foo ?? baz) && baz;
 foo ?? (baz && baz);

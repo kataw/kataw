@@ -141,8 +141,8 @@
                     "start": 1,
                     "end": 29
                 },
-                "flags": 0,
-                "start": 32,
+                "flags": 32,
+                "start": 0,
                 "end": 30
             },
             "flags": 16,
@@ -227,7 +227,7 @@
                                                                 "kind": 342,
                                                                 "parameters": [],
                                                                 "trailingComma": false,
-                                                                "flags": 32,
+                                                                "flags": 0,
                                                                 "start": 58,
                                                                 "end": 58
                                                             },
@@ -290,8 +290,8 @@
                     "start": 33,
                     "end": 68
                 },
-                "flags": 31,
-                "start": 33,
+                "flags": 32,
+                "start": 31,
                 "end": 69
             },
             "flags": 16,
@@ -403,8 +403,8 @@
                     "start": 72,
                     "end": 96
                 },
-                "flags": 70,
-                "start": 33,
+                "flags": 32,
+                "start": 70,
                 "end": 97
             },
             "flags": 16,
@@ -546,8 +546,8 @@
                     "start": 100,
                     "end": 130
                 },
-                "flags": 98,
-                "start": 33,
+                "flags": 32,
+                "start": 98,
                 "end": 131
             },
             "flags": 16,
@@ -694,8 +694,8 @@
                     "start": 134,
                     "end": 168
                 },
-                "flags": 132,
-                "start": 33,
+                "flags": 32,
+                "start": 132,
                 "end": 169
             },
             "flags": 16,
@@ -851,8 +851,8 @@
                     "start": 172,
                     "end": 209
                 },
-                "flags": 170,
-                "start": 33,
+                "flags": 32,
+                "start": 170,
                 "end": 210
             },
             "flags": 16,
@@ -999,8 +999,8 @@
                     "start": 213,
                     "end": 244
                 },
-                "flags": 211,
-                "start": 33,
+                "flags": 32,
+                "start": 211,
                 "end": 245
             },
             "flags": 16,
@@ -1147,8 +1147,8 @@
                     "start": 248,
                     "end": 284
                 },
-                "flags": 246,
-                "start": 33,
+                "flags": 32,
+                "start": 246,
                 "end": 285
             },
             "flags": 16,
@@ -1300,8 +1300,8 @@
                     "start": 288,
                     "end": 325
                 },
-                "flags": 286,
-                "start": 33,
+                "flags": 32,
+                "start": 286,
                 "end": 326
             },
             "flags": 16,

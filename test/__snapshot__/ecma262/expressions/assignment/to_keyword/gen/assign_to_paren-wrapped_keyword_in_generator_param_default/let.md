@@ -76,8 +76,8 @@ function *f(x = (let) = f) {}
                                     "start": 17,
                                     "end": 20
                                 },
-                                "flags": 15,
-                                "start": 32,
+                                "flags": 32,
+                                "start": 15,
                                 "end": 21
                             },
                             "operatorToken": {

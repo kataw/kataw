@@ -91,7 +91,7 @@ class x { constructor(){ return () => () => super.foo; }}
                                                         "kind": 342,
                                                         "parameters": [],
                                                         "trailingComma": false,
-                                                        "flags": 32,
+                                                        "flags": 0,
                                                         "start": 33,
                                                         "end": 33
                                                     },
@@ -110,7 +110,7 @@ class x { constructor(){ return () => () => super.foo; }}
                                                             "kind": 342,
                                                             "parameters": [],
                                                             "trailingComma": false,
-                                                            "flags": 32,
+                                                            "flags": 0,
                                                             "start": 39,
                                                             "end": 39
                                                         },

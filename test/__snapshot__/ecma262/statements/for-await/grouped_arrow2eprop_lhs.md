@@ -91,7 +91,7 @@ async function f(){
                                                 }
                                             ],
                                             "trailingComma": false,
-                                            "flags": 32,
+                                            "flags": 0,
                                             "start": 35,
                                             "end": 37
                                         },
@@ -120,8 +120,8 @@ async function f(){
                                         "start": 34,
                                         "end": 41
                                     },
-                                    "flags": 33,
-                                    "start": 32,
+                                    "flags": 32,
+                                    "start": 33,
                                     "end": 42
                                 },
                                 "expression": {
@@ -132,7 +132,7 @@ async function f(){
                                     "start": 43,
                                     "end": 44
                                 },
-                                "flags": 33,
+                                "flags": 32,
                                 "start": 33,
                                 "end": 44
                             },

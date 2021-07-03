@@ -31,8 +31,8 @@
                         "start": 1,
                         "end": 2
                     },
-                    "flags": 0,
-                    "start": 32,
+                    "flags": 32,
+                    "start": 0,
                     "end": 3
                 },
                 "operatorToken": {
@@ -53,8 +53,8 @@
                             "start": 7,
                             "end": 8
                         },
-                        "flags": 5,
-                        "start": 32,
+                        "flags": 32,
+                        "start": 5,
                         "end": 9
                     },
                     "operatorToken": {
@@ -97,8 +97,8 @@
                         "start": 17,
                         "end": 18
                     },
-                    "flags": 15,
-                    "start": 33,
+                    "flags": 32,
+                    "start": 15,
                     "end": 19
                 },
                 "operatorToken": {
@@ -119,8 +119,8 @@
                             "start": 23,
                             "end": 24
                         },
-                        "flags": 21,
-                        "start": 32,
+                        "flags": 32,
+                        "start": 21,
                         "end": 25
                     },
                     "operatorToken": {
@@ -163,8 +163,8 @@
                         "start": 32,
                         "end": 33
                     },
-                    "flags": 30,
-                    "start": 33,
+                    "flags": 32,
+                    "start": 30,
                     "end": 34
                 },
                 "operatorToken": {
@@ -185,8 +185,8 @@
                             "start": 39,
                             "end": 40
                         },
-                        "flags": 37,
-                        "start": 32,
+                        "flags": 32,
+                        "start": 37,
                         "end": 41
                     },
                     "operatorToken": {

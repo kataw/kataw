@@ -109,8 +109,8 @@ async function f3() {
                                             "start": 24,
                                             "end": 29
                                         },
-                                        "flags": 22,
-                                        "start": 32,
+                                        "flags": 32,
+                                        "start": 22,
                                         "end": 30
                                     },
                                     "questionToken": {
@@ -141,7 +141,7 @@ async function f3() {
                                         "start": 36,
                                         "end": 38
                                     },
-                                    "flags": 54,
+                                    "flags": 32,
                                     "start": 22,
                                     "end": 38
                                 },
@@ -279,8 +279,8 @@ async function f3() {
                                             "start": 70,
                                             "end": 77
                                         },
-                                        "flags": 68,
-                                        "start": 32,
+                                        "flags": 32,
+                                        "start": 68,
                                         "end": 78
                                     },
                                     "questionToken": {
@@ -311,7 +311,7 @@ async function f3() {
                                         "start": 84,
                                         "end": 86
                                     },
-                                    "flags": 100,
+                                    "flags": 32,
                                     "start": 68,
                                     "end": 86
                                 },
@@ -690,8 +690,8 @@ async function f3() {
                                             "start": 193,
                                             "end": 201
                                         },
-                                        "flags": 191,
-                                        "start": 32,
+                                        "flags": 32,
+                                        "start": 191,
                                         "end": 202
                                     },
                                     "questionToken": {
@@ -722,7 +722,7 @@ async function f3() {
                                         "start": 208,
                                         "end": 210
                                     },
-                                    "flags": 191,
+                                    "flags": 32,
                                     "start": 191,
                                     "end": 210
                                 },
@@ -1015,8 +1015,8 @@ async function f3() {
                                             "start": 298,
                                             "end": 305
                                         },
-                                        "flags": 296,
-                                        "start": 32,
+                                        "flags": 32,
+                                        "start": 296,
                                         "end": 306
                                     },
                                     "questionToken": {
@@ -1047,7 +1047,7 @@ async function f3() {
                                         "start": 312,
                                         "end": 314
                                     },
-                                    "flags": 296,
+                                    "flags": 32,
                                     "start": 296,
                                     "end": 314
                                 },
@@ -1180,9 +1180,9 @@ async function f3() {
 ```javascript
 
 function * f1() {
-  a =  ? 1 : 1;
+  a = (yield ) ? 1 : 1;
   a = yield  1 ? 1 : 1;
-  a =  ? 1 : 1;
+  a = (yield  1) ? 1 : 1;
   a = 1 ? yield  : yield ;
   a = 1 ? yield  1 : yield  1;
 }

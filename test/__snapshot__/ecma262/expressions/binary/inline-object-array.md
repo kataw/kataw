@@ -1367,7 +1367,7 @@ const obj = {
                                 "kind": 342,
                                 "parameters": [],
                                 "trailingComma": false,
-                                "flags": 32,
+                                "flags": 0,
                                 "start": 936,
                                 "end": 936
                             },
@@ -1617,8 +1617,8 @@ const obj = {
                                                     "start": 983,
                                                     "end": 1119
                                                 },
-                                                "flags": 983,
-                                                "start": 32,
+                                                "flags": 32,
+                                                "start": 983,
                                                 "end": 1123
                                             },
                                             "flags": 81,
@@ -1681,7 +1681,7 @@ const obj = {
                                 "kind": 342,
                                 "parameters": [],
                                 "trailingComma": false,
-                                "flags": 32,
+                                "flags": 0,
                                 "start": 1145,
                                 "end": 1145
                             },
@@ -1951,8 +1951,8 @@ const obj = {
                                                     "start": 1192,
                                                     "end": 1334
                                                 },
-                                                "flags": 1192,
-                                                "start": 32,
+                                                "flags": 32,
+                                                "start": 1192,
                                                 "end": 1338
                                             },
                                             "flags": 81,

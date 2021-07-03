@@ -121,8 +121,8 @@ const [selected] = ([true]: [boolean]);
                                 "start": 18,
                                 "end": 37
                             },
-                            "flags": 18,
-                            "start": 34,
+                            "flags": 32,
+                            "start": 18,
                             "end": 38
                         },
                         "flags": 16,

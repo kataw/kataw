@@ -64,7 +64,7 @@
                     "kind": 342,
                     "parameters": [],
                     "trailingComma": false,
-                    "flags": 32,
+                    "flags": 0,
                     "start": 4,
                     "end": 4
                 },

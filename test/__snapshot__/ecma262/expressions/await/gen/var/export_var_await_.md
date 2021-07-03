@@ -183,8 +183,8 @@ var await; var f = (async function() { export var await; });
                                 "start": 20,
                                 "end": 58
                             },
-                            "flags": 18,
-                            "start": 32,
+                            "flags": 32,
+                            "start": 18,
                             "end": 59
                         },
                         "flags": 16,

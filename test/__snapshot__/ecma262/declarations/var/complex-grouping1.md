@@ -134,7 +134,7 @@ var a: (number: number) => number = (number) => { return 123; }
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 32,
+                                "flags": 0,
                                 "start": 37,
                                 "end": 44
                             },

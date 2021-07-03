@@ -77,7 +77,7 @@ class C {
                                                         "kind": 342,
                                                         "parameters": [],
                                                         "trailingComma": false,
-                                                        "flags": 32,
+                                                        "flags": 0,
                                                         "start": 27,
                                                         "end": 27
                                                     },
@@ -144,8 +144,8 @@ class C {
                                                     "start": 26,
                                                     "end": 46
                                                 },
-                                                "flags": 20,
-                                                "start": 33,
+                                                "flags": 32,
+                                                "start": 20,
                                                 "end": 47
                                             },
                                             "flags": 16,

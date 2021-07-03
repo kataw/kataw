@@ -500,8 +500,8 @@ function f(x, ...y) { 'use strict' }
                     "start": 175,
                     "end": 205
                 },
-                "flags": 172,
-                "start": 33,
+                "flags": 32,
+                "start": 172,
                 "end": 206
             },
             "flags": 16,
@@ -586,8 +586,8 @@ function f(x, ...y) { 'use strict' }
                     "start": 210,
                     "end": 242
                 },
-                "flags": 207,
-                "start": 33,
+                "flags": 32,
+                "start": 207,
                 "end": 243
             },
             "flags": 16,
@@ -678,8 +678,8 @@ function f(x, ...y) { 'use strict' }
                     "start": 247,
                     "end": 281
                 },
-                "flags": 244,
-                "start": 33,
+                "flags": 32,
+                "start": 244,
                 "end": 282
             },
             "flags": 16,

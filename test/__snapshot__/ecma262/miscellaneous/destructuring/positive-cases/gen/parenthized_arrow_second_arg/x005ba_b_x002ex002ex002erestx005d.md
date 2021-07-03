@@ -117,7 +117,7 @@ var f = (argument1,[a,b,...rest]) => {};
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 34,
+                                "flags": 2,
                                 "start": 9,
                                 "end": 33
                             },

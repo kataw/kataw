@@ -184,8 +184,8 @@ var O = { p: 1 }, x = 10; ; (typeof O.p ** 10)
                     "start": 29,
                     "end": 45
                 },
-                "flags": 27,
-                "start": 32,
+                "flags": 32,
+                "start": 27,
                 "end": 46
             },
             "flags": 16,

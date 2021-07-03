@@ -86,8 +86,8 @@ function *f(x = delete ((package) = f)) {}
                                             "start": 25,
                                             "end": 32
                                         },
-                                        "flags": 24,
-                                        "start": 32,
+                                        "flags": 32,
+                                        "start": 24,
                                         "end": 33
                                     },
                                     "operatorToken": {
@@ -108,8 +108,8 @@ function *f(x = delete ((package) = f)) {}
                                     "start": 24,
                                     "end": 37
                                 },
-                                "flags": 22,
-                                "start": 32,
+                                "flags": 32,
+                                "start": 22,
                                 "end": 38
                             },
                             "flags": 32,

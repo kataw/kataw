@@ -93,7 +93,7 @@ const test = (names: string[]) =>
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 32,
+                                "flags": 0,
                                 "start": 14,
                                 "end": 30
                             },

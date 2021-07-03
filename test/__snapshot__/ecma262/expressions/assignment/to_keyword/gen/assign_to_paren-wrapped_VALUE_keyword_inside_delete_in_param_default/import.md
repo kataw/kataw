@@ -116,12 +116,12 @@ function *f(x = delete ((import) = f)) {}
                                         "start": 31,
                                         "end": 37
                                     },
-                                    "flags": 24,
-                                    "start": 32,
+                                    "flags": 32,
+                                    "start": 24,
                                     "end": 38
                                 },
-                                "flags": 22,
-                                "start": 32,
+                                "flags": 32,
+                                "start": 22,
                                 "end": 38
                             },
                             "flags": 32,

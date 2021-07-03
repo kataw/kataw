@@ -74,7 +74,7 @@ const f = (...x?) => {}
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 32,
+                                "flags": 0,
                                 "start": 11,
                                 "end": 17
                             },

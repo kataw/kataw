@@ -127,8 +127,8 @@ async(x?);
                     "start": 13,
                     "end": 22
                 },
-                "flags": 10,
-                "start": 33,
+                "flags": 32,
+                "start": 10,
                 "end": 23
             },
             "flags": 16,

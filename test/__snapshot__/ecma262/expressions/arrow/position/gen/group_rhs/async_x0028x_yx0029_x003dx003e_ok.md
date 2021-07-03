@@ -96,8 +96,8 @@ x * (async (x, y) => ok)
                         "start": 5,
                         "end": 23
                     },
-                    "flags": 3,
-                    "start": 32,
+                    "flags": 32,
+                    "start": 3,
                     "end": 24
                 },
                 "flags": 96,

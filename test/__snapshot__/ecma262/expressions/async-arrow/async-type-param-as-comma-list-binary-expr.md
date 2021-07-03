@@ -82,8 +82,8 @@ async  <T, U>(x) >> y - z;
                                     "start": 14,
                                     "end": 15
                                 },
-                                "flags": 13,
-                                "start": 32,
+                                "flags": 32,
+                                "start": 13,
                                 "end": 16
                             },
                             "operatorToken": {
@@ -120,7 +120,7 @@ async  <T, U>(x) >> y - z;
                                 "start": 21,
                                 "end": 25
                             },
-                            "flags": 45,
+                            "flags": 32,
                             "start": 16,
                             "end": 25
                         },

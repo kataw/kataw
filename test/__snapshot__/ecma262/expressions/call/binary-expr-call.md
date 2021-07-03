@@ -69,8 +69,8 @@ x<number>(y)
                         "start": 10,
                         "end": 11
                     },
-                    "flags": 9,
-                    "start": 32,
+                    "flags": 32,
+                    "start": 9,
                     "end": 12
                 },
                 "flags": 96,

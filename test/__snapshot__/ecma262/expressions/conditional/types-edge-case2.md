@@ -73,7 +73,7 @@ a ? (({b}) => {}) : c
                                 }
                             ],
                             "trailingComma": false,
-                            "flags": 34,
+                            "flags": 2,
                             "start": 6,
                             "end": 10
                         },
@@ -102,8 +102,8 @@ a ? (({b}) => {}) : c
                         "start": 5,
                         "end": 16
                     },
-                    "flags": 3,
-                    "start": 32,
+                    "flags": 32,
+                    "start": 3,
                     "end": 17
                 },
                 "colonToken": {
@@ -142,7 +142,9 @@ a ? (({b}) => {}) : c
 
 ```javascript
 
-a ?  : c;
+a ? (({
+    b
+  }) => {}) : c;
 
 ```
 

@@ -103,8 +103,8 @@ class x extends y{}(09)
                     "start": 20,
                     "end": 22
                 },
-                "flags": 19,
-                "start": 32,
+                "flags": 32,
+                "start": 19,
                 "end": 23
             },
             "flags": 16,

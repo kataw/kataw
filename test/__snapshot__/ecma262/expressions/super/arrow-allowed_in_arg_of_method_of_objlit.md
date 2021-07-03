@@ -124,7 +124,7 @@ x={ dsda(){ return (a=super[bar]) => a; }}
                                                                 }
                                                             ],
                                                             "trailingComma": false,
-                                                            "flags": 34,
+                                                            "flags": 2,
                                                             "start": 20,
                                                             "end": 33
                                                         },

@@ -34,8 +34,8 @@ for ((async) of [7]);
                     "start": 6,
                     "end": 11
                 },
-                "flags": 5,
-                "start": 32,
+                "flags": 32,
+                "start": 5,
                 "end": 12
             },
             "ofKeyword": {

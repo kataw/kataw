@@ -102,8 +102,8 @@ function *g(){ return x + (yield f); }
                                         "start": 27,
                                         "end": 34
                                     },
-                                    "flags": 25,
-                                    "start": 32,
+                                    "flags": 32,
+                                    "start": 25,
                                     "end": 35
                                 },
                                 "flags": 96,

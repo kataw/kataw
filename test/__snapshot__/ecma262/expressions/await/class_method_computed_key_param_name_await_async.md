@@ -244,7 +244,7 @@ async function f(){
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 35,
+                                    "flags": 2,
                                     "start": 23,
                                     "end": 62
                                 },
@@ -269,7 +269,7 @@ async function f(){
                                     "start": 65,
                                     "end": 68
                                 },
-                                "flags": 35,
+                                "flags": 34,
                                 "start": 19,
                                 "end": 68
                             },

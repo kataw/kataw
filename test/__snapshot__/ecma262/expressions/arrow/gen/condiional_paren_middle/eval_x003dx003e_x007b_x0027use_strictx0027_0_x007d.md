@@ -104,8 +104,8 @@ bar ? (eval => { 'use strict'; 0 }) : baz;
                         "start": 7,
                         "end": 34
                     },
-                    "flags": 5,
-                    "start": 32,
+                    "flags": 32,
+                    "start": 5,
                     "end": 35
                 },
                 "colonToken": {
@@ -144,7 +144,10 @@ bar ? (eval => { 'use strict'; 0 }) : baz;
 
 ```javascript
 
-bar ?  : baz;
+bar ? (eval => {
+'\'use strict\'';
+  0;
+}) : baz;
 
 ```
 

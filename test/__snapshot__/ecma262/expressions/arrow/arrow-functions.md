@@ -93,7 +93,7 @@ const bar9 = <T>(x) => {};
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 32,
+                                "flags": 0,
                                 "start": 14,
                                 "end": 32
                             },
@@ -202,7 +202,7 @@ const bar9 = <T>(x) => {};
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 32,
+                                "flags": 0,
                                 "start": 54,
                                 "end": 57
                             },
@@ -311,7 +311,7 @@ const bar9 = <T>(x) => {};
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 32,
+                                "flags": 0,
                                 "start": 79,
                                 "end": 90
                             },
@@ -428,7 +428,7 @@ const bar9 = <T>(x) => {};
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 32,
+                                "flags": 0,
                                 "start": 112,
                                 "end": 126
                             },
@@ -550,7 +550,7 @@ const bar9 = <T>(x) => {};
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 32,
+                                "flags": 0,
                                 "start": 148,
                                 "end": 165
                             },
@@ -703,7 +703,7 @@ const bar9 = <T>(x) => {};
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 32,
+                                "flags": 0,
                                 "start": 209,
                                 "end": 219
                             },
@@ -820,7 +820,7 @@ const bar9 = <T>(x) => {};
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 32,
+                                "flags": 0,
                                 "start": 241,
                                 "end": 251
                             },
@@ -932,7 +932,7 @@ const bar9 = <T>(x) => {};
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 32,
+                                "flags": 0,
                                 "start": 276,
                                 "end": 278
                             },

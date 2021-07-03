@@ -27,8 +27,8 @@
                     "start": 5,
                     "end": 11
                 },
-                "flags": 0,
-                "start": 32,
+                "flags": 32,
+                "start": 0,
                 "end": 17
             },
             "flags": 16,
@@ -49,7 +49,7 @@
 
 ```javascript
 
-(x/*2*/);
+(/*1*/x/*2*/);
 
 ```
 

@@ -99,8 +99,8 @@ async function foo(a = class extends (await b) {}) {};
                                             "start": 38,
                                             "end": 45
                                         },
-                                        "flags": 36,
-                                        "start": 32,
+                                        "flags": 32,
+                                        "start": 36,
                                         "end": 46
                                     },
                                     "typeParameter": null,

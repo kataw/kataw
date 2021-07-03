@@ -41,12 +41,12 @@
                                     "start": 2,
                                     "end": 5
                                 },
-                                "flags": 2,
-                                "start": 32,
+                                "flags": 32,
+                                "start": 2,
                                 "end": 5
                             },
-                            "flags": 1,
-                            "start": 32,
+                            "flags": 32,
+                            "start": 1,
                             "end": 5
                         },
                         "flags": 16,

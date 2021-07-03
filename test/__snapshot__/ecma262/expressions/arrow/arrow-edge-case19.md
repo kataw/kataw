@@ -114,7 +114,7 @@ a ? async (b) => (c => d) : e => f;
                                 }
                             ],
                             "trailingComma": false,
-                            "flags": 32,
+                            "flags": 0,
                             "start": 18,
                             "end": 29
                         },

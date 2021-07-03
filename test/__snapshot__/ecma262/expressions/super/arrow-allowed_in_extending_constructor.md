@@ -111,7 +111,7 @@ class x extends y { constructor(){ return () => super[bar]; }}
                                                         "kind": 342,
                                                         "parameters": [],
                                                         "trailingComma": false,
-                                                        "flags": 32,
+                                                        "flags": 0,
                                                         "start": 43,
                                                         "end": 43
                                                     },

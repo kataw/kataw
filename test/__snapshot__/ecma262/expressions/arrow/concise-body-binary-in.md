@@ -47,7 +47,7 @@ const t = () => ({
                                 "kind": 342,
                                 "parameters": [],
                                 "trailingComma": false,
-                                "flags": 32,
+                                "flags": 0,
                                 "start": 11,
                                 "end": 11
                             },
@@ -93,7 +93,7 @@ const t = () => ({
                                                             }
                                                         ],
                                                         "trailingComma": false,
-                                                        "flags": 32,
+                                                        "flags": 0,
                                                         "start": 25,
                                                         "end": 27
                                                     },
@@ -150,8 +150,8 @@ const t = () => ({
                                     "start": 17,
                                     "end": 39
                                 },
-                                "flags": 15,
-                                "start": 34,
+                                "flags": 32,
+                                "start": 15,
                                 "end": 40
                             },
                             "flags": 32,
@@ -185,7 +185,9 @@ const t = () => ({
 
 ```javascript
 
-const t = () => ;
+const t = () => ({
+  v : (v) => v in z
+});
 
 ```
 

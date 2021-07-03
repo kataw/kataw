@@ -65,7 +65,7 @@ var f = (): (number) => 123;
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 32,
+                                "flags": 0,
                                 "start": 9,
                                 "end": 20
                             },
@@ -168,7 +168,7 @@ var f = (): (number) => 123;
                                 "kind": 342,
                                 "parameters": [],
                                 "trailingComma": false,
-                                "flags": 32,
+                                "flags": 0,
                                 "start": 37,
                                 "end": 37
                             },

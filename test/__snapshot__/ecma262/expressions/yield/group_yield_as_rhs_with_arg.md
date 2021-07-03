@@ -131,7 +131,7 @@ function *g() { async (x = x + yield y); }
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 34,
+                                "flags": 32,
                                 "start": 15,
                                 "end": 15
                             },
