@@ -155,10 +155,10 @@ default /* comment 6 */ : /* comment 7 */ foo;
 ```javascript
 
 switch/* comment 1 */ (x)/* comment 2 */ {
-  case/* comment 3 */ y: 
+  case/* comment 3 */ y:/* comment 4 */ 
     foo;
    // comment 5
-  default/* comment 6 */: 
+  default/* comment 6 */:/* comment 7 */ 
     foo;
 }/* comment 8 */
  /* comment 9 */

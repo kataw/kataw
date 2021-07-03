@@ -837,7 +837,8 @@ function c<X: T> (x: $Keys<X>) {
       break;
     case '\'q\'': 
       break;
-    case '\'r\'': 
+    case '\'r\'':// error
+     
       break;
   }
   function a<A: '\'a\''> (a: A): void {

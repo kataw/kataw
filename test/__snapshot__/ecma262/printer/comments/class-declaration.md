@@ -1,5 +1,11 @@
 # Kataw parser test case
 
+## Options
+
+`````js
+{ jsx: true, disableWebCompat: true, allowTypes: true }
+`````
+
 ## Input
 
 `````js
@@ -9,11 +15,11 @@ class x {
     ;
     ;
     a = b
-    x: string
+    x /*2*/: /*3*/ string
 }
 
 
-class /*1*/ x /*2*/ {
+class /*1*/ y /*2*/ {
     ;
     ;/*3*/
     ;
@@ -125,38 +131,37 @@ class /*1*/ x /*2*/ {
                                 "end": 54
                             },
                             "optionalToken": null,
-                            "type": null,
+                            "type": {
+                                "kind": 139,
+                                "bitwiseOrToken": null,
+                                "bitwiseAndToken": null,
+                                "type": {
+                                    "kind": 134234347,
+                                    "flags": 2097216,
+                                    "start": 61,
+                                    "end": 74
+                                },
+                                "flags": 2097152,
+                                "start": 61,
+                                "end": 74
+                            },
                             "initializer": null,
                             "flags": 32,
                             "start": 48,
-                            "end": 54
+                            "end": 74
                         }
                     ],
                     "flags": 32,
                     "start": 9,
-                    "end": 54
+                    "end": 74
                 },
                 "flags": 7,
                 "start": 32,
-                "end": 54
+                "end": 76
             },
             "flags": 16,
             "start": 0,
-            "end": 54
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 134299649,
-                "text": "string",
-                "rawText": "string",
-                "flags": 96,
-                "start": 55,
-                "end": 62
-            },
-            "flags": 16,
-            "start": 55,
-            "end": 62
+            "end": 76
         },
         {
             "kind": 178,
@@ -165,16 +170,16 @@ class /*1*/ x /*2*/ {
             "classKeyword": {
                 "kind": 37822544,
                 "flags": 81,
-                "start": 64,
-                "end": 72
+                "start": 76,
+                "end": 84
             },
             "name": {
                 "kind": 134299649,
-                "text": "x",
-                "rawText": "x",
+                "text": "y",
+                "rawText": "y",
                 "flags": 96,
-                "start": 72,
-                "end": 80
+                "start": 84,
+                "end": 92
             },
             "typeParameters": null,
             "tail": {
@@ -186,26 +191,26 @@ class /*1*/ x /*2*/ {
                         {
                             "kind": 1108353041,
                             "flags": 65,
-                            "start": 88,
-                            "end": 94
-                        },
-                        {
-                            "kind": 1108353041,
-                            "flags": 65,
-                            "start": 94,
-                            "end": 100
-                        },
-                        {
-                            "kind": 1108353041,
-                            "flags": 65,
                             "start": 100,
-                            "end": 111
+                            "end": 106
                         },
                         {
                             "kind": 1108353041,
                             "flags": 65,
-                            "start": 111,
-                            "end": 117
+                            "start": 106,
+                            "end": 112
+                        },
+                        {
+                            "kind": 1108353041,
+                            "flags": 65,
+                            "start": 112,
+                            "end": 123
+                        },
+                        {
+                            "kind": 1108353041,
+                            "flags": 65,
+                            "start": 123,
+                            "end": 129
                         },
                         {
                             "kind": 280,
@@ -218,8 +223,8 @@ class /*1*/ x /*2*/ {
                                 "text": "a",
                                 "rawText": "a",
                                 "flags": 96,
-                                "start": 117,
-                                "end": 123
+                                "start": 129,
+                                "end": 135
                             },
                             "optionalToken": null,
                             "type": null,
@@ -228,12 +233,12 @@ class /*1*/ x /*2*/ {
                                 "text": "b",
                                 "rawText": "b",
                                 "flags": 96,
-                                "start": 130,
-                                "end": 137
+                                "start": 142,
+                                "end": 149
                             },
                             "flags": 32,
-                            "start": 117,
-                            "end": 137
+                            "start": 129,
+                            "end": 149
                         },
                         {
                             "kind": 280,
@@ -246,50 +251,49 @@ class /*1*/ x /*2*/ {
                                 "text": "x",
                                 "rawText": "x",
                                 "flags": 96,
-                                "start": 137,
-                                "end": 143
+                                "start": 149,
+                                "end": 155
                             },
                             "optionalToken": null,
-                            "type": null,
+                            "type": {
+                                "kind": 139,
+                                "bitwiseOrToken": null,
+                                "bitwiseAndToken": null,
+                                "type": {
+                                    "kind": 134234347,
+                                    "flags": 2097216,
+                                    "start": 161,
+                                    "end": 173
+                                },
+                                "flags": 2097152,
+                                "start": 161,
+                                "end": 173
+                            },
                             "initializer": null,
                             "flags": 32,
-                            "start": 137,
-                            "end": 143
+                            "start": 149,
+                            "end": 173
                         }
                     ],
                     "flags": 32,
-                    "start": 88,
-                    "end": 143
+                    "start": 100,
+                    "end": 173
                 },
-                "flags": 80,
+                "flags": 92,
                 "start": 32,
-                "end": 143
+                "end": 175
             },
             "flags": 17,
-            "start": 64,
-            "end": 143
-        },
-        {
-            "kind": 120,
-            "expression": {
-                "kind": 134299649,
-                "text": "string",
-                "rawText": "string",
-                "flags": 96,
-                "start": 149,
-                "end": 161
-            },
-            "flags": 16,
-            "start": 149,
-            "end": 161
+            "start": 76,
+            "end": 175
         }
     ],
     "isModule": false,
-    "source": "class x {\n    ;\n    ;/*1*/\n    ;\n    ;\n    a = b\n    x: string\n}\n\n\nclass /*1*/ x /*2*/ {\n    ;\n    ;/*3*/\n    ;\n    ;\n    a /*4*/= /*5*/b\n    x/*6*/: /*7*/string\n}\n",
+    "source": "class x {\n    ;\n    ;/*1*/\n    ;\n    ;\n    a = b\n    x /*2*/: /*3*/ string\n}\n\n\nclass /*1*/ y /*2*/ {\n    ;\n    ;/*3*/\n    ;\n    ;\n    a /*4*/= /*5*/b\n    x/*6*/: /*7*/string\n}\n",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,
-    "end": 164
+    "end": 176
 }
 ```
 
@@ -297,16 +301,28 @@ class /*1*/ x /*2*/ {
 
 ```javascript
 
+class x {
+  ;
+  ;/*1*/
+  ;
+  ;
+  a = b
+  x/*2*/:/*3*/ string
+}
+class/*1*/ y/*2*/ {
+  ;
+  ;/*3*/
+  ;
+  ;
+  a/*4*/ =/*5*/ b
+  x/*6*/:/*7*/ string
+}
+
 ```
 
 ### Diagnostics
 
 ```javascript
-✖ The parser expected to find a '}' to match the '{' token here - start: 54, end: 55
-✖ Declaration or statement expected - start: 62, end: 64
-✖ Duplicate identifier - start: 72, end: 80
-✖ The parser expected to find a '}' to match the '{' token here - start: 148, end: 149
-✖ Declaration or statement expected - start: 161, end: 163
-
+✔ No errors
 ```
 

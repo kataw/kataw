@@ -377,15 +377,18 @@ function getSecurity(level) {
     // Zero
     case 1: 
     // one
-    case 2: 
+    case 2:// two
+     
       return '"Hi"';
     case 3: 
     // three
-    case 4: 
+    case 4:// four
+     
       return '"hello"';
     case 5: 
     // five
-    default: 
+    default:// default
+     
       return '"world"';
   }
 }

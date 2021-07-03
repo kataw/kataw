@@ -24,6 +24,8 @@
 
 (...a/*1*/: /*2*/ string, [/*2*/])=>x;
 
+(/*1*/x/*2*/,/*3*/) => {}
+
 (
 
 /*1*/
@@ -609,42 +611,94 @@
                 "typeParameters": null,
                 "arrowPatameterList": {
                     "kind": 342,
-                    "parameters": [],
+                    "parameters": [
+                        {
+                            "kind": 134299649,
+                            "text": "x",
+                            "rawText": "x",
+                            "flags": 96,
+                            "start": 227,
+                            "end": 233
+                        }
+                    ],
                     "trailingComma": false,
                     "flags": 0,
                     "start": 227,
-                    "end": 227
+                    "end": 245
                 },
                 "returnType": null,
                 "arrowToken": {
                     "kind": 10,
                     "flags": 64,
-                    "start": 238,
-                    "end": 240
+                    "start": 245,
+                    "end": 248
+                },
+                "contents": {
+                    "kind": 216,
+                    "functionStatementList": {
+                        "kind": 217,
+                        "directives": [],
+                        "statements": [],
+                        "flags": 32,
+                        "start": 250,
+                        "end": 250
+                    },
+                    "flags": 32,
+                    "start": 248,
+                    "end": 251
+                },
+                "flags": 32,
+                "start": 224,
+                "end": 251
+            },
+            "flags": 16,
+            "start": 224,
+            "end": 251
+        },
+        {
+            "kind": 120,
+            "expression": {
+                "kind": 271,
+                "asyncKeyword": null,
+                "typeParameters": null,
+                "arrowPatameterList": {
+                    "kind": 342,
+                    "parameters": [],
+                    "trailingComma": false,
+                    "flags": 0,
+                    "start": 254,
+                    "end": 254
+                },
+                "returnType": null,
+                "arrowToken": {
+                    "kind": 10,
+                    "flags": 64,
+                    "start": 265,
+                    "end": 267
                 },
                 "contents": {
                     "kind": 134299649,
                     "text": "x",
                     "rawText": "x",
                     "flags": 96,
-                    "start": 240,
-                    "end": 241
+                    "start": 267,
+                    "end": 268
                 },
                 "flags": 32,
-                "start": 224,
-                "end": 241
+                "start": 251,
+                "end": 268
             },
             "flags": 16,
-            "start": 224,
-            "end": 241
+            "start": 251,
+            "end": 268
         }
     ],
     "isModule": false,
-    "source": "\n(/*1*/)=>x;\n\n(a/*1*/)=>x;\n\n(/*1*/a/*2*/)=>x;\n\n(/*1*/a/*2*/)=>x;\n\n(/*1*/a/*2*/)=>x;\n\n(a/*1*/, /*2*/b)=>x;\n\n(a/*1*/,/*2*/)=>x;\n\n(a/*1*/: /*2*/ string)=>x;\n\n(...a/*1*/: /*2*/ string)=>x;\n\n(...a/*1*/: /*2*/ string, [/*2*/])=>x;\n\n(\n\n/*1*/\n\n\n)=>x\n",
+    "source": "\n(/*1*/)=>x;\n\n(a/*1*/)=>x;\n\n(/*1*/a/*2*/)=>x;\n\n(/*1*/a/*2*/)=>x;\n\n(/*1*/a/*2*/)=>x;\n\n(a/*1*/, /*2*/b)=>x;\n\n(a/*1*/,/*2*/)=>x;\n\n(a/*1*/: /*2*/ string)=>x;\n\n(...a/*1*/: /*2*/ string)=>x;\n\n(...a/*1*/: /*2*/ string, [/*2*/])=>x;\n\n(/*1*/x/*2*/,/*3*/) => {}\n\n(\n\n/*1*/\n\n\n)=>x\n",
     "fileName": "__root__",
     "flags": 0,
     "start": 0,
-    "end": 242
+    "end": 269
 }
 ```
 
@@ -662,6 +716,7 @@
 (a/*1*/:/*2*/ string) => x;
 (...a/*1*/:/*2*/ string) => x;
 (...a/*1*/:/*2*/ string, [/*2*/]) => x;
+(/*1*/x/*2*/) => {};
 (
  /*1*/
 ) => x;
