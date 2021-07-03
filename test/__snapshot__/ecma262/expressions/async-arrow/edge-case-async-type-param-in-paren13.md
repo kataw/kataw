@@ -74,8 +74,8 @@ async <T>[(x)];
                                         "start": 11,
                                         "end": 12
                                     },
-                                    "flags": 32,
-                                    "start": 10,
+                                    "flags": 10,
+                                    "start": 32,
                                     "end": 13
                                 }
                             ],
@@ -151,8 +151,8 @@ async <T>[(x)];
                                             "start": 29,
                                             "end": 30
                                         },
-                                        "flags": 32,
-                                        "start": 28,
+                                        "flags": 28,
+                                        "start": 32,
                                         "end": 31
                                     }
                                 ],
@@ -173,8 +173,8 @@ async <T>[(x)];
                     "start": 18,
                     "end": 32
                 },
-                "flags": 32,
-                "start": 15,
+                "flags": 15,
+                "start": 33,
                 "end": 33
             },
             "flags": 16,

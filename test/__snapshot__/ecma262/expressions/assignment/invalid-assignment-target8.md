@@ -40,8 +40,8 @@ for (({}) of y) ;
                     "start": 6,
                     "end": 8
                 },
-                "flags": 32,
-                "start": 5,
+                "flags": 5,
+                "start": 34,
                 "end": 9
             },
             "ofKeyword": {

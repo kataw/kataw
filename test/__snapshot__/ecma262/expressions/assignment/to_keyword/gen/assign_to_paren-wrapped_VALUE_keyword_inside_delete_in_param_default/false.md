@@ -84,8 +84,8 @@ function *f(x = delete ((false) = f)) {}
                                             "start": 25,
                                             "end": 30
                                         },
-                                        "flags": 32,
-                                        "start": 24,
+                                        "flags": 24,
+                                        "start": 32,
                                         "end": 31
                                     },
                                     "operatorToken": {
@@ -106,8 +106,8 @@ function *f(x = delete ((false) = f)) {}
                                     "start": 24,
                                     "end": 35
                                 },
-                                "flags": 32,
-                                "start": 22,
+                                "flags": 22,
+                                "start": 32,
                                 "end": 36
                             },
                             "flags": 32,

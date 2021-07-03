@@ -61,8 +61,8 @@ async x => (package) = 1
                             "start": 12,
                             "end": 19
                         },
-                        "flags": 32,
-                        "start": 10,
+                        "flags": 10,
+                        "start": 32,
                         "end": 20
                     },
                     "operatorToken": {

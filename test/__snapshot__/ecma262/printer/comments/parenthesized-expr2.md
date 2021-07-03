@@ -37,8 +37,8 @@ a
                     "start": 5,
                     "end": 20
                 },
-                "flags": 32,
-                "start": 0,
+                "flags": 0,
+                "start": 32,
                 "end": 29
             },
             "flags": 16,
@@ -59,7 +59,7 @@ a
 
 ```javascript
 
-(
+ /*2*/(
  /*1*/
 a);
  /*2*/

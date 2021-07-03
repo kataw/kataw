@@ -50,7 +50,7 @@ a ? b : (): string => {}
                         "kind": 342,
                         "parameters": [],
                         "trailingComma": false,
-                        "flags": 0,
+                        "flags": 32,
                         "start": 6,
                         "end": 6
                     },
@@ -264,7 +264,7 @@ a ? b : (): string => {}
                         "kind": 342,
                         "parameters": [],
                         "trailingComma": false,
-                        "flags": 0,
+                        "flags": 32,
                         "start": 70,
                         "end": 70
                     },
@@ -343,7 +343,7 @@ a ? b : (): string => {}
                     "kind": 342,
                     "parameters": [],
                     "trailingComma": false,
-                    "flags": 0,
+                    "flags": 32,
                     "start": 91,
                     "end": 91
                 },
@@ -418,7 +418,7 @@ a ? b : (): string => {}
                     "kind": 342,
                     "parameters": [],
                     "trailingComma": false,
-                    "flags": 0,
+                    "flags": 33,
                     "start": 110,
                     "end": 110
                 },
@@ -523,7 +523,7 @@ a ? b : (): string => {}
                         "kind": 342,
                         "parameters": [],
                         "trailingComma": false,
-                        "flags": 0,
+                        "flags": 32,
                         "start": 137,
                         "end": 137
                     },

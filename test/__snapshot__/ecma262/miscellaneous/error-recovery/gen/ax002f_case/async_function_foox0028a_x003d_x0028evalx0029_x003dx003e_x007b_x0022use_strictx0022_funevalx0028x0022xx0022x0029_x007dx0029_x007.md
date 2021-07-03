@@ -81,7 +81,7 @@ async function foo(a = (eval) => { "use strict"; funeval("x"); }) {}
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 24,
                                 "end": 29
                             },

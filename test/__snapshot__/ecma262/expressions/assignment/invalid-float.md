@@ -37,7 +37,7 @@ x = 1.0n;
                     "kind": 201392400,
                     "text": "1.0",
                     "rawText": "1.0n",
-                    "flags": 96,
+                    "flags": 32864,
                     "start": 3,
                     "end": 8
                 },

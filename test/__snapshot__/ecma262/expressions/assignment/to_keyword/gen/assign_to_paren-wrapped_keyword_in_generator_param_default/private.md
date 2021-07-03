@@ -76,8 +76,8 @@ function *f(x = (private) = f) {}
                                     "start": 17,
                                     "end": 24
                                 },
-                                "flags": 32,
-                                "start": 15,
+                                "flags": 15,
+                                "start": 32,
                                 "end": 25
                             },
                             "operatorToken": {

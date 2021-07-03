@@ -86,8 +86,8 @@ function *f(x = delete ((public) = f)) {}
                                             "start": 25,
                                             "end": 31
                                         },
-                                        "flags": 32,
-                                        "start": 24,
+                                        "flags": 24,
+                                        "start": 32,
                                         "end": 32
                                     },
                                     "operatorToken": {
@@ -108,8 +108,8 @@ function *f(x = delete ((public) = f)) {}
                                     "start": 24,
                                     "end": 36
                                 },
-                                "flags": 32,
-                                "start": 22,
+                                "flags": 22,
+                                "start": 32,
                                 "end": 37
                             },
                             "flags": 32,

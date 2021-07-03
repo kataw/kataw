@@ -55,7 +55,7 @@ var a = (b) => c;
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 9,
                                 "end": 11
                             },

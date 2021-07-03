@@ -203,7 +203,7 @@ const fn: ( Object, Object Object ) => void = ( o1, o2, ) => o1;
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 47,
                                 "end": 57
                             },

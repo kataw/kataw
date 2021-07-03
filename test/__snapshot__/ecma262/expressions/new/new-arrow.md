@@ -42,7 +42,7 @@ new (x)=>{}
                             }
                         ],
                         "trailingComma": false,
-                        "flags": 0,
+                        "flags": 32,
                         "start": 5,
                         "end": 7
                     },

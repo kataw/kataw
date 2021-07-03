@@ -524,7 +524,7 @@ function processArgs<A1: {}, A2: {}>(
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 0,
+                                    "flags": 32,
                                     "start": 174,
                                     "end": 243
                                 },
@@ -855,7 +855,7 @@ function processArgs<A1: {}, A2: {}>(
                                             }
                                         ],
                                         "trailingComma": false,
-                                        "flags": 0,
+                                        "flags": 32,
                                         "start": 248,
                                         "end": 321
                                     },

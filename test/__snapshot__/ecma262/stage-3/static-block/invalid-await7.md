@@ -440,8 +440,8 @@ class C {
                                                     "start": 394,
                                                     "end": 413
                                                 },
-                                                "flags": 32,
-                                                "start": 388,
+                                                "flags": 388,
+                                                "start": 33,
                                                 "end": 414
                                             },
                                             "flags": 16,
@@ -488,8 +488,8 @@ class C {
                                                     "start": 500,
                                                     "end": 514
                                                 },
-                                                "flags": 32,
-                                                "start": 415,
+                                                "flags": 415,
+                                                "start": 33,
                                                 "end": 515
                                             },
                                             "flags": 16,
@@ -560,8 +560,8 @@ class C {
                                                     "start": 598,
                                                     "end": 627
                                                 },
-                                                "flags": 32,
-                                                "start": 516,
+                                                "flags": 516,
+                                                "start": 33,
                                                 "end": 628
                                             },
                                             "flags": 16,
@@ -580,7 +580,7 @@ class C {
                                                         "kind": 342,
                                                         "parameters": [],
                                                         "trailingComma": false,
-                                                        "flags": 0,
+                                                        "flags": 32,
                                                         "start": 691,
                                                         "end": 691
                                                     },
@@ -603,8 +603,8 @@ class C {
                                                     "start": 690,
                                                     "end": 701
                                                 },
-                                                "flags": 32,
-                                                "start": 629,
+                                                "flags": 629,
+                                                "start": 33,
                                                 "end": 702
                                             },
                                             "flags": 16,

@@ -145,8 +145,8 @@ var x, y, z; ({ super } = {});
                     "start": 14,
                     "end": 28
                 },
-                "flags": 32,
-                "start": 12,
+                "flags": 12,
+                "start": 34,
                 "end": 29
             },
             "flags": 16,

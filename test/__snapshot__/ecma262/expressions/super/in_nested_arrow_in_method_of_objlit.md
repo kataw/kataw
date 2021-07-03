@@ -86,7 +86,7 @@ x={ foo(){ return () => function() { super.foo; } }}
                                                             "kind": 342,
                                                             "parameters": [],
                                                             "trailingComma": false,
-                                                            "flags": 0,
+                                                            "flags": 32,
                                                             "start": 19,
                                                             "end": 19
                                                         },

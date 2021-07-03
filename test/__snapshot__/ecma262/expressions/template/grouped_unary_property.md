@@ -41,8 +41,8 @@
                         "start": 1,
                         "end": 3
                     },
-                    "flags": 32,
-                    "start": 0,
+                    "flags": 0,
+                    "start": 32,
                     "end": 4
                 },
                 "expression": {
@@ -75,7 +75,7 @@
 
 ```javascript
 
-(! t).y;
+.y;
 
 ```
 

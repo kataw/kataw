@@ -120,7 +120,7 @@ let x: (y) => void = () => {}
                                 "kind": 342,
                                 "parameters": [],
                                 "trailingComma": false,
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 22,
                                 "end": 22
                             },

@@ -44,7 +44,7 @@
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 0,
+                    "flags": 32,
                     "start": 1,
                     "end": 9
                 },
@@ -117,7 +117,7 @@
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 0,
+                    "flags": 33,
                     "start": 18,
                     "end": 29
                 },
@@ -155,7 +155,7 @@
                     "start": 32,
                     "end": 35
                 },
-                "flags": 32,
+                "flags": 33,
                 "start": 15,
                 "end": 35
             },

@@ -73,7 +73,7 @@ function *f(){  (await) => x  }
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 0,
+                                    "flags": 32,
                                     "start": 17,
                                     "end": 23
                                 },

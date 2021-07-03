@@ -180,8 +180,8 @@ function not_gen() { (function * () { x = class extends (a ? null : yield) { } }
                                                                             "start": 55,
                                                                             "end": 73
                                                                         },
-                                                                        "flags": 32,
-                                                                        "start": 55,
+                                                                        "flags": 55,
+                                                                        "start": 32,
                                                                         "end": 74
                                                                     },
                                                                     "typeParameter": null,
@@ -226,8 +226,8 @@ function not_gen() { (function * () { x = class extends (a ? null : yield) { } }
                                     "start": 22,
                                     "end": 80
                                 },
-                                "flags": 32,
-                                "start": 20,
+                                "flags": 20,
+                                "start": 32,
                                 "end": 81
                             },
                             "flags": 16,

@@ -90,8 +90,8 @@ export default (async function await() {})
                     "start": 16,
                     "end": 41
                 },
-                "flags": 32,
-                "start": 14,
+                "flags": 14,
+                "start": 32,
                 "end": 42
             },
             "flags": 16,

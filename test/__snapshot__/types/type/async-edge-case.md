@@ -91,8 +91,8 @@ x
                                             "start": 18,
                                             "end": 19
                                         },
-                                        "flags": 32,
-                                        "start": 17,
+                                        "flags": 17,
+                                        "start": 32,
                                         "end": 20
                                     }
                                 ],
@@ -113,8 +113,8 @@ x
                     "start": 1,
                     "end": 21
                 },
-                "flags": 32,
-                "start": 0,
+                "flags": 0,
+                "start": 32,
                 "end": 22
             },
             "flags": 16,
@@ -173,8 +173,8 @@ x
                                 "start": 41,
                                 "end": 42
                             },
-                            "flags": 32,
-                            "start": 40,
+                            "flags": 40,
+                            "start": 32,
                             "end": 43
                         },
                         "flags": 48,
@@ -185,8 +185,8 @@ x
                     "start": 26,
                     "end": 43
                 },
-                "flags": 32,
-                "start": 23,
+                "flags": 23,
+                "start": 33,
                 "end": 44
             },
             "flags": 16,
@@ -254,8 +254,8 @@ x
                                     "start": 66,
                                     "end": 67
                                 },
-                                "flags": 32,
-                                "start": 65,
+                                "flags": 65,
+                                "start": 32,
                                 "end": 68
                             },
                             "operatorToken": {
@@ -292,7 +292,7 @@ x
                                 "start": 73,
                                 "end": 89
                             },
-                            "flags": 32,
+                            "flags": 97,
                             "start": 68,
                             "end": 89
                         },
@@ -361,8 +361,8 @@ x
                                 "start": 105,
                                 "end": 115
                             },
-                            "flags": 32,
-                            "start": 104,
+                            "flags": 104,
+                            "start": 32,
                             "end": 126
                         },
                         "flags": 96,
@@ -373,8 +373,8 @@ x
                     "start": 95,
                     "end": 126
                 },
-                "flags": 32,
-                "start": 91,
+                "flags": 91,
+                "start": 33,
                 "end": 127
             },
             "flags": 16,
@@ -395,11 +395,11 @@ x
 
 ```javascript
 
-(async/*1*/  < T > [(x),]);
-(async  < {/*1*/} > (x));
-async  < T, /*1*/U > (x) >> y/*2*/ -/*3*/ z;
+(/*1*/async/*1*/  < T > [(/*1*/x),]);
+(async  < {/*1*/} > (/*1*/x));
+async  < T, /*1*/U > (/*1*/x) >> y/*2*/ -/*3*/ z;
 ;
-(async  < T > (
+(async  < T > (/*1*/
  /*1*/
 x
  /*2*/

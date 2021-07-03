@@ -58,8 +58,8 @@ async (x = (true) = f) => {}
                                     "start": 12,
                                     "end": 16
                                 },
-                                "flags": 32,
-                                "start": 10,
+                                "flags": 10,
+                                "start": 32,
                                 "end": 17
                             },
                             "operatorToken": {

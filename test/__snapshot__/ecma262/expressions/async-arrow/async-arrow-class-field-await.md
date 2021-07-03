@@ -221,7 +221,7 @@ async( x = class { x = await });
                     }
                 ],
                 "trailingComma": false,
-                "flags": 32,
+                "flags": 34,
                 "start": 36,
                 "end": 36
             },

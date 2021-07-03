@@ -88,8 +88,8 @@ function *f(x = (typeof) = f) {}
                                     "start": 17,
                                     "end": 23
                                 },
-                                "flags": 32,
-                                "start": 15,
+                                "flags": 15,
+                                "start": 32,
                                 "end": 24
                             },
                             "operatorToken": {

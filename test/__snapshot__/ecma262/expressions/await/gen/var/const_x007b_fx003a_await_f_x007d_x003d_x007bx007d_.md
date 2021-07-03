@@ -217,8 +217,8 @@ var await; var f = (async function() { const { f: await f } = {}; });
                                 "start": 20,
                                 "end": 67
                             },
-                            "flags": 32,
-                            "start": 18,
+                            "flags": 18,
+                            "start": 32,
                             "end": 68
                         },
                         "flags": 16,

@@ -98,8 +98,8 @@ async g => (x = [await y])
                         "start": 10,
                         "end": 25
                     },
-                    "flags": 32,
-                    "start": 10,
+                    "flags": 10,
+                    "start": 34,
                     "end": 26
                 },
                 "flags": 288,
@@ -124,7 +124,7 @@ async g => (x = [await y])
 
 ```javascript
 
-async g => (x = [await y,]);
+async g => ;
 
 ```
 

@@ -109,8 +109,8 @@ async (x = (function) = f) => {}
                                 "start": 12,
                                 "end": 25
                             },
-                            "flags": 32,
-                            "start": 10,
+                            "flags": 10,
+                            "start": 32,
                             "end": 26
                         },
                         "flags": 32,

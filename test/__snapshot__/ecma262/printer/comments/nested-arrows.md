@@ -229,7 +229,7 @@ runtimeAgent.getProperties(
                                                     }
                                                 ],
                                                 "trailingComma": false,
-                                                "flags": 0,
+                                                "flags": 32,
                                                 "start": 79,
                                                 "end": 98
                                             },
@@ -551,7 +551,7 @@ runtimeAgent.getProperties(
                                                     }
                                                 ],
                                                 "trailingComma": false,
-                                                "flags": 0,
+                                                "flags": 32,
                                                 "start": 308,
                                                 "end": 324
                                             },
@@ -600,7 +600,7 @@ runtimeAgent.getProperties(
                                                                     }
                                                                 ],
                                                                 "trailingComma": false,
-                                                                "flags": 0,
+                                                                "flags": 32,
                                                                 "start": 338,
                                                                 "end": 350
                                                             },
@@ -867,7 +867,7 @@ runtimeAgent.getProperties(
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 0,
+                                "flags": 33,
                                 "start": 584,
                                 "end": 622
                             },
@@ -913,7 +913,7 @@ runtimeAgent.getProperties(
                                 "start": 625,
                                 "end": 648
                             },
-                            "flags": 32,
+                            "flags": 33,
                             "start": 559,
                             "end": 648
                         }

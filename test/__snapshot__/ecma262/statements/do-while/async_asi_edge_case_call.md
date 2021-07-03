@@ -39,7 +39,7 @@ do async
                     "kind": 256,
                     "elements": [],
                     "trailingComma": false,
-                    "flags": 32,
+                    "flags": 33,
                     "start": 2,
                     "end": 2
                 },

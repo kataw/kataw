@@ -70,8 +70,8 @@ async (x = delete ((private) = f)) => {}
                                             "start": 20,
                                             "end": 27
                                         },
-                                        "flags": 32,
-                                        "start": 19,
+                                        "flags": 19,
+                                        "start": 32,
                                         "end": 28
                                     },
                                     "operatorToken": {
@@ -92,8 +92,8 @@ async (x = delete ((private) = f)) => {}
                                     "start": 19,
                                     "end": 32
                                 },
-                                "flags": 32,
-                                "start": 17,
+                                "flags": 17,
+                                "start": 32,
                                 "end": 33
                             },
                             "flags": 32,

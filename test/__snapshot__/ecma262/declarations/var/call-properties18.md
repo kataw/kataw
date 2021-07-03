@@ -141,7 +141,7 @@ var a: { (x: number): string } = (x) => x.toString()
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 34,
                                 "end": 36
                             },

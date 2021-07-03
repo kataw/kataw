@@ -92,8 +92,8 @@ function *f(){ return { ...(yield) } }
                                                     "start": 28,
                                                     "end": 33
                                                 },
-                                                "flags": 32,
-                                                "start": 27,
+                                                "flags": 27,
+                                                "start": 32,
                                                 "end": 34
                                             },
                                             "flags": 1073741856,

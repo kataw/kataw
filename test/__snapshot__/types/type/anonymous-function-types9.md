@@ -63,7 +63,7 @@ var f = (x): (x: number) => 123 => 123;
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 9,
                                 "end": 31
                             },

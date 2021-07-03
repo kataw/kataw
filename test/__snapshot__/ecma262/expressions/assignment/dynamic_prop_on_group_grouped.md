@@ -58,8 +58,8 @@
                                             "start": 2,
                                             "end": 6
                                         },
-                                        "flags": 32,
-                                        "start": 2,
+                                        "flags": 2,
+                                        "start": 32,
                                         "end": 7
                                     },
                                     "expression": {
@@ -102,8 +102,8 @@
                     "start": 1,
                     "end": 16
                 },
-                "flags": 32,
-                "start": 0,
+                "flags": 0,
+                "start": 34,
                 "end": 17
             },
             "flags": 16,
@@ -124,7 +124,7 @@
 
 ```javascript
 
-([(x())[y],] = z);
+([[y],] = z);
 
 ```
 

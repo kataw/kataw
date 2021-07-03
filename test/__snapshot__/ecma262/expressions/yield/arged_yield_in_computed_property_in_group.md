@@ -147,7 +147,7 @@ function *g(){ async (x = {[yield y]: 1}) }
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 32,
+                                "flags": 34,
                                 "start": 14,
                                 "end": 14
                             },

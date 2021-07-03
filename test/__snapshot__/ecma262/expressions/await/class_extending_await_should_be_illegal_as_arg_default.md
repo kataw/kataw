@@ -150,7 +150,7 @@ async function f(){    (fail = class A extends await foo {}) => fail    }
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 2,
+                                    "flags": 34,
                                     "start": 24,
                                     "end": 60
                                 },

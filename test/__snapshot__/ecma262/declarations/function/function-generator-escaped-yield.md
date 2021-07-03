@@ -93,8 +93,8 @@ function *foo() { (x = \u0079ield) }
                                     "start": 17,
                                     "end": 33
                                 },
-                                "flags": 32,
-                                "start": 17,
+                                "flags": 17,
+                                "start": 34,
                                 "end": 34
                             },
                             "flags": 16,

@@ -951,7 +951,7 @@ async (...[x]?: string, a?) => {};
                     }
                 ],
                 "trailingComma": false,
-                "flags": 32,
+                "flags": 34,
                 "start": 250,
                 "end": 250
             },

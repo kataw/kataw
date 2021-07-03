@@ -157,8 +157,8 @@ for ((async) of x);
                     "start": 53,
                     "end": 58
                 },
-                "flags": 32,
-                "start": 52,
+                "flags": 52,
+                "start": 32,
                 "end": 59
             },
             "ofKeyword": {

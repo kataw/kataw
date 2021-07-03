@@ -86,8 +86,8 @@ function *f(x = delete ((implements) = f)) {}
                                             "start": 25,
                                             "end": 35
                                         },
-                                        "flags": 32,
-                                        "start": 24,
+                                        "flags": 24,
+                                        "start": 32,
                                         "end": 36
                                     },
                                     "operatorToken": {
@@ -108,8 +108,8 @@ function *f(x = delete ((implements) = f)) {}
                                     "start": 24,
                                     "end": 40
                                 },
-                                "flags": 32,
-                                "start": 22,
+                                "flags": 22,
+                                "start": 32,
                                 "end": 41
                             },
                             "flags": 32,

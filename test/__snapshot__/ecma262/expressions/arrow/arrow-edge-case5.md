@@ -78,7 +78,7 @@ a ? (b = (c) => d) : e => f : g;
                                             }
                                         ],
                                         "trailingComma": false,
-                                        "flags": 0,
+                                        "flags": 32,
                                         "start": 10,
                                         "end": 12
                                     },
@@ -107,7 +107,7 @@ a ? (b = (c) => d) : e => f : g;
                             }
                         ],
                         "trailingComma": false,
-                        "flags": 2,
+                        "flags": 34,
                         "start": 5,
                         "end": 22
                     },

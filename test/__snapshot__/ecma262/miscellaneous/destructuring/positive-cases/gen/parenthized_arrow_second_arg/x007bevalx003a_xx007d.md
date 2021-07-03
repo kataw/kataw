@@ -101,7 +101,7 @@ var f = (argument1,{eval: x}) => {};
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 2,
+                                "flags": 34,
                                 "start": 9,
                                 "end": 29
                             },

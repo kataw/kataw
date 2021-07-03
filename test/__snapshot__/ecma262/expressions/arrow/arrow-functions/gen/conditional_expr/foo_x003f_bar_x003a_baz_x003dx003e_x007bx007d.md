@@ -114,8 +114,8 @@ bar ? (foo ? bar : baz => {}) : baz;
                         "start": 5,
                         "end": 28
                     },
-                    "flags": 32,
-                    "start": 5,
+                    "flags": 5,
+                    "start": 32,
                     "end": 29
                 },
                 "colonToken": {
@@ -154,7 +154,7 @@ bar ? (foo ? bar : baz => {}) : baz;
 
 ```javascript
 
-bar ? (foo ? bar : baz => {}) : baz;
+bar ?  : baz;
 
 ```
 

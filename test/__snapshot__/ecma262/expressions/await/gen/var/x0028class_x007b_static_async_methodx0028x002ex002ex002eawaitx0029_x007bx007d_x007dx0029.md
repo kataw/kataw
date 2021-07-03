@@ -235,8 +235,8 @@ var await; var f = (async function() { (class { static async method(...await) {}
                                                         "start": 40,
                                                         "end": 82
                                                     },
-                                                    "flags": 32,
-                                                    "start": 38,
+                                                    "flags": 38,
+                                                    "start": 32,
                                                     "end": 83
                                                 },
                                                 "flags": 16,
@@ -257,8 +257,8 @@ var await; var f = (async function() { (class { static async method(...await) {}
                                 "start": 20,
                                 "end": 85
                             },
-                            "flags": 32,
-                            "start": 18,
+                            "flags": 18,
+                            "start": 32,
                             "end": 86
                         },
                         "flags": 16,

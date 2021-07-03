@@ -90,8 +90,8 @@ async (x = delete ((instanceof) = f)) => {}
                                             "start": 20,
                                             "end": 30
                                         },
-                                        "flags": 32,
-                                        "start": 19,
+                                        "flags": 19,
+                                        "start": 32,
                                         "end": 31
                                     },
                                     "operatorToken": {
@@ -112,8 +112,8 @@ async (x = delete ((instanceof) = f)) => {}
                                     "start": 19,
                                     "end": 35
                                 },
-                                "flags": 32,
-                                "start": 17,
+                                "flags": 17,
+                                "start": 32,
                                 "end": 36
                             },
                             "flags": 32,

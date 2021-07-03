@@ -305,7 +305,7 @@ var y: Array<string> = ['3', ...x];
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 58,
                                 "end": 63
                             },
@@ -416,7 +416,7 @@ var y: Array<string> = ['3', ...x];
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 83,
                                 "end": 88
                             },

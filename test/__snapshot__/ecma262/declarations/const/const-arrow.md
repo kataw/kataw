@@ -99,7 +99,7 @@ const foo = (foo?: bar) => {};
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 13,
                                 "end": 23
                             },

@@ -112,7 +112,7 @@ function *f(){ ({x} = yield) => {} }
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 2,
+                                    "flags": 34,
                                     "start": 16,
                                     "end": 28
                                 },

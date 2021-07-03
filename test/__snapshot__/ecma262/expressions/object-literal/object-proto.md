@@ -486,7 +486,7 @@ x = {async __proto__(){}, *__proto__(){}};
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 2,
+                    "flags": 35,
                     "start": 115,
                     "end": 146
                 },
@@ -511,7 +511,7 @@ x = {async __proto__(){}, *__proto__(){}};
                     "start": 149,
                     "end": 152
                 },
-                "flags": 34,
+                "flags": 35,
                 "start": 113,
                 "end": 152
             },

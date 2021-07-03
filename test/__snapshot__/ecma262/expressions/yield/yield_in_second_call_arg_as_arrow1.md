@@ -155,7 +155,7 @@ function *g() { (x = x + foo(a, yield y)) => x; }
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 2,
+                                    "flags": 34,
                                     "start": 17,
                                     "end": 41
                                 },

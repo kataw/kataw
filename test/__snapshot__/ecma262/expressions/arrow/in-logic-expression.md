@@ -30,7 +30,7 @@
                             "kind": 342,
                             "parameters": [],
                             "trailingComma": false,
-                            "flags": 0,
+                            "flags": 32,
                             "start": 2,
                             "end": 2
                         },
@@ -59,8 +59,8 @@
                         "start": 1,
                         "end": 9
                     },
-                    "flags": 32,
-                    "start": 0,
+                    "flags": 0,
+                    "start": 32,
                     "end": 10
                 },
                 "operatorToken": {
@@ -97,7 +97,7 @@
                             "kind": 342,
                             "parameters": [],
                             "trailingComma": false,
-                            "flags": 0,
+                            "flags": 32,
                             "start": 22,
                             "end": 22
                         },
@@ -126,8 +126,8 @@
                         "start": 21,
                         "end": 29
                     },
-                    "flags": 32,
-                    "start": 19,
+                    "flags": 19,
+                    "start": 33,
                     "end": 30
                 },
                 "questionToken": {
@@ -158,7 +158,7 @@
                     "start": 36,
                     "end": 38
                 },
-                "flags": 32,
+                "flags": 51,
                 "start": 19,
                 "end": 38
             },
@@ -181,7 +181,7 @@
 ```javascript
 
 (() => {}) || true;
-(() => {}) ? a : b;
+ ? a : b;
 
 ```
 

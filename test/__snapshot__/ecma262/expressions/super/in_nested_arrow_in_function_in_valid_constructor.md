@@ -145,7 +145,7 @@ class x extends y { constructor(){ return function() { return () => super.foo; }
                                                                             "kind": 342,
                                                                             "parameters": [],
                                                                             "trailingComma": false,
-                                                                            "flags": 0,
+                                                                            "flags": 32,
                                                                             "start": 63,
                                                                             "end": 63
                                                                         },

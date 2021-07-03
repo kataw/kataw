@@ -96,8 +96,8 @@ function *f(x = (instanceof) = f) {}
                                     "start": 17,
                                     "end": 27
                                 },
-                                "flags": 32,
-                                "start": 15,
+                                "flags": 15,
+                                "start": 32,
                                 "end": 28
                             },
                             "operatorToken": {

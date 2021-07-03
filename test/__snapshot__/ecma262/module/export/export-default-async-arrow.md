@@ -89,8 +89,8 @@ export default async (x) => (y, z);
                             "start": 25,
                             "end": 32
                         },
-                        "flags": 32,
-                        "start": 25,
+                        "flags": 25,
+                        "start": 32,
                         "end": 32
                     },
                     "flags": 288,
@@ -178,8 +178,8 @@ export default async (x) => (y, z);
                         "start": 61,
                         "end": 68
                     },
-                    "flags": 32,
-                    "start": 61,
+                    "flags": 61,
+                    "start": 32,
                     "end": 68
                 },
                 "flags": 288,
@@ -210,7 +210,7 @@ export default async (x) => (y, z);
 
 ```javascript
 
-export default async x => (y, z);;
+export default async x => ;;
 export default async (x) => (y, z);
 ;
 

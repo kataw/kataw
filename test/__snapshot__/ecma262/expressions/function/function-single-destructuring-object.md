@@ -275,7 +275,7 @@ function StatelessFunctionalComponent3(
                                                 "kind": 342,
                                                 "parameters": [],
                                                 "trailingComma": false,
-                                                "flags": 0,
+                                                "flags": 32,
                                                 "start": 249,
                                                 "end": 249
                                             },
@@ -321,7 +321,7 @@ function StatelessFunctionalComponent3(
                                                 "kind": 342,
                                                 "parameters": [],
                                                 "trailingComma": false,
-                                                "flags": 0,
+                                                "flags": 32,
                                                 "start": 274,
                                                 "end": 274
                                             },
@@ -367,7 +367,7 @@ function StatelessFunctionalComponent3(
                                                 "kind": 342,
                                                 "parameters": [],
                                                 "trailingComma": false,
-                                                "flags": 0,
+                                                "flags": 32,
                                                 "start": 310,
                                                 "end": 310
                                             },
@@ -413,7 +413,7 @@ function StatelessFunctionalComponent3(
                                                 "kind": 342,
                                                 "parameters": [],
                                                 "trailingComma": false,
-                                                "flags": 0,
+                                                "flags": 32,
                                                 "start": 335,
                                                 "end": 335
                                             },
@@ -653,7 +653,7 @@ function StatelessFunctionalComponent3(
                                                 "kind": 342,
                                                 "parameters": [],
                                                 "trailingComma": false,
-                                                "flags": 0,
+                                                "flags": 32,
                                                 "start": 505,
                                                 "end": 505
                                             },
@@ -699,7 +699,7 @@ function StatelessFunctionalComponent3(
                                                 "kind": 342,
                                                 "parameters": [],
                                                 "trailingComma": false,
-                                                "flags": 0,
+                                                "flags": 32,
                                                 "start": 532,
                                                 "end": 532
                                             },
@@ -745,7 +745,7 @@ function StatelessFunctionalComponent3(
                                                 "kind": 342,
                                                 "parameters": [],
                                                 "trailingComma": false,
-                                                "flags": 0,
+                                                "flags": 32,
                                                 "start": 570,
                                                 "end": 570
                                             },
@@ -791,7 +791,7 @@ function StatelessFunctionalComponent3(
                                                 "kind": 342,
                                                 "parameters": [],
                                                 "trailingComma": false,
-                                                "flags": 0,
+                                                "flags": 32,
                                                 "start": 597,
                                                 "end": 597
                                             },

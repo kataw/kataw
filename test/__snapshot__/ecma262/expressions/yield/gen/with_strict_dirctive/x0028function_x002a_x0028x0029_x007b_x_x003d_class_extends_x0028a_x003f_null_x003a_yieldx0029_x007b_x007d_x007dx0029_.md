@@ -155,8 +155,8 @@
                                                             "start": 48,
                                                             "end": 66
                                                         },
-                                                        "flags": 32,
-                                                        "start": 48,
+                                                        "flags": 48,
+                                                        "start": 32,
                                                         "end": 67
                                                     },
                                                     "typeParameter": null,
@@ -201,8 +201,8 @@
                     "start": 15,
                     "end": 73
                 },
-                "flags": 32,
-                "start": 13,
+                "flags": 13,
+                "start": 32,
                 "end": 74
             },
             "flags": 16,

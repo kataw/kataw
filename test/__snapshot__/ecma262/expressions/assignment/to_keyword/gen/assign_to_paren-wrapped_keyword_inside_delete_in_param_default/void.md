@@ -82,8 +82,8 @@ async (x = delete ((void) = f)) => {}
                                             "start": 20,
                                             "end": 24
                                         },
-                                        "flags": 32,
-                                        "start": 19,
+                                        "flags": 19,
+                                        "start": 32,
                                         "end": 25
                                     },
                                     "operatorToken": {
@@ -104,8 +104,8 @@ async (x = delete ((void) = f)) => {}
                                     "start": 19,
                                     "end": 29
                                 },
-                                "flags": 32,
-                                "start": 17,
+                                "flags": 17,
+                                "start": 32,
                                 "end": 30
                             },
                             "flags": 32,

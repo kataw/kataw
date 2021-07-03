@@ -69,8 +69,8 @@ a && (b ?? c)
                         "start": 4,
                         "end": 12
                     },
-                    "flags": 32,
-                    "start": 4,
+                    "flags": 4,
+                    "start": 32,
                     "end": 13
                 },
                 "flags": 96,

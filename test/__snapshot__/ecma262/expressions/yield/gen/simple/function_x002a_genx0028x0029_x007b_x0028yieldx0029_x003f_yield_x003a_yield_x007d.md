@@ -83,8 +83,8 @@ function * gen() { (yield) ? yield : yield }
                                         "start": 20,
                                         "end": 25
                                     },
-                                    "flags": 32,
-                                    "start": 18,
+                                    "flags": 18,
+                                    "start": 32,
                                     "end": 26
                                 },
                                 "questionToken": {
@@ -129,7 +129,7 @@ function * gen() { (yield) ? yield : yield }
                                     "start": 36,
                                     "end": 42
                                 },
-                                "flags": 32,
+                                "flags": 50,
                                 "start": 18,
                                 "end": 42
                             },
@@ -166,7 +166,7 @@ function * gen() { (yield) ? yield : yield }
 ```javascript
 
 function * gen() {
-  (yield ) ? yield  : yield ;
+   ? yield  : yield ;
 }
 
 ```

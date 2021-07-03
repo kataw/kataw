@@ -93,7 +93,7 @@ x = (x, {}:string) => {} ;
                             }
                         ],
                         "trailingComma": false,
-                        "flags": 2,
+                        "flags": 34,
                         "start": 5,
                         "end": 18
                     },

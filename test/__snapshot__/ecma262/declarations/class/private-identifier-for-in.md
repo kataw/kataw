@@ -64,7 +64,7 @@ class Foo { #foo = () => { for (#foo in this) ; } }
                                     "kind": 342,
                                     "parameters": [],
                                     "trailingComma": false,
-                                    "flags": 0,
+                                    "flags": 32,
                                     "start": 20,
                                     "end": 20
                                 },

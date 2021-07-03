@@ -120,8 +120,8 @@ async function * gen() {yield 3 + (yield 4);}
                                             "start": 35,
                                             "end": 42
                                         },
-                                        "flags": 32,
-                                        "start": 33,
+                                        "flags": 33,
+                                        "start": 32,
                                         "end": 43
                                     },
                                     "flags": 96,

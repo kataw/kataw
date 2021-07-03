@@ -60,7 +60,7 @@ class x extends ()=>1 {}
                             "kind": 342,
                             "parameters": [],
                             "trailingComma": false,
-                            "flags": 0,
+                            "flags": 32,
                             "start": 17,
                             "end": 17
                         },

@@ -119,8 +119,8 @@ async function f(){    async function g(x=(await z)=y){}   }
                                                     "start": 43,
                                                     "end": 50
                                                 },
-                                                "flags": 32,
-                                                "start": 42,
+                                                "flags": 42,
+                                                "start": 32,
                                                 "end": 51
                                             },
                                             "operatorToken": {

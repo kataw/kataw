@@ -103,7 +103,7 @@ await => async.await[async / ((async) => foo.bar)]
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 0,
+                                    "flags": 32,
                                     "start": 31,
                                     "end": 37
                                 },
@@ -140,8 +140,8 @@ await => async.await[async / ((async) => foo.bar)]
                                 "start": 30,
                                 "end": 48
                             },
-                            "flags": 32,
-                            "start": 28,
+                            "flags": 28,
+                            "start": 32,
                             "end": 49
                         },
                         "flags": 96,

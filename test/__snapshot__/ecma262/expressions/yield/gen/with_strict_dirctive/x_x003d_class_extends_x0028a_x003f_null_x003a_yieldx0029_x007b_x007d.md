@@ -113,8 +113,8 @@
                                     "start": 31,
                                     "end": 49
                                 },
-                                "flags": 32,
-                                "start": 31,
+                                "flags": 31,
+                                "start": 32,
                                 "end": 50
                             },
                             "typeParameter": null,

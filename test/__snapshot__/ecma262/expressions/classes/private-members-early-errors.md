@@ -175,8 +175,8 @@ class C { foo() { this.#a = 1; }}
                         "start": 1,
                         "end": 40
                     },
-                    "flags": 32,
-                    "start": 0,
+                    "flags": 0,
+                    "start": 32,
                     "end": 41
                 },
                 "argumentList": {
@@ -303,7 +303,7 @@ class C { foo() { this.#a = 1; }}
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 32,
+                    "flags": 33,
                     "start": 44,
                     "end": 81
                 },

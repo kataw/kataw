@@ -94,8 +94,8 @@ for ((a * b + c) * d;b;c);
                         "start": 5,
                         "end": 15
                     },
-                    "flags": 32,
-                    "start": 5,
+                    "flags": 5,
+                    "start": 32,
                     "end": 16
                 },
                 "operatorToken": {
@@ -112,7 +112,7 @@ for ((a * b + c) * d;b;c);
                     "start": 18,
                     "end": 20
                 },
-                "flags": 32,
+                "flags": 37,
                 "start": 0,
                 "end": 20
             },

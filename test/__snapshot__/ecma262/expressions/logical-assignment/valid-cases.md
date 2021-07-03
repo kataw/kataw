@@ -535,7 +535,7 @@ x((y ?? z) ?? 1);
                                         "kind": 342,
                                         "parameters": [],
                                         "trailingComma": false,
-                                        "flags": 0,
+                                        "flags": 32,
                                         "start": 92,
                                         "end": 92
                                     },
@@ -564,8 +564,8 @@ x((y ?? z) ?? 1);
                                     "start": 91,
                                     "end": 99
                                 },
-                                "flags": 32,
-                                "start": 90,
+                                "flags": 90,
+                                "start": 32,
                                 "end": 100
                             },
                             "operatorToken": {
@@ -582,7 +582,7 @@ x((y ?? z) ?? 1);
                                 "start": 103,
                                 "end": 105
                             },
-                            "flags": 32,
+                            "flags": 122,
                             "start": 90,
                             "end": 105
                         }
@@ -1680,8 +1680,8 @@ x((y ?? z) ?? 1);
                                     "start": 339,
                                     "end": 344
                                 },
-                                "flags": 32,
-                                "start": 339,
+                                "flags": 339,
+                                "start": 32,
                                 "end": 345
                             },
                             "operatorToken": {
@@ -1698,7 +1698,7 @@ x((y ?? z) ?? 1);
                                 "start": 348,
                                 "end": 350
                             },
-                            "flags": 32,
+                            "flags": 371,
                             "start": 339,
                             "end": 350
                         }
@@ -1771,8 +1771,8 @@ x((y ?? z) ?? 1);
                                     "start": 355,
                                     "end": 361
                                 },
-                                "flags": 32,
-                                "start": 355,
+                                "flags": 355,
+                                "start": 32,
                                 "end": 362
                             },
                             "operatorToken": {
@@ -1789,7 +1789,7 @@ x((y ?? z) ?? 1);
                                 "start": 365,
                                 "end": 367
                             },
-                            "flags": 32,
+                            "flags": 355,
                             "start": 355,
                             "end": 367
                         }
@@ -1848,8 +1848,8 @@ x((y ?? z) ?? 1);
                                     "start": 372,
                                     "end": 380
                                 },
-                                "flags": 32,
-                                "start": 372,
+                                "flags": 372,
+                                "start": 32,
                                 "end": 381
                             },
                             "operatorToken": {
@@ -1866,7 +1866,7 @@ x((y ?? z) ?? 1);
                                 "start": 384,
                                 "end": 386
                             },
-                            "flags": 32,
+                            "flags": 372,
                             "start": 372,
                             "end": 386
                         }
@@ -1939,8 +1939,8 @@ x((y ?? z) ?? 1);
                                     "start": 391,
                                     "end": 401
                                 },
-                                "flags": 32,
-                                "start": 391,
+                                "flags": 391,
+                                "start": 32,
                                 "end": 402
                             },
                             "operatorToken": {
@@ -1957,7 +1957,7 @@ x((y ?? z) ?? 1);
                                 "start": 405,
                                 "end": 407
                             },
-                            "flags": 32,
+                            "flags": 423,
                             "start": 391,
                             "end": 407
                         }
@@ -2022,8 +2022,8 @@ x((y ?? z) ?? 1);
                                     "start": 413,
                                     "end": 419
                                 },
-                                "flags": 32,
-                                "start": 413,
+                                "flags": 413,
+                                "start": 32,
                                 "end": 420
                             },
                             "operatorToken": {
@@ -2040,7 +2040,7 @@ x((y ?? z) ?? 1);
                                 "start": 423,
                                 "end": 425
                             },
-                            "flags": 32,
+                            "flags": 445,
                             "start": 413,
                             "end": 425
                         }
@@ -2105,8 +2105,8 @@ x((y ?? z) ?? 1);
                                     "start": 430,
                                     "end": 436
                                 },
-                                "flags": 32,
-                                "start": 430,
+                                "flags": 430,
+                                "start": 32,
                                 "end": 437
                             },
                             "operatorToken": {
@@ -2123,7 +2123,7 @@ x((y ?? z) ?? 1);
                                 "start": 440,
                                 "end": 442
                             },
-                            "flags": 32,
+                            "flags": 430,
                             "start": 430,
                             "end": 442
                         }
@@ -2188,8 +2188,8 @@ x((y ?? z) ?? 1);
                                     "start": 447,
                                     "end": 453
                                 },
-                                "flags": 32,
-                                "start": 447,
+                                "flags": 447,
+                                "start": 32,
                                 "end": 454
                             },
                             "operatorToken": {
@@ -2206,7 +2206,7 @@ x((y ?? z) ?? 1);
                                 "start": 457,
                                 "end": 459
                             },
-                            "flags": 32,
+                            "flags": 447,
                             "start": 447,
                             "end": 459
                         }
@@ -2271,8 +2271,8 @@ x((y ?? z) ?? 1);
                                     "start": 464,
                                     "end": 470
                                 },
-                                "flags": 32,
-                                "start": 464,
+                                "flags": 464,
+                                "start": 32,
                                 "end": 471
                             },
                             "operatorToken": {
@@ -2289,7 +2289,7 @@ x((y ?? z) ?? 1);
                                 "start": 474,
                                 "end": 476
                             },
-                            "flags": 32,
+                            "flags": 496,
                             "start": 464,
                             "end": 476
                         }
@@ -2354,8 +2354,8 @@ x((y ?? z) ?? 1);
                                     "start": 481,
                                     "end": 487
                                 },
-                                "flags": 32,
-                                "start": 481,
+                                "flags": 481,
+                                "start": 32,
                                 "end": 488
                             },
                             "operatorToken": {
@@ -2372,7 +2372,7 @@ x((y ?? z) ?? 1);
                                 "start": 491,
                                 "end": 493
                             },
-                            "flags": 32,
+                            "flags": 481,
                             "start": 481,
                             "end": 493
                         }
@@ -2437,8 +2437,8 @@ x((y ?? z) ?? 1);
                                     "start": 498,
                                     "end": 505
                                 },
-                                "flags": 32,
-                                "start": 498,
+                                "flags": 498,
+                                "start": 32,
                                 "end": 506
                             },
                             "operatorToken": {
@@ -2455,7 +2455,7 @@ x((y ?? z) ?? 1);
                                 "start": 509,
                                 "end": 511
                             },
-                            "flags": 32,
+                            "flags": 498,
                             "start": 498,
                             "end": 511
                         }
@@ -2520,8 +2520,8 @@ x((y ?? z) ?? 1);
                                     "start": 516,
                                     "end": 523
                                 },
-                                "flags": 32,
-                                "start": 516,
+                                "flags": 516,
+                                "start": 32,
                                 "end": 524
                             },
                             "operatorToken": {
@@ -2538,7 +2538,7 @@ x((y ?? z) ?? 1);
                                 "start": 527,
                                 "end": 529
                             },
-                            "flags": 32,
+                            "flags": 548,
                             "start": 516,
                             "end": 529
                         }
@@ -2603,8 +2603,8 @@ x((y ?? z) ?? 1);
                                     "start": 534,
                                     "end": 541
                                 },
-                                "flags": 32,
-                                "start": 534,
+                                "flags": 534,
+                                "start": 32,
                                 "end": 542
                             },
                             "operatorToken": {
@@ -2621,7 +2621,7 @@ x((y ?? z) ?? 1);
                                 "start": 545,
                                 "end": 547
                             },
-                            "flags": 32,
+                            "flags": 566,
                             "start": 534,
                             "end": 547
                         }
@@ -2686,8 +2686,8 @@ x((y ?? z) ?? 1);
                                     "start": 552,
                                     "end": 560
                                 },
-                                "flags": 32,
-                                "start": 552,
+                                "flags": 552,
+                                "start": 32,
                                 "end": 561
                             },
                             "operatorToken": {
@@ -2704,7 +2704,7 @@ x((y ?? z) ?? 1);
                                 "start": 564,
                                 "end": 566
                             },
-                            "flags": 32,
+                            "flags": 552,
                             "start": 552,
                             "end": 566
                         }
@@ -2769,8 +2769,8 @@ x((y ?? z) ?? 1);
                                     "start": 571,
                                     "end": 577
                                 },
-                                "flags": 32,
-                                "start": 571,
+                                "flags": 571,
+                                "start": 32,
                                 "end": 578
                             },
                             "operatorToken": {
@@ -2787,7 +2787,7 @@ x((y ?? z) ?? 1);
                                 "start": 581,
                                 "end": 583
                             },
-                            "flags": 32,
+                            "flags": 571,
                             "start": 571,
                             "end": 583
                         }
@@ -2852,8 +2852,8 @@ x((y ?? z) ?? 1);
                                     "start": 588,
                                     "end": 594
                                 },
-                                "flags": 32,
-                                "start": 588,
+                                "flags": 588,
+                                "start": 32,
                                 "end": 595
                             },
                             "operatorToken": {
@@ -2870,7 +2870,7 @@ x((y ?? z) ?? 1);
                                 "start": 598,
                                 "end": 600
                             },
-                            "flags": 32,
+                            "flags": 620,
                             "start": 588,
                             "end": 600
                         }
@@ -2935,8 +2935,8 @@ x((y ?? z) ?? 1);
                                     "start": 605,
                                     "end": 611
                                 },
-                                "flags": 32,
-                                "start": 605,
+                                "flags": 605,
+                                "start": 32,
                                 "end": 612
                             },
                             "operatorToken": {
@@ -2953,7 +2953,7 @@ x((y ?? z) ?? 1);
                                 "start": 615,
                                 "end": 617
                             },
-                            "flags": 32,
+                            "flags": 637,
                             "start": 605,
                             "end": 617
                         }
@@ -3018,8 +3018,8 @@ x((y ?? z) ?? 1);
                                     "start": 622,
                                     "end": 628
                                 },
-                                "flags": 32,
-                                "start": 622,
+                                "flags": 622,
+                                "start": 32,
                                 "end": 629
                             },
                             "operatorToken": {
@@ -3036,7 +3036,7 @@ x((y ?? z) ?? 1);
                                 "start": 632,
                                 "end": 634
                             },
-                            "flags": 32,
+                            "flags": 622,
                             "start": 622,
                             "end": 634
                         }
@@ -3101,8 +3101,8 @@ x((y ?? z) ?? 1);
                                     "start": 639,
                                     "end": 645
                                 },
-                                "flags": 32,
-                                "start": 639,
+                                "flags": 639,
+                                "start": 32,
                                 "end": 646
                             },
                             "operatorToken": {
@@ -3119,7 +3119,7 @@ x((y ?? z) ?? 1);
                                 "start": 649,
                                 "end": 651
                             },
-                            "flags": 32,
+                            "flags": 639,
                             "start": 639,
                             "end": 651
                         }
@@ -3184,8 +3184,8 @@ x((y ?? z) ?? 1);
                                     "start": 656,
                                     "end": 663
                                 },
-                                "flags": 32,
-                                "start": 656,
+                                "flags": 656,
+                                "start": 32,
                                 "end": 664
                             },
                             "operatorToken": {
@@ -3202,7 +3202,7 @@ x((y ?? z) ?? 1);
                                 "start": 667,
                                 "end": 669
                             },
-                            "flags": 32,
+                            "flags": 688,
                             "start": 656,
                             "end": 669
                         }
@@ -3267,8 +3267,8 @@ x((y ?? z) ?? 1);
                                     "start": 674,
                                     "end": 681
                                 },
-                                "flags": 32,
-                                "start": 674,
+                                "flags": 674,
+                                "start": 32,
                                 "end": 682
                             },
                             "operatorToken": {
@@ -3285,7 +3285,7 @@ x((y ?? z) ?? 1);
                                 "start": 685,
                                 "end": 687
                             },
-                            "flags": 32,
+                            "flags": 674,
                             "start": 674,
                             "end": 687
                         }
@@ -3350,8 +3350,8 @@ x((y ?? z) ?? 1);
                                     "start": 692,
                                     "end": 699
                                 },
-                                "flags": 32,
-                                "start": 692,
+                                "flags": 692,
+                                "start": 32,
                                 "end": 700
                             },
                             "operatorToken": {
@@ -3368,7 +3368,7 @@ x((y ?? z) ?? 1);
                                 "start": 703,
                                 "end": 705
                             },
-                            "flags": 32,
+                            "flags": 692,
                             "start": 692,
                             "end": 705
                         }
@@ -3433,8 +3433,8 @@ x((y ?? z) ?? 1);
                                     "start": 710,
                                     "end": 717
                                 },
-                                "flags": 32,
-                                "start": 710,
+                                "flags": 710,
+                                "start": 32,
                                 "end": 718
                             },
                             "operatorToken": {
@@ -3451,7 +3451,7 @@ x((y ?? z) ?? 1);
                                 "start": 721,
                                 "end": 723
                             },
-                            "flags": 32,
+                            "flags": 742,
                             "start": 710,
                             "end": 723
                         }
@@ -3516,8 +3516,8 @@ x((y ?? z) ?? 1);
                                     "start": 728,
                                     "end": 736
                                 },
-                                "flags": 32,
-                                "start": 728,
+                                "flags": 728,
+                                "start": 32,
                                 "end": 737
                             },
                             "operatorToken": {
@@ -3534,7 +3534,7 @@ x((y ?? z) ?? 1);
                                 "start": 740,
                                 "end": 742
                             },
-                            "flags": 32,
+                            "flags": 760,
                             "start": 728,
                             "end": 742
                         }
@@ -3599,8 +3599,8 @@ x((y ?? z) ?? 1);
                                     "start": 747,
                                     "end": 755
                                 },
-                                "flags": 32,
-                                "start": 747,
+                                "flags": 747,
+                                "start": 32,
                                 "end": 756
                             },
                             "operatorToken": {
@@ -3617,7 +3617,7 @@ x((y ?? z) ?? 1);
                                 "start": 759,
                                 "end": 761
                             },
-                            "flags": 32,
+                            "flags": 747,
                             "start": 747,
                             "end": 761
                         }
@@ -3682,8 +3682,8 @@ x((y ?? z) ?? 1);
                                     "start": 767,
                                     "end": 774
                                 },
-                                "flags": 32,
-                                "start": 767,
+                                "flags": 767,
+                                "start": 32,
                                 "end": 775
                             },
                             "operatorToken": {
@@ -3700,7 +3700,7 @@ x((y ?? z) ?? 1);
                                 "start": 778,
                                 "end": 780
                             },
-                            "flags": 32,
+                            "flags": 767,
                             "start": 767,
                             "end": 780
                         }
@@ -3765,8 +3765,8 @@ x((y ?? z) ?? 1);
                                     "start": 785,
                                     "end": 792
                                 },
-                                "flags": 32,
-                                "start": 785,
+                                "flags": 785,
+                                "start": 32,
                                 "end": 793
                             },
                             "operatorToken": {
@@ -3783,7 +3783,7 @@ x((y ?? z) ?? 1);
                                 "start": 796,
                                 "end": 798
                             },
-                            "flags": 32,
+                            "flags": 817,
                             "start": 785,
                             "end": 798
                         }
@@ -3848,8 +3848,8 @@ x((y ?? z) ?? 1);
                                     "start": 803,
                                     "end": 810
                                 },
-                                "flags": 32,
-                                "start": 803,
+                                "flags": 803,
+                                "start": 32,
                                 "end": 811
                             },
                             "operatorToken": {
@@ -3866,7 +3866,7 @@ x((y ?? z) ?? 1);
                                 "start": 814,
                                 "end": 816
                             },
-                            "flags": 32,
+                            "flags": 803,
                             "start": 803,
                             "end": 816
                         }

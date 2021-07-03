@@ -103,8 +103,8 @@ var x, y, z; ({ import.meta } = {});
                     "start": 12,
                     "end": 27
                 },
-                "flags": 32,
-                "start": 12,
+                "flags": 12,
+                "start": 34,
                 "end": 27
             },
             "flags": 16,

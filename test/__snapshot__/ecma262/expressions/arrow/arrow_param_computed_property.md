@@ -40,7 +40,7 @@
                             }
                         ],
                         "trailingComma": false,
-                        "flags": 0,
+                        "flags": 32,
                         "start": 2,
                         "end": 4
                     },
@@ -63,8 +63,8 @@
                     "start": 1,
                     "end": 9
                 },
-                "flags": 32,
-                "start": 0,
+                "flags": 0,
+                "start": 32,
                 "end": 10
             },
             "flags": 16,
@@ -103,7 +103,7 @@
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 18,
                                 "end": 20
                             },
@@ -131,8 +131,8 @@
                     "start": 11,
                     "end": 25
                 },
-                "flags": 32,
-                "start": 11,
+                "flags": 11,
+                "start": 33,
                 "end": 26
             },
             "flags": 16,
@@ -165,8 +165,8 @@
                     "start": 27,
                     "end": 34
                 },
-                "flags": 32,
-                "start": 27,
+                "flags": 27,
+                "start": 33,
                 "end": 35
             },
             "flags": 16,

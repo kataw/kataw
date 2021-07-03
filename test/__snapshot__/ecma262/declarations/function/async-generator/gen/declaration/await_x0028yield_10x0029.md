@@ -102,8 +102,8 @@ async function * gen() {await (yield 10)}
                                         "start": 31,
                                         "end": 39
                                     },
-                                    "flags": 32,
-                                    "start": 29,
+                                    "flags": 29,
+                                    "start": 32,
                                     "end": 40
                                 },
                                 "flags": 32,

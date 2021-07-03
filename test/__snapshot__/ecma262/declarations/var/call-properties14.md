@@ -110,7 +110,7 @@ var d: { (): string } = (x) => "hi"
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 25,
                                 "end": 27
                             },

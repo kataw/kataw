@@ -168,7 +168,7 @@ class x extends y {
                                                             }
                                                         ],
                                                         "trailingComma": false,
-                                                        "flags": 2,
+                                                        "flags": 35,
                                                         "start": 43,
                                                         "end": 62
                                                     },
@@ -187,7 +187,7 @@ class x extends y {
                                                         "start": 65,
                                                         "end": 67
                                                     },
-                                                    "flags": 34,
+                                                    "flags": 35,
                                                     "start": 37,
                                                     "end": 67
                                                 },

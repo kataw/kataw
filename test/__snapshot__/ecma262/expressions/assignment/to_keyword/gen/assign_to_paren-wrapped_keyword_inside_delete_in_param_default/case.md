@@ -72,12 +72,12 @@ async (x = delete ((case) = f)) => {}
                                         "start": 20,
                                         "end": 20
                                     },
-                                    "flags": 32,
-                                    "start": 19,
+                                    "flags": 19,
+                                    "start": 32,
                                     "end": 20
                                 },
-                                "flags": 32,
-                                "start": 17,
+                                "flags": 17,
+                                "start": 32,
                                 "end": 20
                             },
                             "flags": 32,
@@ -90,7 +90,7 @@ async (x = delete ((case) = f)) => {}
                     }
                 ],
                 "trailingComma": false,
-                "flags": 32,
+                "flags": 34,
                 "start": 0,
                 "end": 0
             },

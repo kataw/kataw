@@ -89,8 +89,8 @@ function f1() {
                                             "start": 10,
                                             "end": 18
                                         },
-                                        "flags": 32,
-                                        "start": 10,
+                                        "flags": 10,
+                                        "start": 32,
                                         "end": 19
                                     },
                                     {
@@ -135,8 +135,8 @@ function f1() {
                                             "start": 26,
                                             "end": 32
                                         },
-                                        "flags": 32,
-                                        "start": 26,
+                                        "flags": 26,
+                                        "start": 32,
                                         "end": 33
                                     }
                                 ],
@@ -144,8 +144,8 @@ function f1() {
                                 "start": 8,
                                 "end": 33
                             },
-                            "flags": 32,
-                            "start": 8,
+                            "flags": 8,
+                            "start": 32,
                             "end": 34
                         },
                         "flags": 16,

@@ -417,7 +417,7 @@ function foo4() {
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 212,
                                 "end": 227
                             },
@@ -1110,8 +1110,8 @@ function foo4() {
                         "start": 618,
                         "end": 641
                     },
-                    "flags": 32,
-                    "start": 615,
+                    "flags": 615,
+                    "start": 33,
                     "end": 642
                 },
                 "argumentList": {
@@ -1182,8 +1182,8 @@ function foo4() {
                         "start": 647,
                         "end": 673
                     },
-                    "flags": 32,
-                    "start": 645,
+                    "flags": 645,
+                    "start": 33,
                     "end": 674
                 },
                 "argumentList": {
@@ -1254,8 +1254,8 @@ function foo4() {
                         "start": 679,
                         "end": 709
                     },
-                    "flags": 32,
-                    "start": 677,
+                    "flags": 677,
+                    "start": 33,
                     "end": 710
                 },
                 "argumentList": {
@@ -1326,8 +1326,8 @@ function foo4() {
                         "start": 715,
                         "end": 762
                     },
-                    "flags": 32,
-                    "start": 713,
+                    "flags": 713,
+                    "start": 33,
                     "end": 763
                 },
                 "argumentList": {
@@ -2008,10 +2008,10 @@ const obj = {
   f3() {},
   f4/* f */(/* args */) {},
 };
-(function f/* f */() {})();
-(function f(/* args */) {})();
-(function f() {})();
-(function f/* f */(/* args */) {})();
+(/*2*/function f/* f */() {})();
+(/*2*/function f(/* args */) {})();
+(/*2*/function f() {})();
+(/*2*/function f/* f */(/* args */) {})();
 class C1 {
   f/* f */() {}
 }

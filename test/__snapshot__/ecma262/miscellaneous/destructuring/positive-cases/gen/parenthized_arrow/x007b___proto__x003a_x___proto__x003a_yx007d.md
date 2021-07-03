@@ -116,7 +116,7 @@ var f = ({ __proto__: x, __proto__: y}) => {};
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 2,
+                                "flags": 34,
                                 "start": 9,
                                 "end": 39
                             },

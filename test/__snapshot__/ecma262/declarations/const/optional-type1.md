@@ -135,7 +135,7 @@ const f = (x?, y?:Object = {}) => {}
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 11,
                                 "end": 30
                             },

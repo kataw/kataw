@@ -346,8 +346,8 @@ x?.[y] = 0;
                     "start": 48,
                     "end": 58
                 },
-                "flags": 32,
-                "start": 46,
+                "flags": 46,
+                "start": 35,
                 "end": 59
             },
             "flags": 16,
@@ -441,8 +441,8 @@ x?.[y] = 0;
                     "start": 62,
                     "end": 74
                 },
-                "flags": 32,
-                "start": 60,
+                "flags": 60,
+                "start": 35,
                 "end": 75
             },
             "flags": 16,
@@ -531,8 +531,8 @@ x?.[y] = 0;
                     "start": 78,
                     "end": 92
                 },
-                "flags": 32,
-                "start": 76,
+                "flags": 76,
+                "start": 35,
                 "end": 93
             },
             "flags": 16,

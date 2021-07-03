@@ -76,7 +76,7 @@ var x = ({ foo }) => {}
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 2,
+                                "flags": 34,
                                 "start": 9,
                                 "end": 17
                             },

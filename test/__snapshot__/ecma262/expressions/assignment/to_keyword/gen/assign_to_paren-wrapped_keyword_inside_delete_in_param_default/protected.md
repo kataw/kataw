@@ -70,8 +70,8 @@ async (x = delete ((protected) = f)) => {}
                                             "start": 20,
                                             "end": 29
                                         },
-                                        "flags": 32,
-                                        "start": 19,
+                                        "flags": 19,
+                                        "start": 32,
                                         "end": 30
                                     },
                                     "operatorToken": {
@@ -92,8 +92,8 @@ async (x = delete ((protected) = f)) => {}
                                     "start": 19,
                                     "end": 34
                                 },
-                                "flags": 32,
-                                "start": 17,
+                                "flags": 17,
+                                "start": 32,
                                 "end": 35
                             },
                             "flags": 32,

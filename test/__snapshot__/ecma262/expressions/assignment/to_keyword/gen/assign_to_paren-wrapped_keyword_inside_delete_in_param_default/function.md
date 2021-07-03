@@ -119,12 +119,12 @@ async (x = delete ((function) = f)) => {}
                                         "start": 20,
                                         "end": 33
                                     },
-                                    "flags": 32,
-                                    "start": 19,
+                                    "flags": 19,
+                                    "start": 32,
                                     "end": 34
                                 },
-                                "flags": 32,
-                                "start": 17,
+                                "flags": 17,
+                                "start": 32,
                                 "end": 35
                             },
                             "flags": 32,

@@ -503,7 +503,7 @@ foo(
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 2,
+                                "flags": 35,
                                 "start": 105,
                                 "end": 125
                             },
@@ -528,7 +528,7 @@ foo(
                                 "start": 128,
                                 "end": 131
                             },
-                            "flags": 34,
+                            "flags": 35,
                             "start": 101,
                             "end": 131
                         }
@@ -601,7 +601,7 @@ foo(
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 2,
+                                "flags": 35,
                                 "start": 144,
                                 "end": 164
                             },
@@ -626,7 +626,7 @@ foo(
                                 "start": 167,
                                 "end": 170
                             },
-                            "flags": 34,
+                            "flags": 35,
                             "start": 140,
                             "end": 170
                         }
@@ -699,7 +699,7 @@ foo(
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 2,
+                                "flags": 35,
                                 "start": 183,
                                 "end": 202
                             },
@@ -724,7 +724,7 @@ foo(
                                 "start": 205,
                                 "end": 208
                             },
-                            "flags": 34,
+                            "flags": 35,
                             "start": 179,
                             "end": 208
                         }
@@ -805,7 +805,7 @@ foo(
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 2,
+                                "flags": 35,
                                 "start": 226,
                                 "end": 246
                             },
@@ -830,7 +830,7 @@ foo(
                                 "start": 249,
                                 "end": 252
                             },
-                            "flags": 34,
+                            "flags": 35,
                             "start": 222,
                             "end": 252
                         }
@@ -903,7 +903,7 @@ foo(
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 2,
+                                "flags": 35,
                                 "start": 264,
                                 "end": 284
                             },
@@ -922,7 +922,7 @@ foo(
                                 "start": 287,
                                 "end": 289
                             },
-                            "flags": 34,
+                            "flags": 35,
                             "start": 260,
                             "end": 289
                         }
@@ -995,7 +995,7 @@ foo(
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 2,
+                                "flags": 35,
                                 "start": 302,
                                 "end": 321
                             },
@@ -1014,7 +1014,7 @@ foo(
                                 "start": 324,
                                 "end": 326
                             },
-                            "flags": 34,
+                            "flags": 35,
                             "start": 298,
                             "end": 326
                         }
@@ -1087,7 +1087,7 @@ foo(
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 2,
+                                "flags": 35,
                                 "start": 339,
                                 "end": 359
                             },
@@ -1106,7 +1106,7 @@ foo(
                                 "start": 362,
                                 "end": 364
                             },
-                            "flags": 34,
+                            "flags": 35,
                             "start": 335,
                             "end": 364
                         }
@@ -1209,7 +1209,7 @@ foo(
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 2,
+                                "flags": 35,
                                 "start": 377,
                                 "end": 416
                             },
@@ -1234,7 +1234,7 @@ foo(
                                 "start": 419,
                                 "end": 422
                             },
-                            "flags": 34,
+                            "flags": 35,
                             "start": 373,
                             "end": 422
                         }
@@ -1367,7 +1367,7 @@ foo(
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 2,
+                                "flags": 35,
                                 "start": 435,
                                 "end": 497
                             },
@@ -1392,7 +1392,7 @@ foo(
                                 "start": 500,
                                 "end": 503
                             },
-                            "flags": 34,
+                            "flags": 35,
                             "start": 431,
                             "end": 503
                         }
@@ -1555,7 +1555,7 @@ foo(
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 2,
+                                "flags": 35,
                                 "start": 516,
                                 "end": 605
                             },
@@ -1580,7 +1580,7 @@ foo(
                                 "start": 608,
                                 "end": 611
                             },
-                            "flags": 34,
+                            "flags": 35,
                             "start": 512,
                             "end": 611
                         }
@@ -1683,7 +1683,7 @@ foo(
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 2,
+                                "flags": 35,
                                 "start": 624,
                                 "end": 663
                             },
@@ -1702,7 +1702,7 @@ foo(
                                 "start": 666,
                                 "end": 668
                             },
-                            "flags": 34,
+                            "flags": 35,
                             "start": 620,
                             "end": 668
                         }
@@ -1835,7 +1835,7 @@ foo(
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 2,
+                                "flags": 35,
                                 "start": 681,
                                 "end": 743
                             },
@@ -1854,7 +1854,7 @@ foo(
                                 "start": 746,
                                 "end": 748
                             },
-                            "flags": 34,
+                            "flags": 35,
                             "start": 677,
                             "end": 748
                         }
@@ -2017,7 +2017,7 @@ foo(
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 2,
+                                "flags": 35,
                                 "start": 761,
                                 "end": 850
                             },
@@ -2036,7 +2036,7 @@ foo(
                                 "start": 853,
                                 "end": 855
                             },
-                            "flags": 34,
+                            "flags": 35,
                             "start": 757,
                             "end": 855
                         }
@@ -2214,7 +2214,7 @@ foo(
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 2,
+                                "flags": 35,
                                 "start": 868,
                                 "end": 985
                             },
@@ -2239,7 +2239,7 @@ foo(
                                 "start": 988,
                                 "end": 991
                             },
-                            "flags": 34,
+                            "flags": 35,
                             "start": 864,
                             "end": 991
                         }
@@ -2432,7 +2432,7 @@ foo(
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 2,
+                                "flags": 35,
                                 "start": 1004,
                                 "end": 1124
                             },
@@ -2457,7 +2457,7 @@ foo(
                                 "start": 1127,
                                 "end": 1130
                             },
-                            "flags": 34,
+                            "flags": 35,
                             "start": 1000,
                             "end": 1130
                         }
@@ -2637,7 +2637,7 @@ foo(
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 2,
+                                "flags": 35,
                                 "start": 1143,
                                 "end": 1262
                             },
@@ -2662,7 +2662,7 @@ foo(
                                 "start": 1265,
                                 "end": 1268
                             },
-                            "flags": 34,
+                            "flags": 35,
                             "start": 1139,
                             "end": 1268
                         }
@@ -2780,7 +2780,7 @@ foo(
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 2,
+                                "flags": 35,
                                 "start": 1281,
                                 "end": 1340
                             },
@@ -2805,7 +2805,7 @@ foo(
                                 "start": 1343,
                                 "end": 1346
                             },
-                            "flags": 34,
+                            "flags": 35,
                             "start": 1277,
                             "end": 1346
                         }
@@ -2910,7 +2910,7 @@ foo(
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 2,
+                                "flags": 35,
                                 "start": 1359,
                                 "end": 1417
                             },
@@ -2929,7 +2929,7 @@ foo(
                                 "start": 1420,
                                 "end": 1422
                             },
-                            "flags": 34,
+                            "flags": 35,
                             "start": 1355,
                             "end": 1422
                         }
@@ -3032,7 +3032,7 @@ foo(
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 2,
+                                "flags": 35,
                                 "start": 1435,
                                 "end": 1491
                             },
@@ -3057,7 +3057,7 @@ foo(
                                 "start": 1494,
                                 "end": 1497
                             },
-                            "flags": 34,
+                            "flags": 35,
                             "start": 1431,
                             "end": 1497
                         }
@@ -3266,7 +3266,7 @@ foo(
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 2,
+                                "flags": 35,
                                 "start": 1510,
                                 "end": 1724
                             },
@@ -3291,7 +3291,7 @@ foo(
                                 "start": 1727,
                                 "end": 1730
                             },
-                            "flags": 34,
+                            "flags": 35,
                             "start": 1506,
                             "end": 1730
                         }
@@ -3379,7 +3379,7 @@ foo(
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 0,
+                                "flags": 33,
                                 "start": 1743,
                                 "end": 1780
                             },
@@ -3404,7 +3404,7 @@ foo(
                                 "start": 1783,
                                 "end": 1786
                             },
-                            "flags": 32,
+                            "flags": 33,
                             "start": 1739,
                             "end": 1786
                         }
@@ -3507,7 +3507,7 @@ foo(
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 0,
+                                "flags": 33,
                                 "start": 1799,
                                 "end": 1856
                             },
@@ -3532,7 +3532,7 @@ foo(
                                 "start": 1859,
                                 "end": 1862
                             },
-                            "flags": 32,
+                            "flags": 33,
                             "start": 1795,
                             "end": 1862
                         }
@@ -3650,7 +3650,7 @@ foo(
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 2,
+                                "flags": 35,
                                 "start": 1875,
                                 "end": 1934
                             },
@@ -3675,7 +3675,7 @@ foo(
                                 "start": 1937,
                                 "end": 1940
                             },
-                            "flags": 34,
+                            "flags": 35,
                             "start": 1871,
                             "end": 1940
                         }
@@ -3780,7 +3780,7 @@ foo(
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 2,
+                                "flags": 35,
                                 "start": 1953,
                                 "end": 1993
                             },
@@ -3805,7 +3805,7 @@ foo(
                                 "start": 1996,
                                 "end": 1999
                             },
-                            "flags": 34,
+                            "flags": 35,
                             "start": 1949,
                             "end": 1999
                         }
@@ -3902,7 +3902,7 @@ foo(
                                                             }
                                                         ],
                                                         "trailingComma": false,
-                                                        "flags": 2,
+                                                        "flags": 34,
                                                         "start": 2023,
                                                         "end": 2049
                                                     },
@@ -3931,8 +3931,8 @@ foo(
                                                     "start": 2022,
                                                     "end": 2055
                                                 },
-                                                "flags": 32,
-                                                "start": 2020,
+                                                "flags": 2020,
+                                                "start": 32,
                                                 "end": 2056
                                             },
                                             "argumentList": {
@@ -3953,7 +3953,7 @@ foo(
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 2,
+                                "flags": 35,
                                 "start": 2012,
                                 "end": 2062
                             },
@@ -3978,7 +3978,7 @@ foo(
                                 "start": 2065,
                                 "end": 2068
                             },
-                            "flags": 34,
+                            "flags": 35,
                             "start": 2008,
                             "end": 2068
                         }
@@ -4091,7 +4091,7 @@ foo(
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 2,
+                                "flags": 35,
                                 "start": 2081,
                                 "end": 2122
                             },
@@ -4116,7 +4116,7 @@ foo(
                                 "start": 2125,
                                 "end": 2128
                             },
-                            "flags": 34,
+                            "flags": 35,
                             "start": 2077,
                             "end": 2128
                         }
@@ -4209,7 +4209,7 @@ foo(
                                                     }
                                                 ],
                                                 "trailingComma": false,
-                                                "flags": 2,
+                                                "flags": 34,
                                                 "start": 2151,
                                                 "end": 2177
                                             },
@@ -4244,7 +4244,7 @@ foo(
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 2,
+                                "flags": 35,
                                 "start": 2141,
                                 "end": 2187
                             },
@@ -4269,7 +4269,7 @@ foo(
                                 "start": 2190,
                                 "end": 2193
                             },
-                            "flags": 34,
+                            "flags": 35,
                             "start": 2137,
                             "end": 2193
                         }
@@ -4402,7 +4402,7 @@ foo(
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 2,
+                                "flags": 35,
                                 "start": 2206,
                                 "end": 2263
                             },
@@ -4427,7 +4427,7 @@ foo(
                                 "start": 2266,
                                 "end": 2269
                             },
-                            "flags": 34,
+                            "flags": 35,
                             "start": 2202,
                             "end": 2269
                         }

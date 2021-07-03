@@ -61,8 +61,8 @@ async x => (implements) = 1
                             "start": 12,
                             "end": 22
                         },
-                        "flags": 32,
-                        "start": 10,
+                        "flags": 10,
+                        "start": 32,
                         "end": 23
                     },
                     "operatorToken": {

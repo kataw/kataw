@@ -97,8 +97,8 @@
                                                                 "start": 20,
                                                                 "end": 25
                                                             },
-                                                            "flags": 32,
-                                                            "start": 19,
+                                                            "flags": 19,
+                                                            "start": 32,
                                                             "end": 26
                                                         },
                                                         "questionToken": {
@@ -143,7 +143,7 @@
                                                             "start": 36,
                                                             "end": 42
                                                         },
-                                                        "flags": 32,
+                                                        "flags": 51,
                                                         "start": 19,
                                                         "end": 42
                                                     },
@@ -178,8 +178,8 @@
                     "start": 1,
                     "end": 45
                 },
-                "flags": 32,
-                "start": 0,
+                "flags": 0,
+                "start": 34,
                 "end": 46
             },
             "flags": 16,
@@ -201,7 +201,7 @@
 ```javascript
 
 ({ async * gen() {
-    (yield ) ? yield  : yield ;
+     ? yield  : yield ;
   } });
 
 ```

@@ -118,8 +118,8 @@ do throw function (v, h) {
                     "start": 52,
                     "end": 54
                 },
-                "flags": 32,
-                "start": 51,
+                "flags": 51,
+                "start": 32,
                 "end": 55
             },
             "flags": 80,

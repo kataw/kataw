@@ -90,8 +90,8 @@ a ? b ? (c => d) : e => (f => g) : h => i;
                             "start": 9,
                             "end": 15
                         },
-                        "flags": 32,
-                        "start": 7,
+                        "flags": 7,
+                        "start": 32,
                         "end": 16
                     },
                     "colonToken": {
@@ -159,7 +159,7 @@ a ? b ? (c => d) : e => (f => g) : h => i;
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 25,
                                 "end": 36
                             },

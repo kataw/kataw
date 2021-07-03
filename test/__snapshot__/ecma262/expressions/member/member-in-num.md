@@ -68,8 +68,8 @@
                             "start": 3,
                             "end": 7
                         },
-                        "flags": 32,
-                        "start": 2,
+                        "flags": 2,
+                        "start": 32,
                         "end": 8
                     },
                     "flags": 536870944,
@@ -112,7 +112,7 @@
 
 ```javascript
 
-6[(x => y)] in 3;
+6[] in 3;
 
 ```
 

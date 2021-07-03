@@ -70,8 +70,8 @@ async (x = async([(f) = []])) => {};
                                                             "start": 19,
                                                             "end": 20
                                                         },
-                                                        "flags": 32,
-                                                        "start": 18,
+                                                        "flags": 18,
+                                                        "start": 32,
                                                         "end": 21
                                                     },
                                                     "operatorToken": {
@@ -110,7 +110,7 @@ async (x = async([(f) = []])) => {};
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 32,
+                                "flags": 34,
                                 "start": 10,
                                 "end": 10
                             },

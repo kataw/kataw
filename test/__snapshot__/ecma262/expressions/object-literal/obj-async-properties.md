@@ -51,8 +51,8 @@
                     "start": 1,
                     "end": 8
                 },
-                "flags": 32,
-                "start": 0,
+                "flags": 0,
+                "start": 34,
                 "end": 9
             },
             "flags": 16,
@@ -101,8 +101,8 @@
                     "start": 12,
                     "end": 26
                 },
-                "flags": 32,
-                "start": 10,
+                "flags": 10,
+                "start": 35,
                 "end": 27
             },
             "flags": 16,
@@ -141,8 +141,8 @@
                                             "start": 39,
                                             "end": 44
                                         },
-                                        "flags": 32,
-                                        "start": 37,
+                                        "flags": 37,
+                                        "start": 32,
                                         "end": 45
                                     },
                                     "questionToken": {
@@ -173,7 +173,7 @@
                                         "start": 55,
                                         "end": 59
                                     },
-                                    "flags": 32,
+                                    "flags": 37,
                                     "start": 31,
                                     "end": 59
                                 },
@@ -191,8 +191,8 @@
                     "start": 30,
                     "end": 60
                 },
-                "flags": 32,
-                "start": 28,
+                "flags": 28,
+                "start": 35,
                 "end": 61
             },
             "flags": 16,
@@ -239,8 +239,8 @@
                     "start": 64,
                     "end": 77
                 },
-                "flags": 32,
-                "start": 62,
+                "flags": 62,
+                "start": 35,
                 "end": 78
             },
             "flags": 16,
@@ -314,8 +314,8 @@
                     "start": 81,
                     "end": 94
                 },
-                "flags": 32,
-                "start": 79,
+                "flags": 79,
+                "start": 35,
                 "end": 95
             },
             "flags": 16,
@@ -394,8 +394,8 @@
                     "start": 98,
                     "end": 115
                 },
-                "flags": 32,
-                "start": 96,
+                "flags": 96,
+                "start": 35,
                 "end": 116
             },
             "flags": 16,
@@ -485,8 +485,8 @@
                     "start": 119,
                     "end": 134
                 },
-                "flags": 32,
-                "start": 117,
+                "flags": 117,
+                "start": 35,
                 "end": 135
             },
             "flags": 16,
@@ -565,8 +565,8 @@
                     "start": 138,
                     "end": 157
                 },
-                "flags": 32,
-                "start": 136,
+                "flags": 136,
+                "start": 35,
                 "end": 158
             },
             "flags": 16,
@@ -651,8 +651,8 @@
                     "start": 161,
                     "end": 178
                 },
-                "flags": 32,
-                "start": 159,
+                "flags": 159,
+                "start": 35,
                 "end": 179
             },
             "flags": 16,
@@ -731,8 +731,8 @@
                     "start": 182,
                     "end": 197
                 },
-                "flags": 32,
-                "start": 180,
+                "flags": 180,
+                "start": 35,
                 "end": 198
             },
             "flags": 16,

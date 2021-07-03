@@ -53,7 +53,7 @@ bar, (interface) => { 'use strict'; 0 };
                                 }
                             ],
                             "trailingComma": false,
-                            "flags": 0,
+                            "flags": 32,
                             "start": 6,
                             "end": 16
                         },

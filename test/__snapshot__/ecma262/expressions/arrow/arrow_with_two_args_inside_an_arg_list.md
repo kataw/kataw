@@ -57,7 +57,7 @@ f(((a, b) => a + b));
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 0,
+                                    "flags": 32,
                                     "start": 4,
                                     "end": 9
                                 },
@@ -100,8 +100,8 @@ f(((a, b) => a + b));
                                 "start": 3,
                                 "end": 18
                             },
-                            "flags": 32,
-                            "start": 2,
+                            "flags": 2,
+                            "start": 32,
                             "end": 19
                         }
                     ],

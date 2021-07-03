@@ -151,8 +151,8 @@
                                             "start": 23,
                                             "end": 31
                                         },
-                                        "flags": 32,
-                                        "start": 23,
+                                        "flags": 23,
+                                        "start": 32,
                                         "end": 32
                                     },
                                     "operatorToken": {
@@ -169,7 +169,7 @@
                                         "start": 35,
                                         "end": 37
                                     },
-                                    "flags": 32,
+                                    "flags": 55,
                                     "start": 19,
                                     "end": 37
                                 },
@@ -1193,7 +1193,7 @@
                                                 "kind": 342,
                                                 "parameters": [],
                                                 "trailingComma": false,
-                                                "flags": 0,
+                                                "flags": 32,
                                                 "start": 338,
                                                 "end": 338
                                             },
@@ -1346,8 +1346,8 @@
                     "start": 1,
                     "end": 384
                 },
-                "flags": 32,
-                "start": 0,
+                "flags": 0,
+                "start": 34,
                 "end": 385
             },
             "flags": 16,

@@ -63,8 +63,8 @@ async () => (await 5) ** 6;
                         "start": 13,
                         "end": 20
                     },
-                    "flags": 32,
-                    "start": 11,
+                    "flags": 11,
+                    "start": 32,
                     "end": 21
                 },
                 "operatorToken": {
@@ -81,7 +81,7 @@ async () => (await 5) ** 6;
                     "start": 24,
                     "end": 26
                 },
-                "flags": 32,
+                "flags": 43,
                 "start": 11,
                 "end": 26
             },

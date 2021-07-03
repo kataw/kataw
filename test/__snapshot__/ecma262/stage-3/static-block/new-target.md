@@ -170,7 +170,7 @@ class Base {
                                                                                         "kind": 342,
                                                                                         "parameters": [],
                                                                                         "trailingComma": false,
-                                                                                        "flags": 0,
+                                                                                        "flags": 32,
                                                                                         "start": 74,
                                                                                         "end": 74
                                                                                     },
@@ -256,8 +256,8 @@ class Base {
                                                                                     "start": 73,
                                                                                     "end": 119
                                                                                 },
-                                                                                "flags": 32,
-                                                                                "start": 71,
+                                                                                "flags": 71,
+                                                                                "start": 32,
                                                                                 "end": 120
                                                                             },
                                                                             "argumentList": {

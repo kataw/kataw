@@ -900,8 +900,8 @@ for ({}.bar = x in obj);
                                             "start": 230,
                                             "end": 236
                                         },
-                                        "flags": 32,
-                                        "start": 230,
+                                        "flags": 230,
+                                        "start": 32,
                                         "end": 236
                                     }
                                 ],
@@ -2803,8 +2803,8 @@ for ({}.bar = x in obj);
                                 "start": 744,
                                 "end": 750
                             },
-                            "flags": 32,
-                            "start": 744,
+                            "flags": 744,
+                            "start": 32,
                             "end": 750
                         }
                     ],
@@ -3166,8 +3166,8 @@ for ({}.bar = x in obj);
                     "start": 845,
                     "end": 851
                 },
-                "flags": 32,
-                "start": 845,
+                "flags": 845,
+                "start": 34,
                 "end": 852
             },
             "inKeyword": {
@@ -4677,8 +4677,8 @@ for ({}.bar = x in obj);
                         "start": 1223,
                         "end": 1230
                     },
-                    "flags": 32,
-                    "start": 1223,
+                    "flags": 1223,
+                    "start": 32,
                     "end": 1231
                 },
                 "flags": 32,
@@ -4753,12 +4753,12 @@ for ({}.bar = x in obj);
                         "start": 1246,
                         "end": 1251
                     },
-                    "flags": 32,
-                    "start": 1246,
+                    "flags": 1246,
+                    "start": 32,
                     "end": 1251
                 },
-                "flags": 32,
-                "start": 1245,
+                "flags": 1245,
+                "start": 32,
                 "end": 1252
             },
             "inKeyword": {
@@ -4819,8 +4819,8 @@ for ({}.bar = x in obj);
                     "start": 1266,
                     "end": 1271
                 },
-                "flags": 32,
-                "start": 1266,
+                "flags": 1266,
+                "start": 32,
                 "end": 1271
             },
             "inKeyword": {
@@ -6033,8 +6033,8 @@ for ({}.bar = x in obj);
                     "start": 1613,
                     "end": 1619
                 },
-                "flags": 32,
-                "start": 1613,
+                "flags": 1613,
+                "start": 32,
                 "end": 1620
             },
             "inKeyword": {
@@ -6099,8 +6099,8 @@ for ({}.bar = x in obj);
                                 "start": 1642,
                                 "end": 1643
                             },
-                            "flags": 32,
-                            "start": 1641,
+                            "flags": 1641,
+                            "start": 32,
                             "end": 1644
                         },
                         "questionToken": {
@@ -6151,12 +6151,12 @@ for ({}.bar = x in obj);
                             "start": 1647,
                             "end": 1653
                         },
-                        "flags": 32,
+                        "flags": 1641,
                         "start": 1641,
                         "end": 1653
                     },
-                    "flags": 32,
-                    "start": 1640,
+                    "flags": 1640,
+                    "start": 32,
                     "end": 1654
                 },
                 "flags": 32,

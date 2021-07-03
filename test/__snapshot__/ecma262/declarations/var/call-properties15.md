@@ -150,7 +150,7 @@ var g: { (x: Date): void } = (x) => { x * 2 } // param type (date < number)
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 30,
                                 "end": 32
                             },

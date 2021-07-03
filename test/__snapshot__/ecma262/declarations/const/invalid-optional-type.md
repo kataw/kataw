@@ -70,8 +70,8 @@ const f = (x?)
                                 "start": 9,
                                 "end": 13
                             },
-                            "flags": 32,
-                            "start": 9,
+                            "flags": 9,
+                            "start": 32,
                             "end": 14
                         },
                         "flags": 16,

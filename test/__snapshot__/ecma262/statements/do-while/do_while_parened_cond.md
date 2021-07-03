@@ -52,8 +52,8 @@ do {} while ((""));
                     "start": 14,
                     "end": 16
                 },
-                "flags": 32,
-                "start": 13,
+                "flags": 13,
+                "start": 32,
                 "end": 17
             },
             "flags": 80,

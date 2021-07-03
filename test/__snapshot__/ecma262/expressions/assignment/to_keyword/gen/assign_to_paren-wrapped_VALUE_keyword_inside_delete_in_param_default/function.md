@@ -135,12 +135,12 @@ function *f(x = delete ((function) = f)) {}
                                         "start": 25,
                                         "end": 38
                                     },
-                                    "flags": 32,
-                                    "start": 24,
+                                    "flags": 24,
+                                    "start": 32,
                                     "end": 39
                                 },
-                                "flags": 32,
-                                "start": 22,
+                                "flags": 22,
+                                "start": 32,
                                 "end": 40
                             },
                             "flags": 32,

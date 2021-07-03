@@ -44,7 +44,7 @@ delete ((x) => x)
                                 }
                             ],
                             "trailingComma": false,
-                            "flags": 0,
+                            "flags": 32,
                             "start": 9,
                             "end": 11
                         },
@@ -67,8 +67,8 @@ delete ((x) => x)
                         "start": 8,
                         "end": 16
                     },
-                    "flags": 32,
-                    "start": 6,
+                    "flags": 6,
+                    "start": 32,
                     "end": 17
                 },
                 "flags": 32,

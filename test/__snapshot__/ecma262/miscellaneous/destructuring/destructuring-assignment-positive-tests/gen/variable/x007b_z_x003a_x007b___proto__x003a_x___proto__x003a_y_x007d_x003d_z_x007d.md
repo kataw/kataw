@@ -233,8 +233,8 @@ var x, y, z; ({ z : { __proto__: x, __proto__: y } = z } = {});
                     "start": 14,
                     "end": 61
                 },
-                "flags": 32,
-                "start": 12,
+                "flags": 12,
+                "start": 34,
                 "end": 62
             },
             "flags": 16,

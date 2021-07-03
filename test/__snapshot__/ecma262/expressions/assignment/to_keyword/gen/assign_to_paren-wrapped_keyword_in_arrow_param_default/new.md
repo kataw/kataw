@@ -70,8 +70,8 @@
                                         "start": 6,
                                         "end": 9
                                     },
-                                    "flags": 32,
-                                    "start": 4,
+                                    "flags": 4,
+                                    "start": 32,
                                     "end": 10
                                 },
                                 "operatorToken": {
@@ -98,7 +98,7 @@
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 2,
+                    "flags": 34,
                     "start": 1,
                     "end": 15
                 },

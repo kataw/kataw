@@ -62,8 +62,8 @@ async (x = (var) = f) => {}
                                 "start": 12,
                                 "end": 12
                             },
-                            "flags": 32,
-                            "start": 10,
+                            "flags": 10,
+                            "start": 32,
                             "end": 12
                         },
                         "flags": 32,
@@ -72,7 +72,7 @@ async (x = (var) = f) => {}
                     }
                 ],
                 "trailingComma": false,
-                "flags": 32,
+                "flags": 34,
                 "start": 0,
                 "end": 0
             },

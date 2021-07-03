@@ -119,8 +119,8 @@ await(x);
                         "start": 51,
                         "end": 52
                     },
-                    "flags": 32,
-                    "start": 50,
+                    "flags": 50,
+                    "start": 32,
                     "end": 53
                 },
                 "flags": 32,

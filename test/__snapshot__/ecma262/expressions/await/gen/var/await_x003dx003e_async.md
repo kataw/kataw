@@ -92,8 +92,8 @@ var await; var f = (async function() { await => async });
                                 "start": 18,
                                 "end": 44
                             },
-                            "flags": 32,
-                            "start": 18,
+                            "flags": 18,
+                            "start": 32,
                             "end": 44
                         },
                         "flags": 16,

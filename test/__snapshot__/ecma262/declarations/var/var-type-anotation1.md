@@ -97,8 +97,8 @@ var foo = (async (): number => bar);
                                 "start": 11,
                                 "end": 34
                             },
-                            "flags": 32,
-                            "start": 9,
+                            "flags": 9,
+                            "start": 32,
                             "end": 35
                         },
                         "flags": 16,

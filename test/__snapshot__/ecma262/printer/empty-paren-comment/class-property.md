@@ -174,7 +174,7 @@ class Foo {
                                     "kind": 342,
                                     "parameters": [],
                                     "trailingComma": false,
-                                    "flags": 0,
+                                    "flags": 32,
                                     "start": 56,
                                     "end": 56
                                 },
@@ -304,7 +304,7 @@ class Foo {
                                     "kind": 342,
                                     "parameters": [],
                                     "trailingComma": false,
-                                    "flags": 0,
+                                    "flags": 32,
                                     "start": 114,
                                     "end": 114
                                 },

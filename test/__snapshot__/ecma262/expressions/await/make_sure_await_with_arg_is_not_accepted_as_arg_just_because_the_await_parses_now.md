@@ -85,7 +85,7 @@ async function f(){  (await fail) => x  }
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 0,
+                                    "flags": 32,
                                     "start": 22,
                                     "end": 33
                                 },

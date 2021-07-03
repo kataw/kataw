@@ -69,8 +69,8 @@ new function() {};
                         "start": 1,
                         "end": 14
                     },
-                    "flags": 32,
-                    "start": 0,
+                    "flags": 0,
+                    "start": 32,
                     "end": 15
                 },
                 "expression": {
@@ -140,8 +140,8 @@ new function() {};
                         "start": 31,
                         "end": 44
                     },
-                    "flags": 32,
-                    "start": 29,
+                    "flags": 29,
+                    "start": 32,
                     "end": 45
                 },
                 "flags": 32,
@@ -199,8 +199,8 @@ new function() {};
                             "start": 48,
                             "end": 61
                         },
-                        "flags": 32,
-                        "start": 46,
+                        "flags": 46,
+                        "start": 33,
                         "end": 62
                     },
                     "argumentList": {
@@ -276,8 +276,8 @@ new function() {};
                         "start": 69,
                         "end": 82
                     },
-                    "flags": 32,
-                    "start": 67,
+                    "flags": 67,
+                    "start": 33,
                     "end": 83
                 },
                 "template": {
@@ -347,8 +347,8 @@ new function() {};
                         "start": 92,
                         "end": 105
                     },
-                    "flags": 32,
-                    "start": 90,
+                    "flags": 90,
+                    "start": 32,
                     "end": 106
                 },
                 "argumentList": null,
@@ -403,8 +403,8 @@ new function() {};
                     "start": 109,
                     "end": 122
                 },
-                "flags": 32,
-                "start": 107,
+                "flags": 107,
+                "start": 33,
                 "end": 123
             },
             "flags": 16,
@@ -566,8 +566,8 @@ new function() {};
                     "start": 152,
                     "end": 170
                 },
-                "flags": 32,
-                "start": 150,
+                "flags": 150,
+                "start": 33,
                 "end": 171
             },
             "flags": 16,
@@ -711,10 +711,10 @@ new function() {};
 
 ```javascript
 
-(function () {}).length;
+.length;
 typeof  (function () {});
 (function () {})()``;
-(function () {})``;
+``;
 new (function () {});
 (function () {});
 a = function f() {} || b;

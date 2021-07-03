@@ -99,8 +99,8 @@ function *f(x = delete ((new) = f)) {}
                                             "start": 25,
                                             "end": 28
                                         },
-                                        "flags": 32,
-                                        "start": 24,
+                                        "flags": 24,
+                                        "start": 32,
                                         "end": 29
                                     },
                                     "operatorToken": {
@@ -121,8 +121,8 @@ function *f(x = delete ((new) = f)) {}
                                     "start": 24,
                                     "end": 33
                                 },
-                                "flags": 32,
-                                "start": 22,
+                                "flags": 22,
+                                "start": 32,
                                 "end": 34
                             },
                             "flags": 32,

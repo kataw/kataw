@@ -55,8 +55,8 @@ const foo = /*12*/class extends (Bar ?? Baz) {}
                         "start": 0,
                         "end": 11
                     },
-                    "flags": 32,
-                    "start": 0,
+                    "flags": 0,
+                    "start": 32,
                     "end": 12
                 },
                 "chain": {
@@ -151,8 +151,8 @@ const foo = /*12*/class extends (Bar ?? Baz) {}
                                         "start": 40,
                                         "end": 49
                                     },
-                                    "flags": 32,
-                                    "start": 36,
+                                    "flags": 36,
+                                    "start": 33,
                                     "end": 50
                                 },
                                 "chain": {
@@ -230,8 +230,8 @@ const foo = /*12*/class extends (Bar ?? Baz) {}
                         "start": 65,
                         "end": 69
                     },
-                    "flags": 32,
-                    "start": 57,
+                    "flags": 57,
+                    "start": 33,
                     "end": 70
                 },
                 "chain": {
@@ -296,8 +296,8 @@ const foo = /*12*/class extends (Bar ?? Baz) {}
                         "start": 88,
                         "end": 92
                     },
-                    "flags": 32,
-                    "start": 87,
+                    "flags": 87,
+                    "start": 32,
                     "end": 93
                 },
                 "flags": 32,
@@ -359,8 +359,8 @@ const foo = /*12*/class extends (Bar ?? Baz) {}
                             "start": 117,
                             "end": 126
                         },
-                        "flags": 32,
-                        "start": 115,
+                        "flags": 115,
+                        "start": 32,
                         "end": 132
                     },
                     "typeParameter": null,
@@ -442,8 +442,8 @@ const foo = /*12*/class extends (Bar ?? Baz) {}
                             "start": 156,
                             "end": 174
                         },
-                        "flags": 32,
-                        "start": 156,
+                        "flags": 156,
+                        "start": 32,
                         "end": 175
                     },
                     "typeParameter": null,
@@ -539,8 +539,8 @@ const foo = /*12*/class extends (Bar ?? Baz) {}
                                             "start": 216,
                                             "end": 228
                                         },
-                                        "flags": 32,
-                                        "start": 216,
+                                        "flags": 216,
+                                        "start": 32,
                                         "end": 229
                                     },
                                     "typeParameter": null,
@@ -596,7 +596,7 @@ async/*2*/ () => {
 }/*3*/
 (+ foo)/*4*/?./*5*/();
 + (+ foo);/*6*/
-class x extends (/*7*/+ Bar/*8*/) /*9*/{
+class x extends (+ Bar/*8*/) /*9*/{
 }
 class y extends (Bar/*10*/ ?? Baz) {
 }

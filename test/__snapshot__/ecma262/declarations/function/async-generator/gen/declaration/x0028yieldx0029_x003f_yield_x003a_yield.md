@@ -91,8 +91,8 @@ async function * gen() {(yield)
                                         "start": 25,
                                         "end": 30
                                     },
-                                    "flags": 32,
-                                    "start": 24,
+                                    "flags": 24,
+                                    "start": 32,
                                     "end": 31
                                 },
                                 "questionToken": {
@@ -137,7 +137,7 @@ async function * gen() {(yield)
                                     "start": 41,
                                     "end": 47
                                 },
-                                "flags": 32,
+                                "flags": 56,
                                 "start": 24,
                                 "end": 47
                             },
@@ -174,7 +174,7 @@ async function * gen() {(yield)
 ```javascript
 
 async function * gen() {
-  (yield ) ? yield  : yield ;
+   ? yield  : yield ;
 }
 
 ```

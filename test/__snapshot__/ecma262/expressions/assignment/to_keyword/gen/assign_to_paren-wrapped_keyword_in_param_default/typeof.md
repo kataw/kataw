@@ -72,8 +72,8 @@ async (x = (typeof) = f) => {}
                                     "start": 12,
                                     "end": 18
                                 },
-                                "flags": 32,
-                                "start": 10,
+                                "flags": 10,
+                                "start": 32,
                                 "end": 19
                             },
                             "operatorToken": {

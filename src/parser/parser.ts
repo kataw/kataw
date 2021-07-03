@@ -2587,6 +2587,7 @@ function parseConciseOrFunctionBody(
 }
 
 function parseArguments(parser: ParserState, context: Context): ArgumentList {
+  const flags = parser.nodeFlags;
   const openingParentExists = consume(
     parser,
     context | Context.AllowRegExp,
@@ -2595,7 +2596,8 @@ function parseArguments(parser: ParserState, context: Context): ArgumentList {
   );
   const result = parseArgumentList(
     parser,
-    (context | 0b00000000100000000000000010000000) ^ 0b00000000100000000000000010000000
+    (context | 0b00000000100000000000000010000000) ^ 0b00000000100000000000000010000000,
+    flags
   );
   consume(
     parser,
@@ -2606,7 +2608,7 @@ function parseArguments(parser: ParserState, context: Context): ArgumentList {
   return result;
 }
 
-function parseArgumentList(parser: ParserState, context: Context): ArgumentList {
+function parseArgumentList(parser: ParserState, context: Context, flags: NodeFlags): ArgumentList {
   const start = parser.curPos;
   const elements: ExpressionNode[] = [];
   let trailingComma = false;
@@ -2620,7 +2622,7 @@ function parseArgumentList(parser: ParserState, context: Context): ArgumentList 
     }
   }
 
-  return createArgumentList(elements, trailingComma, start, parser.curPos);
+  return createArgumentList(elements, trailingComma, flags | NodeFlags.ExpressionNode, start, parser.curPos);
 }
 
 function parseCommaOperator(
@@ -3631,10 +3633,16 @@ function parseNumericLiteral(parser: ParserState, context: Context): NumericLite
 }
 
 function parseBigIntLiteral(parser: ParserState, context: Context): BigIntLiteral {
-  const { curPos, tokenValue, tokenRaw } = parser;
+  const { curPos, tokenValue, tokenRaw, nodeFlags } = parser;
   nextToken(parser, context);
   parser.assignable = false;
-  return createBigIntLiteral(tokenValue, tokenRaw, curPos, parser.curPos);
+  return createBigIntLiteral(
+    tokenValue,
+    tokenRaw,
+    nodeFlags | NodeFlags.ExpressionNode | NodeFlags.NoChildren,
+    curPos,
+    parser.curPos
+  );
 }
 
 // StringLiteral
@@ -4514,7 +4522,7 @@ function parseCoverParenthesizedExpressionAndArrowParameterList(
   const curPos = parser.curPos;
   let typeParameters = null;
   let state = Tristate.False;
-  let flags = NodeFlags.None;
+  let flags = parser.nodeFlags | NodeFlags.ExpressionNode;
 
   if (parser.token === SyntaxKind.LessThan) {
     state = Tristate.True;
@@ -4909,7 +4917,7 @@ function parseCoverParenthesizedExpressionAndArrowParameterList(
     }
     parser.destructible = destructible;
 
-    return createParenthesizedExpression(expression, curPos, parser.curPos);
+    return createParenthesizedExpression(expression, flags, curPos, parser.curPos);
   }
 
   if (consumeOpt(parser, context, SyntaxKind.RightParen)) {
@@ -4990,7 +4998,7 @@ function parseCoverParenthesizedExpressionAndArrowParameterList(
         parser.pos
       );
     }
-    return createParenthesizedExpression(expression, curPos, parser.curPos);
+    return createParenthesizedExpression(expression, flags, curPos, parser.curPos);
   }
 
   let expressions: any = [];
@@ -5270,7 +5278,7 @@ function parseCoverParenthesizedExpressionAndArrowParameterList(
 
         parser.destructible = destructible;
 
-        return createParenthesizedExpression(expression, curPos, parser.curPos);
+        return createParenthesizedExpression(expression, flags, curPos, parser.curPos);
       }
       expressions.push(expression);
 
@@ -5357,7 +5365,7 @@ function parseCoverParenthesizedExpressionAndArrowParameterList(
 
   parser.destructible = destructible;
 
-  return createParenthesizedExpression(expression, curPos, parser.curPos);
+  return createParenthesizedExpression(expression, flags, curPos, parser.curPos);
 }
 
 function isValidReturnType(parser: ParserState, context: Context, pos: number) {
@@ -10727,7 +10735,7 @@ export function parseCoverCallExpressionAndAsyncArrowHead(
     }
     return createCallExpression(
       expr,
-      createArgumentList([], trailingComma, start, start),
+      createArgumentList([], trailingComma, flags | NodeFlags.ExpressionNode, start, start),
       flags | NodeFlags.ExpressionNode | NodeFlags.IsCallExpression,
       start,
       parser.curPos
@@ -11169,7 +11177,13 @@ export function parseCoverCallExpressionAndAsyncArrowHead(
         }
       }
 
-      const argumentList = createArgumentList(params, trailingComma, start, parser.curPos);
+      const argumentList = createArgumentList(
+        params,
+        trailingComma,
+        flags | NodeFlags.ExpressionNode,
+        start,
+        parser.curPos
+      );
       consume(parser, context, SyntaxKind.RightParen, DiagnosticCode.Expected_a_to_match_the_token_here);
       parser.assignable = false;
       return createCallExpression(
@@ -11199,7 +11213,7 @@ export function parseCoverCallExpressionAndAsyncArrowHead(
     parser.assignable = false;
     return createCallExpression(
       expr,
-      createArgumentList(params, trailingComma, start, start),
+      createArgumentList(params, trailingComma, flags | NodeFlags.ExpressionNode, start, start),
       flags | NodeFlags.ExpressionNode | NodeFlags.IsCallExpression,
       start,
       parser.curPos
@@ -11277,7 +11291,7 @@ export function parseCoverCallExpressionAndAsyncArrowHead(
   parser.assignable = false;
   return createCallExpression(
     expr,
-    createArgumentList(params, trailingComma, start, start),
+    createArgumentList(params, trailingComma, flags | NodeFlags.ExpressionNode, start, start),
     flags | NodeFlags.ExpressionNode | NodeFlags.IsCallExpression,
     start,
     parser.curPos

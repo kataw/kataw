@@ -161,8 +161,8 @@ async function * gen() {x = class extends (a ? null : await 10) { }}
                                                     "start": 41,
                                                     "end": 62
                                                 },
-                                                "flags": 32,
-                                                "start": 41,
+                                                "flags": 41,
+                                                "start": 32,
                                                 "end": 63
                                             },
                                             "typeParameter": null,

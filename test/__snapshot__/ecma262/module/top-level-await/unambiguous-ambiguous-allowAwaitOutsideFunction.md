@@ -149,8 +149,8 @@ await / 0 /u
                         "start": 36,
                         "end": 38
                     },
-                    "flags": 32,
-                    "start": 34,
+                    "flags": 34,
+                    "start": 32,
                     "end": 40
                 },
                 "flags": 32,

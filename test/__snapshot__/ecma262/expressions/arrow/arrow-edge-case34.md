@@ -85,7 +85,7 @@ let x = (y: any): ([,[b]]) => {} => { };
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 9,
                                 "end": 24
                             },

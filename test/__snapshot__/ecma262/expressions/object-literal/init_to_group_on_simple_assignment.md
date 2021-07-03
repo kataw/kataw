@@ -49,8 +49,8 @@
                                                 "start": 6,
                                                 "end": 7
                                             },
-                                            "flags": 32,
-                                            "start": 4,
+                                            "flags": 4,
+                                            "start": 32,
                                             "end": 8
                                         },
                                         "operatorToken": {
@@ -118,8 +118,8 @@
                     "start": 1,
                     "end": 19
                 },
-                "flags": 32,
-                "start": 0,
+                "flags": 0,
+                "start": 34,
                 "end": 20
             },
             "flags": 16,

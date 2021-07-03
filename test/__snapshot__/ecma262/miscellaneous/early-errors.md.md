@@ -212,8 +212,8 @@ try {} catch(e) { for(var e of 0); };
                     "start": 78,
                     "end": 87
                 },
-                "flags": 32,
-                "start": 0,
+                "flags": 0,
+                "start": 35,
                 "end": 88
             },
             "flags": 16,
@@ -247,8 +247,8 @@ try {} catch(e) { for(var e of 0); };
                     "start": 314,
                     "end": 318
                 },
-                "flags": 32,
-                "start": 89,
+                "flags": 89,
+                "start": 33,
                 "end": 319
             },
             "flags": 16,
@@ -298,8 +298,8 @@ try {} catch(e) { for(var e of 0); };
                     "start": 320,
                     "end": 330
                 },
-                "flags": 32,
-                "start": 320,
+                "flags": 320,
+                "start": 33,
                 "end": 330
             },
             "flags": 16,
@@ -337,16 +337,16 @@ try {} catch(e) { for(var e of 0); };
                             "start": 520,
                             "end": 524
                         },
-                        "flags": 32,
-                        "start": 519,
+                        "flags": 519,
+                        "start": 32,
                         "end": 525
                     },
-                    "flags": 32,
-                    "start": 518,
+                    "flags": 518,
+                    "start": 32,
                     "end": 526
                 },
-                "flags": 32,
-                "start": 331,
+                "flags": 331,
+                "start": 33,
                 "end": 527
             },
             "flags": 16,
@@ -400,16 +400,16 @@ try {} catch(e) { for(var e of 0); };
                             "start": 531,
                             "end": 540
                         },
-                        "flags": 32,
-                        "start": 531,
+                        "flags": 531,
+                        "start": 32,
                         "end": 540
                     },
-                    "flags": 32,
-                    "start": 530,
+                    "flags": 530,
+                    "start": 32,
                     "end": 541
                 },
-                "flags": 32,
-                "start": 528,
+                "flags": 528,
+                "start": 33,
                 "end": 542
             },
             "flags": 16,
@@ -582,8 +582,8 @@ try {} catch(e) { for(var e of 0); };
                     "start": 1051,
                     "end": 1061
                 },
-                "flags": 32,
-                "start": 784,
+                "flags": 784,
+                "start": 35,
                 "end": 1062
             },
             "flags": 16,
@@ -682,8 +682,8 @@ try {} catch(e) { for(var e of 0); };
                     "start": 1065,
                     "end": 1080
                 },
-                "flags": 32,
-                "start": 1063,
+                "flags": 1063,
+                "start": 35,
                 "end": 1081
             },
             "flags": 16,
@@ -791,8 +791,8 @@ try {} catch(e) { for(var e of 0); };
                     "start": 1084,
                     "end": 1100
                 },
-                "flags": 32,
-                "start": 1082,
+                "flags": 1082,
+                "start": 35,
                 "end": 1101
             },
             "flags": 16,
@@ -895,8 +895,8 @@ try {} catch(e) { for(var e of 0); };
                     "start": 1104,
                     "end": 1116
                 },
-                "flags": 32,
-                "start": 1102,
+                "flags": 1102,
+                "start": 35,
                 "end": 1117
             },
             "flags": 16,
@@ -1027,8 +1027,8 @@ try {} catch(e) { for(var e of 0); };
                         "start": 1425,
                         "end": 1428
                     },
-                    "flags": 32,
-                    "start": 1319,
+                    "flags": 1319,
+                    "start": 35,
                     "end": 1429
                 },
                 "operatorToken": {
@@ -1088,8 +1088,8 @@ try {} catch(e) { for(var e of 0); };
                         "start": 1437,
                         "end": 1440
                     },
-                    "flags": 32,
-                    "start": 1435,
+                    "flags": 1435,
+                    "start": 35,
                     "end": 1441
                 },
                 "operatorToken": {
@@ -1167,8 +1167,8 @@ try {} catch(e) { for(var e of 0); };
                     "start": 1449,
                     "end": 1457
                 },
-                "flags": 32,
-                "start": 1447,
+                "flags": 1447,
+                "start": 35,
                 "end": 1458
             },
             "flags": 16,
@@ -1983,8 +1983,8 @@ try {} catch(e) { for(var e of 0); };
                     "start": 2767,
                     "end": 2773
                 },
-                "flags": 32,
-                "start": 2766,
+                "flags": 2766,
+                "start": 34,
                 "end": 2774
             },
             "inKeyword": {
@@ -2044,8 +2044,8 @@ try {} catch(e) { for(var e of 0); };
                     "start": 2787,
                     "end": 2790
                 },
-                "flags": 32,
-                "start": 2786,
+                "flags": 2786,
+                "start": 34,
                 "end": 2791
             },
             "inKeyword": {
@@ -2121,8 +2121,8 @@ try {} catch(e) { for(var e of 0); };
                     "start": 2804,
                     "end": 2810
                 },
-                "flags": 32,
-                "start": 2803,
+                "flags": 2803,
+                "start": 34,
                 "end": 2811
             },
             "ofKeyword": {
@@ -2183,8 +2183,8 @@ try {} catch(e) { for(var e of 0); };
                     "start": 2824,
                     "end": 2827
                 },
-                "flags": 32,
-                "start": 2823,
+                "flags": 2823,
+                "start": 34,
                 "end": 2828
             },
             "ofKeyword": {
@@ -2229,8 +2229,8 @@ try {} catch(e) { for(var e of 0); };
                     "start": 2841,
                     "end": 2842
                 },
-                "flags": 32,
-                "start": 2840,
+                "flags": 2840,
+                "start": 32,
                 "end": 2843
             },
             "inKeyword": {
@@ -2276,8 +2276,8 @@ try {} catch(e) { for(var e of 0); };
                     "start": 2856,
                     "end": 2857
                 },
-                "flags": 32,
-                "start": 2855,
+                "flags": 2855,
+                "start": 32,
                 "end": 2858
             },
             "ofKeyword": {
@@ -2548,8 +2548,8 @@ try {} catch(e) { for(var e of 0); };
                     "start": 3164,
                     "end": 3183
                 },
-                "flags": 32,
-                "start": 3078,
+                "flags": 3078,
+                "start": 35,
                 "end": 3184
             },
             "flags": 16,
@@ -2649,12 +2649,12 @@ try {} catch(e) { for(var e of 0); };
                                                                                             "start": 3205,
                                                                                             "end": 3213
                                                                                         },
-                                                                                        "flags": 32,
-                                                                                        "start": 3204,
+                                                                                        "flags": 3204,
+                                                                                        "start": 32,
                                                                                         "end": 3215
                                                                                     },
-                                                                                    "flags": 32,
-                                                                                    "start": 3202,
+                                                                                    "flags": 3202,
+                                                                                    "start": 32,
                                                                                     "end": 3216
                                                                                 },
                                                                                 "flags": 16,
@@ -2712,8 +2712,8 @@ try {} catch(e) { for(var e of 0); };
                     "start": 3187,
                     "end": 3224
                 },
-                "flags": 32,
-                "start": 3185,
+                "flags": 3185,
+                "start": 35,
                 "end": 3225
             },
             "flags": 16,
@@ -3680,8 +3680,8 @@ try {} catch(e) { for(var e of 0); };
                     "start": 4081,
                     "end": 4094
                 },
-                "flags": 32,
-                "start": 4008,
+                "flags": 4008,
+                "start": 33,
                 "end": 4095
             },
             "flags": 16,
@@ -3700,8 +3700,8 @@ try {} catch(e) { for(var e of 0); };
                     "start": 4098,
                     "end": 4112
                 },
-                "flags": 32,
-                "start": 4096,
+                "flags": 4096,
+                "start": 33,
                 "end": 4113
             },
             "flags": 16,
@@ -3769,8 +3769,8 @@ try {} catch(e) { for(var e of 0); };
                     "start": 4234,
                     "end": 4244
                 },
-                "flags": 32,
-                "start": 4232,
+                "flags": 4232,
+                "start": 34,
                 "end": 4245
             },
             "flags": 16,
@@ -3852,8 +3852,8 @@ try {} catch(e) { for(var e of 0); };
                     "start": 4262,
                     "end": 4276
                 },
-                "flags": 32,
-                "start": 4260,
+                "flags": 4260,
+                "start": 34,
                 "end": 4277
             },
             "flags": 16,
@@ -3921,8 +3921,8 @@ try {} catch(e) { for(var e of 0); };
                     "start": 4294,
                     "end": 4309
                 },
-                "flags": 32,
-                "start": 4292,
+                "flags": 4292,
+                "start": 34,
                 "end": 4310
             },
             "flags": 16,
@@ -4004,8 +4004,8 @@ try {} catch(e) { for(var e of 0); };
                     "start": 4327,
                     "end": 4346
                 },
-                "flags": 32,
-                "start": 4325,
+                "flags": 4325,
+                "start": 34,
                 "end": 4347
             },
             "flags": 16,
@@ -4490,7 +4490,7 @@ try {} catch(e) { for(var e of 0); };
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 2,
+                                    "flags": 34,
                                     "start": 4712,
                                     "end": 4722
                                 },
@@ -4626,7 +4626,7 @@ try {} catch(e) { for(var e of 0); };
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 2,
+                                    "flags": 34,
                                     "start": 4748,
                                     "end": 4760
                                 },
@@ -4767,7 +4767,7 @@ try {} catch(e) { for(var e of 0); };
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 2,
+                                    "flags": 34,
                                     "start": 4786,
                                     "end": 4799
                                 },
@@ -4939,7 +4939,7 @@ try {} catch(e) { for(var e of 0); };
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 2,
+                                    "flags": 34,
                                     "start": 4825,
                                     "end": 4842
                                 },
@@ -5087,7 +5087,7 @@ try {} catch(e) { for(var e of 0); };
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 2,
+                                    "flags": 34,
                                     "start": 4868,
                                     "end": 4881
                                 },
@@ -5231,7 +5231,7 @@ try {} catch(e) { for(var e of 0); };
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 2,
+                                    "flags": 34,
                                     "start": 4907,
                                     "end": 4919
                                 },
@@ -5375,7 +5375,7 @@ try {} catch(e) { for(var e of 0); };
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 2,
+                                    "flags": 34,
                                     "start": 4945,
                                     "end": 4957
                                 },

@@ -100,7 +100,7 @@
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 0,
+                    "flags": 32,
                     "start": 8,
                     "end": 10
                 },

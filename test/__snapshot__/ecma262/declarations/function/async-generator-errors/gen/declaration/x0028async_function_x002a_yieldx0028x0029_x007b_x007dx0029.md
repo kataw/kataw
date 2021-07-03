@@ -128,8 +128,8 @@ async function * gen() {(async function * yield() { })}
                                     "start": 25,
                                     "end": 53
                                 },
-                                "flags": 32,
-                                "start": 24,
+                                "flags": 24,
+                                "start": 32,
                                 "end": 54
                             },
                             "flags": 16,

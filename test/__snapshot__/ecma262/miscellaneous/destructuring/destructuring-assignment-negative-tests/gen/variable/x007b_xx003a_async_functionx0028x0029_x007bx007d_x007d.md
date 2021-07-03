@@ -196,8 +196,8 @@ var x, y, z; ({ x: async function() {} } = {});
                     "start": 14,
                     "end": 45
                 },
-                "flags": 32,
-                "start": 12,
+                "flags": 12,
+                "start": 34,
                 "end": 46
             },
             "flags": 16,

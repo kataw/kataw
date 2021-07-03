@@ -885,7 +885,7 @@ let x = { foo(){ super(); } };
                     "kind": 342,
                     "parameters": [],
                     "trailingComma": false,
-                    "flags": 0,
+                    "flags": 32,
                     "start": 248,
                     "end": 248
                 },

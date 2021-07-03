@@ -112,8 +112,8 @@
                     "start": 1,
                     "end": 18
                 },
-                "flags": 32,
-                "start": 0,
+                "flags": 0,
+                "start": 34,
                 "end": 19
             },
             "flags": 16,
@@ -182,8 +182,8 @@
                     "start": 23,
                     "end": 33
                 },
-                "flags": 32,
-                "start": 20,
+                "flags": 20,
+                "start": 35,
                 "end": 34
             },
             "flags": 16,
@@ -236,8 +236,8 @@
                             "start": 38,
                             "end": 43
                         },
-                        "flags": 32,
-                        "start": 37,
+                        "flags": 37,
+                        "start": 34,
                         "end": 44
                     },
                     "operatorToken": {
@@ -258,8 +258,8 @@
                     "start": 37,
                     "end": 49
                 },
-                "flags": 32,
-                "start": 35,
+                "flags": 35,
+                "start": 33,
                 "end": 50
             },
             "flags": 16,
@@ -306,8 +306,8 @@
                         "start": 51,
                         "end": 58
                     },
-                    "flags": 32,
-                    "start": 51,
+                    "flags": 51,
+                    "start": 35,
                     "end": 59
                 },
                 "flags": 32,
@@ -410,8 +410,8 @@
                     "start": 64,
                     "end": 81
                 },
-                "flags": 32,
-                "start": 62,
+                "flags": 62,
+                "start": 35,
                 "end": 82
             },
             "flags": 16,

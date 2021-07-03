@@ -71,8 +71,8 @@ do( class x {} while
                         "start": 3,
                         "end": 14
                     },
-                    "flags": 32,
-                    "start": 2,
+                    "flags": 2,
+                    "start": 32,
                     "end": 14
                 },
                 "flags": 16,

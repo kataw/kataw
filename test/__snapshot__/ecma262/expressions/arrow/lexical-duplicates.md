@@ -115,7 +115,7 @@ a = b => { let b; };
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 2,
+                    "flags": 34,
                     "start": 1,
                     "end": 10
                 },
@@ -161,7 +161,7 @@ a = b => { let b; };
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 0,
+                    "flags": 33,
                     "start": 18,
                     "end": 20
                 },
@@ -223,7 +223,7 @@ a = b => { let b; };
                     "start": 23,
                     "end": 33
                 },
-                "flags": 32,
+                "flags": 33,
                 "start": 15,
                 "end": 33
             },
@@ -250,7 +250,7 @@ a = b => { let b; };
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 0,
+                    "flags": 33,
                     "start": 36,
                     "end": 38
                 },
@@ -319,7 +319,7 @@ a = b => { let b; };
                     "start": 41,
                     "end": 57
                 },
-                "flags": 32,
+                "flags": 33,
                 "start": 33,
                 "end": 57
             },
@@ -362,7 +362,7 @@ a = b => { let b; };
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 0,
+                    "flags": 33,
                     "start": 60,
                     "end": 68
                 },
@@ -387,7 +387,7 @@ a = b => { let b; };
                     "start": 71,
                     "end": 74
                 },
-                "flags": 32,
+                "flags": 33,
                 "start": 57,
                 "end": 74
             },
@@ -1047,7 +1047,7 @@ a = b => { let b; };
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 2,
+                    "flags": 35,
                     "start": 226,
                     "end": 233
                 },
@@ -1072,7 +1072,7 @@ a = b => { let b; };
                     "start": 236,
                     "end": 239
                 },
-                "flags": 34,
+                "flags": 35,
                 "start": 223,
                 "end": 239
             },
@@ -1137,7 +1137,7 @@ a = b => { let b; };
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 2,
+                    "flags": 35,
                     "start": 243,
                     "end": 256
                 },
@@ -1162,7 +1162,7 @@ a = b => { let b; };
                     "start": 259,
                     "end": 262
                 },
-                "flags": 34,
+                "flags": 35,
                 "start": 240,
                 "end": 262
             },
@@ -1212,7 +1212,7 @@ a = b => { let b; };
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 2,
+                    "flags": 35,
                     "start": 266,
                     "end": 273
                 },
@@ -1237,7 +1237,7 @@ a = b => { let b; };
                     "start": 276,
                     "end": 279
                 },
-                "flags": 34,
+                "flags": 35,
                 "start": 263,
                 "end": 279
             },
@@ -1295,7 +1295,7 @@ a = b => { let b; };
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 2,
+                    "flags": 35,
                     "start": 283,
                     "end": 293
                 },
@@ -1320,7 +1320,7 @@ a = b => { let b; };
                     "start": 296,
                     "end": 299
                 },
-                "flags": 34,
+                "flags": 35,
                 "start": 280,
                 "end": 299
             },
@@ -1378,7 +1378,7 @@ a = b => { let b; };
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 2,
+                    "flags": 35,
                     "start": 303,
                     "end": 313
                 },
@@ -1403,7 +1403,7 @@ a = b => { let b; };
                     "start": 316,
                     "end": 319
                 },
-                "flags": 34,
+                "flags": 35,
                 "start": 300,
                 "end": 319
             },
@@ -1469,7 +1469,7 @@ a = b => { let b; };
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 2,
+                    "flags": 35,
                     "start": 323,
                     "end": 336
                 },
@@ -1494,7 +1494,7 @@ a = b => { let b; };
                     "start": 339,
                     "end": 342
                 },
-                "flags": 34,
+                "flags": 35,
                 "start": 320,
                 "end": 342
             },
@@ -1559,7 +1559,7 @@ a = b => { let b; };
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 2,
+                    "flags": 35,
                     "start": 346,
                     "end": 356
                 },
@@ -1578,7 +1578,7 @@ a = b => { let b; };
                     "start": 359,
                     "end": 361
                 },
-                "flags": 34,
+                "flags": 35,
                 "start": 343,
                 "end": 361
             },
@@ -1636,7 +1636,7 @@ a = b => { let b; };
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 2,
+                    "flags": 35,
                     "start": 365,
                     "end": 373
                 },
@@ -1705,7 +1705,7 @@ a = b => { let b; };
                     "start": 376,
                     "end": 393
                 },
-                "flags": 34,
+                "flags": 35,
                 "start": 362,
                 "end": 393
             },
@@ -1885,7 +1885,7 @@ a = b => { let b; };
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 2,
+                    "flags": 35,
                     "start": 419,
                     "end": 432
                 },
@@ -1904,7 +1904,7 @@ a = b => { let b; };
                     "start": 435,
                     "end": 437
                 },
-                "flags": 34,
+                "flags": 35,
                 "start": 416,
                 "end": 437
             },
@@ -2004,7 +2004,7 @@ a = b => { let b; };
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 2,
+                    "flags": 35,
                     "start": 441,
                     "end": 460
                 },
@@ -2066,7 +2066,7 @@ a = b => { let b; };
                     "start": 463,
                     "end": 474
                 },
-                "flags": 34,
+                "flags": 35,
                 "start": 438,
                 "end": 474
             },

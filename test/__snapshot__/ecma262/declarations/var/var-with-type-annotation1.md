@@ -109,7 +109,7 @@ var x = ({ a } : any = 'foo') => {}
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 2,
+                                "flags": 34,
                                 "start": 9,
                                 "end": 29
                             },

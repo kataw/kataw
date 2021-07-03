@@ -64,8 +64,8 @@ function bar(a = (v)) {
                                 "start": 18,
                                 "end": 19
                             },
-                            "flags": 32,
-                            "start": 16,
+                            "flags": 16,
+                            "start": 32,
                             "end": 20
                         },
                         "flags": 34,
@@ -143,8 +143,8 @@ function bar(a = (v)) {
                                 "start": 45,
                                 "end": 46
                             },
-                            "flags": 32,
-                            "start": 43,
+                            "flags": 43,
+                            "start": 32,
                             "end": 47
                         },
                         "flags": 34,
@@ -190,7 +190,7 @@ function bar(a = (v)) {
 
 ```javascript
 
-function foo(a = (v)) {}
+function foo(a = ) {}
 function bar(a = (v)) {
 }
 

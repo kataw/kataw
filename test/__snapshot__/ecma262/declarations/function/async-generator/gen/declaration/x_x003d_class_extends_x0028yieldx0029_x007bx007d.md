@@ -124,8 +124,8 @@ async function * gen() {x = class extends (yield) {}}
                                                     "start": 43,
                                                     "end": 48
                                                 },
-                                                "flags": 32,
-                                                "start": 41,
+                                                "flags": 41,
+                                                "start": 32,
                                                 "end": 49
                                             },
                                             "typeParameter": null,

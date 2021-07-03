@@ -90,8 +90,8 @@ async (x = delete ((in) = f)) => {}
                                             "start": 20,
                                             "end": 22
                                         },
-                                        "flags": 32,
-                                        "start": 19,
+                                        "flags": 19,
+                                        "start": 32,
                                         "end": 23
                                     },
                                     "operatorToken": {
@@ -112,8 +112,8 @@ async (x = delete ((in) = f)) => {}
                                     "start": 19,
                                     "end": 27
                                 },
-                                "flags": 32,
-                                "start": 17,
+                                "flags": 17,
+                                "start": 32,
                                 "end": 28
                             },
                             "flags": 32,

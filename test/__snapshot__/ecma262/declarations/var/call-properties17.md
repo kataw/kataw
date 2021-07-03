@@ -141,7 +141,7 @@ var b: { (x: number): number } = (x) => "hi"
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 34,
                                 "end": 36
                             },

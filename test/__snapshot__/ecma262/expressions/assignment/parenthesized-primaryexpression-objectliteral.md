@@ -71,8 +71,8 @@ function _() {
                                         "start": 18,
                                         "end": 20
                                     },
-                                    "flags": 32,
-                                    "start": 14,
+                                    "flags": 14,
+                                    "start": 35,
                                     "end": 21
                                 },
                                 "operatorToken": {

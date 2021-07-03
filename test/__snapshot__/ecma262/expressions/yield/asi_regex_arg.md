@@ -84,8 +84,8 @@ function *f() {
                                     "start": 19,
                                     "end": 35
                                 },
-                                "flags": 32,
-                                "start": 15,
+                                "flags": 15,
+                                "start": 33,
                                 "end": 39
                             },
                             "flags": 16,

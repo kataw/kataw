@@ -106,8 +106,8 @@ function* fn() {
                                     "start": 20,
                                     "end": 39
                                 },
-                                "flags": 32,
-                                "start": 16,
+                                "flags": 16,
+                                "start": 33,
                                 "end": 40
                             },
                             "flags": 16,

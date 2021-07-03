@@ -144,7 +144,7 @@ async function fn() {
                                                     }
                                                 ],
                                                 "trailingComma": false,
-                                                "flags": 32,
+                                                "flags": 34,
                                                 "start": 34,
                                                 "end": 34
                                             },

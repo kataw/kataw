@@ -113,7 +113,7 @@ fn = ({text = "default", ...props}) => text + props.children
                             }
                         ],
                         "trailingComma": false,
-                        "flags": 2,
+                        "flags": 34,
                         "start": 6,
                         "end": 35
                     },

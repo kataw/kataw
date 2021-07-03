@@ -58,7 +58,7 @@ x = (interface) => { 'use strict'; 0 } ;
                             }
                         ],
                         "trailingComma": false,
-                        "flags": 0,
+                        "flags": 32,
                         "start": 5,
                         "end": 15
                     },

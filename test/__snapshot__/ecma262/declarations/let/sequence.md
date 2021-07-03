@@ -118,8 +118,8 @@ let d = (1, 2, 3);
                                                 "start": 13,
                                                 "end": 24
                                             },
-                                            "flags": 32,
-                                            "start": 13,
+                                            "flags": 13,
+                                            "start": 32,
                                             "end": 24
                                         },
                                         "flags": 32,
@@ -139,8 +139,8 @@ let d = (1, 2, 3);
                                 "start": 7,
                                 "end": 27
                             },
-                            "flags": 32,
-                            "start": 7,
+                            "flags": 7,
+                            "start": 32,
                             "end": 28
                         },
                         "flags": 16,
@@ -208,7 +208,7 @@ let d = (1, 2, 3);
                                                 }
                                             ],
                                             "trailingComma": false,
-                                            "flags": 0,
+                                            "flags": 32,
                                             "start": 40,
                                             "end": 45
                                         },
@@ -265,8 +265,8 @@ let d = (1, 2, 3);
                                                 "start": 48,
                                                 "end": 59
                                             },
-                                            "flags": 32,
-                                            "start": 48,
+                                            "flags": 48,
+                                            "start": 32,
                                             "end": 59
                                         },
                                         "flags": 32,
@@ -286,8 +286,8 @@ let d = (1, 2, 3);
                                 "start": 37,
                                 "end": 62
                             },
-                            "flags": 32,
-                            "start": 37,
+                            "flags": 37,
+                            "start": 32,
                             "end": 63
                         },
                         "flags": 16,
@@ -380,8 +380,8 @@ let d = (1, 2, 3);
                                     "start": 74,
                                     "end": 84
                                 },
-                                "flags": 32,
-                                "start": 72,
+                                "flags": 72,
+                                "start": 32,
                                 "end": 85
                             },
                             "argumentList": {
@@ -474,8 +474,8 @@ let d = (1, 2, 3);
                                 "start": 97,
                                 "end": 106
                             },
-                            "flags": 32,
-                            "start": 97,
+                            "flags": 97,
+                            "start": 32,
                             "end": 107
                         },
                         "flags": 16,
@@ -505,7 +505,7 @@ let d = (1, 2, 3);
 
 ```javascript
 
-let a = (x => (x, x * 2), 3);
+let a = (x => , 3);
 let b = ((x, y) => (x, x * y), 1);
 let c = (x => x * x)(2);
 let d = (1, 2, 3);

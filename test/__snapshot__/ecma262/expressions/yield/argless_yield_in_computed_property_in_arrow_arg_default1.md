@@ -133,7 +133,7 @@ function *g(){ (x = {[yield]: 1}) => z }
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 2,
+                                    "flags": 34,
                                     "start": 16,
                                     "end": 33
                                 },

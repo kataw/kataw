@@ -73,8 +73,8 @@ async (x = (new) = f) => {}
                                     "start": 12,
                                     "end": 15
                                 },
-                                "flags": 32,
-                                "start": 10,
+                                "flags": 10,
+                                "start": 32,
                                 "end": 16
                             },
                             "operatorToken": {

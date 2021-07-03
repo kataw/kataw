@@ -98,8 +98,8 @@ function *f(){
                                         "start": 18,
                                         "end": 28
                                     },
-                                    "flags": 32,
-                                    "start": 14,
+                                    "flags": 14,
+                                    "start": 33,
                                     "end": 29
                                 },
                                 "operatorToken": {

@@ -66,8 +66,8 @@ var foo = async ([(foo)]);
                                                         "start": 19,
                                                         "end": 22
                                                     },
-                                                    "flags": 32,
-                                                    "start": 18,
+                                                    "flags": 18,
+                                                    "start": 32,
                                                     "end": 23
                                                 }
                                             ],
@@ -82,7 +82,7 @@ var foo = async ([(foo)]);
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 32,
+                                "flags": 34,
                                 "start": 9,
                                 "end": 9
                             },

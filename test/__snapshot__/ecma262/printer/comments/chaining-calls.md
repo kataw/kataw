@@ -183,7 +183,7 @@ request
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 115,
                                 "end": 131
                             },

@@ -73,7 +73,7 @@
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 0,
+                    "flags": 32,
                     "start": 1,
                     "end": 11
                 },
@@ -150,7 +150,7 @@
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 0,
+                    "flags": 33,
                     "start": 20,
                     "end": 33
                 },
@@ -169,7 +169,7 @@
                     "start": 36,
                     "end": 38
                 },
-                "flags": 32,
+                "flags": 33,
                 "start": 17,
                 "end": 38
             },
@@ -234,7 +234,7 @@
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 2,
+                    "flags": 35,
                     "start": 42,
                     "end": 54
                 },
@@ -253,7 +253,7 @@
                     "start": 57,
                     "end": 59
                 },
-                "flags": 34,
+                "flags": 35,
                 "start": 39,
                 "end": 59
             },
@@ -318,7 +318,7 @@
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 2,
+                    "flags": 35,
                     "start": 63,
                     "end": 75
                 },
@@ -337,7 +337,7 @@
                     "start": 78,
                     "end": 80
                 },
-                "flags": 34,
+                "flags": 35,
                 "start": 60,
                 "end": 80
             },

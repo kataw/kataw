@@ -300,8 +300,8 @@ L: let
                     "start": 71,
                     "end": 89
                 },
-                "flags": 32,
-                "start": 68,
+                "flags": 68,
+                "start": 33,
                 "end": 90
             },
             "flags": 16,
@@ -697,8 +697,8 @@ L: let
                     "start": 200,
                     "end": 224
                 },
-                "flags": 32,
-                "start": 197,
+                "flags": 197,
+                "start": 33,
                 "end": 225
             },
             "flags": 16,
@@ -906,8 +906,8 @@ L: let
                         "start": 276,
                         "end": 286
                     },
-                    "flags": 32,
-                    "start": 273,
+                    "flags": 273,
+                    "start": 35,
                     "end": 287
                 },
                 "argumentList": {
@@ -998,7 +998,7 @@ L: let
                         }
                     ],
                     "trailingComma": false,
-                    "flags": 32,
+                    "flags": 33,
                     "start": 290,
                     "end": 309
                 },

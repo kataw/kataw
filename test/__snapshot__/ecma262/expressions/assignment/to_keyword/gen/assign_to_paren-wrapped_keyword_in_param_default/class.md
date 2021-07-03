@@ -81,8 +81,8 @@ async (x = (class) = f) => {}
                                     "start": 12,
                                     "end": 17
                                 },
-                                "flags": 32,
-                                "start": 10,
+                                "flags": 10,
+                                "start": 32,
                                 "end": 18
                             },
                             "operatorToken": {

@@ -487,7 +487,7 @@ new async function() { await 0 }.x
                                         }
                                     ],
                                     "trailingComma": false,
-                                    "flags": 32,
+                                    "flags": 33,
                                     "start": 135,
                                     "end": 167
                                 },
@@ -571,7 +571,7 @@ new async function() { await 0 }.x
                                     }
                                 ],
                                 "trailingComma": false,
-                                "flags": 32,
+                                "flags": 33,
                                 "start": 170,
                                 "end": 198
                             },
@@ -670,7 +670,7 @@ new async function() { await 0 }.x
                                 }
                             ],
                             "trailingComma": false,
-                            "flags": 32,
+                            "flags": 33,
                             "start": 201,
                             "end": 236
                         },
@@ -762,7 +762,7 @@ new async function() { await 0 }.x
                             }
                         ],
                         "trailingComma": false,
-                        "flags": 32,
+                        "flags": 33,
                         "start": 239,
                         "end": 270
                     },

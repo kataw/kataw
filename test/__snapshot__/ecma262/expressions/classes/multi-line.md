@@ -74,8 +74,8 @@ class C extends (
                             "start": 15,
                             "end": 28
                         },
-                        "flags": 32,
-                        "start": 15,
+                        "flags": 15,
+                        "start": 32,
                         "end": 28
                     },
                     "typeParameter": null,

@@ -66,12 +66,12 @@ a ? (({b})) => {} : c
                             "start": 6,
                             "end": 9
                         },
-                        "flags": 32,
-                        "start": 5,
+                        "flags": 5,
+                        "start": 34,
                         "end": 10
                     },
-                    "flags": 32,
-                    "start": 3,
+                    "flags": 3,
+                    "start": 32,
                     "end": 11
                 },
                 "colonToken": null,

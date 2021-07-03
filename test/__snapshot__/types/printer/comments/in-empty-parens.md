@@ -76,7 +76,7 @@ f(/* ... */ a, b);
                                 "kind": 342,
                                 "parameters": [],
                                 "trailingComma": false,
-                                "flags": 0,
+                                "flags": 32,
                                 "start": 9,
                                 "end": 9
                             },
@@ -163,8 +163,8 @@ f(/* ... */ a, b);
                         "start": 27,
                         "end": 50
                     },
-                    "flags": 32,
-                    "start": 25,
+                    "flags": 25,
+                    "start": 33,
                     "end": 51
                 },
                 "argumentList": {
@@ -324,7 +324,7 @@ f(/* ... */ a, b);
                                                 "kind": 342,
                                                 "parameters": [],
                                                 "trailingComma": false,
-                                                "flags": 0,
+                                                "flags": 32,
                                                 "start": 128,
                                                 "end": 128
                                             },
@@ -595,7 +595,7 @@ f(/* ... */ a, b);
                                     "kind": 342,
                                     "parameters": [],
                                     "trailingComma": false,
-                                    "flags": 0,
+                                    "flags": 32,
                                     "start": 245,
                                     "end": 245
                                 },
@@ -713,7 +713,7 @@ f(/* ... */ a, b);
                                     "kind": 342,
                                     "parameters": [],
                                     "trailingComma": false,
-                                    "flags": 0,
+                                    "flags": 32,
                                     "start": 300,
                                     "end": 300
                                 },

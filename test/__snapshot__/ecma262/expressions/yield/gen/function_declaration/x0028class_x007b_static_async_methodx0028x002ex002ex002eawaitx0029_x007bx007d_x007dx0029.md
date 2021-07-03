@@ -176,8 +176,8 @@ function not_gen() { (class { static async method(...await) {} }) }}
                                     "start": 22,
                                     "end": 64
                                 },
-                                "flags": 32,
-                                "start": 20,
+                                "flags": 20,
+                                "start": 32,
                                 "end": 65
                             },
                             "flags": 16,
