@@ -455,7 +455,7 @@ declare var tup: [{foo: string}, {bar: number}];
 
 var arrOfObjs: Array<{ foo: string }>;
 var roArrOfObjs: $ReadOnlyArray<{ foo: string }>;
-var tup: [{ foo: string }, { bar: number }];
+var tup: [[{ foo: string }, { bar: number }]];
 
 ```
 

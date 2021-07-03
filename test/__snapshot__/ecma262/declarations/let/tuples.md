@@ -784,24 +784,24 @@ let tests = [
 ```javascript
 
 let tests = [
-  function (t: [number]) {
+  function (t: [[number]]) {
     t[1];// error, out of bounds
     t[- 1];// error, out of bounds
   },
    // toString's to an invalid index
-  function (t: [number, string]) {
+  function (t: [[number, string]]) {
     t[0.5];// error: index out of bounds
     t[0.0000000000000000000001];// error: index ("1e-22") out of bounds
   },
    // through a variable
-  function (t: [number]) {
+  function (t: [[number]]) {
     const x = 0.5;
     t[x];// error, not an integer
   },
    // Return length from a function with mismatched return type.
   function () {
      // error: tuple length 2 !~> string
-    function a(x: [1, 2]): string {
+    function a(x: [[1, 2]]): string {
       return x.length;
     }
   },

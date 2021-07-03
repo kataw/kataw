@@ -460,7 +460,7 @@ function remove<A, B>(a: A): [$Rest<A, {p: B}>, B] {
 
 ```javascript
 
-function remove<A, B> (a: A): [$Rest<A, { p: B }>, B] {
+function remove<A, B> (a: A): [[$Rest<A, { p: B }>, B]] {
   const {
     p,
     ...o
